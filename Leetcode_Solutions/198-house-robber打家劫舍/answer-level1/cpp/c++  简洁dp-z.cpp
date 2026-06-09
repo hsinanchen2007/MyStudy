@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int rob(vector<int>& nums) { 
@@ -18,11 +18,11 @@ public:
         return d[n-1];
     }
 };
-```
+// ```
 
-### 优化
+// ### 优化
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int rob(vector<int>& nums) { 
@@ -37,4 +37,4 @@ public:
     }
 };
 
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-#### 保存链表头结点的方式
-```
+// ### 解题思路
+// #### 保存链表头结点的方式
+// ```
 	oddHead, evenHead := &ListNode{}, &ListNode{}
 	odd, even := oddHead, evenHead
-```
-### 代码
+// ```
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -38,4 +38,4 @@ func oddEvenList(head *ListNode) *ListNode {
 
 	return oddHead
 }
-```
+// ```

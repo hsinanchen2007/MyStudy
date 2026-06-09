@@ -1,8 +1,8 @@
-1. straight forward的解法
+// 1. straight forward的解法
 
-反复从根开始遍历， 把叶子节点加入结果集中，并删除叶子节点， 直到只剩下根节点为止。最后把根加入结果集。
+// 反复从根开始遍历， 把叶子节点加入结果集中，并删除叶子节点， 直到只剩下根节点为止。最后把根加入结果集。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findLeaves(TreeNode* root) {
@@ -35,14 +35,14 @@ public:
         if(root->right != nullptr) dfs(root->right, leaves);
     }
 };
-```
+// ```
 
-2. 肯定有比第一种方法更快的解法。
-那么我们采取后续遍历，把叶子节点作为计算高度的起点，使用一个map， key就是结点的高度，
-把相同高度的节点放在一起， 拷贝进结果集中。
+// 2. 肯定有比第一种方法更快的解法。
+// 那么我们采取后续遍历，把叶子节点作为计算高度的起点，使用一个map， key就是结点的高度，
+// 把相同高度的节点放在一起， 拷贝进结果集中。
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findLeaves(TreeNode* root) {
@@ -63,12 +63,12 @@ public:
         return h;
     }
 };
-```
+// ```
 
-3. 更近一步， 我们可以省略map, 直接把结果放进vector<vector<int>>中。
-需要注意的是， vector的下标为height-1; 而且需要时时resize vector
+// 3. 更近一步， 我们可以省略map, 直接把结果放进vector<vector<int>>中。
+// 需要注意的是， vector的下标为height-1; 而且需要时时resize vector
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findLeaves(TreeNode* root) {
@@ -86,4 +86,4 @@ public:
         return h;
     }
 };
-```
+// ```

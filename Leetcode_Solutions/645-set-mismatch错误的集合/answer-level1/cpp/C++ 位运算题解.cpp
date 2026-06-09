@@ -1,12 +1,12 @@
-### 解题思路
-1，先利用位运算找到这两个数
-2，计算当前数组和与理论和的大小关系确定最终结果
-空间复杂度 O(1)
-时间负责度 O(n)
+// ### 解题思路
+// 1，先利用位运算找到这两个数
+// 2，计算当前数组和与理论和的大小关系确定最终结果
+// 空间复杂度 O(1)
+// 时间负责度 O(n)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findErrorNums(vector<int>& nums) {
@@ -42,6 +42,6 @@ public:
         return {n1, n2};
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/6f9f38facb950bf9c2af102da2e1e283c5760474a678f121d5beb5de7dc2cb84-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6f9f38facb950bf9c2af102da2e1e283c5760474a678f121d5beb5de7dc2cb84-image.png)

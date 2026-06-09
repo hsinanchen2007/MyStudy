@@ -1,12 +1,12 @@
-### 解题思路
-提交完了才发现有大神用Counter 之后做减法, 有剩余就是Flase.
-其实做题就是练手. 
-思路加注释了
+# ### 解题思路
+# 提交完了才发现有大神用Counter 之后做减法, 有剩余就是Flase.
+# 其实做题就是练手. 
+# 思路加注释了
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
@@ -24,4 +24,4 @@ class Solution:
                     flag = True
         return flag
                 
-```
+# ```

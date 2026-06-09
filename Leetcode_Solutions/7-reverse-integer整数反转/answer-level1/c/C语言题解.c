@@ -1,4 +1,4 @@
-```
+// ```
 int reverse(int x){
 	int max = 0x7fffffff, min = 0x80000000; 
 	if (x == min || x == max) //如果没有这个判断，是无法得到x = -x的
@@ -30,6 +30,6 @@ int reverse(int x){
 		return -ret;
 	return ret;
 }
-```
-在学习了原码，反码，补码的基础上写出的答案。
+// ```
+// 在学习了原码，反码，补码的基础上写出的答案。
 

@@ -1,9 +1,9 @@
-### 解题思路
-先求出grid[i][j]的面积，对所有grid[i][j] 求和，然后再减去相邻格子被覆盖的面积
+# ### 解题思路
+# 先求出grid[i][j]的面积，对所有grid[i][j] 求和，然后再减去相邻格子被覆盖的面积
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def surfaceArea(self, grid):
         """
@@ -31,4 +31,4 @@ class Solution(object):
         return total-2*cover
 
 
-```
+# ```

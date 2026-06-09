@@ -1,11 +1,11 @@
-### 解题思路
-学习[@z1m](/u/z1m/)大佬
-[大佬详细讲解传送门](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/solution/tan-xin-by-z1m/)
+// ### 解题思路
+// 学习[@z1m](/u/z1m/)大佬
+// [大佬详细讲解传送门](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/solution/tan-xin-by-z1m/)
 
-### 知识点：贪心思想 + 辅助栈
+// ### 知识点：贪心思想 + 辅助栈
 
-### 代码
-```golang
+// ### 代码
+// ```golang
 func validateStackSequences(pushed []int, popped []int) bool {
 	stack := make([]int,0)	//	辅助栈
 	//	按照pushed顺序将元素压入stack中
@@ -33,4 +33,4 @@ func main() {
 	popped := []int{4, 5, 3, 2, 1}
 	fmt.Println(validateStackSequences(pushed, popped))
 }
-```
+// ```

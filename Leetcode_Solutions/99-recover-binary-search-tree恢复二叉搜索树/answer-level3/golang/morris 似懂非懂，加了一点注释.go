@@ -1,9 +1,9 @@
-### 解题思路
-    //第一圈建立虚线连接，到了最左之后返回，一路向右right
-    //第二圈是原本的中序输出顺序，在此时作比较
-### 代码
+// ### 解题思路
+//     //第一圈建立虚线连接，到了最左之后返回，一路向右right
+//     //第二圈是原本的中序输出顺序，在此时作比较
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -51,4 +51,4 @@ func recoverTree(root *TreeNode) {
 	first.Val, second.Val = second.Val, first.Val
 }
 
-```
+// ```

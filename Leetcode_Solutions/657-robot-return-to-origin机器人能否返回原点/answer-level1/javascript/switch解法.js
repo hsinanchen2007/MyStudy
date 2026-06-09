@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var judgeCircle = function (moves) {
     let lrcount = 0
     let udcount = 0
@@ -27,4 +27,4 @@ var judgeCircle = function (moves) {
  *  1. 为了避免冲突，我们使用两个变量来控制，一个是控制左右，一个是控制上下
  *  2 最后同时判断这两个变量是否为0
  */
-```
+// ```

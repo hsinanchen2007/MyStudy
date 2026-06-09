@@ -1,7 +1,7 @@
-使用一个队列按层序保存完全二叉树所有【还可以继续插入新节点】的节点。
-然后每次插入时，只需要在队列的第一个位置的节点插入即可。
+// 使用一个队列按层序保存完全二叉树所有【还可以继续插入新节点】的节点。
+// 然后每次插入时，只需要在队列的第一个位置的节点插入即可。
 
-```java
+// ```java
 class CBTInserter {
     // 保存有一个或两个null指针的节点
     private Queue<TreeNode> queue = new ArrayDeque<>();
@@ -33,4 +33,4 @@ class CBTInserter {
         return this.root;
     }
 }
-```
+// ```

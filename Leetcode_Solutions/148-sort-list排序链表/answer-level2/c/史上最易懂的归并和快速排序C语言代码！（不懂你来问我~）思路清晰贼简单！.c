@@ -1,14 +1,14 @@
-执行用时 :
-24 ms
-, 在所有 c 提交中击败了
-86.40%
-的用户
-内存消耗 :
-9.9 MB
-, 在所有 c 提交中击败了
-90.00%
-的用户
-```
+// 执行用时 :
+// 24 ms
+// , 在所有 c 提交中击败了
+// 86.40%
+// 的用户
+// 内存消耗 :
+// 9.9 MB
+// , 在所有 c 提交中击败了
+// 90.00%
+// 的用户
+// ```
 struct ListNode* sortList(struct ListNode* head)
 {
     if(!head||!(head->next)) return head;
@@ -69,8 +69,8 @@ struct ListNode* sortList(struct ListNode* head)
     }
 return L;//返回新链表头结点
 }
-```
-```
+// ```
+// ```
     void swap(int *a,int *b){
         int t=*a;
         *a=*b;
@@ -106,4 +106,4 @@ struct ListNode* sortList(struct ListNode* head)
         quick_sort(head,NULL);
         return head;
 }
-```
+// ```

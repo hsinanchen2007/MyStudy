@@ -1,9 +1,9 @@
-### 解题思路
-单词反转后排序，这样属于后缀的单词就排在前面，计算长度的时候排除掉属于前缀的单词即可。
+// ### 解题思路
+// 单词反转后排序，这样属于后缀的单词就排在前面，计算长度的时候排除掉属于前缀的单词即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         int N = words.length;
@@ -28,4 +28,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

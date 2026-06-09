@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def primePalindrome(N: Int): Int = {
     if (N <= 2) return 2
@@ -28,4 +28,4 @@ object Solution {
     true
   }
 }
-```
+// ```

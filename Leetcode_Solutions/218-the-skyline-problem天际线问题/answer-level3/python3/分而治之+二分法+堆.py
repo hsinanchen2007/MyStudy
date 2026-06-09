@@ -1,30 +1,30 @@
 
-## 思路：
+# ## 思路：
 
-**思路一**:分而治之[^1]
+# **思路一**:分而治之[^1]
 
-两两合并，最后一起合并， 所以我们要知道两个不同建筑物如何合并， 如下图所示：
+# 两两合并，最后一起合并， 所以我们要知道两个不同建筑物如何合并， 如下图所示：
 
-![1566806815085.png](https://pic.leetcode-cn.com/ad2d892fe91f422e8a47f8e0eae54274b94b2d72797b94d6738c61c536def81a-1566806815085.png)
+# ![1566806815085.png](https://pic.leetcode-cn.com/ad2d892fe91f422e8a47f8e0eae54274b94b2d72797b94d6738c61c536def81a-1566806815085.png)
 
 
-使用分而治之可以合并所有建筑物！
+# 使用分而治之可以合并所有建筑物！
 
-时间复杂度为：$nlog(n)$
+# 时间复杂度为：$nlog(n)$
 
-**思路二**：二分法
+# **思路二**：二分法
 
-时间复杂度：$n^2log(n)$
+# 时间复杂度：$n^2log(n)$
 
-**思路三**：堆(参考提交代码中）
+# **思路三**：堆(参考提交代码中）
 
-大家有不清楚的地方， 欢迎留言~
+# 大家有不清楚的地方， 欢迎留言~
 
-## 代码：
+# ## 代码：
 
-思路一：分而治之
+# 思路一：分而治之
 
-```python
+# ```python
 class Solution:
     def getSkyline(self, buildings):
         if not buildings: return []
@@ -66,11 +66,11 @@ class Solution:
         # 剩余部分添加进去
         res.extend(left[l:] or right[r:])
         return res
-```
+# ```
 
-思路二：二分法
+# 思路二：二分法
 
-```python
+# ```python
 class Solution:
     def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
         import bisect
@@ -94,11 +94,11 @@ class Solution:
                 res.append([x, cur])
 
         return res[1:]
-```
+# ```
 
-思路三：堆
+# 思路三：堆
 
-```python
+# ```python
 class Solution:
     def getSkyline(self, buildings):
         import heapq
@@ -113,5 +113,5 @@ class Solution:
             if res[-1][1] != -heap[0][0]:
                 res.append([x, -heap[0][0]])
         return res[1:]
-```
-[^1]: https://www.***.org/the-skyline-problem-using-divide-and-conquer-algorithm/
+# ```
+# [^1]: https://www.***.org/the-skyline-problem-using-divide-and-conquer-algorithm/

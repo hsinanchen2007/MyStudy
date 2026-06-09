@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/f9ae52176cabb5a1fd2baad244309693f2c1dbec4f11af25b8b9bf529e1ba27d-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f9ae52176cabb5a1fd2baad244309693f2c1dbec4f11af25b8b9bf529e1ba27d-image.png)
 
-```
+# ```
 class Solution:
     def treeToDoublyList(self, root: 'Node') -> 'Node':
       if not root: return root
@@ -20,4 +20,4 @@ class Solution:
         root.left = self.prev
       self.prev = root
       self.dfs(root.right)
-```
+# ```

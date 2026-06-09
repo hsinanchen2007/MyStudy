@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```ruby
+# ```ruby
 # @param {Integer} n
 # @return {Boolean}
 def is_power_of_three(n)
@@ -17,4 +17,4 @@ def is_power_of_three(n)
         end
     end
 end
-```
+# ```

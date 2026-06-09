@@ -1,8 +1,8 @@
-sortQueue那行取消注释的话，就用了AStar排序，但是居然比不排序慢很多。
+// sortQueue那行取消注释的话，就用了AStar排序，但是居然比不排序慢很多。
 
-不理解啊，是不是因为这题的核心就是制造一堆阻塞块，把AStar给废掉了？
+// 不理解啊，是不是因为这题的核心就是制造一堆阻塞块，把AStar给废掉了？
 
-```
+// ```
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -165,4 +165,4 @@ class Solution {
         }
     }
 }
-```
+// ```

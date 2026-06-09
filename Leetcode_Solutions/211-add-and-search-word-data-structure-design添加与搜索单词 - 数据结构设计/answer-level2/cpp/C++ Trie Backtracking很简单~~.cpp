@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Trie {
 public:
 	bool is_word;
@@ -53,4 +53,4 @@ public:
  * obj->addWord(word);
  * bool param_2 = obj->search(word);
  */
-```
+// ```

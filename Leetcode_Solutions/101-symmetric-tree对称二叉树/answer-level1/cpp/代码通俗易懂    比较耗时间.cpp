@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool fun(TreeNode *Left,TreeNode*Right){
@@ -25,4 +25,4 @@ public:
         return fun(root->left,root->right);
     }
 };
-```
+// ```

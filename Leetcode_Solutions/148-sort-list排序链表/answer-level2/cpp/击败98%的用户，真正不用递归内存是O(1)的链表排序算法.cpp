@@ -1,4 +1,4 @@
-```c++
+// ```c++
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -88,4 +88,4 @@ ListNode* sortList(ListNode* head) {
 	return dummyHead.next;
 }
 };
-```
+// ```

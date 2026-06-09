@@ -1,4 +1,4 @@
-```
+// ```
 int rangeSumBST(struct TreeNode* root, int L, int R)
 {         
     int sum = 0;
@@ -18,4 +18,4 @@ int rangeSumBST(struct TreeNode* root, int L, int R)
      sum += rangeSumBST(root->right, L, R); 
     return sum;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-递归，每次计算不管己方和对方都认为是最优策略，每步计算自己能够达到的最大差值。
-代码很已于理解
+// 递归，每次计算不管己方和对方都认为是最优策略，每步计算自己能够达到的最大差值。
+// 代码很已于理解
 
-```
+// ```
 #define MAX_TEMP (20 * 20)
 int ScoreDiff(int* nums, int isCalcDiff[MAX_TEMP], int diffTmp[MAX_TEMP], int start, int end)
 {
@@ -32,4 +32,4 @@ bool PredictTheWinner(int* nums, int numsSize){
     int diffTmp[MAX_TEMP] = {0};
     // 如果最终两个玩家的分数相等，那么玩家1仍为赢家
 	return (ScoreDiff(nums, isCalcDiff, diffTmp, 0, numsSize - 1) >= 0);
-```
+// ```

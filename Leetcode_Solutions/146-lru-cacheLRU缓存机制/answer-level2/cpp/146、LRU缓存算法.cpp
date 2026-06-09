@@ -1,10 +1,10 @@
-### 解题思路
-双向链表+哈希表实现。
-STL对应为 list 和 unordered_map
+// ### 解题思路
+// 双向链表+哈希表实现。
+// STL对应为 list 和 unordered_map
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <unordered_map>
 using namespace std;
 class LRUCache {
@@ -105,4 +105,4 @@ public:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

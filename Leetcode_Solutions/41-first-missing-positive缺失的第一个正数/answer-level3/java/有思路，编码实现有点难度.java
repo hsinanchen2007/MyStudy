@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int firstMissingPositive(int[] nums) {
         if(nums==null || nums.length<=0){
@@ -20,4 +20,4 @@ class Solution {
         return n+1;
     }
 }
-```
+// ```

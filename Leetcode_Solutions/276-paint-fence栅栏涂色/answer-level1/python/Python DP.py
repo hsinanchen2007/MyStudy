@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numWays(self, n: int, k: int) -> int:
         one=[0,k,k*(k-1)]
@@ -9,4 +9,4 @@ class Solution:
             one.append(two[-1]*(k-1)+one[-1]*(k-1))
             two.append(one[-2])
         return one[n]+two[n]
-```
+# ```

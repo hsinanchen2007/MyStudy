@@ -1,9 +1,9 @@
-### 解题思路
-这题和接水的一样，都可以使用单调栈进行解决。而且代码几乎都一样。。。
+// ### 解题思路
+// 这题和接水的一样，都可以使用单调栈进行解决。而且代码几乎都一样。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

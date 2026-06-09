@@ -1,8 +1,8 @@
-### 思路
+# ### 思路
 
-**递归**
+# **递归**
 
-```
+# ```
 根据性质：
 1. 后序遍历：左右根
 2. 二叉搜索树：左子树任意节点的值 < 根节点的值，右子树任意节点的值 > 根节点的值
@@ -10,14 +10,14 @@
 划分左右子树，分别判断子树是否满足二叉搜索树性质。
 
 其他看代码注释。
-```
+# ```
 
-**时间复杂度:** O(n^2)，n 为节点个数。
-**空间复杂度:** O(n)，n 为节点个数。
+# **时间复杂度:** O(n^2)，n 为节点个数。
+# **空间复杂度:** O(n)，n 为节点个数。
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 from typing import List
 
 class Solution:
@@ -39,8 +39,8 @@ class Solution:
             return l == j and recur(i, m - 1) and recur(m, j - 1)
         
         return recur(0, len(postorder) - 1)
-```
+# ```
 
-### GitHub链接
+# ### GitHub链接
 
-[Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/Interview-33-er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/33.py)
+# [Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/Interview-33-er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/33.py)

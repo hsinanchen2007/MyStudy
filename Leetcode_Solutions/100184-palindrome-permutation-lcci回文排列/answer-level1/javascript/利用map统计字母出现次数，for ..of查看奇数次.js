@@ -1,10 +1,10 @@
-### 解题思路
-中心思想：统计每个字符出现的次数，奇数次只能出现一次
+// ### 解题思路
+// 中心思想：统计每个字符出现的次数，奇数次只能出现一次
 
-### 代码
-![image.png](https://pic.leetcode-cn.com/71e58c8d4b5d42c9f3e4fc5efaafbe133db610c0e18232c30f164afcfe4c160e-image.png)
+// ### 代码
+// ![image.png](https://pic.leetcode-cn.com/71e58c8d4b5d42c9f3e4fc5efaafbe133db610c0e18232c30f164afcfe4c160e-image.png)
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -27,4 +27,4 @@ var canPermutePalindrome = function(s) {
    })
    return count < 2? true : false
 };
-```
+// ```

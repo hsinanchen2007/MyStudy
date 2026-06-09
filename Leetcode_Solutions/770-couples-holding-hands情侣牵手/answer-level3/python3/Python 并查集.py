@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/f7044e79c7c509014e524c04b1fe3a07f8c0043080bb7d4cb1ddfde8f018cd00-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f7044e79c7c509014e524c04b1fe3a07f8c0043080bb7d4cb1ddfde8f018cd00-image.png)
 
 
-```
+# ```
 
 '''
 每个人都会有一个分组号，如果挨着两个人不属于同一个分组，
@@ -74,4 +74,4 @@ class Solution:
         return ans
 
 print(Solution().minSwapsCouples([3,2,0,1]))
-```
+# ```

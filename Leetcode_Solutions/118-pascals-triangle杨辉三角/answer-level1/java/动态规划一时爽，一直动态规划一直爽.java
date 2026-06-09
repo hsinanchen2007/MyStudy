@@ -1,9 +1,9 @@
-### 解题思路
-动态规划一时爽，一直动态规划一直爽
+// ### 解题思路
+// 动态规划一时爽，一直动态规划一直爽
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> memo = new ArrayList<>();
@@ -30,4 +30,4 @@ class Solution {
         return memo;
     }
 }
-```
+// ```

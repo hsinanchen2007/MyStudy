@@ -1,11 +1,11 @@
-### 解题思路
-可以用排序再判断 O(nlogn)
-用额外的哈希表 O(n), O(n)
-用自身作为哈希
+# ### 解题思路
+# 可以用排序再判断 O(nlogn)
+# 用额外的哈希表 O(n), O(n)
+# 用自身作为哈希
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         for i, value in enumerate(nums):
@@ -18,4 +18,4 @@ class Solution:
                 else:
                     return value
         return -1
-```
+# ```

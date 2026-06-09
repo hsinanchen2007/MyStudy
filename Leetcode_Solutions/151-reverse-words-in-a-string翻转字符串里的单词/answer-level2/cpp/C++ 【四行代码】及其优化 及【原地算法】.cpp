@@ -1,16 +1,16 @@
-**利用字符流 sstream 可以方便地解决掉空格问题**
-```
+// **利用字符流 sstream 可以方便地解决掉空格问题**
+// ```
 string reverseWords(string s) {
     string ans, str;
     stringstream ss(s);
     while (ss >> str) ans.insert(0, str + " ");
     return ans.size() ? string(ans.begin(), ans.end() - 1) : "";
 }
-```
+// ```
 
-**不过上述方法耗时会达到50ms+，比较高，主要原因是每次都需要调用insert函数进行“逆序存储“”**
-**下面改用“顺序存储逆序输出”，耗时可以降到4~10+ms**
-```
+// **不过上述方法耗时会达到50ms+，比较高，主要原因是每次都需要调用insert函数进行“逆序存储“”**
+// **下面改用“顺序存储逆序输出”，耗时可以降到4~10+ms**
+// ```
 string reverseWords(string s) {
     string ans, str;
     vector<string> tmp;
@@ -19,11 +19,11 @@ string reverseWords(string s) {
     for (int i = tmp.size() - 1; i >= 0; i--) ans += tmp[i] + " ";
     return ans.size() ? string(ans.begin(), ans.end() - 1) : "";
 }
-```
+// ```
 
-**下面介绍原地算法，额外空间 O(1)**
-**大体思路是，先整体反转，再逐单词反转；需要处理首尾、中间的冗余空格**
-```
+// **下面介绍原地算法，额外空间 O(1)**
+// **大体思路是，先整体反转，再逐单词反转；需要处理首尾、中间的冗余空格**
+// ```
 string reverseWords(string s) {
     reverse(s.begin(), s.end());                        //整体反转
     int start = 0, end = s.size() - 1;
@@ -46,4 +46,4 @@ string reverseWords(string s) {
     }
     return s.substr(start, tail - start);
 }
-```
+// ```

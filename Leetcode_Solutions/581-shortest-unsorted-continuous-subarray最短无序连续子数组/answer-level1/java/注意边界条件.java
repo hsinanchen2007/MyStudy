@@ -1,9 +1,9 @@
-### 解题思路
-其实就是和排序后的作比较，注意边界条件，全部排列好的情况。
+// ### 解题思路
+// 其实就是和排序后的作比较，注意边界条件，全部排列好的情况。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findUnsortedSubarray(int[] nums) {
         int[] tmp = Arrays.copyOf(nums, nums.length);
@@ -31,4 +31,4 @@ class Solution {
         return end - begin + 1;
     }
 }
-```
+// ```

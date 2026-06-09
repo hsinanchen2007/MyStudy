@@ -1,13 +1,13 @@
-### 解题思路
-反转字符串，根据K来分组即可。
+// ### 解题思路
+// 反转字符串，根据K来分组即可。
 
-### 性能
-执行用时 :120 ms, 在所有 PHP 提交中击败了10.00%的用户
-内存消耗 :15.4 MB, 在所有 PHP 提交中击败了80.00%的用户
+// ### 性能
+// 执行用时 :120 ms, 在所有 PHP 提交中击败了10.00%的用户
+// 内存消耗 :15.4 MB, 在所有 PHP 提交中击败了80.00%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -28,7 +28,7 @@ class Solution {
         return $res;
     }
 }
-```
+// ```
 
-### 参考
-[逆序](https://leetcode-cn.com/problems/license-key-formatting/solution/ni-xu-jian-ji-dai-ma-by-niu-meng/)
+// ### 参考
+// [逆序](https://leetcode-cn.com/problems/license-key-formatting/solution/ni-xu-jian-ji-dai-ma-by-niu-meng/)

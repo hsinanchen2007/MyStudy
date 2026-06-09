@@ -1,4 +1,4 @@
-```
+// ```
 function hIndex($citations) {
     sort($citations);
     $n = count($citations);
@@ -8,4 +8,4 @@ function hIndex($citations) {
     }
     return 0;
 }
-```
+// ```

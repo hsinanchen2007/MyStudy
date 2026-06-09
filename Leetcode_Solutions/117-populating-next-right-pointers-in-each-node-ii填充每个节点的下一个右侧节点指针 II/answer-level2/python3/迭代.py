@@ -1,8 +1,8 @@
-## 思路:
+# ## 思路:
 
-和[上一题](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/di-gui-he-die-dai-by-powcai-4)一样,可以用BFS做
+# 和[上一题](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/di-gui-he-die-dai-by-powcai-4)一样,可以用BFS做
 
-```python
+# ```python
 def connect(self, root: 'Node') -> 'Node':
         from collections import deque
         if not root: return root
@@ -24,21 +24,21 @@ def connect(self, root: 'Node') -> 'Node':
                     queue.appendleft(tmp.right)
             p.next = None 
         return root
-```
+# ```
 
-但是题目要求我们用常数空间,我们借用上一题的迭代方法!
+# 但是题目要求我们用常数空间,我们借用上一题的迭代方法!
 
-用`cur`记层该层访问节点
+# 用`cur`记层该层访问节点
 
-用`head`记录下一层合成链表的开头.
+# 用`head`记录下一层合成链表的开头.
 
-用`tail`记录下一层合成链表的结尾.
+# 用`tail`记录下一层合成链表的结尾.
 
-直接看代码, 就能理解了!
+# 直接看代码, 就能理解了!
 
-## 代码:
+# ## 代码:
 
-```python [1]
+# ```python [1]
 """
 # Definition for a Node.
 class Node:
@@ -74,11 +74,11 @@ class Solution:
             head = None
             tail = None
         return root
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public Node connect(Node root) {
         Node cur = root;
@@ -113,5 +113,5 @@ class Solution {
         return root;
     }
 }
-```
+# ```
 

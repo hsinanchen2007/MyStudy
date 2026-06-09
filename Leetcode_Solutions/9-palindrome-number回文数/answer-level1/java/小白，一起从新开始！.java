@@ -1,9 +1,9 @@
-### 解题思路
-小白，一起从新开始！
+// ### 解题思路
+// 小白，一起从新开始！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         if(x<0)return false;//负数直接返回错误
@@ -19,4 +19,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

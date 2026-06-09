@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，最直观最好想的方法
+// ### 解题思路
+// 动态规划，最直观最好想的方法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minFallingPathSum(vector<vector<int>>& A) {
@@ -36,4 +36,4 @@ public:
         return minVal;
     }
 };
-```
+// ```

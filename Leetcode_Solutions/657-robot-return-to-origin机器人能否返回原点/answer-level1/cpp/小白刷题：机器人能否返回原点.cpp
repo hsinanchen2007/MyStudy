@@ -1,7 +1,7 @@
-模拟过程，看最后能否回到原点
+// 模拟过程，看最后能否回到原点
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     bool judgeCircle(string moves) {
@@ -19,4 +19,4 @@ public:
         return pos[0] == 0 && pos[1] == 0;
     }
 };
-```
+// ```

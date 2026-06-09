@@ -1,10 +1,10 @@
-### 解题思路
-解法1：按位做与运算并右移直到 n = 0;
-解法2：n & (n - 1) 等价于将 n 最右边的 1 转为 0;
+// ### 解题思路
+// 解法1：按位做与运算并右移直到 n = 0;
+// 解法2：n & (n - 1) 等价于将 n 最右边的 1 转为 0;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
@@ -25,4 +25,4 @@ public class Solution {
         return count;
     }
 }
-```
+// ```

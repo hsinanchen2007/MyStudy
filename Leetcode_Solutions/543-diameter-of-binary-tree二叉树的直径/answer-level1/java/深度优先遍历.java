@@ -1,5 +1,5 @@
 
-```
+// ```
 public class DiameterofBinaryTree {
     private int max = 0;
     public int diameterOfBinaryTree(TreeNode root) {
@@ -15,4 +15,4 @@ public class DiameterofBinaryTree {
         return Math.max(leftDepth, rightDepth) + 1;
     }
 }
-```
+// ```

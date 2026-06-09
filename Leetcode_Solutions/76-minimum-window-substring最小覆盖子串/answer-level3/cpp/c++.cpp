@@ -1,5 +1,5 @@
-我认为这一题看英文discuss中的滑动窗口模板总结比较好，其中有最大最小应该怎么写，非常秒杀这类题
-```cpp
+// 我认为这一题看英文discuss中的滑动窗口模板总结比较好，其中有最大最小应该怎么写，非常秒杀这类题
+// ```cpp
 class Solution {
 public:
     string minWindow(string s, string t) {
@@ -24,4 +24,4 @@ public:
         return ans;
     }
 };
-```
+// ```

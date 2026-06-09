@@ -1,9 +1,9 @@
-### 解题思路
-直接建立一个反转链表再比较
+// ### 解题思路
+// 直接建立一个反转链表再比较
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ bool isPalindrome(struct ListNode* head){//发现这里给的都是没有头结�
     }
     return true;
 }
-```
+// ```

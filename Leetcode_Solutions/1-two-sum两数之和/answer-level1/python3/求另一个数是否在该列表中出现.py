@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         another_nums = [target - i for i in nums]
@@ -16,4 +16,4 @@ class Solution:
             if j:
                 break
         return [i, j]
-```
+# ```

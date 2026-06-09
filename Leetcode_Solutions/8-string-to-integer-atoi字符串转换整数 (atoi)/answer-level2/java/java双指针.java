@@ -1,6 +1,6 @@
-没啥好说的，最原始的方法，速度还行，2ms
+// 没啥好说的，最原始的方法，速度还行，2ms
 
-```
+// ```
 class Solution {
     public int myAtoi(String str) {
         int len=str.length();
@@ -54,4 +54,4 @@ class Solution {
         else return 0;
     }
 } 
-```
+// ```

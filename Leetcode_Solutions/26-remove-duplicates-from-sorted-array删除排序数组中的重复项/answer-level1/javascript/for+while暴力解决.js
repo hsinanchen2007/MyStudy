@@ -1,9 +1,9 @@
-### 解题思路
-需要考虑到多个相同值的情况，因此不能使用if而需要while来不断判断，直到排除所有重复值。
+// ### 解题思路
+// 需要考虑到多个相同值的情况，因此不能使用if而需要while来不断判断，直到排除所有重复值。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -16,4 +16,4 @@ var removeDuplicates = function(nums) {
     }
     return nums.length;
 };
-```
+// ```

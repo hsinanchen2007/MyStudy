@@ -1,9 +1,9 @@
-### 解题思路
-思路很简单，我们用一个数组dp[]截至到s[k]的累加和，当求i-j的累加和时 可以用dp[j]=dp[i-1]求得
+// ### 解题思路
+// 思路很简单，我们用一个数组dp[]截至到s[k]的累加和，当求i-j的累加和时 可以用dp[j]=dp[i-1]求得
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class NumArray {
 public:
     NumArray(vector<int>& nums) {
@@ -30,4 +30,4 @@ public:
  * NumArray* obj = new NumArray(nums);
  * int param_1 = obj->sumRange(i,j);
  */
-```
+// ```

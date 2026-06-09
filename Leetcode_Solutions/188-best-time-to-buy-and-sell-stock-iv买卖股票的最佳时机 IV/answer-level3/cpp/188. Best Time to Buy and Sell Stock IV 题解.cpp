@@ -1,9 +1,9 @@
-### 解题思路
-    参考了参考通用算法的算法
+// ### 解题思路
+//     参考了参考通用算法的算法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(int k, vector<int>& prices) {
@@ -73,4 +73,4 @@ public:
         return sum;
     }
 };
-```
+// ```

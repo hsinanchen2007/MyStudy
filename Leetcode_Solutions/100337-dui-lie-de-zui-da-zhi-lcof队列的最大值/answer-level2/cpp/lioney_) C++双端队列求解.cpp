@@ -1,4 +1,4 @@
-```
+// ```
 class MaxQueue {
 public:
     MaxQueue() {
@@ -28,4 +28,4 @@ public:
 private:
     deque<int> dq_data, dq_max;
 };
-```
+// ```

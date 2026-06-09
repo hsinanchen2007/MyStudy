@@ -1,16 +1,16 @@
-### 解题思路
-比较连续两个字符的情况，得到一个result，根据result调整数字区域的left和right。
-例如num->num  return 1（right右移）
-空格->空格，+-，num  return 0（如果right=0，即还未检测到数字串的时候，left右移。如果right>0，说明已检测到数字串，所以left不变）
-'A'->数字 return -1（退出循环）
-数字->其余情况 return 2（说明数字部分结束，所以right右移的同时需要break）
+# ### 解题思路
+# 比较连续两个字符的情况，得到一个result，根据result调整数字区域的left和right。
+# 例如num->num  return 1（right右移）
+# 空格->空格，+-，num  return 0（如果right=0，即还未检测到数字串的时候，left右移。如果right>0，说明已检测到数字串，所以left不变）
+# 'A'->数字 return -1（退出循环）
+# 数字->其余情况 return 2（说明数字部分结束，所以right右移的同时需要break）
 
-注：
-考虑到空串的情况，原字符串前后都增加一个空格
+# 注：
+# 考虑到空串的情况，原字符串前后都增加一个空格
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, string: str) -> int:
         string = ' ' + string + ' '
@@ -68,4 +68,4 @@ class Solution:
    
 
 
-```
+# ```

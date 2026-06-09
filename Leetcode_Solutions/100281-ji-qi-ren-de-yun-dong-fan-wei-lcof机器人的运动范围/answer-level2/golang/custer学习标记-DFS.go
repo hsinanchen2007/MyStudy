@@ -1,9 +1,9 @@
-### 解题思路
-[79. 单词搜索](https://leetcode-cn.com/problems/word-search/solution/custerxue-xi-bi-ji-shu-zu-de-hui-su-by-custergo-2/)
+// ### 解题思路
+// [79. 单词搜索](https://leetcode-cn.com/problems/word-search/solution/custerxue-xi-bi-ji-shu-zu-de-hui-su-by-custergo-2/)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func movingCount(m int, n int, k int) int {
   visited := make([][]bool, m+1)
   for i := range visited {
@@ -43,4 +43,4 @@ func getSum(m, n int) int {
   return sum
 }
 
-```
+// ```

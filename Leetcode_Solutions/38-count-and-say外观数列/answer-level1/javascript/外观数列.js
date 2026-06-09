@@ -1,8 +1,8 @@
-### 一、基于递归
-上一次的结果给下一次使用，递归在这种场景下最适用了！
-#### 代码
+// ### 一、基于递归
+// 上一次的结果给下一次使用，递归在这种场景下最适用了！
+// #### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string}
@@ -30,13 +30,13 @@ var countAndSay = function(n) {
    result = result.concat(chart);
    return result;
 };
-```
+// ```
 
-### 二、基于迭代
-优点:速度比较快
-#### 代码
+// ### 二、基于迭代
+// 优点:速度比较快
+// #### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string}
@@ -69,4 +69,4 @@ var countAndSay = function(n) {
     }
     return result;
 }
-```
+// ```

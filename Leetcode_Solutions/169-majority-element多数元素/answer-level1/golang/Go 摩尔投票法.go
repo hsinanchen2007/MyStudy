@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func majorityElement(nums []int) int {
     if len(nums) == 0 {
         return -1
@@ -25,4 +25,4 @@ func majorityElement(nums []int) int {
     }
     return num
 }
-```
+// ```

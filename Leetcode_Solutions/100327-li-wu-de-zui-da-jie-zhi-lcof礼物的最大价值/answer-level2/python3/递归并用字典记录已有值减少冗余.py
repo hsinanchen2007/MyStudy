@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/00257dc7e474432bba7f345c20a74ee225ac8698289c124436350a59fc3f3cc0-image.png)
+# ![image.png](https://pic.leetcode-cn.com/00257dc7e474432bba7f345c20a74ee225ac8698289c124436350a59fc3f3cc0-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxValue(self, grid: List[List[int]]) -> int:
         if not grid:
@@ -31,4 +31,4 @@ class Solution:
                     mem[(i, j)] = max(core(i, j - 1), core(i - 1, j)) + grid[i][j]
                 return mem[(i, j)]
         return core(m - 1, n - 1)
-```
+# ```

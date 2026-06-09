@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func myfunc(add, left int) []string {
 	if left == 0 {
 		return []string{""}
@@ -50,4 +50,4 @@ func generateParenthesis(n int) []string {
 	return ret
 }
 
-```
+// ```

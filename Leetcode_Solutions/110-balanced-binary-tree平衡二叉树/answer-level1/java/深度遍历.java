@@ -1,19 +1,19 @@
-1. 关于复杂度
-<br />&nbsp;1.1 时间复杂度为O(n)
-<br />&nbsp;1.2 空间负责度为O(n)
-2. 我的解题思路
-<br />&nbsp;2.1 解法基于深度优先遍历
-<br />&nbsp;2.2 递归获取左右子树的深度
-<br />&nbsp;2.3 对比左右子树的深度
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.1 若出现深度为-1的情况，返回-1到上一层
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.2 若出现左右子树深度之差大于1的情况，返回-1到上一层
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.3 若没有出现1，2的情况，返回左右子树的深度最大值加1到上一层
-3. 提交记录
-<br />&nbsp;3.1 力扣中耗时2ms,消耗39.5MB内存
-<br />&nbsp;3.2 leetcode中耗时0ms,消耗38.6MB内存
-4. Q&A
+// 1. 关于复杂度
+// <br />&nbsp;1.1 时间复杂度为O(n)
+// <br />&nbsp;1.2 空间负责度为O(n)
+// 2. 我的解题思路
+// <br />&nbsp;2.1 解法基于深度优先遍历
+// <br />&nbsp;2.2 递归获取左右子树的深度
+// <br />&nbsp;2.3 对比左右子树的深度
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.1 若出现深度为-1的情况，返回-1到上一层
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.2 若出现左右子树深度之差大于1的情况，返回-1到上一层
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.3 若没有出现1，2的情况，返回左右子树的深度最大值加1到上一层
+// 3. 提交记录
+// <br />&nbsp;3.1 力扣中耗时2ms,消耗39.5MB内存
+// <br />&nbsp;3.2 leetcode中耗时0ms,消耗38.6MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *      110.Balanced Binary Tree
@@ -73,4 +73,4 @@ public class Solution110 {
         return Math.max(left,right)+1;
     }
 }
-```
+// ```

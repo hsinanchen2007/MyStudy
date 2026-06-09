@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numWays(int n) {
         if(n == 0) return 1;
@@ -13,10 +13,10 @@ class Solution {
         return i[n-1];
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/c5cb6d9cd7412f02bb9f0539ed98123073fccadc09aa3ef7baae6072e9883f73-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/c5cb6d9cd7412f02bb9f0539ed98123073fccadc09aa3ef7baae6072e9883f73-image.png)
 
-```
+// ```
 class Solution {
     public int numWays(int n) {
         if(n == 0) return 1;
@@ -34,7 +34,7 @@ class Solution {
         return i[n-1];
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/ff1c3d05c7dcbc7ac35becb4f730059e5eea9c476c39fa196877efd286de24c5-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/ff1c3d05c7dcbc7ac35becb4f730059e5eea9c476c39fa196877efd286de24c5-image.png)
 
 

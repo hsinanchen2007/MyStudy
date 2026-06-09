@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/38e40ef311c2fae9ec8cbc968d30169896d9fe43ebb61e30fb604ed70cb16bac-image.png)
-利用两个栈将栈内的数据反转排列。
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/38e40ef311c2fae9ec8cbc968d30169896d9fe43ebb61e30fb604ed70cb16bac-image.png)
+// 利用两个栈将栈内的数据反转排列。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyQueue {
 public:
     /** Initialize your data structure here. */
@@ -56,4 +56,4 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
-```
+// ```

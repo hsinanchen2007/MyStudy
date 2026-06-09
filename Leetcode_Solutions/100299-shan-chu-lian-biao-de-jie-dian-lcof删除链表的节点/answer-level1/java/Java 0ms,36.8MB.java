@@ -1,10 +1,10 @@
-### 解题思路
-头节点 val 不为空,先做判断
-再遍历后续节点,找到对应 val ,跳过该节点
+// ### 解题思路
+// 头节点 val 不为空,先做判断
+// 再遍历后续节点,找到对应 val ,跳过该节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

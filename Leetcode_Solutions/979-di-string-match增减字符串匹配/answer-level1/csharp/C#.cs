@@ -1,8 +1,8 @@
-### 解题思路
-和转成chararray用foreach效率差不多
-### 代码
+// ### 解题思路
+// 和转成chararray用foreach效率差不多
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] DiStringMatch(string S) {
         int left = 0;
@@ -22,4 +22,4 @@ public class Solution {
         return res;
     }
 }
-```
+// ```

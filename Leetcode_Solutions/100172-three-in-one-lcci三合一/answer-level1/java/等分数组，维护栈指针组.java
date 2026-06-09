@@ -1,41 +1,41 @@
-## 03.01.三合一
+// ## 03.01.三合一
 
-### Information
+// ### Information
 
-* TIME: 2020/03/06
-* LINK: [Click Here](https://leetcode-cn.com/problems/three-in-one-lcci/)
-* TAG: `stack`
+// * TIME: 2020/03/06
+// * LINK: [Click Here](https://leetcode-cn.com/problems/three-in-one-lcci/)
+// * TAG: `stack`
 
-### Description
+// ### Description
 
-> 三合一。描述如何只用一个数组来实现三个栈。
->
-> 你应该实现push(stackNum, value)、pop(stackNum)、isEmpty(stackNum)、peek(stackNum)方法。stackNum表示栈下标，value表示压入的值。
->
-> 构造函数会传入一个stackSize参数，代表每个栈的大小。
+// > 三合一。描述如何只用一个数组来实现三个栈。
+// >
+// > 你应该实现push(stackNum, value)、pop(stackNum)、isEmpty(stackNum)、peek(stackNum)方法。stackNum表示栈下标，value表示压入的值。
+// >
+// > 构造函数会传入一个stackSize参数，代表每个栈的大小。
 
-### Example
+// ### Example
 
-```text
+// ```text
  输入：
 ["TripleInOne", "push", "push", "pop", "pop", "pop", "isEmpty"]
 [[1], [0, 1], [0, 2], [0], [0], [0], [0]]
  输出：
 [null, null, null, 1, -1, -1, true]
 说明：当栈为空时`pop, peek`返回-1，当栈满时`push`不压入元素。
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 把数组划分成三块，假设`stackNum`从0开始
->
-> 每块(栈）开始存储数据的位置：`stackNum * stackSize`
->
-> 那么空栈的位置就是`stackNum * stackSize - 1`
->
-> 栈满：`(stackNum + 1) * stackSize - 1`
+// > 把数组划分成三块，假设`stackNum`从0开始
+// >
+// > 每块(栈）开始存储数据的位置：`stackNum * stackSize`
+// >
+// > 那么空栈的位置就是`stackNum * stackSize - 1`
+// >
+// > 栈满：`(stackNum + 1) * stackSize - 1`
 
-```java
+// ```java
 class TripleInOne {
     private static final int size = 3;
     private int[] data;
@@ -81,23 +81,23 @@ class TripleInOne {
  * int param_3 = obj.peek(stackNum);
  * boolean param_4 = obj.isEmpty(stackNum);
  */
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/c4e1f7859f0c37d4581e7913c33c79e9029ba7ab5d37079e95b5abce78e24396-file_1583480859778)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/c4e1f7859f0c37d4581e7913c33c79e9029ba7ab5d37079e95b5abce78e24396-file_1583480859778)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

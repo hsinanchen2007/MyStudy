@@ -1,18 +1,18 @@
-### 思路:
+// ### 思路:
 
-看这里没有 K 数之和的模板，这里提供一个，已经把 LeetCode 的 4 数之和，3 数之和 都AC 了。
+// 看这里没有 K 数之和的模板，这里提供一个，已经把 LeetCode 的 4 数之和，3 数之和 都AC 了。
 
-emmm, 讲道理啊，速度不怎么样，嘤嘤嘤，毕竟是递归。
+// emmm, 讲道理啊，速度不怎么样，嘤嘤嘤，毕竟是递归。
 
-但是胜在方便理解 **K 数之和** 系列问题，而且简单粗暴。代码看起来貌似很长，其实有用的就两块：
+// 但是胜在方便理解 **K 数之和** 系列问题，而且简单粗暴。代码看起来貌似很长，其实有用的就两块：
 
 
-* 一个是最基础的 **二数之和** 问题，这里用的是双指针法（`K_Sum_Recursive_Template` 里的 `if` 部分）
-* 然后就是递归部分，递归直到变成 二数之和 问题（`K_Sum_Recursive_Template` 里的 `else` 部分）
+// * 一个是最基础的 **二数之和** 问题，这里用的是双指针法（`K_Sum_Recursive_Template` 里的 `if` 部分）
+// * 然后就是递归部分，递归直到变成 二数之和 问题（`K_Sum_Recursive_Template` 里的 `else` 部分）
 
-这里提供了一个贼简单的接口：`kSum(int[] nums, int target, int k)`，复制上去就可以用。
-### 代码:
-```java [-java]
+// 这里提供了一个贼简单的接口：`kSum(int[] nums, int target, int k)`，复制上去就可以用。
+// ### 代码:
+// ```java [-java]
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -128,4 +128,4 @@ public class K_Sum_Recursive {
     }
 }
 
-```
+// ```

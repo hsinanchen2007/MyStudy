@@ -1,10 +1,10 @@
-### 解题思路
-1. 暴利搜索（超时）
-2. 利用哈希表进行搜索，类似于two_sum问题
+# ### 解题思路
+# 1. 暴利搜索（超时）
+# 2. 利用哈希表进行搜索，类似于two_sum问题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         # n = len(nums)
@@ -25,4 +25,4 @@ class Solution:
                 else:
                     hashmap[nums[i]]=i
         return False
-```
+# ```

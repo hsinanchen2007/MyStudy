@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findClosedNumbers(self, num):
         """
@@ -24,4 +24,4 @@ class Solution:
                 bigger = b[:i] + '10' + tmp
                 break
         return [int(bigger, 2), int(smaller, 2)]
-```
+# ```

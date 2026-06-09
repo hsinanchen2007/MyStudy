@@ -1,9 +1,9 @@
-### 解题思路
-计算每行/每列增量操作次数 -> 输出 奇数行 * 偶数列 + 偶数行 \* 技术列
+// ### 解题思路
+// 计算每行/每列增量操作次数 -> 输出 奇数行 * 偶数列 + 偶数行 \* 技术列
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} m
@@ -20,4 +20,4 @@ var oddCells = function(n, m, indices) {
     let odd_col = col.filter(val => { return val%2 === 1}).length
     return odd_row * (m - odd_col) + odd_col * (n - odd_row)
 };
-```
+// ```

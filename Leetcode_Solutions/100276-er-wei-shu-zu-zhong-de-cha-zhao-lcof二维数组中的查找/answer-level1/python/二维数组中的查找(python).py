@@ -1,5 +1,5 @@
-思路一因为每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序,所以从左上角(右下角)开始与标签值比较，当`matrix[i][j]>targe`t则左移,等于返回`True`，否者下移，这样可以最快判断数组中是否含有该整数。
-```
+# 思路一因为每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序,所以从左上角(右下角)开始与标签值比较，当`matrix[i][j]>targe`t则左移,等于返回`True`，否者下移，这样可以最快判断数组中是否含有该整数。
+# ```
 class Solution(object):
     def findNumberIn2DArray(self, matrix, target):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             else:  #向左移动
                 j-=1
         return False
-```
+# ```

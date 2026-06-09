@@ -1,4 +1,4 @@
-```
+// ```
 var sum int = 0
 func bstToGstSum(root *TreeNode) {
 	if root == nil {
@@ -19,4 +19,4 @@ func bstToGst(root *TreeNode) *TreeNode {
 	bstToGstSum(root)
 	return  root
 }
-```
+// ```

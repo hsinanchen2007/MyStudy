@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     inline string toLowerCase(string str) {
@@ -6,4 +6,4 @@ public:
         return str;
     }
 };
-```
+// ```

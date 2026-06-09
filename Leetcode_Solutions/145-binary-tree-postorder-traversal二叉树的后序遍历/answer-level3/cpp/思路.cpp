@@ -1,11 +1,11 @@
-### 解题思路
-整体和中序很像
+// ### 解题思路
+// 整体和中序很像
 
-需要加一个pre节点，纪录上一次的访问节点是什么
+// 需要加一个pre节点，纪录上一次的访问节点是什么
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -46,4 +46,4 @@ public:
       return res;
     }
 };
-```
+// ```

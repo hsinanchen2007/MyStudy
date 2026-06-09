@@ -1,7 +1,7 @@
-思路：
-通过输入的邻接表，构建一个有向图，在图中对所有未检查的节点进行DFS。调用`dfs(v)`时，查找的是一条从起点到v的有向路径，代码用`on_stack`变量来保存这条路径。 当找到路径v -> w 且 w 位于栈中时（`on_stack[w]==True`），说明同时存在一条w->v的路径，找到了环，课程无法完成。
+# 思路：
+# 通过输入的邻接表，构建一个有向图，在图中对所有未检查的节点进行DFS。调用`dfs(v)`时，查找的是一条从起点到v的有向路径，代码用`on_stack`变量来保存这条路径。 当找到路径v -> w 且 w 位于栈中时（`on_stack[w]==True`），说明同时存在一条w->v的路径，找到了环，课程无法完成。
 
-```
+# ```
 from typing import List
 
 class DirectedGraph:
@@ -40,4 +40,4 @@ class Solution:
             return False
         return True
 
-```
+# ```

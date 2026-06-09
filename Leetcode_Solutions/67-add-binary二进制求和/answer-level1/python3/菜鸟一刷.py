@@ -1,9 +1,9 @@
-### 解题思路
-头脑不清醒，写的毫无美感，变量太多
+# ### 解题思路
+# 头脑不清醒，写的毫无美感，变量太多
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         A = int(a)
@@ -43,4 +43,4 @@ class Solution:
             
             
 
-```
+# ```

@@ -1,5 +1,5 @@
-按照题解写个C的
-```
+// 按照题解写个C的
+// ```
 // 阶乘函数，用于开辟空间时确定大小 
 long factorial(int n) {
     if (n == 0) {
@@ -39,4 +39,4 @@ int** permute(int* nums, int numsSize, int* returnSize, int**returnColumnSizes) 
     return res;
 }
 
-```
+// ```

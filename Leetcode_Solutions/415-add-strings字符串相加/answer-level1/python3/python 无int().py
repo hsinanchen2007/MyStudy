@@ -1,9 +1,9 @@
-### 解题思路
-标准加法进位，主要理解一下ASCII转换。
+# ### 解题思路
+# 标准加法进位，主要理解一下ASCII转换。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def addStrings(self, num1: str, num2: str) -> str:
         i = len(num1)-1
@@ -21,4 +21,4 @@ class Solution:
             j -= 1 
         return '1' + res if carry != 0 else res
         
-```
+# ```

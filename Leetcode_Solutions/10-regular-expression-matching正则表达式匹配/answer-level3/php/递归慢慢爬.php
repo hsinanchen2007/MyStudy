@@ -1,9 +1,9 @@
-### 解题思路
-感谢[@andfly](/u/andfly/)的解答，磨蹭了一个小时终于搞懂了，Recursive方程真的有点烧脑🤯
+// ### 解题思路
+// 感谢[@andfly](/u/andfly/)的解答，磨蹭了一个小时终于搞懂了，Recursive方程真的有点烧脑🤯
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -35,4 +35,4 @@ class Solution {
 
     }
 }
-```
+// ```

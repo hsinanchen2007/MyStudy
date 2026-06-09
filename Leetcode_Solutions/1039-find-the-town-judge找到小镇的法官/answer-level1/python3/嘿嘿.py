@@ -1,8 +1,8 @@
-### 解题思路
-转化为邻接矩阵，遇见出度为0的人，就判断他的入度，如果入度为N-1,返回此人；否则继续，直到遍历结束。
-### 代码
+# ### 解题思路
+# 转化为邻接矩阵，遇见出度为0的人，就判断他的入度，如果入度为N-1,返回此人；否则继续，直到遍历结束。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
         mat=[[0]*N for i in range(N)]
@@ -16,4 +16,4 @@ class Solution:
                 if tmp==N-1:
                     return i+1
         return -1
-```
+# ```

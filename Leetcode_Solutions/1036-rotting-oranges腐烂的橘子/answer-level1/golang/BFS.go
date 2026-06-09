@@ -1,6 +1,6 @@
-**思路**：0分钟已腐烂橘子会感染其周围四方向的未腐烂橘子 这些刚被感染的橘子作为新一轮的已腐烂橘子...
-**注意**：本人菜鸡 主要的语句都给了注释 还请大家多多指教
-```python []
+// **思路**：0分钟已腐烂橘子会感染其周围四方向的未腐烂橘子 这些刚被感染的橘子作为新一轮的已腐烂橘子...
+// **注意**：本人菜鸡 主要的语句都给了注释 还请大家多多指教
+// ```python []
 class Solution:
 	def orangesRotting(self,grid):
 		q=[] #存储这一轮的腐烂的橘子的坐标
@@ -29,8 +29,8 @@ class Solution:
 			q=new_q
 			minutes+=1
 		return -1 if cnt!=cur_cnt else minutes
-```
-```golang []
+// ```
+// ```golang []
 func orangesRotting(grid [][]int) int {
 	q:=make([][2]int,0) //当前轮次腐烂的橘子们的坐标
 	cnt,row,col:=0,len(grid),len(grid[0]) //所有橘子的数量 行数 列数
@@ -69,4 +69,4 @@ func orangesRotting(grid [][]int) int {
 	}
 	return -1
 }
-```
+// ```

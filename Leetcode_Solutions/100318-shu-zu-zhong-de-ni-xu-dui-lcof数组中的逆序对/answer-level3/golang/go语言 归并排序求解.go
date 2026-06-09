@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-分治法求解
+// 分治法求解
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reversePairs(nums []int) int {
 	// TODO: 分治的思想
 	cnt := 0
@@ -51,4 +51,4 @@ func reversePairs(nums []int) int {
 	return cnt
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-暴力枚举子方阵上下行[l,r]，记A[i]为第i列matrix在[l,r]行值的或，那么问题又变为一维问题，即找一处i,使得第l行和第r行中，i到i+len-1列的值都是0，这个可以用前缀和判断，同时再满足!A[i] && !A[i+len-1]即可，其中len=r-l+1;
-```
+// 暴力枚举子方阵上下行[l,r]，记A[i]为第i列matrix在[l,r]行值的或，那么问题又变为一维问题，即找一处i,使得第l行和第r行中，i到i+len-1列的值都是0，这个可以用前缀和判断，同时再满足!A[i] && !A[i+len-1]即可，其中len=r-l+1;
+// ```
 class Solution {
 public:
     vector<int> findSquare(vector<vector<int>>& A) {
@@ -58,4 +58,4 @@ public:
         return Ans;
     }
 };
-```
+// ```

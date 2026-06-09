@@ -1,11 +1,11 @@
-### 解题思路
-既然涉及已排序数组的搜索，那自然而然想到利用二分法加快搜索速度。
-执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :39.3 MB, 在所有 Java 提交中击败了5.03%的用户
+// ### 解题思路
+// 既然涉及已排序数组的搜索，那自然而然想到利用二分法加快搜索速度。
+// 执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :39.3 MB, 在所有 Java 提交中击败了5.03%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int res=binarySearch(target,nums,0,nums.length-1);
@@ -33,4 +33,4 @@ class Solution {
             return (low+high)/2;
     }
 }
-```
+// ```

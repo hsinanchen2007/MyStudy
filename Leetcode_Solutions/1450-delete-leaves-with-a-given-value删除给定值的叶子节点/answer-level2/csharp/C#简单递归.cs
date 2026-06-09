@@ -1,9 +1,9 @@
-### 解题思路
-简单递归实现
+// ### 解题思路
+// 简单递归实现
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

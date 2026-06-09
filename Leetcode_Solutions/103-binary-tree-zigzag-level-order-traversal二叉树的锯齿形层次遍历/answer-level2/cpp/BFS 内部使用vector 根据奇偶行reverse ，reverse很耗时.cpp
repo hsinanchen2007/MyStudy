@@ -1,19 +1,19 @@
-### 知识点记录
-知识点：二维vector的使用方式
-**参考了其他大佬的解析**
+// ### 知识点记录
+// 知识点：二维vector的使用方式
+// **参考了其他大佬的解析**
 
-思路1.  使用dequeue，根据level的奇偶性，dequeue.push_back()/ dequeue.push_front() 
-最后将dequeue填充res.            
-res.push_back(vector<int>(temp.begin(), temp.end()));  //添加到结果中
+// 思路1.  使用dequeue，根据level的奇偶性，dequeue.push_back()/ dequeue.push_front() 
+// 最后将dequeue填充res.            
+// res.push_back(vector<int>(temp.begin(), temp.end()));  //添加到结果中
 
-思路2： 由于STL vector有reverse方法，可以就使用vector存储，在特定的偶数行对vector 做reverse操作
+// 思路2： 由于STL vector有reverse方法，可以就使用vector存储，在特定的偶数行对vector 做reverse操作
 	
-但通过提交对比发现  solution1  VS  solution2   耗时 0ms  VS 4ms，表明vector做reverse很耗时
+// 但通过提交对比发现  solution1  VS  solution2   耗时 0ms  VS 4ms，表明vector做reverse很耗时
 
-### 代码
+// ### 代码
 
-vector --reverse 4ms
-```cpp
+// vector --reverse 4ms
+// ```cpp
 class Solution2 {
 public:
     vector<vector<int> > zigzagLevelOrder(TreeNode *root) {
@@ -49,10 +49,10 @@ public:
 	
 };
 
-```
+// ```
 
-dequeue 0ms
-```cpp
+// dequeue 0ms
+// ```cpp
 class Solution2 {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
@@ -84,4 +84,4 @@ public:
         return res;
     }
 };
-```
+// ```

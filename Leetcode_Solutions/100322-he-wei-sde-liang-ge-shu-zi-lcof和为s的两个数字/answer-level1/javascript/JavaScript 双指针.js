@@ -1,6 +1,6 @@
-双指针
+// 双指针
 
-```js
+// ```js
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -19,4 +19,4 @@ var twoSum = function(nums, target) {
         }
     }
 };
-```
+// ```

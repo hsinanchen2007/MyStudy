@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canJump(int* nums, int numsSize){
     bool* dp = malloc(sizeof(bool) * numsSize);
     dp[numsSize - 1] = true;
@@ -24,4 +24,4 @@ bool canJump(int* nums, int numsSize){
     free(dp);
     return ret;
 }
-```
+// ```

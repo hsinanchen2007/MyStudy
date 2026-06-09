@@ -1,5 +1,5 @@
-**F1:哈希实现**
-```
+// **F1:哈希实现**
+// ```
 func removeDuplicateNodes(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil{
 		return head
@@ -19,9 +19,9 @@ func removeDuplicateNodes(head *ListNode) *ListNode {
 	}
 	return head
 }
-```
-**F2:for+for**
-```
+// ```
+// **F2:for+for**
+// ```
 func removeDuplicateNodes(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil{
 		return head
@@ -42,5 +42,5 @@ func removeDuplicateNodes(head *ListNode) *ListNode {
 	}
 	return head
 }
-```
+// ```
 

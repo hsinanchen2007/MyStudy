@@ -1,10 +1,10 @@
-### 解题思路
-    实测冒泡排序超出时间限制
-    改用快排
+// ### 解题思路
+//     实测冒泡排序超出时间限制
+//     改用快排
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void Swap(int *p, int *q);
 void QuickSort(int *a, int low, int high);
 int arrayPairSum(int* nums, int numsSize){
@@ -73,4 +73,4 @@ void QuickSort(int *a, int low, int high)
     QuickSort(a, low+1, j); //用同样的方式对分出来的右边的部分进行同上的做法
 }
 
-```
+// ```

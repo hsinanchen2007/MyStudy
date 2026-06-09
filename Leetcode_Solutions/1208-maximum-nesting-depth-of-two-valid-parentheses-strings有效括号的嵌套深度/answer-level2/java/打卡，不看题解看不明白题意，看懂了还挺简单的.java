@@ -1,4 +1,4 @@
-    // 栈深度挨着的要分开，用奇偶分开即可，这样A串B串深度最均匀
+//     // 栈深度挨着的要分开，用奇偶分开即可，这样A串B串深度最均匀
     class Solution {
         public int[] maxDepthAfterSplit(String seq) {
             int[] res = new int[seq.length()];

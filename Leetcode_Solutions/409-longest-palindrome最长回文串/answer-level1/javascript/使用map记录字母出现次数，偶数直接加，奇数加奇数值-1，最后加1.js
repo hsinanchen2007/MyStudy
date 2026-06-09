@@ -1,5 +1,5 @@
-### 解题思路
-```
+// ### 解题思路
+// ```
 var longestPalindrome = function(s) {
     let count = 0;
     let map = new Map();
@@ -21,11 +21,11 @@ var longestPalindrome = function(s) {
     }
     return isHaveSingle?count+1:count;
 };
-```
+// ```
 
-### 代码
+// ### 代码
 
-```python
+// ```python
 class Solution(object):
     def longestPalindrome(self, s):
         """
@@ -44,4 +44,4 @@ class Solution(object):
                 isHaveSingle = True
 
         return count+1 if isHaveSingle else count
-```
+// ```

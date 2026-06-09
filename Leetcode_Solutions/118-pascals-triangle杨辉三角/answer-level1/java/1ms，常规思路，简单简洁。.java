@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/9da0a38c159ecce018a2a0c4f0f806c2afbd725d71a8e34a195dbed367dc0667-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9da0a38c159ecce018a2a0c4f0f806c2afbd725d71a8e34a195dbed367dc0667-image.png)
 
-```
+// ```
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         
@@ -21,4 +21,4 @@ class Solution {
     }
     
 }
-```
+// ```

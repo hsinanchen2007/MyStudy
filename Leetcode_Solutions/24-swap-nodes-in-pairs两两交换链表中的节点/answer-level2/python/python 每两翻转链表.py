@@ -1,9 +1,9 @@
-### 解题思路
-按照每 k 个节点翻转链表的思路写的，就是，每翻转 k 个节点，都得到 head, tail; 用 tail 指向下一次的head。
+# ### 解题思路
+# 按照每 k 个节点翻转链表的思路写的，就是，每翻转 k 个节点，都得到 head, tail; 用 tail 指向下一次的head。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
             head = tail.next
             
         return res
-```
+# ```

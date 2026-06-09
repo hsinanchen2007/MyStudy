@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canJump(int[] nums) {
         int maxto  = nums[0], start = 0;

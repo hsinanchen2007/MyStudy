@@ -1,15 +1,15 @@
-### 解题思路
-题目中已经给了足够多的暗示，本题可以理解为求一棵树的最大深度。我们只需从根节点开始，采用深度优先搜索，求出这棵树的最大深度即可。
+# ### 解题思路
+# 题目中已经给了足够多的暗示，本题可以理解为求一棵树的最大深度。我们只需从根节点开始，采用深度优先搜索，求出这棵树的最大深度即可。
 
-可以看到题目中给出的是数组而非树的结构，因此首先需要存储树的结构（即父子关系）。一般来讲有两种存储方法：
-- 邻接矩阵
-- 二维数组
+# 可以看到题目中给出的是数组而非树的结构，因此首先需要存储树的结构（即父子关系）。一般来讲有两种存储方法：
+# - 邻接矩阵
+# - 二维数组
 
-我们使用二维数组 $son$ 保存父节点为 $i$ 的孩子结点 $son[i]$，然后采用深度优先搜索。
+# 我们使用二维数组 $son$ 保存父节点为 $i$ 的孩子结点 $son[i]$，然后采用深度优先搜索。
 
-### 代码
+# ### 代码
 
-```cpp []
+# ```cpp []
 class Solution {
 public:
     // 存结点
@@ -30,9 +30,9 @@ public:
         return res + informTime[u];
     }
 };
-```
+# ```
 
-```python []
+# ```python []
 class Solution:
     def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:
         self.son = collections.defaultdict(list)
@@ -47,7 +47,7 @@ class Solution:
         for s in self.son[u]:
             res = max(res, informTime[u] + self.dfs(s, informTime))
         return res
-```
-### 复杂度分析
-- 时间复杂度：$O(n)$，遍历了每一个结点。
-- 空间复杂度：$O(n)$，使用了数组存储每一个结点。
+# ```
+# ### 复杂度分析
+# - 时间复杂度：$O(n)$，遍历了每一个结点。
+# - 空间复杂度：$O(n)$，使用了数组存储每一个结点。

@@ -1,5 +1,5 @@
-# 递归+存储
-```
+// # 递归+存储
+// ```
 class Solution {
     public int climbStairs(int n) {
         if (n <= 2) {
@@ -19,11 +19,11 @@ class Solution {
         }
     }
 }
-```
-时间复杂度: O(n)
-空间复杂度: O(n)
-# 动态规划
-```
+// ```
+// 时间复杂度: O(n)
+// 空间复杂度: O(n)
+// # 动态规划
+// ```
 class Solution {
     public int climbStairs(int n) {
         if (n <= 2) {
@@ -38,11 +38,11 @@ class Solution {
         return dp[n - 1];
     }
 }
-```
-时间复杂度: O(n)
-空间复杂度: O(n)
-**进一步减少不必要的空间存储，n只需要用到n-1、n-2两个解即可**
-```
+// ```
+// 时间复杂度: O(n)
+// 空间复杂度: O(n)
+// **进一步减少不必要的空间存储，n只需要用到n-1、n-2两个解即可**
+// ```
 class Solution {
     public int climbStairs(int n) {
         if (n <= 2) {
@@ -59,6 +59,6 @@ class Solution {
         return result;
     }
 }
-```
-时间复杂度: O(n)
-空间复杂度: O(1)
+// ```
+// 时间复杂度: O(n)
+// 空间复杂度: O(1)

@@ -1,9 +1,9 @@
-### 解题思路
-方法一、set
+// ### 解题思路
+// 方法一、set
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -17,9 +17,9 @@ var thirdMax = function(nums) {
     }
     return arr[2];
 };
-```
-方法二、三个数分别存放第一大、第二大、第三大
-```
+// ```
+// 方法二、三个数分别存放第一大、第二大、第三大
+// ```
 var thirdMax = function(nums) {
     var one = nums[0];
     var two = -Infinity;
@@ -39,5 +39,5 @@ var thirdMax = function(nums) {
     }
     return nums.length >= 3 && three != -Infinity ? three : one
 };
-```
+// ```
 

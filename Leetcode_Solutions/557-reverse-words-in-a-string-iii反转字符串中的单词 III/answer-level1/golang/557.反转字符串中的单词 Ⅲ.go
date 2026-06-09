@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-方法比较慢，但很直观容易想到。
+// 方法比较慢，但很直观容易想到。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseWords(s string) string {
 	tmp := strings.Split(s," ")			//按空格把每个单词分开
 	res := ""
@@ -22,4 +22,4 @@ func reverse(s string) string {
 	}
 	return tmp
 }
-```
+// ```

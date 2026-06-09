@@ -1,4 +1,4 @@
-```
+// ```
 #include <iostream>
 using namespace  std;
 class Solution {
@@ -85,6 +85,6 @@ public:
         
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/2cd386fc8a19d7407c8a324f209c8da97990fbb35dbbe323ad8337d6822c86fd-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/2cd386fc8a19d7407c8a324f209c8da97990fbb35dbbe323ad8337d6822c86fd-image.png)
 

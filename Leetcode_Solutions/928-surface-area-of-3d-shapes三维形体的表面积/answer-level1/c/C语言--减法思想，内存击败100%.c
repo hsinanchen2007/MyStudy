@@ -1,11 +1,11 @@
-### 解题思路
-减法思想：先计算表面积总和，再减去相邻的，注意考虑最后一行和最后一列。
-![02.jpg](https://pic.leetcode-cn.com/ba5b97d6ba8e329c2ab60e6ea17b2658851531e6022bb479247bf6ac97244138-02.jpg)
+// ### 解题思路
+// 减法思想：先计算表面积总和，再减去相邻的，注意考虑最后一行和最后一列。
+// ![02.jpg](https://pic.leetcode-cn.com/ba5b97d6ba8e329c2ab60e6ea17b2658851531e6022bb479247bf6ac97244138-02.jpg)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define Min(a,b) ((a)<(b)?(a):(b))
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
     int sum=0;
@@ -29,4 +29,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     }
     return sum;
 }
-```
+// ```

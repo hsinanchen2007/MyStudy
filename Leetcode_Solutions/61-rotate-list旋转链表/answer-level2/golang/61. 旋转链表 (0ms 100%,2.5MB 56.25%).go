@@ -1,9 +1,9 @@
-### 解题思路
-采用官方所说解题思路
+// ### 解题思路
+// 采用官方所说解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -49,4 +49,4 @@ func rotateRight(head *ListNode, k int) *ListNode {
 
 	return h.Next
 }
-```
+// ```

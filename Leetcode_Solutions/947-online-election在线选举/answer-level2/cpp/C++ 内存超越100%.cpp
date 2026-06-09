@@ -1,4 +1,4 @@
-```
+// ```
 class TopVotedCandidate {
 public:
     TopVotedCandidate(vector<int>& persons, vector<int>& times) {
@@ -37,4 +37,4 @@ private:
     vector<int> flag;
     vector<int> * p;
 };
-```
+// ```

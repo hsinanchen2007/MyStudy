@@ -1,16 +1,16 @@
-### 动态规划
-执行用时 :
-44 ms
-, 在所有Python3提交中击败了
-95.28%
-的用户
-内存消耗 :
-13.1 MB
-, 在所有Python3提交中击败了
-79.31%
-的用户
+# ### 动态规划
+# 执行用时 :
+# 44 ms
+# , 在所有Python3提交中击败了
+# 95.28%
+# 的用户
+# 内存消耗 :
+# 13.1 MB
+# , 在所有Python3提交中击败了
+# 79.31%
+# 的用户
 
-```
+# ```
 class Solution(object):
     def uniquePaths(self, m, n):
         """
@@ -28,21 +28,21 @@ class Solution(object):
                 target[j] += target[j-1]
         return target[-1]
         
-```
+# ```
 
-### 排列组合
-执行用时 :
-48 ms
-, 在所有Python3提交中击败了
-90.43%
-的用户
-内存消耗 :
-12.8 MB
-, 在所有Python3提交中击败了
-98.71%
-的用户
+# ### 排列组合
+# 执行用时 :
+# 48 ms
+# , 在所有Python3提交中击败了
+# 90.43%
+# 的用户
+# 内存消耗 :
+# 12.8 MB
+# , 在所有Python3提交中击败了
+# 98.71%
+# 的用户
 
-```
+# ```
 class Solution(object):
     def uniquePaths(self, m, n):
         """
@@ -59,5 +59,5 @@ class Solution(object):
         for j in range(a-1):
             y *= (count-j)
         return y//x
-```
+# ```
 

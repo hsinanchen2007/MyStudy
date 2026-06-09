@@ -1,7 +1,7 @@
-建立set型vector存储字母，遍历字符串，第一个字符确定哪一行，之后字符确定是否在同一行
+// 建立set型vector存储字母，遍历字符串，第一个字符确定哪一行，之后字符确定是否在同一行
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     vector<string> findWords(vector<string>& words) {
@@ -34,4 +34,4 @@ public:
         return ans;
     }
 };
-```
+// ```

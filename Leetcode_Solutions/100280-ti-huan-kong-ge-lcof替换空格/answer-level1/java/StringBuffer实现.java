@@ -1,4 +1,4 @@
-```
+// ```
 public String replaceSpace(String s) {
         StringBuffer sb=new StringBuffer();
         for(char c:s.toCharArray()){
@@ -9,4 +9,4 @@ public String replaceSpace(String s) {
         }
         return sb.toString();
     }
-```
+// ```

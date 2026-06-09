@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int compareVersion(String v1, String v2) {
         int i = 0;
@@ -62,4 +62,4 @@ class Solution {
         return Integer.compare(diff, 0); 
     }
 }
-```
+// ```

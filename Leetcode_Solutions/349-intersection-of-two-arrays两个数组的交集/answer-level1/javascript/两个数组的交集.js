@@ -1,6 +1,6 @@
-借助map对象
+// 借助map对象
 
-```js
+// ```js
 var intersection = function(nums1, nums2) {
     var result = [];
     var map = new Map();
@@ -14,5 +14,5 @@ var intersection = function(nums1, nums2) {
     })
     return result;
 };
-```
+// ```
 

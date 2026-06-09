@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
         //方法：对reservedSeats排序，然后对每一行分别计算，当某些行不存在时，则加2；
@@ -69,4 +69,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

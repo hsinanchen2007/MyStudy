@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minDistance(self, word1, word2):
         #dp[i][j]表示将字符串 word1[0: i-1] 转变为 word2[0: j-1] 的最小步骤数
@@ -33,4 +33,4 @@ class Solution:
 if __name__ == "__main__":
     print(Solution().minDistance("horse","ros"))
     
-```
+# ```

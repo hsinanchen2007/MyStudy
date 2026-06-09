@@ -1,7 +1,7 @@
 
-c++
-考虑三种情况就好。
-```c++ []
+// c++
+// 考虑三种情况就好。
+// ```c++ []
 class Solution {
 public:
         int searchInsert(vector<int>& nums, int target) {
@@ -17,4 +17,4 @@ public:
         return 0;
     }
 };
-```
+// ```

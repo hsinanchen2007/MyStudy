@@ -1,7 +1,7 @@
-## 思路
-**注意：在popMax重新入栈元素时，直接调用push会同时更新最大值栈，如果调用st.push()则不会更新新的最大值**
-### 代码
-```c++
+// ## 思路
+// **注意：在popMax重新入栈元素时，直接调用push会同时更新最大值栈，如果调用st.push()则不会更新新的最大值**
+// ### 代码
+// ```c++
 class MaxStack {
     stack<int> st;
     stack<int> maxStack;
@@ -51,4 +51,4 @@ public:
         return t;
     }
 };
-```
+// ```

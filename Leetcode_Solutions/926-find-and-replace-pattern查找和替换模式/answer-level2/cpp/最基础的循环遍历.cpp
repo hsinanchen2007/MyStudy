@@ -1,10 +1,10 @@
-### 解题思路
-每个words的元素，单独与pattern建立映射；
-建立时每个字母都要检查是否满足一一映射，满足则添加到结果，不满足则跳过当前单词。
+// ### 解题思路
+// 每个words的元素，单独与pattern建立映射；
+// 建立时每个字母都要检查是否满足一一映射，满足则添加到结果，不满足则跳过当前单词。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findAndReplacePattern(vector<string>& words, string pattern) {
@@ -45,4 +45,4 @@ public:
         return rst;
     }
 };
-```
+// ```

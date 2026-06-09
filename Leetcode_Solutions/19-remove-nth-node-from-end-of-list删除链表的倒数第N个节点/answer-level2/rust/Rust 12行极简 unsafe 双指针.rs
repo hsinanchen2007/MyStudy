@@ -1,4 +1,4 @@
-```rust
+// ```rust
 pub fn remove_nth_from_end(mut head: Option<Box<ListNode>>, n: i32) -> Option<Box<ListNode>> {
     let mut l: *const _ = &head;
     let mut d = head.as_mut().unwrap();
@@ -12,4 +12,4 @@ pub fn remove_nth_from_end(mut head: Option<Box<ListNode>>, n: i32) -> Option<Bo
     d.next = d.next.take().unwrap().next;
     head
 }
-```
+// ```

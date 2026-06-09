@@ -1,13 +1,13 @@
-### 解题思路
-参考题解[【把数字翻译成字符串】：回溯，动态规划](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/solution/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-hui-su-dong-tai/)的数楼梯的思路
+# ### 解题思路
+# 参考题解[【把数字翻译成字符串】：回溯，动态规划](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/solution/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-hui-su-dong-tai/)的数楼梯的思路
 
-忘了特例 506 导致错误， 需要额外判断一下第一个字符是否是 '0'
+# 忘了特例 506 导致错误， 需要额外判断一下第一个字符是否是 '0'
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def translateNum(self, num: int) -> int:
         num_l = list(str(num))
@@ -24,4 +24,4 @@ class Solution:
             else:
                 DP[i] = DP[i-1]
         return DP[len(num_l)]
-```
+# ```

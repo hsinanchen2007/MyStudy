@@ -1,11 +1,11 @@
-# 解题思路
-1. 暴力法：四层for循环，时间复杂度是O(N^4)
-2. 模拟两数之和，采用双指针，时间复杂度是O(N^3)。防止重复需要判断
-3. 如何才能O(N^2)呢？需要将两层循环拍平，拍成一层循环，那么就可以达到O(N^2).
-可以将2层的数字预先计算求和，存储到哈希表里方便快速查找。防止重复可以用集合
+// # 解题思路
+// 1. 暴力法：四层for循环，时间复杂度是O(N^4)
+// 2. 模拟两数之和，采用双指针，时间复杂度是O(N^3)。防止重复需要判断
+// 3. 如何才能O(N^2)呢？需要将两层循环拍平，拍成一层循环，那么就可以达到O(N^2).
+// 可以将2层的数字预先计算求和，存储到哈希表里方便快速查找。防止重复可以用集合
 
-# 双指针：O(N^3)
-```
+// # 双指针：O(N^3)
+// ```
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> ret = new ArrayList<>();
@@ -50,10 +50,10 @@ class Solution {
         return ret;
     }
 }
-```
+// ```
 
-# 哈希表：O(N^2)
-```
+// # 哈希表：O(N^2)
+// ```
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         HashMap<Integer, List<List<Integer>>> t = new HashMap<>();
@@ -109,5 +109,5 @@ class Solution {
         return new ArrayList<>(ret);
     }
 }
-```
+// ```
 

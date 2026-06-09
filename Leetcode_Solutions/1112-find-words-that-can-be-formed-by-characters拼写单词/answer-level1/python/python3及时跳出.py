@@ -1,9 +1,9 @@
-### 解题思路
-python3及时跳出
+# ### 解题思路
+# python3及时跳出
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         import copy
@@ -28,4 +28,4 @@ class Solution:
 
         return ret_count
 
-```
+# ```

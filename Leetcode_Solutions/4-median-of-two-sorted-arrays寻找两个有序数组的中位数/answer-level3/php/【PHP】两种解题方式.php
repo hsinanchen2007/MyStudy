@@ -1,4 +1,4 @@
-```php []
+// ```php []
 /**
  * 简单式：
  * - 支持 $nums1, $nums2 为无序数组
@@ -25,8 +25,8 @@ class Solution {
         return $m;
     }
 }
-```
-```php []
+// ```
+// ```php []
 /**
  * 二分查找式
  * - $nums1, $nums2 必须为有序数组
@@ -83,4 +83,4 @@ class Solution {
         return [$sarr, $low];
     }
 }
-```
+// ```

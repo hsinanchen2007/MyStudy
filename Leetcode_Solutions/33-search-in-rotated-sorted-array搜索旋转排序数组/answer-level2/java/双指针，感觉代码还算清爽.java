@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         int i=0;
@@ -29,4 +29,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

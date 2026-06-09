@@ -1,9 +1,9 @@
-### 解题思路
-常规 Fibonacci Number 
+// ### 解题思路
+// 常规 Fibonacci Number 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) {
@@ -19,4 +19,4 @@ public:
         return res;
     }
 };
-```
+// ```

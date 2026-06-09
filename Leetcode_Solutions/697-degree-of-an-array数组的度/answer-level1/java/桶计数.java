@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int findShortestSubArray(int[] nums) {
         if (nums == null || nums.length == 0)
@@ -38,4 +38,4 @@ class Solution {
         return minSubIdx + 1;
     }
 }
-```
+// ```

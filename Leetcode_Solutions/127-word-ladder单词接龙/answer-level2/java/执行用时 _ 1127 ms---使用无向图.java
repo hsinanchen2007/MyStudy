@@ -1,11 +1,11 @@
-### 解题思路
-使用wordList初始化无向图，相差一个字母的才能连接
-![微信图片_20200228114235.jpg](https://pic.leetcode-cn.com/a10c08f87b856c17ea048f5e3e76a3a507aba923e64d7206f8557465fedb111b-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200228114235.jpg)
+// ### 解题思路
+// 使用wordList初始化无向图，相差一个字母的才能连接
+// ![微信图片_20200228114235.jpg](https://pic.leetcode-cn.com/a10c08f87b856c17ea048f5e3e76a3a507aba923e64d7206f8557465fedb111b-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200228114235.jpg)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         if (beginWord == null || endWord == null ||
@@ -83,4 +83,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

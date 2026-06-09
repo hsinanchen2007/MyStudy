@@ -1,5 +1,5 @@
-单栈+sign标记
-```
+// 单栈+sign标记
+// ```
 function calculate($s) {
     $s = trim($s);
     $stack = [];
@@ -31,4 +31,4 @@ function calculate($s) {
     }
     return $ans;
 }
-```
+// ```

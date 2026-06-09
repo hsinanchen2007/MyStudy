@@ -1,12 +1,12 @@
-### 解题思路
-1. 定义了 PriorityQueue 确保插入结果时保序。
-2. 先定义了字典树 Trie
-3. 然后使用 Trie构建字典
-4. 重要的是 startsWith 函数，对每一种输入的可能进行深度遍历（用递归），找到匹配的答案，然后放入 m 中。如果m的size > 3 ，那么pop出一个最小的。
+// ### 解题思路
+// 1. 定义了 PriorityQueue 确保插入结果时保序。
+// 2. 先定义了字典树 Trie
+// 3. 然后使用 Trie构建字典
+// 4. 重要的是 startsWith 函数，对每一种输入的可能进行深度遍历（用递归），找到匹配的答案，然后放入 m 中。如果m的size > 3 ，那么pop出一个最小的。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 const int R = 26 + 1;
 const int maxResult = 3;
 
@@ -102,4 +102,4 @@ public:
  * AutocompleteSystem* obj = new AutocompleteSystem(sentences, times);
  * vector<string> param_1 = obj->input(c);
  */
-```
+// ```

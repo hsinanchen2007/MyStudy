@@ -1,6 +1,6 @@
-该题解借鉴了"哑节点+快慢指针"的思想，算法如下：
+// 该题解借鉴了"哑节点+快慢指针"的思想，算法如下：
 
-```go
+// ```go
 func deleteDuplicates(head *ListNode) *ListNode {
     if head == nil || head.Next == nil {
         return head
@@ -27,4 +27,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
     }
     return dummy.Next
 }
-```
+// ```

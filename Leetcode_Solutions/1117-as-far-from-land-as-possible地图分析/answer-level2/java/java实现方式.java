@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/bbdc1fa0eeabbc0b0896d1c18691efc44a0d229374c37539b3ed6d60242f3a33-image.png)
-看了各位大佬的评论醍醐灌顶，由于我是写java的，好多C++和Python的类库我都看不懂。。。
-我感觉肯定还有很多像我这样的小白，所以我打算把我自己的思路贡献出来，希望能有所帮助
-我的思路很简单：
-1、找到所有的陆地
-2、从陆地逐渐往海水扩展
-```
+// ![image.png](https://pic.leetcode-cn.com/bbdc1fa0eeabbc0b0896d1c18691efc44a0d229374c37539b3ed6d60242f3a33-image.png)
+// 看了各位大佬的评论醍醐灌顶，由于我是写java的，好多C++和Python的类库我都看不懂。。。
+// 我感觉肯定还有很多像我这样的小白，所以我打算把我自己的思路贡献出来，希望能有所帮助
+// 我的思路很简单：
+// 1、找到所有的陆地
+// 2、从陆地逐渐往海水扩展
+// ```
    public int maxDistance(int[][] grid) {
         if (grid == null) return 0;
         int row = grid.length;
@@ -73,5 +73,5 @@
             this.col = col;
         }
     }
-```
+// ```
 

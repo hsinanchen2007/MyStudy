@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subtractProductAndSum(int n) {
         int num=n%10;
@@ -17,4 +17,4 @@ class Solution {
         return mul-sum;
     }
 }
-```
+// ```

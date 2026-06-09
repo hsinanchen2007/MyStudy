@@ -1,10 +1,10 @@
-### 解题思路
-先排序，然后开始搜。
-易读易理解。
+# ### 解题思路
+# 先排序，然后开始搜。
+# 易读易理解。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def makesquare(self, nums: List[int]) -> bool:
         total = sum(nums)
@@ -36,4 +36,4 @@ class Solution:
                 break
         memo[(tuple(nums), tmp, res)] = False
         return False
-```
+# ```

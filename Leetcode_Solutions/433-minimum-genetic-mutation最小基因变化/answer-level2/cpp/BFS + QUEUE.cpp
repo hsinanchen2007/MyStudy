@@ -1,9 +1,9 @@
-### 解题思路
-队列法 和 127类似
+// ### 解题思路
+// 队列法 和 127类似
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minMutation(string start, string end, vector<string>& bank) {
@@ -35,4 +35,4 @@ public:
         return -1;
     }
 };
-```
+// ```

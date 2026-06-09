@@ -1,4 +1,4 @@
-```
+// ```
 int findPeakElement(int *nums, int numsSize)
 {
     if (!nums || numsSize < 1) {
@@ -21,4 +21,4 @@ int findPeakElement(int *nums, int numsSize)
     printf("can not find!");
     return -1;
 }
-```
+// ```

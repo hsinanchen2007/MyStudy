@@ -1,18 +1,18 @@
-通过阅读题目我们发现，我们需要从单词表`words`中选择若干个单词使最终的得分最高。如何选择单词呢？这里没有什么技巧，测试用例也不大，只能枚举所有的可能情况，也就是枚举所有的单词组合。一听到枚举所有可能情况，脑中一下子就蹦出了`回溯`是不是？反正我是。这里还提供另一种解法`位压缩`。
+// 通过阅读题目我们发现，我们需要从单词表`words`中选择若干个单词使最终的得分最高。如何选择单词呢？这里没有什么技巧，测试用例也不大，只能枚举所有的可能情况，也就是枚举所有的单词组合。一听到枚举所有可能情况，脑中一下子就蹦出了`回溯`是不是？反正我是。这里还提供另一种解法`位压缩`。
 
 
 
-## 回溯
+// ## 回溯
 
-- 对于单词表中的每个单词无非就两种情况，选或者不选！
+// - 对于单词表中的每个单词无非就两种情况，选或者不选！
 
-- 那我们就要遍历单词表中的所有单词，对于每个单词计算出选和不选两种情况的得分，最后再取得分较大的选择即可。
+// - 那我们就要遍历单词表中的所有单词，对于每个单词计算出选和不选两种情况的得分，最后再取得分较大的选择即可。
 
-- 当然，题目还有其它要求，就是字母表`letters`中的每个单词最多只能使用一次。
+// - 当然，题目还有其它要求，就是字母表`letters`中的每个单词最多只能使用一次。
 
-- 所以我们就需要用一个哈希表`m`来保存每个字母的个数，每用掉一个字符，相应的键值就要减1。
+// - 所以我们就需要用一个哈希表`m`来保存每个字母的个数，每用掉一个字符，相应的键值就要减1。
 
-```cpp
+// ```cpp
 int maxScoreWords(vector<string>& words, vector<char>& letters, vector<int>& score) {
     vector<int> m(26);	//使用向量模拟哈希表
     // 初始化字母表
@@ -21,9 +21,9 @@ int maxScoreWords(vector<string>& words, vector<char>& letters, vector<int>& sco
     }
     return backtrack(0, m, words, letters, score);
 }
-```
+// ```
 
-```cpp
+// ```cpp
 /**
 *  index表示当前单词的索引
 */
@@ -42,9 +42,9 @@ int backtrack(int index, vector<int> m, vector<string>& words, vector<char>& let
     //返回选择或者不选得分较大者
     return max(leftret, rightret);
 }
-```
+// ```
 
-```cpp
+// ```cpp
 //注意这里字母表传入的是对t的引用
 int spell(string word, vector<int>& t, vector<char>& letters, vector<int>& score) {
     int ret = 0;
@@ -58,22 +58,22 @@ int spell(string word, vector<int>& t, vector<char>& letters, vector<int>& score
     }
     return ret;
 }
-```
+// ```
 
 
-有没有发现很像对二叉树的操作，是的，这就是使用了二叉树的模型。所以有时间多去刷刷树的题，会对你理解很多需要使用递归的算法有很大的帮助！
+// 有没有发现很像对二叉树的操作，是的，这就是使用了二叉树的模型。所以有时间多去刷刷树的题，会对你理解很多需要使用递归的算法有很大的帮助！
 
-## 位压缩
+// ## 位压缩
 
-位压缩思路其实也和回溯类似，只不过是将所有的可能情况压缩到一个32位`int`类型的变量`i`中来保存。
+// 位压缩思路其实也和回溯类似，只不过是将所有的可能情况压缩到一个32位`int`类型的变量`i`中来保存。
 
-- 32位二进制，第1位对应单词表中的第一个单词`words[0]`的选择状态
-- 第2位对应单词表中的第二个单词`words[1]`的选择状态
-- ......
+// - 32位二进制，第1位对应单词表中的第一个单词`words[0]`的选择状态
+// - 第2位对应单词表中的第二个单词`words[1]`的选择状态
+// - ......
 
-- 二进制为0代表不选择单词表中对应的单词，1代表选择对应的单词。
+// - 二进制为0代表不选择单词表中对应的单词，1代表选择对应的单词。
 
-```cpp
+// ```cpp
 int maxScoreWords(vector<string>& words, vector<char>& letters, vector<int>& score) {
     int ret = 0;
     //初始化字母表m
@@ -89,9 +89,9 @@ int maxScoreWords(vector<string>& words, vector<char>& letters, vector<int>& sco
     }
     return ret;
 }
-```
+// ```
 
-```cpp
+// ```cpp
 /**
 *返回某一种情况下的得分
 */
@@ -113,13 +113,13 @@ int oneStateRet(vector<string>& words, vector<char>& letters, vector<int>& score
     }
     return ret;
 }
-```
+// ```
 
-## 最后
+// ## 最后
 
-二哥：水题！
+// 二哥：水题！
 
-我：？？？
+// 我：？？？
 
 
-推荐leetcode刷题qq群：812791932 都是一群乐于帮助别人的大佬，大家共同进步！
+// 推荐leetcode刷题qq群：812791932 都是一群乐于帮助别人的大佬，大家共同进步！

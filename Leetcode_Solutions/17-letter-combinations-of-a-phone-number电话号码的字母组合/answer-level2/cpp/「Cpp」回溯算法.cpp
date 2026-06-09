@@ -1,24 +1,24 @@
-### 解题思路
+// ### 解题思路
 
-原本想用map，但是想想也就9个数字，开个map可能不划算，直接用数组好了。相当于手工哈希了。
+// 原本想用map，但是想想也就9个数字，开个map可能不划算，直接用数组好了。相当于手工哈希了。
 
-核心代码如下
+// 核心代码如下
 
-```cpp
+// ```cpp
        string tmp = m[digits[pos] - '0'];
         for (int i = 0; i < tmp.size(); i++){
             s.push_back(tmp[i]);
             DFS(digits, pos+1, s, res, m);
             s.pop_back();
         }
-```
+// ```
 
-每个数字对应这多个选择，每个选择都试一试，然后重置状态。
+// 每个数字对应这多个选择，每个选择都试一试，然后重置状态。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> letterCombinations(string digits) {
@@ -53,4 +53,4 @@ public:
         return ;
     }
 };
-```
+// ```

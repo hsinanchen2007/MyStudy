@@ -1,9 +1,9 @@
-### 解题思路
-通过矩阵斜轴转置，然后通过中轴反转实现顺时针
+// ### 解题思路
+// 通过矩阵斜轴转置，然后通过中轴反转实现顺时针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     if (matrixSize == 0) return;
     int tmp;
@@ -24,4 +24,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         }
     }
 }
-```
+// ```

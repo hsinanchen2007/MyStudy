@@ -1,4 +1,4 @@
-    // 用ArrayList
+//     // 用ArrayList
     class Solution {
         public int lastRemaining(int n, int m) {
             List<Integer> list = new ArrayList<>();

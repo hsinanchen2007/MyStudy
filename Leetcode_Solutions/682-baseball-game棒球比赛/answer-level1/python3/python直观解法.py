@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def calPoints(self, ops: list) -> int:
         valid = []
@@ -14,4 +14,4 @@ class Solution:
                 tmp_1 = valid[-1]+valid[-2]
                 valid.append(tmp_1)
         return sum(valid)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def exist(self, board, word):
         def dfs(x,y,mark,index):
@@ -34,4 +34,4 @@ class Solution(object):
                     else:
                         mark[i][j] = 0
         return False
-```
+# ```

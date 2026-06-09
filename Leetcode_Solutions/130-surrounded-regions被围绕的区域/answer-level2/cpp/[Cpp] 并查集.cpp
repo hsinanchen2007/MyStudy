@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-第一部分，并查集数据结构， 根据算法导论，该数据结构常用于不相交问题分析，函数主要为初始，并，和查三种
+// 第一部分，并查集数据结构， 根据算法导论，该数据结构常用于不相交问题分析，函数主要为初始，并，和查三种
 
-```cpp
+// ```cpp
 struct DSU{
     std::vector<int> data;
     void makeSet(int n){
@@ -34,11 +34,11 @@ struct DSU{
     };
 
 };
-```
+// ```
 
-使用并查集时，使用一个虚拟节点，作为所有边界的'O'的代表
+// 使用并查集时，使用一个虚拟节点，作为所有边界的'O'的代表
 
-```cpp
+// ```cpp
         DSU dsu;
         dsu.makeSet( rows * cols + 1);
         int dummy = rows * cols; //虚拟节点作为边界0的父节点
@@ -46,11 +46,11 @@ struct DSU{
 //边界情况
                     if ( i == 0 || i == rows - 1 || j == 0 || j == cols - 1){
                         dsu.unionSet( node(i,j,cols), dummy );
-```
+// ```
 
-之后分析非边界的'O'是否和边界的'O'相连接
+// 之后分析非边界的'O'是否和边界的'O'相连接
 
-```cpp
+// ```cpp
                         for (int k = 0; k < 4; k++){
                             int nx = i + dx[k];
                             int ny = j + dy[k];
@@ -58,11 +58,11 @@ struct DSU{
                                 dsu.unionSet(node(nx, ny, cols), node(i,j,cols));
                             }
                         }
-```
+// ```
 
-最后遍历board，分析其中的'O'是否和边界相连，如果不是，就替换。
+// 最后遍历board，分析其中的'O'是否和边界相连，如果不是，就替换。
 
-```cpp
+// ```cpp
         for (int i = 0; i < rows; i++){
             for (int j = 0; j < cols; j++){
                 if ( board[i][j] == 'O' && dsu.parent(node(i,j,cols)) != dsu.parent(dummy)){
@@ -70,11 +70,11 @@ struct DSU{
                 }
             }
         }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 struct DSU{
     std::vector<int> data;
@@ -159,4 +159,4 @@ public:
     }
 };
 
-```
+// ```

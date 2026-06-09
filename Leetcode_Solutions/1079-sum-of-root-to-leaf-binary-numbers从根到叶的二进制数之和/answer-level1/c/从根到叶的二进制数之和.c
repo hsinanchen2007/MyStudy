@@ -1,6 +1,6 @@
-![QQ截图20191108153445.png](https://pic.leetcode-cn.com/51dfe73fed3327746b680c514ee822e6d4435e768d132630e38c08d41508a28f-QQ%E6%88%AA%E5%9B%BE20191108153445.png)
+// ![QQ截图20191108153445.png](https://pic.leetcode-cn.com/51dfe73fed3327746b680c514ee822e6d4435e768d132630e38c08d41508a28f-QQ%E6%88%AA%E5%9B%BE20191108153445.png)
 
-```
+// ```
 //辅助函数 
 void help(struct TreeNode *root,int sum[],int cur)
 {
@@ -46,5 +46,5 @@ int sumRootToLeaf(struct TreeNode* root){
 	help(root,sum,cur);
 	return sum[0];
 }
-```
+// ```
 

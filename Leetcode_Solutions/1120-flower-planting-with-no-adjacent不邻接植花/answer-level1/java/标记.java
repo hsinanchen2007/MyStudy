@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] gardenNoAdj(int n, int[][] paths) {
         int[] color = new int[n];
@@ -32,4 +32,4 @@ class Solution {
     }
 
 }
-```
+// ```

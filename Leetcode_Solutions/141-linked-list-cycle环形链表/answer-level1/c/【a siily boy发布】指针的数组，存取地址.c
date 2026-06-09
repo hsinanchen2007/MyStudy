@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ bool hasCycle(struct ListNode *head) {
 
     return false;
 }
-```
+// ```

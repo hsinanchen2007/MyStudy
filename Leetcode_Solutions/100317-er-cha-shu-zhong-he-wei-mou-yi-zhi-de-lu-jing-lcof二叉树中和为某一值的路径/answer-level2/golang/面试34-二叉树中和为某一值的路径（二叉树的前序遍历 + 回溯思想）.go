@@ -1,15 +1,15 @@
-### 解题思路
-学习[@jyd](/u/jyd/)大佬
-[大佬详细讲解传送门](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/solution/mian-shi-ti-34-er-cha-shu-zhong-he-wei-mou-yi-zh-5/)
+// ### 解题思路
+// 学习[@jyd](/u/jyd/)大佬
+// [大佬详细讲解传送门](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/solution/mian-shi-ti-34-er-cha-shu-zhong-he-wei-mou-yi-zh-5/)
 
-学习[@sakura-151](/u/sakura-151/)大佬
-[大佬详细讲解传送门](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/solution/golang-di-gui-by-sakura-151-2/)
+// 学习[@sakura-151](/u/sakura-151/)大佬
+// [大佬详细讲解传送门](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/solution/golang-di-gui-by-sakura-151-2/)
 
-### 知识点：二叉树的前序遍历 + 回溯法
+// ### 知识点：二叉树的前序遍历 + 回溯法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -50,4 +50,4 @@ func recur(root *TreeNode, tar int, path []int, res *[][]int)  {
     // 得到的路径不符合要求，往前回溯，删除当前节点，返回父节点
 	path = path[:len(path)-1] // 向上回溯前，需要将当前节点从路径 path 中删除
 }
-```
+// ```

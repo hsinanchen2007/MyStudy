@@ -1,9 +1,9 @@
-### 解题思路
-两次二分法
+// ### 解题思路
+// 两次二分法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target){
     if (0 == matrixSize || 0 == *matrixColSize)
     {
@@ -81,4 +81,4 @@ bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target){
         return false;
     }
 }
-```
+// ```

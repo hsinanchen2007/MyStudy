@@ -1,9 +1,9 @@
-### 解题思路
-根据二叉搜索树的性质，找第K大相当于向右做中序遍历。
+// ### 解题思路
+// 根据二叉搜索树的性质，找第K大相当于向右做中序遍历。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ int kthLargest(struct TreeNode* root, int k){
         retVal = NOT_FOUND;
     return retVal;
 }
-```
+// ```

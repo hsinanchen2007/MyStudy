@@ -1,5 +1,5 @@
-BFS，层次遍历最后得到的深度就是最大的深度
-```
+# BFS，层次遍历最后得到的深度就是最大的深度
+# ```
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         # BFS
@@ -13,12 +13,12 @@ class Solution:
             if node.right:
                 queue.append((depth+1,node.right))
         return depth
-```
+# ```
 
-DFS与BFS有两点不同：
-1. 最后得到的深度不一定是最大深度，所以要用max判断
-2. DFS（先序遍历）节点右孩子先入栈，左孩子再入栈`
-```
+# DFS与BFS有两点不同：
+# 1. 最后得到的深度不一定是最大深度，所以要用max判断
+# 2. DFS（先序遍历）节点右孩子先入栈，左孩子再入栈`
+# ```
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:    
         # DFS
@@ -34,6 +34,6 @@ class Solution:
             if node.left:
                 stack.append((cur_dep+1,node.left))
         return depth
-```
+# ```
 
 

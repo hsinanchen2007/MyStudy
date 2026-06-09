@@ -1,4 +1,4 @@
-``` golang []
+// ``` golang []
 func fibonacci() func() (int,int) {
 	a,b := 1,0
 	return func() (int,int) {
@@ -21,4 +21,4 @@ func fib(N int) int {
 }
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-双指针，要么left+1，要么right-1
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 双指针，要么left+1，要么right-1
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool Judgehuiwen(int left,int right,string &str){
@@ -38,4 +38,4 @@ public:
         return true;
     }
 };
-```
+// ```

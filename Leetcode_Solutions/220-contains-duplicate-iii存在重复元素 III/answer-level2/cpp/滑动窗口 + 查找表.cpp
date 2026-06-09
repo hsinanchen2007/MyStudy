@@ -1,7 +1,7 @@
-太坑了，int会溢出，参考了评论区大佬才A的
+// 太坑了，int会溢出，参考了评论区大佬才A的
 
 
-```c++
+// ```c++
 class Solution {
 public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
@@ -33,4 +33,4 @@ public:
         cout<<"res: "<<res<<endl;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-分成偶数,奇数数组
-分别从奇，偶数组取值构造结果
+// ### 解题思路
+// 分成偶数,奇数数组
+// 分别从奇，偶数组取值构造结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArrayByParityII(int[] A) {
         int n = A.length;
@@ -30,4 +30,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

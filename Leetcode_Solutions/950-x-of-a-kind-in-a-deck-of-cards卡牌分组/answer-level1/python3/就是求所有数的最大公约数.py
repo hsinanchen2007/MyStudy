@@ -1,4 +1,4 @@
-```
+# ```
 from collections import Counter
 class Solution:
     def hasGroupsSizeX(self, deck) -> bool:
@@ -22,4 +22,4 @@ class Solution:
             if rf == 1:
                 return False
         return True
-```
+# ```

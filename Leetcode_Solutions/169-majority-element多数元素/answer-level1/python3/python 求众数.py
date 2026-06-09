@@ -1,5 +1,5 @@
-# 方法一 需要一个列表存储元素
-```
+# # 方法一 需要一个列表存储元素
+# ```
 class Solution(object):
     def majorityElement(self, nums):
         list_1=[]
@@ -12,16 +12,16 @@ class Solution(object):
                 list_1.append(nums[i])
                 if nums.count(nums[i])>n//2:
                     return nums[i]
-```
-方法二 排序后找中位数
-```
+# ```
+# 方法二 排序后找中位数
+# ```
 class Solution(object):
     def majorityElement(self,nums):
         nums.sort()
         return nums[len(nums)//2]
-```
-方法三 摩尔投票算法
-```
+# ```
+# 方法三 摩尔投票算法
+# ```
 class Solution(object):
     def majorityElement(self,nums): 
         tmp=nums[0]
@@ -31,4 +31,4 @@ class Solution(object):
                 tmp=nums[i]
             count=count+1 if nums[i]==tmp else count-1
         return tmp
-```
+# ```

@@ -1,5 +1,5 @@
 
-``````c []
+// ``````c []
 //第一次：4ms 73.13% 5.3M 100%
 int longestPalindrome(char * s){
     int alphaCount[52]={};
@@ -67,5 +67,5 @@ int longestPalindrome(char * s){
 
     return maxLength;
 }
-``````
+// ``````
 

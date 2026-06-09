@@ -1,6 +1,6 @@
-看了看0毫秒的写法，hashmap真的快，不过空间就上去了，得35m
+// 看了看0毫秒的写法，hashmap真的快，不过空间就上去了，得35m
 
-```rust []
+// ```rust []
 impl Solution {
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         
@@ -25,5 +25,5 @@ impl Solution {
         [0,0].to_vec()
     }
 }
-```
-这个最终24ms，2MB
+// ```
+// 这个最终24ms，2MB

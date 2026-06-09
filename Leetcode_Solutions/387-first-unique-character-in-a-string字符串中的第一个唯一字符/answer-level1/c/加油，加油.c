@@ -1,7 +1,7 @@
-### 解题思路
-很好的思路，代替了java的HashMap
+// ### 解题思路
+// 很好的思路，代替了java的HashMap
 
-```c
+// ```c
 //创建一个辅助数组nums[26]，记录26个英文字母的出现次数  两次遍历即可   超越97.6
 int firstUniqChar(char * s){
     int length = strlen(s);
@@ -22,4 +22,4 @@ int firstUniqChar(char * s){
     }
     return -1; 
 }
-```
+// ```

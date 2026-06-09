@@ -1,10 +1,10 @@
-### 解题思路
-罗马数字的排列规律是从大到小，特殊情况会出现前一个小后一个大，对于特殊情况，我们特殊处理就可以了。
+// ### 解题思路
+// 罗马数字的排列规律是从大到小，特殊情况会出现前一个小后一个大，对于特殊情况，我们特殊处理就可以了。
 
-### 代码
-![ddd.png](https://pic.leetcode-cn.com/654b246ad2b0ad3758052c512586487cfa02efa1a4ae87a8e4b375a8733c5c44-ddd.png)
+// ### 代码
+// ![ddd.png](https://pic.leetcode-cn.com/654b246ad2b0ad3758052c512586487cfa02efa1a4ae87a8e4b375a8733c5c44-ddd.png)
 
-```c
+// ```c
 #include<stdio.h>
 #define ROM_MAX 1000    //罗马字母表示的最大值
 
@@ -32,4 +32,4 @@ int romanToInt(char * s)
     return num;
 }
 
-```
+// ```

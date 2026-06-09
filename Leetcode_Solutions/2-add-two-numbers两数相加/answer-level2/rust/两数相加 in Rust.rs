@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
     /// ```
     /// use leetcode::Solution;
@@ -41,4 +41,4 @@ impl Solution {
         (*dummy).next
     }
 }
-```
+// ```

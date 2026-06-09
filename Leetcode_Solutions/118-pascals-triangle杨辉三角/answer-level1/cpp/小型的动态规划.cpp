@@ -1,10 +1,10 @@
-用动态规划的思想组建模型
+// 用动态规划的思想组建模型
 
-dp[i][j] = dp[i-1][j -1]+dp[i-1][j]
+// dp[i][j] = dp[i-1][j -1]+dp[i-1][j]
 
-即可得出解题思路
+// 即可得出解题思路
 
-```
+// ```
 std::vector<std::vector<int>> CLeetCode_Solution::generate(int numRows)
 {
 	vector<std::vector<int>> ret;
@@ -21,4 +21,4 @@ std::vector<std::vector<int>> CLeetCode_Solution::generate(int numRows)
 	}
 	return ret;
 }
-```
+// ```

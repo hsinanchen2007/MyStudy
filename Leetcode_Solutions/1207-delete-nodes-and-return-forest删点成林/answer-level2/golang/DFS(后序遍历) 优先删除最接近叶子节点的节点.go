@@ -1,6 +1,6 @@
-**思路**：假如说当前节点root是需要删除的 但是root左右子树中还有需要删除的节点roots那么优先删除roots然后再删除root是比较直观明了的 也就是说需要使用到后序遍历
-**注意**：基于树的性质其他遍历方式也是可以的 本人菜鸡 主要的语句都添加了注释 一下代码仅供参考 还请大家多多指教
-```python []
+// **思路**：假如说当前节点root是需要删除的 但是root左右子树中还有需要删除的节点roots那么优先删除roots然后再删除root是比较直观明了的 也就是说需要使用到后序遍历
+// **注意**：基于树的性质其他遍历方式也是可以的 本人菜鸡 主要的语句都添加了注释 一下代码仅供参考 还请大家多多指教
+// ```python []
 class Solution:
 	def delNodes(self,root,to_delete):
 		ans=[]
@@ -21,8 +21,8 @@ class Solution:
 			return False
 		dfs(dummy)
 		return ans
-```
-```golang []
+// ```
+// ```golang []
 func delNodes(root *TreeNode,to_delete []int) (ans []*TreeNode) {
 	None:=(*TreeNode)(nil)
 	dummy:=&TreeNode{0,root,None} //一个哑节点 方便后续的统一处理(比如说root最后可能是要放进ans中去的)
@@ -53,4 +53,4 @@ func delNodes(root *TreeNode,to_delete []int) (ans []*TreeNode) {
 	dfs(dummy)
 	return
 }
-```
+// ```

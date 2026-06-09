@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct node{
     int val;
     struct node *next;
@@ -94,4 +94,4 @@ void minStackFree(MinStack* obj) {
  
  * minStackFree(obj);
 */
-```
+// ```

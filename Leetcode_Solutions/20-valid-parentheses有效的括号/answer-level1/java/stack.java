@@ -1,8 +1,8 @@
-### 解题思路
-stack的特点是保留了最peek的元素
-### 代码
+// ### 解题思路
+// stack的特点是保留了最peek的元素
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> strStack=new Stack();
@@ -34,4 +34,4 @@ class Solution {
         return strStack.empty();
     }
 }
-```
+// ```

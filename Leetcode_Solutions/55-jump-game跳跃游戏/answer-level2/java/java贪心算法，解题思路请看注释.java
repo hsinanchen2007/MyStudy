@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canJump(int[] nums) {
         int max = 0;//设定最远可到达的位置，初始为0
@@ -10,4 +10,4 @@ class Solution {
     }
     
 }
-```
+// ```

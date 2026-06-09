@@ -1,11 +1,11 @@
-### 解题思路
-只需要搞清楚怎么判断重叠区间:
-当某个区间的右边界大于等于待插入的区间的左边界，以及该区间的左边界要小于等于待插入区间的右边界。
-我们称这俩个区间是重叠区间。
-剩下的工作只需要找出全部与待插入区间满足上述条件的区间集合即可。
-### 代码
+# ### 解题思路
+# 只需要搞清楚怎么判断重叠区间:
+# 当某个区间的右边界大于等于待插入的区间的左边界，以及该区间的左边界要小于等于待插入区间的右边界。
+# 我们称这俩个区间是重叠区间。
+# 剩下的工作只需要找出全部与待插入区间满足上述条件的区间集合即可。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def insert(self, intervals: list, newInterval: list) -> list:
         overlap_intervals, result = [], []
@@ -25,4 +25,4 @@ class Solution:
         for i in range(overlap_intervals[-1]+1,len(intervals)):
             result.append(intervals[i])
         return result
-```
+# ```

@@ -1,5 +1,5 @@
-使用Long和Integer都会溢出
-```
+// 使用Long和Integer都会溢出
+// ```
 import java.math.BigDecimal;
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -40,4 +40,4 @@ class Solution {
         return dump.next;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-按照向右走（需要满足不能向上走），向下走，向左走，向上走的顺序一个while循环解决。
+// ### 解题思路
+// 按照向右走（需要满足不能向上走），向下走，向左走，向上走的顺序一个while循环解决。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] generateMatrix(int n){
         int res[][]=new int[n][n];
@@ -27,4 +27,4 @@ class Solution {
         return res;
 }
 }
-```
+// ```

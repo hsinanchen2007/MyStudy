@@ -1,4 +1,4 @@
-C语言重构字符串，双百通过
+// C语言重构字符串，双百通过
 char * reorganizeString(char * S){
     int len = strlen(S);
     char *outStr = (char *)malloc(sizeof(char)*(500 + 1)); 

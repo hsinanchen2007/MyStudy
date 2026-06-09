@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/eb5b77908cd0ad43ed04a04eeb93fb16c5c98f78b9fd8998bdc0f94d05919938-image.png)
+# ![image.png](https://pic.leetcode-cn.com/eb5b77908cd0ad43ed04a04eeb93fb16c5c98f78b9fd8998bdc0f94d05919938-image.png)
 
 
-```
+# ```
 from typing import List
 class Solution:
 
@@ -17,4 +17,4 @@ class Solution:
         ans = [0]
         self.solve(root, ans)
         return ans[0]
-```
+# ```

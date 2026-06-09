@@ -1,7 +1,7 @@
-## 思路一：简单遍历
-### 代码
-时间复杂度：O(n)
-```c++
+// ## 思路一：简单遍历
+// ### 代码
+// 时间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     bool isMajorityElement(vector<int>& nums, int target) {
@@ -14,14 +14,14 @@ public:
         return c > nums.size() / 2 ? true : false;
     }
 };
-```
+// ```
 
-## 思路二：二分法
-分别找到最左侧和最右侧目标数的下标位置，然后根据下标求出目标数个数，最后判断是否超过一半。
-**注意：没有找到元素情况**
-### 代码
-时间复杂度：O(logn)
-```c++
+// ## 思路二：二分法
+// 分别找到最左侧和最右侧目标数的下标位置，然后根据下标求出目标数个数，最后判断是否超过一半。
+// **注意：没有找到元素情况**
+// ### 代码
+// 时间复杂度：O(logn)
+// ```c++
 class Solution {
 public:
     bool isMajorityElement(vector<int>& nums, int target) {
@@ -72,5 +72,5 @@ public:
         return -1;
     }
 };
-```
+// ```
 

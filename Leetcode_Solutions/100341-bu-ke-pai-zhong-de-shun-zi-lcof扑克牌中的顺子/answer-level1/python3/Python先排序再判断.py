@@ -1,9 +1,9 @@
-### 解题思路
-排序后首先排除0，然后累加相邻元素差，这是为了在相邻元素差为0（即相邻元素相等）时，直接返回False，如果累加差值<5，则为顺子。
+# ### 解题思路
+# 排序后首先排除0，然后累加相邻元素差，这是为了在相邻元素差为0（即相邻元素相等）时，直接返回False，如果累加差值<5，则为顺子。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isStraight(self, nums: List[int]) -> bool:
         nums.sort()
@@ -17,4 +17,4 @@ class Solution:
         if count < 5:
             return True
         return False
-```
+# ```

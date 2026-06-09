@@ -1,9 +1,9 @@
-### 解题思路
-最高位是6的直接替换
+// ### 解题思路
+// 最高位是6的直接替换
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximum69Number (int num) {
@@ -39,4 +39,4 @@ public:
         return a*10+b;
     }
 };
-```
+// ```

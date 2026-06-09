@@ -1,7 +1,7 @@
 
 
 
-```
+# ```
 class Solution:
     def rotateRight(self, head: ListNode, k: int) -> ListNode:
         #判断首节点是否存在
@@ -30,4 +30,4 @@ class Solution:
         pointer_1=pointer_2.next
         pointer_2.next=None
         return pointer_1
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     #直接插入排序，TLE
     def InsertSort(self,nums):
@@ -97,4 +97,4 @@ class Solution:
         return nums
     def sortArray(self, nums: List[int]) -> List[int]:
         return self.HeapSort(nums)
-```
+# ```

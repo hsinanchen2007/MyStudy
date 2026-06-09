@@ -1,12 +1,12 @@
-0次编辑 -> 字符串相等
-1次编辑 ->
-删除 -> len(sec) = len(first) + 1, 比较过程可跳过一个字母
-插入 -> len(sec) = len(first) - 1, 比较过程可跳过一个字母
-替换 -> len(sec) = len(first)，比较过程可跳过一个字母
-对应字符串的比较会使用双指针算法，那么由于删除、插入、替换在比较过程汇总均可以跳过一个字母，
-只需要在比较不相等时根据字符串长度来判断应执行哪个操作即可。
+# 0次编辑 -> 字符串相等
+# 1次编辑 ->
+# 删除 -> len(sec) = len(first) + 1, 比较过程可跳过一个字母
+# 插入 -> len(sec) = len(first) - 1, 比较过程可跳过一个字母
+# 替换 -> len(sec) = len(first)，比较过程可跳过一个字母
+# 对应字符串的比较会使用双指针算法，那么由于删除、插入、替换在比较过程汇总均可以跳过一个字母，
+# 只需要在比较不相等时根据字符串长度来判断应执行哪个操作即可。
 
-```
+# ```
 class Solution:
     def oneEditAway(self, first: str, second: str) -> bool:
         if first==second: return True
@@ -30,4 +30,4 @@ class Solution:
         if cnt>1:
             return False
         return True
-```
+# ```

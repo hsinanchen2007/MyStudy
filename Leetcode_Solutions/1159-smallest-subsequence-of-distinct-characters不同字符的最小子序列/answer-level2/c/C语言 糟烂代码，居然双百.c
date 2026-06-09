@@ -1,5 +1,5 @@
-代码写的太烂了，自己不想看第二遍，思路参考官解贪心算法。
-```
+// 代码写的太烂了，自己不想看第二遍，思路参考官解贪心算法。
+// ```
 #define MAX_SIZE 1001
 #define ALPHA_NUM 26
 char * smallestSubsequence(char * text){
@@ -52,4 +52,4 @@ char * smallestSubsequence(char * text){
     }
     return res;
 }
-```
+// ```

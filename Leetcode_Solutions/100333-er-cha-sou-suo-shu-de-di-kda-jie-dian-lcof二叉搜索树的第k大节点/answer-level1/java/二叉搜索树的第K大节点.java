@@ -1,10 +1,10 @@
-### 解题思路
-二叉搜索树的第K大节点，首先先在二叉树的右子树中递归查找；
-采用count计数，如果count==k，说明此时的root就是要找的那个值；
-反之在二叉树的左子树中递归查找；
-### 代码
+// ### 解题思路
+// 二叉搜索树的第K大节点，首先先在二叉树的右子树中递归查找；
+// 采用count计数，如果count==k，说明此时的root就是要找的那个值；
+// 反之在二叉树的左子树中递归查找；
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -27,4 +27,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

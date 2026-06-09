@@ -1,31 +1,31 @@
-### 1
-为什么头节点设为-1，因为是为了后面弹出的括号能与前面连续括号接上去
+# ### 1
+# 为什么头节点设为-1，因为是为了后面弹出的括号能与前面连续括号接上去
 
-比如
+# 比如
 
-    `()()`
-    stack = [-1,1]
-    maxlength = 1-(-1) = 2
-    stack = [-1]
-    stack = [-1,2]
-    maxlength = 3-(-1) = 4
+#     `()()`
+#     stack = [-1,1]
+#     maxlength = 1-(-1) = 2
+#     stack = [-1]
+#     stack = [-1,2]
+#     maxlength = 3-(-1) = 4
 
-如果当前字符为 ")" 没有匹配的上的,那么后面的括号就不可能再接上前面的连续括号，则重新设置起始节点
+# 如果当前字符为 ")" 没有匹配的上的,那么后面的括号就不可能再接上前面的连续括号，则重新设置起始节点
 
-    `())()`
-    maxlen = 1-(-1) = 2
-    stack = [-1]
-    stack = []
-    stack = [2] # 重新设置起始点
-    stack = [2,3]
-    maxlen = 4 - 2 = 2
-    stack = [2]
+#     `())()`
+#     maxlen = 1-(-1) = 2
+#     stack = [-1]
+#     stack = []
+#     stack = [2] # 重新设置起始点
+#     stack = [2,3]
+#     maxlen = 4 - 2 = 2
+#     stack = [2]
 
-这才是这道题用栈的精髓
+# 这才是这道题用栈的精髓
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
@@ -43,21 +43,21 @@ class Solution:
                     # 可能与开头接上
                     max_count = max(max_count,i-stack[-1])
         return max_count
-```
+# ```
 
-### 2
-状态定义：
-    dp[i] 以 i 结尾的最长有小括号
+# ### 2
+# 状态定义：
+#     dp[i] 以 i 结尾的最长有小括号
 
-状态初始化：
-    s[i] == '(' -> dp[i] = 0
+# 状态初始化：
+#     s[i] == '(' -> dp[i] = 0
 
-状态转移：
-    1. dp[i] = dp[i-2]+()
-    2. dp[i] = dp[i-1-dp[i-1]-1]+(+dp[i-1]+)
+# 状态转移：
+#     1. dp[i] = dp[i-2]+()
+#     2. dp[i] = dp[i-1-dp[i-1]-1]+(+dp[i-1]+)
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
@@ -79,4 +79,4 @@ class Solution:
                 flag = flag and not stack
                 if flag == True: max_len = max(max_len,sp*2)
         return max_len
-```
+# ```

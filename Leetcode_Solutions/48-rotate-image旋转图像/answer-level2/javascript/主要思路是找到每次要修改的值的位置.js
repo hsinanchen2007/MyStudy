@@ -1,7 +1,7 @@
-主要规律实际上是(x, y) -> (j, n - i - 1) 的循环替换，循环 4次;
-实现方法为双层循环，最外层循环的次数为 floor(n / 2)，第二层起始点为外层的值，终止条件为 大于等于(n - i -1)
+// 主要规律实际上是(x, y) -> (j, n - i - 1) 的循环替换，循环 4次;
+// 实现方法为双层循环，最外层循环的次数为 floor(n / 2)，第二层起始点为外层的值，终止条件为 大于等于(n - i -1)
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -24,4 +24,4 @@ var rotate = function(matrix) {
     }
   }
 };
-```
+// ```

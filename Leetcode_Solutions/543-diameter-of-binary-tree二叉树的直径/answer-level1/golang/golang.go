@@ -1,9 +1,9 @@
-golang
+// golang
 
-github: https://github.com/Crownt/leetcode
+// github: https://github.com/Crownt/leetcode
 
-解法一：
-```go
+// 解法一：
+// ```go
 // 当前节点左子树的深度与右子树的深度之和即为以当前节点为根的二叉树的最长路径
 // 两次递归中序遍历嵌套，一次为求以每个节点为根的数的深度，一次为求以每个节点为根的最长路径
 // 时间复杂度：O(n^2)  空间复杂度：O(h^2)  h为树的高度，每一层递归都需要分配栈空间，每一层中分配的空间为常数
@@ -42,11 +42,11 @@ func getDepthOfBinaryTree(root *TreeNode) int {
 	return int(math.Max(float64(getDepthOfBinaryTree(root.Left)), 
 	float64(getDepthOfBinaryTree(root.Right)))) + 1
 }
-```
+// ```
 
-解法二：
+// 解法二：
 
-```go
+// ```go
 // 当前节点左子树的深度与右子树的深度之和即为以当前节点为根的二叉树的最长路径
 // 比较Solution_1，考虑在求树的深度的同时将最长路径一并求得，则只需一次递归中序遍历即可
 // 时间复杂度：O(n)  空间复杂度：O(h)  h为树的高度，每一层递归都需要分配栈空间，每一层中分配的空间为常数
@@ -77,5 +77,5 @@ func getDepthAndDiameterOfBinaryTree(root *TreeNode) int {
 
 	return int(math.Max(float64(depth_left), float64(depth_right))) + 1
 }
-```
+// ```
 

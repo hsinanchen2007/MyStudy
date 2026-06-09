@@ -1,9 +1,9 @@
-### 解题思路
-## 双指针向前移动
+// ### 解题思路
+// ## 双指针向前移动
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         int low=1,high=2,sum=3;
@@ -42,4 +42,4 @@ class Solution {
 		return res;
 	}
 }
-```
+// ```

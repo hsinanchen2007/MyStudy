@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 
     /**
@@ -21,4 +21,4 @@ class Solution {
         return $res * 10 + $x;
     }
 }
-```
+// ```

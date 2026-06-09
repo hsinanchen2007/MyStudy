@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def numTilePossibilities(self, tiles):
         # 统计出现的大写字母的数量
@@ -16,4 +16,4 @@ class Solution(object):
                     dic[key] += 1
         dfs()
         return self.ans
-```
+# ```

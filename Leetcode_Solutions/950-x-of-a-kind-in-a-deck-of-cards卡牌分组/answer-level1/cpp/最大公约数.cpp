@@ -1,8 +1,8 @@
-### 解题
+// ### 解题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int gys(int x, int y)
@@ -62,4 +62,4 @@ public:
         return true;
     }
 };
-```
+// ```

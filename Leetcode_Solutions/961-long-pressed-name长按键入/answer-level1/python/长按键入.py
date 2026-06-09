@@ -1,14 +1,14 @@
-#### 方法一： 按块分组
+# #### 方法一： 按块分组
 
-**思路和算法**
+# **思路和算法**
 
-对于字符串 `S = 'aabbbbccc'`，可以把表示成这种分组形式 - `groupify(S) = [('a', 2), ('b', 4), ('c', 3)]`，其中 `'abc'` 为 *键值*，`[2, 4, 3]` 为 *连续出现的次数*。
+# 对于字符串 `S = 'aabbbbccc'`，可以把表示成这种分组形式 - `groupify(S) = [('a', 2), ('b', 4), ('c', 3)]`，其中 `'abc'` 为 *键值*，`[2, 4, 3]` 为 *连续出现的次数*。
 
-对于一个长按键入的 `typed` 来说，依次每个字母连续出现的次数一定大于等于 `name` 中连续字母出现的次数。
+# 对于一个长按键入的 `typed` 来说，依次每个字母连续出现的次数一定大于等于 `name` 中连续字母出现的次数。
 
-举个例子，`'aaleex'` 是 `'alex'` 其中一种长按键入的名字： 首先把它们分别变成 `[('a', 2), ('l', 1), ('e', 2), ('x', 1)]` 和 `[('a', 1), ('l', 1), ('e', 1), ('x', 1)]` 的形式，这两个字符串的键值都是 `'alex'`，同时 `[2,1,2,1]` 也分别大于 `[1,1,1,1]`（`(2 >= 1, 1 >= 1, 2 >= 1, 1 >= 1)`）。
+# 举个例子，`'aaleex'` 是 `'alex'` 其中一种长按键入的名字： 首先把它们分别变成 `[('a', 2), ('l', 1), ('e', 2), ('x', 1)]` 和 `[('a', 1), ('l', 1), ('e', 1), ('x', 1)]` 的形式，这两个字符串的键值都是 `'alex'`，同时 `[2,1,2,1]` 也分别大于 `[1,1,1,1]`（`(2 >= 1, 1 >= 1, 2 >= 1, 1 >= 1)`）。
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 class Solution {
     public boolean isLongPressedName(String name, String typed) {
         Group g1 = groupify(name);
@@ -47,9 +47,9 @@ class Group {
         count = c;
     }
 }
-```
+# ```
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 class Solution(object):
     def isLongPressedName(self, name, typed):
         g1 = [(k, len(list(grp))) for k, grp in itertools.groupby(name)]
@@ -59,36 +59,36 @@ class Solution(object):
 
         return all(k1 == k2 and v1 <= v2
                    for (k1,v1), (k2,v2) in zip(g1, g2))
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度： $O(N+T)$，其中 $N$，$T$ 分别是 `name`，`typed` 的长度。
+# * 时间复杂度： $O(N+T)$，其中 $N$，$T$ 分别是 `name`，`typed` 的长度。
 
-* 空间复杂度： $O(N+T)$。
+# * 空间复杂度： $O(N+T)$。
 
 
-#### 方法二： 双指针
+# #### 方法二： 双指针
 
-**思路**
+# **思路**
 
-同方法一类似的思路，检查每个字母和连续出现的次数，但用了更优雅地方式来实现。
+# 同方法一类似的思路，检查每个字母和连续出现的次数，但用了更优雅地方式来实现。
 
-有以下几种情况可以跳过检查 `typed` 中的一些字母。在下面的例子中，用（`name`, `typed`）这种形式来表示：
+# 有以下几种情况可以跳过检查 `typed` 中的一些字母。在下面的例子中，用（`name`, `typed`）这种形式来表示：
 
-* 在 `('aab', 'aaaaab')` 这种情况下，可以跳过检查 `typed` 中的 `3 - 5` 位置上的 `a`，因为处理到第二个 `a` 的时候就已经满足了。
+# * 在 `('aab', 'aaaaab')` 这种情况下，可以跳过检查 `typed` 中的 `3 - 5` 位置上的 `a`，因为处理到第二个 `a` 的时候就已经满足了。
 
-* 在 `('a', 'b')` 这种情况下， 检查到 `typed` 中 `'b'` 的时候可以直接返回 `False`。
+# * 在 `('a', 'b')` 这种情况下， 检查到 `typed` 中 `'b'` 的时候可以直接返回 `False`。
 
-**算法**
+# **算法**
 
-根据上面的思路可以得出以下算法：
+# 根据上面的思路可以得出以下算法：
 
-* 对于 `name` 中的每个字母，如果跟 `typed` 中的对不上了：
-    * 如果这是 `type` 每一块中的第一个字母，直接返回 `False`。
-    * 如果不是，把 `typed` 指针右移到下一个不同的字母处或者结尾。如果下一个字母跟对应 `name` 的字母还不相同，直接返回 `False`。
+# * 对于 `name` 中的每个字母，如果跟 `typed` 中的对不上了：
+#     * 如果这是 `type` 每一块中的第一个字母，直接返回 `False`。
+#     * 如果不是，把 `typed` 指针右移到下一个不同的字母处或者结尾。如果下一个字母跟对应 `name` 的字母还不相同，直接返回 `False`。
 
-```java [solution2-Java]
+# ```java [solution2-Java]
 class Solution {
     public boolean isLongPressedName(String name, String typed) {
         int j = 0;
@@ -118,9 +118,9 @@ class Solution {
         return true;
     }
 }
-```
+# ```
 
-```python[solution2-Python]
+# ```python[solution2-Python]
 class Solution(object):
     def isLongPressedName(self, name, typed):
         j = 0
@@ -146,10 +146,10 @@ class Solution(object):
             j += 1
 
         return True
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度： $O(N+T)$，其中 $N$，$T$ 是 `name`，`typed` 的长度。
+# * 时间复杂度： $O(N+T)$，其中 $N$，$T$ 是 `name`，`typed` 的长度。
 
-* 空间复杂度： $O(1)$。(在 Java 实现中, `.toCharArray` 额外占用了 $O(N)$， 但可以简单地把它优化掉。）
+# * 空间复杂度： $O(1)$。(在 Java 实现中, `.toCharArray` 额外占用了 $O(N)$， 但可以简单地把它优化掉。）

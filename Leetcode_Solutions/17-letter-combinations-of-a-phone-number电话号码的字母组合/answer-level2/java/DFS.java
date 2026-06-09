@@ -1,6 +1,6 @@
-执行用时 :0 ms, 在所有 java 提交中击败了100.00% 的用户
-内存消耗 :35.7 MB, 在所有 java 提交中击败了76.37%的用户
-```
+// 执行用时 :0 ms, 在所有 java 提交中击败了100.00% 的用户
+// 内存消耗 :35.7 MB, 在所有 java 提交中击败了76.37%的用户
+// ```
 class Solution {
     String[] strings = {"abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
     List<String> list = new ArrayList();
@@ -23,4 +23,4 @@ class Solution {
         }
     }
 }
-```
+// ```

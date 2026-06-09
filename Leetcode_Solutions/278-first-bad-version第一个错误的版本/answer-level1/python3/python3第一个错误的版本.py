@@ -1,4 +1,4 @@
-```
+# ```
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool
@@ -21,4 +21,4 @@ class Solution:
             else:
                 left = h
         return right
-```
+# ```

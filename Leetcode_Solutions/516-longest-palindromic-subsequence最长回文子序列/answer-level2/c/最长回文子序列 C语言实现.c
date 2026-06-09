@@ -1,34 +1,34 @@
 
 
-借用 元仲辛的题解代码与题解：
-https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/dong-tai-gui-hua-si-yao-su-by-a380922457-3/
+// 借用 元仲辛的题解代码与题解：
+// https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/dong-tai-gui-hua-si-yao-su-by-a380922457-3/
 
-状态
+// 状态
 
-    f[i][j] 表示 s 的第 i 个字符到第 j 个字符组成的子串中，最长的回文序列长度是多少。
+//     f[i][j] 表示 s 的第 i 个字符到第 j 个字符组成的子串中，最长的回文序列长度是多少。
 
-转移方程
+// 转移方程
 
-    如果 s 的第 i 个字符和第 j 个字符相同的话
-        f[i][j] = f[i + 1][j - 1] + 2
-    如果 s 的第 i 个字符和第 j 个字符不同的话
-        f[i][j] = max(f[i + 1][j], f[i][j - 1])
+//     如果 s 的第 i 个字符和第 j 个字符相同的话
+//         f[i][j] = f[i + 1][j - 1] + 2
+//     如果 s 的第 i 个字符和第 j 个字符不同的话
+//         f[i][j] = max(f[i + 1][j], f[i][j - 1])
 
-    然后注意遍历顺序，i 从最后一个字符开始往前遍历，j 从 i + 1 开始往后遍历，这样可以保证每个子问题都已经算好了。
+//     然后注意遍历顺序，i 从最后一个字符开始往前遍历，j 从 i + 1 开始往后遍历，这样可以保证每个子问题都已经算好了。
 
-初始化
+// 初始化
 
-    f[i][i] = 1 单个字符的最长回文序列是 1
+//     f[i][i] = 1 单个字符的最长回文序列是 1
 
-结果
+// 结果
 
-    f[0][n - 1]
+//     f[0][n - 1]
 
-展示
+// 展示
 
-    为了能够直观的描述展现每一步骤的计算过程，每次计算后都打印计算过程。
-    以 BABA为例，从后往前计算过程。
-```c
+//     为了能够直观的描述展现每一步骤的计算过程，每次计算后都打印计算过程。
+//     以 BABA为例，从后往前计算过程。
+// ```c
     last value: r=3,c=3
     BABA (4, 4) = [
     [0, 0, 0, 0, ],
@@ -101,13 +101,13 @@ https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/dong-t
     ];
 
     result=3
-```
+// ```
 
-以上就是迭代的完整过程。注意：1，左下角初始化为0，依次迭代计算，第一行中不但可以计算值，还可以获取最长子串。
-以下为完整C语言代码实现
+// 以上就是迭代的完整过程。注意：1，左下角初始化为0，依次迭代计算，第一行中不但可以计算值，还可以获取最长子串。
+// 以下为完整C语言代码实现
 
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -336,5 +336,5 @@ int longestPalindromeSubseq_tester(void)
     printf("\nresult=%d\n", ret);
     return 0;
 }
-```
+// ```
 

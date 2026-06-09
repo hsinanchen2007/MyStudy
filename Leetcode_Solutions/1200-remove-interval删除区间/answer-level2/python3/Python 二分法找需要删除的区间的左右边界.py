@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/fe6b4021e2c33c20306c749abc467f363348a147c28253c7028462111360d0cd-image.png)
+# ![image.png](https://pic.leetcode-cn.com/fe6b4021e2c33c20306c749abc467f363348a147c28253c7028462111360d0cd-image.png)
 
 
-```
+# ```
 '''
 二分法找要删除的区间的边界
 '''
@@ -58,4 +58,4 @@ class Solution:
         else:
             ans.extend(intervals[suffix_idx:])
         return ans
-```
+# ```

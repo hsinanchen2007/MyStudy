@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/22cb373b13ff78536aa6a4379fecebd3cc226d29dde268deeb09a59ee47225f8-image.png)
+# ![image.png](https://pic.leetcode-cn.com/22cb373b13ff78536aa6a4379fecebd3cc226d29dde268deeb09a59ee47225f8-image.png)
 
 
-```python
+# ```python
 class Solution(object):
     def exist(self, board, word):
         """
@@ -52,4 +52,4 @@ class Solution(object):
 
 
         
-```
+# ```

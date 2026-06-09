@@ -1,4 +1,4 @@
-```c
+// ```c
 #define HASH_SIZE 10007
 #define INF 0x7fffffff
 
@@ -100,4 +100,4 @@ int majorityElement(int* nums, int numsSize){
     return -1;
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def treeDiameter(self, edges: List[List[int]]) -> int:
 
@@ -33,4 +33,4 @@ class Solution:
         visited = [False] * node_num
         get_longest_path(0, visited)
         return res
-```
+# ```

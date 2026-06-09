@@ -1,4 +1,4 @@
-```
+// ```
 import "strconv"
 
 func monotoneIncreasingDigits(n int) int {
@@ -17,4 +17,4 @@ func monotoneIncreasingDigits(n int) int {
 	out, _ := strconv.Atoi(string(bs))
 	return out
 }
-```
+// ```

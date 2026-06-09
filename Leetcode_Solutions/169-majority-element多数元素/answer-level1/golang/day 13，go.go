@@ -1,10 +1,10 @@
-### 解题思路
-// 简单粗暴：将所有的数组按照 元素:频数（key:value）格式存储到map中
-//           轮询map判断value是否有大于len(nums)/2数
+// ### 解题思路
+// // 简单粗暴：将所有的数组按照 元素:频数（key:value）格式存储到map中
+// //           轮询map判断value是否有大于len(nums)/2数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func majorityElement(nums []int) int {
 	var frequency int
 	var numMap = make(map[int]int, 0)
@@ -31,4 +31,4 @@ func majorityElement(nums []int) int {
 
 	return frequency
 }
-```
+// ```

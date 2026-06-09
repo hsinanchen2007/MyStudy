@@ -1,5 +1,5 @@
-递归
-```
+// 递归
+// ```
  public ListNode swapPairs(ListNode head) {
          if (head==null||head.next==null)
             return head;
@@ -9,9 +9,9 @@
         head.next = l;
         return out;
 }
-```
-迭代
-```
+// ```
+// 迭代
+// ```
  public ListNode swapPairs(ListNode head) {
      if (head==null||head.next==null)
             return head;
@@ -30,5 +30,5 @@
         }
         return out;
 }
-```
-结点的事情总是说起来很啰嗦。。有什么不懂的控制台打印一下吧！
+// ```
+// 结点的事情总是说起来很啰嗦。。有什么不懂的控制台打印一下吧！

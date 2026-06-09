@@ -1,8 +1,8 @@
-这道题有意思，其实就是[300题](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/300-zui-chang-shang-sheng-zi-xu-lie-el1s-by-el1s-2/)的二维版本
+// 这道题有意思，其实就是[300题](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/300-zui-chang-shang-sheng-zi-xu-lie-el1s-by-el1s-2/)的二维版本
 
-用二维的做法做了之后才发现原来这道题可以简化为一维版本
-二维
-```
+// 用二维的做法做了之后才发现原来这道题可以简化为一维版本
+// 二维
+// ```
 static bool myfunc(vector<int> a, vector<int> b)
 {
     if(a[0] < b[0] && a[1] && b[1])
@@ -68,10 +68,10 @@ public:
         return tail.size();
     }
 };
-```
+// ```
 
-一维
-```
+// 一维
+// ```
 static bool myfunc(vector<int> a, vector<int> b)
 {
     if(a[0] == b[0])
@@ -117,4 +117,4 @@ public:
         return tail.size();
     }
 };
-```
+// ```

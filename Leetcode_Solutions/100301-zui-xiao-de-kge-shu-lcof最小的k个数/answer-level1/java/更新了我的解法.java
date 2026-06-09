@@ -1,9 +1,9 @@
-### 解题思路
-使用Java的Arrays.sort()方法对数组进行排序，取前k位就可以了，此方法内存消耗较小，执行时间稍快
+// ### 解题思路
+// 使用Java的Arrays.sort()方法对数组进行排序，取前k位就可以了，此方法内存消耗较小，执行时间稍快
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
     //     int[] min=new int[k];
@@ -31,4 +31,4 @@ class Solution {
 
 
     }
-```
+// ```

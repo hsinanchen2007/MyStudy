@@ -1,9 +1,9 @@
-### 解题思路
-自顶向下的分析，自底向上的求解
+// ### 解题思路
+// 自顶向下的分析，自底向上的求解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int climbStairs(int n) {
         int sum=0;
@@ -17,4 +17,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

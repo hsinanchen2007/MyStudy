@@ -1,9 +1,9 @@
-### 解题思路
-很傻逼的把所有情况写了一遍
+// ### 解题思路
+// 很傻逼的把所有情况写了一遍
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
         for (int i = 0; i < board.length; i++) {
@@ -41,4 +41,4 @@ class Solution {
         }
     }
 }
-```
+// ```

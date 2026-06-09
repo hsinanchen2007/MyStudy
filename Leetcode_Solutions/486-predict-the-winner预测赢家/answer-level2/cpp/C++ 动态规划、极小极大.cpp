@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool PredictTheWinner(vector<int>& nums) {
@@ -30,4 +30,4 @@ public:
         return dp[0][len-1] >= sum-dp[0][len-1];
     }
 };
-```
+// ```

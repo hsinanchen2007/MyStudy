@@ -1,9 +1,9 @@
-### 解题思路
-基本的二分查找C++写法
+// ### 解题思路
+// 基本的二分查找C++写法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -22,4 +22,4 @@ public:
         return left;
     }
 };
-```
+// ```

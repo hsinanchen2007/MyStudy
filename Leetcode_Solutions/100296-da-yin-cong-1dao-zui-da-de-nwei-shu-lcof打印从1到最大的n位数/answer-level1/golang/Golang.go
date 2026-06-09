@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import "math"
 
 func printNumbers(n int) []int {
@@ -11,4 +11,4 @@ func printNumbers(n int) []int {
     }
     return res
 }
-```
+// ```

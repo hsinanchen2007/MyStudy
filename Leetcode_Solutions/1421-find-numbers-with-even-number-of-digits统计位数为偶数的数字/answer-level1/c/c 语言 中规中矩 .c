@@ -1,4 +1,4 @@
-```
+// ```
 int findNumbers(int* nums, int numsSize){
     int r = 0;
     while(numsSize > 0){
@@ -15,4 +15,4 @@ int findNumbers(int* nums, int numsSize){
     return r;
 }
 
-```
+// ```

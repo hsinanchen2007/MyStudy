@@ -1,5 +1,5 @@
-bfs,没什么好说的
-```
+// bfs,没什么好说的
+// ```
 /**
  * @param {string} digits
  * @return {string[]}
@@ -31,4 +31,4 @@ var letterCombinations = function(digits) {
     }
     return queue;
 };
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-```text
+// ### 解题思路
+// ```text
 1. 增加一个辅助函数，记录两个波峰间的储水量
 2. 第二个波峰为大于等于第一个波峰或与第一个波峰偏差量最小的波峰（遍历整个数组，得到和第一个波峰偏差量最小的波峰）
 3. 波峰间的储水量求和
 注：两个波峰，不一定是两个相邻波峰，第二个波峰满足的条件见步骤2。对应测试用例：{5,2,1,2,1,5}
-```
-### 代码
+// ```
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
         // 边界条件处理，如果小于2根柱子，则无法储存雨水
@@ -112,10 +112,10 @@ class Solution {
         return sum;
     }
 }
-```
+// ```
 
-### 测试用例
-```java
+// ### 测试用例
+// ```java
 public class SolutionTest {
     Solution solution = new Solution();
 
@@ -145,4 +145,4 @@ public class SolutionTest {
         assertEquals(expect4, result4);
     }
 }
-```
+// ```

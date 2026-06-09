@@ -1,10 +1,10 @@
-### 解题思路
-dp[i]表示0到i的数据能得到的最大值，初始化dp[0]=a[0],dp[1]=max(dp[0],dp[1])
-从dp[2]开始，dp[i]=max((dp[i-2]+a[i]),dp[i-1])
+// ### 解题思路
+// dp[i]表示0到i的数据能得到的最大值，初始化dp[0]=a[0],dp[1]=max(dp[0],dp[1])
+// 从dp[2]开始，dp[i]=max((dp[i-2]+a[i]),dp[i-1])
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int massage(int* nums, int numsSize){
     if(numsSize==1)
     {
@@ -23,4 +23,4 @@ int massage(int* nums, int numsSize){
     }
     return dp[numsSize-1];
 }
-```
+// ```

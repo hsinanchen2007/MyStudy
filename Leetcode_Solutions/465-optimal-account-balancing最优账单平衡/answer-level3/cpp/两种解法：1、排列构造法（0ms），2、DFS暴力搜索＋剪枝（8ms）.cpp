@@ -1,6 +1,6 @@
-1、方法一
-构造法确实牛，0ms完成，本解法参考了4ms纪录的答案
-```cpp
+// 1、方法一
+// 构造法确实牛，0ms完成，本解法参考了4ms纪录的答案
+// ```cpp
 class Solution {
 public:
     int minTransfers(vector<vector<int>>& transactions) {
@@ -72,15 +72,15 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```
 
-2、方法二
-### 解题思路
-把Lingo的解法剪枝优化可以达到8ms
+// 2、方法二
+// ### 解题思路
+// 把Lingo的解法剪枝优化可以达到8ms
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minTransfers(vector<vector<int>>& transactions) {
@@ -131,4 +131,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

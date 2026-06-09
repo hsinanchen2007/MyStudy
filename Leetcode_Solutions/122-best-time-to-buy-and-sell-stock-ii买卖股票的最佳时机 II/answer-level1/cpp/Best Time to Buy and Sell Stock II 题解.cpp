@@ -1,9 +1,9 @@
-### 解题思路
-采用贪心的思想，每当`prices[i]-prices[i-1]`时，便进行一次交易。
+// ### 解题思路
+// 采用贪心的思想，每当`prices[i]-prices[i-1]`时，便进行一次交易。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -24,4 +24,4 @@ public:
         return sum;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-暴力求解会时间超时，很多输入个例本身就是超长回文数，所以增加了对s本身的判定
+# ### 解题思路
+# 暴力求解会时间超时，很多输入个例本身就是超长回文数，所以增加了对s本身的判定
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         
@@ -34,4 +34,4 @@ class Solution:
         return result#[max_length_index]
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-借鉴官方题解的思路，从C++版本改写为Python，初学Python，希望能和大家交流。
+# ### 解题思路
+# 借鉴官方题解的思路，从C++版本改写为Python，初学Python，希望能和大家交流。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         rev = 0
@@ -22,4 +22,4 @@ class Solution:
         if(x<0):
             return -rev
         return 0
-```
+# ```

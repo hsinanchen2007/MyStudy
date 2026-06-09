@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select w1.id  as id
@@ -24,4 +24,4 @@ and w1.Temperature >  w2.Temperature
 
 
 
-```
+-- ```

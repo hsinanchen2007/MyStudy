@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class MyQueue {
 public:
     stack<int> A;
@@ -38,4 +38,4 @@ public:
         return A.empty() && B.empty();
     }
 };
-```
+// ```

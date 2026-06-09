@@ -1,12 +1,12 @@
-### 解题思路
-len(最长不重复子串） = max（去掉最后一个字符的原最长不重复子串len, 包含最后一个字符的最长不重复字串len）
+# ### 解题思路
+# len(最长不重复子串） = max（去掉最后一个字符的原最长不重复子串len, 包含最后一个字符的最长不重复字串len）
 
-求出“包含最后一个字符的最长不重复字串len”
+# 求出“包含最后一个字符的最长不重复字串len”
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         if len(s) == 0:
@@ -26,4 +26,4 @@ class Solution:
         for i in range(len(s)):
             length = max(length, find_left(s, i))
         return length
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class NumArray {
 public: //前缀和很快。。但是动态规划吗、、、、其实前缀和也是一种dp。  dp就是储存中间值
     vector<int>res;
@@ -24,4 +24,4 @@ public: //前缀和很快。。但是动态规划吗、、、、其实前缀和�
  * NumArray* obj = new NumArray(nums);
  * int param_1 = obj->sumRange(i,j);
  */
-```
+// ```

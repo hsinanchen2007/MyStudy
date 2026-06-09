@@ -1,4 +1,4 @@
-```
+// ```
 func exchange(nums []int) []int {
     ret := make([]int, len(nums))
     start, end := 0, len(nums) - 1
@@ -13,4 +13,4 @@ func exchange(nums []int) []int {
     }
     return ret
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-方法1：递归二分查找
-当nums[mid]==target时，不返回，而是更新左右边界
-方法2：
-1、首先利用二分查找找到等于target的位置；
-2、然后从该位置开始，向两边扩散，直到找到边界位置
+// ### 解题思路
+// 方法1：递归二分查找
+// 当nums[mid]==target时，不返回，而是更新左右边界
+// 方法2：
+// 1、首先利用二分查找找到等于target的位置；
+// 2、然后从该位置开始，向两边扩散，直到找到边界位置
 
 
-```java
+// ```java
 /*
 递归二分查找
 */
@@ -44,8 +44,8 @@ class Solution {
         }
     }
 }
-```
-```java
+// ```
+// ```java
 //方法2
 class Solution {
     public int[] searchRange(int[] nums, int target) {
@@ -94,4 +94,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

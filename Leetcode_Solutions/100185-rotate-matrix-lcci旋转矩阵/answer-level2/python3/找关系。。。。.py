@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-找到一个环各个位置之间的替换关系即可
+# 找到一个环各个位置之间的替换关系即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -19,4 +19,4 @@ class Solution:
                 matrix[l - 1 - i][l - 1 - j] = matrix[j][l - 1 - i]
                 matrix[j][l - 1 - i] = tmp
         
-```
+# ```

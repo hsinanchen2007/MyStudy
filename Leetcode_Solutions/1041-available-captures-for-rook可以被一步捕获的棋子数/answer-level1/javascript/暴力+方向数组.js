@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {number}
@@ -123,4 +123,4 @@ var numRookCaptures = function(board) {
     }
     return num;
 };*/
-```
+// ```

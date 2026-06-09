@@ -1,9 +1,9 @@
-### 解题思路
-涉及到对第一个位置和其余位置操作不统一时，应该马上想到设立头结点，这样就使得操作统一，省了太多的麻烦
+// ### 解题思路
+// 涉及到对第一个位置和其余位置操作不统一时，应该马上想到设立头结点，这样就使得操作统一，省了太多的麻烦
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
     r->next = p;
     return L->next;
 }
-```
+// ```

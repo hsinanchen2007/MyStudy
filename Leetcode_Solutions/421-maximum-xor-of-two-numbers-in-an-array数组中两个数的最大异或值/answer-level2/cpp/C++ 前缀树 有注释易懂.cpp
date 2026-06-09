@@ -1,4 +1,4 @@
-```
+// ```
 struct node
 {
   node* one;
@@ -80,13 +80,13 @@ public:
     return max_val;
   }
 };
-```
+// ```
 
-还有就是借鉴了一下其他大佬的使用位运算进行操作的算法，注意要用hash set...一开始用的set（红黑树实现的）最后一个用例会TLE...
+// 还有就是借鉴了一下其他大佬的使用位运算进行操作的算法，注意要用hash set...一开始用的set（红黑树实现的）最后一个用例会TLE...
 
-下面附上代码
+// 下面附上代码
 
-```
+// ```
 class Solution {
 public:
   int findMaximumXOR(vector<int>& nums) {
@@ -111,5 +111,5 @@ public:
     return res;
   }
 };
-```
+// ```
 

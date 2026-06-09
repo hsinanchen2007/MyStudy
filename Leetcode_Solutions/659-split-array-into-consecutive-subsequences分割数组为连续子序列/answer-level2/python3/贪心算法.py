@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPossible(self, nums: List[int]) -> bool:
         if not nums:
@@ -28,4 +28,4 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```

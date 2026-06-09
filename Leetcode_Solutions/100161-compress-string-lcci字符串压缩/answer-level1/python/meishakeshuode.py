@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if not S:return ''
@@ -18,4 +18,4 @@ class Solution:
             else:tmp += 1
         if len(ans)>=len(S):return S
         else:return ans
-```
+# ```

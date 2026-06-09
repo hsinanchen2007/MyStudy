@@ -1,5 +1,5 @@
-就是改变比较规则，然后使用位运算进行统计1的个数
-```
+// 就是改变比较规则，然后使用位运算进行统计1的个数
+// ```
 int onefigure(int num){
     int fi = 0;
     while(num != 0){
@@ -25,4 +25,4 @@ int* sortByBits(int* arr, int arrSize, int* returnSize){
     qsort(arr,arrSize,sizeof(int), cmp);
     return arr;
 }
-```
+// ```

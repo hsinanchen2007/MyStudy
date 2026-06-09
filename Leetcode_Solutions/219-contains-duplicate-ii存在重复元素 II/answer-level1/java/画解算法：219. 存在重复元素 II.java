@@ -1,15 +1,15 @@
-## 解题方案
+// ## 解题方案
 
-### 思路
+// ### 思路
 
-- 标签：哈希
-- 维护一个哈希表，里面始终最多包含 `k` 个元素，当出现重复值时则说明在 `k` 距离内存在重复元素
-- 每次遍历一个元素则将其加入哈希表中，如果哈希表的大小大于 `k`，则移除最前面的数字
-- 时间复杂度：$O(n)$，$n$ 为数组长度
+// - 标签：哈希
+// - 维护一个哈希表，里面始终最多包含 `k` 个元素，当出现重复值时则说明在 `k` 距离内存在重复元素
+// - 每次遍历一个元素则将其加入哈希表中，如果哈希表的大小大于 `k`，则移除最前面的数字
+// - 时间复杂度：$O(n)$，$n$ 为数组长度
 
-### 代码
+// ### 代码
 
-```Java []
+// ```Java []
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         HashSet<Integer> set = new HashSet<>();
@@ -25,9 +25,9 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 
-```JavaScript []
+// ```JavaScript []
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -46,11 +46,11 @@ var containsNearbyDuplicate = function(nums, k) {
     }
     return false;
 };
-```
+// ```
 
 
-### 画解
+// ### 画解
 
-<![1.png](https://pic.leetcode-cn.com/932bce02af68cb2b2c630dbe555d298e7ffeb42becbc5be1c1b4654a6d084956-1.png),![2.png](https://pic.leetcode-cn.com/ab0688468085573db2d3d185ba1fa597de547661db5bd25d1717daa729f4392d-2.png),![3.png](https://pic.leetcode-cn.com/bda226c4009e410876020b18cd516211b7ade11a25b159cb5c700e92cb96fcb5-3.png),![4.png](https://pic.leetcode-cn.com/2c30c9b9d3663214071943fcabf4644ddc9ca4be0ada2f54f45ec5530c1f594b-4.png),![5.png](https://pic.leetcode-cn.com/337a9ad9e0e0e5ef29a516bbcef27c9ef6c4cb5ddd67f8ccee72fe1a56e5f1f6-5.png),![6.png](https://pic.leetcode-cn.com/4df77fd07c73e4a5ac4217761ae5d3511a852e513e12d1079de6012b1fa89655-6.png)>
+// <![1.png](https://pic.leetcode-cn.com/932bce02af68cb2b2c630dbe555d298e7ffeb42becbc5be1c1b4654a6d084956-1.png),![2.png](https://pic.leetcode-cn.com/ab0688468085573db2d3d185ba1fa597de547661db5bd25d1717daa729f4392d-2.png),![3.png](https://pic.leetcode-cn.com/bda226c4009e410876020b18cd516211b7ade11a25b159cb5c700e92cb96fcb5-3.png),![4.png](https://pic.leetcode-cn.com/2c30c9b9d3663214071943fcabf4644ddc9ca4be0ada2f54f45ec5530c1f594b-4.png),![5.png](https://pic.leetcode-cn.com/337a9ad9e0e0e5ef29a516bbcef27c9ef6c4cb5ddd67f8ccee72fe1a56e5f1f6-5.png),![6.png](https://pic.leetcode-cn.com/4df77fd07c73e4a5ac4217761ae5d3511a852e513e12d1079de6012b1fa89655-6.png)>
 
 

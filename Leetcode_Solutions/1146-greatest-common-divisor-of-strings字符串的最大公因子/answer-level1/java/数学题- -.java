@@ -1,10 +1,10 @@
-### 解题思路
-性质1：如果存在公因子，则str1 + str2 == str2 + str1
-性质2：辗转相除
+// ### 解题思路
+// 性质1：如果存在公因子，则str1 + str2 == str2 + str1
+// 性质2：辗转相除
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         if (!(str1 + str2).equals(str2 + str1)) {
@@ -19,4 +19,4 @@ class Solution {
         return gcd(b, a % b);
     }
 }
-```
+// ```

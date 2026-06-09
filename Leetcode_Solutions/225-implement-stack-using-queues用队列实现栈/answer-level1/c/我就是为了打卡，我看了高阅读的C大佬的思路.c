@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_SIZE 1000
 typedef struct {
     int queue[MAX_SIZE];//创建MyStack时在此结构体内创建了一个队列；
@@ -63,4 +63,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

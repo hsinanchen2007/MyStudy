@@ -1,10 +1,10 @@
-### 解题思路
-大顶堆存放最小的k个，然后遍历大顶堆，反向输出结果
-效率不是很高呀，奇怪
+// ### 解题思路
+// 大顶堆存放最小的k个，然后遍历大顶堆，反向输出结果
+// 效率不是很高呀，奇怪
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] smallestK(int[] arr, int k) {
         if (k == 0) {
@@ -34,4 +34,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

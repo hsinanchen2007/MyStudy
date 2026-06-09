@@ -1,4 +1,4 @@
-class Solution {//广度优先搜索
+// class Solution {//广度优先搜索
 public:
     vector<string> watchedVideosByFriends(vector<vector<string>>& watchedVideos, vector<vector<int>>& friends, int id, int level) {
         int curlevel=0;//当前层

@@ -1,4 +1,4 @@
-```
+// ```
 func isCousins(root *TreeNode, x int, y int) bool {
     if root == nil || x == y {
         return false
@@ -43,4 +43,4 @@ func isCousins(root *TreeNode, x int, y int) bool {
 
     return false
 }
-```
+// ```

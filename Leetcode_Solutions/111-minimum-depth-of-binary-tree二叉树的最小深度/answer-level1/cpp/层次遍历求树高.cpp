@@ -1,9 +1,9 @@
-### 解题思路
-加一个叶子结点判断就OK
+// ### 解题思路
+// 加一个叶子结点判断就OK
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ public:
         return high;
     }
 };
-```
+// ```

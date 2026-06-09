@@ -1,5 +1,5 @@
-法一：　前缀求和　暴力
-```
+// 法一：　前缀求和　暴力
+// ```
 class Solution {
 public:
     int longestWPI(vector<int>& hours) {
@@ -33,9 +33,9 @@ public:
         return len;
     }
 };
-```
-法二：单调栈：　（借鉴楼上）
-```
+// ```
+// 法二：单调栈：　（借鉴楼上）
+// ```
 class Solution {
 public:
     int longestWPI(vector<int>& hours) {
@@ -59,5 +59,5 @@ public:
         }
         return ans;
     }
-```
+// ```
 

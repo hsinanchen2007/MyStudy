@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/af2f7ba242916c0f50d7cb59437ed5bca2888447ce3783d2e32a489db27d9287-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/af2f7ba242916c0f50d7cb59437ed5bca2888447ce3783d2e32a489db27d9287-image.png)
 
-中序遍历二叉查找树生成一个排序的数组，对数组求第k大的元素
+// 中序遍历二叉查找树生成一个排序的数组，对数组求第k大的元素
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
         if(cur->right!=NULL)midorder(cur->right,res);
     }
 };
-```
+// ```

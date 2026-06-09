@@ -1,13 +1,13 @@
-### 解题思路
+# ### 解题思路
 
-1.temp指向原head下一个节点，防止丢失
-2.head指向newHead的下一个节点
-3.newHead指向head, 完成head节点插入到newHead和newHead下一节点之间的操作
-4.将temp重新变为新head节点
+# 1.temp指向原head下一个节点，防止丢失
+# 2.head指向newHead的下一个节点
+# 3.newHead指向head, 完成head节点插入到newHead和newHead下一节点之间的操作
+# 4.将temp重新变为新head节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             newHead.next = head
             head = temp
         return newHead.next
-```
+# ```

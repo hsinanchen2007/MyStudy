@@ -1,9 +1,9 @@
-### 解题思路
-思路很好想，先建立一个提取url域名的方法，然后建立一个list,如果url一样的话，就加到list中，然后用递归实现。
+// ### 解题思路
+// 思路很好想，先建立一个提取url域名的方法，然后建立一个list,如果url一样的话，就加到list中，然后用递归实现。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * // This is the HtmlParser's API interface.
  * // You should not implement it, or speculate about its implementation
@@ -44,4 +44,4 @@ class Solution {
         return  url.substring(0,i-1);
     }
 }
-```
+// ```

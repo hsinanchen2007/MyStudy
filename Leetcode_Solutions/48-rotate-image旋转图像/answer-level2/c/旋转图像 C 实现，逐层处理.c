@@ -1,7 +1,7 @@
-![2019-11-03_10-15.png](https://pic.leetcode-cn.com/427873653035e97648761c327819d07e404baaa7e05d3992fd25050b2b81c9e4-2019-11-03_10-15.png)
+// ![2019-11-03_10-15.png](https://pic.leetcode-cn.com/427873653035e97648761c327819d07e404baaa7e05d3992fd25050b2b81c9e4-2019-11-03_10-15.png)
 
 
-```c
+// ```c
 void rotate(int **matrix, int matrixSize, int *matrixColSize) {
   // 用来交换数字的临时变量
   int buffer = 0;
@@ -27,4 +27,4 @@ void rotate(int **matrix, int matrixSize, int *matrixColSize) {
     }
   }
 }
-```
+// ```

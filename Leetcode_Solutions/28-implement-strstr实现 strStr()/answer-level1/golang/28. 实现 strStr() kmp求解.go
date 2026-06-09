@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // func strStr(haystack string, needle string) int {
 
 // }
@@ -67,4 +67,4 @@ func strStr(str1, str2 string) int {
 		return -1
 	}
 }
-```
+// ```

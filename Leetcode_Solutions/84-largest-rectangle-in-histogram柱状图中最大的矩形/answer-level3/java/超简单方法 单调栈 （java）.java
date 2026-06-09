@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-思路：维护一个单调递增栈 ，如果新进来的比栈顶元素高小的话 栈中大的出栈，更新最大面积值，最后与0比较，目的是将栈内残留元素 全部pop出去。
-![image.png](https://pic.leetcode-cn.com/6f62d5625c61f8ce4701881c18b4afeba8957c9ed6a242d7af74eb5588987eb3-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// 思路：维护一个单调递增栈 ，如果新进来的比栈顶元素高小的话 栈中大的出栈，更新最大面积值，最后与0比较，目的是将栈内残留元素 全部pop出去。
+// ![image.png](https://pic.leetcode-cn.com/6f62d5625c61f8ce4701881c18b4afeba8957c9ed6a242d7af74eb5588987eb3-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
    public static int largestRectangleArea(int[] heights) {
@@ -29,4 +29,4 @@ class Solution {
         return areaSize;
     }
 }
-```
+// ```

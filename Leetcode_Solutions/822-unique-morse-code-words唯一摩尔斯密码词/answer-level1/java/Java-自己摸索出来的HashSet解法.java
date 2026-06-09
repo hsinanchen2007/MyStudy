@@ -1,6 +1,6 @@
-很高兴能从ASCII值得灵感想出这种方法，还有利用了Set数组结构的不重复性：
+// 很高兴能从ASCII值得灵感想出这种方法，还有利用了Set数组结构的不重复性：
 
-```
+// ```
 class Solution {
     public int uniqueMorseRepresentations(String[] words) {
         int count = 0;
@@ -21,4 +21,4 @@ class Solution {
        
     }
 }
-```
+// ```

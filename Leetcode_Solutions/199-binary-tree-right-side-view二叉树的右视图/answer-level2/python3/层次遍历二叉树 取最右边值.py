@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def rightSideView(self, root: TreeNode) -> List[int]:
         # BFS 广度优先层次遍历   存储最右边的值
@@ -18,4 +18,4 @@ class Solution:
                     queue.append(node.right)
             ret.append(temp[len(temp)-1])
         return ret
-```
+# ```

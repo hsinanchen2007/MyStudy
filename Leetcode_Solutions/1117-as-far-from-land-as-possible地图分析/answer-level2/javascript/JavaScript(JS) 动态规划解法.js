@@ -1,11 +1,11 @@
-### 解题思路
-参考题解的动态规划解法
-![Snipaste_2020-03-29_14-33-38.png](https://pic.leetcode-cn.com/aba59027a4afbb85c2261291564d19025ba1f44a75bdafb6b737835f751c4064-Snipaste_2020-03-29_14-33-38.png)
+// ### 解题思路
+// 参考题解的动态规划解法
+// ![Snipaste_2020-03-29_14-33-38.png](https://pic.leetcode-cn.com/aba59027a4afbb85c2261291564d19025ba1f44a75bdafb6b737835f751c4064-Snipaste_2020-03-29_14-33-38.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var maxDistance = function (grid) {
     if (grid.length < 2) return -1
     let n = grid.length;
@@ -48,5 +48,5 @@ var maxDistance = function (grid) {
         return ans
     }
 };
-```
-![扫码_搜索联合传播样式-标准色版.png](https://pic.leetcode-cn.com/dd3593cb31c56647e71aa4269595e23b9492ae18ac1ad0bc566d28e8bd764c90-%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88.png)
+// ```
+// ![扫码_搜索联合传播样式-标准色版.png](https://pic.leetcode-cn.com/dd3593cb31c56647e71aa4269595e23b9492ae18ac1ad0bc566d28e8bd764c90-%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88.png)

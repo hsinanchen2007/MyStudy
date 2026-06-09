@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sumEvenAfterQueries(self, A: List[int], queries: List[List[int]]) -> List[int]:
         evenlist=[0]*len(queries)
@@ -22,4 +22,4 @@ class Solution:
                     evensum+=A[que[1]]
             evenlist[i]=evensum
         return evenlist
-```
+# ```

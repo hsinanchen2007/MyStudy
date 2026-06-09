@@ -1,9 +1,9 @@
-### 解题思路
-这道题和K个一组翻转列表解法一致，只不过k为2，详情请参见我的博客[清晰易懂的“K个一组翻转链表”](https://blog.csdn.net/qq_42103091/article/details/105113700)解法但需要注意一些细节即链表为NULL或链表结点为1个的情况。
+// ### 解题思路
+// 这道题和K个一组翻转列表解法一致，只不过k为2，详情请参见我的博客[清晰易懂的“K个一组翻转链表”](https://blog.csdn.net/qq_42103091/article/details/105113700)解法但需要注意一些细节即链表为NULL或链表结点为1个的情况。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -53,4 +53,4 @@ struct ListNode* swapPairs(struct ListNode* head){
     }
     return head->next;
 }
-```
+// ```

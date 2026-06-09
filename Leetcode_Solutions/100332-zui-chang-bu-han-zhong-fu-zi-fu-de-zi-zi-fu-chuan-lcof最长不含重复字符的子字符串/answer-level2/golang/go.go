@@ -1,4 +1,4 @@
-```
+// ```
 func lengthOfLongestSubstring(s string) int {
 	o, b, e, i, j := 0, 0, -1, 0, 0
 	for ; i < len(s); i++ {
@@ -19,4 +19,4 @@ func lengthOfLongestSubstring(s string) int {
 	return o
 }
 
-```
+// ```

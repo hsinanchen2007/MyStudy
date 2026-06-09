@@ -1,17 +1,17 @@
-![image.png](https://pic.leetcode-cn.com/a872a3349996d5caa313e39de6271d2a659d6678403aa7f0c8ec4e3c0a5caf28-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a872a3349996d5caa313e39de6271d2a659d6678403aa7f0c8ec4e3c0a5caf28-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 思路很简单，做的时候都没想出来：
 1.只需要统计 s 中所有字母出现的次数，哈希表
 2.遍历 t，只要字符在 s 中出现过，就把该字符在哈希表中出现的次数 -1
 3.统计哈希表中所有的正值，加起来就可以了，就是需要操作的次数，
   也就是把 t 中多余的字母替换为这些字母，就可以变成 s 的异位词了
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -47,4 +47,4 @@ var minSteps = function(s, t) {
   
   return ans;
 };
-```
+// ```

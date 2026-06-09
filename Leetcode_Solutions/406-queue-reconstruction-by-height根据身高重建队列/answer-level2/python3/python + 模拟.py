@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def reconstructQueue(self, people: List[List[int]]) -> List[List[int]]:
         people.sort(key = lambda x: (x[1], x[0]))
@@ -13,4 +13,4 @@ class Solution:
             index = get_insert_index(res, p[0], p[1]) 
             res.insert(index, p)
         return res
-```
+# ```

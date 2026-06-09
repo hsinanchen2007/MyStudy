@@ -1,8 +1,8 @@
-### 解题思路
-穷举所有的可能性，对于这个例子，按顺序把数组中的元素取出求和看是否等于给定值
+// ### 解题思路
+// 穷举所有的可能性，对于这个例子，按顺序把数组中的元素取出求和看是否等于给定值
 
-### 代码
-```golang []
+// ### 代码
+// ```golang []
 // 辅助递归函数，输入是正整数数组和目标值，还包含指向数组的开始下标start，以及当前数字组合elem和最后结果集合result
 func combSum(nums []int, target, start int, elem []int, result *[][]int) {
    if target == 0 { // 如果目标值已经减到0
@@ -33,8 +33,8 @@ func combinationSum(candidates []int, target int) [][]int {
    return result
 }
 
-```
-```golang []
+// ```
+// ```golang []
 // 剪枝优化，先对数组进行排序，这样只要当遇到的某个数字使得组合加起来大于目标值，那它后面的数字就都可以不看了，直接回溯到上一个位置，
 // 优化只需要再上面的代码上加两行，一是先对数组排序，然后在辅助递归函数的for循环中，先检查当前数字是否大于目标值，如果是直接跳出循环
 // 因为数组有序，因此后面的数字也肯定大于目标值，这个优化可以减少操作次数，但时间复杂度在数量级上和优化前一样
@@ -71,4 +71,4 @@ func combinationSum(candidates []int, target int) [][]int {
    combSum(candidates, target, 0, elem, &result)
    return result
 }
-```
+// ```

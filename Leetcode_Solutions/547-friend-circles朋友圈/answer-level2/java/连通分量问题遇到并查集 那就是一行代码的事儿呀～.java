@@ -1,4 +1,4 @@
-```
+// ```
 //package cn.deepblog.LeetCode;
 
 class UF{
@@ -88,4 +88,4 @@ class Solution {
         return uf.count;
     }
 }
-```
+// ```

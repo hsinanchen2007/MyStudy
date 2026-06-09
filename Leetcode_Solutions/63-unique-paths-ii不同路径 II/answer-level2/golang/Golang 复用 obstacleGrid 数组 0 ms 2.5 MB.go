@@ -1,4 +1,4 @@
-```go
+// ```go
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 	// dp[i][j] 表示[0,0] 到 [i,j] 有多少种方法，每次只能从左边或者上面来
 	// dp[i][j] = dp[i-1][j] + dp[i][j-1]
@@ -80,4 +80,4 @@ func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 	return dp[m-1][n-1]
 }
 */
-```
+// ```

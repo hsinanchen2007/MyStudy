@@ -1,12 +1,12 @@
-### 解题思路
-使用java的堆栈API:Stack。
-碰到非#的字符，执行入栈操作；碰到#字符，执行出栈操作。
-但是要特别注意，当栈为空时，不能执行出栈操作。
-两个字符串都按照上述操作执行完后，先对比两个栈的大小是否相等，再对比两个栈的内容是否相等。
+// ### 解题思路
+// 使用java的堆栈API:Stack。
+// 碰到非#的字符，执行入栈操作；碰到#字符，执行出栈操作。
+// 但是要特别注意，当栈为空时，不能执行出栈操作。
+// 两个字符串都按照上述操作执行完后，先对比两个栈的大小是否相等，再对比两个栈的内容是否相等。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean backspaceCompare(String S, String T) {
         Stack<Character> stack1 = new Stack<>();
@@ -40,4 +40,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

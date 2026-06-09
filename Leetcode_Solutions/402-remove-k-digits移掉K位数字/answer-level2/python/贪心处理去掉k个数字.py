@@ -1,9 +1,9 @@
-### 解题思路
-用stack的思想，当下一个数小于上一个数的时候，删掉上一个数，可以一直删除
+# ### 解题思路
+# 用stack的思想，当下一个数小于上一个数的时候，删掉上一个数，可以一直删除
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeKdigits(self, num, k):
         """
@@ -44,4 +44,4 @@ class Solution(object):
             return '0'
         return result
 
-```
+# ```

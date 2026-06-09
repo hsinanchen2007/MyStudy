@@ -1,9 +1,9 @@
-### 解题思路
-利用每个下标的前缀和的差值找到最大字数组
+// ### 解题思路
+// 利用每个下标的前缀和的差值找到最大字数组
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxSubArrayLen(nums []int, k int) int {
     // 前缀和
     // 利用每个下标的前缀和的差值找到最大字数组
@@ -30,4 +30,4 @@ func maxSubArrayLen(nums []int, k int) int {
     }
     return res
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-通过中序遍历，将树转换成两个有序的数组
-合并两个有序数组
+// ### 解题思路
+// 通过中序遍历，将树转换成两个有序的数组
+// 合并两个有序数组
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -70,4 +70,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

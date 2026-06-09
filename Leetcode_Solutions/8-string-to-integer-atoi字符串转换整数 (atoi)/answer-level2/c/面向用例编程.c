@@ -1,9 +1,9 @@
-### 解题思路
-C代码，面向用例编程
+// ### 解题思路
+// C代码，面向用例编程
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str){
     int i = 0;
     int beginflag = 0;
@@ -29,4 +29,4 @@ int myAtoi(char * str){
     }
     return subflag ? (-num < -2147483648? -2147483648:-num):(num > 2147483647? 2147483647:num);
 }
-```
+// ```

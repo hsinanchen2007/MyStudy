@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-去重复
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 去重复
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void quickSort(vector<int>& nums, int l, int r){
@@ -53,4 +53,4 @@ public:
         return v;
     }
 };
-```
+// ```

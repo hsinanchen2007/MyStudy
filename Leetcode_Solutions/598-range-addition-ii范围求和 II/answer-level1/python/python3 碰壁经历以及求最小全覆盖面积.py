@@ -1,9 +1,9 @@
-### 解题思路
-求最小全部覆盖的面积
+# ### 解题思路
+# 求最小全部覆盖的面积
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxCount(self, m: int, n: int, ops: List[List[int]]) -> int:
         '''傻子才这么做呢
@@ -28,4 +28,4 @@ class Solution:
             return m*n
         tmp = list(zip(*ops))   #复习zip(*list)用来做二维列表转置
         return min(tmp[0])*min(tmp[1])
-```
+# ```

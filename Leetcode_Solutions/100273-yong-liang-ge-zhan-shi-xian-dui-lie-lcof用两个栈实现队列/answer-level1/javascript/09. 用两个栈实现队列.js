@@ -1,9 +1,9 @@
-### 解题思路
-虽然看不太懂题目，但实现一个队列只需一个栈即可，push入队，shift出队
+// ### 解题思路
+// 虽然看不太懂题目，但实现一个队列只需一个栈即可，push入队，shift出队
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var CQueue = function() {
     this.queue = []
     return null
@@ -35,4 +35,4 @@ CQueue.prototype.deleteHead = function() {
  * var param_2 = obj.deleteHead()
  * 解题思路：虽然看不太懂题目，但实现一个队列只需一个栈即可，push入队，shift出队
  */
-```
+// ```

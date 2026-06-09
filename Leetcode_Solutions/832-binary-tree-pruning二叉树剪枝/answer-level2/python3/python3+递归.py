@@ -1,10 +1,10 @@
-### 解题思路
-![UC截图20200103182346.png](https://pic.leetcode-cn.com/0452e150959cd36b0bafa9bc107f7d271c4b0fae24eef0f10374add54568959b-UC%E6%88%AA%E5%9B%BE20200103182346.png)
+# ### 解题思路
+# ![UC截图20200103182346.png](https://pic.leetcode-cn.com/0452e150959cd36b0bafa9bc107f7d271c4b0fae24eef0f10374add54568959b-UC%E6%88%AA%E5%9B%BE20200103182346.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
             self.pruneTree(root.right)
         return root
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         count = 1
@@ -18,4 +18,4 @@ class Solution:
                     lis[i] += candies
                     candies=0         #不可换break
         return lis
-```
+# ```

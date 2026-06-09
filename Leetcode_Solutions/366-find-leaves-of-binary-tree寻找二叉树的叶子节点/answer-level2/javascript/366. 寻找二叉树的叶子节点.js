@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-- 收集 ``二叉树`` 的叶子结点值，之后把它删除
-- 重复上一过程，直到 ``二叉树`` 为空
+// - 收集 ``二叉树`` 的叶子结点值，之后把它删除
+// - 重复上一过程，直到 ``二叉树`` 为空
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -39,4 +39,4 @@ var findLeaves = function(root) {
     }
     return res
 };
-```
+// ```

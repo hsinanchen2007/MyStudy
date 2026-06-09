@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-使用数组记录 出现情况 
-### 代码
+// 使用数组记录 出现情况 
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int max = 0;
@@ -31,4 +31,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

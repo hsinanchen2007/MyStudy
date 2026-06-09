@@ -1,5 +1,5 @@
-有点像高斯小学数据题的解题思路
-```
+// 有点像高斯小学数据题的解题思路
+// ```
 public class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
@@ -18,4 +18,4 @@ public class Solution {
     	return n;
     }
 }
-```
+// ```

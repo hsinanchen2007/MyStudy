@@ -1,5 +1,5 @@
-递归解法：
-```java []
+// 递归解法：
+// ```java []
 class Solution {
     public int climbStairs(int n) {
         if (n < 0) { // 排除不是正整数的情况
@@ -18,18 +18,18 @@ class Solution {
         return climbStairs(n - 1) + climbStairs(n - 2);
     }
 }
-```
-```go []
+// ```
+// ```go []
 func climbStairs(n int) int {
 	if n <= 2 {
 		return n
 	}
 	return climbStairs0(n-1) + climbStairs0(n-2)
 }
-```
+// ```
 
-动态规划解法：
-```java []
+// 动态规划解法：
+// ```java []
 class Solution {
     public int climbStairs(int n) {
         if (n < 0) { // 排除不是正整数的情况
@@ -49,8 +49,8 @@ class Solution {
         return pre1;
     }
 }
-```
-```go []
+// ```
+// ```go []
 func climbStairs(n int) int {
     if n <= 2 {
         return n
@@ -61,4 +61,4 @@ func climbStairs(n int) int {
     }
     return pre1
 }
-```
+// ```

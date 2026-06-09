@@ -1,5 +1,5 @@
-内存时间双击败90+
-```
+// 内存时间双击败90+
+// ```
 public class Solution {
 
     int[] head ;
@@ -57,4 +57,4 @@ class Edge{
     int to;
     int next;
 }
-```
+// ```

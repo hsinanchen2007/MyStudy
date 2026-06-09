@@ -1,9 +1,9 @@
-RTRT，别问，问就LGD应该在Ti8胜者组决赛先手把Ana ban了，就没有fy背后的烟火声了...
+// RTRT，别问，问就LGD应该在Ti8胜者组决赛先手把Ana ban了，就没有fy背后的烟火声了...
 
-执行用时 : 0 ms, 在所有 golang 提交中击败了100.00%的用户
-内存消耗 : 3.3 MB, 在所有 golang 提交中击败了100.00%的用户
+// 执行用时 : 0 ms, 在所有 golang 提交中击败了100.00%的用户
+// 内存消耗 : 3.3 MB, 在所有 golang 提交中击败了100.00%的用户
 
-```go
+// ```go
 func predictPartyVictory(senate string) string {
     n := len(senate)
     ban := make([]int, n)
@@ -43,4 +43,4 @@ func predictPartyVictory(senate string) string {
         }
     }
 }
-```
+// ```

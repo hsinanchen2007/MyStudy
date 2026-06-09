@@ -1,4 +1,4 @@
-```
+// ```
 int findDuplicate(int* nums, int numsSize){
     int a[100000]={0};
     for(int i=0;i<numsSize;i++){
@@ -8,4 +8,4 @@ int findDuplicate(int* nums, int numsSize){
     }
     return 0;
 }
-```
+// ```

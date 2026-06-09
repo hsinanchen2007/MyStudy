@@ -1,4 +1,4 @@
-```
+// ```
     // Time: O(log_5(n)), Space: O(1)
     function trailingZeroes($n) {
         $cnt = 0;
@@ -9,4 +9,4 @@
         }
         return $cnt;
     }
-```
+// ```

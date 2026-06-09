@@ -1,10 +1,10 @@
-## 思路:
+# ## 思路:
 
-贪心算法，按右边界进行排序即可，看代码便可明白
+# 贪心算法，按右边界进行排序即可，看代码便可明白
 
-## 代码:
+# ## 代码:
 
-```python
+# ```python
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
         intervals.sort(key=lambda x: x[1])
@@ -15,5 +15,5 @@ class Solution:
                 num += 1
                 cur_end = end
         return len(intervals) - num 
-```
+# ```
 

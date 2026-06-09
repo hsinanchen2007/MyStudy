@@ -1,4 +1,4 @@
-```
+// ```
 //每次遍历当前元素时，检查其后的元素是否与当前元素相同，如果相同则进行移位。
 public static int delRepeatElement(int [] nums) {
         int delCount = 0;//删除重复元素个数计数
@@ -21,5 +21,5 @@ public static int delRepeatElement(int [] nums) {
         }
         return nums.length - delCount ;
     }
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-..纯粹按照加法步骤写出来的，一位一位的往上加，判断是否有进位
+# ### 解题思路
+# ..纯粹按照加法步骤写出来的，一位一位的往上加，判断是否有进位
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
             elif tmp == 1:
                 l3.next = ListNode(1)
 
-```
+# ```

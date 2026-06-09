@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var twoSum = function(nums, target) {
     let low = 0,
         high = nums.length - 1;
@@ -15,4 +15,4 @@ var twoSum = function(nums, target) {
     }
     return -1
 };
-```
+// ```

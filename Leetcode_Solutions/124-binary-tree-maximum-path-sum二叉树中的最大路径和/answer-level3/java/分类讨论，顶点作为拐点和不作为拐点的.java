@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/a54c8ec8112f7fc59653c6ed62d8ae6898fa83fe250570d31480b06db3d8d2c2-image.png)
-👇
+// ![image.png](https://pic.leetcode-cn.com/a54c8ec8112f7fc59653c6ed62d8ae6898fa83fe250570d31480b06db3d8d2c2-image.png)
+// 👇
 
-```
+// ```
     int maxSum = Integer.MIN_VALUE;
     int maxPointSum = Integer.MIN_VALUE; //把顶点作为拐点的最大值
     public int maxPathSum(TreeNode root) {
@@ -23,7 +23,7 @@
         //只返回那些一条龙的，不返回拐弯的，因为一条龙的不能被上面顶点用了
         return sum1; 
     }
-```
+// ```
 
 
 

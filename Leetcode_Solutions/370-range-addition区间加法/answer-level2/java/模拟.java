@@ -1,19 +1,19 @@
-### 解题思路
-此处撰写解题思路
-模拟
-执行用时 :
-874 ms
-, 在所有 Java 提交中击败了
-10.99%
-的用户
-内存消耗 :
-46 MB
-, 在所有 Java 提交中击败了
-100.00%
-的用户
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 模拟
+// 执行用时 :
+// 874 ms
+// , 在所有 Java 提交中击败了
+// 10.99%
+// 的用户
+// 内存消耗 :
+// 46 MB
+// , 在所有 Java 提交中击败了
+// 100.00%
+// 的用户
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getModifiedArray(int length, int[][] updates) {
         int len = updates.length;
@@ -26,4 +26,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

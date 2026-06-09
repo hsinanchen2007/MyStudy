@@ -1,7 +1,7 @@
-考试时没看到子树,以为任何几个相连的节点满足条件就ok...
-代码有详解
-![image.png](https://pic.leetcode-cn.com/57ce23d2403c0ec2190b971526700e16562c8fd0ec6b60769a2eacc397713760-image.png)
-```
+// 考试时没看到子树,以为任何几个相连的节点满足条件就ok...
+// 代码有详解
+// ![image.png](https://pic.leetcode-cn.com/57ce23d2403c0ec2190b971526700e16562c8fd0ec6b60769a2eacc397713760-image.png)
+// ```
     List<Set<Integer>> childs;
     int[] value;
 
@@ -62,4 +62,4 @@
         }
         return res;
     }
-```
+// ```

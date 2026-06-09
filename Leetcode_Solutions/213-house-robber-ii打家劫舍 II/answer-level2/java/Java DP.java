@@ -1,14 +1,14 @@
-DP方程：
-第一家偷的情况下，最后一家就不能偷：
-dp1[0] = nums[0]
-dp1[1] = dp1[0];
-dp1[i] = i < lastIndex ? Math.max(dp1[i - 1], dp1[i - 2] + nums[i]) : dp1[i - 1]
-第一家不偷的情况下，最后一家就能偷：
-dp2[0] = 0
-dp2[1] = nums[1]
-dp2[i] = Math.max(dp2[i - 1], dp2[i - 2] + nums[i])
+// DP方程：
+// 第一家偷的情况下，最后一家就不能偷：
+// dp1[0] = nums[0]
+// dp1[1] = dp1[0];
+// dp1[i] = i < lastIndex ? Math.max(dp1[i - 1], dp1[i - 2] + nums[i]) : dp1[i - 1]
+// 第一家不偷的情况下，最后一家就能偷：
+// dp2[0] = 0
+// dp2[1] = nums[1]
+// dp2[i] = Math.max(dp2[i - 1], dp2[i - 2] + nums[i])
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
@@ -27,11 +27,11 @@ class Solution {
         return Math.max(dp1[lastPos], dp2[lastPos]);
     }
 }
-```
+// ```
 
-当然也可以换个思路：
-max(job(nums, 0, nums.length - 1), job(nums, 1, nums.length))
-```java
+// 当然也可以换个思路：
+// max(job(nums, 0, nums.length - 1), job(nums, 1, nums.length))
+// ```java
 class Solution {
     public int rob(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
@@ -49,4 +49,4 @@ class Solution {
         return currMax;
     }
 }
-```
+// ```

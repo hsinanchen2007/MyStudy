@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def mergeKLists(self, lists):
         if not lists:
@@ -29,4 +29,4 @@ class Solution(object):
         else:
             l2.next = self.mergeTwoLists(l1, l2.next)
             return l2
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
     List<String> rtnList = new ArrayList<String>();
     char[] s;
     public List<String> generateParenthesis(int n) {
@@ -28,4 +28,4 @@
             return;
         }
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class LRUCache {
 
     var cache: [(key: Int, value: Int)] = []
@@ -71,4 +71,4 @@ for (index, option) in options.enumerated() {
     print("cache: \(cache.cache)\n")
 }
 */
-```
+// ```

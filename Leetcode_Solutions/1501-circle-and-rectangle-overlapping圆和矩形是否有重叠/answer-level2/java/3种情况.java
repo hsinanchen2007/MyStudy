@@ -1,21 +1,21 @@
-### 解题思路
-此处撰写解题思路
-重叠的情况有
-1.圆在矩形内部（只要圆心在矩形内部肯定包括这种情况）
-2.矩形有一个角落在圆范围内
-3.边交叉（或者相切）
-![WechatIMG1728.jpeg](https://pic.leetcode-cn.com/8fbfebe4fc2372ab5d8ac0f844a0238a31cc5923c61b673232c4e7f04e7e1495-WechatIMG1728.jpeg)
+// ### 解题思路
+// 此处撰写解题思路
+// 重叠的情况有
+// 1.圆在矩形内部（只要圆心在矩形内部肯定包括这种情况）
+// 2.矩形有一个角落在圆范围内
+// 3.边交叉（或者相切）
+// ![WechatIMG1728.jpeg](https://pic.leetcode-cn.com/8fbfebe4fc2372ab5d8ac0f844a0238a31cc5923c61b673232c4e7f04e7e1495-WechatIMG1728.jpeg)
 
-着重说第3种
-![WechatIMG99.jpeg](https://pic.leetcode-cn.com/a6ce85046b6a972d4cfef859e01b46c01e0a66399b3fc957eebcc99c520b33e2-WechatIMG99.jpeg)
+// 着重说第3种
+// ![WechatIMG99.jpeg](https://pic.leetcode-cn.com/a6ce85046b6a972d4cfef859e01b46c01e0a66399b3fc957eebcc99c520b33e2-WechatIMG99.jpeg)
 
 
-先求圆心P到矩形边的最短距离，如果相交那么勾股定理可以求出与矩形相交的长度l
-只要Py + l和Py-l在y1和y2的范围内那就肯定是先交的
-x也是同理
-### 代码
+// 先求圆心P到矩形边的最短距离，如果相交那么勾股定理可以求出与矩形相交的长度l
+// 只要Py + l和Py-l在y1和y2的范围内那就肯定是先交的
+// x也是同理
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public boolean checkOverlap(int radius, int x_center, int y_center, int x1, int y1, int x2, int y2) {
           int[][] jx = {{x1, y1},{x2, y2},{x1, y2},{x2, y1}};
@@ -48,4 +48,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

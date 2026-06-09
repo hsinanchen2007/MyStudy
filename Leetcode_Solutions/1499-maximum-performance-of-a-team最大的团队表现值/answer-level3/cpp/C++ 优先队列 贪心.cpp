@@ -1,16 +1,16 @@
-### 解题思路
-策略很简单 遍历每一个效率的值 然后把比当前效率值高的人员全部找出来，取其中最大的k-1个
-通过排序加优先队列的方法可以得到不错的复杂度
+// ### 解题思路
+// 策略很简单 遍历每一个效率的值 然后把比当前效率值高的人员全部找出来，取其中最大的k-1个
+// 通过排序加优先队列的方法可以得到不错的复杂度
 
 
-欢迎大家关注我的leetcode仓库～
-[我的题解](https://www.github.com/wfnuser/leetcode)
-[我的github](https://www.github.com/wfnuser)
-最近沉迷刷题 同时也在学习和实现lua，欢迎交流
+// 欢迎大家关注我的leetcode仓库～
+// [我的题解](https://www.github.com/wfnuser/leetcode)
+// [我的github](https://www.github.com/wfnuser)
+// 最近沉迷刷题 同时也在学习和实现lua，欢迎交流
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxPerformance(int n, vector<int>& speed, vector<int>& efficiency, int k) {
@@ -64,4 +64,4 @@ public:
         return ans%mod;
     }
 };
-```
+// ```

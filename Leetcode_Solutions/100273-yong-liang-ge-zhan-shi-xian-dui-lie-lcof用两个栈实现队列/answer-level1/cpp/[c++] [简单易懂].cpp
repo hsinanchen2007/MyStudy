@@ -1,9 +1,9 @@
-### 解题思路
-模拟题
+// ### 解题思路
+// 模拟题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class CQueue {
 public:
     CQueue() {
@@ -32,4 +32,4 @@ private:
     stack<int> s1;
     stack<int> s2;
 };
-```
+// ```

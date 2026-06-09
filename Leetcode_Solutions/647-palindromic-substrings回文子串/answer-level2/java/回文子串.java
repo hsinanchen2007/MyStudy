@@ -1,9 +1,9 @@
-### 解题思路
-1. 中心扩展法。
+// ### 解题思路
+// 1. 中心扩展法。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countSubstrings(String S) {
         int N = S.length(), res = 0;
@@ -20,4 +20,4 @@ class Solution {
     }
 }
 
-```
+// ```

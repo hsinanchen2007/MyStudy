@@ -1,15 +1,15 @@
-执行用时 :4 ms, 在所有 cpp 提交中击败了91.07%的用户
+// 执行用时 :4 ms, 在所有 cpp 提交中击败了91.07%的用户
 
-需要在经典二分查找的基础上增加对mid和target位于左半部分还是位于右半部分的判断逻辑
-mid左，target右，left = mid + 1
-mid左，target左，target < nums[mid],right = mid - 1
-                nums[mid] < target,left = mid + 1
+// 需要在经典二分查找的基础上增加对mid和target位于左半部分还是位于右半部分的判断逻辑
+// mid左，target右，left = mid + 1
+// mid左，target左，target < nums[mid],right = mid - 1
+//                 nums[mid] < target,left = mid + 1
 
-mid右，target左，right = mid - 1
-mid右，target右，target < nums[mid],right = mid - 1
-                 nums[mid] < target,left = mid + 1
+// mid右，target左，right = mid - 1
+// mid右，target右，target < nums[mid],right = mid - 1
+//                  nums[mid] < target,left = mid + 1
 
-```
+// ```
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -51,7 +51,7 @@ public:
         return -1;
     }
 };
-```
+// ```
 
 
 

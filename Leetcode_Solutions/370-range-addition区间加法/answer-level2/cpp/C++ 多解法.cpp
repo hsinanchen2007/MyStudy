@@ -1,7 +1,7 @@
-# 解法一：
-1，记录区间的增量
-2，然后从左往后遍历并逐渐合并增量，获取结果
-```C++ []
+// # 解法一：
+// 1，记录区间的增量
+// 2，然后从左往后遍历并逐渐合并增量，获取结果
+// ```C++ []
 class Solution {
 public:
     vector<int> getModifiedArray(int length, vector<vector<int>>& updates) {
@@ -20,15 +20,15 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/435b78d0253b9baabadc4c5ad5896f470f47b7102bdeaf7d9d48b85fb7d75705-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/435b78d0253b9baabadc4c5ad5896f470f47b7102bdeaf7d9d48b85fb7d75705-image.png)
 
 
-# 解法二：
-经典的线段树解法
-1，因为查询的时候仅做点查询，不进行区间查询，因此不需要进行向上更新操作，也就没有编写pushUp函数
-2，因为增量具有可叠加性，即满足数学上的结合律，因此可以使用懒惰标记，仅在查询的时候做pushDown更新操作
-```C++ []
+// # 解法二：
+// 经典的线段树解法
+// 1，因为查询的时候仅做点查询，不进行区间查询，因此不需要进行向上更新操作，也就没有编写pushUp函数
+// 2，因为增量具有可叠加性，即满足数学上的结合律，因此可以使用懒惰标记，仅在查询的时候做pushDown更新操作
+// ```C++ []
 class Solution {
 public:
     vector<int> sums;
@@ -74,6 +74,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/0b49c5953753d915102246aaecdeb86fd5b5ac6971c7eb9af6eedd9f30c71c96-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0b49c5953753d915102246aaecdeb86fd5b5ac6971c7eb9af6eedd9f30c71c96-image.png)

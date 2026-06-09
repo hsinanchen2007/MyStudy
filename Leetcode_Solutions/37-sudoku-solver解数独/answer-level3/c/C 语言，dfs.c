@@ -1,8 +1,8 @@
-意外地，似乎比较慢。
-![图片.png](https://pic.leetcode-cn.com/7c1d560dcd4eac1b5a740bef5938e1b94519430e522a50ed9c3ba4df30dbc021-%E5%9B%BE%E7%89%87.png)
+// 意外地，似乎比较慢。
+// ![图片.png](https://pic.leetcode-cn.com/7c1d560dcd4eac1b5a740bef5938e1b94519430e522a50ed9c3ba4df30dbc021-%E5%9B%BE%E7%89%87.png)
 
-提交版本：
-```
+// 提交版本：
+// ```
 void
 set( int i, int j, int **row, int **col, int **square, char c )
 {
@@ -117,12 +117,12 @@ solveSudoku( char **board, int boardSize, int *boardColSize )
 	recursion( 0, 0, row, col, square, board ); 
 
 }
-```
-提交版本通过 flag 标志位的传递来停止遍历。
+// ```
+// 提交版本通过 flag 标志位的传递来停止遍历。
 
 
-实验版本：
-```
+// 实验版本：
+// ```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -274,7 +274,7 @@ int main( int argc, char *argv[] )
 	solveSudoku( board, 9, NULL );
 	return 0;
 }
-```
+// ```
 
-如果有同学还是不理解的话，可以在下面留言，我尽可能地回答你的疑惑。
+// 如果有同学还是不理解的话，可以在下面留言，我尽可能地回答你的疑惑。
 

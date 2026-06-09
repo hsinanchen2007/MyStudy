@@ -1,9 +1,9 @@
-### 解题思路
-和书上思路一样，但是字符串需要使用resize方法扩容
+// ### 解题思路
+// 和书上思路一样，但是字符串需要使用resize方法扩容
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -30,4 +30,4 @@ public:
         return s;
     }
 };
-```
+// ```

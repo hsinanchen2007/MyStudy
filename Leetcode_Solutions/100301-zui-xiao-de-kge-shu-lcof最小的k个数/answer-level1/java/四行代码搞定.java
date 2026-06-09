@@ -1,10 +1,10 @@
-### 解题思路
-终于又做出来一题！！！
-排序加复制数组搞定！
+// ### 解题思路
+// 终于又做出来一题！！！
+// 排序加复制数组搞定！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
     	int[]ans = new int[k];
@@ -13,4 +13,4 @@ class Solution {
 		return ans;  	
     }
 }
-```
+// ```

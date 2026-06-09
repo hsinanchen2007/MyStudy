@@ -1,5 +1,5 @@
-将数字转化成字符串、再将字符串转化成数字
-```
+# 将数字转化成字符串、再将字符串转化成数字
+# ```
 class Solution:
     def numsSameConsecDiff(self, N, K):
         """
@@ -20,4 +20,4 @@ class Solution:
                 smaller.append(s+s2)
         res=[int(i) for i in smaller]
         return list(set(res))
-```
+# ```

@@ -1,8 +1,8 @@
-- obj[name] = array 每一个人对应一个数组 
-- array[i] = [name, time, money, city, isDeleted] 按时间从小到大排序
-- isDeleted表示是否被删除过
-- array添加元素时用二分法找到该元素应该插入的位置 然后向左右两边找时差少于60的
-```
+// - obj[name] = array 每一个人对应一个数组 
+// - array[i] = [name, time, money, city, isDeleted] 按时间从小到大排序
+// - isDeleted表示是否被删除过
+// - array添加元素时用二分法找到该元素应该插入的位置 然后向左右两边找时差少于60的
+// ```
 var invalidTransactions = function (transactions) {
   let res = [];
   let obj = {};
@@ -57,4 +57,4 @@ var invalidTransactions = function (transactions) {
   })
   return res;
 };
-```
+// ```

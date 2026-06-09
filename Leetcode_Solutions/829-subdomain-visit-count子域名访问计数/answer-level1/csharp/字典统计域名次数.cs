@@ -1,10 +1,10 @@
 
-执行用时 :
-404 ms, 在所有 C# 提交中击败了100.00%的用户
-内存消耗 :
-31.6 MB, 在所有 C# 提交中击败了20.00%的用户
+// 执行用时 :
+// 404 ms, 在所有 C# 提交中击败了100.00%的用户
+// 内存消耗 :
+// 31.6 MB, 在所有 C# 提交中击败了20.00%的用户
 
-```javascript []
+// ```javascript []
 public IList<string> SubdomainVisits(string[] cpdomains) {
         var dict=new Dictionary<string,int>();
         foreach(var s in cpdomains){
@@ -31,5 +31,5 @@ public IList<string> SubdomainVisits(string[] cpdomains) {
         }
         return R;
     }
-```
+// ```
 

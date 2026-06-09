@@ -1,8 +1,8 @@
-*本篇题解介绍了个人从尝试到暴力解决再到满足题意的解法的过程。如果要直接看正确答案，请直接查看* **解法六、七**。
+// *本篇题解介绍了个人从尝试到暴力解决再到满足题意的解法的过程。如果要直接看正确答案，请直接查看* **解法六、七**。
 
-## 解法一 (失败的尝试)
+// ## 解法一 (失败的尝试)
 
-```go
+// ```go
 //	nums=[1,2,3,4,5,6,7], l=7, k=3, k1=3
 // 首先需要明确的是，k1 = k % len(nums) 才是真正需要右移的位数，或者叫旋转的次数
 	// 直接把数字进行k1位的循环右移
@@ -27,13 +27,13 @@ func Sol_1_1(nums []int, k int) {
 	}
 	return
 }
-```
+// ```
 
-## 解法二 暴力旋转
+// ## 解法二 暴力旋转
 
-尝试解题失败后，从暴力解题出发。
+// 尝试解题失败后，从暴力解题出发。
 
-```go
+// ```go
 // 纯暴力解法，每一次k就旋转1次，旋转一次意味着整体的数据后移
 // 不符合题意，时间复杂度O(n*n),空间复杂度O(1)
 func Sol_1_2(nums []int, k int) {
@@ -56,11 +56,11 @@ func Sol_1_2(nums []int, k int) {
 		nums[0] = tmp
 	}
 }
-```
+// ```
 
-## 解法三 暴力旋转优化k
+// ## 解法三 暴力旋转优化k
 
-```go
+// ```go
 // 纯暴力解法还可以优化k项
 // 虽然仍然不符合题目要求
 func Sol_1_3(nums []int, k int) {
@@ -87,11 +87,11 @@ func Sol_1_3(nums []int, k int) {
 		nums[0] = tmp
 	}
 }
-```
+// ```
 
-## 解法四 辅助数组记录原始状态
+// ## 解法四 辅助数组记录原始状态
 
-```go
+// ```go
 // 利用辅助数组记录数组的原始信息，解决一开始Sol_1_1结果错误的问题（原来位置的值丢失）
 // 不符合题解要求，时间复杂度和空间复杂度O(n)
 func Sol_1_4(nums []int, k int) {
@@ -117,11 +117,11 @@ func Sol_1_4(nums []int, k int) {
 	}
 	return
 }
-```
+// ```
 
-## 解法五 数组拼接
+// ## 解法五 数组拼接
 
-```go
+// ```go
 // 数组拼接，把切片前部挪到后部后面，实现最终旋转
 // 不符合题意，不是原地修改，时间复杂度O(k),O(k) x  O(n)O(n)
 // 由于go语言切片的copy方法特性，这种做法尽管不合题意，但leetcode执行效率非常高
@@ -152,13 +152,13 @@ func Sol_1_5(nums []int, k int) {
 	copy(nums, nums1)
 	//fmt.Println(nums)
 }
-```
+// ```
 
-## 解法六 三次反转
+// ## 解法六 三次反转
 
-![image.png](https://pic.leetcode-cn.com/0e29d4f2abe05133b800540a7e2a61e7f3f3812071e6e1f74852eb806878723b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0e29d4f2abe05133b800540a7e2a61e7f3f3812071e6e1f74852eb806878723b-image.png)
 
-```go
+// ```go
 // 三重翻转。先全部翻转一次，再翻转前k个，再翻转后边的
 // 这种解法满足题意，O(n)时间，O(1)空间。并且由于没有分配数组空间等操作，总执行时间并不落后解法五
 //34/34 cases passed (68 ms)
@@ -186,15 +186,15 @@ func reverse(a []int) {
 		a[i], a[l-i-1] = a[l-i-1], a[i]
 	}
 }
-```
+// ```
 
-## 解法七 环状替换
+// ## 解法七 环状替换
 
-参考：<https://leetcode-cn.com/problems/rotate-array/solution/xuan-zhuan-shu-zu-by-leetcode/>
+// 参考：<https://leetcode-cn.com/problems/rotate-array/solution/xuan-zhuan-shu-zu-by-leetcode/>
 
-![image.png](https://pic.leetcode-cn.com/35b5b327f297a7f50a00dd716e0d840eeefd56939e8c1c61f045d1309197101f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/35b5b327f297a7f50a00dd716e0d840eeefd56939e8c1c61f045d1309197101f-image.png)
 
-```go
+// ```go
 // 环状替换
 // 在解答Sol_1_1中因为直接对k次旋转后的位置进行处理，原始数据丢失，所以失败了。
 // Sol_1_4将原数组拷贝了一份用来保留原始信息，解决了这个问题，但它不是一个O(1)空间复杂度的方法
@@ -283,8 +283,8 @@ func Sol_1_8(nums []int, k int) {
 		}
 	}
 }
-```
+// ```
 
-## 个人博客
+// ## 个人博客
 
-<https://eiger.me/post/algo/lt189/>
+// <https://eiger.me/post/algo/lt189/>

@@ -1,6 +1,6 @@
-1.使用multimap实现
+// 1.使用multimap实现
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> allCellsDistOrder(int R, int C, int r0, int c0) {
@@ -38,11 +38,11 @@ public:
         return output;
     }
 };
-```
+// ```
 
-2，先录入再排序
+// 2，先录入再排序
 
-```
+// ```
 class Solution {
 public:
     
@@ -72,4 +72,4 @@ public:
         return output;
     }
 };
-```
+// ```

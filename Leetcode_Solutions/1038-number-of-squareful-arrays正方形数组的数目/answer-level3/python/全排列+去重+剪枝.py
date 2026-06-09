@@ -1,6 +1,6 @@
-全排列+去重+剪枝 【python】
+# 全排列+去重+剪枝 【python】
 
-```python
+# ```python
 class Solution(object):
 
     def numSquarefulPerms(self, A):
@@ -24,4 +24,4 @@ class Solution(object):
                     backtrack(nums[:i] + nums[i+1:], tmp + [nums[i]])
         backtrack(nums, [])
         return len(res)
-```
+# ```

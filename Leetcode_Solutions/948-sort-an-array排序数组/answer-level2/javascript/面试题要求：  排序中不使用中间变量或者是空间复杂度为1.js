@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-在双循体中，将赋值操作给予  j+1； 然后连减进行赋值；
+// 在双循体中，将赋值操作给予  j+1； 然后连减进行赋值；
 
-或者是单独使用函数方法： [a, b] = [b, a];
+// 或者是单独使用函数方法： [a, b] = [b, a];
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -23,4 +23,4 @@ var sortArray = function(nums) {
     }
     return nums;
 };
-```
+// ```

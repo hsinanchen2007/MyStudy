@@ -1,10 +1,10 @@
-### 解题思路
-每个栈的最大规模 size 已经确定。
-给数组分配 3 * (size + 1) 个空间。
-第 i 个栈现已有的元素个数记录在数组的第 i * (size + 1) 个元素中，其中 i = 0, 1, 2。
+// ### 解题思路
+// 每个栈的最大规模 size 已经确定。
+// 给数组分配 3 * (size + 1) 个空间。
+// 第 i 个栈现已有的元素个数记录在数组的第 i * (size + 1) 个元素中，其中 i = 0, 1, 2。
 
-### 代码
-```
+// ### 代码
+// ```
 class TripleInOne {
     int size;
     vector<int> vec;
@@ -63,4 +63,4 @@ public:
  * int param_3 = obj->peek(stackNum);
  * bool param_4 = obj->isEmpty(stackNum);
  */
-```
+// ```

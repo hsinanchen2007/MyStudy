@@ -1,9 +1,9 @@
-### 解题思路
-因为首尾相连，所以ans = max(ans{nums(1, n - 1)}, ans{nums(2, n)})。
+// ### 解题思路
+// 因为首尾相连，所以ans = max(ans{nums(1, n - 1)}, ans{nums(2, n)})。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
         return ans;
     }
 };
-```
+// ```

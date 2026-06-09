@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-tarjan算法
+// tarjan算法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> dfn,low;
@@ -45,4 +45,4 @@ public:
         return low[a];
     }
 };
-```
+// ```

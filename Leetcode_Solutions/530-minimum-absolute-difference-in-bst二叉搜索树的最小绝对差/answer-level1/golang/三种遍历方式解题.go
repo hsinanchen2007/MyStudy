@@ -1,6 +1,6 @@
-# 递归实现
+// # 递归实现
 
-```
+// ```
 //递归实现
 func getMinimumDifference(root *TreeNode) int {
     if root==nil{
@@ -27,9 +27,9 @@ func inorder(root *TreeNode,minsub *int,pre **TreeNode){
 
 }
 
-```
-# 迭代（栈）实现
-```
+// ```
+// # 迭代（栈）实现
+// ```
 
 //栈实现
 func getMinimumDifference(root *TreeNode) int {
@@ -91,11 +91,11 @@ func (s *stack)empty()bool{
 }
 
 
-```
+// ```
 
-# Morris遍历实现
+// # Morris遍历实现
 
-```
+// ```
 //morris遍历
 func getMinimumDifference(root *TreeNode) int {
     if root==nil{
@@ -136,8 +136,8 @@ func getMinimumDifference(root *TreeNode) int {
     }
     return minsub
 }
-```
+// ```
 
-### 从上述三种解法可以看出来，题目的核心代码就是*包起来的那块，直接套用遍历的模板就行
-### 本质上，三种方式，morris最佳，但是结果差距不大，估计树的节点并不多
+// ### 从上述三种解法可以看出来，题目的核心代码就是*包起来的那块，直接套用遍历的模板就行
+// ### 本质上，三种方式，morris最佳，但是结果差距不大，估计树的节点并不多
 

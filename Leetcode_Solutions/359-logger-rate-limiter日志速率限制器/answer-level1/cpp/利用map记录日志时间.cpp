@@ -1,4 +1,4 @@
-```
+// ```
 class Logger {
 public:
     /** Initialize your data structure here. */
@@ -25,4 +25,4 @@ public:
     }
 };
 
-```
+// ```

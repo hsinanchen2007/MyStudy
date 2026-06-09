@@ -1,7 +1,7 @@
-欢迎加好友一起交流!
-![微信2.png](https://pic.leetcode-cn.com/1b59615a6fd55839b40d6eadb5a608cbfad23d6470afd736d9cd615d5db3d1ec-%E5%BE%AE%E4%BF%A12.png)
+// 欢迎加好友一起交流!
+// ![微信2.png](https://pic.leetcode-cn.com/1b59615a6fd55839b40d6eadb5a608cbfad23d6470afd736d9cd615d5db3d1ec-%E5%BE%AE%E4%BF%A12.png)
 
-```
+// ```
 func longestUnivaluePath(root *TreeNode) int {
     re := 0
     var dfs func(root *TreeNode) int
@@ -24,7 +24,7 @@ func longestUnivaluePath(root *TreeNode) int {
     dfs(root)
     return re
 }
-```
+// ```
 
 
 

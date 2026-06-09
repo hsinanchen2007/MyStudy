@@ -1,9 +1,9 @@
-### 解题思路
-#### 原作者：LeetCode官方
+# ### 解题思路
+# #### 原作者：LeetCode官方
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findShortestSubArray(self, nums: List[int]) -> int:
         # 最后一个出现元素index - 第一个出现元素index + 1
@@ -42,4 +42,4 @@ class Solution:
         
 
 
-```
+# ```

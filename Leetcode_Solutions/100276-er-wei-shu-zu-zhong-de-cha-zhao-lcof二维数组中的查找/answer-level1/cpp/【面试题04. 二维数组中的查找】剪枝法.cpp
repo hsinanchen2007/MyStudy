@@ -1,10 +1,10 @@
-## 思路
-根据数组特性，可以从左下角或右上角的元素开始查找，如果不等于target，可以直接减少一行或一列的查找。
+// ## 思路
+// 根据数组特性，可以从左下角或右上角的元素开始查找，如果不等于target，可以直接减少一行或一列的查找。
 
-### 代码
-时间复杂度：O(n + m)
-空间复杂度：O(1)
-```c++
+// ### 代码
+// 时间复杂度：O(n + m)
+// 空间复杂度：O(1)
+// ```c++
 class Solution {
 public:
     bool findNumberIn2DArray(vector<vector<int>>& matrix, int target) {
@@ -19,10 +19,10 @@ public:
         return false;
     }
 };
-```
+// ```
 
-### 另一种写法
-```c++
+// ### 另一种写法
+// ```c++
 class Solution {
 public:
     bool findNumberIn2DArray(vector<vector<int>>& matrix, int target) {
@@ -37,4 +37,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,35 +1,35 @@
 
-## 思路
+# ## 思路
 
-读完题目之后就发现这题是一个后缀树。 因此符合直觉的想法是使用前缀树 + 倒序插入的形式来模拟后缀树。
-
-
-下面的代码看起来复杂，但是很多题目我都是用这个模板，稍微调整下细节就能AC。我这里总结了一套[前缀树专题](https://github.com/azl397985856/leetcode/blob/master/thinkings/trie.md)
-
-![image.png](https://pic.leetcode-cn.com/e54b2b2d133dc0071e552138eb1f64617bdc1ecba415b6ba65b022177f343a28-image.png)
-
-前缀树的 api 主要有以下几个：
-
-- `insert(word)`: 插入一个单词
-- `search(word)`：查找一个单词是否存在
-- `startWith(word)`： 查找是否存在以 word 为前缀的单词
-
-其中 startWith 是前缀树最核心的用法，其名称前缀树就从这里而来。大家可以先拿 208 题开始，熟悉一下前缀树，然后再尝试别的题目。
-
-一个前缀树大概是这个样子：
-
-![image.png](https://pic.leetcode-cn.com/5707f704af10748fe17f65d8201e6e5d93f5595d5907bfecb242ad2a1a149994-image.png)
+# 读完题目之后就发现这题是一个后缀树。 因此符合直觉的想法是使用前缀树 + 倒序插入的形式来模拟后缀树。
 
 
-如图每一个节点存储一个字符，然后外加一个控制信息表示是否是单词结尾，实际使用过程可能会有细微差别，不过变化不大。
+# 下面的代码看起来复杂，但是很多题目我都是用这个模板，稍微调整下细节就能AC。我这里总结了一套[前缀树专题](https://github.com/azl397985856/leetcode/blob/master/thinkings/trie.md)
+
+# ![image.png](https://pic.leetcode-cn.com/e54b2b2d133dc0071e552138eb1f64617bdc1ecba415b6ba65b022177f343a28-image.png)
+
+# 前缀树的 api 主要有以下几个：
+
+# - `insert(word)`: 插入一个单词
+# - `search(word)`：查找一个单词是否存在
+# - `startWith(word)`： 查找是否存在以 word 为前缀的单词
+
+# 其中 startWith 是前缀树最核心的用法，其名称前缀树就从这里而来。大家可以先拿 208 题开始，熟悉一下前缀树，然后再尝试别的题目。
+
+# 一个前缀树大概是这个样子：
+
+# ![image.png](https://pic.leetcode-cn.com/5707f704af10748fe17f65d8201e6e5d93f5595d5907bfecb242ad2a1a149994-image.png)
 
 
-这道题需要考虑edge case， 比如这个列表是 ["time", "time",  "me", "bell"] 这种包含重复元素的情况，这里我使用hashset来去重。
+# 如图每一个节点存储一个字符，然后外加一个控制信息表示是否是单词结尾，实际使用过程可能会有细微差别，不过变化不大。
 
 
-## 代码
+# 这道题需要考虑edge case， 比如这个列表是 ["time", "time",  "me", "bell"] 这种包含重复元素的情况，这里我使用hashset来去重。
 
-```python
+
+# ## 代码
+
+# ```python
 class Trie:
 
     def __init__(self):
@@ -73,14 +73,14 @@ class Solution:
                 cnt += len(word) + 1
         return cnt
 
-```
+# ```
 
-***复杂度分析***
-- 时间复杂度：$O(N)$，其中N为单词长度列表中的总字符数，比如["time", "me"]，就是 4 + 2 = 6。
-- 空间复杂度：$O(N)$，其中N为单词长度列表中的总字符数，比如["time", "me"]，就是 4 + 2 = 6。
+# ***复杂度分析***
+# - 时间复杂度：$O(N)$，其中N为单词长度列表中的总字符数，比如["time", "me"]，就是 4 + 2 = 6。
+# - 空间复杂度：$O(N)$，其中N为单词长度列表中的总字符数，比如["time", "me"]，就是 4 + 2 = 6。
 
-更多题解可以访问我的LeetCode题解仓库：https://github.com/azl397985856/leetcode  。 目前已经接近30K star啦。
+# 更多题解可以访问我的LeetCode题解仓库：https://github.com/azl397985856/leetcode  。 目前已经接近30K star啦。
 
-大家也可以关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
+# 大家也可以关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
 
-![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
+# ![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)

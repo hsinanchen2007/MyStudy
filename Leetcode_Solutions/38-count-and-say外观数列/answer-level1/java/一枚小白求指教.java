@@ -1,9 +1,9 @@
-### 解题思路
-一个个算，直到第n个
+// ### 解题思路
+// 一个个算，直到第n个
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
         if (n == 1) {
@@ -35,4 +35,4 @@ class Solution {
 		return pre;
     }
 }
-```
+// ```

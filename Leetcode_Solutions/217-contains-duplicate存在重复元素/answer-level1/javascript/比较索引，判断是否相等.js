@@ -1,9 +1,9 @@
-### 解题思路
-详情，看代码解析
+// ### 解题思路
+// 详情，看代码解析
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -21,4 +21,4 @@ var containsDuplicate = function(nums) {
   }
   return false // 遍历完数组所有元素，没有找到相等的，返回
 };
-```
+// ```

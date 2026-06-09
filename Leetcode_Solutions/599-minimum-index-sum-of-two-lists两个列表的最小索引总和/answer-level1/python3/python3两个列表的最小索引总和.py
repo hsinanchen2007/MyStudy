@@ -1,5 +1,5 @@
-解法一：依次判断索引和分别为0,1,2,...的情形是否有解，若有解，则返回其值。
-```
+# 解法一：依次判断索引和分别为0,1,2,...的情形是否有解，若有解，则返回其值。
+# ```
 class Solution:
     def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:
         res=[]
@@ -11,9 +11,9 @@ class Solution:
                     res.append(list1[j])
             if res:
                 return res
-```
-解法二：哈希表
-```
+# ```
+# 解法二：哈希表
+# ```
 class Solution:
     def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:
         res=[]
@@ -29,4 +29,4 @@ class Solution:
                 elif dic.get(e)+j==sume:
                     res.append(e)
         return res
-```
+# ```

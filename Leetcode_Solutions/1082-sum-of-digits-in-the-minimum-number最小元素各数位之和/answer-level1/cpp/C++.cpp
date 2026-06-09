@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int sumOfDigits(vector<int>& A) {
@@ -18,4 +18,4 @@ public:
     }
     
 };
-```
+// ```

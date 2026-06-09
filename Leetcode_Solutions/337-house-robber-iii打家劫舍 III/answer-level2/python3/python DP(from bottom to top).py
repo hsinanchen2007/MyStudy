@@ -1,7 +1,7 @@
-Thinking: 自底向上递归， max(该节点 + 孙子节点之和, 子节点之和)
-Note: 不用cache过不了， 以后递归尽量都加上cache
+# Thinking: 自底向上递归， max(该节点 + 孙子节点之和, 子节点之和)
+# Note: 不用cache过不了， 以后递归尽量都加上cache
 
-```python
+# ```python
 from functools import lru_cache
 class Solution:
     @lru_cache(None) # 对节点进行缓存 相当于用了一个map
@@ -14,4 +14,4 @@ class Solution:
         if root.right != None:
             r2 += self.rob(root.right.left) + self.rob(root.right.right)
         return max(r1, r2 + root.val)
-```
+# ```

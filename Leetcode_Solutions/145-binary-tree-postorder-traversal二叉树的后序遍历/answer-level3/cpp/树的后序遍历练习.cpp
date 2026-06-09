@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-1. 初始两个栈s1,s2
-2. 栈s1保存根结点
-3. 栈s1弹出p=s1.top()并将p存入栈s2，p->left先入栈s1，p->right再入栈s1
-4. 重复步骤3，直至栈s1为空
-5. 栈s2按序弹出，并存入在容器res中
-6. 重复步骤5，直至栈s2为空
-7. 输出容器res
+// 1. 初始两个栈s1,s2
+// 2. 栈s1保存根结点
+// 3. 栈s1弹出p=s1.top()并将p存入栈s2，p->left先入栈s1，p->right再入栈s1
+// 4. 重复步骤3，直至栈s1为空
+// 5. 栈s2按序弹出，并存入在容器res中
+// 6. 重复步骤5，直至栈s2为空
+// 7. 输出容器res
 
-### 代码
-```
+// ### 代码
+// ```
 class Solution {
 public:
     vector<int> postorderTraversal(TreeNode* root) 
@@ -40,4 +40,4 @@ public:
         return res;
     }
 };
-```
+// ```

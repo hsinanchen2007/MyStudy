@@ -1,5 +1,5 @@
-思路：就是利用中序遍历的结果是从小到大的排序的结果，通过维护3个变量以及返回的结果数组。
-```php
+// 思路：就是利用中序遍历的结果是从小到大的排序的结果，通过维护3个变量以及返回的结果数组。
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -59,4 +59,4 @@ class Solution {
         $this->inOrder($root->right);
     }
 }
-```
+// ```

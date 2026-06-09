@@ -1,9 +1,9 @@
-### 解题思路
-重写Comparater，对String数组排序，最后按顺序添加到字符串中即可。
+// ### 解题思路
+// 重写Comparater，对String数组排序，最后按顺序添加到字符串中即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String minNumber(int[] nums) {
         int numsLen = nums.length;
@@ -25,4 +25,4 @@ class Solution {
         return ans.toString();
     }
 }
-```
+// ```

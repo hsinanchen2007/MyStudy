@@ -1,13 +1,13 @@
-解题：
-1 栈和队列不同的地方在于，栈是先进后出，队列是先进先出，解决问题的根源再次，如果使用栈能做到先进先出
-2 一个栈的结构是固定的，这时候就可以使用两个栈，在java中栈是继承了Vector这个类，有兴趣可以了解一下
-3 两个栈，一个栈存储的是正常栈顺序的数据，另一个栈存储的是和第一个栈相反顺序的数据
-4 考虑到用相反数据的栈会比较多一些，pop、peek、empty，所以耗时的算法可以写在push里，其他直接取都是O(1)
-5 实现思路可以看代码，比较直观，三步操作
+// 解题：
+// 1 栈和队列不同的地方在于，栈是先进后出，队列是先进先出，解决问题的根源再次，如果使用栈能做到先进先出
+// 2 一个栈的结构是固定的，这时候就可以使用两个栈，在java中栈是继承了Vector这个类，有兴趣可以了解一下
+// 3 两个栈，一个栈存储的是正常栈顺序的数据，另一个栈存储的是和第一个栈相反顺序的数据
+// 4 考虑到用相反数据的栈会比较多一些，pop、peek、empty，所以耗时的算法可以写在push里，其他直接取都是O(1)
+// 5 实现思路可以看代码，比较直观，三步操作
 
 
 
-```java
+// ```java
 package com.aizain.jhome.computer.data.queue;
 
 import java.util.Stack;
@@ -95,11 +95,11 @@ public class QueueByStack {
  * boolean param_4 = obj.empty();
  */
 
-```
+// ```
 
-**附上单元测试**
+// **附上单元测试**
 
-```java
+// ```java
 package com.aizain.jhome.computer.data.queue;
 
 import lombok.extern.slf4j.Slf4j;
@@ -151,4 +151,4 @@ class QueueByStackTest {
         assertFalse(queueByStack.empty());
     }
 }
-```
+// ```

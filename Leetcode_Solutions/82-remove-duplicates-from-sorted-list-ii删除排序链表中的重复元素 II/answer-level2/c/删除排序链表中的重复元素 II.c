@@ -1,8 +1,8 @@
-### 解题思路
-类似数组的排序那种二重循环，只不过这里用指针表示，这里没有释放内存，会有泄漏
-### 代码
+// ### 解题思路
+// 类似数组的排序那种二重循环，只不过这里用指针表示，这里没有释放内存，会有泄漏
+// ### 代码
 
-```c
+// ```c
 struct ListNode* deleteDuplicates(struct ListNode* head) {
     if(!head) return head;
 	struct ListNode* dummy = (struct ListNode*)malloc(sizeof(struct ListNode));
@@ -31,4 +31,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head) {
     if(flag) pre->next = p1;
 	return dummy->next;
 }
-```
+// ```

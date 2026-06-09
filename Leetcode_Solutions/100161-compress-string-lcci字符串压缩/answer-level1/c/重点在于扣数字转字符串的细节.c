@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-重点在于扣数字转字符串的细节！
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 重点在于扣数字转字符串的细节！
+// ### 代码
 
-```c
+// ```c
 char* compressString(char* S)
 {
     int slen=0, zSlen, i, j, k=0;
@@ -58,4 +58,4 @@ char* compressString(char* S)
     else
         return S;
 }
-```
+// ```

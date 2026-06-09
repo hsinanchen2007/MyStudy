@@ -1,9 +1,9 @@
-### 解题思路
-思路其实很简单，遍历加油站，使用大顶堆保存已经遍历的加油站的油，如果当前汽车中的油不足以到达当前加油站，则取堆顶加油，直到足够，如果堆空了还是不够，return -1
+// ### 解题思路
+// 思路其实很简单，遍历加油站，使用大顶堆保存已经遍历的加油站的油，如果当前汽车中的油不足以到达当前加油站，则取堆顶加油，直到足够，如果堆空了还是不够，return -1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minRefuelStops(int target, int startFuel, int[][] stations) {
         //构造大顶堆
@@ -40,4 +40,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

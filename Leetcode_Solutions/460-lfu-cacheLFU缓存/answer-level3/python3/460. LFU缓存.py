@@ -1,9 +1,9 @@
-### 解题思路
-。
+# ### 解题思路
+# 。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Node:
     def __init__(self, key, val, pre=None, nex=None, freq=0):
         self.pre = pre
@@ -73,4 +73,4 @@ class LFUCache:
                 self.keyMap.pop(deleted)
             self.increase(node)
 
-```
+# ```

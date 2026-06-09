@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/52dc5c6aea6128cfe2c5a7e0792ddb91276a5e17f7c26283fb8ce58c0d79c72e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/52dc5c6aea6128cfe2c5a7e0792ddb91276a5e17f7c26283fb8ce58c0d79c72e-image.png)
 
-```python []
+# ```python []
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         stack: List[TreeNode] = []
@@ -17,4 +17,4 @@ class Solution:
                 result.append(root.val)
                 root = root.right
         return result 
-```
+# ```

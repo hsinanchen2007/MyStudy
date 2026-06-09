@@ -1,4 +1,4 @@
-```
+// ```
 func constructRectangle(area int) []int {
     var result []int
 	if area == 0 {
@@ -24,4 +24,4 @@ func constructRectangle(area int) []int {
 	}
     return result
 }
-```
+// ```

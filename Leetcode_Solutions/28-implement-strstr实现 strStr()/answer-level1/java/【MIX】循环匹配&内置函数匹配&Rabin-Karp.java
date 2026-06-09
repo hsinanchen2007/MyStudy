@@ -1,9 +1,9 @@
-### 解题思路
-循环匹配或者Rabin-Karp
+// ### 解题思路
+// 循环匹配或者Rabin-Karp
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int strStr(String haystack, String needle) {
         // Rabin-Karp 算法实现
@@ -63,8 +63,8 @@ class Solution {
     // 设置编码中的magic number
     private int B = 29;
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         # 内置函数startswith()
@@ -77,12 +77,12 @@ class Solution:
                 return i
 
         return -1
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         # 使用内置函数find()
         return haystack.find(needle)
-```
-```c++ []
-```
+// ```
+// ```c++ []
+// ```

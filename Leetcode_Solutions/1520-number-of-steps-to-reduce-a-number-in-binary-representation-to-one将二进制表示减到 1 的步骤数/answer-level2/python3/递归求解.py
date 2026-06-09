@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numSteps(self, s: str) -> int:
         if not s:return 0
@@ -23,4 +23,4 @@ class Solution:
             if more:s.insert(0,'1')
             s =''.join(s)
             return self.numSteps(s[:-1])+2    
-```
+# ```

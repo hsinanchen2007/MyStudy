@@ -1,9 +1,9 @@
-### 解题思路
-二分搜索找特异点即可
+# ### 解题思路
+# 二分搜索找特异点即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         #思路：二分搜索
@@ -22,4 +22,4 @@ class Solution:
                 right = idx - 1
         return left
 
-```
+# ```

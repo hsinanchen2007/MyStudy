@@ -1,14 +1,14 @@
-### 解题思路
-1、拆分等式：String[] lr = equation.split（"="）;
-2、分割lr[0]、lr[1]的每一项，存入List<Streing> res(方法breakIt());
-3、整理系数lhs和rhs,强制转换Integer.parseInt(x),方法(coeff(String x));
-4、判断系数为0的情况，左右无限，左无解；
-5、return "x="+rhs/lhs;
+// ### 解题思路
+// 1、拆分等式：String[] lr = equation.split（"="）;
+// 2、分割lr[0]、lr[1]的每一项，存入List<Streing> res(方法breakIt());
+// 3、整理系数lhs和rhs,强制转换Integer.parseInt(x),方法(coeff(String x));
+// 4、判断系数为0的情况，左右无限，左无解；
+// 5、return "x="+rhs/lhs;
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String coeff(String x){
         if(x.length()>1 && x.charAt(x.length()-2)>='0' && x.charAt(x.length()-2)<='9'){
@@ -60,4 +60,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-一个会议室一个会议室的去安排会议。
+// ### 解题思路
+// 一个会议室一个会议室的去安排会议。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Compare(const void *a, const void *b)
 {
     int **pa = (int**)a;
@@ -48,4 +48,4 @@ int minMeetingRooms(int** intervals, int intervalsSize, int* intervalsColSize){
     free(meetings);
     return rooms;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1,首先将字符串转成数组，然后进行排序
-2，将排序之后的字符串逐次比较即可
+// ### 解题思路
+// 1,首先将字符串转成数组，然后进行排序
+// 2，将排序之后的字符串逐次比较即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         char[] charArrS1 = s1.toCharArray();
@@ -17,4 +17,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

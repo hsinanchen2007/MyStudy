@@ -1,6 +1,6 @@
-## 思路一：利用vector
-### 代码
-```c++
+// ## 思路一：利用vector
+// ### 代码
+// ```c++
 class TwoSum {
     vector<int> nums;
 public:
@@ -29,12 +29,12 @@ public:
         return false;
     }
 };
-```
+// ```
 
-## 思路二：利用无序set
-注意重复元素
-### 代码
-```
+// ## 思路二：利用无序set
+// 注意重复元素
+// ### 代码
+// ```
 class TwoSum {
     unordered_multiset<int> nums;
 public:
@@ -58,5 +58,5 @@ public:
         return false;
     }
 };
-```
+// ```
 

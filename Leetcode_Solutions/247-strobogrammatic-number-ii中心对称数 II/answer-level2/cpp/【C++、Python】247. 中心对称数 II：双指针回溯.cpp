@@ -1,10 +1,10 @@
-### 双指针回溯 ###
-#### 思路 ####
-- 将`tmp`初始化为长度为`n`的字符串（Python 中初始化为列表），`left`和`right`分别指向其左右两端
-- 遍历`left`和`right`所指向字符的各种情况，对于每种情况，将两指针向中间移动，向更深一层搜索
-- 当`left > right`时，说明找到了一个符合要求的数字，将其加入结果数组，递归返回
-#### 代码 ####
-```cpp []
+// ### 双指针回溯 ###
+// #### 思路 ####
+// - 将`tmp`初始化为长度为`n`的字符串（Python 中初始化为列表），`left`和`right`分别指向其左右两端
+// - 遍历`left`和`right`所指向字符的各种情况，对于每种情况，将两指针向中间移动，向更深一层搜索
+// - 当`left > right`时，说明找到了一个符合要求的数字，将其加入结果数组，递归返回
+// #### 代码 ####
+// ```cpp []
 class Solution {
 public:
     vector<string> res;
@@ -34,8 +34,8 @@ public:
         }
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution(object):
     def findStrobogrammatic(self, n):
         res = []
@@ -50,8 +50,8 @@ class Solution(object):
                 helper(left + 1, right - 1)
         helper(0, n - 1)
         return res
-```
-```python3 []
+// ```
+// ```python3 []
 class Solution:
     def findStrobogrammatic(self, n: int) -> List[str]:
         def helper(left, right, tmp = [None] * n, res = tuple()):
@@ -62,4 +62,4 @@ class Solution:
                 res += helper(left + 1, right - 1)
             return res
         return helper(0, n - 1)
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-可以将新石头重量直接插入到数组中合适的位置，与冒泡排序相比可以省去一些冗余的操作。。
-可代码写得太烂,就这样吧。。。
+// ### 解题思路
+// 可以将新石头重量直接插入到数组中合适的位置，与冒泡排序相比可以省去一些冗余的操作。。
+// 可代码写得太烂,就这样吧。。。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lastStoneWeight(int* stones, int stonesSize){
     if(stonesSize <= 1) return *stones;
     
@@ -22,4 +22,4 @@ int lastStoneWeight(int* stones, int stonesSize){
     }
     return *stones;
 }
-```
+// ```

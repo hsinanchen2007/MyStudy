@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         return solve(preorder, inorder, 0, 0, preorder.length-1);
@@ -21,5 +21,5 @@ class Solution {
         return root;
     }
 }
-```
-思路：从中序遍历中找到根节点，之后缩小遍历范围，下一层的根可以根据当前根在中序中和前序中的位置来确定
+// ```
+// 思路：从中序遍历中找到根节点，之后缩小遍历范围，下一层的根可以根据当前根在中序中和前序中的位置来确定

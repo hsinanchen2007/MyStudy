@@ -1,7 +1,7 @@
-利用ES6中数组的reduce方法，先在构造函数WordsFrequency里统计好book中各单词出现的频率，然后存入哈希表并挂在this上面，prototype属性的get方法，直接从哈希表找到word对应单词出现的频率，未出现过的单词直接返回0。
+// 利用ES6中数组的reduce方法，先在构造函数WordsFrequency里统计好book中各单词出现的频率，然后存入哈希表并挂在this上面，prototype属性的get方法，直接从哈希表找到word对应单词出现的频率，未出现过的单词直接返回0。
 
 
-```javascript []
+// ```javascript []
 /**
  * @param {string[]} book
  */
@@ -26,4 +26,4 @@ WordsFrequency.prototype.get = function (word) {
  * var obj = new WordsFrequency(book)
  * var param_1 = obj.get(word)
  */
-```
+// ```

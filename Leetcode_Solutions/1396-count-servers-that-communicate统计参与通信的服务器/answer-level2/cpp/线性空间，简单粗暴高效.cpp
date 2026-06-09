@@ -1,6 +1,6 @@
-只需要同行或者同列服务器数目大于1，那么当前位置的服务器一定拥有联通的机器
+// 只需要同行或者同列服务器数目大于1，那么当前位置的服务器一定拥有联通的机器
 
-```c++
+// ```c++
 class Solution {
 public:
     int countServers(vector<vector<int>>& grid) {
@@ -22,5 +22,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

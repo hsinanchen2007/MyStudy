@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int time2int(const string& time) {
@@ -38,4 +38,4 @@ public:
         return string(res);
     }
 };
-```
+// ```

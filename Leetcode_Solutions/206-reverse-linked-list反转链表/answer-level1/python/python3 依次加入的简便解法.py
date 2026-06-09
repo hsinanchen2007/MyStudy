@@ -1,9 +1,9 @@
-### 解题思路
-对于原来的head而言，我们从前往后依次获取元素。对于新的head而言，我们依次将新的元素添加到头部并更新头部的信息
+# ### 解题思路
+# 对于原来的head而言，我们从前往后依次获取元素。对于新的head而言，我们依次将新的元素添加到头部并更新头部的信息
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
             new_head = head
             head = next_head
         return new_head
-```
+# ```

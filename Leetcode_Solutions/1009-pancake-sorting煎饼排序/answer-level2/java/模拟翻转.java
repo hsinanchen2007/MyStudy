@@ -1,11 +1,11 @@
-### 解题思路
-模拟先把最大的值翻到最前面，再翻转到对应位置，迭代A.length-1次可以完成。
+// ### 解题思路
+// 模拟先把最大的值翻到最前面，再翻转到对应位置，迭代A.length-1次可以完成。
 
-![图片.png](https://pic.leetcode-cn.com/2cb0fba733e1cfff34f39ecce218ff38edb44ba828b76929915ece25c0c73cc6-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/2cb0fba733e1cfff34f39ecce218ff38edb44ba828b76929915ece25c0c73cc6-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> pancakeSort(int[] A) {
         List<Integer> result = new ArrayList<>();
@@ -39,4 +39,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-方法1：简单易懂
+// 方法1：简单易懂
 
-`思路：在链表元素个数>1的情况下，先将链表的前两个结点反转，再将后面剩余的结点逐个添加到首端。`
+// `思路：在链表元素个数>1的情况下，先将链表的前两个结点反转，再将后面剩余的结点逐个添加到首端。`
 
 
 
-```
+// ```
 
 struct ListNode* reverseList(struct ListNode* head){
     if (head == NULL || head -> next == NULL)//空链表或只有一个结点的链表
@@ -22,10 +22,10 @@ struct ListNode* reverseList(struct ListNode* head){
     return p;
 }
 
-```
-方法2：
+// ```
+// 方法2：
 
-```
+// ```
 
 struct ListNode* reverseList(struct ListNode* head){
     struct ListNode *pre = NULL, *nex;//pre表示新表的首结点，初始化为NULL,使新表尾端指向空，nex记录顺序遍历的下一结点
@@ -38,12 +38,12 @@ struct ListNode* reverseList(struct ListNode* head){
     return pre;//返回新表首结点
 }
 
-```
+// ```
 
-方法3：
+// 方法3：
 
-`思路：第2个节点到第n个节点，依次逐节点插入到第1个节点(head节点)之后，(n-1)次这样的操作结束之后将首节点挪到新表的表尾即可。`
-```
+// `思路：第2个节点到第n个节点，依次逐节点插入到第1个节点(head节点)之后，(n-1)次这样的操作结束之后将首节点挪到新表的表尾即可。`
+// ```
 struct ListNode* reverseList(struct ListNode* head){
     if (head == NULL || head -> next == NULL)
         return head;
@@ -62,10 +62,10 @@ struct ListNode* reverseList(struct ListNode* head){
     return head;
 }
 
-```
-方法4：
+// ```
+// 方法4：
 
-```
+// ```
 struct ListNode* reverseList(struct ListNode* head){
     if (head == NULL || head -> next == NULL)
         return head;
@@ -81,12 +81,12 @@ struct ListNode* reverseList(struct ListNode* head){
     }
     return front -> next;
 }
-```
+// ```
 
-方法5：递归
+// 方法5：递归
 
-自己还不能深刻理解递归，这里只是提供别人的方法。望指点！
-```
+// 自己还不能深刻理解递归，这里只是提供别人的方法。望指点！
+// ```
 
 struct ListNode* reverseList(struct ListNode* head){
     if (head == NULL)
@@ -99,6 +99,6 @@ struct ListNode* reverseList(struct ListNode* head){
     return newHead;
 }
 
-```
+// ```
 
 

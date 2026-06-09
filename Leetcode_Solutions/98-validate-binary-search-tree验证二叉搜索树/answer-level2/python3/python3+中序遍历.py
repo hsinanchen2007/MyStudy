@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历，比较排序后的数组和原数组是否一样，以及有没有相同的元素
+# ### 解题思路
+# 中序遍历，比较排序后的数组和原数组是否一样，以及有没有相同的元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
         return sorted(ans) == ans and len(set(ans)) == len(ans)
             
             
-```
+# ```

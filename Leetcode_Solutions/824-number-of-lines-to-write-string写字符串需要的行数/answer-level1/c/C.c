@@ -1,9 +1,9 @@
-### 解题思路
-暴力解决
+// ### 解题思路
+// 暴力解决
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -30,4 +30,4 @@ int* numberOfLines(int* widths, int widthsSize, char * S, int* returnSize){
     arr[1] = width;
     return arr;
 }
-```
+// ```

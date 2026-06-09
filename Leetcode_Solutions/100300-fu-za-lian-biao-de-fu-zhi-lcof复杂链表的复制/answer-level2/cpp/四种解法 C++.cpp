@@ -1,4 +1,4 @@
-```
+// ```
 // 双O(n)迭代
 class Solution {
 public:
@@ -19,9 +19,9 @@ public:
       return visited[head];
     }
 };
-```
+// ```
 
-```
+// ```
 // O(N),O(1)迭代
 class Solution {
 public:
@@ -55,9 +55,9 @@ public:
         return newhead;
     }
 };
-```
+// ```
 
-```
+// ```
 // dfs解法
 class Solution {
 public:
@@ -72,9 +72,9 @@ public:
         return copy;
     }
 };
-```
+// ```
 
-```
+// ```
 // bfs解法
 class Solution {
 public:
@@ -102,7 +102,7 @@ public:
         return pre;
     }
 };
-```
+// ```
 
 
 

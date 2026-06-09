@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
         # [1, 2], [2, 7], [3, 5], [4, 6]
@@ -19,4 +19,4 @@ class Solution:
             elif b < endB:
                 endA, endB = a, b
         return len(intervals) - res
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-1. 将数字的出现次数存成一个数组
-2. 求这个数组的最大公约数
-3. 判断公约数是否大于等于2
+// ### 解题思路
+// 1. 将数字的出现次数存成一个数组
+// 2. 求这个数组的最大公约数
+// 3. 判断公约数是否大于等于2
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -35,4 +35,4 @@ var hasGroupsSizeX = function(deck) {
       while (arr.length > 1) arr.splice(0,2,gcd(arr[0],arr[1]));
       return arr[0] > 1;
 };
-```
+// ```

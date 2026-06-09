@@ -1,9 +1,9 @@
-### 解题思路
-利用最大公约数来完成
+// ### 解题思路
+// 利用最大公约数来完成
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func gcdOfStrings(_ str1: String, _ str2: String) -> String {
         if (str1 + str2 == str2 + str1) {
@@ -20,4 +20,4 @@ class Solution {
         }
     }
 }
-```
+// ```

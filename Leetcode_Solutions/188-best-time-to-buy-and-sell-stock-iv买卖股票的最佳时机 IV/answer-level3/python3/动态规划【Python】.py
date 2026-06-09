@@ -1,8 +1,8 @@
-### 思路
+# ### 思路
 
-**动态规划**
+# **动态规划**
 
-```
+# ```
 找到状态方程
 
 dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
@@ -17,13 +17,13 @@ dp[-1][k][1] = dp[i][k][1] = -inf
 
 k 如果超过 n/2，就当作是 inf 来处理。
 k 如果没有超过 n/2，就列举出 k 的值。
-```
+# ```
 
-**空间复杂度:** O(1)
+# **空间复杂度:** O(1)
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         n = len(prices)
@@ -55,12 +55,12 @@ class Solution:
                 dp[i][j][1] = max(dp[i-1][j][1], dp[i-1][j-1][0] - prices[i])
         
         return dp[n-1][k][0]
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0188-Best-Time-to-Buy-and-Sell-Stock-IV/0188.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0188-Best-Time-to-Buy-and-Sell-Stock-IV/0188.py)
 
-### 参考
+# ### 参考
 
-[一个方法团灭 6 道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/)
+# [一个方法团灭 6 道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/)

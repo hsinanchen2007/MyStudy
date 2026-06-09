@@ -1,15 +1,15 @@
-### 复杂度分析
-时间复杂度：O(logn)
-空间复杂度：O(1)
+// ### 复杂度分析
+// 时间复杂度：O(logn)
+// 空间复杂度：O(1)
 
-### 解题思路
-根据题意，
-缺失元素之前的元素与下标一一对应；
-之后的元素是下标加一后的值
+// ### 解题思路
+// 根据题意，
+// 缺失元素之前的元素与下标一一对应；
+// 之后的元素是下标加一后的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         return binaryFind(nums, 0, nums.length - 1);
@@ -31,4 +31,4 @@ class Solution {
         return binaryFind(nums, start, mid - 1);
     }
 }
-```
+// ```

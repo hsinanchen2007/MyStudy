@@ -1,9 +1,9 @@
-### 解题思路
-学习了sorted多次排序。膜拜大佬。
+# ### 解题思路
+# 学习了sorted多次排序。膜拜大佬。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reorderLogFiles(self, logs: List[str]) -> List[str]:
         digs, ltrs, iltrs = [], [], {}
@@ -41,4 +41,4 @@ class Solution:
         #     resAlpha.append(' '.join(item))
    
         # return resAlpha + num
-```
+# ```

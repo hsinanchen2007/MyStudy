@@ -1,8 +1,8 @@
-### 解题思路
-C + DFS 无话可说
-### 代码
+// ### 解题思路
+// C + DFS 无话可说
+// ### 代码
 
-```c
+// ```c
 
 void func(int** rooms,int k, int* tmp, int* roomsColSizes)
 {
@@ -30,4 +30,4 @@ bool canVisitAllRooms(int** rooms, int roomsRowSize, int *roomsColSizes)
     }
     return true;
 }
-```
+// ```

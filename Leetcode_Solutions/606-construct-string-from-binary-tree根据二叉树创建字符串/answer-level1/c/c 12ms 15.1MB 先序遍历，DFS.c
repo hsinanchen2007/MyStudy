@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：先序遍历
@@ -123,4 +123,4 @@ char * tree2str( struct TreeNode * t ){
     return buffer;
 
 }
-```
+// ```

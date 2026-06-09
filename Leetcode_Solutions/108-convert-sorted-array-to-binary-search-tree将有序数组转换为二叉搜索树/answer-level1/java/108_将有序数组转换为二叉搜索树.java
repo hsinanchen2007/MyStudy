@@ -1,7 +1,7 @@
-1. 方法1：传入数组，递归
-2. 方法2：传入下标，递归。`int mid = l + ((r - l) >> 1)`，使用`(r + l) / 2`有溢出风险
+// 1. 方法1：传入数组，递归
+// 2. 方法2：传入下标，递归。`int mid = l + ((r - l) >> 1)`，使用`(r + l) / 2`有溢出风险
 
-```java
+// ```java
 // 方法1
 public class SortedArrayToBST {
     public class TreeNode {
@@ -29,9 +29,9 @@ public class SortedArrayToBST {
         return boot;
     }
 }
-```
+// ```
 
-```java
+// ```java
 // 方法2
 public class SortedArrayToBST_2 {
     public class TreeNode {
@@ -62,4 +62,4 @@ public class SortedArrayToBST_2 {
         return buildTree(0, nums.length - 1);
     }
 }
-```
+// ```

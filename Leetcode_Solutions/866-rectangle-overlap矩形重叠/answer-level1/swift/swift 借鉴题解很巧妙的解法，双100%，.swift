@@ -1,5 +1,5 @@
    
-    从相反的角度去考虑,整理出两个矩形不重叠的四种情况,分别为rec1在rec2的左上右下,满足不重叠
+//     从相反的角度去考虑,整理出两个矩形不重叠的四种情况,分别为rec1在rec2的左上右下,满足不重叠
 ![WechatIMG50.jpeg](https://pic.leetcode-cn.com/b32d7449237038cf93e7269e60ee8cd73f11d7de6909e4b211c5c4b12ba017e1-WechatIMG50.jpeg)
 
 

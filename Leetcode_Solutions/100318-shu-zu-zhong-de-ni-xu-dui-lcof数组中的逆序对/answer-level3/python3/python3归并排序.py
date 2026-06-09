@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def reversePairs(self, nums: List[int]) -> int:
         count = 0
@@ -40,4 +40,4 @@ class Solution:
         mergeSort(nums,0,len(nums)-1)
         return count
 
-```
+# ```

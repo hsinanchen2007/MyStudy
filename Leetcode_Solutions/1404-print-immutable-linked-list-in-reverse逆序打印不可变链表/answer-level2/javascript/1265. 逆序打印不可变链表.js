@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-递归到最后一个链表节点开始打印即可
+// 递归到最后一个链表节点开始打印即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * // This is the ImmutableListNode's API interface.
  * // You should not implement it, or speculate about its implementation.
@@ -32,4 +32,4 @@ var printLinkedListInReverse = function(head) {
     printLinkedListInReverse(head.getNext())
     head.printValue()
 };
-```
+// ```

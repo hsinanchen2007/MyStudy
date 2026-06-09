@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-顺序读取链表中的值，存入数组中，创建新数组，将数组倒序存入新数组中。
-returnSize是最终返回数据的长度
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 顺序读取链表中的值，存入数组中，创建新数组，将数组倒序存入新数组中。
+// returnSize是最终返回数据的长度
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ int* reversePrint(struct ListNode* head, int* returnSize){
     return realOut;
 
 }
-```
+// ```

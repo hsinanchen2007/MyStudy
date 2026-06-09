@@ -1,9 +1,9 @@
-### 解题思路
-升序排序返回前k个数即可
+// ### 解题思路
+// 升序排序返回前k个数即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -14,4 +14,4 @@ var getLeastNumbers = function(arr, k) {
 
 
 };
-```
+// ```

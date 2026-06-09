@@ -1,17 +1,17 @@
-### 解题思路
-方法一：
-反转链表法：
-1.反转链表
-2.存入数组
-3.恢复原链表
+// ### 解题思路
+// 方法一：
+// 反转链表法：
+// 1.反转链表
+// 2.存入数组
+// 3.恢复原链表
 
-运行结果：
-![image.png](https://pic.leetcode-cn.com/ef00e14fa7d9f3945f084392f54cca6592b8a87b61f47d8fbb7fd97064e835b2-image.png)
+// 运行结果：
+// ![image.png](https://pic.leetcode-cn.com/ef00e14fa7d9f3945f084392f54cca6592b8a87b61f47d8fbb7fd97064e835b2-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -81,4 +81,4 @@ int* reversePrint(struct ListNode* head, int* returnSize){
     *returnSize = iLength;
     return piArrayHead;
 }
-```
+// ```

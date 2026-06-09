@@ -1,10 +1,10 @@
 
-### 解题思路
-直接上代码
+// ### 解题思路
+// 直接上代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int orangesRotting(int** grid, int gridSize, int* gridColSize){
     bool unchanged = true;
     bool hasFresh = false;
@@ -40,4 +40,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
     int steps = orangesRotting(grid, gridSize, gridColSize);
     return steps == -1 ? -1 : steps + 1;
 }
-```
+// ```

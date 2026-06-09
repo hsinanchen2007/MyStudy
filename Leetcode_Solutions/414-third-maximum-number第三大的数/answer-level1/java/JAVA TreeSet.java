@@ -1,4 +1,4 @@
-```
+// ```
 public int thirdMax(int[] nums) {
         Set<Integer> set=new TreeSet<>();
         int max=0;
@@ -14,4 +14,4 @@ public int thirdMax(int[] nums) {
         }
         return sz==3?iterator.next():max;
     }
-```
+// ```

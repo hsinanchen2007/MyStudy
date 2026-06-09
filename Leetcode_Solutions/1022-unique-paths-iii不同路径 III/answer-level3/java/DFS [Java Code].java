@@ -1,9 +1,9 @@
-### 解题思路
-普通的dfs 深搜， 感觉不像是个hard难度的题
+// ### 解题思路
+// 普通的dfs 深搜， 感觉不像是个hard难度的题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     private int count = 0;
@@ -60,4 +60,4 @@ class Solution {
         }
     }
 }
-```
+// ```

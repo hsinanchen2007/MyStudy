@@ -1,8 +1,8 @@
-### 解题思路
-旋转90度 = 先沿着左对角线对折，然后再进行中间对折
-### 代码
+// ### 解题思路
+// 旋转90度 = 先沿着左对角线对折，然后再进行中间对折
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int sequal  = matrixSize -1;
     if( matrixSize == 1) {
@@ -27,4 +27,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         }
     }
 }
-```
+// ```

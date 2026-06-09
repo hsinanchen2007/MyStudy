@@ -1,5 +1,5 @@
-1. 先用rank和开窗函数进行组内工资降序排序
-2. 然后选出rank=1的员工
+-- 1. 先用rank和开窗函数进行组内工资降序排序
+-- 2. 然后选出rank=1的员工
 select
     t1.D Department ,
     t1.E Employee ,

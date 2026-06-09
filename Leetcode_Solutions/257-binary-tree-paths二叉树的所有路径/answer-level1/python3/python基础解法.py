@@ -1,10 +1,10 @@
-### 解题思路
-1. 迭代，利用栈来迭代（宽度搜索优先）遍历树节点
-2. 递归，利用递归来遍历树节点
+# ### 解题思路
+# 1. 迭代，利用栈来迭代（宽度搜索优先）遍历树节点
+# 2. 递归，利用递归来遍历树节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -43,4 +43,4 @@ class Solution:
         construct_paths(root, '')
         return paths
 
-```
+# ```

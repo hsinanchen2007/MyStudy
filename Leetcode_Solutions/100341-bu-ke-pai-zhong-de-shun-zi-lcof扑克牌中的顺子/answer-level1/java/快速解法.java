@@ -1,10 +1,10 @@
-### 解题思路
-1. 除0外，如果有重复则返回false
-2. 除0外，如果最大值-最小值<=4，那么返回true，否则返回false
+// ### 解题思路
+// 1. 除0外，如果有重复则返回false
+// 2. 除0外，如果最大值-最小值<=4，那么返回true，否则返回false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private static final int paperNumber = 5;
     public boolean isStraight(int[] nums) {
@@ -25,4 +25,4 @@ class Solution {
         return min == 0 || max - min <= 4 ? true : false;
     }
 }
-```
+// ```

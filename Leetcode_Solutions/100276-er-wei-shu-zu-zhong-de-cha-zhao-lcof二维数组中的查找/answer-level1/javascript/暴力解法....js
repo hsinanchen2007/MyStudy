@@ -1,9 +1,9 @@
-### 解题思路
-遍历一遍。。
+// ### 解题思路
+// 遍历一遍。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -31,4 +31,4 @@ var findNumberIn2DArray = function(matrix, target) {
     }
     return false
 };
-```
+// ```

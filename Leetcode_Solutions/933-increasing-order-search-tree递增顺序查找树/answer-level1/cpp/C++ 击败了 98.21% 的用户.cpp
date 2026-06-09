@@ -1,5 +1,5 @@
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     TreeNode* cur;
@@ -19,4 +19,4 @@ public:
         changeTheConnection(root->right);
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 //构造栈
 type Stack struct{
     data []*TreeNode
@@ -46,4 +46,4 @@ func preorderTraversal(root *TreeNode) []int {
     }
     return res
 }
-```
+// ```

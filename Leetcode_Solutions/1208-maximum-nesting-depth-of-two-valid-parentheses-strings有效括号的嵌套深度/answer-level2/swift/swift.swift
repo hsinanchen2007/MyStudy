@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
 func maxDepthAfterSplit(_ seq: String) -> [Int] {
     var depth = 0
@@ -21,4 +21,4 @@ func maxDepthAfterSplit(_ seq: String) -> [Int] {
 }
 
 }
-```
+// ```

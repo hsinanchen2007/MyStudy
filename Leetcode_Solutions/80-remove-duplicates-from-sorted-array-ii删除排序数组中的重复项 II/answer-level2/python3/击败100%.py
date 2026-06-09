@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         n1,n2 = 0,0
@@ -19,4 +19,4 @@ class Solution:
                     n2 += 1
                     n1 += 1
         return(len(nums))
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minDepth(self, root: TreeNode) -> int:
         if root is None:
@@ -19,5 +19,5 @@ class Solution:
                             if depth < ret or ret < 0:
                                 ret = depth
             return ret
-```
-bfs+队列
+# ```
+# bfs+队列

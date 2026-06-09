@@ -1,4 +1,4 @@
-```
+// ```
 char * dayOfTheWeek( int day , int month , int year ){
 
     if( month == 1 || month == 2 ){
@@ -57,4 +57,4 @@ char * dayOfTheWeek( int day , int month , int year ){
     return "";
 
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def partition(self, s: str):
         # 动态规划
@@ -24,4 +24,4 @@ class Solution:
                             r.append(temp + [s[start:end + 1]])
             hashmap[s[:end + 1]] = r
         return hashmap[s]
-```
+# ```

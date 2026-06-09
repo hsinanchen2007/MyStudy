@@ -1,13 +1,13 @@
-### 解题思路
-1.统计数字频率，自然想到Map
-2.Top K 问题，自然想到小顶堆
-3.小顶堆里面存的是key，但是排序按value来，所以重写了Comparator方法
-4.比较的时候注意是和value比。即：
-(Integer) entry.getValue() > map.get(priorityQueue.peek())
+// ### 解题思路
+// 1.统计数字频率，自然想到Map
+// 2.Top K 问题，自然想到小顶堆
+// 3.小顶堆里面存的是key，但是排序按value来，所以重写了Comparator方法
+// 4.比较的时候注意是和value比。即：
+// (Integer) entry.getValue() > map.get(priorityQueue.peek())
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -38,4 +38,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

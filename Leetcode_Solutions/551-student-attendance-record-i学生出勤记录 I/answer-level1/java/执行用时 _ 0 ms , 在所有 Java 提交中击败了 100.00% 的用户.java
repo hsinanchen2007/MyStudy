@@ -1,11 +1,11 @@
-### 解题思路
-判断A出现次数
-若满足再判断字符串S中是否有"LLL"
-若有则不成立
+// ### 解题思路
+// 判断A出现次数
+// 若满足再判断字符串S中是否有"LLL"
+// 若有则不成立
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkRecord(String s) {
         int count =0;//记录A出现的次数
@@ -21,4 +21,4 @@ class Solution {
 		return false;
     }
 }
-```
+// ```

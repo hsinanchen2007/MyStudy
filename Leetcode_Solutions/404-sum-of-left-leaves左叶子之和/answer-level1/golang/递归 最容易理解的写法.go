@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -25,4 +25,4 @@ func sumOfLeftLeaves(root *TreeNode) int {
 	return sumOfLeftLeaves(root.Left) + sumOfLeftLeaves(root.Right)
 }
 
-```
+// ```

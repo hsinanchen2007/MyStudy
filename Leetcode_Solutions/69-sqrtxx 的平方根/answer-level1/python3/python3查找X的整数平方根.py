@@ -1,5 +1,5 @@
-首先找出平方根的上下界，接着使用二分搜索整数平凡根。
-```
+# 首先找出平方根的上下界，接着使用二分搜索整数平凡根。
+# ```
 class Solution:
     def mySqrt(self, x: int) -> int:
         if x==0:
@@ -17,4 +17,4 @@ class Solution:
             else:
                 return c
         return a   
-```
+# ```

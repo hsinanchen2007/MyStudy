@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numDistinctIslands(self, grid: List[List[int]]) -> int:
         def dfs(x, y, pos, rel_pos):
@@ -24,4 +24,4 @@ class Solution:
                     dfs(x, y, pos, (0, 0))
                     shapes.add(tuple(pos))
         return len(shapes)
-```
+# ```

@@ -1,25 +1,25 @@
-## 思路:
+// ## 思路:
 
-这道题难点,就是如何找到那个旋转点?
+// 这道题难点,就是如何找到那个旋转点?
 
-比如示例1,`1->2->3->4->5->NULL, k = 2` ,我们要找到`3`这个值,只要把它下一位为空,将下面一段链表和它这段链表连接起来就行了!
+// 比如示例1,`1->2->3->4->5->NULL, k = 2` ,我们要找到`3`这个值,只要把它下一位为空,将下面一段链表和它这段链表连接起来就行了!
 
 
-![Snipaste_2019-05-23_15-15-28.png](https://pic.leetcode-cn.com/d75db4d5b9b5b69d80114c2af31dcdcc4a18539ade0255251869253363dbe79e-Snipaste_2019-05-23_15-15-28.png)
+// ![Snipaste_2019-05-23_15-15-28.png](https://pic.leetcode-cn.com/d75db4d5b9b5b69d80114c2af31dcdcc4a18539ade0255251869253363dbe79e-Snipaste_2019-05-23_15-15-28.png)
 
-按照题目的意思是向右移动`2位`,换句话说, 以`3`作为链表头,把它前面的链表连在它后面!现在问题就是如何找`3`,我们发现`链表的个数-k`就是从链表头到`3`位置.
+// 按照题目的意思是向右移动`2位`,换句话说, 以`3`作为链表头,把它前面的链表连在它后面!现在问题就是如何找`3`,我们发现`链表的个数-k`就是从链表头到`3`位置.
 
-还有一个问题,就是如果`k = 6`其实就是相等于`k=1`;所以我们要防止循环.
+// 还有一个问题,就是如果`k = 6`其实就是相等于`k=1`;所以我们要防止循环.
 
-问题变成了,1. 求链表长度;2. 找 `num - num % k`的位置
+// 问题变成了,1. 求链表长度;2. 找 `num - num % k`的位置
 
-代码1 没有借用`dummy`,相对于代码2 更容易理解一点!
+// 代码1 没有借用`dummy`,相对于代码2 更容易理解一点!
 
-## 代码:
+// ## 代码:
 
-代码1:
+// 代码1:
 
-```python [1]
+// ```python [1]
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -51,11 +51,11 @@ class Solution:
             p = p.next
         p.next = head
         return head1
-```
+// ```
 
-代码2:
+// 代码2:
 
-```python [2]
+// ```python [2]
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -88,11 +88,11 @@ class Solution:
         p2.next = None
         
         return dummy.next
-```
+// ```
 
 
 
-```java [2]
+// ```java [2]
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null || head.next == null) return head;
@@ -120,5 +120,5 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```
 

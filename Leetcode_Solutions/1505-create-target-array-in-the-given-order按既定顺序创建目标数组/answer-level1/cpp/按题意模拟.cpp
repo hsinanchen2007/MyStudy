@@ -1,8 +1,8 @@
-简单题，照做就好了
+// 简单题，照做就好了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> createTargetArray(vector<int>& nums, vector<int>& index) {
@@ -14,4 +14,4 @@ public:
     	return ans;
     }
 };
-```
+// ```

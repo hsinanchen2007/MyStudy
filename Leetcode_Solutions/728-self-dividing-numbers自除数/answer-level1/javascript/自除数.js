@@ -1,6 +1,6 @@
-*法一：暴力挨个判断*
+// *法一：暴力挨个判断*
 
-```js
+// ```js
 /**
  * @param {number} left
  * @param {number} right
@@ -36,11 +36,11 @@ var selfDividingNumbers = function(left, right) {
 var left = 1;
 var right = 22;
 console.log(selfDividingNumbers(left, right));
-```
+// ```
 
-*法二：优化法一*
+// *法二：优化法一*
 
-```js
+// ```js
 var selfDividingNumbers = function (left, right) {
     let arr = [];
     for(let i = left; i <= right; i++) {
@@ -61,5 +61,5 @@ var selfDividingNumbers = function (left, right) {
     }
     return arr
 };
-```
+// ```
 

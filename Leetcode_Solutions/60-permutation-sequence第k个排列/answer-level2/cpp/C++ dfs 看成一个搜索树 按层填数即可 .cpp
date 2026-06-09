@@ -1,4 +1,4 @@
-```
+// ```
     string ans;
     //填写第u层时(初始为第n层)的第k个排列 该层需要填的数 d为当前层可以填的数 f为阶乘常量
     void dfs(int u, int k, vector<int> &d, vector<int> &f){
@@ -17,4 +17,4 @@
         dfs(n,k,d,f);
         return ans;
     }
-```
+// ```

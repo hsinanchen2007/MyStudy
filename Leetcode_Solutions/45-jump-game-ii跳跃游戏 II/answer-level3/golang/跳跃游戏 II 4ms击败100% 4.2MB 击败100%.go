@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-贪婪
-1. 都按照大的跳跃
-2. 如果当前i的覆盖区间 可以覆盖 [preLen,maxLen],就说明i可以完全替代i-1节点
+// 贪婪
+// 1. 都按照大的跳跃
+// 2. 如果当前i的覆盖区间 可以覆盖 [preLen,maxLen],就说明i可以完全替代i-1节点
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func jump(nums []int) int {
 	for i := range nums {
 		nums[i] = i + nums[i]
@@ -51,4 +51,4 @@ func minSteps(nums []int) int {
 	return steps
 }
 
-```
+// ```

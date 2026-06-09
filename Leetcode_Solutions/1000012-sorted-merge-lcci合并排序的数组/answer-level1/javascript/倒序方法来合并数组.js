@@ -1,9 +1,9 @@
-### 解题思路
- 倒序，从后向前进行遍历
+// ### 解题思路
+//  倒序，从后向前进行遍历
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} m
@@ -38,4 +38,4 @@ var merge = function(A, m, B, n) {
 
     return A;
 };
-```
+// ```

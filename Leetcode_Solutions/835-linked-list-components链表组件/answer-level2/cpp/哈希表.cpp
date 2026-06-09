@@ -1,12 +1,12 @@
-### 解题思路
-利用哈希表储存G中的值，节约寻找时间。遍历时附加一个状态值flag，表示前一个结点值是否为G集合中的值，flag由0到1时需要返回结果需要自增。
-![捕获.PNG](https://pic.leetcode-cn.com/6d058273ff3f936a347a90ddc631366f1942e8f21e2c33c3daa11b7579269d03-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 利用哈希表储存G中的值，节约寻找时间。遍历时附加一个状态值flag，表示前一个结点值是否为G集合中的值，flag由0到1时需要返回结果需要自增。
+// ![捕获.PNG](https://pic.leetcode-cn.com/6d058273ff3f936a347a90ddc631366f1942e8f21e2c33c3daa11b7579269d03-%E6%8D%95%E8%8E%B7.PNG)
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -38,4 +38,4 @@ public:
         return num;
     }
 };
-```
+// ```

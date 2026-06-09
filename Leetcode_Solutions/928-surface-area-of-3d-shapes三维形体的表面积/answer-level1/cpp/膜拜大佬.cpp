@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-参考：https://leetcode-cn.com/problems/surface-area-of-3d-shapes/solution/shi-li-you-tu-you-zhen-xiang-jiang-jie-yi-kan-jiu-/
+// ### 解题思路
+// 此处撰写解题思路
+// 参考：https://leetcode-cn.com/problems/surface-area-of-3d-shapes/solution/shi-li-you-tu-you-zhen-xiang-jiang-jie-yi-kan-jiu-/
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int min(int a,int b){
@@ -29,4 +29,4 @@ public:
     }
 };
 参考：https://leetcode-cn.com/problems/surface-area-of-3d-shapes/solution/shi-li-you-tu-you-zhen-xiang-jiang-jie-yi-kan-jiu-/
-```
+// ```

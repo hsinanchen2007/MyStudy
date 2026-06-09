@@ -1,11 +1,11 @@
-### 解题思路
-将node->next的值赋给node,然后将node指向下下个节点。
+// ### 解题思路
+// 将node->next的值赋给node,然后将node指向下下个节点。
 
-如果代码有问题，欢迎在评论区指出。
-如果感到有帮助，欢迎点赞😊。
-### 代码
+// 如果代码有问题，欢迎在评论区指出。
+// 如果感到有帮助，欢迎点赞😊。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -21,4 +21,4 @@ public:
         node->next=node->next->next;
     }
 };
-```
+// ```

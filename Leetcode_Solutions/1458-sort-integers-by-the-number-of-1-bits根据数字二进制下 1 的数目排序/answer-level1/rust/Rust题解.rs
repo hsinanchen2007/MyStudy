@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn sort_by_bits(arr: Vec<i32>) -> Vec<i32> {
         let mut arr = arr;
@@ -7,5 +7,5 @@ impl Solution {
         arr
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

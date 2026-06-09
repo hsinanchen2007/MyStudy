@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def shortestToChar(self, S: str, C: str) -> List[int]:
         segments = S.split(C)
@@ -10,4 +10,4 @@ class Solution:
             res.extend(tmp)
         res.extend([i for i in range(1, len(ed_seg)+1)])
         return res
-```
+# ```

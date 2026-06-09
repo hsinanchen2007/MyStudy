@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public: 
     int bitLen(int n) {
@@ -28,6 +28,6 @@ public:
         return false;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/56fa492d3ecec05ecac1f68afd5736232329938c0fe9b8449955d5f3d511ae8d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/56fa492d3ecec05ecac1f68afd5736232329938c0fe9b8449955d5f3d511ae8d-image.png)

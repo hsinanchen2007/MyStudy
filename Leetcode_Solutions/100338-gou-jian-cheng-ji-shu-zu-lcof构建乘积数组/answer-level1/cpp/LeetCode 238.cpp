@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> constructArr(vector<int>& a) {
@@ -29,4 +29,4 @@ public:
         return output;
     }
 };
-```
+// ```

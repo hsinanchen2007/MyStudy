@@ -1,13 +1,13 @@
-**定义**
-n:第n行
-m:第m列
-f(n,m):到第n行、第m列最小路径和
-x:三角型数组
-**状态转移方程**
-f(0,0) = x[0][0]
-f(n,m) = min(f(n-1, m), f(n-1, m-1)) n>0,m>=0
-**代码**
-```
+// **定义**
+// n:第n行
+// m:第m列
+// f(n,m):到第n行、第m列最小路径和
+// x:三角型数组
+// **状态转移方程**
+// f(0,0) = x[0][0]
+// f(n,m) = min(f(n-1, m), f(n-1, m-1)) n>0,m>=0
+// **代码**
+// ```
 func minimumTotal(triangle [][]int) int {
     if len(triangle) == 0 {
         return 0
@@ -52,4 +52,4 @@ func minimumTotal(triangle [][]int) int {
     
     return small
 }
-```
+// ```

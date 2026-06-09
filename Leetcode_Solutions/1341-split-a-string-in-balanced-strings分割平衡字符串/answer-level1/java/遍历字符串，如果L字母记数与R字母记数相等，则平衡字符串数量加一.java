@@ -1,9 +1,9 @@
-### 解题思路
-遍历字符串，如果L字母记数与R字母记数相等，则平衡字符串数量加一
+// ### 解题思路
+// 遍历字符串，如果L字母记数与R字母记数相等，则平衡字符串数量加一
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int balancedStringSplit(String s) {
         // L字母记数
@@ -27,4 +27,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

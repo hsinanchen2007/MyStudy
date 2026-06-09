@@ -1,5 +1,5 @@
-获取推文列表使用了SplPriorityQueue类创建优先队列，timestamp作为优先级，取10条数据。
-```
+// 获取推文列表使用了SplPriorityQueue类创建优先队列，timestamp作为优先级，取10条数据。
+// ```
 class Twitter {
     /**
      * Initialize your data structure here.
@@ -70,4 +70,4 @@ class Twitter {
         unset($this->followers[$followerId][$followeeId]);
     }
 }
-```
+// ```

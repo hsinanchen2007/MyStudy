@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -52,4 +52,4 @@ return this.queue.length==0
  * var param_3 = obj.peek()
  * var param_4 = obj.empty()
  */
-```
+// ```

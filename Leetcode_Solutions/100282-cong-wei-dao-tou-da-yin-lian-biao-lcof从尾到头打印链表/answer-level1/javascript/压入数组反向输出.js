@@ -1,9 +1,9 @@
-### 解题思路
-将链表的值顺序压入数组，再反向输出
+// ### 解题思路
+// 将链表的值顺序压入数组，再反向输出
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -23,4 +23,4 @@ var reversePrint = function(head) {
     }
     return arr.reverse();
 };
-```
+// ```

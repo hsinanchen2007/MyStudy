@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
  // 判断数组的元素个数是否不小于2
@@ -30,4 +30,4 @@ class Solution {
         return (x > y) ? new int[]{y, x} : new int[]{x, y};
     }
 }
-```
+// ```

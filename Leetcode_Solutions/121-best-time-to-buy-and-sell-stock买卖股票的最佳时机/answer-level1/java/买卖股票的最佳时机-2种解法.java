@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：暴力破解法
+// # 解法一：暴力破解法
 
-时间复杂度是O(n ^ 2)，其中n是prices数组的长度。空间复杂度是O(1)。
+// 时间复杂度是O(n ^ 2)，其中n是prices数组的长度。空间复杂度是O(1)。
 
-执行用时：804ms，击败5.01%。消耗内存：40MB，击败17.51%。
+// 执行用时：804ms，击败5.01%。消耗内存：40MB，击败17.51%。
 
-```java
+// ```java
 public class Solution {
     public int maxProfit(int[] prices) {
         int result = 0;
@@ -21,15 +21,15 @@ public class Solution {
         return result;
     }
 }
-```
+// ```
 
-# 解法二：录[0, x - 1]天的最小值
+// # 解法二：录[0, x - 1]天的最小值
 
-时间复杂度是O(n)，其中n是prices数组的长度。空间复杂度是O(1)。
+// 时间复杂度是O(n)，其中n是prices数组的长度。空间复杂度是O(1)。
 
-执行用时：4ms，击败43.49%。消耗内存：38.3MB，击败51.91%。
+// 执行用时：4ms，击败43.49%。消耗内存：38.3MB，击败51.91%。
 
-```java
+// ```java
 public class Solution {
     public int maxProfit(int[] prices) {
         int result = 0, n = prices.length;
@@ -44,4 +44,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 //中序遍历，判断结果是不是从小到大的
 int max_val = INT_MIN;
 int g_valide = 1;
@@ -38,4 +38,4 @@ bool isValidBST(struct TreeNode* root)
     InOrderTravel_1(root);   //中序排序
     return g_valide;
 }
-```
+// ```

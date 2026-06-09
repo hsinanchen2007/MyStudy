@@ -1,4 +1,4 @@
-```
+// ```
   def isIsomorphic(s: String, t: String): Boolean = {
     val mymap = scala.collection.mutable.Map[Char, Char]()
     val length: Int = s.length
@@ -12,7 +12,7 @@
         else mymap(s(i)) = t(i)
       }
     }
-```
+// ```
 
 
 

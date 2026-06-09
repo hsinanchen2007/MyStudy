@@ -1,6 +1,6 @@
-用字符长度筛选一下，然后再对比
+// 用字符长度筛选一下，然后再对比
 
-```java
+// ```java
 class WordDictionary {
 
     HashMap<Integer, HashSet<String>> l = new HashMap<Integer, HashSet<String>>();
@@ -66,4 +66,4 @@ class WordDictionary {
         w.search("b..");
     }
 }
-```
+// ```

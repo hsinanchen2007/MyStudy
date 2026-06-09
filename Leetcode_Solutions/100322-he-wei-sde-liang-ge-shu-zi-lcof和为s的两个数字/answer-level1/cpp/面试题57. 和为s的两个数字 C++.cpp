@@ -1,9 +1,9 @@
-### 解题思路
-通过hash表
+// ### 解题思路
+// 通过hash表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -25,37 +25,37 @@ public:
         return res;
     }
 };
-```
+// ```
 
-通过双指针
+// 通过双指针
 
-~~~cpp
-class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        int len = nums.size();
-        // 定义两个指针，分别为左指针和右指针，分别指向首尾
-        int left = 0;
-        int right = len - 1;
-        vector<int> res(2, -1);
+// ~~~cpp
+// class Solution {
+// public:
+//     vector<int> twoSum(vector<int>& nums, int target) {
+//         int len = nums.size();
+//         // 定义两个指针，分别为左指针和右指针，分别指向首尾
+//         int left = 0;
+//         int right = len - 1;
+//         vector<int> res(2, -1);
 
-        while(left < right && left >= 0 && right < len){
-            if(nums[left] + nums[right] > target){
-                // 如果两元素之和大于目标值，那么右指针向左移动一位
-                --right;
-            }
-            else if(nums[left] + nums[right] < target){
-                // 如果两数之和小于目标值，那么左指针向右移动一位
-                ++left;
-            }
-            else{
-                // 找到目标
-                res[0] = nums[left];
-                res[1] = nums[right];
-                break;
-            }
-        }
-        return res;
-    }
-};
-~~~
+//         while(left < right && left >= 0 && right < len){
+//             if(nums[left] + nums[right] > target){
+//                 // 如果两元素之和大于目标值，那么右指针向左移动一位
+//                 --right;
+//             }
+//             else if(nums[left] + nums[right] < target){
+//                 // 如果两数之和小于目标值，那么左指针向右移动一位
+//                 ++left;
+//             }
+//             else{
+//                 // 找到目标
+//                 res[0] = nums[left];
+//                 res[1] = nums[right];
+//                 break;
+//             }
+//         }
+//         return res;
+//     }
+// };
+// ~~~

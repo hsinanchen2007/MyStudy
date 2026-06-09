@@ -1,8 +1,8 @@
-### 解题思路
-排序后偶数序号求和
-### 代码
+// ### 解题思路
+// 排序后偶数序号求和
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int ArrayPairSum(int[] nums) {
         Array.Sort(nums);
@@ -13,4 +13,4 @@ public class Solution {
         return res;
     }
 }
-```
+// ```

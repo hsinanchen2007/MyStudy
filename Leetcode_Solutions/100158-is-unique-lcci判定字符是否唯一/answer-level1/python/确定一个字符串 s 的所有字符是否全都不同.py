@@ -1,9 +1,9 @@
-### 解题思路
-依题意，只需判断是否有重复项，无需找出，则直接set去重后与原字符串比较长度即可
+# ### 解题思路
+# 依题意，只需判断是否有重复项，无需找出，则直接set去重后与原字符串比较长度即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isUnique(self, astr):
         """
@@ -14,4 +14,4 @@ class Solution(object):
             return True
         else:
             return False
-```
+# ```

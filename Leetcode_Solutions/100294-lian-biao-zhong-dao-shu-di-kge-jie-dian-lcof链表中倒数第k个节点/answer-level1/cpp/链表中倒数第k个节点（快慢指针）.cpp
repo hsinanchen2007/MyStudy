@@ -1,9 +1,9 @@
-### 解题思路
-典型的快慢指针，一个在前，一个在后
+// ### 解题思路
+// 典型的快慢指针，一个在前，一个在后
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -25,4 +25,4 @@ public: //典型的快慢指针
         return q;
     }
 };
-```
+// ```

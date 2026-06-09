@@ -1,9 +1,9 @@
-### 解题思路
-暴力法
+// ### 解题思路
+// 暴力法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int romanToInt(char * s){
     int i = 0;
     int num;
@@ -74,4 +74,4 @@ int romanToInt(char * s){
     return num;
     
 }
-```
+// ```

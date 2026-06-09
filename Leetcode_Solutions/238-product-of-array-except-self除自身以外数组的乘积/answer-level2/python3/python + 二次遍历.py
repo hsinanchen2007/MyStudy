@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         tempArr = [1] * len(nums)
@@ -11,4 +11,4 @@ class Solution:
             tempArr[i] *= cnt
             cnt = nums[i] * cnt
         return tempArr
-```
+# ```

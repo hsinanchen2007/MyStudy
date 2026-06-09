@@ -1,9 +1,9 @@
-### 解题思路
-参考翻转链表 https://leetcode-cn.com/problems/reverse-linked-list/
+// ### 解题思路
+// 参考翻转链表 https://leetcode-cn.com/problems/reverse-linked-list/
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -51,4 +51,4 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
 
 
 
-```
+// ```

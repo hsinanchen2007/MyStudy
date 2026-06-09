@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def removeDuplicates(self, S):
         """
@@ -28,4 +28,4 @@ class Solution(object):
             else:
                 result.append(i)
         return ''.join(result[1:])
-```
+# ```

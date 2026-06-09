@@ -1,4 +1,4 @@
-```js
+// ```js
 var reverseList = function(head) {
     if (!head || !head.next) return head;
     
@@ -8,4 +8,4 @@ var reverseList = function(head) {
     
     return newhead;
 };
-```
+// ```

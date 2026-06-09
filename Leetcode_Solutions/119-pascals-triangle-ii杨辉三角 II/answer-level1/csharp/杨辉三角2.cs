@@ -1,5 +1,5 @@
-**思路1：** 在118的基础上改造，到了指定行直接返回。
-```csharp
+// **思路1：** 在118的基础上改造，到了指定行直接返回。
+// ```csharp
 public class Solution {
     public IList<int> GetRow(int rowIndex) {
         IList<IList<int>> result = new List<IList<int>>();
@@ -31,10 +31,10 @@ public class Solution {
             return result.Last();
     }
 }
-```
+// ```
 
-**思路2：**  公式法，由于每一次的计算涉及乘除法，所以整体的时间效率并不高。
-```
+// **思路2：**  公式法，由于每一次的计算涉及乘除法，所以整体的时间效率并不高。
+// ```
 public IList<int> GetRow2(int rowIndex)
         {
             var result = new List<int>();
@@ -66,4 +66,4 @@ public IList<int> GetRow2(int rowIndex)
 
             return (int)result;
         }
-```
+// ```

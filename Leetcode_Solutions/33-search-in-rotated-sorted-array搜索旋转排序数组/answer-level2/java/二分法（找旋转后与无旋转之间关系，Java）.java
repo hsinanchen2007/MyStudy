@@ -1,7 +1,7 @@
-- 只要找到旋转前后对应的index关系，做一个转换，就是一个基本的二分查找题。
-- 先用二分法找到最小值，即pivot，便能找到对应关系：实际（经过旋转的）index = （（无旋转，从小到大排序的）index + pivot）% nums.length
+// - 只要找到旋转前后对应的index关系，做一个转换，就是一个基本的二分查找题。
+// - 先用二分法找到最小值，即pivot，便能找到对应关系：实际（经过旋转的）index = （（无旋转，从小到大排序的）index + pivot）% nums.length
 
-```
+// ```
 class Solution {
     private int pivot;
     private int size;
@@ -43,4 +43,4 @@ class Solution {
         return (index + pivot)%size;
     }
 }
-```
+// ```

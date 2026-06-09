@@ -1,10 +1,10 @@
-### 解题思路
-先判断每个有效字母的个数（l和o需除2）
-取最小的字母个数即为balloon的最大数量
+// ### 解题思路
+// 先判断每个有效字母的个数（l和o需除2）
+// 取最小的字母个数即为balloon的最大数量
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxNumberOfBalloons(string text)
@@ -44,4 +44,4 @@ public:
         return res;
     }
 };
-```
+// ```

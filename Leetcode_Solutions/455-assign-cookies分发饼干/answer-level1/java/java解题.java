@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
         int n1 = g.length;
@@ -34,4 +34,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

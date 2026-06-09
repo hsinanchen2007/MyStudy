@@ -1,7 +1,7 @@
-### 思路
-二叉树的前序遍历
-### 完整代码
-```
+// ### 思路
+// 二叉树的前序遍历
+// ### 完整代码
+// ```
 func isSameTree(p *TreeNode, q *TreeNode) bool {
     	stackp := make([]*TreeNode, 0, 0) // 使用队列模拟栈操作
 	stackq := make([]*TreeNode, 0, 0)
@@ -41,6 +41,6 @@ func isSameTree(p *TreeNode, q *TreeNode) bool {
 	
 	return true
 }
-```
-执行结果
-![image.png](https://pic.leetcode-cn.com/bb63c7f6cc489d9cefa572ba856d24ba04339ba6852321bc7ea5adc20a0bdb1b-image.png)
+// ```
+// 执行结果
+// ![image.png](https://pic.leetcode-cn.com/bb63c7f6cc489d9cefa572ba856d24ba04339ba6852321bc7ea5adc20a0bdb1b-image.png)

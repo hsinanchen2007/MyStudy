@@ -1,10 +1,10 @@
 
-执行用时 :2 ms, 在所有 Java 提交中击败了95.76%的用户内存消耗 :41.1 MB, 在所有 Java 提交中击败了93.83%的用户
-### 解题思路
-用空间换时间。思路简单。
-### 代码
+// 执行用时 :2 ms, 在所有 Java 提交中击败了95.76%的用户内存消耗 :41.1 MB, 在所有 Java 提交中击败了93.83%的用户
+// ### 解题思路
+// 用空间换时间。思路简单。
+// ### 代码
 
-```java
+// ```java
 class Solution {
 private boolean row[][] = new boolean[9][9];//这个是行
 private boolean con[][] = new boolean[9][9];//这个是列
@@ -32,4 +32,4 @@ private boolean cross[][][] = new boolean[3][3][9];//这个是方框
 		return true;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-递归与非递归 python3
+# ### 解题思路
+# 递归与非递归 python3
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
             curr = curr.right
         return res
         
-```
+# ```

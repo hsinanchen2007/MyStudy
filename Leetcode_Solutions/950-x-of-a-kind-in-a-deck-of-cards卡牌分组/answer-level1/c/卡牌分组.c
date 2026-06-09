@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gcd(int a,int b){
     return b ? gcd(b,a%b) : a;
 }
@@ -22,4 +22,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
     return g > 1 ? true : false;
 }
 
-```
+// ```

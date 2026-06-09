@@ -1,5 +1,5 @@
-敲了个线段树，感觉难度还行 sum min max三种类型
-```cpp
+// 敲了个线段树，感觉难度还行 sum min max三种类型
+// ```cpp
 class SegmentNode {
 public:
     int val;
@@ -151,4 +151,4 @@ public:
         return stree->search(stree->head, i, j);
     }
 };
-```
+// ```

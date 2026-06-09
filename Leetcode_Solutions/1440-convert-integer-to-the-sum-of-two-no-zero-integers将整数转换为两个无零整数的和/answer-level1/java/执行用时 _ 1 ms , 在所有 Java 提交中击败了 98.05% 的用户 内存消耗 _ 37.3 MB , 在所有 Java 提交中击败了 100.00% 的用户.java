@@ -1,9 +1,9 @@
-### 解题思路
-分别判断A和B是否包含0，不包含则加入数组输出，否则继续递归。
+// ### 解题思路
+// 分别判断A和B是否包含0，不包含则加入数组输出，否则继续递归。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getNoZeroIntegers(int n) {
         int[] ans = new int[2];
@@ -28,4 +28,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-代码和思路如下：
+-- 代码和思路如下：
 
-```
+-- ```
 # Write your MySQL query statement below
 
 # 先对非禁止用户(2013-10-01~2013-10-03)生成的订单总数进行筛选；
@@ -12,4 +12,4 @@ select t1.Request_at as Day, round(sum(t1.tag)/count(t1.Id),2) as "Cancellation 
 from Trips t where t.Client_Id IN 
 (select Users_Id from Users u where u.Banned='No') and Driver_Id IN
 (select Users_Id from Users u where u.Banned='No') and t.Request_at between '2013-10-01' and '2013-10-03') t1 group by t1.Request_at;
-```
+-- ```

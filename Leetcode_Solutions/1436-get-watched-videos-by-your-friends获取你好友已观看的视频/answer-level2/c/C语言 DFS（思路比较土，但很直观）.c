@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-1、根据DFS算法找指定level朋友；
-2、把朋友看的视频保存并排序，排序算法：先比较频率，频率相等则比较字符串大小；
-3、按顺序输出结果即可。
+// ### 解题思路
+// 此处撰写解题思路
+// 1、根据DFS算法找指定level朋友；
+// 2、把朋友看的视频保存并排序，排序算法：先比较频率，频率相等则比较字符串大小；
+// 3、按顺序输出结果即可。
 
-### 代码
-代码比较多，还可以把变量优化一下，凑合看一下吧。
+// ### 代码
+// 代码比较多，还可以把变量优化一下，凑合看一下吧。
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -106,4 +106,4 @@ char ** watchedVideosByFriends(char *** watchedVideos, int watchedVideosSize, in
 
     return res;
 }
-```
+// ```

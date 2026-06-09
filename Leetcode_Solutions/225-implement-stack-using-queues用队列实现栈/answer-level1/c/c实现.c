@@ -1,9 +1,9 @@
-### 解题思路
-定义head, 用来标记 push 和 pop 的位置
+// ### 解题思路
+// 定义head, 用来标记 push 和 pop 的位置
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int value[1024];
     int head;
@@ -63,4 +63,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-本题关键在如何处理时间间隔，已给出注释，其他应该比较好理解。[参考链接](https://leetcode-cn.com/problems/exclusive-time-of-functions/solution/c-stack-pair-string-by-crossing-2/)
-![执行结果](https://pic.leetcode-cn.com/56c582405ba8f549cf8a3644f792725ccbe6ec8455957a623ad5654f770f2b0f-image.png)
+// ### 解题思路
+// 本题关键在如何处理时间间隔，已给出注释，其他应该比较好理解。[参考链接](https://leetcode-cn.com/problems/exclusive-time-of-functions/solution/c-stack-pair-string-by-crossing-2/)
+// ![执行结果](https://pic.leetcode-cn.com/56c582405ba8f549cf8a3644f792725ccbe6ec8455957a623ad5654f770f2b0f-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     class Task {
         int id = 0;
@@ -39,4 +39,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

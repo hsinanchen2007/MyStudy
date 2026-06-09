@@ -1,5 +1,5 @@
-解法：把元素的值作为下标，将下标对应的值取负，然后返回正数的下标
-```
+# 解法：把元素的值作为下标，将下标对应的值取负，然后返回正数的下标
+# ```
 class Solution(object):
     def findDisappearedNumbers(self, nums):
         """
@@ -12,4 +12,4 @@ class Solution(object):
         for i in nums:
             nums[abs(i) - 1] = -abs(nums[abs(i) - 1])
         return [k + 1 for k, v in enumerate(nums) if v > 0]
-```
+# ```

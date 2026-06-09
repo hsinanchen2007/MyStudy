@@ -1,9 +1,9 @@
-### 解题思路
-just direct use the list.sort then we can solve it
+# ### 解题思路
+# just direct use the list.sort then we can solve it
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sortArray(self, nums):
         """
@@ -12,4 +12,4 @@ class Solution(object):
         """
         nums.sort()
         return nums
-```
+# ```

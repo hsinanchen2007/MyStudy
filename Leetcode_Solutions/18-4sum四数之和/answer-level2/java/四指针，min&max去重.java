@@ -1,8 +1,8 @@
-### 解题思路
-老哥的四指针加上最大最小值去重我是没想到的
-### 代码
+// ### 解题思路
+// 老哥的四指针加上最大最小值去重我是没想到的
+// ### 代码
 
-```java
+// ```java
 class Solution {
 public List<List<Integer>> fourSum(int[] nums,int target){
         /*定义一个返回值*/
@@ -77,4 +77,4 @@ public List<List<Integer>> fourSum(int[] nums,int target){
 
 
     }
-```
+// ```

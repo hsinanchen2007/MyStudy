@@ -1,10 +1,10 @@
-### 解题思路
-作者 [Paul](https://leetcode-cn.com/problems/count-all-valid-pickup-and-delivery-options/solution/zu-he-shu-xue-ti-by-paulzfm/) 对思路介绍的很详细，这里就不再赘述了。可将推导公式计算一下即可。
-由公式：
+// ### 解题思路
+// 作者 [Paul](https://leetcode-cn.com/problems/count-all-valid-pickup-and-delivery-options/solution/zu-he-shu-xue-ti-by-paulzfm/) 对思路介绍的很详细，这里就不再赘述了。可将推导公式计算一下即可。
+// 由公式：
 
-$$P(n)=P(n-1)\times (C^2_{2(n-1)+1}+C^1_{2(n-1)+1})=P(n-1)\times ((2n+1)(n-1)+1)$$
-### 代码
-```python []
+// $$P(n)=P(n-1)\times (C^2_{2(n-1)+1}+C^1_{2(n-1)+1})=P(n-1)\times ((2n+1)(n-1)+1)$$
+// ### 代码
+// ```python []
 class Solution:
     def countOrders(self, n: int) -> int:
         mod = 1000000007
@@ -12,8 +12,8 @@ class Solution:
         for i in range(2, n + 1):
             p_n = p_n * ((2 * i + 1) * (i - 1) + 1) % mod
         return p_n
-```
-```C++ []
+// ```
+// ```C++ []
 const int mod = 1000000007;
 class Solution {
 public:
@@ -26,6 +26,6 @@ public:
         return p_n;
     }
 };
-```
+// ```
 
 

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-将envelopes 按长排序，后面的问题就是求最长递增子序列。
+// 将envelopes 按长排序，后面的问题就是求最长递增子序列。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxEnvelopes(vector<vector<int>>& envelopes) {
@@ -37,4 +37,4 @@ public:
         return vec1[0] < vec2[0];
     }
 };
-```
+// ```

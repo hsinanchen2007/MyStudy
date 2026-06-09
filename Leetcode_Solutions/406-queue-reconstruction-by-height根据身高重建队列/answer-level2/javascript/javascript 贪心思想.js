@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/0712951a33f6cd544bc342723b2bae79cefd25c16f7170cdb5180db483895068-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0712951a33f6cd544bc342723b2bae79cefd25c16f7170cdb5180db483895068-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   贪心策略：先排身高大的人，如果先排身高小的人，那后面再往这个队列中排入大身高的
   人，可能会影响很多人的相对位置。
   同等身高的话，先排序前面人少的那个
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} people
  * @return {number[][]}
@@ -38,4 +38,4 @@ var reconstructQueue = function(people) {
   
   return arr;
 };
-```
+// ```

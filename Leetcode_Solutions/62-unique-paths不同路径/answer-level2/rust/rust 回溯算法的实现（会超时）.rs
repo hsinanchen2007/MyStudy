@@ -1,6 +1,6 @@
-这道题如果是要打印具体的走法的话，很适合用回溯来做（虽然提名只要求算结果数），以下是一个回溯算法的思路，因为用到了递归所以性能很差，但是不失为一个思路
+// 这道题如果是要打印具体的走法的话，很适合用回溯来做（虽然提名只要求算结果数），以下是一个回溯算法的思路，因为用到了递归所以性能很差，但是不失为一个思路
 
-```rust
+// ```rust
 pub fn unique_paths(m: i32, n: i32) -> i32 {
     // using backtrack
     let l = (m+n-2) as usize;
@@ -25,6 +25,6 @@ fn backtrack(m: i32, n: i32, steps: &mut Vec<String>, cur_steps: String, total_s
         backtrack(m, n-1, steps, cur_steps, total_steps);
     }
 }
-```
+// ```
 
-把向右走定义为r,想下走定义为d，当走满了m+n-2步之后添加到结果集，否则继续往下走
+// 把向右走定义为r,想下走定义为d，当走满了m+n-2步之后添加到结果集，否则继续往下走

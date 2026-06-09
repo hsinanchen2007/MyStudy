@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-gcd
+// gcd
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 int gcd(int x,int y){
     if(y==0)return x;
     return gcd(y,x%y);
@@ -21,4 +21,4 @@ public:
         return false;
     }
 };
-```
+// ```

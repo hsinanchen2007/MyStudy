@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-本题实际是求pattern每个字符和str中每个单词是否是一一对应关系（注意是双向），遍历str中的word，使用两个Map分别记录当前pattern中的字符和word的对应关系，如果出现了不同对应关系则返回false。
+// 本题实际是求pattern每个字符和str中每个单词是否是一一对应关系（注意是双向），遍历str中的word，使用两个Map分别记录当前pattern中的字符和word的对应关系，如果出现了不同对应关系则返回false。
 
-```
+// ```
  public boolean wordPattern(String pattern, String str) {
     String[] words = str.split(" ");
     if (pattern.length() != words.length) return false;
@@ -24,4 +24,4 @@
     }
     return true;
 }
-```
+// ```

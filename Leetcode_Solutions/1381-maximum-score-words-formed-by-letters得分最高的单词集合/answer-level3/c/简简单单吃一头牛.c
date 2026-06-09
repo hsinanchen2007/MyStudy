@@ -1,7 +1,7 @@
-提交时间 提交结果 执行用时 内存消耗 语言
-1 分钟前	通过	0 ms	7.1 MB	C
+// 提交时间 提交结果 执行用时 内存消耗 语言
+// 1 分钟前	通过	0 ms	7.1 MB	C
 
-```
+// ```
 int g_allNumbers[26] = {0}; 
 int g_total = 0;
 int g_score[16] = {0};
@@ -73,4 +73,4 @@ int maxScoreWords(char ** words, int wordsSize, char* letters, int lettersSize, 
 
     return g_total;
 }
-```
+// ```

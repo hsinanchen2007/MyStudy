@@ -1,18 +1,18 @@
-### 解题思路
-$F_{sum,n-1}$： 前`n-1`种硬币组成`sum`的最少硬币数
+// ### 解题思路
+// $F_{sum,n-1}$： 前`n-1`种硬币组成`sum`的最少硬币数
 
-转移方程（加入第n种硬币，面值为coin）： 前n种硬币组成sum的最少硬币数。
-要么不用第n种硬币，要么用$[1, \frac{amount}{coin}]$枚第n种硬币。
-  $$F_{sum,n} = Min \{ F_{sum,n-1}, F_{sum-coin,n-1}+1, F_{sum-2coin,n-1} + 2, ..., F_{sum-coin*\frac{amount}{coin},n-1}+\frac{amount}{coin}\} $$
+// 转移方程（加入第n种硬币，面值为coin）： 前n种硬币组成sum的最少硬币数。
+// 要么不用第n种硬币，要么用$[1, \frac{amount}{coin}]$枚第n种硬币。
+//   $$F_{sum,n} = Min \{ F_{sum,n-1}, F_{sum-coin,n-1}+1, F_{sum-2coin,n-1} + 2, ..., F_{sum-coin*\frac{amount}{coin},n-1}+\frac{amount}{coin}\} $$
 
-* $N_{c}$： coin的数量
-* $N_{a}$： amount的大小
-* 时间复杂度： $O(N_{c}*N_{a})$
-* 空间复杂度： $O(N_{a})$
+// * $N_{c}$： coin的数量
+// * $N_{a}$： amount的大小
+// * 时间复杂度： $O(N_{c}*N_{a})$
+// * 空间复杂度： $O(N_{a})$
 
-### 代码1
+// ### 代码1
 
-```java
+// ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
         // F[sum]：表示前n种硬币组成sum的最少硬币数
@@ -45,10 +45,10 @@ class Solution {
         return ans[amount];
     }
 }
-```
+// ```
 
-#### 代码2
-```java
+// #### 代码2
+// ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
         int[] ans = new int[amount+1];
@@ -72,4 +72,4 @@ class Solution {
         return ans[amount];
     }
 }
-```
+// ```

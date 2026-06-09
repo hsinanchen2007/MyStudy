@@ -1,9 +1,9 @@
-### 解题思路
-解题思路 见解析
+// ### 解题思路
+// 解题思路 见解析
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
       int len = nums.length;                //数组长度
@@ -26,4 +26,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

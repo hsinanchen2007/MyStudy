@@ -1,10 +1,10 @@
 
-1. 使用哈希表对每个元素出现的次数进行统计
-2. 根据元素出现次数进行排序处理
+# 1. 使用哈希表对每个元素出现的次数进行统计
+# 2. 根据元素出现次数进行排序处理
 
-根据题目对复杂度的要求，选择了堆排序。需要维护一个大顶堆。
+# 根据题目对复杂度的要求，选择了堆排序。需要维护一个大顶堆。
 
-```python
+# ```python
 class Solution(object):
     def topKFrequent(self, nums, k):
         """
@@ -61,4 +61,4 @@ class Solution(object):
         tmp = nums[i]
         nums[i] = nums[j]
         nums[j] = tmp
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def transpose(A: Array[Array[Int]]): Array[Array[Int]] = {
     val rows = A.length
@@ -13,13 +13,13 @@ object Solution {
     ret
   }
 }
-```
+// ```
 
 
-```
+// ```
 object Solution {
   def transpose(A: Array[Array[Int]]): Array[Array[Int]] = {
     A.transpose
   }
 }
-```
+// ```

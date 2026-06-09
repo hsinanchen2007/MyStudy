@@ -1,16 +1,16 @@
-[leetcode-golang](https://github.com/laijinhang/leetcode-golang)
+// [leetcode-golang](https://github.com/laijinhang/leetcode-golang)
 
-### 解题思路
-![1.PNG](https://pic.leetcode-cn.com/c9ee61a8d544db8c40477f3dc9e864ecddb7dfb2446f0531609dd857e0bbc72e-1.PNG)
+// ### 解题思路
+// ![1.PNG](https://pic.leetcode-cn.com/c9ee61a8d544db8c40477f3dc9e864ecddb7dfb2446f0531609dd857e0bbc72e-1.PNG)
 
-设(i,j)位置能拿到的最多价值为maxVal[i][j]，因为每次只能向右或向下移动一格
-1. maxVal[i][j] = max(maxVal[i-1][j], maxVal[i][j-1])
+// 设(i,j)位置能拿到的最多价值为maxVal[i][j]，因为每次只能向右或向下移动一格
+// 1. maxVal[i][j] = max(maxVal[i-1][j], maxVal[i][j-1])
 
-排除 i-1, j-1 越界的情况
+// 排除 i-1, j-1 越界的情况
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxValue(grid [][]int) int {
     maxVal := make([][]int, len(grid))
     for i := 0;i < len(grid);i++ {
@@ -37,4 +37,4 @@ func maxValue(grid [][]int) int {
     i1, i2 := len(maxVal) - 1, len(maxVal[0]) - 1
     return maxVal[i1][i2]
 }
-```
+// ```

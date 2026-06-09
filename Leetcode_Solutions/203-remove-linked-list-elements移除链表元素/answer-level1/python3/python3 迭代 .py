@@ -1,8 +1,8 @@
-python3 
-时间上优于68%的python解答 空间上优于90%的python解答
+# python3 
+# 时间上优于68%的python解答 空间上优于90%的python解答
 
 
-```
+# ```
 class Solution:
     def removeElements(self, head: ListNode, val: int) -> ListNode:
         if head == None:
@@ -18,5 +18,5 @@ class Solution:
             else:
                 cur = cur.next
         return dummy_head.next
-```
+# ```
 

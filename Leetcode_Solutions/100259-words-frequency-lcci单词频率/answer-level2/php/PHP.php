@@ -1,4 +1,4 @@
-```php
+// ```php
 class WordsFrequency {
     /**
      * @param String[] $book
@@ -24,4 +24,4 @@ class WordsFrequency {
  * $obj = WordsFrequency($book);
  * $ret_1 = $obj->get($word);
  */
-```
+// ```

@@ -1,8 +1,8 @@
-*法一：求中心索引左右两边的和*
+// *法一：求中心索引左右两边的和*
 
-缺点：太慢，不可取
+// 缺点：太慢，不可取
 
-```js
+// ```js
 var pivotIndex = function(nums) {
     let add = function(arr) {
         var s = 0;
@@ -25,17 +25,17 @@ var pivotIndex = function(nums) {
     }
     return -1
 };
-```
+// ```
 
-*法二：只求中心索引左边的和*
+// *法二：只求中心索引左边的和*
 
-改进法一，推荐
+// 改进法一，推荐
 
-1. sumLeft + sumRight + nums[i] = sumTotal;
-2. sumLeft = sumRight
-3. 可以得出 sumLeft * 2 + nums[i] = sumTotal;
+// 1. sumLeft + sumRight + nums[i] = sumTotal;
+// 2. sumLeft = sumRight
+// 3. 可以得出 sumLeft * 2 + nums[i] = sumTotal;
 
-```js
+// ```js
 var pivotIndex2 = function(nums) {
     let len = nums.length;
     let sumTotal = 0;
@@ -51,11 +51,11 @@ var pivotIndex2 = function(nums) {
     }
     return -1
 };
-```
+// ```
 
-*法三：双指针*
+// *法三：双指针*
 
-最终失败，
+// 最终失败，
 
-原因：无法处理负数，比如 [-1,-1,-1,-1,-1,0]
+// 原因：无法处理负数，比如 [-1,-1,-1,-1,-1,0]
 

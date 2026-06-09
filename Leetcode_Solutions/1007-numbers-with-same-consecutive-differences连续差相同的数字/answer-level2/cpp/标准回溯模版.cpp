@@ -1,9 +1,9 @@
-### 解题思路
-先填前一个数-k,不符合就填前一个数+k,都不能填就回溯，长度等于N时加入答案即可
+// ### 解题思路
+// 先填前一个数-k,不符合就填前一个数+k,都不能填就回溯，长度等于N时加入答案即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> numsSameConsecDiff(int n, int k) {
@@ -34,4 +34,4 @@ public:
         return ans;
     }
 };
-```
+// ```

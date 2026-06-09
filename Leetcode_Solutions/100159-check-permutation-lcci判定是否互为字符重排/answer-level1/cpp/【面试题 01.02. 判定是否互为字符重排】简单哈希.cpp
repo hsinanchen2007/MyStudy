@@ -1,9 +1,9 @@
-## 思路：哈希
+// ## 思路：哈希
 
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(1)
-```cpp
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
+// ```cpp
 class Solution {
 public:
     bool CheckPermutation(string s1, string s2) {
@@ -19,4 +19,4 @@ public:
         return true;
     }
 };
-```
+// ```

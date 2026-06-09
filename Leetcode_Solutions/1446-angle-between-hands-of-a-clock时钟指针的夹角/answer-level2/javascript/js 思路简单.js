@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/e97ff223e9e21e114692a561cfc358ed55f4ba7de2dee2441d95bed5c6391490-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e97ff223e9e21e114692a561cfc358ed55f4ba7de2dee2441d95bed5c6391490-image.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} hour
  * @param {number} minutes
@@ -28,4 +28,4 @@ var angleClock = function(hour, minutes) {
   
   return block * 6;
 };
-```
+// ```

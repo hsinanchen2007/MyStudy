@@ -1,11 +1,11 @@
-### 解题思路
-1. 找到要反转的那个组
-2. 翻转（算法同反转单链表）
-3. 组与组的衔接
+// ### 解题思路
+// 1. 找到要反转的那个组
+// 2. 翻转（算法同反转单链表）
+// 3. 组与组的衔接
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -47,4 +47,4 @@ struct ListNode* reverseKGroup(struct ListNode* head, int k){
     }
     return dummy.next;
 }
-```
+// ```

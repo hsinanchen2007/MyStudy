@@ -1,9 +1,9 @@
-### 解题思路
-双指针，从头尾向中间靠拢比较，因为是非降序排列，所以最大的平方数必在两端
-ps:新人，谢谢大家多提意见
-### 代码
+// ### 解题思路
+// 双指针，从头尾向中间靠拢比较，因为是非降序排列，所以最大的平方数必在两端
+// ps:新人，谢谢大家多提意见
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] SortedSquares(int[] A) {
         if(A.Length==0) return null;//如果数组为空返回null
@@ -31,4 +31,4 @@ public class Solution {
         return B;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-![双指针.png](https://pic.leetcode-cn.com/ee83ac2c92dc152263b188f9f2022a78e9e7f3dab8651d0b80afbe53b2562010-%E5%8F%8C%E6%8C%87%E9%92%88.png)
-方法1：双指针
-```
+// ![双指针.png](https://pic.leetcode-cn.com/ee83ac2c92dc152263b188f9f2022a78e9e7f3dab8651d0b80afbe53b2562010-%E5%8F%8C%E6%8C%87%E9%92%88.png)
+// 方法1：双指针
+// ```
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     struct ListNode *p, *q;
     p = q = head;
@@ -17,9 +17,9 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     return head;
 }
 
-```
-或者这样，同样执行0ms，超过100%
-```
+// ```
+// 或者这样，同样执行0ms，超过100%
+// ```
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     struct ListNode *new = (struct ListNode*)malloc(sizeof(struct ListNode)), *p, *q;
     new -> next = head;
@@ -33,10 +33,10 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     p -> next = p -> next -> next;
     return new -> next;
 }
-```
+// ```
 
-方法2：常规思路，效率减半
-```
+// 方法2：常规思路，效率减半
+// ```
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     struct ListNode *p = head, *q;
     int cnt = 0;
@@ -55,6 +55,6 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     free(q);
     return head;
 }
-```
+// ```
 
 

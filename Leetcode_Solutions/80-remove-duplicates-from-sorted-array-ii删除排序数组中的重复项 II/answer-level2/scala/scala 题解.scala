@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def removeDuplicates(nums: Array[Int]): Int = {
     var res = 0
@@ -11,4 +11,4 @@ object Solution {
     res
   }
 }
-```
+// ```

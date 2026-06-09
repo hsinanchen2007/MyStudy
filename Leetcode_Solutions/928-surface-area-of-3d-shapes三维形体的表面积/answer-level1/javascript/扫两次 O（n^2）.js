@@ -1,9 +1,9 @@
-### 解题思路
-O（n^2）
+// ### 解题思路
+// O（n^2）
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -29,4 +29,4 @@ var surfaceArea = function(grid) {
     }
     return res
 };
-```
+// ```

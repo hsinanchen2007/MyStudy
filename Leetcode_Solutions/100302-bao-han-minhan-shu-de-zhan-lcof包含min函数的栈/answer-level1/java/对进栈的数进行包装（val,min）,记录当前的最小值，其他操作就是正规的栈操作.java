@@ -1,5 +1,5 @@
-改进栈
-```
+// 改进栈
+// ```
 class MinStack {
     private class Node{
         int val;
@@ -49,9 +49,9 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.min();
  */
-```
-链表法
-```
+// ```
+// 链表法
+// ```
 class MinStack {
     private class Node{
         int val;
@@ -88,6 +88,6 @@ class MinStack {
         return head.min;
     }
 }
-```
+// ```
 
 

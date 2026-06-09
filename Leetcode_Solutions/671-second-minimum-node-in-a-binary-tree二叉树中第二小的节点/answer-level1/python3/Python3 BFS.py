@@ -1,9 +1,9 @@
-### 解题思路
-直觉: BFS/DFS找到所有第一次比根节点大的,取min
+# ### 解题思路
+# 直觉: BFS/DFS找到所有第一次比根节点大的,取min
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
     
         return -1 if not res else min(res)
 
-```
+# ```

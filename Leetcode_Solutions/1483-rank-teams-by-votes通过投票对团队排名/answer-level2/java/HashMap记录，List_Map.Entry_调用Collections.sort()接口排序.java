@@ -1,6 +1,6 @@
-## 思路
-思路都已经包括在代码之中
-```java
+// ## 思路
+// 思路都已经包括在代码之中
+// ```java
 class Solution {
     public String rankTeams(String[] votes) {
         //用于记录：每个字符对应的数组记录着每次的rank次数
@@ -47,4 +47,4 @@ class Solution {
         return ans.toString();
     }
 }
-```
+// ```

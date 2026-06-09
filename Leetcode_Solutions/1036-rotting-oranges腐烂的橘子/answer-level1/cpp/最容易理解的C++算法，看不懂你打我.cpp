@@ -1,9 +1,9 @@
 
-将腐烂橘子压入队列再一一取出进行污染，每一轮队列取出操作结束时间加1.类似树的层序遍历
+// 将腐烂橘子压入队列再一一取出进行污染，每一轮队列取出操作结束时间加1.类似树的层序遍历
 
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
    int orangesRotting(vector<vector<int>>& grid) {
@@ -44,4 +44,4 @@ public:
         return res;
     }
 };
-```
+// ```

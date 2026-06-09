@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-使用for遍历s1,s2 暴力解决
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 使用for遍历s1,s2 暴力解决
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         boolean allfound = true;
@@ -28,4 +28,4 @@ class Solution {
 
     }
 }
-```
+// ```

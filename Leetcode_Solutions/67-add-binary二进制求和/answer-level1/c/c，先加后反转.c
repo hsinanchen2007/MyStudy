@@ -1,8 +1,8 @@
-执行用时 : 0 ms, 在所有 C 提交中击败了 100.00% 的用户
-内存消耗 : 5.3 MB, 在所有 C 提交中击败了 100.00% 的用户
+// 执行用时 : 0 ms, 在所有 C 提交中击败了 100.00% 的用户
+// 内存消耗 : 5.3 MB, 在所有 C 提交中击败了 100.00% 的用户
 
-先加后反转
-```c
+// 先加后反转
+// ```c
 #include <string.h>
 #include <stdlib.h>
 #include <stdint.h>
@@ -53,4 +53,4 @@ uint8_t is_carry(int a, int b, int carry, char* rst)
     if (c >= 2) return ret = 1;
     return ret;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-按照字符串末尾排序
+// ### 解题思路
+// 按照字符串末尾排序
 
-第一版代码卡着时间写了一个刚好通过的
+// 第一版代码卡着时间写了一个刚好通过的
 
-### 代码1
-```java
+// ### 代码1
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         int minimumLengthEncoding = 0;
@@ -29,10 +29,10 @@ class Solution {
         return minimumLengthEncoding;
     }
 }
-```
+// ```
 
-### 代码2
-```java
+// ### 代码2
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         int minimumLengthEncoding = 0;
@@ -57,4 +57,4 @@ class Solution {
         return minimumLengthEncoding;
     }
 }
-```
+// ```

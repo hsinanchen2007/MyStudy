@@ -1,10 +1,10 @@
-### 解题思路
-参考
-https://leetcode-cn.com/problems/divide-two-integers/solution/po-su-de-xiang-fa-mei-you-wei-yun-suan-mei-you-yi-/
-核心地方在于二分法求商，以及对除数是-1、1的边界判断。
-### 代码
+// ### 解题思路
+// 参考
+// https://leetcode-cn.com/problems/divide-two-integers/solution/po-su-de-xiang-fa-mei-you-wei-yun-suan-mei-you-yi-/
+// 核心地方在于二分法求商，以及对除数是-1、1的边界判断。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int divide(int dividend, int divisor) {
@@ -43,4 +43,4 @@ public:
         return count + div(dividend-curDivisor,divisor);
     }
 };
-```
+// ```

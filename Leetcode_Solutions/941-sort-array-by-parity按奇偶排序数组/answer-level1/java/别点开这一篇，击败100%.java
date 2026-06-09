@@ -1,11 +1,11 @@
-### 解题思路
-先遍历一遍，将偶数放在ans前面，将奇数放在临时数组temp中
+// ### 解题思路
+// 先遍历一遍，将偶数放在ans前面，将奇数放在临时数组temp中
 
-在遍历temp，将temp中的奇数放在ans中
+// 在遍历temp，将temp中的奇数放在ans中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArrayByParity(int[] A) {
 
@@ -30,4 +30,4 @@ class Solution {
 
     }
 }
-```
+// ```

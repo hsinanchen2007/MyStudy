@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-不知道算不算作弊，vector算基本的队列吗
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 不知道算不算作弊，vector算基本的队列吗
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -43,4 +43,4 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

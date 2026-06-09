@@ -1,8 +1,8 @@
-### 解题思路
-使用partition，双路快排and剪枝
-### 代码
+// ### 解题思路
+// 使用partition，双路快排and剪枝
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
 	// 返回随机找到数的基准值
@@ -40,4 +40,4 @@ public:
 		return nums[k];
 	}
 };
-```
+// ```

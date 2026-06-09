@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-这道题跟 [三数之和](https://leetcode-cn.com/problems/3sum/) 的思路大体是一样的：
+// 这道题跟 [三数之和](https://leetcode-cn.com/problems/3sum/) 的思路大体是一样的：
 
-固定一个数，剩下两个数就变成了 ``双指针`` 的常规解法。
+// 固定一个数，剩下两个数就变成了 ``双指针`` 的常规解法。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -35,4 +35,4 @@ var threeSumClosest = function(nums, target) {
     }
     return res
 };
-```
+// ```

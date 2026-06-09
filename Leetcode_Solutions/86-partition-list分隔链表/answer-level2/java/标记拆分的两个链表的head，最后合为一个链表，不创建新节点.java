@@ -1,4 +1,4 @@
-```java
+// ```java
 public static ListNode partition(ListNode head, int x) {
         if(head == null) return null;
         ListNode lowHead = null;
@@ -32,4 +32,4 @@ public static ListNode partition(ListNode head, int x) {
         }
         return highHead;
     }
-```
+// ```

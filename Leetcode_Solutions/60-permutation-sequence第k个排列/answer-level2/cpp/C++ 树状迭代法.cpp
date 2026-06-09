@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string getPermutation(int n, int k) {
@@ -43,5 +43,5 @@ public:
         return to_string(res);
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/6014f56cd6969a62bc6cede5e3ca9b031adcd6a1ecdc1e3146d5727ff2db42a1-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6014f56cd6969a62bc6cede5e3ca9b031adcd6a1ecdc1e3146d5727ff2db42a1-image.png)

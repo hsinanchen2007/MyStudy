@@ -1,4 +1,4 @@
-```
+// ```
 func reverseList(head *ListNode) *ListNode {
     //申请临时节点
     var prv *ListNode = nil
@@ -13,4 +13,4 @@ func reverseList(head *ListNode) *ListNode {
     return prv   //最后移动到链表尾部 ，也就是新的链表头部
 }
 
-```
+// ```

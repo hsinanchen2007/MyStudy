@@ -1,11 +1,11 @@
-通过`\n`可以判断是不是一个新的目录开始
-通过`\t`可以判断这个文件夹是第几级
-自然想到用栈来维护文件夹的层级结构比较方便
-用`tabCount`计算当前目录的层级
+// 通过`\n`可以判断是不是一个新的目录开始
+// 通过`\t`可以判断这个文件夹是第几级
+// 自然想到用栈来维护文件夹的层级结构比较方便
+// 用`tabCount`计算当前目录的层级
 
-ps:比想象的简单点
+// ps:比想象的简单点
 
-```
+// ```
 public class Solution {
     public int LengthLongestPath(string input) {
         var stack = new Stack<int[]>();
@@ -43,4 +43,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-击败10%..应该有好多冗余,大家多参考高赞代码,我是打卡拿个分溜了
+# ### 解题思路
+# 击败10%..应该有好多冗余,大家多参考高赞代码,我是打卡拿个分溜了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
         ans = reverse(head, head.next, None)
         head.next = None
         return ans
-```
+# ```

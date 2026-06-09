@@ -1,7 +1,7 @@
-1、使用了hashmap中的containsKey方法来判断map中是否含有指定的key值
-2、注意map中元素的迭代方法：
-    对key值的迭代：for(type factor : map.keySet())
-    对value值的迭代：for(type factor : map.values())
+// 1、使用了hashmap中的containsKey方法来判断map中是否含有指定的key值
+// 2、注意map中元素的迭代方法：
+//     对key值的迭代：for(type factor : map.keySet())
+//     对value值的迭代：for(type factor : map.values())
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) { 
             int len1 = nums1.length;

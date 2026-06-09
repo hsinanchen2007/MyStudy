@@ -1,6 +1,6 @@
-![捕获.PNG](https://pic.leetcode-cn.com/85cdab946f0280b36a7fde95dc5c417a72c834899fa445f82a67a9d320ec7356-%E6%8D%95%E8%8E%B7.PNG)
-**思路：** 
-    每个单词反转，再整体反转。
+// ![捕获.PNG](https://pic.leetcode-cn.com/85cdab946f0280b36a7fde95dc5c417a72c834899fa445f82a67a9d320ec7356-%E6%8D%95%E8%8E%B7.PNG)
+// **思路：** 
+//     每个单词反转，再整体反转。
 
 class Solution {
 public:

@@ -1,9 +1,9 @@
-### 解题思路
-因为是升序的，所以和当前值比较，小于当前值找左部分，大于找右部分。
+// ### 解题思路
+// 因为是升序的，所以和当前值比较，小于当前值找左部分，大于找右部分。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         return find(nums,0,nums.length-1,target);
@@ -17,4 +17,4 @@ class Solution {
         return val > target ? find(nums,start,index-1,target):find(nums,index+1,end,target);
     }
 }
-```
+// ```

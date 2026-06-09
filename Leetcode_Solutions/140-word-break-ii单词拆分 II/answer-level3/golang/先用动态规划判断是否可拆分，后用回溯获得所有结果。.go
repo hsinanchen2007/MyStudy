@@ -1,5 +1,5 @@
-这道题是上一题的升级版，既然需要返回所有结果，那么回溯基本上跑不了了。不过这道题不能强行回溯，会超时的，需要用到上一题的动态规划先判断字符串能不能被拆分，如果可以再进行回溯。
-```go
+// 这道题是上一题的升级版，既然需要返回所有结果，那么回溯基本上跑不了了。不过这道题不能强行回溯，会超时的，需要用到上一题的动态规划先判断字符串能不能被拆分，如果可以再进行回溯。
+// ```go
 func wordBreak(s string, wordDict []string) []string {
     wMap := make(map[string]bool,len(wordDict)) 
     for _,v := range wordDict {
@@ -37,4 +37,4 @@ func wordBreak(s string, wordDict []string) []string {
     DFS(s,[]string{})
     return re
 }
-```
+// ```

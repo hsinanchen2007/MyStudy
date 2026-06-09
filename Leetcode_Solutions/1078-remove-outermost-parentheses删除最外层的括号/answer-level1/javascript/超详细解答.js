@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 // 思路 
 // （ 左括号入栈 ）又括号出栈 
 // 这样当栈的数据被清零时 清除的数据中就包含了一个原语 
@@ -74,5 +74,5 @@
             return str;
         };
         // console.log(removeOuterParentheses("(()())(())"))
-```
+// ```
 

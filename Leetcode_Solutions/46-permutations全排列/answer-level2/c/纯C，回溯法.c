@@ -1,14 +1,14 @@
-### 解题思路
-方法一：回溯法
-1，以选取的字符数 iCurPos 为索引，进行回溯
-2，下一层选取数字的规则，只能选取剩下没有使用过的数字
-3，结束条件，数字填完了
+// ### 解题思路
+// 方法一：回溯法
+// 1，以选取的字符数 iCurPos 为索引，进行回溯
+// 2，下一层选取数字的规则，只能选取剩下没有使用过的数字
+// 3，结束条件，数字填完了
 
-注：因为数字没有重复，所以结果条数就是 numsSize! 直接用函数计算出来
+// 注：因为数字没有重复，所以结果条数就是 numsSize! 直接用函数计算出来
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -100,4 +100,4 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     *returnColumnSizes = pRetCol;
     return pRet;
 }
-```
+// ```

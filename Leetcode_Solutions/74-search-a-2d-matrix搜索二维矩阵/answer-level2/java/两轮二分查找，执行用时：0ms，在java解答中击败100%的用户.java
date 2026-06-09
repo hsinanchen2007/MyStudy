@@ -1,9 +1,9 @@
-### 解题思路
-首先用一轮二分查找，确定有没有在某行数据里，缩小范围到单行后，再在此行中二分查找一次
+// ### 解题思路
+// 首先用一轮二分查找，确定有没有在某行数据里，缩小范围到单行后，再在此行中二分查找一次
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         if (matrix == null || matrix.length == 0 || matrix[0] == null || matrix[0].length == 0) {
@@ -43,4 +43,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

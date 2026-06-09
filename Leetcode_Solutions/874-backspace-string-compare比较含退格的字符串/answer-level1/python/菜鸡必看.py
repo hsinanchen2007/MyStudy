@@ -1,8 +1,8 @@
-### 解题思路
-优雅就完事了嗷
-### 代码
+# ### 解题思路
+# 优雅就完事了嗷
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def backspaceCompare(self, S: str, T: str) -> bool:
         a=self.helper(S)
@@ -18,4 +18,4 @@ class Solution:
         return "".join(res)
 
 
-```
+# ```

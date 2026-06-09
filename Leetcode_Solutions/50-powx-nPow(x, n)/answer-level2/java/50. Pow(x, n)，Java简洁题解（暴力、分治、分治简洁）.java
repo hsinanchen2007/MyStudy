@@ -1,23 +1,23 @@
-# 审题
-1. x,n有取值范围，都是整数，会有复数
-2. x^-n = 1/x^n
+// # 审题
+// 1. x,n有取值范围，都是整数，会有复数
+// 2. x^-n = 1/x^n
 
-# 思路
-1. 暴力
-2. 分治
+// # 思路
+// 1. 暴力
+// 2. 分治
 
-# 反馈
-1. 牛顿迭代法
-2. 复数可以最后用1/x解决 x^-n = 1/x^n
+// # 反馈
+// 1. 牛顿迭代法
+// 2. 复数可以最后用1/x解决 x^-n = 1/x^n
 
-# 代码实现
-1. 暴力法
-2. 分治法
-3. 分治法简洁版
+// # 代码实现
+// 1. 暴力法
+// 2. 分治法
+// 3. 分治法简洁版
 
-## 1.暴力法
+// ## 1.暴力法
 
-```java
+// ```java
 /**
     * 暴力法 ps:这是比较原始的暴力法，可优化
     * 2775 ms	37.4 MB
@@ -47,11 +47,11 @@ private double directlySolution(double x, int n) {
     }
     return ret;
 }
-```
+// ```
 
-## 2.分治法
+// ## 2.分治法
 
-```java
+// ```java
 /**
     * 分治法
     * 1 ms	36.8 MB
@@ -83,11 +83,11 @@ private double divideGenerate(double x, long n) {
         return sub * sub * x;
     }
 }
-```
+// ```
 
-## 3.分治法简洁版
+// ## 3.分治法简洁版
 
-```java
+// ```java
 /**
     * 分治法简洁版
     * 1 ms	36.5 MB
@@ -107,4 +107,4 @@ private double divideCleanSolution(double x, long n) {
             ? x * divideCleanSolution(x, n - 1)
             : divideCleanSolution(x * x, n / 2);
 }
-```
+// ```

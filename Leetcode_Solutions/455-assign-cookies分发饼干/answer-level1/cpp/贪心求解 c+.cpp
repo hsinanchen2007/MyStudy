@@ -1,9 +1,9 @@
-### 解题思路
-1.先对两数组进行排序
-2.依次遍历s,满足则加一，贪心求解
-### 代码
+// ### 解题思路
+// 1.先对两数组进行排序
+// 2.依次遍历s,满足则加一，贪心求解
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findContentChildren(vector<int>& g, vector<int>& s) {
@@ -22,4 +22,4 @@ public:
 
     }
 };
-```
+// ```

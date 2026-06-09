@@ -1,11 +1,11 @@
-### 解题思路
-1.pattern:"abba"可以映射为"1221"
-2.strs:将strs 用split分开成数组,["red" "Blue" "Blue" "Red"]=>"1221"
-3.编写wordPattern:借助HASH TABLE临时存储{letter,num}，如果存在于H.T.中的字母，则返回其num值，否则（不存在H.T中的字母）添加到HASH表中再返回num值。
+# ### 解题思路
+# 1.pattern:"abba"可以映射为"1221"
+# 2.strs:将strs 用split分开成数组,["red" "Blue" "Blue" "Red"]=>"1221"
+# 3.编写wordPattern:借助HASH TABLE临时存储{letter,num}，如果存在于H.T.中的字母，则返回其num值，否则（不存在H.T中的字母）添加到HASH表中再返回num值。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wordPattern(self, pattern: str, strs: str) -> bool:
         def patternform(item):
@@ -34,4 +34,4 @@ class Solution:
 
 
 
-```
+# ```

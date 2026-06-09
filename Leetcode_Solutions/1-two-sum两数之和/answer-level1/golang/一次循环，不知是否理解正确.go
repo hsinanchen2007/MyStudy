@@ -1,4 +1,4 @@
-```
+// ```
 func towSum(nums *[]int, target int)(r [2]int){
 	var i,j  int;
 	j = len(*nums) - 1
@@ -18,4 +18,4 @@ func towSum(nums *[]int, target int)(r [2]int){
 	}
 	return
 }
-```
+// ```

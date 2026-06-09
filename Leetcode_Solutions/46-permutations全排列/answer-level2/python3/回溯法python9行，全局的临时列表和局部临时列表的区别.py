@@ -1,6 +1,6 @@
-**全局的临时列表需要手动维护，所以回溯的时候pop或者remove是不可少的**
+# **全局的临时列表需要手动维护，所以回溯的时候pop或者remove是不可少的**
 
-```
+# ```
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         temp_lis = []  # 临时列表
@@ -19,10 +19,10 @@ class Solution:
             temp_lis.pop()
         back_track(nums)
         return res
-```
+# ```
 
-**局部的临时列表，back_func自己在维护**
-```
+# **局部的临时列表，back_func自己在维护**
+# ```
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         res = []
@@ -34,5 +34,5 @@ class Solution:
                 backtrack(nums[:i] + nums[i+1:], temp_lis + [nums[i]])
         backtrack(nums, [])
         return res
-```
+# ```
 

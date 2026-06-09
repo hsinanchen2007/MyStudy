@@ -1,7 +1,7 @@
-# 解题思路 
-1 冒泡排序
-# 代码
-```
+# # 解题思路 
+# 1 冒泡排序
+# # 代码
+# ```
 class Solution(object):
     def sortArray(self, nums):
         """
@@ -14,10 +14,10 @@ class Solution(object):
                 if nums[j]>nums[j+1]:
                     nums[j],nums[j+1]=nums[j+1],nums[j]
         return nums
-```
-# 选择排序
-# 代码
-```
+# ```
+# # 选择排序
+# # 代码
+# ```
 class Solution(object):
     def sortArray(self, nums):
         """
@@ -32,10 +32,10 @@ class Solution(object):
                     min = j
             nums[i],nums[min]=nums[min],nums[i]
         return nums
-```
-# 快速排序
-# 代码
-```
+# ```
+# # 快速排序
+# # 代码
+# ```
 class Solution(object):
     def sortArray(self, nums):
         """
@@ -66,4 +66,4 @@ class Solution(object):
             quick_sort(nums,low+1,last)
         quick_sort(nums,0,n-1)
         return nums
-```
+# ```

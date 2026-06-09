@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/fc4d57fc66a85658d9933d1e68b7c87e326c187e04af79f62f93481a9b9fabba-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/fc4d57fc66a85658d9933d1e68b7c87e326c187e04af79f62f93481a9b9fabba-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_NODE_NUM    201
 int g_status[MAX_NODE_NUM][MAX_NODE_NUM][2];
 
@@ -84,4 +84,4 @@ int catMouseGame(int** graph, int graphSize, int* graphColSize)
 
     return g_status[1][2][0];
 }
-```
+// ```

@@ -1,8 +1,8 @@
-- 建立哈希表映射统计,排除空格大小写等干扰
-- 判断映射单词中字母个数
-- 判断映射字母个数相等情况,判断单词长短
-- ASCII中`A`与`a`相差32
-```GO []
+// - 建立哈希表映射统计,排除空格大小写等干扰
+// - 判断映射单词中字母个数
+// - 判断映射字母个数相等情况,判断单词长短
+// - ASCII中`A`与`a`相差32
+// ```GO []
 func shortestCompletingWord(licensePlate string, words []string) string {
     var out string
     var shortWordLen,wordLen int
@@ -42,8 +42,8 @@ func shortestCompletingWord(licensePlate string, words []string) string {
     
     return out
 }
-```
-```PHP []
+// ```
+// ```PHP []
 class Solution {
 
     /**
@@ -93,4 +93,4 @@ class Solution {
         return $out;
     }
 }
-```
+// ```

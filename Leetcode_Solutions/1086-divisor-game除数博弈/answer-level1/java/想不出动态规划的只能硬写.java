@@ -1,5 +1,5 @@
-击败6.93%的Java程序......想不出动态规划。憨憨的实在人只能硬写:(
-```
+// 击败6.93%的Java程序......想不出动态规划。憨憨的实在人只能硬写:(
+// ```
 public class P1025_DivisorGame {
     public enum ResultEnum {
         NOT_STARTED {
@@ -70,4 +70,4 @@ public class P1025_DivisorGame {
     }
 }
 
-```
+// ```

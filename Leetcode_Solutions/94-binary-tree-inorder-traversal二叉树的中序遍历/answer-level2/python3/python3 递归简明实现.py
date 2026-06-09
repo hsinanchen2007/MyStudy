@@ -1,5 +1,5 @@
 
-```递归实现 []
+# ```递归实现 []
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
@@ -16,9 +16,9 @@ class Solution:
         list.append(root.val)                     #添加根节点
         list += self. inorderTraversal(root.right)#添加右节点  
         return list
-```
+# ```
 
-```栈实现 []
+# ```栈实现 []
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
             p = item.right       #再看右节点需要不需要迭代
         return out
         
-```
+# ```

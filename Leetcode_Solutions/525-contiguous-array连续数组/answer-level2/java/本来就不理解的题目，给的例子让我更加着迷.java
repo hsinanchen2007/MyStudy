@@ -1,9 +1,9 @@
-### 解题思路
-解法是别人的
-map中存放的是对于当前遍历中数据总和（0和1们这里吧0认为成-1）为key的value，这里的值即是当前位置的最大连续字串
-### 代码
+// ### 解题思路
+// 解法是别人的
+// map中存放的是对于当前遍历中数据总和（0和1们这里吧0认为成-1）为key的value，这里的值即是当前位置的最大连续字串
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findMaxLength(int[] nums) {
      int max = 0;
@@ -31,4 +31,4 @@ class Solution {
         return max; 
     }
 }
-```
+// ```

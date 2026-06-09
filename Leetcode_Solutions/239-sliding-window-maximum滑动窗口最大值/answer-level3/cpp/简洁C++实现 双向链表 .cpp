@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 vector<int> maxSlidingWindow(vector<int>& nums, int k) {
   vector<int> res;
   deque<int> dq;
@@ -10,4 +10,4 @@ vector<int> maxSlidingWindow(vector<int>& nums, int k) {
   }
   return res;
 }
-```
+// ```

@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/883e33ad918ccc0925c21fcaa329cf3c2b3e6eaf70f6af1ff743474190de5bc7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/883e33ad918ccc0925c21fcaa329cf3c2b3e6eaf70f6af1ff743474190de5bc7-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 @yueshuiniao 学到了巧妙的计数方式
 优化计数方式
-```
+// ```
 
-### 代码
-```js
+// ### 代码
+// ```js
 
 var levelOrderBottom = function(root) {
   let queue = [],
@@ -77,4 +77,4 @@ var levelOrderBottom = function(root) {
   
 //   return ans;
 // };
-```
+// ```

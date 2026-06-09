@@ -1,6 +1,6 @@
-这里使用一个等待角标 slowNumber，遍历数组，出现不重复的数就对slowNumber进行操作
+// 这里使用一个等待角标 slowNumber，遍历数组，出现不重复的数就对slowNumber进行操作
 
-```cpp
+// ```cpp
 int removeDuplicates(int* nums, int numsSize) {
     if (numsSize == 0) {
      return 0;
@@ -20,4 +20,4 @@ int removeDuplicates(int* nums, int numsSize) {
 }
 
 
-```
+// ```

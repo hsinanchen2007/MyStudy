@@ -1,5 +1,5 @@
-这一题我的想法是这样的（拿题就做，没有考虑许多要求）
-```
+# 这一题我的想法是这样的（拿题就做，没有考虑许多要求）
+# ```
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         if not head:
@@ -17,7 +17,7 @@ class Solution:
             nc = nc.next
         nc.next = nc.next.next
         return head
-```
-特殊情况：链表为空；待删除的是head
-想法：先通过遍历求出Length,再通过n求出待删除的正向index
-随后通过另一次遍历，定位待删除元素的前一个元素，执行删除操作即可
+# ```
+# 特殊情况：链表为空；待删除的是head
+# 想法：先通过遍历求出Length,再通过n求出待删除的正向index
+# 随后通过另一次遍历，定位待删除元素的前一个元素，执行删除操作即可

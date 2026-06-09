@@ -1,9 +1,9 @@
-### 解题思路
-## 找到m节点的父节点，记录下来，从m节点开始迭代，迭代次数为n-m+1，然后拼接起来两边
+// ### 解题思路
+// ## 找到m节点的父节点，记录下来，从m节点开始迭代，迭代次数为n-m+1，然后拼接起来两边
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -43,4 +43,4 @@ class Solution {
 		return pre.next;
     }
 }
-```
+// ```

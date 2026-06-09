@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![2020-04-03 14-04-47 的屏幕截图.png](https://pic.leetcode-cn.com/50b0f3f41ab246535aea2fe3c1f9a55edbb9309e6ebc7bd4807515839662d055-2020-04-03%2014-04-47%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![2020-04-03 14-04-47 的屏幕截图.png](https://pic.leetcode-cn.com/50b0f3f41ab246535aea2fe3c1f9a55edbb9309e6ebc7bd4807515839662d055-2020-04-03%2014-04-47%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -69,4 +69,4 @@ public:
         sudoKubackstrack(board, rc, row, col, gong);
     }
 };
-```
+// ```

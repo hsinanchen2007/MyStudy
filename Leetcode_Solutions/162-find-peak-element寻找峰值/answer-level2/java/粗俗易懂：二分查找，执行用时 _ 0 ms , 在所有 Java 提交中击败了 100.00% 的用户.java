@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findPeakElement(int[] nums) {
         // 既然时间复杂度要求是O(logN)那意味着只能是二分查找的方式了
@@ -24,4 +24,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

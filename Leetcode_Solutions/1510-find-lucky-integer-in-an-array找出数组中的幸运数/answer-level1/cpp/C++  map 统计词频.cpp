@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findLucky(vector<int>& arr) {
@@ -18,5 +18,5 @@ public:
         else return -1;
     }
 };
-```
+// ```
 

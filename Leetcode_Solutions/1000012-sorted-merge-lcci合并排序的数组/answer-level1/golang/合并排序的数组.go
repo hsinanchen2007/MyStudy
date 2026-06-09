@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func merge(A []int, m int, B []int, n int)  {
     // 将 A 复制一份
 	ACopy := make([]int, m)
@@ -33,4 +33,4 @@ func merge(A []int, m int, B []int, n int)  {
 		k++
 	}
 }
-```
+// ```

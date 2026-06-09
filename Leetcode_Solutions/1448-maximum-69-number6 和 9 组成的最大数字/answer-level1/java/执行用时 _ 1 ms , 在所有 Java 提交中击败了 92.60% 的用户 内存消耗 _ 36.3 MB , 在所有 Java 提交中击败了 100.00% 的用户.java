@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximum69Number (int num) {
         ArrayList<Integer> re =  new ArrayList<>();
@@ -24,4 +24,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

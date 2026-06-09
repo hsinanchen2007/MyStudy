@@ -1,14 +1,14 @@
-### 解题思路
-把一个长为 n 的链表拆成 n 个长为 1 的链表， 然后两两合并。
-同习题 [23. 合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/gelthin-liang-liang-he-bing-by-gelthin/) 的思路。
+# ### 解题思路
+# 把一个长为 n 的链表拆成 n 个长为 1 的链表， 然后两两合并。
+# 同习题 [23. 合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/gelthin-liang-liang-he-bing-by-gelthin/) 的思路。
 
-突然发现这是一种新的分治排序的思路啊，完全不需要递归。有点像建堆，堆的结构是从底部到顶部，每个局部局部搭上去的。
-对于数组也可以使用的，但没有链表这么爽快，对于数组，需要记录每段数组开始和结束的位置。
+# 突然发现这是一种新的分治排序的思路啊，完全不需要递归。有点像建堆，堆的结构是从底部到顶部，每个局部局部搭上去的。
+# 对于数组也可以使用的，但没有链表这么爽快，对于数组，需要记录每段数组开始和结束的位置。
 
 
-题解[Sort List （归并排序链表）](https://leetcode-cn.com/problems/sort-list/solution/sort-list-gui-bing-pai-xu-lian-biao-by-jyd/) 的第一种递归的思路是完全使用归并排序的分治递归思路。
-他人代码写的比我巧妙很多啊
-``` python3
+# 题解[Sort List （归并排序链表）](https://leetcode-cn.com/problems/sort-list/solution/sort-list-gui-bing-pai-xu-lian-biao-by-jyd/) 的第一种递归的思路是完全使用归并排序的分治递归思路。
+# 他人代码写的比我巧妙很多啊
+# ``` python3
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
         if not head or not head.next: 
@@ -32,13 +32,13 @@ class Solution:
         h.next = left if left else right # 这里也是, 可以补一个 None
 
         return res.next
-```
-这段代码很好。 
+# ```
+# 这段代码很好。 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -90,4 +90,4 @@ class Solution:
         return new_lists[0]
 
         
-```
+# ```

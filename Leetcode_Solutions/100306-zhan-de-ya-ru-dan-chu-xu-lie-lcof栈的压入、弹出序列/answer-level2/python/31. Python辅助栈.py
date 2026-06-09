@@ -1,9 +1,9 @@
-### 解题思路
-这道题最直观的想法就是利用辅助栈，模拟一遍出栈序列即可。
+# ### 解题思路
+# 这道题最直观的想法就是利用辅助栈，模拟一遍出栈序列即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def validateStackSequences(self, pushed, popped):
         """
@@ -27,4 +27,4 @@ class Solution(object):
                 del stack[-1]
                 q += 1
         return True
-```
+# ```

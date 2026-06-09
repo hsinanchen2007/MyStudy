@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         # 想到最好的方式就是直接split,但是直接用库函数良心过不去
@@ -23,4 +23,4 @@ class Solution:
             return res
         res = len(splitFun(s, " ")[-1])
         return res
-```
+# ```

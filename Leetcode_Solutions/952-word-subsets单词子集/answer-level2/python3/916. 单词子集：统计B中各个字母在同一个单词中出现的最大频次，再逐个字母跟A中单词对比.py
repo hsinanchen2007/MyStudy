@@ -1,6 +1,6 @@
-详见注释：
+# 详见注释：
 
-```python []
+# ```python []
 class Solution:
     def wordSubsets(self, A: List[str], B: List[str]) -> List[str]:
         ctB = collections.defaultdict(int)
@@ -15,4 +15,4 @@ class Solution:
                     return False
             return True
         return [*filter(f, A)]              #过滤解包成列表
-```
+# ```

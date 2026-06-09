@@ -1,7 +1,7 @@
-从前遍历找到i使得s[i]是字母或数字；
-从后遍历找到j使得s[j]是字母或数字；
-忽略大小写判断s[i]==s[j]。
-```
+// 从前遍历找到i使得s[i]是字母或数字；
+// 从后遍历找到j使得s[j]是字母或数字；
+// 忽略大小写判断s[i]==s[j]。
+// ```
 class Solution {
 public:
     bool isPalindrome(string &s) {
@@ -13,4 +13,4 @@ public:
         return true;
     }
 };
-```
+// ```

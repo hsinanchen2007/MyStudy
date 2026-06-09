@@ -1,9 +1,9 @@
-### 解题思路
-双指针，找公共切面 2333
+// ### 解题思路
+// 双指针，找公共切面 2333
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 /**
@@ -46,4 +46,4 @@ int* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* return
 }
 
 
-```
+// ```

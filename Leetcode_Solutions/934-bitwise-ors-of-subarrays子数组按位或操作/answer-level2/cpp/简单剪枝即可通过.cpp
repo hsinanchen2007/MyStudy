@@ -1,9 +1,9 @@
-### 解题思路
-必须剪枝，否则超时，可以通过记录A[i]前最大可以置位的bit，全部置位后即可跳出循环
+// ### 解题思路
+// 必须剪枝，否则超时，可以通过记录A[i]前最大可以置位的bit，全部置位后即可跳出循环
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int subarrayBitwiseORs(vector<int>& A) {
@@ -23,4 +23,4 @@ public:
         return mset.size();
     }
 };
-```
+// ```

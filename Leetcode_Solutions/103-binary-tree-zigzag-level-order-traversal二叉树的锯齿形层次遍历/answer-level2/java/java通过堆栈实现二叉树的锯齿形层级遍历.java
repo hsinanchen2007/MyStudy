@@ -1,9 +1,9 @@
- **思路**
-采用两个堆栈popStack、pushStack，其中popStack存储当前遍历层级的节点信息，pushStack存储下一层级遍历的节点信息，且奇数层级从右往左依次入栈，偶数层级从左往右依次入栈。
+//  **思路**
+// 采用两个堆栈popStack、pushStack，其中popStack存储当前遍历层级的节点信息，pushStack存储下一层级遍历的节点信息，且奇数层级从右往左依次入栈，偶数层级从左往右依次入栈。
 
-**实现代码**
+// **实现代码**
 
-```java
+// ```java
 package leetcode;
 
 import java.util.ArrayList;
@@ -131,4 +131,4 @@ public class leetcode_103 {
 }
 
 
-```
+// ```

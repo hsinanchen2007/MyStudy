@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int binaryGap(int N) {
@@ -18,4 +18,4 @@ public:
         return res;
     }
 };
-```
+// ```

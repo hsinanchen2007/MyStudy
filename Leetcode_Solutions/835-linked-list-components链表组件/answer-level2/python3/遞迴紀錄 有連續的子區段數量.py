@@ -1,11 +1,11 @@
-### 解题思路
-遞迴紀錄 有連續的子區段數量
-有發生連續就一直累加 current
-當發生斷點 就將current歸零 並且對結果 res +1 表示 紀錄有發生的子集
+# ### 解题思路
+# 遞迴紀錄 有連續的子區段數量
+# 有發生連續就一直累加 current
+# 當發生斷點 就將current歸零 並且對結果 res +1 表示 紀錄有發生的子集
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
 
         Next(head) 
         return res 
-```
+# ```

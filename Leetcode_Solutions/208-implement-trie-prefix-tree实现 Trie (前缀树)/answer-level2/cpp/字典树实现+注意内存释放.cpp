@@ -1,4 +1,4 @@
-```C++
+// ```C++
 class TrieNode {
 public:
     char val;
@@ -70,7 +70,7 @@ Trie::~Trie() {
     delete root;
 }
 
-```
+// ```
 
-简单的用valgrind测了一下内存泄漏情况
-![屏幕快照 2020-03-31 下午10.37.05 上午.png](https://pic.leetcode-cn.com/676a136e4f5435c33622c5beaa1139d6d808e1e720d81f327c9996186b4711a5-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-31%20%E4%B8%8B%E5%8D%8810.37.05%20%E4%B8%8A%E5%8D%88.png)
+// 简单的用valgrind测了一下内存泄漏情况
+// ![屏幕快照 2020-03-31 下午10.37.05 上午.png](https://pic.leetcode-cn.com/676a136e4f5435c33622c5beaa1139d6d808e1e720d81f327c9996186b4711a5-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-31%20%E4%B8%8B%E5%8D%8810.37.05%20%E4%B8%8A%E5%8D%88.png)

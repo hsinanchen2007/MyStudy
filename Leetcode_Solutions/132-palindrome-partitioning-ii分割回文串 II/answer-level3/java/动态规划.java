@@ -1,5 +1,5 @@
-优化：预先遍历一下字符串记录下标i到j是否是回文字符串，然后再dp
-```
+// 优化：预先遍历一下字符串记录下标i到j是否是回文字符串，然后再dp
+// ```
 class Solution {
     public int minCut(String s) {
         int n = s.length();
@@ -33,4 +33,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

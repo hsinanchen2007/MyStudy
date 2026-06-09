@@ -1,10 +1,10 @@
-### 解题思路
-太多字符串操作，速度被消耗了。
-![image.png](https://pic.leetcode-cn.com/d47d85635a8bac043b319435eee3cff4eb77216a4fa8bf70c4c66f802eea6355-image.png)
+// ### 解题思路
+// 太多字符串操作，速度被消耗了。
+// ![image.png](https://pic.leetcode-cn.com/d47d85635a8bac043b319435eee3cff4eb77216a4fa8bf70c4c66f802eea6355-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String shortestCommonSupersequence(String str1, String str2) {
         String[] carr = new String[str1.length() + 1];
@@ -33,4 +33,4 @@ class Solution {
         return carr[carr.length - 1];
     }
 }
-```
+// ```

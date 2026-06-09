@@ -1,11 +1,11 @@
-- 同 [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
-- 归并排序的 归并 部分
+// - 同 [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
+// - 归并排序的 归并 部分
 
-# 本题代码
+// # 本题代码
 
-## 顺序填入
+// ## 顺序填入
 
-```java
+// ```java
 public void merge(int[] nums1, int m, int[] nums2, int n) {
     int[] temp = new int[m + n];
     int ti = 0, i = 0, j = 0;
@@ -16,12 +16,12 @@ public void merge(int[] nums1, int m, int[] nums2, int n) {
     while (j < n) temp[ti++] = nums2[j++];
     System.arraycopy(temp, 0, nums1, 0, m + n);
 }
-```
+// ```
 
 
-## 倒序填入
+// ## 倒序填入
 
-```java
+// ```java
 public void merge(int[] nums1, int m, int[] nums2, int n) {
     int ti = m + n - 1, i = m - 1, j = n - 1;
     while (i >= 0 && j >= 0) {
@@ -30,11 +30,11 @@ public void merge(int[] nums1, int m, int[] nums2, int n) {
     while (i >= 0) nums1[ti--] = nums1[i--];
     while (j >= 0) nums1[ti--] = nums2[j--];
 }
-```
+// ```
 
-# 归并排序
+// # 归并排序
 
-```java
+// ```java
 public void mergeSort(int[] array, int left, int right) {
     if (right <= left) return;
     int mid = left + ((right - left) >> 1); // (left + right) / 2
@@ -65,5 +65,5 @@ private void merge(int[] arr, int left, int mid, int right) {
     }
     // 也可以用 System.arraycopy(a, start1, b, start2, length)
 }
-```
+// ```
 

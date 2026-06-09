@@ -1,6 +1,6 @@
-- dp[i][j]：表示从第i个到第j个角所形成的三角形的最小面积
-- 状态转换方程 dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j] + A[i] * A[k] * A[j])
-```
+// - dp[i][j]：表示从第i个到第j个角所形成的三角形的最小面积
+// - 状态转换方程 dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j] + A[i] * A[k] * A[j])
+// ```
 var minScoreTriangulation = function(A) {
   let len = A.length;
   let dp = Array.from({length: len}, () => new Array(len).fill(10000000));
@@ -16,5 +16,5 @@ var minScoreTriangulation = function(A) {
   }
   return dp[0][len - 1];
 };
-```
+// ```
 

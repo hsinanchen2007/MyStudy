@@ -1,9 +1,9 @@
-### 解题思路
-中规中矩的逐位相乘、逐行相加
+# ### 解题思路
+# 中规中矩的逐位相乘、逐行相加
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         if num1 == '0' or num2 == '0':
@@ -35,4 +35,4 @@ class Solution:
             start += '0'
         return ans
         
-```
+# ```

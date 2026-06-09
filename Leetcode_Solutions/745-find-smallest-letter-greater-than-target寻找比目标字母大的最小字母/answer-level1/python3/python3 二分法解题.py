@@ -1,9 +1,9 @@
-### 解题思路
-主要是使用了二分法，按照模板套，把特殊情况也就是相同的字母在开头或结尾的时候的处理方法
-时间超过97%，内存超过39%
-### 代码
+# ### 解题思路
+# 主要是使用了二分法，按照模板套，把特殊情况也就是相同的字母在开头或结尾的时候的处理方法
+# 时间超过97%，内存超过39%
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
         target_num=ord(target)
@@ -21,4 +21,4 @@ class Solution:
             else:
                 left = mid+1
         return letters[left]
-```
+# ```

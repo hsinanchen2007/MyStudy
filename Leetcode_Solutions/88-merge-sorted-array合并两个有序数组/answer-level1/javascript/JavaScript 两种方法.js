@@ -1,9 +1,9 @@
-### 解题思路
-注意注释 ：@return {void} Do not return anything, modify nums1 in-place instead.就是说不要改变原数组，不要return
+// ### 解题思路
+// 注意注释 ：@return {void} Do not return anything, modify nums1 in-place instead.就是说不要改变原数组，不要return
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number} m
@@ -23,4 +23,4 @@ var merge = function(nums1, m, nums2, n) {
     })
     
 };
-```
+// ```

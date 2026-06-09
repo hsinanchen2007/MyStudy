@@ -1,8 +1,8 @@
-1.对nums快速排序
-2.用for循环确定三元组的第一个数i,对于剩下的两个数,设置双指针j=i+1,k=nums.size()-1,从两个前后两个方向搜寻最小值
-和前一题差别不大。
+// 1.对nums快速排序
+// 2.用for循环确定三元组的第一个数i,对于剩下的两个数,设置双指针j=i+1,k=nums.size()-1,从两个前后两个方向搜寻最小值
+// 和前一题差别不大。
 
-```
+// ```
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -37,7 +37,7 @@ public:
         return minres;
     }
 };
-```
-结果：
-![TIM截图20190923154655.png](https://pic.leetcode-cn.com/95b010fcd1d054cb3c0d9059803a7b26b5d5a272905bcd3d90c4142025f387b6-TIM%E6%88%AA%E5%9B%BE20190923154655.png)
+// ```
+// 结果：
+// ![TIM截图20190923154655.png](https://pic.leetcode-cn.com/95b010fcd1d054cb3c0d9059803a7b26b5d5a272905bcd3d90c4142025f387b6-TIM%E6%88%AA%E5%9B%BE20190923154655.png)
 

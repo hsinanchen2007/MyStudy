@@ -1,7 +1,7 @@
-不加入链表，实现简单，用字典保存 [value,time]，再用一个list保存key的次数。
-在删除或者更新self.count时复杂度为O(capacity)
+# 不加入链表，实现简单，用字典保存 [value,time]，再用一个list保存key的次数。
+# 在删除或者更新self.count时复杂度为O(capacity)
 
-```
+# ```
 class LFUCache:
 
     def __init__(self, capacity: int):
@@ -46,4 +46,4 @@ class LFUCache:
 
             self.cache[key]=[value,0]
             self.count[0].append(key)
-```
+# ```

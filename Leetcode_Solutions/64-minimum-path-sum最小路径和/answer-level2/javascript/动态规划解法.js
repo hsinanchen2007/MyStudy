@@ -1,10 +1,10 @@
-### 解题思路
-典型的动态规划，用 dp[i][j] 表示从 (i, j) 出发到 (m-1, n-1) 的最短路径。
-dp[i][j] := min(dp[i+1][j], dp[i][j+1]) + grid[i][j];
+// ### 解题思路
+// 典型的动态规划，用 dp[i][j] 表示从 (i, j) 出发到 (m-1, n-1) 的最短路径。
+// dp[i][j] := min(dp[i+1][j], dp[i][j+1]) + grid[i][j];
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -39,8 +39,8 @@ var minPathSum = function(grid) {
     }
     return dp[0][0];
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(M*N)
-- 空间复杂度 O(M*N)
+// ### 复杂度
+// - 时间复杂度 O(M*N)
+// - 空间复杂度 O(M*N)

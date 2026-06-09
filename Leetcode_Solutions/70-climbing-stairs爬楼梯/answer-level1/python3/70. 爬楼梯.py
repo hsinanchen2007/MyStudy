@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def climbStairs(self, n: int) -> int:
         # 斐波那契数列
@@ -6,4 +6,4 @@ class Solution:
         while len(res) <= n:
             res.append(res[-1] + res[-2])
         return res[n]
-```
+# ```

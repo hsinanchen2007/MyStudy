@@ -1,9 +1,9 @@
-### 解题思路
-如果gcd(x,y)=d,则一定存在整数 a,b使得  ax+by=d成立
+// ### 解题思路
+// 如果gcd(x,y)=d,则一定存在整数 a,b使得  ax+by=d成立
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canMeasureWater(int x, int y, int z) {
@@ -15,4 +15,4 @@ public:
             return z%gcd(x,y)==0;
     }
 };
-```
+// ```

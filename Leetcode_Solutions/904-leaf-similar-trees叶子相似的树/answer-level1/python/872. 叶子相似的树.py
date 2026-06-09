@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution(object):
                         stack.append(root.left)
             return ans
         return dfs(root1) == dfs(root2)
-```
+# ```

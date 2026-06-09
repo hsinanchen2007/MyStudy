@@ -1,6 +1,6 @@
-java 1ms解决问题
+// java 1ms解决问题
 
-```
+// ```
 class Solution {
     public int getDecimalValue(ListNode head) {
         List<Integer> list = new ArrayList<>();
@@ -16,4 +16,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

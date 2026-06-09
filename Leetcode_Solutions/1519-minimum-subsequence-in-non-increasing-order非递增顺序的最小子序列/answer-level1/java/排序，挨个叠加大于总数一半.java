@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> minSubsequence(int[] nums) {
         Arrays.sort(nums);
@@ -21,4 +21,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/bfbf6f6ed96d22f05b0add7baa38b183ef77aefb552a899b116d815ec17ec18a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bfbf6f6ed96d22f05b0add7baa38b183ef77aefb552a899b116d815ec17ec18a-image.png)
 
-### 解题思路
-套dfs模板，设计visited数组防止重复访问，
-注意开始需要判断起始点是否符合条件
+// ### 解题思路
+// 套dfs模板，设计visited数组防止重复访问，
+// 注意开始需要判断起始点是否符合条件
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //初始化x,y方向数组
@@ -44,4 +44,4 @@ public:
         }
     }
 };
-```
+// ```

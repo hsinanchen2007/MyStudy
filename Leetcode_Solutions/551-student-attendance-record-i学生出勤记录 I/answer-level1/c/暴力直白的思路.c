@@ -1,8 +1,8 @@
-##菜鸟的暴力思路，O(∩_∩)O哈哈~
+// ##菜鸟的暴力思路，O(∩_∩)O哈哈~
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool checkRecord(char * s){
     int i;
     int cntA = 0;
@@ -28,4 +28,4 @@ bool checkRecord(char * s){
         return false;
     }
 }
-```
+// ```

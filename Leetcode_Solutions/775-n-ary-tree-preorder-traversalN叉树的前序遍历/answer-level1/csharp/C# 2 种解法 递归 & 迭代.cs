@@ -1,11 +1,11 @@
-### 解题思路
-迭代
-时间复杂度:O(n)
-空间复杂度 O(n)
+// ### 解题思路
+// 迭代
+// 时间复杂度:O(n)
+// 空间复杂度 O(n)
 
-### 代码
+// ### 代码
 
-```csharp []
+// ```csharp []
 public class Solution {
         public IList<int> Preorder(Node root)
         {
@@ -27,16 +27,16 @@ public class Solution {
             return forReturn;
         }
 }
-```
+// ```
 
-### 解题思路
-递归
-时间复杂度:O(n)
-空间复杂度:O(h)
+// ### 解题思路
+// 递归
+// 时间复杂度:O(n)
+// 空间复杂度:O(h)
 
-### 代码
+// ### 代码
 
-```csharp []
+// ```csharp []
 public class Solution {
         public IList<int> Preorder1(Node root)
         {
@@ -57,4 +57,4 @@ public class Solution {
                 Dfs(item);
         }
 }
-```
+// ```

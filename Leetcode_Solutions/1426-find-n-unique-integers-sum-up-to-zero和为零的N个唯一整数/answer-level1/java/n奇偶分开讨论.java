@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sumZero(int n) {
         List<Integer> ans=new ArrayList<Integer>();
@@ -19,4 +19,4 @@ class Solution {
         return ans.stream().mapToInt(Integer::valueOf).toArray();
     }
 }
-```
+// ```

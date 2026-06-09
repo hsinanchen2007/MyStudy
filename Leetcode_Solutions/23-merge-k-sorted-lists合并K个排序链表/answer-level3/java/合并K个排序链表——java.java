@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-遍历所有非空链表的表头，
-取出其中最小的值，
-直到所有链表为空。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 遍历所有非空链表的表头，
+// 取出其中最小的值，
+// 直到所有链表为空。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -67,4 +67,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

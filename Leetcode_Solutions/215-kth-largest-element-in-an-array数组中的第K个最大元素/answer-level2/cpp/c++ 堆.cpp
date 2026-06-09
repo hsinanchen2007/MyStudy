@@ -1,12 +1,12 @@
-### 解题思路
-使用priority_queue<int>  大顶堆
+// ### 解题思路
+// 使用priority_queue<int>  大顶堆
 
 
-priority_queue<int,vector<inr>,greater<int>>  小顶堆
+// priority_queue<int,vector<inr>,greater<int>>  小顶堆
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-和划分K个子解一样，本题就是划分4个子集。先排除不是4的倍数或者单值大于单边值的情况，然后去掉直接等于边长的数字，最后通过递归算就行了。递归部分思想很简单，就是考虑将一个个数往合适的子集插入，这么判断合适呢，我数据用完了肯定合适了。
+// ### 解题思路
+// 和划分K个子解一样，本题就是划分4个子集。先排除不是4的倍数或者单值大于单边值的情况，然后去掉直接等于边长的数字，最后通过递归算就行了。递归部分思想很简单，就是考虑将一个个数往合适的子集插入，这么判断合适呢，我数据用完了肯定合适了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 bool judge(vector<int>groups,vector<int> &nums,int index,int len){
@@ -42,4 +42,4 @@ bool judge(vector<int>groups,vector<int> &nums,int index,int len){
         return judge(groups,nums,index,len);
     }
 };
-```
+// ```

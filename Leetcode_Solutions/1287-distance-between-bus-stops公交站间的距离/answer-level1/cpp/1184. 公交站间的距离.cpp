@@ -1,5 +1,5 @@
-出这么简单的题真的好么……
-```
+// 出这么简单的题真的好么……
+// ```
 class Solution {
 public:
     int distanceBetweenBusStops(vector<int>& distance, int start, int destination) {
@@ -24,4 +24,4 @@ public:
         return min(sum1,sum2);
     }
 };
-```
+// ```

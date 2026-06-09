@@ -1,9 +1,9 @@
-From Xuebi-God C++
+// From Xuebi-God C++
 
 
-解法：Trie字典树+深度遍历搜索+flag标志是否已经替换
+// 解法：Trie字典树+深度遍历搜索+flag标志是否已经替换
 
-```zephir
+// ```zephir
 class MagicDictionary {
 public:
     /** Initialize your data structure here. */
@@ -82,4 +82,4 @@ public:
     }
 };
 
-```
+// ```

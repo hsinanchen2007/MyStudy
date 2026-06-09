@@ -1,9 +1,9 @@
-### 解题思路
-同一棵树的条件：根节点值相等，左子树相同，右子树相同
+// ### 解题思路
+// 同一棵树的条件：根节点值相等，左子树相同，右子树相同
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -21,4 +21,4 @@ public:
         return isSameTree(p->left,q->left) && isSameTree(p->right,q->right);
     }
 };
-```
+// ```

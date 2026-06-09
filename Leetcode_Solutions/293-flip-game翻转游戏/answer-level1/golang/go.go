@@ -1,4 +1,4 @@
-```
+// ```
 func generatePossibleNextMoves(s string) []string {
 	out := []string{}
 	for i := 0; i < len(s)-1; i++ {
@@ -10,4 +10,4 @@ func generatePossibleNextMoves(s string) []string {
 	}
 	return out
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-更为简洁的双指针
+// 更为简洁的双指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -17,4 +17,4 @@ public:
         }
     }
 };
-```
+// ```

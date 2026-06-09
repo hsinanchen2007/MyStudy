@@ -1,9 +1,9 @@
-### 解题思路
-注意 ：l 和 r  维护 [l...r]的闭区间
+// ### 解题思路
+// 注意 ：l 和 r  维护 [l...r]的闭区间
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minSubArrayLen(int s, int[] nums) {
         int l = 0;
@@ -25,4 +25,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

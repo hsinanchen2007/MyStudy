@@ -1,10 +1,10 @@
-### 解题思路
-stack1负责插入，stack2负责删除
-举例如下图所示
-![image.png](https://pic.leetcode-cn.com/9b6b70a43b924701001198626738f66db6ef978a738974ea2f1de009ad25a9ae-image.png)
-### 代码
+// ### 解题思路
+// stack1负责插入，stack2负责删除
+// 举例如下图所示
+// ![image.png](https://pic.leetcode-cn.com/9b6b70a43b924701001198626738f66db6ef978a738974ea2f1de009ad25a9ae-image.png)
+// ### 代码
 
-```cpp
+// ```cpp
 class CQueue {
 public:
 	stack<int> s1,s2;//s1负责插入，s2负责删除
@@ -33,4 +33,4 @@ public:
 		return value;
 	}
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1. 给第一个位置选数字，有0-numsSize中可能
-2. 递归选第二个，传一个flag表明哪些nums已被选过
-3. 选好了（idx == numsSize-1）之后记录结果
+// ### 解题思路
+// 1. 给第一个位置选数字，有0-numsSize中可能
+// 2. 递归选第二个，传一个flag表明哪些nums已被选过
+// 3. 选好了（idx == numsSize-1）之后记录结果
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -63,4 +63,4 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     *returnColumnSizes = resultCol;
     return result;
 }
-```
+// ```

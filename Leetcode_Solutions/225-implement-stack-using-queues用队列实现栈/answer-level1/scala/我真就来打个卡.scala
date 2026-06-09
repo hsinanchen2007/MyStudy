@@ -1,6 +1,6 @@
-比较常见的两个队列来完成。一般可以记录下topEle，可以给top方法省些时间。因为题目说不存在异常情况，也就省了相关的操作。
-一个队列也能完成这题，思路都是一样的。
-```
+// 比较常见的两个队列来完成。一般可以记录下topEle，可以给top方法省些时间。因为题目说不存在异常情况，也就省了相关的操作。
+// 一个队列也能完成这题，思路都是一样的。
+// ```
 import scala.collection.mutable._
 class MyStack() {
 
@@ -48,4 +48,4 @@ class MyStack() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

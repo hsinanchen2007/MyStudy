@@ -1,10 +1,10 @@
-### 解题思路
-内存占用13.6M，速度不太行，代码有点啰嗦，有待提高。
-递归方式，向下、向右查找。建立了一个List标记走过的地方，防止重新计算
+# ### 解题思路
+# 内存占用13.6M，速度不太行，代码有点啰嗦，有待提高。
+# 递归方式，向下、向右查找。建立了一个List标记走过的地方，防止重新计算
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         def is_access(m,n,k):
@@ -36,4 +36,4 @@ class Solution:
         return recursion(x,y,m,n,count,lt)
 
 
-```
+# ```

@@ -1,12 +1,12 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/26
- *
- * 解题思路: 只需要计算出相邻的两个数的数字个数就行了 使用hashmap<数值,数量> 来完成
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/26
+//  *
+//  * 解题思路: 只需要计算出相邻的两个数的数字个数就行了 使用hashmap<数值,数量> 来完成
+//  */
+// ```
  public int findLHS2(int[] nums) {
     HashMap<Integer,Integer> hashMap = new HashMap<>();
     int res = 0;
@@ -23,4 +23,4 @@
     }
     return res;
 }
-```
+// ```

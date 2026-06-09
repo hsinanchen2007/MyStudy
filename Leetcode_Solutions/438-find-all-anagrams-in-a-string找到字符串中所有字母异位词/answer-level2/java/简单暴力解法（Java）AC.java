@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/86cbe5ea7bd0b01ecada4e038edadb736661d32fe2fd8e03613faa7dcb48b7d7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/86cbe5ea7bd0b01ecada4e038edadb736661d32fe2fd8e03613faa7dcb48b7d7-image.png)
 
-### 解题思路
-    直接暴力破解，因为排序所以，时间复杂度是O(n^2)
+// ### 解题思路
+//     直接暴力破解，因为排序所以，时间复杂度是O(n^2)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
             List<Integer> result = new ArrayList<>();
@@ -24,4 +24,4 @@ class Solution {
             return result;
     }
 }
-```
+// ```

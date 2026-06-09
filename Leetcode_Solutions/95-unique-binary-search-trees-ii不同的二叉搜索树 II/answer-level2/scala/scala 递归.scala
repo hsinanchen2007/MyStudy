@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def generateTrees(n: Int): List[TreeNode] = n match {
     case 0 => List()
@@ -21,4 +21,4 @@ object Solution {
     res
   }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* 零钱兑换 */
 #define MIN(a, b) (a) < (b) ? (a) : (b)
 
@@ -54,4 +54,4 @@ int coinChange(int *coins, int coinsSize, int amount)
     
     return dp[coinsSize - 1][amount] != INT_MAX ? dp[coinsSize - 1][amount] : -1;
 }
-```
+// ```

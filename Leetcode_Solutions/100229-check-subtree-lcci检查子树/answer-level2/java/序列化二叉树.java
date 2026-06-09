@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean checkSubTree(TreeNode t1, TreeNode t2) {
         if (t1==null || t2==null) return t2==null;
@@ -18,4 +18,4 @@ class Solution {
             
     }
 }
-```
+// ```

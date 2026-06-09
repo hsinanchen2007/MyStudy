@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（n2）
-空间复杂度：O（n2）
+# ### 解题思路
+# 时间复杂度：O（n2）
+# 空间复杂度：O（n2）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         if numRows == 0:
@@ -23,4 +23,4 @@ class Solution:
         all_list.append(num_list)
         return all_list
 
-```
+# ```

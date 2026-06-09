@@ -1,14 +1,14 @@
-### 解题思路
-每一位上元素只能出现一次，比如第一位上，1和2都只能出现一次，往后全拍
-```
+// ### 解题思路
+// 每一位上元素只能出现一次，比如第一位上，1和2都只能出现一次，往后全拍
+// ```
 if (set.contains(nums[i])) {
     continue;
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> mLists = new ArrayList<>();
     public List<List<Integer>> permuteUnique(int[] nums) {
@@ -47,4 +47,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

@@ -1,18 +1,18 @@
-### 解题思路
-执行用时 :
-2 ms
-, 在所有 java 提交中击败了
-92.10%
-的用户
-内存消耗 :
-37.5 MB
-, 在所有 java 提交中击败了
-94.78%
-的用户
+// ### 解题思路
+// 执行用时 :
+// 2 ms
+// , 在所有 java 提交中击败了
+// 92.10%
+// 的用户
+// 内存消耗 :
+// 37.5 MB
+// , 在所有 java 提交中击败了
+// 94.78%
+// 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
         public int minSubArrayLen(int s, int[] nums) {
             int i = 0, j = 0, n = nums.length;
@@ -36,4 +36,4 @@ class Solution {
             return length == Integer.MAX_VALUE ? 0 : length;
         }
     }
-```
+// ```

@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/3b5d3cfa1ff1ceb7372eee8cadbb50852c319691f42d6ad91aeacd499ca7c8ab-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3b5d3cfa1ff1ceb7372eee8cadbb50852c319691f42d6ad91aeacd499ca7c8ab-image.png)
 
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func permute(nums []int) [][]int {
     var total [][]int
     quan(nums,0,&total)
@@ -25,4 +25,4 @@ func quan(nums[]int,idx int,total *[][]int){
         nums[i],nums[idx] = nums[idx],nums[i]
     }
 }
-```
+// ```

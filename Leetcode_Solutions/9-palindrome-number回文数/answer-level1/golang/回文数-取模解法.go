@@ -1,8 +1,8 @@
-解题思路：
-1.负数一律不是回文
-2.数字是否超过int32位
-3.将数字反转后匹配
-```
+// 解题思路：
+// 1.负数一律不是回文
+// 2.数字是否超过int32位
+// 3.将数字反转后匹配
+// ```
 func isPalindrome(x int) bool {
     if x < 0 { return false }  //负数一律返回false
     if x == 0 { return true } 
@@ -22,4 +22,4 @@ func isPalindrome(x int) bool {
         return false
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-![289_lifeGame_rangeSum.png](https://pic.leetcode-cn.com/c0c8c0333d5f0053e5311839467ace9c4486f218f60e588b0358bdc4571b4265-289_lifeGame_rangeSum.png)
-看大家的解法比较集中，更新一个新思路，用range sum，抠掉中心点就可以得到环形面积和了，空间复杂度O(M*N)
-通过indice arithmatics，把board面积求和与环形面积求和合并在一起，时间复杂度O(M*N)
-请大家指点为什么时间复杂度只跑赢了66.02%， 怎么看都应该比主流解法快才对
+// ### 解题思路
+// ![289_lifeGame_rangeSum.png](https://pic.leetcode-cn.com/c0c8c0333d5f0053e5311839467ace9c4486f218f60e588b0358bdc4571b4265-289_lifeGame_rangeSum.png)
+// 看大家的解法比较集中，更新一个新思路，用range sum，抠掉中心点就可以得到环形面积和了，空间复杂度O(M*N)
+// 通过indice arithmatics，把board面积求和与环形面积求和合并在一起，时间复杂度O(M*N)
+// 请大家指点为什么时间复杂度只跑赢了66.02%， 怎么看都应该比主流解法快才对
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -35,4 +35,4 @@ public:
         }
     }
 };
-```
+// ```

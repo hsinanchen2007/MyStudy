@@ -1,11 +1,11 @@
-### 解题思路
-题目没看清，越写越麻烦。
-大致思路用补集
+-- ### 解题思路
+-- 题目没看清，越写越麻烦。
+-- 大致思路用补集
 
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select book_id,name
@@ -23,4 +23,4 @@ having sum(quantity)>=10
 
 
 
-```
+-- ```

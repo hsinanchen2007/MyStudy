@@ -1,10 +1,10 @@
-### 解题思路
-![17.PNG](https://pic.leetcode-cn.com/b1902da0370197e1cdcd6de739bfe4e865b35f10449fda07cb1a20c1a7d57ca1-17.PNG)
+// ### 解题思路
+// ![17.PNG](https://pic.leetcode-cn.com/b1902da0370197e1cdcd6de739bfe4e865b35f10449fda07cb1a20c1a7d57ca1-17.PNG)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void DFS(char** table, int *tableSize, char* digits, int digitsLen, char* str, int index, char** rst, int *rstSize)
 {
     // termination
@@ -61,4 +61,4 @@ char** letterCombinations(char* digits, int* returnSize)
     return rst;
 }
 
-```
+// ```

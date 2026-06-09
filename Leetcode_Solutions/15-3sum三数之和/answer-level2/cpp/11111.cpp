@@ -1,8 +1,8 @@
-### 解题思路
-其实只要i和j不重复就行，因为只有三个数相加，两个数相同第三个数必定相同
-### 代码
+// ### 解题思路
+// 其实只要i和j不重复就行，因为只有三个数相加，两个数相同第三个数必定相同
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -32,4 +32,4 @@ public:
         return ans;
     }
 };
-```
+// ```

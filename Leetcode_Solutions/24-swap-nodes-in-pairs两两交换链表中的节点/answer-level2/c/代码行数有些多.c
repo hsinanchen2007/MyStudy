@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,5 +44,5 @@ struct ListNode* swapPairs(struct ListNode* head){
     return relNode;
 
 }
-```
-就是翻转 不知道怎么说 代码行数有些多
+// ```
+// 就是翻转 不知道怎么说 代码行数有些多

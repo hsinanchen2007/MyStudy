@@ -1,4 +1,4 @@
-```ruby []
+# ```ruby []
 def find_median_sorted_arrays(nums1, nums2)
     mid = 0
     nums = []
@@ -31,4 +31,4 @@ def find_median_sorted_arrays(nums1, nums2)
     end
     return mid
 end
-```
+# ```

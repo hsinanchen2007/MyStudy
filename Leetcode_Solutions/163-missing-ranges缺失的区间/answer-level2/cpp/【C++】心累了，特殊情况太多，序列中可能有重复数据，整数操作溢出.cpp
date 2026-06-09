@@ -1,9 +1,9 @@
-1.小心整数操作溢出
-2.区间中数据可能有重复
-3.区间的门限可能不合理
-4.如果返回vector<string> output 这种类型，异常就给容器器中push一个空串
-5.处理第一个和最后一个节点
-```
+// 1.小心整数操作溢出
+// 2.区间中数据可能有重复
+// 3.区间的门限可能不合理
+// 4.如果返回vector<string> output 这种类型，异常就给容器器中push一个空串
+// 5.处理第一个和最后一个节点
+// ```
 /*
 * Copyright (c) Nicolas-Tony Technologies Co., Ltd. 2019-2019. All rights reserved.
 * Description: missing-ranges
@@ -132,4 +132,4 @@ public:
 private:
     vector<string> output;
 };
-```
+// ```

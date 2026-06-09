@@ -1,9 +1,9 @@
-### 解题思路
-参考题解区答案。
+# ### 解题思路
+# 参考题解区答案。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         n = len(nums)
@@ -16,4 +16,4 @@ class Solution:
             tdp1 = dp0 + nums[i]
             dp0, dp1 = tdp0, tdp1
         return max(dp0, dp1)
-```
+# ```

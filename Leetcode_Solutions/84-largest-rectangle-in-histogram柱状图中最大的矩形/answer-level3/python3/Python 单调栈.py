@@ -1,9 +1,9 @@
-### 解题思路
-单调栈O(N)解决
+# ### 解题思路
+# 单调栈O(N)解决
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def largestRectangleArea(self,heights):
         if heights == None or heights == []:
@@ -27,4 +27,4 @@ class Solution:
         return maxArea
 
 
-```
+# ```

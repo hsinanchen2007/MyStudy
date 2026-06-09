@@ -1,5 +1,5 @@
-利用哈希表记录过去的值。看过去是否存在该值的上一个等差值。
-```
+// 利用哈希表记录过去的值。看过去是否存在该值的上一个等差值。
+// ```
 class Solution {
 public:
     int longestSubsequence(vector<int>& arr, int difference) {
@@ -23,4 +23,4 @@ public:
         return ret;
     }
 };
-```
+// ```

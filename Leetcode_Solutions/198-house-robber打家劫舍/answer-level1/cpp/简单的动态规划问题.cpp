@@ -1,9 +1,9 @@
-### 解题思路
-关键就是比较dp[i-1],dp[i-2]+nums[i-1]的大小
+// ### 解题思路
+// 关键就是比较dp[i-1],dp[i-2]+nums[i-1]的大小
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
           return dp[n];
     }
 };
-```
+// ```

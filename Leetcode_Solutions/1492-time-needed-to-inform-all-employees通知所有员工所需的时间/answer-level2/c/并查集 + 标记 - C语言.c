@@ -1,8 +1,8 @@
-/*题目转意过来 就是找到最长的路径
-我们目的是找到叶子到根的最长路径 
-遍历整个表，使用并查集思想，可能遍历是从中间开始的，使用color进行标记*/
+// /*题目转意过来 就是找到最长的路径
+// 我们目的是找到叶子到根的最长路径 
+// 遍历整个表，使用并查集思想，可能遍历是从中间开始的，使用color进行标记*/
 
-```
+// ```
 void Find(int x, int* manager, int* informTime, int *num,int *color) {
     while(manager[x] != -1) {
         color[x] = 1;//标记该点已经访问
@@ -31,4 +31,4 @@ int numOfMinutes(int n, int headID, int* manager, int managerSize, int* informTi
     free(color);
     return g_time;
 }
-```
+// ```

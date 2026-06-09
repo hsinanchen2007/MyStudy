@@ -1,8 +1,8 @@
-很简单的想法，层次遍历，用队列，叶子节点都入队（无论是否空）。
+# 很简单的想法，层次遍历，用队列，叶子节点都入队（无论是否空）。
 
-一旦出现空 后续都必须为空。
+# 一旦出现空 后续都必须为空。
 
-```
+# ```
 class Solution:
     def isCompleteTree(self, root: TreeNode) -> bool:
         """层次遍历时，叶子节点为空。一但出现空，那么后续的值都必须时空。"""
@@ -17,4 +17,4 @@ class Solution:
             if p: # 子节点入队列，无论是否空
                 q.extend([p.left, p.right])
         return True
-```
+# ```

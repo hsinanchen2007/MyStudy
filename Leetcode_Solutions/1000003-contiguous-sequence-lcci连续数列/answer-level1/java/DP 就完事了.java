@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -17,4 +17,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

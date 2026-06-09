@@ -1,8 +1,8 @@
-1.首先找到当前数组中所有元素出现的次数
-2.获取到元素出现次数的集合
-3.如果有元素只出现了一次那么直接返回false
-4.根据辗转相除发找出公约数（辗转相除法：一除数和余数反复做除法当余数为0时取当前除数为最大公约数 gcd(a,b) = gcb(b,a%b)）
-```
+// 1.首先找到当前数组中所有元素出现的次数
+// 2.获取到元素出现次数的集合
+// 3.如果有元素只出现了一次那么直接返回false
+// 4.根据辗转相除发找出公约数（辗转相除法：一除数和余数反复做除法当余数为0时取当前除数为最大公约数 gcd(a,b) = gcb(b,a%b)）
+// ```
 public static boolean hasGroupsSizeX(Integer[] deck) {
         if(deck.length<2){
             return Boolean.FALSE;
@@ -33,4 +33,4 @@ public static boolean hasGroupsSizeX(Integer[] deck) {
 private static int gcd (int a, int b) {
     return b == 0? a: gcd(b, a % b);
 }
-```
+// ```

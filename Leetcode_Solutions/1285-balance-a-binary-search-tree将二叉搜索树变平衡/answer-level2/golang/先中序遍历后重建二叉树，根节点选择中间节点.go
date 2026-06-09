@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -36,4 +36,4 @@ func inorder(root *TreeNode) {
     nodes = append(nodes,root.Val)
     inorder(root.Right)
 }
-```
+// ```

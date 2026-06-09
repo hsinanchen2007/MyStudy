@@ -1,9 +1,9 @@
-### 解题思路
-执行用时 :232 ms, 在所有 Python3 提交中击败了90.25%的用户
+# ### 解题思路
+# 执行用时 :232 ms, 在所有 Python3 提交中击败了90.25%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         s = '#'.join(s) # s = '#'.join(item for item in s)
@@ -48,4 +48,4 @@ class Solution:
 
         # print(s, length)
         return s[left:right+1].replace('#', '')
-```
+# ```

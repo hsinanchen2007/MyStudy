@@ -1,14 +1,14 @@
-解题关键：画图。
+# 解题关键：画图。
 
-![452-1.png](https://pic.leetcode-cn.com/cb6a3040c1cced5f879b2290dbce055b2d4bab7b22f76850a4f4e283b1d3651b-452-1.png)
+# ![452-1.png](https://pic.leetcode-cn.com/cb6a3040c1cced5f879b2290dbce055b2d4bab7b22f76850a4f4e283b1d3651b-452-1.png)
 
-根据以上讨论，我们可以设置一个 `end` 标记， 它表示：**在遍历的过程中使用当前这只箭能够击穿所有气球的最远距离**。这个最远距离，在每遍历一个新区间的时候，都会检查一下，取最小值。
+# 根据以上讨论，我们可以设置一个 `end` 标记， 它表示：**在遍历的过程中使用当前这只箭能够击穿所有气球的最远距离**。这个最远距离，在每遍历一个新区间的时候，都会检查一下，取最小值。
 
-根据以上分析，不难写出下面的代码：
+# 根据以上分析，不难写出下面的代码：
 
-参考代码：
+# 参考代码：
 
-```Python []
+# ```Python []
 class Solution:
     def findMinArrowShots(self, points: List[List[int]]) -> int:
         size = len(points)
@@ -30,8 +30,8 @@ class Solution:
             else:
                 end = min(end, points[i][1])
         return res
-```
-```Java []
+# ```
+# ```Java []
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -70,15 +70,15 @@ public class Solution {
         return minCount;
     }
 }
-```
+# ```
 
-这一版代码提交就已经可以通过了。我们想一想还能不能写得更好一些。经过上面的分析，我们发现，**区间的末尾端点很重要：如果不使用新的箭，新区间末尾端点就要和当前的“最远距离”（含义通过上文可以明白）作一个比较，取最小值。那我不妨就按照区间的末尾端点排序，这样如果不使用新的箭，也不用作比较了**，比起上面的代码来说，就少了一个分支。
+# 这一版代码提交就已经可以通过了。我们想一想还能不能写得更好一些。经过上面的分析，我们发现，**区间的末尾端点很重要：如果不使用新的箭，新区间末尾端点就要和当前的“最远距离”（含义通过上文可以明白）作一个比较，取最小值。那我不妨就按照区间的末尾端点排序，这样如果不使用新的箭，也不用作比较了**，比起上面的代码来说，就少了一个分支。
 
-（如果上面的叙述不好理解的话，可以在草稿纸上多画几条线段，就很清楚了。）
+# （如果上面的叙述不好理解的话，可以在草稿纸上多画几条线段，就很清楚了。）
 
-参考代码：
+# 参考代码：
 
-```Python []
+# ```Python []
 class Solution:
     def findMinArrowShots(self, points: List[List[int]]) -> int:
         size = len(points)
@@ -96,8 +96,8 @@ class Solution:
                 end = points[i][1]
                 res += 1
         return res
-```
-```Java []
+# ```
+# ```Java []
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -131,11 +131,11 @@ public class Solution {
         return count;
     }
 }
-```
+# ```
 
-**复杂度分析**：
+# **复杂度分析**：
 
-+ 时间复杂度：$O(N \log N)$：$N$ 为气球的个数，时间复杂度为排序算法的时间复杂度，感谢用户 @powerboy6 提供的评论。
-+ 空间复杂度：$O(1)$。
+# + 时间复杂度：$O(N \log N)$：$N$ 为气球的个数，时间复杂度为排序算法的时间复杂度，感谢用户 @powerboy6 提供的评论。
+# + 空间复杂度：$O(1)$。
 
 

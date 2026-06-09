@@ -1,5 +1,5 @@
-1. 假设 f(i) 代表爬到第 i 个台阶的最低消耗，则 
-***f(0) = cost[0]，f(1) = cost[1]
+// 1. 假设 f(i) 代表爬到第 i 个台阶的最低消耗，则 
+// ***f(0) = cost[0]，f(1) = cost[1]
 f(k) = min(f(k-1), f(k-2)) + cost[k]***
 问题问的是到楼顶的最低消耗，所以到楼顶前的最后一步可能是 f(cost.size()-1) 或者 f(cost.size()-2)
 所以最后应该 `return min(f(cost.size()-1), f(cost.size()-2));`

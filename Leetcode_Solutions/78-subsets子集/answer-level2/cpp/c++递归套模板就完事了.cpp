@@ -1,9 +1,9 @@
-### 解题思路
-套模板
+// ### 解题思路
+// 套模板
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) 
@@ -31,4 +31,4 @@ public:
 };
 
 
-```
+// ```

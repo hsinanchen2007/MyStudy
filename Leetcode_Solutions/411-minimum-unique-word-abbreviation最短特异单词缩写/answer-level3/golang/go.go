@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"strconv"
 )
@@ -65,4 +65,4 @@ func minAbbreviation(target string, dictionary []string) string {
 	}
 	return ""
 }
-```
+// ```

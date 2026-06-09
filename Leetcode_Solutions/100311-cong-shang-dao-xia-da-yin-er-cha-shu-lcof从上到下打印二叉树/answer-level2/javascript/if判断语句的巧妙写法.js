@@ -1,5 +1,5 @@
-### 自己略显冗余的代码
-```
+// ### 自己略显冗余的代码
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -36,9 +36,9 @@ var levelOrder = function(root) {
     return res
 };
 
-```
-### 大佬非常巧妙的用法
-```
+// ```
+// ### 大佬非常巧妙的用法
+// ```
 var levelOrder = function(root) {
     if (!root) {
         return [];
@@ -56,4 +56,4 @@ var levelOrder = function(root) {
 
     return data;
 };
-```
+// ```

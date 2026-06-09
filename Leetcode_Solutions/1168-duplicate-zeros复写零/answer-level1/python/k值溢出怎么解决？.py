@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
     def duplicateZeros(self, arr):
         """
@@ -17,4 +17,4 @@ class Solution(object):
                 k=k+1
         except Exception,e:
             pass
-```
+# ```

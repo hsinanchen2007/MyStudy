@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def isReflected(self, points: List[List[int]]) -> bool:
         dic = collections.defaultdict(set)
@@ -31,4 +31,4 @@ class Solution:
 
 
 
-```
+# ```

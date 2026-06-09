@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b13ad97f7fac916bfefab8509c3a14cff1588fbfb8e3b4e2cbd9cef48933d229-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b13ad97f7fac916bfefab8509c3a14cff1588fbfb8e3b4e2cbd9cef48933d229-image.png)
 
 
-```
+# ```
 '''
 中序遍历然后两个列表进行归并
 '''
@@ -38,4 +38,4 @@ class Solution:
             ans.extend(l2[j:])
 
         return ans
-```
+# ```

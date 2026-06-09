@@ -1,10 +1,10 @@
-### 解题思路
-I just want to try to find all boundary conditions and solve this problem
-maybe it is not one effective solution, but to be honesty it give me too much encourage to go on studying in leetcode. Thank you 
+# ### 解题思路
+# I just want to try to find all boundary conditions and solve this problem
+# maybe it is not one effective solution, but to be honesty it give me too much encourage to go on studying in leetcode. Thank you 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, s: str) -> int:
         a={}
@@ -95,4 +95,4 @@ class Solution:
             return int_min
         return answer
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-Golang递归求解
+// ### 解题思路
+// Golang递归求解
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -34,4 +34,4 @@ func isBalanced(root *TreeNode) bool {
 	}
 	return math.Abs(float64(getHeight(root.Left) - getHeight(root.Right))) <= 1 && isBalanced(root.Left) && isBalanced(root.Right)
 }
-```
+// ```

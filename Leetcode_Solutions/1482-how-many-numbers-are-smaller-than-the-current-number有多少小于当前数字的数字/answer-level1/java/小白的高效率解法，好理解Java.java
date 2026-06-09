@@ -1,9 +1,9 @@
-### 解题思路
-看注释
+// ### 解题思路
+// 看注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] copy = Arrays.copyOf(nums,nums.length);
@@ -24,4 +24,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

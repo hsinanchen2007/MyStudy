@@ -1,4 +1,4 @@
-```
+// ```
 public int numJewelsInStones(String J, String S) {
         int count = 0;
         char[] chars = S.toCharArray();
@@ -12,4 +12,4 @@ public int numJewelsInStones(String J, String S) {
         }
         return count;
     }
-```
+// ```

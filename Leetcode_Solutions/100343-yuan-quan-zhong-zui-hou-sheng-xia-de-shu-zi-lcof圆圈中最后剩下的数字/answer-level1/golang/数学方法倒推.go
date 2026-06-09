@@ -1,9 +1,9 @@
-### 解题思路
-打卡
+// ### 解题思路
+// 打卡
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lastRemaining(n int, m int) int {
 	res := 0
 
@@ -12,4 +12,4 @@ func lastRemaining(n int, m int) int {
 	}
 	return res
 }
-```
+// ```

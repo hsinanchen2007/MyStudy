@@ -1,9 +1,9 @@
-### 解题思路
-LFU Cache
+// ### 解题思路
+// LFU Cache
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct Node {
     int cnt, time, key, value;
     Node(int cnt, int time, int key, int value):cnt(cnt), time(time), key(key), value(value){}
@@ -73,4 +73,4 @@ public:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

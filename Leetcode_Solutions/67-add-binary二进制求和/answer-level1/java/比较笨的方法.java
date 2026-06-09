@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :4 ms, 在所有 Java 提交中击败了27.78%的用户
-内存消耗 :35.9 MB, 在所有 Java 提交中击败了76.97%的用户
-我是不是没救了！！！
+// ### 解题思路
+// 执行用时 :4 ms, 在所有 Java 提交中击败了27.78%的用户
+// 内存消耗 :35.9 MB, 在所有 Java 提交中击败了76.97%的用户
+// 我是不是没救了！！！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addBinary(String a, String b) {
         StringBuilder res = new StringBuilder();
@@ -35,4 +35,4 @@ class Solution {
         return res.reverse().toString();
     }
 }
-```
+// ```

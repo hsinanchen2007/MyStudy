@@ -1,5 +1,5 @@
-1.正常解法 找山顶
-```
+# 1.正常解法 找山顶
+# ```
 class Solution:
 	def validMountainArray(self,A):
 		legt=len(A)
@@ -16,11 +16,11 @@ class Solution:
 				if A[i]<=A[i+1]:
 					return False
 		return not flag #一直上坡的情况下flag最终是True 符合题意的情况下flag最终是False
-```
+# ```
 
-2.使用groupby对上坡和下坡进行分组（因为这条题目没什么特别需要注意的 所以写得自由了一点）
-注：评论区和其他大佬的题解都不错 以下代码仅供参考
-```
+# 2.使用groupby对上坡和下坡进行分组（因为这条题目没什么特别需要注意的 所以写得自由了一点）
+# 注：评论区和其他大佬的题解都不错 以下代码仅供参考
+# ```
 from itertools import groupby
 class Solution:
 	def validMountainArray(self,A):
@@ -28,5 +28,5 @@ class Solution:
 			return False
 		groups=[len(tuple(i)) for _,i in groupby(-1 if i<j else 1 for i,j in zip(A[:-1],A[1:]) if i!=j)]
 		return len(groups)==2 and sum(groups)==len(A)-1
-```
+# ```
 

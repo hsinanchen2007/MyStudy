@@ -1,14 +1,14 @@
-**思路：**
+# **思路：**
 
-以给的投票时间序列`times`为索引，记录每次投票后的胜出候选人，在查询的时候采用二分法即可在对数时间内返回正确结果。计算胜出候选人的时候，用`hashmap`记录每个候选人的票数，并用变量记录当前优胜者和最大票数，如果投票后，当前投给的候选人票数大于等于当前优胜者的票数，那么替换当前优胜者和最大票数。
+# 以给的投票时间序列`times`为索引，记录每次投票后的胜出候选人，在查询的时候采用二分法即可在对数时间内返回正确结果。计算胜出候选人的时候，用`hashmap`记录每个候选人的票数，并用变量记录当前优胜者和最大票数，如果投票后，当前投给的候选人票数大于等于当前优胜者的票数，那么替换当前优胜者和最大票数。
 
-构造时间复杂度$O(N)$ 查询时间复杂度$O(logN)$
+# 构造时间复杂度$O(N)$ 查询时间复杂度$O(logN)$
 
-空间复杂度$O(N)$
+# 空间复杂度$O(N)$
 
-**代码：**
+# **代码：**
 
-```python
+# ```python
 class TopVotedCandidate:
 
     def __init__(self, persons, times):
@@ -45,4 +45,4 @@ class TopVotedCandidate:
 # Your TopVotedCandidate object will be instantiated and called as such:
 # obj = TopVotedCandidate(persons, times)
 # param_1 = obj.q(t)
-```
+# ```

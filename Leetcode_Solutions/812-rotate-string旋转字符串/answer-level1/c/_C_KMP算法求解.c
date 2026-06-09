@@ -1,15 +1,15 @@
-### 解题思路
-此题思考后有两个思路，一个是队列求解，另一个是KMP算法求解；
-对于队列求解来讲，相对简单，只要维护好front与rear就可以了；
-使用KMP算法求解主要是next数组的维护，next数组求出来后，本题便完成了一半；
-需要思考的是KMP算法是匹配字符串，也就是寻找子串，所以我们可以在B+B找A，或者A+A里找B就可以了。
-代码如下：
-![123.PNG](https://pic.leetcode-cn.com/ef0e7506520b36a236cece7e9813a0a475ca5792182fa27e2035af5166c5e1a5-123.PNG)
+// ### 解题思路
+// 此题思考后有两个思路，一个是队列求解，另一个是KMP算法求解；
+// 对于队列求解来讲，相对简单，只要维护好front与rear就可以了；
+// 使用KMP算法求解主要是next数组的维护，next数组求出来后，本题便完成了一半；
+// 需要思考的是KMP算法是匹配字符串，也就是寻找子串，所以我们可以在B+B找A，或者A+A里找B就可以了。
+// 代码如下：
+// ![123.PNG](https://pic.leetcode-cn.com/ef0e7506520b36a236cece7e9813a0a475ca5792182fa27e2035af5166c5e1a5-123.PNG)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXS 1024
 void KMP(char *s, int *next)
 {
@@ -58,4 +58,4 @@ bool rotateString(char * A, char * B) {
     }
     return false;
 }
-```
+// ```

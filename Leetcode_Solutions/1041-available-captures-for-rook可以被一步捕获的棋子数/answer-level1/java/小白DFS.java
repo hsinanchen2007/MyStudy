@@ -1,9 +1,9 @@
-### 解题思路
-回溯深搜就完了
+// ### 解题思路
+// 回溯深搜就完了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         //定义上下左右四个方向
@@ -36,4 +36,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class MovingAverage {
     function __construct($size) {
         $this->size = $size;
@@ -15,4 +15,4 @@ class MovingAverage {
         return $this->sum/count($this->queue);
     }
 }
-```
+// ```

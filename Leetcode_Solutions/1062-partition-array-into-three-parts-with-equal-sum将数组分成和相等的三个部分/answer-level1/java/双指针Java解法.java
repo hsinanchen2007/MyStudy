@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         if(A==null||A.length==0){
@@ -32,4 +32,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
         new_nums = []
@@ -9,4 +9,4 @@ class Solution:
                     k += 1
             new_nums.append(k)
         return new_nums
-```
+# ```

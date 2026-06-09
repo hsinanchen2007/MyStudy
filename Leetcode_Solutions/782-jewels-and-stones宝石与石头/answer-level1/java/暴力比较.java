@@ -1,9 +1,9 @@
-### 解题思路
-转化为字符数组，遍历进行暴力求解。
+// ### 解题思路
+// 转化为字符数组，遍历进行暴力求解。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numJewelsInStones(String J, String S) {
         char[] Js = J.toCharArray();
@@ -21,4 +21,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

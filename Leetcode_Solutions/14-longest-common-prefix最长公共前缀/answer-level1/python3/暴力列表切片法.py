@@ -1,9 +1,9 @@
-### 解题思路
-找到最短字符长度N，循环n次，用集合长度是否为1判断前缀是否相同
+# ### 解题思路
+# 找到最短字符长度N，循环n次，用集合长度是否为1判断前缀是否相同
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if len(strs)==0:
@@ -21,4 +21,4 @@ class Solution:
             
 
 
-```
+# ```

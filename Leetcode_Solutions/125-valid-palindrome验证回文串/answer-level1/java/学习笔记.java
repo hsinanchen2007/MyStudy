@@ -1,8 +1,8 @@
-思路如下：
-先通过正则表达式处理字符串
-然后循环比较
-效率没那么高
-```
+// 思路如下：
+// 先通过正则表达式处理字符串
+// 然后循环比较
+// 效率没那么高
+// ```
 class Solution {
     public boolean isPalindrome(String s) {
         int i;
@@ -18,4 +18,4 @@ class Solution {
         
     }
 }
-```
+// ```

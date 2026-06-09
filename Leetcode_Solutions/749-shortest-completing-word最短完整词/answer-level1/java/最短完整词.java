@@ -1,9 +1,9 @@
-####  方法：比较计数
-**算法：**
-- 我们计算 `word` 和 `licenseplate` 中的字母数，转换为小写并忽略非字母字符。如果单词中每个字母的计数大于或等于 `licenseplate` 中的字母数，则该单词是 `licensePlate` 的完整词。
-- 我们需要选择最短的完整词且最先出现的单词。
+// ####  方法：比较计数
+// **算法：**
+// - 我们计算 `word` 和 `licenseplate` 中的字母数，转换为小写并忽略非字母字符。如果单词中每个字母的计数大于或等于 `licenseplate` 中的字母数，则该单词是 `licensePlate` 的完整词。
+// - 我们需要选择最短的完整词且最先出现的单词。
 
-```Python [ ]
+// ```Python [ ]
 class Solution(object):
     def shortestCompletingWord(self, licensePlate, words):
         def count(itera):
@@ -23,9 +23,9 @@ class Solution(object):
                 ans = word
 
         return ans
-```
+// ```
 
-```Java [ ]
+// ```Java [ ]
 class Solution {
     public String shortestCompletingWord(String licensePlate, String[] words) {
         int[] target = count(licensePlate);
@@ -54,9 +54,9 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N)$。$N$ 指的是 `words` 的元素个数，比较 `licensePlate` 和 `words[i]` 的字母计数需要 $O(1)$ 的时间
-* 空间复杂度：$O(1)$，使用常数的空间。
+// * 时间复杂度：$O(N)$。$N$ 指的是 `words` 的元素个数，比较 `licensePlate` 和 `words[i]` 的字母计数需要 $O(1)$ 的时间
+// * 空间复杂度：$O(1)$，使用常数的空间。

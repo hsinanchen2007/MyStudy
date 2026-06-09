@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
     return second > third && third >= f ? third : first;
 }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-递归解法：
-```
+// 递归解法：
+// ```
 class Solution {
 public:
     TreeNode* genBST(vector<int>& nums, int left, int right){
@@ -15,4 +15,4 @@ public:
        return genBST(nums, 0, nums.size()-1);
     }
 };
-```
+// ```

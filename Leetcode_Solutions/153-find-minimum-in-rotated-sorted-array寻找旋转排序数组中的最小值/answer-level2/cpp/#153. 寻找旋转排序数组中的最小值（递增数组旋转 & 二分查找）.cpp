@@ -1,10 +1,10 @@
-### 解题思路
-当 nums[low] <= nums[high], [low, high] 是递增的，返回 low。
-如果 nums[low] <= nums[mid], [low, mid] 是递增的，最小值在 [mid+1, high]
-如果 nums[low] >  nums[mid], [mid, high] 是递增的，此时 nums[mid] 可能是最小值，判断是不是，如果不是则最小值在 [low, mid-1]
+// ### 解题思路
+// 当 nums[low] <= nums[high], [low, high] 是递增的，返回 low。
+// 如果 nums[low] <= nums[mid], [low, mid] 是递增的，最小值在 [mid+1, high]
+// 如果 nums[low] >  nums[mid], [mid, high] 是递增的，此时 nums[mid] 可能是最小值，判断是不是，如果不是则最小值在 [low, mid-1]
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return -1;
     }
 };
-```
+// ```

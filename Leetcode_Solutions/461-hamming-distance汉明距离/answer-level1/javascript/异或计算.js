@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var hammingDistance = function (x, y) {
     let result = x ^ y;
     let num = 0;
@@ -18,5 +18,5 @@ var hammingDistance = function (x, y) {
  * & 与位运算付 【运算规则： 将两个操作数转化为二进制进行比较 （比较规则： 两个操作数中位都为1，结果才为1，否则结果为0） 然后将得出的结果转换为十进制】
  * 汉明距离是使用在数据传输差错控制编码里面的，汉明距离是一个概念，它表示两个（相同长度）字对应位不同的数量
  */
-```
+// ```
 

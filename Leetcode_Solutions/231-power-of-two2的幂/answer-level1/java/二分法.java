@@ -1,6 +1,6 @@
-你们都太聪明了，打死我也想不到位运算。。。
+// 你们都太聪明了，打死我也想不到位运算。。。
 
-来个二分干了吧 
+// 来个二分干了吧 
 
     public boolean isPowerOfTwo(int n) {
         if (n<=0) return false;

@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/9500aae565e06456750f135ad02c5f9cc532746d7fc2f7c4e84137918caeef07-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/9500aae565e06456750f135ad02c5f9cc532746d7fc2f7c4e84137918caeef07-image.png)
+// ```
 #define MAX 100000
 int g_father[MAX] = {0};
 int dfs(int root, int kill, int *rst, int *returnSize)
@@ -35,4 +35,4 @@ int* killProcess(int* pid, int pidSize, int* ppid, int ppidSize, int kill, int* 
     }
     return rst;
 }
-```
+// ```

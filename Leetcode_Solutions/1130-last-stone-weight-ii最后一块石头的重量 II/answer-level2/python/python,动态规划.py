@@ -1,11 +1,11 @@
-### 解题思路
-注释是思路过程，代码与思路有修改
-状态转移方程
-dp[i][j]=max(dp[i-1][j],stones[i]+dp[i-1][j-stones[i]] if stones[i]<=j else 0)
+# ### 解题思路
+# 注释是思路过程，代码与思路有修改
+# 状态转移方程
+# dp[i][j]=max(dp[i-1][j],stones[i]+dp[i-1][j-stones[i]] if stones[i]<=j else 0)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lastStoneWeightII(self, stones):
         """
@@ -57,4 +57,4 @@ class Solution(object):
 
 
 
-```
+# ```

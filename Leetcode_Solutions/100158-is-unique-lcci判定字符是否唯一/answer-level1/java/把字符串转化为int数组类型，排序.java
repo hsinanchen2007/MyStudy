@@ -1,9 +1,9 @@
-### 解题思路
-创建一个int数组类型对象s,把字符串中的字符全转化为ASCII或其他数字形式并赋值给s,对s进行排序，遍历s，判断s有没有相等的数字
+// ### 解题思路
+// 创建一个int数组类型对象s,把字符串中的字符全转化为ASCII或其他数字形式并赋值给s,对s进行排序，遍历s，判断s有没有相等的数字
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
 		if(astr.length()<2)return(true);else{
@@ -21,4 +21,4 @@ class Solution {
 		}
     }
 }
-```
+// ```

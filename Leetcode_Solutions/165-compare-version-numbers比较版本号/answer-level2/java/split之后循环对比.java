@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-2 ms
-, 在所有 Java 提交中击败了
-93.24%
-的用户
-内存消耗 :
-34.2 MB
-, 在所有 Java 提交中击败了
-33.34%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 2 ms
+// , 在所有 Java 提交中击败了
+// 93.24%
+// 的用户
+// 内存消耗 :
+// 34.2 MB
+// , 在所有 Java 提交中击败了
+// 33.34%
+// 的用户
+// ```
 class Solution {
     public int compareVersion(String version1, String version2) {
         String[] v1 = version1.split("\\.");
@@ -47,4 +47,4 @@ class Solution {
         }
     }
 }
-```
+// ```

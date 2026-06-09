@@ -1,6 +1,6 @@
-先求和，再取平均值
+// 先求和，再取平均值
 
-```
+// ```
 bool canThreePartsEqualSum(int* A, int ASize){
     int sum = 0;
     for (int i = 0; i < ASize; ++i) sum += A[i];
@@ -20,4 +20,4 @@ bool canThreePartsEqualSum(int* A, int ASize){
     
     return (num == 3 ? true : false);
 }
-```
+// ```

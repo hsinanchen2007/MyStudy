@@ -1,5 +1,5 @@
-首先找到R的坐标，然后四个方向循环查找，找到B，直接退出，找到p，count+1，退出。
-```
+// 首先找到R的坐标，然后四个方向循环查找，找到B，直接退出，找到p，count+1，退出。
+// ```
 func numRookCaptures(_ board: [[Character]]) -> Int {
         var hor = 0
         var ver = 0
@@ -50,4 +50,4 @@ func numRookCaptures(_ board: [[Character]]) -> Int {
         }
         return count
     }
-```
+// ```

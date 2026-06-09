@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public Node connect(Node root) {
         if(root==null||(root.left==null&&root.right==null))
@@ -29,4 +29,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

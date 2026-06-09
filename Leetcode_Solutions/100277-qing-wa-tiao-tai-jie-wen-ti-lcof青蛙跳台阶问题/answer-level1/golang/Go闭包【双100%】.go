@@ -1,4 +1,4 @@
-```
+// ```
 func numWays(n int) int {
 	var f = fibonacci()
 	// 顺序计算，第1项为0，需要调用 f() n+2次
@@ -17,4 +17,4 @@ func fibonacci() func() int {
 		return f
 	}
 }
-```
+// ```

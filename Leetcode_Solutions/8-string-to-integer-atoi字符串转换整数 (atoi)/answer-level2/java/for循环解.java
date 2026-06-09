@@ -1,9 +1,9 @@
-### 解题思路
-太南了，用for循环加一大堆判断
+// ### 解题思路
+// 太南了，用for循环加一大堆判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         char z = '+';
@@ -71,4 +71,4 @@ class Solution {
         return zf ? res : -res;
     }
 }
-```
+// ```

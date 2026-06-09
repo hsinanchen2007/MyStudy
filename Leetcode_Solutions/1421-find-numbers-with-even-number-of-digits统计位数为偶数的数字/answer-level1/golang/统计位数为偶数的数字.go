@@ -1,9 +1,9 @@
-### 解题思路
-由约束知，数组元素只能是2,4,6位数。
+// ### 解题思路
+// 由约束知，数组元素只能是2,4,6位数。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findNumbers(nums []int) int {
 	n := 0
 	for _, v := range nums {
@@ -13,4 +13,4 @@ func findNumbers(nums []int) int {
 	}
 	return n
 }
-```
+// ```

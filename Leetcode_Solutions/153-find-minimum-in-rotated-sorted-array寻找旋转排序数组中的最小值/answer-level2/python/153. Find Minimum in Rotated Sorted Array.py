@@ -1,10 +1,10 @@
-1. 暴力
-2. 二分法
-3. 排序查找nums[0]
-4. 求数组中最小的 min(nums)
+# 1. 暴力
+# 2. 二分法
+# 3. 排序查找nums[0]
+# 4. 求数组中最小的 min(nums)
 
-1.
-```
+# 1.
+# ```
 class Solution(object):
     def findMin(self, nums):
         """
@@ -19,10 +19,10 @@ class Solution(object):
               return nums[i]
         return nums[0]
 print Solution().findMin([3,4,5,1,2])
-```
+# ```
 
-2. 双指针
-```
+# 2. 双指针
+# ```
 class Solution(object):
     def findMin(self, nums):
         """
@@ -45,8 +45,8 @@ class Solution(object):
                 j -= 1
             else:
                 return nums[j]
-```
+# ```
 
 
-3. return sorted(nums)[0]
-4. return min(nums)
+# 3. return sorted(nums)[0]
+# 4. return min(nums)

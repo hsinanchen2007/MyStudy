@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -20,4 +20,4 @@ public:
         return odd <= 1;//若出现奇数次的元素个数小于等于1返回true
     }
 };
-```
+// ```

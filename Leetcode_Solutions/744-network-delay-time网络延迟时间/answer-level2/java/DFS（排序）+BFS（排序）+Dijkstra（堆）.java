@@ -1,6 +1,6 @@
-需要进行路径的排序，否则会超时
-1.DFS
-```
+// 需要进行路径的排序，否则会超时
+// 1.DFS
+// ```
 class Solution {
     public int networkDelayTime(int[][] times, int N, int K) {
         Map<Integer, Integer> distance = new HashMap<>(); // 记录到达当前节点的最短路径
@@ -46,9 +46,9 @@ class Solution {
         }
     }
 }
-```
-2.BFS
-```
+// ```
+// 2.BFS
+// ```
 class Solution {
     public int networkDelayTime(int[][] times, int N, int K) {
         Map<Integer, Integer> distance = new HashMap<>(); // 记录到达当前节点的最短路径
@@ -104,9 +104,9 @@ class Solution {
         }
     }
 }
-```
-3.Dijkstra(堆)
-```
+// ```
+// 3.Dijkstra(堆)
+// ```
 class Solution {
     public int networkDelayTime(int[][] times, int N, int K) {
         Map<Integer, List<int[]>> graph = new HashMap();
@@ -154,6 +154,6 @@ class Solution {
         }
     }
 }
-```
+// ```
 
 

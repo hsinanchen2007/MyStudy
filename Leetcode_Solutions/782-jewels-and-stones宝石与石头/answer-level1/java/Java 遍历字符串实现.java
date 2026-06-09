@@ -1,4 +1,4 @@
-```java
+// ```java
     public int numJewelsInStones(String J, String S) {
         int num = 0;
         for (int i = 0; i < S.length(); i++) {
@@ -10,4 +10,4 @@
         }
         return num;
     }
-```
+// ```

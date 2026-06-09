@@ -1,11 +1,11 @@
-### 解题思路
-这道题用栈来解决问题，我运用的方法有，seq.isEmpty(),stack.push(),seq.charAt(),stack.size(),size.pop()
-一.判断seq字符串是否为空或者是否是空字符串
-二.创建栈stack，如果seq是'('时候入栈，否则得出现在的深度depth=stack.size(),得出左边的下标left=stack.pop(),如果深度是偶数时候，它的左边和他自己就是1.
+// ### 解题思路
+// 这道题用栈来解决问题，我运用的方法有，seq.isEmpty(),stack.push(),seq.charAt(),stack.size(),size.pop()
+// 一.判断seq字符串是否为空或者是否是空字符串
+// 二.创建栈stack，如果seq是'('时候入栈，否则得出现在的深度depth=stack.size(),得出左边的下标left=stack.pop(),如果深度是偶数时候，它的左边和他自己就是1.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         if(seq==null||seq.isEmpty())
@@ -27,4 +27,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

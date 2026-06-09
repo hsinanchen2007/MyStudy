@@ -1,6 +1,6 @@
-GOLANG 4ms
+// GOLANG 4ms
 
-```go []
+// ```go []
 func twoCitySchedCost(costs [][]int) int {
     // [1 , 5 ,3 ,4]
     //贪心算法思想。先优先A的最优的方式。剩下的都是B,由于没有排序。自己撸个insertingSort
@@ -26,4 +26,4 @@ func insertingSort(costs [][]int) [][]int {
     }
     return costs
 }
-```
+// ```

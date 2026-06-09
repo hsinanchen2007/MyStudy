@@ -1,5 +1,5 @@
-可以使用单调队列 deque ,也可以使用单调栈，本质都是一样的思想。
-```
+# 可以使用单调队列 deque ,也可以使用单调栈，本质都是一样的思想。
+# ```
 class Solution:
     def nextGreaterElements(self, nums: List[int]) -> List[int]:
         # 循环数组，使用i%n表示数组索引，不用复制两个一样的数组
@@ -16,4 +16,4 @@ class Solution:
             stack.append(nums[i%n])
         return res
 
-```
+# ```

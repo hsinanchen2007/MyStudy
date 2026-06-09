@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func containsNearbyDuplicate(nums []int, k int) bool {
     var record = make(map[int]int)
 
@@ -19,4 +19,4 @@ func containsNearbyDuplicate(nums []int, k int) bool {
 
     return false
 }
-```
+// ```

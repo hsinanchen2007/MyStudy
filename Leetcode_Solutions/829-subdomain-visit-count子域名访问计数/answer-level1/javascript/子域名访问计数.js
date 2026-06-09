@@ -1,4 +1,4 @@
-```js
+// ```js
 var subdomainVisits = function(cpdomains) {
     let map = new Map();
     for (let i = 0; i < cpdomains.length; i++) {
@@ -24,4 +24,4 @@ var subdomainVisits = function(cpdomains) {
     }
     return res
 };
-```
+// ```

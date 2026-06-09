@@ -1,9 +1,9 @@
-### 解题思路
-辗转相除法求最大公约数，还有 map 的用法，GET
+// ### 解题思路
+// 辗转相除法求最大公约数，还有 map 的用法，GET
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hasGroupsSizeX(deck []int) bool {
 	if len(deck)<2{
 		return false     //在统计之前判断总个数是否满足
@@ -28,4 +28,4 @@ func hasGroupsSizeX(deck []int) bool {
 	}
 	return g>1
 }
-```
+// ```

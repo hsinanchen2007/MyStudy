@@ -1,9 +1,9 @@
 
-## 双栈迭代
+// ## 双栈迭代
 
-后序遍历是在前序遍历的基础上做的，前序遍历的压栈顺序为：根、左、右，后续遍历为左、右、根。一个简单的思想是使用两个栈，一个压入的顺序是先左后右，从第一个栈弹出再压入第二个栈的时候就是先右后左了，并且此时根节点最先压入，打印的时候就会是左、右、根了。
+// 后序遍历是在前序遍历的基础上做的，前序遍历的压栈顺序为：根、左、右，后续遍历为左、右、根。一个简单的思想是使用两个栈，一个压入的顺序是先左后右，从第一个栈弹出再压入第二个栈的时候就是先右后左了，并且此时根节点最先压入，打印的时候就会是左、右、根了。
 
-```python []
+// ```python []
 class Solution:
     def postorderTraversal(self, root: TreeNode) -> List[int]:
         if not root: return []
@@ -19,9 +19,9 @@ class Solution:
             p = s2.pop()
             res.append(p.val)
         return res
-```
+// ```
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<int> postorderTraversal(TreeNode* root) {
@@ -46,13 +46,13 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 递归
+// ## 递归
 
-递归思路就比较简单了，res填加val的位置决定了遍历的类型，放在最前面是前序遍历，放在中间是中序遍历，放在最后是后序遍历
+// 递归思路就比较简单了，res填加val的位置决定了遍历的类型，放在最前面是前序遍历，放在中间是中序遍历，放在最后是后序遍历
 
-```python []
+// ```python []
 class Solution:
     def posorderTraversal(self, root: TreeNode) -> List[int]:
         res = []
@@ -68,9 +68,9 @@ class Solution:
             self.posOrder(root.right, res)
             ## res.append(root.val) 放在这里是后序遍历
         return res
-```
+// ```
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<int> posorderTraversal(TreeNode* root) {
@@ -91,4 +91,4 @@ public:
         }
     }
 };
-```
+// ```

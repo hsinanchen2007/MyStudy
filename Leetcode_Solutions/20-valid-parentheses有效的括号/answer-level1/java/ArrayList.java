@@ -1,4 +1,4 @@
-由于新手，做之前还不知道Stack<>的使用，就用了Arraylist，逻辑是和栈一样的
+// 由于新手，做之前还不知道Stack<>的使用，就用了Arraylist，逻辑是和栈一样的
 
 public boolean isValid(String s) {
         ArrayList<Character> xx = new ArrayList<>();

@@ -1,9 +1,9 @@
-### 解题思路
-1.这道题不用考虑不符合要求的括号。
-2.通核心是过数组进行0和1标记，并使用flag进行交替。
-### 代码
+// ### 解题思路
+// 1.这道题不用考虑不符合要求的括号。
+// 2.通核心是过数组进行0和1标记，并使用flag进行交替。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -60,4 +60,4 @@ int* maxDepthAfterSplit(char * seq, int* returnSize){
     * returnSize = length;
     return returnseq;
 }
-```
+// ```

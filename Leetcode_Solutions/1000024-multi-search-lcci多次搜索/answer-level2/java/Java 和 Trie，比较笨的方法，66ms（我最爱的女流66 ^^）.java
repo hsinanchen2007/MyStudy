@@ -1,8 +1,8 @@
-思想就是用 smalls 数组建立一棵前缀树，然后用 big 的每个字符作为起始去树里检索
+// 思想就是用 smalls 数组建立一棵前缀树，然后用 big 的每个字符作为起始去树里检索
 
-树的结点中有一个标志 flag 用来记录是否有字符串在此处结束，并且有 id 来表示在此处结束的字符串是 Smalls 中的第几个字符串，这样会提高效率
+// 树的结点中有一个标志 flag 用来记录是否有字符串在此处结束，并且有 id 来表示在此处结束的字符串是 Smalls 中的第几个字符串，这样会提高效率
 
-```
+// ```
 class Solution {
     public int[][] multiSearch(String big, String[] smalls) {
         Trie tree = new Trie(smalls);
@@ -85,4 +85,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-简单链表交换，理清结点交换前后关系即可。
-需要注意，数据中存在空链表和长度为单数的链表。
+// ### 解题思路
+// 简单链表交换，理清结点交换前后关系即可。
+// 需要注意，数据中存在空链表和长度为单数的链表。
 
-![image.png](https://pic.leetcode-cn.com/959a21bad787aa91555d7b1c543936f1647594672fdde0d8587dce871a5e9bab-image.png)
+// ![image.png](https://pic.leetcode-cn.com/959a21bad787aa91555d7b1c543936f1647594672fdde0d8587dce871a5e9bab-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,4 +43,4 @@ public:
         return head;
     }
 };
-```
+// ```

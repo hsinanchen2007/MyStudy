@@ -1,4 +1,4 @@
-```js
+// ```js
 var threeSumClosest = function(nums, target) {
     nums.sort((a, b) => a - b)
     let len = nums.length;
@@ -23,4 +23,4 @@ var threeSumClosest = function(nums, target) {
     }
     return closestNum
 };
-```
+// ```

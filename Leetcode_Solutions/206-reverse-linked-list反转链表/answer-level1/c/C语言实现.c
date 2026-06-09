@@ -1,9 +1,9 @@
-### 解题思路
-迭代方式实现，以1~5为例，将1指向3再将2指向1，就完成了前两个位置的交换，同理将1指向4再将3指向2.以此类推。
+// ### 解题思路
+// 迭代方式实现，以1~5为例，将1指向3再将2指向1，就完成了前两个位置的交换，同理将1指向4再将3指向2.以此类推。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ struct ListNode* reverseList(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

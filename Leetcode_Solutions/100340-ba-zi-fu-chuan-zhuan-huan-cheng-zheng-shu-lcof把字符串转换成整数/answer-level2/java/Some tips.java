@@ -1,14 +1,14 @@
-### 解题思路
-two keypoints:
-1. as long as unsigned result is bigger than Integer.MAX_VALUE, it can be regarded as overflow.
-2. examine the edge condition before the multiplication to avoid overflow.
+// ### 解题思路
+// two keypoints:
+// 1. as long as unsigned result is bigger than Integer.MAX_VALUE, it can be regarded as overflow.
+// 2. examine the edge condition before the multiplication to avoid overflow.
 
-two improvement:
-1. trim() cost so simulating by hand
-2. division cost so pre-calculating the constant
-### 代码
+// two improvement:
+// 1. trim() cost so simulating by hand
+// 2. division cost so pre-calculating the constant
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strToInt(String str) {
         int result = 0;
@@ -50,4 +50,4 @@ class Solution {
 
     }
 }
-```
+// ```

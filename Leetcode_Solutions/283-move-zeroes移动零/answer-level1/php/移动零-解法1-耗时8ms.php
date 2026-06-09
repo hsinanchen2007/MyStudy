@@ -1,10 +1,10 @@
-### 解题思路
-1. 遍历数组，遇到为零的元素，unset，并计数count；
-2. 在unset掉0元素的数组基础上，追加count个0；
+// ### 解题思路
+// 1. 遍历数组，遇到为零的元素，unset，并计数count；
+// 2. 在unset掉0元素的数组基础上，追加count个0；
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
     // 解法1
     /**
@@ -26,4 +26,4 @@ class Solution {
         return $nums;
     }
 }
-```
+// ```

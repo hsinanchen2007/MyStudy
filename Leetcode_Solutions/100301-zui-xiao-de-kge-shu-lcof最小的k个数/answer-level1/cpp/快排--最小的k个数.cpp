@@ -1,13 +1,13 @@
-### 解题思路
-快排，知道找到下标为k的数为止
-不要全部排序
-开始：nBegin
-结束: nSize
-如果当前得到的下标 nS大于 k,则排序 nBegin---nS - 1；
-如果当前得到的下标 nS小于 k,则排序 nS + 1---nSize；
-### 代码
+// ### 解题思路
+// 快排，知道找到下标为k的数为止
+// 不要全部排序
+// 开始：nBegin
+// 结束: nSize
+// 如果当前得到的下标 nS大于 k,则排序 nBegin---nS - 1；
+// 如果当前得到的下标 nS小于 k,则排序 nS + 1---nSize；
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
    	vector<int> getLeastNumbers(vector<int>& arr, int k)
@@ -62,4 +62,4 @@ public:
 		return vector<int>(arr.begin(), arr.begin() + k);
 	}
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-两个指针分别串奇偶，两个指针分别指示奇数头部（head）和偶数头部（原head.next，现为p3）.
+# ### 解题思路
+# 两个指针分别串奇偶，两个指针分别指示奇数头部（head）和偶数头部（原head.next，现为p3）.
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution(object):
             p2 = p2.next
         p1.next = p3
         return head
-```
+# ```

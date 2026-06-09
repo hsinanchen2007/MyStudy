@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int majorityElement(int* nums, int numsSize){
     int cnt=1, i, len;
     int mor = nums[0];
@@ -28,4 +28,4 @@ int majorityElement(int* nums, int numsSize){
     if (cnt>=len) return mor;
     else return -1;
 }
-```
+// ```

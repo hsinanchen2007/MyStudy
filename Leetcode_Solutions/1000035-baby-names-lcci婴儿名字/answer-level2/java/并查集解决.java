@@ -1,9 +1,9 @@
-### 解题思路
-并查集走一波，就是判断条件变了。哈哈哈
+// ### 解题思路
+// 并查集走一波，就是判断条件变了。哈哈哈
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private Map<String, String> fatherMap = new HashMap<>();
 
@@ -81,4 +81,4 @@ class Solution {
         return father;
     }
 }
-```
+// ```

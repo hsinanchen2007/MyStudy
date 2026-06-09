@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历，时间复杂度O(n),在所有 Java 提交中击败了98.64%的用户。主要是每一轮的while循环初始状态是p指向了某个值的第一个节点。
+// ### 解题思路
+// 一次遍历，时间复杂度O(n),在所有 Java 提交中击败了98.64%的用户。主要是每一轮的while循环初始状态是p指向了某个值的第一个节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -39,4 +39,4 @@ class Solution {
         return re.next;
     }
 }
-```
+// ```

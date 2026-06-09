@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -10,6 +10,6 @@ public:
         return digits;
     }
 };
-```
-- 从向量末尾开始逐个` + carry`，并计算是否进位
-- 如果`for`循环之后`vector`首位为`0`，则代表最后一次计算需要进位
+// ```
+// - 从向量末尾开始逐个` + carry`，并计算是否进位
+// - 如果`for`循环之后`vector`首位为`0`，则代表最后一次计算需要进位

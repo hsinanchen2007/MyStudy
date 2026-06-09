@@ -1,10 +1,10 @@
 
-如果把初始分数看成一个常数S,那么每一次调度都会导致其变化
-那么就只考虑调度次数不同情况下的变化即可
-那么先记录每个元素调度多少次后开始让分数较少
-即从某一步开始，每调度一次就扣一分
-那么，最后只需要从标记数组中找到最大的下标即可
-```python []
+# 如果把初始分数看成一个常数S,那么每一次调度都会导致其变化
+# 那么就只考虑调度次数不同情况下的变化即可
+# 那么先记录每个元素调度多少次后开始让分数较少
+# 即从某一步开始，每调度一次就扣一分
+# 那么，最后只需要从标记数组中找到最大的下标即可
+# ```python []
 class Solution():
     def bestRotation(self, A):
         #score[k]:表示移动K步后，当前分数应该加几分，正数为加，负数为扣
@@ -15,8 +15,8 @@ class Solution():
             score[i] += score[i - 1] + 1
         return score.index(max(score))
 
-```
-```C++ []
+# ```
+# ```C++ []
 class Solution {
 public:
 	int bestRotation(vector<int>& A) {
@@ -29,4 +29,4 @@ public:
 		return distance(score.begin(), max_element(score.begin(), score.end()));
 	}
 };
-```
+# ```

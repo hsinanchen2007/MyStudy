@@ -1,5 +1,5 @@
-1、DFS递归
-```javascript
+// 1、DFS递归
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -20,13 +20,13 @@ var hasPathSum = function(root, sum) {
     }
     return hasPathSum(root.left, sum) || hasPathSum(root.right, sum);
 };
-```
-时间复杂度：我们访问每个节点一次，时间复杂度为O(N) ，其中 N 是节点个数。
-空间复杂度：最坏情况下，整棵树是非平衡的，例如每个节点都只有一个孩子，递归会调用 N 次（树的高度），因此栈的空间开销是O(N) 。但在最好情况下，树是完全平衡的，高度只有log(N)，因此在这种情况下空间复杂度只有O(log(N))。
+// ```
+// 时间复杂度：我们访问每个节点一次，时间复杂度为O(N) ，其中 N 是节点个数。
+// 空间复杂度：最坏情况下，整棵树是非平衡的，例如每个节点都只有一个孩子，递归会调用 N 次（树的高度），因此栈的空间开销是O(N) 。但在最好情况下，树是完全平衡的，高度只有log(N)，因此在这种情况下空间复杂度只有O(log(N))。
 
-2、BFS、需要用另一个队列来保存每条路径的结果
+// 2、BFS、需要用另一个队列来保存每条路径的结果
 
-```javascript
+// ```javascript
 var hasPathSum = function(root, sum) {
     if(root === null) return false;
     let q1 = [];
@@ -48,6 +48,6 @@ var hasPathSum = function(root, sum) {
     }
     return false;
 };
-```
-时间复杂度：和递归方法相同是O(N)。
-空间复杂度：当树不平衡的最坏情况下是O(N) 。在最好情况（树是平衡的）下是O(logN)。
+// ```
+// 时间复杂度：和递归方法相同是O(N)。
+// 空间复杂度：当树不平衡的最坏情况下是O(N) 。在最好情况（树是平衡的）下是O(logN)。

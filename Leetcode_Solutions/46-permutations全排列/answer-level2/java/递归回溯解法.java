@@ -1,10 +1,10 @@
-### 解题思路
-这道题要注意的关键一点：需要申明一个boolean类型的数组boolean[] visited = new boolean[nums.length]
-来记录当前的某个数字是否到达过，将visited加入道回溯中
+// ### 解题思路
+// 这道题要注意的关键一点：需要申明一个boolean类型的数组boolean[] visited = new boolean[nums.length]
+// 来记录当前的某个数字是否到达过，将visited加入道回溯中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> result = new LinkedList<List<Integer>>();
 	public List<List<Integer>> permute(int[] nums) {
@@ -35,5 +35,5 @@ class Solution {
 		}
 	}
 }
-```
-![image.png](https://pic.leetcode-cn.com/039e13fc35f18562e7a03b6d07444fc89285a8cbbab2758da70389fc552ea693-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/039e13fc35f18562e7a03b6d07444fc89285a8cbbab2758da70389fc552ea693-image.png)

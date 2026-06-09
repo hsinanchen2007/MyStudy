@@ -1,14 +1,14 @@
-### 解题思路
-中心扩展法：
-1. 字符串长度小于2的时候直接返回
-2. 中心扩展的方法，需要注意的是，left最小是0，right最大是size-1，right>=left
-   当right=left时，回文串的长度为奇数；当right=left+1是，回文串的长度是偶数
-   此处spread函数返回了回文串的左侧索引和长度
-   因为当s[left]和s[right]不相等时，left和right已经分别-1和+1了
-   所以返回的左侧索引为left+1，长度为(right-1)-(left+1)+1
-### 代码
+# ### 解题思路
+# 中心扩展法：
+# 1. 字符串长度小于2的时候直接返回
+# 2. 中心扩展的方法，需要注意的是，left最小是0，right最大是size-1，right>=left
+#    当right=left时，回文串的长度为奇数；当right=left+1是，回文串的长度是偶数
+#    此处spread函数返回了回文串的左侧索引和长度
+#    因为当s[left]和s[right]不相等时，left和right已经分别-1和+1了
+#    所以返回的左侧索引为left+1，长度为(right-1)-(left+1)+1
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         size = len(s)
@@ -36,16 +36,16 @@ class Solution:
                 start = start_current
         return s[start: start+len_max]
             
-```
+# ```
 
-### 解题思路
-动态规划法
-1. dp[i][j]=True表示字符串s[i: j+1]是回文串
-   即s[i] = s[j]且其子字符串是回文串(dp[i+1][j-1]=True)且
-2. 注意当s[i] = s[j]且字符串长度小于4的时候(j-i+1<4)的时候，直接可以得到是回文串的结论
-### 代码
+# ### 解题思路
+# 动态规划法
+# 1. dp[i][j]=True表示字符串s[i: j+1]是回文串
+#    即s[i] = s[j]且其子字符串是回文串(dp[i+1][j-1]=True)且
+# 2. 注意当s[i] = s[j]且字符串长度小于4的时候(j-i+1<4)的时候，直接可以得到是回文串的结论
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         size = len(s)
@@ -73,4 +73,4 @@ class Solution:
                         start = i
                         max_len = j - i + 1
         return s[start: start+max_len]  
-```
+# ```

@@ -1,15 +1,15 @@
-### 解题思路
-操作有点骚~~
+// ### 解题思路
+// 操作有点骚~~
 
-主要思想就是回溯法。在回溯的过程中，剪去不满足条件的分枝以提高效率。
+// 主要思想就是回溯法。在回溯的过程中，剪去不满足条件的分枝以提高效率。
 
-![image.png](https://pic.leetcode-cn.com/3d0d4de5efd00bf365397dee54a75a0f66c7a1f00307c73633872a0a0384349c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3d0d4de5efd00bf365397dee54a75a0f66c7a1f00307c73633872a0a0384349c-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void solveSudoku(vector<vector<char>>& board) {
@@ -72,4 +72,4 @@ public:
         return false;
     }
 };
-```
+// ```

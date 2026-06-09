@@ -1,9 +1,9 @@
-### 解题思路
-被除数除数还有计数器都映射到负数去解，不需要处理正数那种边界情况。看起来判断最终结果正负号的地方可以再优化一下。 参照[@luca-zhao](/u/luca-zhao/)
+// ### 解题思路
+// 被除数除数还有计数器都映射到负数去解，不需要处理正数那种边界情况。看起来判断最终结果正负号的地方可以再优化一下。 参照[@luca-zhao](/u/luca-zhao/)
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn divide(dividend: i32, divisor: i32) -> i32 {
     let max = 2147483647;
@@ -47,4 +47,4 @@ impl Solution {
     return count
 }
 }
-```
+// ```

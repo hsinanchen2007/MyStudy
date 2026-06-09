@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         """
@@ -19,4 +19,4 @@ class Solution:
             cur = cur * 10 + num % 10
             num = num // 10
         return cur == x
-```
+# ```

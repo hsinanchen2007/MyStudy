@@ -1,9 +1,9 @@
-### 解题思路
-子串滚动的题需要这个函数
+// ### 解题思路
+// 子串滚动的题需要这个函数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverseString(char* s, int sSize){
 
     int low=0,high=sSize-1;
@@ -17,4 +17,4 @@ void reverseString(char* s, int sSize){
         ++low;--high;
     }
 }
-```
+// ```

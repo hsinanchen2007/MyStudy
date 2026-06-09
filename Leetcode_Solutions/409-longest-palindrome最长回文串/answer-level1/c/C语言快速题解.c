@@ -1,5 +1,5 @@
-利用数组完成统计，提取最多的偶数然后加上1（如果有的话）即可
-```
+// 利用数组完成统计，提取最多的偶数然后加上1（如果有的话）即可
+// ```
 int longestPalindrome(char * s){
     int i;
     int len = strlen(s);
@@ -24,4 +24,4 @@ int longestPalindrome(char * s){
     count += odd;
     return count;
 }
-```
+// ```

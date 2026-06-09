@@ -1,14 +1,14 @@
-### 解题思路
-参考题解里面写的代码。考察转化和抽象能力
-要点1 转化成方向字典   d[1]=[(0,1),(0,-1)]
-要点2 m=n=1的解决
-要点3 bfs 
-要点4 能拼接上if ndx==-dx and ndy==-dy:（这个不好理解）
-回头补上dfs的解法
+# ### 解题思路
+# 参考题解里面写的代码。考察转化和抽象能力
+# 要点1 转化成方向字典   d[1]=[(0,1),(0,-1)]
+# 要点2 m=n=1的解决
+# 要点3 bfs 
+# 要点4 能拼接上if ndx==-dx and ndy==-dy:（这个不好理解）
+# 回头补上dfs的解法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasValidPath(self, grid: List[List[int]]) -> bool:
         m=len(grid)
@@ -38,4 +38,4 @@ class Solution:
                             q.append((nx,ny))
             visit[x][y]=True
         return False
-```
+# ```

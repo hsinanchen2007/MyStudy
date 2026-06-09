@@ -1,18 +1,18 @@
-### 解题思路
-思路很简单：dp实现译码
-用sum数组记录解码的可能情况数
-如果当前字符s[i]可以与s[i-1]可以组成译码，则情况数sum[i]=sum[i-1]+[i-2]
-如果s[i]与s[i-1]无法组成译码，则情况数不变 sum[i]=sum[i-1]
+// ### 解题思路
+// 思路很简单：dp实现译码
+// 用sum数组记录解码的可能情况数
+// 如果当前字符s[i]可以与s[i-1]可以组成译码，则情况数sum[i]=sum[i-1]+[i-2]
+// 如果s[i]与s[i-1]无法组成译码，则情况数不变 sum[i]=sum[i-1]
 
-用了很多if else来讨论
-代码有点丑 大家见谅hhhhhh
+// 用了很多if else来讨论
+// 代码有点丑 大家见谅hhhhhh
 
-![微信图片_20200204220242.png](https://pic.leetcode-cn.com/77452beb5db70d458c4274010c72dd128ab59ac17db3eda10f90ca2dd20c5abc-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200204220242.png)
+// ![微信图片_20200204220242.png](https://pic.leetcode-cn.com/77452beb5db70d458c4274010c72dd128ab59ac17db3eda10f90ca2dd20c5abc-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200204220242.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numDecodings(char* s) {
 	if (strlen(s) <= 1)
 	{
@@ -55,4 +55,4 @@ int numDecodings(char* s) {
 	}
 
 }
-```
+// ```

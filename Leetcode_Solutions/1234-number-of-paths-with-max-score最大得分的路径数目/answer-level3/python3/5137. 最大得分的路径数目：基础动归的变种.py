@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def pathsWithMaxScore(self, board: List[str]) -> List[int]:
         d = [[[c, 0, 0] for c in reversed(s)] + [['X', 0, 0]] for s in reversed(board)]
@@ -18,6 +18,6 @@ class Solution:
                             dij[2] += dij[1] == tij[1] and tij[2]
                     dij[1] += int(dij[0])
         return d[-1][-2][2] and d[-1][-2][1] % 1000000007, d[-1][-2][2] % 1000000007
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/08041234fec81b6d59dbf604bf25c0eaa6df2c51b97187ab9dcaca7d295663dd-image.png)
+# ![image.png](https://pic.leetcode-cn.com/08041234fec81b6d59dbf604bf25c0eaa6df2c51b97187ab9dcaca7d295663dd-image.png)

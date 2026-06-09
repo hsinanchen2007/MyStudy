@@ -1,5 +1,5 @@
-取出前k个元素构建小顶堆，当有新的元素比最小的元素大的时候，置换掉顶部元素，重新构建小顶堆
-```
+// 取出前k个元素构建小顶堆，当有新的元素比最小的元素大的时候，置换掉顶部元素，重新构建小顶堆
+// ```
 func findKthLargest(nums []int, k int) int {
     if len(nums) < 1 {
         return 0
@@ -52,4 +52,4 @@ func swap (a []int, i int, j int) {
     a[i], a[j] = a[j], a[i]
 }
 
-```
+// ```

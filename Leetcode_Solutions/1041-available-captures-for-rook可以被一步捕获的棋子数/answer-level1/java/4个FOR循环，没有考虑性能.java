@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int ROW = -1;
@@ -61,4 +61,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

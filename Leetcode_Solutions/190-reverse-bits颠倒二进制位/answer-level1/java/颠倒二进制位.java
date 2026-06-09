@@ -1,6 +1,6 @@
-1. 首先声明这是根据陈乐乐同学的C++代码改变而来的Java代码，侵删。
-[@chenlele](/u/chenlele/)
-```
+// 1. 首先声明这是根据陈乐乐同学的C++代码改变而来的Java代码，侵删。
+// [@chenlele](/u/chenlele/)
+// ```
 public class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
@@ -24,5 +24,5 @@ public class Solution {
 
     }
 }
-```
-思路是采用位运算，每次取原数据最后一位push进新的数据中，循环32次，即可实现颠倒二进位。
+// ```
+// 思路是采用位运算，每次取原数据最后一位push进新的数据中，循环32次，即可实现颠倒二进位。

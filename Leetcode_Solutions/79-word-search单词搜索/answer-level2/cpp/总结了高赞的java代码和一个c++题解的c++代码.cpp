@@ -1,5 +1,5 @@
-注释按全局变量->exist()->dfs()的顺序写的，这样看逻辑比较顺畅
-```c++
+// 注释按全局变量->exist()->dfs()的顺序写的，这样看逻辑比较顺畅
+// ```c++
 class Solution {
 public:
     vector<vector<bool> > mark;
@@ -55,4 +55,4 @@ public:
     }
     
 };
-```c++
+// ```c++

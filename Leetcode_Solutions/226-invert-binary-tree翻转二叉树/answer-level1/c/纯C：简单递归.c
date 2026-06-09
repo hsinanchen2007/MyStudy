@@ -1,10 +1,10 @@
-### 解题思路
-思路：1.先交换节点的左右子树
-      2.对左右子树分别递归
+// ### 解题思路
+// 思路：1.先交换节点的左右子树
+//       2.对左右子树分别递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -25,4 +25,4 @@ struct TreeNode* invertTree(struct TreeNode* root){
     root->right=invertTree(root->right);
     return root;
 }
-```
+// ```

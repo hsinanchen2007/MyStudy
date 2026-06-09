@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
   int maxJumps(vector<int>& arr, int d) {
@@ -24,4 +24,4 @@ public:
     return ret;
   }
 };
-```
+// ```

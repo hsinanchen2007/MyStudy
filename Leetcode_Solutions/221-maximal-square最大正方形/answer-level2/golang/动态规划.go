@@ -1,6 +1,6 @@
-dp(i, j)=min(dp(i−1, j), dp(i−1, j−1), dp(i, j−1))+1
+// dp(i, j)=min(dp(i−1, j), dp(i−1, j−1), dp(i, j−1))+1
 
-```
+// ```
 func maximalSquare(matrix [][]byte) int {
 	var row = len(matrix)
 	if row == 0 {
@@ -64,4 +64,4 @@ func min(a, b, c int) (m int) {
 	}
 	return  // 需要显式return 
 }
-```
+// ```

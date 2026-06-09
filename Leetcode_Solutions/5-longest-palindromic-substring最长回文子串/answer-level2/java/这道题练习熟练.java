@@ -1,10 +1,10 @@
-### 解题思路
-动态规划
-中心枚举
+// ### 解题思路
+// 动态规划
+// 中心枚举
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
         if(s == null || s.length() == 0) {
@@ -41,9 +41,9 @@ class Solution {
         return s.substring(start, start + max);
     }
 }
-```
+// ```
 
-```java
+// ```java
 class Solution {
     int max;
     int start;
@@ -73,4 +73,4 @@ class Solution {
         }
     }
 }
-```
+// ```

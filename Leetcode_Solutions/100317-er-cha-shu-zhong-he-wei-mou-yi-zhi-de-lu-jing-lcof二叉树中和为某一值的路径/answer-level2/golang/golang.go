@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -33,4 +33,4 @@ func helper(root *TreeNode, sum int, track []int, result *[][]int) {
 	helper(root.Left, sum-root.Val,append(trackcopy,root.Val), result)
 	helper(root.Right, sum-root.Val,append(trackcopy,root.Val), result)
 }
-```
+// ```

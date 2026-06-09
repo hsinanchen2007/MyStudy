@@ -1,5 +1,5 @@
-经典桶排序思想
-```
+// 经典桶排序思想
+// ```
     public int firstMissingPositive(int[] nums) {
         int len = nums.length;
         for(int i=0; i<len; i++){
@@ -21,4 +21,4 @@
         arr[i] = arr[j];
         arr[j] = temp;
     }
-```
+// ```

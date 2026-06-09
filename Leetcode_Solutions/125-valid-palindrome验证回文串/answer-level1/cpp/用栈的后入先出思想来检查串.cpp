@@ -1,10 +1,10 @@
-1. 首先输入s为空时，返回true；
-2. 对于输入串先处理非字母和数字符号，保存在临时string变量tmp中，若tmp为单个字符，返回true；
-3. 将tmp一半的字符压入栈，无论字符个数奇偶，i都是对lengh/2向下取整；
-4. 检查tmp的后一半元素，字符个数为偶数i开始位置为对lengh/2向下取整，否则对其向上取整，开始遍历剩下字符，若与栈顶元素相同，则出栈；
-5. 最后，若栈为空，返回true，否则返回false。
-6. 
-```
+// 1. 首先输入s为空时，返回true；
+// 2. 对于输入串先处理非字母和数字符号，保存在临时string变量tmp中，若tmp为单个字符，返回true；
+// 3. 将tmp一半的字符压入栈，无论字符个数奇偶，i都是对lengh/2向下取整；
+// 4. 检查tmp的后一半元素，字符个数为偶数i开始位置为对lengh/2向下取整，否则对其向上取整，开始遍历剩下字符，若与栈顶元素相同，则出栈；
+// 5. 最后，若栈为空，返回true，否则返回false。
+// 6. 
+// ```
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -41,6 +41,6 @@ public:
         return tmpStack.empty()?true:false;
     }
 };
-```
-![捕获.JPG](https://pic.leetcode-cn.com/8e433db4a99c34b223ee48f6767ac92ed1e83343343e904c7ae2ce6d96faf9e4-%E6%8D%95%E8%8E%B7.JPG)
+// ```
+// ![捕获.JPG](https://pic.leetcode-cn.com/8e433db4a99c34b223ee48f6767ac92ed1e83343343e904c7ae2ce6d96faf9e4-%E6%8D%95%E8%8E%B7.JPG)
 

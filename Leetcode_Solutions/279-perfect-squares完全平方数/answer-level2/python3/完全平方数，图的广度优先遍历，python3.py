@@ -1,9 +1,9 @@
-### 解题思路
-参考[https://leetcode-cn.com/problems/perfect-squares/solution/python3zui-ji-chu-de-bfstao-lu-dai-ma-gua-he-ru-me/]()
+# ### 解题思路
+# 参考[https://leetcode-cn.com/problems/perfect-squares/solution/python3zui-ji-chu-de-bfstao-lu-dai-ma-gua-he-ru-me/]()
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class node:
     def __init__(self,value,step=0):
         self.value = value
@@ -30,4 +30,4 @@ class Solution:
                     visited.add(i)
                                         
         return -1
-```
+# ```

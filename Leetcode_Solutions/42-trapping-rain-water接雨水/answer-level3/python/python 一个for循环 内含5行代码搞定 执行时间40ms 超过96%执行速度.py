@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def trap(self, height):
         """
@@ -23,4 +23,4 @@ class Solution(object):
                 total += min(left, right) - height[i]
                 #print total,i
         return total
-```
+# ```

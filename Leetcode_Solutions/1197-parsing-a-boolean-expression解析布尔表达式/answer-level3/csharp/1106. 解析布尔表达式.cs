@@ -1,9 +1,9 @@
-### 解题思路
-使用双阶递归：入口函数嵌套AndOrNot，AndOrNot又嵌套入口函数；
+// ### 解题思路
+// 使用双阶递归：入口函数嵌套AndOrNot，AndOrNot又嵌套入口函数；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool ParseBoolExpr(string expression)
     {
@@ -126,4 +126,4 @@ public class Solution {
         return !subResult;
     }
 }
-```
+// ```

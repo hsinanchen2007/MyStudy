@@ -1,4 +1,4 @@
-```go
+// ```go
 func minCut(s string) int {
     // state: f[i] "前i"个字符组成的子字符串需要最少几次cut(个数-1为索引)
     // function: f[i] = MIN{f[j]+1}, j < i && [j+1 ~ i]这一段是一个回文串
@@ -37,4 +37,4 @@ func isPalindrome(s string, i, j int) bool {
 	return true
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```python []
+# ```python []
 def removeDuplicates(nums):
     # 如果数组为空, 则返回0
     if not nums:
@@ -15,4 +15,4 @@ def removeDuplicates(nums):
 print(removeDuplicates([1,1,2]))
 print(removeDuplicates([1,1,2,2]))
 print(removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
-```
+# ```

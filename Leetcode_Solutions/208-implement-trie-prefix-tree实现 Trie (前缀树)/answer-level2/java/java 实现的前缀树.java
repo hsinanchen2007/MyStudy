@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/381eb0c625b075794a3973248a1df539b3be31e371479ea2eaeda1633f82475c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/381eb0c625b075794a3973248a1df539b3be31e371479ea2eaeda1633f82475c-image.png)
 
-### 解题思路
-插入和查找的过程使用到了队列，思路类似于 BFS 
+// ### 解题思路
+// 插入和查找的过程使用到了队列，思路类似于 BFS 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class TrieNode{
     public  char val;
     public boolean isEnd;
@@ -99,4 +99,4 @@ class Trie {
         return true;
     }
 }
-```
+// ```

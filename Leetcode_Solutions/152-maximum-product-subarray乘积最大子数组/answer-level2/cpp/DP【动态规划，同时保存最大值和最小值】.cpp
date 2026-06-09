@@ -1,13 +1,13 @@
-### 解题思路
-1、此处因为有负数的存在，所以一定要保存最小值，才可以进行下一步计算；
-2、保存最小值和最大值；
-3、获取转移矩阵：
-maxDp[i+1] = max{nums[i+1], maxDp[i]*nums[i+1], minDp[i]*nums[i+1]}
-minDp[i+1] = min{nums[i+1], minDp[i]*nums[i+1], maxDp[i]*nums[i+1]}
-4、每次计算完，保存下当前的maxCount；
-### 代码
+// ### 解题思路
+// 1、此处因为有负数的存在，所以一定要保存最小值，才可以进行下一步计算；
+// 2、保存最小值和最大值；
+// 3、获取转移矩阵：
+// maxDp[i+1] = max{nums[i+1], maxDp[i]*nums[i+1], minDp[i]*nums[i+1]}
+// minDp[i+1] = min{nums[i+1], minDp[i]*nums[i+1], maxDp[i]*nums[i+1]}
+// 4、每次计算完，保存下当前的maxCount；
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
         return dp;
     }
 };
-```
+// ```

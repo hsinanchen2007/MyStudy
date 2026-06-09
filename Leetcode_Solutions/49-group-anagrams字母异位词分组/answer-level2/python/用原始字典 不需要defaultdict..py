@@ -1,4 +1,4 @@
-```
+# ```
 def groupAnagrams(strs):
     """
     :type strs: List[str]
@@ -11,4 +11,4 @@ def groupAnagrams(strs):
         else:
             dicts[tuple(sorted(i))].append(i)
     return dicts.values()
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ int* reversePrint(struct ListNode* head, int* returnSize){
     return arr;
 
 }
-```
+// ```

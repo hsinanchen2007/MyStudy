@@ -1,9 +1,9 @@
-### 解题思路
-循环里面指针的顺序和指向写法应该有很多,这只是其中的一种
+// ### 解题思路
+// 循环里面指针的顺序和指向写法应该有很多,这只是其中的一种
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return o;
     }
 }
-```
+// ```

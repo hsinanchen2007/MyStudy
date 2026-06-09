@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func backspaceCompare(S string, T string) bool {
 	s:=[]rune(S)
 	t:=[]rune(T)
@@ -31,4 +31,4 @@ func backspaceCompare(S string, T string) bool {
 	}
 	return string(x)==string(y)
 }
-```
+// ```

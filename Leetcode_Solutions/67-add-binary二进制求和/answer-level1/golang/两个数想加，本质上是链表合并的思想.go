@@ -1,5 +1,5 @@
-求和题目，两数相加的题目，最终是两个链表合并的题目
-```
+// 求和题目，两数相加的题目，最终是两个链表合并的题目
+// ```
 func addBinary(a string, b string) string {
     c := 0              //进位
     n := 0              
@@ -37,7 +37,7 @@ func addBinary(a string, b string) string {
     return string(num)
 }
 
-```
+// ```
 
 
 

@@ -1,4 +1,4 @@
-```csharp
+// ```csharp
 public IList<IList<int>> Permute(int[] nums) {
     IList<IList<int>> ans = new List<IList<int>>();
     if(nums.Length == 0) return ans;
@@ -25,9 +25,9 @@ public IList<IList<int>> Permute(int[] nums) {
     }
     return ans;
 }
-```
-但是比较慢，因为递归过程中存在重复的操作，稍微优化一下将每次递归的结果存起来，再次遇到可以直接调用
-```csharp
+// ```
+// 但是比较慢，因为递归过程中存在重复的操作，稍微优化一下将每次递归的结果存起来，再次遇到可以直接调用
+// ```csharp
 public Dictionary<string, int[][]> dic =
             new Dictionary<string, int[][]>();
 
@@ -73,4 +73,4 @@ public IList<IList<int>> Permute(int[] nums)
     dic.Add(key, dicValue);
     return ans;
 }
-```
+// ```

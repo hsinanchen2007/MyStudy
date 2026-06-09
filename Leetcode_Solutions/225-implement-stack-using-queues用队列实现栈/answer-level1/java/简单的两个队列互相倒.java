@@ -1,5 +1,5 @@
-### 解题思路
-两个队列互相倒数据。
+// ### 解题思路
+// 两个队列互相倒数据。
 class MyStack {
     private Queue<Integer> q1;
     private Queue<Integer> q2;

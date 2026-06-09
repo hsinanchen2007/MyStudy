@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-kick the card. 
-Again, I will give you the code. 
+# kick the card. 
+# Again, I will give you the code. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 def count(a,b):
     return a//10+a%10+b//10+b%10
     
@@ -41,4 +41,4 @@ class Solution:
         for i in range(m):
             out+=log[i].count(1)
         return out
-```
+# ```

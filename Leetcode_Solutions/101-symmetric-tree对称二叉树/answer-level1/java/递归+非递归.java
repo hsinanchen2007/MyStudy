@@ -1,4 +1,4 @@
-```
+// ```
     /** 递归版本
     */
     public   boolean isSymmetric(TreeNode root) {
@@ -15,9 +15,9 @@
         if((left.right==null && left.left==null)&&(right.left==null && right.right==null) && left.val==right.val) return true;
         return digui(left.right,right.left) && digui(left.left,right.right);
     }
-```
+// ```
 
-```
+// ```
     /**
      *  非递归版本
      *  基于BFS
@@ -49,5 +49,5 @@
         }
         return true;
     }
-```
+// ```
 

@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/dd8c6661606b797c9f891207b2bd4cfc4c721d412e251424979d6aad2ecc77bc-image.png)
-就是遍历，与前面判断，一样就计数加1，不一样就添加字符
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/dd8c6661606b797c9f891207b2bd4cfc4c721d412e251424979d6aad2ecc77bc-image.png)
+# 就是遍历，与前面判断，一样就计数加1，不一样就添加字符
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if S == '':
@@ -26,4 +26,4 @@ class Solution:
         else:
             return "".join('%s' %id for id in result)
 
-```
+# ```

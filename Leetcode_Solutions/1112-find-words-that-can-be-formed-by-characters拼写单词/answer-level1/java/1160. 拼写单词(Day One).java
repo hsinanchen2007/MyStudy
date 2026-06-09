@@ -1,9 +1,9 @@
-### 法一
-用一个数组记录字母表中相应字母的个数，用一次减掉一个，当发现字母表中没有字母时则表示没有掌握该单词。
+// ### 法一
+// 用一个数组记录字母表中相应字母的个数，用一次减掉一个，当发现字母表中没有字母时则表示没有掌握该单词。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         int[] charCount = new int[26];
@@ -41,12 +41,12 @@ class Solution {
         return length;
     }
 }
-```
+// ```
 
-### 法二
+// ### 法二
 
-上面的方法要求copy数组，但是如果反过来用辅助数组，则不需copy，有助于提高效率.
-```java
+// 上面的方法要求copy数组，但是如果反过来用辅助数组，则不需copy，有助于提高效率.
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         int[] charCount = new int[26];
@@ -77,4 +77,4 @@ class Solution {
         return length;
     }
 }
-```
+// ```

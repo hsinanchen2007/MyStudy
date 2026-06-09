@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean uniqueOccurrences(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -15,4 +15,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

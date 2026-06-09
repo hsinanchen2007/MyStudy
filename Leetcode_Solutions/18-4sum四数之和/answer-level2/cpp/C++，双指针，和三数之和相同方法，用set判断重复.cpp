@@ -1,7 +1,7 @@
-- 282/282 cases passed (52 ms)
-- Your runtime beats 79.43 % of cpp submissions
-- Your memory usage beats 75.8 % of cpp submissions (9.3 MB)
-```
+// - 282/282 cases passed (52 ms)
+// - Your runtime beats 79.43 % of cpp submissions
+// - Your memory usage beats 75.8 % of cpp submissions (9.3 MB)
+// ```
 vector<vector<int>> fourSum(vector<int> &nums, int target)
 {
     vector<vector<int>> ans;
@@ -38,4 +38,4 @@ vector<vector<int>> fourSum(vector<int> &nums, int target)
         ans.push_back(*it);
     return ans;
 }
-```
+// ```

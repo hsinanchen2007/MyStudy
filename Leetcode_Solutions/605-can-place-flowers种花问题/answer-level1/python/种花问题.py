@@ -1,9 +1,9 @@
-### 解题思路
-需要考虑是否有1，以及连续0的位置
+# ### 解题思路
+# 需要考虑是否有1，以及连续0的位置
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         ret = temp = flag = 0
@@ -24,4 +24,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

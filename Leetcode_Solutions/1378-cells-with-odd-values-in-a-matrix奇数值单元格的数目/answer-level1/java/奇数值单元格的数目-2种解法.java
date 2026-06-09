@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：暴力破解法
+// # 解法一：暴力破解法
 
-时间复杂度和空间复杂度均是O(nm)。
+// 时间复杂度和空间复杂度均是O(nm)。
 
-执行用时：2ms，击败52.80%。消耗内存：37.8MB，击败17.33%。
+// 执行用时：2ms，击败52.80%。消耗内存：37.8MB，击败17.33%。
 
-```java
+// ```java
 public class Solution {
     public int oddCells(int n, int m, int[][] indices) {
         int[][] nums = new int[n][m];
@@ -30,15 +30,15 @@ public class Solution {
         return result;
     }
 }
-```
+// ```
 
-# 解法二：统计每行每列增加的次数
+// # 解法二：统计每行每列增加的次数
 
-时间复杂度和空间复杂度均是O(n + m)。
+// 时间复杂度和空间复杂度均是O(n + m)。
 
-执行用时：0ms，击败100.00%。消耗内存：37.6MB，击败19.65%。
+// 执行用时：0ms，击败100.00%。消耗内存：37.6MB，击败19.65%。
 
-```java
+// ```java
 public class Solution {
     public int oddCells(int n, int m, int[][] indices) {
         int[] rows = new int[n], cols = new int[m];
@@ -64,4 +64,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

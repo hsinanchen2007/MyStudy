@@ -1,12 +1,12 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/8/30
- *
- * 解题思路： 不多说,两种,可简单可复杂 , 用上二叉搜索树的性质
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/8/30
+//  *
+//  * 解题思路： 不多说,两种,可简单可复杂 , 用上二叉搜索树的性质
+//  */
+// ```
     public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
         if((root.val >= p.val && root.val <= q.val) || ((root.val <= p.val && root.val >= q.val)) || (root.val == p.val) || (root.val == q.val)){
             return root;
@@ -45,4 +45,4 @@
             return root;
         }
     }
-```
+// ```

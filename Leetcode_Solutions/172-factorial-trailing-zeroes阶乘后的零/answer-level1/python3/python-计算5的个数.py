@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def trailingZeroes(self, n: int) -> int:
         res = 0
@@ -14,4 +14,4 @@ class Solution:
             n = n//5
             p+=n
         return p
-```
+# ```

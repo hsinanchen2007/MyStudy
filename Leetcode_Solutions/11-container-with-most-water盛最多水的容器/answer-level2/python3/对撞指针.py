@@ -1,5 +1,5 @@
-对于像求数组中两数最大和、等于目标数、回文字符串等这样类型的问题，都可以用对撞指针来解决
-```
+# 对于像求数组中两数最大和、等于目标数、回文字符串等这样类型的问题，都可以用对撞指针来解决
+# ```
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         i, j, s = 0, len(height) - 1, 0
@@ -13,4 +13,4 @@ class Solution:
                     s = (j - i) * height[i]
                 i += 1
         return s
-```
+# ```

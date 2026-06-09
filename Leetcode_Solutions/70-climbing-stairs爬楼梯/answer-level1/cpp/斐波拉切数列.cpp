@@ -1,13 +1,13 @@
-典型的斐波拉切数列函数，可由递归和非递归两种方式实现。
-```
+// 典型的斐波拉切数列函数，可由递归和非递归两种方式实现。
+// ```
       1               n=1
 f(n)= 2               n=2
       f(n-1) + f(n-2) n>=3
-```
-#### 分治法递归
-> 缺陷，耗时长，当n=44时即超出时间限制；
+// ```
+// #### 分治法递归
+// > 缺陷，耗时长，当n=44时即超出时间限制；
 
-```java
+// ```java
 class Solution {
     public int climbStairs(int n) {
         if(n<=0){
@@ -22,9 +22,9 @@ class Solution {
         return upFloor(n-1)+upFloor(n-2);
     }
 }
-```
-#### 非递归实现
-```cpp
+// ```
+// #### 非递归实现
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) {
@@ -39,4 +39,4 @@ public:
         return now;
     }
 };
-```
+// ```

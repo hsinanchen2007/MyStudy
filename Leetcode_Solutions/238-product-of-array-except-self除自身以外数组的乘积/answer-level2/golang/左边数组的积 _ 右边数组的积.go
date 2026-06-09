@@ -1,4 +1,4 @@
-```
+// ```
 // 左边数组的积 * 右边数组的积
 // dp记录后缀数组乘积
 // dp[i] = nums[i+1]*nums[i+2]*...*nums[len(nums)-1]
@@ -19,4 +19,4 @@ func productExceptSelf(nums []int) []int {
     }
     return dp
 }
-```
+// ```

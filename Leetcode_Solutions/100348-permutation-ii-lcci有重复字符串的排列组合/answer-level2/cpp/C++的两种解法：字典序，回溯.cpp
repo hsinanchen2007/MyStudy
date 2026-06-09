@@ -1,6 +1,6 @@
-需要注意的是，字典序方法里的二分搜索应该用`upper_bound`而不是`lower_bound`, 原因是`upper_bound`查找的是第一个大于目标值的元素的索引，而`lower_bound`查找的是第一个大于或等于目标值的元素的索引。
+// 需要注意的是，字典序方法里的二分搜索应该用`upper_bound`而不是`lower_bound`, 原因是`upper_bound`查找的是第一个大于目标值的元素的索引，而`lower_bound`查找的是第一个大于或等于目标值的元素的索引。
 
-```c++
+// ```c++
 // 字典序
 class Solution {
 public:
@@ -56,4 +56,4 @@ public:
         }
     }
 };
-```
+// ```

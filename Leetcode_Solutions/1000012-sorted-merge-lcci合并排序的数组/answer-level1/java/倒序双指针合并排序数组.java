@@ -1,9 +1,9 @@
-### 解题思路
-学习了一位大神的思路 觉得很棒
+// ### 解题思路
+// 学习了一位大神的思路 觉得很棒
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         while (m > 0 && n > 0) {
@@ -20,4 +20,4 @@ class Solution {
 
     }
 }
-```
+// ```

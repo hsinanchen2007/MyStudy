@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-利用整数反转，反转后是否和原数相等从而得出是否是回文数
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 利用整数反转，反转后是否和原数相等从而得出是否是回文数
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
 if(x<0) return false;
 if(x>=0&&x<10) return true;
@@ -18,4 +18,4 @@ while(x!=0)
 if(temp==res) return true;
  else return false;
 }
-```
+// ```

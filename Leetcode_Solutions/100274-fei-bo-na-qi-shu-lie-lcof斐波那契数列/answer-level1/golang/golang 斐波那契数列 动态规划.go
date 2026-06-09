@@ -1,11 +1,11 @@
-### 解题思路
-最优子结构
-无后效性
-重叠子问题
+// ### 解题思路
+// 最优子结构
+// 无后效性
+// 重叠子问题
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func fib(n int) int {
     if n < 2 { return n }
     pre, curr := 0, 1
@@ -14,4 +14,4 @@ func fib(n int) int {
     }
     return curr 
 }
-```
+// ```

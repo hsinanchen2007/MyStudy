@@ -1,12 +1,12 @@
-### 解题思路
-遍历数组每个数，按照题目条件判断就好了：
-i != j
-0 <= i, j < arr.length
-arr[i] == 2 * arr[j]
+// ### 解题思路
+// 遍历数组每个数，按照题目条件判断就好了：
+// i != j
+// 0 <= i, j < arr.length
+// arr[i] == 2 * arr[j]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkIfExist(vector<int>& arr) {
@@ -21,4 +21,4 @@ public:
         return false;
     }
 };
-```
+// ```

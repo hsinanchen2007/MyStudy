@@ -1,5 +1,5 @@
-一样是dfs，和树不同的在于这里应该是一个双向有环图，需要定义一个used_set来记录，避免循环递归。
-```
+# 一样是dfs，和树不同的在于这里应该是一个双向有环图，需要定义一个used_set来记录，避免循环递归。
+# ```
 class Solution:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
         # 定义基本的邻接表矩阵
@@ -53,4 +53,4 @@ class Solution:
                 else:
                     res.append(adjacency[start_index][end_index])
         return res
-```
+# ```

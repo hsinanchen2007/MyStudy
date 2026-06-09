@@ -1,9 +1,9 @@
-### 解题思路
-迭代使用列表的pop的函数两两进行比较
-递归比较简单
-### 代码
-#迭代
-```python3
+# ### 解题思路
+# 迭代使用列表的pop的函数两两进行比较
+# 递归比较简单
+# ### 代码
+# #迭代
+# ```python3
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         if not p and not q:

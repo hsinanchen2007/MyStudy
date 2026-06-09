@@ -1,9 +1,9 @@
-### 解题思路
-同官方题解思路，找到最大元素，通过两次翻转放到最后。对N-1数组继续执行。官方代码简洁，可惜自己太笨理解不能
+# ### 解题思路
+# 同官方题解思路，找到最大元素，通过两次翻转放到最后。对N-1数组继续执行。官方代码简洁，可惜自己太笨理解不能
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def pancakeSort(self, A: List[int]) -> List[int]:
         res = []
@@ -29,4 +29,4 @@ class Solution:
             place(i)
 
         return res
-```
+# ```

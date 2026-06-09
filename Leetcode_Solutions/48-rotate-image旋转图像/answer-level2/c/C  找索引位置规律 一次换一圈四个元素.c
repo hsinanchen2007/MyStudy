@@ -1,4 +1,4 @@
-```
+// ```
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     printf("%d,%d",*matrixColSize,matrixSize);
     int temp=0,n=*matrixColSize-1;
@@ -12,4 +12,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         }
     }
 }
-```
+// ```

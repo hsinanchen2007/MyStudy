@@ -1,5 +1,5 @@
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,10 +25,10 @@ class Solution:
             p=p.next
             t+=1
 
-```
+# ```
 
-方法二：
-```
+# 方法二：
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -49,5 +49,5 @@ class Solution:
             q=q.next
         q.next=q.next.next
         return a.next
-```
+# ```
 

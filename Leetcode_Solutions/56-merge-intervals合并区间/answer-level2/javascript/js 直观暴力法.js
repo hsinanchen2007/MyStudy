@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/ae583e99be3d74b9cfc146b3fe826d09c3bc5cb83bf3647472e5b81bb36524b9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ae583e99be3d74b9cfc146b3fe826d09c3bc5cb83bf3647472e5b81bb36524b9-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 92ms
 直观暴力法:
 先按起始点正序排序所有区间
@@ -9,11 +9,11 @@
 不满足以下条件之一即为重叠：
 1.当前区间的终点小于遍历区间的起点
 2.当前区间的起点大于遍历区间的终点
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} intervals
  * @return {number[][]}
@@ -43,4 +43,4 @@ var merge = function(intervals) {
   
   return ans;
 };
-```
+// ```

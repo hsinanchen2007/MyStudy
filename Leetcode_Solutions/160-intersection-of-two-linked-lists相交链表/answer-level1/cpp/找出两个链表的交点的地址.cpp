@@ -1,9 +1,9 @@
-### 解题思路
-将两个链表连接遍历，A+B=B+A
+// ### 解题思路
+// 将两个链表连接遍历，A+B=B+A
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,4 +27,4 @@ public:
         return l1;
     }
 };
-```
+// ```

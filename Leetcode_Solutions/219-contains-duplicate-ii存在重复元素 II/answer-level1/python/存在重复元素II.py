@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def containsNearbyDuplicate(self, nums, k):
         """
@@ -17,4 +17,4 @@ class Solution(object):
             else:
                 num[nums[i]] = i
         return False
-```
+# ```

@@ -1,6 +1,6 @@
-先从str1和str2中找到最短的字符串，然后利用该字符串从后往前找最大因子
+// 先从str1和str2中找到最短的字符串，然后利用该字符串从后往前找最大因子
 
-```
+// ```
 int TOP = 0;
 char * gcdOfStrings(char * str1, char * str2){
     int len1 = strlen(str1);
@@ -35,4 +35,4 @@ int find_str(char *master, char *order)
     }
     return j;
 }
-```
+// ```

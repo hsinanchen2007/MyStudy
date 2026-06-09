@@ -1,15 +1,15 @@
 
-![image.png](https://pic.leetcode-cn.com/c40205d4424eeb0e7d414ec9fb30261121aa618c36c969a3cfe3d9d71766b8df-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c40205d4424eeb0e7d414ec9fb30261121aa618c36c969a3cfe3d9d71766b8df-image.png)
 
-# 思路
-（1）首先，字母板的字母是按顺序排列的，这个很关键，这样就可以计算每个字母在字母板上位置了，如下：
-```java
+// # 思路
+// （1）首先，字母板的字母是按顺序排列的，这个很关键，这样就可以计算每个字母在字母板上位置了，如下：
+// ```java
     int row = (curChar - 'a') / 5;
     int col = (curChar - 'a') % 5;
-```
-（2）然后，由于z那一行比较特殊，因此对z单独处理。这里为了更大程度的减小重复代码，我把处理左右移动和上下移动的操作单独抽取出来变成一个方法。具体代码如下：
+// ```
+// （2）然后，由于z那一行比较特殊，因此对z单独处理。这里为了更大程度的减小重复代码，我把处理左右移动和上下移动的操作单独抽取出来变成一个方法。具体代码如下：
 
-```java
+// ```java
  private int handleRow(StringBuilder sb, int row, int lastRow) {
         // D or U
         if (row != lastRow) {
@@ -67,4 +67,4 @@
 
         return sb.toString();
     }
-```
+// ```

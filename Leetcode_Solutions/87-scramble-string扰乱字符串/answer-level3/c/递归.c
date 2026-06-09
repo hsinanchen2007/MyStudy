@@ -1,11 +1,11 @@
-### 解题思路
-![捕获.PNG](https://pic.leetcode-cn.com/be72cb10d3d40e673bed74f4584bee6b2cd90fc4b9927b9c4897bd87e5ef2d29-%E6%8D%95%E8%8E%B7.PNG)
- 我也不知道为啥就100%了，分享一下。
-用suma,sumb记录分割字符串所有字母的值的和，简单去除部分不必要计算。
+// ### 解题思路
+// ![捕获.PNG](https://pic.leetcode-cn.com/be72cb10d3d40e673bed74f4584bee6b2cd90fc4b9927b9c4897bd87e5ef2d29-%E6%8D%95%E8%8E%B7.PNG)
+//  我也不知道为啥就100%了，分享一下。
+// 用suma,sumb记录分割字符串所有字母的值的和，简单去除部分不必要计算。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char *sa, *sb;
 bool dfs(int al, int bl,int len,int suma,int sumb)
 {
@@ -32,4 +32,4 @@ bool isScramble(char * s1, char * s2) {
         suma+=s1[i],sumb+=s2[i];
 	return dfs(0, 0, len,suma,sumb);
 }
-```
+// ```

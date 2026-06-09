@@ -1,9 +1,9 @@
-思路：
-1.num1与num2中的每一位高精度乘得到len(num2)个中间结果
-2.在第i个中间结果后面补上i个0(i从0开始)
-3.所有中间结果进行高精度加得到最终结果。
-代码；
-```
+# 思路：
+# 1.num1与num2中的每一位高精度乘得到len(num2)个中间结果
+# 2.在第i个中间结果后面补上i个0(i从0开始)
+# 3.所有中间结果进行高精度加得到最终结果。
+# 代码；
+# ```
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         def mul(s1,s2):
@@ -50,4 +50,4 @@ class Solution:
         for i in range(len(tt)):
             result=add(result,tt[i])
         return result
-```
+# ```

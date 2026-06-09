@@ -1,5 +1,5 @@
-# 我的代码
-```java []
+// # 我的代码
+// ```java []
 public String multiply(String num1, String num2) {
     int L1=num1.length(),L2=num2.length();
     int flag=0;
@@ -31,11 +31,11 @@ public String multiply(String num1, String num2) {
         res+=result[i];
     return res;
 }
-```
+// ```
 
-# 题解代码
-注意学习StringBuilder...
-```java []
+// # 题解代码
+// 注意学习StringBuilder...
+// ```java []
 class Solution {
     public String multiply(String num1, String num2) {
         if (num1.equals("0") || num2.equals("0")) {
@@ -61,5 +61,5 @@ class Solution {
     }
 }
 
-```
+// ```
 

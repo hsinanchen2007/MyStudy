@@ -1,5 +1,5 @@
-Python3直观暴力解法：
-```python
+# Python3直观暴力解法：
+# ```python
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
         ip = []
@@ -23,4 +23,4 @@ class Solution:
             return int(segment) <= 255 if segment[0] != '0' else len(segment) == 1
         else:
             return False
-```
+# ```

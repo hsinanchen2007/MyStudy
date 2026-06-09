@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lemonadeChange(self, bills) -> bool:
         if bills == []:
@@ -31,4 +31,4 @@ class Solution:
                     else:
                         have[bills[i]] += 1
         return True
-```
+# ```

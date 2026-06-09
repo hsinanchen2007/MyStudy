@@ -1,8 +1,8 @@
-### 解题思路
-迭代
-### 代码
+// ### 解题思路
+// 迭代
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return pre
     }
 }
-```
+// ```

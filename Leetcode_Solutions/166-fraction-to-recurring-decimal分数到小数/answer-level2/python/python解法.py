@@ -1,9 +1,9 @@
-### 解题思路
-修改了很多次才做对，各种意外情况，都是泪啊
+# ### 解题思路
+# 修改了很多次才做对，各种意外情况，都是泪啊
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def fractionToDecimal(self, numerator, denominator):
         """
@@ -58,4 +58,4 @@ class Solution(object):
                     zs_res += str(div_mod[i][0])
             zs_res += ')'
             return zs_res
-```
+# ```

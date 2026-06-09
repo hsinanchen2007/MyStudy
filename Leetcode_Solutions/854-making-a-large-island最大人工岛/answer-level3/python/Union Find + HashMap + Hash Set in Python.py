@@ -1,8 +1,8 @@
-Union Find with HashMap
-先使用dfs查找同一个岛屿上的所有点，然后利用`father`的HashMap来实现同一个岛屿的点都指向第一个进入DFS的岛屿位置。同时使用一个`size`的HashMap来存储每一个岛屿的大小，HashMap的key就是之前同一个岛屿所有的点指向的father。
-然后对每一个海洋进行遍历，访问海洋四周的点，利用hashset来保证每个岛屿的father只出现一次。
-最后打擂台找到最大的联通岛屿。
-```
+# Union Find with HashMap
+# 先使用dfs查找同一个岛屿上的所有点，然后利用`father`的HashMap来实现同一个岛屿的点都指向第一个进入DFS的岛屿位置。同时使用一个`size`的HashMap来存储每一个岛屿的大小，HashMap的key就是之前同一个岛屿所有的点指向的father。
+# 然后对每一个海洋进行遍历，访问海洋四周的点，利用hashset来保证每个岛屿的father只出现一次。
+# 最后打擂台找到最大的联通岛屿。
+# ```
 class Solution(object):
     def largestIsland(self, grid):
         """
@@ -55,4 +55,4 @@ class Solution(object):
         
             
         
-```
+# ```

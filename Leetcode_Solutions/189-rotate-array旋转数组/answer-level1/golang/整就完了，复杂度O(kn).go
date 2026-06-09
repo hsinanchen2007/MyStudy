@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-暴力点，主要是想明白
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 暴力点，主要是想明白
+// ### 代码
 
-```golang
+// ```golang
 func rotate(nums []int, k int)  {
     
     if k > len(nums) {
@@ -40,4 +40,4 @@ func rotate(nums []int, k int)  {
         nums[i] = sum[i] 
     }
 }
-```
+// ```

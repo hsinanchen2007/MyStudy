@@ -1,13 +1,13 @@
-```
+// ```
 a -> e           0 -> 1
 e -> a i         1 -> 0 2
 i -> a e o u     2 -> 0 1 3 4
 o -> i u         3 -> 2 4
 u -> a           4 -> 0
-```
+// ```
 
 
-```
+// ```
 class Solution {
 public:
     int countVowelPermutation(const int n) {
@@ -29,4 +29,4 @@ private:
         return (a + b)%1000000007;
     }
 };
-```
+// ```

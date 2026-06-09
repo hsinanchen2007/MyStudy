@@ -1,8 +1,8 @@
-执行用时 :16 ms, 在所有 C++ 提交中击败了86.96%的用户
+// 执行用时 :16 ms, 在所有 C++ 提交中击败了86.96%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countNegatives(vector<vector<int>>& grid) {
@@ -16,4 +16,4 @@ public:
         return ans;
     }
 };
-```
+// ```

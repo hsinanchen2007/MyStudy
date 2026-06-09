@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
         def callength(l):
@@ -30,4 +30,4 @@ class Solution:
             q=q.next
         q.next=self.reverseKGroup(head,k)     #连接
         return l
-```
+# ```

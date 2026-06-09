@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean backspaceCompare(String S, String T) {
         int i, j, k;
@@ -33,4 +33,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

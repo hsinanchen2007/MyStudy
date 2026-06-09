@@ -1,8 +1,8 @@
-## 思路一：哈希表
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```c++
+// ## 思路一：哈希表
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -18,13 +18,13 @@ public:
         return false;
     }
 };
-```
+// ```
 
-## 思路二：快慢指针（最优解）
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(1)
-```c++
+// ## 思路二：快慢指针（最优解）
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
+// ```c++
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -44,10 +44,10 @@ public:
         return false;
     }
 };
-```
-#### 另一种写法
-初始都从头节点开始，每次移动后判断。
-```c++
+// ```
+// #### 另一种写法
+// 初始都从头节点开始，每次移动后判断。
+// ```c++
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -64,5 +64,5 @@ public:
         return false;
     }
 };
-```
+// ```
 

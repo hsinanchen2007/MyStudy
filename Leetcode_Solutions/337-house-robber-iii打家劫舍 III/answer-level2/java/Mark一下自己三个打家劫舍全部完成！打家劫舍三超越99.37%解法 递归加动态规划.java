@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/5b0971928a64b8190ed171a687bad7b0e63adaf1427029835dda3df93268f4c1-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/5b0971928a64b8190ed171a687bad7b0e63adaf1427029835dda3df93268f4c1-image.png)
 
 
-为了可读性创建了太多的变量，所以内存消耗变得较大。
-应该可以继续优化的，望大神指点！
-### 代码
+// 为了可读性创建了太多的变量，所以内存消耗变得较大。
+// 应该可以继续优化的，望大神指点！
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -49,4 +49,4 @@ public class Solution {
 	return root.val;
     }
 }
-```
+// ```

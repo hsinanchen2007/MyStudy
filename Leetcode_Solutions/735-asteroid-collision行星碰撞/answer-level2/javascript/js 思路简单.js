@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/c04893da1782bb8f6ccef53e83b6b1b1f3be6df482fc8dd944efc1f566fa51d3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c04893da1782bb8f6ccef53e83b6b1b1f3be6df482fc8dd944efc1f566fa51d3-image.png)
 
 
-### 解题思路
-见代码注释
+// ### 解题思路
+// 见代码注释
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} asteroids
  * @return {number[]}
@@ -53,4 +53,4 @@ var asteroidCollision = function(asteroids) {
   
   return stack;
 };
-```
+// ```

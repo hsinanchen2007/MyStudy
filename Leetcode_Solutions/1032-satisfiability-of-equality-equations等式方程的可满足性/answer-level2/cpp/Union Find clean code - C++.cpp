@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     // maximum 26 characters
@@ -30,4 +30,4 @@ public:
         return true;
     }
 };
-```
+// ```

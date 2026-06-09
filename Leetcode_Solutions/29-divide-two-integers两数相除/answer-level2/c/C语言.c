@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/9e463867c09cfc14412593482a85fabbd8257ece72181bdb8246a9f558cc14bf-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/9e463867c09cfc14412593482a85fabbd8257ece72181bdb8246a9f558cc14bf-image.png)
 
-此处撰写解题思路
-开始没考虑越界，因为转成了正数计算的，所以用了unsigned int来规避越界.
-思路类似二分法，如下：
+// 此处撰写解题思路
+// 开始没考虑越界，因为转成了正数计算的，所以用了unsigned int来规避越界.
+// 思路类似二分法，如下：
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int divide(int dividend, int divisor){
     int changeResult = 0;
@@ -65,4 +65,4 @@ int divide(int dividend, int divisor){
         
     }
 }
-```
+// ```

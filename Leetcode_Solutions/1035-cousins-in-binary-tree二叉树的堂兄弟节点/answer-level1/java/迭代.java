@@ -1,7 +1,7 @@
-执行用时 : 3 ms, 在Cousins in Binary Tree的Java提交中击败了66.18% 的用户
-内存消耗 : 34.5 MB, 在Cousins in Binary Tree的Java提交中击败了79.07% 的用户
-用两个队列，节点队列和深度队列，两个标志位
-```
+// 执行用时 : 3 ms, 在Cousins in Binary Tree的Java提交中击败了66.18% 的用户
+// 内存消耗 : 34.5 MB, 在Cousins in Binary Tree的Java提交中击败了79.07% 的用户
+// 用两个队列，节点队列和深度队列，两个标志位
+// ```
 class Solution {
     public boolean isCousins(TreeNode root, int x, int y) {
         if(x==y)
@@ -50,4 +50,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

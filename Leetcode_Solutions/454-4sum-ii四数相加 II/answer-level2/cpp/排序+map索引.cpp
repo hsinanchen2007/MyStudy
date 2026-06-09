@@ -1,11 +1,11 @@
-### 解题思路
-1、排序，将4个数组排序（减少循环次数）
-2、降维：先将AB求和，和作为map的key，相同和的个数作为value；
-3、统计和为0的组合：将CD求和，并在map中索引与零的差值，如果存在，累加map的value;
+// ### 解题思路
+// 1、排序，将4个数组排序（减少循环次数）
+// 2、降维：先将AB求和，和作为map的key，相同和的个数作为value；
+// 3、统计和为0的组合：将CD求和，并在map中索引与零的差值，如果存在，累加map的value;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {
@@ -40,4 +40,4 @@ public:
         return total;
     }
 };
-```
+// ```

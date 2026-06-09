@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -10,4 +10,4 @@ public:
         while(j<nums.size()) nums[j++] = 0;
     }
 };
-```
+// ```

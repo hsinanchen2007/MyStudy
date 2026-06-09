@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/9e27dd1975bd7b1dd9c58fbf3ffb6fa0a5c2729a909f8495280261c8bacf9d03-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9e27dd1975bd7b1dd9c58fbf3ffb6fa0a5c2729a909f8495280261c8bacf9d03-image.png)
 
-```
+// ```
 if len(s1)+len(s2) != len(s3) {
 		return false
 	}
@@ -38,4 +38,4 @@ if len(s1)+len(s2) != len(s3) {
 		}
 	}
 	return dp[len(s1)-1][len(s2)-1] 
-```
+// ```

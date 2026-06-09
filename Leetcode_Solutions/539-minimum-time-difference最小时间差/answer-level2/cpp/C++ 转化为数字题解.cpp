@@ -1,11 +1,11 @@
-### 解题思路
-1，时间转化为分钟数
-2，然后对数字进行排序，进行比较
-3，注意头部和尾部时间的比较时需要考虑不同的方向
+// ### 解题思路
+// 1，时间转化为分钟数
+// 2，然后对数字进行排序，进行比较
+// 3，注意头部和尾部时间的比较时需要考虑不同的方向
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     const int DAY_MINUTE = 24 * 60;
@@ -28,6 +28,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/a37d39434cb9ccfa269cbb8e5129266af99dc8bf48a4dbc96e939f130a87500f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a37d39434cb9ccfa269cbb8e5129266af99dc8bf48a4dbc96e939f130a87500f-image.png)

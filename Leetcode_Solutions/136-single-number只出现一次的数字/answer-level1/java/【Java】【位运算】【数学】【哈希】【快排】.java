@@ -1,12 +1,12 @@
-### 思路一（位运算）：
+// ### 思路一（位运算）：
 
-二进制异或，两位相同为0，不同得1。即两个数相同，异或得0。0和任何数异或得到该数本身。将数组中所有数进行异或，其中出现两次的数抵消为0，剩下的就是出现一次的那个数。
+// 二进制异或，两位相同为0，不同得1。即两个数相同，异或得0。0和任何数异或得到该数本身。将数组中所有数进行异或，其中出现两次的数抵消为0，剩下的就是出现一次的那个数。
 
-### 代码：
+// ### 代码：
 
-时间复杂度O(n)，空间复杂度O(1)
+// 时间复杂度O(n)，空间复杂度O(1)
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         if (nums.length == 1) {
@@ -19,23 +19,23 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-### Result：
+// ### Result：
 
-Runtime：1ms
+// Runtime：1ms
 
-Your runtime beats 99.60% of java submissions.
+// Your runtime beats 99.60% of java submissions.
 
-### 思路二（快排）：
+// ### 思路二（快排）：
 
-先排序，每相邻两位相等，不等则输出
+// 先排序，每相邻两位相等，不等则输出
 
-### 代码：
+// ### 代码：
 
-时间复杂度O(n log(n))，空间复杂度O(1)
+// 时间复杂度O(n log(n))，空间复杂度O(1)
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         if (nums.length == 1) {
@@ -50,29 +50,29 @@ class Solution {
         return nums[nums.length - 1];
     }
 }
-```
+// ```
 
-### Result：
+// ### Result：
 
-Runtime：6ms
+// Runtime：6ms
 
-Your runtime beats 32.32% of java submissions.
+// Your runtime beats 32.32% of java submissions.
 
-### 思路三（数学）：
+// ### 思路三（数学）：
 
-数学
+// 数学
 
-```math
+// ```math
 2∗(a+b+c)−(a+a+b+b+c)=c
-```
+// ```
 
-所以，开辟 set 存储唯一元素求和
+// 所以，开辟 set 存储唯一元素求和
 
-### 代码：
+// ### 代码：
 
-时间复杂度O(n)，空间复杂度O(n)
+// 时间复杂度O(n)，空间复杂度O(n)
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         if (nums.length == 1) {
@@ -91,19 +91,19 @@ class Solution {
         return 2 * set_sum - sum_all;
     }
 }
-```
+// ```
 
-### 思路四（哈希）：
+// ### 思路四（哈希）：
 
-哈希集有个重要特性，即不包含任何重复元素的无序集合。所以，对于此题可谓是相当适用的，毕竟我们要求的值就是唯一的。
+// 哈希集有个重要特性，即不包含任何重复元素的无序集合。所以，对于此题可谓是相当适用的，毕竟我们要求的值就是唯一的。
 
-故当我们向哈希集添加元素时，先检查，如果有了直接移除掉；否则，添加新元素，最后剩下的就是唯一的元素。
+// 故当我们向哈希集添加元素时，先检查，如果有了直接移除掉；否则，添加新元素，最后剩下的就是唯一的元素。
 
-### 代码：
+// ### 代码：
 
-时间复杂度O(n)，空间复杂度O(n)
+// 时间复杂度O(n)，空间复杂度O(n)
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         if (nums.length == 1) {
@@ -122,4 +122,4 @@ class Solution {
         return set.iterator().next();
     }
 }
-```
+// ```

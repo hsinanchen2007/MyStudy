@@ -1,11 +1,11 @@
-![Snipaste_2020-03-18_14-29-28.jpg](https://pic.leetcode-cn.com/34d74b2099c2873f88093e9856e5ccc93fdbfbb7ca76ee81b70faae586ad3c8d-Snipaste_2020-03-18_14-29-28.jpg)
+// ![Snipaste_2020-03-18_14-29-28.jpg](https://pic.leetcode-cn.com/34d74b2099c2873f88093e9856e5ccc93fdbfbb7ca76ee81b70faae586ad3c8d-Snipaste_2020-03-18_14-29-28.jpg)
 
-### 解题思路
-既然首尾元素不能同时选，那就分两次动态规划，第一次剔除尾元素，第二次剔除首元素，最后比较两次动态规划得到的最大值
+// ### 解题思路
+// 既然首尾元素不能同时选，那就分两次动态规划，第一次剔除尾元素，第二次剔除首元素，最后比较两次动态规划得到的最大值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int rob(int* nums, int numsSize){
     if(numsSize == 0)
         return 0;
@@ -39,4 +39,4 @@ int rob(int* nums, int numsSize){
     
     return res1>res2?res1:res2;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-Go 双指针判断子字符串
+// ### 解题思路
+// Go 双指针判断子字符串
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findLongestWord(s string, d []string) string {
     res := ""
     for _, v:= range d {
@@ -32,4 +32,4 @@ func isSubstr (s, t string) bool {
     }
     return j == len(t)
 }
-```
+// ```

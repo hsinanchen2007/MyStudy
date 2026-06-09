@@ -1,45 +1,45 @@
-### 解题思路
-class Solution
-private int [][] dp;
-	public int strStr(String haystack, String needle) {
-		int M = needle.length();
-		//M为当前状态（M的状态个数取决于子字符串的长度)，256为将要遇到的字符(遇到的字符是未知的，所以要考虑所有情况)
-		dp = new int [M][256];//dp数组的取值范围
-		//初始化dp二维数组,即即将遇到的字符是haystack.charAt(0)是状态前进
-		dp[0][needle.charAt(0)]=1;
-		//初始化影子数组,更新影子数组
-		int X = 0;
-		//两个循环是用于更新二维数组，内循环更新遇到的字符，外循环更新当前匹配状态和影子状态
-		//每找一个字母，内循环都要全部遍历一次
-		for (int j = 1 ; j<needle.length() ; j++) {
-			for(int c = 0 ; c<256 ; c++) {
-				if (c == needle.charAt(j)) {
-					dp[j][c] = j+1;
-				}
-				else {
-					dp[j][c] = dp[X][c];
-				}
-			}
-			X = dp[X][needle.charAt(j)];///影子状态的更新（影子状态的更新是根据子字符串来确定的）
-		}
+// ### 解题思路
+// class Solution
+// private int [][] dp;
+// 	public int strStr(String haystack, String needle) {
+// 		int M = needle.length();
+// 		//M为当前状态（M的状态个数取决于子字符串的长度)，256为将要遇到的字符(遇到的字符是未知的，所以要考虑所有情况)
+// 		dp = new int [M][256];//dp数组的取值范围
+// 		//初始化dp二维数组,即即将遇到的字符是haystack.charAt(0)是状态前进
+// 		dp[0][needle.charAt(0)]=1;
+// 		//初始化影子数组,更新影子数组
+// 		int X = 0;
+// 		//两个循环是用于更新二维数组，内循环更新遇到的字符，外循环更新当前匹配状态和影子状态
+// 		//每找一个字母，内循环都要全部遍历一次
+// 		for (int j = 1 ; j<needle.length() ; j++) {
+// 			for(int c = 0 ; c<256 ; c++) {
+// 				if (c == needle.charAt(j)) {
+// 					dp[j][c] = j+1;
+// 				}
+// 				else {
+// 					dp[j][c] = dp[X][c];
+// 				}
+// 			}
+// 			X = dp[X][needle.charAt(j)];///影子状态的更新（影子状态的更新是根据子字符串来确定的）
+// 		}
 		
-		int s = 0;
-		for (int i = 0 ; i<haystack.length() ; i++) {
-			s = dp[s][haystack.charAt(i)];
-			if (s == M) 
-				return i-M+1;
-		}
-		return -1;
-		
-		
+// 		int s = 0;
+// 		for (int i = 0 ; i<haystack.length() ; i++) {
+// 			s = dp[s][haystack.charAt(i)];
+// 			if (s == M) 
+// 				return i-M+1;
+// 		}
+// 		return -1;
 		
 		
-	}
-}
+		
+		
+// 	}
+// }
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
     /*
@@ -77,4 +77,4 @@ class Solution {
 
     }
 }
-```
+// ```

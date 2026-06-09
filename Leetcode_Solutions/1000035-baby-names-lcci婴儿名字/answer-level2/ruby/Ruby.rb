@@ -1,5 +1,5 @@
-用 Ruby 写数据结构简直像作弊
-```
+# 用 Ruby 写数据结构简直像作弊
+# ```
 # @param {String[]} names
 # @param {String[]} synonyms
 # @return {String[]}
@@ -21,4 +21,4 @@ def truly_most_popular(names, synonyms)
   # 按格式返回
   return result_dic.collect { |k, v| "#{k}(#{v})" }
 end
-```
+# ```

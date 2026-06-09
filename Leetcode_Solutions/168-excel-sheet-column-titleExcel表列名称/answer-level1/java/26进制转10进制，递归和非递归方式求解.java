@@ -1,11 +1,11 @@
-### 解题思路
-使用碾转相除法转换进制
-和使用递归来转换进制
+// ### 解题思路
+// 使用碾转相除法转换进制
+// 和使用递归来转换进制
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 //非递归方式
 class Solution {
     StringBuilder sb = new StringBuilder();
@@ -30,4 +30,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

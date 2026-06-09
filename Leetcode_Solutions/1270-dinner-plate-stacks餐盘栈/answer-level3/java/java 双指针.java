@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-使用两个指针，存储最左边栈的下标和最右边栈的下标
+// 使用两个指针，存储最左边栈的下标和最右边栈的下标
 
-首先使用数组形式来存储栈，方便根据下标提取
+// 首先使用数组形式来存储栈，方便根据下标提取
 
-重点解决的问题就是左右两个指针如何更新：
-- 左指针：1、push时当前栈满了，向后遍历  2、popAtStack时，如果当前栈有值，pop之后会出现空缺，取min(index,左指针)
-- 右指针：1、push时取max(左指针，右指针) 2、pop时，如果当前栈为空，向前遍历
+// 重点解决的问题就是左右两个指针如何更新：
+// - 左指针：1、push时当前栈满了，向后遍历  2、popAtStack时，如果当前栈有值，pop之后会出现空缺，取min(index,左指针)
+// - 右指针：1、push时取max(左指针，右指针) 2、pop时，如果当前栈为空，向前遍历
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class DinnerPlates {
     Stack<Integer>[] stacks = new Stack[100001];
     int size;
@@ -75,4 +75,4 @@ class DinnerPlates {
  * int param_2 = obj.pop();
  * int param_3 = obj.popAtStack(index);
  */
-```
+// ```

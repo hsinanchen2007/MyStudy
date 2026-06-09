@@ -1,4 +1,4 @@
-```c
+// ```c
 bool isPowerOfTwo(int n){
     int result=n;
     if(n==0) return 0;
@@ -8,4 +8,4 @@ bool isPowerOfTwo(int n){
     if (result!=1) return 0;
     else return 1;
 }
-```
+// ```

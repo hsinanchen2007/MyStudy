@@ -1,4 +1,4 @@
-```
+// ```
 #define MAXSIZE 1024
 typedef struct {
     int *data;
@@ -115,4 +115,4 @@ void myStackFree(MyStack* obj) {
     free(obj);
 }
 
-```
+// ```

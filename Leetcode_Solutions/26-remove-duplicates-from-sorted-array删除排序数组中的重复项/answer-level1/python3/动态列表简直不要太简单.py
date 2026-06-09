@@ -1,9 +1,9 @@
-### 解题思路
-直接用一个新的列表去搞就行了多简单
+# ### 解题思路
+# 直接用一个新的列表去搞就行了多简单
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         copys: [] = []
@@ -25,4 +25,4 @@ class Solution:
         for i in copys:
             nums.append(i)
         return len(copys)
-```
+# ```

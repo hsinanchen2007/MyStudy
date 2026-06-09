@@ -1,4 +1,4 @@
-搞清楚动态方程其他OK，dp[i]=dp[i-1]+dp[i-2]
+# 搞清楚动态方程其他OK，dp[i]=dp[i-1]+dp[i-2]
 class Solution(object):
     def climbStairs(self, n):
         if n==2:

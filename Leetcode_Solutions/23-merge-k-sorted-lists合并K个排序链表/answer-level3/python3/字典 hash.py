@@ -1,8 +1,8 @@
-### 解题思路
-字典 hash
-### 代码
+# ### 解题思路
+# 字典 hash
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
                 nodeTemp = nodeTemp.next
                 listDict[i] -= 1
         return nodeHead.next
-```
+# ```

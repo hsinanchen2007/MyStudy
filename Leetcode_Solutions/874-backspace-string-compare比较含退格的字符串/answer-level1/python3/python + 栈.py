@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def backspaceCompare(self, S: str, T: str) -> bool:
         stack_s = []
@@ -21,4 +21,4 @@ class Solution:
             else:
                 stack_t.append(i)
         return stack_s==stack_t
-```
+# ```

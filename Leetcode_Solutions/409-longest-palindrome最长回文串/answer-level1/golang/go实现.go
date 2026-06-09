@@ -1,10 +1,10 @@
-### 解题思路
-1、比较中心点
-2、有中心店的话，是奇数的个数 ，边去1个 变成偶数
+// ### 解题思路
+// 1、比较中心点
+// 2、有中心店的话，是奇数的个数 ，边去1个 变成偶数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 package main
 
 //最长回文串
@@ -33,4 +33,4 @@ func longestPalindrome(s string) int {
 	return maxLenght + flag
 }
 
-```
+// ```

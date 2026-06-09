@@ -1,11 +1,11 @@
-### 解题思路
-写一个函数conutS判断左子树有多少结点：分为1、左子树是空 2、左子树是根节点 3、左子树有左节点 4、左子树有右节点 5、左子树左右节点都有
-从而得到根节点的所在位置，进而递归继续在左子树或右子树中寻找。
-当找到根节点满足k，输出。
+# ### 解题思路
+# 写一个函数conutS判断左子树有多少结点：分为1、左子树是空 2、左子树是根节点 3、左子树有左节点 4、左子树有右节点 5、左子树左右节点都有
+# 从而得到根节点的所在位置，进而递归继续在左子树或右子树中寻找。
+# 当找到根节点满足k，输出。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
             return root.val
         else:
             return self.kthSmallest(root.right,k-count-1)
-```
+# ```

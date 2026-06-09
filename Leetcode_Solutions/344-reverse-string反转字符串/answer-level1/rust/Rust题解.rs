@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn reverse_string(s: &mut Vec<char>) {
         if s.len() > 0 {
@@ -12,5 +12,5 @@ impl Solution {
         }
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

@@ -1,11 +1,11 @@
-### 解题思路
-代码：
-    解释不清，自己看。
-执行用时 :56 ms, 在所有 Python3 提交中击败了92.45%的用户
-内存消耗 :14.9 MB, 在所有 Python3 提交中击败了5.33%的用户
-### 代码
+# ### 解题思路
+# 代码：
+#     解释不清，自己看。
+# 执行用时 :56 ms, 在所有 Python3 提交中击败了92.45%的用户
+# 内存消耗 :14.9 MB, 在所有 Python3 提交中击败了5.33%的用户
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def checkPossibility(self, nums: List[int]) -> bool:
         a=0
@@ -46,4 +46,4 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```

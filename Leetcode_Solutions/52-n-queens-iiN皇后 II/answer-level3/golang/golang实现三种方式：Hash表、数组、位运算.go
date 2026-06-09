@@ -1,5 +1,5 @@
-# hash表实现
-```
+// # hash表实现
+// ```
 //hash表法
 func totalNQueens(n int) int {
     if n==0{
@@ -40,10 +40,10 @@ func dfs(row int,n int,cols,pies,nas map[int]bool,res *int){
         nas[row-col]=false
     }
 }
-```
+// ```
 
-# 数组实现
-```
+// # 数组实现
+// ```
 //数组表示法
 func totalNQueens(n int) int {
     if n==0{
@@ -85,10 +85,10 @@ func dfs(row int,n int,cols,pies,nas []bool,res *int){
     }
 }
 
-```
+// ```
 
-# 位运算实现方式一
-```
+// # 位运算实现方式一
+// ```
 //位运算表示法第一种
 func totalNQueens(n int) int {
     if n==0{
@@ -133,10 +133,10 @@ func dfs(row int,n int,cols,pies,nas int,res *int){
         nas^=(1 << uint(na))
     }
 }
-```
+// ```
 
-# 位运算实现方式二
-```
+// # 位运算实现方式二
+// ```
 //位运算表示法第二种
 func totalNQueens(n int) int {
     if n==0{
@@ -182,11 +182,11 @@ func dfs(row int,n int,cols,pies,nas int,res *int){
         nas^=(p << uint(n-1-row))
     }
 }
-```
+// ```
 
-# 位运算实现方式三（最终版）
+// # 位运算实现方式三（最终版）
 
-```
+// ```
 //位运算第三种（将三个bit array 变为形式参数，那么就不用再每次将其重置了，下一次递归会自动重置）
 func totalNQueens(n int) int {
     if n==0{
@@ -228,7 +228,7 @@ func dfs(row int,n int,cols,pies,nas int,res *int){
         //此时为形参，每次递归完后会自动回溯，所以就不用手动去整理了
     }
 }
-```
+// ```
 
-# 位运算实现参考BITTIGER视频老师讲解，如需观看，请参考哔哩哔哩，搜索BITTIGER 八皇后与位运算问题详解
-链接为：[https://www.bilibili.com/video/av50089394?from=search&seid=9778338273096318262]()
+// # 位运算实现参考BITTIGER视频老师讲解，如需观看，请参考哔哩哔哩，搜索BITTIGER 八皇后与位运算问题详解
+// 链接为：[https://www.bilibili.com/video/av50089394?from=search&seid=9778338273096318262]()

@@ -1,12 +1,12 @@
-### 解题思路
-1.构建数据结构，因涉及插入和删除操作多，故选用LinkedList而非ArrayList
-2.push直接调用Stack类的同名方法
-3.pop调用坡popAt方法
-4.popAt方法总是调用链表里最末尾的栈
+// ### 解题思路
+// 1.构建数据结构，因涉及插入和删除操作多，故选用LinkedList而非ArrayList
+// 2.push直接调用Stack类的同名方法
+// 3.pop调用坡popAt方法
+// 4.popAt方法总是调用链表里最末尾的栈
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class StackOfPlates {
 
     private List<Stack<Integer>> setOfStacks;
@@ -56,4 +56,4 @@ class StackOfPlates {
  * int param_2 = obj.pop();
  * int param_3 = obj.popAt(index);
  */
-```
+// ```

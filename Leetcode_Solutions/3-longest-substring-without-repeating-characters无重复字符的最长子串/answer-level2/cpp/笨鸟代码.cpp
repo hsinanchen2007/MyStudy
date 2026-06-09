@@ -1,6 +1,6 @@
- 此处就以abcabcbb为例
-代码思路过程
-初始为：a
+//  此处就以abcabcbb为例
+// 代码思路过程
+// 初始为：a
         abc  
         bca
         cab

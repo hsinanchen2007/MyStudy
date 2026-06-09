@@ -1,5 +1,5 @@
-利用Java的优先队列PriorityQueue简单实现大顶堆。
-```java
+// 利用Java的优先队列PriorityQueue简单实现大顶堆。
+// ```java
 class Solution {
     public int[] smallestK(int[] arr, int k) {
         if (arr == null || arr.length == 0 || k == 0) return new int[0];
@@ -17,4 +17,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

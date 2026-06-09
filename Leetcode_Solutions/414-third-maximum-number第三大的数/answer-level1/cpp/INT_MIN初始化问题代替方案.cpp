@@ -1,13 +1,13 @@
-问题描述：
-定义3个变量分别记录前3大的数，不容易初始化。如果初始化为INT_MIN，那么第3个变量如果最终是INT_MIN，则无法判定有没有取到第3大的数。
+// 问题描述：
+// 定义3个变量分别记录前3大的数，不容易初始化。如果初始化为INT_MIN，那么第3个变量如果最终是INT_MIN，则无法判定有没有取到第3大的数。
 
-解决方案：
-1、采用表示更大范围的long定义变量，就是要初始化为比所有数据都小且能比较的数。
-2、采用3个int指针记录，用指针是否为nullptr判断是否取到第3个数
-3、采用vector记录，利用vector.size()大小判定。
+// 解决方案：
+// 1、采用表示更大范围的long定义变量，就是要初始化为比所有数据都小且能比较的数。
+// 2、采用3个int指针记录，用指针是否为nullptr判断是否取到第3个数
+// 3、采用vector记录，利用vector.size()大小判定。
 
-方案2代码：
-```
+// 方案2代码：
+// ```
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -35,10 +35,10 @@ public:
         return *max3;        
     }
 };
-```
+// ```
 
-方案3代码：
-```
+// 方案3代码：
+// ```
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -76,11 +76,11 @@ public:
         }
     }
 };
-```
+// ```
 
-———————————————————————————————————————————————————————————————————————————————————————————
-方案3显然更具有通用性，接下来做姊妹题[leetcode 215](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/),方案3稍加修改就a了。
-```
+// ———————————————————————————————————————————————————————————————————————————————————————————
+// 方案3显然更具有通用性，接下来做姊妹题[leetcode 215](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/),方案3稍加修改就a了。
+// ```
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -110,4 +110,4 @@ public:
         }
     }
 };
-```
+// ```

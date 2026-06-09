@@ -1,6 +1,6 @@
-1. 哈希表
-当开始用的直接去数组里找值，这种方法效率太低了。用set或dict是检索最快的
-```
+# 1. 哈希表
+# 当开始用的直接去数组里找值，这种方法效率太低了。用set或dict是检索最快的
+# ```
 # exceed the time limit
 class Solution(object):
     def missingNumber(self, nums):
@@ -27,12 +27,12 @@ class Solution1(object):
             if i not in dictionary:
                 return i
         return len(nums)
-```
+# ```
 
 
-2. 数学
-return 加和 - sum(list) 这种方式是最快的
-```
+# 2. 数学
+# return 加和 - sum(list) 这种方式是最快的
+# ```
 # 数学方法 该方法是最好的
 class Solution3(object):
     def missingNumber(self, nums):
@@ -42,11 +42,11 @@ class Solution3(object):
         """
         n = len(nums)
         return n * (n + 1) / 2 - sum(nums)
-```
+# ```
 
 
-3. 位运算 异或方式 相同的元素异或后, 一定是0
-```
+# 3. 位运算 异或方式 相同的元素异或后, 一定是0
+# ```
 """
 下标: 0,1,2
 数字: 1,2,0
@@ -66,4 +66,4 @@ class Solution3(object):
         for index, data in enumerate(nums):
             miss = miss ^ index ^ data
         return miss
-```
+# ```

@@ -1,6 +1,6 @@
-执行用时 : 1 ms, 在Path Sum的Java提交中击败了96.88% 的用户
-内存消耗 : 36.6 MB, 在Path Sum的Java提交中击败了91.42% 的用户
-```
+// 执行用时 : 1 ms, 在Path Sum的Java提交中击败了96.88% 的用户
+// 内存消耗 : 36.6 MB, 在Path Sum的Java提交中击败了91.42% 的用户
+// ```
 class Solution {
     public boolean hasPathSum(TreeNode root, int sum) {
         if(root==null){
@@ -26,4 +26,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

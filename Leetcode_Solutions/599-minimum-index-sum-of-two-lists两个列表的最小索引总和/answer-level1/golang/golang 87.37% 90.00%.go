@@ -1,6 +1,6 @@
-![屏幕快照 2020-04-02 上午11.06.04.png](https://pic.leetcode-cn.com/a10ebdf2a532610e44989db1348601124b193e19658a56ef016968b2ddc90ab3-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-04-02%20%E4%B8%8A%E5%8D%8811.06.04.png)
+// ![屏幕快照 2020-04-02 上午11.06.04.png](https://pic.leetcode-cn.com/a10ebdf2a532610e44989db1348601124b193e19658a56ef016968b2ddc90ab3-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-04-02%20%E4%B8%8A%E5%8D%8811.06.04.png)
 
-```
+// ```
 func findRestaurant(list1 []string, list2 []string) []string {
 	mp := make(map[string]int)
 	var min = int(^uint(0) >> 1)
@@ -33,4 +33,4 @@ func findRestaurant(list1 []string, list2 []string) []string {
 	return res
 }
 
-```
+// ```

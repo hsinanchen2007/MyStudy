@@ -1,7 +1,7 @@
-第一种方法：暴力法
-边遍历边查找，用res保存遍历过的字符，用result保存res数组的最大长度。每遍历s中的一个字符c，都先在res中用find函数查找第一个相同的字符所在的位置pos，如果的有相同的字符，用erase成员函数删除res字符从0到pos位置的字符。最后返回result既是最长无重复子串。
-时间复杂度O(n²）   空间复杂度O(1)
-```
+// 第一种方法：暴力法
+// 边遍历边查找，用res保存遍历过的字符，用result保存res数组的最大长度。每遍历s中的一个字符c，都先在res中用find函数查找第一个相同的字符所在的位置pos，如果的有相同的字符，用erase成员函数删除res字符从0到pos位置的字符。最后返回result既是最长无重复子串。
+// 时间复杂度O(n²）   空间复杂度O(1)
+// ```
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -20,10 +20,10 @@ public:
 };
 
 
-```
-第二种方法：滑动窗口法
-用max来记录前n-1个字符的最大无重复的子串，用right来标记s的第n-1个字符，用left来标记s的另外一个字符，使得[left,right]之间是无重复的子串。若第n个字符与[left,right]之间的字符有重复，则left移动到与第n个字符重复的字符的下一个位置，right移动到第n位。若不重复，则right-left+1则表示包含第n位的不重复子串的大小，然后用max与之比较即可。
-```
+// ```
+// 第二种方法：滑动窗口法
+// 用max来记录前n-1个字符的最大无重复的子串，用right来标记s的第n-1个字符，用left来标记s的另外一个字符，使得[left,right]之间是无重复的子串。若第n个字符与[left,right]之间的字符有重复，则left移动到与第n个字符重复的字符的下一个位置，right移动到第n位。若不重复，则right-left+1则表示包含第n位的不重复子串的大小，然后用max与之比较即可。
+// ```
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -43,6 +43,6 @@ public:
         return max;
     }
 };
-```
-ps:不知道为什么第一种方法用的平均时间要比第二种少。。。。。。
+// ```
+// ps:不知道为什么第一种方法用的平均时间要比第二种少。。。。。。
 

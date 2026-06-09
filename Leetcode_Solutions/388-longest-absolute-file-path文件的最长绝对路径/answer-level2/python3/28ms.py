@@ -1,9 +1,9 @@
-### 解题思路
-通过\n对字符串分割，用\t的个数判断层级存储在一个list中 
+# ### 解题思路
+# 通过\n对字符串分割，用\t的个数判断层级存储在一个list中 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthLongestPath(self, input: str) -> int:
         n_path = input.split('\n')
@@ -39,4 +39,4 @@ class Solution:
                 max = len(file_path[i])
 
         return max
-```
+# ```

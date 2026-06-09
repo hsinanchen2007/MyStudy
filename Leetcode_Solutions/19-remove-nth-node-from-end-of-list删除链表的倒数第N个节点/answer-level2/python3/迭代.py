@@ -1,12 +1,12 @@
-### 解题思路
-- 思路：找到要删除节点的前一个节点的位置，pre.next = pre.next.next删除即可
-- 1.考虑到如果要删除头节点的特殊性，所以要增加哨兵节点
-- 2.通过遍历整个链表来统计链表的长度length，再通过n与length的关系定位到前一节点
+# ### 解题思路
+# - 思路：找到要删除节点的前一个节点的位置，pre.next = pre.next.next删除即可
+# - 1.考虑到如果要删除头节点的特殊性，所以要增加哨兵节点
+# - 2.通过遍历整个链表来统计链表的长度length，再通过n与length的关系定位到前一节点
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution:
 
 
 
-```
+# ```

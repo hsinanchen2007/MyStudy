@@ -1,22 +1,22 @@
-### 解题思路
-典型的分组有序类问题。
+// ### 解题思路
+// 典型的分组有序类问题。
 
-通常的解法式按照有序性，逐行处理；但这里给出另一种解法。
+// 通常的解法式按照有序性，逐行处理；但这里给出另一种解法。
 
-1.首先将所有数据进行排序；
+// 1.首先将所有数据进行排序；
 
-2.对所有数据进行二分查找。
+// 2.对所有数据进行二分查找。
 
-计算复杂度为o(n)+o(nlog(n))+o(log(n)) = o(nlog(n))
+// 计算复杂度为o(n)+o(nlog(n))+o(log(n)) = o(nlog(n))
 
-本方法优点在于思路简洁清晰，对于分组有序类型中的其他问题更为明显。
+// 本方法优点在于思路简洁清晰，对于分组有序类型中的其他问题更为明显。
 
-![image.png](https://pic.leetcode-cn.com/6d8198d6ae0fe0b8dd2180a387b9cc231e58cde27a7bbeb8e6ea9fc9f3707ba8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6d8198d6ae0fe0b8dd2180a387b9cc231e58cde27a7bbeb8e6ea9fc9f3707ba8-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int compare(const void *a, const void *b) {
     return *(int *)a - *(int *)b;
 }
@@ -54,4 +54,4 @@ bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target){
 
     return info[ll] == target || (ll > 0 && info[ll - 1] == target);
 }
-```
+// ```

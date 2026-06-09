@@ -1,9 +1,9 @@
-### 解题思路
-暴力遍历，熟悉下GO的标准库 strconv 和 strings 
+// ### 解题思路
+// 暴力遍历，熟悉下GO的标准库 strconv 和 strings 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func getNoZeroIntegers(n int) []int {
     res := []int{}
     for a := 1; a < n; a++ {
@@ -16,4 +16,4 @@ func getNoZeroIntegers(n int) []int {
     }
     return res
 }
-```
+// ```

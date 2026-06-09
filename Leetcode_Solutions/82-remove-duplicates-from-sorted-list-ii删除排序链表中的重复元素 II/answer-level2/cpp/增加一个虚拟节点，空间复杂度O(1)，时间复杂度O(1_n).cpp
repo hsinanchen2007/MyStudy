@@ -1,6 +1,6 @@
-+ 设置一个前驱节点，即可
-+ 改进点：如果能不new，那么速度会更快
-```
+// + 设置一个前驱节点，即可
+// + 改进点：如果能不new，那么速度会更快
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -23,4 +23,4 @@ public:
     }
     
 };
-```
+// ```

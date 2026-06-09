@@ -1,9 +1,9 @@
-### 解题思路
-学习一下array的用法
+// ### 解题思路
+// 学习一下array的用法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return -1;
     }
 };
-```
+// ```

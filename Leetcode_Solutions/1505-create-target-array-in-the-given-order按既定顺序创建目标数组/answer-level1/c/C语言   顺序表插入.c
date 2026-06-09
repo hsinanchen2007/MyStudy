@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-简单的顺序表插入，注意每次的尾部索引更新
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 简单的顺序表插入，注意每次的尾部索引更新
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -26,4 +26,4 @@ int* createTargetArray(int* nums, int numsSize, int* index, int indexSize, int* 
     }
     return target;
 }
-```
+// ```

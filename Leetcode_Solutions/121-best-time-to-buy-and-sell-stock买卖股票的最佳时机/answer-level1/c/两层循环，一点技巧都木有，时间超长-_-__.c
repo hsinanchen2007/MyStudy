@@ -1,10 +1,10 @@
-### 解题思路
-先买，后卖
-j = i + 1
+// ### 解题思路
+// 先买，后卖
+// j = i + 1
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     int MaxProfit = 0;
     int i, j;//先买，后卖
@@ -17,4 +17,4 @@ int maxProfit(int* prices, int pricesSize){
     if(MaxProfit <= 0) return 0;
     return MaxProfit;
 }
-```
+// ```

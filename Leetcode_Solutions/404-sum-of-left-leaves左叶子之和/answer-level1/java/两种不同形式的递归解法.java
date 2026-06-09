@@ -1,10 +1,10 @@
-两个解法都是基于递归的,只是形式不一样.
-解法一需要一个全局变量,和一个额外的getSum()函数.这种写法的好处是使代码更加清晰易懂.
-解法二则不需要额外的全局变量和函数.
-总之两种写法思想都差不多,运行时间都是100%.具体代码分析请看注释.
+// 两个解法都是基于递归的,只是形式不一样.
+// 解法一需要一个全局变量,和一个额外的getSum()函数.这种写法的好处是使代码更加清晰易懂.
+// 解法二则不需要额外的全局变量和函数.
+// 总之两种写法思想都差不多,运行时间都是100%.具体代码分析请看注释.
 
-__解法一__
-```java
+// __解法一__
+// ```java
 int res = 0;//存储结果
 
 public int sumOfLeftLeaves(TreeNode root) {
@@ -25,12 +25,12 @@ public void getSum(TreeNode root) {
     if (root.right != null)//root.right不能为空
         getSum(root.right);
 }
-```
+// ```
 
 
 
-__解法二__
-```java
+// __解法二__
+// ```java
 public int sumOfLeftLeaves(TreeNode root) {
     if (root == null)//root为空直接返回0
         return 0;
@@ -46,4 +46,4 @@ public int sumOfLeftLeaves(TreeNode root) {
     return left + right + cur;//返回左子树值(若root.left非左叶子)+右子树值+root.left值(若root.
     left为左叶子)
 }
-```
+// ```

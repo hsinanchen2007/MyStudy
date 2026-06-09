@@ -1,9 +1,9 @@
-### 解题思路
-排序问题还是原地排序优先想到快排。
+# ### 解题思路
+# 排序问题还是原地排序优先想到快排。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sortColors(self, nums):
         """
@@ -32,4 +32,4 @@ class Solution(object):
         quick_sort(nums, 0, len(nums) - 1)
 
 
-```
+# ```

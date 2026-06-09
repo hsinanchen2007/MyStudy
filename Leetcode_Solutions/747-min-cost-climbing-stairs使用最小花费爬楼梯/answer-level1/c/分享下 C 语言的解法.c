@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int min(int a,int b){return a<b?a:b;}
 int minCostClimbingStairs(int* cost, int m){
     int *dp = (int *)malloc(m*sizeof(int));
@@ -22,4 +22,4 @@ int minCostClimbingStairs(int* cost, int m){
     return min(dp[m-1],dp[m-2]);
 }
 	
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-存到数组里面，通过下标取值
+// ### 解题思路
+// 存到数组里面，通过下标取值
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -22,4 +22,4 @@ func kthToLast(head *ListNode, k int) int {
 	}
 	return emp[len(emp)-k]
 }
-```
+// ```

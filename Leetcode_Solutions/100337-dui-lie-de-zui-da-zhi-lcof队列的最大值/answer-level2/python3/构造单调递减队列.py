@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MaxQueue:
 
     def __init__(self):
@@ -32,4 +32,4 @@ class MaxQueue:
         if tmp == self.aux[0]:
             self.aux.pop(0)
         return tmp
-```
+# ```

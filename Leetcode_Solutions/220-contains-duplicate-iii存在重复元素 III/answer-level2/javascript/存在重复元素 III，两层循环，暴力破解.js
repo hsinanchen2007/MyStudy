@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/a56e043334d50c9e6ae80ad99a66577137a0752ee1bb21971d66c266eb2ccd94-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a56e043334d50c9e6ae80ad99a66577137a0752ee1bb21971d66c266eb2ccd94-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -22,4 +22,4 @@ var containsNearbyAlmostDuplicate = function(nums, k, t) {
     }
     return false
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* 和为s的连续正数序列 滑动窗口 */
 
 int** findContinuousSequence(int target, int* returnSize, int** returnColumnSizes)
@@ -43,4 +43,4 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
     *returnColumnSizes = arrCol;
     return arr;
 }
-```
+// ```

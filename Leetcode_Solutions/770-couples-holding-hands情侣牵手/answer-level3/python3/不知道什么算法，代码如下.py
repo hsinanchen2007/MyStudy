@@ -1,6 +1,6 @@
-# 大致思路
-奇数位置的人不动，然后看偶数位置的人是否配对，如果不配对，找到配对人的位置，然后与之交换
-```
+# # 大致思路
+# 奇数位置的人不动，然后看偶数位置的人是否配对，如果不配对，找到配对人的位置，然后与之交换
+# ```
 class Solution:
     def minSwapsCouples(self, row: List[int]) -> int:
         res = 0
@@ -11,4 +11,4 @@ class Solution:
                 row[i + 1], row[tag_index] = row[tag_index], row[i + 1]  # 交换两个人
                 res += 1  # 记录交换次数
         return res
-```
+# ```

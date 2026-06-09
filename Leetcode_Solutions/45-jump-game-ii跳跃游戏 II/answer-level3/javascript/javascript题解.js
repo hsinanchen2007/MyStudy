@@ -1,12 +1,12 @@
-[45.跳跃游戏2](https://leetcode-cn.com/problems/jump-game-ii/)
+// [45.跳跃游戏2](https://leetcode-cn.com/problems/jump-game-ii/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
-# 贪心算法
+// # 贪心算法
 
-从初始位置开始，找到当前位置能跳到的最远位置，在在最远位置与当前位置范围之内，继续查找能跳到的最远位置。
+// 从初始位置开始，找到当前位置能跳到的最远位置，在在最远位置与当前位置范围之内，继续查找能跳到的最远位置。
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -26,7 +26,7 @@ var jump = function(nums) {
     }
     return count;
 };
-```
-**时间复杂度**：`O(n)`   
+// ```
+// **时间复杂度**：`O(n)`   
 
-**空间复杂度**：`O(1)`
+// **空间复杂度**：`O(1)`

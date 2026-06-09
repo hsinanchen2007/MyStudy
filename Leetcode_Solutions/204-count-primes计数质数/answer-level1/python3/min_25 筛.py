@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-~~老年退役选手还是能写 min_25 筛的，~~$O(\frac{n ^ \frac{3}{4}}{\log n})$，68ms，为了练习 py，就用 py 写了...
+# ~~老年退役选手还是能写 min_25 筛的，~~$O(\frac{n ^ \frac{3}{4}}{\log n})$，68ms，为了练习 py，就用 py 写了...
 
-### 代码
+# ### 代码
 
-``` python
+# ``` python
 # -*- coding: utf-8 -*-
 # min25 sieve
 
@@ -33,4 +33,4 @@ class Solution:
                 pre[i] -= pre[i // p] - pcnt
         return suc[1]
 
-```
+# ```

@@ -1,6 +1,6 @@
-##### 自底向上，计算坡度，并向上返回该子树的和, 以便上一层的根节点计算坡度
+# ##### 自底向上，计算坡度，并向上返回该子树的和, 以便上一层的根节点计算坡度
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
         tree_sum(root)
         return result
             
-```
+# ```

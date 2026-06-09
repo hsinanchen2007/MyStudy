@@ -1,9 +1,9 @@
-### 解题思路
-学习甜姨第n天
+// ### 解题思路
+// 学习甜姨第n天
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxDepthAfterSplit(seq string) []int {
     length := len(seq)
 	res := make([]int, length)
@@ -17,4 +17,4 @@ func maxDepthAfterSplit(seq string) []int {
 	}
 	return res
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isLongPressedName(string name, string typed) {
@@ -24,4 +24,4 @@ public:
 		return true;
     }
 };
-```
+// ```

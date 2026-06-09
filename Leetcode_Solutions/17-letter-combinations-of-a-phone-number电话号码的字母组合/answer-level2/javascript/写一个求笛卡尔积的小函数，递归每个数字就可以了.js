@@ -1,7 +1,7 @@
-本来想用动态规划写，发现这样容易理解，不知道算不算回溯
-用时90+ 内存60+
+// 本来想用动态规划写，发现这样容易理解，不知道算不算回溯
+// 用时90+ 内存60+
 
-```
+// ```
 var letterCombinations = function(digits) {
   // 特殊处理空字符串输入
   if (digits === '') { return [] }
@@ -26,4 +26,4 @@ var letterCombinations = function(digits) {
   
   return result
 };
-```
+// ```

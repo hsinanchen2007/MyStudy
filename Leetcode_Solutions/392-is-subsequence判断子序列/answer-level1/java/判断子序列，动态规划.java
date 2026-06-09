@@ -1,5 +1,5 @@
-申请一个数组用来保存当前最大子序列的个数，直到个数为S自妇产的长度就说明是子序列，否则就不是子序列
-```
+// 申请一个数组用来保存当前最大子序列的个数，直到个数为S自妇产的长度就说明是子序列，否则就不是子序列
+// ```
 class Solution {
     public boolean isSubsequence(String s, String t) {
         if (s.length() == 0) {
@@ -25,4 +25,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

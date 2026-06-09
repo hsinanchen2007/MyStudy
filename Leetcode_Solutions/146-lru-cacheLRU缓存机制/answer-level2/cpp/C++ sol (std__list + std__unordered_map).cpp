@@ -1,16 +1,16 @@
-### 解题思路
-执行用时 :84 ms, 在所有 C++ 提交中击败了99.89%的用户.
+// ### 解题思路
+// 执行用时 :84 ms, 在所有 C++ 提交中击败了99.89%的用户.
 
-1. LRU 的原理十分简单，但是写代码的时候需要特别注意操作iterator
-2. 我们在存储it的时候，一定要注意不能在存储它之后再对list进行操作，否则会破坏iterator：
-```cpp
+// 1. LRU 的原理十分简单，但是写代码的时候需要特别注意操作iterator
+// 2. 我们在存储it的时候，一定要注意不能在存储它之后再对list进行操作，否则会破坏iterator：
+// ```cpp
     cache.push_front(node);
     node->it = cache.begin(); // update iterator right after updated iterator in cache
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct Node {
     Node(int key, int val) : key(key), val(val) {}
 
@@ -68,4 +68,4 @@ public:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

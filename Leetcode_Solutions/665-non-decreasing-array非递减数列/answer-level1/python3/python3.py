@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def checkPossibility(self, nums: List[int]) -> bool:
         if len(nums) <= 2:
@@ -22,4 +22,4 @@ class Solution:
                 else:
                     nums[i] = nums[i + 1]
         return True
-```
+# ```

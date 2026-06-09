@@ -1,6 +1,6 @@
-问题的关键是定位到pivot的位置。分情况进行讨论查找即可。
+# 问题的关键是定位到pivot的位置。分情况进行讨论查找即可。
 
-```
+# ```
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         if not nums:
@@ -40,4 +40,4 @@ class Solution:
                     # nums[left] < nums[mid] < nums[right]
                     return nums[left]
         return nums[left]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用字典的key val存储二维信息
+# ### 解题思路
+# 利用字典的key val存储二维信息
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                 return [d[val], idx]
             else:
                 d[sub] = idx
-```
+# ```

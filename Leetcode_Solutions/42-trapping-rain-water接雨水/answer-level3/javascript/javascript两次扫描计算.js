@@ -1,4 +1,4 @@
-```
+// ```
 var trap = function(height) {
     //sum=总数，h每次的刻度线，s每次未多刻度线累积的数,max最大刻度线
     let sum = 0,h = 0,s = 0,max = Math.max(...height);
@@ -24,4 +24,4 @@ var trap = function(height) {
     }
     return sum
 };
-```
+// ```

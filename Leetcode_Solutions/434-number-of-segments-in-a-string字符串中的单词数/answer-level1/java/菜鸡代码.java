@@ -1,9 +1,9 @@
-### 解题思路
-没有思路，垃圾一个
+// ### 解题思路
+// 没有思路，垃圾一个
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	  public int countSegments(String s) {
 String ss=s.strip();
@@ -23,4 +23,4 @@ if(length==0) return 0;
 		return count;
     }
 }
-```
+// ```

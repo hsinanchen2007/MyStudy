@@ -1,6 +1,6 @@
-代码有点乱，一点都不妙=-=
+// 代码有点乱，一点都不妙=-=
 
-```
+// ```
 class Solution {
     public int[] masterMind(String solution, String guess) {
         int len = solution.length();
@@ -31,4 +31,4 @@ class Solution {
         return new int[]{ok, maybe - ok};
     }
 }
-```
+// ```

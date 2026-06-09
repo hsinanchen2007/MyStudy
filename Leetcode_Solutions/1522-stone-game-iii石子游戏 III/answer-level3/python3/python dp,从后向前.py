@@ -1,18 +1,18 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/e07041b210238469a3558099c1c6e338c632247261da3ef912b86308d80d548b-image.png)
-从后向前做dp就可以了。
-dp[i]标识[i, ..., n]时先手获得的最大得分，那么sum - dp[i]就是后手获得的最大得分了。
-边界条件是dp[n] = stoneValue[n]
-转移方程是
-a1 = stonevalue[i] + sum[i+1:] - dp[i+1]
-a2 = sum(stonevalue[i:i+2]) + sum[i+2:] - dp[i+2]
-a2 = sum(stonevalue[i:i+3]) + sum[i+3:n] - dp[i+3]
-dp[i] = max([a1, a2, a3])
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/e07041b210238469a3558099c1c6e338c632247261da3ef912b86308d80d548b-image.png)
+# 从后向前做dp就可以了。
+# dp[i]标识[i, ..., n]时先手获得的最大得分，那么sum - dp[i]就是后手获得的最大得分了。
+# 边界条件是dp[n] = stoneValue[n]
+# 转移方程是
+# a1 = stonevalue[i] + sum[i+1:] - dp[i+1]
+# a2 = sum(stonevalue[i:i+2]) + sum[i+2:] - dp[i+2]
+# a2 = sum(stonevalue[i:i+3]) + sum[i+3:n] - dp[i+3]
+# dp[i] = max([a1, a2, a3])
 
-注意处理时候的边界条件就行了。代码如下
-### 代码
+# 注意处理时候的边界条件就行了。代码如下
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def stoneGameIII(self, stoneValue: List[int]) -> str:
         dp = [-5e7]*len(stoneValue)
@@ -48,4 +48,4 @@ class Solution:
             return 'Tie'
         else:
             return 'Bob'
-```
+# ```

@@ -1,6 +1,6 @@
-我觉得官方解题的第一个方法超好理解，但是在我的环境上报错。重新用这个思想实现了一次。和官方代码有区别。已通过。
+// 我觉得官方解题的第一个方法超好理解，但是在我的环境上报错。重新用这个思想实现了一次。和官方代码有区别。已通过。
 
-```
+// ```
 public  List<Integer> findClosestElements(int[] arr, int k, int x) {
         List<Integer> list=new ArrayList<>();
         for (int i = 0; i <arr.length ; i++) {
@@ -17,4 +17,4 @@ public  List<Integer> findClosestElements(int[] arr, int k, int x) {
         Collections.sort(list);
         return list;
     }
-```
+// ```

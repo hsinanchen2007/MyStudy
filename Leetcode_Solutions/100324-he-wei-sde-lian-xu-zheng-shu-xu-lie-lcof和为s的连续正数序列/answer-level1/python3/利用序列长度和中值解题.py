@@ -1,14 +1,14 @@
-### 解题思路
-设连续正数序列的左右端点分别为x和y，则序列累加和为s=(y+x)(y-x+1)
-设序列中正数个数为n，则序中值mid=target//n（向下取整）,且有n=y-x+1
-易得：
-1.当n为奇数时，y+x=2*mid
-  则s=mid*n
-2.当n为偶数时，y+x=2*mid+1，从而可得s的表达式
+# ### 解题思路
+# 设连续正数序列的左右端点分别为x和y，则序列累加和为s=(y+x)(y-x+1)
+# 设序列中正数个数为n，则序中值mid=target//n（向下取整）,且有n=y-x+1
+# 易得：
+# 1.当n为奇数时，y+x=2*mid
+#   则s=mid*n
+# 2.当n为偶数时，y+x=2*mid+1，从而可得s的表达式
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target):
         """
@@ -34,4 +34,4 @@ class Solution:
             n -= 1
             mid = target // n
         return res
-```
+# ```

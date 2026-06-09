@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路  还是得递归
+# ### 解题思路
+# 此处撰写解题思路  还是得递归
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution(object):
         else:
             l2.next = self.mergeTwoLists(l2.next,l1)
             return l2
-```
+# ```

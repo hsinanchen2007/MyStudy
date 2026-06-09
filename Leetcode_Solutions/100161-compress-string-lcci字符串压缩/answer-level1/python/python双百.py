@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def compressString(self, S: str) -> str:
         if not S:
@@ -15,4 +15,4 @@ class Solution:
                 count = 1
         result += "%s%d" % (cur, count)
         return result if len(result)<len(S) else S
-```
+# ```

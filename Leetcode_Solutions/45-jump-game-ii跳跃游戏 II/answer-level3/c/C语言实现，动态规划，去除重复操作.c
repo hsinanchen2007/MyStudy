@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/d106f6ce67dc949419b37e100cc228d1813b5e96b20549402e92113c74592719-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d106f6ce67dc949419b37e100cc228d1813b5e96b20549402e92113c74592719-image.png)
 
 
-```
+// ```
 int jump(int* nums, int numsSize){
     if (nums == NULL || numsSize == 0) return 0;
     int *dest = malloc(numsSize * sizeof(int));
@@ -26,4 +26,4 @@ FINSH:
     free(dest);
     return ret;
 }
-```
+// ```

@@ -1,23 +1,23 @@
-### 解题思路
-注意明白题意，
-根据示例解释， 给出的序列是中序遍历，  附加值必须在数组最右边，即中序遍历最后一个值。
+// ### 解题思路
+// 注意明白题意，
+// 根据示例解释， 给出的序列是中序遍历，  附加值必须在数组最右边，即中序遍历最后一个值。
 
-所以得出结论： 如果插入值大于root，则将root作为插入值的left；  
-              如果插入值小于root， 则继续再root 的right里继续找
+// 所以得出结论： 如果插入值大于root，则将root作为插入值的left；  
+//               如果插入值小于root， 则继续再root 的right里继续找
 
-示例 1：
-
-
-
-输入：root = [4,1,3,null,null,2], val = 5
-输出：[5,4,null,1,3,null,null,2]
-解释：A = [1,4,2,3], B = [1,4,2,3,5]
+// 示例 1：
 
 
 
-### 代码
+// 输入：root = [4,1,3,null,null,2], val = 5
+// 输出：[5,4,null,1,3,null,null,2]
+// 解释：A = [1,4,2,3], B = [1,4,2,3,5]
 
-```c
+
+
+// ### 代码
+
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -52,4 +52,4 @@ struct TreeNode* insertIntoMaxTree(struct TreeNode* root, int val){
     }
     return root;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-递归版：判断当前节点，然后递归当前节点的左右节点即可。
-非递归：使用两个队列分别存储两个树，每次将一个节点出队列，再将该节点的子节点入队列。最后判断一下两个队列是不是都空了即可。
+// ### 解题思路
+// 递归版：判断当前节点，然后递归当前节点的左右节点即可。
+// 非递归：使用两个队列分别存储两个树，每次将一个节点出队列，再将该节点的子节点入队列。最后判断一下两个队列是不是都空了即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -16,9 +16,9 @@
  */
 class Solution {
 	public boolean isSameTree(TreeNode p, TreeNode q) {
-```
-代码块
-```
+// ```
+// 代码块
+// ```
 		/*//递归版
 		if (p == null || q == null) {
 			return p == q;
@@ -52,4 +52,4 @@ class Solution {
 		return list1.isEmpty() && list2.isEmpty();
 	}
 }
-```
+// ```

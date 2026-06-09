@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func calculateTime(_ keyboard: String, _ word: String) -> Int {
         let keyboardChars = [Character](keyboard)
@@ -11,4 +11,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

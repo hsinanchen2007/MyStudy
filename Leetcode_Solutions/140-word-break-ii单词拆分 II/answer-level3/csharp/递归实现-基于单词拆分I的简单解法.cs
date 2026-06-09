@@ -1,5 +1,5 @@
-记录访问过的路径和返回值
-```c# []
+// 记录访问过的路径和返回值
+// ```c# []
 List<string>[] visited;
     HashSet<string> dict;
     public IList<string> WordBreak(string s, IList<string> wordDict) {
@@ -37,8 +37,8 @@ List<string>[] visited;
             return res;
         }
     }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
         dict=set(wordDict)
@@ -69,5 +69,5 @@ class Solution:
         
         return fres
                 
-```
+// ```
 

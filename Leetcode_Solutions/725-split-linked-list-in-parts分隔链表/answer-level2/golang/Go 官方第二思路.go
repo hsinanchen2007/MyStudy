@@ -1,11 +1,11 @@
-### 解题思路
-先遍得到历链表长度，计算分成k块每块的大小，和余数
-再次遍历，若余数大于0块大小加一，余数减一
-切割成块大小的数组
+// ### 解题思路
+// 先遍得到历链表长度，计算分成k块每块的大小，和余数
+// 再次遍历，若余数大于0块大小加一，余数减一
+// 切割成块大小的数组
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -40,4 +40,4 @@ func splitListToParts(root *ListNode, k int) []*ListNode {
     }
     return ret
 }
-```
+// ```

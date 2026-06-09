@@ -1,9 +1,9 @@
-### 解题思路
-调试了半天，发现原来是要计算每个运动员的总分
+-- ### 解题思路
+-- 调试了半天，发现原来是要计算每个运动员的总分
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select group_id,player_id from
 (
@@ -30,4 +30,4 @@ from
 where num = 1
 
     
-```
+-- ```

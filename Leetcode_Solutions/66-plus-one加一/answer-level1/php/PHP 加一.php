@@ -1,9 +1,9 @@
-### 解题思路
-看了很久才理解了题目，就是如果尾数为9要向前一位+1
+// ### 解题思路
+// 看了很久才理解了题目，就是如果尾数为9要向前一位+1
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
    function plusOne($digits) {
@@ -30,4 +30,4 @@ class Solution {
     return $digits;
 }
 }
-```
+// ```

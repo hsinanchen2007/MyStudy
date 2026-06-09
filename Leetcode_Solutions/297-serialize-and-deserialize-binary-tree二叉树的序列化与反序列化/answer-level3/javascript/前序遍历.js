@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/1b2b5e778d0a40d68ea6b1084b8a0189cf01933bafb755bdd54f8b7e5e04a933-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/1b2b5e778d0a40d68ea6b1084b8a0189cf01933bafb755bdd54f8b7e5e04a933-image.png)
 
-序列化相对容易理解，就是拼一个唯一字符串；
-解序列就是从序列化的字符串中递归拆出三个部分：根节点字符串，左树序列化字符串，右树序列化字符串。。
+// 序列化相对容易理解，就是拼一个唯一字符串；
+// 解序列就是从序列化的字符串中递归拆出三个部分：根节点字符串，左树序列化字符串，右树序列化字符串。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -84,4 +84,4 @@ var deserialize = function (data) {
  * Your functions will be called as such:
  * deserialize(serialize(root));
  */
-```
+// ```

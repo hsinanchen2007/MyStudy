@@ -1,9 +1,9 @@
-### 解题思路
-感觉也没什么技巧，就是先判断单词能不能放到一行里，然后在计算单词间空格数，前面的空格多就行了。
+// ### 解题思路
+// 感觉也没什么技巧，就是先判断单词能不能放到一行里，然后在计算单词间空格数，前面的空格多就行了。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
  /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -95,4 +95,4 @@ char ** fullJustify(char ** words, int wordsSize, int maxWidth, int* returnSize)
 	*returnSize = lines;
 	return result;
 }
-```
+// ```

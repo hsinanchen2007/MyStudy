@@ -1,5 +1,5 @@
-这次题意真没看懂，看了题解的分析才明白。先来个暴力（这次没超时）：
-```
+// 这次题意真没看懂，看了题解的分析才明白。先来个暴力（这次没超时）：
+// ```
 public class Solution {
     public void GameOfLife(int[][] board) {
         int n = board.Length;
@@ -50,4 +50,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

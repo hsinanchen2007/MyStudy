@@ -1,9 +1,9 @@
-官方的解法很全面了，自己的解法是属于第5种的变体，减少了一些调用、数据和乘法数量
-# 矩阵改进
-Your runtime beats 100 % of c submissions
-Your memory usage beats 100 % of c submissions (5.2 MB)
-由于斐波那契的矩阵递归实际上在右上角和左下角是相同的，所以可以在这一点上做文章，减少了一些运算。
-```
+// 官方的解法很全面了，自己的解法是属于第5种的变体，减少了一些调用、数据和乘法数量
+// # 矩阵改进
+// Your runtime beats 100 % of c submissions
+// Your memory usage beats 100 % of c submissions (5.2 MB)
+// 由于斐波那契的矩阵递归实际上在右上角和左下角是相同的，所以可以在这一点上做文章，减少了一些运算。
+// ```
 int fib(int N){
     if (N == 0) return 0;
     if (N < 3) return 1;
@@ -31,10 +31,10 @@ int fib(int N){
     }
     return res[1];
 }
-```
-# 二倍项关系解题
-和矩阵有异曲同工之妙
-```
+// ```
+// # 二倍项关系解题
+// 和矩阵有异曲同工之妙
+// ```
 class Solution {
 public:
     unordered_map<int,int> map;
@@ -57,5 +57,5 @@ public:
 
     }
 };
-```
+// ```
 

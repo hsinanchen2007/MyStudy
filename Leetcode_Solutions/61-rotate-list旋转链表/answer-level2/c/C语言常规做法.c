@@ -1,5 +1,5 @@
-把链表首尾相连，再在正确的位置断开即可。
-```c
+// 把链表首尾相连，再在正确的位置断开即可。
+// ```c
 struct ListNode* rotateRight(struct ListNode* head, int k){
     if(head==0) return 0;
     short length=1;
@@ -15,4 +15,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
     tmp->next=0;
     return head;
 }
-```
+// ```

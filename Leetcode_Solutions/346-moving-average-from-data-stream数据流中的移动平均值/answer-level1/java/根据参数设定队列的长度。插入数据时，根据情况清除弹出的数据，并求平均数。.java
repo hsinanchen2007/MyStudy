@@ -1,4 +1,4 @@
-```
+// ```
 class MovingAverage {
 
     LinkedBlockingQueue<Integer> queue;
@@ -19,4 +19,4 @@ class MovingAverage {
             return sums/queue.size();
         }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-思想都写在代码和注释里
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 思想都写在代码和注释里
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseWords(self, s: str) -> str:
         s,s1 = re.sub(' +',' ',s).strip()+" ",""#消除多余的空格以及左右两边的空格
@@ -20,4 +20,4 @@ class Solution:
         s1 = s1.strip()
         return s1
             
-```
+# ```

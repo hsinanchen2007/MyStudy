@@ -1,9 +1,9 @@
-### 解题思路
-简单冒泡法，时间用的长，但内存占用少，希望能够得到前辈的指导。
+// ### 解题思路
+// 简单冒泡法，时间用的长，但内存占用少，希望能够得到前辈的指导。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size){
     
     float MedianNum;
@@ -46,4 +46,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
     
     return MedianNum;
 }
-```
+// ```

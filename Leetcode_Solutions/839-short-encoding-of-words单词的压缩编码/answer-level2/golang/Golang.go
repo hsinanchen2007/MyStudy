@@ -1,10 +1,10 @@
-### 解题思路
-1、去重，删除重复元素；
-2、字符串反转并排除，找前缀；
-3、如果有相同前缀的字符串，后面一个必然包含前一个字符串的前缀，遍历一次即可。
-### 代码
+// ### 解题思路
+// 1、去重，删除重复元素；
+// 2、字符串反转并排除，找前缀；
+// 3、如果有相同前缀的字符串，后面一个必然包含前一个字符串的前缀，遍历一次即可。
+// ### 代码
 
-```golang
+// ```golang
 func reverse(s string) string {
 	runes := []rune(s)
 	for from, to := 0, len(runes)-1; from < to; from, to = from+1, to-1 {
@@ -32,4 +32,4 @@ func minimumLengthEncoding(words []string) int {
 	count += len(setWord[len(setWord)-1]) + 1
 	return count
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-解决树的问题，递归好像就是首选。
+# ### 解题思路
+# 解决树的问题，递归好像就是首选。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -24,4 +24,4 @@ class Solution:
         
         helper(root)
         return res
-```
+# ```

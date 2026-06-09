@@ -1,11 +1,11 @@
-### 解题思路
-p, q节点的最近公共祖先为：
-（1）p或q为另一个节点的祖先。或者
-（2）该节点能够让p, q分别在其左右子树
+# ### 解题思路
+# p, q节点的最近公共祖先为：
+# （1）p或q为另一个节点的祖先。或者
+# （2）该节点能够让p, q分别在其左右子树
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             res = res or get_res(root.right) # 如果已经找到答案了就可以不用遍历右子树
             return res
         return get_res(root)
-```
+# ```

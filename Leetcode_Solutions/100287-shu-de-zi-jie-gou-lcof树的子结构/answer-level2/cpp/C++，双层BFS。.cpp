@@ -1,6 +1,6 @@
-BFS遍历A树各个节点，对每个节点与B树进行判断，具体为以B树为主导的BFS。
-代码写的丑了点。
-```cpp
+// BFS遍历A树各个节点，对每个节点与B树进行判断，具体为以B树为主导的BFS。
+// 代码写的丑了点。
+// ```cpp
 class Solution {
 public:
     bool isSubStructure(TreeNode* A, TreeNode* B) {
@@ -65,4 +65,4 @@ public:
         return false;
     }
 };
-```
+// ```

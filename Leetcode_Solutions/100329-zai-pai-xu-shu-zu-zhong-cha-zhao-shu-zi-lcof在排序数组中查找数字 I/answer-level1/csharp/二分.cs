@@ -1,9 +1,9 @@
-### 解题思路
-二分法求左右索引
+// ### 解题思路
+// 二分法求左右索引
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int Search(int[] nums, int target) {
         if(nums == null || nums.Length == 0)
@@ -67,4 +67,4 @@ public class Solution {
         return -1;
     }
 }
-```
+// ```

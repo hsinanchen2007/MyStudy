@@ -1,5 +1,5 @@
-突然觉得rust.slice.[idx..].sort有点优雅
-```
+// 突然觉得rust.slice.[idx..].sort有点优雅
+// ```
 impl Solution {
     pub fn next_permutation(nums: &mut Vec<i32>) {
         if nums.len() <= 1 {
@@ -32,4 +32,4 @@ impl Solution {
         nums.sort();
     }
 }
-```
+// ```

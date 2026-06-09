@@ -1,9 +1,9 @@
-### 解题思路
-python 滑动窗口，固定k大小窗口，后续计算只需已有均值+窗口头尾相减的均值
+# ### 解题思路
+# python 滑动窗口，固定k大小窗口，后续计算只需已有均值+窗口头尾相减的均值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numOfSubarrays(self, arr, k, threshold):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             if now_avg >= threshold:
                 count = count+1
         return count
-```
+# ```

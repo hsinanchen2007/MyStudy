@@ -1,12 +1,12 @@
-### 解题思路
- 计数比较法，统计licensePlate 中每个字母出现的次数，
-统计 words 中 每个单词的字母出现次数，
-当 words 中 单词 word 的字母出现次数大于等于licensePlate 中每个字母出现的次数，且该 word具有最小长度时，
-该 word为最短完整词，
+// ### 解题思路
+//  计数比较法，统计licensePlate 中每个字母出现的次数，
+// 统计 words 中 每个单词的字母出现次数，
+// 当 words 中 单词 word 的字母出现次数大于等于licensePlate 中每个字母出现的次数，且该 word具有最小长度时，
+// 该 word为最短完整词，
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //计数比较法，统计licensePlate 中每个字母出现的次数
@@ -70,4 +70,4 @@ public:
     }
     
 };
-```
+// ```

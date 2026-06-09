@@ -1,4 +1,4 @@
-```
+// ```
 void setZeroes(int** matrix, int matrixSize, int* matrixColSize){
     char p = 0;
     for (int i = 0;i < matrixSize;i++) {
@@ -45,4 +45,4 @@ void setZeroes(int** matrix, int matrixSize, int* matrixColSize){
     }
 
 }      
-```
+// ```

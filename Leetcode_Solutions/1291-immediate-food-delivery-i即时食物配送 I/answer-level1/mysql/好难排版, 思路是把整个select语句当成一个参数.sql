@@ -1,5 +1,5 @@
 
-```SQL
+-- ```SQL
 SELECT ROUND(
     (SELECT COUNT(delivery_id)
     FROM Delivery
@@ -8,4 +8,4 @@ SELECT ROUND(
         , 2) 
 AS immediate_percentage
 FROM Delivery;
-```
+-- ```

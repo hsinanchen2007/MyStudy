@@ -1,11 +1,11 @@
-### 解题思路
-1. 利用对象 o 遍历存储 各牌 出现的次数，并用 Object.values(o) 转化为各牌数对应数组。
-2. 存储 并使用Array.every() 判断数组各牌数是否整除 x 。
-![image.png](https://pic.leetcode-cn.com/58ed9e0827b97a8e30c028ae0a8cc1ab93c51dc3dbeafea70a4708f29427b6e8-image.png)
+// ### 解题思路
+// 1. 利用对象 o 遍历存储 各牌 出现的次数，并用 Object.values(o) 转化为各牌数对应数组。
+// 2. 存储 并使用Array.every() 判断数组各牌数是否整除 x 。
+// ![image.png](https://pic.leetcode-cn.com/58ed9e0827b97a8e30c028ae0a8cc1ab93c51dc3dbeafea70a4708f29427b6e8-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -31,4 +31,4 @@ var hasGroupsSizeX = function(deck) {
     }
     return false
 };
-```
+// ```

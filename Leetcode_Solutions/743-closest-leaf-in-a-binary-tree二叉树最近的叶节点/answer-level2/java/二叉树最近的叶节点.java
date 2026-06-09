@@ -1,11 +1,11 @@
-####  方法一：转换成图
-如果我们将树转换为图，则我们可以通过宽度优先搜索找到最近的叶子节点。
+// ####  方法一：转换成图
+// 如果我们将树转换为图，则我们可以通过宽度优先搜索找到最近的叶子节点。
 
-**算法：**
-- 我们从父节点进行深度优先搜索记录到每个节点的边
-- 之后，我们对值为 `k` 的节点进行宽度优先搜索，以便按节点 `k` 的距离顺序访问每个节点。当遇到叶节点时，则它就是最近的叶节点。
+// **算法：**
+// - 我们从父节点进行深度优先搜索记录到每个节点的边
+// - 之后，我们对值为 `k` 的节点进行宽度优先搜索，以便按节点 `k` 的距离顺序访问每个节点。当遇到叶节点时，则它就是最近的叶节点。
 
-```Python [ ]
+// ```Python [ ]
 class Solution(object):
     def findClosestLeaf(self, root, k):
         graph = collections.defaultdict(list)
@@ -30,9 +30,9 @@ class Solution(object):
                     if nei not in seen:
                         seen.add(nei)
                         queue.append(nei)
-```
+// ```
 
-```Java [ ]
+// ```Java [ ]
 class Solution {
     public int findClosestLeaf(TreeNode root, int k) {
         Map<TreeNode, List<TreeNode>> graph = new HashMap();
@@ -75,20 +75,20 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N)$。$N$ 指的是二叉树的节点数。
-* 空间复杂度：$O(N)$，图的大小。
+// * 时间复杂度：$O(N)$。$N$ 指的是二叉树的节点数。
+// * 空间复杂度：$O(N)$，图的大小。
 
 
-####  方法二：
-**算法：**
-- 假设从每个节点，我们已经知道它的子树中最接近的叶节点在哪里。我们可以使用记忆化的遍历来记住这些信息。
-- 然后，离目标最近的叶节点一定与 `target` 有一个最低的公共祖先，而且在从 `root` 到 `target` 的路径上。我们可以用任何有效的遍历方式找到从 `root` 到 `target` 的路径，并查看路径上每个节点的注释，以确定所有候选叶节点，选择最佳的一个。
+// ####  方法二：
+// **算法：**
+// - 假设从每个节点，我们已经知道它的子树中最接近的叶节点在哪里。我们可以使用记忆化的遍历来记住这些信息。
+// - 然后，离目标最近的叶节点一定与 `target` 有一个最低的公共祖先，而且在从 `root` 到 `target` 的路径上。我们可以用任何有效的遍历方式找到从 `root` 到 `target` 的路径，并查看路径上每个节点的注释，以确定所有候选叶节点，选择最佳的一个。
 
-```Python [ ]
+// ```Python [ ]
 class Solution(object):
     def findClosestLeaf(self, root, k):
         annotation = {}
@@ -130,9 +130,9 @@ class Solution(object):
                 leaf = leaf0
 
         return leaf.val
-```
+// ```
 
-```Java [ ]
+// ```Java [ ]
 class Solution {
     List<TreeNode> path;
     Map<TreeNode, LeafResult> annotation;
@@ -199,8 +199,8 @@ class LeafResult {
         dist = d;
     }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时空复杂度 ：$O(N)$。分析与方法 1 相同。
+// * 时空复杂度 ：$O(N)$。分析与方法 1 相同。

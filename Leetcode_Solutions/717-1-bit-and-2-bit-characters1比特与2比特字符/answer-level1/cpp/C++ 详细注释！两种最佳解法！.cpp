@@ -1,10 +1,10 @@
-两种解法：
-1. 从前往后
-2. 从后向前
+// 两种解法：
+// 1. 从前往后
+// 2. 从后向前
 
-详细过程见注释！
+// 详细过程见注释！
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isOneBitCharacter(vector<int>& bits) {
@@ -20,10 +20,10 @@ public:
         return index == bits.size() - 1;
     }
 };
-```
+// ```
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isOneBitCharacter(vector<int>& bits) {
@@ -42,4 +42,4 @@ public:
         return (bits.size() - i) % 2 == 0;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先排序，再遍历数出数组中有多少个不同的数字
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先排序，再遍历数出数组中有多少个不同的数字
+// ### 代码
 
-```c
+// ```c
 int compare(const void* a, const void*b){
     if( *(int*)a>*(int*)b) return 1;
     if( *(int*)a<*(int*)b) return -1;
@@ -23,4 +23,4 @@ int thirdMax(int* nums, int numsSize){
     if(flag==1) return nums[i-1];
     return nums[numsSize-1];
 }
-```
+// ```

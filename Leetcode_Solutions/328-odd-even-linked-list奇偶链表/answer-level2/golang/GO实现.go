@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -43,5 +43,5 @@ func oddEvenList(head *ListNode) *ListNode {
         return dummnyhead1.Next
     }
 }
-```
+// ```
 

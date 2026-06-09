@@ -1,4 +1,4 @@
-```
+// ```
 #include <stdio.h>
 #include <string.h>
 
@@ -88,4 +88,4 @@ char * boldWords(char ** words, int wordsSize, char * S)
 
 	return GetAns(S);
 }
-```
+// ```

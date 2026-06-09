@@ -1,10 +1,10 @@
-### 解题思路
-（1）重复递归调用直至到达叶子节点，这时已找到一条完整路径（path）
-（2）用vector容器（paths）保存每次找到的一条完整路径（path）
+// ### 解题思路
+// （1）重复递归调用直至到达叶子节点，这时已找到一条完整路径（path）
+// （2）用vector容器（paths）保存每次找到的一条完整路径（path）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-1.首先遍历字符串，将相邻两个字符转换为整数；
-2.判断是否符合减法规则，是则将n-m加到ans中，跳过下一个字符；否则直接加m；
-![image.png](https://pic.leetcode-cn.com/642ec44aadb66c973402012005e462be185554c7a23b3b3fe206da927276ffd0-image.png)
+// ### 解题思路
+// 1.首先遍历字符串，将相邻两个字符转换为整数；
+// 2.判断是否符合减法规则，是则将n-m加到ans中，跳过下一个字符；否则直接加m；
+// ![image.png](https://pic.leetcode-cn.com/642ec44aadb66c973402012005e462be185554c7a23b3b3fe206da927276ffd0-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int romanToInt(string s) {
@@ -41,4 +41,4 @@ public:
     return ans;
     }
 };
-```
+// ```

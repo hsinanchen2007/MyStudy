@@ -1,8 +1,8 @@
-### 解题思路
-方法一：递归。时间复杂度：O(n+m)；空间复杂度：O(n+m)。
-![递归.PNG](https://pic.leetcode-cn.com/549f2f331c24bafb2fbe9238a92023b366cd8ad503771d7f31f08b55b832459e-%E9%80%92%E5%BD%92.PNG)
-### 代码
-```java
+// ### 解题思路
+// 方法一：递归。时间复杂度：O(n+m)；空间复杂度：O(n+m)。
+// ![递归.PNG](https://pic.leetcode-cn.com/549f2f331c24bafb2fbe9238a92023b366cd8ad503771d7f31f08b55b832459e-%E9%80%92%E5%BD%92.PNG)
+// ### 代码
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -25,11 +25,11 @@ class Solution {
         }
     }
 }
-```
-方法二：迭代。时间复杂度：O(n+m)；空间复杂度：O(1)。
-![迭代.PNG](https://pic.leetcode-cn.com/8daeee348bbb6961a34566bc2be20d3d49fdcfb6a20b39a52062bfb5de81e9d1-%E8%BF%AD%E4%BB%A3.PNG)
-### 代码
-```java
+// ```
+// 方法二：迭代。时间复杂度：O(n+m)；空间复杂度：O(1)。
+// ![迭代.PNG](https://pic.leetcode-cn.com/8daeee348bbb6961a34566bc2be20d3d49fdcfb6a20b39a52062bfb5de81e9d1-%E8%BF%AD%E4%BB%A3.PNG)
+// ### 代码
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -63,4 +63,4 @@ class Solution {
         return head.next;
     }
 }
-```
+// ```

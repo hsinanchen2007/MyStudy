@@ -1,9 +1,9 @@
-### 解题思路
-记忆化的bfs，考虑六种情况
+# ### 解题思路
+# 记忆化的bfs，考虑六种情况
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         q=[(0,0)]
@@ -23,4 +23,4 @@ class Solution:
             q.append((nx-min(nx,y-ny),ny+min(nx,y-ny)))
             q.append((nx+min(ny,x-nx),ny-min(ny,x-nx)))
         return False
-```
+# ```

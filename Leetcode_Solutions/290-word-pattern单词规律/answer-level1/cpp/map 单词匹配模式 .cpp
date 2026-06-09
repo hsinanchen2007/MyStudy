@@ -1,15 +1,15 @@
-### 解题思路
-大神的代码 自己加上注释和理解
-abba
-dog cat dog dog
-1、通过找到空格的位置，来确定单词大小，str.substr读取字符串
-2、第一次读入pattern时建立字典匹配模式，如a->dog,b-cat;
-3、第二次读入相同的pattern时（dog），发现与之前的匹配模式不相等时，返回false；
-4、通过set去重；
+// ### 解题思路
+// 大神的代码 自己加上注释和理解
+// abba
+// dog cat dog dog
+// 1、通过找到空格的位置，来确定单词大小，str.substr读取字符串
+// 2、第一次读入pattern时建立字典匹配模式，如a->dog,b-cat;
+// 3、第二次读入相同的pattern时（dog），发现与之前的匹配模式不相等时，返回false；
+// 4、通过set去重；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordPattern(string pattern, string str) {
@@ -49,4 +49,4 @@ public:
 };
 
 
-```
+// ```

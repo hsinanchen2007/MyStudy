@@ -1,11 +1,11 @@
-### 解题思路
-使用vector存放数据，实现最小堆的pop和push方法
-1. 首先依次调用push方法将lists中非null指针存入vector
-2. vector不为空时，使用pop取指针tmp存入结果当前链表；如果tmp->next不为null，将tmp->next push到vector中。
+// ### 解题思路
+// 使用vector存放数据，实现最小堆的pop和push方法
+// 1. 首先依次调用push方法将lists中非null指针存入vector
+// 2. vector不为空时，使用pop取指针tmp存入结果当前链表；如果tmp->next不为null，将tmp->next push到vector中。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -61,4 +61,4 @@ public:
         }
     }
 };
-```
+// ```

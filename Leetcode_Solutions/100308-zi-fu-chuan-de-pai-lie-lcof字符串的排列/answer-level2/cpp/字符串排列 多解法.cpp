@@ -1,7 +1,7 @@
-# 1.交换解法
+// # 1.交换解法
 
-没有办法解决重复的问题。
-```
+// 没有办法解决重复的问题。
+// ```
 class Solution {
 public:
     vector<string> str;
@@ -38,9 +38,9 @@ public:
         }
     }
 };
-```
-# 2.STL
-```
+// ```
+// # 2.STL
+// ```
 class Solution {
 public:
     vector<string> permutation(string s) {
@@ -54,9 +54,9 @@ public:
 };
 
 
-```
-# 3.回溯法
-```
+// ```
+// # 3.回溯法
+// ```
 class Solution {
 public:
     vector<string> vec;
@@ -83,5 +83,5 @@ public:
         }
     }
 };
-```
+// ```
 

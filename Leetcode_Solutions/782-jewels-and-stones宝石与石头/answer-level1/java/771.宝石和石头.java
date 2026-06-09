@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class Solution {
     public int numJewelsInStones(String J, String S) {
         List<String> list = new ArrayList<>();
@@ -14,4 +14,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

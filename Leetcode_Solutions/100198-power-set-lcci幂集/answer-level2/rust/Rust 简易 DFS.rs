@@ -1,5 +1,5 @@
-0 ms; 2.2 MB
-```rs
+// 0 ms; 2.2 MB
+// ```rs
 impl Solution {
     pub fn subsets(nums: Vec<i32>) -> Vec<Vec<i32>> {
         let mut r = vec![];
@@ -16,4 +16,4 @@ impl Solution {
         r
     }
 }
-```
+// ```

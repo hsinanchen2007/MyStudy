@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import "fmt"
 
 type node struct {
@@ -63,4 +63,4 @@ func calcEquation(equations [][]string, values []float64, queries [][]string) []
     
     return result
 }
-```
+// ```

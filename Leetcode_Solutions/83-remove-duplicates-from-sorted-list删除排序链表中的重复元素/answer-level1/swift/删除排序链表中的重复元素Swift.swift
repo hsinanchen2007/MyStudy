@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func deleteDuplicates(_ head: ListNode?) -> ListNode? {
     var current = head
@@ -17,4 +17,4 @@ class Solution {
     return head
 }
 }
-```
+// ```

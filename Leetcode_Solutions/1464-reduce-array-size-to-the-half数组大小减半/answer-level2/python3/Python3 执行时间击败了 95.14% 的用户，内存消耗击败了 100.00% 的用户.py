@@ -1,10 +1,10 @@
-### 解题思路
-使用字典存储每个数字出现的次数；
-将字典value按从大到小排序；
-每次删除出现次数最多的数字，集合是最小的。
-### 代码
+# ### 解题思路
+# 使用字典存储每个数字出现的次数；
+# 将字典value按从大到小排序；
+# 每次删除出现次数最多的数字，集合是最小的。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minSetSize(self, arr: List[int]) -> int:
         arrToDic = {}
@@ -21,4 +21,4 @@ class Solution:
             if tmp >= len(arr)/2:
                 break
         return res
-```
+# ```

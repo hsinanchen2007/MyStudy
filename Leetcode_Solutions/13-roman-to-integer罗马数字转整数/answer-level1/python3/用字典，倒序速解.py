@@ -1,11 +1,11 @@
-### 解题思路
-1. 用 dict结构 存好转换表
-2. 将字符串 **s** 倒序，`s.reversed` or `s[::-1]`
-3. 依次判断，若当前值(cur) <= tmp, `ans += cur`；否则 `ans -= cur`
+# ### 解题思路
+# 1. 用 dict结构 存好转换表
+# 2. 将字符串 **s** 倒序，`s.reversed` or `s[::-1]`
+# 3. 依次判断，若当前值(cur) <= tmp, `ans += cur`；否则 `ans -= cur`
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s: str) -> int:
         '''if not s:
@@ -27,4 +27,4 @@ class Solution:
             ans = (ans + cur) if tmp <= cur else (ans - cur)
             tmp = cur
         return ans
-```
+# ```

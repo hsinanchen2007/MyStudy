@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/8fc51ff0feec7fa25b57b3be5aa897e4e5f2eb25be5abd06bc5c50bbea8cfa81-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8fc51ff0feec7fa25b57b3be5aa897e4e5f2eb25be5abd06bc5c50bbea8cfa81-image.png)
 
 
-首先创建一个长度为26的数组，第0~26项分别保存a~z出现的次数；
-后面就很简单了，依次取出每个字符串做减法即可。
+// 首先创建一个长度为26的数组，第0~26项分别保存a~z出现的次数；
+// 后面就很简单了，依次取出每个字符串做减法即可。
 
-```java
+// ```java
 class Solution {
     public List<String> commonChars(String[] A) {
         List<String> results = new ArrayList();
@@ -43,4 +43,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

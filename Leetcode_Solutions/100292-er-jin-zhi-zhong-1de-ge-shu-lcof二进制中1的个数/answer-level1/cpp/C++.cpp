@@ -1,6 +1,6 @@
-### i
+// ### i
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -12,10 +12,10 @@ public:
         return sum;
     }
 };
-```
+// ```
 
-### ii
-```cpp
+// ### ii
+// ```cpp
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -27,4 +27,4 @@ public:
         return res;
     }
 };
-```
+// ```

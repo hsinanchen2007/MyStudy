@@ -1,12 +1,12 @@
-### 解题思路
-考虑到负负得正的情况，需要记录从 0 到 i 位的乘积的最大值和最小值，
-DP[i][0] 表示从 0 至 i 所有乘积中的最大值，DP[i][1] 表示从 0 至 i 所有乘积中的最小值。
-DP 方程也需要分情况讨论，DP 方程：DP[i+1] = DP[i] * a[i+1]。
-状态还可以进一步压缩，由于最后只返回 max，所以可以不要把每一步的 DP[i] 都保留。(见方法三)
+// ### 解题思路
+// 考虑到负负得正的情况，需要记录从 0 到 i 位的乘积的最大值和最小值，
+// DP[i][0] 表示从 0 至 i 所有乘积中的最大值，DP[i][1] 表示从 0 至 i 所有乘积中的最小值。
+// DP 方程也需要分情况讨论，DP 方程：DP[i+1] = DP[i] * a[i+1]。
+// 状态还可以进一步压缩，由于最后只返回 max，所以可以不要把每一步的 DP[i] 都保留。(见方法三)
 
-### 代码
-方法一：最易懂
-```javascript
+// ### 代码
+// 方法一：最易懂
+// ```javascript
 var maxProduct = function (nums) {
     if (!nums.length) return null
     let state = [], max = nums[0];
@@ -29,11 +29,11 @@ var maxProduct = function (nums) {
     };
     return max
 }
-```
+// ```
 
-方法二：在一的基础上，合并代码
+// 方法二：在一的基础上，合并代码
 
-```javascript
+// ```javascript
 var maxProduct = function (nums) {
     if (!nums.length) return null
     let state = [], max = nums[0];
@@ -51,9 +51,9 @@ var maxProduct = function (nums) {
     };
     return max
 }
-```
-方法三：极致优化版：
-```javascript
+// ```
+// 方法三：极致优化版：
+// ```javascript
 var maxProduct = function (nums) {
     if (!nums.length) return null
     let [max, curMax, curMin] = [nums[0], nums[0], nums[0]]
@@ -65,4 +65,4 @@ var maxProduct = function (nums) {
     };
     return max
 }
-```
+// ```

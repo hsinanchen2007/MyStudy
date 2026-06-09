@@ -1,11 +1,11 @@
-### 解题思路
-1. 遍历数组
-2. 碰到0， 在后边插入一个0
-3. 弹出末尾的一个元素
+// ### 解题思路
+// 1. 遍历数组
+// 2. 碰到0， 在后边插入一个0
+// 3. 弹出末尾的一个元素
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {void} Do not return anything, modify arr in-place instead.
@@ -20,4 +20,4 @@ var duplicateZeros = function(arr) {
     }
     return arr;
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-先排序，以第一个区间为起始点，right大于等于第二个区间的left，则比较两个区间的最大右端，
+// ### 解题思路
+// 先排序，以第一个区间为起始点，right大于等于第二个区间的left，则比较两个区间的最大右端，
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -31,4 +31,4 @@ public:
        return res;
     }
 };
-```
+// ```

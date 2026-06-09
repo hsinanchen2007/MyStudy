@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if(intervals == []):
@@ -20,4 +20,4 @@ class Solution:
                 end = each[1]
         res.append([start, end])
         return res
-```
+# ```

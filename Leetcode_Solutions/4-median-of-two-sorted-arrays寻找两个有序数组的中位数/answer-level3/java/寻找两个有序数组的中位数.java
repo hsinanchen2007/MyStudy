@@ -1,11 +1,11 @@
-### 解题思路
-最笨的方法 复杂度不对
-建大数组
-循环一遍挨个往里面放
+// ### 解题思路
+// 最笨的方法 复杂度不对
+// 建大数组
+// 循环一遍挨个往里面放
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int length1=nums1.length;
@@ -67,4 +67,4 @@ class Solution {
         }
     }
 }
-```
+// ```

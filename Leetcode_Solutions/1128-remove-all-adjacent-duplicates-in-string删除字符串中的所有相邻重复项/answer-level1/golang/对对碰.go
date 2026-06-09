@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-跟着逻辑走
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 跟着逻辑走
+// ### 代码
 
-```golang
+// ```golang
 func removeDuplicates(S string) string {
     
 	if len(S) < 1 || len(S) > 20000{
@@ -27,4 +27,4 @@ func removeDuplicates(S string) string {
      
 	return string(rs)
 }
-```
+// ```

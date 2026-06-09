@@ -1,12 +1,12 @@
-1）双端队列VecDeque，按广搜顺序存结点（level, node）；
-2）level计算：孩子的level = 父level + 1；
-3）sub_vec 用于存储每一层的node.val；
-4) VecDeque pop_front时，当level增加时，表示递进一层，sub_vec push_back到结果ret_vec中，清空sub_vec；
+// 1）双端队列VecDeque，按广搜顺序存结点（level, node）；
+// 2）level计算：孩子的level = 父level + 1；
+// 3）sub_vec 用于存储每一层的node.val；
+// 4) VecDeque pop_front时，当level增加时，表示递进一层，sub_vec push_back到结果ret_vec中，清空sub_vec；
 
-执行用时 :0 ms, 在所有 Rust 提交中击败了100.00%的用户
-内存消耗 :2.1 MB, 在所有 Rust 提交中击败了100.00%的用户
+// 执行用时 :0 ms, 在所有 Rust 提交中击败了100.00%的用户
+// 内存消耗 :2.1 MB, 在所有 Rust 提交中击败了100.00%的用户
 
-```
+// ```
 
 pub fn level_order(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Vec<i32>> {
     use std::collections::VecDeque;
@@ -38,4 +38,4 @@ pub fn level_order(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Vec<i32>> {
 
     ret
 }
-```
+// ```

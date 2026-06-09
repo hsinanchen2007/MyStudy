@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/2077a799edfe5f609951ff133a531c4f8d09462ba782f0e221169e1bc9acd46a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2077a799edfe5f609951ff133a531c4f8d09462ba782f0e221169e1bc9acd46a-image.png)
 
-```
+// ```
 impl Solution {
     pub fn exchange(nums: Vec<i32>) -> Vec<i32> {
         if nums.len() == 0 {
@@ -27,4 +27,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

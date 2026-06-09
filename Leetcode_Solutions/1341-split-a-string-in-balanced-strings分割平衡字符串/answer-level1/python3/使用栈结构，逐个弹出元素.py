@@ -1,10 +1,10 @@
-### 解题思路
-1. 建立一个字典`temp = {'R': 0, 'L': 0}`用来记录已经弹出的元素个数
-2. 如果弹出的‘R’与‘L’个数相同，就可以拆分为一组。
+# ### 解题思路
+# 1. 建立一个字典`temp = {'R': 0, 'L': 0}`用来记录已经弹出的元素个数
+# 2. 如果弹出的‘R’与‘L’个数相同，就可以拆分为一组。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def balancedStringSplit(self, s: str) -> int:
         s_list = list(s)
@@ -20,4 +20,4 @@ class Solution:
                 temp = {'R': 0, 'L': 0}
         
         return total
-```
+# ```

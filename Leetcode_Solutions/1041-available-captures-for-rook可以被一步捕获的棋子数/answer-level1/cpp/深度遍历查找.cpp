@@ -1,9 +1,9 @@
-### 解题思路
-首先找到R的坐标，然后分别向四个方向查找是否有可达的卒。累加即可。
+// ### 解题思路
+// 首先找到R的坐标，然后分别向四个方向查找是否有可达的卒。累加即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -99,4 +99,4 @@ public:
         
     }            
 };
-```
+// ```

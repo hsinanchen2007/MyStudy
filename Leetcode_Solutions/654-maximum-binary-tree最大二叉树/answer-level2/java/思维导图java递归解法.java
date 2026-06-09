@@ -1,12 +1,12 @@
-### 解题思路
-使用递归思想：
+// ### 解题思路
+// 使用递归思想：
 
-![解题思路.jpg](https://pic.leetcode-cn.com/ddd6179414e587ddad5a64055d301298f98c1fcb4c0f970c37067680297d4034-%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF.jpg)
+// ![解题思路.jpg](https://pic.leetcode-cn.com/ddd6179414e587ddad5a64055d301298f98c1fcb4c0f970c37067680297d4034-%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF.jpg)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -42,4 +42,4 @@ class Solution {
 	     return root;
 	     }
 }
-```
+// ```

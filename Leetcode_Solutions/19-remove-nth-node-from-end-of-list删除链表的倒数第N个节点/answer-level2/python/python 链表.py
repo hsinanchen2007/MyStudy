@@ -1,9 +1,9 @@
-### 解题思路
-要注意h = head中间的h相当于C++中的移动指针
+# ### 解题思路
+# 要注意h = head中间的h相当于C++中的移动指针
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -68,4 +68,4 @@ class Solution:
             
         slow.next = slow.next.next
         return dummy.next
-```
+# ```

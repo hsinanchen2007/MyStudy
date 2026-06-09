@@ -1,9 +1,9 @@
-### 解题思路
-因为空节点root-》val非法，所以要加个辅助变量
+// ### 解题思路
+// 因为空节点root-》val非法，所以要加个辅助变量
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -25,4 +25,4 @@ public:
         return root;
     }
 };
-```
+// ```

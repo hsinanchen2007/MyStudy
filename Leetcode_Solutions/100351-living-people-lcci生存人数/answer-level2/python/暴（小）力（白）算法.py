@@ -1,6 +1,6 @@
-算法：
-统计出每一年活多少人，然后找出最多人的最小值
-```
+# 算法：
+# 统计出每一年活多少人，然后找出最多人的最小值
+# ```
 class Solution(object):
     def maxAliveYear(self, birth, death):
         year=[]
@@ -16,4 +16,4 @@ class Solution(object):
                 max=year[i]
                 maxyear=i
         return 1900+maxyear
-```
+# ```

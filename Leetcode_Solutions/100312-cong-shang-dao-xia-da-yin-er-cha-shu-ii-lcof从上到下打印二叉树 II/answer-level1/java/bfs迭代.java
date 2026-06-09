@@ -1,8 +1,8 @@
-### 解题思路
-在1的基础上增加来一个变量level表示层，for循环遍历每层的数据
-### 代码
+// ### 解题思路
+// 在1的基础上增加来一个变量level表示层，for循环遍历每层的数据
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -42,4 +42,4 @@ return list;
 
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-找到一个点，遍历完所有能到的位置，然后找顶一个开始的点，
+// ### 解题思路
+// 找到一个点，遍历完所有能到的位置，然后找顶一个开始的点，
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void FindIsland(char** grid, int x, int y, int m, int n, int** visit, int* count)
 {
     if (x > m || y > n || x < 0 || y < 0 || visit[x][y] == 1 || grid[x][y] == '0') {
@@ -45,4 +45,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     free(visit);
     return count;
 }
-```
+// ```

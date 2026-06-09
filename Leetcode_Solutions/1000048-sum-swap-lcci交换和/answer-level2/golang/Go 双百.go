@@ -1,6 +1,6 @@
-如果双循环查找的话时间超时。
-一个array保留，另一个转map查找。
-```
+// 如果双循环查找的话时间超时。
+// 一个array保留，另一个转map查找。
+// ```
 func findSwapValues(array1 []int, array2 []int) []int {
 	sum1,sum2 := 0,0
 	res := []int{}
@@ -31,4 +31,4 @@ func findSwapValues(array1 []int, array2 []int) []int {
     
 	return res
 }
-```
+// ```

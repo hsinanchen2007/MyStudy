@@ -1,7 +1,7 @@
-### 1、递归
-递归法，思路比较简单，如下。
+// ### 1、递归
+// 递归法，思路比较简单，如下。
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -28,10 +28,10 @@ class Solution {
         array_push($return,$head->val);
     }
 }
-```
-### 2、辅助栈
-遍历链表，将链表中元素push到栈中，利用栈先进后出的方式，实现链表的反转。
-```php
+// ```
+// ### 2、辅助栈
+// 遍历链表，将链表中元素push到栈中，利用栈先进后出的方式，实现链表的反转。
+// ```php
 class Solution {
 
     /**
@@ -52,4 +52,4 @@ class Solution {
         return $return;
     }
 }
-```
+// ```

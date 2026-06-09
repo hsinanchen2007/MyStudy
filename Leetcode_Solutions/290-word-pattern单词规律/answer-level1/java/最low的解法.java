@@ -1,5 +1,5 @@
-1、首先我看题解很多都是用map来做的，但我是用HashSet来辅助解题的。这题可以有多种写法，我写了个最low的，开始看到这题目的时候，突然想到了一个数据结构Set，因为Set当中不能存储重复的元素，那么这样的话我就可以通过Set把pattern和str有多少种不同元祖求出来了，这样的话如果两个字符串的种类个数都不同的话，直接返回false。
-```
+// 1、首先我看题解很多都是用map来做的，但我是用HashSet来辅助解题的。这题可以有多种写法，我写了个最low的，开始看到这题目的时候，突然想到了一个数据结构Set，因为Set当中不能存储重复的元素，那么这样的话我就可以通过Set把pattern和str有多少种不同元祖求出来了，这样的话如果两个字符串的种类个数都不同的话，直接返回false。
+// ```
     /*读取分割字符串有多少种类*/
     public int splitword(String str){
         String[] count = str.split(" ");
@@ -20,9 +20,9 @@
         }
         return result.size();
     }
-```
-2、接下来就是比较了，先分割字符串，获取子字符串，然后用两遍循环去遍历patter和str的内容，全部比较一遍就成了。
-```
+// ```
+// 2、接下来就是比较了，先分割字符串，获取子字符串，然后用两遍循环去遍历patter和str的内容，全部比较一遍就成了。
+// ```
     public boolean wordPattern(String pattern, String str) {
         //首先判断种类数是否相同，如果不同直接返回false
         if (splitpattern(pattern)!=splitword(str)){
@@ -46,4 +46,4 @@
         }
         return true;
     }
-```
+// ```

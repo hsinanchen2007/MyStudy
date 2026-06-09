@@ -1,4 +1,4 @@
-```
+// ```
     public int longestPalindrome(String s) {
         int[] array = new int[123];
         char[] sChars = s.toCharArray();
@@ -13,4 +13,4 @@
         //如果字符串的长度大于可行的最大长度，表明字符串中有奇数的字符，因此回文的长度应该加1
         return len > maxLen ? maxLen + 1 : maxLen;
     }
-```
+// ```

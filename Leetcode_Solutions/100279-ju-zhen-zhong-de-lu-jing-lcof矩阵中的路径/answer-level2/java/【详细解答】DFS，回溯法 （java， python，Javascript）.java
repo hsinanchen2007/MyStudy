@@ -1,16 +1,16 @@
-## 想法
+// ## 想法
 
-我们从第一个网格开始依次遍历整个board。对于每一个网格我们都执行dfs，如果不满足word的要求，我们回溯尝试其他可能。 为了防止无限循环，我们需要记录当前DFS链路中已经访问的元素，我们不妨使用一个visited的集合。
+// 我们从第一个网格开始依次遍历整个board。对于每一个网格我们都执行dfs，如果不满足word的要求，我们回溯尝试其他可能。 为了防止无限循环，我们需要记录当前DFS链路中已经访问的元素，我们不妨使用一个visited的集合。
 
-## 关键点
+// ## 关键点
 
-- 回溯的时候要清除visited
+// - 回溯的时候要清除visited
 
-## 代码
+// ## 代码
 
-Python Code:
+// Python Code:
 
-```python
+// ```python
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         m = len(board)
@@ -43,13 +43,13 @@ class Solution:
         return False
 
 # @lc code=end
-```
+// ```
 
 
-Java Code:
+// Java Code:
 
 
-```java
+// ```java
 public class LC79WordSearch {
   public boolean exist(char[][] board, String word) {
     if (board == null || board.length == 0 || board[0].length == 0
@@ -89,10 +89,10 @@ public class LC79WordSearch {
     return r >= 0 && r < board.length && c >= 0 && c < board[0].length;
   }
 }
-```
-JavaScript Code:
+// ```
+// JavaScript Code:
 
-```javascript
+// ```javascript
 /*
  * @lc app=leetcode id=79 lang=javascript
  *
@@ -144,14 +144,14 @@ var exist = function(board, word) {
   }
   return false;
 };
-```
+// ```
 
-**复杂度分析**
-- 时间复杂度：每一个格子，都可能回溯整个board。 因此时间复杂度为  $O((M * N) ^ 2)$
-- 空间复杂度：空间复杂度一方面取决于栈的深度，另一方面我们需要记录board的访问。 因此空间复杂度为 $O(M * N)$
+// **复杂度分析**
+// - 时间复杂度：每一个格子，都可能回溯整个board。 因此时间复杂度为  $O((M * N) ^ 2)$
+// - 空间复杂度：空间复杂度一方面取决于栈的深度，另一方面我们需要记录board的访问。 因此空间复杂度为 $O(M * N)$
 
 
 
-欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
+// 欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
 
-![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
+// ![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)

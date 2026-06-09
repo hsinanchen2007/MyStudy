@@ -1,4 +1,4 @@
-```go []
+// ```go []
 func numWays(n int) int {
 
 	a, b := 1, 1
@@ -14,4 +14,4 @@ func numWays(n int) int {
 	return b
 
 }
-```
+// ```

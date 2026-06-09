@@ -1,9 +1,9 @@
-### 解题思路
-先对区间下界排序，再把vector<vector<int>>当栈使用以合并。
+// ### 解题思路
+// 先对区间下界排序，再把vector<vector<int>>当栈使用以合并。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 struct interval
@@ -46,4 +46,4 @@ struct interval
     return st;
     }
 };
-```
+// ```

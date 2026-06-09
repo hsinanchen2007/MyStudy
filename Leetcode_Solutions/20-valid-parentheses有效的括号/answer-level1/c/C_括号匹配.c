@@ -1,9 +1,9 @@
-### 解题思路
-链表做栈进行匹配。
+// ### 解题思路
+// 链表做栈进行匹配。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //链表节点
 typedef struct Node{
     char data;
@@ -80,4 +80,4 @@ bool isValid(char * s){
     free(stack);
     return result;
 }
-```
+// ```

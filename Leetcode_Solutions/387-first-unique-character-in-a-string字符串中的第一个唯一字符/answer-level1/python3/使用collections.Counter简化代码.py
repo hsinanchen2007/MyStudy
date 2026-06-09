@@ -1,4 +1,4 @@
-``` python
+# ``` python
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         # 对每个出现的字母计数
@@ -10,4 +10,4 @@ class Solution:
                 return i
         else:
             return -1
-```
+# ```

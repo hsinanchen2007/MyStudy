@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     char firstUniqChar(string s) {
@@ -13,4 +13,4 @@ public:
         return ' ';//若没有次数为1，则输出空格‘ ’ 
     }
 };
-```
+// ```

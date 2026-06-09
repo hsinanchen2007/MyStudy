@@ -1,9 +1,9 @@
-### 解题思路
-用hashmap存储,每k个一组说明每组开头的数的值一定比后面的数小,最后判断map里的值是否都为空
+// ### 解题思路
+// 用hashmap存储,每k个一组说明每组开头的数的值一定比后面的数小,最后判断map里的值是否都为空
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPossibleDivide(int[] nums, int k) {
       Map<Integer, Integer> map = new HashMap();
@@ -43,4 +43,4 @@ class Solution {
 
     }
 }
-```
+// ```

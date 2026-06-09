@@ -1,11 +1,11 @@
-二者略有不同
+# 二者略有不同
 
-### 解题思路
-一、DFS：先序遍历，用栈实现
+# ### 解题思路
+# 一、DFS：先序遍历，用栈实现
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,14 +29,14 @@ class Solution:
             if node.left:
                 stack.append((node.left,s+'->'+str(node.left.val)))
         return l
-```
+# ```
 
-### 解题思路
-二、BFS：层次遍历，用队列实现
+# ### 解题思路
+# 二、BFS：层次遍历，用队列实现
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -60,4 +60,4 @@ class Solution:
             if node.right:
                 queue.append((node.right,s+'->'+str(node.right.val)))
         return l
-```
+# ```

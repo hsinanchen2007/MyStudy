@@ -1,9 +1,9 @@
-### 解题思路
-递归+哨兵
+// ### 解题思路
+// 递归+哨兵
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countAndSay(n int) string {
     if n == 1 {
 		return "1"
@@ -23,4 +23,4 @@ func countAndSay(n int) string {
 	}
 	return res.String()
 }
-```
+// ```

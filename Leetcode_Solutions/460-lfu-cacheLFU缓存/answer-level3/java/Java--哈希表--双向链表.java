@@ -1,5 +1,5 @@
-看了伟大佬的题解，手写实现了一遍
-``` java
+// 看了伟大佬的题解，手写实现了一遍
+// ``` java
 public class LFUCache {
 
     /**
@@ -212,4 +212,4 @@ public class LFUCache {
         }
     }
 }
-```
+// ```

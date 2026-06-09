@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> sortArray(int[] nums) {
         // QuickSort(nums,0,nums.length-1);
@@ -44,4 +44,4 @@ class Solution {
     //     nums[j] = temp;
     // }
 }
-```
+// ```

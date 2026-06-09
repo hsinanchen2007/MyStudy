@@ -1,9 +1,9 @@
-### 解题思路
-注意小顶堆比较的规则
+// ### 解题思路
+// 注意小顶堆比较的规则
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import (
     "container/heap"
     "strings"
@@ -90,4 +90,4 @@ func topKFrequent(words []string, k int) []string {
     }
     return result
 }
-```
+// ```

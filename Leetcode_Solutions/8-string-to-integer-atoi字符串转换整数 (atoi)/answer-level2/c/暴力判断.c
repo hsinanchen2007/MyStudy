@@ -1,11 +1,11 @@
-### 解题思路
-![1.jpg](https://pic.leetcode-cn.com/43ee4a6725919eeff55e61005d2e5acc13868c6667b8f89a069b742101600dbb-1.jpg)
+// ### 解题思路
+// ![1.jpg](https://pic.leetcode-cn.com/43ee4a6725919eeff55e61005d2e5acc13868c6667b8f89a069b742101600dbb-1.jpg)
 
-题目并不难，理清思路就好，直接上注释。
+// 题目并不难，理清思路就好，直接上注释。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str){
     while (*str == 32)//跳过无用的空格
         ++str;
@@ -57,4 +57,4 @@ int myAtoi(char * str){
     }
     return result;
 }
-```
+// ```

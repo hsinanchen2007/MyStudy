@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-注意1.0与1.001比较时候要补0
+# ### 解题思路
+# 此处撰写解题思路
+# 注意1.0与1.001比较时候要补0
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compareVersion(self, s1: str, s2: str) -> int:
         i,j = 0,0
@@ -32,4 +32,4 @@ class Solution:
 
             j = k2+1
         return 0       
-```
+# ```

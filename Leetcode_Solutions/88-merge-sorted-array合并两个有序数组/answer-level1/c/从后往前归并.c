@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![捕获.JPG](https://pic.leetcode-cn.com/107aa654f87d112f44d81b4d7fe763fff71655de38cbbb2ad02c062ed3335f08-%E6%8D%95%E8%8E%B7.JPG)
+// ### 解题思路
+// 此处撰写解题思路
+// ![捕获.JPG](https://pic.leetcode-cn.com/107aa654f87d112f44d81b4d7fe763fff71655de38cbbb2ad02c062ed3335f08-%E6%8D%95%E8%8E%B7.JPG)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int final_index=m+n-1; //合并后数组的长度
     int nums1_index=m-1;  //nums1当前索引位置
@@ -28,4 +28,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     }
     return 0;
 }
-```
+// ```

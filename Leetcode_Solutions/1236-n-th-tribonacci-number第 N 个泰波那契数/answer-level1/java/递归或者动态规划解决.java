@@ -1,5 +1,5 @@
-递归的解决办法会超时，故用动态规划的方式
-```
+// 递归的解决办法会超时，故用动态规划的方式
+// ```
 class Solution {
     public int tribonacci(int n) {
        //第一种：递归
@@ -23,4 +23,4 @@ class Solution {
 
     }
 }
-```
+// ```

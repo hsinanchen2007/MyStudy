@@ -1,10 +1,10 @@
-### 解题思路
-1.小于两位的字符串长度，直接true
-2.大于两位每次截取第一位和剩下字符串比较，是否包含关系
+// ### 解题思路
+// 1.小于两位的字符串长度，直接true
+// 2.大于两位每次截取第一位和剩下字符串比较，是否包含关系
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
 
@@ -23,4 +23,4 @@ class Solution {
         return true;
         }
 }
-```
+// ```

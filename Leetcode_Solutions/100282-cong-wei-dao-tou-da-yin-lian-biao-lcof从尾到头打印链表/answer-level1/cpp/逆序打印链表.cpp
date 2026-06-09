@@ -1,10 +1,10 @@
-### 解题思路
- 法一 遍历+翻转reverse 
- 法二 利用递归逆序
+// ### 解题思路
+//  法一 遍历+翻转reverse 
+//  法二 利用递归逆序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ public:
         res.push_back(node->val);
     }
 };
-```
+// ```

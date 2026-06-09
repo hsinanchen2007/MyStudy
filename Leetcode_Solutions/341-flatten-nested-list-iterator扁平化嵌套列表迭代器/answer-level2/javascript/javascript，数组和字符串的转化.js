@@ -1,11 +1,11 @@
-### 解题思路
-把多维数组通过join或者toString转化为字符串，再用split转为一维数组。
+// ### 解题思路
+// 把多维数组通过join或者toString转化为字符串，再用split转为一维数组。
 
-重写了NestedInteger的toString方法，让NestedInteger[]可以和普通数组一样可以转为字符串
+// 重写了NestedInteger的toString方法，让NestedInteger[]可以和普通数组一样可以转为字符串
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 NestedInteger.prototype.toString = function() {
     if (this.isInteger()) {
         return this.getInteger()+'';
@@ -22,4 +22,4 @@ NestedIterator.prototype.hasNext = function() {
 NestedIterator.prototype.next = function() {
     return this.list.shift();
 };
-```
+// ```

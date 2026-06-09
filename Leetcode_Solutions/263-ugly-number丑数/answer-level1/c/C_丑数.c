@@ -1,9 +1,9 @@
-### 解题思路
-0 和 1 需要特别判断一下
+// ### 解题思路
+// 0 和 1 需要特别判断一下
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isUgly(int num){
     if (num == 0) return false;
     while (num % 2 == 0) num /= 2;
@@ -11,4 +11,4 @@ bool isUgly(int num){
     while (num % 5 == 0) num /= 5;
     return num == 1;
 }
-```
+// ```

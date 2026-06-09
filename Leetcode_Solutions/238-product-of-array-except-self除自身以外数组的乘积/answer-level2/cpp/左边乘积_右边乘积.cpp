@@ -1,11 +1,11 @@
-### 解题思路
-1、先通过两次循环得到L、R两个关于nums[i]左右两边乘积的数组，L[i]=nums[i]*L[i-1],R[i] = nums[i+1]*R[i+1],
-2、结果输出L[i]*R[i]。
-注意：对于L，R两个循环起始边界边界的设置L[0]=R[len-1]=1
+// ### 解题思路
+// 1、先通过两次循环得到L、R两个关于nums[i]左右两边乘积的数组，L[i]=nums[i]*L[i-1],R[i] = nums[i+1]*R[i+1],
+// 2、结果输出L[i]*R[i]。
+// 注意：对于L，R两个循环起始边界边界的设置L[0]=R[len-1]=1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         return nums;  
     }
 };
-```
+// ```

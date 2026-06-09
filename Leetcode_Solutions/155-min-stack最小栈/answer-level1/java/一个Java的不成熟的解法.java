@@ -1,17 +1,17 @@
-### 解题思路
+// ### 解题思路
 
-思路还是比较简单，对于栈就还是使用Java提供的`Stack`，主要考虑下面几个点：
+// 思路还是比较简单，对于栈就还是使用Java提供的`Stack`，主要考虑下面几个点：
 
-1. 使用`min`保存当前最小值，使用`minCount`保存当前最小值有几个
-2. 因为有可能有多个最小值，需要保证最小值被`pop`后不需要重新计算一次
-3. 当最小值都被`pop`了，需要重新计算一次最小值和数量
+// 1. 使用`min`保存当前最小值，使用`minCount`保存当前最小值有几个
+// 2. 因为有可能有多个最小值，需要保证最小值被`pop`后不需要重新计算一次
+// 3. 当最小值都被`pop`了，需要重新计算一次最小值和数量
 
-![image.png](https://pic.leetcode-cn.com/c1f1fe831424424e19a0b4f90e6f2014c9823ad649b5d48653d962222edcd35f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c1f1fe831424424e19a0b4f90e6f2014c9823ad649b5d48653d962222edcd35f-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
     private int min;
     private int minCount;
@@ -63,4 +63,4 @@ class MinStack {
         return this.min;
     }
 }
-```
+// ```

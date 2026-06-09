@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 
 
 // [2, 6, 1, 8] will get wrong index in c1, c2 , but it won't destroy its logic. 
@@ -17,4 +17,4 @@ public:
         return false;
     }
 };
-```
+// ```

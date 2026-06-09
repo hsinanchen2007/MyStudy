@@ -1,9 +1,9 @@
-### 解题思路
-将递增和递减分别用2 1表示，在前后两个数不等的时候判断是否合法就行了
+// ### 解题思路
+// 将递增和递减分别用2 1表示，在前后两个数不等的时候判断是否合法就行了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isMonotonic(int[] A) {
         if(A.length == 1|| A.length == 2) return true;
@@ -17,4 +17,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-好像是级别定错了，应该是简单级别的。
+// 好像是级别定错了，应该是简单级别的。
 
 class Solution {
     public int distinctEchoSubstrings(String text) {

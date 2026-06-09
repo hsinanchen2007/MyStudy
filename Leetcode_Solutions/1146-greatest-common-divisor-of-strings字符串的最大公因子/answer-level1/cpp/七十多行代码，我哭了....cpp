@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int>getFactors(int x){
@@ -76,4 +76,4 @@ public:
         return d1 <= d2 ? solve(p1, d1, p2, d2) : solve(p2, d2, p1, d1);
     }
 };
-```
+// ```

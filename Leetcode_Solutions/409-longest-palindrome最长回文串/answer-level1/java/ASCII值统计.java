@@ -1,7 +1,7 @@
-定义一个长度128，值为0的数组，每个字符出现一次在对应的位置+1；最后根据字符出现的奇偶次统计
+// 定义一个长度128，值为0的数组，每个字符出现一次在对应的位置+1；最后根据字符出现的奇偶次统计
 
 
-```
+// ```
 class Solution {
     public int longestPalindrome(String s) {
         int[] temp = new int[128];
@@ -26,4 +26,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-bfs：维护一个先进先出的队列，每次拿出来的都是最短步数
-backtrack：每次从当前交换位置的后一个位置继续比较
+// bfs：维护一个先进先出的队列，每次拿出来的都是最短步数
+// backtrack：每次从当前交换位置的后一个位置继续比较
 
 
-bfs > backtrack
-```
+// bfs > backtrack
+// ```
 func kSimilarity(A string, B string) int {
 	var a, b []byte
 	for i := 0; i < len(A); i++ {
@@ -82,4 +82,4 @@ func backtrack(idx int, A, B []byte, m map[string]int) int {
 	return min
 }
 
-```
+// ```

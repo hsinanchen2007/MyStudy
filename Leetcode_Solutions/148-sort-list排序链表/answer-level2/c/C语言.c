@@ -1,8 +1,8 @@
-### 解题思路
-开辟数组空间进行排序，然后依次遍历链表进行赋值。
-### 代码
+// ### 解题思路
+// 开辟数组空间进行排序，然后依次遍历链表进行赋值。
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -47,4 +47,4 @@ struct ListNode* sortList(struct ListNode* head)
 	
 	return head;
 }
-```
+// ```

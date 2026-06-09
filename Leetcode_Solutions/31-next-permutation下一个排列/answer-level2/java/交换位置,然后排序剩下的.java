@@ -1,5 +1,5 @@
-从最后一位开始寻找这位后面比它还小的数字,交换这两个数字,然后把剩下的元素排序.
-```
+// 从最后一位开始寻找这位后面比它还小的数字,交换这两个数字,然后把剩下的元素排序.
+// ```
 class Solution {
     public void nextPermutation(int[] nums) {
 		for(int i = nums.length-1; i>=0; i--) {
@@ -19,4 +19,4 @@ class Solution {
 		Arrays.sort(nums);
 	}
 }
-```
+// ```

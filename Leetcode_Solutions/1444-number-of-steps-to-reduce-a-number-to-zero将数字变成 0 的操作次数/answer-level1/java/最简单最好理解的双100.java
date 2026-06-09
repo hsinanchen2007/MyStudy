@@ -1,9 +1,9 @@
-### 解题思路
-定义一个计数器，给while循环条件 num != 0，如果等于零了就退出循环，此时n的值就是步数
+// ### 解题思路
+// 定义一个计数器，给while循环条件 num != 0，如果等于零了就退出循环，此时n的值就是步数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numberOfSteps (int num) {
         int n = 0;
@@ -20,4 +20,4 @@ class Solution {
     }
 
 }
-```
+// ```

@@ -1,8 +1,8 @@
-/*
-在题解一位大神（标题为：逐位相加，模拟进位）的思路下修改，看齐评论我亦认为其存在内存泄漏的小问题，所以想要在其基础上进行修改，望各位海涵。
-（本人愚拙，一开始的思路很不堪，将两个数化为整数加起来放到一个新的链表，结果提交时发现即使是long long 型也有数据界限，故此，只能说膜拜大神，学习大神思路，特此记录）
-*/
-```
+// /*
+// 在题解一位大神（标题为：逐位相加，模拟进位）的思路下修改，看齐评论我亦认为其存在内存泄漏的小问题，所以想要在其基础上进行修改，望各位海涵。
+// （本人愚拙，一开始的思路很不堪，将两个数化为整数加起来放到一个新的链表，结果提交时发现即使是long long 型也有数据界限，故此，只能说膜拜大神，学习大神思路，特此记录）
+// */
+// ```
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     int digit1 = 0,digit2 = 0,digit_sum = 0,carry = 0,digit3 = 0;
     struct ListNode *l1a = l1,*l2a = l2;
@@ -32,4 +32,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return result;
 }
-```
+// ```

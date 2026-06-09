@@ -1,9 +1,9 @@
-### 解题思路
-1.由于递归层数太多 用stack构造
-2.ax+by=z 有整数解，当x,y的最大公约数可以被z整除
-### 代码
+# ### 解题思路
+# 1.由于递归层数太多 用stack构造
+# 2.ax+by=z 有整数解，当x,y的最大公约数可以被z整除
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         # stack = [(0, 0)]
@@ -30,4 +30,4 @@ class Solution:
         if x==0 or y==0: return z==x or z==y
         return z% math.gcd(x,y) == 0
             
-```
+# ```

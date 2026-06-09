@@ -1,5 +1,5 @@
-第一次遍历一个字符把符合值加到结果里，第二次遍历两个字符从结果中减去符合值。
-```
+// 第一次遍历一个字符把符合值加到结果里，第二次遍历两个字符从结果中减去符合值。
+// ```
 class Solution {
     public int romanToInt(String s) {
 	int result = 0;
@@ -47,4 +47,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-## MySQL 联合查询
-```
+-- ## MySQL 联合查询
+-- ```
 select
     player_id,
     device_id
@@ -11,9 +11,9 @@ where (player_id, event_date) in (
     from Activity
     group by player_id
 )
-```
-## MySQL 变量
-```
+-- ```
+-- ## MySQL 变量
+-- ```
 select
     player_id,
     device_id
@@ -35,10 +35,10 @@ from (
     order by a.player_id, a.event_date
 ) t
 where num = 1
-```
-## MSSQL 窗口函数
-速度比较慢
-```
+-- ```
+-- ## MSSQL 窗口函数
+-- 速度比较慢
+-- ```
 select 
     player_id,
     device_id
@@ -50,4 +50,4 @@ from (
     from Activity
 ) t 
 where rnk = 1
-```
+-- ```

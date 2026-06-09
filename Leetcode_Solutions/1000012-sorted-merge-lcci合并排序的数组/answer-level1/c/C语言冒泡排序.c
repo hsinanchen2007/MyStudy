@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-* 执行用时 :4 ms, 在所有 C 提交中击败了96.88%的用户
-* 内存消耗 :7.3 MB, 在所有 C 提交中击败了100.00%的用户
-* （问号脸）
+// * 执行用时 :4 ms, 在所有 C 提交中击败了96.88%的用户
+// * 内存消耗 :7.3 MB, 在所有 C 提交中击败了100.00%的用户
+// * （问号脸）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 // BubbleSort
 void BubbleSort(int* X, int size) {
@@ -39,4 +39,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
 	}
 	BubbleSort(A, ASize);
 }
-```
+// ```

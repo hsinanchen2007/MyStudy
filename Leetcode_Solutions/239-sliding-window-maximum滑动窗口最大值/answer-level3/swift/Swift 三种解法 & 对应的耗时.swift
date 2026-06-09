@@ -1,10 +1,10 @@
 
-### 暴力解法
+// ### 暴力解法
 
-执行用时 : 196 ms , 在所有 swift 提交中击败了 90% 的用户
-内存消耗 : 24.3 MB , 在所有 swift 提交中击败了 7.14% 的用户
+// 执行用时 : 196 ms , 在所有 swift 提交中击败了 90% 的用户
+// 内存消耗 : 24.3 MB , 在所有 swift 提交中击败了 7.14% 的用户
 
-```swift
+// ```swift
 class Solution {
     
     func rangeMaxElement(_ nums: [Int], _ l: Int, _ r: Int) -> (idx: Int, val: Int){
@@ -57,18 +57,18 @@ class Solution {
         return maxArr
     }
 }
-```
+// ```
 
 
 
 
 
-### 双端队列
+// ### 双端队列
 
-执行用时 : 228 ms , 在所有 swift 提交中击败了 56.67% 的用户
-内存消耗 : 24.3 MB , 在所有 swift 提交中击败了 7.14% 的用户
+// 执行用时 : 228 ms , 在所有 swift 提交中击败了 56.67% 的用户
+// 内存消耗 : 24.3 MB , 在所有 swift 提交中击败了 7.14% 的用户
 
-```swift
+// ```swift
 class Solution {
     
     func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
@@ -102,17 +102,17 @@ class Solution {
         return maxArr
     }
 }
-```
+// ```
 
 
 
 
-### 动态规划
+// ### 动态规划
 
-执行用时 : 184 ms , 在所有 swift 提交中击败了 96.67% 的用户
-内存消耗 : 24.8 MB , 在所有 swift 提交中击败了 7.14% 的用户
+// 执行用时 : 184 ms , 在所有 swift 提交中击败了 96.67% 的用户
+// 内存消耗 : 24.8 MB , 在所有 swift 提交中击败了 7.14% 的用户
 
-```swift
+// ```swift
 class Solution {
     
     func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
@@ -153,4 +153,4 @@ class Solution {
         return maxArr
     }
 }
-```
+// ```

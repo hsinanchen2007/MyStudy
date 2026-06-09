@@ -1,5 +1,5 @@
-将哈希表的键值设为如下形式"#shift0#shift1#shift2...shiftN"，其中shiftN表示的是对某个给定的字符串，其第N位上的字符与第0位上字符的距离。如字符串"abc"，其序列化后的键值为"#0#1#2"
-```java
+// 将哈希表的键值设为如下形式"#shift0#shift1#shift2...shiftN"，其中shiftN表示的是对某个给定的字符串，其第N位上的字符与第0位上字符的距离。如字符串"abc"，其序列化后的键值为"#0#1#2"
+// ```java
 class Solution {
     public List<List<String>> groupStrings(String[] strings) {
         if (strings == null || strings.length == 0) return new ArrayList<>();
@@ -19,4 +19,4 @@ class Solution {
         return new ArrayList<>(map.values());
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-现将每个正确的数放到自己对应的位置，剩下在重头扫描一遍，与位置不对应的数就是消失的数。
+// ### 解题思路
+// 现将每个正确的数放到自己对应的位置，剩下在重头扫描一遍，与位置不对应的数就是消失的数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

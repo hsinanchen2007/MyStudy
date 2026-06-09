@@ -1,11 +1,11 @@
-### 解题思路
-参考了楼上大牛的思路，开始看到这道题完全懵逼。
-1.将线段分解成3 * 3的小网格，初始化好“/”和“\\”；
-2.DFS求解全0的联通区域个数；
+// ### 解题思路
+// 参考了楼上大牛的思路，开始看到这道题完全懵逼。
+// 1.将线段分解成3 * 3的小网格，初始化好“/”和“\\”；
+// 2.DFS求解全0的联通区域个数；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int **initGrid(char ** grid, int gridSize) {
     int **newGrid = (int **)malloc(sizeof(int *) * (gridSize * 3));
     int i;
@@ -65,4 +65,4 @@ int regionsBySlashes(char ** grid, int gridSize){
     free(newGrid);
     return regions;
 }
-```
+// ```

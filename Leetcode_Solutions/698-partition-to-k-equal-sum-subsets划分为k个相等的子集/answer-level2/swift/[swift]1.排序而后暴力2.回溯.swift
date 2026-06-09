@@ -1,6 +1,6 @@
-##  排序后暴力求解  
+// ##  排序后暴力求解  
 
-```swift
+// ```swift
  class Solution {
     typealias State = [Int:Int]
     func canPartitionKSubsets(_ nums: [Int], _ k: Int) -> Bool {
@@ -53,10 +53,10 @@
         return false
     }
  }
-```
-## 回溯
+// ```
+// ## 回溯
 
-```swift
+// ```swift
  class Solution {
     typealias State = [Int:Int]
     func canPartitionKSubsets(_ nums: [Int], _ k: Int) -> Bool {
@@ -109,4 +109,4 @@
         return ans
     }
  }
-```
+// ```

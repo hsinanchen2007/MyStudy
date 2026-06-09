@@ -1,10 +1,10 @@
-### 解题思路
-- 题目和普通的广搜区别在于引入了一个障碍物计数；那么用 `d[i,j,k]` 代表还剩`k`次障碍时到达 `(i,j)`点；
-- 广搜第一个到达终点对应最短路；
-- 注意`visited`应该在入队时候标记，否则可能造成重复入队；
+# ### 解题思路
+# - 题目和普通的广搜区别在于引入了一个障碍物计数；那么用 `d[i,j,k]` 代表还剩`k`次障碍时到达 `(i,j)`点；
+# - 广搜第一个到达终点对应最短路；
+# - 注意`visited`应该在入队时候标记，否则可能造成重复入队；
 
-### 代码
-```python
+# ### 代码
+# ```python
 from collections import deque
 class Solution:
     def shortestPath(self, grid: "List[List[int]]", k: int) -> int:
@@ -32,4 +32,4 @@ class Solution:
                         queue.append((new_row, new_col, eliminate, steps+1))
 
         return -1
-```
+# ```

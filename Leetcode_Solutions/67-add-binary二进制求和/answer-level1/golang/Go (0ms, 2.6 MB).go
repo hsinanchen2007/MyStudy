@@ -1,4 +1,4 @@
-```
+// ```
 func addBinary(a string, b string) string {
 	var s string
 	carry := 0 // 进位
@@ -24,4 +24,4 @@ func addBinary(a string, b string) string {
 	}
 	return s
 }
-```
+// ```

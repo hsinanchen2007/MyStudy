@@ -1,10 +1,10 @@
-### 解题思路
-先计算所有陆地的周长，再减去相邻陆地的长度
-陆地数乘4- 相邻陆地数乘2
+// ### 解题思路
+// 先计算所有陆地的周长，再减去相邻陆地的长度
+// 陆地数乘4- 相邻陆地数乘2
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int islandPerimeter(int** grid, int gridSize, int* gridColSize)
 {
     int i, j;
@@ -36,4 +36,4 @@ int islandPerimeter(int** grid, int gridSize, int* gridColSize)
     len = cnt * 4 - (r + d) * 2;
     return len;
 }
-```
+// ```

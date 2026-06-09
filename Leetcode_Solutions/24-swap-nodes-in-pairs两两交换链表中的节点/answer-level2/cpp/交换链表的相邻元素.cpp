@@ -1,12 +1,12 @@
-### 解题思路
-递归法解题
-分为：前->head->next—>后
-一个递归体的处理包括后面3部分（相当于一个循环体）
-“前”和后面3部分的连接：head->next = swapPairs(next->next);
+// ### 解题思路
+// 递归法解题
+// 分为：前->head->next—>后
+// 一个递归体的处理包括后面3部分（相当于一个循环体）
+// “前”和后面3部分的连接：head->next = swapPairs(next->next);
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -30,4 +30,4 @@ public:
     }
 
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-有三种情况：
-1. 当上下关系不同时，则返回[-1]；
-2. 同层左右节点时，添加他们的父节点到返回的列表里，交换左右节点；
-3. 当相同时，继续往下遍历；
+# ### 解题思路
+# 有三种情况：
+# 1. 当上下关系不同时，则返回[-1]；
+# 2. 同层左右节点时，添加他们的父节点到返回的列表里，交换左右节点；
+# 3. 当相同时，继续往下遍历；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
                 dfs(node.right)
         dfs(root)
         return [-1] if self.flipped and self.flipped[0] == -1 else self.flipped
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-countAndSay函数
+// countAndSay函数
 
-变量无非 count 和 say
+// 变量无非 count 和 say
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
         StringBuilder pre = new StringBuilder();
@@ -32,4 +32,4 @@ class Solution {
 		return curr.toString();
     }
 }
-```
+// ```

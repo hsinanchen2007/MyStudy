@@ -1,14 +1,14 @@
-### 解题思路
-f(n, m)表示在n个数字0,1,...,n-1中删除第m个数字后剩下的数字，用f`(n - 1, m)表示
-即f(n, m) = f`(n - 1, m)
+// ### 解题思路
+// f(n, m)表示在n个数字0,1,...,n-1中删除第m个数字后剩下的数字，用f`(n - 1, m)表示
+// 即f(n, m) = f`(n - 1, m)
 
-f`(n - 1, m) = (f(n - 1, m) + k + 1) % n
-             = (f(n - 1, m) + m ) % n
-f(n , m) = (f(n - 1, m) + m) % n
+// f`(n - 1, m) = (f(n - 1, m) + k + 1) % n
+//              = (f(n - 1, m) + m ) % n
+// f(n , m) = (f(n - 1, m) + m) % n
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lastRemaining(int n, int m) {
@@ -23,4 +23,4 @@ public:
         return last;
     }
 };
-```
+// ```

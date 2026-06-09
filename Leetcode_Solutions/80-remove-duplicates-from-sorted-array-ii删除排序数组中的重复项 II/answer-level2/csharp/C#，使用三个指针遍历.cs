@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-三个指针，i为数组遍历迭代器，j为计数器，k为重复数字计数器
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 三个指针，i为数组遍历迭代器，j为计数器，k为重复数字计数器
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int RemoveDuplicates(int[] nums) {
         int j = 0;
@@ -42,4 +42,4 @@ public class Solution {
         return j + 1;
     }
 }
-```
+// ```

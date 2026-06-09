@@ -1,5 +1,5 @@
-通过滑窗求解
-```
+// 通过滑窗求解
+// ```
 #define MAX_NUM(a, b)   ((a) > (b) ? (a) : (b))
 int equalSubstring(char * s, char * t, int maxCost){
     int len1 = strlen(s);
@@ -34,4 +34,4 @@ int equalSubstring(char * s, char * t, int maxCost){
     }
     return max;
 }
-```
+// ```

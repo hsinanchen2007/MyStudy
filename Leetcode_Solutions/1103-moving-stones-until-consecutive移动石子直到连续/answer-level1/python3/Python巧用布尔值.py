@@ -1,5 +1,5 @@
-布尔值是可以当成1和0直接做加法运算的，在这道题里如果使用布尔值，代码会清晰一点。
-```python []
+# 布尔值是可以当成1和0直接做加法运算的，在这道题里如果使用布尔值，代码会清晰一点。
+# ```python []
 class Solution:
     def numMovesStones(self, a: int, b: int, c: int) -> list:
         rocks = [a,b,c]
@@ -16,5 +16,5 @@ class Solution:
         else:
             min_move = bool(rocks[1]-rocks[0]-1)+bool(rocks[2]-rocks[1]-1)
         return [min_move,max_move]
-```
+# ```
 

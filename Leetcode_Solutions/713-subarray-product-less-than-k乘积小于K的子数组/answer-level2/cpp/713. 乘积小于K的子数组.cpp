@@ -1,14 +1,14 @@
-滑铁卢。
+// 滑铁卢。
 
-费死劲了也没写对，抄答案都抄不对，死活没想到k=1的时候直接返回0就行。
+// 费死劲了也没写对，抄答案都抄不对，死活没想到k=1的时候直接返回0就行。
 
-思路很清晰，如果当前乘积小于k，那么right左边含right的所有子串乘积一定都小于k；如果新来个right后乘积大于等于k了，那么就缩left，直到乘积再次小于right，此时left与right之间所有含right的子串的乘积一定都小于k。
+// 思路很清晰，如果当前乘积小于k，那么right左边含right的所有子串乘积一定都小于k；如果新来个right后乘积大于等于k了，那么就缩left，直到乘积再次小于right，此时left与right之间所有含right的子串的乘积一定都小于k。
 
-边界条件啊边界条件，到底啥时候终止怎么死活想不对呢。
+// 边界条件啊边界条件，到底啥时候终止怎么死活想不对呢。
 
-### 代码
+// ### 代码
 
-```cpp []
+// ```cpp []
 class Solution {
 public:
     int numSubarrayProductLessThanK(vector<int>& nums, int k) {
@@ -29,8 +29,8 @@ public:
     }
 };
 
-```
-```cpp []
+// ```
+// ```cpp []
 //没想到k=1时也能直接返回，导致后面需要多一步判断
 class Solution {
 public:
@@ -51,4 +51,4 @@ public:
     return ans;
     }
 };
-```
+// ```

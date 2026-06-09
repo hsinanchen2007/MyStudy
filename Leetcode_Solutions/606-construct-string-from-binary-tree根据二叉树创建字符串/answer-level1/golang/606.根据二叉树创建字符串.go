@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-递归法来做，分四种情况：
-1.当前节点左右孩子都为空
-2.当前节点只有右孩子
-3.当前节点只有左孩子
-4.当前节点左右孩子都有
+// 递归法来做，分四种情况：
+// 1.当前节点左右孩子都为空
+// 2.当前节点只有右孩子
+// 3.当前节点只有左孩子
+// 4.当前节点左右孩子都有
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -30,4 +30,4 @@ func tree2str(t *TreeNode) string {
 	//情况3，4
 	return strconv.Itoa(t.Val) + "(" + tree2str(t.Left) + ")(" + tree2str(t.Right) + ")"   
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-经典队列 bfs， head为第一个可用元素前的黑洞，tail为最后一个可用元素。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 经典队列 bfs， head为第一个可用元素前的黑洞，tail为最后一个可用元素。
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -123,4 +123,4 @@ struct ListNode** listOfDepth(struct TreeNode* tree, int* returnSize){
     struct ListNode **res = bfs(tree, returnSize);
     return res;
 }
-```
+// ```

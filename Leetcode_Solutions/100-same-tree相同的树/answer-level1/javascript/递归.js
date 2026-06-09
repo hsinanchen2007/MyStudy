@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -20,4 +20,4 @@ var isSameTree = function(p, q) {
     
     return p.val === q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
 };
-```
+// ```

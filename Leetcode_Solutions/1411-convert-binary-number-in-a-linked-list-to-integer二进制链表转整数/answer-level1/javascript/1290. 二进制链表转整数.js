@@ -1,9 +1,9 @@
-### 解题思路
-首次一定会计算一次, 用do while
+// ### 解题思路
+// 首次一定会计算一次, 用do while
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -23,4 +23,4 @@ var getDecimalValue = function(head) {
     }while(head)
     return result
 };
-```
+// ```

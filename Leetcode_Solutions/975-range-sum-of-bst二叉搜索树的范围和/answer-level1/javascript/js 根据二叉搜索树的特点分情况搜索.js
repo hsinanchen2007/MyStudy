@@ -1,17 +1,17 @@
-![image.png](https://pic.leetcode-cn.com/1702eb3c6dd7d823cd2c0b314e139fb397af71a3909b91e65ddaa9db10b0125c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1702eb3c6dd7d823cd2c0b314e139fb397af71a3909b91e65ddaa9db10b0125c-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 遍历所有节点：
 搜索思路：
   1. 如果当前节点值满足条件，那么累加这个值，继续搜索左右子树
   2. 如果当前节点小于 L，那么只需要搜索它的右子树即可，因为左子树小于当前节点，必然小于 L
   3.如果当前节点大于 R，那么只需要搜索它的左子树即可，因为右子树大于当前节点，必然大于 L
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -47,4 +47,4 @@ var rangeSumBST = function(root, L, R) {
   
   return sum;
 };
-```
+// ```

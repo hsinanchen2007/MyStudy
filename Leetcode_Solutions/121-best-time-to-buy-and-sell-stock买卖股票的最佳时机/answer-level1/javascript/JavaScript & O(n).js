@@ -1,6 +1,6 @@
-做了不少题了，发现很简单的题，官方都能吧 `O(n²)` 的解法优化成 `O(n)`的😎
+// 做了不少题了，发现很简单的题，官方都能吧 `O(n²)` 的解法优化成 `O(n)`的😎
 
-```javascript []
+// ```javascript []
 /**
  * @param {number[]} prices
  * @return {number}
@@ -26,4 +26,4 @@ var maxProfit = function(prices) {
 
   return res
 }
-```
+// ```

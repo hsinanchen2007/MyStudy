@@ -1,9 +1,9 @@
-### 解题思路
-根据题目要求查看，可以通过不断反转获得结果
+// ### 解题思路
+// 根据题目要求查看，可以通过不断反转获得结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[] nums, int k) {
 
@@ -37,4 +37,4 @@ class Solution {
         }
     }
 }
-```
+// ```

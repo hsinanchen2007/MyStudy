@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type AndCheck struct {
 	Parent []int // 每个并查集元素都有一个parent数组指向它自己
 	Rank   []int // 维护每个元素在并查集树中的排名
@@ -80,4 +80,4 @@ func findCircleNum(M [][]int) int {
 	}
 	return len(m_nodes)
 }
-```
+// ```

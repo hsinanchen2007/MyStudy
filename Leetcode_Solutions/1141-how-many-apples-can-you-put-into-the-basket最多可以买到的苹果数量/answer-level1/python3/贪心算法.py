@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxNumberOfApples(self, arr: List[int]) -> int:
         if arr == []:
@@ -11,4 +11,4 @@ class Solution:
                 return count
             count += 1
         return count
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-解题主要是采用的回溯法+剪枝，只不过没有采用递归的形式
-### 代码
-代码应该还有优化的地方，希望大佬瞥见能提醒我
-```python3
+# ### 解题思路
+# 解题主要是采用的回溯法+剪枝，只不过没有采用递归的形式
+# ### 代码
+# 代码应该还有优化的地方，希望大佬瞥见能提醒我
+# ```python3
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         nums.sort()
@@ -46,4 +46,4 @@ class Solution:
             return False
         else:
             return False
-```
+# ```

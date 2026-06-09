@@ -1,42 +1,42 @@
-首先构造如下线段树，每个圆圈表示一个结点，结点包含如下信息：
+// 首先构造如下线段树，每个圆圈表示一个结点，结点包含如下信息：
 
-- 线段范围
-    - start
-    - end
-- 线段范围内有几个元素
-    - count
-- 指向左右结点的指针
-    - left（左结点的线段范围是[start, start+(end-start)/2]）
-    - right(右结点的线段范围是[start+(end-start)/2+1, end])
+// - 线段范围
+//     - start
+//     - end
+// - 线段范围内有几个元素
+//     - count
+// - 指向左右结点的指针
+//     - left（左结点的线段范围是[start, start+(end-start)/2]）
+//     - right(右结点的线段范围是[start+(end-start)/2+1, end])
 
-如下是一个实例
-![segment_tree.png](https://pic.leetcode-cn.com/5089a469295d9628c19a2bcad3573f16cbc1f02161a45de9bea44540b72d8f14-segment_tree.png)
-
-
-根据这道题来说，线段树的操作函数有三个：
-
-- build():构造线段树
-    - 找出数组中最小和最大的元素，做为根节点的线段范围
-    - 比如[2,3,4,1]的线段树根节点范围为[1,4]
-- insert(int index)):插入一个元素，并更新线段树的count值
-    - 比如实例图中插入元素3，则[1,4],[3,4],[3,3]的结点count值都+1
-- count(int start, int end):返回[start, end]的count值
-    - 比如要找小于元素(记为x)的个数，就是统计线段树中[min, x-1]的个数，其中min为线段树的最小值
-
-对于这道题来说，步骤如下：
-
-- 遍历数组，找到数组的min和max，构造线段树[min, max]
-- 从右往左遍历，记当前元素为x
-    - 统计线段树中[min, x-1]范围内的元素，即右侧小于x的元素个数
-    - 往线段树中插入元素x，并更新线段树各个结点的count值
-
-一个简单的示例
-
-![leetcode315.png](https://pic.leetcode-cn.com/5437f33179ca9afbfc6043c3d556194bbdc4411978fd64ef803408b2f22693dd-leetcode315.png)
+// 如下是一个实例
+// ![segment_tree.png](https://pic.leetcode-cn.com/5089a469295d9628c19a2bcad3573f16cbc1f02161a45de9bea44540b72d8f14-segment_tree.png)
 
 
+// 根据这道题来说，线段树的操作函数有三个：
 
-```cpp
+// - build():构造线段树
+//     - 找出数组中最小和最大的元素，做为根节点的线段范围
+//     - 比如[2,3,4,1]的线段树根节点范围为[1,4]
+// - insert(int index)):插入一个元素，并更新线段树的count值
+//     - 比如实例图中插入元素3，则[1,4],[3,4],[3,3]的结点count值都+1
+// - count(int start, int end):返回[start, end]的count值
+//     - 比如要找小于元素(记为x)的个数，就是统计线段树中[min, x-1]的个数，其中min为线段树的最小值
+
+// 对于这道题来说，步骤如下：
+
+// - 遍历数组，找到数组的min和max，构造线段树[min, max]
+// - 从右往左遍历，记当前元素为x
+//     - 统计线段树中[min, x-1]范围内的元素，即右侧小于x的元素个数
+//     - 往线段树中插入元素x，并更新线段树各个结点的count值
+
+// 一个简单的示例
+
+// ![leetcode315.png](https://pic.leetcode-cn.com/5437f33179ca9afbfc6043c3d556194bbdc4411978fd64ef803408b2f22693dd-leetcode315.png)
+
+
+
+// ```cpp
 struct SegmentTreeNode{
         int start;
         int end;
@@ -136,11 +136,11 @@ public:
         return res;      
     }
 };
-```
+// ```
 
-同步在博客上和公众号上：
+// 同步在博客上和公众号上：
 
-[leetcode No315. Count of Smaller Numbers After Self](https://blog.csdn.net/u011391629/article/details/104631973)
+// [leetcode No315. Count of Smaller Numbers After Self](https://blog.csdn.net/u011391629/article/details/104631973)
 
-![QR_258.jpg](https://pic.leetcode-cn.com/ab1f63a2597446319c8896feedbf7dbae802ee5f5bf91773c2706a0a68905d83-QR_258.jpg)
+// ![QR_258.jpg](https://pic.leetcode-cn.com/ab1f63a2597446319c8896feedbf7dbae802ee5f5bf91773c2706a0a68905d83-QR_258.jpg)
 

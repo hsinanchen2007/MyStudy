@@ -1,11 +1,11 @@
-### 解题思路
-1 left为NULL，因为题目保证有解，所以答案必在右边
-2 left不为NULL，则看right是否为NULL，若right为NULL， 则答案一定是左边这个left。
-3 左右都不为NULL， 说明root在中间，p和q在两边。该根结点一定是最近公共祖先。
+// ### 解题思路
+// 1 left为NULL，因为题目保证有解，所以答案必在右边
+// 2 left不为NULL，则看right是否为NULL，若right为NULL， 则答案一定是左边这个left。
+// 3 左右都不为NULL， 说明root在中间，p和q在两边。该根结点一定是最近公共祖先。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -32,4 +32,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/9
- *
- * 解题思路: 这算走捷径么  或者数组+链表实现 链表用来实现偏移
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/9
+//  *
+//  * 解题思路: 这算走捷径么  或者数组+链表实现 链表用来实现偏移
+//  *
+//  */
+// ```
 public class leetcode705 {
 
     int[] hash;
@@ -35,4 +35,4 @@ public class leetcode705 {
 
 
 }
-```
+// ```

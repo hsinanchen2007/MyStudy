@@ -1,6 +1,6 @@
-这道题因为只需要判断是否可以构成有效的括号，并不需要列举出合法的解。
-可以直接遍历一遍字符串，记录出现的括号和*的情况。
-```
+// 这道题因为只需要判断是否可以构成有效的括号，并不需要列举出合法的解。
+// 可以直接遍历一遍字符串，记录出现的括号和*的情况。
+// ```
 class Solution {
 public:
     bool checkValidString(string s) {
@@ -28,6 +28,6 @@ public:
         return true;
     }
 };
-```
-![截屏2020-03-2717.05.35.png](https://pic.leetcode-cn.com/e7f5665af58ac43a3de8cd37ed5e1853c5638d42e74eace87d22a9412c01b3ab-%E6%88%AA%E5%B1%8F2020-03-2717.05.35.png)
+// ```
+// ![截屏2020-03-2717.05.35.png](https://pic.leetcode-cn.com/e7f5665af58ac43a3de8cd37ed5e1853c5638d42e74eace87d22a9412c01b3ab-%E6%88%AA%E5%B1%8F2020-03-2717.05.35.png)
 

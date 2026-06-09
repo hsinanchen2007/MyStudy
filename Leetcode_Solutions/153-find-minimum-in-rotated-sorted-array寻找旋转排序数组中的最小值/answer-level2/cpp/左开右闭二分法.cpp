@@ -1,9 +1,9 @@
-### 解题思路
-貌似比左闭右闭快那么一丢丢
+// ### 解题思路
+// 貌似比左闭右闭快那么一丢丢
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
             return nums[right];
     }
 };
-```
+// ```

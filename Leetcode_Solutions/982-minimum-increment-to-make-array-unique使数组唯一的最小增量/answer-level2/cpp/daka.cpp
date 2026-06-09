@@ -1,7 +1,7 @@
-内存消耗略大。。
+// 内存消耗略大。。
 
-线探，时间还行
-```
+// 线探，时间还行
+// ```
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A)
@@ -31,4 +31,4 @@ public:
         return ans;	
     }
 };
-```
+// ```

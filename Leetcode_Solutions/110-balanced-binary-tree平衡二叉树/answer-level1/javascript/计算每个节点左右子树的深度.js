@@ -1,6 +1,6 @@
-利用一个额外的函数计算当前节点左右子树的最大深度，然后相加取绝对值
-对每个节点都做此操作，递归遍历
-```javascript
+// 利用一个额外的函数计算当前节点左右子树的最大深度，然后相加取绝对值
+// 对每个节点都做此操作，递归遍历
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -25,4 +25,4 @@ var maxDeep = (root)=>{
    }
     return Math.max(maxDeep(root.left),maxDeep(root.right))+1;
 }
-```
+// ```

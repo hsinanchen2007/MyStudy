@@ -1,11 +1,11 @@
-### 解题思路
-维护一个邻接矩阵，根据矩阵中的元素，判断可以选那些颜色，然后选择最小的即可。
+// ### 解题思路
+// 维护一个邻接矩阵，根据矩阵中的元素，判断可以选那些颜色，然后选择最小的即可。
 
-思路很简单，但是C语言的实现有点困难，考虑用一个数据结构来解决。
+// 思路很简单，但是C语言的实现有点困难，考虑用一个数据结构来解决。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct node {
     int paths[4];
     int path_num;
@@ -54,4 +54,4 @@ int* gardenNoAdj(int N, int** paths, int pathsSize, int* pathsColSize, int* retu
     *returnSize = N;
     return res;
 }
-```
+// ```

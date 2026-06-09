@@ -1,9 +1,9 @@
-### 解题思路
-递归法
+// ### 解题思路
+// 递归法
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int SumNums(int n) {
         if(n == 1)
@@ -14,4 +14,4 @@ public class Solution {
         return n + SumNums(n-1);
     }
 }
-```
+// ```

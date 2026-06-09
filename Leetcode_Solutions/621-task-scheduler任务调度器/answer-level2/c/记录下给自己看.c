@@ -1,9 +1,9 @@
-### 解题思路
-要有耐心：按照调度次数来循环，注意最后一次。
+// ### 解题思路
+// 要有耐心：按照调度次数来循环，注意最后一次。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Compare (const void *a, const void *b) 
 {
     return *(int*)b - *(int*)a;
@@ -56,4 +56,4 @@ int leastInterval(char* tasks, int tasksSize, int n){
     minTime = (schedu-1) * (n+1) + sc;
     return minTime;
 }
-```
+// ```

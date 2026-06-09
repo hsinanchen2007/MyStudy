@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findKthLargest(int[] nums, int k) {
         return sort1(nums,0,nums.length-1,k);
@@ -30,4 +30,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

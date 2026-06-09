@@ -1,12 +1,12 @@
-### 解题思路
-@mata川 大神指导 递归三步骤。
-1，找出终止条件   head == null  找出最后一个元素
-2，找出返回结果   最后一个元素，开始的列表
-3。找出循环过程   reverse(head.next);
+// ### 解题思路
+// @mata川 大神指导 递归三步骤。
+// 1，找出终止条件   head == null  找出最后一个元素
+// 2，找出返回结果   最后一个元素，开始的列表
+// 3。找出循环过程   reverse(head.next);
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -35,4 +35,4 @@ class Solution {
         return newHeadnode;//返回新头开始的序列
     }
 }
-```
+// ```

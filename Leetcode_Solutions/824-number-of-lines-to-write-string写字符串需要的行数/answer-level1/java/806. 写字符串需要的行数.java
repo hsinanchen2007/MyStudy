@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/12
- * 
- * 解题思路: 常规思路
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/12
+//  * 
+//  * 解题思路: 常规思路
+//  * 
+//  */
+// ```
 public int[] numberOfLines(int[] widths, String S) {
     int sum = 0;
     int[] res = new int[2];
@@ -33,4 +33,4 @@ public int[] numberOfLines(int[] widths, String S) {
     }
     return res;
 }
-```
+// ```

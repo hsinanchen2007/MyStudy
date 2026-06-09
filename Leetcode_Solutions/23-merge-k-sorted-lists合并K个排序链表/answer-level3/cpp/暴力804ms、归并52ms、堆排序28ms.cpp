@@ -1,8 +1,8 @@
-**1.暴力解决**
-遍历k个排序链表，每次找其中的最小值，加入结果链表中，并将最小值所在的链表指针向后移动一位，直到所有链表全部遍历完成
-时间复杂度：O(k*n)
+// **1.暴力解决**
+// 遍历k个排序链表，每次找其中的最小值，加入结果链表中，并将最小值所在的链表指针向后移动一位，直到所有链表全部遍历完成
+// 时间复杂度：O(k*n)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
@@ -37,13 +37,13 @@ public:
         return head;
     }
 };
-```
-**2.归并排序**
-多路归并，用二分的形式进行划分，每次对其中的两个链表进行排序
-一共[log2(n-1)+1]次归并，每次参与的结点不多于n
-时间复杂度: O(nlogn)
+// ```
+// **2.归并排序**
+// 多路归并，用二分的形式进行划分，每次对其中的两个链表进行排序
+// 一共[log2(n-1)+1]次归并，每次参与的结点不多于n
+// 时间复杂度: O(nlogn)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* merge(ListNode *p,ListNode *q)   //对头结点指针为p,q的两个链表进行排序
@@ -111,15 +111,15 @@ public:
         return h;
     }
 };
-```
+// ```
 
-**3.堆排序**
-使用最小堆排序
-先将所有链表的头结点插入堆，每次弹出堆顶元素，并插入堆顶元素在其链表中的后一个元素，直到堆为空
-堆内元素为 pair<int,ListNode*> 将pair.first设为负数可实现最小堆
-时间复杂度：O(n*logn)
+// **3.堆排序**
+// 使用最小堆排序
+// 先将所有链表的头结点插入堆，每次弹出堆顶元素，并插入堆顶元素在其链表中的后一个元素，直到堆为空
+// 堆内元素为 pair<int,ListNode*> 将pair.first设为负数可实现最小堆
+// 时间复杂度：O(n*logn)
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -150,4 +150,4 @@ public:
         return first->next;
     }
 };
-```
+// ```

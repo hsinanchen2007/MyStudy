@@ -1,8 +1,8 @@
-### 解题思路
-与组合求和之前的几个类似，需要注意的是这次加上了个数的限定
-### 代码
+# ### 解题思路
+# 与组合求和之前的几个类似，需要注意的是这次加上了个数的限定
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def combinationSum3(self, k, n):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                         break
         trackback([],0,1)
         return answer
-```
+# ```

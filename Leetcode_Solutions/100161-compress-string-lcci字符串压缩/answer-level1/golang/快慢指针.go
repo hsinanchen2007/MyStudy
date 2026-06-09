@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/40e1db71a90dd12f5d08e5a3b34e073853ceaa1923f6a9973722158083225988-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/40e1db71a90dd12f5d08e5a3b34e073853ceaa1923f6a9973722158083225988-image.png)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func compressString(S string) string {
 	var ans = make([]string,0)
 	var before = 0
@@ -38,4 +38,4 @@ func compressString(S string) string {
 	}
 	return str
 }
-```
+// ```

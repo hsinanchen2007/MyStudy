@@ -1,4 +1,4 @@
-```
+// ```
 // beat 99.58%(中文) 100%(英文)
     public boolean backspaceCompare(String S, String T) {
         char[] s = S.toCharArray();
@@ -41,4 +41,4 @@
         }
         return true;
     }
-```
+// ```

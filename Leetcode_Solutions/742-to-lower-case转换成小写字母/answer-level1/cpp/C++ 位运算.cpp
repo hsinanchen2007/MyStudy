@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     string toLowerCase(string str) {
@@ -10,4 +10,4 @@ public:
         return str;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     const int INF = 1e8;
@@ -20,7 +20,7 @@ public:
         return *min_element(dp1.begin(), dp1.end());
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/6bbcab0bfa2b612466ffbec23551596a8756b61ee693fabbf77e0dbb34a9a2ed-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6bbcab0bfa2b612466ffbec23551596a8756b61ee693fabbf77e0dbb34a9a2ed-image.png)
 

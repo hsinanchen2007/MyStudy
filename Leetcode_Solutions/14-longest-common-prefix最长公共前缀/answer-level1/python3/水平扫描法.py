@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if  strs == []:  # 若为空列表，直接返回''
@@ -22,4 +22,4 @@ class Solution:
                     else:   # 其他情况表明在i 位置字母不相同，直接return 结果，函数结束
                         return ''.join(repeat_str)
             return ''.join(repeat_str) # 该语句只在strs[0]是最长子串时才会执行
-```
+# ```

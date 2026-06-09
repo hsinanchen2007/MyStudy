@@ -1,9 +1,9 @@
 
-DFS搜索满足结果的列表
-根据异或的特点，与1异或等于对该位取反，就能得到与当前数只有一位不同的数，
-如果得到得数已经出现过，那么将1左移，对当前数下一位取反，直到得到没有出现
-的数为止
-```
+// DFS搜索满足结果的列表
+// 根据异或的特点，与1异或等于对该位取反，就能得到与当前数只有一位不同的数，
+// 如果得到得数已经出现过，那么将1左移，对当前数下一位取反，直到得到没有出现
+// 的数为止
+// ```
 class Solution {
     public List<Integer> circularPermutation(int n, int start) {
         List<Integer>list=new ArrayList<>();
@@ -34,4 +34,4 @@ class Solution {
         list.remove(list.size()-1);
     }
 }
-```
+// ```

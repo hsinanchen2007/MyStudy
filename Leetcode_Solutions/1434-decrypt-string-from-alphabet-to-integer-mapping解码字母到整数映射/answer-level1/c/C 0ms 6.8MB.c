@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *总体思路：
@@ -49,4 +49,4 @@ char * freqAlphabets( char * s ){
     return s;
 
 }
-```
+// ```

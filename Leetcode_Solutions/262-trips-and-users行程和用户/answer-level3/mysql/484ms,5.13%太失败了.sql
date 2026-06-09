@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 #学习有空格的变量要加单引号
 select Request_at as Day,round(sum(num)/count(*),2) as 'Cancellation Rate'
@@ -16,4 +16,4 @@ FROM
 ) t
 group by Request_at
 
-```
+-- ```

@@ -1,11 +1,11 @@
-*思路*
-1. `candidates` 可存在重复的数值，则结果集合不做处理将会出现重复组合
-2. 寻找回溯点，`当子集合总值=目标 target`,按照回溯的思路子集合的总和和目标相差为零 
+// *思路*
+// 1. `candidates` 可存在重复的数值，则结果集合不做处理将会出现重复组合
+// 2. 寻找回溯点，`当子集合总值=目标 target`,按照回溯的思路子集合的总和和目标相差为零 
 
 
-![image.png](https://pic.leetcode-cn.com/962c3bdb94d7aeab9c3c6c7404298f90a502cd7867ae3a0e5556e5dc6c2c5876-image.png)
+// ![image.png](https://pic.leetcode-cn.com/962c3bdb94d7aeab9c3c6c7404298f90a502cd7867ae3a0e5556e5dc6c2c5876-image.png)
 
-```
+// ```
 //数据集合
 private List<List<Integer>> ans = new ArrayList<List<Integer>>();
 
@@ -65,4 +65,4 @@ public static void main(String[] args) {
     LeetCode40 leetCode = new LeetCode40();
     leetCode.combinationSum2(new int[]{2,5,2,1,2}, 5);
 }
-```
+// ```

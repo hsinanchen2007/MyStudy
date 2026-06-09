@@ -1,11 +1,11 @@
-### 解题思路
-Step 1:Just inorder traverse the BST and save the results in an array.
-Step 2:The array is accumulated from backward,
-Step 3:Final array's values given to BST with inorder traversal.
+// ### 解题思路
+// Step 1:Just inorder traverse the BST and save the results in an array.
+// Step 2:The array is accumulated from backward,
+// Step 3:Final array's values given to BST with inorder traversal.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -58,4 +58,4 @@ class Solution {
         
     }
 }
-```
+// ```

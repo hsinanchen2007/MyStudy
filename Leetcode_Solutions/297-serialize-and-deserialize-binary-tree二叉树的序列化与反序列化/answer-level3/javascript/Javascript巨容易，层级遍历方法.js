@@ -1,5 +1,5 @@
-方法主要是两次层级遍历
-```javascript
+// 方法主要是两次层级遍历
+// ```javascript
 var serialize = function (root) {
   let res = [];
   let q = [root];
@@ -51,4 +51,4 @@ var deserialize = function (data) {
   }
   return root;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-之前不知道M=N，一直在想矩阵的行列不同要怎么办，我服了
+// ### 解题思路
+// 之前不知道M=N，一直在想矩阵的行列不同要怎么办，我服了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     if (matrixSize <= 1) return ;
     int i = 0, j, tmp;
@@ -24,4 +24,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
             matrix[matrixSize >> 1][matrixSize - i - 1] = tmp;
         }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-- 先合并两个有序数组
-- 再找中位数
+// ### 解题思路
+// - 先合并两个有序数组
+// - 再找中位数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct 
 {
     int * arr;
@@ -88,4 +88,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
     temp = (double)arr->arr[length/2];
     return temp;
 }
-```
+// ```

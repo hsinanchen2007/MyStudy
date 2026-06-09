@@ -1,12 +1,12 @@
-### 解题思路
-### 找到target的平均数 然后将平均数和前一个数入队列，
-### 若队列中首尾连加大于target 则出队
-###                 小于target 则队尾前一个数进队
-###				    等于target 则保存并且出队
+// ### 解题思路
+// ### 找到target的平均数 然后将平均数和前一个数入队列，
+// ### 若队列中首尾连加大于target 则出队
+// ###                 小于target 则队尾前一个数进队
+// ###				    等于target 则保存并且出队
 
-### 代码
+// ### 代码
 
-```java
+// ```java
     import java.util.List;
     import java.util.ArrayList;
     import java.util.Arrays;
@@ -67,4 +67,4 @@ class Solution {
     }
     
 }
-```
+// ```

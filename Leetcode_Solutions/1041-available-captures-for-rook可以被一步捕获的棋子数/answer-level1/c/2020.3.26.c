@@ -1,9 +1,9 @@
-### 解题思路
-R和B都是大写，p是小写，我佛辣
+// ### 解题思路
+// R和B都是大写，p是小写，我佛辣
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     for(int i=0;i<boardSize;i++)
     {
@@ -83,4 +83,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
     return 0;
 }
-```
+// ```

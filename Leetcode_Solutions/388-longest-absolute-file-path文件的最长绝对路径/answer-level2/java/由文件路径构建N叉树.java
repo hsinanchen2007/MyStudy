@@ -1,9 +1,9 @@
-### 解题思路
-由文件路径构建N叉树(或图),遍历每条路径找到含有文件的路径,计算路径的字符串长度,求出路径最长的就是答案。
+// ### 解题思路
+// 由文件路径构建N叉树(或图),遍历每条路径找到含有文件的路径,计算路径的字符串长度,求出路径最长的就是答案。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public int lengthLongestPath(String input) {
     	input = input.replace("\n    ","\n\t");
@@ -136,4 +136,4 @@ class Nodestr{
 	        this.children = new ArrayList<>();
 	    }
 	}
-```
+// ```

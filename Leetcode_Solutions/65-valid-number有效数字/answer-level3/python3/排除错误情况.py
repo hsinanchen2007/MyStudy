@@ -1,11 +1,11 @@
-### 解题思路
-说实话，这题的判定逻辑本来就有问题。
+# ### 解题思路
+# 说实话，这题的判定逻辑本来就有问题。
 
-思路就是排除掉所有不对的情况，然后根据这题的设定，再打一些补丁
+# 思路就是排除掉所有不对的情况，然后根据这题的设定，再打一些补丁
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isNumber(self, s):
         s=s.strip()
@@ -78,4 +78,4 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```

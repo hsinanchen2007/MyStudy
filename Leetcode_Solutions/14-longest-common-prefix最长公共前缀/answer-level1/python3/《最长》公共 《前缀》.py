@@ -1,10 +1,10 @@
-### 解题思路
-前缀代表str[0:length],从0开始
-我这里是从最好的情况先考虑的。
+# ### 解题思路
+# 前缀代表str[0:length],从0开始
+# 我这里是从最好的情况先考虑的。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         lstrs = len(strs)
@@ -29,9 +29,9 @@ class Solution:
 
         return ""
 
-```
-### 理解了一下官方给出的水平法，写了一个python版本。
-```
+# ```
+# ### 理解了一下官方给出的水平法，写了一个python版本。
+# ```
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         lstrs = len(strs)
@@ -52,4 +52,4 @@ class Solution:
             j += 1
             
         return prefix
-```
+# ```

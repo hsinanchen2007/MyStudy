@@ -1,9 +1,9 @@
-思路
-递归的方式：
-两者都比root大，则从右边找；
-两者都比root小，则从左边找；
-否则返回根节点
-```
+// 思路
+// 递归的方式：
+// 两者都比root大，则从右边找；
+// 两者都比root小，则从左边找；
+// 否则返回根节点
+// ```
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
     }
 
 }
-```
+// ```

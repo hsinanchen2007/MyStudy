@@ -1,9 +1,9 @@
-### 解题思路
-用字典树来实现 公共前缀  不过效率 不高，，需要在进一步优化
+// ### 解题思路
+// 用字典树来实现 公共前缀  不过效率 不高，，需要在进一步优化
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static String longestCommonPrefix(String[] strs) {
         Trie trie = new Trie();
@@ -76,4 +76,4 @@ class Solution {
      
     }
 }
-```
+// ```

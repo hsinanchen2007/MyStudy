@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-1、对nums进行qsort从小到大排序；
-2、双指针遍历
+// ### 解题思路
+// 此处撰写解题思路
+// 1、对nums进行qsort从小到大排序；
+// 2、双指针遍历
 
-![image.png](https://pic.leetcode-cn.com/45cb52b929e84672a40cac5d9716d0c12efd32fc3029886c7b5fe779b7316c0d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/45cb52b929e84672a40cac5d9716d0c12efd32fc3029886c7b5fe779b7316c0d-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -50,4 +50,4 @@ int** pairSums(int* nums, int numsSize, int target, int* returnSize, int** retur
     *returnSize = cnt;
     return res;
 }
-```
+// ```

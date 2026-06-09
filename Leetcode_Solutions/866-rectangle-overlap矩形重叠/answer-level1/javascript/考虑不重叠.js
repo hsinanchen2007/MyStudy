@@ -1,11 +1,11 @@
-### 解题思路
-JS，考虑不重叠
+// ### 解题思路
+// JS，考虑不重叠
 
-![image.png](https://pic.leetcode-cn.com/3d5074ba765e8e55c3f5f3c244e35ed3bcc90c3e3e7c96f0db2c4e85b4a722d6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3d5074ba765e8e55c3f5f3c244e35ed3bcc90c3e3e7c96f0db2c4e85b4a722d6-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} rec1
  * @param {number[]} rec2
@@ -17,4 +17,4 @@ var isRectangleOverlap = function (rec1, rec2) {
     }
     return true;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 //单队列实现
 /*复杂度：入栈O(1)，pop和top为O(n) 或者 入栈O(n)，pop和top为O(1)
  *取决于头size个值放到尾部的代码段放在哪
@@ -39,4 +39,4 @@ class MyStack {
         return queue.isEmpty();
     }
 }
-```
+// ```

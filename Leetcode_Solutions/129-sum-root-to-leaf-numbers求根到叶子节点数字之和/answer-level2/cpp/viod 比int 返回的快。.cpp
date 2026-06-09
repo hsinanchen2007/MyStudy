@@ -1,15 +1,15 @@
-### 解题思路
-两个都是用的深度优先遍历。
-使用一个temp来记录每条从根到叶的路径的值。
+// ### 解题思路
+// 两个都是用的深度优先遍历。
+// 使用一个temp来记录每条从根到叶的路径的值。
 
-第一种是返回int类型。
+// 第一种是返回int类型。
 
-第二种是直接传引用。不用返回值。注意这里sum是引用。 temp不是。
+// 第二种是直接传引用。不用返回值。注意这里sum是引用。 temp不是。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -66,4 +66,4 @@ public:
         if(root->right) sumNumbersCore(root->right, sum, temp);
     }
 };
-```
+// ```

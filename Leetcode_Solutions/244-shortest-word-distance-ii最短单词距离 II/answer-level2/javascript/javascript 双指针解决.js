@@ -1,9 +1,9 @@
-### 解题思路
-使用index1，index2分别维护word1，word2出现的索引，一次循环解决
+// ### 解题思路
+// 使用index1，index2分别维护word1，word2出现的索引，一次循环解决
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
 * @param {string[]} words
 */
@@ -42,4 +42,4 @@ WordDistance.prototype.shortest = function(word1, word2) {
 * var obj = new WordDistance(words)
 * var param_1 = obj.shortest(word1,word2)
 */
-```
+// ```

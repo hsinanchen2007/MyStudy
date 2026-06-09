@@ -1,8 +1,8 @@
-### 解题思路
-重要思路如图
-### 代码
+// ### 解题思路
+// 重要思路如图
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -45,4 +45,4 @@ struct ListNode *detectCycle(struct ListNode *head) {
     }
     return NULL;
 }
-```
+// ```

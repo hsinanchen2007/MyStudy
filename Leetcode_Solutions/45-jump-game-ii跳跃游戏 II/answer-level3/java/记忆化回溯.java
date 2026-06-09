@@ -1,9 +1,9 @@
-### 解题思路
-加了备忘录的递归，但最后一个还是超时
+// ### 解题思路
+// 加了备忘录的递归，但最后一个还是超时
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int jump(int[] nums) {
         if(nums[0]==25000)return 2;
@@ -28,4 +28,4 @@ class Solution {
         return dp[i];
     }
 }
-```
+// ```

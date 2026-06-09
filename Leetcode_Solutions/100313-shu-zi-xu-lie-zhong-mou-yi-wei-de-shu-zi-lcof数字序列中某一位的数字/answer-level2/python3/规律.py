@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNthDigit(self, n: int) -> int:
         n += 1
@@ -20,4 +20,4 @@ class Solution:
         else:return int(str(n//ind+10**(ind-1))[n%ind-1])
         
             
-```
+# ```

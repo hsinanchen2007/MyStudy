@@ -1,9 +1,9 @@
-### 解题思路
-先把paragraph里该去的标点符号去掉；再把被ban掉的单词去掉；将剩下的字符串切分，出现次数最多的单词就是题目要求的返回值，代码如下。
+# ### 解题思路
+# 先把paragraph里该去的标点符号去掉；再把被ban掉的单词去掉；将剩下的字符串切分，出现次数最多的单词就是题目要求的返回值，代码如下。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
         L = paragraph.replace(',',' ').replace('.','').replace('!','').replace('?','').replace(';','').replace("'",'').lower()
@@ -25,4 +25,4 @@ class Solution:
             
 
 
-```
+# ```

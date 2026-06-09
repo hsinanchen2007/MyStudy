@@ -1,4 +1,4 @@
-```
+// ```
 var countCharacters = function(words, chars) {
     let res = 0;
     let len = words.length;
@@ -14,4 +14,4 @@ var countCharacters = function(words, chars) {
     }
     return res;
 };
-```
+// ```

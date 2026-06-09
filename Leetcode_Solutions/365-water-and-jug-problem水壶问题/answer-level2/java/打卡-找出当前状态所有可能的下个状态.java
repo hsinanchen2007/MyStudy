@@ -1,10 +1,10 @@
-### 解题思路
-用一个叫visited的map保存处理过的状态，当前状态x瓶tx水，y瓶ty水，有6个可能的下个状态，分别是将x瓶装满；将y瓶装满；将x瓶清空；将瓶清空；将x瓶水倒入y瓶；将y瓶水倒入x瓶；注意互倒水时要么将倒出的瓶倒光，要么将倒入的瓶倒满
-当x瓶的水为z，或y瓶的水为z，或x,y瓶水之和为z时，返回true，当所有状态都处理完了返回false
+// ### 解题思路
+// 用一个叫visited的map保存处理过的状态，当前状态x瓶tx水，y瓶ty水，有6个可能的下个状态，分别是将x瓶装满；将y瓶装满；将x瓶清空；将瓶清空；将x瓶水倒入y瓶；将y瓶水倒入x瓶；注意互倒水时要么将倒出的瓶倒光，要么将倒入的瓶倒满
+// 当x瓶的水为z，或y瓶的水为z，或x,y瓶水之和为z时，返回true，当所有状态都处理完了返回false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         Map<Long, Integer> visited = new HashMap<>();
@@ -53,4 +53,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

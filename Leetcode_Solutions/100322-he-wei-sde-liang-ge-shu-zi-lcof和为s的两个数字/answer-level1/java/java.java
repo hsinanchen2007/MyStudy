@@ -1,9 +1,9 @@
-### 解题思路
-用map或者双指针
+// ### 解题思路
+// 用map或者双指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer,Integer> map =  new HashMap();
@@ -16,4 +16,4 @@ class Solution {
         return new int[]{};
     }
 }
-```
+// ```

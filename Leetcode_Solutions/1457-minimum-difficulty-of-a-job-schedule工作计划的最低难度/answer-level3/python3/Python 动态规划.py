@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/5b3da987a528f5138320df90fce293b8c09f96aaedfd8e48027dcbf16a1e84b6-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5b3da987a528f5138320df90fce293b8c09f96aaedfd8e48027dcbf16a1e84b6-image.png)
 
 
-```
+# ```
 '''
 动态规划
 dp(i, j) 表示前i种工作分成j组情况下最小总难度
@@ -29,4 +29,4 @@ class Solution:
                         dp[i][j] = min(dp[i][j], max_val + dp[k-1][j-1])
                         k -= 1
         return dp[len(jobDifficulty)-1][d]
-```
+# ```

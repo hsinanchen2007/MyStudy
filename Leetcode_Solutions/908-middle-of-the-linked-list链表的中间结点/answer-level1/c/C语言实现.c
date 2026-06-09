@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* middleNode(struct ListNode* head)
 {
     int len = 0;
@@ -18,4 +18,4 @@ struct ListNode* middleNode(struct ListNode* head)
     }
     return curNode;
 }
-```
+// ```

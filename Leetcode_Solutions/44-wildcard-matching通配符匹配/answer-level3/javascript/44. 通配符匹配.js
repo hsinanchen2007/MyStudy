@@ -1,21 +1,21 @@
-#### 解法一：动态规划
-+ 类似题型
-  + [10、正则表达式匹配-解法三](https://leetcode-cn.com/problems/regular-expression-matching/solution/10-zheng-ze-biao-da-shi-pi-pei-jiang-ti-jie-fu-zhi/)
-+ 思路
-  + 状态定义
-    + dp[i][j]：表示 s 的前i个字符是否与 p的前j个字符是否匹配
-  + 状态方程
-    + **当 s[i] == p[j] 或者p[j] == '?' 时**
-      + **dp[i][j] = dp[i-1][j-1]**
-    + **当 s[i] != p[j] && p[j] == '*' 时**
-      + **dp[i][j] = dp[i-1][j] || dp[i][j-1]**
-      + dp[i-1][j]：匹配任意非空字符，例如abkk,ab*
-      + dp[i][j-1]：匹配空字符相当于0个，例如ab，ab*
-  + 初始化
-    + dp[0][0]：两个空字符串，为true
-    + dp[0][j]：当s为空，p为*号时，为true
-      + p[j-1] == '*' && dp[0][j] = dp[0][j-1]
-```javascript
+// #### 解法一：动态规划
+// + 类似题型
+//   + [10、正则表达式匹配-解法三](https://leetcode-cn.com/problems/regular-expression-matching/solution/10-zheng-ze-biao-da-shi-pi-pei-jiang-ti-jie-fu-zhi/)
+// + 思路
+//   + 状态定义
+//     + dp[i][j]：表示 s 的前i个字符是否与 p的前j个字符是否匹配
+//   + 状态方程
+//     + **当 s[i] == p[j] 或者p[j] == '?' 时**
+//       + **dp[i][j] = dp[i-1][j-1]**
+//     + **当 s[i] != p[j] && p[j] == '*' 时**
+//       + **dp[i][j] = dp[i-1][j] || dp[i][j-1]**
+//       + dp[i-1][j]：匹配任意非空字符，例如abkk,ab*
+//       + dp[i][j-1]：匹配空字符相当于0个，例如ab，ab*
+//   + 初始化
+//     + dp[0][0]：两个空字符串，为true
+//     + dp[0][j]：当s为空，p为*号时，为true
+//       + p[j-1] == '*' && dp[0][j] = dp[0][j-1]
+// ```javascript
 /**
  * @param {string} s
  * @param {string} p
@@ -42,16 +42,16 @@ var isMatch = function(s, p) {
     }
     return dp[n][m];
 };
-```
-#### 解法二：双指针
-+ 时间复杂度：O(s*p)
-+ 空间复杂度：O(1)
-+ 思路
-  + 和解法一类似，通过指针逐个儿匹配
-    + 最后通过都匹配的指针位置与p的末尾位置比较，
-      + 相同则说明s全部匹配
-      + 否则，部分匹配不合题意
-```javascript
+// ```
+// #### 解法二：双指针
+// + 时间复杂度：O(s*p)
+// + 空间复杂度：O(1)
+// + 思路
+//   + 和解法一类似，通过指针逐个儿匹配
+//     + 最后通过都匹配的指针位置与p的末尾位置比较，
+//       + 相同则说明s全部匹配
+//       + 否则，部分匹配不合题意
+// ```javascript
 /**
  * @param {string} s
  * @param {string} p
@@ -104,4 +104,4 @@ var isMatch = function(s, p) {
     // 判断是否能够匹配全部 
     return j == m;
 };
-```
+// ```

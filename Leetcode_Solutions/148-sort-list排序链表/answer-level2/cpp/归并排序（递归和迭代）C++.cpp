@@ -1,7 +1,7 @@
-迭代写的头疼
+// 迭代写的头疼
 
-### 递归版本
-```c++
+// ### 递归版本
+// ```c++
 class Solution {
 public:
     ListNode* sortList_R(ListNode* l){
@@ -36,12 +36,12 @@ public:
         }
     }
 };
-```
+// ```
 
 
 
-### 迭代版本
-```c++
+// ### 迭代版本
+// ```c++
 class Solution {
 public:
     ListNode* sortList(ListNode* l){
@@ -130,6 +130,6 @@ public:
         return head;
     }
 };
-```
+// ```
 
 

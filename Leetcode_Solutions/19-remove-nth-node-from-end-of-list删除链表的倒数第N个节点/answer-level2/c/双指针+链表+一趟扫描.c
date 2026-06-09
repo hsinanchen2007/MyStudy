@@ -1,10 +1,10 @@
-### 解题思路
-用双指针思想，n为间隔
+// ### 解题思路
+// 用双指针思想，n为间隔
 
-### 代码
-![1.bmp](https://pic.leetcode-cn.com/c4b0d259bfd6fa23a04ac4518f5633fbef10a65cd9f1c27cc0ac55093f92cebd-1.bmp)
+// ### 代码
+// ![1.bmp](https://pic.leetcode-cn.com/c4b0d259bfd6fa23a04ac4518f5633fbef10a65cd9f1c27cc0ac55093f92cebd-1.bmp)
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
 
     return head;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 //执行用时 :120 ms, 在所有 C++ 提交中击败了96.30%的用户
@@ -24,4 +24,4 @@ public:
         return min_quiet[vex] = rec;
     }
 };
-```
+// ```

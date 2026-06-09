@@ -1,4 +1,4 @@
-```c
+// ```c
 // 头插
 struct ListNode* reverseList(struct ListNode* head){
     struct ListNode *old = NULL;
@@ -49,4 +49,4 @@ struct ListNode* reverseList3(struct ListNode* head){
     // 不断返回最后一个节点
     return newHead;
 }
-```
+// ```

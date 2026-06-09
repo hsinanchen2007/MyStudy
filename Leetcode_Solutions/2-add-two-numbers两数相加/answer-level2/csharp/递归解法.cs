@@ -1,9 +1,9 @@
-### 解题思路
-比较简单，代码如下
+// ### 解题思路
+// 比较简单，代码如下
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -58,4 +58,4 @@ public class Solution {
 
     }
 }
-```
+// ```

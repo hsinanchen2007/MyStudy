@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def largeGroupPositions(self, S: str) -> List[List[int]]:
         if len(S)<3:

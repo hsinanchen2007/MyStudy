@@ -1,6 +1,6 @@
-只列举low、high长度的情况，其他长度直接计算；
-直接调用了"中心对称数II"的方法
-```
+# 只列举low、high长度的情况，其他长度直接计算；
+# 直接调用了"中心对称数II"的方法
+# ```
 class Solution:
     def strobogrammaticInRange(self, low, high):
         ans = 0
@@ -49,4 +49,4 @@ class Solution:
             ans.append('6' + k + '9')
             ans.append('9' + k + '6')
         return ans
-```
+# ```

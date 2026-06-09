@@ -1,8 +1,8 @@
-有些费内存
+// 有些费内存
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     char **p = NULL;
     char *q = NULL;
@@ -56,4 +56,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return total;
 }
-```
+// ```

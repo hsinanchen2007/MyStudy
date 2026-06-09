@@ -1,4 +1,4 @@
-```c++
+// ```c++
 vector<int> partitionLabels(string s) {
     std::deque<int> dq;
     int index[26];
@@ -18,4 +18,4 @@ vector<int> partitionLabels(string s) {
     }
     return res;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1. 用char型数组存储二进制位
-2. 添加进List里的十进制数记得用visited数组标记，避免重复添加。
-3. 将char型数组的某位变动后，若当前计算出的数值已经被List添加过，记得“恢复”
+// ### 解题思路
+// 1. 用char型数组存储二进制位
+// 2. 添加进List里的十进制数记得用visited数组标记，避免重复添加。
+// 3. 将char型数组的某位变动后，若当前计算出的数值已经被List添加过，记得“恢复”
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> grayCode(int n) {
         List<Integer> res = new ArrayList<>();
@@ -52,4 +52,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

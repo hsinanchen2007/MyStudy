@@ -1,7 +1,7 @@
-统计位置i，左边大于和小于的个数，右边大于和小于的个数，然后组合
+// 统计位置i，左边大于和小于的个数，右边大于和小于的个数，然后组合
 
 
-```
+// ```
 func numTeams(rating []int) int {
 	res := 0
 	leftMax, leftMin := make([]int, len(rating)), make([]int, len(rating))
@@ -35,4 +35,4 @@ func numTeams(rating []int) int {
 	}
 	return res
 }
-```
+// ```

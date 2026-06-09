@@ -1,5 +1,5 @@
-用C的感觉在写python，见笑了
-```
+# 用C的感觉在写python，见笑了
+# ```
 class Solution(object):
     def addStrings(self, num1, num2):
         """
@@ -22,4 +22,4 @@ class Solution(object):
         if carry > 0: sum += str(carry)
         if sum == '': return 0
         return sum[::-1]
-```
+# ```

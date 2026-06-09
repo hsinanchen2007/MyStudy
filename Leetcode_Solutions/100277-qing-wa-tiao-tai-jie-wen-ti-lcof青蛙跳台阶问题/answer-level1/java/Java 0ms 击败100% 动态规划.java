@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int numWays(int n) {
         if(n==0)
@@ -14,4 +14,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

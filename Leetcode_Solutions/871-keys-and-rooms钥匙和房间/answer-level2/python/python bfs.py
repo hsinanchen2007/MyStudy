@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
         seen = {0}
@@ -10,4 +10,4 @@ class Solution:
                     seen.add(i)
                     q.append(i)
         return len(seen) == len(rooms)
-```
+# ```

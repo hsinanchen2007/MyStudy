@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/f6152d3861e5405f1d2dc39c2e920cea62ae3b8fad39645bcb6b61ce4650c376-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f6152d3861e5405f1d2dc39c2e920cea62ae3b8fad39645bcb6b61ce4650c376-image.png)
 
-和其他大佬不同的是我主要用的是元组化判断，单向BFS代码少一半，时间300ms左右，大概也有97%这样。
+# 和其他大佬不同的是我主要用的是元组化判断，单向BFS代码少一半，时间300ms左右，大概也有97%这样。
 
-```
+# ```
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
         if '0000' in deadends or target in deadends:
@@ -47,4 +47,4 @@ class Solution:
             ans+=1
         
         return -1
-```
+# ```

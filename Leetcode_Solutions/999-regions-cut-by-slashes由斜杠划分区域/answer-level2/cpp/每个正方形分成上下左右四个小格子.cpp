@@ -1,7 +1,7 @@
-![QQ20191109-0.png](https://pic.leetcode-cn.com/1a7bd853f63169bd34e8aadc0277f964045c6452df9290a64252c0c3d6e00a50-QQ20191109-0.png)
+// ![QQ20191109-0.png](https://pic.leetcode-cn.com/1a7bd853f63169bd34e8aadc0277f964045c6452df9290a64252c0c3d6e00a50-QQ20191109-0.png)
 
 
-```
+// ```
 class Solution {
 public:
     int find(int x){
@@ -61,4 +61,4 @@ public:
     private:
     int uset[3605],ans;
 };
-```
+// ```

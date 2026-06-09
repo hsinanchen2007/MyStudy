@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1 step 申请一个头节点将头节点与 head 相连；
-2  step 将p= head 的下一个 通过 p->next=p->next->next;
-3 将 p->next 通过尾插法插入;
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1 step 申请一个头节点将头节点与 head 相连；
+// 2  step 将p= head 的下一个 通过 p->next=p->next->next;
+// 3 将 p->next 通过尾插法插入;
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,11 +33,11 @@ while(p->next!=NULL && p!=NULL)
 }
 return prehead->next;
 }
-```
+// ```
 
-法二使用数组存数据法;
-## 代码
-```c
+// 法二使用数组存数据法;
+// ## 代码
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -72,4 +72,4 @@ while(count)
 }
 return prehead->next;
 }
-```
+// ```

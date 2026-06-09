@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void fuc(char* s,int* count)
 {
     char* p = s;
@@ -44,4 +44,4 @@ int numDecodings(char * s){
     fuc(s,&count); // 调用递归
     return count; // 返回结果
 }
-```
+// ```

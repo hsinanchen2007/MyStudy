@@ -1,5 +1,5 @@
-> 简单思路
-```python
+# > 简单思路
+# ```python
 import math
 class Solution:
     def solveEquation(self, equation: str) -> str:
@@ -39,4 +39,4 @@ class Solution:
             return "No solution"
         else:
             return "x=%d" % ((e2[1]-e1[1])//(e1[0]-e2[0]))
-```
+# ```

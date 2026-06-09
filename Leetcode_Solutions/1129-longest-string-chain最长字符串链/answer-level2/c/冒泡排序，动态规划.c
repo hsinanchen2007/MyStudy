@@ -1,4 +1,4 @@
-// 如果a是b的前身，返回1,反之返回0
+// // 如果a是b的前身，返回1,反之返回0
 int IsPreWord(char *a, char *b) 
 {
     int i = 0;

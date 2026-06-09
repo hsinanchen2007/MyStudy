@@ -1,13 +1,13 @@
-执行用时 :20 ms, 在所有 Java 提交中击败了6.35%的用户
-内存消耗 :45.2 MB, 在所有 Java 提交中击败了67.62%的用户
+// 执行用时 :20 ms, 在所有 Java 提交中击败了6.35%的用户
+// 内存消耗 :45.2 MB, 在所有 Java 提交中击败了67.62%的用户
 
-分3个场景
-- 行不重复
-- 列不重复
-- 3*3不重复
+// 分3个场景
+// - 行不重复
+// - 列不重复
+// - 3*3不重复
 
-都统一调用一个子函数，入参为列表，在子函数中列表转set，如果大小相等，这代表没有重复元素
-```
+// 都统一调用一个子函数，入参为列表，在子函数中列表转set，如果大小相等，这代表没有重复元素
+// ```
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         List<Character> alist=new LinkedList<Character>();
@@ -76,4 +76,4 @@ class Solution {
         return result.size()==calList.size();
     }
 }
-```
+// ```

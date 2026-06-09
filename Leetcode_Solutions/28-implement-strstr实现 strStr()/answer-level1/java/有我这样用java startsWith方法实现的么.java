@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int strStr(String haystack, String needle) {
 
@@ -17,7 +17,7 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 
-虽然能实现，但是速度方面不是很理想，但是实际上这里也只是在subString的时候创建了一个对象吧，为什么速度就慢了那么多，求指点，这题
-都没看到太多java的解法
+// 虽然能实现，但是速度方面不是很理想，但是实际上这里也只是在subString的时候创建了一个对象吧，为什么速度就慢了那么多，求指点，这题
+// 都没看到太多java的解法

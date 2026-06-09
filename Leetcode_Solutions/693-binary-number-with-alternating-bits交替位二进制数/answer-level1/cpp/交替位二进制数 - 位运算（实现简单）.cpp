@@ -1,10 +1,10 @@
-### 解题思路
-1. 依次判断前一位与当前为是否不相同，若相同，则异或为`0`，返回`false`
-2. 若每一位都符合，返回`true`
+// ### 解题思路
+// 1. 依次判断前一位与当前为是否不相同，若相同，则异或为`0`，返回`false`
+// 2. 若每一位都符合，返回`true`
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasAlternatingBits(int n) {
@@ -18,4 +18,4 @@ public:
         return true;
     }
 };
-```
+// ```

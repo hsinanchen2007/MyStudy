@@ -1,17 +1,17 @@
-### 解题思路
+// ### 解题思路
 
-Go: 16ms(50%), 5.1MB(100%)
+// Go: 16ms(50%), 5.1MB(100%)
 
-**归并排序——非递归实现思路**：我们知道，二路归并的递归实现思想是从整体到局部，非递归实现正好相反，从局部到整体。
+// **归并排序——非递归实现思路**：我们知道，二路归并的递归实现思想是从整体到局部，非递归实现正好相反，从局部到整体。
 
-![image.png](https://pic.leetcode-cn.com/0aa8ad1b00469807b76c9438a06512d1406e233a55265c679a4968e1a4c7c791-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0aa8ad1b00469807b76c9438a06512d1406e233a55265c679a4968e1a4c7c791-image.png)
 
-基于上图，非递归实现简单说就是多个有序子序列不断合并，最终达到整体有序。
+// 基于上图，非递归实现简单说就是多个有序子序列不断合并，最终达到整体有序。
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -118,4 +118,4 @@ func merge(list1, list2 *ListNode) *ListNode {
 
     return head
 }
-```
+// ```

@@ -1,6 +1,6 @@
-下面的注释比较详细了，就是从左到右找']'， 之后处理每一个解码
+// 下面的注释比较详细了，就是从左到右找']'， 之后处理每一个解码
 
-```
+// ```
 #include <stdio.h>
 #include <malloc.h>
 #include <mem.h>
@@ -55,4 +55,4 @@ char* decodeString(char* s) {
     strncpy(result, tmp + 1, strlen(tmp + 1));
     return result;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maxLength(self, arr: List[str]) -> int:
         bit_arr = []
@@ -18,4 +18,4 @@ class Solution:
                     prefix_arr.append((num | x, l + len(arr[i])))
         prefix_arr.sort(key = lambda x: x[1], reverse = True)
         return prefix_arr[0][1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-创建一个字典存储每个数字对应的出现次数，取出其中大于len(nums)/2的数字
+# ### 解题思路
+# 创建一个字典存储每个数字对应的出现次数，取出其中大于len(nums)/2的数字
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         dic = {}
@@ -21,4 +21,4 @@ class Solution:
         for j in dic:
             if dic[j] >= times:
                 return j
-```
+# ```

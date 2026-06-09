@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/3af05ab57897547616e1b775e9fc8d2eddbe3926285467917a789ccc7f116231-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/3af05ab57897547616e1b775e9fc8d2eddbe3926285467917a789ccc7f116231-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
         #     return 1 + self.height(root.left)
         # else: # 左右节点都有
         return 1 + max(self.height(root.left), self.height(root.right))
-```
+# ```

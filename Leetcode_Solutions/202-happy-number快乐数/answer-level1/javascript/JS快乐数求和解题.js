@@ -1,9 +1,9 @@
-### 解题思路
-每次求和放入Set中。如果set历史中有本次求和值。说明不符合快乐数要求。
+// ### 解题思路
+// 每次求和放入Set中。如果set历史中有本次求和值。说明不符合快乐数要求。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {boolean}
@@ -24,4 +24,4 @@ var isHappy = function(n) {
     }
     return true;
 };
-```
+// ```

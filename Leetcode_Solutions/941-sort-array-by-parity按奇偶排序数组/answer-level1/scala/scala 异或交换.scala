@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def sortArrayByParity(A: Array[Int]): Array[Int] = {
     var pLeft = 0
@@ -15,4 +15,4 @@ object Solution {
     A
   }
 }
-```
+// ```

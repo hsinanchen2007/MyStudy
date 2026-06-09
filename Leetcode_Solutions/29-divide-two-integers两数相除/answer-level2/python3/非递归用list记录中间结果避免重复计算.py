@@ -1,9 +1,9 @@
-### 解题思路
-非递归用list记录中间结果避免重复计算
+# ### 解题思路
+# 非递归用list记录中间结果避免重复计算
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         # special case
@@ -49,4 +49,4 @@ class Solution:
                     break
 
         return ret_count if is_posive else -ret_count
-```
+# ```

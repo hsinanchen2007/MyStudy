@@ -1,16 +1,16 @@
-### 解题思路
-1. 整个过程参考https://www.***.org/quick-sort/
-2. 快排的思路就是先找一个pivot，把小于pivot的数全部移到前面，大于pivot的数全部移到后面去，这也导致了快排是不稳定的。
-2. 这个过程我放在了partition函数，这里只需要注意i和j两个变量
-3. **i代表小于pivot的数的下标，j表示当前正在遍历的数的下标**
-4. i的初始位置在low-1，每当出现一个小于pivot的数，i就+1，并且把这个数放在nums[i]的位置
-5. 最后把pivot放在i+1的位置，这时它左边的数全比它小，右边的数全比它大
-6. 递归运算，这样我们就能得到一个新的nums数组啦  ：）
-![image.png](https://pic.leetcode-cn.com/e00e2c4e385e4690eb1bde854205806d99c4e500d6e28362a1a360ba67fb6faf-image.png)
+// ### 解题思路
+// 1. 整个过程参考https://www.***.org/quick-sort/
+// 2. 快排的思路就是先找一个pivot，把小于pivot的数全部移到前面，大于pivot的数全部移到后面去，这也导致了快排是不稳定的。
+// 2. 这个过程我放在了partition函数，这里只需要注意i和j两个变量
+// 3. **i代表小于pivot的数的下标，j表示当前正在遍历的数的下标**
+// 4. i的初始位置在low-1，每当出现一个小于pivot的数，i就+1，并且把这个数放在nums[i]的位置
+// 5. 最后把pivot放在i+1的位置，这时它左边的数全比它小，右边的数全比它大
+// 6. 递归运算，这样我们就能得到一个新的nums数组啦  ：）
+// ![image.png](https://pic.leetcode-cn.com/e00e2c4e385e4690eb1bde854205806d99c4e500d6e28362a1a360ba67fb6faf-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     void quick_sort(vector<int>& nums,int low,int high)
@@ -43,6 +43,6 @@ public:
     }
     
 };
-```
-如果觉得有帮助的话，就给我点个赞，有问题或者建议也可以提出来（每天都会看）
-艾薇波弟让我看到你的双手好吗！
+// ```
+// 如果觉得有帮助的话，就给我点个赞，有问题或者建议也可以提出来（每天都会看）
+// 艾薇波弟让我看到你的双手好吗！

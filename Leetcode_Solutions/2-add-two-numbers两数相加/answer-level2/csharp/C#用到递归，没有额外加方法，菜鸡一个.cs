@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :
-124 ms, 在所有 csharp 提交中击败了91.13%的用户
-内存消耗 :
-27 MB, 在所有 csharp 提交中击败了5.07%的用户
-### 代码
+// ### 解题思路
+// 执行用时 :
+// 124 ms, 在所有 csharp 提交中击败了91.13%的用户
+// 内存消耗 :
+// 27 MB, 在所有 csharp 提交中击败了5.07%的用户
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -58,4 +58,4 @@ public class Solution {
         return list;
     }
 }
-```
+// ```

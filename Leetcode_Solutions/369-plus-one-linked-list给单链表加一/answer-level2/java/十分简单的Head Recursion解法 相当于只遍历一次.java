@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private boolean helper(ListNode head) {
         if (head.next == null){
@@ -38,4 +38,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

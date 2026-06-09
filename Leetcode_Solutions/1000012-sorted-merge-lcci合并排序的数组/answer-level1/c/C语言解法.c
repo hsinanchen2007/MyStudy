@@ -1,9 +1,9 @@
-### 解题思路  
-此处撰写解题思路
-  先把B数组的元素放入A数组中，然后使用冒泡排序就可以解出来。
-### 代码
+// ### 解题思路  
+// 此处撰写解题思路
+//   先把B数组的元素放入A数组中，然后使用冒泡排序就可以解出来。
+// ### 代码
 
-```c
+// ```c
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     int i = 0;
     int j = 0;
@@ -26,4 +26,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     }
 
 }
-```
+// ```

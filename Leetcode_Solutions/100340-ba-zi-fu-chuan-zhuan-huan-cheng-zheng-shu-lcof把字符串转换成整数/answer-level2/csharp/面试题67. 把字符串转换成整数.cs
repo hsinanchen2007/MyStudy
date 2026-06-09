@@ -1,9 +1,9 @@
-### 解题思路
-C# 双百，明明很简单的题，因为 MinValue 和 MaxValue 反复提交了 11 次台通过；
+// ### 解题思路
+// C# 双百，明明很简单的题，因为 MinValue 和 MaxValue 反复提交了 11 次台通过；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int StrToInt(string str) {
         if (string.IsNullOrWhiteSpace(str))
@@ -59,4 +59,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

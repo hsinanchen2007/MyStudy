@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def oddEvenList(self, head: ListNode) -> ListNode:
         if not head or not head.next: return head
@@ -13,4 +13,4 @@ class Solution:
             tmpeven = tmpeven.next
         tmpodd.next = even
         return odd
-```
+# ```

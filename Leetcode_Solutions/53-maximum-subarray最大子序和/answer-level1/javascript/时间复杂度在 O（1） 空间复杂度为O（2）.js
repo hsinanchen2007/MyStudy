@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-分别定义两个不同 变量存放最大值和上次相加的最大做或者上次nums[i]的最大值，在对比current和max对比得到最大值
-### 代码
+// 分别定义两个不同 变量存放最大值和上次相加的最大做或者上次nums[i]的最大值，在对比current和max对比得到最大值
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -17,4 +17,4 @@ var maxSubArray = function(nums) {
    }
     return max
 };
-```
+// ```

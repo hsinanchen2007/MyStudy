@@ -1,10 +1,10 @@
-### 解题思路
-就是两个list的第一个元素互相比较，谁小谁拿出来放在n_list里。最后只要有一个list空了就结束，然后把剩余的加在n_list最后。
-最后算一下n_list的中位数。
+# ### 解题思路
+# 就是两个list的第一个元素互相比较，谁小谁拿出来放在n_list里。最后只要有一个list空了就结束，然后把剩余的加在n_list最后。
+# 最后算一下n_list的中位数。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         n_list = list()
@@ -21,4 +21,4 @@ class Solution:
 
         return res
 
-```
+# ```

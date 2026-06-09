@@ -1,10 +1,10 @@
-## 思路一：单指针
-先统计节点个数，然后从头开始走一半。
+// ## 思路一：单指针
+// 先统计节点个数，然后从头开始走一半。
 
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(1)
-```cpp
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
+// ```cpp
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
@@ -23,14 +23,14 @@ public:
         return p;        
     }
 };
-```
+// ```
 
-## 思路二：快慢指针
+// ## 思路二：快慢指针
 
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(1)
-```c++
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
+// ```c++
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
@@ -42,4 +42,4 @@ public:
         return slow;        
     }
 };
-```
+// ```

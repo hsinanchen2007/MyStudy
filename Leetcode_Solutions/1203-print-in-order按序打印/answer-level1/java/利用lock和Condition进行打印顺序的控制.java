@@ -1,7 +1,7 @@
-打印的顺序是固定的first，second，third。需要有一个通知机制来阻止和唤醒那一条线程阻塞，那一条执行。
-先利用lock对方法进行加锁，再利用Condition进行方法的执行顺序
+// 打印的顺序是固定的first，second，third。需要有一个通知机制来阻止和唤醒那一条线程阻塞，那一条执行。
+// 先利用lock对方法进行加锁，再利用Condition进行方法的执行顺序
 
-```
+// ```
 package bsoft.com.threadCode;
 
 import java.util.concurrent.locks.Condition;
@@ -91,4 +91,4 @@ public class PrintInOrder {
     }
 }
 
-```
+// ```

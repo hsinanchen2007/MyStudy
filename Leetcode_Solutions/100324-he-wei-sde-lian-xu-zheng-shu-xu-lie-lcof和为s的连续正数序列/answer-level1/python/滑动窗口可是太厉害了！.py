@@ -1,12 +1,12 @@
-### 解题思路
-一开始自己用的暴力破解，奈何用Python时间通过不了。
-看了大神们的解法，发现滑动窗口厉害极了！
-需要注意的是，滑动窗口在滑动的时候，始终是左闭右开。所以append的时候是range(i,j)。也就是说，j总是超前一步的。
-还有数学的方法，也很值得学习！
+# ### 解题思路
+# 一开始自己用的暴力破解，奈何用Python时间通过不了。
+# 看了大神们的解法，发现滑动窗口厉害极了！
+# 需要注意的是，滑动窗口在滑动的时候，始终是左闭右开。所以append的时候是range(i,j)。也就是说，j总是超前一步的。
+# 还有数学的方法，也很值得学习！
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findContinuousSequence(self, target):
         """
@@ -32,4 +32,4 @@ class Solution(object):
                 j += 1
         return result
 
-```
+# ```

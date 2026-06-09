@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool canConstruct(string ransomNote, string magazine) 
@@ -19,4 +19,4 @@ public:
 		return true;
 	}
 };
-```
+// ```

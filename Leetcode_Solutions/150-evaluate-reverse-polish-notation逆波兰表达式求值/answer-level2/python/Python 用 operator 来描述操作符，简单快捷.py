@@ -1,4 +1,4 @@
-```python
+# ```python
 import operator
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
@@ -13,4 +13,4 @@ class Solution:
                 # 这里使用 truediv 处理类似 6 / -3 的情况
                 s.append(int(ops[x](int(b), int(a))))
         return int(s[0])
-```
+# ```

@@ -1,18 +1,18 @@
-因为输入的为有序数组，可以利用其特性
-- 最大的为后两位的值
-- 最小的为前两位的值
-初始化：
-head为首，tail为尾
-情况：
-- 等于
-    - 直接返回head+1和tail+1
-- 大于
-    - tail-1
-- 小于
-    - head+1
+# 因为输入的为有序数组，可以利用其特性
+# - 最大的为后两位的值
+# - 最小的为前两位的值
+# 初始化：
+# head为首，tail为尾
+# 情况：
+# - 等于
+#     - 直接返回head+1和tail+1
+# - 大于
+#     - tail-1
+# - 小于
+#     - head+1
 
 
-``` Python3
+# ``` Python3
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         res = []
@@ -32,4 +32,4 @@ class Solution:
                 head += 1
                 continue
         return res
-```
+# ```

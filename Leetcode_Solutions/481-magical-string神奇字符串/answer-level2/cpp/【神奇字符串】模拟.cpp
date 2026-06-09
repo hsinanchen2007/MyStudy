@@ -1,8 +1,8 @@
-### 思路
-1. 模拟
+// ### 思路
+// 1. 模拟
 
-### 答题
-```C++ []
+// ### 答题
+// ```C++ []
 int magicalString(int n)
 {
     if (n < 1) return 0;
@@ -37,13 +37,13 @@ int magicalString(int n)
     }
     return ans;
 }
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

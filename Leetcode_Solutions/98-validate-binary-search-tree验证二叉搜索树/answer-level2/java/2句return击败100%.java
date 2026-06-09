@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValidBST(TreeNode root) {
         return root == null || isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
@@ -10,4 +10,4 @@ class Solution {
         return root.val > min && root.val < max && (root.left == null || isValidBST(root.left, min, Math.min(max, root.val))) && (root.right == null || isValidBST(root.right, Math.max(min, root.val), max));
     }
 }
-```
+// ```

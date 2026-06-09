@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if not intervals:
@@ -18,4 +18,4 @@ class Solution:
                 res.append([min(top[0], intervals[i][0]), max(top[1], intervals[i][1])])
             i += 1
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用组成来做,就是暴力穷举.让我没想到的是执行时间(524ms)会比动态规划快那么多
+# ### 解题思路
+# 利用组成来做,就是暴力穷举.让我没想到的是执行时间(524ms)会比动态规划快那么多
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from itertools import combinations_with_replacement
 class Solution:
     def numSquares(self, n: int) -> int:
@@ -16,4 +16,4 @@ class Solution:
             for i in combinations_with_replacement(nums, j):
                 if sum(i) == n:
                     return j
-```
+# ```

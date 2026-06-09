@@ -1,9 +1,9 @@
-### 解题思路
-逆向遍历
+// ### 解题思路
+// 逆向遍历
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func merge(A []int, m int, B []int, n int)  {
     index := m+n-1
     m--
@@ -26,4 +26,4 @@ func merge(A []int, m int, B []int, n int)  {
     }
 
 }
-```
+// ```

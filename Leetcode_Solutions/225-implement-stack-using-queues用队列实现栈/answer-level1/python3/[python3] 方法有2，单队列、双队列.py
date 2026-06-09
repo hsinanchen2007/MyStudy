@@ -1,9 +1,9 @@
-### 解题思路
-python3 本题可以使用2种方法：
-1、from queue import Queue 队列，更能体现和栈区别，代码会复杂些
-2、from collections import deque 双向队列，特殊列表，代码相对简单
-### 代码
-```python3
+# ### 解题思路
+# python3 本题可以使用2种方法：
+# 1、from queue import Queue 队列，更能体现和栈区别，代码会复杂些
+# 2、from collections import deque 双向队列，特殊列表，代码相对简单
+# ### 代码
+# ```python3
 方法1：
 from queue import Queue
 

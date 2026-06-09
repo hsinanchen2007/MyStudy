@@ -1,10 +1,10 @@
-### 解题思路
-1.创建一个数组，其中P[i] = A[0]+A[1]+ ...+ A[i]（如果A[i]没有负数可以保证P[i+1]>P[i]）则本题转换为P[y]-P[x]>=k且y-x最小的值
-2.使用双端队列保存滑动窗口值（js可以直接使用数组），每次循环在队列尾添加本次循环的下标j，记为滑动窗口末尾值，为了保证P[j+1]>P[j],因此while(queue.length!=0 && P[queue[queue.length-1]] >=P[j]){queue.pop()}，当queue.length!=0 && P[j]-P[queue[0]]>=K时判断最新的滑动窗口初始值
+// ### 解题思路
+// 1.创建一个数组，其中P[i] = A[0]+A[1]+ ...+ A[i]（如果A[i]没有负数可以保证P[i+1]>P[i]）则本题转换为P[y]-P[x]>=k且y-x最小的值
+// 2.使用双端队列保存滑动窗口值（js可以直接使用数组），每次循环在队列尾添加本次循环的下标j，记为滑动窗口末尾值，为了保证P[j+1]>P[j],因此while(queue.length!=0 && P[queue[queue.length-1]] >=P[j]){queue.pop()}，当queue.length!=0 && P[j]-P[queue[0]]>=K时判断最新的滑动窗口初始值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} K
@@ -31,4 +31,4 @@ var shortestSubarray = function(A, K) {
     }
     return min<A.length+1?min:-1
 };
-```
+// ```

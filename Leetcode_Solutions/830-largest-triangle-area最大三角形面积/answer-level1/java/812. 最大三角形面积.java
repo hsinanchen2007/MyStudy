@@ -1,17 +1,17 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/12
- *
- * 解题思路: 三角形坐标公式  S= ath.abs(x1*y2+x2*y3+x3*y1-x2*y1-x3*y2-x1*y3)/2.0
- *
- *   海伦公式 p = (a + b + c)/2   S=Math.sqrt(p*(p-a)*(p-b)*(p-c));
- *
- *   此题建议用坐标公式
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/12
+//  *
+//  * 解题思路: 三角形坐标公式  S= ath.abs(x1*y2+x2*y3+x3*y1-x2*y1-x3*y2-x1*y3)/2.0
+//  *
+//  *   海伦公式 p = (a + b + c)/2   S=Math.sqrt(p*(p-a)*(p-b)*(p-c));
+//  *
+//  *   此题建议用坐标公式
+//  *
+//  */
+// ```
 public class leetcode812 {
 
     public double largestTriangleArea(int[][] points) {
@@ -66,4 +66,4 @@ public class leetcode812 {
         leetcode812.largestTriangleArea2(new int[][]{{0,0},{0,1},{1,0},{0,2},{2,0}});
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路:
@@ -84,4 +84,4 @@ char ** commonChars( char ** A , int ASize , int * returnSize ){
     return buffer;
 
 }
-```
+// ```

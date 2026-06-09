@@ -1,8 +1,8 @@
-### 解题思路
-利用hash表，一遍for循环
-### 代码
+// ### 解题思路
+// 利用hash表，一遍for循环
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
 
@@ -22,13 +22,13 @@ class Solution {
         //抛出异常
     }
 }
-```
+// ```
 
-### 解题思路
-利用hash表，两遍for循环
-### 代码
+// ### 解题思路
+// 利用hash表，两遍for循环
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
 
@@ -58,16 +58,16 @@ class Solution {
 
     }
 }
-```
+// ```
 
 
 
 
-### 解题思路
-暴力搜索
-### 代码
+// ### 解题思路
+// 暴力搜索
+// ### 代码
 
-```c
+// ```c
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     int part_1,part_2; //记录找到的第一个数和第二个数的下标
     int i,j;
@@ -100,4 +100,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     }
     return result;
 }
-```
+// ```

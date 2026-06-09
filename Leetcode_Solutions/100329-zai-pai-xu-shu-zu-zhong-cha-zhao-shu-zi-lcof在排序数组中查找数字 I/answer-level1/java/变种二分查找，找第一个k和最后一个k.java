@@ -1,8 +1,8 @@
-用二分查找的方法分别获取第一个target和最后一个target的索引，然后计算总个数。
-这里为了巩固二分查找的两种实现方法（循环与递归）。firstSearch用递归实现，lastSearch用循环实现。
+// 用二分查找的方法分别获取第一个target和最后一个target的索引，然后计算总个数。
+// 这里为了巩固二分查找的两种实现方法（循环与递归）。firstSearch用递归实现，lastSearch用循环实现。
 
-代码如下：
-```
+// 代码如下：
+// ```
 class Solution {
     
     private int[] nums;
@@ -50,4 +50,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

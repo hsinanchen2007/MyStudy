@@ -1,4 +1,4 @@
-```
+# ```
 # @param {TreeNode} tree
 # @return {ListNode[]}
 def list_of_depth(tree)
@@ -20,4 +20,4 @@ def list_of_depth(tree)
   end
   return result
 end
-```
+# ```

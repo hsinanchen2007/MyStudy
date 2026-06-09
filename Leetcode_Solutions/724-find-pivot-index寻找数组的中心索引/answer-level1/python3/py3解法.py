@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
         size = len(nums)
@@ -18,4 +18,4 @@ class Solution:
             if sum_left == sum_right:
                 return i+1
         return -1
-```
+# ```

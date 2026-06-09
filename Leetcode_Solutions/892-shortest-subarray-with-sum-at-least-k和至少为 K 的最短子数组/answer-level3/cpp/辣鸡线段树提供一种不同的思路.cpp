@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-辣鸡线段树，枚举左端点，利用线段树（数据存数组前缀和）找到符合大小要求最靠左的索引
+// 辣鸡线段树，枚举左端点，利用线段树（数据存数组前缀和）找到符合大小要求最靠左的索引
 
-随便写了一下，代码可能有点丑，感觉线段树查询还可以再优化一下？
+// 随便写了一下，代码可能有点丑，感觉线段树查询还可以再优化一下？
 
-![image.png](https://pic.leetcode-cn.com/0e66809c2b7e4f510d3311836ea11dbfd99bdd993295ed0c5017108508871c45-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0e66809c2b7e4f510d3311836ea11dbfd99bdd993295ed0c5017108508871c45-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     std::vector<int> tree;
@@ -59,4 +59,4 @@ public:
         return ret;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-递归解决，挺简单的
+// ### 解题思路
+// 递归解决，挺简单的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

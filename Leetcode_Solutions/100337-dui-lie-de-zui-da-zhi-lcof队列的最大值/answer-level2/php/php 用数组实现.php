@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class MaxQueue {
 
     public $data;
@@ -52,4 +52,4 @@ class MaxQueue {
  * $obj->push_back($value);
  * $ret_3 = $obj->pop_front();
  */
-```
+// ```

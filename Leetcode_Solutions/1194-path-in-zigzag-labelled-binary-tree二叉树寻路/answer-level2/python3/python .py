@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def pathInZigZagTree(self, label: int) -> List[int]:
         path = []
@@ -11,4 +11,4 @@ class Solution:
             left, right = 2 ** layer, 2 ** (layer + 1) - 1
             label = (left + right) - label // 2
         return path[::-1]
-```
+# ```

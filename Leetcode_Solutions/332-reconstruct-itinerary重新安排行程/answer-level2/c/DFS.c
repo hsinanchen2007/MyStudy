@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-DFS
-1、按照起始机场名字排序，便于后续高效收索；
-2、HASH存储，KEY为起始机场名字，VALUE两个，一个是该起始机场在排序后数组中的起始位置，一个是起始机场出现的次数；
-3、从JKF位置出发，DFS按照顺序遍历每张机票，如果可以遍历完，就返回答案。
+// ### 解题思路
+// 此处撰写解题思路
+// DFS
+// 1、按照起始机场名字排序，便于后续高效收索；
+// 2、HASH存储，KEY为起始机场名字，VALUE两个，一个是该起始机场在排序后数组中的起始位置，一个是起始机场出现的次数；
+// 3、从JKF位置出发，DFS按照顺序遍历每张机票，如果可以遍历完，就返回答案。
 
-char **DFS_findIt(char ***tickets, int *order, int size)
-### 代码
+// char **DFS_findIt(char ***tickets, int *order, int size)
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -126,4 +126,4 @@ char ** findItinerary(char *** tickets, int ticketsSize, int* ticketsColSize, in
     *returnSize = ticketsSize + 1;
     return retIt;
 }
-```
+// ```

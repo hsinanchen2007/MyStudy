@@ -1,9 +1,9 @@
-### 解题思路
-1）遍历num1，依次比较num1中哪些数据出现在了num2中，
-2）因为要求元素出现在两个数组中的次数要一致，因此需要将出现过的数据做删除
-### 代码
+// ### 解题思路
+// 1）遍历num1，依次比较num1中哪些数据出现在了num2中，
+// 2）因为要求元素出现在两个数组中的次数要一致，因此需要将出现过的数据做删除
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public static int[] intersect(int[] nums1, int[] nums2) {
         if (nums1.length ==0 || nums2.length==0){
@@ -37,4 +37,4 @@ class Solution {
 空间复杂度：O(n)
 
 }
-```
+// ```

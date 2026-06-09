@@ -1,11 +1,11 @@
-### 解题思路
-主要就是利用归并排序的思想,可以参考算法导论上的逆序计数问题
+// ### 解题思路
+// 主要就是利用归并排序的思想,可以参考算法导论上的逆序计数问题
 
-特别的,在归并排序的过程中,利用helper差分数组进行加速,成功从TLE优化到了几十毫秒级
+// 特别的,在归并排序的过程中,利用helper差分数组进行加速,成功从TLE优化到了几十毫秒级
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private static class Node {
         private int num;
@@ -77,4 +77,4 @@ class Solution {
         return resultList;
     }
 }
-```
+// ```

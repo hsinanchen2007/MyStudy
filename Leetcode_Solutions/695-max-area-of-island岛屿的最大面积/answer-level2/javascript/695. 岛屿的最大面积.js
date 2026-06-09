@@ -1,16 +1,16 @@
-## 简介
-- [题目链接](https://leetcode-cn.com/problems/max-area-of-island/)
+// ## 简介
+// - [题目链接](https://leetcode-cn.com/problems/max-area-of-island/)
 
-## 解法一 - DFS
-求最大的岛屿面积，就是求图中的最大的连通分量。
+// ## 解法一 - DFS
+// 求最大的岛屿面积，就是求图中的最大的连通分量。
 
-我们假设 $dfs(root)$ 可以遍历 root 结点所在的岛屿的所有点，并在遍历过程中统计结点个数和置为 0 （避免重复计算）。
+// 我们假设 $dfs(root)$ 可以遍历 root 结点所在的岛屿的所有点，并在遍历过程中统计结点个数和置为 0 （避免重复计算）。
 
-这样，算法结构如下：
-1. 遍历数组，找到结点值为 1 的结点 i
-    - 调用 $dfs(i)$，结束后重复第 1 步
+// 这样，算法结构如下：
+// 1. 遍历数组，找到结点值为 1 的结点 i
+//     - 调用 $dfs(i)$，结束后重复第 1 步
 
-```javascript
+// ```javascript
 var maxAreaOfIsland = function(grid) {
 
     if(!grid.length || !grid[0].length) return 0;
@@ -43,16 +43,16 @@ var maxAreaOfIsland = function(grid) {
     }
 };
 
-```
-**复杂度分析**:
-- 时间复杂度：$O(m \cdot n)$
-- 空间复杂度：$O(m \cdot n)$
+// ```
+// **复杂度分析**:
+// - 时间复杂度：$O(m \cdot n)$
+// - 空间复杂度：$O(m \cdot n)$
 
 
-## 解法二 - BFS
-思路同上，只是将 DFS 替换为 BFS。
+// ## 解法二 - BFS
+// 思路同上，只是将 DFS 替换为 BFS。
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -111,8 +111,8 @@ var maxAreaOfIsland = function(grid) {
     }
 };
 
-```
+// ```
 
-**复杂度分析**:
-- 时间复杂度：$O(m \cdot n)$
-- 空间复杂度：$O(m \cdot n)$
+// **复杂度分析**:
+// - 时间复杂度：$O(m \cdot n)$
+// - 空间复杂度：$O(m \cdot n)$

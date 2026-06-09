@@ -1,6 +1,6 @@
-注意本题是返回一个循环链表
+// 注意本题是返回一个循环链表
 
-```Java
+// ```Java
     Node pre = null;
     public Node treeToDoublyList(Node root) {
         if (root == null) return null;
@@ -26,5 +26,5 @@
 
         convertHelper(cur.right);
     }
-```
-这是我的[LeetCode分类题解](https://github.com/caipengbo/LeetCode)（每日更新, issue内有总结），和我一起每日刷题吧！
+// ```
+// 这是我的[LeetCode分类题解](https://github.com/caipengbo/LeetCode)（每日更新, issue内有总结），和我一起每日刷题吧！

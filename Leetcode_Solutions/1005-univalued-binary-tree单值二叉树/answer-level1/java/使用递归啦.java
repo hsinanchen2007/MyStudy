@@ -1,9 +1,9 @@
-### 解题思路
-使用递归啦。
+// ### 解题思路
+// 使用递归啦。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ class Solution {
         return root.val == root.left.val && root.val == root.right.val && isUnivalTree(root.left) && isUnivalTree(root.right);
     }
 }
-```
+// ```

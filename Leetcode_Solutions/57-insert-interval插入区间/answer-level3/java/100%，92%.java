@@ -1,14 +1,14 @@
-### 解题思路
-![111111.png](https://pic.leetcode-cn.com/6ff1157acb17eeb8edcd223b0b794fd4c2959820023d41da727182000a37a86e-111111.png)
+// ### 解题思路
+// ![111111.png](https://pic.leetcode-cn.com/6ff1157acb17eeb8edcd223b0b794fd4c2959820023d41da727182000a37a86e-111111.png)
 
-整体思路是把intervals数组分成左中右三部分,左边是new之前的，中间是重合的，右边是new之后的。
-中间部分，判断new的左右边界和原数组重合处最左和最右的关系，包含还是要叠加，最后融合成一个[]，再把三个合并。
+// 整体思路是把intervals数组分成左中右三部分,左边是new之前的，中间是重合的，右边是new之后的。
+// 中间部分，判断new的左右边界和原数组重合处最左和最右的关系，包含还是要叠加，最后融合成一个[]，再把三个合并。
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         if (intervals==null || intervals.length==0){//如果intervals为空，则返回newInterval
@@ -87,4 +87,4 @@ class Solution {
         return l1.toArray(new int[0][]);
     }
 }
-```
+// ```

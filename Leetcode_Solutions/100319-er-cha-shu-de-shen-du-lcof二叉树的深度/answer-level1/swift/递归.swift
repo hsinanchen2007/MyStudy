@@ -1,7 +1,7 @@
-##解题思路
-就是简单的递归，只不过使用Swift时候需要注意解包
-##代码如下
-```
+// ##解题思路
+// 就是简单的递归，只不过使用Swift时候需要注意解包
+// ##代码如下
+// ```
 class Solution {
     func maxDepth(_ root: TreeNode?) -> Int {
         var thisNode : TreeNode
@@ -11,4 +11,4 @@ class Solution {
         return depth
     }
 }
-```
+// ```

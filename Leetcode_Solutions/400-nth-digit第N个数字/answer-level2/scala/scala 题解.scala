@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def findNthDigit(n: Int): Int = func(n, 1)
 
@@ -10,4 +10,4 @@ object Solution {
     case _ => func(n - 9 * idx * Math.pow(10, idx - 1).toInt, idx + 1)
   }
 }
-```
+// ```

@@ -1,20 +1,20 @@
-## 思路:
+// ## 思路:
 
-**思路一: 用 $O(m+n)$额外空间**
+// **思路一: 用 $O(m+n)$额外空间**
 
-两遍扫`matrix`,第一遍用集合记录哪些行,哪些列有`0`;第二遍置`0`
+// 两遍扫`matrix`,第一遍用集合记录哪些行,哪些列有`0`;第二遍置`0`
 
-**思路二: 用$O(1)$空间**
+// **思路二: 用$O(1)$空间**
 
-关键思想: 用`matrix`第一行和第一列记录该行该列是否有`0`,作为标志位
+// 关键思想: 用`matrix`第一行和第一列记录该行该列是否有`0`,作为标志位
 
-但是对于第一行,和第一列要设置一个标志位,为了防止自己这一行(一列)也有`0`的情况.注释写在代码里,直接看代码很好理解!
+// 但是对于第一行,和第一列要设置一个标志位,为了防止自己这一行(一列)也有`0`的情况.注释写在代码里,直接看代码很好理解!
 
-## 代码:
+// ## 代码:
 
-思路一:
+// 思路一:
 
-```python  [1]
+// ```python  [1]
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
@@ -33,11 +33,11 @@ class Solution:
             for j in range(col):
                 if i in row_zero or j in col_zero:
                     matrix[i][j] = 0
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public void setZeroes(int[][] matrix) {
         Set<Integer> row_zero = new HashSet<>();
@@ -59,11 +59,11 @@ class Solution {
         }  
     }
 }
-```
+// ```
 
-思路二:
+// 思路二:
 
-```python [2]
+// ```python [2]
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
@@ -102,11 +102,11 @@ class Solution:
         if col0_flag:
             for i in range(row):
                 matrix[i][0] = 0
-```
+// ```
 
 
 
-```java [2]
+// ```java [2]
 class Solution {
     public void setZeroes(int[][] matrix) {
         int row = matrix.length;
@@ -155,11 +155,11 @@ class Solution {
         } 
     }
 }
-```
+// ```
 
-简化版
+// 简化版
 
-```python [3]
+// ```python [3]
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
@@ -180,11 +180,11 @@ class Solution:
                     matrix[i][j] = 0
 
             if flag_col == True: matrix[i][0] = 0
-```
+// ```
 
 
 
-```java [3]
+// ```java [3]
 class Solution {
     public void setZeroes(int[][] matrix) {
         boolean col0_flag = false;
@@ -208,5 +208,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

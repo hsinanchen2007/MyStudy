@@ -1,11 +1,11 @@
-### 解题思路
-因为是找倒数第N个元素
-先让快指针走N步
-然后慢指针也开始走，当快指针走到最后的时候，他和慢指针的差距还是N，所以这时候将慢指针跳过下一个节点就行了
+// ### 解题思路
+// 因为是找倒数第N个元素
+// 先让快指针走N步
+// 然后慢指针也开始走，当快指针走到最后的时候，他和慢指针的差距还是N，所以这时候将慢指针跳过下一个节点就行了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -35,4 +35,4 @@ var removeNthFromEnd = function(head, n) {
      
     return  temp.next
 };
-```
+// ```

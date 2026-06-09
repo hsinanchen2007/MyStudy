@@ -1,5 +1,5 @@
-代码如下，思路见注释
-```
+// 代码如下，思路见注释
+// ```
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
     int i,j,sum=0;
     # 遍历图
@@ -21,4 +21,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
         }
     return sum;
 }
-```
+// ```

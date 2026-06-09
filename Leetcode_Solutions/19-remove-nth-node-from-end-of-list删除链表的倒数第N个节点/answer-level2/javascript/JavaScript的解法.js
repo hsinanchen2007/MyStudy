@@ -1,4 +1,4 @@
-```
+// ```
 var removeNthFromEnd = function(head, n) {
     let first = head;
     let count = 0;
@@ -31,4 +31,4 @@ var removeNthFromEnd = function(head, n) {
     
     return head;
 };
-```
+// ```

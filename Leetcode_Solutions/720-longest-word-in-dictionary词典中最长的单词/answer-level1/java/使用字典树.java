@@ -1,6 +1,6 @@
-**字典树典型应用**
-1. 首先构造一棵 trie 树
-```
+// **字典树典型应用**
+// 1. 首先构造一棵 trie 树
+// ```
 public class Trie{
     boolean isTrie;
     int len;
@@ -24,10 +24,10 @@ public class Trie{
         trie.len = i;
     }
 }
-```
+// ```
 
-2. 对字典树进行搜索，求最长的字符串
-```
+// 2. 对字典树进行搜索，求最长的字符串
+// ```
 class Solution {
     String str = "";
     public String longestWord(String[] words) {
@@ -59,5 +59,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

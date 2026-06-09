@@ -1,5 +1,5 @@
-*法一：splice方法*
-```js
+// *法一：splice方法*
+// ```js
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -17,11 +17,11 @@ var removeElement = function(nums, val) {
 var nums = [0,1,2,2,3,0,4,2];
 var val = 2;
 console.log(removeElement(nums, val))
-```
+// ```
 
-*法二：直接修改数组*
+// *法二：直接修改数组*
 
-```js
+// ```js
 var removeElement2 = function(nums, val) {
     var len = nums.length;
     var index = 0;
@@ -34,4 +34,4 @@ var removeElement2 = function(nums, val) {
     return index;
 };
 console.log(removeElement2(nums, val))
-```
+// ```

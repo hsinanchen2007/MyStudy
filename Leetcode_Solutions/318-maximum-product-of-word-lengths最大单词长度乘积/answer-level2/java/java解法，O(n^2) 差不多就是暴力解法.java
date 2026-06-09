@@ -1,6 +1,6 @@
-执行用时 :221 ms, 击败了20.55%的用户。
-内存消耗 :101.9 MB, 击败了10.81%的用户。
-```
+// 执行用时 :221 ms, 击败了20.55%的用户。
+// 内存消耗 :101.9 MB, 击败了10.81%的用户。
+// ```
 class Solution {
     public int maxProduct(String[] words) {
         int max = 0;
@@ -24,4 +24,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

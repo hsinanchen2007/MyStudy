@@ -1,9 +1,9 @@
-### 解题思路
-字典统计出现频次，然后再到字典中提出来。
+# ### 解题思路
+# 字典统计出现频次，然后再到字典中提出来。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def repeatedNTimes(self, A: List[int]) -> int:
         n = len(A) / 2
@@ -18,4 +18,4 @@ class Solution:
         for key in A_list.keys():
             if A_list[key] == n:
                 return key
-```
+# ```

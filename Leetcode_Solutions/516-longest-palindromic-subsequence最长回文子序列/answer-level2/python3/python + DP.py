@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def longestPalindromeSubseq(self, s: str) -> int:
         # the maximum length is 1,000
@@ -19,4 +19,4 @@ class Solution:
                     dp[j] = max( dp[j - 1], dp[j])
                 pre = tmp
         return dp[-1]
-```
+# ```

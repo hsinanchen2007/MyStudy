@@ -1,9 +1,9 @@
-### 解题思路
-看代码就能懂了
+// ### 解题思路
+// 看代码就能懂了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char firstUniqChar(String s) {
         //第一种解法，题目bug就是只包含小写字符，不严谨
@@ -33,4 +33,4 @@ class Solution {
         return ' ';
     }
 }
-```
+// ```

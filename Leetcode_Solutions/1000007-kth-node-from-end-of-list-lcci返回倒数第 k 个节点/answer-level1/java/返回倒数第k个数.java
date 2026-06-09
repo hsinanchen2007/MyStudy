@@ -1,9 +1,9 @@
-### 解题思路
-翻转后，输出第k个
+// ### 解题思路
+// 翻转后，输出第k个
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return p.val;
     }
 }
-```
+// ```

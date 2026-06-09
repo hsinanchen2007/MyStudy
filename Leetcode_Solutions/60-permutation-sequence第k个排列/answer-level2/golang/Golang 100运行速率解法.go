@@ -1,7 +1,7 @@
-**原理就是通过每个层级节点可产生的可能性和k进行比较，找出在每一层需要选择哪个**
+// **原理就是通过每个层级节点可产生的可能性和k进行比较，找出在每一层需要选择哪个**
 
 
-```
+// ```
 func getPermutation(n int, k int) string {
     var result = ""
     if n == 0 {
@@ -33,4 +33,4 @@ func getPermutation(n int, k int) string {
     }
     return result
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int jump(int* nums, int n){
 	if(n==2) return 1;
     if(n==1) return 0;
@@ -41,4 +41,4 @@ int jump(int* nums, int n){
 	}
 	return ans;
 }
-```
+// ```

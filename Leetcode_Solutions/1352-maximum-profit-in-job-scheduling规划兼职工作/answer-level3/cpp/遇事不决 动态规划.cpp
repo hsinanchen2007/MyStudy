@@ -1,9 +1,9 @@
-### 解题思路
-虽然性能糟糕的很，不过为了可读性还是不做优化了……
-里面有一些奇技淫巧的代码……见笑了。
-### 代码
+// ### 解题思路
+// 虽然性能糟糕的很，不过为了可读性还是不做优化了……
+// 里面有一些奇技淫巧的代码……见笑了。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& profit) {
@@ -35,4 +35,4 @@ public:
         return expectProfit.rbegin()->second;
     }
 };
-```
+// ```

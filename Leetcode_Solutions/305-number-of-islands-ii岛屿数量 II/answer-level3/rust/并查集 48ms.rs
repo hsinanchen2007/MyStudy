@@ -1,9 +1,9 @@
-48ms + 3.4M
+// 48ms + 3.4M
 
-主要思路就是通过并查集对land进行合并。
-代码其实可以更简洁，但是我Rust太辣鸡了
+// 主要思路就是通过并查集对land进行合并。
+// 代码其实可以更简洁，但是我Rust太辣鸡了
 
-```rust
+// ```rust
 use std::collections::HashMap;
 
 struct UnionTree {
@@ -86,4 +86,4 @@ impl Solution {
         ans
     }
 }
-```
+// ```

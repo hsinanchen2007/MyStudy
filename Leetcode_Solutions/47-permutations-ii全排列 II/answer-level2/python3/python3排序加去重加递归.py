@@ -1,9 +1,9 @@
-### 解题思路
-排序之后，如果这个这一位之前走过了，那么就跳过
+# ### 解题思路
+# 排序之后，如果这个这一位之前走过了，那么就跳过
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permuteUnique(self, nums: [int]) -> [[int]]:
         res = []
@@ -22,4 +22,4 @@ class Solution:
                             helper(nums_in[:i], res_in + [nums_in[i]])
         helper(nums, [])
         return res
-```
+# ```

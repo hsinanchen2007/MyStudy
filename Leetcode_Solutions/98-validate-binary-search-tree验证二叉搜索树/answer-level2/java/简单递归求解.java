@@ -1,10 +1,10 @@
-### 解题思路
-递归，利用isValidBST，逻辑简单
-时间、空间复杂度都是  O(n)
+// ### 解题思路
+// 递归，利用isValidBST，逻辑简单
+// 时间、空间复杂度都是  O(n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ class Solution {
       return true;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-N叉树的最大深度和二叉树的最大深度本质上都是一样的。无非就是通过DFS、BFS遍历。
-可参考以下二叉树最大深度解法，N叉树最大深度自然不成问题。
-[二叉树的最大深度题解](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/marveljian-dan-de-xue-xi-bi-ji-104-by-marvel_ty/)
+// N叉树的最大深度和二叉树的最大深度本质上都是一样的。无非就是通过DFS、BFS遍历。
+// 可参考以下二叉树最大深度解法，N叉树最大深度自然不成问题。
+// [二叉树的最大深度题解](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/marveljian-dan-de-xue-xi-bi-ji-104-by-marvel_ty/)
 
-### 解法一：DFS
-一棵树的最大深度就是子树最大深度的最大值加一。
+// ### 解法一：DFS
+// 一棵树的最大深度就是子树最大深度的最大值加一。
 
-代码：
-```java
+// 代码：
+// ```java
 class Solution {
     public int maxDepth(Node root) {
         if(root == null)    return 0;
@@ -19,13 +19,13 @@ class Solution {
         return subMax + 1;
     }
 }
-```
+// ```
 
-### 解法二：BFS
-层序遍历。一次处理一层，统计层数。
+// ### 解法二：BFS
+// 层序遍历。一次处理一层，统计层数。
 
-代码：
-```java
+// 代码：
+// ```java
 class Solution {
     public int maxDepth(Node root) {
         if(root == null)    return 0;
@@ -47,4 +47,4 @@ class Solution {
         return layer;
     }
 }
-```
+// ```

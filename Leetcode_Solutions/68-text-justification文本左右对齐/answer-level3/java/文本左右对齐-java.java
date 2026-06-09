@@ -1,8 +1,8 @@
-就像是写公司业务代码一样。。
-![微信截图_20200131100247.png](https://pic.leetcode-cn.com/84f7616587d8b5330589225fca8fd4b12430a2a70ea0187b12a17ad2ced3e31c-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200131100247.png)
+// 就像是写公司业务代码一样。。
+// ![微信截图_20200131100247.png](https://pic.leetcode-cn.com/84f7616587d8b5330589225fca8fd4b12430a2a70ea0187b12a17ad2ced3e31c-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200131100247.png)
 
 
-```java
+// ```java
     public List<String> fullJustify(String[] words, int maxWidth) {
         List<String> result = new ArrayList<>();
         if (words == null || words.length == 0 || maxWidth <= 0) {
@@ -84,4 +84,4 @@
 
         return result;
     }
-```
+// ```

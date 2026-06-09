@@ -1,4 +1,4 @@
-```
+// ```
 int maxProfit(int* prices, int pricesSize){
 	int sum = 0;
 	int i, j;
@@ -10,4 +10,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return sum;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-一个小白，一开始还不懂vector的用法...思路很简单，希望对和我一样的小白有帮助
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 一个小白，一开始还不懂vector的用法...思路很简单，希望对和我一样的小白有帮助
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -33,4 +33,4 @@ public:
     }
 
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-python用栈作，如果发现右侧括号，那么就去除一对，如果右侧和左侧不匹配，返回False，
-最后stack里面所有括号都是成对出现，没有剩余，当stack为空时，返回True
+# ### 解题思路
+# python用栈作，如果发现右侧括号，那么就去除一对，如果右侧和左侧不匹配，返回False，
+# 最后stack里面所有括号都是成对出现，没有剩余，当stack为空时，返回True
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         hashmap={")":"(","}":"{","]":"["}
@@ -24,4 +24,4 @@ class Solution:
             return True
         return False
 
-```
+# ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def countComponents(self, n: int, edges: List[List[int]]) -> int:
         # Union find
@@ -19,4 +19,4 @@ class Solution:
         for i in range(n):
             res.add(find(i))
         return len(res)
-```
+# ```

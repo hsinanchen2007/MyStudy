@@ -1,11 +1,11 @@
-### 解题思路
-排列组合解法，参考过评论区中java的排列组合。
-![image.png](https://pic.leetcode-cn.com/d3a26a98da33acc8062a40aed69bf8c6dbe97aa0a0623e5b34be35dbe1e06cef-image.png)
+# ### 解题思路
+# 排列组合解法，参考过评论区中java的排列组合。
+# ![image.png](https://pic.leetcode-cn.com/d3a26a98da33acc8062a40aed69bf8c6dbe97aa0a0623e5b34be35dbe1e06cef-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSumMulti(self, A: List[int], target: int) -> int:
         s = 0
@@ -33,4 +33,4 @@ class Solution:
                     else:
                         s += d[i] * d[j] * d[k]
         return int(s%(10**9 + 7))
-```
+# ```

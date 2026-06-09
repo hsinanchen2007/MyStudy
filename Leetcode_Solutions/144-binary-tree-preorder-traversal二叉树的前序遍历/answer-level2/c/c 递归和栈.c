@@ -1,5 +1,5 @@
-前序遍历递归：
-```
+// 前序遍历递归：
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,10 +28,10 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize = cnt;
     return res;
 }
-```
+// ```
 
-前序遍历使用栈：
-```
+// 前序遍历使用栈：
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -68,4 +68,4 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize = cnt;
     return res;
 }
-```
+// ```

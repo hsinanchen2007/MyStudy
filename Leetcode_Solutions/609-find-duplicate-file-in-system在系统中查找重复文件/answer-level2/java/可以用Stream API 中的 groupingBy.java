@@ -1,9 +1,9 @@
-### 解题思路
-把全部的路径加到一个List里, 按content分组, 筛选出长度大于1的组 ,把格式改成要求的样子
+// ### 解题思路
+// 把全部的路径加到一个List里, 按content分组, 筛选出长度大于1的组 ,把格式改成要求的样子
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<String>> findDuplicate(String[] paths) {
 		List<String> list = new LinkedList<>();
@@ -32,4 +32,4 @@ class Solution {
 		return result;
 	}
 }
-```
+// ```

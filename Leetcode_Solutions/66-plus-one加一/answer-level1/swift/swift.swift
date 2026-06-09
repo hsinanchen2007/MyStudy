@@ -1,5 +1,5 @@
-核心是处理进位。
-```
+// 核心是处理进位。
+// ```
 class Solution {
     func plusOne(_ digits: [Int]) -> [Int] {
         var r = Array(digits)
@@ -26,4 +26,4 @@ class Solution {
         return r
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-/**
- * 加一个头结点解决问题（前面的题目遇到过）
- * 不修改原先链表的情况下，都可尝试往这方面想
- * 最后一步注意加一个null进行收尾
-*/
+// ### 解题思路
+// /**
+//  * 加一个头结点解决问题（前面的题目遇到过）
+//  * 不修改原先链表的情况下，都可尝试往这方面想
+//  * 最后一步注意加一个null进行收尾
+// */
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
         ListNode dummy = new ListNode(0);
@@ -23,4 +23,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-新建一个数组，遍历去要重的数组，当值不在新数组的时候（indexOf为-1）就加入该新数组中
-新旧数组比较长度
+// ### 解题思路
+// 新建一个数组，遍历去要重的数组，当值不在新数组的时候（indexOf为-1）就加入该新数组中
+// 新旧数组比较长度
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -22,4 +22,4 @@ var containsDuplicate = function(nums) {
         return true
     }
 };
-```
+// ```

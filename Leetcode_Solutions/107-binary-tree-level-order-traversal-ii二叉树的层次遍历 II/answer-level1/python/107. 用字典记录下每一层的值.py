@@ -1,9 +1,9 @@
-### 解题思路
-使用一个字典，字典的key即为层数，字典的value则是用来记录该层的每一值的list。
+# ### 解题思路
+# 使用一个字典，字典的key即为层数，字典的value则是用来记录该层的每一值的list。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
 
         return [traversal[item] for item in sorted(traversal.keys(), reverse=True)]
         
-```
+# ```

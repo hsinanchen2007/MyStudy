@@ -1,9 +1,9 @@
-### 解题思路
-字符串数组先按单词反向排序，在逐个比较
+# ### 解题思路
+# 字符串数组先按单词反向排序，在逐个比较
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         words.sort(key = lambda x:x[::-1], reverse = True)
@@ -15,4 +15,4 @@ class Solution:
         if S.endswith('#'):
             return n
         return n + 1
-```
+# ```

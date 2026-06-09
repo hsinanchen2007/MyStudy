@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/24a2f3942a79f837e0a9bde14434a79ec7e72febf57a24741078f63f8cf30a39-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/24a2f3942a79f837e0a9bde14434a79ec7e72febf57a24741078f63f8cf30a39-image.png)
 
-遍历每1个点，查找是否可以同时到达两大洋
+// 遍历每1个点，查找是否可以同时到达两大洋
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void CheckLand(int **matrix, int i, int j, int line, int col, bool *canTai, bool *canDa, int **vis)
 {
     if (i < 0 || i >= line || j < 0 || j >= col || vis[i][j] == 1) {
@@ -93,4 +93,4 @@ int** pacificAtlantic(int** matrix, int matrixSize, int* matrixColSize, int* ret
 
     return retPos;
 }
-```
+// ```

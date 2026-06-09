@@ -1,4 +1,4 @@
-```
+// ```
   public String getPermutation(int n, int k) {
         StringBuilder sb = new StringBuilder();
         //如果被使用则标记为1
@@ -45,4 +45,4 @@
         }
         return res;
     }
-```
+// ```

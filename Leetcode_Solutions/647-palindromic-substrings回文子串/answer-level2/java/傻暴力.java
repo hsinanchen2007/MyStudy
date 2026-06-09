@@ -1,8 +1,8 @@
-### 解题思路
-傻暴力
-### 代码
+// ### 解题思路
+// 傻暴力
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private boolean IsOK(String s,int i0,int j0){
         boolean Ok=true;
@@ -25,4 +25,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

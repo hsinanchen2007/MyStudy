@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> gardenNoAdj(int N, vector<vector<int>>& paths) {
@@ -18,5 +18,5 @@ public:
         return cols;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/69a9d201a13e5355d3ddbdbf7424cafdf8fa05ab3efb9b3f6121b116a3a4bd9f-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/69a9d201a13e5355d3ddbdbf7424cafdf8fa05ab3efb9b3f6121b116a3a4bd9f-image.png)

@@ -1,12 +1,12 @@
-### 解题思路
-这道题解题只需要三步：
-1、递归求出最大深度;
-2、利用最大深度算出二维数组应该多大，2^n-1;
-3、递归求解，入参传递进入begin和end的index,每次depth下降时，对应的左右子树节点数值应该填写在对应的(begin+end)/2 的左右侧;
+// ### 解题思路
+// 这道题解题只需要三步：
+// 1、递归求出最大深度;
+// 2、利用最大深度算出二维数组应该多大，2^n-1;
+// 3、递归求解，入参传递进入begin和end的index,每次depth下降时，对应的左右子树节点数值应该填写在对应的(begin+end)/2 的左右侧;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -51,4 +51,4 @@ public:
         return 1 + max(getHigh(root->left),getHigh(root->right));
     }
 };
-```
+// ```

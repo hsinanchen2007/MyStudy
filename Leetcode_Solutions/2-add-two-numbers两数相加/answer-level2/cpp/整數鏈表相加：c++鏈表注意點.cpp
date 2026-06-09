@@ -1,22 +1,22 @@
-### 解题思路
-注意點：判斷進位，此處采取補零的方法。
-代碼注意點：
-1.不能使用連等式，否則會報錯（沒有重載）li=l2=p;(X)
+// ### 解题思路
+// 注意點：判斷進位，此處采取補零的方法。
+// 代碼注意點：
+// 1.不能使用連等式，否則會報錯（沒有重載）li=l2=p;(X)
 
-2.ListNode* ans=NULL;(X)
-原因：把null變成指向結構體的指針需要重載
-  ListNode* ans=ListNode(-1);(正解)
+// 2.ListNode* ans=NULL;(X)
+// 原因：把null變成指向結構體的指針需要重載
+//   ListNode* ans=ListNode(-1);(正解)
 
-3.ListNode* ans=ListNode(-1),tail = ans;(x)
-原因：報錯，格式錯誤（暫時不知道爲什麽會讓指針變成結構體導致賦值錯誤）
-ListNode* ans=ListNode(-1)；
-ListNode* tail = ans;(正解)
+// 3.ListNode* ans=ListNode(-1),tail = ans;(x)
+// 原因：報錯，格式錯誤（暫時不知道爲什麽會讓指針變成結構體導致賦值錯誤）
+// ListNode* ans=ListNode(-1)；
+// ListNode* tail = ans;(正解)
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -79,4 +79,4 @@ public:
         return ans;
     };
 };
-```
+// ```

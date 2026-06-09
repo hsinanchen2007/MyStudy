@@ -1,9 +1,9 @@
-### 解题思路
-使用map计数
+// ### 解题思路
+// 使用map计数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type WordsFrequency struct {
     m map[string]int
 }
@@ -32,4 +32,4 @@ func (this *WordsFrequency) Get(word string) int {
  * obj := Constructor(book);
  * param_1 := obj.Get(word);
  */
-```
+// ```

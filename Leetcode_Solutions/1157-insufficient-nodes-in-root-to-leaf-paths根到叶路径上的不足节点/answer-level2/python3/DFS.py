@@ -1,9 +1,9 @@
-### 解题思路
-DFS 不断向下遍历到叶子节点，然后逐层返回，跟精选题解思路差不多
+# ### 解题思路
+# DFS 不断向下遍历到叶子节点，然后逐层返回，跟精选题解思路差不多
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
         tempS +=(a+b)
         return tempS
 
-```
+# ```

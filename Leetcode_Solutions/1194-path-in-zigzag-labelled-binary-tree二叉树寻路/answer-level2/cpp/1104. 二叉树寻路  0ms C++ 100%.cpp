@@ -1,7 +1,7 @@
-C++ 0ms 双100%
-简单易懂，看注释
+// C++ 0ms 双100%
+// 简单易懂，看注释
 
-```
+// ```
 class Solution {
 public:
     vector<int> pathInZigZagTree(int label) {
@@ -23,4 +23,4 @@ public:
         return ans;
     }
 };
-```
+// ```

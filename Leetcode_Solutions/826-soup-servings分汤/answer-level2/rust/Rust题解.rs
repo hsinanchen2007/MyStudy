@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn soup_servings(n: i32) -> f64 {
         let n = (n as usize + 24) / 25;
@@ -23,5 +23,5 @@ impl Solution {
         dp[n][n]
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

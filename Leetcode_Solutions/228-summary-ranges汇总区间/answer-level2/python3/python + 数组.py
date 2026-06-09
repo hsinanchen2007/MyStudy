@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def summaryRanges(self, nums: List[int]) -> List[str]:
         # special case
@@ -20,4 +20,4 @@ class Solution:
             else: pre = num
             if i == len(nums) - 1: append(res, begin, pre)
         return res
-```
+# ```

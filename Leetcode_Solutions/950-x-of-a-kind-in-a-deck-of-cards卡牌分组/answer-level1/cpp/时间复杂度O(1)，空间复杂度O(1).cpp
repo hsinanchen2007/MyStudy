@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-计数，然后对各组cnt计算最大公约数，大于等于2即可。
+// 计数，然后对各组cnt计算最大公约数，大于等于2即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 constexpr int LENGTH = 10000;
 class Solution {
 public:
@@ -23,4 +23,4 @@ public:
         return cur >= 2 ? true : false;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         sum_list = nums1 + nums2
@@ -10,4 +10,4 @@ class Solution:
         middle_num = (sum_list[middle_index-1] + sum_list[middle_index])/2 if len_list%2==0 else sum_list[middle_index]
 
         return middle_num
-```
+# ```

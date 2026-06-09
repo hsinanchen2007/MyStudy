@@ -1,4 +1,4 @@
-```python
+# ```python
 # 第一种，如果当前元素与下一个元素不一致，那么就添加到初始指针的位置
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
@@ -22,4 +22,4 @@ class Solution:
                 nums[i] = nums[j]
             j += 1
         return i + 1
-```
+# ```

@@ -1,14 +1,14 @@
-### 解题思路
-实际本题可以使用dfs/bfs，这两个都可以，但使用的时候会有用例不过，原因就是没有使用剪枝，如果结合适当的visit剪枝，使用dfs/bfs也是可以过的。
-动态规划也一样可以解本题，思路也比较简单；
-由于只能向右、向下走，所以第一行与第一列初始化为1，因第一行只能向右走，第一列只能向下走，都只有一种走法；但需要注意的是，如果遇到障碍则在障碍处写0，代表无法通过；
-其它的dp[i][j] = dp[i][j - 1] + dp[i - 1][j];即可
-![123.PNG](https://pic.leetcode-cn.com/9ea808a379a00e727aac317204bc7de0a716c830cba48d9e1bf5be5d8ce42a23-123.PNG)
+// ### 解题思路
+// 实际本题可以使用dfs/bfs，这两个都可以，但使用的时候会有用例不过，原因就是没有使用剪枝，如果结合适当的visit剪枝，使用dfs/bfs也是可以过的。
+// 动态规划也一样可以解本题，思路也比较简单；
+// 由于只能向右、向下走，所以第一行与第一列初始化为1，因第一行只能向右走，第一列只能向下走，都只有一种走法；但需要注意的是，如果遇到障碍则在障碍处写0，代表无法通过；
+// 其它的dp[i][j] = dp[i][j - 1] + dp[i - 1][j];即可
+// ![123.PNG](https://pic.leetcode-cn.com/9ea808a379a00e727aac317204bc7de0a716c830cba48d9e1bf5be5d8ce42a23-123.PNG)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obstacleGridColSize) {
     unsigned int **dp = NULL;
     int i, j;
@@ -44,4 +44,4 @@ int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obst
     }
     return dp[obstacleGridSize - 1][*obstacleGridColSize - 1];
 }
-```
+// ```

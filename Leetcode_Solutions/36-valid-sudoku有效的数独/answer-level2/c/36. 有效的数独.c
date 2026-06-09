@@ -1,10 +1,10 @@
-### 解题思路
-看官方的吧；
-![image.png](https://pic.leetcode-cn.com/f21d9f997ed5da5794dca9ad2dfe49aa60ee8ff8271a001f6dab1a9b44ab9767-image.png)
+// ### 解题思路
+// 看官方的吧；
+// ![image.png](https://pic.leetcode-cn.com/f21d9f997ed5da5794dca9ad2dfe49aa60ee8ff8271a001f6dab1a9b44ab9767-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValidSudoku(char** board, int boardSize, int* boardColSize){
     if (board == NULL) {
         return false;
@@ -42,4 +42,4 @@ bool isValidSudoku(char** board, int boardSize, int* boardColSize){
     free(arrS);
     return true;
 }
-```
+// ```

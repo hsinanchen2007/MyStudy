@@ -1,9 +1,9 @@
-## 思路
-为了简化删除头节点操作，新建一个虚拟头节点 tmp 并设置 tmp->next = head。
+// ## 思路
+// 为了简化删除头节点操作，新建一个虚拟头节点 tmp 并设置 tmp->next = head。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* deleteNode(ListNode* head, int val) {
@@ -20,4 +20,4 @@ public:
         return tmp->next;
     }
 };
-```
+// ```

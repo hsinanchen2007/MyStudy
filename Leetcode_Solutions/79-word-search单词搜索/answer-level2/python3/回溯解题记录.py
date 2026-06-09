@@ -1,20 +1,20 @@
-（速度和空间都不咋地- =）
-首先用start储存开头的字母的coordinates，如果不存在，直接返回False；
-然后开始回溯，其中有两点是我debug了好久才搞明白的（菜鸡一个- =）：
-1. 要有判断条件if backtrack(): return True, 否则return之后会继续往后面搜索，并且整个backtrack输出的结果一直是None
-2. 如果backtrack未返回true，要unmark刚才的路径经过的点，否则会影响后续路径的选择。想象一下：第一条路走了6步能成功，但最后一步失败了，第二条路的某三步和第一条路相同，如果第一条路失败后直接退回不unmark的话，第二条路就无法走和第一条路交叉的三补了。
-代码块
-    if 0 <= ii < row and 0 <= jj < col and marked[ii][jj] != 1:
-        if board[ii][jj] == word[move + 1]:
-            #print(word[move + 1])
-            #print(ii, jj)
-            marked[ii][jj] = 1
-            if backtrack((ii, jj), move + 1, marked): 
-                return True
-            else:
-                marked[ii][jj] = 0
-总的代码是这样的：
-```
+# （速度和空间都不咋地- =）
+# 首先用start储存开头的字母的coordinates，如果不存在，直接返回False；
+# 然后开始回溯，其中有两点是我debug了好久才搞明白的（菜鸡一个- =）：
+# 1. 要有判断条件if backtrack(): return True, 否则return之后会继续往后面搜索，并且整个backtrack输出的结果一直是None
+# 2. 如果backtrack未返回true，要unmark刚才的路径经过的点，否则会影响后续路径的选择。想象一下：第一条路走了6步能成功，但最后一步失败了，第二条路的某三步和第一条路相同，如果第一条路失败后直接退回不unmark的话，第二条路就无法走和第一条路交叉的三补了。
+# 代码块
+#     if 0 <= ii < row and 0 <= jj < col and marked[ii][jj] != 1:
+#         if board[ii][jj] == word[move + 1]:
+#             #print(word[move + 1])
+#             #print(ii, jj)
+#             marked[ii][jj] = 1
+#             if backtrack((ii, jj), move + 1, marked): 
+#                 return True
+#             else:
+#                 marked[ii][jj] = 0
+# 总的代码是这样的：
+# ```
 def exist(board, word):
     row = len(board)
     col = len(board[0])
@@ -71,4 +71,4 @@ if __name__ == "__main__":
     word = "ABCESEEEFS"
     
     print(exist(board, word))
-```
+# ```

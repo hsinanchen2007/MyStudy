@@ -1,4 +1,4 @@
-```
+// ```
 var numIslands = function(grid) {
 	const row = grid.length;
 	if(!row) return 0;
@@ -24,4 +24,4 @@ var numIslands = function(grid) {
 	}
 	return res;
 };
-```
+// ```

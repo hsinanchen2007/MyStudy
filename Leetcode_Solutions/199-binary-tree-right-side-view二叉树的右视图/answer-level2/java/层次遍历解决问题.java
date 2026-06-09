@@ -1,9 +1,9 @@
-### 解题思路
-通过层次遍历，每次将尾巴上的那个点加入结果集合中
+// ### 解题思路
+// 通过层次遍历，每次将尾巴上的那个点加入结果集合中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -43,4 +43,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

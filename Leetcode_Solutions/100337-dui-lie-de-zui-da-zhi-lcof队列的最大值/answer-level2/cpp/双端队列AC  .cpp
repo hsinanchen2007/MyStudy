@@ -1,9 +1,9 @@
-### 解题思路
-维护一个队内元素尽可能为最大值（呈递减）的双端队列
+// ### 解题思路
+// 维护一个队内元素尽可能为最大值（呈递减）的双端队列
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 public:
     MaxQueue() {
@@ -45,4 +45,4 @@ private:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

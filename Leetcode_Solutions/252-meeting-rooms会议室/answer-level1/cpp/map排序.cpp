@@ -1,7 +1,7 @@
-使用map有序性，根据会议开始时间排序
-条件：前一次会议结束时间<后一次会议开始时间
-O（2n+nlogn）
-```
+// 使用map有序性，根据会议开始时间排序
+// 条件：前一次会议结束时间<后一次会议开始时间
+// O（2n+nlogn）
+// ```
 class Solution {
 public:
     bool canAttendMeetings(vector<vector<int>>& intervals) {
@@ -24,4 +24,4 @@ public:
         return true;
     }
 };
-```
+// ```

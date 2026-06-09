@@ -1,7 +1,7 @@
-## 思路
-利用set去重
-### 代码
-```c++
+// ## 思路
+// 利用set去重
+// ### 代码
+// ```c++
 class Solution {
 public:
     int distributeCandies(vector<int>& candies) {
@@ -12,4 +12,4 @@ public:
         return min(se.size(), candies.size() / 2);
     }
 };
-```
+// ```

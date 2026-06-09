@@ -1,9 +1,9 @@
-### 解题思路
-bookings数组循环下，在每一段[i,j,k]中i-j的区间进行循环，只要在此区间下，对应的航班上就加上K个。
+// ### 解题思路
+// bookings数组循环下，在每一段[i,j,k]中i-j的区间进行循环，只要在此区间下，对应的航班上就加上K个。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} bookings
  * @param {number} n
@@ -27,4 +27,4 @@ var corpFlightBookings = function(bookings, n) {
     }
     return answer;
 };
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-构建两个辅助数组，使B[i] = C[i] * D[i].
+// ### 解题思路
+// 构建两个辅助数组，使B[i] = C[i] * D[i].
 
-辅助数组，C[i] = A[0] * A[1] * A[2] * ... * A[i-1],
-         D[i] = A[i+1] * A[i+2] * ... * A[n-1],
+// 辅助数组，C[i] = A[0] * A[1] * A[2] * ... * A[i-1],
+//          D[i] = A[i+1] * A[i+2] * ... * A[n-1],
 
-![1.png](https://pic.leetcode-cn.com/3ad736f1ffdfcbb221d227708ba4f5fccd8c995983c0177620afc33ab8c26748-1.png)
-此处撰写解题思路
+// ![1.png](https://pic.leetcode-cn.com/3ad736f1ffdfcbb221d227708ba4f5fccd8c995983c0177620afc33ab8c26748-1.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int* constructArr(int* a, int aSize, int* returnSize){
     *returnSize = aSize;
@@ -46,4 +46,4 @@ int* constructArr(int* a, int aSize, int* returnSize){
 
     return b;
 }   
-```
+// ```

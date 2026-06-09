@@ -1,4 +1,4 @@
-```
+// ```
 var divide = function(dividend, divisor) {
     let consult = dividend / divisor;
     if(consult >= Math.pow(2, 31) - 1)
@@ -10,4 +10,4 @@ var divide = function(dividend, divisor) {
     else
         return Math.ceil(consult);
 };
-```
+// ```

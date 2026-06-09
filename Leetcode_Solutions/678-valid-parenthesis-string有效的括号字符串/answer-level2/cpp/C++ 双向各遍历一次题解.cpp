@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     bool checkValidString(string s) {
@@ -24,6 +24,6 @@ public:
         return bucket == 0;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/05a8af1bc94abecd79232c34c7b035f36a900d2b8524c6e48ca095a2d646e15b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/05a8af1bc94abecd79232c34c7b035f36a900d2b8524c6e48ca095a2d646e15b-image.png)

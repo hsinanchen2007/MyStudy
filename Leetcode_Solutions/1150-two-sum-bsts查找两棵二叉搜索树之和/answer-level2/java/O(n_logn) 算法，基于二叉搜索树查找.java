@@ -1,4 +1,4 @@
-```java
+// ```java
 private boolean find(TreeNode root, int value) {
     if (root == null) {
         return false;
@@ -22,7 +22,7 @@ public boolean twoSumBSTs(TreeNode root1, TreeNode root2, int target) {
     return find(root2, target - root1.val) || twoSumBSTs(root1.left, root2, target) ||
             twoSumBSTs(root1.right, root2, target);
 }
-```
-**思路：**
-1. 遍历其中一棵BST1,遍历到每个结点的时候，取出该结点值node.val，求得(target-node.val)的值拿到BST2去查找，找到就返回true。
-2. 若同步步骤1没找到，则递归遍历BST1的左子树和BST1的右子树，不断执行步骤1，直到找到或者所有节点遍历完也未找到为止。
+// ```
+// **思路：**
+// 1. 遍历其中一棵BST1,遍历到每个结点的时候，取出该结点值node.val，求得(target-node.val)的值拿到BST2去查找，找到就返回true。
+// 2. 若同步步骤1没找到，则递归遍历BST1的左子树和BST1的右子树，不断执行步骤1，直到找到或者所有节点遍历完也未找到为止。

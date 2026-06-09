@@ -1,6 +1,6 @@
-![J~HCW0F\]3QZNAO_1DI_@$6E.png](https://pic.leetcode-cn.com/9eebe1ee85de253a59d502a094e8c390d8baea0651a1d881a1b6d0f6e21b2ab0-J~HCW0F%5D3QZNAO_1DI_@$6E.png)
+// ![J~HCW0F\]3QZNAO_1DI_@$6E.png](https://pic.leetcode-cn.com/9eebe1ee85de253a59d502a094e8c390d8baea0651a1d881a1b6d0f6e21b2ab0-J~HCW0F%5D3QZNAO_1DI_@$6E.png)
 
-```
+// ```
 class Solution {
 public:
 	string countAndSay(int n) {
@@ -25,4 +25,4 @@ public:
 		return result;
 	}
 };
-```
+// ```

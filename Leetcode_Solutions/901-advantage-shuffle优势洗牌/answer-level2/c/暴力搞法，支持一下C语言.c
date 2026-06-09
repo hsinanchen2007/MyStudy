@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-暴力搞法，请看代码
+// 暴力搞法，请看代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -59,4 +59,4 @@ int* advantageCount(int* A, int ASize, int* B, int BSize, int* returnSize)
     (*returnSize) = ASize;
     return res;
 }
-```
+// ```

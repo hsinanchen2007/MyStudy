@@ -1,9 +1,9 @@
-### 解题思路
-用hash table存储单词中每个字母的个数，然后和chars中的字母个数作比较。
+# ### 解题思路
+# 用hash table存储单词中每个字母的个数，然后和chars中的字母个数作比较。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import collections
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
@@ -16,4 +16,4 @@ class Solution:
                 for key in word_char_count:
                     res += word_char_count[key]
         return res
-```
+# ```

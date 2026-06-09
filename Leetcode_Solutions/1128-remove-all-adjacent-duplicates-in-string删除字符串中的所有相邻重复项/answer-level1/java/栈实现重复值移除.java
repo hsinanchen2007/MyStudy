@@ -1,9 +1,9 @@
-### 解题思路
-详见代码注释
+// ### 解题思路
+// 详见代码注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String removeDuplicates(String S) {
         /* 只需删除重复项即可，因此可以使用栈实现
@@ -33,4 +33,4 @@ class Solution {
         
     }
 }
-```
+// ```

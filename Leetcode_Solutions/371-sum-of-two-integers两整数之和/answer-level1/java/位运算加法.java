@@ -1,5 +1,5 @@
-适用于正负数
-```java []
+// 适用于正负数
+// ```java []
 class Solution {
     public int getSum(int a, int b) {
         if(a==0) return b;
@@ -14,4 +14,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

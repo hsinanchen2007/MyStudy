@@ -1,9 +1,9 @@
-### 解题思路
-用自带排序，便利数组 凡是下一个数字与当前数字相等， 就返回
+// ### 解题思路
+// 用自带排序，便利数组 凡是下一个数字与当前数字相等， 就返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
          Arrays.sort(nums);
@@ -15,4 +15,4 @@ class Solution {
          return -1;
     }
 }
-```
+// ```

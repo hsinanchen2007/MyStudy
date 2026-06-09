@@ -1,4 +1,4 @@
-```
+// ```
 char* compressString(char* S){
     int len = strlen(S);
     if (len < 3) {
@@ -26,4 +26,4 @@ char* compressString(char* S){
     strncat(retS, string, cLen);
     return strlen(retS) < strlen(S) ? retS : S;
 }
-```
+// ```

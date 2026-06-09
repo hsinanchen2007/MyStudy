@@ -1,7 +1,7 @@
-    坑点 其一 去除元素也就是去除相同的
+//     坑点 其一 去除元素也就是去除相同的
 
-    其二 要第一个开始 
-class Solution {  // 坑点其一 排除 其二 
+//     其二 要第一个开始 
+// class Solution {  // 坑点其一 排除 其二 
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> res = new ArrayList<>();

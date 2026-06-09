@@ -1,5 +1,5 @@
-/*字符串实质上是存储着ascii表上字符对应的数字，所以字符可以直接比大小、加减*/
-```
+// /*字符串实质上是存储着ascii表上字符对应的数字，所以字符可以直接比大小、加减*/
+// ```
 int myAtoi(char * str){
     int i=0,mark=0;
     long result=0;
@@ -27,4 +27,4 @@ int myAtoi(char * str){
     }
     return result;
 }
-```
+// ```

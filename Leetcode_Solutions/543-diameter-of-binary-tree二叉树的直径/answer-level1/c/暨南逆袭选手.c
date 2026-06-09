@@ -1,9 +1,9 @@
-### 解题思路
-被秀了一脸，自以为只用将根节点左右子树的最大路径相加就好，没想到要对每一个节点都要判断。考虑的不严谨。
+// ### 解题思路
+// 被秀了一脸，自以为只用将根节点左右子树的最大路径相加就好，没想到要对每一个节点都要判断。考虑的不严谨。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     dfs(root, &max);
     return max;
 }
-```
+// ```

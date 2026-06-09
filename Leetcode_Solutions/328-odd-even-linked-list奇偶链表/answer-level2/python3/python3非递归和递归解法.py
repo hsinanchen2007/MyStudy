@@ -1,6 +1,6 @@
-## 非递归解法
-和86-Partitions List思路几乎一样,这里用了5个指针。但是官方题解中只用了4个指针。
-```python
+# ## 非递归解法
+# 和86-Partitions List思路几乎一样,这里用了5个指针。但是官方题解中只用了4个指针。
+# ```python
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -28,13 +28,13 @@ class Solution:
         odd.next = dummy_even.next
 
         return dummy_odd.next
-```
+# ```
 
-## 递归解法
+# ## 递归解法
 
-### 解法1：在递进中求解
-这里的递归函数没有任何回溯过程，主要逻辑和非递归写法一样
-```python
+# ### 解法1：在递进中求解
+# 这里的递归函数没有任何回溯过程，主要逻辑和非递归写法一样
+# ```python
 class Solution:
     def oddEvenList(self, head: ListNode) -> ListNode:
         dummy_odd = odd = ListNode(None)
@@ -59,15 +59,15 @@ class Solution:
         even.next = None
         odd.next = dummy_even.next
         return dummy_odd.next
-```
-### 解法2：在回溯中求解
-思路是：
-将当前节点和已经完成奇偶分类的子链去拼接。
-* 如果当前节点是奇节点，则当前节点直接连上子链最前端。
-* 如果当前节点是偶节点，则当前节点需要插到子链的所有奇节点之后。
+# ```
+# ### 解法2：在回溯中求解
+# 思路是：
+# 将当前节点和已经完成奇偶分类的子链去拼接。
+# * 如果当前节点是奇节点，则当前节点直接连上子链最前端。
+# * 如果当前节点是偶节点，则当前节点需要插到子链的所有奇节点之后。
 
-所以需要递归函数返回子链的头结点和子链中最后一个奇节点（用来插入偶节点）。`idx`用来判断奇偶，`pre`用来清除删除节点时产生的野指针。
-```python
+# 所以需要递归函数返回子链的头结点和子链中最后一个奇节点（用来插入偶节点）。`idx`用来判断奇偶，`pre`用来清除删除节点时产生的野指针。
+# ```python
 class Solution:
     def oddEvenList(self, head: ListNode) -> ListNode:
         dummy_head = ListNode(None)
@@ -103,11 +103,11 @@ class Solution:
         new_head, _ = recursive(pre, cur, 1)
 
         return new_head
-```
+# ```
 
-### 解法3：避免奇偶节点的讨论
-根据24的解法改编
-```python
+# ### 解法3：避免奇偶节点的讨论
+# 根据24的解法改编
+# ```python
 class Solution:
     def oddEvenList(self, head: ListNode) -> ListNode:
         
@@ -135,4 +135,4 @@ class Solution:
         if odd_tail:
             odd_tail.next = b
         return a
-```
+# ```

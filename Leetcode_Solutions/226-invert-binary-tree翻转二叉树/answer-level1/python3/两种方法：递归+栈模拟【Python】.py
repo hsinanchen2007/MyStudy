@@ -1,16 +1,16 @@
-### 思路
+# ### 思路
 
-##### 解法一
+# ##### 解法一
 
-**递归**
+# **递归**
 
-```
+# ```
 前序遍历二叉树，如果当前节点有子树，就交换左右子树。
-```
+# ```
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -34,19 +34,19 @@ class Solution:
         if root.right:
             self.invertTree(root.right)
         return root
-```
+# ```
 
-##### 解法二
+# ##### 解法二
 
-**栈**
+# **栈**
 
-```
+# ```
 用栈模拟二叉树。
-```
+# ```
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -72,8 +72,8 @@ class Solution:
                 stack.append(node.right)
                 stack.append(node.left)
         return root
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0226-Invert-Binary-Tree/0226.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0226-Invert-Binary-Tree/0226.py)

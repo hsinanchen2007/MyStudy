@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/cc68721a503084ada6c2b803138eb205951ae13dafa88080d30a0995173682a2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cc68721a503084ada6c2b803138eb205951ae13dafa88080d30a0995173682a2-image.png)
 
-### 解题思路
-解决树德遍历，最简单的方法就是递归；
-而这里判断对称，思路和判断两颗树是否完全相等类似；
-差异就在将同位置相等，变为交叉相等；即：
-left.left == right.right 和 left.right == right.left
-详细实现请看代码；
-### 代码
+// ### 解题思路
+// 解决树德遍历，最简单的方法就是递归；
+// 而这里判断对称，思路和判断两颗树是否完全相等类似；
+// 差异就在将同位置相等，变为交叉相等；即：
+// left.left == right.right 和 left.right == right.left
+// 详细实现请看代码；
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -84,4 +84,4 @@ var isSymmetricBeyondTime = function(root) {
     }
     return true;
 };
-```
+// ```

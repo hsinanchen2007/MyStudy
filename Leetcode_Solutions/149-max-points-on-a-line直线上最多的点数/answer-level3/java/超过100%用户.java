@@ -1,11 +1,11 @@
-### 解题思路
-时间复杂度O(n2)
-![image.png](https://pic.leetcode-cn.com/6be63492259252240b3a83e3de1cca75681275bf2e4fb902a212096eb3e4dffe-image.png)
+// ### 解题思路
+// 时间复杂度O(n2)
+// ![image.png](https://pic.leetcode-cn.com/6be63492259252240b3a83e3de1cca75681275bf2e4fb902a212096eb3e4dffe-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxPoints(int[][] points) {
         //先对点进行排序，将横坐标纵坐标差值较小的点排在前面
@@ -43,4 +43,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

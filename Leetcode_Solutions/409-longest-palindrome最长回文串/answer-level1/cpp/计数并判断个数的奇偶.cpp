@@ -1,5 +1,5 @@
-本解法思路比较简单，采用的是计数法，然后判断每个字符个数的奇偶进行分类处理
-```
+// 本解法思路比较简单，采用的是计数法，然后判断每个字符个数的奇偶进行分类处理
+// ```
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -24,4 +24,4 @@ public:
         return num;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-借助Vector容器进行解题
+// ### 解题思路
+// 借助Vector容器进行解题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ public:
         return res;
     }
 };
-```
+// ```

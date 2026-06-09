@@ -1,6 +1,6 @@
 
 
-```
+// ```
 
 func findSecondMinimumValue(root *TreeNode) int {
 	if root == nil {
@@ -29,4 +29,4 @@ func find(node *TreeNode,min int) int {
 	return int(math.Min(float64(right),float64(left)))
 
 }
-```
+// ```

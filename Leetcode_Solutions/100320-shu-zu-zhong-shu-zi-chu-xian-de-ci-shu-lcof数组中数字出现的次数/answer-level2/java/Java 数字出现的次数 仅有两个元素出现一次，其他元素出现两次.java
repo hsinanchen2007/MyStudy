@@ -1,9 +1,9 @@
-### 解题思路
-考察位运算；两个相同的数字进行异或为0.
+// ### 解题思路
+// 考察位运算；两个相同的数字进行异或为0.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] singleNumbers(int[] nums) {
         if (nums == null || nums.length <= 1) {
@@ -43,4 +43,4 @@ class Solution {
     	return true;
     }
 }
-```
+// ```

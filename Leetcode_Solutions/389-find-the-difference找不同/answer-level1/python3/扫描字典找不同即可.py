@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
         from collections import Counter
@@ -15,4 +15,4 @@ class Solution:
             else:
                 if t_dic[key]!=s_dic[key]:
                     return key
-```
+# ```

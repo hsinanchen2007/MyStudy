@@ -1,5 +1,5 @@
-中心扩展算法：
-```
+// 中心扩展算法：
+// ```
 class Solution 
 {
     /**
@@ -53,10 +53,10 @@ class Solution
         return $right - $left - 1;
     }
 }
-```
+// ```
 
-马拉车算法：
-```
+// 马拉车算法：
+// ```
 class Solution 
 {
     /**
@@ -108,4 +108,4 @@ class Solution
         return substr($s, ($resCenter - $resLen)/2, $resLen - 1);
     }
 }
-```
+// ```

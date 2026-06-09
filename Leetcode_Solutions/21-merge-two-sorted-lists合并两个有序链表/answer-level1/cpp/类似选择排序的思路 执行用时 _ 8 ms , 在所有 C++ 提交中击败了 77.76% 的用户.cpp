@@ -1,9 +1,9 @@
-### 解题思路
-这种题目一般都是要有一个dummy head比较容易操作.
+// ### 解题思路
+// 这种题目一般都是要有一个dummy head比较容易操作.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ public:
         return pHead->next;
     }
 };
-```
+// ```

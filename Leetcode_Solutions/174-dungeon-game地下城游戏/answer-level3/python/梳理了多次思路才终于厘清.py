@@ -1,10 +1,10 @@
-### 解题思路
-对动态规划的状态转移方程没有厘清，导致边界条件异常，来回调试六次之后，才终于完成。
-* ![dungeon.png](https://pic.leetcode-cn.com/0c21242d9b14b8bb459d65a78f9a8b765b1519d8e04947b63e51c5248daf526e-dungeon.png)
+# ### 解题思路
+# 对动态规划的状态转移方程没有厘清，导致边界条件异常，来回调试六次之后，才终于完成。
+# * ![dungeon.png](https://pic.leetcode-cn.com/0c21242d9b14b8bb459d65a78f9a8b765b1519d8e04947b63e51c5248daf526e-dungeon.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def calculateMinimumHP(self, dungeon):
         """
@@ -48,4 +48,4 @@ class Solution(object):
                         dp[i][j] = 1
         return dp[0][0]
 
-```
+# ```

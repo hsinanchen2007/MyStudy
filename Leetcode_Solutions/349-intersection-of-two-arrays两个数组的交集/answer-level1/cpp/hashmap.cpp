@@ -1,9 +1,9 @@
-### 解题思路
-很容易想到，用一个HashMao保存数组1中出现的元素，其次遍历数组2，将存在于hashmap中元素标记出来即为输出的交际元素。
+// ### 解题思路
+// 很容易想到，用一个HashMao保存数组1中出现的元素，其次遍历数组2，将存在于hashmap中元素标记出来即为输出的交际元素。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -22,4 +22,4 @@ public:
 	}
 };
 
-```
+// ```

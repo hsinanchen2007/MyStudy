@@ -1,14 +1,14 @@
-1. 关于复杂度
-  1.1 时间复杂度为 O(n)
-  1.2 空间负责度为 O(1)
-2. 我的解题思路
-  2.1 将前k个元素加到结果 res 中
-  2.2 将 res 的值赋给临时变量 temp
-  2.3 对临时变量 temp 进行加当前元素以及减去 i-k 索引下的元素，对比 temp 以及 sum 的大小并交换
+// 1. 关于复杂度
+//   1.1 时间复杂度为 O(n)
+//   1.2 空间负责度为 O(1)
+// 2. 我的解题思路
+//   2.1 将前k个元素加到结果 res 中
+//   2.2 将 res 的值赋给临时变量 temp
+//   2.3 对临时变量 temp 进行加当前元素以及减去 i-k 索引下的元素，对比 temp 以及 sum 的大小并交换
 
-<br />
-### java实现
-```
+// <br />
+// ### java实现
+// ```
 class Solution{
 
     /**
@@ -43,11 +43,11 @@ class Solution{
         return res*1.0/k;
     }
 }
-```
+// ```
 
-<br />
-### php实现
-```
+// <br />
+// ### php实现
+// ```
 class Solution{
 
     /**
@@ -84,7 +84,7 @@ class Solution{
         return number_format($res * 1.0 / $k, 5);
     }
 }
-```
+// ```
 
-如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
-你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路
+// 如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
+// 你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路

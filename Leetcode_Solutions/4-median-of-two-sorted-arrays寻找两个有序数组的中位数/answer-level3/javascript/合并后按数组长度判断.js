@@ -1,11 +1,11 @@
-### 解题思路
-1.合并数组
-2.将数组从小到大排序
-3.判断合并后数组长度奇偶
-4.根据长度奇偶返回不同索引的值
-### 代码
+// ### 解题思路
+// 1.合并数组
+// 2.将数组从小到大排序
+// 3.判断合并后数组长度奇偶
+// 4.根据长度奇偶返回不同索引的值
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -20,4 +20,4 @@ var findMedianSortedArrays = function(nums1, nums2) {
         return arr[(len - 1) / 2]
     }
 };
-```
+// ```

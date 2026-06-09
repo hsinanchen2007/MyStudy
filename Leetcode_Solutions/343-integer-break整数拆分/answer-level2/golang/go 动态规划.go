@@ -1,8 +1,8 @@
-- golang
-- 动态规划
-- 重点区分n<=3时最大乘积dp[n] < n, 需要使用n
+// - golang
+// - 动态规划
+// - 重点区分n<=3时最大乘积dp[n] < n, 需要使用n
 
-``` golang
+// ``` golang
 func integerBreak(n int) int {
     return method_dp(n)
 }
@@ -30,4 +30,4 @@ func getMax(a, b int) int {
     }
     return b
 }
-```
+// ```

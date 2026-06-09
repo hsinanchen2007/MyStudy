@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public int LengthOfLastWord(string s) {
         int lastCount = 0;
@@ -19,4 +19,4 @@ public class Solution {
         return lastCount;
     }
 }
-```
+// ```

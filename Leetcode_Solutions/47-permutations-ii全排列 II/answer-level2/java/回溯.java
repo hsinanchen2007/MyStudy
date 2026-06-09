@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public List<List<Integer>> permuteUnique(int[] nums) {
 		List<List<Integer>> result = new LinkedList<List<Integer>>();
@@ -35,4 +35,4 @@ class Solution {
 	}
 }
 
-```![image.png](https://pic.leetcode-cn.com/942b68fa4eabf07bf80b04c42aee8792402e5df47ac61a8350d94cf807458a1c-image.png)
+// ```![image.png](https://pic.leetcode-cn.com/942b68fa4eabf07bf80b04c42aee8792402e5df47ac61a8350d94cf807458a1c-image.png)

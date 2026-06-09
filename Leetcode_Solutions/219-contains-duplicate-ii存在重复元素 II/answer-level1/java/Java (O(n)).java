@@ -1,9 +1,9 @@
-### 解题思路
-利用HashMap存储每个num[i]的最新位置。
+// ### 解题思路
+// 利用HashMap存储每个num[i]的最新位置。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap();
@@ -20,4 +20,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

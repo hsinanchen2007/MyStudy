@@ -1,9 +1,9 @@
-### 解题思路
-双指针确实巧妙，一个在开头，一个在结尾，相等就结束循环，刚好一次遍历
+// ### 解题思路
+// 双指针确实巧妙，一个在开头，一个在结尾，相等就结束循环，刚好一次遍历
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
@@ -36,4 +36,4 @@ class Solution {
 
     }
 }
-```
+// ```

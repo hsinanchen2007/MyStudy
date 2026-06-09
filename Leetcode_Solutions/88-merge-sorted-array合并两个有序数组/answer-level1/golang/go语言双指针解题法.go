@@ -1,4 +1,4 @@
-```
+// ```
 func merge(nums1 []int, m int, nums2 []int, n int) {
 	total := n + m
 	for n > 0 && m > 0 {
@@ -17,4 +17,4 @@ func merge(nums1 []int, m int, nums2 []int, n int) {
 		total--
 	}
 }
-```
+// ```

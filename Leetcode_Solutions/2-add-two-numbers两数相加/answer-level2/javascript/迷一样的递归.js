@@ -1,7 +1,7 @@
-### 解题思路
-通过递归的方式进入数据链，然后在计算
-### (进)递归这就是正常的递归
-``` javascript
+// ### 解题思路
+// 通过递归的方式进入数据链，然后在计算
+// ### (进)递归这就是正常的递归
+// ``` javascript
 var addTwoNumbers = function (p1, p2, x = 0) { // 因为有进1，所以需要在方法参数里面添加了一个 x
     let [obj, v1, v2, v3, v4] = [
         new ListNode(),
@@ -23,10 +23,10 @@ var addTwoNumbers = function (p1, p2, x = 0) { // 因为有进1，所以需要�
     }
     return obj;
 };
-```
-### (取)递归 ，主要是通过递归吧里面的值取出来
-这是根据上面的递归演化而来的，但是好像这玩意除了内存开销比递归小好像没有一点用处还难看懂
-```javascript
+// ```
+// ### (取)递归 ，主要是通过递归吧里面的值取出来
+// 这是根据上面的递归演化而来的，但是好像这玩意除了内存开销比递归小好像没有一点用处还难看懂
+// ```javascript
 var addTwoNumbers = function (l1, l2, obj = new ListNode(0)) {
     let obj_ = obj;
     // 下面 for ;; 里面定义的递归的赋值 也就是下面的那句但是发现可能导致多一位0，ps：{1},{2}
@@ -44,4 +44,4 @@ var addTwoNumbers = function (l1, l2, obj = new ListNode(0)) {
     }
     return obj;
 }
-```
+// ```

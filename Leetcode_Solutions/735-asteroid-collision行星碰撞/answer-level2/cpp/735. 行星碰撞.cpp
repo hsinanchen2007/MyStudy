@@ -1,11 +1,11 @@
-### 暴力
-按照题目意思做就可以了。
-### 时间/空间复杂度
-时间复杂度：O（n）
-空间复杂度：O（1）
-### 代码
+// ### 暴力
+// 按照题目意思做就可以了。
+// ### 时间/空间复杂度
+// 时间复杂度：O（n）
+// 空间复杂度：O（1）
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
@@ -29,4 +29,4 @@ public:
         return asteroids;
     }
 };
-```
+// ```

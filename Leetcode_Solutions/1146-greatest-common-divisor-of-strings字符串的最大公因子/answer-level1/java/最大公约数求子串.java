@@ -1,10 +1,10 @@
-### 解题思路
-# 关键点：两个字符串有最大公因子串条件是 (str1 + str2).equals(str2 + str1)
-**若有最大公因子串，则子串长度为两子串长度的最大公因数**
+// ### 解题思路
+// # 关键点：两个字符串有最大公因子串条件是 (str1 + str2).equals(str2 + str1)
+// **若有最大公因子串，则子串长度为两子串长度的最大公因数**
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         if(!(str1 + str2).equals(str2 + str1)){
@@ -31,4 +31,4 @@ class Solution {
         }
     }
 }
-```
+// ```

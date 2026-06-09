@@ -1,4 +1,4 @@
-```python
+# ```python
 def merge(nums1, m, nums2, n):
     mn = m + n
     m -= 1
@@ -17,4 +17,4 @@ def merge(nums1, m, nums2, n):
 nums1, nums2 = [1,2,3,0,0,0], [2,5,6]
 merge(nums1, 3, nums2, 3)
 print(nums1)
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int leastInterval(char[] tasks, int n) {
         Map<Character,Integer> map = new HashMap<>();
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-**思路**：首先找到要计算重要性员工 的id，id 进辅助队列并记录其重要性，然后该员工下属的 id 进队列，该员工的 id 出队列，之后再找到下属的 id 并记录重要性，重复上述步棸，直至无下属。
-**C++ 版代码：**
-```
+// **思路**：首先找到要计算重要性员工 的id，id 进辅助队列并记录其重要性，然后该员工下属的 id 进队列，该员工的 id 出队列，之后再找到下属的 id 并记录重要性，重复上述步棸，直至无下属。
+// **C++ 版代码：**
+// ```
 class Solution {
 public:
     int getImportance(vector<Employee*> employees, int id) {
@@ -31,9 +31,9 @@ public:
     return sum;
     }
 };
-```
-**Java 版代码：**
-```
+// ```
+// **Java 版代码：**
+// ```
 class Solution {
     public int getImportance(List<Employee> employees, int id) {
         int sum = 0;          // 存储所求员工重要性变量
@@ -64,5 +64,5 @@ class Solution {
 		return sum;    
     }
 }
-```
+// ```
 

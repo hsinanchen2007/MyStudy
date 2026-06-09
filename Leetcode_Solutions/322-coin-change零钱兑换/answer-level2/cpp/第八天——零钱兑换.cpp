@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-动态规划还不是非常熟练，推导出了$f(n) = min{f(n-c[0]), f(n-c[1]) \dots f(n-c[n-])} + 1$，但具体代码实现还需加强。
+// 动态规划还不是非常熟练，推导出了$f(n) = min{f(n-c[0]), f(n-c[1]) \dots f(n-c[n-])} + 1$，但具体代码实现还需加强。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
@@ -20,7 +20,7 @@ public:
         return result[amount] > amount ? -1:result[amount];
     }
 };
-```
+// ```
 
 
 

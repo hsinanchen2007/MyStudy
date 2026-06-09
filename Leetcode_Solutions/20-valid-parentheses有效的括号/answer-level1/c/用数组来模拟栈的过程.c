@@ -1,9 +1,9 @@
-### 解题思路
-用数组来模拟栈的过程
+// ### 解题思路
+// 用数组来模拟栈的过程
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValid(char * s){
     int len=strlen(s);
     char *a=malloc(sizeof(char)*2*len);
@@ -38,4 +38,4 @@ bool isValid(char * s){
         return true;
     return false;
 }
-```
+// ```

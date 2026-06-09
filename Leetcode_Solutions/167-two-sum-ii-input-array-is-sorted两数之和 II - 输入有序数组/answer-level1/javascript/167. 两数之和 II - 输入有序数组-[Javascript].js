@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} numbers
  * @param {number} target
@@ -26,5 +26,5 @@ var twoSum = function(numbers, target) {
     }
   }
 };
-```
-题目写明是有序数组, 运用双指针解决
+// ```
+// 题目写明是有序数组, 运用双指针解决

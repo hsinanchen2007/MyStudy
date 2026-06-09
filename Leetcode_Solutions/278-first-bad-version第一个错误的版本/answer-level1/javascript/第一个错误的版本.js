@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-考点：二分查找
+// 考点：二分查找
 
-注意：开始值和结束值的选取；二分结果是小数的处理
+// 注意：开始值和结束值的选取；二分结果是小数的处理
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var solution = function(isBadVersion) {
     return function(n) {
       if (n === 1) return n;
@@ -24,4 +24,4 @@ var solution = function(isBadVersion) {
       return middle;
     };
 };
-```
+// ```

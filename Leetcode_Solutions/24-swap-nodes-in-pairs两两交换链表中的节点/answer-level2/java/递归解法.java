@@ -1,9 +1,9 @@
-### 解题思路
-又强化了一次递归思想
+// ### 解题思路
+// 又强化了一次递归思想
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
 		return next;
     }
 }
-```
+// ```

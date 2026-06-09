@@ -1,8 +1,8 @@
-### 解题思路
-水了一题，先贴个代码，可能要留着吃灰了。
-### 代码
+// ### 解题思路
+// 水了一题，先贴个代码，可能要留着吃灰了。
+// ### 代码
 
-```java []
+// ```java []
 /**
  * // This is the interface that allows for creating nested lists.
  * // You should not implement it, or speculate about its implementation
@@ -64,4 +64,4 @@ public class NestedIterator implements Iterator<Integer> {
  * NestedIterator i = new NestedIterator(nestedList);
  * while (i.hasNext()) v[f()] = i.next();
  */
-```
+// ```

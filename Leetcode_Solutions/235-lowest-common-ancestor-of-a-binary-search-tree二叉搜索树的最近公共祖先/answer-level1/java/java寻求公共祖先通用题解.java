@@ -1,12 +1,12 @@
-### 解题思路
-求一个树的公共祖先通用思路：
-如果左子树包含t1且右子树包含t2或右子树包含t2且左子树包含t1，返回root；
-否则对左右子树递归函数。
+// ### 解题思路
+// 求一个树的公共祖先通用思路：
+// 如果左子树包含t1且右子树包含t2或右子树包含t2且左子树包含t1，返回root；
+// 否则对左右子树递归函数。
 
-要注意的是，若root等于t1或root等于t2，此时返回root
-### 代码
+// 要注意的是，若root等于t1或root等于t2，此时返回root
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -56,4 +56,4 @@ class Solution {
         return found;
     }
 }
-```
+// ```

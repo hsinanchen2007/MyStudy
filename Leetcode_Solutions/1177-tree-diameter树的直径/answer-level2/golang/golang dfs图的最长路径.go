@@ -1,6 +1,6 @@
-第一遍找最深的节点
-第二遍计算长度
-```
+// 第一遍找最深的节点
+// 第二遍计算长度
+// ```
 func treeDiameter(edges [][]int) int {
     max := 0
     n := 10000
@@ -33,4 +33,4 @@ func dfs(idx int, grid []map[int]bool, visited map[[2]int]bool, count int, max, 
         dfs(i, grid, visited, count + 1, max, ret)
     }
 }
-```
+// ```

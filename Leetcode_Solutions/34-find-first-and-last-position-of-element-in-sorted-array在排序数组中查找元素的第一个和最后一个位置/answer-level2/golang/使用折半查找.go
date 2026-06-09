@@ -1,12 +1,12 @@
-### 解题思路
-1、折半查找，这里要注意边界情况，否者可能会出现死循环
-2、在寻找中点时，尽量不要使用 mid = (low + high) /2，如果数字过大，可能会导致内存
-溢出
-3、使用 2>>1 移位比 除2的速度快
+// ### 解题思路
+// 1、折半查找，这里要注意边界情况，否者可能会出现死循环
+// 2、在寻找中点时，尽量不要使用 mid = (low + high) /2，如果数字过大，可能会导致内存
+// 溢出
+// 3、使用 2>>1 移位比 除2的速度快
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func searchRange(nums []int, target int) []int {
 	var (
 		length  int
@@ -69,4 +69,4 @@ func searchRange(nums []int, target int) []int {
 	return ret
 
 }
-```
+// ```

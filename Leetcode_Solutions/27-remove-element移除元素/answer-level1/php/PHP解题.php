@@ -1,5 +1,5 @@
-遍历一次即可
-```
+// 遍历一次即可
+// ```
 class Solution {
 
     /**
@@ -23,4 +23,4 @@ class Solution {
         return $times;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
 
-```
+# ```
 '''
 先求开销的累加和，然后二分搜索累加的起点
 '''
@@ -37,4 +37,4 @@ class Solution:
             ans = max(ans, length)
 
         return ans
-```
+# ```

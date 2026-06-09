@@ -1,5 +1,5 @@
-**思路1：** 双指针，从字符串两头往中间遍历并进行比对，跳过非数字或字母项。
-```
+// **思路1：** 双指针，从字符串两头往中间遍历并进行比对，跳过非数字或字母项。
+// ```
 public bool IsPalindrome(string s)
         {
             if (s == null)
@@ -34,9 +34,9 @@ public bool IsPalindrome(string s)
 
             return true;
         }
-```
-利用现成类库进一步简化代码
-```
+// ```
+// 利用现成类库进一步简化代码
+// ```
 public bool IsPalindrome(string s)
         {
             if (s == null)
@@ -74,4 +74,4 @@ public bool IsPalindrome(string s)
 
             return true;
         }
-```
+// ```

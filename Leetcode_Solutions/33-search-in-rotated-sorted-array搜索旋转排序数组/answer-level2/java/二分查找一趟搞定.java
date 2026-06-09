@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int search(int[] nums, int target) {
         int left = 0;
@@ -31,4 +31,4 @@ class Solution {
         return -1;  //没找到
     }
 }
-```
+// ```

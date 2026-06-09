@@ -1,8 +1,8 @@
-### 解题思路
-## 优乐美
-### 代码
+// ### 解题思路
+// ## 优乐美
+// ### 代码
 
-```java
+// ```java
 class TrieNode {
 	public char val;
 	public boolean isWord;
@@ -73,4 +73,4 @@ class Trie {
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
-```
+// ```

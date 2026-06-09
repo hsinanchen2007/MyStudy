@@ -1,8 +1,8 @@
-照着官方的写法写了一版，思路:
-- 找到第一个左边比右边小的数
-- 让该数之后升序排序
+// 照着官方的写法写了一版，思路:
+// - 找到第一个左边比右边小的数
+// - 让该数之后升序排序
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -36,6 +36,6 @@ const swap = function(nums,len1, len2) {
   nums[len1] = nums[len2];
   nums[len2] = temp;
 }
-```
-时间复杂度：O(n)，在最坏的情况下，只需要对整个数组进行两次扫描。
-空间复杂度：O(1)，没有使用额外的空间，原地替换足以做到。
+// ```
+// 时间复杂度：O(n)，在最坏的情况下，只需要对整个数组进行两次扫描。
+// 空间复杂度：O(1)，没有使用额外的空间，原地替换足以做到。

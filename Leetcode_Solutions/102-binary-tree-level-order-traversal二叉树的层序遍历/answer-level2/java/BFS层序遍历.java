@@ -1,20 +1,20 @@
-### 解题思路 BFS
-# BFS的八股格式：
-1.申请队列
-2.队列初始化
-3.while(队列不为空){
-    3.1从队列头取出元素
-    3.2对该元素进行处理，并将满足条件的其他元素加入队列
-}
-### BFS版本1：
-申请一个同样的队列layerQueue用来把同步保存当前正在处理的节点处于第几层
-例如本题目[3,9,20,null,null,15,7]：
-- queue：3 layerQueue：1
-- queue：9 20 layerQueue：2 2
-- queue：20 layerQueue：2
-- queue：15 17 layerQueue：3 3
+// ### 解题思路 BFS
+// # BFS的八股格式：
+// 1.申请队列
+// 2.队列初始化
+// 3.while(队列不为空){
+//     3.1从队列头取出元素
+//     3.2对该元素进行处理，并将满足条件的其他元素加入队列
+// }
+// ### BFS版本1：
+// 申请一个同样的队列layerQueue用来把同步保存当前正在处理的节点处于第几层
+// 例如本题目[3,9,20,null,null,15,7]：
+// - queue：3 layerQueue：1
+// - queue：9 20 layerQueue：2 2
+// - queue：20 layerQueue：2
+// - queue：15 17 layerQueue：3 3
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> ans = new LinkedList<List<Integer>>();
@@ -58,15 +58,15 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-### BFS优化后的版本2：
-可以发现queue加入元素后，此时队列中的元素就是该层的全部元素
-例如本题目[3,9,20,null,null,15,7]：
-- queue：3 ，队列长度为1，循环取出队列元素3加入列表1，同时把每个元素的左右孩子加入队列，队列变为queue：9 20 
-- queue：9 20 ，队列长度为2，循环取出队列元素9 20加入列表2，同时把每个元素的左右孩子加入队列，队列变为queue：15 17 
-- queue：15 7，...
-```java
+// ### BFS优化后的版本2：
+// 可以发现queue加入元素后，此时队列中的元素就是该层的全部元素
+// 例如本题目[3,9,20,null,null,15,7]：
+// - queue：3 ，队列长度为1，循环取出队列元素3加入列表1，同时把每个元素的左右孩子加入队列，队列变为queue：9 20 
+// - queue：9 20 ，队列长度为2，循环取出队列元素9 20加入列表2，同时把每个元素的左右孩子加入队列，队列变为queue：15 17 
+// - queue：15 7，...
+// ```java
 public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> ans = new LinkedList<List<Integer>>();
         Queue<TreeNode> queue = new LinkedList<TreeNode>();//1.申请队列，存储node
@@ -89,4 +89,4 @@ public List<List<Integer>> levelOrder(TreeNode root) {
         }
 
         return ans;
-```
+// ```

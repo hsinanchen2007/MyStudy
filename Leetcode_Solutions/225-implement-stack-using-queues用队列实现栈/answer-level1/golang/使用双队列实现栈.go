@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-根据 [@jalan](/u/jalan/)大佬的题解一自己实现了一遍，只简单修改了golang的一些写法和变量名
+// 根据 [@jalan](/u/jalan/)大佬的题解一自己实现了一遍，只简单修改了golang的一些写法和变量名
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     q1 [] int
     q2 [] int
@@ -61,4 +61,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

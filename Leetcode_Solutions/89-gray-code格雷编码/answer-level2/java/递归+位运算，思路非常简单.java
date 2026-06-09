@@ -1,8 +1,8 @@
-建议在看代码前，先看我之前写的一篇题解。
-[1238. 循环码排列](https://leetcode-cn.com/problems/circular-permutation-in-binary-representation/solution/di-gui-yi-huo-jie-fa-jue-dui-jing-bao-by-pppp-9/)
+// 建议在看代码前，先看我之前写的一篇题解。
+// [1238. 循环码排列](https://leetcode-cn.com/problems/circular-permutation-in-binary-representation/solution/di-gui-yi-huo-jie-fa-jue-dui-jing-bao-by-pppp-9/)
 
-上代码
-``` Java
+// 上代码
+// ``` Java
 class Solution {
     List<Integer> res = new ArrayList<>();
     int v;
@@ -23,4 +23,4 @@ class Solution {
         }
     }
 }
-```
+// ```

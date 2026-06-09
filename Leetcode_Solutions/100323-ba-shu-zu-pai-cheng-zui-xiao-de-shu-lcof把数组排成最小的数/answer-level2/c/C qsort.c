@@ -1,9 +1,9 @@
-### 解题思路
-和求最大值一样，自定义compare。刷着刷着就觉得C有点难过
+// ### 解题思路
+// 和求最大值一样，自定义compare。刷着刷着就觉得C有点难过
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int compare(void *a, void *b)
 {
     char temp1[100]="", temp2[100]="";
@@ -29,4 +29,4 @@ char* minNumber(int* nums, int numsSize){
         strcat(result,str[i]);
     return result;
 }
-```
+// ```

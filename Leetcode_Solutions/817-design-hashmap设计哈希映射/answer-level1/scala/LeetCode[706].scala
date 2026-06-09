@@ -1,4 +1,4 @@
-```
+// ```
 class MyHashMap() {
   class Bucket {
     var list = List[(Int, Int)]()
@@ -42,4 +42,4 @@ class MyHashMap() {
   }
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-将多余的加在前几个
+// ### 解题思路
+// 将多余的加在前几个
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -41,4 +41,4 @@ func splitListToParts(root *ListNode, k int) []*ListNode {
 	}
 	return res
 }
-```
+// ```

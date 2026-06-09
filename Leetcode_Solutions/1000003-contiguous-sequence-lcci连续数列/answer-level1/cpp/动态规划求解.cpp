@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/eefb1d6adc243d50940246816b8819cd5b7a5d66ea4b514a41aa7483f30638f0-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/eefb1d6adc243d50940246816b8819cd5b7a5d66ea4b514a41aa7483f30638f0-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
           return sum;
     }
 };
-```
+// ```

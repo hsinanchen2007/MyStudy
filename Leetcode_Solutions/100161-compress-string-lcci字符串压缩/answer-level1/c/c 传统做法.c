@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -99,4 +99,4 @@ char * compressString( char * S ){
     return buffer;
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-有点不相信为啥只击败了5.02% 待我看看其他人的写法
+-- ### 解题思路
+-- 有点不相信为啥只击败了5.02% 待我看看其他人的写法
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -26,4 +26,4 @@ order by pay_month desc, department_id
 
 
 
-```
+-- ```

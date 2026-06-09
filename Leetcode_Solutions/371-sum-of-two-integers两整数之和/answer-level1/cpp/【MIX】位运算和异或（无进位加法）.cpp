@@ -1,10 +1,10 @@
-### 解题思路
-记录无进位加法的值`a^b`和进位值`a&b`, 当进位值为0时返回无进位加法值
+// ### 解题思路
+// 记录无进位加法的值`a^b`和进位值`a&b`, 当进位值为0时返回无进位加法值
 
-### 代码
+// ### 代码
 
-**递归**
-```c++ []
+// **递归**
+// ```c++ []
 class Solution {
 public:
     int getSum(int a, int b) {
@@ -15,9 +15,9 @@ public:
         return getSum(s, c);
     }
 };
-```
-**迭代**
-```c++ []
+// ```
+// **迭代**
+// ```c++ []
 class Solution {
 public:
     int getSum(int a, int b) {
@@ -29,4 +29,4 @@ public:
         return a;
     }
 };
-```
+// ```

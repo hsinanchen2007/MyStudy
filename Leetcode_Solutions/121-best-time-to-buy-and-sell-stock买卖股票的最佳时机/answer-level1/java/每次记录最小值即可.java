@@ -1,9 +1,9 @@
-### 解题思路
-记录最小值 然后拿当前数组值减即可
+// ### 解题思路
+// 记录最小值 然后拿当前数组值减即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         //股票的最大利润 dp动态规划
@@ -27,4 +27,4 @@ class Solution {
         return maxSum;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-一开始还考虑a是否为0退化为一次函数，发现没必要，直接考虑2ax+b不变号的两个区间，分别存到两个vector里，如果是递减就reverse一下，最后两个merge。
+// 一开始还考虑a是否为0退化为一次函数，发现没必要，直接考虑2ax+b不变号的两个区间，分别存到两个vector里，如果是递减就reverse一下，最后两个merge。
 
-4ms,直接sort是8ms.
-```
+// 4ms,直接sort是8ms.
+// ```
 class Solution {
 public:
     int f(int x,int a,int b,int c){
@@ -24,4 +24,4 @@ public:
         return ans;
     }
 };
-```
+// ```

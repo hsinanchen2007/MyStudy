@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def carPooling(self, trips, capacity):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 if curr_capacity>capacity: #超重了
                     return False
         return True
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {number}
@@ -24,4 +24,4 @@ var minAddToMakeValid = function(S) {
 //res表示多余的）缺少的（
 //cnt表示多余的（缺少的）
 };
-```
+// ```

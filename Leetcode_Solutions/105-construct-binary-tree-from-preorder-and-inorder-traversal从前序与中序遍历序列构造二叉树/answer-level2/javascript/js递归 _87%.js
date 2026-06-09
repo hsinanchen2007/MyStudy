@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -69,7 +69,7 @@ var buildTree = function(preorder, inorder) {
     helper(root, 0, rootIndex, 0, inorder.length - 1);
     return root;
 };
-```
+// ```
 
 
-![image.png](https://pic.leetcode-cn.com/e5226ca1762cf9860fd1b44b17d6532a45fa9887422eb6aea4717ad05f6674a9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e5226ca1762cf9860fd1b44b17d6532a45fa9887422eb6aea4717ad05f6674a9-image.png)

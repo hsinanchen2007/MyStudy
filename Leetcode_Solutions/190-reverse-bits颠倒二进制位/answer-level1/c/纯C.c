@@ -1,9 +1,9 @@
-### 解题思路
-纯C 反转位操作模板
+// ### 解题思路
+// 纯C 反转位操作模板
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 uint32_t reverseBits(uint32_t n) {
     uint32_t res = 0;
     int index = 0;
@@ -16,4 +16,4 @@ uint32_t reverseBits(uint32_t n) {
 
     return res;
 }
-```
+// ```

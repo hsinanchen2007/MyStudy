@@ -1,6 +1,6 @@
-排序后将数组中当前元素增加到对应位置，记录增加到"对应"位置需要花费的值
+// 排序后将数组中当前元素增加到对应位置，记录增加到"对应"位置需要花费的值
 
-```js
+// ```js
 var minIncrementForUnique = function(A) {
   let len = A.length
   if (len < 2) return 0
@@ -15,4 +15,4 @@ var minIncrementForUnique = function(A) {
 
   return result
 }
-```
+// ```

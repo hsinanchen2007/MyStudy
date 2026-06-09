@@ -1,4 +1,4 @@
-```
+// ```
 bool* prefixesDivBy5(int* A, int ASize, int* returnSize){
     bool *ret;
     int sum = 0;
@@ -16,4 +16,4 @@ bool* prefixesDivBy5(int* A, int ASize, int* returnSize){
     return ret;
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 	int ys(int a,int b){//求最大公约数 
@@ -26,4 +26,4 @@ public:
 		return min>=2;
     }
 };
-```
+// ```

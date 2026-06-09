@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
- # label[i] 表示第i个元素的最大递增序列有多少种
- # dp[i]表示第i个元素最大递增序列的长度
- #nums[i]>nums[j] and dp[i]=dp[j]+1
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+#  # label[i] 表示第i个元素的最大递增序列有多少种
+#  # dp[i]表示第i个元素最大递增序列的长度
+#  #nums[i]>nums[j] and dp[i]=dp[j]+1
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNumberOfLIS(self, nums: List[int]) -> int:
         if not nums:
@@ -29,4 +29,4 @@ class Solution:
             if dp[i]==maxs:
                ans+=label[i]
         return ans
-```
+# ```

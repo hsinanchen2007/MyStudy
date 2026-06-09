@@ -1,4 +1,4 @@
-```
+// ```
 int main(int argc, char** argv) {
 	string num1,num2,ret;
 	cin >> num1 >> num2;
@@ -19,4 +19,4 @@ int main(int argc, char** argv) {
 	cout << ret;
 	return 0;
 }
-```
+// ```

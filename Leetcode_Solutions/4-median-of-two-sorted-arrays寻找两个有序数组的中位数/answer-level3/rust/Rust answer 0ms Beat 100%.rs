@@ -1,9 +1,9 @@
-### 解题思路
-Rust 0ms answer
+// ### 解题思路
+// Rust 0ms answer
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
 pub fn find_median_sorted_arrays(nums1: Vec<i32>, nums2: Vec<i32>) -> f64 {
     let (nums1_len,nums2_len) = (nums1.len(),nums2.len());
@@ -26,4 +26,4 @@ pub fn find_median_sorted_arrays(nums1: Vec<i32>, nums2: Vec<i32>) -> f64 {
     }
 }
 }
-```
+// ```

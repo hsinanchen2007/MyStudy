@@ -1,9 +1,9 @@
-### 解题思路
-记录偶数下标，交换数组的值
+// ### 解题思路
+// 记录偶数下标，交换数组的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArrayByParity(int[] A) {
         //在此之前的都是偶数
@@ -21,4 +21,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

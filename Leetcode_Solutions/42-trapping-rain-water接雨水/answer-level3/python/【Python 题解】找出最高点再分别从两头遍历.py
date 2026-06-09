@@ -1,7 +1,7 @@
-1. 找出最高点
-2. 分别从两边往最高点遍历：如果下一个数比当前数小，说明可以接到水
+# 1. 找出最高点
+# 2. 分别从两边往最高点遍历：如果下一个数比当前数小，说明可以接到水
 
-```python
+# ```python
 class Solution(object):
     def trap(self, height):
         """
@@ -41,4 +41,4 @@ class Solution(object):
                 area = area + (tmp - height[i])
         
         return area
-```
+# ```

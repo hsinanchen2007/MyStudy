@@ -1,18 +1,18 @@
-### 解题思路
-经典的hash表问题，C语言使用uthash解决。
+// ### 解题思路
+// 经典的hash表问题，C语言使用uthash解决。
 
-1.将数据建立hash表
+// 1.将数据建立hash表
 
-2.遍历hash表，对于每个key，按照其个数循环，判断是否能够组成正确结果。
+// 2.遍历hash表，对于每个key，按照其个数循环，判断是否能够组成正确结果。
 
-注意，遍历的时候，先要减掉当前值的计数，再判断另一个值是否满足。
+// 注意，遍历的时候，先要减掉当前值的计数，再判断另一个值是否满足。
 
 
-![image.png](https://pic.leetcode-cn.com/f4028faae00ba2c88b47a8b2a3bb15ab9600ae25eb43d813bffbf37d8033eb34-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f4028faae00ba2c88b47a8b2a3bb15ab9600ae25eb43d813bffbf37d8033eb34-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -91,4 +91,4 @@ int** pairSums(int* nums, int numsSize, int target, int* returnSize, int** retur
     *returnColumnSizes = ret_col;
     return ret;
 }
-```
+// ```

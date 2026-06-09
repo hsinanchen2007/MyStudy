@@ -1,10 +1,10 @@
-### 解题思路
-这道题第一次做的时候就想直接用find(v.begin(),v.end(),val)查。。 结果时间通过不了。
-最后还是用了set来存储vector的值。 使用s.find(val)查。 这样的速度更快？？  就通过了
+// ### 解题思路
+// 这道题第一次做的时候就想直接用find(v.begin(),v.end(),val)查。。 结果时间通过不了。
+// 最后还是用了set来存储vector的值。 使用s.find(val)查。 这样的速度更快？？  就通过了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ public:
         return len>0?num+1:num;
     }
 };
-```
+// ```

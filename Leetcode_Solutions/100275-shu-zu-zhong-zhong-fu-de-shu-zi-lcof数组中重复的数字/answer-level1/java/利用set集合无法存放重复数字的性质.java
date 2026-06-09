@@ -1,9 +1,9 @@
-### 解题思路
-利用set集合无法存放重复数字的性质
+// ### 解题思路
+// 利用set集合无法存放重复数字的性质
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
     Set<Integer> set = new HashSet<>();
@@ -21,4 +21,4 @@ class Solution {
        return ans;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先进行中序遍历，然后判断中序遍历的数组是否是递增序列
+// ### 解题思路
+// 先进行中序遍历，然后判断中序遍历的数组是否是递增序列
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -36,4 +36,4 @@ var isValidBST = function(root) {
     }
     return flag;
 };
-```
+// ```

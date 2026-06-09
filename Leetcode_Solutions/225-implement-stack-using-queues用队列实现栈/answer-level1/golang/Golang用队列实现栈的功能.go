@@ -1,6 +1,6 @@
-1、go中没有实现队列的功能，需要自己实现一个队列的功能
+// 1、go中没有实现队列的功能，需要自己实现一个队列的功能
 
-```go
+// ```go
 type Item interface {
 }
 
@@ -49,11 +49,11 @@ func (q *Queue) IsEmpty() bool {
 func (q *Queue) Size() int {
 	return len(q.list)
 }
-```
+// ```
 
-2、 初始化队列
-这里选择用一个队列来实现
-```go
+// 2、 初始化队列
+// 这里选择用一个队列来实现
+// ```go
 func Constructor() MyStack {
 	queue := NewQueue()
 
@@ -63,23 +63,23 @@ func Constructor() MyStack {
 
 	return stack
 }
-```
+// ```
 
-3、 入栈
-插入队列末尾，这里我们将元素的排列顺序和队列相同
+// 3、 入栈
+// 插入队列末尾，这里我们将元素的排列顺序和队列相同
 
-```go
+// ```go
 func (this *MyStack) Push(x int) {
 	this.queue.Enqueue(x)
 }
-```
-时间复杂度: **O(1)**
+// ```
+// 时间复杂度: **O(1)**
 
-4、出栈
-需要反向从队列中取数据
-- 取出队列头**size-1**个元素放入队列末尾
-- 再从队尾取出一个元素，即为需要出栈的元素
-```go
+// 4、出栈
+// 需要反向从队列中取数据
+// - 取出队列头**size-1**个元素放入队列末尾
+// - 再从队尾取出一个元素，即为需要出栈的元素
+// ```go
 func (this *MyStack) Pop() int {
 	size := this.queue.Size()
 
@@ -94,11 +94,11 @@ func (this *MyStack) Pop() int {
 
 	return 0
 }
-```
-时间复杂度: **O(n)**
+// ```
+// 时间复杂度: **O(n)**
 
-- 完整代码
-```go
+// - 完整代码
+// ```go
 type MyStack struct {
 	queue *Queue
 }
@@ -154,6 +154,6 @@ func (this *MyStack) Top() int {
 func (this *MyStack) Empty() bool {
 	return this.queue.IsEmpty()
 }
-```
+// ```
 
 

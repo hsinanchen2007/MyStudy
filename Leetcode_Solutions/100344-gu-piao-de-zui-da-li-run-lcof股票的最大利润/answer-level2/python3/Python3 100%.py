@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if not prices:
@@ -9,4 +9,4 @@ class Solution:
             min_p = min(price,min_p)
             res = max(res,price-min_p)
         return res
-```
+# ```

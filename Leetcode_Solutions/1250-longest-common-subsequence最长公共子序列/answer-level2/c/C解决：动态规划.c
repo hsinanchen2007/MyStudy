@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-摘自博客：https://blog.csdn.net/weixin_40673608/article/details/84262695
+// 摘自博客：https://blog.csdn.net/weixin_40673608/article/details/84262695
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(x,y) x > y ? x : y
 
 int longestCommonSubsequence(char * text1, char * text2)
@@ -44,4 +44,4 @@ int longestCommonSubsequence(char * text1, char * text2)
 
     return LCS[len_text1 - 1][len_text2 - 1];
 }
-```
+// ```

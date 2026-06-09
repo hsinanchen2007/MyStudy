@@ -1,5 +1,5 @@
-*法一：字符串现成的indexOf()方法*
-```js
+// *法一：字符串现成的indexOf()方法*
+// ```js
 var strStr = function(haystack, needle) {
     return haystack.indexOf(needle)
 };
@@ -7,10 +7,10 @@ var strStr = function(haystack, needle) {
 var haystack = "hello";
 var needle = "ll";
 console.log(strStr(haystack, needle))
-```
+// ```
 
-*法二：借鉴字符串的substr方法*
-```js
+// *法二：借鉴字符串的substr方法*
+// ```js
 var strStr2 = function(haystack, needle) {
     var len = haystack.length;
     var needleLen = needle.length;
@@ -28,4 +28,4 @@ var strStr2 = function(haystack, needle) {
 };
 
 console.log(strStr2(haystack, needle))
-```
+// ```

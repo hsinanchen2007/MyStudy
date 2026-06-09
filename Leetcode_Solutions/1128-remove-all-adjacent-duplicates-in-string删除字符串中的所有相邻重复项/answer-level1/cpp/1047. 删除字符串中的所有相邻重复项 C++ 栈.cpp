@@ -1,9 +1,9 @@
-### 解题思路
-栈：循环遍历，遍历元素与栈顶相等时弹出，剩余元素构成字符串
+// ### 解题思路
+// 栈：循环遍历，遍历元素与栈顶相等时弹出，剩余元素构成字符串
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string removeDuplicates(string S)
@@ -28,4 +28,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-使用矢量长度计算边长，矢量乘法计算直角
-时间和内存均击败100%
+// ### 解题思路
+// 使用矢量长度计算边长，矢量乘法计算直角
+// 时间和内存均击败100%
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int int_cmp(const void * a, const void * b)
 {
@@ -79,4 +79,4 @@ bool validSquare(int* p1, int p1Size, int* p2, int p2Size, int* p3, int p3Size, 
 
     return false;
 }
-```
+// ```

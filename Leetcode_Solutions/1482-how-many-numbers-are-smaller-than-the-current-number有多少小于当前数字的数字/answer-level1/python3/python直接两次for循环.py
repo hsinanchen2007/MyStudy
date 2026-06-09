@@ -1,9 +1,9 @@
-### 解题思路
-前面如果遇到的话，可以在res里面顺便记录下，节省时间
+# ### 解题思路
+# 前面如果遇到的话，可以在res里面顺便记录下，节省时间
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def smallerNumbersThanCurrent(self, nums: [int]) -> [int]:
         if nums == []:
@@ -19,4 +19,4 @@ class Solution:
                 elif nums[j] > nums[i]:
                     res[j] += 1
         return res
-```
+# ```

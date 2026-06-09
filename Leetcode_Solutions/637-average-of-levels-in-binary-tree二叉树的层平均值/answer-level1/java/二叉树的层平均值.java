@@ -1,9 +1,9 @@
-### 解题思路
-本题实质是二叉树的层序遍历，遍历一层，就求这一层的平均值。
+// ### 解题思路
+// 本题实质是二叉树的层序遍历，遍历一层，就求这一层的平均值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,22 +1,22 @@
-### 思路
-- list：保存key和value值
-- unordered_map：保存key值和list迭代器之间映射关系
+// ### 思路
+// - list：保存key和value值
+// - unordered_map：保存key值和list迭代器之间映射关系
 
 
-```
+// ```
 void splice( const_iterator pos, list& other, const_iterator it );//从other转移it所指向的元素到*this，元素被插入到pos所指向的元素之前
-```
+// ```
 
-#### get
-1. 查找哈希表看是否存在，如果不存在则返回-1
-2. 如果存在，则移动到list头部(使用splice)
-#### put
-1. 查看哈希表看是否存在，如果存在，则删除
-2. 将该key-value放入list头部并更新哈希表
-3. 如果哈希表超过容量，则删除尾部元素同时从list中删除尾部元素
-### 代码
+// #### get
+// 1. 查找哈希表看是否存在，如果不存在则返回-1
+// 2. 如果存在，则移动到list头部(使用splice)
+// #### put
+// 1. 查看哈希表看是否存在，如果存在，则删除
+// 2. 将该key-value放入list头部并更新哈希表
+// 3. 如果哈希表超过容量，则删除尾部元素同时从list中删除尾部元素
+// ### 代码
 
-```cpp
+// ```cpp
 class LRUCache {
 public:
     LRUCache(int capacity) {
@@ -46,4 +46,4 @@ private:
     list<pair<int, int>> li;
     unordered_map<int, list<pair<int, int>>::iterator> ump;
 };
-```
+// ```

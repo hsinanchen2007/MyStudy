@@ -1,9 +1,9 @@
-### 解题思路
-为空时，返回0
+// ### 解题思路
+// 为空时，返回0
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
     if(numsSize==0) return 0;
     int k=0;
@@ -14,4 +14,4 @@ int removeDuplicates(int* nums, int numsSize){
     return k+1;
 
 }
-```
+// ```

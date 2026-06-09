@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     int nthUglyNumber(int n) {
@@ -17,4 +17,4 @@ public:
         return nums[n - 1];
     }
 };
-```
+// ```

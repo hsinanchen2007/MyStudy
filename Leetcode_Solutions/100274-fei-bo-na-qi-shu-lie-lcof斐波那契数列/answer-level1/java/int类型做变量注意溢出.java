@@ -1,10 +1,10 @@
-### 解题思路
-解题思路详见公众号
-![gzh.jpg](https://pic.leetcode-cn.com/57d1906e21951ada9f1bf4688b4306290048f7e92e9405677c50f2c3bec6531a-gzh.jpg)
+// ### 解题思路
+// 解题思路详见公众号
+// ![gzh.jpg](https://pic.leetcode-cn.com/57d1906e21951ada9f1bf4688b4306290048f7e92e9405677c50f2c3bec6531a-gzh.jpg)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int fib(int n) {
         Long result = Long.valueOf(0); //int类型在n=47时结果会溢出 所以用Long类型变量
@@ -26,4 +26,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

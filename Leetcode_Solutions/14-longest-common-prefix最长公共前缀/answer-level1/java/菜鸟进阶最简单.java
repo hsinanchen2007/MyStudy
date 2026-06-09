@@ -1,5 +1,5 @@
-读题可知，是一个字符串数组，求最长公共子串
-所以，第一反应想到，用第一个字符串中各字符去与后面的对应比较即可
+// 读题可知，是一个字符串数组，求最长公共子串
+// 所以，第一反应想到，用第一个字符串中各字符去与后面的对应比较即可
 public String longestCommonPrefix(String[] sts){
   //为空判断
    if (strs.length == 0 || strs == null) return "";

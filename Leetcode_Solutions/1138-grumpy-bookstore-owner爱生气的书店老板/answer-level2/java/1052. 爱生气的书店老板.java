@@ -1,10 +1,10 @@
-### 解题思路
-1.滑动窗口
-2.贪心：计算最佳窗口：期望最大的窗口
+// ### 解题思路
+// 1.滑动窗口
+// 2.贪心：计算最佳窗口：期望最大的窗口
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSatisfied(int[] customers, int[] grumpy, int X) {
    int left = 0, right = 0,
@@ -50,4 +50,4 @@ class Solution {
         return reslut;
     }
 }
-```
+// ```

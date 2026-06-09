@@ -1,6 +1,6 @@
-查找top k问题，只需要O(n)的时间，没多想，直接水过
+# 查找top k问题，只需要O(n)的时间，没多想，直接水过
 
-```
+# ```
 class Solution(object):
     def randomized_select(self,A, p, r, i):
         if p == r:
@@ -38,6 +38,6 @@ class Solution(object):
         arr = np.asarray(matrix).reshape(-1)
         r = self.randomized_select(arr, 0, len(arr) - 1, k)
         return r
-```
+# ```
 
 

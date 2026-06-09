@@ -1,9 +1,9 @@
-### 解题思路
-笨办法，递归查找，调试了好久，边界值
+// ### 解题思路
+// 笨办法，递归查找，调试了好久，边界值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -105,4 +105,4 @@ char ** letterCasePermutation(char * S, int* returnSize){
     //printf("end ");
     return out;
 }
-```
+// ```

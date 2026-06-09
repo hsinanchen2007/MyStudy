@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-初学者勿喷，各位大神可以提提意见。分为两个for循环，if用的比较多，应该还有可以改进的地方，欢迎各位大神来提出意见
-### 代码
+// 初学者勿喷，各位大神可以提提意见。分为两个for循环，if用的比较多，应该还有可以改进的地方，欢迎各位大神来提出意见
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -33,4 +33,4 @@ for(int i=num_people+1;candies>0;i++) //依次叠加
 return tar;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-得到一个数nums[i],将双端队列deque从尾部开始把每个小于nums[i]的数去除。
-一个窗口的最大值就是deque的头。
-记得遍历nums时遇到nums[i-k]等于deque头的元素，要把deque的头去除掉，相当于一个最大值移出了窗口
+// ### 解题思路
+// 得到一个数nums[i],将双端队列deque从尾部开始把每个小于nums[i]的数去除。
+// 一个窗口的最大值就是deque的头。
+// 记得遍历nums时遇到nums[i-k]等于deque头的元素，要把deque的头去除掉，相当于一个最大值移出了窗口
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -57,4 +57,4 @@ public:
         return res;
     }
 };
-```
+// ```

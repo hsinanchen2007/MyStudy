@@ -1,11 +1,11 @@
-### 解题思路
-套用二叉树遍历的深度优先模板（代码上有解析），实现DFS。当然，也可以借助栈实现DFS，留给你实现。
+# ### 解题思路
+# 套用二叉树遍历的深度优先模板（代码上有解析），实现DFS。当然，也可以借助栈实现DFS，留给你实现。
 
-使用Python内置的队列实现BFS。
+# 使用Python内置的队列实现BFS。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -72,4 +72,4 @@ class Solution:
 
 
 
-```
+# ```

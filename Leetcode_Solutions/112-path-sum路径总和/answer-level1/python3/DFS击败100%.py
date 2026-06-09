@@ -1,5 +1,5 @@
-DFS
-```
+# DFS
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
             if node.left:
                 stack.append((s+node.left.val,node.left))
         return False
-```
+# ```

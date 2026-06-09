@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![13.png](https://pic.leetcode-cn.com/9061cd02a99e91c061d04ae2e787734d11afc9c2dff9ba3c72187d0d16bf20df-13.png)
+# ### 解题思路
+# 此处撰写解题思路
+# ![13.png](https://pic.leetcode-cn.com/9061cd02a99e91c061d04ae2e787734d11afc9c2dff9ba3c72187d0d16bf20df-13.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def pathWithObstacles(self, obstacleGrid: List[List[int]]) -> List[List[int]]:
         ret = []
@@ -34,4 +34,4 @@ class Solution:
         
         
 
-```
+# ```

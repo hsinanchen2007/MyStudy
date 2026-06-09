@@ -1,9 +1,9 @@
-### 解题思路
-从后向前，递归判别
+// ### 解题思路
+// 从后向前，递归判别
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isOneBitCharacter(int[] bits) {
         return isOneBitCharacter(bits, bits.length - 2);
@@ -19,4 +19,4 @@ class Solution {
             return isOneBitCharacter(bits, i - 1) || isOneBitCharacter(bits, i - 2);
     }
 }
-```
+// ```

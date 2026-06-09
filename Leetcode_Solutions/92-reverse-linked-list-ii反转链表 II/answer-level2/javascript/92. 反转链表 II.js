@@ -1,11 +1,11 @@
-## 链表
-+ [参看链表各种操作大全](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/algo/%E9%93%BE%E8%A1%A8_linkedList.md)
-#### 解法一：迭代
-+ 类似题型
-  + [206. 反转链表 - 解法一](https://leetcode-cn.com/problems/reverse-linked-list/solution/206-fan-zhuan-lian-biao-by-alexer-660/)
-+ 核心解法就是 206题中的解法一
-  + 即将需要反转的 m到n 区间的链表反转，再重新连接首尾即可
-```javascript
+// ## 链表
+// + [参看链表各种操作大全](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/algo/%E9%93%BE%E8%A1%A8_linkedList.md)
+// #### 解法一：迭代
+// + 类似题型
+//   + [206. 反转链表 - 解法一](https://leetcode-cn.com/problems/reverse-linked-list/solution/206-fan-zhuan-lian-biao-by-alexer-660/)
+// + 核心解法就是 206题中的解法一
+//   + 即将需要反转的 m到n 区间的链表反转，再重新连接首尾即可
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -41,9 +41,9 @@ var reverseBetween = function(head, m, n) {
     tmpHead.next = prev;
     return dummy.next;
 };
-```
-+ 也可以这样写
-```javascript
+// ```
+// + 也可以这样写
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -79,10 +79,10 @@ var reverseBetween = function(head, m, n) {
     tmpHead.next = pre;
     return preHead.next;
 };
-``` 
-#### 解法二：迭代II
-+ 解法一的 for -> while 版本
-```javascript
+// ``` 
+// #### 解法二：迭代II
+// + 解法一的 for -> while 版本
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -121,21 +121,21 @@ var reverseBetween = function(head, m, n) {
     tail.next = curr;
     return head;
 };
-```
-#### 解法三：迭代III
-+ 思路
-  + 关键是插入操作，每次将当前尾节点插入到全链表中第一个节点和第二个节点之间
-  + 每次只手动更新tail节点，一次插入完成会自动更新第二个节点
-  + 因此需要 pre、start、tail三个节点
-+ 举个栗子
-  + 1->2->3->4->null，m = 2，n = 4
-    + 将节点 3 插入到 节点1和节点2 之间
-      + 1->3->2->4->null
-    + 将节点 4 插入到 节点1和节点3 之间
-      + 1->4->3->2->null
-+ 图解
-  + ![截屏2019-12-22上午8.36.43.png](https://pic.leetcode-cn.com/b4c536ca241616fed0f74869244f90f4165c79ed150284f3d8a1431e648924ae-%E6%88%AA%E5%B1%8F2019-12-22%E4%B8%8A%E5%8D%888.36.43.png)
-```javascript
+// ```
+// #### 解法三：迭代III
+// + 思路
+//   + 关键是插入操作，每次将当前尾节点插入到全链表中第一个节点和第二个节点之间
+//   + 每次只手动更新tail节点，一次插入完成会自动更新第二个节点
+//   + 因此需要 pre、start、tail三个节点
+// + 举个栗子
+//   + 1->2->3->4->null，m = 2，n = 4
+//     + 将节点 3 插入到 节点1和节点2 之间
+//       + 1->3->2->4->null
+//     + 将节点 4 插入到 节点1和节点3 之间
+//       + 1->4->3->2->null
+// + 图解
+//   + ![截屏2019-12-22上午8.36.43.png](https://pic.leetcode-cn.com/b4c536ca241616fed0f74869244f90f4165c79ed150284f3d8a1431e648924ae-%E6%88%AA%E5%B1%8F2019-12-22%E4%B8%8A%E5%8D%888.36.43.png)
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -166,16 +166,16 @@ var reverseBetween = function(head, m, n) {
     }
     return dummy.next;
 };
-```
-#### 解法四：递归
-+ 参考题解
-  + [步步拆解：如何递归地反转链表的一部分](https://leetcode-cn.com/problems/reverse-linked-list-ii/solution/bu-bu-chai-jie-ru-he-di-gui-di-fan-zhuan-lian-biao/)
-+ 题解原型
-  + [206. 反转链表 - 解法三](https://leetcode-cn.com/problems/reverse-linked-list/solution/206-fan-zhuan-lian-biao-by-alexer-660/)
-  + 解法三
-    + 当n为链表长度时
-      + 相当于反转链表 从1到n 个节点
-        ```javascript
+// ```
+// #### 解法四：递归
+// + 参考题解
+//   + [步步拆解：如何递归地反转链表的一部分](https://leetcode-cn.com/problems/reverse-linked-list-ii/solution/bu-bu-chai-jie-ru-he-di-gui-di-fan-zhuan-lian-biao/)
+// + 题解原型
+//   + [206. 反转链表 - 解法三](https://leetcode-cn.com/problems/reverse-linked-list/solution/206-fan-zhuan-lian-biao-by-alexer-660/)
+//   + 解法三
+//     + 当n为链表长度时
+//       + 相当于反转链表 从1到n 个节点
+//         ```javascript
         var reverseList = function(head) {
             // 如果测试用例只有一个节点 或者 递归到了尾节点，返回当前节点 
             if(!head || !head.next) return head;
@@ -188,10 +188,10 @@ var reverseBetween = function(head, m, n) {
             next.next = head;
             return reverseHead;
         };
-        ``` 
-      + 或者这样写
-        + 此时 tail 恒为 null
-        ```javascript
+//         ``` 
+//       + 或者这样写
+//         + 此时 tail 恒为 null
+//         ```javascript
         var reverseList = function(head,n) {
             if(!head || !head.next) return head;
             let tail = null;
@@ -205,10 +205,10 @@ var reverseBetween = function(head, m, n) {
             next.next = head;
             return reverseHead;
         };
-        ``` 
-    + 当 n 小于链表长度时
-      + 此时 tail 为 第 n+1 个节点
-        ```javascript
+//         ``` 
+//     + 当 n 小于链表长度时
+//       + 此时 tail 为 第 n+1 个节点
+//         ```javascript
         var reverseList = function(head,n) {
             if(!head || !head.next) return head;
             let tail = null;
@@ -222,17 +222,17 @@ var reverseBetween = function(head, m, n) {
             next.next = head;
             return reverseHead;
         };
-        ``` 
-    + 上面两种情况均是默认从第1个节点开始反转，即题意中的 m == 1 时
-    + tail 相当于 反转前的头节点反转后不一定是最后一个节点，因为此时n != 链表长度
-      + 所以要记录最后一处反转的位置，用以连接被反转的部分
-      + 如果是整条链表都反转，head就成了最后一个节点，它的next自然恒为null
-    + 图解
-      + ![截屏2019-12-22上午11.42.54.png](https://pic.leetcode-cn.com/e6edd91b91d02d42e82084aff83e039f4d7af458c39d767e84457f8bc4953e60-%E6%88%AA%E5%B1%8F2019-12-22%E4%B8%8A%E5%8D%8811.42.54.png)
-+ 思路
-  + 既然默认m=1，n未知的解法出来了
-  + 那么如题，m 未知的话，每次减1递归就好了
-```javascript
+//         ``` 
+//     + 上面两种情况均是默认从第1个节点开始反转，即题意中的 m == 1 时
+//     + tail 相当于 反转前的头节点反转后不一定是最后一个节点，因为此时n != 链表长度
+//       + 所以要记录最后一处反转的位置，用以连接被反转的部分
+//       + 如果是整条链表都反转，head就成了最后一个节点，它的next自然恒为null
+//     + 图解
+//       + ![截屏2019-12-22上午11.42.54.png](https://pic.leetcode-cn.com/e6edd91b91d02d42e82084aff83e039f4d7af458c39d767e84457f8bc4953e60-%E6%88%AA%E5%B1%8F2019-12-22%E4%B8%8A%E5%8D%8811.42.54.png)
+// + 思路
+//   + 既然默认m=1，n未知的解法出来了
+//   + 那么如题，m 未知的话，每次减1递归就好了
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -264,4 +264,4 @@ var reverseBetween = function(head, m, n) {
     head.next = reverseBetween(head.next,m-1,n-1);
     return head;
 };
-```
+// ```

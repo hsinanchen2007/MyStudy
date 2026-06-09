@@ -1,9 +1,9 @@
-- 看了几个别人的答案也是用的回溯的解法，但是它们的回溯过程是 1~high，2~high，...，9~high，多了很多不必要的搜索，而且找出来的步进数是无序的，最后还要 sort 一遍，有点鸡肋。
-- 我先找到 low 和 high 的位数，每次回溯是确定深度的，假设 low 是三位数，high 是五位数，回溯过程是 101~989、1010~9898、10101~high，找出来的步进数本身就是有序的，后面不用再做 sort 这个过程。
-- 其实可以搜索的起始点还是有点粗糙，可以优化的离 low 更近，有兴趣的朋友可以试一下。
+// - 看了几个别人的答案也是用的回溯的解法，但是它们的回溯过程是 1~high，2~high，...，9~high，多了很多不必要的搜索，而且找出来的步进数是无序的，最后还要 sort 一遍，有点鸡肋。
+// - 我先找到 low 和 high 的位数，每次回溯是确定深度的，假设 low 是三位数，high 是五位数，回溯过程是 101~989、1010~9898、10101~high，找出来的步进数本身就是有序的，后面不用再做 sort 这个过程。
+// - 其实可以搜索的起始点还是有点粗糙，可以优化的离 low 更近，有兴趣的朋友可以试一下。
 
-***Talk is cheap. Show me the code.***
-```cpp
+// ***Talk is cheap. Show me the code.***
+// ```cpp
 class Solution {
 public:
     vector<int> countSteppingNumbers(int low, int high) {
@@ -52,5 +52,5 @@ private:
     vector<int> res;
 };
 
-```
-![Xnip2020-02-25_00-05-58.jpg](https://pic.leetcode-cn.com/3f2ef37774b7566f84bc0d2174fb85d420da0ff3e60b6b6d0817d705c9ba43f2-Xnip2020-02-25_00-05-58.jpg)
+// ```
+// ![Xnip2020-02-25_00-05-58.jpg](https://pic.leetcode-cn.com/3f2ef37774b7566f84bc0d2174fb85d420da0ff3e60b6b6d0817d705c9ba43f2-Xnip2020-02-25_00-05-58.jpg)

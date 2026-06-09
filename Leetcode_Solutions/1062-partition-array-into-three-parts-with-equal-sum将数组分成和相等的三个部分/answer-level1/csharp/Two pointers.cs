@@ -1,9 +1,9 @@
-### 解题思路
-Use two index simultaneously, one from the begining, and one from the end, to sum the array up to figure out if it contains 3 partition with equal values.
+// ### 解题思路
+// Use two index simultaneously, one from the begining, and one from the end, to sum the array up to figure out if it contains 3 partition with equal values.
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool CanThreePartsEqualSum(int[] A) {
         int arrayLength = A.Length;
@@ -37,4 +37,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

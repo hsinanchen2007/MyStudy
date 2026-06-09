@@ -1,9 +1,9 @@
-### 解题思路
-其中d == 0 和 d == 1用于判断是左子树还是右子树
+// ### 解题思路
+// 其中d == 0 和 d == 1用于判断是左子树还是右子树
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

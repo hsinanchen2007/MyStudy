@@ -1,16 +1,16 @@
-### 解题思路
-此处撰写解题思路
-for i:=1;i<len(prices);i++ {
-		//卖出必须要用上一次买入股票剩下的现金+本次的收益
-		cash = append(cash,max(cash[i-1],buy[i-1]+prices[i]))  //卖出必然增加
-		//买入必须要用上一次卖出股票剩下的现金-本次买入股票的本金
-		buy  = append(buy,max(buy[i-1],cash[i-1]-prices[i])) //买入股票现金必然减少
-	}
-就是这个自己体会吧， 写的挺详细的了
+// ### 解题思路
+// 此处撰写解题思路
+// for i:=1;i<len(prices);i++ {
+// 		//卖出必须要用上一次买入股票剩下的现金+本次的收益
+// 		cash = append(cash,max(cash[i-1],buy[i-1]+prices[i]))  //卖出必然增加
+// 		//买入必须要用上一次卖出股票剩下的现金-本次买入股票的本金
+// 		buy  = append(buy,max(buy[i-1],cash[i-1]-prices[i])) //买入股票现金必然减少
+// 	}
+// 就是这个自己体会吧， 写的挺详细的了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
      if len(prices) < 2 {
 		return  0
@@ -37,4 +37,4 @@ func max(x,y int) int {
 		return y
 	}
 }
-```
+// ```

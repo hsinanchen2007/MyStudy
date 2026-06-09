@@ -1,14 +1,14 @@
-执行用时 :  120 ms , 在所有 JavaScript 提交中击败了 83.06% 的用户
+// 执行用时 :  120 ms , 在所有 JavaScript 提交中击败了 83.06% 的用户
 
-内存消耗 : 44.5 MB, 在所有 JavaScript 提交中击败了100.00%的用户
-
-
-方法：
+// 内存消耗 : 44.5 MB, 在所有 JavaScript 提交中击败了100.00%的用户
 
 
-添加辅助栈，与主栈同步，用来记录最小值。
+// 方法：
 
-```
+
+// 添加辅助栈，与主栈同步，用来记录最小值。
+
+// ```
 /**
  * initialize your data structure here.
  */
@@ -64,4 +64,4 @@ return this.helpStack[this.length - 1]
  * var param_3 = obj.top()
  * var param_4 = obj.getMin()
  */
-```
+// ```

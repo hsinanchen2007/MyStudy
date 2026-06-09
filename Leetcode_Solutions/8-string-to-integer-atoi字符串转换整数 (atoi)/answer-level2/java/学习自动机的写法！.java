@@ -1,23 +1,23 @@
-### 解题思路
-1. 解法1：直接对字符串进行操作
-2. 解法2：自动机的思想
+// ### 解题思路
+// 1. 解法1：直接对字符串进行操作
+// 2. 解法2：自动机的思想
 
-解法1：
-1. 从前扫描字符串，若遇上空格，跳过；
-2. 遇上数字，ans = 10 * ans + digit，其中digit = str.charAt(i) - '0'；
-3. 判断是否越界：判断条件为ans > ( Integer.MAX_VALUE - digit ) / 10；
-4. 若中途遇上其它字符，结束。
+// 解法1：
+// 1. 从前扫描字符串，若遇上空格，跳过；
+// 2. 遇上数字，ans = 10 * ans + digit，其中digit = str.charAt(i) - '0'；
+// 3. 判断是否越界：判断条件为ans > ( Integer.MAX_VALUE - digit ) / 10；
+// 4. 若中途遇上其它字符，结束。
 
-解法2：
-1. 构建自动机，有START、SIGNED、IN_NUM、END四个状态，跳转关系可由题意得到；
-2. 将跳转关系存入HashMap<String, String[]>中；
-3. 跳转函数核心，state = map.get(state)[jump(c)]；
-4. 从关开始遍历字符串，观察自动机进入哪个状态；
-5. 同样，需要注意越界的情况。
+// 解法2：
+// 1. 构建自动机，有START、SIGNED、IN_NUM、END四个状态，跳转关系可由题意得到；
+// 2. 将跳转关系存入HashMap<String, String[]>中；
+// 3. 跳转函数核心，state = map.get(state)[jump(c)]；
+// 4. 从关开始遍历字符串，观察自动机进入哪个状态；
+// 5. 同样，需要注意越界的情况。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
 		HashMap<String, String[]> map = new HashMap<>();
@@ -55,4 +55,4 @@ class Solution {
 	}
     
 }
-```
+// ```

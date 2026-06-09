@@ -1,5 +1,5 @@
-第一种解法递归DFS
-```
+# 第一种解法递归DFS
+# ```
 class Solution:
     def stoneGame(self,piles) -> bool:
         s = sum(piles)
@@ -18,9 +18,9 @@ class Solution:
                 return
         helper(piles,0,len(piles) - 1,0)
         return self.awin
-```
-可以对上面的代码进行修改，采用带返回值的递归函数，可以减少代码量
-```
+# ```
+# 可以对上面的代码进行修改，采用带返回值的递归函数，可以减少代码量
+# ```
 class Solution:
     def stoneGame(self,piles) -> bool:
         s = sum(piles)
@@ -33,9 +33,9 @@ class Solution:
             if helper(piles, l + 1, r, all + piles[l]) or helper(piles, l, r - 1, all + piles[r]):
                 return True
         return helper(piles, 0, len(piles) - 1, 0)
-```
-由上面的递归解法可以分析出一种类似于动态规划的前缀和解法
-```
+# ```
+# 由上面的递归解法可以分析出一种类似于动态规划的前缀和解法
+# ```
 class Solution:
     def stoneGame(self,piles) -> bool:
         s = sum(piles)
@@ -54,13 +54,13 @@ class Solution:
                 if (i + j) % 2 == 1 and res[i][j] > s // 2:
                     return True
         return False
-```
-最后经过这么多分析，可以发现一种规律性的解法
-```
+# ```
+# 最后经过这么多分析，可以发现一种规律性的解法
+# ```
 class Solution:
     def stoneGame(self,piles) -> bool:
         return True
-```
+# ```
 
 
 

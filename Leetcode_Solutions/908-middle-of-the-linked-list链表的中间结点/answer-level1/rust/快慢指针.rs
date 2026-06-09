@@ -1,10 +1,10 @@
-### 解题思路
-参考官方题解
-这里只是提供一个Rust写法
+// ### 解题思路
+// 参考官方题解
+// 这里只是提供一个Rust写法
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
 // pub struct ListNode {
@@ -31,4 +31,4 @@ impl Solution {
         slow
     }
 }
-```
+// ```

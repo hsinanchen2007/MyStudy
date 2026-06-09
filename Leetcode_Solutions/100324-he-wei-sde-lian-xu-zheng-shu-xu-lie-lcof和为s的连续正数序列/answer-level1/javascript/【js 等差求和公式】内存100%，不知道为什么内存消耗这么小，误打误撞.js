@@ -1,16 +1,16 @@
-### 解题思路
-借鉴了之前糖果题的解方程思路
-等差数列求和，解出最后一个数字，如果是整数就ok
-```
+// ### 解题思路
+// 借鉴了之前糖果题的解方程思路
+// 等差数列求和，解出最后一个数字，如果是整数就ok
+// ```
     从第i位开始，end结束，（i + end) * (end - i + 1) = 2 * target
     i已知，所以该式是end的一元二次方程，正常解方程即可
     其中，因为都是正整数，所以end的负值直接舍掉
-```
-值得提到的是循环的次数，是Math.ceil(target/2），只取一半就可以
+// ```
+// 值得提到的是循环的次数，是Math.ceil(target/2），只取一半就可以
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -28,4 +28,4 @@ var findContinuousSequence = function(target) {
   }
   return numberArr
 };
-```
+// ```

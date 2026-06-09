@@ -1,4 +1,4 @@
-```python
+# ```python
 from functools import lru_cache
 def mincostTickets(days, costs):
     """
@@ -21,4 +21,4 @@ def mincostTickets(days, costs):
     return dp(1)
 
 print(mincostTickets([1,4,6,7,8,20], [2,7,15]))
-```
+# ```

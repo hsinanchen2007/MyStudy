@@ -1,9 +1,9 @@
-### 解题思路
-规律：(((( ))))的编码是0101 1010，可见遇到“(”只需要0、1交替即可，遇到“)”只需要0、1互换，然后交替即可。
+// ### 解题思路
+// 规律：(((( ))))的编码是0101 1010，可见遇到“(”只需要0、1交替即可，遇到“)”只需要0、1互换，然后交替即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         int[]ans=new int[seq.length()];
@@ -25,4 +25,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

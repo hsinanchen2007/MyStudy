@@ -1,12 +1,12 @@
-[429.N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/submissions/)
+// [429.N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
 
-## 层序遍历
+// ## 层序遍历
 
 
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val,children) {
@@ -35,4 +35,4 @@ var levelOrder = function(root) {
     }
     return res
 };
-```
+// ```

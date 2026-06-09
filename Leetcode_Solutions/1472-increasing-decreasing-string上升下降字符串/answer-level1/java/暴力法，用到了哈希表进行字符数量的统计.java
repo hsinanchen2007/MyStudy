@@ -1,9 +1,9 @@
-### 解题思路
-暴力法
+// ### 解题思路
+// 暴力法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String sortString(String s) {
         char[] arr = s.toCharArray();
@@ -46,4 +46,4 @@ class Solution {
         return sb;
     }
 }
-```
+// ```

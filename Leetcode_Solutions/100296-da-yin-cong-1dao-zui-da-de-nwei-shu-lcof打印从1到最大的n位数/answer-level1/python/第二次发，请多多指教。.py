@@ -1,9 +1,9 @@
-### 解题思路
-n=1,num=10**1-1,list1=[0:num]
+# ### 解题思路
+# n=1,num=10**1-1,list1=[0:num]
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def printNumbers(self, n):
         """
@@ -21,4 +21,4 @@ class Solution(object):
                 list1.append(i)
             return list1
 
-```
+# ```

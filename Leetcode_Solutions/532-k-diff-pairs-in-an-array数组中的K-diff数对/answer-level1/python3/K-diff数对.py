@@ -1,5 +1,5 @@
-参照两数之和的解法，结合大神的k == 0 的解法特例
-```
+# 参照两数之和的解法，结合大神的k == 0 的解法特例
+# ```
 class Solution:
     def findPairs(self, nums: List[int], k: int) -> int:
         nums.sort()
@@ -20,4 +20,4 @@ class Solution:
         else:
             return 0
 
-```
+# ```

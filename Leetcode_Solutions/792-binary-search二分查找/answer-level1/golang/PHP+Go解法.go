@@ -1,5 +1,5 @@
-标准的无重复字符数组的二分查找
-```php []
+// 标准的无重复字符数组的二分查找
+// ```php []
 class Solution {
 
     /**
@@ -26,8 +26,8 @@ class Solution {
         return -1;
     }
 }
-```
-```go []
+// ```
+// ```go []
 func search(nums []int, target int) int {
   if len(nums) == 0 {return -1}
   count := len(nums)
@@ -44,4 +44,4 @@ func search(nums []int, target int) int {
   }
   return -1
 }
-```
+// ```

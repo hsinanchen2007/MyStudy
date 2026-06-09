@@ -1,11 +1,11 @@
-### 解题思路
-双指针，一个从小往大，一个从大往小
-len()：输出元素个数
-return()：输出结果并终止
+# ### 解题思路
+# 双指针，一个从小往大，一个从大往小
+# len()：输出元素个数
+# return()：输出结果并终止
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def twoSum(self, numbers, target):
         n = len(numbers)
@@ -18,4 +18,4 @@ class Solution(object):
                 j -= 1
             else:
                 i += 1
-```
+# ```

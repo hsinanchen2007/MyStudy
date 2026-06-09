@@ -1,9 +1,9 @@
-### 解题思路
-反向遍历字符串, 忽略所有还未遇其他字符串的空白, 然后获得单词长度,返回值
+# ### 解题思路
+# 反向遍历字符串, 忽略所有还未遇其他字符串的空白, 然后获得单词长度,返回值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         if (s == "" or s == " "):
@@ -19,4 +19,4 @@ class Solution:
                 length += 1
 
         return length
-```
+# ```

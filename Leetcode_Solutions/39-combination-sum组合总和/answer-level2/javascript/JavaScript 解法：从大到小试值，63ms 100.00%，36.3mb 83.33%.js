@@ -1,5 +1,5 @@
-最多 trick 的解法。
-```javascript []
+// 最多 trick 的解法。
+// ```javascript []
 /**
  * @param {number[]} candidates
  * @param {number} target
@@ -34,4 +34,4 @@ var combinationSum = function (candidates, target) {
 
   return res;
 };
-```
+// ```

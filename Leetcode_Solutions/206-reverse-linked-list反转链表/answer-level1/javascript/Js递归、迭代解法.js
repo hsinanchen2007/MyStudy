@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -55,4 +55,4 @@ var recur = function (head) {
         return head;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处难点就是转移方程s[i] = max(num[i] + s[i-2], s[i-1])
-因为要隔着一个偷，所以当前的最大值，应该是当前值加上前前一个的最大值，和左临值进行比较。
-注意保存右滑过程中的最大值
+// ### 解题思路
+// 此处难点就是转移方程s[i] = max(num[i] + s[i-2], s[i-1])
+// 因为要隔着一个偷，所以当前的最大值，应该是当前值加上前前一个的最大值，和左临值进行比较。
+// 注意保存右滑过程中的最大值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -29,4 +29,4 @@ var rob = function(nums) {
   let max = Math.max(step[step.length -1], step2[step2.length -1])
   return max
 };
-```
+// ```

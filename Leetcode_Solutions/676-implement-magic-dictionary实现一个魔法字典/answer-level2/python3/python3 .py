@@ -1,4 +1,4 @@
-```
+# ```
 class MagicDictionary:
 
     def __init__(self):
@@ -42,4 +42,4 @@ class MagicDictionary:
                 res |= searchResult(word[1:], node[u], 0 if word[0]==u else 1)
             return res
         return searchResult(word, self.trie, 0)
-```
+# ```

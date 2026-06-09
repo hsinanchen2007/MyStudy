@@ -1,9 +1,9 @@
-### 解题思路
-题目使用先序遍历方法遍历两棵树，另外使用一个栈避免递归
+// ### 解题思路
+// 题目使用先序遍历方法遍历两棵树，另外使用一个栈避免递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -34,4 +34,4 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q){
     }
     return true;
 }
-```
+// ```

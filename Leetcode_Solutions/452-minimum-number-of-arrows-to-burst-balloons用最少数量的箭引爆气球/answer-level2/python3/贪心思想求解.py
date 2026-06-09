@@ -1,10 +1,10 @@
-### 解题思路
-此题的思路与 435题 一样
-区别在于这里边界也算重叠区域，即 [1,2]和[2,3]为重叠区间
+# ### 解题思路
+# 此题的思路与 435题 一样
+# 区别在于这里边界也算重叠区域，即 [1,2]和[2,3]为重叠区间
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findMinArrowShots(self, points):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             cnt+=1
             end=points[i][1]
         return cnt
-```
+# ```

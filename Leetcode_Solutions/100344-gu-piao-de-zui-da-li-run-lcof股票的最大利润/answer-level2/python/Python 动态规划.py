@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         dp = [i for i in prices]
@@ -14,4 +14,4 @@ class Solution:
             max_val = max(max_val, sell - buy)
         
         return max_val
-```
+# ```

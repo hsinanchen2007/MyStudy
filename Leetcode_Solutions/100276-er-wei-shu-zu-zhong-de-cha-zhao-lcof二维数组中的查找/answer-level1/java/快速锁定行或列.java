@@ -1,13 +1,13 @@
-### 解题思路
-利用递增，剔除一列或一行。从右上或左下开始：
-小于右上，剔除最右列；大于右上，剔除最上行。
+// ### 解题思路
+// 利用递增，剔除一列或一行。从右上或左下开始：
+// 小于右上，剔除最右列；大于右上，剔除最上行。
 
-这样提高了搜索效率，
-时间复杂度为O(r_len*c_len)，只要遍历一遍即可。
+// 这样提高了搜索效率，
+// 时间复杂度为O(r_len*c_len)，只要遍历一遍即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
@@ -28,4 +28,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-回溯法
-### 代码
+// ### 解题思路
+// 回溯法
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUgly(int num) {
         if(num==0)
@@ -19,4 +19,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

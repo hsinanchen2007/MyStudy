@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-采用双指针，一个指针指向s，一个指针遍历t，如果当前两指针所指值相同，则s指针+1，若t指针遍历完后，s指针仍未到s的最后一个元素处，则说明s不是t的子串，返回false。
+// 采用双指针，一个指针指向s，一个指针遍历t，如果当前两指针所指值相同，则s指针+1，若t指针遍历完后，s指针仍未到s的最后一个元素处，则说明s不是t的子串，返回false。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isSubsequence(s string, t string) bool {
 	if len(s) == 0 {
 		return true
@@ -21,4 +21,4 @@ func isSubsequence(s string, t string) bool {
 	}
 	return false
 }
-```
+// ```

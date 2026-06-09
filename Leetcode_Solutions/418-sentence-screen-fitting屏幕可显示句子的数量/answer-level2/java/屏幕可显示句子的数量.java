@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-## 整体填充
+// ## 整体填充
 
-时间复杂度是O(m + rows)，其中m是sentence数组的长度。空间复杂度是O(1)。
+// 时间复杂度是O(m + rows)，其中m是sentence数组的长度。空间复杂度是O(1)。
 
-执行用时：17ms，击败75.96%。消耗内存：40.6MB，击败6.45%。
+// 执行用时：17ms，击败75.96%。消耗内存：40.6MB，击败6.45%。
 
-```java
+// ```java
 public class Solution {
     public int wordsTyping(String[] sentence, int rows, int cols) {
         StringBuilder sb = new StringBuilder();
@@ -32,4 +32,4 @@ public class Solution {
         return index / len;
     }
 }
-```
+// ```

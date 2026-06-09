@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isOneBitCharacter(self, bits):
         """
@@ -13,4 +13,4 @@ class Solution(object):
                 j += 1
             j += 1
         return False
-```
+# ```

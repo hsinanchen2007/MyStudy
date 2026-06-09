@@ -1,4 +1,4 @@
-菜鸡javascript解法，思想是对非零数的二进制数进行操作,具体做法就是从后往前对第j(1<j<binNum.length)位和他前面的数进行异或操作：
+// 菜鸡javascript解法，思想是对非零数的二进制数进行操作,具体做法就是从后往前对第j(1<j<binNum.length)位和他前面的数进行异或操作：
 var grayCode = function (n) {
             var res = [0];
             if (n == 0) return res;

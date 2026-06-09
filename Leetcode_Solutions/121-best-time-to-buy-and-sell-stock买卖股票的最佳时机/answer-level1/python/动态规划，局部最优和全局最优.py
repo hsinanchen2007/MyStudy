@@ -1,6 +1,6 @@
-利用minv和p逐步更新计算局部最优，并更新全局最优。
+# 利用minv和p逐步更新计算局部最优，并更新全局最优。
 
-```
+# ```
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -14,4 +14,4 @@ class Solution(object):
             minv = min(minv,prices[i-1])
             p = max(p,prices[i]-minv)
         return p
-```
+# ```

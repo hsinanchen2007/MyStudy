@@ -1,5 +1,5 @@
-除了+1转二进制还可以把编码看成是完全二叉树左0右1 
-```
+// 除了+1转二进制还可以把编码看成是完全二叉树左0右1 
+// ```
 class Solution {
 public:
     string encode(int num) {
@@ -47,4 +47,4 @@ public:
         return ret;
     }
 };
-```
+// ```

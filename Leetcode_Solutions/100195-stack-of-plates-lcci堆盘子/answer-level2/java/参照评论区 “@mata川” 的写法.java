@@ -1,11 +1,11 @@
-更正了  “@mata川” 的错误
+// 更正了  “@mata川” 的错误
 
-**需要注意的几点:**
-    1. 输入的"StackOfPlates"可以为 0 ;
-    2. 不存在 size == 0 的栈 ;
+// **需要注意的几点:**
+//     1. 输入的"StackOfPlates"可以为 0 ;
+//     2. 不存在 size == 0 的栈 ;
 
 
-```
+// ```
 class StackOfPlates {
     private int cap;
     private List<Deque<Integer>> stackList;
@@ -55,4 +55,4 @@ class StackOfPlates {
         }
     } 
 }
-```
+// ```

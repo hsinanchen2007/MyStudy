@@ -1,8 +1,8 @@
-定义一个class Pair记录栈中元素，一个pair包含表示节点的String 和一个boolen当前遍历的方向。  
-两种情况:  
-1. 遇到非#，构造一个pair,方向为left(true)，入栈，表示向左子树往下
-2. 遇到#，表示到了底部，要pop，查看父节点，如果父节点是往左向下即way=true,就改为false,将父节点入栈。如果父节点的方向是右，则表示父节点的两个子数都遍历完成，父节点要结束遍历。还要对父节点的父节点检查方向，直到遇到根节点或者祖父节点是向左的。
-```
+// 定义一个class Pair记录栈中元素，一个pair包含表示节点的String 和一个boolen当前遍历的方向。  
+// 两种情况:  
+// 1. 遇到非#，构造一个pair,方向为left(true)，入栈，表示向左子树往下
+// 2. 遇到#，表示到了底部，要pop，查看父节点，如果父节点是往左向下即way=true,就改为false,将父节点入栈。如果父节点的方向是右，则表示父节点的两个子数都遍历完成，父节点要结束遍历。还要对父节点的父节点检查方向，直到遇到根节点或者祖父节点是向左的。
+// ```
 import java.util.LinkedList;
 
 class Pair{
@@ -61,4 +61,4 @@ class Solution {
     //     System.out.println(solution.isValidSerialization("9,#,#,1"));
     // }
 }
-```
+// ```

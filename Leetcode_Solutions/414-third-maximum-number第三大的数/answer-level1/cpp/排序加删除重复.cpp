@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-先排个序
-再把相同的删掉
-再分情况返回
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先排个序
+// 再把相同的删掉
+// 再分情况返回
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return nums[nums.size()-3];
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-采用a[i][j] = b[j][i]的解题思路，m * n 对调为 n * m。只是C语言中内存分配管理比较麻烦。
+// 采用a[i][j] = b[j][i]的解题思路，m * n 对调为 n * m。只是C语言中内存分配管理比较麻烦。
 
 #define MAX 1000
 int** transpose(int** A, int ASize, int* AColSize, int* returnSize, int** returnColumnSizes){

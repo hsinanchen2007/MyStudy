@@ -1,6 +1,6 @@
-## 逻辑简单的二分查找解法，通俗易懂
-![image.png](https://pic.leetcode-cn.com/bb582c3a53ec4e6be29befc9de7c2c9a30c3d8fa9f41ce7af6713b19450871ed-image.png)
-```java
+// ## 逻辑简单的二分查找解法，通俗易懂
+// ![image.png](https://pic.leetcode-cn.com/bb582c3a53ec4e6be29befc9de7c2c9a30c3d8fa9f41ce7af6713b19450871ed-image.png)
+// ```java
     public int[] searchRange(int[] nums, int target) {
         int[] ret = new int[2];
         ret[0] = findFirst(nums, target);
@@ -47,5 +47,5 @@
         }
         return -1;
     }
-```
-注意只有最后的 `else` 里面的条件不一样
+// ```
+// 注意只有最后的 `else` 里面的条件不一样

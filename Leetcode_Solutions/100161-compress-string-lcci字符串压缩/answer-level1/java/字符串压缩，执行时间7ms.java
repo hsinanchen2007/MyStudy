@@ -1,9 +1,9 @@
-### 解题思路
-遍历字符串判断当前位置与后一位置的字符是否相同，定义num记录相同字符的个数。
+// ### 解题思路
+// 遍历字符串判断当前位置与后一位置的字符是否相同，定义num记录相同字符的个数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public String compressString(String S) {
         if(S.equals("")) return S; 
@@ -24,4 +24,4 @@ class Solution {
         else return result;
     }
 }
-```
+// ```

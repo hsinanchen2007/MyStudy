@@ -1,9 +1,9 @@
-### 解题思路
-没有厘清爽，占个坑
+# ### 解题思路
+# 没有厘清爽，占个坑
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         M = len(grid)
@@ -46,4 +46,4 @@ class Solution:
         else:
             return round
 
-```
+# ```

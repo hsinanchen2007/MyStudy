@@ -1,9 +1,9 @@
-### 解题思路
-用一个指针维护当前节点
+// ### 解题思路
+// 用一个指针维护当前节点
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -26,4 +26,4 @@ var deleteDuplicates = function(head) {
     }
     return head
 };
-```
+// ```

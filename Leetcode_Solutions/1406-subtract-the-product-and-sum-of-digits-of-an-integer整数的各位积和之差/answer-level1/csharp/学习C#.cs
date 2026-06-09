@@ -1,10 +1,10 @@
-### 解题思路
-动态数组定义 `List<int> nums = new List<int>(0);`
-动态数组添加 `nums.Add()`
-动态数组大小`nums.Count`
-### 代码
+// ### 解题思路
+// 动态数组定义 `List<int> nums = new List<int>(0);`
+// 动态数组添加 `nums.Add()`
+// 动态数组大小`nums.Count`
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int SubtractProductAndSum(int n) {
         List<int> nums = new List<int>(0);
@@ -21,4 +21,4 @@ public class Solution {
         return m-a;
     }
 }
-```
+// ```

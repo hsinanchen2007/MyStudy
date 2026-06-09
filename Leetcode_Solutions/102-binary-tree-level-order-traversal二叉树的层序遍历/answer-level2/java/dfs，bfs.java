@@ -1,9 +1,9 @@
-### 解题思路
-这道题目比较通用的解法是bfs，维护一个queue，root先入队，然后开始pop，每次pop的时候将当前节点的left，right入队。通过一个循环来记录表示某一层。也可用dfs的方法，通过参数的形式来传递level的信息，每次深入下一层的时候level+1。
+// ### 解题思路
+// 这道题目比较通用的解法是bfs，维护一个queue，root先入队，然后开始pop，每次pop的时候将当前节点的left，right入队。通过一个循环来记录表示某一层。也可用dfs的方法，通过参数的形式来传递level的信息，每次深入下一层的时候level+1。
 
-### dfs
+// ### dfs
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,11 +33,11 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-### bfs
+// ### bfs
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         if(root==null){
@@ -66,4 +66,4 @@ class Solution {
     }
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-每一次找相邻两个乘积最小的值，并且删除这两个中较小的值即可，直到arr的size为1返回结果
+// ### 解题思路
+// 每一次找相邻两个乘积最小的值，并且删除这两个中较小的值即可，直到arr的size为1返回结果
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int mctFromLeafValues(vector<int>& arr) {
@@ -25,4 +25,4 @@ public:
         return sum;
     }
 };
-```
+// ```

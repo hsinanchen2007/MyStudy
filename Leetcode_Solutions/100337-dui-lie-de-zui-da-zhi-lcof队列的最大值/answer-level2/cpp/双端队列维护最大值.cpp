@@ -1,16 +1,16 @@
-### 解题思路
-此处撰写解题思路
-因为要保证每次int maxValue返回的是一个最大值所以可以采用双端队列来进行维护，建一个<deque>dq,按照从大到小的顺序排列
-在执行push函数时，
-如果dq为空，则可以直接插入
-先判断value与dq.front()的大小，若value > dq.front()，则clear整个队列，再push_back();
-若value <= dq.front()则考虑从尾部插入，先进行比较(dq.back() < value)，就pop_back();
-知道找到一个值dq.back() > value时，push_back(value);
+// ### 解题思路
+// 此处撰写解题思路
+// 因为要保证每次int maxValue返回的是一个最大值所以可以采用双端队列来进行维护，建一个<deque>dq,按照从大到小的顺序排列
+// 在执行push函数时，
+// 如果dq为空，则可以直接插入
+// 先判断value与dq.front()的大小，若value > dq.front()，则clear整个队列，再push_back();
+// 若value <= dq.front()则考虑从尾部插入，先进行比较(dq.back() < value)，就pop_back();
+// 知道找到一个值dq.back() > value时，push_back(value);
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include<queue>
 class MaxQueue {
 private:
@@ -63,4 +63,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

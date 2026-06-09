@@ -1,7 +1,7 @@
-速度快主要是因为在分割时只使用split[3]记录分割点的位置，只在最后生成结果时涉及到新字符串创建
+// 速度快主要是因为在分割时只使用split[3]记录分割点的位置，只在最后生成结果时涉及到新字符串创建
 
 
-```c++
+// ```c++
 class Solution {
 public:
 	vector<string> ans;
@@ -61,7 +61,7 @@ public:
 			return false;
 	}
 };
-```
+// ```
 
 
-![93.png](https://pic.leetcode-cn.com/ab0bd9638f2f45959b44e606bde69e5c1144f4733ea16775276a0fb0fbcdec7c-93.png)
+// ![93.png](https://pic.leetcode-cn.com/ab0bd9638f2f45959b44e606bde69e5c1144f4733ea16775276a0fb0fbcdec7c-93.png)

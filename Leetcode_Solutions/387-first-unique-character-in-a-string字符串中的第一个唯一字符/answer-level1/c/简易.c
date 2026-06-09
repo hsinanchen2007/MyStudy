@@ -1,9 +1,9 @@
-### 解题思路
-感觉有些哈希的思想
+// ### 解题思路
+// 感觉有些哈希的思想
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int firstUniqChar(char * s){
     int i,j;
     int len;
@@ -25,4 +25,4 @@ int firstUniqChar(char * s){
     }
     return i;
 }
-```
+// ```

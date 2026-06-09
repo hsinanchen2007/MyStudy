@@ -1,6 +1,6 @@
-[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_94_inorderTraversal.java)
+// [Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_94_inorderTraversal.java)
 
-```java
+// ```java
 public class _94_inorderTraversal {
 
     public static void main(String[] args) {
@@ -65,4 +65,4 @@ public class _94_inorderTraversal {
     }
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-基于最暴力的检查字段是否重复，发现已经遍历过的字符，已经知道到哪里是重复的，所有取最长字段就好
+# ### 解题思路
+# 基于最暴力的检查字段是否重复，发现已经遍历过的字符，已经知道到哪里是重复的，所有取最长字段就好
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
@@ -39,4 +39,4 @@ class Solution(object):
 
         return max_len
 
-```
+# ```

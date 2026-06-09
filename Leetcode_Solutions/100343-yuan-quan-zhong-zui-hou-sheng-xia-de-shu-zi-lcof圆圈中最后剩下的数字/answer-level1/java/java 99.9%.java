@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int lastRemaining(int n, int m) {
         int res = 0;
@@ -9,4 +9,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

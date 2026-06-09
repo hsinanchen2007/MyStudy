@@ -1,4 +1,4 @@
-```java
+// ```java
 public static List<List<Integer>> permute(int[] nums) {
         return func(nums, 0, nums.length - 1);
     }
@@ -26,4 +26,4 @@ public static List<List<Integer>> permute(int[] nums) {
         }
         return result;
     }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/5f28055efc19f5b593fd0f114210b588a6ebe4e7bdbf8d122a70aea002986006-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5f28055efc19f5b593fd0f114210b588a6ebe4e7bdbf8d122a70aea002986006-image.png)
 
-参考[https://leetcode-cn.com/problems/task-scheduler/solution/621-ren-wu-diao-du-qi-cshi-xian-kuai-su-pai-xu-tan/](https://leetcode-cn.com/problems/task-scheduler/solution/621-ren-wu-diao-du-qi-cshi-xian-kuai-su-pai-xu-tan/)
+// 参考[https://leetcode-cn.com/problems/task-scheduler/solution/621-ren-wu-diao-du-qi-cshi-xian-kuai-su-pai-xu-tan/](https://leetcode-cn.com/problems/task-scheduler/solution/621-ren-wu-diao-du-qi-cshi-xian-kuai-su-pai-xu-tan/)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define ARRSIZE 26
 
 int cmp(const void* a, const void* b)
@@ -43,4 +43,4 @@ int leastInterval(char* tasks, int tasksSize, int n)
     free(m);
     return time;
 }
-```
+// ```

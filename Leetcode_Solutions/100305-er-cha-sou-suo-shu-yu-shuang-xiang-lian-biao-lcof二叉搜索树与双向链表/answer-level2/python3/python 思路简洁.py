@@ -1,4 +1,4 @@
-```
+# ```
 """
 # Definition for a Node.
 class Node:
@@ -25,4 +25,4 @@ class Solution:
                 sort_node[i].left=sort_node[i-1]
                 sort_node[i].right=sort_node[0]
         return sort_node[0]
-```
+# ```

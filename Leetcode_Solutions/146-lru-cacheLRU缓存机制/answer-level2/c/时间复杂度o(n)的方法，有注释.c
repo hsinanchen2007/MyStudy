@@ -1,10 +1,10 @@
-### 解题思路
-最后一个测试用例未通过，原因时间超时，仅供参考。
-应该是由于get和put的时间复杂度不符合要求
+// ### 解题思路
+// 最后一个测试用例未通过，原因时间超时，仅供参考。
+// 应该是由于get和put的时间复杂度不符合要求
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct LRUCache{
     int value;
     int key;
@@ -83,4 +83,4 @@ void lRUCacheFree(struct LRUCache* obj) {
  
  * lRUCacheFree(obj);
 */
-```
+// ```

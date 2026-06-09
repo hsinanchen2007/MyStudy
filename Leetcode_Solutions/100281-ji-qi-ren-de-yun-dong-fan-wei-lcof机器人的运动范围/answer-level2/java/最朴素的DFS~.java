@@ -1,9 +1,9 @@
-### 解题思路
-毫无花哨的姿势，最朴素DFS+记忆内存。
+// ### 解题思路
+// 毫无花哨的姿势，最朴素DFS+记忆内存。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int sumNum(int i) {
         int sum = 0;
@@ -44,4 +44,4 @@ class Solution {
         }
     }
 }
-```
+// ```

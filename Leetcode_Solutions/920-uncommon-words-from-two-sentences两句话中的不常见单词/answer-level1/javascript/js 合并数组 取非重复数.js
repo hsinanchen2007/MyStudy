@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} A
  * @param {string} B
@@ -19,4 +19,4 @@ var uncommonFromSentences = function(A, B) {
     })
     return [...result.values()]
 };
-```
+// ```

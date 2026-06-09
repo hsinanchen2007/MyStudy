@@ -1,9 +1,9 @@
-### 解题思路
-深度优先算法，直接看代码
+# ### 解题思路
+# 深度优先算法，直接看代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         def dfs(s):
@@ -18,4 +18,4 @@ class Solution:
         res = []
         dfs('')
         return res
-```
+# ```

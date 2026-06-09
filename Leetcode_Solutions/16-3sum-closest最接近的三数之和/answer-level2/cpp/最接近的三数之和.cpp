@@ -1,7 +1,7 @@
-首先对数组进行排序之后，然后利用双指针法进行求解。
+// 首先对数组进行排序之后，然后利用双指针法进行求解。
 
-排序之后利用双指针，对后面的两个元素进行查找即可。
-```
+// 排序之后利用双指针，对后面的两个元素进行查找即可。
+// ```
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -22,4 +22,4 @@ public:
         return ans;
     }
 };
-```
+// ```

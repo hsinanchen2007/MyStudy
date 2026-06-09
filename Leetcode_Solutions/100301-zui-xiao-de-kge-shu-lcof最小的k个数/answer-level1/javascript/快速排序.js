@@ -1,12 +1,12 @@
-**方法一、内置排序函数**
-```
+// **方法一、内置排序函数**
+// ```
 var getLeastNumbers = function(arr, k) {
     arr.sort((a,b)=>a-b);
     return arr.slice(0,k);
 };
-```
-**方法二、快速排序**
-```javascript
+// ```
+// **方法二、快速排序**
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -47,8 +47,8 @@ function quickSort(arr,left,right){
     arr[left]=pivot;
     return left;
 }
-```
-**方法三、堆排序**
-```
+// ```
+// **方法三、堆排序**
+// ```
 代码块
-```
+// ```

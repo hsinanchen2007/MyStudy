@@ -1,4 +1,4 @@
-    //用双向链表，时间复杂度O(log(nm)),超时
+//     //用双向链表，时间复杂度O(log(nm)),超时
     class Solution {
         public int lastRemaining(int n, int m) {
             //构造链表

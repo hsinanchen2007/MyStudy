@@ -1,12 +1,12 @@
-### 解题思路
-一遍循环，创建一个新的链表存储返回，遇到重复的跳过就行。
-时间复杂度O(n)
-击败c#100%用户
-![QQ截图20200130022615.jpg](https://pic.leetcode-cn.com/f098d30d1c9e27269053d68f39b8cb093b78807de62b1e14b456734e94038c63-QQ%E6%88%AA%E5%9B%BE20200130022615.jpg)
+// ### 解题思路
+// 一遍循环，创建一个新的链表存储返回，遇到重复的跳过就行。
+// 时间复杂度O(n)
+// 击败c#100%用户
+// ![QQ截图20200130022615.jpg](https://pic.leetcode-cn.com/f098d30d1c9e27269053d68f39b8cb093b78807de62b1e14b456734e94038c63-QQ%E6%88%AA%E5%9B%BE20200130022615.jpg)
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -45,4 +45,4 @@ public class Solution {
             return res.next;
     }
 }
-```
+// ```

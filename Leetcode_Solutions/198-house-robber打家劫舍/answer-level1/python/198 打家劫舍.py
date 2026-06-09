@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+# ### 解题思路
+# 动态规划
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rob(self, nums):
         """
@@ -29,4 +29,4 @@ class Solution(object):
             # print i, dp[i]
             maxprice = max(maxprice, dp[i])
         return maxprice
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-    先用二分查找方法找到一个Target，再依次从该位置向左、向右遍历去查找等于target的位置。
+// ### 解题思路
+//     先用二分查找方法找到一个Target，再依次从该位置向左、向右遍历去查找等于target的位置。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         if(nums==null||nums.length<=0)
@@ -34,4 +34,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

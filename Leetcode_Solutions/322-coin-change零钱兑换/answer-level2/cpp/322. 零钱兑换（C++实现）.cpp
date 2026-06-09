@@ -1,13 +1,13 @@
-### 解题思路
-1. 核心思路
-- 动态规划
-2. 复杂度
-- 时间复杂度：O(m*n)，其中m，n分别是硬币的种类数（即数组coins的大小），总金额amount
-- 空间复杂度：O(n)，n即使总金额，又是辅助数组dp的长度
+// ### 解题思路
+// 1. 核心思路
+// - 动态规划
+// 2. 复杂度
+// - 时间复杂度：O(m*n)，其中m，n分别是硬币的种类数（即数组coins的大小），总金额amount
+// - 空间复杂度：O(n)，n即使总金额，又是辅助数组dp的长度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
@@ -33,4 +33,4 @@ public:
         return  dp[amount] > amount? -1 : dp[amount];
     }
 };
-```
+// ```

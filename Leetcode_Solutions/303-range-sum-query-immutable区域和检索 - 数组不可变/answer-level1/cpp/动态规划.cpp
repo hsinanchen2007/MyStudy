@@ -1,7 +1,7 @@
-执行用时 :40 ms, 在所有 C++ 提交中击败了89.46%的用户
-内存消耗 :17.3 MB, 在所有 C++ 提交中击败了36.73%的用户
+// 执行用时 :40 ms, 在所有 C++ 提交中击败了89.46%的用户
+// 内存消耗 :17.3 MB, 在所有 C++ 提交中击败了36.73%的用户
 
-```
+// ```
 class NumArray {
     
 private:
@@ -36,4 +36,4 @@ public:
  * NumArray* obj = new NumArray(nums);
  * int param_1 = obj->sumRange(i,j);
  */
-```
+// ```

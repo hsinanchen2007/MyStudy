@@ -1,13 +1,13 @@
-### 解题思路
-动态转移方程：
-dp[i] = (dp[j])dp[i - 1 -j]
-dp[i]: i对括号的所有合法形式
-(dp[j])dp[i - 1 -j]： 在dp[i-1]基础上加一对括号，相当于在dp[i-1]最左侧加一个左括号，然后在合理的位置选择一个右括号
-dp[0] = 0;
+// ### 解题思路
+// 动态转移方程：
+// dp[i] = (dp[j])dp[i - 1 -j]
+// dp[i]: i对括号的所有合法形式
+// (dp[j])dp[i - 1 -j]： 在dp[i-1]基础上加一对括号，相当于在dp[i-1]最左侧加一个左括号，然后在合理的位置选择一个右括号
+// dp[0] = 0;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 /*void dfs(vector<string>& vec, int n, int left, int right, string path){
@@ -51,4 +51,4 @@ vector<string> generateParenthesis(int n){
 }
 
 };
-```
+// ```

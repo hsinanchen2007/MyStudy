@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<String> generatePossibleNextMoves(String s) {
         List<String> ls = new ArrayList<>();
@@ -14,5 +14,5 @@ class Solution {
         return ls;
     }
 }
-```
+// ```
 

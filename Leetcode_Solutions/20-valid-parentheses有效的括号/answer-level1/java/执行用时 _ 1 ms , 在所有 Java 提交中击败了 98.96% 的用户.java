@@ -1,9 +1,9 @@
-### 解题思路
- 利用栈得思路，左括号压进栈里面，右括号则匹配栈最上面的字符，相匹配则出栈，不匹配则直接返回错误。
+// ### 解题思路
+//  利用栈得思路，左括号压进栈里面，右括号则匹配栈最上面的字符，相匹配则出栈，不匹配则直接返回错误。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValid(String s) {
 if(s.isEmpty()) return true;
@@ -30,4 +30,4 @@ if(s.isEmpty()) return true;
 		return true;
     }
 }
-```
+// ```

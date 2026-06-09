@@ -1,10 +1,10 @@
-### 解题思路
-先判断该链表是否为空，为空则需抛出异常
-再想删掉一个节点后，该节点的前一个节点需指向该节点的后一个节点
+// ### 解题思路
+// 先判断该链表是否为空，为空则需抛出异常
+// 再想删掉一个节点后，该节点的前一个节点需指向该节点的后一个节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -22,4 +22,4 @@ class Solution {
         node.next=node.next.next;
     }
 }
-```
+// ```

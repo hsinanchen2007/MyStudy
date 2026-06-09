@@ -1,9 +1,9 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         return sorted(nums, reverse=True)[k-1]
         
-```
+# ```

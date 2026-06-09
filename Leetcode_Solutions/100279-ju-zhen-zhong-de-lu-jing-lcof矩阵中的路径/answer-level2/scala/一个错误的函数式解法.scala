@@ -1,14 +1,14 @@
-### 还有三个用例没有通过，尽力了
+// ### 还有三个用例没有通过，尽力了
 
-“不是国军无能，是共军太狡猾”
+// “不是国军无能，是共军太狡猾”
 
-代码有很多疏漏的地方，但是思路应该没错。利用惰性计算边穷举边筛选，但是最后几个用例实在是变态……
+// 代码有很多疏漏的地方，但是思路应该没错。利用惰性计算边穷举边筛选，但是最后几个用例实在是变态……
 
-![图片.png](https://pic.leetcode-cn.com/bca38026f79e01bac554ba7b46473de63d3bb033d38ed4a2fe13ea8f41b603c3-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/bca38026f79e01bac554ba7b46473de63d3bb033d38ed4a2fe13ea8f41b603c3-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 trait MatrixSolver {
 
   val problem: Array[Array[Char]]
@@ -94,4 +94,4 @@ object Solution {
         game.res
     }
 }
-```
+// ```

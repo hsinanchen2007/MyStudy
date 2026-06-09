@@ -1,12 +1,12 @@
-### 解题思路
-1. 固定一个指针base
-2. 确定俩个指针，一个left是base+1，一个right是最后一个元素
-3. 遍历`base+left+right=sum`，如果`sum>target`,则right--。如果是`sum<target`，则left++。
-4. 如果是`sum==target`，则返回当前的sum
+# ### 解题思路
+# 1. 固定一个指针base
+# 2. 确定俩个指针，一个left是base+1，一个right是最后一个元素
+# 3. 遍历`base+left+right=sum`，如果`sum>target`,则right--。如果是`sum<target`，则left++。
+# 4. 如果是`sum==target`，则返回当前的sum
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def threeSumClosest(self, nums, target):
         """
@@ -33,4 +33,4 @@ class Solution(object):
                     return nums[base] + nums[left] + nums[right]
             base += 1
         return min
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-依旧可以使用上一题额外空间只使用O(n)的解法
-首先可以为矩阵加一行虚拟行和一列虚拟列（助于理解），但额外空间只需要O(N)
+// ### 解题思路
+// 依旧可以使用上一题额外空间只使用O(n)的解法
+// 首先可以为矩阵加一行虚拟行和一列虚拟列（助于理解），但额外空间只需要O(N)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int n=obstacleGrid.length;
@@ -19,4 +19,4 @@ class Solution {
         return counts[0];
     }
 }
-```
+// ```

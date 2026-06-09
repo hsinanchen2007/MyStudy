@@ -1,9 +1,9 @@
-### 解题思路
-比较每个数，加入新数组中，感觉好像是最简单的吧
+// ### 解题思路
+// 比较每个数，加入新数组中，感觉好像是最简单的吧
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] result=new int[nums.length];
@@ -19,4 +19,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-解法1：对撞指针
-![image.png](https://pic.leetcode-cn.com/2c82cf9e81193d492b782f92d72e47ad809db2b5877fe9610f167a06d4bf2813-image.png)
-解法2：快排思想
+// ### 解题思路
+// 解法1：对撞指针
+// ![image.png](https://pic.leetcode-cn.com/2c82cf9e81193d492b782f92d72e47ad809db2b5877fe9610f167a06d4bf2813-image.png)
+// 解法2：快排思想
 
-### 代码
-解法1
-```cpp
+// ### 代码
+// 解法1
+// ```cpp
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
@@ -30,9 +30,9 @@ public:
         return A;
     }
 };
-```
-解法2
-```
+// ```
+// 解法2
+// ```
 class Solution {
 public:
 	vector<int> sortArrayByParity(vector<int>& A) {
@@ -65,4 +65,4 @@ public:
 		return A;
 	}
 };
-```
+// ```

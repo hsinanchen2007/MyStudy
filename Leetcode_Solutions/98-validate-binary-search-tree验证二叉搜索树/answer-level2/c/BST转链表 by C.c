@@ -1,10 +1,10 @@
-### 解题思路
-1. BST的中序遍历刚好是升序。
-2. 因此按中序遍历保存为链表，检查链表是否有序
+// ### 解题思路
+// 1. BST的中序遍历刚好是升序。
+// 2. 因此按中序遍历保存为链表，检查链表是否有序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -64,4 +64,4 @@ bool isValidBST(struct TreeNode* root){
     }
     return true;
 }
-```
+// ```

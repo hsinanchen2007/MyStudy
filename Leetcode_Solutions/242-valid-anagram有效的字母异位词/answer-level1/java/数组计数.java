@@ -1,11 +1,11 @@
-### 解题思路
-遍历s 数组计数
-遍历t 数组减数
-判断计数数组是否存在不等于0的数
+// ### 解题思路
+// 遍历s 数组计数
+// 遍历t 数组减数
+// 判断计数数组是否存在不等于0的数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isAnagram(String s, String t) {
         //异位词-词相同 排列不同的词 - 使用数组保存
@@ -36,4 +36,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 遍历得到0的index列表
-2. 深度优先遍历
+# ### 解题思路
+# 1. 遍历得到0的index列表
+# 2. 深度优先遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canReach(self, arr: List[int], start: int) -> bool:
         marked = set()
@@ -26,4 +26,4 @@ class Solution:
             return False
 
         return dfs(start,targetlist)    
-```
+# ```

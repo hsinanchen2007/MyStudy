@@ -1,9 +1,9 @@
-### 解题思路
-https://leetcode-cn.com/problems/valid-sudoku/solution/36-jiu-an-zhao-cong-zuo-wang-you-cong-shang-wang-x/
-思路来源，看不懂我的代码可以看他的，讲解细致
-### 代码
+// ### 解题思路
+// https://leetcode-cn.com/problems/valid-sudoku/solution/36-jiu-an-zhao-cong-zuo-wang-you-cong-shang-wang-x/
+// 思路来源，看不懂我的代码可以看他的，讲解细致
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
@@ -30,4 +30,4 @@ public:
         return true;
     }
 };
-```
+// ```

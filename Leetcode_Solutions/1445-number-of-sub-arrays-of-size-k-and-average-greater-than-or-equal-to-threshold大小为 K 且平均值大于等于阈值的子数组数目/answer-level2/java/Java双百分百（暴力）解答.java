@@ -1,8 +1,8 @@
-比较滑稽的是子数组一定是连续的。一下子难度下降不少。
+// 比较滑稽的是子数组一定是连续的。一下子难度下降不少。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int numOfSubarrays(int[] arr, int k, int threshold) {
         int ans = 0;
@@ -21,4 +21,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

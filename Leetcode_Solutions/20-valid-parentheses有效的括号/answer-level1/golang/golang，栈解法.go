@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isValid(s string) bool {
 	if len(s)%2 == 1{
 		return false
@@ -51,4 +51,4 @@ func isValid(s string) bool {
 
 	return len(stock) == 0
 }
-```
+// ```

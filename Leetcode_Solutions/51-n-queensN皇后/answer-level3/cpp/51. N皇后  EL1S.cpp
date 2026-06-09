@@ -1,11 +1,11 @@
-折腾折腾，发现最近做的几道dfs题目似乎是同一个思想：把一堆东西塞到某一个新的地方
-所以需要考虑的是塞还是不塞，如果塞塞哪一个，要塞到哪一个位置里面去
+// 折腾折腾，发现最近做的几道dfs题目似乎是同一个思想：把一堆东西塞到某一个新的地方
+// 所以需要考虑的是塞还是不塞，如果塞塞哪一个，要塞到哪一个位置里面去
 
-这道题按照这个思路就是有n个棋子，想要塞到一个n*n的棋盘里面去
-要怎么遍历这个棋盘呢？一个格子一个格子遍历？ 一行一行遍历？ 一列一列遍历？
-如果按照一个格子一个格子遍历：
-那么来到一个格子，我是放棋子进去还是不放进去
-```
+// 这道题按照这个思路就是有n个棋子，想要塞到一个n*n的棋盘里面去
+// 要怎么遍历这个棋盘呢？一个格子一个格子遍历？ 一行一行遍历？ 一列一列遍历？
+// 如果按照一个格子一个格子遍历：
+// 那么来到一个格子，我是放棋子进去还是不放进去
+// ```
 class Solution {
     vector<vector<string>> res;
     int n;
@@ -44,12 +44,12 @@ public:
         return res;
     }
 };
-```
+// ```
 
 
-如果按照行遍历：
-这一行我是放哪一个格子里面去？
-```
+// 如果按照行遍历：
+// 这一行我是放哪一个格子里面去？
+// ```
 class Solution {
     vector<vector<string>> res;
     int n;
@@ -87,11 +87,11 @@ public:
         return res;
     }
 };
-```
-还写了一些别的leetcode的题解，分享一下看看有没有需要的，题解还会更新：[https://www.yuque.com/books/share/300e07be-6fc9-417d-bb05-c50f5dea1618?#](https://www.yuque.com/books/share/300e07be-6fc9-417d-bb05-c50f5dea1618?#)
-顺带给自己推一波公众号，要是有兴趣可以关注：**麦芽糖的笔记本**
-![image.png](https://pic.leetcode-cn.com/95c54eba219d34f176350f6968ff8d934a93879a43a12f926b2e05148b5833ca-image.png)
+// ```
+// 还写了一些别的leetcode的题解，分享一下看看有没有需要的，题解还会更新：[https://www.yuque.com/books/share/300e07be-6fc9-417d-bb05-c50f5dea1618?#](https://www.yuque.com/books/share/300e07be-6fc9-417d-bb05-c50f5dea1618?#)
+// 顺带给自己推一波公众号，要是有兴趣可以关注：**麦芽糖的笔记本**
+// ![image.png](https://pic.leetcode-cn.com/95c54eba219d34f176350f6968ff8d934a93879a43a12f926b2e05148b5833ca-image.png)
 
-公众号回复**LC**，可以下载题解的pdf版本，pdf也会更新
+// 公众号回复**LC**，可以下载题解的pdf版本，pdf也会更新
 
-![image.png](https://pic.leetcode-cn.com/a533ef6e9a37396c93e0d965e5ef389996a90e8c5b6a05d35aa19d918dcf8b86-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a533ef6e9a37396c93e0d965e5ef389996a90e8c5b6a05d35aa19d918dcf8b86-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-比较公共前缀，不同则直接返回相同的。
+// ### 解题思路
+// 比较公共前缀，不同则直接返回相同的。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -26,4 +26,4 @@ public:
         return result;
     }
 };
-```
+// ```

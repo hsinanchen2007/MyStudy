@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,4 +27,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     p->next=r;//处理一下边界条件
     return head;
 }
-```
+// ```

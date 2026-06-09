@@ -1,9 +1,9 @@
-### 解题思路
-C语言使用UTHash实现，单词作为key，按照次数排序
+// ### 解题思路
+// C语言使用UTHash实现，单词作为key，按照次数排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -62,4 +62,4 @@ char ** topKFrequent(char ** words, int wordsSize, int k, int* returnSize){
     *returnSize = k;
     return ans;
 }
-```
+// ```

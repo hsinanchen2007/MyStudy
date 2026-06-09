@@ -1,9 +1,9 @@
-### 解题思路
-写了一个读数函数，外加一个计数的函数。
+# ### 解题思路
+# 写了一个读数函数，外加一个计数的函数。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countAndSay(self, n):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                 name = name + str(count) + str1[i]
                 count = 1
         return name
-```
+# ```

@@ -1,7 +1,7 @@
-左边界lo为数组中小于目标值的元素个数，可能为nums.size()。
-右边界hi为数组中小于等于目标值的元素个数再减1,小于等于目标值的元素个数可能为0.
+// 左边界lo为数组中小于目标值的元素个数，可能为nums.size()。
+// 右边界hi为数组中小于等于目标值的元素个数再减1,小于等于目标值的元素个数可能为0.
 
-```
+// ```
 class Solution { 
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -34,4 +34,4 @@ public:
         return (nums[lo-1]==target)?lo-1:-1;
     }
 };
-```
+// ```

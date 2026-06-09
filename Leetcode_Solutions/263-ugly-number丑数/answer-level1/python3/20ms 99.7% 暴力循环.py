@@ -1,11 +1,11 @@
-### 解题思路
-这题直接循环即可
+# ### 解题思路
+# 这题直接循环即可
 
-需要注意的是直接返还 num == 1 的隐式bool值要快得多
+# 需要注意的是直接返还 num == 1 的隐式bool值要快得多
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isUgly(self, num: int) -> bool:
         if num == 0:
@@ -18,4 +18,4 @@ class Solution:
             num /= 5
         return num == 1
 
-```
+# ```

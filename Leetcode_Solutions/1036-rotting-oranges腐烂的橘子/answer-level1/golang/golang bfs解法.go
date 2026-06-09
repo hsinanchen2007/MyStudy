@@ -1,11 +1,11 @@
-### 解题思路
-bfs解法
-先将坏🍊坐标塞到队列，再传染其他🍊，继续加入队列。
-注意方格边界
+// ### 解题思路
+// bfs解法
+// 先将坏🍊坐标塞到队列，再传染其他🍊，继续加入队列。
+// 注意方格边界
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func orangesRotting(grid [][]int) int {
 	//空方格，返回0
 	if len(grid) == 0 {
@@ -68,4 +68,4 @@ func orangesRotting(grid [][]int) int {
 	}
 }
 
-```
+// ```

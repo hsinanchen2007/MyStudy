@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/2ec8f8d57fa6d534ed356b9fdf36ca85dcc0813404b59c50928fdee2c16f99c2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2ec8f8d57fa6d534ed356b9fdf36ca85dcc0813404b59c50928fdee2c16f99c2-image.png)
 
-```
+// ```
 const BACKSPACE = 35
 
 type StringStack struct {
@@ -57,4 +57,4 @@ func backspaceCompare(S string, T string) bool {
 
     return SS.toString() == ST.toString()
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
-方法一：递归
-```
+// 方法一：递归
+// ```
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> list = new ArrayList<>();
@@ -35,12 +35,12 @@ class Solution {
         }
     }
 }
-```
+// ```
 
 
-方法二：栈
+// 方法二：栈
 
-```
+// ```
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> list = new ArrayList<>();
@@ -79,6 +79,6 @@ class Solution {
         return list;
     }
 }
-```
+// ```
 
-两种方法都可以在1ms完成
+// 两种方法都可以在1ms完成

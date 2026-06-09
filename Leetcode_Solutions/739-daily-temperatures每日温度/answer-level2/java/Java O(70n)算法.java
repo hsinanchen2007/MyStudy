@@ -1,5 +1,5 @@
-利用温度的取值范围有限，可以使用map来存储具体温度在数组中的索引。AC代码：
-```Java
+// 利用温度的取值范围有限，可以使用map来存储具体温度在数组中的索引。AC代码：
+// ```Java
 class Solution {
     public int[] dailyTemperatures(int[] T) {
       int[] ans = new int[T.length];
@@ -20,5 +20,5 @@ class Solution {
       return ans;
     }
 }
-```
-然鹅这个O(70n)算法只能击败30%的童鞋。。。。
+// ```
+// 然鹅这个O(70n)算法只能击败30%的童鞋。。。。

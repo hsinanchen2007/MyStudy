@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/d465f91b406419f69b8040a0b5bf41fb5464e859daaa6553bbf81452e55b80fd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d465f91b406419f69b8040a0b5bf41fb5464e859daaa6553bbf81452e55b80fd-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   除了 1 和 本身之外，有且仅有一对不相等的因子才统计它的和，重点是判断条件
   举两个反例：
   16：是不行的：因为他有多个因数 1 2 4 8 16，
   如果结果为 134716980 的这个用例跑不过去，可以拿 16 来调试
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -48,4 +48,4 @@ var sumFourDivisors = function(nums) {
   
   return sum;
 };
-```
+// ```

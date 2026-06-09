@@ -1,4 +1,4 @@
-方法：顺次进行遍历，前后两项i和i+1逐个进行比较，j是更新时候num的数组下标，也是新数组中元素的个数值
+// 方法：顺次进行遍历，前后两项i和i+1逐个进行比较，j是更新时候num的数组下标，也是新数组中元素的个数值
 int removeDuplicates(int* nums, int numsSize)
 {
     int i=0,j=1;

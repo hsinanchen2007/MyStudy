@@ -1,13 +1,13 @@
-### 解题思路
-执行用时 :0 ms
-内存消耗 :2.8 MB
-1.先判断异常情况
-2.用第一个字符串跟后面的字符串的每个字符进行比较
-时间复杂度O(m*n) m是字符串长度
+// ### 解题思路
+// 执行用时 :0 ms
+// 内存消耗 :2.8 MB
+// 1.先判断异常情况
+// 2.用第一个字符串跟后面的字符串的每个字符进行比较
+// 时间复杂度O(m*n) m是字符串长度
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestCommonPrefix(strs []string) string {
 	if len(strs) == 0 {
 		return ""
@@ -40,4 +40,4 @@ func valueEqual(i int, v rune, runeArr [][]rune) bool {
 	}
 	return true
 }
-```
+// ```

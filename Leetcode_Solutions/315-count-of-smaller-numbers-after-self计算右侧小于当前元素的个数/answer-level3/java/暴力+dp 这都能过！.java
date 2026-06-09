@@ -1,5 +1,5 @@
    
-```
+// ```
  public List<Integer> countSmaller(int[] nums) {
         
         int[] res = new int[nums.length];
@@ -22,8 +22,8 @@
         }
         return Arrays.stream(res).boxed().collect(Collectors.toList());
     }
-```
+// ```
 
 
-执行用时 : 451 ms  , 在所有 java 提交中击败了 9.69% 的用户
-内存消耗 :39.8 M , 在所有 java 提交中击败了95.45%的用户
+// 执行用时 : 451 ms  , 在所有 java 提交中击败了 9.69% 的用户
+// 内存消耗 :39.8 M , 在所有 java 提交中击败了95.45%的用户

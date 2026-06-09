@@ -1,9 +1,9 @@
-### 解题思路
-分别对当前节点和子节点进行递归
+// ### 解题思路
+// 分别对当前节点和子节点进行递归
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isSubPath(ListNode head, TreeNode root) {
         if (head == null) {
@@ -28,4 +28,4 @@ class Solution {
         return (hasSubPath(head.next, root.left) || hasSubPath(head.next, root.right));
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-公式 从第倒数第二行开始循环每一个数，所以复杂度是mxn 
-dp[i,j] = min(dp[i+1,j],dp[i+1,j+1])
-1 dp  二维数组 直接用它本身
+// ### 解题思路
+// 公式 从第倒数第二行开始循环每一个数，所以复杂度是mxn 
+// dp[i,j] = min(dp[i+1,j],dp[i+1,j+1])
+// 1 dp  二维数组 直接用它本身
 
-2 dp 优化 一维数组 这题纠结了很久，写详细点
+// 2 dp 优化 一维数组 这题纠结了很久，写详细点
 
-### 代码
-```
+// ### 代码
+// ```
 func minimumTotal(triangle [][]int) int {
     if len(triangle) == 0 {
         return 0
@@ -28,8 +28,8 @@ func min(a,b int) int{
     }
     return a
 }
-```
-```golang
+// ```
+// ```golang
 func minimumTotal(triangle [][]int) int {
     if len(triangle) == 0 {
         return 0
@@ -49,4 +49,4 @@ func min(a,b int) int{
     }
     return a
 }
-```
+// ```

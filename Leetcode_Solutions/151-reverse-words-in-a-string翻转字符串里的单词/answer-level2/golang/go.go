@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-golang 双百解法
+// golang 双百解法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseWords(s string) string {
 	s = strings.TrimSpace(s)
 	arr := strings.Split(s, " ")
@@ -20,4 +20,4 @@ func reverseWords(s string) string {
 	return strings.Join(words, " ")
 }
 
-```
+// ```

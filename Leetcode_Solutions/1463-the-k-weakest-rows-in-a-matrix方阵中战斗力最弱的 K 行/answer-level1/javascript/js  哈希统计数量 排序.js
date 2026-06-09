@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/17d007e1888b28671ae6cb0c2c8222717859d3ea04e8e52e5e6a83e3fa0c769c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/17d007e1888b28671ae6cb0c2c8222717859d3ea04e8e52e5e6a83e3fa0c769c-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 思路：
 1.将所有行转换为一个二维数组 [ [1,2] ] [ [行数，军人数] ]
 2.正序排序，先依赖军人数，如果军人数相等，依赖行数，行数小的在前
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} mat
  * @param {number} k
@@ -43,4 +43,4 @@ var kWeakestRows = function(mat, k) {
   
   return ans;
 };
-```
+// ```

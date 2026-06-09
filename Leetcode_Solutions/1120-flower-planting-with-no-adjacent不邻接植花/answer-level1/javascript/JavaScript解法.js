@@ -1,4 +1,4 @@
-```
+// ```
 var gardenNoAdj = function(N, paths) {
     
     // 利用对象存储每个花园对应的相连花园
@@ -45,4 +45,4 @@ var gardenNoAdj = function(N, paths) {
     }
     return answer;
 };
-```
+// ```

@@ -1,8 +1,8 @@
 
-![捕获.PNG](https://pic.leetcode-cn.com/8a9e53d3742e638e37ac58cf7c95ac64faea80775dbc8060859ebefcbf70f4a0-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/8a9e53d3742e638e37ac58cf7c95ac64faea80775dbc8060859ebefcbf70f4a0-%E6%8D%95%E8%8E%B7.PNG)
 
 
-```
+// ```
 class Solution {
 public:
     vector<int> sequentialDigits(int low, int high) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

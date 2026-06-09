@@ -1,6 +1,6 @@
-1. 先记录下，第m个和第n+1个的地址，并且利用数组记录下中间第m个到第n个节点的val
-2. 再将数组中的元素由最后一个到第一个的顺序分别赋值个第m个到第n个节点的val
-```
+// 1. 先记录下，第m个和第n+1个的地址，并且利用数组记录下中间第m个到第n个节点的val
+// 2. 再将数组中的元素由最后一个到第一个的顺序分别赋值个第m个到第n个节点的val
+// ```
 struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
 //借助额外的空间
     int len = n-m+1;
@@ -27,5 +27,5 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
     }
     return head;
 }
-```
+// ```
 

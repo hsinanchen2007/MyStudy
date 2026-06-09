@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def balancedStringSplit(self, s: str) -> int:
         balance = 0
@@ -11,4 +11,4 @@ class Solution:
             if balance == 0:
                 res += 1
         return res
-```
+# ```

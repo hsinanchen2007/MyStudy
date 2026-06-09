@@ -1,20 +1,20 @@
 
 
--   首先在首部添加一个"L"，尾部添加一个"R"
--   "L"和"R"供会产生4种组合：
+# -   首先在首部添加一个"L"，尾部添加一个"R"
+# -   "L"和"R"供会产生4种组合：
 
-```
+# ```
 L ... R  => L ... R
 R ... R  => R RRR R
 R ... L  => R R.L L
 L ... L  => L LLL L
-```
+# ```
 
-如上所示，只需要对上面的第三种情况额外判断一下奇偶即可
+# 如上所示，只需要对上面的第三种情况额外判断一下奇偶即可
 
 
 
-```python
+# ```python
 class Solution:
     def pushDominoes(self, dominoes: str) -> str:
         ans = ""
@@ -41,6 +41,6 @@ class Solution:
                 left = i
 
         return ans[:-1]
-```
+# ```
 
 

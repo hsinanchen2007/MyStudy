@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-只要记录当前字符上一次出现的位置即可。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 只要记录当前字符上一次出现的位置即可。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isIsomorphic(String s, String t) {
         int[]m1=new int[256];
@@ -17,4 +17,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

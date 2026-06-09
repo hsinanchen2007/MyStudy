@@ -1,7 +1,7 @@
-思路: 
-    采用贪心算法, 先按照右区间边界排序, 之后从前向后判断即可. 代码采用了Lambda所以看起来比较简洁.
+// 思路: 
+//     采用贪心算法, 先按照右区间边界排序, 之后从前向后判断即可. 代码采用了Lambda所以看起来比较简洁.
 
-```java
+// ```java
     public int eraseOverlapIntervals(int[][] intervals) {
         if (intervals == null || intervals.length <= 1) return 0;
 
@@ -15,11 +15,11 @@
 
         return res;
     }
-```
+// ```
 
-下面是一个使用Lambda和Stream的方法, 因为Java中匿名内部类和局部内部类只能访问final局部变量, 所以将bound和res定义为了成员变量即可!
+// 下面是一个使用Lambda和Stream的方法, 因为Java中匿名内部类和局部内部类只能访问final局部变量, 所以将bound和res定义为了成员变量即可!
 
-```java
+// ```java
 class Solution {
     
     private int bound;
@@ -42,4 +42,4 @@ class Solution {
     }
 }
 
-```
+// ```

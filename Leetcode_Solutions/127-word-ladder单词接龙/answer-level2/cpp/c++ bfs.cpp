@@ -1,5 +1,5 @@
-参考官方解答，仅使用c++实现了一下。
-```
+// 参考官方解答，仅使用c++实现了一下。
+// ```
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
@@ -35,4 +35,4 @@ public:
         return 0;
     }
 };
-```
+// ```

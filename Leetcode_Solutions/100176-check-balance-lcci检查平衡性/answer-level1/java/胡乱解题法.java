@@ -1,14 +1,14 @@
-### 解题思路
-自顶向下，每个节点比较自身左右两边的最大深度，左右相差大于1则直接return false
-然后左右子节点递归，两条线只要有一条不成立则return false
+// ### 解题思路
+// 自顶向下，每个节点比较自身左右两边的最大深度，左右相差大于1则直接return false
+// 然后左右子节点递归，两条线只要有一条不成立则return false
 
-![image.png](https://pic.leetcode-cn.com/9211e671f84af080dc59ca35cb6a9d854698ea9ccc74c42d4c17012b8612aae1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9211e671f84af080dc59ca35cb6a9d854698ea9ccc74c42d4c17012b8612aae1-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ class Solution {
         return Math.max(deep(node.left) + 1, deep(node.right) + 1);
     }
 }
-```
+// ```

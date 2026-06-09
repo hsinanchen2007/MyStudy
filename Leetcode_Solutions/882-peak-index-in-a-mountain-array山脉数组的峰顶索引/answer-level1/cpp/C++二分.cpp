@@ -1,5 +1,5 @@
-实实在在的超过100%
-```c++
+// 实实在在的超过100%
+// ```c++
 class Solution {
 public:
     int peakIndexInMountainArray(vector<int>& A) {
@@ -15,5 +15,5 @@ public:
         return -1;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/8c9d144f502b523ed2e30dff1f951b2c8b190fc09efd103eddd5eb8c83aa1d78-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/8c9d144f502b523ed2e30dff1f951b2c8b190fc09efd103eddd5eb8c83aa1d78-image.png)

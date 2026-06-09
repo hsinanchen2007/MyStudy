@@ -1,7 +1,7 @@
-错误1，开始的时候没加visited 造成死循环，
-错误2 sumValue一开始用指针传进来，一直累加
-错误3，col 是列，row 是行，一开始弄反了，而且要把i,j是否有效的判断放在最前面
-```
+// 错误1，开始的时候没加visited 造成死循环，
+// 错误2 sumValue一开始用指针传进来，一直累加
+// 错误3，col 是列，row 是行，一开始弄反了，而且要把i,j是否有效的判断放在最前面
+// ```
 void dfs(int** grid, int i, int j, int gridSize, int gridColSize, int sumValue, int visited[][15],int *max) 
 {
     if (i < 0 || j < 0 || i >=gridSize || j >= gridColSize) {
@@ -38,4 +38,4 @@ int getMaximumGold(int **grid, int gridSize, int* gridColSize)
     }
     return maxValue;
 }
-```
+// ```

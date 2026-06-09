@@ -1,11 +1,11 @@
-### 解题思路
-起初设置哨兵节点时没有对哨兵节点val值做初始化
-导致其val值为默认的0 测试[0,0,0,0] 未通过
-初始化sentinel对象时传入 负数参数 可解决该问题
+// ### 解题思路
+// 起初设置哨兵节点时没有对哨兵节点val值做初始化
+// 导致其val值为默认的0 测试[0,0,0,0] 未通过
+// 初始化sentinel对象时传入 负数参数 可解决该问题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,8 +36,8 @@ class Solution {
 		return sentinel.next;
     }
 }
-```
-```递归
+// ```
+// ```递归
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -65,7 +65,7 @@ class Solution {
 		
     }
 }
-```
-重点在于
-如果当前节点val与下一节点val等 
-那么便丢弃当前节点 直接返回处理后的next
+// ```
+// 重点在于
+// 如果当前节点val与下一节点val等 
+// 那么便丢弃当前节点 直接返回处理后的next

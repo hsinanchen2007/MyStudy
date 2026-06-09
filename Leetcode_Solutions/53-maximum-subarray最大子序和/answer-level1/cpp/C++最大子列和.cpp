@@ -1,14 +1,14 @@
-这道题其实不是easy题，估计是面试的时候被考烂了，所以当成easy题了。。。
+// 这道题其实不是easy题，估计是面试的时候被考烂了，所以当成easy题了。。。
 
-两种解法，动态规划，需要数组额外空间以及在线更新不需要额外O(N)的空间。
+// 两种解法，动态规划，需要数组额外空间以及在线更新不需要额外O(N)的空间。
 
-都贴下代码，都很好理解，第二种不理解的可以看[连续子数组的最大和](<https://bbkgl.github.io/2019/09/26/%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/>)。
+// 都贴下代码，都很好理解，第二种不理解的可以看[连续子数组的最大和](<https://bbkgl.github.io/2019/09/26/%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/>)。
 
-### 动态规划
+// ### 动态规划
 
-相当简单，递推公式，`dp[i] = max(dp[i-1] + nums[i], nums[i])`。
+// 相当简单，递推公式，`dp[i] = max(dp[i-1] + nums[i], nums[i])`。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -23,13 +23,13 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-### 在线更新
+// ### 在线更新
 
-可以看[连续子数组的最大和](<https://bbkgl.github.io/2019/09/26/%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/>)，不再赘述。
+// 可以看[连续子数组的最大和](<https://bbkgl.github.io/2019/09/26/%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/>)，不再赘述。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -45,7 +45,7 @@ public:
         return ans;
     }
 };
-```
+// ```
 
 
 

@@ -1,7 +1,7 @@
 
-找[博客](https://blog.csdn.net/linfeng999/article/details/6291824?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-9&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-9)学的信号量函数的用法，尝试着用了一下。
-原理很容易，就是确保各个线程操作的原子性，然后再考虑一下三者的顺序关系即可，信号量（这里用互斥量就可以），条件变量都可以很容易实现。
-```
+// 找[博客](https://blog.csdn.net/linfeng999/article/details/6291824?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-9&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-9)学的信号量函数的用法，尝试着用了一下。
+// 原理很容易，就是确保各个线程操作的原子性，然后再考虑一下三者的顺序关系即可，信号量（这里用互斥量就可以），条件变量都可以很容易实现。
+// ```
 #include <semaphore.h>
 class Foo {
     
@@ -35,4 +35,4 @@ public:
         printThird();
     }
 };
-```
+// ```

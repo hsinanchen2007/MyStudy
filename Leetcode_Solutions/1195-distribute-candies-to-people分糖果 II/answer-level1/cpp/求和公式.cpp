@@ -1,9 +1,9 @@
-### 解题思路
-求和公式，先求完整分发的轮次，再求最后一次不完整的分发
+// ### 解题思路
+// 求和公式，先求完整分发的轮次，再求最后一次不完整的分发
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -40,4 +40,4 @@ public:
         return ans;
     }
 };
-```
+// ```

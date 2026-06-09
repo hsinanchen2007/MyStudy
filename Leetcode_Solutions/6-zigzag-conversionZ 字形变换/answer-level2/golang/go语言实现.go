@@ -1,10 +1,10 @@
-step1: 参数检查
+// step1: 参数检查
 
-step2: 构造Z字形二维矩阵
+// step2: 构造Z字形二维矩阵
 
-step3: 遍历矩阵
+// step3: 遍历矩阵
 
-```
+// ```
 func convert(s string, numRows int) string {
 	//step1: 参数检查
 	if s == "" || numRows <= 0 {
@@ -47,4 +47,4 @@ func convert(s string, numRows int) string {
 
 	return res
 }
-```
+// ```

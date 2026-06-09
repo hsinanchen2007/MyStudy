@@ -1,9 +1,9 @@
-### 解题思路
-python3普通遍历
+# ### 解题思路
+# python3普通遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         sum_A = sum(A)
@@ -24,4 +24,4 @@ class Solution:
 
         return False
 
-```
+# ```

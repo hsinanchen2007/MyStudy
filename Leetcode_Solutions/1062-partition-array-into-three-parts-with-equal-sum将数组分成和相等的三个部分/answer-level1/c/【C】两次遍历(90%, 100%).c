@@ -1,11 +1,11 @@
-## 解题思路
-题目可拆为
-1、计算各位置累加和sum[n]
-2、找出i,j使sum[i] = sum[ASize]/3, sum[i] = sum[ASize]*2/3
-![1013.png](https://pic.leetcode-cn.com/0f334f9d9360f1d18a32b3b582d0bacd8795bbcf35c7f14fe84d88081f2f3cf3-1013.png)
+// ## 解题思路
+// 题目可拆为
+// 1、计算各位置累加和sum[n]
+// 2、找出i,j使sum[i] = sum[ASize]/3, sum[i] = sum[ASize]*2/3
+// ![1013.png](https://pic.leetcode-cn.com/0f334f9d9360f1d18a32b3b582d0bacd8795bbcf35c7f14fe84d88081f2f3cf3-1013.png)
 
-## 代码
-```c
+// ## 代码
+// ```c
 bool canThreePartsEqualSum(int* A, int ASize){
     int i;
     int sum[50000] = {0};
@@ -36,5 +36,5 @@ bool canThreePartsEqualSum(int* A, int ASize){
     
     return false;
 }
-```
+// ```
 

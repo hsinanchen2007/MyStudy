@@ -1,9 +1,9 @@
-### 解题思路
-其实就是找到排序后数组中间的那个数
+// ### 解题思路
+// 其实就是找到排序后数组中间的那个数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -11,4 +11,4 @@ public:
         return nums[nums.size()/2];
     }
 };
-```
+// ```

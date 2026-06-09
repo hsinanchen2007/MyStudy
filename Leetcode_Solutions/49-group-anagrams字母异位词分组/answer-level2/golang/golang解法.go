@@ -1,9 +1,9 @@
-### 解题思路
-先将每个字符串内，按照字母排序，然后存储到map，最后再输出结果。
+// ### 解题思路
+// 先将每个字符串内，按照字母排序，然后存储到map，最后再输出结果。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func groupAnagrams(strs []string) [][]string {
     if strs == nil || len(strs) == 0 {
         return [][]string{}
@@ -33,4 +33,4 @@ func aSort(s string) string{
     sort.Slice(x, func(i, j int) bool {return x[i] < x[j]})
     return string(x)
 }
-```
+// ```

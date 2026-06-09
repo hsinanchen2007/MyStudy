@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -22,6 +22,6 @@ class Solution:
                 return False
             else:
                 return True      
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/d9f4646c6bb026b038b8e1427bc41bfa10cbfda1e1ca72baa48f8445c0abc80a-image.png)
+# ![image.png](https://pic.leetcode-cn.com/d9f4646c6bb026b038b8e1427bc41bfa10cbfda1e1ca72baa48f8445c0abc80a-image.png)

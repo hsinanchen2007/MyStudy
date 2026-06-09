@@ -1,4 +1,4 @@
-```
+// ```
 func isSymmetric(root *TreeNode) bool {
 	return dfs(root, root)
 }
@@ -12,4 +12,4 @@ func dfs(t1, t2 *TreeNode) bool {
 	}
 	return (t1.Val == t2.Val) && dfs(t1.Right, t2.Left) && dfs(t1.Left, t2.Right)
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     private let N = 3
     func validTicTacToe(_ board: [String]) -> Bool {
@@ -86,4 +86,4 @@ class Solution {
         return false
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-执行用时 : 4 ms, 在Positions of Large Groups的Java提交中击败了93.71% 的用户
-内存消耗 : 35.7 MB, 在Positions of Large Groups的Java提交中击败了100.00% 的用户
-```
+// 执行用时 : 4 ms, 在Positions of Large Groups的Java提交中击败了93.71% 的用户
+// 内存消耗 : 35.7 MB, 在Positions of Large Groups的Java提交中击败了100.00% 的用户
+// ```
 class Solution {
     public List<List<Integer>> largeGroupPositions(String S) {
         List<List<Integer>> res = new ArrayList<>();
@@ -35,4 +35,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

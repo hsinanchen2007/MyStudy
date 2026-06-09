@@ -1,11 +1,11 @@
-执行用时 :52 ms, 在所有Python3提交中击败了91.12% 的用户。
-内存消耗 :13.1 MB, 在所有Python3提交中击败了99.56%的用户。
+# 执行用时 :52 ms, 在所有Python3提交中击败了91.12% 的用户。
+# 内存消耗 :13.1 MB, 在所有Python3提交中击败了99.56%的用户。
 
-思路1，直接`return target in nums`
+# 思路1，直接`return target in nums`
 
-思路2，二分查找，首先找到旋转点，将数组分为两部分，再判断target可能处于哪个数组，再进行二分查找。
+# 思路2，二分查找，首先找到旋转点，将数组分为两部分，再判断target可能处于哪个数组，再进行二分查找。
 
-```
+# ```
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
         if not nums:
@@ -33,4 +33,4 @@ class Solution:
             else:
                 r = mid - 1
         return False
-```
+# ```

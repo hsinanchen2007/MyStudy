@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 
 # -*- coding:utf-8 -*-
 class Solution:
@@ -24,7 +24,7 @@ class Solution:
             else:
                 return True
 
-```
+# ```
 
-```python
-```
+# ```python
+# ```

@@ -1,8 +1,8 @@
-把l2串在l1后面，然后进行修改和截断。
-![image.png](https://pic.leetcode-cn.com/9c223c49da6e7308420a4ab7d3dab383bc8749cda2c1a7190971e4883ce04145-image.png)
+// 把l2串在l1后面，然后进行修改和截断。
+// ![image.png](https://pic.leetcode-cn.com/9c223c49da6e7308420a4ab7d3dab383bc8749cda2c1a7190971e4883ce04145-image.png)
 
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -71,5 +71,5 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
 
     return l1;
 }
-```
+// ```
 

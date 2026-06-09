@@ -1,17 +1,17 @@
-### 解题思路
-注意：当为偶数链表：1-2-3-4
-反转位置是3：所以1>2>3<4;而3>null
-所以前后链表的节点数不一致，遍历时候必须
-while(head&&pre){//都要非空
-            if(pre->val!=head->val) 
-                return false;
-            pre=pre->next;
-            head=head->next;
-        }
+// ### 解题思路
+// 注意：当为偶数链表：1-2-3-4
+// 反转位置是3：所以1>2>3<4;而3>null
+// 所以前后链表的节点数不一致，遍历时候必须
+// while(head&&pre){//都要非空
+//             if(pre->val!=head->val) 
+//                 return false;
+//             pre=pre->next;
+//             head=head->next;
+//         }
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ public:
         return true;
     }
 };
-```
+// ```

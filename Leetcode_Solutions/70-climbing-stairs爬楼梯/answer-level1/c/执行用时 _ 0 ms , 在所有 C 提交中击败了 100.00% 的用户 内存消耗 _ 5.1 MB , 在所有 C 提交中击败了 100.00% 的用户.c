@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int climbStairs(int n){
     int num=2,i,j=1,tmp;
     if(n==1) num=1;
@@ -15,4 +15,4 @@ int climbStairs(int n){
     }
     return num;
 }
-```
+// ```

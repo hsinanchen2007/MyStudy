@@ -1,10 +1,10 @@
-### 解题思路
-一个数**与同一个数异或两次**等于没有异或
-而且与异或的顺序不影响
+// ### 解题思路
+// 一个数**与同一个数异或两次**等于没有异或
+// 而且与异或的顺序不影响
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char findTheDifference(String s, String t) {
         // 初始值为 t 最后的字符
@@ -19,4 +19,4 @@ class Solution {
         return (char)a;
     }
 }
-```
+// ```

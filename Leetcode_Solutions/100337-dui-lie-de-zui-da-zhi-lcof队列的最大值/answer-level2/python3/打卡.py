@@ -1,9 +1,9 @@
-### 解题思路
-打卡
+# ### 解题思路
+# 打卡
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MaxQueue:
 
     def __init__(self):
@@ -35,4 +35,4 @@ class MaxQueue:
 # param_3 = obj.pop_front()
         
 
-```
+# ```

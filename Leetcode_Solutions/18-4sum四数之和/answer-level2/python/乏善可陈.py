@@ -1,8 +1,8 @@
-此题与第十五题相同，此不赘述。
+# 此题与第十五题相同，此不赘述。
 
-整道题目的代码如下：
+# 整道题目的代码如下：
 
-```python
+# ```python
 class Solution(object):
     def fourSum(self, nums, target):
         """
@@ -30,5 +30,5 @@ class Solution(object):
                         l = l - 1
 
         return list(res)
-```
+# ```
 

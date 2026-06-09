@@ -1,9 +1,9 @@
-### 解题思路
-此题难点在于，需要用公约数判断是否能进行分组，判断根据是最小公约数是否大于等于2
+# ### 解题思路
+# 此题难点在于，需要用公约数判断是否能进行分组，判断根据是最小公约数是否大于等于2
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         def gcd(i, temp):
@@ -25,4 +25,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

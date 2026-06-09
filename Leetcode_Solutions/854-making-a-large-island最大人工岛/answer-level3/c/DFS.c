@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、一遍DFS，刷新grid矩阵，并给刷新后的矩阵元素编号归属；
-2、逐个填海，O（1）复杂度求最大值。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1、一遍DFS，刷新grid矩阵，并给刷新后的矩阵元素编号归属；
+// 2、逐个填海，O（1）复杂度求最大值。
+// ### 代码
 
-```c
+// ```c
 #define MAX 50
 int g_row;
 int g_col;
@@ -130,4 +130,4 @@ int largestIsland(int** grid, int gridSize, int* gridColSize)
     }
     return ret;
 }
-```
+// ```

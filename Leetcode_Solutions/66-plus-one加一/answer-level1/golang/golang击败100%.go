@@ -1,12 +1,12 @@
-未修改原数组
-```
+// 未修改原数组
+// ```
 执行用时 :0 ms, 在所有 golang 提交中击败了100.00%的用户
 内存消耗 :2.1 MB, 在所有 golang 提交中击败了99.56%的用户
-```
+// ```
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func plusOne(digits []int) []int {
 	res := make([]int, len(digits)+1)
 	length := len(digits)
@@ -28,4 +28,4 @@ func plusOne(digits []int) []int {
 	}
 	return res
 }
-```
+// ```

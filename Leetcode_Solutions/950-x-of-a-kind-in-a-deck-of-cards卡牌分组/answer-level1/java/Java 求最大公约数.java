@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
@@ -19,4 +19,4 @@ class Solution {
         return gcd(y, x % y);
     }
 }
-```
+// ```

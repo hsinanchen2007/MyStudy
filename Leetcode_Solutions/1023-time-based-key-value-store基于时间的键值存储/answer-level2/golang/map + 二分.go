@@ -1,4 +1,4 @@
-```
+// ```
 type ValueStruct struct {
 	Values []string
 	Timestamps []int
@@ -75,4 +75,4 @@ func (this *TimeMap) Get(key string, timestamp int) string {
 		return ""
 	}
 }
-```
+// ```

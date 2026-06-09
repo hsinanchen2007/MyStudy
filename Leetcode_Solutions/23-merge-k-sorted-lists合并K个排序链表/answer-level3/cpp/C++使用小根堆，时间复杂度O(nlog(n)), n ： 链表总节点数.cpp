@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     typedef pair<int, ListNode*> PIL;
@@ -21,4 +21,4 @@ public:
         return dummy->next;
     }
 };
-```
+// ```

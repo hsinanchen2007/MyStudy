@@ -1,9 +1,9 @@
-### 解题思路
-C语言，模拟二进制加法，注意返回值是指针，所以需要动态申请内存
+// ### 解题思路
+// C语言，模拟二进制加法，注意返回值是指针，所以需要动态申请内存
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * addBinary(char * a, char * b){
     int alen = strlen(a);
     int blen = strlen(b);
@@ -95,4 +95,4 @@ char * addBinary(char * a, char * b){
     result[len] = '\0';
     return result;
 }
-```
+// ```

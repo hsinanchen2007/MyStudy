@@ -1,10 +1,10 @@
-### 解题思路
-    1-2-3-4 删除3
-    1-2-4-4 删除后一个4节点
+// ### 解题思路
+//     1-2-3-4 删除3
+//     1-2-4-4 删除后一个4节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -22,4 +22,4 @@ class Solution {
         node.next=node.next.next;
     }
 }
-```
+// ```

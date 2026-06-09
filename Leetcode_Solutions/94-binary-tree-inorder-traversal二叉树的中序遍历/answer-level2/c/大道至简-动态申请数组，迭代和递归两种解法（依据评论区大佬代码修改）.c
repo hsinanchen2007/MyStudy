@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/aa9c704a1ee50a71ba21453240f343c60328cd75c6b713949ce5852572864c40-image.png)
+// ![image.png](https://pic.leetcode-cn.com/aa9c704a1ee50a71ba21453240f343c60328cd75c6b713949ce5852572864c40-image.png)
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,8 +39,8 @@ memset(res,0,size);
 Inorder(root,returnSize,res);
 return res;
 }
-```
-```
+// ```
+// ```
  #define MAXSIZE 1000
 int TreeSize(struct TreeNode* root)
 {
@@ -79,4 +79,4 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
 *returnSize =index;
 return res;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-没啥意思，链表的操作而已
+// ### 解题思路
+// 没啥意思，链表的操作而已
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

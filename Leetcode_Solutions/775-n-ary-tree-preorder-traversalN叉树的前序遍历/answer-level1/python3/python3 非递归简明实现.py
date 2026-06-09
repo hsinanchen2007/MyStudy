@@ -1,4 +1,4 @@
-```非递归 []
+# ```非递归 []
 class Solution:
     def preorder(self, root: 'Node') -> List[int]:
         if root is None:
@@ -12,9 +12,9 @@ class Solution:
                 for item in temp.children[::-1]:
                     stack.append(item)
         return out
-```
+# ```
 
-```递归 []
+# ```递归 []
 class Solution:
     def preorder(self, root: 'Node') -> List[int]:
         if root is None:
@@ -26,4 +26,4 @@ class Solution:
             for item in root.children:
                 list += self.preorder(item)
         return list
-```
+# ```

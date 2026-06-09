@@ -1,8 +1,8 @@
-有题目可知，如果要返回true，则需要同时满足一下三点
-1. pattern的length与str分割(分隔符是空格)出来的字符串的个数要相等
-2. 由str分割出来的第i个字符串strtemp;strtemp如果已经出现，则其哈希表中所存储的字符x，必然与pattern[i]一致
-3. 由str分割出来的第i个字符串strtemp;strtemp如果没有出现，则pattern[i]必然没有出现在哈希表中
-```
+// 有题目可知，如果要返回true，则需要同时满足一下三点
+// 1. pattern的length与str分割(分隔符是空格)出来的字符串的个数要相等
+// 2. 由str分割出来的第i个字符串strtemp;strtemp如果已经出现，则其哈希表中所存储的字符x，必然与pattern[i]一致
+// 3. 由str分割出来的第i个字符串strtemp;strtemp如果没有出现，则pattern[i]必然没有出现在哈希表中
+// ```
 class Solution {
 public:
     bool wordPattern(string pattern, string str) {
@@ -27,4 +27,4 @@ public:
         return i==pattern.length() && j==str.length();
     }
 };
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-官方给的题解实际上空间复杂度也是O（n）。
-不妨抛弃题目限制。
+// 官方给的题解实际上空间复杂度也是O（n）。
+// 不妨抛弃题目限制。
 
-![image.png](https://pic.leetcode-cn.com/41c2fd8fcba15c818a4e5f84d654fb6eb1ab74f51b3cc53fcf3ecaa92930604b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/41c2fd8fcba15c818a4e5f84d654fb6eb1ab74f51b3cc53fcf3ecaa92930604b-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
@@ -31,4 +31,4 @@ public:
         return len + 1;
     }
 };
-```
+// ```

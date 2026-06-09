@@ -1,9 +1,9 @@
-### 解题思路
-设置两个指针mid和p，mid步长为1，p步长为2，当p走到链表尾，mid在中间
+// ### 解题思路
+// 设置两个指针mid和p，mid步长为1，p步长为2，当p走到链表尾，mid在中间
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -22,4 +22,4 @@ struct ListNode* middleNode(struct ListNode* head){
         if(p->next==NULL)return mid;
         return mid->next;
 }
-```
+// ```

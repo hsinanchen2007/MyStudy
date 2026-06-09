@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
-内存消耗 :9.1 MB, 在所有 C++ 提交中击败了100.00%的用户
-增加了target<3的情况判断
-### 代码
+// ### 解题思路
+// 执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
+// 内存消耗 :9.1 MB, 在所有 C++ 提交中击败了100.00%的用户
+// 增加了target<3的情况判断
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -42,4 +42,4 @@ public:
         return res;
     }
 };
-```
+// ```

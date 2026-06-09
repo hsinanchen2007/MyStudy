@@ -1,8 +1,8 @@
-### 解题思路
-利用vector容器
-### 代码
+// ### 解题思路
+// 利用vector容器
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> printNumbers(int n) {
@@ -15,4 +15,4 @@ public:
         return arr;
     }
 };
-```
+// ```

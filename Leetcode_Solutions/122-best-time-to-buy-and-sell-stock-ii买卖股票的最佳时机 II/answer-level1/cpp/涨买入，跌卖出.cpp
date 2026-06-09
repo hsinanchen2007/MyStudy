@@ -1,10 +1,10 @@
-### 解题思路
-开始涨的时候买入，开始跌的时候卖出
-注意数组最后的卖出
+// ### 解题思路
+// 开始涨的时候买入，开始跌的时候卖出
+// 注意数组最后的卖出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -37,4 +37,4 @@ public:
         return earn;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-- 用两个数组记录位置i左右侧的最高高度
-- 若两侧最高高度的最小值大于height[i]，那么该位置可以装水(且可以装```min(left[i], right[i]) - height[i]```这么多水)
-- 用时4ms，空间7.1MB
+// ### 解题思路
+// - 用两个数组记录位置i左右侧的最高高度
+// - 若两侧最高高度的最小值大于height[i]，那么该位置可以装水(且可以装```min(left[i], right[i]) - height[i]```这么多水)
+// - 用时4ms，空间7.1MB
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -37,4 +37,4 @@ public:
         return ans;
     }
 };
-```
+// ```

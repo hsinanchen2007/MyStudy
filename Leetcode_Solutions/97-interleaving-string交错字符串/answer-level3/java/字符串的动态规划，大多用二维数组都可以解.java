@@ -1,12 +1,12 @@
-### 还是想跟大家分享一下我的思路。我觉得这种问题就三个步骤：
-1.建dp数组
-2.添加初始值
-3.找dp[i]和dp[i-1],dp[i-2]之间的关系
-多数比较难得dp一般都是dp间关系以及dp的定义不好找。找到后，这种题就会比较好做。
+// ### 还是想跟大家分享一下我的思路。我觉得这种问题就三个步骤：
+// 1.建dp数组
+// 2.添加初始值
+// 3.找dp[i]和dp[i-1],dp[i-2]之间的关系
+// 多数比较难得dp一般都是dp间关系以及dp的定义不好找。找到后，这种题就会比较好做。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 class Solution {
     public boolean isInterleave(String s1, String s2, String s3) {
@@ -43,4 +43,4 @@ class Solution {
         return dp[m][n];
     }
 }
-```
+// ```

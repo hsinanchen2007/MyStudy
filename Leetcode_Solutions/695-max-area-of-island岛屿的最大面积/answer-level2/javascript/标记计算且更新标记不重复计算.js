@@ -1,4 +1,4 @@
-```
+// ```
 var maxAreaOfIsland = function(grid) {
   function getArea (grid, row, column) {
     if (grid[row] && grid[row][column] === 1) {
@@ -19,4 +19,4 @@ var maxAreaOfIsland = function(grid) {
   }
   return res
 };
-```
+// ```

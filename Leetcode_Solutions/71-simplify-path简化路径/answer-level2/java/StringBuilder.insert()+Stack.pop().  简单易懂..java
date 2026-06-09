@@ -1,12 +1,12 @@
-1. 按“/”得到paths.
-2. 过滤 “.”,""
-3. ".."记录需要倒退的步数 到back.
-4. back>0 且没被过滤， back--
-5. back ==0 , insert到最前面. 类似于 “c”,"ab" 在insert之后得到“abc”.
+// 1. 按“/”得到paths.
+// 2. 过滤 “.”,""
+// 3. ".."记录需要倒退的步数 到back.
+// 4. back>0 且没被过滤， back--
+// 5. back ==0 , insert到最前面. 类似于 “c”,"ab" 在insert之后得到“abc”.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String simplifyPath(String path) {
         int back = 0;
@@ -36,4 +36,4 @@ class Solution {
         return sb.length()==0?"/":sb.toString();
     }
 }
-```
+// ```

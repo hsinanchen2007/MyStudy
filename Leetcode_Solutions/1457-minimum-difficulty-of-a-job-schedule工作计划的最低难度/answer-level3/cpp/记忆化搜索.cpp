@@ -1,9 +1,9 @@
-### 解题思路
-记忆化搜索
+// ### 解题思路
+// 记忆化搜索
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDifficulty(vector<int>& jobDifficulty, int d) {
@@ -42,4 +42,4 @@ public:
         return ans;
     }
 };
-```
+// ```

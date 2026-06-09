@@ -1,9 +1,9 @@
-### 解题思路
-遍历原数组，将每个数值i存放到i-1处，遍历新的数组，找到nums[i]!=i+1的即为消失的元素。
+// ### 解题思路
+// 遍历原数组，将每个数值i存放到i-1处，遍历新的数组，找到nums[i]!=i+1的即为消失的元素。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用两个栈，一个栈只接收新数据，另一个栈用来返回数据
+// ### 解题思路
+// 使用两个栈，一个栈只接收新数据，另一个栈用来返回数据
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyQueue struct {
     in []int
     out []int
@@ -66,4 +66,4 @@ func (this *MyQueue) Empty() bool {
  * param_3 := obj.Peek();
  * param_4 := obj.Empty();
  */
-```
+// ```

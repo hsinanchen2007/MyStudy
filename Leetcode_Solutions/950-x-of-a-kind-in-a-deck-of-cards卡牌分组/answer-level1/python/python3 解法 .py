@@ -1,9 +1,9 @@
-### 解题思路
-通过字典选出出现次数最少的数，然后求出这个数的各个因子，历遍所有因子
+# ### 解题思路
+# 通过字典选出出现次数最少的数，然后求出这个数的各个因子，历遍所有因子
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
             import math
@@ -32,4 +32,4 @@ class Solution:
                 if num == len(Hash):
                     return True
             return False
-```
+# ```

@@ -1,7 +1,7 @@
-验证是否可以形成一棵二叉树：
-1.首先判断各结点之间是否会形成闭环，如果是直接返回False
-2.构建一棵二叉树，从root（0）出发，是否可以穷尽所有结点（题目要求必须是“1棵”二叉树）
-```
+# 验证是否可以形成一棵二叉树：
+# 1.首先判断各结点之间是否会形成闭环，如果是直接返回False
+# 2.构建一棵二叉树，从root（0）出发，是否可以穷尽所有结点（题目要求必须是“1棵”二叉树）
+# ```
 class Tree:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -45,4 +45,4 @@ class Solution:
         if self.num != nodes_num:
             return False
         return True
-```
+# ```

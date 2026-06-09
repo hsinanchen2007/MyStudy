@@ -1,10 +1,10 @@
-### 解题思路
-以区间头，区间尾做为第一第二关键字排序
-从前往后判断能否合并
+// ### 解题思路
+// 以区间头，区间尾做为第一第二关键字排序
+// 从前往后判断能否合并
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func merge(intervals [][]int) [][]int {
     Sort(intervals,0,len(intervals)-1)
     if len(intervals)<2{
@@ -40,4 +40,4 @@ func Sort(a [][]int,l,r int){
     Sort(a,l,ml-1)
     Sort(a,ml+1,r)
 }
-```
+// ```

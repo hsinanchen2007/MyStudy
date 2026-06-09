@@ -1,9 +1,9 @@
-### 解题思路
-去掉首位空格，使用split根据空格分隔String成String数组，返回String数组最后一位即可。
+// ### 解题思路
+// 去掉首位空格，使用split根据空格分隔String成String数组，返回String数组最后一位即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLastWord(String s) {
         s = s.trim();
@@ -15,4 +15,4 @@ class Solution {
         return array[array.length - 1].length();
     }
 }
-```
+// ```

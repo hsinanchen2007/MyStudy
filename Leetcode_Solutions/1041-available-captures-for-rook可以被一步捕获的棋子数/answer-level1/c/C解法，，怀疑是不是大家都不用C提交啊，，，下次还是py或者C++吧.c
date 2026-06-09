@@ -1,9 +1,9 @@
-疑惑。。。。难道没人用C提交嘛
-两个100%
-就按照题意来做就可以了，先找到rook，再一个方向一个方向来
-考虑到效率问题，可以一个循环四个方向一块走，但考虑到超界问题，我还是一个方向一个方向来
-题解如下
-```
+// 疑惑。。。。难道没人用C提交嘛
+// 两个100%
+// 就按照题意来做就可以了，先找到rook，再一个方向一个方向来
+// 考虑到效率问题，可以一个循环四个方向一块走，但考虑到超界问题，我还是一个方向一个方向来
+// 题解如下
+// ```
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int ans=0;
     int flag=0;
@@ -68,4 +68,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
     return ans;
 }
-```
+// ```

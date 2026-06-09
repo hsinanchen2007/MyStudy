@@ -1,9 +1,9 @@
-### 解题思路
-借鉴106题的思路，关键在于有前序序列，说明是先深度构造左子树，与106题唯一不同之处在于这个。
+# ### 解题思路
+# 借鉴106题的思路，关键在于有前序序列，说明是先深度构造左子树，与106题唯一不同之处在于这个。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
         value2index = {val:i for i,val in enumerate(inorder)}
         preorder_reverse = preorder[::-1]
         return constructTree(0,len(inorder)-1)
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 int findMin(int* nums, int numsSize){
     int n=nums[0];
     for(int i=1;i<numsSize;i++)
@@ -8,4 +8,4 @@ int findMin(int* nums, int numsSize){
         }
     return n;
 }
-```
+// ```

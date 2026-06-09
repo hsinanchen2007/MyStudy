@@ -1,11 +1,11 @@
-### 解题思路
-4ms 5.6MB
-用指针p保存最长前缀，用p依次跟题目给出的字符串比较，然后慢慢缩短最长前缀。
-详细见代码。
+// ### 解题思路
+// 4ms 5.6MB
+// 用指针p保存最长前缀，用p依次跟题目给出的字符串比较，然后慢慢缩短最长前缀。
+// 详细见代码。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * longestCommonPrefix(char ** strs, int strsSize){
     //首先声明指针p为第一个字符串作为最长前缀，之后用最长前缀跟后面的字符串比较慢慢缩短。
     char *p = strs[0];
@@ -38,4 +38,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
 
     return p;
 }
-```
+// ```

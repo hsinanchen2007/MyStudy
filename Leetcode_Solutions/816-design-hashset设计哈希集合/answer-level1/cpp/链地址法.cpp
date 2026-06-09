@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*struct ListNode{
     int val;
     ListNode* next;
@@ -73,4 +73,4 @@ public:
  * obj->remove(key);
  * bool param_3 = obj->contains(key);
  */
-```
+// ```

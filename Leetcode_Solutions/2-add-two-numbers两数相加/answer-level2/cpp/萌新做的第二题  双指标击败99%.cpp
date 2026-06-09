@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-利用了栈,还有我发现用temp1，temp2代替l1，l2来算快了好多
-### 代码
+// 利用了栈,还有我发现用temp1，temp2代替l1，l2来算快了好多
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -117,4 +117,4 @@ public:
 
         }
     };
-```
+// ```

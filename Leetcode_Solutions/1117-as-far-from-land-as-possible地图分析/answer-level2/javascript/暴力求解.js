@@ -1,8 +1,8 @@
-1：找出陆地和海洋的坐标
-2：遍历求得海洋到达所有陆地的最小距离
-3：找到所有最小距离当中的最大值
+// 1：找出陆地和海洋的坐标
+// 2：遍历求得海洋到达所有陆地的最小距离
+// 3：找到所有最小距离当中的最大值
 
-```javascript
+// ```javascript
 var maxDistance = function(grid) {
     let maxDis = 0;
     let [island, ocean] = [[],[]];
@@ -28,4 +28,4 @@ var maxDistance = function(grid) {
     }
     return maxDis;
 };
-```
+// ```

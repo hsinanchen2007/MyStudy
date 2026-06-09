@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 	int reverseBits(int num) {
@@ -44,4 +44,4 @@ public:
 		return ret;
 	}
 };
-```
+// ```

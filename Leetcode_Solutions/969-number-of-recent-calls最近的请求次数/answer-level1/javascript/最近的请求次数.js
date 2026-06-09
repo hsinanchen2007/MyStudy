@@ -1,4 +1,4 @@
-```
+// ```
 var RecentCounter = function () {
   this.pings = []
 };
@@ -24,4 +24,4 @@ RecentCounter.prototype.ping = function (t) {
   }
   return count
 };
-```
+// ```

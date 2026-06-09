@@ -1,4 +1,4 @@
-```
+// ```
 func mergeKLists(lists []*ListNode) *ListNode {
 	var nums []int
 	for k, _ := range lists {
@@ -15,4 +15,4 @@ func mergeKLists(lists []*ListNode) *ListNode {
 	}
 	return res
 }
-```
+// ```

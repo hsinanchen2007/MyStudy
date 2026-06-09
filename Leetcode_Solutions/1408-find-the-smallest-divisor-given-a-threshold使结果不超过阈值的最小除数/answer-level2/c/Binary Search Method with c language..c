@@ -1,4 +1,4 @@
-```
+// ```
 int ComputeSums(const int* nums, int numsSize, int divideNum, int threshold)
 {
     int count = 0;
@@ -35,9 +35,9 @@ int smallestDivisor(int* nums, int numsSize, int threshold){
 
     return BinarySearch(nums, numsSize, left, right, threshold);
 }
-```
-执行结果：
-通过
-显示详情
-执行用时 :36 ms, 在所有 c 提交中击败了100.00% 的用户
-内存消耗 :9.5 MB, 在所有 c 提交中击败了100.00%的用户
+// ```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :36 ms, 在所有 c 提交中击败了100.00% 的用户
+// 内存消耗 :9.5 MB, 在所有 c 提交中击败了100.00%的用户

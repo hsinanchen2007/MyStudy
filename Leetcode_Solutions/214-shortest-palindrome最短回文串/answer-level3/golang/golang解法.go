@@ -1,9 +1,9 @@
-### 解题思路
-...
+// ### 解题思路
+// ...
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func shortestPalindrome(s string) string {
     lenS := len(s)
     recv := reverseString(s)
@@ -25,4 +25,4 @@ func reverseString(s string) string {
     }
     return string(runes)
 }
-```
+// ```

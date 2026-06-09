@@ -1,9 +1,9 @@
-### 解题思路
-需要复习
+# ### 解题思路
+# 需要复习
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class TripleInOne:
 
     def __init__(self, stackSize: int):     # stackSize是栈的大小
@@ -62,4 +62,4 @@ class TripleInOne:
 # param_2 = obj.pop(stackNum)
 # param_3 = obj.peek(stackNum)
 # param_4 = obj.isEmpty(stackNum)
-```
+# ```

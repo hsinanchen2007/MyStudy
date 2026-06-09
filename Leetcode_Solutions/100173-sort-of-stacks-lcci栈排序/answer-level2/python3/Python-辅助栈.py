@@ -1,4 +1,4 @@
-```
+# ```
 class SortedStack:
 
     def __init__(self):
@@ -27,4 +27,4 @@ class SortedStack:
 
     def isEmpty(self) -> bool:
         return len(self.stk) == 0
-```
+# ```

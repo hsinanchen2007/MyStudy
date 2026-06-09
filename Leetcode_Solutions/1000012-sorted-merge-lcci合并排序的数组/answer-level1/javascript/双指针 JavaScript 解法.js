@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 /**
  * @param {number[]} A
  * @param {number} m
@@ -25,4 +25,4 @@ var merge = function(A, m, B, n) {
             A[i] = sorted[i];
     }
 };
-```
+// ```

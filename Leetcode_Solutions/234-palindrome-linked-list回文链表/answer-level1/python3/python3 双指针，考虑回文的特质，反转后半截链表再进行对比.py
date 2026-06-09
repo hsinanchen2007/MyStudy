@@ -1,7 +1,7 @@
-最开始有点拿到题不知道怎么入手，看了一下别人的hint发现可以用反转半截链表进行对比，双指针获得后半截链表的head
-要注意链表的奇偶长度，考虑后半截链表的头结点从哪里开始
+# 最开始有点拿到题不知道怎么入手，看了一下别人的hint发现可以用反转半截链表进行对比，双指针获得后半截链表的head
+# 要注意链表的奇偶长度，考虑后半截链表的头结点从哪里开始
 
-```python
+# ```python
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         if not head or not head.next:
@@ -49,4 +49,4 @@ class Solution:
             cur = nxt
             
         return pre     
-```
+# ```

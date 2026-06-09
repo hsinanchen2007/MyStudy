@@ -1,8 +1,8 @@
-### 解题思路
-当天股票价格大于当前天股票就卖出
-### 代码
+// ### 解题思路
+// 当天股票价格大于当前天股票就卖出
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -18,4 +18,4 @@ public:
         return profit;
     }
 };
-```
+// ```

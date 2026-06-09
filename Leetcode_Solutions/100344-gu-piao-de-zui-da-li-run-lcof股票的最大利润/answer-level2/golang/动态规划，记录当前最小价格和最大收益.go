@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，记录当前最小价格和最大收益
+// ### 解题思路
+// 动态规划，记录当前最小价格和最大收益
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
     l := len(prices)
     if l == 0 {
@@ -25,4 +25,4 @@ func maxProfit(prices []int) int {
     }
     return profilt
 }
-```
+// ```

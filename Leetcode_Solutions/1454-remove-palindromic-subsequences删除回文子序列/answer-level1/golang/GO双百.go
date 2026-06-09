@@ -1,6 +1,6 @@
-删除子序列，不是删除子串，因此看到题的时候多多少少会懵一下
+// 删除子序列，不是删除子串，因此看到题的时候多多少少会懵一下
 
-```golang
+// ```golang
 func removePalindromeSub(s string) int {
 	if len(s)==0{
 		return 0
@@ -15,4 +15,4 @@ func removePalindromeSub(s string) int {
 	}
 	return 1
 }
-```
+// ```

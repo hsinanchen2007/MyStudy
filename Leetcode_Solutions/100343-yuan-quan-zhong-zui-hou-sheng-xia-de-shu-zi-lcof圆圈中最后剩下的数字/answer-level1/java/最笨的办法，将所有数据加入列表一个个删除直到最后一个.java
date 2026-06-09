@@ -1,10 +1,10 @@
-### 解题思路
-这个是最笨的办法了
-将0至n-1放入ArrayList，然后按照题目要求一个一个的remove最后剩下的那个就是答案。
+// ### 解题思路
+// 这个是最笨的办法了
+// 将0至n-1放入ArrayList，然后按照题目要求一个一个的remove最后剩下的那个就是答案。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         ArrayList<Integer> arr = new ArrayList(n);
@@ -23,4 +23,4 @@ class Solution {
         return arr.get(0);
     }
 }
-```
+// ```

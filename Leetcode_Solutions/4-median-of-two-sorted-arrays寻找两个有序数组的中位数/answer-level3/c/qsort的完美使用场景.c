@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Compare(int* a, int* b) 
 {
     return *a - *b;
@@ -34,4 +34,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
         return (double)(nums[total/2] + nums[total/2 -1])/2;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-二分查找法
+// ### 解题思路
+// 二分查找法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func searchInsert(nums []int, target int) int {
 	// 二分查找法
 	left, right := 0, len(nums)
@@ -21,4 +21,4 @@ func searchInsert(nums []int, target int) int {
 	}
 	return left
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class UndergroundSystem {
     Map<Integer, Pair<String, Integer>> checkInMap = new HashMap<>();
     Map<String, Pair<Integer, Integer>> checkOutMap = new HashMap<>();
@@ -31,4 +31,4 @@ class UndergroundSystem {
  * obj.checkOut(id,stationName,t);
  * double param_3 = obj.getAverageTime(startStation,endStation);
  */
-```
+// ```

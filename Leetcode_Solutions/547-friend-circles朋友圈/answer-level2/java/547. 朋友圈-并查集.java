@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 2399144252@qq.com
- * Date   : 2019/8/26
- *
- * 解题思路：不多讲 并查集
- */
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 2399144252@qq.com
+//  * Date   : 2019/8/26
+//  *
+//  * 解题思路：不多讲 并查集
+//  */
 
-```
+// ```
 public class leetcode547 {
 
 
@@ -84,4 +84,4 @@ public class leetcode547 {
         leetcode547.findCircleNum(new int[][]{{1,0,0,1},{0,1,1,0},{0,1,1,1},{1,0,1,1}});
     }
 }
-```
+// ```

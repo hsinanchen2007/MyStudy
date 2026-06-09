@@ -1,7 +1,7 @@
-深度遍历
+// 深度遍历
 
 
-```js
+// ```js
 
 /**
  * Definition for a binary tree node.
@@ -45,4 +45,4 @@ var delNodes = function(root, to_delete) {
     dfs(root, null, true)
     return result
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 struct Trie{
     Trie* child[26];
     bool t;
@@ -39,4 +39,4 @@ public:
         return sum;
     }
 };
-```
+// ```

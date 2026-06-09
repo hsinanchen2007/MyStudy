@@ -1,9 +1,9 @@
-### 解题思路
-五行，简单的递归实现
+// ### 解题思路
+// 五行，简单的递归实现
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -22,4 +22,4 @@ var inorderTraversal = function (root, arr = []) {
     root.right && inorderTraversal(root.right, arr);
     return arr
 };
-```
+// ```

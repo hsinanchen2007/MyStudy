@@ -1,9 +1,9 @@
-### 解题思路
-Python3 非常愚蠢的解法。第一年和最后一年分开算，中间的直接算。上传上来给各位观众老爷一乐。
+# ### 解题思路
+# Python3 非常愚蠢的解法。第一年和最后一年分开算，中间的直接算。上传上来给各位观众老爷一乐。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from math import ceil
 class Solution:
     def daysBetweenDates(self, date1: str, date2: str) -> int:
@@ -37,4 +37,4 @@ class Solution:
         if y2==2100 and m2>2:
             days-=1
         return days
-```
+# ```

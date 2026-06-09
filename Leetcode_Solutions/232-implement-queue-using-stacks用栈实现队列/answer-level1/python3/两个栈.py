@@ -1,4 +1,4 @@
-```
+# ```
 class MyQueue:
     def __init__(self):
         """
@@ -51,4 +51,4 @@ class MyQueue:
 # param_4 = obj.empty()
 ![image.png](https://pic.leetcode-cn.com/feb152eb863a854b286d137c1b937eec4e9dd20df1437b24ab7131089745355d-image.png)
 
-```
+# ```

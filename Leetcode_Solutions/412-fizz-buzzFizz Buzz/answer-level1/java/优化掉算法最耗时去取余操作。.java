@@ -1,10 +1,10 @@
-### 解题思路
-题目简单，但如何才能高效计算，优化掉算法最耗时去取余操作。
+// ### 解题思路
+// 题目简单，但如何才能高效计算，优化掉算法最耗时去取余操作。
 
 
-### 代码
+// ### 代码
 
-```优先填充
+// ```优先填充
 class Solution {
     public List<String> fizzBuzz(int n) {
         String[] list=new String[n];
@@ -25,8 +25,8 @@ class Solution {
         return Arrays.asList(list);
     }
 }
-```
-```计数法
+// ```
+// ```计数法
 public List<String> fizzBuzz(int n) {
         List<String> list=new ArrayList<>(n);
         int count3=1,count5=1;
@@ -47,4 +47,4 @@ public List<String> fizzBuzz(int n) {
         }
         return list;
     }
-```
+// ```

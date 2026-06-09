@@ -1,9 +1,9 @@
-- ### 解题思路
-小白暴力比较
+// - ### 解题思路
+// 小白暴力比较
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int missingNumber(vector<int>& nums) 
@@ -19,4 +19,4 @@ public:
         return i;
     }
 };
-```
+// ```

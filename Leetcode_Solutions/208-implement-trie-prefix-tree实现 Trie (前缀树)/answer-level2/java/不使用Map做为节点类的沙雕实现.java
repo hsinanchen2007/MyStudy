@@ -1,10 +1,10 @@
-### 解题思路
-我估计没人能看懂我的沙雕设计， 这个节点类真的是醉了， 我第一次采用的是Map实现， 后面想了想我如果用线性表怎么实现。  
-真的沙雕
+// ### 解题思路
+// 我估计没人能看懂我的沙雕设计， 这个节点类真的是醉了， 我第一次采用的是Map实现， 后面想了想我如果用线性表怎么实现。  
+// 真的沙雕
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Trie {
 
     static class Node {
@@ -65,4 +65,4 @@ class Trie {
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
-```
+// ```

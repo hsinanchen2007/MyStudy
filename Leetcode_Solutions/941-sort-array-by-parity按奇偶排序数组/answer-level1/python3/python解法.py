@@ -1,9 +1,9 @@
-### 解题思路
-从两个方向添加
+# ### 解题思路
+# 从两个方向添加
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sortArrayByParity(self, A):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 c=c-1
         return B
 
-```
+# ```

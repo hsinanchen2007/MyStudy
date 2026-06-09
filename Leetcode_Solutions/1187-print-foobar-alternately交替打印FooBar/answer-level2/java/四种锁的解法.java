@@ -1,5 +1,5 @@
-#### 1. synchronized
-```java
+// #### 1. synchronized
+// ```java
 class FooBar {
     private int n;
 
@@ -43,10 +43,10 @@ class FooBar {
         }
     }
 }
-```
+// ```
 
-#### 2. ReentrantLock
-```java
+// #### 2. ReentrantLock
+// ```java
 class FooBar {
     private int n;
 
@@ -102,10 +102,10 @@ class FooBar {
         }
     }
 }
-```
+// ```
 
-#### 3. volatile 解法 (volatile write happens-before volatile read)
-```java
+// #### 3. volatile 解法 (volatile write happens-before volatile read)
+// ```java
 class FooBar {
     private int n;
 
@@ -146,10 +146,10 @@ class FooBar {
         }
     }
 }
-```
+// ```
 
-#### 4. CAS 乐观锁
-```java
+// #### 4. CAS 乐观锁
+// ```java
 class FooBar {
     private int n;
 
@@ -185,4 +185,4 @@ class FooBar {
         }
     }
 }
-```
+// ```

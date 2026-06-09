@@ -1,9 +1,9 @@
-### 解题思路
-类似于count sort的思想，因为输入的值有范围，所以建立一个长度为(nums.length + 1)的counting数组，记每个数字出现的次数，再返回count[i] == 0 以及 count[j] == 2的i，j即可。
+// ### 解题思路
+// 类似于count sort的思想，因为输入的值有范围，所以建立一个长度为(nums.length + 1)的counting数组，记每个数字出现的次数，再返回count[i] == 0 以及 count[j] == 2的i，j即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] findErrorNums(int[] nums) {
         int[] count = new int[nums.length + 1];
@@ -22,4 +22,4 @@ class Solution {
         return new int[]{deplicated, missed};
     }
 }
-```
+// ```

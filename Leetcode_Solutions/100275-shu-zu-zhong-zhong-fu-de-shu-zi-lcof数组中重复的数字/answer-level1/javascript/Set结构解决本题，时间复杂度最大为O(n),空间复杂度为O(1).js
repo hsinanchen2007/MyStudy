@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-利用ES6提供的新数据结构Set,Set时类似于数组的集合，会自动忽略重复的元素，当添加重复元素时，Set的长度size是不变的
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 利用ES6提供的新数据结构Set,Set时类似于数组的集合，会自动忽略重复的元素，当添加重复元素时，Set的长度size是不变的
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -18,4 +18,4 @@ var findRepeatNumber = function(nums) {
         } 
     }
 };
-```
+// ```

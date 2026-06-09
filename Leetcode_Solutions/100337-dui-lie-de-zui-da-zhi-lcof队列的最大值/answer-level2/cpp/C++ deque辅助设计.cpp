@@ -1,7 +1,7 @@
-在queue出队中，我们需要尽可能快的获得最大值，是对本题的优化点，所以需要一个deque来空间换时间！
-设计原则：若deque中的队尾元素小于当前元素，则deque出队即可，这样每次deque维护的是pop_front这一阶段的最大值。
+// 在queue出队中，我们需要尽可能快的获得最大值，是对本题的优化点，所以需要一个deque来空间换时间！
+// 设计原则：若deque中的队尾元素小于当前元素，则deque出队即可，这样每次deque维护的是pop_front这一阶段的最大值。
 
-```cpp
+// ```cpp
 class MaxQueue {
 private:
     // deque 保存下一个最大值
@@ -43,4 +43,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

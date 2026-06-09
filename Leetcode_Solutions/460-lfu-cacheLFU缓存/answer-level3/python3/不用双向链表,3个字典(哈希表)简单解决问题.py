@@ -1,11 +1,11 @@
-### 解题思路
-1. 三字典:dic字典存储键和值,value字典存储get或者put的次数,get_put字典存储这个key对应的是第几次get/put(用于反应相同value情况下,那个key更'新') -->
-2. git函数返回dic中key对应vulue,将中key对应的value+1,并更新get_put中这个key对应的self.time值
-3. put函数如果未满就向dic和中添加,如果满了就求出中self.value中最小的value,并在dic和value,get_put中去除key这一项
+# ### 解题思路
+# 1. 三字典:dic字典存储键和值,value字典存储get或者put的次数,get_put字典存储这个key对应的是第几次get/put(用于反应相同value情况下,那个key更'新') -->
+# 2. git函数返回dic中key对应vulue,将中key对应的value+1,并更新get_put中这个key对应的self.time值
+# 3. put函数如果未满就向dic和中添加,如果满了就求出中self.value中最小的value,并在dic和value,get_put中去除key这一项
 
-### 代码
+# ### 代码
 
-```
+# ```
 class LFUCache:
     def __init__(self, capacity: int):
         self.dic={}
@@ -55,4 +55,4 @@ class LFUCache:
                 self.dic[key] = value
                 self.value[key]=1
                 self.get_put[key] = self.time
-```
+# ```

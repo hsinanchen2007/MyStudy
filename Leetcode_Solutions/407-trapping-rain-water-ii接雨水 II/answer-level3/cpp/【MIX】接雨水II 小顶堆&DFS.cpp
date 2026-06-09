@@ -1,9 +1,9 @@
-### 解题思路
-1. 先考虑四周, 取出最小元素开始DFS, 更新规则$\max(0, node.h-heightMap[x][y])$
+// ### 解题思路
+// 1. 先考虑四周, 取出最小元素开始DFS, 更新规则$\max(0, node.h-heightMap[x][y])$
 
-### 代码
+// ### 代码
 
-```c++ []
+// ```c++ []
 struct Node{
     int x;
     int y;
@@ -73,8 +73,8 @@ private:
         return 0<=x && x<R && 0<=y && y<C;
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Node{
     int x;
     int y;
@@ -144,8 +144,8 @@ class Solution {
         return 0<=x && x<R && 0<=y && y<C;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def trapRainWater(self, heightMap: List[List[int]]) -> int:
         from queue import PriorityQueue as PQ
@@ -183,4 +183,4 @@ class Solution:
                     pq.put((max(heightMap[nx][ny], h), (nx, ny, max(heightMap[nx][ny], h))))
                     res += max(0, h-heightMap[nx][ny])
         return res
-```
+// ```

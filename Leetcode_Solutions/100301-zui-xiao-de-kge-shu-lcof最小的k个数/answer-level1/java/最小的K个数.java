@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1、使用排序算法，重新排序arr数组
-2、arraycopy()方法截取k个数
+// ### 解题思路
+// 此处撰写解题思路
+// 1、使用排序算法，重新排序arr数组
+// 2、arraycopy()方法截取k个数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
     
@@ -54,4 +54,4 @@ class Solution {
      }
 
 }
-```
+// ```

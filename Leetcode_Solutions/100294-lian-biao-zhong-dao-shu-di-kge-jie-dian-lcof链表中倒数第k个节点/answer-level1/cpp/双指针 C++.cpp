@@ -1,5 +1,5 @@
-快指针先走k步，然后快慢指针同时走，相距k，快指针走到队尾时，慢指针走到倒数第k个节点
-```
+// 快指针先走k步，然后快慢指针同时走，相距k，快指针走到队尾时，慢指针走到倒数第k个节点
+// ```
 class Solution {
 public:
     ListNode* getKthFromEnd(ListNode* head, int k) {
@@ -15,4 +15,4 @@ public:
         return head;
     }
 };
-```
+// ```

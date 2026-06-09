@@ -1,9 +1,9 @@
-### 解题思路
-先找到K个不同的字符串，然后开始滑动，找出最长的字符串
+// ### 解题思路
+// 先找到K个不同的字符串，然后开始滑动，找出最长的字符串
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     bool search(string s, int start, int end, char target) {
@@ -41,4 +41,4 @@ public:
         return max_len;
     }
 };
-```
+// ```

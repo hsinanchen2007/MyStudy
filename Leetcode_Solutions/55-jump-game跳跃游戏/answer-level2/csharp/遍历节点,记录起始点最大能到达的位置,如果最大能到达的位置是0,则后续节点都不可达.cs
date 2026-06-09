@@ -1,4 +1,4 @@
-```
+// ```
 
             if (nums == null || nums.Length == 0) return false;
             //当前元素能一步到达的最远距离
@@ -18,4 +18,4 @@
                 if (tmp > max) max = tmp;
             }
             return true;
-```
+// ```

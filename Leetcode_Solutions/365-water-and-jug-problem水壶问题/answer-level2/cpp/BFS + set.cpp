@@ -1,11 +1,11 @@
-### 解题思路
-看作图的BFS即可，用set记录已经出现过的情况（也可以用vector<vector<bool>> visited(x, vector<bool>(y, false))）。
-1. 两个桶不可能同时有水且不满, 操作的结果都至少有一个桶是空的或者满的
-2. 把一个不满的桶倒满没有意义
-3. 把一个不满的桶倒空没有意义
+// ### 解题思路
+// 看作图的BFS即可，用set记录已经出现过的情况（也可以用vector<vector<bool>> visited(x, vector<bool>(y, false))）。
+// 1. 两个桶不可能同时有水且不满, 操作的结果都至少有一个桶是空的或者满的
+// 2. 把一个不满的桶倒满没有意义
+// 3. 把一个不满的桶倒空没有意义
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 bool canMeasureWater(int x, int y, int z) {
     if(z == 0) return true;
     if(z < 0 || x + y < z) return false;
@@ -37,4 +37,4 @@ bool canMeasureWater(int x, int y, int z) {
     }
     return false;
 }
-```
+// ```

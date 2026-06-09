@@ -1,9 +1,9 @@
-### 解题思路
-1. 进制转换
+// ### 解题思路
+// 1. 进制转换
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int titleToNumber(char * s){
     int num = 0;
 
@@ -14,4 +14,4 @@ int titleToNumber(char * s){
     }
     return num;
 }
-```
+// ```

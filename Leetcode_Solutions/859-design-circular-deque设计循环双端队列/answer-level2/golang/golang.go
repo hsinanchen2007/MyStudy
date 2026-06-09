@@ -1,9 +1,9 @@
-### 解题思路
-通过切片作为队列数据存储结构，记录队列长度。
+// ### 解题思路
+// 通过切片作为队列数据存储结构，记录队列长度。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyCircularDeque struct {
     data []int
     maxLen int
@@ -100,4 +100,4 @@ func (this *MyCircularDeque) IsFull() bool {
  * param_7 := obj.IsEmpty();
  * param_8 := obj.IsFull();
  */
-```
+// ```

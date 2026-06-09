@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         // You should first ask your interviewer if the string is an ASCII string or a Unicode string
@@ -14,4 +14,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

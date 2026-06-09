@@ -1,5 +1,5 @@
-用两个队列的前进先出来模拟栈的后进先出
-```js
+// 用两个队列的前进先出来模拟栈的后进先出
+// ```js
 /**
  * Initialize your data structure here.
  */
@@ -59,4 +59,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

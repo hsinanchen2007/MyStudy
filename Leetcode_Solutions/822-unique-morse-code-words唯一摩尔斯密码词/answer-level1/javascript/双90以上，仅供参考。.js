@@ -1,9 +1,9 @@
-### 解题思路
-转化成key value模式，也就是变成字典，后面的就简单了
+// ### 解题思路
+// 转化成key value模式，也就是变成字典，后面的就简单了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @return {number}
@@ -25,4 +25,4 @@ var uniqueMorseRepresentations = function (words) {
     }, 0)
     return ans;
 };
-```
+// ```

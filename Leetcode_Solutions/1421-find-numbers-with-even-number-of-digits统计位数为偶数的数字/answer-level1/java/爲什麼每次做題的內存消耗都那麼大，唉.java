@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-遍歷，轉化爲字符串獲取長度
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 遍歷，轉化爲字符串獲取長度
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public int findNumbers(int[] nums) {
         int num=0;
@@ -16,4 +16,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

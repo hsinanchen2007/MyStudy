@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-二叉树左节点小于根节点，右节点大于根节点
+// ### 解题思路
+// 此处撰写解题思路
+// 二叉树左节点小于根节点，右节点大于根节点
 
-时间复杂度：O(n) n为节点的数量
-空间复杂度：二叉树的空间复杂度为树的深度，O(h)
-### 代码
+// 时间复杂度：O(n) n为节点的数量
+// 空间复杂度：二叉树的空间复杂度为树的深度，O(h)
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -27,4 +27,4 @@ class Solution {
         else return rangeSumBST(root.left,L,R);
     }
 }
-```
+// ```

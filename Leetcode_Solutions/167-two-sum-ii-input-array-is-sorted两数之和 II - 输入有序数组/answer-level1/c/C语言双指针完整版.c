@@ -1,10 +1,10 @@
-### 解题思路
-使用了双指针解法。
-并做了异常保护：若未找到则返回-1，并做了空指针保护。
+// ### 解题思路
+// 使用了双指针解法。
+// 并做了异常保护：若未找到则返回-1，并做了空指针保护。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -39,4 +39,4 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
     return arr;
 }
 
-```
+// ```

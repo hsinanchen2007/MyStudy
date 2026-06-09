@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str){
     double cnt=0;
     int i,j=0,k=1;
@@ -24,4 +24,4 @@ int myAtoi(char * str){
     cnt=cnt*k;
     return cnt;
 }
-```
+// ```

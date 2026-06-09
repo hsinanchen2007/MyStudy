@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/cd18b7e528bda90c4253d52ec5a7a74556caffed1183bfa4cece20040536e162-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cd18b7e528bda90c4253d52ec5a7a74556caffed1183bfa4cece20040536e162-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 直观思路：
 合并数组，排序，找中位数
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -29,4 +29,4 @@ var findMedianSortedArrays = function(nums1, nums2) {
   
   return ans;
 };
-```
+// ```

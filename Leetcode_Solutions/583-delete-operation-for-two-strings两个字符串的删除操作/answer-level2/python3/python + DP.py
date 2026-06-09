@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         # dp Longest common substring
@@ -14,4 +14,4 @@ class Solution:
                     dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
         common_length = dp[-1][-1]
         return l1 + l2 - common_length * 2
-```
+# ```

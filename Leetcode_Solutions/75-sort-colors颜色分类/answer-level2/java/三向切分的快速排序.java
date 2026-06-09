@@ -1,17 +1,17 @@
-### 解题思路
-划分成三个区间
-<V
-=V
-\>V 
+// ### 解题思路
+// 划分成三个区间
+// <V
+// =V
+// \>V 
 
-lt表示小于区间的最右边指针
-gt表示大于区间的最左边指针
-i 表示还是进行排序的区间
+// lt表示小于区间的最右边指针
+// gt表示大于区间的最左边指针
+// i 表示还是进行排序的区间
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void sortColors(int[] nums) {
         sort(nums,0,nums.length-1);
@@ -38,4 +38,4 @@ class Solution {
         nums[right]=temp;
     }
 }
-```
+// ```

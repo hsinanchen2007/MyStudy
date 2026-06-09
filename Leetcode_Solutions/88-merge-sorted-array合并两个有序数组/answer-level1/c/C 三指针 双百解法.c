@@ -1,12 +1,12 @@
-### 解题思路
-设置三个指针，从后往前遍历
-flag_num1指向num1中最后一个有效数字
-flag_num2指向num2中最后一个有效数字
-p指针指向num1的末尾，用于存放num1和num2指针指向中相对大的数字
-直到num2中的数字全部写入num1结束
-### 代码
+// ### 解题思路
+// 设置三个指针，从后往前遍历
+// flag_num1指向num1中最后一个有效数字
+// flag_num2指向num2中最后一个有效数字
+// p指针指向num1的末尾，用于存放num1和num2指针指向中相对大的数字
+// 直到num2中的数字全部写入num1结束
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
 {
     if(m==0)
@@ -47,4 +47,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
 
 
 
-```
+// ```

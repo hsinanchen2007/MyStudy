@@ -1,6 +1,6 @@
-一次遍历，每次都扣除新加入的部分与相邻的左前方的方块的重合部分面积即可
-详见代码如下：
-```
+// 一次遍历，每次都扣除新加入的部分与相邻的左前方的方块的重合部分面积即可
+// 详见代码如下：
+// ```
 class Solution {
 public:
     int dirs[2][2] = {{-1, 0}, {0, -1}}; // 相邻的左前方方块的方向
@@ -30,5 +30,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/2482823f5040432020acad75ad5d2dd55f5be261aee90251b1219f8ba2e2ecc1-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/2482823f5040432020acad75ad5d2dd55f5be261aee90251b1219f8ba2e2ecc1-image.png)

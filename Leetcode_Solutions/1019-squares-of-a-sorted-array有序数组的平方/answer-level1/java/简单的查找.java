@@ -1,9 +1,9 @@
-### 解题思路
-边界判断。。。思路想一会能想出来 边界判断能力还是欠缺。
+// ### 解题思路
+// 边界判断。。。思路想一会能想出来 边界判断能力还是欠缺。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortedSquares(int[] A) {
     int[] a = new int[A.length];
@@ -48,4 +48,4 @@ class Solution {
         return a;
     }
 }
-```
+// ```

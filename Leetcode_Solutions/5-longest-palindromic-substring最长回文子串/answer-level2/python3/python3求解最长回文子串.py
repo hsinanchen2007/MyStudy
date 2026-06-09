@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         num1 = len(s)
@@ -12,5 +12,5 @@ class Solution:
                 if str1 == str2:
                     return(str1)
             aa = aa + 1
-```
+# ```
 

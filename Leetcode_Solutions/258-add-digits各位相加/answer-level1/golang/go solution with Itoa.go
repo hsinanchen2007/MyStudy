@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sumDigits(x int) int {
 	sumVal := 0
     for _, c := range strconv.Itoa(x) {
@@ -21,4 +21,4 @@ func addDigits(num int) int {
 	return n
 }
 
-```
+// ```

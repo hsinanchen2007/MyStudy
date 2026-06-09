@@ -1,5 +1,5 @@
-单纯用for循环来实现，虽然复杂了点，但是思路比较简单。
-```
+// 单纯用for循环来实现，虽然复杂了点，但是思路比较简单。
+// ```
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         int[] list=new int[nums1.length];
@@ -39,4 +39,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

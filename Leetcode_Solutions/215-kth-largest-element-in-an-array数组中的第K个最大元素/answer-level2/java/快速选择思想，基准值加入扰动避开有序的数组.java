@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 : 1 ms, 在所有 Java 提交中击败了99.98%的用户
-这道题非常容易写错，终于写完了，debug花了我不少功夫，快速排序的写法也很多，感觉还是用partition最直观方便
+// ### 解题思路
+// 执行用时 : 1 ms, 在所有 Java 提交中击败了99.98%的用户
+// 这道题非常容易写错，终于写完了，debug花了我不少功夫，快速排序的写法也很多，感觉还是用partition最直观方便
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private void swap(int[] nums, int i, int j) {
         int temp = nums[i];nums[i] = nums[j];nums[j] = temp;
@@ -34,4 +34,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

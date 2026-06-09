@@ -1,7 +1,7 @@
-匹配的括号在出栈后会丢失掉这段长度信息，因此如果加一个记录之前匹配过的长度的字段则可解决。
+# 匹配的括号在出栈后会丢失掉这段长度信息，因此如果加一个记录之前匹配过的长度的字段则可解决。
 
 
-```python
+# ```python
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         stack = []  # (char, former_len)
@@ -19,4 +19,4 @@ class Solution:
             # print(stack)
 
         return max_len
-```
+# ```

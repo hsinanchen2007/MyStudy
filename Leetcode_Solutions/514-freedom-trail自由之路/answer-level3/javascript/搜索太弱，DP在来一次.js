@@ -1,11 +1,11 @@
-### 解题思路
-一开始没想明白为什么可以用DP。。。
-如果ring中没有相同的字符串，那么贪心就可以做，有了相同的字符如： 'acbedc'
-那么对应key='ce'中包含'c'的时候就需要考虑是用第一个c还是第二个c,
-用dp[i][j]来表示key的第i个字符用ring中第j个字符所需要的最小步数
-### 代码
+// ### 解题思路
+// 一开始没想明白为什么可以用DP。。。
+// 如果ring中没有相同的字符串，那么贪心就可以做，有了相同的字符如： 'acbedc'
+// 那么对应key='ce'中包含'c'的时候就需要考虑是用第一个c还是第二个c,
+// 用dp[i][j]来表示key的第i个字符用ring中第j个字符所需要的最小步数
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} ring
  * @param {string} key
@@ -36,4 +36,4 @@ var findRotateSteps = function(ring, key) {
     }
     return ans
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int romanToInt(string s) {
@@ -16,8 +16,8 @@ public:
         return sum;
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def romanToInt(self, s: str) -> int:
         kv = {'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000}
@@ -35,4 +35,4 @@ class Solution:
             num += kv[s[i]]
         return int(num)
 
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-DFS的解题思路,具体见注释。
+// ### 解题思路
+// DFS的解题思路,具体见注释。
 
-DFS使用栈进行遍历，如果想要使用BFS，则在本题使用栈的地方使用队列即可按照广度进行遍历，不得不说数据结构很多时候都有神奇的力量
+// DFS使用栈进行遍历，如果想要使用BFS，则在本题使用栈的地方使用队列即可按照广度进行遍历，不得不说数据结构很多时候都有神奇的力量
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn moving_count(m: i32, n: i32, k: i32) -> i32 {
         let mut accessible: Vec<Vec<i32>> = vec![vec![0;n as usize];m as usize];
@@ -59,4 +59,4 @@ impl Solution {
 
     }
 }
-```
+// ```

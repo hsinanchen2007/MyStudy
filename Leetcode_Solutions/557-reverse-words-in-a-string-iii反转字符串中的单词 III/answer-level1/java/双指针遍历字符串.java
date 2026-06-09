@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         //双指针  前指针指向单词头 后指针指向单词尾部
@@ -36,4 +36,4 @@ class Solution {
          return new String(str);
     }
 }
-```
+// ```

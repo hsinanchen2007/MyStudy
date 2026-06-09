@@ -1,4 +1,4 @@
-```
+// ```
     /*
     f[n][m] : 表示n个人 每数m个删除 最后一个被删的编号是多少 编号从0开始
     若已知f[n-1][m] = x 
@@ -10,4 +10,4 @@
     int lastRemaining(int n, int m) {
         return n==1 ? 0 : (m + lastRemaining(n-1, m)) % n;
     }
-```
+// ```

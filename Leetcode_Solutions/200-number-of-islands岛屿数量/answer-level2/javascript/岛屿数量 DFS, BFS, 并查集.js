@@ -1,5 +1,5 @@
-解法一 DFS
-```
+// 解法一 DFS
+// ```
 
 // time complexity: O(M*N)
 // space complexity: O(M*N)
@@ -30,9 +30,9 @@ function dfsGrid(grid, r, c) {
     if (c - 1 >= 0 && grid[r][c - 1] == '1') dfs(grid, r, c - 1);
     if (c + 1 < len_c && grid[r][c + 1] == '1') dfs(grid, r, c + 1);
 }
-```
-解法二 BFS
-```
+// ```
+// 解法二 BFS
+// ```
 
 //time complexity : O(M*N)
 //space complexity: O(M*N)
@@ -83,7 +83,7 @@ function bfsGrid(grid, neighbors) {
         }
     }
 }
-```
-解法三、并查集
+// ```
+// 解法三、并查集
 
 

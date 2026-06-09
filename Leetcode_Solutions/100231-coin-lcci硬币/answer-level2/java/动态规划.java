@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
    public int waysToChange(int n) {
         double[] dp = new double[n + 1];
@@ -14,4 +14,4 @@ class Solution {
         return (int) dp[n];
     }
 }
-```
+// ```

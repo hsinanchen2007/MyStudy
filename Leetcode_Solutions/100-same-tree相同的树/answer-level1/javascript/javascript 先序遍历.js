@@ -1,8 +1,8 @@
-### 解题思路
-先序遍历，二叉树迭代
-### 代码
+// ### 解题思路
+// 先序遍历，二叉树迭代
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -23,4 +23,4 @@ var isSameTree = function(p, q) {
     isSameTree(p.left, q.left) &&
     isSameTree(p.right, q.right);
 };
-```
+// ```

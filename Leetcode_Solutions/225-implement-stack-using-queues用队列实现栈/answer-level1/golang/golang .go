@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-用切片模拟列表 
+// ### 解题思路
+// 此处撰写解题思路
+// 用切片模拟列表 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
 	list []int
     
@@ -62,4 +62,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

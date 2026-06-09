@@ -1,9 +1,9 @@
-### 解题思路
-常规的遍历链表的方法，需要考虑传入的链表为空的特殊情况
+// ### 解题思路
+// 常规的遍历链表的方法，需要考虑传入的链表为空的特殊情况
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -38,4 +38,4 @@ public:
         return head;
     }
 };
-```
+// ```

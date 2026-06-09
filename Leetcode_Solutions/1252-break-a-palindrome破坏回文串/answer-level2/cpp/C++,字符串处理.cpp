@@ -1,9 +1,9 @@
-分成以下几种情况讨论：
-1.如果串长度为1，返回空串。
-2.如果在串的前半部分出现非a，直接换成a，返回就可以
-3.还有一种情况是字符串全部是a，那么在最后一个字符换成b就Ok啦。
-注意：因为原串是回文串，所以只用考虑前半部分就可以啦。
-```
+// 分成以下几种情况讨论：
+// 1.如果串长度为1，返回空串。
+// 2.如果在串的前半部分出现非a，直接换成a，返回就可以
+// 3.还有一种情况是字符串全部是a，那么在最后一个字符换成b就Ok啦。
+// 注意：因为原串是回文串，所以只用考虑前半部分就可以啦。
+// ```
 class Solution {
 public:
     string breakPalindrome(string palindrome) {
@@ -22,9 +22,9 @@ public:
         return palindrome;
     }
 };
-```
-方法二：原理均一样，就是代码有所差别：
-```
+// ```
+// 方法二：原理均一样，就是代码有所差别：
+// ```
 class Solution {
 public:
     string breakPalindrome(string palindrome) {
@@ -44,4 +44,4 @@ public:
         return palindrome;
     }
 };
-```
+// ```

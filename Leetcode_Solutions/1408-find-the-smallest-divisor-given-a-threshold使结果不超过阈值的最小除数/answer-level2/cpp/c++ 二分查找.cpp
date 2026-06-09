@@ -1,6 +1,6 @@
-c++ 二分即可
-注意相等情况下不要提前返回，而是继续找最小
-```
+// c++ 二分即可
+// 注意相等情况下不要提前返回，而是继续找最小
+// ```
 class Solution {
 public:
     int smallestDivisor(vector<int>& nums, int threshold) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

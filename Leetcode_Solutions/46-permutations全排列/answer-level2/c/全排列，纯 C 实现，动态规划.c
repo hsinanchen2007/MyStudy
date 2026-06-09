@@ -1,6 +1,6 @@
-![2019-10-18_19-56.png](https://pic.leetcode-cn.com/619b64289f132851ae0ada703f53944214bd5f8c59fdcebeb2f6f2047d0aed05-2019-10-18_19-56.png)
+// ![2019-10-18_19-56.png](https://pic.leetcode-cn.com/619b64289f132851ae0ada703f53944214bd5f8c59fdcebeb2f6f2047d0aed05-2019-10-18_19-56.png)
 
-```c
+// ```c
 int **permuteHelper(int *nums, int numsSize, int *returnSize) {
     // 只有一个元素时直接返回该元素，并且只有一种排列
     if (numsSize == 1) {
@@ -55,4 +55,4 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
 
     return ret;
 }
-```
+// ```

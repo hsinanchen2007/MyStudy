@@ -1,9 +1,9 @@
-### 解题思路
-纯C 先对开始和结尾值排序 再依次连接 主要是总结了二维数组使用框架
+// ### 解题思路
+// 纯C 先对开始和结尾值排序 再依次连接 主要是总结了二维数组使用框架
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -81,4 +81,4 @@ int** merge(IN int** intervals, IN int intervalsSize, IN int* intervalsColSize, 
 
     return pRes;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-击败双100%
+// 击败双100%
 
-```
+// ```
 void swap(int[] arr, int i, int j) {
         int t = arr[i];
         arr[i] = arr[j];
@@ -57,6 +57,6 @@ void swap(int[] arr, int i, int j) {
         
         return res;
     }
-```
+// ```
 
 

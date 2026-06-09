@@ -1,4 +1,4 @@
-```
+// ```
 class Foo {
 public:
     int AF = 0;
@@ -23,4 +23,4 @@ public:
         printThird();
     }
 };
-```
+// ```

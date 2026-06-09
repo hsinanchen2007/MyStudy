@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/7b9d1fbebcdc8d0a4216688027776f48d4cf6a6958abd2d25d35e64193ca7367-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7b9d1fbebcdc8d0a4216688027776f48d4cf6a6958abd2d25d35e64193ca7367-image.png)
 
-```
+// ```
 class Solution {
 public:
     vector<int> decompressRLElist(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
         return res;
     }
 };
-```
+// ```

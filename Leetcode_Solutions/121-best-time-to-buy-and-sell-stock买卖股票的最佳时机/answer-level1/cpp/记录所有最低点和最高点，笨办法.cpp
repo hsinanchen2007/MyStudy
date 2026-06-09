@@ -1,6 +1,6 @@
-重点是一直记录可获得的最大利润，出现更低买点时更新买点。
-我这方法不好。
-```
+// 重点是一直记录可获得的最大利润，出现更低买点时更新买点。
+// 我这方法不好。
+// ```
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -26,4 +26,4 @@ public:
     return max;
     }
 };
-```
+// ```

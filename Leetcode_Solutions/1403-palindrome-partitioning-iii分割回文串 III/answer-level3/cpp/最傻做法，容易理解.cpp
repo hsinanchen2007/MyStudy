@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int palindromePartition(string s, int k) {
@@ -47,4 +47,4 @@ public:
         return dp[1][n][k];
     }
 };
-```
+// ```

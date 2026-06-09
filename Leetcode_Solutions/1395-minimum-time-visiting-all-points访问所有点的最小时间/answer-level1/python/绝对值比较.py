@@ -1,10 +1,10 @@
-### 解题思路
-所用的距离（时间）其实由两坐标点之间横纵差值最大的一项决定，如(1,1)到(3,4),abs(3 - 1) < abs(4 - 1),所以距离为abs(4 - 1)，
-通过比较每一个点与前一个点之间最大的横纵距离并相加即可。
+# ### 解题思路
+# 所用的距离（时间）其实由两坐标点之间横纵差值最大的一项决定，如(1,1)到(3,4),abs(3 - 1) < abs(4 - 1),所以距离为abs(4 - 1)，
+# 通过比较每一个点与前一个点之间最大的横纵距离并相加即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minTimeToVisitAllPoints(self, points):
         """
@@ -19,4 +19,4 @@ class Solution(object):
             else:
                 count += abs(points[i + 1][1] - points[i][1])
         return count
-```
+# ```

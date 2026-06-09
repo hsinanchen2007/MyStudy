@@ -1,5 +1,5 @@
-# 第一种map
-```
+// # 第一种map
+// ```
 func threeSum(nums []int) [][]int {
 	res := [][]int{}
 	counter := map[int]int{}
@@ -31,10 +31,10 @@ func threeSum(nums []int) [][]int {
 	}
 	return res
 }
-```
+// ```
 
-# 第二种，双指针
-```
+// # 第二种，双指针
+// ```
 func threeSum(nums []int) [][]int {
 	if nums==nil||len(nums)<3{
 		return nil
@@ -70,5 +70,5 @@ func threeSum(nums []int) [][]int {
 	}
 	return res
 }
-```
+// ```
 

@@ -1,10 +1,10 @@
-### 解题思路
-除数倍增，被除数=（被除数-除数倍增）
-ps：
-可将dividend、divisor及result都置为负值，可以不使用long（但leetcode不支持负值左移）
-### 代码
+// ### 解题思路
+// 除数倍增，被除数=（被除数-除数倍增）
+// ps：
+// 可将dividend、divisor及result都置为负值，可以不使用long（但leetcode不支持负值左移）
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int divide(int dividend, int divisor) {
@@ -30,4 +30,4 @@ public:
         return rt;
     }
 };
-```
+// ```

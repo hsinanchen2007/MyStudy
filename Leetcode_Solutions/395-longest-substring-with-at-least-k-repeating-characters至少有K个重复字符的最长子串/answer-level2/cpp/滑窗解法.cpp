@@ -1,6 +1,6 @@
-参照英文版leetcode,@sniffsky@KidOptimo两位的[题解](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/discuss/87739/Java-Strict-O(N)-Two-Pointer-Solution)写的滑窗解法，时间复杂度O(26\*n\*window_size)近似O(n);
+// 参照英文版leetcode,@sniffsky@KidOptimo两位的[题解](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/discuss/87739/Java-Strict-O(N)-Two-Pointer-Solution)写的滑窗解法，时间复杂度O(26\*n\*window_size)近似O(n);
 
-```
+// ```
 class Solution {
 public:
     int longestSubstring(string s, int k) {//sliding window
@@ -26,4 +26,4 @@ public:
         return longstr;
     }
 };
-```
+// ```

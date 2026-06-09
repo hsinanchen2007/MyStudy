@@ -1,9 +1,9 @@
-### 解题思路
-先交换当前节点的值，然后再递归交换左节点和右节点的值
+// ### 解题思路
+// 先交换当前节点的值，然后再递归交换左节点和右节点的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ class Solution {
 		return root;
 		}
 }
-```
+// ```

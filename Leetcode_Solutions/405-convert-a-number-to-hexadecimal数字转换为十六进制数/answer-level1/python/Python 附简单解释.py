@@ -1,9 +1,9 @@
-#### 说明：
- - Python需要手工补充题设对应的max_int
-#### 复杂度分析：
- - 时间复杂度：$O(logN)$
- - 空间复杂度：$O(1)$
-```Python
+# #### 说明：
+#  - Python需要手工补充题设对应的max_int
+# #### 复杂度分析：
+#  - 时间复杂度：$O(logN)$
+#  - 空间复杂度：$O(1)$
+# ```Python
 class Solution(object):
 
     def toHex(self, num: int) -> str:
@@ -28,4 +28,4 @@ class Solution(object):
                 break
 
         return result
-```
+# ```

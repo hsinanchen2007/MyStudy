@@ -1,18 +1,18 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-初始值
-![image.png](https://pic.leetcode-cn.com/eb7c322c64ba7e655396e6cc10a156a57b14e3d2ad2b3ea6e6176578ceb12f62-image.png)
-状态转移
-![image.png](https://pic.leetcode-cn.com/7ac219105d259eea01d7160ea97ca44491bab7e3ad7f02157fdacc5972442e4f-image.png)
+// 初始值
+// ![image.png](https://pic.leetcode-cn.com/eb7c322c64ba7e655396e6cc10a156a57b14e3d2ad2b3ea6e6176578ceb12f62-image.png)
+// 状态转移
+// ![image.png](https://pic.leetcode-cn.com/7ac219105d259eea01d7160ea97ca44491bab7e3ad7f02157fdacc5972442e4f-image.png)
 
 
-两个版本：非递归和递归
+// 两个版本：非递归和递归
 
-### 代码
+// ### 代码
 
-#### 非递归
-```cpp
+// #### 非递归
+// ```cpp
 class Solution {
 public:
 	vector<vector<int>> generate(int numRows) {
@@ -28,10 +28,10 @@ public:
 		return dp;
 	}
 };
-```
+// ```
 
-#### 递归
-```cpp
+// #### 递归
+// ```cpp
 class Solution {
 public:
 	vector<vector<int>> generate(int numRows) {
@@ -63,4 +63,4 @@ public:
 		}
 	}
 };
-```
+// ```

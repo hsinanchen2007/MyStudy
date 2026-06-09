@@ -1,9 +1,9 @@
-### 解题思路
-我们构建一个map，可以直接搞定
+// ### 解题思路
+// 我们构建一个map，可以直接搞定
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class WordsFrequency {
 public:
     WordsFrequency(vector<string>& book) {
@@ -27,4 +27,4 @@ private:
  * WordsFrequency* obj = new WordsFrequency(book);
  * int param_1 = obj->get(word);
  */
-```
+// ```

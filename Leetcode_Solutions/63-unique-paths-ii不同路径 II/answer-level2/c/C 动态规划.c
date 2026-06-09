@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 long uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obstacleGridColSize){
     int i = 0,j = 0;
     long **dp = (long**)malloc(sizeof(long*)*obstacleGridSize);
@@ -33,4 +33,4 @@ long uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obs
     }
     return dp[i-1][j-1];
 }
-```
+// ```

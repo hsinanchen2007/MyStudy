@@ -1,4 +1,4 @@
-```kotlin
+// ```kotlin
 class Solution {
     tailrec fun reverse(x: Int, y: Long = 0): Int =
         if (x == 0)
@@ -6,4 +6,4 @@ class Solution {
         else
             reverse(x / 10, y * 10 + x % 10)
 }
-```
+// ```

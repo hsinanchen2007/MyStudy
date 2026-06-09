@@ -1,6 +1,6 @@
-### 代码
->#### 时间复杂度：O(n)  空间复杂度：O(1)
-```javascript
+// ### 代码
+// >#### 时间复杂度：O(n)  空间复杂度：O(1)
+// ```javascript
 var maxArea = function(height) {
     let low = 0
     let high = height.length - 1
@@ -16,4 +16,4 @@ var maxArea = function(height) {
     }
     return res
 };
-```
+// ```

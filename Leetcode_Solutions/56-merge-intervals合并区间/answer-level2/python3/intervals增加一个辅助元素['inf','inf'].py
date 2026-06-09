@@ -1,5 +1,5 @@
-每次合并之前，intervals增加一个辅助元素['inf','inf'],为了把所有的原始元素进行操作
-```Python []
+# 每次合并之前，intervals增加一个辅助元素['inf','inf'],为了把所有的原始元素进行操作
+# ```Python []
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         intervals.sort(key=lambda x: x[0])
@@ -19,5 +19,5 @@ class Solution:
                     i += 1
             intervals = ret
         return intervals
-```
+# ```
 

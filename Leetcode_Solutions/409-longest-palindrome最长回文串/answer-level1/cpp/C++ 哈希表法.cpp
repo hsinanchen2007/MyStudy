@@ -1,9 +1,9 @@
-### 解题思路
-常规思路解题即可
+// ### 解题思路
+// 常规思路解题即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -28,4 +28,4 @@ public:
     }
 };
 
-```
+// ```

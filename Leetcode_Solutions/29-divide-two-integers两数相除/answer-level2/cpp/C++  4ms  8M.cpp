@@ -1,6 +1,6 @@
-先解决边界条件和溢出情况；然后，转成两正数通过移位进行解答。
+// 先解决边界条件和溢出情况；然后，转成两正数通过移位进行解答。
 
-```
+// ```
 class Solution {
 public:
     int divide(int dividend, int divisor) {
@@ -31,4 +31,4 @@ public:
         return flag ? 0-res : res;
     }
 };
-```
+// ```

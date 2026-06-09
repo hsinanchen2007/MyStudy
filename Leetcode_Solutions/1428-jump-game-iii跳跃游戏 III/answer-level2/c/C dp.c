@@ -1,6 +1,6 @@
-在dp[i][j] : 0，未知， 1 可达， 2不可达， -1正在求解
-        j  : 0 向左， 1 向右
-```
+// 在dp[i][j] : 0，未知， 1 可达， 2不可达， -1正在求解
+//         j  : 0 向左， 1 向右
+// ```
 int canReachCore(int* arr, int arrSize, int dp[][2], int cur); 
 bool canReach(int* arr, int arrSize, int start){
 	
@@ -49,4 +49,4 @@ int canReachCore(int* arr, int arrSize, int dp[][2], int cur)
 	
 	return 2;
 }
-```
+// ```

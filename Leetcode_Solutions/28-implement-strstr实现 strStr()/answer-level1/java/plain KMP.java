@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int strStr(String base, String target) {
         if (base == null || target == null) {
@@ -80,4 +80,4 @@ class Solution {
         return table;
     }
 }
-```
+// ```

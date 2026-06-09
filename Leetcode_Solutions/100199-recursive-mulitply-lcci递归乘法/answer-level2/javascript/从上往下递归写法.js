@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var multiply = function(A, B) {
     return test(A, B, 0);
 };
@@ -10,4 +10,4 @@ function test(A, B, sum) {
     sum += b;
     return test(a - 1, b, sum)
 }
-```
+// ```

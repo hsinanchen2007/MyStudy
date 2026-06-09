@@ -1,17 +1,17 @@
 
-![leetcode_result64.png](https://pic.leetcode-cn.com/3c3d0ab38ee7096866999e7a7c32255befc06ebc46c7a2881572c69c32fad441-leetcode_result64.png)
-### 解题思路
-相信机器人走路那题会的，这题也不难，无非就是增加一个求和;
-大体思路很简单：
-由于只能向下和向右走，那么反推回来，最右下的点的最小路径和就等于其点数加上min(其左边的最小路径和,其上边的最小路径和），用代码表示即：
-minsum[i][j]=grid[i][j]+Math.min(minsum[i][j-1],minsum[i-1][j]);
-如果到了第0行，由于只能向右或者向下走，所以第0行上的点的最小路径和就等于该行上从第0列到该点的所有数之和，即：
-minsum[0][j]=grid[0][0]+grid[0][1]+....+grid[0][j-1]+grid[0][j];
-同理到了第0列，也是该列和，即：
-minsum[i][0]=grid[0][0]+grid[1][0]+....+grid[i-1][0]+grid[i][0];
-### 代码
+// ![leetcode_result64.png](https://pic.leetcode-cn.com/3c3d0ab38ee7096866999e7a7c32255befc06ebc46c7a2881572c69c32fad441-leetcode_result64.png)
+// ### 解题思路
+// 相信机器人走路那题会的，这题也不难，无非就是增加一个求和;
+// 大体思路很简单：
+// 由于只能向下和向右走，那么反推回来，最右下的点的最小路径和就等于其点数加上min(其左边的最小路径和,其上边的最小路径和），用代码表示即：
+// minsum[i][j]=grid[i][j]+Math.min(minsum[i][j-1],minsum[i-1][j]);
+// 如果到了第0行，由于只能向右或者向下走，所以第0行上的点的最小路径和就等于该行上从第0列到该点的所有数之和，即：
+// minsum[0][j]=grid[0][0]+grid[0][1]+....+grid[0][j-1]+grid[0][j];
+// 同理到了第0列，也是该列和，即：
+// minsum[i][0]=grid[0][0]+grid[1][0]+....+grid[i-1][0]+grid[i][0];
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int ans=0;
     private int[][] minsum;
@@ -60,4 +60,4 @@ class Solution {
         return minSum(grid.length-1,grid[0].length-1);
     }
 }
-```
+// ```

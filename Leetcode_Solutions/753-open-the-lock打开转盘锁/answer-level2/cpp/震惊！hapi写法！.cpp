@@ -1,9 +1,9 @@
-### 解题思路
-和其他人的思路大同小异。
+// ### 解题思路
+// 和其他人的思路大同小异。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int openLock(vector<string>& deadends, string target) {
@@ -65,4 +65,4 @@ public:
         return -1;
     }
 };
-```
+// ```

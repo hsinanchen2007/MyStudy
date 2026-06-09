@@ -1,11 +1,11 @@
-### 解题思路
-1.用列表模拟，先将数字都加入列表，然后每格m个删除一次，知道列表只剩下一个元素
+// ### 解题思路
+// 1.用列表模拟，先将数字都加入列表，然后每格m个删除一次，知道列表只剩下一个元素
 
-2.数学法，不是十分理解
+// 2.数学法，不是十分理解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         List<Integer> list = new ArrayList<>();
@@ -28,4 +28,4 @@ class Solution {
         // return ans;
     }
 }
-```
+// ```

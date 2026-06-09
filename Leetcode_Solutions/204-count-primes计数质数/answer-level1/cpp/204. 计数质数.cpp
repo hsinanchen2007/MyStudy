@@ -1,6 +1,6 @@
-## 求质数
-**求质数的模板！**
-```cpp
+// ## 求质数
+// **求质数的模板！**
+// ```cpp
 class Solution {
 public:
     int countPrimes(int n) {
@@ -18,7 +18,7 @@ public:
         return cnt;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/23d348bef930ca4bb73f749500f664ccffc5e41467aac0ba9787025392ca207b-1.gif)
-*图片偷来的，只为做笔记，侵删*
+// ```
+// ![image.png](https://pic.leetcode-cn.com/23d348bef930ca4bb73f749500f664ccffc5e41467aac0ba9787025392ca207b-1.gif)
+// *图片偷来的，只为做笔记，侵删*
 

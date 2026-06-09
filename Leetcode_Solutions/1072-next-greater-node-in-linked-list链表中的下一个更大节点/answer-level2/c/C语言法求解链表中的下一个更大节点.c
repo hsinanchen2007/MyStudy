@@ -1,9 +1,9 @@
-### 解题思路
-见代码注释部分，很详尽。
+// ### 解题思路
+// 见代码注释部分，很详尽。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -52,4 +52,4 @@ int* nextLargerNodes(struct ListNode* head, int* returnSize){
     ans[i]=0;
     return ans;
 }
-```
+// ```

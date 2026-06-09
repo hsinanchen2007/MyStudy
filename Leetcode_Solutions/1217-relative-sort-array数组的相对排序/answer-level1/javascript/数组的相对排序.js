@@ -1,4 +1,4 @@
-```js
+// ```js
 var relativeSortArray = function(arr1, arr2) {
     // arr1 中没有出现在 arr2 中的元素
     let arr3 = []
@@ -19,4 +19,4 @@ var relativeSortArray = function(arr1, arr2) {
     arr3.sort((a, b) => a - b)
     return arr2.concat(arr3)
 };
-```
+// ```

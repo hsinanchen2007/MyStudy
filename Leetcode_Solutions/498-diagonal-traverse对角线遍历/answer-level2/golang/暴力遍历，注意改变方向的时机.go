@@ -1,5 +1,5 @@
-**up 往右上角遍历标记为true，往左下角遍历时标记位false，x表示横轴，y表示纵轴，当x，y任一一个遍历到0时或者遍历到横轴或者纵轴最大位置时，改变方向，暴力遍历**
-```
+// **up 往右上角遍历标记为true，往左下角遍历时标记位false，x表示横轴，y表示纵轴，当x，y任一一个遍历到0时或者遍历到横轴或者纵轴最大位置时，改变方向，暴力遍历**
+// ```
 func findDiagonalOrder(matrix [][]int) []int {
 	result := []int{}
 	if len(matrix) == 0 {
@@ -42,5 +42,5 @@ func findDiagonalOrder(matrix [][]int) []int {
 	}
 	return result
 }
-```
+// ```
 

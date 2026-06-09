@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先排序，然后循环分隔，然后求解
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 先排序，然后循环分隔，然后求解
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
         nums.sort()
@@ -14,4 +14,4 @@ class Solution:
             x+=min(i)
         return x
             
-```
+# ```

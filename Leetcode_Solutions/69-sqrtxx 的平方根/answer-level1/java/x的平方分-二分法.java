@@ -1,9 +1,9 @@
-### 解题思路
-注意临界值。
+// ### 解题思路
+// 注意临界值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int mySqrt(int x) {
         if(x==0) return 0;
@@ -22,4 +22,4 @@ class Solution {
         return (int)(left*left>x?left-1:left);
     }   
 }
-```
+// ```

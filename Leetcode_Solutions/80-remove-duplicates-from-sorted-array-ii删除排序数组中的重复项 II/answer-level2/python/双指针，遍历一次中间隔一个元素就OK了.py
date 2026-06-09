@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def removeDuplicates(self, nums):
         """
@@ -24,4 +24,4 @@ class Solution(object):
                 nums.remove(nums[kuai])
                 
         return len(nums)
-```
+# ```

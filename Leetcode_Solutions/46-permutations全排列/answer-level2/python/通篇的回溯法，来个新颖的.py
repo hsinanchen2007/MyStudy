@@ -1,5 +1,5 @@
-逐个元素的插入，时间空间复杂度均能达到90%以上 [当然不保证，因为力扣不稳定]
-```python
+# 逐个元素的插入，时间空间复杂度均能达到90%以上 [当然不保证，因为力扣不稳定]
+# ```python
     def permute(self, nums: List[int]) -> List[List[int]]:
         if len(nums) < 2:  # 如果为1个或两个元素直接返回
             return [nums]
@@ -12,4 +12,4 @@
                     res.append(temp[:j] + [i] + temp[j:])
             preres = res  # 成为旧排列
         return preres
-```
+# ```

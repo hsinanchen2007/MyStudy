@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-C语言+递归+二维数组保存
+// C语言+递归+二维数组保存
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -85,4 +85,4 @@ int sumNumbers(struct TreeNode* root){
 }
 
 
-```
+// ```

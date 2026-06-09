@@ -1,6 +1,6 @@
-dp[i] = dp[i-1]×（第i个单独解码个数） + dp[i-2]×（第i-1和i个一起解码的个数）
-就是分类个数有点多.
-```
+# dp[i] = dp[i-1]×（第i个单独解码个数） + dp[i-2]×（第i-1和i个一起解码的个数）
+# 就是分类个数有点多.
+# ```
 class Solution:
     def numDecodings(self, s: str) -> int:
         def init(x): #初始化dp[1]
@@ -75,4 +75,4 @@ class Solution:
             dp[i] += dp[i-2] * twoNumDecodings(s[i-1:i+1])
             dp[i] = dp[i] % (10**9+7)
         return dp[-1]
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-瞎几把写就行
+// ### 解题思路
+// 瞎几把写就行
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func printNumbers(n int) []int {
 	if n == 0 {
 		return []int{}
@@ -21,4 +21,4 @@ func printNumbers(n int) []int {
 	return result
 
 }
-```
+// ```

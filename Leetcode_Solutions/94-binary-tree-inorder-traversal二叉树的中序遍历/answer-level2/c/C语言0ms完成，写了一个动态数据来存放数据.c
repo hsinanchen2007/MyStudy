@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-主体代码非常简单，就是通过递归，来遍历二叉树
+// 主体代码非常简单，就是通过递归，来遍历二叉树
 
-```c
+// ```c
 void inorder(struct TreeNode *root, Darry *darr)
 {
     if ( root == NULL) return;
@@ -10,17 +10,17 @@ void inorder(struct TreeNode *root, Darry *darr)
     Append(darr, root->val);
     inorder(root->right, darr);
 }
-```
+// ```
 
-但是问题在于实现不知道二叉树有多大。对于其他编程语言，基本都自带了动态Array，所以相对简单。
+// 但是问题在于实现不知道二叉树有多大。对于其他编程语言，基本都自带了动态Array，所以相对简单。
 
-然而C语言没有，因此就需要专门定义一个动态数组，包括创建，增加，和扩大这三个函数。
+// 然而C语言没有，因此就需要专门定义一个动态数组，包括创建，增加，和扩大这三个函数。
 
-其实大小设置为100. 避免多次申请浪费时间。
+// 其实大小设置为100. 避免多次申请浪费时间。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -89,4 +89,4 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
     return arr;
 
 }
-```
+// ```

@@ -1,5 +1,5 @@
-比较大小
-```
+// 比较大小
+// ```
 func maximum(a int, b int) int {
     k := a > b
     m := map[bool]int{
@@ -8,4 +8,4 @@ func maximum(a int, b int) int {
     }
     return a * m[k] + b * m[!k]
 }
-```
+// ```

@@ -1,6 +1,6 @@
-## 思路一：两边夹
-### 代码
-```
+// ## 思路一：两边夹
+// ### 代码
+// ```
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
@@ -20,11 +20,11 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-## 思路二：数学
-### 代码
-```c++
+// ## 思路二：数学
+// ### 代码
+// ```c++
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
@@ -43,5 +43,5 @@ public:
         return -1;
     }
 };
-```
+// ```
 

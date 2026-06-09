@@ -1,10 +1,10 @@
-### 解题思路
-![微信截图_20200405120649.png](https://pic.leetcode-cn.com/7b01b675eea391395a9c382e15f864abd428fdb0cb2fe1f4006e98dd96332b63-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200405120649.png)
+# ### 解题思路
+# ![微信截图_20200405120649.png](https://pic.leetcode-cn.com/7b01b675eea391395a9c382e15f864abd428fdb0cb2fe1f4006e98dd96332b63-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200405120649.png)
 
-最笨的办法就在LRU的基础上，增加一个times的统计，主要是times和key要绑定在一起操作
-### 代码
+# 最笨的办法就在LRU的基础上，增加一个times的统计，主要是times和key要绑定在一起操作
+# ### 代码
 
-```python3
+# ```python3
 class LFUCache:
     def __init__(self, capacity: int):
         self.cap = capacity
@@ -55,4 +55,4 @@ class LFUCache:
 # obj = LFUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

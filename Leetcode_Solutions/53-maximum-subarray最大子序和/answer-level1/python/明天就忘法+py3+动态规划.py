@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         # if not nums or len(nums)<=0:
@@ -27,4 +27,4 @@ class Solution:
             dp[i]=max(dp[i-1]+nums[i],nums[i])
             maxs=max(dp[i],maxs)
         return maxs
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-RE+=j-i是标准的可以省略i++的方法
+# ### 解题思路
+# RE+=j-i是标准的可以省略i++的方法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def triangleNumber(self, s: List[int]) -> int:
         s.sort()
@@ -17,4 +17,4 @@ class Solution:
                 else:
                     i+=1
         return RE
-```
+# ```

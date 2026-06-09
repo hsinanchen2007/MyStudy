@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-分几种情况：
-1.长度相等直接判断
-2.长度相差2肯定不行
-3.长度只差1，双指针遍历判断
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 分几种情况：
+# 1.长度相等直接判断
+# 2.长度相差2肯定不行
+# 3.长度只差1，双指针遍历判断
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def oneEditAway(self, first: str, second: str) -> bool:
         if first==second:
@@ -40,4 +40,4 @@ class Solution:
 
 
 
-```
+# ```

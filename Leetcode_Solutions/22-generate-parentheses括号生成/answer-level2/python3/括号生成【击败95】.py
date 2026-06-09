@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         lists = []
@@ -20,4 +20,4 @@ class Solution:
                 else:
                     lists.append(lists[0] + "(")
                     lists.pop(0)
-```
+# ```

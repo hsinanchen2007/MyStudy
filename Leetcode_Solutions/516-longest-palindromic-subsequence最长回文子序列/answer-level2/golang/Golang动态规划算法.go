@@ -1,12 +1,12 @@
-状态定义：dp[i][j]表示s[i...j]这个子串的最长回文序列
+// 状态定义：dp[i][j]表示s[i...j]这个子串的最长回文序列
 
-状态转移方程：
+// 状态转移方程：
 
-当s[i]==s[j], dp[i][j]= dp[i+1][j-1] + 2 ;
+// 当s[i]==s[j], dp[i][j]= dp[i+1][j-1] + 2 ;
 
- 当s[i]!=s[j], dp[i][j] = max(dp[i+1][j], dp[i][j-1]) ，其中dp[i+1][j]表示选择s[j]， dp[i][j-1]表示跳过s[j]
+//  当s[i]!=s[j], dp[i][j] = max(dp[i+1][j], dp[i][j-1]) ，其中dp[i+1][j]表示选择s[j]， dp[i][j-1]表示跳过s[j]
 
-``` go
+// ``` go
 func max(nums ...int) int {
 	m := nums[0]
 	for _, n := range nums {
@@ -42,4 +42,4 @@ func longestPalindromeSubseq(s string) int {
 
 	return dp[0][n-1]
 }
-```
+// ```

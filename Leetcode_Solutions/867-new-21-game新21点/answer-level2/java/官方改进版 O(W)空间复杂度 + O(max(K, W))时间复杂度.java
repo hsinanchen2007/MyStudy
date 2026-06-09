@@ -1,5 +1,5 @@
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
         
     public double new21Game(int N, int K, int W) {
@@ -26,4 +26,4 @@ class Solution {
         return rec[l];
     }
 }
-```
+// ```

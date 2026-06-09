@@ -1,9 +1,9 @@
-### 解题思路
-很清晰的题，之前本来想俩循环套着m*n的，果然时间超了
+# ### 解题思路
+# 很清晰的题，之前本来想俩循环套着m*n的，果然时间超了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution(object):
                 return headB
             headB=headB.next
         return None
-```
+# ```

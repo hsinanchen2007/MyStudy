@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-状态方程：f(coins, amount) = min(f(coins[i], amount-coins[i]))+1, f(0)=0;
+// ### 解题思路
+// 此处撰写解题思路
+// 状态方程：f(coins, amount) = min(f(coins[i], amount-coins[i]))+1, f(0)=0;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
@@ -25,4 +25,4 @@ public:
             return dp[amount];
     }
 };
-```
+// ```

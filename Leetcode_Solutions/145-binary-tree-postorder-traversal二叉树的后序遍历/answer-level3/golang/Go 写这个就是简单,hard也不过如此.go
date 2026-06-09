@@ -1,4 +1,4 @@
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -31,4 +31,4 @@ func postOrder(t *TreeNode,s *[]int) {
      *s = append(*s,t.Val)
 
 }
-```
+// ```

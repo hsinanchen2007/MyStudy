@@ -1,5 +1,5 @@
-### 解题思路
-```python3
+# ### 解题思路
+# ```python3
 zero_index = []
         for k, mat in enumerate(matrix):
             index = []
@@ -14,12 +14,12 @@ zero_index = []
             for index in zero_index:
                 for mat in matrix:
                     mat[index] = 0
-```
-此处撰写解题思路
+# ```
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
@@ -40,4 +40,4 @@ class Solution:
                 for mat in matrix:
                     mat[index] = 0
     
-```
+# ```

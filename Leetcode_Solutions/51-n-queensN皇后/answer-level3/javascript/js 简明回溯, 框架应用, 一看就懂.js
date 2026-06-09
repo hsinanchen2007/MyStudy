@@ -1,4 +1,4 @@
-```js
+// ```js
 var solveNQueens = function(n) {
   // 列占位
   const columns = [];
@@ -50,4 +50,4 @@ var solveNQueens = function(n) {
     secondary[row + col] = on;
   }
 };
-```
+// ```

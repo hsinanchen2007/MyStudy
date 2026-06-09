@@ -1,8 +1,8 @@
 
-0ms   2.2MB    击败100%用户
+// 0ms   2.2MB    击败100%用户
 
 
-```
+// ```
 func fullJustify(words []string, maxWidth int) []string {
 
     s := 0
@@ -75,5 +75,5 @@ func conWords(words *[]string ,r *[]string,start int ,end int,curLen int,maxLen 
     }
     *r = append(*r,w)
 }
-```
+// ```
 

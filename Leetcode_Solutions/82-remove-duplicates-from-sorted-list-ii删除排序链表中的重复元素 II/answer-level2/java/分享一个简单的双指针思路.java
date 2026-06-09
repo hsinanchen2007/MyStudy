@@ -1,8 +1,8 @@
-思路：p，q两个指针，p指针指向结果集中最后一位，q用来遍历整个list。时间复杂度O(n)，空间复杂度O(1);
+// 思路：p，q两个指针，p指针指向结果集中最后一位，q用来遍历整个list。时间复杂度O(n)，空间复杂度O(1);
 
-思路比较简单就直接放代码了
+// 思路比较简单就直接放代码了
 
-```
+// ```
 public ListNode deleteDuplicates(ListNode head) {
 		if (head == null || head.next == null) {
 			return head;
@@ -26,4 +26,4 @@ public ListNode deleteDuplicates(ListNode head) {
 		p.next = null;
 		return dumb.next;
 	}
-```
+// ```

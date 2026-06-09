@@ -1,9 +1,9 @@
-### 解题思路
-执行用时:1 ms,在所有Java 提交中击败了95.82%
-时间复杂度：最好一次遍历，最差两次遍历，O(N)
-### 代码
+// ### 解题思路
+// 执行用时:1 ms,在所有Java 提交中击败了95.82%
+// 时间复杂度：最好一次遍历，最差两次遍历，O(N)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //主要思想，把数字放在相应位置，1->nums[0],2->nums[1],...
     public int firstMissingPositive(int[] nums) {
@@ -50,4 +50,4 @@ class Solution {
         return; 
     }
 }
-```
+// ```

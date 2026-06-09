@@ -1,11 +1,11 @@
- #### 解题思路：
-**方法一**
- 1. 暴力法
+//  #### 解题思路：
+// **方法一**
+//  1. 暴力法
 
-- 使用两层循环，外层循环计算当前元素与 $target$ 之间的差值，内层循环寻找该差值，若找到该差值，则返回两个元素的下标。
-- 时间复杂度：$O(n^2)$。
+// - 使用两层循环，外层循环计算当前元素与 $target$ 之间的差值，内层循环寻找该差值，若找到该差值，则返回两个元素的下标。
+// - 时间复杂度：$O(n^2)$。
 
-```java [-Java]
+// ```java [-Java]
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
@@ -23,15 +23,15 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
- 2. 利用 $HashMap$ 减少查询时间
+//  2. 利用 $HashMap$ 减少查询时间
 
-- 在暴力法中，内层循环查找差值很浪费时间，那么如何减少查询时间呢？利用 $HashMap$ 就可以减少查询时间。
-- 使用一层循环，每遍历到一个元素就计算该元素与 $target$ 之间的差值，然后到 $HashMap$ 中寻找该差值，如果找到，则返回两个元素在数组 $nums$ 的下标，如果没有找到，则将当前元素存入 $HashMap$ 中 $(Key: nums[i], Value: i)$ 。
-- 时间复杂度：$O(n)$。
+// - 在暴力法中，内层循环查找差值很浪费时间，那么如何减少查询时间呢？利用 $HashMap$ 就可以减少查询时间。
+// - 使用一层循环，每遍历到一个元素就计算该元素与 $target$ 之间的差值，然后到 $HashMap$ 中寻找该差值，如果找到，则返回两个元素在数组 $nums$ 的下标，如果没有找到，则将当前元素存入 $HashMap$ 中 $(Key: nums[i], Value: i)$ 。
+// - 时间复杂度：$O(n)$。
 
-```java [-Java]
+// ```java [-Java]
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer,Integer> map = new HashMap<>();
@@ -48,16 +48,16 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-**方法二**
+// **方法二**
 
-1. 暴力法
+// 1. 暴力法
 
-- 使用两层循环，外层循环计算当前元素与 $target$ 之间的差值，内层循环寻找该差值，若找到该差值，则返回两个元素的下标。
-- 时间复杂度：$O(n^2)$。
+// - 使用两层循环，外层循环计算当前元素与 $target$ 之间的差值，内层循环寻找该差值，若找到该差值，则返回两个元素的下标。
+// - 时间复杂度：$O(n^2)$。
 
-```javascript [-JS]
+// ```javascript [-JS]
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -73,15 +73,15 @@ var twoSum = function(nums, target) {
         }
     }
 };
-```
+// ```
 
-2. 利用数组减少查询时间
+// 2. 利用数组减少查询时间
 
-- 在暴力法中，内层循环查找差值很浪费时间，那么如何减少查询时间呢？利用数组就可以减少查询时间。
-- 使用一层循环，每遍历到一个元素就计算该元素与 $target$ 之间的差值 $dif$，然后以 $dif$ 为下标到数组temp中寻找，如果 `temp[dif]` 有值(即不是 $undefined$)，则返回两个元素在数组 $nums$ 的下标，如果没有找到，则将当前元素存入数组 $temp$ 中(下标: $nums[i], Value: i$) 。
-- 时间复杂度：$O(n)$。
+// - 在暴力法中，内层循环查找差值很浪费时间，那么如何减少查询时间呢？利用数组就可以减少查询时间。
+// - 使用一层循环，每遍历到一个元素就计算该元素与 $target$ 之间的差值 $dif$，然后以 $dif$ 为下标到数组temp中寻找，如果 `temp[dif]` 有值(即不是 $undefined$)，则返回两个元素在数组 $nums$ 的下标，如果没有找到，则将当前元素存入数组 $temp$ 中(下标: $nums[i], Value: i$) 。
+// - 时间复杂度：$O(n)$。
 
-```javascript [-JS]
+// ```javascript [-JS]
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -97,4 +97,4 @@ var twoSum = function(nums, target) {
         temp[nums[i]] = i;
     }
 };
-```
+// ```

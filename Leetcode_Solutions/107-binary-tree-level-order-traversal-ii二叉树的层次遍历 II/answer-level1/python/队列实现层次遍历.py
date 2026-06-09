@@ -1,8 +1,8 @@
-- 使用deque感觉更自然一点
+# - 使用deque感觉更自然一点
  
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
             ans.append(x)
         ans.reverse()
         return ans
-```
+# ```

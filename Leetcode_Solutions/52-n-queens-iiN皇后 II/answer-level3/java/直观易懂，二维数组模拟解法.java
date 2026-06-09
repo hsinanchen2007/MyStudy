@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int sc = 0;
     public int totalNQueens(int n) {
@@ -39,4 +39,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

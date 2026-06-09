@@ -1,7 +1,7 @@
-本文是解题中的优化竖式版本的Python实现，也就是下图的这个思路。供大家参考。
-![image.png](https://pic.leetcode-cn.com/0499f6e5d1094a841f6f35ea012cb9dd0d258395c2fc253f69f333ce4680d3d3-image.png)
+# 本文是解题中的优化竖式版本的Python实现，也就是下图的这个思路。供大家参考。
+# ![image.png](https://pic.leetcode-cn.com/0499f6e5d1094a841f6f35ea012cb9dd0d258395c2fc253f69f333ce4680d3d3-image.png)
 
-```
+# ```
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         if num1 == '0' or num2 == '0':
@@ -27,4 +27,4 @@ class Solution:
             res = res[1:]
         return ''.join(str(i) for i in res)
 
-```
+# ```

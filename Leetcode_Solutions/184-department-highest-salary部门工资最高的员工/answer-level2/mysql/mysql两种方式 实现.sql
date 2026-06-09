@@ -1,10 +1,10 @@
-### 解题思路
-第二种参考官方的了，
-第一种实现了，但是没有完全匹配。 具体思路  先联查降序，再分组，子查询要加limit，否则查询出来数据不对
+-- ### 解题思路
+-- 第二种参考官方的了，
+-- 第一种实现了，但是没有完全匹配。 具体思路  先联查降序，再分组，子查询要加limit，否则查询出来数据不对
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 #select tmp.* from (
@@ -22,4 +22,4 @@ SELECT
         GROUP BY DepartmentId
 );
 
-```
+-- ```

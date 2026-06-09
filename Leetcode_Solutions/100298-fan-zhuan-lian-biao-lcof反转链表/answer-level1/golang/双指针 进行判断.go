@@ -1,15 +1,15 @@
-### 解题思路
-假设链表 1 2 3 4 5 6 7 8 
-指针cur:nil
-指针prev:head
-那么prev在遍历的时候 
-t:=prev->next, prev->next = cur,cur = prev,prev = t 
-将会让cur作为新表头 替换原来的cur 而且cur->next
-同时prev后移 进行后移
+// ### 解题思路
+// 假设链表 1 2 3 4 5 6 7 8 
+// 指针cur:nil
+// 指针prev:head
+// 那么prev在遍历的时候 
+// t:=prev->next, prev->next = cur,cur = prev,prev = t 
+// 将会让cur作为新表头 替换原来的cur 而且cur->next
+// 同时prev后移 进行后移
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -82,4 +82,4 @@ func reverseList(head *ListNode) *ListNode {
     return pCur
 }
 
-```
+// ```

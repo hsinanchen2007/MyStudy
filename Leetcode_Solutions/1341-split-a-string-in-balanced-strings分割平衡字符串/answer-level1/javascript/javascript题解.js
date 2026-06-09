@@ -1,12 +1,12 @@
-[1221.分割平衡字符串。](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/solution/javascriptti-jie-by-guyuejiajie-6/)
+// [1221.分割平衡字符串。](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/solution/javascriptti-jie-by-guyuejiajie-6/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
 
-## 方法一
+// ## 方法一
 
-题目简单，直接一遍遍历，设置变量分别记录R出现的次数和L出现的次数，两个次数相等即为一个平衡字符串。
+// 题目简单，直接一遍遍历，设置变量分别记录R出现的次数和L出现的次数，两个次数相等即为一个平衡字符串。
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -32,13 +32,13 @@ var balancedStringSplit = function(s) {
     }
     return max;
 };
-```
+// ```
 
-## 方法二   
+// ## 方法二   
 
-方法二是对方法一的优化，只设置一个变量用于判断是否有平衡字符串即可。
+// 方法二是对方法一的优化，只设置一个变量用于判断是否有平衡字符串即可。
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -61,4 +61,4 @@ var balancedStringSplit = function(s) {
     }
     return max;
 };
-```
+// ```

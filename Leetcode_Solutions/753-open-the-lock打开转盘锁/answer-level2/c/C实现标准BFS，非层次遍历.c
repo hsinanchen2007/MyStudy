@@ -1,13 +1,13 @@
 
-# 简要描述
-leetcode的BFS模板（https://leetcode-cn.com/explore/learn/card/queue-stack/217/queue-and-bfs/870/）采用层次遍历的方式。
+// # 简要描述
+// leetcode的BFS模板（https://leetcode-cn.com/explore/learn/card/queue-stack/217/queue-and-bfs/870/）采用层次遍历的方式。
 
-个人认为标准BFS的实现更易理解和记忆。
+// 个人认为标准BFS的实现更易理解和记忆。
 
-下面代码是：内嵌简易的循环队列，使用distance数组记录起点到每个节点的距离，每次循环仅仅出队一个点，入队若干个点。
+// 下面代码是：内嵌简易的循环队列，使用distance数组记录起点到每个节点的距离，每次循环仅仅出队一个点，入队若干个点。
 
-# 代码如下
-```C
+// # 代码如下
+// ```C
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -111,4 +111,4 @@ int main() {
     return 0;
 }
 
-```
+// ```

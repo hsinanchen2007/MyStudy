@@ -1,9 +1,9 @@
-### 解题思路
-这种解法只能针对vecotr，双指针可能更好
+// ### 解题思路
+// 这种解法只能针对vecotr，双指针可能更好
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return;
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-题目不难，用Java里面的split和Integer.parseInt()还是很容易解决的。IPv6一开始还想用双参数的parseInt做的，后来发现数字太大，超过了Int的范围，就作罢。现在写感想的时候想想就发现其实用双参数的Long.parseLong()不就好了吗，刚好64位。（改的代码见后面）
+// 题目不难，用Java里面的split和Integer.parseInt()还是很容易解决的。IPv6一开始还想用双参数的parseInt做的，后来发现数字太大，超过了Int的范围，就作罢。现在写感想的时候想想就发现其实用双参数的Long.parseLong()不就好了吗，刚好64位。（改的代码见后面）
 
-做题过程中就是一些细节没考虑到。大框架早早写好了，就是细节部分靠测试用例撞过去的……自己还是考虑各种边界条件考虑少了。 
+// 做题过程中就是一些细节没考虑到。大框架早早写好了，就是细节部分靠测试用例撞过去的……自己还是考虑各种边界条件考虑少了。 
 
-执行用时 : 3 ms, 在Validate IP Address的Java提交中击败了94.20% 的用户
+// 执行用时 : 3 ms, 在Validate IP Address的Java提交中击败了94.20% 的用户
 
-内存消耗 : 34.1 MB, 在Validate IP Address的Java提交中击败了96.08% 的用户
+// 内存消耗 : 34.1 MB, 在Validate IP Address的Java提交中击败了96.08% 的用户
 
-```java
+// ```java
 class Solution {
     public String validIPAddress(String IP) {
         if(IP.startsWith(":")||IP.startsWith(".")
@@ -45,17 +45,17 @@ class Solution {
         }
     }
 }
-```
+// ```
 
 
 
-写感想的时候发现双参数的Long.parseLong()可行就试了一试：
+// 写感想的时候发现双参数的Long.parseLong()可行就试了一试：
 
-执行用时 : 3 ms, 在Validate IP Address的Java提交中击败了94.20% 的用户
+// 执行用时 : 3 ms, 在Validate IP Address的Java提交中击败了94.20% 的用户
 
-内存消耗 : 34 MB, 在Validate IP Address的Java提交中击败了96.08% 的用户
+// 内存消耗 : 34 MB, 在Validate IP Address的Java提交中击败了96.08% 的用户
 
-```java
+// ```java
 class Solution {
     public String validIPAddress(String IP) {
         if(IP.startsWith(":")||IP.startsWith(".")
@@ -92,5 +92,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

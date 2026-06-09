@@ -1,11 +1,11 @@
-### 解题思路
-通过遍历数组,统计左右子树中出现的pq的个数
-如果左子树有pq中的一个,右子树有pq中的一个,则root节点为结果
-如果左子树中有pq中的一个,root节点等于pq中的一个,则root节点为结果
+// ### 解题思路
+// 通过遍历数组,统计左右子树中出现的pq的个数
+// 如果左子树有pq中的一个,右子树有pq中的一个,则root节点为结果
+// 如果左子树中有pq中的一个,root节点等于pq中的一个,则root节点为结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         } else return 0;
     }
 }
-```
+// ```

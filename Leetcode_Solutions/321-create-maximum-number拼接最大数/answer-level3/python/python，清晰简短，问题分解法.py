@@ -1,9 +1,9 @@
-总的思路为遍历所有从nums1里挑出i个数与nums2里挑出k-i个数的组合方案并取最大值
+# 总的思路为遍历所有从nums1里挑出i个数与nums2里挑出k-i个数的组合方案并取最大值
 
-子问题从nums里挑数需满足相对顺序不变的最大数
+# 子问题从nums里挑数需满足相对顺序不变的最大数
 
-子问题合并两个数组也需满足两个数组元素的相对顺序不变的最大数
-```python
+# 子问题合并两个数组也需满足两个数组元素的相对顺序不变的最大数
+# ```python
     def maxNumber(self, nums1: List[int], nums2: List[int], k: int) -> List[int]:
         
         def pick(nums, k):  # 从nums里取出相对顺序不变的k个数构成的最大数
@@ -30,4 +30,4 @@
             if i <= len(nums1) and k-i <= len(nums2):
                 _max = max(_max, merge(pick(nums1.copy(), i), pick(nums2.copy(), k-i)))
         return _max
-```
+# ```

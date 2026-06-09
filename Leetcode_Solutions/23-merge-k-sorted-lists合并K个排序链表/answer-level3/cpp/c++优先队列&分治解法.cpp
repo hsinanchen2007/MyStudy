@@ -1,9 +1,9 @@
-### 解题思路
-实际优先队列竟然时间空间都比分治块emmm
+// ### 解题思路
+// 实际优先队列竟然时间空间都比分治块emmm
 
-### 代码
-优先队列
-```cpp
+// ### 代码
+// 优先队列
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,9 +35,9 @@ public:
         return head->next;
     }
 };
-```
-分治
-```cpp
+// ```
+// 分治
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -94,4 +94,4 @@ public:
         return solve(lists,0,lists.size()-1);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-厉害
+// ### 解题思路
+// 厉害
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> shortestToChar(string S, char C) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

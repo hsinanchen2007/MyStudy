@@ -1,6 +1,6 @@
-# [排序]378. 有序矩阵中第K小的元素
-### 归并解法
-```java
+// # [排序]378. 有序矩阵中第K小的元素
+// ### 归并解法
+// ```java
 class Solution {
     public int kthSmallest(int[][] matrix, int k) {
         //k值永远有效, 所以就不做判空操作了
@@ -20,9 +20,9 @@ class Solution {
     	return curMin;
     }
 }
-```
-### 结合堆得归并解法
-```java
+// ```
+// ### 结合堆得归并解法
+// ```java
 class Solution {
 	private class Tuple {
 		int val;int row; int col;
@@ -49,9 +49,9 @@ class Solution {
     	return heap.poll().val;
     }
 }
-```
-## 范围型二分查找
-```java
+// ```
+// ## 范围型二分查找
+// ```java
 class Solution {
     public int kthSmallest(int[][] matrix, int k) {
     	//[lo, hi) 左闭右开的范围型二分查找
@@ -71,4 +71,4 @@ class Solution {
         return lo;//循环结束时lo==hi
     }
 }
-```
+// ```

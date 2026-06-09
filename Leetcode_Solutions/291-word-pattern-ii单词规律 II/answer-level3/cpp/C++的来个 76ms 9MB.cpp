@@ -1,6 +1,6 @@
-C++ 来个76ms 一共32个提交排第2 前面有个4ms的老哥也是nb
+// C++ 来个76ms 一共32个提交排第2 前面有个4ms的老哥也是nb
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordPatternMatch(string pattern, string str) {
@@ -37,4 +37,4 @@ public:
         return result;
     }
 };
-```
+// ```

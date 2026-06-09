@@ -1,9 +1,9 @@
-### 解题思路
-在泛化的DP方程上去掉交易次数限制，加上隔一天限制
+// ### 解题思路
+// 在泛化的DP方程上去掉交易次数限制，加上隔一天限制
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
     // 动态规划 dp[i][k][0] dp[i][k][1]分别表示第i天没有持有股票和有持有股票，k表示还可以交易的次数
     if len(prices) < 2 {
@@ -43,4 +43,4 @@ func max(a, b int) int {
     }
     return b
 }
-```
+// ```

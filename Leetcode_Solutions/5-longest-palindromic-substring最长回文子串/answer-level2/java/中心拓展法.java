@@ -1,9 +1,9 @@
-### 解题思路
-回文字符串存在中心，因此只需要通过中心找两边的字符串就能找到最长的子字符串
+// ### 解题思路
+// 回文字符串存在中心，因此只需要通过中心找两边的字符串就能找到最长的子字符串
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
         if(s == null || s.length() <= 1)
@@ -37,4 +37,4 @@ class Solution {
     	return iRight-iLeft -1;
     }
 }
-```
+// ```

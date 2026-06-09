@@ -1,7 +1,7 @@
 
-迭代
+// 迭代
 
-```c
+// ```c
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){	
     if(!l1 && !l2) return NULL;
     if(!l1 && l2)  return l2;
@@ -23,12 +23,12 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     if(!l2)  cur->next=l1;
     return head;
 }
-```
+// ```
 
-递归
-递归关系：调用自身函数排好第二个节点之后的链表
-递归出口：头个节点的情况，l1还是l2的值小？
-```c
+// 递归
+// 递归关系：调用自身函数排好第二个节点之后的链表
+// 递归出口：头个节点的情况，l1还是l2的值小？
+// ```c
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){	
 	if (!l1){
 		return l2;		
@@ -44,4 +44,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 		return l2;
 	}
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-最多将 1 个 0 翻转为 1，转化为改区间最多是一个0，然后进行滑窗，可以叫双指针
+// ### 解题思路
+// 最多将 1 个 0 翻转为 1，转化为改区间最多是一个0，然后进行滑窗，可以叫双指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 
 int findMaxConsecutiveOnes(int* nums, int numsSize){
@@ -30,4 +30,4 @@ int findMaxConsecutiveOnes(int* nums, int numsSize){
 
 	return ans;
 }
-```
+// ```

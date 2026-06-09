@@ -1,6 +1,6 @@
-本题和198. 打家劫舍 一模一样，就是换了身衣服
+// 本题和198. 打家劫舍 一模一样，就是换了身衣服
 
-```
+// ```
 int max(int a,int b){
     return a>b?a:b;
 }
@@ -34,4 +34,4 @@ int massage(int* nums, int numsSize){
 
     return dp[numsSize - 1];
 }
-```
+// ```

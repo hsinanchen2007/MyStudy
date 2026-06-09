@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-1-n 的区间 二分查找
+// 1-n 的区间 二分查找
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findDuplicate(int* nums, int numsSize){
     if(numsSize <= 0){
         return 0;
@@ -29,4 +29,4 @@ int findDuplicate(int* nums, int numsSize){
 
     return left;
 }
-```
+// ```

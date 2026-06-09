@@ -1,5 +1,5 @@
-主要找到规律
-```cpp
+// 主要找到规律
+// ```cpp
 class Solution
 {
 public:
@@ -23,4 +23,4 @@ public:
 		sort(nums.begin(), nums.end());
 	}
 };
-```
+// ```

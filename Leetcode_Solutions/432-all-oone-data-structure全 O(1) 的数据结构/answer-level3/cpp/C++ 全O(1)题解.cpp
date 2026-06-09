@@ -1,14 +1,14 @@
-# 思路
-1，利用vector的尾部删除，实现元素O(1)时间复杂度的插入、删除与随机获取元素
-2，利用双向链表，实现O(1)时间复杂度获取最大词频与最小词频
-3，利用hash记录如下映射关系：
-`value_freq`: 单词->词频
-`value_index`: 单词->在词频数组中的下标
-`freq_values`: 词频->该词频下的所有单词的vector数组
-`freq_node`: 词频->在双链表中的节点地址
-代码量有点大，不过可读性还是可以的
+// # 思路
+// 1，利用vector的尾部删除，实现元素O(1)时间复杂度的插入、删除与随机获取元素
+// 2，利用双向链表，实现O(1)时间复杂度获取最大词频与最小词频
+// 3，利用hash记录如下映射关系：
+// `value_freq`: 单词->词频
+// `value_index`: 单词->在词频数组中的下标
+// `freq_values`: 词频->该词频下的所有单词的vector数组
+// `freq_node`: 词频->在双链表中的节点地址
+// 代码量有点大，不过可读性还是可以的
 
-```C++ []
+// ```C++ []
 struct DLNode {
     int freq;
     DLNode* prev;
@@ -160,6 +160,6 @@ public:
         return getValueofFreq(dl->getMinFreq());
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/971f842270b698443542fb6d2535e3b848777220cb81f7536012ac1d78d179c2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/971f842270b698443542fb6d2535e3b848777220cb81f7536012ac1d78d179c2-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* 借鉴将不等于0的元素移动到数组前面的算法思想，用n来对某一元素的重复次数计数，用count来表示元素需要前移的步数，当n>2时，count才开始累加，最后数组前面numsSize-count个元素为满足条件的元素
 */
 
@@ -32,4 +32,4 @@ int removeDuplicates(int* nums, int numsSize){
     }
     return numsSize-count;
 }
-```
+// ```

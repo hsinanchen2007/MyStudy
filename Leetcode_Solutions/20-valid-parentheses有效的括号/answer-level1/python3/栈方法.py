@@ -1,9 +1,9 @@
-### 解题思路
-用了好多判断
+# ### 解题思路
+# 用了好多判断
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         s_list = []
@@ -23,4 +23,4 @@ class Solution:
             return False
         
         return True
-```
+# ```

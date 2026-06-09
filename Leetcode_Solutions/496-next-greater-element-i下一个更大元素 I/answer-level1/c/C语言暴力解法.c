@@ -1,9 +1,9 @@
-### 解题思路
-用一个flag表示是否在nums2中找到nums1[i]，然后找到比他大的数返回
+// ### 解题思路
+// 用一个flag表示是否在nums2中找到nums1[i]，然后找到比他大的数返回
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -33,4 +33,4 @@ int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, in
     }
     return res;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class NumArray:
 
     def __init__(self, nums):
@@ -10,4 +10,4 @@ class NumArray:
 
     def sumRange(self, i, j):
         return self.dp[j] - self.dp[i - 1] if i > 0 else self.dp[j]
-```
+# ```

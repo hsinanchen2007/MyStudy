@@ -1,9 +1,9 @@
-### 解题思路
-纯C 递归 前序找根 中序分左右
+// ### 解题思路
+// 纯C 递归 前序找根 中序分左右
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -44,4 +44,4 @@ static struct TreeNode* helper(int* preorder, int preorderSize, int* inorder, in
 struct TreeNode* buildTree(int* preorder, int preorderSize, int* inorder, int inorderSize){
     return helper(preorder, preorderSize, inorder, inorderSize, 0, 0, inorderSize - 1);
 }
-```
+// ```

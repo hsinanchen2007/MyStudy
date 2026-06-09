@@ -1,11 +1,11 @@
-### 解题思路
-把胃口和饼干按从小到大排序，然后从小到大分配饼干即可
+// ### 解题思路
+// 把胃口和饼干按从小到大排序，然后从小到大分配饼干即可
 
-![image.png](https://pic.leetcode-cn.com/e462fbff4e082f6a54db39f86a8709407e99d8042d28a2f2fc7ea80838b3cef4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e462fbff4e082f6a54db39f86a8709407e99d8042d28a2f2fc7ea80838b3cef4-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const int *a, const int *b)
 {
 	return *a > *b;
@@ -28,4 +28,4 @@ int findContentChildren(int* g, int gSize, int* s, int sSize){
 	}
 	return cnt;
 }
-```
+// ```

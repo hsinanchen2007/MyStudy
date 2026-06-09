@@ -1,10 +1,10 @@
-### 解题思路
-最大值一定是最大的三个数相乘或者是最小的两个数再乘最大的那个数，
-遍历一遍即可，无需排序
+// ### 解题思路
+// 最大值一定是最大的三个数相乘或者是最小的两个数再乘最大的那个数，
+// 遍历一遍即可，无需排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximumProduct(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return max(max1*max2*max3,min1*min2*max1);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-我只会数字与字符串转化的方法，刚好用在这里。而且python对列表的操作天生适合反转。
+# ### 解题思路
+# 我只会数字与字符串转化的方法，刚好用在这里。而且python对列表的操作天生适合反转。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         str_x = str(x)
@@ -19,4 +19,4 @@ class Solution:
             else: return y
 
 
-```
+# ```

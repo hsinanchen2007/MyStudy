@@ -1,4 +1,4 @@
-```
+// ```
 bool confusingNumber(int N){
     char* str = (char*)malloc(11*sizeof(char));
     memset(str, '\0', 11*sizeof(char));
@@ -47,4 +47,4 @@ bool confusingNumber(int N){
     }
     return false;
 }
-```
+// ```

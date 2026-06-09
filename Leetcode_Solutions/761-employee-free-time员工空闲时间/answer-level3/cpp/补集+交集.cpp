@@ -1,5 +1,5 @@
-先求补集再求交集 很好理解的方法 c++ 536ms 50%
-```cpp
+// 先求补集再求交集 很好理解的方法 c++ 536ms 50%
+// ```cpp
 class Solution {
 public:
 	vector<Interval*> complementary(vector<Interval*>& schedule) {
@@ -53,4 +53,4 @@ public:
 		return result;
 	}
 };
-```
+// ```

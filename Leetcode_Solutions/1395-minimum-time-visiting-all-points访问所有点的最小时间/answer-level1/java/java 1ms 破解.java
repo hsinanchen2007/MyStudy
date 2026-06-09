@@ -1,6 +1,6 @@
-java 1ms 破解
+// java 1ms 破解
 
-```
+// ```
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
         int count = 0;
@@ -13,4 +13,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

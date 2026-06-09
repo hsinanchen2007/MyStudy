@@ -1,16 +1,16 @@
-### 解题思路
-内存一直超限,是因为自己没有把最后一个节点的left置为NULL；
+// ### 解题思路
+// 内存一直超限,是因为自己没有把最后一个节点的left置为NULL；
 
-```
+// ```
  node.left=null;//pre.left=null;
  pre.right=node;
  pre=node;
  node = node.right;
-```
+// ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -58,4 +58,4 @@ class Solution {
         return head.right;     
     }
 }
-```
+// ```

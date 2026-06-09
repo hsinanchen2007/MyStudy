@@ -1,4 +1,4 @@
-```
+// ```
 public int[] numberOfLines(int[] widths, String S) {
          int pos = 0,row=0;
         int[] res = new int[2];
@@ -15,4 +15,4 @@ public int[] numberOfLines(int[] widths, String S) {
         res[0] = row+1;res[1]=pos;
         return res;
     }
-```
+// ```

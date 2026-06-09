@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/0d96951b5c586c0aaf950dbe4f8a34604294cfc6f795a149171cc93987b93132-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/0d96951b5c586c0aaf950dbe4f8a34604294cfc6f795a149171cc93987b93132-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLastWord(String s) {
                 int count = 0;
@@ -26,4 +26,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

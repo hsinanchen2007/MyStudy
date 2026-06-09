@@ -1,8 +1,8 @@
-暴力BFS感觉也不容易写对，细节比较多，改了好几次。
+// 暴力BFS感觉也不容易写对，细节比较多，改了好几次。
 
-为了保证最小用了个链表来BFS。
+// 为了保证最小用了个链表来BFS。
 
-```c
+// ```c
 public class Solution
 {
     struct S
@@ -121,4 +121,4 @@ public class Solution
         return -1;
     }
 }
-```
+// ```

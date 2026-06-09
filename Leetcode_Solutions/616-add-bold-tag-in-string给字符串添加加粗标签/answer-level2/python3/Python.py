@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addBoldTag(self, s: str, dict: List[str]) -> str:
         N = len(s)
@@ -20,4 +20,4 @@ class Solution:
             ans.append("".join(z[0] for z in grp))
             if incl: ans.append("</b>")
         return "".join(ans)
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路 
-此处撰写解题思路
-`n = ord(s[i]) - ord('0')` `s = s.strip()`
-`min((1<<31)-1, max(res * flag, -(1<<31)))`
+# ### 解题思路 
+# 此处撰写解题思路
+# `n = ord(s[i]) - ord('0')` `s = s.strip()`
+# `min((1<<31)-1, max(res * flag, -(1<<31)))`
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from string import digits
 class Solution:
     def strToInt(self, str: str) -> int:
@@ -34,4 +34,4 @@ class Solution:
             if num > boundry:
                 return sign * boundry
         return sign * num
-```
+# ```

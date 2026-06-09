@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/1a7b829a33b7f82cbaa2147663b297519a9f55a5589d48e03ebc14e1f12902bc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1a7b829a33b7f82cbaa2147663b297519a9f55a5589d48e03ebc14e1f12902bc-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   1.去除两端空格，正则把中间的多个空格匹配成一个空格
   2.用空格分隔成数组，翻转，拼接
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -44,4 +44,4 @@ var reverseWords = function(s) {
   
 //   return temp ? res + temp : res;
 // };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-可能麻烦点 但是还算能用
-### 代码
+// ### 解题思路
+// 可能麻烦点 但是还算能用
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 private:
 int maxNum;
@@ -65,4 +65,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

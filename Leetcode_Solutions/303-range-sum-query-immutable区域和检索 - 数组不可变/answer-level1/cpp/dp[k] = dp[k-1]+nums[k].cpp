@@ -1,9 +1,9 @@
-### 解题思路
-dp[k]表示k之前的和(包括nums[k])，要求i到j之间的和，则为dp[j]-dp[i]+nums[i]
+// ### 解题思路
+// dp[k]表示k之前的和(包括nums[k])，要求i到j之间的和，则为dp[j]-dp[i]+nums[i]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class NumArray {
 public:
     NumArray(vector<int>& nums): nums(nums) {
@@ -32,4 +32,4 @@ public:
  * NumArray* obj = new NumArray(nums);
  * int param_1 = obj->sumRange(i,j);
  */
-```
+// ```

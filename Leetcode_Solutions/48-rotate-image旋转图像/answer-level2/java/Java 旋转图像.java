@@ -1,9 +1,9 @@
-### 解题思路
-分两步做，先交换行再转置
+// ### 解题思路
+// 分两步做，先交换行再转置
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length ;
@@ -26,4 +26,4 @@ class Solution {
             }
     }
 }
-```
+// ```

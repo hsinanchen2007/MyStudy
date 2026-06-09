@@ -1,11 +1,11 @@
-### 解题思路
-题目乍一看，没有返回值，就只能在原数据上更改了，于是想到用一个数组记录这个位置是否发生过变化，这样在更新之后也能知道更新前的状态。
-![image.png](https://pic.leetcode-cn.com/0b9fab333c3c3dfc656a2662275b27e4e9bbe98d683cf2ac694de25889d69773-image.png)
+// ### 解题思路
+// 题目乍一看，没有返回值，就只能在原数据上更改了，于是想到用一个数组记录这个位置是否发生过变化，这样在更新之后也能知道更新前的状态。
+// ![image.png](https://pic.leetcode-cn.com/0b9fab333c3c3dfc656a2662275b27e4e9bbe98d683cf2ac694de25889d69773-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -37,4 +37,4 @@ public:
         }
     }
 };
-```
+// ```

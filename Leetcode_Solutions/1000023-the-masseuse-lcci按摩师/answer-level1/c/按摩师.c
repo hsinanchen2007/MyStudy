@@ -1,9 +1,9 @@
-### 解题思路
-因为每次只与前一次的结果有关，因此空间降为常量级
+// ### 解题思路
+// 因为每次只与前一次的结果有关，因此空间降为常量级
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a,b) (a>b?a:b)
 int massage(int* nums, int numsSize) {
 	if (!numsSize) return 0;
@@ -18,4 +18,4 @@ int massage(int* nums, int numsSize) {
 	}
 	return MAX(dp0, dp1);
 }
-```
+// ```

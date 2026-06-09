@@ -1,9 +1,9 @@
-### 解题思路
-通过计算两个节点的深度，然后相减，结果小于等于1的时候，才会进行下一次递归，否则就返回undefined，
+// ### 解题思路
+// 通过计算两个节点的深度，然后相减，结果小于等于1的时候，才会进行下一次递归，否则就返回undefined，
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -39,4 +39,4 @@ function deep(root){
     }
     
 }
-```
+// ```

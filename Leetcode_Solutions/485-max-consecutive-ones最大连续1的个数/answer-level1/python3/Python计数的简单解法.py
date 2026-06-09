@@ -1,10 +1,10 @@
-### 解题思路
-1、当前这个数是1就+1，不是的话，计数的count清零，重来，每次count和max_value进行对比就可，取最大值
-2、结束
+# ### 解题思路
+# 1、当前这个数是1就+1，不是的话，计数的count清零，重来，每次count和max_value进行对比就可，取最大值
+# 2、结束
 
-### 代码
+# ### 代码
 
-```
+# ```
 
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
@@ -21,4 +21,4 @@ class Solution:
         return max_value
 
 
-```
+# ```

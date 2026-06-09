@@ -1,5 +1,5 @@
-先每两个比较，找出单词的排序序列，然后装入字典，最后拓扑排序。
-```
+# 先每两个比较，找出单词的排序序列，然后装入字典，最后拓扑排序。
+# ```
 class Solution:
     def alienOrder(self, words: List[str]) -> str:
         dic={}
@@ -47,4 +47,4 @@ class Solution:
         for x in topo:
             res+=x
         return res
-```
+# ```

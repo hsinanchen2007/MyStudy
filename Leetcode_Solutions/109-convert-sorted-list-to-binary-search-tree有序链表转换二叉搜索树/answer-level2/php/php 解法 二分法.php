@@ -1,8 +1,8 @@
-解法一：
-使用三个指针
-pre指针指向slow指针上一个元素
-fast指针遍历时两倍速于slow指针从而找到mid值
-```
+// 解法一：
+// 使用三个指针
+// pre指针指向slow指针上一个元素
+// fast指针遍历时两倍速于slow指针从而找到mid值
+// ```
 class Solution {
 
     /**
@@ -36,12 +36,12 @@ class Solution {
         return $slowPtr;
     }
 }
-```
+// ```
 
 
-解法二：
-将有序链接转成有序数组，然后参考[108题解法](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/solution/php-jie-fa-by-andfly-14/)
-```
+// 解法二：
+// 将有序链接转成有序数组，然后参考[108题解法](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/solution/php-jie-fa-by-andfly-14/)
+// ```
 class Solution {
 
     /**
@@ -66,4 +66,4 @@ class Solution {
         return $node;
     }
 }
-```
+// ```

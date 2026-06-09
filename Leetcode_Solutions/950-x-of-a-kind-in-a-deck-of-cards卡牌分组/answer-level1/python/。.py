@@ -1,11 +1,11 @@
-### 解题思路
-多次循环判断最大公约数得出结果。
-![image.png](https://pic.leetcode-cn.com/6ef8bbd332849d9b52e2e127809e6e70c7d305c6d185dd3aeab9cceff9b49cda-image.png)
+# ### 解题思路
+# 多次循环判断最大公约数得出结果。
+# ![image.png](https://pic.leetcode-cn.com/6ef8bbd332849d9b52e2e127809e6e70c7d305c6d185dd3aeab9cceff9b49cda-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         myset = set(deck)
@@ -32,4 +32,4 @@ class Solution:
                     break
                 lastj = deck.count(i)
         return result
-```
+# ```

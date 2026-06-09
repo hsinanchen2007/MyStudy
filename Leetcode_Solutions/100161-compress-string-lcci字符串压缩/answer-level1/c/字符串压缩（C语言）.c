@@ -1,9 +1,9 @@
-### 解题思路
-难度简单的题，但是坑特别多，处处要小心，一不留神，就栽倒了呀！！
-当然，用java会简单许多。
-### 代码
+// ### 解题思路
+// 难度简单的题，但是坑特别多，处处要小心，一不留神，就栽倒了呀！！
+// 当然，用java会简单许多。
+// ### 代码
 
-```c
+// ```c
 char* compressString(char* S){
     int length = 0;
     for (length = 0; S[length]; length++);
@@ -41,4 +41,4 @@ int countToChar(char *result, int count, int start) {
     }
     return length;
 }
-```
+// ```

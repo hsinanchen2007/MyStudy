@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def kWeakestRows(self, mat, k):
         """
@@ -25,4 +25,4 @@ class Solution(object):
             list.remove(list_min)
             relist.append(list_min[0])
         return relist[0:k]
-```
+# ```

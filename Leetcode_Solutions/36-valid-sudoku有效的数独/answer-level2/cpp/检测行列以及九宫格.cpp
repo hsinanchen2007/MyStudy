@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
@@ -44,4 +44,4 @@ public:
         return flag1 & flag2 & flag3;
     }
 };
-```
+// ```

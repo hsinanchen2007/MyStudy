@@ -1,9 +1,9 @@
-### 解题思路
-![1584666147(1).jpg](https://pic.leetcode-cn.com/05019b78470910ad60ee4b34db4887866b3378514e9534ccf034c8993f77fee5-1584666147\(1\).jpg)
+// ### 解题思路
+// ![1584666147(1).jpg](https://pic.leetcode-cn.com/05019b78470910ad60ee4b34db4887866b3378514e9534ccf034c8993f77fee5-1584666147\(1\).jpg)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 class Solution {
 public:
@@ -24,4 +24,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-使用course这个数组用于控制拓扑图的出度以及删边。
-使用queue来存储入度为零的点来删除。
+// ### 解题思路
+// 使用course这个数组用于控制拓扑图的出度以及删边。
+// 使用queue来存储入度为零的点来删除。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         // 保存入度数量
@@ -58,4 +58,4 @@ class Solution {
     }
 
 }
-```
+// ```

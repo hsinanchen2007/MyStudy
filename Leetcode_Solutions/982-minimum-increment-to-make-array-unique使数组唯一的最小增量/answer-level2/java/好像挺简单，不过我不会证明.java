@@ -1,9 +1,9 @@
-### 解题思路
-先排序，每次有重复，就增加到前面的最大值+1
+// ### 解题思路
+// 先排序，每次有重复，就增加到前面的最大值+1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
         int minTime = 0;
@@ -20,4 +20,4 @@ class Solution {
         return minTime;
     }
 }
-```
+// ```

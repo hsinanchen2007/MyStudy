@@ -1,20 +1,20 @@
-### 解题思路
-趁着人少，截个图：
-![image.png](https://pic.leetcode-cn.com/874f9307e0c08111e62000291c14d5b5ac88626e45c1b96c14ea5326329a1e45-image.png)
+# ### 解题思路
+# 趁着人少，截个图：
+# ![image.png](https://pic.leetcode-cn.com/874f9307e0c08111e62000291c14d5b5ac88626e45c1b96c14ea5326329a1e45-image.png)
 
-关键在于重建图
-如[1,1,2]
-将被重建为：
-[
- [0,0,0, 0,0,0, 0,1,0],
- [1,1,1, 1,1,1, 0,1,0],
- [0,0,0, 0,0,0, 0,1,0]
-]
-然后从新图的1,1出发，深度遍历，看能否遍历到右下角3*3矩阵的中心
+# 关键在于重建图
+# 如[1,1,2]
+# 将被重建为：
+# [
+#  [0,0,0, 0,0,0, 0,1,0],
+#  [1,1,1, 1,1,1, 0,1,0],
+#  [0,0,0, 0,0,0, 0,1,0]
+# ]
+# 然后从新图的1,1出发，深度遍历，看能否遍历到右下角3*3矩阵的中心
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasValidPath(self, grid: List[List[int]]) -> bool:
         new_grid_1=[-1]*len(grid[0])*3
@@ -98,4 +98,4 @@ class Solution:
             if y<len(new_grid[0])-1 and new_grid[x][y+1]==1:
                 stack.append((x,y+1))
         return False
-```
+# ```

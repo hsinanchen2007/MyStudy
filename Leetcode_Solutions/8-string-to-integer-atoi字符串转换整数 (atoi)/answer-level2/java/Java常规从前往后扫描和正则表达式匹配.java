@@ -1,11 +1,11 @@
-边界和细节比较多的一道题
+// 边界和细节比较多的一道题
 
-除了常规的从前往后扫描处理，比较好的思路有官方题解中的使用**状态机**，或者使用**正则表达式进行捕获**后再直接转int
+// 除了常规的从前往后扫描处理，比较好的思路有官方题解中的使用**状态机**，或者使用**正则表达式进行捕获**后再直接转int
 
-### 常规从前往后扫描处理
-最常规的处理方式，从前往后处理并累积计算。
-时间复杂度 `O(n)`，空间复杂度 `O(1)`
-```java
+// ### 常规从前往后扫描处理
+// 最常规的处理方式，从前往后处理并累积计算。
+// 时间复杂度 `O(n)`，空间复杂度 `O(1)`
+// ```java
 private static class SolutionV2020 {
     public int myAtoi(String str) {
         if (null == str) {
@@ -45,12 +45,12 @@ private static class SolutionV2020 {
         return (int)res * sign;
     }
 }
-```
+// ```
 
-### Java正则表达式解决字符串转整型atoi
-不推荐这种解法，很慢，比直接从前往后扫描处理慢一个数量级。
-时间复杂度也不好分析，但作为复习Java正则表达式，还是可以写一下的，当练手了。
-```java
+// ### Java正则表达式解决字符串转整型atoi
+// 不推荐这种解法，很慢，比直接从前往后扫描处理慢一个数量级。
+// 时间复杂度也不好分析，但作为复习Java正则表达式，还是可以写一下的，当练手了。
+// ```java
 public int myAtoi2(String str) {
     Pattern pattern = Pattern.compile("( *)([+-]?\\d+).*");
     Matcher matcher = pattern.matcher(str);
@@ -70,5 +70,5 @@ public int myAtoi2(String str) {
     }
     return 0;
 }
-```
+// ```
 

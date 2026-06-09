@@ -1,6 +1,6 @@
-执行用时：48ms
-内存消耗：14.1MB
-```
+// 执行用时：48ms
+// 内存消耗：14.1MB
+// ```
 public class Solution
 {
     public int Reverse(int x)
@@ -40,5 +40,5 @@ public class Solution
         }
     }
 }
-```
-效率和调用c#库类似，但内容更基础，适合新手学习熟悉c#。
+// ```
+// 效率和调用c#库类似，但内容更基础，适合新手学习熟悉c#。

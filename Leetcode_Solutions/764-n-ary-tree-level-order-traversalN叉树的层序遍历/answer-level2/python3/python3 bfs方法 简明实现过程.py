@@ -1,4 +1,4 @@
-```bsf []
+# ```bsf []
 class Solution:
     def levelOrder(self, root: 'Node') -> List[List[int]]:
         if root is None:
@@ -14,4 +14,4 @@ class Solution:
             out.append(child)
             queue = node                                        #重要!  赋值给新 收集到的 子节点数据
         return out
-```
+# ```

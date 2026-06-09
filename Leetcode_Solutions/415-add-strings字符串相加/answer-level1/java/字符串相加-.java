@@ -1,18 +1,18 @@
-### 题目
-给定两个字符串形式的非负整数 num1 和num2 ，计算它们的和。
+// ### 题目
+// 给定两个字符串形式的非负整数 num1 和num2 ，计算它们的和。
 
-注意：
-1. num1 和num2 的长度都小于 5100.
-1. num1 和num2 都只包含数字 0-9.
-1. num1 和num2 都不包含任何前导零。
-1. 你不能使用任何內建 BigInteger 库， 也不能直接将输入的字符串转换为整数形式。
+// 注意：
+// 1. num1 和num2 的长度都小于 5100.
+// 1. num1 和num2 都只包含数字 0-9.
+// 1. num1 和num2 都不包含任何前导零。
+// 1. 你不能使用任何內建 BigInteger 库， 也不能直接将输入的字符串转换为整数形式。
 
 
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addStrings(String num1, String num2) {
        int firstRight = num1.length() -1;
@@ -42,4 +42,4 @@ class Solution {
        
     }
 }
-```
+// ```

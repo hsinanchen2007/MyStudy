@@ -1,9 +1,9 @@
-### 解题思路
-排序，从胃口最小的小孩开始分发，尽可能使得小对小，大对大
+# ### 解题思路
+# 排序，从胃口最小的小孩开始分发，尽可能使得小对小，大对大
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findContentChildren(self, g, s):
         g.sort()
@@ -17,4 +17,4 @@ class Solution(object):
                 j += 1
             else:i += 1
         return count
-```
+# ```

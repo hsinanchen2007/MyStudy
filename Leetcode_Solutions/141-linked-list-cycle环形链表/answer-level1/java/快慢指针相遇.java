@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针相遇
+// ### 解题思路
+// 快慢指针相遇
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -38,4 +38,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

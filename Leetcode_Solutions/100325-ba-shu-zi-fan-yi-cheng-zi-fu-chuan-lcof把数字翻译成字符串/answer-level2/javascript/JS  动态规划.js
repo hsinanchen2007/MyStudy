@@ -1,8 +1,8 @@
-### 代码
+// ### 代码
 
-> 时间复杂度：O(n)  空间复杂度：O(n)
+// > 时间复杂度：O(n)  空间复杂度：O(n)
 
-```javascript
+// ```javascript
 var translateNum = function(num) {
    let s = String(num)
    let len = s.length
@@ -19,4 +19,4 @@ var translateNum = function(num) {
     } 
     return dp[len]
 };
-```
+// ```

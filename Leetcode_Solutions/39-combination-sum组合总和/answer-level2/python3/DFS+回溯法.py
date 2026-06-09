@@ -1,9 +1,9 @@
-### 解题思路
-列表中直接append了lst之后，保存的是lst的地址，而不是当前值。但我们需要当前值，所以使用浅拷贝复制当前列表的值即可
+# ### 解题思路
+# 列表中直接append了lst之后，保存的是lst的地址，而不是当前值。但我们需要当前值，所以使用浅拷贝复制当前列表的值即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         ans, lst = [], []
@@ -20,4 +20,4 @@ class Solution:
 
         DFS(0)
         return ans
-```
+# ```

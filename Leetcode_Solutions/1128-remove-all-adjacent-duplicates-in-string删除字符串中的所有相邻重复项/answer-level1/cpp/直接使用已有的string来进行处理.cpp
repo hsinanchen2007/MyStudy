@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string removeDuplicates(string S) {
@@ -21,4 +21,4 @@ public:
 		return data;
     }
 };
-```
+// ```

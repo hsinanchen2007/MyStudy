@@ -1,11 +1,11 @@
-### 解题思路
-1.计算列表的长度；
-2.分奇数还是偶数，进行返回位的计算；
-3.重新遍历，返回
+// ### 解题思路
+// 1.计算列表的长度；
+// 2.分奇数还是偶数，进行返回位的计算；
+// 3.重新遍历，返回
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ struct ListNode* middleNode(struct ListNode* head){
     }
     return tmp;
 }
-```
+// ```

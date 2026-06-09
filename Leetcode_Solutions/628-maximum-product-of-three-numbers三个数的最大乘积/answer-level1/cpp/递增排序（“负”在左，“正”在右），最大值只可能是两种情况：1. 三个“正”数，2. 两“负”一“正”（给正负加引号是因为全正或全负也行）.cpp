@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 
@@ -10,4 +10,4 @@ public:
         return max1 > max2 ? max1 : max2;    // 返回较大值
     }
 };
-```
+// ```

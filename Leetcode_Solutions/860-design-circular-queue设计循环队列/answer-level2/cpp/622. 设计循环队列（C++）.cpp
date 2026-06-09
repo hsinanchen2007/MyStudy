@@ -1,5 +1,5 @@
-# 622. 设计循环队列
-```
+// # 622. 设计循环队列
+// ```
 class MyCircularQueue {
 private:
 	int front;		//队头节点坐标
@@ -79,4 +79,4 @@ public:
  * bool param_5 = obj->isEmpty();
  * bool param_6 = obj->isFull();
  */
-```
+// ```

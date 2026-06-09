@@ -1,5 +1,5 @@
-只是O(n^2),算是给个参考吧
-```
+// 只是O(n^2),算是给个参考吧
+// ```
 class Solution {
     public int cou***angeSum(int[] nums, int lower, int upper) {
         if(nums == null || nums.length == 0){
@@ -29,4 +29,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

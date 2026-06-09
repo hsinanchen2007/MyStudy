@@ -1,16 +1,16 @@
-![未命名图片.png](https://pic.leetcode-cn.com/809cb86eef182158cba390b71ae247fea02f8e861084906463d2debb184fe6ab-%E6%9C%AA%E5%91%BD%E5%90%8D%E5%9B%BE%E7%89%87.png)
+// ![未命名图片.png](https://pic.leetcode-cn.com/809cb86eef182158cba390b71ae247fea02f8e861084906463d2debb184fe6ab-%E6%9C%AA%E5%91%BD%E5%90%8D%E5%9B%BE%E7%89%87.png)
 
-并查集三板斧
-1.初始化：各个节点都是自己的父节点
-2.查找，要有路径压缩
-3.合并,查找每个节点的顶层父节点如果不一样，就合并
+// 并查集三板斧
+// 1.初始化：各个节点都是自己的父节点
+// 2.查找，要有路径压缩
+// 3.合并,查找每个节点的顶层父节点如果不一样，就合并
 
-并查集算法原理请见一个大牛链接：
-链接一：xianghttps://zhuanlan.zhihu.com/p/93647900
-链接二：https://blog.csdn.net/Golden_Knight/article/details/104760906
+// 并查集算法原理请见一个大牛链接：
+// 链接一：xianghttps://zhuanlan.zhihu.com/p/93647900
+// 链接二：https://blog.csdn.net/Golden_Knight/article/details/104760906
 
-弄清楚并茶几算法基本原理，这道题剩下的就是字符串操作、STL的功夫了，直接上一个首次提交的矬代码，哈哈（后面载优化的）
-```
+// 弄清楚并茶几算法基本原理，这道题剩下的就是字符串操作、STL的功夫了，直接上一个首次提交的矬代码，哈哈（后面载优化的）
+// ```
 #include<iostream>
 #include<queue>
 #include<map>
@@ -134,8 +134,8 @@ int main() {
 
 
 
-```
-代码块
-```
+// ```
+// 代码块
+// ```
 
-```
+// ```

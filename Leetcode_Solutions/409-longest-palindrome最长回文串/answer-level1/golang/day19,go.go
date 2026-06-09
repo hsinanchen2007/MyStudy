@@ -1,10 +1,10 @@
-### 解题思路
-轮询字符串，判断重复的字符长度是否是2的整数倍，如果是的话，回文长度增加重复的字符长度；
-轮询完成后，判断是否有长度为1的字符，如果有，回文长度+1.
+// ### 解题思路
+// 轮询字符串，判断重复的字符长度是否是2的整数倍，如果是的话，回文长度增加重复的字符长度；
+// 轮询完成后，判断是否有长度为1的字符，如果有，回文长度+1.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) int {
 	palMap := make(map[string]int, 0)
 	singleMap := make(map[string]int, 0)
@@ -40,4 +40,4 @@ func longestPalindrome(s string) int {
 	return palLen
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func searchInsert(_ nums: [Int], _ target: Int) -> Int {
     if nums[nums.count - 1] < target {
         return nums.count
@@ -17,4 +17,4 @@ func searchInsert(_ nums: [Int], _ target: Int) -> Int {
     }
     return left
 }
-```
+// ```

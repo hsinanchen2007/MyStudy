@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findComplement(int num) {
         StringBuffer sb=new StringBuffer(Integer.toBinaryString(num));
@@ -12,4 +12,4 @@ class Solution {
         return Integer.valueOf(ans.toString(),2);
     }
 }
-```
+// ```

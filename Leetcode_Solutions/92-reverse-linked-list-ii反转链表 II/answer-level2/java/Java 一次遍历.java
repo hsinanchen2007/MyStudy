@@ -1,11 +1,11 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
 
-首先为元素组定义一个假头，方便后续数组返回。
+// 首先为元素组定义一个假头，方便后续数组返回。
 
-定义计数器，根据m找到第一个待翻转元素之前的元素，使用pre代替，然后使用cur找到当前需要翻转的节点，将节点插入pre之后即可。翻转需要的次数为n-m。、
+// 定义计数器，根据m找到第一个待翻转元素之前的元素，使用pre代替，然后使用cur找到当前需要翻转的节点，将节点插入pre之后即可。翻转需要的次数为n-m。、
 
-```
+// ```
 public ListNode reverseBetween(ListNode head, int m, int n) {
     if (head == null) return null;
     //1.找出第一个待翻转元素之前的元素
@@ -29,4 +29,4 @@ public ListNode reverseBetween(ListNode head, int m, int n) {
     }
     return fakeHead.next;
 }
-```
+// ```

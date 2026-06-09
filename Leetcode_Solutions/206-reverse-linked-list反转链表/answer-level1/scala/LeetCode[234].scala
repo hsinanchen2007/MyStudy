@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def reverse(head: ListNode): ListNode = {
     var last :ListNode= null
@@ -31,4 +31,4 @@ object Solution {
     return true
   }
 }
-```
+// ```

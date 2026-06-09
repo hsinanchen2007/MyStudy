@@ -1,9 +1,9 @@
-### 解题思路
-当 k >= mark 时，k 个数中必然包含0，因此直接 return 0.
+// ### 解题思路
+// 当 k >= mark 时，k 个数中必然包含0，因此直接 return 0.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class ProductOfNumbers {
     int res = 1;
     int mark = 1;
@@ -45,4 +45,4 @@ class ProductOfNumbers {
  * obj.add(num);
  * int param_2 = obj.getProduct(k);
  */
-```
+// ```

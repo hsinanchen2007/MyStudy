@@ -1,9 +1,9 @@
-### 解题思路
-小弟不才，写了这么多的内容才实现这个操作。看了大佬的题解才明白，快慢指针才是打开这个提的正确方式~
+// ### 解题思路
+// 小弟不才，写了这么多的内容才实现这个操作。看了大佬的题解才明白，快慢指针才是打开这个提的正确方式~
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -50,4 +50,4 @@ class Solution {
         return dfs(head.next, ++dept);
     }
     }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 func threeSum(nums []int) [][]int {
     sort.Ints(nums)
     ln := len(nums)
@@ -39,4 +39,4 @@ func threeSum(nums []int) [][]int {
     return ans
 }
 
-```
+// ```

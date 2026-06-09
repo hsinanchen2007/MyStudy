@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/22e27c25bd27ca8664ccd985b4d88e05030ddb62fe313321c026aa44537b08ff-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/22e27c25bd27ca8664ccd985b4d88e05030ddb62fe313321c026aa44537b08ff-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
  
@@ -27,4 +27,4 @@ public:
         return *hash.rbegin();
     }
 };
-```
+// ```

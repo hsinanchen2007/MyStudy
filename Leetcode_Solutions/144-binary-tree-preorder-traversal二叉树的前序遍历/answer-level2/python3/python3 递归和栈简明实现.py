@@ -1,4 +1,4 @@
-```递归实现 []
+# ```递归实现 []
 def preorderTraversal(self, root: TreeNode) -> List[int]:
         list = []
         #递归思路操作 先根节点 ->左节点->右节点
@@ -8,9 +8,9 @@ def preorderTraversal(self, root: TreeNode) -> List[int]:
         list += self.preorderTraversal(root.left)
         list += self.preorderTraversal(root.right)
         return list
-```
+# ```
 
-```栈实现 []
+# ```栈实现 []
 def preorderTraversal(self, root: TreeNode) -> List[int]:
         if root is None:
             return []
@@ -26,4 +26,4 @@ def preorderTraversal(self, root: TreeNode) -> List[int]:
                 if item.left is not None:   #判断当前弹出的节点是否拥有左节点
                     stack.append(item.left)
         return list
-```
+# ```

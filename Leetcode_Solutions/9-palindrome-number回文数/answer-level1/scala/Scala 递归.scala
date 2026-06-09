@@ -1,4 +1,4 @@
-```Scala
+// ```Scala
 object Solution {
   def isPalindrome(x: Int): Boolean = {
     @scala.annotation.tailrec
@@ -13,4 +13,4 @@ object Solution {
     else converse(x, 0) == x
   }
 }
-```
+// ```

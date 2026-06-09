@@ -1,9 +1,9 @@
-### 解题思路
-反转链表 第一个指向空 最后一个指向前一个即可
+// ### 解题思路
+// 反转链表 第一个指向空 最后一个指向前一个即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -24,4 +24,4 @@ func reverseList(head *ListNode) *ListNode {
 	}
 	return head
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-因为两个数组都是有序的。遍历数组2的每个元素。插入到数组1中。
+// ### 解题思路
+// 因为两个数组都是有序的。遍历数组2的每个元素。插入到数组1中。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
 
@@ -36,4 +36,4 @@ class Solution {
         }
     }
 }
-```
+// ```

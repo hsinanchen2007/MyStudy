@@ -1,9 +1,9 @@
-### 解题思路
-堆栈代替中序递归遍历
+// ### 解题思路
+// 堆栈代替中序递归遍历
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -43,4 +43,4 @@ public:
         return true;
     }
 };
-```
+// ```

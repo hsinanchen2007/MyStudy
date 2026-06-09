@@ -1,8 +1,8 @@
-### 解题思路
-先将链表转化成数组，再将数组转化为树
-### 代码
+// ### 解题思路
+// 先将链表转化成数组，再将数组转化为树
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,4 +43,4 @@ struct TreeNode* sortedListToBST(struct ListNode* head) {
 	}
 	return arrtoTree(nums, 0, i - 1);
 }
-```
+// ```

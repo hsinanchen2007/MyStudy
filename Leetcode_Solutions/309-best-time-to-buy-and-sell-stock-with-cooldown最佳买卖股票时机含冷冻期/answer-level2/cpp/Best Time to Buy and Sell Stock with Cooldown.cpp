@@ -1,9 +1,9 @@
-### 解题思路
-参考了团灭的方法
+// ### 解题思路
+// 参考了团灭的方法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -37,4 +37,4 @@ public:
         return profit_i_0;
     }
 };
-```
+// ```

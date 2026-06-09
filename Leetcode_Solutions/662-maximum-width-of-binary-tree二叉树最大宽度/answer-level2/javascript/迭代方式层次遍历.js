@@ -1,7 +1,7 @@
-层次遍历，模拟2个队列，一个用来存储每个层级的节点，一个用来存储对应节点的编号。
-节点编号从上到下，从0开始，规则：左子节点编号 = 父节点编号 * 2 + 1，右子节点编号 = 父节点编号 * 2 + 2；
-如图：![Snip20190907_10.png](https://pic.leetcode-cn.com/19da5ab89bd38bc8f8ef5838d8fbdb76108fb553a05322dc6527f4a25be8fb94-Snip20190907_10.png)
-```
+// 层次遍历，模拟2个队列，一个用来存储每个层级的节点，一个用来存储对应节点的编号。
+// 节点编号从上到下，从0开始，规则：左子节点编号 = 父节点编号 * 2 + 1，右子节点编号 = 父节点编号 * 2 + 2；
+// 如图：![Snip20190907_10.png](https://pic.leetcode-cn.com/19da5ab89bd38bc8f8ef5838d8fbdb76108fb553a05322dc6527f4a25be8fb94-Snip20190907_10.png)
+// ```
 /**
  * @param {TreeNode} root
  * @return {number}
@@ -49,4 +49,4 @@ var widthOfBinaryTree = function(root) {
 };
 
       
-```
+// ```

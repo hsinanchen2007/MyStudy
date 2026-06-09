@@ -1,9 +1,9 @@
-### 解题思路
-维护两个快慢指针当快指针移动到最后 则用慢指针删除数据
+// ### 解题思路
+// 维护两个快慢指针当快指针移动到最后 则用慢指针删除数据
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -44,4 +44,4 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 
     return h.Next
 }
-```
+// ```

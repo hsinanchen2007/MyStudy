@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, new Comparator<int[]>() {
@@ -36,4 +36,4 @@ class Solution {
         return results.toArray(new int[results.size()][2]);
     }
 }
-```
+// ```

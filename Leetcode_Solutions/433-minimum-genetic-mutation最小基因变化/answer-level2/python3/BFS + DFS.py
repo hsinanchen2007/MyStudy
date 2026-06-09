@@ -1,16 +1,16 @@
-## 思路:
+# ## 思路:
 
-思路一：BFS
+# 思路一：BFS
 
-思路二：DFS
+# 思路二：DFS
 
-感觉第二种也是BFS !
+# 感觉第二种也是BFS !
 
-## 代码
+# ## 代码
 
-思路一：
+# 思路一：
 
-```python
+# ```python
 class Solution:
     def minMutation(self, start: str, end: str, bank: List[str]) -> int:
         from collections import deque
@@ -40,11 +40,11 @@ class Solution:
                     visited.add(nxt)
                     queue.appendleft((nxt, res + 1))
         return -1
-```
+# ```
 
-思路二：
+# 思路二：
 
-```python
+# ```python
 class Solution:
     def minMutation(self, start: str, end: str, bank: List[str]) -> int:
         bank = set(bank)
@@ -75,5 +75,5 @@ class Solution:
 
         res = dfs(start)
         return res if res != float("inf") else -1
-```
+# ```
 

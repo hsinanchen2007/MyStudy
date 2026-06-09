@@ -1,8 +1,8 @@
-如题。
+// 如题。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int i;
     int j;
@@ -53,4 +53,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
     return cnt;
 }
-```
+// ```

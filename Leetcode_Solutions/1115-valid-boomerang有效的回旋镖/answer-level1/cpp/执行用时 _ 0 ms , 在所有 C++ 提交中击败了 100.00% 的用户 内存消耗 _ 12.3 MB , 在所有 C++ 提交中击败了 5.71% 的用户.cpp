@@ -1,9 +1,9 @@
-### 解题思路
-首先分母不能为0，其次各个坐标不相等，再斜率不等（注意整除时用double），则true。
+// ### 解题思路
+// 首先分母不能为0，其次各个坐标不相等，再斜率不等（注意整除时用double），则true。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
    bool isBoomerang(vector<vector<int>>& points) {
@@ -27,4 +27,4 @@ public:
 	return f;
 }
 };
-```
+// ```

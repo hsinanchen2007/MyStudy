@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String getHint(String secret, String guess) {
         int a = 0;
@@ -26,4 +26,4 @@ class Solution {
     }
 
 }
-```
+// ```

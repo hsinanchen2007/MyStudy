@@ -1,6 +1,6 @@
-备注一下，这题还是不太懂...
-两个有序数组找第k小的元素的方法：
-```python
+# 备注一下，这题还是不太懂...
+# 两个有序数组找第k小的元素的方法：
+# ```python
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         def helper(k:int):
@@ -32,4 +32,4 @@ class Solution:
         else:
             return helper(n // 2 + 1)
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 public String rankTeams(String[] votes) {
     //key是参赛团队，value是该团队每个排位获得的票数
     Map<Character, int[]> teamRankMap = new HashMap<>();
@@ -28,4 +28,4 @@ public String rankTeams(String[] votes) {
     //转换为字符串输出
     return teamRankList.stream().map(entry -> String.valueOf(entry.getKey())).collect(Collectors.joining());
 }
-```
+// ```

@@ -1,5 +1,5 @@
-思路见代码，挺简单的：
-```
+# 思路见代码，挺简单的：
+# ```
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         n = len(s)
@@ -16,4 +16,4 @@ class Solution:
             m[s[i]] = t[i]
             used.add(t[i])
         return True
-```
+# ```

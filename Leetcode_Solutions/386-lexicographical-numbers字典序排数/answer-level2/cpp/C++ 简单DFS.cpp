@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void dfs(int k, int n, vector<int>& res) {
@@ -16,6 +16,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/3ed72270be859cafa4adb6e65d147ca97c6be15d29a2ee7a56b383522ce2b38e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3ed72270be859cafa4adb6e65d147ca97c6be15d29a2ee7a56b383522ce2b38e-image.png)

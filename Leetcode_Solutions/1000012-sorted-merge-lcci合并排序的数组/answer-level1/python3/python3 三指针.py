@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -16,4 +16,4 @@ class Solution:
                 A[point3] = B[point2]
                 point2 -= 1
                 point3 -= 1
-```
+# ```

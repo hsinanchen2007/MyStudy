@@ -1,11 +1,11 @@
-关键找到需要调换的两个节点：
-- 第一次递减，选前面的元素（避免相邻，后面的元素也记录到需要调换的节点）
-- 第二次递减，选后面的元素
-即找到需要调换的两个节点
+// 关键找到需要调换的两个节点：
+// - 第一次递减，选前面的元素（避免相邻，后面的元素也记录到需要调换的节点）
+// - 第二次递减，选后面的元素
+// 即找到需要调换的两个节点
 
-[莫里斯遍历](https://www.cnblogs.com/AnnieKim/archive/2013/06/15/morristraversal.html)
+// [莫里斯遍历](https://www.cnblogs.com/AnnieKim/archive/2013/06/15/morristraversal.html)
 
-```javascript []
+// ```javascript []
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -71,4 +71,4 @@ var recoverTree = function(root) {
     node1.val = node2.val;
     node2.val = tmp;
 };
-```
+// ```

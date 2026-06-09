@@ -1,9 +1,9 @@
-### 解题思路
-Go 双指针
+// ### 解题思路
+// Go 双指针
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // 双指针 O(n) O(1)
 
 func validPalindrome(s string) bool {
@@ -29,4 +29,4 @@ func isPalindrome(s[]byte, i, j int) bool {
     }
     return true
 }
-```
+// ```

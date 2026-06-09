@@ -1,11 +1,11 @@
-### 解题思路
-贝祖定理 + 辗转相除法
-![image.png](https://pic.leetcode-cn.com/7f0dffa27d80695d2dce64470a803422f201ec2db32060c0a5bd5cb8d8f1d162-image.png)
+// ### 解题思路
+// 贝祖定理 + 辗转相除法
+// ![image.png](https://pic.leetcode-cn.com/7f0dffa27d80695d2dce64470a803422f201ec2db32060c0a5bd5cb8d8f1d162-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var canMeasureWater = function(x, y, z) {
   if (x + y < z) {
     return false
@@ -31,4 +31,4 @@ var canMeasureWater = function(x, y, z) {
   }
   return z % gcd(max, min) === 0
 };
-```
+// ```

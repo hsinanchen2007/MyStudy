@@ -1,9 +1,9 @@
-### 解题思路
-只需要比较i+1 是否和 i 相等，相等的话，将i+1处的移除，i--,重新比较i+1 和 i.
+// ### 解题思路
+// 只需要比较i+1 是否和 i 相等，相等的话，将i+1处的移除，i--,重新比较i+1 和 i.
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -18,4 +18,4 @@ var removeDuplicates = function(nums) {
      }
      return nums.length;
 };
-```
+// ```

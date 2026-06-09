@@ -1,4 +1,4 @@
-```js
+// ```js
 var reversePrint = function(head) {
   let ArrayList = [];
   while (head) {
@@ -7,4 +7,4 @@ var reversePrint = function(head) {
   }
   return ArrayList.reverse();  
 };
-```
+// ```

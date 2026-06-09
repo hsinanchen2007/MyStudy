@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-3 ms
-, 在所有 Java 提交中击败了
-87.55%
-的用户
-内存消耗 :
-41.7 MB
-, 在所有 Java 提交中击败了
-65.72%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 3 ms
+// , 在所有 Java 提交中击败了
+// 87.55%
+// 的用户
+// 内存消耗 :
+// 41.7 MB
+// , 在所有 Java 提交中击败了
+// 65.72%
+// 的用户
+// ```
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         int x = intervals.length;
@@ -80,4 +80,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

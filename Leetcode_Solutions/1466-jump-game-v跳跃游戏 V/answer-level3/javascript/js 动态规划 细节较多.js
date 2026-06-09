@@ -1,17 +1,17 @@
-![image.png](https://pic.leetcode-cn.com/4f578990b8b0a52103f2659e4d74f620f0e6c569122557317e8e20efc1cce3ac-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4f578990b8b0a52103f2659e4d74f620f0e6c569122557317e8e20efc1cce3ac-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 典型的动态规划问题：
 1.从最低的圆柱下标开始向最高的圆柱坐标遍历
 2.对每一个当前圆柱 dp[i] = 在不越界的情况下，i 周围所有比 i 矮的圆柱中可访问下标个数最多的那个圆柱 + 1
   即：dp[i] = Math.max(dp[i - d], ..., dp[i - 1], dp[i + 1], ..., dp[i + d]) + 1
 注意：跳跃过程中，当前圆柱与目标圆柱之间不能有比当前高的柱子，所以对每一个圆柱而言，要用中间到两边的跳法
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} d
@@ -65,4 +65,4 @@ var maxJumps = function(arr, d) {
   
   return ans;
 };
-```
+// ```

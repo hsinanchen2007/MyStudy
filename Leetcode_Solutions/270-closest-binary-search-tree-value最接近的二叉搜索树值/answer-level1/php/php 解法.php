@@ -1,5 +1,5 @@
-二叉树的前序遍历，中序遍历，后序遍历都可以解
-```
+// 二叉树的前序遍历，中序遍历，后序遍历都可以解
+// ```
 class Solution {
 
     /**
@@ -24,4 +24,4 @@ class Solution {
         $this->helper($node->right, $target, $min, $ans);
     }
 }
-```
+// ```

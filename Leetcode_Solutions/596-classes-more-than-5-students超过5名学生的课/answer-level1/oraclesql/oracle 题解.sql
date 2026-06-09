@@ -1,4 +1,4 @@
-方法一（自己写）：
+-- 方法一（自己写）：
 select a.class 
 from 
 (select c.class,count(c.class) cou 

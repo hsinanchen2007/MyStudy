@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-采用递归的方法,遍历节点，然后交换左右子树
+// 采用递归的方法,遍历节点，然后交换左右子树
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func invertTree(root *TreeNode) *TreeNode {
 	if root == nil {
 		return nil
@@ -15,4 +15,4 @@ func invertTree(root *TreeNode) *TreeNode {
 	root.Right = left
 	return root
 }
-```
+// ```

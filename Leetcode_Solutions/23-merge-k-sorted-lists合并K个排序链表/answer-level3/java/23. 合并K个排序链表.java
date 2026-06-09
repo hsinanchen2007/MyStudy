@@ -1,5 +1,5 @@
-循环遍历，两两比较形成一个有序新链表
-```
+// 循环遍历，两两比较形成一个有序新链表
+// ```
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         if(lists.length<1){
@@ -28,4 +28,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-和丑数类似
+// ### 解题思路
+// 和丑数类似
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // idx2, idx3, idx5 := 0,0,0
 // dp[i] = min(dp[idx2]*2, dp[idx3]*3, dp[idx5]*5)
 // min选中哪个idx,则该idx++
@@ -46,4 +46,4 @@ func min(a, b, c int) int {
 
 
 
-```
+// ```

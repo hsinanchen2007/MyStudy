@@ -1,9 +1,9 @@
-### 解题思路
-注意第一个节点是否满足删除条件，其他的情况比较简单
+// ### 解题思路
+// 注意第一个节点是否满足删除条件，其他的情况比较简单
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-学习了一个老哥写的题解，确实很厉害。
-以target=9 为例子：题目有两个解 [2,3,4][4,5]
-    以[4,5]为例，此解可转换为[4,4+1],因此target -= i++ 之后, i = 2;接着可以得到target % i == 0,意味着以4为开始的i个数字之和为9；
-    [2,3,4]同理，
+// 学习了一个老哥写的题解，确实很厉害。
+// 以target=9 为例子：题目有两个解 [2,3,4][4,5]
+//     以[4,5]为例，此解可转换为[4,4+1],因此target -= i++ 之后, i = 2;接着可以得到target % i == 0,意味着以4为开始的i个数字之和为9；
+//     [2,3,4]同理，
 
-```
+// ```
 class Solution {
     public int[][] findContinuousSequence(int target) {
         int[][] result = new int[0][];
@@ -34,4 +34,4 @@ class Solution {
         return result;     
     }
 }
-```
+// ```

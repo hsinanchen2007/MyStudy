@@ -1,9 +1,9 @@
-C++。
-时间：100%，空间：88%。
-空间复杂度O（1），时间复杂度O（N），其中N为m*n即输入矩阵元素总数
-思路：很简单，direction标识方向，right，left等分别标识离各个边界已经存在几层。比如说一开始right为0，如果走到矩阵（除去已经遍历过的元素）最右边（根据j<(n-right-1)来判断），方向direction变为向下，right加一。
+// C++。
+// 时间：100%，空间：88%。
+// 空间复杂度O（1），时间复杂度O（N），其中N为m*n即输入矩阵元素总数
+// 思路：很简单，direction标识方向，right，left等分别标识离各个边界已经存在几层。比如说一开始right为0，如果走到矩阵（除去已经遍历过的元素）最右边（根据j<(n-right-1)来判断），方向direction变为向下，right加一。
 
-```
+// ```
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
@@ -36,4 +36,4 @@ public:
         return res;
     }
 };
-```
+// ```

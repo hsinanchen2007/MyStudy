@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int FindKthLargest(int[] nums, int k) {
         if(k < nums.Length / 2)   
@@ -12,4 +12,4 @@ public class Solution {
             return nums.OrderBy(i => i).Skip(nums.Length - k).First();
     }
 }
-```
+// ```

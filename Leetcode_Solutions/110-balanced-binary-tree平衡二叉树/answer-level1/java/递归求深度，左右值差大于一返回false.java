@@ -1,9 +1,9 @@
-### 解题思路
-递归求深度，左右值差大于一返回false
+// ### 解题思路
+// 递归求深度，左右值差大于一返回false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
 
     }
 }
-```
+// ```

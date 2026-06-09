@@ -1,9 +1,9 @@
-### 解题思路
-还好给出的数组不可能是重复的
+// ### 解题思路
+// 还好给出的数组不可能是重复的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     List<List<Integer>> res = new ArrayList<>();
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

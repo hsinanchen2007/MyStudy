@@ -1,8 +1,8 @@
-- 例如  arr = [1,2,3,4], difference = 1 
-- 从后向前遍历
-- map.get(4) 就表示以4位结尾的最大长度
-- 然后遍历到3 即 map.get(3) = map.get(3 + difference) + 1
-```
+// - 例如  arr = [1,2,3,4], difference = 1 
+// - 从后向前遍历
+// - map.get(4) 就表示以4位结尾的最大长度
+// - 然后遍历到3 即 map.get(3) = map.get(3 + difference) + 1
+// ```
 var longestSubsequence = function(arr, difference) {
   let max = 0;
   let map = new Map();
@@ -13,4 +13,4 @@ var longestSubsequence = function(arr, difference) {
   } 
   return max;   
 };
-```
+// ```

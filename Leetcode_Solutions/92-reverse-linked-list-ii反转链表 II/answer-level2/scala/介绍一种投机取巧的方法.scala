@@ -1,5 +1,5 @@
-用一个栈把需要记录反转的数字记录，然后再把栈里面的数字重新赋值到链表中。
-```
+// 用一个栈把需要记录反转的数字记录，然后再把栈里面的数字重新赋值到链表中。
+// ```
 import java.util.Stack
 object Solution {
     def reverseBetween(head: ListNode, m: Int, n: Int): ListNode = {
@@ -26,5 +26,5 @@ object Solution {
         head
     }
 }
-```
+// ```
 

@@ -1,7 +1,7 @@
 
-这题和 剑指offer 面试题26. 树的子结构 类似
+# 这题和 剑指offer 面试题26. 树的子结构 类似
 
-```python
+# ```python
 class Solution:
     def dfs(self, head, root):
         if not head:
@@ -21,4 +21,4 @@ class Solution:
             return True
         return self.isSubPath(head, root.left) or self.isSubPath(head, root.right)
             
-```
+# ```

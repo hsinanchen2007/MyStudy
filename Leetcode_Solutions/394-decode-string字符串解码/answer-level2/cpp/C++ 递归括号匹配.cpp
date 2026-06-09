@@ -1,5 +1,5 @@
-C++递归处理
-```
+// C++递归处理
+// ```
 class Solution {
 public:
 	string decodeString(const string& s) {
@@ -30,4 +30,4 @@ public:
 		return result;
 	}
 };
-```
+// ```

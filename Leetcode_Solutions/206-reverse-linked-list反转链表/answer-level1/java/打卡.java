@@ -1,9 +1,9 @@
-### 解题思路
-获取1 2 3，然后2.next指向1，向前挪动1 和 2
+// ### 解题思路
+// 获取1 2 3，然后2.next指向1，向前挪动1 和 2
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ class Solution {
         return p;
     }
 }
-```
+// ```

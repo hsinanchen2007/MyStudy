@@ -1,4 +1,4 @@
-```
+// ```
 //基于马拉车思路进行的中心扩展修正，加了一次奇偶回文的判断
 char * longestPalindrome(char * s){
     int length;
@@ -52,4 +52,4 @@ char * longestPalindrome(char * s){
     return p;
 }
 
-```
+// ```

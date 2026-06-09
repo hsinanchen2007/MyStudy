@@ -1,21 +1,21 @@
 
--   动态规划
+# -   动态规划
 
--   初始化：
+# -   初始化：
 
-```
+# ```
 dp[i][j]：表示从第i个到第j个角所形成的三角形的最小面积
-```
+# ```
 
--   状态转换方程
+# -   状态转换方程
 
-```
+# ```
 dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j] + A[i] * A[k] * A[j])
-```
+# ```
 
 
 
-```python
+# ```python
 class Solution:
     def minScoreTriangulation(self, A: List[int]) -> int:
         length = len(A)
@@ -32,13 +32,13 @@ class Solution:
                     dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j] + A[i] * A[k] * A[j])
 
         return dp[0][length - 1]
-```
+# ```
 
--   DFS加记忆化
+# -   DFS加记忆化
 
-主要是子问题的切分，dfs更容易理解一些
+# 主要是子问题的切分，dfs更容易理解一些
 
-```python
+# ```python
 from functools import lru_cache
 
 
@@ -55,6 +55,6 @@ class Solution:
             return ans
 
         return dfs(0, len(A) - 1)
-```
+# ```
 
 

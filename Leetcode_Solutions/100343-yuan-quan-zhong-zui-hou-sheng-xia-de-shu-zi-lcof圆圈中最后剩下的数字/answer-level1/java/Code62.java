@@ -1,9 +1,9 @@
-### 解题思路
-这是一道数学题……，尼玛，写个链表超时了。
+// ### 解题思路
+// 这是一道数学题……，尼玛，写个链表超时了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public int lastRemaining(int n, int m) {
@@ -22,4 +22,4 @@ class Solution {
         return arr.get(0);
     }
 }
-```
+// ```

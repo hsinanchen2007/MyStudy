@@ -1,6 +1,6 @@
-### 非递归解法(迭代)
+// ### 非递归解法(迭代)
 
-```php
+// ```php
 function mergeTwoLists($l1, $l2)
 {
     $dummyHead = new ListNode(null);
@@ -24,11 +24,11 @@ function mergeTwoLists($l1, $l2)
 
     return $dummyHead->next;
 }
-```
+// ```
 
-### 递归解法
+// ### 递归解法
 
-```php
+// ```php
 function mergeTwoLists($l1, $l2)
 {
     // 递归解法
@@ -49,4 +49,4 @@ function mergeTwoLists($l1, $l2)
         return $l2;
     }
 }
-```
+// ```

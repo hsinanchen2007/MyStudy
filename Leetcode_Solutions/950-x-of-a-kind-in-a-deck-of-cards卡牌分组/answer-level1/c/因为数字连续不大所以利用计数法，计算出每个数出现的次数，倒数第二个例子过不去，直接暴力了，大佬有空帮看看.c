@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int GCD(int x, int y)  // 求最小公因数
 {    
     int flag = 0;
@@ -65,4 +65,4 @@ bool hasGroupsSizeX(int* deck, int deckSize)
 }
 
 
-```
+// ```

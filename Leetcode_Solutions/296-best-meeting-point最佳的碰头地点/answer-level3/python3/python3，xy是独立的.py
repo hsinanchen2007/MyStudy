@@ -1,5 +1,5 @@
-主要得想明白xy是独立的，然后利用多项绝对值求和，具体题目具体分析，跳出bfs的圈子
-```
+# 主要得想明白xy是独立的，然后利用多项绝对值求和，具体题目具体分析，跳出bfs的圈子
+# ```
 class Solution:
     def minTotalDistance(self, grid: List[List[int]]) -> int:
         row=[]
@@ -18,4 +18,4 @@ class Solution:
             start+=1
             end-=1
         return res
-```
+# ```

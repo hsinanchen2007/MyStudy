@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度为O(N), N 为链表长度；空间复杂度为O(1)
+// ### 解题思路
+// 时间复杂度为O(N), N 为链表长度；空间复杂度为O(1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -22,4 +22,4 @@ class Solution {
         return x;
     }
 }
-```
+// ```

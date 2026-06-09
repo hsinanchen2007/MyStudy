@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* reverseList(struct ListNode* head){
     struct ListNode* p = head;
     struct ListNode* r = NULL;
@@ -17,4 +17,4 @@ struct ListNode* reverseList(struct ListNode* head){
     head = p;
     return head;
 }
-```
+// ```

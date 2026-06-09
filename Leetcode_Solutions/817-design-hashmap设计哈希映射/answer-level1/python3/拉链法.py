@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 借鉴hashset加一个计数就行，需要考虑两个问题：
 1 hash函数 2 冲突处理
@@ -82,4 +82,4 @@ class Bucket:
 # obj.add(key)
 # obj.remove(key)
 # param_3 = obj.contains(key)
-```
+# ```

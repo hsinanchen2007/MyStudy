@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -47,6 +47,6 @@ public:
         }
     }
 };
-```
-![捕获.PNG](https://pic.leetcode-cn.com/bbe021135f285f5ebf786ed109b58081a36300715104233b32a05dde068c2160-%E6%8D%95%E8%8E%B7.PNG)
+// ```
+// ![捕获.PNG](https://pic.leetcode-cn.com/bbe021135f285f5ebf786ed109b58081a36300715104233b32a05dde068c2160-%E6%8D%95%E8%8E%B7.PNG)
 

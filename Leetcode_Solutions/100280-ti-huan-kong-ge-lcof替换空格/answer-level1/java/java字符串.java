@@ -1,9 +1,9 @@
-### 解题思路
-清晰思路题。
+// ### 解题思路
+// 清晰思路题。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         // return s.replaceAll(" ", "%20");
@@ -25,4 +25,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

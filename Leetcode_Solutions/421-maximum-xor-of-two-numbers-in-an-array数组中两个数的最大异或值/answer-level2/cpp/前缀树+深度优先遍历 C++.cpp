@@ -1,11 +1,11 @@
-1. 构建一个前缀树，只有两个节点，left right分别代表有0,1孩子节点，每一个num按二进制形式从高位到低位插入前缀树
+// 1. 构建一个前缀树，只有两个节点，left right分别代表有0,1孩子节点，每一个num按二进制形式从高位到低位插入前缀树
 
-2. 所有的数据插入前缀树之后，找到第一个分叉点p1,p2，作为深度优先遍历的起点，有四种路径可走，左右，右左，左左，右右，每种情况都是产生不同的结果，对每种情况计算的res进行比较，最大值即为所求
+// 2. 所有的数据插入前缀树之后，找到第一个分叉点p1,p2，作为深度优先遍历的起点，有四种路径可走，左右，右左，左左，右右，每种情况都是产生不同的结果，对每种情况计算的res进行比较，最大值即为所求
    
-![前缀树.PNG](https://pic.leetcode-cn.com/d1010017a06d6aeec1e657aebf8bd51da3cfa49e978f5672b64f722133d91434-%E5%89%8D%E7%BC%80%E6%A0%91.PNG)
+// ![前缀树.PNG](https://pic.leetcode-cn.com/d1010017a06d6aeec1e657aebf8bd51da3cfa49e978f5672b64f722133d91434-%E5%89%8D%E7%BC%80%E6%A0%91.PNG)
 
-代码如下
-```
+// 代码如下
+// ```
 struct TrieNode{
     TrieNode* left;
     TrieNode* right;
@@ -102,5 +102,5 @@ public:
     }
 };
 
-```
-![前缀树小.PNG](https://pic.leetcode-cn.com/2b8eb9cd30af2d65f30b9bb657417523b718d315c0e7efce0740014ac3f4b77f-%E5%89%8D%E7%BC%80%E6%A0%91%E5%B0%8F.PNG)
+// ```
+// ![前缀树小.PNG](https://pic.leetcode-cn.com/2b8eb9cd30af2d65f30b9bb657417523b718d315c0e7efce0740014ac3f4b77f-%E5%89%8D%E7%BC%80%E6%A0%91%E5%B0%8F.PNG)

@@ -1,9 +1,9 @@
-### 解题思路
-排序后累加差值即可
+// ### 解题思路
+// 排序后累加差值即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -15,4 +15,4 @@ public:
         return res;
     }
 };
-```
+// ```

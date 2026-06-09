@@ -1,27 +1,27 @@
-### 解题思路
-这是一个比较容易想到的解决方案，把`vector<NestedInteger>`解析成`vector<int>`。
+// ### 解题思路
+// 这是一个比较容易想到的解决方案，把`vector<NestedInteger>`解析成`vector<int>`。
 
-定义一个`vector<int>`和迭代器：
+// 定义一个`vector<int>`和迭代器：
 
-```cpp
+// ```cpp
 vector<int> data;
 vector<int>::iterator it;
-```
+// ```
 
-解析：当我们遇到整数时直接往`data`里push，否则递归地调用parse。
+// 解析：当我们遇到整数时直接往`data`里push，否则递归地调用parse。
 
-```cpp
+// ```cpp
 void parse(const vector<NestedInteger>& nestedList) {
     for (const auto& ni : nestedList) {
         if (ni.isInteger()) data.push_back(ni.getInteger());
         else parse(ni.getList());
     }
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * // This is the interface that allows for creating nested lists.
  * // You should not implement it, or speculate about its implementation
@@ -71,4 +71,4 @@ public:
  * NestedIterator i(nestedList);
  * while (i.hasNext()) cout << i.next();
  */
-```
+// ```

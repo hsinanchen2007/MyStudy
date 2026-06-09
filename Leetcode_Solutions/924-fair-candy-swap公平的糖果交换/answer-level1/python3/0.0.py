@@ -1,9 +1,9 @@
-### 解题思路
-这种题型一般是先排序，然后根据类似两个指针的方式后移的方式得到求解。
+# ### 解题思路
+# 这种题型一般是先排序，然后根据类似两个指针的方式后移的方式得到求解。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fairCandySwap(self, A: List[int], B: List[int]) -> List[int]:
         A.sort()
@@ -31,4 +31,4 @@ class Solution:
                 else :
                     j=j+1
         return (get_num_val(A,B))
-```
+# ```

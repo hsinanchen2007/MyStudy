@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     # @return an integer
     # 思路: 动态规划
@@ -24,5 +24,5 @@ class Solution:
             return min(dp(i, mid, 1) + dp(mid + 1, j, m - 1) for mid in range(i, j, K - 1))
         res = dp(0, n - 1, 1)
         return res if res < inf else -1 
-```
+# ```
 

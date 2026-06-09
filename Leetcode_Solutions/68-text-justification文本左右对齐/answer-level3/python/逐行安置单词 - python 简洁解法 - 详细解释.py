@@ -1,38 +1,38 @@
-### 解题思路
+# ### 解题思路
 
-一共有一下变量：
+# 一共有一下变量：
 
-  ans   最后的答案
+#   ans   最后的答案
 
-  cur_c 当前行的字母数
+#   cur_c 当前行的字母数
 
-  cur_w 当前行的单词数
+#   cur_w 当前行的单词数
 
-  wl    当前行的单词列表
+#   wl    当前行的单词列表
 
-然后一个单词一个单词的过，判断加上这个单词是否会超过最大长度，一行的最低长度是：
+# 然后一个单词一个单词的过，判断加上这个单词是否会超过最大长度，一行的最低长度是：
 
-```python
+# ```python
     cur_c + cur_w - 1
-```
+# ```
 
-如果这个大于 maxWidth，就把这一行加入 ans 中。
+# 如果这个大于 maxWidth，就把这一行加入 ans 中。
 
-所有单词过完了再把余下的词放入最后一行。
+# 所有单词过完了再把余下的词放入最后一行。
 
-再看如何安排每一行的单词：
+# 再看如何安排每一行的单词：
 
-1. 如果这一行只有一个单词
-   单词最对齐，后面补满空格
-2. 一行多个单词
-   1. 空格正好可以平均分配
-      求出平均每个间隔几个空格，直接用 python 字符串的 join 方法就可以了
-   2. 有多余的空格
-      题目要求左边空格多于右边，先算算平均每个间隔几个空格，然后余下几个，如果平均 b 个，余下 x 个，则前 x 个间隔空 b + 1 个，后面的都空 b 个。
+# 1. 如果这一行只有一个单词
+#    单词最对齐，后面补满空格
+# 2. 一行多个单词
+#    1. 空格正好可以平均分配
+#       求出平均每个间隔几个空格，直接用 python 字符串的 join 方法就可以了
+#    2. 有多余的空格
+#       题目要求左边空格多于右边，先算算平均每个间隔几个空格，然后余下几个，如果平均 b 个，余下 x 个，则前 x 个间隔空 b + 1 个，后面的都空 b 个。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
         ans = []   # 最后的答案
@@ -70,8 +70,8 @@ class Solution:
             cans += ' ' * (maxWidth - len(cans))
             ans.append(cans)
         return ans
-```
+# ```
 
 
-欢迎来我的博客： [https://codeplot.top/](https://codeplot.top/)
-我的博客刷题分类：[https://codeplot.top/categories/%E5%88%B7%E9%A2%98/](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)
+# 欢迎来我的博客： [https://codeplot.top/](https://codeplot.top/)
+# 我的博客刷题分类：[https://codeplot.top/categories/%E5%88%B7%E9%A2%98/](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)

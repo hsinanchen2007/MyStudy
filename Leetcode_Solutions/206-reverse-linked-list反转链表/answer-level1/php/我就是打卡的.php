@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 printf("Hello,World!");
 cout<<"Hello,World!";
 >>> print("Hello,World!")
@@ -12,4 +12,4 @@ SQL> select 'Hello,World!' from dual;
 MsgBox("Hello,World!")
 <p>Hello,World!</p>  
 System.out.println("Hello,World!");  
-```
+// ```

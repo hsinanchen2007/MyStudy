@@ -1,12 +1,12 @@
-### 解题思路
-简单思路，见注释
+# ### 解题思路
+# 简单思路，见注释
 
-注意！！put()操作若key已存在，赋新value值，**使用频次freq+1而不是重置为1**，更新使用时间time。
-原以为应该将freq重置，搞得一直解答错误。。。
+# 注意！！put()操作若key已存在，赋新value值，**使用频次freq+1而不是重置为1**，更新使用时间time。
+# 原以为应该将freq重置，搞得一直解答错误。。。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class LFUCache(object):
 
     def __init__(self, capacity):
@@ -62,4 +62,4 @@ class LFUCache(object):
 # obj = LFUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

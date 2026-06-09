@@ -1,4 +1,4 @@
-```
+// ```
 var sumNumbers = function(root) {
     if(!root) return null;
     root.sum = root.val;
@@ -18,4 +18,4 @@ var sumNumbers = function(root) {
     }
     return res;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int len;
@@ -28,4 +28,4 @@ public:
         tmp.erase(tmp.end()-site.length(),tmp.end());  
     }
 };
-```
+// ```

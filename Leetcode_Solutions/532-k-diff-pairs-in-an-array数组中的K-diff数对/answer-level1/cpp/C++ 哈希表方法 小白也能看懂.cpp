@@ -1,10 +1,10 @@
-### 解题思路
-查找k-diff数对时，保证前数大于后数。
-为了保证k-diff不重复，我们对每个k-diff数组中的最大值进行标记，将k-diff中前数的value 设为1.
+// ### 解题思路
+// 查找k-diff数对时，保证前数大于后数。
+// 为了保证k-diff不重复，我们对每个k-diff数组中的最大值进行标记，将k-diff中前数的value 设为1.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findPairs(vector<int>& nums, int k) {
@@ -39,4 +39,4 @@ public:
         return count;
     }
 };
-```
+// ```

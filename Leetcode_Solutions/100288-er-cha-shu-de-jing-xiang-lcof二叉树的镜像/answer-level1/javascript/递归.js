@@ -1,11 +1,11 @@
-### 解题思路
-- 二叉树的先序遍历:根左右
-- 当前节点为空,返回null
-- 交换左右子树
+// ### 解题思路
+// - 二叉树的先序遍历:根左右
+// - 当前节点为空,返回null
+// - 交换左右子树
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -26,4 +26,4 @@ var mirrorTree = function(root) {
     mirrorTree(root.right)
     return root
 };
-```
+// ```

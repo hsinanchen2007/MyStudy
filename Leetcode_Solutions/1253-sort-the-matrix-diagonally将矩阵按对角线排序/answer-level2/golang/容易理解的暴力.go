@@ -1,4 +1,4 @@
-```
+// ```
 import sort2 "sort"
 
 func diagonalSort(mat [][]int) [][]int {
@@ -42,4 +42,4 @@ func sort(mat [][]int, x, y, lenX, lenY int) {
 		y++
 	}
 }
-```
+// ```

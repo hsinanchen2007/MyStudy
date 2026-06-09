@@ -1,4 +1,4 @@
-```
+// ```
 var imageSmoother = function (M) {
     let rows = M.length, cols = M[0].length
     let ret = new Array(rows).fill(0).map(_ => new Array(cols).fill(0))
@@ -19,4 +19,4 @@ var imageSmoother = function (M) {
 const isValid = (r, c, rows, cols) =>
     r < rows && r >= 0 && c < cols && c >= 0
 
-```
+// ```

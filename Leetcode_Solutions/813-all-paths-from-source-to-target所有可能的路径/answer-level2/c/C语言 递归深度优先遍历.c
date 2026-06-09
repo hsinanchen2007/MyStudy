@@ -1,11 +1,11 @@
-### 解题思路
-递归深度优先遍历
-rlt的size是固定8192，这个待优化成动态扩容的
-![image.png](https://pic.leetcode-cn.com/3ee6771fe2cea39756ecd1f1305bbd2eeb75265483be745c895a0fadbb75e329-image.png)
+// ### 解题思路
+// 递归深度优先遍历
+// rlt的size是固定8192，这个待优化成动态扩容的
+// ![image.png](https://pic.leetcode-cn.com/3ee6771fe2cea39756ecd1f1305bbd2eeb75265483be745c895a0fadbb75e329-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -186,4 +186,4 @@ int** allPathsSourceTarget(int** graph, int graphSize, int* graphColSize, int* r
 	*returnColumnSizes = r.rltColumnSizes;
 	return r.rlt;
 }
-```
+// ```

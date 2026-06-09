@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def rob(self, nums: List[int]) -> int:
         preMax = 0
@@ -6,4 +6,4 @@ class Solution:
         for i in nums:
             preMax , curMax = curMax , max(preMax+i, curMax)
         return curMax
-```
+# ```

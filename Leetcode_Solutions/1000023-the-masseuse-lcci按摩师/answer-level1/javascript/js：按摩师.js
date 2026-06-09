@@ -1,9 +1,9 @@
-### 解题思路
-只能通过大佬的思路来进行coding，哭泣
+// ### 解题思路
+// 只能通过大佬的思路来进行coding，哭泣
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -25,4 +25,4 @@ var massage = function(nums) {
     }
     return arr[length - 1];
 };
-```
+// ```

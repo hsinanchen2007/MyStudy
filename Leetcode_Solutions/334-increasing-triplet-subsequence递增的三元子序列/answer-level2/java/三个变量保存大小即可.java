@@ -1,5 +1,5 @@
-如数组内包含 [4,5,1,2,3],n1 = 4,n2 = 5,n3 = 1,当遇到2时转换即可
-```
+// 如数组内包含 [4,5,1,2,3],n1 = 4,n2 = 5,n3 = 1,当遇到2时转换即可
+// ```
 int len = nums.length;
 int n1 = Integer.MAX_VALUE;
 int n2 = Integer.MAX_VALUE;
@@ -24,4 +24,4 @@ for(int i=0;i<len;i++){
     }
 }
 return false;
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
--> node -> node.next
-把node改成node.next 需要把node的val改成node.next.val，node的next pointer指到node.next的next pointer
+# ### 解题思路
+# -> node -> node.next
+# 把node改成node.next 需要把node的val改成node.next.val，node的next pointer指到node.next的next pointer
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -19,4 +19,4 @@ class Solution:
         """
         node.val = node.next.val
         node.next = node.next.next
-```
+# ```

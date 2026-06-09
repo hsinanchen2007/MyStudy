@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPerfectSquare(int num){
     long long int low=0,high=num/2+1,mid=0;
 
@@ -18,4 +18,4 @@ bool isPerfectSquare(int num){
     else return true;
 
 }
-```
+// ```

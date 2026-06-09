@@ -1,13 +1,13 @@
-### 解题思路
-用一个记录数组record记录当前的输出位置，例如digits="23"，record与digits大小相同
-record更新步骤应为
-[0,0]>[0,1]>[0,2]>[1,0]>[1,1]>[1,2]>[2,0]>[2,1]>[2,2]
-record[0]=0指digits[0]即数字2的首字母即a,record[0]=1指b，record[1]=2指数字3中的f
-更新次数即为输出字符串的个数应为digits所代表的字母数的乘积
+// ### 解题思路
+// 用一个记录数组record记录当前的输出位置，例如digits="23"，record与digits大小相同
+// record更新步骤应为
+// [0,0]>[0,1]>[0,2]>[1,0]>[1,1]>[1,2]>[2,0]>[2,1]>[2,2]
+// record[0]=0指digits[0]即数字2的首字母即a,record[0]=1指b，record[1]=2指数字3中的f
+// 更新次数即为输出字符串的个数应为digits所代表的字母数的乘积
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<string> letterCombinations(string digits) {
@@ -54,4 +54,4 @@ public:
 	}
 };
 
-```
+// ```

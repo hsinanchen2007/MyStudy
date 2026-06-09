@@ -1,4 +1,4 @@
-```
+// ```
 class Solution1 {
 public:
     char findTheDifference(string s, string t) {
@@ -23,4 +23,4 @@ public:
         return ret + t[t.length()-1];
     }
 };
-```
+// ```

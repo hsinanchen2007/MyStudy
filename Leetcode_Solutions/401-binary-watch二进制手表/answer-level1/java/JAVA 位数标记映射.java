@@ -1,5 +1,5 @@
-思路：先统计小时和分钟对应二进制位为1的个数，放入map中，然后根据分钟和小时对应位数之和来判断取值结果
-```
+// 思路：先统计小时和分钟对应二进制位为1的个数，放入map中，然后根据分钟和小时对应位数之和来判断取值结果
+// ```
 public List<String> readBinaryWatch(int num) {
         List<String> list = new ArrayList<String>();
         Map<Integer, List<Integer>> hoursMap = getMap(12);
@@ -34,4 +34,4 @@ public List<String> readBinaryWatch(int num) {
         }
         return map;
     }
-```
+// ```

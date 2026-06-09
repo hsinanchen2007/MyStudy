@@ -1,9 +1,9 @@
-### 解题思路
-设定flag[n][n]数组，每次往result[i][j]中填写好元素，就设置flag[i][j]=1,遇到flag[i][j]=1就转向，向右->向下->向左->向上->向右...
+// ### 解题思路
+// 设定flag[n][n]数组，每次往result[i][j]中填写好元素，就设置flag[i][j]=1,遇到flag[i][j]=1就转向，向右->向下->向左->向上->向右...
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] generateMatrix(int n) {
         int[][] result = new int[n][n];
@@ -62,4 +62,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

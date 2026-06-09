@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select sum(TIV_2016) as TIV_2016 from
 (select TIV_2015, count(PID) as money_times
@@ -17,4 +17,4 @@ group by 1) as rhs
 on i1.location = rhs.location
 where money_times > 1 and location_times = 1
 
-```
+-- ```

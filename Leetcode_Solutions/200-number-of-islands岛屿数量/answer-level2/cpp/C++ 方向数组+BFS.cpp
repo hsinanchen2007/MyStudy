@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-BFS 设置一个栈进行迭代，比递归好理解一些。
-思路仍然是遇见1入栈，将它周围的1变为0。
-最后剩下的1就是岛屿的数量
+// BFS 设置一个栈进行迭代，比递归好理解一些。
+// 思路仍然是遇见1入栈，将它周围的1变为0。
+// 最后剩下的1就是岛屿的数量
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool is_valid(int row,int col,int new_x,int new_y){
@@ -54,6 +54,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/e706b625ef61036daf08d1c11fef2d606feff777f96529e5abdf70c6476f860d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e706b625ef61036daf08d1c11fef2d606feff777f96529e5abdf70c6476f860d-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-map,效率很低哈哈哈
+// ### 解题思路
+// map,效率很低哈哈哈
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Trie {
 public:
     map<string,int> mp;
@@ -40,4 +40,4 @@ public:
  * bool param_2 = obj->search(word);
  * bool param_3 = obj->startsWith(prefix);
  */
-```
+// ```

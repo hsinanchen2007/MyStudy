@@ -1,8 +1,8 @@
-解题思路：
-1.根据ascii码，我们将astr.charAt(i)减去'a',这样能获取计数数组cnt的索引。依次统计出现次数。
-2.根据题目要求：不能有重复，得到返回结果。
+// 解题思路：
+// 1.根据ascii码，我们将astr.charAt(i)减去'a',这样能获取计数数组cnt的索引。依次统计出现次数。
+// 2.根据题目要求：不能有重复，得到返回结果。
 
-```
+// ```
 class Solution {
     public boolean isUnique(String astr) {
         boolean res = true;
@@ -19,4 +19,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

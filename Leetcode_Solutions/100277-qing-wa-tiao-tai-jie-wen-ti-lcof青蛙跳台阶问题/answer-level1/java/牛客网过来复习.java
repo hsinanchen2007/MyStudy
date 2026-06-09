@@ -1,9 +1,9 @@
-### 解题思路
-就是斐波那契数列
+// ### 解题思路
+// 就是斐波那契数列
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numWays(int n) {
         if(n==0||n==1){
@@ -20,4 +20,4 @@ class Solution {
         return sum%1000000007;
     }
 }
-```
+// ```

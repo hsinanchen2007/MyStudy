@@ -1,15 +1,15 @@
-一个递归版本的深度优先搜索的实现，Java代码
-这个是两个月之前的版本，这个版本虽然可以成功AC，但是还存在一些问题：
-首先是我采用了StringBuilder来代替String,试图通过这种方法来避免产生大量的小对象，但是由于这一句话的存在：
-`combination_recursive(digit, index + 1, ans, new StringBuilder(temp.toString()).append(list[i]));`
-我还是必须把StringBuilder转化为String，完美的避开了StringBuilder的优点，成功的达到了脱裤子放屁的效果。
-emmmm，真是够了。
+// 一个递归版本的深度优先搜索的实现，Java代码
+// 这个是两个月之前的版本，这个版本虽然可以成功AC，但是还存在一些问题：
+// 首先是我采用了StringBuilder来代替String,试图通过这种方法来避免产生大量的小对象，但是由于这一句话的存在：
+// `combination_recursive(digit, index + 1, ans, new StringBuilder(temp.toString()).append(list[i]));`
+// 我还是必须把StringBuilder转化为String，完美的避开了StringBuilder的优点，成功的达到了脱裤子放屁的效果。
+// emmmm，真是够了。
 
-所以现在又提供了一个递归深度优先遍历的版本。使用char[] 数组实现了一个栈的功能，然后通过`new String(char[] value)`这个构造函数，直接生成最后的结果
-避免了大量产生小对象，节约了空间，同时节约了时间。
+// 所以现在又提供了一个递归深度优先遍历的版本。使用char[] 数组实现了一个栈的功能，然后通过`new String(char[] value)`这个构造函数，直接生成最后的结果
+// 避免了大量产生小对象，节约了空间，同时节约了时间。
 
-新版本：
-```java
+// 新版本：
+// ```java
 public class Letter_Combinations_of_a_Phone_Number {
     static String[] numbers = {"", "", "abc", "def", "ghi","jkl","mno","pqrs","tuv","wxyz"};
 
@@ -56,12 +56,12 @@ public class Letter_Combinations_of_a_Phone_Number {
         return;
     }
 }
-```
+// ```
 
 
 
-常规版：
-```  java
+// 常规版：
+// ```  java
 class Solution {
     public static char[][] numbers = {
             {},                // 0
@@ -108,4 +108,4 @@ class Solution {
         }
     }
 }
-```
+// ```

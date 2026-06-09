@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/6100b8384c4586e4b91f510ccea976f1af7539de40769766e253701fad21adb7-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/6100b8384c4586e4b91f510ccea976f1af7539de40769766e253701fad21adb7-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -59,4 +59,4 @@ int getDecimalValue(struct ListNode* head){
     return iValue;
 }*/
 
-```
+// ```

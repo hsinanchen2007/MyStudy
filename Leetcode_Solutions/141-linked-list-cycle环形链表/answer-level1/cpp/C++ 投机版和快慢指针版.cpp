@@ -1,4 +1,4 @@
-```
+// ```
 bool hasCycle(ListNode *head) {//30秒写完的做法..
         int n = 1e4;
         while(n--){
@@ -17,4 +17,4 @@ bool hasCycle(ListNode *head) {//30秒写完的做法..
         }
         return false;
     }
-```
+// ```

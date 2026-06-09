@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-注意输入为空链表的情况
+// ### 解题思路
+// 此处撰写解题思路
+// 注意输入为空链表的情况
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseList(head *ListNode) *ListNode {
     if head == nil {
         return head
@@ -21,4 +21,4 @@ func reverseList(head *ListNode) *ListNode {
     }
     return nlist
 }
-```
+// ```

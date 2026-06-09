@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def wordPattern(self, pattern, strs):
         """
@@ -24,4 +24,4 @@ class Solution(object):
             else:
                 return False
         return True
-```
+# ```

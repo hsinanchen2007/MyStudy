@@ -1,14 +1,14 @@
-### 方法1
-利用Int和String类的相互转换来求解
+// ### 方法1
+// 利用Int和String类的相互转换来求解
 
-```
+// ```
 执行用时 :4 ms, 在所有 Swift 提交中击败了97.22%的用户
 内存消耗 :20.5 MB, 在所有 Swift 提交中击败了77.27%的用户
-```
+// ```
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func subtractProductAndSum(_ n: Int) -> Int {
         
@@ -36,18 +36,18 @@ class Solution {
         return product - sum
     }
 }
-```
+// ```
 
-### 方法2
-利用取模运算法
+// ### 方法2
+// 利用取模运算法
 
-```
+// ```
 执行用时 :8 ms, 在所有 Swift 提交中击败了61.11%的用户
 内存消耗 :20.3 MB, 在所有 Swift 提交中击败了86.36%的用户
-```
+// ```
 
-### 代码
-```swift
+// ### 代码
+// ```swift
 class Solution {
     func subtractProductAndSum(_ n: Int) -> Int {
 
@@ -69,5 +69,5 @@ class Solution {
         return product - sum
     }
 }
-```
+// ```
 

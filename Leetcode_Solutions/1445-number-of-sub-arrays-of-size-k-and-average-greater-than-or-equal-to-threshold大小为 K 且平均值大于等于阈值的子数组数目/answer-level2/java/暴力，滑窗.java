@@ -1,10 +1,10 @@
-### 解题思路
-心态炸裂，做的时候一直以为子数组可以是不连续的，硬是没做出来，出来一看题解整个人都不好了，原来子数组是特么的连续的啊，这不就两个循环结束的事🐎
+// ### 解题思路
+// 心态炸裂，做的时候一直以为子数组可以是不连续的，硬是没做出来，出来一看题解整个人都不好了，原来子数组是特么的连续的啊，这不就两个循环结束的事🐎
 
-### 代码
-#### 暴力
+// ### 代码
+// #### 暴力
 
-```java
+// ```java
 class Solution {
     public int numOfSubarrays(int[] arr, int k, int threshold) {
         int res = 0;
@@ -18,9 +18,9 @@ class Solution {
         return res;
     }
 }
-```
-#### 滑窗
-```java
+// ```
+// #### 滑窗
+// ```java
 class Solution {
     public int numOfSubarrays(int[] arr, int k, int threshold) {
         int res = 0;
@@ -37,4 +37,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

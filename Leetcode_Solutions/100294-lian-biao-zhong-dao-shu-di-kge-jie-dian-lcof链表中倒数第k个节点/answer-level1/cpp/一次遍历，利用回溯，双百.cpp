@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     int tail;      //到尾部时置零，回溯时不断加一
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-和两两翻转一样的思路，但是这种效果并不好，额外空间是k，勉强能算，也可以说是不算
-还是递归靠谱一点
+# ### 解题思路
+# 和两两翻转一样的思路，但是这种效果并不好，额外空间是k，勉强能算，也可以说是不算
+# 还是递归靠谱一点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
                 second=second.next
             second.next=first
         return node.next
-```
+# ```

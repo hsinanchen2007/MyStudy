@@ -1,6 +1,6 @@
-本质上是求因数，注意循环的临界条件为 `Math.sqrt(area)`，因为采用从大到小遍历的方式，因此第一对的因数一定是距离最小的。
+// 本质上是求因数，注意循环的临界条件为 `Math.sqrt(area)`，因为采用从大到小遍历的方式，因此第一对的因数一定是距离最小的。
 
-```javascript
+// ```javascript
 /**
  * @param {number} area
  * @return {number[]}
@@ -16,4 +16,4 @@ var constructRectangle = function(area) {
   }
   return result;
 };
-```
+// ```

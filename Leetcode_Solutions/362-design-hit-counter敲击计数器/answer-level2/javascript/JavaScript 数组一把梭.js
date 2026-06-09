@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * Initialize your data structure here.
  */
@@ -35,4 +35,4 @@ HitCounter.prototype.getHits = function(timestamp) {
  * obj.hit(timestamp)
  * var param_2 = obj.getHits(timestamp)
  */
-```
+// ```

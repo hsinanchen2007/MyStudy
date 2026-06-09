@@ -1,9 +1,9 @@
-### 解题思路
-用数组来标记出现的次数，内存用的少，但是耗时长了些
+// ### 解题思路
+// 用数组来标记出现的次数，内存用的少，但是耗时长了些
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> wordSubsets(String[] A, String[] B) {
         List<String> result = new LinkedList<>();
@@ -46,4 +46,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

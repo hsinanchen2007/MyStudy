@@ -1,9 +1,9 @@
-### 解题思路
-利用有序map记录元素出现次数，并判断奇数次元素是否大于一。
+// ### 解题思路
+// 利用有序map记录元素出现次数，并判断奇数次元素是否大于一。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -27,4 +27,4 @@ public:
         }
     }
 };
-```
+// ```

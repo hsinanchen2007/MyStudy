@@ -1,6 +1,6 @@
-1. 解出来了 但是不够简洁
+# 1. 解出来了 但是不够简洁
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -56,47 +56,47 @@ class Solution(object):
    - L[3] root.left.right 创建
    - L[4] root.right 创建
 """
-```
+# ```
 
-2. 优化内容
-"""
-(1) 确定root.val = L[0]
-(2) 如果没有该节点, 则创建个节点
-(3) 划分战队, 是left, right 左右子树哪儿边 
-    规则为 小于L[0] 在left, 大于L[0]在right边
-(4) 第一次划分为 left = [5,1,7] right = [10, 12]
+# 2. 优化内容
+# """
+# (1) 确定root.val = L[0]
+# (2) 如果没有该节点, 则创建个节点
+# (3) 划分战队, 是left, right 左右子树哪儿边 
+#     规则为 小于L[0] 在left, 大于L[0]在right边
+# (4) 第一次划分为 left = [5,1,7] right = [10, 12]
 
-(5) [5,1,7]作为root.left新list, [10, 12]作为root.right新list
-    递归调用 因为是先序遍历, 所以list中第一个一定新的node节点值
-    [5,1,7]再次分为 为left = [1] right = [7]
-"""
+# (5) [5,1,7]作为root.left新list, [10, 12]作为root.right新list
+#     递归调用 因为是先序遍历, 所以list中第一个一定新的node节点值
+#     [5,1,7]再次分为 为left = [1] right = [7]
+# """
 
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+# # Definition for a binary tree node.
+# # class TreeNode:
+# #     def __init__(self, x):
+# #         self.val = x
+# #         self.left = None
+# #         self.right = None
 
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+# # Definition for a binary tree node.
+# # class TreeNode:
+# #     def __init__(self, x):
+# #         self.val = x
+# #         self.left = None
+# #         self.right = None
 
-class Solution:
-    def bstFromPreorder(self, preorder: List[int]) -> TreeNode:
-        if len(preorder) > 0:
-            root = TreeNode(preorder[0])
-            Left, Right = [], []
+# class Solution:
+#     def bstFromPreorder(self, preorder: List[int]) -> TreeNode:
+#         if len(preorder) > 0:
+#             root = TreeNode(preorder[0])
+#             Left, Right = [], []
 
-            for val in preorder[1:]:
-                if val < preorder[0]:
-                    Left.append(val)
-                else:
-                    Right.append(val)
+#             for val in preorder[1:]:
+#                 if val < preorder[0]:
+#                     Left.append(val)
+#                 else:
+#                     Right.append(val)
                 
-            root.left = self.bstFromPreorder(Left)
-            root.right = self.bstFromPreorder(Right)
-            return root
+#             root.left = self.bstFromPreorder(Left)
+#             root.right = self.bstFromPreorder(Right)
+#             return root

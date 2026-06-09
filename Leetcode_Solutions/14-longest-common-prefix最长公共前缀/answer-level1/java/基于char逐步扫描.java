@@ -1,7 +1,7 @@
-原始的方式有可能也是高效的。
-时间复杂度 (O(N * K))  n: 最短字符长度；  k: 数组长度
+// 原始的方式有可能也是高效的。
+// 时间复杂度 (O(N * K))  n: 最短字符长度；  k: 数组长度
 
-```java
+// ```java
 public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) {
             return "";
@@ -31,4 +31,4 @@ public String longestCommonPrefix(String[] strs) {
 
         return first.substring(0, i);
     }
-```
+// ```

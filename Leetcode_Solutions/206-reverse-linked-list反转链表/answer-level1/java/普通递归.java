@@ -1,11 +1,11 @@
-### 解题思路
-递归相当于不停将head.next压栈。
-newnode相当于是末节点,一直return回来没变过。
-每次的head都往前退一个节点。
+// ### 解题思路
+// 递归相当于不停将head.next压栈。
+// newnode相当于是末节点,一直return回来没变过。
+// 每次的head都往前退一个节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return newnode;
     }
 }
-```
+// ```

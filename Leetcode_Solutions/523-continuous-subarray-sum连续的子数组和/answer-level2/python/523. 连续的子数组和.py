@@ -1,5 +1,5 @@
-**特例：[0,0],k=0,True; [0,1,0],k=0,False;[1,2,3],k=0,False**
-```
+# **特例：[0,0],k=0,True; [0,1,0],k=0,False;[1,2,3],k=0,False**
+# ```
 class Solution(object):
     def checkSubarraySum(self, nums, k):
         """
@@ -20,4 +20,4 @@ class Solution(object):
     
                 
         
-```
+# ```

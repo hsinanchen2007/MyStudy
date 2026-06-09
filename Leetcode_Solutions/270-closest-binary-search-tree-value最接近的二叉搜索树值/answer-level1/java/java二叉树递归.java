@@ -1,11 +1,11 @@
-### 解题思路
-使用min记录最小差值，result记录当前最接近的root值，接着递归：
-如果 root为空，返回；
-如果当前root最小差比min要小，则更新min与result；
-如果目标值大于root，递归root.right否则递归root.left;
-### 代码
+// ### 解题思路
+// 使用min记录最小差值，result记录当前最接近的root值，接着递归：
+// 如果 root为空，返回；
+// 如果当前root最小差比min要小，则更新min与result；
+// 如果目标值大于root，递归root.right否则递归root.left;
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -48,4 +48,4 @@ class Solution {
         return ;
     }
 }
-```
+// ```

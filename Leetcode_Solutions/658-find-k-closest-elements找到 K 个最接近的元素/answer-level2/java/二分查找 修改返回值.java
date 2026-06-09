@@ -1,10 +1,10 @@
-思路：
+// 思路：
 
-  * 1. 有序数组中查找元素， 返回最靠近x值的下标index
-     * index == 0,  取前 k个元素
-     * index == len -1 , 取最后k个元素
-     * 0 < index, index < len-1 。 arr[index] 先list.add( arr[index])
-     * 循环k-1, 如果下标有效  比较 与x 差的绝对值，谁小 add谁， 并将下标自增或自减
+//   * 1. 有序数组中查找元素， 返回最靠近x值的下标index
+//      * index == 0,  取前 k个元素
+//      * index == len -1 , 取最后k个元素
+//      * 0 < index, index < len-1 。 arr[index] 先list.add( arr[index])
+//      * 循环k-1, 如果下标有效  比较 与x 差的绝对值，谁小 add谁， 并将下标自增或自减
 
 public List<Integer> findClosestElements(int[] arr, int k, int x) {
         List<Integer> list = new LinkedList<>();

@@ -1,9 +1,9 @@
-### 解题思路
-js根据选择排序的原来，在选择排序的过程中确定相邻项之间的差值
+// ### 解题思路
+// js根据选择排序的原来，在选择排序的过程中确定相邻项之间的差值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -34,4 +34,4 @@ var maximumGap = function(nums) {
 
     return maxCur;
 };
-```
+// ```

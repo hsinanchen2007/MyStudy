@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         res = 0
@@ -19,4 +19,4 @@ class Solution:
             if not flag:
                 res += len(w)
         return res
-```
+# ```

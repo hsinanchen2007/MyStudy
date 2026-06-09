@@ -1,6 +1,6 @@
-    先贴代码：
+//     先贴代码：
     
-```java []
+// ```java []
 class Solution {
     public boolean canJump(int[] nums) {
         int len = nums.length-2;//从倒数第二个元素开始遍历
@@ -21,6 +21,6 @@ class Solution {
         return true;//while结束，说明从上一个可以避开的0开始没有0了。返回true
     }
 }
-```
+// ```
     
         

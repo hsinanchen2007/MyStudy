@@ -1,14 +1,14 @@
-### 解题思路
-def strStr(self, haystack: str, needle: str) -> int:
-        if needle and not haystack: return -1
-        if needle in haystack:
-            return haystack.index(needle)
-        else:
-            return -1
+# ### 解题思路
+# def strStr(self, haystack: str, needle: str) -> int:
+#         if needle and not haystack: return -1
+#         if needle in haystack:
+#             return haystack.index(needle)
+#         else:
+#             return -1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # class Solution:
 #     def strStr(self, haystack: str, needle: str) -> int:
 #         res = -1
@@ -29,4 +29,4 @@ class Solution:
             return haystack.index(needle)
         else:
             return -1
-```
+# ```

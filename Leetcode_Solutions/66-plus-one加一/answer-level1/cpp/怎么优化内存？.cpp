@@ -1,9 +1,9 @@
-### 解题思路
-考虑了特殊情况，但是执行效果并不好，最后选择这种比较简洁的代码吧。
+// ### 解题思路
+// 考虑了特殊情况，但是执行效果并不好，最后选择这种比较简洁的代码吧。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -22,4 +22,4 @@ public:
         return digits;
     }
 };
-```
+// ```

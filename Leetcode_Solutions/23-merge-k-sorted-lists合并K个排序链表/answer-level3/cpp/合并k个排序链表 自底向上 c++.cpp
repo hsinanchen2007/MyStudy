@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/cb59ccdeadcf4bf262880d45db32d45fd07d73dc159fad00f96e25ce705ea89a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cb59ccdeadcf4bf262880d45db32d45fd07d73dc159fad00f96e25ce705ea89a-image.png)
 
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -55,4 +55,4 @@ public:
             return tempNode.next;
         }
 };
-```
+// ```

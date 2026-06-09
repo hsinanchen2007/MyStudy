@@ -1,5 +1,5 @@
-Python3 先将 nums1 后移 m 位，然后就是简单的比大小依次赋值给 nums1
-```python3
+# Python3 先将 nums1 后移 m 位，然后就是简单的比大小依次赋值给 nums1
+# ```python3
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -31,4 +31,4 @@ class Solution:
             nums1[i:] = nums2[p2:]
         
         return None
-```
+# ```

@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
 	vector<int> decompressRLElist(vector<int>& nums) {
@@ -9,4 +9,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

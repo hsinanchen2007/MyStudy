@@ -1,10 +1,10 @@
-### 解题思路
-二分法
-注意：1、范围选取 2、范围收缩
+// ### 解题思路
+// 二分法
+// 注意：1、范围选取 2、范围收缩
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /** 
  * Forward declaration of guess API.
  * @param  num   your guess
@@ -28,4 +28,4 @@ int guessNumber(int n){
     }
     return low;
 }
-```
+// ```

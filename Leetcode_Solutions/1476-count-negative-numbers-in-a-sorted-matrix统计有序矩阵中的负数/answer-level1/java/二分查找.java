@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int countNegatives(int[][] grid) {
         if (grid == null || grid.length == 0) {
@@ -26,4 +26,4 @@ class Solution {
         return l;
     }
 }
-```
+// ```

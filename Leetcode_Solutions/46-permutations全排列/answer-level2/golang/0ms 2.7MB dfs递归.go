@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-见注释
+// 见注释
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 /*
 46. 全排列 https://leetcode-cn.com/problems/permutations/
@@ -39,4 +39,4 @@ func dfs(nums []int, count int, tmpArray []int, result *[][]int) {
 	return
 }
 
-```
+// ```

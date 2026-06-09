@@ -1,6 +1,6 @@
-twoSum采用双指针实现，(k)_Sum可以看作遍历nums中每个元素作为target的(k-1)_Sum。
+// twoSum采用双指针实现，(k)_Sum可以看作遍历nums中每个元素作为target的(k-1)_Sum。
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -65,4 +65,4 @@ public:
 		return results;
 	}
 };
-```
+// ```

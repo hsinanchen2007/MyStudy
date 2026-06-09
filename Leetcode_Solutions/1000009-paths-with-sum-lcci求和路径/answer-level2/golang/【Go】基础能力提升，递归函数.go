@@ -1,4 +1,4 @@
-```
+// ```
 func pathSum(root *TreeNode, sum int) int {
 	if root == nil {
 		return 0
@@ -42,4 +42,4 @@ func pathSumUp2Down(sum int, root *TreeNode) int {
 	dfs(root)
 	return result
 }
-```
+// ```

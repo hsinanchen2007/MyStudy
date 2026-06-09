@@ -1,6 +1,6 @@
- 这题偏数学，算法的东西少一些
+//  这题偏数学，算法的东西少一些
 
-```php
+// ```php
 class Solution
 {
 
@@ -23,4 +23,4 @@ class Solution
         return $b == 0 ? $a : $this->gcd($b, $a % $b);
     }
 }
-```
+// ```

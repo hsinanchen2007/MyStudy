@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/2dd3a7390912d4f5c71a1d9f7777da633fcd800561c21f246fbe5ddf5377d557-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/2dd3a7390912d4f5c71a1d9f7777da633fcd800561c21f246fbe5ddf5377d557-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isOneEditDistance(string s, string t) {
@@ -51,4 +51,4 @@ public:
         
     }
 };
-```
+// ```

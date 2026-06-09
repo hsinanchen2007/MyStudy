@@ -1,5 +1,5 @@
-由于stringstream时c++中十分常见的字符串与数字相互转换的方式，完全可以直接使用。
-```
+// 由于stringstream时c++中十分常见的字符串与数字相互转换的方式，完全可以直接使用。
+// ```
 class Solution {
 public:
     int reverse(int x) {
@@ -27,4 +27,4 @@ public:
     return x;
 }
 };
-```
+// ```

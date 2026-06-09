@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-屏幕快照 2020-03-31 14.11.23
-![image.png](https://pic.leetcode-cn.com/42b692bf2670d467c21cd9a70ebaf6bde551cec2cb02ec78344f2aaa4557122d-image.png)
+# ### 解题思路
+# 此处撰写解题思路
+# 屏幕快照 2020-03-31 14.11.23
+# ![image.png](https://pic.leetcode-cn.com/42b692bf2670d467c21cd9a70ebaf6bde551cec2cb02ec78344f2aaa4557122d-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
             res.append(list(tmp))   # 注意最后把deque转化为list
         return res
 
-```
+# ```

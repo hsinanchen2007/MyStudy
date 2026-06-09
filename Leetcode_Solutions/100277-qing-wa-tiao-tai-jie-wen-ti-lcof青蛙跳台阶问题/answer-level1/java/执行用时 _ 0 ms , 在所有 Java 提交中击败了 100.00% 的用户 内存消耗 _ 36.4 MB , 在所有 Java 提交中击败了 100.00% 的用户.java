@@ -1,9 +1,9 @@
-### 解题思路
-不知道和面试题9又啥区别。。。
+// ### 解题思路
+// 不知道和面试题9又啥区别。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numWays(int n) {
         if(n==0){
@@ -21,4 +21,4 @@ class Solution {
         return results[n]%1000000007;
     }
 }
-```
+// ```

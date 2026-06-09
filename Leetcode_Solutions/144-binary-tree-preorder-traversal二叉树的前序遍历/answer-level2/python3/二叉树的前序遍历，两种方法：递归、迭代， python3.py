@@ -1,8 +1,8 @@
-### 解题思路
-递归
-### 代码
+# ### 解题思路
+# 递归
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def __init__(self):
         self.ans = []
@@ -15,14 +15,14 @@ class Solution:
         self.preorderTraversal(root.left)
         self.preorderTraversal(root.right)
         return self.ans
-```
+# ```
 
-### 解题思路
-迭代
+# ### 解题思路
+# 迭代
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
         if root is None:
@@ -37,4 +37,4 @@ class Solution:
                 if root.left is not None:
                     stack.append(root.left)
         return output
-```
+# ```

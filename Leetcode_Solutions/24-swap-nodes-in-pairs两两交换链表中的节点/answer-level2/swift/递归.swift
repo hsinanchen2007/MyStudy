@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-按照题解，将链表划分成若干个小链表，每个小链表内的节点操作保持一致，设置head和next，于是可以尝试用递归实现
+// 按照题解，将链表划分成若干个小链表，每个小链表内的节点操作保持一致，设置head和next，于是可以尝试用递归实现
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ func swapPairs(_ head: ListNode?) -> ListNode? {
         return next;
     }
 }
-```
+// ```

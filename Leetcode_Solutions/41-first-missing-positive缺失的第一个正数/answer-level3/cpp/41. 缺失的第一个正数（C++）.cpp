@@ -1,6 +1,6 @@
-# 41. 缺失的第一个正数
-先排序，再循环好最小的正数
-```
+// # 41. 缺失的第一个正数
+// 先排序，再循环好最小的正数
+// ```
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
     	return temp;
     }
 };
-```
+// ```

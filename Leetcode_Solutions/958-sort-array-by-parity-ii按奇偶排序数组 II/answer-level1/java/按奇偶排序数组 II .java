@@ -1,5 +1,5 @@
-方法一：
-```
+// 方法一：
+// ```
 class Solution {
     public int[] sortArrayByParityII(int[] A) {
         if(A.length < 2 || A.length> 20000 || A.length % 2 != 0) {
@@ -23,11 +23,11 @@ class Solution {
         return B;    
     }
 }
-```
+// ```
 
 
-方法二：参考官方思路自行写的方法，执行效率超慢
-```
+// 方法二：参考官方思路自行写的方法，执行效率超慢
+// ```
 class Solution {
     public int[] sortArrayByParityII(int[] A) {
         if(A.length < 2 || A.length> 20000 || A.length % 2 != 0) {
@@ -62,6 +62,6 @@ class Solution {
         return A;  
     }
 }
-```
+// ```
 
 

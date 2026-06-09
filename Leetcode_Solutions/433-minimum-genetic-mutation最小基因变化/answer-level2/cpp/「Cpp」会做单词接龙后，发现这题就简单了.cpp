@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-这道题目就是127，单词接龙的简化版。单词接龙，每个单词有23个选择，但是对于碱基而言，就只有3个选择。
+// 这道题目就是127，单词接龙的简化版。单词接龙，每个单词有23个选择，但是对于碱基而言，就只有3个选择。
 
-- https://leetcode-cn.com/problems/word-ladder/solution/cpp-sui-ran-su-du-you-dian-man-dan-shi-bi-jiao-ron/
-- https://leetcode-cn.com/problems/word-ladder/solution/cpp-yi-ge-si-lu-de-zhuan-bian-cong-1156msjia-su-da/
+// - https://leetcode-cn.com/problems/word-ladder/solution/cpp-sui-ran-su-du-you-dian-man-dan-shi-bi-jiao-ron/
+// - https://leetcode-cn.com/problems/word-ladder/solution/cpp-yi-ge-si-lu-de-zhuan-bian-cong-1156msjia-su-da/
 
-核心代码如下
+// 核心代码如下
 
-```cpp
+// ```cpp
             for (int i = 0; i < gene.length(); i++){
                 char tmp =  gene[i]; //记录原状态
                 for (char base : "ATCG"){
@@ -19,13 +19,13 @@
                     }
                 }
                 gene[i] = tmp;
-```
+// ```
 
-遍历基因的每个碱基，然后将其进行替换，如果在基因库中有候选，那就完成一次突变，并且从基因库中将对应的基因删除。
+// 遍历基因的每个碱基，然后将其进行替换，如果在基因库中有候选，那就完成一次突变，并且从基因库中将对应的基因删除。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minMutation(string start, string end, vector<string>& bank) {
@@ -68,4 +68,4 @@ public:
 
     }
 };
-```
+// ```

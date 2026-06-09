@@ -1,7 +1,7 @@
-最大路径在三种可能里选最大的。
-（1）左子树里计算（2）在右子树里计算（2）这棵树的左树深度加右树深度
+# 最大路径在三种可能里选最大的。
+# （1）左子树里计算（2）在右子树里计算（2）这棵树的左树深度加右树深度
 
-```
+# ```
 class Solution:
     def diameterOfBinaryTree(self, root: TreeNode) -> int: 
         def depth(root):  #算深度的方法
@@ -12,11 +12,11 @@ class Solution:
        if  not root:
             return 0
         return max(self.diameterOfBinaryTree(root.left),self.diameterOfBinaryTree(root.right),depth(root.right)+depth(root.left))
-```
+# ```
 
 
-优化了一下，算深度，同时更新最大路径
-```
+# 优化了一下，算深度，同时更新最大路径
+# ```
 class Solution:
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
         self.res=0
@@ -29,4 +29,4 @@ class Solution:
             return max(left,right)+1
         travel(root)
         return self.res
-```
+# ```

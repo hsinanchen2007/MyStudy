@@ -1,9 +1,9 @@
-### 解题思路
-注意dp数组的初始化。
+# ### 解题思路
+# 注意dp数组的初始化。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         dp = [amount + 1] * (amount + 1)
@@ -18,4 +18,4 @@ class Solution:
 
 
         
-```
+# ```

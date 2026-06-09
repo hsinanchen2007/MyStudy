@@ -1,5 +1,5 @@
-pre指向m的前一个结点，从m+1到n依次插入到pre之后即可，只需一次for循环，0ms 100%
-```java
+// pre指向m的前一个结点，从m+1到n依次插入到pre之后即可，只需一次for循环，0ms 100%
+// ```java
 public ListNode reverseBetween(ListNode head, int m, int n) {
     if (null == head || null == head.next || m == n) {
         return head;
@@ -23,4 +23,4 @@ public ListNode reverseBetween(ListNode head, int m, int n) {
     }
     return newHead.next;
 }
-```
+// ```

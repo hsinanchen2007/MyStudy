@@ -1,12 +1,12 @@
-存在三种情况：
-1.mid>right
-即[3,4,5,1,2]  那么带查找区间在右侧，即right=mid+1;
-2.mid==right
-即[3,4,1,1,1]  那么需要缩小待查找区间，即right--;
-3.mid<right
-即[1,2,3,4,5]   那么待查找区间在左侧，即left=mid;
+// 存在三种情况：
+// 1.mid>right
+// 即[3,4,5,1,2]  那么带查找区间在右侧，即right=mid+1;
+// 2.mid==right
+// 即[3,4,1,1,1]  那么需要缩小待查找区间，即right--;
+// 3.mid<right
+// 即[1,2,3,4,5]   那么待查找区间在左侧，即left=mid;
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int minArray(vector<int>& numbers) {
@@ -36,6 +36,6 @@ public:
 
     }
 };
-```
+// ```
 
 

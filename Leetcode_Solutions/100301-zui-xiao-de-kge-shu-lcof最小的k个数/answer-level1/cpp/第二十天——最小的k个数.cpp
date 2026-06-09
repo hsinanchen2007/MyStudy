@@ -1,9 +1,9 @@
-### 解题思路
-使用冒泡排序，时间复杂度较差
+// ### 解题思路
+// 使用冒泡排序，时间复杂度较差
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -22,4 +22,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-每个数遍历一遍，找到前边界，再倒序遍历一遍，找到左边界
-### 代码
+// ### 解题思路
+// 每个数遍历一遍，找到前边界，再倒序遍历一遍，找到左边界
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findUnsortedSubarray(vector<int>& nums) {
@@ -53,4 +53,4 @@ public:
         return b-a+1;
     }
 };
-```
+// ```

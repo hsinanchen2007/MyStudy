@@ -1,12 +1,12 @@
-### 解题思路
-建立一个一维数组list
-list中的每个元素为用户分组号，与res对应，进行约束
-如list[0]的值为3，则res[0]中的元素不超过3个，如果超过则建立list[1]与res[1]
-每次查找list中是否有当前用户分组的值并对应res中是否满了来确定将当前用户归到哪里
+// ### 解题思路
+// 建立一个一维数组list
+// list中的每个元素为用户分组号，与res对应，进行约束
+// 如list[0]的值为3，则res[0]中的元素不超过3个，如果超过则建立list[1]与res[1]
+// 每次查找list中是否有当前用户分组的值并对应res中是否满了来确定将当前用户归到哪里
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

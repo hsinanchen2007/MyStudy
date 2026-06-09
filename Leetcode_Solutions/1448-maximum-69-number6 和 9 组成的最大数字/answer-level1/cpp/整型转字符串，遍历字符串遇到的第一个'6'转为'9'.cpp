@@ -1,5 +1,5 @@
-题目中已经给出的条件可以少进行一些判断，直接使用标准库的to_string和stoi进行整型字符串互转
-```
+// 题目中已经给出的条件可以少进行一些判断，直接使用标准库的to_string和stoi进行整型字符串互转
+// ```
 class Solution {
 public:
     int maximum69Number (int num) {
@@ -16,4 +16,4 @@ public:
         return std::stoi(num_str);
     }
 };
-```
+// ```

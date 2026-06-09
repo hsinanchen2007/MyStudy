@@ -1,9 +1,9 @@
-### 解题思路
-与其他实现相比，主要是加了heads和tails
+# ### 解题思路
+# 与其他实现相比，主要是加了heads和tails
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Node:
     def __init__(self, val):
         self.val = val
@@ -63,4 +63,4 @@ class Skiplist:
             else:
                 current = current.right
         return is_removed
-```
+# ```

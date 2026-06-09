@@ -1,7 +1,7 @@
-[用JS刷Leetcode](https://github.com/careteenL/data-structure_algorithm/blob/0816-leetcode/src/leetcode)
+// [用JS刷Leetcode](https://github.com/careteenL/data-structure_algorithm/blob/0816-leetcode/src/leetcode)
 
-[解题思路-PPT形式](https://github.com/careteenL/data-structure_algorithm/blob/0816-leetcode/src/data-structure/reverse-linked-list.md)
-```js
+// [解题思路-PPT形式](https://github.com/careteenL/data-structure_algorithm/blob/0816-leetcode/src/data-structure/reverse-linked-list.md)
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -33,4 +33,4 @@ var reverseList = function(head) {
   return _reverse.head
 };
 
-```
+// ```

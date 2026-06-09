@@ -1,10 +1,10 @@
-### 解题思路
-![屏幕快照 2020-02-06 14.23.54.png](https://pic.leetcode-cn.com/c2ee2bc95b0f50e03cfae436db780df13efa4902cbd9ec3c205751d91dd376fc-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-06%2014.23.54.png)
+// ### 解题思路
+// ![屏幕快照 2020-02-06 14.23.54.png](https://pic.leetcode-cn.com/c2ee2bc95b0f50e03cfae436db780df13efa4902cbd9ec3c205751d91dd376fc-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-06%2014.23.54.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     /**
@@ -48,4 +48,4 @@ class Solution {
         return x >= 0 && x < m && y >= 0 && y < n;
     }
 }
-```
+// ```

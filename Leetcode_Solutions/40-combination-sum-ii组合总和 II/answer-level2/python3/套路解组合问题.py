@@ -1,5 +1,5 @@
-**与**[`组合总和Ⅰ题解中解法二`](https://leetcode-cn.com/problems/combination-sum/solution/jie-fa-zong-lan-by-li-xian-sen/)**同样的套路模板**
-```python
+# **与**[`组合总和Ⅰ题解中解法二`](https://leetcode-cn.com/problems/combination-sum/solution/jie-fa-zong-lan-by-li-xian-sen/)**同样的套路模板**
+# ```python
 from typing import List
 
 
@@ -25,4 +25,4 @@ class Solution:
         output = []
         backtrack(target, [], 0)
         return output
-```
+# ```

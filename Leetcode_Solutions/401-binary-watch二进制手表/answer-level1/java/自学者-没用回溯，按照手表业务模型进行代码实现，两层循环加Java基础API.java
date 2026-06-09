@@ -1,11 +1,11 @@
-### 解题思路
-* 业务模型，两层循环
-* 二进制个数之和等于给定数值满足添加要求
-* Integer.toString()转换整数为字符串
+// ### 解题思路
+// * 业务模型，两层循环
+// * 二进制个数之和等于给定数值满足添加要求
+// * Integer.toString()转换整数为字符串
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public Solution() {
     }
@@ -24,4 +24,4 @@ class Solution {
         return res;
     }     
 }
-```
+// ```

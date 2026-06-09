@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums   给定的整数数组
  * @param {number} target： 期望得到的目标和值
@@ -21,4 +21,4 @@ var twoSum = function(nums, target) {
         }
     }
 };
-```
+// ```

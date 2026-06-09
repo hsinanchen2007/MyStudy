@@ -1,9 +1,9 @@
-### 解题思路
-单纯使用队列实现了栈，两个队列实现
+// ### 解题思路
+// 单纯使用队列实现了栈，两个队列实现
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -52,4 +52,4 @@ private:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

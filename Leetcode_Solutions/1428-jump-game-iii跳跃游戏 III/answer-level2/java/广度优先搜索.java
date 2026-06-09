@@ -1,5 +1,5 @@
-使用广度优先搜索。从`start`点开始，每次取往左和往右的两个位置进行下一次访问，并标记访问过的位置。如果访问到元素为0的位置，则返回`true`。如果所有可访问的位置都已经访问过，仍未访问到元素为0的位置，则返回`false`。
-```
+// 使用广度优先搜索。从`start`点开始，每次取往左和往右的两个位置进行下一次访问，并标记访问过的位置。如果访问到元素为0的位置，则返回`true`。如果所有可访问的位置都已经访问过，仍未访问到元素为0的位置，则返回`false`。
+// ```
 class Solution {
     public boolean canReach(int[] arr, int start) {
         int length = arr.length;
@@ -31,4 +31,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

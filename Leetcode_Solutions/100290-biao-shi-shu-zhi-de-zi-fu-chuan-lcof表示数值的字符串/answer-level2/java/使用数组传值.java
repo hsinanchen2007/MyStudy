@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isNumber(String s) {
         if(s==null||s.length()==0) return false;
@@ -49,4 +49,4 @@ class Solution {
 
 }
 
-```
+// ```

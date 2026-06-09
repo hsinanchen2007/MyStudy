@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findSubstring(s string, words []string) []int {
     r := []int{}
 
@@ -80,4 +80,4 @@ func findSubstring(s string, words []string) []int {
     
     return r
 }
-```
+// ```

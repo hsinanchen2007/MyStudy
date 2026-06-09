@@ -1,7 +1,7 @@
-首先只用加法实现了int32的减1 (`minus_one`),减去某个bit (`minus_bit`), 取反(`inv`)，一元减(`unary_minus`), 左移，右移操作。
-再实现减法，乘法，除法。
+// 首先只用加法实现了int32的减1 (`minus_one`),减去某个bit (`minus_bit`), 取反(`inv`)，一元减(`unary_minus`), 左移，右移操作。
+// 再实现减法，乘法，除法。
 
-```c++
+// ```c++
 
 typedef unsigned long long ULL;
 bool inited = false;
@@ -167,4 +167,4 @@ public:
     }
 };
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-    采用虚拟头结点方法删除链表中的节点。
+// ### 解题思路
+//     采用虚拟头结点方法删除链表中的节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ class Solution {
         return p.next;
     }
 }
-```
+// ```

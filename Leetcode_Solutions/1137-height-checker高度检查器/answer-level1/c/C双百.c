@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先排序，然后比较
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先排序，然后比较
+// ### 代码
 
-```c
+// ```c
 int cmp(int *a,int *b)
 {
     return *a - *b;
@@ -27,4 +27,4 @@ int heightChecker(int* heights, int heightsSize)
     }
     return count;
 }
-```
+// ```

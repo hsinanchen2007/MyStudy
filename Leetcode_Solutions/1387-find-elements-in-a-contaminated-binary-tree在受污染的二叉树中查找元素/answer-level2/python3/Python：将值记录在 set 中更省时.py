@@ -1,7 +1,7 @@
-使用 list 保存值，执行用时 972 ms
-使用 set  保存值，执行用时 124 ms
+# 使用 list 保存值，执行用时 972 ms
+# 使用 set  保存值，执行用时 124 ms
 
-```python
+# ```python
 class FindElements:
 
     def __init__(self, root: TreeNode):
@@ -15,4 +15,4 @@ class FindElements:
 
     def find(self, target: int) -> bool:
         return target in self.values
-```
+# ```

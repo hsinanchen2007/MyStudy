@@ -1,9 +1,9 @@
-golang解决，使用map作词频统计
+// golang解决，使用map作词频统计
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
 
-```
+// ```
 // 使用map作词频统计
 // 时间复杂度：O(n)  空间复杂度：O(s)  其中，n为所有词的总长度，s为单词组的字符集大小
 
@@ -52,4 +52,4 @@ func countCharacters(words []string, chars string) int {
 
 	return cnt
 }
-```
+// ```

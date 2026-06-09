@@ -1,9 +1,9 @@
-### 解题思路
-用蛮力解此题，没超时，成绩还不错。
+// ### 解题思路
+// 用蛮力解此题，没超时，成绩还不错。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
 
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -37,4 +37,4 @@ int* sortedSquares(int* A, int ASize, int* returnSize)
 	} 
 	return B;
 }
-```
+// ```

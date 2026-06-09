@@ -1,4 +1,4 @@
-```
+// ```
 class ValidWordAbbr {
     /**
      * @param String[] $dictionary
@@ -27,4 +27,4 @@ class ValidWordAbbr {
         return $s[0].($n-2).$s[$n-1];
     }
 }
-```
+// ```

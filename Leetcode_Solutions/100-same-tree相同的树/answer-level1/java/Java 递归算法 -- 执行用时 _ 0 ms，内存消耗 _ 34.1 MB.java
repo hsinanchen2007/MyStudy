@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ class Solution {
         return (isSameTree(p.left, q.left) && isSameTree(p.right, q.right));
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-以下均为学习大佬代码后写出
-动态规划
-```
+// 以下均为学习大佬代码后写出
+// 动态规划
+// ```
 int compare(int a,int b){
     return b-a;
 }
@@ -25,9 +25,9 @@ bool canPartition(int* nums, int numsSize){
     }
     return dp[target];
 }
-```
-递归
-```
+// ```
+// 递归
+// ```
 int compare(int a,int b){
     return a-b;
 }
@@ -52,4 +52,4 @@ int find(int* nums,int idx,int had,int pass){
     else return (find(nums,idx-1,had-nums[idx],pass)||find(nums,idx-1,had,pass-nums[idx]));
 
 }
-```
+// ```

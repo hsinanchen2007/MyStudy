@@ -1,5 +1,5 @@
-哈希表思路,为每个元素所对应的行,列,宫 创建一个哈希表查重复
-```
+// 哈希表思路,为每个元素所对应的行,列,宫 创建一个哈希表查重复
+// ```
 public bool IsValidSudoku(char[][] board)
     {
         if (board==null || board.Length==0 )
@@ -41,4 +41,4 @@ public bool IsValidSudoku(char[][] board)
         }
         return true;
     }
-```
+// ```

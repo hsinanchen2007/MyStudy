@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![截屏2020-03-15下午7.42.51.png](https://pic.leetcode-cn.com/74891a4b4fbe6404f605a386b3dd49081d8f1fda456e1ee6438dbbe5ca119414-%E6%88%AA%E5%B1%8F2020-03-15%E4%B8%8B%E5%8D%887.42.51.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![截屏2020-03-15下午7.42.51.png](https://pic.leetcode-cn.com/74891a4b4fbe6404f605a386b3dd49081d8f1fda456e1ee6438dbbe5ca119414-%E6%88%AA%E5%B1%8F2020-03-15%E4%B8%8B%E5%8D%887.42.51.png)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxAreaOfIsland(grid [][]int) int {
 	n := 0
 	for i,_ := range grid {
@@ -49,4 +49,4 @@ func search(grid [][]int,i,j,n int) int {
 
 	return n+1
 }
-```
+// ```

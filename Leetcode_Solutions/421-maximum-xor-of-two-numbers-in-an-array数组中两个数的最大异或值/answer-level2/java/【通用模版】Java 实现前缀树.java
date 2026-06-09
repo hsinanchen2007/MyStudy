@@ -1,9 +1,9 @@
-### 解题思路
-代码中只有一处与[「探索——前缀树」](https://leetcode-cn.com/explore/learn/card/trie/168/practical-application-ii/651/)的通用模版中不同的地方，已经给出相应注释，相信如果知道前缀树的通用模版，其他地方都能看懂了。（PS：原本 `node` 中的 `children` 是使用 map 来实现的，竟然超时了...）
+// ### 解题思路
+// 代码中只有一处与[「探索——前缀树」](https://leetcode-cn.com/explore/learn/card/trie/168/practical-application-ii/651/)的通用模版中不同的地方，已经给出相应注释，相信如果知道前缀树的通用模版，其他地方都能看懂了。（PS：原本 `node` 中的 `children` 是使用 map 来实现的，竟然超时了...）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     class Node {
@@ -70,4 +70,4 @@ class Solution {
         return (num >>> bit) & 1; 
     }
 }
-```
+// ```

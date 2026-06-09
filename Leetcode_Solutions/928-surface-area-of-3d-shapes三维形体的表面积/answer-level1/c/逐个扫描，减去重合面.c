@@ -1,9 +1,9 @@
-### 解题思路
-逐个方块进行扫描，减去三个方向的重合面
+// ### 解题思路
+// 逐个方块进行扫描，减去三个方向的重合面
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
     int i = 0,j = 0,k = 0,area = 0;
     for(i = 0;i<gridSize;i++)
@@ -31,4 +31,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     return area;
 
 }
-```
+// ```

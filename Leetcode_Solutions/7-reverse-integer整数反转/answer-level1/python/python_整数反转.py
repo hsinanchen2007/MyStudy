@@ -1,12 +1,12 @@
-### 解题思路
-我的想法是：
-1. int和str相互转换。
-2. str转入list中。
-3. 将list反转。
-4. 将list转str。
-### 代码
+# ### 解题思路
+# 我的想法是：
+# 1. int和str相互转换。
+# 2. str转入list中。
+# 3. 将list反转。
+# 4. 将list转str。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         a=str(x)
@@ -38,4 +38,4 @@ class Solution:
 
 
 
-```
+# ```

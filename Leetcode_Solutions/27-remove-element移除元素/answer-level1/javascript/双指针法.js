@@ -1,9 +1,9 @@
-### 解题思路
-双指针法，做过最简单的一道题
+// ### 解题思路
+// 双指针法，做过最简单的一道题
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -23,4 +23,4 @@ var removeElement = function(nums, val) {
         }
         return i;
 };
-```
+// ```

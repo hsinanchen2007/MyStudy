@@ -1,4 +1,4 @@
-```
+// ```
 public string ToGoatLatin(string S) {
         var sb=new StringBuilder();
         var dict=new HashSet<char>{'a','A','e','E','i','I','o','O','u','U'};
@@ -35,4 +35,4 @@ public string ToGoatLatin(string S) {
         }
         return sb.ToString();
     }
-```
+// ```

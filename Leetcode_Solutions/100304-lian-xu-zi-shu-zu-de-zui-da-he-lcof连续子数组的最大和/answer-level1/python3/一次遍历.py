@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         cur = 0
@@ -10,4 +10,4 @@ class Solution:
                 cur += num
             ans = max(cur, ans)
         return ans 
-```
+# ```

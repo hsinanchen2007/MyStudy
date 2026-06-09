@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-B[i] = a[i] 左边的 * a[i] 右边的，两个循环分别乘就可以了。
+// B[i] = a[i] 左边的 * a[i] 右边的，两个循环分别乘就可以了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] constructArr(int[] a) {
         int[] res = new int[a.length];
@@ -24,4 +24,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

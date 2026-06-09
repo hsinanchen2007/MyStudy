@@ -1,5 +1,5 @@
-不难理解，看代码看代码
-```java
+// 不难理解，看代码看代码
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
@@ -45,4 +45,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用大顶堆的peek()是最大值，remove(num)可以直接去除num元素，每一轮去掉一个数，再添加一个数，将当前peek添加到结果中
+// ### 解题思路
+// 利用大顶堆的peek()是最大值，remove(num)可以直接去除num元素，每一轮去掉一个数，再添加一个数，将当前peek添加到结果中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums == null || nums.length == 0 || k <= 0)
@@ -27,4 +27,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-双指针：i用来探索，j用来保持 <=j 的元素都不重复
+// 双指针：i用来探索，j用来保持 <=j 的元素都不重复
 
     class Solution {
         public int removeDuplicates(int[] nums) {

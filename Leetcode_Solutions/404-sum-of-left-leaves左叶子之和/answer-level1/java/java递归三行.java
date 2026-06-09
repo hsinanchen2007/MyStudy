@@ -1,5 +1,5 @@
-采用递归：
-```
+// 采用递归：
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -16,4 +16,4 @@ class Solution {
         return sumOfLeftLeaves(root.left) + sumOfLeftLeaves(root.right);
     }
 }
-```
+// ```

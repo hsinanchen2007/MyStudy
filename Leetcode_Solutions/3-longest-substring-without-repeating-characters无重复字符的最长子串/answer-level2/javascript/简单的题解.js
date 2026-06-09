@@ -1,9 +1,9 @@
-### 解题思路
-不跑了越跑越慢 开始还能 80ms现在都120ms了，
-思路很简单吧，就字符串不断的往上加，如果遇到重复的直接截断
-### 代码
+// ### 解题思路
+// 不跑了越跑越慢 开始还能 80ms现在都120ms了，
+// 思路很简单吧，就字符串不断的往上加，如果遇到重复的直接截断
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -20,4 +20,4 @@ var lengthOfLongestSubstring = function (s, m = 0, t = '') { // 多加了 m, t �
     }
     return m;
 };
-```
+// ```

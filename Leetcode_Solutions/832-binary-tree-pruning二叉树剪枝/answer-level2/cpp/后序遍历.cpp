@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     TreeNode* pruneTree(TreeNode* root) {
@@ -8,4 +8,4 @@ public:
         return (root->left==nullptr && root->right==nullptr && root->val==0)?nullptr:root;
     }
 };
-```
+// ```

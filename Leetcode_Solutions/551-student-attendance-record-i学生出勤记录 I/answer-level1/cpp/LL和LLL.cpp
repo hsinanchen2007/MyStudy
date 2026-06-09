@@ -1,8 +1,8 @@
-### 解题思路
-主要还是理解题目意思吧。LL是OK的，也就是A最多一个而且L连续三次不可以。
-### 代码
+// ### 解题思路
+// 主要还是理解题目意思吧。LL是OK的，也就是A最多一个而且L连续三次不可以。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkRecord(string s) {
@@ -20,4 +20,4 @@ public:
             return true;
     }
 };
-```
+// ```

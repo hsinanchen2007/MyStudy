@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         n=len(strs)
@@ -25,7 +25,7 @@ class Solution:
                         return "".join(a_list)
             return "".join(a_list)
 
-```
+# ```
 
           
                     

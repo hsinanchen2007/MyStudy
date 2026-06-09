@@ -1,9 +1,9 @@
-### 解题思路
-尽量用max函数，比较靠谱
+// ### 解题思路
+// 尽量用max函数，比较靠谱
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,4 +23,4 @@ public:
          return 0;
     }
 };
-```
+// ```

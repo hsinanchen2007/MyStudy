@@ -1,5 +1,5 @@
-很奇怪在测试样例11, 8, 16，我的答案是87，结果是88，一直没能看出哪里写错了，求教
-```
+# 很奇怪在测试样例11, 8, 16，我的答案是87，结果是88，一直没能看出哪里写错了，求教
+# ```
 class Solution(object):
     def check(self, x, y, k):
         if x < 0 or y < 0:
@@ -56,4 +56,4 @@ ans = Solution().movingCount(
 )
 print(ans)
 
-```
+# ```

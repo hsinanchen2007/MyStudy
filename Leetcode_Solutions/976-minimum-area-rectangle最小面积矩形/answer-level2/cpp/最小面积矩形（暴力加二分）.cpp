@@ -1,5 +1,5 @@
-先排序，再枚举矩形左下和右上两个点，二分查找剩余两个点是否存在。
-```
+// 先排序，再枚举矩形左下和右上两个点，二分查找剩余两个点是否存在。
+// ```
 class Solution {
 public:
     struct node {
@@ -53,7 +53,7 @@ public:
         return answer == 1600000000 ? 0:answer;
     }
 };
-```
-![E51F7895-3A98-4803-9486-C75991EAEB2C.png](https://pic.leetcode-cn.com/87c58305aa91da3a3b9a58da0a5afd9000d24d9cd0690032a1c15b3f9a526362-E51F7895-3A98-4803-9486-C75991EAEB2C.png)
+// ```
+// ![E51F7895-3A98-4803-9486-C75991EAEB2C.png](https://pic.leetcode-cn.com/87c58305aa91da3a3b9a58da0a5afd9000d24d9cd0690032a1c15b3f9a526362-E51F7895-3A98-4803-9486-C75991EAEB2C.png)
 
 

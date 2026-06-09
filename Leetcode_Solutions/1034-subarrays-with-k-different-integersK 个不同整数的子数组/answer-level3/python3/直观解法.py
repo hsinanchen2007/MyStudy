@@ -1,9 +1,9 @@
-思路：
-1. 使用一个map保存窗口中不同的数字对应的个数；
-2. 维护左下标posLeft、右下标posRight，表示最大包含K个不同数字的区间，当posLeft到posRight之间不同数字小于等于K时，posRight+=1；
-3. 循环posRight从0到len(A);
-4. 当posRight对应元素的加入导致posLeft到posRight之间不同数字等于K+1时，posLeft右移并且在右移过程中检查是否存在K个不同数字；
-5. 代码如下：
+# 思路：
+# 1. 使用一个map保存窗口中不同的数字对应的个数；
+# 2. 维护左下标posLeft、右下标posRight，表示最大包含K个不同数字的区间，当posLeft到posRight之间不同数字小于等于K时，posRight+=1；
+# 3. 循环posRight从0到len(A);
+# 4. 当posRight对应元素的加入导致posLeft到posRight之间不同数字等于K+1时，posLeft右移并且在右移过程中检查是否存在K个不同数字；
+# 5. 代码如下：
 
 
     def subarraysWithKDistinct(self, A: List[int], K: int) -> int:

@@ -1,22 +1,22 @@
-### 解题思路：
+# ### 解题思路：
 
-#### 思路一：
+# #### 思路一：
 
-用栈，我们把 `k` 个数压入栈中，然后弹出来的顺序就是翻转的！
+# 用栈，我们把 `k` 个数压入栈中，然后弹出来的顺序就是翻转的！
 
-这里要注意几个问题：
+# 这里要注意几个问题：
 
-第一，剩下的链表个数够不够 `k` 个（因为不够 `k` 个不用翻转）；
+# 第一，剩下的链表个数够不够 `k` 个（因为不够 `k` 个不用翻转）；
 
-第二，已经翻转的部分要与剩下链表连接起来。
+# 第二，已经翻转的部分要与剩下链表连接起来。
 
-#### 思路二：
+# #### 思路二：
 
-尾插法。
+# 尾插法。
 
-直接举个例子：`k = 3`。
+# 直接举个例子：`k = 3`。
 
-```python [-Python]
+# ```python [-Python]
 pre
 tail    head
 dummy    1     2     3     4     5
@@ -33,20 +33,20 @@ pre     tail      head
 dummy    3     2    1     4     5
 		cur
 ....
-```
+# ```
 
-#### 思路三：
+# #### 思路三：
 
-递归
+# 递归
 
------
+# -----
 
-##### 代码 1：
+# ##### 代码 1：
 
 
-栈
+# 栈
 
-```Python []
+# ```Python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -79,8 +79,8 @@ class Solution:
             head = tmp
         
         return dummy.next
-```
-```Java []
+# ```
+# ```Java []
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -116,13 +116,13 @@ class Solution {
         return dummy.next;
     }
 }
-```
+# ```
 
-##### 代码 2：
+# ##### 代码 2：
 
-尾插法
+# 尾插法
 
-```Python []
+# ```Python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -152,8 +152,8 @@ class Solution:
             pre = head 
             tail = head
         return dummy.next
-```
-```Java []
+# ```
+# ```Java []
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -188,13 +188,13 @@ class Solution {
         return dummy.next;
     }
 }
-```
+# ```
 
-##### 代码 3：
+# ##### 代码 3：
 
-递归
+# 递归
 
-```Python []
+# ```Python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -218,9 +218,9 @@ class Solution:
                 count -= 1
             head = cur   
         return head
-```
+# ```
 
-```Java []
+# ```Java []
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -251,5 +251,5 @@ class Solution {
         return head;
     }
 
-```
+# ```
 

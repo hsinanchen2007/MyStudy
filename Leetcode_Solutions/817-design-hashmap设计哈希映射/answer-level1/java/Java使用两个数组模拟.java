@@ -1,10 +1,10 @@
-### 解题思路
-keys数组：下标对应key，值对应value
-contains数组：存在key为true，不存在为false
+// ### 解题思路
+// keys数组：下标对应key，值对应value
+// contains数组：存在key为true，不存在为false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyHashMap {
     private int[] keys;
     private boolean[] contains;
@@ -38,4 +38,4 @@ class MyHashMap {
  * int param_2 = obj.get(key);
  * obj.remove(key);
  */
-```
+// ```

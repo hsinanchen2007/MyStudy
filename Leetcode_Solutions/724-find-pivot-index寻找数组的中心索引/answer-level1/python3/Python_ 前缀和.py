@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
         n = len(nums)
@@ -12,4 +12,4 @@ class Solution:
             if cumsum[-1] - cumsum[i+1] == cumsum[i]:
                 return i
         return -1
-```
+# ```

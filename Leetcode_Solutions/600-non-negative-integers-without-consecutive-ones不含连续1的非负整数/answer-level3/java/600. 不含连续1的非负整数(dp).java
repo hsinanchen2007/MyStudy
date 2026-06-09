@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/5de3c3514408947a9971bbdc3d9fda718459278e965f9f8a23dba3173708e7de-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5de3c3514408947a9971bbdc3d9fda718459278e965f9f8a23dba3173708e7de-image.png)
 
-```
+// ```
 class Solution {
     public int findIntegers(int num) {
         int[] dp;   //dp[i]是小于2^i的符合题意的个数
@@ -58,9 +58,9 @@ class Solution {
         return ans;
     }
 }
-```
-递归解法超时(多次算二进制位数),上面是根据递归解法得来的
-```
+// ```
+// 递归解法超时(多次算二进制位数),上面是根据递归解法得来的
+// ```
 class Solution {
     public int findIntegers(int num) {
         int k, t;
@@ -96,5 +96,5 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 

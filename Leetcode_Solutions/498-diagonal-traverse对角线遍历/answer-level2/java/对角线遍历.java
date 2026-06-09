@@ -1,8 +1,8 @@
-执行用时 : 5 ms, 在所有 Java 提交中击败了82.45%的用户
+// 执行用时 : 5 ms, 在所有 Java 提交中击败了82.45%的用户
 
-内存消耗 :50.4 MB, 在所有 Java 提交中击败了61.28%的用户
+// 内存消耗 :50.4 MB, 在所有 Java 提交中击败了61.28%的用户
 
-```
+// ```
 class Solution {
     public int[] findDiagonalOrder(int[][] matrix) {
         if(matrix==null||matrix.length==0||matrix[0]==null||matrix[0].length==0){
@@ -33,4 +33,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     // 根据两两之间的差值进行判断
     public int numberOfArithmeticSlices(int[] A) {
@@ -24,4 +24,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeCoveredIntervals(self, intervals: List[List[int]]) -> int:
         """
@@ -29,4 +29,4 @@ class Solution:
                 j += 1
         
         return (size - count)
-```
+# ```

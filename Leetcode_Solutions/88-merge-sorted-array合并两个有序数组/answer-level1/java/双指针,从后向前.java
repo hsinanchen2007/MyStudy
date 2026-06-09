@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         //记录当前值
@@ -35,4 +35,4 @@ class Solution {
         }
     }
 }
-```
+// ```

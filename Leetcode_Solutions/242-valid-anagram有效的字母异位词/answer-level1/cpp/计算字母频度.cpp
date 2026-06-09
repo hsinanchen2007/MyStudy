@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -17,4 +17,4 @@ public:
         return memcmp(sn, tn, sizeof(sn)) == 0;
     }
 };
-```
+// ```

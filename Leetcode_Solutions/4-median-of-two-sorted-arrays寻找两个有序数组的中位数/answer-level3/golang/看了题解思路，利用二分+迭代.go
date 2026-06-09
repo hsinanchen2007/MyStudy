@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	m, n := len(nums1), len(nums2)
 	left, right := (m+n+1)/2,
@@ -41,4 +41,4 @@ func Min(x, y int) int {
 	}
 	return x
 }
-```
+// ```

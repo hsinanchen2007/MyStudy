@@ -1,9 +1,9 @@
-### 解题思路
-考虑特殊情况：k=0、shorter==longer
+// ### 解题思路
+// 考虑特殊情况：k=0、shorter==longer
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] divingBoard(int shorter, int longer, int k) {
         if (k == 0) {
@@ -21,4 +21,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

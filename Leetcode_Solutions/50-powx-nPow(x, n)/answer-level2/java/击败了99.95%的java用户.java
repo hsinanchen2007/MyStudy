@@ -1,5 +1,5 @@
-代码参考了[此文](https://leetcode-cn.com/problems/powx-n/solution/qing-xi-jian-dan-de-dan-han-shu-di-gui-wu-lei-xing/)
-```java
+// 代码参考了[此文](https://leetcode-cn.com/problems/powx-n/solution/qing-xi-jian-dan-de-dan-han-shu-di-gui-wu-lei-xing/)
+// ```java
 class Solution {
     public double myPow(double x, int n) {
         if (n == 0) {
@@ -17,4 +17,4 @@ class Solution {
 
     }
 }
-```
+// ```

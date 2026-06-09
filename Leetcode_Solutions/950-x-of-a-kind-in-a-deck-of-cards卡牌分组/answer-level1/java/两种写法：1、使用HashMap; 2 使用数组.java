@@ -1,4 +1,4 @@
-```
+// ```
 1、使用HashMap 统计相同元素的个数
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
@@ -58,4 +58,4 @@ class Solution {
         return a == 0?b:gcd(b%a, a);
     }
 }
-```
+// ```

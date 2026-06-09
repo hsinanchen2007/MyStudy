@@ -1,14 +1,14 @@
-### 解题思路
-一边遍历一边存入新结果
-完全小于newInterval -> 直接存入 -> 下一个位置
-完全大于newInterval -> 先存入newInterval, flag = true, 再直接存入所有后续区间 -> 结束
-更新newInterval的大小 -> 下一个位置
-最后判断flag
-flag = false -> 没有存入newInterval, 直接存入
+// ### 解题思路
+// 一边遍历一边存入新结果
+// 完全小于newInterval -> 直接存入 -> 下一个位置
+// 完全大于newInterval -> 先存入newInterval, flag = true, 再直接存入所有后续区间 -> 结束
+// 更新newInterval的大小 -> 下一个位置
+// 最后判断flag
+// flag = false -> 没有存入newInterval, 直接存入
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} intervals
  * @param {number[]} newInterval
@@ -37,4 +37,4 @@ var insert = function(intervals, newInterval) {
     }
     return result
 };
-```
+// ```

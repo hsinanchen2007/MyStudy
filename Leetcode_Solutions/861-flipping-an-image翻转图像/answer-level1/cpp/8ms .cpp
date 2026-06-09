@@ -1,9 +1,9 @@
-### 解题思路
-只需要在两端元素相等的情况下取反.
+// ### 解题思路
+// 只需要在两端元素相等的情况下取反.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
@@ -22,4 +22,4 @@ public:
         return A;
     }
 };
-```
+// ```

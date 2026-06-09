@@ -1,9 +1,9 @@
-### 解题思路
-没什么难度，直接从后往前遍历即可。
+// ### 解题思路
+// 没什么难度，直接从后往前遍历即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLastWord(String s) {
         int count=0;
@@ -18,4 +18,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-两种方法（注释的是方法二）
+// ### 解题思路
+// 两种方法（注释的是方法二）
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -32,4 +32,4 @@ var strStr = function(haystack, needle) {
     }
     return -1;
 };
-```
+// ```

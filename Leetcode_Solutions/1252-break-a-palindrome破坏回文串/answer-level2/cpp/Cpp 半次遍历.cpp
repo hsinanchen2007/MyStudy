@@ -1,6 +1,6 @@
-这是道脑筋急转弯题嘛。。。。
+// 这是道脑筋急转弯题嘛。。。。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string breakPalindrome(string palindrome) {
@@ -13,4 +13,4 @@ public:
         return palindrome;
     }
 };
-```
+// ```

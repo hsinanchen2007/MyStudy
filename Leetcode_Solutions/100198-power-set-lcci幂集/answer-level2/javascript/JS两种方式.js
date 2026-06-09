@@ -1,5 +1,5 @@
-- 法一
-```
+// - 法一
+// ```
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -15,11 +15,11 @@ var subsets = function (nums) {
     return rets
 };
 
-```
+// ```
 
-- 法二
+// - 法二
 
-```
+// ```
 
 /**
  * @param {number[]} nums
@@ -38,5 +38,5 @@ var subsets = function (nums) {
     }
     return track(rets)
 };
-```
+// ```
 

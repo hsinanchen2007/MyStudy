@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
@@ -45,4 +45,4 @@ class Solution {
         return flag1 && flag2;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_67_addBinary.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_67_addBinary.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 从低位开始累加，注意两边字符串不一致，提高执行效率不要使用StringBuilder
@@ -36,4 +36,4 @@
         }
         return String.valueOf(result);
     }
-```
+// ```

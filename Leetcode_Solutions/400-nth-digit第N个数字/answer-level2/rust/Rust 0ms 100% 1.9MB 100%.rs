@@ -1,8 +1,8 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/5c6223ee5ed2f46776c30c957118a475b7c54ba6c6adb455940e9217bf7d8b34-image.png)
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/5c6223ee5ed2f46776c30c957118a475b7c54ba6c6adb455940e9217bf7d8b34-image.png)
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn find_nth_digit(n: i32) -> i32 {
         let mut n: u32 = n as u32;
@@ -22,4 +22,4 @@ impl Solution {
     }
 }
 
-```
+// ```

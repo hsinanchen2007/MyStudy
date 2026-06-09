@@ -1,9 +1,9 @@
-### 解题思路
-主要采用的就是dfs算法，需要注意的是回溯的时候需要恢复初始状态
+# ### 解题思路
+# 主要采用的就是dfs算法，需要注意的是回溯的时候需要恢复初始状态
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)
@@ -26,4 +26,4 @@ class Solution:
         dfs(0)
         return res
 
-```
+# ```

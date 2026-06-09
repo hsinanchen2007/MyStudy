@@ -1,11 +1,11 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-创建一个Map储存Pairs的对应关系，因为同一个词可能出现多个对应词，所以使用Map<String,List<String>>来保存。注意两个单词的对应关系都需要保存，比如["great","fine"]保存为=>great->fine和fine->great。
+// 创建一个Map储存Pairs的对应关系，因为同一个词可能出现多个对应词，所以使用Map<String,List<String>>来保存。注意两个单词的对应关系都需要保存，比如["great","fine"]保存为=>great->fine和fine->great。
 
-这里还需要注意一点是相同的单词也为对应关系，
+// 这里还需要注意一点是相同的单词也为对应关系，
 
 
-```
+// ```
  public boolean areSentencesSimilar(String[] words1, String[] words2, List<List<String>> pairs) {
         if(words1.length != words2.length) return false;
         Map<String,List<String>> map = new HashMap<>();
@@ -36,4 +36,4 @@
         }
         return true;
 }
-```
+// ```

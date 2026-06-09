@@ -1,41 +1,41 @@
-### 解题思路
-假设我们有一个State dp[][],其中dp[i][j]表示字符串从i到j是否可以被wordbreak
-那么这个State就有三个状态,true,false,unkown;
+// ### 解题思路
+// 假设我们有一个State dp[][],其中dp[i][j]表示字符串从i到j是否可以被wordbreak
+// 那么这个State就有三个状态,true,false,unkown;
 
-所以我们可以建立一个辅助函数
-//其中start表示当前在大字符串s的某个起始位置,s表示当前要校验的子串,maxLength表示大字符串的长度
-private boolean helpBreak(String s,int start,List<String> wordDict,int maxLength){
+// 所以我们可以建立一个辅助函数
+// //其中start表示当前在大字符串s的某个起始位置,s表示当前要校验的子串,maxLength表示大字符串的长度
+// private boolean helpBreak(String s,int start,List<String> wordDict,int maxLength){
 
-}
+// }
 
-//这里的dp[0][i]表示满足包含在wordDict里的第一个符合条件的字符串
-这样我们可以得到状态方程dp[0][s.length] = dp[o][i] + helpBreak(s.substring(i,s.length,i,wordDict,maxLength))。
+// //这里的dp[0][i]表示满足包含在wordDict里的第一个符合条件的字符串
+// 这样我们可以得到状态方程dp[0][s.length] = dp[o][i] + helpBreak(s.substring(i,s.length,i,wordDict,maxLength))。
 
-接下里我们实现这个辅助函数
-private boolean helpBreak(String s,int start,List<String> wordDict,int maxLength){
-        if(dp[start][start+s.length] != State.unkown){
-                return     dp[start][start+s.length()]  == State.True?true:false;
-        }
-        int length = s.length();
-        for(int i = 0;i<=s.length;i++){
-                    if(wordDict.contains(s.subString(0,i))){
-                                dp[start][start+i] = State.true;
-                                String lastString = s.subString(i,length);
-                                if(helpBreak(lastString,i+start,wordDict,maxLength){
-                                            return true;
-                                }else{
-                                         dp[start+i][maxLength] = State.false;
-                                }
-                    }else{
-                            dp[start][start+i] = State.false;
-                    }
-        }
-        return false;
-}
+// 接下里我们实现这个辅助函数
+// private boolean helpBreak(String s,int start,List<String> wordDict,int maxLength){
+//         if(dp[start][start+s.length] != State.unkown){
+//                 return     dp[start][start+s.length()]  == State.True?true:false;
+//         }
+//         int length = s.length();
+//         for(int i = 0;i<=s.length;i++){
+//                     if(wordDict.contains(s.subString(0,i))){
+//                                 dp[start][start+i] = State.true;
+//                                 String lastString = s.subString(i,length);
+//                                 if(helpBreak(lastString,i+start,wordDict,maxLength){
+//                                             return true;
+//                                 }else{
+//                                          dp[start+i][maxLength] = State.false;
+//                                 }
+//                     }else{
+//                             dp[start][start+i] = State.false;
+//                     }
+//         }
+//         return false;
+// }
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
         private enum State{
@@ -97,4 +97,4 @@ class Solution {
     }
 
 }
-```
+// ```

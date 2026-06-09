@@ -1,9 +1,9 @@
-### 解题思路
-本题思路并不复杂，关键在于下标位置的取舍，这是一个大的问题，一定要理解清楚i的位置在什么位置判断什么情况
+// ### 解题思路
+// 本题思路并不复杂，关键在于下标位置的取舍，这是一个大的问题，一定要理解清楚i的位置在什么位置判断什么情况
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean validMountainArray(int[] A) {
         if(A.length<3) return false;
@@ -26,4 +26,4 @@ class Solution {
         
     }
 }
-```
+// ```

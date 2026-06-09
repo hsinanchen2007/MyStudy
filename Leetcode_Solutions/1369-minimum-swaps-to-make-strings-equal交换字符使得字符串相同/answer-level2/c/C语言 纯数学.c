@@ -1,7 +1,7 @@
-先统计xx/yy和yy/xx的数量，取其偶数/2，再看有没有剩下单的xy/yx,有的话就加上
-![image.png](https://pic.leetcode-cn.com/c4c8bc0a375ea428a343a38ebd68a2551c939c62d375ceb7f1dd5d954a591018-image.png)
+// 先统计xx/yy和yy/xx的数量，取其偶数/2，再看有没有剩下单的xy/yx,有的话就加上
+// ![image.png](https://pic.leetcode-cn.com/c4c8bc0a375ea428a343a38ebd68a2551c939c62d375ceb7f1dd5d954a591018-image.png)
 
-````
+// ````
 int minimumSwap(char * s1, char * s2){
     int len = strlen(s1);
     if (len != strlen(s2)) {
@@ -30,4 +30,4 @@ int minimumSwap(char * s1, char * s2){
     y2 -= ey;
     return  x1 / 2 + y1 / 2 + x1 % 2 + y1 % 2;
 }
-```
+// ```

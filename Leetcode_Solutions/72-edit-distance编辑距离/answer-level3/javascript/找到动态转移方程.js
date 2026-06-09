@@ -1,30 +1,30 @@
-### 解题思路
+// ### 解题思路
 
-该题目即为[莱温斯坦距离](https://zh.wikipedia.org/wiki/%E8%90%8A%E6%96%87%E6%96%AF%E5%9D%A6%E8%B7%9D%E9%9B%A2), 详解请参考[GitHub](https://github.com/JiangLiruii/algorithm/blob/master/%E7%AC%AC41%E8%AE%B2-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92(%E5%AE%9E%E6%88%98).md)
+// 该题目即为[莱温斯坦距离](https://zh.wikipedia.org/wiki/%E8%90%8A%E6%96%87%E6%96%AF%E5%9D%A6%E8%B7%9D%E9%9B%A2), 详解请参考[GitHub](https://github.com/JiangLiruii/algorithm/blob/master/%E7%AC%AC41%E8%AE%B2-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92(%E5%AE%9E%E6%88%98).md)
 
->考虑以下几种情况:(i,j 分别表示两个字符串的位置)
+// >考虑以下几种情况:(i,j 分别表示两个字符串的位置)
 
-> - i 和 j 对应的字符相同, 那么继续比较i+1和j+1
-> - i 和 j 对应的字符不相同, 又有多重处理方式:
-> - 删除 i, 比较 i+1和 j
-> - 删除 j, 比较 i 和 j+1
-> - i 替换成 j, 继续比较 i+1, j+1
-> - i 前加一个跟 j 一样的字符, 继续比较 i 和 j+1
-> - j 前加一个跟 i 一样的字符, 继续比较 i+1和 j
-> - 实际上2,4和1,5在代码上是一样的
+// > - i 和 j 对应的字符相同, 那么继续比较i+1和j+1
+// > - i 和 j 对应的字符不相同, 又有多重处理方式:
+// > - 删除 i, 比较 i+1和 j
+// > - 删除 j, 比较 i 和 j+1
+// > - i 替换成 j, 继续比较 i+1, j+1
+// > - i 前加一个跟 j 一样的字符, 继续比较 i 和 j+1
+// > - j 前加一个跟 i 一样的字符, 继续比较 i+1和 j
+// > - 实际上2,4和1,5在代码上是一样的
 
-直接使用回溯算法会超时, 所以需要优化, 对已经计算过的情况进行保留
+// 直接使用回溯算法会超时, 所以需要优化, 对已经计算过的情况进行保留
 
-状态转移方程:
-a[i] === b[j]
-`min_dist(i+1,j+1) = Math.min(min_dist(i, j+1)+1, min_dist(i+1,j)+1, min_dist(i,j))`可由下面的不等于时i+1, j+1为最小值而推出 `min_dist(i+1, j+1) = min_dist(i,j)`
+// 状态转移方程:
+// a[i] === b[j]
+// `min_dist(i+1,j+1) = Math.min(min_dist(i, j+1)+1, min_dist(i+1,j)+1, min_dist(i,j))`可由下面的不等于时i+1, j+1为最小值而推出 `min_dist(i+1, j+1) = min_dist(i,j)`
 
-如果 a[i] !== b[j]
-`min_dist(i+1,j+1) = Math.min(min_dist(i, j)+1, min_dist(i,j+1)+1, min_dist(i+1,j)+1) = Math.min(min_dist(i, j), min_dist(i,j+1), min_dist(i+1,j))+1`
+// 如果 a[i] !== b[j]
+// `min_dist(i+1,j+1) = Math.min(min_dist(i, j)+1, min_dist(i,j+1)+1, min_dist(i+1,j)+1) = Math.min(min_dist(i, j), min_dist(i,j+1), min_dist(i+1,j))+1`
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} word1
  * @param {string} word2
@@ -60,4 +60,4 @@ var minDistance = function(word1, word2) {
   }
   return result[n][m]
 };
-```
+// ```

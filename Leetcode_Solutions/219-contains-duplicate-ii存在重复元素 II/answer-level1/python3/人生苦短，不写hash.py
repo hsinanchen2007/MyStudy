@@ -1,10 +1,10 @@
-### 解题思路
-此题就是leetcode第一题变形，C有uthash.h头文件，再也不用担心C被哈希虐了。(手写都是大佬，不、巨佬))
+# ### 解题思路
+# 此题就是leetcode第一题变形，C有uthash.h头文件，再也不用担心C被哈希虐了。(手写都是大佬，不、巨佬))
 
-本题就是一直找，再遇到两数相等且|j-i|<=k即可马上返回
-### 代码
+# 本题就是一直找，再遇到两数相等且|j-i|<=k即可马上返回
+# ### 代码
 
-```c []
+# ```c []
 typedef struct hash{
     int key;  // 键
     int index;  // 索引值
@@ -23,8 +23,8 @@ bool containsNearbyDuplicate(int* nums, int numsSize, int k){
     }
     return false;
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         d = {}
@@ -33,4 +33,4 @@ class Solution:
                     return True
             d[nums[i]] = i
         return False
-```
+# ```

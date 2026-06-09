@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minDistance(word1 string, word2 string) int {
     // DP方程 
     // word1[i-1],word2[j-1] 相同 dp[i][j] = min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1])
@@ -56,4 +56,4 @@ func min(a, b, c int) int {
     return tmp
 }
 
-```
+// ```

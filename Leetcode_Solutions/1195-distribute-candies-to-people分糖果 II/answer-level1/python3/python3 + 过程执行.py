@@ -1,8 +1,8 @@
-执行用时 :44 ms, 在所有 Python3 提交中击败了98.47%的用户
+# 执行用时 :44 ms, 在所有 Python3 提交中击败了98.47%的用户
 
-内存消耗 :13.9 MB, 在所有 Python3 提交中击败了100.00%的用户
+# 内存消耗 :13.9 MB, 在所有 Python3 提交中击败了100.00%的用户
 
-```
+# ```
 class Solution:
     def distributeCandies(self, candies, num_people):
         result = [0] * num_people
@@ -18,4 +18,4 @@ class Solution:
                     candies -= candies
                     break
         return result
-```
+# ```

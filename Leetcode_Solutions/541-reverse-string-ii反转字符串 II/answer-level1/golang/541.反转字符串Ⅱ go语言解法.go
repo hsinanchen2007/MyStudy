@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-方法比较粗暴，把字符串字母逐个加入临时字符串中，用flag标志位来控制何时需要反转，当flag=2k-1时，将这一组连接在结果字符串后面即可。
+// 方法比较粗暴，把字符串字母逐个加入临时字符串中，用flag标志位来控制何时需要反转，当flag=2k-1时，将这一组连接在结果字符串后面即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseStr(s string, k int) string {
 	res := ""
 	tmp := ""
@@ -37,4 +37,4 @@ func reverse(s string) string {
 	}
 	return string(tmp)
 }
-```
+// ```

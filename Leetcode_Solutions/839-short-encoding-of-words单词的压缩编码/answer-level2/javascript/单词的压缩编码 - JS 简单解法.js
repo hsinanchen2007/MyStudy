@@ -1,11 +1,11 @@
-### 解题思路
-暴力破解：
-    1. 先根据单词长度排序（降序）
-    2. 在根据indexOf判断，得到压缩后的S，返回S的长度
+// ### 解题思路
+// 暴力破解：
+//     1. 先根据单词长度排序（降序）
+//     2. 在根据indexOf判断，得到压缩后的S，返回S的长度
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @return {number}
@@ -28,4 +28,4 @@ var minimumLengthEncoding = function(words) {
     }
     return S.length
 };
-```
+// ```

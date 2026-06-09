@@ -1,8 +1,8 @@
-### 解题思路
-首先记录每个元素出现的次数，把它存成字典，然后对字典进行排序。从出现次数最多的元素开始相加，直到值大于长度的一半
-### 代码
+# ### 解题思路
+# 首先记录每个元素出现的次数，把它存成字典，然后对字典进行排序。从出现次数最多的元素开始相加，直到值大于长度的一半
+# ### 代码
 
-```python3
+# ```python3
 import math
 class Solution:
     def minSetSize(self, arr: List[int]) -> int:
@@ -22,4 +22,4 @@ class Solution:
             size +=1
             if amount >= half:break
         return size
-```
+# ```

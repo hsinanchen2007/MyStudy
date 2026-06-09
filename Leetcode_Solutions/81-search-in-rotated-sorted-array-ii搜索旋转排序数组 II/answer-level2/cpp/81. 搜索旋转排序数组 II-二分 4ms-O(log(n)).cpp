@@ -1,10 +1,10 @@
-有空补题解，先贴代码。
+// 有空补题解，先贴代码。
 
-大家先做 [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/xian-yong-er-fen-fa-zhao-fen-ge-dian-zai-er-fen-ch)，先把没有重复的搞定，从答案上看与本题只差一个 if 条件。
+// 大家先做 [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/xian-yong-er-fen-fa-zhao-fen-ge-dian-zai-er-fen-ch)，先把没有重复的搞定，从答案上看与本题只差一个 if 条件。
 
 
 
-```cpp
+// ```cpp
 bool search(vector<int>& nums, int target) {
     if (nums.empty()) return false;
     int lo = 0, hi = nums.size() - 1;
@@ -22,4 +22,4 @@ bool search(vector<int>& nums, int target) {
     }
     return nums[lo] == target;
 }
-```
+// ```

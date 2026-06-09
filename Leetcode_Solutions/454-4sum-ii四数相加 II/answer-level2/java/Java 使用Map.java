@@ -1,6 +1,6 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-```
+// ```
 public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         //创建两个Map，分别计算AB两个数组之间两两元素之和以及出现的次数
         Map<Integer, Integer> map1 = new HashMap<>();
@@ -23,4 +23,4 @@ public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         }
         return res;
 }
-```
+// ```

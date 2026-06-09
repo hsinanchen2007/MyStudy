@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/60e73bf54bfb44d70ffd8d1915572d0280ac655115f1af76b71a8ad705618d36-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/60e73bf54bfb44d70ffd8d1915572d0280ac655115f1af76b71a8ad705618d36-image.png)
+// ```
 bool isPalindrome(struct ListNode* head){
     if(head == NULL || head->next == NULL)
         return true;
@@ -30,5 +30,5 @@ bool isPalindrome(struct ListNode* head){
     }
     return true;
 }
-```
+// ```
 

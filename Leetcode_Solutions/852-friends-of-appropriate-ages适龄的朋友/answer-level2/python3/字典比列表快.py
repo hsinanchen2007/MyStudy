@@ -1,6 +1,6 @@
-官方解法改为字典做，发现要快不少
+# 官方解法改为字典做，发现要快不少
 
-```
+# ```
 class Solution:
     def numFriendRequests(self, ages: List[int]) -> int:        
         dic = {}
@@ -13,4 +13,4 @@ class Solution:
                     res += numA * numB - numA * (A == B)                    
         return res
 
-```
+# ```

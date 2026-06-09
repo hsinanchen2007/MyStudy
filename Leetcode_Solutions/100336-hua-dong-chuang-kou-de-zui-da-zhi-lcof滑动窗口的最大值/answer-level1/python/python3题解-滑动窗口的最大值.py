@@ -1,12 +1,12 @@
-### 解题思路
-需要一个能同时从头部和尾部将数字删除的list，用来储存最大值和潜在最大值的下标。
-最大值下表永远在这个list的头部。
+# ### 解题思路
+# 需要一个能同时从头部和尾部将数字删除的list，用来储存最大值和潜在最大值的下标。
+# 最大值下表永远在这个list的头部。
 
-核心思想是一个双端队列，最终时间复杂度是O（n），空间复杂度是O（n）。
+# 核心思想是一个双端队列，最终时间复杂度是O（n），空间复杂度是O（n）。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         result = []
@@ -35,4 +35,4 @@ class Solution:
         
         return result
 
-```
+# ```

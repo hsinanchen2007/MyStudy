@@ -1,4 +1,4 @@
-```java []
+# ```java []
 class Solution {
     private int R,C;
     private int[][] dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
@@ -46,8 +46,8 @@ class Solution {
         return 0<=x && x<R && 0<=y && y<C;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
 	# 四连通方向
 	dirs = [[-1, 0], [0, 1], [1, 0], [0, -1]]
@@ -88,8 +88,8 @@ class Solution:
 	# 顶点合理性判定
 	def inArea(self, x:int, y:int) -> bool:
 		return 0<= x <self.R and 0<= y < self.C
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int maxAreaOfIsland(vector<vector<int>>& grid) {
@@ -135,4 +135,4 @@ private:
 	vector<vector<int>> dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 	vector<vector<bool>> visited;
 };
-```
+# ```

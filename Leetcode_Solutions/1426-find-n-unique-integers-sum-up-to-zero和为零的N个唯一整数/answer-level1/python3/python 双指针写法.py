@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sumZero(self, n: int) -> List[int]:
         res=[0 for i in range(n)]
@@ -15,4 +15,4 @@ class Solution:
             l+=1
             r-=1
         return res
-```
+# ```

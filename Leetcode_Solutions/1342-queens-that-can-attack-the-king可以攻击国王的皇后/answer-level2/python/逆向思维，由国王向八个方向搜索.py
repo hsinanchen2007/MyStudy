@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/423a62762698e6a220cf48d5eee00ef02d2b2db0c5665260e360e37d3c191fc3-image.png)
-代码有点冗余，没想到怎么整合成函数
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/423a62762698e6a220cf48d5eee00ef02d2b2db0c5665260e360e37d3c191fc3-image.png)
+# 代码有点冗余，没想到怎么整合成函数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def queensAttacktheKing(self, queens: List[List[int]], king: List[int]) -> List[List[int]]:
         if not king or not queens:
@@ -66,4 +66,4 @@ class Solution:
         return res
 
 
-```
+# ```

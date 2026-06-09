@@ -1,9 +1,9 @@
-### 解题思路
-每一分钟遍历一层 同时对新鲜水果计数
+// ### 解题思路
+// 每一分钟遍历一层 同时对新鲜水果计数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int orangesRotting(vector<vector<int>>& grid) {
@@ -48,4 +48,4 @@ int orangesRotting(vector<vector<int>>& grid) {
     
 }
 };
-```
+// ```

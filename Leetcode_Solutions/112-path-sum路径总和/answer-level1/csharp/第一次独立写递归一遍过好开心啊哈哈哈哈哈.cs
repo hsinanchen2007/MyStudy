@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/3b0f51af8c1391f1267c7e64c036f7db02268bf161a35eebbe01b0796273ba35-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/3b0f51af8c1391f1267c7e64c036f7db02268bf161a35eebbe01b0796273ba35-image.png)
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ public class Solution {
         return HasLeft||HasRight;
     }
 }
-```
+// ```

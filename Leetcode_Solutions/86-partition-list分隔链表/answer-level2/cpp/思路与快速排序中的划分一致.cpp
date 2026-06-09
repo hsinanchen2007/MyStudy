@@ -1,15 +1,15 @@
-### 解题思路
-case1:
-链表的起始部小于x
-![linklist_partion3.jpg](https://pic.leetcode-cn.com/b24312c6a33b4aa3e44bbaeb47d40c204abf38d70d7514da087a351d316fb10e-linklist_partion3.jpg)
+// ### 解题思路
+// case1:
+// 链表的起始部小于x
+// ![linklist_partion3.jpg](https://pic.leetcode-cn.com/b24312c6a33b4aa3e44bbaeb47d40c204abf38d70d7514da087a351d316fb10e-linklist_partion3.jpg)
 
-case2:起始部分大于等于x
-![linklist_partion4.jpg](https://pic.leetcode-cn.com/488d7b0540ccd0c5f4bc4a3685d628080739476910dfceee4af1b59e6a57701e-linklist_partion4.jpg)
+// case2:起始部分大于等于x
+// ![linklist_partion4.jpg](https://pic.leetcode-cn.com/488d7b0540ccd0c5f4bc4a3685d628080739476910dfceee4af1b59e6a57701e-linklist_partion4.jpg)
 
-思路与快速排序中的partion的思路一致，在处理的过程中，把链表分成三部分，第一部分为已处理的小于x的部分，第二部分为已处理的不小于x的部分，以及待处理的部分
-### 代码
+// 思路与快速排序中的partion的思路一致，在处理的过程中，把链表分成三部分，第一部分为已处理的小于x的部分，第二部分为已处理的不小于x的部分，以及待处理的部分
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {

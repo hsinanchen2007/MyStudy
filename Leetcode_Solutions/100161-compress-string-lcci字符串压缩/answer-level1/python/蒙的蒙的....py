@@ -1,9 +1,9 @@
-### 解题思路
-遍历一遍，一个一个比较就行，内存100%真是没想到...
+# ### 解题思路
+# 遍历一遍，一个一个比较就行，内存100%真是没想到...
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def compressString(self, S):
         l = len(S)
@@ -23,4 +23,4 @@ class Solution(object):
             return S
         else:
             return(str1[1:])
-```
+# ```

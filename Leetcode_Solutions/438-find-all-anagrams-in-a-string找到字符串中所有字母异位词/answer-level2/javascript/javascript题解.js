@@ -1,12 +1,12 @@
-[438.找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)
+// [438.找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
-## 滑动窗口
+// ## 滑动窗口
 
-参考[大神题解](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/)，滑动窗口的问题有一个通用的解决方案：
+// 参考[大神题解](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/)，滑动窗口的问题有一个通用的解决方案：
 
-```javascript
+// ```javascript
 let left = 0, right = 0;
 while (right < str.length) {
     window[str[right]]++; // 此处是伪代码，window是一个map
@@ -17,11 +17,11 @@ while (right < str.length) {
         left++
     }
 }
-```
+// ```
 
-本题题解为：
+// 本题题解为：
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} p
@@ -76,13 +76,13 @@ var findAnagrams = function(s, p) {
     }
     return res;
 };
-```
+// ```
 
-## 时间100%
+// ## 时间100%
 
-偷别人的方法。
+// 偷别人的方法。
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} p
@@ -114,4 +114,4 @@ var findAnagrams = function(s, p) {
     }
     return res;
 };
-```
+// ```

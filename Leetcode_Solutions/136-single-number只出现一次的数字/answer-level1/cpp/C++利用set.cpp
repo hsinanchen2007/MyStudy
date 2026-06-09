@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -15,9 +15,9 @@ public:
         return *S.begin();
     }
 };
-```
-异或
-```
+// ```
+// 异或
+// ```
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
         return out;
     }
 };
-```
+// ```

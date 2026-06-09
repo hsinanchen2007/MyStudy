@@ -1,9 +1,9 @@
-### 解题思路
-寻找行最小，列最大的元素，并判断是不是同一个
+// ### 解题思路
+// 寻找行最小，列最大的元素，并判断是不是同一个
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func luckyNumbers (matrix [][]int) []int {
     rows, cols := len(matrix), len(matrix[0])
     res := make([]int, 0)
@@ -33,4 +33,4 @@ func luckyNumbers (matrix [][]int) []int {
     }
     return res
 }
-```
+// ```

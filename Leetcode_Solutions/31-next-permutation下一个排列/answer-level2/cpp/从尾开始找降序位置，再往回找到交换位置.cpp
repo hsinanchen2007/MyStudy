@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-请参考注释。
+// 请参考注释。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -44,4 +44,4 @@ public:
         }
     }
 };
-```
+// ```

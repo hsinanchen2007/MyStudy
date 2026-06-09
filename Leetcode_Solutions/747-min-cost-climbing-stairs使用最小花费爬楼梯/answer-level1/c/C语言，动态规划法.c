@@ -1,10 +1,10 @@
-### 解题思路
-动态规划法，与70题跳台阶的算法基本相同。
-dp[i]=min(dp[i-1]+cost[i-1],dp[i-2]+cost[i-2])
+// ### 解题思路
+// 动态规划法，与70题跳台阶的算法基本相同。
+// dp[i]=min(dp[i-1]+cost[i-1],dp[i-2]+cost[i-2])
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(x,y) (x<y)?x:y
 int minCostClimbingStairs(int* cost, int costSize){
     int i,j;
@@ -17,4 +17,4 @@ int minCostClimbingStairs(int* cost, int costSize){
     }
     return dp[costSize];
 }
-```
+// ```

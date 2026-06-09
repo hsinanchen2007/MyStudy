@@ -1,8 +1,8 @@
-### 解题思路
-画图看指针调换的过程,找迭代规律,多做几遍,这是第三遍秒过
-### 代码
+// ### 解题思路
+// 画图看指针调换的过程,找迭代规律,多做几遍,这是第三遍秒过
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -24,4 +24,4 @@ func reverseList(head *ListNode) *ListNode {
     }
     return pre
 }
-```
+// ```

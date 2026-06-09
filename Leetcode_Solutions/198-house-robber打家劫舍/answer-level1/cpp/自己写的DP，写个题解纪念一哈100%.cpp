@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/f063400fc81ed3b35f426afa7567298a4080197781ac06fb69b88a38db8c070a-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/f063400fc81ed3b35f426afa7567298a4080197781ac06fb69b88a38db8c070a-image.png)
+// ```
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -34,5 +34,5 @@ public:
         return max_result;
     }
 };
-```
+// ```
 

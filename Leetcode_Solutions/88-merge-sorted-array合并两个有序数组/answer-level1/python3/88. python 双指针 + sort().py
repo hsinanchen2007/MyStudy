@@ -1,10 +1,10 @@
-### 解题思路
-### 法一:
-因为题目要求只能原地修改num1,因此可以使用sort方法()
-### 法二:
-同样对于解决数组问题，可以使用双指针，一个指针控制nums1[:m]的移动，另一个指针控制nums2的移动。又因为len(nums1[:m])和
-len(nums2)不一定相同，所以添加额外条件。
-```python
+# ### 解题思路
+# ### 法一:
+# 因为题目要求只能原地修改num1,因此可以使用sort方法()
+# ### 法二:
+# 同样对于解决数组问题，可以使用双指针，一个指针控制nums1[:m]的移动，另一个指针控制nums2的移动。又因为len(nums1[:m])和
+# len(nums2)不一定相同，所以添加额外条件。
+# ```python
   if i == m or j == n:
         if i == m and j != n:
             nums1[k] = nums2[j]
@@ -14,13 +14,13 @@ len(nums2)不一定相同，所以添加额外条件。
             nums1[k] = temp[i]
             i += 1
             continue
-```
-#### **时间复杂度O(m+n)**
-#### **空间复杂度O(m)**
+# ```
+# #### **时间复杂度O(m+n)**
+# #### **空间复杂度O(m)**
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -58,4 +58,4 @@ class Solution:
                 nums1[k] = nums2[j]
                 j += 1
         return nums1
-```
+# ```

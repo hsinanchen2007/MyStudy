@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/c56f31c68a49ba049f2b740dc481a56e5c347762a9a3cab22228a9975dc23fb0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c56f31c68a49ba049f2b740dc481a56e5c347762a9a3cab22228a9975dc23fb0-image.png)
 
-预先判断一步，每次判断是否有左子树，如果有则判断左子树下一个节点是否是叶子节点，如果是计算值，并且结束往下遍历。
-```
+// 预先判断一步，每次判断是否有左子树，如果有则判断左子树下一个节点是否是叶子节点，如果是计算值，并且结束往下遍历。
+// ```
     class Solution {
 
         int sum = 0;
@@ -23,4 +23,4 @@
         }
 
     }
-```
+// ```

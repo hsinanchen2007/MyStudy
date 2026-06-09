@@ -1,6 +1,6 @@
-执行用时 :4 ms, 在所有 C 提交中击败了91.82%的用户
-内存消耗 :7.2 MB, 在所有 C 提交中击败了83.63%的用户
-```
+// 执行用时 :4 ms, 在所有 C 提交中击败了91.82%的用户
+// 内存消耗 :7.2 MB, 在所有 C 提交中击败了83.63%的用户
+// ```
 int strStr(char * haystack, char * needle){
     if (strcmp(needle, "") == 0) {
         return 0;
@@ -27,4 +27,4 @@ int strStr(char * haystack, char * needle){
     
     return -1;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-递归求解。
+# ### 解题思路
+# 递归求解。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fib(self, N: int) -> int:
         if not N: 
@@ -12,4 +12,4 @@ class Solution:
             return 1
         else: 
             return self.fib(N-1) + self.fib(N-2)
-```
+# ```

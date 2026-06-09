@@ -1,4 +1,4 @@
-```
+// ```
 bool dfs(int **graph, int size, int *col, int *color, int start,  int set)
 {
     for (int j = 0; j < col[start]; j++) {
@@ -34,4 +34,4 @@ bool isBipartite(int** graph, int graphSize, int* graphColSize)
 
     return true;
 }
-```
+// ```

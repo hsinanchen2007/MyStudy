@@ -1,9 +1,9 @@
-### 解题思路
-唯一值得讲解的就是出栈的操作了，使用两个队列A，B，出栈时。将A中除最后一个外的所有元素remove并添加到队列B中，然后remove并返回A中的最后一个元素，再将B中的全部元素remove并添加到A中，size--；所有的操作就完成了
+// ### 解题思路
+// 唯一值得讲解的就是出栈的操作了，使用两个队列A，B，出栈时。将A中除最后一个外的所有元素remove并添加到队列B中，然后remove并返回A中的最后一个元素，再将B中的全部元素remove并添加到A中，size--；所有的操作就完成了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
     
     ArrayList<Integer> queueA;
@@ -47,4 +47,4 @@ class MyStack {
         return size == 0;
     }
 }
-```
+// ```

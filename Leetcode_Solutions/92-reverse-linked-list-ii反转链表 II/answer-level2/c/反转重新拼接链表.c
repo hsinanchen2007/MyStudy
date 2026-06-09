@@ -1,9 +1,9 @@
-### 解题思路
-反转链表[m, n]， 然后重新拼接链表 
+// ### 解题思路
+// 反转链表[m, n]， 然后重新拼接链表 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
     free(dummpHead);
     return ret;
 }
-```
+// ```

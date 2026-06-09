@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-sdict is used to save all the unique chars in s. The key is unique char, and the value is the last time appeared in the s as we are going through s. 
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# sdict is used to save all the unique chars in s. The key is unique char, and the value is the last time appeared in the s as we are going through s. 
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         max_len = 0
@@ -21,4 +21,4 @@ class Solution:
         return max_len
             
 
-```
+# ```

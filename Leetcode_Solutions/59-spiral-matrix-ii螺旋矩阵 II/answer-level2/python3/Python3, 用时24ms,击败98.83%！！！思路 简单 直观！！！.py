@@ -1,10 +1,10 @@
-### 解题思路
-和螺旋矩阵思路类似
-主要注意点为：**方向的改变操作**
+# ### 解题思路
+# 和螺旋矩阵思路类似
+# 主要注意点为：**方向的改变操作**
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         list0 = [j for j in range(1,n**2 + 1)]                          # 生成长列表
@@ -25,5 +25,5 @@ class Solution:
                 x,y= x+dx[di],y+dy[di]
         return list1
 
-```
-少侠留步，随手点赞，明天脱单！
+# ```
+# 少侠留步，随手点赞，明天脱单！

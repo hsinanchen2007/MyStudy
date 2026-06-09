@@ -1,9 +1,9 @@
-### 解题思路
-纯C
+// ### 解题思路
+// 纯C
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int firstMissingPositive(int* nums, int numsSize){
     if (NULL == nums || 0 == numsSize)
     {
@@ -44,4 +44,4 @@ int firstMissingPositive(int* nums, int numsSize){
 
     return numsSize + 1;
 }
-```
+// ```

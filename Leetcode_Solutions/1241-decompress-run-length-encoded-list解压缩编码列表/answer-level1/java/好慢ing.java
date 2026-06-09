@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-好腦殘 遍歷計算出數組長度後就不用用集合了，那樣的話就快多了
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 好腦殘 遍歷計算出數組長度後就不用用集合了，那樣的話就快多了
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public int[] decompressRLElist(int[] nums) {
         ArrayList<Integer> arr = new ArrayList<>();
@@ -22,4 +22,4 @@ class Solution {
 
     }
 }
-```
+// ```

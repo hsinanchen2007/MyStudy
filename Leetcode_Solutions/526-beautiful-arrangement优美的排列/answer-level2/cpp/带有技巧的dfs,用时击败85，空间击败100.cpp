@@ -1,10 +1,10 @@
-### 解题思路
-最开始dfs的第一步从最后面位置开始找，减少dfs的起点数
-![image.png](https://pic.leetcode-cn.com/2397231535149af9086803d79f2dd745ff98d834d44fedbca7362181a750d99b-image.png)
+// ### 解题思路
+// 最开始dfs的第一步从最后面位置开始找，减少dfs的起点数
+// ![image.png](https://pic.leetcode-cn.com/2397231535149af9086803d79f2dd745ff98d834d44fedbca7362181a750d99b-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int count=0;
@@ -37,4 +37,4 @@ public:
         }
     }
 };
-```
+// ```

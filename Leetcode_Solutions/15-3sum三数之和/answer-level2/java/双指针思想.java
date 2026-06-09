@@ -1,10 +1,10 @@
-转换为双指针思想：
-- 排序;
-- 确定a，寻找 a + b + c = 0;
-- 双指针即为 b, c;
+// 转换为双指针思想：
+// - 排序;
+// - 确定a，寻找 a + b + c = 0;
+// - 双指针即为 b, c;
  
-> 注意手动去重；因为确定三数和为0，那么a>0即可提前结束；
-```java
+// > 注意手动去重；因为确定三数和为0，那么a>0即可提前结束；
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
  
@@ -41,4 +41,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

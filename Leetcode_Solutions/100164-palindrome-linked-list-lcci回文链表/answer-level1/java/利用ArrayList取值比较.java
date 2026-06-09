@@ -1,10 +1,10 @@
-### 解题思路
-1.将链表所有值储存在List里
-2.对list进行首尾比较
-3.如果为回文则应首尾相同，依次类推
-### 代码
+// ### 解题思路
+// 1.将链表所有值储存在List里
+// 2.对list进行首尾比较
+// 3.如果为回文则应首尾相同，依次类推
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-二分查找  嗯，判断的地方多，直接暴力解决
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 二分查找  嗯，判断的地方多，直接暴力解决
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -26,4 +26,4 @@ public:
         return -1;
     }
 };
-```
+// ```

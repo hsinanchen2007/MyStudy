@@ -1,7 +1,7 @@
-1. seperate letter log and digit log
-2. sort letter log
-3. combine two lists
-```
+# 1. seperate letter log and digit log
+# 2. sort letter log
+# 3. combine two lists
+# ```
 class Solution(object):
     def reorderLogFiles(self, logs):
         """
@@ -20,4 +20,4 @@ class Solution(object):
         
         letters.sort(key = lambda log: (log.split(' ')[1:], log.split(' ')[0]))
         return letters + digits
-```
+# ```

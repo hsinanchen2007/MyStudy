@@ -1,9 +1,9 @@
-### 解题思路
-* 简单的取余累加，不过难点在于边界的考虑
+// ### 解题思路
+// * 简单的取余累加，不过难点在于边界的考虑
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverse(x int) int {
   const INTMAX uint = 1<<31-1
   sign := false
@@ -25,4 +25,4 @@ func reverse(x int) int {
   }
   return int(res)
 }
-```
+// ```

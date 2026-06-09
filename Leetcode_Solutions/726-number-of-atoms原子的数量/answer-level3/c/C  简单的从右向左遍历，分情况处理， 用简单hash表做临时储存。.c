@@ -1,4 +1,4 @@
-```
+// ```
 #include<ctype.h>
 char * countOfAtoms(char * formula){
 	
@@ -98,4 +98,4 @@ char * countOfAtoms(char * formula){
 			       
 	return ret;
 }
-```
+// ```

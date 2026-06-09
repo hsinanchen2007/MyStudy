@@ -1,10 +1,10 @@
-### 解题思路
-1.定义一个快排函数；
-2.调用快排函数，将returnSize的值设置为numsSize，返回排序后的数组
+// ### 解题思路
+// 1.定义一个快排函数；
+// 2.调用快排函数，将returnSize的值设置为numsSize，返回排序后的数组
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void quick_sort(int arr[], int left, int right)
 {
         int temp, mid, i, j;
@@ -50,4 +50,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize){
 }
 
 
-```
+// ```

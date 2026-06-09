@@ -1,9 +1,9 @@
-### 解题思路
-判断root->left 和root->right是否为NULL，都为NULL 说明到叶子节点了 。开始遍历数组，组成一个整数
+// ### 解题思路
+// 判断root->left 和root->right是否为NULL，都为NULL 说明到叶子节点了 。开始遍历数组，组成一个整数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -52,4 +52,4 @@ int sumNumbers(struct TreeNode* root){
 
     return ret;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     head->next = l1 == NULL ? l2 : l1;
     return ans->next;
 }
-```
+// ```

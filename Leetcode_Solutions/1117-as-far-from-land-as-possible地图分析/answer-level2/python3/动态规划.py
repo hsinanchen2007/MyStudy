@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         temp_sum = sum([sum(i) for i in grid])
@@ -19,4 +19,4 @@ class Solution:
                 dis_matrix[i+1][j+1] = min(dis_matrix[i+1][j+1],dis_matrix[i+2][j+1]+1,dis_matrix[i+1][j+2]+1)
 
         return(max([max(i[1:-1]) for i in dis_matrix[1:-1]]))
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func maxProfit(prices []int) int {
 	if len(prices) == 0 {
 		return 0
@@ -17,4 +17,4 @@ func maxProfit(prices []int) int {
 
 	return bestPrice
 }
-```
+// ```

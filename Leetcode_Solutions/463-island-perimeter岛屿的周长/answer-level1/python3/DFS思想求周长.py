@@ -1,7 +1,7 @@
-刚刚从695题岛屿最大面积那里跑过来，再练练DFS思想。
+# 刚刚从695题岛屿最大面积那里跑过来，再练练DFS思想。
 
 
-```
+# ```
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
         row=len(grid)
@@ -21,7 +21,7 @@ class Solution:
                             
         return res
         
-```
-![43CE40E2-F40E-45E9-8423-4794308CEE73.png](https://pic.leetcode-cn.com/45cb15a786ee0d006043dcbc7fc25391a8a1c264298eb407f4527c6ce67fe938-43CE40E2-F40E-45E9-8423-4794308CEE73.png)
+# ```
+# ![43CE40E2-F40E-45E9-8423-4794308CEE73.png](https://pic.leetcode-cn.com/45cb15a786ee0d006043dcbc7fc25391a8a1c264298eb407f4527c6ce67fe938-43CE40E2-F40E-45E9-8423-4794308CEE73.png)
 
-学习学习思想，但可以看到这个题时空效率很低了.......
+# 学习学习思想，但可以看到这个题时空效率很低了.......

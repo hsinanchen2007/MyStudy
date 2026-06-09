@@ -1,10 +1,10 @@
-# 解题思路
-1.首先判断向量nums是否为空，为空直接返回0
-2.对向量nums进行sort排序
-3.去除向量nums中的重复元素后将元素移至数组num中
-4.对数组num进行遍历求得最长连续序列长度
-# AC代码
-```
+// # 解题思路
+// 1.首先判断向量nums是否为空，为空直接返回0
+// 2.对向量nums进行sort排序
+// 3.去除向量nums中的重复元素后将元素移至数组num中
+// 4.对数组num进行遍历求得最长连续序列长度
+// # AC代码
+// ```
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
@@ -31,5 +31,5 @@ public:
         return result;
     }
 };
-```
+// ```
 

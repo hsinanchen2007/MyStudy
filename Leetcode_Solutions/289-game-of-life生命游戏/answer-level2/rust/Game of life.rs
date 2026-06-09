@@ -1,10 +1,10 @@
-### Output
+// ### Output
 
-![image.png](https://pic.leetcode-cn.com/e66ed4b58cc43a81af51a9505e261cc3c2a126d2fd5e5d92887a519a147418f0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e66ed4b58cc43a81af51a9505e261cc3c2a126d2fd5e5d92887a519a147418f0-image.png)
 
-### Code
+// ### Code
 
-```rust []
+// ```rust []
 impl Solution {
     pub fn game_of_life(board: &mut Vec<Vec<i32>>) {
         if board.is_empty() || board[0].is_empty() {
@@ -41,4 +41,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

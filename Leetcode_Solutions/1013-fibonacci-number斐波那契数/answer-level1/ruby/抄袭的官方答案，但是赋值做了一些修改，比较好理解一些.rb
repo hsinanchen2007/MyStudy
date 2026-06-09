@@ -1,10 +1,10 @@
-### 解题思路
-抄袭的官方答案，但是赋值做了一些修改，比较好理解一些
-current从fib(3)开始，求解fib(i),一直向右挪动得出fib(n);i的取值范围为[3,n]; current = fib(i)
+# ### 解题思路
+# 抄袭的官方答案，但是赋值做了一些修改，比较好理解一些
+# current从fib(3)开始，求解fib(i),一直向右挪动得出fib(n);i的取值范围为[3,n]; current = fib(i)
 
-### 代码
+# ### 代码
 
-```ruby
+# ```ruby
 # @param {Integer} n
 # @return {Integer}
 #n        0       1       2       3         4       5          6          7
@@ -33,4 +33,4 @@ def fib(n)
 
 end
 
-```
+# ```

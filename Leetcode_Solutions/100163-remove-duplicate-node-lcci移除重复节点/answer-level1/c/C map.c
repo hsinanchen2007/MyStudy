@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* removeDuplicateNodes(struct ListNode* head){
   
   char *map = malloc(20001);
@@ -27,4 +27,4 @@ struct ListNode* removeDuplicateNodes(struct ListNode* head){
 
   return head;
 }
-```
+// ```

@@ -1,29 +1,29 @@
-### 解题思路
-此处撰写解题思路
-（1）对角线置换
-（2）收尾列一次置换
+// ### 解题思路
+// 此处撰写解题思路
+// （1）对角线置换
+// （2）收尾列一次置换
 
-注意
-对两个int x,y，交换算法：
-(1)加法
+// 注意
+// 对两个int x,y，交换算法：
+// (1)加法
 
-```c
+// ```c
 x = x + y;
 y = x - y;
 x = x - y;
-```
+// ```
 
-(2)异或
+// (2)异或
 
-```c
+// ```c
 x = x ^ y;
 y = x ^ y;
 x = x ^ y;
-```
+// ```
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int i, j, m, row, col;
     
@@ -52,4 +52,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         }
     } 
 }
-```
+// ```

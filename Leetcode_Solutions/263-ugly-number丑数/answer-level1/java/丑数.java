@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUgly(int num) {
         if (num == 0) {
@@ -22,4 +22,4 @@ class Solution {
         return num == 1;
     }
 }
-```
+// ```

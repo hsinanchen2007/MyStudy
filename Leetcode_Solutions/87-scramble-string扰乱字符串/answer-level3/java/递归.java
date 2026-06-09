@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean isScramble(String s1, String s2) {
         if(s1.length()==1&&s2.length()==1&&s1.equals(s2))
@@ -35,4 +35,4 @@ class Solution {
         return true;
     }
 }    
-```
+// ```

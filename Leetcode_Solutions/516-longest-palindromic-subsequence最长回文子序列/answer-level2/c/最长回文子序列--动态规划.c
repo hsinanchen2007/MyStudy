@@ -1,12 +1,12 @@
-回文子序列：
-定义dp[i][j]是指字符串i-j之间的最长子序列。
+// 回文子序列：
+// 定义dp[i][j]是指字符串i-j之间的最长子序列。
 
-那么有如下的处理函数：
-如果i = j, dp[i][j] = 1;
-如果s[i] = s[j]，dp[i][j] = dp[i + 1][j - 1] + 2
-如果s[i] != s[j]，那么dp的选择取决于dp[i][j-1]和dp[i+1][j]之间的最大值,即max(dp[i][j-1], dp[i+1][j])
+// 那么有如下的处理函数：
+// 如果i = j, dp[i][j] = 1;
+// 如果s[i] = s[j]，dp[i][j] = dp[i + 1][j - 1] + 2
+// 如果s[i] != s[j]，那么dp的选择取决于dp[i][j-1]和dp[i+1][j]之间的最大值,即max(dp[i][j-1], dp[i+1][j])
 
-```
+// ```
 int longestPalindromeSubseq(char * s)
 {
     if (s == NULL || strlen(s) == 0) {
@@ -44,7 +44,7 @@ int longestPalindromeSubseq(char * s)
 
     return ret;
 }
-```
+// ```
 
 
 

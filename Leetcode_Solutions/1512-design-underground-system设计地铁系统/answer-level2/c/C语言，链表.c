@@ -1,5 +1,5 @@
-![result.png](https://pic.leetcode-cn.com/7a3b8f3f4fb0b9e188fcb232226ccfedf91073375357c8c1f10124627a38bcd0-result.png)
-```
+// ![result.png](https://pic.leetcode-cn.com/7a3b8f3f4fb0b9e188fcb232226ccfedf91073375357c8c1f10124627a38bcd0-result.png)
+// ```
 typedef struct info PASSENGER_INFO;
 struct info {
     int id;
@@ -71,4 +71,4 @@ void undergroundSystemFree(UndergroundSystem* obj) {
     }while(p_next != NULL);
     free(obj);
 }
-```
+// ```

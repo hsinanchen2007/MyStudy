@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/a27e5694301afa749d36d3de749b4e54e339679b9f55c7aa931de01be96c4abc-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a27e5694301afa749d36d3de749b4e54e339679b9f55c7aa931de01be96c4abc-image.png)
 
-模拟长除还是挺恶心的
-```
+# 模拟长除还是挺恶心的
+# ```
 class Solution:
     def fractionToDecimal(self, a: int, b: int) -> str:
         if a%b==0:return str(a//b)#整除
@@ -38,4 +38,4 @@ class Solution:
             s=s[:z[d]]+'('+s[z[d]:]+')'#以重复余数为界分离小数部分
         
         return t+c+'.'+s
-```
+# ```

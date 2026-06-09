@@ -1,5 +1,5 @@
-边界条件太多了……
-```
+// 边界条件太多了……
+// ```
 class Solution {
     public double myPow(double x, int n) {
         double result = 1;
@@ -52,4 +52,4 @@ class Solution {
         
     }
 }
-```
+// ```

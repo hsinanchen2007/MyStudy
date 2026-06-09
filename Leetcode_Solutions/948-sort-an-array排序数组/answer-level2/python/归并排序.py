@@ -1,9 +1,9 @@
-### 解题思路
-归并排序思想
+# ### 解题思路
+# 归并排序思想
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sortArray(self, array):
         """
@@ -42,4 +42,4 @@ class Solution(object):
         #     ret.append(rightArray[rightIndex])
         #     rightIndex += 1
         return ret
-```
+# ```

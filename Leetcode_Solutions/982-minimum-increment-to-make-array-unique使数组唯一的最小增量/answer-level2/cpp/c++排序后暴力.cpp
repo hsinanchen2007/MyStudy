@@ -1,8 +1,8 @@
-### 解题思路
-c++
-### 代码
+// ### 解题思路
+// c++
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -21,4 +21,4 @@ public:
         return num;
     }
 };
-```
+// ```

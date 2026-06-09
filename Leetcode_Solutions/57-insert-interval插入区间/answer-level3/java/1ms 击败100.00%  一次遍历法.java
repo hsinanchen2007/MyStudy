@@ -1,8 +1,8 @@
-### 解题思路
-看注释可以明白
-### 代码
+// ### 解题思路
+// 看注释可以明白
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         if(intervals.length==0)return new int[][]{{newInterval[0],newInterval[1]}};
@@ -39,4 +39,4 @@ class Solution {
         
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-考虑到空数组和数组未发生旋转的两种特殊情况。
+# ### 解题思路
+# 考虑到空数组和数组未发生旋转的两种特殊情况。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minArray(self, numbers: List[int]) -> int:
         n = len(numbers)
@@ -14,4 +14,4 @@ class Solution:
                 return numbers[i]
         return numbers[0]
         
-```
+# ```

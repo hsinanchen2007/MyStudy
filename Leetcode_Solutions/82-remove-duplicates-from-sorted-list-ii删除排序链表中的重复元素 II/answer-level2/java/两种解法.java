@@ -1,6 +1,6 @@
-方法一 ：
-两次遍历，第一次遍历获取重复的值，第二次遍历删除重复的节点
-```
+// 方法一 ：
+// 两次遍历，第一次遍历获取重复的值，第二次遍历删除重复的节点
+// ```
   public ListNode deleteDuplicates(ListNode head) {
 		  if(head == null || head.next == null){
 			  return head;
@@ -29,12 +29,12 @@
 		  }
 		  return prehead.next; 
 	  }
-```
+// ```
 
-方法二：
-一次遍历，直接删除，这里需要参考，题83的解法
-https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/solution/zhi-jie-shan-chu-by-xun-shui-de-yu-7/
-```
+// 方法二：
+// 一次遍历，直接删除，这里需要参考，题83的解法
+// https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/solution/zhi-jie-shan-chu-by-xun-shui-de-yu-7/
+// ```
 public ListNode deleteDuplicates2(ListNode head) {
         if(head == null || head.next == null){
 	        	return head;
@@ -60,5 +60,5 @@ public ListNode deleteDuplicates2(ListNode head) {
 	    	}
 	    	return pre.next;
 	}
-```
+// ```
 

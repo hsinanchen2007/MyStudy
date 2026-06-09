@@ -1,8 +1,8 @@
-1. indexOf方法
-indexOf可返回某个指定的字符串值在字符串中首次出现的位置
+// 1. indexOf方法
+// indexOf可返回某个指定的字符串值在字符串中首次出现的位置
 
 
-```
+// ```
 var containsDuplicate = function(nums) {
     var len = nums.length;
     
@@ -15,10 +15,10 @@ var containsDuplicate = function(nums) {
     }
     return false;
 };
-```
-2. 排序法
-sort()可对原数组进行排序，不返还新数组。
-```
+// ```
+// 2. 排序法
+// sort()可对原数组进行排序，不返还新数组。
+// ```
 var containsDuplicate = function(nums) {
     nums.sort();
     var len = nums.length;
@@ -28,10 +28,10 @@ var containsDuplicate = function(nums) {
     }
     return false;
 };
-```
-3. indexOf和lastindexOf
-lastIndexOf 是从右向左查某个指定的字符串在字符串中最后一次出现的位置（也就是从后往前查）
-```
+// ```
+// 3. indexOf和lastindexOf
+// lastIndexOf 是从右向左查某个指定的字符串在字符串中最后一次出现的位置（也就是从后往前查）
+// ```
 var containsDuplicate = function(nums) {
     var len = nums.length;
     for(var i = 0; i < len; i++) {
@@ -41,10 +41,10 @@ var containsDuplicate = function(nums) {
     }
     return false;
 };
-```
-4. set去重
-set中不能重复元素
-```
+// ```
+// 4. set去重
+// set中不能重复元素
+// ```
 var containsDuplicate = function(nums) {
     var x = new Set(nums);
 
@@ -53,4 +53,4 @@ var containsDuplicate = function(nums) {
     
     return true;
 };
-```
+// ```

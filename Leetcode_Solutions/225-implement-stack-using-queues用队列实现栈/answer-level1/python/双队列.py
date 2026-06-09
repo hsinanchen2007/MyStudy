@@ -1,11 +1,11 @@
-### 解题思路
-  要注意都是合法的操作！
-  queue1作为真正的存储
-  queue2作为临时存储
+# ### 解题思路
+#   要注意都是合法的操作！
+#   queue1作为真正的存储
+#   queue2作为临时存储
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -52,4 +52,4 @@ class MyStack:
         """
         return  len(self.queue1) == 0
 
-```
+# ```

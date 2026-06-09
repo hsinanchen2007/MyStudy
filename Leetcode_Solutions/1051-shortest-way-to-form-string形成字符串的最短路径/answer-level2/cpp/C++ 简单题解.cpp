@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int update(const string& target, int i, const string& source) {
@@ -25,6 +25,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/3a37d5263cd739b517cfe32902ca686645e4daead864869cc3e7fb0d4e06aae4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3a37d5263cd739b517cfe32902ca686645e4daead864869cc3e7fb0d4e06aae4-image.png)

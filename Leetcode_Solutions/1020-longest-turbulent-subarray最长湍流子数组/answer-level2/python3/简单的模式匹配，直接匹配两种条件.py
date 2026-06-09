@@ -1,11 +1,11 @@
 
--   直接使用两种匹配模式向后匹配即可
--   模式1保存匹配到符合条件一的，从前方到当前位置的最大长度
--   模式2保存匹配到符合条件二的，从前方到当前位置的最大长度
+# -   直接使用两种匹配模式向后匹配即可
+# -   模式1保存匹配到符合条件一的，从前方到当前位置的最大长度
+# -   模式2保存匹配到符合条件二的，从前方到当前位置的最大长度
 
 
 
-```python
+# ```python
 class Solution:
     def maxTurbulenceSize(self, A: List[int]) -> int:
         pattern1 = 1
@@ -37,6 +37,6 @@ class Solution:
             ans = max(ans, pattern1, pattern2)
 
         return ans
-```
+# ```
 
 

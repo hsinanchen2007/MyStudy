@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int leastBricks(int** wall, int wallSize, int* wallColSize){
     short cnt[60000] = {0};
     int i, j, tmp;
@@ -25,4 +25,4 @@ int leastBricks(int** wall, int wallSize, int* wallColSize){
 
     return wallSize - tmp;
 }
-```
+// ```

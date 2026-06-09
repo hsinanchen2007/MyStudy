@@ -1,9 +1,9 @@
-### 解题思路
-比较简单的动态规划，比较好想到
+// ### 解题思路
+// 比较简单的动态规划，比较好想到
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -32,4 +32,4 @@ public:
       return res;
     }
 };
-```
+// ```

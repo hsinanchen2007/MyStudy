@@ -1,8 +1,8 @@
 
-第一步剪枝 应该都是很清楚 。candidates[i] > target的时候 肯定是不能成立的
-第二步剪枝，比如在 candidates = [2, 3,6,7]、target = 7的时候 2 2 3 就行了 2 3 2 ，3 2 2的时候 其实就一个升序2 2 3就好了。
-所以需要进行第二步判断就容易理解了
-```
+# 第一步剪枝 应该都是很清楚 。candidates[i] > target的时候 肯定是不能成立的
+# 第二步剪枝，比如在 candidates = [2, 3,6,7]、target = 7的时候 2 2 3 就行了 2 3 2 ，3 2 2的时候 其实就一个升序2 2 3就好了。
+# 所以需要进行第二步判断就容易理解了
+# ```
 
 class Solution:
     def __init__(self):
@@ -32,4 +32,4 @@ class Solution:
             tmp = target - candidates[i]
             self.dfs(candidates, tmp)
             self.path.pop()
-```
+# ```

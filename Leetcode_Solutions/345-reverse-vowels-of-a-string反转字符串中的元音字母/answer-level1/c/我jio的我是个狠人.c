@@ -1,4 +1,4 @@
-```
+// ```
 char * reverseVowels(char * s){
     int left = 0;
     int right = strlen(s) - 1;
@@ -21,4 +21,4 @@ char * reverseVowels(char * s){
     }
     return s;
 }
-```
+// ```

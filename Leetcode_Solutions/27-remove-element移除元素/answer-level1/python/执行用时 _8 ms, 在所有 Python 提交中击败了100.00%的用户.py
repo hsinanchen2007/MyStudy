@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def removeElement(self, nums, val):
         """
@@ -24,6 +24,6 @@ class Solution(object):
 
 
         return nums.index(val)
-```
+# ```
 
-把val移到末尾再求index就行了。
+# 把val移到末尾再求index就行了。

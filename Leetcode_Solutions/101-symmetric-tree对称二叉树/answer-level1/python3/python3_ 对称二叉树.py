@@ -1,4 +1,4 @@
-```python
+# ```python
 # 递归
 def isSymmetric(root: TreeNode) -> bool:
     def help(left, right):
@@ -68,4 +68,4 @@ def isSymmetric2(root: TreeNode) -> bool:
         deq.append(t2.left)
         
     return True
-```
+# ```

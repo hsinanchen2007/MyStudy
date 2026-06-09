@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canConstruct(self, s: str, k: int) -> bool:
         #长度不够先排除
@@ -23,4 +23,4 @@ class Solution:
             return False
         
         return True
-```
+# ```

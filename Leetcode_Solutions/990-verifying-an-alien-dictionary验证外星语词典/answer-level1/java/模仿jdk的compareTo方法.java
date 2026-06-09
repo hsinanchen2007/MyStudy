@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean isAlienSorted(String[] words, String order) {
         for (int i = 0; i < words.length - 1; i++) {
@@ -28,4 +28,4 @@ class Solution {
         return len1 - len2;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用HashSet
+// ### 解题思路
+// 使用HashSet
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         HashSet<Character> hashSet = new HashSet<>();
@@ -17,4 +17,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

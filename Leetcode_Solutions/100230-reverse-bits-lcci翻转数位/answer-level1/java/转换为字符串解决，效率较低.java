@@ -1,9 +1,9 @@
-### 解题思路
-补齐32位，字符串按0拆分。很好理解
+// ### 解题思路
+// 补齐32位，字符串按0拆分。很好理解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverseBits(int num) {
         String bs = Integer.toBinaryString(num);
@@ -22,4 +22,4 @@ class Solution {
         return max + 1;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-不明白为什么分类是排序：3
+# ### 解题思路
+# 不明白为什么分类是排序：3
 
-字母异位词：两个str（长度大于等于2）字母元素相同，元素个数也相同，但位置不一致。
+# 字母异位词：两个str（长度大于等于2）字母元素相同，元素个数也相同，但位置不一致。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
@@ -40,4 +40,4 @@ class Solution:
 
         
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
+-- ### 解题思路
 
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select e.employee_id,s.team_size
@@ -14,4 +14,4 @@ left join
     from   Employee group by team_id
     ) s
 on e.team_id=s.team_id
-```
+-- ```

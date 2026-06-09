@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} s
  * @param {string} t
@@ -26,4 +26,4 @@ var isIsomorphic = function(s, t) {
     }
     return true;
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-找到所有可能子串，dp[i]代表前i个字符可以进行拆分，若dp[i] = True ，如果还同时满足s[i+1:j]在字典中那么
-dp[j] = True
+# ### 解题思路
+# 找到所有可能子串，dp[i]代表前i个字符可以进行拆分，若dp[i] = True ，如果还同时满足s[i+1:j]在字典中那么
+# dp[j] = True
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def wordBreak(self, s, wordDict):
         dp = [False] * (len(s)+1)
@@ -15,4 +15,4 @@ class Solution:
                 if dp[i] and s[i:j] in wordDict:
                     dp[j] = True
         return dp[-1]
-```
+# ```

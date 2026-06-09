@@ -1,5 +1,5 @@
-## 用left跟踪当前字符的起始索引
-```cpp
+// ## 用left跟踪当前字符的起始索引
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> largeGroupPositions(string S) {
@@ -22,4 +22,4 @@ public:
         return ans;
     }
 };
-```
+// ```

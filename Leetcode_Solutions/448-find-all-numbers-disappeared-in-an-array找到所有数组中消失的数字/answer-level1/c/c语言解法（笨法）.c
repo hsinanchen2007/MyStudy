@@ -1,10 +1,10 @@
-### 解题思路
-方法很笨很好理解。
-先排序然后去重，然后按数存到对应的位置。再比较。
+// ### 解题思路
+// 方法很笨很好理解。
+// 先排序然后去重，然后按数存到对应的位置。再比较。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -43,4 +43,4 @@ int* findDisappearedNumbers(int* nums, int numsSize, int* returnSize){
     *returnSize=cmt;
     return num;
 }
-```
+// ```

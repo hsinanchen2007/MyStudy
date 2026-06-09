@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/51400ae32e7d6b0ef4caad62fdf32b7751af4980d47890f82483c0f375fb06ca-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/51400ae32e7d6b0ef4caad62fdf32b7751af4980d47890f82483c0f375fb06ca-image.png)
 
-- 判断两个点的 height 和 width， 取较大值；
+// - 判断两个点的 height 和 width， 取较大值；
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} points
  * @return {number}
@@ -29,5 +29,5 @@
     // debugger;
     return count
 };
-```
+// ```
 

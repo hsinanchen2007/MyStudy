@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution{
 	public ListNode deleteDuplicates(ListNode head){
 		ListNode newHaed=head;
@@ -15,4 +15,4 @@ class Solution{
 		return newHaed;
 	}
 }
-```
+// ```

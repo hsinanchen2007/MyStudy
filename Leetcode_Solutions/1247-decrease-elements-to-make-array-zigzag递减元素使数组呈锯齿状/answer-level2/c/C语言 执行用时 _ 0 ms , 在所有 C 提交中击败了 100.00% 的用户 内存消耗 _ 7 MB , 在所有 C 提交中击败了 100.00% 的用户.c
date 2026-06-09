@@ -1,4 +1,4 @@
-```
+// ```
 #define max(a,b) ((a) > (b) ? (a) : (b))
 #define min(a,b) ((a) < (b) ? (a) : (b))
 
@@ -33,4 +33,4 @@ int movesToMakeZigzag(int* nums, int numsSize){
     }
     return min(ans1,ans2);
 }
-```
+// ```

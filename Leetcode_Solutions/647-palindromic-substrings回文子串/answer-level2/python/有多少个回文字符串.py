@@ -1,11 +1,11 @@
-### 解题思路
-1. **中心扩展法，有2n - 1 个中心，中心既可以是字母**，也可以是两个字符中间
-    - 代码中体现即为：expand_centor(s, i, i,nsize) ## 奇数长度
-    - expand_centor(s, i, i+1, nsize) ## 偶数长度
+# ### 解题思路
+# 1. **中心扩展法，有2n - 1 个中心，中心既可以是字母**，也可以是两个字符中间
+#     - 代码中体现即为：expand_centor(s, i, i,nsize) ## 奇数长度
+#     - expand_centor(s, i, i+1, nsize) ## 偶数长度
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def __init__(self):
         self.res = 0
@@ -38,4 +38,4 @@ class Solution:
             l -= 1
             r += 1
         return r-l -1  ## 本次的长度
-```
+# ```

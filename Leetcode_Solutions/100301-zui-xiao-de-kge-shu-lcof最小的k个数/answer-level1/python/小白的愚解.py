@@ -1,9 +1,9 @@
-### 解题思路
-使用
+# ### 解题思路
+# 使用
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def getLeastNumbers(self, arr, k):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             res.append(sort_arr[i])
             
         return res
-```
+# ```

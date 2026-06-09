@@ -1,12 +1,12 @@
-####  方法一：递归
-**算法：**
-- 编写一个方法 `parse` 来解析化学式，返回一个由原子名称映射到原子个数的哈希表 `count`。
-- 将把 `i` 设为全局变量：在调用 `parse` 函数中递增 `i`。
--  当遇到 `'('`，则解析括号内的内容（直到括号结束），并将其添加到计数中。
-- 否则，则应该遇到一个大写字符：我们将解析其余的字母以获得名称，并在哈希表中添加该字符（若表中存在则增加计数）。
-- 最终，我们将乘以括号系数以得到最终结果。
+# ####  方法一：递归
+# **算法：**
+# - 编写一个方法 `parse` 来解析化学式，返回一个由原子名称映射到原子个数的哈希表 `count`。
+# - 将把 `i` 设为全局变量：在调用 `parse` 函数中递增 `i`。
+# -  当遇到 `'('`，则解析括号内的内容（直到括号结束），并将其添加到计数中。
+# - 否则，则应该遇到一个大写字符：我们将解析其余的字母以获得名称，并在哈希表中添加该字符（若表中存在则增加计数）。
+# - 最终，我们将乘以括号系数以得到最终结果。
 
-```Python [ ]
+# ```Python [ ]
 class Solution(object):
     def countOfAtoms(self, formula):
         def parse():
@@ -47,9 +47,9 @@ class Solution(object):
             if multiplicity > 1:
                 ans.append(str(multiplicity))
         return "".join(ans)
-```
+# ```
 
-```Java [ ]
+# ```Java [ ]
 class Solution {
     int i;
     public String countOfAtoms(String formula) {
@@ -94,19 +94,19 @@ class Solution {
         return count;
     }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N^2)$。$N$ 指的是化学式的长度。
-* 空间复杂度：$O(N)$，我们没有记录到比公式更多的信息。
+# * 时间复杂度：$O(N^2)$。$N$ 指的是化学式的长度。
+# * 空间复杂度：$O(N)$，我们没有记录到比公式更多的信息。
 
 
-####  方法二：栈
-**算法：**
-- 我们可以直接使用 `count` 栈来模拟调用堆栈代替递归。
+# ####  方法二：栈
+# **算法：**
+# - 我们可以直接使用 `count` 栈来模拟调用堆栈代替递归。
 
-```Python [ ]
+# ```Python [ ]
 class Solution(object):
     def countOfAtoms(self, formula):
         N = len(formula)
@@ -136,9 +136,9 @@ class Solution(object):
 
         return "".join(name + (str(stack[-1][name]) if stack[-1][name] > 1 else '')
                        for name in sorted(stack[-1]))
-```
+# ```
 
-```Java [ ]
+# ```Java [ ]
 class Solution {
     public String countOfAtoms(String formula) {
         int N = formula.length();
@@ -178,26 +178,26 @@ class Solution {
         return new String(ans);
     }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N^2)$。
-* 空间复杂度：$O(N)$，分析与方法 1 相同。
+# * 时间复杂度：$O(N^2)$。
+# * 空间复杂度：$O(N)$，分析与方法 1 相同。
 
 
-####  方法三：正则表达式
-**算法：**
-- 无论何时涉及到文本解析，我们都可以使用正则表达式，一种在文本中定义模式的语言。
-- 我们的正则表达式将是 `"([A-Z][a-z]*)(\d*)|(\()|(\))(\d*)"`。其中：
-	-  `([A-Z][a-z]*)` 代表匹配一个大写字符，后跟任意数量的小写字符，然后 `(\d*)` 代表匹配任意数量的数字。
-	- `(\()` 匹配左括号， `(\))` 匹配右括号，`(\d*)` 匹配任意数量的数字。
-- 然后可以按方法 2 的方式进行：
-	- 如果我们解析到一个原子名称 `([A-Z][a-z]*)(\d*)`，我们将添加相印的数量。
-	- 如果遇到了左括号，我们将向堆中添加一个数 `count ` 表示括号的系数。
-	- 如果遇到了右括号，我们将乘以 `count`,`top = stack.pop()`，并添加相印的计数中。
+# ####  方法三：正则表达式
+# **算法：**
+# - 无论何时涉及到文本解析，我们都可以使用正则表达式，一种在文本中定义模式的语言。
+# - 我们的正则表达式将是 `"([A-Z][a-z]*)(\d*)|(\()|(\))(\d*)"`。其中：
+# 	-  `([A-Z][a-z]*)` 代表匹配一个大写字符，后跟任意数量的小写字符，然后 `(\d*)` 代表匹配任意数量的数字。
+# 	- `(\()` 匹配左括号， `(\))` 匹配右括号，`(\d*)` 匹配任意数量的数字。
+# - 然后可以按方法 2 的方式进行：
+# 	- 如果我们解析到一个原子名称 `([A-Z][a-z]*)(\d*)`，我们将添加相印的数量。
+# 	- 如果遇到了左括号，我们将向堆中添加一个数 `count ` 表示括号的系数。
+# 	- 如果遇到了右括号，我们将乘以 `count`,`top = stack.pop()`，并添加相印的计数中。
 
-```Python [ ]
+# ```Python [ ]
 class Solution(object):
     def countOfAtoms(self, formula):
         parse = re.findall(r"([A-Z][a-z]*)(\d*)|(\()|(\))(\d*)", formula)
@@ -214,9 +214,9 @@ class Solution(object):
 
         return "".join(name + (str(stack[-1][name]) if stack[-1][name] > 1 else '')
                        for name in sorted(stack[-1]))
-```
+# ```
 
-```Java [ ]
+# ```Java [ ]
 import java.util.regex.*;
 
 class Solution {
@@ -255,9 +255,9 @@ class Solution {
         return ans.toString();
     }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N^2)$。
-* 空间复杂度：$O(N)$，分析与方法 1 相同。
+# * 时间复杂度：$O(N^2)$。
+# * 空间复杂度：$O(N)$，分析与方法 1 相同。

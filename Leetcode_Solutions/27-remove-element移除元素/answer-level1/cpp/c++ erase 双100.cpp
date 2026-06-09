@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![图片.png](https://pic.leetcode-cn.com/4f94c09a695e4628bbebc0e5606534219249923a725dc9908786506339a347a5-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/4f94c09a695e4628bbebc0e5606534219249923a725dc9908786506339a347a5-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -20,4 +20,4 @@ public:
         return nums.size();
     }
 };
-```
+// ```

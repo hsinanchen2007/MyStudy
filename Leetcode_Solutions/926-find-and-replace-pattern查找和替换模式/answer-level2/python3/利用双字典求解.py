@@ -1,7 +1,7 @@
-思路:双字典分别用word和pattern作为键,求字典的交集
+# 思路:双字典分别用word和pattern作为键,求字典的交集
 
-代码:
-```python
+# 代码:
+# ```python
 class Solution:
 
     def findAndReplacePattern(self, words: List[str], pattern: str) -> List[str]:

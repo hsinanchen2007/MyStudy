@@ -1,11 +1,11 @@
-![QQ图片20200330173557.png](https://pic.leetcode-cn.com/f5685a1ea10189dae8aed934097092cc42913b32079acd22866965b25eb9104d-QQ%E5%9B%BE%E7%89%8720200330173557.png)
+// ![QQ图片20200330173557.png](https://pic.leetcode-cn.com/f5685a1ea10189dae8aed934097092cc42913b32079acd22866965b25eb9104d-QQ%E5%9B%BE%E7%89%8720200330173557.png)
 
-### 解题思路
-利用状态机，遍历方向在 → ↓ ← ↑四个方向之间切换。
+// ### 解题思路
+// 利用状态机，遍历方向在 → ↓ ← ↑四个方向之间切换。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
@@ -86,4 +86,4 @@ public:
         }
     }
 };
-```
+// ```

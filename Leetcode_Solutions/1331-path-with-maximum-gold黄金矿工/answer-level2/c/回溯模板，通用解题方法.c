@@ -1,9 +1,9 @@
-### 解题思路
-回溯模板，通用解题方法
+// ### 解题思路
+// 回溯模板，通用解题方法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -64,4 +64,4 @@ int getMaximumGold(int **grid, int gridSize, int *gridColSize)
 	}
 	return ans;
 }
-```
+// ```

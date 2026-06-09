@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-双指针
+// 双指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
     if (numsSize == 0) return 0;
     int i = 0;
@@ -16,4 +16,4 @@ int removeDuplicates(int* nums, int numsSize){
 
     return i + 1;
 }
-```
+// ```

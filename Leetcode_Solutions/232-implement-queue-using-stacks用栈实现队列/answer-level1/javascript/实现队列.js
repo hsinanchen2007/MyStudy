@@ -1,11 +1,11 @@
-### 解题思路
-这题只要对数组的几个APi熟悉的话很简单。
+// ### 解题思路
+// 这题只要对数组的几个APi熟悉的话很简单。
 
-入列 push()  出列shift() 判断空 判断queue的长度即可。
+// 入列 push()  出列shift() 判断空 判断queue的长度即可。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -46,4 +46,4 @@ MyQueue.prototype.peek = function() {
 MyQueue.prototype.empty = function() {
   return this.queue.length == 0 ? true : false
 };
-```
+// ```

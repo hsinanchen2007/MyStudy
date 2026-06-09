@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/0f545b603f62399f6f79909ef16ff744797fc81c6dd8b412f316c3b0b922fa71-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/0f545b603f62399f6f79909ef16ff744797fc81c6dd8b412f316c3b0b922fa71-image.png)
+// ```
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -98,4 +98,4 @@ public:
  * bool param_7 = obj->isEmpty();
  * bool param_8 = obj->isFull();
  */
-```
+// ```

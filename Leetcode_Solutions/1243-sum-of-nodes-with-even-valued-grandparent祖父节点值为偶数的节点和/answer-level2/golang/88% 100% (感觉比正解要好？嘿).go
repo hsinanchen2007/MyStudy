@@ -1,11 +1,11 @@
-#思路
-```
+// #思路
+// ```
 通过str传参构造奇偶路径
 当len(str)>2时&&路径删的祖父节点是偶数时候，累加
 dfs递归如上
-```
-#代码
-```
+// ```
+// #代码
+// ```
 
 func dfs(root *TreeNode,str string) int {
 	if root == nil{
@@ -29,5 +29,5 @@ func dfs(root *TreeNode,str string) int {
 func sumEvenGrandparent(root *TreeNode) int {
 	return dfs(root,"")
 }
-```
+// ```
 

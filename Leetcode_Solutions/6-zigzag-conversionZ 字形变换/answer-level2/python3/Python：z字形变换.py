@@ -1,12 +1,12 @@
-### 解题思路
-纯数学法
-拐点：(2n-2)x
-得到index对拐点坐标取余
-当余数比n-1大时在折线上，小时在竖线上
+# ### 解题思路
+# 纯数学法
+# 拐点：(2n-2)x
+# 得到index对拐点坐标取余
+# 当余数比n-1大时在折线上，小时在竖线上
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows==1:
@@ -21,4 +21,4 @@ class Solution:
             else:
                 zStr[i]+=everyChar
         return ''.join(zStr)
-```
+# ```

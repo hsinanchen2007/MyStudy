@@ -1,9 +1,9 @@
 
-对于一个数组[a, b, c, d, e]，我们先交换首尾元素，然后中间元素看成是另一个子问题，然后递归求解
+// 对于一个数组[a, b, c, d, e]，我们先交换首尾元素，然后中间元素看成是另一个子问题，然后递归求解
 
-### 递归版
+// ### 递归版
 
-```
+// ```
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -27,9 +27,9 @@ public:
         s[j] = c;
     }
 };
-```
+// ```
 
-```python
+// ```python
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -43,11 +43,11 @@ class Solution:
             help(s, i+1, j-1)
 
         help(s, 0, len(s)-1)
-```
+// ```
 
-### 迭代版
+// ### 迭代版
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -72,9 +72,9 @@ public:
         s[j] = tmp;
     }
 };
-```
+// ```
 
-```python
+// ```python
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -86,8 +86,8 @@ class Solution:
             s[i], s[j] = s[j], s[i]
             i = i+1
             j = j-1
-```
+// ```
 
-进一步提高性能，上面提交后超过77%左右，把swap里的内容直接写，避免函数调用，可以提高到97%
+// 进一步提高性能，上面提交后超过77%左右，把swap里的内容直接写，避免函数调用，可以提高到97%
 
 

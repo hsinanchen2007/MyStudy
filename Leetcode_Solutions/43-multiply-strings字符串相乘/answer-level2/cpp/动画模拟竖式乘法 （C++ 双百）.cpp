@@ -1,8 +1,8 @@
-**经评论提醒，图片有误，请注意！**
+// **经评论提醒，图片有误，请注意！**
 
-![演示文稿1.gif](https://pic.leetcode-cn.com/7a5cea144918472fb76e759d982e6e145ba4f3d4ab598447fbf1de5bba42b671-%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF1.gif)
+// ![演示文稿1.gif](https://pic.leetcode-cn.com/7a5cea144918472fb76e759d982e6e145ba4f3d4ab598447fbf1de5bba42b671-%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF1.gif)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string multiply(string num1, string num2) {
@@ -28,6 +28,6 @@ public:
         return r;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/6aeae4d75886ca4b58b12d136426e7eef661c9fc01a6c550d9886da74087f9c7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6aeae4d75886ca4b58b12d136426e7eef661c9fc01a6c550d9886da74087f9c7-image.png)

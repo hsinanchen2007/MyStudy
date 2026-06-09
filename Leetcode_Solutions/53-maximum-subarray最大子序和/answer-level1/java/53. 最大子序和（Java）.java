@@ -1,5 +1,5 @@
-**直接看注释~**
-```java
+// **直接看注释~**
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
 
@@ -18,4 +18,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

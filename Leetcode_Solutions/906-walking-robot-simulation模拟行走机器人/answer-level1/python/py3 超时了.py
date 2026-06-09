@@ -1,8 +1,8 @@
-### 解题思路
-自己写的超时，主要是没有用Set和turtle
-### 代码
+# ### 解题思路
+# 自己写的超时，主要是没有用Set和turtle
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def robotSim(self, commands, obstacles):
     direction=[[0,1],[1,0],[0,-1],[-1,0]]
@@ -21,4 +21,4 @@ class Solution(object):
                             else:
                                 pos[0],pos[1] = pos[0]+direction[dir][0],pos[1]+direction[dir][1]
                                 ans=max(ans,pos[0]*pos[0]+pos[1]*pos[1])
-```
+# ```

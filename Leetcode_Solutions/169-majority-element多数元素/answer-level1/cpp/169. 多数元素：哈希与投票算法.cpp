@@ -1,9 +1,9 @@
-### 解题思路
-* 详看[官方思路](https://leetcode-cn.com/problems/majority-element/solution/duo-shu-yuan-su-by-leetcode-solution/)
+// ### 解题思路
+// * 详看[官方思路](https://leetcode-cn.com/problems/majority-element/solution/duo-shu-yuan-su-by-leetcode-solution/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     // 题目保证多数元素存在
@@ -23,10 +23,10 @@ public:
         return candidate;
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/8c61d9b4fa2f54373a7242f391e808731455bf43bba0c34c1f1d0341a204df27-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/8c61d9b4fa2f54373a7242f391e808731455bf43bba0c34c1f1d0341a204df27-1.png)
 
-```cpp
+// ```cpp
     // 哈希
     int majorityElement(vector<int>& nums) {
         unordered_map<int, int> counts;
@@ -42,5 +42,5 @@ public:
         }
         return maj;
     }
-```
-![2.png](https://pic.leetcode-cn.com/7863307ae9d01f1d6783a661492d5cfa24e50b72d1f52676f0dc03a3bf98ce2f-2.png)
+// ```
+// ![2.png](https://pic.leetcode-cn.com/7863307ae9d01f1d6783a661492d5cfa24e50b72d1f52676f0dc03a3bf98ce2f-2.png)

@@ -1,6 +1,6 @@
-1. 前缀数组
+// 1. 前缀数组
 
-```swift
+// ```swift
 class NumArray {
     
     private var numbers: [Int]
@@ -29,11 +29,11 @@ class NumArray {
         return prefix[j + 1] - prefix[i]
     }
  }
-```
+// ```
 
-2. 二叉树实现线段树
+// 2. 二叉树实现线段树
 
-```swift
+// ```swift
 class SegmentTree {
     private var head: SegmentTreeNode?
     class SegmentTreeNode {
@@ -115,11 +115,11 @@ class SegmentTree {
         return query(head, start, end)
     }
  }
-```
+// ```
 
-3. 数组实现线段树
+// 3. 数组实现线段树
 
-```swift
+// ```swift
  class NumArray {
     private var tree: [Int]
     private let N: Int
@@ -173,4 +173,4 @@ class SegmentTree {
  * obj.update(i, val)
  * let ret_2: Int = obj.sumRange(i, j)
  */
-```
+// ```

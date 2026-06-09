@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxProfit(int[] prices) {
        int result = Integer.MIN_VALUE;
@@ -16,4 +16,4 @@ class Solution {
        return result;
     }
 }
-```
+// ```

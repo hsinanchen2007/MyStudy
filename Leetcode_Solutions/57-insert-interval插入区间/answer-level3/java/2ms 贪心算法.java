@@ -1,11 +1,11 @@
-### 解题思路
-以intervals[[1,2],[3,5],[7,8]]，newInterval[4,6]为例。
-intervals[0][1]<newInterval[0],result添加intervals[0];
-intervals[1][0]<newInterval[0],改变newInterval的值为[3,6]（既当intervals中的区间和newInterval有重合时，改变newInterval的值，此区间也不会添加到result中）;
-intervals[2][0]>newInterval[1],result添加newInterval和Interval[1]。
-### 代码
+// ### 解题思路
+// 以intervals[[1,2],[3,5],[7,8]]，newInterval[4,6]为例。
+// intervals[0][1]<newInterval[0],result添加intervals[0];
+// intervals[1][0]<newInterval[0],改变newInterval的值为[3,6]（既当intervals中的区间和newInterval有重合时，改变newInterval的值，此区间也不会添加到result中）;
+// intervals[2][0]>newInterval[1],result添加newInterval和Interval[1]。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         if (newInterval == null || intervals == null) {
@@ -45,4 +45,4 @@ class Solution {
         return result.toArray(new int[0][0]);
     }
 }
-```
+// ```

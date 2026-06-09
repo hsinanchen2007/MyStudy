@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         # find which line it's: O(logM)
@@ -28,4 +28,4 @@ class Solution:
         index = bisect.bisect_left(arr, target)
         if index < len(arr) and arr[index] == target: return True
         else: return False
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-hash计数维护数出现的频率
-k长度极小堆，维护前k个高频元素
-得到的list数组，反转即可
+// ### 解题思路
+// hash计数维护数出现的频率
+// k长度极小堆，维护前k个高频元素
+// 得到的list数组，反转即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> topKFrequent(int[] nums, int k) {
         //list值
@@ -52,4 +52,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

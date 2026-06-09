@@ -1,9 +1,9 @@
-### 解题思路
-注意如果直接res.add(list),之后对list修改会同时修改已经插入到res中的list。
+// ### 解题思路
+// 注意如果直接res.add(list),之后对list修改会同时修改已经插入到res中的list。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         list.remove(list.size() - 1);
     }
 }
-```
+// ```

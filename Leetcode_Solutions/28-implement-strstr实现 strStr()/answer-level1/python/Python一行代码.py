@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def strStr(self, haystack, needle):
         """
@@ -13,4 +13,4 @@ class Solution(object):
         """
         a=haystack.find(needle)
          a
-```
+# ```

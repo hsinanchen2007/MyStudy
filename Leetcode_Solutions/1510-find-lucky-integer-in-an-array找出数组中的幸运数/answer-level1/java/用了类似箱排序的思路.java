@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-如题QAQ
-### 代码
+// 如题QAQ
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findLucky(int[] arr) {
         
@@ -27,4 +27,4 @@ class Solution {
         return maxlucky;
     }
 }
-```
+// ```

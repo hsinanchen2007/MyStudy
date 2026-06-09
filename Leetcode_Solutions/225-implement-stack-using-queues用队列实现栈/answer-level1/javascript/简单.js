@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-这题简单，尤其对于动态语言的js来说。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 这题简单，尤其对于动态语言的js来说。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -56,4 +56,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

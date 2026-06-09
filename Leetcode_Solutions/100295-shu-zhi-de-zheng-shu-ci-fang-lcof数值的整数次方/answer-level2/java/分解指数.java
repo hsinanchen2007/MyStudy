@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double myPow(double x, int n) {
         double num = Math.pow(x, n/2);
@@ -12,4 +12,4 @@ class Solution {
         else return num*num*Math.pow(x,n%2);
     }
 }
-```
+// ```

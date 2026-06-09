@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-分两个集合来做
-一个集合是被改过加个的
-另一个是没有改过价格的
-### 代码
+-- ### 解题思路
+-- 此处撰写解题思路
+-- 分两个集合来做
+-- 一个集合是被改过加个的
+-- 另一个是没有改过价格的
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -31,4 +31,4 @@ where (product_id) not in
     where p1.change_date <= '2019-08-16'
     group by p1.product_id
 )
-```
+-- ```

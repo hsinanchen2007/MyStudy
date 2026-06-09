@@ -1,5 +1,5 @@
-通过字典缓存遍历过的数据，其中字符串为key，对应的位置为value，拿到之前出现重复数据的位置最大值sta跟当前位置i的差，然后跟ans比较取最大的保存到ans，最后返回ans
-```
+// 通过字典缓存遍历过的数据，其中字符串为key，对应的位置为value，拿到之前出现重复数据的位置最大值sta跟当前位置i的差，然后跟ans比较取最大的保存到ans，最后返回ans
+// ```
 class Solution {
     func lengthOfLongestSubstring(_ s: String) -> Int {
      let lenght = s.count
@@ -30,4 +30,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-这道题可以分成两个步骤：
-（1）遍历A的所有节点
-（2）以当前A的节点为根的子树与B进行比较。
+# ### 解题思路
+# 这道题可以分成两个步骤：
+# （1）遍历A的所有节点
+# （2）以当前A的节点为根的子树与B进行比较。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution(object):
             return judge(root, B) or get_res(root.left) or get_res(root.right)
         
         return get_res(A)
-```
+# ```

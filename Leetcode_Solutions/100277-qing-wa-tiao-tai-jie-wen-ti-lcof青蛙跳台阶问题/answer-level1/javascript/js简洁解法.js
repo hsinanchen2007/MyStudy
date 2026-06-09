@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 /**
  * @param {number} n
  * @return {number}
@@ -11,4 +11,4 @@ var numWays = function(n) {
 
     return b % 1000000007n;
 };
-```
+// ```

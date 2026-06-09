@@ -1,8 +1,8 @@
-### 解题思路
-双指针 找出最高点 两边向内收缩
-### 代码
+// ### 解题思路
+// 双指针 找出最高点 两边向内收缩
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} height
  * @return {number}
@@ -28,4 +28,4 @@ var trap = function(height) {
     }
     return ans
 };
-```
+// ```

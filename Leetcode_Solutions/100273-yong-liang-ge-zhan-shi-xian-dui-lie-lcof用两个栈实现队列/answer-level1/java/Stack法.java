@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CQueue {
     Stack<Integer> stack1;
     Stack<Integer> stack2;
@@ -33,4 +33,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

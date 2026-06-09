@@ -1,10 +1,10 @@
-### 解题思路
-本来觉得像01背包问题，但是写了写找不到关系
-看了题解才会，动态规划太难想了
+// ### 解题思路
+// 本来觉得像01背包问题，但是写了写找不到关系
+// 看了题解才会，动态规划太难想了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -26,4 +26,4 @@ public:
       return dp[s.size()];
     }
 };
-```
+// ```

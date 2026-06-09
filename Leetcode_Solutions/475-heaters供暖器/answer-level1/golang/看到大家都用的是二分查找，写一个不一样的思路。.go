@@ -1,8 +1,8 @@
-如果houses 和 heaters 都 已经排好序了 。那么  一个house 的 前加热器一定是大于 等于 前一个 house 的前加热器，一个house 的后加热器 一定大于 前加热器 +1 （相等的情况不用考虑都为0）。用这样的思路 复杂度应该可以 O(n+m) 。用二分查找的优势在于 不用对 houses 进行排序可以省下一大部分时间。如果houses 数据 本来就是 排好序的，个人认为线性遍历会更好。用go 最好战绩 68ms 100%
+// 如果houses 和 heaters 都 已经排好序了 。那么  一个house 的 前加热器一定是大于 等于 前一个 house 的前加热器，一个house 的后加热器 一定大于 前加热器 +1 （相等的情况不用考虑都为0）。用这样的思路 复杂度应该可以 O(n+m) 。用二分查找的优势在于 不用对 houses 进行排序可以省下一大部分时间。如果houses 数据 本来就是 排好序的，个人认为线性遍历会更好。用go 最好战绩 68ms 100%
 
 
 
-```
+// ```
 func findRadius(houses []int, heaters []int) int {
 	sort.Ints(houses)
 	sort.Ints(heaters)
@@ -109,4 +109,4 @@ func findRadius(houses []int, heaters []int) int {
 
 	return final
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
     public  boolean CheckPermutation(String s1, String s2) {
         char[] temp1=new char[255];
         char[] temp2=new char[255];
@@ -15,5 +15,5 @@
         }
         return true;
     }
-```
+// ```
 

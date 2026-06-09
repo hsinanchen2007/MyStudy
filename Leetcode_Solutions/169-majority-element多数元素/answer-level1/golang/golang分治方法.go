@@ -1,9 +1,9 @@
-### 解题思路
-//分治方法
+// ### 解题思路
+// //分治方法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func majorityElement(nums []int) int {
     return merger(nums, 0, len(nums) - 1)
@@ -38,4 +38,4 @@ func merger(nums []int, i int, j int) int {
 }
 
 
-```
+// ```

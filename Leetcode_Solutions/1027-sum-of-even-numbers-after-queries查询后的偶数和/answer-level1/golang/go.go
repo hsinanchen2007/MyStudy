@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sumEvenAfterQueries(A []int, queries [][]int) []int {
 	res:=[]int{}
 	doubles:=0
@@ -27,4 +27,4 @@ func sumEvenAfterQueries(A []int, queries [][]int) []int {
 	}
 	return res
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```mysql []
+-- ```mysql []
 SELECT DISTINCT
     lc.seat_id AS seat_id
 FROM
@@ -8,4 +8,4 @@ FROM
         AND lc.free = TRUE
         AND rc.free = TRUE
 ORDER BY lc.seat_id;
-```
+-- ```

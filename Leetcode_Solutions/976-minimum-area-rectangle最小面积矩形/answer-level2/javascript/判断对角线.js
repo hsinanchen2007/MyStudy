@@ -1,11 +1,11 @@
-### 解题思路
-先将坐标转换为字符串，方便查找
-两层遍历，先定下左上和右下两个点，再判断左下右上是否在数组中
-缺点耗时久了点
+// ### 解题思路
+// 先将坐标转换为字符串，方便查找
+// 两层遍历，先定下左上和右下两个点，再判断左下右上是否在数组中
+// 缺点耗时久了点
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} points
  * @return {number}
@@ -35,4 +35,4 @@ var minAreaRect = function(points) {
   }
   return minArea === Infinity ? 0 : minArea
 };
-```
+// ```

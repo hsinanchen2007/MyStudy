@@ -1,16 +1,16 @@
-### 解题思路
-前一次实现有几个问题：
-1 user没有使用专门的类，而是用userid来抽象代替。没有用到OO
-2 tweet的链表，在遍历的过程中是通过下标来访问的。特别容易出错。
+// ### 解题思路
+// 前一次实现有几个问题：
+// 1 user没有使用专门的类，而是用userid来抽象代替。没有用到OO
+// 2 tweet的链表，在遍历的过程中是通过下标来访问的。特别容易出错。
 
-重新做了一次。
-1 用上OO。
-user有自己专门的类、职责
-2 tweet链表的遍历，使用next属性来控制。只要判断是否非空即可，不容易出错。省力了很多。
+// 重新做了一次。
+// 1 用上OO。
+// user有自己专门的类、职责
+// 2 tweet链表的遍历，使用next属性来控制。只要判断是否非空即可，不容易出错。省力了很多。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -254,4 +254,4 @@ class ListMerger {
  * obj.follow(followerId,followeeId);
  * obj.unfollow(followerId,followeeId);
  */
-```
+// ```

@@ -1,8 +1,8 @@
-如果当前是左括号，就把左括号给AB中左括号最少的部分，如果当前是右括号，就把右括号与给AB中含有左括号最多的部分抵消。
+# 如果当前是左括号，就把左括号给AB中左括号最少的部分，如果当前是右括号，就把右括号与给AB中含有左括号最多的部分抵消。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDepthAfterSplit(self, seq: str) -> List[int]:
         #A,B没有左括号的个数
@@ -29,4 +29,4 @@ class Solution:
         
         
         
-```
+# ```

@@ -1,9 +1,9 @@
-golang 实现, 排序 + 对撞指针 + 去重处理
+// golang 实现, 排序 + 对撞指针 + 去重处理
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
 
-```
+// ```
 // 排序 + 对撞指针 + 去重处理
 // 时间复杂度：O(n^3)  空间复杂度：O(k)  其中，k为存储最终输出所占的空间
 
@@ -47,4 +47,4 @@ func fourSum(nums []int, target int) [][]int {
 
 	return res 
 }
-```
+// ```

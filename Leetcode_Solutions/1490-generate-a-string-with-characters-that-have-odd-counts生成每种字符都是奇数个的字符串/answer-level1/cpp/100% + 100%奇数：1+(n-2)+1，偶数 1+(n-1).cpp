@@ -1,9 +1,9 @@
-### 解题思路
-奇数偶数分解
+// ### 解题思路
+// 奇数偶数分解
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string generateTheString(int n) {
@@ -24,4 +24,4 @@ public:
        return res;
     }
 };
-```
+// ```

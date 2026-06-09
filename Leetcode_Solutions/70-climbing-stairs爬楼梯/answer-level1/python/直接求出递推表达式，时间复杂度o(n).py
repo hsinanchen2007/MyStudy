@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def climbStairs(self, n):
         if n==1:return 1
@@ -15,4 +15,4 @@ class Solution(object):
             i+=1
         return b
 
-```
+# ```

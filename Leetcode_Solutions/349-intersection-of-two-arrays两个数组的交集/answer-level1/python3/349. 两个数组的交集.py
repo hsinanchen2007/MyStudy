@@ -1,5 +1,5 @@
-利用set集合的无重复 + 查找O(1)复杂度的特性写的无脑答案()
-```python
+# 利用set集合的无重复 + 查找O(1)复杂度的特性写的无脑答案()
+# ```python
 def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         nums1s, res = set(), set()
         for 元素 in nums1:
@@ -11,4 +11,4 @@ def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         for item in res:
             list.append(item)
         return list
-```
+# ```

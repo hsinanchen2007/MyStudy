@@ -1,9 +1,9 @@
-### 解题思路
-先递归创建所有节点，再递归绑定邻居关系。
+# ### 解题思路
+# 先递归创建所有节点，再递归绑定邻居关系。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -51,4 +51,4 @@ class Solution:
         copy_neighbors(nd)
         return cur_node
 
-```
+# ```

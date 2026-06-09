@@ -1,9 +1,9 @@
-### 解题思路
-BFS，使用队列模拟递归，此处仅做C代码展示，有很多包括书写习惯需要改正的地方，待修改
+// ### 解题思路
+// BFS，使用队列模拟递归，此处仅做C代码展示，有很多包括书写习惯需要改正的地方，待修改
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -51,4 +51,4 @@ bool hasPathSum(struct TreeNode* root, int sum){
 }
 
 
-```
+// ```

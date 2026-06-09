@@ -1,9 +1,9 @@
-### 解题思路
-题中有说明，有序数组 和 不要求前面满足去重后数组的尾部，所以可复用原有数组
+// ### 解题思路
+// 题中有说明，有序数组 和 不要求前面满足去重后数组的尾部，所以可复用原有数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //第一种解法 通过map判断是否重复
     public  int removeDuplicates(int[] nums) {
@@ -33,4 +33,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

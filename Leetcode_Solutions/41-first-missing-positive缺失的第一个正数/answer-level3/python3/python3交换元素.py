@@ -1,9 +1,9 @@
-### 解题思路
-python3交换
+# ### 解题思路
+# python3交换
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
         len_nums = len(nums)
@@ -26,4 +26,4 @@ class Solution:
                 return (index+1)
 
         return index+2
-```
+# ```

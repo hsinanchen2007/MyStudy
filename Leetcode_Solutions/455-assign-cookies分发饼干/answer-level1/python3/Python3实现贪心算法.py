@@ -1,4 +1,4 @@
-```python3
+# ```python3
     def findContentChildren(self, g, s):
         g.sort() #孩子数组
         s.sort() #饼干数组
@@ -9,4 +9,4 @@
                 child += 1 #孩子饱了
             cookie += 1 #饼干吃了
         return child #返回被满足的孩子数
-```
+# ```

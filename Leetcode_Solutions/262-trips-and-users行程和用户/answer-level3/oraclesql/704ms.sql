@@ -1,9 +1,9 @@
-### 解题思路
-使用Exists排除禁止用户 ， DECOD效率要比CASE WHEN 好一点
+-- ### 解题思路
+-- 使用Exists排除禁止用户 ， DECOD效率要比CASE WHEN 好一点
 
-### 代码
+-- ### 代码
 
-```oraclesql
+-- ```oraclesql
 
 SELECT Request_At AS "Day" , ROUND(CNT/TOTAL,2) AS "Cancellation Rate" FROM ( 
 SELECT T.Request_At , SUM(DECODE(STATUS , 'completed', 0 , 1)) AS CNT , COUNT(*) AS TOTAL  FROM Trips T 
@@ -26,4 +26,4 @@ ORDER BY Request_At
 
 
 
-```
+-- ```

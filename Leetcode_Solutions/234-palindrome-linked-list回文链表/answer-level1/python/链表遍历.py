@@ -1,5 +1,5 @@
-遍历链表，顺序压栈，反转栈比较
-```
+# 遍历链表，顺序压栈，反转栈比较
+# ```
 class Solution(object):
     def isPalindrome(self, head):
         """
@@ -16,4 +16,4 @@ class Solution(object):
         inv_list = pos_list[::-1]
         
         return True if inv_list==pos_list else False
-```
+# ```

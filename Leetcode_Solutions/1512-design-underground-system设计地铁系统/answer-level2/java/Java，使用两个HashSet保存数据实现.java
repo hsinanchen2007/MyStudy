@@ -1,5 +1,5 @@
-Java，使用两个HashSet保存数据实现，检出和查找的复杂度都是O(n)。
-```
+// Java，使用两个HashSet保存数据实现，检出和查找的复杂度都是O(n)。
+// ```
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -58,4 +58,4 @@ public class UndergroundSystem {
         return sum / num;
     }
 }
-```
+// ```

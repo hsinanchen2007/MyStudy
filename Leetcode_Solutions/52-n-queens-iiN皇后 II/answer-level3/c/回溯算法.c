@@ -1,9 +1,9 @@
-### 解题思路
-逐行进行回溯即可。
+// ### 解题思路
+// 逐行进行回溯即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -108,4 +108,4 @@ int totalNQueens(int n){
     //printf(" %d " , total);
     return total;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/0b8e7f01c3df5b141256410c11dfde76736cae95018cfd9de4bceb0719fb4275-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/0b8e7f01c3df5b141256410c11dfde76736cae95018cfd9de4bceb0719fb4275-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int* plusOne(int* digits, int digitsSize, int* returnSize){
     int cnt = 0;
     int i;
@@ -47,4 +47,4 @@ int* plusOne(int* digits, int digitsSize, int* returnSize){
     *returnSize = retSize;
     return retArr;
 }
-```
+// ```

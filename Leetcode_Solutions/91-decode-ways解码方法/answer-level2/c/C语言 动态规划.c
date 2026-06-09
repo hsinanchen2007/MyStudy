@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/1dfb713ff4543ee07cd9669d25fc8b8a75935b5566568fd07f8944193df3fbb3-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/1dfb713ff4543ee07cd9669d25fc8b8a75935b5566568fd07f8944193df3fbb3-image.png)
+// ```
 /*
 解题思想：动态规划。
 解题步骤：
@@ -189,4 +189,4 @@ int numDecodings(char * s){
     return dp1;  
 }
 
-```
+// ```

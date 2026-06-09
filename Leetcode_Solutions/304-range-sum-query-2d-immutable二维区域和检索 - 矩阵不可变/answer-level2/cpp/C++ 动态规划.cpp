@@ -1,21 +1,21 @@
-# 构造函数
-## 时间复杂度: $O(MN)$
-## 空间复杂度: $O(1)$
-## 状态转移公式:
-$dp[i][j]$用来表示$matrix$中从$(0, 0)$到$(i, j)$之间所有的值
-$dp[i - 1][j]$和$dp[i][j - 1]$的重叠区域是$dp[i - 1][j - 1]$
-故而有
-$dp[i][j] = matrix[i][j] + dp[i - 1][j] + dp[i][j - 1] - dp[i - 1][j - 1]$
+// # 构造函数
+// ## 时间复杂度: $O(MN)$
+// ## 空间复杂度: $O(1)$
+// ## 状态转移公式:
+// $dp[i][j]$用来表示$matrix$中从$(0, 0)$到$(i, j)$之间所有的值
+// $dp[i - 1][j]$和$dp[i][j - 1]$的重叠区域是$dp[i - 1][j - 1]$
+// 故而有
+// $dp[i][j] = matrix[i][j] + dp[i - 1][j] + dp[i][j - 1] - dp[i - 1][j - 1]$
 
-# sumRegion
-## 时间复杂度: O(1)
-## 空间复杂度: O(1)
-## 状态转移公式:
-$ret = dp[row2][cols] - (dp[row1 - 1][col2] + dp[row2][col1 - 1] - dp[row1][col1])$
+// # sumRegion
+// ## 时间复杂度: O(1)
+// ## 空间复杂度: O(1)
+// ## 状态转移公式:
+// $ret = dp[row2][cols] - (dp[row1 - 1][col2] + dp[row2][col1 - 1] - dp[row1][col1])$
 
-# 代码
+// # 代码
 
-```cpp
+// ```cpp
 class NumMatrix {
 private:
     vector<vector<int>> dp;
@@ -52,4 +52,4 @@ public:
         return ret;
     }
 };
-```
+// ```

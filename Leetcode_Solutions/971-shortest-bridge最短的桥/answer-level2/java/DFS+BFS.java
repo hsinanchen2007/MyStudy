@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/237ad3e2c2311fbabf667271fcb3ad6e308d5752b330c7af66c350f6d959c4bf-image.png)
+// ![image.png](https://pic.leetcode-cn.com/237ad3e2c2311fbabf667271fcb3ad6e308d5752b330c7af66c350f6d959c4bf-image.png)
 
-```
+// ```
 class Solution {
     public int shortestBridge(int[][] A) {
         Queue<int[]> queue;
@@ -55,4 +55,4 @@ class Solution {
     	}
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-迭代法反转
+// ### 解题思路
+// 迭代法反转
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -25,4 +25,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

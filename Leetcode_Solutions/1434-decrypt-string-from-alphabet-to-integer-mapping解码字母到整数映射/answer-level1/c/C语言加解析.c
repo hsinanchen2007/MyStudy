@@ -1,10 +1,10 @@
-#include <string.h>
+// #include <string.h>
 
-// 遍历字符串，若当前元素不是'#'，判断后2位有没有'#'，
-// if有, 将前面的数字根据ascii码转成字母，然后从 i+3 继续遍历
-// else 直接用ascii码转为字母。
+// // 遍历字符串，若当前元素不是'#'，判断后2位有没有'#'，
+// // if有, 将前面的数字根据ascii码转成字母，然后从 i+3 继续遍历
+// // else 直接用ascii码转为字母。
 
-```
+// ```
 char * freqAlphabets(char * s){
     int length = strlen(s);
     int i = 0, j=0;
@@ -20,4 +20,4 @@ char * freqAlphabets(char * s){
     }
     return op;
 }
-```
+// ```

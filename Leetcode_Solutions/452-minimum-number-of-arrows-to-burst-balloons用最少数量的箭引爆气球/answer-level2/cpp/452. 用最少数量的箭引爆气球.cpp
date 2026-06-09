@@ -1,9 +1,9 @@
-### 解题思路
-先按开始坐标（结束坐标也可以）
+// ### 解题思路
+// 先按开始坐标（结束坐标也可以）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 bool myfunction (const vector<int>& i,const vector<int>& j) { return (i[0]<j[0]); }
 
 class Solution {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

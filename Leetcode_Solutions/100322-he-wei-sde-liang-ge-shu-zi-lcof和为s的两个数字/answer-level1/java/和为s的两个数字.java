@@ -1,9 +1,9 @@
-### 解题思路
-采用双指针，去查找对应和为s的两个数字
+// ### 解题思路
+// 采用双指针，去查找对应和为s的两个数字
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
@@ -23,4 +23,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

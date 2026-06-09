@@ -1,13 +1,13 @@
-### 解题思路
-三个指针支撑功能：
-1.虚拟结点指向head，始终在slow的前驱位置，作用：删除slow结点
-2.slow为要删除的倒数第n个结点
-3.quick为快指针，与slow相对距离为n
-4.若slow==oldHead，即若即将删除头结点，则返回的新的头结点应为oldHead.next
+// ### 解题思路
+// 三个指针支撑功能：
+// 1.虚拟结点指向head，始终在slow的前驱位置，作用：删除slow结点
+// 2.slow为要删除的倒数第n个结点
+// 3.quick为快指针，与slow相对距离为n
+// 4.若slow==oldHead，即若即将删除头结点，则返回的新的头结点应为oldHead.next
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -44,4 +44,4 @@ class Solution {
         return oldHead;
     }
 }
-```
+// ```

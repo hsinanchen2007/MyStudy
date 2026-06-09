@@ -1,11 +1,11 @@
-### 解题思路
-其实就是后续遍历的变种题，
-可以用递归和迭代，这里是递归
-![image.png](https://pic.leetcode-cn.com/59685d7847a1ab76fc9eb24591ca7aa2db691d6e73f56ad001a6b0b71ffa7363-image.png)
+// ### 解题思路
+// 其实就是后续遍历的变种题，
+// 可以用递归和迭代，这里是递归
+// ![image.png](https://pic.leetcode-cn.com/59685d7847a1ab76fc9eb24591ca7aa2db691d6e73f56ad001a6b0b71ffa7363-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ public:
         return root;
     }
 };
-```
+// ```

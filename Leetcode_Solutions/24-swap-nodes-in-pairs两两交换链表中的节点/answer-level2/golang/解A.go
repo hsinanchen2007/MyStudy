@@ -1,23 +1,23 @@
-### 解题思路
-+ a -> b -> c -> d
-    1. for 1
-    2. a -> d,
-    3. b -> a,
-    4. for 2
-    5. c -> nil
-    6. d -> c
+// ### 解题思路
+// + a -> b -> c -> d
+//     1. for 1
+//     2. a -> d,
+//     3. b -> a,
+//     4. for 2
+//     5. c -> nil
+//     6. d -> c
 
-+ a -> b -> c -> d -> e
-    1. for 1
-    2. a -> d
-    3. b -> a
-    4. for 2
-    5. c -> e
-    6. d -> c
+// + a -> b -> c -> d -> e
+//     1. for 1
+//     2. a -> d
+//     3. b -> a
+//     4. for 2
+//     5. c -> e
+//     6. d -> c
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -52,4 +52,4 @@ func swapPairs(head *ListNode) *ListNode {
 
     return result
 }
-```
+// ```

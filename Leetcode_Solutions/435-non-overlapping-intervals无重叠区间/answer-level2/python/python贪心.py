@@ -1,5 +1,5 @@
-类似最大执行任务数问题。
-```
+# 类似最大执行任务数问题。
+# ```
 class Solution(object):
     def eraseOverlapIntervals(self, intervals):
         """
@@ -31,4 +31,4 @@ class Solution(object):
         # 记入总区间的区间个数为count，总区间个数为n，返回差值。
         return n-count
             
-```
+# ```

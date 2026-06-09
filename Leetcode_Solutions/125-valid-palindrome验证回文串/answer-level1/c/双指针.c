@@ -1,4 +1,4 @@
-```
+// ```
 // 双指针
 bool IsEffective(char c) {
     if( (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9') ) {
@@ -46,4 +46,4 @@ bool isPalindrome(char * s){
     }
     return true;
 }
-```
+// ```

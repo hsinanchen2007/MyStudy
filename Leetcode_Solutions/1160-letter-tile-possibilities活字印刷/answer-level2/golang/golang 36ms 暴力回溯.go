@@ -1,7 +1,7 @@
-因为数据量很小，所以直接暴力回溯解决问题，并用map去重。
+// 因为数据量很小，所以直接暴力回溯解决问题，并用map去重。
 
-优化：可以对tiles排序，回溯时如果和上一个相同，就不用遍历当前。
-```
+// 优化：可以对tiles排序，回溯时如果和上一个相同，就不用遍历当前。
+// ```
 func numTilePossibilities(tiles string) int {
 	used := make([]bool, len(tiles))
 	m := make(map[string]struct{})
@@ -26,4 +26,4 @@ func backtrack(now string, used []bool, str string, m map[string]struct{}) {
 	}
 }
 
-```
+// ```

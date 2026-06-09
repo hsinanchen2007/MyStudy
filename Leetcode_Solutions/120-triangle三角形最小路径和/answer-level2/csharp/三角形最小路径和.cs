@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
    public int MinimumTotal(IList<IList<int>> triangle)
         {
@@ -35,4 +35,4 @@ public class Solution {
             return result.Min();
         }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-借鉴了powcai大佬的思路
+# ### 解题思路
+# 借鉴了powcai大佬的思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMaxLength(self, nums: List[int]) -> int:
         for idx, val in enumerate(nums):
@@ -20,4 +20,4 @@ class Solution:
             else:
                 lookup[cur_sum] = idx
         return res
-```
+# ```

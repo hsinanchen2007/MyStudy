@@ -1,9 +1,9 @@
-### 解题思路
-队列 + 循环解法 注意下面的细节
+// ### 解题思路
+// 队列 + 循环解法 注意下面的细节
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.LinkedList;
 import java.util.Queue;
 /**
@@ -69,4 +69,4 @@ class Solution {
     }
 
 }
-```
+// ```

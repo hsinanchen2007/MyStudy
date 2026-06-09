@@ -1,4 +1,4 @@
-```
+// ```
 int kthToLast(struct ListNode* head, int k)
 {
     struct ListNode *front=head,*back=head;
@@ -13,4 +13,4 @@ int kthToLast(struct ListNode* head, int k)
     }
     return back->val;
 }
-```
+// ```

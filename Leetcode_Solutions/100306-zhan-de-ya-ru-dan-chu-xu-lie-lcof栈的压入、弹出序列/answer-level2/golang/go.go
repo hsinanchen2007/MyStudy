@@ -1,4 +1,4 @@
-```
+// ```
 func validateStackSequences(pushed []int, popped []int) bool {
 	st := []int{}
 	i, j := 0, 0
@@ -14,4 +14,4 @@ func validateStackSequences(pushed []int, popped []int) bool {
 	}
 	return 0 == len(st)
 }
-```
+// ```

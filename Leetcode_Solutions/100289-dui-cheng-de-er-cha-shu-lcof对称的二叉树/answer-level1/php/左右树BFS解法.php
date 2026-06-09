@@ -1,8 +1,8 @@
-同时对左右两棵树BFS递归，并进行比较
-需要注意的是，一般BFS会忽略null值，而此处必须将null值保留，只是递归至null时直接continue
+// 同时对左右两棵树BFS递归，并进行比较
+// 需要注意的是，一般BFS会忽略null值，而此处必须将null值保留，只是递归至null时直接continue
 
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -31,4 +31,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

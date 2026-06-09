@@ -1,6 +1,6 @@
-### 解法1：
-利用栈后进先出的特性：
-```python []
+# ### 解法1：
+# 利用栈后进先出的特性：
+# ```python []
 class Solution(object):
     def isValid(self, s):
         stack = []
@@ -15,4 +15,4 @@ class Solution(object):
                     stack.append(i)
                     
         return stack == []
-```
+# ```

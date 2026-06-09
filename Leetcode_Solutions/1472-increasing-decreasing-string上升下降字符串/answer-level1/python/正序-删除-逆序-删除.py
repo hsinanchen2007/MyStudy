@@ -1,10 +1,10 @@
-### 解题思路
-正序排完删除
-逆序排完删除
+# ### 解题思路
+# 正序排完删除
+# 逆序排完删除
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortString(self, s: str) -> str:
         
@@ -27,4 +27,4 @@ class Solution:
 
                 
 
-```
+# ```

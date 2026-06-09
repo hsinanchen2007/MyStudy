@@ -1,9 +1,9 @@
-### 解题思路
-区间一步一步走。
+# ### 解题思路
+# 区间一步一步走。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         ans = []
@@ -12,4 +12,4 @@ class Solution:
             a = max(nums[i:i+k])
             ans.append(a)
         return ans
-```
+# ```

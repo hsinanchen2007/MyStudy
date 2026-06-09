@@ -1,5 +1,5 @@
-想问下使用 Go 语言的同胞，在算法赛中，你们用栈或者队列的时候，是现场手橹还是什么库可以用，每次手橹有点落后啊。。。
-```
+// 想问下使用 Go 语言的同胞，在算法赛中，你们用栈或者队列的时候，是现场手橹还是什么库可以用，每次手橹有点落后啊。。。
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -67,4 +67,4 @@ func (s *Stack) Top() Node {
 func (s *Stack) Size() int {
 	return s.index
 }
-```
+// ```

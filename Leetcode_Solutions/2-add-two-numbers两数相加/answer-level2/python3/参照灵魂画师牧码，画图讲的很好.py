@@ -1,10 +1,10 @@
-### 解题思路
-carry=sum//10
-双斜线是取整，此处要取整，单斜线会算小数部分导致报错
+# ### 解题思路
+# carry=sum//10
+# 双斜线是取整，此处要取整，单斜线会算小数部分导致报错
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
 
 
 
-```
+# ```

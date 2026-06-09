@@ -1,4 +1,4 @@
-```
+// ```
 bool wordBreak(char * s, char ** wordDict, int wordDictSize){
     
     int len = strlen(s);
@@ -29,4 +29,4 @@ bool wordBreak(char * s, char ** wordDict, int wordDictSize){
     free(dp);
     return res;
 }
-```
+// ```

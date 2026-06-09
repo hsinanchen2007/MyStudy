@@ -1,20 +1,20 @@
-用的双指针法解的，时间复杂度是O(n)
-先定义一个first=0和last=-1的指针
-用first进行遍历并且求一步一步遍历的总值sum，将sum和目标值进行比较，如果满足条件并且长度更小的话，
-就更新更短的长度，然后再last++,进行遍历，看看能不能有更优解。
--           nums[--2-----3-----1-----2-----4-----3]      last=-1; first=0;
--           last  first
--           last       first
--           last              first 
--           last                   first                
-- 此时sum==8>7，len=4,在进行last++，first不变，如下：
--                 last             first    
-- 此时sum-=nums[last],sum==5<7,则fir++
--                 last                   first 
-- 只要sum大于目标值，则进行last++，否则first++，最后求得最小的长度就可以了
--                                        last   first   
- **  - 代码如下**
-```
+// 用的双指针法解的，时间复杂度是O(n)
+// 先定义一个first=0和last=-1的指针
+// 用first进行遍历并且求一步一步遍历的总值sum，将sum和目标值进行比较，如果满足条件并且长度更小的话，
+// 就更新更短的长度，然后再last++,进行遍历，看看能不能有更优解。
+// -           nums[--2-----3-----1-----2-----4-----3]      last=-1; first=0;
+// -           last  first
+// -           last       first
+// -           last              first 
+// -           last                   first                
+// - 此时sum==8>7，len=4,在进行last++，first不变，如下：
+// -                 last             first    
+// - 此时sum-=nums[last],sum==5<7,则fir++
+// -                 last                   first 
+// - 只要sum大于目标值，则进行last++，否则first++，最后求得最小的长度就可以了
+// -                                        last   first   
+//  **  - 代码如下**
+// ```
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums) {
@@ -48,6 +48,6 @@ public:
         return len;
     }
 };
-```
+// ```
 
-第一次写题解，有什么更好的意见评论见！
+// 第一次写题解，有什么更好的意见评论见！

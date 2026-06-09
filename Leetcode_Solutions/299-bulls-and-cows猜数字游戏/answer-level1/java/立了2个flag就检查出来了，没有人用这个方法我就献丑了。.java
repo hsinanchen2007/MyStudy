@@ -1,9 +1,9 @@
-### 解题思路
-两个Boolean数组来描述是否已经检查过了，之后只需要比较+更新数组即可。但是效率比较低。
+// ### 解题思路
+// 两个Boolean数组来描述是否已经检查过了，之后只需要比较+更新数组即可。但是效率比较低。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String getHint(String secret, String guess) {
             int bull = 0 ,cow = 0;
@@ -33,5 +33,5 @@ class Solution {
 	        return ans;
     }
 }
-```
-时间复杂度O(N^2),空间复杂度O(N)。
+// ```
+// 时间复杂度O(N^2),空间复杂度O(N)。

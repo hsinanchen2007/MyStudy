@@ -1,4 +1,4 @@
-```
+// ```
 public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
     List<Integer>[] subs = new List[n];
     for (int i = 0; i < subs.length; i++) {
@@ -24,4 +24,4 @@ public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
     //最晚收到通知员工收到通知的时间就是总时间
     return Arrays.stream(timeInformed).max().getAsInt();
 }
-```
+// ```

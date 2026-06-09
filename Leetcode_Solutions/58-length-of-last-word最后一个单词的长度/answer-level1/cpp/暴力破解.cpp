@@ -1,9 +1,9 @@
-### 解题思路
-采用暴力破解法，记住要解决尾部为空格的情况
+// ### 解题思路
+// 采用暴力破解法，记住要解决尾部为空格的情况
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -22,4 +22,4 @@ public:
         return count;
     }
 };
-```
+// ```

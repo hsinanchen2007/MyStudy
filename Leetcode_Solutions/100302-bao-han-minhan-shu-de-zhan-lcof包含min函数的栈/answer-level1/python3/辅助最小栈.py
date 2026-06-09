@@ -1,4 +1,4 @@
-```python
+# ```python
 class MinStack:
 
     def __init__(self):
@@ -33,4 +33,4 @@ class MinStack:
     def min(self) -> int:
         if not self._min_stack: return
         return self._min_stack[-1]
-```
+# ```

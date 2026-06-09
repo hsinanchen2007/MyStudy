@@ -1,4 +1,4 @@
-```
+// ```
 var solution = function(isBadVersion) {
     /**
      * @param {integer} n Total versions
@@ -19,4 +19,4 @@ var solution = function(isBadVersion) {
         return l;
     };
 };
-```
+// ```

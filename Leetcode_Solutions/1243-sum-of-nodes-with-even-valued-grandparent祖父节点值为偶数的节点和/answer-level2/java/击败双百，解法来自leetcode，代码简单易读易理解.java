@@ -1,9 +1,9 @@
-### 解题思路
-代码极其简单易读
+// ### 解题思路
+// 代码极其简单易读
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         helper(father, node, node.right);
     }
 }
-```
+// ```

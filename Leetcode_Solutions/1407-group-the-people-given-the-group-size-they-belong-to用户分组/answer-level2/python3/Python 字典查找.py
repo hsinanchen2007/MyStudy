@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:
         dic = {}
@@ -13,4 +13,4 @@ class Solution:
                 res.append(dic[group])
                 del dic[group]
         return res
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/bf06e242556800849b3875bc75b8b702059e433eb2c688a68808ca5321798dce-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/bf06e242556800849b3875bc75b8b702059e433eb2c688a68808ca5321798dce-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(char* str1, char* str2){
 	if (*str1 == '\0' || *str2 == '\0')
 		return 1;
@@ -30,4 +30,4 @@ int strStr(char * haystack, char * needle){
 	return -1;
 
 }
-```
+// ```

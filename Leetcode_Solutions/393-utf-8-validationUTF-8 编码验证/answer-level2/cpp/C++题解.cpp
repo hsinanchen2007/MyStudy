@@ -1,6 +1,6 @@
-一、判断前缀是否满足UTF8编码，即一字节前有多少个1，cnt > 4时不满足条件.
-二、直接循环判断（状态机模型）
-```c++
+// 一、判断前缀是否满足UTF8编码，即一字节前有多少个1，cnt > 4时不满足条件.
+// 二、直接循环判断（状态机模型）
+// ```c++
 class Solution {
 public:
     inline int GetUTFType(int n) {
@@ -41,4 +41,4 @@ public:
         return true;
     }
 };
-```
+// ```

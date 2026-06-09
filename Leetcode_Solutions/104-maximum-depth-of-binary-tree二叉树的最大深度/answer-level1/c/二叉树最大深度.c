@@ -1,7 +1,7 @@
-# 思路
-就是递归，保存一个当前最大深度的值。
-# 代码
-```
+// # 思路
+// 就是递归，保存一个当前最大深度的值。
+// # 代码
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ int maxDepth(struct TreeNode* root){
     getDeep(root, &max, 0);
     return max;
 }
-```
+// ```

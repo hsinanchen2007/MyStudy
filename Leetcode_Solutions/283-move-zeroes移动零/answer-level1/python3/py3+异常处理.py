@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -15,4 +15,4 @@ class Solution:
             pass
         for i in range(jici):
             nums.append(0)
-```
+# ```

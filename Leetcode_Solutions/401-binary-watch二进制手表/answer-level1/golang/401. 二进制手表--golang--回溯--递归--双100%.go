@@ -1,9 +1,9 @@
-### 解题思路
-回溯算法的思想
+// ### 解题思路
+// 回溯算法的思想
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func readBinaryWatch(num int) []string {
     hours := [4]int{1,2,4,8}
     minutes := [6]int{1,2,4,8,16,32}
@@ -56,4 +56,4 @@ func Run(hours [4]int,minutes [6]int,s string,res *[]string,shour,sminute,h,m,nu
         }
     }
 }
-```
+// ```

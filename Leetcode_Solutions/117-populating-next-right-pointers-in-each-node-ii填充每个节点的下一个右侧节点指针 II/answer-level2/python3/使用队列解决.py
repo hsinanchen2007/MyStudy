@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1. 构造一个队列，把树放进去；
-2. 解决方法与该题的解决方案一样[填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/shi-yong-zhan-jie-jue-by-xuhui11-4/)
-3. 区别在于多了一些判断条件，左、右节点都有可能为None的情况；
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 1. 构造一个队列，把树放进去；
+# 2. 解决方法与该题的解决方案一样[填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/shi-yong-zhan-jie-jue-by-xuhui11-4/)
+# 3. 区别在于多了一些判断条件，左、右节点都有可能为None的情况；
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -48,4 +48,4 @@ class Solution:
         return node
 
         
-```
+# ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/baea84d4e90b7312f2bc8230fa60a4dc168b82cd848d9d9918cd023fda0385c3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/baea84d4e90b7312f2bc8230fa60a4dc168b82cd848d9d9918cd023fda0385c3-image.png)
 
-```
+// ```
 class Solution {
     public String rearrangeString(String s, int k) {
         int[] map = new int[26];
@@ -27,4 +27,4 @@ class Solution {
         return ans.length() == s.length() ? ans.toString() : "";
     }
 }
-```
+// ```

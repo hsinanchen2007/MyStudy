@@ -1,5 +1,5 @@
-判断是否是增值序列，还要去除相同值的比较，所以比较序列使用sorted(set(res))；
-```
+# 判断是否是增值序列，还要去除相同值的比较，所以比较序列使用sorted(set(res))；
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -18,4 +18,4 @@ class Solution:
             helper(root.right)
         helper(root)
         return res == sorted(set(res))
-```
+# ```

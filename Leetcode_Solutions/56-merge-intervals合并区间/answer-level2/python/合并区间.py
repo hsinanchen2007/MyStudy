@@ -1,9 +1,9 @@
-### 解题思路
-先对区间的第一个数进行排序，再判断之后的区间是否重复，如果重复，就合并。
+# ### 解题思路
+# 先对区间的第一个数进行排序，再判断之后的区间是否重复，如果重复，就合并。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 def takeFirst(elem):
     return elem[0]
 
@@ -28,4 +28,4 @@ class Solution(object):
         return intervals
     
         
-```
+# ```

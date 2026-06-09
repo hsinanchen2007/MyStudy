@@ -1,9 +1,9 @@
-### 解题思路
-直接采用python3自带的reverse方法进行翻转
+# ### 解题思路
+# 直接采用python3自带的reverse方法进行翻转
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -18,4 +18,4 @@ class Solution:
             head = head.next
         l.reverse()
         return l
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 var reverseStr = function(s, k) {
     if (!s) return "";
     let arr = s.split("");
@@ -17,4 +17,4 @@ var reverseStr = function(s, k) {
         }
     }
 };
-```
+// ```

@@ -1,26 +1,26 @@
-### 1、如图，每个红框内可以视为一组，把整个字符串按 2n-2 切割
+// ### 1、如图，每个红框内可以视为一组，把整个字符串按 2n-2 切割
 
-`[[L E E T C O], [D E I S H I], [R I N G _ _]]`
+// `[[L E E T C O], [D E I S H I], [R I N G _ _]]`
 
-![WX20190917-145303@2x.png](https://pic.leetcode-cn.com/85b81aa1fa68841d3851153d4df91f2aeeac3f57728fc1a1871313641c5f158e-WX20190917-145303@2x.png)
-
-
-### 2、那么，我们先把每一组的第一位输出
-`L D R`
-
-![WX20190917-144822@2x.png](https://pic.leetcode-cn.com/9c2e13a5c1833c16f4d016b9382ef39d1d582f9800b07b595f3175732c9b4d40-WX20190917-144822@2x.png)
+// ![WX20190917-145303@2x.png](https://pic.leetcode-cn.com/85b81aa1fa68841d3851153d4df91f2aeeac3f57728fc1a1871313641c5f158e-WX20190917-145303@2x.png)
 
 
-如图，此时字符串还剩下
-`[[E E T C O], [E I S H I], [I N G _ _]]`
+// ### 2、那么，我们先把每一组的第一位输出
+// `L D R`
 
-对于每一组，其实只是要输出首尾两端的字母就行了
-第一次输出: `E O E I I`
-第二次输出: `E C I H N`
-第三次输出: `T S G`
+// ![WX20190917-144822@2x.png](https://pic.leetcode-cn.com/9c2e13a5c1833c16f4d016b9382ef39d1d582f9800b07b595f3175732c9b4d40-WX20190917-144822@2x.png)
 
-### 3、代码
-```
+
+// 如图，此时字符串还剩下
+// `[[E E T C O], [E I S H I], [I N G _ _]]`
+
+// 对于每一组，其实只是要输出首尾两端的字母就行了
+// 第一次输出: `E O E I I`
+// 第二次输出: `E C I H N`
+// 第三次输出: `T S G`
+
+// ### 3、代码
+// ```
 func Min(x, y int) int {
 	if x < y {
 		return x
@@ -58,4 +58,4 @@ func convert(s string, numRows int) string {
 	}
 	return res
 }
-```
+// ```

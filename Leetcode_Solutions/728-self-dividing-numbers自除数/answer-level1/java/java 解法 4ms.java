@@ -1,6 +1,6 @@
-java 解法 4ms
+// java 解法 4ms
 
-```
+// ```
 class Solution {
     public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> list = new ArrayList<>();
@@ -25,4 +25,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

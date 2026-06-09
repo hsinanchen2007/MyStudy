@@ -1,8 +1,8 @@
-### 解题思路
-前后指针，参考了@余栋 的写法
-### 代码
+// ### 解题思路
+// 前后指针，参考了@余栋 的写法
+// ### 代码
 
-```rust
+// ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
 // pub struct ListNode {
@@ -53,4 +53,4 @@ impl Solution {
         head.unwrap().next.take()
     }
 }
-```
+// ```

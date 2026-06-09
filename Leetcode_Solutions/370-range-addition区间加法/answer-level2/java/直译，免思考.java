@@ -1,4 +1,4 @@
-```
+// ```
 public int[] getModifiedArray(int length, int[][] updates) {
         int[] result = new int[length];
         for (int[] tempArray : updates) {
@@ -11,4 +11,4 @@ public int[] getModifiedArray(int length, int[][] updates) {
         }
         return result;
     }
-```
+// ```

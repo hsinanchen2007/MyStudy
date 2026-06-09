@@ -1,9 +1,9 @@
-### 解题思路
-将连续相同的括号（数量记为N）看作一组，针对每组（包括删除0~N个的情况）递归进行深度优先遍历，过程中记录下符合要求的结果。
+// ### 解题思路
+// 将连续相同的括号（数量记为N）看作一组，针对每组（包括删除0~N个的情况）递归进行深度优先遍历，过程中记录下符合要求的结果。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //#define debug
 #ifdef debug
     #define PRINT(fmt,args...) printf(fmt,##args)
@@ -156,4 +156,4 @@ char ** removeInvalidParentheses(char * s, int* returnSize){
 	return result;
 }
 
-```
+// ```

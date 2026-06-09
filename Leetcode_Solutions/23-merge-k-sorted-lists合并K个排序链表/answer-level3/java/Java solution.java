@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         if(lists==null){
@@ -20,4 +20,4 @@ class Solution {
         return head.next;
     }
 }
-```
+// ```

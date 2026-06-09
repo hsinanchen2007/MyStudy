@@ -1,4 +1,4 @@
-```java
+// ```java
 public class Solution{
 	/*
 	 * 使用内置函数retainAll(): oldCourses.retainAll(newCoures)
@@ -47,4 +47,4 @@ public class Solution{
 		return Arrays.copyOf(res, index); //返回res中前index个元素
 	}
 }
-```
+// ```

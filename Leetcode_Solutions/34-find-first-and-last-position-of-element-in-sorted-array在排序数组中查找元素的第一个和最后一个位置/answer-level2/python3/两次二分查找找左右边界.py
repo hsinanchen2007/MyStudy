@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
 #解法一，两个二分查找分别找target左右端点，用时超96%
@@ -63,4 +63,4 @@ class Solution:
         # self.ans=[-1,-1]
         # traceback(nums,target,0,len(nums)-1)
         # return self.ans
-```
+# ```

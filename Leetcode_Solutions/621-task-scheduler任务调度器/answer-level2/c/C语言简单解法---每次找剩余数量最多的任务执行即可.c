@@ -1,5 +1,5 @@
-C语言比较简单的方法
-```
+// C语言比较简单的方法
+// ```
 #define MAX_TASK_KIND   26
 
 int g_allTaskInfo[MAX_TASK_KIND] = { 0 };
@@ -62,4 +62,4 @@ int leastInterval(char* tasks, int tasksSize, int n)
 
     return g_resultCnt;
 }
-```
+// ```

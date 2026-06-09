@@ -1,4 +1,4 @@
-```
+// ```
 char * addStrings(char * num1, char * num2){
     int l1 = strlen(num1);
     int l2 = strlen(num2);
@@ -34,4 +34,4 @@ char * addStrings(char * num1, char * num2){
     
     return ret;
 }
-```
+// ```

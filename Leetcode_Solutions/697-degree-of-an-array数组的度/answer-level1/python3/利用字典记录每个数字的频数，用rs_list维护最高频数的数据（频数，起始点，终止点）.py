@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findShortestSubArray(self, nums: List[int]) -> int:
         if nums==[]:
@@ -21,4 +21,4 @@ class Solution:
                 if (dic[nums[i]][2]-dic[nums[i]][1])<(rs_list[2]-rs_list[1]):#相同频数下优先保留最短长度的数组
                     rs_list=dic[nums[i]][:]
         return rs_list[2]-rs_list[1]+1
-```
+# ```

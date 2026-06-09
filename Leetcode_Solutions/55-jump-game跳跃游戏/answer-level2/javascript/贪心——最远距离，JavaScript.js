@@ -1,9 +1,9 @@
-### 解题思路
-思路都在代码注释中，代码不多，一看就会明白
+// ### 解题思路
+// 思路都在代码注释中，代码不多，一看就会明白
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -37,4 +37,4 @@ var canJump = function(nums) {
     // }
     //此算法计算大数据会超时
 };
-```
+// ```

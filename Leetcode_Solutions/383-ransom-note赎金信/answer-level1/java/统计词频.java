@@ -1,4 +1,4 @@
-``` java
+// ``` java
 public boolean canConstruct(String ransomNote, String magazine) {
 		HashMap<Character,Integer> mapR = new HashMap<>();
 		HashMap<Character,Integer> mapM = new HashMap<>();
@@ -27,4 +27,4 @@ public boolean canConstruct(String ransomNote, String magazine) {
 		}
 		return ans;
 	}
-```
+// ```

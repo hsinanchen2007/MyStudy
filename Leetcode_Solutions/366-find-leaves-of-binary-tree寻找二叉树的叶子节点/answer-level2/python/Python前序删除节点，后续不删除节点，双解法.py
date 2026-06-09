@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1. 使用后序dfs遍历，每次拿到节点的深度，如果答案数组中的长度小于该深度，直接append[root.val]，否则在该index的数组中append这个节点的值。
+# ### 解题思路
+# 此处撰写解题思路
+# 1. 使用后序dfs遍历，每次拿到节点的深度，如果答案数组中的长度小于该深度，直接append[root.val]，否则在该index的数组中append这个节点的值。
 
-2. 使用前序dfs遍历，每次删除叶子节点，让叶子节点的父亲节点指向None。
+# 2. 使用前序dfs遍历，每次删除叶子节点，让叶子节点的父亲节点指向None。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 1. 后序遍历，不删除节点
 class Solution(object):
     def findLeaves(self, root):
@@ -58,4 +58,4 @@ class Solution(object):
         if root.right:
             self.dfs(root.right, root, 0, 1)
             
-```
+# ```

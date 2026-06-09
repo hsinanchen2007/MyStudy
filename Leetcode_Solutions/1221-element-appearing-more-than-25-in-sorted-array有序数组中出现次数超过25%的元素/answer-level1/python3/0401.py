@@ -1,9 +1,9 @@
-### 解题思路
-0401
+# ### 解题思路
+# 0401
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findSpecialInteger(self, arr):
         length=len(arr)
@@ -14,4 +14,4 @@ class Solution:
                 num=arr.count(i)
                 if(length/num<4):
                     return i
-```
+# ```

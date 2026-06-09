@@ -1,9 +1,9 @@
-### 解题思路
-1. build a list of matrix 
-2. return the list sorted by Manhattan Distance
-### 代码
+# ### 解题思路
+# 1. build a list of matrix 
+# 2. return the list sorted by Manhattan Distance
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def allCellsDistOrder(self, R, C, r0, c0):
         """
@@ -18,4 +18,4 @@ class Solution(object):
         return dist
 
 
-```
+# ```

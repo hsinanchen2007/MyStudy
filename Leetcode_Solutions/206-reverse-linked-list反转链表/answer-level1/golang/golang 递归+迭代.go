@@ -1,4 +1,4 @@
-```
+// ```
 // 递归版
 func reverseList(head *ListNode) *ListNode {
     if head == nil || head.Next == nil { return head }
@@ -18,4 +18,4 @@ func reverseList(head *ListNode) *ListNode {
     }
     return pre
 }
-```
+// ```

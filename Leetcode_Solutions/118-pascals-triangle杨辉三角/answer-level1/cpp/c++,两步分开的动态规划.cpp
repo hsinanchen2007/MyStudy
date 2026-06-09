@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-![捕获.JPG](https://pic.leetcode-cn.com/42d4aa715185986992f1302038fc7f24cdbf18123d14c6ec01c034af5228bedd-%E6%8D%95%E8%8E%B7.JPG)
-两步：
-1、先一个循环构造杨辉三角的边角值
-2、再利用动态方程dp[i][j] = dp[i-1][j-1]+dp[i-1][j];
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ![捕获.JPG](https://pic.leetcode-cn.com/42d4aa715185986992f1302038fc7f24cdbf18123d14c6ec01c034af5228bedd-%E6%8D%95%E8%8E%B7.JPG)
+// 两步：
+// 1、先一个循环构造杨辉三角的边角值
+// 2、再利用动态方程dp[i][j] = dp[i-1][j-1]+dp[i-1][j];
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -22,4 +22,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-核心思想： 从左往右，如果后一位比当前位小，移除当前位。 否则，移除最后一位。
-最后去零就好了。
+// 核心思想： 从左往右，如果后一位比当前位小，移除当前位。 否则，移除最后一位。
+// 最后去零就好了。
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -59,4 +59,4 @@ char *removeKdigits(char *num, int k)
 }
 
 
-```
+// ```

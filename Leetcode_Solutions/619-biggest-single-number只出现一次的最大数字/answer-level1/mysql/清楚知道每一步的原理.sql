@@ -1,4 +1,4 @@
-1.第一步只能出现一次，对每个数字出现的次数进行判断，使用group by分组
+-- 1.第一步只能出现一次，对每个数字出现的次数进行判断，使用group by分组
     select num
     from my_numbers
     group by num

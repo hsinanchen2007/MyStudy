@@ -1,10 +1,10 @@
-### 解题思路
-1.先将数组排序
-2.X取值2,3,5,7,11... ，按照X分组后，验证各组数值是否一样
+// ### 解题思路
+// 1.先将数组排序
+// 2.X取值2,3,5,7,11... ，按照X分组后，验证各组数值是否一样
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void* a, const void* b)
 {
     if (*(int*)a > *(int*)b) {
@@ -82,4 +82,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
 
     return false;
 }
-```
+// ```

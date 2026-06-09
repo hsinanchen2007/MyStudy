@@ -1,4 +1,4 @@
-```java []
+# ```java []
 class Solution {
     // 使用双指针法
     public int removeDuplicates(int[] nums) {
@@ -12,8 +12,8 @@ class Solution {
         return index+1;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if nums.__len__() == 0:
@@ -24,8 +24,8 @@ class Solution:
                 index += 1
                 nums[index] = nums[i]
         return index+1
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     // STL + 模板函数 + upper_bound()  底层实现为二分搜索
@@ -72,4 +72,4 @@ private:
 //         return index+1;
 //     }
 // };
-```
+# ```

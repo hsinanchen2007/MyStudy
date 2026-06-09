@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-利用一个栈暂存root，优先打印left
+// ### 解题思路
+// 此处撰写解题思路
+// 利用一个栈暂存root，优先打印left
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -73,4 +73,4 @@ func inorderTraversal(root *TreeNode) []int {
 
 
 
-```
+// ```

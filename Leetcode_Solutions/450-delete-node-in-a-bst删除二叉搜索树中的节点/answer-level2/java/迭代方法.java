@@ -1,4 +1,4 @@
-```java
+// ```java
 public TreeNode deleteNode(TreeNode root, int val) {
         TreeNode cur = root, parent = root;
         while (cur != null && cur.val != val){
@@ -29,4 +29,4 @@ public TreeNode deleteNode(TreeNode root, int val) {
         return root;
     }
 
-```
+// ```

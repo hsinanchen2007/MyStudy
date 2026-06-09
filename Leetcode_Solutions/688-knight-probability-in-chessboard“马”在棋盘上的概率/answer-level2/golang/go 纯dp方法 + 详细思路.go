@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func knightProbability(N int, K int, r int, c int) float64 {
     return method_dp(N, K, r, c)
 }
@@ -71,4 +71,4 @@ func method_dp(N int, K int, r int, c int) float64 {
 	return dp[r][c][K]
 }
 
-```
+// ```

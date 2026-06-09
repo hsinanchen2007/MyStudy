@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func subsetsWithDup(nums []int) [][]int {
     sort.Ints(nums)
     result := make([][]int,0)
@@ -31,4 +31,4 @@ func backtrack(nums, track []int, result *[][]int) {
     }
     
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -22,4 +22,4 @@ var findNumbers = function(nums) {
     })
     return count
 };
-```
+// ```

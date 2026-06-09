@@ -1,5 +1,5 @@
-思路可完全参考[数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one/solution/shu-zi-1-de-ge-shu-by-leetcode/)
-```
+// 思路可完全参考[数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one/solution/shu-zi-1-de-ge-shu-by-leetcode/)
+// ```
 class Solution {
 public:
     int min(int x, int y) {
@@ -23,5 +23,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/670f44b2b498006376a7d4f0cbf9197490a476156f4bca1da8d64607cf2301ba-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/670f44b2b498006376a7d4f0cbf9197490a476156f4bca1da8d64607cf2301ba-image.png)

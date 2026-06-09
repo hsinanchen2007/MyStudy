@@ -1,31 +1,31 @@
-### 快慢指针
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 这个算法基于快慢指针
-    2.2 定义两个指针遍历链表，有两种情况
-        2.2.1 fast.val=val,移动fast到下一节点，slow的next域指向fast
-        2.2.2 fast.val!=val,同时移动两个指针到下一节点
-3. 提交记录
-    3.1 力扣中耗时1ms,消耗39.2MB内存
-    3.2 leetcode中耗时1ms,消耗39.5MB内存
-4. Q&A
+// ### 快慢指针
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 这个算法基于快慢指针
+//     2.2 定义两个指针遍历链表，有两种情况
+//         2.2.1 fast.val=val,移动fast到下一节点，slow的next域指向fast
+//         2.2.2 fast.val!=val,同时移动两个指针到下一节点
+// 3. 提交记录
+//     3.1 力扣中耗时1ms,消耗39.2MB内存
+//     3.2 leetcode中耗时1ms,消耗39.5MB内存
+// 4. Q&A
 
-### 单指针
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 定义一个指针遍历链表，有两种情况
-        2.2.1 当前的next结点的值等于val，移动指针到这个点的下一结点
-        2.2.2 其他情况，直接移动指针到下一结点
-3. 提交记录
-    3.1 力扣中耗时3ms,消耗40.9MB内存
-    3.2 leetcode中耗时7ms,消耗44.8MB内存
-4. Q&A
+// ### 单指针
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 定义一个指针遍历链表，有两种情况
+//         2.2.1 当前的next结点的值等于val，移动指针到这个点的下一结点
+//         2.2.2 其他情况，直接移动指针到下一结点
+// 3. 提交记录
+//     3.1 力扣中耗时3ms,消耗40.9MB内存
+//     3.2 leetcode中耗时7ms,消耗44.8MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     203.Remove Linked List Elements
@@ -120,6 +120,6 @@ class Solution{
         return head;
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

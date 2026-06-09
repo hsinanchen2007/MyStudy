@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution(object):
     def searchRange(self, nums, target):
         """
@@ -53,6 +53,6 @@ class Solution(object):
                         right = mid -1
                     else:
                         return mid
-```
+# ```
 
 

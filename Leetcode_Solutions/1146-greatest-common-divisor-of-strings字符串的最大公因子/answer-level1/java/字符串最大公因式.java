@@ -1,12 +1,12 @@
-### 解题思路
-有点类似求最大公约数。
-当str1.equals(str2)是既得所求。
-否则将str1中的str2中替换成""
-判断str1是否替换，如果没有就说明两个字符串没有‘公约数’
+// ### 解题思路
+// 有点类似求最大公约数。
+// 当str1.equals(str2)是既得所求。
+// 否则将str1中的str2中替换成""
+// 判断str1是否替换，如果没有就说明两个字符串没有‘公约数’
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         // String str3=str1,str4 = str2;
@@ -47,4 +47,4 @@ class Solution {
        
     }
 }
-```
+// ```

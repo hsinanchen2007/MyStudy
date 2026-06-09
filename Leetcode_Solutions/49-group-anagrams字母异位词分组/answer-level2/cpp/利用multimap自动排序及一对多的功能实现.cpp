@@ -1,9 +1,9 @@
-### 解题思路
-通过sort对向量中的每个字符串进行排序，然后将排序后的与排序前的作为一对键值对插入multimap中，之所以用multimap是因为它可以实现一对多的数据结构，并且在插入multimap时，可以实现自动排序。
+// ### 解题思路
+// 通过sort对向量中的每个字符串进行排序，然后将排序后的与排序前的作为一对键值对插入multimap中，之所以用multimap是因为它可以实现一对多的数据结构，并且在插入multimap时，可以实现自动排序。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
@@ -40,4 +40,4 @@ public:
         return ss;
     }
 };
-```
+// ```

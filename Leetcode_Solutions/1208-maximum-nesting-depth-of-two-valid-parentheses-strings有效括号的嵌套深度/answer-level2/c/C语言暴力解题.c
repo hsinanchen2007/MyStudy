@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/e749eecbffb3e7b4a48edcc9f1b5f722276ef7be6e5b851ce38b0b3106a07217-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e749eecbffb3e7b4a48edcc9f1b5f722276ef7be6e5b851ce38b0b3106a07217-image.png)
 
-方法比较暴力，重点就是求最大深度。最大深度的一半不够之前都分给A，如果够了，就都分给B。
+// 方法比较暴力，重点就是求最大深度。最大深度的一半不够之前都分给A，如果够了，就都分给B。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -97,4 +97,4 @@ int* maxDepthAfterSplit(char * seq, int* returnSize){
     *returnSize = len;
     return piResult;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int sum = 0;
@@ -24,4 +24,4 @@ class Solution {
         }
     }
 }
-```
+// ```

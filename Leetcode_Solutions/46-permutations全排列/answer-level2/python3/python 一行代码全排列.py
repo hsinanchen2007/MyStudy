@@ -1,9 +1,9 @@
-### 解题思路
-使用 itertools 工具
+# ### 解题思路
+# 使用 itertools 工具
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import itertools
 class Solution(object):
     def permute(self, nums):
@@ -12,4 +12,4 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         return [list(i) for i in itertools.permutations(nums)]
-```
+# ```

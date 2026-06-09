@@ -1,10 +1,10 @@
-### 解题思路
-阿里系Java程序员。专注Java，算法。公众号同名。
-中序遍历二叉搜索树，用数组保存。对数组进行双指针搜索。
+// ### 解题思路
+// 阿里系Java程序员。专注Java，算法。公众号同名。
+// 中序遍历二叉搜索树，用数组保存。对数组进行双指针搜索。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -50,4 +50,4 @@ class Solution {
     }
 
 }
-```
+// ```

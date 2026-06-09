@@ -1,12 +1,12 @@
-### 解题思路
-对gcd算法有更好的认识了，这是来自题解[遍历计数数组并求出最大公约数(Java)](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/solution/qiu-jie-zui-da-gong-yue-shu-java-by-liweiwei1419/)中的一段话：
-    **计算 gcd(a, b) 的时候，虽然我们在讨论的时候，总是假设 a > b ，但在 a < b 的时候，递归函数的第一层就把两个数的值交换了，这一点经过调试是看得很明显的；**
-想想的确实这样的！
+// ### 解题思路
+// 对gcd算法有更好的认识了，这是来自题解[遍历计数数组并求出最大公约数(Java)](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/solution/qiu-jie-zui-da-gong-yue-shu-java-by-liweiwei1419/)中的一段话：
+//     **计算 gcd(a, b) 的时候，虽然我们在讨论的时候，总是假设 a > b ，但在 a < b 的时候，递归函数的第一层就把两个数的值交换了，这一点经过调试是看得很明显的；**
+// 想想的确实这样的！
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasGroupsSizeX(int* deck, int deckSize){
     if(deckSize==1) return false;
     int gcd(int x,int y);
@@ -29,4 +29,4 @@ int gcd(int x,int y){
     if(y==0) return x;
     return gcd(y,x%y);
 }
-```
+// ```

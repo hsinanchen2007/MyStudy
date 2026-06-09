@@ -1,6 +1,6 @@
-## 不使用循环
-**以38为例：38=3×10+8=3×9+3+8=4×9+2，所以38%9=2就是答案**
-```cpp
+// ## 不使用循环
+// **以38为例：38=3×10+8=3×9+3+8=4×9+2，所以38%9=2就是答案**
+// ```cpp
 class Solution {
 public:
     int addDigits(int num) {
@@ -12,9 +12,9 @@ public:
         return num;
     }
 };
-```
-## 模拟法----使用循环
-```cpp
+// ```
+// ## 模拟法----使用循环
+// ```cpp
 class Solution {
 public:
     int addDigits(int num) {
@@ -31,4 +31,4 @@ public:
         return num;
     }
 };
-```
+// ```

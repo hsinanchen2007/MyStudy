@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法
+// ### 解题思路
+// 暴力解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         StringBuilder builder = new StringBuilder("");
@@ -25,4 +25,4 @@ class Solution {
         return res.toString();
     }
 }
-```
+// ```

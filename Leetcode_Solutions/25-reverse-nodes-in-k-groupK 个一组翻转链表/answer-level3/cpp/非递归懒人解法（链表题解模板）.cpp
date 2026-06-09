@@ -1,5 +1,5 @@
-废话不说，先上代码。
-```
+// 废话不说，先上代码。
+// ```
 class Solution {
 public:
     //获取链表长度
@@ -84,13 +84,13 @@ public:
         return dummy.next;   
     }
 };
-```
-本人解这道题时思路很简单，就是计算需要进行多少组，然后分组（即使用cut切割链表），紧接着按组翻转每组链表，再链接到一块儿。
-使用的方法有(1)getLenOfList() (2)reverseList()翻转每组链表 （3）cut()切割链表
+// ```
+// 本人解这道题时思路很简单，就是计算需要进行多少组，然后分组（即使用cut切割链表），紧接着按组翻转每组链表，再链接到一块儿。
+// 使用的方法有(1)getLenOfList() (2)reverseList()翻转每组链表 （3）cut()切割链表
 
-感觉链表题比较有套路,经常使用的方法有（1）快慢指针 （2）mergeSortedList() (3)reverseList() (4)cut (5)getLenOfList(),有时候为了解题方便
-还会用到伪头结点的方法。然后解题时，将问题分割成子问题，再用以上几个方法来解决就好。上面已经给出了后面三个的代码，接下来给出mergeSortedList()的代码实现。。
-```
+// 感觉链表题比较有套路,经常使用的方法有（1）快慢指针 （2）mergeSortedList() (3)reverseList() (4)cut (5)getLenOfList(),有时候为了解题方便
+// 还会用到伪头结点的方法。然后解题时，将问题分割成子问题，再用以上几个方法来解决就好。上面已经给出了后面三个的代码，接下来给出mergeSortedList()的代码实现。。
+// ```
     ListNode* mergeSortedList(ListNode* l1,ListNode* l2)
     {
         ListNode dummy(0);
@@ -114,5 +114,5 @@ public:
         
         return dummy.next;
     }
-```
+// ```
 

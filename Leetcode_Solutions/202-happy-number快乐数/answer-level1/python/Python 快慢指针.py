@@ -1,6 +1,6 @@
-显然是一个判断环的问题，那个快慢指针很好用
-这里用dict存了已经算过的各个位数的平方和
-```python
+# 显然是一个判断环的问题，那个快慢指针很好用
+# 这里用dict存了已经算过的各个位数的平方和
+# ```python
 class Solution:
     def isHappy(self, n: int) -> bool:
         # 找环 -> 快慢指针
@@ -26,4 +26,4 @@ class Solution:
                 break
         #如果是快乐数， 只会困在一个指向自己的1环内
         return fast == 1
-```
+# ```

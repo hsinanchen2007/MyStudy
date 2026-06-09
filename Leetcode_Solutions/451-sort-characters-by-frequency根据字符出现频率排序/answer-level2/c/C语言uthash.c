@@ -1,9 +1,9 @@
-### 解题思路
-利用uthash建立哈希表，根据频率排序后输出
+// ### 解题思路
+// 利用uthash建立哈希表，根据频率排序后输出
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct hash_node {
     int iKey;   // 字符为key
     int freq;   // 字符出现的频率
@@ -67,4 +67,4 @@ char * frequencySort(char * s){
     deleteALL();
     return ans;
 }
-```
+// ```

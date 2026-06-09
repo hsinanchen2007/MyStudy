@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func trap(height []int) int {
 	l := len(height)
 	if l < 2 {
@@ -42,4 +42,4 @@ func min(a, b int) int {
 	return b
 }
 
-```
+// ```

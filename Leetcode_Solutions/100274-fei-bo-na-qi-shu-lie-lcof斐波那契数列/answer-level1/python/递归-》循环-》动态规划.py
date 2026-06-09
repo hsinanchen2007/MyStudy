@@ -1,9 +1,9 @@
-### 解题思路
-递归超时，改用循环
+# ### 解题思路
+# 递归超时，改用循环
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fib(self, n: int) -> int:
         if n == 0:
@@ -20,7 +20,7 @@ class Solution:
             sum_2 = tmp
         return tmp
 
-```
+# ```
 
-###换成动态规划的思维，存一个数组，用空间换取时间
+# ###换成动态规划的思维，存一个数组，用空间换取时间
 

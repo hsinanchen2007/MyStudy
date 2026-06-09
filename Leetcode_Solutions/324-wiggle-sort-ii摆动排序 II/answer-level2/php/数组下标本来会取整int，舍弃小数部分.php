@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2ce211f43ceba64181dc5c7efec164ed585204e46a4bb6d0bce1fbb190aec7ea-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/2ce211f43ceba64181dc5c7efec164ed585204e46a4bb6d0bce1fbb190aec7ea-image.png)
 
-先排序，然后$arr = [$nums[$n/2],$nums[$n],$nums[$n/2 - 1],$nums[$n -1]]
-偶数部为前半部分倒叙，奇数部为后半部倒叙
+// 先排序，然后$arr = [$nums[$n/2],$nums[$n],$nums[$n/2 - 1],$nums[$n -1]]
+// 偶数部为前半部分倒叙，奇数部为后半部倒叙
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -26,4 +26,4 @@ class Solution {
         $nums = $arr;
     }
 }
-```
+// ```

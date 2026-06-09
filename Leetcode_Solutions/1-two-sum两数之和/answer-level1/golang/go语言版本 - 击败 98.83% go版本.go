@@ -1,5 +1,5 @@
-### 借助于map的快速方法，执行耗时 4ms, 击败 98.83% 的go用户
-```
+// ### 借助于map的快速方法，执行耗时 4ms, 击败 98.83% 的go用户
+// ```
 func twoSum(nums []int, target int) []int {
 	hashMap := make(map[int]int)
 	for i := 0; i < len(nums); i++ {
@@ -11,10 +11,10 @@ func twoSum(nums []int, target int) []int {
 	}
 	return []int{}
 }
-```
+// ```
 
-### 常规的比较方法，耗时稍长，48ms
-```
+// ### 常规的比较方法，耗时稍长，48ms
+// ```
 func twoSum(nums []int, target int) []int {
   length := len(nums)
   var i, j int
@@ -27,5 +27,5 @@ func twoSum(nums []int, target int) []int {
   }
   return []int{}
 }
-```
-结论：时间、空间的置换
+// ```
+// 结论：时间、空间的置换

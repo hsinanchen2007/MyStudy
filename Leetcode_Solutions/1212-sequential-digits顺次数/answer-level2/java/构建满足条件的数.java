@@ -1,11 +1,11 @@
-### 解题思路
-这题不要采用遍历区间所有数，而且要采用构建满足条件的数。
-![图片.png](https://pic.leetcode-cn.com/5c1696efdc45ae9b329dcc37890b1751dddbf4b0e6b3db3c9ef0aaf0dbd04a1f-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// 这题不要采用遍历区间所有数，而且要采用构建满足条件的数。
+// ![图片.png](https://pic.leetcode-cn.com/5c1696efdc45ae9b329dcc37890b1751dddbf4b0e6b3db3c9ef0aaf0dbd04a1f-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> sequentialDigits(int low, int high) {
         int t = low;
@@ -34,4 +34,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

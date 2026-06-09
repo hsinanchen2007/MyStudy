@@ -1,8 +1,8 @@
-### 解题思路
-二分就vans了。
-### 代码
+// ### 解题思路
+// 二分就vans了。
+// ### 代码
 
-```c
+// ```c
 int searchInsert(int* nums, int numsSize, int target){
     int l =0, r= numsSize-1,mid;
     while(l<=r){
@@ -17,4 +17,4 @@ int searchInsert(int* nums, int numsSize, int target){
     return target > nums[mid] ?
             mid+1 :mid; 
 }
-```
+// ```

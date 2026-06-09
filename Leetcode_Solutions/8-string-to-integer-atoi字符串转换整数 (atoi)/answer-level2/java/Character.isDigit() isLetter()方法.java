@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         char[] chars = str.toCharArray();
@@ -44,4 +44,4 @@ class Solution {
         return isNegOrPos == 1 ? (0-res) : res;
     }
 }
-```
+// ```

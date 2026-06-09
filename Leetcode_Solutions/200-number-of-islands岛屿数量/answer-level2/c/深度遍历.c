@@ -1,9 +1,9 @@
-### 解题思路
-dfs访问，设置visited数组。
+// ### 解题思路
+// dfs访问，设置visited数组。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void dfs(char** grid, int gridSize, int gridColSize, int x, int y, int **visted) 
 {
     if ((x < 0) || (x >= gridSize)) {
@@ -54,4 +54,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize)
     free(visited);
     return cnt;
 }
-```
+// ```

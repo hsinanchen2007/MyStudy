@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {number}
@@ -55,4 +55,4 @@ function b_sort(arr, num) {
     }
     return l
 }
-```
+// ```

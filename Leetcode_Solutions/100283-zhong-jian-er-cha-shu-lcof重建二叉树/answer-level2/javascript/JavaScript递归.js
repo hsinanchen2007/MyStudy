@@ -1,5 +1,5 @@
-### 代码
-```javascript
+// ### 代码
+// ```javascript
 var buildTree = function(preorder, inorder) {
     var result = null;
     if(preorder.length > 1){
@@ -18,4 +18,4 @@ var buildTree = function(preorder, inorder) {
     }
     return result;
 };
-```
+// ```

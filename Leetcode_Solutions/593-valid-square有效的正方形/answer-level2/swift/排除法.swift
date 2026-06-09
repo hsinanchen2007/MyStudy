@@ -1,4 +1,4 @@
-```
+// ```
 func validSquare(_ p1: [Int], _ p2: [Int], _ p3: [Int], _ p4: [Int]) -> Bool {
         func distance(_ p1: [Int], _ p2: [Int]) -> Int { // 任意两点距离平方
             let x = p1[0]-p2[0], y = p1[1] - p2[1]
@@ -24,4 +24,4 @@ func validSquare(_ p1: [Int], _ p2: [Int], _ p3: [Int], _ p4: [Int]) -> Bool {
         }
         return false
     }
-```
+// ```

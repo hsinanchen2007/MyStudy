@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/e60a32f222d2eaf8472776e72f37dc8ebd932d26756f92b85e9979878ae3a5f0-image.png)
+# ![image.png](https://pic.leetcode-cn.com/e60a32f222d2eaf8472776e72f37dc8ebd932d26756f92b85e9979878ae3a5f0-image.png)
 
 
-```
+# ```
 '''
 从左到右，从右到左分别扫描一遍
 每次扫描找严格递增的子序列，序列第一个人给一个糖果，子序列后面的人分糖果依次加1，
@@ -45,4 +45,4 @@ class Solution:
             i = j - 1
 
         return sum(dp)
-```
+# ```

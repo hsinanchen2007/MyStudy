@@ -1,9 +1,9 @@
-### 解题思路
-直接四个方向模拟
+// ### 解题思路
+// 直接四个方向模拟
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int ans = 0;
@@ -56,4 +56,4 @@ class Solution {
     }
 }
 
-```
+// ```

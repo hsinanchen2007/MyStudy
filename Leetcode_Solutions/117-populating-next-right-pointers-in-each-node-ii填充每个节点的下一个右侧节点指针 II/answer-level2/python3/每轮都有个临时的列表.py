@@ -1,6 +1,6 @@
-和上一题用同一套代码解决的，但是运行时间不太美丽，220ms。每轮迭代都存下当前节点的左右孩子，说是队列，但是我没有deque操作
+# 和上一题用同一套代码解决的，但是运行时间不太美丽，220ms。每轮迭代都存下当前节点的左右孩子，说是队列，但是我没有deque操作
 
-```python []
+# ```python []
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
         if not root:    return None
@@ -17,6 +17,6 @@ class Solution:
             if que[-1].right:   next_level.append(que[-1].right)
             que = next_level
         return root
-```
+# ```
 
 

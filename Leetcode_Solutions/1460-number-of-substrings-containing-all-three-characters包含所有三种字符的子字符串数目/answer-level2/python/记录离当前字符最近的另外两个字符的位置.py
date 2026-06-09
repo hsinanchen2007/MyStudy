@@ -1,7 +1,7 @@
-时间复杂度O(n)。
+# 时间复杂度O(n)。
 
 
-```python
+# ```python
 class Solution(object):
     def numberOfSubstrings(self, s):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 res += mx + 1   # 直接加上
             d[s[i]] = i
         return res
-```
+# ```

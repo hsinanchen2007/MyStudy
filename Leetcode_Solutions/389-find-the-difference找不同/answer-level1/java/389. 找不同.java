@@ -1,15 +1,15 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/5
- *
- * 解题思路1: 自定义hash字母表
- * 
- * 解题思路2: ASCII 码思维 ASCII对应字母的整数值 求和取差值即为添加的字母的ASCII
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/5
+//  *
+//  * 解题思路1: 自定义hash字母表
+//  * 
+//  * 解题思路2: ASCII 码思维 ASCII对应字母的整数值 求和取差值即为添加的字母的ASCII
+//  *
+//  */
+// ```
 public char findTheDifference(String s, String t) {
     char[] s_arr = s.toCharArray();
     char[] t_arr = t.toCharArray();
@@ -44,4 +44,4 @@ public char findTheDifference2(String s, String t) {
     }
     return (char)sum;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def containsDuplicate(self, nums):
         """
@@ -8,4 +8,4 @@ class Solution(object):
         if len(set(nums)) == len(nums):
             return False
         return True
-```
+# ```

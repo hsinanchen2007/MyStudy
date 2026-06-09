@@ -1,10 +1,10 @@
-### 解题思路
-punch in the card. 
-Again, I will give you the code. 
+# ### 解题思路
+# punch in the card. 
+# Again, I will give you the code. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         if len(grid)==0:
@@ -22,4 +22,4 @@ class Solution:
                     area-=2*min(grid[i][j],grid[i-1][j])
         return area
 
-```
+# ```

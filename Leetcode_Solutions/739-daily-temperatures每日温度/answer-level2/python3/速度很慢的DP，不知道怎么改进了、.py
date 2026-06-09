@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-for idx in range(lis):
-    find(idx+1,lis[idx])=1+find(idx+2,lis[idx]) # 递归
-    期间使用DP记录做过的工作：Solution.dp[nextIdx][value]=ans 尽可能多的避免重复，工作
-    期间需要借助NotFound记录某个位置是否到最后都没有找到比自己大的。
+# ### 解题思路
+# 此处撰写解题思路
+# for idx in range(lis):
+#     find(idx+1,lis[idx])=1+find(idx+2,lis[idx]) # 递归
+#     期间使用DP记录做过的工作：Solution.dp[nextIdx][value]=ans 尽可能多的避免重复，工作
+#     期间需要借助NotFound记录某个位置是否到最后都没有找到比自己大的。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     dp=None
     def dailyTemperatures(self, lis: List[int]) -> List[int]:
@@ -39,4 +39,4 @@ class Solution:
         else:
             Solution.dp[nextIdx][value]=ans
         return ans
-```
+# ```

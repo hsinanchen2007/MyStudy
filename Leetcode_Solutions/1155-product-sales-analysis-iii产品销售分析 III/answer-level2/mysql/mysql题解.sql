@@ -1,4 +1,4 @@
-第一种方法超时
+-- 第一种方法超时
 /*select S.product_id product_id,S.year first_year,S.quantity,S.price
 from Sales S,Product P
 where S.product_id=P.product_id 

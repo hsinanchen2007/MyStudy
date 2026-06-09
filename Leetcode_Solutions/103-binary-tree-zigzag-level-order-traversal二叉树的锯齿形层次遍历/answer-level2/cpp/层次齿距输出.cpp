@@ -1,9 +1,9 @@
-### 解题思路
-在层次遍历，按层输出的基础上，增加flag监控，flag==0由左到右正向输出，flag==1由右到左逆向输出，只需将vector<int>反序；
+// ### 解题思路
+// 在层次遍历，按层输出的基础上，增加flag监控，flag==0由左到右正向输出，flag==1由右到左逆向输出，只需将vector<int>反序；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -49,4 +49,4 @@ public:
         return leor;
     }
 };
-```
+// ```

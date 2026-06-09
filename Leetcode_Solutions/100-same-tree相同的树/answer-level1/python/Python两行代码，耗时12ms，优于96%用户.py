@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isSameTree(self, p, q):
         """
@@ -9,4 +9,4 @@ class Solution(object):
         if not (p and q): return True if p == q else False
 
         return p.val == q.val and self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
-```
+# ```

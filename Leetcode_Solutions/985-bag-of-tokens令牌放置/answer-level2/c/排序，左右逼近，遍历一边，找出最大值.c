@@ -1,9 +1,9 @@
-### 解题思路
-读懂题意，关键就是操作一次尽可能能量最大
+// ### 解题思路
+// 读懂题意，关键就是操作一次尽可能能量最大
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a, const void *b) {
     return *(int *)a - *(int *)b;
 }
@@ -46,4 +46,4 @@ int bagOfTokensScore(int* tokens, int tokensSize, int P){
 
     return Max;
 }
-```
+// ```

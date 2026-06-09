@@ -1,6 +1,6 @@
-执行用时 : 67 ms, 击败了42.05% 的用户
-内存消耗 : 45.6 MB, 击败了61.33% 的用户
-```
+// 执行用时 : 67 ms, 击败了42.05% 的用户
+// 内存消耗 : 45.6 MB, 击败了61.33% 的用户
+// ```
 class Solution {
     public List<int[]> kSmallestPairs(int[] nums1, int[] nums2, int k) {
         List<int[]> list = new ArrayList<>();
@@ -40,4 +40,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

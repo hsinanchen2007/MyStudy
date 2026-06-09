@@ -1,9 +1,9 @@
-### 解题思路
-括号匹配的水题，用栈解决..
+// ### 解题思路
+// 括号匹配的水题，用栈解决..
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValid(string s) {
@@ -18,4 +18,4 @@ public:
         return p.empty();
     }
 };
-```
+// ```

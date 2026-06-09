@@ -1,9 +1,9 @@
-执行用时 :32 ms, 在所有 python3 提交中击败了96.94%的用户
-内存消耗 :12.6 MB, 在所有 python3 提交中击败了99.38%的用户
+# 执行用时 :32 ms, 在所有 python3 提交中击败了96.94%的用户
+# 内存消耗 :12.6 MB, 在所有 python3 提交中击败了99.38%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         I = 0
@@ -38,4 +38,4 @@ class Solution:
         return cntL + cntR + cntU + cntD
 
 
-```
+# ```

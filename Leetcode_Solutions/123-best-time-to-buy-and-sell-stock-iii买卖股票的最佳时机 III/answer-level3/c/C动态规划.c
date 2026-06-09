@@ -1,7 +1,7 @@
-分析:
-先计算当前位置一次进行一次交易的最大利润,保存每个位置的最大利润
-第二次计算，逆序计算，以当前位置作为第二次买入的起点 计算此时第二次购入的最大利润，与前方第一次买入的利润相加，更新总利润
-```
+// 分析:
+// 先计算当前位置一次进行一次交易的最大利润,保存每个位置的最大利润
+// 第二次计算，逆序计算，以当前位置作为第二次买入的起点 计算此时第二次购入的最大利润，与前方第一次买入的利润相加，更新总利润
+// ```
 int maxProfit(int* prices, int pricesSize){
     if(pricesSize<2)return 0;
     int *profit=(int *)calloc(pricesSize,sizeof(int ));
@@ -26,4 +26,4 @@ int maxProfit(int* prices, int pricesSize){
     free(profit);
     return max;
 }
-```
+// ```

@@ -1,17 +1,17 @@
-执行结果：
-- 执行用时 : 1 ms, 在Find First and Last Position of Element in Sorted Array的Java提交中击败了99.46% 的用户
-- 内存消耗 : 40.4 MB, 在Find First and Last Position of Element in Sorted Array的Java提交中击败了92.09% 的用户
+// 执行结果：
+// - 执行用时 : 1 ms, 在Find First and Last Position of Element in Sorted Array的Java提交中击败了99.46% 的用户
+// - 内存消耗 : 40.4 MB, 在Find First and Last Position of Element in Sorted Array的Java提交中击败了92.09% 的用户
 
-步骤：
-- 1、通过二分查找找到target存在的区间
-- 2、通过类似二分查找的方法分两个区间找到两个边界的target
+// 步骤：
+// - 1、通过二分查找找到target存在的区间
+// - 2、通过类似二分查找的方法分两个区间找到两个边界的target
 
-这样做的优点：
- - 1、对于存在大量重复值的有序数组时间复杂度会快一些
- - 2、最差情况下的时间复杂度依然为O(log n)
+// 这样做的优点：
+//  - 1、对于存在大量重复值的有序数组时间复杂度会快一些
+//  - 2、最差情况下的时间复杂度依然为O(log n)
 
 
-```angelscript
+// ```angelscript
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int[] res = new int[] {-1, -1};
@@ -77,4 +77,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

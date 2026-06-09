@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} k
@@ -23,4 +23,4 @@ var combine = function(n, k) {
     backtrack(tmpPath,1)
     return res
 };
-```
+// ```

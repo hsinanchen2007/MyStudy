@@ -1,5 +1,5 @@
-参考1718ZhangYQ的题解“Python[数据栈+辅助栈]”，设计了主栈和辅助栈，辅助栈中存放的是每个位置所对应的栈内的最小值，因此pop()和getMin()可以直接得到，当push()的时候，判断msta.top()和元素x的关系，进而决定该加入哪个元素，实现如下：
-```
+// 参考1718ZhangYQ的题解“Python[数据栈+辅助栈]”，设计了主栈和辅助栈，辅助栈中存放的是每个位置所对应的栈内的最小值，因此pop()和getMin()可以直接得到，当push()的时候，判断msta.top()和元素x的关系，进而决定该加入哪个元素，实现如下：
+// ```
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -43,4 +43,4 @@ private:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

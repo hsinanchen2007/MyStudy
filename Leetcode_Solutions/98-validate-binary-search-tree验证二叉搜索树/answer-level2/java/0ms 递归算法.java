@@ -1,6 +1,6 @@
-![leetcode1.png](https://pic.leetcode-cn.com/fc607c278eb81233a0dda9cf692fc0e8a5bff0293a05d9febac46cba2e60eaed-leetcode1.png)
+// ![leetcode1.png](https://pic.leetcode-cn.com/fc607c278eb81233a0dda9cf692fc0e8a5bff0293a05d9febac46cba2e60eaed-leetcode1.png)
 
-```
+// ```
 public class Solution_isValidBST {
     public boolean isValidBST(TreeNode root) {
         return getBound(root,Long.MIN_VALUE,Long.MAX_VALUE);
@@ -12,4 +12,4 @@ public class Solution_isValidBST {
         return getBound(node.right,node.val,right);
     }
 }
-```
+// ```

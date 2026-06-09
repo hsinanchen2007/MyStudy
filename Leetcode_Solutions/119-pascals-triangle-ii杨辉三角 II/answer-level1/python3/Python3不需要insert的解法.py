@@ -1,6 +1,6 @@
-击败99.55%的解法, 不需要insert方法
+# 击败99.55%的解法, 不需要insert方法
 
-```python
+# ```python
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         if rowIndex < 2:
@@ -12,4 +12,4 @@ class Solution:
             res.append(1)
         return res
         
-```
+# ```

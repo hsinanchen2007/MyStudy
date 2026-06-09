@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-step1：将pair 对抽象为双向图
-step2：深度优先寻找最长的联通区域，记录联通数据以及他们在原始字符串中的位置
-step3： 对连通区域和他们在原始字符串中的位置排序，插入原始字符串中
-step4： 输出
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// step1：将pair 对抽象为双向图
+// step2：深度优先寻找最长的联通区域，记录联通数据以及他们在原始字符串中的位置
+// step3： 对连通区域和他们在原始字符串中的位置排序，插入原始字符串中
+// step4： 输出
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string smallestStringWithSwaps(string s, vector<vector<int>> &pairs)
@@ -49,4 +49,4 @@ public:
         return s;
     }
 };
-```
+// ```

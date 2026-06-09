@@ -1,4 +1,4 @@
-```go
+// ```go
 func kClosest(points [][]int, K int) [][]int {
 	n := make([]Node, 0, len(points))
 	for _, v := range points {
@@ -22,4 +22,4 @@ type Node struct {
 	val   []int
 	count int
 }
-```
+// ```

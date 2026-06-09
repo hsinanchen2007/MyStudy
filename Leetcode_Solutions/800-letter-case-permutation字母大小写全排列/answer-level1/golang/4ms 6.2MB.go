@@ -1,5 +1,5 @@
-### 完整代码
-```
+// ### 完整代码
+// ```
 func letterCasePermutation(S string) []string {
 	f := func(i byte)(lower, upper byte){
 		if 'a'<= i && i <= 'z'{
@@ -48,7 +48,7 @@ func letterCasePermutation(S string) []string {
 	}
 	return result
 }
-```
-### 执行结果
-![image.png](https://pic.leetcode-cn.com/dd9980efa37a7efa5071467303ac3a0338d94bf9adc3c788495098a5c0271376-image.png)
+// ```
+// ### 执行结果
+// ![image.png](https://pic.leetcode-cn.com/dd9980efa37a7efa5071467303ac3a0338d94bf9adc3c788495098a5c0271376-image.png)
 

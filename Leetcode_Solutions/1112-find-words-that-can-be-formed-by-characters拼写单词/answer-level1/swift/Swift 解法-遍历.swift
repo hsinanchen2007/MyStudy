@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-分别统计每个单词是否能够用字母表拼出
+// 分别统计每个单词是否能够用字母表拼出
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
         func countCharacters(_ words: [String], _ chars: String) -> Int {
         var ch = chars.utf8CString
@@ -36,4 +36,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

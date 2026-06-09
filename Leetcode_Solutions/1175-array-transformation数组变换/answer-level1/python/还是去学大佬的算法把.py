@@ -1,9 +1,9 @@
-### 解题思路
-照题翻译
+# ### 解题思路
+# 照题翻译
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def transformArray(self, arr):
         tmp = [0 for _ in range(len(arr))]
@@ -24,4 +24,4 @@ class Solution:
 
 
 
-```
+# ```

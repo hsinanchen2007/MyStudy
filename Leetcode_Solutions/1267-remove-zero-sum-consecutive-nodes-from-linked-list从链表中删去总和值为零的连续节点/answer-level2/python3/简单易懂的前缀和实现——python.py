@@ -1,11 +1,11 @@
-### 解题思路
-核心思想：到两个结点的前缀和如果相等，则意味着两个结点之间的结点和为零。
-两边遍历
-第一遍 存储每个结点的前缀和，注意如果前缀和相等会覆盖掉上一个结点
-第二遍 构造链表
-### 代码
+# ### 解题思路
+# 核心思想：到两个结点的前缀和如果相等，则意味着两个结点之间的结点和为零。
+# 两边遍历
+# 第一遍 存储每个结点的前缀和，注意如果前缀和相等会覆盖掉上一个结点
+# 第二遍 构造链表
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
             head.next = seen[profix].next
             head = head.next
         return dummy.next
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func twoSum(nums []int, target int) []int {
 	diff := make(map[int]int)
 	for i, num := range nums {
@@ -9,4 +9,4 @@ func twoSum(nums []int, target int) []int {
 	}
 	return nil
 }
-```
+// ```

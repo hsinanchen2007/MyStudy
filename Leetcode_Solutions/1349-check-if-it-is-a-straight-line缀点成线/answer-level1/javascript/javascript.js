@@ -1,4 +1,4 @@
-太简单了吧，没有人做吧，都是100%，激动
+// 太简单了吧，没有人做吧，都是100%，激动
 
 var checkStraightLine = function(coordinates) {
     let [x1, y1, x2, y2] = [coordinates[0][0], coordinates[0][1],coordinates[1][0],coordinates[1][1]]

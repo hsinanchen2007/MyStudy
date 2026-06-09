@@ -1,5 +1,5 @@
-记录父节点
-```c []
+// 记录父节点
+// ```c []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ struct TreeNode* insertIntoBST(struct TreeNode* root, int val){
         father->left = temp;
     return root;
 }
-```
+// ```

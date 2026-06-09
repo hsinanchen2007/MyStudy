@@ -1,5 +1,5 @@
-RT
-```
+// RT
+// ```
 class Solution {
     public int equalSubstring(String s, String t, int maxCost) {
         int n = s.length();
@@ -29,5 +29,5 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 

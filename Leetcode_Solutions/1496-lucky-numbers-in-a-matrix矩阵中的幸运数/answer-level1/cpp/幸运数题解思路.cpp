@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-按行找出每行的最小值作为数组minRow
-按列找出每列的最大值作为数组maxCol
-最后,遍历matrix, 满足条件:matrix[i][j] == rowMinVector[i] && matrix[i][j] == colMaxVector[j]
-即为幸运数字.
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 按行找出每行的最小值作为数组minRow
+// 按列找出每列的最大值作为数组maxCol
+// 最后,遍历matrix, 满足条件:matrix[i][j] == rowMinVector[i] && matrix[i][j] == colMaxVector[j]
+// 即为幸运数字.
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> luckyNumbers (vector<vector<int>>& matrix) {
@@ -53,4 +53,4 @@ public:
     return result;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-大于栈顶元素则依次进栈，小于栈顶元素则将栈内较大元素替换
+// ### 解题思路
+// 大于栈顶元素则依次进栈，小于栈顶元素则将栈内较大元素替换
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLIS(int* nums, int numsSize){
     if(numsSize<2)
         return numsSize;
@@ -24,4 +24,4 @@ int lengthOfLIS(int* nums, int numsSize){
     }
     return top;
 }
-```
+// ```

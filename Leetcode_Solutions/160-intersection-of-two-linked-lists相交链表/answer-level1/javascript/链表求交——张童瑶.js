@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-1. 求两链表长度
-2. 求出链表长度差
-3. 让长链表先移动至短链表对齐，再一起移动至有交为止
+// 1. 求两链表长度
+// 2. 求出链表长度差
+// 3. 让长链表先移动至短链表对齐，再一起移动至有交为止
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -60,4 +60,4 @@ var getIntersectionNode = function(headA, headB) {
     q = q.next;
   }
 };
-```
+// ```

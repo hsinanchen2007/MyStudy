@@ -1,5 +1,5 @@
-(1) Hash Table
-```
+# (1) Hash Table
+# ```
 class Solution(object):
     def containsDuplicate(self, nums):
         """
@@ -13,7 +13,7 @@ class Solution(object):
           _dict[element] = i
 
         return False
-```
+# ```
 
-(2) Map
-(3) 数组排序, 看相邻数字是否相等
+# (2) Map
+# (3) 数组排序, 看相邻数字是否相等

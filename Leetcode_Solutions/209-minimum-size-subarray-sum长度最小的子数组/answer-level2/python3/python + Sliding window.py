@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
         # sliding window
@@ -13,4 +13,4 @@ class Solution:
                 l += 1
                 tempSum -= nums[l]
         return res if res != float('inf') else 0
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-不用LIMIT,OFFSET，只用RANK解决
+-- ### 解题思路
+-- 不用LIMIT,OFFSET，只用RANK解决
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 SELECT
   IFNULL(e.salary, NULL) AS SecondHighestSalary
@@ -38,4 +38,4 @@ FROM
   ) e ON r.rank = e.rank
 WHERE
   r.rank = 2
-```
+-- ```

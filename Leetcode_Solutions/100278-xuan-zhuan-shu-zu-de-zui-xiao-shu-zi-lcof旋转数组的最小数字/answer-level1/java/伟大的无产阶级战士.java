@@ -1,9 +1,9 @@
-### 解题思路
-二分查找变种
+// ### 解题思路
+// 二分查找变种
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minArray(int[] numbers) {
         int left = 0 ;
@@ -23,4 +23,4 @@ class Solution {
         return numbers[left] ;
     }
 }
-```
+// ```

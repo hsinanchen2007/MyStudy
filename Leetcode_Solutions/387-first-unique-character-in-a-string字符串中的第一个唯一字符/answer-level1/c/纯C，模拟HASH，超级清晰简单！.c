@@ -1,4 +1,4 @@
-```
+// ```
 int firstUniqChar(char * s){
     int mark[26];//标记数组
     memset(mark,0,sizeof(mark));
@@ -10,5 +10,5 @@ int firstUniqChar(char * s){
         return i;
     return -1;
 }
-```
+// ```
 

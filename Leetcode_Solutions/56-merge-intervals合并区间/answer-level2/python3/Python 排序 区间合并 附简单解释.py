@@ -1,12 +1,12 @@
 
-## 方法一 - 排序并合并区间
-#### 说明：
- - 如果我们按照区间的 start 大小排序，那么在这个排序的列表中可以合并的区间一定是连续的。
-#### 效率：
- > Runtime: 100 ms, faster than 72.61% of Python3 online submissions for Merge Intervals.
- > Memory Usage: 15.7 MB, less than 6.52% of Python3 online submissions for Merge Intervals.
-#### 代码：
-```Python
+# ## 方法一 - 排序并合并区间
+# #### 说明：
+#  - 如果我们按照区间的 start 大小排序，那么在这个排序的列表中可以合并的区间一定是连续的。
+# #### 效率：
+#  > Runtime: 100 ms, faster than 72.61% of Python3 online submissions for Merge Intervals.
+#  > Memory Usage: 15.7 MB, less than 6.52% of Python3 online submissions for Merge Intervals.
+# #### 代码：
+# ```Python
 from typing import List
 import operator
 
@@ -37,16 +37,16 @@ class Solution:
 
         # 返回原数组集合中不为空数组的集合
         return [interval for interval in intervals if interval]
-```
+# ```
 
-## 方法二 - 优化 - 使用指针 - 原地修改
-#### 说明：
- - 与方法一基本一致，区别在使用指针记录候选区间位置，原地修改数组
-#### 效率：
- > Runtime: 100 ms, faster than 72.61% of Python3 online submissions for Merge Intervals.
- > Memory Usage: 15.8 MB, less than 6.52% of Python3 online submissions for Merge Intervals.
-#### 代码：
-```Python
+# ## 方法二 - 优化 - 使用指针 - 原地修改
+# #### 说明：
+#  - 与方法一基本一致，区别在使用指针记录候选区间位置，原地修改数组
+# #### 效率：
+#  > Runtime: 100 ms, faster than 72.61% of Python3 online submissions for Merge Intervals.
+#  > Memory Usage: 15.8 MB, less than 6.52% of Python3 online submissions for Merge Intervals.
+# #### 代码：
+# ```Python
 from typing import List
 import operator
 
@@ -81,4 +81,4 @@ class Solution:
                 candidate_idx += 1
 
         return intervals
-````
+# ````

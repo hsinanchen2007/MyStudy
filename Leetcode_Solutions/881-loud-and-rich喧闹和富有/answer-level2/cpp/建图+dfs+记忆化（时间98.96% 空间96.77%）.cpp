@@ -1,4 +1,4 @@
-1. 首先是建图：richer[x,y],x比y富有那就连一条从y到x的有向边 y——>x,我用的是邻接表，链式前向星也可以试一下
+// 1. 首先是建图：richer[x,y],x比y富有那就连一条从y到x的有向边 y——>x,我用的是邻接表，链式前向星也可以试一下
     vector<int> edge[505];
     for(int i=0;i<richer.size();i++){
         edge[richer[i][1]].push_back(richer[i][0]);

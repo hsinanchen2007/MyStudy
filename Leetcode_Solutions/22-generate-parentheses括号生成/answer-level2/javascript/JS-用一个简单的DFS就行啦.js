@@ -1,5 +1,5 @@
-写了两天DFS,也稍微有了点心得,分享一下简单的代码吧
-```
+// 写了两天DFS,也稍微有了点心得,分享一下简单的代码吧
+// ```
 /**
  * @param {number} n
  * @return {string[]}
@@ -22,4 +22,4 @@ var generateParenthesis = function(n) {
   dfs('', 0, 0)
   return arr
 };
-```
+// ```

@@ -1,7 +1,7 @@
-每个乘客做座位的事件是相互独立的，只是有顺序，先求出前四个顾客的概率。![n.jpg](https://pic.leetcode-cn.com/6485e5263380ff83d21a5ceaf3ecbf01edc788c45d5598b92efa48926f49078e-n.jpg)
+// 每个乘客做座位的事件是相互独立的，只是有顺序，先求出前四个顾客的概率。![n.jpg](https://pic.leetcode-cn.com/6485e5263380ff83d21a5ceaf3ecbf01edc788c45d5598b92efa48926f49078e-n.jpg)
 
 
-发现规律了吗 
+// 发现规律了吗 
 
 ![10.jpg](https://pic.leetcode-cn.com/19daf8c5233e519b4aa8b7b709f1b19140e47bd04e8bda5819ed071b7011e836-10.jpg)
 

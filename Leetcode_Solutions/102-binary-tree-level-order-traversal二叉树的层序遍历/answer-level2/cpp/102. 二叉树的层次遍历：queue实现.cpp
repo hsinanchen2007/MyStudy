@@ -1,10 +1,10 @@
-### 解题思路
-* 利用queue先进先出的特性，只要标记每层最后的节点lvlast，遇到lvlast就将每层的vector存入ans；
-* 看出vector.push_back()是用深拷贝。
+// ### 解题思路
+// * 利用queue先进先出的特性，只要标记每层最后的节点lvlast，遇到lvlast就将每层的vector存入ans；
+// * 看出vector.push_back()是用深拷贝。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,5 +38,5 @@ public:
         return ans;
     }
 };
-```
-![2.png](https://pic.leetcode-cn.com/759b1d8f5bab3f132cf62cdf763edeeb3929a70f54910089ad6b746589a5133f-2.png)
+// ```
+// ![2.png](https://pic.leetcode-cn.com/759b1d8f5bab3f132cf62cdf763edeeb3929a70f54910089ad6b746589a5133f-2.png)

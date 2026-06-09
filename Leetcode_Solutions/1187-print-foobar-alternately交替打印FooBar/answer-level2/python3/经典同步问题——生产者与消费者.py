@@ -1,5 +1,5 @@
-**本质就是生产者与消费者问题，foo是生产者，bar是消费者，要先生产才能被消费，且商品缓冲区上限为1**
-```
+# **本质就是生产者与消费者问题，foo是生产者，bar是消费者，要先生产才能被消费，且商品缓冲区上限为1**
+# ```
 import threading
 empty=threading.Semaphore(1) # empty信号量初始值设为1  空缓冲区数量
 full=threading.Semaphore(0)  # full 信号量初始值设为0  满缓冲区数量
@@ -25,4 +25,4 @@ class FooBar:
             full.acquire() # full-1, 申请一个满缓冲区，当缓冲区有商品时才能实现消费者行为
             printBar()
             empty.release() # empty+1，释放一个空缓冲区
-```
+# ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/df782ff453c4e0e4224b0cdf6e6a93496540a743183d720c0b22ba47daa51c96-image.png)
+// ![image.png](https://pic.leetcode-cn.com/df782ff453c4e0e4224b0cdf6e6a93496540a743183d720c0b22ba47daa51c96-image.png)
 
-```
+// ```
 func accountsMerge(accounts [][]string) [][]string {
 	eMailNameInfo := make(map[string]string)
 	accountInfo := make(map[string][]string)
@@ -64,4 +64,4 @@ func buildAccountInfo(accounts [][]string, eMailNameInfo map[string]string, acco
 		}
 	}
 }
-```
+// ```

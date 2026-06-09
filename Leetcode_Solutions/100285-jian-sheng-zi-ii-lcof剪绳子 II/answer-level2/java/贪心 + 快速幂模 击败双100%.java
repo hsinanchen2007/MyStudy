@@ -1,15 +1,15 @@
-### 解题思路
- * 贪心 + 快速幂模
- * n>=5 尽可能多分割3、3。。
- * n==4 分 2 2
- * n==3 2
- * n==2 1
- * n<2 0
- * (quickPowMod(3, p3, mod) * quickPowMod(2, p2, mod))%mod)
+// ### 解题思路
+//  * 贪心 + 快速幂模
+//  * n>=5 尽可能多分割3、3。。
+//  * n==4 分 2 2
+//  * n==3 2
+//  * n==2 1
+//  * n<2 0
+//  * (quickPowMod(3, p3, mod) * quickPowMod(2, p2, mod))%mod)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int mod = 1000000007;
     public int cuttingRope(int n) {
@@ -37,5 +37,5 @@ class Solution {
         return ans;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/a4b92898a572b4cb1b240553eacad75369617a72848be922d16da72a18b8a9dd-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/a4b92898a572b4cb1b240553eacad75369617a72848be922d16da72a18b8a9dd-image.png)

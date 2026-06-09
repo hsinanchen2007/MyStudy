@@ -1,10 +1,10 @@
-### 解题思路
-尝试构造二叉树即可；
-注意边界值和特殊值；
+// ### 解题思路
+// 尝试构造二叉树即可；
+// 注意边界值和特殊值；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool IsValidSerialization(string preorder)
     {
@@ -31,4 +31,4 @@ public class Solution {
         return root;
     }
 }
-```
+// ```

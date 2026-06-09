@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
 };
 
 终于写出来了！可惜调用了unique函数，大家请见谅！！
-```
+// ```

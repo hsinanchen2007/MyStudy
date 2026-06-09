@@ -1,5 +1,5 @@
-so easy 二分，直接递归，如果这个nums是一个有序的那么返回-1,根据第一个元素是否是0，判断是最后一个元素+1，还是0.
-```cpp
+// so easy 二分，直接递归，如果这个nums是一个有序的那么返回-1,根据第一个元素是否是0，判断是最后一个元素+1，还是0.
+// ```cpp
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return res1;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
     /** Initialize your data structure here. Set the size of the queue to be k. */
     vector<int> data;
     int len,front,rear;
@@ -43,4 +43,4 @@
         return (rear+1)%len==front;
     }
 };
-```
+// ```

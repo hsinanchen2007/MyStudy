@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isIsomorphic(self, s, t):
         """
@@ -17,4 +17,4 @@ class Solution(object):
                 if my_dict[v] != t[i]: #如果v映射的字母不是t[i]
                     return False
         return True
-```
+# ```

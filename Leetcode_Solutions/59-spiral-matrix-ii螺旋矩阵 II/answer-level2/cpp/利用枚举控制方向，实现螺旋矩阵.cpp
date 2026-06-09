@@ -1,8 +1,8 @@
-### 解题思路
-enum direction {right, down, left, up} dir;
-通过右、下、左、上来控制下一个数放在矩阵中的位置。
-核心代码如下：
-```
+// ### 解题思路
+// enum direction {right, down, left, up} dir;
+// 通过右、下、左、上来控制下一个数放在矩阵中的位置。
+// 核心代码如下：
+// ```
         dir = right;
         int temp = 1;
         int i=0, j=0;
@@ -39,12 +39,12 @@ enum direction {right, down, left, up} dir;
                     break;               
             }
         }
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -96,4 +96,4 @@ public:
         
     }
 };
-```
+// ```

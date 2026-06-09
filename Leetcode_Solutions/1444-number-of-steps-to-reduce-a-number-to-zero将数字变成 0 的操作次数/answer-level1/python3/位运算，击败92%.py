@@ -1,9 +1,9 @@
-### 解题思路
-见代码
+# ### 解题思路
+# 见代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numberOfSteps (self, num: int) -> int:
         ans = 0
@@ -17,4 +17,4 @@ class Solution:
             ans += 1
 
         return ans
-```
+# ```

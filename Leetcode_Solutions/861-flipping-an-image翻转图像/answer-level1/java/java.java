@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[][] flipAndInvertImage(int[][] A) {
         int[][] ret = new int[A.length][A.length];
@@ -11,4 +11,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

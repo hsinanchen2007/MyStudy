@@ -1,8 +1,8 @@
-![无标题.png](https://pic.leetcode-cn.com/c123235d5e20f0e93241e60009d0717085045649d4ee4d022d8b062f67354409-%E6%97%A0%E6%A0%87%E9%A2%98.png)
+// ![无标题.png](https://pic.leetcode-cn.com/c123235d5e20f0e93241e60009d0717085045649d4ee4d022d8b062f67354409-%E6%97%A0%E6%A0%87%E9%A2%98.png)
 
 
 
-```
+// ```
 public static String convert(String s, int numRows) {
         char[] charts=s.toCharArray();
         char[] result=new char[charts.length];
@@ -39,5 +39,5 @@ public static String convert(String s, int numRows) {
         }
         return String.valueOf(result);
     }
-```
+// ```
 

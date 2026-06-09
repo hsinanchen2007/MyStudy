@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> int:
         if not root:

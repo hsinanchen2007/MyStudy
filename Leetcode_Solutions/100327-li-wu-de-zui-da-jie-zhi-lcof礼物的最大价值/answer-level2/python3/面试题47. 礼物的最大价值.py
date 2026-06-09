@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxValue(self, grid: List[List[int]]) -> int:
         # 状态:每一步
@@ -22,4 +22,4 @@ class Solution:
             for j in range(1,n):
                 dp[i][j] = max(dp[i-1][j],dp[i][j-1]) + grid[i][j]
         return dp[m-1][n-1] 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-1. 深搜：找到左子树最大深度，找到右子树最大深度
-2. 最大路径：max(leftDepth) + max(rightDepth) + 1
-### 代码
+# ### 解题思路
+# 1. 深搜：找到左子树最大深度，找到右子树最大深度
+# 2. 最大路径：max(leftDepth) + max(rightDepth) + 1
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
         depth(root)
         return self.res - 1  
 
-```
+# ```

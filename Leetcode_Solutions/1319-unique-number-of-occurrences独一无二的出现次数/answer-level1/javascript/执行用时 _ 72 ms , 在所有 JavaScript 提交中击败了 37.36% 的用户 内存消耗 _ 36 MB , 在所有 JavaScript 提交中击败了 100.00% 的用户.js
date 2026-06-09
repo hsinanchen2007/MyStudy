@@ -1,4 +1,4 @@
-```
+// ```
 function groupBy( array , f ) {
     let groups = {};
     array.forEach( function( o ) {
@@ -14,4 +14,4 @@ var uniqueOccurrences = function(arr) {
     let arrNew =  groupBy(arr,item=>[item]).map(item=>item.length);
     return arrNew.length===[...new Set(arrNew)].length
 };
-```
+// ```

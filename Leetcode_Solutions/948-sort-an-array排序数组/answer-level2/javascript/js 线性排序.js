@@ -1,9 +1,9 @@
-### 解题思路
-使用一个hash数组存储，将nums中的值作为下标，数组存的值为该数出现的次数，然后遍历这个hash数组就可以了，注意判断一下负数的可能性
+// ### 解题思路
+// 使用一个hash数组存储，将nums中的值作为下标，数组存的值为该数出现的次数，然后遍历这个hash数组就可以了，注意判断一下负数的可能性
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -36,4 +36,4 @@ var sortArray = function(nums) {
      }
      return result
 };
-```
+// ```

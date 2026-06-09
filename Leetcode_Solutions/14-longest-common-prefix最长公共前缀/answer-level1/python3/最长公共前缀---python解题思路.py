@@ -1,8 +1,8 @@
-为啥每次看题一下子蹦出来的都是暴力破解勒？
-取出最短的那个字符串， 
+# 为啥每次看题一下子蹦出来的都是暴力破解勒？
+# 取出最短的那个字符串， 
 
 
-```
+# ```
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         result = ""
@@ -20,28 +20,28 @@ class Solution:
                     return result
             result += each_char
         return result
-```
+# ```
 
 
-执行用时 :44 ms, 在所有 python3 提交中击败了82.05% 的用户
-内存消耗 :13.8 MB, 在所有 python3 提交中击败了5.53%的用户
+# 执行用时 :44 ms, 在所有 python3 提交中击败了82.05% 的用户
+# 内存消耗 :13.8 MB, 在所有 python3 提交中击败了5.53%的用户
 
-执行用时 :36 ms, 在所有 python3 提交中击败了97.94% 的用户
-内存消耗 :13.9 MB, 在所有 python3 提交中击败了5.53%的用户
+# 执行用时 :36 ms, 在所有 python3 提交中击败了97.94% 的用户
+# 内存消耗 :13.9 MB, 在所有 python3 提交中击败了5.53%的用户
 
-执行用时 :48 ms, 在所有 python3 提交中击败了67.03% 的用户
-内存消耗 :13.8 MB, 在所有 python3 提交中击败了5.53%的用户
+# 执行用时 :48 ms, 在所有 python3 提交中击败了67.03% 的用户
+# 内存消耗 :13.8 MB, 在所有 python3 提交中击败了5.53%的用户
 
-感觉速度还行^_^
-
-
-下面就是参考官方解答阶段
-看了分治，二分法。感觉不是很好理解了，但是在看解答的过程，发现了个python的宝贝zip
-
-下面奉上zip的用法
+# 感觉速度还行^_^
 
 
-```
+# 下面就是参考官方解答阶段
+# 看了分治，二分法。感觉不是很好理解了，但是在看解答的过程，发现了个python的宝贝zip
+
+# 下面奉上zip的用法
+
+
+# ```
 >>>a = [1,2,3]
 >>> b = [4,5,6]
 >>> c = [4,5,6,7,8]
@@ -65,14 +65,14 @@ class Solution:
 ('a', 'a', 'b')
 ('b', 'b', 'b')
 ('c', 'd', 'b')
-```
+# ```
 
 
 
-下面是使用了zip的解法（人生苦短我用python O(∩_∩)O哈哈）
+# 下面是使用了zip的解法（人生苦短我用python O(∩_∩)O哈哈）
 
 
-```
+# ```
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         result = ""
@@ -83,9 +83,9 @@ class Solution:
             else:
                 break
         return result
-```
+# ```
 
-```
+# ```
 执行用时 :36 ms, 在所有 python3 提交中击败了97.94% 的用户
 内存消耗 :13.8 MB, 在所有 python3 提交中击败了5.53%的用户
 
@@ -94,5 +94,5 @@ class Solution:
 
 执行用时 :48 ms, 在所有 python3 提交中击败了67.03% 的用户
 内存消耗 :13.7 MB, 在所有 python3 提交中击败了5.53%的用户
-```
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# ```
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)

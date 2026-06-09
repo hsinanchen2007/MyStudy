@@ -1,8 +1,8 @@
-### 解题思路
-费时间费空间就是不费脑子
-### 代码
+// ### 解题思路
+// 费时间费空间就是不费脑子
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ struct ListNode* reverseList(struct ListNode* head){
     head->next = NULL;
     return p;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/362f4f17fb990ce0287f21b511c6c541798eb0a1a31a9de5863642adcab4a0d5-image.png)
-主要是字符串的操作，和内存分配初始化容易出现问题。这叫什么算法？递归？
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/362f4f17fb990ce0287f21b511c6c541798eb0a1a31a9de5863642adcab4a0d5-image.png)
+// 主要是字符串的操作，和内存分配初始化容易出现问题。这叫什么算法？递归？
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void dfs(char* digits, int* returnSize, char* s, char** ret, int len, int step)
 {   
     printf("\nstep%d", step);
@@ -114,4 +114,4 @@ char ** letterCombinations(char * digits, int* returnSize)
 
     return ret;
 }
-```
+// ```

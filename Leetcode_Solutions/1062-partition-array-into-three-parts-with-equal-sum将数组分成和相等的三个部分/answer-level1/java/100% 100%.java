@@ -1,9 +1,9 @@
-### 解题思路
-明明感觉写的很乱，没想到两个100% [笑哭]]
+// ### 解题思路
+// 明明感觉写的很乱，没想到两个100% [笑哭]]
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int sum = 0;
@@ -36,4 +36,4 @@ class Solution {
 }
 
 
-```
+// ```

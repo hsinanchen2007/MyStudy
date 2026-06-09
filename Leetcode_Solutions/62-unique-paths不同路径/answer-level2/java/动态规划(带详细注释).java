@@ -1,6 +1,6 @@
-本题解采用自底而上的动态规划的方法（即从最后一个点(即终点)开始往起始点计算 dp 数组），代码如下：
+// 本题解采用自底而上的动态规划的方法（即从最后一个点(即终点)开始往起始点计算 dp 数组），代码如下：
 
-```java
+// ```java
 class Solution {
     // 动态规划
     public int uniquePaths(int m, int n) {
@@ -33,4 +33,4 @@ class Solution {
         return dp[0][0];
     }
 }
-```
+// ```

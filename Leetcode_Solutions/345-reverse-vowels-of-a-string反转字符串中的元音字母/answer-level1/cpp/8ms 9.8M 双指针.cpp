@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isYuanYin(char c) {
@@ -20,4 +20,4 @@ public:
         return s;
     }
 };
-```
+// ```

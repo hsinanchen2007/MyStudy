@@ -1,9 +1,9 @@
-### 解题思路
-UThash 吧  C语言太难了
+// ### 解题思路
+// UThash 吧  C语言太难了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define DEBUG
 #ifdef DEBUG
 #define logi(...) printf(__VA_ARGS__)
@@ -93,4 +93,4 @@ char * mostCommonWord(char * paragraph, char ** banned, int bannedSize) {
 	}
 	return max_node->key.word_len;
 }
-```
+// ```

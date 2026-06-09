@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/62452552a2abeb43d44b6ac1655d0f95edebab4103283e6e2faf8a836b1adfb1-image.png)
+# ![image.png](https://pic.leetcode-cn.com/62452552a2abeb43d44b6ac1655d0f95edebab4103283e6e2faf8a836b1adfb1-image.png)
 
 
-```
+# ```
 '''
 时间戳维护数值被设置的历史过程，查询时候
 根据时间戳二分查找
@@ -48,4 +48,4 @@ class SnapshotArray:
             else:
                 r = mid - 1
         return ans
-```
+# ```

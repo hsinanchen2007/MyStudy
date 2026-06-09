@@ -1,9 +1,9 @@
-### 解题思路
-利用26个hash数组，很方便的就知道是否满足。具体见代码。
+// ### 解题思路
+// 利用26个hash数组，很方便的就知道是否满足。具体见代码。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXLEN 26
 
 int countCharacters(char ** words, int wordsSize, char * chars)
@@ -41,4 +41,4 @@ int countCharacters(char ** words, int wordsSize, char * chars)
 	}
 	return count;
 }
-```
+// ```

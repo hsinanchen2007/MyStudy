@@ -1,34 +1,34 @@
-#### **动态规划：**
+# #### **动态规划：**
 
-`dp[i][j]` 代表 `word1` 到 `i` 位置转换成 `word2` 到 `j` 位置需要最少步数
+# `dp[i][j]` 代表 `word1` 到 `i` 位置转换成 `word2` 到 `j` 位置需要最少步数
 
-所以，
+# 所以，
 
-当 `word1[i] == word2[j]`，`dp[i][j] = dp[i-1][j-1]`；
+# 当 `word1[i] == word2[j]`，`dp[i][j] = dp[i-1][j-1]`；
 
-当 `word1[i] != word2[j]`，`dp[i][j] = min(dp[i-1][j-1], dp[i-1][j], dp[i][j-1]) + 1`
+# 当 `word1[i] != word2[j]`，`dp[i][j] = min(dp[i-1][j-1], dp[i-1][j], dp[i][j-1]) + 1`
 
-其中，`dp[i-1][j-1]` 表示替换操作，`dp[i-1][j]` 表示删除操作，`dp[i][j-1]` 表示插入操作。
+# 其中，`dp[i-1][j-1]` 表示替换操作，`dp[i-1][j]` 表示删除操作，`dp[i][j-1]` 表示插入操作。
 
-注意，针对第一行，第一列要单独考虑，我们引入 `''` 下图所示：
-
-
-![Snipaste_2019-05-29_15-28-02.png](https://pic.leetcode-cn.com/76574ab7ff2877d63b80a2d4f8496fab3c441065552edc562f62d5809e75e97e-Snipaste_2019-05-29_15-28-02.png){:width="360"}
-{:align=center}
-
-第一行，是 `word1` 为空变成 `word2` 最少步数，就是插入操作
-
-第一列，是 `word2` 为空，需要的最少步数，就是删除操作
+# 注意，针对第一行，第一列要单独考虑，我们引入 `''` 下图所示：
 
 
+# ![Snipaste_2019-05-29_15-28-02.png](https://pic.leetcode-cn.com/76574ab7ff2877d63b80a2d4f8496fab3c441065552edc562f62d5809e75e97e-Snipaste_2019-05-29_15-28-02.png){:width="360"}
+# {:align=center}
 
-再附上自顶向下的方法，大家可以提供 Java 版吗？
+# 第一行，是 `word1` 为空变成 `word2` 最少步数，就是插入操作
 
-#### **代码：**
+# 第一列，是 `word2` 为空，需要的最少步数，就是删除操作
 
-自底向上
 
-```Python [1]
+
+# 再附上自顶向下的方法，大家可以提供 Java 版吗？
+
+# #### **代码：**
+
+# 自底向上
+
+# ```Python [1]
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         n1 = len(word1)
@@ -48,11 +48,11 @@ class Solution:
                     dp[i][j] = min(dp[i][j-1], dp[i-1][j], dp[i-1][j-1] ) + 1
         #print(dp)      
         return dp[-1][-1]
-```
+# ```
 
 
 
-```Java [1]
+# ```Java [1]
 class Solution {
     public int minDistance(String word1, String word2) {
         int n1 = word1.length();
@@ -72,15 +72,15 @@ class Solution {
         return dp[n1][n2];  
     }
 }
-```
+# ```
 
 
 
-自顶向下
+# 自顶向下
 
 
 
-```Python [2]
+# ```Python [2]
 import functools
 class Solution:
     @functools.lru_cache(None)
@@ -94,14 +94,14 @@ class Solution:
             deleted = 1 + self.minDistance(word1[1:], word2)
             replace = 1 + self.minDistance(word1[1:], word2[1:])
             return min(inserted, deleted, replace)
-```
+# ```
 
 
 
 
-[@shu-xie-fan](/u/shu-xie-fan/)的建议，由于字符串切片是 $O(n)$，所以改成用了索引号。
+# [@shu-xie-fan](/u/shu-xie-fan/)的建议，由于字符串切片是 $O(n)$，所以改成用了索引号。
 
-```
+# ```
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         import functools
@@ -118,4 +118,4 @@ class Solution:
                 return min(inserted, deleted, replaced) + 1
         return helper(0, 0)
         
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-Python内部对每个对象都有引用计数，环交叉节点对象的引用计数一定高一些，所以观察各个节点引用计数，发现引用计数大于等于5的就是环交叉节点，所以检测是否有节点引用计数>=5即可;-)
-类似的套路也可以去对付[环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
+# ### 解题思路
+# Python内部对每个对象都有引用计数，环交叉节点对象的引用计数一定高一些，所以观察各个节点引用计数，发现引用计数大于等于5的就是环交叉节点，所以检测是否有节点引用计数>=5即可;-)
+# 类似的套路也可以去对付[环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
                 return True
             head = head.next
         return False
-```
+# ```

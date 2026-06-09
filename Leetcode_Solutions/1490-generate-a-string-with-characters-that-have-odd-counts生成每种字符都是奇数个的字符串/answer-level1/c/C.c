@@ -1,9 +1,9 @@
-### 解题思路
-判断n是否是偶数还是奇数， 奇数 就是全a, 偶数就是第一个数为a, 剩下的数为b
+// ### 解题思路
+// 判断n是否是偶数还是奇数， 奇数 就是全a, 偶数就是第一个数为a, 剩下的数为b
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * generateTheString(int n){
     char* ans = (char*)malloc(sizeof(char) * (n + 1));
     ans[0] = 'a';
@@ -20,4 +20,4 @@ char * generateTheString(int n){
     return ans;
 }
 
-```
+// ```

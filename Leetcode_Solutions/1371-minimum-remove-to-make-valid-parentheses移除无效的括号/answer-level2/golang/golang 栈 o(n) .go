@@ -1,6 +1,6 @@
-遇到 `(` 入栈， 遇到 `)` 将第一个或者最后一个 `(` 出栈， 如果栈为空，把对应的 `)` 去掉。
-最后把多余的 `(` 去掉即可
-```
+// 遇到 `(` 入栈， 遇到 `)` 将第一个或者最后一个 `(` 出栈， 如果栈为空，把对应的 `)` 去掉。
+// 最后把多余的 `(` 去掉即可
+// ```
 func minRemoveToMakeValid(s string) string {
 	b := []byte(s)
 	pre := []int{}
@@ -20,4 +20,4 @@ func minRemoveToMakeValid(s string) string {
 	}
 	return strings.Replace(string(b), " ", "", -1)
 }
-```
+// ```

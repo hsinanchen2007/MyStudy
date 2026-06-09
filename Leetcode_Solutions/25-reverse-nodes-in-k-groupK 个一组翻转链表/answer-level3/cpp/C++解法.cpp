@@ -1,4 +1,4 @@
-```
+// ```
 class Solution
 {
 public:
@@ -49,4 +49,4 @@ public:
         return newhead;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-剪枝的条件和结束的条件考虑清楚就没问题了。
+// ### 解题思路
+// 剪枝的条件和结束的条件考虑清楚就没问题了。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -42,4 +42,4 @@ char ** generateParenthesis(int n, int* returnSize){
     //}
     return retArray;
 }
-```
+// ```

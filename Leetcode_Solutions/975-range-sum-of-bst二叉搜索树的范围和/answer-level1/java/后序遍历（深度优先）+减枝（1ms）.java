@@ -1,5 +1,5 @@
-#### 1.后序遍历（深度优先）+减枝算法
-```java []
+// #### 1.后序遍历（深度优先）+减枝算法
+// ```java []
 class Solution {
     public int rangeSumBST(TreeNode root, int L, int R) {
         if(root == null) return 0;
@@ -18,9 +18,9 @@ class Solution {
         return res;
     }
 }
-```
-#### 2.对比没有剪枝的后续遍历算法
-```java []
+// ```
+// #### 2.对比没有剪枝的后续遍历算法
+// ```java []
 class Solution {
     public int rangeSumBST(TreeNode root, int L, int R) {
         if(root == null) return 0;
@@ -35,4 +35,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

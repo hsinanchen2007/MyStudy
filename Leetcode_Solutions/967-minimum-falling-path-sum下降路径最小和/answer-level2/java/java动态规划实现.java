@@ -1,16 +1,16 @@
-### 动态规划思路
-dp[i][j]表示以A中第i行第j列位置为结束点时，对应的下降路劲最小和：
+// ### 动态规划思路
+// dp[i][j]表示以A中第i行第j列位置为结束点时，对应的下降路劲最小和：
 
-dp[i][j] = min{dp[i-1][j], dp[i-1][j+1]} + A[i][j], j = 0(前面第一列) 
+// dp[i][j] = min{dp[i-1][j], dp[i-1][j+1]} + A[i][j], j = 0(前面第一列) 
 
-dp[i][j] = min{dp[i-1][j-1], dp[i-1][j], dp[i-1][j+1]} + A[i][j], 1 < j < A.length-1 (中间列)
+// dp[i][j] = min{dp[i-1][j-1], dp[i-1][j], dp[i-1][j+1]} + A[i][j], 1 < j < A.length-1 (中间列)
 
-dp[i][j] = min{dp[i-1][j-1], dp[i-1][j]} + A[i][j], j = A.length-1(最后一列) 
+// dp[i][j] = min{dp[i-1][j-1], dp[i-1][j]} + A[i][j], j = A.length-1(最后一列) 
 
-返回dp中最后一行中最小值，即为下降路劲最小和。时间复杂度O(n^2)，空间复杂度O(n^2)
+// 返回dp中最后一行中最小值，即为下降路劲最小和。时间复杂度O(n^2)，空间复杂度O(n^2)
 
-### 代码实现
-```java
+// ### 代码实现
+// ```java
 class Solution {
     public int minFallingPathSum(int[][] A) {
         int len = A.length;
@@ -36,14 +36,14 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-### 动态规划改进
-其实这个问题存储子问题的解，不需要全部存和A一样大的空间结果，从状态方程可以发现，每次新的结果只是与前面一行的结果相关。所以我们可以直接用两行来存储结果，dp[2][A.length]的空间已经可以了，每次用一行存储之前的结果，另一行存新的结果。
+// ### 动态规划改进
+// 其实这个问题存储子问题的解，不需要全部存和A一样大的空间结果，从状态方程可以发现，每次新的结果只是与前面一行的结果相关。所以我们可以直接用两行来存储结果，dp[2][A.length]的空间已经可以了，每次用一行存储之前的结果，另一行存新的结果。
 
-这样时间复杂度还是O(n^2)，但是空间复杂度降到O(n)。
+// 这样时间复杂度还是O(n^2)，但是空间复杂度降到O(n)。
 
-```java
+// ```java
 class Solution {
     public int minFallingPathSum(int[][] A){
         int len = A.length;
@@ -70,4 +70,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

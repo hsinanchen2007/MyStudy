@@ -1,16 +1,16 @@
-### 解题思路
-方法二用时更少些。
+// ### 解题思路
+// 方法二用时更少些。
 
-记录一下想法，在题目没有明确限制的时候，除了尽可能要优化之外，也要大胆地去写和实现想法。
+// 记录一下想法，在题目没有明确限制的时候，除了尽可能要优化之外，也要大胆地去写和实现想法。
 
-有几个一定要熟悉的：
-1、计算nums中num出现的次数，用Map记录
-2、找出数量最多的num（求Map最大值，可以用Collections.max 也可以用遍历）
-3、边界问题一定要多思考
+// 有几个一定要熟悉的：
+// 1、计算nums中num出现的次数，用Map记录
+// 2、找出数量最多的num（求Map最大值，可以用Collections.max 也可以用遍历）
+// 3、边界问题一定要多思考
 
-### 代码
-方法一：
-```java
+// ### 代码
+// 方法一：
+// ```java
 class Solution {
     public int findShortestSubArray(int[] nums) {
         Map<Integer, Integer> countMap = new HashMap<>(),
@@ -39,10 +39,10 @@ class Solution {
         return ans + 1;
     }
 }
-```
+// ```
 
-方法二：
-```java
+// 方法二：
+// ```java
 class Solution {
     public int findShortestSubArray(int[] nums) {
         HashMap<Integer, Integer> countMap = new HashMap<>();
@@ -70,4 +70,4 @@ class Solution {
         return ans + 1;
     }
 }
-```
+// ```

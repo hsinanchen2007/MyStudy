@@ -1,5 +1,5 @@
-用一个dict记录当前前缀下、当前位置某个字符是否已经被使用
-```
+# 用一个dict记录当前前缀下、当前位置某个字符是否已经被使用
+# ```
 class Solution:
     def findSubsequences(self, nums: List[int]) -> List[List[int]]:
         res = []
@@ -18,4 +18,4 @@ class Solution:
 
         dfs(0, [])
         return res
-```
+# ```

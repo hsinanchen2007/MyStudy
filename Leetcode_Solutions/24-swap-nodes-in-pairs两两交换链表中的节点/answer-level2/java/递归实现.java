@@ -1,5 +1,5 @@
-#####递归实现代码
-```
+// #####递归实现代码
+// ```
 public ListNode swapPairs(ListNode head) {
     if(head == null || head.next == null){//递归判断条件，如果无结点或者只有一个结点直接返回
         return head;
@@ -16,4 +16,4 @@ public ListNode swapPairs(ListNode head) {
     /*返回结果*/
     return second;
 }
-```
+// ```

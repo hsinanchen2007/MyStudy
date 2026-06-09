@@ -1,8 +1,8 @@
-蓄水池抽样，第n个输入的数据，以1/n的概率采样，就可以保证前面的都是1/n了，具体证明可以采取数学归纳法。
-详情，如下[链接](https://leetcode-cn.com/problems/linked-list-random-node/solution/xu-shui-chi-chou-yang-suan-fa-by-jackwener/)可以查看 
+# 蓄水池抽样，第n个输入的数据，以1/n的概率采样，就可以保证前面的都是1/n了，具体证明可以采取数学归纳法。
+# 详情，如下[链接](https://leetcode-cn.com/problems/linked-list-random-node/solution/xu-shui-chi-chou-yang-suan-fa-by-jackwener/)可以查看 
 
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(head)
 # param_1 = obj.getRandom()
-```
+# ```

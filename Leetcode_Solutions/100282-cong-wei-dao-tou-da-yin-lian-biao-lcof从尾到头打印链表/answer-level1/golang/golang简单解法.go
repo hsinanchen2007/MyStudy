@@ -1,8 +1,8 @@
-### 解题思路
-利用栈的思想实现
-### 代码
+// ### 解题思路
+// 利用栈的思想实现
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -40,4 +40,4 @@ func reversePrint(head *ListNode) []int {
 
     return res
 }
-```
+// ```

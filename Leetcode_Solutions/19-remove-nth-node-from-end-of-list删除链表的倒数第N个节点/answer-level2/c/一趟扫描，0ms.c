@@ -1,4 +1,4 @@
-```
+// ```
 	struct ListNode *p = head, *t = head;
 	while (n--)
 		p = p->next;
@@ -10,4 +10,4 @@
 	}		
 	t->next = t->next->next;
 	return head;
-```
+// ```

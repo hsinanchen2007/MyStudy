@@ -1,13 +1,13 @@
-### 解题思路
-坑太多了，题目描述里给的通过样例太少了，状态机图在稿纸上改了好几次。。。
-1,2,3,6,7都是终态
-字符扫完能停留在状态，返回true
-![img_0049.png](https://pic.leetcode-cn.com/8d8532d1e2833d162320915457a2787887ecea8ad86dbe66274339b04667cfa8-img_0049.png)
+// ### 解题思路
+// 坑太多了，题目描述里给的通过样例太少了，状态机图在稿纸上改了好几次。。。
+// 1,2,3,6,7都是终态
+// 字符扫完能停留在状态，返回true
+// ![img_0049.png](https://pic.leetcode-cn.com/8d8532d1e2833d162320915457a2787887ecea8ad86dbe66274339b04667cfa8-img_0049.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isNumber(string s) {
@@ -189,4 +189,4 @@ public:
         else return false;
     }
 };
-```
+// ```

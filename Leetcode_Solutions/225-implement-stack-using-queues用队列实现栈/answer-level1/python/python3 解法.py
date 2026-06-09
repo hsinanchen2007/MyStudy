@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-单个队列， push O(1), pop O(n), top O(1)
+# 单个队列， push O(1), pop O(n), top O(1)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import queue
 class MyStack:
 
@@ -53,4 +53,4 @@ class MyStack:
         Returns whether the stack is empty.
         """
         return self.cnt == 0
-```
+# ```

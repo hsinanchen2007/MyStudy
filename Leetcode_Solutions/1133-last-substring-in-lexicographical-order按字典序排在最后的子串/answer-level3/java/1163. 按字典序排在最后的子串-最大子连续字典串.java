@@ -1,16 +1,16 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/8/24
- *
- * 解题思路：(最坏情况 O(n*n))
- *
- * 1.O(n) 找出当前最大字符max_char，也就是最大连续字典序列 开头字符
- *
- * 2.再次遍历找出都是max_char开头的字串，并比较大小，将最大字串保存为当前最优解，直到遍历完成退出。如果中途比较到末尾，则退出。推出后max_index ~ s.length() 为最大连续字典序列
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/8/24
+//  *
+//  * 解题思路：(最坏情况 O(n*n))
+//  *
+//  * 1.O(n) 找出当前最大字符max_char，也就是最大连续字典序列 开头字符
+//  *
+//  * 2.再次遍历找出都是max_char开头的字串，并比较大小，将最大字串保存为当前最优解，直到遍历完成退出。如果中途比较到末尾，则退出。推出后max_index ~ s.length() 为最大连续字典序列
+//  */
+// ```
 public String lastSubstring(String s) {
 
         char[] s_arr = s.toCharArray();
@@ -55,4 +55,4 @@ public String lastSubstring(String s) {
         }
         return s.substring(max_index,s.length());
     }
-```
+// ```

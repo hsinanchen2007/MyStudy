@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+# ### 解题思路
+# 动态规划
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countBits(self, num):
         #dp[i]表示当nums = i时，转换成二进制数里面1的个数
@@ -13,4 +13,4 @@ class Solution(object):
             mod_i = i % 2
             dp[i] = dp[int_i] + mod_i
         return dp
-```
+# ```

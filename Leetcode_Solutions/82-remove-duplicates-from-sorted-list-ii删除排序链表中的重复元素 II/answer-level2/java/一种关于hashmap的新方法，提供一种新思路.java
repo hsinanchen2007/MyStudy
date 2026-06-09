@@ -1,5 +1,5 @@
-hashmap遍历整个链表，存储每一个节点数值对应的个数，如果等于1，加入链表中，否则一直遍历知道遇到数值仅有一个的节点。
-```
+// hashmap遍历整个链表，存储每一个节点数值对应的个数，如果等于1，加入链表中，否则一直遍历知道遇到数值仅有一个的节点。
+// ```
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         HashMap<Integer, Integer> hash = new HashMap<>();
@@ -28,4 +28,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

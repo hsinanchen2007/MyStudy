@@ -1,9 +1,9 @@
-### 解题思路
-Python3巨坑，如果返回int，会自带个小数点2变成2.0，必须更改默认定义，强制返回int才行，坑死了
+# ### 解题思路
+# Python3巨坑，如果返回int，会自带个小数点2变成2.0，必须更改默认定义，强制返回int才行，坑死了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strongPasswordChecker(self,s:str):
         hasN=False
@@ -43,4 +43,4 @@ class Solution:
         nd-=tp.get(1,0)*2
         nm-=tp.get(1,0)
         return str(int(max(nm-nd//3,nloss)+len(s)-20))
-```
+# ```

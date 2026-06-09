@@ -1,11 +1,11 @@
-### 解题思路
-- 当匹配串的第 j+1个元素为 "*" 的时候：dp[i][j] = dp[i][j+2] || (temp && dp[i+1] [j])
-- 否则：dp[i][j] = temp && dp[i+1][j+1]
+// ### 解题思路
+// - 当匹配串的第 j+1个元素为 "*" 的时候：dp[i][j] = dp[i][j+2] || (temp && dp[i+1] [j])
+// - 否则：dp[i][j] = temp && dp[i+1][j+1]
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isMatch(String s, String p) {
         if(p.isEmpty()) return s.isEmpty();
@@ -27,4 +27,4 @@ class Solution {
         return dp[0][0];
     }
 }
-```
+// ```

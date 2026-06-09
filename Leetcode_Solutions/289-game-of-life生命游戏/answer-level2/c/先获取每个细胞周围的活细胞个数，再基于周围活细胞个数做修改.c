@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int direct[8][2] = {{-1,-1},{-1,0},{-1 , 1}, {0,-1}, {0,1}, {1,-1},{1,0},{1,1}};
 int getLifeCellNum(int** board, int boardSize, int* boardColSize, int m, int n)
 {

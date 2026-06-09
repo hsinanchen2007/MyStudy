@@ -1,9 +1,9 @@
-### 解题思路
-迭代法
+// ### 解题思路
+// 迭代法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -50,4 +50,4 @@ var mergeTwoLists = function(l1, l2) {
     
 
 };
-```
+// ```

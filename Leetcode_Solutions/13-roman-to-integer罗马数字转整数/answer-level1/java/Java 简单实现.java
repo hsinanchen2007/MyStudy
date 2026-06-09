@@ -1,9 +1,9 @@
-1. 使用map映射roman 和 int <br>
-2. 解析roman串，从末位向前逐一映射成int然后相加，有三种特殊情况时进行减法操作，最终得到结果 <br>
-3. 特殊情况分析，从题目描述可以看出特殊情况时前后两数之和分别是 6/11，60/110，600/1100，
-    可抽象为 (i1+i2)%6 == 0 || (i1+i2)%11 == 0 <br>
-4. 具体实现代码:
-```java
+// 1. 使用map映射roman 和 int <br>
+// 2. 解析roman串，从末位向前逐一映射成int然后相加，有三种特殊情况时进行减法操作，最终得到结果 <br>
+// 3. 特殊情况分析，从题目描述可以看出特殊情况时前后两数之和分别是 6/11，60/110，600/1100，
+//     可抽象为 (i1+i2)%6 == 0 || (i1+i2)%11 == 0 <br>
+// 4. 具体实现代码:
+// ```java
 public class Solution {
 
     private HashMap<Character, Integer> romanMap = new HashMap<Character, Integer>();
@@ -41,12 +41,12 @@ public class Solution {
         return res;
     }
 }
-```
-5.复杂度分析<br>
-- 空间复杂度 = O(1)
--  romanToInt()的时间复杂度 = O(n)
-- sumTwoRoma()时间复杂度 = O(1)
-- 总时间复杂度 =  O(n) * O(1) = O(n)
+// ```
+// 5.复杂度分析<br>
+// - 空间复杂度 = O(1)
+// -  romanToInt()的时间复杂度 = O(n)
+// - sumTwoRoma()时间复杂度 = O(1)
+// - 总时间复杂度 =  O(n) * O(1) = O(n)
 
-备注：如果有您认为不对的地方请指出
+// 备注：如果有您认为不对的地方请指出
 

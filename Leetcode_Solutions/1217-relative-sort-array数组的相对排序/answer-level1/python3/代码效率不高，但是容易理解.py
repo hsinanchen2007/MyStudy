@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:
         L = []
@@ -12,4 +12,4 @@ class Solution:
             L += [num] * count
         L += sorted([i for i in arr1 if i not in arr2])
         return L
-```
+# ```

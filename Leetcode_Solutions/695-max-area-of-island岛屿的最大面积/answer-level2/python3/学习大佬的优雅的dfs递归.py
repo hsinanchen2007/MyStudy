@@ -1,10 +1,10 @@
-### 解题思路
-学习，学习
-理解，理解
-财布，财布
-### 代码
+# ### 解题思路
+# 学习，学习
+# 理解，理解
+# 财布，财布
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         n, m, res = len(grid),len(grid[0]),0
@@ -17,4 +17,4 @@ class Solution:
                 if grid[i][j]==1:res = max(dfs(i,j), res)
         return res
 
-```
+# ```

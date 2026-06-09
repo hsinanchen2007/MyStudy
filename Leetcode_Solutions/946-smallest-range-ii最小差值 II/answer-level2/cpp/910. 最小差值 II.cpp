@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int smallestRangeII(vector<int>& A, int K) {
@@ -19,6 +19,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-借用@Setul 的图示写的……
+// 借用@Setul 的图示写的……

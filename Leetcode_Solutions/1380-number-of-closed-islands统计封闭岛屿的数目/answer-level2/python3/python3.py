@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def closedIsland(self, grid: List[List[int]]) -> int:
         s = set()
@@ -30,4 +30,4 @@ class Solution:
                     if find(i,j):
                         ans+=1
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用%2不增加中间变量，用求和值替换小值，更新斐波那契数。
+// ### 解题思路
+// 利用%2不增加中间变量，用求和值替换小值，更新斐波那契数。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int climbStairs(int n){
     int a[2] = {1,2};
     int i;
@@ -17,4 +17,4 @@ int climbStairs(int n){
     //return climbStairs(n-1)+climbStairs(n-2);  //直接递归太消耗空间
     return a[i%2];
 }
-```
+// ```

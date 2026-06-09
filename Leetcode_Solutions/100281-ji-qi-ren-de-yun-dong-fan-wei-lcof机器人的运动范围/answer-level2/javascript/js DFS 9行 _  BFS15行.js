@@ -1,6 +1,6 @@
-js DFS 9行解决战斗
+// js DFS 9行解决战斗
 
-```js
+// ```js
 /**
  * @param {number} m
  * @param {number} n
@@ -18,9 +18,9 @@ var movingCount = function(m, n, k) {
     }
     return numDFS(0, 0, {});
 };
-```
-// BFS 版本，只需要走两个方向
-```js
+// ```
+// // BFS 版本，只需要走两个方向
+// ```js
 var movingCount = function(m, n, k) {
     const queue = [[0, 0]];
     let res = 0, i = 1;
@@ -38,5 +38,5 @@ var movingCount = function(m, n, k) {
     }
     return res;
 };
-```
+// ```
 

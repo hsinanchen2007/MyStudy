@@ -1,5 +1,5 @@
-没有想到还能这么简单的解法过了。。。
-```
+// 没有想到还能这么简单的解法过了。。。
+// ```
 class Solution {
 public:
     string crackSafe(int n, int k) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

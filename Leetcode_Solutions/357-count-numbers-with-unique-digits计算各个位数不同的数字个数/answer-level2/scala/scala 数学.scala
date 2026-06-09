@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def countNumbersWithUniqueDigits(n: Int): Int = {
     if (n == 0) return 1
@@ -11,4 +11,4 @@ object Solution {
     res
   }
 }
-```
+// ```

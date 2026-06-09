@@ -1,5 +1,5 @@
-### while
-```js
+// ### while
+// ```js
 /**
  * @param {number[]} A
  * @return {number}
@@ -18,10 +18,10 @@ var peakIndexInMountainArray = function(A) {
         }
     }
 };
-```
+// ```
 
-### 递归
-```js
+// ### 递归
+// ```js
 /**
  * @param {number[]} A
  * @return {number}
@@ -39,4 +39,4 @@ var peakIndexInMountainArray = function(A,low,high) {
         return peakIndexInMountainArray(A,low,mid-1)
     }
 };
-```
+// ```

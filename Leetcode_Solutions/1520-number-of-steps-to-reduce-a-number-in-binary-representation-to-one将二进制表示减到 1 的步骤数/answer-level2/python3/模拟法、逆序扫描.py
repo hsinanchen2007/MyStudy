@@ -1,13 +1,13 @@
-## 解题思路
+# ## 解题思路
 
-从后先前扫描，模拟二进制加法和除法
+# 从后先前扫描，模拟二进制加法和除法
 
-时间复杂度`O(n)`
-空间复杂度`O(n)` 可以优化为`O(1)`
+# 时间复杂度`O(n)`
+# 空间复杂度`O(n)` 可以优化为`O(1)`
 
 
-## 代码
-```python
+# ## 代码
+# ```python
 class Solution:
     def numSteps(self, s: str) -> int:
         tmp = list(s)
@@ -27,4 +27,4 @@ class Solution:
                 else:
                     return res
         return res
-```
+# ```

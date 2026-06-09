@@ -1,5 +1,5 @@
-直接深度搜索，代码很清晰的
-```
+// 直接深度搜索，代码很清晰的
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

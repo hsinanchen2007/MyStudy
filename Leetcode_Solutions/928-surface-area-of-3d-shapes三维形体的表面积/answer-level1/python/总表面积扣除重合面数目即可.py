@@ -1,25 +1,25 @@
-### 解题思路
-不考虑相邻网格之间的重合，每个网格贡献的表面积为
-$$
-s(i) = \begin{cases}
-4\times i+2, &\quad i \gt 0 \\
-0,&\quad i = 0
-\end{cases}
-$$
-$i$为网格上的正方体个数。遍历网盘，得到表面积的总贡献为
-$$
-\begin{aligned}
-total & = \sum_{i=0}^{rows}\sum_{j=0}^{cols} s(grid[i][j])
-\end{aligned}
-$$
-接下来按行和列方向分别计算重合面的数目，总和记为$m$。则最终形体的表面积为
-$$
-ans = total - m
-$$
+# ### 解题思路
+# 不考虑相邻网格之间的重合，每个网格贡献的表面积为
+# $$
+# s(i) = \begin{cases}
+# 4\times i+2, &\quad i \gt 0 \\
+# 0,&\quad i = 0
+# \end{cases}
+# $$
+# $i$为网格上的正方体个数。遍历网盘，得到表面积的总贡献为
+# $$
+# \begin{aligned}
+# total & = \sum_{i=0}^{rows}\sum_{j=0}^{cols} s(grid[i][j])
+# \end{aligned}
+# $$
+# 接下来按行和列方向分别计算重合面的数目，总和记为$m$。则最终形体的表面积为
+# $$
+# ans = total - m
+# $$
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def surfaceArea(self, grid):
         """
@@ -42,4 +42,4 @@ class Solution(object):
         # print conceal
         ans = total - 2 * conceal
         return ans
-```
+# ```

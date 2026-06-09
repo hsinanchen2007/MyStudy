@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -20,4 +20,4 @@ var isSymmetric = function(root) {
     }
     return isMirror(root.left, root.right);
 };
-```
+// ```

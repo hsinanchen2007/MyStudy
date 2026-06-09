@@ -1,13 +1,13 @@
-### 解题思路
-这道题一看就是动态规划，递推式为dp[i] = dp[i - len(word)] and s[i - length + 1:i + 1]，我觉得理解并不是很难。
-虽然这道题思路不难，但有两个细节需要注意：
-（1）注意从min(word_len_dict)位置开始遍历，而不是max。
-（2）当dp[i]计算出来是True时，就应该break。
-以上两个细节都是我错过的地方，所以提醒一下。
+# ### 解题思路
+# 这道题一看就是动态规划，递推式为dp[i] = dp[i - len(word)] and s[i - length + 1:i + 1]，我觉得理解并不是很难。
+# 虽然这道题思路不难，但有两个细节需要注意：
+# （1）注意从min(word_len_dict)位置开始遍历，而不是max。
+# （2）当dp[i]计算出来是True时，就应该break。
+# 以上两个细节都是我错过的地方，所以提醒一下。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def wordBreak(self, s, wordDict):
         """
@@ -36,4 +36,4 @@ class Solution(object):
                     break
         print(dp)
         return dp[-1]
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     """
     底数可以是小数,指数不能是小数
@@ -35,4 +35,4 @@ class Solution:
         if s[0] in '+-':
             s = s[1:]
         return s.isdigit()
-```
+# ```

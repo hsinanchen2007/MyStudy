@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class MaxQueue {
 public:
     MaxQueue() {
@@ -44,6 +44,6 @@ private:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```
 
 

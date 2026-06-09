@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool dfs(char** board, int boardSize, int* boardColSize, char * word, int **used, int x, int y, int pos, int len){
     if(x<0||x>=boardSize||y<0||y>=*boardColSize){
         return false;
@@ -68,4 +68,4 @@ bool exist(char** board, int boardSize, int* boardColSize, char * word){
     return false;
 }
 
-```
+// ```

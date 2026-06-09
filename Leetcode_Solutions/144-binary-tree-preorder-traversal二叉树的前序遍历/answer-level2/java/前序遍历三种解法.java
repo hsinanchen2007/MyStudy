@@ -1,4 +1,4 @@
-```
+// ```
     //方式1-递归
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> list=new ArrayList<Integer>();
@@ -12,9 +12,9 @@
         help(node.left,list);
         help(node.right,list);
     }
-```
+// ```
 
-```
+// ```
     //方式2--迭代 这种迭代不适用于中序和后序
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> list=new ArrayList<Integer>();
@@ -33,9 +33,9 @@
         }
         return list;
     }
-```
+// ```
 
-```
+// ```
     //方式3--迭代  该迭代方式只需要将while循环中的三个模块颠倒即可用于中序和后序
     //先序->根左右    中序->左根右   后序->左右根
     public List<Integer> preorderTraversal(TreeNode root) {
@@ -65,6 +65,6 @@
         }
         return list;
     }
-```
+// ```
 
 

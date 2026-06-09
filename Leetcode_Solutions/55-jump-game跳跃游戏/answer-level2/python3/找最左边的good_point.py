@@ -1,9 +1,9 @@
-### 解题思路
-利用递归不断找能到达的最左边的点，能走到起点就能跳跃，找不到跳跃点就不行
+# ### 解题思路
+# 利用递归不断找能到达的最左边的点，能走到起点就能跳跃，找不到跳跃点就不行
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         if len(nums)==1:
@@ -30,4 +30,4 @@ class Solution:
             return False
 
         return pro(good_point)
-```
+# ```

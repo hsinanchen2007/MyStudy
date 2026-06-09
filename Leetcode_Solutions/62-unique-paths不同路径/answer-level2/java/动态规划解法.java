@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/569aa7e35454ac28b9020eaf1b1f29c8963199f6756f856a1d9e76334cae7e2f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/569aa7e35454ac28b9020eaf1b1f29c8963199f6756f856a1d9e76334cae7e2f-image.png)
 
-代码：
+// 代码：
 
-```java
+// ```java
 class Solution {
     public int uniquePaths(int m, int n) {
         int[][] mtx =new int[n][m];
@@ -23,4 +23,4 @@ class Solution {
 
     }
 }
-```
+// ```

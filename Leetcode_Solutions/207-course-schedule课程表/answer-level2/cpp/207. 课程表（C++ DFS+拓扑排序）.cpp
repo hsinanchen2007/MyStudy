@@ -1,6 +1,6 @@
-# 207. 课程表
-**方法一：DFS**
-```
+// # 207. 课程表
+// **方法一：DFS**
+// ```
 //DFS
 class Solution {
 public:
@@ -36,11 +36,11 @@ public:
 		return true;
     }
 };
-```
+// ```
 
-**方法二：拓扑排序**
+// **方法二：拓扑排序**
 
-```
+// ```
 //拓扑排序
 class Solution {
 private:
@@ -87,5 +87,5 @@ public:
 			return false;
     }
 };
-```
+// ```
 

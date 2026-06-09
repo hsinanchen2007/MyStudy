@@ -1,4 +1,4 @@
-1、查询出Email出现次数大于1次的Email以及对应的最小Id,也就是min函数
+-- 1、查询出Email出现次数大于1次的Email以及对应的最小Id,也就是min函数
 select Email,MIN(Id) Id
             from Person 
             group by Email

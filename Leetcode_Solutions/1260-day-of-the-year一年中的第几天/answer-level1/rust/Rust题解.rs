@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn day_of_year(date: String) -> i32 {
         let v: Vec<i32> = date.split('-').map(|s| s.parse().unwrap()).collect();
@@ -13,5 +13,5 @@ impl Solution {
         ans
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

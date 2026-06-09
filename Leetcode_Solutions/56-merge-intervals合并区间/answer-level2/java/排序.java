@@ -1,23 +1,23 @@
-## 思路:
+// ## 思路:
 
-先按首位置进行排序;
+// 先按首位置进行排序;
 
-接下来,如何判断两个区间是否重叠呢?比如 `a = [1,4],b = [2,3]`
+// 接下来,如何判断两个区间是否重叠呢?比如 `a = [1,4],b = [2,3]`
 
-当 `a[1] >= b[0]` 说明两个区间有重叠.
+// 当 `a[1] >= b[0]` 说明两个区间有重叠.
 
-但是如何把这个区间找出来呢?
+// 但是如何把这个区间找出来呢?
 
-左边位置一定是确定，就是 `a[0]`，而右边位置是 `max(a[1], b[1])`
+// 左边位置一定是确定，就是 `a[0]`，而右边位置是 `max(a[1], b[1])`
 
-所以,我们就能找出整个区间为:`[1,4]`
-
-
-## 代码:
+// 所以,我们就能找出整个区间为:`[1,4]`
 
 
+// ## 代码:
 
-```Python [1]
+
+
+// ```Python [1]
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         intervals = sorted(intervals)
@@ -33,11 +33,11 @@ class Solution:
             res.append([left, right])
             i += 1
         return res
-```
+// ```
 
 
 
-```Java [1]
+// ```Java [1]
 class Solution {
     public int[][] merge(int[][] intervals) {
         List<int[]> res = new ArrayList<>();
@@ -57,5 +57,5 @@ class Solution {
         return res.toArray(new int[0][]);
     }
 }
-```
+// ```
 

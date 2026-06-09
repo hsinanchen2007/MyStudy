@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路  先排序后又转化回来判断字符串就行
+// ### 解题思路
+// 此处撰写解题思路  先排序后又转化回来判断字符串就行
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         boolean flag = false;
@@ -24,4 +24,4 @@ class Solution {
         return flag;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-左括号不能小于右括号个数，任何时候
+// 左括号不能小于右括号个数，任何时候
 
 
-```cpp
+// ```cpp
 class Solution {
 	vector<string> ans;
 	int N;
@@ -32,4 +32,4 @@ public:
     	}
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-带有测试方法的java代码。
-这个内容是取出最高位和最低位进行比较来进行操作的。
-只要是有一个不同，立刻就会显示错误
-这个也比两边直接比较，要轻松很多。
-### 代码
+// ### 解题思路
+// 带有测试方法的java代码。
+// 这个内容是取出最高位和最低位进行比较来进行操作的。
+// 只要是有一个不同，立刻就会显示错误
+// 这个也比两边直接比较，要轻松很多。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         if (x < 0) return false;
@@ -29,10 +29,10 @@ class Solution {
 
     }
 }
-```
-**JavaScript代码**
-这个代码是将数完全倒转，然后比较。
-```JavaScript
+// ```
+// **JavaScript代码**
+// 这个代码是将数完全倒转，然后比较。
+// ```JavaScript
 /**
  * @param {number} x
  * @return {boolean}
@@ -53,4 +53,4 @@ if(top===total){
 }
 
 };
-```
+// ```

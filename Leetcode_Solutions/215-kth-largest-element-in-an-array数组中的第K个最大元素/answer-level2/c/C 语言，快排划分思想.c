@@ -1,12 +1,12 @@
-### 解题思路
-快排的 partition 思想
-不稳定，但不影响本题，对于有相同元素的情形同样适用
-T: O(N)
-N: O(1)
+// ### 解题思路
+// 快排的 partition 思想
+// 不稳定，但不影响本题，对于有相同元素的情形同样适用
+// T: O(N)
+// N: O(1)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int partition (int nums[], int low, int high) {
     int pivot = nums[low];
 
@@ -34,4 +34,4 @@ int findKthLargest(int* nums, int numsSize, int k){
 
     return nums[pivotPos];
 }
-```
+// ```

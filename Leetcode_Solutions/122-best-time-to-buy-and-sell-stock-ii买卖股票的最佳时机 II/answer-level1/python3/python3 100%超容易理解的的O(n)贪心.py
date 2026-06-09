@@ -1,5 +1,5 @@
-把走势图画出来，很容易发现，其实就是求原来数组里面所有升序子串的起点和终点差值之和。
-```
+# 把走势图画出来，很容易发现，其实就是求原来数组里面所有升序子串的起点和终点差值之和。
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         ans = 0
@@ -18,4 +18,4 @@ class Solution:
             if cur_max > cur_min:
                 ans += cur_max - cur_min
         return ans
-```
+# ```

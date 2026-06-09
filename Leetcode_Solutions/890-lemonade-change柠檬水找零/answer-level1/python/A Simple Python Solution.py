@@ -1,6 +1,6 @@
-执行用时 :252 ms, 在所有 Python 提交中击败了27.04% 的用户
-内存消耗 :11.9 MB, 在所有 Python 提交中击败了33.74%的用户
-```
+# 执行用时 :252 ms, 在所有 Python 提交中击败了27.04% 的用户
+# 内存消耗 :11.9 MB, 在所有 Python 提交中击败了33.74%的用户
+# ```
 class Solution(object):
     
     def __init__(self):
@@ -49,4 +49,4 @@ class Solution(object):
         
 
 
-```
+# ```

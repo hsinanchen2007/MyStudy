@@ -1,5 +1,5 @@
-维护两个数组就完事了嗷铁汁萌
-```
+# 维护两个数组就完事了嗷铁汁萌
+# ```
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         t_min=[nums[0]]
@@ -9,4 +9,4 @@ class Solution:
             t_max.append(max(nums[i],nums[i]*t_max[i-1],nums[i]*t_min[i-1]))
             t_min.append(min(nums[i],nums[i]*t_max[i-1],nums[i]*t_min[i-1]))
         return max(t_max)
-```
+# ```

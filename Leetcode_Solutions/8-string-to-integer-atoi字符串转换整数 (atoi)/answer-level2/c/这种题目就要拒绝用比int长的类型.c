@@ -1,6 +1,6 @@
-从硬件环境理解，限制存储类型为int即表明运行环境只能支持int以下的类型。用long实现的在这种系统是不可移植的。
-C实现：
-```
+// 从硬件环境理解，限制存储类型为int即表明运行环境只能支持int以下的类型。用long实现的在这种系统是不可移植的。
+// C实现：
+// ```
 int myAtoi(char * str){
     int val = 0;
     int flag = 1; // 1:positive -1:negative
@@ -30,4 +30,4 @@ int myAtoi(char * str){
 
     return val;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-与官方题解思路相同
-```
+// 与官方题解思路相同
+// ```
 int search(int* nums, int numsSize, int target){
     
     if(numsSize==0){
@@ -41,5 +41,5 @@ int search(int* nums, int numsSize, int target){
     }
     else return -1;
 }
-```
-![image.png](https://pic.leetcode-cn.com/57c43ee84d7392935b7661a1717581e44a83a5dbee09c61b83a853d4d33da11d-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/57c43ee84d7392935b7661a1717581e44a83a5dbee09c61b83a853d4d33da11d-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-使用辅助栈用于返回最小值
+// ### 解题思路
+// 使用辅助栈用于返回最小值
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MinStack struct {
     stack []int
     minStack []int
@@ -52,4 +52,4 @@ func (this *MinStack) GetMin() int {
  * param_3 := obj.Top();
  * param_4 := obj.GetMin();
  */
-```
+// ```

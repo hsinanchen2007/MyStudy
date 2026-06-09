@@ -1,11 +1,11 @@
-### 解题思路
-用两个array 
-int[] values 分成三等分，储存三个栈的值
-int[] sizes 储存每个栈的大小
+// ### 解题思路
+// 用两个array 
+// int[] values 分成三等分，储存三个栈的值
+// int[] sizes 储存每个栈的大小
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class TripleInOne {
 
 // stack 1: [0, n/3)
@@ -70,4 +70,4 @@ class TripleInOne {
  * int param_3 = obj.peek(stackNum);
  * boolean param_4 = obj.isEmpty(stackNum);
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-判断条件有点丑陋，但是双100%通过。
+// ### 解题思路
+// 判断条件有点丑陋，但是双100%通过。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canMeasureWater(int x, int y, int z) {
@@ -25,4 +25,4 @@ public:
         return a;
     }
 };
-```
+// ```

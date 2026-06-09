@@ -1,4 +1,4 @@
-```
+// ```
 func permutation(S string) []string {
     res := make([]string, 0)
     ss := []rune(S)
@@ -21,4 +21,4 @@ func permutation(S string) []string {
 
     return res
 }
-```
+// ```

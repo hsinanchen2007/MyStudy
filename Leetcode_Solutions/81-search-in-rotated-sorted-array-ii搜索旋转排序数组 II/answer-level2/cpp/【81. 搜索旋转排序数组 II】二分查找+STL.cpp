@@ -1,7 +1,7 @@
-## 思路一：二分查找
-### 代码
-时间复杂度：O(logn)
-```c++
+// ## 思路一：二分查找
+// ### 代码
+// 时间复杂度：O(logn)
+// ```c++
 class Solution {
 public:
     bool search(vector<int>& nums, int target) {
@@ -54,9 +54,9 @@ public:
         return false;
     }
 };
-```
-#### 简化代码
-```c++
+// ```
+// #### 简化代码
+// ```c++
 class Solution {
 public:
     bool search(vector<int>& nums, int target) {
@@ -86,12 +86,12 @@ public:
         return false;
     }
 };
-```
+// ```
 
-## 思路二：无序set
-### 代码
-unordered_set插入时间复杂度：O(logn)
-```c++
+// ## 思路二：无序set
+// ### 代码
+// unordered_set插入时间复杂度：O(logn)
+// ```c++
 class Solution {
 public:
     bool search(vector<int>& nums, int target) {
@@ -99,7 +99,7 @@ public:
         return uset.count(target) > 0;
     }
 };
-```
+// ```
 
 
 

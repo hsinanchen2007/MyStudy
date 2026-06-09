@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> constructRectangle(int area) {
@@ -22,5 +22,5 @@ public:
         return res;
     }
 };
-```
-![Y2G(IHL\[K582`X~7QIC@GXR.png](https://pic.leetcode-cn.com/458b47c8f968f387b849ee1e2dcab0b66323b79c29e99c7813b74237de8ea075-Y2G\(IHL%5BK582%60X~7QIC@GXR.png)
+// ```
+// ![Y2G(IHL\[K582`X~7QIC@GXR.png](https://pic.leetcode-cn.com/458b47c8f968f387b849ee1e2dcab0b66323b79c29e99c7813b74237de8ea075-Y2G\(IHL%5BK582%60X~7QIC@GXR.png)

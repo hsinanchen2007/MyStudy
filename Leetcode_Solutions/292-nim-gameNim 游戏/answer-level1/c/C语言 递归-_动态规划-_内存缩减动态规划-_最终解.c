@@ -1,6 +1,6 @@
-看到这个题目，第一感觉是动态规划法，其实只要n可以用奇数步走完的路径就能赢
-先用递归进行求解
-```
+// 看到这个题目，第一感觉是动态规划法，其实只要n可以用奇数步走完的路径就能赢
+// 先用递归进行求解
+// ```
 #define S_ODD  1
 #define S_EVEN 0
 int nim(int n)
@@ -29,10 +29,10 @@ bool canWinNim(int n){
 		return false;
 	}
 }
-```
-发现会超时，这时候一般是要保存中间结果，进行提速
-dp[n] 代表 n是否可以有奇数步的解，dp[n] == S_ODD 代表存在，否则只有偶数步的解
-```
+// ```
+// 发现会超时，这时候一般是要保存中间结果，进行提速
+// dp[n] 代表 n是否可以有奇数步的解，dp[n] == S_ODD 代表存在，否则只有偶数步的解
+// ```
 #define S_ODD  1
 #define S_EVEN 0
 void nim(int n, int *dp)
@@ -77,9 +77,9 @@ bool canWinNim(int n){
 	free(dp);
 	return ret;
 }
-```
-发现大数不行，毕竟要分配非常大的dp，进行内存缩减
-```
+// ```
+// 发现大数不行，毕竟要分配非常大的dp，进行内存缩减
+// ```
 #define S_ODD  1
 #define S_EVEN 0
 bool canWinNim(int n){
@@ -103,14 +103,14 @@ bool canWinNim(int n){
 	}
 	return cur == S_ODD ? true : false;
 }
-```
-居然还是超时，看来方法不对，打印dp出来发现是这样的规律[1,1,1,0,1,1,1,0...]
-真是无语了...
-```
+// ```
+// 居然还是超时，看来方法不对，打印dp出来发现是这样的规律[1,1,1,0,1,1,1,0...]
+// 真是无语了...
+// ```
 bool canWinNim(int n){
 	return n % 4;
 }
-```
+// ```
 
 
 

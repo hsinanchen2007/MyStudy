@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/d4728677802a3fe0c4dda80eff5c3d214b15a09da7c7bad78450ec31675123a1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d4728677802a3fe0c4dda80eff5c3d214b15a09da7c7bad78450ec31675123a1-image.png)
 
 
-```
+// ```
 func solveNQueens(n int) [][]string {
 	var res [][]string
 	nQueen := make([][]rune, n)
@@ -52,4 +52,4 @@ func solveNQueensIsValid(nQueen [][]rune, row, col, n int) bool {
 	}
 	return true
 }
-```
+// ```

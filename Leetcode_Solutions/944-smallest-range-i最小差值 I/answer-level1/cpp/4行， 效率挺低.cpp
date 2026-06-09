@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int smallestRangeI(vector<int>& A, int K) {
@@ -15,4 +15,4 @@ public:
         return max_value - min_vlaue - 2*K;
     }
 };
-```
+// ```

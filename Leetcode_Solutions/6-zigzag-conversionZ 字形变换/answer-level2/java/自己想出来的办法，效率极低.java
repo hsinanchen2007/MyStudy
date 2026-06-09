@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-千万别学，我发出来留个纪念
-PS.题目没有说字符串包含标点符号啊！
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 千万别学，我发出来留个纪念
+// PS.题目没有说字符串包含标点符号啊！
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String convert(String s, int numRows) {
         if(numRows==1)return s;
@@ -35,4 +35,4 @@ class Solution {
         return ret.toString();
     }
 }
-```
+// ```

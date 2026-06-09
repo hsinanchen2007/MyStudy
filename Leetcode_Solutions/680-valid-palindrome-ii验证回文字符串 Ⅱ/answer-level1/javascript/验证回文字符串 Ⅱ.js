@@ -1,4 +1,4 @@
-```js
+// ```js
 // 验证是否是回文串
 var isPalindrome = function(s, i = 0, j = s.length - 1) {
     while (i < j) {
@@ -23,5 +23,5 @@ var validPalindrome = function(s) {
     }
     return true;
 };
-```
+// ```
 

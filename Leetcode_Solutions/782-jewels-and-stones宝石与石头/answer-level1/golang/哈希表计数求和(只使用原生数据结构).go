@@ -1,8 +1,8 @@
-执行耗时 0ms
-使用内存2.2M
+// 执行耗时 0ms
+// 使用内存2.2M
 
 
-```
+// ```
 func numJewelsInStones(J string, S string) int {
     jMap := map[string]int{}
     jRune := []rune(J)
@@ -23,4 +23,4 @@ func numJewelsInStones(J string, S string) int {
     }
     return sum
 }
-```
+// ```

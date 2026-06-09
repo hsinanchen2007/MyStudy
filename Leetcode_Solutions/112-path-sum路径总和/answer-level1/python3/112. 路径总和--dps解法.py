@@ -1,9 +1,9 @@
-### 解题思路
-dps遍历，计算每一个节点到根节点的路径和，当到达叶子节点的时候，判断是否等于目标和
+# ### 解题思路
+# dps遍历，计算每一个节点到根节点的路径和，当到达叶子节点的时候，判断是否等于目标和
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
 
         if not root: return False
         return bool(dps(root, 0))
-```
+# ```

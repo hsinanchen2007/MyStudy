@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxSlidingWindow(self, nums, k):
         if len(nums)==0:
@@ -24,4 +24,4 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
-```
+# ```

@@ -1,9 +1,9 @@
-### 几个注意点
-1. 假头可以简化删除head的情况
-2. 双指针可以避免.Next.Next的写法
+# ### 几个注意点
+# 1. 假头可以简化删除head的情况
+# 2. 双指针可以避免.Next.Next的写法
 
-### 代码
-```go []
+# ### 代码
+# ```go []
 func deleteNode(head *ListNode, val int) *ListNode {
     dummy := &ListNode{Val: 0, Next: head} // 假头
     first := dummy // 双指针1
@@ -20,8 +20,8 @@ func deleteNode(head *ListNode, val int) *ListNode {
     return dummy.Next
 }
 
-```
-```python []
+# ```
+# ```python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
             second = second.next
         return dummy.next
 
-```
+# ```

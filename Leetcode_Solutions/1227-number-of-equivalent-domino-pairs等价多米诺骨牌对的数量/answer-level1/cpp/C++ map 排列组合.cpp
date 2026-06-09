@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int numEquivDominoPairs(vector<vector<int>>& dominoes) {
@@ -17,4 +17,4 @@ public:
         return num;
     }
 };
-```
+// ```

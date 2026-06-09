@@ -1,10 +1,10 @@
-### 解题思路
-本题的关键在于如何基于ways[0], ways[1], ..., ways[k-1]的基础上推导出ways[k]，具体如代码中的解释；
-另外，[@windliang](/u/windliang/)的题解[解法三](https://leetcode-cn.com/problems/palindrome-partitioning-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-3-8/)中所列出的中心扩展法。
+# ### 解题思路
+# 本题的关键在于如何基于ways[0], ways[1], ..., ways[k-1]的基础上推导出ways[k]，具体如代码中的解释；
+# 另外，[@windliang](/u/windliang/)的题解[解法三](https://leetcode-cn.com/problems/palindrome-partitioning-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-3-8/)中所列出的中心扩展法。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     """
     1. 计算dp表：dp[i][j]：表示字符串s[i,j+1]是否为回文串；
@@ -40,4 +40,4 @@ class Solution:
                     else:
                         ways[i] = ways[j-1]+1
         return ways[row-1]
-```
+# ```

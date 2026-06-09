@@ -1,9 +1,9 @@
-### 解题思路
-先排序，然后设置left,right指针分别初始化为第一和第二个元素，依次做差，保存最小值即可
+// ### 解题思路
+// 先排序，然后设置left,right指针分别初始化为第一和第二个元素，依次做差，保存最小值即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var minimumAbsDifference = function(arr) {
     arr.sort((a, b) => a - b);
     let left = 0, right = 1, res = [], c = Number.MAX_SAFE_INTEGER;
@@ -23,4 +23,4 @@ var minimumAbsDifference = function(arr) {
     }
     return res;
 };
-```
+// ```

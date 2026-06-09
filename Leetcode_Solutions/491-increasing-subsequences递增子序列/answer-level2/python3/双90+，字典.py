@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findSubsequences(self, nums: List[int]) -> List[List[int]]:
         if len(nums) < 2:
@@ -13,4 +13,4 @@ class Solution:
                 outs[_] += 1
             outs[tuple([i])] += 1
         return [i for i in outs if len(i) > 1]
-```
+# ```

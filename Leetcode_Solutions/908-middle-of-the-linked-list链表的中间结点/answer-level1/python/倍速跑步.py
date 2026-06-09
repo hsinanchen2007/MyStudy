@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-#两个人跑步，一个1倍速（ans），一个二倍速（ans2），二倍速到达终点时，一倍速在中点
+# #两个人跑步，一个1倍速（ans），一个二倍速（ans2），二倍速到达终点时，一倍速在中点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -19,4 +19,4 @@ class Solution:
             ans2=ans2.next.next        
         return ans
 
-```
+# ```

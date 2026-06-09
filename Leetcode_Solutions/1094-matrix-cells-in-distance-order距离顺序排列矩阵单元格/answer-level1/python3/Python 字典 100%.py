@@ -1,10 +1,10 @@
-执行时间：188 ms    84%
-内存消耗：16.8 MB  100%
+# 执行时间：188 ms    84%
+# 内存消耗：16.8 MB  100%
 
-基本思路：将距离作为键，将坐标保存在对应的值里面。后将字典中的键排序后输出坐标即可。
+# 基本思路：将距离作为键，将坐标保存在对应的值里面。后将字典中的键排序后输出坐标即可。
 
 
-```Python
+# ```Python
 class Solution:
     def allCellsDistOrder(self, R, C, r0, c0):
         dic = {}
@@ -25,4 +25,4 @@ class Solution:
 
         return result_list
 
-```
+# ```

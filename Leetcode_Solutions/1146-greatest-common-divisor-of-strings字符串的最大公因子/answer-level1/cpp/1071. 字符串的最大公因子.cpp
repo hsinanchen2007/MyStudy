@@ -1,11 +1,11 @@
-### 解题思路
-1. 构造出临时字符串
-2. 判断str1和str2能否整除临时字符串
+// ### 解题思路
+// 1. 构造出临时字符串
+// 2. 判断str1和str2能否整除临时字符串
 
-详情看代码
-### 代码
+// 详情看代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isOk(string str1, string str2)   //判断str1是否能除尽str2
@@ -50,4 +50,4 @@ public:
         return str3;
     }
 };
-```
+// ```

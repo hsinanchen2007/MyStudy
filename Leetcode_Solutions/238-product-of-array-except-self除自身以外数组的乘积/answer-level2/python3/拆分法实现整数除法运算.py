@@ -1,9 +1,9 @@
-计算所有元素乘积，使用拆分法实现整数除法运算
+# 计算所有元素乘积，使用拆分法实现整数除法运算
 
-注意数组包含0的特殊情况
-- 若有1个0，则0所在位置为其余数乘积
-- 若有2个及以上的0，则数组所有乘积皆为0
-```python3
+# 注意数组包含0的特殊情况
+# - 若有1个0，则0所在位置为其余数乘积
+# - 若有2个及以上的0，则数组所有乘积皆为0
+# ```python3
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         n = len(nums)
@@ -45,4 +45,4 @@ class Solution:
                 a -= b * fac
             fac >>= 1
         return coef_a * coef_b * res
-```
+# ```

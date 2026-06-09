@@ -1,9 +1,9 @@
-### 解题思路
-直线方程两点式与标准式、线性方程组中克拉默法则应用、C++函数重载
+// ### 解题思路
+// 直线方程两点式与标准式、线性方程组中克拉默法则应用、C++函数重载
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     bool NumBetween (int a, int m, int n) {
@@ -63,4 +63,4 @@ public:
         return ans;
     }
 };
-```
+// ```

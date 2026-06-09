@@ -1,20 +1,20 @@
-### 解题思路
+# ### 解题思路
 
 
-套模版
+# 套模版
 
-void traverse(TreeNode root) {
-    '''前序遍历'''
-    traverse(root.left)
-    '''中序遍历'''
-    traverse(root.right)
-    '''后序遍历'''
-}
+# void traverse(TreeNode root) {
+#     '''前序遍历'''
+#     traverse(root.left)
+#     '''中序遍历'''
+#     traverse(root.right)
+#     '''后序遍历'''
+# }
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution(object):
         root.left = right 
         root.right =  left
         return root
-```
+# ```

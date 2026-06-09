@@ -1,14 +1,14 @@
-### 解题思路
-1.为了减少赋值和循环次数，先计算出发的轮数
-2.考虑三种情况
-(1)刚好发满整轮结束
-(2)最后一轮刚好发满一个人结束
-(3)最后一轮未发满最后一人结束
+// ### 解题思路
+// 1.为了减少赋值和循环次数，先计算出发的轮数
+// 2.考虑三种情况
+// (1)刚好发满整轮结束
+// (2)最后一轮刚好发满一个人结束
+// (3)最后一轮未发满最后一人结束
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -38,4 +38,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
     *returnSize = num_people;
     return ans;
 }
-```
+// ```

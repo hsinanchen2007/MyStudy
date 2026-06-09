@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int max_depth = 0;
@@ -22,4 +22,4 @@ public:
         return depth_left>depth_right ? depth_left+1 : depth_right+1;
     }
 };
-```
+// ```

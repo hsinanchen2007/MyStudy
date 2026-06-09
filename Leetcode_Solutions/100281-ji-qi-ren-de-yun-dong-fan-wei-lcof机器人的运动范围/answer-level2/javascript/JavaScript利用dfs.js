@@ -1,9 +1,9 @@
-### 解题思路
-从[0,0]作为起点开始走，只需要向右走和向下走
+// ### 解题思路
+// 从[0,0]作为起点开始走，只需要向右走和向下走
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} m
  * @param {number} n
@@ -29,4 +29,4 @@ var dfs = function(x, y, m, n, k){
     dfs(x, y + 1, m, n, k);
     dfs(x + 1, y, m, n, k);
 }
-```
+// ```

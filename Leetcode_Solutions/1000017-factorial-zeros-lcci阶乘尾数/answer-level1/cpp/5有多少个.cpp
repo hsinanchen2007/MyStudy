@@ -1,8 +1,8 @@
-看有多少个5*2，2肯定比5多
+// 看有多少个5*2，2肯定比5多
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int trailingZeroes(int n) {
@@ -17,4 +17,4 @@ public:
     	return count;
     }
 };
-```
+// ```

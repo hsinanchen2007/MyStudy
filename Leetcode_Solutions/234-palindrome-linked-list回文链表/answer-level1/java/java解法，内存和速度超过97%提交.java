@@ -1,5 +1,5 @@
-1. 以下是我的题解，关键是找中点的时候同时翻转前半部分链表
-```
+// 1. 以下是我的题解，关键是找中点的时候同时翻转前半部分链表
+// ```
 /*
      * 快慢指针找中点同时翻转前半部分链表
      * 遍历比较前后半链表是否相等
@@ -44,9 +44,9 @@
         }
 
     }
-```
-2.以下是我从leetcode提交里面找到的打败100%的解法，看不懂。。。
-```
+// ```
+// 2.以下是我从leetcode提交里面找到的打败100%的解法，看不懂。。。
+// ```
 public boolean isPalindrome(ListNode head) {
         if (head == null || head.next == null) {
             return true;
@@ -74,4 +74,4 @@ public boolean isPalindrome(ListNode head) {
         }
         return false;
     }
-```
+// ```

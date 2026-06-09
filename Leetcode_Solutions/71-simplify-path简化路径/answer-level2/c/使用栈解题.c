@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct SNode* PtrToSNode;
 struct SNode{
     char* data;
@@ -83,4 +83,4 @@ char* simplifyPath(char * path){
     char* ans1 = ans;
     return ans1;
 }
-```
+// ```

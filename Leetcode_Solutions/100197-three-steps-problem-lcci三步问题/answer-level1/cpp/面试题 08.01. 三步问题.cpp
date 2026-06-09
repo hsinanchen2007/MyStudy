@@ -1,9 +1,9 @@
-### 解题思路
-思路同两部问题，注意溢出。
+// ### 解题思路
+// 思路同两部问题，注意溢出。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int waysToStep(int n) {
@@ -20,4 +20,4 @@ public:
         return temp;
     }
 };
-```
+// ```

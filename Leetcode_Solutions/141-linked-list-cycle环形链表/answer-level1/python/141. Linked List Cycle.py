@@ -1,9 +1,9 @@
-### 解题思路
-利用dictionary, 每次将完整的节点放入。
+# ### 解题思路
+# 利用dictionary, 每次将完整的节点放入。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution(object):
             _dict[cur] = 1
             cur = cur.next
         return False
-```
+# ```

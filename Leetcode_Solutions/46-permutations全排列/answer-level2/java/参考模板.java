@@ -1,6 +1,6 @@
-### 解题思路
-通用方法就是回溯算法。旧文「回溯算法详解」写过回溯算法的模板：
-```
+// ### 解题思路
+// 通用方法就是回溯算法。旧文「回溯算法详解」写过回溯算法的模板：
+// ```
 result = []
 def backtrack(路径, 选择列表):
     if 满足结束条件:
@@ -10,11 +10,11 @@ def backtrack(路径, 选择列表):
         做选择
         backtrack(路径, 选择列表)
         撤销选择
-```
+// ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> res;
     public List<List<Integer>> permute(int[] nums) {
@@ -41,4 +41,4 @@ class Solution {
         }
     }
 }
-```
+// ```

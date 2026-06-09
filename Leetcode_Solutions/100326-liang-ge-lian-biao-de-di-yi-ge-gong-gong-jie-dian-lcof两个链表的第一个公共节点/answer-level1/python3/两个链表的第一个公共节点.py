@@ -1,9 +1,9 @@
-### 解题思路
-我们先把全部结点分别压入两个栈，利用栈的特性后进先出特性，同时pop出栈，一开始两边的元素肯定是相同的，当遇到不同的元素时，肯定已经遇到了最后一个节点，那就结束找到commonNode
+# ### 解题思路
+# 我们先把全部结点分别压入两个栈，利用栈的特性后进先出特性，同时pop出栈，一开始两边的元素肯定是相同的，当遇到不同的元素时，肯定已经遇到了最后一个节点，那就结束找到commonNode
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
         return commonNode
         
         
-```
+# ```

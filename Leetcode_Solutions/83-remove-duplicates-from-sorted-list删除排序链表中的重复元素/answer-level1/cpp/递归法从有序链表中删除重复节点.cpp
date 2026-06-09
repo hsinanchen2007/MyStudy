@@ -1,9 +1,9 @@
-### 解题思路
-递归法：让当前节点指向剩下的所有节点
+// ### 解题思路
+// 递归法：让当前节点指向剩下的所有节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -22,4 +22,4 @@ public:
         return (head->val==head->next->val)?head->next:head;
     }
 };
-```
+// ```

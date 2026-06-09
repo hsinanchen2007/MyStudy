@@ -1,9 +1,9 @@
-判断条件：
+# 判断条件：
 
-1.并查集中只有一个root：说明图连通。
-2.边的个数为节点个数-1，否则存在环。
+# 1.并查集中只有一个root：说明图连通。
+# 2.边的个数为节点个数-1，否则存在环。
 
-```python
+# ```python
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
         if len(edges) != n - 1:
@@ -44,4 +44,4 @@ class Solution:
                 count += 1
 
         return count == 1
-```
+# ```

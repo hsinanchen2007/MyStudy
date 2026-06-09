@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] createTargetArray(int[] nums, int[] index) {
 if (nums.length < 1 || index.length < 1 || nums.length != index.length) {
@@ -21,4 +21,4 @@ if (nums.length < 1 || index.length < 1 || nums.length != index.length) {
 		return target;
     }
 }
-```
+// ```

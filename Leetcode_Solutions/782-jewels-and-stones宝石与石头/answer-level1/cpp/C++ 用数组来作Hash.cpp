@@ -1,9 +1,9 @@
-### 解题思路
-注意：大小写字母的ASCII码不是连续的！
+// ### 解题思路
+// 注意：大小写字母的ASCII码不是连续的！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -24,4 +24,4 @@ public:
         return count;
     }
 };
-```
+// ```

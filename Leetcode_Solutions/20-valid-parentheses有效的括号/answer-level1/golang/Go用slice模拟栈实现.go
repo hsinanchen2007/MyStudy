@@ -1,7 +1,7 @@
-执行用时 :0 ms, 在所有 Go 提交中击败了100.00%的用户
-内存消耗 :2.1 MB, 在所有 Go 提交中击败了48.88%的用户
+// 执行用时 :0 ms, 在所有 Go 提交中击败了100.00%的用户
+// 内存消耗 :2.1 MB, 在所有 Go 提交中击败了48.88%的用户
 
-```
+// ```
 func isValid(s string) bool {
 	stack := make([]byte, 0)
 	symbolMap := map[byte]byte{'}' : '{', ']' : '[', ')' : '('}
@@ -21,4 +21,4 @@ func isValid(s string) bool {
 	}
 	return len(stack) == 0
 }
-```
+// ```

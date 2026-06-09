@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-判断是否能够构建所需结构的数组
-```java
+// ### 代码
+// 判断是否能够构建所需结构的数组
+// ```java
 class Solution {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
         if(r == 0||c == 0)
@@ -37,4 +37,4 @@ class Solution {
 		
     }
 }
-```
+// ```

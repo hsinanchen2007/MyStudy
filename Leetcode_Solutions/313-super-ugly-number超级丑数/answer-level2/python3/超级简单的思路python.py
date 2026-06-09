@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
      def nthSuperUglyNumber(self,n,primes):
          dp = [1] # 超级丑数列表
@@ -16,4 +16,4 @@ class Solution(object):
              n -= 1
              dp.append(min_)
          return dp[-1]
-```
+# ```

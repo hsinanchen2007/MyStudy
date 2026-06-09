@@ -1,4 +1,4 @@
-```
+# ```
 class ValidWordAbbr:
     def ab(self,w):
         if len(w)<3:
@@ -13,4 +13,4 @@ class ValidWordAbbr:
     def isUnique(self, word: str) -> bool:
         entry=self.ab_dict[self.ab(word)]
         return len(entry)==0 or (len(entry)==1 and word in entry)
-```
+# ```

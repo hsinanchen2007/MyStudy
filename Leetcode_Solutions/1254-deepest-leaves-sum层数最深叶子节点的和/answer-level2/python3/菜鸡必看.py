@@ -1,9 +1,9 @@
-### 解题思路
-主要就是在哈希表中放一个list
+# ### 解题思路
+# 主要就是在哈希表中放一个list
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
             if i >max :
                 max=i
         return sum(dt[max])
-```
+# ```

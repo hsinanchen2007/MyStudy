@@ -1,6 +1,6 @@
-很简单的思路：首先计算所有方块的面积和，然后减去堆叠后的重叠部分，通过横、纵两个方向来减。
+// 很简单的思路：首先计算所有方块的面积和，然后减去堆叠后的重叠部分，通过横、纵两个方向来减。
 
-```
+// ```
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid) 
@@ -22,4 +22,4 @@ public:
         return sum;
     }
 };
-```
+// ```

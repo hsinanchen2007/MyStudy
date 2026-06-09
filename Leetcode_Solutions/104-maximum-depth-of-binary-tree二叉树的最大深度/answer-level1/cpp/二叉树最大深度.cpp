@@ -1,5 +1,5 @@
-递归求解~
-```
+// 递归求解~
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -16,4 +16,4 @@ public:
         return max(maxDepth(root->left),maxDepth(root->right))+1;
     }
 };
-```
+// ```

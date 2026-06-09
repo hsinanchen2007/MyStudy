@@ -1,6 +1,6 @@
-正向推，思路直白，时间空间复杂度也更低。
+# 正向推，思路直白，时间空间复杂度也更低。
 
-```python
+# ```python
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         step = 0 # 当前位置
@@ -13,4 +13,4 @@ class Solution:
             else: # 否则继续探索
                 step += 1
         return False
-```
+# ```

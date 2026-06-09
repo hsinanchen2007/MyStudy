@@ -1,9 +1,9 @@
-### 解题思路
-使用栈，非递归中序遍历
+# ### 解题思路
+# 使用栈，非递归中序遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         res = []
@@ -19,4 +19,4 @@ class Solution:
             res.append(cur.val)
             cur = cur.right
         return res
-```
+# ```

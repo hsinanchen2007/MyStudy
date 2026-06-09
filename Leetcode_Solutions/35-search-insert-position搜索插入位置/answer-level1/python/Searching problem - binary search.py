@@ -1,17 +1,17 @@
-### 解题思路
-此处撰写解题思路
-如题，本题是searching问题，所以想到用binary search算法来降低时间复杂度。
+# ### 解题思路
+# 此处撰写解题思路
+# 如题，本题是searching问题，所以想到用binary search算法来降低时间复杂度。
 
-dig a little deeper: 
-与binary search不同的有两点，一是返回值是index，二是必须返回一个有效index。
+# dig a little deeper: 
+# 与binary search不同的有两点，一是返回值是index，二是必须返回一个有效index。
 
-根据examples, 可以推导出当middle不满足条件时，firstIndex可以直接满足条件。
+# 根据examples, 可以推导出当middle不满足条件时，firstIndex可以直接满足条件。
 
-题解完成。
+# 题解完成。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def searchInsert(self, nums, target):
         """
@@ -33,4 +33,4 @@ class Solution(object):
                     first = middle + 1
         
         return first
-```
+# ```

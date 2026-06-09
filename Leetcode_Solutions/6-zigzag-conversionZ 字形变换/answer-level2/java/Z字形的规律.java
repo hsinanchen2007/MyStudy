@@ -1,14 +1,14 @@
-执行用时 : 13 ms, 在ZigZag Conversion的Java提交中击败了89.85% 的用户
+// 执行用时 : 13 ms, 在ZigZag Conversion的Java提交中击败了89.85% 的用户
 
-内存消耗 : 40.4 MB, 在ZigZag Conversion的Java提交中击败了84.30% 的用户
+// 内存消耗 : 40.4 MB, 在ZigZag Conversion的Java提交中击败了84.30% 的用户
 
-第一行和最后一行的规律为 a0=当前行，an = an-1+ 2*numRows-2
+// 第一行和最后一行的规律为 a0=当前行，an = an-1+ 2*numRows-2
 
-其他行为 a0=当前行， 偶数列 an = an-1+(numRows-当前行)*2 ，奇数列an = an-1+当前行*2
+// 其他行为 a0=当前行， 偶数列 an = an-1+(numRows-当前行)*2 ，奇数列an = an-1+当前行*2
 
-所以根据以下规律
+// 所以根据以下规律
 
-```java []
+// ```java []
 int length = s.length();
     	if(numRows == 1) {
     		return s;
@@ -38,4 +38,4 @@ int length = s.length();
         	
         }
         return result.toString();
-```
+// ```

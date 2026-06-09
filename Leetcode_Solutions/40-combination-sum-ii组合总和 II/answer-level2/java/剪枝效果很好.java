@@ -1,8 +1,8 @@
-### 解题思路
-看来剪枝效果很好
-### 代码
+// ### 解题思路
+// 看来剪枝效果很好
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private List<List<Integer>>res;
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
@@ -32,4 +32,4 @@ class Solution {
         }
     }
 }
-```
+// ```

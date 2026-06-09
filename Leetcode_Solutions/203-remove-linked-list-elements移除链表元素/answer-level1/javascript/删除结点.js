@@ -1,11 +1,11 @@
-### 解题思路
-在链表前插入一个空节点
-![image.png](https://pic.leetcode-cn.com/0ce2244db6636cf4e7ac79ff2880881a8fa4f23965fd7d708b408cb7e31491fd-image.png)
+// ### 解题思路
+// 在链表前插入一个空节点
+// ![image.png](https://pic.leetcode-cn.com/0ce2244db6636cf4e7ac79ff2880881a8fa4f23965fd7d708b408cb7e31491fd-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {

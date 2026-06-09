@@ -1,14 +1,14 @@
-### 解题思路
-物种使用list存储
-猫和狗的编号使用队列存储
-当不区分物种领养时，先判断kindList是否为空，不为空时
-根据kindList拿到最早入园的动物种类并在相应的队列中出队拿到编号
-当区分物种领养时，先判断对应的队列是否为空，不为空时，
-将对应队列出队并删除kindList中最早出现的记录
+// ### 解题思路
+// 物种使用list存储
+// 猫和狗的编号使用队列存储
+// 当不区分物种领养时，先判断kindList是否为空，不为空时
+// 根据kindList拿到最早入园的动物种类并在相应的队列中出队拿到编号
+// 当区分物种领养时，先判断对应的队列是否为空，不为空时，
+// 将对应队列出队并删除kindList中最早出现的记录
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class AnimalShelf {
 
     List<Integer> kindList;
@@ -86,4 +86,4 @@ class AnimalShelf {
  * int[] param_3 = obj.dequeueDog();
  * int[] param_4 = obj.dequeueCat();
  */
-```
+// ```

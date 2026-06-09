@@ -1,11 +1,11 @@
-思路：模拟报数过程
+// 思路：模拟报数过程
 
-1. 对 res 字符串的每位字符进行报数，每轮计数结果为 count 个 c
-2. 将本轮计数结果 count，c 存入字符串 tmp
-3. 报数完毕后，更新 res，使等于 tmp
-4. 重复 1~3 直到满足要求的轮次
+// 1. 对 res 字符串的每位字符进行报数，每轮计数结果为 count 个 c
+// 2. 将本轮计数结果 count，c 存入字符串 tmp
+// 3. 报数完毕后，更新 res，使等于 tmp
+// 4. 重复 1~3 直到满足要求的轮次
 
-```C
+// ```C
 char * countAndSay(int n){
     char *res = (char*)malloc(sizeof(char) * 5000);
     char *tmp = (char*)malloc(sizeof(char) * 5000);
@@ -27,4 +27,4 @@ char * countAndSay(int n){
     }
     return res;
 }
-```
+// ```

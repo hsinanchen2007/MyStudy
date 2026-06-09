@@ -1,6 +1,6 @@
-用栈真的有点烧脑 还是递归舒服啊......
+// 用栈真的有点烧脑 还是递归舒服啊......
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string parseTernary(string expression) {
@@ -14,12 +14,12 @@ public:
 	return "";
     }
 };
-```
-不过暂时没想到优化拷贝开销
+// ```
+// 不过暂时没想到优化拷贝开销
 
-下面是栈的 比较简单的写法
+// 下面是栈的 比较简单的写法
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string parseTernary(string expression) {
@@ -35,4 +35,4 @@ public:
 	return { expression[0] };
     }
 };
-```
+// ```

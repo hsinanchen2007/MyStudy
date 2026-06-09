@@ -1,6 +1,6 @@
-- System.arraycopy
+// - System.arraycopy
 
-```java
+// ```java
 class Solution {
     public String reverseLeftWords(String s, int n) {
         char [] res = new char[s.length()];
@@ -10,13 +10,13 @@ class Solution {
         return String.copyValueOf(res);
     }
 }
-```
-- subString
+// ```
+// - subString
 
-```java
+// ```java
 class Solution {
     public String reverseLeftWords(String s, int n) {
         return new String(s.substring(n) + s.substring(0,n));
     }
 }
-```
+// ```

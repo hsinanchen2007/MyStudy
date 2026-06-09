@@ -1,6 +1,6 @@
-思路：用栈从右向左匹配，遇到?就计算一次结果，并重新推到栈中。相当于不断消除嵌套表达式的过程。
+// 思路：用栈从右向左匹配，遇到?就计算一次结果，并重新推到栈中。相当于不断消除嵌套表达式的过程。
 
-```
+// ```
 class Solution {
 public:
     string parseTernary(string expression) {
@@ -36,4 +36,4 @@ public:
         return answer;
     }
 };
-```
+// ```

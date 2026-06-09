@@ -1,4 +1,4 @@
-```
+// ```
 func maxStudents(seats [][]byte) int {
 	var (
 		// 某一行中处于 state i 时，可以坐 stateCount[i] 个学生
@@ -57,6 +57,6 @@ func max(a, b int) int {
 	}
 	return b
 }
-```
+// ```
 
-重构的： https://leetcode.com/contest/weekly-contest-175/ranking，第一名的写法。
+// 重构的： https://leetcode.com/contest/weekly-contest-175/ranking，第一名的写法。

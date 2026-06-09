@@ -1,7 +1,7 @@
 
 
 
-```
+# ```
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         res=[]  #存最终答案的list
@@ -18,4 +18,4 @@ class Solution:
             comb(lres,i+1, k)      #不选某数，k不变
         comb(lres,i,k)
         return res
-```
+# ```

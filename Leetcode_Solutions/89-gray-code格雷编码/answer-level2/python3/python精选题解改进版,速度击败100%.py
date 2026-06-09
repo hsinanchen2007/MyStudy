@@ -1,9 +1,9 @@
-### 解题思路 在循环中动态改变列表的大小真的安全吗？
-此处撰写解题思路
+# ### 解题思路 在循环中动态改变列表的大小真的安全吗？
+# 此处撰写解题思路
 
-### [代码](https://leetcode-cn.com/problems/gray-code/solution/gray-code-jing-xiang-fan-she-fa-by-jyd/)
+# ### [代码](https://leetcode-cn.com/problems/gray-code/solution/gray-code-jing-xiang-fan-she-fa-by-jyd/)
 
-```python
+# ```python
 class Solution:
     def grayCode(self, n: int) -> List[int]:
         res, head = [0], 1
@@ -13,4 +13,4 @@ class Solution:
             head <<= 1
         return res
 
-```
+# ```

@@ -1,5 +1,5 @@
-根据题意，相邻的相同的元素之间的间隔，最多只能为1，所以直接检查与n-1、n-2是否相同即可
-```
+// 根据题意，相邻的相同的元素之间的间隔，最多只能为1，所以直接检查与n-1、n-2是否相同即可
+// ```
 class Solution {
 public:
     int repeatedNTimes(vector<int>& A) {
@@ -20,4 +20,4 @@ public:
         return nLast;
     }
 };
-```
+// ```

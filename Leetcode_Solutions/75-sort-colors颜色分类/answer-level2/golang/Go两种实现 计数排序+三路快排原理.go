@@ -1,5 +1,5 @@
-计数排序，分别统计0,1,2的元素个数，再把他们放回到原有的数组即可
-```
+// 计数排序，分别统计0,1,2的元素个数，再把他们放回到原有的数组即可
+// ```
 func sortColors(nums []int)  {
     arr := [3]int{}
     for i:=0;i<len(nums);i++{
@@ -19,10 +19,10 @@ func sortColors(nums []int)  {
         index++
     }
 }
-```
+// ```
 
-荷兰国旗-三路快排原理
-```
+// 荷兰国旗-三路快排原理
+// ```
 func sortColors(nums []int)  {
   
     zero := -1
@@ -43,5 +43,5 @@ func sortColors(nums []int)  {
         }
     }
 }
-```
+// ```
 

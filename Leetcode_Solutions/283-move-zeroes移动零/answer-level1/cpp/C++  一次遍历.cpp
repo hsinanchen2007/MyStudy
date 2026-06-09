@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -16,5 +16,5 @@ public:
         return;
     }
 };
-```
-遍历数组，若出现0，则往后搜索到第一个非0数，两者交换即可
+// ```
+// 遍历数组，若出现0，则往后搜索到第一个非0数，两者交换即可

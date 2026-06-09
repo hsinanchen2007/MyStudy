@@ -1,7 +1,7 @@
-解题思路
-hhh，第一次打败了100%
+# 解题思路
+# hhh，第一次打败了100%
 
-代码
+# 代码
 
 python3
 class Solution:

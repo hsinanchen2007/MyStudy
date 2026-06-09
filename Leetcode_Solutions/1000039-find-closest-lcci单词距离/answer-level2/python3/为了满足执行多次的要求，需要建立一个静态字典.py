@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/a9fe8c63e7cb2009bccb97ab903872137c49e4872a61b4f6e7d043c9bee7ec19-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a9fe8c63e7cb2009bccb97ab903872137c49e4872a61b4f6e7d043c9bee7ec19-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     def __init__(self):
@@ -36,4 +36,4 @@ class Solution:
                     if abs(i - j) < min_dist:
                         min_dist = abs(i - j)
             return min_dist
-```
+# ```

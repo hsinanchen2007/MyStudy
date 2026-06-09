@@ -1,9 +1,9 @@
-### 解题思路
-桶排，模拟
+// ### 解题思路
+// 桶排，模拟
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int n,m,x,y;
@@ -54,4 +54,4 @@ public:
 		return mat;
 	}
 };
-```
+// ```

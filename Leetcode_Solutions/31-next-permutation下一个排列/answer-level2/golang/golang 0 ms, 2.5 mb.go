@@ -1,4 +1,4 @@
-```
+// ```
 import "sort"
 
 func nextPermutation(nums []int)  {
@@ -36,4 +36,4 @@ func findSwapPoints(nums []int) (onePos int, twoPos int, find bool) {
         return onePos, twoPos, false
     }
 }
-```
+// ```

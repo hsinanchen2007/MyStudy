@@ -1,4 +1,4 @@
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -17,4 +17,4 @@ class Solution:
         if root is None:
             return True
         return self.is_mirror(root.left, root.right)
-```
+# ```

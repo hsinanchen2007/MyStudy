@@ -1,7 +1,7 @@
-执行用时 : 8 ms, 在Restore IP Addresses的C++提交中击败了89.58% 的用户
+// 执行用时 : 8 ms, 在Restore IP Addresses的C++提交中击败了89.58% 的用户
 
-内存消耗 : 9.1 MB, 在Restore IP Addresses的C++提交中击败了13.90% 的用户
-```
+// 内存消耗 : 9.1 MB, 在Restore IP Addresses的C++提交中击败了13.90% 的用户
+// ```
 class Solution {
 private:
     bool isValidIP(const string & s)
@@ -106,4 +106,4 @@ public:
         return ret;
     }
 };
-```
+// ```

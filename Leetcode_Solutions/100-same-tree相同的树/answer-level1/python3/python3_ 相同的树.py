@@ -1,4 +1,4 @@
-```python
+# ```python
 # 递归方法
 def isSameTree(p: TreeNode, q: TreeNode) -> bool:
     # 如果存在为空节点情况下, 则直接优先判断.
@@ -24,4 +24,4 @@ def isSameTree1(p: TreeNode, q: TreeNode) -> bool:
             deq.append([p.left, q.left])
             deq.append([p.right, q.right])
     return True
-```
+# ```

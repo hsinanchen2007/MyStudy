@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
         public boolean isValid(String s) {
        Stack<Character> stack = new Stack<Character>();
@@ -22,5 +22,5 @@ class Solution {
     }
 }
 
-```
-摘自国际区，很巧妙，字符串里的左括号在栈里压入右括号
+// ```
+// 摘自国际区，很巧妙，字符串里的左括号在栈里压入右括号

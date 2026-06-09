@@ -1,5 +1,5 @@
-方法一 暴力匹配 2ms 只击败了不到39%
-```
+// 方法一 暴力匹配 2ms 只击败了不到39%
+// ```
 class Solution {
     StringBuilder sb = new StringBuilder();
     public String longestCommonPrefix(String[] strs) {
@@ -38,9 +38,9 @@ class Solution {
         return sb.toString();
     }
 }
-```
-方法二 分治思想，每次分成两部分求解公共前缀，1ms，击败了80.46%
-```
+// ```
+// 方法二 分治思想，每次分成两部分求解公共前缀，1ms，击败了80.46%
+// ```
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if(strs == null || strs.length == 0) return "";
@@ -71,4 +71,4 @@ class Solution {
         return str1.substring(0, i);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-注意：put数据的时候，应该先put，再判断数字是否超出了；不然就不对了
+# ### 解题思路
+# 注意：put数据的时候，应该先put，再判断数字是否超出了；不然就不对了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import OrderedDict
 
 
@@ -37,4 +37,4 @@ class LRUCache:
             self.lrucache[key] = value
             if len(self.lrucache) > self.capacity:
                 self.lrucache.popitem(last=False)
-```
+# ```

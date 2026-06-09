@@ -1,9 +1,9 @@
-### 解题思路
-设置numrows个char  存放每一行的字母
+// ### 解题思路
+// 设置numrows个char  存放每一行的字母
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * convert(char * s, int numRows){
     int len=strlen(s);
     if(numRows==1||len==1)
@@ -36,4 +36,4 @@ char * convert(char * s, int numRows){
     }
     return s;
 }
-```
+// ```

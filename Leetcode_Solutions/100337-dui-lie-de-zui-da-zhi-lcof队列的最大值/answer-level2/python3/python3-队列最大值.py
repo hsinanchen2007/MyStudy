@@ -1,11 +1,11 @@
-### 解题思路
-将滑动窗口看成队列。
+# ### 解题思路
+# 将滑动窗口看成队列。
 
-核心思想是实现一个双端队列，最终时间复杂度是O（1）
+# 核心思想是实现一个双端队列，最终时间复杂度是O（1）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import queue
 class MaxQueue:
 
@@ -41,4 +41,4 @@ class MaxQueue:
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

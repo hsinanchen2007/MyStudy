@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 /**
  * Initialize your data structure here.
  */
@@ -49,4 +49,4 @@ MyHashSet.prototype.contains = function(key) {
  * var param_3 = obj.contains(key)
  */
 
-```
+// ```

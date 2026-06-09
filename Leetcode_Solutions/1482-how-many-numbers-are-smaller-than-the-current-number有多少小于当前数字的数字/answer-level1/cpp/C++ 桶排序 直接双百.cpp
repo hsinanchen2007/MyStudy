@@ -1,9 +1,9 @@
-### 解题思路
-**桶排序，再累加作hash**
+// ### 解题思路
+// **桶排序，再累加作hash**
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         return result;
     }
 };
-```
+// ```

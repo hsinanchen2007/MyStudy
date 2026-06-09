@@ -1,12 +1,12 @@
-### 解题思路
-可能是搞复杂了：
-1、先排序；
-2、建立一个栈，每次压入一个数，并计数，判断栈内元素是否满足target，满足target则遍历输出，弹出栈顶元素；
-![image.png](https://pic.leetcode-cn.com/4c0c9eddfdcfacc31eb825fdb7d3d9600738a2760edd4258b825ae1d29afa774-image.png)
+// ### 解题思路
+// 可能是搞复杂了：
+// 1、先排序；
+// 2、建立一个栈，每次压入一个数，并计数，判断栈内元素是否满足target，满足target则遍历输出，弹出栈顶元素；
+// ![image.png](https://pic.leetcode-cn.com/4c0c9eddfdcfacc31eb825fdb7d3d9600738a2760edd4258b825ae1d29afa774-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -133,4 +133,4 @@ void dfs(int* candidates, int candidatesSize, int target, int* returnSize, int**
     }
 }
 
-```
+// ```

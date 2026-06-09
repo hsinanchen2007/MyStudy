@@ -1,6 +1,6 @@
-![捕获.PNG](https://pic.leetcode-cn.com/fbe56852401c884ad7396efe4be885c2452af985e1be2e3b0c54b452885b41b1-%E6%8D%95%E8%8E%B7.PNG)
+# ![捕获.PNG](https://pic.leetcode-cn.com/fbe56852401c884ad7396efe4be885c2452af985e1be2e3b0c54b452885b41b1-%E6%8D%95%E8%8E%B7.PNG)
 
-```
+# ```
 class AnimalShelf:
 
     def __init__(self):
@@ -36,4 +36,4 @@ class AnimalShelf:
                 break
             i -= 1
         return ret
-```
+# ```

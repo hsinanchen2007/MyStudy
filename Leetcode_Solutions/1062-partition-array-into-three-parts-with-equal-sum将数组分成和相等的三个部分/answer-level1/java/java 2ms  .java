@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int len = A.length;
@@ -17,4 +17,4 @@ class Solution {
         return count >= 3;
     }
 }
-```
+// ```

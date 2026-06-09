@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码，很容易理解
+# ### 解题思路
+# 直接看代码，很容易理解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         cnt = collections.Counter(s)
@@ -17,4 +17,4 @@ class Solution:
                 ans += (value - tmp)
                 is_add = True
         return ans+1 if is_add else ans
-```
+# ```

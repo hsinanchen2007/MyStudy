@@ -1,8 +1,8 @@
-### 解题思路
-使用双指针按照水位高度逐层计算求和再减去所有在水中的柱子体积
-### 代码
+// ### 解题思路
+// 使用双指针按照水位高度逐层计算求和再减去所有在水中的柱子体积
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize) {
 
 	int lo = 0, hi = heightSize - 1;
@@ -42,4 +42,4 @@ int trap(int* height, int heightSize) {
 	}
 	return retV - pillarV;
 }
-```
+// ```

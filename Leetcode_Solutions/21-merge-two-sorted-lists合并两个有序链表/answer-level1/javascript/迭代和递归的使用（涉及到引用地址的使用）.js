@@ -1,6 +1,6 @@
-### 迭代
+// ### 迭代
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -47,9 +47,9 @@ var mergeTwoLists = function(l1, l2) {
     // 5.返回第一个节点后的链表，因为创建链表时给它的第一个节点赋了0
     return l.next;
 };
-```
-### 递归
-```
+// ```
+// ### 递归
+// ```
 var mergeTwoLists = function (l1, l2) {
     // 作为初始存在空链表的判断条件 和 l1、l2链表指针走到最后的返回条件
     if (l1 == null) return l2;
@@ -65,4 +65,4 @@ var mergeTwoLists = function (l1, l2) {
         return l2;
     }
 };
-```
+// ```

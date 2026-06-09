@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/0306aeb9a286fbdbbeef48cbaaf4e76de79b1e130556b97eec9e5abc38c49ef9-image.png)
-c++,先把节点的值替换为**该节点的值和所有该节点的子节点的值的和**，替换后，再遍历一遍,找出**[(根节点的值-某个节点的值)*某个节点的值]**的最大值
-```
+// ![image.png](https://pic.leetcode-cn.com/0306aeb9a286fbdbbeef48cbaaf4e76de79b1e130556b97eec9e5abc38c49ef9-image.png)
+// c++,先把节点的值替换为**该节点的值和所有该节点的子节点的值的和**，替换后，再遍历一遍,找出**[(根节点的值-某个节点的值)*某个节点的值]**的最大值
+// ```
 
 /**
  * Definition for a binary tree node.
@@ -36,4 +36,4 @@ public:
         return ret%(1000000000+7);
     }
 };
-```
+// ```

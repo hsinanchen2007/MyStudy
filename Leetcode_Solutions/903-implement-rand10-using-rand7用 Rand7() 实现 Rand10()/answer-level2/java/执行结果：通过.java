@@ -1,14 +1,14 @@
-执行用时 :
-11 ms
-, 在所有 Java 提交中击败了
-71.36%
-的用户
-内存消耗 :
-45.6 MB
-, 在所有 Java 提交中击败了
-26.19%
-的用户
-```
+// 执行用时 :
+// 11 ms
+// , 在所有 Java 提交中击败了
+// 71.36%
+// 的用户
+// 内存消耗 :
+// 45.6 MB
+// , 在所有 Java 提交中击败了
+// 26.19%
+// 的用户
+// ```
 /**
  * The rand7() API is already defined in the parent class SolBase.
  * public int rand7();
@@ -25,4 +25,4 @@ class Solution extends SolBase {
         return (result-8)/4+1;
     }
 }
-```
+// ```

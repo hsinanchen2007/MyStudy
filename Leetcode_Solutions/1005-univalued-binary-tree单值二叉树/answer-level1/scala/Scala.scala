@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 /**
  * Definition for a binary tree node.
  * class TreeNode(var _value: Int) {
@@ -26,4 +26,4 @@ object Solution {
     isUnivalTree(root.right) && isUnivalTree(root.left)    
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-将矩阵顺时针旋转90°分解为两个步骤：
-第一步：将矩阵以j=N/2为轴中心对称交换
-第二步：将矩阵以i=j为轴中心对称交换
+// ### 解题思路
+// 将矩阵顺时针旋转90°分解为两个步骤：
+// 第一步：将矩阵以j=N/2为轴中心对称交换
+// 第二步：将矩阵以i=j为轴中心对称交换
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         int N = matrix.length;
@@ -30,4 +30,4 @@ class Solution {
         matrix[i1][j1] = matrix[i1][j1] - matrix[i2][j2];
     }
 }
-```
+// ```

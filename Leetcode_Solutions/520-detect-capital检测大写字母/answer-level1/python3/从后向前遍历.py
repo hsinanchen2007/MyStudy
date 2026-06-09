@@ -1,9 +1,9 @@
-### 解题思路
-从后向前遍历， 确定最后一位是大写还是小写
+# ### 解题思路
+# 从后向前遍历， 确定最后一位是大写还是小写
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
         wordLen = len(word)
@@ -21,4 +21,4 @@ class Solution:
 
         return True
 
-```
+# ```

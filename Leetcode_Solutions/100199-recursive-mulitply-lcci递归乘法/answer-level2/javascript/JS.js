@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-参考了（抄袭）上层的代码，利用了尾递归
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 参考了（抄袭）上层的代码，利用了尾递归
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} A
  * @param {number} B
@@ -20,4 +20,4 @@ var multiply = function(A, B,res = 0,cur = 0) {
     A>>=1;
     return multiply(A,B,res,cur)
 };
-```
+// ```

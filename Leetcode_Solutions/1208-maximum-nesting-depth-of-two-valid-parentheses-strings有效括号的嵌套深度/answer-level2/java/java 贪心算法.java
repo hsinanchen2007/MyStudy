@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         if (seq.length() == 0) {
@@ -21,4 +21,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-一定要写在纸上把过程模拟一遍，画个图就很简单了
-```
+// 一定要写在纸上把过程模拟一遍，画个图就很简单了
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
     }
 };
 
-```
+// ```

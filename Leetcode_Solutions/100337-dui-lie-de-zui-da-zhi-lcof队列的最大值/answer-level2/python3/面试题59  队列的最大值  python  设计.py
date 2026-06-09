@@ -1,23 +1,23 @@
-### 解题思路
+# ### 解题思路
 
-想了好久，只满足了max_value() 和 push_back()两个函数的时间复杂度为O(1),对于pop_front()删除元素来说，怎么能满足O(1)呢? 
+# 想了好久，只满足了max_value() 和 push_back()两个函数的时间复杂度为O(1),对于pop_front()删除元素来说，怎么能满足O(1)呢? 
 
-后来去看了下官方解释，还可以均摊！瞬间傻了....
+# 后来去看了下官方解释，还可以均摊！瞬间傻了....
 
-好了，接下来，说下我的方法，为了将pop()的复杂度降为O(1)，我选择了双向队列deque，弥补了list的时间复杂度为pop(0)的不足，将其作为容纳全部元素的队列。然后再建一个列表存放递增的数。
+# 好了，接下来，说下我的方法，为了将pop()的复杂度降为O(1)，我选择了双向队列deque，弥补了list的时间复杂度为pop(0)的不足，将其作为容纳全部元素的队列。然后再建一个列表存放递增的数。
 
-注：要时刻满足递增列表的最后一个数为最大值！
+# 注：要时刻满足递增列表的最后一个数为最大值！
 
-时间复杂度分别：
-max_value():    O(1)
-push_back():    O(1)
-pop_front():    最好情况下：O(1),最坏情况下O(n)
+# 时间复杂度分别：
+# max_value():    O(1)
+# push_back():    O(1)
+# pop_front():    最好情况下：O(1),最坏情况下O(n)
 
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import deque
 class MaxQueue:
     def __init__(self):
@@ -68,4 +68,4 @@ class MaxQueue:
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

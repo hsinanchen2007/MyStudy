@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] sortArray(int[] nums) {
         if(nums.length==1) return nums;
@@ -32,4 +32,4 @@ class Solution {
         return x+randomUtil.nextInt(y-x); //取出[x,y)中的随机数，注意是左开右闭
     }
 }
-```
+// ```

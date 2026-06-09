@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         #每一个网格的表面积的和-相重合的面积
@@ -13,7 +13,7 @@ class Solution:
                     num -= 2*min(grid[i][j],grid[i-1][j])
         return num
 
-```
+# ```
 
 
 

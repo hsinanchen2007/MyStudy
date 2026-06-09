@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 // 类似上一题滑动窗口最大值
 class MaxQueue {
 private:
@@ -41,4 +41,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

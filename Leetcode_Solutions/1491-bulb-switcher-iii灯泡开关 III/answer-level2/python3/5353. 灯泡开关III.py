@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度为O(N)，主要思路就是要向所有的灯都变成蓝色，很明显第一盏灯必须开着，其次到开着的最右边的那盏灯，中间的灯也必须开着。
+# ### 解题思路
+# 时间复杂度为O(N)，主要思路就是要向所有的灯都变成蓝色，很明显第一盏灯必须开着，其次到开着的最右边的那盏灯，中间的灯也必须开着。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numTimesAllBlue(self, light: List[int]) -> int:
         length = len(light)
@@ -18,4 +18,4 @@ class Solution:
             if last_on-first_on+1==on_count and first_on==1:  # 第一盏灯开着，并且中间的灯都是开着
                 count+=1
         return count
-```
+# ```

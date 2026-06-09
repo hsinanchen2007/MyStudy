@@ -1,4 +1,4 @@
-```
+// ```
 
 // 获得权重
 let getWeight = (x) => {
@@ -31,7 +31,7 @@ var getKth = function(lo, hi, k) {
     })
     return a[k - 1].val;
 };
-```
+// ```
 
-前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
-这里记录了我刷过的近500道LeetCode的题解
+// 前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
+// 这里记录了我刷过的近500道LeetCode的题解

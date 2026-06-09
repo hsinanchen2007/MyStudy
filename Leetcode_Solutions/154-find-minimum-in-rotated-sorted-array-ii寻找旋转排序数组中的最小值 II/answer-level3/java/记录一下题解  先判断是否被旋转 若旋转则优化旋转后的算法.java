@@ -1,4 +1,4 @@
-```
+// ```
  public int findMin(int[] nums) {
         //此题思路 第一个数比最后一个小 则未被旋转
         if(nums[0]>=nums[nums.length-1]){
@@ -26,4 +26,4 @@
         }
         return nums[0];
     }
-```
+// ```

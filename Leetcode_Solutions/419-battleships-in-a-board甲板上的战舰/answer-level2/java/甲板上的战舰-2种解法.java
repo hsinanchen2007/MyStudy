@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：深度优先遍历
+// # 解法一：深度优先遍历
 
-时间复杂度和空间复杂度均是O(mn)，其中m是board的行数，n是board的列数。
+// 时间复杂度和空间复杂度均是O(mn)，其中m是board的行数，n是board的列数。
 
-执行用时：1ms，击败100.00%。消耗内存：51.2MB，击败5.02%。
+// 执行用时：1ms，击败100.00%。消耗内存：51.2MB，击败5.02%。
 
-```java
+// ```java
 public class Solution {
     private boolean[][] visited;
 
@@ -42,15 +42,15 @@ public class Solution {
         }
     }
 }
-```
+// ```
 
-# 解法二：判断每一个X是否是一艘新战舰时，判断其上方或左方的值是否是X
+// # 解法二：判断每一个X是否是一艘新战舰时，判断其上方或左方的值是否是X
 
-时间复杂度是O(mn)，其中m是board的行数，n是board的列数。空间复杂度是O(1)。
+// 时间复杂度是O(mn)，其中m是board的行数，n是board的列数。空间复杂度是O(1)。
 
-执行用时：1ms，击败100.00%。消耗内存：51.3MB，击败5.02%。
+// 执行用时：1ms，击败100.00%。消耗内存：51.3MB，击败5.02%。
 
-```java
+// ```java
 public class Solution {
     public int countBattleships(char[][] board) {
         int m;
@@ -72,4 +72,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

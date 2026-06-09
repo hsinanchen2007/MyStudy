@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int minBuildTime(vector<int>& blocks, int split) {
@@ -26,6 +26,6 @@ public:
         return dp[index][currentWorkers] = result;
     }
 };
-```
+// ```
 
-实际上试了下第二个递归函数在n=1000的case下也只被调用了20000多次
+// 实际上试了下第二个递归函数在n=1000的case下也只被调用了20000多次

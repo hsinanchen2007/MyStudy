@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         myset=set(nums1)
@@ -12,4 +12,4 @@ class Solution:
                 list.append(i)
                 myset.remove(i)
         return list
-```
+# ```

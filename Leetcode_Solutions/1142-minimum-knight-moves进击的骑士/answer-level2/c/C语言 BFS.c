@@ -1,5 +1,5 @@
-直接把目标转成绝对值，除了1,1特殊处理一下，其他位置所需步数和符号没关系，这样可以不用搞偏移。
-```
+// 直接把目标转成绝对值，除了1,1特殊处理一下，其他位置所需步数和符号没关系，这样可以不用搞偏移。
+// ```
 #define MAX_SIZE1 1000
 #define MAX_SIZE 1000000
 int minKnightMoves(int x, int y){
@@ -44,4 +44,4 @@ int minKnightMoves(int x, int y){
     }
     return 0;
 }
-```
+// ```

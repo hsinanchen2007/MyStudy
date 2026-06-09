@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean isIdealPermutation(int[] A) {
         int n = A.length;
@@ -10,4 +10,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

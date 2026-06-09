@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-// 在first 和 second 方法里，必须先执行打印，再释放锁，否则 就会出现 被阻塞线程提前释放 打印出来的比本方法的打印早。
-// 在 second 和 third方法里，必须先阻塞，防止提前打印
+// // 在first 和 second 方法里，必须先执行打印，再释放锁，否则 就会出现 被阻塞线程提前释放 打印出来的比本方法的打印早。
+// // 在 second 和 third方法里，必须先阻塞，防止提前打印
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Foo {
 
     private CountDownLatch secondLath;
@@ -41,4 +41,4 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```

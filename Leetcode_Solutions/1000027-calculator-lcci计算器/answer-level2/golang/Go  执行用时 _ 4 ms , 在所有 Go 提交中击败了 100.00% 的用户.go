@@ -1,9 +1,9 @@
-### 解题思路
-注意细节 for 依次计算，
+// ### 解题思路
+// 注意细节 for 依次计算，
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func calculate(s string) int {
 	var stack []int
@@ -66,4 +66,4 @@ func isDigit(s string, i int) (int, bool) {
 	return -1, false
 }
 
-```
+// ```

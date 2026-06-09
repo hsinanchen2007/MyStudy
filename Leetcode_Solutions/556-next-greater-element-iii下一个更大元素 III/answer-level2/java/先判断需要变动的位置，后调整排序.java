@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public int nextGreaterElement(int n) {
         HashMap<Integer,Integer> hm=new HashMap<>();
@@ -27,4 +27,4 @@ public int nextGreaterElement(int n) {
         return -1;
     }
 }
-```
+// ```

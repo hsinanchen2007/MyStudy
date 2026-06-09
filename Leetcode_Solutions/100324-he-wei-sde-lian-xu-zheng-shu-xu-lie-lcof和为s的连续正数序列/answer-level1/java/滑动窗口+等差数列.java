@@ -1,15 +1,15 @@
-### 解题思路
-滑动窗口+等差数列;
-首先如果target小于3时候没有任何结果满足条件所以target必须大于等于3,而且数组的最大值不可能超过target/2或target/2+1,因为一旦超过这个边界,和一定大于target
-定义两个指针分别是left=1,与right=2,窗口的边界
-利用等差数列求和用sum代表与target进行比较
-如果sum==target说明从left到right之间的数满足条件,然后left++,right++,如果相同边界,不可能存在两组数组,所以直接改变从窗口左右边界
-如果sum<target说明窗口中的和不足,加大右窗口right++;
-如果sum>target说明窗口中的和太大,缩小左窗口left++;
+// ### 解题思路
+// 滑动窗口+等差数列;
+// 首先如果target小于3时候没有任何结果满足条件所以target必须大于等于3,而且数组的最大值不可能超过target/2或target/2+1,因为一旦超过这个边界,和一定大于target
+// 定义两个指针分别是left=1,与right=2,窗口的边界
+// 利用等差数列求和用sum代表与target进行比较
+// 如果sum==target说明从left到right之间的数满足条件,然后left++,right++,如果相同边界,不可能存在两组数组,所以直接改变从窗口左右边界
+// 如果sum<target说明窗口中的和不足,加大右窗口right++;
+// 如果sum>target说明窗口中的和太大,缩小左窗口left++;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         if(target<3){
@@ -45,4 +45,4 @@ class Solution {
         return result.toArray(new int[0][]);
     }
 }
-```
+// ```

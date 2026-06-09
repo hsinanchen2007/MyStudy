@@ -1,9 +1,9 @@
-### 解题思路
-* 官方思路
+// ### 解题思路
+// * 官方思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,7 +31,7 @@ public:
         return root;
     }
 };
-```
-![4.png](https://pic.leetcode-cn.com/98861a3006c7c9eca231d23fe9d7c94440df382eb1986dc510a23aa4e9f1c6bb-4.png)
+// ```
+// ![4.png](https://pic.leetcode-cn.com/98861a3006c7c9eca231d23fe9d7c94440df382eb1986dc510a23aa4e9f1c6bb-4.png)
 
 

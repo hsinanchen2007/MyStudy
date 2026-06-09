@@ -1,5 +1,5 @@
-注意是二叉树，不是二叉搜索树
-```cpp
+// 注意是二叉树，不是二叉搜索树
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -79,4 +79,4 @@ public:
 
 
 
-```
+// ```

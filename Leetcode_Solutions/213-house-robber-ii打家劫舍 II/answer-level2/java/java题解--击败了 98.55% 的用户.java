@@ -1,7 +1,7 @@
-在打家劫舍的精选题解上进行了修改。那位老哥的题解很清晰，大家可以去看下，我只是分了可以第一家和可以最后一家的情况。
+// 在打家劫舍的精选题解上进行了修改。那位老哥的题解很清晰，大家可以去看下，我只是分了可以第一家和可以最后一家的情况。
 
-[@ikaruga](/u/ikaruga)
-```java []
+// [@ikaruga](/u/ikaruga)
+// ```java []
 
 
 class Solution {
@@ -37,4 +37,4 @@ class Solution {
         return Math.max(sumLast,sumFirst);
     }
 }
-```
+// ```

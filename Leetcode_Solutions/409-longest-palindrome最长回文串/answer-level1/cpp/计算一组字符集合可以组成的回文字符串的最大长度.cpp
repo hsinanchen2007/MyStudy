@@ -1,9 +1,9 @@
-### 解题思路
-这效率也太高了吧哈哈哈哈不过在最坏情况下要循环58*2+length（s)次
+// ### 解题思路
+// 这效率也太高了吧哈哈哈哈不过在最坏情况下要循环58*2+length（s)次
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -36,4 +36,4 @@ public:
         return length;
     }
 };
-```
+// ```

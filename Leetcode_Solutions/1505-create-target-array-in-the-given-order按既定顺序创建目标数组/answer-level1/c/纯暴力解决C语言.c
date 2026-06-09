@@ -1,6 +1,6 @@
-每次在插入的位置 先向右移位, 在赋值
+// 每次在插入的位置 先向右移位, 在赋值
 
-```
+// ```
 
 
 /**
@@ -23,4 +23,4 @@ int* createTargetArray(int* nums, int numsSize, int* index, int indexSize, int* 
     return ret;
 }
 
-```
+// ```

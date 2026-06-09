@@ -1,9 +1,9 @@
-### 解题思路
-递归好挫啊
+// ### 解题思路
+// 递归好挫啊
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private List<List<Integer>>res;
     public List<List<Integer>> permute(int[] nums) {
@@ -29,4 +29,4 @@ class Solution {
         }
     }
 }
-```
+// ```

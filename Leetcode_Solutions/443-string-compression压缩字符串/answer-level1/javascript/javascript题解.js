@@ -1,10 +1,10 @@
-### 解题思路
-每次找到相同值的时候，就让标志flag增1，
-当找到不同值的时候，先删除flag-1个已知重复值，接着算出flag的长度，将其插入到数组chars中。进入循环。
+// ### 解题思路
+// 每次找到相同值的时候，就让标志flag增1，
+// 当找到不同值的时候，先删除flag-1个已知重复值，接着算出flag的长度，将其插入到数组chars中。进入循环。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var compress = function(chars) {
     let letter = chars[0];
     chars.push('');
@@ -33,4 +33,4 @@ var compress = function(chars) {
     chars.pop();
     return chars.length;
 };
-```
+// ```

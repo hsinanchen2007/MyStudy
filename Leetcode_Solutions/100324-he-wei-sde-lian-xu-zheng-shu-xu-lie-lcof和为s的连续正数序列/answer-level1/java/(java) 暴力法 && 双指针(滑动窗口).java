@@ -1,6 +1,6 @@
-# 暴力法
-直接的遍历所有的可能的序列，保存结果
-```
+// # 暴力法
+// 直接的遍历所有的可能的序列，保存结果
+// ```
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int[]> res = new ArrayList<>();
@@ -31,21 +31,21 @@ class Solution {
 
     }
 }
-```
-# 双指针
-题目要求的是连续的序列，在给定题目条件是数组时(该题类似于数组)，很可能使用双指针，滑动窗口来进行解题
+// ```
+// # 双指针
+// 题目要求的是连续的序列，在给定题目条件是数组时(该题类似于数组)，很可能使用双指针，滑动窗口来进行解题
 
-min，max分别表示连续序列的上下边界
-max - min + 1 为连续序列的长度
-sum 表示连续序列的和
-
-
-- 当sum小于目标值，max++，sum += max
-- 当sum大于目标值，sum -= min, min++
-- 当sum等于目标值，进行状态的重置，sum -= min, min ++
+// min，max分别表示连续序列的上下边界
+// max - min + 1 为连续序列的长度
+// sum 表示连续序列的和
 
 
-```java
+// - 当sum小于目标值，max++，sum += max
+// - 当sum大于目标值，sum -= min, min++
+// - 当sum等于目标值，进行状态的重置，sum -= min, min ++
+
+
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         if(target <= 2){
@@ -87,4 +87,4 @@ class Solution {
 
     }
 }
-```
+// ```

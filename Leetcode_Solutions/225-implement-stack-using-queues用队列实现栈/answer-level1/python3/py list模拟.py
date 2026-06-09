@@ -1,9 +1,9 @@
-### 解题思路
-用py list操作模拟即可
+# ### 解题思路
+# 用py list操作模拟即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -45,4 +45,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

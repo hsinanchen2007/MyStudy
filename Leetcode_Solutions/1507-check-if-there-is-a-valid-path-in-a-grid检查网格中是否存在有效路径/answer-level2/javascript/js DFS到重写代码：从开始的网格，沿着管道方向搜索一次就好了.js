@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/13dfbd8f536f2a02f2e3db6433fe8a2a26802cac70ff849e6e350f2217c71525-image.png)
+// ![image.png](https://pic.leetcode-cn.com/13dfbd8f536f2a02f2e3db6433fe8a2a26802cac70ff849e6e350f2217c71525-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   开始我也 DFS 写了一大篇，发现不是那么回事
   沿着管道一次搜索就可以了
   走过的格子不可重复访问，要标记一下，防止出现环，出现死循环
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {boolean}
@@ -68,4 +68,4 @@ var hasValidPath = function(grid) {
   
   return ans;
 };
-```
+// ```

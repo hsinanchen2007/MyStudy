@@ -1,9 +1,9 @@
-### 解题思路
-插入并排序即可。
+// ### 解题思路
+// 插入并排序即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -13,4 +13,4 @@ public:
         sort(A.begin(),A.end());
     }
 };
-```
+// ```

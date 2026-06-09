@@ -1,6 +1,6 @@
-爬n级楼梯相当于将若干1级爬梯和2级爬梯的排列组合，最多可能有 n//2 次2级爬梯。
+# 爬n级楼梯相当于将若干1级爬梯和2级爬梯的排列组合，最多可能有 n//2 次2级爬梯。
 
-```
+# ```
 class Solution:
     def climbStairs(self, n: int) -> int:
         def factorial(n):
@@ -13,4 +13,4 @@ class Solution:
         for i in range(n//2+1):
             sum += factorial(n-i)/(factorial(n-2*i) * factorial(i))
         return int(sum)
-```
+# ```

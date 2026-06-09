@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -43,4 +43,4 @@ var detectCycle = function(head) {
     
     return temp;
 };
-```
+// ```

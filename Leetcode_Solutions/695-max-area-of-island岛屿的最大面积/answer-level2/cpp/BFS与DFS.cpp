@@ -1,8 +1,8 @@
-## BFS
+// ## BFS
 
-使用队列保存为1块的上下左右邻居。
+// 使用队列保存为1块的上下左右邻居。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxAreaOfIsland(vector<vector<int>>& grid) {
@@ -51,12 +51,12 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## DFS
+// ## DFS
 
-遇到为1的块，递归其上下左右邻居
-```cpp
+// 遇到为1的块，递归其上下左右邻居
+// ```cpp
 class Solution {
 public:
     int maxAreaOfIsland(vector<vector<int>>& grid) {
@@ -91,4 +91,4 @@ public:
         return ans;
     }
 };
-```
+// ```

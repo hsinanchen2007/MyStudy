@@ -1,4 +1,4 @@
-```
+// ```
 func deepestLeavesSum(root *TreeNode) int {
 	var dfs func(node *TreeNode, level int)
 	maxLevel := 0
@@ -21,4 +21,4 @@ func deepestLeavesSum(root *TreeNode) int {
 	dfs(root, 1)
 	return  sum
 }
-```
+// ```

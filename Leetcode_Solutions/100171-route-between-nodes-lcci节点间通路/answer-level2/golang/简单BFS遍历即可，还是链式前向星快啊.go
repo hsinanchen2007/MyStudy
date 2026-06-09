@@ -1,4 +1,4 @@
-```
+// ```
 func findWhetherExistsPath(n int, graph [][]int, start int, target int) bool {
     vis := make([]bool, n)
     head, next, to := make([]int, n), make([]int, len(graph)+1), make([]int, len(graph)+1)
@@ -30,4 +30,4 @@ func findWhetherExistsPath(n int, graph [][]int, start int, target int) bool {
     }
     return false
 }
-```
+// ```

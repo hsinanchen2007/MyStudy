@@ -1,9 +1,9 @@
-### 解题思路
-哈希表解法
+// ### 解题思路
+// 哈希表解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
               if (numbers.length < 2) {
@@ -23,4 +23,4 @@ class Solution {
         return null;  
     }
 }
-```
+// ```

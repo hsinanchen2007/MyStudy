@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn smallest_range_i(a: Vec<i32>, k: i32) -> i32 {
         let mut min = a.iter().min().unwrap();
@@ -10,5 +10,5 @@ impl Solution {
         }
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

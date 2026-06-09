@@ -1,6 +1,6 @@
-第一个人只能和 2 4 6 8... 握手
-用dp计算中间人的握手次数
-```
+// 第一个人只能和 2 4 6 8... 握手
+// 用dp计算中间人的握手次数
+// ```
 var mod = 1000000007
 func numberOfWays(num_people int) int {
 	dp := make([]int, num_people/2 + 1)
@@ -14,4 +14,4 @@ func numberOfWays(num_people int) int {
 }
 
 
-```
+// ```

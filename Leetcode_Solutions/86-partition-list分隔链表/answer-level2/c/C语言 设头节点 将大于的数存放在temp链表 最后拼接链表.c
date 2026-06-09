@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,5 +35,5 @@ struct ListNode* partition(struct ListNode* head, int x)
     pre->next = temp->next;
     return head->next;
 }
-```
+// ```
 

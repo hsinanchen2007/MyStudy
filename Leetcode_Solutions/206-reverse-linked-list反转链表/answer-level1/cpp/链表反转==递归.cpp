@@ -1,9 +1,9 @@
-### 解题思路
-  递归思想，参考大佬们的做法，加了点自己的理解。
+// ### 解题思路
+//   递归思想，参考大佬们的做法，加了点自己的理解。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ public:
         return Reverse_Node;
     }            
 };
-```
+// ```

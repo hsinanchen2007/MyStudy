@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def isSubStructure(self, A: TreeNode, B: TreeNode) -> bool:
         if not B:
@@ -25,4 +25,4 @@ class Solution:
             return False
 
         return self._is_sub(A.left, B.left) and self._is_sub(A.right, B.right)
-```
+# ```

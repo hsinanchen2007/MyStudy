@@ -1,5 +1,5 @@
-看了下题解，发现问题被变得复杂，贴一下我的答案，给大家点参考。
-```
+// 看了下题解，发现问题被变得复杂，贴一下我的答案，给大家点参考。
+// ```
 
 class Solution {
     public List<String> letterCasePermutation(String S) {
@@ -25,4 +25,4 @@ class Solution {
         }  
     }
 }
-```
+// ```

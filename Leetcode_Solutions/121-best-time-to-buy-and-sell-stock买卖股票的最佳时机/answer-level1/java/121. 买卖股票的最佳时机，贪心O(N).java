@@ -1,11 +1,11 @@
-### 解题思路
-#### 版本一
-$minPrices_{i}$: 表示前`i`天的股票最低价
-所以，当天的股票最大利润为 $prices[i] - minPrices[i-1]$ （当天卖出，前`i-1`天最低点买入）
-* 时间复杂度： $O(N)$
-* 空间复杂度： $O(N)$
+// ### 解题思路
+// #### 版本一
+// $minPrices_{i}$: 表示前`i`天的股票最低价
+// 所以，当天的股票最大利润为 $prices[i] - minPrices[i-1]$ （当天卖出，前`i-1`天最低点买入）
+// * 时间复杂度： $O(N)$
+// * 空间复杂度： $O(N)$
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         if (prices.length == 0) return 0;
@@ -25,14 +25,14 @@ class Solution {
         return profit;
     }
 }
-```
+// ```
 
-#### 版本二：优化内存
-因为只使用了 $minPrices[i-1]$，所以直接改为用 minPrice 记录前`i-1`天的股票最低价
-* 时间复杂度： $O(N)$
-* 空间复杂度： $O(1)$
+// #### 版本二：优化内存
+// 因为只使用了 $minPrices[i-1]$，所以直接改为用 minPrice 记录前`i-1`天的股票最低价
+// * 时间复杂度： $O(N)$
+// * 空间复杂度： $O(1)$
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         if (prices.length == 0) return 0;
@@ -50,4 +50,4 @@ class Solution {
         return profit;
     }
 }
-```
+// ```

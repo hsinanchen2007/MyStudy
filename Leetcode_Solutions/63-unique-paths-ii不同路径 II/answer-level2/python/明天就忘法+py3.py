@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         #行
@@ -32,4 +32,4 @@ class Solution:
                 else:
                     dp[i][j]=dp[i-1][j]+dp[i][j-1]
         return dp[m-1][n-1]
-```
+# ```

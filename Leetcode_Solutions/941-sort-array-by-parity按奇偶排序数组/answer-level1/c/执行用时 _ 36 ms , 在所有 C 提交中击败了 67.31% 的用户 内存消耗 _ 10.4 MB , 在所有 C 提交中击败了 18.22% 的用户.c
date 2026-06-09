@@ -1,9 +1,9 @@
-### 解题思路
-把偶数存到新的数组中，然后去存奇数就好了
+// ### 解题思路
+// 把偶数存到新的数组中，然后去存奇数就好了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -21,4 +21,4 @@ int* sortArrayByParity(int* A, int ASize, int* returnSize)
 	*returnSize = ASize;
 	return B;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-判断中心的距离。
+// ### 解题思路
+// 判断中心的距离。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -16,4 +16,4 @@ public:
 
 
 }};
-```
+// ```

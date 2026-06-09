@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         if not nums:
@@ -16,4 +16,4 @@ class Solution:
         for i in range(2,len(nums)):
             best[i] = max(best[i-1],best[i-2] + nums[i])
         return max(best)
-```
+# ```

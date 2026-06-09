@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func powerfulIntegers(x int, y int, bound int) []int {
 	xNums:=make([]int,0)
 	yNums:=make([]int,0)
@@ -37,4 +37,4 @@ func powerfulIntegers(x int, y int, bound int) []int {
 	}
 	return res
 }
-```
+// ```

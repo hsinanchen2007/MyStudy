@@ -1,11 +1,11 @@
-### 解题思路
-统计每个数字出现在哪些集合中
-统计数字 构成的集合 对，以及每个对交集的数字数量
+// ### 解题思路
+// 统计每个数字出现在哪些集合中
+// 统计数字 构成的集合 对，以及每个对交集的数字数量
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, int>;
 class SimDoc{
     public IList<string> ComputeSimilarities(int[][] docs) {
@@ -80,4 +80,4 @@ public class Solution {
         return sd.ComputeSimilarities(docs);
     }
 }
-```
+// ```

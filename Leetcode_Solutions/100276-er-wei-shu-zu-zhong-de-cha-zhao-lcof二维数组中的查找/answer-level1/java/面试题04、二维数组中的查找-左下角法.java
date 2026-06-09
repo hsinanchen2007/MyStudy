@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-以前看过类似的题目，这个题目应该是可以考虑从左下角或者右上角开始的
+// 以前看过类似的题目，这个题目应该是可以考虑从左下角或者右上角开始的
 
-每次能过滤一行或者一列
+// 每次能过滤一行或者一列
 
-逻辑并不复杂，看代码就是
+// 逻辑并不复杂，看代码就是
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if(matrix == null || matrix.length < 1){
@@ -37,4 +37,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-确定排序规则是这题的难点
-static bool cmp(string x,string y){
-        string a=x+y;
-        string b=y+x;
-        return a<b;
-    }
+// ### 解题思路
+// 确定排序规则是这题的难点
+// static bool cmp(string x,string y){
+//         string a=x+y;
+//         string b=y+x;
+//         return a<b;
+//     }
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool cmp(string x,string y){
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

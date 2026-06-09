@@ -1,4 +1,4 @@
-```
+// ```
 func add(a int, b int) int {
     var sum, carry int
     for {
@@ -12,4 +12,4 @@ func add(a int, b int) int {
         }
     }   
 }
-```
+// ```

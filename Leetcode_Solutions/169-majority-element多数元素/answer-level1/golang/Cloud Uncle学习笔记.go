@@ -1,5 +1,5 @@
-1. 哈希
-```
+// 1. 哈希
+// ```
 func majorityElement(nums []int) int {
     if nums == nil {
         return 0
@@ -20,9 +20,9 @@ func majorityElement(nums []int) int {
     
     return k
 }
-```
-哈希改进
-```
+// ```
+// 哈希改进
+// ```
 func majorityElement(nums []int) int {
     max := nums[0]
     maxMap := map[int]int{max: 0}
@@ -34,11 +34,11 @@ func majorityElement(nums []int) int {
     }
     return max
 }
-```
-2.排序
-```
+// ```
+// 2.排序
+// ```
 func majorityElement(nums []int) int {
     sort.Ints(nums)
     return nums[len(nums)/2]
 }
-```
+// ```

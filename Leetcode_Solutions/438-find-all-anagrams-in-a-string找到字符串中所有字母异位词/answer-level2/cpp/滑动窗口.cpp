@@ -1,10 +1,10 @@
-### 解题思路
-这里的两个关键点：
-1.如何判断字母异位词
-（1）长度要相等
-（2）子串中对应字母的个数一致，这里使用hash表进行存储计数
-代码：
-```
+// ### 解题思路
+// 这里的两个关键点：
+// 1.如何判断字母异位词
+// （1）长度要相等
+// （2）子串中对应字母的个数一致，这里使用hash表进行存储计数
+// 代码：
+// ```
     bool isSame(unordered_map<char, int>& p, unordered_map<char, int>& s)
     {
         for(auto cm : p)
@@ -16,13 +16,13 @@
         }
         return true;
     }
-```
-2. 利用滑动窗口，不断遍历整个字符串，当r和l变化时，对应的字符计数也要变化
+// ```
+// 2. 利用滑动窗口，不断遍历整个字符串，当r和l变化时，对应的字符计数也要变化
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
@@ -73,4 +73,4 @@ public:
         return true;
     }
 };
-```
+// ```

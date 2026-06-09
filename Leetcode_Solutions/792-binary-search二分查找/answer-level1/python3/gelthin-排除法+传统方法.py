@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-[用“排除法”（减治思想）写二分查找问题、与其它二分查找模板的比较](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)
+# [用“排除法”（减治思想）写二分查找问题、与其它二分查找模板的比较](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         n = len(nums)
@@ -23,10 +23,10 @@ class Solution:
             return i
         else:
             return -1
-```
+# ```
 
-#### 分治法 + 传统教科书方法的混合体 但这个不一定正确， 见题解[69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/solution/cai-yong-pai-chu-fa-by-gelthin/)
-```python3   # 补上判断 nums[mid] == target, 
+# #### 分治法 + 传统教科书方法的混合体 但这个不一定正确， 见题解[69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/solution/cai-yong-pai-chu-fa-by-gelthin/)
+# ```python3   # 补上判断 nums[mid] == target, 
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         n = len(nums)
@@ -47,10 +47,10 @@ class Solution:
             return i
         else:
             return -1
-```
+# ```
 
 
-#### 若继续把 i<j 变为 i<=j, 则变回了原来的传统的方法，不过要思考返回 i 还是 j
-传统方法：
+# #### 若继续把 i<j 变为 i<=j, 则变回了原来的传统的方法，不过要思考返回 i 还是 j
+# 传统方法：
 
 

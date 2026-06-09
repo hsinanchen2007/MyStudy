@@ -1,5 +1,5 @@
 
-```go
+// ```go
 
 // 四指针 基于三数之和演进
 func fourSum(nums []int, target int) [][]int {
@@ -99,4 +99,4 @@ func fourSum(nums []int, target int) [][]int {
 
 	return res
 }
-```
+// ```

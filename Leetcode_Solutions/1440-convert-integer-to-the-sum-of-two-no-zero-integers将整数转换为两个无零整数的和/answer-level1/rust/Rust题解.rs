@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn get_no_zero_integers(n: i32) -> Vec<i32> {
         for a in 1..=(n / 2) {
@@ -13,5 +13,5 @@ impl Solution {
         Vec::new()
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

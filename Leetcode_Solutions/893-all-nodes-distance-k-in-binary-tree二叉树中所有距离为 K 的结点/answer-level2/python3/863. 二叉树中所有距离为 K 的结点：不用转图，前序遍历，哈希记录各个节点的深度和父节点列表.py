@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/498d84d5edc7e155a7b107b05da32f4d78110ee4dae5a54462090107edfab28c-image.png)
+# ![image.png](https://pic.leetcode-cn.com/498d84d5edc7e155a7b107b05da32f4d78110ee4dae5a54462090107edfab28c-image.png)
 
-前序遍历，哈希记录各个节点的深度和父节点集合。
+# 前序遍历，哈希记录各个节点的深度和父节点集合。
 
-节点a与节点b的最近公共父节点为c，h为节点的深度，则a与b的距离为$distance(a,b)=h(a)+h(b)-2*h(c)$
+# 节点a与节点b的最近公共父节点为c，h为节点的深度，则a与b的距离为$distance(a,b)=h(a)+h(b)-2*h(c)$
 
-依据这个公式再遍历一次树就可以了，满足条件的就输出。
+# 依据这个公式再遍历一次树就可以了，满足条件的就输出。
 
-```python []
+# ```python []
 class Solution:
     def distanceK(self, root, target, K):
         h, f = {}, {}
@@ -25,4 +25,4 @@ class Solution:
                         ans += [i]          #就加入答案
                     break
         return ans
-```
+# ```

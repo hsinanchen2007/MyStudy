@@ -1,4 +1,4 @@
-一次遍历进行链表反转，思路：遍历的同时，然后进行K个节点反转一次。遍历一遍之后，最后剩余n%k个节点顺序需要恢复正常顺序，最后的n%k个节点反转第二次，恢复正常顺序，时间复杂度为O(N+N%K)
+// 一次遍历进行链表反转，思路：遍历的同时，然后进行K个节点反转一次。遍历一遍之后，最后剩余n%k个节点顺序需要恢复正常顺序，最后的n%k个节点反转第二次，恢复正常顺序，时间复杂度为O(N+N%K)
 
 struct ListNode* reverseList(struct ListNode* head);
 struct ListNode* reverseKGroup(struct ListNode* head, int k){

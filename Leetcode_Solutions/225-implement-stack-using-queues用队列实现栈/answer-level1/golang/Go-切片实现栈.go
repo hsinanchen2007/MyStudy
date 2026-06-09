@@ -1,9 +1,9 @@
-### 解题思路
-使用切片来存储数据，最后添加的元素为栈顶。
+// ### 解题思路
+// 使用切片来存储数据，最后添加的元素为栈顶。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     data []int
 }
@@ -49,4 +49,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

@@ -1,6 +1,6 @@
-# 最初版
-// 内存消耗好大，请大佬指导优化点
-```
+// # 最初版
+// // 内存消耗好大，请大佬指导优化点
+// ```
     function plusOne($digits) {
         $counts = count($digits);
         for ($i = count($digits)-1; $i >= 0; --$i) {
@@ -17,4 +17,4 @@
         return $digits;
     }
 
-```
+// ```

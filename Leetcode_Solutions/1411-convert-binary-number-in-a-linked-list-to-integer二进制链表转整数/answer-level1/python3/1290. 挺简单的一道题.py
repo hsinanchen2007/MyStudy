@@ -1,9 +1,9 @@
-### 解题思路
-每一次计算的时候，把前面得到的所有数之和*2，再加上当前所指的数，如此操作一直到累积到最后一个值。
+# ### 解题思路
+# 每一次计算的时候，把前面得到的所有数之和*2，再加上当前所指的数，如此操作一直到累积到最后一个值。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -17,4 +17,4 @@ class Solution:
             num = num*2 + head.val
             head = head.next
         return num
-```
+# ```

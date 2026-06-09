@@ -1,4 +1,4 @@
-```
+// ```
 func sortArrayByParityII(A []int) []int {
     var a []int // 奇数
 	var b []int // 偶数
@@ -26,4 +26,4 @@ func sortArrayByParityII(A []int) []int {
 	}
     return A
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeDuplicates(self, S: str) -> str:
         if S.__len__()<=1:
@@ -20,4 +20,4 @@ class Solution:
             else:
                 tmp=S_list.__len__()
         return ''.join(S_list)
-```
+# ```

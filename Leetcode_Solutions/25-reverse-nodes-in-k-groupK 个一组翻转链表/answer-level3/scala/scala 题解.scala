@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def reverseKGroup(head: ListNode, k: Int): ListNode = {
     val g = new ListNode(0)
@@ -34,4 +34,4 @@ object Solution {
     }
   }
 }
-```
+// ```

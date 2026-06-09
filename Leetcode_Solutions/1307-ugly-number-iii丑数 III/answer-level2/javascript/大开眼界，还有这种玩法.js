@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} n
  * @param {number} a
@@ -33,4 +33,4 @@ function mcm (a, b) {
     }
     return temp / a
 }
-```
+// ```

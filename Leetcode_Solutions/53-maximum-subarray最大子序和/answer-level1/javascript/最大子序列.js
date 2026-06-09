@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-动态规划，丢弃无用的和
+// 动态规划，丢弃无用的和
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * 抄的题解的，添加了输出最大子序列的功能。思考了挺久才理解
  * @param {number[]} nums
@@ -57,4 +57,4 @@ var maxSubArray = function (nums) {
 //     }
 //     return max
 // };
-```
+// ```

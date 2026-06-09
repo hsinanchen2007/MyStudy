@@ -1,11 +1,11 @@
-### 解题思路
-利用归并思想，只不过将两个list的比较改成比较哪个大，同时存储从m+n-1开始存起。
-（这样子就能超99.81%，我怎么这么不信呢。。。）
-![image.png](https://pic.leetcode-cn.com/80ae421f7fecf4da077b68021183bbf10619d6e456581e5f971e623c3bde0893-image.png)
+# ### 解题思路
+# 利用归并思想，只不过将两个list的比较改成比较哪个大，同时存储从m+n-1开始存起。
+# （这样子就能超99.81%，我怎么这么不信呢。。。）
+# ![image.png](https://pic.leetcode-cn.com/80ae421f7fecf4da077b68021183bbf10619d6e456581e5f971e623c3bde0893-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -26,4 +26,4 @@ class Solution:
             nums1[:k+1] = nums2[:j+1]
         
         
-```
+# ```

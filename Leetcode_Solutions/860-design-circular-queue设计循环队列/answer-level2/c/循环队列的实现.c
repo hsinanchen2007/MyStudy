@@ -1,8 +1,8 @@
-### 解题思路
-预留队列中的一位用于区分空队列和满队列，-1操作可以通过加模值避免负数无法求余。
-### 代码
+// ### 解题思路
+// 预留队列中的一位用于区分空队列和满队列，-1操作可以通过加模值避免负数无法求余。
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int *data;
     int *head;
@@ -89,4 +89,4 @@ void myCircularQueueFree(MyCircularQueue* obj) {
     free(obj->data);
     free(obj);
 }
-```
+// ```

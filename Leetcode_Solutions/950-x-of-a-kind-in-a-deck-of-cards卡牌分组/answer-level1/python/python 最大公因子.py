@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def hasGroupsSizeX(self, deck):
         """
@@ -25,4 +25,4 @@ class Solution(object):
         for i in range(1,len(l)):
             l[i]=find(l[i],l[i-1])
         return l[-1]>=2
-```
+# ```

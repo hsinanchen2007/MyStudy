@@ -1,12 +1,12 @@
-### 解题思路
-首先说明下，我好想有点理解错题意了，题目的意思应该是把Trie当一个节点吧。我自己建了一个节点,Trie存root；
-![image.png](https://pic.leetcode-cn.com/e2a5c9d4b69a2cfda718efb9e6991c0d0c40c86fd61bc0ed1d2dcb499c477be6-image.png)
+// ### 解题思路
+// 首先说明下，我好想有点理解错题意了，题目的意思应该是把Trie当一个节点吧。我自己建了一个节点,Trie存root；
+// ![image.png](https://pic.leetcode-cn.com/e2a5c9d4b69a2cfda718efb9e6991c0d0c40c86fd61bc0ed1d2dcb499c477be6-image.png)
 
-我这个方法的核心就在于建立一个TrieNode的节点。val存字符，is_end用来表示当前节点是不是最后一个字符，可以用它来判断一个字符串。mp是一个hash表，存下一个字符对应的节点。
-具体的做法，我直接注释
-### 代码
+// 我这个方法的核心就在于建立一个TrieNode的节点。val存字符，is_end用来表示当前节点是不是最后一个字符，可以用它来判断一个字符串。mp是一个hash表，存下一个字符对应的节点。
+// 具体的做法，我直接注释
+// ### 代码
 
-```cpp
+// ```cpp
 struct TrieNode
 {
     char val;
@@ -91,4 +91,4 @@ public:
  * bool param_2 = obj->search(word);
  * bool param_3 = obj->startsWith(prefix);
  */
-```
+// ```

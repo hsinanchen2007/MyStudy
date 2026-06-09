@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 use std::collections::HashSet;
 
 impl Solution {
@@ -16,5 +16,5 @@ impl Solution {
         set.len() as i32
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

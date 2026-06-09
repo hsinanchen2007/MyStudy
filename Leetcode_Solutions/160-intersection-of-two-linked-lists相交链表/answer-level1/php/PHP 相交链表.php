@@ -1,6 +1,6 @@
 
-假设俩单向链表没有环，如果相交，则最后一个节点肯定是相同的
-```
+// 假设俩单向链表没有环，如果相交，则最后一个节点肯定是相同的
+// ```
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return $headA === $headB;
     }
 }
-```
+// ```

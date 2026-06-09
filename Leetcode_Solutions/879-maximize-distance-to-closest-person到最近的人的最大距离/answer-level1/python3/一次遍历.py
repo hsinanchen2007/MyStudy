@@ -1,9 +1,9 @@
-### 解题思路
-只要注意首位是0和结尾是0的情况就可以了
+# ### 解题思路
+# 只要注意首位是0和结尾是0的情况就可以了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistToClosest(self, seats: List[int]) -> int:
         if not seats:
@@ -30,4 +30,4 @@ class Solution:
 
 
 
-```
+# ```

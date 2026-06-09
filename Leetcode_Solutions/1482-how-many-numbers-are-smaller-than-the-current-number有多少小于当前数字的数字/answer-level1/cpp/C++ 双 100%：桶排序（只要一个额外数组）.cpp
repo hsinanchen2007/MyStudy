@@ -1,4 +1,4 @@
-```C++
+// ```C++
 vector<int> smallerNumbersThanCurrent(vector<int> &nums) {
   int aux[101] = {0};
   // 计算每个数出现的次数
@@ -26,4 +26,4 @@ vector<int> smallerNumbersThanCurrent(vector<int> &nums) {
 
   return ans;
 }
-```
+// ```

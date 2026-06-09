@@ -1,9 +1,9 @@
-### 解题思路
-dfs模板题， 按照前序遍历的方式 赋值
+// ### 解题思路
+// dfs模板题， 按照前序遍历的方式 赋值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
 
     return ret;
 }
-```
+// ```

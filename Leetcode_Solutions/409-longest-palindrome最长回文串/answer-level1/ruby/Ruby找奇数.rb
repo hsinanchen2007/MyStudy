@@ -1,4 +1,4 @@
-```
+# ```
 # @param {String} s
 # @return {Integer}
 def longest_palindrome(s)
@@ -14,4 +14,4 @@ def longest_palindrome(s)
   }
   return max + (has_odd ? 1 : 0)
 end
-```
+# ```

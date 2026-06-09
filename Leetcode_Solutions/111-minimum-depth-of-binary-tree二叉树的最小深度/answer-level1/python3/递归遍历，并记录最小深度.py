@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minDepth(self, root: TreeNode) -> int:
         depth = 0
@@ -15,4 +15,4 @@ class Solution:
             checkdepth(n.right, d+1)
         checkdepth(root, 0)
         return depth
-```
+# ```

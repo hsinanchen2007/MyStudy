@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-原表内连接用户的首次下单日期
-### 代码
+-- ### 解题思路
+-- 此处撰写解题思路
+-- 原表内连接用户的首次下单日期
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select round(sum(if(a.order_date = a.customer_pref_delivery_date ,1,0))/count(*)*100,2) as immediate_percentage 
@@ -18,4 +18,4 @@ where a.order_date =b.order_date
 
 
 
-```
+-- ```

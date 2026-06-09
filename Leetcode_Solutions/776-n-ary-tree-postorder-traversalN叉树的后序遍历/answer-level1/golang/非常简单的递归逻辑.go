@@ -1,9 +1,9 @@
-### 解题思路
-所谓后续遍历，就先访问子节点，最后访问本节点
+// ### 解题思路
+// 所谓后续遍历，就先访问子节点，最后访问本节点
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a Node.
  * type Node struct {
@@ -26,4 +26,4 @@ func postorder(root *Node) []int {
     f(root)
     return ret 
 }
-```
+// ```

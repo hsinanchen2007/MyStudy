@@ -1,14 +1,14 @@
-1. 定义符号优先级` )` < `-` == `+` < `(` 
-2. 同级别符号可以弹出，低级别可以弹出高级别(除了左括号)
-3. 定义一个数字栈和一个符号栈
-4. 按顺序分别入数字栈和符号栈，符号栈根据符号级别来决定操作顺序
-- 空格: 忽略
-- 数字: 注意处理多位数字
-- 字符: 根据优先级决定操作顺序
+// 1. 定义符号优先级` )` < `-` == `+` < `(` 
+// 2. 同级别符号可以弹出，低级别可以弹出高级别(除了左括号)
+// 3. 定义一个数字栈和一个符号栈
+// 4. 按顺序分别入数字栈和符号栈，符号栈根据符号级别来决定操作顺序
+// - 空格: 忽略
+// - 数字: 注意处理多位数字
+// - 字符: 根据优先级决定操作顺序
 
-[学习大佬的代码](https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0224.basic-calculator/basic-calculator.go)
+// [学习大佬的代码](https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0224.basic-calculator/basic-calculator.go)
 
-```go
+// ```go
 func calculate(s string) int {
     num := 0  // 提取s中的数字
 	res := 0  // 返回的计算结果
@@ -52,4 +52,4 @@ func calculate(s string) int {
 	}
 	return res
 }
-```
+// ```

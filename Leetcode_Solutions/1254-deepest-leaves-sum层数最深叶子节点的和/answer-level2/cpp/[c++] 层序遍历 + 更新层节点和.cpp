@@ -1,5 +1,5 @@
-这道题考察基本层序遍历, 下面是迭代方法
-```
+// 这道题考察基本层序遍历, 下面是迭代方法
+// ```
 class Solution {
 public:
     int deepestLeavesSum(TreeNode *root) {
@@ -28,4 +28,4 @@ public:
         return sum;
     }
 };
-```
+// ```

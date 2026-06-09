@@ -1,5 +1,5 @@
-一个非常笨的方法，就是找数组下标的规律。
-```
+// 一个非常笨的方法，就是找数组下标的规律。
+// ```
 char *convert(char *s, int numRows)
 {
     int len = strlen(s);
@@ -22,4 +22,4 @@ char *convert(char *s, int numRows)
     t[numSize] = '\0';
     return t;
 }
-```
+// ```

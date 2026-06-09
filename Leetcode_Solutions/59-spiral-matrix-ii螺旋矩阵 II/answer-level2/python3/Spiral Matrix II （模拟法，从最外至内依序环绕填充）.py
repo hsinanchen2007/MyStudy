@@ -1,27 +1,27 @@
 
-#### 说明：
- - 思路与 [Spiral Matrix II （模拟法，设定边界，代码简短清晰）](https://leetcode-cn.com/problems/spiral-matrix-ii/solution/spiral-matrix-ii-mo-ni-fa-she-ding-bian-jie-qing-x/) 相似
- - 整体思路上，另一种方法会更加清晰
-#### 思路：
- - 生成一个``n * n``的矩阵
- - 随后根据每行每列所需的填充行为，从最外至内依序环绕填充数值
-   - 假设层数为n，那么第k个数需要填写的位置为
-     - 第一行　：``顺序`` ``[0, n - 1)``
-     - 最后一列：``顺序`` ``[n - 1, 2 * (n - 1))``
-     - 最后一行：``逆序`` ``[2 * (n - 1), 3 * (n - 1))``
-     - 第一列　：``逆序`` ``[3 * (n - 1), 4 * (n - 1))``
-    - 填充完外层后，在用相同方法填充内层，直至所有层数都填充完毕
-    - 注意层数为奇数时，``range(n, 0, -2)``无法覆盖到最内层（1x1），因此需要填充一次最内层数
-#### 效率：
- > Runtime: 36 ms, faster than 81.98% of Python3 online submissions for Spiral Matrix II.
- > Memory Usage: 13.8 MB, less than 9.09% of Python3 online submissions for Spiral Matrix II.
-#### 复杂度分析：
- - 时间复杂度：$O(n^2)$
-   遍历一次矩阵，矩阵大小为 $n*n$
- - 空间复杂度：$O(n^2)$
-   需要创建一个大小为 $n*n$ 的矩阵
-#### 代码：
-```Python
+# #### 说明：
+#  - 思路与 [Spiral Matrix II （模拟法，设定边界，代码简短清晰）](https://leetcode-cn.com/problems/spiral-matrix-ii/solution/spiral-matrix-ii-mo-ni-fa-she-ding-bian-jie-qing-x/) 相似
+#  - 整体思路上，另一种方法会更加清晰
+# #### 思路：
+#  - 生成一个``n * n``的矩阵
+#  - 随后根据每行每列所需的填充行为，从最外至内依序环绕填充数值
+#    - 假设层数为n，那么第k个数需要填写的位置为
+#      - 第一行　：``顺序`` ``[0, n - 1)``
+#      - 最后一列：``顺序`` ``[n - 1, 2 * (n - 1))``
+#      - 最后一行：``逆序`` ``[2 * (n - 1), 3 * (n - 1))``
+#      - 第一列　：``逆序`` ``[3 * (n - 1), 4 * (n - 1))``
+#     - 填充完外层后，在用相同方法填充内层，直至所有层数都填充完毕
+#     - 注意层数为奇数时，``range(n, 0, -2)``无法覆盖到最内层（1x1），因此需要填充一次最内层数
+# #### 效率：
+#  > Runtime: 36 ms, faster than 81.98% of Python3 online submissions for Spiral Matrix II.
+#  > Memory Usage: 13.8 MB, less than 9.09% of Python3 online submissions for Spiral Matrix II.
+# #### 复杂度分析：
+#  - 时间复杂度：$O(n^2)$
+#    遍历一次矩阵，矩阵大小为 $n*n$
+#  - 空间复杂度：$O(n^2)$
+#    需要创建一个大小为 $n*n$ 的矩阵
+# #### 代码：
+# ```Python
 from typing import List
 
 
@@ -76,4 +76,4 @@ class Solution:
             matrix[n // 2][n // 2] = i
 
         return matrix
-```
+# ```

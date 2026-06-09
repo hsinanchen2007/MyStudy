@@ -1,5 +1,5 @@
-思路:一直维持含有k个元素的最小堆。
-```php
+// 思路:一直维持含有k个元素的最小堆。
+// ```php
 class KthLargest {
     /**
      * @param Integer $k
@@ -45,4 +45,4 @@ class KthLargest {
  * $obj = KthLargest($k, $nums);
  * $ret_1 = $obj->add($val);
  */
-```
+// ```

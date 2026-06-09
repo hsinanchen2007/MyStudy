@@ -1,9 +1,9 @@
-### 关键点就是这一行：
-***long res = 1;***
-一定要申请为long
-### 代码
+// ### 关键点就是这一行：
+// ***long res = 1;***
+// 一定要申请为long
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int cuttingRope(int n) {
         if(n == 2){
@@ -26,4 +26,4 @@ class Solution {
         return (int)res;
     }
 }
-```
+// ```

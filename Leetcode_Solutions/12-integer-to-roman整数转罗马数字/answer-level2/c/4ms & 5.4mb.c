@@ -1,10 +1,10 @@
-### 解题思路
-![2.png](https://pic.leetcode-cn.com/9bf6c9542b8d5dfddcfd02ed15e6674f2ca9bfe67d1f5877c02dbec00861bcae-2.png)
+// ### 解题思路
+// ![2.png](https://pic.leetcode-cn.com/9bf6c9542b8d5dfddcfd02ed15e6674f2ca9bfe67d1f5877c02dbec00861bcae-2.png)
 
-莽递归判断深度，后序遍历，得到每一位上的结果。
-第一次有个全局变量，进入函数时忘了置零，导致每次test进行累加，后修改为局部static变量成功A过。
-### 代码
-```c
+// 莽递归判断深度，后序遍历，得到每一位上的结果。
+// 第一次有个全局变量，进入函数时忘了置零，导致每次test进行累加，后修改为局部static变量成功A过。
+// ### 代码
+// ```c
 /*
  * @lc app=leetcode.cn id=12 lang=c
  *
@@ -111,4 +111,4 @@ void dealit(char* T, int num, int deep) {
 // @lc code=end
 
 
-```
+// ```

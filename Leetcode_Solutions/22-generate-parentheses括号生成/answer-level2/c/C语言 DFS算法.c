@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -64,4 +64,4 @@ char ** generateParenthesis(int n, int* returnSize){
     *returnSize = g_resNum;
     return ans;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn days_between_dates(date1: String, date2: String) -> i32 {
         let date1 = Self::from_1971_01_01(date1);
@@ -22,5 +22,5 @@ impl Solution {
         days
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

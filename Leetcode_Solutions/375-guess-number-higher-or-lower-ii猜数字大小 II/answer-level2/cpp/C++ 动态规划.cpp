@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     const int INF = 1e8;
@@ -19,6 +19,6 @@ public:
         return dp[1][n];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/15672876c3b470be948f1b4c905c1069c74e5b529295287aa7e4456c03d84298-image.png)
+// ![image.png](https://pic.leetcode-cn.com/15672876c3b470be948f1b4c905c1069c74e5b529295287aa7e4456c03d84298-image.png)

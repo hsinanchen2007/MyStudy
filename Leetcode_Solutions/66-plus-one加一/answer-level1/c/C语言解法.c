@@ -1,7 +1,7 @@
-执行用时 :4 ms, 在所有 c 提交中击败了80.05%的用户
-内存消耗 :7 MB, 在所有 c 提交中击败了48.76%的用户
+// 执行用时 :4 ms, 在所有 c 提交中击败了80.05%的用户
+// 内存消耗 :7 MB, 在所有 c 提交中击败了48.76%的用户
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -46,4 +46,4 @@ int* plusOne(int* digits, int digitsSize, int* returnSize){
        return return1; 
     }
 }
-```
+// ```

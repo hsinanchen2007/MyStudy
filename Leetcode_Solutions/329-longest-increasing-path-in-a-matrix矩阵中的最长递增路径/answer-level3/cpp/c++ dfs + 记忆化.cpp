@@ -1,6 +1,6 @@
-遍历每个点，进行rows*cols次dfs，已经搜过的点使用cache记录长度，直接返回值即可
-返回int的dfs一直不是很理解，只会这么写了
-```
+// 遍历每个点，进行rows*cols次dfs，已经搜过的点使用cache记录长度，直接返回值即可
+// 返回int的dfs一直不是很理解，只会这么写了
+// ```
 class Solution {
 public:
 vector<vector<int>> cache;
@@ -48,5 +48,5 @@ int longestIncreasingPath(vector<vector<int>> &matrix)
     return res;
 }
 };
-```
+// ```
 

@@ -1,7 +1,7 @@
 
-利用GO语言的平行赋值，一次旋转4个元素
+// 利用GO语言的平行赋值，一次旋转4个元素
 
-```
+// ```
 func rotate(matrix [][]int)  {
     n:=len(matrix)
     a,b:=0,n-1      //左右边界
@@ -20,4 +20,4 @@ func rotate(matrix [][]int)  {
         }
     }
 }
-```
+// ```

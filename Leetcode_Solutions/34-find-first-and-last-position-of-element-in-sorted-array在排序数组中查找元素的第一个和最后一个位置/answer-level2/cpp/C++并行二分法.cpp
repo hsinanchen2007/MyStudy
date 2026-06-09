@@ -1,9 +1,9 @@
-### 解题思路
-并行二分法，即每次循环进行两次二分，分别用于定位左侧和右侧位置
+// ### 解题思路
+// 并行二分法，即每次循环进行两次二分，分别用于定位左侧和右侧位置
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -53,4 +53,4 @@ public:
         
     }
 };
-```
+// ```

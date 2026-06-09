@@ -1,10 +1,10 @@
-### 解题思路
-1，字符串从长到短逐渐考察是否满足条件
-2，只要当前字符串没有与之相同的其他字符串，且也不是任何比它长的字符串的子序列，则满足条件
+// ### 解题思路
+// 1，字符串从长到短逐渐考察是否满足条件
+// 2，只要当前字符串没有与之相同的其他字符串，且也不是任何比它长的字符串的子序列，则满足条件
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool valid(unordered_set<string>& v, vector<string>& q) {
@@ -44,6 +44,6 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/84070a772550dc16ee24c3c558981ae5ae2f6fbdc08c71588a984e60695c7b6f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/84070a772550dc16ee24c3c558981ae5ae2f6fbdc08c71588a984e60695c7b6f-image.png)

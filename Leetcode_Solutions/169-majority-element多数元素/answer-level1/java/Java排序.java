@@ -1,9 +1,9 @@
-### 解题思路
-感觉不能直接假定数组总是存在最多元素，我就给了一个判定，如若找不到nums[nums.length/2]这个元素大于n/2，则返回一个-1，这样就能严谨一点，个人看法，欢迎点评，不喜勿喷
+// ### 解题思路
+// 感觉不能直接假定数组总是存在最多元素，我就给了一个判定，如若找不到nums[nums.length/2]这个元素大于n/2，则返回一个-1，这样就能严谨一点，个人看法，欢迎点评，不喜勿喷
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         Arrays.sort(nums);
@@ -25,4 +25,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

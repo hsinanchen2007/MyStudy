@@ -1,8 +1,8 @@
-# 解题思路
-4ms，和暴力解速度差不多？
-![image.png](https://pic.leetcode-cn.com/ff0dfbeaf7fb8cc93c13d4fbf341c2c4031438d7e6a7803dc9337a6acee1de1a-image.png)
-# 代码
-```c++
+// # 解题思路
+// 4ms，和暴力解速度差不多？
+// ![image.png](https://pic.leetcode-cn.com/ff0dfbeaf7fb8cc93c13d4fbf341c2c4031438d7e6a7803dc9337a6acee1de1a-image.png)
+// # 代码
+// ```c++
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -36,4 +36,4 @@ public:
         return -1;
     }
 };
-```
+// ```

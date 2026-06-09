@@ -1,8 +1,8 @@
-### 解题思路
-因为是要做平衡树，所以每次取出中间节点做为根节点，根节点左面的做左子树，右面的做右子树。
-### 代码
+// ### 解题思路
+// 因为是要做平衡树，所以每次取出中间节点做为根节点，根节点左面的做左子树，右面的做右子树。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -23,4 +23,4 @@ var sortedArrayToBST = function(nums) {
    node.right=sortedArrayToBST(nums.slice(index+1))
    return node
 };
-```
+// ```

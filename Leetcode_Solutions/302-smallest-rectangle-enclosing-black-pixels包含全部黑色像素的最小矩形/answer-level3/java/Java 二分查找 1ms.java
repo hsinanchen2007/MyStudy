@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     static int m,n;
     public static int minArea(char[][] image, int x, int y) {
@@ -24,4 +24,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

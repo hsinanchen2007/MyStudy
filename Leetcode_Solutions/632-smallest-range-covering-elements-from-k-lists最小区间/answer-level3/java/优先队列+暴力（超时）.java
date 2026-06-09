@@ -1,5 +1,5 @@
-1.优先队列
-```
+// 1.优先队列
+// ```
 class Solution {
     public int[] smallestRange(List<List<Integer>> nums) {
         int size = nums.size();
@@ -43,9 +43,9 @@ class Solution {
         }
     }
 }
-```
-2.暴力（超时）
-```
+// ```
+// 2.暴力（超时）
+// ```
 class Solution {
     public int[] smallestRange(List<List<Integer>> nums) {
         List<Integer> list = new ArrayList<>();
@@ -95,5 +95,5 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 

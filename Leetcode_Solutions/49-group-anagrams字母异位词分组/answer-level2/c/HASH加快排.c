@@ -1,8 +1,8 @@
-### 解题思路
-HASH建表，内容是排序后得字符串，并记录每个字符串的位置，最后输出
-### 代码
+// ### 解题思路
+// HASH建表，内容是排序后得字符串，并记录每个字符串的位置，最后输出
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -82,4 +82,4 @@ char *** groupAnagrams(char ** strs, int strsSize, int* returnSize, int** return
     //printf("return size %d closi %d\r\n",*returnSize,*returnColumnSizes[0]);
     return retGroup;
 }
-```
+// ```

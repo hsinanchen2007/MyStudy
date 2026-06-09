@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-找规律第一行和最后一行是只有mod = 2 *( numRows -1);的数往上加就行
-其他行还要加上一个2 *( numRows -1 - 当时行数)的位置，这些行有两个
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 找规律第一行和最后一行是只有mod = 2 *( numRows -1);的数往上加就行
+// 其他行还要加上一个2 *( numRows -1 - 当时行数)的位置，这些行有两个
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String convert(String s, int numRows) {
          if (numRows == 1){
@@ -32,4 +32,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

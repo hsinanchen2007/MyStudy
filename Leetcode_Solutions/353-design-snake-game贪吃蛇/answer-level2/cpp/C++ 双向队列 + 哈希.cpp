@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class SnakeGame {
 public:
     int W;
@@ -77,6 +77,6 @@ public:
         return score;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/a33d4246c8d025a314bed49066b0215c26448bf0e86b31764c1aaf34d8f5b05a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a33d4246c8d025a314bed49066b0215c26448bf0e86b31764c1aaf34d8f5b05a-image.png)

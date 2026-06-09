@@ -1,26 +1,26 @@
-### 解题思路
-方法一：正则表达式
-此时不用更待何时，但是时空复杂度O(n*2)和O(n+m)是真的差
+# ### 解题思路
+# 方法一：正则表达式
+# 此时不用更待何时，但是时空复杂度O(n*2)和O(n+m)是真的差
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import re
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         result=re.search(needle,haystack)
         return result.span()[0] if result else -1
-```
+# ```
 
-### 解题思路
-方法二：内置函数
-find(),Python和cpp独有函数
-index(),好像是Python独有的
-时空复杂度都有进步，但是我不知道内部是什么原理
-KMP？红黑树？
+# ### 解题思路
+# 方法二：内置函数
+# find(),Python和cpp独有函数
+# index(),好像是Python独有的
+# 时空复杂度都有进步，但是我不知道内部是什么原理
+# KMP？红黑树？
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         return haystack.find(needle)
@@ -28,13 +28,13 @@ class Solution:
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         return haystack.index(needle) if needle in haystack else -1
-```
+# ```
 
-### 解题思路
-方法三：KMP
+# ### 解题思路
+# 方法三：KMP
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         def get_next(p): 
@@ -63,9 +63,9 @@ class Solution:
             else:
                 return -1 
         return kmp(haystack, needle, get_next(needle))
-```
+# ```
 
-### 解题思路
-还没写的：
-KMP
-BM
+# ### 解题思路
+# 还没写的：
+# KMP
+# BM

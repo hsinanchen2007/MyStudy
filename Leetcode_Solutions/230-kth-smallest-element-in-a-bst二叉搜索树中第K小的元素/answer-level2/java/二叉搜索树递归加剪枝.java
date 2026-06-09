@@ -1,5 +1,5 @@
-递归加加剪枝，回溯添加到k个元素的时候返回，不再回溯。
-```
+// 递归加加剪枝，回溯添加到k个元素的时候返回，不再回溯。
+// ```
 class Solution {
     int count=0;
     public int kthSmallest(TreeNode root, int k) {
@@ -21,5 +21,5 @@ class Solution {
         return arr;
     }
 }
-```
+// ```
 

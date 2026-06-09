@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-方法1：不需要翻转链表：找到链表最后节点，直接加1，然后从尾往头更新进位，这里从尾往头遍历时需要每次找到当前节点的前置节点。
+// 方法1：不需要翻转链表：找到链表最后节点，直接加1，然后从尾往头更新进位，这里从尾往头遍历时需要每次找到当前节点的前置节点。
 
-```
+// ```
 public ListNode plusOne(ListNode head) {
     //遍历到最后一个节点
     ListNode fakeHead = new ListNode(0), cur = head;
@@ -33,12 +33,12 @@ public ListNode plusOne(ListNode head) {
     }
     return fakeHead.next;
 }
-```
+// ```
 
-方法2：翻转链表，头结点+1，处理进位，然后再翻转回来
+// 方法2：翻转链表，头结点+1，处理进位，然后再翻转回来
 
 
-```
+// ```
 public ListNode plusOne(ListNode head) {
     ListNode reverse = reverseListNode(head);
 
@@ -80,4 +80,4 @@ private ListNode reverseListNode(ListNode head){
     }
     return fakeHead.next;
 }
-```
+// ```

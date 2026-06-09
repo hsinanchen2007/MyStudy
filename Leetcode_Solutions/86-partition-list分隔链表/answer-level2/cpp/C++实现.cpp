@@ -1,5 +1,5 @@
 
-```
+// ```
 // 1.创建2个左右的虚拟节点来放大于 小于等于的节点
     ListNode* partition(ListNode* head, int x) {
         if (head == nullptr) return head;
@@ -30,4 +30,4 @@
         delete lDummyNode;
         return resultNode;
     }
-```
+// ```

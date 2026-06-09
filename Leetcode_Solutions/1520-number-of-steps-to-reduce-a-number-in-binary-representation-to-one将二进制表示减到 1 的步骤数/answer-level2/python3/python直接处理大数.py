@@ -1,6 +1,6 @@
-python可以处理大数。
+# python可以处理大数。
 
-```
+# ```
 class Solution(object):
     def numSteps(self, s):
         a = int(s, 2)
@@ -12,4 +12,4 @@ class Solution(object):
                 a >>= 1
             res += 1
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-就一个地方稍微注意，就是如果要买的话需要从前一天来买。
+// ### 解题思路
+// 就一个地方稍微注意，就是如果要买的话需要从前一天来买。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   public int maxProfit(int[] prices) {
       if (prices.length<=1) return 0;
@@ -38,4 +38,4 @@ class Solution {
         return Math.max(a, b);
     }
 }
-```
+// ```

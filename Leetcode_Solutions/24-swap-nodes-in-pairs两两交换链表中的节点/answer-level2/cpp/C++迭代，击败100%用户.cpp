@@ -1,7 +1,7 @@
-![QQ图片20190829105338.png](https://pic.leetcode-cn.com/c31651cb2be6090f3eb2879705e295615b30ef6e7c892f9297c110b8e09f1e4d-QQ%E5%9B%BE%E7%89%8720190829105338.png)
-迭代法转置链表，也不难，看注释就行
-- 
-```
+// ![QQ图片20190829105338.png](https://pic.leetcode-cn.com/c31651cb2be6090f3eb2879705e295615b30ef6e7c892f9297c110b8e09f1e4d-QQ%E5%9B%BE%E7%89%8720190829105338.png)
+// 迭代法转置链表，也不难，看注释就行
+// - 
+// ```
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
@@ -43,4 +43,4 @@ public:
         return n;
     }
 };
-```
+// ```

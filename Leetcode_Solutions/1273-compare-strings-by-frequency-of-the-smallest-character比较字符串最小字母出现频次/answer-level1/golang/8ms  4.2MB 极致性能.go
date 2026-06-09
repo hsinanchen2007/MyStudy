@@ -1,5 +1,5 @@
-### 完整代码
-```
+// ### 完整代码
+// ```
 func numSmallerByFrequency(queries []string, words []string) []int {
     // 闭包函数查询字符串中最小字母的出现频次
 	f := func(s string) int {
@@ -68,7 +68,7 @@ func numSmallerByFrequency(queries []string, words []string) []int {
 	}
 	return result
 }
-```
-### 执行结果
-![image.png](https://pic.leetcode-cn.com/31166f11f06d013277764c2fbdb5f8824635a18bb154440ccc3d9ac6d6719ea1-image.png)
+// ```
+// ### 执行结果
+// ![image.png](https://pic.leetcode-cn.com/31166f11f06d013277764c2fbdb5f8824635a18bb154440ccc3d9ac6d6719ea1-image.png)
 

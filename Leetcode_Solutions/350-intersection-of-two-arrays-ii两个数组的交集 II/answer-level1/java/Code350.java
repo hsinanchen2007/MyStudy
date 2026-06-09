@@ -1,10 +1,10 @@
-### 解题思路
-用Map来记录nums1中的元素和出现次数，
-然后nums2中进行匹配，有相同就加入list并计数减1
+// ### 解题思路
+// 用Map来记录nums1中的元素和出现次数，
+// 然后nums2中进行匹配，有相同就加入list并计数减1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         int length1 = nums1.length;
@@ -58,4 +58,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

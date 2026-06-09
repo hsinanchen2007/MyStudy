@@ -1,11 +1,11 @@
-### 解题思路
-先看看能不能除尽，能除尽就求最小公因数
-求最小公因数：两个字符串中都有最小的公因数，所以只用求出公因数的长度，再用substring(0,b)；截取一下就可以。
-求最小公因数长度：用b=str1.length()%str2.length()==0，a=b;一直循环，知道b为0，返回a
+// ### 解题思路
+// 先看看能不能除尽，能除尽就求最小公因数
+// 求最小公因数：两个字符串中都有最小的公因数，所以只用求出公因数的长度，再用substring(0,b)；截取一下就可以。
+// 求最小公因数长度：用b=str1.length()%str2.length()==0，a=b;一直循环，知道b为0，返回a
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2){
         char[] array=new char[str1.length()];
@@ -31,4 +31,4 @@ class Solution {
         return b==0? a:getIndex(b,a%b);
     }
 }
-```
+// ```

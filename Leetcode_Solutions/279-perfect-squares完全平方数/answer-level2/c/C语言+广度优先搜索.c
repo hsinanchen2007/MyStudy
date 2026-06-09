@@ -1,4 +1,4 @@
-```c
+// ```c
 int numSquares(int n){ 
     int count = 1; // 所需要的完全平方数的个数，最小为1
     
@@ -45,4 +45,4 @@ int numSquares(int n){
     }
     return; // 此处return仅为编译通过，因为返回必然在while之内
 }
-```
+// ```

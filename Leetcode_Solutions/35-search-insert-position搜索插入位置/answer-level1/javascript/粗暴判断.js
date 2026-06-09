@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -16,4 +16,4 @@ var searchInsert = function(nums, target) {
         }
     }
 };
-```
+// ```

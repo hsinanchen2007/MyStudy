@@ -1,6 +1,6 @@
-递归翻转，添加引用。
+// 递归翻转，添加引用。
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -20,4 +20,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

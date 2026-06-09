@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def nextGreaterElements(nums: Array[Int]): Array[Int] = {
     val st = new mutable.Stack[Int]
@@ -15,4 +15,4 @@ object Solution {
     res
   }
 }
-```
+// ```

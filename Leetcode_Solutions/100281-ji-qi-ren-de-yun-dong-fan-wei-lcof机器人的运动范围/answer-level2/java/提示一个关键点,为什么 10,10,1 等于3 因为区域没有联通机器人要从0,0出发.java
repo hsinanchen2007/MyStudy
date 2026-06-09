@@ -1,4 +1,4 @@
-``` java
+// ``` java
 public class 面试题13机器人的运动范围 {
 //    public int get(int x) {
 //        int res = 0;
@@ -54,4 +54,4 @@ public class 面试题13机器人的运动范围 {
     }
 }
 
-```
+// ```

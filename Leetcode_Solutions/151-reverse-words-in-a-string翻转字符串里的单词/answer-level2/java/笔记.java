@@ -1,10 +1,10 @@
-### 解题思路
-暴力法？
-去看看其他的大佬的操作
+// ### 解题思路
+// 暴力法？
+// 去看看其他的大佬的操作
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.regex.Pattern;
 
 class Solution {
@@ -49,4 +49,4 @@ class Solution {
     }
 }
 
-```
+// ```

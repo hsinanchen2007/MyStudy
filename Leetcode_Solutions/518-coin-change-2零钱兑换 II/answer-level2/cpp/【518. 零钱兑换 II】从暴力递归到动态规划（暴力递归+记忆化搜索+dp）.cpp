@@ -1,7 +1,7 @@
-## 思路一：暴力递归
-尝试，尝试每个硬币的每个可能数量。
-### 代码
-```c++
+// ## 思路一：暴力递归
+// 尝试，尝试每个硬币的每个可能数量。
+// ### 代码
+// ```c++
 class Solution {
 public:
     int change(int amount, vector<int>& coins) {
@@ -24,12 +24,12 @@ public:
         return way;
     }
 };
-```
+// ```
 
-## 思路二：记忆化搜索
-**注意：因为可以达到index和amount位置，所以记忆化数组大小+1**
-### 代码
-```c++
+// ## 思路二：记忆化搜索
+// **注意：因为可以达到index和amount位置，所以记忆化数组大小+1**
+// ### 代码
+// ```c++
 class Solution {
 public:
     int change(int amount, vector<int>& coins) {
@@ -58,14 +58,14 @@ public:
         return way;
     }
 };
-```
+// ```
 
-## 思路三：动态规划
-根据暴力递归修改为动态规划（row表示coins下标，am表示钱数）
-![image.png](https://pic.leetcode-cn.com/a4ecabdddc36c0c2f3c206dacb0ea2b5f3b7eacab7f5c3a7a96f5ba0edb98c41-image.png)
+// ## 思路三：动态规划
+// 根据暴力递归修改为动态规划（row表示coins下标，am表示钱数）
+// ![image.png](https://pic.leetcode-cn.com/a4ecabdddc36c0c2f3c206dacb0ea2b5f3b7eacab7f5c3a7a96f5ba0edb98c41-image.png)
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     int change(int amount, vector<int>& coins) {
@@ -92,9 +92,9 @@ public:
         return dp[0][amount];
     }
 };
-```
-#### 优化代码
-```c++
+// ```
+// #### 优化代码
+// ```c++
 class Solution {
 public:
     int change(int amount, vector<int>& coins) {
@@ -118,7 +118,7 @@ public:
         return dp[0][amount];
     }
 };
-```
+// ```
 
 
 

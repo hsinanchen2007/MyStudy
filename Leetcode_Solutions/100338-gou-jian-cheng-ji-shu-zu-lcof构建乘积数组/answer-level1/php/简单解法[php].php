@@ -1,9 +1,9 @@
-### 解题思路
-[参考这位老哥的](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/solution/liang-tang-bian-li-by-z1m/)
+// ### 解题思路
+// [参考这位老哥的](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/solution/liang-tang-bian-li-by-z1m/)
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -29,4 +29,4 @@ class Solution {
         return $l;
     }
 }
-```
+// ```

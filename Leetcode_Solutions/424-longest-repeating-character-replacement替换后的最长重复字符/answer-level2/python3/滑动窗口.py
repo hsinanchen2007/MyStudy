@@ -1,9 +1,9 @@
-### 解题思路
-max_value + k >= right - left + 1
+# ### 解题思路
+# max_value + k >= right - left + 1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         if not s:
@@ -32,4 +32,4 @@ class Solution:
                 flag = True
 
         return max_len
-```
+# ```

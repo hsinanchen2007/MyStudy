@@ -1,8 +1,8 @@
-### 解题思路
-一直除取余数，再把余数减去就行，当0.099999*k(k是10，100，1000递增)>x的时候停止
-### 代码
+# ### 解题思路
+# 一直除取余数，再把余数减去就行，当0.099999*k(k是10，100，1000递增)>x的时候停止
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isPalindrome(self, x):
         #不用字符串
@@ -21,4 +21,4 @@ class Solution(object):
             return array==array[::-1]
 
 
-```
+# ```

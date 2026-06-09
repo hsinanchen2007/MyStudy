@@ -1,11 +1,11 @@
-### 解题思路
-相邻步骤间的关系是动态规划的最主要问题
-初始状态：第一行的值本身为该位置结尾的最小值
-遍历当前行的每一列，该位置结尾的最小值应为(当前值+上一步骤中的非当前列的最小值)
+# ### 解题思路
+# 相邻步骤间的关系是动态规划的最主要问题
+# 初始状态：第一行的值本身为该位置结尾的最小值
+# 遍历当前行的每一列，该位置结尾的最小值应为(当前值+上一步骤中的非当前列的最小值)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minFallingPathSum(self, arr: List[List[int]]) -> int:
         nrow = len(arr)
@@ -19,4 +19,4 @@ class Solution:
                 del cp2[subcol]
                 dict1[subrow].append(min(cp2)+arr[subrow][subcol])
         return min(dict1[nrow-1])
-```
+# ```

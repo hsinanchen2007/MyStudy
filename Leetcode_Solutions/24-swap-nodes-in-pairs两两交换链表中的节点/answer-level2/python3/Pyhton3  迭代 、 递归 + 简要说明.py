@@ -1,20 +1,20 @@
-一、Clarification
+# 一、Clarification
 
-目标明确两两交换链表中的节点，无特别需要注意的边界但需常规关注下空链表和只有一个元素的链表
+# 目标明确两两交换链表中的节点，无特别需要注意的边界但需常规关注下空链表和只有一个元素的链表
 
-二、Possible solutions
+# 二、Possible solutions
 
-1、迭代
+# 1、迭代
 
-在边界内同时取出2个节点并交换，然后向下移动2位，使用哨兵简化处理，空链表，一个元素的链表
+# 在边界内同时取出2个节点并交换，然后向下移动2位，使用哨兵简化处理，空链表，一个元素的链表
 
-2、递归
+# 2、递归
 
-递归终止条件 head 和 head.next 为None，每层递归交换当前两节点，并返回 交换后两个节点中的前一个节点
+# 递归终止条件 head 和 head.next 为None，每层递归交换当前两节点，并返回 交换后两个节点中的前一个节点
 
-迭代实现
+# 迭代实现
 
-```python
+# ```python
 #@author:leacoder
 #@des: 循环实现  多元赋值
 class Solution:
@@ -27,11 +27,11 @@ class Solution:
             pre.next,b.next,a.next,= b,a,b.next # 2个节点交换,注意哨兵的next改变了
             pre = a # 向下移动2位
         return retult.next
-```
+# ```
 
-递归实现
+# 递归实现
 
-```python
+# ```python
 #@author:leacoder
 #@des: 递归实现  多元赋值
 
@@ -44,4 +44,4 @@ class Solution:
         A, B = head, head.next # 当前两节点
         A.next, B.next = resultmp,A # 交换
         return  B   # 返回 两两交换后  两个节点中的前一个节点
-```
+# ```

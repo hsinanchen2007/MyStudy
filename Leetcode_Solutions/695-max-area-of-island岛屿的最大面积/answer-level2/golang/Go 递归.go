@@ -1,4 +1,4 @@
-```
+// ```
 func maxAreaOfIsland(grid [][]int) int {
     max := 0
     for i:=0;i<len(grid);i++{
@@ -27,4 +27,4 @@ func GetArea(grid [][]int, i,j int) int {
     }
     return 0
 }
-```
+// ```

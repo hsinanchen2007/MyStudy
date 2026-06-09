@@ -1,4 +1,4 @@
-```js
+// ```js
 var isSubsequence2 = function(s, t) {
     if (s.length === 0) {
         return true;
@@ -18,4 +18,4 @@ var isSubsequence2 = function(s, t) {
     }
     return false;
 };
-```
+// ```

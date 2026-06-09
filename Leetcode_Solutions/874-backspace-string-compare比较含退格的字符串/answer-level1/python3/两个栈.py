@@ -1,9 +1,9 @@
-### 解题思路
-建立两个栈，遇到#就出战栈，最后判断栈是否相等
+# ### 解题思路
+# 建立两个栈，遇到#就出战栈，最后判断栈是否相等
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def backspaceCompare(self, S: str, T: str) -> bool:
         s1=[]
@@ -23,4 +23,4 @@ class Solution:
         return s1==s2
         
         
-```
+# ```

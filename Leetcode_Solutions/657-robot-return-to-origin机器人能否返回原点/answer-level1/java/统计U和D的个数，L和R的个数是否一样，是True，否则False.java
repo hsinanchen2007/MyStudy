@@ -1,6 +1,6 @@
-### 解题思路
+// ### 解题思路
 
-```java
+// ```java
 class Solution {
     public boolean judgeCircle(String moves) {
         int du =0;
@@ -15,4 +15,4 @@ class Solution {
         return du ==0 && lr ==0;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/794d67e9d651d436684e8ce5f4fb0cf38d5e3652473bd65dbea687ff7ff2ee2c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/794d67e9d651d436684e8ce5f4fb0cf38d5e3652473bd65dbea687ff7ff2ee2c-image.png)
 
-思路:整数转换罗马数字的过程是把一个数字分解成有几个特定数字相加的过程,先从最高的分量(1000)开始处理,把一个数字处理成"可以用几个1000相加",之后以此类推,计算出所有分量的个数,最后组成罗马字符串.
+// 思路:整数转换罗马数字的过程是把一个数字分解成有几个特定数字相加的过程,先从最高的分量(1000)开始处理,把一个数字处理成"可以用几个1000相加",之后以此类推,计算出所有分量的个数,最后组成罗马字符串.
 
 
-```
+// ```
 #include<string.h>
 char *romanBaseValue(int m) {
     switch (m) {
@@ -74,4 +74,4 @@ char * intToRoman(int n){
     return ret;
     
 }
-```
+// ```

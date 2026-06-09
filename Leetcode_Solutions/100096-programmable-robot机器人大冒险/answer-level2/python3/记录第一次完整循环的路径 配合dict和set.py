@@ -1,7 +1,7 @@
-思路：中间重复过程没有必要一个一个看
-注意：在执行用时分布图标看到很多人是差不多的思路 但是用的是list记录路径 搜索的话还是dict和set快一些
-本人菜鸡 主要的语句都添加了注释 请大家多多指教
-```
+# 思路：中间重复过程没有必要一个一个看
+# 注意：在执行用时分布图标看到很多人是差不多的思路 但是用的是list记录路径 搜索的话还是dict和set快一些
+# 本人菜鸡 主要的语句都添加了注释 请大家多多指教
+# ```
 class Solution:
 	def robot(self,command,obstacles,x,y):
 		situ={0:{0}} #记录初始点的位置 key是横坐标 val是纵坐标
@@ -27,4 +27,4 @@ class Solution:
 			elif res: #被障碍物挡着了 所以是False
 				return False
 		return True #一路上畅通无阻 所以True
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minSubsequence(self, nums: List[int]) -> List[int]:
     #先排序，设第i个元素左边（包括i）求和为sum_L,右边为sum_R,根据题意，i逐渐右移，
@@ -13,4 +13,4 @@ class Solution:
                 sum_R -= r[i]
                 if sum_L > sum_R:
                     return r[:i+1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-通过新区间的左区间与数组中各个区间的右区间来判断插入位置，代码有详细解释
+// ### 解题思路
+// 通过新区间的左区间与数组中各个区间的右区间来判断插入位置，代码有详细解释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         List<int[]> res = new ArrayList<int[]>();
@@ -46,4 +46,4 @@ class Solution {
 		return res.toArray(new int[0][]);
     }
 }
-```
+// ```

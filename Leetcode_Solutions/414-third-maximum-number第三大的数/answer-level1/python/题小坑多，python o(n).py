@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution(object):
     def thirdMax(self, nums):
         """
@@ -24,4 +24,4 @@ class Solution(object):
             return ans[0]
         else:
             return ans[-1]
-```
+# ```

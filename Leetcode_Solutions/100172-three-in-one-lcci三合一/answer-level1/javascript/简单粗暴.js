@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} stackSize
  */
@@ -68,4 +68,4 @@ TripleInOne.prototype.isEmpty = function(stackNum) {
  * var param_3 = obj.peek(stackNum)
  * var param_4 = obj.isEmpty(stackNum)
  */
-```
+// ```

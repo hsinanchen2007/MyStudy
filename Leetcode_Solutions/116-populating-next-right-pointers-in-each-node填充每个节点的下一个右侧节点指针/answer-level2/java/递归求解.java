@@ -1,9 +1,9 @@
-## 递归求解
-思路如下：
-node.left.next = node.right;
-node.right.next = node.next.left;
+// ## 递归求解
+// 思路如下：
+// node.left.next = node.right;
+// node.right.next = node.next.left;
 
-```java
+// ```java
 class Solution {
     public Node connect(Node root) {
         if(root==null) return null;
@@ -20,4 +20,4 @@ class Solution {
         helper(node.right);
     }
 }
-```
+// ```

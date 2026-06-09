@@ -1,4 +1,4 @@
-```
+// ```
 int integerBreak(int n) {
 		vector<int> dp(n + 1, 1);
 		int max = 1;
@@ -10,4 +10,4 @@ int integerBreak(int n) {
 		}
 		return dp[n];
 	}
-```
+// ```

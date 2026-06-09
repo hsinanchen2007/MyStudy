@@ -1,11 +1,11 @@
-### 解题思路
-1. 从 1 开始递增
-2. 判断是否存在两个数都是无零整数，是则直接返回
+// ### 解题思路
+// 1. 从 1 开始递增
+// 2. 判断是否存在两个数都是无零整数，是则直接返回
 
-![image.png](https://pic.leetcode-cn.com/4d4092ede003ed44e6fd5abf800ce4d5d36dc1c0db797be730990592619e0d99-image.png)
-### 代码
+// ![image.png](https://pic.leetcode-cn.com/4d4092ede003ed44e6fd5abf800ce4d5d36dc1c0db797be730990592619e0d99-image.png)
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int[] getNoZeroIntegers(int n) {
         int[] rs = new int[2];
@@ -27,4 +27,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

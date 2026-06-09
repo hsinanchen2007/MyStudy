@@ -1,5 +1,5 @@
-List模拟没啥可说的
-```
+// List模拟没啥可说的
+// ```
  class MyStack() {
     var lst : List[Int] = Nil
 
@@ -19,4 +19,4 @@ List模拟没啥可说的
       lst == Nil
     }
   }
-```
+// ```

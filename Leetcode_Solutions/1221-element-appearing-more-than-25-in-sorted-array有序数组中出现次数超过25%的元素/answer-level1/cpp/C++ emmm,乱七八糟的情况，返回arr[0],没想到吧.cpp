@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findSpecialInteger(vector<int>& arr) {
@@ -13,4 +13,4 @@ public:
         return arr[0];
     }
 };
-```
+// ```

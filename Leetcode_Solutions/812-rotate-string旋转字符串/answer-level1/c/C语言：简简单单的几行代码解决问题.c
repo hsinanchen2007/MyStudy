@@ -1,6 +1,6 @@
-![QQ截图20190630154501.png](https://pic.leetcode-cn.com/9e32d4337ce98a2a38eeec013ecc499d86b7282f51e8b266c13b57539223d367-QQ%E6%88%AA%E5%9B%BE20190630154501.png)
+// ![QQ截图20190630154501.png](https://pic.leetcode-cn.com/9e32d4337ce98a2a38eeec013ecc499d86b7282f51e8b266c13b57539223d367-QQ%E6%88%AA%E5%9B%BE20190630154501.png)
 
-```
+// ```
 bool rotateString(char * A, char * B){
     if (strlen(A) != strlen(B)) return false;
     if (!strlen(A)) return true;
@@ -18,4 +18,4 @@ bool rotateString(char * A, char * B){
 
     return false;
 }
-```
+// ```

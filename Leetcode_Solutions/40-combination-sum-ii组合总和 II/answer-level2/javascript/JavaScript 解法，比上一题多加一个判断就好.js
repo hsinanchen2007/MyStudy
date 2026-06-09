@@ -1,4 +1,4 @@
-```
+// ```
 var combinationSum2 = function(candidates, target) {
     candidates.sort((a,b)=>{return b-a})
   
@@ -33,4 +33,4 @@ var combinationSum2 = function(candidates, target) {
 if (candidates[start] === candidates[start-1] && start > i) continue;
 如果两个一样的数字，只要走前一个就好
 
-```
+// ```

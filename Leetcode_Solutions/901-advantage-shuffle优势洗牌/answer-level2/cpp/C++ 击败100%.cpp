@@ -1,7 +1,7 @@
-![Screenshot from 2019-09-25 22-14-14.png](https://pic.leetcode-cn.com/15d74dbd1f10a1a5c803853f7c145e177468a0acb8649e1cb00333599d7352b4-Screenshot%20from%202019-09-25%2022-14-14.png)
+// ![Screenshot from 2019-09-25 22-14-14.png](https://pic.leetcode-cn.com/15d74dbd1f10a1a5c803853f7c145e177468a0acb8649e1cb00333599d7352b4-Screenshot%20from%202019-09-25%2022-14-14.png)
 
 
-```
+// ```
 class Solution {
 public:
     vector<int> advantageCount(vector<int>& A, vector<int>& B) {
@@ -30,4 +30,4 @@ public:
         return result;
     }
 };
-```
+// ```

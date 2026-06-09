@@ -1,9 +1,9 @@
-### 解题思路
-从右往左，通过比较max和当前值来更新max即可
+// ### 解题思路
+// 从右往左，通过比较max和当前值来更新max即可
 
-### 代码
+// ### 代码
 
-```javascript []
+// ```javascript []
 var replaceElements = function(arr) {
     let max = -1, res = [];
 
@@ -13,8 +13,8 @@ var replaceElements = function(arr) {
     }
     return res;
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int[] replaceElements(int[] arr) {
         int[] res = new int[arr.length];
@@ -28,4 +28,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

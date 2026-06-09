@@ -1,5 +1,5 @@
-一层一层计算可以接到的雨水量
-```
+// 一层一层计算可以接到的雨水量
+// ```
 func trap(_ height: [Int]) -> Int {
         if height.count <= 1 {
             return 0
@@ -43,4 +43,4 @@ func trap(_ height: [Int]) -> Int {
         
         return res
     }
-```
+// ```

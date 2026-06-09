@@ -1,9 +1,9 @@
-### 解题思路
-nums[mid]==nums[right]
-right--
-### 代码
+// ### 解题思路
+// nums[mid]==nums[right]
+// right--
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
     }
 };
 
-```
+// ```

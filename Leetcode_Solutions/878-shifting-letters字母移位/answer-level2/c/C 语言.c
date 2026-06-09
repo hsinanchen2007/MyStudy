@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 char * shiftingLetters(char * S, int* shifts, int shiftsSize)
 {
@@ -15,4 +15,4 @@ char * shiftingLetters(char * S, int* shifts, int shiftsSize)
     }
     return S;
 }
-```
+// ```

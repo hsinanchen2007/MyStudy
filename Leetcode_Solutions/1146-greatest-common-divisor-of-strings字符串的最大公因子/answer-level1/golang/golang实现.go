@@ -1,4 +1,4 @@
-```
+// ```
 func gcdOfStrings(str1 string, str2 string) string {
 	candidateLen := gcd(len(str1), len(str2))
 	candidate := str1[0:candidateLen]
@@ -16,4 +16,4 @@ func gcd(x, y int) int {
 		return y
 	}
 }
-```
+// ```

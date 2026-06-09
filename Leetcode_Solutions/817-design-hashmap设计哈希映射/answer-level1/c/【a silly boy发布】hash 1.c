@@ -1,4 +1,4 @@
-```
+// ```
 #define MAXSIZE 1000001
 
 typedef struct {
@@ -50,4 +50,4 @@ void myHashMapFree(MyHashMap* obj) {
  
  * myHashMapFree(obj);
 */
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def balancedStringSplit(self, s: str) -> int:
         s = list(s)
@@ -18,4 +18,4 @@ class Solution:
         if not stack:
             count += 1
         return count
-```
+# ```

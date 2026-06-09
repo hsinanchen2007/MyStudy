@@ -1,9 +1,9 @@
-### 解题思路
-不重叠很好判断,全部列出来就完了
+// ### 解题思路
+// 不重叠很好判断,全部列出来就完了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -12,4 +12,4 @@ public:
 
     }
 };
-```
+// ```

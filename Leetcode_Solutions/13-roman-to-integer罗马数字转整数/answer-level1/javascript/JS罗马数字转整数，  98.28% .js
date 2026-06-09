@@ -1,12 +1,12 @@
-/**
- * @param {string} s
- * @return {number}
- * 思路：
- * 1、js抓位置，该位置对比后一个位置的值，比后一个值大，之前用，比后一个值小，加上后一个值再进行运算
- * 2、1>undefind 是false,所以最后一位i的判断需要提前判断i+1是否存在
- *
- */
-```
+// /**
+//  * @param {string} s
+//  * @return {number}
+//  * 思路：
+//  * 1、js抓位置，该位置对比后一个位置的值，比后一个值大，之前用，比后一个值小，加上后一个值再进行运算
+//  * 2、1>undefind 是false,所以最后一位i的判断需要提前判断i+1是否存在
+//  *
+//  */
+// ```
 
 var romanToInt = function(s) {
     //先解构，
@@ -38,4 +38,4 @@ var romanToInt = function(s) {
     }
     return newnum
 };
-```
+// ```

@@ -1,5 +1,5 @@
-部门出游，出去分房间，两个队，单身的一队，通铺的一队，-_-||，还有通铺？！
-```
+// 部门出游，出去分房间，两个队，单身的一队，通铺的一队，-_-||，还有通铺？！
+// ```
 func groupThePeople(groupSizes []int) [][]int {
 	groups := make(map[int][]int)
 	for id, group := range groupSizes {
@@ -24,4 +24,4 @@ func groupThePeople(groupSizes []int) [][]int {
 	}
 	return result
 }
-```
+// ```

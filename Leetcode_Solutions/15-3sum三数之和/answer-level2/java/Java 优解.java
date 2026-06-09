@@ -1,5 +1,5 @@
-**双指针问题，多出一个C位，让双指针指向的数据和C为的数据相加**
-```
+// **双指针问题，多出一个C位，让双指针指向的数据和C为的数据相加**
+// ```
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> lists = new ArrayList<>();
@@ -35,4 +35,4 @@ class Solution {
         return lists;
     }
 }
-```
+// ```

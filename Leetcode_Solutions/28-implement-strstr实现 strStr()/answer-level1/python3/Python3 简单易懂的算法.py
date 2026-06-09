@@ -1,9 +1,9 @@
-### 解题思路
-执行用时 :32 ms, 在所有 Python3 提交中击败了90.77%的用户
+# ### 解题思路
+# 执行用时 :32 ms, 在所有 Python3 提交中击败了90.77%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         """
@@ -15,4 +15,4 @@ class Solution:
             return len(haystack.split(needle)[0]) 
         return -1
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-BFS的题目总是要写好长好长一大段，而且涉及小细节极多。
+// ### 解题思路
+// BFS的题目总是要写好长好长一大段，而且涉及小细节极多。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool myfun(pair<string, int> a, pair<string, int> b)
@@ -78,4 +78,4 @@ public:
         return result;
     }
 };
-```
+// ```

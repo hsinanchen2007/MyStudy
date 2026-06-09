@@ -1,13 +1,13 @@
-### 解题思路
-当合并两个数组时，不需要对所有的元素归并，只需要对中间的部分进行归并,然后搬运回原数组即可
+// ### 解题思路
+// 当合并两个数组时，不需要对所有的元素归并，只需要对中间的部分进行归并,然后搬运回原数组即可
 
-例如，1 1 2 **4 6** 与 **3 5** 7 8 9 的归并，只需要归并其中的**黑体部分**即可，其他部分放在原来的数组中不动就行。
+// 例如，1 1 2 **4 6** 与 **3 5** 7 8 9 的归并，只需要归并其中的**黑体部分**即可，其他部分放在原来的数组中不动就行。
 
-![执行时间](https://pic.leetcode-cn.com/4de51253374af4a949e6db7c718560bf634596f7d434c267dca2cb1821e1d89d-%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20200101115015.png)
+// ![执行时间](https://pic.leetcode-cn.com/4de51253374af4a949e6db7c718560bf634596f7d434c267dca2cb1821e1d89d-%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20200101115015.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int mergeSort(vector<int>& arr1, vector<int>& arr2, int l, int r, bool top)
@@ -49,4 +49,4 @@ public:
         return mergeSort(nums,arr2,0,nums.size() - 1,true);
     }
 };
-```
+// ```

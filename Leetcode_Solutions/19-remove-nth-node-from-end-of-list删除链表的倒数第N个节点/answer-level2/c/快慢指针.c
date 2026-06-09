@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-需要另外讨论删除节点是头节点的情况
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 需要另外讨论删除节点是头节点的情况
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     return head;
     }
 }
-```
+// ```

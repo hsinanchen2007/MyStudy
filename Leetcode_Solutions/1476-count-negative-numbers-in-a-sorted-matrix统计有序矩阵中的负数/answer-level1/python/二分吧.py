@@ -1,9 +1,9 @@
-### 解题思路
-利用二分找到大于0的右边界
+# ### 解题思路
+# 利用二分找到大于0的右边界
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countNegatives(self, grid):
         """
@@ -25,4 +25,4 @@ class Solution(object):
             res.append(n - left)
             # print(res)
         return sum(res)
-```
+# ```

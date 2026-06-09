@@ -1,10 +1,10 @@
-### 解题思路
-先后移，后插入（赋值）。
+// ### 解题思路
+// 先后移，后插入（赋值）。
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -19,4 +19,4 @@ int* createTargetArray(int* nums, int numsSize, int* index, int indexSize, int* 
     *returnSize=indexSize;
     return array;
 }
-```
+// ```

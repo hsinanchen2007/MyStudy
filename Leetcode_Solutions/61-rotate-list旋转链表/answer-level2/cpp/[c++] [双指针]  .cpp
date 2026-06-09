@@ -1,9 +1,9 @@
-### 解题思路
-首选正向考虑问题，完全模拟即可
+// ### 解题思路
+// 首选正向考虑问题，完全模拟即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
@@ -23,4 +23,4 @@ public:
         return head;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1.创建哈希表，结构为：第n行的字符：n，以此来查询所求单词的各个字符在第几行
-2.遍历列表words,再遍历每个单词的各个字符，看是否是同一行，我这里设置了一个flag,如果遇到不是同一行的，就设Flag为False
-3.最后根据Flag的值来判断单词是否符合要求
+# ### 解题思路
+# 1.创建哈希表，结构为：第n行的字符：n，以此来查询所求单词的各个字符在第几行
+# 2.遍历列表words,再遍历每个单词的各个字符，看是否是同一行，我这里设置了一个flag,如果遇到不是同一行的，就设Flag为False
+# 3.最后根据Flag的值来判断单词是否符合要求
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findWords(self, words: List[str]) -> List[str]:
         dct={}
@@ -26,4 +26,4 @@ class Solution:
                 ans.append(word)
         return ans  #返回目标数组
                 
-```
+# ```

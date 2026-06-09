@@ -1,11 +1,11 @@
-### 解题思路
-从头到尾提取字符，从0开始设置子串的开头位置,遇到重复的就把头设置到之前头位置的下一个。每次提取字符都和子串中所有字符重新进行比较。
+// ### 解题思路
+// 从头到尾提取字符，从0开始设置子串的开头位置,遇到重复的就把头设置到之前头位置的下一个。每次提取字符都和子串中所有字符重新进行比较。
 
 
-执行时间很波动,最好的时候只要4ms 一般8ms,最坏估计20ms,内存消耗5.5=4mb左右.
-### 代码
+// 执行时间很波动,最好的时候只要4ms 一般8ms,最坏估计20ms,内存消耗5.5=4mb左右.
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
             int NoRepeatNumber,MaxSubstringLength=0,SubStringFront=0,flag=0;   
                                         //NoRepeatNumber为当前子串长度
@@ -31,4 +31,4 @@ int lengthOfLongestSubstring(char * s){
             }
             return MaxSubstringLength;
 }
-```
+// ```

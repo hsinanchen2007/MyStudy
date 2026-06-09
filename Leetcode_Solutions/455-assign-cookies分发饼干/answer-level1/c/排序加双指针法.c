@@ -1,9 +1,9 @@
-### 解题思路
-如题
+// ### 解题思路
+// 如题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 void swap(int *a,int *b){
     int temp=*a;
@@ -48,4 +48,4 @@ int findContentChildren(int* g, int gSize, int* s, int sSize){
     }
     return count;
 }
-```
+// ```

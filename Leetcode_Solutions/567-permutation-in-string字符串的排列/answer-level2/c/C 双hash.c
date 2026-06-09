@@ -1,6 +1,6 @@
-s1的排列之一是s2的子串可以理解为，s1中所有字母出现的类型以及个数，和s2中长度为len(s1)的子串中所有字母出现的类型以及个数相同
-因此尝试用hash来做
-```
+// s1的排列之一是s2的子串可以理解为，s1中所有字母出现的类型以及个数，和s2中长度为len(s1)的子串中所有字母出现的类型以及个数相同
+// 因此尝试用hash来做
+// ```
 void getTemphash(int start, int end, char* s, int* temp)
 {
     int i;
@@ -37,4 +37,4 @@ bool checkInclusion(char * s1, char * s2){
     return false; //遍历完所有子串都不行
 
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 运行结果
+// ### 运行结果
 
-![image.png](https://pic.leetcode-cn.com/270172c437f6a396906a6433c7c2da37f4f0177886b8f27efae4a49397033779-image.png)
+// ![image.png](https://pic.leetcode-cn.com/270172c437f6a396906a6433c7c2da37f4f0177886b8f27efae4a49397033779-image.png)
 
-### 解题思路
-双端队列实现，应该是效率最低的方法了吧
+// ### 解题思路
+// 双端队列实现，应该是效率最低的方法了吧
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::collections::VecDeque;
 
 impl Solution {
@@ -31,4 +31,4 @@ impl Solution {
         (*count.iter().max().unwrap())
     }
 }
-```
+// ```

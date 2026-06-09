@@ -1,9 +1,9 @@
-简单思路：
-1. 根据开始时间和结束时间排序
-2. 判断当前是否有已经结束的房间，有的话就替换
+// 简单思路：
+// 1. 根据开始时间和结束时间排序
+// 2. 判断当前是否有已经结束的房间，有的话就替换
 
 
-```
+// ```
 func minMeetingRooms(intervals [][]int) int {
 	sort.Slice(intervals, func(i, j int) bool {
 		if intervals[i][0] == intervals[j][0] {
@@ -29,4 +29,4 @@ func minMeetingRooms(intervals [][]int) int {
 	}
 	return ret
 }
-```
+// ```

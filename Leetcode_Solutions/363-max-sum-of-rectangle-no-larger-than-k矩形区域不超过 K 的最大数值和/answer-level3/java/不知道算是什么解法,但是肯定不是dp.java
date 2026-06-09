@@ -1,12 +1,12 @@
-### 解题思路
-看了其他人的解法,没看明白为何要用二分分治,自己采用暴力法求解.通俗易懂.后面再思考思考其他人解法的巧妙.
-时间击败36.71%%,内存击败89.66%
-![图片.png](https://pic.leetcode-cn.com/46ea24b90ffedbd7e0a7b247fa0bcf4a64c2d2ce0fd896b40d44dde38b50448a-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// 看了其他人的解法,没看明白为何要用二分分治,自己采用暴力法求解.通俗易懂.后面再思考思考其他人解法的巧妙.
+// 时间击败36.71%%,内存击败89.66%
+// ![图片.png](https://pic.leetcode-cn.com/46ea24b90ffedbd7e0a7b247fa0bcf4a64c2d2ce0fd896b40d44dde38b50448a-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
  * Copyright (c) 2019
  * @Author:xiaoweixiang
@@ -77,4 +77,4 @@ public class Solution {
 
 
 }
-```
+// ```

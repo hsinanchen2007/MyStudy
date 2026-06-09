@@ -1,9 +1,9 @@
-### 解题思路
-左右两个指针，所指位置为字母，就交换，不是字母，不是字母的指针就移动一位，直到两个指针相遇结束。
+# ### 解题思路
+# 左右两个指针，所指位置为字母，就交换，不是字母，不是字母的指针就移动一位，直到两个指针相遇结束。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseOnlyLetters(self, S: str) -> str:
         S_list=list(S)
@@ -20,4 +20,4 @@ class Solution:
                 right -= 1
         
         return ''.join(S_list)
-```
+# ```

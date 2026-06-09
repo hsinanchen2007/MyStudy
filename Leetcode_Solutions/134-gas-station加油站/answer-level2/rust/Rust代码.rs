@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
     pub fn can_complete_circuit(gas: Vec<i32>, cost: Vec<i32>) -> i32 {
         let mut gas_left = 0;
@@ -18,4 +18,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

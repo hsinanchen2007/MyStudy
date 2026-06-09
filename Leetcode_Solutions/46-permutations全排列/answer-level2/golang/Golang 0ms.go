@@ -1,4 +1,4 @@
-```go
+// ```go
 func permute(nums []int) [][]int {
     res := make([][]int, 0)
     backtrack(&res, nums, []int{}, make(map[int]struct{}))
@@ -23,4 +23,4 @@ func backtrack(res *[][]int, nums []int, track []int, trackm map[int]struct{}) {
         delete(trackm, n)
     }
 }
-```
+// ```

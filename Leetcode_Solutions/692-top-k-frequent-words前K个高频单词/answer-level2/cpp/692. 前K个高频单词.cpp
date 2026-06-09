@@ -1,10 +1,10 @@
-### 解题思路
-先用map统计下单词数量
-再用sort排下序
+// ### 解题思路
+// 先用map统计下单词数量
+// 再用sort排下序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     struct node{
@@ -35,4 +35,4 @@ public:
         return res;
     }
 };
-```
+// ```

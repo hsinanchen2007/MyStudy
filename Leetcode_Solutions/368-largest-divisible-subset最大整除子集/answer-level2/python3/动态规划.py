@@ -1,6 +1,6 @@
-暴力动态规划，时间复杂度略大。
+# 暴力动态规划，时间复杂度略大。
 
-```
+# ```
 class Solution:
     def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
         if not nums:
@@ -27,9 +27,9 @@ class Solution:
                 cnt[0] = i
                 cnt[1] = len(res[i])
         return res[cnt[0]]
-```
-代码简化一下：
-```
+# ```
+# 代码简化一下：
+# ```
 class Solution:
     def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
         if not nums:
@@ -48,5 +48,5 @@ class Solution:
             if len(res[i]) > len(largest):
                 largest = res[i]
         return largest
-```
+# ```
 

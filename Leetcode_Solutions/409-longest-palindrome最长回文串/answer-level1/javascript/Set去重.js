@@ -1,11 +1,11 @@
-1. 思路：Set去重
-2. 每个字符加入set
-3. 有重复字符则length + 2，且set删除对应字符
-4. 根据最终set长度输出最终length
+// 1. 思路：Set去重
+// 2. 每个字符加入set
+// 3. 有重复字符则length + 2，且set删除对应字符
+// 4. 根据最终set长度输出最终length
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -23,4 +23,4 @@ var longestPalindrome = function(s) {
     }
     return strSet.size === 0 ? length : length + 1
 };
-```
+// ```

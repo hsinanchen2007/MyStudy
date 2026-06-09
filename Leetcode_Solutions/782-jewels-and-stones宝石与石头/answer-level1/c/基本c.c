@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路 注意第一层y循环做完之后，要把第二层的参数归零。
+// ### 解题思路
+// 此处撰写解题思路 注意第一层y循环做完之后，要把第二层的参数归零。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numJewelsInStones(char * J, char * S)
 {
     int i=0,t=0,flag=0;
@@ -22,4 +22,4 @@ int numJewelsInStones(char * J, char * S)
     }
     return flag;
 }
-```
+// ```

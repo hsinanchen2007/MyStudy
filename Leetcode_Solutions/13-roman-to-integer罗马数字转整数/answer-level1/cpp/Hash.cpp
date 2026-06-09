@@ -1,9 +1,9 @@
-### 解题思路
-使用初学的哈希表如下
+// ### 解题思路
+// 使用初学的哈希表如下
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int romanToInt(string s) {
@@ -27,4 +27,4 @@ public:
  return sum;
     }
 };
-```
+// ```

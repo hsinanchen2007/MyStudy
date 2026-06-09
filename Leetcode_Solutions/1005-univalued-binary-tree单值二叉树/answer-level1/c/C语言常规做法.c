@@ -1,5 +1,5 @@
-利用递归即可解决。这也是人生第一次用goto。
-```c
+// 利用递归即可解决。这也是人生第一次用goto。
+// ```c
 bool isUnivalTree(struct TreeNode* root){
     if(root->left){
         if(root->left->val!=root->val) return 0;
@@ -14,4 +14,4 @@ bool isUnivalTree(struct TreeNode* root){
     }
     return 1;
 }
-```
+// ```

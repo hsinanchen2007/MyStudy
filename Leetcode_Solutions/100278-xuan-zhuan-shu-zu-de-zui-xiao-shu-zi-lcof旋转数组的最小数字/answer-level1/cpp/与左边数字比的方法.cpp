@@ -1,8 +1,8 @@
-### 解题思路
-稍微改了一下剑指代码（书上原代码超时），因为与左边数字比，所以时间效率不如直接与右边比
-### 代码
+// ### 解题思路
+// 稍微改了一下剑指代码（书上原代码超时），因为与左边数字比，所以时间效率不如直接与右边比
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minArray(vector<int>& numbers) {
@@ -30,4 +30,4 @@ public:
         return numbers[indexBegin];
     }
 };
-```
+// ```

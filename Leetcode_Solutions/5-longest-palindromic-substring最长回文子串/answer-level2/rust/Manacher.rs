@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-[Manacher Algorithm](https://ethsonliu.com/2018/04/manacher.html)(0ms|2MB)
+// [Manacher Algorithm](https://ethsonliu.com/2018/04/manacher.html)(0ms|2MB)
 
-### 代码
+// ### 代码
 
-```rust []
+// ```rust []
 impl Solution {
     pub fn longest_palindrome(s: String) -> String {
         /* Manacher Algorithm
@@ -73,4 +73,4 @@ impl Solution {
         longest_palindrome_substring
     }
 }
-```
+// ```

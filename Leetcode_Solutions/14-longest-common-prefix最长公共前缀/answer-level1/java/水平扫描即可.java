@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-通过idx位来获取每个字符串的第idx位，相同则ok，不通则return
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 通过idx位来获取每个字符串的第idx位，相同则ok，不通则return
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if(strs.length <1){
@@ -30,4 +30,4 @@ class Solution {
 		}
 	}
 }
-```
+// ```

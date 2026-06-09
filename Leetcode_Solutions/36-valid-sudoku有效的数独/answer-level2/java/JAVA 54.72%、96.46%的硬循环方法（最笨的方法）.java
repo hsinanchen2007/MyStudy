@@ -1,5 +1,5 @@
-根据题目要求只需要满足行、列、3x3的方格中不存在重复的1-9的数字即可。那么制作3个双重循环，任意一个循环发现重复数字就直接返回false。每次的重复数字判断使用一个set集合，循环开始时将上次的set集合清空重复利用。
-```
+// 根据题目要求只需要满足行、列、3x3的方格中不存在重复的1-9的数字即可。那么制作3个双重循环，任意一个循环发现重复数字就直接返回false。每次的重复数字判断使用一个set集合，循环开始时将上次的set集合清空重复利用。
+// ```
 public boolean isValidSudoku(char[][] board) {
         int i,j;
         Set<Character> set = new HashSet();
@@ -48,4 +48,4 @@ public boolean isValidSudoku(char[][] board) {
         }
         return true;
     }
-```
+// ```

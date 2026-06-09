@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/24f1bb19c220b1f305a1e46e7179d6b06238bc8f69d90ee28c00f1a9ecb8ba7e-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/24f1bb19c220b1f305a1e46e7179d6b06238bc8f69d90ee28c00f1a9ecb8ba7e-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
@@ -28,4 +28,4 @@ public:
         return find(visitedRooms.begin(),visitedRooms.end(),-1) == visitedRooms.end();
     };
 };
-```
+// ```

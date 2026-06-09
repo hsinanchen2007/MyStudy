@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def permuteUnique(self, nums):
         # 先得到所有排列， 然后使用unique
@@ -29,4 +29,4 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-```
+# ```

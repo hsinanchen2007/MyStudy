@@ -1,8 +1,8 @@
-不说了，都在码里
+// 不说了，都在码里
 
-去重的逻辑可以加在循环的判断里，Set结构不是必须的，因此可以做到空间o(1)
+// 去重的逻辑可以加在循环的判断里，Set结构不是必须的，因此可以做到空间o(1)
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -32,4 +32,4 @@ var thirdMax = function(nums) {
     if (max3 === -Infinity || max2 === -Infinity || max1 === -Infinity) return Math.max(max1, max2, max3); // 这里其实就是判断，在去重后的长度是不是小于3，不是的话三个max肯定都不是-Infinity
     return max3; //直接返回正确答案
 };
-```
+// ```

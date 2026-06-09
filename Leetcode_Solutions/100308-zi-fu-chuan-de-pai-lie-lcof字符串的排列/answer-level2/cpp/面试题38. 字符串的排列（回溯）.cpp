@@ -1,5 +1,5 @@
-### 用 unordered_set 去重
-```cpp
+// ### 用 unordered_set 去重
+// ```cpp
 class Solution {
 public:
     vector<string> permutation(string s) {
@@ -29,10 +29,10 @@ private:
     string result;
     unordered_set<string> results;    //1
 };
-```
+// ```
 
-### 先把 s 排序，在每轮选择字母的时候判断去重
-```cpp
+// ### 先把 s 排序，在每轮选择字母的时候判断去重
+// ```cpp
 class Solution {
 public:
     vector<string> permutation(string s) {
@@ -65,4 +65,4 @@ private:
     string result;
     vector<string> results;
 };
-```
+// ```

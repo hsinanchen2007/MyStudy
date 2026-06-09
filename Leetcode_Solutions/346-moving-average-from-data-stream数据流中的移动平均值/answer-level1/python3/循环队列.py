@@ -1,9 +1,9 @@
-### 解题思路
-循环队列
+# ### 解题思路
+# 循环队列
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MovingAverage:
 
     def __init__(self, size: int):
@@ -43,4 +43,4 @@ class MovingAverage:
 # Your MovingAverage object will be instantiated and called as such:
 # obj = MovingAverage(size)
 # param_1 = obj.next(val)
-```
+# ```

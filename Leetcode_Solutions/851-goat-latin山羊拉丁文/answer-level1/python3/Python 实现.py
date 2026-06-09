@@ -1,8 +1,8 @@
-1. 利用空格从字符串分割单词
-2. 循环遍历所有单词
-3. 通过单词首字母区分对单词的操作
+# 1. 利用空格从字符串分割单词
+# 2. 循环遍历所有单词
+# 3. 通过单词首字母区分对单词的操作
 
-```python
+# ```python
 class Solution:
     def toGoatLatin(self, S: str) -> str:
         end = 'a'
@@ -23,4 +23,4 @@ class Solution:
             end += 'a'
         
         return ' '.join(words)
-```
+# ```

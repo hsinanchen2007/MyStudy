@@ -1,4 +1,4 @@
-```
+// ```
 var myPow = function(x, n) {
 	x = n> 0? x: 1/x
 	n = Math.abs(n)
@@ -20,4 +20,4 @@ var myPow = function(x, n) {
 	}
 	return pow(x,n)
 };
-```
+// ```

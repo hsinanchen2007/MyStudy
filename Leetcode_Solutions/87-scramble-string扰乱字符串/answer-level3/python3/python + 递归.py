@@ -1,4 +1,4 @@
-```python
+# ```python
 from functools import lru_cache
 class Solution:
 	@lru_cache(None)
@@ -10,4 +10,4 @@ class Solution:
 			if self.isScramble(s1[:i], s2[:i]) and self.isScramble(s1[i:], s2[i:]): return True
 			if self.isScramble(s1[:i], s2_reverse[:i]) and self.isScramble(s1[i:], s2_reverse[i:]): return True
 		return False
-```
+# ```

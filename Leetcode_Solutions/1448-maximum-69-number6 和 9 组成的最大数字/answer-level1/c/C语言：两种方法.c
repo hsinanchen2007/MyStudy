@@ -1,4 +1,4 @@
-```
+// ```
 int maximum69Number (int num){
     int m = 1000;
     int t = num;
@@ -13,9 +13,9 @@ int maximum69Number (int num){
     }
     return num;
 }
-```
+// ```
 
-```
+// ```
 int maximum69Number (int num){
     char nums[5];
     sprintf(nums, "%d", num);
@@ -30,5 +30,5 @@ int maximum69Number (int num){
     sscanf(nums, "%d", &num);
     return num;
 }
-```
+// ```
 

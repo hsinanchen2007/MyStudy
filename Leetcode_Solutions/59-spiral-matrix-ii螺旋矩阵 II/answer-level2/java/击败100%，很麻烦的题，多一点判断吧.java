@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[][] generateMatrix(int n) {
         // 4 directions
@@ -36,4 +36,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

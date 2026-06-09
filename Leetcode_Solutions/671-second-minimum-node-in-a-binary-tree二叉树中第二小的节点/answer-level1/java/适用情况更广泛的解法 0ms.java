@@ -1,12 +1,12 @@
-### 解题思路
-![捕获.PNG](https://pic.leetcode-cn.com/56e85c925325156dbacf057006832de4b0f89a89dc5ba3aecf874926663a6d3a-%E6%8D%95%E8%8E%B7.PNG)
-补充一个暴搜解法。这种方法适用于任意二叉树。速度也比较快。
+// ### 解题思路
+// ![捕获.PNG](https://pic.leetcode-cn.com/56e85c925325156dbacf057006832de4b0f89a89dc5ba3aecf874926663a6d3a-%E6%8D%95%E8%8E%B7.PNG)
+// 补充一个暴搜解法。这种方法适用于任意二叉树。速度也比较快。
 
-思路简单：先找到节点中的最小值。第二次遍历时找到不等于该值的最小值。
+// 思路简单：先找到节点中的最小值。第二次遍历时找到不等于该值的最小值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -50,4 +50,4 @@ class Solution {
             return -1;
     }
 }
-```
+// ```

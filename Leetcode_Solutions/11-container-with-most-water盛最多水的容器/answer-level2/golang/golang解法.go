@@ -1,8 +1,8 @@
  
-### 代码
+// ### 代码
 
-- 暴力法
-```golang
+// - 暴力法
+// ```golang
 
 // var res=0
 // for i:= 0; i < len(height)-1; i++ {
@@ -17,14 +17,14 @@
 //         }
 //     }
 // }
-```
+// ```
 
 
-- 动态规划
+// - 动态规划
 
 
 
-```golang
+// ```golang
 func maxArea(height []int) int {
     var result int
     var pos_left,pos_right = 0, len(height) - 1
@@ -44,4 +44,4 @@ func maxArea(height []int) int {
 
     return result
 }
-```
+// ```

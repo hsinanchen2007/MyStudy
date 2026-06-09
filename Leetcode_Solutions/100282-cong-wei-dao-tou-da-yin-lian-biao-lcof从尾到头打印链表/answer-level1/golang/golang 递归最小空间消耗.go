@@ -1,9 +1,9 @@
-### 解题思路
-递归遍历即可, 终止条件是遍历到了最后一个节点.
+// ### 解题思路
+// 递归遍历即可, 终止条件是遍历到了最后一个节点.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -22,4 +22,4 @@ func reversePrint(head *ListNode) []int {
     
     return result
 }
-```
+// ```

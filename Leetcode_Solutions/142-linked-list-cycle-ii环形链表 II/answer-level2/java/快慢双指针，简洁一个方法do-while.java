@@ -1,10 +1,10 @@
-### 解题思路
-和官方思路一样
-do-while使代码更加简洁
+// ### 解题思路
+// 和官方思路一样
+// do-while使代码更加简洁
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -40,4 +40,4 @@ public class Solution {
             return slow;
         }
     }
-```
+// ```

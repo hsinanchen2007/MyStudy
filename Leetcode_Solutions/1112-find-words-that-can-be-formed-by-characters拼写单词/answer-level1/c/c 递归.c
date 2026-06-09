@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void cntCh(char ** words, int index, int wordsSize, char *chars, int *cnt){
     int charsCnt[256] = {0};
     int chLen = strlen(chars);
@@ -26,4 +26,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     return cnt;
 }
 
-```
+// ```

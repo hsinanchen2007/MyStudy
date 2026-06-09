@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean lemonadeChange(int[] bills) {
         int[] money=new int[2];
@@ -31,4 +31,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-本质上是找出某一个点，它的左右方向上均存在距离相同的点，求这样的点的个数
-### 代码
+// ### 解题思路
+// 本质上是找出某一个点，它的左右方向上均存在距离相同的点，求这样的点的个数
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func numberOfBoomerangs(_ points: [[Int]]) -> Int {
         
@@ -44,4 +44,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> smallestK(vector<int>& arr, int k) {
@@ -26,4 +26,4 @@ public:
         else quick_sort(arr, j + 1, r, k - s1);
     }
 };
-```
+// ```

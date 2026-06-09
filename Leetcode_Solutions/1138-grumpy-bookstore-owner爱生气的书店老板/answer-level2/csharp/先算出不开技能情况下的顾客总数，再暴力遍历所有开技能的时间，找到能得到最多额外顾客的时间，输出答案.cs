@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public int MaxSatisfied(int[] customers, int[] grumpy, int X) {
         int answer=0;
@@ -24,4 +24,4 @@ public class Solution {
 
     }
 }
-```
+// ```

@@ -1,17 +1,17 @@
-### 解题思路
-执行用时 :
-7 ms
-, 在所有 java 提交中击败了
-8.12%
-的用户
-内存消耗 :
-35.8 MB
-, 在所有 java 提交中击败了
-9.86%
-的用户
-### 代码
+// ### 解题思路
+// 执行用时 :
+// 7 ms
+// , 在所有 java 提交中击败了
+// 8.12%
+// 的用户
+// 内存消耗 :
+// 35.8 MB
+// , 在所有 java 提交中击败了
+// 9.86%
+// 的用户
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isHappy(int n) {
         boolean res=false;
@@ -34,4 +34,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

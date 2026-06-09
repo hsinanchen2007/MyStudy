@@ -1,6 +1,6 @@
-题目给的是方块，grid.length = grid[0].length
+// 题目给的是方块，grid.length = grid[0].length
 
-```js
+// ```js
 var projectionArea = function(grid) {
     let left = 0;
     let right = 0;
@@ -19,5 +19,5 @@ var projectionArea = function(grid) {
     } 
     return left + right + up
 };
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-先比根再比左右
+// ### 解题思路
+// 先比根再比左右
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

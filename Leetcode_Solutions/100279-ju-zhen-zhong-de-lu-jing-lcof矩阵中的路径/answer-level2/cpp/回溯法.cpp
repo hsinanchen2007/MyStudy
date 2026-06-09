@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/11b29c0b01da4fab2f4d73e2678637c384cf45582310e166265e6ba6bf637852-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/11b29c0b01da4fab2f4d73e2678637c384cf45582310e166265e6ba6bf637852-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool dfs(vector<vector<char>>& board, string word,int i,int j,int k)
@@ -29,4 +29,4 @@ public:
         return false;
     }
 };
-```
+// ```

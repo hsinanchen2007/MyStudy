@@ -1,10 +1,10 @@
-## 思路:
+# ## 思路:
 
-归并排序, 就是分而治之!
+# 归并排序, 就是分而治之!
 
-先贴一下数组的归并排序
+# 先贴一下数组的归并排序
 
-```python
+# ```python
 def merge_sort(array):
     n = len(array)
     if n <= 1:
@@ -29,11 +29,11 @@ def merge(left, right):
     res += left[i:]
     res += right[j:]
     return res
-```
+# ```
 
-照着上面写,链表如下:
+# 照着上面写,链表如下:
 
-```python []
+# ```python []
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
     
@@ -74,11 +74,11 @@ class Solution:
         if r:
             p.next = r
         return dummy.next
-```
+# ```
 
 
 
-```java []
+# ```java []
 class Solution {
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) return head;
@@ -117,5 +117,5 @@ class Solution {
         return dummy.next;
     }
 }
-```
+# ```
 

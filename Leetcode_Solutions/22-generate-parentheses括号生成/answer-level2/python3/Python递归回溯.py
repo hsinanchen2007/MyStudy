@@ -1,4 +1,4 @@
-``` python []
+# ``` python []
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         out_list = []
@@ -20,4 +20,4 @@ class Solution:
                 backtrace(n,left,right+1,s+')')
         backtrace()
         return out_list
-```
+# ```

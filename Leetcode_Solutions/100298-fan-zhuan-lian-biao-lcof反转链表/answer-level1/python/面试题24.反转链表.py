@@ -1,11 +1,11 @@
-### 解题思路
-- 维护一个指针指向链头，向后遍历节点，节点不断地插入成为链头（头插法）
-- 下面两个代码思路一样的，但是第一个可读性比较差
-- 特别注意，name = ListNode() 与 name.next = ListNode()区别，才不会乱
+# ### 解题思路
+# - 维护一个指针指向链头，向后遍历节点，节点不断地插入成为链头（头插法）
+# - 下面两个代码思路一样的，但是第一个可读性比较差
+# - 特别注意，name = ListNode() 与 name.next = ListNode()区别，才不会乱
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
         return dumy.next
 
 
-```
+# ```

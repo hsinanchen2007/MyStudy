@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/8cf5a6a9b786c89e3e5bba1d7f509f6edc3afb1ebc1f80a9fa7f7380d3125698-image.png)
-用二分查找时，首先需要找到单调的函数或序列，本题中，记f(n)为距离小于等于n的点对数，容易看出f(n)随着n递增，所以根据这个关系我们可以二分查找出第k个最小距离。代码中ltm为less than m，即对于一个距离dis，不超过该距离的点对数是否小于m，ltm_c为对于距离dis，不超过距离dis的点对数。计算点对数时采用双指针，时间空间复杂度为O(n).至于如何用双指针，可以对照着代码，选一个用例模拟一下就很好理解了。由于点距离取绝对值，我们不妨设每个点为(a,b)(a<=b).
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/8cf5a6a9b786c89e3e5bba1d7f509f6edc3afb1ebc1f80a9fa7f7380d3125698-image.png)
+// 用二分查找时，首先需要找到单调的函数或序列，本题中，记f(n)为距离小于等于n的点对数，容易看出f(n)随着n递增，所以根据这个关系我们可以二分查找出第k个最小距离。代码中ltm为less than m，即对于一个距离dis，不超过该距离的点对数是否小于m，ltm_c为对于距离dis，不超过距离dis的点对数。计算点对数时采用双指针，时间空间复杂度为O(n).至于如何用双指针，可以对照着代码，选一个用例模拟一下就很好理解了。由于点距离取绝对值，我们不妨设每个点为(a,b)(a<=b).
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 bool ltm(int m,int dis, vector<int>&nums)//双指针
@@ -74,4 +74,4 @@ int ltm_c(int m, int dis, vector<int>&nums)//和上面的ltm一样，只是返�
 	return res;
     }
 };
-```
+// ```

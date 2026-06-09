@@ -1,8 +1,8 @@
-# 1将数组中的字符串翻转
-# 2新数组排序
-# 3依次遍历新数组,如果istring是i+1stirng的前缀,过滤,如果不是,将res += item + "#",
+# # 1将数组中的字符串翻转
+# # 2新数组排序
+# # 3依次遍历新数组,如果istring是i+1stirng的前缀,过滤,如果不是,将res += item + "#",
 
-```
+# ```
 def minimumLengthEncoding( words) -> int:
     N = len(words)
     # 1将数组中的字符串翻转
@@ -26,4 +26,4 @@ if __name__ == "__main__":
     str = minimumLengthEncoding(arr)
     print(str)
 
-```
+# ```

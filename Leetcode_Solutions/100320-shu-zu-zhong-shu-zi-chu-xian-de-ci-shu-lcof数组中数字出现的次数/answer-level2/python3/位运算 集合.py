@@ -1,6 +1,6 @@
-- 参考 https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/solution/zhi-chu-xian-yi-ci-de-shu-xi-lie-wei-yun-suan-by-a/
+# - 参考 https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/solution/zhi-chu-xian-yi-ci-de-shu-xi-lie-wei-yun-suan-by-a/
 
- ```
+#  ```
 
 class Solution:
     # leetcode 260 面试题 56
@@ -141,4 +141,4 @@ class Solution:
         return [b,a]
 
 print(Solution().findErrorNums([1,3,3,4]))
-```
+# ```

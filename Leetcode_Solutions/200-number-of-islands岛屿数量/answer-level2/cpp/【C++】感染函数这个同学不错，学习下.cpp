@@ -1,6 +1,6 @@
-1.BFS从陆地开始搜索
-2.被感染，标记为#
-```
+// 1.BFS从陆地开始搜索
+// 2.被感染，标记为#
+// ```
 /*
 * Copyright (c) Nicolas-Tony Technologies Co., Ltd. 2019-2019. All rights reserved.
 * Description: i love leetcode
@@ -60,4 +60,4 @@ private:
     int nums;
     vector<vector<char>> gridCopy;
 };
-```
+// ```

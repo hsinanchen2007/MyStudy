@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniquePaths(int m, int n) {
         //m行n列，右下角的坐标(m-1,n-1)
@@ -28,5 +28,5 @@ class Solution {
 		return dp[m-1][n-1];
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/03595d03ad62f9e5c62239669a71d960ea3c1a906b7576f89ac4be80b6f76c2e-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/03595d03ad62f9e5c62239669a71d960ea3c1a906b7576f89ac4be80b6f76c2e-image.png)

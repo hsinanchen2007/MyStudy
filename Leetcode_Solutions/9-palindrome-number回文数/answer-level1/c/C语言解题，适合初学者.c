@@ -1,9 +1,9 @@
-### 解题思路
-菜鸟来献丑了，适合初学者。
+// ### 解题思路
+// 菜鸟来献丑了，适合初学者。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x)
 {
     int arr[120] = {0};
@@ -30,4 +30,4 @@ bool isPalindrome(int x)
         return true;
     }
 }
-```
+// ```

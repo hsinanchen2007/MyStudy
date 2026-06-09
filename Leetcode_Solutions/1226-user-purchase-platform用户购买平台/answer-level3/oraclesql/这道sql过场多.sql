@@ -1,5 +1,5 @@
-#就是全面这个union 是真的恶心,大佬帮我改改，谢了
-```
+-- #就是全面这个union 是真的恶心,大佬帮我改改，谢了
+-- ```
 /* Write your PL/SQL query statement below */
 SELECT to_char(a.spend_date,'yyyy-MM-dd') as spend_date, a.platform
 	, CASE 
@@ -43,4 +43,4 @@ FROM (
 	) b
 	ON a.spend_date = b.spend_date
 		AND a.platform = b.platform
-```
+-- ```

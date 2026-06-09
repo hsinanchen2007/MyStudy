@@ -1,15 +1,15 @@
-### 解题思路
-用两个队列 q1, q2 来实现栈，在栈非空情况下，q1 和 q2 总有一个为空.
-私有变量 capacity 指示当前元素数，t 指示当前栈顶元素。
-不妨设当前 q1 不空 q2 空：
-当需要 push(x) 时，将元素 x 加入 q1，capacity + 1， t = x。
-当需要 pop 时，依次将 q1 中的非末尾元素的 front 加入 q2，t = front，当遇到末尾元素时，返回该元素。
-当需要 top 元素时，返回 t。
-当需要判断栈是否为空时，只需看 capacity 的值是否为 0。
+// ### 解题思路
+// 用两个队列 q1, q2 来实现栈，在栈非空情况下，q1 和 q2 总有一个为空.
+// 私有变量 capacity 指示当前元素数，t 指示当前栈顶元素。
+// 不妨设当前 q1 不空 q2 空：
+// 当需要 push(x) 时，将元素 x 加入 q1，capacity + 1， t = x。
+// 当需要 pop 时，依次将 q1 中的非末尾元素的 front 加入 q2，t = front，当遇到末尾元素时，返回该元素。
+// 当需要 top 元素时，返回 t。
+// 当需要判断栈是否为空时，只需看 capacity 的值是否为 0。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def brokenCalc(self, X: int, Y: int) -> int:
         if X >= Y:
@@ -10,4 +10,4 @@ class Solution:
             ret += 1
         
         return ret + X - Y
-```
+# ```

@@ -1,10 +1,10 @@
-没Java的，写一个。
-解题思路是参考了上一篇帖子。
-转移方程：
-dp[2][n] = max(dp[2][n-1], dp[1][n-k] + sumRange(n, n -k+1))
+// 没Java的，写一个。
+// 解题思路是参考了上一篇帖子。
+// 转移方程：
+// dp[2][n] = max(dp[2][n-1], dp[1][n-k] + sumRange(n, n -k+1))
 
-易错点是当k=1的时候，边界条件需要处理一下。
-```
+// 易错点是当k=1的时候，边界条件需要处理一下。
+// ```
     public int[] maxSumOfThreeSubarrays(int[] nums, int k) {
         int[][] dp = new int[3][nums.length];
         int[] cummulative = new int[nums.length];
@@ -50,4 +50,4 @@ dp[2][n] = max(dp[2][n-1], dp[1][n-k] + sumRange(n, n -k+1))
             return cummulative[right] - cummulative[left - 1];
         }
     }
-```
+// ```

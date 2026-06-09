@@ -1,18 +1,18 @@
-### 解题思路
-此处撰写解题思路
-把数据分别存入各行中,逐行写入,然后最后合并起来
-例如
-LEETCODEISHIRING
-各行的数据是
-1 2 3 4 ...
-L D     
-E O E
-E C I 
-T   S
-类似上面的方式逐个字符,遇到 第0行开始增加行数,遇到(numRows-1)行开始递减行数,循环把所有数据写入到各行中,然后合并起来
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 把数据分别存入各行中,逐行写入,然后最后合并起来
+// 例如
+// LEETCODEISHIRING
+// 各行的数据是
+// 1 2 3 4 ...
+// L D     
+// E O E
+// E C I 
+// T   S
+// 类似上面的方式逐个字符,遇到 第0行开始增加行数,遇到(numRows-1)行开始递减行数,循环把所有数据写入到各行中,然后合并起来
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 string convert(string s, int numRows) 
@@ -48,4 +48,4 @@ string convert(string s, int numRows)
     return strRet;
 }
 };
-```
+// ```

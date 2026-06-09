@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     # 排序的结果较小时，用冒泡的方法得出结果
     # 冒泡采用标记法，实际没有冒出
@@ -31,4 +31,4 @@ class Solution:
                 index = i
         self.flag.add(index)
         return nums, nums[index]
-```
+# ```

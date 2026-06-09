@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def checkPossibility(self, nums: List[int]) -> bool:
         temp = min(nums)-1
@@ -18,4 +18,4 @@ class Solution:
             temp2 = temp
             temp = nums[i]
         return True
-```
+# ```

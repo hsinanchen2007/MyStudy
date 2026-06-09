@@ -1,12 +1,12 @@
-### 解题思路
-没有数据结构，描述法解题
-自定义一个类，
-num记录使用次数
-value存值
-t存最后一次使用时间 用datetime.datetime.now()
-### 代码
+# ### 解题思路
+# 没有数据结构，描述法解题
+# 自定义一个类，
+# num记录使用次数
+# value存值
+# t存最后一次使用时间 用datetime.datetime.now()
+# ### 代码
 
-```python3
+# ```python3
 import datetime
 class V:
     def __init__(self, value, num):
@@ -58,4 +58,4 @@ class LFUCache:
 # obj = LFUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

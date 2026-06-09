@@ -1,9 +1,9 @@
-### 解题思路
-其实很好做，只要找到尽可能前面的不为a的字符将其替换为26个字母中尽可能小的那一个即可，需要注意回文的判断和全是a的情况
+// ### 解题思路
+// 其实很好做，只要找到尽可能前面的不为a的字符将其替换为26个字母中尽可能小的那一个即可，需要注意回文的判断和全是a的情况
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String breakPalindrome(String palindrome) {
         if (palindrome.equals("a")) return "";
@@ -25,4 +25,4 @@ class Solution {
         return s.equals(sb.reverse().toString());
     }
 }
-```
+// ```

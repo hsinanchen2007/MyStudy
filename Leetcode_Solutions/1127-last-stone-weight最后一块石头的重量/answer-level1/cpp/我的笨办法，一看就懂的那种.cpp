@@ -1,5 +1,5 @@
-### 思路：不断的判断，更新，排序，达到临界条件再判断就可以了。
-```
+// ### 思路：不断的判断，更新，排序，达到临界条件再判断就可以了。
+// ```
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
@@ -35,5 +35,5 @@ public:
         return 0;
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/0d1d74ed2b86a4b8d2e5efb2d44f40ea7853443d768557c08e47ca1302931769-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/0d1d74ed2b86a4b8d2e5efb2d44f40ea7853443d768557c08e47ca1302931769-1.png)

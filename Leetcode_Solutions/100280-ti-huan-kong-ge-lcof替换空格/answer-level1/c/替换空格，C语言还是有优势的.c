@@ -1,7 +1,7 @@
-执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
-内存消耗 :6.8 MB, 在所有 C 提交中击败了100.00%的用户
+// 执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
+// 内存消耗 :6.8 MB, 在所有 C 提交中击败了100.00%的用户
 
-```
+// ```
 char* replaceSpace(char* s){
     if (s == NULL) {
         return NULL;
@@ -24,4 +24,4 @@ char* replaceSpace(char* s){
     *(res + j) = '\0';
     return res;
 }
-```
+// ```

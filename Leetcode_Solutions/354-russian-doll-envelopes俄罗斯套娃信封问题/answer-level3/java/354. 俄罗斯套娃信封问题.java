@@ -1,11 +1,11 @@
-### 解题思路
-dp[i]表示第 i 个信封可以放入的信封数量，dfs 遍历所有信封，找到最大的那个能放入数量
-时间复杂度 O(N * N)，空间复杂度 O(N)
-参考链接https://leetcode-cn.com/problems/russian-doll-envelopes/solution/dfs-dp-jie-fa-by-jeffzzf/
+// ### 解题思路
+// dp[i]表示第 i 个信封可以放入的信封数量，dfs 遍历所有信封，找到最大的那个能放入数量
+// 时间复杂度 O(N * N)，空间复杂度 O(N)
+// 参考链接https://leetcode-cn.com/problems/russian-doll-envelopes/solution/dfs-dp-jie-fa-by-jeffzzf/
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxEnvelopes(int[][] envelopes) {
         if(envelopes == null || envelopes.length == 0){
@@ -37,4 +37,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

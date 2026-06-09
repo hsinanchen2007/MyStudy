@@ -1,6 +1,6 @@
-1. 看注释就完事了
+// 1. 看注释就完事了
 
-```
+// ```
 class Solution {
     public String countAndSay(int n) {
         String line = "1";  //初始化第一行
@@ -27,5 +27,5 @@ class Solution {
         return new_line;
     }
 }
-```
-java菜鸟，欢迎指正。
+// ```
+// java菜鸟，欢迎指正。

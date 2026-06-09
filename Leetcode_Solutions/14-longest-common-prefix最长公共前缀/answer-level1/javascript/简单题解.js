@@ -1,6 +1,6 @@
-### 暴力破解
-暴力破解思路很简单，一个盆可以装多少水取决于最低的那个缺口，直接拿数组的取第一个元素，不管它多长总有 `undefined` 的时候
-```javascript
+// ### 暴力破解
+// 暴力破解思路很简单，一个盆可以装多少水取决于最低的那个缺口，直接拿数组的取第一个元素，不管它多长总有 `undefined` 的时候
+// ```javascript
 var longestCommonPrefix = function (strs) {
     // 特殊情况 strs 为空 `[]`，为 单数组 `['x']` ,这些情况可以取值直接拿就好
     return strs == 0 ? "" : strs.length == 1 ? strs[0] : ((t = '') => {
@@ -17,32 +17,32 @@ var longestCommonPrefix = function (strs) {
     })();
 }
 */
-```
-时间还早给你们来一段暴力破解的 `动画` , 假设 `strs = ['abcad','abd','abx'];`
-> 第一次循环
-> > |strs[i]|t |strs[i].indexOf(t) == 0|
-> > |:------|:-|:----------------------|
-> > |abcad  |a |true                   |
-> > |abd    |a |true                   |
-> > |abx    |a |true                   |
-> > ---
-> 第二次循环
-> > |strs[i]|t  |strs[i].indexOf(t) == 0|
-> > |:------|:- |:----------------------|
-> > |abcad  |ab |true                   |
-> > |abd    |ab |true                   |
-> > |abx    |ab |true                   |
-> > ---
-> 第三次循环
-> > |strs[i]|t   |strs[i].indexOf(t) == 0|
-> > |:------|:---|:----------------------|
-> > |abcad  |abc |true                   |
-> > |abd    |abc |false                  |
-> > |abx    |abc |false                  |
+// ```
+// 时间还早给你们来一段暴力破解的 `动画` , 假设 `strs = ['abcad','abd','abx'];`
+// > 第一次循环
+// > > |strs[i]|t |strs[i].indexOf(t) == 0|
+// > > |:------|:-|:----------------------|
+// > > |abcad  |a |true                   |
+// > > |abd    |a |true                   |
+// > > |abx    |a |true                   |
+// > > ---
+// > 第二次循环
+// > > |strs[i]|t  |strs[i].indexOf(t) == 0|
+// > > |:------|:- |:----------------------|
+// > > |abcad  |ab |true                   |
+// > > |abd    |ab |true                   |
+// > > |abx    |ab |true                   |
+// > > ---
+// > 第三次循环
+// > > |strs[i]|t   |strs[i].indexOf(t) == 0|
+// > > |:------|:---|:----------------------|
+// > > |abcad  |abc |true                   |
+// > > |abd    |abc |false                  |
+// > > |abx    |abc |false                  |
 
-### 复杂化的代码
-这有一点迷不知道怎么怎么说，应该是比较接近`人`的思维吧，假设 `strs = ["flower","flow","flight"]`,我们想的时候会不会拿第一个下标和第二个下标进行比较`"flower","flow"`,70%的人应该都会这样，所以这也是这样，当我们拿`"flower","flow"`比较以后发现`flow`是公共前缀，然后在拿它去和其他字符串去比较.
-```javascript
+// ### 复杂化的代码
+// 这有一点迷不知道怎么怎么说，应该是比较接近`人`的思维吧，假设 `strs = ["flower","flow","flight"]`,我们想的时候会不会拿第一个下标和第二个下标进行比较`"flower","flow"`,70%的人应该都会这样，所以这也是这样，当我们拿`"flower","flow"`比较以后发现`flow`是公共前缀，然后在拿它去和其他字符串去比较.
+// ```javascript
 var longestCommonPrefix = function (strs) { // 疯狂压缩
     return strs == 0 ? '' : strs.length == 1 ? strs[0] : (([t, s, m] = ['', strs.length - 1, strs[0].length]) => {
         // 直接拿暴力破解的第一句再追加 s，m 两个变量
@@ -66,5 +66,5 @@ var longestCommonPrefix = function (strs) { // 疯狂压缩
         return t;
     })();
 };
-```
-我比较推荐暴力破解，因为假设数组是 ['ab','ab','c'] 的时候因为在第一个循环就决定了是否有公共前缀，而且代码还容易看懂
+// ```
+// 我比较推荐暴力破解，因为假设数组是 ['ab','ab','c'] 的时候因为在第一个循环就决定了是否有公共前缀，而且代码还容易看懂

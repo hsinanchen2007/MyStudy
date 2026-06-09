@@ -1,10 +1,10 @@
-### 解题思路
-使用 unordered_map
-![image.png](https://pic.leetcode-cn.com/452cb13f3d99ea3f8f4c543e82d7c8a6e93ebc0836b0b3c1895efa995a7c162d-image.png)
+// ### 解题思路
+// 使用 unordered_map
+// ![image.png](https://pic.leetcode-cn.com/452cb13f3d99ea3f8f4c543e82d7c8a6e93ebc0836b0b3c1895efa995a7c162d-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return -1;
     }
 };
-```
+// ```

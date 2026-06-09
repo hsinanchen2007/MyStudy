@@ -1,6 +1,6 @@
-## 递归
+// ## 递归
 
-```java
+// ```java
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         if(root==null) return result;
@@ -9,10 +9,10 @@
         result.addAll(preorderTraversal(root.right));
         return result;
     }
-```
-## 非递归
-借用栈
-```java
+// ```
+// ## 非递归
+// 借用栈
+// ```java
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         if(root==null) return result;
@@ -26,4 +26,4 @@
         }
         return result;
     }
-```
+// ```

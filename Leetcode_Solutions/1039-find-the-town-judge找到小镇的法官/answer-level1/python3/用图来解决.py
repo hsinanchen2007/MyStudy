@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（n3）
-空间复杂度：O（n2）
+# ### 解题思路
+# 时间复杂度：O（n3）
+# 空间复杂度：O（n2）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
         if not trust:
@@ -26,4 +26,4 @@ class Solution:
             if satis:
                 return i
         return -1
-```
+# ```

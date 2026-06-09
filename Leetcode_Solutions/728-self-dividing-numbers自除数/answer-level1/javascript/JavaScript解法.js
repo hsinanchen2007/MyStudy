@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} left
  * @param {number} right
@@ -19,4 +19,4 @@ var selfDividingNumbers = function (left, right) {
     }
     return arr.filter(el => fun(el))          
 };
-```
+// ```

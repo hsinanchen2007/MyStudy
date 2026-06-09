@@ -1,9 +1,9 @@
-### 解题思路
-本题思路比较简单，就是先求 sum，然后双指针碰撞，向内收敛 求和，判断左右两区是不是相等，如果相等返回true ，最后剩下的肯定满足情况
+// ### 解题思路
+// 本题思路比较简单，就是先求 sum，然后双指针碰撞，向内收敛 求和，判断左右两区是不是相等，如果相等返回true ，最后剩下的肯定满足情况
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int i = 0, j = A.length - 1;
@@ -32,4 +32,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

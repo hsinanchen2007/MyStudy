@@ -1,8 +1,8 @@
-递归解法：
-递归和栈的目的都是为了对齐。
-这里递归对齐用的是两条链的长度来作比较
+// 递归解法：
+// 递归和栈的目的都是为了对齐。
+// 这里递归对齐用的是两条链的长度来作比较
 
-```
+// ```
 int listDepth(struct ListNode *list) {  //计算链的长度，用于后面计算对齐
     int len = 0;
     for (struct ListNode *t = list; t ; t = t->next, len++) { }
@@ -34,13 +34,13 @@ struct ListNode* addTwoNumbers(struct ListNode *l1, struct ListNode *l2) {
         return node;
     } else return l1;   //没有进位直接返回最长链即可
 }
-```
+// ```
 
-栈解法：
-基本思路和递归是一致的，利用栈的先进后出规则，很自然地就可以将两条链末尾对齐了。
-后面就是基本的出栈操作，如果断链的栈空，就用0来代替。最后注意最高位的进位就可以了。
+// 栈解法：
+// 基本思路和递归是一致的，利用栈的先进后出规则，很自然地就可以将两条链末尾对齐了。
+// 后面就是基本的出栈操作，如果断链的栈空，就用0来代替。最后注意最高位的进位就可以了。
 
-```
+// ```
 #define pop(stack, top) ((stack)[(top)--])
 #define push(stack, top, val) ( (stack)[++(top)] = (val) )
 
@@ -79,5 +79,5 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     free(node);
     return p1;
 }
-```
+// ```
 

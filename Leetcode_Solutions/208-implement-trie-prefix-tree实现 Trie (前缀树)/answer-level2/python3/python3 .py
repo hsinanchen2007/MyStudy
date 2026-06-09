@@ -1,9 +1,9 @@
-### 解题思路
-纪念自己的python class代码，需要复习基础知识了
+# ### 解题思路
+# 纪念自己的python class代码，需要复习基础知识了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class TrieNode:
     def __init__(self):
         self.isEnd = False
@@ -55,4 +55,4 @@ class Trie:
 # obj.insert(word)
 # param_2 = obj.search(word)
 # param_3 = obj.startsWith(prefix)
-```
+# ```

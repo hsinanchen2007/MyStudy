@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/61c153bd0b098d4fedbb6654fc50a31e4563779ccb2712de55ee505fd6033100-image.png)
-### 解题思路
-利用[31.下一个排列](https://leetcode-cn.com/problems/next-permutation/solution/c-0msjian-dan-shi-xian-by-lcl-17/)的结论实现，超简单！
-因为nums列表无重复, 故组合总数为n!
+// ![image.png](https://pic.leetcode-cn.com/61c153bd0b098d4fedbb6654fc50a31e4563779ccb2712de55ee505fd6033100-image.png)
+// ### 解题思路
+// 利用[31.下一个排列](https://leetcode-cn.com/problems/next-permutation/solution/c-0msjian-dan-shi-xian-by-lcl-17/)的结论实现，超简单！
+// 因为nums列表无重复, 故组合总数为n!
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<vector<int>> permute(vector<int>& nums) {
@@ -35,4 +35,4 @@ public:
 		}
 	}
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用两个指针来遍历，类似于最长子字符串。
+// ### 解题思路
+// 使用两个指针来遍历，类似于最长子字符串。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxArea(int[] height) {
         if(height.length<2)return 0;
@@ -21,4 +21,4 @@ class Solution {
            return are;
     }
 }
-```
+// ```

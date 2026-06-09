@@ -1,6 +1,6 @@
-用移位找倍数，由于负数比正数边界要大1，导致代码不能很优雅
+// 用移位找倍数，由于负数比正数边界要大1，导致代码不能很优雅
 
-```java
+// ```java
 class Solution {
 
     public int divide(int dividend, int divisor) {
@@ -52,4 +52,4 @@ class Solution {
     }
 
 }
-```
+// ```

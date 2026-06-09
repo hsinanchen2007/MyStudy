@@ -1,9 +1,9 @@
-### 解题思路
-通过数组模拟队列，每次入队后，把之前队列中的元素挨个出队再入队。
+// ### 解题思路
+// 通过数组模拟队列，每次入队后，把之前队列中的元素挨个出队再入队。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class MyStack {
     /**
      * Initialize your data structure here.
@@ -60,7 +60,7 @@ class MyStack {
  * $ret_3 = $obj->top();
  * $ret_4 = $obj->empty();
  */
-```
+// ```
 
-### 参考
-https://leetcode-cn.com/problems/implement-stack-using-queues/solution/yong-dui-lie-shi-xian-zhan-by-leetcode/
+// ### 参考
+// https://leetcode-cn.com/problems/implement-stack-using-queues/solution/yong-dui-lie-shi-xian-zhan-by-leetcode/

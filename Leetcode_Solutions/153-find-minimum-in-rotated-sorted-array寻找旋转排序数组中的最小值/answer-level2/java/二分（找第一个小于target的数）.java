@@ -1,11 +1,11 @@
-### 解题思路
-1. 数组旋转，则以第一个为target进行查找，查找第一个小于target的数
-2. 最后需要对于未进行选择的情况进行额外判断
-    left==nums.length-1&&nums[0]<nums[left]  则为未进行选择的情况，返回nums[0]，否则返回nums[left]
+// ### 解题思路
+// 1. 数组旋转，则以第一个为target进行查找，查找第一个小于target的数
+// 2. 最后需要对于未进行选择的情况进行额外判断
+//     left==nums.length-1&&nums[0]<nums[left]  则为未进行选择的情况，返回nums[0]，否则返回nums[left]
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findMin(int[] nums) {
         if(nums==null||nums.length==0){
@@ -28,4 +28,4 @@ class Solution {
         return left==nums.length-1&&nums[0]<nums[left]?nums[0]:nums[left];
     }
 }
-```
+// ```

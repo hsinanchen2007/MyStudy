@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findJudge(N int, trust [][]int) int {
     //被相信，入度增加
 	in:=make([]int,N)
@@ -20,4 +20,4 @@ func findJudge(N int, trust [][]int) int {
 	}
 	return -1
 }
-```
+// ```

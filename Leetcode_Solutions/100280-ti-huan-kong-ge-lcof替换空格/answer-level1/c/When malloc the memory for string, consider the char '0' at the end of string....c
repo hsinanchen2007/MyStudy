@@ -1,9 +1,9 @@
-### 解题思路
-/* KEY POINT : (char *)malloc(3 * length * sizeof(char) + 1); */
+// ### 解题思路
+// /* KEY POINT : (char *)malloc(3 * length * sizeof(char) + 1); */
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthofString(char* s){
     int len=0;
     char *t=s;
@@ -30,4 +30,4 @@ char* replaceSpace(char* s){
     *p = c;                             // End the strings as char '\0';
     return t;                           // Return the pointer of strings
 }
-```
+// ```

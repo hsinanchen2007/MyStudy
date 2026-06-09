@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn original_digits(s: String) -> String {
         let mut let_cnt = [0; 26];
@@ -27,5 +27,5 @@ impl Solution {
         ret
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

@@ -1,5 +1,5 @@
-遍历所有头结点，找出最小的那个，把当前结点作为递归函数的返回值，当前结点的NEXT结点作为当前链表头。
-```
+// 遍历所有头结点，找出最小的那个，把当前结点作为递归函数的返回值，当前结点的NEXT结点作为当前链表头。
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
     return mergeKListsSub(lists,listsSize);
 }
 
-```
+// ```

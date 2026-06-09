@@ -1,7 +1,7 @@
-- 两种解法都需要建立一个虚拟头节点，方便删除节点
+// - 两种解法都需要建立一个虚拟头节点，方便删除节点
 
-采用哈希表存储遍历过的节点，时间复杂度O(n)，空间复杂度O(n)
-```java
+// 采用哈希表存储遍历过的节点，时间复杂度O(n)，空间复杂度O(n)
+// ```java
 class Solution {
     public ListNode removeDuplicateNodes(ListNode head) {
         if (head == null) {
@@ -22,9 +22,9 @@ class Solution {
         return dummyHead.next;
     }
 }
-```
-不使用额外空间存储节点，时间复杂度O(n*n)，空间复杂度O(1)，时间换空间的思想
-```java
+// ```
+// 不使用额外空间存储节点，时间复杂度O(n*n)，空间复杂度O(1)，时间换空间的思想
+// ```java
 class Solution {
     public ListNode removeDuplicateNodes(ListNode head) {
         if (head == null) {
@@ -47,4 +47,4 @@ class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```

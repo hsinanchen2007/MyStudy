@@ -1,10 +1,10 @@
-### 解题思路
-1.设置一个标志位 isadd 用来每次遍历元素 判断是否满足筛选条件 满足则设置为1，否则设为0
-2.处理筛选完的元素集合 进行自定义规则排序
+// ### 解题思路
+// 1.设置一个标志位 isadd 用来每次遍历元素 判断是否满足筛选条件 满足则设置为1，否则设为0
+// 2.处理筛选完的元素集合 进行自定义规则排序
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func filterRestaurants(restaurants [][]int, veganFriendly int, maxPrice int, maxDistance int) []int {
     var isadd int = 1   //标记是否将当前遍历的元素添加到result数组
@@ -37,4 +37,4 @@ func filterRestaurants(restaurants [][]int, veganFriendly int, maxPrice int, max
     }
     return re
 }
-```
+// ```

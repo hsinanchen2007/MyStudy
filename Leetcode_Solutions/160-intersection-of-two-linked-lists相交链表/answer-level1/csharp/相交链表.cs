@@ -1,5 +1,5 @@
-**思路：** 可以通过set存储一个链表的值，然后遍历另外一个链表的节点，看是否存在于Set中。
-```
+// **思路：** 可以通过set存储一个链表的值，然后遍历另外一个链表的节点，看是否存在于Set中。
+// ```
 public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
         {
             var set = new HashSet<ListNode>();
@@ -21,9 +21,9 @@ public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
 
             return null;
         }
-```
-**思路2：** 双指针法
-```
+// ```
+// **思路2：** 双指针法
+// ```
 public ListNode GetIntersectionNode(ListNode headA, ListNode headB) {
        if (headA == null || headB == null)
             {
@@ -39,5 +39,5 @@ public ListNode GetIntersectionNode(ListNode headA, ListNode headB) {
             }
             return pA;
     }
-```
-**注：** 不要在head上直接操作
+// ```
+// **注：** 不要在head上直接操作

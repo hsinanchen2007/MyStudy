@@ -1,9 +1,9 @@
-### 解题思路
-Array.sorted()的效率似乎不如Array.sort()耶..
+// ### 解题思路
+// Array.sorted()的效率似乎不如Array.sort()耶..
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func findContentChildren(_ g: [Int], _ s: [Int]) -> Int {
         
@@ -38,4 +38,4 @@ class Solution {
 
     }
 }
-```
+// ```

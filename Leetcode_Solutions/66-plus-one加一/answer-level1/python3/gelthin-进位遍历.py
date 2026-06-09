@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-我这里只算是 标准写法，增加了进位变量。 题解区有很多简洁巧妙的解法。
+# 我这里只算是 标准写法，增加了进位变量。 题解区有很多简洁巧妙的解法。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         add_in = 1
@@ -27,8 +27,8 @@ class Solution:
             new_nums = digits
         return new_nums
 
-```
-``` python3 新的更简洁的代码
+# ```
+# ``` python3 新的更简洁的代码
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         l = len(digits)

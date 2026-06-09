@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, str: str) -> int:
         ans = str.strip()
@@ -28,4 +28,4 @@ class Solution:
             if flag*value > 2147483647:return 2147483647
             if flag*value < -2147483648: return -2147483648
         return flag*value
-```
+# ```

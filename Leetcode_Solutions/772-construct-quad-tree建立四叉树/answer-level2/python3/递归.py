@@ -1,8 +1,8 @@
-## 思路:
+# ## 思路:
 
-递归即可!
+# 递归即可!
 
-```python
+# ```python
 class Solution:
     def construct(self, grid: List[List[int]]) -> 'Node':
         
@@ -22,11 +22,11 @@ class Solution:
                             dfs([row[len(grid)//2:] for row in grid[len(grid)//2:]]))
             
         return dfs(grid)
-```
+# ```
 
-当然用`numpy`切片更方便!
+# 当然用`numpy`切片更方便!
 
-```python
+# ```python
 class Solution:
     def construct(self, grid: List[List[int]]) -> 'Node':
         import numpy as np
@@ -54,5 +54,5 @@ class Solution:
             return root
             
         return dfs(grid)
-```
+# ```
 

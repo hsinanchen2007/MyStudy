@@ -1,4 +1,4 @@
-```
+// ```
 int calPoints(char ** ops, int opsSize){
     int valid[1001] = {0};
     int top;
@@ -41,4 +41,4 @@ int calPoints(char ** ops, int opsSize){
     
     return sum;
 }
-```
+// ```

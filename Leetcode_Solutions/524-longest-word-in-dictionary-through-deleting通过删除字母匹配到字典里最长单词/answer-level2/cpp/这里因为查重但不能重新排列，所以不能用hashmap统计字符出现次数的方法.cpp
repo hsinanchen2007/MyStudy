@@ -1,9 +1,9 @@
-### 解题思路
-这里因为查重但不能重新排列，所以不能用hashmap统计字符出现次数的方法。所以采用双重遍历的方法。
+// ### 解题思路
+// 这里因为查重但不能重新排列，所以不能用hashmap统计字符出现次数的方法。所以采用双重遍历的方法。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	string findLongestWord(string s, vector<string>& d) {
@@ -24,4 +24,4 @@ public:
 		
 	}
 };
-```
+// ```

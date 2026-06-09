@@ -1,9 +1,9 @@
-需要用到的变量，及其初始化值：
-- `target_0`：将原始目标值另赋值给一个变量`target_0`；
-- `dist`：代表和值与目标值的距离，初始化为正无穷；
-- `flag`：标识位，代表和值与目标值的大小关系，若和值大于目标，则`flag = True`，小于目标则`flag = False`。
-具体思路见注释：
-```
+# 需要用到的变量，及其初始化值：
+# - `target_0`：将原始目标值另赋值给一个变量`target_0`；
+# - `dist`：代表和值与目标值的距离，初始化为正无穷；
+# - `flag`：标识位，代表和值与目标值的大小关系，若和值大于目标，则`flag = True`，小于目标则`flag = False`。
+# 具体思路见注释：
+# ```
 class Solution(object):
     def threeSumClosest(self, nums, target):
         """
@@ -50,4 +50,4 @@ class Solution(object):
         else:
             return target_0 - dist
             
-```
+# ```

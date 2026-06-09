@@ -1,9 +1,9 @@
-### 解题思路
-...
+// ### 解题思路
+// ...
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxDistance(grid [][]int) int {
     var rQueue []int
     var lQueue []int
@@ -53,4 +53,4 @@ func maxDistance(grid [][]int) int {
     return depth
 }
 
-```
+// ```

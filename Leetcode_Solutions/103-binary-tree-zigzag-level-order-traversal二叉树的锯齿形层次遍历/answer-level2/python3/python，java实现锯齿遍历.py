@@ -1,5 +1,5 @@
-python解法：
-```
+# python解法：
+# ```
 from collections import deque
 class Solution:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
@@ -23,11 +23,11 @@ class Solution:
                     queue.append(node.right)
             level += 1
         return levels
-```
+# ```
 
 
-Java解法：
-```
+# Java解法：
+# ```
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> levels = new ArrayList<List<Integer>>();
@@ -54,4 +54,4 @@ class Solution {
         return levels;
     }
 }
-```
+# ```

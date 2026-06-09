@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {character[]} letters
  * @param {character} target
@@ -21,4 +21,4 @@ var nextGreatestLetter = function(letters, target) {
  * 寻找目标的最小值 即为left值 如若寻找目标的最大值，即为right值
  * left % letters.length 获取取余整数
  */
-```
+// ```

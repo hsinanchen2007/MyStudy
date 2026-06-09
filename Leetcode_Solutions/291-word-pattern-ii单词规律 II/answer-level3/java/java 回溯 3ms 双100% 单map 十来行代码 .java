@@ -1,6 +1,6 @@
-![1583629215(1).jpg](https://pic.leetcode-cn.com/e4938989da4380356050ccc1aba64792001e5b994643a5fff604be0a58c2642e-1583629215\(1\).jpg)
+// ![1583629215(1).jpg](https://pic.leetcode-cn.com/e4938989da4380356050ccc1aba64792001e5b994643a5fff604be0a58c2642e-1583629215\(1\).jpg)
 
-```
+// ```
 class Solution {
     Map<Character, String> map = new HashMap<Character, String>();
     public boolean wordPatternMatch(String pattern, String str) {
@@ -17,4 +17,4 @@ class Solution {
         return false;//循环跑完都没有结果当然就返回false啦
     }
 }
-```
+// ```

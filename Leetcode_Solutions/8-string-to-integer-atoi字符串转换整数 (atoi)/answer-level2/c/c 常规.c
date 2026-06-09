@@ -1,4 +1,4 @@
-```
+// ```
 
 /**
 *
@@ -69,4 +69,4 @@ int myAtoi( char * str ){
     return result * flag; 
 
 }
-```
+// ```

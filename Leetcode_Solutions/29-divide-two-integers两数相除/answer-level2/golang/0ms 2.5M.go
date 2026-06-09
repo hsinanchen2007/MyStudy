@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/cac2150caabebf4a9d33e77ad8af76876c01466b3701f86c3e73ce09fa972cd0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cac2150caabebf4a9d33e77ad8af76876c01466b3701f86c3e73ce09fa972cd0-image.png)
 
-### 解题思路
-1是处理正负，运算前全转正。
-2是越界，只有除数为1的时候才会越。
-3是使用移位操作加速
+// ### 解题思路
+// 1是处理正负，运算前全转正。
+// 2是越界，只有除数为1的时候才会越。
+// 3是使用移位操作加速
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func divide(dividend int, divisor int) int {
     isFu := false
     if dividend < 0{
@@ -44,4 +44,4 @@ func divide(dividend int, divisor int) int {
 
     return count
 }
-```
+// ```

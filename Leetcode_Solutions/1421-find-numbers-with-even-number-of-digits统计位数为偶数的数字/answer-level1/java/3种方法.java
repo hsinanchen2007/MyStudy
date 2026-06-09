@@ -1,5 +1,5 @@
-# 1. 把数字转成字符串
-```java
+// # 1. 把数字转成字符串
+// ```java
 public int findNumbers(int[] nums) {
     int count = 0;
     for (int i = 0; i < nums.length; i++) {
@@ -9,9 +9,9 @@ public int findNumbers(int[] nums) {
     }
     return count;
 }
-```
-# 2. 数字循环除10，统计等于0的时候除10的次数，偶数次则该数为偶数位
-```java
+// ```
+// # 2. 数字循环除10，统计等于0的时候除10的次数，偶数次则该数为偶数位
+// ```java
 public int findNumbers(int[] nums) {
     int count = 0;
     for (int i = 0; i < nums.length; i++) {
@@ -29,9 +29,9 @@ public int findNumbers(int[] nums) {
     }
     return count;
 }
-```
-# 3. 已知范围为1 <= nums[i] <= 10^5，所以只有两个区间内的数为偶数位10~99以及1000~9999
-```java
+// ```
+// # 3. 已知范围为1 <= nums[i] <= 10^5，所以只有两个区间内的数为偶数位10~99以及1000~9999
+// ```java
 public int findNumbers(int[] nums) {
     int count=0;
     for(int i=0;i<nums.length;++i){
@@ -40,4 +40,4 @@ public int findNumbers(int[] nums) {
     }
     return count;        
 }
-```
+// ```

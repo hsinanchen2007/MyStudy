@@ -1,4 +1,4 @@
-```python
+# ```python
 import collections
 def findShortestSubArray(nums):
     # 获取次数最多的数
@@ -10,4 +10,4 @@ def findShortestSubArray(nums):
 
 print(findShortestSubArray([1,2,2,3,1]))
 print(findShortestSubArray([1,2,2,3,1,4,2]))
-```
+# ```

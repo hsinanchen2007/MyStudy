@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-参考了labuladong的讲解
-https://leetcode-cn.com/problems/friend-circles/solution/union-find-suan-fa-xiang-jie-by-labuladong/
+// 参考了labuladong的讲解
+// https://leetcode-cn.com/problems/friend-circles/solution/union-find-suan-fa-xiang-jie-by-labuladong/
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int g_arr[10000];
 int g_count;
 int g_size[10000];
@@ -67,4 +67,4 @@ int findCircleNum(int** M, int MSize, int* MColSize){
     return g_count;
 
 }
-```
+// ```

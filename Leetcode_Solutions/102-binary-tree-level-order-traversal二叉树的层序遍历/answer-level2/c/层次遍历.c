@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/2888551f462be2d0698009bb90a8a21236d19514442ad87b12db93b6615988e1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2888551f462be2d0698009bb90a8a21236d19514442ad87b12db93b6615988e1-image.png)
 
 
-```
+// ```
 void getDeep(struct TreeNode* root,int tempDeep, int* returnSize)
 {
     if (!root) return;
@@ -51,4 +51,4 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
     *returnSize = row;
     return ret;
 }
-```
+// ```

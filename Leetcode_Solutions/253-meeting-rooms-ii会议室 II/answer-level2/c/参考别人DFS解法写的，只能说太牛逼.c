@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :248 ms, 在所有 C 提交中击败了30.51%的用户
-内存消耗 :7.8 MB, 在所有 C 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :248 ms, 在所有 C 提交中击败了30.51%的用户
+// 内存消耗 :7.8 MB, 在所有 C 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXNUM 100000
 
 int Comp(const void *a, const void *b)
@@ -51,4 +51,4 @@ int minMeetingRooms(int** intervals, int intervalsSize, int* intervalsColSize)
 
     return num;
 }
-```
+// ```

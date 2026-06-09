@@ -1,9 +1,9 @@
-### 解题思路
-C语言最大的问题是没有高级的数据结构，这里创建了struct word用来存储找到的单词信息。包括起始字母地址，长度，出现次数。
-记录word长度可以加快单词的比对速度，这得益于不需要每次调用strlen。
-### 代码
+// ### 解题思路
+// C语言最大的问题是没有高级的数据结构，这里创建了struct word用来存储找到的单词信息。包括起始字母地址，长度，出现次数。
+// 记录word长度可以加快单词的比对速度，这得益于不需要每次调用strlen。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -98,4 +98,4 @@ char ** uncommonFromSentences(char * A, char * B, int* returnSize){
 	*returnSize = rltCnt;
 	return rlt;
 }
-```
+// ```

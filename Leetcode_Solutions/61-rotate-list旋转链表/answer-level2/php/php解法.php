@@ -1,5 +1,5 @@
-参考官方思路：先连成环，在旋转后断开
-```
+// 参考官方思路：先连成环，在旋转后断开
+// ```
 function rotateRight($head, $k) {
     if($head==null) return null;
     if($head->next == null) return $head;
@@ -17,4 +17,4 @@ function rotateRight($head, $k) {
     $tmp2->next = null;
     return $new_node;
 }
-```
+// ```

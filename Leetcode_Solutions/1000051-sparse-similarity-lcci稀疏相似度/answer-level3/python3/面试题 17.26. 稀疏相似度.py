@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-集合取并，round函数会被卡精度。
+# 集合取并，round函数会被卡精度。
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def computeSimilarities(self, docs: List[List[int]]) -> List[str]:
         ans, n, docs = [], len(docs), [*map(set, docs)]
@@ -12,8 +12,8 @@ class Solution:
             r = (p := len(docs[i] & docs[j])) / (len(docs[i]) + len(docs[j]) - p)
             r and ans.append(f'{i},{j}: {r + 1e-9:.4f}')
         return ans
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def computeSimilarities(self, docs: List[List[int]]) -> List[str]:
         ans = []
@@ -26,4 +26,4 @@ class Solution:
             r = t / (len(docs[i]) + len(docs[j]) - t)
             r and ans.append(f'{i},{j}: {r + 1e-9:.4f}')
         return ans
-```
+# ```

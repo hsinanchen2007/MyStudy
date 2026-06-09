@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def arrangeCoins(self, n: int) -> int:
         if n<2:
@@ -16,7 +16,7 @@ class Solution:
             else:
                 left=mid
         return left
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/22f80ced2602afc499db5a9a7eb276b65b3325f5c669822f24e40550101a3aa4-image.png)
+# ![image.png](https://pic.leetcode-cn.com/22f80ced2602afc499db5a9a7eb276b65b3325f5c669822f24e40550101a3aa4-image.png)
 

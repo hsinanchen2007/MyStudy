@@ -1,9 +1,9 @@
-### 解题思路
-纯C 动态规划 清清爽爽
+// ### 解题思路
+// 纯C 动态规划 清清爽爽
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isMatch(char * s, char * p){
     /*
      * s为行，p为列
@@ -58,4 +58,4 @@ bool isMatch(char * s, char * p){
 
     return ppbIsMatch[lenOfP][lenOfS];
 }
-```
+// ```

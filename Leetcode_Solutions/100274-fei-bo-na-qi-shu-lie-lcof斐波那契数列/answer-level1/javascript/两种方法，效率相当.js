@@ -1,9 +1,9 @@
-### 解题思路
-经典的问题，mark一下解法
+// ### 解题思路
+// 经典的问题，mark一下解法
 
-### 代码
-递归 + 哈希表
-```javascript
+// ### 代码
+// 递归 + 哈希表
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -26,10 +26,10 @@ var fib = function(n) {
     const map = {}
     return helper(map, n)
 };
-```
+// ```
 
-迭代
-```
+// 迭代
+// ```
 // 另一种思路，直接通过累加这张dp表，迭代求解
 var fib = function (n) {
     const dp = [0, 1, 1]
@@ -39,4 +39,4 @@ var fib = function (n) {
     return dp[n]
 }
 
-```
+// ```

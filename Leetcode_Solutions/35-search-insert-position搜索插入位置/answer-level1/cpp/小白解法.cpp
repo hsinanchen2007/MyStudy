@@ -1,7 +1,7 @@
-使用二分法的前提的数组需要有顺序排列。
-关键是定义好左边右边和中间指向。
-难点是中间值结果的判定。
-```
+// 使用二分法的前提的数组需要有顺序排列。
+// 关键是定义好左边右边和中间指向。
+// 难点是中间值结果的判定。
+// ```
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -38,4 +38,4 @@ public:
         return left;
     }
 };
-```
+// ```

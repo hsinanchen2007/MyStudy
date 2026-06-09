@@ -1,9 +1,9 @@
-### 解题思路
-纯C 深度优先 回溯 递归
+// ### 解题思路
+// 纯C 深度优先 回溯 递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -79,4 +79,4 @@ int** combinationSum2(int* candidates, int candidatesSize, int target,
 
     return ppRes;
 }
-```
+// ```

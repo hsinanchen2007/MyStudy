@@ -1,4 +1,4 @@
-```js
+// ```js
 var surfaceArea = function(grid) {
     let xLen = grid.length;
     let yLen = grid[0].length;
@@ -15,4 +15,4 @@ var surfaceArea = function(grid) {
     }
     return allSurface - sameSurface;
 };
-```
+// ```

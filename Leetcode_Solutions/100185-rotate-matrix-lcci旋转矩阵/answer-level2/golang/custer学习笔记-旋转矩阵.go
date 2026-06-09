@@ -1,9 +1,9 @@
-### 解题思路
-先按1 - 9对角线翻转， 再以中心线翻转
+// ### 解题思路
+// 先按1 - 9对角线翻转， 再以中心线翻转
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func rotate(matrix [][]int)  {
   n := len(matrix)
   for i := 0; i < n; i++ {
@@ -18,4 +18,4 @@ func rotate(matrix [][]int)  {
     }
   }
 }
-```
+// ```

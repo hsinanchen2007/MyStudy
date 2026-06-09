@@ -1,9 +1,9 @@
-### 解题思路
-建立一个hash表，然后遍历数组nums，如果nums[i]在hash表中说明是重复元素，那么返回该元素。如果不在hash表中，那么把该元素添加到hash表中。
+// ### 解题思路
+// 建立一个hash表，然后遍历数组nums，如果nums[i]在hash表中说明是重复元素，那么返回该元素。如果不在hash表中，那么把该元素添加到hash表中。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -26,20 +26,20 @@ public:
         return result;
     }
 };
-```
+// ```
 
-### 解题思路
-参考《剑指offer》
+// ### 解题思路
+// 参考《剑指offer》
 
-当扫描到第i个元素时，先检查第i个元素是不是等于i，即`nums[i] ?= i`。
+// 当扫描到第i个元素时，先检查第i个元素是不是等于i，即`nums[i] ?= i`。
 
-- 如果不相等，那么交换当前值nums[i]和以当前值nums[i]为索引的值nums[nums[i]],如果相等说明nums[i]在i位置出现，并且又在nums[i]位置出现，便找到了一个重复值。
-- 如果相等，那么继续检查下一个元素
+// - 如果不相等，那么交换当前值nums[i]和以当前值nums[i]为索引的值nums[nums[i]],如果相等说明nums[i]在i位置出现，并且又在nums[i]位置出现，便找到了一个重复值。
+// - 如果相等，那么继续检查下一个元素
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {

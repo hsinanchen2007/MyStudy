@@ -1,11 +1,11 @@
-### 解题思路
-先快慢指针找到中点，断开（注意快指针要先走一步，偶数节点的时候保证均分）
-反转后半段，跟前半段比较即可
-[https://blog.csdn.net/qq_21201267/article/details/104609526](https://blog.csdn.net/qq_21201267/article/details/104609526)
+// ### 解题思路
+// 先快慢指针找到中点，断开（注意快指针要先走一步，偶数节点的时候保证均分）
+// 反转后半段，跟前半段比较即可
+// [https://blog.csdn.net/qq_21201267/article/details/104609526](https://blog.csdn.net/qq_21201267/article/details/104609526)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
@@ -44,4 +44,4 @@ public:
     	return cur;
     }
 };
-```
+// ```

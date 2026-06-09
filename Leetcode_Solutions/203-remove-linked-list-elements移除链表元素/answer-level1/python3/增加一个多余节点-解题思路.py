@@ -1,9 +1,9 @@
-### 解题思路
-使用第一个节点保存head值，应对头节点就是要删除的节点的情况
+# ### 解题思路
+# 使用第一个节点保存head值，应对头节点就是要删除的节点的情况
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
                 prev = prev.next
         
         return temp.next
-```
+# ```

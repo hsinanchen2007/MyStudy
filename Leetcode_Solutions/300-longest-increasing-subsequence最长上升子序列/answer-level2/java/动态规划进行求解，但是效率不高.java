@@ -1,13 +1,13 @@
-### 解题思路
-使用动态规划进行求解。
-新建一个数组int[] length = new int[n]，用于存放nums数组在第i个元素之前的最大长度。
-1. 首先将length[0] = 1，而后从i = 1(i = 1 ... n - 1)开始计算
-2. 先将length[i] = 1, curMax = 1，而后向前遍历(j = i - 1)：若nums[j] < nums[i],则curMax = Math.max(curMax, length[j] + 1)；若nums[j] == nums[i]，则curMax = Math.max(curMax, length[j])，剩下情况不进行处理。
-3. 遍历结束后length[i] = curMax，而后再得到最大值max = Math.max(max, curMax);
+// ### 解题思路
+// 使用动态规划进行求解。
+// 新建一个数组int[] length = new int[n]，用于存放nums数组在第i个元素之前的最大长度。
+// 1. 首先将length[0] = 1，而后从i = 1(i = 1 ... n - 1)开始计算
+// 2. 先将length[i] = 1, curMax = 1，而后向前遍历(j = i - 1)：若nums[j] < nums[i],则curMax = Math.max(curMax, length[j] + 1)；若nums[j] == nums[i]，则curMax = Math.max(curMax, length[j])，剩下情况不进行处理。
+// 3. 遍历结束后length[i] = curMax，而后再得到最大值max = Math.max(max, curMax);
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         if(nums == null || nums.length == 0) return 0;
@@ -30,4 +30,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

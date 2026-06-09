@@ -1,4 +1,4 @@
-```
+// ```
 struct CharNum{
     char c;
     int num;
@@ -48,4 +48,4 @@ public:
     }
 };
 
-```
+// ```

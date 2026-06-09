@@ -1,9 +1,9 @@
-### 解题思路
-反转字符串，应该有更简洁的方法
+# ### 解题思路
+# 反转字符串，应该有更简洁的方法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseStr(self, s: str, k: int) -> str:
         ret = ''
@@ -20,4 +20,4 @@ class Solution:
                 ret = ret + s[::-1]
                 s = []
         return ret
-```
+# ```

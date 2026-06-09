@@ -1,4 +1,4 @@
-```
+// ```
 func buildTree(preorder []int, inorder []int) *TreeNode {
 	if len(inorder) == 0 {
 		return nil
@@ -15,4 +15,4 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
 	root.Right = buildTree(preorder[idx+1:], inorder[idx+1:])
 	return root
 }
-```
+// ```

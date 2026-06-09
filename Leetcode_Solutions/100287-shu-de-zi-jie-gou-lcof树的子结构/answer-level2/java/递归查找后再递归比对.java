@@ -1,9 +1,9 @@
-### 解题思路
-主函数递归查找与 B.val 相等的 A 中节点，找到后调用 check 递归比对。
+// ### 解题思路
+// 主函数递归查找与 B.val 相等的 A 中节点，找到后调用 check 递归比对。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -55,4 +55,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
 	def maxTurbulenceSize(self, A: List[int]) -> int:
 		
@@ -28,4 +28,4 @@ class Solution:
 				flag = 1 if flag == 2 else 2
 				res = max(res, i  + 1 -  j)
 		return  res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路  dd 
+// ### 解题思路
+// 此处撰写解题思路  dd 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String multiply(String num1, String num2) {
         int m = num1.length();
@@ -41,4 +41,4 @@ class Solution {
         return new String(result, beginIndex, result.length - beginIndex);
     }
 }
-```
+// ```

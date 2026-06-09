@@ -1,4 +1,4 @@
-```python
+# ```python
 def findLengthOfLCIS(nums):
     if not nums:
         return 0
@@ -16,4 +16,4 @@ def findLengthOfLCIS(nums):
 
 print(findLengthOfLCIS([1,3,5,4,7]))
 print(findLengthOfLCIS([2,2,2,2,2]))
-```
+# ```

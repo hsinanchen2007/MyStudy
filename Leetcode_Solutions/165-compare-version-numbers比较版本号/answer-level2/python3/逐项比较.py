@@ -1,6 +1,6 @@
-逐项转整数比较
+# 逐项转整数比较
 
-```
+# ```
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:
         v1 = version1.split('.')
@@ -27,4 +27,4 @@ class Solution:
                 if v2[i].lstrip('0'):
                     return -1
         return 0
-```
+# ```

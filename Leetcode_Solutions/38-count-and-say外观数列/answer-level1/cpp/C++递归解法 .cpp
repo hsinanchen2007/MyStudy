@@ -1,6 +1,6 @@
-![38. 外观数列 - 力扣（LeetCode）.png](https://pic.leetcode-cn.com/e6b01c8acba51d181473e081d9b533b23ff07bb4ae069839744971b87cec3ecf-38.%20%E5%A4%96%E8%A7%82%E6%95%B0%E5%88%97%20-%20%E5%8A%9B%E6%89%A3%EF%BC%88LeetCode%EF%BC%89.png)
+// ![38. 外观数列 - 力扣（LeetCode）.png](https://pic.leetcode-cn.com/e6b01c8acba51d181473e081d9b533b23ff07bb4ae069839744971b87cec3ecf-38.%20%E5%A4%96%E8%A7%82%E6%95%B0%E5%88%97%20-%20%E5%8A%9B%E6%89%A3%EF%BC%88LeetCode%EF%BC%89.png)
 
-```
+// ```
 `class Solution {
 public:
     string countAndSay(int n) 
@@ -40,6 +40,6 @@ public:
     }
 
 };`
-```
+// ```
 
 

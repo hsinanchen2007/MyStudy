@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 void addlist(list<int>& list, ListNode*&lists)
 {
     ListNode* list_temp ;
@@ -59,4 +59,4 @@ public:
 		return list_head;
 	}
 };
-```
+// ```

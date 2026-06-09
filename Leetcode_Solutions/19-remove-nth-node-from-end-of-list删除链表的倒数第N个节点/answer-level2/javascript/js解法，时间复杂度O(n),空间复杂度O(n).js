@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历放入数组即可，然后根据n和数组长度来删除节点。
+// ### 解题思路
+// 一次遍历放入数组即可，然后根据n和数组长度来删除节点。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -37,4 +37,4 @@ var removeNthFromEnd = function(head, n) {
 
   return res[0]
 };
-```
+// ```

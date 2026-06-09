@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int binaryGap(int N) {
 		int count = 0, max = 0, tem = 0, count1 = 0;
@@ -16,4 +16,4 @@ class Solution {
 		return max;
 	}
 }
-```
+// ```

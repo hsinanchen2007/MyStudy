@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> answer = new ArrayList<>();
@@ -36,4 +36,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

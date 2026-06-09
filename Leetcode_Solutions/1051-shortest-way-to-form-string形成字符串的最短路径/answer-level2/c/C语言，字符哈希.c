@@ -1,11 +1,11 @@
-### 解题思路
-记下target前一个字符在source中的最小可取位置，然后查找当前字符在上一个字符
-后边的第一个字符，如果找到，则更新last值，否则就需要新增一个子串，last更新
-为当前字符第一次出现的位置
+// ### 解题思路
+// 记下target前一个字符在source中的最小可取位置，然后查找当前字符在上一个字符
+// 后边的第一个字符，如果找到，则更新last值，否则就需要新增一个子串，last更新
+// 为当前字符第一次出现的位置
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int shortestWay(char * source, char * target){
     int ret = 0;
     int cnt1[26] = {0};
@@ -56,4 +56,4 @@ int shortestWay(char * source, char * target){
     
     return ret;
 }
-```
+// ```

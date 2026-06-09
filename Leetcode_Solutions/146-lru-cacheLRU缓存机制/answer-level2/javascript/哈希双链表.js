@@ -1,6 +1,6 @@
-**哈希双链表实现, 可以更加深刻的理解数据结构的用途, 挺好的一个训练**
+// **哈希双链表实现, 可以更加深刻的理解数据结构的用途, 挺好的一个训练**
 
-```
+// ```
 
 function  DLinkedNode  () {
     this.key = null;
@@ -120,4 +120,4 @@ LRUCache.prototype.popTail = function( node ) {
     return res;
 }
 
-```
+// ```

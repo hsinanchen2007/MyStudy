@@ -1,6 +1,6 @@
-双指针法务必注意删除的是头结点的情况，被头节点卡了好久
+# 双指针法务必注意删除的是头结点的情况，被头节点卡了好久
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution(object):
         else:
             cur2.next = cur2.next.next
             return head
-```
+# ```

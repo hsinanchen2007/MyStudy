@@ -1,9 +1,9 @@
-### 解题思路
-题目难度标记错了吧
+// ### 解题思路
+// 题目难度标记错了吧
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         list.add(root.val);
     }
 }
-```
+// ```

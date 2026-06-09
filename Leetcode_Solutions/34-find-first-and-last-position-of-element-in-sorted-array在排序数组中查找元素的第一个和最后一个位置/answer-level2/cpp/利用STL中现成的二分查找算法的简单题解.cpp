@@ -1,6 +1,6 @@
-C++的超简洁解法
-STL万岁！
-```cpp []
+// C++的超简洁解法
+// STL万岁！
+// ```cpp []
 #include <algorithm>
 
 class Solution
@@ -13,4 +13,4 @@ public:
         return {beg - nums.begin(), end - nums.begin() - 1};
     }
 };
-```
+// ```

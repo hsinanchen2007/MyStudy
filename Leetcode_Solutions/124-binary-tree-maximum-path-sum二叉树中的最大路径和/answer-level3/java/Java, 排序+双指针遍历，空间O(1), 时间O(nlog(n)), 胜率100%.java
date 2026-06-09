@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int longestConsecutive(int[] nums) {
         if(nums.length < 2) {
@@ -18,4 +18,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

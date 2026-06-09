@@ -1,5 +1,5 @@
-先使用正则表达式找出是否含有小写字母，没有则返回true，然后再对全部是小写和大小写混合的情况进行判断
-```
+// 先使用正则表达式找出是否含有小写字母，没有则返回true，然后再对全部是小写和大小写混合的情况进行判断
+// ```
 class Solution {
     public boolean detectCapitalUse(String word) {
         int len = word.length();
@@ -16,4 +16,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-### 描述
-已经有优秀的循环迭代的题解了，这里就发一个递归的解法。
+// ### 描述
+// 已经有优秀的循环迭代的题解了，这里就发一个递归的解法。
 
-```
+// ```
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
     if l1 == nil && l2 == nil {
         return nil
@@ -28,4 +28,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
         }
     }
 }
-```
+// ```

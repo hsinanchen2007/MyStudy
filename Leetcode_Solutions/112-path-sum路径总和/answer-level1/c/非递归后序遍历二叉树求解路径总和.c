@@ -1,5 +1,5 @@
-使用栈，非递归后序遍历二叉树，遇到叶结点时，栈中的结点就是路径
-```c
+// 使用栈，非递归后序遍历二叉树，遇到叶结点时，栈中的结点就是路径
+// ```c
 bool hasPathSum(struct TreeNode *root, int sum)
 {
     if (!root)
@@ -41,4 +41,4 @@ bool hasPathSum(struct TreeNode *root, int sum)
     }
     return false;
 }
-```
+// ```

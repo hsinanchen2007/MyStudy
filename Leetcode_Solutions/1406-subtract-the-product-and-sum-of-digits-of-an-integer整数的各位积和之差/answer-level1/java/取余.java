@@ -1,9 +1,9 @@
-### 解题思路
-各位相乘减去各位相加
+// ### 解题思路
+// 各位相乘减去各位相加
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subtractProductAndSum(int n) {
 		if(n==0)
@@ -22,4 +22,4 @@ class Solution {
         return product-num;
     }
 }
-```
+// ```

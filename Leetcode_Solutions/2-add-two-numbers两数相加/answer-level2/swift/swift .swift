@@ -1,6 +1,6 @@
-# 思路
-从个位数加起，注意进位
-```
+// # 思路
+// 从个位数加起，注意进位
+// ```
         p1
 l1:     2-> 3-> 4
 l2:     4-> 5-> 6
@@ -8,8 +8,8 @@ l2:     4-> 5-> 6
 
 head->  6-> 8-> 0-> 1
         p3
-```
-```
+// ```
+// ```
 class Solution {
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         guard l1 != nil || l2 != nil else {
@@ -31,4 +31,4 @@ class Solution {
         return head.next
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-## 代码
+// ## 代码
 
-```cpp
+// ```cpp
 class CustomStack {
 private:
     vector<int> vec;
@@ -27,11 +27,11 @@ public:
     }
 };
 
-```
+// ```
 
-## 效率改进
+// ## 效率改进
 
-```cpp
+// ```cpp
 class CustomStack {
 private:
     vector<int> vec;
@@ -65,4 +65,4 @@ public:
             delta[k - 1] += val; // 记录增量值
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/22dc0a699a9922e856f65e9fed294582cd21da97e680ebb1c8b2f11d73b31397-image.png)
+# ![image.png](https://pic.leetcode-cn.com/22dc0a699a9922e856f65e9fed294582cd21da97e680ebb1c8b2f11d73b31397-image.png)
 
 
-把所有卖点全部累加，多卖的再减掉
+# 把所有卖点全部累加，多卖的再减掉
 
-```
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if prices == []:
@@ -19,5 +19,5 @@ class Solution:
             profit += prices[i] - lowlv# 高卖
             i += 1
         return profit
-```
-不会别的算法
+# ```
+# 不会别的算法

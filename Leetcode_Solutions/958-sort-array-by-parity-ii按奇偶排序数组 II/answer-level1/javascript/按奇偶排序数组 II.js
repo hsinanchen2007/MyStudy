@@ -1,5 +1,5 @@
-*法一：奇偶分开*
-```js
+// *法一：奇偶分开*
+// ```js
 var sortArrayByParityII = function(A) {
     let arr1 = []
     let arr2 = []
@@ -19,9 +19,9 @@ var sortArrayByParityII = function(A) {
     });
     return A;
 };
-```
-*法二： 双指针*
-```js
+// ```
+// *法二： 双指针*
+// ```js
 var sortArrayByParityII = function(A) {
     let j = 1;
     for(let i = 0; i < A.length - 1; i = i + 2) {
@@ -34,4 +34,4 @@ var sortArrayByParityII = function(A) {
     }
     return A;
 };
-```
+// ```

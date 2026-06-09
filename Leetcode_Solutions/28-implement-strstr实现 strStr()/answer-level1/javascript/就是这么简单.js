@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -13,4 +13,4 @@ var strStr = function(haystack, needle) {
     if(!needle) return 0;
     return haystack.indexOf(needle);
 };
-```
+// ```

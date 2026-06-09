@@ -1,4 +1,4 @@
-```
+// ```
 public int[] shortestToChar(String S, char C) {
         int[] result = new int[S.length()];
 //        先找到前两个出现的位置
@@ -19,4 +19,4 @@ public int[] shortestToChar(String S, char C) {
         }
         return result;
     }
-```
+// ```

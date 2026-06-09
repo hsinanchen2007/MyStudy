@@ -1,6 +1,6 @@
-O(n) 的 Java 解：
+// O(n) 的 Java 解：
 
-``` java
+// ``` java
 class Solution {
     public int[] sortedSquares(int[] A) {
         int left = 0, right = A.length - 1;
@@ -18,4 +18,4 @@ class Solution {
         return buf;
     }
 }
-```
+// ```

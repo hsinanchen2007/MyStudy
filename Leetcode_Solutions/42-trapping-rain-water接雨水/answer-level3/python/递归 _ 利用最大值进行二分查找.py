@@ -1,9 +1,9 @@
-### 解题思路
-考虑计算内容的补集，利用最大值进行二分查找，以求得需要减去的面积
+# ### 解题思路
+# 考虑计算内容的补集，利用最大值进行二分查找，以求得需要减去的面积
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     def __init__(self):
@@ -49,4 +49,4 @@ class Solution:
         # 减去柱子面积
         self.total -= sum(height)
         return self.total
-```
+# ```

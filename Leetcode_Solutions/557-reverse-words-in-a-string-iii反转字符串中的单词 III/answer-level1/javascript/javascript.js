@@ -1,5 +1,5 @@
 
-```javascript []
+// ```javascript []
 var reverseWords = function(s) {
    let arr = []
    s.split(/\s/).forEach(val => {
@@ -9,4 +9,4 @@ var reverseWords = function(s) {
    })
    return arr.join(' ')
 }
-```
+// ```

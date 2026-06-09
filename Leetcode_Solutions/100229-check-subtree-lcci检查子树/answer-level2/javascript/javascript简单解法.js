@@ -1,10 +1,10 @@
-### 解题思路
-因为节点很多，所以如果存起来用掉大量内存，直接暴力求解，用时96ms,目前是击败90%
+// ### 解题思路
+// 因为节点很多，所以如果存起来用掉大量内存，直接暴力求解，用时96ms,目前是击败90%
 
-对 t1 的每一子树都递归判断是否和 t2 相等
-### 代码
+// 对 t1 的每一子树都递归判断是否和 t2 相等
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -38,4 +38,4 @@ var checkSubTree = function(t1, t2) {
    helper(t1)
    return isSame
 };
-```
+// ```

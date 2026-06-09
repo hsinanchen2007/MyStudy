@@ -1,8 +1,8 @@
-### 解题思路
-运用队列先进先出的思想，每次拼接新的字符串数组，直到digits的所有数字读完
-### 代码
+// ### 解题思路
+// 运用队列先进先出的思想，每次拼接新的字符串数组，直到digits的所有数字读完
+// ### 代码
 
-```java
+// ```java
 class Solution {
     Map<String, String> phone = new HashMap<String, String>() {{
         put("2", "abc");
@@ -42,4 +42,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

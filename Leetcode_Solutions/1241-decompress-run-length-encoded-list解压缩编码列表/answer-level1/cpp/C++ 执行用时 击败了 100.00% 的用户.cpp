@@ -1,8 +1,8 @@
-### 解题思路
-![2.png](https://pic.leetcode-cn.com/3ec5ac7cfb1d4705c4195121b17bf29f0714183e8d38b19fb1fca65bea13ad94-2.png)
+// ### 解题思路
+// ![2.png](https://pic.leetcode-cn.com/3ec5ac7cfb1d4705c4195121b17bf29f0714183e8d38b19fb1fca65bea13ad94-2.png)
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     vector<int> decompressRLElist(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         return res;
     }
 };
-```
+// ```

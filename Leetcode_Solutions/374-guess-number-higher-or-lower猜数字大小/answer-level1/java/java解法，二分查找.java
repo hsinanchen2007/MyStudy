@@ -1,6 +1,6 @@
-执行用时 : 1 ms, 击败了97.99% 的用户。
-内存消耗 : 32.3 MB, 击败了84.05% 的用户。
-```
+// 执行用时 : 1 ms, 击败了97.99% 的用户。
+// 内存消耗 : 32.3 MB, 击败了84.05% 的用户。
+// ```
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
         int l = 1;
@@ -25,4 +25,4 @@ public class Solution extends GuessGame {
         return l;
     }
 }
-```
+// ```

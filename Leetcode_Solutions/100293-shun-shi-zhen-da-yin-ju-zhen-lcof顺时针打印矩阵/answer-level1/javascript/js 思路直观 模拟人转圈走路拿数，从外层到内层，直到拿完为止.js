@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/464ea1abc14bc3b59fc6fa738b6a79149835960c81d3fbe425bf6ce50dc12dea-image.png)
+// ![image.png](https://pic.leetcode-cn.com/464ea1abc14bc3b59fc6fa738b6a79149835960c81d3fbe425bf6ce50dc12dea-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 思路：模拟一个人转圈走路
 走完上：start_y++
 走完右：limit_x--
@@ -10,11 +10,11 @@
 [1,2,3]
 [4,5,6]
 [7,8,9]
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {number[]}
@@ -70,4 +70,4 @@ var spiralOrder = function(matrix) {
 
 
 
-```
+// ```

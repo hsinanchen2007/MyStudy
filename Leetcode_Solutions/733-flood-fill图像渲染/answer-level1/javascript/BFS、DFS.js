@@ -1,9 +1,9 @@
-### 解题思路
-方法一、DFS（递归）
+// ### 解题思路
+// 方法一、DFS（递归）
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} image
  * @param {number} sr
@@ -26,9 +26,9 @@ var floodFill = function(image, sr, sc, newColor) {
     }
     return image;
 };
-```
-方法二、BFS
-```
+// ```
+// 方法二、BFS
+// ```
 /**
  * @param {number[][]} image
  * @param {number} sr
@@ -60,4 +60,4 @@ var floodFill = function(image, sr, sc, newColor) {
     return image;
 };
 
-```
+// ```

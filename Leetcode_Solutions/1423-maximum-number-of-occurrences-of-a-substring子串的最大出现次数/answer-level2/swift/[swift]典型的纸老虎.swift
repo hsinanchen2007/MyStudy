@@ -1,4 +1,4 @@
-```swift
+// ```swift
  class Solution {
     func maxFreq(_ s: String, _ maxLetters: Int, _ minSize: Int, _ maxSize: Int) -> Int {
         
@@ -34,9 +34,9 @@
         return substrsCount.values.max() ?? 0
     }
  }
-```
+// ```
 
-```swift
+// ```swift
 class Solution {
     func maxFreq(_ s: String, _ maxLetters: Int, _ minSize: Int, _ maxSize: Int) -> Int {
         
@@ -65,4 +65,4 @@ class Solution {
         return substrsCount.values.max() ?? 0
     }
  }
-```
+// ```

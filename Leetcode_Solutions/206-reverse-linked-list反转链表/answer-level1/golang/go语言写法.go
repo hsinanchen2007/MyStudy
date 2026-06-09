@@ -1,10 +1,10 @@
-### 解题思路
-具体解释看代码把，中心思想就是每次的next之前是往后的，这次往前就完事儿了。
-> [更多](https://github.com/googege/GOFamily)
+// ### 解题思路
+// 具体解释看代码把，中心思想就是每次的next之前是往后的，这次往前就完事儿了。
+// > [更多](https://github.com/googege/GOFamily)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -22,4 +22,4 @@ func reverseList(head *ListNode) *ListNode {
     }
     return prev
 }
-```
+// ```

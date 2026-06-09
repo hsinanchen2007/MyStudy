@@ -1,6 +1,6 @@
-**Solution 1: DFS**
+// **Solution 1: DFS**
 
-```cpp
+// ```cpp
 class Solution {
 private:
     void dfs(vector<vector<char>>& grid, bool* vis, int i, int j) {
@@ -33,10 +33,10 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-Solution 2: Union Find + 路径压缩
-```cpp
+// Solution 2: Union Find + 路径压缩
+// ```cpp
 class Solution {
 private:
     void init_parent(int* parent, int length) {
@@ -75,4 +75,4 @@ public:
         return ans;
     }
 };
-```
+// ```

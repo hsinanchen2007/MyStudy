@@ -1,12 +1,12 @@
-### 解题思路
-中序遍历一棵树，将值压入队列。
-然后遍历队列，建立树。
-返回树。
-![image.png](https://pic.leetcode-cn.com/777faea0a24c8016462abfa01614fb7b5c402f771d29e5849b1f2f661614ebf0-image.png)
+// ### 解题思路
+// 中序遍历一棵树，将值压入队列。
+// 然后遍历队列，建立树。
+// 返回树。
+// ![image.png](https://pic.leetcode-cn.com/777faea0a24c8016462abfa01614fb7b5c402f771d29e5849b1f2f661614ebf0-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
         return tree->right;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 #define min(a,b) (a)<(b)?(a):(b)
 int minCostClimbingStairs(int* cost, int costSize)
 {
@@ -15,4 +15,4 @@ int minCostClimbingStairs(int* cost, int costSize)
     }
     return min(dp[costSize-1][0],dp[costSize-1][1]);
 }
-```
+// ```

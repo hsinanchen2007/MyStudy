@@ -1,5 +1,5 @@
-##### 这样写应该好理解一些，4 ms, 93.08%, 3.1 MB, 55.66%
-```
+// ##### 这样写应该好理解一些，4 ms, 93.08%, 3.1 MB, 55.66%
+// ```
 //查找第一个大于等于给定值的元素
 func searchInsert(nums []int, target int) int {
 	n := len(nums)
@@ -29,4 +29,4 @@ func searchInsert(nums []int, target int) int {
 	}
 	return -1
 }
-```
+// ```

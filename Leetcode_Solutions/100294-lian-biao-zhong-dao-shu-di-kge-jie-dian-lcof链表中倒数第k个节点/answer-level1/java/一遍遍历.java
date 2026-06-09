@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,5 +27,5 @@ class Solution {
         return res;
     }
 }
-```
-一遍遍历，记录到k值后，res和tmp同步后移。
+// ```
+// 一遍遍历，记录到k值后，res和tmp同步后移。

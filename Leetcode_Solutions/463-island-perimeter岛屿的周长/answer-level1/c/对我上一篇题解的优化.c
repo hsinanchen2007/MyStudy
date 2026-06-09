@@ -1,9 +1,9 @@
-### 解题思路
-1. 思路和我上一篇题解一致
-2. 放弃使用函数封装提高效率
-### 代码
+// ### 解题思路
+// 1. 思路和我上一篇题解一致
+// 2. 放弃使用函数封装提高效率
+// ### 代码
 
-```c
+// ```c
 int islandPerimeter(int** grid, int gridSize, int* gridColSize){
     int res = 0;
     for (int i=0; i<gridSize; i++){
@@ -18,4 +18,4 @@ int islandPerimeter(int** grid, int gridSize, int* gridColSize){
     }
     return res;
 }
-```
+// ```

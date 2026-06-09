@@ -1,12 +1,12 @@
-### 解题思路
-使用归并的思路：将两个有序的子序列合并为一个有序的新序列，联想归并排序即可。
+// ### 解题思路
+// 使用归并的思路：将两个有序的子序列合并为一个有序的新序列，联想归并排序即可。
 
-时间复杂度：O(n)。n为两链表长度之和。
-空间复杂度：O(1)。
+// 时间复杂度：O(n)。n为两链表长度之和。
+// 空间复杂度：O(1)。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode ans = new ListNode(-1);
@@ -30,4 +30,4 @@ class Solution {
         return ans.next;
     }
 }
-```
+// ```

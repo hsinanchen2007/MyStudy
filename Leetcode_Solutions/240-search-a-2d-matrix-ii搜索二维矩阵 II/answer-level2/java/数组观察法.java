@@ -1,12 +1,12 @@
-### 解题思路
-数组观察 
-从右上角开始，
-每次去除列或者行，
-直到最后找到值为止
+// ### 解题思路
+// 数组观察 
+// 从右上角开始，
+// 每次去除列或者行，
+// 直到最后找到值为止
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
          //bad-case
@@ -37,4 +37,4 @@ class Solution {
          return false;
     }
 }
-```
+// ```

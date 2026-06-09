@@ -1,5 +1,5 @@
 
-```
+// ```
 var findTheDifference = function(s, t) {
     var map = {};
     for(var i = 0; i < s.length; i++){
@@ -18,4 +18,4 @@ var findTheDifference = function(s, t) {
         }
     }
 };
-```
+// ```

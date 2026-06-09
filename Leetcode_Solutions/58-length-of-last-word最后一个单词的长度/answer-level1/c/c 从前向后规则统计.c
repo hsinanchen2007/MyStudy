@@ -1,9 +1,9 @@
-### 解题思路
-补齐最后的空格， 遇到空格统计当前的个数
+// ### 解题思路
+// 补齐最后的空格， 遇到空格统计当前的个数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_LEN 1000000
 
 int lengthOfLastWord(char * s){
@@ -25,4 +25,4 @@ int lengthOfLastWord(char * s){
     }
     return count;
 }
-```
+// ```

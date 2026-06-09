@@ -1,13 +1,13 @@
 
-#### 方法须知
+// #### 方法须知
 
-下面讲的方法跟用双指针来做 `"两数之和"` 有异曲同工之妙，先来看一下 `"两数之和"` 这道题。
+// 下面讲的方法跟用双指针来做 `"两数之和"` 有异曲同工之妙，先来看一下 `"两数之和"` 这道题。
 
-假设有一个有序数组，同时这个数组中元素唯一，想知道有多少对 `i`，`j`，满足 `i < j` 且 `A[i] + A[j] == target`。
+// 假设有一个有序数组，同时这个数组中元素唯一，想知道有多少对 `i`，`j`，满足 `i < j` 且 `A[i] + A[j] == target`。
 
-`"两数之和"` 可以在线性时间解决的，定义两个指针 `i`，`j`，初始分别指向数组的头尾，`i` 逐渐递增，`j` 逐渐递减，来找出所有满足 `A[i] + A[j] == target` 的组合。
+// `"两数之和"` 可以在线性时间解决的，定义两个指针 `i`，`j`，初始分别指向数组的头尾，`i` 逐渐递增，`j` 逐渐递减，来找出所有满足 `A[i] + A[j] == target` 的组合。
 
-```python [solution0-Python]
+// ```python [solution0-Python]
 def solve(A, target):
     # Assume A already sorted
     i, j = 0, len(A) - 1
@@ -22,21 +22,21 @@ def solve(A, target):
             i += 1
             j -= 1
     return ans
-```
+// ```
 
-#### 方法一： 三指针
+// #### 方法一： 三指针
 
-**思路和算法**
+// **思路和算法**
 
-先将数组进行排序，遍历数组下标，对于每个 `i`，设 `T = target - A[i]` 作为剩余要凑成的目标数。接着用双指针来完成 `A[j] + A[k] == T` 的子任务。
+// 先将数组进行排序，遍历数组下标，对于每个 `i`，设 `T = target - A[i]` 作为剩余要凑成的目标数。接着用双指针来完成 `A[j] + A[k] == T` 的子任务。
 
-考虑到有些元素是重复的，需要小心处理边界条件。在特殊的情况下，比如说 `target = 8`，数组为 `[2,2,2,2,3,3,4,4,4,5,5,5,6,6]`，这个数组就有大量的重复元素可以组成 `target`，下面来分析一下这种情况该怎么处理。
+// 考虑到有些元素是重复的，需要小心处理边界条件。在特殊的情况下，比如说 `target = 8`，数组为 `[2,2,2,2,3,3,4,4,4,5,5,5,6,6]`，这个数组就有大量的重复元素可以组成 `target`，下面来分析一下这种情况该怎么处理。
 
-只要 `A[j] + A[k] == T`，就要算上这一对 `j`, `k` 组合。在这个例子里面，当 `A[j] == 2`，`A[k] == 6`，有 `4 * 2 = 8` 种组合方式。
+// 只要 `A[j] + A[k] == T`，就要算上这一对 `j`, `k` 组合。在这个例子里面，当 `A[j] == 2`，`A[k] == 6`，有 `4 * 2 = 8` 种组合方式。
 
-在特殊情况下，如果 `A[j] == A[k]`，比如最后剩下的 `[4,4,4]`，这里有 `3` 对。一般情况下，如果 `A[j] == A[k]`，我们有  $\binom{M}{2} = \frac{M*(M-1)}{2}$ 对 `(j,k)`（满足 `j < k` 且 `A[j] + A[k] == T`）。
+// 在特殊情况下，如果 `A[j] == A[k]`，比如最后剩下的 `[4,4,4]`，这里有 `3` 对。一般情况下，如果 `A[j] == A[k]`，我们有  $\binom{M}{2} = \frac{M*(M-1)}{2}$ 对 `(j,k)`（满足 `j < k` 且 `A[j] + A[k] == T`）。
 
-```java [solution1-Java]
+// ```java [solution1-Java]
 class Solution {
     public int threeSumMulti(int[] A, int target) {
         int MOD = 1_000_000_007;
@@ -87,9 +87,9 @@ class Solution {
         return (int) ans;
     }
 }
-```
+// ```
 
-```python [solution1-Python]
+// ```python [solution1-Python]
 class Solution(object):
     def threeSumMulti(self, A, target):
         MOD = 10**9 + 7
@@ -136,31 +136,31 @@ class Solution(object):
                     break
 
         return ans
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $O(N^2)$，其中 $N$ 为 `A` 的长度。
+// * 时间复杂度： $O(N^2)$，其中 $N$ 为 `A` 的长度。
 
-* 空间复杂度： $O(1)$。
+// * 空间复杂度： $O(1)$。
 
-#### 方法二： 数学法
+// #### 方法二： 数学法
 
-**思路和算法**
+// **思路和算法**
 
-设 `count[x]` 为数组 `A` 中 `x` 出现的次数。对于每种 `x+y+z == target`，可以数一下有多少种可能的组合，这里可以看几个例子：
+// 设 `count[x]` 为数组 `A` 中 `x` 出现的次数。对于每种 `x+y+z == target`，可以数一下有多少种可能的组合，这里可以看几个例子：
 
-* 如果 `x`，`y`，`z` 各不相同，有 `count[x] * count[y] * count[z]` 中组合。
+// * 如果 `x`，`y`，`z` 各不相同，有 `count[x] * count[y] * count[z]` 中组合。
 
-* 如果 `x == y != z`，有 $\binom{\text{count[x]}}{2} * \text{count[z]}$ 种组合。
+// * 如果 `x == y != z`，有 $\binom{\text{count[x]}}{2} * \text{count[z]}$ 种组合。
 
-* 如果 `x != y == z`，有 $\text{count[x]} * \binom{\text{count[y]}}{2}$ 种组合。
+// * 如果 `x != y == z`，有 $\text{count[x]} * \binom{\text{count[y]}}{2}$ 种组合。
 
-* 如果 `x == y == z`，有 $\binom{\text{count[x]}}{3}$ 中组合。
+// * 如果 `x == y == z`，有 $\binom{\text{count[x]}}{3}$ 中组合。
 
-(*$\binom{n}{k}$ 表示二项式系数 $\frac{n!}{(n-k)!k!}$.*)
+// (*$\binom{n}{k}$ 表示二项式系数 $\frac{n!}{(n-k)!k!}$.*)
 
-```java [solution2-Java]
+// ```java [solution2-Java]
 class Solution {
     public int threeSumMulti(int[] A, int target) {
         int MOD = 1_000_000_007;
@@ -212,9 +212,9 @@ class Solution {
         return (int) ans;
     }
 }
-```
+// ```
 
-```python [solution2-Python]
+// ```python [solution2-Python]
 class Solution(object):
     def threeSumMulti(self, A, target):
         MOD = 10**9 + 7
@@ -255,23 +255,23 @@ class Solution(object):
                 ans %= MOD
 
         return ans
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $O(N + W^2)$，其中 $N$ 为 `A` 的长度，$W$ 为 `A[i]` 中最大的数。
+// * 时间复杂度： $O(N + W^2)$，其中 $N$ 为 `A` 的长度，$W$ 为 `A[i]` 中最大的数。
 
-* 空间复杂度： $O(W)$。
+// * 空间复杂度： $O(W)$。
 
-#### 方法三： 变种的三数之和
+// #### 方法三： 变种的三数之和
 
-**思路和算法那**
+// **思路和算法那**
 
-在 *方法二* 中，`count[x]` 为 `A` 中 `x` 出现的次数。同时，让 `keys` 为数组 `A` 中所有元素只出现一次的有序数组。接着用三数之和的方法来处理 `keys`。
+// 在 *方法二* 中，`count[x]` 为 `A` 中 `x` 出现的次数。同时，让 `keys` 为数组 `A` 中所有元素只出现一次的有序数组。接着用三数之和的方法来处理 `keys`。
 
-举个例子，如果 `A = [1,1,2,2,3,3,4,4,5,5]`，`target = 8`，得到 `keys = [1,2,3,4,5]`。当对 `keys` 做三数之和的时候，会遇到一些组合使得三数相加为 `target`，比如 `(x,y,z) = (1,2,5), (1,3,4), (2,2,4), (2,3,3)`。接着用 `count` 来算每种组合有多少次。
+// 举个例子，如果 `A = [1,1,2,2,3,3,4,4,5,5]`，`target = 8`，得到 `keys = [1,2,3,4,5]`。当对 `keys` 做三数之和的时候，会遇到一些组合使得三数相加为 `target`，比如 `(x,y,z) = (1,2,5), (1,3,4), (2,2,4), (2,3,3)`。接着用 `count` 来算每种组合有多少次。
 
-```java [solution3-Java]
+// ```java [solution3-Java]
 class Solution {
     public int threeSumMulti(int[] A, int target) {
         int MOD = 1_000_000_007;
@@ -327,9 +327,9 @@ class Solution {
         return (int) ans;
     }
 }
-```
+// ```
 
-```python [solution3-Python]
+// ```python [solution3-Python]
 class Solution(object):
     def threeSumMulti(self, A, target):
         MOD = 10**9 + 7
@@ -363,10 +363,10 @@ class Solution(object):
                     k -= 1
 
         return ans % MOD
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $O(N^2)$，其中 $N$ 是 `A` 的长度。
+// * 时间复杂度： $O(N^2)$，其中 $N$ 是 `A` 的长度。
 
-* 空间复杂度： $O(N)$。
+// * 空间复杂度： $O(N)$。

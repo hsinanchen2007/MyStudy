@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int reverseBits(int num){
     int flag=0,cnt=0,max=0,prev;  
     if(num==0) return 1;
@@ -18,4 +18,4 @@ int reverseBits(int num){
     }
     return max;
 }
-```
+// ```

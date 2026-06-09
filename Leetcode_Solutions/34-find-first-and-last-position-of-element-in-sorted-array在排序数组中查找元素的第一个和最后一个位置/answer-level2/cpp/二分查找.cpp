@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先用二分查找到一个符合要求的值，再二边找到左右边界
+// 先用二分查找到一个符合要求的值，再二边找到左右边界
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -40,4 +40,4 @@ public:
         return res;
     }
 };
-```
+// ```

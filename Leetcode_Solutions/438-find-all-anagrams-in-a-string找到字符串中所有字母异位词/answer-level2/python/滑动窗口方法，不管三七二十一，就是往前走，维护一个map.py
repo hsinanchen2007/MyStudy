@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         count_s = len(s)
@@ -36,4 +36,4 @@ class Solution:
                 
             left += 1
         return res
-```
+# ```

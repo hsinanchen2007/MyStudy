@@ -1,6 +1,6 @@
-![D15AD857-C052-46DD-BA06-03CA8DFE2380.jpeg](https://pic.leetcode-cn.com/d28f7cb1378e3df9666446f847779573c6c052c7466f4948586bad9fcc23b5d9-D15AD857-C052-46DD-BA06-03CA8DFE2380.jpeg)
+// ![D15AD857-C052-46DD-BA06-03CA8DFE2380.jpeg](https://pic.leetcode-cn.com/d28f7cb1378e3df9666446f847779573c6c052c7466f4948586bad9fcc23b5d9-D15AD857-C052-46DD-BA06-03CA8DFE2380.jpeg)
 
-```
+// ```
 #define COLSIZE 10
 
 int HaxFamilyNum(bool *seatsEnum)
@@ -86,4 +86,4 @@ int maxNumberOfFamilies(int n, int** reservedSeats, int reservedSeatsSize, int* 
     
     return returnCount;
 }
-```
+// ```

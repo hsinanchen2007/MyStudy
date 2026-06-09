@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select distinct v.viewer_id as id from Views v inner join 
@@ -11,4 +11,4 @@ select distinct v.viewer_id as id from Views v inner join
 group by viewer_id, view_date having count(distinct article_id)>=2) temp
 on v.viewer_id=temp.viewer_id
 order by v.viewer_id
-```
+-- ```

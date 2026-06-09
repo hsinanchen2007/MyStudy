@@ -1,5 +1,5 @@
-时间复杂度O(n),一奇一偶然后合并
-```
+// 时间复杂度O(n),一奇一偶然后合并
+// ```
 class Solution {
 
     /**
@@ -19,4 +19,4 @@ class Solution {
         return array_merge($ou,$ji);
     }
 }
-```
+// ```

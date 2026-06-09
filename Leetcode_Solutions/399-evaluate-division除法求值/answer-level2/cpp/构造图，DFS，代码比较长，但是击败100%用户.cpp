@@ -1,9 +1,9 @@
-![QQ图片20190818001418.png](https://pic.leetcode-cn.com/765896238bdb363fb7b048c5806deebc2b1e390224350a80f1a473423bd9c305-QQ%E5%9B%BE%E7%89%8720190818001418.png)
-举个栗子： a/b = 2 b/c = 3 
-![示意图.png](https://pic.leetcode-cn.com/2daaabb0b2b88f515fe37e80bbffc29fabe5465666d08ada140fc4b8475448b3-%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
-如上图，构造一个双向的图 从分子指向分母的就是给的值，从分母指向分子的就是倒数。
-定义一个结构体，记录邻居节点的
-```
+// ![QQ图片20190818001418.png](https://pic.leetcode-cn.com/765896238bdb363fb7b048c5806deebc2b1e390224350a80f1a473423bd9c305-QQ%E5%9B%BE%E7%89%8720190818001418.png)
+// 举个栗子： a/b = 2 b/c = 3 
+// ![示意图.png](https://pic.leetcode-cn.com/2daaabb0b2b88f515fe37e80bbffc29fabe5465666d08ada140fc4b8475448b3-%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
+// 如上图，构造一个双向的图 从分子指向分母的就是给的值，从分母指向分子的就是倒数。
+// 定义一个结构体，记录邻居节点的
+// ```
 	struct node
 	{
 		double v;//比值
@@ -12,12 +12,12 @@
 	
 	map<string,vector<node> >mp;//键是某个节点的名字，值是该节点的所有邻接节点构成的容器
 	map<string,int> visited;//记录某个节点是否被访问过
-```
-整体思路就是对于每个给定的比值，转化为两个节点是否联通的问题。连同就返回路径，然后根据路径算出来比值。
+// ```
+// 整体思路就是对于每个给定的比值，转化为两个节点是否联通的问题。连同就返回路径，然后根据路径算出来比值。
 
-主要算法就是 DFS
+// 主要算法就是 DFS
 
-```
+// ```
  bool DFS(string start,string end,vector<string>&road,bool flag)
     {
     	visited[start]=1;//开始节点记录为访问过
@@ -53,9 +53,9 @@
 		}
     	return flag;
 	}
-```
-全部代码，还有测试数据，估计有很多冗余，大神轻喷：
-```
+// ```
+// 全部代码，还有测试数据，估计有很多冗余，大神轻喷：
+// ```
 #include<iostream>
 using namespace std;
 #include<string>
@@ -225,6 +225,6 @@ int main()
 	}
 	return 0;
 }
-```
+// ```
 
 

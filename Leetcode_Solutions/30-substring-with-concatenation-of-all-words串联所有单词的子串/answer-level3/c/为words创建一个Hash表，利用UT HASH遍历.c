@@ -1,9 +1,9 @@
-### 解题思路
-为words创建一个Hash表，利用UT HASH遍历。
+// ### 解题思路
+// 为words创建一个Hash表，利用UT HASH遍历。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -111,4 +111,4 @@ int* findSubstring(char * s, char ** words, int wordsSize, int* returnSize){
     return result;
 }
 
-```
+// ```

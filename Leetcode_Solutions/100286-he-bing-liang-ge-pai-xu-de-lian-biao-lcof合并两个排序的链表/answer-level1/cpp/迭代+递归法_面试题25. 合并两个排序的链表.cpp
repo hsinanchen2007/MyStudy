@@ -1,17 +1,17 @@
-### 解题思路一 双指针迭代法
-    /*
-     * 方法1 双指针迭代法
-     * 设置头节点head(不动)和插入节点node(移动)，
-     * 当两链表均不为空时，比较两链表头节点的值，
-     * 值较小的节点插入到node节点的next节点，
-     * 更新改变的链表的头节点，node节点移动，
-     * 当迭代结束后，某一链表可能还有值未访问，
-     * 将剩下有序的节点插入node的next节点即可，
-     * 因为初始化node=head,所以返回head的next节点
-     * */
-### 代码
+// ### 解题思路一 双指针迭代法
+//     /*
+//      * 方法1 双指针迭代法
+//      * 设置头节点head(不动)和插入节点node(移动)，
+//      * 当两链表均不为空时，比较两链表头节点的值，
+//      * 值较小的节点插入到node节点的next节点，
+//      * 更新改变的链表的头节点，node节点移动，
+//      * 当迭代结束后，某一链表可能还有值未访问，
+//      * 将剩下有序的节点插入node的next节点即可，
+//      * 因为初始化node=head,所以返回head的next节点
+//      * */
+// ### 代码
 
-```cpp
+// ```cpp
 ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
     // 判断l1与l2是否为空的情况
     // 包含了l1、l2同时为空的可能
@@ -57,18 +57,18 @@ ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
     // 所以返回的是head节点的next节点
     return head->next;
 }
-```
+// ```
 
-### 解题思路二 递归法
-    /*
-     * 方法2 递归法
-     * 设置合并链表头节点head,比较两链表头节点的值，
-     * 值较小的节点插入head节点，递归函数返回head节点的next节点的值
-     * 返回合并链表的head节点
-     * */
-### 代码
+// ### 解题思路二 递归法
+//     /*
+//      * 方法2 递归法
+//      * 设置合并链表头节点head,比较两链表头节点的值，
+//      * 值较小的节点插入head节点，递归函数返回head节点的next节点的值
+//      * 返回合并链表的head节点
+//      * */
+// ### 代码
 
-```cpp
+// ```cpp
 ListNode *mergeTwoLists2(ListNode *l1, ListNode *l2) {
     // 判断l1与l2是否为空的情况
     // 包含了l1、l2同时为空的可能
@@ -93,4 +93,4 @@ ListNode *mergeTwoLists2(ListNode *l1, ListNode *l2) {
 
     return head;
 }
-```
+// ```

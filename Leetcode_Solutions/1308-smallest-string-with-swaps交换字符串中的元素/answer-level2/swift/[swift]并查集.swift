@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class UnionFind {
     private var parents: [Int]
     init(_ size: Int) {
@@ -70,4 +70,4 @@ class Solution {
     }
 }
 
-```
+// ```

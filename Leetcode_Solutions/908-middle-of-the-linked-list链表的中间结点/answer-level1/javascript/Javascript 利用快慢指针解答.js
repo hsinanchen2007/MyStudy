@@ -1,4 +1,4 @@
-```
+// ```
 var middleNode = function(head) {
     //判断边界情况
     if(head===null||(head===null&&head.next===null))return 0
@@ -11,4 +11,4 @@ var middleNode = function(head) {
     
     return mid
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-  /10 求商
-  %10 取模
-  商数就是数字的每个位数，相加相乘就得到结果了
-### 代码
+// ### 解题思路
+//   /10 求商
+//   %10 取模
+//   商数就是数字的每个位数，相加相乘就得到结果了
+// ### 代码
 
-```c
+// ```c
 int subtractProductAndSum(int n){
     int remainder,quotient,sum,product,result;
     sum=0;
@@ -22,4 +22,4 @@ int subtractProductAndSum(int n){
     result=product-sum;
     return result;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-两种方法都可以通过设置哑结点来减少判断。
-```
+// 两种方法都可以通过设置哑结点来减少判断。
+// ```
 #include <iostream>
 using namespace std;
 class Solution {
@@ -51,9 +51,9 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-```
+// ```
  #include <iostream>
             #include <stack>
             using namespace std;
@@ -90,5 +90,5 @@ public:
                     return head;
                 }
             };
-```
+// ```
 

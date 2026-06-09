@@ -1,8 +1,8 @@
-别人的题解思路：图的概念。定义信任别人是出度，被人信任是入度。 就是在图上找入度为N-1的人。
+// 别人的题解思路：图的概念。定义信任别人是出度，被人信任是入度。 就是在图上找入度为N-1的人。
 
-题外话： 心思再深入一点，如果假设 A信任B， B信任C，那么潜台词是A也信任C的话，这题就不是简单难度了。
+// 题外话： 心思再深入一点，如果假设 A信任B， B信任C，那么潜台词是A也信任C的话，这题就不是简单难度了。
 
-```c
+// ```c
 int findJudge(int N, int** trust, int trustSize, int* trustColSize){
     int *ret_val = (int *)calloc(N+1, sizeof(int));
     for (int i = 0; i < N+1; ++i)
@@ -25,4 +25,4 @@ int findJudge(int N, int** trust, int trustSize, int* trustColSize){
     free(ret_val);    
     return (num > 1 ? -1 : top);//如果有大于1个法官，就为-1，否则就为该下标
 }
-```
+// ```

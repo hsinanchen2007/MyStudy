@@ -1,8 +1,8 @@
-### 解题思路
-采用滑动窗口的思路
-### 代码
+// ### 解题思路
+// 采用滑动窗口的思路
+// ### 代码
 
-```golang
+// ```golang
 func containsNearbyDuplicate(nums []int, k int) bool {
     var l,r int 
     if k == 0 {
@@ -28,4 +28,4 @@ func containsNearbyDuplicate(nums []int, k int) bool {
 	}
     return false
 }
-```
+// ```

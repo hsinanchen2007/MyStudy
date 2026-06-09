@@ -1,5 +1,5 @@
-思路都在代码注释里
-```cpp
+// 思路都在代码注释里
+// ```cpp
 class Solution {
 public:
     vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {
@@ -37,4 +37,4 @@ public:
         return ans;
     }
 };
-```
+// ```

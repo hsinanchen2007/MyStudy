@@ -1,10 +1,10 @@
-第一次写题解的小透明
-![image.png](https://pic.leetcode-cn.com/ecc9bc114c2521b6d1aa6ecb7c77c150e05d5fd28121cc814a771dc3978a2f17-image.png)
-# 解法
-    双指针法
+// 第一次写题解的小透明
+// ![image.png](https://pic.leetcode-cn.com/ecc9bc114c2521b6d1aa6ecb7c77c150e05d5fd28121cc814a771dc3978a2f17-image.png)
+// # 解法
+//     双指针法
 
-# 代码
-```
+// # 代码
+// ```
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
@@ -29,4 +29,4 @@ public:
 
     }
 };
-```
+// ```

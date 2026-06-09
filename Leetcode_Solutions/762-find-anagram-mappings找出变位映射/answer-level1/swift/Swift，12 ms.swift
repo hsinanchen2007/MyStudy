@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func anagramMappings(_ A: [Int], _ B: [Int]) -> [Int] {
         let BCount = B.count
@@ -16,4 +16,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

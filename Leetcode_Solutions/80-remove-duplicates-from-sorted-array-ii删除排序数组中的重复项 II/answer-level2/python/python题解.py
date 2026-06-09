@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeDuplicates(self, nums):
         """
@@ -37,4 +37,4 @@ class Solution(object):
 
 
 
-```
+# ```

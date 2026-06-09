@@ -1,9 +1,9 @@
-### 解题思路
-遍历字符串，如果无重复就把值放入map，同时curMax+1。如果重复，则index返回重复的字符串的后一位，并把curMax置为0.
+// ### 解题思路
+// 遍历字符串，如果无重复就把值放入map，同时curMax+1。如果重复，则index返回重复的字符串的后一位，并把curMax置为0.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         char[] chars = s.toCharArray();
@@ -26,4 +26,4 @@ class Solution {
         return max;
 }
 }
-```
+// ```

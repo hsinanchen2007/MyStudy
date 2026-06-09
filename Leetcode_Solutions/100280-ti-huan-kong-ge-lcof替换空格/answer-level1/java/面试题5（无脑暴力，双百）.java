@@ -1,9 +1,9 @@
-### 解题思路
-无脑暴力，碰到空格就插字符串，复杂度O(n^2)
+// ### 解题思路
+// 无脑暴力，碰到空格就插字符串，复杂度O(n^2)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         StringBuffer res=new StringBuffer();
@@ -19,4 +19,4 @@ class Solution {
         return res.toString();
     }
 }
-```
+// ```

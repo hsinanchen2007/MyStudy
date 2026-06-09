@@ -1,9 +1,9 @@
-### 解题思路
-超过88%
+# ### 解题思路
+# 超过88%
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numberOfLines(self, widths: List[int], S: str) -> List[int]:
         vol, temp, count = ord('a'), 0, 1
@@ -15,4 +15,4 @@ class Solution:
             
         
 
-```
+# ```

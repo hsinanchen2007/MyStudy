@@ -1,11 +1,11 @@
-### 解题思路
-第一步求出树的高度；
-第二步根据树的高度求出二维数组；
-第三步根据树的节点更改二维数组。
+# ### 解题思路
+# 第一步求出树的高度；
+# 第二步根据树的高度求出二维数组；
+# 第三步根据树的节点更改二维数组。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
         
         dfs(root, 0, 0, n)
         return res
-```
+# ```

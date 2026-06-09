@@ -1,17 +1,17 @@
-### 解题思路
+# ### 解题思路
 
-abc 排列可以分成三部分：  a + bc排列；b + ac排列； c + ab排列
-aab 排列可以分成两部分：  a + ab 排列； b + aa排列
+# abc 排列可以分成三部分：  a + bc排列；b + ac排列； c + ab排列
+# aab 排列可以分成两部分：  a + ab 排列； b + aa排列
 
-bc 排列可以分成两部分： b + c排列； c + b排列
-bb 排列可以分成一部分： b + b排列
+# bc 排列可以分成两部分： b + c排列； c + b排列
+# bb 排列可以分成一部分： b + b排列
 
-b 排列输出 b
+# b 排列输出 b
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permutation(self, s: str) -> List[str]:
         res = []
@@ -34,4 +34,4 @@ class Solution:
                 res.append(new_char)
             i += 1
         return res
-```
+# ```

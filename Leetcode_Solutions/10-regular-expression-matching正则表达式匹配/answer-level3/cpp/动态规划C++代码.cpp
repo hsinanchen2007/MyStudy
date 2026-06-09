@@ -1,6 +1,6 @@
-看了这么多题解，好像没有用C++写的。。我大C++怎能如此颓废？
-直接上代码吧，是看了[@kao-la-7](/u/kao-la-7/)的题解的思路之后完成的，感谢大佬的题解！
-```
+// 看了这么多题解，好像没有用C++写的。。我大C++怎能如此颓废？
+// 直接上代码吧，是看了[@kao-la-7](/u/kao-la-7/)的题解的思路之后完成的，感谢大佬的题解！
+// ```
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -38,4 +38,4 @@ public:
         return dp[s.length()][p.length()];
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Node:
     
     def __init__(self, key=None, val=None, nex=None):
@@ -60,5 +60,5 @@ class MyHashMap:
 # obj.put(key,value)
 # param_2 = obj.get(key)
 # obj.remove(key)
-```
-- biubiubiu
+# ```
+# - biubiubiu

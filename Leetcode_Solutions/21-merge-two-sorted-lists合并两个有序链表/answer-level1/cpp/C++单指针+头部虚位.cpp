@@ -1,9 +1,9 @@
-### 解题思路
-这一题好像不用迭代，会有更好的时间复杂度
+// ### 解题思路
+// 这一题好像不用迭代，会有更好的时间复杂度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ public:
         return res->next;
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-难点，边界条件处理，进位的传递。
-题目说明是非空列表，所以非空判定可以省略。
-尾插法构建结果链表，所以需要先创建一个头节点，其中不包含任何计算结果。
+// ### 解题思路
+// 难点，边界条件处理，进位的传递。
+// 题目说明是非空列表，所以非空判定可以省略。
+// 尾插法构建结果链表，所以需要先创建一个头节点，其中不包含任何计算结果。
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -106,4 +106,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 
     return resultNode.Next 
 }
-```
+// ```

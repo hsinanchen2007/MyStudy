@@ -1,9 +1,9 @@
-### 解题思路
-暴力枚举
+// ### 解题思路
+// 暴力枚举
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestValidParentheses(string s) {
@@ -53,14 +53,14 @@ public:
 			return false;
 	}
 };
-```
+// ```
 
-### 解题思路
-栈的用法
+// ### 解题思路
+// 栈的用法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestValidParentheses(string s) {
@@ -85,14 +85,14 @@ public:
         return maxlength;
     }
 };
-```
-### 解题思路
-动态规划，这道题的状态表达式和状态转移方程不太好找。
-dp[i] 是必须以s[i]为结束字符')'的最长有效括号的长度。
-dp[i] = dp[i-2] + 2
-      = dp[i-1] + 2 + dp[i - dp[i-1] - 2];
-### 代码
-```
+// ```
+// ### 解题思路
+// 动态规划，这道题的状态表达式和状态转移方程不太好找。
+// dp[i] 是必须以s[i]为结束字符')'的最长有效括号的长度。
+// dp[i] = dp[i-2] + 2
+//       = dp[i-1] + 2 + dp[i - dp[i-1] - 2];
+// ### 代码
+// ```
 
 class Solution {
 public:
@@ -118,4 +118,4 @@ public:
         return maxLength;
     }
 };
-```
+// ```

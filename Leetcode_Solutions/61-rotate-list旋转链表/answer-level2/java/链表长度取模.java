@@ -1,24 +1,24 @@
-### 解题思路
-此处撰写解题思路
-找到链表长度对k取模后，再算
+// ### 解题思路
+// 此处撰写解题思路
+// 找到链表长度对k取模后，再算
 
-```
-```python []
+// ```
+// ```python []
+// print('Hello world!')
+// ```
+// ```ruby []
+// puts 'Hello world!'
+// ```
+// ```
+// ```python []
 print('Hello world!')
-```
-```ruby []
+// ```
+// ```ruby []
 puts 'Hello world!'
-```
-```
-```python []
-print('Hello world!')
-```
-```ruby []
-puts 'Hello world!'
-```
-### 代码
+// ```
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -67,4 +67,4 @@ class Solution {
         return newHead;
     }
 }
-```
+// ```

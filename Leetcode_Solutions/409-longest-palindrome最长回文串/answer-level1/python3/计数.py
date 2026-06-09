@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
 
@@ -17,4 +17,4 @@ class Solution:
                 dct[ch] = 0
                 ans += 2
         return ans if ans==len(s) else ans+1
-```
+# ```

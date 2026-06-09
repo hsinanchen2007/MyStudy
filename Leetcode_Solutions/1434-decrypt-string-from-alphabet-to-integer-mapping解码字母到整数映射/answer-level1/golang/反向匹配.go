@@ -1,9 +1,9 @@
-### 解题思路
-反向匹配
+// ### 解题思路
+// 反向匹配
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func freqAlphabets(s string) string {
 	var newStr string
 	for i := len(s) - 1; i >= 0; i-- {
@@ -19,4 +19,4 @@ func freqAlphabets(s string) string {
 	}
 	return newStr
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-本题直接计算就可以，需要注意几个细节：
-1. 字母计数需要转换成String类型
-2. 直接计算时尾部需要特别的处理一下
+# ### 解题思路
+# 本题直接计算就可以，需要注意几个细节：
+# 1. 字母计数需要转换成String类型
+# 2. 直接计算时尾部需要特别的处理一下
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if len(S) == 0:
@@ -27,4 +27,4 @@ class Solution:
             return ret
         else:
             return S 
-```
+# ```

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         return max(dp1[n-1],dp2[n]);
     }
 };
-```
+// ```

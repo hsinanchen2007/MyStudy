@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 
 func consecutiveNumbersSum(N int) int {
@@ -11,4 +11,4 @@ func consecutiveNumbersSum(N int) int {
 	}
 	return o
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1，摩尔投票寻找众数
-2，验证找到的众数，符合条件输出答案即可
-3，验证不符合条件，说明所有的众数都集中在数组的左侧，直接输出答案即可
+// ### 解题思路
+// 1，摩尔投票寻找众数
+// 2，验证找到的众数，符合条件输出答案即可
+// 3，验证不符合条件，说明所有的众数都集中在数组的左侧，直接输出答案即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int repeatedNTimes(vector<int>& A) {
@@ -26,6 +26,6 @@ public:
         return c > 1 ? n : A[0];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/a66a5106e553facf33f8dcc1e0b5e1de5ddbea2e06517c5abb3aec6fb8f65177-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a66a5106e553facf33f8dcc1e0b5e1de5ddbea2e06517c5abb3aec6fb8f65177-image.png)

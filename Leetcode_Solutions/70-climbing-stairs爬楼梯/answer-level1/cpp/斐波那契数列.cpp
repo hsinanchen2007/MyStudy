@@ -1,9 +1,9 @@
-### 解题思路
-这就是个斐波那契数列。。。没啥好说的
+// ### 解题思路
+// 这就是个斐波那契数列。。。没啥好说的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) {
@@ -15,4 +15,4 @@ public:
         return ans[n];
     }
 };
-```
+// ```

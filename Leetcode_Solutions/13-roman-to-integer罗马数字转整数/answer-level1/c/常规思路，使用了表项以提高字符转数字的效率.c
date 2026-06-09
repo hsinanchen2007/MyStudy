@@ -1,9 +1,9 @@
-### 解题思路
-常规思路，使用了表项以提高字符转数字的效率
+// ### 解题思路
+// 常规思路，使用了表项以提高字符转数字的效率
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int romanToInt(char * s){
     int numTotal = 0;
     int temp;
@@ -34,4 +34,4 @@ int romanToInt(char * s){
 
     return numTotal;
 }
-```
+// ```

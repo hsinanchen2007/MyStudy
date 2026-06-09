@@ -1,10 +1,10 @@
-### 解题思路
-js 超简洁代码 10 行搞定
+// ### 解题思路
+// js 超简洁代码 10 行搞定
 
-### 代码
+// ### 代码
 
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[][]}
@@ -22,4 +22,4 @@ var solveNQueens = function(n) {
     dfs([]);
     return result;
 };
-```
+// ```

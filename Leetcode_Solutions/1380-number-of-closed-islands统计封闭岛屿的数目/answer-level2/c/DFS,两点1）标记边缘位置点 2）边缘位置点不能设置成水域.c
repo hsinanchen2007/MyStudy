@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define VIST_FLG 1
 int g_dir[4][2] = {
     {0,1},
@@ -108,5 +108,5 @@ int closedIsland(int** grid, int gridSize, int* gridColSize)
     }
     return cnt;
 }
-```
-![image.png](https://pic.leetcode-cn.com/345d76f8de04beb2789cba08a4018695dcad12aa503cf752f7bfe47cb1fd8f56-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/345d76f8de04beb2789cba08a4018695dcad12aa503cf752f7bfe47cb1fd8f56-image.png)

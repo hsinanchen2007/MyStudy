@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxProfit(self, prices):
         if len(prices)==0 or len(prices)==1:
@@ -17,4 +17,4 @@ class Solution(object):
             else:
                 pre=price
         return ans
-```
+# ```

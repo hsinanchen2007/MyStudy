@@ -1,9 +1,9 @@
-执行用时 : 2 ms , 在所有 Java 提交中击败了 95.87% 的用户
-内存消耗 : 34.6 MB , 在所有 Java 提交中击败了 96.84% 的用户
+// 执行用时 : 2 ms , 在所有 Java 提交中击败了 95.87% 的用户
+// 内存消耗 : 34.6 MB , 在所有 Java 提交中击败了 96.84% 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String toGoatLatin(String S) {
         StringBuilder answer = new StringBuilder();
@@ -26,4 +26,4 @@ class Solution {
         return answer.toString();
     }
 }
-```
+// ```

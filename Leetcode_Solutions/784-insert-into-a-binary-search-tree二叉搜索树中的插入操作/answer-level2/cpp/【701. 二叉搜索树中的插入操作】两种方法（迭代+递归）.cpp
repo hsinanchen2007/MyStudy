@@ -1,7 +1,7 @@
-## 思路一：迭代
-注意树为空情况（不过好像没有这个测试案例）
-### 代码
-```c++
+// ## 思路一：迭代
+// 注意树为空情况（不过好像没有这个测试案例）
+// ### 代码
+// ```c++
 class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
@@ -28,11 +28,11 @@ public:
         return head;        
     }
 };
-```
+// ```
 
-## 思路二：递归
-### 代码
-```c++
+// ## 思路二：递归
+// ### 代码
+// ```c++
 class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
@@ -42,5 +42,5 @@ public:
         return root;        
     }
 };
-```
+// ```
 

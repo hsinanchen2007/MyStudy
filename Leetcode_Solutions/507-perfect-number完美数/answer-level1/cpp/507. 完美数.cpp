@@ -1,9 +1,9 @@
-### 解题思路
-1.使用枚举法完成对完美数的判断。
+// ### 解题思路
+// 1.使用枚举法完成对完美数的判断。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkPerfectNumber(int num) {
@@ -23,4 +23,4 @@ public:
         return sum - num == num;
     }
 };
-```
+// ```

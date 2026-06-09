@@ -1,16 +1,16 @@
-输入: coins = [1, 2, 5], amount = 11
-输出: 3 
-解释: 11 = 5 + 5 + 1
+// 输入: coins = [1, 2, 5], amount = 11
+// 输出: 3 
+// 解释: 11 = 5 + 5 + 1
 
-dp[i] 用来存放每个数额少的硬币数；
-dp[11] = min(dp[10],dp[9],dp[6])+1;（选1元硬币，之后就转化为10元钱怎么兑换零钱）
-所以我们可以先将dp[1]-dp[10]求出来。
+// dp[i] 用来存放每个数额少的硬币数；
+// dp[11] = min(dp[10],dp[9],dp[6])+1;（选1元硬币，之后就转化为10元钱怎么兑换零钱）
+// 所以我们可以先将dp[1]-dp[10]求出来。
 
-初始化0元需要0个硬币；
-如果数额i<硬币面值coins[j]，用coins[j]或大于coins[j]的硬币都凑不出i，无解
-如果数额i>=硬币面值coins[j]，就转化为求兑换i-coins[j]最少的硬币数，如果i-coins[j]凑不出来就直接跳过
+// 初始化0元需要0个硬币；
+// 如果数额i<硬币面值coins[j]，用coins[j]或大于coins[j]的硬币都凑不出i，无解
+// 如果数额i>=硬币面值coins[j]，就转化为求兑换i-coins[j]最少的硬币数，如果i-coins[j]凑不出来就直接跳过
 
-```
+// ```
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
@@ -34,4 +34,4 @@ public:
         return dp[amount]==INT_MAX?-1:dp[amount];
     }
 };
-```
+// ```

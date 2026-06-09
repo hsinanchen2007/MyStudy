@@ -1,8 +1,8 @@
-### 解题思路
-源自慕课网
-### 代码
+// ### 解题思路
+// 源自慕课网
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} digits
  * @return {string[]}
@@ -42,4 +42,4 @@ var letterCombinations = function(digits) {
   }
   return comb(code)
 };
-```
+// ```

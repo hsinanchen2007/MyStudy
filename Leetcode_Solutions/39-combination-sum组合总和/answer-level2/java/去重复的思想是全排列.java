@@ -1,8 +1,8 @@
-### 解题思路
-就是如何去重复很烦人
-### 代码
+// ### 解题思路
+// 就是如何去重复很烦人
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private List<List<Integer>>res;
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
@@ -29,4 +29,4 @@ class Solution {
         }
     }
 }
-```
+// ```

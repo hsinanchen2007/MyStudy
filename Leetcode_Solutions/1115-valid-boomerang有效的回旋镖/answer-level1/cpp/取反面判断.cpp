@@ -1,9 +1,9 @@
-### 解题思路
-反面的种类比较少，可以取反面判断。
+// ### 解题思路
+// 反面的种类比较少，可以取反面判断。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isBoomerang(vector<vector<int>>& points) {
@@ -19,4 +19,4 @@ public:
             return true;
     }
 };
-```
+// ```

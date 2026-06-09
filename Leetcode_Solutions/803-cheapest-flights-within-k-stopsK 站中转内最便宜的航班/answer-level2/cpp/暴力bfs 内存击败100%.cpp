@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     struct Node{
@@ -49,4 +49,4 @@ int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int
         return min;
     }
 };
-```
+// ```

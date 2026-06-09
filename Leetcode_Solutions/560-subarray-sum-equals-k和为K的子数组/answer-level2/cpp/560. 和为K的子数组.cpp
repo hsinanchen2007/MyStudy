@@ -1,9 +1,9 @@
-### 解题思路
-没啥技术含量的暴力解法，两层循环，遍历出所有情况
+// ### 解题思路
+// 没啥技术含量的暴力解法，两层循环，遍历出所有情况
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
@@ -19,7 +19,7 @@ public:
         return count;
     }
 };
-```
-题解区有dalao利用hash表的优秀解法 NB
+// ```
+// 题解区有dalao利用hash表的优秀解法 NB
 
 

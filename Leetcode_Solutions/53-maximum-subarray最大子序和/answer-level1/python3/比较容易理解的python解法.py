@@ -1,5 +1,5 @@
-比较容易理解的python解法
-```
+# 比较容易理解的python解法
+# ```
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         ans = nums[0]
@@ -12,4 +12,4 @@ class Solution:
             ans = max(ans,sum0)
         return ans
         
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-模拟跑操场，跑的快的人总会有追上跑的慢的人的时候，追上的时候那就说明有环。
-### 代码
+// ### 解题思路
+// 模拟跑操场，跑的快的人总会有追上跑的慢的人的时候，追上的时候那就说明有环。
+// ### 代码
 
-```java
+// ```java
 
 public class Solution {
     public boolean hasCycle(ListNode head) {
@@ -19,4 +19,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

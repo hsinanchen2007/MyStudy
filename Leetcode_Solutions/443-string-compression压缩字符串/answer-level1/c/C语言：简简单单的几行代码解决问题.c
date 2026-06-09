@@ -1,5 +1,5 @@
-![QQ截图20190811072703.png](https://pic.leetcode-cn.com/d0bb2921d63531b4e986cd40fa2570789d75254a2f002631920852e1031cd16b-QQ%E6%88%AA%E5%9B%BE20190811072703.png)
-```
+// ![QQ截图20190811072703.png](https://pic.leetcode-cn.com/d0bb2921d63531b4e986cd40fa2570789d75254a2f002631920852e1031cd16b-QQ%E6%88%AA%E5%9B%BE20190811072703.png)
+// ```
 int add_num(char *str, char ch, int num) {
     if (num == 1) {//一个字符，直接写
         str[0] = ch;
@@ -25,4 +25,4 @@ int compress(char* chars, int charsSize){
     }
     return slow;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-- 执行用时 :1 ms, 在所有 Java 提交中击败了99.77%的用户
-- 内存消耗 :35.9 MB, 在所有 Java 提交中击败了87.55%的用户
-```Java []
+// - 执行用时 :1 ms, 在所有 Java 提交中击败了99.77%的用户
+// - 内存消耗 :35.9 MB, 在所有 Java 提交中击败了87.55%的用户
+// ```Java []
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummyhead = new ListNode(0);
@@ -49,4 +49,4 @@ class Solution {
         }
     }
 }
-```
+// ```

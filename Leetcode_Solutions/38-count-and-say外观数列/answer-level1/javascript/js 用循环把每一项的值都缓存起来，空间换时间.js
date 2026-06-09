@@ -1,6 +1,6 @@
-参考菲波那切的解法
+// 参考菲波那切的解法
 
-```js
+// ```js
 var countAndSay = function(n) {
   let cache = [, '1']
 
@@ -30,4 +30,4 @@ var countAndSay = function(n) {
 
   return cache[n]
 }
-```
+// ```

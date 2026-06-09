@@ -1,4 +1,4 @@
-```
+// ```
 func numEquivDominoPairs(dominoes [][]int) int {
 	m := map[uint8]int{}
 	for _, d := range dominoes {
@@ -18,4 +18,4 @@ func numEquivDominoPairs(dominoes [][]int) int {
 	}
 	return o
 }
-```
+// ```

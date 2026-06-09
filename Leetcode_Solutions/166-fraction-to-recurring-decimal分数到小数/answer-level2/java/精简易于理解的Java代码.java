@@ -1,10 +1,10 @@
-注意的点：
-- 使用`StringBuilder`存储结果
-- 使用`HashMap`保存每次进行除运算的结果的位置
-- 有可能出现溢出情况（转换成Long）
-- 存在负数的情况，注意判断正负号
+// 注意的点：
+// - 使用`StringBuilder`存储结果
+// - 使用`HashMap`保存每次进行除运算的结果的位置
+// - 有可能出现溢出情况（转换成Long）
+// - 存在负数的情况，注意判断正负号
 
-```Java
+// ```Java
 public String fractionToDecimal2(int numerator, int denominator) {
     if (numerator == 0) return "0";
     StringBuilder ret  = new StringBuilder();
@@ -27,6 +27,6 @@ public String fractionToDecimal2(int numerator, int denominator) {
     ret = ret.insert(map.get(n), "(").append(")");
     return ret.toString();
 }
-```
+// ```
 
-这是我的[LeetCode分类题解](https://github.com/caipengbo/LeetCode)（每日更新, issue内有总结），和我一起每日刷题吧！
+// 这是我的[LeetCode分类题解](https://github.com/caipengbo/LeetCode)（每日更新, issue内有总结），和我一起每日刷题吧！

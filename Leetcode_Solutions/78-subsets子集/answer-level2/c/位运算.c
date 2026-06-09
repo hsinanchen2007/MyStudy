@@ -1,16 +1,16 @@
-### 解题思路
-![图片.png](https://pic.leetcode-cn.com/fb48f9ae5e6b43321329e3bc9fddce35b8627568ec92909805e951eb4f4aec87-%E5%9B%BE%E7%89%87.png)
-如果n=3,二进制位于数组nums的下标的对应关系如下
-000 ->
-001 ->0
-010 ->1
-011 ->0,1
-....
-111 ->0,1,2
-根据对应关系输出nums中的元素构造集合。
-### 代码
+// ### 解题思路
+// ![图片.png](https://pic.leetcode-cn.com/fb48f9ae5e6b43321329e3bc9fddce35b8627568ec92909805e951eb4f4aec87-%E5%9B%BE%E7%89%87.png)
+// 如果n=3,二进制位于数组nums的下标的对应关系如下
+// 000 ->
+// 001 ->0
+// 010 ->1
+// 011 ->0,1
+// ....
+// 111 ->0,1,2
+// 根据对应关系输出nums中的元素构造集合。
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -54,4 +54,4 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
      *returnSize=inputotal;
      return output;
 }
-```
+// ```

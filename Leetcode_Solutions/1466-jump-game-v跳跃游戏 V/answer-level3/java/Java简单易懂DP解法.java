@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxJumps(int[] arr, int d) {
         int n = arr.length;
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

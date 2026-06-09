@@ -1,9 +1,9 @@
-### 解题思路
-常规思路：遍历haystack中haystack-needle+1长度的字符，每次遍历到haystack中第i个字符时，向后取needle长度的字符串，再与needle字符串对比，若相同则退出循环，并返回i值
+// ### 解题思路
+// 常规思路：遍历haystack中haystack-needle+1长度的字符，每次遍历到haystack中第i个字符时，向后取needle长度的字符串，再与needle字符串对比，若相同则退出循环，并返回i值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -19,4 +19,4 @@ public:
         return ans;
     }
 };
-```
+// ```

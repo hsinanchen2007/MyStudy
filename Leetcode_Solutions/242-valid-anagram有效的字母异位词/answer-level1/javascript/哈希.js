@@ -1,9 +1,9 @@
-### 解题思路
-哈希map
+// ### 解题思路
+// 哈希map
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -31,4 +31,4 @@ var isAnagram = function(s, t) {
 };
 
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     int *heap; // 最小堆
     int size; // 堆的元素个数
@@ -142,4 +142,4 @@ void kthLargestFree(KthLargest* obj) {
  
  * kthLargestFree(obj);
 */
-```
+// ```

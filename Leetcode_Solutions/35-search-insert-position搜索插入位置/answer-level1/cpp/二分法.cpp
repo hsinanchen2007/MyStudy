@@ -1,6 +1,6 @@
-执行用时 :4 ms, 在所有 C++ 提交中击败了96.04% 的用户
-内存消耗 :6.5 MB, 在所有 C++ 提交中击败了100.00%的用户
-```
+// 执行用时 :4 ms, 在所有 C++ 提交中击败了96.04% 的用户
+// 内存消耗 :6.5 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ```
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -23,4 +23,4 @@ public:
             return mid+1;
     }
 };
-```
+// ```

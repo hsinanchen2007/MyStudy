@@ -1,4 +1,4 @@
-方法很多，但为了性能还是一次循环比较好：
+// 方法很多，但为了性能还是一次循环比较好：
 /**
  * Definition for singly-linked list.
  * type ListNode struct {

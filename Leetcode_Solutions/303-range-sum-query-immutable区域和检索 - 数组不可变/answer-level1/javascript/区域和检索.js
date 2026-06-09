@@ -1,11 +1,11 @@
-### 解题思路
-把数组索引0-i的和 存到i-1索引的位置
-这样数组nums第i个位置的值就是 0-i 的和
-要求 i-j的和，只需要用 0-j的和 减去 0-（i-1）的和
+// ### 解题思路
+// 把数组索引0-i的和 存到i-1索引的位置
+// 这样数组nums第i个位置的值就是 0-i 的和
+// 要求 i-j的和，只需要用 0-j的和 减去 0-（i-1）的和
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  */
@@ -32,4 +32,4 @@ NumArray.prototype.sumRange = function(i, j) {
  * var obj = new NumArray(nums)
  * var param_1 = obj.sumRange(i,j)
  */
-```
+// ```

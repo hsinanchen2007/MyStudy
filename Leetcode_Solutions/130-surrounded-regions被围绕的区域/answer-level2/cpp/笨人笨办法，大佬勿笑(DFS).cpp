@@ -1,6 +1,6 @@
-思路：用一个和 board 等大的二维数组 score 来做被遍历过的标记，每一块字母 O 区域用不同的数字标记。设置两个深度优先函数，一个深度优先函数用来判断一块字母 O 区域是否可以转换为 X，如果可以 flag 为 true ，用另一个深度优先函数转换。如果不可以 flag 为 false ，不转换。详情看代码。         
-**c++ 版代码:**     
-```
+// 思路：用一个和 board 等大的二维数组 score 来做被遍历过的标记，每一块字母 O 区域用不同的数字标记。设置两个深度优先函数，一个深度优先函数用来判断一块字母 O 区域是否可以转换为 X，如果可以 flag 为 true ，用另一个深度优先函数转换。如果不可以 flag 为 false ，不转换。详情看代码。         
+// **c++ 版代码:**     
+// ```
 class Solution {
 public:
     void solve(vector<vector<char> >& board) {    
@@ -80,9 +80,9 @@ public:
 		
 	}
 };
-```
-**java 版代码:**  
-```
+// ```
+// **java 版代码:**  
+// ```
 class Solution {
    public void solve(char[][] board) {
 		if(board.length == 0) {             // 如果数组为空则结束
@@ -157,4 +157,4 @@ class Solution {
 		} 			
 	}
 }
-```
+// ```

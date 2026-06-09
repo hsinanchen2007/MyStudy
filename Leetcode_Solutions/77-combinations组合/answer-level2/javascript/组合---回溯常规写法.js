@@ -1,4 +1,4 @@
-```
+// ```
 var combine = function(n, k) {
         if(n<k) return;
         let arr=[];
@@ -15,7 +15,7 @@ var combine = function(n, k) {
         helper(arr,temp,pos);
         return arr;
     };
-```
-1.走流程
-2.需要记录位置
-3.for循环里面需要加一个限制条件
+// ```
+// 1.走流程
+// 2.需要记录位置
+// 3.for循环里面需要加一个限制条件

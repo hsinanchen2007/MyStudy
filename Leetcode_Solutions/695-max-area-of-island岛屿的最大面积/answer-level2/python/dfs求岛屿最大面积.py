@@ -1,9 +1,9 @@
-### 解题思路
-每次遍历过的点把其值置为0，下次就不会再统计。
+# ### 解题思路
+# 每次遍历过的点把其值置为0，下次就不会再统计。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         m=len(grid)
@@ -23,4 +23,4 @@ class Solution:
             for j in range(n):
                 res=max(res,dfs(i,j))
         return res
-```
+# ```

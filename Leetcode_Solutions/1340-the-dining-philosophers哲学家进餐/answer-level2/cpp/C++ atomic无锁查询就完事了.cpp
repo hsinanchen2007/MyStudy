@@ -1,4 +1,4 @@
-```
+// ```
 class DiningPhilosophers {
 private:
     enum Status {
@@ -46,4 +46,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-这个之前做过，就是记录a[i]左边乘积数组和右边乘积数组，然后做乘法就好了。
+// ### 解题思路
+// 这个之前做过，就是记录a[i]左边乘积数组和右边乘积数组，然后做乘法就好了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] constructArr(int[] a) {
         if(a.length == 0)
@@ -28,4 +28,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if len(s)<=numRows or numRows == 1:return s
@@ -18,4 +18,4 @@ class Solution:
             if i+numRows-1 <len(s):
                 ls += s[i+numRows-1]
         return ls
-```
+# ```

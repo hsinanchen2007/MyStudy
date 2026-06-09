@@ -1,9 +1,9 @@
-### 解题思路
-竖位相加，满十(sum // 10) 进1
+# ### 解题思路
+# 竖位相加，满十(sum // 10) 进1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
             cur.next = ListNode(1)
         return res.next
 
-```
+# ```

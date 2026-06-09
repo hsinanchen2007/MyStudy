@@ -1,9 +1,9 @@
-### 解题思路
-如题，O(mn)
+// ### 解题思路
+// 如题，O(mn)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
@@ -28,4 +28,4 @@ public:
         return grid[m-1][n-1];
     }
 };
-```
+// ```

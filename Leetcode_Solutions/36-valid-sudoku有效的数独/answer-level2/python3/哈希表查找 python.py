@@ -1,12 +1,12 @@
-### 解题思路
-题目转化为，1-9是否已经存在在横列表，竖列表，方形列表中，
-如果已经存在，那么就说明重复了。
+# ### 解题思路
+# 题目转化为，1-9是否已经存在在横列表，竖列表，方形列表中，
+# 如果已经存在，那么就说明重复了。
 
-一想到是查找，那就是哈希表了，即python中的字典
+# 一想到是查找，那就是哈希表了，即python中的字典
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         row = len(board)
@@ -32,4 +32,4 @@ class Solution:
                     squaretable[(r//3,c//3)].append(board[r][c])
         return True
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -33,5 +33,5 @@ function help(root, array, num) {
     if (root.right) help(root.right, array, num);
 }
 
-```
-可以继续优化的地方就是 不用存在数组里再去找
+// ```
+// 可以继续优化的地方就是 不用存在数组里再去找

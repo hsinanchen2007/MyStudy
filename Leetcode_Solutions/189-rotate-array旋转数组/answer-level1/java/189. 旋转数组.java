@@ -1,17 +1,17 @@
-**
- * Project:
- * Author : zhaozhen
- * Email  :
- * Date   : 2019/8/26
- *
- * 解题思路1：见图
-![D7315DAC689C859E52A04FDC6FE8236C.png](https://pic.leetcode-cn.com/f572cef92098e534af6d0144127e3241fabd9792f8a9699b67c2a5ba713cff14-D7315DAC689C859E52A04FDC6FE8236C.png)
- *
- * 解题思路2：移动k个相当于 将数组反转后 在对 0~k-1 和 k~n 进行反转
- */
+// **
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  :
+//  * Date   : 2019/8/26
+//  *
+//  * 解题思路1：见图
+// ![D7315DAC689C859E52A04FDC6FE8236C.png](https://pic.leetcode-cn.com/f572cef92098e534af6d0144127e3241fabd9792f8a9699b67c2a5ba713cff14-D7315DAC689C859E52A04FDC6FE8236C.png)
+//  *
+//  * 解题思路2：移动k个相当于 将数组反转后 在对 0~k-1 和 k~n 进行反转
+//  */
 
 
-```
+// ```
 public void rotate1(int[] nums, int k) {
 
         int length = nums.length;
@@ -63,4 +63,4 @@ public void rotate1(int[] nums, int k) {
         leetcode189 leetcode189 = new leetcode189();
         leetcode189.rotate2(new int[]{1,2,3,4,5,6},1);
     }
-```
+// ```

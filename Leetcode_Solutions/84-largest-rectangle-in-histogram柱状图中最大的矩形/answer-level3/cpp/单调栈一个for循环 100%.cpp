@@ -1,5 +1,5 @@
-在heights中放入一个0，这样就可以将之前的单调序列都pop出来
-```cpp
+// 在heights中放入一个0，这样就可以将之前的单调序列都pop出来
+// ```cpp
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
@@ -20,4 +20,4 @@ public:
     }
 };
 
-```
+// ```

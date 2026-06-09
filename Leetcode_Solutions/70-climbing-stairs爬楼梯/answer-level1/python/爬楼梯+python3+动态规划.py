@@ -1,7 +1,7 @@
 
-### 动态规划1
-基本思路：状态转移方程：dp[i] = d[i-2]+dp[i-1]，先求出初始状态的dp[0]和dp[1]，然后用动态规划解决（其实就是斐波那契数列）：
-```
+# ### 动态规划1
+# 基本思路：状态转移方程：dp[i] = d[i-2]+dp[i-1]，先求出初始状态的dp[0]和dp[1]，然后用动态规划解决（其实就是斐波那契数列）：
+# ```
  class Solution:
     # dp[i] = dp[i-1]+dp[i-2]
     def climbStairs(self, n: int) -> int:
@@ -16,10 +16,10 @@
             dp.append(dp[i-1]+dp[i-2])
             
         return dp[-1]
-```
-### 动态规划2
-其实就是减少了空间的存储，但是时空复杂度好很多，建议用这个。
-```
+# ```
+# ### 动态规划2
+# 其实就是减少了空间的存储，但是时空复杂度好很多，建议用这个。
+# ```
 class Solution:
     # dp[i] = dp[i-1]+dp[i-2]
     def climbStairs(self, n: int) -> int:
@@ -33,4 +33,4 @@ class Solution:
             p,q = q,p+q
             
         return q
-```
+# ```

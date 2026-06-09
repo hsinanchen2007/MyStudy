@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-记录一下提醒自己，每次写并查集时都会犯一个错误，就是在合并时，总时把friends[rootJ] = i;直接写成friends[j] = i!!!!切记！！！！！
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 记录一下提醒自己，每次写并查集时都会犯一个错误，就是在合并时，总时把friends[rootJ] = i;直接写成friends[j] = i!!!!切记！！！！！
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static const int stuNums = 200;
@@ -40,4 +40,4 @@ public:
         return res;
     }
 };
-```
+// ```

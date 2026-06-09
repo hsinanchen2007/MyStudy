@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     // 记录从0元素到当前索引的元素之和
     int *s;
@@ -38,4 +38,4 @@ void numArrayFree(NumArray* obj) {
  
  * numArrayFree(obj);
 */
-```
+// ```

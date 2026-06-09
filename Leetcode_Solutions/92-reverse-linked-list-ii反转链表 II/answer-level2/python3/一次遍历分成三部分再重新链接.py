@@ -1,7 +1,7 @@
 
-时间复杂度 O(n)
-空间复杂度 O(1)
-```
+# 时间复杂度 O(n)
+# 空间复杂度 O(1)
+# ```
 class Solution:
     def reverseBetween(self, head: ListNode, m: int, n: int) -> ListNode:
         #: 思路：分成三部分[1,m),[m,n],(n,len(list)]
@@ -40,4 +40,4 @@ class Solution:
 
 
 
-```
+# ```

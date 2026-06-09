@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isLongPressedName(String name, String typed) {
         int i = 0,j = 0;
@@ -20,4 +20,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-`
+# `
 class Solution(object):
     def numberOfLines(self, widths, S):
         """
@@ -15,7 +15,7 @@ class Solution(object):
             else:
                 tmp += widths[ord(c) - ord('a')]
         return [row, tmp]
-`
+# `
 
 继续为没有Python答案的简单题做完善
 狗尾续貂

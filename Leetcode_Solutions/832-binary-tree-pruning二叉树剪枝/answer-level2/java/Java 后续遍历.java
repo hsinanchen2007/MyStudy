@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-从底向上后续遍历，如果当前元素为0且左右子树为null，则删除节点
+// 从底向上后续遍历，如果当前元素为0且左右子树为null，则删除节点
 
-```
+// ```
  public TreeNode pruneTree(TreeNode root) {
     if (root == null) return null;
     root.left = pruneTree(root.left);
@@ -11,4 +11,4 @@
         return null;
     return root;
 }
-```
+// ```

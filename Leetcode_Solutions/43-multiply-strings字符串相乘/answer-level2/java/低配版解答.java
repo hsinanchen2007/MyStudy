@@ -1,10 +1,10 @@
-### 解题思路
-先以二维数组记录每次乘积
-然后处理二维数组记录相加结果
+// ### 解题思路
+// 先以二维数组记录每次乘积
+// 然后处理二维数组记录相加结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String multiply(String num1, String num2){
         int[][] zj = new int[num2.length()][num1.length() + num2.length()];
@@ -46,4 +46,4 @@ class Solution {
         return buffer.toString();
     }
 }
-```
+// ```

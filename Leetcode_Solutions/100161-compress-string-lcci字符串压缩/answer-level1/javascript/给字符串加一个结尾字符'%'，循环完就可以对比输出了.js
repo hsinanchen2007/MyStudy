@@ -1,10 +1,10 @@
-### 解题思路
-加个结束标志挺省事的
-转数组直接shift() 当然直接for循环也一个效果
+// ### 解题思路
+// 加个结束标志挺省事的
+// 转数组直接shift() 当然直接for循环也一个效果
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -26,4 +26,4 @@ var compressString = function(S) {
     }
     return out.length < S.length ? out : S
 };
-```
+// ```

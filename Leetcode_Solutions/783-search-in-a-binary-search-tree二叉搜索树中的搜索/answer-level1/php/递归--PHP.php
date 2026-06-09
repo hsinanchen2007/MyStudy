@@ -1,9 +1,9 @@
-### 解题思路
-递归实现
+// ### 解题思路
+// 递归实现
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -26,8 +26,8 @@ class Solution {
         return $root->val > $val ? $this->searchBST($root->left, $val) : $this->searchBST($root->right, $val);
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度: O(n)
-- 空间复杂度: O(log n)
+// ### 算法复杂度
+// - 时间复杂度: O(n)
+// - 空间复杂度: O(log n)

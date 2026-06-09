@@ -1,9 +1,9 @@
-### 解题思路
-给数组排序，中位数就是多数元素。采用快速排序，判断新基准值的位置选定下一次快排的边界，知道基准值落在n/2
+// ### 解题思路
+// 给数组排序，中位数就是多数元素。采用快速排序，判断新基准值的位置选定下一次快排的边界，知道基准值落在n/2
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int majorityElement(int* nums, int numsSize){
     //快速排序
     int low=0,high=numsSize-1,mid=0;
@@ -26,4 +26,4 @@ int quickSort(int* nums,int low,int high){//一次快速排序
     nums[low]=base;
     return low;
 }
-```
+// ```

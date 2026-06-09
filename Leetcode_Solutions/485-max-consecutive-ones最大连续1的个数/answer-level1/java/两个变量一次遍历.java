@@ -1,16 +1,16 @@
 
-1. 关于复杂度
-  1.1 时间复杂度为O(n)
-  1.2 空间负责度为O(1)
- 2. 我的解题思路
-    2.1 利用两个缓存变量存储1的个数
-    2.2 遍历数组
-    2.2.1 如果当前元素为0，对比result以及temp的值，将temp置0
-    2.2.2 如果当前元素为1，temp自增
-    2.3 返回temp以及result的较大值
-<br />
-### java实现
-```
+// 1. 关于复杂度
+//   1.1 时间复杂度为O(n)
+//   1.2 空间负责度为O(1)
+//  2. 我的解题思路
+//     2.1 利用两个缓存变量存储1的个数
+//     2.2 遍历数组
+//     2.2.1 如果当前元素为0，对比result以及temp的值，将temp置0
+//     2.2.2 如果当前元素为1，temp自增
+//     2.3 返回temp以及result的较大值
+// <br />
+// ### java实现
+// ```
 /**
  * Problem
  *      485.Max Consecutive Ones
@@ -95,10 +95,10 @@ class Solution{
     }
 }
 
-```
-<br/>
-### php实现
-```
+// ```
+// <br/>
+// ### php实现
+// ```
 class Solution{
 
     /**
@@ -141,7 +141,7 @@ class Solution{
         return $res;
     }
 }
-```
+// ```
 
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出pull request，我会及时处理反馈
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出pull request，我会及时处理反馈
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

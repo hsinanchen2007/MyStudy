@@ -1,9 +1,9 @@
-### 解题思路
-优先队列
+# ### 解题思路
+# 优先队列
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import heapq
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
@@ -12,4 +12,4 @@ class Solution:
             heapq.heappush(q,i)
         rs = heapq.nsmallest(k, q)
         return rs
-```
+# ```

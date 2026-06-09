@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-基本操作断链、移位即可，需注意在日常撸代码中尽量使用非递归算法
+// 基本操作断链、移位即可，需注意在日常撸代码中尽量使用非递归算法
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -52,4 +52,4 @@ class Solution {
         return newHead
     }
 }
-```
+// ```

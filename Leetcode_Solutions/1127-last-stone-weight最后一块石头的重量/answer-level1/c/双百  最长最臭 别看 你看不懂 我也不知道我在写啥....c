@@ -1,4 +1,4 @@
-```
+// ```
 void quick_sort(int *org_arr,int begin,int end)
 {
     int low = begin;
@@ -68,4 +68,4 @@ int lastStoneWeight(int* stones, int stonesSize){
         return stones[1] - stones[0];
     }
 }
-```
+// ```

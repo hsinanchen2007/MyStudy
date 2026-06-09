@@ -1,5 +1,5 @@
-记住上一步的偶数和,改一个变化的值,就得出新一步的值
-```
+// 记住上一步的偶数和,改一个变化的值,就得出新一步的值
+// ```
 func sumEvenAfterQueries(A []int, queries [][]int) []int {
 	//懒得判断边界,就多初始化一个,最后还前面的切片就行
 	ans := make([]int, len(queries)+1)
@@ -29,9 +29,9 @@ func sumEvenAfterQueries(A []int, queries [][]int) []int {
 func isEven(a int) bool {
 	return a%2 == 0
 }
-```
+// ```
 
-执行用时 :
-88 ms, 在所有 Go 提交中击败了93.33%的用户
-内存消耗 :
-7.5 MB, 在所有 Go 提交中击败了100.00%的用户
+// 执行用时 :
+// 88 ms, 在所有 Go 提交中击败了93.33%的用户
+// 内存消耗 :
+// 7.5 MB, 在所有 Go 提交中击败了100.00%的用户

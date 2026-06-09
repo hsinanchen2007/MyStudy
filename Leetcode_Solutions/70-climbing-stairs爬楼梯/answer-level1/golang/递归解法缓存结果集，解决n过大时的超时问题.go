@@ -1,4 +1,4 @@
-```
+// ```
 func climbStairs(n int) int {
     
     // 用map结构作为缓存池，key是n，value是结果
@@ -24,4 +24,4 @@ func climbStairsWithCache(n int, cache map[int]int) int {
     
     return v
 }
-```
+// ```

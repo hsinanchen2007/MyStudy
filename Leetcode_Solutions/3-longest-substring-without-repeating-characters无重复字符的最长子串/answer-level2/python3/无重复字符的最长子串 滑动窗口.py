@@ -1,14 +1,14 @@
-### 解题思路
-[参照了以下链接的思路](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/hua-dong-chuang-kou-by-powcai/)
+# ### 解题思路
+# [参照了以下链接的思路](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/hua-dong-chuang-kou-by-powcai/)
 
-做了一点改动，字典的数据不记录 0 或 1 而是记录其在s中的位置。从而left不需要while函数循环取定，而是直接 
-left = dict_c[s[right]]
+# 做了一点改动，字典的数据不记录 0 或 1 而是记录其在s中的位置。从而left不需要while函数循环取定，而是直接 
+# left = dict_c[s[right]]
 
-但不明白为何执行用时没有得到优化。
+# 但不明白为何执行用时没有得到优化。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         from collections import defaultdict
@@ -26,4 +26,4 @@ class Solution:
             max_W = max(max_W, right - left)
         return max_W
         
-```
+# ```

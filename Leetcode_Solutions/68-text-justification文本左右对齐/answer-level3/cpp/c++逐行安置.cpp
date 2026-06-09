@@ -1,5 +1,5 @@
-#### 逐行安置
-循环安置每一行，空格计数用ceil()向上取整
+// #### 逐行安置
+// 循环安置每一行，空格计数用ceil()向上取整
 ~~~c++ []
     vector<string> fullJustify(vector<string>& words, int maxWidth) {
         vector<string> res;

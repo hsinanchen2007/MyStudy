@@ -1,9 +1,9 @@
-### 解题思路
-窗口法，挺好玩的
+// ### 解题思路
+// 窗口法，挺好玩的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         int i=1;
@@ -34,6 +34,6 @@ class Solution {
         return list.toArray(new int[list.size()][]);
     }
 }
-```
+// ```
 
-我是一只小菜鸡，小呀小菜鸡
+// 我是一只小菜鸡，小呀小菜鸡

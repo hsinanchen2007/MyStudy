@@ -1,5 +1,5 @@
-使用哈希表字典解决
-```
+# 使用哈希表字典解决
+# ```
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         mdic = dict()
@@ -14,4 +14,4 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-全部一起排序统计
+// 全部一起排序统计
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minMeetingRooms(vector<vector<int>>& inter) {
@@ -27,4 +27,4 @@ public:
                 
     }
 };
-```
+// ```

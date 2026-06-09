@@ -1,5 +1,5 @@
-不知道有什么方法可以不写子函数，在主函数里递归
-```
+// 不知道有什么方法可以不写子函数，在主函数里递归
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -29,4 +29,4 @@ int max(int a, int b){
     if (a > b) return a;
     return b;
 }
-```
+// ```

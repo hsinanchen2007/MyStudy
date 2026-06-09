@@ -1,9 +1,9 @@
-### 解题思路
-本题思路特别类似用map解决2sum的解决方法，利用map查询累计和是否存在sum[i],,满足sum[j]-sum[i] = k,来一次完成对满足要求的子数组的查找。sum[i]是从0开始到i的累计和。
+// ### 解题思路
+// 本题思路特别类似用map解决2sum的解决方法，利用map查询累计和是否存在sum[i],,满足sum[j]-sum[i] = k,来一次完成对满足要求的子数组的查找。sum[i]是从0开始到i的累计和。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int subarraySum(vector<int> &nums, int k) {
@@ -20,4 +20,4 @@ public:
         return count;
     }
 };
-```
+// ```

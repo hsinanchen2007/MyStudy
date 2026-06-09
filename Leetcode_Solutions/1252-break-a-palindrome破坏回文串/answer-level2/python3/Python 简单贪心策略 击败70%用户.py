@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/36aec06a3c1b3ccb50201c6e061d9351dae9a5257de3ef655b8b3dfa44d044a8-image.png)
+# ![image.png](https://pic.leetcode-cn.com/36aec06a3c1b3ccb50201c6e061d9351dae9a5257de3ef655b8b3dfa44d044a8-image.png)
 
 
-```
+# ```
 '''
 贪心策略
 只看左边一半字符，找第一个不是a的字符，将其变成a, 字典序就是最小的
@@ -21,4 +21,4 @@ class Solution:
                 return ''.join([palindrome[j] if j != i else 'a' for j in range(n)])
 
         return palindrome[:-1] + 'b'
-```
+# ```

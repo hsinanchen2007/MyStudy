@@ -1,5 +1,5 @@
-执行耗时 0ms，内存使用 2.5M
-```
+// 执行耗时 0ms，内存使用 2.5M
+// ```
 func longestCommonPrefix(strs []string) string {
 
 	if len(strs) < 1 {
@@ -52,4 +52,4 @@ func longestCommonPrefix(strs []string) string {
 		return "无"
 	}
 }
-```
+// ```

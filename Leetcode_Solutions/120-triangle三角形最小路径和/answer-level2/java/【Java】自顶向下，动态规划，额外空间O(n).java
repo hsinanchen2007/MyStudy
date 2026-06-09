@@ -1,4 +1,4 @@
-``` java
+// ``` java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int len = triangle.size();
@@ -20,4 +20,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

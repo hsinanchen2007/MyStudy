@@ -1,4 +1,4 @@
-```
+// ```
 public int lastStoneWeight(int[] stones) {
         PriorityQueue<Integer> queue = new PriorityQueue<>(stones.length, (i1, i2) -> i2 - i1);//建立最大堆
         Arrays.stream(stones).forEach(i -> queue.add(i));//将数组填充到堆中
@@ -15,4 +15,4 @@ public int lastStoneWeight(int[] stones) {
         }
         return queue.peek();//如果还有数据，返回仅剩的一个数据
     }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-思路如注释
+// 思路如注释
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -26,4 +26,4 @@ struct ListNode* reverseList(struct ListNode* head){
 }
 
 
-```
+// ```

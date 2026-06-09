@@ -1,9 +1,9 @@
-### 解题思路
-学习了powercai的思路,用递归真简单.这道题根本不应该被标记为dp
+# ### 解题思路
+# 学习了powercai的思路,用递归真简单.这道题根本不应该被标记为dp
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 #  Copyright (c) 2019
 #  @Author: xiaoweixiang
 
@@ -20,4 +20,4 @@ class Solution:
                 return True
         return False
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-方法一、两次遍历，分别统计'A'的个数，连续'L'的个数
+// ### 解题思路
+// 方法一、两次遍历，分别统计'A'的个数，连续'L'的个数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -27,9 +27,9 @@ var checkRecord = function(s) {
     }
     return true;
 };
-```
-方法二、数组前后各插入一个’P‘
-```
+// ```
+// 方法二、数组前后各插入一个’P‘
+// ```
 var checkRecord = function(s) {
     var countA=0;
     var countL=0;
@@ -47,9 +47,9 @@ var checkRecord = function(s) {
     }
     return true;
 };
-```
-方法三、确保在进行连续的 ’L‘出现之前，countL 的值为0
-```
+// ```
+// 方法三、确保在进行连续的 ’L‘出现之前，countL 的值为0
+// ```
 var checkRecord = function(s) {
     var countA=0;
     var countL=0;
@@ -70,5 +70,5 @@ var checkRecord = function(s) {
     return true;
 };
 
-```
+// ```
 

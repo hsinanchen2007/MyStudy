@@ -1,4 +1,4 @@
-```
+// ```
 bool recursion(struct ListNode** head, int length) {
     if (length == 0)
         return true;
@@ -19,8 +19,8 @@ bool recursion(struct ListNode** head, int length) {
     *head = (*head)->next;
     return true;
 }
-```
-```
+// ```
+// ```
 bool isPalindrome(struct ListNode* head){
     // 方法一：时间o(n) 空间o(n)
     // struct ListNode *reHead = NULL;
@@ -130,4 +130,4 @@ bool isPalindrome(struct ListNode* head){
     return true;
 
 }
-```
+// ```

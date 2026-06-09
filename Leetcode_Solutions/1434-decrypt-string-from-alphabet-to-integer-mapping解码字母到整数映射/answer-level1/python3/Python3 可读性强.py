@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def freqAlphabets(self, s: str) -> str:
         for count in range(0,17):
@@ -12,4 +12,4 @@ class Solution:
         
         return s
         
-```
+# ```

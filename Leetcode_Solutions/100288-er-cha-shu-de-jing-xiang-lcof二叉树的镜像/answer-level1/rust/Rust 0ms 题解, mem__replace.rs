@@ -1,7 +1,7 @@
-0ms ; 2.1MB
+// 0ms ; 2.1MB
 
-开始时尝试用 `mem::swap`, 结果和 `Rc` 冲突, 上网查了一圈发现可以用 `mem::replace`.
-```rs
+// 开始时尝试用 `mem::swap`, 结果和 `Rc` 冲突, 上网查了一圈发现可以用 `mem::replace`.
+// ```rs
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
 // pub struct TreeNode {
@@ -39,4 +39,4 @@ impl Solution {
         root
     }
 }
-```
+// ```

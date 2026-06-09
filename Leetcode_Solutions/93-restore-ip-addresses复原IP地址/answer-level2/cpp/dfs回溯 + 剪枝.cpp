@@ -1,14 +1,14 @@
-回溯终结条件：
-1.树的深度 == 4 或者说 ip已经分成了4段；
-2.当前串已经用完了；
-需同时满足1.2.
+// 回溯终结条件：
+// 1.树的深度 == 4 或者说 ip已经分成了4段；
+// 2.当前串已经用完了；
+// 需同时满足1.2.
 
-回溯剪枝条件：
-1.子串长度要 属于 [4 - depth, 12 - 3*depth]；
-2.当前子串(IP段)的值要 属于 [0, 255] 且 该IP段数字位数大于1时，不能数字0开始；
-3.树的深度 == 4时，串还没用完，剪掉。
+// 回溯剪枝条件：
+// 1.子串长度要 属于 [4 - depth, 12 - 3*depth]；
+// 2.当前子串(IP段)的值要 属于 [0, 255] 且 该IP段数字位数大于1时，不能数字0开始；
+// 3.树的深度 == 4时，串还没用完，剪掉。
 
-```
+// ```
 class Solution {
 public:
 	vector<string> res;
@@ -69,14 +69,14 @@ public:
 		return res;
 	}
 };
-```
+// ```
 
-涉及API：
-string.substr(pos, count)
-pos: 起始位置，0为起始位置
-count：表示子串长度
+// 涉及API：
+// string.substr(pos, count)
+// pos: 起始位置，0为起始位置
+// count：表示子串长度
 
-stoi (since C++11)
-string类型转int类型
+// stoi (since C++11)
+// string类型转int类型
 
-详细可以去https://en.cppreference.com/上看
+// 详细可以去https://en.cppreference.com/上看

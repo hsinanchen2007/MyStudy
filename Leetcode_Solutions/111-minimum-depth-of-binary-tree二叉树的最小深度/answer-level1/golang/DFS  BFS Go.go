@@ -1,4 +1,4 @@
-```go
+// ```go
 /**
 DFS
 时间复杂度：O(n)
@@ -51,4 +51,4 @@ func minDepth(root *TreeNode) int {
     }
     return depth
 }
-```
+// ```

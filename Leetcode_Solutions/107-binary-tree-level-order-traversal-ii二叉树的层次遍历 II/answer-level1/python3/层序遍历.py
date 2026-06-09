@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-正着层序遍历，然后倒着输出
+# 正着层序遍历，然后倒着输出
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
             s = t
             t = []
         return res[::-1]
-```
+# ```

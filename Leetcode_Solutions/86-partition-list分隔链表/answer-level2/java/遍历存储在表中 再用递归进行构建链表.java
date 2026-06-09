@@ -1,15 +1,15 @@
-### 解题思路
-先遍历给定链表 
-小于x则存储在smallNode列表中 
-大于等于则存储在largeNode列表中
+// ### 解题思路
+// 先遍历给定链表 
+// 小于x则存储在smallNode列表中 
+// 大于等于则存储在largeNode列表中
 
-遍历结束后将largeNode列表 加入到smallNode中
-此时列表的顺序即为输出链表的顺序
+// 遍历结束后将largeNode列表 加入到smallNode中
+// 此时列表的顺序即为输出链表的顺序
 
-再根据顺序用递归构建结果
-### 代码
+// 再根据顺序用递归构建结果
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -43,4 +43,4 @@ class Solution {
         return node;
     }
 }
-```
+// ```

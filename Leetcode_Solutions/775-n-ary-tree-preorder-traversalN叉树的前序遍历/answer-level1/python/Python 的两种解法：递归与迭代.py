@@ -1,8 +1,8 @@
-## 解一：递归
+# ## 解一：递归
 
-递归法比较简单，不解释了，直接看代码。
+# 递归法比较简单，不解释了，直接看代码。
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node:
@@ -23,17 +23,17 @@ class Solution:
         children = root.children
         for child in children:
             self.helper(child, res)
-```
+# ```
 
-## 解二：迭代
+# ## 解二：迭代
 
-用栈辅助。
+# 用栈辅助。
 
-1. 首先，将 `root` 压入栈中
-2. 在栈不为空时，对栈进行遍历，每次弹出栈顶元素
-3. 若栈顶元素节点不为空，则将该节点值放入结果集中，且将该节点的子节点**从右至左**压入栈中（这样弹出时就是从左至右，符合前序遍历的顺序）
+# 1. 首先，将 `root` 压入栈中
+# 2. 在栈不为空时，对栈进行遍历，每次弹出栈顶元素
+# 3. 若栈顶元素节点不为空，则将该节点值放入结果集中，且将该节点的子节点**从右至左**压入栈中（这样弹出时就是从左至右，符合前序遍历的顺序）
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node:
@@ -57,4 +57,4 @@ class Solution:
                 child = children[i]
                 stack.append(child)
         return res
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-采用双指针遍历一次，第2个指针总是寻找不等于第一个指针的下一个元素。
-![image.png](https://pic.leetcode-cn.com/33f9f5ec67bba30f7151baf0052b4b36d8204d1ab56f892f60a6aa9072585964-image.png)
+# ### 解题思路
+# 采用双指针遍历一次，第2个指针总是寻找不等于第一个指针的下一个元素。
+# ![image.png](https://pic.leetcode-cn.com/33f9f5ec67bba30f7151baf0052b4b36d8204d1ab56f892f60a6aa9072585964-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         i = 0
@@ -21,4 +21,4 @@ class Solution:
         
         return i + 1
 
-```
+# ```

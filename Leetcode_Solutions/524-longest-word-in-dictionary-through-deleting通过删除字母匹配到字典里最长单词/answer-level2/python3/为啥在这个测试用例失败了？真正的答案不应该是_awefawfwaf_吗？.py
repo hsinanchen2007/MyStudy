@@ -1,13 +1,13 @@
-输入：
-"aewfafwafjlwajflwajflwafj"
-["apple","ewaf","awefawfwaf","awef","awefe","ewafeffewafewf"]
+# 输入：
+# "aewfafwafjlwajflwajflwafj"
+# ["apple","ewaf","awefawfwaf","awef","awefe","ewafeffewafewf"]
 
-输出："awefawfwaf"
-预期："ewaf"
+# 输出："awefawfwaf"
+# 预期："ewaf"
 
-为啥在这个测试用例失败了？真正的答案不应该是"awefawfwaf"吗？
+# 为啥在这个测试用例失败了？真正的答案不应该是"awefawfwaf"吗？
 
-```python
+# ```python
 class Solution:
     def findLongestWord(self, s: str, d: List[str]) -> str:
         char_nums = {}
@@ -37,4 +37,4 @@ class Solution:
             if has_string(st) and len(st) > len(str_max):
                 str_max = st
         return str_max
-```
+# ```

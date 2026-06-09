@@ -1,5 +1,5 @@
-tarjan算法找到有环边，然后结合点的入度是否大于1，综合找到尽可能满足以上两个条件的边
-```
+// tarjan算法找到有环边，然后结合点的入度是否大于1，综合找到尽可能满足以上两个条件的边
+// ```
 class Solution {
 public:
     int times;
@@ -68,5 +68,5 @@ public:
     }
 };
 
-```
-![image.png](https://pic.leetcode-cn.com/dce4661dbe617ad7a87eb64ff9c185dad912708e53b84a97bd1dc2592d290e00-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/dce4661dbe617ad7a87eb64ff9c185dad912708e53b84a97bd1dc2592d290e00-image.png)

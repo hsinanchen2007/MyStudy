@@ -1,6 +1,6 @@
 
 
-```bash
+// ```bash
 
 int rob1(int* nums, int numsSize){
 
@@ -43,4 +43,4 @@ int rob(int* nums, int numsSize){
 
     return sum1 > sum2 ? sum1 : sum2;
 }
-```
+// ```

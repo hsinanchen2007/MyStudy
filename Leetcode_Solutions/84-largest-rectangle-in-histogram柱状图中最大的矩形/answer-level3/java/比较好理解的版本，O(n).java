@@ -1,5 +1,5 @@
-利用单调栈分别求出每个数左边大于等于该数的元素个数，以及右边大于等于该数的元素个数，分别保存在dp1和dp2中。然后以每个数作为高度的最大面积=(dp1[i] + dp2[i] + 1) * heights[i]。再遍历一遍求出最大的那个就行了。
-```
+// 利用单调栈分别求出每个数左边大于等于该数的元素个数，以及右边大于等于该数的元素个数，分别保存在dp1和dp2中。然后以每个数作为高度的最大面积=(dp1[i] + dp2[i] + 1) * heights[i]。再遍历一遍求出最大的那个就行了。
+// ```
 class Solution {
     public int largestRectangleArea(int[] heights) {
         int n = heights.length;
@@ -29,4 +29,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

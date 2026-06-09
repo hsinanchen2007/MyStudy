@@ -1,9 +1,9 @@
-### 解题思路
-经典数学问题，注意特判一些边缘情况
+// ### 解题思路
+// 经典数学问题，注意特判一些边缘情况
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int gcd(int a,int b) {
@@ -18,4 +18,4 @@ public:
         else return not (z % gcd(x, y));
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numTimesAllBlue(int[] light) {
         int len = light.length;
@@ -23,4 +23,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

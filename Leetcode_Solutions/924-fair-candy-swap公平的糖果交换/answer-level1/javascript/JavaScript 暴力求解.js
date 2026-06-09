@@ -1,10 +1,10 @@
-### 解题思路
-- 通过 reduce（）迭代得出求和
-- 两个数组的差值 == 2 * 交换的数值
+// ### 解题思路
+// - 通过 reduce（）迭代得出求和
+// - 两个数组的差值 == 2 * 交换的数值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number[]} B
@@ -20,4 +20,4 @@ var fairCandySwap = function(A, B) {
     }
   }
 };
-```
+// ```

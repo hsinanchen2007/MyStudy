@@ -1,4 +1,4 @@
-```python
+# ```python
     def minHeightShelves(self, books: List[List[int]], shelf_width: int) -> int:
         dp = [0]  # dp[i]为考虑前i本书时的最小高度
         for i in range(len(books)):
@@ -12,4 +12,4 @@
                 j -= 1
             dp.append(_min)
         return dp[-1]
-```
+# ```

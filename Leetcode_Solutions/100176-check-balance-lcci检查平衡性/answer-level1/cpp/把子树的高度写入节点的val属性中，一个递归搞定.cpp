@@ -1,5 +1,5 @@
-题目也没说不得修改原始树，所以可以直接把子树的高度写入节点的val属性中，这样一个递归搞定
-```cpp
+// 题目也没说不得修改原始树，所以可以直接把子树的高度写入节点的val属性中，这样一个递归搞定
+// ```cpp
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
@@ -13,4 +13,4 @@ public:
         return abs(l - r) <= 1;
     }
 };
-```
+// ```

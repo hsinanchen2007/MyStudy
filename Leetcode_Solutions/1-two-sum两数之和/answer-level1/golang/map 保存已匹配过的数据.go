@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func twoSum(nums []int, target int) []int {
             m := make(map[int]int)
             for i , v := range nums {
@@ -16,4 +16,4 @@ func twoSum(nums []int, target int) []int {
 }
 
 
-```
+// ```

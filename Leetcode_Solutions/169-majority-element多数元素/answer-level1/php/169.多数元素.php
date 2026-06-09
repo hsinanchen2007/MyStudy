@@ -1,9 +1,9 @@
-### 解题思路
-没用什么数学思路，都是用phph提供的内置方法，可以随便看看
+// ### 解题思路
+// 没用什么数学思路，都是用phph提供的内置方法，可以随便看看
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -19,4 +19,4 @@ class Solution {
         return array_search($max, $arrNum, true);
     }
 }
-```
+// ```

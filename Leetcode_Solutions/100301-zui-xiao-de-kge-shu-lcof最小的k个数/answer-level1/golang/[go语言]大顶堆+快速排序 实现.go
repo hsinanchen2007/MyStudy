@@ -1,5 +1,5 @@
-大顶堆实现
-```
+// 大顶堆实现
+// ```
 func getLeastNumbers(arr []int, k int) []int {
     if k>len(arr) || k==0{
         return nil
@@ -37,12 +37,12 @@ func build(nums[] int,i,n int){
 		i=index
 	}
 }
-```
+// ```
 
 
 
-快排实现
-```
+// 快排实现
+// ```
 func getLeastNumbers(arr []int, k int) []int {
     if k>len(arr) || k<=0{
         return nil
@@ -76,7 +76,7 @@ func getPartition(arr []int,start,end int) int{
     arr[start]=tmp
     return start
 }
-```
+// ```
 
 
 

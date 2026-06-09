@@ -1,11 +1,11 @@
-### 解题思路
-        //每个方块在不被挡住的情况下，有六面有效面积，值为6，则num_cubes*6
-        //每一面被挡，表面积则减一,-num_cover
-        //总式子为 num_cubes*6-num_cover
+// ### 解题思路
+//         //每个方块在不被挡住的情况下，有六面有效面积，值为6，则num_cubes*6
+//         //每一面被挡，表面积则减一,-num_cover
+//         //总式子为 num_cubes*6-num_cover
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int surfaceArea(int[][] grid) {
         //首先判断N的大小

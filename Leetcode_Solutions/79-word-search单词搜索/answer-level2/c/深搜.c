@@ -1,11 +1,11 @@
-### 解题思路
-深搜，搜到结果则返回true；否则返回false继续搜其他路径
-idx指向word当前位置，搜到strlen(word)是表示成功匹配到
-visited里走过的节点（值为1）不能重复搜
+// ### 解题思路
+// 深搜，搜到结果则返回true；否则返回false继续搜其他路径
+// idx指向word当前位置，搜到strlen(word)是表示成功匹配到
+// visited里走过的节点（值为1）不能重复搜
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 bool backtrace(char** board, int size, int colSize, char* word, int idx, int i, int j, char *visited) {
@@ -39,4 +39,4 @@ bool exist(char** board, int boardSize, int* boardColSize, char * word){
     }
     return false;
 }
-```
+// ```

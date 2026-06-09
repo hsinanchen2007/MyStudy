@@ -1,4 +1,4 @@
-    //人工智能经典算法，N皇后问题
+//     //人工智能经典算法，N皇后问题
 	
 	List<List<String>> res = new java.util.LinkedList<>();
 	boolean[] col, dia1, dia2;

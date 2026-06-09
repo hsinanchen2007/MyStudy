@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/11/13
- * 
- * 解题思路: 排列树
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/11/13
+//  * 
+//  * 解题思路: 排列树
+//  * 
+//  */
+// ```
 public class leetcode046 {
 
     List<List<Integer>> lists = new ArrayList<>();
@@ -51,4 +51,4 @@ public class leetcode046 {
     }
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-链表差，再同时走
+// ### 解题思路
+// 链表差，再同时走
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -49,4 +49,4 @@ public class Solution {
         return null;
     }
 }
-```
+// ```

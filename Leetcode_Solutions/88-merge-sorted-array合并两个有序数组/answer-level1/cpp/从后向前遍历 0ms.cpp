@@ -1,12 +1,12 @@
-### 解题思路
-要分情况：
-nums1与nums2有效部分都没有遍历完；
-nums1遍历完，nums2没有
-nums2遍历完，nums1没有
+// ### 解题思路
+// 要分情况：
+// nums1与nums2有效部分都没有遍历完；
+// nums1遍历完，nums2没有
+// nums2遍历完，nums1没有
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {//insert nums2 into nums1 and sort 
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -31,4 +31,4 @@ public:
         }
     }
 };
-```
+// ```

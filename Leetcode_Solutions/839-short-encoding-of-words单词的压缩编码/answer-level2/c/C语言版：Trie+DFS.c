@@ -1,7 +1,7 @@
-C语言使用Trie+DFS实现，用Trie数据结构来处理这道题，思路清晰，只需要找到所有branch就行，效率还阔以。
+// C语言使用Trie+DFS实现，用Trie数据结构来处理这道题，思路清晰，只需要找到所有branch就行，效率还阔以。
 
 
-```
+// ```
 #define ALPHABET_SIZE 26
 
 typedef struct Trie {
@@ -96,5 +96,5 @@ int minimumLengthEncoding(char ** words, int wordsSize){
 
     return g_counts;
 }
-```
+// ```
 

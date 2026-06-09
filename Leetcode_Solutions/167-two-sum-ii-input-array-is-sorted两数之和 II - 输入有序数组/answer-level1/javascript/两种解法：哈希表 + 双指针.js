@@ -1,11 +1,11 @@
 
-#### 解法一：牺牲空间，换取时间，利用哈希表
+// #### 解法一：牺牲空间，换取时间，利用哈希表
 
-时间复杂度：O(n)，空间复杂度：O(n)
+// 时间复杂度：O(n)，空间复杂度：O(n)
 
-没有利用**有序数组**这个条件
+// 没有利用**有序数组**这个条件
 
-```js
+// ```js
 /**
  * @param {number[]} numbers
  * @param {number} target
@@ -24,13 +24,13 @@ var twoSum = function(numbers, target) {
 	}
 	return;
 };
-```
+// ```
 
-#### 解法二：双指针
+// #### 解法二：双指针
 
-时间复杂度：O(n)，空间复杂度：O(1)
+// 时间复杂度：O(n)，空间复杂度：O(1)
 
-```js
+// ```js
 var twoSum = function(numbers, target) {
 	let i = 0;
 	let j = numbers.length - 1;
@@ -44,4 +44,4 @@ var twoSum = function(numbers, target) {
 		}
 	}
 };
-```
+// ```

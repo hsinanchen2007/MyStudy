@@ -1,5 +1,5 @@
-字符串 replace + length 比较，和 indexOf 方式稍有不同
-```javascript []
+// 字符串 replace + length 比较，和 indexOf 方式稍有不同
+// ```javascript []
 var countCharacters = function(words, chars) {
     var res = 0;
     for(let i in words){
@@ -18,4 +18,4 @@ var countCharacters = function(words, chars) {
     }
     return res;
 };
-```
+// ```

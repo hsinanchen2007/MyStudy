@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先排序，然后左右双指针，如果左边的leftsum加上当前nums[left]大于等于rightsum，则将nums[right]存入，并更新左右指针。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先排序，然后左右双指针，如果左边的leftsum加上当前nums[left]大于等于rightsum，则将nums[right]存入，并更新左右指针。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> minSubsequence(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         return ans;
     }
 };
-```
+// ```

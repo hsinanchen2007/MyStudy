@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public double myPow(double x, int n) {
         boolean flag = n < 0;
@@ -15,5 +15,5 @@ class Solution {
         return result;
     }
 }
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-使用简易方法和栈 有一倍左右的性能差距
+// ### 解题思路
+// 使用简易方法和栈 有一倍左右的性能差距
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 import java.util.*
 class Solution {
     fun isValid(s: String): Boolean {
@@ -20,9 +20,9 @@ class Solution {
         return stack.isEmpty()
     }
 }
-```
+// ```
 
-```kotlin
+// ```kotlin
 class Solution {
     fun isValid(s: String): Boolean {
         var info = s
@@ -33,4 +33,4 @@ class Solution {
         return info.isEmpty()
     }
 }
-```
+// ```

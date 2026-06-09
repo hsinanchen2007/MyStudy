@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> res = new LinkedList<>();
@@ -46,4 +46,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

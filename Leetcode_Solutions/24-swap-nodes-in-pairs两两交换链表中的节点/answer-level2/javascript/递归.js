@@ -1,10 +1,10 @@
-### 解题思路
-递归，两两交换节点，让第二个节点指向递归函数，因为递归函数结束后，被交换的值放在前边
-最后返回首节点，首节点就是head.next
+// ### 解题思路
+// 递归，两两交换节点，让第二个节点指向递归函数，因为递归函数结束后，被交换的值放在前边
+// 最后返回首节点，首节点就是head.next
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -24,4 +24,4 @@ var swapPairs = function(head) {
     head.next = swapPairs(neneNode)
     return nextNode
 };
-```
+// ```

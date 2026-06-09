@@ -1,6 +1,6 @@
-1. 主要是要查到该数组的终点。
-2. 然后利用二分查找查找到关键的target。
-```
+// 1. 主要是要查到该数组的终点。
+// 2. 然后利用二分查找查找到关键的target。
+// ```
 // Forward declaration of ArrayReader class.
 class ArrayReader;
 
@@ -51,4 +51,4 @@ public:
         return binarySearch(reader,l,r,target);
     }
 };
-```
+// ```

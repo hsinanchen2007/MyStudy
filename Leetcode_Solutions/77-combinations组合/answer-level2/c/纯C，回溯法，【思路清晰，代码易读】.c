@@ -1,11 +1,11 @@
-### 解题思路
-方法一：回溯法
-1,结束条件，排列了K个数
-2,回溯处理：下层节点只能使用上层节点未使用过的整数
+// ### 解题思路
+// 方法一：回溯法
+// 1,结束条件，排列了K个数
+// 2,回溯处理：下层节点只能使用上层节点未使用过的整数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -86,4 +86,4 @@ int** combine(int n, int k, int* returnSize, int** returnColumnSizes){
     *returnColumnSizes = pColSize;
     return pRet;
 }
-```
+// ```

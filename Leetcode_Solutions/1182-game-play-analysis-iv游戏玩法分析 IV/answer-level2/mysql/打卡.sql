@@ -1,9 +1,9 @@
-### 解题思路
-含义见注释
+-- ### 解题思路
+-- 含义见注释
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select
     #convert函数转换两位小数
@@ -24,4 +24,4 @@ where
     )=1
     and
     a1.player_id=mint.player_id;
-```
+-- ```

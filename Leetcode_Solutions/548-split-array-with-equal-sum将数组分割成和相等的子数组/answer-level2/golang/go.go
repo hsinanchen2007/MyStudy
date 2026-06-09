@@ -1,4 +1,4 @@
-```
+// ```
 func splitArray(nums []int) bool {
 	if len(nums) < 7 {
 		return false
@@ -23,4 +23,4 @@ func splitArray(nums []int) bool {
 	}
 	return false
 }
-```
+// ```

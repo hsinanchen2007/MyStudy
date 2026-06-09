@@ -1,10 +1,10 @@
-初始条件 i=0,j=0    dp[0][0] = 1；
-子问题递增    if i==0  dp[i][j] = dp[i][j-1];
-            if j==0  dp[i][j]= dp[i-1][j];
-            if  i!=0 and j!=0   dp[i][j] = dp[i-1][j] + dp[i][j-1];
+// 初始条件 i=0,j=0    dp[0][0] = 1；
+// 子问题递增    if i==0  dp[i][j] = dp[i][j-1];
+//             if j==0  dp[i][j]= dp[i-1][j];
+//             if  i!=0 and j!=0   dp[i][j] = dp[i-1][j] + dp[i][j-1];
 
 
-```
+// ```
 
 class Solution {
     public int uniquePaths(int m, int n) {
@@ -32,4 +32,4 @@ class Solution {
         return dp[m-1][n-1];
     }
 }
-```
+// ```

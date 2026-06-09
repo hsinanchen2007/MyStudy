@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -51,4 +51,4 @@ class Solution:
         # # 右孩子为空，或者根节点的值和右孩子的值相同，并且右孩子作为根节点的那棵子树是单值
         # return left_correct and right_correct   # 左子树和右子树都是单值
    
-```
+# ```

@@ -1,4 +1,4 @@
-通过提前在队列头插入一个元素来规避全是9的溢出情况
+# 通过提前在队列头插入一个元素来规避全是9的溢出情况
 
 class Solution(object):
     def plusOne(self, digits):

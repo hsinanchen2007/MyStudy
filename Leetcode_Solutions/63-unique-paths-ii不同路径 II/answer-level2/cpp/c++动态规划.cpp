@@ -1,6 +1,6 @@
-  - 动态规划
-  - 如果遇到障碍，该位置值为0，否则为该位置左和上之和
-```c++ []
+//   - 动态规划
+//   - 如果遇到障碍，该位置值为0，否则为该位置左和上之和
+// ```c++ []
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -16,6 +16,6 @@ public:
         return res[obstacleGrid[0].size()];
     }
 };
-```
+// ```
 
 

@@ -1,9 +1,9 @@
-### 解题思路
-此题完全可由数学方法解答。通过前两点可确定直线方程a*x+b*y+c=0，再将其他点带入验证即可。
+// ### 解题思路
+// 此题完全可由数学方法解答。通过前两点可确定直线方程a*x+b*y+c=0，再将其他点带入验证即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkStraightLine(vector<vector<int>>& coordinates)
@@ -15,4 +15,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char nextGreatestLetter(char* letters, int lettersSize, char target){
     int i=0;
     if(target>=letters[lettersSize-1])
@@ -13,4 +13,4 @@ char nextGreatestLetter(char* letters, int lettersSize, char target){
     }
     return letters[i];
 }
-```
+// ```

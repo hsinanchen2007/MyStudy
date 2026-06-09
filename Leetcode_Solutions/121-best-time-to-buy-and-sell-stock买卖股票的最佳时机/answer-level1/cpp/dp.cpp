@@ -1,8 +1,8 @@
-### 解题思路
-双重数组dp实现股票买卖算法
-### 代码
+// ### 解题思路
+// 双重数组dp实现股票买卖算法
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -22,4 +22,4 @@ public:
             return dp[n - 1][0];
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
             // 这道题与其他动态规划最不同的就是它的情况较为复杂，需要有状态机来记录，分三种状态
@@ -19,4 +19,4 @@ class Solution {
         return sell;
     }
 }
-```
+// ```

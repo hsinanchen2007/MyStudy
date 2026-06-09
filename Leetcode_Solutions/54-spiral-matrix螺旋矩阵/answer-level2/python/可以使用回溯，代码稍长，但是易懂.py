@@ -1,6 +1,6 @@
-![捕获.PNG](https://pic.leetcode-cn.com/26e0ae06cc5bbb7d4d7cc4c3b32e78d36cf1e2872f1674af90c2369bcac4023e-%E6%8D%95%E8%8E%B7.PNG)
-![捕获2.PNG](https://pic.leetcode-cn.com/756f93c1ad240f51b0a1b996031de5aeb3c3db9e9148b62a13d65542416d0a5a-%E6%8D%95%E8%8E%B72.PNG)
-```Python []
+# ![捕获.PNG](https://pic.leetcode-cn.com/26e0ae06cc5bbb7d4d7cc4c3b32e78d36cf1e2872f1674af90c2369bcac4023e-%E6%8D%95%E8%8E%B7.PNG)
+# ![捕获2.PNG](https://pic.leetcode-cn.com/756f93c1ad240f51b0a1b996031de5aeb3c3db9e9148b62a13d65542416d0a5a-%E6%8D%95%E8%8E%B72.PNG)
+# ```Python []
 class Solution(object):
     def spiralOrder(self, matrix):
         """
@@ -38,4 +38,4 @@ class Solution(object):
             fun(matrix,temp)
         fun(matrix,[])
         return re[0]
-```
+# ```

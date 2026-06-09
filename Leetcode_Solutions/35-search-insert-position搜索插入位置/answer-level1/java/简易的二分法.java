@@ -1,5 +1,5 @@
-二分法
-```
+// 二分法
+// ```
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int len = nums.length;
@@ -18,4 +18,4 @@ class Solution {
         }
     }
 }
-```
+// ```

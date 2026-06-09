@@ -1,5 +1,5 @@
-可以用String.matches()
-```
+// 可以用String.matches()
+// ```
 class Solution {
     public boolean isMatch(String s, String p) {
         if (s == null) {
@@ -15,4 +15,4 @@ class Solution {
         return s.matches(p);
     }
 }
-```
+// ```

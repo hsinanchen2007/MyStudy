@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 //动态规划求解
 class Solution {
 public:
@@ -24,9 +24,9 @@ public:
 		}
 	}
 };
-```
+// ```
 
-```cpp
+// ```cpp
 
 /*循环求解*/
 class Solution {
@@ -46,4 +46,4 @@ public:
 		return num;
 	}
 };
-```
+// ```

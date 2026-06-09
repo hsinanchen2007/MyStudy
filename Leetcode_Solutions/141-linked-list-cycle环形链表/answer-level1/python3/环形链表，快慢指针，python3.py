@@ -1,9 +1,9 @@
-### 解题思路
-fast步长为2，slow步长为1，如果是环形链表，fast会和slow相遇
+# ### 解题思路
+# fast步长为2，slow步长为1，如果是环形链表，fast会和slow相遇
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
             if slow == fast:
                 return True
 
-```
+# ```

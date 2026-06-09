@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     long secondmin = 2147483648;
@@ -24,4 +24,4 @@ public:
         return secondmin == 2147483648 ? -1 : secondmin;
     }
 };
-```
+// ```

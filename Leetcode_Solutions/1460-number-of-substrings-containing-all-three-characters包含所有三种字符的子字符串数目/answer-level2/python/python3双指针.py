@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numberOfSubstrings(self, s: str) -> int:
         mp={'a':0,'b':0,'c':0}
@@ -16,4 +16,4 @@ class Solution:
                 mp[s[i]]-=1
                 i+=1
         return count
-```
+# ```

@@ -1,5 +1,5 @@
-绝大部分题解都用了并查集，我这里给出一个广度优先搜索方法。
-```
+// 绝大部分题解都用了并查集，我这里给出一个广度优先搜索方法。
+// ```
 class Solution {
 public:
     int removeStones(vector<vector<int>>& stones) {
@@ -38,4 +38,4 @@ public:
         return moves;
     }
 };
-```
+// ```

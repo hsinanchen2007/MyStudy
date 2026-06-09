@@ -1,18 +1,18 @@
-#### 方法：自定义排序
+// #### 方法：自定义排序
 
-**思路和算法**
+// **思路和算法**
 
-我们按照指定的自定义顺序进行排序，而不是按默认顺序排序。
+// 我们按照指定的自定义顺序进行排序，而不是按默认顺序排序。
 
-排序规则如下：
+// 排序规则如下：
 
-* 字母日志先于数字日志；
-* 字母日志按字母数字顺序排列，先按内容排序，再按标识符排序；
-* 数字日志的顺序保持不变。
+// * 字母日志先于数字日志；
+// * 字母日志按字母数字顺序排列，先按内容排序，再按标识符排序；
+// * 数字日志的顺序保持不变。
 
-这些想法很容易转化为代码。
+// 这些想法很容易转化为代码。
 
-```Java [solution1]
+// ```Java [solution1]
 class Solution {
     public String[] reorderLogFiles(String[] logs) {
         Arrays.sort(logs, (log1, log2) -> {
@@ -30,9 +30,9 @@ class Solution {
         return logs;
     }
 }
-```
+// ```
 
-```Python [solution1]
+// ```Python [solution1]
 class Solution(object):
     def reorderLogFiles(self, logs):
         def f(log):
@@ -40,10 +40,10 @@ class Solution(object):
             return (0, rest, id_) if rest[0].isalpha() else (1,)
 
         return sorted(logs, key = f)
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(\mathcal{A}\log \mathcal{A})$，其中 $\mathcal{A}$ 是 `logs` 的内容总和。
+// * 时间复杂度：$O(\mathcal{A}\log \mathcal{A})$，其中 $\mathcal{A}$ 是 `logs` 的内容总和。
 
-* 空间复杂度：$O(\mathcal{A})$。
+// * 空间复杂度：$O(\mathcal{A})$。

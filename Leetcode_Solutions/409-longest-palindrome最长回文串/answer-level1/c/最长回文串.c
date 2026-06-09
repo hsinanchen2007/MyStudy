@@ -1,9 +1,9 @@
-### 解题思路
-嘿嘿
+// ### 解题思路
+// 嘿嘿
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestPalindrome(char * s){
     int* map = (int *)calloc(sizeof(int), 52);
     int length = 0;
@@ -27,4 +27,4 @@ int longestPalindrome(char * s){
 
     return result+(hasOdd?1:0);
 }
-```
+// ```

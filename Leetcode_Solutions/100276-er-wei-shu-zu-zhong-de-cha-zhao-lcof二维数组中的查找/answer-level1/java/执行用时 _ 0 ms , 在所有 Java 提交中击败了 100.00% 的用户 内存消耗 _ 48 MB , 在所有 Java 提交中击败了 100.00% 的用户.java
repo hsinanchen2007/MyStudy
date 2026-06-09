@@ -1,9 +1,9 @@
-### 解题思路
-以左下角为标志元素，和target作比较，比target小的 列右移，比target大的，行上移
+// ### 解题思路
+// 以左下角为标志元素，和target作比较，比target小的 列右移，比target大的，行上移
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if(matrix == null || matrix.length ==0){
@@ -24,4 +24,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

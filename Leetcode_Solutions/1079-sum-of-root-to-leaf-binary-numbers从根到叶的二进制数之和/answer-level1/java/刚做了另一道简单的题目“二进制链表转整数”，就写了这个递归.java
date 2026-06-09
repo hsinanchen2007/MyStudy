@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int sumRootToLeaf(TreeNode root) {
         if (root != null) {
@@ -23,4 +23,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

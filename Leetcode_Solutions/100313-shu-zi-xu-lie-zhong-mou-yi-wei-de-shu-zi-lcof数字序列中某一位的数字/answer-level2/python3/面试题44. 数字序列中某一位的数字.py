@@ -1,6 +1,6 @@
-[第N个数字原题](https://leetcode-cn.com/problems/nth-digit/)
+# [第N个数字原题](https://leetcode-cn.com/problems/nth-digit/)
 
-```python []
+# ```python []
 class Solution:
     def findNthDigit(self, n: int) -> int:
         for i in itertools.count(1):
@@ -10,4 +10,4 @@ class Solution:
                 n -= 1
                 return int(str(t + n // i)[n % i])
             n -= m
-```
+# ```

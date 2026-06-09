@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def fairCandySwap(A: Array[Int], B: Array[Int]): Array[Int] = {
     val aSum = A.sum
@@ -13,4 +13,4 @@ object Solution {
     return Array(-1, -1)
   }
 }
-```
+// ```

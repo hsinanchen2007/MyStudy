@@ -1,9 +1,9 @@
-### 解题思路
-遍历的同时找最低的价格和最大差值 遍历完即可
+// ### 解题思路
+// 遍历的同时找最低的价格和最大差值 遍历完即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -24,4 +24,4 @@ var maxProfit = function(prices) {
     return maxProfit
 
 };
-```
+// ```

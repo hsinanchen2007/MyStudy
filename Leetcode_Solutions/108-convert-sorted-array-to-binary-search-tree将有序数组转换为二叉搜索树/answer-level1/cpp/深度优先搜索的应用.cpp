@@ -1,11 +1,11 @@
-### 解题思路
-1、固定一个start和end变量，取mid作为root节点。
-2、递归得到root的左子树root的右子树。
-这道题可以仔细体会一下深度优先搜索
+// ### 解题思路
+// 1、固定一个start和end变量，取mid作为root节点。
+// 2、递归得到root的左子树root的右子树。
+// 这道题可以仔细体会一下深度优先搜索
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ public:
         return DFS(nums, 0, nums.size());
     }
 };
-```
+// ```

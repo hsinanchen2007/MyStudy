@@ -1,9 +1,9 @@
-### 解题思路
-参考题号：26.
+// ### 解题思路
+// 参考题号：26.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int index=0;
@@ -16,4 +16,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

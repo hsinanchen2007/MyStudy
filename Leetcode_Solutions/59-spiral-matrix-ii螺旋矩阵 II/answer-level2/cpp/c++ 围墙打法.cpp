@@ -1,9 +1,9 @@
-### 解题思路
-设置四个围墙`left right top down`, 触墙转弯，同时当前贴着的墙回缩。
+// ### 解题思路
+// 设置四个围墙`left right top down`, 触墙转弯，同时当前贴着的墙回缩。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -32,4 +32,4 @@ public:
         return mat;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-使用字典保存出现次数
-一旦某个key出现次数达标，就输出
+# ### 解题思路
+# 使用字典保存出现次数
+# 一旦某个key出现次数达标，就输出
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import math
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
@@ -20,4 +20,4 @@ class Solution:
                 adic[i]=1
                 if adic[i]>math.floor(len(nums)/2):
                     return i
-```
+# ```

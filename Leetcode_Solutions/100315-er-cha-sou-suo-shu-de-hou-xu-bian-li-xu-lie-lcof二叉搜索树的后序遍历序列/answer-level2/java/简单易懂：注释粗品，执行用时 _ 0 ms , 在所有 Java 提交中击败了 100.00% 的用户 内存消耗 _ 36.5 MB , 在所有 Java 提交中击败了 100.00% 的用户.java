@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     // 要点：二叉搜索树中根节点的值大于左子树中的任何一个节点的值，小于右子树中任何一个节点的值，子树也是
     public boolean verifyPostorder(int[] postorder) {
@@ -29,4 +29,4 @@ class Solution {
         return true; // 最终都没问题就返回true
     }
 }
-```
+// ```

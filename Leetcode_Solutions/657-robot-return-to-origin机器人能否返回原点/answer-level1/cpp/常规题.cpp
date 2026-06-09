@@ -1,9 +1,9 @@
-### 解题思路
-按照题意加加减减就可以了
+// ### 解题思路
+// 按照题意加加减减就可以了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool judgeCircle(string moves) {
@@ -25,4 +25,4 @@ public:
         return false;
     }
 };
-```
+// ```

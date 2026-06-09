@@ -1,9 +1,9 @@
 
-解题思路：遍历判断字符串S中的字符是否包含于字符串J中，var一个变量，符合条件时则加一
+// 解题思路：遍历判断字符串S中的字符是否包含于字符串J中，var一个变量，符合条件时则加一
 
 
 
-```javascript []
+// ```javascript []
 /**
  * @param {string} J
  * @param {string} S
@@ -18,4 +18,4 @@ var numJewelsInStones = function(J, S) {
    }
    return a;
 }
-```
+// ```

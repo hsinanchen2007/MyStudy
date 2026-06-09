@@ -1,9 +1,9 @@
-### 解题思路
-暴力 + 栈
+// ### 解题思路
+// 暴力 + 栈
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
@@ -29,4 +29,4 @@ public:
         return false;
     }
 };
-```
+// ```

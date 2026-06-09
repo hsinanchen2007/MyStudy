@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/2e8efb1600eb4e326ee6aaf3c9829475a90051a918cc5325915327a37ce13972-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/2e8efb1600eb4e326ee6aaf3c9829475a90051a918cc5325915327a37ce13972-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define EQ(x)  (citations[(x)] == citationsSize - (x))
 #define GT(x)  (citations[(x)] > citationsSize - (x))
 #define LT(x)  (citations[(x)] < citationsSize - (x))
@@ -60,4 +60,4 @@ int hIndex(int* citations, int citationsSize){
 
 [15,30,50,51,52,53]
  */
-```
+// ```

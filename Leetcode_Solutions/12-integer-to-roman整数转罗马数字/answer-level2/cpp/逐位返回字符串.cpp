@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 private:
 	string getC(int pow) {
@@ -65,4 +65,4 @@ public:
 		return answer;
 	}
 };
-```
+// ```

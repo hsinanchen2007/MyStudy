@@ -1,6 +1,6 @@
-*法一*
+// *法一*
 
-```js
+// ```js
 var nextGreatestLetter = function(letters, target) {
     for(let i = 0; i < letters.length; i++){
         if(letters[i] > target){
@@ -9,11 +9,11 @@ var nextGreatestLetter = function(letters, target) {
     }
     return letters[0]
 };
-```
+// ```
 
-*法二：二分法*
+// *法二：二分法*
 
-```js
+// ```js
 var nextGreatestLetter2 = function(letters, target) {
     let left = 0;
     let right = letters.length - 1;
@@ -27,4 +27,4 @@ var nextGreatestLetter2 = function(letters, target) {
     }
     return letters[left % letters.length];
 };
-```
+// ```

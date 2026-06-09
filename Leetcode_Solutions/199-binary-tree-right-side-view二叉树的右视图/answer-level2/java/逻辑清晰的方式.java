@@ -1,4 +1,4 @@
-遍历二叉树 将每一层节点存在一个数组中，然后取所有数组末位数即可
+// 遍历二叉树 将每一层节点存在一个数组中，然后取所有数组末位数即可
     public class TreeNode {
 		int val;
 		TreeNode left;

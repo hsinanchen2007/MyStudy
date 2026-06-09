@@ -1,6 +1,6 @@
-- 思路可以看其他人的详细介绍
-- 这里贴一下代码和注释
-```
+// - 思路可以看其他人的详细介绍
+// - 这里贴一下代码和注释
+// ```
 var sortList = function (head) {
   if (!head || !head.next) return head;
   let prev1 = new ListNode();
@@ -60,4 +60,4 @@ var sortList = function (head) {
   return prev1.next;
 };
 };
-```
+// ```

@@ -1,8 +1,8 @@
-C代码用不了sem_t，没办法只能用mutex来做。
-两个锁，h线程拿t2锁，打印两次后，释放t1锁，给O线程
-O线程拿t1锁，打印后，释放t2锁，再等下一个h线程的t1锁释放
+// C代码用不了sem_t，没办法只能用mutex来做。
+// 两个锁，h线程拿t2锁，打印两次后，释放t1锁，给O线程
+// O线程拿t1锁，打印后，释放t2锁，再等下一个h线程的t1锁释放
 
-```
+// ```
 typedef struct {
     // User defined data may be declared here.
     pthread_mutex_t t1;
@@ -47,4 +47,4 @@ void h2oFree(H2O* obj) {
     free(obj);
 }
 
-```
+// ```

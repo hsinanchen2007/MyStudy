@@ -1,8 +1,8 @@
-### 解题思路
-利用递归，其实本质就是用栈。。。直接用栈实现感觉更清晰
-### 代码
+// ### 解题思路
+// 利用递归，其实本质就是用栈。。。直接用栈实现感觉更清晰
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

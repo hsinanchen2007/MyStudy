@@ -1,9 +1,9 @@
-### 解题思路
-利用排序的思想，分别把开始时间和结束时间抽取出来，如果开始时间大于结束时间，说明一间会议室可以共用
+# ### 解题思路
+# 利用排序的思想，分别把开始时间和结束时间抽取出来，如果开始时间大于结束时间，说明一间会议室可以共用
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
         if not intervals:
@@ -22,4 +22,4 @@ class Solution:
             used_rooms += 1
             start_pointer += 1
         return used_rooms
-```
+# ```

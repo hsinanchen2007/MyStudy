@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
      public ListNode deleteDuplicates(ListNode head) {
         //确保前两个节点存在
@@ -35,4 +35,4 @@ class Solution {
 
     }
 }
-```
+// ```

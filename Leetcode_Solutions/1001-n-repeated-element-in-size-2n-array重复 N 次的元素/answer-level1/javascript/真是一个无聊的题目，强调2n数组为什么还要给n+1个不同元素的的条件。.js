@@ -1,5 +1,5 @@
-本来以为是个求中位数的题目
-```
+// 本来以为是个求中位数的题目
+// ```
 var repeatedNTimes = function(A) {
     A.sort((a, b) => a - b);
     let length = A.length;
@@ -11,10 +11,10 @@ var repeatedNTimes = function(A) {
     }
     return A[length / 2];
 }
-```
+// ```
 
-结果就是个求个重复值得题目
-```
+// 结果就是个求个重复值得题目
+// ```
 var repeatedNTimes = function(A) {
     let set = new Set();
     for(let e of A){
@@ -25,4 +25,4 @@ var repeatedNTimes = function(A) {
         }
     }
 }
-```
+// ```

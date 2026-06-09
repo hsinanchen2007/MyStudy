@@ -1,9 +1,9 @@
-### 解题思路
-pathSumHelper求解从node向下且包含node的符合条件的路径
-pathSum遍历树中所有节点，对每个节点做一次pathSumHelper
-### 代码
+// ### 解题思路
+// pathSumHelper求解从node向下且包含node的符合条件的路径
+// pathSum遍历树中所有节点，对每个节点做一次pathSumHelper
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ public:
         return res;
     }
 };
-```
+// ```

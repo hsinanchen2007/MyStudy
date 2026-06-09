@@ -1,15 +1,15 @@
-### 解题思路
-变量名含义看下面的注解
-比如链表 1 2 3 4 5，寻找倒数第二个数
-第一次len=1,n=2,len<n,removenode=1
-第二次len=2,n=2,len<n,removenode=1
-第三次len=3,n=2,len>n,removenode=2,pernode=1
-第四次len=4,n=2,len>n,removenode=3,pernode=2
-第五次len=5,n=2,len>n,removenode=4,pernode=3
-下一个节点为空，说明链表到头了，直接移除removenode节点即可
-### 代码
+// ### 解题思路
+// 变量名含义看下面的注解
+// 比如链表 1 2 3 4 5，寻找倒数第二个数
+// 第一次len=1,n=2,len<n,removenode=1
+// 第二次len=2,n=2,len<n,removenode=1
+// 第三次len=3,n=2,len>n,removenode=2,pernode=1
+// 第四次len=4,n=2,len>n,removenode=3,pernode=2
+// 第五次len=5,n=2,len>n,removenode=4,pernode=3
+// 下一个节点为空，说明链表到头了，直接移除removenode节点即可
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -45,4 +45,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

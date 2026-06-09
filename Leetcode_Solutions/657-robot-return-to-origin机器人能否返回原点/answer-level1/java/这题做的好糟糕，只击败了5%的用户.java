@@ -1,8 +1,8 @@
-我是想说以i，k分别为横纵变量，向左+1，向右-1，向上+1，向下j-1 最后如果ij均为初始值0则回到原点
+// 我是想说以i，k分别为横纵变量，向左+1，向右-1，向上+1，向下j-1 最后如果ij均为初始值0则回到原点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean judgeCircle(String moves) {
          String s;
@@ -21,4 +21,4 @@ class Solution {
          return false;
     }
 }
-```
+// ```

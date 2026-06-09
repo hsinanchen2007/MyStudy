@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-中序，验证是否升序
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 中序，验证是否升序
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
 
     
 }
-```
+// ```

@@ -1,4 +1,4 @@
-``` c
+// ``` c
 /*
 * example
 *  n    n
@@ -14,4 +14,4 @@ int trailingZeroes(int n){
     tmp = n / 5;
     return tmp  + trailingZeroes(tmp);
 }
-```
+// ```

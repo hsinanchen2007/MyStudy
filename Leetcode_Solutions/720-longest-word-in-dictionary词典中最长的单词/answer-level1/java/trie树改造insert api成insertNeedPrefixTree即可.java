@@ -1,10 +1,10 @@
-### 解题思路
-1. 刚做完 208. 实现 Trie (前缀树) 就拿了实现的trie树，感觉这倒题 只需要trie树的一个api，就是insert
-2. 改造insert的api，需要有前缀树才能insert进去，然后判断max长度即可
+// ### 解题思路
+// 1. 刚做完 208. 实现 Trie (前缀树) 就拿了实现的trie树，感觉这倒题 只需要trie树的一个api，就是insert
+// 2. 改造insert的api，需要有前缀树才能insert进去，然后判断max长度即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     class Trie {
         class TrieNode {
@@ -81,4 +81,4 @@ class Solution {
         return longestWord == -1 ? "" : words[longestWord];
     }
 }
-```
+// ```

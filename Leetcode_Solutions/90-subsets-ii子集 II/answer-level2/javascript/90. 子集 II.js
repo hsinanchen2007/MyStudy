@@ -1,17 +1,17 @@
-#### 回溯算法系列
-+ [39. 组合总和](https://leetcode-cn.com/problems/combination-sum/solution/39-zu-he-zong-he-by-alexer-660/)
-+ [40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/solution/40-zu-he-zong-he-ii-by-alexer-660/)
-+ [46. 全排列](https://leetcode-cn.com/problems/permutations/solution/46-quan-pai-lie-by-alexer-660/)
-+ [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/solution/47-quan-pai-lie-ii-by-alexer-660/)
-+ [77. 组合](https://leetcode-cn.com/problems/combinations/solution/77-zu-he-by-alexer-660/)
-+ [78. 子集](https://leetcode-cn.com/problems/subsets/solution/78-zi-ji-by-alexer-660/)
-+ [90. 子集 II](https://leetcode-cn.com/problems/subsets-ii/solution/90-zi-ji-ii-by-alexer-660/)
-#### 解法一：递归回溯 + 减枝
-+ 类似题型
-  + [47. 全排列 II - 解法二](https://leetcode-cn.com/problems/permutations-ii/solution/47-quan-pai-lie-ii-by-alexer-660/)
-+ 递归代码模板
-  + [参看各类算法模板 - 递归一节 - Python&Java版](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/AlgorithmTemplate%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF.md)
-```javascript
+// #### 回溯算法系列
+// + [39. 组合总和](https://leetcode-cn.com/problems/combination-sum/solution/39-zu-he-zong-he-by-alexer-660/)
+// + [40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/solution/40-zu-he-zong-he-ii-by-alexer-660/)
+// + [46. 全排列](https://leetcode-cn.com/problems/permutations/solution/46-quan-pai-lie-by-alexer-660/)
+// + [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/solution/47-quan-pai-lie-ii-by-alexer-660/)
+// + [77. 组合](https://leetcode-cn.com/problems/combinations/solution/77-zu-he-by-alexer-660/)
+// + [78. 子集](https://leetcode-cn.com/problems/subsets/solution/78-zi-ji-by-alexer-660/)
+// + [90. 子集 II](https://leetcode-cn.com/problems/subsets-ii/solution/90-zi-ji-ii-by-alexer-660/)
+// #### 解法一：递归回溯 + 减枝
+// + 类似题型
+//   + [47. 全排列 II - 解法二](https://leetcode-cn.com/problems/permutations-ii/solution/47-quan-pai-lie-ii-by-alexer-660/)
+// + 递归代码模板
+//   + [参看各类算法模板 - 递归一节 - Python&Java版](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/AlgorithmTemplate%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF.md)
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -36,57 +36,57 @@ var subsetsWithDup = function(nums) {
     backtrack(tmpPath,0);
     return res;
 };
-```
-#### 解法二：迭代
-+ 类似题型
-  + [78. 子集 - 解法二](https://leetcode-cn.com/problems/subsets/solution/78-zi-ji-by-alexer-660/)
-+ 举个栗子
-  + 按照78-解法二来做的话
-  + nums：[1,2,2]
-  + 初始化：res = []
-    + i = 0
-      + [1]
-      + len = 1
-        + res = [ [],[1] ]
-        + **新解的开始索引位置：1 == len**
-    + i = 1
-      + [2],[1,2]
-      + len = 2
-        + res = [ [],[1],[2],[1,2]]
-        + **新解的开始索引位置：2 == len**
-    + i = 2
-      + [2],[1,2],[2,2],[1,2,2]
-      + len = 4
-        + res = [ [],[1],[2],[1,2],[2],[1,2],[2,2],[1,2,2] ]
-        + **新解的开始索引位置：4 == len**
-+ 关键
-  + i = 2 时
-  + 此处出现了重复数字，即nums[i] == nums[i-1]
-  + 处理重复  
-    + 如果像解法一那样，直接跳过nums[i]不进行组合
-      + 将会漏掉[2,2]、[1,2,2]这两个解
-    + 如果维持不变
-      + 则结果集中重复了[2]、[1,2]这两个解
-    + 解决办法
-      + 我们不像78题那样
-        + 重复将新的元素加入到上一个结果集中的每个子集当中去，形成n个新的子集，再全部加入到结果集中去
-      + 我们改成将新的元素加入到上一个结果集中最近一次新加入进去的子集当中去
-        + 即从上上次结果集的末尾开始遍历上次新加入的结果集，将新元素一一加进去
-      + 如栗子
-        + i = 1
-          + [2],[1,2]
-          + len = 2
-            + res = [ [],[1],[2],[1,2]]
-            + **新解的开始索引位置：2 == len**
-        + i = 2
-          + 那么从 i = 2处开始遍历结果集，一一加入新元素入遍历的子集当中去
-            + [2,2],[1,2,2]
-            + [],[1]这个两个就被略过了
-              + 从而也避免了重复集合[2],[1,2]的产生
-      + 维护一个新解开始位置的变量
-        + 即加入之前原数组的长度
-        + 内循环组合遍历时，要跳过小于新解开始位置的遍历
-```javascript
+// ```
+// #### 解法二：迭代
+// + 类似题型
+//   + [78. 子集 - 解法二](https://leetcode-cn.com/problems/subsets/solution/78-zi-ji-by-alexer-660/)
+// + 举个栗子
+//   + 按照78-解法二来做的话
+//   + nums：[1,2,2]
+//   + 初始化：res = []
+//     + i = 0
+//       + [1]
+//       + len = 1
+//         + res = [ [],[1] ]
+//         + **新解的开始索引位置：1 == len**
+//     + i = 1
+//       + [2],[1,2]
+//       + len = 2
+//         + res = [ [],[1],[2],[1,2]]
+//         + **新解的开始索引位置：2 == len**
+//     + i = 2
+//       + [2],[1,2],[2,2],[1,2,2]
+//       + len = 4
+//         + res = [ [],[1],[2],[1,2],[2],[1,2],[2,2],[1,2,2] ]
+//         + **新解的开始索引位置：4 == len**
+// + 关键
+//   + i = 2 时
+//   + 此处出现了重复数字，即nums[i] == nums[i-1]
+//   + 处理重复  
+//     + 如果像解法一那样，直接跳过nums[i]不进行组合
+//       + 将会漏掉[2,2]、[1,2,2]这两个解
+//     + 如果维持不变
+//       + 则结果集中重复了[2]、[1,2]这两个解
+//     + 解决办法
+//       + 我们不像78题那样
+//         + 重复将新的元素加入到上一个结果集中的每个子集当中去，形成n个新的子集，再全部加入到结果集中去
+//       + 我们改成将新的元素加入到上一个结果集中最近一次新加入进去的子集当中去
+//         + 即从上上次结果集的末尾开始遍历上次新加入的结果集，将新元素一一加进去
+//       + 如栗子
+//         + i = 1
+//           + [2],[1,2]
+//           + len = 2
+//             + res = [ [],[1],[2],[1,2]]
+//             + **新解的开始索引位置：2 == len**
+//         + i = 2
+//           + 那么从 i = 2处开始遍历结果集，一一加入新元素入遍历的子集当中去
+//             + [2,2],[1,2,2]
+//             + [],[1]这个两个就被略过了
+//               + 从而也避免了重复集合[2],[1,2]的产生
+//       + 维护一个新解开始位置的变量
+//         + 即加入之前原数组的长度
+//         + 内循环组合遍历时，要跳过小于新解开始位置的遍历
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -108,11 +108,11 @@ var subsetsWithDup = function(nums) {
     }
     return res;
 };
-```
-#### 解法三：位运算
-+ 类似题型
-  + [78. 子集 - 解法四](https://leetcode-cn.com/problems/subsets/solution/78-zi-ji-by-alexer-660/)
-```javascript
+// ```
+// #### 解法三：位运算
+// + 类似题型
+//   + [78. 子集 - 解法四](https://leetcode-cn.com/problems/subsets/solution/78-zi-ji-by-alexer-660/)
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -149,9 +149,9 @@ var subsetsWithDup = function(nums) {
     }
     return res;
 };
-```
-+ 或者这样写
-```javascript
+// ```
+// + 或者这样写
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -178,4 +178,4 @@ var subsetsWithDup = function(nums) {
     }
     return res;
 };
-```
+// ```

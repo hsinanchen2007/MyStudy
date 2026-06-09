@@ -1,4 +1,4 @@
-```
+// ```
 func hIndex(_ citations: [Int]) -> Int {
     let length = citations.count
     var left = 0
@@ -17,4 +17,4 @@ func hIndex(_ citations: [Int]) -> Int {
     }
     return length - left
 }
-```
+// ```

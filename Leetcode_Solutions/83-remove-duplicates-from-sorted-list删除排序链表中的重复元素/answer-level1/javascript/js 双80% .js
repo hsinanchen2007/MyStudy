@@ -1,4 +1,4 @@
-```
+// ```
 var deleteDuplicates = function(head) {
     if(!head || !head.next) return head
     var fast = head.next,slow = head;
@@ -17,4 +17,4 @@ var deleteDuplicates = function(head) {
     }
     return head
 };
-```
+// ```

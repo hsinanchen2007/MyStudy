@@ -1,5 +1,5 @@
-每次与头结点比较，小的话就检查右节点。更新：1）已有的节点变成新节点的左接单，2）新节点变成父节点的右节点。
-```
+# 每次与头结点比较，小的话就检查右节点。更新：1）已有的节点变成新节点的左接单，2）新节点变成父节点的右节点。
+# ```
 class Solution:
     def insertIntoMaxTree(self, root: TreeNode, val: int) -> TreeNode:
         # dummy
@@ -17,4 +17,4 @@ class Solution:
         n.left = c
         
         return dummy.right
-```
+# ```

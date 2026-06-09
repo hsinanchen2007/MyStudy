@@ -1,4 +1,4 @@
-```
+// ```
 public int[] maxDepthAfterSplit(String seq) {
         Stack<Integer> stack = new Stack();
         int len = seq.length();
@@ -20,4 +20,4 @@ public int[] maxDepthAfterSplit(String seq) {
         
         return res;
     }
-```
+// ```

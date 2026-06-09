@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def partitionLabels(self, S: str) -> List[int]:
         #首先找到每个元素出现的最后位置,字典的形式，通过元素找到下标
@@ -24,4 +24,4 @@ class Solution:
 
 
         
-```
+# ```

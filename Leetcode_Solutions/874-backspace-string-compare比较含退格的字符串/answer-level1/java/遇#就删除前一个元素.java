@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean backspaceCompare(String S, String T) {
         String number="";
@@ -42,4 +42,4 @@ class Solution {
         else return false;
     }
 }
-```
+// ```

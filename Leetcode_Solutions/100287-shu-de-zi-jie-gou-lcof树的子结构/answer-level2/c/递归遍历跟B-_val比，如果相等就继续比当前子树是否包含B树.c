@@ -1,9 +1,9 @@
-### 解题思路
-递归遍历跟B->val比，如果相等就继续比当前子树是否包含B树
+// ### 解题思路
+// 递归遍历跟B->val比，如果相等就继续比当前子树是否包含B树
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool compare2Trees(struct TreeNode *a, struct TreeNode *b) {
     if (a == NULL && b == NULL) return true; 
     else if (a == NULL && b != NULL) return false; //A已经到底而B还未到底，肯定A包不住B
@@ -23,4 +23,4 @@ bool isSubStructure(struct TreeNode* A, struct TreeNode* B){
     }
     return isSubStructure(A->left, B) || isSubStructure(A->right, B);
 }
-```
+// ```

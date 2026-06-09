@@ -1,22 +1,22 @@
-### 递归
-很简单
+# ### 递归
+# 很简单
 
-### 代码
-``` python3
+# ### 代码
+# ``` python3
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         if not root:
             return []
         return self.inorderTraversal(root.left) + [root.val] + self.inorderTraversal(root.right)
-```
+# ```
 
-### 迭代
-有root入栈向左走 
-没root出栈向右走
+# ### 迭代
+# 有root入栈向左走 
+# 没root出栈向右走
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
                 root = top.right
         
         return res
-```
+# ```

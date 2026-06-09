@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int game(int[] guess, int[] answer) {
         // 声明变量存储猜对的次数
@@ -12,4 +12,4 @@ class Solution {
         return rc;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-结合我写的[三数之和](https://leetcode-cn.com/problems/3sum/solution/yi-chong-hen-jian-dan-de-jie-fa-xiao-lu-bu-zen-yan/)和[组合总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-si-lu-hen-jian-dan-hen-bao-li-de-di-/)一起看就可以了，在这道题里效率居然意外的还很不错。
-原谅本人口头表达实在不怎样。。。
+// ### 解题思路
+// 结合我写的[三数之和](https://leetcode-cn.com/problems/3sum/solution/yi-chong-hen-jian-dan-de-jie-fa-xiao-lu-bu-zen-yan/)和[组合总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-si-lu-hen-jian-dan-hen-bao-li-de-di-/)一起看就可以了，在这道题里效率居然意外的还很不错。
+// 原谅本人口头表达实在不怎样。。。
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     val ans = ArrayList<ArrayList<Int>>()
     fun combinationSum2(candidates: IntArray, target: Int): List<List<Int>> {
@@ -35,4 +35,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-根据之前做的数组相加衍生出来的，通过相加的方式，逢2进1。
+// ### 解题思路
+// 根据之前做的数组相加衍生出来的，通过相加的方式，逢2进1。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} a
  * @param {string} b
@@ -28,4 +28,4 @@ var addBinary = function (a, b) {
     }
     return arr.join('');
 };
-```
+// ```

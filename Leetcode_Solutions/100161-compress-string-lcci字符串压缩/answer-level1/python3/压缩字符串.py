@@ -1,9 +1,9 @@
-### 解题思路
-果然这种题还是比较阴险的，要考虑是否输入为空字符串
+# ### 解题思路
+# 果然这种题还是比较阴险的，要考虑是否输入为空字符串
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if len(S) == 0:
@@ -18,4 +18,4 @@ class Solution:
                 count += 1
         ret += str(count)
         return ret if len(ret) < len(S) else S
-```
+# ```

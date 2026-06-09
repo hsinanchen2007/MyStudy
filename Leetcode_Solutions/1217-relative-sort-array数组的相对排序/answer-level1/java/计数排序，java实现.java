@@ -1,5 +1,5 @@
-文字太费事，直接上代码。
-```
+// 文字太费事，直接上代码。
+// ```
 class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
         int[] count = new int[1001];
@@ -21,4 +21,4 @@ class Solution {
         return arr1;
     }
 }
-```
+// ```

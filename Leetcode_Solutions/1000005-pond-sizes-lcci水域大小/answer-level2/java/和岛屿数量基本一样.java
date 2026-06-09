@@ -1,9 +1,9 @@
-### 解题思路
-和计算岛屿数量基本一样，差异在于对角线的情况，再加上对角线的情况即可。
+// ### 解题思路
+// 和计算岛屿数量基本一样，差异在于对角线的情况，再加上对角线的情况即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] pondSizes(int[][] land) {
         int count = 0;
@@ -41,4 +41,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

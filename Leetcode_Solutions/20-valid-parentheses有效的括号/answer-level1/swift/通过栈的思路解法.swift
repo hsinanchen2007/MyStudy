@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-通过栈的思路解法
+// 通过栈的思路解法
 
-![image.png](https://pic.leetcode-cn.com/32fad0250f7c7efaede9e4a7ae1ae9ea3bcfea2de2bcc6adc93ce72ae3d09da4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/32fad0250f7c7efaede9e4a7ae1ae9ea3bcfea2de2bcc6adc93ce72ae3d09da4-image.png)
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func isValid(_ s: String) -> Bool {
         
@@ -35,4 +35,4 @@ class Solution {
     }
 }
 
-```
+// ```

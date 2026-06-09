@@ -1,5 +1,5 @@
-尽量满足大的饼干给胃口大的小朋友
-```
+# 尽量满足大的饼干给胃口大的小朋友
+# ```
 class Solution:
     def findContentChildren(self, g: List[int], s: List[int]) -> int:
         g = sorted(g)
@@ -13,4 +13,4 @@ class Solution:
             elif s[-1] < g[-1]:
                 g.pop()
         return count
-```
+# ```

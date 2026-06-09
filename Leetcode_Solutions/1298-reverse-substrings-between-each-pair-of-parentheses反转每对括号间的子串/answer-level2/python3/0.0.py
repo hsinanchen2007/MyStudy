@@ -1,9 +1,9 @@
-### 解题思路
-用一下栈
+# ### 解题思路
+# 用一下栈
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseParentheses(self, s: str) -> str:
         def reverse(s):
@@ -30,4 +30,4 @@ class Solution:
             #s_tmp.reverse()
             return (''.join(s_tmp))
         return reverse(s)
-```
+# ```

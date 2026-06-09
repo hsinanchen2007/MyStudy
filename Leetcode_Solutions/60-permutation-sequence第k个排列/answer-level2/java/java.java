@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String getPermutation(int n, int k) {
         List<Integer> list = new ArrayList<>();
@@ -28,4 +28,4 @@ class Solution {
         return n * factorial(n - 1);
     }
 }
-```
+// ```

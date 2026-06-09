@@ -1,11 +1,11 @@
-### 解题思路
-1.使用istringstream分割str。
-2.将pattern和str分别映射自己的index。
-3.最终比较index是否相互对应来表示是否单词规律相同。
+// ### 解题思路
+// 1.使用istringstream分割str。
+// 2.将pattern和str分别映射自己的index。
+// 3.最终比较index是否相互对应来表示是否单词规律相同。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     template<typename T>
@@ -34,4 +34,4 @@ public:
         return symbolize(v_pattern) == symbolize(v_str);
     }
 };
-```
+// ```

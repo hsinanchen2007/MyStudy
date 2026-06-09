@@ -1,16 +1,16 @@
-## 思路:
+// ## 思路:
 
-这道题 `BFS + DFS`
+// 这道题 `BFS + DFS`
 
-用`BFS`求从`beginWord` 到`endWord`最短距离,经过哪些单词, 用字典记录离`beginWord`的距离;
+// 用`BFS`求从`beginWord` 到`endWord`最短距离,经过哪些单词, 用字典记录离`beginWord`的距离;
 
-用`DFS`求从`beginWord` 到`endWord`有哪些路径
+// 用`DFS`求从`beginWord` 到`endWord`有哪些路径
 
-`Java` 代码写的我怀疑人生, 可以帮我简化吗?
+// `Java` 代码写的我怀疑人生, 可以帮我简化吗?
 
-## 代码:
+// ## 代码:
 
-```python [1]
+// ```python [1]
 class Solution:
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
         from collections import defaultdict
@@ -62,11 +62,11 @@ class Solution:
         bfs()
         dfs([beginWord], 0)
         return res
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
         Set<String> wordList_set = new HashSet<>(wordList);
@@ -131,5 +131,5 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 

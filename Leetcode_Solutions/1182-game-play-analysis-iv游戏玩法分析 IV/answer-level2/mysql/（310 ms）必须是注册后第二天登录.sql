@@ -1,9 +1,9 @@
-### 解题思路
-where会自动滤除Null,可以利用这一点
+-- ### 解题思路
+-- where会自动滤除Null,可以利用这一点
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select ROUND(ifnull(count(distinct t1.player_id)/count(distinct t3.player_id),0),2) AS fraction
 from 
@@ -20,4 +20,4 @@ where  t.player_id =  t1.player_id and t.event_date = t1.second_date
 
 
 
-```
+-- ```

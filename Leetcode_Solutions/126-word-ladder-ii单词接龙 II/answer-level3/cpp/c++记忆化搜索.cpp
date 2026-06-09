@@ -1,4 +1,4 @@
-```
+// ```
 struct node{
         int i;
         int no=0;
@@ -122,4 +122,4 @@ struct node{
         return ans;
     }
 
-```
+// ```

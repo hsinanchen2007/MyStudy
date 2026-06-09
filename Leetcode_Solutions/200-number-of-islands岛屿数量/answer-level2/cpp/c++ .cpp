@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {
@@ -21,4 +21,4 @@ public:
         if(i+1<grid.size()&&grid[i+1][j]=='1')set(grid,i+1,j);
     }
 };
-```
+// ```

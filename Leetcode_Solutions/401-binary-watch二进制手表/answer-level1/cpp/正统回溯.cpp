@@ -1,9 +1,9 @@
-### 解题思路
-就是有点慢
+// ### 解题思路
+// 就是有点慢
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> readBinaryWatch(int num) {
@@ -42,4 +42,4 @@ private:
     int b[7] = {1, 2, 4, 8, 16, 32};
     vector<string> ans;
 };
-```
+// ```

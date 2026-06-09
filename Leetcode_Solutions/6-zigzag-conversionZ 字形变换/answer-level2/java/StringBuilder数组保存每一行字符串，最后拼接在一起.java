@@ -1,10 +1,10 @@
-### 解题思路
-常规解法。观察示例形状找规律。
-*记得初始化StringBuilder数组。
+// ### 解题思路
+// 常规解法。观察示例形状找规律。
+// *记得初始化StringBuilder数组。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String convert(String s, int numRows) {
         StringBuilder[] sb = new StringBuilder[numRows] ;
@@ -36,4 +36,4 @@ class Solution {
         return ans.toString() ;
     }
 }
-```
+// ```

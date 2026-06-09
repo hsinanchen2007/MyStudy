@@ -1,9 +1,9 @@
-### 解题思路
-对角线翻转 + 镜像翻转
+# ### 解题思路
+# 对角线翻转 + 镜像翻转
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -19,4 +19,4 @@ class Solution:
                 matrix[i][j], matrix[i][n-j-1] = matrix[i][n-j-1], matrix[i][j]
         return matrix
             
-```
+# ```

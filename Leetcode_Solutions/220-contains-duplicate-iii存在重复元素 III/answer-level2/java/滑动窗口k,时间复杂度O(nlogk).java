@@ -1,9 +1,9 @@
-思路: 
-1. 维护一个以窗口大小k为最大size的列表tempList，有序保存当前遍历到的元素i的前k个元素;
-2. 二分查找tempList,找到当前nums[i]应该插入的位置下标index，若插入后tempList.size>k，则判断要删除的元素nums[i-k]与nums[i]的差值是否满足条件，若满足则返回，不满足则删除;
-3. 计算插入元素的最小差值value1和插入元素的后一个元素（tempList中）的最小差值value2，若其中有<=t则返回.
+// 思路: 
+// 1. 维护一个以窗口大小k为最大size的列表tempList，有序保存当前遍历到的元素i的前k个元素;
+// 2. 二分查找tempList,找到当前nums[i]应该插入的位置下标index，若插入后tempList.size>k，则判断要删除的元素nums[i-k]与nums[i]的差值是否满足条件，若满足则返回，不满足则删除;
+// 3. 计算插入元素的最小差值value1和插入元素的后一个元素（tempList中）的最小差值value2，若其中有<=t则返回.
 
-```
+// ```
 public int binarySearch(List<Integer> list, int n) {
     int len = list.size();
     int left = 0, right = len - 1, mid = 0;
@@ -65,5 +65,5 @@ public boolean containsNearbyAlmostDuplicate1(int[] nums, int k, int t) {
     }
     return false;
 }
-```
-时间复杂度O(nlogk),空间复杂度O(k).
+// ```
+// 时间复杂度O(nlogk),空间复杂度O(k).

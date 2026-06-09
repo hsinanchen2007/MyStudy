@@ -1,7 +1,7 @@
 
-经典的完全背包问题，关于01背包与完全背包可以参考此处。
-[背包问题详解](https://blog.csdn.net/reed1991/article/details/53352426)
-```
+// 经典的完全背包问题，关于01背包与完全背包可以参考此处。
+// [背包问题详解](https://blog.csdn.net/reed1991/article/details/53352426)
+// ```
 public int coinChange(int[] coins, int amount) {
         if (coins == null || coins.length == 0 || amount == 0) {
             return 0;
@@ -31,4 +31,4 @@ public int coinChange(int[] coins, int amount) {
         return dp[amount] == 0 ? -1 : dp[amount];
 
     }
-```
+// ```

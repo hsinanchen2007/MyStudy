@@ -1,6 +1,6 @@
-![596b7150094c969f04473e2630d5d4b.png](https://pic.leetcode-cn.com/0302e8ddba5155b426170758a1c8eba340f260fccf756c1e25ac72ef3ee170fd-596b7150094c969f04473e2630d5d4b.png)
-用栈就完事了，第一次做出来这种结果。代码贴出来了，当然写的很烂，不喜勿喷。
-```
+// ![596b7150094c969f04473e2630d5d4b.png](https://pic.leetcode-cn.com/0302e8ddba5155b426170758a1c8eba340f260fccf756c1e25ac72ef3ee170fd-596b7150094c969f04473e2630d5d4b.png)
+// 用栈就完事了，第一次做出来这种结果。代码贴出来了，当然写的很烂，不喜勿喷。
+// ```
 class Solution {
 public:
 bool isValid(string s) {
@@ -46,5 +46,5 @@ bool isValid(string s) {
 
 }
 };
-```
+// ```
 

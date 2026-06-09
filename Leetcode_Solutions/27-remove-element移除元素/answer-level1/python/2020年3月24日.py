@@ -1,10 +1,10 @@
-### 解题思路
-快慢指针，和26删除重复项类似
-由上题启发，可以对列表进行一次排序，以减少工作量。
+# ### 解题思路
+# 快慢指针，和26删除重复项类似
+# 由上题启发，可以对列表进行一次排序，以减少工作量。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         lens = len(nums)
@@ -17,4 +17,4 @@ class Solution:
                 i += 1
         return i
 
-```
+# ```

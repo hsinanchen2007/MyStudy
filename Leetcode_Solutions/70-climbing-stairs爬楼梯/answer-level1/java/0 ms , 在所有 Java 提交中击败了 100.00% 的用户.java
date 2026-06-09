@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class Solution {
     public int climbStairs(int n) {
         int[] dp = new int[n + 2];
@@ -12,4 +12,4 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```

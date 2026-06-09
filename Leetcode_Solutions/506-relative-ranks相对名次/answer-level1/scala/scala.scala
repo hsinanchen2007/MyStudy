@@ -1,4 +1,4 @@
-```scala []
+// ```scala []
 object Solution {
     def findRelativeRanks(A: Array[Int]): Array[String] = {
         val rank = scala.collection.mutable.HashMap[Int,Int]()
@@ -13,5 +13,5 @@ object Solution {
         case _ => rank.toString
     }
 }
-```
+// ```
 

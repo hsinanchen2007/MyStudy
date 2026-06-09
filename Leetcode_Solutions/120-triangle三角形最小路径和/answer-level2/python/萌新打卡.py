@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         if not triangle:
@@ -19,4 +19,4 @@ class Solution:
                 else:
                     triangle[i][j] = triangle[i][j] + min(triangle[i-1][j-1], triangle[i-1][j])
         return min(triangle[-1])
-```
+# ```

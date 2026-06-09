@@ -1,9 +1,9 @@
-### 解题思路
-注意m如果是int可能会溢出
+// ### 解题思路
+// 注意m如果是int可能会溢出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int mySqrt(int x)
@@ -22,4 +22,4 @@ public:
         return aa > x ? a - 1 : a;
     }
 };
-```
+// ```

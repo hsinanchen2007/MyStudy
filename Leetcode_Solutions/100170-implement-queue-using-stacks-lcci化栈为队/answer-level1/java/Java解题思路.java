@@ -1,15 +1,15 @@
-### 解题思路
-首先明确两个数据结构的特点：
-    队列：先进显出
-    栈：先进后出
-本题需要使用两个栈来实现队列，具体实现思路如下：
-1. 定义两个栈，inStack用来push数据，outStack用来读取数据
-2. push方法向inStack里放数据
-3. pop和peek方法都是读取数据，因为outStack是用来读取数据的栈，那么我们将inStack的数据全部压入outStack中，在outStack中的数据就是inStack数据的倒序，然后直接中outStack中获取数据即可，需要注意的是只有当outStack为空的时候才会从inStack中将数据全部压入，否则顺序会出错。
+// ### 解题思路
+// 首先明确两个数据结构的特点：
+//     队列：先进显出
+//     栈：先进后出
+// 本题需要使用两个栈来实现队列，具体实现思路如下：
+// 1. 定义两个栈，inStack用来push数据，outStack用来读取数据
+// 2. push方法向inStack里放数据
+// 3. pop和peek方法都是读取数据，因为outStack是用来读取数据的栈，那么我们将inStack的数据全部压入outStack中，在outStack中的数据就是inStack数据的倒序，然后直接中outStack中获取数据即可，需要注意的是只有当outStack为空的时候才会从inStack中将数据全部压入，否则顺序会出错。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyQueue {
 
     //出栈
@@ -68,4 +68,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

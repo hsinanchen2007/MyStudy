@@ -1,7 +1,7 @@
 
-`dp[i] = sum(i...n) - min(dp[i+1],dp[i+2],dp[i+3])` //dp[i]表示剩余i到n石子时，i位置先手者最佳策略的最终得分值
+// `dp[i] = sum(i...n) - min(dp[i+1],dp[i+2],dp[i+3])` //dp[i]表示剩余i到n石子时，i位置先手者最佳策略的最终得分值
 
-```
+// ```
     func stoneGameIII(stoneValue []int) string {
         dp := make([]int, len(stoneValue) + 2) // 为了最后全拿的时候不再多作判断，多分配2个空间
         n := len(stoneValue) - 1
@@ -25,4 +25,4 @@
         }
         return "Bob"
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-由于输入合法，先把字符串拆分为数字列表，然后把长度用0补齐，开始比较。
+# ### 解题思路
+# 由于输入合法，先把字符串拆分为数字列表，然后把长度用0补齐，开始比较。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:
         v1_list = version1.split('.')
@@ -25,4 +25,4 @@ class Solution:
         
         return 1
 
-```
+# ```

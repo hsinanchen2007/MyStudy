@@ -1,6 +1,6 @@
-思路：建立一个hash统计当前窗口内的字符的数量，当窗口右侧拓展时对应字符数量增加，当窗口左侧收缩时对应字符数量减少
+// 思路：建立一个hash统计当前窗口内的字符的数量，当窗口右侧拓展时对应字符数量增加，当窗口左侧收缩时对应字符数量减少
 
-```
+// ```
 #define MAX_CHAR 256
 int Max(int a, int b)
 {
@@ -26,4 +26,4 @@ int lengthOfLongestSubstring(char * s){
     return maxLen;
 
 }
-```
+// ```

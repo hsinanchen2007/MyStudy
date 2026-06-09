@@ -1,7 +1,7 @@
-一直在苦恼复制子树怎么快速做到
-然后突然意识到其实共用子树的话，外部程序其实是检查不出来节点是被共用了的
-这样就很简单了
-```
+# 一直在苦恼复制子树怎么快速做到
+# 然后突然意识到其实共用子树的话，外部程序其实是检查不出来节点是被共用了的
+# 这样就很简单了
+# ```
 class Solution(object):
     def generateTrees(self, n):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                     nt.right = rv
                     result.append(nt)
         return result
-```
+# ```

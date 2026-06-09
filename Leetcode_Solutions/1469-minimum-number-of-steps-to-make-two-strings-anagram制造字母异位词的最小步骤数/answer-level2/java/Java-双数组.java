@@ -1,9 +1,9 @@
-# 思路
-分别统计s和t中 各个字母出现次数。
-再将相同字母的差值的绝对值累加，最后除以2即可。
+// # 思路
+// 分别统计s和t中 各个字母出现次数。
+// 再将相同字母的差值的绝对值累加，最后除以2即可。
 
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     public int minSteps(String s, String t) {
         int[] char_s = new int[26], char_t = new int[26];
@@ -18,4 +18,4 @@ class Solution {
         return res >> 1;
     }
 }
-```
+// ```

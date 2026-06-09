@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-对于值不确定的不用在构造函数中初始化。
-**搜索找到后，才替换，否则就是直接用原来的。**
-`  可变字符串 StringBuilder`
-String转换为字符数组。`word.toCharArray()`
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 对于值不确定的不用在构造函数中初始化。
+// **搜索找到后，才替换，否则就是直接用原来的。**
+// `  可变字符串 StringBuilder`
+// String转换为字符数组。`word.toCharArray()`
+// ### 代码
 
-```java
+// ```java
 class Solution {
     class TrieNode{
         String word;
@@ -46,4 +46,4 @@ class Solution {
     }
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-增加辅助层数参数。
+# ### 解题思路
+# 增加辅助层数参数。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
                 
         helper(root,1)
         return levels
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func containsDuplicate(nums []int) bool {
     var i int
     var mapper map[int]int
@@ -12,4 +12,4 @@ func containsDuplicate(nums []int) bool {
     }
     return false
 }
-```
+// ```

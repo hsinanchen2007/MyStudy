@@ -1,9 +1,9 @@
-### 解题思路
-所有解题思路都在  f[i,j]=f[i-1,j-1]+f[i-1,j-1]
+// ### 解题思路
+// 所有解题思路都在  f[i,j]=f[i-1,j-1]+f[i-1,j-1]
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
       public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> list =new ArrayList<>();
@@ -31,4 +31,4 @@ class Solution {
         return list;
       }
 }
-```
+// ```

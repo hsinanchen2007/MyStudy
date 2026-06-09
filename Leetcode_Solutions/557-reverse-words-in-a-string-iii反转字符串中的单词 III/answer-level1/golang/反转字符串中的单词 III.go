@@ -1,9 +1,9 @@
-### 解题思路
-so easy
+// ### 解题思路
+// so easy
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func reverseWord(s string) string {
 	var ret []byte
@@ -22,4 +22,4 @@ func reverseWords(s string) string {
 
 	return strings.Join(temp, " ")
 }
-```
+// ```

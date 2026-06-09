@@ -1,9 +1,9 @@
-### 解题思路
-直接Arrays.binarySearch查找，岂不美哉
+// ### 解题思路
+// 直接Arrays.binarySearch查找，岂不美哉
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         int[] res = new int[nums.length];
@@ -19,4 +19,4 @@ class Solution {
         return l;
     }
 }
-```
+// ```

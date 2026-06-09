@@ -1,25 +1,25 @@
-本题比较复杂的就是要考虑括号中套括号的情况，其实遇到这种情况第一反应就是要使用栈来进行解答。使用两个栈，一个用来存储数字，另一个用来存储当前的字符串（当遇到‘[‘时存入，当遇到]时要弹出与【】内的字符串组成新的字符串）。下面的代码写了遇到四种情况。
-**接下来来个例子："3[a]2[b4[F]c]"**
-1：数字3。3入栈此时，num=3，numStack = “”， StringStack = “”；
-2：左括号。将num入栈，将sb入栈，num=0，numStack = 3， StringStack = “”
-3.： a。将字母添加进sb，其他不变，sb为a
-4.右括号。将【】中的与之前的字符串（字符串栈中）组合起来，newString = aaa,oldString = "";
-sb=aaa,
-**一个坑**：这里我想大家就会有个疑问了，为什么在遇到左括号时清空num，而不是在右括号之后清空num呢。
-**考虑这个例子**："2[ab3[cd]]4[xy]"，如果不在遇到左括号时就将数字清空，当我们到第二个左括号时，num已经变成了23，所以需要遇到左括号就清空一下num，也符合我们的题意，num后面就会紧跟着【】，所以这个num只和【】中的字母有关系。下次在遇到【】时，必须要让【】只匹配他前面，再往前的不匹配。所以要遇到【，就要将num清空。
-**第二个坑**：为什么我们不在遇到右括号处理之后就把结果压入栈中呢，理由如下：因为我们只有遇到左括号才能说明，当前的sb是与后面的左括号以后的字符串是并列关系，只有这时才会分oldString与newString。
-话不多说我们继续往下走
-5.数字2，num = 2，numStack = “”，StringStack =“”, 
-6.左括号，numStack=2，sb入栈，StringStack=aaa，num=0，sb=“”
-7.b，sb=b，其他不变
-8.4，num=4，其他不变
-9.左括号，numStack={2，4}，StringStack={aaa，b}，sb=“”，num=0
-10.F，sb=F，其他不变
-11.右括号，numStack出栈，与F组合newString为FFFF（二次元莫名喜感），弹出StringStack的栈顶（b）为oldString，组合之后sb为bFFFF。
-12.c，sb=bFFFFc
-13.右括号，numStack出栈（2），组合厚度newString就是bFFFFcbFFFFc，oldString为aaa。组合之后为aaabFFFFcbFFFFc。
-返回aaabFFFFc。好累，但是这个例子比较好，你说不好？？？我不要你觉得，我要我觉得。
-```java
+// 本题比较复杂的就是要考虑括号中套括号的情况，其实遇到这种情况第一反应就是要使用栈来进行解答。使用两个栈，一个用来存储数字，另一个用来存储当前的字符串（当遇到‘[‘时存入，当遇到]时要弹出与【】内的字符串组成新的字符串）。下面的代码写了遇到四种情况。
+// **接下来来个例子："3[a]2[b4[F]c]"**
+// 1：数字3。3入栈此时，num=3，numStack = “”， StringStack = “”；
+// 2：左括号。将num入栈，将sb入栈，num=0，numStack = 3， StringStack = “”
+// 3.： a。将字母添加进sb，其他不变，sb为a
+// 4.右括号。将【】中的与之前的字符串（字符串栈中）组合起来，newString = aaa,oldString = "";
+// sb=aaa,
+// **一个坑**：这里我想大家就会有个疑问了，为什么在遇到左括号时清空num，而不是在右括号之后清空num呢。
+// **考虑这个例子**："2[ab3[cd]]4[xy]"，如果不在遇到左括号时就将数字清空，当我们到第二个左括号时，num已经变成了23，所以需要遇到左括号就清空一下num，也符合我们的题意，num后面就会紧跟着【】，所以这个num只和【】中的字母有关系。下次在遇到【】时，必须要让【】只匹配他前面，再往前的不匹配。所以要遇到【，就要将num清空。
+// **第二个坑**：为什么我们不在遇到右括号处理之后就把结果压入栈中呢，理由如下：因为我们只有遇到左括号才能说明，当前的sb是与后面的左括号以后的字符串是并列关系，只有这时才会分oldString与newString。
+// 话不多说我们继续往下走
+// 5.数字2，num = 2，numStack = “”，StringStack =“”, 
+// 6.左括号，numStack=2，sb入栈，StringStack=aaa，num=0，sb=“”
+// 7.b，sb=b，其他不变
+// 8.4，num=4，其他不变
+// 9.左括号，numStack={2，4}，StringStack={aaa，b}，sb=“”，num=0
+// 10.F，sb=F，其他不变
+// 11.右括号，numStack出栈，与F组合newString为FFFF（二次元莫名喜感），弹出StringStack的栈顶（b）为oldString，组合之后sb为bFFFF。
+// 12.c，sb=bFFFFc
+// 13.右括号，numStack出栈（2），组合厚度newString就是bFFFFcbFFFFc，oldString为aaa。组合之后为aaabFFFFcbFFFFc。
+// 返回aaabFFFFc。好累，但是这个例子比较好，你说不好？？？我不要你觉得，我要我觉得。
+// ```java
 class Solution {
     //使用两个栈（存储数字和字符串，每次遇到]，应该先使用最新的数字，所以使用先进后出的栈）
     //有四种情况：
@@ -80,4 +80,4 @@ class Solution {
         return sb.toString();  
     }
 }
-```
+// ```

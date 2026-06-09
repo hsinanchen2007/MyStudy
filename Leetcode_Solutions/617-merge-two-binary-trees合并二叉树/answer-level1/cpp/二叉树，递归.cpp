@@ -1,17 +1,17 @@
-### 解题思路
-二叉树的解法大部分都是和递归是有关系的。
-我们可以通过递归来求解。
+// ### 解题思路
+// 二叉树的解法大部分都是和递归是有关系的。
+// 我们可以通过递归来求解。
 
-左边的树，节点为l1，右边的树，节点为l2；
-列出本题的关系：
-l1->val   = l1->val + l2->val;
-l1->left  = l1->left + l2->left;
-l1->right = l1->right + l2->right;
-这样的话，递归就很好写了。
+// 左边的树，节点为l1，右边的树，节点为l2；
+// 列出本题的关系：
+// l1->val   = l1->val + l2->val;
+// l1->left  = l1->left + l2->left;
+// l1->right = l1->right + l2->right;
+// 这样的话，递归就很好写了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ public:
         return t1;
     }
 };
-```
+// ```

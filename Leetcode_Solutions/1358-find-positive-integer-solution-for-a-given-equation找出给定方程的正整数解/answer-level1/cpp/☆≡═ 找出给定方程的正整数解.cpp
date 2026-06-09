@@ -1,5 +1,5 @@
-双指针
-```
+// 双指针
+// ```
 class Solution {
 public:
     vector<vector<int>> findSolution(CustomFunction& customfunction, const int z) {
@@ -18,10 +18,10 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-二分查找
-```
+// 二分查找
+// ```
 class Solution {
 public:
     vector<vector<int>> findSolution(CustomFunction& customfunction, const int z) {
@@ -45,4 +45,4 @@ public:
         return ans;
     }
 };
-```
+// ```

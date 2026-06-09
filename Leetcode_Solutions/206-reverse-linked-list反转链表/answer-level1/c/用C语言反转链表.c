@@ -1,9 +1,9 @@
-### 解题思路
-题目没有说明链表的长度，那么就要讨论链表的情况，我分为空链表、长度为1的链表、长度为2的链表、长度大于等于3的链表。
+// ### 解题思路
+// 题目没有说明链表的长度，那么就要讨论链表的情况，我分为空链表、长度为1的链表、长度为2的链表、长度大于等于3的链表。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -65,4 +65,4 @@ struct ListNode* reverseList(struct ListNode* head) {
 	}
 	return temp_pre;
 }
-```
+// ```

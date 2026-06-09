@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def myAtoi(self, str: str) -> int:
         str2 = str.strip()
@@ -29,5 +29,5 @@ class Solution:
         except ValueError:
             return(0)
 
-```
-此题的解法难点在于理清题目中可能存在的所有情况
+# ```
+# 此题的解法难点在于理清题目中可能存在的所有情况

@@ -1,11 +1,11 @@
 
-#### 执行结果
+// #### 执行结果
 
-![1573458662234-image.png](https://pic.leetcode-cn.com/66d45ee0d3b6635fce9eac976230f04e4d80e84e75ad4d47a0bd3cf0269e456b-1573458662234-image.png)
+// ![1573458662234-image.png](https://pic.leetcode-cn.com/66d45ee0d3b6635fce9eac976230f04e4d80e84e75ad4d47a0bd3cf0269e456b-1573458662234-image.png)
 
 
-#### 代码如下
-```
+// #### 代码如下
+// ```
 class Solution {
     public String validIPAddress(String ip) {
         if(validateV4(ip)){
@@ -198,5 +198,5 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 

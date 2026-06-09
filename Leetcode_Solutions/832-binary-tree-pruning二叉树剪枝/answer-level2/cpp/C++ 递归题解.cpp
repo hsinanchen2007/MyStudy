@@ -1,9 +1,9 @@
-### 解题思路
-递归过程中边修改子数，边返回子数中1的个数
+// ### 解题思路
+// 递归过程中边修改子数，边返回子数中1的个数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,6 +31,6 @@ public:
         return *pnode;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/443077f38e290c711189c29256386236acd2c0c77f48b6fd0f9a54fdebbaf3fe-image.png)
+// ![image.png](https://pic.leetcode-cn.com/443077f38e290c711189c29256386236acd2c0c77f48b6fd0f9a54fdebbaf3fe-image.png)

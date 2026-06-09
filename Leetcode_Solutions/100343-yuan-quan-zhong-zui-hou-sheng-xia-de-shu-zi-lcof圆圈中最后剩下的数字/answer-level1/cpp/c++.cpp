@@ -1,9 +1,9 @@
-自己实现超时了，
-学习甜姨的解法。。。太妙了
+// 自己实现超时了，
+// 学习甜姨的解法。。。太妙了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lastRemaining(int n, int m) {
@@ -15,4 +15,4 @@ public:
        return result;
     }
 };
-```
+// ```

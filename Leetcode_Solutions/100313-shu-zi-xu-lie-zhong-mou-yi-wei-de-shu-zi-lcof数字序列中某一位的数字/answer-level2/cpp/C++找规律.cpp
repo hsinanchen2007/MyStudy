@@ -1,9 +1,9 @@
-### 解题思路
-注意强制转换
+// ### 解题思路
+// 注意强制转换
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findNthDigit(int n) {
@@ -28,4 +28,4 @@ public:
         return num/pow(10,k-m);
     }
 };
-```
+// ```

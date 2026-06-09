@@ -1,5 +1,5 @@
-不知道怎么回事，本地可以运行，到这边就运行异常
-```
+// 不知道怎么回事，本地可以运行，到这边就运行异常
+// ```
 public static boolean uniqueOccurrences(int[] arr) {
         Map<Integer,Integer> map = new HashMap<>();
         for(int i=0;i<arr.length;i++){
@@ -19,4 +19,4 @@ public static boolean uniqueOccurrences(int[] arr) {
         }
         return false;
     }
-```
+// ```

@@ -1,6 +1,6 @@
-- 方法一
-利用双链表构建栈。
-```c
+// - 方法一
+// 利用双链表构建栈。
+// ```c
 typedef struct node{
     int val;
     struct node* next;
@@ -56,6 +56,6 @@ int calPoints(char ** ops, int opsSize){
     free(stack);
     return sum;
 }
-```
-- 方法二
-利用数组构建栈。（待更）
+// ```
+// - 方法二
+// 利用数组构建栈。（待更）

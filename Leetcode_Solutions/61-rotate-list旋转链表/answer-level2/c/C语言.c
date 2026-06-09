@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode * moveone(struct ListNode *head){
     struct ListNode *pre=head;
     struct ListNode *cur=head;
@@ -25,4 +25,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
     }
     return head;
 }
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-优先级队列中存储的是nums的索引值，通过比较nums[i]大小来获取优先级队列，这就需要自定义比较函数  
-在定义比较函数cmp的时候，由于函数中比较的部分要求是全局变量，而nums是局部变量，所以通过设置静态变量将局部变量nums转化为全局变量array。  
-注意，在leetcode中，使用静态变量要十分小心，每次使用前尽量重新赋值，避免出错，具体原因如下  
+// ### 解题思路
+// 优先级队列中存储的是nums的索引值，通过比较nums[i]大小来获取优先级队列，这就需要自定义比较函数  
+// 在定义比较函数cmp的时候，由于函数中比较的部分要求是全局变量，而nums是局部变量，所以通过设置静态变量将局部变量nums转化为全局变量array。  
+// 注意，在leetcode中，使用静态变量要十分小心，每次使用前尽量重新赋值，避免出错，具体原因如下  
   
-![image.png](https://pic.leetcode-cn.com/e37972602ea6365eb2de3fcb99d562b191aead0d1d9b1dc3d587d70761976a9a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e37972602ea6365eb2de3fcb99d562b191aead0d1d9b1dc3d587d70761976a9a-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 class Solution {
 public:
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

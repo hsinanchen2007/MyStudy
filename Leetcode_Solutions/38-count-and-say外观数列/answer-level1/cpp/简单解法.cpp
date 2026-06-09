@@ -1,5 +1,5 @@
-![微信图片_20200331170007.png](https://pic.leetcode-cn.com/bd059cf8e7ccccbe902ac8c03f5dc5d942b2d4b9f5926d18c1d451c2b16a5638-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200331170007.png)
-```
+// ![微信图片_20200331170007.png](https://pic.leetcode-cn.com/bd059cf8e7ccccbe902ac8c03f5dc5d942b2d4b9f5926d18c1d451c2b16a5638-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200331170007.png)
+// ```
 class Solution {
 public:
     string countAndSay(int n) 
@@ -41,4 +41,4 @@ public:
         }
     }
 };
-```
+// ```

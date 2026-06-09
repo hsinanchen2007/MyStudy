@@ -1,8 +1,8 @@
-### 解题思路
-# 本人水平有限，没想到位运算，查看了大神的思路写的
-### 代码
+// ### 解题思路
+// # 本人水平有限，没想到位运算，查看了大神的思路写的
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         long bitLow = 0;//低64位
@@ -30,4 +30,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
 
-从只剩一张牌拿起。
-注意是交替拿。
-最后dp[0]即为玩家一和玩家二的分数差
-```
+// 从只剩一张牌拿起。
+// 注意是交替拿。
+// 最后dp[0]即为玩家一和玩家二的分数差
+// ```
 #define MAX(X,Y) (X > Y ? X : Y)
 bool PredictTheWinner(int* nums, int numsSize){
 	
@@ -23,10 +23,10 @@ bool PredictTheWinner(int* nums, int numsSize){
 	
 	return dp[0][numsSize - 1] >= 0;
 }
-```
-空间优化
-用left 作为索引， right = left + d;
-```
+// ```
+// 空间优化
+// 用left 作为索引， right = left + d;
+// ```
 #define MAX(X,Y) (X > Y ? X : Y)
 bool PredictTheWinner(int* nums, int numsSize){
 	
@@ -49,5 +49,5 @@ bool PredictTheWinner(int* nums, int numsSize){
 	
 	return dp[0] >= 0;
 }
-```
+// ```
 

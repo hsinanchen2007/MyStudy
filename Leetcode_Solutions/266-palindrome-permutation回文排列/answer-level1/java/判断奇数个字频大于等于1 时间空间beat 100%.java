@@ -1,4 +1,4 @@
-```
+// ```
     public boolean canPermutePalindrome(String s) {
         int[] map = new int[128]; //ASCII码128个
 
@@ -17,4 +17,4 @@
         if (res<=1) return true;
         else return false;
     }
-```
+// ```

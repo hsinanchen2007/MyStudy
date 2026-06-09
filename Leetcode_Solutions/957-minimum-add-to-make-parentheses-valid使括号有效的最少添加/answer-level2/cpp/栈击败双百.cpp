@@ -1,9 +1,9 @@
-### 解题思路
-栈击败双百
+// ### 解题思路
+// 栈击败双百
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minAddToMakeValid(string S) {
@@ -19,4 +19,4 @@ public:
         return sta.size();
     }
 };
-```
+// ```

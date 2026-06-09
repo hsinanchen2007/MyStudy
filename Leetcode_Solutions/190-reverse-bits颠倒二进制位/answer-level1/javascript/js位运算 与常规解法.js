@@ -1,5 +1,5 @@
-padStart(32, 0)
-```js
+// padStart(32, 0)
+// ```js
 /** 常规解法
  * @param {number} n - a positive integer
  * @return {number} - a positive integer
@@ -20,4 +20,4 @@ var reverseBits = function(n) {
     }
     return res;
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-简单暴力的方法，用第一个字符串的字母依次去跟后面的比较。
-注意控制标识，及时跳出循环
+// ### 解题思路
+// 简单暴力的方法，用第一个字符串的字母依次去跟后面的比较。
+// 注意控制标识，及时跳出循环
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string}
@@ -26,4 +26,4 @@ var longestCommonPrefix = function(strs) {
     }
     return s;
 };
-```
+// ```

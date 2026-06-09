@@ -1,5 +1,5 @@
-思路：就是借鉴官方的思路，后序遍历
-```php
+// 思路：就是借鉴官方的思路，后序遍历
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -37,4 +37,4 @@ class Solution {
         return $lv+$rv+$root->val;
     }
 }
-```
+// ```

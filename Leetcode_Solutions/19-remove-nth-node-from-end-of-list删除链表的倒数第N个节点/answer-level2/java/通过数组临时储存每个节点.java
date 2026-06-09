@@ -1,5 +1,5 @@
-通过数组存储每个节点，删除位置如果删除头节点或者链表的长度为1需要进行额外判断
-```Java
+// 通过数组存储每个节点，删除位置如果删除头节点或者链表的长度为1需要进行额外判断
+// ```Java
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         List<ListNode> list = new ArrayList<>();
@@ -18,4 +18,4 @@ class Solution {
         return list.get(0);
     }
 }
-```
+// ```

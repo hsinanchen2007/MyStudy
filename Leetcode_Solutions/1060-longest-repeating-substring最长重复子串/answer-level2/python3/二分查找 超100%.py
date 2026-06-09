@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def longestRepeatingSubstring(self, S: str) -> int:
         
@@ -19,4 +19,4 @@ class Solution:
                 else:
                     right = mid-1
         return 0
-```
+# ```

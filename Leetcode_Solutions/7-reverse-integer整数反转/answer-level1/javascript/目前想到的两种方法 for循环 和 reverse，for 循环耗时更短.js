@@ -1,9 +1,9 @@
-### 解题思路
-for 循环
-数字转为字符串 => 通过for 循环从大到小依次拿取值放入新的变量里 => 添加正负 => 是否整数溢出 => 返回值
-### 代码
+// ### 解题思路
+// for 循环
+// 数字转为字符串 => 通过for 循环从大到小依次拿取值放入新的变量里 => 添加正负 => 是否整数溢出 => 返回值
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -20,11 +20,11 @@ var reverse = function(x) {
     }
     return result;
 };
-```
-### 解题思路
-reverse 反转数组。
-数字 => 字符串 => 数组 => 反转数组 => 添加正负 => 是否整数溢出 => 返回值
-```javascript
+// ```
+// ### 解题思路
+// reverse 反转数组。
+// 数字 => 字符串 => 数组 => 反转数组 => 添加正负 => 是否整数溢出 => 返回值
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -36,4 +36,4 @@ var reverse = function(x) {
     }
     return result;
 };
-```
+// ```

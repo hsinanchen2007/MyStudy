@@ -1,5 +1,5 @@
 
-```
+// ```
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         var p = l1
         var q = l2
@@ -25,6 +25,6 @@
         }
         return head.next//为什么返回 head.next？ 因为head的头节点是0
     }
-```
-![WX20200409-151625@2x.png](https://pic.leetcode-cn.com/a67a7ce41deddd38bb998812e86732ad9c7ee18aeb1cd2eda1dc1ff5ce94c203-WX20200409-151625@2x.png)
+// ```
+// ![WX20200409-151625@2x.png](https://pic.leetcode-cn.com/a67a7ce41deddd38bb998812e86732ad9c7ee18aeb1cd2eda1dc1ff5ce94c203-WX20200409-151625@2x.png)
 

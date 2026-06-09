@@ -1,9 +1,9 @@
-### 解题思路
-由于链表不适合索引、交换等操作，故使用并归排序。
+// ### 解题思路
+// 由于链表不适合索引、交换等操作，故使用并归排序。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -53,4 +53,4 @@ class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```

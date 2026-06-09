@@ -1,9 +1,9 @@
-### 解题思路
-python的判断字母数字混合以及统一大小写函数很好用...
+# ### 解题思路
+# python的判断字母数字混合以及统一大小写函数很好用...
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         s = s.lower()
@@ -24,4 +24,4 @@ class Solution:
             else:
                 return False
 
-```
+# ```

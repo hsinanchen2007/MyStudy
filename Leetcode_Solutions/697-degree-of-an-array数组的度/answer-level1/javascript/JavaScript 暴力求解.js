@@ -1,10 +1,10 @@
-### 解题思路
-* 通过Map（）数据结构，通过循环得到值的最大频率；
-* 两次次数相等之时，既可以计算最小数组长度, 
+// ### 解题思路
+// * 通过Map（）数据结构，通过循环得到值的最大频率；
+// * 两次次数相等之时，既可以计算最小数组长度, 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -33,4 +33,4 @@ var findShortestSubArray = function(nums) {
 };
 
 
-```
+// ```

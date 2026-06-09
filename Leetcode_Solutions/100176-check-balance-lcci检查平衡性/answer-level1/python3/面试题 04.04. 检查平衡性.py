@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
         def f(r):
@@ -9,4 +9,4 @@ class Solution:
                 return ansleft and ansright and abs(hleft - hright) <= 1, max(hleft, hright) + 1
             return True, 0
         return f(root)[0]
-```
+# ```

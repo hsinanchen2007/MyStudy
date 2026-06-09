@@ -1,5 +1,5 @@
-只想到了这个笨办法，1ms，击败98.56%，还行吧
-```
+// 只想到了这个笨办法，1ms，击败98.56%，还行吧
+// ```
 class Solution {
     public String countAndSay(int n) {
         if(n==1)return "1";
@@ -34,4 +34,4 @@ class Solution {
         
     }
 }
-```
+// ```

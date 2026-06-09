@@ -1,9 +1,9 @@
-### 解题思路
-利用滑动窗口的思路，每次更新最大值时，存储差价，每次遇到最小值时，初始化最大值
+# ### 解题思路
+# 利用滑动窗口的思路，每次更新最大值时，存储差价，每次遇到最小值时，初始化最大值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -28,4 +28,4 @@ class Solution(object):
         return max(l)
             
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-就不递归，😒
+// ### 解题思路
+// 就不递归，😒
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func sumRootToLeaf(_ root: TreeNode?) -> Int {
 
@@ -43,4 +43,4 @@ class Solution {
     }
 
 }
-```
+// ```

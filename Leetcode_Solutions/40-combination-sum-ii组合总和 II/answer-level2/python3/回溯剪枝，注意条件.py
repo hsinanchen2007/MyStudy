@@ -1,9 +1,9 @@
-### 解题思路
- target-candidates[i]<0就剪枝，path加入res 去重
+# ### 解题思路
+#  target-candidates[i]<0就剪枝，path加入res 去重
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         if not candidates:
@@ -26,4 +26,4 @@ class Solution:
 
         dfs(candidates, 0, len(candidates), target, [], res)
         return res
-```
+# ```

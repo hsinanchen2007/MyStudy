@@ -1,12 +1,12 @@
-### 解题思路
-1. 写find函数
-2. 初始化find数组
-3. 合并父节点
-4. 计算不同祖先节点数量
+// ### 解题思路
+// 1. 写find函数
+// 2. 初始化find数组
+// 3. 合并父节点
+// 4. 计算不同祖先节点数量
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int *F;
 int *circle;
 
@@ -51,4 +51,4 @@ int findCircleNum(int** M, int MSize, int* MColSize){
     free(circle);
     return count;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-java 1ms答案
-先计算出一共有多少个(num个)字符串并生成这些空串(StringBuilder),然后遍历数字序列,对于每个数字都遍历一次所有字符串,在字符串末尾添加一个字母.
-currnum初始化为num,对于每个数字,currnum/=3或4.当遍历到第j个字符串,j可被currnum除尽时,向字符串末尾添加的字母变为按键的下一个字母(已经是最后一个字母则为第一个字母),这里用p作为指针.
-### 代码
+// ### 解题思路
+// java 1ms答案
+// 先计算出一共有多少个(num个)字符串并生成这些空串(StringBuilder),然后遍历数字序列,对于每个数字都遍历一次所有字符串,在字符串末尾添加一个字母.
+// currnum初始化为num,对于每个数字,currnum/=3或4.当遍历到第j个字符串,j可被currnum除尽时,向字符串末尾添加的字母变为按键的下一个字母(已经是最后一个字母则为第一个字母),这里用p作为指针.
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> letterCombinations(String digits) {
         int len=digits.length();
@@ -50,4 +50,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

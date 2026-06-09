@@ -1,7 +1,7 @@
-原字符串 s 和反转字符串 t：dp[i][j] 表示 s 的前 i 位和 t 的前 j 位中，相同数字的个数。
+# 原字符串 s 和反转字符串 t：dp[i][j] 表示 s 的前 i 位和 t 的前 j 位中，相同数字的个数。
 
 
-```python
+# ```python
 class Solution:
     def isValidPalindrome(self, s: str, k: int) -> bool:
         t = s[::-1]
@@ -16,4 +16,4 @@ class Solution:
                     dp[i][j] = max(dp[i][j-1], dp[i-1][j])
         
         return dp[L][L] + k >= L
-```
+# ```

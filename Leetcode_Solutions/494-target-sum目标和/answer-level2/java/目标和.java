@@ -1,11 +1,11 @@
-### 解题思路
-1,关键是转换问题，找到和为（sum-S）/2的所有方法数。
-2.分析数组中为零的情况，而再找动态规划dp值的依赖关系时，dp[i][j]=dp[i-1][j]+[i-1]dp[j-nums[i]]
-    只与上一层有关系，nums[i]要么加上去，要么不加。
-3.java中幂函数求解：(int)Math.pow(2,count)；
-### 代码
+// ### 解题思路
+// 1,关键是转换问题，找到和为（sum-S）/2的所有方法数。
+// 2.分析数组中为零的情况，而再找动态规划dp值的依赖关系时，dp[i][j]=dp[i-1][j]+[i-1]dp[j-nums[i]]
+//     只与上一层有关系，nums[i]要么加上去，要么不加。
+// 3.java中幂函数求解：(int)Math.pow(2,count)；
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findTargetSumWays(int[] nums, int S) {
         int sum=0,count=0;
@@ -33,4 +33,4 @@ class Solution {
         return dp[target];
     }
 }
-```
+// ```

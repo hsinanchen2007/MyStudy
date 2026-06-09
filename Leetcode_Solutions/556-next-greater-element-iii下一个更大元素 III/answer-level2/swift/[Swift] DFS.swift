@@ -1,4 +1,4 @@
-```swift
+// ```swift
 extension Int {
     func toArray() -> [Int] {
         var ans = [Int]()
@@ -93,4 +93,4 @@ class Solution {
     }
 }
 
-```
+// ```

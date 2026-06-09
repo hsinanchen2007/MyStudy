@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def removeElements(self, head, val):
         """
@@ -20,7 +20,7 @@ class Solution(object):
                         pointer_1.next=None
         return head
     
-```
+# ```
 
-# 代码块
-```
+# # 代码块
+# ```

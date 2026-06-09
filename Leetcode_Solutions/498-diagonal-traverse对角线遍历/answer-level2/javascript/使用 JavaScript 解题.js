@@ -1,13 +1,13 @@
 
-![javascript.jpg](https://pic.leetcode-cn.com/4ebeae6d9886343826895f48dc0344d39b3bca748392006121b4d48835757240-javascript.jpg)
+// ![javascript.jpg](https://pic.leetcode-cn.com/4ebeae6d9886343826895f48dc0344d39b3bca748392006121b4d48835757240-javascript.jpg)
 
-<br />
+// <br />
 
-> 这道题没啥, 就是找规律
+// > 这道题没啥, 就是找规律
 
-<br />
+// <br />
 
-```
+// ```
 当 m=3, n=3 时
 (0, 0)  m+n=0  正序
 
@@ -22,11 +22,11 @@
 (2, 1)
 
 (2, 2)  m+n=4  正序
-```
+// ```
 
-<br />
+// <br />
 
-```js
+// ```js
 const findDiagonalOrder = arr => {
   if (arr.length === 0) return []
   const newArr = []
@@ -42,4 +42,4 @@ const findDiagonalOrder = arr => {
   }
   return newArr
 }
-```
+// ```

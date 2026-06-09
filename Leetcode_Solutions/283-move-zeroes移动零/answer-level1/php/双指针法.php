@@ -1,12 +1,12 @@
-### 解题思路
-双指针，fast 用来遍历数组，slow 表示最后一个 0 的下标（初始时不一定）
+// ### 解题思路
+// 双指针，fast 用来遍历数组，slow 表示最后一个 0 的下标（初始时不一定）
 
-1. 当 fast 遇到 0 时，fast++, slow 不变
-2. 当 fast 不是 0 时，如果 slow 是 0 且 slow<fast, 交换 fast,slow 两元素。此时 slow 非零，slow++
+// 1. 当 fast 遇到 0 时，fast++, slow 不变
+// 2. 当 fast 不是 0 时，如果 slow 是 0 且 slow<fast, 交换 fast,slow 两元素。此时 slow 非零，slow++
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -31,4 +31,4 @@ class Solution {
         }
     }
 }
-```
+// ```

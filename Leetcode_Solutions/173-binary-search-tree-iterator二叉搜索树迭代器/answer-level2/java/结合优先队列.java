@@ -1,4 +1,4 @@
-```
+// ```
 class BSTIterator {
     Queue<Integer>ls = new PriorityQueue<Integer>();
 
@@ -23,7 +23,7 @@ class BSTIterator {
         else return true;
     }
 }
-```
-通过递归把所有结点存储到里面
-通过一个优先队列进行存储数据 然后每一次读数据都是输出第一个结点
+// ```
+// 通过递归把所有结点存储到里面
+// 通过一个优先队列进行存储数据 然后每一次读数据都是输出第一个结点
 

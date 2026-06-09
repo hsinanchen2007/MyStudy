@@ -1,5 +1,5 @@
-回溯求解
-```
+// 回溯求解
+// ```
 class Solution {
 public:
     int totalNQueens(int n) {
@@ -38,4 +38,4 @@ public:
         return true;
     }
 };
-```
+// ```

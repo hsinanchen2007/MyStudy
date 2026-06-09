@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hasGroupsSizeX(deck []int) bool {
     var count = make(map[int]int,0)
     // 计数数字出现的个数
@@ -38,4 +38,4 @@ func MaxFactor(x,y int) int{
 		return y
 	}
 }
-```
+// ```

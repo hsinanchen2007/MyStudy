@@ -1,6 +1,6 @@
-题解给的java代码好像有问题,除法的时候要特别注意四舍五入
+// 题解给的java代码好像有问题,除法的时候要特别注意四舍五入
 
-``` Java
+// ``` Java
 class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
         if (nums.length == 0) {
@@ -21,4 +21,4 @@ class Solution {
         return tree;
     }
 }
-```
+// ```

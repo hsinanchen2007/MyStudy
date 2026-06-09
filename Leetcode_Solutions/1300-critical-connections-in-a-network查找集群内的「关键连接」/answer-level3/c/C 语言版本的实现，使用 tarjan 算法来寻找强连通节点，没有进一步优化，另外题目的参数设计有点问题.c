@@ -1,8 +1,8 @@
-C 语言版本的实现，使用 tarjan 算法来寻找强连通节点，没有进一步优化，另外题目的参数设计有点问题：
-- connectionsColSize: 没有意义, 各个值都是 2
-- returnColumnSizes: 同上
+// C 语言版本的实现，使用 tarjan 算法来寻找强连通节点，没有进一步优化，另外题目的参数设计有点问题：
+// - connectionsColSize: 没有意义, 各个值都是 2
+// - returnColumnSizes: 同上
 
-```c
+// ```c
 typedef struct Stack {
 	int current;
 	int length;
@@ -186,4 +186,4 @@ int** criticalConnections(int n, int** connections, int connectionsSize, int* co
 	*returnColumnSizes = criticalColumnSizes;
 	return criticalResult;
 }
-```
+// ```

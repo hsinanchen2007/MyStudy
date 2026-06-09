@@ -1,5 +1,5 @@
-代码写的比较乱，因为尽可能减少直接拼接字符串浪费时间空间 可以算是又臭又长
-```
+// 代码写的比较乱，因为尽可能减少直接拼接字符串浪费时间空间 可以算是又臭又长
+// ```
 class Solution {
   Map<Integer, String> map; Map<Integer, String> danwei;
 	Solution(){
@@ -59,5 +59,5 @@ class Solution {
    return res.toString();
 	    }
 }
-```
-测试用例居然没有MIN_VALUE真是出乎意料
+// ```
+// 测试用例居然没有MIN_VALUE真是出乎意料

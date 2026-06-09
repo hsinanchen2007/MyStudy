@@ -1,9 +1,9 @@
-### 解题思路
-相当于寻找target在数组中的左右边界
+// ### 解题思路
+// 相当于寻找target在数组中的左右边界
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int search(int* nums, int numsSize, int target){
     int head,tail,mid;
     head=0;tail=numsSize-1;
@@ -37,4 +37,4 @@ int search(int* nums, int numsSize, int target){
     int right=tail;
     return tail-left+1;
 }
-```
+// ```

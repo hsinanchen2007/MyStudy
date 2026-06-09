@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/7c86cd2abff3ead5427c227b277eaca7b59d49dd4fb6da285d5041ed78586330-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/7c86cd2abff3ead5427c227b277eaca7b59d49dd4fb6da285d5041ed78586330-image.png)
 
-双指针，慢指针i指向和相邻前方字母不一样的第一次出现的字母，快指针j一直向下寻找直到找到下一个和慢指针所指向字母不一样的位置，则长度即为j-i;
+// 双指针，慢指针i指向和相邻前方字母不一样的第一次出现的字母，快指针j一直向下寻找直到找到下一个和慢指针所指向字母不一样的位置，则长度即为j-i;
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* compressString(char* S)
 {
     int len = strlen(S);
@@ -54,4 +54,4 @@ char* compressString(char* S)
     new_s[k] = '\0';
     return new_s;
 }
-```
+// ```

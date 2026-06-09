@@ -1,6 +1,6 @@
-### 递归
+# ### 递归
 
-```python
+# ```python
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
 
@@ -15,10 +15,10 @@ class Solution:
                 return False
             return dfs(left.left, right.right) and dfs(left.right, right.left)
         return dfs(root.left, root.right)
-```
+# ```
 
-### 迭代
-```python
+# ### 迭代
+# ```python
         que = [(root, root)]
         while que:
             t1, t2 = que.pop(0)
@@ -31,4 +31,4 @@ class Solution:
             que.append((t1.left, t2.right))
             que.append((t1.right, t2.left))
         return True
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 	int i, j;
 	int *ret = NULL_PTR;
@@ -16,4 +16,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 	}
 	return ret;
 }
-```
+// ```

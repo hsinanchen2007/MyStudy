@@ -1,11 +1,11 @@
-### 解题思路
-递推公式：
-    max_inc[i] = max(max_exc[i - 1] + nums[i], max_inc[i - 1])
-    max_exc[i] = max(max_inc[i - 1], max_exc[i - 1])
+# ### 解题思路
+# 递推公式：
+#     max_inc[i] = max(max_exc[i - 1] + nums[i], max_inc[i - 1])
+#     max_exc[i] = max(max_inc[i - 1], max_exc[i - 1])
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         size = len(nums)
@@ -25,4 +25,4 @@ class Solution:
             max_inc[i] = max(max_exc[i - 1] + nums[i], max_inc[i - 1])
             max_exc[i] = max(max_inc[i - 1], max_exc[i - 1])
         return max(max_inc[-1], max_exc[-1])
-```
+# ```

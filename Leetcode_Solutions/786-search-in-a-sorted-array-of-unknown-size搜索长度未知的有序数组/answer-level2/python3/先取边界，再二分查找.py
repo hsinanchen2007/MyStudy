@@ -1,9 +1,9 @@
-### 思路
-* 先找到max_left 和 min_right，确定一个合理的区间。再在这个区间里找target
-* 找到边界值后，二分就非常可靠了
-### 代码
+# ### 思路
+# * 先找到max_left 和 min_right，确定一个合理的区间。再在这个区间里找target
+# * 找到边界值后，二分就非常可靠了
+# ### 代码
 
-``` python
+# ``` python
 class Solution:
     def search(self, reader, target):
         """
@@ -28,4 +28,4 @@ class Solution:
                 right=mid
         return left if reader.get(left)==target else -1
 
-```
+# ```

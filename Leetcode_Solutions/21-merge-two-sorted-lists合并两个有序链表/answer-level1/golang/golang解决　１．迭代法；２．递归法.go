@@ -1,10 +1,10 @@
-golang解决　１．迭代法；２．递归法
+// golang解决　１．迭代法；２．递归法
 
-github:[https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github:[https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
-1.迭代法
+// 1.迭代法
 
-```go
+// ```go
 // 迭代法,归并过程
 // 时间复杂度：O(m+n)  空间复杂度：O(1)  其中，m和n分别是两个链表的长度
 
@@ -33,11 +33,11 @@ github:[https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
 	 return dummy_head.Next
 }
-```
+// ```
 
-2.递归法
+// 2.递归法
 
-```
+// ```
 // 递归法
 // 时间复杂度：O(m+n)  空间复杂度：O(m+n)  其中，m和n分别是两个链表的长度
  
@@ -58,4 +58,4 @@ github:[https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 		 return l2
 	 }
 }
-```
+// ```

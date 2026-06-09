@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * class ListNode(var _x: Int = 0) {
@@ -21,4 +21,4 @@ object Solution {
         return nodes(length / 2 + 1);
     }
 }
-```
+// ```

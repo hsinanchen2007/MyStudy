@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -31,4 +31,4 @@ var dfs = function(checked, chars, word, n){
         }
     }
 }
-```
+// ```

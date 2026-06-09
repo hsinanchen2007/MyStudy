@@ -1,10 +1,10 @@
-### 解题思路
-1、递归
-链表和树的问题，往往可以用递归的解法
+// ### 解题思路
+// 1、递归
+// 链表和树的问题，往往可以用递归的解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -23,14 +23,14 @@ class Solution {
 
     }
 }
-```
+// ```
 
-2、操作指针
-直接操作指针指向，遇到相邻两个节点值相同时，将指针后移
+// 2、操作指针
+// 直接操作指针指向，遇到相邻两个节点值相同时，将指针后移
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -52,4 +52,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

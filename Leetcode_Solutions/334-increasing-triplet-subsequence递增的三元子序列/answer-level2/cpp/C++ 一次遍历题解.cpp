@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历，不断更新3个数，直到三数满足条件为止
+// ### 解题思路
+// 一次遍历，不断更新3个数，直到三数满足条件为止
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     const long INF = 1e10;
@@ -26,6 +26,6 @@ public:
         return false;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/0af94be5460fad4407207557c1e306918cbdc46c82f09eadef7b70d539c55759-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0af94be5460fad4407207557c1e306918cbdc46c82f09eadef7b70d539c55759-image.png)

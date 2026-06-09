@@ -1,9 +1,9 @@
-### 解题思路
-先把链表串起来，把数值放到数组中，排序后返填回去。注意中间会有空值
+// ### 解题思路
+// 先把链表串起来，把数值放到数组中，排序后返填回去。注意中间会有空值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -71,4 +71,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
     }
     return lists[first];
 }
-```
+// ```

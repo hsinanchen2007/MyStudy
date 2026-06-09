@@ -1,4 +1,4 @@
-```
+// ```
 bool isEqual(char s1,char s2){ //判断两个字符是否相等的函数
     if(s1==s2)
         return 1;
@@ -38,4 +38,4 @@ bool isPalindrome(char * s){
     
     return 1;
 }
-```
+// ```

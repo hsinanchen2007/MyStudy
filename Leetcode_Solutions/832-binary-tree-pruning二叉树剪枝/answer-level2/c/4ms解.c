@@ -1,5 +1,5 @@
-我的遍历顺序是先右后左，先遍历再检查，检查下一个节点的值是否为0，下一个节点是否为叶子节点，若都满足，令下一个节点为NULL。
-```
+// 我的遍历顺序是先右后左，先遍历再检查，检查下一个节点的值是否为0，下一个节点是否为叶子节点，若都满足，令下一个节点为NULL。
+// ```
 void ss(struct TreeNode* root){
     if(!root)
         return ;
@@ -15,4 +15,4 @@ struct TreeNode* pruneTree(struct TreeNode* root){
     ss(root);
     return root;
 }
-```
+// ```

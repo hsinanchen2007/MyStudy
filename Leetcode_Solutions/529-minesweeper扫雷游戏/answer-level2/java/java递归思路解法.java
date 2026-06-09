@@ -1,6 +1,6 @@
-递归结束条件，遇到周围有雷的方格或是到达边界。
+// 递归结束条件，遇到周围有雷的方格或是到达边界。
 
-```
+// ```
 class Solution {
     public char[][] updateBoard(char[][] board, int[] click) {
     	if (board[click[0]][click[1]] == 'M') {
@@ -40,4 +40,4 @@ class Solution {
     	return num;
     }
 }
-```
+// ```

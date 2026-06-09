@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         fina=[]
@@ -13,4 +13,4 @@ class Solution:
                     return False
                 fina.append(jige)
         return True
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-Ctrl+C
+// ### 解题思路
+// Ctrl+C
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
 * Ctrl+C
 */
@@ -30,4 +30,4 @@ public class Solution {
     }
 }
 
-```
+// ```

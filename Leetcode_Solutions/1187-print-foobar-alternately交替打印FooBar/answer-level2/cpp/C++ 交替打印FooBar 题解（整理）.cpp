@@ -1,6 +1,6 @@
-# 解法1:
-    >创建两个mutex类型变量，利用其lock和unlock函数实现
-```
+// # 解法1:
+//     >创建两个mutex类型变量，利用其lock和unlock函数实现
+// ```
 class FooBar {
 private:
     int n;
@@ -31,10 +31,10 @@ public:
         }
     }
 };
-```
-# 解法2:
-    >使用atomic模板进行实现
-```
+// ```
+// # 解法2:
+//     >使用atomic模板进行实现
+// ```
 class FooBar {
 private:
     int n;
@@ -64,10 +64,10 @@ public:
         }
     }
 };
-```
-# 解法3:
-    >通过mutex和condition_variable来实现
-```
+// ```
+// # 解法3:
+//     >通过mutex和condition_variable来实现
+// ```
 class FooBar {
 private:
     int n;
@@ -107,4 +107,4 @@ private:
     std::mutex Mu;//定义一个锁
 };
 
-```
+// ```

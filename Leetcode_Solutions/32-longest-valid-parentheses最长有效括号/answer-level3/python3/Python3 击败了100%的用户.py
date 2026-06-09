@@ -1,8 +1,8 @@
-![1569050148(1).png](https://pic.leetcode-cn.com/d4c3e612a00fa1ab5384671ed84f079dbfdb51e9e50464d1bd6d283b4db9afeb-1569050148\(1\).png)
-用两个变量l和r记录左括号和右括号的次数
-当r=l时记录长度（2r）
-考虑到最后r<l时也满足要求，把字符串倒过来再遍历一次
-```
+# ![1569050148(1).png](https://pic.leetcode-cn.com/d4c3e612a00fa1ab5384671ed84f079dbfdb51e9e50464d1bd6d283b4db9afeb-1569050148\(1\).png)
+# 用两个变量l和r记录左括号和右括号的次数
+# 当r=l时记录长度（2r）
+# 考虑到最后r<l时也满足要求，把字符串倒过来再遍历一次
+# ```
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         l=r=0
@@ -31,4 +31,4 @@ class Solution:
                 elif r>l:
                     l=r=0
         return max
-```
+# ```

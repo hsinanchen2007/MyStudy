@@ -1,9 +1,9 @@
-### 解题思路
-使用sort函数对所有string进行排序，相等的就是符合要求的，存到一个vector里，然后遍历一下哈希表
+// ### 解题思路
+// 使用sort函数对所有string进行排序，相等的就是符合要求的，存到一个vector里，然后遍历一下哈希表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
@@ -28,4 +28,4 @@ public:
         return re;
     }
 };
-```
+// ```

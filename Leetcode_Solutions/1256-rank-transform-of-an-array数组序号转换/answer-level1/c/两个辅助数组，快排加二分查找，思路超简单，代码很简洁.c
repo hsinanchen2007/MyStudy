@@ -1,4 +1,4 @@
-```
+// ```
 //写了个快排，先用个数组存值排序，再用一个数组来存数字对应的序号，最后遍历原数组找到排序后的值，然后把序号赋给原数组，用到了二分查找法
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -86,4 +86,4 @@ int* arrayRankTransform(int* arr, int arrSize, int* returnSize){
     *returnSize = arrSize;
     return arr;
 }
-```
+// ```

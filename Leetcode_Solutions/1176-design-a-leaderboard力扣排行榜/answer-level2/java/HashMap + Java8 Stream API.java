@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-自从JAVA8加入了Lambda Expressions 和 Stream API后。就有了函数式编程的感觉了！ Oh Yeah...
+// 自从JAVA8加入了Lambda Expressions 和 Stream API后。就有了函数式编程的感觉了！ Oh Yeah...
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Leaderboard {
 
     Map<Integer, Integer> ranking;
@@ -38,4 +38,4 @@ class Leaderboard {
  * int param_2 = obj.top(K);
  * obj.reset(playerId);
  */
-```
+// ```

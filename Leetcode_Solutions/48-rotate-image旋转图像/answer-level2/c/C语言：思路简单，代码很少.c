@@ -1,4 +1,4 @@
-```c
+// ```c
 void swap(int* x, int* y){
     int tmp = *x;
     *x = *y;
@@ -21,4 +21,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         }
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-这道题相比较于杨辉三角1，不需要存储全部的行列表，因此，每次只要记录上一行的数据即可。
-``` Python
+# 这道题相比较于杨辉三角1，不需要存储全部的行列表，因此，每次只要记录上一行的数据即可。
+# ``` Python
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         lastlist = []
@@ -11,4 +11,4 @@ class Solution:
             lastlist = reslist
         return reslist
         
-```
+# ```

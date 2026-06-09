@@ -1,10 +1,10 @@
-### 解题思路
-1. 动态规划
-2. DFS
+# ### 解题思路
+# 1. 动态规划
+# 2. DFS
 
-### 代码
+# ### 代码
 
-```c++ []
+# ```c++ []
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -30,8 +30,8 @@ public:
 
 
 };
-```
-```java []
+# ```
+# ```java []
 class Solution {
     public int uniquePaths(int m, int n) {
         // TLE at (23, 12)
@@ -70,8 +70,8 @@ class Solution {
     private int[][] dirs = {{1, 0}, {0, 1}};
     private boolean[][] vis; 
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         if m==0 or n==0:
@@ -90,4 +90,4 @@ class Solution:
                     f[i][j] = f[i-1][j]+f[i][j-1]
 
         return f[m-1][n-1]
-```
+# ```

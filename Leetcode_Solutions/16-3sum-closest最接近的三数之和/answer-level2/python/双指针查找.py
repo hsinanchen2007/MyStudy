@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def threeSumClosest(self,n,t):
         n.sort() ;l=len(n)
@@ -33,4 +33,4 @@ class Solution(object):
                 else:#f等于t毫无疑问直接返回
                     return t
         return f
-```
+# ```

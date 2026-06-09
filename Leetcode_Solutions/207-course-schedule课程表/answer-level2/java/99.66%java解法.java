@@ -1,5 +1,5 @@
-在一个有向图中有环的话一定无法完成所有课程
-```
+// 在一个有向图中有环的话一定无法完成所有课程
+// ```
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<Integer>[] graph = new List[numCourses];
@@ -25,4 +25,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

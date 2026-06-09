@@ -1,4 +1,4 @@
-```
+// ```
 //声明排序为整型数组递增
 int inc(const void *a,const void *b){
     return *(int*)a-*(int*)b;
@@ -42,6 +42,6 @@ int threeSumClosest(int* nums, int numsSize, int target){
     }
 return threeSum;    
 }
-```
-![image.png](https://pic.leetcode-cn.com/1cfdd669cfcf4caea9179848b24a111440429b43402875bc67ea797e605ee614-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/1cfdd669cfcf4caea9179848b24a111440429b43402875bc67ea797e605ee614-image.png)
 

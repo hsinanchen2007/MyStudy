@@ -1,4 +1,4 @@
-```
+// ```
 import "strings"
 
 func CheckPermutation(s1 string, s2 string) bool {
@@ -10,6 +10,6 @@ func CheckPermutation(s1 string, s2 string) bool {
 	}
 	return true
 }
-```
+// ```
 
 

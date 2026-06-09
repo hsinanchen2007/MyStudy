@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-注意搞清楚`next`，`cur`，`last`这三个变量即可。
+# 注意搞清楚`next`，`cur`，`last`这三个变量即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
             if next == None: return cur
             return helper(cur, next)
         return helper(None, head)
-```
+# ```

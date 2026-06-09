@@ -1,4 +1,4 @@
-```
+// ```
 class MinStack {
 
     Stack<Integer> stack1;
@@ -34,7 +34,7 @@ class MinStack {
     return stack2.peek();
     }
 }
-```
-例子：
-stack1:-3，-2，-5，-4,0
-stack2:-3，-3，-5，-5，-5
+// ```
+// 例子：
+// stack1:-3，-2，-5，-4,0
+// stack2:-3，-3，-5，-5，-5

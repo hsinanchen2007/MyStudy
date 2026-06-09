@@ -1,12 +1,12 @@
 
-使用两个栈：pushStack，popStack
+// 使用两个栈：pushStack，popStack
 
-pushStack : 用来存放队列插入的元素
+// pushStack : 用来存放队列插入的元素
 
-从队列删除元素时，把pushStack中元素依次pop，然后再push到popStack中，然后执行popStack的弹出操作。
+// 从队列删除元素时，把pushStack中元素依次pop，然后再push到popStack中，然后执行popStack的弹出操作。
 
 
-```java
+// ```java
 class MyQueue {
 
     private Stack<Integer> pushStack;
@@ -58,4 +58,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

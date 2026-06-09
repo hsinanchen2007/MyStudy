@@ -1,9 +1,9 @@
-### 解题思路
-    单纯的把数值添加到map，其中map的key使用数字来填充，map的value则是该数字出现的次数
+// ### 解题思路
+//     单纯的把数值添加到map，其中map的key使用数字来填充，map的value则是该数字出现的次数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findRepeatNumber(nums []int) int {
     map_nums := make(map[int]int, len(nums))
 
@@ -19,4 +19,4 @@ func findRepeatNumber(nums []int) int {
 
     return -1
 }
-```
+// ```

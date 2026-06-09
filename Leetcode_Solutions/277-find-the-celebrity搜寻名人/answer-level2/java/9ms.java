@@ -1,4 +1,4 @@
-```java
+// ```java
 public class Solution extends Relation {
     public int findCelebrity(int n) {
         for (int i = 0; i < n; i++) {
@@ -20,4 +20,4 @@ public class Solution extends Relation {
         return -1;
     }
 }
-```
+// ```

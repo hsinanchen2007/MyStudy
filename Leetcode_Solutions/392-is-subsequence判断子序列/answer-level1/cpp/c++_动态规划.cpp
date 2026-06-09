@@ -1,5 +1,5 @@
-效率低
-```
+// 效率低
+// ```
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
@@ -30,4 +30,4 @@ public:
         return true;
     }
 };
-```
+// ```

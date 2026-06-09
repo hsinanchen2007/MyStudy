@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def minCostClimbingStairs(cost: Array[Int]): Int = {
         val dp = new Array[Int](cost.length) //建立长度为length的动态规划数组
@@ -14,4 +14,4 @@ object Solution {
         
     }
 }
-```
+// ```

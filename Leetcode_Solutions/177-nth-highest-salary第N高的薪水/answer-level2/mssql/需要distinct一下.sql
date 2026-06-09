@@ -1,4 +1,4 @@
-如果有4个人工资分别为 300 200 200 100，那100就是第3高的而不是第4高的
+-- 如果有4个人工资分别为 300 200 200 100，那100就是第3高的而不是第4高的
 CREATE FUNCTION getNthHighestSalary(@N INT) RETURNS INT AS
 BEGIN
     RETURN (

@@ -1,5 +1,5 @@
-使用递归可以更简单的实现Trie，代码量较少。
-```
+// 使用递归可以更简单的实现Trie，代码量较少。
+// ```
 struct node {
     node *ch[26];
     bool isEnd;
@@ -55,4 +55,4 @@ public:
  * bool param_2 = obj->search(word);
  * bool param_3 = obj->startsWith(prefix);
  */
-```
+// ```

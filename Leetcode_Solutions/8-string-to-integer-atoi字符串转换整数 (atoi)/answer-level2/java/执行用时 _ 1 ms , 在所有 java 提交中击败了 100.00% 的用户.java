@@ -1,9 +1,9 @@
-### 解题思路
-注解如代码
+// ### 解题思路
+// 注解如代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         int len = str.length();
@@ -33,4 +33,4 @@ class Solution {
         return total * sign;
     }
 }
-```
+// ```

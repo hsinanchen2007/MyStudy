@@ -1,9 +1,9 @@
-### 解题思路
-奇数直接遍历输出，偶数=奇数+奇数。
+// ### 解题思路
+// 奇数直接遍历输出，偶数=奇数+奇数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String generateTheString(int n) {
         StringBuilder sb = new StringBuilder();
@@ -20,4 +20,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

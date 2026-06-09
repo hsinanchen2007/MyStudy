@@ -1,9 +1,9 @@
-### 解题思路
-首先把数组转list，通过list找出余数的下标：1 如果余数下标存在就满足计算，否则重新来过
+// ### 解题思路
+// 首先把数组转list，通过list找出余数的下标：1 如果余数下标存在就满足计算，否则重新来过
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int [] retIndex = null;
@@ -24,4 +24,4 @@ class Solution {
         return retIndex;
     }
 }
-```
+// ```

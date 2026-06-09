@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         #动态规划
@@ -13,4 +13,4 @@ class Solution:
         
         return dp[-1]
             
-```
+# ```

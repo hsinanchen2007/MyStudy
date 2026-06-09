@@ -1,4 +1,4 @@
-```
+// ```
   private static int MAX = (int) (Math.pow(10, 9) + 7);
 
     private long sum = 0;
@@ -21,4 +21,4 @@
         calLeaf(node.left, newSum);
         calLeaf(node.right, newSum);
     }
-```
+// ```

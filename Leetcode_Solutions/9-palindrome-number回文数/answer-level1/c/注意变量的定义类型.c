@@ -1,9 +1,9 @@
-### 解题思路
-今天是第一次使用leetCode，第一次运行出错了，原因在于将变量定义为 int型了，改成long就对了
+// ### 解题思路
+// 今天是第一次使用leetCode，第一次运行出错了，原因在于将变量定义为 int型了，改成long就对了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
 if(x<0) return false;
 else 
@@ -20,4 +20,4 @@ else
     else return false;
 }
 }
-```
+// ```

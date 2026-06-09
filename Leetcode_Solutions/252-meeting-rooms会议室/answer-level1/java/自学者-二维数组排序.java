@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 // 方案1 - 排序记录上一次结果，看着比较愚蠢
 class Solution {
     public boolean canAttendMeetings(int[][] intervals) {
@@ -22,8 +22,8 @@ class Solution {
         return true;
     }
 }
-```
-```java []
+// ```
+// ```java []
 // 方案二 官方实现，增加括号
 class Solution {
     public boolean canAttendMeetings(Interval[] intervals) {
@@ -41,4 +41,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

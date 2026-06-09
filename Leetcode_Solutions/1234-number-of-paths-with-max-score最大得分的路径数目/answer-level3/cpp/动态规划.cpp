@@ -1,9 +1,9 @@
-### 解题思路
-动态规划：dp二维数组存储一个pair（得分，方案数）
+// ### 解题思路
+// 动态规划：dp二维数组存储一个pair（得分，方案数）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     vector<vector<int>> dir = {{0,-1},{-1,0},{-1,-1}};
     int n, i, j;
@@ -72,4 +72,4 @@ public:
         return {dp[0][0].first, dp[0][0].second%1000000007};
     }
 };
-```
+// ```

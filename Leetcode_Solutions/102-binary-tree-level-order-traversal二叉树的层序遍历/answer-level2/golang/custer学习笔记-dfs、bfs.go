@@ -1,11 +1,11 @@
-# 思考
+// # 思考
 
-1. BFS，判断level层是否结束，Batch process，时间复杂度O(N)
-1. DFS，二维数组，是每层的子数组
+// 1. BFS，判断level层是否结束，Batch process，时间复杂度O(N)
+// 1. DFS，二维数组，是每层的子数组
 
-# Go代码BFS
+// # Go代码BFS
 
-```go
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -45,11 +45,11 @@ func bfsLevelOrder(root *TreeNode) [][]int {
 	}
 	return levels
 }
-```
+// ```
 
-# Go实现BFS-使用list实现queue
+// # Go实现BFS-使用list实现queue
 
-```go
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -88,11 +88,11 @@ func bfsLevelOrder(root *TreeNode) [][]int {
 	}
 	return levels
 }
-```
+// ```
 
-# Go实现DFS
+// # Go实现DFS
 
-```go
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -124,11 +124,11 @@ func dfs(root *TreeNode, level int, vals *[][]int) {
 	dfs(root.Left, level+1, vals)
 	dfs(root.Right, level+1, vals)
 }
-```
+// ```
 
-# Go实现带访问记录的BFS - 超出时间限制
+// # Go实现带访问记录的BFS - 超出时间限制
 
-```go
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -174,11 +174,11 @@ func levelOrder(root *TreeNode) [][]int {
 	}
 	return result
 }
-```
+// ```
 
-# Python代码BFS
+// # Python代码BFS
 
-```python
+// ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -213,11 +213,11 @@ class Solution(object):
             result.append(current_level)
         
         return result
-```
+// ```
 
-# Python代码DFS
+// # Python代码DFS
 
-```python
+// ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -246,4 +246,4 @@ class Solution(object):
         
         self._dfs(node.left, level+1)
         self._dfs(node.right, level+1)
-```
+// ```

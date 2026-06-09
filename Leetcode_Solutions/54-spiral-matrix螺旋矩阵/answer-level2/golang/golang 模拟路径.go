@@ -1,9 +1,9 @@
-### 解题思路
-模拟路径，当需要边缘或在之前走过的点的时候，方向就顺时针旋转一下。
+// ### 解题思路
+// 模拟路径，当需要边缘或在之前走过的点的时候，方向就顺时针旋转一下。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func spiralOrder(matrix [][]int) []int {
   var rdata []int
 	c := [4][2]int{{0, 1}, {1, 0}, {0, -1}, {-1, 0}}
@@ -46,4 +46,4 @@ func spiralOrder(matrix [][]int) []int {
 	
 	return rdata
 }
-```
+// ```

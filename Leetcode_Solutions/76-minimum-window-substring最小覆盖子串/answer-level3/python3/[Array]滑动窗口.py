@@ -1,8 +1,8 @@
-## 思考
-1. 遍历一次数组 -> 双指针`cur_st`, `cur_ed` -> 什么时候移动`cur_st`, 什么时候移动`cur_ed`
+# ## 思考
+# 1. 遍历一次数组 -> 双指针`cur_st`, `cur_ed` -> 什么时候移动`cur_st`, 什么时候移动`cur_ed`
 
-## Solutions
-```python
+# ## Solutions
+# ```python
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         ''' Sliding window
@@ -49,4 +49,4 @@ class Solution:
             return res
         else:
             return ''
-```
+# ```

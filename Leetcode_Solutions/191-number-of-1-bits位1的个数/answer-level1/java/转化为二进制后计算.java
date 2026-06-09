@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-2 ms
-, 在所有 Java 提交中击败了
-95.59%
-的用户
-内存消耗 :
-34.1 MB
-, 在所有 Java 提交中击败了
-16.41%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 2 ms
+// , 在所有 Java 提交中击败了
+// 95.59%
+// 的用户
+// 内存消耗 :
+// 34.1 MB
+// , 在所有 Java 提交中击败了
+// 16.41%
+// 的用户
+// ```
 public class Solution {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
@@ -48,4 +48,4 @@ public class Solution {
         return c;
     }
 }
-```
+// ```

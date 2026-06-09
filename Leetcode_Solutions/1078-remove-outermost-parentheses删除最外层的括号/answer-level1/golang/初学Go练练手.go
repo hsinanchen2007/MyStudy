@@ -1,4 +1,4 @@
-```go
+// ```go
 func removeOuterParentheses(S string) string {
 	var index, start int
 	var res []rune

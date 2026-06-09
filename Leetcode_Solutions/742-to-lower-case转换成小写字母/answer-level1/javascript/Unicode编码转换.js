@@ -1,14 +1,14 @@
-### 解题思路
-根据字母大小学的Unicode编码来重新赋值。
-A-Z = [65,90];
-a-z = [97,122]
-大小写Unicode差32，
-str.charCodeAt(index)返回指定位置Unicode编码
-String.fromCharCode(code)将Unicode编码转换为字符
+// ### 解题思路
+// 根据字母大小学的Unicode编码来重新赋值。
+// A-Z = [65,90];
+// a-z = [97,122]
+// 大小写Unicode差32，
+// str.charCodeAt(index)返回指定位置Unicode编码
+// String.fromCharCode(code)将Unicode编码转换为字符
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {string}
@@ -27,4 +27,4 @@ var toLowerCase = function(str) {
     }
     return result
 };
-```
+// ```

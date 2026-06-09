@@ -1,12 +1,12 @@
 
-![屏幕快照 2019-12-22 下午10.01.00.png](https://pic.leetcode-cn.com/b4f98b54c82e718af103a642fee19022af2d925c87c9d7b8c44510702ffd3c99-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-12-22%20%E4%B8%8B%E5%8D%8810.01.00.png)
+# ![屏幕快照 2019-12-22 下午10.01.00.png](https://pic.leetcode-cn.com/b4f98b54c82e718af103a642fee19022af2d925c87c9d7b8c44510702ffd3c99-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-12-22%20%E4%B8%8B%E5%8D%8810.01.00.png)
 
 
-参考官方解答
+# 参考官方解答
 
 
 
-```python
+# ```python
 class Solution(object):
     def candy(self, ratings):
         """
@@ -55,4 +55,4 @@ class Solution(object):
             candyCount += (1 - lastCandy) * n
 
         return candyCount
-```
+# ```

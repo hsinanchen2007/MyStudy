@@ -1,5 +1,5 @@
-括号匹配用栈就对了。
-```
+# 括号匹配用栈就对了。
+# ```
 class Solution:
     def decodeString(self, s: str) -> str:
         stack = []
@@ -26,4 +26,4 @@ class Solution:
                 s = tmp*int(num)
                 stack = stack[:j+1] + [s]
         return ''.join(stack)
-```
+# ```

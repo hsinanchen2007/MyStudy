@@ -1,14 +1,14 @@
 
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/19
- *
- * 解题思路: 使用hash 将每一个字母的对应的行进行映射 然后最每一个单词进行hash扫描，查看是否处在同一行
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/19
+//  *
+//  * 解题思路: 使用hash 将每一个字母的对应的行进行映射 然后最每一个单词进行hash扫描，查看是否处在同一行
+//  *
+//  */
+// ```
 public String[] findWords(String[] words) {
 
     char[] line1 = "qwertyuiop".toCharArray();
@@ -52,4 +52,4 @@ public String[] findWords(String[] words) {
 
     return res;
 }
-```
+// ```

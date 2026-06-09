@@ -1,27 +1,27 @@
 
-## 思路
+// ## 思路
 
-符合直觉的做法是两层循环遍历，时间复杂度是O(m * n), 
-有没有时间复杂度更好的做法呢？ 答案是有，那就是充分运用矩阵的特性（横向纵向都递增），
-我们可以从角落（左下或者右上）开始遍历，这样时间复杂度是O(m + n).
+// 符合直觉的做法是两层循环遍历，时间复杂度是O(m * n), 
+// 有没有时间复杂度更好的做法呢？ 答案是有，那就是充分运用矩阵的特性（横向纵向都递增），
+// 我们可以从角落（左下或者右上）开始遍历，这样时间复杂度是O(m + n).
 
-![](https://pic.leetcode-cn.com/c932820863157302000c9f4000c6730f9d749c15744317ba78b4dc763f92d32d.jpg)
+// ![](https://pic.leetcode-cn.com/c932820863157302000c9f4000c6730f9d749c15744317ba78b4dc763f92d32d.jpg)
 
-其中蓝色代表我们选择的起点元素， 红色代表目标元素。
+// 其中蓝色代表我们选择的起点元素， 红色代表目标元素。
 
-## 关键点解析
+// ## 关键点解析
 
-- 从角落开始遍历，利用递增的特性简化时间复杂度
-
-
-## 代码
-
-代码支持：JavaScript, Python3
+// - 从角落开始遍历，利用递增的特性简化时间复杂度
 
 
-JavaScript Code:
+// ## 代码
 
-```js
+// 代码支持：JavaScript, Python3
+
+
+// JavaScript Code:
+
+// ```js
 
 /*
  * @lc app=leetcode id=240 lang=javascript
@@ -59,11 +59,11 @@ var findNumberIn2DArray = function(matrix, target) {
 
     return  false;
 };
-```
+// ```
 
-Python Code:
+// Python Code:
 
-```python
+// ```python
 class Solution:
     def findNumberIn2DArray(self, matrix, target):
         m = len(matrix)
@@ -81,5 +81,5 @@ class Solution:
             else:
                 j += 1
         return False
-```
+// ```
 

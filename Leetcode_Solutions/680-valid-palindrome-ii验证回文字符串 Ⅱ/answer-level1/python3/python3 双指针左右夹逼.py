@@ -1,12 +1,12 @@
-### 解题思路
-与官方题解2类似。加入isPalindrome()函数判断剩余的子字符串是否为回文字符串。
+# ### 解题思路
+# 与官方题解2类似。加入isPalindrome()函数判断剩余的子字符串是否为回文字符串。
 
-时间复杂度：O(n)，遍历原字符串一次，遍历子字符串两次
-空间复杂度：O(1)
+# 时间复杂度：O(n)，遍历原字符串一次，遍历子字符串两次
+# 空间复杂度：O(1)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def validPalindrome(self, s: str) -> bool:
         left=0
@@ -27,4 +27,4 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```

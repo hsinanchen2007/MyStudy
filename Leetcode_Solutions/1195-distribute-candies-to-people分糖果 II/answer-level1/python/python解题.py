@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-使用l双层循环，外层循环控制糖块的个数，内层循环是为每个人分配的糖果
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 使用l双层循环，外层循环控制糖块的个数，内层循环是为每个人分配的糖果
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def distributeCandies(self, candies, num_people):
         """
@@ -28,4 +28,4 @@ class Solution(object):
             i = 0
         return people
 
-```
+# ```

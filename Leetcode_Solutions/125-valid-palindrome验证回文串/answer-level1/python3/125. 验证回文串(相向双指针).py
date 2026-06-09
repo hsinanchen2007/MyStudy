@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         if s is None:
@@ -14,8 +14,8 @@ class Solution:
             start += 1
             end -= 1
         return True
-```
-```java []
+# ```
+# ```java []
 class Solution {
     public boolean isPalindrome(String s) {
         if(s == null){
@@ -57,5 +57,5 @@ class Solution {
         return Character.isLetter(c) || Character.isDigit(c);
     }
 }
-```
+# ```
 

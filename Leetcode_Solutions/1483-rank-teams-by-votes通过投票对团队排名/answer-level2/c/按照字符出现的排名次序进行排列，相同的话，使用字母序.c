@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define MAX_CHAR_CNT 26
 struct Ccnt {
@@ -66,4 +66,4 @@ char * rankTeams(char ** votes, int votesSize){
     }      
     return retBuf;
 }
-```
+// ```

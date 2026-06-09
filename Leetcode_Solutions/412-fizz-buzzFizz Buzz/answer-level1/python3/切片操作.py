@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def fizzBuzz(self, n: int):
         res = [str(i) for i in range(1,n+1)]
@@ -10,5 +10,5 @@ class Solution:
             res[14::15] = ['FizzBuzz']*len(res[14::15])
 
         return res
-```
+# ```
 

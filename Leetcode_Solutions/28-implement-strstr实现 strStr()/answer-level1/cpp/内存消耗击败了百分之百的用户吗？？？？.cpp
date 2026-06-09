@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-击败百分之百的用户？？
-![1583827638(1).png](https://pic.leetcode-cn.com/836ecf56c73ff5639f3645c68aff060549250c2a738610055d130caa3ef29001-1583827638\(1\).png)
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 击败百分之百的用户？？
+// ![1583827638(1).png](https://pic.leetcode-cn.com/836ecf56c73ff5639f3645c68aff060549250c2a738610055d130caa3ef29001-1583827638\(1\).png)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -30,4 +30,4 @@ public:
         return -1;
     }
 };
-```
+// ```

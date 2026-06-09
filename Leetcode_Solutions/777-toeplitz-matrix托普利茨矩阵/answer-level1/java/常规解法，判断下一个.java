@@ -1,16 +1,16 @@
-执行用时 :
-4 ms
-, 在所有 Java 提交中击败了
-73.00%
-的用户
-内存消耗 :
-41.3 MB
-, 在所有 Java 提交中击败了
-89.04%
-的用户
+// 执行用时 :
+// 4 ms
+// , 在所有 Java 提交中击败了
+// 73.00%
+// 的用户
+// 内存消耗 :
+// 41.3 MB
+// , 在所有 Java 提交中击败了
+// 89.04%
+// 的用户
 
 
-```
+// ```
 class Solution {
     public boolean isToeplitzMatrix(int[][] matrix) {
       boolean isTM = true;
@@ -35,6 +35,6 @@ class Solution {
         return isTM;
     }
 }``
-```
+// ```
 
-可以优化到（m+n-1）*0.5min(m,n)次判断，但我懒
+// 可以优化到（m+n-1）*0.5min(m,n)次判断，但我懒

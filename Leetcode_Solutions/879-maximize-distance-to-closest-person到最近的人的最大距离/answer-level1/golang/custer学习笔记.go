@@ -1,11 +1,11 @@
-第一思路，很尬超级尬
+// 第一思路，很尬超级尬
 
-1. 记录每个有人的座位的下标，存到mark数组中备用(预处理)
-2. 如果第一个座位没有人，最大距离为第一个有人座位的下标
-3. 如果最后一个座位没有人，最大距离为所有座位的个人减去最后一个有座位的下标
-4. 最后再判断中间位置两人之间的最大距离
+// 1. 记录每个有人的座位的下标，存到mark数组中备用(预处理)
+// 2. 如果第一个座位没有人，最大距离为第一个有人座位的下标
+// 3. 如果最后一个座位没有人，最大距离为所有座位的个人减去最后一个有座位的下标
+// 4. 最后再判断中间位置两人之间的最大距离
 
-```go
+// ```go
 func maxDistToClosest(seats []int) int {
 	if len(seats) < 3 {
 		return 1
@@ -31,11 +31,11 @@ func maxDistToClosest(seats []int) int {
 	}
 	return des
 }
-```
+// ```
 
-学习[@lhf2018的评论内容](https://leetcode-cn.com/problems/maximize-distance-to-closest-person/comments/94403)实现：
+// 学习[@lhf2018的评论内容](https://leetcode-cn.com/problems/maximize-distance-to-closest-person/comments/94403)实现：
 
-```go
+// ```go
 func maxDistToClosest(seats []int) int {
 	max := 0
 	num := 0
@@ -90,11 +90,11 @@ func maxDistToClosest(seats []int) int {
 	}
 	return max
 }
-```
+// ```
 
-[最后学习大佬的方法](https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0849.maximize-distance-to-closest-person/maximize-distance-to-closest-person.go)
+// [最后学习大佬的方法](https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0849.maximize-distance-to-closest-person/maximize-distance-to-closest-person.go)
 
-```go
+// ```go
 func maxDistToClosest(seats []int) int {
 	size := len(seats)
 	maxDis := 0
@@ -127,4 +127,4 @@ func max(a, b int) int {
 	}
 	return b
 }
-```
+// ```

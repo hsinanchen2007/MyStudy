@@ -1,4 +1,4 @@
-```
+// ```
 public static void reorderList(ListNode head) {
     /*快指针*/
     ListNode fast = head;
@@ -50,4 +50,4 @@ public static void reorderList(ListNode head) {
     }
     /*总体思想是：1.找出链表的中间节点；2.将链表截断，后半部分的链表翻转；3.将前半段与翻转的后半段按题目要求翻转*/
   }
-```
+// ```

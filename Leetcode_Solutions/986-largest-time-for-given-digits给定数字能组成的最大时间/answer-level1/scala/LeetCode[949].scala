@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def largestTimeFromDigits(A: Array[Int]): String = {
     val list: List[Array[Int]] = A.permutations.toList
@@ -10,4 +10,4 @@ object Solution {
     ints(0).toString + ints(1).toString + ":" + ints(2).toString + ints(3).toString
   }
 }
-```
+// ```

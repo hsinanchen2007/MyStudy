@@ -1,6 +1,6 @@
 
-//本题主要注意需要将int值转换为string，int值有可能是负数，所以记得要进行判断，此外还要注意->的输出格式的问题
-```
+// //本题主要注意需要将int值转换为string，int值有可能是负数，所以记得要进行判断，此外还要注意->的输出格式的问题
+// ```
 class Solution {
 public:
     vector<string> binaryTreePaths(TreeNode* root) {
@@ -44,4 +44,4 @@ public:
         temp.pop_back();
     }
 };
-```
+// ```

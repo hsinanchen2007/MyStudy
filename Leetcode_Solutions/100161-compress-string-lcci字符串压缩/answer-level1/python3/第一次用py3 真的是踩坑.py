@@ -1,11 +1,11 @@
-### 解题思路
-判断空
-计数
-判断对比
+# ### 解题思路
+# 判断空
+# 计数
+# 判断对比
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         sLen=len(S)
@@ -37,4 +37,4 @@ class Solution:
 
 
 
-```
+# ```

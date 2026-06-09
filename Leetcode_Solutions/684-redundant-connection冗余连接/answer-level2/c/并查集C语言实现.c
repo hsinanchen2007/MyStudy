@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/fcdd9e19c7a99ce744053a9641ea48402afa185a48af3113c6cc45cc44be0b53-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fcdd9e19c7a99ce744053a9641ea48402afa185a48af3113c6cc45cc44be0b53-image.png)
 
-```
+// ```
 #define UF_MAX 1001
 int g_graph[UF_MAX];
 
@@ -40,4 +40,4 @@ int* findRedundantConnection(int** edges, int edgesSize, int* edgesColSize, int*
 	}
 	return NULL;
 }
-```
+// ```

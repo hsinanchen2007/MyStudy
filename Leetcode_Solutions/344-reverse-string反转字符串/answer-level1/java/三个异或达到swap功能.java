@@ -1,17 +1,17 @@
-### 解题思路
-    int f = 50;
-    int g = 60;
+// ### 解题思路
+//     int f = 50;
+//     int g = 60;
 
-    f = f^g;
-    g = f^g;
-    f = f^g;
-    System.out.println(f+" "+g);
-    输出结果是：60 50
-    三个异或操作居然可以达到交换的效果 学习了
+//     f = f^g;
+//     g = f^g;
+//     f = f^g;
+//     System.out.println(f+" "+g);
+//     输出结果是：60 50
+//     三个异或操作居然可以达到交换的效果 学习了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void reverseString(char[] s) {
         int n = s.length;
@@ -23,4 +23,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-没啥挑战，基本递归题
+# 没啥挑战，基本递归题
 
-```
+# ```
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
         if not head:
@@ -11,4 +11,4 @@ class Solution:
         head.next=self.swapPairs(head.next.next)
         temp.next=head
         return temp
-```
+# ```

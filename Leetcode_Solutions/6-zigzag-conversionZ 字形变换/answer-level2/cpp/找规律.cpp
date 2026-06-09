@@ -1,5 +1,5 @@
-思路比较简单需要特判一下第一行和最后一行，第一行和最后一行都是i+count,中间的先加count,再加temp-count一直加到大于等于原数组。找到规律就很简单了
-```c++
+// 思路比较简单需要特判一下第一行和最后一行，第一行和最后一行都是i+count,中间的先加count,再加temp-count一直加到大于等于原数组。找到规律就很简单了
+// ```c++
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -28,8 +28,8 @@ public:
         return ans;
     }
 };
-```思路比较简单需要特判一下第一行和最后一行，第一行和最后一行都是i+count,中间的先加count,再加temp-count一直加到大于等于原数组。找到规律就很简单了
-```c++
+// ```思路比较简单需要特判一下第一行和最后一行，第一行和最后一行都是i+count,中间的先加count,再加temp-count一直加到大于等于原数组。找到规律就很简单了
+// ```c++
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -58,4 +58,4 @@ public:
         return ans;
     }
 };
-```
+// ```

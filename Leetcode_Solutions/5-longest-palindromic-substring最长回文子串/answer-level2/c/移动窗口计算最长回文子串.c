@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int isPalindrome(char *s, int length){
     if(length <= 1) {
         return 1;
@@ -40,4 +40,4 @@ char * longestPalindrome(char * s){
     return NULL;
 }
 
-```
+// ```

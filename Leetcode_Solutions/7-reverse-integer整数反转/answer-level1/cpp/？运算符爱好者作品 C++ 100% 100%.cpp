@@ -1,9 +1,9 @@
-### 解题思路
-？运算符爱好者作品
+// ### 解题思路
+// ？运算符爱好者作品
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int reverse(int x) {
@@ -19,4 +19,4 @@ public:
         return answer;
     }
 };
-```
+// ```

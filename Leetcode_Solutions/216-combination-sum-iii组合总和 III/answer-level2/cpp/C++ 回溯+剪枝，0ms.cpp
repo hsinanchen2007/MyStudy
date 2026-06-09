@@ -1,9 +1,9 @@
-### 解题思路
-标准回溯法，直接套就行。剪枝条件也很简单，具体实现见代码。
+// ### 解题思路
+// 标准回溯法，直接套就行。剪枝条件也很简单，具体实现见代码。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> combinationSum3(int k, int n) {
@@ -27,4 +27,4 @@ public:
         }
     }
 };
-```
+// ```

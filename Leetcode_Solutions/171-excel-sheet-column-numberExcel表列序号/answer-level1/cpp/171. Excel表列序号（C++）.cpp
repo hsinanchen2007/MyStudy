@@ -1,6 +1,6 @@
-# 171. Excel表列序号（C++）
-遍历string元素，并转化为10进制。
-```
+// # 171. Excel表列序号（C++）
+// 遍历string元素，并转化为10进制。
+// ```
 class Solution {
 public:
     int titleToNumber(string s) {
@@ -12,4 +12,4 @@ public:
     }
 };
 
-```
+// ```

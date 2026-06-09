@@ -1,11 +1,11 @@
 
 
-## 使用栈
+// ## 使用栈
 
-将链表元素放入栈内，如果遇见相同的就弹出，最后栈为空则为回文结构，O（n）,空间复杂度O（n）
+// 将链表元素放入栈内，如果遇见相同的就弹出，最后栈为空则为回文结构，O（n）,空间复杂度O（n）
 
 
-```
+// ```
 #include <stack>
 class Solution {
 public:
@@ -29,12 +29,12 @@ public:
         return s.empty();
     }
 };
-```
-## 快慢指针
+// ```
+// ## 快慢指针
 
-原地修改链表,额外空间复杂度O（1）
+// 原地修改链表,额外空间复杂度O（1）
 
-```
+// ```
 using namespace std;
 class PalindromeList {
 public:
@@ -70,4 +70,4 @@ public:
         return pre;
     }
 };
-```
+// ```

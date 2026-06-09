@@ -1,10 +1,10 @@
-### 解题思路
-先把负数与整十数这绝对不会是互文的情况给排除，个位数都是互文的所以也排除。
-剩下的还是用了翻转的思想，只是不转成字符串和数组直接利用reverse方式而已
+// ### 解题思路
+// 先把负数与整十数这绝对不会是互文的情况给排除，个位数都是互文的所以也排除。
+// 剩下的还是用了翻转的思想，只是不转成字符串和数组直接利用reverse方式而已
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {boolean}
@@ -32,4 +32,4 @@ const isPalindrome = x => {
     const reverseNumber = reverseNum(x);
     return x === reverseNumber;
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-O(N) 左右边界 i j 向中间收敛
-如果采取暴力解法，枚举所有情况，两层嵌套循环实现 O（N^2)
+// ### 解题思路
+// O(N) 左右边界 i j 向中间收敛
+// 如果采取暴力解法，枚举所有情况，两层嵌套循环实现 O（N^2)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxArea(int[] height) {
         int max = 0;
@@ -16,4 +16,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-注意细节，特别是循环结束条件
+// ### 解题思路
+// 注意细节，特别是循环结束条件
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // Forward declaration of isBadVersion API.
 bool isBadVersion(int version);
 
@@ -21,4 +21,4 @@ int firstBadVersion(int n) {
     }
     return head;//循环结束head=tail+1
 }
-```
+// ```

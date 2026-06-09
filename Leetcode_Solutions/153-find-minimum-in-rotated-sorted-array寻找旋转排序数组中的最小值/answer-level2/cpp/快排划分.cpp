@@ -1,9 +1,9 @@
-### 解题思路
-使用快排划分操作
+// ### 解题思路
+// 使用快排划分操作
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
        return num1[low + 1];
     }
 };
-```
+// ```

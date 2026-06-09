@@ -1,5 +1,5 @@
-判断当前位置的值与位置和位置值之和的大小
-```
+// 判断当前位置的值与位置和位置值之和的大小
+// ```
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         return true;
     }
 };
-```
+// ```

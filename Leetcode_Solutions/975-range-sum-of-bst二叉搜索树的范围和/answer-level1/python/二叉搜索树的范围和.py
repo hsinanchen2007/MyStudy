@@ -1,13 +1,13 @@
-#### 方法一：深度优先搜索
+# #### 方法一：深度优先搜索
 
-我们对树进行深度优先搜索，对于当前节点 `node`，如果  `node.val` 小于等于 `L`，那么只需要继续搜索它的右子树；如果 `node.val` 大于等于 `R`，那么只需要继续搜索它的左子树；如果 `node.val` 在区间 `(L, R)` 中，则需要搜索它的所有子树。
+# 我们对树进行深度优先搜索，对于当前节点 `node`，如果  `node.val` 小于等于 `L`，那么只需要继续搜索它的右子树；如果 `node.val` 大于等于 `R`，那么只需要继续搜索它的左子树；如果 `node.val` 在区间 `(L, R)` 中，则需要搜索它的所有子树。
 
-我们在代码中用递归和迭代的方法分别实现了深度优先搜索。
+# 我们在代码中用递归和迭代的方法分别实现了深度优先搜索。
 
-**递归实现深度优先搜索**
+# **递归实现深度优先搜索**
 
 
-```Java [sol1]
+# ```Java [sol1]
 class Solution {
     int ans;
     public int rangeSumBST(TreeNode root, int L, int R) {
@@ -27,9 +27,9 @@ class Solution {
         }
     }
 }
-```
+# ```
 
-```Python [sol1]
+# ```Python [sol1]
 class Solution(object):
     def rangeSumBST(self, root, L, R):
         def dfs(node):
@@ -44,11 +44,11 @@ class Solution(object):
         self.ans = 0
         dfs(root)
         return self.ans
-```
+# ```
 
-**迭代实现深度优先搜索**
+# **迭代实现深度优先搜索**
 
-```Java [sol2]
+# ```Java [sol2]
 class Solution {
     public int rangeSumBST(TreeNode root, int L, int R) {
         int ans = 0;
@@ -68,9 +68,9 @@ class Solution {
         return ans;
     }
 }
-```
+# ```
 
-```Python [sol2]
+# ```Python [sol2]
 class Solution(object):
     def rangeSumBST(self, root, L, R):
         ans = 0
@@ -85,10 +85,10 @@ class Solution(object):
                 if node.val < R:
                     stack.append(node.right)
         return ans
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N)$，其中 $N$ 是树中的节点数目。
+# * 时间复杂度：$O(N)$，其中 $N$ 是树中的节点数目。
 
-* 空间复杂度：$O(H)$，其中 $H$ 是树的高度。
+# * 空间复杂度：$O(H)$，其中 $H$ 是树的高度。

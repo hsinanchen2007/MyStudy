@@ -1,5 +1,5 @@
-## [Trie模板](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
-```cpp
+// ## [Trie模板](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
+// ```cpp
 class Trie
 {
 private:
@@ -54,21 +54,21 @@ public:
         return true;
     }
 };
-```
-## [Trie上搜索](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/)
-search(word) 可以搜索文字或正则表达式字符串，字符串只包含字母 `.` 或 `a-z` 。 `.` 可以表示任何一个字母。
+// ```
+// ## [Trie上搜索](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/)
+// search(word) 可以搜索文字或正则表达式字符串，字符串只包含字母 `.` 或 `a-z` 。 `.` 可以表示任何一个字母。
 
-### `.`可以表示任何一个字母，遇到到`.`的时候怎么办？
+// ### `.`可以表示任何一个字母，遇到到`.`的时候怎么办？
 
-遇到`.`表示可以通向任何一个连接的字母  
-`node->nxt[j] if node->nxt[j]!=nullptr`  
+// 遇到`.`表示可以通向任何一个连接的字母  
+// `node->nxt[j] if node->nxt[j]!=nullptr`  
 
-接着搜索剩下的字符串`word.substr(i+1)`  
-只要至少一个分支匹配成功，就算成功`isMatch|=`
+// 接着搜索剩下的字符串`word.substr(i+1)`  
+// 只要至少一个分支匹配成功，就算成功`isMatch|=`
 
-`this`指向当前引用的对象  
-所以需要用`node->nxt[j]->search`来引用`node->nxt[j]`
-```cpp
+// `this`指向当前引用的对象  
+// 所以需要用`node->nxt[j]->search`来引用`node->nxt[j]`
+// ```cpp
 for (int j = 0; j < 26; j++)
 {
     if (node->nxt[j])
@@ -76,9 +76,9 @@ for (int j = 0; j < 26; j++)
         isMatch |= node->nxt[j]->search(word.substr(i + 1));
     }
 }
-```
-### code
-```cpp
+// ```
+// ### code
+// ```cpp
 class WordDictionary
 {
 public:
@@ -131,4 +131,4 @@ public:
         return node->isEnd;
     }
 };
-```
+// ```

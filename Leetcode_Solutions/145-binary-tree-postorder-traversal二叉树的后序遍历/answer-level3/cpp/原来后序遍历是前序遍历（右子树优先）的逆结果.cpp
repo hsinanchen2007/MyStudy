@@ -1,20 +1,20 @@
-### 解题思路
-**后序遍历**的递归代码结构很简单，像下面这样
-orderTraversal(root->left);
-orderTraversal(root->right);
-cout<<root->val<<endl;
+// ### 解题思路
+// **后序遍历**的递归代码结构很简单，像下面这样
+// orderTraversal(root->left);
+// orderTraversal(root->right);
+// cout<<root->val<<endl;
 
-上面的遍历是**左子树优先**的，那么当我们把上面的**代码顺序反过来**，就变成了**右子树优先**的**前序遍历**
-cout<<root->val<<endl;
-orderTraversal(root->right);
-orderTraversal(root->left);
+// 上面的遍历是**左子树优先**的，那么当我们把上面的**代码顺序反过来**，就变成了**右子树优先**的**前序遍历**
+// cout<<root->val<<endl;
+// orderTraversal(root->right);
+// orderTraversal(root->left);
 
-也就是说，一般的后序遍历（左子树优先）的结果，是右子树优先的前序遍历的结果的**逆序**
+// 也就是说，一般的后序遍历（左子树优先）的结果，是右子树优先的前序遍历的结果的**逆序**
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -57,4 +57,4 @@ public:
        
     }
 };
-```
+// ```

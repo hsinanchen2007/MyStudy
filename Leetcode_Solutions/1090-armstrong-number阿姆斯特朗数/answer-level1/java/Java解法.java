@@ -1,9 +1,9 @@
-### 解题思路
-做次方運算後跟原本值做比較
+// ### 解题思路
+// 做次方運算後跟原本值做比較
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isArmstrong(int N) {
         String a = String.valueOf(N);
@@ -21,4 +21,4 @@ class Solution {
 		return false;
     }
 }
-```
+// ```

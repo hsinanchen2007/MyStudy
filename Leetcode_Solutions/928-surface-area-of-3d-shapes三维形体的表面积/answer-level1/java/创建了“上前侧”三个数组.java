@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/ab8954a8c17f0d05ecd7d2f8d86ed266ee803bb271a5366fcd9715418ab891d8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ab8954a8c17f0d05ecd7d2f8d86ed266ee803bb271a5366fcd9715418ab891d8-image.png)
 
-```
+// ```
     int top = 0;
     int N = grid.length;
     int[] side = new int[N];
@@ -22,4 +22,4 @@
     }
     res += top;
     return res * 2;
-```
+// ```

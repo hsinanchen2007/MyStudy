@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/627bc1c5e964c5f1d04caf5c8748fda17bf02214d6483509c9685ddb4f99413d-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/627bc1c5e964c5f1d04caf5c8748fda17bf02214d6483509c9685ddb4f99413d-image.png)
+// ```
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -17,4 +17,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

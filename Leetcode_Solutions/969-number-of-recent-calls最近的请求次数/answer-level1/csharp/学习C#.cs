@@ -1,8 +1,8 @@
-### 解题思路
-暂时没有C#题解，献丑了，效率很低
-### 代码
+// ### 解题思路
+// 暂时没有C#题解，献丑了，效率很低
+// ### 代码
 
-```csharp
+// ```csharp
 public class RecentCounter {
     public List<int> pings = new List<int>();
    
@@ -28,4 +28,4 @@ public class RecentCounter {
  * RecentCounter obj = new RecentCounter();
  * int param_1 = obj.Ping(t);
  */
-```
+// ```

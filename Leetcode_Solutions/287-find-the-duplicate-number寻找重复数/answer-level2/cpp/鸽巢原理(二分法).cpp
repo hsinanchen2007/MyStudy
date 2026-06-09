@@ -1,9 +1,9 @@
-### 解题思路
-先限定范围为[1,n],取得中点mid,那么[1,mid]的个数上限为mid个，若超过mid个，说明重复的数位于[1,mid]，否则位于[mid+1,n]
+// ### 解题思路
+// 先限定范围为[1,n],取得中点mid,那么[1,mid]的个数上限为mid个，若超过mid个，说明重复的数位于[1,mid]，否则位于[mid+1,n]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return left;
     }
 };
-```
+// ```

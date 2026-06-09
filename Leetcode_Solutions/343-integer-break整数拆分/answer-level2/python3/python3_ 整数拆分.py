@@ -1,4 +1,4 @@
-```python
+# ```python
 def integerBreak(n):
     """
         1. dp问题: dp[i] = max(dp[i], max(dp[i-j], i-j)*j)
@@ -15,4 +15,4 @@ def integerBreak(n):
     return dp[-1]
 
 print(integerBreak(10))
-```
+# ```

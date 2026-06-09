@@ -1,9 +1,9 @@
-### 解题思路
-求出target的平均值，向两边遍历，遍历一遍就可得出结果
+// ### 解题思路
+// 求出target的平均值，向两边遍历，遍历一遍就可得出结果
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -31,4 +31,4 @@ var twoSum = function(nums, target) {
     }
     return [];
 };
-```
+// ```

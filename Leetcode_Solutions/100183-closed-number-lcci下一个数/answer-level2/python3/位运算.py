@@ -1,5 +1,5 @@
-位运算, 具体逻辑有注释
-```python
+# 位运算, 具体逻辑有注释
+# ```python
 class Solution:
     def findClosedNumbers(self, num: int) -> List[int]:
         mn, mx = 1, 2147483647
@@ -60,4 +60,4 @@ class Solution:
             return n if mn <= n <= mx else -1
 
         return [findLarge(num), findSmall(num)]
-```
+# ```

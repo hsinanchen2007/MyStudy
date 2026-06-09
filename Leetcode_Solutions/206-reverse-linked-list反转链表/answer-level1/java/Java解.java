@@ -1,9 +1,9 @@
-### 解题思路
-将每一个节点处的指针反转，要注意的是链表的开头和结尾
+// ### 解题思路
+// 将每一个节点处的指针反转，要注意的是链表的开头和结尾
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -25,4 +25,4 @@ class Solution {
         return pre;
     }
 }
-```
+// ```

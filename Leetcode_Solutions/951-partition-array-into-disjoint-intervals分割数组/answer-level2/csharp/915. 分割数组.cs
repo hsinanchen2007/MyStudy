@@ -1,9 +1,9 @@
-### 解题思路
-C# O(N) 维护每个节点左边最大值和右边最小值，第一个左边最大节点小于此节点右边最小节点，即为所求；
+// ### 解题思路
+// C# O(N) 维护每个节点左边最大值和右边最小值，第一个左边最大节点小于此节点右边最小节点，即为所求；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int PartitionDisjoint(int[] A) {
         var leftMax = new int[A.Length];
@@ -27,4 +27,4 @@ public class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b05cf9a45086f06932491eb1e571978b446ee197481bf9c142c871548549f0df-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b05cf9a45086f06932491eb1e571978b446ee197481bf9c142c871548549f0df-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 分析案例：
 30 -> 2 * 3 * 5
 - copy 1 paste 1 copy 1 paste 2 copy 1 paste 4 -> 操作 10 次
@@ -14,11 +14,11 @@
 数学问题：
 - 如果 n 是质数，那么只能 copy 1 + paste n - 1 -> n次
 - 如果 n 不是质数，那么操作次数为它的所有最小素数因子的和
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -40,4 +40,4 @@ var minSteps = function(n) {
   
   return ans;
 };
-```
+// ```

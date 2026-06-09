@@ -1,10 +1,10 @@
-### 解题思路
-这种题，自己一直需要判断是否是末尾
-如果有一种方法不这样就好了
+// ### 解题思路
+// 这种题，自己一直需要判断是否是末尾
+// 如果有一种方法不这样就好了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string mostCommonWord(string paragraph, vector<string>& banned) {
@@ -60,4 +60,4 @@ public:
         return ch;
     }
 };
-```
+// ```

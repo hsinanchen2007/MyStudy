@@ -1,8 +1,8 @@
-### 解题思路
-通过反向中序遍历，当遍历到第k个节点时，直接返回改节点值，如果未找到，则返回0
-### 代码
+// ### 解题思路
+// 通过反向中序遍历，当遍历到第k个节点时，直接返回改节点值，如果未找到，则返回0
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

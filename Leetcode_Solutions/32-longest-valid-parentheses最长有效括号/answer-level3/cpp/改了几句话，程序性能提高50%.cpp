@@ -1,8 +1,8 @@
-### 解题思路
-使用题目解答中的动态规划，先讨论是否为****()，再讨论是否为(****)
-### 代码
+// ### 解题思路
+// 使用题目解答中的动态规划，先讨论是否为****()，再讨论是否为(****)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int longestValidParentheses(string s) {
@@ -33,4 +33,4 @@ public:
 		return result;
 	}
 };
-```
+// ```

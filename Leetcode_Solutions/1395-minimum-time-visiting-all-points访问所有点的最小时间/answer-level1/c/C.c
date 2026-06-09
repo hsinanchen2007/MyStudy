@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minTimeToVisitAllPoints(int** points, int pointsSize, int* pointsColSize){
     int result = 0;
     int i;
@@ -14,4 +14,4 @@ int minTimeToVisitAllPoints(int** points, int pointsSize, int* pointsColSize){
 
     return result;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class MaxStack {
 public:
     stack<int> elStack;

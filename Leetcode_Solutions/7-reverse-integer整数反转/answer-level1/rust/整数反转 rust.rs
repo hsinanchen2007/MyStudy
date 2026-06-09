@@ -1,9 +1,9 @@
-提供一种 Rust的解法。
+// 提供一种 Rust的解法。
 
-0ms，2M 对于可能溢出的情况采用 i64绕过i32上限。
+// 0ms，2M 对于可能溢出的情况采用 i64绕过i32上限。
 
 
-```
+// ```
 use std::i32::MAX;
 use std::i32::MIN;
 
@@ -34,4 +34,4 @@ impl Solution {
         if n { 0 - res } else { res }
     }
 }
-```
+// ```

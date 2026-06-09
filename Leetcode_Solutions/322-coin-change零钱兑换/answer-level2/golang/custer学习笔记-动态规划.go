@@ -1,16 +1,16 @@
-参考[leetcode-518硬币面值组合问题题解](https://leetcode-cn.com/problems/coin-change-2/solution/custerxue-xi-bi-ji-dfs-dp-by-custergo/)
+// 参考[leetcode-518硬币面值组合问题题解](https://leetcode-cn.com/problems/coin-change-2/solution/custerxue-xi-bi-ji-dfs-dp-by-custergo/)
 
-# DP
+// # DP
 
-- 状态d(i,j)表示使用前i种面值的硬币(即面值数组中0~i-1的元素),凑成数值j需要的最少硬币数量
-  - d(2,4)使用前两种面值的硬币凑成4分钱所需要的最少硬币数量
-  - d(1,4)使用前一种面值的硬币凑4分钱 d(2,2)已使用了2分，再拿前两种面值的硬币凑2分，所需要的最少硬币,因为已经拿了一个2分，所以最少硬币数量还要+1即d(2,2)+1
-  - d(2,4) = min(d(1,4),d(2,2)+1)
-- d(i,j) = min(d(i-1,j),d(i, j-c[i-1])+1)  (j-c[i-1] >= 0 还需凑的钱不能为负数)
-  - 初始d(0,j)表示前0种面值的硬币凑成j所需的最少硬币数量为maxInt32，表示凑不成
-  - 初始d(i,0)表示前i种面值的硬币凑成0所需的最少硬币数量为0
+// - 状态d(i,j)表示使用前i种面值的硬币(即面值数组中0~i-1的元素),凑成数值j需要的最少硬币数量
+//   - d(2,4)使用前两种面值的硬币凑成4分钱所需要的最少硬币数量
+//   - d(1,4)使用前一种面值的硬币凑4分钱 d(2,2)已使用了2分，再拿前两种面值的硬币凑2分，所需要的最少硬币,因为已经拿了一个2分，所以最少硬币数量还要+1即d(2,2)+1
+//   - d(2,4) = min(d(1,4),d(2,2)+1)
+// - d(i,j) = min(d(i-1,j),d(i, j-c[i-1])+1)  (j-c[i-1] >= 0 还需凑的钱不能为负数)
+//   - 初始d(0,j)表示前0种面值的硬币凑成j所需的最少硬币数量为maxInt32，表示凑不成
+//   - 初始d(i,0)表示前i种面值的硬币凑成0所需的最少硬币数量为0
 
-```go
+// ```go
 // d(n*amount) Time:O(n*amount) Space:O(n*amount) n为面值数组的长度
 func coinChange(coins []int, amount int) int {
     d := make([][]int, len(coins)+1) // 初始化状态数组d，一维是面值长度+1
@@ -38,11 +38,11 @@ func coinChange(coins []int, amount int) int {
     }
     return d[len(coins)][amount]
 }
-```
+// ```
 
-# 优化为滚动一维数组
+// # 优化为滚动一维数组
 
-```go
+// ```go
 // Time:O(n*amount) Space:O(amount) n为面值数组的长度
 func coinChangeOsum(coins []int, amount int) int {
     d := make([]int, amount+1)
@@ -61,4 +61,4 @@ func coinChangeOsum(coins []int, amount int) int {
     }
     return d[amount]
 }
-```
+// ```

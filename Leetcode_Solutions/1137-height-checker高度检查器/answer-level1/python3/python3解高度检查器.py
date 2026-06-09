@@ -1,5 +1,5 @@
-先排序，后一次遍历比对。
-```
+# 先排序，后一次遍历比对。
+# ```
 class Solution:
     def heightChecker(self, heights: List[int]) -> int:
         h=heights.copy()
@@ -9,4 +9,4 @@ class Solution:
             if ele!=heights[i]:
                 c+=1
         return c
-```
+# ```

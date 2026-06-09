@@ -1,8 +1,8 @@
-### 解题思路
-假设第i个房间的金额为A(i),能偷到的最大金额为f(i),那么有下述递推公式：f(i) = max(f(i-1),f(i-2) + A(i))
-### 代码
+// ### 解题思路
+// 假设第i个房间的金额为A(i),能偷到的最大金额为f(i),那么有下述递推公式：f(i) = max(f(i-1),f(i-2) + A(i))
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
       if (nums.length ==0){
@@ -26,4 +26,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

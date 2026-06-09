@@ -1,9 +1,9 @@
-### 解题思路
-* 字典树的实现就不说了，本题的难点在'.'通配符，通过变量子节点来解决
+// ### 解题思路
+// * 字典树的实现就不说了，本题的难点在'.'通配符，通过变量子节点来解决
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type WordDictionary struct {
   children map[rune]*WordDictionary
   value rune
@@ -71,4 +71,4 @@ func (this *WordDictionary) Search(word string) bool {
  * obj.AddWord(word);
  * param_2 := obj.Search(word);
  */
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         if(deck.length < 2){
@@ -38,4 +38,4 @@ class Solution {
         }
     }
 }
-```
+// ```

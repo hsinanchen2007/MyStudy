@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/10
- * 
- * 解题思路: 直接暴力完事
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/10
+//  * 
+//  * 解题思路: 直接暴力完事
+//  * 
+//  */
+// ```
 public char nextGreatestLetter(char[] letters, char target) {
     int i = 0;
     for( i = 0;i < letters.length;i++){
@@ -24,4 +24,4 @@ public char nextGreatestLetter(char[] letters, char target) {
     }
     return letters[0];
 }
-```
+// ```

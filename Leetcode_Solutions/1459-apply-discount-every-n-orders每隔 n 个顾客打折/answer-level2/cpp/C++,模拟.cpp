@@ -1,4 +1,4 @@
-```
+// ```
 class Cashier {
 public:
     map<int,int>pric;
@@ -32,4 +32,4 @@ public:
  * Cashier* obj = new Cashier(n, discount, products, prices);
  * double param_1 = obj->getBill(product,amount);
  */
-```
+// ```

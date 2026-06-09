@@ -1,9 +1,9 @@
-### 解题思路
-任意两个点，不是相邻两个点。二叉搜索树中序遍历得到的序列是递增的，所以可以通过中序遍历，把题目转换成相邻两个点的最小差
+// ### 解题思路
+// 任意两个点，不是相邻两个点。二叉搜索树中序遍历得到的序列是递增的，所以可以通过中序遍历，把题目转换成相邻两个点的最小差
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ int getMinimumDifference(struct TreeNode* root){
     minTree(root,&lastVal,&result);
     return result;
 }
-```
+// ```

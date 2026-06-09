@@ -1,4 +1,4 @@
-```java
+// ```java
     // 先searchWord进行比较，然后排序，然后以刚才的结果为基准再比较
     public List<List<String>> suggestedProducts(String[] products, String searchWord) {
         int searchLen = searchWord.length();
@@ -21,4 +21,4 @@
         }
         return sugPros;
     }
-```
+// ```

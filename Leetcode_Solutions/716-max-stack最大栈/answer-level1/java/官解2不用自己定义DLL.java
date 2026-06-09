@@ -1,4 +1,4 @@
-```
+// ```
 class MaxStack {
     Deque<Integer> stack;
     TreeMap<Integer, Integer> maxCache;
@@ -60,4 +60,4 @@ class MaxStack {
  * int param_4 = obj.peekMax();
  * int param_5 = obj.popMax();
  */
-```
+// ```

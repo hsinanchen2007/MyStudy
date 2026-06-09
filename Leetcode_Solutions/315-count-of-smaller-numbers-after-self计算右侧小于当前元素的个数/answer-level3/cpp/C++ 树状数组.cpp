@@ -1,9 +1,9 @@
-树状数组题解
-树状数组(Binary Indexed Tree (BIT))题解
-1，数组离散化为其本身rank
-2，然后从后向前遍历，并不断更新数组
+// 树状数组题解
+// 树状数组(Binary Indexed Tree (BIT))题解
+// 1，数组离散化为其本身rank
+// 2，然后从后向前遍历，并不断更新数组
 
-```
+// ```
 class Solution {
 public:
     vector<int> bits;
@@ -43,6 +43,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/9edda0719d8ffc4e05a65816ab9bd0f8602fea7749346bcdb2954fec1f50f160-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9edda0719d8ffc4e05a65816ab9bd0f8602fea7749346bcdb2954fec1f50f160-image.png)

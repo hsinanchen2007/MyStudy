@@ -1,24 +1,24 @@
-### 解题思路
+// ### 解题思路
 
-灵感来自于[表驱动法-有效数字](https://leetcode-cn.com/problems/valid-number/solution/biao-qu-dong-fa-by-user8973/)
+// 灵感来自于[表驱动法-有效数字](https://leetcode-cn.com/problems/valid-number/solution/biao-qu-dong-fa-by-user8973/)
 
 
-状态转换图（箭头上的标识表示输入的整数在二进制表示下的前缀）
-![image.png](https://pic.leetcode-cn.com/2e47f8dc895fe07a1c49a5e887ee159895ae1d521138ea911a679880b53b65fc-image.png)
+// 状态转换图（箭头上的标识表示输入的整数在二进制表示下的前缀）
+// ![image.png](https://pic.leetcode-cn.com/2e47f8dc895fe07a1c49a5e887ee159895ae1d521138ea911a679880b53b65fc-image.png)
 
-状态转移表
-|      | 01   | 10   | 110  | 1110 | 11110 |
-| ---- | ---- | ---- | ---- | ---- | ----- |
-| 0    | 0    | -1   | 3    | 2    | 1     |
-| 1    | -1   | 2    | -1   | -1   | -1    |
-| 2    | -1   | 3    | -1   | -1   | -1    |
-| 3    | -1   | 0    | -1   | -1   | -1    |
+// 状态转移表
+// |      | 01   | 10   | 110  | 1110 | 11110 |
+// | ---- | ---- | ---- | ---- | ---- | ----- |
+// | 0    | 0    | -1   | 3    | 2    | 1     |
+// | 1    | -1   | 2    | -1   | -1   | -1    |
+// | 2    | -1   | 3    | -1   | -1   | -1    |
+// | 3    | -1   | 0    | -1   | -1   | -1    |
 
-合法状态只有state = 0
+// 合法状态只有state = 0
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int make(int d){
         int cnt = -1;
@@ -47,4 +47,4 @@ class Solution {
         return state == 0;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 // 说一下, 为什么刷题要用工具类!!
 class Solution {
    public int[][] merge(int[][] intervals) {
@@ -117,4 +117,4 @@ class Solution {
         intervals[i2] = temporaryArray;
     }
 }
-```
+// ```

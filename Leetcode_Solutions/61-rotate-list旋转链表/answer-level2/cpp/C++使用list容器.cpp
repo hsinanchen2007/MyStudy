@@ -1,9 +1,9 @@
-### 解题思路
-先求循环的次数，num=k%l.size();再利用push_front头插法，在删除尾元素。
+// ### 解题思路
+// 先求循环的次数，num=k%l.size();再利用push_front头插法，在删除尾元素。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ public:
         return first->next;
     }
 };
-```
+// ```

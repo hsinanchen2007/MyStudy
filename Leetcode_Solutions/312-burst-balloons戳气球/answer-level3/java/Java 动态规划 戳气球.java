@@ -1,4 +1,4 @@
-```
+// ```
 public static int maxCoins(int[] nums) {
         int [][]d=new int[nums.length+2][nums.length+2];
         int []a=new int [nums.length+2];
@@ -20,4 +20,4 @@ public static int maxCoins(int[] nums) {
         return d[0][a.length-1];
 
     }
-```
+// ```

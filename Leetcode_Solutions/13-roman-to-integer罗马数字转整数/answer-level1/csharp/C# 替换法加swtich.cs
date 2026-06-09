@@ -1,5 +1,5 @@
-方法的思路主要利用C#的字符串替换方法，将两个特殊字符换成1个。用时128ms，战胜98.52%
-```sh
+// 方法的思路主要利用C#的字符串替换方法，将两个特殊字符换成1个。用时128ms，战胜98.52%
+// ```sh
 public class Solution {
     public int RomanToInt(string s) {
         s=s.Replace("IV","Y");
@@ -56,4 +56,4 @@ public class Solution {
         return sum;
     }
 }
-```
+// ```

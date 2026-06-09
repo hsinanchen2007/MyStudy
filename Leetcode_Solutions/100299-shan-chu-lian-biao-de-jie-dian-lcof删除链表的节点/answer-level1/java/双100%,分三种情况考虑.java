@@ -1,10 +1,10 @@
-### 解题思路
-删除的节点在头部
-删除的节点在中间
-删除的节点在尾部
-### 代码
+// ### 解题思路
+// 删除的节点在头部
+// 删除的节点在中间
+// 删除的节点在尾部
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -35,4 +35,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

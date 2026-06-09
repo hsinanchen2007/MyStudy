@@ -1,10 +1,10 @@
-### 解题思路
-遍历链表，用尾插法生成两个链表，分别存放小于目标值x的节点和大于等于x的节点，然后将两个链表连接起来。
-![image.png](https://pic.leetcode-cn.com/8d6cca11115d83b3b280807bdcf5bf632e842be9e2c0d9bb894d3acd3f81c1d6-image.png)
+// ### 解题思路
+// 遍历链表，用尾插法生成两个链表，分别存放小于目标值x的节点和大于等于x的节点，然后将两个链表连接起来。
+// ![image.png](https://pic.leetcode-cn.com/8d6cca11115d83b3b280807bdcf5bf632e842be9e2c0d9bb894d3acd3f81c1d6-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ public:
         return Lhead->next;
     }
 };
-```
+// ```

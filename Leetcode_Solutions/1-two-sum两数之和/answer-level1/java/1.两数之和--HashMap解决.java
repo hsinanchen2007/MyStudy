@@ -1,14 +1,14 @@
-### 解题思路
-利用HashMap存储键值集的特性遍历数组元素来存储数值与下标，并循环校验与匹配补数。
+// ### 解题思路
+// 利用HashMap存储键值集的特性遍历数组元素来存储数值与下标，并循环校验与匹配补数。
 
-### 时间复杂度
-### O(n)
-### 空间复杂度
-### O(1)
+// ### 时间复杂度
+// ### O(n)
+// ### 空间复杂度
+// ### O(1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
@@ -37,4 +37,4 @@ class Solution {
         return new int[2];
     }  
 }
-```
+// ```

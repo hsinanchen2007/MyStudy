@@ -1,17 +1,17 @@
-执行用时: 8~12 ms  内存消耗: 5.6 MB
+// 执行用时: 8~12 ms  内存消耗: 5.6 MB
 
-### 解题思路
-转化为2个有序数组按整体 index 取值的问题。
+// ### 解题思路
+// 转化为2个有序数组按整体 index 取值的问题。
 
-代入 nums1 的索引值，如果小了就提升下界，大了就降低上界。
+// 代入 nums1 的索引值，如果小了就提升下界，大了就降低上界。
 
-参考了 [@nojoker 的题解](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/jiang-qi-zhuan-wei-zhao-liang-ge-you-xu-shu-zu-de-/)
+// 参考了 [@nojoker 的题解](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/jiang-qi-zhuan-wei-zhao-liang-ge-you-xu-shu-zu-de-/)
 
-但我没看懂他公式的含义，自己重新又推了一遍。
+// 但我没看懂他公式的含义，自己重新又推了一遍。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func getFromSortedArrays(nums1, nums2 []int, index int) int {
     if len(nums1) == 0 {
         return nums2[index]
@@ -74,4 +74,4 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
     }
     return float64(getFromSortedArrays(nums1, nums2, leftIndex))
 }
-```
+// ```

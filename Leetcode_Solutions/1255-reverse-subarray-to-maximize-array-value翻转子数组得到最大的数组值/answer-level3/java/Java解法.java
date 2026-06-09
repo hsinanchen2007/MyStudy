@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
    public int maxValueAfterReverse(int[] nums) {
     	int ans=0,all=0;
@@ -24,4 +24,4 @@ class Solution {
     	return all+ans;
     }
 }
-```
+// ```

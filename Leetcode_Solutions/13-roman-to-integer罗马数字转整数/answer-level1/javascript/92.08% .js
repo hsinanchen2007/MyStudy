@@ -1,10 +1,10 @@
-### 解题思路
-利用map对罗马数字进行映射关系
-看了大佬的解题 才理解罗马数字的左右关系
+// ### 解题思路
+// 利用map对罗马数字进行映射关系
+// 看了大佬的解题 才理解罗马数字的左右关系
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -19,4 +19,4 @@ const romanToInt = s => {
     }
     return res
 };
-```
+// ```

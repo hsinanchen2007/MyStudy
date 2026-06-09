@@ -1,5 +1,5 @@
-参考官方题解，改写成了动态规划写法
-```
+// 参考官方题解，改写成了动态规划写法
+// ```
 class Solution {
 public:
     vector<int> beautifulArray(int N) {
@@ -18,5 +18,5 @@ public:
         return dp[N];
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/b7854e810b841ad9f343b17a7712de712766ac99a59ce982947ab59cc111d5ad-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/b7854e810b841ad9f343b17a7712de712766ac99a59ce982947ab59cc111d5ad-image.png)

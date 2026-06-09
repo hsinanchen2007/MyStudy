@@ -1,9 +1,9 @@
-### 解题思路
-先O(n log n)排序，然后判断重复。
+// ### 解题思路
+// 先O(n log n)排序，然后判断重复。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findDuplicate(int[] nums) {
         Arrays.sort(nums);
@@ -15,4 +15,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

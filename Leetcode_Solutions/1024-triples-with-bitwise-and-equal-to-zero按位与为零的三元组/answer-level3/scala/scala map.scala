@@ -1,4 +1,4 @@
-```scala
+// ```scala
 import scala.collection.mutable
 
 object Solution {
@@ -8,4 +8,4 @@ object Solution {
     A.flatMap(x => A.map(y => m.getOrElseUpdate(x & y, 0))).toList.sum
   }
 }
-```
+// ```

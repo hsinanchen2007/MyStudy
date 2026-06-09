@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
   
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 //using System.Collections.Generic;
 public class Solution {
     public bool IsValid(string s) {
@@ -26,4 +26,4 @@ public class Solution {
         return sta.Count == 0;
     }
 }
-```
+// ```

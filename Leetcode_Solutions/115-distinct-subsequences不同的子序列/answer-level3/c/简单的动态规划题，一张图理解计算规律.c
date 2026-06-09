@@ -1,10 +1,10 @@
-动态规划，使用二维数组辅助，规律很简单，直接看图。
-先计算第一行第一列，然后从第二行第二列开始逐行计算。
-最后一行之和即为答案。
-![image.png](https://pic.leetcode-cn.com/cea5d406502ef1af1a5367f74b75424640db013db96d6b12b9d375774822631b-image.png)
-![image.png](https://pic.leetcode-cn.com/a3295ee8e71e2fc6328ceaa97cef5fc6590a123f756e57a75ade88082062ce6c-image.png)
+// 动态规划，使用二维数组辅助，规律很简单，直接看图。
+// 先计算第一行第一列，然后从第二行第二列开始逐行计算。
+// 最后一行之和即为答案。
+// ![image.png](https://pic.leetcode-cn.com/cea5d406502ef1af1a5367f74b75424640db013db96d6b12b9d375774822631b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a3295ee8e71e2fc6328ceaa97cef5fc6590a123f756e57a75ade88082062ce6c-image.png)
 
-```c
+// ```c
 int numDistinct(char * s, char * t){
     int slen = strlen(s);
     int tlen = strlen(t);
@@ -29,5 +29,5 @@ int numDistinct(char * s, char * t){
     }
     return sum;
 }
-```
-![image.png](https://pic.leetcode-cn.com/7a0d4ffc22c97f3203428886b25b385440fe2d1f6b33b8bcc8b4ccefa3999d07-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/7a0d4ffc22c97f3203428886b25b385440fe2d1f6b33b8bcc8b4ccefa3999d07-image.png)

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestWord(self, words: List[str]) -> str:
         # 通过排序优化，直接找到最优值
@@ -17,4 +17,4 @@ class Solution:
             if dfs(words[idx+1:], w):
                 return w 
         return ''
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-典型的BFS，采用数组队列，比较简单
+// ### 解题思路
+// 典型的BFS，采用数组队列，比较简单
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -66,4 +66,4 @@ int** updateMatrix(int** matrix, int matrixSize, int* matrixColSize, int* return
     //return NULL;
     return returnMatrix;
 }
-```
+// ```

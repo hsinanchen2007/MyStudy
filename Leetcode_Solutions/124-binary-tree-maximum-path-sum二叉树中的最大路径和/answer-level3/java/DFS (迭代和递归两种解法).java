@@ -1,5 +1,5 @@
-### 使用迭代解法
-```java
+// ### 使用迭代解法
+// ```java
 class Solution {
     public int maxPathSum(TreeNode root) {
         // 1. 判空
@@ -37,10 +37,10 @@ class Solution {
         return result;
     }
 }
-```
+// ```
 
-### 使用递归解法
-```java
+// ### 使用递归解法
+// ```java
 class Solution {
     private int maxSum = Integer.MIN_VALUE;
 
@@ -65,4 +65,4 @@ class Solution {
         return node.val + Math.max(left, right);
     }
 }
-```
+// ```

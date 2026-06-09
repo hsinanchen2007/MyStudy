@@ -1,18 +1,18 @@
-### 解题思路
-先排序
-lastLeft是指房子i最左边的暖气heaters[lastLeft]，房子i+1寻找从 heaters[lastLeft]~房子i+1右边的第一个暖气位置 之间的暖气
-找出每个房子和与其最近（最小值）的暖气距离
-取所有距离的最大值
+// ### 解题思路
+// 先排序
+// lastLeft是指房子i最左边的暖气heaters[lastLeft]，房子i+1寻找从 heaters[lastLeft]~房子i+1右边的第一个暖气位置 之间的暖气
+// 找出每个房子和与其最近（最小值）的暖气距离
+// 取所有距离的最大值
 
 
-参考
-作者：ikaruga
-链接：https://leetcode-cn.com/problems/heaters/solution/heaters-by-ikaruga/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-### 代码
+// 参考
+// 作者：ikaruga
+// 链接：https://leetcode-cn.com/problems/heaters/solution/heaters-by-ikaruga/
+// 来源：力扣（LeetCode）
+// 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+// ### 代码
 
-```c
+// ```c
 int abs(int Num)
 {
     return Num>0?Num:Num*(-1);
@@ -52,4 +52,4 @@ int findRadius(int* houses, int housesSize, int* heaters, int heatersSize){
     }
     return maxDistance;
 }
-```
+// ```

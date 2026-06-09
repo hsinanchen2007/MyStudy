@@ -1,6 +1,6 @@
-复杂度为 `O(n)` 的滑动窗口解法比较容易懂，大家可以看看其他人的解法。
-这里用 `python` 写了个比较容易看懂的时间复杂度为 `O(nlogn)` 解法，结合注释理解起来应该没有难度了，有问题欢迎留言。
-```python
+# 复杂度为 `O(n)` 的滑动窗口解法比较容易懂，大家可以看看其他人的解法。
+# 这里用 `python` 写了个比较容易看懂的时间复杂度为 `O(nlogn)` 解法，结合注释理解起来应该没有难度了，有问题欢迎留言。
+# ```python
 class Solution:
     def minSubArrayLen(self, s: int, nums) -> int:
         if nums is None or len(nums) == 0:
@@ -41,4 +41,4 @@ class Solution:
                 low = mid + 1
         return -1
 
-```
+# ```

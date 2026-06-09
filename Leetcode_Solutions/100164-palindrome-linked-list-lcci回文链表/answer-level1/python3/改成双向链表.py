@@ -1,13 +1,13 @@
-### 解题思路
-思路很简单：
-1， 给ListNode添加prev属性，编程双向链表
-2， 然后从头到位和从尾部到头部进行比较就行，
+# ### 解题思路
+# 思路很简单：
+# 1， 给ListNode添加prev属性，编程双向链表
+# 2， 然后从头到位和从尾部到头部进行比较就行，
 
-事件复杂度O(n)
-空间复杂度O(1)
-### 代码
+# 事件复杂度O(n)
+# 空间复杂度O(1)
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
         
         return True
         
-```
+# ```

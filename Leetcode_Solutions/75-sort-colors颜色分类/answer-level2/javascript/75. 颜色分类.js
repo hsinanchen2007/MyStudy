@@ -1,6 +1,6 @@
-#### 解法一：计数排序
-+ [思路完全同 - 经典排序算法讲解 - 计数排序](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/BitOperation%E4%BD%8D%E8%BF%90%E7%AE%97%E3%80%81Bloom%20Filter%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8%E3%80%81LRU%20Cache%E7%BC%93%E5%AD%98%E3%80%81Sorting%20algorithm%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95.md)
-```javascript
+// #### 解法一：计数排序
+// + [思路完全同 - 经典排序算法讲解 - 计数排序](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/BitOperation%E4%BD%8D%E8%BF%90%E7%AE%97%E3%80%81Bloom%20Filter%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8%E3%80%81LRU%20Cache%E7%BC%93%E5%AD%98%E3%80%81Sorting%20algorithm%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95.md)
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -24,9 +24,9 @@ var sortColors = function(nums) {
     }
     return countSort(nums,2);
 };
-```
-#### 解法二：两路替换
-```javascript
+// ```
+// #### 解法二：两路替换
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -48,10 +48,10 @@ var sortColors = function(nums) {
         }
     }
 };
-```
-#### 解法三：一次遍历
-+ 解法二的 while 版
-```javascript
+// ```
+// #### 解法三：一次遍历
+// + 解法二的 while 版
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -75,9 +75,9 @@ var sortColors = function(nums) {
         }
     }
 };
-```
-+ 或者这样写也可
-```javascript
+// ```
+// + 或者这样写也可
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -98,4 +98,4 @@ var sortColors = function(nums) {
         i++;
     }
 };
-```
+// ```

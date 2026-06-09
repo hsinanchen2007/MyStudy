@@ -1,10 +1,10 @@
-这里有个有意思的地方，如果链表里面有环的话，你去循环就会无限循环下去，当是你不循环你又不知道链表下一个结点是什么。先不管官方的进阶，我们先实现基础。
+# 这里有个有意思的地方，如果链表里面有环的话，你去循环就会无限循环下去，当是你不循环你又不知道链表下一个结点是什么。先不管官方的进阶，我们先实现基础。
 
-## 方法1：暴力破解-利用地址
+# ## 方法1：暴力破解-利用地址
 
-于是我首先想到的是通过结点的id来判断，遍历每个结点时候把这个结点的id记录下来
+# 于是我首先想到的是通过结点的id来判断，遍历每个结点时候把这个结点的id记录下来
 
-```python
+# ```python
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
         id_list = []
@@ -14,11 +14,11 @@ class Solution:
             id_list.append(id(head))
             head = head.next
         return False
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :1868 ms, 在所有 Python3 提交中击败了5.01% 的用户
 内存消耗 :16.5 MB, 在所有 Python3 提交中击败了5.27%的用户
 
@@ -27,11 +27,11 @@ class Solution:
 
 执行用时 :1092 ms, 在所有 Python3 提交中击败了5.01% 的用户
 内存消耗 :16.5 MB, 在所有 Python3 提交中击败了5.27%的用户
-```
+# ```
 
-速度有点夸张哈，突然想到可以用set啊！！！
+# 速度有点夸张哈，突然想到可以用set啊！！！
 
-```python
+# ```python
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
         id_list = set()
@@ -41,11 +41,11 @@ class Solution:
             id_list.add(id(head))
             head = head.next
         return False
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :68 ms, 在所有 Python3 提交中击败了33.16% 的用户
 内存消耗 :17 MB, 在所有 Python3 提交中击败了5.27%的用户
 
@@ -54,15 +54,15 @@ class Solution:
 
 执行用时 :64 ms, 在所有 Python3 提交中击败了38.46% 的用户
 内存消耗 :17.1 MB, 在所有 Python3 提交中击败了5.27%的用户
-```
+# ```
 
-速度差了不是一点两点哈！！！老是忘记部分情况下可以用set来替换list。
+# 速度差了不是一点两点哈！！！老是忘记部分情况下可以用set来替换list。
 
-## 方法2：修改结点value值
+# ## 方法2：修改结点value值
 
-那现在开始分析一下进阶，常数空间也就是说我们不能保存那么多的遍历id了。机智的我想到了动head.val，对于每个遍历过的结点我都去修改它的value值（滑稽）当然这不是个好办法，毕竟改变了原数据，但是也算一种方法吧，这里符合进阶的条件
+# 那现在开始分析一下进阶，常数空间也就是说我们不能保存那么多的遍历id了。机智的我想到了动head.val，对于每个遍历过的结点我都去修改它的value值（滑稽）当然这不是个好办法，毕竟改变了原数据，但是也算一种方法吧，这里符合进阶的条件
 
-```python
+# ```python
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
         if not head: return False
@@ -71,9 +71,9 @@ class Solution:
             head.val = "遍历过了"
             head = head.next
         return False
-```
+# ```
 
-```
+# ```
 执行用时 :64 ms, 在所有 Python3 提交中击败了38.46% 的用户
 内存消耗 :16.2 MB, 在所有 Python3 提交中击败了16.66%的用户
 
@@ -82,17 +82,17 @@ class Solution:
 
 执行用时 :60 ms, 在所有 Python3 提交中击败了47.38% 的用户
 内存消耗 :16.5 MB, 在所有 Python3 提交中击败了5.27%的用户
-```
+# ```
 
-肯定是还有其他的方法的（毕竟这里的速度明显不是很快）
+# 肯定是还有其他的方法的（毕竟这里的速度明显不是很快）
 
-想了半天还是没有结果，去看看答案
+# 想了半天还是没有结果，去看看答案
 
-## 方法3：双指针
+# ## 方法3：双指针
 
-我看完之后直呼内涵，牛逼啊，我咋没想到还有快慢指针这种东西，佩服佩服！
+# 我看完之后直呼内涵，牛逼啊，我咋没想到还有快慢指针这种东西，佩服佩服！
 
-```python
+# ```python
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
         if not head: return False
@@ -104,11 +104,11 @@ class Solution:
             faster = faster.next.next
         # 能循环结束自然不是环
         return False
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :88 ms, 在所有 Python3 提交中击败了17.82% 的用户
 内存消耗 :16.9 MB, 在所有 Python3 提交中击败了5.27%的用户
 
@@ -117,10 +117,10 @@ class Solution:
 
 执行用时 :40 ms, 在所有 Python3 提交中击败了99.28% 的用户
 内存消耗 :16.7 MB, 在所有 Python3 提交中击败了5.27%的用户
-```
+# ```
 
 
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
 
   

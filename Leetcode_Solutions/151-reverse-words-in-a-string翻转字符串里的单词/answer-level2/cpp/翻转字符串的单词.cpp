@@ -1,6 +1,6 @@
-我佛了，有没有大神帮我看一下注释那里为什么不能用substr
+// 我佛了，有没有大神帮我看一下注释那里为什么不能用substr
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -31,4 +31,4 @@ public:
         return res;
     }
 };
-```
+// ```

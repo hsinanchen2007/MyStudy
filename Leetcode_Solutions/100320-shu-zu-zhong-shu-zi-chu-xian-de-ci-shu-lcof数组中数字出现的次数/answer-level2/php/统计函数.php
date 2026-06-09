@@ -1,9 +1,9 @@
-### 解题思路
-php数组统计函数
+// ### 解题思路
+// php数组统计函数
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -30,4 +30,4 @@ class Solution {
 		return array_keys($newTempMap);
     }
 }
-```
+// ```

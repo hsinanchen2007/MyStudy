@@ -1,4 +1,4 @@
-```
+// ```
 func searchMatrix(matrix [][]int, target int) bool {
     //判断矩阵是否有效
     y := len(matrix)
@@ -42,4 +42,4 @@ func twosearch(m []int, target int) bool {
     }
     return m[i] == target
 }
-```
+// ```

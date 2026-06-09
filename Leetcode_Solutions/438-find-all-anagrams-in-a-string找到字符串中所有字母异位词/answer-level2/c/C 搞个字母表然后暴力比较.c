@@ -1,6 +1,6 @@
-搞字母表暴力比，1680ms，哈哈，然后在优化下，不用每次都重新计算hash表。
-优化前：
-```
+// 搞字母表暴力比，1680ms，哈哈，然后在优化下，不用每次都重新计算hash表。
+// 优化前：
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -64,9 +64,9 @@ int* findAnagrams(char * s, char * p, int* returnSize){
     }
     return res;
 }
-```
-优化后，移动窗口，不用重复计算S的hash，可以达到30ms以内：
-```
+// ```
+// 优化后，移动窗口，不用重复计算S的hash，可以达到30ms以内：
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -137,5 +137,5 @@ int* findAnagrams(char * s, char * p, int* returnSize){
     }
     return res;
 }
-```
+// ```
 

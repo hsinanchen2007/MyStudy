@@ -1,4 +1,4 @@
-```
+// ```
 public int minimumSwap(String s1, String s2) {
     // step1. 对比数组长度, 如果不一致则直接 -1 如果 两个字符串equals 则直接 0
     if (s1.length() != s2.length()) {
@@ -62,4 +62,4 @@ public int minimumSwap(String s1, String s2) {
 
     return count;
 }
-```
+// ```

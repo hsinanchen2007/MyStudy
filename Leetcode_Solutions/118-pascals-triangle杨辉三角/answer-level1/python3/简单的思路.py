@@ -1,7 +1,7 @@
-记住前一行的状态
-### 代码
+# 记住前一行的状态
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         if not numRows:
@@ -24,4 +24,4 @@ class Solution:
 
 
 
-```
+# ```

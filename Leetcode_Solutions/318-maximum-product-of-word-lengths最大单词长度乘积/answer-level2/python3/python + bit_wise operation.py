@@ -1,4 +1,4 @@
-```python
+# ```python
 from functools import reduce
 class Solution:
     def maxProduct(self, words: List[str]) -> int:
@@ -9,4 +9,4 @@ class Solution:
                 if bit_arr[i] & bit_arr[j] == 0: 
                     res = max(res, len(words[i]) * len(words[j]))
         return res
-```
+# ```

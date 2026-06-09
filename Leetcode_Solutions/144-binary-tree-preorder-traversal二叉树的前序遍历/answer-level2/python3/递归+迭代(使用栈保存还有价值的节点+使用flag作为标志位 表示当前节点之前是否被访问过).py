@@ -1,5 +1,5 @@
-1.递归实现(就是深度优先搜索)
-```
+# 1.递归实现(就是深度优先搜索)
+# ```
 class Solution:
 	def preorderTraversal(self,root):
 		ans=[]
@@ -10,10 +10,10 @@ class Solution:
 				helper(root.right) #当前节点的左子树访问完毕 深度优先访问当前节点的右儿子节点
 		helper(root)
 		return ans
-```
+# ```
 
-2.迭代实现(思路见标题 主要的语句都添加了注释 以下代码仅供参考 请大家多多指教)
-```
+# 2.迭代实现(思路见标题 主要的语句都添加了注释 以下代码仅供参考 请大家多多指教)
+# ```
 class Solution:
 	def preorderTraversal(self,root):
 		ans=[]
@@ -34,4 +34,4 @@ class Solution:
 						stack.append(tmp.right)
 						flag=True #因为下次注定访问当前节点的右儿子节点 而它之前未被访问过 所以将flag标志位置为True
 		return ans
-```
+# ```

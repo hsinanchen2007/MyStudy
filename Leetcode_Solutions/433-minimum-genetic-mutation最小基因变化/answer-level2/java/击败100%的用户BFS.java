@@ -1,9 +1,9 @@
-### 解题思路
-同一种方法BFS为什么这道题这麽快？？？？？
+// ### 解题思路
+// 同一种方法BFS为什么这道题这麽快？？？？？
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private boolean EndSymbol;
     private int res;
@@ -48,4 +48,4 @@ class Solution {
         }
     }
 }
-```
+// ```

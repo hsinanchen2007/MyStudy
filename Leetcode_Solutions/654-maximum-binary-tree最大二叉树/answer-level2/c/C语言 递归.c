@@ -1,9 +1,9 @@
-### 解题思路
-仅作为C语言参考代码
+// ### 解题思路
+// 仅作为C语言参考代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ struct TreeNode* recurContruct(int* nums, int low, int high){
 struct TreeNode* constructMaximumBinaryTree(int* nums, int numsSize){
     return recurContruct(nums, 0, numsSize - 1);
 }
-```
+// ```

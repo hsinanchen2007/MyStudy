@@ -1,9 +1,9 @@
-### 解题思路
-求next数组
+// ### 解题思路
+// 求next数组
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 void get_next(char *needle,int *next,int len){
     next[0]=-1;
@@ -59,4 +59,4 @@ int strStr(char * haystack, char * needle){
 }
 
 
-```
+// ```

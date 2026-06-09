@@ -1,11 +1,11 @@
-### 解题思路
-先把p字符串的每个元素和其数量存入unordered>map<char,int> mp2中
-再使用双指针，来遍历s字符串并不断判断
-![image.png](https://pic.leetcode-cn.com/3dde96a391875fea9002573cf074f981a7c347023d32875ecb9ddb5b7aadfaab-image.png)
+// ### 解题思路
+// 先把p字符串的每个元素和其数量存入unordered>map<char,int> mp2中
+// 再使用双指针，来遍历s字符串并不断判断
+// ![image.png](https://pic.leetcode-cn.com/3dde96a391875fea9002573cf074f981a7c347023d32875ecb9ddb5b7aadfaab-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
@@ -38,4 +38,4 @@ public:
 
     }
 };
-```
+// ```

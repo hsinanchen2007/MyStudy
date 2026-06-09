@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/352f237c150c5148893c6a2138079f363fe81d0ecd09643e9fe023c153ad1add-image.png)
+// ![image.png](https://pic.leetcode-cn.com/352f237c150c5148893c6a2138079f363fe81d0ecd09643e9fe023c153ad1add-image.png)
 
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 
 var UndergroundSystem = function() {
   this.trip = []; // 记录行程的趟数和总时间
@@ -41,4 +41,4 @@ UndergroundSystem.prototype.getAverageTime = function(startStation, endStation) 
   let [totalCost, nums] = trip[ startStation ][ endStation ];
   return totalCost / nums;
 };
-```
+// ```

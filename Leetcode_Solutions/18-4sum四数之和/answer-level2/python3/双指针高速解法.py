@@ -1,27 +1,27 @@
-### 解题思路
-本题是三数之和的进阶题目，强烈建议您先看三数之和的 [解题思路](https://leetcode-cn.com/problems/3sum/solution/pai-xu-shuang-zhi-zhen-tu-jie-by-ml-zimingmeng/)，看过之后再来看本题目，思路也就非常清晰了。
+# ### 解题思路
+# 本题是三数之和的进阶题目，强烈建议您先看三数之和的 [解题思路](https://leetcode-cn.com/problems/3sum/solution/pai-xu-shuang-zhi-zhen-tu-jie-by-ml-zimingmeng/)，看过之后再来看本题目，思路也就非常清晰了。
 
-具体来说，对比三数之和最快的双指针方法，我们只需在外层在嵌套一层循环即可。这样时间复杂度将从 $O(N^2)$ 变为 $O(N^3)$。
+# 具体来说，对比三数之和最快的双指针方法，我们只需在外层在嵌套一层循环即可。这样时间复杂度将从 $O(N^2)$ 变为 $O(N^3)$。
 
-### 有没有更快的解法
+# ### 有没有更快的解法
 
->[维基百科](https://en.wikipedia.org/wiki/3SUM) 中提到了三数之和小于 $O(N^2)$ 的时间复杂度的解法，因此四数之和的时间复杂度理论上可以小于 $O(N^3)$，但是我认为有些“超纲了”，没必要掌握。
+# >[维基百科](https://en.wikipedia.org/wiki/3SUM) 中提到了三数之和小于 $O(N^2)$ 的时间复杂度的解法，因此四数之和的时间复杂度理论上可以小于 $O(N^3)$，但是我认为有些“超纲了”，没必要掌握。
 
-我们仍然可以在 $O(N^3)$ 的时间复杂度内通过增加条件判断使得速度得到很大提升。主要考虑以下几点：
+# 我们仍然可以在 $O(N^3)$ 的时间复杂度内通过增加条件判断使得速度得到很大提升。主要考虑以下几点：
 
-1. 指针依次是 `p,k,i,j`，如果 `nums[p] + 3 * nums[p + 1] > target`，因为 `nums` 按升序排列，所以之后的数肯定都大于 `target` ，直接 `break`；
+# 1. 指针依次是 `p,k,i,j`，如果 `nums[p] + 3 * nums[p + 1] > target`，因为 `nums` 按升序排列，所以之后的数肯定都大于 `target` ，直接 `break`；
 
-2. 如果 `nums[p] + 3 * nums[-1] < target`，那么当前的 `nums[p]` 加其余三个数一定小于 `target`，故 `p` 直接下一位即可，`continue`；
+# 2. 如果 `nums[p] + 3 * nums[-1] < target`，那么当前的 `nums[p]` 加其余三个数一定小于 `target`，故 `p` 直接下一位即可，`continue`；
 
-3. `k` 和 `p` 判断完全一样，只是将 `3` 变成了 `2`，`target` 变成了 `target - nums[p]`。
+# 3. `k` 和 `p` 判断完全一样，只是将 `3` 变成了 `2`，`target` 变成了 `target - nums[p]`。
 
-同样地，为了避免结果重复，某个指针遇到相同的数需要直接跳过，这与三数之和是一样的。
+# 同样地，为了避免结果重复，某个指针遇到相同的数需要直接跳过，这与三数之和是一样的。
 
 
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         nums.sort()
@@ -59,9 +59,9 @@ class Solution:
             while p < n - 4 and nums[p] == nums[p + 1]: p += 1
             p += 1
         return res
-```
+# ```
 
-```c++ []
+# ```c++ []
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -108,15 +108,15 @@ public:
     }
 };
 
-```
-### 复杂度分析
-- 时间复杂度：$O(N^3)$。
-- 空间复杂度：$O(1)$。
+# ```
+# ### 复杂度分析
+# - 时间复杂度：$O(N^3)$。
+# - 空间复杂度：$O(1)$。
 
-如有您有任何想法，欢迎下方留言一起讨论~
+# 如有您有任何想法，欢迎下方留言一起讨论~
 
-### 相关题目
+# ### 相关题目
 
-- [1.两数之和](https://leetcode-cn.com/problems/two-sum/solution/tu-jie-ha-xi-biao-by-ml-zimingmeng/)
-- [15.三数之和](https://leetcode-cn.com/problems/3sum/solution/pai-xu-shuang-zhi-zhen-tu-jie-by-ml-zimingmeng/)
-- [454. 四数相加 II](https://leetcode-cn.com/problems/4sum-ii/)
+# - [1.两数之和](https://leetcode-cn.com/problems/two-sum/solution/tu-jie-ha-xi-biao-by-ml-zimingmeng/)
+# - [15.三数之和](https://leetcode-cn.com/problems/3sum/solution/pai-xu-shuang-zhi-zhen-tu-jie-by-ml-zimingmeng/)
+# - [454. 四数相加 II](https://leetcode-cn.com/problems/4sum-ii/)

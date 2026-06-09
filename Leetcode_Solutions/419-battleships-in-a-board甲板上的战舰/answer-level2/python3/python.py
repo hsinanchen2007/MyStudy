@@ -1,8 +1,8 @@
-### 解题思路
-逐个查找x，如果既不是首行首例列，左边和上边都不为空就不计算。
-### 代码
+# ### 解题思路
+# 逐个查找x，如果既不是首行首例列，左边和上边都不为空就不计算。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countBattleships(self, board: List[List[str]]) -> int:
         num_ship = 0
@@ -13,4 +13,4 @@ class Solution:
                         continue
                     num_ship+=1
         return num_ship
-```
+# ```

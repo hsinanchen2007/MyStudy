@@ -1,6 +1,6 @@
-参考了其他人的做法，不新建链表，靠修改l1的值来完成，l1不够长就把l2接上。理论上讲内存应该能少占些，但是并没有降，不知道是怎么回事
+# 参考了其他人的做法，不新建链表，靠修改l1的值来完成，l1不够长就把l2接上。理论上讲内存应该能少占些，但是并没有降，不知道是怎么回事
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution(object):
                 flag = (l1.val + flag) / 10
                 l1.val = value
         return head
-```
+# ```

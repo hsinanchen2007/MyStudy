@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX 1000000
 bool dfs(int x, int y, int z, int left, int* visited) {
     if (left > x+y || left < 0) return false;
@@ -17,4 +17,4 @@ bool canMeasureWater(int x, int y, int z){
     memset(visited, 0, sizeof(visited));
     return dfs(x, y, z, 0, visited);
 }
-```
+// ```

@@ -1,5 +1,5 @@
-DFS有点坑
-```
+// DFS有点坑
+// ```
 class Solution {
     public boolean isBipartite(int[][] graph) {
         boolean[] visit = new boolean[graph.length];
@@ -47,9 +47,9 @@ class Solution {
         return true;
     }
 }
-```
-DFS优化1：注意什么时候dfs为true，不可以直接返回，否则导致，后续节点不能遍历（还可以优化）
-```
+// ```
+// DFS优化1：注意什么时候dfs为true，不可以直接返回，否则导致，后续节点不能遍历（还可以优化）
+// ```
 class Solution {
     public boolean isBipartite(int[][] graph) {
         boolean[] visit = new boolean[graph.length];
@@ -87,6 +87,6 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
 

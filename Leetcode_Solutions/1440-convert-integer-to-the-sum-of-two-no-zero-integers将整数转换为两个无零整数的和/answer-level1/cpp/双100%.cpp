@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/b69da01354d8b1ddbc568f275204be919c4b1586f3b6643cc24866a2a12ba6df-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b69da01354d8b1ddbc568f275204be919c4b1586f3b6643cc24866a2a12ba6df-image.png)
 
-```
+// ```
 class Solution {
 public:
     int countZeros(int num)
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

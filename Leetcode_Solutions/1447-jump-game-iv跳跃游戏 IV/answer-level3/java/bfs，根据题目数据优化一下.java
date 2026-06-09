@@ -1,10 +1,10 @@
-### 解题思路
-直接用bfs超时了，后面有一个数据是一串很长7连着什么的
-所以对连在一起的相同数据进行合并一下，生成一个新数组
+// ### 解题思路
+// 直接用bfs超时了，后面有一个数据是一串很长7连着什么的
+// 所以对连在一起的相同数据进行合并一下，生成一个新数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 class Solution {
     public static int minJumps(int[] arr) {
@@ -87,4 +87,4 @@ class JumpNode {
         this.cost = cost;
     }
 }
-```
+// ```

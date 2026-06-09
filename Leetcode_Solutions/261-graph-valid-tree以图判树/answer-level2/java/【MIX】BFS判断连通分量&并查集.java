@@ -1,11 +1,11 @@
-### 解题思路
-1. BFS遍历图, 如果连通分量为1则说明是树
-2. 并查集
+// ### 解题思路
+// 1. BFS遍历图, 如果连通分量为1则说明是树
+// 2. 并查集
 
-### 代码
+// ### 代码
 
-**BFS**
-```java []
+// **BFS**
+// ```java []
 class Solution {
     public boolean validTree(int n, int[][] edges) {
         // bfs
@@ -49,8 +49,8 @@ class Solution {
         return graph;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
         # bfs
@@ -83,8 +83,8 @@ class Solution:
             graph[edge[1]].add(edge[0])
 
         return graph
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     bool validTree(int n, vector<vector<int>>& edges) {
@@ -133,11 +133,11 @@ private:
         return graph;
     }
 };
-```
+// ```
 
-**并查集**
+// **并查集**
 
-```java []
+// ```java []
 class Solution {
     private class UnionFind{
         public UnionFind(int n){
@@ -199,8 +199,8 @@ class Solution {
 
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
         # 并查集
@@ -249,8 +249,8 @@ class UnionFind:
 
     def getSc(self):
         return self.sc
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     bool validTree(int n, vector<vector<int>>& edges) {
@@ -314,4 +314,4 @@ private:
         }
     };
 };
-```
+// ```

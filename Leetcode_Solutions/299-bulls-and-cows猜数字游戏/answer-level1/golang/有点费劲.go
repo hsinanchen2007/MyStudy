@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/78678b18ce5cb76a87cd9cc1d9bfaa671b224d6c999625b5cfc05466d18b14d6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/78678b18ce5cb76a87cd9cc1d9bfaa671b224d6c999625b5cfc05466d18b14d6-image.png)
 
-```
+// ```
 func getHint(secret string, guess string) string {
 	var countA int = 0
 	var countB int = 0
@@ -35,4 +35,4 @@ func getHint(secret string, guess string) string {
 	// fmt.Println(countB)
 	return fmt.Sprintf("%dA%dB", nb, nc)
 }
-```
+// ```

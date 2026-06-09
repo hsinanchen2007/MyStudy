@@ -1,10 +1,10 @@
-### 解题思路
-其实这道题的思路和不允许重复的是一样的，只是把字典中存储的单个索引换成了set（或者数组）
-不清楚 set 的 pop方法是不是 o（1）的，如果不是，可以换成 list
+# ### 解题思路
+# 其实这道题的思路和不允许重复的是一样的，只是把字典中存储的单个索引换成了set（或者数组）
+# 不清楚 set 的 pop方法是不是 o（1）的，如果不是，可以换成 list
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import random
 class RandomizedCollection:
 
@@ -64,4 +64,4 @@ class RandomizedCollection:
 # param_1 = obj.insert(val)
 # param_2 = obj.remove(val)
 # param_3 = obj.getRandom()
-```
+# ```

@@ -1,6 +1,6 @@
 
 
-```
+# ```
 class Solution:
     def numDecodings(self, s):
         # dic = {chr(ord('A')+i):i+1 for i in range(26)}
@@ -18,4 +18,4 @@ class Solution:
         return dp[-1]
 
 print(Solution().numDecodings('12102'))
-```
+# ```

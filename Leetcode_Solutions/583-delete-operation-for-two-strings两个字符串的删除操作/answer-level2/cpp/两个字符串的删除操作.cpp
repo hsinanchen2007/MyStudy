@@ -1,10 +1,10 @@
-### 解题思路
-动态规划
-字符串长度分别为n1, n2, 最长公共子序列长度为m，那么res ＝ n1 + n2 - 2m;
+// ### 解题思路
+// 动态规划
+// 字符串长度分别为n1, n2, 最长公共子序列长度为m，那么res ＝ n1 + n2 - 2m;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -23,4 +23,4 @@ public:
         return n1+n2-2*dp[n1][n2];
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-思路为滑动窗口
-生成tmp数组时采用了js提供的一些方法
+// ### 解题思路
+// 思路为滑动窗口
+// 生成tmp数组时采用了js提供的一些方法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -25,4 +25,4 @@ var findContinuousSequence = function (target) {
     }
     return res;
 };
-```
+// ```

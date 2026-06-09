@@ -1,9 +1,9 @@
-### 解题思路
-直接将array中的数值送入map中进行计数然后返回超过百分之25的键值对应的键
+// ### 解题思路
+// 直接将array中的数值送入map中进行计数然后返回超过百分之25的键值对应的键
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findSpecialInteger(vector<int>& arr) {
@@ -22,4 +22,4 @@ public:
         
     }
 };
-```
+// ```

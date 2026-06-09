@@ -1,4 +1,4 @@
-```
+// ```
 /*
     字符串存放方式：
       0   1   2    3
@@ -106,4 +106,4 @@ char * multiply(char * num1, char * num2){
     
     return &result[valueindex];
 }
-```
+// ```

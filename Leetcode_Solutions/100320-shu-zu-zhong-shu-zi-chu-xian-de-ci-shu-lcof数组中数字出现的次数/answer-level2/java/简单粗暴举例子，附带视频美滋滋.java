@@ -1,10 +1,10 @@
-### 解题思路
-看那么多字不如举个栗子吧，这个肯定能看懂。
-![leecode.mp4](4cf6a5ca-ff2a-4c9d-8bdb-6d854d6f9ade)
+// ### 解题思路
+// 看那么多字不如举个栗子吧，这个肯定能看懂。
+// ![leecode.mp4](4cf6a5ca-ff2a-4c9d-8bdb-6d854d6f9ade)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] singleNumbers(int[] nums) {
         int xor = 0;
@@ -28,4 +28,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

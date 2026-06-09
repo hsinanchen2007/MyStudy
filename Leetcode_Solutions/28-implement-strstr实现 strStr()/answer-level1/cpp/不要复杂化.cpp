@@ -1,8 +1,8 @@
-### 解题思路
-不要复杂化
-### 代码
+// ### 解题思路
+// 不要复杂化
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -32,4 +32,4 @@ public:
         return -1;
     }
 };
-```
+// ```

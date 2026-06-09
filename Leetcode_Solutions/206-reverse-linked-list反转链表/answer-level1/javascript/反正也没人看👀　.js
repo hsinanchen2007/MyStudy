@@ -1,6 +1,6 @@
-列表处理
+// 列表处理
 
-```javascript []
+// ```javascript []
 /**
  * @param {ListNode} head
  * @return {ListNode}
@@ -22,4 +22,4 @@ var reverseList = function(head) {
   }
   return list[0]
 }
-```
+// ```

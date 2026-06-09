@@ -1,13 +1,13 @@
-### 解题思路
-前序遍历数组的第一个值即为当前节点的值，
+// ### 解题思路
+// 前序遍历数组的第一个值即为当前节点的值，
 
-在中序遍历中，该值左边的元素构成左子树，右边的元素构成右子树。
+// 在中序遍历中，该值左边的元素构成左子树，右边的元素构成右子树。
 
-递归实现。
+// 递归实现。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -31,8 +31,8 @@ var buildTree = function(preorder, inorder) {
     }
     return build(inorder);
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(N)
-- 空间复杂度 O(1)
+// ### 复杂度
+// - 时间复杂度 O(N)
+// - 空间复杂度 O(1)

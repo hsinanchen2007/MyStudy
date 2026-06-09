@@ -1,4 +1,4 @@
-```
+// ```
 
 /**
 *
@@ -204,4 +204,4 @@ char ** subdomainVisits( char ** cpdomains , int cpdomainsSize , int * returnSiz
     return buffer;
 
 }
-```
+// ```

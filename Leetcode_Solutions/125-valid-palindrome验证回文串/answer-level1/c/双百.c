@@ -1,5 +1,5 @@
-解题思路：先把字符串整理一下，再对照两端是否一致。
-```
+// 解题思路：先把字符串整理一下，再对照两端是否一致。
+// ```
 bool isPalindrome(char * s){
 	int i, j, len = strlen(s);
 	for (i = j = 0; j < len; j++) {
@@ -16,5 +16,5 @@ bool isPalindrome(char * s){
 	}
 	return true;
 }
-```
+// ```
 

@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -39,4 +39,4 @@ Node* copyRandomList(Node* head) {
 	return first_node;
 }
 };
-```
+// ```

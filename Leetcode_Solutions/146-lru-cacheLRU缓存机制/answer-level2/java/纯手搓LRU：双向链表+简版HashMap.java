@@ -1,8 +1,8 @@
-执行用时 :18 ms, 在所有 Java 提交中击败了98.01%的用户。内存消耗 :48.2 MB, 在所有 Java 提交中击败了100.00%的用户
+// 执行用时 :18 ms, 在所有 Java 提交中击败了98.01%的用户。内存消耗 :48.2 MB, 在所有 Java 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.Objects;
 
 public class LRUCache {
@@ -202,4 +202,4 @@ public class LRUCache {
     }
 }
 
-```
+// ```

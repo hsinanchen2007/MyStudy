@@ -1,4 +1,4 @@
-```python
+# ```python
 from collections import defaultdict
 class Solution:
     def pathWithObstacles(self,
@@ -34,4 +34,4 @@ class Solution:
             cur = dp[r, c]
             res.append(cur)
         return res[::-1]
-```
+# ```

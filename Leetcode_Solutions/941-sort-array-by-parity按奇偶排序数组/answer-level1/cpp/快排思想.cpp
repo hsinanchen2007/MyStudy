@@ -1,9 +1,9 @@
-### 解题思路
-快排思想，双指针遍历。O(n)。
+// ### 解题思路
+// 快排思想，双指针遍历。O(n)。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
@@ -14,4 +14,4 @@ public:
         return A;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxProfit(self, prices) -> int:
         l=len(prices)
@@ -33,4 +33,4 @@ class Solution:
         # print(dp1)
         # print(dp2)
         return res
-```
+# ```

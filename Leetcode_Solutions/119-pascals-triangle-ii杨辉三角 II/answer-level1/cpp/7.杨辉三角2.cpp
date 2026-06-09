@@ -1,9 +1,9 @@
-### 解题思路
-迭代的思路是真的很妙
+// ### 解题思路
+// 迭代的思路是真的很妙
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
@@ -17,4 +17,4 @@ public:
         return ans;
     }
 };
-```
+// ```

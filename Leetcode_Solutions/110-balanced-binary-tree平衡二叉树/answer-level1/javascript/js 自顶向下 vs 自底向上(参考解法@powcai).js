@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b0b0374c4bda4b92a5aec0ec7c4fc656f124601d6ef5085567ab47c8b5a8545d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b0b0374c4bda4b92a5aec0ec7c4fc656f124601d6ef5085567ab47c8b5a8545d-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 自底向上：
 思路：
 helper函数中做的事情：
@@ -13,11 +13,11 @@ helper函数中做的事情：
 如果 `ans === false` 了，那么我们已经找打了不平衡的树节点，就不需要再继续执行递归了，
 这是终止递归函数的一种方式，否则，我们已经找到不平衡的节点，但还是继续递归去查找和计算，
 这些时间是无用的花费。
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -71,4 +71,4 @@ var isBalanced = function(root) {
   
 //   return isBalanced(root);
 // };
-```
+// ```

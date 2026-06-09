@@ -1,4 +1,4 @@
-```js
+// ```js
 var findRelativeRanks2 = function(nums) {
     let nums2 = [...nums];
     nums2.sort((a, b) => b - a);
@@ -14,4 +14,4 @@ var findRelativeRanks2 = function(nums) {
     arr[bronze] = 'Bronze Medal';
     return arr
 };
-```
+// ```

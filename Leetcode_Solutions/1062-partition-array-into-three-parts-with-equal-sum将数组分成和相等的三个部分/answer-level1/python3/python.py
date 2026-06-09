@@ -1,5 +1,5 @@
-以为会超时，试着提交了一下，居然过了(￣▽￣)"
-```
+# 以为会超时，试着提交了一下，居然过了(￣▽￣)"
+# ```
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         sum_A = sum(A)
@@ -14,4 +14,4 @@ class Solution:
                count += 1
                s = 0
         return count == 3
-```
+# ```

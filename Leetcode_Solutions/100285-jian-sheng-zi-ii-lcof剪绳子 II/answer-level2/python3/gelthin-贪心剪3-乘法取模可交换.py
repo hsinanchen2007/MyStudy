@@ -1,14 +1,14 @@
-### 解题思路
-乘法和取模运算可以交换:
+# ### 解题思路
+# 乘法和取模运算可以交换:
 
-(a*c)%b = (a+a+...+a)%b = (a%b +... +a%b)%b = (a%b)*c%b
+# (a*c)%b = (a+a+...+a)%b = (a%b +... +a%b)%b = (a%b)*c%b
 
-故可以在计算过程中不断进行取模运算，虽然 python3 int 可以存储无穷大的数。
+# 故可以在计算过程中不断进行取模运算，虽然 python3 int 可以存储无穷大的数。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def cuttingRope(self, n: int) -> int:
         if n == 2:
@@ -24,4 +24,4 @@ class Solution:
             n -= 3
         res *= n
         return res%(10**9+7)
-```
+# ```

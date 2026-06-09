@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int gcd(int a,int b){
@@ -15,4 +15,4 @@ public:
         return z%gcd(x,y)==0;
     }
 };
-```
+// ```

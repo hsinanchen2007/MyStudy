@@ -1,9 +1,9 @@
-### 解题思路
-详细解释请参见我的博客[清晰易懂的“K个一组翻转链表”解法](https://blog.csdn.net/qq_42103091/article/details/105113700)，绝对简单清晰。
+// ### 解题思路
+// 详细解释请参见我的博客[清晰易懂的“K个一组翻转链表”解法](https://blog.csdn.net/qq_42103091/article/details/105113700)，绝对简单清晰。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -51,4 +51,4 @@ struct ListNode* reverseKGroup(struct ListNode* head, int k) {
 	 }
 	 return head->next;
  }
-```
+// ```

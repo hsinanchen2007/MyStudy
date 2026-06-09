@@ -1,9 +1,9 @@
-### 解题思路
-先从大到小排排序,再取出第K大个. 此处下标是K-1
+// ### 解题思路
+// 先从大到小排排序,再取出第K大个. 此处下标是K-1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -15,4 +15,4 @@ var findKthLargest = function(nums, k) {
     })[k-1])
 };
 
-```
+// ```

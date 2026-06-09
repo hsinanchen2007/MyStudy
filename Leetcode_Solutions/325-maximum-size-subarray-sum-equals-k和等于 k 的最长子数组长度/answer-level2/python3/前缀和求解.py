@@ -1,13 +1,13 @@
-### 解题思路
-基本思路为：
-- 计算前缀和
-- 对当前的前缀和`cur_sum`，向前面找是否存在`cur_sum -k`，存在则更新ans
-- 如果`cur_sum`不在`pre`中，将`cur_sum`加入（如果存在，前面的坐标更小，不需更新）
+# ### 解题思路
+# 基本思路为：
+# - 计算前缀和
+# - 对当前的前缀和`cur_sum`，向前面找是否存在`cur_sum -k`，存在则更新ans
+# - 如果`cur_sum`不在`pre`中，将`cur_sum`加入（如果存在，前面的坐标更小，不需更新）
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from itertools import accumulate
 
 
@@ -22,4 +22,4 @@ class Solution:
                 pre[cur_sum] = index
         return ans
 
-```
+# ```

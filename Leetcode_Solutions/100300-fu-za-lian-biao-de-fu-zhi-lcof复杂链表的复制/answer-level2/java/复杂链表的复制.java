@@ -1,11 +1,11 @@
-### 解题思路
-复杂链表的复制，主要时包含了一个random指针；
-采用一个hashMap,将node 和 对应的node建立起对应的关系；
-挺有的意思题目，标记了 后面会再来看看的
+// ### 解题思路
+// 复杂链表的复制，主要时包含了一个random指针；
+// 采用一个hashMap,将node 和 对应的node建立起对应的关系；
+// 挺有的意思题目，标记了 后面会再来看看的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -37,4 +37,4 @@ class Solution {
         return map.get(head);
     }
 }
-```
+// ```

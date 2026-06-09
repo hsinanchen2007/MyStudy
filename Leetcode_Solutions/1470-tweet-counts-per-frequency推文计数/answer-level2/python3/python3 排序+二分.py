@@ -1,11 +1,11 @@
-### 解题思路
-唯一技术：二分确定>=startTime的最左边界的index
+# ### 解题思路
+# 唯一技术：二分确定>=startTime的最左边界的index
 
-直接遍历不太好意思。。。
+# 直接遍历不太好意思。。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class TweetCounts:
 
     def __init__(self):
@@ -57,4 +57,4 @@ class TweetCounts:
 # obj = TweetCounts()
 # obj.recordTweet(tweetName,time)
 # param_2 = obj.getTweetCountsPerFrequency(freq,tweetName,startTime,endTime)
-```
+# ```

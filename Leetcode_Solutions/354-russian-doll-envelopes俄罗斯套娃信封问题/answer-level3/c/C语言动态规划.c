@@ -1,9 +1,9 @@
-### 解题思路
-先qsort对二维数组排序，然后动态规划判断每一个信封最多能包含几个小信封
+// ### 解题思路
+// 先qsort对二维数组排序，然后动态规划判断每一个信封最多能包含几个小信封
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a,const void *b)
 {
     int *ap = *(int **)a;       
@@ -39,4 +39,4 @@ int maxEnvelopes(int** envelopes, int envelopesSize, int* envelopesColSize){
     }
     return max;
 }
-```
+// ```

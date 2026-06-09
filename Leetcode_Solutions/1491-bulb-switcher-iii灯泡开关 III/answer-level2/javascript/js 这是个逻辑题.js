@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/0a19e5874a1d1ec7f8b8d2db5494c09efb151d3d150c647068ab16381f6159fc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0a19e5874a1d1ec7f8b8d2db5494c09efb151d3d150c647068ab16381f6159fc-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 打开某盏灯的时候判断全为蓝灯的条件：
 打开的这盏灯的时候，算上这盏灯以及在它之前打开的所有灯之中最后一盏灯的编号必须为灯的数量
 
@@ -24,11 +24,11 @@
    并且最后一盏灯是 5，说明 1 2 3 4 5 全亮，符合条件
 
 答案是 2
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} light
  * @return {number}
@@ -46,4 +46,4 @@ var numTimesAllBlue = function(light) {
   
   return count;
 };
-```
+// ```

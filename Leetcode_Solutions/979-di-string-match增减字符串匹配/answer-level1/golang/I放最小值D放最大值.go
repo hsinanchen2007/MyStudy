@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func diStringMatch(S string) []int {
 	N:= len(S)
 	//nums:=make([]int,0)
@@ -25,4 +25,4 @@ func diStringMatch(S string) []int {
 	res= append(res, min)
 	return res
 }
-```
+// ```

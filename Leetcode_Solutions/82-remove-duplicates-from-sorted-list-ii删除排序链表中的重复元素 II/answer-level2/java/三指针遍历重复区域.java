@@ -1,10 +1,10 @@
-### 解题思路
-三个指针。一个pre重复区域的前一个，cur和next用来遍历所有的重复区域，next指向重复区域的下一个；
-不重复的地方，直接pre=cur;
+// ### 解题思路
+// 三个指针。一个pre重复区域的前一个，cur和next用来遍历所有的重复区域，next指向重复区域的下一个；
+// 不重复的地方，直接pre=cur;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -48,4 +48,4 @@ class Solution {
         return tummy.next;
     }
 }
-```
+// ```

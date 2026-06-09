@@ -1,5 +1,5 @@
-暴力的for循环遍历操作，第一回忘了排序
-```
+// 暴力的for循环遍历操作，第一回忘了排序
+// ```
 func relativeSortArray(_ arr1: [Int], _ arr2: [Int]) -> [Int] {
     var result = Array<Int>()
     for (_, value2) in arr2.enumerated() {
@@ -19,4 +19,4 @@ func relativeSortArray(_ arr1: [Int], _ arr2: [Int]) -> [Int] {
     result.append(contentsOf: sort)
     return result
 }
-```
+// ```

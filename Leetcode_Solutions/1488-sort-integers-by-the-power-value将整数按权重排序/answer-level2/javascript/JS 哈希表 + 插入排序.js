@@ -1,14 +1,14 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/8de1f0f1149b252e8dbd4840132f0b5fa7dd27b80abb40f961b1b938a9f6a66b-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/8de1f0f1149b252e8dbd4840132f0b5fa7dd27b80abb40f961b1b938a9f6a66b-image.png)
 
-1. 利用哈希表缓存权重计算结果
-2. 计算出区间所有数的权重，将结果与当前值当作对象的值插入到数组中
-3. 利用插入排序思路，插入位置即排序好的结果
-4. 返回数组对应位置的数
+// 1. 利用哈希表缓存权重计算结果
+// 2. 计算出区间所有数的权重，将结果与当前值当作对象的值插入到数组中
+// 3. 利用插入排序思路，插入位置即排序好的结果
+// 4. 返回数组对应位置的数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} lo
  * @param {number} hi
@@ -45,4 +45,4 @@
     }
     return res[k - 1].value;
   };
-```
+// ```

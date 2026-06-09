@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/633542597311698a30bda942bbaaa06eb4b1132bd7e765c09f157ffd952bece4-image.png)
-执行0ms
-### 解题思路
-递归进行两两交换。
-五行代码实现
+// ![image.png](https://pic.leetcode-cn.com/633542597311698a30bda942bbaaa06eb4b1132bd7e765c09f157ffd952bece4-image.png)
+// 执行0ms
+// ### 解题思路
+// 递归进行两两交换。
+// 五行代码实现
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -25,4 +25,4 @@ public:
         return node;
     }
 };
-```
+// ```

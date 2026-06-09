@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     //统计二进制中1的个数
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

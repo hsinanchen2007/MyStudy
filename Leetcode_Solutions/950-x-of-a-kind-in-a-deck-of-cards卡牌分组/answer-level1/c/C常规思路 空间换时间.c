@@ -1,9 +1,9 @@
-### 解题思路
-用一个数组统计个数 然后穷举公约数即可
+// ### 解题思路
+// 用一个数组统计个数 然后穷举公约数即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasGroupsSizeX(int* deck, int deckSize){
     if(deckSize<2) return false;            
     if(deckSize==2&&deck[0]!=deck[1]) return false;
@@ -23,4 +23,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
     }
     return false;
 }
-```
+// ```

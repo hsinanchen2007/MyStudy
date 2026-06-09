@@ -1,4 +1,4 @@
-```
+# ```
 def nextLargerNodes(head):
     # you题意可知
     # 就是找出离当前值最近的切大于大的数，如果没有就填为0
@@ -62,4 +62,4 @@ def nextLargerNodes(head):
 
     slove1()
     slove2(head)
-```
+# ```

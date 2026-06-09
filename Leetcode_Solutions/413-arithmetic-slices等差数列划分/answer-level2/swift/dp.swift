@@ -1,6 +1,6 @@
-dp
+// dp
 
-```swift
+// ```swift
 class Solution {
     func numberOfArithmeticSlices(_ A: [Int]) -> Int {
         if A.count <= 2 {
@@ -17,4 +17,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         head = 0
@@ -21,4 +21,4 @@ class Solution:
                 else:
                     head = (tail - head) // 2 + head
             return tail
-```
+# ```

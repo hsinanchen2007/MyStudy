@@ -1,4 +1,4 @@
-```
+// ```
 function maxDistToClosest($seats)
     {
         $count = count($seats);
@@ -32,4 +32,4 @@ function maxDistToClosest($seats)
         }
         return $maxDistance;
     }
-```
+// ```

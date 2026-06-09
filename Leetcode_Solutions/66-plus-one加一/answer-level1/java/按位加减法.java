@@ -1,5 +1,5 @@
-执行用时 :0 ms, 在所有 java 提交中击败了100.00%的用户
-内存消耗 :35.5 MB, 在所有 java 提交中击败了36.86%的用户
+// 执行用时 :0 ms, 在所有 java 提交中击败了100.00%的用户
+// 内存消耗 :35.5 MB, 在所有 java 提交中击败了36.86%的用户
 public static int[] plusOne(int[] digits) {
     	Boolean bJin = true;
     	for (int i = digits.length - 1; i >= 0; i --) {

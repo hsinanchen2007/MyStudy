@@ -1,9 +1,9 @@
-### 解题思路
-快速排序: 时间复杂度$O(N)$
-优先队列: 时间复杂度$O(NlgK)$
-### 代码
+// ### 解题思路
+// 快速排序: 时间复杂度$O(N)$
+// 优先队列: 时间复杂度$O(NlgK)$
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         // quick sort 求解
@@ -44,8 +44,8 @@ class Solution {
         return j;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         # 优先队列
@@ -61,8 +61,8 @@ class Solution:
             res.append(q.get()[1])
 
         return res
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -83,9 +83,9 @@ public:
         return res;
     }
 };
-```
-**quick sort**
-```java []
+// ```
+// **quick sort**
+// ```java []
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         // quick sort, 时间复杂度O(N)
@@ -131,4 +131,4 @@ class Solution {
         return left;
     }
 }
-```
+// ```

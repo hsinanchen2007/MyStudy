@@ -1,6 +1,6 @@
-第一次用scala写算法题，这么多for循环是不是有点low了...
+// 第一次用scala写算法题，这么多for循环是不是有点low了...
 
-```scala
+// ```scala
 object Solution {
 
     def minimumTotal(triangle: List[List[Int]]): Int = {
@@ -28,4 +28,4 @@ object Solution {
     }
     
 }
-```
+// ```

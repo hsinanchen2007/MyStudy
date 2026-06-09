@@ -1,9 +1,9 @@
-### 解题思路
-左边的就丢栈里边，右边的就取出栈顶判断是否相等，不相等或者有右值栈长度为0,返回false，直到栈的长度为0
+// ### 解题思路
+// 左边的就丢栈里边，右边的就取出栈顶判断是否相等，不相等或者有右值栈长度为0,返回false，直到栈的长度为0
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private HashMap<Character,Character> mappings;//查找肯定想到hashmap
     public Solution(){
@@ -30,4 +30,4 @@ class Solution {
 }
 
 
-```
+// ```

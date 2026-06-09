@@ -1,4 +1,4 @@
-```
+// ```
 public static List<List<Integer>> generate(int numRows) {
 		List<List<Integer>> list = new ArrayList<List<Integer>>();
 		// 建立数组
@@ -32,4 +32,4 @@ public static List<List<Integer>> generate(int numRows) {
 		return list;
 
 	}
-```
+// ```

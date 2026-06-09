@@ -1,11 +1,11 @@
-### 解题思路
-1. 确定边界条件
-2. 迭代递归减少时间规模为n-2
-3. 添加11,69,88,98
+// ### 解题思路
+// 1. 确定边界条件
+// 2. 迭代递归减少时间规模为n-2
+// 3. 添加11,69,88,98
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public List<String> findStrobogrammatic(int n) {
 
@@ -43,4 +43,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

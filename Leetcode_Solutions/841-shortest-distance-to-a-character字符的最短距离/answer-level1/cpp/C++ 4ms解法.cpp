@@ -1,9 +1,9 @@
-### 解题思路
-正向反向各遍历一次更新最近距离即可,每次遍历将当前位置和上一个C比较计算距离.
+// ### 解题思路
+// 正向反向各遍历一次更新最近距离即可,每次遍历将当前位置和上一个C比较计算距离.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> shortestToChar(string S, char C) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

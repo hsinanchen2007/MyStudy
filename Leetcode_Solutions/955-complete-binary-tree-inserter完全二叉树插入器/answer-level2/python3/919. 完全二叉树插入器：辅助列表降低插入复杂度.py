@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/7e4374882e9bd686ef46e800729361bd67d26814cbebe7ac87450e7efe4c1974-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7e4374882e9bd686ef46e800729361bd67d26814cbebe7ac87450e7efe4c1974-image.png)
 
-$O(n)$预处理了个按层次遍历的二叉树的记录列表，插入的时候坐标折半$O(1)$就可以直接找到父节点了。
+# $O(n)$预处理了个按层次遍历的二叉树的记录列表，插入的时候坐标折半$O(1)$就可以直接找到父节点了。
 
-```python []
+# ```python []
 class CBTInserter:
 
     def __init__(self, root: TreeNode):
@@ -29,4 +29,4 @@ class CBTInserter:
 
     def get_root(self) -> TreeNode:
         return self.root
-```
+# ```

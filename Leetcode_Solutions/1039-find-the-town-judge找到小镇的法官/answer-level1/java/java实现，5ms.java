@@ -1,9 +1,9 @@
 
-- 法官不相信任何人，说明法官不存在出度
-- 所有人都信任法官，说明法官的入度为N-1
-- 那么法官的出度加入度为N-1
+// - 法官不相信任何人，说明法官不存在出度
+// - 所有人都信任法官，说明法官的入度为N-1
+// - 那么法官的出度加入度为N-1
 
-```
+// ```
 public int findJudge(int N, int[][] trust) {
         int[] cnt = new int[N+1];//统计出入度
         for (int[] index : trust) {
@@ -15,4 +15,4 @@ public int findJudge(int N, int[][] trust) {
         }
         return -1;
     }
-```
+// ```

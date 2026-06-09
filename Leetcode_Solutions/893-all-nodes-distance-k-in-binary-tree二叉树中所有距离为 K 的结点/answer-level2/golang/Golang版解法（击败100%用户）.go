@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/89b266e875d403ea0bf52413c87d83883f925a824bde035c65f91ec0489e0419-image.png)
+// ![image.png](https://pic.leetcode-cn.com/89b266e875d403ea0bf52413c87d83883f925a824bde035c65f91ec0489e0419-image.png)
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -62,4 +62,4 @@ func findInSubTree(target *TreeNode, res *[]int, k int) {
     findInSubTree(target.Left, res, k-1)
     findInSubTree(target.Right, res, k-1)
 }
-```
+// ```

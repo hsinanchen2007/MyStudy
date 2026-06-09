@@ -1,5 +1,5 @@
-注意特殊情况就可以辽
-```
+// 注意特殊情况就可以辽
+// ```
 class Solution {
 public:
     vector<int> numMovesStones(int a, int b, int c) {
@@ -12,4 +12,4 @@ public:
         return {mi,ma};
     }
 };
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-此题中规中矩，主要解题步骤如下：
-1.读空白字符
-2.判断第一个字符正负号还是其他字符
-3.依次读取数字字符将其以sum=sum*10+digit方式计算，同时注意边界条件，也就是sum*10+digit>INT_MAX即sum>(INT_MAX-digit)/10，假如越界就根据正负数返回对应的Integer.MAX_VALUE/MIN_VALUE
-此题借助一些常用函数Character.isDigit(),String.toCharArray()
+// ### 解题思路
+// 此题中规中矩，主要解题步骤如下：
+// 1.读空白字符
+// 2.判断第一个字符正负号还是其他字符
+// 3.依次读取数字字符将其以sum=sum*10+digit方式计算，同时注意边界条件，也就是sum*10+digit>INT_MAX即sum>(INT_MAX-digit)/10，假如越界就根据正负数返回对应的Integer.MAX_VALUE/MIN_VALUE
+// 此题借助一些常用函数Character.isDigit(),String.toCharArray()
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         char[] c=str.toCharArray();
@@ -38,4 +38,4 @@ class Solution {
         return flag?-sum:sum;
     }
 }
-```
+// ```

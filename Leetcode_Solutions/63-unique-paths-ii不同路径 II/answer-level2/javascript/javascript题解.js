@@ -1,9 +1,9 @@
-[62.不同路径二](https://leetcode-cn.com/problems/unique-paths-ii/submissions/)
+// [62.不同路径二](https://leetcode-cn.com/problems/unique-paths-ii/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} obstacleGrid
  * @return {number}
@@ -51,11 +51,11 @@ var uniquePathsWithObstacles = function(obstacleGrid) {
     }
     return dp[m-1][n-1]
 };
-```
+// ```
 
-## 空间复杂度的优化
+// ## 空间复杂度的优化
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} obstacleGrid
  * @return {number}
@@ -79,4 +79,4 @@ var uniquePathsWithObstacles = function(obstacleGrid) {
     }
     return dp[n-1];
 };
-```
+// ```

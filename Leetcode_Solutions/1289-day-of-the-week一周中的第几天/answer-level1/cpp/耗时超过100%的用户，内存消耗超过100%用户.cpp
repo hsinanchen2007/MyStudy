@@ -1,8 +1,8 @@
-### 解题思路
-耗时超过100%的用户，内存消耗超过100%用户
-### 代码
+// ### 解题思路
+// 耗时超过100%的用户，内存消耗超过100%用户
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string dayOfTheWeek(int day, int month, int year) {
@@ -63,4 +63,4 @@ public:
         return res[days-1];
     }
 };
-```
+// ```

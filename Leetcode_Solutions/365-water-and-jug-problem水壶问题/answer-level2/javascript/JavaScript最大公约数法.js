@@ -1,9 +1,9 @@
-### 解题思路
-裴蜀定理: 对于任意整数x, y，一定存在整数a，b，使得ax+by一定是Gcd(x,y)的倍数。
-所以本题转化为求z是是否是x，y的最大公约数的倍数
-### 代码
+// ### 解题思路
+// 裴蜀定理: 对于任意整数x, y，一定存在整数a，b，使得ax+by一定是Gcd(x,y)的倍数。
+// 所以本题转化为求z是是否是x，y的最大公约数的倍数
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @param {number} y
@@ -25,4 +25,4 @@ var canMeasureWater = function(x, y, z) {
     };
     return z % Gcd(x, y)=== 0;
 };
-```
+// ```

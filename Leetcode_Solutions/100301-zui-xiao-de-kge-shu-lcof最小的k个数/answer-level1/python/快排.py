@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def getLeastNumbers(self, arr, k):
         """
@@ -34,4 +34,4 @@ class Solution(object):
                 p = partition(arr, low, high)
         return arr[:k]
 
-```
+# ```

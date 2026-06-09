@@ -1,9 +1,9 @@
-### 解题思路
-将每个节点的值和次数存到一个全局 map中，将其转化为数组并进行排序，找到与最大次数相同的值存入数组中
+// ### 解题思路
+// 将每个节点的值和次数存到一个全局 map中，将其转化为数组并进行排序，找到与最大次数相同的值存入数组中
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {

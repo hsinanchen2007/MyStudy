@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str){
     char *pc = str;
     long long num = 0;
@@ -29,4 +29,4 @@ int myAtoi(char * str){
     if (flag == 1) return -num;
     else return num;
 }
-```
+// ```

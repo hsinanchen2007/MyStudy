@@ -1,9 +1,9 @@
-执行结果：通过
-显示详情
-执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
-内存消耗 :5.2 MB, 在所有 C 提交中击败了100.00%的用户
+// 执行结果：通过
+// 显示详情
+// 执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
+// 内存消耗 :5.2 MB, 在所有 C 提交中击败了100.00%的用户
 
-```
+// ```
 bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
     if (rec1 == NULL || rec2 == NULL || rec1Size != 4 || rec2Size != 4) return false;
     
@@ -38,4 +38,4 @@ bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
     
     return false;
 }
-```
+// ```

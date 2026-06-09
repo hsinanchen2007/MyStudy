@@ -1,9 +1,9 @@
-### 解题思路
-考虑循环的情况，设置字典记录，记录出现循环的点，一旦出现，就将循环部分直接跳过
+# ### 解题思路
+# 考虑循环的情况，设置字典记录，记录出现循环的点，一旦出现，就将循环部分直接跳过
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wordsTyping(self, sentence: List[str], rows: int, cols: int) -> int:
         ans = 0
@@ -32,4 +32,4 @@ class Solution:
                 row += between_rows * cycles
             row += 1
         return ans
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-1 对数组元素去重过滤
-2 使用双重循环依次计算每个元素在原数组中出现的次数
-3 次数大于n/2的即返回
+// ### 解题思路
+// 1 对数组元素去重过滤
+// 2 使用双重循环依次计算每个元素在原数组中出现的次数
+// 3 次数大于n/2的即返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         int[] ints = Arrays.stream(nums).distinct().toArray();
@@ -20,4 +20,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

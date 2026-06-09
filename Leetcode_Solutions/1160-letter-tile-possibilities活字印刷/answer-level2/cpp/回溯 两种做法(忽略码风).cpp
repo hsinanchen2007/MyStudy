@@ -1,7 +1,7 @@
-- 写了两个版本的，一个使用hash去重,一个用check判重
+// - 写了两个版本的，一个使用hash去重,一个用check判重
 
-1. hash去重这个思路很容易想到,但效率不高且占很多空间。
- ```c++
+// 1. hash去重这个思路很容易想到,但效率不高且占很多空间。
+//  ```c++
 class Solution {
 public:
     int res,n;
@@ -30,12 +30,12 @@ public:
         }
     }
 };
-```
+// ```
 
-2. 剪枝回溯
-- 可以稍微分析一下,遍历到下标为index的元素时,如果index之前的元素0~index-1中存在s[k]==s[index]说明
-- 当前方案在使用下标为k的方案里已经考虑过了直接判断下一个状态即可。此方案效率高,且使用的空间为常数。
-```cpp
+// 2. 剪枝回溯
+// - 可以稍微分析一下,遍历到下标为index的元素时,如果index之前的元素0~index-1中存在s[k]==s[index]说明
+// - 当前方案在使用下标为k的方案里已经考虑过了直接判断下一个状态即可。此方案效率高,且使用的空间为常数。
+// ```cpp
 class Solution {
 public:
     int res,n,vis;
@@ -65,10 +65,10 @@ public:
             return false;
         }
 };
-```
+// ```
 
-3. 剪枝回溯debug版本。。。
-```c++
+// 3. 剪枝回溯debug版本。。。
+// ```c++
 class Solution {
 public:
     int res,n;
@@ -102,4 +102,4 @@ public:
             return false;
     }
 };
-```
+// ```

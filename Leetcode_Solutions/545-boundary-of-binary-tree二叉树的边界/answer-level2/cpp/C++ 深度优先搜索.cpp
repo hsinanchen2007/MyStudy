@@ -1,11 +1,11 @@
-### 解题思路
-深度优先搜索
-1，利用dir标示父节点的方向
-2，对于左方向是先序遍历，对于右方向是后序遍历，对于无方向的则只遍历到叶节点即可
+// ### 解题思路
+// 深度优先搜索
+// 1，利用dir标示父节点的方向
+// 2，对于左方向是先序遍历，对于右方向是后序遍历，对于无方向的则只遍历到叶节点即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void dfs(TreeNode* root, int dir, vector<int>& res) {
@@ -47,6 +47,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/d088c65fd889a38eea22f307fadbf203833fdadf9c7f0113e50227e58d32a78f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d088c65fd889a38eea22f307fadbf203833fdadf9c7f0113e50227e58d32a78f-image.png)

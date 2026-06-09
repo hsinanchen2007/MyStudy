@@ -1,13 +1,13 @@
-### 执行结果
-执行时间：88ms，击败了76.71%用户
-内存消耗：74.9MB，击败了100%用户；
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/da308b27d42154eed75878675a28051594de4de9545a296684144a0d4f8e278b-image.png)
+// ### 执行结果
+// 执行时间：88ms，击败了76.71%用户
+// 内存消耗：74.9MB，击败了100%用户；
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/da308b27d42154eed75878675a28051594de4de9545a296684144a0d4f8e278b-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CQueue {
     Stack<Integer> st1=new Stack<Integer>();
 	Stack<Integer> st2=new Stack<Integer>();
@@ -45,4 +45,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

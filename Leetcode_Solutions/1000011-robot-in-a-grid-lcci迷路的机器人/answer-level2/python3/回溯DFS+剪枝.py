@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def pathWithObstacles(self, obstacleGrid: List[List[int]]) -> List[List[int]]:
         row = len(obstacleGrid)
@@ -36,4 +36,4 @@ class Solution:
                # obstacleGrid[x][y] = 0
         dfs(0, 0, [[0, 0]])
         return res[0] if res else res
-```
+# ```

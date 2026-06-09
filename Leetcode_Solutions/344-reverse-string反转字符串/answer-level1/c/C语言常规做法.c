@@ -1,4 +1,4 @@
-```c
+// ```c
 void reverseString(char* s, int sSize){
     short i,tmp;
     for(i=0;i<(sSize+1)/2;i++){
@@ -7,4 +7,4 @@ void reverseString(char* s, int sSize){
         s[sSize-1-i]=tmp;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-先把短的数给补齐,然后相加. 循环一次
-```
+// 先把短的数给补齐,然后相加. 循环一次
+// ```
 func addBinary(a string, b string) string {
 	if a == "" && b == "" {
 		return ""
@@ -48,4 +48,4 @@ func addBinary(a string, b string) string {
 
 	return ret
 }
-```
+// ```

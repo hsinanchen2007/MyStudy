@@ -1,6 +1,6 @@
-用两个数组分别记录行最小和列最大值，然后再扫描下对比matrix[i][j]是否是行最小、列最大。
+// 用两个数组分别记录行最小和列最大值，然后再扫描下对比matrix[i][j]是否是行最小、列最大。
 
-```
+// ```
 class Solution {
     public List<Integer> luckyNumbers (int[][] matrix) {
         List<Integer> ans = new ArrayList<>();
@@ -33,4 +33,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

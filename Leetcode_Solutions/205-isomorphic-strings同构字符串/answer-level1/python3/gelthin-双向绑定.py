@@ -1,18 +1,18 @@
-### 解题思路
-这里需要使用两个 dict 双向绑定。
+# ### 解题思路
+# 这里需要使用两个 dict 双向绑定。
 
-最开始只使用单向绑定，导致出错。 ab aa  和 ba aa 这样的样例过不了。
+# 最开始只使用单向绑定，导致出错。 ab aa  和 ba aa 这样的样例过不了。
 
-[详细通俗的思路分析，多解法](https://leetcode-cn.com/problems/isomorphic-strings/solution/) 第一种想法是只用一个 dict(), 判断 s 到 t 的转换是否正确，然后 t 到 s 的转换是否正确。
+# [详细通俗的思路分析，多解法](https://leetcode-cn.com/problems/isomorphic-strings/solution/) 第一种想法是只用一个 dict(), 判断 s 到 t 的转换是否正确，然后 t 到 s 的转换是否正确。
 
-其推荐了第二种想法，找一个第三方的集合，使得 两者都对应到第三方集合。然后再判断。
+# 其推荐了第二种想法，找一个第三方的集合，使得 两者都对应到第三方集合。然后再判断。
 
-一行python 代码：return [s.index(i) for i in s] == [t.index(i) for i in t]
-但不推荐， O(n^2) 复杂度
+# 一行python 代码：return [s.index(i) for i in s] == [t.index(i) for i in t]
+# 但不推荐， O(n^2) 复杂度
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         n = len(s)
@@ -34,4 +34,4 @@ class Solution:
                 D2[t[i]] = s[i]
         return True
 
-```
+# ```

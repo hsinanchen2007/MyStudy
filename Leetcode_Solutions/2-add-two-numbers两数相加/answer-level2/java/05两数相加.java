@@ -1,4 +1,4 @@
-不习惯用链表
+// 不习惯用链表
 /**
  * Definition for singly-linked list.
  * public class ListNode {

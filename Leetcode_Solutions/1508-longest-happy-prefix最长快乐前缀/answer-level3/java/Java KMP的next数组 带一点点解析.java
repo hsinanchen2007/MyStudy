@@ -1,12 +1,12 @@
-### 解题思路
-其实就是求next数组
-next数组的意思就是比如第i个位置next[i]表示0到i-1之间，0到k, i-k-1到i-1(前缀和后缀是一样长度)两个串是一样的
-比如:
-next[i]     -1  0   0   1   2   3   4 
-字符串       a   b   a   b   a   b
-### 代码
+// ### 解题思路
+// 其实就是求next数组
+// next数组的意思就是比如第i个位置next[i]表示0到i-1之间，0到k, i-k-1到i-1(前缀和后缀是一样长度)两个串是一样的
+// 比如:
+// next[i]     -1  0   0   1   2   3   4 
+// 字符串       a   b   a   b   a   b
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPrefix(String s) {
         if(s.length()<=1) return "";
@@ -29,4 +29,4 @@ class Solution {
         return next;
     }
 }
-```
+// ```

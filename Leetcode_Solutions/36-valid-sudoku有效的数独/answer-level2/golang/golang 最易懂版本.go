@@ -1,4 +1,4 @@
-````
+// ````
 func isDuplicate(x1, y1, x2, y2 int, board *[][]byte) bool {
 	m := make(map[byte]struct{})
 
@@ -31,4 +31,4 @@ func isValidSudoku(board [][]byte) bool {
 	}
 	return true
 }
-````
+// ````

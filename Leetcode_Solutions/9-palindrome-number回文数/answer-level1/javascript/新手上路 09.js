@@ -1,9 +1,9 @@
-### 解题思路
-此处思路是正负取反，来判断回文数。
+// ### 解题思路
+// 此处思路是正负取反，来判断回文数。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {boolean}
@@ -16,4 +16,4 @@ var isPalindrome = function(x) {
     return false;
   }
 };
-```
+// ```

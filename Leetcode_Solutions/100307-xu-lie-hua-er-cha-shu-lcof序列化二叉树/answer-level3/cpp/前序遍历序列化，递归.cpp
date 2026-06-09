@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Codec {
 public:
 
@@ -43,4 +43,4 @@ public:
         return root;
     }
 };
-```
+// ```

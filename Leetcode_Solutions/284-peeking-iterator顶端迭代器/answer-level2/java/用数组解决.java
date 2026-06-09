@@ -1,4 +1,4 @@
-```
+// ```
     List<Integer> queue = new ArrayList<>();
 
     public PeekingIterator(Iterator<Integer> iterator) {
@@ -29,6 +29,6 @@
     public boolean hasNext() {
         return queue.size()==0?false:true;
     }
-```
+// ```
 
-经过我的测试，在这个问题中，使用ArrayList的效率比LinkedList快1/3……
+// 经过我的测试，在这个问题中，使用ArrayList的效率比LinkedList快1/3……

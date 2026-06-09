@@ -1,12 +1,12 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
 
-思路：
-判断一个图是否为树结构就是判断这个图是否有环，如果无环且连同分量为1，则是树结构
+// 思路：
+// 判断一个图是否为树结构就是判断这个图是否有环，如果无环且连同分量为1，则是树结构
 
 
-方法1：并查集，如果合并的两个点在一个集合中，则这个图是有环的
-```
+// 方法1：并查集，如果合并的两个点在一个集合中，则这个图是有环的
+// ```
 class Solution {
     //并查集
     public boolean validTree1(int n, int[][] edges) {
@@ -66,11 +66,11 @@ class DisjointSet {
     }
 }
 
-```
+// ```
 
 
-方法2：BFS：根据边构建邻接矩阵，然后进行BFS，在遍历过程中将访问过的节点涂黑，并记录访问过的节点。如果有节点已经被访问过，则表示有环，如果遍历完成后还有节点没有被访问到，则表示连同分量大于1。
-```
+// 方法2：BFS：根据边构建邻接矩阵，然后进行BFS，在遍历过程中将访问过的节点涂黑，并记录访问过的节点。如果有节点已经被访问过，则表示有环，如果遍历完成后还有节点没有被访问到，则表示连同分量大于1。
+// ```
 //BFS
     public boolean validTree(int n, int[][] edges) {
         //构建邻接矩阵
@@ -113,10 +113,10 @@ class DisjointSet {
         }
         return true;
     }
-```
+// ```
 
-方法3：DFS：思路同BFS
-```
+// 方法3：DFS：思路同BFS
+// ```
 //DFS
     public boolean validTree(int n, int[][] edges) {
         //构建邻接矩阵
@@ -153,4 +153,4 @@ class DisjointSet {
         }
         return true;
     }
-```
+// ```

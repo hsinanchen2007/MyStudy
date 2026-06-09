@@ -1,11 +1,11 @@
-### 解题思路
-C语言
-解法一：空间换时间
-解法二：一个一个移，力扣不知道为什么时间超出限制
-解法三：数组分成2半各自原地交换，再总的交换一次
-### 代码
-解法一：空间换时间
-```c
+// ### 解题思路
+// C语言
+// 解法一：空间换时间
+// 解法二：一个一个移，力扣不知道为什么时间超出限制
+// 解法三：数组分成2半各自原地交换，再总的交换一次
+// ### 代码
+// 解法一：空间换时间
+// ```c
 void rotate(int* nums, int numsSize, int k) {
 	k = k % numsSize;
 	int* nums1 = (int*)malloc(4 * numsSize * 2);
@@ -33,9 +33,9 @@ void rotate(int* nums, int numsSize, int k) {
 	free(nums1);
 }
 
-```
-解法二：一个一个移，力扣不知道为什么时间超出限制
-```
+// ```
+// 解法二：一个一个移，力扣不知道为什么时间超出限制
+// ```
  void moveOneR(int *nums,int numsSize)
  {
      int last = nums[numsSize-1];//记录最后一个值
@@ -53,9 +53,9 @@ void rotate(int* nums, int numsSize, int k) {
          moveOneR(nums,numsSize);
      }
  }
-```
-解法三：数组分成2半各自原地交换，再总的交换一次
-```
+// ```
+// 解法三：数组分成2半各自原地交换，再总的交换一次
+// ```
  void reverse(int* left, int* right)//左右交换left--right的内容
  {
  	while (left < right)
@@ -72,4 +72,4 @@ void rotate(int* nums, int numsSize, int k) {
  	reverse(nums + numsSize-k%numsSize, nums + numsSize - 1);//k-len-1交换
  	reverse(nums, nums + numsSize - 1);//0--len-1交换
  }
-```
+// ```

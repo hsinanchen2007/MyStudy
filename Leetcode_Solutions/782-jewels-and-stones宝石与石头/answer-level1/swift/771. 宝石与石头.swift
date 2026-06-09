@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func numJewelsInStones(_ J: String, _ S: String) -> Int {
         
@@ -13,6 +13,6 @@ class Solution {
         return nums.count
     }
 }
-```
+// ```
 
-利用Swift的高级函数（filter）
+// 利用Swift的高级函数（filter）

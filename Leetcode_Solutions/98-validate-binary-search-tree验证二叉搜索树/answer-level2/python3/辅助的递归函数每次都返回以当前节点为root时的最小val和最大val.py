@@ -1,6 +1,6 @@
-思路：见标题
-注意：要注意理解二叉搜索树的意义(比如我 我是上课没好好听讲 因为没理解好错了太多次数了)
-```
+# 思路：见标题
+# 注意：要注意理解二叉搜索树的意义(比如我 我是上课没好好听讲 因为没理解好错了太多次数了)
+# ```
 class Solution:
 	def isValidBST(self,root):
 		ans=True
@@ -20,4 +20,4 @@ class Solution:
 				return [a,d]
 			helper(root)
 		return ans
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool bitSet(int & mask,int bit){
@@ -59,4 +59,4 @@ public:
         return ans;
     }
 };
-```
+// ```

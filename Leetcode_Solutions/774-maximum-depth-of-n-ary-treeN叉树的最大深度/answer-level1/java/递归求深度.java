@@ -1,9 +1,9 @@
-### 解题思路
-记录孩子中最长的，返回其+1
+// ### 解题思路
+// 记录孩子中最长的，返回其+1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -34,4 +34,4 @@ class Solution {
         return max+1;
     }
 }
-```
+// ```

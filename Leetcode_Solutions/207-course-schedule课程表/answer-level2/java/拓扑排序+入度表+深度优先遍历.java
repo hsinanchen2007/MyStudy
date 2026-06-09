@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         if(numCourses <= 0){
@@ -41,4 +41,4 @@ class Solution {
         return ret.size() == numCourses;
     }
 }
-```
+// ```

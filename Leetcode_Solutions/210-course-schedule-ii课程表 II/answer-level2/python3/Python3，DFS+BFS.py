@@ -1,5 +1,5 @@
-DFS：
-```
+# DFS：
+# ```
 def findOrder(self, numCourses, prerequisites):
         """
         :type numCourses: int
@@ -29,11 +29,11 @@ def findOrder(self, numCourses, prerequisites):
             if not dfs(i, adjacency, flags):
                 return []
         return res[::-1]
-```
+# ```
 
 
-BFS:
-```
+# BFS:
+# ```
 indegrees = [0 for _ in range(numCourses)]  # 入读表
         adjacency = [[] for _ in range(numCourses)]  # 邻接矩阵
         queue = []
@@ -51,4 +51,4 @@ indegrees = [0 for _ in range(numCourses)]  # 入读表
                 if not indegrees[cur]:  # cur的所有的前驱节点已经被删除，cur入队
                     queue.append(cur)
         return not numCourses  # 拓扑排序出队次数等于课程个数，课程安排图是否是有向无环图(DAG)，课程可以成功安排
-```
+# ```

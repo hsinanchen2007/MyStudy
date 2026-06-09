@@ -1,5 +1,5 @@
-- 个人认为涉及到字符是否唯一的判断统统用哈希来处理，速度快好理解
-```
+// - 个人认为涉及到字符是否唯一的判断统统用哈希来处理，速度快好理解
+// ```
 #define MAX_SIZE (128)
 
 int g_visit[MAX_SIZE];
@@ -20,4 +20,4 @@ bool isUnique(char* astr)
     }
     return true;
 }
-```
+// ```

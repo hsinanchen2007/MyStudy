@@ -1,4 +1,4 @@
-```
+// ```
 function mySqrt($x) {
     if($x==0) return 0;
     $left = 1;
@@ -13,4 +13,4 @@ function mySqrt($x) {
     }
     return $left;
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```golang []
+// ```golang []
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
     var ret = &ListNode{0, nil}
 	var p = ret
@@ -21,4 +21,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return ret.Next
 }
-```
+// ```

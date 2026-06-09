@@ -1,12 +1,12 @@
-### 解题思路
-执行结果：通过
+# ### 解题思路
+# 执行结果：通过
 
-执行用时 :40 ms, 在所有 Python 提交中击败了98.64%的用户
-内存消耗 :11.7 MB, 在所有 Python 提交中击败了74.19%的用户
+# 执行用时 :40 ms, 在所有 Python 提交中击败了98.64%的用户
+# 内存消耗 :11.7 MB, 在所有 Python 提交中击败了74.19%的用户
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def threeSumClosest(self, nums, target):
         """
@@ -39,4 +39,4 @@ class Solution(object):
         return best
                 
 
-```
+# ```

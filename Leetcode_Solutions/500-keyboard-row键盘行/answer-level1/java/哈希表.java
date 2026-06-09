@@ -1,9 +1,9 @@
-### 解题思路
-用哈希表实现的，思路应该很清楚。
+// ### 解题思路
+// 用哈希表实现的，思路应该很清楚。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     
     private HashMap<Character, Integer> hashmap = new HashMap<>();
@@ -52,4 +52,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

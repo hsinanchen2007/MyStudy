@@ -1,4 +1,4 @@
-```java
+// ```java
 public int thirdMax(int[] nums) {
         LinkedList<Integer> list = new LinkedList<Integer>();
         int[] ans1 = findMax(nums, list);
@@ -31,4 +31,4 @@ public int thirdMax(int[] nums) {
                 return false;
         return true;
     }
-```
+// ```

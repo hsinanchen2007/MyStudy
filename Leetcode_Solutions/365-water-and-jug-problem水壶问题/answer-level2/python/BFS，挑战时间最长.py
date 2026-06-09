@@ -1,10 +1,10 @@
-### 解题思路
-广度优先的思想来写的
-![image.png](https://pic.leetcode-cn.com/6140b63005e2e8073e0d2b0db07241b78fd79a43bb9e02b35e44bf3aaababbb9-image.png)
+# ### 解题思路
+# 广度优先的思想来写的
+# ![image.png](https://pic.leetcode-cn.com/6140b63005e2e8073e0d2b0db07241b78fd79a43bb9e02b35e44bf3aaababbb9-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         stack = [(0, 0)]
@@ -40,4 +40,4 @@ class Solution:
                 self.seen.add((remain_x + min(remain_y, x - remain_x), remain_y - min(remain_y, x - remain_x)))
                 stack.append((remain_x + min(remain_y, x - remain_x), remain_y - min(remain_y, x - remain_x)))
         return False
-```
+# ```

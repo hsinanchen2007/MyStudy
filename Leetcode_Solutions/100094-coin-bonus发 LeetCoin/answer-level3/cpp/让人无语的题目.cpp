@@ -1,6 +1,6 @@
-1. 建树的时候只能从上往下建树，为什么不能从下往上建树？
-2. 设定变量people，people含有四个变量```parent, coins,subCoins,child```,```parent```代表此人的上级管理者，```coins```代表本人所需要由本人及下属管理员工所持有的coin总数,subcoins代表需要给每个下属节点分发的coins数量。
-```c++ []
+// 1. 建树的时候只能从上往下建树，为什么不能从下往上建树？
+// 2. 设定变量people，people含有四个变量```parent, coins,subCoins,child```,```parent```代表此人的上级管理者，```coins```代表本人所需要由本人及下属管理员工所持有的coin总数,subcoins代表需要给每个下属节点分发的coins数量。
+// ```c++ []
 const int mod = 1e9+7;
 
 struct people{
@@ -66,8 +66,8 @@ public:
         return ans;
     }
 };
-```
-```python []
+// ```
+// ```python []
 class TreeNode:
     def __init__(self):
         self.child = 1
@@ -118,4 +118,4 @@ class Solution:
                 ans.append(res%mod)
                 
         return ans  
-```
+// ```

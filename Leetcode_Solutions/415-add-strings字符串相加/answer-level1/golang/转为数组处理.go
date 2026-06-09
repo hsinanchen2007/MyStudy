@@ -1,9 +1,9 @@
-### 解题思路
-golang中对于rune/byte和string的相互转换比较绕，需要小心
+// ### 解题思路
+// golang中对于rune/byte和string的相互转换比较绕，需要小心
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func addStrings(num1 string, num2 string) string {
 	nr1 := []rune(num1)
 	nr2 := []rune(num2)
@@ -34,4 +34,4 @@ func addStrings(num1 string, num2 string) string {
     }
 	return string(result)
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-直接递归交换左右孩子即可；
+// ### 解题思路
+// 直接递归交换左右孩子即可；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ public class Solution {
         return root;
     }
 }
-```
+// ```

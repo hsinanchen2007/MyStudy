@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-使用双for 拿prices[i] 分别和prices[j] 比较得到最大的差值
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 使用双for 拿prices[i] 分别和prices[j] 比较得到最大的差值
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -18,4 +18,4 @@ const maxProfit = function(prices) {
   }
   return max;
 };
-```
+// ```

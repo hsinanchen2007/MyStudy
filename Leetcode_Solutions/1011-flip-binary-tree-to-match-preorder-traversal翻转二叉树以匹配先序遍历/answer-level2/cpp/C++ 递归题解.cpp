@@ -1,5 +1,5 @@
-按照先序遍历的方法递归查找即可
-```
+// 按照先序遍历的方法递归查找即可
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -51,6 +51,6 @@ public:
         return {-1};
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/37b706baccf555957f6306fcf46e3d2244863909db943ab52049d42db2b31390-image.png)
+// ![image.png](https://pic.leetcode-cn.com/37b706baccf555957f6306fcf46e3d2244863909db943ab52049d42db2b31390-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-将k穷举
+// ### 解题思路
+// 将k穷举
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int k = 2;
@@ -25,4 +25,4 @@ class Solution {
         return dp[n-1][k][0];
     }
 }
-```
+// ```

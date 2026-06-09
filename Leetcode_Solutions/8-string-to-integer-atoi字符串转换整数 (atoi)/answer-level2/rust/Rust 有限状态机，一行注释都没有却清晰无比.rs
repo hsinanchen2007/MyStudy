@@ -1,4 +1,4 @@
-```rust
+// ```rust
 fn c2i(c: char) -> i32 {
     (c as u8 - '0' as u8) as i32
 }
@@ -75,4 +75,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

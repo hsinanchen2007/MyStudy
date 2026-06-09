@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct TreeNode TreeNode;
 
 bool TreeSearch(TreeNode *treeNode, long long int lower, long long int upper) {
@@ -37,4 +37,4 @@ bool isValidBST(struct TreeNode* root){
 
     return returnValue;
 }
-```
+// ```

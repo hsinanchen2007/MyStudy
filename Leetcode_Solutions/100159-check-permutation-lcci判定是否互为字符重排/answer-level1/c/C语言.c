@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-排序+依次比较
+// 排序+依次比较
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(void *x, void *y)
 {
     return *(char *)x - *(char *)y;
@@ -36,4 +36,4 @@ bool CheckPermutation(char* s1, char* s2){
     return true;
 }
 
-```
+// ```

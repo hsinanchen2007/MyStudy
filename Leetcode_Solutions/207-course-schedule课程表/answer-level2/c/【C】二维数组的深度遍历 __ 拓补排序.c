@@ -1,15 +1,15 @@
-1. 由于对图不熟，就想着用二维数组的遍历来搞定，结果时间复杂度有点慢。
-   (1) 用一个数组flag记录每一次自上而下的路径。
-   (2) 用数组flagg记录当前边，是否已经验证过了，如果是，则忽略，加快一下速度。
-![image.png](https://pic.leetcode-cn.com/c3b00ae9c7dd3b7372b5abf3fb6bdc23830efd0559d5d9abb381dd01c48292da-image.png)
+// 1. 由于对图不熟，就想着用二维数组的遍历来搞定，结果时间复杂度有点慢。
+//    (1) 用一个数组flag记录每一次自上而下的路径。
+//    (2) 用数组flagg记录当前边，是否已经验证过了，如果是，则忽略，加快一下速度。
+// ![image.png](https://pic.leetcode-cn.com/c3b00ae9c7dd3b7372b5abf3fb6bdc23830efd0559d5d9abb381dd01c48292da-image.png)
 
-2. 学习了一下拓补排序，代码实现了一下，速度果然挺快的。
-![image.png](https://pic.leetcode-cn.com/314e1a1668e4cc39723c2da4523011e6eafa534b13a8c6c76236ea96a9092c2a-image.png)
+// 2. 学习了一下拓补排序，代码实现了一下，速度果然挺快的。
+// ![image.png](https://pic.leetcode-cn.com/314e1a1668e4cc39723c2da4523011e6eafa534b13a8c6c76236ea96a9092c2a-image.png)
 
-3. 自己琢磨的路子还是没有前辈们沉淀的厉害，看来还是需要多学习。
+// 3. 自己琢磨的路子还是没有前辈们沉淀的厉害，看来还是需要多学习。
 
-采用二维数组的深度遍历：
-```
+// 采用二维数组的深度遍历：
+// ```
 #define printf
 bool DepthSearch(int **prerequisites, int prerequisitesSize, int id, int *flag, int *flagg)
 {
@@ -68,11 +68,11 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     free(flagg);
     return ret;
 }
-```
+// ```
 
 
-采用拓补排序：
-```
+// 采用拓补排序：
+// ```
 typedef struct NODE{
     int id;
     struct NODE *next;
@@ -139,5 +139,5 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     }
     return count == numCourses;
 }
-```
+// ```
 

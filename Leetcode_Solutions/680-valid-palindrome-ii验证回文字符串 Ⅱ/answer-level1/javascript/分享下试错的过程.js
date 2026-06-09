@@ -1,6 +1,6 @@
-## 第一版
-> 败在了第372个测试用例"eeccccbebaeeabebccceea"
-```javascript []
+// ## 第一版
+// > 败在了第372个测试用例"eeccccbebaeeabebccceea"
+// ```javascript []
 /**
  * @param {string} s
  * @return {boolean}
@@ -15,10 +15,10 @@ var validPalindrome = function(s) {
   }
   return true;
 };
-```
-## 第二版
-> 败在了第414个测试用例"eddboebddcaacddkbebdde"
-```javascript []
+// ```
+// ## 第二版
+// > 败在了第414个测试用例"eddboebddcaacddkbebdde"
+// ```javascript []
 /**
  * @param {string} s
  * @return {boolean}
@@ -34,10 +34,10 @@ var validPalindrome = function(s) {
   }
   return true;
 };
-```
-## 第三版
-> 败在了第456个测试用例"ebcbbececabbacecbbcbe"
-```javascript []
+// ```
+// ## 第三版
+// > 败在了第456个测试用例"ebcbbececabbacecbbcbe"
+// ```javascript []
 /**
  * @param {string} s
  * @return {boolean}
@@ -54,10 +54,10 @@ var validPalindrome = function(s) {
   }
   return true;
 };
-```
-## 第四版
-> 92ms,42.3M。成功击败95.76%用户
-```javascript []
+// ```
+// ## 第四版
+// > 92ms,42.3M。成功击败95.76%用户
+// ```javascript []
 /**
  * @param {string} s
  * @return {boolean}
@@ -71,5 +71,5 @@ var validPalindrome = function(s, count = 0) {
   }
   return true;
 };
-```
-#### 总结：这种题目还是不容易一次性思考全面，还需要多加练习哦。
+// ```
+// #### 总结：这种题目还是不容易一次性思考全面，还需要多加练习哦。

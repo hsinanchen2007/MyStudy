@@ -1,24 +1,24 @@
-### 解题思路
-给出两个一维的向量，请你实现一个迭代器，交替返回它们中间的元素。
+// ### 解题思路
+// 给出两个一维的向量，请你实现一个迭代器，交替返回它们中间的元素。
 
-示例:
+// 示例:
 
-输入:
-v1 = [1,2]
-v2 = [3,4,5,6] 
+// 输入:
+// v1 = [1,2]
+// v2 = [3,4,5,6] 
 
-输出: [1,3,2,4,5,6]
+// 输出: [1,3,2,4,5,6]
 
-解析: 通过连续调用 next 函数直到 hasNext 函数返回 false，
-     next 函数返回值的次序应依次为: [1,3,2,4,5,6]。
+// 解析: 通过连续调用 next 函数直到 hasNext 函数返回 false，
+//      next 函数返回值的次序应依次为: [1,3,2,4,5,6]。
 
 
 
-题目意思弄明白就好做了
+// 题目意思弄明白就好做了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct ZigzagIterator {
   int pos;
   int len;
@@ -75,4 +75,4 @@ void zigzagIteratorFree(struct ZigzagIterator *iter) {
  * while (zigzagIteratorHasNext(i)) printf("%d\n", zigzagIteratorNext(i));
  * zigzagIteratorFree(i);
  */
-```
+// ```

@@ -1,7 +1,7 @@
-BFS的好处是，存储的string，人肉可读。
-坏处，性能上差了一些。内存超出限制
+// BFS的好处是，存储的string，人肉可读。
+// 坏处，性能上差了一些。内存超出限制
 
-```
+// ```
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -161,4 +161,4 @@ class Codec {
     }
 }
 
-```
+// ```

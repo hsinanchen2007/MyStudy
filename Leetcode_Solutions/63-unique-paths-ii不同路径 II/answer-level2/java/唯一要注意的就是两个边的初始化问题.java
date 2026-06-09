@@ -1,8 +1,8 @@
-跟62的解法一脉相承,唯一要注意的就是两个边的初始化问题
-当初始化边的时候,碰到一个障碍物后,后面的就全部都是0了.
+// 跟62的解法一脉相承,唯一要注意的就是两个边的初始化问题
+// 当初始化边的时候,碰到一个障碍物后,后面的就全部都是0了.
 
 
-```java
+// ```java
 public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;
         int n = obstacleGrid[0].length;
@@ -33,4 +33,4 @@ public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         }
         return dp[m - 1][n - 1];
     }
-```
+// ```

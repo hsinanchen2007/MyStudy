@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def selfDividingNumbers(self, left: int, right: int) -> List[int]:
         l=[]
@@ -17,4 +17,4 @@ class Solution:
             if flag==1 and jj<10:
                 l.append(ii)
         return l
-```
+# ```

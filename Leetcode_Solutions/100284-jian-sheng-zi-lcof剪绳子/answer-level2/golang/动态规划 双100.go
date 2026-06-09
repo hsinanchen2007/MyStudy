@@ -1,11 +1,11 @@
-### 解题思路
-考虑题目的问题模式 考虑是动态规划
-发现dp[i] = max(dp[k]*dp[i-k],i-k)
-其中有那么算到dp[n],返回dp[n]即可
+// ### 解题思路
+// 考虑题目的问题模式 考虑是动态规划
+// 发现dp[i] = max(dp[k]*dp[i-k],i-k)
+// 其中有那么算到dp[n],返回dp[n]即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func cuttingRope(n int) int {
 
     //建成m段 组合数
@@ -38,4 +38,4 @@ func cal(m int) int {
 }
 
 var dp []int
-```
+// ```

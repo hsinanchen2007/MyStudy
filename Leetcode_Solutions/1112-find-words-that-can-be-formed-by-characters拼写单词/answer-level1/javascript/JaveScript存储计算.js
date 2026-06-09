@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-循环通过Indexof判断，存储
+// 循环通过Indexof判断，存储
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -34,4 +34,4 @@ var countCharacters = function(words, chars) {
     }
     return res
 };
-```
+// ```

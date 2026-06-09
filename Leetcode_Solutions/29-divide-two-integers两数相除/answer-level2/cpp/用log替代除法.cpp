@@ -1,8 +1,8 @@
-算是一种比较投机取巧的办法。
-因为`log(a/b)=log(a)-log(b)`，所以`a/b = pow(2, log2(a)-log2(b))`
-为了解决溢出问题，需要用到long。当然，也可以单独判断除数为1或者-1的方法。
-代码如下：
-``` c++
+// 算是一种比较投机取巧的办法。
+// 因为`log(a/b)=log(a)-log(b)`，所以`a/b = pow(2, log2(a)-log2(b))`
+// 为了解决溢出问题，需要用到long。当然，也可以单独判断除数为1或者-1的方法。
+// 代码如下：
+// ``` c++
 class Solution {
 public:
     int divide(int dividend, int divisor) {
@@ -29,4 +29,4 @@ public:
         return val;
     }
 };
-```
+// ```

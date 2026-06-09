@@ -1,6 +1,6 @@
-执行用时 :672 ms, 在所有 C 提交中击败了6.15%的用户
-内存消耗 :10.2 MB, 在所有 C 提交中击败了100.00%的用户
-```
+// 执行用时 :672 ms, 在所有 C 提交中击败了6.15%的用户
+// 内存消耗 :10.2 MB, 在所有 C 提交中击败了100.00%的用户
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ void reorderList(struct ListNode* head)
     else
         pre->next = NULL;
 }
-```
+// ```

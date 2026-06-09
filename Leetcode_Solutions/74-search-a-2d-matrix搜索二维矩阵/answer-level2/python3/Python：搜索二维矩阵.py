@@ -1,10 +1,10 @@
-### 解题思路
-暴力遍历
-leetcode上的测试集不大，其实使用两次二分，意义不是很大，当然二分肯定会加快速度
+# ### 解题思路
+# 暴力遍历
+# leetcode上的测试集不大，其实使用两次二分，意义不是很大，当然二分肯定会加快速度
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix or not matrix[0]: return False
@@ -23,4 +23,4 @@ class Solution:
             if i==target:
                 return True
         return False
-```
+# ```

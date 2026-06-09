@@ -1,11 +1,11 @@
-### 解题思路
-stack + 递归处理 
+// ### 解题思路
+// stack + 递归处理 
 
-当前双百
+// 当前双百
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 type item struct {
 	index int
@@ -75,4 +75,4 @@ func getK(sb []byte, index int) (int, int) {
 	return r, preIndex
 }
 
-```
+// ```

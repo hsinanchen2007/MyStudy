@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-简单但不是最快的递归做法
+// 简单但不是最快的递归做法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func addDigits(num int) int {
 	sum := 0
 	for num != 0 {
@@ -17,4 +17,4 @@ func addDigits(num int) int {
 		return addDigits(sum)
 	}
 }
-```
+// ```

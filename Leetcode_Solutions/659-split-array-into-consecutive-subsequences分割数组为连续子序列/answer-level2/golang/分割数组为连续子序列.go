@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isPossible(nums []int) bool {
 	count := make(map[int]int, 0)
 	// tail[x]维护以x结尾的长度大于等于3的连续子序列个数
@@ -29,4 +29,4 @@ func isPossible(nums []int) bool {
 	}
 	return true
 }
-```
+// ```

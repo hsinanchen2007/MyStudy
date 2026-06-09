@@ -1,6 +1,6 @@
-过程都写到注释里了
+-- 过程都写到注释里了
 
-```sql
+-- ```sql
 # 每组最高得分，关联每个player 的得分，按 group_id 聚合，取出各组符合最高得分的最小 player_id
 select t1.group_id, min(t1.player_id) as player_id
 from (
@@ -39,4 +39,4 @@ from (
 where t1.group_id = t2.group_id
 and t1.score = t2.max_score
 group by t1.group_id
-```
+-- ```

@@ -1,9 +1,9 @@
-哎呀不好意思，这儿是比赛的时候写的代码，比较匆忙所以。。没怎么注释。。。
-因为时间问题无法细致地剖析其中细节。
-大体的思路就是把n一位一位地压入两个栈（用的int来代替）然后再从栈中取出即可。
-![llll.png](https://pic.leetcode-cn.com/c752cded2e1d1ac268cb2655e2246cec519db047ad58988d47aa869bcb380ecd-llll.png)
+// 哎呀不好意思，这儿是比赛的时候写的代码，比较匆忙所以。。没怎么注释。。。
+// 因为时间问题无法细致地剖析其中细节。
+// 大体的思路就是把n一位一位地压入两个栈（用的int来代替）然后再从栈中取出即可。
+// ![llll.png](https://pic.leetcode-cn.com/c752cded2e1d1ac268cb2655e2246cec519db047ad58988d47aa869bcb380ecd-llll.png)
 
-```
+// ```
 class Solution {
 public:
     vector<int> getNoZeroIntegers(int n) {
@@ -55,4 +55,4 @@ public:
 		return {A,B};
     }
 };
-```
+// ```

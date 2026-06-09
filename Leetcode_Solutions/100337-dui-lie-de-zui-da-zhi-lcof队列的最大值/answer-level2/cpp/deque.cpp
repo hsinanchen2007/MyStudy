@@ -1,9 +1,9 @@
-### 解题思路
-deque
+// ### 解题思路
+// deque
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
     queue<int> q;
     deque<int> d;
@@ -58,4 +58,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

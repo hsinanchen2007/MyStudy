@@ -1,9 +1,9 @@
-### 解题思路
-后半句话比较难想。
+// ### 解题思路
+// 后半句话比较难想。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> countBits(int num) {
@@ -42,4 +42,4 @@ public:
 
     }
 };
-```
+// ```

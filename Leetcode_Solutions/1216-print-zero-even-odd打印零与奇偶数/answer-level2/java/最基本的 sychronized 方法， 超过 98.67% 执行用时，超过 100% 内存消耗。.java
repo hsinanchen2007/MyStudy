@@ -1,4 +1,4 @@
-```
+// ```
 class ZeroEvenOdd {
     private int n;
 
@@ -47,4 +47,4 @@ class ZeroEvenOdd {
         }
     }
 }
-```
+// ```

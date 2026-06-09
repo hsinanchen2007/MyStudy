@@ -1,11 +1,11 @@
-### 解题思路
-扩展中心： 回文字符串，一定有个中心的，向两边扩散的元素都相同， 长度为n的字符串，可能有2n+1-2(去掉头尾)个中心点
-执行用时 : 380 ms , 在所有 swift 提交中击败了 58.09% 的用户
-内存消耗 : 20.8 MB , 在所有 swift 提交中击败了 7.41% 的用户
+// ### 解题思路
+// 扩展中心： 回文字符串，一定有个中心的，向两边扩散的元素都相同， 长度为n的字符串，可能有2n+1-2(去掉头尾)个中心点
+// 执行用时 : 380 ms , 在所有 swift 提交中击败了 58.09% 的用户
+// 内存消耗 : 20.8 MB , 在所有 swift 提交中击败了 7.41% 的用户
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 func expandAroundCenter(_ strArr: [String.Element], l: Int, r: Int) -> (l:Int, r:Int ,len: Int) {
         //获取每个中心，对应的最长的回文串
         var left = l, right = r;
@@ -42,4 +42,4 @@ func expandAroundCenter(_ strArr: [String.Element], l: Int, r: Int) -> (l:Int, r
      
         return String(strArr[start...end])
     }
-```
+// ```

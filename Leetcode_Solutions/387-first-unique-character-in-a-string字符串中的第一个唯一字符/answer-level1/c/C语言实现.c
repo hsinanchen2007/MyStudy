@@ -1,10 +1,10 @@
-### 解题思路
-散列表加游标数组实现
-C语言代码
+// ### 解题思路
+// 散列表加游标数组实现
+// C语言代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define UNSET -1
 #define MAX_SIZE 128
 
@@ -64,4 +64,4 @@ int firstUniqChar(char *s)
     } while (searchPointer != UNSET);
     return -1;
 }
-```
+// ```

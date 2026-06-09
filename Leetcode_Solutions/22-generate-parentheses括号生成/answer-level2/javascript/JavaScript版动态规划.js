@@ -1,9 +1,9 @@
-### 解题思路
-根据[精选题解](https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/)写的JavaScript版动态规划版的题解。
+// ### 解题思路
+// 根据[精选题解](https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/)写的JavaScript版动态规划版的题解。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -44,4 +44,4 @@ var generateParenthesis = function (n) {
 };
 
 
-```
+// ```

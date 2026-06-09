@@ -1,9 +1,9 @@
-### 解题思路
-依次找出第一大和第二大的数，判断是否有第三大的数
+// ### 解题思路
+// 依次找出第一大和第二大的数，判断是否有第三大的数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int thirdMax(vector<int>& nums) 
@@ -34,4 +34,4 @@ public:
         return (flag==0)?max1:max3;
     }
 };
-```
+// ```

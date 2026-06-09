@@ -1,8 +1,8 @@
-### 解题思路
-两两合并，不要递归。
-### 代码
+// ### 解题思路
+// 两两合并，不要递归。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -69,4 +69,4 @@ class Solution {
         return head.next;
     }
 }
-```
+// ```

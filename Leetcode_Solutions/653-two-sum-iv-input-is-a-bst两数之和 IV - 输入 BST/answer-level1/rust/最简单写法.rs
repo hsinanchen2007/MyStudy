@@ -1,9 +1,9 @@
-### 解题思路
-最简单思路 中序遍历得出数组
-双指针遍历
-### 代码
+// ### 解题思路
+// 最简单思路 中序遍历得出数组
+// 双指针遍历
+// ### 代码
 
-```rust
+// ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
 // pub struct TreeNode {
@@ -47,4 +47,4 @@ impl Solution {
         false
     }
 }
-```
+// ```

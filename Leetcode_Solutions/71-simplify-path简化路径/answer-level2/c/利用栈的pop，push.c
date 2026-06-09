@@ -1,9 +1,9 @@
-### 解题思路
-..看作pop，.不做操作，其他push
+// ### 解题思路
+// ..看作pop，.不做操作，其他push
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * simplifyPath(char * path){
     char *p=strtok(path,"/");
     char stack[100][100];
@@ -35,4 +35,4 @@ char * simplifyPath(char * path){
         result[count-1]='\0';
     return result;
 }
-```
+// ```

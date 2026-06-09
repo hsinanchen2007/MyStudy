@@ -1,9 +1,9 @@
-### 解题思路
-1、dp[i] 标识在i位置的最大时间 ， 动态转移方程：dp[i] = max(这一次选择的话 dp[i-2]+num[i],这一次不选择的话dp[i-1])
+// ### 解题思路
+// 1、dp[i] 标识在i位置的最大时间 ， 动态转移方程：dp[i] = max(这一次选择的话 dp[i-2]+num[i],这一次不选择的话dp[i-1])
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func massage(nums []int) int {
 	if len(nums) == 0 {
 		return 0
@@ -29,5 +29,5 @@ func massage(nums []int) int {
 	}
 	return dp[len(nums)-1]
 }
-```
-![image.png](https://pic.leetcode-cn.com/89344d6ef06cdbc3829e7cd6a82fe6cbf85f96a41f741f1f65ca0970989ef379-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/89344d6ef06cdbc3829e7cd6a82fe6cbf85f96a41f741f1f65ca0970989ef379-image.png)

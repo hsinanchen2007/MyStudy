@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-一个单词只在一个句子中出现一次，即是在两个句子中只出现一次，将两个字符串相加再按常规思路放入hashmap中，最后再统计即可
+// 一个单词只在一个句子中出现一次，即是在两个句子中只出现一次，将两个字符串相加再按常规思路放入hashmap中，最后再统计即可
 
 
-### 参考代码
+// ### 参考代码
 
-```go
+// ```go
 func uncommonFromSentences(A string, B string) []string {
 	mp := make(map[string]int)
 	i:=0
@@ -34,7 +34,7 @@ func uncommonFromSentences(A string, B string) []string {
 	return res
 }
 
-```
-**更多题解可以在我的[github](https://github.com/LZH139/leetcode_Go)上看到，每天都在持续更新，觉得还不错的话，记得点个小星星哈，谢谢啦**
+// ```
+// **更多题解可以在我的[github](https://github.com/LZH139/leetcode_Go)上看到，每天都在持续更新，觉得还不错的话，记得点个小星星哈，谢谢啦**
 
 

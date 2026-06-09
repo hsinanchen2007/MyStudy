@@ -1,5 +1,5 @@
-执行用时 :0 ms，在所有 C 提交中击败了100.00%的用户 内存消耗 :7.2 MB，在所有 C 提交中击败了76.32%的用户
-```c
+// 执行用时 :0 ms，在所有 C 提交中击败了100.00%的用户 内存消耗 :7.2 MB，在所有 C 提交中击败了76.32%的用户
+// ```c
 int lengthOfLongestSubstring(char * s) {
     int table[0xFF];
     memset(table, -1, sizeof(table));
@@ -22,4 +22,4 @@ int lengthOfLongestSubstring(char * s) {
     maxlen = len > maxlen ? len : maxlen;
     return maxlen;
 }
-```
+// ```

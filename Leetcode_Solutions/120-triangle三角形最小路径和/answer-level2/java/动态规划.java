@@ -1,9 +1,9 @@
-### 解题思路
-自底向上
+// ### 解题思路
+// 自底向上
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int[][] dp = new int[triangle.size()+1][triangle.size() + 1];
@@ -17,4 +17,4 @@ class Solution {
         return dp[0][0];
     }
 }
-```
+// ```

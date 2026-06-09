@@ -1,4 +1,4 @@
-```sh
+# ```sh
 #sed 可以解决少行的问题
 sed --quiet {10p} file.txt
 #如果先用head取前10行，再用tail取最后一行，不能解决少行问题
@@ -15,4 +15,4 @@ then
 else
         head --lines=10 file.txt | tail --lines=1
 fi
-```
+# ```

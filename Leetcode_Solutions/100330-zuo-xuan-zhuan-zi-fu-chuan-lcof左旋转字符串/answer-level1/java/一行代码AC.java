@@ -1,9 +1,9 @@
-### 解题思路
-利用substring一行代码AC
+// ### 解题思路
+// 利用substring一行代码AC
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseLeftWords(String s, int n) {
    // if(s.length()<n){
@@ -15,4 +15,4 @@ class Solution {
             return s.substring(n)+s.substring(0,n);     
     }
 }
-```
+// ```

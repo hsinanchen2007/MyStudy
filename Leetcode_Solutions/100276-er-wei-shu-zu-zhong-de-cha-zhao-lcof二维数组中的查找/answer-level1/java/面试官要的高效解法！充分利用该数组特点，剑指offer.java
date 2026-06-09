@@ -1,10 +1,10 @@
-### 解题思路
-利用数组特性，从数组左下角开始查询；同理，客官可尝试从右上角开始遍历！1
-![捕获.PNG](https://pic.leetcode-cn.com/73a6efd71da853052813ecf30e360266361a7d6d303425c6e6dddbe75f43101f-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 利用数组特性，从数组左下角开始查询；同理，客官可尝试从右上角开始遍历！1
+// ![捕获.PNG](https://pic.leetcode-cn.com/73a6efd71da853052813ecf30e360266361a7d6d303425c6e6dddbe75f43101f-%E6%8D%95%E8%8E%B7.PNG)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if(matrix==null || matrix.length==0)
@@ -26,4 +26,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

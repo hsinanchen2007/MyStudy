@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         def calcMax(x, y):
@@ -13,4 +13,4 @@ class Solution:
         if z % m != 0:
             return False
         return z<=x+y
-```
+# ```

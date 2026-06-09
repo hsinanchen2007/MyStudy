@@ -1,5 +1,5 @@
-//分治的思想
-```python []
+# //分治的思想
+# ```python []
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         

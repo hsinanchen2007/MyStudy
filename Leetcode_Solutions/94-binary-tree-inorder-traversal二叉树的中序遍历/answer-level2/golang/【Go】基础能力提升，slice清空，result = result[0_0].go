@@ -1,4 +1,4 @@
-```
+// ```
 var result []int = make([]int, 0)
 
 func inorderTraversalData(root *TreeNode) {
@@ -17,4 +17,4 @@ func inorderTraversal(root *TreeNode) []int {
 	inorderTraversalData(root)
 	return result
 }
-```
+// ```

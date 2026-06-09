@@ -1,11 +1,11 @@
-# 思路
-参考了这位大佬的[解题思路](https://leetcode-cn.com/problems/linked-list-in-binary-tree/solution/zhe-ti-jiu-shi-subtreeyi-mao-yi-yang-by-jerry_nju/)
-先假设head是以当前树上节点某一个节点开头的，我们再去dfs寻找这树上是否存在这样一条匹配路径（子树）。
+# # 思路
+# 参考了这位大佬的[解题思路](https://leetcode-cn.com/problems/linked-list-in-binary-tree/solution/zhe-ti-jiu-shi-subtreeyi-mao-yi-yang-by-jerry_nju/)
+# 先假设head是以当前树上节点某一个节点开头的，我们再去dfs寻找这树上是否存在这样一条匹配路径（子树）。
 
-# 代码
-解题步骤思路在代码中。
+# # 代码
+# 解题步骤思路在代码中。
 
-```python
+# ```python
 class Solution:
     def isSubPath(self, head: ListNode, root: TreeNode) -> bool:
         #匹配一个空的路径，一定是True
@@ -31,4 +31,4 @@ class Solution:
 
         #dfs,只要有一边能通，就OK
         return (self.match(head.next,root.left) or self.match(head.next,root.right));
-```
+# ```

@@ -1,4 +1,4 @@
-```java
+// ```java
     public void moveZeroes(int[] nums) {
         if (nums == null || nums.length == 1) return;
 
@@ -25,4 +25,4 @@
         nums[i]=nums[j];
         nums[j]=temp;
     }
-```
+// ```

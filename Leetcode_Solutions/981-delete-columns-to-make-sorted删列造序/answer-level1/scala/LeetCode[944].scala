@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def minDeletionSize(A: Array[String]): Int = {
     (0 until A(0).length).map(i => {
@@ -6,4 +6,4 @@ object Solution {
     }).toList.count((!_._2))
   }
 }
-```
+// ```

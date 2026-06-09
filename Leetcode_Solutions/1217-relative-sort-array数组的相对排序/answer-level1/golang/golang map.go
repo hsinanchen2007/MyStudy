@@ -1,7 +1,7 @@
-1. 首先用map统计arr1中的数字
-2. 遍历arr2，如果在map中存在，添加到新的数组中，并将对应的map[key]减1
-3. 遍历m，把剩余的数按顺序添加
-```
+// 1. 首先用map统计arr1中的数字
+// 2. 遍历arr2，如果在map中存在，添加到新的数组中，并将对应的map[key]减1
+// 3. 遍历m，把剩余的数按顺序添加
+// ```
 func relativeSortArray(arr1 []int, arr2 []int) []int {
     m := make(map[int]int)
     for i := 0; i < len(arr1); i++ {
@@ -22,4 +22,4 @@ func relativeSortArray(arr1 []int, arr2 []int) []int {
     }
     return ret
 }
-```
+// ```

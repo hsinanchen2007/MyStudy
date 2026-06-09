@@ -1,4 +1,4 @@
-```python
+# ```python
 def transpose(A):
     m, n = len(A), len(A[0])
     r = [[0 for i in range(m)] for j in range(n)]
@@ -14,4 +14,4 @@ def transpose1(A):
 
 print(transpose([[1,2,3],[4,5,6],[7,8,9]]))
 print(transpose1([[1,2,3],[4,5,6],[7,8,9]]))
-```
+# ```

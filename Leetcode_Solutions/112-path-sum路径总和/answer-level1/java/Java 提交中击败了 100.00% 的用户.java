@@ -1,9 +1,9 @@
-### 解题思路
-DFS+条件判断  终止条件是当到达叶子节点 sum-叶子节点的值刚好等于0表示已经找到,还有如果根节点或者当前节点为null返回false,之后就是分别遍历左子树或者右子树
+// ### 解题思路
+// DFS+条件判断  终止条件是当到达叶子节点 sum-叶子节点的值刚好等于0表示已经找到,还有如果根节点或者当前节点为null返回false,之后就是分别遍历左子树或者右子树
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
                 hasPathSum(root.right,sum-root.val);
     }
 }
-```
+// ```

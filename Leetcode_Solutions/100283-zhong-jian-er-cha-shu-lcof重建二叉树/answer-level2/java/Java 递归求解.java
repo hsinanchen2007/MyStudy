@@ -1,12 +1,12 @@
-### 解题思路
-先看执行情况：
-![image.png](https://pic.leetcode-cn.com/8a070f3a16ecb548212ce6d307bbd59353f8f5d87342c488a65706ae88ad7744-image.png)
-执行用时有点长，但是可以在此基础上优化。
-大体思路是获取根节点，递归的求解左右子树，终止条件是当子树的长度等于1时返回。
+// ### 解题思路
+// 先看执行情况：
+// ![image.png](https://pic.leetcode-cn.com/8a070f3a16ecb548212ce6d307bbd59353f8f5d87342c488a65706ae88ad7744-image.png)
+// 执行用时有点长，但是可以在此基础上优化。
+// 大体思路是获取根节点，递归的求解左右子树，终止条件是当子树的长度等于1时返回。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -56,4 +56,4 @@ public TreeNode buildTree(int[] preOrder, int[] inOrder) {
         return root;
     }
 }
-```
+// ```

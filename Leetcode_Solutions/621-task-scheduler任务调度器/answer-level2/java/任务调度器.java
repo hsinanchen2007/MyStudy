@@ -1,9 +1,9 @@
-### 解题思路
-1. 参考官方题解
+// ### 解题思路
+// 1. 参考官方题解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int leastInterval(char[] tasks, int n) {
         if(tasks == null || tasks.length == 0) return 0;
@@ -20,4 +20,4 @@ class Solution {
 
     }
 }
-```
+// ```

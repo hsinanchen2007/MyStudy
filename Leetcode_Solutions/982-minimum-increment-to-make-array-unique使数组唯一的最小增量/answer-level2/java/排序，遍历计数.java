@@ -1,14 +1,14 @@
-### 解题思路
-```text
+// ### 解题思路
+// ```text
 1. 排序
 2. 定义list dupElements记录重复元素，排序后，如果后一个元素和前一个元素相等，即为重复元素
 3. 如果A[i + 1]和A[i]中间有空位，则用dupElements中的元素进行填充，直到dupElements为空，或没有空位为止，填充的过程中增加计数
 4. 遍历结束后，如果dupElements尚不为空，则以当前数组中最大的元素为起点进行递增，递增的过程中，增加计数
-```
+// ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 计数
     int count = 0;
@@ -65,10 +65,10 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-### 测试用例
-```java
+// ### 测试用例
+// ```java
 public class SolutionTest {
     Solution solution = new Solution();
 
@@ -87,4 +87,4 @@ public class SolutionTest {
         assertEquals(expect2, output2);
     }
 }
-```
+// ```

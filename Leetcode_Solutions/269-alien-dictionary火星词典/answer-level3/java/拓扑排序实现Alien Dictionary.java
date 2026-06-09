@@ -1,6 +1,6 @@
-开始对题目理解错误，用了单个单词去构建图，看了 [@zxy0917](/u/zxy0917/) 的题解才明白，按照自己的思路实现如下：
-通过一次遍历记录 入度 和 边
-```
+// 开始对题目理解错误，用了单个单词去构建图，看了 [@zxy0917](/u/zxy0917/) 的题解才明白，按照自己的思路实现如下：
+// 通过一次遍历记录 入度 和 边
+// ```
 class Solution {
     public String alienOrder(String[] words) {
         // 存放结果 最后转成String
@@ -80,4 +80,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

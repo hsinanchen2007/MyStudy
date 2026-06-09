@@ -1,15 +1,15 @@
 
-## 思路:
+# ## 思路:
 
-上一题一样[102. 二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+# 上一题一样[102. 二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 
-思路一:BFS
+# 思路一:BFS
 
-思路二:DFS
+# 思路二:DFS
 
-## 代码:
+# ## 代码:
 
-```python [1]
+# ```python [1]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -40,11 +40,11 @@ class Solution:
             cur_level = next_level
         return res
         
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -78,11 +78,11 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 
-思路二:
+# 思路二:
 
-```python [2]
+# ```python [2]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -104,13 +104,13 @@ class Solution:
             helper(root.right, depth + 1)
         helper(root, 0)
         return res
-```
+# ```
 
 
 
 
 
-```java [2]
+# ```java [2]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -137,5 +137,5 @@ class Solution {
         helper(res, root.right, depth + 1);
     }
 }
-```
+# ```
 

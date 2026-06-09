@@ -1,6 +1,6 @@
 
 
-```java
+// ```java
     /**
      * 解题思路（回溯算法）：
      * 1.从list中开始取，一直取到k位
@@ -45,4 +45,4 @@
             itemList.remove(itemList.size() - 1);
         }
     }
-```
+// ```

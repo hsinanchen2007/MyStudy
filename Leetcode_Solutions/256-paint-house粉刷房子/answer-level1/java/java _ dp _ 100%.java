@@ -1,5 +1,5 @@
-没必要申请额外空间
-```
+// 没必要申请额外空间
+// ```
 class Solution {
     public int minCost(int[][] costs) {
         if(costs.length==0)
@@ -12,4 +12,4 @@ class Solution {
         return Math.min(costs[costs.length-1][0],Math.min(costs[costs.length-1][1],costs[costs.length-1][2]));
     }
 }
-```
+// ```

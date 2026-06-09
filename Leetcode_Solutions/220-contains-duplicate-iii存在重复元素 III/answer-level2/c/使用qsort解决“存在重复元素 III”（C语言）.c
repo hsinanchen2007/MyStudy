@@ -1,16 +1,16 @@
-### 解题思路
-题目要求为比较数值大小及位置距离，因此对数值和id进行二重排序，可以起到加速作用。
+// ### 解题思路
+// 题目要求为比较数值大小及位置距离，因此对数值和id进行二重排序，可以起到加速作用。
 
-题目特殊的地方在于int没有限定范围，需要特殊处理边界条件。
+// 题目特殊的地方在于int没有限定范围，需要特殊处理边界条件。
 
-由于qsort只能返回int，因此需要将比较结果处理为int类型。
+// 由于qsort只能返回int，因此需要将比较结果处理为int类型。
 
-![image.png](https://pic.leetcode-cn.com/1f83562cd6c858662dfa1a389f3f5834847ffe86a5e9b3e2f3be3baa70e9e326-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1f83562cd6c858662dfa1a389f3f5834847ffe86a5e9b3e2f3be3baa70e9e326-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
  * @lc app=leetcode.cn id=220 lang=c
  *
@@ -93,4 +93,4 @@ bool containsNearbyAlmostDuplicate(int* nums, int numsSize, int k, int t){
 // @lc code=end
 
 
-```
+// ```

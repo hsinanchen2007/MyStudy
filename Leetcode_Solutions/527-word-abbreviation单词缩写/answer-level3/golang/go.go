@@ -1,4 +1,4 @@
-```
+// ```
 import "fmt"
 
 func abbr(s string, k int) string {
@@ -35,4 +35,4 @@ func wordsAbbreviation(dict []string) []string {
 	}
 	return out
 }
-```
+// ```

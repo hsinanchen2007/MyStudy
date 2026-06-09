@@ -1,8 +1,8 @@
-### 解题思路
-System.arraycopy(数组,数组起始位置,新数组,数组在新数组中的起始位置,数组长度);
-### 代码
+// ### 解题思路
+// System.arraycopy(数组,数组起始位置,新数组,数组在新数组中的起始位置,数组长度);
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] nums=new int[nums1.length+nums2.length];
@@ -18,4 +18,4 @@ class Solution {
         }
     }
 }
-```
+// ```

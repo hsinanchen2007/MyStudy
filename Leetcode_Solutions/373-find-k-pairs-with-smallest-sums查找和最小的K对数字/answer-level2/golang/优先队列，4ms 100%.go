@@ -1,9 +1,9 @@
-关键思路：如果当前最小值是nums[i]+nums[j]，那么下一个最小值在nums[i+1]+nums[j]、nums[i]+nums[j+1]以及之前一轮没选中的索引对中产生。
-实现：
-使用go标准库"container/heap"实现优先队列。
-队中元素是(i,j),优先级是nums[i]+nums[j]。
-首先入队i=j=0，之后(i,j)出队，入队的是(i+1,j)和(i,j+1)，以此类推，优先队列每次出队优先级最高的（这里定义为nums[i]+nums[j]越小优先级越高）。
-```go []
+// 关键思路：如果当前最小值是nums[i]+nums[j]，那么下一个最小值在nums[i+1]+nums[j]、nums[i]+nums[j+1]以及之前一轮没选中的索引对中产生。
+// 实现：
+// 使用go标准库"container/heap"实现优先队列。
+// 队中元素是(i,j),优先级是nums[i]+nums[j]。
+// 首先入队i=j=0，之后(i,j)出队，入队的是(i+1,j)和(i,j+1)，以此类推，优先队列每次出队优先级最高的（这里定义为nums[i]+nums[j]越小优先级越高）。
+// ```go []
 // An Item is something we manage in a priority queue.
 type Item struct {
 	key1     int
@@ -75,5 +75,5 @@ func kSmallestPairs(nums1 []int, nums2 []int, k int) [][]int {
 	}
 	return res
 }
-```
+// ```
 

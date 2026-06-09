@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def diameterOfBinaryTree(self, root):
         return self.diameterHelper(root)[1]
@@ -11,4 +11,4 @@ class Solution(object):
         l = self.diameterHelper(root.left)
         r = self.diameterHelper(root.right)
         return [max(l[0],r[0])+1, max(l[0]+r[0],l[1],r[1])]
-```
+# ```

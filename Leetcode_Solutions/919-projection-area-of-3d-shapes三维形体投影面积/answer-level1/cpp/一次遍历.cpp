@@ -1,7 +1,7 @@
 
 
 
-```
+// ```
 class Solution {
 public:
     int projectionArea(vector<vector<int>>& grid) {
@@ -37,4 +37,4 @@ public:
         return xy+xz+yz;//返回三个投影面积的总和
     }
 };
-```
+// ```

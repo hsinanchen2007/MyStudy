@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/d840d0cfd3395a81481b68447fef37625d550e6ab49b00efa0e27dc6f44a67ed-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d840d0cfd3395a81481b68447fef37625d550e6ab49b00efa0e27dc6f44a67ed-image.png)
 
-为什么用unordered_map<string, multiset<int>>这样的数据结构
-因为set自动会排序,可以直接找到起点，避免用vector需要每次都遍历所有的结果
-为什么用multiset不用set，因为题目没有保证同一时间不会重复，可能一个时间会有多次。。(试了下，set也能ac。。)
+// 为什么用unordered_map<string, multiset<int>>这样的数据结构
+// 因为set自动会排序,可以直接找到起点，避免用vector需要每次都遍历所有的结果
+// 为什么用multiset不用set，因为题目没有保证同一时间不会重复，可能一个时间会有多次。。(试了下，set也能ac。。)
 
-```
+// ```
 class TweetCounts {
 public:
     TweetCounts() = default;
@@ -40,4 +40,4 @@ public:
 private:
     unordered_map<string, multiset<int>> record;
 };
-```
+// ```

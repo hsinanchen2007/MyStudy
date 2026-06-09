@@ -1,4 +1,4 @@
-```
+# ```
 def maxDistance(grid):
     if not grid:
         return -1
@@ -29,4 +29,4 @@ def maxDistance(grid):
         return -1
     else:
         return res - 1
-```
+# ```

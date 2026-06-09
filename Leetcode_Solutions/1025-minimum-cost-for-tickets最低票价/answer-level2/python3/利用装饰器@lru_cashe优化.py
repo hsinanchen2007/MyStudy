@@ -1,5 +1,5 @@
-相当于带备忘录的搜索
-```
+# 相当于带备忘录的搜索
+# ```
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
 
@@ -12,4 +12,4 @@ class Solution:
             return min(helper(i+d)+c for d, c in zip([1,7,30], costs))
         return helper(1)
              
-```
+# ```

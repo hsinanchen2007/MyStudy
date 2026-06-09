@@ -1,4 +1,4 @@
-```
+// ```
 var count int
 func totalNQueens(n int) int {
     count = 0
@@ -20,4 +20,4 @@ func dfs(n, row, col, pie, na int){
     }
     
 }
-```
+// ```

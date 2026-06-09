@@ -1,8 +1,8 @@
-回文串那里的规律是在剔除成对出现的字符之后,剩下的单字符组成的字符串计数.
+# 回文串那里的规律是在剔除成对出现的字符之后,剩下的单字符组成的字符串计数.
 
-在计数之后直接计算k是否达到了剩余字符串长度的一半,达到一半就返回True.
+# 在计数之后直接计算k是否达到了剩余字符串长度的一半,达到一半就返回True.
 
-```import collections
+# ```import collections
 
 class Solution:
     def canMakePaliQueries(self, s: str, queries: List[List[int]]) -> List[bool]:

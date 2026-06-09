@@ -1,5 +1,5 @@
-通过一个create_list函数和sort操作简化了操作逻辑。写这题的主要不目的就是熟悉OPTION和BOX的搭配操作，最后虽然通过了，但是好像逃避了最初遇见的一些问题。rust做法如下：
-```
+// 通过一个create_list函数和sort操作简化了操作逻辑。写这题的主要不目的就是熟悉OPTION和BOX的搭配操作，最后虽然通过了，但是好像逃避了最初遇见的一些问题。rust做法如下：
+// ```
 fn show(l1:Option<Box<ListNode>> )  {
     let mut l1_in = l1.unwrap();
     while l1_in.next!=None {
@@ -73,4 +73,4 @@ fn main() {
     show(b);
 
 }
-```
+// ```

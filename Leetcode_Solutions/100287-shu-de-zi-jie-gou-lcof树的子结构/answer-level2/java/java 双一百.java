@@ -1,12 +1,12 @@
-就三种情况嘛：
-1. A的根节点开始，B和A是否重合
-2. B是否在A的左子树中
-3. B是否在A的右子树中
+// 就三种情况嘛：
+// 1. A的根节点开始，B和A是否重合
+// 2. B是否在A的左子树中
+// 3. B是否在A的右子树中
 
-method方法是能够判断以a，b为根的两个树，b是否完全在a中
-**结果 = B是否和A以根节点开始完全重合 || B在A的左子树中 || B在A的右子树中**
+// method方法是能够判断以a，b为根的两个树，b是否完全在a中
+// **结果 = B是否和A以根节点开始完全重合 || B在A的左子树中 || B在A的右子树中**
 
-```java
+// ```java
 class Solution {
     public boolean isSubStructure(TreeNode A, TreeNode B) {
         if(B == null) return false;
@@ -22,4 +22,4 @@ class Solution {
         return (method(a.left, b.left) && method(a.right, b.right));
     }
 }
-```
+// ```

@@ -1,21 +1,21 @@
-欢迎关注[muyids的leetcode题解](https://github.com/muyids/leetcode)
+// 欢迎关注[muyids的leetcode题解](https://github.com/muyids/leetcode)
 
-思路：
+// 思路：
 
-抽屉原理 + 异或交换数字不占用额外空间, 时间复杂度O(N) + 空间复杂度O(1)
+// 抽屉原理 + 异或交换数字不占用额外空间, 时间复杂度O(N) + 空间复杂度O(1)
 
-异或交换数字
+// 异或交换数字
 
-```javascript
+// ```javascript
 let a = 1, b = 2
 a = a ^ b
 b = a ^ b
 a = a ^ b
 console.log(a, b) // 2, 1
-```
----
+// ```
+// ---
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -36,4 +36,4 @@ var findDuplicates = function (nums) {
     }
     return [...ans]
 };
-```
+// ```

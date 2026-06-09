@@ -1,5 +1,5 @@
-- hash表:
-```python
+# - hash表:
+# ```python
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         hashTable = {}
@@ -7,9 +7,9 @@ class Solution:
             if hashTable.get(target - numbers[i]) is not None:
                 return hashTable[target - numbers[i]] + 1, i + 1
             hashTable[numbers[i]] = i
-```
-- 二分查找:
-```python
+# ```
+# - 二分查找:
+# ```python
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         for i in range(len(numbers)):
@@ -24,9 +24,9 @@ class Solution:
                     j = mid + 1
                 else:
                     k = mid - 1
-```
-- 双指针:
-```python
+# ```
+# - 双指针:
+# ```python
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         i = 0
@@ -39,4 +39,4 @@ class Solution:
                 j -= 1
             else:
                 i += 1
-```
+# ```

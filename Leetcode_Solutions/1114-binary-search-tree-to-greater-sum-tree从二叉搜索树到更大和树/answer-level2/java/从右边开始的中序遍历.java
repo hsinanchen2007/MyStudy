@@ -1,4 +1,4 @@
-```
+// ```
   public TreeNode bstToGst(TreeNode root) {
         dfs(root, 0);
         return root;
@@ -13,5 +13,5 @@
         int left = postOrderTreeNode(root.left, cur);
         return left;
     }
-```
+// ```
 

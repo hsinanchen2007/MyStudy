@@ -1,5 +1,5 @@
-# 代码里注释的很详细了
-```
+// # 代码里注释的很详细了
+// ```
 class Solution {
     public int mySqrt(int x) {
         //都用double，int和float会过不了大数值测试
@@ -29,4 +29,4 @@ class Solution {
         return (int) point;
     }
 }
-```
+// ```

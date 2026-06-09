@@ -1,9 +1,9 @@
-### 解题思路
-代码如下：
+// ### 解题思路
+// 代码如下：
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -20,4 +20,4 @@ var maxSlidingWindow = function(nums, k) {
 
 
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/5e45662b0d032fdaa3cda91f7fad21d72786a6b097c88abd2da034bed74305f6-image.png)
-当链表长度超过2的时候进入循环，以三个连续链表对象为开始，每次循环将中间节点指向反转
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/5e45662b0d032fdaa3cda91f7fad21d72786a6b097c88abd2da034bed74305f6-image.png)
+// 当链表长度超过2的时候进入循环，以三个连续链表对象为开始，每次循环将中间节点指向反转
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -41,4 +41,4 @@ class Solution {
         return tempNode2;
     }
 }
-```
+// ```

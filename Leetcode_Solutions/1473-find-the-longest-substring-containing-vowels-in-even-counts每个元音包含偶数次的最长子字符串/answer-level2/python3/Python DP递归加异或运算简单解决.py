@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/7fff4f4f0257fa9e3ac7f722e46a0207976d36b4858fa678565316db8176f164-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7fff4f4f0257fa9e3ac7f722e46a0207976d36b4858fa678565316db8176f164-image.png)
 
 
-```
+# ```
 '''
 [0, i]区间内元音字母的出现次数奇偶性可以用一个5bit数值表示为dp[i]
 如果j < i 且 dp[i] == dp[j] 那[i+1, j]区间 就是一个合法区间，
@@ -25,4 +25,4 @@ class Solution:
             else:
                 max_len = max(max_len, i - first_pos[val])
         return max_len
-```
+# ```

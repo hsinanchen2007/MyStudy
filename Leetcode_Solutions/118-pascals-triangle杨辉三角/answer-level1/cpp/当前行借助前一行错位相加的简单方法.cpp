@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -17,5 +17,5 @@ public:
         return tritangle;
     }
 };
-```
-先特判一下numRows等于0的情况，再逐行求解。
+// ```
+// 先特判一下numRows等于0的情况，再逐行求解。

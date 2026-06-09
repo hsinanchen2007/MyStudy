@@ -1,9 +1,9 @@
-### 解题思路
-快指针先走n步，然后快慢指针一起走，快指针走到头，慢指针是第n个待删除点
+# ### 解题思路
+# 快指针先走n步，然后快慢指针一起走，快指针走到头，慢指针是第n个待删除点
 
-### 代码
+# ### 代码
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
         if slow:
             pre.next=slow.next
         return dummy.next
-```
+# ```

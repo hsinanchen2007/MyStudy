@@ -1,8 +1,8 @@
-### 解题思路
-如题
-### 代码
+# ### 解题思路
+# 如题
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         if s == '':
@@ -33,4 +33,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/8652ab7bfe7395b84b12dd737151a496486ebff834f7c7f72917aa877d6b7bc3-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/8652ab7bfe7395b84b12dd737151a496486ebff834f7c7f72917aa877d6b7bc3-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         size = len(S)
@@ -24,4 +24,4 @@ class Solution:
         return s + str(char_len)  # 最后一位数字的处理
 
 
-```
+# ```

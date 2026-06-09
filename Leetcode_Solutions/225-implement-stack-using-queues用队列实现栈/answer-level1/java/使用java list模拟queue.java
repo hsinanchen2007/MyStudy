@@ -1,9 +1,9 @@
-### 解题思路
-使用java list模拟queue
+// ### 解题思路
+// 使用java list模拟queue
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
 
     /** Initialize your data structure here. */
@@ -42,4 +42,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def longestCommonPrefix(self, strs):
         """
@@ -12,4 +12,4 @@ class Solution(object):
                 if i>=len(strs[j]) or strs[j][i] != strs[0][i]:
                     return strs[0][:i]
         return strs[0]
-```
+# ```

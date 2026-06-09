@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/95290a5fda2eb94ee0e4c4e965c27d2215324e7cacd5c8565f4ee7a51440c09c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/95290a5fda2eb94ee0e4c4e965c27d2215324e7cacd5c8565f4ee7a51440c09c-image.png)
 
-```
+// ```
 //subsets[i]中保存的是以nums[i](重排后)开头的子集集合
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
@@ -46,4 +46,4 @@ class Solution {
         }
     }
 }
-```
+// ```

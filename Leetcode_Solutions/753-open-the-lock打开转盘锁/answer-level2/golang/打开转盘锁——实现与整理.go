@@ -1,16 +1,16 @@
 
-将所有状态看作图上的10000个节点，利用BFS搜索最短路径。
+// 将所有状态看作图上的10000个节点，利用BFS搜索最短路径。
 
-双向BFS搜索解法时间和内存超过100%。我都惊了
-![image.png](https://pic.leetcode-cn.com/bb797d26ebda91fa6dcb1aa5db7d178a8d81272b9f6545d4face899d200deeae-image.png)
+// 双向BFS搜索解法时间和内存超过100%。我都惊了
+// ![image.png](https://pic.leetcode-cn.com/bb797d26ebda91fa6dcb1aa5db7d178a8d81272b9f6545d4face899d200deeae-image.png)
 
-单向BFS的提交结果：
-![image.png](https://pic.leetcode-cn.com/d453c7541910f46b6648232b3884c4546bfec0342fad6763ccaceaefe6eb254e-image.png)
+// 单向BFS的提交结果：
+// ![image.png](https://pic.leetcode-cn.com/d453c7541910f46b6648232b3884c4546bfec0342fad6763ccaceaefe6eb254e-image.png)
 
 
-## 思路、实现、整理与优化
+// ## 思路、实现、整理与优化
 
-```go
+// ```go
 package lt752
 
 // 打开转盘锁
@@ -224,4 +224,4 @@ func BFS(start, end, visited map[string]bool, count int) int {
 	count++
 	return BFS(nexts, end, visited, count)
 }
-```
+// ```

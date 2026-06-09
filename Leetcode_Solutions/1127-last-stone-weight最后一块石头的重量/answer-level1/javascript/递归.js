@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var lastStoneWeight = function(stones) {
   if (!stones.length) {
     return 0;
@@ -20,4 +20,4 @@ var lastStoneWeight = function(stones) {
   }
   return lastStoneWeight(stones_sort.concat(smash_stones));
 };
-```
+// ```

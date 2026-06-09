@@ -1,12 +1,12 @@
-### 解题思路
-思路很简单，先排序然后按照要求组建一个数组。
-但是题目的返回值比较难以捉摸。
-首先是*returnSize，按照注释，这个意思好像是要返回一个装了很多数组的（an array of arrays）数组的尺寸（size）,好像是这个断句的吧...
-然后是int** returnColumnSizes，很多个小数组的尺寸（The sizes of the arrays）被返回，以一个数组的形式（*returnColumnSizes），说明*returnColumnSizes是一个数组，此数组描述了多个小数组的尺寸。returnColumnSizes是一个指针，指向了指向描述小数组尺寸的数组的指针。
+// ### 解题思路
+// 思路很简单，先排序然后按照要求组建一个数组。
+// 但是题目的返回值比较难以捉摸。
+// 首先是*returnSize，按照注释，这个意思好像是要返回一个装了很多数组的（an array of arrays）数组的尺寸（size）,好像是这个断句的吧...
+// 然后是int** returnColumnSizes，很多个小数组的尺寸（The sizes of the arrays）被返回，以一个数组的形式（*returnColumnSizes），说明*returnColumnSizes是一个数组，此数组描述了多个小数组的尺寸。returnColumnSizes是一个指针，指向了指向描述小数组尺寸的数组的指针。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -90,4 +90,4 @@ int** allCellsDistOrder(int R, int C, int r0, int c0, int* returnSize, int** ret
 
     return matrix;
 }
-```
+// ```

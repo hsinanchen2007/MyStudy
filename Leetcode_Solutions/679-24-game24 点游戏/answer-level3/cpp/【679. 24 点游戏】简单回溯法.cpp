@@ -1,7 +1,7 @@
-## 思路
-**注意：整型vector转为double，否则会发生自动类型转换导致出错**
-### 代码
-```c++
+// ## 思路
+// **注意：整型vector转为double，否则会发生自动类型转换导致出错**
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool judgePoint24(vector<int>& nums) {
@@ -48,4 +48,4 @@ public:
         }
     }
 };
-```
+// ```

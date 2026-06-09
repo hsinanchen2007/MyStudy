@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct TagRecord{
     struct TagRecord *next;
     char tag[12];
@@ -73,4 +73,4 @@ bool isValid(char * code){
         return true;
     return false;
 }
-```
+// ```

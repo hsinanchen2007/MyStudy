@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-1.用count记录不同的数组下标；
-2.count > 2或count = 1则返回false；
-3.count = 2时判断两个互换是否相等；
-4.count = 0 判断A中是否呦重复元素出现，有返回true否则false；
-![image.png](https://pic.leetcode-cn.com/ed4d935243e3e9dbcdd6a2374376cff7844e9ec6a2a9017487f5da6b2e163586-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// 1.用count记录不同的数组下标；
+// 2.count > 2或count = 1则返回false；
+// 3.count = 2时判断两个互换是否相等；
+// 4.count = 0 判断A中是否呦重复元素出现，有返回true否则false；
+// ![image.png](https://pic.leetcode-cn.com/ed4d935243e3e9dbcdd6a2374376cff7844e9ec6a2a9017487f5da6b2e163586-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool buddyStrings(char * A, char * B)
 {
     int i,j;
@@ -55,4 +55,4 @@ bool buddyStrings(char * A, char * B)
     }
     return false;
 }
-```
+// ```

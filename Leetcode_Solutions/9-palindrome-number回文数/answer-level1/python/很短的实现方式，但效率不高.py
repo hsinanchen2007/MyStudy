@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isPalindrome(self, x):
         """
@@ -10,4 +10,4 @@ class Solution(object):
             return True
         else:
             return False
-```
+# ```

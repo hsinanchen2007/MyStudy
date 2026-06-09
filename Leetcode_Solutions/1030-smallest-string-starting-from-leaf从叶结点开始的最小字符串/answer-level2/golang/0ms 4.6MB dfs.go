@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-dfs
+// dfs
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func smallestFromLeaf(root *TreeNode) string {
 
@@ -44,4 +44,4 @@ func dfs(cur *TreeNode, curList []byte, minStr *string) {
 	return
 }
 
-```
+// ```

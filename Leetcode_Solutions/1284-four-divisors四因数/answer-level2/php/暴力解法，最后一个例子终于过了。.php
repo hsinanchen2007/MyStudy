@@ -1,4 +1,4 @@
-```php
+// ```php
 function sumFourDivisors($nums) {
     $res = 0;
     for ($i = 0; $i < count($nums); $i++){
@@ -17,7 +17,7 @@ function sumFourDivisors($nums) {
     }
     return $res;
 }
-```
+// ```
 
-刚开始写的没有通过是因为没有考虑到类似于16，81这种例子...
-加了$nums[$i]/$j != $j的判断条件就可以了。
+// 刚开始写的没有通过是因为没有考虑到类似于16，81这种例子...
+// 加了$nums[$i]/$j != $j的判断条件就可以了。

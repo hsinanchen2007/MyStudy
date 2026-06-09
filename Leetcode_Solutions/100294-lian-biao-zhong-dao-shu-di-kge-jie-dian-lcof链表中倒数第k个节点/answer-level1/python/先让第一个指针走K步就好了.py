@@ -1,10 +1,10 @@
-### 解题思路
-1、基本思路就是双指针；
-2、先让第一个指针走K步，然后俩指针同时走，第一个指针走到末尾，第二个指针就是第K个节点；
+# ### 解题思路
+# 1、基本思路就是双指针；
+# 2、先让第一个指针走K步，然后俩指针同时走，第一个指针走到末尾，第二个指针就是第K个节点；
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution(object):
             low=low.next
             fast=fast.next
         return low
-```
+# ```

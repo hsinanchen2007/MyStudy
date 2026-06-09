@@ -1,6 +1,6 @@
 
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -28,4 +28,4 @@ public:
 		return *min_element(triangle[m - 1].begin(), triangle[m - 1].end());
 	}
 };
-```
+// ```

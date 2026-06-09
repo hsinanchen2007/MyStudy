@@ -1,5 +1,5 @@
-虽然比较耗时费力，但是是一种思路
-```
+// 虽然比较耗时费力，但是是一种思路
+// ```
 var selfDividingNumbers = function(left, right) {
     const arr = []
     for (let i = left; i <= right; i++){
@@ -21,4 +21,4 @@ var selfDividingNumbers = function(left, right) {
     }
     return arr
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用递归，不考虑性能和空间
+// ### 解题思路
+// 使用递归，不考虑性能和空间
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     //@scala.annotation.tailrec
     def func(numsIdx: Array[(Int, Int)], target: Int): Array[Int] = {
@@ -20,4 +20,4 @@ object Solution {
         func(nums.zipWithIndex, target)
     }
 }
-```
+// ```

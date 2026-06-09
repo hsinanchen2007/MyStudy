@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历同时记录每个分组的左右索引及字符数
+// ### 解题思路
+// 一次遍历同时记录每个分组的左右索引及字符数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> largeGroupPositions(string S) {
@@ -32,10 +32,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-后来发现可以更简洁：
-```
+// 后来发现可以更简洁：
+// ```
 class Solution {
     public:
         vector<vector<int>> largeGroupPositions(string S) {
@@ -57,4 +57,4 @@ class Solution {
             return res;
         }
 };
-```
+// ```

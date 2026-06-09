@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def reverseWords(self, s: str) -> str:
         # 加一个空格方便后面else反转
@@ -13,4 +13,4 @@ class Solution:
                 tmp=""
         return res[:-1]
         
-```
+# ```

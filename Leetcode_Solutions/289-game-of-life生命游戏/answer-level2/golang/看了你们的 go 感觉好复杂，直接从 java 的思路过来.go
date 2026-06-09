@@ -1,4 +1,4 @@
-``` golang
+// ``` golang
 var dx = []int{0, 1, 1, 1, 0, -1, -1, -1}
 var dy = []int{1, 1, 0, -1, -1, -1, 0, 1}
 
@@ -34,4 +34,4 @@ func gameOfLife(board [][]int) {
 		}
 	}
 }
-```
+// ```

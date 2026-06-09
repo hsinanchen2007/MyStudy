@@ -1,9 +1,9 @@
-### 解题思路
-    邻接矩阵效率和空间占用都不太理想。
+// ### 解题思路
+//     邻接矩阵效率和空间占用都不太理想。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int** CreateGraph(int numCourses, int** prerequisites, int prerequisitesSize)
 {
     int** adjacency = (int**)malloc(sizeof(int*) * numCourses);
@@ -68,4 +68,4 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     Free(numCourses, adjacency, color);
     return true;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-DFS
+// ### 解题思路
+// DFS
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var ans bool
 func exist(board [][]byte, word string) bool {
     ans = false
@@ -58,4 +58,4 @@ func dfs(board [][]byte,visited [][]bool,word string,x int,y int,index int) {
     dfs(board,visited,word,x,y+1,index+1)
     visited[x][y]=false
 }
-```
+// ```

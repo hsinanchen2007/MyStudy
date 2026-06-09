@@ -1,11 +1,11 @@
-### 解题思路
+-- ### 解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select name, population, area
 from World
 where area > 3000000 
 or population > 25000000
-```
+-- ```

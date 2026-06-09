@@ -1,10 +1,10 @@
-### 解题思路
-在一个while循环里面将int转换成倒序和正序的str。
-然后再比较。
+// ### 解题思路
+// 在一个while循环里面将int转换成倒序和正序的str。
+// 然后再比较。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -23,4 +23,4 @@ public:
         return des==src;
     }
 };
-```
+// ```

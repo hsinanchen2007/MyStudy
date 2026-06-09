@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/538bf0c08906a5638ead24a34d423c7b09a429624c2f333e935d611e4af8c533-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/538bf0c08906a5638ead24a34d423c7b09a429624c2f333e935d611e4af8c533-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ class Solution {
         else return lowestCommonAncestor(root.right,p,q);//都在右子树
     }
 }
-```
+// ```

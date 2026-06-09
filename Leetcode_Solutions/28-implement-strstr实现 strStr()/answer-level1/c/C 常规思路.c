@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle){
     if(*needle==NULL) return 0;
     int i=0;
@@ -20,4 +20,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

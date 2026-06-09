@@ -1,15 +1,15 @@
-### 解题思路
-相似习题:
-[46. 全排列](https://leetcode-cn.com/problems/permutations/)
-[面试题38. 字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)
-[面试题 08.08. 有重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-ii-lcci/)
-[面试题 08.07. 无重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-i-lcci/)
+# ### 解题思路
+# 相似习题:
+# [46. 全排列](https://leetcode-cn.com/problems/permutations/)
+# [面试题38. 字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)
+# [面试题 08.08. 有重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-ii-lcci/)
+# [面试题 08.07. 无重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-i-lcci/)
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         def dfs(tmp):
@@ -29,4 +29,4 @@ class Solution:
         visited = [False]*len(nums)
         dfs([])
         return res
-```
+# ```

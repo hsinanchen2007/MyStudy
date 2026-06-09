@@ -1,4 +1,4 @@
-```C
+// ```C
 #define MAX_SIZE 500005
 
 #define ITOA_SIZE 10005
@@ -77,4 +77,4 @@ char* compressString(char* S){
     }
 }
 
-```
+// ```

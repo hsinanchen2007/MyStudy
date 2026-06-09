@@ -1,6 +1,6 @@
-算是暴力解了
-空间O(1),时间O(n)
-```
+# 算是暴力解了
+# 空间O(1),时间O(n)
+# ```
 class Solution(object):
     def longestMountain(self, A):
         """
@@ -38,4 +38,4 @@ class Solution(object):
             maxl=max(maxl,r-l+1)
         return maxl
                 
-```
+# ```

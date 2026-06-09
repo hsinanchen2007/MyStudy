@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maxSatisfaction(self, satisfaction: List[int]) -> int:
         satisfaction.sort()
@@ -16,4 +16,4 @@ class Solution:
             res -= tmp
             ans = max(ans, res)
         return ans
-```
+# ```

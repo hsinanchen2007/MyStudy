@@ -1,19 +1,19 @@
-### 解题思路
-  合并 k 个排序链表，返回合并后的排序链表。请分析和描述算法的复杂度。
-  思路1, 暴力解法
-  使用归并排序的思想, 对 merger(lists[i] list[i+1])
-  总共merge k-1次,每次merge的时间复杂度是 lists[i] + lists[i+1],链表的长度
-  所以总的时间复杂度是 (k - 1) * (lists[i] .len + lists[i+1].len))
-  最终是  k * ( lists[0---> n] 长度和n, 是 kn
-  时间复杂度是 O(1)
-  思路2,
-  对思路1进行优化,因为思路1中 lists[i[其实会进行两次对比
-  其实我们可以使用归并排序思想,lists[i]进行一次对比 ,
-   所以时间复杂度是 O(log2 k) * n (n 是所有链表元素的和)
+// ### 解题思路
+//   合并 k 个排序链表，返回合并后的排序链表。请分析和描述算法的复杂度。
+//   思路1, 暴力解法
+//   使用归并排序的思想, 对 merger(lists[i] list[i+1])
+//   总共merge k-1次,每次merge的时间复杂度是 lists[i] + lists[i+1],链表的长度
+//   所以总的时间复杂度是 (k - 1) * (lists[i] .len + lists[i+1].len))
+//   最终是  k * ( lists[0---> n] 长度和n, 是 kn
+//   时间复杂度是 O(1)
+//   思路2,
+//   对思路1进行优化,因为思路1中 lists[i[其实会进行两次对比
+//   其实我们可以使用归并排序思想,lists[i]进行一次对比 ,
+//    所以时间复杂度是 O(log2 k) * n (n 是所有链表元素的和)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -77,4 +77,4 @@ class Solution {
         return lists[lists.length - 1];
     }
 }
-```
+// ```

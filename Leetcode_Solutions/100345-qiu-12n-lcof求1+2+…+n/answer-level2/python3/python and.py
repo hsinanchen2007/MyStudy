@@ -1,5 +1,5 @@
-长知识了。。。。 
-```python
+# 长知识了。。。。 
+# ```python
 class Solution:
     def sumNums(self, n: int) -> int:
         ret = 0
@@ -10,4 +10,4 @@ class Solution:
         helper(n)
         return ret
 
-```
+# ```

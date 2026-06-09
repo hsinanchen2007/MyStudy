@@ -1,9 +1,9 @@
-1.整理字典
-2.DFS
-3.记录路径
-4.在push的时候使用result = append(result, nextWord) 
-4.在pop的时候使用result = result[0 : len(result) - 1]
-```
+// 1.整理字典
+// 2.DFS
+// 3.记录路径
+// 4.在push的时候使用result = append(result, nextWord) 
+// 4.在pop的时候使用result = result[0 : len(result) - 1]
+// ```
 func findLadders(beginWord string, endWord string, wordList []string) []string {
 
 	words := make([]string, 0)
@@ -85,4 +85,4 @@ func buildWordDictionary(wordList []string, wordDictionary map[string][]string) 
 		}
 	}
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用快慢指针，快的一次前进两格，慢的一次前进一格。
+// ### 解题思路
+// 用快慢指针，快的一次前进两格，慢的一次前进一格。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -28,8 +28,8 @@ var middleNode = function(head) {
     }
     return slow;
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(N)
-- 空间复杂度 O(1)
+// ### 复杂度
+// - 时间复杂度 O(N)
+// - 空间复杂度 O(1)

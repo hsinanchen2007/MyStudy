@@ -1,11 +1,11 @@
-### 解题思路
-我不太会递归,只会循环.
-下面有两种写法,写法2更为巧妙
+// ### 解题思路
+// 我不太会递归,只会循环.
+// 下面有两种写法,写法2更为巧妙
 
-### 代码
+// ### 代码
 
-+ 我的代码,下面有优化代码
-```java
+// + 我的代码,下面有优化代码
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -43,10 +43,10 @@ class Solution {
         return head;
     }
 }
-```
+// ```
 
-+ 优化代码,加一个哑节点
-```java
+// + 优化代码,加一个哑节点
+// ```java
     public ListNode swapPairs(ListNode head)
     {
         ListNode dummy = new ListNode(0);
@@ -63,4 +63,4 @@ class Solution {
 
         return dummy.next;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int newDigit(int n){
     int sum = 0;
     int tmp = 0;
@@ -34,4 +34,4 @@ bool isHappy(int n){
     
     return true;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-详见代码注释
+// ### 解题思路
+// 详见代码注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
     /** initialize your data structure here. */
@@ -66,4 +66,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

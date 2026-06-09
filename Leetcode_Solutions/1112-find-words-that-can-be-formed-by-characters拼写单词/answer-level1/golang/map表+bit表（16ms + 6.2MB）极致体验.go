@@ -1,13 +1,13 @@
-整体思路：
-1. 将提供的字符串转化为每个字符对应的数量映射表
-2. 遍历每个单词，用中间map记录字符和数量，如果有超过提供的数量就直接返回
-3. 最后将所有的使用字符数量加起来就行了
+// 整体思路：
+// 1. 将提供的字符串转化为每个字符对应的数量映射表
+// 2. 遍历每个单词，用中间map记录字符和数量，如果有超过提供的数量就直接返回
+// 3. 最后将所有的使用字符数量加起来就行了
 
-算法整体复杂度是O(n)的。但是map的查找可能会比较耗时。有hash计算在里面，如果改成bit表是不是会好很多，因为本身是定长的，而且数据直接index操作（内存地址+）应该会快。
+// 算法整体复杂度是O(n)的。但是map的查找可能会比较耗时。有hash计算在里面，如果改成bit表是不是会好很多，因为本身是定长的，而且数据直接index操作（内存地址+）应该会快。
 
 
-map
-```
+// map
+// ```
 func countCharacters(words []string, chars string) int {
     source_map := extracMap(chars)
 
@@ -53,10 +53,10 @@ func checkWord(word string, source_map, target_map map[rune]int) {
     }
     return
 }
-```
+// ```
 
-bit表
-```
+// bit表
+// ```
 type bitMap = [26]int
 var a rune = 'a'
 
@@ -103,4 +103,4 @@ func checkWord(word string, source_map, target_map, count_map bitMap) int{
     }
     return count
 }
-```
+// ```

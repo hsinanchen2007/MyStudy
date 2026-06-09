@@ -1,9 +1,9 @@
-### 解题思路
-逆向循环
+# ### 解题思路
+# 逆向循环
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def judgeSquareSum(self, c: int) -> bool:
         j = int(math.sqrt(c))
@@ -25,4 +25,4 @@ class Solution:
         #         if (i**2 + j**2) == c:
         #             return True
         # return False
-```
+# ```

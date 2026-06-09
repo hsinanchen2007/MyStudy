@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         """可以用dfs做，也可以用并查集做，还是dfs吧，思路清晰一些"""
@@ -24,4 +24,4 @@ class Solution:
 
     def _check_no_valid(self, i, j):
         return i < 0 or i >= self.m or j < 0 or j >= self.n
-```
+# ```

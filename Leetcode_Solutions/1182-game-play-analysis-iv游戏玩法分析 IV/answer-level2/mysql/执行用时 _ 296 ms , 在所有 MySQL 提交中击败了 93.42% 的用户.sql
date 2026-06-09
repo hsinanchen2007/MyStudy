@@ -1,4 +1,4 @@
-```mysql
+-- ```mysql
 select 
     ROUND(
         tmp.acc / (select count(distinct(player_id)) as totalCount from Activity),
@@ -38,4 +38,4 @@ from (
 ) tmp
 order by tmp.acc desc
 limit 1
-```
+-- ```

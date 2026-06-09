@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int maxJumps(vector<int>& arr, int d) {
@@ -22,4 +22,4 @@ public:
         return *max_element(begin(dp), end(dp));
     }
 };
-```
+// ```

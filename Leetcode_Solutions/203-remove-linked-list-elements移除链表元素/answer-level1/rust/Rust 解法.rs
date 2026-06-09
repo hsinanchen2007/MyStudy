@@ -1,4 +1,4 @@
-```
+// ```
 type Link = Option<Box<ListNode>>;
 
 impl Solution {
@@ -20,6 +20,6 @@ impl Solution {
         head.unwrap().next
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/6906c7e0a5e68e58e72dd623d504ccf7a212f0b98774c21b223e8ede5cece77c-image.png)
-记得用哨兵节点能省很多事
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6906c7e0a5e68e58e72dd623d504ccf7a212f0b98774c21b223e8ede5cece77c-image.png)
+// 记得用哨兵节点能省很多事

@@ -1,6 +1,6 @@
-ruby solution one-line
-```ruby
+# ruby solution one-line
+# ```ruby
 def fib(n)
     (0..n).inject([1, 0]) { |(a, b), _| [b, a + b] }[0] % (10 ** 9 + 7)
 end
-```
+# ```

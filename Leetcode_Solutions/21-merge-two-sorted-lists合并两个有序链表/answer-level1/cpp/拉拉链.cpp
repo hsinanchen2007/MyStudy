@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-想象一下拉拉链的过程，把一个链表头插入到另一个链表合适的位置，然后两个链表交换
+// ### 解题思路
+// 此处撰写解题思路
+// 想象一下拉拉链的过程，把一个链表头插入到另一个链表合适的位置，然后两个链表交换
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,4 +44,4 @@ ListNode* Solution::mergeTwoLists(ListNode *l1, ListNode* l2)
 
     return l1->val > l2->val ? l2 : l1;
 }
-```
+// ```

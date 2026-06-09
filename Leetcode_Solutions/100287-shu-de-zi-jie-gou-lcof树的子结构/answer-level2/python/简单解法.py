@@ -1,12 +1,12 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 解题思路
-1.遍历父结构
-2.判断子结构是否相同
+# ### 解题思路
+# 1.遍历父结构
+# 2.判断子结构是否相同
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -43,4 +43,4 @@ class Solution(object):
             return self.isSubStructure(A.left, B) or self.isSubStructure(A.right, B)
             
 
-```
+# ```

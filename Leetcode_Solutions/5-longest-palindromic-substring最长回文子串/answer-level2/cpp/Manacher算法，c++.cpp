@@ -1,5 +1,5 @@
-![6cf4cc768e1ff6da13930497d9e5a8c.png](https://pic.leetcode-cn.com/c46b80417dd85096f11704a1d13b1088c92e5349b4b816e82be3ce87790efaa8-6cf4cc768e1ff6da13930497d9e5a8c.png)
-```
+// ![6cf4cc768e1ff6da13930497d9e5a8c.png](https://pic.leetcode-cn.com/c46b80417dd85096f11704a1d13b1088c92e5349b4b816e82be3ce87790efaa8-6cf4cc768e1ff6da13930497d9e5a8c.png)
+// ```
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -86,4 +86,4 @@ public:
     }
 };
 
-```
+// ```

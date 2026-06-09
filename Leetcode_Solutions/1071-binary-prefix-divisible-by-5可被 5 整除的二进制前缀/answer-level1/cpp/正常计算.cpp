@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<bool> prefixesDivBy5(vector<int>& A) {
@@ -17,4 +17,4 @@ public:
         return res;
     }
 };
-```
+// ```

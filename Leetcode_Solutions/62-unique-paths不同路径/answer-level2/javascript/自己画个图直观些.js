@@ -1,12 +1,12 @@
 
-![IMG_0499.jpg](https://pic.leetcode-cn.com/aaa94d31c8d9b65decd41863fc2a708b5b5cacd7e5f26afb20cbf7bf4af06b86-IMG_0499.jpg)
+// ![IMG_0499.jpg](https://pic.leetcode-cn.com/aaa94d31c8d9b65decd41863fc2a708b5b5cacd7e5f26afb20cbf7bf4af06b86-IMG_0499.jpg)
 
 
 
 
 
 
-```javascript []
+// ```javascript []
 var uniquePaths = function(m, n) {
   if (m === 1 && n === 1) return 1
   let list = Array.from({ length: n }, _ => Array.from({ length: m }, _ => 0))
@@ -23,4 +23,4 @@ var uniquePaths = function(m, n) {
   }
   return list[n - 1][m - 1]
 }
-```
+// ```

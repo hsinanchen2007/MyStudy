@@ -1,5 +1,5 @@
-申请一个头结点，之后中序遍历，最后头尾相连
-```
+// 申请一个头结点，之后中序遍历，最后头尾相连
+// ```
 class Solution {
 public:
     Node* head=new Node(0);
@@ -21,4 +21,4 @@ public:
         return head->right;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-多源BFS, 
+# ### 解题思路
+# 多源BFS, 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         # 多源bfs, 最后入队的海洋就是最远海洋
@@ -26,4 +26,4 @@ class Solution:
                     grid[i+x][j+y] = grid[i][j] + 1
                     queue.append((i+x, j+y))
         return grid[i][j]-1
-```
+# ```

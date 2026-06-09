@@ -1,9 +1,9 @@
-### 解题思路
-替换时比较频率和当频率相同时时间大者即可。
+// ### 解题思路
+// 替换时比较频率和当频率相同时时间大者即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct MyLFUCache{
     int key;
     int value;
@@ -99,4 +99,4 @@ void lFUCacheFree(LFUCache* obj) {
 
 
 
-```
+// ```

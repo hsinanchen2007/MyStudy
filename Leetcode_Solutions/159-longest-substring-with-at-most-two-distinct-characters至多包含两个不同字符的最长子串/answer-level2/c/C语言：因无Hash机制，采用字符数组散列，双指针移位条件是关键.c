@@ -1,4 +1,4 @@
-```
+// ```
 #define CHARACTER_NUMBER_SIZE 128
 #define MIN_CHARACTER_NUMBERS 2
 #define LEETCODE_MAX(a, b) (a) > (b) ? (a) : (b)
@@ -47,4 +47,4 @@ int lengthOfLongestSubstringTwoDistinct(char * s)
 
     return ans;
 }
-```
+// ```

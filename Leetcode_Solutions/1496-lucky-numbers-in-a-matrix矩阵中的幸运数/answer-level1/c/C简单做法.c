@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-注释详细，易理解
-```c
+// ### 代码
+// 注释详细，易理解
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -41,4 +41,4 @@ int* luckyNumbers(int** matrix, int matrixSize, int* matrixColSize, int* returnS
     *returnSize = index;
     return res;
 }
-```
+// ```

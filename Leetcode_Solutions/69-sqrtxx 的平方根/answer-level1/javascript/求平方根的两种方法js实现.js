@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-1. 二分查找法，记好这个套路即可
-2. 牛顿迭代法，通过一个公式不断迭代逼近终点，看图：
-![image.png](https://pic.leetcode-cn.com/39f1b5dc386c8878c9b08107bab9bfc1ba120e4dca21ad490ed903ff06cd631d-image.png)
+// 1. 二分查找法，记好这个套路即可
+// 2. 牛顿迭代法，通过一个公式不断迭代逼近终点，看图：
+// ![image.png](https://pic.leetcode-cn.com/39f1b5dc386c8878c9b08107bab9bfc1ba120e4dca21ad490ed903ff06cd631d-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /* 二分查找法，这个比较好理解
 var mySqrt = function(x) {
     let left = 0, right = x, mid, num, mid2
@@ -49,4 +49,4 @@ function mySqrt (x) {
         return Math.floor(r)
     }
 }
-```
+// ```

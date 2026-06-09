@@ -1,8 +1,8 @@
-### 解题思路
-富比较方法，改写大于函数
-### 代码
+# ### 解题思路
+# 富比较方法，改写大于函数
+# ### 代码
 
-```python3
+# ```python3
 class LargerNumKey(str):
     def __lt__(x, y):
         return x+y > y+x
@@ -13,4 +13,4 @@ class Solution:
         return '0' if largest_num[0] == '0' else largest_num
 
 
-```
+# ```

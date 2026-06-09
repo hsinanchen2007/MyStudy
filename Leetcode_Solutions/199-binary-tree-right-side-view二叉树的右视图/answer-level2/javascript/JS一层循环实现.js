@@ -1,6 +1,6 @@
-一般层序迭代遍历都是两层循环实现, 我这也算提供不一样的思路吧......
+// 一般层序迭代遍历都是两层循环实现, 我这也算提供不一样的思路吧......
 
-```js
+// ```js
 var rightSideView = function(root) {
   if (!root) return [];
 
@@ -33,4 +33,4 @@ var rightSideView = function(root) {
 
   return res;
 };
-```
+// ```

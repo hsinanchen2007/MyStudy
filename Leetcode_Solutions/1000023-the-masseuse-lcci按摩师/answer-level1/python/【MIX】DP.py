@@ -1,9 +1,9 @@
-### 解题思路
-House Robber的题型
+# ### 解题思路
+# House Robber的题型
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public int massage(int[] nums) {
         // 空间复杂度优化
@@ -20,8 +20,8 @@ class Solution {
 
     }
 }
-```
-```python3 []
+# ```
+# ```python3 []
 class Solution:
     def massage(self, nums: List[int]) -> int:
         # dp求解
@@ -42,8 +42,8 @@ class Solution:
         
         return max(dp)
          
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -70,4 +70,4 @@ public:
         return maxV; 
     }
 };
-```
+# ```

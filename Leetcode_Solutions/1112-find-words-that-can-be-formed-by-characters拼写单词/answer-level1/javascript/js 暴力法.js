@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
- * 把chars转换成map 字母，出现次数
- * 如果words的单词，出现的字母都在map中，并且数量不超过num，那么这个字母是true
- * 返回长度增加word的length
+//  * 把chars转换成map 字母，出现次数
+//  * 如果words的单词，出现的字母都在map中，并且数量不超过num，那么这个字母是true
+//  * 返回长度增加word的length
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -53,4 +53,4 @@ function test(map1, map2) {
 }
 
 
-```
+// ```

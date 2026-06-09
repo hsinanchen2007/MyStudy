@@ -1,9 +1,9 @@
-### 解题思路
-奥利给！干就完了！
+// ### 解题思路
+// 奥利给！干就完了！
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -25,4 +25,4 @@ func reversePrint(head *ListNode) []int {
 	}
 	return result
 }
-```
+// ```

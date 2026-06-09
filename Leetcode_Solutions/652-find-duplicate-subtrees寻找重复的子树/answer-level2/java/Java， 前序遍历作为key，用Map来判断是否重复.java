@@ -1,5 +1,5 @@
-一开始用StringBuilder来append，debug发现new出来的StringBuilder的hashCode不一样，所以map使用get方法无法判断是否重复（即使stringbuilder里的值一样），故使用String
-```
+// 一开始用StringBuilder来append，debug发现new出来的StringBuilder的hashCode不一样，所以map使用get方法无法判断是否重复（即使stringbuilder里的值一样），故使用String
+// ```
     List<TreeNode> rsList = new ArrayList();
     Map<String, Integer> map = new HashMap();
     public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
@@ -23,4 +23,4 @@
         }
         return sb;
     }
-```
+// ```

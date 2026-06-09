@@ -1,11 +1,11 @@
-### 解题思路
-滑动窗口
-滑动窗口的大小为所有1的个数windows，在滑动窗口内含有最多的1的个数maxvalue；
-结果answer = windows - maxvalue;
+// ### 解题思路
+// 滑动窗口
+// 滑动窗口的大小为所有1的个数windows，在滑动窗口内含有最多的1的个数maxvalue；
+// 结果answer = windows - maxvalue;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minSwaps(vector<int> &data)
@@ -37,4 +37,4 @@ public:
         return result;
     }
 };
-```
+// ```

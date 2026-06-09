@@ -1,10 +1,10 @@
-### 解题思路
-![1.PNG](https://pic.leetcode-cn.com/bbc211074714065f962f8fd7fc7aa6717159d3a3e54f4e022922eac08c8020ff-1.PNG)
+// ### 解题思路
+// ![1.PNG](https://pic.leetcode-cn.com/bbc211074714065f962f8fd7fc7aa6717159d3a3e54f4e022922eac08c8020ff-1.PNG)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numRookCaptures(board [][]byte) int {
     x, y := 0, 0
     for i := 0;i < len(board);i++ {
@@ -43,4 +43,4 @@ func numRookCaptures(board [][]byte) int {
     }
     return ans
 }
-```
+// ```

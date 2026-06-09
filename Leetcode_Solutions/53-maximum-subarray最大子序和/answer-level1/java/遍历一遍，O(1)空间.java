@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
  
-用sum记录当前和，用max记录最大和
-当sum小于0时，相当于从下一个i开始并且加了一个负数，直接归0
+// 用sum记录当前和，用max记录最大和
+// 当sum小于0时，相当于从下一个i开始并且加了一个负数，直接归0
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         int sum = 0, max = nums[0];
@@ -18,4 +18,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

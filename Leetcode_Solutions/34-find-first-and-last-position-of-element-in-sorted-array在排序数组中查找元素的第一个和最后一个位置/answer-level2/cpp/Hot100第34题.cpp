@@ -1,20 +1,20 @@
-### 目前还是小白一个 就是提供一种想法 求轻喷
-### 解题思路
-看到排序找值的题且时间复杂度必须是 O(log n) 级别，基本上都是二分法变种题，所以肯定往二分法方向想。
-第一步：先二分查找target值，如果数组中有和target值，那么常规二分后nums[mid] = target。例如在[1 3 3 3 5]中找3。二分直接找到nums[2] = 3。此时开始从数组的nums[2]处往左和往右分别查找是否还有和3相等的。
-第二步：分情况讨论往左和往右找开始和结束位置
-1. 先令start = mid，从中间往左找，如果nums[start] = target，start指针左移。要注意特殊情况，如果start = 0了且nums[start] = target，指针再左移start就变成-1了，此时nums[-1]会造成数组越界。所以要特殊处理。例如在[1 , 4]中找 4 应该输出start = 1，例如在[1 , 1]中找 1 应该输出start = 0 看代码我如何处理的，代码上有标记
-2. 先令end = mid，从中间往右找，如果nums[end] = target，end指针右移。要注意特殊情况，如果end = size的话 nums[size]会造成数组越界
+// ### 目前还是小白一个 就是提供一种想法 求轻喷
+// ### 解题思路
+// 看到排序找值的题且时间复杂度必须是 O(log n) 级别，基本上都是二分法变种题，所以肯定往二分法方向想。
+// 第一步：先二分查找target值，如果数组中有和target值，那么常规二分后nums[mid] = target。例如在[1 3 3 3 5]中找3。二分直接找到nums[2] = 3。此时开始从数组的nums[2]处往左和往右分别查找是否还有和3相等的。
+// 第二步：分情况讨论往左和往右找开始和结束位置
+// 1. 先令start = mid，从中间往左找，如果nums[start] = target，start指针左移。要注意特殊情况，如果start = 0了且nums[start] = target，指针再左移start就变成-1了，此时nums[-1]会造成数组越界。所以要特殊处理。例如在[1 , 4]中找 4 应该输出start = 1，例如在[1 , 1]中找 1 应该输出start = 0 看代码我如何处理的，代码上有标记
+// 2. 先令end = mid，从中间往右找，如果nums[end] = target，end指针右移。要注意特殊情况，如果end = size的话 nums[size]会造成数组越界
 
-### 总结
-就是常规二分稍微变形，然后想到找到target值就往左右找start和end就好了 处理好特殊情况（ps：特殊情况都是通过调试想到的）
+// ### 总结
+// 就是常规二分稍微变形，然后想到找到target值就往左右找start和end就好了 处理好特殊情况（ps：特殊情况都是通过调试想到的）
 
-### 运行结果
-![image.png](https://pic.leetcode-cn.com/ff0d41ea40fe9cd53dfb5fe271a66edc60ee1f5cc1bd8558482040a654fa5bd9-image.png)
+// ### 运行结果
+// ![image.png](https://pic.leetcode-cn.com/ff0d41ea40fe9cd53dfb5fe271a66edc60ee1f5cc1bd8558482040a654fa5bd9-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -66,4 +66,4 @@ public:
 
     }
 };
-```
+// ```

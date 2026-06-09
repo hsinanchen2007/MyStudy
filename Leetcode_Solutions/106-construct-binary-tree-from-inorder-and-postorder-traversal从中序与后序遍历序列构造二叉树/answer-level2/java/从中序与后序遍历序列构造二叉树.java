@@ -1,8 +1,8 @@
 
-> 同 [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)思路一致，区别在于先构建子树的右子树，在构建其左子树；
+// > 同 [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)思路一致，区别在于先构建子树的右子树，在构建其左子树；
 
-## 代码实现
-```java
+// ## 代码实现
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -46,4 +46,4 @@ class Solution {
         return node;
     }
 }
-```
+// ```

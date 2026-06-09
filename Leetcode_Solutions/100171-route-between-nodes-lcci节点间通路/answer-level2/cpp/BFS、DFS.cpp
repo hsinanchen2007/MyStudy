@@ -1,6 +1,6 @@
-- 邻接表 BFS
+// - 邻接表 BFS
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool findWhetherExistsPath(int n, vector<vector<int>>& graph, int start, int target) {
@@ -32,10 +32,10 @@ public:
     	return false;
     }
 };
-```
-![在这里插入图片描述](https://pic.leetcode-cn.com/c70664e4c86542765d239475a735a5ded5604c4c2d929f3b440d097eb937e7c5.png)
-- 邻接表 DFS
-```cpp
+// ```
+// ![在这里插入图片描述](https://pic.leetcode-cn.com/c70664e4c86542765d239475a735a5ded5604c4c2d929f3b440d097eb937e7c5.png)
+// - 邻接表 DFS
+// ```cpp
 class Solution {
 public:
     bool findWhetherExistsPath(int n, vector<vector<int>>& graph, int start, int target) {
@@ -68,5 +68,5 @@ public:
     	}
     }
 };
-```
-![在这里插入图片描述](https://pic.leetcode-cn.com/2078c7e9dde64cf521ee04adf1fa2e9372a4226d0e276484ee0f5173a10ce139.png)
+// ```
+// ![在这里插入图片描述](https://pic.leetcode-cn.com/2078c7e9dde64cf521ee04adf1fa2e9372a4226d0e276484ee0f5173a10ce139.png)

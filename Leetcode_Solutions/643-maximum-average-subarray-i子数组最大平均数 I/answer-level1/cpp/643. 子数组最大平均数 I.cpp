@@ -1,5 +1,5 @@
-## 先找出连续k个数的最大和
-```cpp
+// ## 先找出连续k个数的最大和
+// ```cpp
 class Solution {
 public:
     double findMaxAverage(vector<int>& nums, int k) {
@@ -17,4 +17,4 @@ public:
         return ans;
     }
 };
-```
+// ```

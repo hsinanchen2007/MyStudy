@@ -1,9 +1,9 @@
-### 解题思路
-遍历链表存成两个数组，再把数组拼接起来成为一个大数组，再遍历一次这个数组形成新链表，时间复杂度为O(n)
+// ### 解题思路
+// 遍历链表存成两个数组，再把数组拼接起来成为一个大数组，再遍历一次这个数组形成新链表，时间复杂度为O(n)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -32,4 +32,4 @@ var partition = function(head, x) {
     })
     return result[0] || head
 }
-```
+// ```

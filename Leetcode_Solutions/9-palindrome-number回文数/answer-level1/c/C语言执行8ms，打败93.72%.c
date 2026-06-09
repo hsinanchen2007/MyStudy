@@ -1,4 +1,4 @@
-```
+// ```
 bool isPalindrome(int x){
     int temp;
     long y=0;
@@ -17,4 +17,4 @@ bool isPalindrome(int x){
         return false;
     }
 }
-```
+// ```

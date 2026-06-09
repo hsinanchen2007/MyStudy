@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/18122d203ff9e8248d686d6f445a4b67ea57186b279e34dc2acd06a8d878b1e0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/18122d203ff9e8248d686d6f445a4b67ea57186b279e34dc2acd06a8d878b1e0-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 思路：
 用一个 map 创建无向图，需要一个标记顶点已访问过的数组
 这个结构可以看成一张图，或者一棵树，然后使用 DFS 和 BFS 均可
@@ -13,11 +13,11 @@
 2. 就算青蛙跳到了目标点，但是秒数没有用完，依然要接着跳，只有在秒数用完并且此时
     跳到了目标点的时候，才算有解
 3.别忘了跳过的点就不能再跳了
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number[][]} edges
@@ -86,4 +86,4 @@ var frogPosition = function(n, edges, t, target) {
   
   
   
-```
+// ```

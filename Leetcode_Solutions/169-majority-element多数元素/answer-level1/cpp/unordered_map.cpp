@@ -1,8 +1,8 @@
-### 解题思路
-unordered_map实现
-### 代码
+// ### 解题思路
+// unordered_map实现
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -16,4 +16,4 @@ public:
         return -1;
     }
 };
-```
+// ```

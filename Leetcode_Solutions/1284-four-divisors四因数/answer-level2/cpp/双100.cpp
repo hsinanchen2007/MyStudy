@@ -1,4 +1,4 @@
-感谢@hitwanyang 指点
+// 感谢@hitwanyang 指点
 `class Solution {
 public:
     int judeg(int n){

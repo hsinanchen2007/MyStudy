@@ -1,8 +1,8 @@
-本题很直接可以想到前缀树+DFS的思路，不过要注意一点神坑：测试用例的字典中可能包含重复的单词。应对这点，只需要在字典树结点中加上条件count用于统计相同单词的出现次数即可。
+// 本题很直接可以想到前缀树+DFS的思路，不过要注意一点神坑：测试用例的字典中可能包含重复的单词。应对这点，只需要在字典树结点中加上条件count用于统计相同单词的出现次数即可。
 
-也可以不直接建树，先将字典单词排序，每次遍历前缀符合的单词，保留集合以供下一轮遍历。多次重复遍历即可得出结果。
+// 也可以不直接建树，先将字典单词排序，每次遍历前缀符合的单词，保留集合以供下一轮遍历。多次重复遍历即可得出结果。
 
-```java
+// ```java
 public class SearchSuggestionsSystem {
     private class TrieNode{
         boolean end = false;
@@ -77,10 +77,10 @@ public class SearchSuggestionsSystem {
         return trie.searchWord(searchWord);
     }
 }
-```
+// ```
 
-欢迎与我交流~
+// 欢迎与我交流~
 
-[LeetCode 从零单刷个人笔记整理（持续更新）](https://blog.csdn.net/qq_20304723/article/details/89401203)
+// [LeetCode 从零单刷个人笔记整理（持续更新）](https://blog.csdn.net/qq_20304723/article/details/89401203)
 
-github：[https://github.com/ChopinXBP/LeetCode-Babel](https://github.com/ChopinXBP/LeetCode-Babel)
+// github：[https://github.com/ChopinXBP/LeetCode-Babel](https://github.com/ChopinXBP/LeetCode-Babel)

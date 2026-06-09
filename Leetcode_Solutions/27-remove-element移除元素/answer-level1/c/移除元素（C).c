@@ -1,9 +1,9 @@
-### 解题思路
-本题关键点在于要善于利用“元素顺序可以改变”这一条件。
+// ### 解题思路
+// 本题关键点在于要善于利用“元素顺序可以改变”这一条件。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeElement(int* nums, int numsSize, int val){
     int i, n = numsSize;
     while(i < n){
@@ -17,4 +17,4 @@ int removeElement(int* nums, int numsSize, int val){
     }
     return n;
 }
-```
+// ```

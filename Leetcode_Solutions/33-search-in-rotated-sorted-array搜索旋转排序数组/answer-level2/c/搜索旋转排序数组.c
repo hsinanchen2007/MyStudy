@@ -1,6 +1,6 @@
-**case1: nums[low] <= nums[mid]    e.g.[3,4,5,6,7,1,2]**
-**case2: nums[low] > nums[mid]     e.g.[6,7,1,2,3,4,5]**
-```
+// **case1: nums[low] <= nums[mid]    e.g.[3,4,5,6,7,1,2]**
+// **case2: nums[low] > nums[mid]     e.g.[6,7,1,2,3,4,5]**
+// ```
 int search(int* nums, int numsSize, int target){
     if(numsSize == 0)
         return -1;
@@ -28,4 +28,4 @@ int search(int* nums, int numsSize, int target){
     }
     return -1;
 }
-```
+// ```

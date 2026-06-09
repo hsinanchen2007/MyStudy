@@ -1,9 +1,9 @@
-### 解题思路
-计算组合边长和原始矩形边长和的关系
+# ### 解题思路
+# 计算组合边长和原始矩形边长和的关系
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         long W1 = (long)Math.abs(rec1[0]-rec1[2]);
@@ -21,8 +21,8 @@ class Solution {
         return (W1+W2>Math.max(WW1, WW2) && H1+H2>Math.max(HH1, HH2));
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
         x1, x2, y1, y2 = rec1
@@ -35,8 +35,8 @@ class Solution:
         WW2, HH2 = abs(y1-x11), abs(y2-x22)
 
         return W1+W2>max(WW1, WW2) and H1+H2>max(HH1, HH2)
-```
-```c++ []
+# ```
+# ```c++ []
 typedef long long ll;
 class Solution {
 public:
@@ -58,4 +58,4 @@ public:
         return (W1+W2>max(WW1, WW2)) & (H1+H2>max(HH1, HH2));
     }
 };
-```
+# ```

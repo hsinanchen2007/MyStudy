@@ -1,5 +1,5 @@
-js 8行代码解决战斗
-```js
+// js 8行代码解决战斗
+// ```js
 var topKFrequent = function(nums, k) {
     const record = nums.reduce((t, i) => {
         t[i] = t[i] ? t[i] + 1 : 1;
@@ -10,4 +10,4 @@ var topKFrequent = function(nums, k) {
         .slice(0, k)
         .map(entry => +entry[0]);
 };
-```
+// ```

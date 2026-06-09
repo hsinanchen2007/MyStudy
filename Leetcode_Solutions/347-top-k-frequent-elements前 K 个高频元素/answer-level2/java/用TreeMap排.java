@@ -1,11 +1,11 @@
-### 解题思路
-1、哈希统计数字频次
-2、新建一个TreeMAP，对key倒序排列
-3、直接遍历TreeMap输出结果
+// ### 解题思路
+// 1、哈希统计数字频次
+// 2、新建一个TreeMAP，对key倒序排列
+// 3、直接遍历TreeMap输出结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> frequent = new HashMap<>();
@@ -25,4 +25,4 @@ class Solution {
         return data;
     }
 }
-```
+// ```

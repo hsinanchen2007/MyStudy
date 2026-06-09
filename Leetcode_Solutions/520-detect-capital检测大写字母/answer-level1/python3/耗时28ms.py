@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
         str1 = word.upper()
@@ -18,4 +18,4 @@ class Solution:
         else:
             return(False)
             
-```
+# ```

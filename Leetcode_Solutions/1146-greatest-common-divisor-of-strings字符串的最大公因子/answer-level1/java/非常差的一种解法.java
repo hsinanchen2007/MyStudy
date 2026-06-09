@@ -1,4 +1,4 @@
-// 时间和空间都很差的解法。。。但是好理解
+// // 时间和空间都很差的解法。。。但是好理解
 
 public String gcdOfStrings(String str1, String str2) {
         String s = findShorterStr(str1, str2);

@@ -1,6 +1,6 @@
 
 
-```js
+// ```js
 
 var sortColors = function(nums) {
   
@@ -28,4 +28,4 @@ var sortColors = function(nums) {
 
   nums.splice(0, length);
 };
-```
+// ```

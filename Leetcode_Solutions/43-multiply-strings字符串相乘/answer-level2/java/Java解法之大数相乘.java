@@ -1,7 +1,7 @@
-模拟数字相乘的运算过程，时间复杂度为O(M*N) M N分别为两个字符串的长度，空间复杂度是O(M+N)
-值得一提的是：data数组是倒着进行赋值的，完全类似于乘法运算
-其次，边界条件“0”是容易忽略的。
-```
+// 模拟数字相乘的运算过程，时间复杂度为O(M*N) M N分别为两个字符串的长度，空间复杂度是O(M+N)
+// 值得一提的是：data数组是倒着进行赋值的，完全类似于乘法运算
+// 其次，边界条件“0”是容易忽略的。
+// ```
 public String multiply(String num1, String num2) {
         if(num1==null || num2 == null) return null;
         if(num1.equals("0") || num2.equals("0")) return "0";
@@ -26,4 +26,4 @@ public String multiply(String num1, String num2) {
         while(k<len) res.append(data[k++]);
         return res.toString();
     }
-```
+// ```

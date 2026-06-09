@@ -1,9 +1,9 @@
-### 解题思路
-使用后序遍历，可以返回两个值，也可以定义一个递归函数外的局部变量，返回一个值。
+# ### 解题思路
+# 使用后序遍历，可以返回两个值，也可以定义一个递归函数外的局部变量，返回一个值。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution(object):
             path_max = max(left_path_max, right_path_max) + 1
             return tree_max, path_max
         return get_res(root)[0] - 1
-```
+# ```

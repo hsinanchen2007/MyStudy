@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/1aae4a9347678c0d123e43250f660531a5429cab18c3c141bf225c963d5b1d26-image.png)
+# ![image.png](https://pic.leetcode-cn.com/1aae4a9347678c0d123e43250f660531a5429cab18c3c141bf225c963d5b1d26-image.png)
 
 
-```
+# ```
 
 '''
 dfs把连通域枚举出来，然后每一个连通域中的节点和连通域的左上角取相对坐标，然后排序后
@@ -72,4 +72,4 @@ print(Solution().numDistinctIslands2(
     [0,1,1,1,0]
 ]
 ))
-```
+# ```

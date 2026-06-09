@@ -1,9 +1,9 @@
-### 解题思路
-匹配成功就修改标识数组对应值
+// ### 解题思路
+// 匹配成功就修改标识数组对应值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -29,4 +29,4 @@ var countCharacters = function(words, chars) {
 
     return count
 };
-```
+// ```

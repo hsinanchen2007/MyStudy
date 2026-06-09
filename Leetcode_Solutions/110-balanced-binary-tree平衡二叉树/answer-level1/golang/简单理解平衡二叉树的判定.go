@@ -1,11 +1,11 @@
-### 解题思路
-面对这个问题，我的想法是分两步处理
-1. 深度遍历这棵树，知道每棵子树的深度
-2. 判断同一父节点的左右子树的高度差是否大于1，大于则不是平衡二叉树
+// ### 解题思路
+// 面对这个问题，我的想法是分两步处理
+// 1. 深度遍历这棵树，知道每棵子树的深度
+// 2. 判断同一父节点的左右子树的高度差是否大于1，大于则不是平衡二叉树
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -60,4 +60,4 @@ func checkTreeDepth(root *TreeNode) int {
     }
     return rightDepth + 1
 }
-```
+// ```

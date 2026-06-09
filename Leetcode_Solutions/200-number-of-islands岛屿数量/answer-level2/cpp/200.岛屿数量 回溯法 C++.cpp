@@ -1,11 +1,11 @@
-### 解题思路
-用mm来标记是否遍历过
-对每个点，若其为1，且未被遍历过，把与其为同一个岛屿的点mm都置为true
-![image.png](https://pic.leetcode-cn.com/a3b7f138e23af420913e0885e02190f664950c5c2fc92d4648086f7ddd86dedc-image.png)
+// ### 解题思路
+// 用mm来标记是否遍历过
+// 对每个点，若其为1，且未被遍历过，把与其为同一个岛屿的点mm都置为true
+// ![image.png](https://pic.leetcode-cn.com/a3b7f138e23af420913e0885e02190f664950c5c2fc92d4648086f7ddd86dedc-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> step = {{0,1},{0,-1},{1,0},{-1,0}};
@@ -42,4 +42,4 @@ public:
         return res;
     }
 };
-```
+// ```

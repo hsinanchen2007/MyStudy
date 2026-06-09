@@ -1,4 +1,4 @@
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int openLock(vector<string>& deadends, string target) {
@@ -56,8 +56,8 @@ public:
         return -1;
     }
 };
-```
-```python []
+// ```
+// ```python []
 from queue import Queue
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
@@ -113,8 +113,8 @@ class Solution:
                     if stat == target:
                         return visited[stat]
         return -1
-```
-```java []
+// ```
+// ```java []
 public class Solution{
 	public int openLock(String[] deadens, String target){
 		// 使用HashSet建立deadset结构, 加快查询速度
@@ -182,5 +182,5 @@ public class Solution{
 		return -1;
 	}
 }
-```
-c++版本参考了**@yangdong的C++ BFS**版本的部分代码
+// ```
+// c++版本参考了**@yangdong的C++ BFS**版本的部分代码

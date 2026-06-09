@@ -1,14 +1,14 @@
-### 解题思路
-结果是惨了点，算是个解法吧
-我猜大家都是边遍历，边计算的，这边是先遍历，后面统一计算，所以性能和内存损耗都比较大
-1、排序
-2、通过hash，记录每个num需要移动的个数
-3、找空档移动（这个需要记录最后一个空档，以提高性能）
-![image.png](https://pic.leetcode-cn.com/6569c0283904e9fb1ca5ccb858f5e38eda95e96241f2919dbf752788d54d9434-image.png)
+// ### 解题思路
+// 结果是惨了点，算是个解法吧
+// 我猜大家都是边遍历，边计算的，这边是先遍历，后面统一计算，所以性能和内存损耗都比较大
+// 1、排序
+// 2、通过hash，记录每个num需要移动的个数
+// 3、找空档移动（这个需要记录最后一个空档，以提高性能）
+// ![image.png](https://pic.leetcode-cn.com/6569c0283904e9fb1ca5ccb858f5e38eda95e96241f2919dbf752788d54d9434-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_OK 0
 #define MY_FAIL (-1)
 
@@ -138,4 +138,4 @@ int minIncrementForUnique(int* A, int ASize){
     sFree(&s);
     return ret;
 }
-```
+// ```

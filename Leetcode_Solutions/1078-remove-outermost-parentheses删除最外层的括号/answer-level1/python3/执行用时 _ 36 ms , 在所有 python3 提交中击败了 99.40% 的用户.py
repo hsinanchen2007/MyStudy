@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeOuterParentheses(self, S: str) -> str:
         balance = 0
@@ -16,4 +16,4 @@ class Solution:
         for s in sub:
             res += s[1:-1]
         return res
-```
+# ```

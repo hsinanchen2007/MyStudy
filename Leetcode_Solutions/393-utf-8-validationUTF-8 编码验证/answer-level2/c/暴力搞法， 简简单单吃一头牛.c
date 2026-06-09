@@ -1,4 +1,4 @@
-```
+// ```
 bool CheckParam(int *data, int dataSize)
 {
     if (!data || dataSize < 1) {
@@ -101,4 +101,4 @@ bool validUtf8(int *data, int dataSize)
     }
     return false;
 }
-```
+// ```

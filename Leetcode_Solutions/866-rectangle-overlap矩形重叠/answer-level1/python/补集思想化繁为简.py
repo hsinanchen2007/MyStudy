@@ -1,9 +1,9 @@
-### 解题思路
-很巧妙地利用投影，把二维的重叠问题转化为一维的区间判断问题
-然后重叠的场景判断条件复杂，可以判断不重叠的情况，把重叠的情况写到else里面
-### 代码
+# ### 解题思路
+# 很巧妙地利用投影，把二维的重叠问题转化为一维的区间判断问题
+# 然后重叠的场景判断条件复杂，可以判断不重叠的情况，把重叠的情况写到else里面
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
         x1 = rec1[0]
@@ -22,4 +22,4 @@ class Solution:
         else: 
             return True
         
-```
+# ```

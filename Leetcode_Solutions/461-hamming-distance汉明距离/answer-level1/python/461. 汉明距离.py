@@ -1,8 +1,8 @@
-1. 自己开始想的
-- bin(x) 两个数二进制处理
-- 补位处理
-- 循环对比
-```
+# 1. 自己开始想的
+# - bin(x) 两个数二进制处理
+# - 补位处理
+# - 循环对比
+# ```
 class Solution(object):
     def onList(self, num):
         # list or number or string
@@ -38,17 +38,17 @@ class Solution(object):
               data = data + 1
             i = i + 1
         return data
-```
+# ```
 
-2. 异或处理.count(1)
-- x ^ y 异或处理: ^ 按位异或运算符：当两对应的二进位相异时，结果为1
-- count(1) 有多少个1
-```
+# 2. 异或处理.count(1)
+# - x ^ y 异或处理: ^ 按位异或运算符：当两对应的二进位相异时，结果为1
+# - count(1) 有多少个1
+# ```
 # return bin(x ^ y).count('1')
-```
+# ```
 
-3. 效率会更高些
-```
+# 3. 效率会更高些
+# ```
 class Solution(object):
     def hammingDistance(self, x, y):
         """
@@ -61,4 +61,4 @@ class Solution(object):
             if i == '1':
                 data += 1
         return data
-```
+# ```

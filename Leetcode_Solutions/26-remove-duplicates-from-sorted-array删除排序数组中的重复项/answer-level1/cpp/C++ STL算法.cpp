@@ -1,9 +1,9 @@
-### 解题思路
-看到题想起之前看c++ primer 上有个类似的例题，果然用函数就能解决。
+// ### 解题思路
+// 看到题想起之前看c++ primer 上有个类似的例题，果然用函数就能解决。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) 
@@ -14,4 +14,4 @@ public:
        return j;
     }
 };
-```
+// ```

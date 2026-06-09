@@ -1,7 +1,7 @@
-使用一个哑结点p作为针线，串接起l1和l2。
-![image.png](https://pic.leetcode-cn.com/3cf385b59ee23e35ac0588c67ab4c021bb9fad0a92dd8cc7070011428e7d240c-image.png)
+# 使用一个哑结点p作为针线，串接起l1和l2。
+# ![image.png](https://pic.leetcode-cn.com/3cf385b59ee23e35ac0588c67ab4c021bb9fad0a92dd8cc7070011428e7d240c-image.png)
 
-```c++[]
+# ```c++[]
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -38,7 +38,7 @@ public:
         return res;
     }
 };
-```
+# ```
 
-执行用时 :12 ms, 在所有 C++ 提交中击败了86.51%的用户
-内存消耗 :8.7 MB, 在所有 C++ 提交中击败了98.58%的用户
+# 执行用时 :12 ms, 在所有 C++ 提交中击败了86.51%的用户
+# 内存消耗 :8.7 MB, 在所有 C++ 提交中击败了98.58%的用户

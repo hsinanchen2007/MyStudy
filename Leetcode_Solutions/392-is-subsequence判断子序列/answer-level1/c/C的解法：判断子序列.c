@@ -1,11 +1,11 @@
 
-### 解题思路
-方法一：
-思路：循环t的每一个字符去和s的字符匹配，如果成功（第一次），记录此字符在t的坐标t_pos,在s中的坐标j
-	  之后，在以上的基础上，再让t的字符和s的字符匹配。如果所有s的字符都能匹配成功，返回true。
-	  否则，让t遍历的坐标i=t_pos+1，让s已经匹配上的坐标j=0。再从头开始执行以上操作，直至函数结束。
-### 代码
-```c
+// ### 解题思路
+// 方法一：
+// 思路：循环t的每一个字符去和s的字符匹配，如果成功（第一次），记录此字符在t的坐标t_pos,在s中的坐标j
+// 	  之后，在以上的基础上，再让t的字符和s的字符匹配。如果所有s的字符都能匹配成功，返回true。
+// 	  否则，让t遍历的坐标i=t_pos+1，让s已经匹配上的坐标j=0。再从头开始执行以上操作，直至函数结束。
+// ### 代码
+// ```c
 bool isSubsequence(char * s, char * t){
     int s_size=strlen(s);
     if(s_size==0)return true;
@@ -58,20 +58,20 @@ bool isSubsequence(char * s, char * t){
 
 
 ### 代码
-```c
-*/
-bool isSubsequence(char * s, char * t) {
-	int s_size = strlen(s);
-	if (s_size == 0)return true;
-	int t_size = strlen(t);
-	char*temp = t;
-	for (int i = 0; i<s_size; i++)
-	{
-		char *point = strchr(temp, s[i]);
-		if (point == NULL)return false;
-		int pos = point - t;
-		temp = t + pos + 1;
-	}
-	return true;
-}
-```
+// ```c
+// */
+// bool isSubsequence(char * s, char * t) {
+// 	int s_size = strlen(s);
+// 	if (s_size == 0)return true;
+// 	int t_size = strlen(t);
+// 	char*temp = t;
+// 	for (int i = 0; i<s_size; i++)
+// 	{
+// 		char *point = strchr(temp, s[i]);
+// 		if (point == NULL)return false;
+// 		int pos = point - t;
+// 		temp = t + pos + 1;
+// 	}
+// 	return true;
+// }
+// ```

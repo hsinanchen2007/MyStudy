@@ -1,9 +1,9 @@
-### 解题思路
-遍历一遍链表，依次存入数组，倒序装入链表。
+// ### 解题思路
+// 遍历一遍链表，依次存入数组，倒序装入链表。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -31,8 +31,8 @@ var reverseList = function(head) {
     }
     return dumpy.next;
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(N)
-- 空间复杂度 O(N)
+// ### 复杂度
+// - 时间复杂度 O(N)
+// - 空间复杂度 O(N)

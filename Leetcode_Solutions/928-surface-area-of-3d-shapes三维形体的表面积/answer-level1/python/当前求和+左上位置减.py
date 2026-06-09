@@ -1,10 +1,10 @@
-### 解题思路
-先不管其他位置，按照grid[i][j]*4 + 2计算当前位置面积和（注意grid[i][j]为0时面积为0）。
-接下来判断该位置左边和上边是否有立方体，如果有就减去重合部分，注意0行0列的处理
+# ### 解题思路
+# 先不管其他位置，按照grid[i][j]*4 + 2计算当前位置面积和（注意grid[i][j]为0时面积为0）。
+# 接下来判断该位置左边和上边是否有立方体，如果有就减去重合部分，注意0行0列的处理
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def surfaceArea(self, grid):
         """
@@ -25,4 +25,4 @@ class Solution(object):
                 if i !=0 and j != 0:
                     res = res - 2*min(grid[i][j-1], grid[i][j]) - 2*min(grid[i-1][j], grid[i][j])
         return res
-```
+# ```

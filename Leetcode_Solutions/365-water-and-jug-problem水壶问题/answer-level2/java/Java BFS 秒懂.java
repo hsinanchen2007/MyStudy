@@ -1,9 +1,9 @@
-### 解题思路
-参考英文区这个答案秒懂的[https://leetcode.com/problems/water-and-jug-problem/discuss/83716/Java-Programmatic-Solution-BFS-without-GCD]()
+// ### 解题思路
+// 参考英文区这个答案秒懂的[https://leetcode.com/problems/water-and-jug-problem/discuss/83716/Java-Programmatic-Solution-BFS-without-GCD]()
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
 //1.边界判断
@@ -33,4 +33,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

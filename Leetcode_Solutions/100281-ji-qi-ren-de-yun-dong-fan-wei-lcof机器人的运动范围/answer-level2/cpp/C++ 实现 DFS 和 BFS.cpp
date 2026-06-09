@@ -1,5 +1,5 @@
-### DFS
-```cpp
+// ### DFS
+// ```cpp
 class Solution {
 public:
     int movingCount(int m, int n, int k) {
@@ -29,10 +29,10 @@ public:
         dfs( row, col + 1, m, n, k, count, vec );
     }
 };
-```
+// ```
 
-### BFS
-```cpp
+// ### BFS
+// ```cpp
 class Solution {
 public:
 	int get_sum( pair<int, int> P ) {
@@ -82,4 +82,4 @@ public:
 		return count;		
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-![微信截图_20190829200040.png](https://pic.leetcode-cn.com/0a3612f5871fa69ba6d25a98d6a4dbda402a9c6bd2b42458743648fd5851ea51-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190829200040.png)
+// ![微信截图_20190829200040.png](https://pic.leetcode-cn.com/0a3612f5871fa69ba6d25a98d6a4dbda402a9c6bd2b42458743648fd5851ea51-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190829200040.png)
 
-```
+// ```
 function findSubstring($s, $words) {
     if(empty($words)) return [];
     $all_kv = [];
@@ -35,4 +35,4 @@ function findSubstring($s, $words) {
     }
     return $res;
 }
-```
+// ```

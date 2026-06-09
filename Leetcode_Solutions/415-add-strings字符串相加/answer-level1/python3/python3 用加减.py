@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def addStrings(self, num1: str, num2: str) -> str:
         l1 , l2 = len(num1) - 1 , len(num2) - 1
@@ -15,5 +15,5 @@ class Solution:
             l1 -= 1
             l2 -= 1
         return str(1) + ans if carry else ans
-```
-不知道求余、整除 操作和加减操作那个快？我都用了加减操作。
+# ```
+# 不知道求余、整除 操作和加减操作那个快？我都用了加减操作。

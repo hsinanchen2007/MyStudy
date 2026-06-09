@@ -1,19 +1,19 @@
-### 解题思路
-此处撰写解题思路
-也可以定mid，双指针left&right
-执行用时 :
-28 ms
-, 在所有 Java 提交中击败了
-71.63%
-的用户
-内存消耗 :
-43.3 MB
-, 在所有 Java 提交中击败了
-99.87%
-的用户
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 也可以定mid，双指针left&right
+// 执行用时 :
+// 28 ms
+// , 在所有 Java 提交中击败了
+// 71.63%
+// 的用户
+// 内存消耗 :
+// 43.3 MB
+// , 在所有 Java 提交中击败了
+// 99.87%
+// 的用户
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
@@ -38,4 +38,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

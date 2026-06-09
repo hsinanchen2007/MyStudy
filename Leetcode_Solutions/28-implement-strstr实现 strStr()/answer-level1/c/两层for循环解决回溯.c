@@ -1,9 +1,9 @@
-### 解题思路
-关键点在于needle[j] != haystack[i + j]，而不是haystack[i]
+// ### 解题思路
+// 关键点在于needle[j] != haystack[i + j]，而不是haystack[i]
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle){
 
 
@@ -25,4 +25,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

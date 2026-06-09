@@ -1,5 +1,5 @@
-暴力查找
-```
+// 暴力查找
+// ```
 class Solution {
     func commonChars(_ A: [String]) -> [String] {
         var result:[String] = []
@@ -33,4 +33,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

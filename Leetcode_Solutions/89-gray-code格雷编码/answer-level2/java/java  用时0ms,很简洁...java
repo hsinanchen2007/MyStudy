@@ -1,5 +1,5 @@
 
-```
+// ```
     int n=-1;
     List<Integer> resu=new ArrayList();
     public List<Integer> grayCode(int n) {
@@ -23,4 +23,4 @@
         }
     }
 
-```
+// ```

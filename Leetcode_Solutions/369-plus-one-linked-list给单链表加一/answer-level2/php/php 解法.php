@@ -1,5 +1,5 @@
-解法一：双指针
-```
+// 解法一：双指针
+// ```
 function plusOne($head) {
     $slow = new ListNode(0);
     $slow->next = $head;
@@ -16,5 +16,5 @@ function plusOne($head) {
     }
     return $slow->next==$head?$slow:$head;
 }
-```
-解法二：先翻转再计算再翻转（略）
+// ```
+// 解法二：先翻转再计算再翻转（略）

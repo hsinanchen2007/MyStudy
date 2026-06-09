@@ -1,7 +1,7 @@
-#### 题解1
-从任意一个点开始，判断其是否能绕环路一周。
+// #### 题解1
+// 从任意一个点开始，判断其是否能绕环路一周。
 
-```java 
+// ```java 
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int l = gas.length;
@@ -27,16 +27,16 @@ class Solution {
         
     }
 }
-```
+// ```
 
-#### 题解2
+// #### 题解2
 
-仔细思考有以下结论：
-* 如果cost和小于gas和，则一定不存在解
-* 如果cost和大于等于gas和，则一定存在解
+// 仔细思考有以下结论：
+// * 如果cost和小于gas和，则一定不存在解
+// * 如果cost和大于等于gas和，则一定存在解
 
-同时，经过思考我们还有以下结论：如果从i出发，j是第一个不可达的点，则i到j之间的任何一个点出发无法到达j，即i到j-1都不是答案。
-```java
+// 同时，经过思考我们还有以下结论：如果从i出发，j是第一个不可达的点，则i到j之间的任何一个点出发无法到达j，即i到j-1都不是答案。
+// ```java
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int gs = 0;
@@ -61,4 +61,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
- ###  102. 二叉树的层次遍历 Medium
-```
+//  ###  102. 二叉树的层次遍历 Medium
+// ```
 public List<List<Integer>> levelOrder(TreeNode root) {
     List<List<Integer>> result = new ArrayList<>();
     if (root == null) return result;
@@ -19,11 +19,11 @@ public List<List<Integer>> levelOrder(TreeNode root) {
     }
     return result;
 }
-```
+// ```
 
 
-### 举一反三：二叉树按层打印，左神P130
-```
+// ### 举一反三：二叉树按层打印，左神P130
+// ```
 public void printByLevel(TreeNode head) {
     if (head == null) return;
     Queue<TreeNode> queue = new LinkedList<>();
@@ -49,12 +49,12 @@ public void printByLevel(TreeNode head) {
         }
     }
 }
-```
+// ```
 
 
-### 103. 二叉树的锯齿形层次遍历 Medium
-### 方法1：奇偶栈
-```
+// ### 103. 二叉树的锯齿形层次遍历 Medium
+// ### 方法1：奇偶栈
+// ```
 public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         if (root == null) return result;
@@ -86,12 +86,12 @@ public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         }
         return result;
     }
-```
+// ```
 
 
 
-### 方法2：DFS
-```
+// ### 方法2：DFS
+// ```
 public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
     List<List<Integer>> result = new ArrayList<>();
     if (root == null) return result;
@@ -114,9 +114,9 @@ public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
     }
     return result;
 }
-```
+// ```
 
-### 总结
-- 按Zig打印的两个关键点：
-    - 判断奇偶数行，可以通过`level`计数，可以通过奇偶栈，可以通过一些`flag`标志，不断反转
-    - 使用容器或是在塞进list时，相邻行需要错开顺序，可以通过`Deque`的方式，可以通过 `levelList.add(0, cur.val)`，可以通过`LinkedList`的`addFirst`
+// ### 总结
+// - 按Zig打印的两个关键点：
+//     - 判断奇偶数行，可以通过`level`计数，可以通过奇偶栈，可以通过一些`flag`标志，不断反转
+//     - 使用容器或是在塞进list时，相邻行需要错开顺序，可以通过`Deque`的方式，可以通过 `levelList.add(0, cur.val)`，可以通过`LinkedList`的`addFirst`

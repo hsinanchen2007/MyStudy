@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/f32d9afaeaef510db58fe936a8494e0643636c36d4cd0e4ca9e0aa12cc535419-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f32d9afaeaef510db58fe936a8494e0643636c36d4cd0e4ca9e0aa12cc535419-image.png)
 
-如题，两数组元素和之差就是新增的元素-'a'的值
-### 代码
+// 如题，两数组元素和之差就是新增的元素-'a'的值
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -26,4 +26,4 @@ char findTheDifference(char * s, char * t)
 	result = sumT - sumS + 'a';
 	return result;
 }
-```
+// ```

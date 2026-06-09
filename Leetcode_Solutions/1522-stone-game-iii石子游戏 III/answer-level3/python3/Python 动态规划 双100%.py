@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/3a3b0416d001cb765b037d7f4de1a6ac549133a851fe33764e6266808630e487-image.png)
+# ![image.png](https://pic.leetcode-cn.com/3a3b0416d001cb765b037d7f4de1a6ac549133a851fe33764e6266808630e487-image.png)
 
 
-```
+# ```
 '''
 dp[i] 表示处理stoneValue[i:]序列时候先手的人可能拿到的最高得分
 '''
@@ -32,4 +32,4 @@ class Solution:
             return 'Tie'
         return 'Alice' if val1 > val2 else 'Bob'
 
-```
+# ```

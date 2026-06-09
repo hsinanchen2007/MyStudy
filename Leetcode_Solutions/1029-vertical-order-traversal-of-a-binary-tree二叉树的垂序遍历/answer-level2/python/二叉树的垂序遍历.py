@@ -1,13 +1,13 @@
-####  方法一：记录坐标
-明显的，该解决方案有两个步骤：首先，找出每个节点所在的坐标，然后报告他们的坐标。
+# ####  方法一：记录坐标
+# 明显的，该解决方案有两个步骤：首先，找出每个节点所在的坐标，然后报告他们的坐标。
 
-**算法：**
+# **算法：**
 
-我们可以使用深度优先搜索找到每个节点的坐标。保持当前节点 `(x, y)`，移动的过程中，坐标变化为 `(x-1, y+1)` 或 `(x+1, y+1)` 取决于是左孩子还是右孩子。
+# 我们可以使用深度优先搜索找到每个节点的坐标。保持当前节点 `(x, y)`，移动的过程中，坐标变化为 `(x-1, y+1)` 或 `(x+1, y+1)` 取决于是左孩子还是右孩子。
 
-我们通过 `x` 坐标排序，再根据 `y` 坐标排序，这样确保以正确的顺序添加到答案中。
+# 我们通过 `x` 坐标排序，再根据 `y` 坐标排序，这样确保以正确的顺序添加到答案中。
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 class Solution(object):
     def verticalTraversal(self, root):
         seen = collections.defaultdict(
@@ -29,9 +29,9 @@ class Solution(object):
             ans.append(report)
 
         return ans
-```
+# ```
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 class Solution {
     List<Location> locations;
     public List<List<Integer>> verticalTraversal(TreeNode root) {
@@ -86,9 +86,9 @@ class Location implements Comparable<Location>{
             return Integer.compare(this.val, that.val);
     }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N \log N)$，其中 $N$ 指的是树的节点个数。
-* 空间复杂度：$O(N)$。
+# * 时间复杂度：$O(N \log N)$，其中 $N$ 指的是树的节点个数。
+# * 空间复杂度：$O(N)$。

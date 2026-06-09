@@ -1,10 +1,10 @@
-### 解题思路
-首先你不知道他要循环几次，所以用一个while True
-然后就是添加条件
+# ### 解题思路
+# 首先你不知道他要循环几次，所以用一个while True
+# 然后就是添加条件
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int):
         ans = [0] * num_people
@@ -25,4 +25,4 @@ class Solution:
             index += 1#两个中间变量一个是列表索引，保正列表循环，第二个是下一个小朋友应分糖果数
             temp += 1
         return ans
-```
+# ```

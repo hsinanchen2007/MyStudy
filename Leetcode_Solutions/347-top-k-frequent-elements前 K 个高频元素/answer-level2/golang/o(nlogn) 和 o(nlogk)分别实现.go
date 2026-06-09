@@ -1,5 +1,5 @@
-//o(nlogn)
-```
+// //o(nlogn)
+// ```
 func topKFrequent(nums []int, k int) []int {
     numsmap := make(map[int]int)
     type num struct {
@@ -25,12 +25,12 @@ func topKFrequent(nums []int, k int) []int {
     }   
     return result
 }
-```
+// ```
 
 
 
-//o(nlogk)
-```
+// //o(nlogk)
+// ```
 type mapheap struct {
 	key int
 	val int
@@ -69,4 +69,4 @@ func topKFrequent(nums []int, k int) []int {
     }   
     return result
 }
-```
+// ```

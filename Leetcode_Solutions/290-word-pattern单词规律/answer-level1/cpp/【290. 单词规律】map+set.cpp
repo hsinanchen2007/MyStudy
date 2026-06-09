@@ -1,13 +1,13 @@
-### 思路
-1. 分割单词，将单词存入vec中
-2. 判断单词个数是否和模式串个数相等
-3. 建立哈希映射，需要满足两个条件
-   - 相同key，不能对应不同value
-   - 不同key，不能对应相同value
+// ### 思路
+// 1. 分割单词，将单词存入vec中
+// 2. 判断单词个数是否和模式串个数相等
+// 3. 建立哈希映射，需要满足两个条件
+//    - 相同key，不能对应不同value
+//    - 不同key，不能对应相同value
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordPattern(string pattern, string str) {
@@ -31,4 +31,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-思路：方阵对于正对角线有对称关系
-注意：排序的O(nlogn)的时间复杂度确实不太顶 追求速度的还是不推荐 贴出来单纯希望给大家多个思路
-```
+# 思路：方阵对于正对角线有对称关系
+# 注意：排序的O(nlogn)的时间复杂度确实不太顶 追求速度的还是不推荐 贴出来单纯希望给大家多个思路
+# ```
 from functools import cmp_to_key
 class Solution:
 	def findDiagonalOrder(self,matrix):
@@ -26,4 +26,4 @@ class Solution:
 						return -1
 					return 1
 		return [i for _,_,i in sorted(_all_,key=cmp_to_key(cmp))] #排序 输出val
-```
+# ```

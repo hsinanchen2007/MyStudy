@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxLength(self, arr: List[str]) -> int:
         res = [0]    # 定义全局变量保存最终结果
@@ -16,4 +16,4 @@ class Solution:
                     back(state|arr[i],i+1)
         back(state,0)
         return res[0]
-```
+# ```

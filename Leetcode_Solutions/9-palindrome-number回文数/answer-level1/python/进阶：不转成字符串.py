@@ -1,13 +1,13 @@
-### 解题思路
-对于负数，直接返回False
-对于小于10的正数，返回True
-对于10的倍数，返回False
-剩余的数，通过取余法计算转换后的数，并比较是否与原数字相同
+# ### 解题思路
+# 对于负数，直接返回False
+# 对于小于10的正数，返回True
+# 对于10的倍数，返回False
+# 剩余的数，通过取余法计算转换后的数，并比较是否与原数字相同
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0:
@@ -27,4 +27,4 @@ class Solution:
             return True
         return False
 
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-        if(i > 0 && nums[i] == nums[i - 1] && !visited[i - 1])
-          continue;
-这一段是核心，好像之前哪个题目也做过类似的，主要是前面的如果没有访问，并且相等，就不要访问这个了
+// ### 解题思路
+//         if(i > 0 && nums[i] == nums[i - 1] && !visited[i - 1])
+//           continue;
+// 这一段是核心，好像之前哪个题目也做过类似的，主要是前面的如果没有访问，并且相等，就不要访问这个了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;
@@ -45,4 +45,4 @@ public:
       return res; 
     }
 };
-```
+// ```

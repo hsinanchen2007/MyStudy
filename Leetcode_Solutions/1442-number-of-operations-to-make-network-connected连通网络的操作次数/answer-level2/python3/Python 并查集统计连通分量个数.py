@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/5070b9c5c58c9cda0f65635bee9558cd76a009e1dddeac58e6d57592665ecab5-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5070b9c5c58c9cda0f65635bee9558cd76a009e1dddeac58e6d57592665ecab5-image.png)
 
 
-```
+# ```
 from typing import List
 
 class MergeSet:
@@ -58,4 +58,4 @@ class Solution:
             merge_set.merge(s, e)
 
         return merge_set.getRootNum() - 1
-```
+# ```

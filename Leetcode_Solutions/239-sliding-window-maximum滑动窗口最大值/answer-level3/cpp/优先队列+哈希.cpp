@@ -1,5 +1,5 @@
-优先队列存历史记录，用一个vis判断当前在队列里的数字都是啥，每次更新答案的时候先pop一波优先队列。
-```c++
+// 优先队列存历史记录，用一个vis判断当前在队列里的数字都是啥，每次更新答案的时候先pop一波优先队列。
+// ```c++
 class Solution {
 public:
   vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -29,4 +29,4 @@ public:
     return ret;
   }
 };
-```
+// ```

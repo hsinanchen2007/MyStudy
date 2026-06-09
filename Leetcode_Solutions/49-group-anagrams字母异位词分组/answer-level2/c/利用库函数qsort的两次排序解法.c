@@ -1,13 +1,13 @@
-### 解题思路
-暴力破解法：
-1.建立一个结构体，里面存旧的字符，然后和排好序的字符
-2.然后对这个结构体进行排序，这样结构体里面的字符都是排好序的
-3.将排好序的结构体数组第一个开始挑选一样的字符，并且将此结构体内的旧的字符存到答案里面。
-此解法比较简单，因为都是用了快排的库函数强sort
+// ### 解题思路
+// 暴力破解法：
+// 1.建立一个结构体，里面存旧的字符，然后和排好序的字符
+// 2.然后对这个结构体进行排序，这样结构体里面的字符都是排好序的
+// 3.将排好序的结构体数组第一个开始挑选一样的字符，并且将此结构体内的旧的字符存到答案里面。
+// 此解法比较简单，因为都是用了快排的库函数强sort
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -81,4 +81,4 @@ char *** groupAnagrams(char ** strs, int strsSize, int* returnSize, int** return
     *returnSize = cnt;
     return res;
 }
-```
+// ```

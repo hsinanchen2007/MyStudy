@@ -1,4 +1,4 @@
-```
+// ```
 var findNumberIn2DArray = function(matrix, target) {
    for(let i=0;i<matrix.length;){
      if(matrix[i][0]>target){
@@ -13,4 +13,4 @@ var findNumberIn2DArray = function(matrix, target) {
    }
    return false 
 };
-```
+// ```

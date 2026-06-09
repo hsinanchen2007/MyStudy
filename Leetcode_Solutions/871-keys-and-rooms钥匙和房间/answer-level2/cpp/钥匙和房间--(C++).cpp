@@ -1,11 +1,11 @@
-### 解题思路
-解题: 题目一看就是递归，然后需要记住记录一个visited数组(这是用hash_map,效果一样)，否则会陷入来回dfs的死循环。
-(1) 递归函数一般是这种形式：dfs(vector<int> item, int index),item记录每层节点，index笔试遍历的数组的位置
-(2) 有时候串需要表示前后就是用int left, int right组合了。总共就那么几种形式dfs(vector<int> item, int left, int right)
+// ### 解题思路
+// 解题: 题目一看就是递归，然后需要记住记录一个visited数组(这是用hash_map,效果一样)，否则会陷入来回dfs的死循环。
+// (1) 递归函数一般是这种形式：dfs(vector<int> item, int index),item记录每层节点，index笔试遍历的数组的位置
+// (2) 有时候串需要表示前后就是用int left, int right组合了。总共就那么几种形式dfs(vector<int> item, int left, int right)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> rooms;
@@ -35,4 +35,4 @@ public:
         
     }
 };
-```
+// ```

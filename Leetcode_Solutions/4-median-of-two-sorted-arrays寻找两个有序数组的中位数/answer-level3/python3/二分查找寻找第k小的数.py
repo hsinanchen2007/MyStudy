@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         n,m = len(nums1),len(nums2)
@@ -22,4 +22,4 @@ class Solution:
             return self.getKth(nums1,start1,end1,nums2,j+1,end2,k-(j-start2+1))
         else:
             return self.getKth(nums1,i+1,end1,nums2,start2,end2,k-(i-start1+1))
-```
+# ```

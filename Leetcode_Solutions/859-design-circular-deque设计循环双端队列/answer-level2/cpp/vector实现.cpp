@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyCircularDeque {
 public:
     /** Initialize your data structure here. Set the size of the deque to be k. */
@@ -92,4 +92,4 @@ private:
  * bool param_7 = obj->isEmpty();
  * bool param_8 = obj->isFull();
  */
-```
+// ```

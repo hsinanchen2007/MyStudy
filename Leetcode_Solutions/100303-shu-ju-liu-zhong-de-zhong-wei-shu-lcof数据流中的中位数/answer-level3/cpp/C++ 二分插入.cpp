@@ -1,9 +1,9 @@
-### 解题思路
-插入的时候用二分插入排序。取出的时候可以O(1).
+// ### 解题思路
+// 插入的时候用二分插入排序。取出的时候可以O(1).
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MedianFinder {
 private:
     vector<int> vec;
@@ -38,4 +38,4 @@ public:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
-```
+// ```

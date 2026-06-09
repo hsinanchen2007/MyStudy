@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-循环标记和调整
+// 循环标记和调整
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -54,4 +54,4 @@ class Solution {
     }
 
 }
-```
+// ```

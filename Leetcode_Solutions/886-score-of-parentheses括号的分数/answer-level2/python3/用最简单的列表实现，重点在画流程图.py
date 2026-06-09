@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def scoreOfParentheses(self, S: str) -> int:
         result_list=[]
@@ -51,4 +51,4 @@ class Solution:
             S=S[1:len_str]
             len_str=len(S)
         return result_list[0]
-```
+# ```

@@ -1,5 +1,5 @@
-先排序，再逐个更新后面的值
-```
+// 先排序，再逐个更新后面的值
+// ```
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -22,4 +22,4 @@ public:
 
     }
 };
-```
+// ```

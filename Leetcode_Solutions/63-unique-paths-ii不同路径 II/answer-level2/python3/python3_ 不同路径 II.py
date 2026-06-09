@@ -1,4 +1,4 @@
-```python
+# ```python
 def uniquePathsWithObstacles(dp):
     """
         1. dp问题: dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
@@ -29,4 +29,4 @@ def uniquePathsWithObstacles(dp):
 print(uniquePathsWithObstacles([[0,0],[1,0]]))
 print(uniquePathsWithObstacles([[0,0,0],[0,1,0],[0,0,0]]))
 print(uniquePathsWithObstacles([[0,0,0,0,0],[0,0,0,0,0],[0,0,1,0,0],[0,0,0,0,0]]))
-```
+# ```

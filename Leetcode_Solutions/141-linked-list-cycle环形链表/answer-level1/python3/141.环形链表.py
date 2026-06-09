@@ -1,9 +1,9 @@
-### 解题思路
-记录一下，第一次用到快慢双指针
+# ### 解题思路
+# 记录一下，第一次用到快慢双指针
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
             if slow == fast:
                 return True
         return False
-```
+# ```

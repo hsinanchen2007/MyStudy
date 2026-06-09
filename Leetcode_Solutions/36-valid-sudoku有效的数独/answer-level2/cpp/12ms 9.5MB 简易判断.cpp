@@ -1,9 +1,9 @@
-### 解题思路
-采用最简单易想的方法，先判断每行的合法性，再判断每列的合法性，最后判断每九宫格的合法性。
-![image.png](https://pic.leetcode-cn.com/4c7c11499b05710301142680f2751e99ba31ec675ecf520538dfbe4f9ec0b3b8-image.png)
+// ### 解题思路
+// 采用最简单易想的方法，先判断每行的合法性，再判断每列的合法性，最后判断每九宫格的合法性。
+// ![image.png](https://pic.leetcode-cn.com/4c7c11499b05710301142680f2751e99ba31ec675ecf520538dfbe4f9ec0b3b8-image.png)
 
-### 代码
-```
+// ### 代码
+// ```
 class Solution 
 {
 public:
@@ -60,5 +60,5 @@ public:
         return true;
     }
 };
-```
+// ```
 

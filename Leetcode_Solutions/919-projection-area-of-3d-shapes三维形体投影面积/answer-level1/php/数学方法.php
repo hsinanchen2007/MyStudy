@@ -1,17 +1,17 @@
-### 解题思路
-从顶部看，由该形状生成的阴影将是网格中非零值的数目。
-从侧面看，由该形状生成的阴影将是网格中每一行的最大值。
-从前面看，由该形状生成的阴影将是网格中每一列的最大值。
+// ### 解题思路
+// 从顶部看，由该形状生成的阴影将是网格中非零值的数目。
+// 从侧面看，由该形状生成的阴影将是网格中每一行的最大值。
+// 从前面看，由该形状生成的阴影将是网格中每一列的最大值。
 
-以上3个数加和即可，两次遍历
+// 以上3个数加和即可，两次遍历
 
-### 性能
-执行用时 :24 ms, 在所有 PHP 提交中击败了100.00%的用户
-内存消耗 :15.6 MB, 在所有 PHP 提交中击败了25.00%的用户
+// ### 性能
+// 执行用时 :24 ms, 在所有 PHP 提交中击败了100.00%的用户
+// 内存消耗 :15.6 MB, 在所有 PHP 提交中击败了25.00%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -34,11 +34,11 @@ class Solution {
         return $area;
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度：O(N ^ 2)
-- 空间复杂度: O(N)
+// ### 算法复杂度
+// - 时间复杂度：O(N ^ 2)
+// - 空间复杂度: O(N)
 
-### 参考
-[https://leetcode-cn.com/problems/projection-area-of-3d-shapes/solution/san-wei-xing-ti-tou-ying-mian-ji-by-leetcode/](https://leetcode-cn.com/problems/projection-area-of-3d-shapes/solution/san-wei-xing-ti-tou-ying-mian-ji-by-leetcode/)
+// ### 参考
+// [https://leetcode-cn.com/problems/projection-area-of-3d-shapes/solution/san-wei-xing-ti-tou-ying-mian-ji-by-leetcode/](https://leetcode-cn.com/problems/projection-area-of-3d-shapes/solution/san-wei-xing-ti-tou-ying-mian-ji-by-leetcode/)

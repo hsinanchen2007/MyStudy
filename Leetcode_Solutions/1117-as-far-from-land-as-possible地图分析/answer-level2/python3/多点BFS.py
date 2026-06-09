@@ -1,9 +1,9 @@
-### 解题思路
-抄作业，看甜姨思路
+# ### 解题思路
+# 抄作业，看甜姨思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -22,4 +22,4 @@ class Solution:
                 grid[nx][ny] = grid[x][y] + 1
                 queue.append((nx, ny))  # 子节点入队，下一个循环继续遍历
         return grid[x][y] - 1
-```
+# ```

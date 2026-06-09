@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def __init__(self):
         self.L = []
@@ -16,4 +16,4 @@ class Solution(object):
             self.traverse(node.left)
             self.L.append(node.val)
             self.traverse(node.right)
-```
+# ```

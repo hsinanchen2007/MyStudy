@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -55,7 +55,7 @@ int** permuteUnique(int* nums, int numsSize, int* returnSize, int** returnColumn
     return ret;
 }
 
-```
-1还是用老方法吧，用swap虽然节省了一些参数。但是这一题就解决不了，有重复元素的要排序剪枝，但swap会打乱顺序。
-2重复元素排列的剪枝，i>0&&nums[i]==nums[i-1]&&mark[i-1]==1.为1的是当前层可用节点，即兄弟节点，若他们不可以相等.
-子集树的,i>depth&&nums[i]==nums[i-1],子集树的可用节点集中在一起，depth之后全可用。
+// ```
+// 1还是用老方法吧，用swap虽然节省了一些参数。但是这一题就解决不了，有重复元素的要排序剪枝，但swap会打乱顺序。
+// 2重复元素排列的剪枝，i>0&&nums[i]==nums[i-1]&&mark[i-1]==1.为1的是当前层可用节点，即兄弟节点，若他们不可以相等.
+// 子集树的,i>depth&&nums[i]==nums[i-1],子集树的可用节点集中在一起，depth之后全可用。

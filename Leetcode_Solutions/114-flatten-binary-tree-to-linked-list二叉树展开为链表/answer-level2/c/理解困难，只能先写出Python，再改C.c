@@ -1,5 +1,5 @@
-Python代码：按照牛人的思路，反向前序遍历。
-```
+// Python代码：按照牛人的思路，反向前序遍历。
+// ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,12 +25,12 @@ class Solution:
             root.left = None
             self.temp = root
 
-```
+// ```
 
 
-C代码：照着改，声明空变量有区别，要先声明指针，再开辟空间，再初始化。
-直接声明NULL的话，NULL没有地址，传递不了。
-```
+// C代码：照着改，声明空变量有区别，要先声明指针，再开辟空间，再初始化。
+// 直接声明NULL的话，NULL没有地址，传递不了。
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -55,4 +55,4 @@ void nodeIter(struct TreeNode* root, struct TreeNode** temp){
         *temp = root;
     }
 }
-```
+// ```

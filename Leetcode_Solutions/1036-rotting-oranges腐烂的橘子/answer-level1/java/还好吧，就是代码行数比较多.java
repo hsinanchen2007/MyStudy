@@ -1,5 +1,5 @@
-以 3 作为分隔符
-```
+// 以 3 作为分隔符
+// ```
 class Solution {
     Queue<int[]> queue = new LinkedList<>();
     public int orangesRotting(int[][] grid) {
@@ -72,4 +72,4 @@ class Solution {
         }
     }
 }
-```
+// ```

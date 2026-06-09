@@ -1,23 +1,23 @@
-思路：动态规划。
+// 思路：动态规划。
 
-函数leastCost(i)为，第i天最最后一天旅游的最低消费。
+// 函数leastCost(i)为，第i天最最后一天旅游的最低消费。
 
-那么leastCost(i)等于多少呢？
+// 那么leastCost(i)等于多少呢？
 
-首先，如果第i天不用旅游，那明天leastCost(i) = leastCost(i + 1), 今天不旅行，晚一天买票不会亏；
+// 首先，如果第i天不用旅游，那明天leastCost(i) = leastCost(i + 1), 今天不旅行，晚一天买票不会亏；
 
-如果第i天需要旅游，那么今天你必须买票，而且只能买日、周、月票其中之一。那么:
+// 如果第i天需要旅游，那么今天你必须买票，而且只能买日、周、月票其中之一。那么:
 
- ```
+//  ```
 leastCost(i) = Math.min(
         leastCost(i + 1) + costs[0], 
         leastCost(i + 7) + costs[1], 
         leastCost(i + 30) + costs[2]
     );
-```
+// ```
 
-题解：
-```
+// 题解：
+// ```
 var mincostTickets = function(days, costs) {
    return leastCost(1);
    
@@ -44,4 +44,4 @@ var mincostTickets = function(days, costs) {
        return days.indexOf(i) > -1;
    }
 };
-```
+// ```

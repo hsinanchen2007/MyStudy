@@ -1,9 +1,9 @@
-### 解题思路
-两个指针，sec指针先走k-1步，之后 head和sec一块走，直到 sec->next 为空
+// ### 解题思路
+// 两个指针，sec指针先走k-1步，之后 head和sec一块走，直到 sec->next 为空
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ public:
         return head;
     }
 };
-```
+// ```

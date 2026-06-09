@@ -1,10 +1,10 @@
-[https://blog.csdn.net/jjy19971023/article/details/104539743]()### 解题思路
-判断所有情况就好
-具体思路详见https://blog.csdn.net/jjy19971023/article/details/104539743
+// [https://blog.csdn.net/jjy19971023/article/details/104539743]()### 解题思路
+// 判断所有情况就好
+// 具体思路详见https://blog.csdn.net/jjy19971023/article/details/104539743
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -56,4 +56,4 @@ class Solution {
 		return root;
          }
 }
-```
+// ```

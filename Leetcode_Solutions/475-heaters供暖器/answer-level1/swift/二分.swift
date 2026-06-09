@@ -1,7 +1,7 @@
-1. 先对houses和heaters排序。
-2. 遍历houses，对于每一个house，判断其到两侧的heater之间的距离（这里有二分），取较小的那个。
-3. 2的结果里最大的那个就是最终结果。
-```
+// 1. 先对houses和heaters排序。
+// 2. 遍历houses，对于每一个house，判断其到两侧的heater之间的距离（这里有二分），取较小的那个。
+// 3. 2的结果里最大的那个就是最终结果。
+// ```
 class Solution {
     func findRadius(_ houses: [Int], _ heaters: [Int]) -> Int {
         let sortHouses = houses.sorted { (h1, h2) -> Bool in
@@ -44,4 +44,4 @@ class Solution {
         return min
     }
 }
-```
+// ```

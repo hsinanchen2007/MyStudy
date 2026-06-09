@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -39,4 +39,4 @@ var diameterOfBinaryTree = function(root) {
     digui(root)
     return max
 };
-```
+// ```

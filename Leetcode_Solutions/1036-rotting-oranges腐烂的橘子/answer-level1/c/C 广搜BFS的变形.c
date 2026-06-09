@@ -1,4 +1,4 @@
-```
+// ```
 int orangesRotting(int** grid, int gridSize, int* gridColSize){
     int orange[1000][2];
     int direction[4][2] = {{0,1},{0,-1},{1,0},{-1,0}};
@@ -46,4 +46,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
     }
     return time;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-添加复制的链表，进行重新赋值
+# ### 解题思路
+# 添加复制的链表，进行重新赋值
 
-### 代码
+# ### 代码
 
-```java
+# ```java
 /*
 // Definition for a Node.
 class Node {
@@ -49,9 +49,9 @@ class Solution {
         return res;
     } 
 }
-```
+# ```
 
-```
+# ```
 """
 # Definition for a Node.
 class Node:
@@ -81,4 +81,4 @@ class Solution:
 
             p = tmp
         return head.next
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         int s = target/2 +1;  //最大能取到的值
@@ -55,4 +55,4 @@ class Solution {
 
     }
 }
-```
+// ```

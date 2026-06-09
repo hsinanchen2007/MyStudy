@@ -1,4 +1,4 @@
-```
+// ```
 function climbStairs($n) {
         static $cache = [1=>1,2=>2];
         if($n === 1 ) return 1;
@@ -13,4 +13,4 @@ function climbStairs($n) {
         $cache[$n] = $cache[$n-1] + $cache[$n-2];
         return $cache[$n];
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Codec {
 public:
     TreeNode* p;
@@ -13,5 +13,5 @@ public:
         return p;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/93b082179a15640b04d8eba2e22886309a801bfd175ee5e67f3c5bfbb5e26e2c-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/93b082179a15640b04d8eba2e22886309a801bfd175ee5e67f3c5bfbb5e26e2c-image.png)

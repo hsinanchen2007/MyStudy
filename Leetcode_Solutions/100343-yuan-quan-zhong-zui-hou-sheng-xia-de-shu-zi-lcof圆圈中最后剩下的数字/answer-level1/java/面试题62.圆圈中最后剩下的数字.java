@@ -1,9 +1,9 @@
-### 解题思路
-用ArrayList的remove方法进行删除。
+// ### 解题思路
+// 用ArrayList的remove方法进行删除。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         ArrayList list = new ArrayList();
@@ -19,4 +19,4 @@ class Solution {
         return (int)list.get(0);
     }
 }
-```
+// ```

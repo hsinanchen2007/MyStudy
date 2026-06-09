@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int maxSumAfterPartitioning(vector<int>& A, int K) {
@@ -21,4 +21,4 @@ public:
         return dp[n-1];
     }
 };
-```
+// ```

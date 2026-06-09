@@ -1,9 +1,9 @@
-### 解题思路
-使用快速选择算法
+// ### 解题思路
+// 使用快速选择算法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int findKthLargest(vector<int>& nums, int k) {
@@ -48,4 +48,4 @@ int main() {
 	system("pause");
 	return 0;
 }
-```
+// ```

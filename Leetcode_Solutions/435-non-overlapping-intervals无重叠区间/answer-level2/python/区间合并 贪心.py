@@ -1,9 +1,9 @@
-### 解题思路
-按end排序后, 计数那些start在上一个区间的end前的区间个数就行了
+# ### 解题思路
+# 按end排序后, 计数那些start在上一个区间的end前的区间个数就行了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def eraseOverlapIntervals(self, intervals) -> int:
         if not intervals: return 0
@@ -23,4 +23,4 @@ class Solution:
             if intervals[i][0]>=tmp[1]: tmp = intervals[i]
             else: res += 1
         return res
-```
+# ```

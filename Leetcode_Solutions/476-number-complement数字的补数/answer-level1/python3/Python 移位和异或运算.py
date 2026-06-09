@@ -1,6 +1,6 @@
-先移位，再作异或运算
+# 先移位，再作异或运算
 
-```
+# ```
 class Solution(object):
     def findComplement(self, num):
         """
@@ -13,4 +13,4 @@ class Solution(object):
             temp += 1
         return temp^num
         
-```
+# ```

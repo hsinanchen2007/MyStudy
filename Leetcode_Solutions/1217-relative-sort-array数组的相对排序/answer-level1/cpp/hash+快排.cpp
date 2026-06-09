@@ -1,11 +1,11 @@
-### 解题思路
-首先利用hash统计arr1中每个数的个数，这里要注意，hash数组的大小要超过1000，不然会栈溢出
-然后利用arr2数组来查找hash里面不为0的个数，构造一个循环，push到vector数组中
-最后，将arr1数组排序一下，然后循环查找没有被push到vector数组的数，即hash里面剩下的不为0的数，排序是为了题目要求的升序
+// ### 解题思路
+// 首先利用hash统计arr1中每个数的个数，这里要注意，hash数组的大小要超过1000，不然会栈溢出
+// 然后利用arr2数组来查找hash里面不为0的个数，构造一个循环，push到vector数组中
+// 最后，将arr1数组排序一下，然后循环查找没有被push到vector数组的数，即hash里面剩下的不为0的数，排序是为了题目要求的升序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2) {
@@ -34,4 +34,4 @@ public:
 
     }
 };
-```
+// ```

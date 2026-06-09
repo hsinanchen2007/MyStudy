@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countSubstrings(self, s: str) -> int:
         def get_Center(s,l,r):
@@ -21,4 +21,4 @@ class Solution:
         
         
         
-```
+# ```

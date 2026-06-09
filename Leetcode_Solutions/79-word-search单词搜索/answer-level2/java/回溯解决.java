@@ -1,5 +1,5 @@
-做出来了，但还是效率不太好，可读性还不好。。。加油┗|｀O′|┛ 嗷~~
-```
+// 做出来了，但还是效率不太好，可读性还不好。。。加油┗|｀O′|┛ 嗷~~
+// ```
     public boolean exist(char[][] board, String word) {
         int h = board.length, w = 0;
         if (h > 0) w = board[0].length;
@@ -52,4 +52,4 @@
         visited[i][j] = false;
         return false;
     }
-```
+// ```

@@ -1,6 +1,6 @@
-加个lambda表达式，可以通过很简单的扩展来覆盖其他棋子的走法
-题目很简单，直接上代码
-```
+// 加个lambda表达式，可以通过很简单的扩展来覆盖其他棋子的走法
+// 题目很简单，直接上代码
+// ```
 class Solution {
 public:
     vector<vector<char>>* board;
@@ -34,4 +34,4 @@ public:
         return count;
     }
 };
-```
+// ```

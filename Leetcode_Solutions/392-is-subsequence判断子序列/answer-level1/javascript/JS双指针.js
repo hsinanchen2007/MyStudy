@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -18,4 +18,4 @@ var isSubsequence = function(s, t) {
     }
     return false;
 };
-```
+// ```

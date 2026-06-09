@@ -1,5 +1,5 @@
-# 使用虚拟头节点
-```go
+// # 使用虚拟头节点
+// ```go
 func deleteDuplicates(head *ListNode) *ListNode {
     if head == nil {
         return head
@@ -15,10 +15,10 @@ func deleteDuplicates(head *ListNode) *ListNode {
     }
     return dummy.Next
 }
-```
+// ```
 
-# 不使用虚拟头节点
-```go
+// # 不使用虚拟头节点
+// ```go
 // Time Complexity: O(n), Space Complexity: O(1)
 func deleteDuplicates(head *ListNode) *ListNode {
     if head == nil { // 链表为空返回指针
@@ -40,4 +40,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
     }
     return head // 返回节点去重的单链表
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-1. 考察 1-9 整数中 小于 10的指数
+// ### 解题思路
+// 1. 考察 1-9 整数中 小于 10的指数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number[]}
@@ -39,4 +39,4 @@ var printNumbers2 = function(n) {
     return result
 };
 
-```
+// ```

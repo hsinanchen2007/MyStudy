@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 class CustomStack {
 public:
@@ -41,4 +41,4 @@ public:
  * int param_2 = obj->pop();
  * obj->increment(k,val);
  */
-```
+// ```

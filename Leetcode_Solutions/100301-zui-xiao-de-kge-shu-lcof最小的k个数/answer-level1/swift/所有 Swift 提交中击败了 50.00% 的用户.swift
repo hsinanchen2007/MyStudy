@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先统计然后再取出需要的数
+// 先统计然后再取出需要的数
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
    func getLeastNumbers(_ arr: [Int], _ k: Int) -> [Int] {
         
@@ -54,4 +54,4 @@ class Solution {
         
     }
 }
-```
+// ```

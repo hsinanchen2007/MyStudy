@@ -1,4 +1,4 @@
-js 中用list代替了java的hashmap, 不知道有没有别的方法替代
+// js 中用list代替了java的hashmap, 不知道有没有别的方法替代
 
 
     function isValid(s) {

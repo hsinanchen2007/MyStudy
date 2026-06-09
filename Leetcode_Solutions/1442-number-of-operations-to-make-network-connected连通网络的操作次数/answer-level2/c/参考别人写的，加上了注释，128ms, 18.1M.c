@@ -1,5 +1,5 @@
 
-```
+// ```
 
 int *root;
 /* 得到x的根节点，也就是满足root[idx] == -1的idx */
@@ -47,4 +47,4 @@ int makeConnected(int n, int** connections, int connectionsSize, int* connection
 }
 
 
-```
+// ```

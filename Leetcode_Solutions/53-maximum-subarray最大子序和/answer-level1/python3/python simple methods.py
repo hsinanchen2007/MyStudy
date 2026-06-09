@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         '''
@@ -43,4 +43,4 @@ class Solution:
             max_r = max(tmp, max_r)
         
         return max(max_right,max_left,max_l+max_r)
-```
+# ```

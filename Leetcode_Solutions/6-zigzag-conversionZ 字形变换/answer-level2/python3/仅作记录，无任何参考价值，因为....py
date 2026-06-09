@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![1581671890(1).png](https://pic.leetcode-cn.com/3843b21fb754b0f3330ef9c064d709240eb1c57c6b9945843dea3854369f56eb-1581671890\(1\).png)
-hahhahahaahh太丢人了
+# ### 解题思路
+# 此处撰写解题思路
+# ![1581671890(1).png](https://pic.leetcode-cn.com/3843b21fb754b0f3330ef9c064d709240eb1c57c6b9945843dea3854369f56eb-1581671890\(1\).png)
+# hahhahahaahh太丢人了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         length = len(s)
@@ -62,4 +62,4 @@ class Solution:
                 break
 
         return result
-```
+# ```

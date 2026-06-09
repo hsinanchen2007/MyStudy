@@ -1,10 +1,10 @@
-### 解题思路
-![截图.PNG](https://pic.leetcode-cn.com/c9a6da0c4fe96622f144617b1a44173e8b58733ba23073fc5476d3ed8cbf9597-%E6%88%AA%E5%9B%BE.PNG)
+// ### 解题思路
+// ![截图.PNG](https://pic.leetcode-cn.com/c9a6da0c4fe96622f144617b1a44173e8b58733ba23073fc5476d3ed8cbf9597-%E6%88%AA%E5%9B%BE.PNG)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX 100
 
 int IsNum(char *str)
@@ -66,4 +66,4 @@ char** restoreIpAddresses(char *s, int *returnSize)
     Dfs(s, temp, 0, 0, vec, returnSize);
     return vec;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-- 纯属娱乐 
-- 时间复杂度很差
-- \1 反向引用   表示之前一个捕获组 然后重复 k-1次就可以了
-- 再附带一个常规解法
-```
+// - 纯属娱乐 
+// - 时间复杂度很差
+// - \1 反向引用   表示之前一个捕获组 然后重复 k-1次就可以了
+// - 再附带一个常规解法
+// ```
 var removeDuplicates = function (s, k) {
   let reg = new RegExp('([a-z])\\1{' + (k - 1) + '}', 'g');
   while (reg.test(s)) {
@@ -37,5 +37,5 @@ var removeDuplicates = function (s, k) {
   }
   return stack.join('');
 };
-```
+// ```
 

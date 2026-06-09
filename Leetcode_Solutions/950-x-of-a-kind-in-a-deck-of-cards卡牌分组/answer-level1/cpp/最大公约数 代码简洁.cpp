@@ -1,12 +1,12 @@
-### 解题思路
-N个数字 每组X个  （X >= 2）
-所以 N % X = 0
-每组数字相同  假设有5个数字1 每组2个  5个1 没法分组
-所以 每个数字的个数（Times） % X = 0
-所以 X 是 所有Times 的约数  所以X是所有Times 的最大公约数
-gcd(x, y)  C++自带的   求x,y的最大公约数
-### 代码
-```cpp
+// ### 解题思路
+// N个数字 每组X个  （X >= 2）
+// 所以 N % X = 0
+// 每组数字相同  假设有5个数字1 每组2个  5个1 没法分组
+// 所以 每个数字的个数（Times） % X = 0
+// 所以 X 是 所有Times 的约数  所以X是所有Times 的最大公约数
+// gcd(x, y)  C++自带的   求x,y的最大公约数
+// ### 代码
+// ```cpp
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -25,4 +25,4 @@ public:
         return rs >= 2;
     }
 };
-```
+// ```

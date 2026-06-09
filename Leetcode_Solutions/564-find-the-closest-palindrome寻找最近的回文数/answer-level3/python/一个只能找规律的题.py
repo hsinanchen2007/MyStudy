@@ -1,9 +1,9 @@
-### 解题思路
-边界情况还挺多，只能说要是实际考试面试遇到了，我肯定来不及改好……
+# ### 解题思路
+# 边界情况还挺多，只能说要是实际考试面试遇到了，我肯定来不及改好……
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nearestPalindromic(self, n: str) -> str:
         if int(n)==0:
@@ -37,4 +37,4 @@ class Solution:
         res=[[abs(int(r)-int(n)), r] for r in res]
         res.sort()
         return str(res[0][1])
-```
+# ```

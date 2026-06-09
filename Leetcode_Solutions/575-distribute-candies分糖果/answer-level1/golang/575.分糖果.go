@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-算出糖果的种类数，如果糖果种类小于总糖果数的一半，则妹妹能分得所有种类的糖果，如果糖果种类大于总糖果数的一半，则妹妹只能分得总糖果数得一半，
+// 算出糖果的种类数，如果糖果种类小于总糖果数的一半，则妹妹能分得所有种类的糖果，如果糖果种类大于总糖果数的一半，则妹妹只能分得总糖果数得一半，
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func distributeCandies(candies []int) int {
 	hash := make(map[int]int)
 	sum := 0
@@ -20,4 +20,4 @@ func distributeCandies(candies []int) int {
 		return sum
 	}
 }
-```
+// ```

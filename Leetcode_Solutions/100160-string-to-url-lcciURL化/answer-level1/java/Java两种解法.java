@@ -1,6 +1,6 @@
-## 一、依次遍历判断
-**注意：循环结束条件是小于length，而不是S的长度**
-```java
+// ## 一、依次遍历判断
+// **注意：循环结束条件是小于length，而不是S的长度**
+// ```java
 class Solution {
     public String replaceSpaces(String S, int length) {
         StringBuilder sb = new StringBuilder();
@@ -14,12 +14,12 @@ class Solution {
         return sb.toString();
     }
 }
-```
-## 二、调用String内部方法
-```java
+// ```
+// ## 二、调用String内部方法
+// ```java
 class Solution {
     public String replaceSpaces(String S, int length) {
         return S.substring(0, length).replaceAll(" ", "%20");
     }
 }
-```
+// ```

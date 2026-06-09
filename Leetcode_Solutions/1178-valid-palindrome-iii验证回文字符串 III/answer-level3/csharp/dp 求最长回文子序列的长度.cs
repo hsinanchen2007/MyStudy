@@ -1,6 +1,6 @@
-思路：求最长回文**子序列**的长度，如果可删除字符数小于字符串长度与最长回文**子序列**的长度之差了，那么无论怎么删都不可能。
+// 思路：求最长回文**子序列**的长度，如果可删除字符数小于字符串长度与最长回文**子序列**的长度之差了，那么无论怎么删都不可能。
 
-```c#
+// ```c#
 public class Solution
 {
     public bool IsValidPalindrome(string s, int k)
@@ -41,4 +41,4 @@ public class Solution
         return dp[0, n - 1] >= (n - k);
     }
 }
-```
+// ```

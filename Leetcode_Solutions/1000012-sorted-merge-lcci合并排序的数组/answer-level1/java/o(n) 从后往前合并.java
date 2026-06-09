@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```rust []
+// ```rust []
 impl Solution {
     pub fn merge(a: &mut Vec<i32>, m: i32, b: &mut Vec<i32>, n: i32) {
         let mut length = (m + n - 1) as usize;
@@ -28,8 +28,8 @@ impl Solution {
         }
     }
 }
-```
-```Java []
+// ```
+// ```Java []
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         int length = m+n-1;
@@ -48,4 +48,4 @@ class Solution {
         }
     }
 }
-```
+// ```

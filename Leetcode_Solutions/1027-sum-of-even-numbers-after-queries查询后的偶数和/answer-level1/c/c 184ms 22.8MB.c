@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -54,4 +54,4 @@ int * sumEvenAfterQueries(int * A , int ASize , int ** queries , int queriesSize
     return buffer;
 
 }
-```
+// ```

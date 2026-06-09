@@ -1,10 +1,10 @@
-### 解题思路
-直接从小到大排序，并输出前k个值。
-学习官方的第一种解法，还有几种其他解法，推荐去看一下。
+// ### 解题思路
+// 直接从小到大排序，并输出前k个值。
+// 学习官方的第一种解法，还有几种其他解法，推荐去看一下。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -15,4 +15,4 @@ public:
         return ret;
     }
 };
-```
+// ```

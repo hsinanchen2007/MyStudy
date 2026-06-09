@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Solution {
 public:
     int numRescueBoats(vector<int>& people, int limit) {        
@@ -15,4 +15,4 @@ public:
         return res;
     }
 };
-```
+// ```

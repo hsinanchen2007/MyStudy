@@ -1,11 +1,11 @@
-### 解题思路
-1. 暴力法+二分
-    在求每一个i对应的和的时候, 可利用数据公式n*(a1+an)/2。因为是有顺序的, 可利用二分法快速找到
-2. 滑动窗口
-    当窗口内小于target时,向右移动窗口。从>=target的结果中选取=target的合法值
-### 代码
+# ### 解题思路
+# 1. 暴力法+二分
+#     在求每一个i对应的和的时候, 可利用数据公式n*(a1+an)/2。因为是有顺序的, 可利用二分法快速找到
+# 2. 滑动窗口
+#     当窗口内小于target时,向右移动窗口。从>=target的结果中选取=target的合法值
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findContinuousSequence(self, target):
         """
@@ -42,4 +42,4 @@ class Solution(object):
                 s -= i
                 i += 1
         return res
-```
+# ```

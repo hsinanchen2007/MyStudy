@@ -1,15 +1,15 @@
-### 解题思路
-```
+// ### 解题思路
+// ```
 深搜函数：dfs(某种数据结构-树/数组等，当前位置，其他条件-辅助得到想要结果/边界条件)
 1. 设置visited标志位，记录访问过的位置
 2. 从起点沿右、下两个方向进行深度搜索
 3. 所有方向能遍历的格子数加上当前位置即为运动范围
 dfs(visited, i + dirs[0][0], j + dirs[0][1], count, k) + dfs(visited, i + dirs[1][0], j + dirs[1][1], count, k) + 1
-```
+// ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     public int movingCount(int m, int n, int k) {
         boolean[][] visited = new boolean[m][n];
@@ -63,10 +63,10 @@ public class Solution {
         return sum > k ? true : false;
     }
 }
-```
+// ```
 
-### 测试用例
-```java
+// ### 测试用例
+// ```java
 public class SolutionTest {
     Solution solution = new Solution();
 
@@ -91,4 +91,4 @@ public class SolutionTest {
         assertEquals(expect3, output3);
     }
 }
-```
+// ```

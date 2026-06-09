@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def validateBinaryTreeNodes(self, n: int, leftChild: List[int], rightChild: List[int]) -> bool:
         count = [0 for _ in range(n)]

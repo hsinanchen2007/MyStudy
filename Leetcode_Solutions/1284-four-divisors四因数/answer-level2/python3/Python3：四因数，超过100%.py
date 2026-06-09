@@ -1,5 +1,5 @@
-只要遍历1到根号x之间的整数，就可以得到x所有的因数，当因数个数为4，累加进结果变量
-```python []
+# 只要遍历1到根号x之间的整数，就可以得到x所有的因数，当因数个数为4，累加进结果变量
+# ```python []
 class Solution:
     def countres(self,x):#计算出x的所有因数
         res = []
@@ -17,4 +17,4 @@ class Solution:
                 ans += sum(result)
         return ans
 
-```
+# ```

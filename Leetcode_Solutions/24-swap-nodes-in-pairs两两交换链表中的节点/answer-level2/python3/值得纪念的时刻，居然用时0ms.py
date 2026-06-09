@@ -1,6 +1,6 @@
-执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
-内存消耗 :8.6 MB, 在所有 C++ 提交中击败了79.91%的用户
-```python []
+# 执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
+# 内存消耗 :8.6 MB, 在所有 C++ 提交中击败了79.91%的用户
+# ```python []
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
         #直接法
@@ -24,8 +24,8 @@ class Solution:
         head.next = self.swapPairs(next.next)
         next.next = head
         return next
-```
-```c++[]
+# ```
+# ```c++[]
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
@@ -56,4 +56,4 @@ public:
         return next;
     }
 };
-```
+# ```

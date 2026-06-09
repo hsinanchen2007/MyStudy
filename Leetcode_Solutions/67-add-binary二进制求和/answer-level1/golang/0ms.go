@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func addBinary(a string, b string) string {
     	l1,l2 := len(a), len(b)
 	maxLen := func(l1 , l2 int) int {
@@ -56,7 +56,7 @@ func addBinary(a string, b string) string {
 	}
 	return string(result[1:])
 }
-```
+// ```
 
-### 执行结果
-![image.png](https://pic.leetcode-cn.com/e9ce9f396de9881a239a7cb6d0f8625f3ac3762994d738233eb46b174d58263e-image.png)
+// ### 执行结果
+// ![image.png](https://pic.leetcode-cn.com/e9ce9f396de9881a239a7cb6d0f8625f3ac3762994d738233eb46b174d58263e-image.png)

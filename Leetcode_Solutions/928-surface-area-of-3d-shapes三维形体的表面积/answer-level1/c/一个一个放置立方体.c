@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
     //二维数组指针，指针的列数，每一列元素的个数
     //一个一个放置立方体
@@ -36,4 +36,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     return sum;
 }      
 
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-1. 先去掉空格
-2. 对第一个字符进行判断出-,+字符，并进行标记。
-3. 过滤掉非数字的字符
-4. 字符转化为数字
+// 1. 先去掉空格
+// 2. 对第一个字符进行判断出-,+字符，并进行标记。
+// 3. 过滤掉非数字的字符
+// 4. 字符转化为数字
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func myAtoi(str string) int {
     // 去掉前后空格
 	str = strings.TrimSpace(str)
@@ -48,4 +48,4 @@ func myAtoi(str string) int {
 	}
 	return absNumber*sign
 }
-```
+// ```

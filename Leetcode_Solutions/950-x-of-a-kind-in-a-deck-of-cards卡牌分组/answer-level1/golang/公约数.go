@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-判断 数字出现的个数有没有大于1的公约数
+// 判断 数字出现的个数有没有大于1的公约数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hasGroupsSizeX(deck []int) bool {
     max := getMax(deck)
     res := make([]int, max+1)
@@ -45,4 +45,4 @@ func gcd(a, b int) int{
     }
     return a
 }
-```
+// ```

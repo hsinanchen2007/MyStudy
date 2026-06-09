@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -14,4 +14,4 @@ class Solution:
         head.next.next = head
         head.next = None
         return hh
-```
+# ```

@@ -1,6 +1,6 @@
-## 树层序遍历实现
+// ## 树层序遍历实现
 
-```js
+// ```js
 var levelOrderBottom = function(root) {
   if(!root)return [];
   let queue=[root];
@@ -23,11 +23,11 @@ var levelOrderBottom = function(root) {
   }
   return res.reverse();
 };
-```
+// ```
 
-## 递归实现
+// ## 递归实现
 
-```js
+// ```js
 var levelOrderBottom = function(root) {
   let res=[];
   const deepf=(node,level)=>{
@@ -42,4 +42,4 @@ var levelOrderBottom = function(root) {
   deepf(root,0)
   return res.reverse();
 };
-```
+// ```

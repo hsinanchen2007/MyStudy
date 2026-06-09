@@ -1,17 +1,17 @@
-### Analyze
+// ### Analyze
 
-思考: 相对题 2 的逆序相加, 该题顺序相加作如下思考:
+// 思考: 相对题 2 的逆序相加, 该题顺序相加作如下思考:
 
-* 第一步: 首先补齐位数, 让其一一对应;
+// * 第一步: 首先补齐位数, 让其一一对应;
 
-```js
+// ```js
 7  ->  2  ->  4  ->  3
 0  ->  5  ->  6  ->  4
-```
+// ```
 
-* 第二步: 递归计算两个链表同位之和, 同时使用 digitCarry 表示进位的情况;
+// * 第二步: 递归计算两个链表同位之和, 同时使用 digitCarry 表示进位的情况;
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -87,12 +87,12 @@ var addTwoNumbers = function(l1, l2) {
 
   return result
 }
-```
+// ```
 
-![](https://pic.leetcode-cn.com/9aca01e9af1144c868bbdc45eaf1a5e80c463f9e9002b8cc5a1fb352ea76440d.jpg-400)
+// ![](https://pic.leetcode-cn.com/9aca01e9af1144c868bbdc45eaf1a5e80c463f9e9002b8cc5a1fb352ea76440d.jpg-400)
 
-### Sister Title
+// ### Sister Title
 
-2
+// 2
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)

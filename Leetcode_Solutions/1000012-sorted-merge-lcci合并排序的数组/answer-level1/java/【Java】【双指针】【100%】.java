@@ -1,6 +1,6 @@
-为了减少移动次数，从序列尾部开始遍历，最后再把剩下的b里的数据放到a前面即可。
+// 为了减少移动次数，从序列尾部开始遍历，最后再把剩下的b里的数据放到a前面即可。
 
-```java
+// ```java
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         while (m > 0 && n > 0) {
@@ -19,4 +19,4 @@ class Solution {
         }
     }
 }
-```
+// ```

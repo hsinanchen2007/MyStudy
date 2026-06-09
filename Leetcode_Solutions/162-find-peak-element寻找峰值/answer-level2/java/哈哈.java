@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-继续加油，寻找矩阵的最小值 ***
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 继续加油，寻找矩阵的最小值 ***
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findPeakElement(int[] nums) {
         int len = nums.length;
@@ -28,5 +28,5 @@ class Solution {
 		
 	}
 }
-```
-![image.png](https://pic.leetcode-cn.com/6056a63d2fc236f3c8770e2702482d500a75151ab9a14b182c72993d6a74e4a8-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6056a63d2fc236f3c8770e2702482d500a75151ab9a14b182c72993d6a74e4a8-image.png)

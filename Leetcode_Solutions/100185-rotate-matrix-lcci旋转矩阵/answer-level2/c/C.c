@@ -1,10 +1,10 @@
-### 解题思路
-1. 对角线互换
-2. 每行reverse
+// ### 解题思路
+// 1. 对角线互换
+// 2. 每行reverse
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     
     int i, j;
@@ -27,4 +27,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
     }
 
 }
-```
+// ```

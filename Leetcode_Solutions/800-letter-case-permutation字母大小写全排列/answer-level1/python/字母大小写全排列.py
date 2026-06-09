@@ -1,18 +1,18 @@
-#### 方法一：递归【通过】
+# #### 方法一：递归【通过】
 
-**思路**
+# **思路**
 
-从左往右依次遍历字符，过程中保持 `ans` 为已遍历过字符的字母大小全排列。
+# 从左往右依次遍历字符，过程中保持 `ans` 为已遍历过字符的字母大小全排列。
 
-例如，当 `S = "abc"` 时，考虑字母 `"a", "b", "c"`，初始令 `ans = [""]`，依次更新 `ans = ["a", "A"]`， `ans = ["ab", "Ab", "aB", "AB"]`， `ans = ["abc", "Abc", "aBc", "ABc", "abC", "AbC", "aBC", "ABC"]`。
+# 例如，当 `S = "abc"` 时，考虑字母 `"a", "b", "c"`，初始令 `ans = [""]`，依次更新 `ans = ["a", "A"]`， `ans = ["ab", "Ab", "aB", "AB"]`， `ans = ["abc", "Abc", "aBc", "ABc", "abC", "AbC", "aBC", "ABC"]`。
 
-**算法**
+# **算法**
 
-如果下一个字符 `c` 是字母，将当前已遍历过的字符串全排列复制两份，在第一份的每个字符串末尾添加 `lowercase(c)`，在第二份的每个字符串末尾添加 `uppercase(c)`。
+# 如果下一个字符 `c` 是字母，将当前已遍历过的字符串全排列复制两份，在第一份的每个字符串末尾添加 `lowercase(c)`，在第二份的每个字符串末尾添加 `uppercase(c)`。
 
-如果下一个字符 `c` 是数字，将 `c` 直接添加到每个字符串的末尾。
+# 如果下一个字符 `c` 是数字，将 `c` 直接添加到每个字符串的末尾。
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 class Solution {
     public List<String> letterCasePermutation(String S) {
         List<StringBuilder> ans = new ArrayList();
@@ -38,9 +38,9 @@ class Solution {
         return finalans;
     }
 }
-```
+# ```
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 class Solution(object):
     def letterCasePermutation(self, S):
         ans = [[]]
@@ -57,27 +57,27 @@ class Solution(object):
                     ans[i].append(char)
 
         return map("".join, ans)
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(2^{N} * N)$，其中 $N$ 是 `S` 的长度。
+# * 时间复杂度：$O(2^{N} * N)$，其中 $N$ 是 `S` 的长度。
 
-* 空间复杂度：$O(2^N * N)$。
+# * 空间复杂度：$O(2^N * N)$。
 
-#### 方法二：二分掩码【通过】
+# #### 方法二：二分掩码【通过】
 
-**思路**
+# **思路**
 
-假设字符串 `S` 有 $B$ 个字母，那么全排列就有 $2^B$ 个字符串，且可以用位掩码 `bits` 唯一地表示。
+# 假设字符串 `S` 有 $B$ 个字母，那么全排列就有 $2^B$ 个字符串，且可以用位掩码 `bits` 唯一地表示。
 
-例如，可以用 `00` 表示 `a7b`， `01` 表示 `a7B`， `10` 表示 `A7b`， `11` 表示 `A7B`。注意数字不是掩码的一部分。
+# 例如，可以用 `00` 表示 `a7b`， `01` 表示 `a7B`， `10` 表示 `A7b`， `11` 表示 `A7B`。注意数字不是掩码的一部分。
 
-**算法**
+# **算法**
 
-根据位掩码，构造正确的全排列结果。如果下一个字符是字母，则根据位掩码添加小写或大写字母。 否则添加对应的数字。
+# 根据位掩码，构造正确的全排列结果。如果下一个字符是字母，则根据位掩码添加小写或大写字母。 否则添加对应的数字。
 
-```java [solution2-Java]
+# ```java [solution2-Java]
 class Solution {
     public List<String> letterCasePermutation(String S) {
         int B = 0;
@@ -108,9 +108,9 @@ class Solution {
 
     }
 }
-```
+# ```
 
-```python [solution2-Python]
+# ```python [solution2-Python]
 class Solution(object):
     def letterCasePermutation(self, S):
         B = sum(letter.isalpha() for letter in S)
@@ -132,29 +132,29 @@ class Solution(object):
 
             ans.append("".join(word))
         return ans
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间和空间复杂度：$O(2^{N} * N)$，与方法一分析相同。
+# * 时间和空间复杂度：$O(2^{N} * N)$，与方法一分析相同。
 
-#### 方法三： 内置函数库【通过】
+# #### 方法三： 内置函数库【通过】
 
-**思路和算法**
+# **思路和算法**
 
-集合的笛卡尔乘积是从所有集合中选择每种可能的组合。例如 `{1, 2
-} x {a, b, c} = {1a, 1b, 1c, 2a, 2b, 2c}`。
+# 集合的笛卡尔乘积是从所有集合中选择每种可能的组合。例如 `{1, 2
+# } x {a, b, c} = {1a, 1b, 1c, 2a, 2b, 2c}`。
 
-对于具有内置函数来计算笛卡尔积的语言，可以直接调用内置函数减少工作量。
+# 对于具有内置函数来计算笛卡尔积的语言，可以直接调用内置函数减少工作量。
 
-```python [solution3-Python]
+# ```python [solution3-Python]
 class Solution(object):
     def letterCasePermutation(self, S):
         f = lambda x: (x.lower(), x.upper()) if x.isalpha() else x
         return map("".join, itertools.product(*map(f, S)))
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间和空间复杂度：$O(2^{N} * N)$，与方法一分析相同。
+# * 时间和空间复杂度：$O(2^{N} * N)$，与方法一分析相同。

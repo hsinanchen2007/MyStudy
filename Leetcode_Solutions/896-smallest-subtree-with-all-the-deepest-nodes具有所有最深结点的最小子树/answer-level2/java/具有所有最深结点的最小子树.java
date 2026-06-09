@@ -1,22 +1,22 @@
-#### 方法一： 两次深度优先搜索
+// #### 方法一： 两次深度优先搜索
 
-**思路**
+// **思路**
 
-最直白的做法，先做一次深度优先搜索标记所有节点的深度来找到最深的节点，再做一次深度优先搜索用回溯法找最小子树。定义第二次深度优先搜索方法为 `answer(node)`，每次递归有以下四种情况需要处理：
+// 最直白的做法，先做一次深度优先搜索标记所有节点的深度来找到最深的节点，再做一次深度优先搜索用回溯法找最小子树。定义第二次深度优先搜索方法为 `answer(node)`，每次递归有以下四种情况需要处理：
 
-* 如果 `node` 没有左右子树，返回 `node`。 
+// * 如果 `node` 没有左右子树，返回 `node`。 
 
-* 如果 `node` 左右子树的后代中都有最深节点，返回 `node`。
+// * 如果 `node` 左右子树的后代中都有最深节点，返回 `node`。
 
-* 如果只有左子树或右子树中有且拥有所有的最深节点，返回这棵子树的根节点（即 `node` 的左/右孩子）。
+// * 如果只有左子树或右子树中有且拥有所有的最深节点，返回这棵子树的根节点（即 `node` 的左/右孩子）。
 
-* 否则，当前子树中不存在答案。
+// * 否则，当前子树中不存在答案。
 
-**算法**
+// **算法**
 
-先做一次深度优先搜索标记所有节点的深度，再做一次深度优先搜索找到最终答案。
+// 先做一次深度优先搜索标记所有节点的深度，再做一次深度优先搜索找到最终答案。
 
-```java [solution1-Java]
+// ```java [solution1-Java]
 class Solution {
     Map<TreeNode, Integer> depth;
     int max_depth;
@@ -50,9 +50,9 @@ class Solution {
         return null;
     }
 }
-```
+// ```
 
-```python [solution1-Python]
+// ```python [solution1-Python]
 class Solution(object):
     def subtreeWithAllDeepest(self, root):
         # Tag each node with it's depth.
@@ -74,38 +74,38 @@ class Solution(object):
             return node if L and R else L or R
 
         return answer(root)
-```
+// ```
 
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $O(N)$，其中 $N$ 为树的大小。
+// * 时间复杂度： $O(N)$，其中 $N$ 为树的大小。
 
-* 空间复杂度： $O(N)$。
+// * 空间复杂度： $O(N)$。
 
-#### 方法二： 一次深度优先搜索
+// #### 方法二： 一次深度优先搜索
 
-**思路**
+// **思路**
 
-可以把 **方法一** 中两次深度优先搜索合并成一次，定义方法 `dfs(node)`，与方法一中不同的是 `dfs(node)` 返回两个值，子树中的答案和 `node` 节点到最深节点的距离。
+// 可以把 **方法一** 中两次深度优先搜索合并成一次，定义方法 `dfs(node)`，与方法一中不同的是 `dfs(node)` 返回两个值，子树中的答案和 `node` 节点到最深节点的距离。
 
-**算法**
+// **算法**
 
-`dfs(node)` 返回的结果有两个部分：
-* `Result.node`：包含所有最深节点的最小子树的根节点。 
-* `Result.dist`：`node` 到最深节点的距离。
+// `dfs(node)` 返回的结果有两个部分：
+// * `Result.node`：包含所有最深节点的最小子树的根节点。 
+// * `Result.dist`：`node` 到最深节点的距离。
 
-分别计算 `dfs(node)` 的两个返回结果：
+// 分别计算 `dfs(node)` 的两个返回结果：
 
-* 对于 `Result.node`：
+// * 对于 `Result.node`：
 
-    * 如果只有一个 `childResult` 具有最深节点，返回 `childResult.node`。
+//     * 如果只有一个 `childResult` 具有最深节点，返回 `childResult.node`。
 
-    * 如果两个孩子都有最深节点，返回 `node`。
+//     * 如果两个孩子都有最深节点，返回 `node`。
 
-* `Result.dist` 为 `childResult.dist` 加 `1`。
+// * `Result.dist` 为 `childResult.dist` 加 `1`。
 
-```java [solution2-Java]
+// ```java [solution2-Java]
 class Solution {
     public TreeNode subtreeWithAllDeepest(TreeNode root) {
         return dfs(root).node;
@@ -137,9 +137,9 @@ class Result {
         dist = d;
     }
 }
-```
+// ```
 
-```python [solution2-Python]
+// ```python [solution2-Python]
 class Solution(object):
     def subtreeWithAllDeepest(self, root):
         # The result of a subtree is:
@@ -157,11 +157,11 @@ class Solution(object):
             return Result(node, L.dist + 1)
 
         return dfs(root).node
-```
+// ```
 
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $O(N)$，其中 $N$ 为树的大小。
+// * 时间复杂度： $O(N)$，其中 $N$ 为树的大小。
 
-* 空间复杂度： $O(N)$。
+// * 空间复杂度： $O(N)$。

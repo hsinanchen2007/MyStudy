@@ -1,13 +1,13 @@
-### 解题思路
-如果都没有人坐就是2*n；
-一行一行的看，把所有的位置存在 Map<Integer, List<Integer>> map中，
-遍历map，就是遍历每一行的列位置。
-列如果是2——5 则减一
-列如果的6——9 减一
-如果前两个都减一了，则要判断是否4——7位置被占用没有
-### 代码
+// ### 解题思路
+// 如果都没有人坐就是2*n；
+// 一行一行的看，把所有的位置存在 Map<Integer, List<Integer>> map中，
+// 遍历map，就是遍历每一行的列位置。
+// 列如果是2——5 则减一
+// 列如果的6——9 减一
+// 如果前两个都减一了，则要判断是否4——7位置被占用没有
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
  int[][] copySeates=reservedSeats;
@@ -56,4 +56,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

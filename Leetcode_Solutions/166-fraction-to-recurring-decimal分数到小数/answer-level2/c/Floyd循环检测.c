@@ -1,7 +1,7 @@
 
-看到还没有人发这个方法的题解，上来补充一个。代码写得比较难看，仅提供一个思路。
+// 看到还没有人发这个方法的题解，上来补充一个。代码写得比较难看，仅提供一个思路。
 
-```
+// ```
 int getLength(long long n)
 {
     long long x = n;
@@ -130,4 +130,4 @@ char * fractionToDecimal(int numerator, int denominator) {
     res[i] = '\0';
     return res;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-分享一波混乱计算
+// ### 解题思路
+// 分享一波混乱计算
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int f(long mod, long digit) {
     if (mod == digit) return 1;
     else if (mod < digit) return 0;
@@ -27,4 +27,4 @@ int countDigitOne(int n){
 
     return count;
 }
-```
+// ```

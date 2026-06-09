@@ -1,9 +1,9 @@
-### 解题思路
-进入dfs的次数即为朋友圈的个数
+// ### 解题思路
+// 进入dfs的次数即为朋友圈的个数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findCircleNum(vector<vector<int>>& M) {
@@ -36,4 +36,4 @@ private:
         }
     }
 };
-```
+// ```

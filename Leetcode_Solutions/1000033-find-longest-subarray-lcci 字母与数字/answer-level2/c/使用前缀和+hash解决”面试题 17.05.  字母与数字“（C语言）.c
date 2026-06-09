@@ -1,23 +1,23 @@
-### 解题思路
-典型二元元素问题：元素类型分为两类，求两者总数的关系。
+// ### 解题思路
+// 典型二元元素问题：元素类型分为两类，求两者总数的关系。
 
-1.先将两者转化为1和-1
+// 1.先将两者转化为1和-1
 
-2.统计前缀和
+// 2.统计前缀和
 
-3.使用hash记录某一前缀和最早出现的位置
+// 3.使用hash记录某一前缀和最早出现的位置
 
-4.遍历数据，获得最大间隔。
+// 4.遍历数据，获得最大间隔。
 
-注意前缀和为0要特殊处理。
-
-
-![image.png](https://pic.leetcode-cn.com/4df1578aeb2d62bed1c792640f393cc09d2c041d617adcd31758817c55ad5c4f-image.png)
+// 注意前缀和为0要特殊处理。
 
 
-### 代码
+// ![image.png](https://pic.leetcode-cn.com/4df1578aeb2d62bed1c792640f393cc09d2c041d617adcd31758817c55ad5c4f-image.png)
 
-```c
+
+// ### 代码
+
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -102,4 +102,4 @@ char** findLongestSubarray(char** array, int arraySize, int* returnSize){
     *returnSize = max;
     return ret;
 }
-```
+// ```

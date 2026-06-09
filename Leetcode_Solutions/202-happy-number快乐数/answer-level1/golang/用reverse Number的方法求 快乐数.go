@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1、拆分数字 123=> 1²+2²+3²（和reverse Number 方法相同）
-2、如果 ²和已经出现过 则说明这个数值 不是快乐数 => false
-3、注意数值的溢出 若²和超出32位 也为=>false
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1、拆分数字 123=> 1²+2²+3²（和reverse Number 方法相同）
+// 2、如果 ²和已经出现过 则说明这个数值 不是快乐数 => false
+// 3、注意数值的溢出 若²和超出32位 也为=>false
+// ### 代码
 
-```golang
+// ```golang
 func isHappy(n int) bool {
 isExist := make(map[int]bool)
 	if n == 1 {
@@ -33,4 +33,4 @@ isExist := make(map[int]bool)
 
 	return true
 }
-```
+// ```

@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/2b7060078448f9ce69ce8db6735187bd02d3496d768b579f4fcf2d91bd98aa11-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2b7060078448f9ce69ce8db6735187bd02d3496d768b579f4fcf2d91bd98aa11-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int add(int a, int b) {
@@ -18,4 +18,4 @@ public:
         return a;
     }
 };
-```
+// ```

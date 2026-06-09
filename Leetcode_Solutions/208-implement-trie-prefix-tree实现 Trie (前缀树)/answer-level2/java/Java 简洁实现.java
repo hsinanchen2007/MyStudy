@@ -1,6 +1,6 @@
-一个 `int` 即可存储 26 个字母
+// 一个 `int` 即可存储 26 个字母
 
-```
+// ```
 class Trie {
 
     class TrieNode {
@@ -73,4 +73,4 @@ class Trie {
         return true;
     }
 }
-```
+// ```

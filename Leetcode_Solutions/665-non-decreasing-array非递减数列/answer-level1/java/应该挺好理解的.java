@@ -1,8 +1,8 @@
-x,y,z三个数只有两种变换情况
-1、x<=z 例如[1,4,2]或[2,4,2]，令y=z就可以
-2、x>z 例如[3,4,2] 令z=y就可以
-这两种情况是或的关系且只能够变换一次
-```
+// x,y,z三个数只有两种变换情况
+// 1、x<=z 例如[1,4,2]或[2,4,2]，令y=z就可以
+// 2、x>z 例如[3,4,2] 令z=y就可以
+// 这两种情况是或的关系且只能够变换一次
+// ```
 class Solution {
     public boolean checkPossibility(int[] nums) {
         if(nums.length == 1) return true;
@@ -26,4 +26,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

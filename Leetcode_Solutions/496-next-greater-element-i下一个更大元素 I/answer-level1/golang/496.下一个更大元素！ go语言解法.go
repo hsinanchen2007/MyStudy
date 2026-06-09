@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-把遍历nums2，把其中每个数比其大的第一个数找出来，存在哈希表中，在遍历nums1，对应着哈希表来向结果切片里添加数据即可，hash表没有的添加-1。
+// 把遍历nums2，把其中每个数比其大的第一个数找出来，存在哈希表中，在遍历nums1，对应着哈希表来向结果切片里添加数据即可，hash表没有的添加-1。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
 		hash := make(map[int]int)
 		for i := 0;i < len(nums2);i++ {
@@ -25,4 +25,4 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
 		}
 		return res
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-双队列，push操作时间复杂度O(1),pop操作为O(n)
+// ### 解题思路
+// 双队列，push操作时间复杂度O(1),pop操作为O(n)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 private:
     queue<int> q1;
@@ -56,4 +56,4 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

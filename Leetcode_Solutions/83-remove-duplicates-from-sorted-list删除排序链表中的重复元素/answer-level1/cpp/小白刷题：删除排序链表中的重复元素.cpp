@@ -1,8 +1,8 @@
-链表基本操作，删除元素，不过小心next可能会带来的陷阱
+// 链表基本操作，删除元素，不过小心next可能会带来的陷阱
 
-代码：
+// 代码：
 
-```
+// ```
 class Solution {
 public:
 	ListNode* deleteDuplicates(ListNode* head) {
@@ -23,4 +23,4 @@ public:
 		return head;
 	};
 };
-```
+// ```

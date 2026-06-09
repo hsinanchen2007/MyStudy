@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func majorityElement(nums []int) int {
     var count = make(map[int]int,0)
     var lens = math.Floor(float64(len(nums))/2) 
@@ -15,4 +15,4 @@ func majorityElement(nums []int) int {
     }
     return -1
 }
-```
+// ```

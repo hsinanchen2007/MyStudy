@@ -1,4 +1,4 @@
-```
+// ```
 var merge = function(nums1, m, nums2, n) {
     let p1 = m -1, p2 = n -1, p = m+n-1
     while(p >= 0) {
@@ -14,4 +14,4 @@ var merge = function(nums1, m, nums2, n) {
     }
     return nums1
 };
-```
+// ```

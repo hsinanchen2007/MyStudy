@@ -1,4 +1,4 @@
-```
+// ```
 var simplifyPath = function (path) {
   path = path.split('/')
   let map = path.reduce((ary, it) => {
@@ -16,5 +16,5 @@ var simplifyPath = function (path) {
     return res + '/' + it
   }, '')
 };
-```
+// ```
 

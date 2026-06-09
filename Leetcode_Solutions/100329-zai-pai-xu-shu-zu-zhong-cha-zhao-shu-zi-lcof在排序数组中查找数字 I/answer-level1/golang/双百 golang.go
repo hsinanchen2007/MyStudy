@@ -1,6 +1,6 @@
-折半查找找到某一个target的位置，然后根据数组的排序特性向前，向后查找，直接return
+// 折半查找找到某一个target的位置，然后根据数组的排序特性向前，向后查找，直接return
 
-```
+// ```
 func search(nums []int, target int) int {
 	left := 0
 	right := len(nums) - 1
@@ -38,4 +38,4 @@ func search(nums []int, target int) int {
 
 	return count
 }
-```
+// ```

@@ -1,5 +1,5 @@
-所分出的两个列表的均值均等于列表A的均值，代码如下
-```
+# 所分出的两个列表的均值均等于列表A的均值，代码如下
+# ```
 class Solution:
     def splitArraySameAverage(self, A: List[int]) -> bool:  # 每个列表的平均数与A的平均数相等
         A.sort()
@@ -24,4 +24,4 @@ class Solution:
             if findlist(A, i, int(i*ave)):
                 return True
         return False
-```
+# ```

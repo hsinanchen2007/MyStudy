@@ -1,12 +1,12 @@
-### 解题思路
-雷同与官方解题，这里只是指出Rust该如何遍历二叉树等`recursivly`结构。
-注意如何取RefCell中wrapped TreeNode。 
-`Rc<RefCell<TreeNode>>>` ---->  `clone` 创建一个新的`Rc<RefCell<TreeNode>>>` 引用计数+1 在栈上
-`Rc<RefCell<TreeNode>>>.borrow()` ----> 智能解引用 相当于 `(*(node.clone())).borrow()` 调用`RefCell.borrow()` 取得 `Ref<TreeNode>`
-`Ref<TreeNode>.left.clone()` ----> `Ref<TreeNode>`智能解引用 取得left字段，并调用`clone`获取左子结点
-### 代码
+// ### 解题思路
+// 雷同与官方解题，这里只是指出Rust该如何遍历二叉树等`recursivly`结构。
+// 注意如何取RefCell中wrapped TreeNode。 
+// `Rc<RefCell<TreeNode>>>` ---->  `clone` 创建一个新的`Rc<RefCell<TreeNode>>>` 引用计数+1 在栈上
+// `Rc<RefCell<TreeNode>>>.borrow()` ----> 智能解引用 相当于 `(*(node.clone())).borrow()` 调用`RefCell.borrow()` 取得 `Ref<TreeNode>`
+// `Ref<TreeNode>.left.clone()` ----> `Ref<TreeNode>`智能解引用 取得left字段，并调用`clone`获取左子结点
+// ### 代码
 
-```rust
+// ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
 // pub struct TreeNode {
@@ -45,4 +45,4 @@ impl Solution {
         ans - 1
     }
 }
-```
+// ```

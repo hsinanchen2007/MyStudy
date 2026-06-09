@@ -1,4 +1,4 @@
-```
+// ```
 var defangIPaddr = function(address) {
     if (String.prototype.replace) {
         return address.replace(/\./g, '[.]');
@@ -11,4 +11,4 @@ var defangIPaddr = function(address) {
     })
     return arr.join("")
 };
-```
+// ```

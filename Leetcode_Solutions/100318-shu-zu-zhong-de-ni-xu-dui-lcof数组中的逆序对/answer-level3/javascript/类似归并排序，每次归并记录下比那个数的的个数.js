@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -33,4 +33,4 @@ function merge_Sort(arr, l, r) {
     for (i = l, j = 0; i <= r; i++ , j++) arr[i] = temp[j];
     return res;
 }
-```
+// ```

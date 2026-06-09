@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func plusOne(digits []int) []int {
 	digits[len(digits)-1] = digits[len(digits)-1]+1
 	for i:=len(digits)-1;i>0;i--{
@@ -19,4 +19,4 @@ func plusOne(digits []int) []int {
 	}
 	return digits
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-这道题没什么坑，直接DFS可过。
+// 这道题没什么坑，直接DFS可过。
 
-```c++
+// ```c++
 class Solution {
 public:
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
@@ -19,4 +19,4 @@ private:
         return ;
     }
 };
-```
+// ```

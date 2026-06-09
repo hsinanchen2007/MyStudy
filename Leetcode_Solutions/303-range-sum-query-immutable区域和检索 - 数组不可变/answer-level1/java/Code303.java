@@ -1,9 +1,9 @@
-### 解题思路
-线段树解决
+// ### 解题思路
+// 线段树解决
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class NumArray {
     private int[] data;
     private int[] tree;
@@ -80,4 +80,4 @@ class NumArray {
  * NumArray obj = new NumArray(nums);
  * int param_1 = obj.sumRange(i,j);
  */
-```
+// ```

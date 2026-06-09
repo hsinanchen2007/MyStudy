@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool isYuanyin(char c){
@@ -30,4 +30,4 @@ public:
 		return res;
     }
 };
-```
+// ```

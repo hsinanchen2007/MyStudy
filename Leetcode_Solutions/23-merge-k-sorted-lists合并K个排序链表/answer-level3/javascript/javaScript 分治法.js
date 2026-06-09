@@ -1,10 +1,10 @@
-### 解题思路
-# 分治法
-**太流弊了**
+// ### 解题思路
+// # 分治法
+// **太流弊了**
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -50,4 +50,4 @@ var mergeKLists = function(lists) {
     }
     return lists[0];
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         count = []
@@ -35,5 +35,5 @@ class Solution:
             return True
         backtrack(0, board)
         return count
-```
+# ```
 

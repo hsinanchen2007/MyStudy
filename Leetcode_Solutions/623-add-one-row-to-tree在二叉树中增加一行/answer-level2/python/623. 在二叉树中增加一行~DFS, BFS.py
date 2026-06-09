@@ -1,16 +1,16 @@
-### 解题思路
-**DFS的思路**
-其实就是递归找深度==d-1的节点进行操作
-![image.png](https://pic.leetcode-cn.com/0966d6f99fe6209afdb811bdd468d6ba8061f40d5af0226dd6494087f98a7a7d-image.png)
+# ### 解题思路
+# **DFS的思路**
+# 其实就是递归找深度==d-1的节点进行操作
+# ![image.png](https://pic.leetcode-cn.com/0966d6f99fe6209afdb811bdd468d6ba8061f40d5af0226dd6494087f98a7a7d-image.png)
 
-**BFS的思路**
-每层元素入队出队，如果层数==d-1,那么对该层的所有出队的元素进行操作
+# **BFS的思路**
+# 每层元素入队出队，如果层数==d-1,那么对该层的所有出队的元素进行操作
 
-![image.png](https://pic.leetcode-cn.com/84a6e16833d4a2d642cf1fa21c25c913dcee265fe553cb3fb1c892e241327496-image.png)
+# ![image.png](https://pic.leetcode-cn.com/84a6e16833d4a2d642cf1fa21c25c913dcee265fe553cb3fb1c892e241327496-image.png)
 
-### 代码（DFS）
+# ### 代码（DFS）
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -44,10 +44,10 @@ class Solution:
         return dfs(root, 1, d, v)
 
 
-```
-### 代码（DFS）
+# ```
+# ### 代码（DFS）
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -86,4 +86,4 @@ class Solution:
         return root
 
 
-```
+# ```

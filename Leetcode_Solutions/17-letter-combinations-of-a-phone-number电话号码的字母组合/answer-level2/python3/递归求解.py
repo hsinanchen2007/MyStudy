@@ -1,9 +1,9 @@
-### 解题思路
-递归求解，算出来子字符串的情况，然后与当前字符合并
+# ### 解题思路
+# 递归求解，算出来子字符串的情况，然后与当前字符合并
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     digitsDict = {
         '2': ['a', 'b', 'c'],
@@ -29,4 +29,4 @@ class Solution:
                 result.append(c+sub)
         
         return result
-```
+# ```

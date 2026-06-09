@@ -1,4 +1,4 @@
-```
+-- ```
 NOT IN
 
 mysql> select 5 not in (1,2,3,4,5);
@@ -16,10 +16,10 @@ mysql> select 5 in (1,2,3,4,5);
 +------------------+
 |                1 |
 +------------------+
-```
+-- ```
 
 
-```
+-- ```
 # Write your MySQL query statement below
 SELECT 
 Name AS Customers 
@@ -31,4 +31,4 @@ WHERE Id NOT IN (
                 FROM Orders #表名
                 GROUP BY CustomerId
                 );
-```
+-- ```

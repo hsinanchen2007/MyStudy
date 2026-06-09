@@ -1,6 +1,6 @@
-执行用时 :2 ms, 在所有 java 提交中击败了100.00%的用户
-内存消耗 :39 MB, 在所有 java 提交中击败了94.95%的用户
-```
+// 执行用时 :2 ms, 在所有 java 提交中击败了100.00%的用户
+// 内存消耗 :39 MB, 在所有 java 提交中击败了94.95%的用户
+// ```
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int front = 0;

@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/e414a9195f5b11045b386f41601c1aabe7c12bf4fe7781d0748faa9e288086d2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e414a9195f5b11045b386f41601c1aabe7c12bf4fe7781d0748faa9e288086d2-image.png)
 
-### 解题思路
-    代码里面注解说明的很详细了，有不明白的可以指出。
-### 代码
+// ### 解题思路
+//     代码里面注解说明的很详细了，有不明白的可以指出。
+// ### 代码
 
-```java
+// ```java
 
 class Solution {
     public boolean validPalindrome(String s) {
@@ -33,4 +33,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

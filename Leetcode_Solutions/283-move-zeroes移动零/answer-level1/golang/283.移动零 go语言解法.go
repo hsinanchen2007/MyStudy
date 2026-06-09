@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-用双指针法，把非零元素移动到前面，再把后面的位置全部填0就行了
+// 用双指针法，把非零元素移动到前面，再把后面的位置全部填0就行了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func moveZeroes(nums []int)  {
 	var p int = 0
 	for i := 0;i < len(nums);i++ {
@@ -17,4 +17,4 @@ func moveZeroes(nums []int)  {
 		nums[i] = 0
 	}
 }
-```
+// ```

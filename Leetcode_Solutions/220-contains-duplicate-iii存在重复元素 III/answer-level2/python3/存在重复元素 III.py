@@ -1,6 +1,6 @@
-分桶+hash表
+# 分桶+hash表
 
-```
+# ```
 class Solution:
     def containsNearbyAlmostDuplicate(self, nums: List[int], k: int, t: int) -> bool:
         
@@ -22,4 +22,4 @@ class Solution:
         #print(Set)
                 
         return False
-```
+# ```

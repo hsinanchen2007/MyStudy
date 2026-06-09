@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def computeArea(self, A: int, B: int, C: int, D: int, E: int, F: int, G: int, H: int) -> int:
         # bottom-left corner
@@ -24,4 +24,4 @@ class Solution:
         area2 = get_area(EG, FH)
         interaction = interval_x * interval_y
         return area1 + area2 - interaction
-```
+# ```

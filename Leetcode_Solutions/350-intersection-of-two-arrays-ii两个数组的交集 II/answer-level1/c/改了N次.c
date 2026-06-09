@@ -1,7 +1,7 @@
-我哭了，改了N次，终于过了，先排序再用双指针法，不过使用qsort函数的时候要注意compare函数的返回，因为测试点中的元素包括了signed int 的下限， 所以不能进行减法，只能通过判断来返回
-### 代码
+// 我哭了，改了N次，终于过了，先排序再用双指针法，不过使用qsort函数的时候要注意compare函数的返回，因为测试点中的元素包括了signed int 的下限， 所以不能进行减法，只能通过判断来返回
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -33,4 +33,4 @@ int* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* return
      *returnSize=count;
      return ans;
 }
-```
+// ```

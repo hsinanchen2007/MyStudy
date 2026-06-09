@@ -1,10 +1,10 @@
 
-![捕获.PNG](https://pic.leetcode-cn.com/28e2ca635fab841c61f650b58cbcd34b23a1cf8352ae904dbf5180aa37d9dbad-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/28e2ca635fab841c61f650b58cbcd34b23a1cf8352ae904dbf5180aa37d9dbad-%E6%8D%95%E8%8E%B7.PNG)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
@@ -28,4 +28,4 @@ public:
         return b;
     }
 };
-```
+// ```

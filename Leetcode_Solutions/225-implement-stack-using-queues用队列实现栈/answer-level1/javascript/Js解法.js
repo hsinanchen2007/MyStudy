@@ -1,14 +1,14 @@
-### 解题思路Js版
-stack数据结构中维护两个数组。在一个操作完成后，始终有一个数组为空，另一个不为空的数组，存储数据的顺序与栈的顺序相同。
-1. push: 向不为空的数组尾部push即可(对应queue的push)
-2. pop: 假设操作开始前a数组不为空，则将a数组的所有数据(除了最末一个)shift到b数组中(对应queue的pop front)，再将最后一个数据shift并返回即可
-3. top: 与pop同理。区别在于top并不将栈顶端元素移除。
-4. empty: a为空且b为空时，栈为空。所以应该返回`!a.length && !b.length` 或者 `!(a.length || b.length)`
+// ### 解题思路Js版
+// stack数据结构中维护两个数组。在一个操作完成后，始终有一个数组为空，另一个不为空的数组，存储数据的顺序与栈的顺序相同。
+// 1. push: 向不为空的数组尾部push即可(对应queue的push)
+// 2. pop: 假设操作开始前a数组不为空，则将a数组的所有数据(除了最末一个)shift到b数组中(对应queue的pop front)，再将最后一个数据shift并返回即可
+// 3. top: 与pop同理。区别在于top并不将栈顶端元素移除。
+// 4. empty: a为空且b为空时，栈为空。所以应该返回`!a.length && !b.length` 或者 `!(a.length || b.length)`
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -89,4 +89,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

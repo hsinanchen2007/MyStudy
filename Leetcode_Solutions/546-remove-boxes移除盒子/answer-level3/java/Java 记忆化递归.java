@@ -1,11 +1,11 @@
-### 解题思路
-dp[i][j][k] 表示消除从i - j之间的box能得到的最大分数
+// ### 解题思路
+// dp[i][j][k] 表示消除从i - j之间的box能得到的最大分数
 
-其中k表示在i之前有k个和boxes[i] 一样的box
+// 其中k表示在i之前有k个和boxes[i] 一样的box
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int[][][] dp;
     int[] boxes;
@@ -31,4 +31,4 @@ class Solution {
         return dp[i][j][k] = res;
     }
 }
-```
+// ```

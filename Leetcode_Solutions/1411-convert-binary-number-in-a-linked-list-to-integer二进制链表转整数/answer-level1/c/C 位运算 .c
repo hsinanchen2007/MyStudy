@@ -1,4 +1,4 @@
-```
+// ```
 int getDecimalValue(struct ListNode* head){
 	
 	if(head == NULL)
@@ -20,4 +20,4 @@ int getDecimalValue(struct ListNode* head){
 	
 	return sum;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-没什么好说的
+// ### 解题思路
+// 没什么好说的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String printBin(double num) {
         StringBuilder sb = new StringBuilder("0.");
@@ -16,4 +16,4 @@ class Solution {
         return num == 0 ? sb.toString() : "ERROR";
     }
 }
-```
+// ```

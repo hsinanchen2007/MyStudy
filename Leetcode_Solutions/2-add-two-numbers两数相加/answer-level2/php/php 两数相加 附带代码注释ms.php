@@ -1,9 +1,9 @@
-### 解题思路
-参考无的放矢的解题思路，并添加了备注。
+// ### 解题思路
+// 参考无的放矢的解题思路，并添加了备注。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -43,4 +43,4 @@ class Solution {
         return $sum;
     }
 }
-```
+// ```

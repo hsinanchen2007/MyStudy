@@ -1,10 +1,10 @@
-### 解题思路
-采用归并排序的方法
+// ### 解题思路
+// 采用归并排序的方法
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -95,4 +95,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
     r=MergeT(lists,0,listsSize-1);
     return r;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-我们用深度优先搜索标记每一个节点，
-对于每一个节点 node，它的父亲为 parent，深度为 d，
-我们将其记录到 map 中：pmap[node.val] = par 且 dmap[node.val] = d。
+// ### 解题思路
+// 我们用深度优先搜索标记每一个节点，
+// 对于每一个节点 node，它的父亲为 parent，深度为 d，
+// 我们将其记录到 map 中：pmap[node.val] = par 且 dmap[node.val] = d。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -32,4 +32,4 @@ func dfs(root,parent *TreeNode,d int,dm *map[int]int,pm *map[int]*TreeNode){
     dfs(root.Left,root,d+1,dm,pm)
     dfs(root.Right,root,d+1,dm,pm)
 }
-```
+// ```

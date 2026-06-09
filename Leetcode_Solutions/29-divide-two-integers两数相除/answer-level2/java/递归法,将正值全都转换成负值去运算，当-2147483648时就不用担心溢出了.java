@@ -1,9 +1,9 @@
-执行用时 :1 m, 在所有 Java 提交中击败了100.00%的用户
+// 执行用时 :1 m, 在所有 Java 提交中击败了100.00%的用户
 
-内存消耗 :33.8 MB, 在所有 Java 提交中击败了76.25%的用户
+// 内存消耗 :33.8 MB, 在所有 Java 提交中击败了76.25%的用户
 
-所有的乘除都转换成移位
-```
+// 所有的乘除都转换成移位
+// ```
 class Solution {
    public int divide(int dividend, int divisor) {
             int sign = 1;
@@ -31,7 +31,7 @@ class Solution {
 	    }
 
 }
-```
+// ```
 
 
 

@@ -1,9 +1,9 @@
-### 解题思路
-先排序,再确定左右边界.确定边界的方法就是从左(右)遍历,取第一次时两个数组值不等的下标.
+// ### 解题思路
+// 先排序,再确定左右边界.确定边界的方法就是从左(右)遍历,取第一次时两个数组值不等的下标.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findUnsortedSubarray(int[] nums) {
        int[] nums1=Arrays.copyOf(nums,nums.length);
@@ -29,4 +29,4 @@ class Solution {
         else return 0;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *p1, const void *p2)
 {
     int *a1 = *(int **)p1;
@@ -31,4 +31,4 @@ int maxEvents(int** events, int eventsSize, int* eventsColSize){
     }
     return count;
 }
-```
+// ```

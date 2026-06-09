@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"math"
 	"strconv"
@@ -35,4 +35,4 @@ func isPrime(n int) bool {
 	}
 	return true
 }
-```
+// ```

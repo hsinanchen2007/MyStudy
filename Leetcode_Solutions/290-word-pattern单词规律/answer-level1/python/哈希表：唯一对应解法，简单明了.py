@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def wordPattern(self, pattern, str):
         """
@@ -34,4 +34,4 @@ class Solution(object):
                 hash_table_words[word] = pattern[i]
                 
         return True
-```
+# ```

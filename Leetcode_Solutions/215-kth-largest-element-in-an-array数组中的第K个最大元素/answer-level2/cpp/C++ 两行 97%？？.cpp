@@ -1,5 +1,5 @@
-排序也能97%。。。
-```
+// 排序也能97%。。。
+// ```
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -7,4 +7,4 @@ public:
         return nums[k-1];
     }
 };
-```
+// ```

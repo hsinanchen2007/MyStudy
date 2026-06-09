@@ -1,4 +1,4 @@
-#define MAX 10    //字符集大小
+// #define MAX 10    //字符集大小
 typedef struct TrieNode
 {
     int nCount;//记录该字符出现次数    

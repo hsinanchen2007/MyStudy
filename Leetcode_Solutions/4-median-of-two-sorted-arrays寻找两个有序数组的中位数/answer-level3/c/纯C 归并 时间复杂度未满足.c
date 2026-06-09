@@ -1,5 +1,5 @@
-纯C 归并 时间复杂度未满足，初学练习
-```
+// 纯C 归并 时间复杂度未满足，初学练习
+// ```
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size){
     int uIndexOfM, uIndexOfN1, uIndexOfN2;
     double dMedianNum = 0;
@@ -35,4 +35,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
     
     return dMedianNum;
 }
-```
+// ```

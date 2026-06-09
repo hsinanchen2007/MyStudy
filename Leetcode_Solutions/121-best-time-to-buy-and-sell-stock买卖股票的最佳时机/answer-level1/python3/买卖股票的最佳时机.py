@@ -1,14 +1,14 @@
-### 解题思路
-总结：相当于找出逆序对相差最大的一对数。
-解法一：利用暴力解法时间复杂度为O(N^2)，时间爆了。
-解法二：
-两两相减，后减前，然后求连续的累计最大值
+# ### 解题思路
+# 总结：相当于找出逆序对相差最大的一对数。
+# 解法一：利用暴力解法时间复杂度为O(N^2)，时间爆了。
+# 解法二：
+# 两两相减，后减前，然后求连续的累计最大值
 
-![image.png](https://pic.leetcode-cn.com/5d370c2c56a99e86080aa9f1fbdcc74e324740dcf7596d79902251979315c462-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5d370c2c56a99e86080aa9f1fbdcc74e324740dcf7596d79902251979315c462-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         last_value = 0
@@ -24,4 +24,4 @@ class Solution:
                 last_value = now_value
         return last_value
 
-```
+# ```

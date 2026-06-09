@@ -1,6 +1,6 @@
-算法思路：插入排序，排序时的比较依据为 a+b和b+a的desc顺序
-代码：
-```
+// 算法思路：插入排序，排序时的比较依据为 a+b和b+a的desc顺序
+// 代码：
+// ```
     public String largestNumber(int[] nums) {
         List<Integer> result = new LinkedList<>();
         result.add(nums[0]);
@@ -32,4 +32,4 @@
         }
         return ret.toString();
     }
-```
+// ```

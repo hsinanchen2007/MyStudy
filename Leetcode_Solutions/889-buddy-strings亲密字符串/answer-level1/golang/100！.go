@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func buddyStrings(A string, B string) bool {
 	if !(len(A)== len(B)&& len(A)>1){
 		return false
@@ -48,4 +48,4 @@ func buddyStrings(A string, B string) bool {
 	return string(runeA)==B
 }
 
-```
+// ```

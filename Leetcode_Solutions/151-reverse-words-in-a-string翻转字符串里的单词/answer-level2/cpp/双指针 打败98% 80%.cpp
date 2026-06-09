@@ -1,4 +1,4 @@
-```
+// ```
 void rotateStr(string& s, int left, int right) {
         for (int i = left; i < (right+left+1) / 2; ++i) {
             std::swap(s[i], s[right+left-i]);    
@@ -42,4 +42,4 @@ void rotateStr(string& s, int left, int right) {
         rotateStr(s, left, right-1);
         return s;
     }
-```
+// ```

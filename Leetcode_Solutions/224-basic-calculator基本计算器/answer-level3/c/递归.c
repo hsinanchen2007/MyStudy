@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/04f03188e8ce34e2f95d9e46c8914b9d60378e2ce6b213ca263c1403d93fe29d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/04f03188e8ce34e2f95d9e46c8914b9d60378e2ce6b213ca263c1403d93fe29d-image.png)
 
-对每一个“(a+b-c)”采用递归处理，返回括号作用域里计算出来的值以及整个括号的整体偏移，返回后，外层需要处理返回值，并将偏移置到右括号后面的一个字符，整体上时间复杂度为O(n)。
+// 对每一个“(a+b-c)”采用递归处理，返回括号作用域里计算出来的值以及整个括号的整体偏移，返回后，外层需要处理返回值，并将偏移置到右括号后面的一个字符，整体上时间复杂度为O(n)。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int GetNum(char *c, int *inc)
 {
     int a = 0;
@@ -64,4 +64,4 @@ int calculate(char *s)
     }
     return Cal(s, &inc);
 }
-```
+// ```

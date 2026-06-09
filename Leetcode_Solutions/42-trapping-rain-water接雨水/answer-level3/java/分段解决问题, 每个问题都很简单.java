@@ -1,11 +1,11 @@
-1. 将题目给的数组分为三段(或两段) , 方法是依次从左边到右边寻找最大值. 
-2. 计算左边部分, 设置left指针, 如果height[left]==0, 则直接移动left.
-  从left 到 左边最大值索引进行遍历, 如果height[i]>=height[left] , 从left到i再进行一次遍历, height[left]-height[j] 的值就是蓄水部分, 然后left=i;
-3. 中间部分最简单, 直接两个最大值之间部分, 用最大值减去每个数组项, 都是蓄水部分.
-4. 右边部分是左边部分镜像. 
+// 1. 将题目给的数组分为三段(或两段) , 方法是依次从左边到右边寻找最大值. 
+// 2. 计算左边部分, 设置left指针, 如果height[left]==0, 则直接移动left.
+//   从left 到 左边最大值索引进行遍历, 如果height[i]>=height[left] , 从left到i再进行一次遍历, height[left]-height[j] 的值就是蓄水部分, 然后left=i;
+// 3. 中间部分最简单, 直接两个最大值之间部分, 用最大值减去每个数组项, 都是蓄水部分.
+// 4. 右边部分是左边部分镜像. 
 
 
-```java []
+// ```java []
 public static void main(String[] args) {
         S42 s42 = new S42();
       int[] arr = new int[]{0,1,0,2,1,0,1,3,2,1,2,1};
@@ -83,4 +83,4 @@ public static void main(String[] args) {
         }
         return maxIndex;
     }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-P 数组是字符串以P结尾
-L 数组是字符串以L结尾
-*P[i] = P[i - 1] + L[i - 1]*
-*L[i] = P[i - 1] + P[i - 2]*
+// P 数组是字符串以P结尾
+// L 数组是字符串以L结尾
+// *P[i] = P[i - 1] + L[i - 1]*
+// *L[i] = P[i - 1] + P[i - 2]*
 
-最后一个for循环是为了插入A
-### 代码
+// 最后一个for循环是为了插入A
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int checkRecord(int n) {
         int mod = 1000000007;
@@ -33,4 +33,4 @@ class Solution {
         return (int)res;
     }
 }
-```
+// ```

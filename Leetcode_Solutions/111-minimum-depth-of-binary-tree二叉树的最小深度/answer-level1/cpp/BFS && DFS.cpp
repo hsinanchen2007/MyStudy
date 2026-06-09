@@ -1,4 +1,4 @@
-```
+// ```
 // BFS
     int minDepth(TreeNode* root) {
         if(!root) return 0;
@@ -42,4 +42,4 @@
         if(root->left) dfs(root->left, level+1);
         if(root->right) dfs(root->right, level+1);
     }
-```
+// ```

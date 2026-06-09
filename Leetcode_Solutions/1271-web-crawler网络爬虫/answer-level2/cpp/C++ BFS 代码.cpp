@@ -1,8 +1,8 @@
-BFS 遍历，通过set来判断是否访问过url，双端队列按照获取的顺序进行访问
+// BFS 遍历，通过set来判断是否访问过url，双端队列按照获取的顺序进行访问
 
-需要注意不相同域名的url无需在去getUrls访问，但是我看题意没看出这个意思，提交报错后才发现这个问题。
+// 需要注意不相同域名的url无需在去getUrls访问，但是我看题意没看出这个意思，提交报错后才发现这个问题。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string getHostname(string& url) {
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

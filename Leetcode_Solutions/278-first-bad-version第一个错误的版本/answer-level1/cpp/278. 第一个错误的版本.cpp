@@ -1,5 +1,5 @@
-最基本的二分法
-```
+// 最基本的二分法
+// ```
 bool isBadVersion(int version);
 
 class Solution {
@@ -23,4 +23,4 @@ public:
         return low;
     }
 };
-```
+// ```

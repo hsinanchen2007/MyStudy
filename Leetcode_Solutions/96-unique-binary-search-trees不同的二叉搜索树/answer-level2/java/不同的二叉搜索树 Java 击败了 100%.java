@@ -1,10 +1,10 @@
-核心是这一行
-result += result1 * result2;
+// 核心是这一行
+// result += result1 * result2;
 
-memo是用于记录长度为n时有几种排列
-for循环更换根节点，两边分割开的数字排列的数目 只跟数字的多少有关
+// memo是用于记录长度为n时有几种排列
+// for循环更换根节点，两边分割开的数字排列的数目 只跟数字的多少有关
 
-```java
+// ```java
     private int[] memo;
 
     public int numTrees(int n) {
@@ -47,4 +47,4 @@ for循环更换根节点，两边分割开的数字排列的数目 只跟数字�
 
         return result;
     }
-```
+// ```

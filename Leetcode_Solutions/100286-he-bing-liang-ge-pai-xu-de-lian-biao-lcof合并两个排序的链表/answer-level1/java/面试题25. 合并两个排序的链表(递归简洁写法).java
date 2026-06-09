@@ -1,11 +1,11 @@
-### 解题思路
-注意几点：
-1.设一个头节点，指向合并之后的链表头
-2.设一个合并指针，用于指向最新合并如注释here处
+// ### 解题思路
+// 注意几点：
+// 1.设一个头节点，指向合并之后的链表头
+// 2.设一个合并指针，用于指向最新合并如注释here处
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return cur.next;
     }
 }
-```
+// ```

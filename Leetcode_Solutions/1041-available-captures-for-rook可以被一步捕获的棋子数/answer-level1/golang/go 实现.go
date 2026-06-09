@@ -1,4 +1,4 @@
-```
+// ```
 func numRookCaptures(board [][]byte) int {
 	var (
 		cnt, start, end int
@@ -33,4 +33,4 @@ func numRookCaptures(board [][]byte) int {
 	}
 	return cnt
 }
-```
+// ```

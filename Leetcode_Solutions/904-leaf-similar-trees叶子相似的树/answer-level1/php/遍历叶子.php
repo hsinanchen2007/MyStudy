@@ -1,9 +1,9 @@
 
-#### 通过遍历叶子，比较俩棵树的叶子形成的字符串是否相等。
+// #### 通过遍历叶子，比较俩棵树的叶子形成的字符串是否相等。
 
-#### PHP代码实现
+// #### PHP代码实现
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         return $this->getLeaf($root->right, $str);
     }
 }
-```
+// ```

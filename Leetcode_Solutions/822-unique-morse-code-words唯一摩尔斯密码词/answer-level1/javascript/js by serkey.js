@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var uniqueMorseRepresentations = function (words) {
     let result = [];
     let morse = [".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."];
@@ -15,4 +15,4 @@ var uniqueMorseRepresentations = function (words) {
     });
     return result.length;
 };
-```
+// ```

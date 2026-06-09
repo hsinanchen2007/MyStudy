@@ -1,9 +1,9 @@
-### 解题思路
-采用排序+双指针实现，思路参考 吴彦祖 的题解，用C++实现。
+// ### 解题思路
+// 采用排序+双指针实现，思路参考 吴彦祖 的题解，用C++实现。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -45,4 +45,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-1，由于给定矩阵中的整数范围为 [0, 255]。因此可以用8个bit位来存储像素原始值
-2，由于周围的矩阵个数最多为8，因此可以用4个bit位来存储周围点个数
-3，由于255 * 8 < 2^12，因此可以用12个bit来存储周围点的加和
-以上一共可以用到24个bit，int类型完全满足需求。
-```
+// 1，由于给定矩阵中的整数范围为 [0, 255]。因此可以用8个bit位来存储像素原始值
+// 2，由于周围的矩阵个数最多为8，因此可以用4个bit位来存储周围点个数
+// 3，由于255 * 8 < 2^12，因此可以用12个bit来存储周围点的加和
+// 以上一共可以用到24个bit，int类型完全满足需求。
+// ```
 class Solution {
 public:
     int dirs[8][2] = {
@@ -39,5 +39,5 @@ public:
         return M;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/e8d8b708be2035efeeaa47ba7d5cef7a99e8a96a69d79f18304e5d7f9c036a60-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e8d8b708be2035efeeaa47ba7d5cef7a99e8a96a69d79f18304e5d7f9c036a60-image.png)

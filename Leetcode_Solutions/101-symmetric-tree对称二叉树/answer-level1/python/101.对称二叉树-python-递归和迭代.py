@@ -1,5 +1,5 @@
-题解一（递归）:
-```
+# 题解一（递归）:
+# ```
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -22,9 +22,9 @@ class Solution:
         l=self.isMirror(p.left,q.right)
         r=self.isMirror(q.left,p.right)
         return p.val==q.val and l and r
-```
-题解二（迭代）：
-```
+# ```
+# 题解二（迭代）：
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -52,4 +52,4 @@ class Solution:
                 deq.append((p.left,q.right))
                 deq.append((p.right,q.left))
         return True
-```
+# ```

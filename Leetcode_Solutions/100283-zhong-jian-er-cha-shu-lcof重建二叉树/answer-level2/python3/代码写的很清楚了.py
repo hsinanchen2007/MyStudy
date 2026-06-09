@@ -1,11 +1,11 @@
-### 解题思路
-1.不会的话可以画图来理解会好很多
-2.`关键是找到中序序列中的前序的首元素的索引，然后对root的左子树和右子树进行遍历`
-3.`最后返回root即可`
+# ### 解题思路
+# 1.不会的话可以画图来理解会好很多
+# 2.`关键是找到中序序列中的前序的首元素的索引，然后对root的左子树和右子树进行遍历`
+# 3.`最后返回root即可`
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution(object):
         #递归遍历右子树
         root.right = self.buildTree(preorder[pos+1:],inorder[pos+1:])
         return root
-```
+# ```

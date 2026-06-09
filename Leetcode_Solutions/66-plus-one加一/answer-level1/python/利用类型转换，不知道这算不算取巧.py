@@ -1,5 +1,5 @@
-大概思路就是将list转化成整数，以方便进行计算，再转化回list
-```
+# 大概思路就是将list转化成整数，以方便进行计算，再转化回list
+# ```
 class Solution(object):
     def plusOne(self, digits):
         s = ''
@@ -10,4 +10,4 @@ class Solution(object):
         re = str(num)
         re = list(re)
         return map(int, re)
-```
+# ```

@@ -1,8 +1,8 @@
-首先明确队列和栈的区别就是出队与出栈的顺序是相反的，那么我们可以采用另一个栈将出栈顺序再次翻转就可以让其出栈顺序与出队顺序一致。
-所以采用两个栈 push_stack 和 pop_push，其中，push_stack 只负责入队操作，即只有在 push 时，将 value 压入该栈，pop_stack 只负责出队操作，即在 pop 或 peek 时，从该栈弹出元素，但是由于该栈只出不进，则会导致该栈为空的情况，这时我们只需要将 push_stack 中的元素依次弹出并压入 pop_stack 中即可。
-![图片.png](https://pic.leetcode-cn.com/22bddbae8c24e32242bf7d6aef7e7752ef54968df3f4547f6bae7e7526f4f60b-%E5%9B%BE%E7%89%87.png)
+// 首先明确队列和栈的区别就是出队与出栈的顺序是相反的，那么我们可以采用另一个栈将出栈顺序再次翻转就可以让其出栈顺序与出队顺序一致。
+// 所以采用两个栈 push_stack 和 pop_push，其中，push_stack 只负责入队操作，即只有在 push 时，将 value 压入该栈，pop_stack 只负责出队操作，即在 pop 或 peek 时，从该栈弹出元素，但是由于该栈只出不进，则会导致该栈为空的情况，这时我们只需要将 push_stack 中的元素依次弹出并压入 pop_stack 中即可。
+// ![图片.png](https://pic.leetcode-cn.com/22bddbae8c24e32242bf7d6aef7e7752ef54968df3f4547f6bae7e7526f4f60b-%E5%9B%BE%E7%89%87.png)
 
-```
+// ```
 class MyQueue {
 public:
     /** Initialize your data structure here. */
@@ -67,4 +67,4 @@ private:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
-```
+// ```

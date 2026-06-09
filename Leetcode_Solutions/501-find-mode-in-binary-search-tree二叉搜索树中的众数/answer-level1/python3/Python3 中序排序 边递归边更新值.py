@@ -1,5 +1,5 @@
-中序遍历， 遇到次数大的就更新列表，相等就加入列表。
-```python3 []
+# 中序遍历， 遇到次数大的就更新列表，相等就加入列表。
+# ```python3 []
 class Solution:
     def __init__(self):
         self.cnt = 0
@@ -36,4 +36,4 @@ class Solution:
         
         zhong(root)
         return r
-```
+# ```

@@ -1,13 +1,13 @@
-![微信图片_20200224002749.png](https://pic.leetcode-cn.com/50258c398f318f62327a292a6cbbfcbbebf67569c302896107e83905579aa961-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200224002749.png)
+// ![微信图片_20200224002749.png](https://pic.leetcode-cn.com/50258c398f318f62327a292a6cbbfcbbebf67569c302896107e83905579aa961-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200224002749.png)
 
 
-# 思路
-略。毕竟我非主流。
-主流是动态规划，想要跑得快用动归吧。
-[相关题目题解](https://leetcode-cn.com/problems/largest-1-bordered-square/solution/xing-yu-xing-zhi-jian-yu-cao-zuo-by-gfu/)
+// # 思路
+// 略。毕竟我非主流。
+// 主流是动态规划，想要跑得快用动归吧。
+// [相关题目题解](https://leetcode-cn.com/problems/largest-1-bordered-square/solution/xing-yu-xing-zhi-jian-yu-cao-zuo-by-gfu/)
 
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     private int global_row, global_col;
     private int[][] global_matrix;
@@ -75,4 +75,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-**看了这篇文章之后几乎可以解决95%的位运算的题目**
-[https://zhuanlan.zhihu.com/p/102277869]()
-复制链接到浏览器打开
+// ### 解题思路
+// **看了这篇文章之后几乎可以解决95%的位运算的题目**
+// [https://zhuanlan.zhihu.com/p/102277869]()
+// 复制链接到浏览器打开
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
@@ -17,4 +17,4 @@ public class Solution {
         return count;
     }
 }
-```
+// ```

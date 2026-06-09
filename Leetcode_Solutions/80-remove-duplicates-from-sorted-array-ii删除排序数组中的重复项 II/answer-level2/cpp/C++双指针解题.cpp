@@ -1,4 +1,4 @@
-```
+// ```
 
 
 class Solution {
@@ -22,7 +22,7 @@ public:
         
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/c660f7f1008e0c518901f8a39a8ef72e7d800f68bcde163de5748b4e19a57297-image.png)
-效果还不错
+// ![image.png](https://pic.leetcode-cn.com/c660f7f1008e0c518901f8a39a8ef72e7d800f68bcde163de5748b4e19a57297-image.png)
+// 效果还不错

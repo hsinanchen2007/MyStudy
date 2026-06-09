@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int maxNumberOfBalloons(string text) {
@@ -24,5 +24,5 @@ public:
         return count;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/dbc394a3b0749b966dc72b191418bd8301369d0f22e9a75d648d565bb9786f08-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/dbc394a3b0749b966dc72b191418bd8301369d0f22e9a75d648d565bb9786f08-image.png)

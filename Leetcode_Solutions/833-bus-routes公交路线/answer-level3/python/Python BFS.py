@@ -1,7 +1,7 @@
-先统计所有的站台能等到哪些公交车,然后利用队列开始BFS搜索
-参考了bilibili上花花酱的视频中c++代码
-时间不是很快
-```python
+# 先统计所有的站台能等到哪些公交车,然后利用队列开始BFS搜索
+# 参考了bilibili上花花酱的视频中c++代码
+# 时间不是很快
+# ```python
 import queue
 class Solution:
     def numBusesToDestination(self, routes: List[List[int]], S: int, T: int) -> int:
@@ -32,4 +32,4 @@ class Solution:
                         q.put(stop)
                         # print(stop)
         return -1
-```
+# ```

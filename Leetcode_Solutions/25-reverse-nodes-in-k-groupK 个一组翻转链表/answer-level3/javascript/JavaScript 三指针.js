@@ -1,4 +1,4 @@
-```
+// ```
 function ListLength(l) {
     let p = l;
     let n = 0;
@@ -31,4 +31,4 @@ function ListLength(l) {
         }
         return newhead.next;
     }; 
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1、前序遍历，根>左>右
-2、栈，后入先出，维护栈，依次压入右节点、左节点
-3、依次弹出，循环迭代至栈为空
+# ### 解题思路
+# 1、前序遍历，根>左>右
+# 2、栈，后入先出，维护栈，依次压入右节点、左节点
+# 3、依次弹出，循环迭代至栈为空
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution(object):
             if node.left:
                 stacks.append(node.left)
         return res
-```
+# ```

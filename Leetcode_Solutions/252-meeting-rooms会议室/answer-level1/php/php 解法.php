@@ -1,4 +1,4 @@
-```
+// ```
 function canAttendMeetings($intervals) {
     sort($intervals);
     $tmp = PHP_INT_MIN;
@@ -8,4 +8,4 @@ function canAttendMeetings($intervals) {
     }
     return true;
 }
-```
+// ```

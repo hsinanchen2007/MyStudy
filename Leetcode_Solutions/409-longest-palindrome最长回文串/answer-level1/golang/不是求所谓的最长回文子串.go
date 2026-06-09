@@ -1,10 +1,10 @@
-### 解题思路
-* 认真读题，不是求最长回文子串的长度
-* 注意什么时候长度是奇数
+// ### 解题思路
+// * 认真读题，不是求最长回文子串的长度
+// * 注意什么时候长度是奇数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) int {
   cntHash := make(map[rune]int)
   maxCnt := 0
@@ -29,4 +29,4 @@ func longestPalindrome(s string) int {
   return maxCnt
 
 }
-```
+// ```

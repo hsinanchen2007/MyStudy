@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-unordered_map和map类似，都是存储的key-value的值，可以通过key快速索引到value。不同的是unordered_map不会根据key的大小进行排序
-所以使用map<char,int>
+// ### 解题思路
+// 此处撰写解题思路
+// unordered_map和map类似，都是存储的key-value的值，可以通过key快速索引到value。不同的是unordered_map不会根据key的大小进行排序
+// 所以使用map<char,int>
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int mintimes(string str){
@@ -39,4 +39,4 @@ public:
         return res;
     }
 };
-```
+// ```

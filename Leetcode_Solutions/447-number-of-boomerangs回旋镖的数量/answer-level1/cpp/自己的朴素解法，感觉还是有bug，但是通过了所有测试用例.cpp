@@ -1,8 +1,8 @@
-![1586059821(1).jpg](https://pic.leetcode-cn.com/b9cecd39315bded72a713e192515163af2d5af350fa9e5ee864527dd8d1b971c-1586059821\(1\).jpg)
+// ![1586059821(1).jpg](https://pic.leetcode-cn.com/b9cecd39315bded72a713e192515163af2d5af350fa9e5ee864527dd8d1b971c-1586059821\(1\).jpg)
 
-欢迎提出宝贵意见。
+// 欢迎提出宝贵意见。
 
-```
+// ```
 class Solution {
 public:
     int numberOfBoomerangs(vector<vector<int>>& points) {
@@ -33,5 +33,5 @@ public:
         return 2*sum_;
     }
 };
-```
+// ```
 

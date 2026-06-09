@@ -1,5 +1,5 @@
-使用strtok函数以'/'为分隔符全部分隔开，然后判断每一个子子字符串。
-```
+// 使用strtok函数以'/'为分隔符全部分隔开，然后判断每一个子子字符串。
+// ```
 char * simplifyPath(char * path){
     const char token[2] = "/";
     char *subPath, *res;
@@ -42,4 +42,4 @@ char * simplifyPath(char * path){
     }
     return res;
 }
-```
+// ```

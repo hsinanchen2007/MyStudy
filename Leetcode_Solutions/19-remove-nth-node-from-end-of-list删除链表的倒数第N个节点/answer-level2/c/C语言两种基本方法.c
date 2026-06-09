@@ -1,5 +1,5 @@
-方法一：遍历两次
-```
+// 方法一：遍历两次
+// ```
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     if (head == NULL) return NULL;
     struct ListNode *curr = head;
@@ -33,9 +33,9 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
 
     return dummy->next;
 }
-```
-方法二：双指针法（学习！）
-```
+// ```
+// 方法二：双指针法（学习！）
+// ```
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     if (head == NULL) return NULL;
     struct ListNode *dummy;
@@ -58,4 +58,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     
     return dummy->next;
 }
-```
+// ```

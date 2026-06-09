@@ -1,9 +1,9 @@
-### 解题思路
-copy 剑指offer [对应题的题解面试题67](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/solution/gelthin-kong-ge-zi-fu-de-boolzhi-wei-true-by-gelth/)
+# ### 解题思路
+# copy 剑指offer [对应题的题解面试题67](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/solution/gelthin-kong-ge-zi-fu-de-boolzhi-wei-true-by-gelth/)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, str: str) -> int:
         def str2num(A):
@@ -40,4 +40,4 @@ class Solution:
             return -2**31
         else:
             return result
-```
+# ```

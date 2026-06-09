@@ -1,4 +1,4 @@
-```
+// ```
     public IList<int> SelfDividingNumbers(int left, int right) {
             List<int> forreturn = new List<int>();
             for (int i = left; i <= right; i++)
@@ -46,8 +46,8 @@
             }
             return forreturn;
     }
-```
-```
+// ```
+// ```
     public IList<int> SelfDividingNumbers(int left, int right) 
     {
         List<int> forreturn = new List<int>();
@@ -91,4 +91,4 @@
         remainder = num % 10;
         return quotient;
     }
-```
+// ```

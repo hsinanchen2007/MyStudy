@@ -1,6 +1,6 @@
-![139DC643-1475-44E2-8FE7-D38B9F606A82.jpeg](https://pic.leetcode-cn.com/a75683fd94fab43bd83e6733f19e80f6cd6f322d268db302c5c036a99a1d93b4-139DC643-1475-44E2-8FE7-D38B9F606A82.jpeg)
+// ![139DC643-1475-44E2-8FE7-D38B9F606A82.jpeg](https://pic.leetcode-cn.com/a75683fd94fab43bd83e6733f19e80f6cd6f322d268db302c5c036a99a1d93b4-139DC643-1475-44E2-8FE7-D38B9F606A82.jpeg)
 
-```
+// ```
 //使用hash存储
 struct HashEntry {
     int key;
@@ -74,4 +74,4 @@ int maxNumberOfFamilies(int n, int** reservedSeats, int reservedSeatsSize, int* 
 
     return returnVal + maxNum;
 }
-```
+// ```

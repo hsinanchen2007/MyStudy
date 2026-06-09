@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string parseTo(int h1,int h2,int m1,int m2){
@@ -42,4 +42,4 @@ public:
         return parseTo((*it/60)/10,(*it/60)%10,(*it%60)/10,(*it%60)%10); 
     }
 };
-```
+// ```

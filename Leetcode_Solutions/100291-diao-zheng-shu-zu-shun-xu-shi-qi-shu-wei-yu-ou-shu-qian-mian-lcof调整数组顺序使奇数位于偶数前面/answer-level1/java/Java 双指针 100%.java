@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] exchange(int[] nums) {
         if (nums == null || nums.length == 0 || nums.length == 1)
@@ -20,4 +20,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

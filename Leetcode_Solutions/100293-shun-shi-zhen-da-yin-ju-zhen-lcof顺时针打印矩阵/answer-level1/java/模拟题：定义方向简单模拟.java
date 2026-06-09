@@ -1,29 +1,29 @@
-## 面试题29.顺时针打印矩阵
+// ## 面试题29.顺时针打印矩阵
 
-### Information
+// ### Information
 
-* TIME: 2020/02/15
-* LINK: [Click Here](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)
-* TAG: 
+// * TIME: 2020/02/15
+// * LINK: [Click Here](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)
+// * TAG: 
 
-### Description
+// ### Description
 
-> 输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字。
+// > 输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入：matrix = [[1,2,3],[4,5,6],[7,8,9]]
 输出：[1,2,3,6,9,8,7,4,5]
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 通过观察，发现每次走完平行方向/垂直方向后，对应方向的步数就会`-1`
->
-> 定义方向二维数组，模拟顺时针走法
+// > 通过观察，发现每次走完平行方向/垂直方向后，对应方向的步数就会`-1`
+// >
+// > 定义方向二维数组，模拟顺时针走法
 
-```java
+// ```java
 class Solution {
     public int[] spiralOrder(int[][] matrix) {
         int[][] dirct = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
@@ -59,23 +59,23 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/4663785087f8a0874601f6d014a337b35b23614d2105add29bc318faa63b56ad-file_1581754356940)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/4663785087f8a0874601f6d014a337b35b23614d2105add29bc318faa63b56ad-file_1581754356940)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

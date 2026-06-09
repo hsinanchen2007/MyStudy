@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasAlternatingBits(int n) {
@@ -13,4 +13,4 @@ public:
         return true;
     }
 };
-```
+// ```

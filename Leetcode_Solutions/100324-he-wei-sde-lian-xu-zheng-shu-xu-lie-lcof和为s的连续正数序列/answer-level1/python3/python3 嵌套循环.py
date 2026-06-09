@@ -1,9 +1,9 @@
-### 解题思路
-刚开始学python，只会循环，嵌套了两层，有没有大佬给优化一下，感激不尽
+# ### 解题思路
+# 刚开始学python，只会循环，嵌套了两层，有没有大佬给优化一下，感激不尽
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         haha = []
@@ -36,4 +36,4 @@ class Solution:
         return haha
 
 
-```
+# ```

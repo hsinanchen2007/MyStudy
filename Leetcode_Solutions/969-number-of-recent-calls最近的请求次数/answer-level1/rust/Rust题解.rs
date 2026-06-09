@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 struct RecentCounter {
     time: Vec<i32>,
 }
@@ -32,5 +32,5 @@ impl RecentCounter {
  * let obj = RecentCounter::new();
  * let ret_1: i32 = obj.ping(t);
  */
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

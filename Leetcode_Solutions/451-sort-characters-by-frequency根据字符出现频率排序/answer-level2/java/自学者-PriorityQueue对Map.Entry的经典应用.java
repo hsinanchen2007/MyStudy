@@ -1,11 +1,11 @@
-### 解题思路
-* 词频记录一般会想到采用Map
-* 如果对map排序可能会有点难度，优先队列针对map的Entry对象排序一般很难想到
-* 根据词频还原原单词也是一个技术活
+// ### 解题思路
+// * 词频记录一般会想到采用Map
+// * 如果对map排序可能会有点难度，优先队列针对map的Entry对象排序一般很难想到
+// * 根据词频还原原单词也是一个技术活
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String frequencySort(String s) {
         Map<Character,Integer> map = new HashMap<>();
@@ -30,4 +30,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1、每个数组的第一个值和最后一个值才有意义
-2、每次比较有四个数字：当前arrays[i]数组的最大、最小值tmpMax、tmpMin；以及 前面所有数组arrays[0至i-1]的最大值max、最小值min
-3、结果res = Math.max(max-tmpMin, tmpMax-min, res) 三个值中最大的那个
-### 代码
+// ### 解题思路
+// 1、每个数组的第一个值和最后一个值才有意义
+// 2、每次比较有四个数字：当前arrays[i]数组的最大、最小值tmpMax、tmpMin；以及 前面所有数组arrays[0至i-1]的最大值max、最小值min
+// 3、结果res = Math.max(max-tmpMin, tmpMax-min, res) 三个值中最大的那个
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} arrays
  * @return {number}
@@ -20,4 +20,4 @@ var maxDistance = function(arrays) {
     }
     return res
 };
-```
+// ```

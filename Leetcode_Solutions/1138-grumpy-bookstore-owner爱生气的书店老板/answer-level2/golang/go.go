@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 func maxSatisfied(customers []int, grumpy []int, X int) int {
     temp, sum := 0, 0 
     for i:=0; i < len(customers); i++ { 
@@ -30,4 +30,4 @@ func maxSatisfied(customers []int, grumpy []int, X int) int {
 
     return max
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-![截屏2020-03-10下午6.47.42.png](https://pic.leetcode-cn.com/7317de3b9afd56426c2ac6cce9989ddc6d6e421f1810e9d75f2c4fde7134ccc6-%E6%88%AA%E5%B1%8F2020-03-10%E4%B8%8B%E5%8D%886.47.42.png)
-我debug多次还是错了一次，太粗心了，这题没啥好说的，注意判断就好了
+// ### 解题思路
+// ![截屏2020-03-10下午6.47.42.png](https://pic.leetcode-cn.com/7317de3b9afd56426c2ac6cce9989ddc6d6e421f1810e9d75f2c4fde7134ccc6-%E6%88%AA%E5%B1%8F2020-03-10%E4%B8%8B%E5%8D%886.47.42.png)
+// 我debug多次还是错了一次，太粗心了，这题没啥好说的，注意判断就好了
 
-[前值，中值，后值]
-看注释，这题不应该是简单题，起码判断条件就很多
+// [前值，中值，后值]
+// 看注释，这题不应该是简单题，起码判断条件就很多
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkPossibility(int[] nums) {
         int len = nums.length;
@@ -48,5 +48,5 @@ class Solution {
         return true;
     }
 }
-```
-### 时间复杂度 O(N)
+// ```
+// ### 时间复杂度 O(N)

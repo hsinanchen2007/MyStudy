@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -18,5 +18,5 @@ public:
         return x;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/8fdbe927d6563f69c4f895c6253c50db77e6511c85079298186155cdf8ee9cc8-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/8fdbe927d6563f69c4f895c6253c50db77e6511c85079298186155cdf8ee9cc8-image.png)

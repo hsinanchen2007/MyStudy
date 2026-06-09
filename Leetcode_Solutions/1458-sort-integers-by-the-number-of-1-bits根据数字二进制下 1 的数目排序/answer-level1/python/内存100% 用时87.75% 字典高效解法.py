@@ -1,9 +1,9 @@
-### 解题思路
-将每个数的位置对应一个2进制含1的个数（不能用数作为键，因为arr中可能有重复的数）然后排序即可
+# ### 解题思路
+# 将每个数的位置对应一个2进制含1的个数（不能用数作为键，因为arr中可能有重复的数）然后排序即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortByBits(self, arr: List[int]) -> List[int]:
         adict = {}
@@ -14,4 +14,4 @@ class Solution:
         for i in list1:
             result.append(arr[i[0]])
         return result
-```
+# ```

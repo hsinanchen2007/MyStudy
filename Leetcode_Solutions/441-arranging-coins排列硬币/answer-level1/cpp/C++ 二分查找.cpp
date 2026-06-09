@@ -1,6 +1,6 @@
-参考二分搜索模板 [leetcode35号问题解析](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)
+// 参考二分搜索模板 [leetcode35号问题解析](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)
 
-```C++
+// ```C++
 class Solution {
 public:
     int arrangeCoins(int n) {
@@ -17,5 +17,5 @@ public:
         return left;
     }
 };
-```
+// ```
 

@@ -1,14 +1,14 @@
-### 解题思路
+# ### 解题思路
 
-输入: "the sky is blue"
-输出: "blue is sky the"
+# 输入: "the sky is blue"
+# 输出: "blue is sky the"
 
-####  方法一：
-**0.按空格分割成单词列表；
-1.末位单词+空格 
-2.最后一个单词末位不加空格**
+# ####  方法一：
+# **0.按空格分割成单词列表；
+# 1.末位单词+空格 
+# 2.最后一个单词末位不加空格**
 
-```python3 []
+# ```python3 []
 class Solution:
     def reverseWords(self, s: str) -> str:
         """按空格分割成单词列表，1.末位单词+空格 2.最后一个单词末位不加空格"""
@@ -20,22 +20,22 @@ class Solution:
             res += ls[len(ls) - 1 - i] + " "  # 最后一个单词 + 空格  
         res += ls[0] # 末位不加空格
         return res
-```
-```python3 []
+# ```
+# ```python3 []
 class Solution:
     def reverseWords(self, s: str) -> str:
         return " ".join(s.split()[::-1])
-```
+# ```
 
-####  方法二：
-**1.反转每个单词：eht yks si eulb
-2.反转整个字符：blue is sky the**
+# ####  方法二：
+# **1.反转每个单词：eht yks si eulb
+# 2.反转整个字符：blue is sky the**
 
-### 代码
+# ### 代码
 
 
 
-```cpp []
+# ```cpp []
 class Solution {
 public:
     string reverseWords(string s) {
@@ -54,5 +54,5 @@ public:
         return s;
     }
 };
-```
+# ```
 

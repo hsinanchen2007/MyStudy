@@ -1,10 +1,10 @@
-### 解题思路
-参考官方解法的双指针思路；
-注意 return it1 - nums.begin() +1；  it1 - nums.begin()返回的是长度
+// ### 解题思路
+// 参考官方解法的双指针思路；
+// 注意 return it1 - nums.begin() +1；  it1 - nums.begin()返回的是长度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) 
@@ -28,4 +28,4 @@ public:
     }
 
 };
-```
+// ```

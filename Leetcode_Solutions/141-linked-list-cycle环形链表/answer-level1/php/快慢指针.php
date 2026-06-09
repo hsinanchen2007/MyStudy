@@ -1,11 +1,11 @@
-### 解题思路
-1. slow为慢指针，fast为快指针；
-2. 循环结束条件是直到fast指向null，这表明该链表是无环链表；
-3. 循环内部，slow指针，每次往前走一步，fast指针每次往前走两步，走啊走，走啊走，如果fast走完原来的链表，又来到了slow的身边，那么说明，这个链表是有环链表。
+// ### 解题思路
+// 1. slow为慢指针，fast为快指针；
+// 2. 循环结束条件是直到fast指向null，这表明该链表是无环链表；
+// 3. 循环内部，slow指针，每次往前走一步，fast指针每次往前走两步，走啊走，走啊走，如果fast走完原来的链表，又来到了slow的身边，那么说明，这个链表是有环链表。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

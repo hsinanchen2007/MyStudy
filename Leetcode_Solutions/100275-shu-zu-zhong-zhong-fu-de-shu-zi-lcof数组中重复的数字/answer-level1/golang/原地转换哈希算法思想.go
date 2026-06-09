@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findRepeatNumber(nums []int) int {
     for i := 0; i < len(nums); i++ {
         for i != nums[i] {
@@ -15,4 +15,4 @@ func findRepeatNumber(nums []int) int {
     }
     return -1
 }
-```
+// ```

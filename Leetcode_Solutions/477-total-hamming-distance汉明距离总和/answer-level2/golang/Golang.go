@@ -1,10 +1,10 @@
-纵向比较，32位对每一位来说，两两比较后的汉明距离是 (1 的个数) * (0 的个数)
+// 纵向比较，32位对每一位来说，两两比较后的汉明距离是 (1 的个数) * (0 的个数)
 
-0100 4
-1110 14
-0010 2
+// 0100 4
+// 1110 14
+// 0010 2
 
-```go
+// ```go
 func totalHammingDistance(nums []int) int {
 	ans, numsLen := 0, len(nums)
 	for i := 0; i < 32; i++ {
@@ -16,4 +16,4 @@ func totalHammingDistance(nums []int) int {
 	}
 	return ans
 }
-```
+// ```

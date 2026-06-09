@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
@@ -14,4 +14,4 @@ public:
         return nums;
     }
 };
-```
+// ```

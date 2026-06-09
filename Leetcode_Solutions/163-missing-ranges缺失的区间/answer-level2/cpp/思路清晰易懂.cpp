@@ -1,10 +1,10 @@
 
-/*
-1：仔细审题：nums中的元素一定在lower、upper范围之内
-2：nums中相邻元素不连续的地方就是缺失区间
-3：用例中有INT_MIN和INT_MAX的老梗
-*/
-```
+// /*
+// 1：仔细审题：nums中的元素一定在lower、upper范围之内
+// 2：nums中相邻元素不连续的地方就是缺失区间
+// 3：用例中有INT_MIN和INT_MAX的老梗
+// */
+// ```
 class Solution {
 public:
     inline string Idx2Str(long long index)
@@ -59,4 +59,4 @@ public:
         return ans;
     }
 };
-```
+// ```

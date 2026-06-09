@@ -1,12 +1,12 @@
-**方法一：并查集**
+# **方法一：并查集**
 
-虽然大家都在吐槽TAG里的并查集，但直接并查集也不是不能做，最快也有240ms这样。
+# 虽然大家都在吐槽TAG里的并查集，但直接并查集也不是不能做，最快也有240ms这样。
 
-并查集初始化是二维数组，然后对所有点的高度进行排序，然后从低到高加入点检验并查集，如果两个对角的元素处于同一集合就返回答案。
+# 并查集初始化是二维数组，然后对所有点的高度进行排序，然后从低到高加入点检验并查集，如果两个对角的元素处于同一集合就返回答案。
 
-因为在放宽时间条件的情况下，并查集是可以共用的，添加新点的时候集合路径已经被压缩了，所以时间复杂度还是可以接受，如果用二分查找目标时间来做的话还能再降一点时间复杂度，不过就麻烦多了。
+# 因为在放宽时间条件的情况下，并查集是可以共用的，添加新点的时候集合路径已经被压缩了，所以时间复杂度还是可以接受，如果用二分查找目标时间来做的话还能再降一点时间复杂度，不过就麻烦多了。
 
-```python
+# ```python
 class Solution:
     def swimInWater(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -30,17 +30,17 @@ class Solution:
             if f(0, 0) == f(n - 1, n - 1):      #首末元素属于同一个集合就返回答案
                 return t
         return h[-1][0]
-```
+# ```
 
-**方法二：宽搜BFS**
+# **方法二：宽搜BFS**
 
-直接宽搜，就是按时间从小到大来扩地图，比较纯粹好理解，时间也还行，最快180ms。
+# 直接宽搜，就是按时间从小到大来扩地图，比较纯粹好理解，时间也还行，最快180ms。
 
-和Dijkstra略有区别，反倒是跟并查集的原理有点像，但也不是传统的递归或数据结构式的并查集。
+# 和Dijkstra略有区别，反倒是跟并查集的原理有点像，但也不是传统的递归或数据结构式的并查集。
 
-当然，这里的确实可以用升序队列来优化。
+# 当然，这里的确实可以用升序队列来优化。
 
-```python
+# ```python
 class Solution:
     def swimInWater(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -57,13 +57,13 @@ class Solution:
                             q |= {(x, y)}
                             c |= {(x, y)}
                 p = q           #队列传递
-```
+# ```
 
-**方法三：升序队列**
+# **方法三：升序队列**
 
-本质上是就是朴素宽搜的优化版，让宽搜队列每次都能先扩展最小的点，最快120ms。
+# 本质上是就是朴素宽搜的优化版，让宽搜队列每次都能先扩展最小的点，最快120ms。
 
-```python
+# ```python
 class Solution:
     def swimInWater(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -79,13 +79,13 @@ class Solution:
                 if 0 <= x < n and 0 <= y < n and (x, y) not in b:
                     bisect.insort(p, [grid[x][y], x, y])        #二分插入
                     b |= {(x, y)}
-```
+# ```
 
-**方法四：双向升序队列**
+# **方法四：双向升序队列**
 
-升序队列的优化版，比单向的优先队列快一点点吧，最快108ms，但优化也不是那么明显，反正双向的写法就是复制粘贴改改值，也不差这一分钟。
+# 升序队列的优化版，比单向的优先队列快一点点吧，最快108ms，但优化也不是那么明显，反正双向的写法就是复制粘贴改改值，也不差这一分钟。
 
-```python
+# ```python
 class Solution:
     def swimInWater(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -109,6 +109,6 @@ class Solution:
                 if 0 <= x < n and 0 <= y < n and (x, y) not in e:
                     bisect.insort(q, [grid[x][y], x, y])
                     e |= {(x, y)}
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/f9828a49c6be823afd456a0cb0e2c1a42a91489c845cb0931313572e057c3342-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f9828a49c6be823afd456a0cb0e2c1a42a91489c845cb0931313572e057c3342-image.png)

@@ -1,6 +1,6 @@
 
 
-```
+# ```
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
         ugly_nums = [1]
@@ -16,4 +16,4 @@ class Solution:
         if ugly_nums[-1]==ugly_nums[start3]*3: start3+=1
         if ugly_nums[-1]==ugly_nums[start5]*5: start5+=1
         return (start2,start3,start5)
-```
+# ```

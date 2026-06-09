@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-* 解法一：每次插入使用二分查找来找到插入的位置，时间复杂度O(lgN) + O(N)
-* 解法二：使用两个堆，时间复杂度O(lgN)
+// * 解法一：每次插入使用二分查找来找到插入的位置，时间复杂度O(lgN) + O(N)
+// * 解法二：使用两个堆，时间复杂度O(lgN)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MedianFinder {
  interface MedianFinderDefine {
 
@@ -307,4 +307,4 @@ class MedianFinder {
  * obj.addNum(num);
  * double param_2 = obj.findMedian();
  */
-```
+// ```

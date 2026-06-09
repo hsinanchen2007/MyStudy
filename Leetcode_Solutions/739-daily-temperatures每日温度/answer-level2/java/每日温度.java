@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] dailyTemperatures(int[] T) {
         int[] day = new int[T.length];
@@ -21,4 +21,4 @@ class Solution {
         return day;
     }
 }
-```
+// ```

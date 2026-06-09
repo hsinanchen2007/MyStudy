@@ -1,10 +1,10 @@
-### 解题思路
-看完题解改进的，末位表示旧的状态，第二位表示新的状态。故有00，01，10，11四种状态
-![image.png](https://pic.leetcode-cn.com/3d49afaedfb67cc4bd3e85985329d155c293a5d227fc8856f9bb998264c2dac2-image.png)
+// ### 解题思路
+// 看完题解改进的，末位表示旧的状态，第二位表示新的状态。故有00，01，10，11四种状态
+// ![image.png](https://pic.leetcode-cn.com/3d49afaedfb67cc4bd3e85985329d155c293a5d227fc8856f9bb998264c2dac2-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -24,4 +24,4 @@ public:
             for(int j=0;j<n;j++)board[i][j]>>=1;
     }
 };
-```
+// ```

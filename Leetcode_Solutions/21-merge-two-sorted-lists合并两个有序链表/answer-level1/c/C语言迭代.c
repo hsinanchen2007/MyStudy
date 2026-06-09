@@ -1,6 +1,6 @@
 
 
-```
+// ```
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     //创建一个节点,用来合并链表，返回头结点时使用
     struct ListNode* h = (struct ListNode * ) malloc(sizeof(struct ListNode));
@@ -35,4 +35,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 
     return pre;
 }
-```
+// ```

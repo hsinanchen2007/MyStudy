@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def largestUniqueNumber(self, A: List[int]) -> int:
         # using collections.Counter
@@ -8,4 +8,4 @@ class Solution:
             if v == 1:
                 ans = max(ans, k)
         return ans
-```
+# ```

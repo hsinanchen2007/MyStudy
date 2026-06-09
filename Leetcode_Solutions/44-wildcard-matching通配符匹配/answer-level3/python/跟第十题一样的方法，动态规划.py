@@ -1,17 +1,17 @@
-### 解题思路
-不同之处：
-初始化时从第一排开始连续的星号都是全排true
-遇到星号左上左边上边有true就是true
-其他都一样
-没有优化，我去看看大佬们的解法。。。
-其中一个例子的表，复习用：
-![image.png](https://pic.leetcode-cn.com/a1adc6067781249b6a9e69596e1e51013eeeab95c805cb9b9e44c1bcfbe3cdbd-image.png)
+# ### 解题思路
+# 不同之处：
+# 初始化时从第一排开始连续的星号都是全排true
+# 遇到星号左上左边上边有true就是true
+# 其他都一样
+# 没有优化，我去看看大佬们的解法。。。
+# 其中一个例子的表，复习用：
+# ![image.png](https://pic.leetcode-cn.com/a1adc6067781249b6a9e69596e1e51013eeeab95c805cb9b9e44c1bcfbe3cdbd-image.png)
 
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isMatch(self, s, p):
         count={}
@@ -40,4 +40,4 @@ class Solution(object):
                     count[(j+1, i+1)] =False
         return count[(len(p),len(s))]
 
-```
+# ```

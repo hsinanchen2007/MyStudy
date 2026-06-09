@@ -1,9 +1,9 @@
-### 解题思路
-开平方
+// ### 解题思路
+// 开平方
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     int k;
 public:
@@ -29,4 +29,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

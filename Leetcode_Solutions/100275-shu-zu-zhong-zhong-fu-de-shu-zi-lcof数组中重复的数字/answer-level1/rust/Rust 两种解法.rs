@@ -1,4 +1,4 @@
-```
+// ```
 // 哈希方法
 // use std::collections::HashMap;
 // impl Solution {
@@ -44,4 +44,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

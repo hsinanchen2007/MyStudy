@@ -1,6 +1,6 @@
-![捕获.PNG](https://pic.leetcode-cn.com/1c38c90f784514991a75db4d6eb9ba575c513798c9007c022733bb51a593290f-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/1c38c90f784514991a75db4d6eb9ba575c513798c9007c022733bb51a593290f-%E6%8D%95%E8%8E%B7.PNG)
 
-```c++
+// ```c++
 //更新了一种更为简洁的写法
 class Solution {
 public:
@@ -45,4 +45,4 @@ public:
         }
     }
 };
-```
+// ```

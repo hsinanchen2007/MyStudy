@@ -1,5 +1,5 @@
-倒序匹配，找出第一个不为空格的字符，逐一判断，直到下一个空格字符。
-```
+# 倒序匹配，找出第一个不为空格的字符，逐一判断，直到下一个空格字符。
+# ```
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         lens = len(s)-1
@@ -15,4 +15,4 @@ class Solution:
                 res+=1
                 lens-=1
         return res
-```
+# ```

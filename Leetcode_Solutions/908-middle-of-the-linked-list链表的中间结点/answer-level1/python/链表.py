@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution(object):
             A.append(A[-1].next)
         return A[len(A) // 2]
 
-```
+# ```

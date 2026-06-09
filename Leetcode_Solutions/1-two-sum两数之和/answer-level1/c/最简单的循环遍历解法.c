@@ -1,9 +1,9 @@
-### 解题思路
-第一印象就是这个简单的循环了，不过这个执行时间有点太菜了哈哈哈哈啊哈
+// ### 解题思路
+// 第一印象就是这个简单的循环了，不过这个执行时间有点太菜了哈哈哈哈啊哈
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -33,4 +33,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize)
     return b ;
 
 }
-```
+// ```

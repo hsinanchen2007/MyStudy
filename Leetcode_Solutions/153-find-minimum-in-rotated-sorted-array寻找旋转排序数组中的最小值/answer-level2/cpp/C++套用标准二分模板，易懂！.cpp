@@ -1,5 +1,5 @@
-话不多说，直接上代码
-```
+// 话不多说，直接上代码
+// ```
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return min_num;
     }
 };
-```
+// ```

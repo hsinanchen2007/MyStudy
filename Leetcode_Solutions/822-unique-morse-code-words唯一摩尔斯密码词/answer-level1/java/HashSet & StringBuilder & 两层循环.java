@@ -1,6 +1,6 @@
-执行用时 :4 ms, 在所有 Java 提交中击败了92.97%的用户
-内存消耗 :35.6 MB, 在所有 Java 提交中击败了83.58%的用户
-```java
+// 执行用时 :4 ms, 在所有 Java 提交中击败了92.97%的用户
+// 内存消耗 :35.6 MB, 在所有 Java 提交中击败了83.58%的用户
+// ```java
 class Solution {
     public int uniqueMorseRepresentations(String[] words) {
         if (words.length <= 0) {
@@ -19,5 +19,5 @@ class Solution {
         return items.size();
     }
 }
-```
-总感觉用set有点作弊......
+// ```
+// 总感觉用set有点作弊......

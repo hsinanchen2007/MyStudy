@@ -1,9 +1,9 @@
-### 解题思路
-和前面二进制加法差不多。
+// ### 解题思路
+// 和前面二进制加法差不多。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addStrings(string num1, string num2) {
@@ -27,9 +27,9 @@ public:
 
     }
 };
-```
+// ```
 
-```python3
+// ```python3
 class Solution:
     def addStrings(self, num1: str, num2: str) -> str:
         result = ""
@@ -53,9 +53,9 @@ class Solution:
         return result
 
 
-```
+// ```
 
-```javascript
+// ```javascript
 var addStrings = function(num1, num2) {
   // 前面做过二进制的相加，这个是十进制的相加思路差不多
   let result = "";
@@ -78,4 +78,4 @@ var addStrings = function(num1, num2) {
   return result;
 };
 
-```
+// ```

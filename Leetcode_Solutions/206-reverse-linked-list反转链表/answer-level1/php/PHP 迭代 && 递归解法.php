@@ -1,6 +1,6 @@
-## 迭代解法
+// ## 迭代解法
 
-```php
+// ```php
 class Solution
 {
     /**
@@ -26,12 +26,12 @@ class Solution
         return $prev;
     }
 }
-```
+// ```
 
 
-## 递归解法
+// ## 递归解法
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -52,4 +52,4 @@ class Solution {
         return $last;
     }
 }
-```
+// ```

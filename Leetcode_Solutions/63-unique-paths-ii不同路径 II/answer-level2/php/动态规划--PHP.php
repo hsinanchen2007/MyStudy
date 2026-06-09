@@ -1,18 +1,18 @@
-### 解题思路
-在62的基础上，检查障碍物。
+// ### 解题思路
+// 在62的基础上，检查障碍物。
 
-注意：
-- 开头和结尾为障碍物
-- 边界的时候，检查当前是否是障碍物，以及dp前一个是否是0
-- $dp[0][0] = 1;开始过滤障碍物了，并且需要检查$dp[$i - 1][0] == 0
+// 注意：
+// - 开头和结尾为障碍物
+// - 边界的时候，检查当前是否是障碍物，以及dp前一个是否是0
+// - $dp[0][0] = 1;开始过滤障碍物了，并且需要检查$dp[$i - 1][0] == 0
 
-### 性能
-执行用时 :20 ms, 在所有 PHP 提交中击败了40.00%的用户
-内存消耗 :15.5 MB, 在所有 PHP 提交中击败了27.27%的用户
+// ### 性能
+// 执行用时 :20 ms, 在所有 PHP 提交中击败了40.00%的用户
+// 内存消耗 :15.5 MB, 在所有 PHP 提交中击败了27.27%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -55,11 +55,11 @@ class Solution {
         return $dp[$m - 1][$n - 1];
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度 O(N ^ 2) [M * N]
-- 空间复杂度 O(1)
+// ### 算法复杂度
+// - 时间复杂度 O(N ^ 2) [M * N]
+// - 空间复杂度 O(1)
 
-### 参考
-[https://leetcode-cn.com/problems/unique-paths-ii/solution/php-dong-tai-gui-hua-jie-fa-by-zzpwestlife-3/](https://leetcode-cn.com/problems/unique-paths-ii/solution/php-dong-tai-gui-hua-jie-fa-by-zzpwestlife-3/)
+// ### 参考
+// [https://leetcode-cn.com/problems/unique-paths-ii/solution/php-dong-tai-gui-hua-jie-fa-by-zzpwestlife-3/](https://leetcode-cn.com/problems/unique-paths-ii/solution/php-dong-tai-gui-hua-jie-fa-by-zzpwestlife-3/)

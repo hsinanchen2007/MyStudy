@@ -1,10 +1,10 @@
-### 解题思路
-用temp存储被减数，temp_t存储temp为divisor的倍数，
-如果temp能作为当前被减数，则temp_t+1直至temp不能作为被减数
+// ### 解题思路
+// 用temp存储被减数，temp_t存储temp为divisor的倍数，
+// 如果temp能作为当前被减数，则temp_t+1直至temp不能作为被减数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int divide(int dividend, int divisor) {
        int ans = 0, temp = 0,temp_t = 0, flag = dividend^divisor;
@@ -29,4 +29,4 @@ class Solution {
         return flag<0?-ans:ans;
     }
 }
-```
+// ```

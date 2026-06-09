@@ -1,6 +1,6 @@
-### 暴力
+// ### 暴力
 
-```
+// ```
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -10,11 +10,11 @@ public:
         sort(A.begin(), A.end());
     }
 };
-```
+// ```
 
-### 正向双指针，借助辅助数组
+// ### 正向双指针，借助辅助数组
 
-```
+// ```
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -36,11 +36,11 @@ public:
             A[k] = temp[k];
     }
 };
-```
-### 逆向双指针，无需借助辅助数组，运行用时0ms
-有一个疑惑🤔 如果测试用例给两个从大到小排序的数组呢？又或者一个从大到小另一个从小到大呢？🤫
+// ```
+// ### 逆向双指针，无需借助辅助数组，运行用时0ms
+// 有一个疑惑🤔 如果测试用例给两个从大到小排序的数组呢？又或者一个从大到小另一个从小到大呢？🤫
 
-```
+// ```
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -60,6 +60,6 @@ public:
         }
     }
 };
-```
+// ```
 
 

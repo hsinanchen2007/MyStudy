@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         """单调单调递减的栈，通常我们用于求取数组中某元素之前第一个大于它的数"""
@@ -28,4 +28,4 @@ class Solution:
 
 
 
-```
+# ```

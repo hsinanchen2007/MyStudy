@@ -1,6 +1,6 @@
-虽然是个中等题，但是感觉特别难想，特别是0和负数的处理，最后只能看答案了。
-转一个看到的国外高票Python题解
-```python3
+# 虽然是个中等题，但是感觉特别难想，特别是0和负数的处理，最后只能看答案了。
+# 转一个看到的国外高票Python题解
+# ```python3
 class Solution:
     # @param {integer[]} nums
     # @return {integer}
@@ -14,4 +14,4 @@ class Solution:
             currentMin = min(n, n*tmp, n*currentMin)
             ans = max(ans, currentMax)
         return ans
-```
+# ```

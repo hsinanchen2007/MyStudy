@@ -1,5 +1,5 @@
-用了两个bool值作为标记，来标识已经去过的节点
-系统显示0ms跑完了，不知道是不是bug
+// 用了两个bool值作为标记，来标识已经去过的节点
+// 系统显示0ms跑完了，不知道是不是bug
 `class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {

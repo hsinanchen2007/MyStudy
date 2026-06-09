@@ -1,6 +1,6 @@
-**题解**
-采用了三个全局指针去分别代表  head tail pre;
-```java
+// **题解**
+// 采用了三个全局指针去分别代表  head tail pre;
+// ```java
 class Solution {
     public Node head = null,pre = null,tail=null;
     public Node treeToDoublyList(Node root) {
@@ -28,4 +28,4 @@ class Solution {
         return ;
     }
 }
-```
+// ```

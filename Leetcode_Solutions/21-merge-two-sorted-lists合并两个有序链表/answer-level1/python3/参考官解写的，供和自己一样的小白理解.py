@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-重点还是在虚拟头部节点，没有想到还可以这么搞；
+# 重点还是在虚拟头部节点，没有想到还可以这么搞；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class ListNode:
     def __init__(self, x):
         self.val = x
@@ -33,4 +33,4 @@ class Solution:
         pre.next = l1 if l1 is not None else l2
         # 这里的next跳过了最开始设置的虚拟头部节点的值-1
         return preNode.next
-```
+# ```

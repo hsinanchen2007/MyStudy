@@ -1,4 +1,4 @@
-```
+// ```
 void nextPermutation(int* nums, int numsSize){
     if(numsSize<=1)return;//只有一个元素直接返回
     int p1;
@@ -48,4 +48,4 @@ void nextPermutation(int* nums, int numsSize){
         nums[j]=t;
     }
 }
-```
+// ```

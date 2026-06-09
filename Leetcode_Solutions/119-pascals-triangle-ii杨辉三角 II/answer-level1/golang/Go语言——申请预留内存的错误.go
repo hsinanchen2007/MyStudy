@@ -1,9 +1,9 @@
-### 解题思路
-本题思路不难，只是记录一下我做错的地方： 开始写成了preSli:=make([]int,33)，最大为33行，所以申请的内存要大于33，此处写成： preSli:=make([]int,34)
+// ### 解题思路
+// 本题思路不难，只是记录一下我做错的地方： 开始写成了preSli:=make([]int,33)，最大为33行，所以申请的内存要大于33，此处写成： preSli:=make([]int,34)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func getRow(rowIndex int) []int {
     if rowIndex==0{
         return []int{1}
@@ -23,4 +23,4 @@ func getRow(rowIndex int) []int {
 
     return preSli[:rowIndex+1] 
 }
-```
+// ```

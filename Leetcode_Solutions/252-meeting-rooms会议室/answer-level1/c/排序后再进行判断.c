@@ -1,4 +1,4 @@
-```
+// ```
 //按照会议的开始时间进行排序。
 int compare(const void * a, const void * b) {
     int * tempa = *(int **) a;
@@ -18,4 +18,4 @@ bool canAttendMeetings(int** intervals, int intervalsSize, int* intervalsColSize
     }
     return true;
 }
-```
+// ```

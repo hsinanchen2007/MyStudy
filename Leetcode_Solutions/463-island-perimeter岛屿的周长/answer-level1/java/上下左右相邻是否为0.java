@@ -1,9 +1,9 @@
-### 解题思路
-求出当前节点的上下左右节点是否为0 ；不过这里要考虑到边界情况：即上下为临界时要加1 ；左右为临界时要加1；
+// ### 解题思路
+// 求出当前节点的上下左右节点是否为0 ；不过这里要考虑到边界情况：即上下为临界时要加1 ；左右为临界时要加1；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int islandPerimeter(int[][] grid) {
         int perimerter = 0 ;
@@ -20,4 +20,4 @@ class Solution {
         return perimerter;
     }
 }
-```
+// ```

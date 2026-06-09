@@ -1,5 +1,5 @@
-找到最短字符串，以它的长度为基准，从所有字符串的第一个字符开始对比，若都一样，ans加上该字符，若不一样，返回答案；
-```
+// 找到最短字符串，以它的长度为基准，从所有字符串的第一个字符开始对比，若都一样，ans加上该字符，若不一样，返回答案；
+// ```
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -24,4 +24,4 @@ public:
         return ans;
     }
 };
-```
+// ```

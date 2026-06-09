@@ -1,4 +1,4 @@
-```
+// ```
 #define MAXSIZE 256
 #define ALPHASIZE 26
 
@@ -97,4 +97,4 @@ char *** groupStrings(char ** strings, int stringsSize, int* returnSize, int** r
 
     return return3Str;
 }
-```
+// ```

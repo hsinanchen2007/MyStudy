@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针，找到中间的位置，反转后半段链表
+// ### 解题思路
+// 快慢指针，找到中间的位置，反转后半段链表
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -46,4 +46,4 @@ var isPalindrome = function(head) {
     
     return true
 };
-```
+// ```

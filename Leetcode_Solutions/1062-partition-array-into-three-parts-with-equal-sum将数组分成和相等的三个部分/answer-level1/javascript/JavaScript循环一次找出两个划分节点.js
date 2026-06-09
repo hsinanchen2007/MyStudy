@@ -1,10 +1,10 @@
-### 解题思路
-根据官方题解思想
-设置一个判断参数，循环一次找到两个划分点
+// ### 解题思路
+// 根据官方题解思想
+// 设置一个判断参数，循环一次找到两个划分点
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {boolean}
@@ -49,4 +49,4 @@ var canThreePartsEqualSum = function(A) {
         return false;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -37,5 +37,5 @@ var countCharacters = function(words, chars) {
         return back;
     }
 };
-```
+// ```
 

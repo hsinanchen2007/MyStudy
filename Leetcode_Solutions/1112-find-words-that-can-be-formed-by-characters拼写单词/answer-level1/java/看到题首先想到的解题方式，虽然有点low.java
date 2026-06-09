@@ -1,7 +1,7 @@
-利用Map的key唯一性，每次遍历都将单词中字符所在chars中的索引保存至map中，循环完成一次后比较单词跟map的长度，相等则是可以拼写出的单词。
-方式可能不太好，但也算是一种题解思路吧。
+// 利用Map的key唯一性，每次遍历都将单词中字符所在chars中的索引保存至map中，循环完成一次后比较单词跟map的长度，相等则是可以拼写出的单词。
+// 方式可能不太好，但也算是一种题解思路吧。
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         String [] original = words;
@@ -28,4 +28,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

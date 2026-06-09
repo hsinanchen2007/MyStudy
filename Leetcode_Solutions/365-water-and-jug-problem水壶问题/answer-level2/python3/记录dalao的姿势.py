@@ -1,6 +1,6 @@
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         if z==0:return True
@@ -10,4 +10,4 @@ class Solution:
         while y%x != 0:
             y,x = x,y%x
         return z%x == 0
-```
+# ```

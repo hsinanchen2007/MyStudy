@@ -1,9 +1,9 @@
-### 解题思路
-声明一个变量curPathVal记录当前路径节点和，递归遍历每一个节点，遇到叶子节点将curPathVal与目标值sum作比较，如果相同设置flag为true,程序最后返回flag。
+// ### 解题思路
+// 声明一个变量curPathVal记录当前路径节点和，递归遍历每一个节点，遇到叶子节点将curPathVal与目标值sum作比较，如果相同设置flag为true,程序最后返回flag。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -32,4 +32,4 @@ class Solution {
         curPathVal-=root.val;
     }
 }
-```
+// ```

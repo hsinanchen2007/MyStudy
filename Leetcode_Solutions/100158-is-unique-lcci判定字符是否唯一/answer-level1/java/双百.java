@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-数组替代Set，没有用的额外的数据结构。这里仅考虑了ASCII码，若考虑其他字符，可设为Unicode码长度65536
+// 数组替代Set，没有用的额外的数据结构。这里仅考虑了ASCII码，若考虑其他字符，可设为Unicode码长度65536
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         int[] charArr = new int[128];
@@ -17,4 +17,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

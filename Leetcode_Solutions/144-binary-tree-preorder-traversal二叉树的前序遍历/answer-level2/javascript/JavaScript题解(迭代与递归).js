@@ -1,9 +1,9 @@
-### 解题思路
-迭代与递归。函数入参是根节点root，返回值是遍历结果数组arr。
+// ### 解题思路
+// 迭代与递归。函数入参是根节点root，返回值是遍历结果数组arr。
 
-### 代码
-迭代
-```javascript
+// ### 代码
+// 迭代
+// ```javascript
 /**
  * 先序遍历：迭代方式
  * @param {TreeNode} root
@@ -20,10 +20,10 @@ var preorderTraversal = function (root) {
     }
     return arr
 };
-```
+// ```
 
-递归
-```javascript
+// 递归
+// ```javascript
 var preorderTraversal = function(root) {
     let arr = [];
     let preOrder = function(node, arr) {
@@ -36,4 +36,4 @@ var preorderTraversal = function(root) {
     preOrder(root,arr);
     return arr
 };
-```
+// ```

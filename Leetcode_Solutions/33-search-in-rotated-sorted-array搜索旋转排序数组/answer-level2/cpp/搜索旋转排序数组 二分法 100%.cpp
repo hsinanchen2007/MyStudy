@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/28546788c4b347bd98b7c447fce2083b654d18a42afbc622788c07a4535a7641-image.png)
+// ![image.png](https://pic.leetcode-cn.com/28546788c4b347bd98b7c447fce2083b654d18a42afbc622788c07a4535a7641-image.png)
 
-### 解题思路
-转化为有序二分法
-思路精髓就是：每次二分必有一边是有序的，检查target在不在有序的那一边，从而决定下一次二分的方向
+// ### 解题思路
+// 转化为有序二分法
+// 思路精髓就是：每次二分必有一边是有序的，检查target在不在有序的那一边，从而决定下一次二分的方向
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target){
@@ -26,4 +26,4 @@ public:
 		return -1;
 	}
 };
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/e459cd836218c7d1f66a00d8a42313e279c929c7da40b01848c8330abac12b27-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e459cd836218c7d1f66a00d8a42313e279c929c7da40b01848c8330abac12b27-image.png)
 
 
-leetcode83题和 leetcode237题（哨兵思路）的结合，做完这两道题，再做这个题思路就会好很多
+// leetcode83题和 leetcode237题（哨兵思路）的结合，做完这两道题，再做这个题思路就会好很多
 
-具体思路：结合之前的83题，先把链表处理成排序无重复的，并存储重复节点，之后再过滤一遍链表并剔除重复的元素
-### 代码
+// 具体思路：结合之前的83题，先把链表处理成排序无重复的，并存储重复节点，之后再过滤一遍链表并剔除重复的元素
+// ### 代码
 
-```golang
+// ```golang
 /**
 * Definition for singly-linked list.
 * type ListNode struct {
@@ -62,4 +62,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
 思路：结合之前的83题，先把链表处理成排序无重复的，并存储重复节点，之后再过滤一遍链表并剔除重复的元素
 */
 
-```
+// ```

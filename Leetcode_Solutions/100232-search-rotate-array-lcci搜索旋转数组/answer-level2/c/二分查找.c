@@ -1,11 +1,11 @@
-### 解题思路
-参考其他人思路，分两步完成：
-1、二分查找，寻找转折点，确定搜索区间
-2、二分查找，找到符合条件的最小序列
+// ### 解题思路
+// 参考其他人思路，分两步完成：
+// 1、二分查找，寻找转折点，确定搜索区间
+// 2、二分查找，找到符合条件的最小序列
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int search(int* arr, int arrSize, int target){
     if (arrSize == 0)
         return -1;
@@ -45,4 +45,4 @@ int search(int* arr, int arrSize, int target){
         return left;
     return -1;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-> 执行用时 :100 ms, 在所有 JavaScript 提交中击败了91.81%的用户
+// > 执行用时 :100 ms, 在所有 JavaScript 提交中击败了91.81%的用户
 
-与前一题类似的做法，只是结果为`0`换成了接近`target`。
+// 与前一题类似的做法，只是结果为`0`换成了接近`target`。
 
-```JavaScript
+// ```JavaScript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -40,4 +40,4 @@ var threeSumClosest = function (nums, target) {
     }
     return target - res;
 };
-```
+// ```

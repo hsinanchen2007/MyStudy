@@ -1,8 +1,8 @@
-![Screenshot from 2020-04-06 13-39-39.png](https://pic.leetcode-cn.com/3bdd7e387011171fe49bc0ff0c5fca069bfd1bc8e3e89926b137e98d00512fc9-Screenshot%20from%202020-04-06%2013-39-39.png)
+// ![Screenshot from 2020-04-06 13-39-39.png](https://pic.leetcode-cn.com/3bdd7e387011171fe49bc0ff0c5fca069bfd1bc8e3e89926b137e98d00512fc9-Screenshot%20from%202020-04-06%2013-39-39.png)
 
-使用HashMap后耗时感人
+// 使用HashMap后耗时感人
 
-```rust
+// ```rust
 use std::collections::HashMap;
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
@@ -47,4 +47,4 @@ impl Solution {
         return max_len as i32;
     }
 }
-```
+// ```

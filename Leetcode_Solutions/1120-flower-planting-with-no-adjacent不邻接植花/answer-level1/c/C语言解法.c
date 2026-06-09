@@ -1,7 +1,7 @@
-1. 将每一个花园与之路径相通的花园记录下来；
-2. 从标记为1的花园开始，遍历与它直接连接的花园种植花的种类，将这些花从`flowers[4] = {1, 2, 3, 4}`中去除，然后在剩余花中选出值最小的一个花种类种植到该花园中。
+// 1. 将每一个花园与之路径相通的花园记录下来；
+// 2. 从标记为1的花园开始，遍历与它直接连接的花园种植花的种类，将这些花从`flowers[4] = {1, 2, 3, 4}`中去除，然后在剩余花中选出值最小的一个花种类种植到该花园中。
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -51,4 +51,4 @@ int* gardenNoAdj(int N, int** paths, int pathsSize, int* pathsColSize, int* retu
     *returnSize = N;
     return answer;
 }
-```
+// ```

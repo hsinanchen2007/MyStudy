@@ -1,9 +1,9 @@
 
-思路就是从头到位判断每一个字符是否符合当前状态。状态从START开始，根据不同的情况进行流转。
-虽然思路很简单，但是需要考虑的特殊情况比较多，debug了很久
+// 思路就是从头到位判断每一个字符是否符合当前状态。状态从START开始，根据不同的情况进行流转。
+// 虽然思路很简单，但是需要考虑的特殊情况比较多，debug了很久
 
 
-```
+// ```
 class Solution {
 public:
     bool isNumber(string s) {
@@ -150,7 +150,7 @@ public:
     }
 };
 
-```
-提交结果：
+// ```
+// 提交结果：
 
-![image.png](https://pic.leetcode-cn.com/c9657c2fb507bca223c1be376ab50d1a417480acfea7f4b3a6694780ee9d39c9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c9657c2fb507bca223c1be376ab50d1a417480acfea7f4b3a6694780ee9d39c9-image.png)

@@ -1,11 +1,11 @@
-### 解题思路
-DFS的思路是假装孩子的事情自己搞定
-自己只需要处理自己本身节点的事情；
-孩子的事情让他们自己解决
+# ### 解题思路
+# DFS的思路是假装孩子的事情自己搞定
+# 自己只需要处理自己本身节点的事情；
+# 孩子的事情让他们自己解决
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         # 如果都是None，认定是一样
@@ -24,4 +24,4 @@ class Solution:
         # 走到这里，说明root节点已经相同了，那么递归比较孩子即可
         return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 
-```
+# ```

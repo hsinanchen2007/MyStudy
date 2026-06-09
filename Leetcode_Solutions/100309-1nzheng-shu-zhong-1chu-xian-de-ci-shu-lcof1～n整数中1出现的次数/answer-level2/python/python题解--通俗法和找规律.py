@@ -1,6 +1,6 @@
-### 递归遍历法
-- 提供一个思路,这个方法超出时间限制
-```
+# ### 递归遍历法
+# - 提供一个思路,这个方法超出时间限制
+# ```
 class Solution(object):
     def countDigitOne(self, n):
         """
@@ -27,17 +27,17 @@ class Solution(object):
             return count + count_1(n-1)
    
         return count_1(n)
-```
+# ```
 
 
 
-### 找规律
-- 这个是参考大神的解法,我用python实现了一下,大家直接借鉴下吧!!
-- [https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/solution/javadi-gui-by-xujunyi/]()
+# ### 找规律
+# - 这个是参考大神的解法,我用python实现了一下,大家直接借鉴下吧!!
+# - [https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/solution/javadi-gui-by-xujunyi/]()
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countDigitOne(self, n):
         """
@@ -59,4 +59,4 @@ class Solution(object):
             else:
                 return low + high*count_1(low-1) + count_1(last)
         return count_1(n)
-```
+# ```

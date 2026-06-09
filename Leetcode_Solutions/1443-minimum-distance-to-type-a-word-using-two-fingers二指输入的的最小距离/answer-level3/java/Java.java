@@ -1,19 +1,19 @@
-### 解题思路
-在二指移动中可以以二指相对字符串的位置来定义状态
-dp[x][y]表示二指分别在x处与y处时移动的距离
-定义0<=x,y<=word.length();
-0表示手指还未移动
-x或y ==word.length()时表示移动完毕
+// ### 解题思路
+// 在二指移动中可以以二指相对字符串的位置来定义状态
+// dp[x][y]表示二指分别在x处与y处时移动的距离
+// 定义0<=x,y<=word.length();
+// 0表示手指还未移动
+// x或y ==word.length()时表示移动完毕
 
-显然x,y中的较大值也是总体移动的进度
-分析状态i到i+1的转移方式
-dp[?][i]或dp[i][?] 其中 ?<i  转化为ndp[i+1][]或ndp[][i+1]
+// 显然x,y中的较大值也是总体移动的进度
+// 分析状态i到i+1的转移方式
+// dp[?][i]或dp[i][?] 其中 ?<i  转化为ndp[i+1][]或ndp[][i+1]
 
-最后找出最小值即可
+// 最后找出最小值即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static String STR =null;
     public int minimumDistance(String word) {
@@ -58,15 +58,15 @@ class Solution {
         return Math.abs(c1/6-c2/6)+Math.abs(c1%6-c2%6);
     }
 }
-```
-### 解题思路
-暴力搜索
-测试用例为"HAPPY"时输出正常
-但提交时有异常,在这里反映下
+// ```
+// ### 解题思路
+// 暴力搜索
+// 测试用例为"HAPPY"时输出正常
+// 但提交时有异常,在这里反映下
 
-以下为报错代码
+// 以下为报错代码
 
-```java
+// ```java
 class Solution {
     public static Map<String, Integer> map = new HashMap<>();
     public int minimumDistance(String word) {
@@ -98,9 +98,9 @@ class Solution {
         return Math.abs(c1/6-c2/6)+Math.abs(c1%6-c2%6);
     }
 }
-```
-修改后可以通过
-```
+// ```
+// 修改后可以通过
+// ```
 class Solution {
   
      public int minimumDistance(String word){
@@ -133,4 +133,4 @@ class Solution {
         return Math.abs(c1/6-c2/6)+Math.abs(c1%6-c2%6);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-把它看作一个二叉树，左子树当前位置为空，右子树当前位置取值，深度优先遍历进行递归。
+// ### 解题思路
+// 把它看作一个二叉树，左子树当前位置为空，右子树当前位置取值，深度优先遍历进行递归。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     void dfs(vector<vector<int>>&result,vector<int>&model,int len, int loc, vector<int>& nums);
 public:
@@ -29,4 +29,4 @@ void Solution::dfs(vector<vector<int>>& result, vector<int>& model, int len, int
     model.pop_back();
 }
 
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-用python的collections.Counter统计字符出现次数，统计奇数偶数次数，偶数直接加次数，奇数加次数减一，最后设置一个flag判定是否存在奇数的情况。
-### 代码
+# ### 解题思路
+# 用python的collections.Counter统计字符出现次数，统计奇数偶数次数，偶数直接加次数，奇数加次数减一，最后设置一个flag判定是否存在奇数的情况。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         odd = 0
@@ -25,4 +25,4 @@ class Solution:
 
 
 
-```
+# ```

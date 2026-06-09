@@ -1,5 +1,5 @@
-  1. 递归函数flatten1 返回子节点不为空的后续以排好序的最后一个不为空的节点tail
-  2. 把tail拼接在node 和node.next之间
+//   1. 递归函数flatten1 返回子节点不为空的后续以排好序的最后一个不为空的节点tail
+//   2. 把tail拼接在node 和node.next之间
 
 
 

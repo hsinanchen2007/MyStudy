@@ -1,9 +1,9 @@
-### 解题思路
-利用堆排序每次取出最小值加入新链表即可
+// ### 解题思路
+// 利用堆排序每次取出最小值加入新链表即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ public:
         return dummyHead->next;
     }
 };
-```
+// ```

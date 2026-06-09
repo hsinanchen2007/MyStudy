@@ -1,9 +1,9 @@
-### 解题思路
-方法一、哈希表
+// ### 解题思路
+// 方法一、哈希表
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -19,10 +19,10 @@ var missingNumber = function(nums) {
         }
     }
 };
-```
-方法二、数学
-前n个数之和减去数组之和
-```
+// ```
+// 方法二、数学
+// 前n个数之和减去数组之和
+// ```
 var missingNumber = function(nums) {
     var sum1 = (nums.length)*(nums.length+1)/2;
     var sum2=0;
@@ -31,4 +31,4 @@ var missingNumber = function(nums) {
     }
     return sum1-sum2;
 };
-```
+// ```

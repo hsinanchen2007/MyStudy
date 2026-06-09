@@ -1,8 +1,8 @@
-### 双栈法
-![image.png](https://pic.leetcode-cn.com/01085b996de6d86a78e606cf4e3929cf4786f9ec9f65909d682eecf923d07f5c-image.png)
+# ### 双栈法
+# ![image.png](https://pic.leetcode-cn.com/01085b996de6d86a78e606cf4e3929cf4786f9ec9f65909d682eecf923d07f5c-image.png)
 
-### 代码
-```
+# ### 代码
+# ```
 class Solution(object):
     def levelOrder(self, root):
         """
@@ -35,18 +35,18 @@ class Solution(object):
             times += 1
         return result
 
-```
+# ```
 
 
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/fd878f0438430f79b3a7d82d340adf7c2f00425167ec12f7dca6011f8896e533-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/fd878f0438430f79b3a7d82d340adf7c2f00425167ec12f7dca6011f8896e533-image.png)
 
-- 这道题和之前的<从上到下打印二叉树>的思路是一致
-- 我的做法是,设置一个行变量`times`,奇数行保存从左往右的输出,偶数行保存从右往左的输出
+# - 这道题和之前的<从上到下打印二叉树>的思路是一致
+# - 我的做法是,设置一个行变量`times`,奇数行保存从左往右的输出,偶数行保存从右往左的输出
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -86,4 +86,4 @@ class Solution(object):
 
 
 
-```
+# ```

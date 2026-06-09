@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def singleNumbers(self, nums: List[int]) -> List[int]:
         eor = 0
@@ -12,4 +12,4 @@ class Solution:
             if num & rightone != 0:
                 onlyone ^= num
         return [onlyone, eor ^ onlyone]
-```
+# ```

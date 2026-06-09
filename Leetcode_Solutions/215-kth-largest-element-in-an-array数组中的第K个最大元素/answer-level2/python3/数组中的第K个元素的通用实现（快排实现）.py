@@ -1,12 +1,12 @@
-数组中第K个（最大/小）元素的实现思路都是一致的，即通过快排不断地局部排序、不断地缩小取值区间，最终求得某位置的解。
-本题实现代码如下：
-```
+# 数组中第K个（最大/小）元素的实现思路都是一致的，即通过快排不断地局部排序、不断地缩小取值区间，最终求得某位置的解。
+# 本题实现代码如下：
+# ```
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         return get_Kth(nums, k)
-```
-另外此处是通用的得到数组的第K个元素的实现：
-```
+# ```
+# 另外此处是通用的得到数组的第K个元素的实现：
+# ```
 def get_Kth(lst, k, large=True):
     def partition(arr, left, right):
         pivot = left
@@ -31,4 +31,4 @@ def get_Kth(lst, k, large=True):
     if mid == position:
         return lst[mid]
     return None
-```
+# ```

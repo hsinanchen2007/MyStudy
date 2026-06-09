@@ -1,9 +1,9 @@
-### 解题思路
-js 字符串是只读的……   不能改原字符串，所以放到数组中
+// ### 解题思路
+// js 字符串是只读的……   不能改原字符串，所以放到数组中
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -26,4 +26,4 @@ var reverseVowels = function(s) {
     }
     return arr.join('')
 };
-```
+// ```

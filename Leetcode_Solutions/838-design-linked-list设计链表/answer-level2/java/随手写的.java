@@ -1,13 +1,13 @@
-### 解题思路
-直接在MyLinkedList里面定义了val，next。还有一个size，还设定了一个头。
-设定了一个无参构造，一个int参数构造，
-调用无参会自动调用int构造，传入0，并且初始化size为0，直接调用有参构造则只会直接给val赋值。
-调用无参构造会自动调用
-最后还写了一个show方法，来显示链表的数据。
+// ### 解题思路
+// 直接在MyLinkedList里面定义了val，next。还有一个size，还设定了一个头。
+// 设定了一个无参构造，一个int参数构造，
+// 调用无参会自动调用int构造，传入0，并且初始化size为0，直接调用有参构造则只会直接给val赋值。
+// 调用无参构造会自动调用
+// 最后还写了一个show方法，来显示链表的数据。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyLinkedList {
 int val;
     MyLinkedList next;
@@ -127,4 +127,4 @@ int val;
  * obj.addAtIndex(index,val);
  * obj.deleteAtIndex(index);
  */
-```
+// ```

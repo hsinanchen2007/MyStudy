@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public Node copyRandomList(Node head) {
         if(head == null){
@@ -28,4 +28,4 @@ class Solution {
         return newHead;
     }
 }
-```
+// ```

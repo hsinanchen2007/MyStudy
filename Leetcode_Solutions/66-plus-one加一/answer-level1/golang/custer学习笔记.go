@@ -1,8 +1,8 @@
-# 错误的示例
+// # 错误的示例
 
-![图片.png](https://pic.leetcode-cn.com/c135576b92df518f14377929765ce9e6067c95dea80c5facf139c9bf6deaf6aa-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/c135576b92df518f14377929765ce9e6067c95dea80c5facf139c9bf6deaf6aa-%E5%9B%BE%E7%89%87.png)
 
-```go
+// ```go
 func plusOne(digits []int) []int {
 	var s, t string
 	// 1. 遍历数组，赋值给字符串
@@ -35,17 +35,17 @@ func plusOne(digits []int) []int {
 	}
 	return digits
 }
-```
+// ```
 
-正确的方法：学习自[@guanpengchn](/u/guanpengchn)
+// 正确的方法：学习自[@guanpengchn](/u/guanpengchn)
 
-https://leetcode-cn.com/problems/two-sum/solution/hua-jie-suan-fa-66-jia-yi-by-guanpengchn/
+// https://leetcode-cn.com/problems/two-sum/solution/hua-jie-suan-fa-66-jia-yi-by-guanpengchn/
 
-1. 末位无进位，则末位加一即可，因为末位无进位，前面也不可能产生进位，比如 45 => 46
-2. 末位有进位，在中间位置进位停止，则需要找到进位的典型标志，即为当前位 %10 后为 0，则前一位加 1，直到不为 0 为止，比如 499 => 500
-3. 末位有进位，并且一直进位到最前方导致结果多出一位，对于这种情况，需要在第 2 种情况遍历结束的基础上，进行单独处理，比如 999 => 1000
+// 1. 末位无进位，则末位加一即可，因为末位无进位，前面也不可能产生进位，比如 45 => 46
+// 2. 末位有进位，在中间位置进位停止，则需要找到进位的典型标志，即为当前位 %10 后为 0，则前一位加 1，直到不为 0 为止，比如 499 => 500
+// 3. 末位有进位，并且一直进位到最前方导致结果多出一位，对于这种情况，需要在第 2 种情况遍历结束的基础上，进行单独处理，比如 999 => 1000
 
-```go
+// ```go
 func plusOne(digits []int) []int {
     ll := len(digits)
     for i := ll - 1; i >= 0; i-- {
@@ -60,13 +60,13 @@ func plusOne(digits []int) []int {
     digits = append([]int{1}, digits...)
     return digits
 }
-```
+// ```
 
-学习自[@elliotxx](/u/elliotxx)
+// 学习自[@elliotxx](/u/elliotxx)
 
-https://leetcode-cn.com/problems/two-sum/solution/0ms11xing-dai-ma-go-shi-xian-by-elliotxx/
+// https://leetcode-cn.com/problems/two-sum/solution/0ms11xing-dai-ma-go-shi-xian-by-elliotxx/
 
-```go
+// ```go
 func plusOne1(digits []int) []int {
     for i := len(digits) - 1; i >= 0; i-- {
         if digits[i] < 9 {
@@ -80,4 +80,4 @@ func plusOne1(digits []int) []int {
     }
     return append([]int{1}, digits...)
 }
-```
+// ```

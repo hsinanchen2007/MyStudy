@@ -1,10 +1,10 @@
-### 解题思路
-从左往右查找
+// ### 解题思路
+// 从左往右查找
 
-### 代码
-![图片.png](https://pic.leetcode-cn.com/e596cef0903c0743007464029f47976999996768907eb2cb33aa914cb18fafd0-%E5%9B%BE%E7%89%87.png)
+// ### 代码
+// ![图片.png](https://pic.leetcode-cn.com/e596cef0903c0743007464029f47976999996768907eb2cb33aa914cb18fafd0-%E5%9B%BE%E7%89%87.png)
 
-```c
+// ```c
 char * longestCommonPrefix(char ** strs, int strsSize){
 	int i, j;
 	int len = 0x7fffffff;
@@ -31,4 +31,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
 int min(int a, int b) {
 	return a<b ? a : b;
 }
-```
+// ```

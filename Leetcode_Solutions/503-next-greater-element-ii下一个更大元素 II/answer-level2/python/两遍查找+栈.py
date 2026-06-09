@@ -1,10 +1,10 @@
-### 解题思路
-> 由于是循环列表, 所以入栈后没有处理成功的需要处理第二遍; 结束条件是第二遍遇到最大值时;
-- **重要** 注意边界条件的处理, 提交了好几次,郁闷 :)
+# ### 解题思路
+# > 由于是循环列表, 所以入栈后没有处理成功的需要处理第二遍; 结束条件是第二遍遇到最大值时;
+# - **重要** 注意边界条件的处理, 提交了好几次,郁闷 :)
 
-### 代码
+# ### 代码
 
-```python3 [groups1-python3]
+# ```python3 [groups1-python3]
 class Solution:
     def nextGreaterElements(self, nums: List[int]) -> List[int]:
         if not nums:
@@ -28,9 +28,9 @@ class Solution:
                 # 最大元素都没有处理完q中的数据,说明剩下的全是最大值,保持默认的-1输出即可
                 break
         return ans
-```
+# ```
 
-```C [groups1-C]
+# ```C [groups1-C]
 #define MAX_NUM_COUNT 10001
 
 /**
@@ -78,13 +78,13 @@ int *nextGreaterElements(int *nums, int numsSize, int *returnSize)
     *returnSize = numsSize;
     return result;
 }
-```
+# ```
 
-# 运行情况
-```
+# # 运行情况
+# ```
 执行用时 :228 ms, 在所有 Python3 提交中击败了89.00%的用户
 内存消耗 :15 MB, 在所有 Python3 提交中击败了5.10%的用户
 
 执行用时 :112 ms, 在所有 C 提交中击败了80.52%的用户
 内存消耗 :15.9 MB, 在所有 C 提交中击败了100.00%的用户
-```
+# ```

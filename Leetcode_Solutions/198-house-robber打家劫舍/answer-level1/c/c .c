@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
 1
 dp[N][0] 不偷第N 间money for steal N house
@@ -46,4 +46,4 @@ int rob(int* nums, int numsSize){
     return dp[numsSize-1];
 
 }
-```
+// ```

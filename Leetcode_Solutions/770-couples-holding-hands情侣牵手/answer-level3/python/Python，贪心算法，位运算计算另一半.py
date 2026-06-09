@@ -1,4 +1,4 @@
-```python
+# ```python
     def minSwapsCouples(self, row: List[int]) -> int:
         # 贪心算法
         n, res = len(row), 0
@@ -8,4 +8,4 @@
                 j = i+2+row[i+2:].index(mate)  # 找到它的另一半，直接从i+2找起节省时间
                 row[i+1], row[j], res = row[j], row[i+1], res+1  # 交换
         return res
-```
+# ```

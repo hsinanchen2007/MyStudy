@@ -1,5 +1,5 @@
-C语言实现
-```C []
+// C语言实现
+// ```C []
 char * convertToBase7(int num){
     char *res = (char*)malloc(13 * sizeof(char));
     memset(res, 0, 13 * sizeof(char));
@@ -18,4 +18,4 @@ char * convertToBase7(int num){
     }
     return res;
 }
-```
+// ```

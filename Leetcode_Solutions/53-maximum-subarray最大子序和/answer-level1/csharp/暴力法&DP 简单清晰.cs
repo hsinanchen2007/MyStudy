@@ -1,5 +1,5 @@
-暴力法
-```c#
+// 暴力法
+// ```c#
 public class Solution
 {
     public int MaxSubArray(int[] nums)
@@ -20,10 +20,10 @@ public class Solution
         return max;
     }
 }
-```
+// ```
 
-DP
-```c#
+// DP
+// ```c#
 public class Solution
 {
     public int MaxSubArray(int[] nums)
@@ -40,4 +40,4 @@ public class Solution
         return max;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-十四为一个循环，这个很重要，不然第一个用例就过不了。
-![捕获.PNG](https://pic.leetcode-cn.com/09acb177bbb8e926ee0978280b7c83c30446c8dbc80d540c423923d5c99fda22-%E6%8D%95%E8%8E%B7.PNG)
-### 代码      
-```
+# ### 解题思路
+# 十四为一个循环，这个很重要，不然第一个用例就过不了。
+# ![捕获.PNG](https://pic.leetcode-cn.com/09acb177bbb8e926ee0978280b7c83c30446c8dbc80d540c423923d5c99fda22-%E6%8D%95%E8%8E%B7.PNG)
+# ### 代码      
+# ```
 class Solution:
     def prisonAfterNDays(self, cells: List[int], N: int) -> List[int]:
         jk=[cells]
@@ -21,4 +21,4 @@ class Solution:
             return jk[N]
         else:
             return jk[14]
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/a53055a6dc13086b5ce1801c7c714f7e93ca5f61532d405261c11c46640927dd-image.png)
-1.for循环：以各个字符s[i]为回文子串的中心，遍历整个字符串，找出最长回文的子串；
-2.回文子串长度为奇数或偶数时，遍历的边界条件不一样，因此需要对奇数和偶数分开遍历。
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/a53055a6dc13086b5ce1801c7c714f7e93ca5f61532d405261c11c46640927dd-image.png)
+// 1.for循环：以各个字符s[i]为回文子串的中心，遍历整个字符串，找出最长回文的子串；
+// 2.回文子串长度为奇数或偶数时，遍历的边界条件不一样，因此需要对奇数和偶数分开遍历。
 
-talking is cheap，show code！
+// talking is cheap，show code！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define MAX_STRING_LEN 2000
 
@@ -106,4 +106,4 @@ char * longestPalindrome(char * s){
 
     return sub;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def thirdMax(self, nums):
         """
@@ -20,4 +20,4 @@ class Solution(object):
                 m_3 = n
         
         return m_3 if m_3 != -sys.maxsize else m_1
-```
+# ```

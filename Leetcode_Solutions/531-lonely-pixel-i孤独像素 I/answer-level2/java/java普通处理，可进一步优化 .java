@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findLonelyPixel(char[][] picture) {
         Stack<Integer> st = new Stack<>();
@@ -36,4 +36,4 @@ class Solution {
        return sum;
     }
 }
-```
+// ```

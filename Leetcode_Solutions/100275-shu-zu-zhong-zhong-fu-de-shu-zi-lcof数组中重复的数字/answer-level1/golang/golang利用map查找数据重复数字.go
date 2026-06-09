@@ -1,9 +1,9 @@
-### 解题思路
-利用map的key的唯一性以及struct{}不占用内存的特性
+// ### 解题思路
+// 利用map的key的唯一性以及struct{}不占用内存的特性
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findRepeatNumber(nums []int) int {
     if len(nums) == 0 {
         return -1
@@ -18,4 +18,4 @@ func findRepeatNumber(nums []int) int {
     }
     return -1
 }
-```
+// ```

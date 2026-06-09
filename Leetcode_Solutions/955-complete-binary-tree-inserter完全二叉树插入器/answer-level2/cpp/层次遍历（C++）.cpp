@@ -1,4 +1,4 @@
-```c++
+// ```c++
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,4 +47,4 @@ private:
     TreeNode* node_;   // 用来储存待插入节点的位置
     TreeNode* root_;   // 用来储存树根节点的位置
 };
-```
+// ```

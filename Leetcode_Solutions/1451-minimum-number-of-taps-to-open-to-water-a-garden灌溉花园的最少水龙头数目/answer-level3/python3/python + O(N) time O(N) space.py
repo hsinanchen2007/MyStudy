@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minTaps(self, n: int, ranges: List[int]) -> int:
         # method: greedy
@@ -19,4 +19,4 @@ class Solution:
                 end = max_dis
                 ans += 1
         return ans if end >= n else -1
-```
+# ```

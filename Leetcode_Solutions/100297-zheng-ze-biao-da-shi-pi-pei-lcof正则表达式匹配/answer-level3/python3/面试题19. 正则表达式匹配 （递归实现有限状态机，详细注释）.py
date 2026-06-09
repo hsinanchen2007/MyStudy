@@ -1,5 +1,5 @@
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def isMatch(self, string: str, pattern: str) -> bool:
         # 如果 string 或者 pattern 有一个为空的话，那么输入就是错误的
@@ -51,4 +51,4 @@ class Solution:
 
         # 以上出现的匹配都失败了，那么就是匹配失败
         return False
-```
+# ```

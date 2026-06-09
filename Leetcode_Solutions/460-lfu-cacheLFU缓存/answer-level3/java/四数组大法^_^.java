@@ -1,13 +1,13 @@
-### 解题思路
-使用四个数组分别记录：
-1、key
-2、value
-3、使用频率
-4、使用的先用顺序（时间毫秒数可能相同，所以使用全局计数器counter实现）
+// ### 解题思路
+// 使用四个数组分别记录：
+// 1、key
+// 2、value
+// 3、使用频率
+// 4、使用的先用顺序（时间毫秒数可能相同，所以使用全局计数器counter实现）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LFUCache {
 private int[] keyArr;
 	private int[] valArr;
@@ -100,4 +100,4 @@ private int[] keyArr;
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

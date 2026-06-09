@@ -1,5 +1,5 @@
-从两个单词的最后一个字母开始比较，一样的话就比较前面的字母，不一样的话就采用总步数最少的操作
-```
+# 从两个单词的最后一个字母开始比较，一样的话就比较前面的字母，不一样的话就采用总步数最少的操作
+# ```
 from functools import lru_cache
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
@@ -20,4 +20,4 @@ class Solution:
         i=len(word1)-1
         j=len(word2)-1
         return dp(i,j)
-```
+# ```

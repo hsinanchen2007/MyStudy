@@ -1,6 +1,6 @@
 
-java 很无奈的解法, 能看懂我代码思路的也是没谁了。。
-```
+// java 很无奈的解法, 能看懂我代码思路的也是没谁了。。
+// ```
 class Solution {
     public List<String> commonChars(String[] A) {
         List<String> list = new ArrayList<>();
@@ -23,4 +23,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

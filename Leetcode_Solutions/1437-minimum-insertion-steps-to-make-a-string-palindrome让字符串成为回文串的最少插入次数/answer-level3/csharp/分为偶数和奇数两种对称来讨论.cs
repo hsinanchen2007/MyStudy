@@ -1,9 +1,9 @@
-### 解题思路
-以左右两侧需要对称的部分 来计算最小插入字符数量
+// ### 解题思路
+// 以左右两侧需要对称的部分 来计算最小插入字符数量
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int,int>;
 class StrPal{
     //操作 Insert在某个位置 选择中心
@@ -58,4 +58,4 @@ public class Solution {
         return sp.MinInsertions(s);
     }
 }
-```
+// ```

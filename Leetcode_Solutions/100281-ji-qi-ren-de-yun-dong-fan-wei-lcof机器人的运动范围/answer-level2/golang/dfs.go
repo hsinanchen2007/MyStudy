@@ -1,15 +1,15 @@
-![1.PNG](https://pic.leetcode-cn.com/fe99a6f4b3d8bf6716cef65ddbd2e1f123c12af5af6e0cf8a967dd10cf18966a-1.PNG)
+// ![1.PNG](https://pic.leetcode-cn.com/fe99a6f4b3d8bf6716cef65ddbd2e1f123c12af5af6e0cf8a967dd10cf18966a-1.PNG)
 
-[leetcode-golang](https://github.com/laijinhang/leetcode-golang)
-### 解题思路
-两种解法：
-1、广度优先搜索（bfs、队列实现）
-2、深度优先搜索（dfs、栈实现）
+// [leetcode-golang](https://github.com/laijinhang/leetcode-golang)
+// ### 解题思路
+// 两种解法：
+// 1、广度优先搜索（bfs、队列实现）
+// 2、深度优先搜索（dfs、栈实现）
 
-下面的实现是dfs
-### 代码
+// 下面的实现是dfs
+// ### 代码
 
-```golang
+// ```golang
 func movingCount(m int, n int, k int) int {
 	arr := make([][]bool, m)
 	for i := 0;i < m;i++ {
@@ -36,4 +36,4 @@ func unitsDigitSum(a, b int) int {
 	}
 	return s
 }
-```
+// ```

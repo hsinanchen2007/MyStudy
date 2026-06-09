@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-两个字符串 所含字母完全相同,且所含字母个数相同
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 两个字符串 所含字母完全相同,且所含字母个数相同
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -38,4 +38,4 @@ var isAnagram = function(s, t) {
     return true
 
 };
-```
+// ```

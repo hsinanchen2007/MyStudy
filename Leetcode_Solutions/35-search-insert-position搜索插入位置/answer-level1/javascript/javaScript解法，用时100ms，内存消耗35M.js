@@ -1,4 +1,4 @@
-```
+// ```
 var searchInsert = function (nums, target) {
   let res = -1;
 //判断nums是否存在target的值
@@ -27,4 +27,4 @@ let indexValue = (arr, target) => {
   })
   return sub
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-dp
+// ### 解题思路
+// dp
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minPathSum(grid [][]int) int {
     n := len(grid)
     if n == 0 {
@@ -33,4 +33,4 @@ func min(a, b int) int {
         return b
     }
 }
-```
+// ```

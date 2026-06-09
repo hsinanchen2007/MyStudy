@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-因为遍历了两个数组一次，所以复杂度为m+n，空间复杂度也为m+n
-思路是遍历数组，小数进，大数等，直到两个数组都为空，然后在新的数组中找中位数
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 因为遍历了两个数组一次，所以复杂度为m+n，空间复杂度也为m+n
+// 思路是遍历数组，小数进，大数等，直到两个数组都为空，然后在新的数组中找中位数
+// ### 代码
 
-```c
+// ```c
 
 
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size)
@@ -82,4 +82,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
 }
 
 
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-(x, y)可以表示为整数k = x * rows + y
-恢复这个坐标只需要：
-x = k / rows;
-y = k % rows;
+// ### 解题思路
+// (x, y)可以表示为整数k = x * rows + y
+// 恢复这个坐标只需要：
+// x = k / rows;
+// y = k % rows;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int[] dx = {1, 0, -1, 0};
     int[] dy = {0, 1, 0, -1};
@@ -59,4 +59,4 @@ class Solution {
         return res == 0 ? -1 : res;
     }
 }
-```
+// ```

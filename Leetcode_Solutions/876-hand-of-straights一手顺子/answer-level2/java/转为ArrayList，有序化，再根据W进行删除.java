@@ -1,9 +1,9 @@
-### 解题思路
-1.array->arraylist并排序 2.用循环选出每一组数[min,min+1,...,min+W-1]并将他们从列表中删除（若找不到则false，若最后列表非空则false）
+// ### 解题思路
+// 1.array->arraylist并排序 2.用循环选出每一组数[min,min+1,...,min+W-1]并将他们从列表中删除（若找不到则false，若最后列表非空则false）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isNStraightHand(int[] hand, int W) {
         //hand不能被w整除
@@ -35,4 +35,4 @@ class Solution {
 		return false;
     	
 }
-```
+// ```

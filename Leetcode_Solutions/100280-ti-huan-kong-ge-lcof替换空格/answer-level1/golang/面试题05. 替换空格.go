@@ -1,9 +1,9 @@
-### 解题思路
-一顿操作,就行了
+// ### 解题思路
+// 一顿操作,就行了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func replaceSpace(s string) string {
 	// 1.如果为0
 	if len(s) == 0 {
@@ -42,4 +42,4 @@ func replaceSpace(s string) string {
 	return string(str)
 }
 
-```
+// ```

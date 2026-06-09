@@ -1,11 +1,11 @@
-### 解题思路
-将所有ListNode添加至List
-List排序
-List节点next:pq.get(i).next=pq.get(i+1);
+// ### 解题思路
+// 将所有ListNode添加至List
+// List排序
+// List节点next:pq.get(i).next=pq.get(i+1);
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return pq.get(0);
     }
 }
-```
+// ```

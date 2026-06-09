@@ -1,12 +1,12 @@
-### 解题思路
-`同leetcode106题类似`
-1. `先找到root的索引`
-2. `然后对root的左右子树进行遍历`
-3. `只要看好索引遍历位置就行，这种题要多画图 会容易理解一点`
+# ### 解题思路
+# `同leetcode106题类似`
+# 1. `先找到root的索引`
+# 2. `然后对root的左右子树进行遍历`
+# 3. `只要看好索引遍历位置就行，这种题要多画图 会容易理解一点`
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution(object):
         root.left = self.buildTree(preorder[1:pos+1],inorder[:pos])
         root.right = self.buildTree(preorder[pos+1:],inorder[pos+1:])
         return root
-```
+# ```

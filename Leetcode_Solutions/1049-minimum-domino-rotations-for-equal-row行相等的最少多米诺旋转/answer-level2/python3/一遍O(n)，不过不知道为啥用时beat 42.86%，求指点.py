@@ -1,10 +1,10 @@
-### 解题思路
-一遍O(n)遍历和O(1)遍历，挑候选项和统计两部分各自数值的数量
-一遍O(1)遍历计算返回结果
+# ### 解题思路
+# 一遍O(n)遍历和O(1)遍历，挑候选项和统计两部分各自数值的数量
+# 一遍O(1)遍历计算返回结果
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDominoRotations(self, A: List[int], B: List[int]) -> int:
         cnt, A_cnt, B_cnt = [0] * 7, [0] * 7, [0] * 7
@@ -29,4 +29,4 @@ class Solution:
         return res
         
 
-```
+# ```

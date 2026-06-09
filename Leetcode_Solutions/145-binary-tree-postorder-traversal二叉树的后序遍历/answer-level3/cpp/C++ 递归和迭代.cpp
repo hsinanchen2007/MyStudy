@@ -1,10 +1,10 @@
-### 解题思路
-分为 递归 和 迭代 两种，其中递归最为简单，只需先左后右的递归 最后再保存结点即可
-迭代 利用后序为前序结果逆序的特点进行运算
+// ### 解题思路
+// 分为 递归 和 迭代 两种，其中递归最为简单，只需先左后右的递归 最后再保存结点即可
+// 迭代 利用后序为前序结果逆序的特点进行运算
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -58,10 +58,10 @@ public:
         return res; 
     }
 };
-```
-递归：
-![TIM图片20191213113540.png](https://pic.leetcode-cn.com/0aebbd64761d1d35e9f9555ec9fc514f33bea3d10e8ac3c0cd68ab8b495da4eb-TIM%E5%9B%BE%E7%89%8720191213113540.png)
+// ```
+// 递归：
+// ![TIM图片20191213113540.png](https://pic.leetcode-cn.com/0aebbd64761d1d35e9f9555ec9fc514f33bea3d10e8ac3c0cd68ab8b495da4eb-TIM%E5%9B%BE%E7%89%8720191213113540.png)
 
-迭代：
-![1.png](https://pic.leetcode-cn.com/19dc22197cbb12a90f18b963aebdce50e6022a93cbd23b2a0790e0a10801922a-1.png)
+// 迭代：
+// ![1.png](https://pic.leetcode-cn.com/19dc22197cbb12a90f18b963aebdce50e6022a93cbd23b2a0790e0a10801922a-1.png)
 

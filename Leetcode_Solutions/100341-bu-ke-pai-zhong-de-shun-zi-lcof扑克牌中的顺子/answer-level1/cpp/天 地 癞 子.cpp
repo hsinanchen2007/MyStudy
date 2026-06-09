@@ -1,5 +1,5 @@
-先去掉大小王，再进行排序，遇到不是顺子的用0补齐，直到0个数用完
-```
+// 先去掉大小王，再进行排序，遇到不是顺子的用0补齐，直到0个数用完
+// ```
 bool isStraight(vector<int>& nums) {
         int king=0;
         for(int i=0;i<nums.size();){
@@ -16,4 +16,4 @@ bool isStraight(vector<int>& nums) {
         }
         return true;
     }
-```
+// ```

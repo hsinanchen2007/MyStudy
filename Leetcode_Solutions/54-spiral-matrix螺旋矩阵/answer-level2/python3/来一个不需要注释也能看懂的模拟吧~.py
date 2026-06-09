@@ -1,6 +1,6 @@
-看到官方题解有人说要加注释看不懂，那我来一个不需要注释就能看懂的吧。
-完全模拟手动：
-```python []
+# 看到官方题解有人说要加注释看不懂，那我来一个不需要注释就能看懂的吧。
+# 完全模拟手动：
+# ```python []
 class Solution:
     def spiralOrder(self, matrix):
 
@@ -44,6 +44,6 @@ class Solution:
     def turn(self, direction):
         convert = {'R': 'D', 'D': 'L', 'L': 'U', 'U': 'R'}
         return convert[direction]
-```
-`print` 打开就可以看到直观的过程啦~
-点个赞呗~
+# ```
+# `print` 打开就可以看到直观的过程啦~
+# 点个赞呗~

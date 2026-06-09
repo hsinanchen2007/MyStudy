@@ -1,9 +1,9 @@
-### 解题思路
-python3常规轮询
+# ### 解题思路
+# python3常规轮询
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def shortestToChar(self, S: str, C: str) -> List[int]:
         if not S:
@@ -34,4 +34,4 @@ class Solution:
 
         return ret_list
 
-```
+# ```

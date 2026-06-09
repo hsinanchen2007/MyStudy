@@ -1,9 +1,9 @@
-### 解题思路
-熟悉一下二分法，最后返回左边
+# ### 解题思路
+# 熟悉一下二分法，最后返回左边
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         left,right=0,len(nums)-1
@@ -21,4 +21,4 @@ class Solution:
 
        
 
-```
+# ```

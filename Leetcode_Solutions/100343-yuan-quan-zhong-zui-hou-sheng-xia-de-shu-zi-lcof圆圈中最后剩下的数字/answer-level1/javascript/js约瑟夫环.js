@@ -1,12 +1,12 @@
-### 解题思路
-约瑟夫环
-f(n,m)= ( f(n-1,m) % n + m) % n;
+// ### 解题思路
+// 约瑟夫环
+// f(n,m)= ( f(n-1,m) % n + m) % n;
 
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} m
@@ -22,4 +22,4 @@ var lastRemaining = function(n, m) {
     }
     return f;
 };
-```
+// ```

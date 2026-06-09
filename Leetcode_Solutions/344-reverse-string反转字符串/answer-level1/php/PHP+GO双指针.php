@@ -1,5 +1,5 @@
-可能写的比较啰嗦,但是很清晰
-```PHP []
+// 可能写的比较啰嗦,但是很清晰
+// ```PHP []
 class Solution {
 
     /**
@@ -18,8 +18,8 @@ class Solution {
         }        
     }
 }
-```
-```GO []
+// ```
+// ```GO []
 func reverseString(s []byte)  {
     l := 0
     r := len(s) - 1
@@ -29,4 +29,4 @@ func reverseString(s []byte)  {
         r--
     }
 }
-```
+// ```

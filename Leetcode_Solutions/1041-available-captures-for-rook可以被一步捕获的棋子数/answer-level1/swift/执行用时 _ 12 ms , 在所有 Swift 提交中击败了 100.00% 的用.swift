@@ -1,9 +1,9 @@
-### 解题思路
-取出横向和纵向数据，进行遍历
+// ### 解题思路
+// 取出横向和纵向数据，进行遍历
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
 
     func numRookCaptures(_ board: [[Character]]) -> Int {
@@ -107,4 +107,4 @@ class Solution {
         
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-遇到个坑，private的bool属性，为了保存状态设置成static，然鹅这玩意儿默认值是true。。怀疑人生为啥答案一直有问题。去掉就好了。
+// 遇到个坑，private的bool属性，为了保存状态设置成static，然鹅这玩意儿默认值是true。。怀疑人生为啥答案一直有问题。去掉就好了。
 
-coding：
+// coding：
 
-```
+// ```
 /*
  * @lc app=leetcode.cn id=67 lang=csharp
  *
@@ -112,4 +112,4 @@ public class Solution {
 }
 
 
-```
+// ```

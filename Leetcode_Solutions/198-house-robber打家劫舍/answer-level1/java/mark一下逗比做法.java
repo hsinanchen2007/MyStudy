@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         if (nums.length == 0) {
@@ -28,4 +28,4 @@ class Solution {
 }
 
 
-```
+// ```

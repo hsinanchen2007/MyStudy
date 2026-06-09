@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * 学习官方单调栈javascript解决方法
  * O(m + n)
@@ -24,9 +24,9 @@ var nextGreaterElement = function(nums1, nums2) {
     })
     return res
 };
-```
+// ```
 
-```
+// ```
 
 /**
  * 双重循环
@@ -51,4 +51,4 @@ var nextGreaterElement = function(nums1, nums2) {
     return array
 };
 
-```
+// ```

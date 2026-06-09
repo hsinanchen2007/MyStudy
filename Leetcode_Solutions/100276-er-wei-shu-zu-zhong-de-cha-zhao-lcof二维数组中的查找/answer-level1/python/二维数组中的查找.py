@@ -1,9 +1,9 @@
-### 解题思路
-从左上角或者右下角开始遍历的话，数值只能是递增或者递减，而从右上或者左下开始遍历，数值有两种走向
+# ### 解题思路
+# 从左上角或者右下角开始遍历的话，数值只能是递增或者递减，而从右上或者左下开始遍历，数值有两种走向
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findNumberIn2DArray(self, matrix, target):
         if not matrix:
@@ -19,4 +19,4 @@ class Solution(object):
             else:
                 i += 1
         return False
-```
+# ```

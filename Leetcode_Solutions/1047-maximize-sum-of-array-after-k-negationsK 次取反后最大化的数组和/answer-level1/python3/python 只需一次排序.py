@@ -1,10 +1,10 @@
-### 解题思路
-mis指向第二小的元素
-每次翻转后只需要将A[0]与A[mins]比较
+# ### 解题思路
+# mis指向第二小的元素
+# 每次翻转后只需要将A[0]与A[mins]比较
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def largestSumAfterKNegations(self, A, K):
         """
@@ -23,4 +23,4 @@ class Solution(object):
 
 
 
-```
+# ```

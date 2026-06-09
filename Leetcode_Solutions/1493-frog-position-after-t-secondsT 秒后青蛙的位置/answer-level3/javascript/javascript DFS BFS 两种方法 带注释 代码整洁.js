@@ -1,17 +1,17 @@
-### 解题思路
+// ### 解题思路
 
-第一步：建立树结构
-第二步：DFS 或 BFS 遍历，判断是否能在 t 时间内到达 target 节点。 这里的 t 可以理解为树的深度或者跳跃的步数。
+// 第一步：建立树结构
+// 第二步：DFS 或 BFS 遍历，判断是否能在 t 时间内到达 target 节点。 这里的 t 可以理解为树的深度或者跳跃的步数。
 
-在使用 DFS 和 BFS 算法时，不管什么题目，先把 DFS 和 BFS 的完整框架写出来。然后在添加目标变量的计算或者添加约束条件判断是否剪枝
+// 在使用 DFS 和 BFS 算法时，不管什么题目，先把 DFS 和 BFS 的完整框架写出来。然后在添加目标变量的计算或者添加约束条件判断是否剪枝
 
-### 代码
+// ### 代码
 
-方法一： DFS （推荐）
+// 方法一： DFS （推荐）
 
-DFS 过程中可以通过系统堆栈记录部分数据，一定程度上可以遍历过程中的变量维护。
+// DFS 过程中可以通过系统堆栈记录部分数据，一定程度上可以遍历过程中的变量维护。
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number[][]} edges
@@ -52,11 +52,11 @@ var frogPosition = function(n, edges, t, target) {
     }
   }
 }
-```
+// ```
 
-方法二： BFS
+// 方法二： BFS
 
-```javascript
+// ```javascript
 var frogPosition = function(n, edges, t, target) {
   let graph = Array(n + 1)
     .fill(0)
@@ -96,4 +96,4 @@ var frogPosition = function(n, edges, t, target) {
   }
   return 0
 }
-```
+// ```

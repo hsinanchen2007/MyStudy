@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode *reverse(struct ListNode *head,int k,struct ListNode **temp,struct ListNode *nexthead);
 struct ListNode* reverseKGroup(struct ListNode* head, int k){
     
@@ -43,5 +43,5 @@ struct ListNode *reverse(struct ListNode *head,int k,struct ListNode **temp,stru
     }                                                       
 
 
-```
-![image.png](https://pic.leetcode-cn.com/d2874d85e20f69c03a9a7067e569f45777310fbe056a6d1189bbb112871dcf91-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d2874d85e20f69c03a9a7067e569f45777310fbe056a6d1189bbb112871dcf91-image.png)

@@ -1,23 +1,23 @@
-# 思路
-可以想到的是 每次push时要存储 此时（插入该节点后） 的最小值 这样getmin时候才会o(1)
-也就是空间换时间
+// # 思路
+// 可以想到的是 每次push时要存储 此时（插入该节点后） 的最小值 这样getmin时候才会o(1)
+// 也就是空间换时间
 
-# 实现
-大体上可有以下几种实现方式
-    1.栈结点除val，next外还保存当前结点push后的最小值
-    2.栈结点除val，next外还保存一个指针指向当前最小值结点 
-    3.辅助栈  双栈   主栈push时 辅助栈push当前最小值(若有必要的话)
-                    主栈pop时 仅当两栈顶相同时辅助栈出栈
-    4.双push 每次push时先push此时最小值入栈 再push当前val
-            相应的 pop时也pop两次
-    5.数学方法 设置一个空间存储当前最小值，栈push最小值与当前val的差值
-                                通过计算可推前一个min值
+// # 实现
+// 大体上可有以下几种实现方式
+//     1.栈结点除val，next外还保存当前结点push后的最小值
+//     2.栈结点除val，next外还保存一个指针指向当前最小值结点 
+//     3.辅助栈  双栈   主栈push时 辅助栈push当前最小值(若有必要的话)
+//                     主栈pop时 仅当两栈顶相同时辅助栈出栈
+//     4.双push 每次push时先push此时最小值入栈 再push当前val
+//             相应的 pop时也pop两次
+//     5.数学方法 设置一个空间存储当前最小值，栈push最小值与当前val的差值
+//                                 通过计算可推前一个min值
 
-1、2、4方法也等同于3每次都push主栈的值(而非只push当前最小值）
-故真正效率的是方法3和方法5
+// 1、2、4方法也等同于3每次都push主栈的值(而非只push当前最小值）
+// 故真正效率的是方法3和方法5
 
-# 1 栈结点加min
-```
+// # 1 栈结点加min
+// ```
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -68,9 +68,9 @@ public:
         return min;
     }
 };
-```
-# 2 栈结点加ptr
-```
+// ```
+// # 2 栈结点加ptr
+// ```
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -132,9 +132,9 @@ public:
         return min;
     }
 };
-```
-# 3 辅助栈
-```
+// ```
+// # 3 辅助栈
+// ```
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -192,9 +192,9 @@ public:
         return min;
     }
 };
-```
-# 4 双push
-```
+// ```
+// # 4 双push
+// ```
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -250,7 +250,7 @@ public:
         return -1;
     }
 };
-```
-# 5 数学方法 （待更）
+// ```
+// # 5 数学方法 （待更）
 
 

@@ -1,4 +1,4 @@
-```
+// ```
 // BFS 非递归版本
 var minDepth = function(root) {
 	if(!root) return 0;
@@ -31,5 +31,5 @@ var minDepth = function(root) {
 	})(root, 0);
 	return res;
 };
-```
+// ```
 

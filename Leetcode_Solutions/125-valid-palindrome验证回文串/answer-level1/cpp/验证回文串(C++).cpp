@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-就是双指针，isalnum(char ), tolower(char )这三个东西的使用。 
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 就是双指针，isalnum(char ), tolower(char )这三个东西的使用。 
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -27,4 +27,4 @@ public:
         return false;
     }
 };
-```
+// ```

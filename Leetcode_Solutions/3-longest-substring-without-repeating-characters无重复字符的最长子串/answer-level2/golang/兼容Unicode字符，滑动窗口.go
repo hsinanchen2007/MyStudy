@@ -1,6 +1,6 @@
-兼容Unicode字符，滑动窗口
+// 兼容Unicode字符，滑动窗口
 
-```go
+// ```go
 func lengthOfLongestSubstring(s string) int {
     var start, max int
     q := make(map[rune]int)
@@ -17,4 +17,4 @@ func lengthOfLongestSubstring(s string) int {
     }
     return max
 }
-```
+// ```

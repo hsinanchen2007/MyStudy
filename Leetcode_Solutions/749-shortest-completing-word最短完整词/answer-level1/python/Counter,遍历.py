@@ -1,9 +1,9 @@
-### 解题思路
-按部就班
+# ### 解题思路
+# 按部就班
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def shortestCompletingWord(self, licensePlate, words):
         """
@@ -40,4 +40,4 @@ class Solution(object):
                     result=word if len(result)>len(word) else result
         return result
         
-```
+# ```

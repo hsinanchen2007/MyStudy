@@ -1,5 +1,5 @@
-# **用mutex和condition_variable**
-```
+// # **用mutex和condition_variable**
+// ```
 class ZeroEvenOdd {
 private:
     int n;
@@ -60,5 +60,5 @@ private:
     bool odd_printed;
     bool zero_printed;
 };
-```
+// ```
 

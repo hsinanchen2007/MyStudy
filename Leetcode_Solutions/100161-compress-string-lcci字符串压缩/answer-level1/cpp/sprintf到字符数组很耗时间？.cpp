@@ -1,12 +1,12 @@
-### 解题思路
-用了栈。感觉自己好傻。
-一开始提交了几次还超时了。
-一开始为了连接字符串，sprintf到数组，然后再赋值回来给string。后来改成直接用string.push_pack连接字符，用append(to_string(num)连接数字，时间就不超时，可以提交了。
-看来中间折腾字符数组赋值很耗时间啊？
+// ### 解题思路
+// 用了栈。感觉自己好傻。
+// 一开始提交了几次还超时了。
+// 一开始为了连接字符串，sprintf到数组，然后再赋值回来给string。后来改成直接用string.push_pack连接字符，用append(to_string(num)连接数字，时间就不超时，可以提交了。
+// 看来中间折腾字符数组赋值很耗时间啊？
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string compressString(string S) {
@@ -56,4 +56,4 @@ public:
                 return S;
     }
 };
-```
+// ```

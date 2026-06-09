@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-本题的关键点在于（1）识别到所有从根节点到叶子节点的所有路径（2）怎么保存寻到的路径？
+// 本题的关键点在于（1）识别到所有从根节点到叶子节点的所有路径（2）怎么保存寻到的路径？
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -87,4 +87,4 @@ int** pathSum(struct TreeNode* root, int sum, int* returnSize, int** returnColum
     }
 }
 
-```
+// ```

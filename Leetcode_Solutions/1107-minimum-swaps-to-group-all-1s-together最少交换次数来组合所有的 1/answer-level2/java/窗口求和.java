@@ -1,6 +1,6 @@
-先记录起始到每个点的总和，窗口大小为1的总个数，窗口右端总和减去左端总和就是窗口内1的个数。取最大
+// 先记录起始到每个点的总和，窗口大小为1的总个数，窗口右端总和减去左端总和就是窗口内1的个数。取最大
 
-```java
+// ```java
 class Solution {
     public int minSwaps(int[] data) {
         int[] sums = new int[data.length + 1];
@@ -25,4 +25,4 @@ class Solution {
         return k - maxOnes;
     }
 }
-```
+// ```

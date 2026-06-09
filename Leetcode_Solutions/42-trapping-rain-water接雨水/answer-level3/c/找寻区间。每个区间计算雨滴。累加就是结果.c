@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-1 找寻左边起点start。height[start]不能是0，并且height[start+1]要小于height[start]
-2 右边起点next。从start往右找寻。如果height[next] >=height[start]。那么nex就是右边区间点。
-  否则从start右边找到height[next]最大的值。该值就是右边区间点。
-3 计算start到next区间的值。计算完毕后让start = next， next = start+1再进行处理
+// ### 解题思路
+// 此处撰写解题思路
+// 1 找寻左边起点start。height[start]不能是0，并且height[start+1]要小于height[start]
+// 2 右边起点next。从start往右找寻。如果height[next] >=height[start]。那么nex就是右边区间点。
+//   否则从start右边找到height[next]最大的值。该值就是右边区间点。
+// 3 计算start到next区间的值。计算完毕后让start = next， next = start+1再进行处理
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 //计算某个区间的total值。需要找到区间最小值。然后相减。
 int calculateValueBetween(int *array, int start, int end) {
@@ -82,4 +82,4 @@ int trap(int* height, int heightSize){
     }
     return totalRain;
 }
-```
+// ```

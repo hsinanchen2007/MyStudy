@@ -1,10 +1,10 @@
-### 解题思路
-从“1”开始逐个计算至第n项。
-想要求出下一项只需遍历一次当前项
+// ### 解题思路
+// 从“1”开始逐个计算至第n项。
+// 想要求出下一项只需遍历一次当前项
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
         if (n == 1) {
@@ -35,4 +35,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

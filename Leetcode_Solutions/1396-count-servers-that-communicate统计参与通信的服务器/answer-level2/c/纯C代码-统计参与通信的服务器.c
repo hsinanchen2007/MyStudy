@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countServers(int** grid, int gridSize, int* gridColSize){
     bool flag[gridSize];
     int i, j, cnt, cnt1;
@@ -38,4 +38,4 @@ int countServers(int** grid, int gridSize, int* gridColSize){
 
     return sum;
 }
-```
+// ```

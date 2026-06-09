@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /*
  * @lc app=leetcode.cn id=15 lang=javascript
  *
@@ -44,4 +44,4 @@ var threeSum = function(nums) {
 };
 // @lc code=end
 
-```
+// ```

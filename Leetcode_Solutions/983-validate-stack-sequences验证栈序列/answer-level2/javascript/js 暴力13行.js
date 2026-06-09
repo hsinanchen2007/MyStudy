@@ -1,5 +1,5 @@
-js 暴力13行
-```js
+// js 暴力13行
+// ```js
 var validateStackSequences = function(pushed, popped) {
     const stask = [];
     let popHead = 0, j;
@@ -15,4 +15,4 @@ var validateStackSequences = function(pushed, popped) {
     }
     return popHead === pushed.length;
 };
-```
+// ```

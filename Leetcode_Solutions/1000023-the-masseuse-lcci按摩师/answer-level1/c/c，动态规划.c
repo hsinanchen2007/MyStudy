@@ -1,12 +1,12 @@
-### 解题思路
-状态转移：dp[i] = fmax(dp[i-2] + nums[i], dp[i-1]-nums[i-1]+nums[i]);
-即
-1. 前两个最大值+当前节点值
-2. 前三个最大值（前一个的最大值-前一个节点值）+当前节点值
+// ### 解题思路
+// 状态转移：dp[i] = fmax(dp[i-2] + nums[i], dp[i-1]-nums[i-1]+nums[i]);
+// 即
+// 1. 前两个最大值+当前节点值
+// 2. 前三个最大值（前一个的最大值-前一个节点值）+当前节点值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int massage(int* nums, int numsSize){
     if (!nums || numsSize == 0) return 0;
 
@@ -26,4 +26,4 @@ int massage(int* nums, int numsSize){
 
     return ans;
 }
-```
+// ```

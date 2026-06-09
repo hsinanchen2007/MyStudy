@@ -1,9 +1,9 @@
-### 解题思路
-基础版
+// ### 解题思路
+// 基础版
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} ops
  * @return {number}
@@ -34,4 +34,4 @@ var calPoints = function(ops) {
     return total + num
   })
 };
-```
+// ```

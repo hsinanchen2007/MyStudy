@@ -1,9 +1,9 @@
-### 解题思路
-参考https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/solution/shen-sou-hui-su-by-hanwn/
-用'.'代替已经匹配的字符，不需要再传入辅助数组。
-### 代码
+// ### 解题思路
+// 参考https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/solution/shen-sou-hui-su-by-hanwn/
+// 用'.'代替已经匹配的字符，不需要再传入辅助数组。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int dir[4][2] = {{0,1},{0,-1},{1,0},{-1,0}};

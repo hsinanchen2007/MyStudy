@@ -1,8 +1,8 @@
-受@pwrliang 的题解启发， 用C++实现了一遍
-详情请参照
-https://leetcode-cn.com/problems/reconstruct-itinerary/solution/javadfsjie-fa-by-pwrliang/
+// 受@pwrliang 的题解启发， 用C++实现了一遍
+// 详情请参照
+// https://leetcode-cn.com/problems/reconstruct-itinerary/solution/javadfsjie-fa-by-pwrliang/
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findItinerary(vector<vector<string>>& tickets) {
@@ -28,4 +28,4 @@ public:
         itinerary.push_front(from);
     }
 };
-```
+// ```

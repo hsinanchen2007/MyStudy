@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int minAreaRect(int[][] points) {
         Set<Point> set = new HashSet<>();
@@ -54,4 +54,4 @@ class Solution {
     }
 
 }
-```
+// ```

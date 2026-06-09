@@ -1,9 +1,9 @@
-### 解题思路
-用完map之后发现用set更加简单明了了，基础还是不够牢啊
+// ### 解题思路
+// 用完map之后发现用set更加简单明了了，基础还是不够牢啊
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -17,4 +17,4 @@ var containsDuplicate = function(nums) {
     }
     return false;
 };
-```
+// ```

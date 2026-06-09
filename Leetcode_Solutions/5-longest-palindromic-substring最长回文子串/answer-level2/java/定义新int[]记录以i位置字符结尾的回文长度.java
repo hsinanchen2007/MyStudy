@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-定义int[] length 记录以i位置字符结尾的回文长度，根据长度，可以推算出回文开始字符的坐标，
+// 定义int[] length 记录以i位置字符结尾的回文长度，根据长度，可以推算出回文开始字符的坐标，
 
-以 `cbabac` 举例，当i = 1、2 时，回文长度都是1，此时length = {1,1,1,0,0,0}
+// 以 `cbabac` 举例，当i = 1、2 时，回文长度都是1，此时length = {1,1,1,0,0,0}
 
-当 i = 3 时，取a前面的字符b，判断相等，则 i=3位置的回文长度为 length[2] + 2
+// 当 i = 3 时，取a前面的字符b，判断相等，则 i=3位置的回文长度为 length[2] + 2
 
-当 i = 4 时，取`bab`前面的字符`c`,不匹配，此时遍历`baba`，获取以 i = 4 位置结尾的回文长度，并记录到length
+// 当 i = 4 时，取`bab`前面的字符`c`,不匹配，此时遍历`baba`，获取以 i = 4 位置结尾的回文长度，并记录到length
 
-### java代码
+// ### java代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
         // corner case
@@ -68,4 +68,4 @@ class Solution {
         return s.substring(maxIdx - length[maxIdx] + 1, maxIdx + 1);
     }
 }
-```
+// ```

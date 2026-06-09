@@ -1,12 +1,12 @@
-### 解题思路
-#### 法一：排序
-直接将B放入A后面，然后排序.
-时间复杂度`O((m+n)log(m+n))`
-空间复杂度`O(1)`
+// ### 解题思路
+// #### 法一：排序
+// 直接将B放入A后面，然后排序.
+// 时间复杂度`O((m+n)log(m+n))`
+// 空间复杂度`O(1)`
 
-#### 代码
+// #### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         for (int i = 0; i < n; i++) {
@@ -15,15 +15,15 @@ class Solution {
         Arrays.sort(A);
     }
 }
-```
+// ```
 
-#### 法二：双指针
-两指针分别指向A和B的开头，较小值放入新数组C中。
-时间复杂度`O(m+n)`
-空间复杂度`O(m+n)`
+// #### 法二：双指针
+// 两指针分别指向A和B的开头，较小值放入新数组C中。
+// 时间复杂度`O(m+n)`
+// 空间复杂度`O(m+n)`
 
-#### 代码
-```java
+// #### 代码
+// ```java
 public static void merge(int[] A, int m, int[] B, int n) {
         List<Integer> temp = new ArrayList<>();
         int i = 0, j = 0;
@@ -51,15 +51,15 @@ public static void merge(int[] A, int m, int[] B, int n) {
             A[k] = temp.get(k);
         }
     }
-```
+// ```
 
-#### 法三：双指针不用额外数组
-从后向前比较，大者放入A的尾部。
-时间复杂度`O(m+n)`
-空间复杂度`O(1)`
+// #### 法三：双指针不用额外数组
+// 从后向前比较，大者放入A的尾部。
+// 时间复杂度`O(m+n)`
+// 空间复杂度`O(1)`
 
-#### 代码
-```java
+// #### 代码
+// ```java
 public void merge(int[] A, int m, int[] B, int n) {
         int i = m-1;
         int j = n-1;
@@ -84,4 +84,4 @@ public void merge(int[] A, int m, int[] B, int n) {
             }
         }
     }
-```
+// ```

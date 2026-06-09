@@ -1,6 +1,6 @@
-# 参考热评01背包解法，通过golang实现
+// # 参考热评01背包解法，通过golang实现
 
-```
+// ```
 //动态规划(0-1背包问题)
 func findTargetSumWays(nums []int, S int) int {
     if len(nums)==0 || nums==nil{
@@ -29,6 +29,6 @@ func findTargetSumWays(nums []int, S int) int {
     }
     return dp[sum/2]
 }
-```
-## 01背包的实现原理详见热评，写的时候只需要注意给的案例有时S会很大，nums的和小于S，直接返回0即可
-## 剩下的直接套用01背包的模板就行
+// ```
+// ## 01背包的实现原理详见热评，写的时候只需要注意给的案例有时S会很大，nums的和小于S，直接返回0即可
+// ## 剩下的直接套用01背包的模板就行

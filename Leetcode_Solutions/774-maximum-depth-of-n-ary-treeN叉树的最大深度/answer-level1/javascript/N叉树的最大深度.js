@@ -1,4 +1,4 @@
-```
+// ```
 /**
   function Node (v, childs) {
     this.v = v
@@ -27,16 +27,16 @@ function maxDepth (root) {
   }
   return result
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/c2381d971901f5a83207a20b663f6ec94e4735ddb2e697568ea772ad3a39202e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c2381d971901f5a83207a20b663f6ec94e4735ddb2e697568ea772ad3a39202e-image.png)
 
-不多比比， 直接看代码
+// 不多比比， 直接看代码
 
 
-吐槽一句：题目中给的是
+// 吐槽一句：题目中给的是
 
-```
+// ```
 /**
   function Node (v, childs) {
     this.v = v
@@ -53,4 +53,4 @@ function maxDepth (root) {
     this.children = children
   }
 */
-```
+// ```

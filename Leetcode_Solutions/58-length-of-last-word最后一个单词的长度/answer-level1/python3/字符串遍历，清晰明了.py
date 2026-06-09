@@ -1,5 +1,5 @@
-正序遍历，倒序遍历可能会快点
-```
+# 正序遍历，倒序遍历可能会快点
+# ```
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         i = 0
@@ -21,4 +21,4 @@ class Solution:
                 return result[i]
         if result[0] == 0:  # 长度全为0的情况
             return 0     
-```
+# ```

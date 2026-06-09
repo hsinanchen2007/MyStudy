@@ -1,9 +1,9 @@
-### 解题思路
-执行一遍看打印的输出，秒懂Debug过程
+// ### 解题思路
+// 执行一遍看打印的输出，秒懂Debug过程
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<vector<int>> permuteUnique(vector<int>& nums) {
@@ -46,4 +46,4 @@ public:
 private:
 	vector<vector<int>> res;
 };
-```
+// ```

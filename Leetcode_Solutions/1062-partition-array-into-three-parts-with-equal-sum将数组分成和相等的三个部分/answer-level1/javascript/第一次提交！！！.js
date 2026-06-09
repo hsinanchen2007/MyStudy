@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} A
  * @return {boolean}
@@ -14,4 +14,4 @@ var canThreePartsEqualSum = function (A) {
     }
     return count >= 3 || false
 };
-```
+// ```

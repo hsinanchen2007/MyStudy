@@ -1,9 +1,9 @@
-### 解题思路
-变量有点多，Xab中X代表横坐标，a代表正方形序号，b代表左上右下边（1，2，3，4）。
+// ### 解题思路
+// 变量有点多，Xab中X代表横坐标，a代表正方形序号，b代表左上右下边（1，2，3，4）。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<double> cutSquares(vector<int>& square1, vector<int>& square2) {
@@ -137,4 +137,4 @@ public:
         
     }
 };
-```
+// ```

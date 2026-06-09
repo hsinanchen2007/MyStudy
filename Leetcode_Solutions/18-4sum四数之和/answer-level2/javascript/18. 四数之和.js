@@ -1,12 +1,12 @@
-#### 解法：双指针
-+ 类似题型解法
-  + [16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/solution/16-zui-jie-jin-de-san-shu-zhi-he-by-alexer-660/)
-+ 思路
-  + 与16题类似，16是固定第一个数，另外两个数用左右指针
-  + 此题固定两个数，另外两个数同样用移动的双指针寻找，更新比较与 target 的大小
-    + 固定的两个数用双循环
-  + 注意剪枝和去重
-```javascript
+// #### 解法：双指针
+// + 类似题型解法
+//   + [16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/solution/16-zui-jie-jin-de-san-shu-zhi-he-by-alexer-660/)
+// + 思路
+//   + 与16题类似，16是固定第一个数，另外两个数用左右指针
+//   + 此题固定两个数，另外两个数同样用移动的双指针寻找，更新比较与 target 的大小
+//     + 固定的两个数用双循环
+//   + 注意剪枝和去重
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -44,4 +44,4 @@ var fourSum = function(nums, target) {
     }
     return res;
 };
-```
+// ```

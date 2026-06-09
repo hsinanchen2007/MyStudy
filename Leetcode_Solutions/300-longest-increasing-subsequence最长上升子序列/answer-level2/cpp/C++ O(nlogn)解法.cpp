@@ -1,9 +1,9 @@
-### 解题思路
-利用patience sort排序。
-如果发现更大的值，直接增加堆数；否则更新刚好大于新值的堆顶。
-### 代码
+// ### 解题思路
+// 利用patience sort排序。
+// 如果发现更大的值，直接增加堆数；否则更新刚好大于新值的堆顶。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lowerBound(const vector<int>& nums, int value){
@@ -41,4 +41,4 @@ public:
             return seq.size();
     }
 };
-```
+// ```

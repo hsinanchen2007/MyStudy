@@ -1,9 +1,9 @@
-### 解题思路
-先在原地反转链表。
+# ### 解题思路
+# 先在原地反转链表。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             num.append(node.val)
             node = node.next
         return num
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-我们检查每个字符串的每一列是否是有序的。如果它无序，则将答案增加 1
+// ### 解题思路
+// 我们检查每个字符串的每一列是否是有序的。如果它无序，则将答案增加 1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minDeletionSize(String[] A) {
         int res = 0;
@@ -22,4 +22,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

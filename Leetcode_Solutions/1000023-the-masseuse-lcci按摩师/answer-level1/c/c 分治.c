@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int divide(int *nums, int i, int j, int numsSize){
     int max=0,x1=0,x2=0;
     int l1,l2,r1,r2;
@@ -47,4 +47,4 @@ int massage(int* nums, int numsSize){
     if(numsSize==0)return 0;
     return divide(nums, 0, numsSize-1, numsSize);
 }
-```
+// ```

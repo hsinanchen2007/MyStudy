@@ -1,6 +1,6 @@
-遍历最小数
-取余拿到每一位
-```
+// 遍历最小数
+// 取余拿到每一位
+// ```
 int sumOfDigits(int* A, int ASize){
     int min = 0x7FFFFFFF;
     int sum = 0;
@@ -23,4 +23,4 @@ int sumOfDigits(int* A, int ASize){
     }
     return sum & 1 == 1 ? 0 : 1;
 }
-```
+// ```

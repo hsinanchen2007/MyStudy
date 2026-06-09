@@ -1,6 +1,6 @@
-1. 先排序, 在第奇数位置求和
+# 1. 先排序, 在第奇数位置求和
 
-```
+# ```
 class Solution(object):
     def arrayPairSum(self, nums):
         """
@@ -15,10 +15,10 @@ class Solution(object):
           SUM += data[i]
           i += 2
         return SUM
-```
+# ```
 
-更简单写法
-```
+# 更简单写法
+# ```
 class Solution(object):
     def arrayPairSum(self, nums):
         """
@@ -26,4 +26,4 @@ class Solution(object):
         :rtype: int
         """
         return sum(sorted(nums)[::2])
-```
+# ```

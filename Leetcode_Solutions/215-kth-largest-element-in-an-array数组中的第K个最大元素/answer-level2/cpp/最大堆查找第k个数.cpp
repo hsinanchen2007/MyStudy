@@ -1,11 +1,11 @@
-### 解题思路
-1.建立一个大小为k的最大堆
-2.如果最大堆中元素个数小于k则元素入堆
-3.如果新加入的元素与top相比较，大于top，则弹出top，将该元素入堆
-4.最后top即为第k个数
-### 代码
+// ### 解题思路
+// 1.建立一个大小为k的最大堆
+// 2.如果最大堆中元素个数小于k则元素入堆
+// 3.如果新加入的元素与top相比较，大于top，则弹出top，将该元素入堆
+// 4.最后top即为第k个数
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -23,4 +23,4 @@ public:
         return max_queue.top();
     }    
 };
-```
+// ```

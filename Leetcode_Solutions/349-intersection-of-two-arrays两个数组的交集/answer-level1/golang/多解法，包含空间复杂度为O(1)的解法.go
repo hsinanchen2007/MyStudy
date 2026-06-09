@@ -1,4 +1,4 @@
-```
+// ```
 /*
 1。借助一个set解决
 复杂度：
@@ -94,4 +94,4 @@ func intersection(nums1 []int, nums2 []int) []int {
 	}
 	return nums1[:k]
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-动态规划
-考虑初始化时候的阻挡
+# ### 解题思路
+# 动态规划
+# 考虑初始化时候的阻挡
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         m = len(obstacleGrid)
@@ -32,4 +32,4 @@ class Solution:
             
         return obstacleGrid[-1][-1]
 
-```
+# ```

@@ -1,6 +1,6 @@
-# 1、数字可能不是一位。2、动态规划防止超时。
+// # 1、数字可能不是一位。2、动态规划防止超时。
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -43,4 +43,4 @@ char** findLongestSubarray(char** array, int arraySize, int* returnSize){
     sums = NULL;
     return array + start;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-使用map来统计频率，在使用最大堆来得到频率的排序，从而每次选择最大会第二大的频率来填充数组。
-```livescript
+// 使用map来统计频率，在使用最大堆来得到频率的排序，从而每次选择最大会第二大的频率来填充数组。
+// ```livescript
 public int[] rearrangeBarcodes(int[] barcodes) {
 
         PriorityQueue<Map.Entry<Integer,Integer>> queue = new PriorityQueue<>(((o1, o2) -> o2.getValue()-o1.getValue()));
@@ -33,4 +33,4 @@ public int[] rearrangeBarcodes(int[] barcodes) {
         return res;
     }
         
-```
+// ```

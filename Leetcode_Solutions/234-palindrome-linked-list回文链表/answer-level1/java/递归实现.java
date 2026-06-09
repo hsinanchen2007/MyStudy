@@ -1,5 +1,5 @@
-就是.....能跑emmmmmm
-```
+// 就是.....能跑emmmmmm
+// ```
 public boolean isPalindrome(ListNode head) {
     return head==null?true:(merg(head,head)==null?true:false);
 
@@ -16,4 +16,4 @@ public ListNode merg(ListNode start,ListNode end){
         return start.val == end.val?start.next:start;
     }
 }
-```
+// ```

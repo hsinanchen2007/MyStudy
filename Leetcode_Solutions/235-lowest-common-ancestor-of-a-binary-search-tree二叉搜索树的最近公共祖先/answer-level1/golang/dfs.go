@@ -1,6 +1,6 @@
-# dfs
+// # dfs
 
-```golang
+// ```golang
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	if p.Val < root.Val && q.Val < root.Val {
 		return lowestCommonAncestor(root.Left, p, q)
@@ -12,6 +12,6 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 
 	return root
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
+// [Go版本 Github](https://github.com/temporaries/leetcode)

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/79cd0fa6f1af762a7cbaed643425e713f8a2b5d5bb2ba7245da127954719260a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/79cd0fa6f1af762a7cbaed643425e713f8a2b5d5bb2ba7245da127954719260a-image.png)
 
-代码如下
-```
+// 代码如下
+// ```
       public boolean CheckPermutation(String s1, String s2) {
         if (s1==null && s2 == null){
             return true;
@@ -28,4 +28,4 @@
         }
         return true;
     }
-```
+// ```

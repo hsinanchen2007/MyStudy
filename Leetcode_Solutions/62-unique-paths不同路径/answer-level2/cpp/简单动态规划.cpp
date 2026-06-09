@@ -1,9 +1,9 @@
-与题目14 礼物最大值类似
-状态转移方程为：dp[i][j] = dp[i][j - 1] + dp[i - 1][j]
-可以优化为一维的动态数组
-代码如下：
-二维的dp
-```
+// 与题目14 礼物最大值类似
+// 状态转移方程为：dp[i][j] = dp[i][j - 1] + dp[i - 1][j]
+// 可以优化为一维的动态数组
+// 代码如下：
+// 二维的dp
+// ```
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -29,9 +29,9 @@ public:
         return dp[m - 1][n - 1];
     }
 };
-```
-优化后的一维dp：
-```
+// ```
+// 优化后的一维dp：
+// ```
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -56,4 +56,4 @@ public:
         return dp[n - 1];
     }
 };
-```
+// ```

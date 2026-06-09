@@ -1,12 +1,12 @@
-### 解题思路
-DP 
-dp[i] = dp[i - 1] 如果 str[i-1:i-2] 大于26
-dp[i] = dp[i - 1] + dp[i - 2] 如果 str[i-1:i-2] 大于0 小于等于26
-dp[i] = 0 如果str[i - 1] = 0
+// ### 解题思路
+// DP 
+// dp[i] = dp[i - 1] 如果 str[i-1:i-2] 大于26
+// dp[i] = dp[i - 1] + dp[i - 2] 如果 str[i-1:i-2] 大于0 小于等于26
+// dp[i] = 0 如果str[i - 1] = 0
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func numDecodings(_ s: String) -> Int {
         let str = Array(s)
@@ -34,4 +34,4 @@ class Solution {
         return dp[len]
     }
 }
-```
+// ```

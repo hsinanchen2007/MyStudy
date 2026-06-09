@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select table1.product_id,ifnull(table3.new_price,10) as price from products table1 left join
 (select table1.* from products as table1 inner join
@@ -18,4 +18,4 @@ order by table1.product_id asc
 
 
 
-```
+-- ```

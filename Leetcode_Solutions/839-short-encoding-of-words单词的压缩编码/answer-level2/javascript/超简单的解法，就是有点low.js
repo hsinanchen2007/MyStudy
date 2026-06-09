@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var minimumLengthEncoding = function(words) {
   words = words.sort((a, b) => b.length - a.length)
   let word = ''
@@ -15,4 +15,4 @@ var minimumLengthEncoding = function(words) {
   return word.length
 };
 
-```
+// ```

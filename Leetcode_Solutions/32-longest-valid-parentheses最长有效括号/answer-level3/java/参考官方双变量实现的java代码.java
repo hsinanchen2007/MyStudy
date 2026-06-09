@@ -1,6 +1,6 @@
-一共扫描两次，一次从左到右，可以排除右括号多的时候错误的情况
-一次从右到左，可以排除左括号多的情况，两种情况综合取最大数
-```
+// 一共扫描两次，一次从左到右，可以排除右括号多的时候错误的情况
+// 一次从右到左，可以排除左括号多的情况，两种情况综合取最大数
+// ```
 class Solution {
     public int longestValidParentheses(String s) {
         if(s == null || s.equals("")) return 0;
@@ -42,4 +42,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

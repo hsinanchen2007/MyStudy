@@ -1,5 +1,5 @@
-稍微有点取巧的做法，reverse函数也可以用双指针实现。
-```
+// 稍微有点取巧的做法，reverse函数也可以用双指针实现。
+// ```
 class Solution 
 {
     public String reverseWords(String s) 
@@ -15,4 +15,4 @@ class Solution
         return sb.substring(0,sb.length()-1);
     }
 }
-```
+// ```

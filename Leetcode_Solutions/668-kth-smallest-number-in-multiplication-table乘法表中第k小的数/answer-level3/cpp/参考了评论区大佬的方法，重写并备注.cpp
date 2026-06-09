@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     //Binary Search for value
@@ -26,5 +26,5 @@ public:
     }
 };
 
-```
+// ```
 

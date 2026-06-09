@@ -1,12 +1,12 @@
-### 解题思路
-特殊情况:
-    1.A、B长度不等或任一长度小于2，return false
-    2.A==B，如果任一字符串内存在重复字符，return true;
-特殊情况之外:
-    按位比对不相同的字符个数，不为2则 return false，若为2 且 A[i]==B[j]&&A[j]==B[i]则 return         true,否则 return false
-### 代码
+// ### 解题思路
+// 特殊情况:
+//     1.A、B长度不等或任一长度小于2，return false
+//     2.A==B，如果任一字符串内存在重复字符，return true;
+// 特殊情况之外:
+//     按位比对不相同的字符个数，不为2则 return false，若为2 且 A[i]==B[j]&&A[j]==B[i]则 return         true,否则 return false
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} A
  * @param {string} B
@@ -56,4 +56,4 @@ function hasSame(str){
         return false;
     }
 }
-```
+// ```

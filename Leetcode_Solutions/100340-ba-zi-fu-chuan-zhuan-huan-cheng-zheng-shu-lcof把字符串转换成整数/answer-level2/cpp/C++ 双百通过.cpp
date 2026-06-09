@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/83acf315825d2d2b2808927dd6d3915d80ffde3c4c800950ba2e4e0fb7abcf7b-image.png)
-参考自[@aift](/u/aift/)的思路
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/83acf315825d2d2b2808927dd6d3915d80ffde3c4c800950ba2e4e0fb7abcf7b-image.png)
+// 参考自[@aift](/u/aift/)的思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int strToInt(string str) {
@@ -35,4 +35,4 @@ public:
 		return flag ? res : -res;
 	}
 };
-```
+// ```

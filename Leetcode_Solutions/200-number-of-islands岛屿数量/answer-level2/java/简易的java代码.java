@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numIslands(char[][] grid){
 		if(grid.length == 0){
@@ -36,8 +36,8 @@ class Solution {
 		return 0;
 	}
 }
-```
+// ```
 
-### 欢迎与我交流
+// ### 欢迎与我交流
 
-![wechat.png](https://pic.leetcode-cn.com/97af6298932bd70a35e62fe4d2627ec7bd326b09fcde623c24da6cd8bfc2a943-wechat.png)
+// ![wechat.png](https://pic.leetcode-cn.com/97af6298932bd70a35e62fe4d2627ec7bd326b09fcde623c24da6cd8bfc2a943-wechat.png)

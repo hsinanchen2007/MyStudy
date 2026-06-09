@@ -1,6 +1,6 @@
-[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_136_singleNumber.java)
+// [Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_136_singleNumber.java)
 
-```java
+// ```java
     /**
      * 思考：
      * 线性的时间复杂度就是O(n)，不适用额外空间也就是最好常量级空间也不要有
@@ -25,4 +25,4 @@
         }
         return bit;
     }
-```
+// ```

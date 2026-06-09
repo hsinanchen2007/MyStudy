@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_CHARACTOR_NUM 26
 
 typedef struct tire_node{
@@ -98,4 +98,4 @@ void trieFree(Trie* obj) {
  
  * trieFree(obj);
 */
-```
+// ```

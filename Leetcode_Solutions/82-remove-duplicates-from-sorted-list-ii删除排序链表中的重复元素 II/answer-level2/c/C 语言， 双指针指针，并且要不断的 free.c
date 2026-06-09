@@ -1,9 +1,9 @@
-### 解题思路
-使用一个指针squEnd， 指向无重复链表的最后一个元素。逐个检查链表中的值， 遇到与下一个节点数值相同的， 就找到与相同数据的最后一个节点， 并更新 squEnd
+// ### 解题思路
+// 使用一个指针squEnd， 指向无重复链表的最后一个元素。逐个检查链表中的值， 遇到与下一个节点数值相同的， 就找到与相同数据的最后一个节点， 并更新 squEnd
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     free(dummyHead);
     return ret;
 }
-```
+// ```

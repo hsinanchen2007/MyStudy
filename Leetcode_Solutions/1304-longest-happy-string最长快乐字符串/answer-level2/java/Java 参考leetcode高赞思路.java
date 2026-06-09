@@ -1,11 +1,11 @@
-### 解题思路
-每次都选择数量最多的字符，然后append 两个该字符，如果append两个字符之后的数量仍大于排名第二的字符，就append一个排名第二的字符。
+// ### 解题思路
+// 每次都选择数量最多的字符，然后append 两个该字符，如果append两个字符之后的数量仍大于排名第二的字符，就append一个排名第二的字符。
 
-当排名第二的字符是0个的时候，append min(2, 第一个字符的剩余数量)
+// 当排名第二的字符是0个的时候，append min(2, 第一个字符的剩余数量)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestDiverseString(int a, int b, int c) {
         return generate(a, b, c, "a", "b", "c");
@@ -29,4 +29,4 @@ class Solution {
         return aa.repeat(use_a) + bb.repeat(use_b) + generate(a - use_a, b - use_b, c, aa, bb, cc);
     }
 }
-```
+// ```

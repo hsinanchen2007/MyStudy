@@ -1,9 +1,9 @@
-### 解题思路
-有一定技巧，需要多一个栈，一个常数做不到
+// ### 解题思路
+// 有一定技巧，需要多一个栈，一个常数做不到
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 public:
     stack<int> s1;
@@ -45,4 +45,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

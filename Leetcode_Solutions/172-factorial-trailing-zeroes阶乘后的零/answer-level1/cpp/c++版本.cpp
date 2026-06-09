@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-除法运算，质因子
+// 除法运算，质因子
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //n！=5^？
@@ -20,5 +20,5 @@ public:
      return count;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/a182129bb07f8cb629bcca9fdf062927ef5d329ff89b4b89964a681b1d3b6d41-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/a182129bb07f8cb629bcca9fdf062927ef5d329ff89b4b89964a681b1d3b6d41-image.png)

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         directions=[(-1,0),(1,0),(0,1),(0,-1)]
@@ -24,4 +24,4 @@ class Solution:
                     break
         return res
 
-```
+# ```

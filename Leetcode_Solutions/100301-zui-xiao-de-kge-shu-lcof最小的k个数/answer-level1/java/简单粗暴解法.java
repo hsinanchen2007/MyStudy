@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         Arrays.sort(arr);
@@ -9,4 +9,4 @@ class Solution {
         return arrs;
     }
 }
-```
+// ```

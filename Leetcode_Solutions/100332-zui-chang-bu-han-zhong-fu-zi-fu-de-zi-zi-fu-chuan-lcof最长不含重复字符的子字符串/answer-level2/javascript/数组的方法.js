@@ -1,6 +1,6 @@
 
 
-```js
+// ```js
 
 var lengthOfLongestSubstring = function (s) {
   let arr = [], max = 0;
@@ -19,4 +19,4 @@ var lengthOfLongestSubstring = function (s) {
 
 
 
-```
+// ```

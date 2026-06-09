@@ -1,6 +1,6 @@
-**遇见一个新值入栈, 再遇见和新值一样的,就出栈, 最后栈中就不会出现重复的值**
+// **遇见一个新值入栈, 再遇见和新值一样的,就出栈, 最后栈中就不会出现重复的值**
 
-```
+// ```
 var deleteDuplicates = function(head) {
     let dummyHead = { next: null };
     let curr = dummyHead;
@@ -32,4 +32,4 @@ var deleteDuplicates = function(head) {
     return dummyHead.next;
 };
 
-```
+// ```

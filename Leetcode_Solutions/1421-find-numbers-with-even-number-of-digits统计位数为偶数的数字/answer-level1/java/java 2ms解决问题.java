@@ -1,6 +1,6 @@
-java 2ms解决问题
+// java 2ms解决问题
 
-```
+// ```
 class Solution {
     public int findNumbers(int[] nums) {
         int count = 0;
@@ -12,4 +12,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

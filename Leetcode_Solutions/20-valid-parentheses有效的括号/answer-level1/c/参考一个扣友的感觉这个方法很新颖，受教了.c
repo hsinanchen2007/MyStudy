@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int isValid(char * s)
 {
 int length=strlen(s);
@@ -43,4 +43,4 @@ if(count>-1)
 return 0;
 return 1;
 }
-```
+// ```

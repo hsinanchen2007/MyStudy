@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {number}
@@ -23,4 +23,4 @@ const majorityElement = function(nums) {
   }
   return setArr[index];
 };
-```
+// ```

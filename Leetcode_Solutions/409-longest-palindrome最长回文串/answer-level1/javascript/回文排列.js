@@ -1,10 +1,10 @@
-### 解题思路
-字符串中只要频繁出现两次字符，就能构成回文 且回文的长度加 2；
-可以允许中间的字符 只出现一次
+// ### 解题思路
+// 字符串中只要频繁出现两次字符，就能构成回文 且回文的长度加 2；
+// 可以允许中间的字符 只出现一次
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -29,4 +29,4 @@ var longestPalindrome = function(s) {
     return count;
 
 };
-```
+// ```

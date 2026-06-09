@@ -1,18 +1,18 @@
-### 解题思路
-此处撰写解题思路
-先求ArrayList;
-再将ArrayList转化为二维数组：
-List<List<Integer>> res = new ArrayList<>();
-int[][] arr = new int[res.size()][];//定义二维数组
-for(int i=0;i<res.size();i++){
-    arr[i] = new int[res.get(i).size()];//创建一维数组
-    for(int j=0;j<res.get(i).size();j++){
-        arr[i][j] = res.get(i).get(j);
-    }
-}
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先求ArrayList;
+// 再将ArrayList转化为二维数组：
+// List<List<Integer>> res = new ArrayList<>();
+// int[][] arr = new int[res.size()][];//定义二维数组
+// for(int i=0;i<res.size();i++){
+//     arr[i] = new int[res.get(i).size()];//创建一维数组
+//     for(int j=0;j<res.get(i).size();j++){
+//         arr[i][j] = res.get(i).get(j);
+//     }
+// }
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<List<Integer>> res = new ArrayList<>();
@@ -43,4 +43,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-可以转换为背包问题处理, $f[i][j][k]$表示前i个串中能有多少被$j$个0和$k$个1组成
+// ### 解题思路
+// 可以转换为背包问题处理, $f[i][j][k]$表示前i个串中能有多少被$j$个0和$k$个1组成
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int findMaxForm(String[] A, int M, int N) {
         // f[i][j][k]: 前i个01串最多能有多少个被j个0和k个1组成
@@ -48,8 +48,8 @@ class Solution {
         return f[T][M][N];
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
         T, M, N = len(strs), m, n
@@ -77,8 +77,8 @@ class Solution:
                         f[now][j][k] = max(f[now][j][k], f[old][j-a0][k-a1]+1)
         return f[now][M][N]
 
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     int findMaxForm(vector<string>& A, int M, int N) {
@@ -118,4 +118,4 @@ public:
         return f[now][M][N];    
     }
 };
-```
+// ```

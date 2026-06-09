@@ -1,14 +1,14 @@
 
 
 
-备注：
-	红色方框表示障碍物，遇见障碍物当前格子的可能为0种
-	如果当前格子不是障碍物，为左面+上面格子可能之和。
+// 备注：
+// 	红色方框表示障碍物，遇见障碍物当前格子的可能为0种
+// 	如果当前格子不是障碍物，为左面+上面格子可能之和。
 
-![image.png](https://pic.leetcode-cn.com/96142555fbbc9d6889b4e077fa2ecebe6dc7d91eaa3d38c8c25834f73714ad00-image.png)
+// ![image.png](https://pic.leetcode-cn.com/96142555fbbc9d6889b4e077fa2ecebe6dc7d91eaa3d38c8c25834f73714ad00-image.png)
 
-代码：
-```java
+// 代码：
+// ```java
 class Solution {
     public int uniquePathsWithObstacles(int[][] grid) {
         int cols = grid.length;
@@ -44,4 +44,4 @@ class Solution {
         return grid[cols-1][rows-1];
     }
 }
-```
+// ```

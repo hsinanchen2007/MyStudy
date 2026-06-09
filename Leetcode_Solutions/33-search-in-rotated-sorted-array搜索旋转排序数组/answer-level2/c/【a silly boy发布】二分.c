@@ -1,6 +1,6 @@
-![5FC4E939-D53D-4998-9EA8-E343AB1BEAE5.jpeg](https://pic.leetcode-cn.com/a68245938cda71e134e5e2e6d52978c19d0028e571ad31d812ae77da95e81dba-5FC4E939-D53D-4998-9EA8-E343AB1BEAE5.jpeg)
+// ![5FC4E939-D53D-4998-9EA8-E343AB1BEAE5.jpeg](https://pic.leetcode-cn.com/a68245938cda71e134e5e2e6d52978c19d0028e571ad31d812ae77da95e81dba-5FC4E939-D53D-4998-9EA8-E343AB1BEAE5.jpeg)
 
-```
+// ```
 int FindMaxValPos(int* nums, int numsSize)
 {
     int pos = numsSize - 1;
@@ -90,4 +90,4 @@ int search(int* nums, int numsSize, int target)
 
     return -1;
 }
-```
+// ```

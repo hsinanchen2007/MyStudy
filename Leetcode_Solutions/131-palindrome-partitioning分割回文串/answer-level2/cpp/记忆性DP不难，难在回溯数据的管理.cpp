@@ -1,10 +1,10 @@
-### 解题思路
-1. 记忆hash做，动态规划，防止抑郁。
-2. 返回数据每次都要拆包
+// ### 解题思路
+// 1. 记忆hash做，动态规划，防止抑郁。
+// 2. 返回数据每次都要拆包
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<vector<string>> partition(string s) {
@@ -45,4 +45,4 @@ public:
 private:
 	map<string, vector<vector<string>>> memory;
 };
-```
+// ```

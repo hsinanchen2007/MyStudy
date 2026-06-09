@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def majorityElement(self, nums):
         """
@@ -12,4 +12,4 @@ class Solution(object):
             if nums.count(num_tmp[i]) > num and num_tmp[i] not in result:
                 result.append(num_tmp[i])
         return result
-```
+# ```

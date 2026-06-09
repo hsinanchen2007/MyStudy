@@ -1,8 +1,8 @@
-### 解题思路
-先合并两个数组，再排序。
-### 代码
+// ### 解题思路
+// 先合并两个数组，再排序。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -11,4 +11,4 @@ public:
         return (nums1.size()%2==1)?nums1[nums1.size()/2]:((double)nums1[nums1.size()/2]+nums1[nums1.size()/2-1])/2;
     }
 };
-```
+// ```

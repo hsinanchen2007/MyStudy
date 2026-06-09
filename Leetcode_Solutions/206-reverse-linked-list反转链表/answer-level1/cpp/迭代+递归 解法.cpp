@@ -1,7 +1,7 @@
-迭代：
+// 迭代：
 
-![image.png](https://pic.leetcode-cn.com/9f6494176f34caa6cf342ef8652810b5d8c61dfd20fb8cc6d5a5495ad789d552-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/9f6494176f34caa6cf342ef8652810b5d8c61dfd20fb8cc6d5a5495ad789d552-image.png)
+// ```
 ListNode* reverseList(ListNode* head) {
         if(!head){
             return nullptr;
@@ -17,9 +17,9 @@ ListNode* reverseList(ListNode* head) {
         }
         return head;
     }
-```
-递归：
-```
+// ```
+// 递归：
+// ```
 ListNode* reverseList(ListNode* head) {
         if(!head){
             return nullptr;
@@ -36,5 +36,5 @@ ListNode* reverseList(ListNode* head) {
         target->next = head;
         return reverse(target, first, temp);
     }
-```
+// ```
 

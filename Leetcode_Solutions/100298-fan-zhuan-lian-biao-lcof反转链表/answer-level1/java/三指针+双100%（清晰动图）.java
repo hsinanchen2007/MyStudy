@@ -1,12 +1,12 @@
-### 图解
-![反转链表.gif](https://pic.leetcode-cn.com/4678e97d02c79f71e1fe55fbeefabdf70b2018b39d72dbeb98479dc6d1f4f207-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.gif)
+// ### 图解
+// ![反转链表.gif](https://pic.leetcode-cn.com/4678e97d02c79f71e1fe55fbeefabdf70b2018b39d72dbeb98479dc6d1f4f207-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.gif)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -44,4 +44,4 @@ class Solution {
 		return curr;
     }
 }
-```
+// ```

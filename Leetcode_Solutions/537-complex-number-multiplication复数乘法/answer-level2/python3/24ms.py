@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def complexNumberMultiply(self, a: str, b: str) -> str:
         list1 = a.split('+')
@@ -11,4 +11,4 @@ class Solution:
         num2 = a2 + a3
         str1 = str(num1) + '+' +str(num2) + 'i'
         return(str1)
-```
+# ```

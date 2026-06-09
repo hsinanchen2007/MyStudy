@@ -1,12 +1,12 @@
-### 解题思路
-如果某二叉树中任意节点的左右子树的深度相差不超过1，那么它就是一棵平衡二叉树。
-根据此提示判断就可以
-![捕获.PNG](https://pic.leetcode-cn.com/d68ec409956876e3e6bfdb6aed2a390efb340d281473836aa3ff55b75cb20a06-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 如果某二叉树中任意节点的左右子树的深度相差不超过1，那么它就是一棵平衡二叉树。
+// 根据此提示判断就可以
+// ![捕获.PNG](https://pic.leetcode-cn.com/d68ec409956876e3e6bfdb6aed2a390efb340d281473836aa3ff55b75cb20a06-%E6%8D%95%E8%8E%B7.PNG)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
     }
 
 }
-```
+// ```

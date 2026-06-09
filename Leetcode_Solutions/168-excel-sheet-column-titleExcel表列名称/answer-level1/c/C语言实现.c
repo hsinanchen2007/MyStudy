@@ -1,5 +1,5 @@
-先计算字母的个数，然后从后向前输出A-Z
-```C []
+// 先计算字母的个数，然后从后向前输出A-Z
+// ```C []
 char * convertToTitle(int n){
     int len = 0, tmp = n;
     while (tmp){
@@ -15,4 +15,4 @@ char * convertToTitle(int n){
     }
     return res;
 }
-```
+// ```

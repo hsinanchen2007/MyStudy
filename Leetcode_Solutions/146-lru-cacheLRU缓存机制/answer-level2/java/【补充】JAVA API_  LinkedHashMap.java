@@ -1,7 +1,7 @@
 
-Java有个API:  LinkedHashMap，官方文档说，这个数据结构很适合LRU缓存。因此做个补充。
+// Java有个API:  LinkedHashMap，官方文档说，这个数据结构很适合LRU缓存。因此做个补充。
 
-```JAVA
+// ```JAVA
 
 class LRUCache extends LinkedHashMap<Integer, Integer>{
 
@@ -30,4 +30,4 @@ class LRUCache extends LinkedHashMap<Integer, Integer>{
     }
 }
 
-```
+// ```

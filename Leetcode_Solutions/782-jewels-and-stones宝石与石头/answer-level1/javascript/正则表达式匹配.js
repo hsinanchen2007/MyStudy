@@ -1,9 +1,9 @@
-### 解题思路
-粗暴且万能的方法
+// ### 解题思路
+// 粗暴且万能的方法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} J
  * @param {string} S
@@ -13,4 +13,4 @@ var numJewelsInStones = function (J, S) {
     const reg = new RegExp(`[${J}]`, "g")
     return S.split(reg).length - 1
 };
-```
+// ```

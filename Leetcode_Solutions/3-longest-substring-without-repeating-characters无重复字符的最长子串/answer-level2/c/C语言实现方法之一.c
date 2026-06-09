@@ -1,9 +1,9 @@
-### 解题思路
-见代码注释
-自己瞎琢磨的，通过以后还有点懵逼，写个题解理理思路
-### 代码
+// ### 解题思路
+// 见代码注释
+// 自己瞎琢磨的，通过以后还有点懵逼，写个题解理理思路
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
     int i,j,low=0,len=0,sign,longest=0;
     int a=strlen(s);
@@ -22,4 +22,4 @@ int lengthOfLongestSubstring(char * s){
     }
     return longest;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-1. 递归
-2. 非递归（层次遍历）
+// ### 解题思路
+// 1. 递归
+// 2. 非递归（层次遍历）
 
-# 递归
-```
+// # 递归
+// ```
 bool isMirror(struct TreeNode* p, struct TreeNode* q)
 {
     if(!p && !q)
@@ -19,10 +19,10 @@ bool isMirror(struct TreeNode* p, struct TreeNode* q)
 bool isSymmetric(struct TreeNode* root){
     return isMirror(root, root);
 }
-```
+// ```
 
-# 非递归
-```c
+// # 非递归
+// ```c
 #define QUEUESIZE 200
 
 bool isSymmetric(struct TreeNode* root){

@@ -1,6 +1,6 @@
-#### 理解题目
+# #### 理解题目
 
-```
+# ```
 # 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。 
 # 
 #  每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？ 
@@ -36,16 +36,16 @@ class Solution(object):
         """
 # leetcode submit region end(Prohibit modification and deletion)
 
-```
-理解：楼梯n阶 ，从0  可以跨1步或者2步。统计所有可能方法。
+# ```
+# 理解：楼梯n阶 ，从0  可以跨1步或者2步。统计所有可能方法。
 
-#### 解题思路
-* 法1：循环求斐波那契数列
-* 法2：递归+缓存求斐波那契数列
+# #### 解题思路
+# * 法1：循环求斐波那契数列
+# * 法2：递归+缓存求斐波那契数列
 
-#### 法1
+# #### 法1
 
-```
+# ```
 class Solution:
     def climbStairs(self, n: int) -> int:
         # 法1：数学归纳法找递推公式，假设已经跳到第n阶，因为一次只能跳1阶或者2阶
@@ -57,15 +57,15 @@ class Solution:
             f3 = f1 + f2
             f1, f2 = f2, f3
         return f3
-```
-#### 复杂度分析
-* 时间复杂度：O(n)
-* 空间复杂度：O(1)
+# ```
+# #### 复杂度分析
+# * 时间复杂度：O(n)
+# * 空间复杂度：O(1)
 
 
-#### 法2
+# #### 法2
 
-```python
+# ```python
 class Solution:
     def climbStairs(self, n: int) -> int:
         def out_func():
@@ -84,7 +84,7 @@ class Solution:
             return in_func
 
         return out_func()(n)   
-```
-#### 复杂度分析
-* 时间复杂度：O(n)
-* 空间复杂度:O(n)
+# ```
+# #### 复杂度分析
+# * 时间复杂度：O(n)
+# * 空间复杂度:O(n)

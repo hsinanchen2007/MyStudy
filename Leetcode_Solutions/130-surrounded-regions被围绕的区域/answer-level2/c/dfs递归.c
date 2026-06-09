@@ -1,9 +1,9 @@
-### 解题思路
-标准dfs递归思路
+// ### 解题思路
+// 标准dfs递归思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void dfs(char** board, int i, int j, int boardSize, int colSize) {
     if (i < 0 || j < 0 || i >= boardSize || j >= colSize ||
         board[i][j] != 'O') {
@@ -52,4 +52,4 @@ void solve(char** board, int boardSize, int* boardColSize){
     }
 
 }
-```
+// ```

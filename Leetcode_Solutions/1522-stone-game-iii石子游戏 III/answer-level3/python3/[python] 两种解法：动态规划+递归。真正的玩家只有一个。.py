@@ -1,5 +1,5 @@
-解法1：动态规划。从后往前，关键是理解两人角色的互相转换，其实在任何一个位置，玩家只有一个，就是想要最大化当前收益的玩家。击败100%
-```
+# 解法1：动态规划。从后往前，关键是理解两人角色的互相转换，其实在任何一个位置，玩家只有一个，就是想要最大化当前收益的玩家。击败100%
+# ```
 class Solution:
     def stoneGameIII(self, stoneValue: List[int]) -> str:
         dpscore = [None] * (len(stoneValue)+1)
@@ -16,11 +16,11 @@ class Solution:
         if(dpscore[0] > 0): return "Alice"
         elif(dpscore[0] < 0): return "Bob"
         else: return "Tie"
-```
+# ```
 
 
-解法2：带记忆的递归。关键也是理解两人角色的互相转换。击败100%
-```
+# 解法2：带记忆的递归。关键也是理解两人角色的互相转换。击败100%
+# ```
 class Solution:
     def stoneGameIII(self, stoneValue: List[int]) -> str:
         score = [None] * len(stoneValue)
@@ -44,4 +44,4 @@ class Solution:
         if(res > 0): return "Alice"
         elif(res < 0): return "Bob"
         else: return "Tie"
-```
+# ```

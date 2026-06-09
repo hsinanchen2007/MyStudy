@@ -1,8 +1,8 @@
-### 解题思路
-这个题思路比较简单，但是要写出来还是有一定难度
-### 代码
+// ### 解题思路
+// 这个题思路比较简单，但是要写出来还是有一定难度
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         return node;
     }
 }
-```
+// ```

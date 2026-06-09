@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/0d6a62f5b0632e8002b2ca3829ee5a46b328ec504ebbbff31d50a34741e7320c-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/0d6a62f5b0632e8002b2ca3829ee5a46b328ec504ebbbff31d50a34741e7320c-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLIS(int* nums, int numsSize){
     if (numsSize == 0) {
         return 0;
@@ -32,4 +32,4 @@ int lengthOfLIS(int* nums, int numsSize){
 
     return res;
 }
-```
+// ```

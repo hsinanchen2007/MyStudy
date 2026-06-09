@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int majorityElement(int[] nums) {
         int res = nums[0];
@@ -28,6 +28,6 @@ class Solution {
         return votes > 0 ? res : -1;
     }
 }
-```
-运行结果：
-![image.png](https://pic.leetcode-cn.com/72e1e3c43b78d11d6fdc8dc88a3174b9dfeaa2fb0b7900a89c08a3241e3445d7-image.png)
+// ```
+// 运行结果：
+// ![image.png](https://pic.leetcode-cn.com/72e1e3c43b78d11d6fdc8dc88a3174b9dfeaa2fb0b7900a89c08a3241e3445d7-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-链表二分法分割，利用归并排序方式合并
+# ### 解题思路
+# 链表二分法分割，利用归并排序方式合并
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
         
         
 
-```
+# ```

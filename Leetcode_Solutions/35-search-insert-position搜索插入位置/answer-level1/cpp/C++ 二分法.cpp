@@ -1,8 +1,8 @@
-### 解题思路
-见代码
-### 代码
+// ### 解题思路
+// 见代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -25,4 +25,4 @@ public:
         return right + 1;
     }
 };
-```
+// ```

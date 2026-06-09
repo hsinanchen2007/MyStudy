@@ -1,4 +1,4 @@
-```
+// ```
 int destroy(struct ListNode* slow, struct ListNode* fast);
  
 struct ListNode* deleteDuplicates(struct ListNode* head){
@@ -56,4 +56,4 @@ int destroy(struct ListNode* slow, struct ListNode* fast)
 	
 	return count;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-做了我半天
-用递归做的暴力求解 O(n^2)
-以后再想O(nlogn)吧
-### 代码
+# ### 解题思路
+# 做了我半天
+# 用递归做的暴力求解 O(n^2)
+# 以后再想O(nlogn)吧
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         size = len(nums)
@@ -38,4 +38,4 @@ class Solution:
 
 
         
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func successor(root *TreeNode) int {
 	root = root.Right
 	for root.Left != nil {
@@ -35,4 +35,4 @@ func deleteNode(root *TreeNode, key int) *TreeNode {
 	}
 	return root
 }
-```
+// ```

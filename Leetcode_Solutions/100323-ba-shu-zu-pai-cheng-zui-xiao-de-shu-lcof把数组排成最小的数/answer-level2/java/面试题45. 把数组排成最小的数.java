@@ -1,8 +1,8 @@
-### 解题思路
-把数组排成最小的数，通过list，进行排序，然后将其按照从小到大的顺序连接起来即可；
-### 代码
+// ### 解题思路
+// 把数组排成最小的数，通过list，进行排序，然后将其按照从小到大的顺序连接起来即可；
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String minNumber(int[] nums) {
         if(nums==null||nums.length==0) return " ";
@@ -18,4 +18,4 @@ class Solution {
         return s;
     }
 }
-```
+// ```

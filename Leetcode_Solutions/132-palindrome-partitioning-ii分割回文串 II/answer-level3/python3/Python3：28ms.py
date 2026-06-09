@@ -1,10 +1,10 @@
-### 解题思路
-1. 分奇数和偶数数量分割回文
-2. 找到每个回文的最大半径
+# ### 解题思路
+# 1. 分奇数和偶数数量分割回文
+# 2. 找到每个回文的最大半径
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minCut(self, s):
         # 加速，2特例：字符串本来就是回文，一次分割的情况
@@ -29,4 +29,4 @@ class Solution(object):
                 r2 += 1
             print(cut, cut[-1])
         return cut[-1]
-```
+# ```

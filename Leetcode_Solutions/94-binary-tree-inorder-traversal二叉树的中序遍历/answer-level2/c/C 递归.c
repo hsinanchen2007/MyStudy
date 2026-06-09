@@ -1,7 +1,7 @@
 
-每次不使用malloc、calloc，必然有别的变量报错，不知道为什么
+// 每次不使用malloc、calloc，必然有别的变量报错，不知道为什么
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ void inorderTraversalIter(struct TreeNode* root, int* res, int* returnSize){
     }
     return;
 }
-```
+// ```

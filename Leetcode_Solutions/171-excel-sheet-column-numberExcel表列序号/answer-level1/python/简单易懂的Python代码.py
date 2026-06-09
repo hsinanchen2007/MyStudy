@@ -1,5 +1,5 @@
-其实这道题跟168是互逆的
-```
+# 其实这道题跟168是互逆的
+# ```
 class Solution:
     def titleToNumber(self, s: str) -> int:
         d = dict()
@@ -9,4 +9,4 @@ class Solution:
         for i in range(len(s)):
             res = res * 26 + d[s[i]]
         return res
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-我认为这道题的坑：
-1.int转string方便些。
-2.循环嵌套的使用。
+// ### 解题思路
+// 我认为这道题的坑：
+// 1.int转string方便些。
+// 2.循环嵌套的使用。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int atMostNGivenDigitSet(vector<string>& D, int N) {
@@ -50,4 +50,4 @@ public:
         return add1+add2;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-不知道这个题是干嘛的，正好搜索到。无语
+// ### 解题思路
+// 不知道这个题是干嘛的，正好搜索到。无语
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int game(int[] guess, int[] answer) {
         int res = 0;
@@ -13,4 +13,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

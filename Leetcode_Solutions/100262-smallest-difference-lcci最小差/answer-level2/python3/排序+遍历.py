@@ -1,9 +1,9 @@
-### 解题思路
-排序O(nlogn)，遍历O(m+n)
+# ### 解题思路
+# 排序O(nlogn)，遍历O(m+n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def smallestDifference(self, a: List[int], b: List[int]) -> int:
         a = sorted(a)
@@ -19,4 +19,4 @@ class Solution:
                 return 0
         return gap
             
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -15,4 +15,4 @@ class Solution:
         while A[-1].next:
             A.append(A[-1].next)
         return A[len(A) // 2]
-```
+# ```

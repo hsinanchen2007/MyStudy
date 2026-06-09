@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针。判断快指针是否能指向 NULL，若不能指向 NULL, 则存在环。
+// ### 解题思路
+// 快慢指针。判断快指针是否能指向 NULL，若不能指向 NULL, 则存在环。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -20,4 +20,4 @@ bool hasCycle(struct ListNode *head) {
     }
     return false;
 }
-```
+// ```

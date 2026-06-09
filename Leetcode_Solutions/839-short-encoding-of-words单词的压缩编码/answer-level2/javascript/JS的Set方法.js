@@ -1,12 +1,12 @@
-### 解题思路
-用set不断剔除重复值
-不要被题意搞蒙了 我们需要返回的是长度
-不需要去拼接返回数组 所以只需要找到重复的剔除
-就可以
+// ### 解题思路
+// 用set不断剔除重复值
+// 不要被题意搞蒙了 我们需要返回的是长度
+// 不需要去拼接返回数组 所以只需要找到重复的剔除
+// 就可以
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @return {number}
@@ -27,4 +27,4 @@ var minimumLengthEncoding = function (words) {
     wordsSet.forEach(item => result += item.length + 1)
     return result
 };
-```
+// ```

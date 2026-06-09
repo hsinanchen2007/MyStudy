@@ -1,9 +1,9 @@
-### 解题思路
-总的想法就是找交集吧。
+// ### 解题思路
+// 总的想法就是找交集吧。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> commonChars(String[] A){
         int[] count = new int[26];
@@ -90,4 +90,4 @@ class Solution {
 //         return ans;
 //     }
 // }
-```
+// ```

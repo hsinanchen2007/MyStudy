@@ -1,14 +1,14 @@
-#### 方法一：前缀哈希【通过】
+// #### 方法一：前缀哈希【通过】
 
-**思路**
+// **思路**
 
-遍历句子中每个单词，查看单词前缀是否为词根。
+// 遍历句子中每个单词，查看单词前缀是否为词根。
 
-**算法**
+// **算法**
 
-将所有词根 `roots` 存储到集合 *Set* 中。遍历所有单词，判断其前缀是否为词根。如果是，则使用前缀代替该单词；否则不改变该单词。
+// 将所有词根 `roots` 存储到集合 *Set* 中。遍历所有单词，判断其前缀是否为词根。如果是，则使用前缀代替该单词；否则不改变该单词。
 
-```python [solution1-Python]
+// ```python [solution1-Python]
 def replaceWords(self, roots, sentence):
     rootset = set(roots)
 
@@ -19,9 +19,9 @@ def replaceWords(self, roots, sentence):
         return word
 
     return " ".join(map(replace, sentence.split()))
-```
+// ```
 
-```java [solution1-Java]
+// ```java [solution1-Java]
 class Solution {
     public String replaceWords(List<String> roots, String sentence) {
         Set<String> rootset = new HashSet();
@@ -40,22 +40,22 @@ class Solution {
         return ans.toString();
     }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(\sum w_i^2)$，其中 $w_i$ 是第 $i$ 个单词的长度。检查第 $i$ 个单词的所有前缀花费时间 $O(w_i^2)$。
+// * 时间复杂度：$O(\sum w_i^2)$，其中 $w_i$ 是第 $i$ 个单词的长度。检查第 $i$ 个单词的所有前缀花费时间 $O(w_i^2)$。
 
-* 空间复杂度：$O(N)$，其中 $N$ 是句子的长度，词根使用 `rootset` 存储。
+// * 空间复杂度：$O(N)$，其中 $N$ 是句子的长度，词根使用 `rootset` 存储。
 
 
-#### 方法二：前缀树【通过】
+// #### 方法二：前缀树【通过】
 
-**思路和算法**
+// **思路和算法**
 
-把所有的词根放入前缀树中，在树上查找每个单词的最短词根，该操作可在线性时间内完成。
+// 把所有的词根放入前缀树中，在树上查找每个单词的最短词根，该操作可在线性时间内完成。
 
-```python [solution2-Python]
+// ```python [solution2-Python]
 class Solution(object):
     def replaceWords(self, roots, sentence):
         Trie = lambda: collections.defaultdict(Trie)
@@ -73,9 +73,9 @@ class Solution(object):
             return cur.get(END, word)
 
         return " ".join(map(replace, sentence.split()))
-```
+// ```
 
-```java [solution2-Java]
+// ```java [solution2-Java]
 class Solution {
     public String replaceWords(List<String> roots, String sentence) {
         TrieNode trie = new TrieNode();
@@ -114,10 +114,10 @@ class TrieNode {
         children = new TrieNode[26];
     }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N)$，其中 $N$ 是 `sentence` 的长度。每次查询操作为线性时间复杂度。
+// * 时间复杂度：$O(N)$，其中 $N$ 是 `sentence` 的长度。每次查询操作为线性时间复杂度。
 
-* 空间复杂度：$O(N)$，前缀树的大小。
+// * 空间复杂度：$O(N)$，前缀树的大小。

@@ -1,4 +1,4 @@
- 看好像没人这么考虑，可以找到最大峰，以及保证没有底峰或者底平底，就可以认为是山脉数组了
+//  看好像没人这么考虑，可以找到最大峰，以及保证没有底峰或者底平底，就可以认为是山脉数组了
 bool validMountainArray(vector<int>& A) {
         int L=A.size(),count=0,count2=0,count3=0;
         if(L<3)

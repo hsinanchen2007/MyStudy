@@ -1,9 +1,9 @@
-### 解题思路
-C++,map，只能有一个字母出现奇数次，放在中间
+// ### 解题思路
+// C++,map，只能有一个字母出现奇数次，放在中间
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -18,4 +18,4 @@ public:
         return count<=1;
     }
 };
-```
+// ```

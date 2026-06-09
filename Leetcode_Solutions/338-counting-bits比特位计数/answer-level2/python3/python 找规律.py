@@ -1,10 +1,10 @@
-### 解题思路
-base=2**n
-2**n+1~2**(n+1)-1之间的数等于减去base后的数的比特位总数+1
+# ### 解题思路
+# base=2**n
+# 2**n+1~2**(n+1)-1之间的数等于减去base后的数的比特位总数+1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countBits(self, num: int) -> List[int]:
         """
@@ -25,4 +25,4 @@ class Solution:
             res.append(1+res[i-base])
         return res
         
-```
+# ```

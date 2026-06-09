@@ -1,8 +1,8 @@
-- 使用两个字符串,str0和str1，每次从str0中删除abc字符串
-- 无法删除的字符按顺序保存到str1中
-- 一轮处理完之后，如果str1相比str0发生变化，那么将str1拷贝到str0，否则返回无效
-- 如果最后str0为空串，那么有效，否则无效
-```
+// - 使用两个字符串,str0和str1，每次从str0中删除abc字符串
+// - 无法删除的字符按顺序保存到str1中
+// - 一轮处理完之后，如果str1相比str0发生变化，那么将str1拷贝到str0，否则返回无效
+// - 如果最后str0为空串，那么有效，否则无效
+// ```
 #define MAX_SIZE (20010)
 char g_str0[MAX_SIZE];
 char g_str1[MAX_SIZE];
@@ -37,4 +37,4 @@ bool isValid(char * S)
     }
     return false;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-直接组合输出，并且求出组合数，或者直接转成数组，判断判断存在
+# ### 解题思路
+# 直接组合输出，并且求出组合数，或者直接转成数组，判断判断存在
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class CombinationIterator:
 
     def __init__(self, characters: str, combinationLength: int):
@@ -16,8 +16,8 @@ class CombinationIterator:
 
     def hasNext(self) -> bool:
         return self.n
-```
-```python []
+# ```
+# ```python []
 class CombinationIterator:
 
     def __init__(self, characters: str, combinationLength: int):
@@ -28,7 +28,7 @@ class CombinationIterator:
 
     def hasNext(self) -> bool:
         return self.d
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/1b434ab8774dbaee0c1776adb114e1d55d1bae0142f13c03d3d19f562ec276af-image.png)
+# ![image.png](https://pic.leetcode-cn.com/1b434ab8774dbaee0c1776adb114e1d55d1bae0142f13c03d3d19f562ec276af-image.png)
 

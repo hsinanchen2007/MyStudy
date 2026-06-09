@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1、使用uthash数据结构，记录key和对应出现次数
-2、然后根据cnt进行排序
-3、输出排序后前K数据
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1、使用uthash数据结构，记录key和对应出现次数
+// 2、然后根据cnt进行排序
+// 3、输出排序后前K数据
+// ### 代码
 
-```c
+// ```c
 #include <uthash.h>
 struct Number {
     int key;
@@ -68,4 +68,4 @@ int *topKFrequent(int *nums, int numsSize, int k, int *returnSize)
     Release(&ha);
     return result;
 }
-```
+// ```

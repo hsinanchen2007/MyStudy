@@ -1,9 +1,9 @@
-### 解题思路
-单调栈，直接用数组倒序遍历一遍
+// ### 解题思路
+// 单调栈，直接用数组倒序遍历一遍
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -23,4 +23,4 @@ public:
         return max;
     }
 };
-```
+// ```

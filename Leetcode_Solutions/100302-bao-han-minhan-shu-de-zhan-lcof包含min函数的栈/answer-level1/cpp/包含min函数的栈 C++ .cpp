@@ -1,9 +1,9 @@
-### 解题思路
-建立一个辅助栈用来存放栈中的最小值，数据栈s_data,辅助栈s_min
+// ### 解题思路
+// 建立一个辅助栈用来存放栈中的最小值，数据栈s_data,辅助栈s_min
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -53,4 +53,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->min();
  */
-```
+// ```

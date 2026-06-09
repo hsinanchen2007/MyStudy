@@ -1,9 +1,9 @@
-golang 无脑解法
+// golang 无脑解法
 
-github: https://github.com/Crownt/leetcode
+// github: https://github.com/Crownt/leetcode
 
 
-```
+// ```
 // 开辟二维空间，摆出要求形状再读取
 // 时间复杂度：O(n)  空间复杂度：O(n)
 
@@ -60,5 +60,5 @@ func convert(s string, numRows int) string {
 	return str
 }
 
-```
+// ```
 

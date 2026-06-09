@@ -1,9 +1,9 @@
-二维数组的DP,
-代表对于当前i, 如果其等差数列前值是j这个下标这时候最大等差数列长度
-最先一个n ^ 3的方法遍历
-通过Map可以存每个值对应的下标list，就优化了很多runtime
+// 二维数组的DP,
+// 代表对于当前i, 如果其等差数列前值是j这个下标这时候最大等差数列长度
+// 最先一个n ^ 3的方法遍历
+// 通过Map可以存每个值对应的下标list，就优化了很多runtime
 
-```
+// ```
 class Solution {
     public int longestArithSeqLength(int[] A) {
         int n = A.length;
@@ -49,4 +49,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

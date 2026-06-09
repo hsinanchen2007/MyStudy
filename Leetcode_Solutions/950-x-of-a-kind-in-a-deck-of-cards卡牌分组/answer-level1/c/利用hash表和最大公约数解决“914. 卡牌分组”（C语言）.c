@@ -1,18 +1,18 @@
-### 解题思路
-典型的hash类型题目，本题的特点在于，需要利用最大公约数进行判断。这里给出C语言的接法。
+// ### 解题思路
+// 典型的hash类型题目，本题的特点在于，需要利用最大公约数进行判断。这里给出C语言的接法。
 
-1.先对数据建立hash表，记录每个数的出现次数。
+// 1.先对数据建立hash表，记录每个数的出现次数。
 
-2.遍历hash表，根据当前最大公约数和当前数据个数，更新新的最大公约数。
+// 2.遍历hash表，根据当前最大公约数和当前数据个数，更新新的最大公约数。
 
-3.如果最大公约数为1，则false，否则为true。
+// 3.如果最大公约数为1，则false，否则为true。
 
-![image.png](https://pic.leetcode-cn.com/e1d7973279df536555b66478d03cf455f7ac03bb628dfa11cbe69d7754685f49-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e1d7973279df536555b66478d03cf455f7ac03bb628dfa11cbe69d7754685f49-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -80,4 +80,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
 
     return true;
 }
-```
+// ```

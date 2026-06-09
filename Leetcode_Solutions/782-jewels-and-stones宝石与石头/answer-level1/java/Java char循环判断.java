@@ -1,5 +1,5 @@
-把字符串转换为char数组，然后遍历char数组判断是否为宝石
-```
+// 把字符串转换为char数组，然后遍历char数组判断是否为宝石
+// ```
 class Solution {
     public int numJewelsInStones(String J, String S) {
         int count=0;
@@ -15,4 +15,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

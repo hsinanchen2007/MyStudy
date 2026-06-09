@@ -1,9 +1,9 @@
-### 解题思路
-先用一个字典统计所有元素及其出现的频率，再将其放入一个列表中，以列表的第二个元素，即频数为关键字，排序
+# ### 解题思路
+# 先用一个字典统计所有元素及其出现的频率，再将其放入一个列表中，以列表的第二个元素，即频数为关键字，排序
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import defaultdict
 class Solution(object):
     def topKFrequent(self, nums, k):
@@ -25,4 +25,4 @@ class Solution(object):
             res.append(tosort[j][0])
 
         return res
-```
+# ```

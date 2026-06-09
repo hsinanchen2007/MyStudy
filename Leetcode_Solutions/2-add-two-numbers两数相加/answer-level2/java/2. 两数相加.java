@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/13
- * 
- * 解题思路: 模拟法 直接相加即可
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/13
+//  * 
+//  * 解题思路: 模拟法 直接相加即可
+//  * 
+//  */
+// ```
 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     ListNode head = new ListNode(0);
     ListNode p = head;
@@ -37,4 +37,4 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     }
     return head.next;
 }
-```
+// ```

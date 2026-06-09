@@ -1,9 +1,9 @@
-### 解题思路
-1.使用hash_map用于记录每个字母的对应在键盘上的行数，若所有字母都在同一行上就将该字符串压入result容器中。
+// ### 解题思路
+// 1.使用hash_map用于记录每个字母的对应在键盘上的行数，若所有字母都在同一行上就将该字符串压入result容器中。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findWords(vector<string>& words) {
@@ -45,4 +45,4 @@ public:
         return result;
     }
 };
-```
+// ```

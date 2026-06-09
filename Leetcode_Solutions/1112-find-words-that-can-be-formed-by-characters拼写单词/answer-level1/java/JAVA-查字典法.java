@@ -1,9 +1,9 @@
-### 解题思路
-遍历每一个字符，每一次查单词，查过的字符置为0.遍历出能查到的单次，保存长度。
+// ### 解题思路
+// 遍历每一个字符，每一次查单词，查过的字符置为0.遍历出能查到的单次，保存长度。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         int maxLength = 0;
@@ -31,4 +31,4 @@ class Solution {
         return maxLength;
     }
 }
-```
+// ```

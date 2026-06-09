@@ -1,12 +1,12 @@
-### 解题思路
-我自己实现的方式是，新开个链表，逐个比较储存。代码写的比较冗杂。
-究其原因是for循环的条件是 l1!=nil||l2!=nil，导致在内部要进行大量的校验!=nil操作
-其实只要遍历最短的一条就ok了，遍历结束后，直接拼接到结尾便可。
+// ### 解题思路
+// 我自己实现的方式是，新开个链表，逐个比较储存。代码写的比较冗杂。
+// 究其原因是for循环的条件是 l1!=nil||l2!=nil，导致在内部要进行大量的校验!=nil操作
+// 其实只要遍历最短的一条就ok了，遍历结束后，直接拼接到结尾便可。
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -69,4 +69,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	return head.Next
 }
 
-```
+// ```

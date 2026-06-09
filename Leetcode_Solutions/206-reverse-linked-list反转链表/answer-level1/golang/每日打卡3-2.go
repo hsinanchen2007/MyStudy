@@ -1,10 +1,10 @@
-### 解题思路
-双指针，遍历的同时改变指针即可。
-连续赋值好省事  
+// ### 解题思路
+// 双指针，遍历的同时改变指针即可。
+// 连续赋值好省事  
 
-### 代码
+// ### 代码
 
-```go
+// ```go
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -22,4 +22,4 @@ func reverseList(head *ListNode) *ListNode {
     head.Next = nil
     return cur
 }
-``` 
+// ``` 

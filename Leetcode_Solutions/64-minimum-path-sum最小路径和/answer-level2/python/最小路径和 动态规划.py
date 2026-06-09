@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minPathSum(self, grid):
         m = len(grid)
@@ -15,4 +15,4 @@ class Solution(object):
             for j in range(1,n):
                 grid[i][j] = min(grid[i][j-1] + grid[i][j], grid[i-1][j] + grid[i][j])
         return grid[-1][-1]
-```
+# ```

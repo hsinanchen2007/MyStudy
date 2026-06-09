@@ -1,11 +1,11 @@
-### 解题思路
-吐个槽，我记得LRU是丢最远的没用过的，然后题目强调丢最近的。。实际上试了一下还是丢最远的那个。。
+# ### 解题思路
+# 吐个槽，我记得LRU是丢最远的没用过的，然后题目强调丢最近的。。实际上试了一下还是丢最远的那个。。
 
-实现上插删都是O(n),确实不会写O(1)的。。
+# 实现上插删都是O(n),确实不会写O(1)的。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class LFUCache:
     from collections import defaultdict
     def __init__(self, capacity: int):
@@ -48,4 +48,4 @@ class LFUCache:
 # obj = LFUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

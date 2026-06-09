@@ -1,9 +1,9 @@
-### 解题思路
-根据前序遍历的方法去实现。
+# ### 解题思路
+# 根据前序遍历的方法去实现。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution(object):
     
 
 
-```
+# ```

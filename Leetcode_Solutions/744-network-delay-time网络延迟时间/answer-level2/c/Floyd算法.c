@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_TIME 65535
 #define MAXNUMS 101
 int g_Network[MAXNUMS][MAXNUMS] = {0};
@@ -61,4 +61,4 @@ int networkDelayTime(int** times, int timesSize, int* timesColSize, int N, int K
     return minTime;
 }
 
-```
+// ```

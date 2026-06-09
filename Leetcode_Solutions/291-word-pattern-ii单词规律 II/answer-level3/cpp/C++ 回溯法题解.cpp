@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     bool backtrace(const string& p, unordered_map<char, int>& counts, const string& s, int i, int j, 
@@ -28,6 +28,6 @@ public:
         return backtrace(pattern, counts, str, 0, 0, m, used);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/1bfe291e57eda5de5d793e2d6fc04272936824c9a7d5eee9b821bb58e8847624-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1bfe291e57eda5de5d793e2d6fc04272936824c9a7d5eee9b821bb58e8847624-image.png)

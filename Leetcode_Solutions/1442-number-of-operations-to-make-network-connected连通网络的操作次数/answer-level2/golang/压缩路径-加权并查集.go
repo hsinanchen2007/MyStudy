@@ -1,5 +1,5 @@
-参考hlxing大佬的思路
-```
+// 参考hlxing大佬的思路
+// ```
 // 并查集
 func makeConnected(n int, connections [][]int) int {
 	father := make([]int, n)  // 保存并集树father节点的值
@@ -49,4 +49,4 @@ func makeConnected(n int, connections [][]int) int {
 		return num-1
 	}
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-去重->去子串->计算结果
-### 代码
+// ### 解题思路
+// 去重->去子串->计算结果
+// ### 代码
 
-```golang
+// ```golang
 func minimumLengthEncoding(words []string) int {
     m := make(map[string]int, 0)
     // 去重
@@ -25,4 +25,4 @@ func minimumLengthEncoding(words []string) int {
     
     return ans
 }
-```
+// ```

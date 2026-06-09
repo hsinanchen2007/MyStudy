@@ -1,5 +1,5 @@
-从后向前，找到的第一个单词的长度
-```
+// 从后向前，找到的第一个单词的长度
+// ```
     class Solution {
     public int lengthOfLastWord(String s){
             int last = 0;
@@ -12,12 +12,12 @@
             return last;
         } 
     }
-```
+// ```
 
 
 
- 从前向后找，记录每个空格分隔的字母个数，返回最后一个不为零的字母个数 
-```  
+//  从前向后找，记录每个空格分隔的字母个数，返回最后一个不为零的字母个数 
+// ```  
     class Solution {
         public int lengthOfLastWord(String s) {
             int last = 0;
@@ -35,5 +35,5 @@
             return last;
         }
     }
-```    
+// ```    
 

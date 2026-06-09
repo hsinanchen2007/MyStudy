@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int[] d; // 保存int型的D
     int[] a; // 保存N的所有数位，作为各个数位取值的upper(上界)
@@ -45,4 +45,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

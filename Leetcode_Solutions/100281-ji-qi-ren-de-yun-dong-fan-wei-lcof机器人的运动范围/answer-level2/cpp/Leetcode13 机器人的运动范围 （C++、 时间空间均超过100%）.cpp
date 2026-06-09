@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/48a33b1efc9fe45fa7e1cb3b3bd3a3904d682219f8c03b3b2fede44981ef8a01-image.png)
+// ![image.png](https://pic.leetcode-cn.com/48a33b1efc9fe45fa7e1cb3b3bd3a3904d682219f8c03b3b2fede44981ef8a01-image.png)
 
-从[0][0]位置开始访问，递归的访问每个位置的 上 下 左 右 位置；
-当满足访问条件时，可访问个数加1；
+// 从[0][0]位置开始访问，递归的访问每个位置的 上 下 左 右 位置；
+// 当满足访问条件时，可访问个数加1；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int movingCount(int m, int n, int k) { 
@@ -65,4 +65,4 @@ public:
     }
 
 };
-```
+// ```

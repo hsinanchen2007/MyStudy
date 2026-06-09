@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findNthDigit(self, n: int) -> int:
         if n < 10: return n 
@@ -18,4 +18,4 @@ class Solution:
             return int(str(cur-1)[-1])
         else:
             return int(str(cur)[remainder-1])
-```
+# ```

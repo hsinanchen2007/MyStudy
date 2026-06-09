@@ -1,9 +1,9 @@
-### 解题思路
-从第一行开始遍历每一个点,创建一个ban_list，每一行检查不在ban_set中的点，将它产生的不能放的点放入ban_set中
+# ### 解题思路
+# 从第一行开始遍历每一个点,创建一个ban_list，每一行检查不在ban_set中的点，将它产生的不能放的点放入ban_set中
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def solveNQueens(self, n: int):
         res = []
@@ -47,4 +47,4 @@ class Solution:
 
                             
 
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-执行用时 :112 ms, 在所有 JavaScript 提交中击败了97.74%的用户
-内存消耗 :39.1 MB, 在所有 JavaScript 提交中击败了89.73%的用户
-![image.png](https://pic.leetcode-cn.com/ac7b43c693dd685139b6a95b19370518fb8a3b3f624e319df1a249a51e3f95ca-image.png)
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 执行用时 :112 ms, 在所有 JavaScript 提交中击败了97.74%的用户
+// 内存消耗 :39.1 MB, 在所有 JavaScript 提交中击败了89.73%的用户
+// ![image.png](https://pic.leetcode-cn.com/ac7b43c693dd685139b6a95b19370518fb8a3b3f624e319df1a249a51e3f95ca-image.png)
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -40,4 +40,4 @@ var findMedianSortedArrays = function(nums1, nums2) {
 
 
 };
-```
+// ```

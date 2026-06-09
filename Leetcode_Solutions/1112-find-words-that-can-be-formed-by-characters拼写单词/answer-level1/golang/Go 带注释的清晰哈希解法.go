@@ -1,4 +1,4 @@
-```go []
+// ```go []
 func countCharacters(words []string, chars string) int {
 	m := map[rune]int{} // chars map 存放字符与个数映射
 
@@ -40,4 +40,4 @@ func countCharacters(words []string, chars string) int {
 	return count
 }
 
-```
+// ```

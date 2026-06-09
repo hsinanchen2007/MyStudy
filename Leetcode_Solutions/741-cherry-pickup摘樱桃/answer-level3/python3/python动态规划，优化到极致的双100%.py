@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/5c3d4e3ab8cb4f526e59276fc53de1b20acc1034d426292815eb1d6b6de9d8dd-image.png)
-```python
+# ![image.png](https://pic.leetcode-cn.com/5c3d4e3ab8cb4f526e59276fc53de1b20acc1034d426292815eb1d6b6de9d8dd-image.png)
+# ```python
     def cherryPickup(self, grid: list) -> int:
         N = len(grid)  # 转化为2人同时从(0,0)走到(N-1,N-1)的最大收益
         S = (N-1) << 1  # 最大步数，即（N-1)*2步走到目的地
@@ -24,4 +24,4 @@
                         dp[s, y1, y2] = _max + grid[y1][x1] + grid[y2][x2] if y1 != y2 else _max + grid[y1][x1]  # y1=y2时则只能有一个人获得樱桃
         return dp.get((S, N-1, N-1), 0)  # 若该状态不可达，返回0
 
-```
+# ```

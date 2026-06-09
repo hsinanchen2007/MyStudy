@@ -1,9 +1,9 @@
-### 解题思路
-先求出链表的长度，根据长度和参数n定位到要删除的元素位置
+// ### 解题思路
+// 先求出链表的长度，根据长度和参数n定位到要删除的元素位置
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -62,4 +62,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n)
     return  pHead->next;
 
 }
-```
+// ```

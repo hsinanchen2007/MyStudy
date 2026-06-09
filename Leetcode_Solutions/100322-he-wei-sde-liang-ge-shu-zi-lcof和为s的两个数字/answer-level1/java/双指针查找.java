@@ -1,8 +1,8 @@
-### 解题思路
-优点类似快排的思路，取数组两头的值做为双指针初始值，然后两边进行夹逼，最后找到一对值。
-### 代码
+// ### 解题思路
+// 优点类似快排的思路，取数组两头的值做为双指针初始值，然后两边进行夹逼，最后找到一对值。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
     if(nums==null||nums.length==0){
@@ -26,4 +26,4 @@ class Solution {
     return new int[0];
     }
 }
-```
+// ```

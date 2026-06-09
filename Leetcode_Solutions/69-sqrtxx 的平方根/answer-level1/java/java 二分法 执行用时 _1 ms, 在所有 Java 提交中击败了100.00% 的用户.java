@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int mySqrt(int x) {
         // 0 不能作被除数
@@ -29,4 +29,4 @@ class Solution {
         return right != 0 && x / right == right ? right : left;
     }
 }
-```
+// ```

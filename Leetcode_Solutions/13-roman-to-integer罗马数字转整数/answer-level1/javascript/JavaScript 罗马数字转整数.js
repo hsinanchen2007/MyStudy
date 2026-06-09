@@ -1,7 +1,7 @@
-解一：
-> `switch`判断每一位的字母，当字母为`I`, `X`, `C`中之一时判断下一位字母与之结合是否符合特殊情况。
+// 解一：
+// > `switch`判断每一位的字母，当字母为`I`, `X`, `C`中之一时判断下一位字母与之结合是否符合特殊情况。
 
-```js
+// ```js
 var romanToInt = function (s) {
     var re = 0;
     for (var i = 0; i < s.length; i++) {
@@ -55,12 +55,12 @@ var romanToInt = function (s) {
     }
     return re;
 };
-``` 
+// ``` 
 
-解二：
-> 将特殊情况替换为其他字母表示，相当于拓展字母表。并将`switch`条件判断改为映射。缺点是内存占用较大。
+// 解二：
+// > 将特殊情况替换为其他字母表示，相当于拓展字母表。并将`switch`条件判断改为映射。缺点是内存占用较大。
 
-```js
+// ```js
 var romanToInt = function (s) {
     s = s.replace('IV', 'Q');//4
     s = s.replace('IX', 'W');//9
@@ -89,11 +89,11 @@ var romanToInt = function (s) {
     }
     return re;
 };
-```
-解三：
-> 相当于在解一的基础上进行改进，当上一位字母对应数值小于当前字母对应数值时则出现了特殊情况。
+// ```
+// 解三：
+// > 相当于在解一的基础上进行改进，当上一位字母对应数值小于当前字母对应数值时则出现了特殊情况。
 
-```js
+// ```js
 var romanToInt = function (s) {
     var map = {
         "I": 1,
@@ -111,4 +111,4 @@ var romanToInt = function (s) {
     }
     return re;
 };
-```
+// ```

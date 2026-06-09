@@ -1,19 +1,19 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 判断根节点个数和除根节点外其余节点的父节点个数
+// # 判断根节点个数和除根节点外其余节点的父节点个数
 
-一颗二叉树需要满足两个条件：
+// 一颗二叉树需要满足两个条件：
 
-（1）除根节点外，所有的节点有且仅有一个父节点。
+// （1）除根节点外，所有的节点有且仅有一个父节点。
 
-（2）只有一个根节点。
+// （2）只有一个根节点。
 
-时间复杂度和空间复杂度均是O(n)。
+// 时间复杂度和空间复杂度均是O(n)。
 
-执行用时：3ms，击败100.00%。消耗内存：42.5MB，击败100.00%。
+// 执行用时：3ms，击败100.00%。消耗内存：42.5MB，击败100.00%。
 
-```java
+// ```java
 public class Solution {
     public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {
         boolean[] isNotRoot = new boolean[n];
@@ -46,4 +46,4 @@ public class Solution {
         return countRoot == 1;
     }
 }
-```
+// ```

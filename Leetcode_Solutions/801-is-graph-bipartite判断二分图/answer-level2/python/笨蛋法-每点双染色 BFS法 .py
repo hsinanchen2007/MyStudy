@@ -1,5 +1,5 @@
-我一开始 random取了1个起始点，发现答案不太对。之后仔细一想，才发现这个图并不是保证一定是连通的，所以只能对于每个点都做BFS双染色。
-```
+# 我一开始 random取了1个起始点，发现答案不太对。之后仔细一想，才发现这个图并不是保证一定是连通的，所以只能对于每个点都做BFS双染色。
+# ```
 class Solution(object):
     def isBipartite(self, graph):
         """
@@ -46,4 +46,4 @@ class Solution(object):
             else:
                 return False
         return True
-```
+# ```

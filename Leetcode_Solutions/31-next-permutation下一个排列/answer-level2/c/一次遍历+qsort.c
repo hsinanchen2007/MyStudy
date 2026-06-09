@@ -1,13 +1,13 @@
-### 解题思路
-1、从后往前遍历，找到第一个nums[i] < nums[i + 1]，的位置i;
-2、通过步骤1知道i以后的位置都是单调递减的，因此后后面队列中找到第一个比他大的数，位置为j；
-3、交换位置i和位置j上面的两个数；
-4、从i+1位置开始，后面的数按照递增排序，最终的结果就是要找到的下一个比当前数大的数；
-![image.png](https://pic.leetcode-cn.com/4f23891452f096d7512d65cdd1be25dab5a88b649a789a45340105dad0e37959-image.png)
+// ### 解题思路
+// 1、从后往前遍历，找到第一个nums[i] < nums[i + 1]，的位置i;
+// 2、通过步骤1知道i以后的位置都是单调递减的，因此后后面队列中找到第一个比他大的数，位置为j；
+// 3、交换位置i和位置j上面的两个数；
+// 4、从i+1位置开始，后面的数按照递增排序，最终的结果就是要找到的下一个比当前数大的数；
+// ![image.png](https://pic.leetcode-cn.com/4f23891452f096d7512d65cdd1be25dab5a88b649a789a45340105dad0e37959-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static int Compare(const void *a, const void *b)
 {
     return *(const int *)a - *(const int *)b;
@@ -57,4 +57,4 @@ void nextPermutation(int* nums, int numsSize)
     swapNum(nums, left, right);
     qsort(nums + left + 1, numsSize - left - 1, sizeof(int), Compare);
 }
-```
+// ```

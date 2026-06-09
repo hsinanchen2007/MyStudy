@@ -1,9 +1,9 @@
-### 解题思路
-先求微分，然后就最大连续序列和
+# ### 解题思路
+# 先求微分，然后就最大连续序列和
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import numpy as np
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
@@ -20,4 +20,4 @@ class Solution:
         return int(maxs)
             
 
-```
+# ```

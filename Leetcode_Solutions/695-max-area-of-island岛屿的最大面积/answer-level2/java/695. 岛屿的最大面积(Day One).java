@@ -1,9 +1,9 @@
-### 解题思路
-深度优先，看注释。
+// ### 解题思路
+// 深度优先，看注释。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxAreaOfIsland(int[][] grid) {
         int max = 0;
@@ -32,4 +32,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1. 邻接矩阵表示有向图，判断是否存在拓扑排序
-2. 详细过程见代码注释
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1. 邻接矩阵表示有向图，判断是否存在拓扑排序
+// 2. 详细过程见代码注释
+// ### 代码
 
-```c
+// ```c
 // 邻接矩阵表示有向图，判断是否存在拓扑排序
 
 bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* prerequisitesColSize)
@@ -82,4 +82,4 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
 
     return true;
 }
-```
+// ```

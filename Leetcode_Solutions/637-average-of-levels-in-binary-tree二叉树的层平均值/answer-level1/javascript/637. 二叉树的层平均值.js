@@ -1,11 +1,11 @@
-### 深度优先搜索
+// ### 深度优先搜索
 
-- 对 ``二叉树`` 进行 ``深度优先搜索``，把每层的节点值保存到数组中
-- 搜索结束之后，对每一层求平均值
+// - 对 ``二叉树`` 进行 ``深度优先搜索``，把每层的节点值保存到数组中
+// - 搜索结束之后，对每一层求平均值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -44,11 +44,11 @@ var averageOfLevels = function(root) {
         return node.reduce((prev, curr) => prev + curr) / node.length
     })
 };
-```
+// ```
 
-#### 优化空间复杂度
+// #### 优化空间复杂度
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -96,17 +96,17 @@ var averageOfLevels = function(root) {
     }
     return res
 };
-```
+// ```
 
 
-### 广度优先搜索
+// ### 广度优先搜索
 
-- 利用 ``队列`` 对 ``二叉树`` 进行逐层遍历
-- 每一层遍历结束之后都算一次平均值
+// - 利用 ``队列`` 对 ``二叉树`` 进行逐层遍历
+// - 每一层遍历结束之后都算一次平均值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -152,5 +152,5 @@ var averageOfLevels = function(root) {
     // 返回结果
     return res
 }
-```
+// ```
 

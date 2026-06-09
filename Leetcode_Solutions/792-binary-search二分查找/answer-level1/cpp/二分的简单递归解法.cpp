@@ -1,5 +1,5 @@
 
-```C++
+// ```C++
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -16,4 +16,4 @@ public:
         if(nums[mid]<target) bSearch(nums,mid+1,right,target,index);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-目前只会暴力
+// ### 解题思路
+// 目前只会暴力
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -50,4 +50,4 @@ for(int a=x;a<8;++a){
 return tag;
     }
 };
-```
+// ```

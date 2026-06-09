@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/4dc2dabe46c57bdd40ef49a857fcbc8d6f30c21d2cee538f17d8066856211fdb-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/4dc2dabe46c57bdd40ef49a857fcbc8d6f30c21d2cee538f17d8066856211fdb-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> diagonalSort(vector<vector<int>>& mat) {
@@ -43,4 +43,4 @@ public:
         return re;
     }
 };
-```
+// ```

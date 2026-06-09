@@ -1,10 +1,10 @@
-### 解题思路
-分别从四周围的为'O'的点扩展连通区域
-160ms
+# ### 解题思路
+# 分别从四周围的为'O'的点扩展连通区域
+# 160ms
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def checkConnect(self, board, m, n, a, b):
         stack = [(a,b)]
@@ -50,4 +50,4 @@ class Solution(object):
                 elif board[i][j] == 'O':
                     board[i][j] = 'X'
                  
-```
+# ```

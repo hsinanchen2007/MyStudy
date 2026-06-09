@@ -1,12 +1,12 @@
-### 解题思路
-1. 解法一，两次循环，首次记录并填充非零数据，二次循环补零
-2. 解法二，一次循环，非零左移，零右移
-3. 解法三，一次循环，填充非零元素的同时进行补零
+// ### 解题思路
+// 1. 解法一，两次循环，首次记录并填充非零数据，二次循环补零
+// 2. 解法二，一次循环，非零左移，零右移
+// 3. 解法三，一次循环，填充非零元素的同时进行补零
 
-### 解法一
+// ### 解法一
 
 
-```javascript
+// ```javascript
 
 var moveZeroes = function(nums) {
   let j=0;
@@ -27,11 +27,11 @@ var moveZeroes = function(nums) {
 
 
 
-```
+// ```
 
-### 解法二
+// ### 解法二
 
-```javascript
+// ```javascript
 var moveZeroes = function(nums) {
 
  
@@ -51,13 +51,13 @@ var moveZeroes = function(nums) {
 };
 
 
-```
+// ```
 
-### 解法三
+// ### 解法三
 
 
 
-```javascript
+// ```javascript
 var moveZeroes = function(nums) {
 
  
@@ -81,4 +81,4 @@ var moveZeroes = function(nums) {
 };
 
 
-```
+// ```

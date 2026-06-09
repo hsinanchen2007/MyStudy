@@ -1,8 +1,8 @@
-想看懂本篇题解，请先看下：[62. 不同路径的题解](https://leetcode-cn.com/problems/unique-paths/solution/dong-tai-gui-hua-dai-zhu-shi-by-tangweiqun-3/)
+// 想看懂本篇题解，请先看下：[62. 不同路径的题解](https://leetcode-cn.com/problems/unique-paths/solution/dong-tai-gui-hua-dai-zhu-shi-by-tangweiqun-3/)
 
-本题解采用自底而上的动态规划的方法（即从最后一个点(即终点)开始往起始点计算 dp 数组），代码如下：
+// 本题解采用自底而上的动态规划的方法（即从最后一个点(即终点)开始往起始点计算 dp 数组），代码如下：
 
-```java
+// ```java
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;
@@ -74,4 +74,4 @@ class Solution {
         return dp[0][0];
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> createTargetArray(vector<int>& nums, vector<int>& index) {
@@ -9,4 +9,4 @@ public:
         return target;
     }
 };
-```
+// ```

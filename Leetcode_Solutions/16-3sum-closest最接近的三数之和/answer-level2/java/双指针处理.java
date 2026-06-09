@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
         if(nums.length == 0 || nums.length < 3) return 0;
@@ -29,4 +29,4 @@ class Solution {
         return ans;// 返回最接近的那个值
     }
 }
-```
+// ```

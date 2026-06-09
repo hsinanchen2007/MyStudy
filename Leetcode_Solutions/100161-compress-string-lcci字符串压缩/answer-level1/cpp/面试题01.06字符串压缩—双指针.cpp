@@ -1,5 +1,5 @@
-字符串压缩——双指针
-```
+// 字符串压缩——双指针
+// ```
 class Solution {
 public:
     string compressString(string S) {
@@ -18,8 +18,8 @@ public:
         return res.size()<S.size()?res:S;
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     string compressString(string S) {
@@ -33,5 +33,5 @@ public:
         return res.size()<S.size()?res:S;
     }
 };
-```
+// ```
 

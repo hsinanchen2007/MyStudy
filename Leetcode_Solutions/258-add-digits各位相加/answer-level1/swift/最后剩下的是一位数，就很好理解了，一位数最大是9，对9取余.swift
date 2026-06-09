@@ -1,4 +1,4 @@
-```
+// ```
 func addDigits(_ num: Int) -> Int {
         if (num < 10) {
             return num;
@@ -9,4 +9,4 @@ func addDigits(_ num: Int) -> Int {
         }
         return result;
     }
-```
+// ```

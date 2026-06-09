@@ -1,10 +1,10 @@
-### 解题思路
-python3 速度击败91.23%，内存击败99.45%
-思路：层次遍历，在遍历每层时判断该层是否对称
+# ### 解题思路
+# python3 速度击败91.23%，内存击败99.45%
+# 思路：层次遍历，在遍历每层时判断该层是否对称
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
             cur = next_node
         return True
 
-```
+# ```

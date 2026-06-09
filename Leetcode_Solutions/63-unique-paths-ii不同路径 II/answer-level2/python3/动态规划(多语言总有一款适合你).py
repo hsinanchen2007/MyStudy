@@ -1,26 +1,26 @@
-# 思路
-这一题是不同路径的一个进阶版，添加了障碍物，同样采用动态规划，我们先列出不考虑障碍物的递推公式：
-$$
-dp[i][j] = 
-\begin{cases}
-1 & \text{$(i = 0, j = 0)$}　\\
-dp[i][j - 1] & \text{$(i = 0, j \neq 0)$} \\
-dp[i - 1][j] & \text{$(i \neq 0, j = 0)$} \\
-dp[i - 1][j] + dp[i][j - 1] & \text{$(i \neq 0, j \neq 0)$}
-\end{cases}
-$$
-在考虑障碍物的情况下　　
-- 对于第一个式子，仅在该点为障碍物的时候会导致路径为０(也会导致网络中任意一点，路径均为０)
-- 对于第二个式子，仅会在该点为障碍物的时候导致路径为０，否则机器人可以左方到达，所以和其左方一点的路径相同
-- 对于第三个式子，仅会在该点为障碍物的时候导致路径为０，否则机器人可以上方到达，所以和其上方一点的路径相同
-- 对于第四个式子，仅会在该点为障碍物的时候导致路径为０，否则机器人可以从左方或上方到达，因此为这两个方向的路径之和　　
-- 具体见代码注释
+# # 思路
+# 这一题是不同路径的一个进阶版，添加了障碍物，同样采用动态规划，我们先列出不考虑障碍物的递推公式：
+# $$
+# dp[i][j] = 
+# \begin{cases}
+# 1 & \text{$(i = 0, j = 0)$}　\\
+# dp[i][j - 1] & \text{$(i = 0, j \neq 0)$} \\
+# dp[i - 1][j] & \text{$(i \neq 0, j = 0)$} \\
+# dp[i - 1][j] + dp[i][j - 1] & \text{$(i \neq 0, j \neq 0)$}
+# \end{cases}
+# $$
+# 在考虑障碍物的情况下　　
+# - 对于第一个式子，仅在该点为障碍物的时候会导致路径为０(也会导致网络中任意一点，路径均为０)
+# - 对于第二个式子，仅会在该点为障碍物的时候导致路径为０，否则机器人可以左方到达，所以和其左方一点的路径相同
+# - 对于第三个式子，仅会在该点为障碍物的时候导致路径为０，否则机器人可以上方到达，所以和其上方一点的路径相同
+# - 对于第四个式子，仅会在该点为障碍物的时候导致路径为０，否则机器人可以从左方或上方到达，因此为这两个方向的路径之和　　
+# - 具体见代码注释
 
-# 代码
+# # 代码
 
-## `cpp`
+# ## `cpp`
 
-```cpp
+# ```cpp
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -46,12 +46,12 @@ public:
         return static_cast<int>(dp[m - 1][n - 1]);
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/1be443da3da625466e1dfdf79fdacc10babf2777cba81a4d95966d9e1c2a1f2a-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/1be443da3da625466e1dfdf79fdacc10babf2777cba81a4d95966d9e1c2a1f2a-image.png)
 
-## `python3`
+# ## `python3`
 
-```python
+# ```python
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         m = len(obstacleGrid)
@@ -77,12 +77,12 @@ class Solution:
                     if 0 == obstacleGrid[i][j]:
                         dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
         return dp[-1][-1]
-```
+# ```
 
 
-## `go`
+# ## `go`
 
-```go
+# ```go
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
     m := len(obstacleGrid)
     if m < 1 {
@@ -118,9 +118,9 @@ func uniquePathsWithObstacles(obstacleGrid [][]int) int {
     }
     return dp[m - 1][n - 1]
 }
-```
+# ```
 
 
-# 分析
-- 时间复杂度，需要进行一遍遍历，因此为$O(m*n)$
-- 空间复杂度，需要额外的空间保存`dp`，因此为$O(m*n)$
+# # 分析
+# - 时间复杂度，需要进行一遍遍历，因此为$O(m*n)$
+# - 空间复杂度，需要额外的空间保存`dp`，因此为$O(m*n)$

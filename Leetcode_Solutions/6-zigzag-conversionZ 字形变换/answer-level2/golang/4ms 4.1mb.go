@@ -1,4 +1,4 @@
-````
+// ````
 func convert(s string, numRows int) string {
 	if numRows == 1 {
 		return s
@@ -21,4 +21,4 @@ func convert(s string, numRows int) string {
 	}
 	return result.String()
 }
-````
+// ````

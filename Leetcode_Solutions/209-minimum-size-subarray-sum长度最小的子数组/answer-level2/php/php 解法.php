@@ -1,4 +1,4 @@
-```
+// ```
 function minSubArrayLen($s, $nums) {
     $ans = PHP_INT_MAX;
     $left = 0;
@@ -12,4 +12,4 @@ function minSubArrayLen($s, $nums) {
     }
     return $ans==PHP_INT_MAX?0:$ans;
 }
-```
+// ```

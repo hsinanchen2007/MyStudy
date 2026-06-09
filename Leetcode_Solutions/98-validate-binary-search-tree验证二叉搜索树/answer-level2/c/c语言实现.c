@@ -1,12 +1,12 @@
-### 解题思路
-分别找出左子树的d最大值和右子树的最小值与根比较，然后递归判断左右子树是否是二叉搜索树。
-![image.png](https://pic.leetcode-cn.com/f1e4a9de9c677d95d3994baac337f08502ed64d6f8154fc569c3ce61402b7bad-image.png)
+// ### 解题思路
+// 分别找出左子树的d最大值和右子树的最小值与根比较，然后递归判断左右子树是否是二叉搜索树。
+// ![image.png](https://pic.leetcode-cn.com/f1e4a9de9c677d95d3994baac337f08502ed64d6f8154fc569c3ce61402b7bad-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -45,4 +45,4 @@ bool isValidBST(struct TreeNode* root){
     }
     return 0;
 }
-```
+// ```

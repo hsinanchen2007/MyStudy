@@ -1,8 +1,8 @@
-### 解题思路
-链表前两个节点单独处理一下，并且为循环做一下预处理，然后循环，h->q->p 变成h->p->q。
-### 代码
+// ### 解题思路
+// 链表前两个节点单独处理一下，并且为循环做一下预处理，然后循环，h->q->p 变成h->p->q。
+// ### 代码
 
-```c
+// ```c
 struct ListNode* swapPairs(struct ListNode* head){
     if(!head || !head->next){
         return head;
@@ -32,4 +32,4 @@ struct ListNode* swapPairs(struct ListNode* head){
     }
     return result;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 贪心
-每次选择剩余次数最多的字母，当然要排除最后两个字符一样的情况
+// ### 贪心
+// 每次选择剩余次数最多的字母，当然要排除最后两个字符一样的情况
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestDiverseString(int a, int b, int c) {
@@ -29,4 +29,4 @@ public:
         return s;
     }
 };
-```
+// ```

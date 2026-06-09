@@ -1,9 +1,9 @@
-### 解题思路
-剑指offer中的解法
+// ### 解题思路
+// 剑指offer中的解法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cuttingRope(int n){
     if(n==2)
     return 1;
@@ -28,4 +28,4 @@ int cuttingRope(int n){
     }
     return out[n];
 }
-```
+// ```

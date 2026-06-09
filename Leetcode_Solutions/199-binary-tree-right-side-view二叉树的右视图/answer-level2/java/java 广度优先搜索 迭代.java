@@ -1,5 +1,5 @@
-/*思想就是层次遍历
-将每一行的最后一个元素加入列表中*/
+// /*思想就是层次遍历
+// 将每一行的最后一个元素加入列表中*/
 class Solution {
     Queue<TreeNode> queue = new LinkedList<TreeNode>();
     List<Integer> list = new LinkedList<>();

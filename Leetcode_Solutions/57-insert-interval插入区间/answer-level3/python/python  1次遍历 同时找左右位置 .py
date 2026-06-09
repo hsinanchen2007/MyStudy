@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-python  1次遍历 同时找左右位置 
-找到了 直接extend 后面 返回
-始终没找到 添加位置  
-最后添加 返回
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# python  1次遍历 同时找左右位置 
+# 找到了 直接extend 后面 返回
+# 始终没找到 添加位置  
+# 最后添加 返回
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def insert(self, intervals, newInterval):
         """
@@ -41,4 +41,4 @@ class Solution(object):
             res.append(newInterval)
 
         return res
-```
+# ```

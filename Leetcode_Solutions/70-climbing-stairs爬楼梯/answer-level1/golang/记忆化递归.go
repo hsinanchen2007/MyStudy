@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func climbStairs(n int) int {
     m := make([]int,n+1)
     return cs(0,n,m)
@@ -22,4 +22,4 @@ func cs(i,n int,m []int)int{
     m[i] = cs(i+1,n,m)+cs(i+2,n,m)
     return m[i]
 }
-```
+// ```

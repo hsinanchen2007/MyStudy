@@ -1,8 +1,8 @@
-思路：三个步骤
-    1. 判断是否有环：快慢指针，fast每次向前走两步，slow每次向前走一步。使用hasCyc标记位标志链表是否有环。
-    2. 判断环的长度：若hasCyc = True，则fast和slow两个指针会指在环中的某一个位置。记录当前位置，依旧使用快慢指针判断环的长度。
-    3. 判断环的入口：计算出环的长度count后，指针front先走count步，之后behind开始向前移动，前后两个指针均一次向前走一步，直到两个指针相遇，即为环的入口。
-```
+# 思路：三个步骤
+#     1. 判断是否有环：快慢指针，fast每次向前走两步，slow每次向前走一步。使用hasCyc标记位标志链表是否有环。
+#     2. 判断环的长度：若hasCyc = True，则fast和slow两个指针会指在环中的某一个位置。记录当前位置，依旧使用快慢指针判断环的长度。
+#     3. 判断环的入口：计算出环的长度count后，指针front先走count步，之后behind开始向前移动，前后两个指针均一次向前走一步，直到两个指针相遇，即为环的入口。
+# ```
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -60,4 +60,4 @@ class Solution(object):
             
            
         return front
-```
+# ```

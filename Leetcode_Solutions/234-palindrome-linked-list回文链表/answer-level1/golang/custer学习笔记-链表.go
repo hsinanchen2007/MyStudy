@@ -1,22 +1,22 @@
-### 解题思路 - 使用辅助栈
-简单的方法是使用辅助栈
+// ### 解题思路 - 使用辅助栈
+// 简单的方法是使用辅助栈
 
-遍历链表时，将节点上的数字压栈，链表遍历结束后，出栈，数字的顺序就是链表逆着读的顺序。
+// 遍历链表时，将节点上的数字压栈，链表遍历结束后，出栈，数字的顺序就是链表逆着读的顺序。
 
-比如链表 4 -> 2，压栈   
+// 比如链表 4 -> 2，压栈   
 
-| (2) | 
-| (4) | 
+// | (2) | 
+// | (4) | 
 
-接着遍历一遍单链表，同时将栈中的数字依次出栈做对比。校验是否为回文数字。
+// 接着遍历一遍单链表，同时将栈中的数字依次出栈做对比。校验是否为回文数字。
 
-此时单链表当前节点的数字是4，辅助栈出栈当前数字是2，不是回文数字。为false
+// 此时单链表当前节点的数字是4，辅助栈出栈当前数字是2，不是回文数字。为false
 
-这种方法，遍历两次单链表。时间复杂度O(n),使用辅助栈存储相同规模的数据，空间复杂度也是O(n)
+// 这种方法，遍历两次单链表。时间复杂度O(n),使用辅助栈存储相同规模的数据，空间复杂度也是O(n)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -42,34 +42,34 @@ func isPalindrome(head *ListNode) bool {
    }
    return true // 循环结束后没有返回false则返回true
 }
-```
+// ```
 
-### 解题思路 - 反转链表
-不使用额外的辅助栈，单链表的经典题目 [61.旋转链表](https://leetcode-cn.com/problems/rotate-list/solution/custerxue-xi-bi-ji-lian-biao-by-custergo-3/)
+// ### 解题思路 - 反转链表
+// 不使用额外的辅助栈，单链表的经典题目 [61.旋转链表](https://leetcode-cn.com/problems/rotate-list/solution/custerxue-xi-bi-ji-lian-biao-by-custergo-3/)
 
-比如链表 4 -> 2 -> 2 -> 4，反转一半的链表，
+// 比如链表 4 -> 2 -> 2 -> 4，反转一半的链表，
 
-需要一个cur指向当前节点，一个pre指向前一节点。
+// 需要一个cur指向当前节点，一个pre指向前一节点。
 
-反转一半的单链表之后，cur和pre分别向两端移动，对比两边的数字是否相等即可。
+// 反转一半的单链表之后，cur和pre分别向两端移动，对比两边的数字是否相等即可。
 
-如果链表长度是奇数，比如 4 -> 2 -> 1 -> 2 -> 4，
+// 如果链表长度是奇数，比如 4 -> 2 -> 1 -> 2 -> 4，
 
-这时cur和pre分别移动到一半长度时，cur指向1，pre指向2，
+// 这时cur和pre分别移动到一半长度时，cur指向1，pre指向2，
 
-这个时候正中间的1是不需要和其他对比的。
+// 这个时候正中间的1是不需要和其他对比的。
 
-因此将cur向后移动一位再进行对比即可。
+// 因此将cur向后移动一位再进行对比即可。
 
-这种方法时间复杂度是O(n),没有使用额外的存储空间，所以空间复杂度是O(1)
-
-
-![1.png](https://pic.leetcode-cn.com/bcc1dd99c89bbad81ec59b1d1eef81ce0b0521b9e2517d39eed92055fd58b810-1.png)
+// 这种方法时间复杂度是O(n),没有使用额外的存储空间，所以空间复杂度是O(1)
 
 
-### 代码
+// ![1.png](https://pic.leetcode-cn.com/bcc1dd99c89bbad81ec59b1d1eef81ce0b0521b9e2517d39eed92055fd58b810-1.png)
 
-```golang
+
+// ### 代码
+
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -105,4 +105,4 @@ func isPalindrome(head *ListNode) bool {
    }
    return true // 循环结束后还没返回，则最后返回true
 }
-```
+// ```

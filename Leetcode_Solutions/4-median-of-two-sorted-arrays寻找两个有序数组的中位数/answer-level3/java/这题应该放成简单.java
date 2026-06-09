@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int a=nums1.length;
@@ -23,4 +23,4 @@ class Solution {
         return c;
     }
 }
-```
+// ```

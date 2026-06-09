@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路 
-为什么23、29行一定要加p!=NULL 才能通过
-### 代码
+// ### 解题思路
+// 此处撰写解题思路 
+// 为什么23、29行一定要加p!=NULL 才能通过
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,4 +38,4 @@ public:
     return des;
     }
 };
-```
+// ```

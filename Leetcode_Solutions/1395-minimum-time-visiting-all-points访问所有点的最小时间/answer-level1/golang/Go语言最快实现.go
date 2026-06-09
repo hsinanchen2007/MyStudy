@@ -1,4 +1,4 @@
-思路：计算两点间的最短路径为计算两点横纵坐标绝对值的最小者
+// 思路：计算两点间的最短路径为计算两点横纵坐标绝对值的最小者
 
 func minTimeToVisitAllPoints(points [][]int) int {
 	var sum int = 0

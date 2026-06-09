@@ -1,9 +1,9 @@
-### 解题思路
-转换一个 int[] 为 set, 与另外一个数据进行比较，再转化为int[]返回。
+// ### 解题思路
+// 转换一个 int[] 为 set, 与另外一个数据进行比较，再转化为int[]返回。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         //nums1转 set集合
@@ -26,4 +26,4 @@ class Solution {
         return nums3;
     }
 }
-```
+// ```

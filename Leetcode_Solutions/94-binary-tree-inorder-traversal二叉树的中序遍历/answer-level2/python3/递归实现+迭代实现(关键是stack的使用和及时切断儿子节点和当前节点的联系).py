@@ -1,5 +1,5 @@
-1.递归实现
-```
+# 1.递归实现
+# ```
 class Solution: #递归法
 	def inorderTraversal(self,root):
 		ans=[]
@@ -12,11 +12,11 @@ class Solution: #递归法
 					helper(root.right)
 			helper(root)
 		return ans
-```
+# ```
 
-2.从递归->迭代(主要的语句都添加了注释 请大家多多指教)
-注:这种解法虽然达到了目的 但是破坏了原有的树的结构(我太菜了) 并不推荐 以下代码仅供参考
-```
+# 2.从递归->迭代(主要的语句都添加了注释 请大家多多指教)
+# 注:这种解法虽然达到了目的 但是破坏了原有的树的结构(我太菜了) 并不推荐 以下代码仅供参考
+# ```
 class Solution: #迭代法
 	def inorderTraversal(self,root):
 		if not root:
@@ -34,5 +34,5 @@ class Solution: #迭代法
 				if tmp.right: #如果当前节点有右儿子节点 就将右儿子节点入栈
 					stack.append(tmp.right)
 		return ans
-```
+# ```
 

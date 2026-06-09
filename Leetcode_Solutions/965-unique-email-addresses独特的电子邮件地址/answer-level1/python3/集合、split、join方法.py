@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
         res=set()
@@ -13,4 +13,4 @@ class Solution:
             res.add(''.join(ls)+'@'+domain)
 
         return len(res)
-```
+# ```

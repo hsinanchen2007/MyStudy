@@ -1,9 +1,9 @@
-### 解题思路
-需要注意的是链表一个写不好就死循环，提交之前最好对代码流程有清晰的认识
+// ### 解题思路
+// 需要注意的是链表一个写不好就死循环，提交之前最好对代码流程有清晰的认识
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* insertionSortList(ListNode* head) {
@@ -32,4 +32,4 @@ public:
         return dumb->next;
     }
 };
-```
+// ```

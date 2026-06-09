@@ -1,10 +1,10 @@
-### 解题思路
-看作对数组求众数：遍历二叉搜索树，然后用字典存储.时间效率不太高
-时间复杂度：o(nlogn)
-空间复杂度：o(n)
-### 代码
+# ### 解题思路
+# 看作对数组求众数：遍历二叉搜索树，然后用字典存储.时间效率不太高
+# 时间复杂度：o(nlogn)
+# 空间复杂度：o(n)
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
         return result
 
 
-```
+# ```

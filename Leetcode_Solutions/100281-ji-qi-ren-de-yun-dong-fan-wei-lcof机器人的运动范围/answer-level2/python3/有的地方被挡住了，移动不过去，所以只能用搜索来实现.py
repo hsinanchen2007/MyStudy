@@ -1,9 +1,9 @@
-### 解题思路
-这里不能用遍历矩阵的方法，因为有的点是不可达的，移动不到那里
+# ### 解题思路
+# 这里不能用遍历矩阵的方法，因为有的点是不可达的，移动不到那里
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         moves = [(0, 1), (0, -1), (1, 0), (-1, 0)]
@@ -24,4 +24,4 @@ class Solution:
                         
         return res
                 
-```
+# ```

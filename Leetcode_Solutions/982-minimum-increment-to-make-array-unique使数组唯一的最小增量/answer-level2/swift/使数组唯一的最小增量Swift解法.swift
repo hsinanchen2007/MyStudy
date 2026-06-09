@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func minIncrementForUnique(_ A: [Int]) -> Int {
         if A.isEmpty {
@@ -21,4 +21,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

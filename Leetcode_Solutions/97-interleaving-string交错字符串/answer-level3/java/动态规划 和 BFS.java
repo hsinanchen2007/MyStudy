@@ -1,28 +1,28 @@
-## 思路:
+// ## 思路:
 
-思路一:动态规划
+// 思路一:动态规划
 
-- 自底向上
+// - 自底向上
 
-  动态方程:
+//   动态方程:
 
-  用`dp[i][j]`表示`s1`的前`i`元素和`s2`前`j`元素是否交错组成`s3`前`i+j`元素
+//   用`dp[i][j]`表示`s1`的前`i`元素和`s2`前`j`元素是否交错组成`s3`前`i+j`元素
 
-  所以有动态方程:
+//   所以有动态方程:
 
-  `dp[i][j] = (dp[i-1][j] && s3[i+j-1] == s1[i-1]) || (dp[i][j-1] && s2[j-1] == s3[i+j-1])`
+//   `dp[i][j] = (dp[i-1][j] && s3[i+j-1] == s1[i-1]) || (dp[i][j-1] && s2[j-1] == s3[i+j-1])`
 
-  注意:针对第一行,第一列要单独考虑
+//   注意:针对第一行,第一列要单独考虑
 
-- 自顶向下
+// - 自顶向下
 
-思路二: BFS
+// 思路二: BFS
 
 
 
-## 代码:
+// ## 代码:
 
-```python [1]
+// ```python [1]
 class Solution:
     def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
         n1 = len(s1)
@@ -48,11 +48,11 @@ class Solution:
                         dp[i][j - 1] and s2[j - 1] == s3[i + j - 1])
         # print(dp)
         return dp[-1][-1]
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public boolean isInterleave(String s1, String s2, String s3) {
         int n1 = s1.length();
@@ -73,11 +73,11 @@ class Solution {
         return dp[n1][n2]; 
     }
 }
-```
+// ```
 
-自顶向下
+// 自顶向下
 
-```python [2]
+// ```python [2]
 class Solution:
     def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
         import functools
@@ -95,11 +95,11 @@ class Solution:
                     return True
             return False
         return helper(0,0,0)
-```
+// ```
 
-思路二:
+// 思路二:
 
-```python [3]
+// ```python [3]
 class Solution:
     def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
         from collections import deque
@@ -122,11 +122,11 @@ class Solution:
                 visited.add((i, j + 1))
                 queue.appendleft((i, j + 1))
         return False
-```
+// ```
 
 
 
-```java [3]
+// ```java [3]
 class Solution {
     public boolean isInterleave(String s1, String s2, String s3) {
         int n1 = s1.length();
@@ -152,5 +152,5 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 

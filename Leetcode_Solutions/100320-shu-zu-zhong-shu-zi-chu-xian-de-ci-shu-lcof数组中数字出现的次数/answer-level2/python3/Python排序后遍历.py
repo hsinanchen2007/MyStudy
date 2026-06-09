@@ -1,9 +1,9 @@
-### 解题思路
-先排序，再根据与前后值得关系判断是否唯一。
+# ### 解题思路
+# 先排序，再根据与前后值得关系判断是否唯一。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def singleNumbers(self, nums: List[int]) -> List[int]:
         res = []
@@ -18,4 +18,4 @@ class Solution:
             if nums[i] != nums[i-1] and nums[i] != nums[i+1]:
                 res.append(nums[i])
         return res
-```
+# ```

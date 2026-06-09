@@ -1,9 +1,9 @@
-### 解题思路
-双指针向中间夹，不会错过最优解。
+// ### 解题思路
+// 双指针向中间夹，不会错过最优解。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxArea(int[] height) {
         int p1=0;
@@ -23,4 +23,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

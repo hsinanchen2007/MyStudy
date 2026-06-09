@@ -1,4 +1,4 @@
-```python
+# ```python
 def divide(self, dividend: int, divisor: int) -> int:
     if dividend == 0: return 0
     flag = (dividend > 0 and divisor < 0) or (dividend < 0 and divisor > 0)  # ^
@@ -20,4 +20,4 @@ def divide(self, dividend: int, divisor: int) -> int:
         return -2 ** 31 if flag else 2 ** 31 - 1
     else:
         return -res if flag else res
-```
+# ```

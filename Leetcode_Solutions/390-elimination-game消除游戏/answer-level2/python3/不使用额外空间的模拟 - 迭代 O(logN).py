@@ -1,6 +1,6 @@
-模拟整个过程, 注意只需要知道开始/结束/增量即可, 最终循环结束条件是s==e
-不需要逐个删除, 只需要找到新的开始/结束
-```python
+# 模拟整个过程, 注意只需要知道开始/结束/增量即可, 最终循环结束条件是s==e
+# 不需要逐个删除, 只需要找到新的开始/结束
+# ```python
 class Solution:
     def lastRemaining(self, n: int) -> int:
         # 模拟整个过程, 注意只需要知道开始/结束/增量即可, 最终循环结束条件是s==e
@@ -20,5 +20,5 @@ class Solution:
             interval = -interval * 2
             s, e = newS, newE
         return s
-```
+# ```
 

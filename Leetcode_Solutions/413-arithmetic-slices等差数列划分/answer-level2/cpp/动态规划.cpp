@@ -1,10 +1,10 @@
-### 解题思路
-判题机有毒，我从8ms直接飙到0ms
-不在赘述，就是简单的动态规划，菜鸡大一写了将近。。。不说了，仅供参考
+// ### 解题思路
+// 判题机有毒，我从8ms直接飙到0ms
+// 不在赘述，就是简单的动态规划，菜鸡大一写了将近。。。不说了，仅供参考
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOfArithmeticSlices(vector<int>& A) {
@@ -28,4 +28,4 @@ public:
         return dp[len-1];
     }
 };
-```
+// ```

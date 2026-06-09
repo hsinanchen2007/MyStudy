@@ -1,9 +1,9 @@
-### 解题思路
-出入度问题, 二叉树出入度为0
+// ### 解题思路
+// 出入度问题, 二叉树出入度为0
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isValidSerialization(preorder string) bool {
   list := strings.Split(preorder, ",")
   count := 1
@@ -20,4 +20,4 @@ func isValidSerialization(preorder string) bool {
   
   return count == 0
 }
-```
+// ```

@@ -1,5 +1,5 @@
-直接贴代码
-```
+// 直接贴代码
+// ```
 class Solution {
     public int subarraySum(int[] nums, int k) {
         int n = 0;
@@ -15,7 +15,7 @@ class Solution {
         return n;
     }
 }
-```
-时间复杂度 O(n^2)
-空间复杂度 O(1)
+// ```
+// 时间复杂度 O(n^2)
+// 空间复杂度 O(1)
 

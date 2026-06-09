@@ -1,9 +1,9 @@
-### 解题思路
-直接模拟就完事了
+// ### 解题思路
+// 直接模拟就完事了
 
-### 代码
+// ### 代码
 
-```python3
+// ```python3
 class MyStack:
 
     def __init__(self):
@@ -47,9 +47,9 @@ class MyStack:
         if self.queue:
             return False
         return True
-```
+// ```
 
-```go
+// ```go
 type MyStack struct {
     Queue []int
 }
@@ -98,4 +98,4 @@ func (this *MyStack) Empty() bool {
     }
     return false
 }
-```
+// ```

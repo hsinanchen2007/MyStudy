@@ -1,11 +1,11 @@
-### 解题思路
-这次技巧性比较少了
-遍历遍历~~
-![image.png](https://pic.leetcode-cn.com/cca74e064134df015f5506969c0c6df5810d8936bcaf21ab56e3f1226cd0f5d2-image.png)
+// ### 解题思路
+// 这次技巧性比较少了
+// 遍历遍历~~
+// ![image.png](https://pic.leetcode-cn.com/cca74e064134df015f5506969c0c6df5810d8936bcaf21ab56e3f1226cd0f5d2-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	int[][] grid;
     public int largest1BorderedSquare(int[][] grid) {
@@ -37,4 +37,4 @@ class Solution {
   
     }
 }
-```
+// ```

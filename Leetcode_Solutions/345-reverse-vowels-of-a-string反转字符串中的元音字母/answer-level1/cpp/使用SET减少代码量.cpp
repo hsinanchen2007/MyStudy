@@ -1,8 +1,8 @@
-### 解题思路
-使用unordered_set减少代码量，注意在swap函数后还需要++i和--j
-### 代码
+// ### 解题思路
+// 使用unordered_set减少代码量，注意在swap函数后还需要++i和--j
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseVowels(string s) {
@@ -29,4 +29,4 @@ public:
         return s;
     }
 };
-```
+// ```

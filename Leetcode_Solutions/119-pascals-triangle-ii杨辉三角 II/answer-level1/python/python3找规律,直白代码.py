@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-最终行 = [0,前一行] + [前一行，0]
-最终行元素数 = rowindex + 1
-知道以后就很简单啦
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 最终行 = [0,前一行] + [前一行，0]
+# 最终行元素数 = rowindex + 1
+# 知道以后就很简单啦
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getRow(self, rowIndex: int):
         if rowIndex == 0:
@@ -24,4 +24,4 @@ class Solution:
 
 
         return ans
-```
+# ```

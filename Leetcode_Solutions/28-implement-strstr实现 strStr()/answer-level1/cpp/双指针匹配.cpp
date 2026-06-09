@@ -1,9 +1,9 @@
-两个指针i和j分别指向haystack和needle串。
-每次迭代逐位比较，主要是指针移动的条件判断：
-1. 当两个当前字符相等时，i++,j++,并判断j是否越界，若越界就找到了，返回结果i-j；否则继续。
-2. 当两个当前字符不相等时，先判断j是否越界，若未越界说明needle整体与haystack从i-j开始等长的字串不匹配，i重置到i-j的下一个位置，j重置为0；若越界，只需i++。
+// 两个指针i和j分别指向haystack和needle串。
+// 每次迭代逐位比较，主要是指针移动的条件判断：
+// 1. 当两个当前字符相等时，i++,j++,并判断j是否越界，若越界就找到了，返回结果i-j；否则继续。
+// 2. 当两个当前字符不相等时，先判断j是否越界，若未越界说明needle整体与haystack从i-j开始等长的字串不匹配，i重置到i-j的下一个位置，j重置为0；若越界，只需i++。
 
-```
+// ```
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -38,9 +38,9 @@ public:
         return -1;
     }
 };
-```
-![捕获.JPG](https://pic.leetcode-cn.com/2ceff853abb53f30bcd7bd80be09f07d49652513c016653079ee20aea5a1afeb-%E6%8D%95%E8%8E%B7.JPG)
+// ```
+// ![捕获.JPG](https://pic.leetcode-cn.com/2ceff853abb53f30bcd7bd80be09f07d49652513c016653079ee20aea5a1afeb-%E6%8D%95%E8%8E%B7.JPG)
 
 
-请看例子：
-![1.png](https://pic.leetcode-cn.com/7c7bb60825444e13cc660b2c363b74e7f338f1e93c9b6a7f21d4b5c167c5c12d-1.png)
+// 请看例子：
+// ![1.png](https://pic.leetcode-cn.com/7c7bb60825444e13cc660b2c363b74e7f338f1e93c9b6a7f21d4b5c167c5c12d-1.png)

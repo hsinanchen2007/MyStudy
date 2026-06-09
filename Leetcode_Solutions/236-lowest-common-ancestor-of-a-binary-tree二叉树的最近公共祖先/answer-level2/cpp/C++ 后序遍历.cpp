@@ -1,4 +1,4 @@
-先后序遍历，全部存在栈里，在从底部找，就能找到公共祖先节点。
+// 先后序遍历，全部存在栈里，在从底部找，就能找到公共祖先节点。
 
 TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
 

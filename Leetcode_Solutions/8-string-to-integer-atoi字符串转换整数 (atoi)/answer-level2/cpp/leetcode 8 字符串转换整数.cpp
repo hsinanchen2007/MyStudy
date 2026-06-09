@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/f2ba6e9359a8189c71762b3169fa522c3810ebd6ca1bf87261a0162adf7b7885-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f2ba6e9359a8189c71762b3169fa522c3810ebd6ca1bf87261a0162adf7b7885-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int outofrang(int &num,int plus,int &negative)
@@ -54,6 +54,6 @@ public:
 
     }
 };
-```
+// ```
 
-这道题官方给了一个很不错的状态机解法，这里是小白硬上的题解。分而治之的确很管用，但是一定要小心。
+// 这道题官方给了一个很不错的状态机解法，这里是小白硬上的题解。分而治之的确很管用，但是一定要小心。

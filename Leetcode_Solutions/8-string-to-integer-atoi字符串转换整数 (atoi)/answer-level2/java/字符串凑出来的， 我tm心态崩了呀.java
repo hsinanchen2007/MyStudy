@@ -1,9 +1,9 @@
-### 解题思路
-错了10次以上， 所有测试用例拼起来的
+// ### 解题思路
+// 错了10次以上， 所有测试用例拼起来的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         int ln;
@@ -51,4 +51,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

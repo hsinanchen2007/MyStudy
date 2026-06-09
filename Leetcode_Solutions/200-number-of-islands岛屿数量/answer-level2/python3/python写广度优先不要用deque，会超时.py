@@ -1,7 +1,7 @@
-如果用python写广度优先的方法，使用deque的append和popleft处理会超时，说明这个数据结构的数据存取效率不行啊。
+# 如果用python写广度优先的方法，使用deque的append和popleft处理会超时，说明这个数据结构的数据存取效率不行啊。
 
 
-```python
+# ```python
 class Solution:
     def numIslands(self, grid) -> int:
         if not grid:
@@ -33,4 +33,4 @@ class Solution:
                             q.pop()
                     island_count += 1
         return island_count
-```
+# ```

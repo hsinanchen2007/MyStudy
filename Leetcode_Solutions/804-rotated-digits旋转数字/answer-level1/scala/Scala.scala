@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def rotatedDigits(N: Int): Int = {
     var ans = 0
@@ -23,4 +23,4 @@ object Solution {
     good(n / 10, flag = true)    
     }
 }
-```
+// ```

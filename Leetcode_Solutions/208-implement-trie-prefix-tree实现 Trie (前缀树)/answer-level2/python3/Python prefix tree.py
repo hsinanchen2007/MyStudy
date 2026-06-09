@@ -1,4 +1,4 @@
-```python
+# ```python
 
 class Trie:
     
@@ -47,4 +47,4 @@ class Trie:
             dic = dic[w]
         return True
 
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-- 最大值和最小值比较可以很大程度上提高时间。
-- 排序帮助去重复。
+// ### 解题思路
+// - 最大值和最小值比较可以很大程度上提高时间。
+// - 排序帮助去重复。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
       if (nums.length<4 || nums==null){
@@ -67,4 +67,4 @@ class Solution {
         return lists;
     }
 }
-```
+// ```

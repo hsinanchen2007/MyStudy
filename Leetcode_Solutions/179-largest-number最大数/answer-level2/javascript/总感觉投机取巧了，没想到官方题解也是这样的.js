@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {string}
@@ -14,4 +14,4 @@ var largestNumber = function(nums) {
     const ans = nums.join('')
     return parseInt(ans) === 0 ? '0' : ans
 };
-```
+// ```

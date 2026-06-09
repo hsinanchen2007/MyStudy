@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"sort"
 	"strconv"
@@ -39,4 +39,4 @@ func strip(n string) string {
 	}
 	return n[i:]
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 #! -*- encoding=utf-8 -*-
 # 双向链表
 class MyNode(object):
@@ -143,4 +143,4 @@ class MyLinkedList(object):
             if p:
                 line += "=>"
         print (line)
-```
+# ```

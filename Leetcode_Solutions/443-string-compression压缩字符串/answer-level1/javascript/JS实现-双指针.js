@@ -1,5 +1,5 @@
-[使用JS刷Leetcode](https://github.com/careteenL/data-structure_algorithm/tree/0816-leetcode/src/leetcode)
-```js
+// [使用JS刷Leetcode](https://github.com/careteenL/data-structure_algorithm/tree/0816-leetcode/src/leetcode)
+// ```js
 /**
  * @think 双指针法
  *        1. 指针i表示已经压缩结果的末尾，指针j表示未压缩的头部
@@ -31,4 +31,4 @@ var compress = function (chars) {
   }
   return i
 }
-```
+// ```

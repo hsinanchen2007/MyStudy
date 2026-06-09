@@ -1,7 +1,7 @@
 
-但不知为什么，没有JavaScript高票的题解性能那么好（虽然相差不多）
+// 但不知为什么，没有JavaScript高票的题解性能那么好（虽然相差不多）
 
-```javascript []
+// ```javascript []
 var uniquePathsWithObstacles = function(obstacleGrid) {
     var dp=[];
     var width=obstacleGrid[0].length;
@@ -34,4 +34,4 @@ var uniquePathsWithObstacles = function(obstacleGrid) {
     }
     return dp[width-1];
 };
-```
+// ```

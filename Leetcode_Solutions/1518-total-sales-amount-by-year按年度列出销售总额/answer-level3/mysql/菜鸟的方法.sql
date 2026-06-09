@@ -1,9 +1,9 @@
-### 解题思路
-比较白痴的方法。。长一点的日期就没法对付了
+-- ### 解题思路
+-- 比较白痴的方法。。长一点的日期就没法对付了
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 #t是头尾的时间
 
@@ -26,4 +26,4 @@ order by  product_id ,report_year
 
 
 
-```
+-- ```

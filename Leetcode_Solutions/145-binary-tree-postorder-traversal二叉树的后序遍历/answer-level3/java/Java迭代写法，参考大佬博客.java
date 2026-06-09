@@ -1,8 +1,8 @@
-### 解题思路
-参考了大佬博客的java版本，博客讲得特别好 是直线推理不是那种给你代码要你理解而是教你怎么从前到后想出来
-### 代码
+// ### 解题思路
+// 参考了大佬博客的java版本，博客讲得特别好 是直线推理不是那种给你代码要你理解而是教你怎么从前到后想出来
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

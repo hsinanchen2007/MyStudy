@@ -1,12 +1,12 @@
-### 解题思路
-模拟乘法，将所有数据不进位直接存入数组，最后统一进位即可。
+// ### 解题思路
+// 模拟乘法，将所有数据不进位直接存入数组，最后统一进位即可。
 
-![QQ截图20200218205851.png](https://pic.leetcode-cn.com/7a0312b065ec0660752ef5c5451b59711b054d595fccb13191c62f736c045458-QQ%E6%88%AA%E5%9B%BE20200218205851.png)
+// ![QQ截图20200218205851.png](https://pic.leetcode-cn.com/7a0312b065ec0660752ef5c5451b59711b054d595fccb13191c62f736c045458-QQ%E6%88%AA%E5%9B%BE20200218205851.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string multiply(string num1, string num2) {
@@ -43,4 +43,4 @@ public:
     }
 };
 
-```
+// ```

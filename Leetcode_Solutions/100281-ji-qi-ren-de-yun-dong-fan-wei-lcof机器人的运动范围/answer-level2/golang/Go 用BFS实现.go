@@ -1,9 +1,9 @@
-### 解题思路
-用切片做队列+BFS，0ms.欢迎提出改进意见
+// ### 解题思路
+// 用切片做队列+BFS，0ms.欢迎提出改进意见
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func movingCount(m int, n int, k int) int {
 
     queue := make([]interface{},0)
@@ -71,4 +71,4 @@ func Push(queue *[]interface{},x interface{}) {
 }
 
 
-```
+// ```

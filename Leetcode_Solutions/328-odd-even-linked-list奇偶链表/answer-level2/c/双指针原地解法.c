@@ -1,12 +1,12 @@
-### 解题思路
-奇数双指针依次后移；
- 1、指针evenHead指向偶数节点头，保持不动，插入的奇数尾永远指向偶数节点头；
- 2、偶数指针逐步后移，链接剩余的奇数链
-![image.png](https://pic.leetcode-cn.com/d9a7628400c14fd3ff20abaf8f1db622d01ac34295ce6e46f2637dbfdc5270a7-image.png)
+// ### 解题思路
+// 奇数双指针依次后移；
+//  1、指针evenHead指向偶数节点头，保持不动，插入的奇数尾永远指向偶数节点头；
+//  2、偶数指针逐步后移，链接剩余的奇数链
+// ![image.png](https://pic.leetcode-cn.com/d9a7628400c14fd3ff20abaf8f1db622d01ac34295ce6e46f2637dbfdc5270a7-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ struct ListNode* oddEvenList(struct ListNode* head)
     }
     return head;
 }
-```
+// ```

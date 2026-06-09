@@ -1,11 +1,11 @@
-### 解题思路
-很明显应该使用后续遍历。
-新建立函数 `int max_sum(TreeNode* p, int &ans)`用以计算自底向上到结点p(必须包含p)为止能得到的最大连续和。
-然后将ans与`p->val  max_left+p->val  max_right+p->val  max_left+max_right+p->val`进行比较，获取最大值。
+// ### 解题思路
+// 很明显应该使用后续遍历。
+// 新建立函数 `int max_sum(TreeNode* p, int &ans)`用以计算自底向上到结点p(必须包含p)为止能得到的最大连续和。
+// 然后将ans与`p->val  max_left+p->val  max_right+p->val  max_left+max_right+p->val`进行比较，获取最大值。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -49,4 +49,4 @@ public:
         else return (max_left>max_right)?(max_left+p->val):(max_right+p->val);
     }
 };
-```
+// ```

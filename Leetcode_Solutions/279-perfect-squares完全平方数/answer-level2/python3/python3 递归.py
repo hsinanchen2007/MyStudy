@@ -1,9 +1,9 @@
-### 解题思路
-用尽了一切方法总算没超时了。。。。
+# ### 解题思路
+# 用尽了一切方法总算没超时了。。。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numSquares(self, n: int) -> int:
         #先找出n以内的完全平方数
@@ -41,4 +41,4 @@ class Solution:
                 return res
         return res
                 
-```
+# ```

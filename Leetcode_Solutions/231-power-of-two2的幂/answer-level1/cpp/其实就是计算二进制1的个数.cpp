@@ -1,9 +1,9 @@
-### 解题思路
-n&(n-1)
+// ### 解题思路
+// n&(n-1)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
@@ -31,4 +31,4 @@ public:
         }
     }
 };
-```
+// ```

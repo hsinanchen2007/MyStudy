@@ -1,9 +1,9 @@
-### 解题思路
-找到“01”字串，或者“10”字串时，开始寻找回文串，找到的个数就是出现的01串的个数。
+// ### 解题思路
+// 找到“01”字串，或者“10”字串时，开始寻找回文串，找到的个数就是出现的01串的个数。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void calculate(char *s, int start, int end, int *count) {
     char f = s[start];
     char l = s[end];
@@ -28,4 +28,4 @@ int countBinarySubstrings(char * s){
     return count;
 }
 
-```
+// ```

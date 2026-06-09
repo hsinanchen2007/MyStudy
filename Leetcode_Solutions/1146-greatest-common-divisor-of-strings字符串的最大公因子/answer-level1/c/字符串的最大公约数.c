@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * gcdOfStrings(char * str1, char * str2){
     int i = 0,j=0,k=0,l;
     char * t;
@@ -64,4 +64,4 @@ char * gcdOfStrings(char * str1, char * str2){
     *(str2+flag+1)='\0';
     return str2;
 }
-```
+// ```

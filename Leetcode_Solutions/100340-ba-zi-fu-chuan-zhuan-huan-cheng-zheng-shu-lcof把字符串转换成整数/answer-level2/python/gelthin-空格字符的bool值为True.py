@@ -1,20 +1,20 @@
-### 解题思路
-同主站习题 [主站 8 题](https://leetcode-cn.com/problems/string-to-integer-atoi/)
+# ### 解题思路
+# 同主站习题 [主站 8 题](https://leetcode-cn.com/problems/string-to-integer-atoi/)
 
-当无法成功转换时，返回 0
-python  2**31, 表示 2的 31 次幂
+# 当无法成功转换时，返回 0
+# python  2**31, 表示 2的 31 次幂
 
-本题任何无法转换的输入，都输出 0.
-一个大的 BUG
+# 本题任何无法转换的输入，都输出 0.
+# 一个大的 BUG
 
-### 空格字符的bool值为True, 空格字符也是一个字符，不是空字符串。
-
-
+# ### 空格字符的bool值为True, 空格字符也是一个字符，不是空字符串。
 
 
-### 代码
 
-```python3
+
+# ### 代码
+
+# ```python3
 class Solution:
     def strToInt(self, str: str) -> int:
         def str2num(A):
@@ -51,4 +51,4 @@ class Solution:
             return -2**31
         else:
             return result
-```
+# ```

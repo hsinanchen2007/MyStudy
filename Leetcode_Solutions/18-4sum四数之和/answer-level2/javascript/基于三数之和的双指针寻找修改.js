@@ -1,9 +1,9 @@
 
-![截屏2019-12-0417.03.46.png](https://pic.leetcode-cn.com/ea4b638ca679a3492acc3edf216afbb75daa1144856cbcb0099562a7c3885cd6-%E6%88%AA%E5%B1%8F2019-12-0417.03.46.png)
+// ![截屏2019-12-0417.03.46.png](https://pic.leetcode-cn.com/ea4b638ca679a3492acc3edf216afbb75daa1144856cbcb0099562a7c3885cd6-%E6%88%AA%E5%B1%8F2019-12-0417.03.46.png)
 
-**代码**
+// **代码**
 
-```
+// ```
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -36,4 +36,4 @@ var fourSum = function(nums, target) {
     }        
     return ans;
 };
-```
+// ```

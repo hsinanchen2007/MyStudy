@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:    
         #分开春促
@@ -28,4 +28,4 @@ class Solution:
             if version1_list[i]<version2_list[i]:
                 return -1
         return 0
-```
+# ```

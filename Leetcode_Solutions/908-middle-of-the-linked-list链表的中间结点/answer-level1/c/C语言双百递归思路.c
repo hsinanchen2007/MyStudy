@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -23,4 +23,4 @@ struct ListNode* find(struct ListNode* node1,struct ListNode* node2){
 struct ListNode* middleNode(struct ListNode* head){
     return find(head,head);
 }
-```
+// ```

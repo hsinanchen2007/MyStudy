@@ -1,9 +1,9 @@
-### 解题思路
-暴力循环，不断除三，看最后剩下的是不是1就好了
+// ### 解题思路
+// 暴力循环，不断除三，看最后剩下的是不是1就好了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPowerOfThree(int n)
 {
     if(n<=0) return false;
@@ -16,4 +16,4 @@ bool isPowerOfThree(int n)
         return n==1;
     }
 }
-```
+// ```

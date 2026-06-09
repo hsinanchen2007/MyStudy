@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
         if(board.length == 0){
@@ -65,4 +65,4 @@ class Solution {
         }
     }
 }
-```
+// ```

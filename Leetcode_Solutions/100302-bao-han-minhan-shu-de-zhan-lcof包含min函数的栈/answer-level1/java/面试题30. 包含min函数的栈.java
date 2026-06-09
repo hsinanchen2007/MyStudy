@@ -1,9 +1,9 @@
-### 解题思路
-借助链表。进出栈都判断是否为最小值。
+// ### 解题思路
+// 借助链表。进出栈都判断是否为最小值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
     List<Integer> list;
     int rear;
@@ -44,4 +44,4 @@ class MinStack {
         return MinValue;
     }
 }
-```
+// ```

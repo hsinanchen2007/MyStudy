@@ -1,6 +1,6 @@
-![891BB0DE-922C-46AA-B9D0-1A1F7CEF8BAA.jpeg](https://pic.leetcode-cn.com/42e734c8c57f77d3fe75696f1954ab798ea6c2c922cbd3feaaf3ba9b333aceea-891BB0DE-922C-46AA-B9D0-1A1F7CEF8BAA.jpeg)
+// ![891BB0DE-922C-46AA-B9D0-1A1F7CEF8BAA.jpeg](https://pic.leetcode-cn.com/42e734c8c57f77d3fe75696f1954ab798ea6c2c922cbd3feaaf3ba9b333aceea-891BB0DE-922C-46AA-B9D0-1A1F7CEF8BAA.jpeg)
 
-```
+// ```
 #define INF 2147483647
 
 typedef struct ListNode286 {
@@ -130,4 +130,4 @@ void wallsAndGates(int** rooms, int roomsSize, int* roomsColSize){
 }
 
 
-```
+// ```

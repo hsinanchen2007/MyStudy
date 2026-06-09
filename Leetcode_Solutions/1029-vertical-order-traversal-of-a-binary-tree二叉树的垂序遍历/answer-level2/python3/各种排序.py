@@ -1,9 +1,9 @@
-### 解题思路
-深搜遍历，按照坐标记录点，用字典保存，最后排序即可!
+# ### 解题思路
+# 深搜遍历，按照坐标记录点，用字典保存，最后排序即可!
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
             res.append(temp)
         return res
 
-```
+# ```

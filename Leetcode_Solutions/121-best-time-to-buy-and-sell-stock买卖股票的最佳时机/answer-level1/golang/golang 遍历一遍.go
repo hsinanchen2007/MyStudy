@@ -1,9 +1,9 @@
-### 解题思路
-一遍遍历
+// ### 解题思路
+// 一遍遍历
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
     if len(prices) == 0 {
 		return 0
@@ -28,4 +28,4 @@ func maxProfit(prices []int) int {
 	
 	return max
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-关系优化存储到hash，然后BFS或者DFS， DFS用的递归会超时。
+// ### 解题思路
+// 关系优化存储到hash，然后BFS或者DFS， DFS用的递归会超时。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> ret;
@@ -39,4 +39,4 @@ public:
         return ret;
     }
 };
-```
+// ```

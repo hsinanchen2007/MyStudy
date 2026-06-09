@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -15,5 +15,5 @@ public:
         return result;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/3d089274280225f85455d08891e681253352195493ae49cb2b7c823a496756d7-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/3d089274280225f85455d08891e681253352195493ae49cb2b7c823a496756d7-image.png)

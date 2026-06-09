@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool Check(char* s, char* t){
     int lent = strlen(t);
     int lens = strlen(s);
@@ -32,4 +32,4 @@ char * gcdOfStrings(char * str1, char * str2){
     }
     return "";
 }
-```
+// ```

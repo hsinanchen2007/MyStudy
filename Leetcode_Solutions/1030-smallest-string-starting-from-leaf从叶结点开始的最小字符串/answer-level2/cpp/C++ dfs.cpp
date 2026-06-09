@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 void dfs(map<string, int>& M, string s, TreeNode* root) {
   if (!root) return;
   s += root->val + 'a';
@@ -14,4 +14,4 @@ string smallestFromLeaf(TreeNode* root) {
   dfs(M, {}, root);
   return M.begin()->first;
 }
-```
+// ```

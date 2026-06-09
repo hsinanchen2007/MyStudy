@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int majorityElement(int* nums, int numsSize){
     int count = 1;
     int value = nums[0];
@@ -21,4 +21,4 @@ int majorityElement(int* nums, int numsSize){
     }
     return value;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 '''
 LeetCode 871 最低加油次数
 A car travels from a starting position to a destination which is target miles east of the starting position.
@@ -105,4 +105,4 @@ if __name__ == "__main__":
     s = Solution()
     print(s.minRefuelStops(target, startFuel, stations))
 '''
-```
+# ```

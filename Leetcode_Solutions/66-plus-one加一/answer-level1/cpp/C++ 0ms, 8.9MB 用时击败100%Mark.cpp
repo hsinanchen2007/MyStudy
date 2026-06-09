@@ -1,11 +1,11 @@
-### 解题思路
-进位模拟，数学题
+// ### 解题思路
+// 进位模拟，数学题
 
-![image.png](https://pic.leetcode-cn.com/b2d86837a7ba0ed6f872019dc2c4422b46d6102b0dc235841d585d462cc3cfd3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b2d86837a7ba0ed6f872019dc2c4422b46d6102b0dc235841d585d462cc3cfd3-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -30,4 +30,4 @@ public:
         return digits;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int balancedStringSplit(string s) {
@@ -22,5 +22,5 @@ public:
         return ans;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/19e1df91f40a1236d430983ae59e17bc5453c83d643e910e7088c7fcbca00dfb-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/19e1df91f40a1236d430983ae59e17bc5453c83d643e910e7088c7fcbca00dfb-image.png)

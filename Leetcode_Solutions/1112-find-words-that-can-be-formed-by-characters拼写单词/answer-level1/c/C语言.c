@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/899964ce7a96cab6a462bb2432e8128fbb08e4551f2247a8625bbf58c75ee193-image.png)
+// ![image.png](https://pic.leetcode-cn.com/899964ce7a96cab6a462bb2432e8128fbb08e4551f2247a8625bbf58c75ee193-image.png)
 
 
-```
+// ```
 int countCharacters(char ** words, int wordsSize, char * chars){
     int charNum[128]     = {0};
     int tempCharNum[128] = {0};
@@ -32,5 +32,5 @@ int countCharacters(char ** words, int wordsSize, char * chars){
 
     return length;
 }
-```
+// ```
 

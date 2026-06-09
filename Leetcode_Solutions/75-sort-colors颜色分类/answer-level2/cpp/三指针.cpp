@@ -1,9 +1,9 @@
-### 解题思路
-三指针：0后面，cur，2前面
+// ### 解题思路
+// 三指针：0后面，cur，2前面
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
         }
     }
 };
-```
+// ```

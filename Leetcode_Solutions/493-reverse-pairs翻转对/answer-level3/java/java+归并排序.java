@@ -1,5 +1,5 @@
-**我看解法里使用java语言和归并排序实现的不多，那我就抛砖引玉了。**
-```
+// **我看解法里使用java语言和归并排序实现的不多，那我就抛砖引玉了。**
+// ```
 class Solution {
     public int reversePairs(int[] nums) {
         return mergerSort(nums, 0, nums.length - 1);
@@ -37,4 +37,4 @@ class Solution {
 }
 
 
-```
+// ```

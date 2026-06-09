@@ -1,4 +1,4 @@
-```sql
+-- ```sql
 /* Write your T-SQL query statement below */
 IF (SELECT MAX(id) FROM seat) % 2 = 0
 BEGIN
@@ -16,4 +16,4 @@ BEGIN
     FROM seat
     ORDER BY id;
 END
-```
+-- ```

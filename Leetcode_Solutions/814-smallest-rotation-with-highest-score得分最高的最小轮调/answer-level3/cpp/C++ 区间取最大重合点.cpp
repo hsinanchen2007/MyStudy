@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int bestRotation(vector<int>& A) {
@@ -23,6 +23,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/44ce6c10857b6e50aa3c784f3632e3360b6a42af8217650da29c6bb0ebd80448-image.png)
+// ![image.png](https://pic.leetcode-cn.com/44ce6c10857b6e50aa3c784f3632e3360b6a42af8217650da29c6bb0ebd80448-image.png)

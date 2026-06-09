@@ -1,9 +1,9 @@
-### 解题思路
-这一题其实还是在考察二叉树的层次遍历。比较每一轮队列中那个元素值最大即可。
+// ### 解题思路
+// 这一题其实还是在考察二叉树的层次遍历。比较每一轮队列中那个元素值最大即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -49,4 +49,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

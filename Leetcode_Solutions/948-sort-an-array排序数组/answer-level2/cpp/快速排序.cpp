@@ -1,9 +1,9 @@
-### 解题思路
-标准的快排
+// ### 解题思路
+// 标准的快排
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct SortStruct
 {
 	vector<int> front;
@@ -108,4 +108,4 @@ vector<int>quickSort(vector<int> nums){
 
 
 }
-```
+// ```

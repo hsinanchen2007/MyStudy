@@ -1,9 +1,9 @@
-### 解题思路
-简单的递归，当前结点的左右皆为null，且当前结点为0，则将当前结点置为null
+// ### 解题思路
+// 简单的递归，当前结点的左右皆为null，且当前结点为0，则将当前结点置为null
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
         return now;
     }
 }
-```
+// ```

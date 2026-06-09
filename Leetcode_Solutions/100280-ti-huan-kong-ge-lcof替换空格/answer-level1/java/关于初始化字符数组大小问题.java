@@ -1,11 +1,11 @@
-### 解题思路
-官方标准解法，就是超级疑惑的是对新的字符数组初始化大小的时候，明明可以是 3 * (n - 1)
-，我本地都可以通过，迷幻的测试用例。。。
-![image.png](https://pic.leetcode-cn.com/edf93c682aec14ce34e51c90f5a79721cdbd2509911e7616a3ac607de58fec79-image.png)
+// ### 解题思路
+// 官方标准解法，就是超级疑惑的是对新的字符数组初始化大小的时候，明明可以是 3 * (n - 1)
+// ，我本地都可以通过，迷幻的测试用例。。。
+// ![image.png](https://pic.leetcode-cn.com/edf93c682aec14ce34e51c90f5a79721cdbd2509911e7616a3ac607de58fec79-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         int strLen = s.length();
@@ -28,4 +28,4 @@ class Solution {
         return new String (chArr, 0, size);
     }
 }
-```
+// ```

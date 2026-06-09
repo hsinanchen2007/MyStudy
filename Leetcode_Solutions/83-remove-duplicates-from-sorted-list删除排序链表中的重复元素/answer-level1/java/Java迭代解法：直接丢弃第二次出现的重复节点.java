@@ -1,4 +1,4 @@
-```
+// ```
 public static ListNode deleteDuplicates(ListNode head) {
 	ListNode cur = head;
 	while (cur != null) {
@@ -11,4 +11,4 @@ public static ListNode deleteDuplicates(ListNode head) {
 	}
 	return head;
 }
-```
+// ```

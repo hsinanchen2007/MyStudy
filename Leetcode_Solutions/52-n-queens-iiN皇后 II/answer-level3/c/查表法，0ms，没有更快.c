@@ -1,6 +1,6 @@
 
 
-```c
+// ```c
 int g_num[] = {
     1,
     0,
@@ -22,4 +22,4 @@ int totalNQueens(int n){
     return (n == 0) ? 0 : g_num[n - 1];
 }
 
-```
+// ```

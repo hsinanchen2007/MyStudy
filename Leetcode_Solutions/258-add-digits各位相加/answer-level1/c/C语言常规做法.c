@@ -1,4 +1,4 @@
-```c
+// ```c
 int addDigits(int num){
     int new_num;
     while(num/10!=0){
@@ -11,4 +11,4 @@ int addDigits(int num){
     }
     return num;
 }
-```
+// ```

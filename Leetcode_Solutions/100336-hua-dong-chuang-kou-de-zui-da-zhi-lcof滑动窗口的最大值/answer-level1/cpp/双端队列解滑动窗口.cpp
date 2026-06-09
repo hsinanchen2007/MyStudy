@@ -1,9 +1,9 @@
-### 解题思路
-用一个双端队列，存储滑动窗口中最大值的id
+// ### 解题思路
+// 用一个双端队列，存储滑动窗口中最大值的id
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

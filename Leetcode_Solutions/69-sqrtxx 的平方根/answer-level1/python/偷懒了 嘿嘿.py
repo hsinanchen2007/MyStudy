@@ -1,9 +1,9 @@
-### 解题思路
-纯属小白偷懒做法
+# ### 解题思路
+# 纯属小白偷懒做法
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def mySqrt(self, x):
         """
@@ -12,4 +12,4 @@ class Solution(object):
         """
         import math
         return(int(math.sqrt(x)))
-```
+# ```

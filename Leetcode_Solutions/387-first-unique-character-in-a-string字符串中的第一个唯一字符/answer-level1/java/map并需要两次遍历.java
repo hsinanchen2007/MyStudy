@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int firstUniqChar(String s) {
         Map map = new LinkedHashMap();
@@ -20,4 +20,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

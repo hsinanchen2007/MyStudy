@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/5d0dbcdcc9f8f328b1ea9faf31c0658c09145620cc342942fbf8dab47199dea6-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/5d0dbcdcc9f8f328b1ea9faf31c0658c09145620cc342942fbf8dab47199dea6-image.png)
 
-因为数组每一行是从小到大排序的,从每一行的末尾开始比较,如果目标值比行的末尾值还要大,那么目标值肯定不在这一行,然后下移一行,如果小于行的末位置,那么开始比较行的倒数第二个数,逐个比较,碰见相等就返回true,如果最终没有找到返回false
+// 因为数组每一行是从小到大排序的,从每一行的末尾开始比较,如果目标值比行的末尾值还要大,那么目标值肯定不在这一行,然后下移一行,如果小于行的末位置,那么开始比较行的倒数第二个数,逐个比较,碰见相等就返回true,如果最终没有找到返回false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
@@ -44,4 +44,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

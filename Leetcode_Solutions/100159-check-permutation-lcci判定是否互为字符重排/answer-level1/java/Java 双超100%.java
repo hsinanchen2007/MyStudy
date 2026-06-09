@@ -1,11 +1,11 @@
-### 解题思路
-直接排序
-![image.png](https://pic.leetcode-cn.com/f463623bd6075f2ce0037e2e4947583a60a622f8065f2e6151c01890ee21dd34-image.png)
+// ### 解题思路
+// 直接排序
+// ![image.png](https://pic.leetcode-cn.com/f463623bd6075f2ce0037e2e4947583a60a622f8065f2e6151c01890ee21dd34-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         char[] c1 = s1.toCharArray();
@@ -21,4 +21,4 @@ class Solution {
         }
     }
 }
-```
+// ```

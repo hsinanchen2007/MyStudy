@@ -1,9 +1,9 @@
-### 解题思路
-一个括号配对的过程，将配对好的括号分别划分到0,1两个字符串
+// ### 解题思路
+// 一个括号配对的过程，将配对好的括号分别划分到0,1两个字符串
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
@@ -27,4 +27,4 @@ public:
         return res;
     }
 };
-```
+// ```

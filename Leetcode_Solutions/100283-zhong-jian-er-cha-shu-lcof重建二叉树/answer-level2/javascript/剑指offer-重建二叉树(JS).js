@@ -1,4 +1,4 @@
-```js
+// ```js
 var buildTree = function(preorder, inorder) {
   var len = preorder.length;
   if(len === 0 && inorder.length === 0) return null;
@@ -14,4 +14,4 @@ function createTree(pre, vin, left, right, rootIndex) {
     root.right = createTree(pre, vin, midIndex + 1, right, rootIndex + midIndex - left + 1);
   return root;
 }
-```
+// ```

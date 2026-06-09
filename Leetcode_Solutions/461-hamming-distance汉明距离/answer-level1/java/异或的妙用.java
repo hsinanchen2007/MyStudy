@@ -1,8 +1,8 @@
-将其异或后判断异或后的数中的1的数目
+// 将其异或后判断异或后的数中的1的数目
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int hammingDistance(int x, int y) {
         
@@ -21,4 +21,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

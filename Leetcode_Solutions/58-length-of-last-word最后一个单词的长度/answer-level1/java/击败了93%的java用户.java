@@ -1,4 +1,4 @@
-```
+// ```
 public int lengthOfLastWord(String s) {
         int count = 0;
         int index = s.length() - 1;
@@ -15,4 +15,4 @@ public int lengthOfLastWord(String s) {
         }
         return count;
     }
-```
+// ```

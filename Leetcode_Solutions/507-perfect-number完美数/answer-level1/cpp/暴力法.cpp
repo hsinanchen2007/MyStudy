@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkPerfectNumber(int num) {
@@ -13,4 +13,4 @@ public:
         return num==sum;
     }
 };
-```
+// ```

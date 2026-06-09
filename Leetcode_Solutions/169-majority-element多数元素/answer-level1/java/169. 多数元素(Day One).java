@@ -1,9 +1,9 @@
-### 法一
-用HashMap统计元素出现次数，满足条件即可退出。
+// ### 法一
+// 用HashMap统计元素出现次数，满足条件即可退出。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         Arrays.sort(nums);
@@ -27,12 +27,12 @@ class Solution {
         return Integer.MIN_VALUE;
     }
 }
-```
+// ```
 
-### 法二
-不用HashMap，由于排序后的数组相等的数据一定相邻，用一个变量记录出现次数即可。
+// ### 法二
+// 不用HashMap，由于排序后的数组相等的数据一定相邻，用一个变量记录出现次数即可。
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         if (1 == nums.length) {
@@ -55,11 +55,11 @@ class Solution {
         return Integer.MIN_VALUE;
     }
 }
-```
+// ```
 
-### 法三
-统计出现最大次数的元素
-```java
+// ### 法三
+// 统计出现最大次数的元素
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         int tmp = nums[0];
@@ -78,4 +78,4 @@ class Solution {
         return tmp;
     }
 }
-```
+// ```

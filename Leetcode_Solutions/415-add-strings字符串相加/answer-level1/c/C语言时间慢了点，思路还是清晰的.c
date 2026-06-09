@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/b4a7e2e2ebdc800a930d61c4c366a8f06d15c597b4e463de66892027e3d37fd5-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/b4a7e2e2ebdc800a930d61c4c366a8f06d15c597b4e463de66892027e3d37fd5-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverseString(char* s, int sSize){
     char temp;
     for(int i = 0; i < sSize / 2; i++) {
@@ -40,4 +40,4 @@ char * addStrings(char * num1, char * num2){
     }
     return ret;
 }
-```
+// ```

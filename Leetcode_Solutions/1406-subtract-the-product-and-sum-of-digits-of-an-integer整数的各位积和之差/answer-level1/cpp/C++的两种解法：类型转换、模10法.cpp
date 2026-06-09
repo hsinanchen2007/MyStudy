@@ -1,10 +1,10 @@
-### 解题思路
-第一种解法，将n转换为字符串。循环遍历字符串，同时将 字符-48 (48为0的ASCII码) 后即为数值，再进行操作。
-第二种解法，直接while(n),在循环里对n进行模与除运算。
+// ### 解题思路
+// 第一种解法，将n转换为字符串。循环遍历字符串，同时将 字符-48 (48为0的ASCII码) 后即为数值，再进行操作。
+// 第二种解法，直接while(n),在循环里对n进行模与除运算。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int subtractProductAndSum(int n) {
@@ -18,8 +18,8 @@ public:
         return (mul-sum);
     }
 };
-```
-```cpp
+// ```
+// ```cpp
 class Solution {
 public:
     int subtractProductAndSum(int n) {
@@ -33,4 +33,4 @@ public:
         return (mul-sum);
     }
 };
-```
+// ```

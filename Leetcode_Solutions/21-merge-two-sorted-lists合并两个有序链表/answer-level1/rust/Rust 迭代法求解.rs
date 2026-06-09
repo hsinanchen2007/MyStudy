@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn merge_two_lists(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         if let None = l1 {
@@ -77,5 +77,5 @@ impl Solution {
         l1
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/bee68523ae5eb20b8d14d50cb72932f7b381f584dd1e76eaa27ec95f4c1177ca-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/bee68523ae5eb20b8d14d50cb72932f7b381f584dd1e76eaa27ec95f4c1177ca-image.png)

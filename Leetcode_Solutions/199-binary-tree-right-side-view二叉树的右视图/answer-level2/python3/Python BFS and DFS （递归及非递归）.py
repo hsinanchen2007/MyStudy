@@ -1,7 +1,7 @@
 
-BFS:
+# BFS:
 
-```
+# ```
 def rightSideView(self, root: TreeNode) -> List[int]:
         if not root:
             return []
@@ -15,14 +15,14 @@ def rightSideView(self, root: TreeNode) -> List[int]:
             if cur.right:
                 queue.append((cur.right,level+1))
         return list(res.values())
-```
+# ```
 
 
 
 
-DFS递归:
+# DFS递归:
 
-```
+# ```
 class Solution:
     def rightSideView(self, root: TreeNode) -> List[int]:
         
@@ -36,15 +36,15 @@ class Solution:
         res={}
         right(root,0)
         return list(res.values())
-```
+# ```
 
 
 
 
 
-DFS 非递归:
+# DFS 非递归:
 
-```
+# ```
 class Solution:
     def rightSideView(self, root: TreeNode) -> List[int]:
         if not root:
@@ -59,4 +59,4 @@ class Solution:
             if cur.left:
                 stack.append((cur.left,level+1))
         return list(res.values())
-```
+# ```

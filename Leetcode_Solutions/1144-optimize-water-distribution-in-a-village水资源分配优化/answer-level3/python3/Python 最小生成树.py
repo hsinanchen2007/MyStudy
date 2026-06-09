@@ -1,5 +1,5 @@
 
-```
+# ```
 '''
 把水井当成一个虚拟节点，虚拟节点到每一个其他节点的距离就是这个节点造水井的开销，
 求整个图的最小生成树
@@ -71,4 +71,4 @@ class Solution:
                 total_cost += cost
                 edge_cnt += 1
         return total_cost
-```
+# ```

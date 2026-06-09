@@ -1,7 +1,7 @@
-## 自己的代码
-首先是自己解题，然后研究一下别人优秀的题解
-我自己的想法是建立辅助数组，进行排序，时间复杂度o(m+n)，空间复杂度o(m+n)。
-```python []
+# ## 自己的代码
+# 首先是自己解题，然后研究一下别人优秀的题解
+# 我自己的想法是建立辅助数组，进行排序，时间复杂度o(m+n)，空间复杂度o(m+n)。
+# ```python []
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -28,8 +28,8 @@ class Solution:
             temp.append(B[j])
             j += 1  
         A[:] = temp
-```
-```C++ []
+# ```
+# ```C++ []
 #include<algorithm>
 class Solution {
 public:
@@ -57,10 +57,10 @@ public:
         copy(temp.begin(),temp.end(),A.begin()); 
     }
 };
-```
-## 需要学习的地方
-首先是代码本身情况处理的优化，参考官方题解。
-```python []
+# ```
+# ## 需要学习的地方
+# 首先是代码本身情况处理的优化，参考官方题解。
+# ```python []
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -82,8 +82,8 @@ class Solution:
                 temp.append(B[j])
                 j += 1
         A[:] = temp
-```
-```C++ []
+# ```
+# ```C++ []
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -102,9 +102,9 @@ public:
         copy(temp.begin(),temp.end(),A.begin()); 
     }
 };
-```
-## 使用sort()
-```python []
+# ```
+# ## 使用sort()
+# ```python []
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -113,8 +113,8 @@ class Solution:
         A[m:] = B
         A.sort()
 
-```
-```C++ []
+# ```
+# ```C++ []
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -123,10 +123,10 @@ public:
         sort(A.begin(), A.end());
     }
 };
-```
-## 从后往前填数据
-由于给定了A，B数组的长度，就可以采用归并的思想从后往前填数，时间复杂度o(m+n)，空间复杂度o(1)。
-```python []
+# ```
+# ## 从后往前填数据
+# 由于给定了A，B数组的长度，就可以采用归并的思想从后往前填数，时间复杂度o(m+n)，空间复杂度o(1)。
+# ```python []
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -148,8 +148,8 @@ class Solution:
                 A[tail] = B[j]
                 j -= 1
             tail -= 1
-```
-```C++ []
+# ```
+# ```C++ []
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -167,4 +167,4 @@ public:
         }
     }
 };
-```
+# ```

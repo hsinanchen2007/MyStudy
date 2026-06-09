@@ -1,9 +1,9 @@
-### 解题思路
-遍历左子树右子树，把每个节点的层数信息和父亲信息放在两个字典里，最后比较字典储存的信息即可
+# ### 解题思路
+# 遍历左子树右子树，把每个节点的层数信息和父亲信息放在两个字典里，最后比较字典储存的信息即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution(object):
         
         dfs(root,0)
         return (levelDic[x] == levelDic[y]) and (parentDic[x] != parentDic[y])
-```
+# ```

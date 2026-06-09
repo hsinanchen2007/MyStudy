@@ -1,10 +1,10 @@
-### 解题思路
-首先复习map的初始化写法，一是static final初始化一个空对象后，用static包裹依此put。第二是匿名内部类方式，初始化时候直接put添加，但是注意是两层括号。
-二是要多思考递归的写法
+// ### 解题思路
+// 首先复习map的初始化写法，一是static final初始化一个空对象后，用static包裹依此put。第二是匿名内部类方式，初始化时候直接put添加，但是注意是两层括号。
+// 二是要多思考递归的写法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     // public static final Map<String,String> numStringMap = new HashMap();
@@ -51,4 +51,4 @@ class Solution {
             }
     
 }
-```
+// ```

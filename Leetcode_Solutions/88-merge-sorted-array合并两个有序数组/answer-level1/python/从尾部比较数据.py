@@ -1,5 +1,5 @@
-从尾部比较数据，两个指针分别指向nums1和nums2的尾部，比较大小。大的往后放。
-```python
+# 从尾部比较数据，两个指针分别指向nums1和nums2的尾部，比较大小。大的往后放。
+# ```python
 def merge(nums1, m, nums2, n):
     """
     :type nums1: List[int]
@@ -24,4 +24,4 @@ def merge(nums1, m, nums2, n):
         nums1[:mylen+1] = nums2[:n+1]
 
 
-```
+# ```

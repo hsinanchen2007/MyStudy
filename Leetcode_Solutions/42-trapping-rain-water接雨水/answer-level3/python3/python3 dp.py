@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def trap(self, height: List[int]) -> int:
         left, right = [0] * len(height), [0] * len(height)
@@ -15,4 +15,4 @@ class Solution:
         
 
         return sum([min(l,r) for l, r in zip(left, right)])
-```
+# ```

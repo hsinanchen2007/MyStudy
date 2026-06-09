@@ -1,8 +1,8 @@
-蠢萌思路如下：
-1.当步骤为alice的时候，她的下一步存在任意一个为true的可能，则最终结果为true，否则为false
-2.当步骤为bob的时候，他的下一步每一种取数的结果必须为true，最终结果才为true，否则为false
-请见屎一样的代码。
-```
+// 蠢萌思路如下：
+// 1.当步骤为alice的时候，她的下一步存在任意一个为true的可能，则最终结果为true，否则为false
+// 2.当步骤为bob的时候，他的下一步每一种取数的结果必须为true，最终结果才为true，否则为false
+// 请见屎一样的代码。
+// ```
 var divisorGame = function(N) {
    //Alice 步骤：  1=false   2=true  3=false    1表示alice
    //Bob   步骤：  1=true    2= false 3= true   0表示bob
@@ -47,4 +47,4 @@ var getRes = function(N,dp,person){
     dp[person][N] = person==1? false : true;
     return dp[person][N];
 }
-```
+// ```

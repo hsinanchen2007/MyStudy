@@ -1,9 +1,9 @@
-### 解题思路
-依次计算矩阵中的每个元素的平均灰度，筛选合法下标计算。
+# ### 解题思路
+# 依次计算矩阵中的每个元素的平均灰度，筛选合法下标计算。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def imageSmoother(self, M: List[List[int]]) -> List[List[int]]:
         row, col = len(M), len(M[0])
@@ -26,4 +26,4 @@ class Solution:
             for j in range(col):
                 res[i][j] = calc(i, j)
         return res
-```
+# ```

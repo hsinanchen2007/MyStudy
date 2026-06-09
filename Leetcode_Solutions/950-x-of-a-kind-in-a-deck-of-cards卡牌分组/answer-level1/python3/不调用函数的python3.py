@@ -1,5 +1,5 @@
-看python3的解法用了很多函数，不会用函数的菜鸡只能自己写函数
-```
+# 看python3的解法用了很多函数，不会用函数的菜鸡只能自己写函数
+# ```
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         dic = {}
@@ -23,6 +23,6 @@ class Solution:
                     break
             if flag == 1: return True
         return False
-```
+# ```
 
 

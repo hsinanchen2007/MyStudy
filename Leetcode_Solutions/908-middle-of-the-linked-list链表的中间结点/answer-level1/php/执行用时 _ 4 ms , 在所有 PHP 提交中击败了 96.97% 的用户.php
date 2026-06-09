@@ -1,9 +1,9 @@
-### 解题思路
-求出链表长度，取出中间点，根据链表长是技术还是偶数判断一下即可
+// ### 解题思路
+// 求出链表长度，取出中间点，根据链表长是技术还是偶数判断一下即可
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -40,4 +40,4 @@ class Solution {
         return $ans;
     }
 }
-```
+// ```

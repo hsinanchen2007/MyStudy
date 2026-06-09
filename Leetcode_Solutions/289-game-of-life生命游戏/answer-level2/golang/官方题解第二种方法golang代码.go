@@ -1,4 +1,4 @@
-```
+// ```
 func gameOfLife(board [][]int)  {
     // -1,live -> dead
     // 2,dead -> live
@@ -39,4 +39,4 @@ func life(x,y int,board [][]int){
         }
     }
 }
-```
+// ```

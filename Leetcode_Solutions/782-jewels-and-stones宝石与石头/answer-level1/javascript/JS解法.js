@@ -1,11 +1,11 @@
-### 解题思路
-借鉴修改的两个方法。
-一种是变数组用filter、includes方法进行循环对照，得到一个所有宝石的数组，其长度为结果；
-另一种是用for循环、indexOf查找索引、if条件判断是否为宝石，符合条件的次数为结果；
-这两个是个人感觉最简洁的两种方法。
-### 代码
+// ### 解题思路
+// 借鉴修改的两个方法。
+// 一种是变数组用filter、includes方法进行循环对照，得到一个所有宝石的数组，其长度为结果；
+// 另一种是用for循环、indexOf查找索引、if条件判断是否为宝石，符合条件的次数为结果；
+// 这两个是个人感觉最简洁的两种方法。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} J
  * @param {string} S
@@ -25,4 +25,4 @@ var numJewelsInStones = function(J, S) {
     }
     return a;
 }
-```
+// ```

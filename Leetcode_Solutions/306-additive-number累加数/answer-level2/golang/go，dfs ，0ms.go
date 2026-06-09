@@ -1,5 +1,5 @@
 
-```
+// ```
 func isAdditiveNumber(num string) bool {
 	res := make([]string,0, len(num))
 	return dfs(res,0,num)
@@ -76,4 +76,4 @@ func add(num1, num2 string) string {
 	}
 	return prefix + strings.Join(res,"")
 }
-```
+// ```

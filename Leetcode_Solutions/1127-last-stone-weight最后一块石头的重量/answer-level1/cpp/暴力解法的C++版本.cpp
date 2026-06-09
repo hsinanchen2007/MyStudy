@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
@@ -17,4 +17,4 @@ public:
     }
 };
 
-```
+// ```

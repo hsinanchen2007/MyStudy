@@ -1,9 +1,9 @@
-### 解题思路
-按题目要求只查一次字符
+# ### 解题思路
+# 按题目要求只查一次字符
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isFlipedString(self, s1: str, s2: str) -> bool:
         if len(s1) != len(s2):
@@ -29,4 +29,4 @@ class Solution:
         #     return True
         # else:
         #     return False
-```
+# ```

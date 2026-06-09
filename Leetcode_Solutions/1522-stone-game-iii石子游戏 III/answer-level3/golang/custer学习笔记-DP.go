@@ -1,8 +1,8 @@
-### 解题思路
-记录下大神的题解，看不懂，先记下来
-### 代码
+// ### 解题思路
+// 记录下大神的题解，看不懂，先记下来
+// ### 代码
 
-```golang
+// ```golang
 func stoneGameIII(stoneValue []int) string {
   n := len(stoneValue)
   ts := 0
@@ -30,4 +30,4 @@ func min(a, b int)int{
   }
   return b
 }
-```
+// ```

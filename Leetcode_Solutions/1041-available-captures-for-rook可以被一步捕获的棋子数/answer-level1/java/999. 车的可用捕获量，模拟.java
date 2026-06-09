@@ -1,8 +1,8 @@
-### 解题思路
-确实是阅读理解题，没见过国际象棋的车能**一次移动捕获四个方向的卒**。
+// ### 解题思路
+// 确实是阅读理解题，没见过国际象棋的车能**一次移动捕获四个方向的卒**。
 
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int numRookCaptures = 0;
@@ -53,4 +53,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

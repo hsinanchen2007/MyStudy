@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
     dp[i][k][0] = MAX(dp[i-1][k][0], dp[i-1][k][1] + prices[i]);
     dp[i][k][1] = MAX(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i]);
@@ -45,4 +45,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return dp[pricesSize-1][2][0];
 }
-```
+// ```

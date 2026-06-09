@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-直接用Array.sort排序，然后检查A[i]是否大于A[i+1]，如果大于，move和A[i + 1]加上差值+1。
+// 直接用Array.sort排序，然后检查A[i]是否大于A[i+1]，如果大于，move和A[i + 1]加上差值+1。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MinIncrementForUnique(int[] A)
         {
@@ -25,4 +25,4 @@ public class Solution {
             return move;
         }
 }
-```
+// ```

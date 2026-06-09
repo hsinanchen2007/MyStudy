@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/129d043df67b41e7007dd3831942ca3dc25400bd07ca5b55b765b6b397467021-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/129d043df67b41e7007dd3831942ca3dc25400bd07ca5b55b765b6b397467021-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func nextPermutation(nums []int) {
 
 	if len(nums) < 2 {
@@ -50,4 +50,4 @@ func reversalArr(n int, nums []int) {
 	}
 }
 
-```
+// ```

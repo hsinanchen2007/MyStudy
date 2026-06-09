@@ -1,11 +1,11 @@
-### 解题思路
-通过depth变量去探索最大深度，max记录。
-因为需要将原数组拆成两个且和最小，那么就可以从深度
-入手将最大深度低于max/2的都划分成B组，其中需要注意的是一些判定的条件
-要保证（）是成对的拿到B中的
-### 代码
+// ### 解题思路
+// 通过depth变量去探索最大深度，max记录。
+// 因为需要将原数组拆成两个且和最小，那么就可以从深度
+// 入手将最大深度低于max/2的都划分成B组，其中需要注意的是一些判定的条件
+// 要保证（）是成对的拿到B中的
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -53,4 +53,4 @@ int* maxDepthAfterSplit(char * seq, int* returnSize){
     return returnseq;
 
 }
-```
+// ```

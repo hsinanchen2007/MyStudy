@@ -1,5 +1,5 @@
-1. 暴力递归求解方法
-```
+# 1. 暴力递归求解方法
+# ```
 class Solution(object):
     def addDigits(self, num):
         """
@@ -10,12 +10,12 @@ class Solution(object):
         for i in str(num):
             s += int(i)
         return self.addDigits(s) if len(str(s)) > 1 else s
-```
+# ```
 
-2. 数学
-看到其他的大神的求解
+# 2. 数学
+# 看到其他的大神的求解
 
-```
+# ```
 """
 s1 = 100 * a + 10 * b + c
 s2 = a + b + c
@@ -35,4 +35,4 @@ class Solution(object):
                 return 9
 
         return num
-```
+# ```

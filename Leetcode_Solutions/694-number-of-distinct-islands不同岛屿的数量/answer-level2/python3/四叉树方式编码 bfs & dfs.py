@@ -1,28 +1,28 @@
-关键在于如何判断两个岛屿相同；
-# 1) bfs 相对平衡的四叉树
-把一个岛屿想象成一颗树，根节点就是左上角的节点；
-这棵树有四个孩子，up, down, left, right
-对应方向有相邻岛屿，则认为有孩子；否则对应孩子为none；
-这样给每个结点进行编码，
-用level表示树的层数，用idx表示孩子的种类，idx [1...4]表示up, down, left, right
-遍历方式类似于树的层次遍历；根节点是1，第一层节点为2，3，4，5，以此类推
+# 关键在于如何判断两个岛屿相同；
+# # 1) bfs 相对平衡的四叉树
+# 把一个岛屿想象成一颗树，根节点就是左上角的节点；
+# 这棵树有四个孩子，up, down, left, right
+# 对应方向有相邻岛屿，则认为有孩子；否则对应孩子为none；
+# 这样给每个结点进行编码，
+# 用level表示树的层数，用idx表示孩子的种类，idx [1...4]表示up, down, left, right
+# 遍历方式类似于树的层次遍历；根节点是1，第一层节点为2，3，4，5，以此类推
 
-举例：
-```
+# 举例：
+# ```
 11000
 11000
 00011
 00011
-```
-两个岛屿的编码方式均为：['1#2#4#8#', '1#2#4#8#']
-1#2#4#8#
+# ```
+# 两个岛屿的编码方式均为：['1#2#4#8#', '1#2#4#8#']
+# 1#2#4#8#
 
-1代表根节点(0,0) level = 0
-2代表节点(1,0) level = 1
-4代表节点(0,1) level = 2
-8代表节点(1,1) level = 3
+# 1代表根节点(0,0) level = 0
+# 2代表节点(1,0) level = 1
+# 4代表节点(0,1) level = 2
+# 8代表节点(1,1) level = 3
 
-```
+# ```
 class Solution:
     def numDistinctIslands(self, grid: List[List[int]]) -> int:
         if not grid or not grid[0]:
@@ -60,23 +60,23 @@ class Solution:
                     ret.append(bfs(r, c, 1)) 
         print(ret)
         return len(set(ret))                     
-```
-# 2) dfs 很不平衡的四叉树
-根据dfs的轨迹进行编码
-根据level和方向进行编码, [level:direction#level:direction1#,...]
-举例：
-```
+# ```
+# # 2) dfs 很不平衡的四叉树
+# 根据dfs的轨迹进行编码
+# 根据level和方向进行编码, [level:direction#level:direction1#,...]
+# 举例：
+# ```
 11000
 11000
 00011
 00011
-```
-['0:1#1:1#2:3#3:0#', '0:1#1:1#2:3#3:0#']
-0:1 代表(0,0) 
-1:1 代表(1,0)
-2:3 代表(1,1)
-3:0 代表(0,1)
-```
+# ```
+# ['0:1#1:1#2:3#3:0#', '0:1#1:1#2:3#3:0#']
+# 0:1 代表(0,0) 
+# 1:1 代表(1,0)
+# 2:3 代表(1,1)
+# 3:0 代表(0,1)
+# ```
 class Solution:
     def numDistinctIslands(self, grid: List[List[int]]) -> int:
         if not grid or not grid[0]:
@@ -109,4 +109,4 @@ class Solution:
                     ret.append(dfs(r, c, 0, 1)) 
         print(ret)
         return len(set(ret))
-```
+# ```

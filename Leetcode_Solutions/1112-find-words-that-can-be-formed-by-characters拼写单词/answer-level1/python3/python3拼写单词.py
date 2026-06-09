@@ -1,10 +1,10 @@
-### 解题思路
-collections.Counter , collections库有个计数器方法，返回的是一个dict
-迭代word_count，拿到key，word_count和chars_count
+# ### 解题思路
+# collections.Counter , collections库有个计数器方法，返回的是一个dict
+# 迭代word_count，拿到key，word_count和chars_count
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         ans = 0
@@ -15,4 +15,4 @@ class Solution:
                 ans += len(word)
         return ans
 
-```
+# ```

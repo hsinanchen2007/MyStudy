@@ -1,8 +1,8 @@
-golang解决，回溯+剪枝
+// golang解决，回溯+剪枝
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
-```
+// ```
 // 组合问题　回溯 + 剪枝
 // 时间复杂度：O(k*Cₙᵏ)  空间复杂度：O(Cₙᵏ)
                                     
@@ -34,5 +34,5 @@ func getCombinations(n int, k int, start int, cnt int, t []int) {
 		t = t[:len(t)-1]
 	}
 }
-```
+// ```
 

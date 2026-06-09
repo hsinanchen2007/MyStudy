@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-啊...
-### 代码
-这...
-```cpp
+// ### 解题思路
+// 此处撰写解题思路
+// 啊...
+// ### 代码
+// 这...
+// ```cpp
 class Solution {
 public:
     bool judg(string s, int l, int r)
@@ -38,4 +38,4 @@ public:
     return true;
 }
 };
-```
+// ```

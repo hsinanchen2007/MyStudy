@@ -1,9 +1,9 @@
-### 解题思路
-学会了使用vector.insert(vector.begin())，插在vector的开头
+// ### 解题思路
+// 学会了使用vector.insert(vector.begin())，插在vector的开头
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -45,4 +45,4 @@ public:
         return ans;
     }
 };
-```
+// ```

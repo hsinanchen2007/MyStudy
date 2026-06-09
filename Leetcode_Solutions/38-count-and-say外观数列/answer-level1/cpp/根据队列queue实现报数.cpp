@@ -1,5 +1,5 @@
-根据队列queue
-```
+// 根据队列queue
+// ```
 class Solution {
 public:
     string countAndSay(int n) {
@@ -33,7 +33,7 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/139ecc2e1ddb1b1225323b8a557aff45e6b2e68b4689162fd2cc3f94918ab1ae-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/139ecc2e1ddb1b1225323b8a557aff45e6b2e68b4689162fd2cc3f94918ab1ae-image.png)
 
 

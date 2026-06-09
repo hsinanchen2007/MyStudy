@@ -1,13 +1,13 @@
-### 解题思路
-2大步骤：
-1.把"{a,b}c{d,e}f"转化成{ab","c","d,e","f"}并且内部排序
-2.dfs深度搜索排列
+// ### 解题思路
+// 2大步骤：
+// 1.把"{a,b}c{d,e}f"转化成{ab","c","d,e","f"}并且内部排序
+// 2.dfs深度搜索排列
 
-![image.png](https://pic.leetcode-cn.com/b3fa84f8924c255becb164464f06065d359bb4d37fdbdee32bf8c049fc2aa53d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b3fa84f8924c255becb164464f06065d359bb4d37fdbdee32bf8c049fc2aa53d-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     string tmp;
     vector<string> result;
@@ -59,4 +59,4 @@ public:
         return res;
     }
 };
-```
+// ```

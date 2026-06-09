@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-算出反转之后的数值, 如果和原数值相等, 则认为数回力数; 如果x < 0, 则直接返回false
+// ### 解题思路
+// 此处撰写解题思路
+// 算出反转之后的数值, 如果和原数值相等, 则认为数回力数; 如果x < 0, 则直接返回false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
     int num = x;
@@ -23,4 +23,4 @@ class Solution {
         return a == num;
     }
 }
-```
+// ```

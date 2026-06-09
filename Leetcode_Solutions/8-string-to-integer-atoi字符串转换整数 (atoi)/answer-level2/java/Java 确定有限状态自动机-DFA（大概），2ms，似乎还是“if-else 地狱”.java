@@ -1,13 +1,13 @@
-> 执行用时：2 ms
-> 内存消耗：39.8 MB
-> 我的提交执行用时已经战胜 96.91 % 的 java 提交记录
+// > 执行用时：2 ms
+// > 内存消耗：39.8 MB
+// > 我的提交执行用时已经战胜 96.91 % 的 java 提交记录
 
-状态转移图参考官方题解的（稍微改了一丁点）：
-![image.png](https://pic.leetcode-cn.com/4aef3b340bc0574a3f326d32fdedd8ca8b31113c8c76a5d8bdd6be6f6ca1cdce-image.png)
+// 状态转移图参考官方题解的（稍微改了一丁点）：
+// ![image.png](https://pic.leetcode-cn.com/4aef3b340bc0574a3f326d32fdedd8ca8b31113c8c76a5d8bdd6be6f6ca1cdce-image.png)
 
-相较与官方的写成状态转换表并放进代码，我是按照我最开始接触到的状态机的样子写的，所以还是用到了不少`if-else`（主要还是我太菜）。不过看起来倒是比最开始写的纯`if-else`版本舒服些。（有空再用状态转换表改写一下，感观可能好很多）
+// 相较与官方的写成状态转换表并放进代码，我是按照我最开始接触到的状态机的样子写的，所以还是用到了不少`if-else`（主要还是我太菜）。不过看起来倒是比最开始写的纯`if-else`版本舒服些。（有空再用状态转换表改写一下，感观可能好很多）
 
-```java
+// ```java
 class Solution {
     private enum Status {start, signed, number, end}
 
@@ -76,8 +76,8 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 
-> 把枚举换成int之后执行时间还是2ms。用枚举清晰一些。
+// > 把枚举换成int之后执行时间还是2ms。用枚举清晰一些。
 
-> 占用内存比最优方法稍微多了几M，也许状态转换表会好些
+// > 占用内存比最优方法稍微多了几M，也许状态转换表会好些

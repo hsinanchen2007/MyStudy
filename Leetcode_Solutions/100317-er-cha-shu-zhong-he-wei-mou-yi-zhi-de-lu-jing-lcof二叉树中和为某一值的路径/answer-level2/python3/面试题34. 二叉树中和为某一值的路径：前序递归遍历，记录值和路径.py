@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
         ans = []
@@ -12,4 +12,4 @@ class Solution:
                 f(r.right, s, p + [r.val])
         f(root, 0, [])
         return ans
-```
+# ```

@@ -1,26 +1,26 @@
-## 问题描述
-给定一个字符串S，检查是否能重新排布其中的字母，使得两相邻的字符不同。
+// ## 问题描述
+// 给定一个字符串S，检查是否能重新排布其中的字母，使得两相邻的字符不同。
 
-若可行，输出任意可行的结果。若不可行，返回空字符串。
+// 若可行，输出任意可行的结果。若不可行，返回空字符串。
 
-![](https://pic.leetcode-cn.com/ec43cd2bb4806c832f4cfdaaeaa90c8cec3f75b0be2c406592b64aeaeac81061.png)
+// ![](https://pic.leetcode-cn.com/ec43cd2bb4806c832f4cfdaaeaa90c8cec3f75b0be2c406592b64aeaeac81061.png)
 
-[重构字符串](https://leetcode-cn.com/problems/reorganize-string/ "重构字符串")
+// [重构字符串](https://leetcode-cn.com/problems/reorganize-string/ "重构字符串")
 
-## 解决方法
-### 插空
+// ## 解决方法
+// ### 插空
 
-- 用字典将个字符出现的情况记录下来
+// - 用字典将个字符出现的情况记录下来
 
-- 将字典按照值大小从大到小排序，组成新的字符串t，例如`"aba"`,先排序为`"aab"`
+// - 将字典按照值大小从大到小排序，组成新的字符串t，例如`"aba"`,先排序为`"aab"`
 
-- 取t的左半部分left，隔一插一到S中：`a_a`
+// - 取t的左半部分left，隔一插一到S中：`a_a`
 
-- 取t的右半部分right，隔一插一到S中：`aba`
+// - 取t的右半部分right，隔一插一到S中：`aba`
 
-**注意**:如果`left[0]==right[0]`说明不能满足题目要求
+// **注意**:如果`left[0]==right[0]`说明不能满足题目要求
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool cmp_by_val(pair<char,int>& l,pair<char,int>& r){
@@ -52,6 +52,6 @@ public:
         return S;
     }
 };
-```
+// ```
 
-my site: [https://liyiping.cn](https://liyiping.cn)
+// my site: [https://liyiping.cn](https://liyiping.cn)

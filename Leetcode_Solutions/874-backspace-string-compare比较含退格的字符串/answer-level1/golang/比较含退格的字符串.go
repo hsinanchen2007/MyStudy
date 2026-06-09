@@ -1,13 +1,13 @@
-#### 思路
+// #### 思路
 
-使用栈来做最方便了, 遍历字符串, 当发现字符串不为#时, 将字符插入数组中, 若为#时, 则删除栈中最末尾的元素, 删除时记得判栈空。
+// 使用栈来做最方便了, 遍历字符串, 当发现字符串不为#时, 将字符插入数组中, 若为#时, 则删除栈中最末尾的元素, 删除时记得判栈空。
 
-最后将两个处理好的字符串再做比较
+// 最后将两个处理好的字符串再做比较
 
-#### code
+// #### code
 
 
-```
+// ```
 func backspaceCompare(S string, T string) bool {
     list1, list2 := []byte{}, []byte{}
     for i := 0; i < len(S); i++ {
@@ -26,4 +26,4 @@ func backspaceCompare(S string, T string) bool {
     }
     return string(list1) == string(list2)
 }
-```
+// ```

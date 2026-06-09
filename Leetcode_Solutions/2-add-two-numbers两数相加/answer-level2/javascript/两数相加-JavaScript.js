@@ -1,4 +1,4 @@
-JS题解，和Java类似，但是注意JS是弱类型，在遇到小数会转为float。因此需要Math.float()方法向下取整数
+// JS题解，和Java类似，但是注意JS是弱类型，在遇到小数会转为float。因此需要Math.float()方法向下取整数
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {

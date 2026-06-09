@@ -1,9 +1,9 @@
-### 解题思路
-如果next已经为NULL了, 就不必要做current = next; next = current->next的操作了.
+// ### 解题思路
+// 如果next已经为NULL了, 就不必要做current = next; next = current->next的操作了.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ public:
         return head;
     }
 };
-```
+// ```

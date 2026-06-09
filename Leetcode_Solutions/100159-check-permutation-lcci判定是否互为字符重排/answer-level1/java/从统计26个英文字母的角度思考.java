@@ -1,10 +1,10 @@
-### 解题思路
-java 从两个字符串中统计出分别含有26个英文字母的个数的数组，最后比较两个统计个数的数组是否一致。但若针对字符串中有大小写混排的就会有点小bug啦，多亏测试集里没有！结果双百
-想用c++的next_permutation()做，结果超时~
+// ### 解题思路
+// java 从两个字符串中统计出分别含有26个英文字母的个数的数组，最后比较两个统计个数的数组是否一致。但若针对字符串中有大小写混排的就会有点小bug啦，多亏测试集里没有！结果双百
+// 想用c++的next_permutation()做，结果超时~
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         boolean mark=true;
@@ -26,4 +26,4 @@ class Solution {
         return mark;
     }
 }
-```
+// ```

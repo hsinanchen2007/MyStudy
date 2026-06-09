@@ -1,9 +1,9 @@
-### 解题思路
-要注意因为是三角形，所以每一个位置可以取dp[i - 1][j]或者dp[i - 1][j - 1]，边界要特判。
+// ### 解题思路
+// 要注意因为是三角形，所以每一个位置可以取dp[i - 1][j]或者dp[i - 1][j - 1]，边界要特判。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -34,4 +34,4 @@ public:
         return min;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2) {
@@ -35,5 +35,5 @@ public:
         return forend;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/1211229410544c611c11fafe07181dfd59aab55b17c4810f3a4ad9279fb90075-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/1211229410544c611c11fafe07181dfd59aab55b17c4810f3a4ad9279fb90075-image.png)

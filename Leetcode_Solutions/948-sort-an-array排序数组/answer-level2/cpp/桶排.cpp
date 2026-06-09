@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
   vector<int> sortArray(vector<int>& nums) {
@@ -16,4 +16,4 @@ public:
     return nums;
   }
 };
-```
+// ```

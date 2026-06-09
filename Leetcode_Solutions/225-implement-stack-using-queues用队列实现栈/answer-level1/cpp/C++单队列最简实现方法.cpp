@@ -1,9 +1,9 @@
-### 解题思路
-在pop()的时候让队列前面的移动到队列最后，然后把队列原本最后的移除掉即可，其他的操作相同
+// ### 解题思路
+// 在pop()的时候让队列前面的移动到队列最后，然后把队列原本最后的移除掉即可，其他的操作相同
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -51,4 +51,4 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

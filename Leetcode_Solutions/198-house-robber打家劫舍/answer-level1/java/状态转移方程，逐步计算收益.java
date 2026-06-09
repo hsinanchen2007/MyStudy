@@ -1,4 +1,4 @@
-```
+// ```
 if (nums == null || nums.length <= 0) {
             return 0;
         } else if (nums.length == 1) {
@@ -16,4 +16,4 @@ if (nums == null || nums.length <= 0) {
             award[i] = Math.max(award[i - 1], Math.max(award[i - 2], award[i - 3]) + nums[i]);
         }
         return award[nums.length - 1];
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路：最笨的方法：1.把每一位提取出来，2.再考虑到特殊情况801和超出n值范围。
+# ### 解题思路
+# 此处撰写解题思路：最笨的方法：1.把每一位提取出来，2.再考虑到特殊情况801和超出n值范围。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def subtractProductAndSum(self, n):
 
@@ -32,4 +32,4 @@ class Solution(object):
                 return((x1*x2*x3*x4*x5*x6)-(x1+x2+x3+x4+x5+x6))
         else:
             return False
-```
+# ```

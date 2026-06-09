@@ -1,9 +1,9 @@
-### 解题思路
-其实方法有点笨
+# ### 解题思路
+# 其实方法有点笨
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findPairs(self, nums, k):
         """
@@ -22,4 +22,4 @@ class Solution(object):
         
         return result
 
-```
+# ```

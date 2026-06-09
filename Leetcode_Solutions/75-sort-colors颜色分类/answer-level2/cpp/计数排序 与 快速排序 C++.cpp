@@ -1,8 +1,8 @@
-# 解法1：计数排序
+// # 解法1：计数排序
 
-遍历数组中的元素，对每个颜色出现的次数进行计数，将计数值存放到一个临时数组中；接着，将临时数组中的下标按照其对应的元素大小重复输入到原数组中。
+// 遍历数组中的元素，对每个颜色出现的次数进行计数，将计数值存放到一个临时数组中；接着，将临时数组中的下标按照其对应的元素大小重复输入到原数组中。
 
-```c++
+// ```c++
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -20,13 +20,13 @@ public:
         }
     }
 };
-```
+// ```
 
-## 解法2：快速排序
+// ## 解法2：快速排序
 
-题目中要求原地排序，常数空间复杂度，只扫描一次数组。很明显的快速排序特征。
+// 题目中要求原地排序，常数空间复杂度，只扫描一次数组。很明显的快速排序特征。
 
-```c++
+// ```c++
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -56,7 +56,7 @@ public:
         return rand() % (end_index - start_index + 1) + start_index;
     }
 };
-```
-![image-20200309235440553.png](https://pic.leetcode-cn.com/397afa789afa5edc55f65326116c98e9781c524bb3ae81dade42ee58389c8ac6-image-20200309235440553.png)
+// ```
+// ![image-20200309235440553.png](https://pic.leetcode-cn.com/397afa789afa5edc55f65326116c98e9781c524bb3ae81dade42ee58389c8ac6-image-20200309235440553.png)
 
 

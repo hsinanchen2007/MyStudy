@@ -1,6 +1,6 @@
-click here to view
+// click here to view
 
-```
+// ```
 
 void swap(int *nums, int index1, int index2)
 {
@@ -83,4 +83,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize){
 }
 
 
-```
+// ```

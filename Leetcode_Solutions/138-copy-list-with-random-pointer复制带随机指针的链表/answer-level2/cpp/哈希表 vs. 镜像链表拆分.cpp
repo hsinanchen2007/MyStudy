@@ -1,10 +1,10 @@
-### 解题思路一
+// ### 解题思路一
 
-哈希表 + 递归
+// 哈希表 + 递归
 
-### 代码一
+// ### 代码一
 
-```cpp
+// ```cpp
 class Solution {
 private:
     unordered_map<Node *, Node *> dict;
@@ -21,15 +21,15 @@ public:
         return newHead;
     }
 };
-```
+// ```
 
-### 解题思路二
+// ### 解题思路二
 
-哈希表 + 迭代
+// 哈希表 + 迭代
 
-### 代码二
+// ### 代码二
 
-```cpp
+// ```cpp
 class Solution {
 private:
     unordered_map<Node *, Node *> dict;
@@ -60,19 +60,19 @@ public:
         return newNode;
     }
 };
-```
+// ```
 
 
 
-### 解题思路三
+// ### 解题思路三
 
-1. 生成镜像列表，先遍历链表，复制出一个新老节点相间的链表；
-2. 再遍历一次，复制random指针，利用镜像列表的特点；
-3. 拆分链表。
+// 1. 生成镜像列表，先遍历链表，复制出一个新老节点相间的链表；
+// 2. 再遍历一次，复制random指针，利用镜像列表的特点；
+// 3. 拆分链表。
 
-### 代码三
+// ### 代码三
 
-```cpp
+// ```cpp
 
 class Solution {
 public:
@@ -110,4 +110,4 @@ public:
         return newHead;
     }
 };
-```
+// ```

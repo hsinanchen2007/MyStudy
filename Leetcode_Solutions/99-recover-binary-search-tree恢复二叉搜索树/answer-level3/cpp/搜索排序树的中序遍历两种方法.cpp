@@ -1,8 +1,8 @@
-### 解题思路
-利用“搜索排序树” “中序遍历” 是递增的解决这个问题。
-### 方法1
+// ### 解题思路
+// 利用“搜索排序树” “中序遍历” 是递增的解决这个问题。
+// ### 方法1
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -52,11 +52,11 @@ public:
         inOrder(root->right);
     }
 };
-```
+// ```
 
-### 方法2
+// ### 方法2
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -109,4 +109,4 @@ int idx = 0;
         inOrder(root->right);
     }
 };
-```
+// ```

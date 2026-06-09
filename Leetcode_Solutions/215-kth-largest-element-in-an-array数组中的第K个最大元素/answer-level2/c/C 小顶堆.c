@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void heapSwap(int *a,int*b){
     int tmp = *a;
     *a = *b;
@@ -65,4 +65,4 @@ int findKthLargest(int* nums, int numsSize, int k) {
     }
     return heap[1];
 }
-```
+// ```

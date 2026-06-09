@@ -1,4 +1,4 @@
-```cpp []
+// ```cpp []
 /**
 * 思路：滑动窗口，每次检查窗口的下一个字符是否和窗口中的字符重复，若重复，则将窗口的左侧直接跳到重复字符的下个位置处
 * 伪代码：
@@ -52,8 +52,8 @@ int main()
     return 0;
 }
 
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         hashmap = {}
@@ -75,8 +75,8 @@ if __name__ == "__main__":
     maxLen = s.lengthOfLongestSubstring(teststr)
     print("length of longest substring is %d" %(maxLen))
 
-```
-```c# []
+// ```
+// ```c# []
 using System;
 using System.Collections;
 
@@ -114,4 +114,4 @@ namespace LeetCode_0003
     }
 }
 
-```
+// ```

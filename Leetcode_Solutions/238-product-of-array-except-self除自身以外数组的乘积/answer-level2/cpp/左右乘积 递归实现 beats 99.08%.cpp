@@ -1,4 +1,4 @@
-```C++
+// ```C++
 class Solution {
 public:
     int helper(vector<int>& nums, vector<int>& ans, int pos, int leftProd) {
@@ -14,4 +14,4 @@ public:
         return ans;
     }
 };
-```
+// ```

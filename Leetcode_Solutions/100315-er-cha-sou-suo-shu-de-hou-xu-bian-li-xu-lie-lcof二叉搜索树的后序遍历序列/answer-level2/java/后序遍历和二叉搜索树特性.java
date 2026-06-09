@@ -1,10 +1,10 @@
-### 解题思路
-通过最后一个元素 ，也就是根，划分左右子树 左子树小于根，右子树大于根
-如果能清晰划分则然后左右子树递归下去
+// ### 解题思路
+// 通过最后一个元素 ，也就是根，划分左右子树 左子树小于根，右子树大于根
+// 如果能清晰划分则然后左右子树递归下去
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean verifyPostorder(int[] postorder) {
         int n = postorder.length;
@@ -28,5 +28,5 @@ class Solution {
         return verifyPostorder(postorder, st, ri-1) && verifyPostorder(postorder, ri, end-1);
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/ddd4a18a9329bc653b38a1d5ad79c84353a2ce0dadafe1599d09200215e8025b-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/ddd4a18a9329bc653b38a1d5ad79c84353a2ce0dadafe1599d09200215e8025b-image.png)

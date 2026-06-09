@@ -1,5 +1,5 @@
-1. 暴力解法：用map记录每个节点入节点set和出节点set求解
-```
+# 1. 暴力解法：用map记录每个节点入节点set和出节点set求解
+# ```
 class Solution:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
         out_dict = {}
@@ -15,10 +15,10 @@ class Solution:
             if i in out_dict and i not in in_dict and len(out_dict[i]) == N-1:return i
             
         return -1
-```
+# ```
 
-3. 图解法：用一个二位数组记录每个节点的入度和出度，如果存在入度为0，出度为N-1，则该节点为法官；反之，法官不存在。
-```
+# 3. 图解法：用一个二位数组记录每个节点的入度和出度，如果存在入度为0，出度为N-1，则该节点为法官；反之，法官不存在。
+# ```
 class Solution:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
         grid = [[0,0] for i in range(N)]
@@ -30,4 +30,4 @@ class Solution:
                         
         return -1
         
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-继续加油.
+// ### 解题思路
+// 继续加油.
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 int longestPalindrome(char * s)
@@ -27,4 +27,4 @@ int longestPalindrome(char * s)
 	
 	return count+max;
 } 
-```
+// ```

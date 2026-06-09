@@ -1,9 +1,9 @@
-### 解题思路
-递归 中序遍历
+// ### 解题思路
+// 递归 中序遍历
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -49,4 +49,4 @@ void recoverTree(struct TreeNode* root){
     pErr1->val = pErr2->val;
     pErr2->val = temp;
 }
-```
+// ```

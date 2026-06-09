@@ -1,6 +1,6 @@
-啥都不说了，上码  
+// 啥都不说了，上码  
 
-```c   
+// ```c   
 int numJewelsInStones(char * J, char * S){
     if(!J || !S ) {
         return 0;
@@ -17,4 +17,4 @@ int numJewelsInStones(char * J, char * S){
     }
     return count;
 }    
-```
+// ```

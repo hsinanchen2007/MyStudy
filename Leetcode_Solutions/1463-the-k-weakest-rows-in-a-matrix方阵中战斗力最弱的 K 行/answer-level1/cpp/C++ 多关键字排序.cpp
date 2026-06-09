@@ -1,6 +1,6 @@
-本题的第一关键字是行和，第二关键字是行id，两者都是按照升序排列，因此可以直接用方法一：自己重写排序规则，这种方法的适用性更广。
-方法二：由于两者刚好都是升序排列，可以直接用vector<pair<int,int>>x 排序
-```
+// 本题的第一关键字是行和，第二关键字是行id，两者都是按照升序排列，因此可以直接用方法一：自己重写排序规则，这种方法的适用性更广。
+// 方法二：由于两者刚好都是升序排列，可以直接用vector<pair<int,int>>x 排序
+// ```
 class Solution {
 public:
     static bool cmp(const vector<int> &a,const vector<int> &b){
@@ -29,9 +29,9 @@ public:
         return ans;
     }
 };
-```
-方法二：
-   ```
+// ```
+// 方法二：
+//    ```
 vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
 	int m=mat.size(),n=mat[0].size();
 	vector<pair<int,int>> x;
@@ -46,4 +46,4 @@ vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
 	}
 	return ans;
 }
-```
+// ```

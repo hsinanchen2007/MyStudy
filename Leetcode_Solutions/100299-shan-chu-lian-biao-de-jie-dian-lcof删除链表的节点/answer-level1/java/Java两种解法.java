@@ -1,5 +1,5 @@
-# 使用空节点
-```java
+// # 使用空节点
+// ```java
 class Solution {
     public ListNode deleteNode(ListNode head, int val) {
         ListNode beforeHead = new ListNode(-1);
@@ -25,10 +25,10 @@ class Solution {
         return p.next;
     }
 }
-```
+// ```
 
-# 不利用空表头指向，但是要利用空表头输出
-```java
+// # 不利用空表头指向，但是要利用空表头输出
+// ```java
 class Solution {
     public ListNode deleteNode(ListNode head, int val) {
         ListNode beforeHead = new ListNode(-1);
@@ -58,7 +58,7 @@ class Solution {
         return beforeHead.next;
     }
 }
-```
+// ```
 
 
 
@@ -66,8 +66,8 @@ class Solution {
 
 
 
-# 判断中包括表头，直接寻找到需要删除的节点
-```java
+// # 判断中包括表头，直接寻找到需要删除的节点
+// ```java
 class Solution {
     public ListNode deleteNode(ListNode head, int val) {
         ListNode prev = new ListNode(-1);
@@ -79,4 +79,4 @@ class Solution {
         return result.next;
     }
 }
-```
+// ```

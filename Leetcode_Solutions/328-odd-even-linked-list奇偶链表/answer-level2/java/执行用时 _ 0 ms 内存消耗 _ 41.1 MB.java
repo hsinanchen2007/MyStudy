@@ -1,9 +1,9 @@
-### 解题思路
-思路就是分奇偶链表，但要注意一定要将偶链表最后指向null，不然就成环了
+// ### 解题思路
+// 思路就是分奇偶链表，但要注意一定要将偶链表最后指向null，不然就成环了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -46,4 +46,4 @@ class Solution {
         
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-先排序，顺次找前后不一样的值即为最大的值。
+// 先排序，顺次找前后不一样的值即为最大的值。
 
-```
+// ```
 class Solution {
     public static int largestUniqueNumber(int[] A) {
         if (A.length == 1) {
@@ -24,4 +24,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

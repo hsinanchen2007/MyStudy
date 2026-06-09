@@ -1,9 +1,9 @@
-### 解题思路
-转化为字符串形式在前后两两进行比较
+# ### 解题思路
+# 转化为字符串形式在前后两两进行比较
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def hasAlternatingBits(self, n):
         """
@@ -24,4 +24,4 @@ class Solution(object):
 
               
 
-```
+# ```

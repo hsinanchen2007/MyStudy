@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/d836050aa16f7b0f2455cd06bfd0abc86ea4305710818d5df55548ec1ce1c3b5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d836050aa16f7b0f2455cd06bfd0abc86ea4305710818d5df55548ec1ce1c3b5-image.png)
 
-其实就是除7倒叙取余，字符串相加，注意是左加。
-然后正负区别，定义一个标志变量。
-```
+// 其实就是除7倒叙取余，字符串相加，注意是左加。
+// 然后正负区别，定义一个标志变量。
+// ```
 class Solution {
     public String convertToBase7(int num) {
         //排除0的特殊情况
@@ -29,4 +29,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

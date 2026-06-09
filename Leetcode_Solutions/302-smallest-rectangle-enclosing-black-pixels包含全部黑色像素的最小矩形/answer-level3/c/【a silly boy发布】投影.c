@@ -1,4 +1,4 @@
-```
+// ```
 int minArea(char** image, int imageSize, int* imageColSize, int x, int y)
 {
     if ((image == NULL) || (imageSize == 0) || (imageColSize == NULL) || (*imageColSize == 0)) {
@@ -61,4 +61,4 @@ int minArea(char** image, int imageSize, int* imageColSize, int x, int y)
 
     return returnArea;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```ruby
+// ```ruby
 object Solution {
   class DSU(N:Int){
     val parent = (0 until N).toArray
@@ -15,4 +15,4 @@ object Solution {
     S map table
   }
 }
-```
+// ```

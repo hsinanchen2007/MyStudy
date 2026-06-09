@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         c = collections.Counter(list(s))
@@ -6,4 +6,4 @@ class Solution:
             if c[s[i]] == 1:
                 return i
         return -1
-```
+# ```

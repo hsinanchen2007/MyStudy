@@ -1,13 +1,13 @@
-####  方法一：事件（扫描线）[通过]
-如果某个区间与任一区间重叠，则该区间不会出现在答案中。所以我们可以将问题转换为：给定一组区间，找出所有员工都不包含的区间。
+// ####  方法一：事件（扫描线）[通过]
+// 如果某个区间与任一区间重叠，则该区间不会出现在答案中。所以我们可以将问题转换为：给定一组区间，找出所有员工都不包含的区间。
 
-我们可以使用区间问题中的 “事件” 方法。对于每个区间 `[s, e]`，我们可以看作有两个事件：当 `time = s` 时，`balance++`；当 `time = e` 时，`balance--`。我们只关心 `balance == 0` 的区间。
+// 我们可以使用区间问题中的 “事件” 方法。对于每个区间 `[s, e]`，我们可以看作有两个事件：当 `time = s` 时，`balance++`；当 `time = e` 时，`balance--`。我们只关心 `balance == 0` 的区间。
 
-**算法：**
+// **算法：**
 
-对于每个区间，创建如上所述的两个事件，并对事件进行排序。在事件 `t` 发生的每个事件，如果 `balance == 0`，则说明 `[prev，t]` 是所有员工都不包含的区间，其中 `prev` 是 `t` 的前一个值。
+// 对于每个区间，创建如上所述的两个事件，并对事件进行排序。在事件 `t` 发生的每个事件，如果 `balance == 0`，则说明 `[prev，t]` 是所有员工都不包含的区间，其中 `prev` 是 `t` 的前一个值。
 
-```python [solution1-Python]
+// ```python [solution1-Python]
 class Solution(object):
     def employeeFreeTime(self, avails):
         OPEN, CLOSE = 0, 1
@@ -30,9 +30,9 @@ class Solution(object):
             prev = t
 
         return ans
-```
+// ```
 
-```java [solution1-Java]
+// ```java [solution1-Java]
 class Solution {
     public List<Interval> employeeFreeTime(List<List<Interval>> avails) {
         int OPEN = 0, CLOSE = 1;
@@ -59,25 +59,25 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(C\log C)$，其中 $C$ 是所有员工的区间数。
-* 空间复杂度：$O(C)$。
+// * 时间复杂度：$O(C\log C)$，其中 $C$ 是所有员工的区间数。
+// * 空间复杂度：$O(C)$。
 
 
 
-####  方法二：优先队列 [通过]
-假设在某个时间段没有员工工作，这个时间段将持续到某个员工要工作时为止。
+// ####  方法二：优先队列 [通过]
+// 假设在某个时间段没有员工工作，这个时间段将持续到某个员工要工作时为止。
 
-我们维护员工下一次要工作的数据。当处理完当前工作时，我们为该员工添加下一次的工作。
+// 我们维护员工下一次要工作的数据。当处理完当前工作时，我们为该员工添加下一次的工作。
 
-**算法：**
+// **算法：**
 
-我们跟踪最新的时间 `anchor`。当我们处理尚未处理的工作时，时间为 `t`，员工 `e_id`，是该员工的第 `e_jx` 个工作。如果 `anchor < t`，则存在一个空闲区间 `Interval(anchor, t)`。
+// 我们跟踪最新的时间 `anchor`。当我们处理尚未处理的工作时，时间为 `t`，员工 `e_id`，是该员工的第 `e_jx` 个工作。如果 `anchor < t`，则存在一个空闲区间 `Interval(anchor, t)`。
 
-```python [solution2-Python]
+// ```python [solution2-Python]
 class Solution(object):
     def employeeFreeTime(self, avails):
         ans = []
@@ -93,9 +93,9 @@ class Solution(object):
                 heapq.heappush(pq, (avails[e_id][e_jx+1].start, e_id, e_jx+1))
 
         return ans
-```
+// ```
 
-```java [solution2-Java]
+// ```java [solution2-Java]
 class Solution {
     public List<Interval> employeeFreeTime(List<List<Interval>> avails) {
         List<Interval> ans = new ArrayList();
@@ -130,9 +130,9 @@ class Job {
         index = i;
     }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(C\log N)$，其中 $N$ 是员工的数量，$C$ 是所有员工的区间数，数据堆的最大大小为 $N$，每个 `pop` 和 `push` 操作需要 $O(\log N)$，有 $O(C)$ 个这样的操作。
-* 空间复杂度：$O(N)$，使用了一个一维数组 dp。
+// * 时间复杂度：$O(C\log N)$，其中 $N$ 是员工的数量，$C$ 是所有员工的区间数，数据堆的最大大小为 $N$，每个 `pop` 和 `push` 操作需要 $O(\log N)$，有 $O(C)$ 个这样的操作。
+// * 空间复杂度：$O(N)$，使用了一个一维数组 dp。

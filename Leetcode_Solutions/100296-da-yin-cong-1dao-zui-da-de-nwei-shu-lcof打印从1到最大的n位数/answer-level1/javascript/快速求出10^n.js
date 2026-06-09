@@ -1,10 +1,10 @@
-### 解题思路
-本质还是使用快速幂求出10^n次方
-快速幂：将指数转换成二进制形式，例如a13=a2^0+2^2+2^3=a2^0a2^2a2^3
+// ### 解题思路
+// 本质还是使用快速幂求出10^n次方
+// 快速幂：将指数转换成二进制形式，例如a13=a2^0+2^2+2^3=a2^0a2^2a2^3
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var printNumbers = function(n) {
     let base = 10, sum = 1, res = [];
 
@@ -23,4 +23,4 @@ var printNumbers = function(n) {
     }
     return res;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-若是环形链表快指针总会和慢指针相遇
+// ### 解题思路
+// 若是环形链表快指针总会和慢指针相遇
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -26,4 +26,4 @@ var hasCycle = function(head) {
     }
     return false
 };
-```
+// ```

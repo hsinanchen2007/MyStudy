@@ -1,9 +1,9 @@
-### 解题思路
-没啥好说的，就一个队列，一个临时vector<int>，读出来的数据就往里放，左右孩子扔队列
+// ### 解题思路
+// 没啥好说的，就一个队列，一个临时vector<int>，读出来的数据就往里放，左右孩子扔队列
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
@@ -33,4 +33,4 @@ public:
         return re;     
     }
 };
-```
+// ```

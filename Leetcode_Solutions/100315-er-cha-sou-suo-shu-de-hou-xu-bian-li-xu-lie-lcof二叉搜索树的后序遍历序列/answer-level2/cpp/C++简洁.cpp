@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool judge(vector<int> &postorder, int left, int right){
@@ -16,4 +16,4 @@ public:
         return judge(postorder, 0, postorder.size() - 1);
     }
 };
-```
+// ```

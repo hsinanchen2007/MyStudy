@@ -1,6 +1,6 @@
 
-用最土的办法，暴力循环竟然解了^_^，不过时间有些悬。
-```
+// 用最土的办法，暴力循环竟然解了^_^，不过时间有些悬。
+// ```
 int* nextGreaterElements(int* nums, int numsSize, int* returnSize){
 
     int *ret = malloc(sizeof(int)*numsSize);
@@ -20,4 +20,4 @@ int* nextGreaterElements(int* nums, int numsSize, int* returnSize){
 
     return ret;
 }
-```
+// ```

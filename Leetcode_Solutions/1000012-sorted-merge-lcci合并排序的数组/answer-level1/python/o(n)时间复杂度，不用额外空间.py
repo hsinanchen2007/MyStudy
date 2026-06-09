@@ -1,12 +1,12 @@
-### 解题思路
-1.设置指针idx1指向A的最后一个元素，指针idx2指向B最后一个元素
-2.设置指针cur指向A的第m+n个元素。
-3.比较idx1和idx2指向元素的大小，将大的元素移到cur处。
-4.移动后滑动指针，将cur减1。若第三步中idx1对应的数据大，则将idx1减1，否则将idx2减1
+# ### 解题思路
+# 1.设置指针idx1指向A的最后一个元素，指针idx2指向B最后一个元素
+# 2.设置指针cur指向A的第m+n个元素。
+# 3.比较idx1和idx2指向元素的大小，将大的元素移到cur处。
+# 4.移动后滑动指针，将cur减1。若第三步中idx1对应的数据大，则将idx1减1，否则将idx2减1
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, A, m, B, n):
         """
@@ -38,4 +38,4 @@ class Solution(object):
                 A[cur] = A[idx1]
                 idx1-=1
                 cur-=1
-```
+# ```

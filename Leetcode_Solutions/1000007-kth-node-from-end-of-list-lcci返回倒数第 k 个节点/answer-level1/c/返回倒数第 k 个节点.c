@@ -1,9 +1,9 @@
-### 解题思路
-不是很好的方案，如果做到动态申请内存运行时间也会边长
+// ### 解题思路
+// 不是很好的方案，如果做到动态申请内存运行时间也会边长
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ int kthToLast(struct ListNode* head, int k){
     }
     return 0;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-2被归入需要借位，因为2本身可能被借位变成了1；如果借位是最高位，直接退出，不借位
-```
+// 2被归入需要借位，因为2本身可能被借位变成了1；如果借位是最高位，直接退出，不借位
+// ```
 class Solution {
     public int[] getNoZeroIntegers(int n) {
         int tmp = 1;
@@ -17,4 +17,4 @@ class Solution {
 		return new int[] { tmp, n - tmp };
     }
 }
-```
+// ```

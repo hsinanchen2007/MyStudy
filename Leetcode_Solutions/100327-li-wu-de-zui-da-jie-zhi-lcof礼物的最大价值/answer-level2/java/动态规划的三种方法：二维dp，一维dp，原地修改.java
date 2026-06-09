@@ -1,6 +1,6 @@
 
-## 1. 二维dp
-```
+// ## 1. 二维dp
+// ```
 class Solution {
     public int maxValue(int[][] grid) {
         // 二维dp 空间O(mn)
@@ -14,10 +14,10 @@ class Solution {
         return dp[m][n];
     }
 }
-```
----
-## 2. 一维dp
-```
+// ```
+// ---
+// ## 2. 一维dp
+// ```
 class Solution {
     public int maxValue(int[][] grid) {
         // 一维dp 空间O(n)       
@@ -31,10 +31,10 @@ class Solution {
         return dp[n];
     }
 }
-```
----
-## 3. 原地修改
-```
+// ```
+// ---
+// ## 3. 原地修改
+// ```
 class Solution {
     public int maxValue(int[][] grid) {
         // 原地修改 空间O(1)
@@ -55,7 +55,7 @@ class Solution {
         return grid[m-1][n-1];
     }
 }
-```
+// ```
 
 
 

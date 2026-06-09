@@ -1,4 +1,4 @@
-```
+// ```
 
 #define MAXSIZE 20
 #define SIZEINCREMENT 10
@@ -80,4 +80,4 @@ void minStackFree(MinStack* obj)
 {
     free(obj);
 }
-```
+// ```

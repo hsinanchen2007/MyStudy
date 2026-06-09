@@ -1,11 +1,11 @@
-### 解题思路
-题目要求是要找连续数据
-因此（left+right）/2*（right-left+1）=target 的时候符合题目要求
-因此得到下面的规律~~
+# ### 解题思路
+# 题目要求是要找连续数据
+# 因此（left+right）/2*（right-left+1）=target 的时候符合题目要求
+# 因此得到下面的规律~~
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         n=2
@@ -22,4 +22,4 @@ class Solution:
             n+=1
         return result 
           
-```
+# ```

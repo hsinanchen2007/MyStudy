@@ -1,4 +1,4 @@
-```
+// ```
 
 function fibonacci($n = 0)
 {
@@ -17,4 +17,4 @@ function fibonacci($n = 0)
         return $tmp;
     }
 }
-```
+// ```

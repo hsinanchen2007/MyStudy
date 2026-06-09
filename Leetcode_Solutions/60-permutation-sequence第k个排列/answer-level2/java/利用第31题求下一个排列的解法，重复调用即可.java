@@ -1,9 +1,9 @@
-此题可与第31题[https://leetcode-cn.com/problems/next-permutation/]()寻找下一个排列联系起来
-具体思路可以看第31题的解，此题只是重复调用第31题的方法而已
-我们知道了1234...n的排列，就可以找到它的下一个排列，要求第N个，就调用n-1次方法即可
-主要是思路的转换，无脑回溯求出全部排列，再求第n个，容易超时
-时间复杂度0(nk)
-```
+// 此题可与第31题[https://leetcode-cn.com/problems/next-permutation/]()寻找下一个排列联系起来
+// 具体思路可以看第31题的解，此题只是重复调用第31题的方法而已
+// 我们知道了1234...n的排列，就可以找到它的下一个排列，要求第N个，就调用n-1次方法即可
+// 主要是思路的转换，无脑回溯求出全部排列，再求第n个，容易超时
+// 时间复杂度0(nk)
+// ```
 class Solution {
     public String getPermutation(int n, int k) {
         int[] arr=new int[n];
@@ -44,5 +44,5 @@ class Solution {
         arr[j]=tmp;
     }
 }
-```
+// ```
 

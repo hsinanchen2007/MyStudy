@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 void readS(vector<pair<int, int>>& V, string str) {
   int n = str.size(), i = 0, j = 0, val, dep;
   while (j < n) {
@@ -29,4 +29,4 @@ TreeNode* recoverFromPreorder(string str) {
   }
   return root;
 }
-```
+// ```

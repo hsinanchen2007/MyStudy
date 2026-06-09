@@ -1,6 +1,6 @@
-从nums1的屁股后面开始放数据，谁大放谁，思路清晰！
+// 从nums1的屁股后面开始放数据，谁大放谁，思路清晰！
 
-```
+// ```
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int i = m - 1;
     int j = n - 1;
@@ -17,4 +17,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
         }
     }
 }
-```
+// ```

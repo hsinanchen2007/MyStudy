@@ -1,12 +1,12 @@
-### 解题思路
-DFS（深度优先策略）
-递归
-return语句中 每次递归 数目+1
-需要把非递归版本的解法手写一遍
+# ### 解题思路
+# DFS（深度优先策略）
+# 递归
+# return语句中 每次递归 数目+1
+# 需要把非递归版本的解法手写一遍
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution(object):
         
             
             
-```
+# ```

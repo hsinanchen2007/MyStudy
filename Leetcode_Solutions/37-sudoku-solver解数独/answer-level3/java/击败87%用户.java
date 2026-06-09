@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // rows数组用来记录每一行有哪些数字已经用过了(cols同理)
     private boolean[][] rows = new boolean[9][10];
@@ -75,4 +75,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

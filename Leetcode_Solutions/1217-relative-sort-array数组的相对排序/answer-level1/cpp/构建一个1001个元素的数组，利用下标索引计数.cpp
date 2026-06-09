@@ -1,9 +1,9 @@
-### 解题思路
-本题限制了数组arr1的值范围，0~1000，联想到计数排序，使用数组下标代替数值，统计元素个数
+// ### 解题思路
+// 本题限制了数组arr1的值范围，0~1000，联想到计数排序，使用数组下标代替数值，统计元素个数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

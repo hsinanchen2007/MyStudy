@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-害，一开始想到的就是折半查找
-### 代码
-时间复杂度O（m*logn）
-```java
+// ### 解题思路
+// 此处撰写解题思路
+// 害，一开始想到的就是折半查找
+// ### 代码
+// 时间复杂度O（m*logn）
+// ```java
 class Solution {
         public boolean findNumberIn2DArray(int[][] matrix, int target) {
             int b = matrix.length;
@@ -31,4 +31,4 @@ class Solution {
             return -1;
         }
     }
-```
+// ```

@@ -1,5 +1,5 @@
-分成两种情况处理: 1）将word[i]转化为数字缩写；2）保留word[i]。
-```java
+// 分成两种情况处理: 1）将word[i]转化为数字缩写；2）保留word[i]。
+// ```java
 
 class Solution {
     List<String>list;
@@ -30,4 +30,4 @@ class Solution {
        
     }
 }
-```
+// ```

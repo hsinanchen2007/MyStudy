@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public static boolean buddyStrings(String A, String B) {
 		boolean flag = true;
@@ -39,6 +39,6 @@ class Solution {
 		}
 	}
 }
-```
+// ```
 
-```
+// ```

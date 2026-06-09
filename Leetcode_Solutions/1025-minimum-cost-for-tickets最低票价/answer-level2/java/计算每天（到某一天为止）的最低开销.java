@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int mincostTickets(int[] days, int[] costs) {
         int costOne = costs[0];
@@ -23,4 +23,4 @@ class Solution {
         return dayCost[days[days.length-1]];
     }
 }
-```
+// ```

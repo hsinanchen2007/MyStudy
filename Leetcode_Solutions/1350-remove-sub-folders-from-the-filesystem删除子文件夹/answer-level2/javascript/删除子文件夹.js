@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-1、将 `folder` 按字典序进行排序；
-2、依次去对比每一项。
+// 1、将 `folder` 按字典序进行排序；
+// 2、依次去对比每一项。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} folder
  * @return {string[]}
@@ -26,4 +26,4 @@ var removeSubfolders = function(folder) {
     }
     return result;
 };
-```
+// ```

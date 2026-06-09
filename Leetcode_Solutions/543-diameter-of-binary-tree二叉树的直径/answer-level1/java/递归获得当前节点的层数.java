@@ -1,6 +1,6 @@
-res 作为类内部的全局变量，时刻保留当前最大的二叉树直径。
+// res 作为类内部的全局变量，时刻保留当前最大的二叉树直径。
 
-```java []
+// ```java []
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         return Math.max(l,r)+1;
     }
 }
-```
+// ```

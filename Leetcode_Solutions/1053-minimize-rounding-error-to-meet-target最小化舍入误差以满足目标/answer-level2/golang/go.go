@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"fmt"
 	"math"
@@ -45,4 +45,4 @@ func minimizeError(prices []string, target int) string {
 	}
 	return fmt.Sprintf("%.3f", t[l][target-sl])
 }
-```
+// ```

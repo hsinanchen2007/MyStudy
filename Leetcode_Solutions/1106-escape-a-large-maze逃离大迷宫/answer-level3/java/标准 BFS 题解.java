@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class Solution {
     static int dirs[][] = new int[][]{{0,1}, {1,0}, {-1,0}, {0,-1}};
     static int limit = (int)1e6;
@@ -49,4 +49,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

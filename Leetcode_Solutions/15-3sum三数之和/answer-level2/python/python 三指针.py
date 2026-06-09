@@ -1,11 +1,11 @@
-### 解题思路
-思路比较简单，注意去除重复，现排序，i从的取值【0，n-2】 j的取值[i+1,n-1],k的取值[n,j+1]
-如果nums[i]+nums[j]+nums[k]==0,加入res。大于零，后面的指针k前移，小于零，前面的指针j后移
-如果nums[i]==nums[i-1]，continue，因为当nums[i]已经遍历过了，它会包括所有nums[i-1]的答案
+# ### 解题思路
+# 思路比较简单，注意去除重复，现排序，i从的取值【0，n-2】 j的取值[i+1,n-1],k的取值[n,j+1]
+# 如果nums[i]+nums[j]+nums[k]==0,加入res。大于零，后面的指针k前移，小于零，前面的指针j后移
+# 如果nums[i]==nums[i-1]，continue，因为当nums[i]已经遍历过了，它会包括所有nums[i-1]的答案
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
        
@@ -39,4 +39,4 @@ class Solution:
         return res
 
 
-```
+# ```

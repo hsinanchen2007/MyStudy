@@ -1,7 +1,7 @@
-考验数学功底的一道题😺。
-![最小好进制数学解法.jpg](https://pic.leetcode-cn.com/7fee9a478e3bdf2d399c6aaa41d793e9c2689d0adac9d251ee34757c8d118975-%E6%9C%80%E5%B0%8F%E5%A5%BD%E8%BF%9B%E5%88%B6%E6%95%B0%E5%AD%A6%E8%A7%A3%E6%B3%95.jpg)
-代码如下
-```javascript
+// 考验数学功底的一道题😺。
+// ![最小好进制数学解法.jpg](https://pic.leetcode-cn.com/7fee9a478e3bdf2d399c6aaa41d793e9c2689d0adac9d251ee34757c8d118975-%E6%9C%80%E5%B0%8F%E5%A5%BD%E8%BF%9B%E5%88%B6%E6%95%B0%E5%AD%A6%E8%A7%A3%E6%B3%95.jpg)
+// 代码如下
+// ```javascript
 /**
  * @param {string} n
  * @return {string}
@@ -36,5 +36,5 @@ var smallestGoodBase = function(n) {
         }
     }
 };
-```
-因为a_max <= logN，所以外层循环logN次，内层循环是用二分法寻找 2 到 N 之间的数字，也是 logN次，总的时间复杂度是O(logN * logN)， 总的空间复杂度是 O(1)。
+// ```
+// 因为a_max <= logN，所以外层循环logN次，内层循环是用二分法寻找 2 到 N 之间的数字，也是 logN次，总的时间复杂度是O(logN * logN)， 总的空间复杂度是 O(1)。

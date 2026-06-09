@@ -1,4 +1,4 @@
-```
+// ```
 func isCousins(root *TreeNode, x int, y int) bool {
 	var (
 		a = make(map[int]int, 0)
@@ -17,4 +17,4 @@ func dfsIsCousins(root, pre *TreeNode, nums *map[int]int, p *map[int]*TreeNode, 
 	dfsIsCousins(root.Left, root, nums, p, d+1)
 	dfsIsCousins(root.Right, root, nums, p, d+1)
 }
-```
+// ```

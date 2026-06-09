@@ -1,7 +1,7 @@
-**从（0.0）开始，每次都可以走四个方向，但走过的格子用1标记，就不再继续走了，没有走过的格子如果数位和大于k也就不再继续走了。
-开了一个move函数模拟每次走的情况。**
+// **从（0.0）开始，每次都可以走四个方向，但走过的格子用1标记，就不再继续走了，没有走过的格子如果数位和大于k也就不再继续走了。
+// 开了一个move函数模拟每次走的情况。**
 
-```
+// ```
 void move(int **mark, int *number, int x, int y, int m, int n, int k)
 {//x和y代表目前坐标，number记录可行的格子数量，mark模拟了一个m*n的二维数组
     if( x < m && y < n && 0 <= x && 0 <= y ){
@@ -25,4 +25,4 @@ int movingCount(int m, int n, int k){
     move(mark, &number, x,  y, m, n, k);
     return number;
 }
-```
+// ```

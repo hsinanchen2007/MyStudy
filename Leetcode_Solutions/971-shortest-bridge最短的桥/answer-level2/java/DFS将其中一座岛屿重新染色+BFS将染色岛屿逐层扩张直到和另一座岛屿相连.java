@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int shortestBridge(int[][] A) {
         int result = 0;
@@ -87,4 +87,4 @@ class Solution {
         dfs(A, i, j + 1, queue);
     }
 }
-```
+// ```

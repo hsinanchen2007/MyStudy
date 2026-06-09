@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 //1. 数学推导  动态规划
 class Solution {
 public:
@@ -49,4 +49,4 @@ public:
 //         return *list.begin();   
 //     }
 // };
-```
+// ```

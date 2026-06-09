@@ -1,10 +1,10 @@
-### 解题思路
-内部做了个递归, 判断键值是否为对象, 是则将键值作为root进行递归
-记录 60ms, 33.8MB
+// ### 解题思路
+// 内部做了个递归, 判断键值是否为对象, 是则将键值作为root进行递归
+// 记录 60ms, 33.8MB
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -34,4 +34,4 @@ var preorderTraversal = function(root) {
     roots(root)
     return result
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isSubtree(TreeNode* s, TreeNode* t) {
@@ -14,4 +14,4 @@ public:
         return helper(s->left,t->left)&&helper(s->right,t->right);//然后递归检查这两个根节点的其他节点是否相同
     }   
 };
-```
+// ```

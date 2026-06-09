@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var res []string
 func generateParenthesis(n int) []string {
     s:=make([]byte,n*2)
@@ -29,4 +29,4 @@ func todo(k,num,n int,ok bool,s []byte){
     todo(k+1,num,n,true,s)
     todo(k+1,num,n,false,s)
 }
-```
+// ```

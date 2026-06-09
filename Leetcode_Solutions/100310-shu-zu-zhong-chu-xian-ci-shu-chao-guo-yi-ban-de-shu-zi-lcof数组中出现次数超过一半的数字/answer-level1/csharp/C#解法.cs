@@ -1,9 +1,9 @@
-### 解题思路
-遍历并计数
+// ### 解题思路
+// 遍历并计数
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MajorityElement(int[] nums) {
         Dictionary<int, int> dict = new Dictionary<int, int>();
@@ -26,4 +26,4 @@ public class Solution {
         return -1;
     }
 }
-```
+// ```

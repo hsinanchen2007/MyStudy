@@ -1,6 +1,6 @@
 
-//169 求众数I
-```
+// //169 求众数I
+// ```
 int majorityElement(int* nums, int numsSize){
 
 if(numsSize==0) return 0;
@@ -24,9 +24,9 @@ for(int i=0;i<numsSize;i++)
 return major;
 }
 
-```
-//229 求众数II
-```
+// ```
+// //229 求众数II
+// ```
 int* majorityElement(int* nums, int numsSize, int* returnSize){
     
     if (numsSize==0){
@@ -91,4 +91,4 @@ int* majorityElement(int* nums, int numsSize, int* returnSize){
     *returnSize = 0;
     return nums;
 }
-```
+// ```

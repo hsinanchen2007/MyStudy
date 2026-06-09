@@ -1,5 +1,5 @@
-利用双指针和栈在字符串S和T上原地修改，最后逐个元素比较。
-```c
+// 利用双指针和栈在字符串S和T上原地修改，最后逐个元素比较。
+// ```c
 void convert(char* str){
     int i=str[0]=='#'?0:1,stack_index=0;
     while(str[i]){
@@ -25,4 +25,4 @@ bool backspaceCompare(char * S, char * T){
     }
     return T[i]==0;
 }
-```
+// ```

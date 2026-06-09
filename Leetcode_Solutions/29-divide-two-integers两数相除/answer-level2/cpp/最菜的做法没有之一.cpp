@@ -1,9 +1,9 @@
-### 解题思路
-用时接近3000ms
+// ### 解题思路
+// 用时接近3000ms
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int divide(int dividend, int divisor) {
@@ -42,4 +42,4 @@ public:
         else return is_neg ? -re : re;
     }
 };
-```
+// ```

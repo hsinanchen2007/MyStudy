@@ -1,26 +1,26 @@
-### 解题思路
+// ### 解题思路
 
-每日一题变得好繁琐。。没有看题解就开始照着自己的想法写，写得心累。。大概思路和官方二解好像是差不多的（没仔细看）
+// 每日一题变得好繁琐。。没有看题解就开始照着自己的想法写，写得心累。。大概思路和官方二解好像是差不多的（没仔细看）
 
-因为看了下题解并不是很多，所以就发出来提供一下大概思路，可以参考参考。
+// 因为看了下题解并不是很多，所以就发出来提供一下大概思路，可以参考参考。
 
-- 用两个Map进行存储
-    - 一个是以`key`为键值，保存`具有value、freq属性的对象`的cacheMap
-    - 一个是以`freq`为键值，保存`保存了属于该freq的所有key值的链表`的freqMap
-- get时
-    - 查cacheMap可得value，然后更新freqMap里记录的freq，再更新cacheMap里记录的freq
-- put时
-    - 先检查容量是否为0，为0则不put
-    - 检查是否是已put的值，有的话则刷新value，并且freq++（这一种情况，题目并没有解释，无奈）
-    - 如果是没有put过的值，则检查容量是否满了
-        - 没满，则加入cacheMap，然后在freqMap里freq为1的链表的尾节点后再加上存储该key的节点
-        - 满了，需要先删掉最不活跃的（即freqMap里键值排最前的链表中的第一个key），再执行上面的操作
+// - 用两个Map进行存储
+//     - 一个是以`key`为键值，保存`具有value、freq属性的对象`的cacheMap
+//     - 一个是以`freq`为键值，保存`保存了属于该freq的所有key值的链表`的freqMap
+// - get时
+//     - 查cacheMap可得value，然后更新freqMap里记录的freq，再更新cacheMap里记录的freq
+// - put时
+//     - 先检查容量是否为0，为0则不put
+//     - 检查是否是已put的值，有的话则刷新value，并且freq++（这一种情况，题目并没有解释，无奈）
+//     - 如果是没有put过的值，则检查容量是否满了
+//         - 没满，则加入cacheMap，然后在freqMap里freq为1的链表的尾节点后再加上存储该key的节点
+//         - 满了，需要先删掉最不活跃的（即freqMap里键值排最前的链表中的第一个key），再执行上面的操作
 
-> 想的时候觉得大概思路还是挺简单的，但是实现起来感觉有点繁琐，于是代码也写得稀烂 Orz 懒得改了呜呜
+// > 想的时候觉得大概思路还是挺简单的，但是实现起来感觉有点繁琐，于是代码也写得稀烂 Orz 懒得改了呜呜
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} capacity
  */
@@ -188,10 +188,10 @@ LinkedList.prototype.unshift = function() {
  * var param_1 = obj.get(key)
  * obj.put(key,value)
  */
-```
+// ```
 
-<br>
+// <br>
 
----
+// ---
 
-> 我的Github: github.com/ceynri 欢迎访问
+// > 我的Github: github.com/ceynri 欢迎访问

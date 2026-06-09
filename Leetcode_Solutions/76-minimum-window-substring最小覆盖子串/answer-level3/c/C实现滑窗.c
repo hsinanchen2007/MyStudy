@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/09478f14dfcc1997812349eb689e935814fc7ef2b11af0743ac4d0639799f88a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/09478f14dfcc1997812349eb689e935814fc7ef2b11af0743ac4d0639799f88a-image.png)
 
 
-```
+// ```
 #define MAX 256
 
 int g_count[MAX];
@@ -57,4 +57,4 @@ char * minWindow(char * s, char * t){
 
     return result;
 }
-```
+// ```

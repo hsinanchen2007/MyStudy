@@ -1,8 +1,8 @@
-### 解题思路
-两个变量分别控制奇数位置和偶数位置。
-### 代码
+// ### 解题思路
+// 两个变量分别控制奇数位置和偶数位置。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -26,4 +26,4 @@ int* sortArrayByParityII(int* A, int ASize, int* returnSize){
     *returnSize=ASize;
     return num;
 }
-```
+// ```

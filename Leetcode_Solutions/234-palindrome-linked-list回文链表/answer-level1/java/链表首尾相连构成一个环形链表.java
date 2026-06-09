@@ -1,9 +1,9 @@
-### 解题思路
-让链表首尾相连构成一个环形链表，假设链表长度为len，用两个指针head、end分别指向链表的首尾，循环判断head + i 和 end + len - i，指向的元素是否相等
+// ### 解题思路
+// 让链表首尾相连构成一个环形链表，假设链表长度为len，用两个指针head、end分别指向链表的首尾，循环判断head + i 和 end + len - i，指向的元素是否相等
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -64,4 +64,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

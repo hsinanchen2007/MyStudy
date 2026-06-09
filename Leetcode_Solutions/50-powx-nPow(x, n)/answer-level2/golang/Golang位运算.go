@@ -1,4 +1,4 @@
-```go
+// ```go
 func myPow(x float64, n int) float64 {
     if n < 0 {
         if n == -1<<31 {
@@ -20,4 +20,4 @@ func myPow(x float64, n int) float64 {
     }
     return result
 }
-```
+// ```

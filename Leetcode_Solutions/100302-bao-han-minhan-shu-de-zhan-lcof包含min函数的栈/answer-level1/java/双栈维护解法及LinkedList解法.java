@@ -1,18 +1,18 @@
-## 30.包含min函数的栈
+// ## 30.包含min函数的栈
 
-### Information
+// ### Information
 
-* TIME: 2020/02/15
-* LINK: [Click Here](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/)
-* TAG: `Stack`
+// * TIME: 2020/02/15
+// * LINK: [Click Here](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/)
+// * TAG: `Stack`
 
-### Description
+// ### Description
 
-> 定义栈的数据结构，请在该类型中实现一个能够得到栈的最小元素的 min 函数在该栈中，调用 min、push 及 pop 的时间复杂度都是 O(1)。
+// > 定义栈的数据结构，请在该类型中实现一个能够得到栈的最小元素的 min 函数在该栈中，调用 min、push 及 pop 的时间复杂度都是 O(1)。
 
-### Example
+// ### Example
 
-```text
+// ```text
 MinStack minStack = new MinStack();
 minStack.push(-2);
 minStack.push(0);
@@ -21,21 +21,21 @@ minStack.min();   --> 返回 -3.
 minStack.pop();
 minStack.top();      --> 返回 0.
 minStack.min();   --> 返回 -2.
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 维护一个数据栈和一个最小值栈
->
-> 每次`push`都会去检查、更新`min`
->
-> 也就是说，**最小值栈是一个从顶向下递增的栈**
->
-> `pop`时检查是否`pop`了最小值，如果是，最小值栈也要跟着`pop`
->
-> 重复最小值的情况：处理也很简单，如果`push`的这个数和当前最小值相等，也是需要进入最小值栈的
+// > 维护一个数据栈和一个最小值栈
+// >
+// > 每次`push`都会去检查、更新`min`
+// >
+// > 也就是说，**最小值栈是一个从顶向下递增的栈**
+// >
+// > `pop`时检查是否`pop`了最小值，如果是，最小值栈也要跟着`pop`
+// >
+// > 重复最小值的情况：处理也很简单，如果`push`的这个数和当前最小值相等，也是需要进入最小值栈的
 
-```java
+// ```java
 class MinStack {
     Stack<Integer> stack;
     Stack<Integer> minStack;
@@ -78,23 +78,23 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.min();
  */
-```
+// ```
 
-### Best Answer
+// ### Best Answer
 
-> 直接用`LinkedList`模拟
->
-> `push`
->
-> * 如果入栈的数值`x`小于等于当前最小值，那么把当前最小值先压入栈（如果`x`出栈，可以找到下一个最小值）
->
->   然后再压入`x`
->
-> `pop`
->
-> * 如果出栈的数值等于当前最小值，说明需要找到前一个最小值替换当前最小值，依照`pop`操作，可知前一个最小值**在栈顶的下一个元素**
+// > 直接用`LinkedList`模拟
+// >
+// > `push`
+// >
+// > * 如果入栈的数值`x`小于等于当前最小值，那么把当前最小值先压入栈（如果`x`出栈，可以找到下一个最小值）
+// >
+// >   然后再压入`x`
+// >
+// > `pop`
+// >
+// > * 如果出栈的数值等于当前最小值，说明需要找到前一个最小值替换当前最小值，依照`pop`操作，可知前一个最小值**在栈顶的下一个元素**
 
-```java
+// ```java
 class MinStack {
     private LinkedList<Integer> data;
     private int min;
@@ -136,23 +136,23 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.min();
  */
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/a5c7fb4d450755987b994174b71dd7e4f8caabf2c6016ae472c3fbc34fde0dda-file_1581757106277)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/a5c7fb4d450755987b994174b71dd7e4f8caabf2c6016ae472c3fbc34fde0dda-file_1581757106277)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/8d39c3602b168a7056645b23ea0b55bfd5a64cc7bb40f8a3d00d4b2ce3b55448-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/8d39c3602b168a7056645b23ea0b55bfd5a64cc7bb40f8a3d00d4b2ce3b55448-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxRotateFunction(int[] A) {
         int length = A.length;
@@ -23,4 +23,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

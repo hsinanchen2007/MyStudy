@@ -1,9 +1,9 @@
-### 解题思路
-将三维多个正方体画出来即可参透
+// ### 解题思路
+// 将三维多个正方体画出来即可参透
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int surfaceArea(int[][] grid) {
         int result = 0;
@@ -26,4 +26,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

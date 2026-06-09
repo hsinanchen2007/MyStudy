@@ -1,9 +1,9 @@
-### 解题思路
-数学好也太帅了:3
+# ### 解题思路
+# 数学好也太帅了:3
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         # 如果 str1 和 str2 拼接后等于 str2和 str1 拼接起来的字符串（注意拼接顺序不同），那么一定存在符合条件的字符串 X。
@@ -21,4 +21,4 @@ class Solution:
 
 # 作者：LeetCode-Solution
 
-```
+# ```

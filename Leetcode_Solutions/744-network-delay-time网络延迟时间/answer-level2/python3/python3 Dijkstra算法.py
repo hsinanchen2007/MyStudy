@@ -1,9 +1,9 @@
-### 解题思路
-使用Dijkstra算法求最短路径
+# ### 解题思路
+# 使用Dijkstra算法求最短路径
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def networkDelayTime(self, times: List[List[int]], N: int, K: int) -> int:
         #构建邻接矩阵
@@ -27,4 +27,4 @@ class Solution:
                     dist[K][cur] = dist[K][u]+dist[u][cur]
 
         return mint if len(visited)==N else -1
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-模拟下过程
-### 代码
+// ### 解题思路
+// 模拟下过程
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean lemonadeChange(int[] bills) {
         int five = 0;
@@ -32,4 +32,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

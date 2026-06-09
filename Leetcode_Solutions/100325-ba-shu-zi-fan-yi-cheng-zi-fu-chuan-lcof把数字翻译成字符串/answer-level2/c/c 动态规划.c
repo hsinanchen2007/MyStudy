@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：动态规划
@@ -52,4 +52,4 @@ int translateNum( int num ){
     return count;
 
 }
-```
+// ```

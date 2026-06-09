@@ -1,11 +1,11 @@
-### 解题思路
-1.简单的hash思路，将chars中的字母出现的次数记录到hash表中；
-2，每次遍历一个单词，如果在hash表中，并且满足要求
-3.总的输出长度累加；
+// ### 解题思路
+// 1.简单的hash思路，将chars中的字母出现的次数记录到hash表中；
+// 2，每次遍历一个单词，如果在hash表中，并且满足要求
+// 3.总的输出长度累加；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXNUM 26
 int countCharacters(char ** words, int wordsSize, char * chars){
     int hash[MAXNUM] = {0};
@@ -35,4 +35,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
    // printf("count %d\n",count);
     return count;
 }
-```
+// ```

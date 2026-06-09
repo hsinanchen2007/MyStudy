@@ -1,6 +1,6 @@
-慢得无法相信，提交记录里的时间平均比我快10倍，到底是用了什么神仙算法
+# 慢得无法相信，提交记录里的时间平均比我快10倍，到底是用了什么神仙算法
 
-```
+# ```
 class Solution:
     def networkDelayTime(self, times: List[List[int]], N: int, K: int) -> int:
         d={}
@@ -27,4 +27,4 @@ class Solution:
             return max(c.values())      #返回节点最大时间
         else:
             return -1
-```
+# ```

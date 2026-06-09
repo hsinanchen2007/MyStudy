@@ -1,5 +1,5 @@
-按位异或
-```
+// 按位异或
+// ```
 int hammingDistance(int x, int y){
     int cnt = 0, n = 32;
     while(n--){
@@ -10,4 +10,4 @@ int hammingDistance(int x, int y){
     }
     return cnt;
 }
-```
+// ```

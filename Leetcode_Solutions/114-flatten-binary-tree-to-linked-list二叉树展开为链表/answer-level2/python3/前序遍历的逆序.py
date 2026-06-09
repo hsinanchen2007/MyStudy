@@ -1,9 +1,9 @@
-### 解题思路
-记录好前一个节点，然后指向即可。
+# ### 解题思路
+# 记录好前一个节点，然后指向即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
                     
         
 
-```
+# ```

@@ -1,10 +1,10 @@
-又臭又长的C代码，特点是一次申请够内存，在一维数组中的顺序看上去和前序遍历结果一样。
+// 又臭又长的C代码，特点是一次申请够内存，在一维数组中的顺序看上去和前序遍历结果一样。
 
-在一维数组树的存储模式是 {根，{左子树}，{右子树}}，所以只要从遍历结果中自树顶向底找出每一层的左右子树大小就可以直接定位到相应节点在数组中的位置，改造成前序+中序输入的形式也不难
+// 在一维数组树的存储模式是 {根，{左子树}，{右子树}}，所以只要从遍历结果中自树顶向底找出每一层的左右子树大小就可以直接定位到相应节点在数组中的位置，改造成前序+中序输入的形式也不难
 
-提交了几遍，有时候32ms，有时候24ms，最少的16ms，也不知道应该以谁为准
+// 提交了几遍，有时候32ms，有时候24ms，最少的16ms，也不知道应该以谁为准
 
-```
+// ```
 void constructBTree(int* inorder, int* postorder, struct TreeNode* treeBranch, int treeSize);
 
 struct TreeNode* buildTree(int* inorder, int inorderSize, int* postorder, int postorderSize)
@@ -45,4 +45,4 @@ void __attribute__((fastcall)) constructBTree(int* inorder, int* postorder, stru
         constructBTree(inorder + leftBranch_size + 1, postorder + leftBranch_size, treeBranch->right, rightBranch_size);
     }  
 }
-```
+// ```

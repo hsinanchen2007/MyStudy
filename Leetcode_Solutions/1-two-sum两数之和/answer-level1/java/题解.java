@@ -1,9 +1,9 @@
-### 解题思路
-枚举一下, 效率惨不忍睹.
+// ### 解题思路
+// 枚举一下, 效率惨不忍睹.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int [] index=new int[2];
@@ -18,4 +18,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-在前面三数之和得基础上再加一根指针
+// ### 解题思路
+// 在前面三数之和得基础上再加一根指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -56,4 +56,4 @@ public:
         return ans;
         }
 };
-```
+// ```

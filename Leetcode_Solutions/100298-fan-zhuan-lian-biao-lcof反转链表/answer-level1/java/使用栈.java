@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public ListNode reverseList(ListNode head) {
         if (head == null)
@@ -11,4 +11,4 @@ class Solution {
         return node;
     }
 }
-```
+// ```

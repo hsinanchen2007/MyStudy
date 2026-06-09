@@ -1,5 +1,5 @@
-MySql下比较好写，MsSql只写出个这样蹩脚的答案，速度还行，超过了79%的人：
-```
+-- MySql下比较好写，MsSql只写出个这样蹩脚的答案，速度还行，超过了79%的人：
+-- ```
 CREATE FUNCTION getNthHighestSalary(@N INT) RETURNS INT AS
 BEGIN
     declare @result as int
@@ -20,4 +20,4 @@ BEGIN
         @result
     );
 END
-```
+-- ```

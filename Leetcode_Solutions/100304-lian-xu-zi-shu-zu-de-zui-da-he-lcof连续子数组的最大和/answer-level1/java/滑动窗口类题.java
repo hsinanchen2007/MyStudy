@@ -1,10 +1,10 @@
-### 解题思路
-1、定义sum、maxValue记录目前窗口的和和最大值
-2、sum<0的丢弃
+// ### 解题思路
+// 1、定义sum、maxValue记录目前窗口的和和最大值
+// 2、sum<0的丢弃
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         // 滑动窗口
@@ -23,4 +23,4 @@ class Solution {
         return maxValue;
     }
 }
-```
+// ```

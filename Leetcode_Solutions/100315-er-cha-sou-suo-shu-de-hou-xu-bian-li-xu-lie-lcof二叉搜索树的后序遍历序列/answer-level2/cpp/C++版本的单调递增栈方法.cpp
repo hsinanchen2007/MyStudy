@@ -1,9 +1,9 @@
-### 解题思路
-C++版本的单调递增栈方法。时间消耗和内存消耗都是战胜100%的用户
+// ### 解题思路
+// C++版本的单调递增栈方法。时间消耗和内存消耗都是战胜100%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool verifyPostorder(vector<int>& postorder) {
@@ -40,4 +40,4 @@ public:
         return true;
     }
 };
-```
+// ```

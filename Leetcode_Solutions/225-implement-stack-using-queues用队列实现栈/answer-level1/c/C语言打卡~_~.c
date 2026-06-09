@@ -1,9 +1,9 @@
-### 解题思路
-为了打卡 ~_~
+// ### 解题思路
+// 为了打卡 ~_~
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define DEFAULT_LEN 64
 
 typedef struct{
@@ -94,4 +94,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

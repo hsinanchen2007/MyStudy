@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
     pub fn remove_nth_from_end(head: Option<Box<ListNode>>, n: i32) -> Option<Box<ListNode>> {
         Solution::remove(head, n).0
@@ -19,4 +19,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

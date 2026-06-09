@@ -1,6 +1,6 @@
-被 `addAtIndex` 这个方法里的 `index` 负数坑了，开始以为负数代表逆向遍历，结果还是错，看了评论区才明白了负数的真谛。
+// 被 `addAtIndex` 这个方法里的 `index` 负数坑了，开始以为负数代表逆向遍历，结果还是错，看了评论区才明白了负数的真谛。
 
-```cpp []
+// ```cpp []
 struct DListNode {
     int val;
     DListNode *prev, *next;
@@ -127,4 +127,4 @@ private:
     DListNode *tail_;
     int size_;
 };
-```
+// ```

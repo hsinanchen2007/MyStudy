@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         TreeMap<Integer,Integer> map=new TreeMap<>();
@@ -11,4 +11,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

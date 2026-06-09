@@ -1,5 +1,5 @@
-代码如下
-```
+# 代码如下
+# ```
 class Solution:
     def mySqrt(self,x) :
         ori = x   #初始化
@@ -30,6 +30,6 @@ class Solution:
                 low = mid  
                 mid = (upp+low)//2 
         return low  
-```
+# ```
 
-以上
+# 以上

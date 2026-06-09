@@ -1,6 +1,6 @@
-最简单直接的解法，正反方向映射检查一下即可，还有优化空间
+// 最简单直接的解法，正反方向映射检查一下即可，还有优化空间
 
-```
+// ```
 int flag_matrix[255];
 
 
@@ -61,4 +61,4 @@ char ** findAndReplacePattern(char ** words, int wordsSize, char * pattern, int*
 
     return rec;
 }
-```
+// ```

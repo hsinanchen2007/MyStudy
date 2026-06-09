@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-1、判断是正是负
-2、转成字符调用字符的Reverse()方法，
-3、在转回int
+// 1、判断是正是负
+// 2、转成字符调用字符的Reverse()方法，
+// 3、在转回int
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int Reverse(int x) {
         string strX =x.ToString();

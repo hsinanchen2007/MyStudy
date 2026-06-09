@@ -1,16 +1,16 @@
-### 写在前面：
-如果您觉得写得还可以，那就来关注在下的微信公众号吧“张氏文画”，不光有新鲜的 LeetCode 题解（多种思路，包教包会，开拓思维），还有经典的文章及短视频和大家分享，谢谢大家的关注！！！
-![qrcode_for_gh_671e52fa1e78_258.jpg](https://pic.leetcode-cn.com/fa6a229fc23d58fb656a375382f96feecd9b6bc043183f36ee0d9ea9ffa3a12e-qrcode_for_gh_671e52fa1e78_258.jpg)
+// ### 写在前面：
+// 如果您觉得写得还可以，那就来关注在下的微信公众号吧“张氏文画”，不光有新鲜的 LeetCode 题解（多种思路，包教包会，开拓思维），还有经典的文章及短视频和大家分享，谢谢大家的关注！！！
+// ![qrcode_for_gh_671e52fa1e78_258.jpg](https://pic.leetcode-cn.com/fa6a229fc23d58fb656a375382f96feecd9b6bc043183f36ee0d9ea9ffa3a12e-qrcode_for_gh_671e52fa1e78_258.jpg)
 
-### 思路：
+// ### 思路：
 
-注意边界条件处理即可。没有那么多花里胡哨！！！
+// 注意边界条件处理即可。没有那么多花里胡哨！！！
 
-### 代码：
+// ### 代码：
 
-时间复杂度O(n)，空间复杂度O(1)
+// 时间复杂度O(n)，空间复杂度O(1)
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
     
@@ -60,9 +60,9 @@ class Solution {
     return res * sign;
     }
 }
-```
+// ```
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         int result = 0, i = 0, sign = 1;
@@ -98,10 +98,10 @@ class Solution {
 		return result * sign;
     }
 }
-```
+// ```
 
-### Result：
+// ### Result：
 
-Runtime：2ms
+// Runtime：2ms
 
-Your runtime beats 96.91% of java submissions.
+// Your runtime beats 96.91% of java submissions.

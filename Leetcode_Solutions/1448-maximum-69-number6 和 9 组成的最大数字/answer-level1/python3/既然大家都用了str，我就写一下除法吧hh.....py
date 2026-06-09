@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maximum69Number(self, num: int) -> int:
         n = len(str(num))
@@ -13,10 +13,10 @@ class Solution:
             else:
                 res = res * 10 + temp
         return res
-```
+# ```
 
-str:
-```python
+# str:
+# ```python
 class Solution:
     def maximum69Number (self, num: int) -> int:
         num = list(str(num))
@@ -25,4 +25,4 @@ class Solution:
                 num[i] = '9'
                 break
         return ''.join(num)
-```
+# ```

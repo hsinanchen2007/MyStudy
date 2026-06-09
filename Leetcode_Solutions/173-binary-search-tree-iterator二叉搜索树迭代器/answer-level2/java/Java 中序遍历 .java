@@ -1,6 +1,6 @@
-中序遍历把树转换成ArrayList在用迭代器迭代
+// 中序遍历把树转换成ArrayList在用迭代器迭代
 
-```java
+// ```java
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -48,5 +48,5 @@ class BSTIterator {
     }
 }
 
-```
+// ```
 

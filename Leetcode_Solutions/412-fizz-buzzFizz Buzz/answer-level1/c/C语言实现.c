@@ -1,5 +1,5 @@
-C语言实现
-```C []
+// C语言实现
+// ```C []
 char ** fizzBuzz(int n, int* returnSize){
     *returnSize = n;
     char **ret = (char**)malloc(n * sizeof(char*));   
@@ -14,4 +14,4 @@ char ** fizzBuzz(int n, int* returnSize){
     }
     return ret;
 }
-```
+// ```

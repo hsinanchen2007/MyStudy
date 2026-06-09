@@ -1,6 +1,6 @@
-由于只会用到前一个数和前前个数，因此用两个变量代替即可
+// 由于只会用到前一个数和前前个数，因此用两个变量代替即可
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number}
@@ -22,4 +22,4 @@ var translateNum = function(num) {
   }
   return after;
 };
-```
+// ```

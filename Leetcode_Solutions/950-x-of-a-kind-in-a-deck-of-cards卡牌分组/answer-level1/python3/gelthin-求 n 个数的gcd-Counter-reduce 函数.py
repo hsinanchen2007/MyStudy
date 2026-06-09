@@ -1,35 +1,35 @@
-### 解题思路
-首先用一个 hash_set, 记录所有数字的出现次数，
-然后把这些不为0的出现次数导入到数字val中，然后求 val 中所有数字的最大公约数。
-这里 
-+ gcd(a1, a2, a3, a4) = gcd(gcd(a1,a2,a3), a4) = gcd(gcd(gcd(a1,a2), a3), a4)
+# ### 解题思路
+# 首先用一个 hash_set, 记录所有数字的出现次数，
+# 然后把这些不为0的出现次数导入到数字val中，然后求 val 中所有数字的最大公约数。
+# 这里 
+# + gcd(a1, a2, a3, a4) = gcd(gcd(a1,a2,a3), a4) = gcd(gcd(gcd(a1,a2), a3), a4)
 
-最初错误的想法：
-1. 对 deck排序，然后求出第一个值对应出现的次数，然后对后面所有值的出现次数都要整除这个值，错误 [1,1,1,1,2,2]
-2. 对 val 进行排序， 然后求最小的两个值的 gcd, 然后要求后面的所有值都要整除这个 gcd. 错误： [6,12,27]
+# 最初错误的想法：
+# 1. 对 deck排序，然后求出第一个值对应出现的次数，然后对后面所有值的出现次数都要整除这个值，错误 [1,1,1,1,2,2]
+# 2. 对 val 进行排序， 然后求最小的两个值的 gcd, 然后要求后面的所有值都要整除这个 gcd. 错误： [6,12,27]
 
-#### 官方代码很神奇, 为啥这样使用 reduce 函数把 gcd 用到了所有值上面，且提到了gcd(a,b) 的复杂度为 O(log(max(a,b)))
-``` python3
+# #### 官方代码很神奇, 为啥这样使用 reduce 函数把 gcd 用到了所有值上面，且提到了gcd(a,b) 的复杂度为 O(log(max(a,b)))
+# ``` python3
 class Solution(object):
     def hasGroupsSizeX(self, deck):
         from fractions import gcd
         vals = collections.Counter(deck).values()
         return reduce(gcd, vals) >= 2
-```
-来自[官方题解下评论](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/solution/qia-pai-fen-zu-by-leetcode-solution/311471)
+# ```
+# 来自[官方题解下评论](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/solution/qia-pai-fen-zu-by-leetcode-solution/311471)
 
-math.gcd求两个数的最大公约数，返回整数；
+# math.gcd求两个数的最大公约数，返回整数；
 
-collections.Counter统计字符串（数字）种类及数量，返回字典；
+# collections.Counter统计字符串（数字）种类及数量，返回字典；
 
-functools.reduce逐次对上次函数结果与当前序列元素应用函数； reduce 不同于 map
+# functools.reduce逐次对上次函数结果与当前序列元素应用函数； reduce 不同于 map
 
-reduce(function, sequence)
-例如 reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]) 计算为((((1+2)+3)+4)+5)
+# reduce(function, sequence)
+# 例如 reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]) 计算为((((1+2)+3)+4)+5)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         def gcd(a, b):  #a, b>=0  当 a<b 也能work, 负数似乎不 work
@@ -60,10 +60,10 @@ class Solution:
                 #if x%g != 0:
                 #    return False
             return True
-```
+# ```
 
-#### 开始的错误代码
-``` python3
+# #### 开始的错误代码
+# ``` python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         # 过不了 例子 [1,1,1,1,2,2] [1,1,2,2,2,2a]
@@ -100,4 +100,4 @@ class Solution:
                 num = 1
             i += 1
         return num == X
-```
+# ```

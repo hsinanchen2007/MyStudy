@@ -1,9 +1,9 @@
-### 解题思路
-####对c单次表进行计数，每个单词的字母计数与单次中 相应字母的对比。
+// ### 解题思路
+// ####对c单次表进行计数，每个单词的字母计数与单次中 相应字母的对比。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
 
@@ -95,4 +95,4 @@ class Solution {
        return ans;
     }
 }
-```
+// ```

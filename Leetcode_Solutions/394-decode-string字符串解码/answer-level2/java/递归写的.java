@@ -1,9 +1,9 @@
-### 解题思路
-也可以自己用栈实现。
+// ### 解题思路
+// 也可以自己用栈实现。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int index = 0;
     //s = "3[a2[c]]", 返回 "accaccacc".
@@ -35,4 +35,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

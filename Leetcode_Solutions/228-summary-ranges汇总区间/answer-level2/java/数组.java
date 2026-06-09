@@ -1,9 +1,9 @@
-### 解题思路
-这个应该不难把，数组的基本使用。
+// ### 解题思路
+// 这个应该不难把，数组的基本使用。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> summaryRanges(int[] nums) {
 
@@ -49,4 +49,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

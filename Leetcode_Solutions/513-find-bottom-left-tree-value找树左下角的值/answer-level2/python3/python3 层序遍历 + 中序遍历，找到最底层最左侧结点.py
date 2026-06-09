@@ -1,7 +1,7 @@
-1.层序遍历
-2.中序遍历
-记录当前结点的深度，并合最大深度比较即可
-```
+# 1.层序遍历
+# 2.中序遍历
+# 记录当前结点的深度，并合最大深度比较即可
+# ```
 class Solution:
     def findBottomLeftValue(self, root: TreeNode) -> int:
         # 1.BFS 层序遍历
@@ -31,4 +31,4 @@ class Solution:
                 dfs(root.right, deep + 1)
         dfs(root, 0)
         return self.node.val
-```
+# ```

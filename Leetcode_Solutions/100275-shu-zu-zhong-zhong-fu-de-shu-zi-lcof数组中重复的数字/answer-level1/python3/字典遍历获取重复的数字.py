@@ -1,9 +1,9 @@
-### 解题思路
-通过字典遍历进行计算
+# ### 解题思路
+# 通过字典遍历进行计算
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findRepeatNumber(self, nums):
         """
@@ -19,4 +19,4 @@ class Solution(object):
         for key,value in con_dict.items():
             if value > 1:
                 return key
-```
+# ```

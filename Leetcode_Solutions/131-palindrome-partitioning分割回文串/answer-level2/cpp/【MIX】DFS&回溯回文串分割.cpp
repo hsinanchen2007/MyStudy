@@ -1,9 +1,9 @@
-### 解题思路
-转为组合问题处理, 添加字符串的回文判定
+// ### 解题思路
+// 转为组合问题处理, 添加字符串的回文判定
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public List<List<String>> partition(String s) {
         if(s == null || s.length()==0)
@@ -51,8 +51,8 @@ class Solution {
     private boolean [][]f;
     private List<List<String>> res = new ArrayList<>();
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     
     def partition(self, s: str) -> List[List[str]]:
@@ -93,8 +93,8 @@ class Solution:
         for i in range(N-3, -1, -1):
             for j in range(i+2, N):
                 self.f[i][j] = (self.f[i+1][j-1] and (s[i]==s[j]))
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     vector<vector<string>> partition(string s) {
@@ -136,4 +136,4 @@ private:
 private:
     vector<vector<string>> res;
 };
-```
+// ```

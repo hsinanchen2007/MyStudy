@@ -1,4 +1,4 @@
-```
+// ```
 class MyCircularQueue {
     private int[] _Data;
     private int _Head;
@@ -107,6 +107,6 @@ class MovingAverage {
  * MovingAverage obj = new MovingAverage(size);
  * double param_1 = obj.next(val);
  */
-```
+// ```
 
-采用循环队列来处理该问题.因为我不熟悉Java中Queue的类,所以采用自己实现的队列类来处理.
+// 采用循环队列来处理该问题.因为我不熟悉Java中Queue的类,所以采用自己实现的队列类来处理.

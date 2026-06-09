@@ -1,9 +1,9 @@
-### 解题思路
-So easy!但空间复杂度较高，胜在代码简洁。
+// ### 解题思路
+// So easy!但空间复杂度较高，胜在代码简洁。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class RecentCounter {
 public:
     RecentCounter() {
@@ -24,4 +24,4 @@ private:
  * RecentCounter* obj = new RecentCounter();
  * int param_1 = obj->ping(t);
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路 祝大家早日加入部门工资最高的员工行列
-此处撰写解题思路
+-- ### 解题思路 祝大家早日加入部门工资最高的员工行列
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select D.Name Department, E.Name Employee,E.Salary
 from Employee E join Department D 
@@ -16,4 +16,4 @@ WHERE
             Employee
         GROUP BY DepartmentId
 	)
-```
+-- ```

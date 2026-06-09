@@ -1,5 +1,5 @@
 
-```
+# ```
 class ZeroEvenOdd(object):
     def __init__(self, n):
         self.n = n
@@ -49,4 +49,4 @@ class ZeroEvenOdd(object):
             self.oddNum.append(printNumber)         # 将方法存入对应数组
             self.flag+=1
         self.res()
-```
+# ```

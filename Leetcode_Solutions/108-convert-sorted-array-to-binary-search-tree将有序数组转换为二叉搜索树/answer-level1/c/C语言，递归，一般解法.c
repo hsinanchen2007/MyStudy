@@ -1,9 +1,9 @@
-### 解题思路
-将数组从中间分开，每次取中间节点（numsSize/2）作为根节点，然后将数组前后两部分分别作为左右子树的迭代参数。耗时：8ms；内存：17.4M。
+// ### 解题思路
+// 将数组从中间分开，每次取中间节点（numsSize/2）作为根节点，然后将数组前后两部分分别作为左右子树的迭代参数。耗时：8ms；内存：17.4M。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ struct TreeNode* sortedArrayToBST(int* nums, int numsSize){
 
     return cur;
 }
-```
+// ```

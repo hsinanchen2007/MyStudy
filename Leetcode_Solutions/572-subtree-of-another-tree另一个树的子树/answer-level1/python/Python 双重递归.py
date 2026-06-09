@@ -1,4 +1,4 @@
-思路简单， 复杂地 O（n^2）
+# 思路简单， 复杂地 O（n^2）
 class Solution:
     def isSubtree(self, s: TreeNode, t: TreeNode) -> bool:
         if not s: return False

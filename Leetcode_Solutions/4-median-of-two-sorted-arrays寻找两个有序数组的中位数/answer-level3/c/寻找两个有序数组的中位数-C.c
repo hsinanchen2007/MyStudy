@@ -1,4 +1,4 @@
-```c
+// ```c
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size){
     int size = nums1Size + nums2Size, mid = size/2;
     int i=0, j=0;
@@ -72,4 +72,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
         }
     }
 }
-```
+// ```

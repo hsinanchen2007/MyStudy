@@ -1,11 +1,11 @@
-### 解题思路
-1. 将 num 转 字符串，再转list
-2. 遍历list，遇到第一个 '6', 即改为'9'，退出循环
-3. 将list 转 字符串，再转 int
+# ### 解题思路
+# 1. 将 num 转 字符串，再转list
+# 2. 遍历list，遇到第一个 '6', 即改为'9'，退出循环
+# 3. 将list 转 字符串，再转 int
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maximum69Number (self, num):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                 break            
         
         return int(''.join(a for a in strs))
-```
+# ```

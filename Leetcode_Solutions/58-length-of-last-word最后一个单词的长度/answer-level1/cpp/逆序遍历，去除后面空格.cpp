@@ -1,9 +1,9 @@
-### 解题思路
-重点就是逆序和去除后面的空格
+// ### 解题思路
+// 重点就是逆序和去除后面的空格
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -17,4 +17,4 @@ public:
         return result;
     }
 };
-```
+// ```

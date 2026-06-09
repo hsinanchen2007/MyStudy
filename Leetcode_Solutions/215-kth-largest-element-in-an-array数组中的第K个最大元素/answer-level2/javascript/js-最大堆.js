@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/4c162ad3594d22421a243467a4f9d645e2b0b9face10991c988cf4555eed6484-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4c162ad3594d22421a243467a4f9d645e2b0b9face10991c988cf4555eed6484-image.png)
 
-```
+// ```
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -43,4 +43,4 @@ var findKthLargest = function(nums, k) {
     }
     return nums[size-k];
 }
-```
+// ```

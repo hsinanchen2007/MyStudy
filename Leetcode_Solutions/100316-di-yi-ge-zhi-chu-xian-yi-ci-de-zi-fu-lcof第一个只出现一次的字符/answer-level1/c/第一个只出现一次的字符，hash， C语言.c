@@ -1,9 +1,9 @@
-### 解题思路
-因为题干未说只有小写字母，所以用了tolower。
+// ### 解题思路
+// 因为题干未说只有小写字母，所以用了tolower。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char firstUniqChar(char* s){
     if(strlen(s) == 0){
         return " ";
@@ -20,4 +20,4 @@ char firstUniqChar(char* s){
     }
     return " ";
 }
-```
+// ```

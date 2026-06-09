@@ -1,11 +1,11 @@
-### 解题思路
-直接if……else……虽然代码不是很好看，但是执行效率还行
-![image.png](https://pic.leetcode-cn.com/129b2e55beff6881c3171914b04741d896beafcf67cc4f71a15a201ea7ac7b4c-image.png)
+// ### 解题思路
+// 直接if……else……虽然代码不是很好看，但是执行效率还行
+// ![image.png](https://pic.leetcode-cn.com/129b2e55beff6881c3171914b04741d896beafcf67cc4f71a15a201ea7ac7b4c-image.png)
 
-也可以直接用vector<pair<int, string>>来存储字符和数字之间的关系，这样代码更好看
-### 代码
+// 也可以直接用vector<pair<int, string>>来存储字符和数字之间的关系，这样代码更好看
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution
 {
 public:
@@ -106,4 +106,4 @@ public:
         return str;
     }
 };
-```
+// ```

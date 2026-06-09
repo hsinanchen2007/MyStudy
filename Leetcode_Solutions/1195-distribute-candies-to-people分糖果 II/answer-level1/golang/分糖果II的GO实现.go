@@ -1,6 +1,6 @@
-时间复杂度O（N）
-空间复杂度O（1）
-```
+// 时间复杂度O（N）
+// 空间复杂度O（1）
+// ```
 func distributeCandies(candies int, num_people int) []int {
 	i := 1
 	result := make([]int, num_people)
@@ -22,4 +22,4 @@ func distributeCandies(candies int, num_people int) []int {
 	}
 	return result
 }
-```
+// ```

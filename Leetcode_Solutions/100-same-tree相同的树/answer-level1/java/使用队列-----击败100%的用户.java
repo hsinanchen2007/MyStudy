@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-广度优先处理方式，使用队列，来处理，每次取出一个节点，都在队列后面放入其左子节点和右子节点（支持NULL）
+// 广度优先处理方式，使用队列，来处理，每次取出一个节点，都在队列后面放入其左子节点和右子节点（支持NULL）
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -57,4 +57,4 @@ class Solution {
         return pList.isEmpty() && qList.isEmpty();
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-# 思路：
-1）创建格外的递归方程，其中包含递归过nodes值的和的指针
-2）并且在递归过程中逐渐重写每一个node的数值（其实就是 常规 BSTtraverse 递归的通用的模板）
+// # 思路：
+// 1）创建格外的递归方程，其中包含递归过nodes值的和的指针
+// 2）并且在递归过程中逐渐重写每一个node的数值（其实就是 常规 BSTtraverse 递归的通用的模板）
 
-# 代码：
-```
+// # 代码：
+// ```
 struct TreeNode* privatebstToGst(struct TreeNode* root, int *total_value){
    if(root == NULL) {
        return NULL;
@@ -20,4 +20,4 @@ struct TreeNode* bstToGst(struct TreeNode* root){
     return privatebstToGst(root, &total_value);
 }
 
-```
+// ```

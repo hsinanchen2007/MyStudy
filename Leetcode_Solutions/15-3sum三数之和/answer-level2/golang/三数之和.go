@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import(
     "sort"
 )
@@ -91,4 +91,4 @@ func getIndex(arr []int, low, high int) int {
     }
     return low
 }
-```
+// ```

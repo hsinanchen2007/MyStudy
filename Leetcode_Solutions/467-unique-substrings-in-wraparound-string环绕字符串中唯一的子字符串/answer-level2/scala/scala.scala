@@ -1,4 +1,4 @@
-```scala_1 []
+// ```scala_1 []
 object Solution {
     def findSubstringInWraproundString(p: String): Int = {
         val dp = Array.fill(p.length)(0)
@@ -12,8 +12,8 @@ object Solution {
         ('a' to 'z') filter fre.contains map fre sum
     }
 }
-```
-```scala_2 []
+// ```
+// ```scala_2 []
 object Solution {
     def findSubstringInWraproundString(p: String): Int = {
         val dp = Array.fill(p.length)(0)
@@ -27,5 +27,5 @@ object Solution {
         fre.sum
     }
 }
-```
+// ```
 

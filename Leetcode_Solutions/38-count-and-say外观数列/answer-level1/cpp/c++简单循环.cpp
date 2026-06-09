@@ -1,4 +1,4 @@
-```cpp [cpp]
+// ```cpp [cpp]
 class Solution {
 public:
     string countAndSay(int n) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

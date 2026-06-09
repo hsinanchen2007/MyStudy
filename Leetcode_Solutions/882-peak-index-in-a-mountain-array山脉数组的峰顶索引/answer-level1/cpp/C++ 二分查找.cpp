@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int peakIndexInMountainArray(vector<int>& A) {
@@ -12,4 +12,4 @@ public:
         return l;
     }
 };
-```
+// ```

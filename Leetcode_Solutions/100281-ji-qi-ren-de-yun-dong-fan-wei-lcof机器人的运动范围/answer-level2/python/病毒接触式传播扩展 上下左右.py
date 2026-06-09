@@ -1,9 +1,9 @@
-### 解题思路
-病毒接触式传播扩展 上下左右
+# ### 解题思路
+# 病毒接触式传播扩展 上下左右
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         def f(i,j,s,m,n,k):
@@ -20,4 +20,4 @@ class Solution:
             f(i,j+1,s,m,n,k)
             f(i,j-1,s,m,n,k)
         return len(s)
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![大致思路.png](https://pic.leetcode-cn.com/168d8441147d723053a3694b8d39ed8f2b8fc26309bcbfe1cec586992f59b81d-%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6.png)
+// ![大致思路.png](https://pic.leetcode-cn.com/168d8441147d723053a3694b8d39ed8f2b8fc26309bcbfe1cec586992f59b81d-%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public List<List<Integer>> subsets(int[] nums) {
         //结果集合
@@ -23,4 +23,4 @@ class Solution {
         }
     }
 }
-```
+// ```

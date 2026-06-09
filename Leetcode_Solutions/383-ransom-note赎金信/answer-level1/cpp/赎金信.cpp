@@ -1,5 +1,5 @@
-**用两个map分别保存两个字符串中的每个字符及其出现次数，然后比较即可。**
-```cpp
+// **用两个map分别保存两个字符串中的每个字符及其出现次数，然后比较即可。**
+// ```cpp
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
@@ -27,4 +27,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-看到括号配对的就想到栈 写了个笨方法分享下
+// 看到括号配对的就想到栈 写了个笨方法分享下
 class Solution {
     public int longestValidParentheses(String s) {
         Stack<Character> ss= new Stack<Character>();

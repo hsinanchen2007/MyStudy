@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool hashTable[10001] = {false};
@@ -47,4 +47,4 @@ public:
         }
     }
 };
-```
+// ```

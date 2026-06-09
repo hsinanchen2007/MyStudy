@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import heapq
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
@@ -19,4 +19,4 @@ class Solution:
                 return _quick_sort(less) + middle +  _quick_sort(greater)      
         res = _quick_sort(arr)
         return res[:k]
-```
+# ```

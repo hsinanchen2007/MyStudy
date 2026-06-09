@@ -1,6 +1,6 @@
-![2019-10-16_11-12.png](https://pic.leetcode-cn.com/2383e6255be1038edae73ea59b88b4edc28a24de13efc20db153c37ca15d0de0-2019-10-16_11-12.png)
+// ![2019-10-16_11-12.png](https://pic.leetcode-cn.com/2383e6255be1038edae73ea59b88b4edc28a24de13efc20db153c37ca15d0de0-2019-10-16_11-12.png)
 
-```c
+// ```c
 void merge(int * nums, int * tmp, int leftStart, int rightStart, int rightEnd, int reverse) {
     int cur = leftStart;
     int leftEnd = rightStart - 1;
@@ -111,4 +111,4 @@ int** combinationSum2(int* candidates, int candidatesSize, int target, int* retu
 
     return ret;
 }
-```
+// ```

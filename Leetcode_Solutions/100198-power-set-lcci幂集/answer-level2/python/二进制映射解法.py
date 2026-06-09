@@ -1,6 +1,6 @@
-Python3 双百，这是一个不用回溯和深搜的解决方案，用一个二进制数字i去模拟所有可能的二进制取和不取的情况。因为遍历是二进制顺序连续的，所以只要比较当前的result和上一个result是否相同就行了。
-详见注释
-```python
+# Python3 双百，这是一个不用回溯和深搜的解决方案，用一个二进制数字i去模拟所有可能的二进制取和不取的情况。因为遍历是二进制顺序连续的，所以只要比较当前的result和上一个result是否相同就行了。
+# 详见注释
+# ```python
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
@@ -17,4 +17,4 @@ class Solution:
             if not result or this_result != result[-1]:
                 result.append(this_result)
         return result
-```
+# ```

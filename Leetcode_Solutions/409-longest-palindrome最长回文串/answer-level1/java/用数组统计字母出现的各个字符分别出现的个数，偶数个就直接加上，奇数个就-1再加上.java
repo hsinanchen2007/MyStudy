@@ -1,4 +1,4 @@
-```
+// ```
 public int longestPalindrome(String s) {
          int res = 0;
         int[] sum = new int[100];
@@ -20,4 +20,4 @@ public int longestPalindrome(String s) {
         return res==str.length?res:res+1;
         
     }
-```
+// ```

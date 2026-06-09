@@ -1,10 +1,10 @@
-### 解题思路
-将奇数压入栈a,
-偶数压入栈b
-再合并
-### 代码
+// ### 解题思路
+// 将奇数压入栈a,
+// 偶数压入栈b
+// 再合并
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> exchange(vector<int>& nums) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

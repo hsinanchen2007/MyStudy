@@ -1,12 +1,12 @@
-### 解题思路
-判定条件弄清楚就好。
-用栈模拟“向上一级”的操作。
+// ### 解题思路
+// 判定条件弄清楚就好。
+// 用栈模拟“向上一级”的操作。
 
-![image.png](https://pic.leetcode-cn.com/9ae978345e58b2e70550058a31024777bdeb5c98d9ff615de553bb39bca35040-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9ae978345e58b2e70550058a31024777bdeb5c98d9ff615de553bb39bca35040-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string simplifyPath(string path) {
@@ -52,4 +52,4 @@ public:
         return tmp;
     }
 };
-```
+// ```

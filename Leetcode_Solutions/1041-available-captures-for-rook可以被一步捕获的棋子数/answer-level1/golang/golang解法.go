@@ -1,9 +1,9 @@
-### 解题思路
-...
+// ### 解题思路
+// ...
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numRookCaptures(board [][]byte) int {
     boardLength := 8
     var row, col, ret int
@@ -56,4 +56,4 @@ func numRookCaptures(board [][]byte) int {
 
     return ret
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     /// <summary>
     /// 找到R之前先标记每个出现过的B或p，减少遍历次数
@@ -58,4 +58,4 @@ public class Solution {
         return ans;
     }
 }
-```
+// ```

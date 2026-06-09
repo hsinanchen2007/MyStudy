@@ -1,22 +1,22 @@
-# 解法1：位图
-## 算法描述
-维护一个点亮的灯的位图，和一个左开又闭区间\[start，end)。
-每次有一个新灯泡点亮时：
-* 设置灯泡所在位置的bit。
-* 更新end：end = max(end, light[i])
-测试\[start, end)中的灯是否全部点亮，
-若点亮，则结果+1。由于已变蓝的灯不需要再考虑，所以把start更新为end的值。
+// # 解法1：位图
+// ## 算法描述
+// 维护一个点亮的灯的位图，和一个左开又闭区间\[start，end)。
+// 每次有一个新灯泡点亮时：
+// * 设置灯泡所在位置的bit。
+// * 更新end：end = max(end, light[i])
+// 测试\[start, end)中的灯是否全部点亮，
+// 若点亮，则结果+1。由于已变蓝的灯不需要再考虑，所以把start更新为end的值。
 
-## 复杂度分析
-令灯数量为n：
-时间复杂度：O（n^2）
-空间复杂度：O（n）
+// ## 复杂度分析
+// 令灯数量为n：
+// 时间复杂度：O（n^2）
+// 空间复杂度：O（n）
 
-## 提交结果
-通过
+// ## 提交结果
+// 通过
 
-## 参考代码
-```
+// ## 参考代码
+// ```
 void bitmap_set(unsigned int *bmp, int pos) {
     unsigned int i = pos / 32;
     unsigned int b = pos % 32;
@@ -60,4 +60,4 @@ int numTimesAllBlue(int* light, int lightSize){
 
     return result;
 }
-```
+// ```

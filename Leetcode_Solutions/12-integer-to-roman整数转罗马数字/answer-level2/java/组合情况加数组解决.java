@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String intToRoman(int num) {
 	int[] number={1,4,5,9,10,40,50,90,100,400,500,900,1000};
@@ -22,8 +22,8 @@ class Solution {
 	return code.toString();
     }
 }
-```
-我是先把组合情况列出来，再进行减值计算.
-//	用StringBuilder来应对字符串的连接时比较提高性能，因为String反编译的时候也是转换成stringbuilder
+// ```
+// 我是先把组合情况列出来，再进行减值计算.
+// //	用StringBuilder来应对字符串的连接时比较提高性能，因为String反编译的时候也是转换成stringbuilder
 
 

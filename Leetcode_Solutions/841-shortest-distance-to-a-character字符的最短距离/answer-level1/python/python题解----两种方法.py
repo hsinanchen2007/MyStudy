@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def shortestToChar(self, S, C):
         """
@@ -33,4 +33,4 @@ class Solution(object):
                 prev = i
             ans[i] = min(ans[i], prev-i)
         return ans
-```
+# ```

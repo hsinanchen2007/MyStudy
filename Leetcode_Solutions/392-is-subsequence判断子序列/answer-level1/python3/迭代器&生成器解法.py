@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isSubsequenceFast(self, s: str, t: str) -> bool:
         # 迭代器保证t的顺序
@@ -13,4 +13,4 @@ class Solution:
         b = iter(t) 
         # all: 均为True返回True
         return all(w in b for w in s)
-```
+# ```

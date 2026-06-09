@@ -1,9 +1,9 @@
-### 解题思路
-创建一个 map 来存放所有的数组元素，如果 nums[i] 跟 target-nums[i] 均存在该 map 中，则返回这两个数
+// ### 解题思路
+// 创建一个 map 来存放所有的数组元素，如果 nums[i] 跟 target-nums[i] 均存在该 map 中，则返回这两个数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func twoSum(nums []int, target int) []int {
 	var cases = make(map[int]int)
 	for _, v := range nums {
@@ -24,4 +24,4 @@ func twoSum(nums []int, target int) []int {
 	}
 	return r
 }
-```
+// ```

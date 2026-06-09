@@ -1,4 +1,4 @@
-```js
+// ```js
 var removeNthFromEnd = function(head, n) {
     let arr = []
     let cur = head
@@ -10,5 +10,5 @@ var removeNthFromEnd = function(head, n) {
     delNode ? (delNode.next = delNode.next.next) : (head = head.next ) //删除操作
     return head
 };
-```
+// ```
 

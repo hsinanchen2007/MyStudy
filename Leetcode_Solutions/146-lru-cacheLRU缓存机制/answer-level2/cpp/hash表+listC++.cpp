@@ -1,10 +1,10 @@
-### 解题思路
-关键是要知道用hash里要存：key->list中某元素的iterator
-别忘了list中的位置更新后要重新获取iterator（通常在头部）存放在hash里。
+// ### 解题思路
+// 关键是要知道用hash里要存：key->list中某元素的iterator
+// 别忘了list中的位置更新后要重新获取iterator（通常在头部）存放在hash里。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class LRUCache {
 public:
     LRUCache(int capacity) {
@@ -65,6 +65,6 @@ private:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```
 
-![微信图片_20200112143833.png](https://pic.leetcode-cn.com/33e3f47cf2532b53e37582c6d044e542e0950f77f574a98a61f1f82ea76219d6-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200112143833.png)
+// ![微信图片_20200112143833.png](https://pic.leetcode-cn.com/33e3f47cf2532b53e37582c6d044e542e0950f77f574a98a61f1f82ea76219d6-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200112143833.png)

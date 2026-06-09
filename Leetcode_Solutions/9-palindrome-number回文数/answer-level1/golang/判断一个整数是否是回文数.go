@@ -1,7 +1,7 @@
-### 思路
-将数字转化成字节数组，然后数组元素低位和高位一一比对
-### 完整代码
-```
+// ### 思路
+// 将数字转化成字节数组，然后数组元素低位和高位一一比对
+// ### 完整代码
+// ```
 	smallsString := "00010203040506070809" +
 		"10111213141516171819" +
 		"20212223242526272829" +
@@ -47,6 +47,6 @@
 		end--
 	}
 	return true
-```
-### 执行结果
-![image.png](https://pic.leetcode-cn.com/9b5f5630eab5b0e49e4d7f21be4bb81fd9b624f07ed9e5c65a756e4432d94c12-image.png)
+// ```
+// ### 执行结果
+// ![image.png](https://pic.leetcode-cn.com/9b5f5630eab5b0e49e4d7f21be4bb81fd9b624f07ed9e5c65a756e4432d94c12-image.png)

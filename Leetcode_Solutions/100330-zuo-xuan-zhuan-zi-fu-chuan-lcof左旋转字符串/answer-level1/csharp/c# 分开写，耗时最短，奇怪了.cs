@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public string ReverseLeftWords(string s, int n) {
         string s1 =s.Substring(0,n);
@@ -6,4 +6,4 @@ public class Solution {
         return s+s1;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```rust 
+// ```rust 
 use std::collections::{BinaryHeap};
 use std::cmp::Reverse;
 impl Solution {
@@ -18,6 +18,6 @@ impl Solution {
         }
     }
 }
-```
+// ```
 
-使用std::cmp::Reverse来将默认的大堆转换成小堆
+// 使用std::cmp::Reverse来将默认的大堆转换成小堆

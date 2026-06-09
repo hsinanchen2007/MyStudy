@@ -1,5 +1,5 @@
-- 从后往前移位，当前要移位的次数等于当前值加前一个值
-``` C++
+// - 从后往前移位，当前要移位的次数等于当前值加前一个值
+// ``` C++
 class Solution {
 public:
     string shiftingLetters(string S, vector<int>& shifts) {
@@ -17,4 +17,4 @@ public:
         return S;
     }
 };
-```
+// ```

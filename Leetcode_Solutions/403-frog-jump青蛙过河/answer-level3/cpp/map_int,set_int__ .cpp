@@ -1,5 +1,5 @@
-到达stones[i]时走的步数k存储在set<int>中，讨论在i位置上的所有可能往后走的情况，如果最后stones[n-1]上可到达的种类数>1，返回true
-```
+// 到达stones[i]时走的步数k存储在set<int>中，讨论在i位置上的所有可能往后走的情况，如果最后stones[n-1]上可到达的种类数>1，返回true
+// ```
 
 class Solution {
 public:
@@ -29,4 +29,4 @@ public:
         return m[n-1].size()>0; //说明可到达stones[n-1]位置
     }
 };
-```
+// ```

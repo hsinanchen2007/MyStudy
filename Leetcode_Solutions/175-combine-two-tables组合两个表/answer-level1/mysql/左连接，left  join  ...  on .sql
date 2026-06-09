@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select p.FirstName,p.LastName,a.City,a.State
 from
 person p left join address a
 on p.personid=a.personid
 
-```
+-- ```

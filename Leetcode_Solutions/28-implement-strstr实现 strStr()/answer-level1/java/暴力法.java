@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int strStr(String haystack, String needle) {
         if( needle == null || needle.length() == 0)
@@ -21,4 +21,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

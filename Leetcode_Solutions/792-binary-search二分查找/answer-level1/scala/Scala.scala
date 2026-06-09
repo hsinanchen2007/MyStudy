@@ -1,9 +1,9 @@
-### 解题思路
-没忍住
+// ### 解题思路
+// 没忍住
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def search(nums: Array[Int], target: Int): Int = {
      if (nums.contains(target))
@@ -11,4 +11,4 @@ object Solution {
     -1   
     }
 }
-```
+// ```

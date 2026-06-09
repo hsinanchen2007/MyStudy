@@ -1,10 +1,10 @@
-### 解题思路
-抄的前面大哥的，但有一些细节可以学习：
-1. “*returnSize++”这种是错误的写法，需要(*returnSize)++ 这样才可以
+// ### 解题思路
+// 抄的前面大哥的，但有一些细节可以学习：
+// 1. “*returnSize++”这种是错误的写法，需要(*returnSize)++ 这样才可以
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -88,4 +88,4 @@ int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes
 
     return ret;
 }
-```
+// ```

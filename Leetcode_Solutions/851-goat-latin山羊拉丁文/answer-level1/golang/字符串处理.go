@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func toGoatLatin(S string) string {
 	str:=strings.Split(S," ")
 	res:=make([]string,0, len(str))
@@ -35,4 +35,4 @@ func toGoatLatin(S string) string {
 	}
 	return strings.TrimSpace(x)
 }
-```
+// ```

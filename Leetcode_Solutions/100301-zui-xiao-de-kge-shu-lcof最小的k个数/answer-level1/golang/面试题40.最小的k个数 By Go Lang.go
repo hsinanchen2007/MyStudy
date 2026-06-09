@@ -1,12 +1,12 @@
-### 解题思路
-Top-K问题。
-不用排序，用Quick Select方法解决。
-时间复杂度O(N)
-空间复杂度O(1)
+// ### 解题思路
+// Top-K问题。
+// 不用排序，用Quick Select方法解决。
+// 时间复杂度O(N)
+// 空间复杂度O(1)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func getLeastNumbers(arr []int, k int) []int {
 	if k >= len(arr) {
 		return arr
@@ -50,4 +50,4 @@ func getLeastNumbers(arr []int, k int) []int {
 	return arr[0:k]
 }
 
-```
+// ```

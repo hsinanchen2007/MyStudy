@@ -1,6 +1,6 @@
-方法1：二分查找
+// 方法1：二分查找
 
-```
+// ```
 int searchInsert(int* nums, int numsSize, int target){
     int l = 0, r = numsSize - 1, m;
 
@@ -16,11 +16,11 @@ int searchInsert(int* nums, int numsSize, int target){
     return l;
 }
 
-```
+// ```
 
-方法2：双指针
+// 方法2：双指针
 
-```
+// ```
 int searchInsert(int* nums, int numsSize, int target){
     int l = 0, r = numsSize - 1;
     while (l <= r){
@@ -35,10 +35,10 @@ int searchInsert(int* nums, int numsSize, int target){
     }
     return l;
 }
-```
-方法3：直接遍历
+// ```
+// 方法3：直接遍历
 
-```
+// ```
 int searchInsert(int* nums, int numsSize, int target){
     for (int i = 0; i < numsSize; i++){
         if (nums[i] >= target)
@@ -46,9 +46,9 @@ int searchInsert(int* nums, int numsSize, int target){
     }
     return numsSize;
 }
-```
+// ```
 
-```
+// ```
 int searchInsert(int* nums, int numsSize, int target){
     int i;
     if (numsSize == 0 || nums == NULL || target <= nums[0])
@@ -60,6 +60,6 @@ int searchInsert(int* nums, int numsSize, int target){
     return i;
 }
 
-```
+// ```
 
 

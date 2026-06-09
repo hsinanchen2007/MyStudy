@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_SIZE 1000
 int maxCoins(int* nums, int numsSize){
     if (numsSize == 0) {
@@ -21,4 +21,4 @@ int maxCoins(int* nums, int numsSize){
     }
     return dp[0][size - 1];    
 }
-```
+// ```

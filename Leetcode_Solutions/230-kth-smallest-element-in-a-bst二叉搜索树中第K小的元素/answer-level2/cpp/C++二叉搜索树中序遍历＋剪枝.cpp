@@ -1,5 +1,5 @@
-时间、空间击败90%+
-```
+// 时间、空间击败90%+
+// ```
 class Solution {
 private:
     void p(TreeNode *root, int k, int &res, int &size){
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

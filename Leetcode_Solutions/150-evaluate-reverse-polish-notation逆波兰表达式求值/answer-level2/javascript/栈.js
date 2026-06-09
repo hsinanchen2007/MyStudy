@@ -1,4 +1,4 @@
-```js
+// ```js
 var evalRPN = function(tokens) {
     // 遍历数组, 遇到数值压栈, 遇到运算符连续出栈两次, 将计算结果入栈
     const stack = [];
@@ -33,4 +33,4 @@ function calc(action, a, b) {
             return b + a;
     }
 }
-```
+// ```

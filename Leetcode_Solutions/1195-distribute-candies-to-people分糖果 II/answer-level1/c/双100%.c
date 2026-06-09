@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/16afd4a619c3771676d834e004a76b974a7f2fd91b802a1ffda37df478d28e4d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/16afd4a619c3771676d834e004a76b974a7f2fd91b802a1ffda37df478d28e4d-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -30,4 +30,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
     *returnSize = num_people;
     return cand;
 }
-```
+// ```

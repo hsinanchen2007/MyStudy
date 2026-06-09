@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/c4c5604c796ba998f519ecd017b0baee4be32ba38bfd813f1057d6f1c2ff5f14-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c4c5604c796ba998f519ecd017b0baee4be32ba38bfd813f1057d6f1c2ff5f14-image.png)
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
@@ -19,5 +19,5 @@ public:
         return tempLast;
     }
 };
-```
+// ```
 

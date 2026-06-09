@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def permutation(self, S: str) -> List[str]:
         if len(S) == 1:
@@ -12,4 +12,4 @@ class Solution:
             count[ch] += 1
             ans.extend([ch + sub for sub in res])
         return sorted(ans)
-```
+# ```

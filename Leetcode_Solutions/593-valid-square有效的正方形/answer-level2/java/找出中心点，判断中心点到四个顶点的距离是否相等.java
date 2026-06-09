@@ -1,12 +1,12 @@
-### 解题思路
-1. 如果四个点中有相同的点，返回false;
-2. 找出对角线两个点
-3. 求出中心点
-4. 判断中心点到四个顶点的距离是否相等
+// ### 解题思路
+// 1. 如果四个点中有相同的点，返回false;
+// 2. 找出对角线两个点
+// 3. 求出中心点
+// 4. 判断中心点到四个顶点的距离是否相等
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean validSquare(int[] p1, int[] p2, int[] p3, int[] p4) {
         if(isSame(p1, p2) || isSame(p1, p3) || isSame(p1, p4) || isSame(p2, p3) || isSame(p3, p4)){
@@ -48,4 +48,4 @@ class Solution {
         return p[0] == t[0] && p[1] == t[1];
     }
 }
-```
+// ```

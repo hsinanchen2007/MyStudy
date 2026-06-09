@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func alienOrder(words []string) string {
 	// 边列表
 	edges := make([][]byte, 0, 4)
@@ -115,4 +115,4 @@ func max(a, b int) int {
 
 	return b
 }
-```
+// ```

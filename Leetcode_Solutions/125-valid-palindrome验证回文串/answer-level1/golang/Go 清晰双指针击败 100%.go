@@ -1,6 +1,6 @@
-双指针解法，时间复杂度： O（n），空间复杂度：O（1）。
+// 双指针解法，时间复杂度： O（n），空间复杂度：O（1）。
 
-```go
+// ```go
 func isPalindrome(s string) bool {
 	// 判断是否是需要比较的合法回文字符,
 	// 题目说空格是合法的回文字符很误导人, 其实这个地方需要排除空格
@@ -30,4 +30,4 @@ func isPalindrome(s string) bool {
 	return true
 }
 
-```
+// ```

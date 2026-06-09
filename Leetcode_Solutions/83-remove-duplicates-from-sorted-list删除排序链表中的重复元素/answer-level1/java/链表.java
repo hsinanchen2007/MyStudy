@@ -1,9 +1,9 @@
-### 解题思路
-时刻要注意fast.next == null 的问题。
+// ### 解题思路
+// 时刻要注意fast.next == null 的问题。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-质数有m个，非质数有n个,结果为m!*n!
-注意：**计算阶乘int 型会溢出 用long long int
-      **不要用科学计数法表示
+// ### 解题思路
+// 质数有m个，非质数有n个,结果为m!*n!
+// 注意：**计算阶乘int 型会溢出 用long long int
+//       **不要用科学计数法表示
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 const long long int m=1000000007;
 int prime(int n){
     if(n==1)return 0;
@@ -23,4 +23,4 @@ int numPrimeArrangements(int n){
         for(i=1;i<=p;i++)jp=(jp*i)%m;
         return (jp*jq)%m;
 }
-```
+// ```

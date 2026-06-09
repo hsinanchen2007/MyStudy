@@ -1,5 +1,5 @@
-![微信截图_20191022112547.png](https://pic.leetcode-cn.com/27f8b2fc49cc5e939e68d7458eb82c3d6d14f1c3242d1125b7bebd892062e63c-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191022112547.png)
-```
+// ![微信截图_20191022112547.png](https://pic.leetcode-cn.com/27f8b2fc49cc5e939e68d7458eb82c3d6d14f1c3242d1125b7bebd892062e63c-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191022112547.png)
+// ```
 public static TreeNode str2tree(String s) {
        if(s==null||s.length()==0){
            return null;
@@ -43,4 +43,4 @@ public static TreeNode str2tree(String s) {
         }
         return index;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-假设我们开始将指针指向矩阵的左下角，那么当前元素比target大的时候,row-1,比target小的时候column+1,如此反复直到指针失效。
+// ### 解题思路
+// 假设我们开始将指针指向矩阵的左下角，那么当前元素比target大的时候,row-1,比target小的时候column+1,如此反复直到指针失效。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public boolean searchMatrix(int[][] matrix, int target) {
         if(matrix==null){
@@ -29,4 +29,4 @@ class Solution {
        return false;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-因为是有序数组，所以解题思路就是二分。
-有一点需要注意
+// ### 解题思路
+// 因为是有序数组，所以解题思路就是二分。
+// 有一点需要注意
 
-1. 题中没说如果数组中所有字母都比目标小如何处理，答案是返回数组中的第一个元素
+// 1. 题中没说如果数组中所有字母都比目标小如何处理，答案是返回数组中的第一个元素
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[]} letters
  * @param {character} target
@@ -26,4 +26,4 @@ var nextGreatestLetter = function(letters, target) {
     }
     return low>=letters.length?letters[0]:letters[low]
 };
-```
+// ```

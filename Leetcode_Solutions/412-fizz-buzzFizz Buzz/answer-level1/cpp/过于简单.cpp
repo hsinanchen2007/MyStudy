@@ -1,9 +1,9 @@
-### 解题思路
-过于简单
+// ### 解题思路
+// 过于简单
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> fizzBuzz(int n) {
@@ -18,4 +18,4 @@ public:
         return s;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 从左到右，找到最后一个比其左边的最大值要小的元素`array[y]`，如果没有的话说明整个序列是有序的，返回`[-1,-1]`
-2. 从右到左，找到最后一个比其右边的最小值要小的元素`array[x]`，返回`[x, y]`
+# ### 解题思路
+# 1. 从左到右，找到最后一个比其左边的最大值要小的元素`array[y]`，如果没有的话说明整个序列是有序的，返回`[-1,-1]`
+# 2. 从右到左，找到最后一个比其右边的最小值要小的元素`array[x]`，返回`[x, y]`
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subSort(self, array: List[int]) -> List[int]:
         n = len(array)
@@ -26,4 +26,4 @@ class Solution:
             else: 
                 minv = array[j]
         return [x, y]
-```
+# ```

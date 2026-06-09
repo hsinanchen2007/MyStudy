@@ -1,7 +1,7 @@
 
-click here to view code ^^
+// click here to view code ^^
 
-```
+// ```
 
 #define min(a, b) (a < b ? a : b)
 
@@ -51,4 +51,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
   return ret;
 }
 
-```
+// ```

@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/f86e637377d0fa521b83f021536de202f67b43c1a8f0a286634afd4e21180abb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f86e637377d0fa521b83f021536de202f67b43c1a8f0a286634afd4e21180abb-image.png)
 
-### 用高度为-1来标志发现了不平衡
-由于二叉树的高度不可能是-1，因此可以使用计算高度的函数：
-    1. 发现不平衡则返回-1.
-    2. 没有发现不平衡则返回子树高度。
+// ### 用高度为-1来标志发现了不平衡
+// 由于二叉树的高度不可能是-1，因此可以使用计算高度的函数：
+//     1. 发现不平衡则返回-1.
+//     2. 没有发现不平衡则返回子树高度。
 
-我们的辅助函数有两个作用，一个是计算高度，一个是发现不平衡。因此命名为countHeightAndFindNoBalance。
-### 代码
+// 我们的辅助函数有两个作用，一个是计算高度，一个是发现不平衡。因此命名为countHeightAndFindNoBalance。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -45,4 +45,4 @@ public:
     }
     
 };
-```
+// ```

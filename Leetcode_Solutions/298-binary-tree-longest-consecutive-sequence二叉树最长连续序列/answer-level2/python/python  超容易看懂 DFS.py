@@ -1,12 +1,12 @@
-### 解题思路
-# 如果有左右子树，两种情况 ：
-* 如果是连续递增就更新一下最长路径
-* 如果不是连续递增就重置当前的路径长度
+# ### 解题思路
+# # 如果有左右子树，两种情况 ：
+# * 如果是连续递增就更新一下最长路径
+# * 如果不是连续递增就重置当前的路径长度
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -41,4 +41,4 @@ class Solution:
         return self.res
 
         
-```
+# ```

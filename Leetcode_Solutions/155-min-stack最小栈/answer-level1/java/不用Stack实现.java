@@ -1,6 +1,6 @@
-使用链表实现栈，在pop的时候，再去寻找最小值
+// 使用链表实现栈，在pop的时候，再去寻找最小值
 
-```
+// ```
 public class MinStack {
 
 	private Node top = null;
@@ -66,4 +66,4 @@ class Node {
 		this.prev = prev;
 	}
 }
-```
+// ```

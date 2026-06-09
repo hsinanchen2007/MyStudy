@@ -1,17 +1,17 @@
-1. 此题与83题的区别
-     - 83题要求删除重复的节点，但是保存重复节点中的一个
-     - 此题对重复节点进行全部删除
-     - 因此可以借鉴下，采用双指针（快慢指针）但是快慢指针的概念上可能稍有区别
+// 1. 此题与83题的区别
+//      - 83题要求删除重复的节点，但是保存重复节点中的一个
+//      - 此题对重复节点进行全部删除
+//      - 因此可以借鉴下，采用双指针（快慢指针）但是快慢指针的概念上可能稍有区别
 
 
-1. 为了方便 输出最终的删除的链表可以定义一个虚拟 指针指向链表的头部`  ListNode virtual = new ListNode(-1);virtual.next=head;`
-2. 定义`pre`指针指向已经处理过链表的尾部，`ListNode pre = virtual;`
-3. 定义`cur`指针指向尚未进行处理链表的第一个元素，` ListNode cur = head;`
-4. 通过cur遍历整个链表，若发现重复元素则不断移动`cur`，直到`cur`走到这个重复元素的尾部。将`pre`指向`cur.next`即可
-![image.png](https://pic.leetcode-cn.com/a8353f03cc85195ef97e3bda8eac68bb0aa97c74948f9cd45e84e9b9a89518f2-image.png)
+// 1. 为了方便 输出最终的删除的链表可以定义一个虚拟 指针指向链表的头部`  ListNode virtual = new ListNode(-1);virtual.next=head;`
+// 2. 定义`pre`指针指向已经处理过链表的尾部，`ListNode pre = virtual;`
+// 3. 定义`cur`指针指向尚未进行处理链表的第一个元素，` ListNode cur = head;`
+// 4. 通过cur遍历整个链表，若发现重复元素则不断移动`cur`，直到`cur`走到这个重复元素的尾部。将`pre`指向`cur.next`即可
+// ![image.png](https://pic.leetcode-cn.com/a8353f03cc85195ef97e3bda8eac68bb0aa97c74948f9cd45e84e9b9a89518f2-image.png)
 
 
-```
+// ```
  //将重复的元素全部删除
     public ListNode deleteDuplicates(ListNode head) {
 
@@ -49,4 +49,4 @@
         //这里就体现了虚拟指针的好处啦
         return virtual.next;
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void deleteNode(ListNode* node) {
@@ -6,4 +6,4 @@ public:
         node->next = node->next->next;
     }
 };
-```
+// ```

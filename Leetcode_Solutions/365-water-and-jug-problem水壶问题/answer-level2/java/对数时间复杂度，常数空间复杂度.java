@@ -1,9 +1,9 @@
-### 解题思路
-贝祖定理
+// ### 解题思路
+// 贝祖定理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if(z > x + y) {
@@ -19,4 +19,4 @@ class Solution {
         return z % x == 0;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type Codec struct {
     cache map[string]string
     count int
@@ -57,4 +57,4 @@ func (this *Codec) trans() string {
  * url := obj.encode(longUrl);
  * ans := obj.decode(url);
  */
-```
+// ```

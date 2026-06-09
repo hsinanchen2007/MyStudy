@@ -1,5 +1,5 @@
-暴力解法。
-```
+// 暴力解法。
+// ```
 class Solution {
     public String shortestSuperstring(String[] A) {
         String str = "";
@@ -90,4 +90,4 @@ class Solution {
         }
     }
 }
-```
+// ```

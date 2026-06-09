@@ -1,4 +1,4 @@
-```
+// ```
 //排序之后双指针进行窗口移动。
 int maxValue(int a, int b) 
 {
@@ -26,4 +26,4 @@ int findLHS(int* nums, int numsSize){
     }
     return res;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-java
+// ### 解题思路
+// java
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseParentheses(String s) {
         Stack<Character> in = new Stack<>();
@@ -20,4 +20,4 @@ class Solution {
         return sb.reverse().toString();
     }
 }
-```
+// ```

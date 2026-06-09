@@ -1,9 +1,9 @@
-### 解题思路
-手写快速排序
+// ### 解题思路
+// 手写快速排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -51,4 +51,4 @@ public:
         QuickSort(a,high+1,last);
     }
 };
-```
+// ```

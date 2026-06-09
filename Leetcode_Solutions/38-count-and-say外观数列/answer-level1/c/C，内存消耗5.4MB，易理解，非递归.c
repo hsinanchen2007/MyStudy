@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * countAndSay(int n){
     if(n==1)
         return "1";
@@ -29,4 +29,4 @@ char * countAndSay(int n){
     return p;
 }
 
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-注意返回的是res->next 并非res
-### 代码
+// ### 解题思路
+// 注意返回的是res->next 并非res
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
         return res->next;
     }
 };
-```
+// ```

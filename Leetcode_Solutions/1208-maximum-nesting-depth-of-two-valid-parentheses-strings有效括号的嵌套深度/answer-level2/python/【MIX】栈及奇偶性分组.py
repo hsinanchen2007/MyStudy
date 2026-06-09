@@ -1,11 +1,11 @@
-### 解题思路
-1. 括号压栈, 如果出现()匹配则出栈
-2. 记录括号的嵌套深度, 元素所在栈的高度
-3. 嵌套深度相同的括号编为一组
+# ### 解题思路
+# 1. 括号压栈, 如果出现()匹配则出栈
+# 2. 记录括号的嵌套深度, 元素所在栈的高度
+# 3. 嵌套深度相同的括号编为一组
 
-### 代码
+# ### 代码
 
-```c++ []
+# ```c++ []
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
@@ -28,8 +28,8 @@ public:
         return res;
     }
 };
-```
-```java []
+# ```
+# ```java []
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         int N = seq.length();
@@ -50,8 +50,8 @@ class Solution {
         return res;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def maxDepthAfterSplit(self, seq: str) -> List[int]:
         res = []
@@ -65,4 +65,4 @@ class Solution:
                 st.pop(-1)
 
         return res
-```
+# ```

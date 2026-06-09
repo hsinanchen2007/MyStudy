@@ -1,4 +1,4 @@
-```rust
+// ```rust
     pub fn is_valid(s: String) -> bool {
 		let s = s.as_bytes().iter();
 		let mut stack = vec![];
@@ -21,4 +21,4 @@
 		}
 		stack.len() == 0
 	}
-```
+// ```

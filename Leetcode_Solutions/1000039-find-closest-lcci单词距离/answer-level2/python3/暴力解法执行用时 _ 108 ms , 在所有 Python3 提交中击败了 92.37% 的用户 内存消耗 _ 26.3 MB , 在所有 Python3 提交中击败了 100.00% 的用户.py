@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findClosest(self, words: List[str], word1: str, word2: str) -> int:
         i1,i2 = [],[]
@@ -18,4 +18,4 @@ class Solution:
                 if abs(j1-j2)<min:
                     min =  abs(j1-j2)
         return min
-```
+# ```

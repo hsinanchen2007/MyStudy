@@ -1,9 +1,9 @@
-### 解题思路
-二分法获取要插入的索引位置，然后插入元素，所以addnum的时间复杂度为O(n)+O(logn);
+// ### 解题思路
+// 二分法获取要插入的索引位置，然后插入元素，所以addnum的时间复杂度为O(n)+O(logn);
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MedianFinder {
     List<Integer> list;
     /** initialize your data structure here. */
@@ -42,4 +42,4 @@ class MedianFinder {
  * obj.addNum(num);
  * double param_2 = obj.findMedian();
  */
-```
+// ```

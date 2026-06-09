@@ -1,9 +1,9 @@
-### 解题思路
-优先队列
+// ### 解题思路
+// 优先队列
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MedianFinder {
 public:
     /** initialize your data structure here. */
@@ -41,4 +41,4 @@ private:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
-```
+// ```

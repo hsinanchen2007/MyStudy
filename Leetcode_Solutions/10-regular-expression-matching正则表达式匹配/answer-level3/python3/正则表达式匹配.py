@@ -1,4 +1,4 @@
-没有运用算法方面的知识~
+# 没有运用算法方面的知识~
 import re
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:

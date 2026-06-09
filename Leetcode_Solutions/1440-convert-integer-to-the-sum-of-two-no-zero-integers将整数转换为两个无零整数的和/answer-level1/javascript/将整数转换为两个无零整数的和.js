@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-遍历找出两个数和为 `n`，并且都不包含 `0` 的数。
+// 遍历找出两个数和为 `n`，并且都不包含 `0` 的数。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number[]}
@@ -17,4 +17,4 @@ var getNoZeroIntegers = function(n) {
         }
     }
 };
-```
+// ```

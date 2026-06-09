@@ -1,6 +1,6 @@
 
-![image.png](https://pic.leetcode-cn.com/5ba9f966f58203c874de9e359c29b292fae766673c915c7c79cad0e1a2b34e5c-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/5ba9f966f58203c874de9e359c29b292fae766673c915c7c79cad0e1a2b34e5c-image.png)
+// ```
 struct __TTListNode {
      int val;
      int count=0;
@@ -45,4 +45,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-### 解题思路
-用calendar
-```python3
+# ### 解题思路
+# 用calendar
+# ```python3
 import calendar
 class Solution:
     def dayOfYear(self, date: str) -> int:
@@ -21,11 +21,11 @@ class Solution:
             sum = sum + d;
         print(sum)
         return sum
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import calendar
 class Solution:
     def dayOfYear(self, date: str) -> int:
@@ -46,4 +46,4 @@ class Solution:
             sum = sum + d;
         print(sum)
         return sum
-```
+# ```

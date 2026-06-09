@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def matrixReshape(self, nums: List[List[int]], r: int, c: int) -> List[List[int]]:
         if r*c != len(nums)*len(nums[0]):
@@ -20,4 +20,4 @@ class Solution:
             result.append(row)
                 
         return result
-```
+# ```

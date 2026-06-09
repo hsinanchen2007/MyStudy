@@ -1,6 +1,6 @@
-执行用时 :36 ms, 在所有 C++ 提交中击败了54.68%的用户
-内存消耗 :12.7 MB, 在所有 C++ 提交中击败了5.08%的用户
-```
+// 执行用时 :36 ms, 在所有 C++ 提交中击败了54.68%的用户
+// 内存消耗 :12.7 MB, 在所有 C++ 提交中击败了5.08%的用户
+// ```
 class Solution {
 public:
     void Qsort(vector<vector<int>>& intervals,int low,int high){
@@ -73,4 +73,4 @@ public:
         return ans;
     }
 };
-```
+// ```

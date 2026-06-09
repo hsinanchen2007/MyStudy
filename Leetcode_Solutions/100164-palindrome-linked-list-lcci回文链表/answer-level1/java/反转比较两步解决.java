@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-- 第一步，反转整个链表；  
-- 第二步，比较反转链表和原始链表，若两者相同，则该链表为回文。  
+// - 第一步，反转整个链表；  
+// - 第二步，比较反转链表和原始链表，若两者相同，则该链表为回文。  
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -42,4 +42,4 @@ class Solution {
         return one == null && two == null;
     }
 }
-```
+// ```

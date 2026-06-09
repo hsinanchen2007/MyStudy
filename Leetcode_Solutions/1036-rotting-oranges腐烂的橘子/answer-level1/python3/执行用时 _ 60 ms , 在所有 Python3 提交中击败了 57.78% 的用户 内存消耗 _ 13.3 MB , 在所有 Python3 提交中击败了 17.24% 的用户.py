@@ -1,9 +1,9 @@
-### 解题思路
-首先找到所有的新鲜橘子和腐烂橘子的坐标，再用BFS
+# ### 解题思路
+# 首先找到所有的新鲜橘子和腐烂橘子的坐标，再用BFS
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
       dx = [1, -1, 0, 0]
@@ -39,4 +39,4 @@ class Solution:
                   return -1
       return minute
 
-```
+# ```

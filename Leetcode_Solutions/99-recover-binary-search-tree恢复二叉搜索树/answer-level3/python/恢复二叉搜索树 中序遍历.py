@@ -1,10 +1,10 @@
-### 解题思路
-中序遍历, 缓存两个异常点的**值, 最后只交换值就好了**,
-看评论第一很清楚思路
+# ### 解题思路
+# 中序遍历, 缓存两个异常点的**值, 最后只交换值就好了**,
+# 看评论第一很清楚思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             solve(n.right)
         solve(root)
         t1.val, t2.val = t2.val, t1.val
-```
+# ```

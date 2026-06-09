@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-三个指针  left初始为None  head为头结点  right为下一个节点
-每次迭代,head.next指向left，然后left指向head，head指向right，right指向right.next
-直到right为None，head.next指向left  返回head
+# ### 解题思路
+# 此处撰写解题思路
+# 三个指针  left初始为None  head为头结点  right为下一个节点
+# 每次迭代,head.next指向left，然后left指向head，head指向right，right指向right.next
+# 直到right为None，head.next指向left  返回head
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
-```
+# ```

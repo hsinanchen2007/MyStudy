@@ -1,10 +1,10 @@
-### 解题思路
-1. 数据的切分
-2. 小数据的并发压缩(直接用“+”号对字符串的方式会导致大量的string创建、销毁和内存分配，可用strings.Builder进行优化)
-3. 数据的合并(数据合并要注意边界的处理) 
+// ### 解题思路
+// 1. 数据的切分
+// 2. 小数据的并发压缩(直接用“+”号对字符串的方式会导致大量的string创建、销毁和内存分配，可用strings.Builder进行优化)
+// 3. 数据的合并(数据合并要注意边界的处理) 
 
-### 实现代码
-```go
+// ### 实现代码
+// ```go
 var (
 	wg sync.WaitGroup
 	chs chan []string = make(chan []string, 10)
@@ -118,8 +118,8 @@ func sigleCompress(S string, id int)  {
 	str_buffer.WriteString(strconv.Itoa(c_len))
 	chs <- []string{strconv.Itoa(id), str_buffer.String()}
 }
-```
-### 双百通过
-![strcompress.png](https://pic.leetcode-cn.com/68b42495faccd0931b56ab73a089347c2e3aba252cd4d6ad85fa6b35d1ea38e4-strcompress.png)
+// ```
+// ### 双百通过
+// ![strcompress.png](https://pic.leetcode-cn.com/68b42495faccd0931b56ab73a089347c2e3aba252cd4d6ad85fa6b35d1ea38e4-strcompress.png)
 
 

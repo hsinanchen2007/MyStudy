@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/1f298016828a7b72e789221c8ad5040f5faafd0c697503016123c0f7da5c5909-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/1f298016828a7b72e789221c8ad5040f5faafd0c697503016123c0f7da5c5909-image.png)
 
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::cmp::min;
 impl Solution {
     pub fn min_falling_path_sum(a: Vec<Vec<i32>>) -> i32 {
@@ -40,4 +40,4 @@ impl Solution {
         v3.min(v1.min(v2))
     }
 }
-```
+// ```

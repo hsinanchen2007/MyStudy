@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minDepth(TreeNode root) {
         if(root == null) return 0;
@@ -8,4 +8,4 @@ class Solution {
         return Math.min(minDepth(root.left),minDepth(root.right))+1;//未到叶子结点，情况三，...
     }
 }
-```
+// ```

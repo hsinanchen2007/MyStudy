@@ -1,9 +1,9 @@
-> 这是官方题解方法2的JS版本，并加上了详细的注释
-> 
-> 如果你觉得仍然难以理解，那一定是我写得不够清楚，请留言让我更新注释
+// > 这是官方题解方法2的JS版本，并加上了详细的注释
+// > 
+// > 如果你觉得仍然难以理解，那一定是我写得不够清楚，请留言让我更新注释
 
 
-```javascript
+// ```javascript
 /**
  * 定义节点
  * @param {*} key 
@@ -149,4 +149,4 @@ LFUCache.prototype.put = function(key, value) {
     linkedList.addNode(node)
   }
 };
-```
+// ```

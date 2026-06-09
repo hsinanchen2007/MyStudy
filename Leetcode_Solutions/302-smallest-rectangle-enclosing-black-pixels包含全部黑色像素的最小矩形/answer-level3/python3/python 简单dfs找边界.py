@@ -1,6 +1,6 @@
 
 
-```
+# ```
 from typing import List
 class Solution:
 
@@ -26,4 +26,4 @@ class Solution:
         bound = [0x7fffffff, -0x7fffffff, 0x7fffffff, -0x7fffffff]
         self.dfs(x, y, image, m, n, set(), bound)
         return (bound[1] - bound[0] + 1) * (bound[3] - bound[2] + 1)
-```
+# ```

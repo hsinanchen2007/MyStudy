@@ -1,4 +1,4 @@
-```
+// ```
  class Trie {
         class Node {
             boolean is_end;//判断单词是否完了
@@ -67,4 +67,4 @@
             return true;
         }
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public static String getPermutation(int n, int k) {
         StringBuilder ans = new StringBuilder();
         //下面求阶乘时默认n至少为2
@@ -37,4 +37,4 @@ public static String getPermutation(int n, int k) {
         ans.append(index);
         return ans.toString();
     }
-```
+// ```

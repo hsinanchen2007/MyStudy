@@ -1,9 +1,9 @@
-### 解题思路
-Java实现前缀树
+// ### 解题思路
+// Java实现前缀树
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Trie {
 
     class TrieNode {
@@ -68,4 +68,4 @@ class Trie {
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
-```
+// ```

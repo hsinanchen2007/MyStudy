@@ -1,9 +1,9 @@
-### 解题思路
-遇')'就逆转
+// ### 解题思路
+// 遇')'就逆转
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseParentheses(s string) string {
 	index := make([]int, 0)
 	runes := make([]rune, len(s))
@@ -36,4 +36,4 @@ func reverseString(runes *[]rune, s int, e int) {
 	}
 }
 
-```
+// ```

@@ -1,6 +1,6 @@
-直接遍历...
+# 直接遍历...
 
-```
+# ```
 class Solution:
     def suggestedProducts(self, products, searchWord):
         products.sort()
@@ -14,4 +14,4 @@ class Solution:
                 if counter >= 3:
                     break
         return res
-```
+# ```

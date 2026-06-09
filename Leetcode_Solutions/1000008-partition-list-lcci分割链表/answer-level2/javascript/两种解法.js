@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var partition = function(head, x) {
   // let t = head
   // let arr = []

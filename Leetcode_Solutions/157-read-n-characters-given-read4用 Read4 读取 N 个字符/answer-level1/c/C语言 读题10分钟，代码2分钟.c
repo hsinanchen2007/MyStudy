@@ -1,9 +1,9 @@
-### 解题思路
-其实这道题就是用每次读4个字符实现一次性读n个字符，前面正常循环读取，到了最后一次读取要注意，read4的返回值是实际读取的
+// ### 解题思路
+// 其实这道题就是用每次读4个字符实现一次性读n个字符，前面正常循环读取，到了最后一次读取要注意，read4的返回值是实际读取的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * The read4 API is defined in the parent class Reader4.
  *     int read4(char *buf);
@@ -29,4 +29,4 @@ int _read(char* buf, int n) {
     
     return times * 4 + MIN(last, n);
 }
-```
+// ```

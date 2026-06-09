@@ -1,9 +1,9 @@
-### 解题思路
-    第一遍，遍历两个字符串找出公牛，将未匹配的秘密串放入哈希表中。未匹配的猜的串先放在容器中等待和哈希表匹配。哈希表要设为HashMap而不是HashSet，HashMap中的Vaule要存放该字符的个数。当列表和HashMap匹配时如果匹配上一个就数量减一。如果数量为0及时移除哈希表。要一个一个匹配。防止一个哈希表中的元素和guess字符串中的字符发生了多次匹配。
+// ### 解题思路
+//     第一遍，遍历两个字符串找出公牛，将未匹配的秘密串放入哈希表中。未匹配的猜的串先放在容器中等待和哈希表匹配。哈希表要设为HashMap而不是HashSet，HashMap中的Vaule要存放该字符的个数。当列表和HashMap匹配时如果匹配上一个就数量减一。如果数量为0及时移除哈希表。要一个一个匹配。防止一个哈希表中的元素和guess字符串中的字符发生了多次匹配。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String getHint(String secret, String guess) {
         int aCount=0;
@@ -42,4 +42,4 @@ class Solution {
         return aCount+"A"+bCount+"B";
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 def is_complete(s):
     res = 0
     for x in s:
@@ -52,5 +52,5 @@ class Solution:
     
                 
                 
-```
+# ```
 

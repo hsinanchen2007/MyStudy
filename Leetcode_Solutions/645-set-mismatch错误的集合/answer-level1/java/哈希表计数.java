@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] findErrorNums(int[] nums) {
         int n = nums.length;
@@ -17,4 +17,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

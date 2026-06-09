@@ -1,4 +1,4 @@
-```
+// ```
 var maxProfit = function(prices) {
   let start=prices[0];
   let price=0;
@@ -10,4 +10,4 @@ var maxProfit = function(prices) {
   }
   return price
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-byte 检查大写
-### 代码
+// ### 解题思路
+// byte 检查大写
+// ### 代码
 
-```golang
+// ```golang
 func detectCapitalUse(word string) bool {
     upperCaseCount := 0
     n := len(word)
@@ -32,4 +32,4 @@ func upperCase( b byte)int{
     }
     return 0
 }
-```
+// ```

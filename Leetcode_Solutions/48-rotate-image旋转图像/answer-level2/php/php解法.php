@@ -1,4 +1,4 @@
-```
+// ```
 function rotate(&$matrix) {
     $n = count($matrix);
     for($i=0;$i<$n;$i++){
@@ -17,4 +17,4 @@ function rotate(&$matrix) {
     }
     
 }
-```
+// ```

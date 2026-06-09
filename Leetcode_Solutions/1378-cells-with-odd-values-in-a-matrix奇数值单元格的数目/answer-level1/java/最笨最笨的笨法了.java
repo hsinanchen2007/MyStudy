@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int oddCells(int n, int m, int[][] indices) {
         //根据n和m构建这个矩阵
@@ -39,4 +39,4 @@ class Solution {
         
     }
 }
-```
+// ```

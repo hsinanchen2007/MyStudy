@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-突然 发现循环还真是 好东西 一般的 问题 暴力 解法 都能成功 ，但是 还是 比较 耗费内存 n1和 时间 n2了 
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 突然 发现循环还真是 好东西 一般的 问题 暴力 解法 都能成功 ，但是 还是 比较 耗费内存 n1和 时间 n2了 
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
        int result =0;
@@ -26,4 +26,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func isValidBST(_ root: TreeNode?) -> Bool {
         guard root != nil else {
             return true
@@ -18,4 +18,4 @@ func isValidBST(_ root: TreeNode?) -> Bool {
         }
         return true
     }
-```
+// ```

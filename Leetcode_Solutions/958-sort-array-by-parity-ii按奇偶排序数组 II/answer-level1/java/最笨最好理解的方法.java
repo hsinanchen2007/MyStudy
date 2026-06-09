@@ -1,6 +1,6 @@
-定义两个指针index1和index2，分别记录偶数和奇数对应位置的为元素，每次各加2，并把奇偶排序后的结果存在B中。
+// 定义两个指针index1和index2，分别记录偶数和奇数对应位置的为元素，每次各加2，并把奇偶排序后的结果存在B中。
 
-```java
+// ```java
 class Solution {
     public int[] sortArrayByParityII(int[] A) {
         int[] B = new int[A.length];
@@ -17,4 +17,4 @@ class Solution {
         return B;
     }
 }
-```
+// ```

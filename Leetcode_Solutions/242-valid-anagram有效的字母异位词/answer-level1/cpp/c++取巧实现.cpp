@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -21,4 +21,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-思路很简单，对于每个单词，例如abc,转换成 012, 即 word-word[0] 对于每个字母。
-然后把012放入字典，后面查找就行。
-但是连接的时候，要加个连字符，比如'a',否则， am=012会有一样的结果。
+# ### 解题思路
+# 思路很简单，对于每个单词，例如abc,转换成 012, 即 word-word[0] 对于每个字母。
+# 然后把012放入字典，后面查找就行。
+# 但是连接的时候，要加个连字符，比如'a',否则， am=012会有一样的结果。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def groupStrings(self, strings: List[str]) -> List[List[str]]:
         dic = {}
@@ -22,4 +22,4 @@ class Solution:
                 dic[s].append(w)
             
         return [dic[suibian] for suibian in dic.keys()]
-```
+# ```

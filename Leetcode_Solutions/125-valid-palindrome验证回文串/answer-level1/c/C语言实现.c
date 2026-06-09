@@ -1,5 +1,5 @@
-C语言实现
-```C []
+// C语言实现
+// ```C []
 bool isPalindrome(char * s){
     int len = strlen(s);
     if (0 == len) return true;
@@ -20,4 +20,4 @@ bool isPalindrome(char * s){
     }
     return true;
 }
-```
+// ```

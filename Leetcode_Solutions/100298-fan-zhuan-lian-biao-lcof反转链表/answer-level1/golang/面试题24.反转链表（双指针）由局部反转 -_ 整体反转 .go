@@ -1,12 +1,12 @@
-### 解题思路
-双指针(pre + cur) 
-注意临界处细节
+// ### 解题思路
+// 双指针(pre + cur) 
+// 注意临界处细节
 
-### 知识点：双指针（局部反转 -> 整体反转)
+// ### 知识点：双指针（局部反转 -> 整体反转)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -31,4 +31,4 @@ func reverseList(head *ListNode) *ListNode {
 	
 	return pre
 }
-```
+// ```

@@ -1,18 +1,18 @@
-### 解题思路
-执行用时 :
-40 ms
-, 在所有 Python3 提交中击败了
-56.74%
-的用户
-内存消耗 :
-13.2 MB
-, 在所有 Python3 提交中击败了
-53.59%
-的用户
+# ### 解题思路
+# 执行用时 :
+# 40 ms
+# , 在所有 Python3 提交中击败了
+# 56.74%
+# 的用户
+# 内存消耗 :
+# 13.2 MB
+# , 在所有 Python3 提交中击败了
+# 53.59%
+# 的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import functools
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
@@ -31,4 +31,4 @@ class Solution:
             if ord(word[0].upper())==ord(word[0]) and temp_word[1:]==word[1:]:
                 return True
         return False
-```
+# ```

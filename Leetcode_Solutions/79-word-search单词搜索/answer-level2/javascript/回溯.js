@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var exist = function (board, word) {
   //越界处理
   board[-1] = []
@@ -32,4 +32,4 @@ var exist = function (board, word) {
   return false
 };
 
-```
+// ```

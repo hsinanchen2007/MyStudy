@@ -1,5 +1,5 @@
-并查集，需要修改下，在找到kill pid就停下来不找根节点。
-```
+// 并查集，需要修改下，在找到kill pid就停下来不找根节点。
+// ```
 int g_father[100000];
 int g_kill = 0;
 int findfather(int x)
@@ -41,4 +41,4 @@ int* killProcess(int* pid, int pidSize, int* ppid, int ppidSize, int kill, int* 
     *returnSize = num;
     return ret;
 }
-```
+// ```

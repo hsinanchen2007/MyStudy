@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} J
  * @param {string} S
@@ -8,4 +8,4 @@ var numJewelsInStones = function(J, S) {
     let [Jrr,Srr] = [J.split(''),S.split('')]
     return Srr.filter(value=>{ return Jrr.indexOf(value)!==-1 }).length
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-1. Sort `arr` first.
-2. Iterate the sorted array **once**, there is no need to use nested loop, as the value is distinct, and we already sort the array.
-3. Record the min absolute difference, and the value combination whose difference equals to the min absolute difference.
-4. If the difference value is smaller than the recorded one, update the recorded min absolute difference, and re-create the list storing the value combination.
+// ### 解题思路
+// 1. Sort `arr` first.
+// 2. Iterate the sorted array **once**, there is no need to use nested loop, as the value is distinct, and we already sort the array.
+// 3. Record the min absolute difference, and the value combination whose difference equals to the min absolute difference.
+// 4. If the difference value is smaller than the recorded one, update the recorded min absolute difference, and re-create the list storing the value combination.
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<IList<int>> MinimumAbsDifference(int[] arr) {
         int minAbsDiff = arr.Max();
@@ -34,4 +34,4 @@ public class Solution {
         return minCombo;
     }
 }
-```
+// ```

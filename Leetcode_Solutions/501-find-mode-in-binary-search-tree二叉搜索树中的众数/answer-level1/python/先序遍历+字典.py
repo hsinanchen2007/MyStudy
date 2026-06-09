@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def __init__(self):
         self.res={}
@@ -20,4 +20,4 @@ class Solution:
             self.res[root.val]=self.res.get(root.val,0)+1
             self.visit(root.left)
             self.visit(root.right)
-```
+# ```

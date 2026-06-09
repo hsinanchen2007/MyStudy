@@ -1,11 +1,11 @@
-执行用时 :6 ms, 在所有 java 提交中击败了99.20%的用户
-内存消耗 :48.5 MB, 在所有 java 提交中击败了100.00%的用户
+// 执行用时 :6 ms, 在所有 java 提交中击败了99.20%的用户
+// 内存消耗 :48.5 MB, 在所有 java 提交中击败了100.00%的用户
 
-设从第1棵树到第k棵树的最大采果数量为f(k)，而以将第k棵树的水果采入为前提条件的最大采果数为g(k),则有f(k+1)=MAX(f(k),g(k+1))。
-初始条件下f(1)=1，f(2)=2，为了计算g(k)，添加一个计数器totalCurrent，初始值为0。
-从第1棵树出发，如果遇到的水果种类一直不大于2，则totalCurrent++，当遇到第三种水果时，首先更新f(k-1)，然后第三种水果与其之前紧邻且连续的那种水果的数量和continueFruitNum+1即为新的totalCurrent
+// 设从第1棵树到第k棵树的最大采果数量为f(k)，而以将第k棵树的水果采入为前提条件的最大采果数为g(k),则有f(k+1)=MAX(f(k),g(k+1))。
+// 初始条件下f(1)=1，f(2)=2，为了计算g(k)，添加一个计数器totalCurrent，初始值为0。
+// 从第1棵树出发，如果遇到的水果种类一直不大于2，则totalCurrent++，当遇到第三种水果时，首先更新f(k-1)，然后第三种水果与其之前紧邻且连续的那种水果的数量和continueFruitNum+1即为新的totalCurrent
 
-```
+// ```
 public class Solution {
     public int totalFruit(int[] tree){
         if(tree.length<3)return tree.length;
@@ -45,4 +45,4 @@ public class Solution {
         return totalMax;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-慢指针移动一次，快指针移动两次
-结果和结点数相关，奇数个结点，快指针走到尾部。偶数个结点，快指针走到倒数第二个结点。
+// ### 解题思路
+// 慢指针移动一次，快指针移动两次
+// 结果和结点数相关，奇数个结点，快指针走到尾部。偶数个结点，快指针走到倒数第二个结点。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -25,4 +25,4 @@ struct ListNode* middleNode(struct ListNode* head){
     return slow->next;
     return slow;
 }
-```
+// ```

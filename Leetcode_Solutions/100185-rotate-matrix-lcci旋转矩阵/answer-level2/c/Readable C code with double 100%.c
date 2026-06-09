@@ -1,6 +1,6 @@
 
 
-```
+// ```
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
   
   // rotate the points from outside to inside
@@ -24,4 +24,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
   }
   
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 使用 join+union
+-- ### 使用 join+union
 
-```mysql
+-- ```mysql
 # 在2019-08-16 前改过的产品价格为2019-08-16前改的最后一个价格
 select p3.product_id,p3.new_price price
 from products p3
@@ -21,9 +21,9 @@ where p1.product_id not in(
     from products p2
     where p2.change_date<='2019-08-16'
 )
-```
-### 使用 where+union
-```mysql
+-- ```
+-- ### 使用 where+union
+-- ```mysql
 # 在2019-08-16 前改过的产品价格为2019-08-16前改的最后一个价格
 select p3.product_id,p3.new_price price
 from products p3
@@ -43,9 +43,9 @@ where p1.product_id not in(
     from products p2
     where p2.change_date<='2019-08-16'
 )
-```
-### 使用left join+ifnull
-```mysql
+-- ```
+-- ### 使用left join+ifnull
+-- ```mysql
 select p3.product_id,ifnull(tmp.price,10) price
 from (
     # 给产品id去重
@@ -64,4 +64,4 @@ left join(
         group by p1.product_id
         )
 )tmp on tmp.product_id=p3.product_id;
-```
+-- ```

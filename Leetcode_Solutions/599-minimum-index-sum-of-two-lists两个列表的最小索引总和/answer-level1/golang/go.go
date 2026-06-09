@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 
 func findRestaurant(list1 []string, list2 []string) []string {
@@ -22,4 +22,4 @@ func findRestaurant(list1 []string, list2 []string) []string {
 	}
 	return out
 }
-```
+// ```

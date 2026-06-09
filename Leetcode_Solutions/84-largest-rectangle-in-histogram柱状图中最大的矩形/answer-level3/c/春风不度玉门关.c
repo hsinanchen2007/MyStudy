@@ -1,10 +1,10 @@
-### 解题思路
-春风不度玉门关
-如果i处和j处的值相等，而且两者所引出的矩形可以相连，那么把j的值降低1不会对最大值产生影响
+// ### 解题思路
+// 春风不度玉门关
+// 如果i处和j处的值相等，而且两者所引出的矩形可以相连，那么把j的值降低1不会对最大值产生影响
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int largestRectangleArea(int* heights, int heightsSize){
     int max=0,sum=0,left=0,right=0;
     for(int i=0;i<heightsSize;i++){
@@ -25,4 +25,4 @@ int largestRectangleArea(int* heights, int heightsSize){
     }
     return max;
 }
-```
+// ```

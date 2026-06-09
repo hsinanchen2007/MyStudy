@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/2cc4fdb9749b8dbb72a4ceb59f41d271bb8a09b8af2dbbebd4bf91b0dac33111-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2cc4fdb9749b8dbb72a4ceb59f41d271bb8a09b8af2dbbebd4bf91b0dac33111-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   184ms
   看了题解区竟然没想到倒着推回来？？？
   哭着注释了我的大回溯，我大回溯虽然没过，但思路没毛病 😿
@@ -15,11 +15,11 @@
   3.  3 - (1 + 1) = 1   => [1,1,1] 成立
   
   不成立的条件：数组中出现小于1的数
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} target
  * @return {boolean}
@@ -104,4 +104,4 @@ var isPossible = function(target) {
   
 //   return count;
 // }
-```
+// ```

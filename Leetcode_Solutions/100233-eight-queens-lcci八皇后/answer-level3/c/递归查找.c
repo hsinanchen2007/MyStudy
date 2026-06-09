@@ -1,8 +1,8 @@
-### 解题思路
-递归查找，记录中间过程，不满足则回溯，关键思路见注释，初始化的时候取了个巧，假设N个皇后最多N*100个解
-### 代码
+// ### 解题思路
+// 递归查找，记录中间过程，不满足则回溯，关键思路见注释，初始化的时候取了个巧，假设N个皇后最多N*100个解
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -83,4 +83,4 @@ char*** solveNQueens(int n, int* returnSize, int** returnColumnSizes){
     free(tmpQuePos);
     return retQuePos;
 }
-```
+// ```

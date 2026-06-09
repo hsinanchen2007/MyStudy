@@ -1,10 +1,10 @@
-![微信图片_20200311063604.png](https://pic.leetcode-cn.com/0da7fef0c5ed17416fade47248acaf4c13ed18177db92342fd9612c69a5456f2-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200311063604.png)
+// ![微信图片_20200311063604.png](https://pic.leetcode-cn.com/0da7fef0c5ed17416fade47248acaf4c13ed18177db92342fd9612c69a5456f2-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200311063604.png)
 
-前判断数组长度小于三，就返回false
-然后判断所有元素和是否是三的倍数，否返回false
-设置前指针0，后指针length-1，往前加到和/3 ,若指针有重合（前>后）则返回false
-最后求中间部分的和，三部分和一样则返回true
-```
+// 前判断数组长度小于三，就返回false
+// 然后判断所有元素和是否是三的倍数，否返回false
+// 设置前指针0，后指针length-1，往前加到和/3 ,若指针有重合（前>后）则返回false
+// 最后求中间部分的和，三部分和一样则返回true
+// ```
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int length = A.length;
@@ -44,7 +44,7 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-```
+// ```
 

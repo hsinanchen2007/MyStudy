@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         '''
@@ -16,4 +16,4 @@ class Solution:
             else:
                 status.append(nums[i])
         return max(status)
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public://刚开始用记忆搜索蒙蔽了很麻烦，后来想到用边界加曼哈顿距离（不过这也是卡了样例bug,有中心湖的话还要改改）
     int i,j,len,index=2,res=INT_MAX;
@@ -38,4 +38,4 @@ public://刚开始用记忆搜索蒙蔽了很麻烦，后来想到用边界加�
         return false;
     }
 };
-```
+// ```

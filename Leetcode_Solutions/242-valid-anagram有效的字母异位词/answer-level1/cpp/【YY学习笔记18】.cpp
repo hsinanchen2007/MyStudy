@@ -1,9 +1,9 @@
-### 解题思路
-为字符串s,t设置两个辅助数组a、b，用来统计字母出现次数。
+// ### 解题思路
+// 为字符串s,t设置两个辅助数组a、b，用来统计字母出现次数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -24,4 +24,4 @@ public:
         return true;
     }
 };
-```
+// ```

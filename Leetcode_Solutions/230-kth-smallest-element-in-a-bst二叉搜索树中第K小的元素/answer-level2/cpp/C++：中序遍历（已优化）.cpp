@@ -1,6 +1,6 @@
-由于二叉搜索树对应就是一个排序的数组，即将二叉搜索树的节点值映射到一条直线上，可以得到一个排序数组，根节点为排序数组中点。
-所以我们利用二叉树的中序遍历将其转换为数组，直接返回数组中的第k个元素即可。
-```cpp
+// 由于二叉搜索树对应就是一个排序的数组，即将二叉搜索树的节点值映射到一条直线上，可以得到一个排序数组，根节点为排序数组中点。
+// 所以我们利用二叉树的中序遍历将其转换为数组，直接返回数组中的第k个元素即可。
+// ```cpp
 class Solution {
 public:
     int kthSmallest(TreeNode* root, int k) {
@@ -23,10 +23,10 @@ public:
         return record[k-1];
     }
 };
-```
-****
-感谢评论下方[@dutwxh-BbcW5RxS2n](/u/dutwxh-bbcw5rxs2n/)给出的优化意见，现补充优化后的代码：
-```cpp
+// ```
+// ****
+// 感谢评论下方[@dutwxh-BbcW5RxS2n](/u/dutwxh-bbcw5rxs2n/)给出的优化意见，现补充优化后的代码：
+// ```cpp
 class Solution {
 public:
     int kthSmallest(TreeNode* root, int k) {
@@ -50,4 +50,4 @@ public:
         return -1;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-Minimum Increment to Make Array Unique
+// ### 解题思路
+// Minimum Increment to Make Array Unique
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -19,4 +19,4 @@ public:
     }
 
 };
-```
+// ```

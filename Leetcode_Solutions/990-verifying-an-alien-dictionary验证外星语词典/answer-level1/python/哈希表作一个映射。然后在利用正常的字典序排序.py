@@ -1,6 +1,6 @@
 
-都在注释里面了  十分的清晰
-```
+# 都在注释里面了  十分的清晰
+# ```
 
 class Solution:
     def isAlienSorted(self, words: List[str], order: str) -> bool:
@@ -25,4 +25,4 @@ class Solution:
             if new_words[i] < new_words[i - 1]:
                 return False
         return True
-```
+# ```

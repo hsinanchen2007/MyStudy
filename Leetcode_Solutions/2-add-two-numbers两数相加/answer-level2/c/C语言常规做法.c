@@ -1,6 +1,6 @@
-逢十进一，注意处理特殊情况，另需要特别注意空指针。
-该方法时间复杂度O(N)，空间复杂度O(1)。
-```c
+// 逢十进一，注意处理特殊情况，另需要特别注意空指针。
+// 该方法时间复杂度O(N)，空间复杂度O(1)。
+// ```c
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     short from_lower=0;
     struct ListNode* head=l1;
@@ -36,4 +36,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return head;
 }
-```
+// ```

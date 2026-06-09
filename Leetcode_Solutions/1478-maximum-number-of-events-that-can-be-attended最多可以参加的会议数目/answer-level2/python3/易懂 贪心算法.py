@@ -1,11 +1,11 @@
-### 解题思路
-首先通过sorted（归并排序）将整个events进行排序；
-然后安排各event并整合可参加会议到set中；
-由于set在进行in操作时比list性能高很多，故弃用list选用set进行会议的存储。
+# ### 解题思路
+# 首先通过sorted（归并排序）将整个events进行排序；
+# 然后安排各event并整合可参加会议到set中；
+# 由于set在进行in操作时比list性能高很多，故弃用list选用set进行会议的存储。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from typing import List
 
 
@@ -22,4 +22,4 @@ class Solution:
                     break
         return len(plain)
 
-```
+# ```

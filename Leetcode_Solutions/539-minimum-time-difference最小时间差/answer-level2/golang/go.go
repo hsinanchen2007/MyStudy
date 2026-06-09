@@ -1,6 +1,6 @@
-##分钟化 + 排序比较
+// ##分钟化 + 排序比较
 
-```
+// ```
 
 func timeToMinute(time string) int  {
 	var times = strings.Split(time,":")
@@ -32,4 +32,4 @@ func findMinDifference(timePoints []string) int {
 	}
 	return minMin
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-大事化小小事化了
+// ### 解题思路
+// 大事化小小事化了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if(z>x+y||z<0){
@@ -29,4 +29,4 @@ class Solution {
 
     }
 }
-```
+// ```

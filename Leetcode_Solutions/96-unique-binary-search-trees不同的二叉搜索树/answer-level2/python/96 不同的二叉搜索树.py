@@ -1,12 +1,12 @@
-### 解题思路
-动态规划问题
-![image.png](https://pic.leetcode-cn.com/e773dc9df417b3e85939c0383301f41c95caccac8844ec161bf65efbdf8dd718-image.png)
+# ### 解题思路
+# 动态规划问题
+# ![image.png](https://pic.leetcode-cn.com/e773dc9df417b3e85939c0383301f41c95caccac8844ec161bf65efbdf8dd718-image.png)
 
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numTrees(self, n):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 g[i] += g[j-1] * g[i-j]
 
         return g[n]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-这种取整数各位数的方法要学会
+// ### 解题思路
+// 这种取整数各位数的方法要学会
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int addDigits(int num) {
         while (num >= 10) {
@@ -18,4 +18,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

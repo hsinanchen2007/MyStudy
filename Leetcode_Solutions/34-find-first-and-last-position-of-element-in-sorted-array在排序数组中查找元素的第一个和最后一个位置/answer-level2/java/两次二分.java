@@ -1,11 +1,11 @@
-### 解题思路
-两次二分拿到下界和上界下标。对二分算法进行以下修改即可：若要找下界，则每次二分前判断当前nums[start]是否等于target, 
-若要找上界，则每次二分前判断当前nums[end]是否等于target；若在二分时发现nums[mid] = target，记录mid下标给idx，若
-当前要找下界，则令end = mid - 1, 即继续找可能存在的更小的下标；否则令start = mid + 1，即继续找可能存在的更大的下标。
+// ### 解题思路
+// 两次二分拿到下界和上界下标。对二分算法进行以下修改即可：若要找下界，则每次二分前判断当前nums[start]是否等于target, 
+// 若要找上界，则每次二分前判断当前nums[end]是否等于target；若在二分时发现nums[mid] = target，记录mid下标给idx，若
+// 当前要找下界，则令end = mid - 1, 即继续找可能存在的更小的下标；否则令start = mid + 1，即继续找可能存在的更大的下标。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   public int[] searchRange(int[] nums, int target) {
         int start_idx = binarySearch(nums, 0, nums.length - 1, target, true);
@@ -45,4 +45,4 @@ class Solution {
         return idx;
     }
 }
-```
+// ```

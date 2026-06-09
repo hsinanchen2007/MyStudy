@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestPalindrome(char * s){
     int letter[52]={0};
     int num=0,MaxLength=0;
@@ -20,4 +20,4 @@ int longestPalindrome(char * s){
     else
         return MaxLength;
 }
-```
+// ```

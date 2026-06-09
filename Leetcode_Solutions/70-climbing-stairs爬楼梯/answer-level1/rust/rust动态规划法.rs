@@ -1,9 +1,9 @@
-### 解题思路
-利用斐波拉契数列实现动态规划，rust实现
+// ### 解题思路
+// 利用斐波拉契数列实现动态规划，rust实现
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn climb_stairs(n: i32) -> i32 {
         if n == 1{
@@ -27,4 +27,4 @@ impl Solution {
         *&vec[vec.len()-1]
     }
 }
-```
+// ```

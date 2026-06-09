@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-利用Java中的ArrayDeque完成，利用其中的addFirst、removeFirst、isEmpty方法
+// ### 解题思路
+// 此处撰写解题思路
+// 利用Java中的ArrayDeque完成，利用其中的addFirst、removeFirst、isEmpty方法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.ArrayDeque;
 
 class MyStack {
@@ -45,4 +45,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

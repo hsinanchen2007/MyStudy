@@ -1,8 +1,8 @@
-### 解题思路
-暴力硬怼
-### 代码
+# ### 解题思路
+# 暴力硬怼
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         tempdict = {}
@@ -30,4 +30,4 @@ class Solution:
         ans += temp_max
 
         return ans
-```
+# ```

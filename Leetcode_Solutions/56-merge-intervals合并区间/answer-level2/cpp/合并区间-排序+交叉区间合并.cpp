@@ -1,6 +1,6 @@
-主要思路还是前面大佬的，这里只是改下细节，希望能好懂一点点。
+// 主要思路还是前面大佬的，这里只是改下细节，希望能好懂一点点。
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

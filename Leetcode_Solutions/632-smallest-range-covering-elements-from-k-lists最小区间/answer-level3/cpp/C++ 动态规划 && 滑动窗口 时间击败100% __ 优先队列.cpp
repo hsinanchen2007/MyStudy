@@ -1,7 +1,7 @@
-## 思路一 动态规划 && 滑动窗口
-时间复杂度：O(NLOG(N)) // 排序开销
-空间复杂：O(N) // vn数组的开销
-```cpp
+// ## 思路一 动态规划 && 滑动窗口
+// 时间复杂度：O(NLOG(N)) // 排序开销
+// 空间复杂：O(N) // vn数组的开销
+// ```cpp
 class node {
     public:
         int value;
@@ -63,10 +63,10 @@ public:
         return {vn[lret].value, vn[rret].value};
     }
 };
-```
+// ```
 
-## 思路二 优先队列
-```cpp
+// ## 思路二 优先队列
+// ```cpp
 class node {
 public:
     int row;
@@ -122,9 +122,9 @@ public:
         return {lret, rret};
     }
 };
-```
-使用Lambda表达式简化一下代码
-```cpp
+// ```
+// 使用Lambda表达式简化一下代码
+// ```cpp
 class Solution {
 public:
     vector<int> smallestRange(vector<vector<int>>& nums) {
@@ -163,4 +163,4 @@ public:
         return {lret, rret};
     }
 };
-```
+// ```

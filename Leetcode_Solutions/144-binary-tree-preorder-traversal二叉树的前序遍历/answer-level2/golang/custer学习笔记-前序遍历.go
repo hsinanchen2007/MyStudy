@@ -1,5 +1,5 @@
-# 递归实现
-```go
+// # 递归实现
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -21,10 +21,10 @@ func preorder(root *TreeNode, output *[]int) {
     preorder(root.Right, output)
   }
 }
-```
+// ```
 
-# 非递归实现
-```go
+// # 非递归实现
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -62,4 +62,4 @@ func preorderTraversal(root *TreeNode) []int {
   }
   return res
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先排序，在找中位数
+// ### 解题思路
+// 先排序，在找中位数
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
         //        执行用时 : 156 ms , 在所有 swift 提交中击败了 13.47% 的用户
@@ -35,4 +35,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select 
     extra as report_reason,
@@ -14,4 +14,4 @@ from (select distinct post_id,action,extra from Actions
     )t
 
 group by  extra
-```
+-- ```

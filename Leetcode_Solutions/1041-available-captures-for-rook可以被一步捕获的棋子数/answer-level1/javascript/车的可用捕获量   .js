@@ -1,9 +1,9 @@
-### 解题思路
-思路： 找与车在同行同列上可到达的卒
+// ### 解题思路
+// 思路： 找与车在同行同列上可到达的卒
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 
 var numRookCaptures = function(board) {
   if (!board || board.length === 0) return 0;
@@ -80,4 +80,4 @@ var numRookCaptures = function(board) {
 };
 
 
-```
+// ```

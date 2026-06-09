@@ -1,9 +1,9 @@
-### 解题思路
-使用深度优先搜索的思想，利用递归实现算法。一个位置有上下左右四种方向游走，体现在dfs函数的第7行中。
+// ### 解题思路
+// 使用深度优先搜索的思想，利用递归实现算法。一个位置有上下左右四种方向游走，体现在dfs函数的第7行中。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean exist(char[][] board, String word) {
         for (int i=0; i<board.length; i++){
@@ -27,4 +27,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

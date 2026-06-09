@@ -1,6 +1,6 @@
-思想基本和求最长递增子序列的长度 类似。不同之处在于要记录每个位置 i 放数字num时的递增序列个数 dic[i][num]。
-当数字 newnum 放在 i+1 位置时，dic[i+1][newnum] 的值为 dic[i] 中 小于newnum 的num 的序列个数之和。
-```python
+# 思想基本和求最长递增子序列的长度 类似。不同之处在于要记录每个位置 i 放数字num时的递增序列个数 dic[i][num]。
+# 当数字 newnum 放在 i+1 位置时，dic[i+1][newnum] 的值为 dic[i] 中 小于newnum 的num 的序列个数之和。
+# ```python
     def findNumberOfLIS(self, nums):
         """
         :type nums: List[int]

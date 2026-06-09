@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/325e0ed7e14a9f3c9fc326b10ebf9e6372fb37252c0a57e670d5895a4cf44f3e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/325e0ed7e14a9f3c9fc326b10ebf9e6372fb37252c0a57e670d5895a4cf44f3e-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int GetGCD(int a, int b)
 {
     if (a == b) {
@@ -32,4 +32,4 @@ bool canMeasureWater(int x, int y, int z)
     int gcd = GetGCD(y, x);
     return (z % gcd == 0);
 }
-```
+// ```

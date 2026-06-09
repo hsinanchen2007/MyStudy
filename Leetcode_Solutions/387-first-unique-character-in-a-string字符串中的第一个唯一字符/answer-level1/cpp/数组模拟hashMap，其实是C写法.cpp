@@ -1,11 +1,11 @@
-### 刚转cpp，STL还比较陌生，索性用数组速度也更快些。题目本身简单，看注释吧，比较完整
+// ### 刚转cpp，STL还比较陌生，索性用数组速度也更快些。题目本身简单，看注释吧，比较完整
 
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/fd5aabd82d37f55ddef987f34f2ef1862652b45dea7fdc1978550db27d128c90-image.png)
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/fd5aabd82d37f55ddef987f34f2ef1862652b45dea7fdc1978550db27d128c90-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int firstUniqChar(string s) {
@@ -23,4 +23,4 @@ public:
         return -1;
     }
 };
-```
+// ```

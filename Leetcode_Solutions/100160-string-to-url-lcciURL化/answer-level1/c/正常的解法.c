@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 char* replaceSpaces(char* S, int length){
     if (length > 500000 || length < 0) {
@@ -29,4 +29,4 @@ char* replaceSpaces(char* S, int length){
     }
     return res;
 }
-```
+// ```

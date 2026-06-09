@@ -1,6 +1,6 @@
-!!!在MYSQL里，不能先select一个表的记录，在按此条件进行更新和删除同一个表的记录
+-- !!!在MYSQL里，不能先select一个表的记录，在按此条件进行更新和删除同一个表的记录
 
-```
+-- ```
 # Write your MySQL query statement below
 DELETE from Person 
 Where Id not in 
@@ -16,4 +16,4 @@ Where Id not in
         Group by Email
     ) t
 )
-```
+-- ```

@@ -1,4 +1,4 @@
-```
+// ```
 //第一种写法
 func searchInsert(nums []int, target int) int {
 	index := 0
@@ -32,4 +32,4 @@ func searchInsert(nums []int, target int) int {
 	}
 	return start
 }
-```
+// ```

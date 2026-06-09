@@ -1,5 +1,5 @@
-利用广度优先遍历算法遍历所有的子节点，当到达最底层时，所有的节点都无左右字树时直接返回队列头部的元素。
-```
+// 利用广度优先遍历算法遍历所有的子节点，当到达最底层时，所有的节点都无左右字树时直接返回队列头部的元素。
+// ```
 #define MAX_BUFFER     10000
 int findBottomLeftValue(struct TreeNode* root){
     int index = 0;
@@ -41,4 +41,4 @@ TRY_AGAIN:
         return retValue;
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-# 两种解法
+// # 两种解法
 
-![image.png](https://pic.leetcode-cn.com/6d22e035ad3edea40e8dd711b7ecd5d7aef5e60808507cbb5816035faea6b5d6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6d22e035ad3edea40e8dd711b7ecd5d7aef5e60808507cbb5816035faea6b5d6-image.png)
 
-迭代24ms
-递归44ms
+// 迭代24ms
+// 递归44ms
 
-## 递归 (相对耗时 吃内存)
+// ## 递归 (相对耗时 吃内存)
 
-```
+// ```
 /**
      * 圆圈中最后剩下的数字(约瑟夫环) 递归解法
      * @param $n
@@ -24,11 +24,11 @@
         $x = $this->findRecur($n - 1, $m);
         return ($x + $m) % $n;
     }
-```
+// ```
 
-## 迭代 （相比递归效率高）
+// ## 迭代 （相比递归效率高）
 
-```
+// ```
 /**
      * 2020-03-30
      * 圆圈中最后剩下的数字(约瑟夫环) 迭代解法
@@ -43,4 +43,4 @@
         }
         return $res;
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         '''
@@ -33,4 +33,4 @@ class Solution:
             for index in range(1,len(nums)+1):
                 helper(nums,[],index)
             return res
-```
+# ```

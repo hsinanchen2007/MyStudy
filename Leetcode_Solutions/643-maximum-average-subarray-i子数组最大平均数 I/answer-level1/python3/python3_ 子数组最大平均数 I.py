@@ -1,4 +1,4 @@
-```python
+# ```python
 def findMaxAverage(nums, k):
     r = _sum = sum(nums[0:k])
     for i in range(k, len(nums)):
@@ -8,4 +8,4 @@ def findMaxAverage(nums, k):
     return r / k
 
 print(findMaxAverage([1,12,-5,-6,50,3], 4))
-```
+# ```

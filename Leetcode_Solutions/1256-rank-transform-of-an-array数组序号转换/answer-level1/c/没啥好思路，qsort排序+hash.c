@@ -1,11 +1,11 @@
-### 解题思路
-1. qsort排个序
-2. 遍历排序后的数组，加入hash，数字是key，保存排序后的索引（相同的数字 hash中已存在，索引自然为第一个）
-3. 遍历原始数组，去hash中查找，得到索引值，输出
+// ### 解题思路
+// 1. qsort排个序
+// 2. 遍历排序后的数组，加入hash，数字是key，保存排序后的索引（相同的数字 hash中已存在，索引自然为第一个）
+// 3. 遍历原始数组，去hash中查找，得到索引值，输出
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -73,4 +73,4 @@ int* arrayRankTransform(int* arr, int arrSize, int* returnSize){
     *returnSize = arrSize;
     return retArr;
 }
-```
+// ```

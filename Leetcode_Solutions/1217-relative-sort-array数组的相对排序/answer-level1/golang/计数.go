@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 func relativeSortArray(arr1 []int, arr2 []int) []int { 
     if len(arr1) == 0 {
         return []int{}
@@ -38,4 +38,4 @@ func relativeSortArray(arr1 []int, arr2 []int) []int {
 
     return result
 }
-```
+// ```

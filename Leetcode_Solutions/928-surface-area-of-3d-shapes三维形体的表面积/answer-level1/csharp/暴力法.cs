@@ -1,14 +1,14 @@
-### 解题思路
-1. 遍历每一个坐标，累计有多少个立方体 m。
-2. 计算一共有多少个贴上的立方体 n，包括：
-3. 与右边、下边的邻居有多少个相邻立方体 。
-4. 以及每个单元格上，纵轴z上有多少个贴上的立方体。
-5. 每一个相邻立方体，需要减去2个重合表面。
-6. 即：表面积 = 6*m - 2*n
+// ### 解题思路
+// 1. 遍历每一个坐标，累计有多少个立方体 m。
+// 2. 计算一共有多少个贴上的立方体 n，包括：
+// 3. 与右边、下边的邻居有多少个相邻立方体 。
+// 4. 以及每个单元格上，纵轴z上有多少个贴上的立方体。
+// 5. 每一个相邻立方体，需要减去2个重合表面。
+// 6. 即：表面积 = 6*m - 2*n
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int SurfaceArea(int[][] grid) {
             if (grid == null || grid.GetLength(0) == 0 || grid[0].Length == 0)
@@ -48,10 +48,10 @@ public class Solution {
             return 6 * m - 2 * n;
     }
 }
-```
+// ```
 
-## 测试
-```csharp
+// ## 测试
+// ```csharp
     [TestClass]
     public class SolutionTest
     {
@@ -121,4 +121,4 @@ public class Solution {
             Assert.AreEqual(46, actual);
         }
     }
-```
+// ```

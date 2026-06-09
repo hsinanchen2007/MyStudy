@@ -1,6 +1,6 @@
-//1.采用深度优先搜索的方法
-//执行用时 :88 ms, 在所有 C++ 提交中击败了5.08% 的用户
-//内存消耗:13 MB, 在所有 C++ 提交中击败了100.00%的用户
+// //1.采用深度优先搜索的方法
+// //执行用时 :88 ms, 在所有 C++ 提交中击败了5.08% 的用户
+// //内存消耗:13 MB, 在所有 C++ 提交中击败了100.00%的用户
 class Solution {
 public:
 	bool dfs(vector<vector<int>>&matrix, int cur_i, int cur_j, int target) {

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func orangesRotting(grid [][]int) int {
 	mins:=0
 	//新鲜橘子的个数
@@ -56,4 +56,4 @@ func orangesRotting(grid [][]int) int {
 	}
 	return mins
 }
-```
+// ```

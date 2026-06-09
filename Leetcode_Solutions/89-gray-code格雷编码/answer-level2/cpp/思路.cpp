@@ -1,10 +1,10 @@
-### 解题思路
-就是在n-1的基础上逆着把n-1的所有结果加上2^(n - 1)
+// ### 解题思路
+// 就是在n-1的基础上逆着把n-1的所有结果加上2^(n - 1)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> grayCode(int n) 
@@ -22,6 +22,6 @@ public:
 		return vec;
     }
 };
-```
-###结果
-![捕获.PNG](https://pic.leetcode-cn.com/d8fd232b4c233e0af875b7cbdf39595a88a3d31b013d2248a68bc569c8f20350-%E6%8D%95%E8%8E%B7.PNG)
+// ```
+// ###结果
+// ![捕获.PNG](https://pic.leetcode-cn.com/d8fd232b4c233e0af875b7cbdf39595a88a3d31b013d2248a68bc569c8f20350-%E6%8D%95%E8%8E%B7.PNG)

@@ -1,6 +1,6 @@
-时间：95%，内存：100%
+// 时间：95%，内存：100%
 
-```java
+// ```java
 class ZeroEvenOdd {
     private int n;
     private int i = 1;
@@ -54,4 +54,4 @@ class ZeroEvenOdd {
         }
     }
 }
-```
+// ```

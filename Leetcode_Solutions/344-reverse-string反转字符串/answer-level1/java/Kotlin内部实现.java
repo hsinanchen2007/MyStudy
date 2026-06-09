@@ -1,17 +1,17 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun reverseString(s: CharArray): Unit {
         s.reverse()
     }
 }
-```
-看一下**reverse()**的内部实现
-````
+// ```
+// 看一下**reverse()**的内部实现
+// ````
 public fun CharArray.reverse() {
     val midPoint = (size / 2) - 1
     if (midPoint < 0) return
@@ -23,4 +23,4 @@ public fun CharArray.reverse() {
         reverseIndex--
     }
 }
-```
+// ```

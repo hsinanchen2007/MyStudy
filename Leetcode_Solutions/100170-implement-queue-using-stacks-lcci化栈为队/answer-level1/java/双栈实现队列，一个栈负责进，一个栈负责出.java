@@ -1,9 +1,9 @@
-### 解题思路
-一、增加数据无需考虑
-二、pop和peek需要考虑栈二的状态，优先输出栈二中的数据，如果为空则将栈一的数据全部拷过来，在输出栈二的数据
-### 代码
+// ### 解题思路
+// 一、增加数据无需考虑
+// 二、pop和peek需要考虑栈二的状态，优先输出栈二中的数据，如果为空则将栈一的数据全部拷过来，在输出栈二的数据
+// ### 代码
 
-```java
+// ```java
 class MyQueue {
     Stack<Integer> push;
     Stack<Integer> pop;
@@ -56,4 +56,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

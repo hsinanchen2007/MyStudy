@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-punch in the card. 
-Again, I will give you the code. 
+# punch in the card. 
+# Again, I will give you the code. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 def finish(grid):
     for i in grid:
         for j in i:
@@ -53,4 +53,4 @@ class Solution:
                     change=True
         self.grid,self.next=self.next,self.grid
         return change
-```
+# ```

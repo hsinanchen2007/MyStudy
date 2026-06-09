@@ -1,8 +1,8 @@
-### 解题思路
-遍历求解当前节点的左右子树的深度差值，从而判断是否是平衡二叉树
-### 代码
+// ### 解题思路
+// 遍历求解当前节点的左右子树的深度差值，从而判断是否是平衡二叉树
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ public:
         return max(maxDepth(root->left),maxDepth(root->right))+1;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-push_stack: 用于入队
-pop_stack: 用于出队
+# push_stack: 用于入队
+# pop_stack: 用于出队
 
-由于队列是先进先出，所以出队时，需要 `push_stack` 里的栈底元素，此时可以把 `pop_stack` 里的元素全部 pop 到 `pop_stack` 里，此时 `pop_stack` 的栈顶元素就是要出队的元素，但是只要 `pop_stack` 不为空，出队都只需要从 `pop_stack` 操作就可以了。 
+# 由于队列是先进先出，所以出队时，需要 `push_stack` 里的栈底元素，此时可以把 `pop_stack` 里的元素全部 pop 到 `pop_stack` 里，此时 `pop_stack` 的栈顶元素就是要出队的元素，但是只要 `pop_stack` 不为空，出队都只需要从 `pop_stack` 操作就可以了。 
 
-```python []
+# ```python []
 class MyQueue:
 
     def __init__(self):
@@ -54,4 +54,4 @@ class MyQueue:
         Returns whether the queue is empty.
         """
         return len(self.push_stack) == 0 and len(self.pop_stack) == 0
-```
+# ```

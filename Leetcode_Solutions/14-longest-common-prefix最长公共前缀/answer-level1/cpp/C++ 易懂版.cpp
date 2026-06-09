@@ -1,12 +1,12 @@
-# C++
-效率一般，但感觉清晰易懂
-![image.png](https://pic.leetcode-cn.com/dc34e7e5a912619c23541a7d95b45395856dde94627f06f0a0eb3cd02fc5e9bc-image.png)
+// # C++
+// 效率一般，但感觉清晰易懂
+// ![image.png](https://pic.leetcode-cn.com/dc34e7e5a912619c23541a7d95b45395856dde94627f06f0a0eb3cd02fc5e9bc-image.png)
 
 
-核心思想：从0开始逐个字母比较，下列2种情况返回已经找到的最长前缀
-1. 如果有字串到了末尾
-2. 如果有字串出现不同字母
-```
+// 核心思想：从0开始逐个字母比较，下列2种情况返回已经找到的最长前缀
+// 1. 如果有字串到了末尾
+// 2. 如果有字串出现不同字母
+// ```
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -31,4 +31,4 @@ public:
         
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-第一次写题解，写的不好的地方还请原谅
-```
+# 第一次写题解，写的不好的地方还请原谅
+# ```
 """
 # Definition for a Node.
 class Node:
@@ -24,6 +24,6 @@ class Solution:
         dep={}
         helper(root,0)
         return root
-```
-结果
-![TIM.png](https://pic.leetcode-cn.com/8d11a495092b1fef9b9a322dc7e43e5de465231800cf63ca43972bbb1a11dfe2-TIM.png)
+# ```
+# 结果
+# ![TIM.png](https://pic.leetcode-cn.com/8d11a495092b1fef9b9a322dc7e43e5de465231800cf63ca43972bbb1a11dfe2-TIM.png)

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -43,8 +43,8 @@ var zigzagLevelOrder = function(root) {
   }
   return arr;
 };
-```
+// ```
 
-基本思路，和普通的层次遍历是一个道理，都是使用了队列。
-1. 单数层 使用push方法**正向**把value放入当前层的数组
-2. 偶数层 使用unshift方法**反向**把value放入当前层的数组
+// 基本思路，和普通的层次遍历是一个道理，都是使用了队列。
+// 1. 单数层 使用push方法**正向**把value放入当前层的数组
+// 2. 偶数层 使用unshift方法**反向**把value放入当前层的数组

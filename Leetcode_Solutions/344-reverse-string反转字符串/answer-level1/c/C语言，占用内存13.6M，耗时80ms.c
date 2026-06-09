@@ -1,5 +1,5 @@
 
-```
+// ```
 void reverseString(char* s, int sSize){
     char tmpStr;
     if(s != NULL)
@@ -13,4 +13,4 @@ void reverseString(char* s, int sSize){
            //printf("%c",s[i]);
         }
     }
-```
+// ```

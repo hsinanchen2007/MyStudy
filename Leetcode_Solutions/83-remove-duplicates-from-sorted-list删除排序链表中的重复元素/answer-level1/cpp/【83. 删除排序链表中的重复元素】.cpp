@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -23,10 +23,10 @@ public:
         return head;
     }
 };
-```
+// ```
 
-#### 简化代码
-```c++
+// #### 简化代码
+// ```c++
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -44,5 +44,5 @@ public:
         return head;
     }
 };
-```
+// ```
 

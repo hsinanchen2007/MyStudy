@@ -1,5 +1,5 @@
-注意单纯fn不能capture外部变量， closure又不支持递归调用，所以只能写一个struct并将所有需要引用的环境变量包含进去。
-```rust
+// 注意单纯fn不能capture外部变量， closure又不支持递归调用，所以只能写一个struct并将所有需要引用的环境变量包含进去。
+// ```rust
 const dash: [&'static str; 8] = ["abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"];
 struct Generator<'a> {
     strs: &'a Vec<&'static str>,
@@ -38,4 +38,4 @@ impl Solution {
         gen.result
     }
 }
-```
+// ```

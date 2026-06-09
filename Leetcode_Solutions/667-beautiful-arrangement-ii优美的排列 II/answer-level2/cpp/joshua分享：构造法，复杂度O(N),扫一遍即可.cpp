@@ -1,9 +1,9 @@
-### 解题思路
-joshua分享：构造法，复杂度O(N),扫一遍即可。
+// ### 解题思路
+// joshua分享：构造法，复杂度O(N),扫一遍即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> constructArray(int n, int k) {
@@ -25,4 +25,4 @@ public:
         return ans;
     }
 };
-```
+// ```

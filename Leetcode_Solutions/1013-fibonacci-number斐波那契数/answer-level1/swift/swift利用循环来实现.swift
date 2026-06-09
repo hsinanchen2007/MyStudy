@@ -1,4 +1,4 @@
-```
+// ```
 func fib(_ N: Int) -> Int {
     if N <= 1 {
         return N
@@ -13,4 +13,4 @@ func fib(_ N: Int) -> Int {
     }
     return result
 }
-```
+// ```

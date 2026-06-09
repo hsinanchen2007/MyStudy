@@ -1,12 +1,12 @@
-### 解题思路
-![微信图片_20200203143416.png](https://pic.leetcode-cn.com/c3f1151a31e0e2f78d5faf6796c800f0e97a6bc87aa81997a5629a5142487803-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200203143416.png)
+// ### 解题思路
+// ![微信图片_20200203143416.png](https://pic.leetcode-cn.com/c3f1151a31e0e2f78d5faf6796c800f0e97a6bc87aa81997a5629a5142487803-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200203143416.png)
 
-mid存的是每行有k（<mat[0].length）个的mat中的行数
-然后从0开始一个个读出来，直到返回的数组写满
+// mid存的是每行有k（<mat[0].length）个的mat中的行数
+// 然后从0开始一个个读出来，直到返回的数组写满
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] kWeakestRows(int[][] mat, int k) {
         int []res=new int[k];
@@ -35,4 +35,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

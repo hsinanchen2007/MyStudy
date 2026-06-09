@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-看到前K个类型的题目，最先想到的办法就是使用优先队列，所以优先级的判定则为出现的频率
-统计出现的频率的最好的办法就是使用HashMap
-两者结合，从优先队列中提取出前K个优先级最高的元素对应的值即可
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 看到前K个类型的题目，最先想到的办法就是使用优先队列，所以优先级的判定则为出现的频率
+// 统计出现的频率的最好的办法就是使用HashMap
+// 两者结合，从优先队列中提取出前K个优先级最高的元素对应的值即可
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> topKFrequent(int[] nums, int k) {
         List<Integer> r=new ArrayList<Integer>();        
@@ -44,4 +44,4 @@ class EleandFre {
         this.fre=fre;
     }
 }
-```
+// ```

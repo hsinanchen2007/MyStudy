@@ -1,4 +1,4 @@
-```
+// ```
 #define MAXSIZE 1001
 
 int Find(int a, int *graph) {
@@ -55,4 +55,4 @@ int* findRedundantConnection(int** edges, int edgesSize, int* edgesColSize, int*
     free(graph);
     return returnVal;
 }
-```
+// ```

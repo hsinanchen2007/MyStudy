@@ -1,9 +1,9 @@
-### 解题思路
-如下
+// ### 解题思路
+// 如下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int number) {
         long resultNumber = 0;
@@ -20,4 +20,4 @@ class Solution {
         return (int) resultNumber;
     }
 }
-```
+// ```

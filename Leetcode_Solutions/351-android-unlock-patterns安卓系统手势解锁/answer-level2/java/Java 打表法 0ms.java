@@ -1,5 +1,5 @@
-这种测试用例有限的题，直接打表最快
-```
+// 这种测试用例有限的题，直接打表最快
+// ```
 public int numberOfPatterns(int m, int n) {
         int[] nums = new int[10];
         nums[1] = 9;
@@ -17,4 +17,4 @@ public int numberOfPatterns(int m, int n) {
         }
         return res;
     }
-```
+// ```

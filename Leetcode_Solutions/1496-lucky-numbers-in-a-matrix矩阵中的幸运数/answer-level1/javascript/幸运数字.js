@@ -1,5 +1,5 @@
-用LuckyNum作为数组记录幸运数字，用min作为变量记录最小数字，记录索引,然后查找它是不是本列最大的数字，是的话就放入min数组里，作为幸运数字
-```
+// 用LuckyNum作为数组记录幸运数字，用min作为变量记录最小数字，记录索引,然后查找它是不是本列最大的数字，是的话就放入min数组里，作为幸运数字
+// ```
 var luckyNumbers = function (matrix) {
     let LuckyNum = [];
     let fun = (min, y) => {
@@ -18,4 +18,4 @@ var luckyNumbers = function (matrix) {
     }
     return LuckyNum
 };
-```
+// ```

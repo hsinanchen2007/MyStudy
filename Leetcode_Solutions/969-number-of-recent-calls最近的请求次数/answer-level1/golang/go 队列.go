@@ -1,4 +1,4 @@
-```
+// ```
 type RecentCounter struct {
 	queue []int
 }
@@ -15,4 +15,4 @@ func (this *RecentCounter) Ping(t int) int {
 	this.queue = append(this.queue, t)
 	return len(this.queue)
 }
-```
+// ```

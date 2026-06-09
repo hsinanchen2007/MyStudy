@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String getHint(String secret, String guess) {
         int len = secret.length();
@@ -27,4 +27,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

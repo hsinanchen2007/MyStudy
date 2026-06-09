@@ -1,7 +1,7 @@
-## 思路
-参考：[[LeetCode] Open the Lock 开锁](https://www.cnblogs.com/grandyang/p/8449211.html)
-### 代码
-```c++
+// ## 思路
+// 参考：[[LeetCode] Open the Lock 开锁](https://www.cnblogs.com/grandyang/p/8449211.html)
+// ### 代码
+// ```c++
 class Solution {
 public:
     int openLock(vector<string>& deadends, string target) {
@@ -31,11 +31,11 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-#### 另一种写法
-使用拼接法进行字符置换。
-```c++
+// #### 另一种写法
+// 使用拼接法进行字符置换。
+// ```c++
 class Solution {
 public:
     int openLock(vector<string>& deadends, string target) {
@@ -65,4 +65,4 @@ public:
         return -1;
     }
 };
-```
+// ```

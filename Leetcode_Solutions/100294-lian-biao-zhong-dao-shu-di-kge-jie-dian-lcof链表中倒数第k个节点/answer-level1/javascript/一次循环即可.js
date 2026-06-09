@@ -1,9 +1,9 @@
-### 解题思路
-老方法：p,q两个指针，让p先走k步，然后p,q一起走，直到p为null
+// ### 解题思路
+// 老方法：p,q两个指针，让p先走k步，然后p,q一起走，直到p为null
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var getKthFromEnd = function(head, k) {
     let p = head, q = head;
 
@@ -17,4 +17,4 @@ var getKthFromEnd = function(head, k) {
     }
     return i < k ? null : q;
 };
-```
+// ```

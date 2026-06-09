@@ -1,11 +1,11 @@
-### 解题思路
-循环嵌套
-第一个循环遍历所有整数
-第二个循环统计每个整数的位数
+// ### 解题思路
+// 循环嵌套
+// 第一个循环遍历所有整数
+// 第二个循环统计每个整数的位数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findNumbers(int* nums, int numsSize){
     int result=0;
     int i=0;
@@ -24,4 +24,4 @@ int findNumbers(int* nums, int numsSize){
     }
     return result;
 }
-```
+// ```

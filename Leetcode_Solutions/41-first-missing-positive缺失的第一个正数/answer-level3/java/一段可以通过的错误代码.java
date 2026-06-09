@@ -1,5 +1,5 @@
-可以通过256*256+256以下缺失整数的题解
-```
+// 可以通过256*256+256以下缺失整数的题解
+// ```
 class Solution {
     public int firstMissingPositive(int[] nums) {
     	if(nums.length == 0) return 1;
@@ -28,4 +28,4 @@ class Solution {
     	return 0;
     }
 }
-```
+// ```

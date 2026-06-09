@@ -1,11 +1,11 @@
-### 解题思路
-1. 广度优先BFS
-2. 实时更新状态，表示是否访问过
-3. 用Map保持mapping关系，key为旧图的Val，value为新图的Node Pointer
+// ### 解题思路
+// 1. 广度优先BFS
+// 2. 实时更新状态，表示是否访问过
+// 3. 用Map保持mapping关系，key为旧图的Val，value为新图的Node Pointer
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func cloneGraph(node *Node) *Node {
 	if node == nil {
 		return nil
@@ -37,4 +37,4 @@ func cloneGraph(node *Node) *Node {
 	return &newNode
 }
 
-```
+// ```

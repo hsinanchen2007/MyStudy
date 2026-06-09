@@ -1,9 +1,9 @@
-### 解题思路
-双指针前后俩个，前面都先走K下，后和前在一起走
+// ### 解题思路
+// 双指针前后俩个，前面都先走K下，后和前在一起走
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -24,4 +24,4 @@ func getKthFromEnd(head *ListNode, k int) *ListNode {
     }
     return pn
 }
-```
+// ```

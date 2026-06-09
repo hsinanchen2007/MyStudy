@@ -1,8 +1,8 @@
-### 解题思路
-暴力寻找abc存在就删！！！
-### 代码
+// ### 解题思路
+// 暴力寻找abc存在就删！！！
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValid(string S) {
@@ -23,4 +23,4 @@ public:
         return 0;
     }
 };
-```
+// ```

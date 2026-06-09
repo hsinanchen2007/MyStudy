@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         res = []
@@ -12,4 +12,4 @@ class Solution:
                 dfs(arr[:i] + arr[i+1:], path + [arr[i]])
         dfs(nums, [])
         return res
-```
+# ```

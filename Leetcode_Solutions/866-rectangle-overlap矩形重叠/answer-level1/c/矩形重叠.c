@@ -1,9 +1,9 @@
-### 解题思路
-重合应该是一个∠在另外一个矩形中
+// ### 解题思路
+// 重合应该是一个∠在另外一个矩形中
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a,b) (a>b?a:b)
 #define MIN(a,b) (a<b?a:b)
 
@@ -13,4 +13,4 @@ bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
         &&MAX(rec1[1],rec2[1])<MIN(rec1[3],rec2[3]);
 
 }
-```
+// ```

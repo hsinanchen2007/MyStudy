@@ -1,12 +1,12 @@
-### 解题思路
-归并排序在排序时 合并时顺便计个数
-当left 和right 都已经排序好时
-拷贝两半的数据时，当leftarr[i] > rightarr[j] 则构成了 j-ristart+1对逆序对
- 因为leftarr[i] 一定比rightarr[j]左边的都大
+// ### 解题思路
+// 归并排序在排序时 合并时顺便计个数
+// 当left 和right 都已经排序好时
+// 拷贝两半的数据时，当leftarr[i] > rightarr[j] 则构成了 j-ristart+1对逆序对
+//  因为leftarr[i] 一定比rightarr[j]左边的都大
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reversePairs(int[] nums) {
         if (nums.length==0) return 0;
@@ -43,5 +43,5 @@ class Solution {
         return lpairs+rpairs+count;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/212a9782c67d55fa6f27a0a75ebe98a2b2629357f65bb0972a853f0fe311e0ba-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/212a9782c67d55fa6f27a0a75ebe98a2b2629357f65bb0972a853f0fe311e0ba-image.png)

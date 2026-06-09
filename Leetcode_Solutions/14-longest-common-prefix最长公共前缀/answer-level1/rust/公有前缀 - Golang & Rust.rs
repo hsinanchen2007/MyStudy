@@ -1,4 +1,4 @@
-```Go
+// ```Go
 func longestCommonPrefix(strs []string) string {
 	if len(strs) == 0 { return "" }
 	str, char, ptr := &strings.Builder{}, byte(0), 0
@@ -16,9 +16,9 @@ func longestCommonPrefix(strs []string) string {
 		ptr += 1
 	}
 }
-```
+// ```
 
-```Rust
+// ```Rust
 impl Solution {
     pub fn longest_common_prefix(strs: Vec<String>) -> String {
         if strs.len() == 0 || strs[0] == "" { return "".to_string() };
@@ -43,4 +43,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

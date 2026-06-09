@@ -1,23 +1,23 @@
-### 解题思路
-方法一：遍历查找
-一次遍历，找到返回，找不到那就插入元素
+# ### 解题思路
+# 方法一：遍历查找
+# 一次遍历，找到返回，找不到那就插入元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         for index,item in enumerate(nums):
             if item>=target:
                 return index
         return len(nums)
-```
+# ```
 
-### 解题思路
-方法二：二分
+# ### 解题思路
+# 方法二：二分
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         size = len(nums)
@@ -34,4 +34,4 @@ class Solution:
             else:
                 right = mid
         return left
-```
+# ```

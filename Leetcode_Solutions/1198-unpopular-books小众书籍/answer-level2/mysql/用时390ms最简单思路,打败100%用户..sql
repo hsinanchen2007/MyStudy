@@ -1,5 +1,5 @@
 
-一、先从Orders表中提取dispatch_date的所有信息，并命名为tb1
+-- 一、先从Orders表中提取dispatch_date的所有信息，并命名为tb1
   (select * from orders
    where dispatch_date > '2018-06-23') as tb1
 

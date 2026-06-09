@@ -1,11 +1,11 @@
-思路:
+// 思路:
 
-* 创建数据结构为 Map 的 map 对象;
-  * 遍历 s, 将各字母出现的次数叠加存储进 map 中;
-  * 遍历 t, 在 map 中减少相应字母出现的个数, 并增加 map 中未收录的字母;
-* 如果最后 map 的 size 不为 0, 则 s 与 t 不是字母异位词; 否则是字母异位词;
+// * 创建数据结构为 Map 的 map 对象;
+//   * 遍历 s, 将各字母出现的次数叠加存储进 map 中;
+//   * 遍历 t, 在 map 中减少相应字母出现的个数, 并增加 map 中未收录的字母;
+// * 如果最后 map 的 size 不为 0, 则 s 与 t 不是字母异位词; 否则是字母异位词;
 
-```js
+// ```js
 /**
  * @param {string} s
  * @param {string} t
@@ -39,10 +39,10 @@ var isAnagram = function(s, t) {
     return true
   }
 };
-```
+// ```
 
-### 相关题目
+// ### 相关题目
 
-202、205、290、349、350、451
+// 202、205、290、349、350、451
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

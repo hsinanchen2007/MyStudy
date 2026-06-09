@@ -1,9 +1,9 @@
-### 解题思路
-思路2, 注意奇偶边界parseInt
+// ### 解题思路
+// 思路2, 注意奇偶边界parseInt
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -20,4 +20,4 @@ var rotate = function (matrix) {
         }
     }
 };
-```
+// ```

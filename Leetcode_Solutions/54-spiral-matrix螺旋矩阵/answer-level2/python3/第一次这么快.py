@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/1ec3351fc9dfd5e728877f4cb57608feb92e7604a35d56caba0991054c6f3335-image.png)
+# ![image.png](https://pic.leetcode-cn.com/1ec3351fc9dfd5e728877f4cb57608feb92e7604a35d56caba0991054c6f3335-image.png)
 
 
 
-```
+# ```
 class Solution:
     def spiralOrder(self, martrix: List[List[int]]) -> List[int]:
         m=len(martrix)
@@ -38,4 +38,4 @@ class Solution:
                 ans.append(martrix[i][left])
             left+=1                       
         return ans
-```
+# ```

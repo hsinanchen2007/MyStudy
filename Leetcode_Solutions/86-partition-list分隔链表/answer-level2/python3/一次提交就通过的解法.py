@@ -1,12 +1,12 @@
-### 解题思路
-解题过程：
-两个头结点low和high，一个指向小于targetValue的节点；一个指向其他的节点。遍历链表，low和high生成两个新的链表。
+# ### 解题思路
+# 解题过程：
+# 两个头结点low和high，一个指向小于targetValue的节点；一个指向其他的节点。遍历链表，low和high生成两个新的链表。
 
-关键点：
-high链表中不能有小于targetValue的节点，否则会行程环。
-### 代码
+# 关键点：
+# high链表中不能有小于targetValue的节点，否则会行程环。
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
         dumbLow.next = high.next
         
         return low.next
-```
+# ```

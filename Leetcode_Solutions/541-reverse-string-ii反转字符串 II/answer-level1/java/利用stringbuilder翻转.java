@@ -1,9 +1,9 @@
-### 解题思路
-利用stringBuilder翻转
+// ### 解题思路
+// 利用stringBuilder翻转
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseStr(String s, int k) {
         if (s.isEmpty() || s.length() == 1) {
@@ -60,4 +60,4 @@ class Solution {
         return stringBuilderTmp.toString();
     }
 }
-```
+// ```

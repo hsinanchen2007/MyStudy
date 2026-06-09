@@ -1,4 +1,4 @@
-```
+// ```
 var numberOfSteps = function (num) {
     let ans = 0
     while (0 < num) {
@@ -12,4 +12,4 @@ var numberOfSteps = function (num) {
     }
     return ans
 };
-```
+// ```

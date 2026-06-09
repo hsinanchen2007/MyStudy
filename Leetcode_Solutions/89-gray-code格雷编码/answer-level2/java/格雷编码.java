@@ -1,4 +1,4 @@
-首先要了解格雷编码的生成规则
+// 首先要了解格雷编码的生成规则
 
 public List<Integer> grayCode(int n) {
         List<Integer> list = new ArrayList<Integer>();

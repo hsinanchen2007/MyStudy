@@ -1,10 +1,10 @@
-### 解题思路
-ruby solution
-sort! in-place修改
+# ### 解题思路
+# ruby solution
+# sort! in-place修改
 
-### 代码
+# ### 代码
 
-```ruby
+# ```ruby
 # @param {Integer[]} a
 # @param {Integer} m
 # @param {Integer[]} b
@@ -18,4 +18,4 @@ def merge(a, m, b, n)
     end
     a.sort!     
 end
-```
+# ```

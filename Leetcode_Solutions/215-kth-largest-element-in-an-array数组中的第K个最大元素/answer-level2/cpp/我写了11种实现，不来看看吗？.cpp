@@ -1,50 +1,50 @@
-> 关注公众号【算法码上来】，每日算法干货马上就来！
+// > 关注公众号【算法码上来】，每日算法干货马上就来！
 
-![宣传图片.jpg](https://pic.leetcode-cn.com/447b08aefc6f64ddaf4c6b7e675bd949559a0f436db243c6fc5a026b0a685fb2-%E5%AE%A3%E4%BC%A0%E5%9B%BE%E7%89%87.jpg)
+// ![宣传图片.jpg](https://pic.leetcode-cn.com/447b08aefc6f64ddaf4c6b7e675bd949559a0f436db243c6fc5a026b0a685fb2-%E5%AE%A3%E4%BC%A0%E5%9B%BE%E7%89%87.jpg)
 
 
-## 题解
-### 排序
-对数组从大到小排序，取第 $k$ 个元素。
+// ## 题解
+// ### 排序
+// 对数组从大到小排序，取第 $k$ 个元素。
 
-或者从小到大排序，取第 $n-k+1$ 个元素。
+// 或者从小到大排序，取第 $n-k+1$ 个元素。
 
-### 小根堆+库函数
-`c++` 自带 `priority_queue<int>` ，可以实现小根堆。
+// ### 小根堆+库函数
+// `c++` 自带 `priority_queue<int>` ，可以实现小根堆。
 
-`python` 自带 `heapq` ，可以实现小根堆，同时还自带 `nlargest` 函数可以直接求出前 $k$ 大元素。
+// `python` 自带 `heapq` ，可以实现小根堆，同时还自带 `nlargest` 函数可以直接求出前 $k$ 大元素。
 
-然后维护一个大小为 $k$ 的小根堆，保存最大的 $k$ 个数，堆顶就是第 $k$ 大的数。新元素入堆，如果堆中元素个数大于 $k$ ，就将堆顶元素出堆。
+// 然后维护一个大小为 $k$ 的小根堆，保存最大的 $k$ 个数，堆顶就是第 $k$ 大的数。新元素入堆，如果堆中元素个数大于 $k$ ，就将堆顶元素出堆。
 
-### 大根堆+库函数
+// ### 大根堆+库函数
 
-`c++` 自带 `priority_queue<int, vector<int>, greater<int>>` ，可以实现大根堆。
+// `c++` 自带 `priority_queue<int, vector<int>, greater<int>>` ，可以实现大根堆。
 
-`python` 没有大根堆实现。
+// `python` 没有大根堆实现。
 
-然后维护一个大小为 $n-k+1$ 的大根堆，保存最小的 $n-k+1$ 个数，堆顶就是第 $n-k+1$ 小的数，即第 $k$ 大的数。新元素入堆，如果堆中元素个数大于 $n-k+1$ ，就将堆顶元素出堆。
+// 然后维护一个大小为 $n-k+1$ 的大根堆，保存最小的 $n-k+1$ 个数，堆顶就是第 $n-k+1$ 小的数，即第 $k$ 大的数。新元素入堆，如果堆中元素个数大于 $n-k+1$ ，就将堆顶元素出堆。
 
-### 小根堆+手写
-利用原地算法，直接将原数组当作一个小根堆。
+// ### 小根堆+手写
+// 利用原地算法，直接将原数组当作一个小根堆。
 
-首先对前 $k$ 个元素建立初始堆。然后遍历后面的元素，如果大于堆顶元素的话，就和堆顶元素交换位置，并调整堆。
+// 首先对前 $k$ 个元素建立初始堆。然后遍历后面的元素，如果大于堆顶元素的话，就和堆顶元素交换位置，并调整堆。
 
-小根堆大小始终为 $k$ 。
+// 小根堆大小始终为 $k$ 。
 
-### 大根堆+手写
-利用原地算法，直接将原数组当作一个大根堆。
+// ### 大根堆+手写
+// 利用原地算法，直接将原数组当作一个大根堆。
 
-首先对前 $n-k+1$ 个元素建立初始堆。然后遍历后面的元素，如果小于堆顶元素的话，就和堆顶元素交换位置，并调整堆。
+// 首先对前 $n-k+1$ 个元素建立初始堆。然后遍历后面的元素，如果小于堆顶元素的话，就和堆顶元素交换位置，并调整堆。
 
-大根堆大小始终为 $n-k+1$ 。
+// 大根堆大小始终为 $n-k+1$ 。
 
-### 快速选择
-思想类似于快速排序，首先随机选取一个元素 $p$，然后将区间内元素比 $p$ 小的都放在 $p$ 左边，比 $p$ 大的都放在 $p$ 右边。
+// ### 快速选择
+// 思想类似于快速排序，首先随机选取一个元素 $p$，然后将区间内元素比 $p$ 小的都放在 $p$ 左边，比 $p$ 大的都放在 $p$ 右边。
 
-然后看 $p$ 的下标 $i$，如果 $i+1 = n-k+1$，那就说明 $p$ 就是第 $n-k+1$ 小（第 $k$ 大）的元素，直接返回即可。否则如果 $i+1 < n-k+1$，那就说明第 $k$ 大元素在 $p$ 的右边区间内，递归寻找即可。否则就在左边区间，递归寻找。
-## 代码
-### 排序（c++）
-```cpp
+// 然后看 $p$ 的下标 $i$，如果 $i+1 = n-k+1$，那就说明 $p$ 就是第 $n-k+1$ 小（第 $k$ 大）的元素，直接返回即可。否则如果 $i+1 < n-k+1$，那就说明第 $k$ 大元素在 $p$ 的右边区间内，递归寻找即可。否则就在左边区间，递归寻找。
+// ## 代码
+// ### 排序（c++）
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -52,10 +52,10 @@ public:
         return nums[k-1];
     }
 };
-```
+// ```
 
-### 小根堆+STL优先队列（c++）
-```cpp
+// ### 小根堆+STL优先队列（c++）
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -67,10 +67,10 @@ public:
         return Q.top();
     }
 };
-```
+// ```
 
-### 大根堆+STL优先队列（c++）
-```cpp
+// ### 大根堆+STL优先队列（c++）
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -82,10 +82,10 @@ public:
         return Q.top();
     }
 };
-```
+// ```
 
-### 小根堆+手写（c++）
-```cpp
+// ### 小根堆+手写（c++）
+// ```cpp
 class Solution {
 public:
     void adjust(vector<int>& nums, int p, int s) {
@@ -112,10 +112,10 @@ public:
         return nums[0];
     }
 };
-```
+// ```
 
-### 大根堆+手写（c++）
-```cpp
+// ### 大根堆+手写（c++）
+// ```cpp
 class Solution {
 public:
     void adjust(vector<int>& nums, int p, int s) {
@@ -142,10 +142,10 @@ public:
         return nums[0];
     }
 };
-```
+// ```
 
-### 快速选择（c++）
-```cpp
+// ### 快速选择（c++）
+// ```cpp
 class Solution {
 public:
     int partition(vector<int>& nums, int l, int r) {
@@ -174,26 +174,26 @@ public:
         return quickSelect(nums, 0, n-1, n-k+1);
     }
 };
-```
+// ```
 
 
-### 排序（python）
-```python
+// ### 排序（python）
+// ```python
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         nums.sort(reverse=True)
         return nums[k-1]
-```
+// ```
 
-### 小根堆+heapq（python）
-```python
+// ### 小根堆+heapq（python）
+// ```python
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         return heapq.nlargest(k, nums)[-1]
-```
+// ```
 
-### 小根堆+手写（python）
-```python
+// ### 小根堆+手写（python）
+// ```python
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         def adjust(nums, p, s):
@@ -214,10 +214,10 @@ class Solution:
             nums[0], nums[i] = nums[i], nums[0]
             adjust(nums, 0, k)
         return nums[0]
-```
+// ```
 
-### 大根堆+手写（python）
-```python
+// ### 大根堆+手写（python）
+// ```python
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         def adjust(nums, p, s):
@@ -238,10 +238,10 @@ class Solution:
             nums[0], nums[i] = nums[i], nums[0]
             adjust(nums, 0, (n-k+1))
         return nums[0]
-```
+// ```
 
-### 快速选择（python）
-```python
+// ### 快速选择（python）
+// ```python
 import random
 
 class Solution:
@@ -265,4 +265,4 @@ class Solution:
 
         n = len(nums)
         return quickSelect(nums, 0, n-1, n-k+1)
-```
+// ```

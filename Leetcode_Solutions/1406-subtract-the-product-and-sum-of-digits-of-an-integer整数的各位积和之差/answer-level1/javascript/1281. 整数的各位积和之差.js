@@ -1,9 +1,9 @@
-### 解题思路
-直接算就行了没啥特别思路
+// ### 解题思路
+// 直接算就行了没啥特别思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -22,4 +22,4 @@ var subtractProductAndSum = function (n) {
     })
     return multi - sum
 };
-```
+// ```

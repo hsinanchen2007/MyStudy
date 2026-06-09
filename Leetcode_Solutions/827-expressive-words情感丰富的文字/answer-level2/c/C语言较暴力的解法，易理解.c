@@ -1,9 +1,9 @@
 
 
-![temp.PNG](https://pic.leetcode-cn.com/ded35d3c7e5e2ade0d14207f594a03274a6cc67f9ec1d2b9e14ade0e27e1c8f4-temp.PNG)
+// ![temp.PNG](https://pic.leetcode-cn.com/ded35d3c7e5e2ade0d14207f594a03274a6cc67f9ec1d2b9e14ade0e27e1c8f4-temp.PNG)
 
 
-```
+// ```
 typedef struct {
     char word;
     int wordCnt;
@@ -84,6 +84,6 @@ int expressiveWords(char * S, char ** words, int wordsSize){
     }
     return ret;
 }
-```
+// ```
 
 

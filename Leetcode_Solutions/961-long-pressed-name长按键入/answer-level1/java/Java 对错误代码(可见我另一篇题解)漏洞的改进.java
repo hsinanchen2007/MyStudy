@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-在这里对 typed 后面的字符也进行了判断
+// 在这里对 typed 后面的字符也进行了判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isLongPressedName(String name, String typed) {
 	    int i=0;
@@ -25,4 +25,4 @@ class Solution {
 	    return j==name.length() && isRight;   
     } 
 }
-```
+// ```

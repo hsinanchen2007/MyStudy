@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def totalNQueens(self, n: int) -> int:
         def set1(li):
@@ -9,4 +9,4 @@ class Solution:
         ans = []                                                              #1.定义一个全局列表，用以保存结果（为什么我用number类型的全局变量不行？求大神告知）
         for j in range(n):set1([j])#2.set1每次确定一行的皇后位置，这里是第一行。传递的数组记录了皇后的位置信息，比如数组[1,3]表示第0行皇后在1号位，第1行在3号位
         return len(ans)
-```
+# ```

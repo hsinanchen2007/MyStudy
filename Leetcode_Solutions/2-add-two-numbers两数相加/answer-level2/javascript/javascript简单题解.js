@@ -1,12 +1,12 @@
-### 解题思路
-定义一个值add，判断两个链表的值相加是否超过10，超过则往后进1
-两个链表的val相加，并加上add，计算下一次的add，以及相加后的个位数
-将得到的个位数塞进保存结果的链表
-注意最后相加时，是否有进1
+// ### 解题思路
+// 定义一个值add，判断两个链表的值相加是否超过10，超过则往后进1
+// 两个链表的val相加，并加上add，计算下一次的add，以及相加后的个位数
+// 将得到的个位数塞进保存结果的链表
+// 注意最后相加时，是否有进1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -46,4 +46,4 @@ var addTwoNumbers = function(l1, l2) {
     if (add) temp.next = new ListNode(add);
     return result;
 };
-```
+// ```

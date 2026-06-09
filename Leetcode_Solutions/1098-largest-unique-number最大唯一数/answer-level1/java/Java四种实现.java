@@ -1,7 +1,7 @@
-## 利用TreeMap统计次数并排序
-8ms，时间复杂度O(NlogN)
+// ## 利用TreeMap统计次数并排序
+// 8ms，时间复杂度O(NlogN)
 
-```
+// ```
     public int largestUniqueNumber(int[] A) {
         TreeMap<Integer,Integer> map=new TreeMap<>();
         for(int val:A){
@@ -16,12 +16,12 @@
         }
         return -1;
     }
-```
+// ```
 
-## 排序后从后往前找
-2ms,O(NlogN)
+// ## 排序后从后往前找
+// 2ms,O(NlogN)
 
-```
+// ```
  public int largestUniqueNumber(int[] A) {
         Arrays.sort(A);
         int n=A.length;
@@ -41,12 +41,12 @@
         }
         return -1;
     }
-```
+// ```
 
-## 排序+二分
-先找到最后一个，二分搜索找到该值的第一个出现的位置，O(NlogN) 2ms
+// ## 排序+二分
+// 先找到最后一个，二分搜索找到该值的第一个出现的位置，O(NlogN) 2ms
 
-```
+// ```
     public int largestUniqueNumber(int[] A) {
         Arrays.sort(A);
         int n=A.length;
@@ -79,12 +79,12 @@
         }
         return -1;
     }
-```
+// ```
 
-## 桶排序
-根据题意，N<=2*10^3，取值M<=10^3 
-O(N+M) 1ms，100%
-```
+// ## 桶排序
+// 根据题意，N<=2*10^3，取值M<=10^3 
+// O(N+M) 1ms，100%
+// ```
     public int largestUniqueNumber(int[] A) {
         int[] frq=new int[1001];
         for(int val:A){
@@ -97,5 +97,5 @@ O(N+M) 1ms，100%
         }
         return -1;
     }
-```
+// ```
 

@@ -1,7 +1,7 @@
-indexes未必有序，所以先排序，并将排序顺序应用到sources和targets上。
-替换时注意追加上前一次替换后剩余的部分。
+# indexes未必有序，所以先排序，并将排序顺序应用到sources和targets上。
+# 替换时注意追加上前一次替换后剩余的部分。
 
-```
+# ```
 class Solution(object):
     def findReplaceString(self, S, indexes, sources, targets):
         """
@@ -29,4 +29,4 @@ class Solution(object):
                 last_pos = start+src_len
         T.append(S[last_pos:])
         return ''.join(T)
-```
+# ```

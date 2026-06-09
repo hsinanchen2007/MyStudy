@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sortedSquares(self, A: List[int]) -> List[int]:
         # 1. most stupid approach comes into your mind first
@@ -30,4 +30,4 @@ class Solution:
             j += 1
             
         return ans
-```
+# ```

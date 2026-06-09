@@ -1,4 +1,4 @@
-```
+// ```
 bool dfs(int *nums, int step, int dst)
 {
     if (step >= dst) {
@@ -28,4 +28,4 @@ bool canJump(int* nums, int numsSize){
     bool flag = dfs(nums, 0, numsSize - 1);
     return flag;
 }
-```
+// ```

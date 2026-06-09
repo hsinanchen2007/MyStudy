@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-比较值得一说的是add和delete
-因为需要获取前一个node,设置node的next的值，所以我们可以把while的条件前进一步，index>0改为index>1
-获取到前一个node,直接对node进行操作
+// ### 解题思路
+// 此处撰写解题思路
+// 比较值得一说的是add和delete
+// 因为需要获取前一个node,设置node的next的值，所以我们可以把while的条件前进一步，index>0改为index>1
+// 获取到前一个node,直接对node进行操作
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyLinkedList {
     private Node head;
     private int capacity;
@@ -141,4 +141,4 @@ class MyLinkedList {
  * obj.addAtIndex(index,val);
  * obj.deleteAtIndex(index);
  */
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 function generate($numRows)
 {
     $return = [];
@@ -13,4 +13,4 @@ function generate($numRows)
     }
     return $return;
 }
-```
+// ```

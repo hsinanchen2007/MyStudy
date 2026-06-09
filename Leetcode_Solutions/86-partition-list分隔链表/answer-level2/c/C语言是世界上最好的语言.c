@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* partition(struct ListNode* head, int x)
 {
     struct ListNode*l, *ge, **pl = &l, **pge = &ge;
@@ -16,4 +16,4 @@ struct ListNode* partition(struct ListNode* head, int x)
     *pl = ge;   //l链表尾指向ge
     return l;
 }
-```
+// ```

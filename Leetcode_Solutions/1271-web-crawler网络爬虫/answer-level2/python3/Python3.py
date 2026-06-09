@@ -1,5 +1,5 @@
-![be08f9c861ed4b3a4df5bfeaff2957b.png](https://pic.leetcode-cn.com/e15c6ded365d96344754223e942522017b4cc68ad2ef182165cb1e8bc56efbda-be08f9c861ed4b3a4df5bfeaff2957b.png)
-```python []
+# ![be08f9c861ed4b3a4df5bfeaff2957b.png](https://pic.leetcode-cn.com/e15c6ded365d96344754223e942522017b4cc68ad2ef182165cb1e8bc56efbda-be08f9c861ed4b3a4df5bfeaff2957b.png)
+# ```python []
 # """
 # This is HtmlParser's API interface.
 # You should not implement it, or speculate about its implementation
@@ -24,4 +24,4 @@ class Solution:
                     rec_set.add(i)
                     rec_list.append(i)
         return rec_list
-```
+# ```

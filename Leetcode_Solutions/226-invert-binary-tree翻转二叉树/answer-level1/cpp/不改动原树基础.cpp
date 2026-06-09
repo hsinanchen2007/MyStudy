@@ -1,9 +1,9 @@
-### 解题思路
-是在不改动原树的基础上进行的操作
-关键点每一次递归进函数的时候需要new TreeNode*
-### 代码
+// ### 解题思路
+// 是在不改动原树的基础上进行的操作
+// 关键点每一次递归进函数的时候需要new TreeNode*
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,4 +23,4 @@ public:
 	   return node;
     }
 };
-```
+// ```

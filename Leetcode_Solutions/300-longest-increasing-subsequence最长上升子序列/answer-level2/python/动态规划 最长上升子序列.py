@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution(object):
     def lengthOfLIS(self, nums):
         """
@@ -19,5 +19,5 @@ class Solution(object):
             result = max(result,dp[i]) #4）注意要在dp[i]里选max值
             
         return result
-```
+# ```
 

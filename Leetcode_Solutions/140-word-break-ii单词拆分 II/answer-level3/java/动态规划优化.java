@@ -1,6 +1,6 @@
-第一版 代码超时及其原因
-超时代码，dp MAP在key接近s.length()的List中存在大量可到达末尾的路径，对该数组进行遍历耗时巨长
-```
+// 第一版 代码超时及其原因
+// 超时代码，dp MAP在key接近s.length()的List中存在大量可到达末尾的路径，对该数组进行遍历耗时巨长
+// ```
 class Solution {
     public List<String> wordBreak(String s, List<String> wordDict) {
     	List<String> res = new LinkedList<>();
@@ -71,11 +71,11 @@ class Solution {
     	return res;
     }
 }
-```
-第二版,总算不超时了
-先找出动态规划在s中可到达的位置 dpPointList
-依次在dpPointList中寻找可将s分割完整的word最后将其空格拼接，存入res中
-```
+// ```
+// 第二版,总算不超时了
+// 先找出动态规划在s中可到达的位置 dpPointList
+// 依次在dpPointList中寻找可将s分割完整的word最后将其空格拼接，存入res中
+// ```
 class Solution {
 	private LinkedList<Integer> dpPointList = new LinkedList<>();
 	private HashSet<String> dictSet = new HashSet<>();
@@ -149,4 +149,4 @@ class Solution {
 		}
     }
 }
-```
+// ```

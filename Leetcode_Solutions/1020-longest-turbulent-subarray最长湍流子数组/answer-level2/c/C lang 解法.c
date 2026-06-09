@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/cd543dbcac8fcde337f3ebacf0a252fe8c855d7c48298f9eaaabfa7a12eef667-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cd543dbcac8fcde337f3ebacf0a252fe8c855d7c48298f9eaaabfa7a12eef667-image.png)
 
-### 解题思路
-思路和这道题[最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/)一样，
-只不过这道题多了层包装而已
-将数组化为 1，-1，1，-1，-1，0 这种形式；
-再遍历一遍，统计前后元素互为相反数的子序列的长度即可。
+// ### 解题思路
+// 思路和这道题[最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/)一样，
+// 只不过这道题多了层包装而已
+// 将数组化为 1，-1，1，-1，-1，0 这种形式；
+// 再遍历一遍，统计前后元素互为相反数的子序列的长度即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxTurbulenceSize(int* A, int ASize){
     if(ASize<=1) return ASize;
     int cnt=1,maxLen=0,cnt_0=0;
@@ -28,4 +28,4 @@ int maxTurbulenceSize(int* A, int ASize){
 
     return cnt_0==ASize-1? 1 : (maxLen+1);
 }
-```
+// ```

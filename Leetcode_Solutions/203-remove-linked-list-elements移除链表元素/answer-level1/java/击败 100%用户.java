@@ -1,6 +1,6 @@
-![WX20191107-002424@2x.png](https://pic.leetcode-cn.com/298fb84f6c9e7a4b58e4611ab0d071ad75358a868a6dc80a1e326685cc152781-WX20191107-002424@2x.png)
+// ![WX20191107-002424@2x.png](https://pic.leetcode-cn.com/298fb84f6c9e7a4b58e4611ab0d071ad75358a868a6dc80a1e326685cc152781-WX20191107-002424@2x.png)
 
-```
+// ```
 public static ListNode removeElements(ListNode head, int val) {
     /*定义一个哑节点*/
     ListNode dumb = new ListNode(0);
@@ -21,4 +21,4 @@ public static ListNode removeElements(ListNode head, int val) {
     }
     return dumb.next;
   }
-```
+// ```

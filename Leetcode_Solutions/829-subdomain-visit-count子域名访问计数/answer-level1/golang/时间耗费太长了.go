@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func subdomainVisits(cpdomains []string) []string {
 	m:=make(map[string]int)
 	for i:=0;i< len(cpdomains);i++{
@@ -32,4 +32,4 @@ func subdomainVisits(cpdomains []string) []string {
 	}
 	return res
 }
-```
+// ```

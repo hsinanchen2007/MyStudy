@@ -1,13 +1,13 @@
-### 解题思路
-![QQ图片20200117102129.png](https://pic.leetcode-cn.com/75dc312921b2f6ae658ab8607136da00baf6fc155cfa99c55da59c9854994529-QQ%E5%9B%BE%E7%89%8720200117102129.png)
+// ### 解题思路
+// ![QQ图片20200117102129.png](https://pic.leetcode-cn.com/75dc312921b2f6ae658ab8607136da00baf6fc155cfa99c55da59c9854994529-QQ%E5%9B%BE%E7%89%8720200117102129.png)
 
-+ 令一标记值比数组中最后一个元素要大（最大的）
-+ 遍历一遍数组，碰到个数大于三个的令后面的均为标记值
-+ 再遍历一边数组，去除标记值
+// + 令一标记值比数组中最后一个元素要大（最大的）
+// + 遍历一遍数组，碰到个数大于三个的令后面的均为标记值
+// + 再遍历一边数组，去除标记值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -35,4 +35,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

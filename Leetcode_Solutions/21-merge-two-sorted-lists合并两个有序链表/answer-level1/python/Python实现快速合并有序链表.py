@@ -1,16 +1,16 @@
-### 解题思路
-1.使用一个新ListNode保存合并后的数据
-2. 由于两个链表都有序，可以一次循环两个链表
-3. 依次比较两个链表的元素，元素小的添加到新ListNode，然后赋值当前小的元素为当前元素的next再进行比较
-4. 如果当前元素已经为None，证明所有元素已经比较完了，如果此时其他链表还有元素存在，可以直接将剩下元素添加ListNode中
-5. 这里使用一点trick的方法，应为默认ListNode的对象要有值，而同时要有个新的Listnode对象来添加元素，所以使用一个空字符串值对象，不是None，这样返回结果的时候就是对象的next，因为前面有个空字符串值
+# ### 解题思路
+# 1.使用一个新ListNode保存合并后的数据
+# 2. 由于两个链表都有序，可以一次循环两个链表
+# 3. 依次比较两个链表的元素，元素小的添加到新ListNode，然后赋值当前小的元素为当前元素的next再进行比较
+# 4. 如果当前元素已经为None，证明所有元素已经比较完了，如果此时其他链表还有元素存在，可以直接将剩下元素添加ListNode中
+# 5. 这里使用一点trick的方法，应为默认ListNode的对象要有值，而同时要有个新的Listnode对象来添加元素，所以使用一个空字符串值对象，不是None，这样返回结果的时候就是对象的next，因为前面有个空字符串值
 
-时间复杂度O(n+m)
-空间复杂度O(1)
+# 时间复杂度O(n+m)
+# 空间复杂度O(1)
 
-### 代码
-以下为官方的代码，还是官方提供的代码质量更高，学习了。
-```
+# ### 代码
+# 以下为官方的代码，还是官方提供的代码质量更高，学习了。
+# ```
 class Solution(object):
     def mergeTwoLists(self, l1, l2):
         """
@@ -39,11 +39,11 @@ class Solution(object):
         l3.next = l1 if l1 is not None else l2
         return ret.next
     
-```
+# ```
 
 
 
-```python
+# ```python
 # Definition for singly-linked list.
 class ListNode(object):
      def __init__(self, x):
@@ -104,4 +104,4 @@ class Solution(object):
             l1 = l1.next
             l3.next = item
             l3 = l3.next
-```
+# ```

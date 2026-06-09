@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Solution {
 public:
     int closestValue(TreeNode* root, double target) {        
@@ -23,4 +23,4 @@ public:
         return ans;        
     }
 };
-```
+// ```

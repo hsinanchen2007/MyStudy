@@ -1,5 +1,5 @@
-感觉取模很坑啊...
-```java
+// 感觉取模很坑啊...
+// ```java
 class Solution {
     public int fib(int n) {
         if(n<=1)
@@ -13,4 +13,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

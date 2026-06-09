@@ -1,9 +1,9 @@
-### 解题思路
-先确定c起始位置，再选择最大值
+// ### 解题思路
+// 先确定c起始位置，再选择最大值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int[] b = new int[nums.length];
@@ -24,4 +24,4 @@ class Solution {
         return c;
     }
 }
-```
+// ```

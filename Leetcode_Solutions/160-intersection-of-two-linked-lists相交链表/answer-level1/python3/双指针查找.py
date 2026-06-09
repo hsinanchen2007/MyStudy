@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def getIntersectionNode(self, headA, headB):
         """
@@ -11,4 +11,4 @@ class Solution(object):
             l = l.next if l else headB
             r = r.next if r else headA
         return l
-```
+# ```

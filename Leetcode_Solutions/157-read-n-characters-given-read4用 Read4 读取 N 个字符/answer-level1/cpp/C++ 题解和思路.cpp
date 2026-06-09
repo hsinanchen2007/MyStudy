@@ -1,5 +1,5 @@
-就是循环读文件，注意点在注释中
-```
+// 就是循环读文件，注意点在注释中
+// ```
 // Forward declaration of the read4 API.
 int read4(char *buf);
 
@@ -31,4 +31,4 @@ public:
         return total;
     }
 };
-```
+// ```

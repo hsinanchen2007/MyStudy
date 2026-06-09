@@ -1,5 +1,5 @@
-解法一：
-```
+// 解法一：
+// ```
 class Solution {
 public:
     int bisearch(vector<int>& nums, int t) {
@@ -41,13 +41,13 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/ff087d625b462c75aa8235bfb2886fbf79a91d7ee4cc8f9999f1844d94c235c6-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/ff087d625b462c75aa8235bfb2886fbf79a91d7ee4cc8f9999f1844d94c235c6-image.png)
 
 
-解法二：
-参考官方题解：
-```
+// 解法二：
+// 参考官方题解：
+// ```
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
@@ -64,5 +64,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/efa23279e3bc79f3e323cf040d9aa8aa447161c5d991624295d4de3efc4e58e9-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/efa23279e3bc79f3e323cf040d9aa8aa447161c5d991624295d4de3efc4e58e9-image.png)

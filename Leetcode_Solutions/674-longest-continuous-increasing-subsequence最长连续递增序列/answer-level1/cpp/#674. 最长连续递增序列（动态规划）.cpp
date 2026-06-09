@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int findLengthOfLCIS(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return maxLen;
     }
 };
-```
+// ```

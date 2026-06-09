@@ -1,8 +1,8 @@
-### 解题思路
-go 使用栈进行后续遍历
-### 代码
+// ### 解题思路
+// go 使用栈进行后续遍历
+// ### 代码
 
-```golang
+// ```golang
 
 func postorderTraversal(root *TreeNode) []int {
 	var st Stack
@@ -71,4 +71,4 @@ func (this *Stack) Push(value interface{}) {
 	this.top = n
 	this.length++
 }
-```
+// ```

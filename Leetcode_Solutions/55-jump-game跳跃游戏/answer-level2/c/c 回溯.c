@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
 int visited[50000];
 int dfs(int pos, int *nums, int numsSize) {
@@ -27,4 +27,4 @@ bool canJump(int* nums, int numsSize){
     memset(visited, 0, sizeof(visited));
     return dfs(0, nums, numsSize);
 }
-```
+// ```

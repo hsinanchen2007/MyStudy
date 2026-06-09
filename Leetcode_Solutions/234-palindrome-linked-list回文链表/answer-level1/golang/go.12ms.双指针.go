@@ -1,4 +1,4 @@
-```go
+// ```go
 /**
  * 方法一：复制到数组，双指针前后遍历 . 32ms
  */
@@ -23,9 +23,9 @@ func isPalindrome(head *ListNode) bool {
 	}
 	return true
 }
-```
+// ```
 
-```go
+// ```go
 /**
  * 方法二：快慢指针 . 12ms
  * 通过快慢指针找到中点，反转后半部分链表且进行比较
@@ -64,4 +64,4 @@ func reverse(head *ListNode) *ListNode {
 	}
 	return prev
 }
-```
+// ```

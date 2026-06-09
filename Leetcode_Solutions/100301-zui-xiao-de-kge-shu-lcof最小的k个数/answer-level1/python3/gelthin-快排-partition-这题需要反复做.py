@@ -1,32 +1,32 @@
-### 解题思路
-同题目 [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
+# ### 解题思路
+# 同题目 [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
 
-同题目 [面试题 17.14. 最小K个数](https://leetcode-cn.com/problems/smallest-k-lcci/)， 其题解 [gelthin-最坏情况partition-O(nk)](https://leetcode-cn.com/problems/smallest-k-lcci/solution/gelthin-zui-pi-qing-kuang-partition-onk-by-gelthin/)中分析了最坏情况下，所有元素都相同，partition每一次只能排出一个元素，效率为 O(n*k)
-
-
-这题直接用 partition， 直至找到 pivot_index == k, 使其前的 k 个值小于 pivot, 后面的值大于 pivot.
-不需要完全排完序再处理。
-
-我之前的想法是找到第 k 小的元素，然后在把其他元素和它比较，保留比它小的。
-但实际上， 如果使用 partition，找到第 k 小的元素时，arr 已经发生了改变。当我们判断这个元素为第 k 大，实际上就是其前面的元素都比它小，其后面元素都比它大。这里也已经知道了前 k 小的元素。
-
-这里的循环 partition 相当于 selection 的复杂度，平均下来是 O(n) 的复杂度。 
-
-T(n) = T(n/2) + O(n)
-
-与带 selection 的 partition 有一些不同之处。按照 Huangyu 老师的 PPT 写的快排过于冗余，且复杂。
-按照算法导论上有很好的代码模板。在 GitHub 上搜索 ACM 搜到了 quicksort 一个不错的[不错的实现](https://github.com/matthewsamuel95/ACM-ICPC-Algorithms/blob/master/Sorting/QuickSort/python/QuickSort.py)
-
-#### 突然醒悟其实这就是基于partition 实现的 selection，不同之处只是在于: 返回第 k+1 个元素还是前 k 个元素。
-因为做完 selection 后，这里的 partition 必然也实现了此效果。
-
-基于 selection 的 partition, 可以用 O(n) 时间把 median 当做 pivot.
+# 同题目 [面试题 17.14. 最小K个数](https://leetcode-cn.com/problems/smallest-k-lcci/)， 其题解 [gelthin-最坏情况partition-O(nk)](https://leetcode-cn.com/problems/smallest-k-lcci/solution/gelthin-zui-pi-qing-kuang-partition-onk-by-gelthin/)中分析了最坏情况下，所有元素都相同，partition每一次只能排出一个元素，效率为 O(n*k)
 
 
+# 这题直接用 partition， 直至找到 pivot_index == k, 使其前的 k 个值小于 pivot, 后面的值大于 pivot.
+# 不需要完全排完序再处理。
 
-### 代码
+# 我之前的想法是找到第 k 小的元素，然后在把其他元素和它比较，保留比它小的。
+# 但实际上， 如果使用 partition，找到第 k 小的元素时，arr 已经发生了改变。当我们判断这个元素为第 k 大，实际上就是其前面的元素都比它小，其后面元素都比它大。这里也已经知道了前 k 小的元素。
 
-```python3
+# 这里的循环 partition 相当于 selection 的复杂度，平均下来是 O(n) 的复杂度。 
+
+# T(n) = T(n/2) + O(n)
+
+# 与带 selection 的 partition 有一些不同之处。按照 Huangyu 老师的 PPT 写的快排过于冗余，且复杂。
+# 按照算法导论上有很好的代码模板。在 GitHub 上搜索 ACM 搜到了 quicksort 一个不错的[不错的实现](https://github.com/matthewsamuel95/ACM-ICPC-Algorithms/blob/master/Sorting/QuickSort/python/QuickSort.py)
+
+# #### 突然醒悟其实这就是基于partition 实现的 selection，不同之处只是在于: 返回第 k+1 个元素还是前 k 个元素。
+# 因为做完 selection 后，这里的 partition 必然也实现了此效果。
+
+# 基于 selection 的 partition, 可以用 O(n) 时间把 median 当做 pivot.
+
+
+
+# ### 代码
+
+# ```python3
 class Solution:
 
     def extendLargeRegion(self, arr, pivot, lowVac, high):
@@ -92,11 +92,11 @@ class Solution:
 
         return arr[:k]
 
-```
+# ```
 
-### 代码2 更先进的 partition 代码，不输入 pivot 
+# ### 代码2 更先进的 partition 代码，不输入 pivot 
 
-```python3
+# ```python3
 class Solution:
 
     def partition(self, arr, first, last):
@@ -134,4 +134,4 @@ class Solution:
                 left = split_ind+1  # 不 +1 会陷入死循环
 
         return arr[:k]
-```
+# ```

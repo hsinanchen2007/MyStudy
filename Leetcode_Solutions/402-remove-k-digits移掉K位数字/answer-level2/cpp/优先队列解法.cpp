@@ -1,5 +1,5 @@
-代码写的很糟糕，如果有需要可以私信我，我重新写一遍
-```
+// 代码写的很糟糕，如果有需要可以私信我，我重新写一遍
+// ```
 class Solution {
 public:
     string removeKdigits(string num, int k) {
@@ -84,5 +84,5 @@ public:
         return res;
     }
 };
-```
-![Screen Shot 2019-12-01 at 9.35.17 PM.png](https://pic.leetcode-cn.com/f29b3e79793390949ba4c3c9cd968f9e8fe95640006aa2fb6e6fca9132a2c9cd-Screen%20Shot%202019-12-01%20at%209.35.17%20PM.png)
+// ```
+// ![Screen Shot 2019-12-01 at 9.35.17 PM.png](https://pic.leetcode-cn.com/f29b3e79793390949ba4c3c9cd968f9e8fe95640006aa2fb6e6fca9132a2c9cd-Screen%20Shot%202019-12-01%20at%209.35.17%20PM.png)

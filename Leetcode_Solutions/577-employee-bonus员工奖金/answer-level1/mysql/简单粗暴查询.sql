@@ -1,12 +1,12 @@
-### 解题思路
+-- ### 解题思路
 
 
-1.排除Employee中bonus>=1000得员工;
-2.合并Bonus和Employee展示name 和 bonus
+-- 1.排除Employee中bonus>=1000得员工;
+-- 2.合并Bonus和Employee展示name 和 bonus
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 SELECT E0.name, B0.bonus
@@ -16,4 +16,4 @@ FROM (
   ) E0
 LEFT JOIN Bonus B0
 ON B0.empId = E0.empId
-```
+-- ```

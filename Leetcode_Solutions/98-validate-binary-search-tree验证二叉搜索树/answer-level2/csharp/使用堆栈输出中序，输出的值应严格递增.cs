@@ -1,9 +1,9 @@
-### 解题思路
-有个小坑 不设置first标志位，当树为[-int.MinValue]会因为nodeVal和pre的初值返回false，这时不应进行大小比较，单个数直接返回true。
+// ### 解题思路
+// 有个小坑 不设置first标志位，当树为[-int.MinValue]会因为nodeVal和pre的初值返回false，这时不应进行大小比较，单个数直接返回true。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

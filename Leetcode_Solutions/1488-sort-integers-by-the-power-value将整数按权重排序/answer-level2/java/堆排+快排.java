@@ -1,6 +1,6 @@
-堆排34ms
+// 堆排34ms
 
-```cpp
+// ```cpp
 class Solution {
 
     public int getKth(int lo, int hi, int k) {
@@ -27,10 +27,10 @@ class Solution {
         return c;
     }
 }
-```
+// ```
 
-快排25ms
-```cpp
+// 快排25ms
+// ```cpp
 class Solution {
 
     public int getKth(int lo, int hi, int k) {
@@ -86,5 +86,5 @@ class Solution {
         return c;
     }
 }
-```
+// ```
 

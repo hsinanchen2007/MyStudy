@@ -1,8 +1,8 @@
 
-将字母出现的次数放在数组中，如果words[i]中有哪个字母数量超过chars中的字母数量，就跳过该次循环
+// 将字母出现的次数放在数组中，如果words[i]中有哪个字母数量超过chars中的字母数量，就跳过该次循环
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -22,4 +22,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

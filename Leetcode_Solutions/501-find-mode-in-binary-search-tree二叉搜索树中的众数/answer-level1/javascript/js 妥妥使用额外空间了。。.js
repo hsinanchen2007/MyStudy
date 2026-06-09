@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/a8fde67e6d8890b56ed69480fe153e697a06b1bac62b1da6a8ee6fc09a3910fe-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a8fde67e6d8890b56ed69480fe153e697a06b1bac62b1da6a8ee6fc09a3910fe-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 使用额外空间的方法 map 记录
 遍历 root 的所有节点，记录到 map 中，统计众数，返回
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -51,4 +51,4 @@ var findMode = function(root) {
   
   return ans;
 };
-```
+// ```

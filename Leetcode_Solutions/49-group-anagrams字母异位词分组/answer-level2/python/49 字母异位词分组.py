@@ -1,9 +1,9 @@
-### 解题思路
-字符串数组，用sort和dict解决。
+# ### 解题思路
+# 字符串数组，用sort和dict解决。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def groupAnagrams(self, strs):
         """
@@ -33,4 +33,4 @@ class Solution(object):
         return val
 
 
-```
+# ```

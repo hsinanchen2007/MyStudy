@@ -1,6 +1,6 @@
-优化后
+// 优化后
 
-```
+// ```
 class Solution {
     public int maxRepOpt1(String text) {
         if (null == text || text.length() == 0) return 0;
@@ -33,11 +33,11 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-还有优化的空间。现在这样设计的实现很快。
-优化前。
-```
+// 还有优化的空间。现在这样设计的实现很快。
+// 优化前。
+// ```
 class Solution {
     public int maxRepOpt1(String text) {
         if (null == text || text.length() == 0) return 0;
@@ -68,5 +68,5 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 

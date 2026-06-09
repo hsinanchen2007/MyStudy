@@ -1,9 +1,9 @@
-### 解题思路
-需要先初始化二维数组。然后就是典型的二维DP依次检查，拿到结果 判断最大值
+// ### 解题思路
+// 需要先初始化二维数组。然后就是典型的二维DP依次检查，拿到结果 判断最大值
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findLength(A []int, B []int) int {
     if len(A) <= 0 || len(B) <= 0 {
         return 0
@@ -30,4 +30,4 @@ func max(a, b int) int {
     }
     return b
 }
-```
+// ```

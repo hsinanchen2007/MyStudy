@@ -1,7 +1,7 @@
 
-- 第一种
+// - 第一种
     
-``` javascript
+// ``` javascript
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -19,12 +19,12 @@ var rotate = function(matrix) {
     }
     return matrix
 };
-```
+// ```
 
 
-- 第二种
+// - 第二种
 
-``` javascript
+// ``` javascript
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -42,4 +42,4 @@ var rotate = function(matrix) {
     }
     return matrix
 };
-```
+// ```

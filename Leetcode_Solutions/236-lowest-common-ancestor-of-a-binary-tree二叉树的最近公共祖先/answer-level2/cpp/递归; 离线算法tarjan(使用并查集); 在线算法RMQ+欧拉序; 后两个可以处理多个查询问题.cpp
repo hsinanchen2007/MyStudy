@@ -1,5 +1,5 @@
-1. 递归
-``` c++
+// 1. 递归
+// ``` c++
 TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         // <1> 递归 如果p和q在一边, 我们返回那一边它们的最近祖先; 在两边, 那么最近祖先就是root;遇到了p或者q, 就返回p或q, 否则返回NULL
         if (root == nullptr|| root == p || root == q ) {
@@ -16,9 +16,9 @@ TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
             return left;      
         else return nullptr; // 这棵子树没有p或q 返回nullptr
 }
-```
-2.  离线的Tarjan算法, 也就是说有q个查询, 在一次dfs遍历中全部完成 需要使用并查集
-``` c++
+// ```
+// 2.  离线的Tarjan算法, 也就是说有q个查询, 在一次dfs遍历中全部完成 需要使用并查集
+// ``` c++
 class unionFind{
     public:
     unordered_map<TreeNode*, TreeNode*> arr;
@@ -106,9 +106,9 @@ public:
     
     }
 };
-```
-3.  在线算法RMQ+欧拉序
-```c++
+// ```
+// 3.  在线算法RMQ+欧拉序
+// ```c++
 class Solution {
 public:
     int time; // <3> RMQ中需要用到的时间戳
@@ -191,7 +191,7 @@ public:
 
     
 };
-``` 
+// ``` 
 
 
 

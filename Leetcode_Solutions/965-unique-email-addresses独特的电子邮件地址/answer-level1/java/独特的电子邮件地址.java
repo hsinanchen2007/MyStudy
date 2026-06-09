@@ -1,11 +1,11 @@
-### 解题思路
-1.将@前后字符分割开
-2.判断本地名是否有"."和"+",做对应处理
-3.判断是否重复加入集合
+// ### 解题思路
+// 1.将@前后字符分割开
+// 2.判断本地名是否有"."和"+",做对应处理
+// 3.判断是否重复加入集合
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numUniqueEmails(String[] emails) {
             List<String> adress=new ArrayList<>();
@@ -34,4 +34,4 @@ class Solution {
         return adress.size();
     }
 }
-```
+// ```

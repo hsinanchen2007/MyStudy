@@ -1,9 +1,9 @@
-### 解题思路
-slideWindow保存当前窗口内的字母组合
+// ### 解题思路
+// slideWindow保存当前窗口内的字母组合
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
@@ -33,4 +33,4 @@ public:
     }
 };
 
-```
+// ```

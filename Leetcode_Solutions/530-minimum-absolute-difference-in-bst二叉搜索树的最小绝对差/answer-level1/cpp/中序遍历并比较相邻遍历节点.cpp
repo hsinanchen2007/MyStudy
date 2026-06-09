@@ -1,18 +1,18 @@
-因为是一颗BST而不是普通二叉树，因而考虑中序遍历，则按遍历顺序得到非递减非负整数序列。
+// 因为是一颗BST而不是普通二叉树，因而考虑中序遍历，则按遍历顺序得到非递减非负整数序列。
 
-可以在遍历过程中，把每个节点的val存入全局vector，遍历结束后比较vector中相邻两个元素的差值，用于更新得到全局min diff。
+// 可以在遍历过程中，把每个节点的val存入全局vector，遍历结束后比较vector中相邻两个元素的差值，用于更新得到全局min diff。
 
-显然，大体思路是这样的，不过没有使用vector浪费O(n)空间，只需要在中序遍历BST过程中记录前一个节点，当前节点和前一个节点比较即可。
+// 显然，大体思路是这样的，不过没有使用vector浪费O(n)空间，只需要在中序遍历BST过程中记录前一个节点，当前节点和前一个节点比较即可。
 
-BST的前序遍历和普通二叉树的前序遍历没什么不同，可以递归实现，也可以非递归实现。
+// BST的前序遍历和普通二叉树的前序遍历没什么不同，可以递归实现，也可以非递归实现。
 
-记录节点也有多种方式，可以仅仅是记录节点的val取值，也可以是记录节点指针。
+// 记录节点也有多种方式，可以仅仅是记录节点的val取值，也可以是记录节点指针。
 
-从最naive到最precise，依次实现如下：
+// 从最naive到最precise，依次实现如下：
 
-1. 遍历所有节点，存储vector，排序，比较相邻元素
-完全没有利用BST的特点，也能出结果。它的价值在于能提供正确答案。
-```cpp
+// 1. 遍历所有节点，存储vector，排序，比较相邻元素
+// 完全没有利用BST的特点，也能出结果。它的价值在于能提供正确答案。
+// ```cpp
     int getMinimumDifference(TreeNode* root) {
         if(root==NULL) return 0;
         if(root->left==NULL && root->right==NULL) return 0;
@@ -43,11 +43,11 @@ BST的前序遍历和普通二叉树的前序遍历没什么不同，可以递�
 
         return min_diff;
     }
-```
+// ```
 
-2. 用int& prev来记录前一个节点取值，并利用递归来实现中序遍历
-注意传参为引用类型，注意prev区分是否有前驱节点（可比较性）
-```cpp
+// 2. 用int& prev来记录前一个节点取值，并利用递归来实现中序遍历
+// 注意传参为引用类型，注意prev区分是否有前驱节点（可比较性）
+// ```cpp
     void dfs(TreeNode* root, int& prev, int& min_diff) {
         if(root==NULL) return;
         // left
@@ -67,11 +67,11 @@ BST的前序遍历和普通二叉树的前序遍历没什么不同，可以递�
         dfs(root, prev, min_diff);
         return min_diff;
     }
-```
+// ```
 
-3. 用二级指针替代int* prev，真真正正的记录前一个节点。仍然是递归实现中序遍历。
-需要对指针有一定的熟悉度，不至于错误实现/理解不了
-```cpp
+// 3. 用二级指针替代int* prev，真真正正的记录前一个节点。仍然是递归实现中序遍历。
+// 需要对指针有一定的熟悉度，不至于错误实现/理解不了
+// ```cpp
     void dfs(TreeNode* root, TreeNode** prev, int& min_diff) {
         if (root == NULL) return;
 
@@ -94,10 +94,10 @@ BST的前序遍历和普通二叉树的前序遍历没什么不同，可以递�
         dfs(root, &prev, min_diff);
         return min_diff;
     }
-```
+// ```
 
-4. 非递归DFS实现中序遍历。TreeNode*类型（一级指针）记录前一个节点。
-```cpp
+// 4. 非递归DFS实现中序遍历。TreeNode*类型（一级指针）记录前一个节点。
+// ```cpp
     int getMinimumDifference(TreeNode* root) {
         deque<TreeNode*> dq;
         TreeNode* cur = root;
@@ -120,4 +120,4 @@ BST的前序遍历和普通二叉树的前序遍历没什么不同，可以递�
         }
         return min_diff;
     }
-```
+// ```

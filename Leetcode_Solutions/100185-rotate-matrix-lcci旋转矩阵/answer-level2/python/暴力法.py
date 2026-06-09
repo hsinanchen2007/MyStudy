@@ -1,9 +1,9 @@
-### 解题思路
-建一个新的矩阵，找到公式赋值即可
+# ### 解题思路
+# 建一个新的矩阵，找到公式赋值即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rotate(self, matrix):
         """
@@ -16,4 +16,4 @@ class Solution(object):
             for j in range(n):
                 matrix_new[j][n-i-1] = matrix[i][j]
         matrix[:] = matrix_new
-```
+# ```

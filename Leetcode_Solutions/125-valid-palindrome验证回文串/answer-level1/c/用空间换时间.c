@@ -1,5 +1,5 @@
 
-```
+// ```
 int char_value[128];
 bool isPalindrome(char * s){
     for (int i = 0; i < 128; ++i) {
@@ -18,4 +18,4 @@ bool isPalindrome(char * s){
     }
     return true;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func generateMatrix(n int) [][]int {
     result:=[][]int{}
     for i:=0;i<n;i++{
@@ -38,4 +38,4 @@ func generateMatrix(n int) [][]int {
     }
     return result
 }
-```
+// ```

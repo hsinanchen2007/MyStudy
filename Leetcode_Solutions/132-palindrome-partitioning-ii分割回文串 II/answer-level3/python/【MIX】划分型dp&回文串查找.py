@@ -1,9 +1,9 @@
-### 解题思路
-存储当前string中任意位置能否构成回文串的状态表, 状态转移方程: $f[i]=\min(f[j]+1)$, 且s[j...i-1]是回文串
-时间复杂度$O(2N^2)$
-### 代码
+# ### 解题思路
+# 存储当前string中任意位置能否构成回文串的状态表, 状态转移方程: $f[i]=\min(f[j]+1)$, 且s[j...i-1]是回文串
+# 时间复杂度$O(2N^2)$
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public int minCut(String s) {
         // dp
@@ -57,8 +57,8 @@ class Solution {
         return f;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def minCut(self, s: str) -> int:
         N = len(s)
@@ -99,8 +99,8 @@ class Solution:
                 j+=1
 
         return f
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int minCut(string s) {
@@ -152,4 +152,4 @@ private:
         return f;
     }
 };
-```
+# ```

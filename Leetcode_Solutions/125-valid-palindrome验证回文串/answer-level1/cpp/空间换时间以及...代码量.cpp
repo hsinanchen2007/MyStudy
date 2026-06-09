@@ -1,5 +1,5 @@
-首先建立临时变量temp1，用来保存字母与数字、顺便转大小写
-然后建立临时变量temp2，翻转之，比较即可。
+// 首先建立临时变量temp1，用来保存字母与数字、顺便转大小写
+// 然后建立临时变量temp2，翻转之，比较即可。
 class Solution {
 public:
     bool isPalindrome(string s) {

@@ -1,4 +1,4 @@
-思路：将两个数组合成一个数组，然后排序，再求出中位数
+// 思路：将两个数组合成一个数组，然后排序，再求出中位数
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {

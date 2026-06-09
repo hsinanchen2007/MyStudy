@@ -1,9 +1,9 @@
-### 解题思路
-从后向前比较大小
+# ### 解题思路
+# 从后向前比较大小
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -20,4 +20,4 @@ class Solution:
             p -= 1
         A[:p2+1] = B[:p2+1]
         
-```
+# ```

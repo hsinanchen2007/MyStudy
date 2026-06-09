@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn update_board(board: Vec<Vec<char>>, click: Vec<i32>) -> Vec<Vec<char>> {
         let mut board = board;
@@ -43,5 +43,5 @@ impl Solution {
         board
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

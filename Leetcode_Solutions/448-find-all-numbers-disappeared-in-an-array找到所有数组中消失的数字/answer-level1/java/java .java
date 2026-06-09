@@ -1,5 +1,5 @@
-[更多leetcode题解参考此处](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
-```
+// [更多leetcode题解参考此处](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
+// ```
 public List<Integer> findDisappearedNumbers(int[] nums) {
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < nums.length ; i++) {
@@ -22,4 +22,4 @@ public List<Integer> findDisappearedNumbers(int[] nums) {
         nums[j] = nums[i] - nums[j];
         nums[i] = nums[i] - nums[j];
     }
-```
+// ```

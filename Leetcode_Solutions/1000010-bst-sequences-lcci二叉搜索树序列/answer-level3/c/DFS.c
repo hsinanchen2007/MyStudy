@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/531d3d5db51f4a5724877578becd0dd002787b787fc18b1c108db908978582cc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/531d3d5db51f4a5724877578becd0dd002787b787fc18b1c108db908978582cc-image.png)
 
-### 解题思路
+// ### 解题思路
 
-理解成数字排序，但排序要满足先有父节点、再有子节点的要求。
-递归求解时，需要注意子节点一定要出现在对应父节点的后面。
+// 理解成数字排序，但排序要满足先有父节点、再有子节点的要求。
+// 递归求解时，需要注意子节点一定要出现在对应父节点的后面。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -114,4 +114,4 @@ int** BSTSequences(struct TreeNode* root, int* returnSize, int** returnColumnSiz
     *returnColumnSizes = ret;
     return outList;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-我这里通过哈希表来解决的，其实通过set更合理。还有java内置函数retainAll。
+// ### 解题思路
+// 我这里通过哈希表来解决的，其实通过set更合理。还有java内置函数retainAll。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         Map<Integer, Boolean> map = new HashMap<Integer, Boolean>();
@@ -28,4 +28,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

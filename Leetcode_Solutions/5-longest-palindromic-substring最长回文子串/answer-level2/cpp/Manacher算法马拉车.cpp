@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -32,4 +32,4 @@ private:
     int resLen;
     int resCenter;
 };
-```
+// ```

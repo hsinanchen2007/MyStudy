@@ -1,10 +1,10 @@
-### 解题思路
-要求算法On,维护三个数就好了，嘻嘻，注意初始化为LONG_MIN,坑了很久，
-最后的时候确定一下third是否仍为LONG_MIN就好了
+// ### 解题思路
+// 要求算法On,维护三个数就好了，嘻嘻，注意初始化为LONG_MIN,坑了很久，
+// 最后的时候确定一下third是否仍为LONG_MIN就好了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -37,4 +37,4 @@ public:
             return third==LONG_MIN ? first:third;
     }
 };
-```
+// ```

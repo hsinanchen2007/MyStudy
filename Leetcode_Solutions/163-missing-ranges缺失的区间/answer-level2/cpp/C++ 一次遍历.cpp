@@ -1,5 +1,5 @@
-边界情况太多，折磨地浑身难受
-```
+// 边界情况太多，折磨地浑身难受
+// ```
 class Solution {
 public:
     int bisearch(vector<int>& nums, int t) {
@@ -36,6 +36,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/b88a23da802b9e260b6d6dea61f997ba5dc4df520f2a572a5f2dfbec031da070-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b88a23da802b9e260b6d6dea61f997ba5dc4df520f2a572a5f2dfbec031da070-image.png)

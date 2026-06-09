@@ -1,5 +1,5 @@
-**自己的代码写的又臭又长**
-```
+// **自己的代码写的又臭又长**
+// ```
 class Solution {
 public:
    
@@ -48,34 +48,34 @@ public:
 };
 
 **膜拜一下Rank1的代码**
-```
-class Solution {
-public:
-    string rankTeams(vector<string>& votes) {
-        int m = votes.size();
-        string v = votes[0];
-        map<char, map<int, int>> f;
-        for (auto s : votes)
-        {
-            for (int i = 0; i < s.size(); ++ i)
-                f[s[i]][i] ++;
-        }
-        sort(v.begin(), v.end(), [&](char a, char b) -> bool
-        {
-            for (int i = 0; i < v.size(); ++ i)
-            {
-                if (f[a][i] > f[b][i]) return 1;
-                if (f[a][i] < f[b][i]) return 0;
-            }
-            return a < b;
-        });
-        return v;
-    }
-};
-```
+// ```
+// class Solution {
+// public:
+//     string rankTeams(vector<string>& votes) {
+//         int m = votes.size();
+//         string v = votes[0];
+//         map<char, map<int, int>> f;
+//         for (auto s : votes)
+//         {
+//             for (int i = 0; i < s.size(); ++ i)
+//                 f[s[i]][i] ++;
+//         }
+//         sort(v.begin(), v.end(), [&](char a, char b) -> bool
+//         {
+//             for (int i = 0; i < v.size(); ++ i)
+//             {
+//                 if (f[a][i] > f[b][i]) return 1;
+//                 if (f[a][i] < f[b][i]) return 0;
+//             }
+//             return a < b;
+//         });
+//         return v;
+//     }
+// };
+// ```
 
 **Rank1代码的sort部分看不懂😂**
-```
-sort(v.begin(), v.end(), [&](char a, char b) -> bool
-```
+// ```
+// sort(v.begin(), v.end(), [&](char a, char b) -> bool
+// ```
 **谁能解释一下么**

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 const int Base = 37;
 const int Mod = 1e9+7;
 class Solution {
@@ -35,4 +35,4 @@ public:
         return res;
     }
 };
-```
+// ```

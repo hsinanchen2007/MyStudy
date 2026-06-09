@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-如题
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 如题
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -26,4 +26,4 @@ class Solution:
             for i in nums2:
                 nums1.append(i)
 
-```
+# ```

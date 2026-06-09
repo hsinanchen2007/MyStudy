@@ -1,8 +1,8 @@
 
-- 具体可以看我的这篇题解[活字印刷题解](https://leetcode-cn.com/problems/letter-tile-possibilities/solution/hui-su-liang-chong-zuo-fa-hu-lue-ma-feng-by-wf_csu/)
-![image.png](https://pic.leetcode-cn.com/13bbe0fbd7a810c39ad1e2de84076c16c76c9ff60bdad2ccb47f17dbea4ec290-image.png)
+// - 具体可以看我的这篇题解[活字印刷题解](https://leetcode-cn.com/problems/letter-tile-possibilities/solution/hui-su-liang-chong-zuo-fa-hu-lue-ma-feng-by-wf_csu/)
+// ![image.png](https://pic.leetcode-cn.com/13bbe0fbd7a810c39ad1e2de84076c16c76c9ff60bdad2ccb47f17dbea4ec290-image.png)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int n,vis;
@@ -37,4 +37,4 @@ public:
     }
 };
 
-```
+// ```

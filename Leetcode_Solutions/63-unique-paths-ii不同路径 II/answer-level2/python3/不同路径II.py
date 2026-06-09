@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/c9455832bba9c0e506dd814430d75810bba5e4d1596b70ae1ffc4227235b8d60-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/c9455832bba9c0e506dd814430d75810bba5e4d1596b70ae1ffc4227235b8d60-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         if not obstacleGrid:
@@ -55,4 +55,4 @@ class Solution:
                     dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
         print(dp)
         return dp[row - 1][column - 1]
-```
+# ```

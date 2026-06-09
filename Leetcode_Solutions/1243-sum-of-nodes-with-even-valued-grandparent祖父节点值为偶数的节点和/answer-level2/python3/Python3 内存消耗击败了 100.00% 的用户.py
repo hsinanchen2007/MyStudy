@@ -1,10 +1,10 @@
-### 解题思路
-深度优先遍历所有节点。
-对每一个节点，如果是偶数节点，对它的四个孙子节点，存在的就将其加到全局变量Sum中。
+# ### 解题思路
+# 深度优先遍历所有节点。
+# 对每一个节点，如果是偶数节点，对它的四个孙子节点，存在的就将其加到全局变量Sum中。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
         self.solve(root.left)
         self.solve(root.right)
         return 
-```
+# ```

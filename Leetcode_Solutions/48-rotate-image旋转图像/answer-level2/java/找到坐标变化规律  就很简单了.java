@@ -1,16 +1,16 @@
-### 解题思路
-观察第一行的变化规律:
-    1. 第0行 -> matrix.length - 1列;
-    2. 原来的纵坐标变为横坐标
+// ### 解题思路
+// 观察第一行的变化规律:
+//     1. 第0行 -> matrix.length - 1列;
+//     2. 原来的纵坐标变为横坐标
     
-得出坐标变化: `[i , j] -> [j, n - i] -> [n - i, n - j] -> [n - j, i] -> [i, j]`
-然后变换a, b, c, d这四个坐标的值即可
-int tmp = b; b = a; a = d; d = c; c = tmp;
-然后遍历就结束了
+// 得出坐标变化: `[i , j] -> [j, n - i] -> [n - i, n - j] -> [n - j, i] -> [i, j]`
+// 然后变换a, b, c, d这四个坐标的值即可
+// int tmp = b; b = a; a = d; d = c; c = tmp;
+// 然后遍历就结束了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         // [i , j] -> [j, n - i] -> [n - i, n - j] -> [n - j, i] -> [i, j]
@@ -27,4 +27,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         dic = {}
@@ -18,4 +18,4 @@ class Solution:
             if ((i in dic) and (dic[i]!=0)):
                 return False
         return True
-```
+# ```

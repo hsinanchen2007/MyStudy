@@ -1,10 +1,10 @@
-## 1、转列表取首尾比较
+// ## 1、转列表取首尾比较
 
-日常项目工程中对整取的处理其实很少，将整数的每一位取出存入list，然后取list的首尾比较即可。
+// 日常项目工程中对整取的处理其实很少，将整数的每一位取出存入list，然后取list的首尾比较即可。
 
-代码：
+// 代码：
 
-```java
+// ```java
 public boolean isPalindrome(int x) {
     // 边界条件
     if (x<0) return false;
@@ -25,17 +25,17 @@ public boolean isPalindrome(int x) {
     }
     return true;
 }
-```
+// ```
 
 
 
-## 2、直接反转整数比较
+// ## 2、直接反转整数比较
 
-回文字符串的本质就是中心对称，所以反转后相等，就一定是回文字符串。
+// 回文字符串的本质就是中心对称，所以反转后相等，就一定是回文字符串。
 
-代码：
+// 代码：
 
-```java
+// ```java
 public boolean isPalindrome(int x) {
     if(x < 0 || (x % 10 == 0 && x != 0)) {
         return false;
@@ -49,15 +49,15 @@ public boolean isPalindrome(int x) {
     }
     return x==reverse;
 }
-```
+// ```
 
-## 3、反转一半整数
+// ## 3、反转一半整数
 
-既然回文字符串中心对称，那左半和右半自然相等。但是要注意处理奇数长度时的中间位。
+// 既然回文字符串中心对称，那左半和右半自然相等。但是要注意处理奇数长度时的中间位。
 
-代码：
+// 代码：
 
-```java
+// ```java
 public boolean isPalindrome(int x) {
     if(x < 0 || (x % 10 == 0 && x != 0)) {
         return false;
@@ -70,5 +70,5 @@ public boolean isPalindrome(int x) {
     }
     return x==reverse || x == reverse/10;
 }
-```
+// ```
 

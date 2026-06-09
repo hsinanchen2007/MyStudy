@@ -1,5 +1,5 @@
-利用一个flag记录当前状态(上升或者下降)，在到下一个元素的时候，根据上一次的flag来判断这个元素和下一个元素是否满足条件(上次是上升，这次就是下降)
-```
+# 利用一个flag记录当前状态(上升或者下降)，在到下一个元素的时候，根据上一次的flag来判断这个元素和下一个元素是否满足条件(上次是上升，这次就是下降)
+# ```
 class Solution:
     def wiggleMaxLength(self, nums: List[int]) -> int:
         if len(nums)<2:
@@ -21,4 +21,4 @@ class Solution:
                 res += 1
                 flag = -flag
         return res      
-```
+# ```

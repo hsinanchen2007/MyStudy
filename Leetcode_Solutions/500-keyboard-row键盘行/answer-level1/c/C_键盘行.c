@@ -1,15 +1,15 @@
-### 解题思路
-写一个链表栈存放符合条件的字符串
-写一个哈希表记录字母所在的行
+// ### 解题思路
+// 写一个链表栈存放符合条件的字符串
+// 写一个哈希表记录字母所在的行
 
-代码看着多，但是效率双百
-![image.png](https://pic.leetcode-cn.com/2d11f3be7984a9b3491a7c8fb7dfb2da6217e832821a2b6645e18db36b39b619-image.png)
+// 代码看着多，但是效率双百
+// ![image.png](https://pic.leetcode-cn.com/2d11f3be7984a9b3491a7c8fb7dfb2da6217e832821a2b6645e18db36b39b619-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -91,4 +91,4 @@ char ** findWords(char ** words, int wordsSize, int* returnSize){
 
     return result;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-#### 方法一：哈希集合
+# #### 方法一：哈希集合
 
-我们将数组 `word` 中的每个单词转换为摩尔斯码，并加入哈希集合（HashSet）中，最终的答案即为哈希集合中元素的个数。
+# 我们将数组 `word` 中的每个单词转换为摩尔斯码，并加入哈希集合（HashSet）中，最终的答案即为哈希集合中元素的个数。
 
-```Java [sol1]
+# ```Java [sol1]
 class Solution {
     public int uniqueMorseRepresentations(String[] words) {
         String[] MORSE = new String[]{".-","-...","-.-.","-..",".","..-.","--.",
@@ -21,9 +21,9 @@ class Solution {
         return seen.size();
     }
 }
-```
+# ```
 
-```Python [sol1]
+# ```Python [sol1]
 class Solution(object):
     def uniqueMorseRepresentations(self, words):
         MORSE = [".-","-...","-.-.","-..",".","..-.","--.",
@@ -35,10 +35,10 @@ class Solution(object):
                 for word in words}
 
         return len(seen)
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(S)$，其中 $S$ 是数组 `words` 中所有单词的长度之和。
+# * 时间复杂度：$O(S)$，其中 $S$ 是数组 `words` 中所有单词的长度之和。
 
-* 空间复杂度：$O(S)$。
+# * 空间复杂度：$O(S)$。

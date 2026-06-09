@@ -1,6 +1,6 @@
-100%  70%
-先找所在的可能行，再找所在的可能列，若行列所在的值等于target，则返回true,若最终没找到，则返回false。
-```
+// 100%  70%
+// 先找所在的可能行，再找所在的可能列，若行列所在的值等于target，则返回true,若最终没找到，则返回false。
+// ```
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         if(matrix.length == 0 || matrix[0].length == 0)  return false;
@@ -33,4 +33,4 @@ class Solution {
         else   return false;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-解题思路就是最容易想到的常规思路。
-结尾的“return 0;”总是漏掉报错……
+// 解题思路就是最容易想到的常规思路。
+// 结尾的“return 0;”总是漏掉报错……
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int searchInsert(int* nums, int numsSize, int target){
     for(int i=0;i<numsSize;i++){
         if(nums[i]==target){
@@ -19,4 +19,4 @@ int searchInsert(int* nums, int numsSize, int target){
     }
     return 0;
 }
-```
+// ```

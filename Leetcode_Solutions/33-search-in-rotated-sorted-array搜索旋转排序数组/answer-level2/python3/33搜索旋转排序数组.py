@@ -1,7 +1,7 @@
-我的方法是用两个 二分查找
-第一个二分查找是找临界点，把排序数组分为两部分
-第二个二分查找是在两个排序数组中找target
-```python []
+# 我的方法是用两个 二分查找
+# 第一个二分查找是找临界点，把排序数组分为两部分
+# 第二个二分查找是在两个排序数组中找target
+# ```python []
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         if nums is None or len(nums)==0:

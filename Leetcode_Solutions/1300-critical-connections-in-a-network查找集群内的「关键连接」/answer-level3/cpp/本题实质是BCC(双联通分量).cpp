@@ -1,13 +1,13 @@
-![WechatIMG37.png](https://pic.leetcode-cn.com/9d7925d989623b2c29187f3507e11e8634d13acbcc1d8015ceb5ece2d39b2fea-WechatIMG37.png)
+// ![WechatIMG37.png](https://pic.leetcode-cn.com/9d7925d989623b2c29187f3507e11e8634d13acbcc1d8015ceb5ece2d39b2fea-WechatIMG37.png)
 
-![BCC.jpeg](https://pic.leetcode-cn.com/b61ec7bede53f13faab50c258e26a8e373696d62626f2c74de8fe20a366d2555-BCC.jpeg)
+// ![BCC.jpeg](https://pic.leetcode-cn.com/b61ec7bede53f13faab50c258e26a8e373696d62626f2c74de8fe20a366d2555-BCC.jpeg)
 
-我们考虑 c 的两颗子树
+// 我们考虑 c 的两颗子树
 
-观察D所在的子树 其内部的某个节点 可以访问到 C 或者 C的祖先 A 那么 将 CD 断开 并不影响整个图的连通性
-在观察E所在的子树 由于其内部的任何一个节点 都无法访问到 C的祖先 和 C本身 那么 CE 断开 E所在的子树 必然脱离整体 
+// 观察D所在的子树 其内部的某个节点 可以访问到 C 或者 C的祖先 A 那么 将 CD 断开 并不影响整个图的连通性
+// 在观察E所在的子树 由于其内部的任何一个节点 都无法访问到 C的祖先 和 C本身 那么 CE 断开 E所在的子树 必然脱离整体 
 
-```c++
+// ```c++
 vector<vector<int>> Graph;
 vector<int> visited;   // 标记一个节点是否已经被访问
 vector<int> visitTime; // 节点的访问时间， 时间越小代表访问越早
@@ -60,4 +60,4 @@ vector<vector<int>> criticalConnections(int n, vector<vector<int>> &connections)
     dfs(0, -1, clock);
     return ans;
 }
-```
+// ```

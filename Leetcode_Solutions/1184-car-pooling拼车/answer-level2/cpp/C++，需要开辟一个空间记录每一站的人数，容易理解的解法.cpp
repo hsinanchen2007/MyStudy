@@ -1,4 +1,4 @@
-```
+// ```
 inline bool cmp(vector<vector<int>>a,vector<vector<int>>b){
     return a[1]<a[2];
 }
@@ -27,4 +27,4 @@ public://我记得中科大的复试考的就是这一个题目。。。。
         return true;
     }
 };
-```
+// ```

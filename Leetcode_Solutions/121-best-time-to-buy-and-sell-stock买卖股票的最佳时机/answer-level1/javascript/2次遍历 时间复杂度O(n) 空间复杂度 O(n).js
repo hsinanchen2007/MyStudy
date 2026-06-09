@@ -1,10 +1,10 @@
-### 解题思路
-第一次从后往前遍历，记录当前元素后面的最大值
-第二次遍历计算最大利润
+// ### 解题思路
+// 第一次从后往前遍历，记录当前元素后面的最大值
+// 第二次遍历计算最大利润
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -27,4 +27,4 @@ var maxProfit = function(prices) {
     }
     return max;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-基于列表BFS+排序小技巧
-三个步骤
-第一部分
-按照层级取。利用队列层次遍历列表(BFS)
-```
+# ### 解题思路
+# 基于列表BFS+排序小技巧
+# 三个步骤
+# 第一部分
+# 按照层级取。利用队列层次遍历列表(BFS)
+# ```
 levelf=[]
         q=[]
         q.append(friends[id])
@@ -26,17 +26,17 @@ levelf=[]
                 tempf.extend(friends[i])
             q.append(tempf)
             count=count+1
-```
-第二部分 数据处理
-去掉起始节点
-```
+# ```
+# 第二部分 数据处理
+# 去掉起始节点
+# ```
 levelf=list(set(levelf))
         if id in levelf:
             levelf.remove(id)
-```
+# ```
 
-第三部分 遍历电影+keyvalue排序
-```
+# 第三部分 遍历电影+keyvalue排序
+# ```
 d=collections.defaultdict()
         for i in levelf:
             for j in watchedVideos[i]:
@@ -46,11 +46,11 @@ d=collections.defaultdict()
                     d[j]=0
         c=sorted(d.items(), key=lambda kv: (kv[1], kv[0]))
         return [x for x,_ in c]
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def watchedVideosByFriends(self, watchedVideos: List[List[str]], friends: List[List[int]], id: int, level: int) -> List[str]:
         levelf=[]
@@ -87,4 +87,4 @@ class Solution:
                     d[j]=0
         c=sorted(d.items(), key=lambda kv: (kv[1], kv[0]))
         return [x for x,_ in c]
-```
+# ```

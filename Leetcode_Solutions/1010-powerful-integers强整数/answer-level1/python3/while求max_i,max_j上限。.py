@@ -1,5 +1,5 @@
-第二遍遍历时可以brake掉一些循环，居然耗时比没break多，不科学
-```
+# 第二遍遍历时可以brake掉一些循环，居然耗时比没break多，不科学
+# ```
 def powerfulIntegers(self, x: int, y: int, bound: int) -> List[int]:
         res = set()
         max_i, max_j = 0, 0,
@@ -22,4 +22,4 @@ def powerfulIntegers(self, x: int, y: int, bound: int) -> List[int]:
                 else:
                     break
         return list(res)
-```
+# ```

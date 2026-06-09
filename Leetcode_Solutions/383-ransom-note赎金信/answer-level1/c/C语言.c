@@ -1,9 +1,9 @@
-### 解题思路
-两个数组存放字母出现的次数
+// ### 解题思路
+// 两个数组存放字母出现的次数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canConstruct(char * ransomNote, char * magazine){
     int dictRan[26] = { 0 };
     int dictMag[26] = { 0 };
@@ -22,4 +22,4 @@ bool canConstruct(char * ransomNote, char * magazine){
     }
     return true;
 }
-```
+// ```

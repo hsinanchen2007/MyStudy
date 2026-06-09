@@ -1,10 +1,10 @@
-### 解题思路
-可以先将 chars 字符的出现次数单独存为 charTable，存的结构**可以是 object 也可以是 array**，但要注意，**object 的开销比 array 要大**。
-之后遍历 words 元素的每一个字符，检查字符是否在 charTable 中，以及是否用尽 charTable 中的次数。
+// ### 解题思路
+// 可以先将 chars 字符的出现次数单独存为 charTable，存的结构**可以是 object 也可以是 array**，但要注意，**object 的开销比 array 要大**。
+// 之后遍历 words 元素的每一个字符，检查字符是否在 charTable 中，以及是否用尽 charTable 中的次数。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -38,4 +38,4 @@ var countCharacters = function(words, chars) {
   }
   return count
 };
-```
+// ```

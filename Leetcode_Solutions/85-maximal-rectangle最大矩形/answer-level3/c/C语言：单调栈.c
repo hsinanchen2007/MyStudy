@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/dd7d0b6e71bb5fdfad37502174cd09f2fb393dc0be3a8bdb6cfbbfb750ca052d-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/dd7d0b6e71bb5fdfad37502174cd09f2fb393dc0be3a8bdb6cfbbfb750ca052d-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     void **data;
     int top;
@@ -131,4 +131,4 @@ int maximalRectangle(char **matrix, int matrixSize, int *matrixColSize)
     StackFree(monotoneStack);
     return ans;
 }
-```
+// ```

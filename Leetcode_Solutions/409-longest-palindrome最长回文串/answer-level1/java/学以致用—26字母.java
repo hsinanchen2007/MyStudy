@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
 		boolean m = false,n = false;//作为标记flag
@@ -31,4 +31,4 @@ class Solution {
 		return sum;
     }
 }
-```
+// ```

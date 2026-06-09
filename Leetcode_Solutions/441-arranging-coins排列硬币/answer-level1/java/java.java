@@ -1,4 +1,4 @@
-```
+// ```
 public static int arrangeCoins(int n) {
         int i=1;
         while (n>=i){//n小于该行应有的个数则停止
@@ -7,4 +7,4 @@ public static int arrangeCoins(int n) {
         }
         return i-1;
     }
-```
+// ```

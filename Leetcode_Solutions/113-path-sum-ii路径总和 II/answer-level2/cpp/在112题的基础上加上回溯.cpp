@@ -1,5 +1,5 @@
-代码比较简洁   就是在112题的基础上加上了两个vector容器
-```
+// 代码比较简洁   就是在112题的基础上加上了两个vector容器
+// ```
 class Solution {
 public:
     vector<vector<int>>result;
@@ -28,4 +28,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numWays(int n) {
         if(n==1 || n==2 ){
@@ -21,4 +21,4 @@ class Solution {
         return nums[n];
     }
 }
-```
+// ```

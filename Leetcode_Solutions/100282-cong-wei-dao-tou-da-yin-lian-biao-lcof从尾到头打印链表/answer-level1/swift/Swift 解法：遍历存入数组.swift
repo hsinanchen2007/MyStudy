@@ -1,6 +1,6 @@
-思路：遍历链表，同时将元素值放在数组首位
+// 思路：遍历链表，同时将元素值放在数组首位
 
-```swift
+// ```swift
 public class ListNode {
      public var val: Int
      public var next: ListNode?
@@ -24,4 +24,4 @@ class Solution {
         return arr
     }
 }
-```
+// ```

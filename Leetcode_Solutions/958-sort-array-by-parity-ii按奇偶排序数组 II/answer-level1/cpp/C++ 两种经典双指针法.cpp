@@ -1,6 +1,6 @@
-# 方法一：首尾双指针
+// # 方法一：首尾双指针
 
-```c++ []
+// ```c++ []
 vector<int> sortArrayByParityII(vector<int>& A) {
     int i = 0, j = A.size() - 1;
     while (i<A.size()&& j>0) {
@@ -14,11 +14,11 @@ vector<int> sortArrayByParityII(vector<int>& A) {
     }
     return A;
 }
-```
+// ```
 
-# 方法二：首部双指针
+// # 方法二：首部双指针
 
-```c++ []
+// ```c++ []
 vector<int> sortArrayByParityII(vector<int>& A) {
     for (int i = 0, j = 1; i < A.size(); i += 2) {
         if (A[i] % 2) {
@@ -30,7 +30,7 @@ vector<int> sortArrayByParityII(vector<int>& A) {
     }
     return A;
 }
-```
+// ```
 
-两种双指针思想是一样的，看大家习惯喽~
+// 两种双指针思想是一样的，看大家习惯喽~
 

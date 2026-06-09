@@ -1,4 +1,4 @@
-```
+// ```
 class Foo {
     private static int i = 0;
     
@@ -29,4 +29,4 @@ class Foo {
         i = 3;
     }
 }
-```
+// ```

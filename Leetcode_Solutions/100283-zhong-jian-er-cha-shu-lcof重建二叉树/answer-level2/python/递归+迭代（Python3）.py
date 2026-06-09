@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         if len(inorder) == 0:
@@ -17,8 +17,8 @@ class Solution:
         root.right = self.buildTree(preorder[idx+1:], inorder[idx+1:])
         return root
 
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         """思路为官方题解的迭代法思路，注意每次遍历比较的是什么，一定要在纸上模拟一遍，不要光想"""
@@ -45,4 +45,4 @@ class Solution:
                 node.right = TreeNode(preorderval)
                 stack.append(node.right)
         return root
-```
+# ```

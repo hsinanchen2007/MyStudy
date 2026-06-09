@@ -1,9 +1,9 @@
-### 解题思路
-我还是做题做的太少了，不过能通过已经很开心了~
+# ### 解题思路
+# 我还是做题做的太少了，不过能通过已经很开心了~
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows==1 or len(s)<=1:
@@ -25,4 +25,4 @@ class Solution:
         return result
 
             
-```
+# ```

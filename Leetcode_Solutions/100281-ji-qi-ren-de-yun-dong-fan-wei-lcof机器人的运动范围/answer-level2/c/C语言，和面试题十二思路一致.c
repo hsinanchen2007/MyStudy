@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int toDigit(int num) {
     int res = 0;    
 
@@ -66,4 +66,4 @@ int movingCount(int m, int n, int k){
     return res;
 }
 
-```
+// ```

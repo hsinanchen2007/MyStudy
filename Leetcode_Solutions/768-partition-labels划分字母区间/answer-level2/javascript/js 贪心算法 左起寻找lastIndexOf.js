@@ -1,5 +1,5 @@
-###### 左起寻找第一个lastIndexOf，在该区间内找所包含的lastIndexOf
-```
+// ###### 左起寻找第一个lastIndexOf，在该区间内找所包含的lastIndexOf
+// ```
 /**
  * @param {string} S
  * @return {number[]}
@@ -25,6 +25,6 @@ var partitionLabels = function(S) {
     }
     return res
 };
-```
-时间为O(N)是因为循环中，是因为外层循环次数加内层刚好为i的变化；
-如果理解有误，还请大家帮助纠正，Thanks♪(･ω･)ﾉ
+// ```
+// 时间为O(N)是因为循环中，是因为外层循环次数加内层刚好为i的变化；
+// 如果理解有误，还请大家帮助纠正，Thanks♪(･ω･)ﾉ

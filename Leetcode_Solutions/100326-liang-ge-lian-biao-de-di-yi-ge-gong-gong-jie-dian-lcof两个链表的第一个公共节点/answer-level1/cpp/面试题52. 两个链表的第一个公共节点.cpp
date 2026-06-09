@@ -1,7 +1,7 @@
 
 
-代码实在太优美！！！
-```
+// 代码实在太优美！！！
+// ```
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -13,10 +13,10 @@ public:
         return node1;
     }
 };
-```
+// ```
 
-代码2:
-```
+// 代码2:
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -56,4 +56,4 @@ public:
         else return NULL;
     }
 };
-```
+// ```

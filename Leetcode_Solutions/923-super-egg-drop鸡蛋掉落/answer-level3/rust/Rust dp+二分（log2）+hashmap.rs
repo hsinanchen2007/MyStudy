@@ -1,4 +1,4 @@
-```
+// ```
 use std::collections::HashMap;
 
 impl Solution {    
@@ -39,9 +39,9 @@ impl Solution {
         floor
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/0ef4614160fa805e8051583d0fd72748a355f4156b86f8b048af17bad6ac00cd-image.png)
-![image.png](https://pic.leetcode-cn.com/f593f611d979acb32b337fabd22d315e950a8a53919b0cd7e8c6199e14275898-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/0ef4614160fa805e8051583d0fd72748a355f4156b86f8b048af17bad6ac00cd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f593f611d979acb32b337fabd22d315e950a8a53919b0cd7e8c6199e14275898-image.png)
 
-在labuladong大佬的第二种dp的前提下用递归做了二分(log2)，除了整数溢出的情况下基本都是0ms.
-参考链接：https://leetcode-cn.com/problems/super-egg-drop/solution/ji-ben-dong-tai-gui-hua-jie-fa-by-labuladong/
+// 在labuladong大佬的第二种dp的前提下用递归做了二分(log2)，除了整数溢出的情况下基本都是0ms.
+// 参考链接：https://leetcode-cn.com/problems/super-egg-drop/solution/ji-ben-dong-tai-gui-hua-jie-fa-by-labuladong/

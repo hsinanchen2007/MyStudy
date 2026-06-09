@@ -1,9 +1,9 @@
-# 思路
-1. ten_power 存储a^(10*(length-1-i))%1337的值以便后续计算。
-2. 对于b[i]处的求解，根据(a^ten_power)^b[i]，从后往前逐个计算b数组中的次方.
+// # 思路
+// 1. ten_power 存储a^(10*(length-1-i))%1337的值以便后续计算。
+// 2. 对于b[i]处的求解，根据(a^ten_power)^b[i]，从后往前逐个计算b数组中的次方.
 
-# 代码
-```
+// # 代码
+// ```
 public int binaryPow(int a, int n) {
     if (n == 0) {
         return 1;
@@ -33,7 +33,7 @@ public int superPow(int a, int[] b) {
     }
     return rst;
 }
-```
-# 总结
-- 时间复杂度O(mlogn)： m为b.length,n为b[i]中的最大值；
-- 空间复杂度O(logn): 对于每个b[i] (=n),计算O(logn)次,每次计算，需要存储a^(n/2)的结果。 
+// ```
+// # 总结
+// - 时间复杂度O(mlogn)： m为b.length,n为b[i]中的最大值；
+// - 空间复杂度O(logn): 对于每个b[i] (=n),计算O(logn)次,每次计算，需要存储a^(n/2)的结果。 

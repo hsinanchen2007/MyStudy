@@ -1,5 +1,5 @@
-BFS 
-```
+// BFS 
+// ```
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Queue<String> queue = new LinkedList();
         int len = wordList.size(), ans = 0;
@@ -31,4 +31,4 @@ BFS
             if(a.charAt(i) != b.charAt(i)) res ++;
         return res == 1;
     }
-```
+// ```

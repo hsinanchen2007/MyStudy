@@ -1,4 +1,4 @@
-``` cpp
+// ``` cpp
 vector<int> rightSideView(TreeNode* root) {
     vector<int> res;
     if (root == nullptr) return res;
@@ -15,4 +15,4 @@ vector<int> rightSideView(TreeNode* root) {
     }
     return res;
 }
-```
+// ```

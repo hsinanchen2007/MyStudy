@@ -1,8 +1,8 @@
-### 解题思路
-任你冒泡，快排花里胡哨 我只要我的Array.sort()
-### 代码
+// ### 解题思路
+// 任你冒泡，快排花里胡哨 我只要我的Array.sort()
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -16,4 +16,4 @@ var getLeastNumbers = function(arr, k) {
   }
   return res;
 };
-```
+// ```

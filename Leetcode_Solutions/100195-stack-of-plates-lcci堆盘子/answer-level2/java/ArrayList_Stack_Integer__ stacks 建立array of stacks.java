@@ -1,9 +1,9 @@
-### 解题思路
-直接上代码
+// ### 解题思路
+// 直接上代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class StackOfPlates {
     private ArrayList<Stack<Integer>> stacks;
     private int capacity;
@@ -61,4 +61,4 @@ class StackOfPlates {
  * int param_2 = obj.pop();
  * int param_3 = obj.popAt(index);
  */
-```
+// ```

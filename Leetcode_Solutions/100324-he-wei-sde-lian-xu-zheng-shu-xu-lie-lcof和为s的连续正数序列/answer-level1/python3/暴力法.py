@@ -1,9 +1,9 @@
-### 解题思路
-暴力法
+# ### 解题思路
+# 暴力法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         a=[]
@@ -17,4 +17,4 @@ class Solution:
                     a.append(list(range(i,j + 1)))
         return a
 
-```
+# ```

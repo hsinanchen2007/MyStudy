@@ -1,16 +1,16 @@
-### 解题思路
-暴力的时间一样，空间更小
-public boolean search(int[] nums, int target) {
-        for (int i=0;i<nums.length;i++){
-            if (nums[i]==target)
-                return true;
-        }
-        return false;
-    }
+// ### 解题思路
+// 暴力的时间一样，空间更小
+// public boolean search(int[] nums, int target) {
+//         for (int i=0;i<nums.length;i++){
+//             if (nums[i]==target)
+//                 return true;
+//         }
+//         return false;
+//     }
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean search(int[] nums, int target) {
         if (nums.length==0)
@@ -43,4 +43,4 @@ class Solution {
         return nums[left] == target || nums[right] == target;
     }
 }
-```
+// ```

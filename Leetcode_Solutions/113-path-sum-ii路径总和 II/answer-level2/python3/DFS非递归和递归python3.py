@@ -1,5 +1,5 @@
-非递归
-```
+# 非递归
+# ```
 class Solution:
     def pathSum(self, root: TreeNode, sum_: int) -> List[List[int]]:
         if not root: return []
@@ -14,11 +14,11 @@ class Solution:
             if node.left:
                 stack.append((tmp + [node.left.val], node.left))
         return res
-```
+# ```
 
 
-递归
-```
+# 递归
+# ```
 class Solution:
     def pathSum(self, root: TreeNode, sum_: int) -> List[List[int]]:
         def helper(root, tmp, sum_):
@@ -32,4 +32,4 @@ class Solution:
         res = []
         helper(root, [], sum_)
         return res
-```
+# ```

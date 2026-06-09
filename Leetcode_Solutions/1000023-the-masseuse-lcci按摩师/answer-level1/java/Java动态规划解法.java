@@ -1,7 +1,7 @@
-用一个数组记录到i位置的最大值，并用一个m记录是否用了该位置的数。
-执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :37.4 MB, 在所有 Java 提交中击败了100.00%的用户
-```
+// 用一个数组记录到i位置的最大值，并用一个m记录是否用了该位置的数。
+// 执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :37.4 MB, 在所有 Java 提交中击败了100.00%的用户
+// ```
 class Solution {
     public int massage(int[] nums) {
         if(nums.length==0) return 0;
@@ -40,4 +40,4 @@ class Solution {
         return dp[nums.length-1];        
     }
 }
-```
+// ```

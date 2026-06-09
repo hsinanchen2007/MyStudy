@@ -1,4 +1,4 @@
-```
+// ```
 代码块/**
  * @param {string} input
  * @return {number[]}
@@ -36,4 +36,4 @@ var diffWaysToCompute = function(input) {
 
 };
 
-```
+// ```

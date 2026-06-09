@@ -1,10 +1,10 @@
-### 解题思路
-递归计算树的高度
-在递归过程中, 如果发现当前结点的左右子树和(就是直径)大于global_max就更新.
+# ### 解题思路
+# 递归计算树的高度
+# 在递归过程中, 如果发现当前结点的左右子树和(就是直径)大于global_max就更新.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
         calc_tree_height(root)
         return global_max
     
-```
+# ```

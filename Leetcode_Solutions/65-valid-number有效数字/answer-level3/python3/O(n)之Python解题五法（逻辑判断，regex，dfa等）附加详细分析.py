@@ -1,10 +1,10 @@
-### 方法一：逻辑判断法
-使用3个标志位met_dot, met_e, met_digit来分别标记是否遇到了“.”,“e/E”和任何0-9的数字。
-当然首先要去掉首位的空格。  
+# ### 方法一：逻辑判断法
+# 使用3个标志位met_dot, met_e, met_digit来分别标记是否遇到了“.”,“e/E”和任何0-9的数字。
+# 当然首先要去掉首位的空格。  
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isNumber(self, s: str) -> bool:
         s = s.strip()
@@ -25,28 +25,28 @@ class Solution:
             else:
                 return False
         return met_digit
-```
+# ```
 
-### 方法二：拆分法  
-可以写成 A[.[B]][e/EC], 即有整数存在时，和无整数存在时的 .B[e/EC]。  
-A为数值整数部分（可以有正负号的整数），B为紧跟着小数点的为数值的小数部分（无正负号的整数），  
-C为紧跟着e/E为数值的指数部分（可以有正负号的整数）。  
-整体的逻辑为：  
-1.因为[e/EC]可存在可不存在，影响最小，所以一开始我们就可以先搞定C：  
-  如果e/E存在则C为isInteger()扫描后的返回值，不然就为True（所有的返回我们都带上and C）  
-2.如果存在小数点：  
-  (1)如果A不存在则B必须存在：  
-     如果B不存在：return False  
-     否则return B and C  
-  (2)如果B存在：  
-     return A and B and C  
-  否则return A and C  
- 3.如果不存在小数点：  
-   return A and C  
+# ### 方法二：拆分法  
+# 可以写成 A[.[B]][e/EC], 即有整数存在时，和无整数存在时的 .B[e/EC]。  
+# A为数值整数部分（可以有正负号的整数），B为紧跟着小数点的为数值的小数部分（无正负号的整数），  
+# C为紧跟着e/E为数值的指数部分（可以有正负号的整数）。  
+# 整体的逻辑为：  
+# 1.因为[e/EC]可存在可不存在，影响最小，所以一开始我们就可以先搞定C：  
+#   如果e/E存在则C为isInteger()扫描后的返回值，不然就为True（所有的返回我们都带上and C）  
+# 2.如果存在小数点：  
+#   (1)如果A不存在则B必须存在：  
+#      如果B不存在：return False  
+#      否则return B and C  
+#   (2)如果B存在：  
+#      return A and B and C  
+#   否则return A and C  
+#  3.如果不存在小数点：  
+#    return A and C  
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def isNumber(self, s):
         """
@@ -87,27 +87,27 @@ class Solution(object):
                     return False
             return True
         return False
-```
-### 方法三：正则表达式  
-按照法一的思路，可得正则表达式：
-`^[+-]?(\.\d+|\d+\.?\d*)([eE][+-]?\d+)?$`  
+# ```
+# ### 方法三：正则表达式  
+# 按照法一的思路，可得正则表达式：
+# `^[+-]?(\.\d+|\d+\.?\d*)([eE][+-]?\d+)?$`  
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import re
 class Solution:
     p = re.compile(r'^[+-]?(\.\d+|\d+\.?\d*)([eE][+-]?\d+)?$')
     def isNumber(self, s: str) -> bool:
         return bool(self.p.match(s.strip()))
-```
+# ```
 
-### 方法四：DFA(deterministic finite automaton, 确定性有限自动机)   
-见代码内注释
+# ### 方法四：DFA(deterministic finite automaton, 确定性有限自动机)   
+# 见代码内注释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def isNumber(self, s):
         """
@@ -152,10 +152,10 @@ class Solution(object):
         if currentState not in [3,5,8,9]:
             return False
         return True
-```
+# ```
 
-### 方法五： try/except法   
-```python3
+# ### 方法五： try/except法   
+# ```python3
 class Solution(object):
     def isNumber(self, s):
         """
@@ -167,4 +167,4 @@ class Solution(object):
             return True
         except :
             return False
-```
+# ```

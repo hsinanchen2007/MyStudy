@@ -1,9 +1,9 @@
-### 解题思路
-1. 要想走到终点，Path(m, n) = Path(m - 1, n) + Path(m, n - 1)，如此重复递归
-2. 为避免重复计算导致超时，需要使用临时表记录下已经计算过路径
-### 代码
+// ### 解题思路
+// 1. 要想走到终点，Path(m, n) = Path(m - 1, n) + Path(m, n - 1)，如此重复递归
+// 2. 为避免重复计算导致超时，需要使用临时表记录下已经计算过路径
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -33,4 +33,4 @@ public:
         return  down + right;
     }
 };
-```
+// ```

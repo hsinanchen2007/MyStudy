@@ -1,11 +1,11 @@
-**插入排序，双指针**
-每次插入，都要从后往前移动后面的元素，给插入的元素腾位置。
-当双指针相遇，把B剩下的元素放在A后面即可。
+# **插入排序，双指针**
+# 每次插入，都要从后往前移动后面的元素，给插入的元素腾位置。
+# 当双指针相遇，把B剩下的元素放在A后面即可。
 
-时间复杂度=O((m+n) * m)
-空间复杂度=O(1)
+# 时间复杂度=O((m+n) * m)
+# 空间复杂度=O(1)
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -22,15 +22,15 @@ class Solution:
                 A[pa:] = B[pb:]
                 pb = n
             pa += 1
-```
+# ```
 
-**逆序三指针**
-从后往前遍历，每次取两者中较大的置于A的尾侧。
+# **逆序三指针**
+# 从后往前遍历，每次取两者中较大的置于A的尾侧。
 
-时间复杂度=O(m+n)
-空间复杂度=O(1)
+# 时间复杂度=O(m+n)
+# 空间复杂度=O(1)
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -53,4 +53,4 @@ class Solution:
                 A[tail] = A[pa]
                 pa -= 1
             tail -= 1
-```
+# ```

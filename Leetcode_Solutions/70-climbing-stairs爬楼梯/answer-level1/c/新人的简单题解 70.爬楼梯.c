@@ -1,9 +1,9 @@
-### 解题思路
-最简单的递推dp，分最后一步上1阶还是两阶讨论
+// ### 解题思路
+// 最简单的递推dp，分最后一步上1阶还是两阶讨论
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int climbStairs(int n)
 {
     int* dp=(int*)malloc(sizeof(int)*(n+1));
@@ -17,4 +17,4 @@ int climbStairs(int n)
     }
     return dp[n];
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int [][]board;
     int []col; // 列
@@ -40,4 +40,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

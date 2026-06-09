@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type RecentCounter struct {
     counts []int
 }
@@ -31,4 +31,4 @@ func (this *RecentCounter) Ping(t int) int {
  * obj := Constructor();
  * param_1 := obj.Ping(t);
  */
-```
+// ```

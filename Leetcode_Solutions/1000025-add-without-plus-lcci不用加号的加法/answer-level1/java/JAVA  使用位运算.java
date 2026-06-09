@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int add(int a, int b) {
         int res = 0;
@@ -7,4 +7,4 @@ class Solution {
         return forworad == 0 ? xor : add(xor, forworad);
     }
 }
-```
+// ```

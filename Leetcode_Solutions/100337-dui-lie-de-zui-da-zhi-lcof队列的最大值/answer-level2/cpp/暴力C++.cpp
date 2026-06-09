@@ -1,9 +1,9 @@
-### 解题思路
-没什么好解释的
+// ### 解题思路
+// 没什么好解释的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 vector<int>Q;
 int front, rear;
@@ -40,4 +40,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

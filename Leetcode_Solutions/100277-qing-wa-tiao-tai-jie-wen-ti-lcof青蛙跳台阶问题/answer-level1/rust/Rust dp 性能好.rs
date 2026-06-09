@@ -1,9 +1,9 @@
-### 解题思路
-dp
+// ### 解题思路
+// dp
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn num_ways(n: i32) -> i32 {
         if n <= 1 {
@@ -21,4 +21,4 @@ impl Solution {
     }
 }
 
-```
+// ```

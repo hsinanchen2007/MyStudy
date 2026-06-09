@@ -1,9 +1,9 @@
-### 解题思路
-根据先序和中序遍历特点，把整个序列进行左右划分，分别构造左右子树即可
+// ### 解题思路
+// 根据先序和中序遍历特点，把整个序列进行左右划分，分别构造左右子树即可
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -42,4 +42,4 @@ class Solution {
         return $root;
     }
 }
-```
+// ```

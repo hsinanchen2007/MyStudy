@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def findComplement(self, num: int) -> int:
         i = 0
@@ -9,5 +9,5 @@ class Solution:
             z += (1 - b) * 2 ** i
             i += 1
         return z
-```
+# ```
 

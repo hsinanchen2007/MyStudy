@@ -1,9 +1,9 @@
-### 解题思路
-染色+DFS
+# ### 解题思路
+# 染色+DFS
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
         V = len(graph)
@@ -25,4 +25,4 @@ class Solution:
                 if not helper(i,0):
                     return False
         return True
-```
+# ```

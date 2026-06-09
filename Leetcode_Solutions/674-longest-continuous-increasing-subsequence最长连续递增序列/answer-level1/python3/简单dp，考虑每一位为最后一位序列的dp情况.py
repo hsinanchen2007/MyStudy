@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findLengthOfLCIS(self, nums):
         """
@@ -16,4 +16,4 @@ class Solution(object):
                 rs=max(rs,dp[i])
         
         return rs
-```
+# ```

@@ -1,17 +1,17 @@
-### 解题思路
-大致同主站习题 [443. 压缩字符串](https://leetcode-cn.com/problems/string-compression/)
-稍微有点不一样，这里需要补1， 而那题需要原地返回。
-``` python3
+# ### 解题思路
+# 大致同主站习题 [443. 压缩字符串](https://leetcode-cn.com/problems/string-compression/)
+# 稍微有点不一样，这里需要补1， 而那题需要原地返回。
+# ``` python3
 for i in range(5):#python3似乎修复了此问题，for 中的i比较特殊，i永远取0,1,.. 5,不会跳过数字，也不会到 6
     i += 1     #  这里的 i 是每次从for 循环中的 i 读一下值而已
     print(i)
 # 1,2,3,4,5,6
-```
+# ```
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if len(S) <= 2:
@@ -39,4 +39,4 @@ class Solution:
         else:
             return S
 
-```
+# ```

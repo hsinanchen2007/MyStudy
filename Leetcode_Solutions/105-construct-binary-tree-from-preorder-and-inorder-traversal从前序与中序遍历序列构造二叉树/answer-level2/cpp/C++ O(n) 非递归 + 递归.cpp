@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/e51c49e522a5ce2daf7dd88f6fdd656bfc013f16720656690cc48a9a26d21954-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e51c49e522a5ce2daf7dd88f6fdd656bfc013f16720656690cc48a9a26d21954-image.png)
 
-非递归
-```cpp
+// 非递归
+// ```cpp
 TreeNode* buildTree(vector<int>& pre, vector<int>& in) {
   if (pre.empty()) return NULL;
   stack<TreeNode*> S;
@@ -18,10 +18,10 @@ TreeNode* buildTree(vector<int>& pre, vector<int>& in) {
   }
   return root;
 }
-```
+// ```
 
-递归：
-```cpp
+// 递归：
+// ```cpp
 TreeNode* dfs(vector<int>& P, int pi, int pj, vector<int>& Q, int qi, int qj,
               unordered_map<int, int>& M) {
   if (pi >= pj || qi >= qj) return NULL;
@@ -36,4 +36,4 @@ TreeNode* buildTree(vector<int>& P, vector<int>& Q) {
   for (int i = 0; i < Q.size(); ++i) M[Q[i]] = i;
   return dfs(P, 0, P.size(), Q, 0, Q.size(), M);
 }
-```
+// ```

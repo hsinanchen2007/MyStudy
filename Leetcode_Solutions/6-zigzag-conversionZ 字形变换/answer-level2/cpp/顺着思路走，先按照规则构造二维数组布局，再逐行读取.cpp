@@ -1,10 +1,10 @@
-### 解题思路
-构造一个二维数组，然后逐个遍历字符串，第一列为numRows个元素，然后是z形的numRows-2个元素，这里记得行号是递减的；
-构造好二维数组后逐行拼接成结果即可
+// ### 解题思路
+// 构造一个二维数组，然后逐个遍历字符串，第一列为numRows个元素，然后是z形的numRows-2个元素，这里记得行号是递减的；
+// 构造好二维数组后逐行拼接成结果即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -42,4 +42,4 @@ public:
         return ret;
     }
 };
-```
+// ```

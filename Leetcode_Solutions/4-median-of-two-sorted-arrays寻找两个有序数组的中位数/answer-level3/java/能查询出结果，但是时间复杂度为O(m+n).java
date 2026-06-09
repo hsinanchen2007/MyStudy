@@ -1,9 +1,9 @@
-### 解题思路
-将数组1与数组2按照排序合并，再从最终的数组中取出中位数
+// ### 解题思路
+// 将数组1与数组2按照排序合并，再从最终的数组中取出中位数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int l1 = nums1 != null ? nums1.length : 0;
@@ -32,4 +32,4 @@ class Solution {
         return (merge[(lm - 1) / 2] + merge[lm / 2]) / 2.0;
     }
 }
-```
+// ```

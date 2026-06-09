@@ -1,4 +1,4 @@
-```
+// ```
 // 优先队列实现（注意“优先队列”用法类似stack，和普通队列不一样）
 class MedianFinder {
 public:
@@ -54,4 +54,4 @@ private:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
-```
+// ```

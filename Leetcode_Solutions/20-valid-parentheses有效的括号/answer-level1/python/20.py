@@ -1,11 +1,11 @@
-### 解题思路
-使用栈：
-1、处理特殊情况：s为“”返回True
-2、左括号入栈，右括号跟栈顶匹配，匹配出栈，不匹配返回False（注意此时要判断list长度是否大于0）
+# ### 解题思路
+# 使用栈：
+# 1、处理特殊情况：s为“”返回True
+# 2、左括号入栈，右括号跟栈顶匹配，匹配出栈，不匹配返回False（注意此时要判断list长度是否大于0）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         if s == "":
@@ -28,4 +28,4 @@ class Solution:
         else:
             return False
             
-```
+# ```

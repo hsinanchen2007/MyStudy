@@ -1,6 +1,6 @@
-每个字符出现的次数为偶数, 或者有且只有一个字符出现的次数为奇数时, 是回文的排列; 否则不是.
+// 每个字符出现的次数为偶数, 或者有且只有一个字符出现的次数为奇数时, 是回文的排列; 否则不是.
 
-``` java
+// ``` java
 class Solution {
     public boolean canPermutePalindrome(String s) {
         Set<Character> set = new HashSet<>();
@@ -12,13 +12,13 @@ class Solution {
         return set.size() <= 1;
     }
 }
-```
+// ```
 
-不使用jdk现成的数据结构, 自己用数组实现哈希表逻辑.
-count记录"出现次数为奇数"的字符的个数
-对于当前字符c, 如果之前已出现过奇数次, 则count减1; 否则count加1.
+// 不使用jdk现成的数据结构, 自己用数组实现哈希表逻辑.
+// count记录"出现次数为奇数"的字符的个数
+// 对于当前字符c, 如果之前已出现过奇数次, 则count减1; 否则count加1.
 
-```java
+// ```java
 class Solution {
     public boolean canPermutePalindrome(String s) {
         int[] map = new int[256];
@@ -33,4 +33,4 @@ class Solution {
         return count <= 1;
     }
 }
-```
+// ```

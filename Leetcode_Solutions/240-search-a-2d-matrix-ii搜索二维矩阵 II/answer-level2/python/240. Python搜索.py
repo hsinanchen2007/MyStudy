@@ -1,9 +1,9 @@
-### 解题思路
-从左下或者右上开始，比较大小即可，具体见下方代码。
+# ### 解题思路
+# 从左下或者右上开始，比较大小即可，具体见下方代码。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def searchMatrix(self, matrix, target):
         """
@@ -25,4 +25,4 @@ class Solution(object):
             else:
                 x -= 1
         return False
-```
+# ```

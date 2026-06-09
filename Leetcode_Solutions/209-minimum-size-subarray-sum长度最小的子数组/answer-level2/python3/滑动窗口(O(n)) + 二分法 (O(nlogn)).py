@@ -1,20 +1,20 @@
-思路一：滑动窗口
+# 思路一：滑动窗口
 
-时间复杂度：$O(n)$
+# 时间复杂度：$O(n)$
 
-思路二：前缀和 +  二分搜索
+# 思路二：前缀和 +  二分搜索
 
-时间复杂度：$O(nlogn)$
+# 时间复杂度：$O(nlogn)$
 
-------
+# ------
 
-直接看代码，很好理解，如有不明白的地方，欢迎留言！
+# 直接看代码，很好理解，如有不明白的地方，欢迎留言！
 
-## 代码：
+# ## 代码：
 
-思路一：
+# 思路一：
 
-```python
+# ```python
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
         if not nums : return 0
@@ -28,11 +28,11 @@ class Solution:
                 cur -= nums[left]
                 left += 1
         return res if res != float("inf") else 0
-```
+# ```
 
-思路二：
+# 思路二：
 
-```python
+# ```python
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
         if not nums : return 0
@@ -54,5 +54,5 @@ class Solution:
                 if loc > 0:
                     res = min(res, i - loc + 1)
         return res 
-```
+# ```
 

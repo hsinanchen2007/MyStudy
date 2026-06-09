@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         res = []
@@ -33,4 +33,4 @@ class Solution:
                         R -= 1
         return res
 
-```
+# ```

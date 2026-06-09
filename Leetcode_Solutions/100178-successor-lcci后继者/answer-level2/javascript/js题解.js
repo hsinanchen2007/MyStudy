@@ -1,4 +1,4 @@
-```
+// ```
 var inorderSuccessor = function(root, p) {
     let arr = [];
     let dfs = (node) => {
@@ -22,7 +22,7 @@ var inorderSuccessor = function(root, p) {
     fn(root);
     return res;
 };
-```
+// ```
 
-前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
-这里记录了我刷过的近500道LeetCode的题解，
+// 前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
+// 这里记录了我刷过的近500道LeetCode的题解，

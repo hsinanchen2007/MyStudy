@@ -1,6 +1,6 @@
-![屏幕快照 2020-01-12 上午10.15.50.png](https://pic.leetcode-cn.com/4e23dd1e5bc5582a65aedf0a345605a2ac5a4e921a3d4976c004820548ef207e-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-12%20%E4%B8%8A%E5%8D%8810.15.50.png)
+// ![屏幕快照 2020-01-12 上午10.15.50.png](https://pic.leetcode-cn.com/4e23dd1e5bc5582a65aedf0a345605a2ac5a4e921a3d4976c004820548ef207e-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-12%20%E4%B8%8A%E5%8D%8810.15.50.png)
 
-```
+// ```
 class Solution {
     public int minCostClimbingStairs(int[] cost) {
             if (cost.length == 0) return 0;
@@ -20,4 +20,4 @@ class Solution {
             return Math.min(dp[cost.length-1], dp[cost.length]);
     }
 }
-```
+// ```

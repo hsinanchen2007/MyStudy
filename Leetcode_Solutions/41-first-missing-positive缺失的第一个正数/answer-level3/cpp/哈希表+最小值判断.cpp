@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
@@ -32,5 +32,5 @@ public:
         }
     }
 };
-```
-map是按key的大小排列存储的，所以查最小值和写入map循环一次（N），找没出现的数遍历key一次（<N，最坏情况下N），故复杂度为$O(N)$
+// ```
+// map是按key的大小排列存储的，所以查最小值和写入map循环一次（N），找没出现的数遍历key一次（<N，最坏情况下N），故复杂度为$O(N)$

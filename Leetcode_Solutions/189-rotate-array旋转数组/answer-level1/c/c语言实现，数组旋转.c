@@ -1,11 +1,11 @@
-思路：通过元素k，数组分为两部分，然后对这两部分分别逆置，最后对整个数组逆置。
+// 思路：通过元素k，数组分为两部分，然后对这两部分分别逆置，最后对整个数组逆置。
 
-例如：
-[1,2,3,4,5]   k =3
+// 例如：
+// [1,2,3,4,5]   k =3
 
-![image.png](https://pic.leetcode-cn.com/6be41195ac1825b5caa7ca535342d07c043cc6c0b7e87fe3a856c9f6677d946f-image.png){:width=600}
+// ![image.png](https://pic.leetcode-cn.com/6be41195ac1825b5caa7ca535342d07c043cc6c0b7e87fe3a856c9f6677d946f-image.png){:width=600}
 
-```C []
+// ```C []
 void rotate(int* nums, int numsSize, int k){
 	int i = 0;
 	int tmp = 0;
@@ -32,4 +32,4 @@ void rotate(int* nums, int numsSize, int k){
 
 }
 
-```
+// ```

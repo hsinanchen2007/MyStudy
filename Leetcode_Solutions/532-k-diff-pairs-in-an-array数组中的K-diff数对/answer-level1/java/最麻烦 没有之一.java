@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findPairs(int[] nums, int k) {
         Arrays.sort(nums);
@@ -40,4 +40,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

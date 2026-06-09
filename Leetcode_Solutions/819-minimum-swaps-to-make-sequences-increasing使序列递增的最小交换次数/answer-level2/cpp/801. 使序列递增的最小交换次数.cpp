@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minSwap(vector<int>& A, vector<int>& B) {
@@ -31,4 +31,4 @@ public:
         return min(step_keep,step_swap);
     }
 };
-```
+// ```

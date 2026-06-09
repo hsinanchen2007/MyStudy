@@ -1,11 +1,11 @@
-### 解题思路
-获胜原则：首家必胜原则，不论取哪个， 一定会获胜。
-所以，每次都取最小的情况下也会获胜。
-取出数组收尾两个， 首家每次取小的。
+# ### 解题思路
+# 获胜原则：首家必胜原则，不论取哪个， 一定会获胜。
+# 所以，每次都取最小的情况下也会获胜。
+# 取出数组收尾两个， 首家每次取小的。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def stoneGame(self, piles):
         """
@@ -25,5 +25,5 @@ class Solution(object):
             return True
         else:
             return False
-```
+# ```
 

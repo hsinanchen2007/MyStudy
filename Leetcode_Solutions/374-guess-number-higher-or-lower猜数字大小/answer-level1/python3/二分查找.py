@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2efdeeffb0f43d61fe44a5285da24eef7c0d4df7184734b2e325273eda0bbad5-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/2efdeeffb0f43d61fe44a5285da24eef7c0d4df7184734b2e325273eda0bbad5-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # The guess API is already defined for you.
 # @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
 # def guess(num: int) -> int:
@@ -21,4 +21,4 @@ class Solution:
             else:
                 l = m + 1
         return None
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-和前面的正则匹配思路类似。
+# ### 解题思路
+# 和前面的正则匹配思路类似。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         n1=len(s)
@@ -21,4 +21,4 @@ class Solution:
                     dp[i][j]=(p[j-1]=="*" and (dp[i-1][j] or dp[i][j-1]))                
         return dp[n1][n2]
 
-```
+# ```

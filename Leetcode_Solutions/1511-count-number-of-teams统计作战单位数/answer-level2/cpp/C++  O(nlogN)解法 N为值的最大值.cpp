@@ -1,15 +1,15 @@
-### C++  $O(n \log N)$解法
+// ### C++  $O(n \log N)$解法
 
 
 
 
-用树状数组，不过这个题的数据范围很小也没必要，但是刚学的东西用到了还是很开心的！！
+// 用树状数组，不过这个题的数据范围很小也没必要，但是刚学的东西用到了还是很开心的！！
 
-![Snipaste_2020-03-29_12-55-52.png](https://pic.leetcode-cn.com/c2560d6d4379b446788ca1a22036f03e5c15d7415f9d29d54c084db103669995-Snipaste_2020-03-29_12-55-52.png)
+// ![Snipaste_2020-03-29_12-55-52.png](https://pic.leetcode-cn.com/c2560d6d4379b446788ca1a22036f03e5c15d7415f9d29d54c084db103669995-Snipaste_2020-03-29_12-55-52.png)
 
 
-### c++代码
-```cpp
+// ### c++代码
+// ```cpp
 class Solution {
 public:
     
@@ -82,4 +82,4 @@ public:
         return res;
     }
 };
-```
+// ```

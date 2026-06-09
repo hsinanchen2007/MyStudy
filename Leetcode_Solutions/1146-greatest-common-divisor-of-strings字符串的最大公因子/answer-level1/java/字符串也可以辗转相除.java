@@ -1,12 +1,12 @@
-### 解题思路
-没想到字符串也可以辗转相除。厉害了
-参考下面题解：
-作者：sweetiee
-链接：https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/solution/java-hen-jian-ji-yi-yan-jiu-neng-kan-ming-bai-by-s/
+// ### 解题思路
+// 没想到字符串也可以辗转相除。厉害了
+// 参考下面题解：
+// 作者：sweetiee
+// 链接：https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/solution/java-hen-jian-ji-yi-yan-jiu-neng-kan-ming-bai-by-s/
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public String gcdOfStrings(String str1, String str2) {
@@ -21,4 +21,4 @@ class Solution {
     }
 
 }
-```
+// ```

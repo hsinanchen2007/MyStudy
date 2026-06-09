@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/3a48f302c02ca8638f24d1faf367f537e6941206c85518363652a43c10672cb8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3a48f302c02ca8638f24d1faf367f537e6941206c85518363652a43c10672cb8-image.png)
 
-### 解题思路
-1. copy 一个 arr2数组，用来判断 arr1 中的元素是否存在于 arr2 中
-2. 建立一个 map，主要用来判断是否这个存在于 arr2 中的元素只是第一次出现，如果是第一次出现，不需要把它填入到 arr2 中，因为 arr2 中本来是有这个值的
-3. 遍历 arr1，把在 arr2 中出现的元素放到arr2中相同元素的后面
-4. 对此时的 arr1 进行快排
-5. 在 arr2 后面 拼接 arr1
+// ### 解题思路
+// 1. copy 一个 arr2数组，用来判断 arr1 中的元素是否存在于 arr2 中
+// 2. 建立一个 map，主要用来判断是否这个存在于 arr2 中的元素只是第一次出现，如果是第一次出现，不需要把它填入到 arr2 中，因为 arr2 中本来是有这个值的
+// 3. 遍历 arr1，把在 arr2 中出现的元素放到arr2中相同元素的后面
+// 4. 对此时的 arr1 进行快排
+// 5. 在 arr2 后面 拼接 arr1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr1
  * @param {number[]} arr2
@@ -41,4 +41,4 @@ var relativeSortArray = function(arr1, arr2) {
   
   return [...arr2, ...arr1];
 };
-```
+// ```

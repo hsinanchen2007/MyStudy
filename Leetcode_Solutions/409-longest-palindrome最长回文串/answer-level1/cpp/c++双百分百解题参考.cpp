@@ -1,6 +1,6 @@
-![jieti.png](https://pic.leetcode-cn.com/e69344910399b972b3a465b8d3b75cb8e76f365a91b9630567bb918c5ea7287e-jieti.png)
-思路：利用桶排序中桶的思想统计s中各个字母出现的次数，然后确定最长回文字符串长度
-```
+// ![jieti.png](https://pic.leetcode-cn.com/e69344910399b972b3a465b8d3b75cb8e76f365a91b9630567bb918c5ea7287e-jieti.png)
+// 思路：利用桶排序中桶的思想统计s中各个字母出现的次数，然后确定最长回文字符串长度
+// ```
 //ASCII：A-65 a-97
 	int res = 0;
 	int countChars[52] = {0};
@@ -42,4 +42,4 @@
 		}
 	}
 	return res;
-```
+// ```

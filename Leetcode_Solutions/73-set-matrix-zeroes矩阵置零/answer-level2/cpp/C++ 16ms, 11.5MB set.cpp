@@ -1,11 +1,11 @@
-### 解题思路
-set 是个好东西，简单来说，就是一种实现了集合的数据类型。
+// ### 解题思路
+// set 是个好东西，简单来说，就是一种实现了集合的数据类型。
 
-![image.png](https://pic.leetcode-cn.com/ab765e927aa52bc7af54ff57f767e176cf0e34224fd0f101e5388e8b08d64532-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ab765e927aa52bc7af54ff57f767e176cf0e34224fd0f101e5388e8b08d64532-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
@@ -30,4 +30,4 @@ public:
                 matrix[*it][i] = 0;
     }
 };
-```
+// ```

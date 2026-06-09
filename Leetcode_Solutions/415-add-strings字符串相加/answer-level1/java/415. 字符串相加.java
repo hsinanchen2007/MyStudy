@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 2399144252@qq.com
- * Date   : 2019/9/9
- * 
- * 解题思路: 大整数相加
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 2399144252@qq.com
+//  * Date   : 2019/9/9
+//  * 
+//  * 解题思路: 大整数相加
+//  * 
+//  */
+// ```
   public String addStrings(String num1, String num2) {
 
         char[] num1_arr = num1.toCharArray();
@@ -42,4 +42,4 @@
         return String.valueOf(num_arr_res).substring(1,num_arr_res.length);
 
     }
-```
+// ```

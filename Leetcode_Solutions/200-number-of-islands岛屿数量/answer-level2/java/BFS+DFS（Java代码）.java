@@ -1,5 +1,5 @@
-**DFS解法**
-```
+// **DFS解法**
+// ```
 class Solution {
     private int[][] directions = {{0,1},{0,-1},{1,0},{-1,0}};
     private int m,n;
@@ -30,10 +30,10 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-**BFS解法**
-```
+// **BFS解法**
+// ```
 class Solution {
     private int[][] directions = {{0,1},{0,-1},{1,0},{-1,0}};
 
@@ -71,4 +71,4 @@ class Solution {
         return level;
     }
 }
-```
+// ```

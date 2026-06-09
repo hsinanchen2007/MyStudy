@@ -1,5 +1,5 @@
-先排序，然后逐个遍历每一个不同值的元素，搜索下一个与之配对的元素。
-```C []
+// 先排序，然后逐个遍历每一个不同值的元素，搜索下一个与之配对的元素。
+// ```C []
 int cmp(const void *a, const void *b){
     return *(int*)b - *(int*)a;
 }
@@ -22,4 +22,4 @@ int findPairs(int* nums, int numsSize, int k){
     }
     return count;
 }
-```
+// ```

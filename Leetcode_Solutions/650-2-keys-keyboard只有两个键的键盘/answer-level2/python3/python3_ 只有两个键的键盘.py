@@ -1,4 +1,4 @@
-```python
+# ```python
 def minSteps(n):
     """
         1. dp[i] = dp[i//j] + j, 0 < j <= n, 并且n % j == 0.
@@ -12,4 +12,4 @@ def minSteps(n):
             return minSteps(n // i) + i
         
 print(minSteps(123))
-```
+# ```

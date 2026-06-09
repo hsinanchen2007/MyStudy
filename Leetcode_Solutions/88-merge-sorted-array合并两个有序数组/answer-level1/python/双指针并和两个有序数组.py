@@ -1,12 +1,12 @@
-### 解题思路
-首先复制nums1的有效部分出来，当然这一步要耗费不少内存，也许有更好的方法。
-然后双指针依次比较，写入nums1就好了
+# ### 解题思路
+# 首先复制nums1的有效部分出来，当然这一步要耗费不少内存，也许有更好的方法。
+# 然后双指针依次比较，写入nums1就好了
 
-当然还有一个方法就是直接把nums2写入nums1的后半部分，然后直接对nums1 快排就好了
+# 当然还有一个方法就是直接把nums2写入nums1的后半部分，然后直接对nums1 快排就好了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -33,4 +33,4 @@ class Solution:
             p2+=1
             p+=1
 
-```
+# ```

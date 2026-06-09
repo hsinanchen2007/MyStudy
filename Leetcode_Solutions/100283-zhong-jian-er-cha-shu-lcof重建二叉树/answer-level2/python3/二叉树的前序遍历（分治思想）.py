@@ -1,21 +1,21 @@
-### 方法：分治思想
+# ### 方法：分治思想
 
-经验总结：二叉树的问题一般都是分治思想，递归去做。因为二叉树本身就是递归定义的。
+# 经验总结：二叉树的问题一般都是分治思想，递归去做。因为二叉树本身就是递归定义的。
 
-解题思路：
+# 解题思路：
 
-+ **前序遍历的第 1 个结点一定是二叉树的根结点**；
-+ 在中序遍历中，根结点把中序遍历序列分成了两个部分，左边部分构成了二叉树的根结点的左子树，右边部分构成了二叉树的根结点的右子树。
-+ 查找根结点在中序遍历序列中的位置，可以遍历，也可以在一开始就记录下来。
+# + **前序遍历的第 1 个结点一定是二叉树的根结点**；
+# + 在中序遍历中，根结点把中序遍历序列分成了两个部分，左边部分构成了二叉树的根结点的左子树，右边部分构成了二叉树的根结点的右子树。
+# + 查找根结点在中序遍历序列中的位置，可以遍历，也可以在一开始就记录下来。
 
-![image.png](https://pic.leetcode-cn.com/8c8abe01c3e93ded3da0d1aebbda99733bb469f7cf9a82a87c9350ddbab7ffc9-image.png){:width=500}
-
-
+# ![image.png](https://pic.leetcode-cn.com/8c8abe01c3e93ded3da0d1aebbda99733bb469f7cf9a82a87c9350ddbab7ffc9-image.png){:width=500}
 
 
-**参考代码 1**：
 
-```Java []
+
+# **参考代码 1**：
+
+# ```Java []
 import java.util.HashMap;
 import java.util.Map;
 
@@ -83,8 +83,8 @@ public class Solution {
         return root;
     }
 }
-```
-```Python []
+# ```
+# ```Python []
 from typing import List
 
 
@@ -127,4 +127,4 @@ class Solution:
         root.right = self.__build_tree(pivot_index - in_left + pre_left + 1, pre_right,
                                        pivot_index + 1, in_right)
         return root
-```
+# ```

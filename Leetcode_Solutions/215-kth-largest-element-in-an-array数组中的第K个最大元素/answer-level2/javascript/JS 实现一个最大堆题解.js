@@ -1,6 +1,6 @@
-通过heapify构造一个最大堆 算法复杂度O(nlogk)
+// 通过heapify构造一个最大堆 算法复杂度O(nlogk)
 
-```
+// ```
 class Heap {
 
   constructor() {
@@ -95,4 +95,4 @@ var findKthLargest = function(nums, k) {
 
   return heap.top()
 }
-```
+// ```

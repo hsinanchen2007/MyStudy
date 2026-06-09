@@ -1,7 +1,7 @@
-#001#
-今日打卡之经典题型:46 排列  
-DFS, backtrack算法
-```
+// #001#
+// 今日打卡之经典题型:46 排列  
+// DFS, backtrack算法
+// ```
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -38,5 +38,5 @@ public:
         }
     }
 };
-```
-打卡发布.如有错误,恳请指正!
+// ```
+// 打卡发布.如有错误,恳请指正!

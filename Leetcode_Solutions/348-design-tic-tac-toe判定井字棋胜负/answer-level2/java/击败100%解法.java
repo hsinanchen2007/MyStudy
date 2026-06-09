@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-每放入一个仅仅影响该行 该列 或者该位置所在对角线，可能从不满足要求变为满足要求
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 每放入一个仅仅影响该行 该列 或者该位置所在对角线，可能从不满足要求变为满足要求
+// ### 代码
 
-```java
+// ```java
 class TicTacToe {
 
     int[][] aa ;
@@ -80,4 +80,4 @@ class TicTacToe {
  * TicTacToe obj = new TicTacToe(n);
  * int param_1 = obj.move(row,col,player);
  */
-```
+// ```

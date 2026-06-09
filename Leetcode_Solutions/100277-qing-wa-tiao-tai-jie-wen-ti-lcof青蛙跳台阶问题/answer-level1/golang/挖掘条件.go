@@ -1,9 +1,9 @@
-### 解题思路
-挖掘出是 斐波那契数列这一隐含条件！
+// ### 解题思路
+// 挖掘出是 斐波那契数列这一隐含条件！
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numWays(n int) int {
     if n == 0 || n == 1 {
         return 1
@@ -16,4 +16,4 @@ func numWays(n int) int {
 
     return b
 }
-```
+// ```

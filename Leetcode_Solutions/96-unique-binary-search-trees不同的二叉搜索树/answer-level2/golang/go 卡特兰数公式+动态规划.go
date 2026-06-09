@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/73af9b3046b630ffd037802b23e49293b01aa0cf756a39b89d76859b2ef2666b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/73af9b3046b630ffd037802b23e49293b01aa0cf756a39b89d76859b2ef2666b-image.png)
 
-```
+// ```
 //1、 通过卡特兰数递推公式推算 c * 2 * (2*n +1)/ (i+2)
 func numTrees(n int) int {
 	c := 1
@@ -9,9 +9,9 @@ func numTrees(n int) int {
 	}
 	return c
 }
-```
+// ```
 
-```
+// ```
 //动态规划
 func numTrees(n int) int {
 	g := make([]int, n+1)
@@ -24,5 +24,5 @@ func numTrees(n int) int {
 	}
 	return g[n]
 }
-```
+// ```
 

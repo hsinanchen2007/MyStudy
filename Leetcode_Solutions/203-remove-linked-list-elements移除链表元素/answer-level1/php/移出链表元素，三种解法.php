@@ -1,6 +1,6 @@
-删除链表中等于给定值 val 的所有节点
-- 使用递归
-```
+// 删除链表中等于给定值 val 的所有节点
+// - 使用递归
+// ```
 function removeElements($head, $val) {
        if($head==null){
               return null;
@@ -8,9 +8,9 @@ function removeElements($head, $val) {
         $head->next=$this->removeElements($head->next,$val);
         return  $head->val==$val?$head->next:$head;
 }
-```
-- 不使用递归
-```
+// ```
+// - 不使用递归
+// ```
 class Solution {
 
     /**
@@ -42,10 +42,10 @@ class Solution {
         return $head;
     }
 }
-```
+// ```
 
-- 使用虚拟头结点
-```
+// - 使用虚拟头结点
+// ```
     function removeElements($head, $val) {
         $dummyhead=new ListNode(0);
         $dummyhead->next=$head;
@@ -62,4 +62,4 @@ class Solution {
         }
         return $dummyhead->next;
     }
-```
+// ```

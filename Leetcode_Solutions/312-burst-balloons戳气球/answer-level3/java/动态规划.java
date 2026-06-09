@@ -1,9 +1,9 @@
-### 解题思路
-dp[i][j]代表的是扎破i+1~j-1号气球，最多获得的金币数。
+// ### 解题思路
+// dp[i][j]代表的是扎破i+1~j-1号气球，最多获得的金币数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxCoins(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -31,4 +31,4 @@ class Solution {
         return dp[0][n - 1];
     }
 }
-```
+// ```

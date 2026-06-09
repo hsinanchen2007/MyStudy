@@ -1,6 +1,6 @@
-似乎只能用if语句列举条件
-左下与右上关系固定，左上与右下关系相对固定。
-```
+// 似乎只能用if语句列举条件
+// 左下与右上关系固定，左上与右下关系相对固定。
+// ```
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -8,4 +8,4 @@ public:
         return false;
     }
 };
-```
+// ```

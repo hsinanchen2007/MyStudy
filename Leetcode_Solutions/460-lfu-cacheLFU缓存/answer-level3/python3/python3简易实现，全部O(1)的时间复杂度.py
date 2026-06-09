@@ -1,4 +1,4 @@
-```python
+# ```python
 from collections import defaultdict
 
 
@@ -90,4 +90,4 @@ class LFUCache:
             self.map[key] = new_node
             self.min_freq = 1  # 维护一下min_freq
             self.size += 1
-```
+# ```

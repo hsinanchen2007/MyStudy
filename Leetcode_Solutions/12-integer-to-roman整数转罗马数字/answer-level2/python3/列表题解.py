@@ -1,9 +1,9 @@
-### 解题思路
-分类讨论？这个44ms，思路大都没什么区别，就是在实现上的优化技巧，包括代码行数优化和时间内存优化。
+# ### 解题思路
+# 分类讨论？这个44ms，思路大都没什么区别，就是在实现上的优化技巧，包括代码行数优化和时间内存优化。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intToRoman(self, num: int) -> str:
         one_digits = ['I', 'X', 'C', 'M']
@@ -25,4 +25,4 @@ class Solution:
                 ans = one_digits[bit] + one_digits[bit + 1] + ans
             bit = bit + 1
         return ans
-```
+# ```

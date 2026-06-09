@@ -1,9 +1,9 @@
-### 解题思路
-需要深入理解下快排, 归并, 堆, 桶等内容...
+// ### 解题思路
+// 需要深入理解下快排, 归并, 堆, 桶等内容...
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -22,4 +22,4 @@ var sortArray = function(nums) {
     })
     return result
 };
-```
+// ```

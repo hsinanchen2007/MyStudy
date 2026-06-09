@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-其实就是 Java 中的 indexOf() 函数，速度也更快
+// 其实就是 Java 中的 indexOf() 函数，速度也更快
 
-但是也有其他办法，比如先用 haystack 长度减去 needle 的长度，然后遍历，使用 substring() 函数
+// 但是也有其他办法，比如先用 haystack 长度减去 needle 的长度，然后遍历，使用 substring() 函数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
         if(haystack==null|| needle==null || haystack.length()<needle.length())
@@ -19,4 +19,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

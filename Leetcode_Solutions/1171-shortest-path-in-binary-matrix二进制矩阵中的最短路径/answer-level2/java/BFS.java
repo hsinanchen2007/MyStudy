@@ -1,9 +1,9 @@
-### 解题思路
-走过的路线进行标记，每次探索8个方向。
+// ### 解题思路
+// 走过的路线进行标记，每次探索8个方向。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int shortestPathBinaryMatrix(int[][] grid) {
         int len = grid.length;
@@ -39,4 +39,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

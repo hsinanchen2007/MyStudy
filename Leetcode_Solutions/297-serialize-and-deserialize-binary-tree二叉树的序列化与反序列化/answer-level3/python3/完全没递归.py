@@ -1,6 +1,6 @@
-148ms,93.38%，没用递归，树转表是从前往后，表转树是从后往前，翻评论看到了可以用self.root来做，吐血了。
+# 148ms,93.38%，没用递归，树转表是从前往后，表转树是从后往前，翻评论看到了可以用self.root来做，吐血了。
 
-```
+# ```
 def serialize(self, root):
         if not root:return []
         d=[root]
@@ -50,4 +50,4 @@ def serialize(self, root):
                             b[i].right=b[a[i]+1]
         
         return b[0]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-其实就是逻辑性强一点,代码如下
+// ### 解题思路
+// 其实就是逻辑性强一点,代码如下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> fullJustify(String[] words, int maxWidth) {
 
@@ -52,4 +52,4 @@ while (sb.length() < maxWidth) {
 		return list;
 	}
 }
-```
+// ```

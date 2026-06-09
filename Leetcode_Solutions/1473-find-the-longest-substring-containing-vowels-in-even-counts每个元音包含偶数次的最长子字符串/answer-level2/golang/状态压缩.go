@@ -1,4 +1,4 @@
-```
+// ```
 var target = map[uint8]int{
 	'a': 1,
 	'e': 2,
@@ -36,4 +36,4 @@ func max(a, b int) int {
 	}
 	return b
 }
-```
+// ```

@@ -1,7 +1,7 @@
-进行边界处理之后，我们使用 k 进行角标标记，first 用于 拨正 i 循环的起点
+// 进行边界处理之后，我们使用 k 进行角标标记，first 用于 拨正 i 循环的起点
 
 
-```cpp
+// ```cpp
 int strStr(char * haystack, char * needle) {
 
    ///！ 获取字符串长度
@@ -40,4 +40,4 @@ int strStr(char * haystack, char * needle) {
 
 
 
-```
+// ```

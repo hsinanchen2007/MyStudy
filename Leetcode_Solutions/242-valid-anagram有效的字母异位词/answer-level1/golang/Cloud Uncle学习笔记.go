@@ -1,5 +1,5 @@
-1. 将string转换成[]int之后，然后对[]int排序，看两个[]int切片是否相等
-```
+// 1. 将string转换成[]int之后，然后对[]int排序，看两个[]int切片是否相等
+// ```
 func isAnagram(s string, t string) bool {
     if len(s) != len(t) {
         return false
@@ -22,11 +22,11 @@ func isAnagram(s string, t string) bool {
     }
     return true    
 }
-```
+// ```
 
-2.map
-    定义一个map[byte]int,统计每个字母出现的次数，一个string加count，一个string减count
-```
+// 2.map
+//     定义一个map[byte]int,统计每个字母出现的次数，一个string加count，一个string减count
+// ```
 func isAnagram(s string, t string) bool {
     if len(s) != len(t) {
         return false
@@ -51,9 +51,9 @@ func isAnagram(s string, t string) bool {
 
     return true
 }
-```
+// ```
 
-```
+// ```
 func isAnagram(s string, t string) bool {
     if len(s) != len(t) {
         return false
@@ -72,4 +72,4 @@ func isAnagram(s string, t string) bool {
 
     return true    
 }
-```
+// ```

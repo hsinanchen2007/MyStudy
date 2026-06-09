@@ -1,10 +1,10 @@
-### 解题思路
-![QQ图片20200313110124.png](https://pic.leetcode-cn.com/a15b43d762bd606917e84061fb6666de79d4e0dcc303a1f5378b4b63efb385a7-QQ%E5%9B%BE%E7%89%8720200313110124.png)
+// ### 解题思路
+// ![QQ图片20200313110124.png](https://pic.leetcode-cn.com/a15b43d762bd606917e84061fb6666de79d4e0dcc303a1f5378b4b63efb385a7-QQ%E5%9B%BE%E7%89%8720200313110124.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> summaryRanges(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
         return ans;
     }
 };
-```
+// ```

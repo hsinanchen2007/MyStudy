@@ -1,16 +1,16 @@
-**方法一：深度优先搜索（DFS)**
+// **方法一：深度优先搜索（DFS)**
 
-跳出递归的条件：
-- index < 0 || index >=arr.length&nbsp;&nbsp;&nbsp;**return false**
-- index 已经是访问过的下标&nbsp;&nbsp;&nbsp;**return false**
-- arr[index] == 0&nbsp;&nbsp;&nbsp;**return true**
+// 跳出递归的条件：
+// - index < 0 || index >=arr.length&nbsp;&nbsp;&nbsp;**return false**
+// - index 已经是访问过的下标&nbsp;&nbsp;&nbsp;**return false**
+// - arr[index] == 0&nbsp;&nbsp;&nbsp;**return true**
 
-借助visited布尔数组来存储已经访问过的下标
+// 借助visited布尔数组来存储已经访问过的下标
 
-***执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :48.9 MB, 在所有 Java 提交中击败了100.00%的用户***
+// ***执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :48.9 MB, 在所有 Java 提交中击败了100.00%的用户***
   
-```
+// ```
 class Solution {
     public boolean canReach(int[] arr, int start) {
         boolean[] visited = new boolean[arr.length];
@@ -27,16 +27,16 @@ class Solution {
         }
     }
 }
-```
----
-**方法二：广度优先搜索（BFS)**
+// ```
+// ---
+// **方法二：广度优先搜索（BFS)**
 
-思路非常简单，套用bfs模板即可，当下标不越界并且未被访问过就存入队列中
+// 思路非常简单，套用bfs模板即可，当下标不越界并且未被访问过就存入队列中
 
-***执行用时 :1 ms, 在所有 Java 提交中击败了56.28%的用户
-内存消耗 :48.3 MB, 在所有 Java 提交中击败了100.00%的用户***
+// ***执行用时 :1 ms, 在所有 Java 提交中击败了56.28%的用户
+// 内存消耗 :48.3 MB, 在所有 Java 提交中击败了100.00%的用户***
 
-```
+// ```
 class Solution {
     public boolean canReach(int[] arr, int start) {
         Queue<Integer> queue = new LinkedList<>();
@@ -61,5 +61,5 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 

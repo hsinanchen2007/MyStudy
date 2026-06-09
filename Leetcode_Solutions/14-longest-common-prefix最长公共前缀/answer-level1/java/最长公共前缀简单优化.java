@@ -1,14 +1,14 @@
-# 简单优化
-![image.png](https://pic.leetcode-cn.com/2d689f5c68bde112c2b77913cd6f7c8898c7427beb30a51d7bafd30614fcf4a3-image.png)
-***
-- **优化思路有两处**
-> 减少循环次数；
-> 找到给定字符串集合中的最短字符串长度，这样再每次循环时我们只需检查`j`是否大于当前串的长度
-> 添加循环跳出判断，如果出现任意一个字符串与参考串的公共前缀为`0`那么整个给定字符集的公共前缀肯定为`0`可以直接跳出循环
-***
- **代码中通过注释解释部分问题**
+// # 简单优化
+// ![image.png](https://pic.leetcode-cn.com/2d689f5c68bde112c2b77913cd6f7c8898c7427beb30a51d7bafd30614fcf4a3-image.png)
+// ***
+// - **优化思路有两处**
+// > 减少循环次数；
+// > 找到给定字符串集合中的最短字符串长度，这样再每次循环时我们只需检查`j`是否大于当前串的长度
+// > 添加循环跳出判断，如果出现任意一个字符串与参考串的公共前缀为`0`那么整个给定字符集的公共前缀肯定为`0`可以直接跳出循环
+// ***
+//  **代码中通过注释解释部分问题**
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if(strs==null||strs.length<=0)
@@ -50,4 +50,4 @@ class Solution {
      return  ans.substring(0,min);
     }
 }
-```
+// ```

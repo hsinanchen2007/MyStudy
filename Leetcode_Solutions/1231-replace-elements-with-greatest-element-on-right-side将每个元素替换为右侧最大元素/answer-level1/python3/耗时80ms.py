@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
         n1 = len(arr)
@@ -20,4 +20,4 @@ class Solution:
             for i in range(index1 + 1):
                 result.append(max1)
             first = index1+1+first
-```
+# ```

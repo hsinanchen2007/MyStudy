@@ -1,12 +1,12 @@
-### 解题思路
-根据二叉树的**层序遍历**过程，修改即可。
-遍历每一层的时候，得到当前层的宽度，即为size;
-遍历size，得到每一层的总和sum，然后将sum/size的平均值压入栈中。
-不懂的可以先查查层序遍历的算法。
+// ### 解题思路
+// 根据二叉树的**层序遍历**过程，修改即可。
+// 遍历每一层的时候，得到当前层的宽度，即为size;
+// 遍历size，得到每一层的总和sum，然后将sum/size的平均值压入栈中。
+// 不懂的可以先查查层序遍历的算法。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,4 +44,4 @@ class Solution {
         return doubleList;
     }
 }
-```
+// ```

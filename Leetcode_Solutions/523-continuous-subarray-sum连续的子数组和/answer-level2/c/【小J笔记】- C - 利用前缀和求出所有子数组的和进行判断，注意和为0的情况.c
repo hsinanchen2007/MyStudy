@@ -1,5 +1,5 @@
-- 利用前缀和求出所有子数组的和，判断是否为k的整数倍，注意k为0的情况
-```
+// - 利用前缀和求出所有子数组的和，判断是否为k的整数倍，注意k为0的情况
+// ```
 #define MAX_SIZE (10010)
 #define NULL_PTR (0)
 #define TRUE (1)
@@ -38,4 +38,4 @@ bool checkSubarraySum(int* nums, int numsSize, int k)
     }
     return FALSE;    
 }
-```
+// ```

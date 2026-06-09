@@ -1,9 +1,9 @@
-### 解题思路
-遍历节点把值装进列表再反转，索引对应该元素左移几位
+# ### 解题思路
+# 遍历节点把值装进列表再反转，索引对应该元素左移几位
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
         for i,x in enumerate(res):
             sum+=x<<i
         return sum
-```
+# ```

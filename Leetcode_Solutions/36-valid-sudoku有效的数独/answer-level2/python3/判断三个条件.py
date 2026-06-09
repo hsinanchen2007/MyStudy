@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         if not board:
@@ -27,4 +27,4 @@ class Solution:
                                 raw[x%3].add(board[x][y])
                                 col[y].add(board[x][y])
         return True
-```
+# ```

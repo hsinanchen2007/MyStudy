@@ -1,4 +1,4 @@
-```
+// ```
 public String compressString(String S) {
         StringBuilder sb = new StringBuilder(String.valueOf(S.charAt(0)));
         int len = S.length();
@@ -22,4 +22,4 @@ public String compressString(String S) {
         }
         return sb.toString();
     }
-```
+// ```

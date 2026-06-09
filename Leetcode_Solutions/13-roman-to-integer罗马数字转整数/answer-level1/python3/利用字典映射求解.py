@@ -1,11 +1,11 @@
-### 解题思路
-常规字典映射+特殊字典映射
-复杂度分析：
-时间复杂度：O（n），空间复杂度：O（1）
+# ### 解题思路
+# 常规字典映射+特殊字典映射
+# 复杂度分析：
+# 时间复杂度：O（n），空间复杂度：O（1）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     map_dict = {
         "I": 1,
@@ -44,4 +44,4 @@ class Solution:
                         continue
             trans_num += self.map_dict[s[i]]
         return trans_num
-```
+# ```

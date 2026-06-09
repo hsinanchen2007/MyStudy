@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public TreeNode invertTree(TreeNode root) {
         if(root == null) return null;
@@ -8,4 +8,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

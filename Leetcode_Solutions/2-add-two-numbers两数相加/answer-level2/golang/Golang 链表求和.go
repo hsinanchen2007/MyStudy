@@ -1,12 +1,12 @@
-### 解题思路
-遍历链表，注意处理进位，和退出条件
-![Screen Shot 2020-03-15 at 1.10.06 AM.png](https://pic.leetcode-cn.com/2fb2a356b7b10c64e58bb0885508678745a775ead62ce4e3657bdce41fd87769-Screen%20Shot%202020-03-15%20at%201.10.06%20AM.png)
+// ### 解题思路
+// 遍历链表，注意处理进位，和退出条件
+// ![Screen Shot 2020-03-15 at 1.10.06 AM.png](https://pic.leetcode-cn.com/2fb2a356b7b10c64e58bb0885508678745a775ead62ce4e3657bdce41fd87769-Screen%20Shot%202020-03-15%20at%201.10.06%20AM.png)
 
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -57,4 +57,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
     
     return head
 }
-```
+// ```

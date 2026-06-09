@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/577df264986658197cbba17b3552f0425eee56e67a3626469f4e8432994d00de-image.png)
+// ![image.png](https://pic.leetcode-cn.com/577df264986658197cbba17b3552f0425eee56e67a3626469f4e8432994d00de-image.png)
 
 
-```
+// ```
 void nextPermutation(int* nums, int numsSize) 
 {
     if (numsSize <= 1) {
@@ -40,4 +40,4 @@ void nextPermutation(int* nums, int numsSize)
     }
     return;
 }
-```
+// ```

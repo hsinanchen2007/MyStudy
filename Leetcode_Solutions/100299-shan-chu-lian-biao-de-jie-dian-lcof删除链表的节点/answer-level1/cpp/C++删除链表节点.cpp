@@ -1,13 +1,13 @@
-### 解题思路
-查找到a->next==val,a->next=a->next->next
-特殊情况：
-1、只有一个节点，删除完head=nullptr
-2、删除最后一个节点时，a->next=nullptr
+// ### 解题思路
+// 查找到a->next==val,a->next=a->next->next
+// 特殊情况：
+// 1、只有一个节点，删除完head=nullptr
+// 2、删除最后一个节点时，a->next=nullptr
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ public:
 
     }
 };
-```
+// ```

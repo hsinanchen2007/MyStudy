@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/f2d275c6dcf2bd7269762291a107b28788b27ed96a84b42190cef2be6bad86c8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f2d275c6dcf2bd7269762291a107b28788b27ed96a84b42190cef2be6bad86c8-image.png)
 
-### 解题思路
-注释详细，有收获请点赞
+// ### 解题思路
+// 注释详细，有收获请点赞
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return true; // 每一步都走完了，没问题，返回true
     }
 };
-```
+// ```

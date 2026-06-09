@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Leaderboard {
 public:
     map<int, int, greater<int>> reverseMap;
@@ -31,4 +31,4 @@ public:
         scoreB[playerId] = 0;
     }
 };
-```
+// ```

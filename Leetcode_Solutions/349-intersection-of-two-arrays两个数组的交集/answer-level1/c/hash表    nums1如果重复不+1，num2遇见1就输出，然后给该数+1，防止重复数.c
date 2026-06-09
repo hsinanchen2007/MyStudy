@@ -1,4 +1,4 @@
-```
+// ```
 #define g_size 100001
 
 int* intersection(int* nums1, int nums1Size, int* nums2, int nums2Size, int* returnSize){
@@ -22,4 +22,4 @@ int* intersection(int* nums1, int nums1Size, int* nums2, int nums2Size, int* ret
     * returnSize = idx;
     return ret;
 }
-```
+// ```

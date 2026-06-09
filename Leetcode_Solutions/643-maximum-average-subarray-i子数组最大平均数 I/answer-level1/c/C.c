@@ -1,11 +1,11 @@
-### 解题思路
-刚开始也想到了类似滑动窗口，但是用的暴力破解，超时了。
-先求数组和，只需要计算n次，然后求k个数的和，就是两个数组和做差了。
-注意边界值的判断
+// ### 解题思路
+// 刚开始也想到了类似滑动窗口，但是用的暴力破解，超时了。
+// 先求数组和，只需要计算n次，然后求k个数的和，就是两个数组和做差了。
+// 注意边界值的判断
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 double findMaxAverage(int* nums, int numsSize, int k){
     //先计算sums数组
     double maxAve = -10000;
@@ -36,4 +36,4 @@ double findMaxAverage(int* nums, int numsSize, int k){
     free(sums);
     return maxAve;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用时内存都很差，求指点
+// ### 解题思路
+// 用时内存都很差，求指点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private List<String> ress = new ArrayList<>();
 
@@ -33,4 +33,4 @@ class Solution {
         ress.add(res);
     }
 }
-```
+// ```

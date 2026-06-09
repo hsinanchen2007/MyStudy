@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:  
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         left_index = self.twof_left(nums,target)
@@ -34,6 +34,6 @@ class Solution:
                 left = mid+1
         if right == 0 :return -1
         return right-1 if nums[right-1] == target else -1
-```
+# ```
 
 

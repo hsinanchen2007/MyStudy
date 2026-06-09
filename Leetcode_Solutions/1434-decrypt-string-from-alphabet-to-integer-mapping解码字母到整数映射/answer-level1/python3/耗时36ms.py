@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def freqAlphabets(self, s: str) -> str:
         str1 = "abcdefghijklmnopqrstuvwxyz"
@@ -36,4 +36,4 @@ class Solution:
 
         
              
-```
+# ```

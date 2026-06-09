@@ -1,24 +1,24 @@
-1、栈的概念
+// 1、栈的概念
 
-很好的理解栈的概念的基础题。这里通过LinkedList实现同样的push,pop,top,geimin的栈操作。
+// 很好的理解栈的概念的基础题。这里通过LinkedList实现同样的push,pop,top,geimin的栈操作。
 
-首先理解栈是一个数据结构，只能支持插入、取出两种数据修改。插入只能插到栈顶，取出也只能取出栈顶。也就是一个Last-in,First-out的数据结构，后进要先出，最后进入的就是栈顶元素。
-
-
-
-2、题解
-
-对这题的操作使用栈是最直接的，除了getmin以外其实没有任何新增代码量。
-
-实现栈的方式多种，有简单数组、动态数组，以及链表。用LinkList实现本题，和直接用栈的复杂度是一样的。
+// 首先理解栈是一个数据结构，只能支持插入、取出两种数据修改。插入只能插到栈顶，取出也只能取出栈顶。也就是一个Last-in,First-out的数据结构，后进要先出，最后进入的就是栈顶元素。
 
 
 
-代码：
+// 2、题解
 
-上手第一次写，用循环的方式去实现getmin, 通过17/18个测试用例，用LinkedList对搜索最小元素进行遍历时长超出限制。
+// 对这题的操作使用栈是最直接的，除了getmin以外其实没有任何新增代码量。
 
-```java
+// 实现栈的方式多种，有简单数组、动态数组，以及链表。用LinkList实现本题，和直接用栈的复杂度是一样的。
+
+
+
+// 代码：
+
+// 上手第一次写，用循环的方式去实现getmin, 通过17/18个测试用例，用LinkedList对搜索最小元素进行遍历时长超出限制。
+
+// ```java
 private LinkedList<Integer> minStack;
 	
 	/** initialize your data structure here. */
@@ -53,13 +53,13 @@ private LinkedList<Integer> minStack;
     	}
     	return -1;
     }
-```
+// ```
 
 
 
-代码：第二次使用辅助列表，对最小元素单独记录。在push和pop时判断后与主列表同步出入栈。
+// 代码：第二次使用辅助列表，对最小元素单独记录。在push和pop时判断后与主列表同步出入栈。
 
-```java
+// ```java
 public class MinStack {
 
 	private LinkedList<Integer> minStack;
@@ -106,7 +106,7 @@ public class MinStack {
     	return -1;
     }
 }
-```
+// ```
 
 
 

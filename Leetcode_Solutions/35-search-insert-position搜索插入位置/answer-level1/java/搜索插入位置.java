@@ -1,8 +1,8 @@
-简单的if语句实现
+// 简单的if语句实现
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int i,j=0;
@@ -22,4 +22,4 @@ class Solution {
         return j;
     }
 }
-```
+// ```

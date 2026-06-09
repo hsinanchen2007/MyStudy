@@ -1,9 +1,9 @@
-### 解题思路
-链表的头插法，每k个头插法一次，然后记录下这k个的尾巴用来链接下k个翻转的头。
+// ### 解题思路
+// 链表的头插法，每k个头插法一次，然后记录下这k个的尾巴用来链接下k个翻转的头。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct ListNode* reverseKGroup(struct ListNode* head, int k){
     if(k == 1){
         return head;
@@ -43,9 +43,9 @@ struct ListNode* reverseKGroup(struct ListNode* head, int k){
     r->next = p;
     return result;
 }
-```
+// ```
 
-```
+// ```
 //代码原理同上，只不过是一边遍历一边计数，遍历一次就行了。
 struct ListNode* reverseKGroup(struct ListNode* head, int k){
     if(k == 1){
@@ -104,4 +104,4 @@ struct ListNode* reverseKGroup(struct ListNode* head, int k){
     }
     return result;
 }
-```
+// ```

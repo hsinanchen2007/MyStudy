@@ -1,6 +1,6 @@
-思路:见标题
-注意:本人菜鸡 主要的语句都添加了注释 以下代码仅供参考 还请大家做做指教
-```python []
+// 思路:见标题
+// 注意:本人菜鸡 主要的语句都添加了注释 以下代码仅供参考 还请大家做做指教
+// ```python []
 from itertools import chain
 class Solution:
 	def projectionArea(self,grid):
@@ -8,8 +8,8 @@ class Solution:
 		#xz平面 sum(max(i) for i in grid) grid每行的最大值
 		#yz平面 sum(max(i) for i in zip(*grid)) grid每列的最大值
 		#xy平面 sum(1 for i in chain(*grid) if i) 非0的元素个数 或者len(list(filter(bool,chain.from_iterable(grid))))
-```
-```golang []
+// ```
+// ```golang []
 func projectionArea(grid [][]int) (ans int) {
 	for i:=0;i<len(grid);i++ { //行列可以一起整来着
 		row,col:=0,0
@@ -28,4 +28,4 @@ func projectionArea(grid [][]int) (ans int) {
 	}
 	return
 }
-```
+// ```

@@ -1,9 +1,9 @@
-观察题目可的出规律：
-旋转后的矩阵二维下标分别为 N - 1递减，与从零开始递增至N - 1.
+# 观察题目可的出规律：
+# 旋转后的矩阵二维下标分别为 N - 1递减，与从零开始递增至N - 1.
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rotate(self, matrix):
         """
@@ -21,4 +21,4 @@ class Solution(object):
                 matrix[i][j] = tmp[k][i]
         
         return matrix
-```
+# ```

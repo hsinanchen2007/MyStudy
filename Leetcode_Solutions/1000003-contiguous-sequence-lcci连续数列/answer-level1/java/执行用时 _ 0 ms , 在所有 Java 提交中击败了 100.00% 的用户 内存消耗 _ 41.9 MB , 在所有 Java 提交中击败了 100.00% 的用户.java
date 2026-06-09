@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         int sum = 0, max = Integer.MIN_VALUE;
@@ -15,4 +15,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

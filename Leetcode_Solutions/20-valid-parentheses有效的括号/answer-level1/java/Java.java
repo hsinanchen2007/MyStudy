@@ -1,8 +1,8 @@
-### 解题思路
-练习了栈的使用，需要注意的是char型字符初始化用的是单引号，string是双引号。
-### 代码
+// ### 解题思路
+// 练习了栈的使用，需要注意的是char型字符初始化用的是单引号，string是双引号。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static boolean isValid(String s) {
         Stack<Character> stack = new Stack();
@@ -32,4 +32,4 @@ class Solution {
         }
     }
 }
-```
+// ```

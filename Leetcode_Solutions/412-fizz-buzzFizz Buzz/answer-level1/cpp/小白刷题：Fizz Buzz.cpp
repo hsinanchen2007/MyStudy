@@ -1,7 +1,7 @@
-按照规则字面意思构造即可
+// 按照规则字面意思构造即可
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     vector<string> fizzBuzz(int n) {
@@ -24,4 +24,4 @@ public:
         return ans;
     }
 };
-```
+// ```

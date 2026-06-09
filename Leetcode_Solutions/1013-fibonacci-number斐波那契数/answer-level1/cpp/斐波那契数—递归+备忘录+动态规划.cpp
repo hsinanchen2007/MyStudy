@@ -1,5 +1,5 @@
-方法一 递归
-```
+// 方法一 递归
+// ```
 class Solution {
 public:
     int fib(int N) {
@@ -7,9 +7,9 @@ public:
         return fib(N-1)+fib(N-2);
     }
 };
-```
-方法二 备忘录递归
-```
+// ```
+// 方法二 备忘录递归
+// ```
 class Solution {
 public:
     vector<int> a;
@@ -24,9 +24,9 @@ public:
         return a[N];
     }
 };
-```
-方法三 动态规划
-```
+// ```
+// 方法三 动态规划
+// ```
 class Solution {
 public:
     int fib(int N) {
@@ -39,6 +39,6 @@ public:
         return dp[N];
     }
 };
-```
+// ```
 
 

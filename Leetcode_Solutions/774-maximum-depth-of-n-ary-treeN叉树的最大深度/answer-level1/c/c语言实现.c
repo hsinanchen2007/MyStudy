@@ -1,4 +1,4 @@
-```
+// ```
 int traverse(struct Node* root){
     if (!root->numChildren) return 0;
     int deeps[root->numChildren];
@@ -19,4 +19,4 @@ int* maxDepth(struct Node* root) {
     int depth = traverse(root) + 1;
     return depth;
 }
-```
+// ```

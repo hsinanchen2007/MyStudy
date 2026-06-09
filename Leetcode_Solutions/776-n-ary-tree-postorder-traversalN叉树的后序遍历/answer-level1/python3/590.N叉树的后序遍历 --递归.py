@@ -1,9 +1,9 @@
-### 解题思路
-N叉树的后序遍历和二叉树的后序遍历类似，先遍历孩子，再自身。
+# ### 解题思路
+# N叉树的后序遍历和二叉树的后序遍历类似，先遍历孩子，再自身。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -21,4 +21,4 @@ class Solution:
             L.append(root.val)
         posr(root)
         return L
-```
+# ```

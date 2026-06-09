@@ -1,9 +1,9 @@
-### 解题思路
-链表值保存到数组里，处理完后再下回链表
+// ### 解题思路
+// 链表值保存到数组里，处理完后再下回链表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -61,4 +61,4 @@ public:
         return head;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-这道题目真没意思
+// ### 解题思路
+// 这道题目真没意思
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -19,4 +19,4 @@ public:
         node->next = node->next->next;
     }
 };
-```
+// ```

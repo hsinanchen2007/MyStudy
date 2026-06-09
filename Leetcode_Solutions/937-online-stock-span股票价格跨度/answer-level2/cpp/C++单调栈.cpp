@@ -1,7 +1,7 @@
-![Snipaste_2019-12-04_17-09-37.png](https://pic.leetcode-cn.com/99bc49a65189d0b8da1fbe65c9da75af917c053798029d3bba152c4d983ef458-Snipaste_2019-12-04_17-09-37.png)
+// ![Snipaste_2019-12-04_17-09-37.png](https://pic.leetcode-cn.com/99bc49a65189d0b8da1fbe65c9da75af917c053798029d3bba152c4d983ef458-Snipaste_2019-12-04_17-09-37.png)
 
 
-```
+// ```
 class StockSpanner {
     stack<pair<int, int>> stock;
 public:
@@ -29,4 +29,4 @@ public:
  * StockSpanner* obj = new StockSpanner();
  * int param_1 = obj->next(price);
  */
-```
+// ```

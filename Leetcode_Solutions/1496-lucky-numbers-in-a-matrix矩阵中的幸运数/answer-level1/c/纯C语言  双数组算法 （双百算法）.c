@@ -1,7 +1,7 @@
-用了两个数组 一个用于找到每一行的最小值  一个用于不断更改找到每一列的最大值
-最后两个数组进行查找相同的数放在要返回的数组中，over
-有一些注释因为我当时不明白题意，加的调试（两个小时，害）
-```
+// 用了两个数组 一个用于找到每一行的最小值  一个用于不断更改找到每一列的最大值
+// 最后两个数组进行查找相同的数放在要返回的数组中，over
+// 有一些注释因为我当时不明白题意，加的调试（两个小时，害）
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -51,4 +51,4 @@ int *luckyNumbers(int **matrix, int matrixSize, int *matrixColSize, int *returnS
     *returnSize = u;
     return return_array;
 }
-```
+// ```

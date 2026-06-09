@@ -1,11 +1,11 @@
-### 解题思路
-头一次知道string还有pop_back和push_back，以及可以直接比较两个string是否相等
+// ### 解题思路
+// 头一次知道string还有pop_back和push_back，以及可以直接比较两个string是否相等
 
-用栈很方便，但是写代码的时候一定要注意下文的注释
+// 用栈很方便，但是写代码的时候一定要注意下文的注释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool backspaceCompare(string S, string T) {
@@ -26,4 +26,4 @@ public:
 
     }
 };
-```
+// ```

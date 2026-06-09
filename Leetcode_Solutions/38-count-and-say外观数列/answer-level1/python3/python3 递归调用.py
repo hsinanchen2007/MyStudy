@@ -1,5 +1,5 @@
-思路：用递归方法，不断调用上一个n所返回的字符串str，通过计算上一个数的逻辑来得到本n的逻辑字符串
-```
+# 思路：用递归方法，不断调用上一个n所返回的字符串str，通过计算上一个数的逻辑来得到本n的逻辑字符串
+# ```
         if   n==1 :return "1"
         elif n==2 :return "11"    
         elif n==3 :return "21"    
@@ -26,4 +26,4 @@
             sts.append(lis.count(lis[0]))              
             sts_reverse = list(reversed(sts))
             return "".join(str(i) for i in sts_reverse)
-```
+# ```

@@ -1,7 +1,7 @@
-## 思路一：排序
-### 代码
-时间复杂度取决于排序：O(nlogn)
-```c++
+// ## 思路一：排序
+// ### 代码
+// 时间复杂度取决于排序：O(nlogn)
+// ```c++
 class Solution {
 public:
     int maximumProduct(vector<int>& nums) {
@@ -15,13 +15,13 @@ public:
         return max(a, b);
     }
 };
-```
+// ```
 
-## 思路二：查找
-寻找三个最大数和两个最小数，比较三个最大数乘积和两个最小数和一个最大数乘积。
-### 代码
-时间复杂度：O(n)
-```c++
+// ## 思路二：查找
+// 寻找三个最大数和两个最小数，比较三个最大数乘积和两个最小数和一个最大数乘积。
+// ### 代码
+// 时间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     int maximumProduct(vector<int>& nums) {
@@ -54,4 +54,4 @@ public:
         return max(min1 * min2 * max1, max1 * max2 * max3);
     }
 };
-```
+// ```

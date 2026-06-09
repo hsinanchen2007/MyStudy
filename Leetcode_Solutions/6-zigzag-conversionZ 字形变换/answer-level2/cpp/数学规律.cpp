@@ -1,9 +1,9 @@
-### 解题思路
-这种题目往往有坐标的对应关系，多想一想就知道了
+// ### 解题思路
+// 这种题目往往有坐标的对应关系，多想一想就知道了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -27,4 +27,4 @@ public:
         return re;
     }
 };
-```
+// ```

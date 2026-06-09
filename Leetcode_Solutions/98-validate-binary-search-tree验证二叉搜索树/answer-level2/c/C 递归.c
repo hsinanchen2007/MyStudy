@@ -1,12 +1,12 @@
-### 解题思路
-整体思路还是中序遍历整棵树。
-首先判断根节点的左右孩子是否满足大小条件；
-然后分别以左右孩子为根节点，递归考察 root 的左右子树；
-具体见注释：
+// ### 解题思路
+// 整体思路还是中序遍历整棵树。
+// 首先判断根节点的左右孩子是否满足大小条件；
+// 然后分别以左右孩子为根节点，递归考察 root 的左右子树；
+// 具体见注释：
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ bool isValidBST(struct TreeNode* root){
         return true;
     return traverse(root,NULL,NULL);
 }
-```
+// ```

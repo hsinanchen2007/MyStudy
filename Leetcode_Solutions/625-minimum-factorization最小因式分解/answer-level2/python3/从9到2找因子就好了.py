@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def smallestFactorization(self, a: int) -> int:
         if a==1:
@@ -16,4 +16,4 @@ class Solution:
                 ans = 10 * ans
                 ans += stack.pop()
             return ans if ans < 2**31 -1 else 0
-```
+# ```

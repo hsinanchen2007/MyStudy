@@ -1,7 +1,7 @@
-首先先判断了下删除的是否是最后一个节点， `if n == 1:`的内部又判断了链表是否为单节点链表。  
-因为如果直接使用下面的快慢指针的话，当删除最后一个节点时，`slow.next = slow.next.next`会报错。  
-暂时没有想到更好的优化方案了，求大佬优化重构。
-```
+# 首先先判断了下删除的是否是最后一个节点， `if n == 1:`的内部又判断了链表是否为单节点链表。  
+# 因为如果直接使用下面的快慢指针的话，当删除最后一个节点时，`slow.next = slow.next.next`会报错。  
+# 暂时没有想到更好的优化方案了，求大佬优化重构。
+# ```
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -44,4 +44,4 @@ class Solution(object):
         
         return dummy.next
             
-```
+# ```

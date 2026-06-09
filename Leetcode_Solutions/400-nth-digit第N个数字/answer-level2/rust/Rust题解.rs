@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn find_nth_digit(n: i32) -> i32 {
         let mut n = n;
@@ -22,5 +22,5 @@ impl Solution {
         }
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

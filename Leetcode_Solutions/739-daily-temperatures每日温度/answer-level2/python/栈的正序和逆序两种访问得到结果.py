@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
-逆序
-```python3
+# ### 代码
+# 逆序
+# ```python3
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
         n=len(T)
@@ -16,13 +16,13 @@ class Solution:
                 result[i]=stack[-1]-i
             stack.append(i)
         return result
-```
+# ```
 
 
-# 正序快些
-![image.png](https://pic.leetcode-cn.com/943447bdf5812da394d9cf7d03d957c0943308a6f6a9b383a1bc8e9737a0f76d-image.png)
+# # 正序快些
+# ![image.png](https://pic.leetcode-cn.com/943447bdf5812da394d9cf7d03d957c0943308a6f6a9b383a1bc8e9737a0f76d-image.png)
 
-```
+# ```
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
         n=len(T)
@@ -34,5 +34,5 @@ class Solution:
                 result[index]=i-index
             stack.append(i)
         return result
-```
+# ```
 

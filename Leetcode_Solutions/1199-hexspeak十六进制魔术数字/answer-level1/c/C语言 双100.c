@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * toHexspeak(char * num){
     char table[6] = {'A','B','C','D','E','F'};
     long long n = 0, size = strlen(num), index = size - 1;
@@ -26,4 +26,4 @@ char * toHexspeak(char * num){
     }
     return res+index+1;
 }
-```
+// ```

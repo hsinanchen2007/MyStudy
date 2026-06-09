@@ -1,5 +1,5 @@
-申请O(1),
-```java []
+// 申请O(1),
+// ```java []
 public void reverseString(char[] s) {
     int current = 0;
     while(2 * current < (s.length-1)){
@@ -9,4 +9,4 @@ public void reverseString(char[] s) {
         current ++;
     }
 }
-```
+// ```

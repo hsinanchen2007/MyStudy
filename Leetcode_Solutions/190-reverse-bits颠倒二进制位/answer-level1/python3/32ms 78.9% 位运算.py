@@ -1,9 +1,9 @@
-### 解题思路
-每次填入一位数字
+# ### 解题思路
+# 每次填入一位数字
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseBits(self, n: int) -> int:
         res = 0
@@ -13,4 +13,4 @@ class Solution:
             n >>= 1
         return res
 
-```
+# ```

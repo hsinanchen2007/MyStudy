@@ -1,8 +1,8 @@
-- 用队列实现遍历
-- 设置bool变量实现每行的左右插入顺序
-- stack对一行节点进行反转
+// - 用队列实现遍历
+// - 设置bool变量实现每行的左右插入顺序
+// - stack对一行节点进行反转
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
@@ -49,6 +49,6 @@ public:
     }
 };
 
-```
+// ```
 
-[https://michael.blog.csdn.net/article/details/100577842](https://michael.blog.csdn.net/article/details/100577842)
+// [https://michael.blog.csdn.net/article/details/100577842](https://michael.blog.csdn.net/article/details/100577842)

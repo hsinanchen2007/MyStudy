@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numDistinct(s string, t string) int {
     if len(s)==0  || len(s)<len(t) {
         return 0
@@ -24,4 +24,4 @@ func numDistinct(s string, t string) int {
     }
     return dp[len(s)][len(t)]
 }
-```
+// ```

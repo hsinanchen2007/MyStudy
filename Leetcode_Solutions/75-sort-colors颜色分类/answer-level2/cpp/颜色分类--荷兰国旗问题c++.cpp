@@ -1,10 +1,10 @@
-### 解题思路
-Partition进阶：三向切分
-与传统partition不同，这里设置三个指针；从左到右扫描数组一次，通过交换实现排序；
+// ### 解题思路
+// Partition进阶：三向切分
+// 与传统partition不同，这里设置三个指针；从左到右扫描数组一次，通过交换实现排序；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         }
     }
 };
-```
+// ```

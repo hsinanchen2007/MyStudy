@@ -1,9 +1,9 @@
-### 解题思路
- #set去重，dfs暴力深搜
+# ### 解题思路
+#  #set去重，dfs暴力深搜
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxLength(self, arr: List[str]) -> int:
         t=[]
@@ -23,4 +23,4 @@ class Solution:
         lens=dfs(0,'')
         return lens
 
-```
+# ```

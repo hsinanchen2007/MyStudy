@@ -1,10 +1,10 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
-BST中序遍历是升序，所以遍历时求相邻两个节点之间的最小绝对差值即可
+// BST中序遍历是升序，所以遍历时求相邻两个节点之间的最小绝对差值即可
 
-```
+// ```
 TreeNode pre = null;
 int res = Integer.MAX_VALUE;
 
@@ -24,4 +24,4 @@ private void helper(TreeNode root) {
     pre = root;
     helper(root.right);
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public int repeatedNTimes(int[] A) {
         // 放到set里面
         Set set = new HashSet();
@@ -14,4 +14,4 @@ public int repeatedNTimes(int[] A) {
         }
         return -1;
     }
-```
+// ```

@@ -1,5 +1,5 @@
-利用字符串倒置加判断即可
-```
+# 利用字符串倒置加判断即可
+# ```
 class Solution:
     def reverse(self, x: int) -> int:
         s = str(x)
@@ -15,4 +15,4 @@ class Solution:
         else:
             return 0
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-见代码，比较好理解
+// ### 解题思路
+// 见代码，比较好理解
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         return max($this->getDepth($root->left),$this->getDepth($root->right))+1;
     }
 }
-```
+// ```

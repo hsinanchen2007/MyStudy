@@ -1,4 +1,4 @@
-```
+// ```
 public boolean isSymmetric(TreeNode root) {
         if(root==null) return true;
         return isSym(root.left,root.right);
@@ -13,4 +13,4 @@ public boolean isSymmetric(TreeNode root) {
         return isSym(left.right,right.left)&&isSym(left.left,right.right);
         
     }
-```
+// ```

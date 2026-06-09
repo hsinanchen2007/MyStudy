@@ -1,14 +1,14 @@
-## 思路:
+# ## 思路:
 
-动态规划
+# 动态规划
 
-1. `maxChoosableInteger `大于等于`desiredTotal`，返回`true`；
-2. 总和都没有`desiredTotal`大，肯定`false`
-3. 状态压缩记录那些数被用过，带记忆化DFS
+# 1. `maxChoosableInteger `大于等于`desiredTotal`，返回`true`；
+# 2. 总和都没有`desiredTotal`大，肯定`false`
+# 3. 状态压缩记录那些数被用过，带记忆化DFS
 
-## 代码:
+# ## 代码:
 
-```python
+# ```python
 class Solution:
     def canIWin(self, maxChoosableInteger: int, desiredTotal: int) -> bool:
         import functools
@@ -26,5 +26,5 @@ class Solution:
         
         return dfs(0, desiredTotal)
         
-```
+# ```
 

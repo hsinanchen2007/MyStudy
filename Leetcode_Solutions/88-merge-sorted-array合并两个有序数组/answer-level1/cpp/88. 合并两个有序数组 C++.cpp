@@ -1,9 +1,9 @@
-### 解题思路
-1.先将两个数组合并，在使用sort算法将两个数组排序。
+// ### 解题思路
+// 1.先将两个数组合并，在使用sort算法将两个数组排序。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -13,4 +13,4 @@ public:
         sort(nums1.begin(),nums1.end());
     }
 };
-```
+// ```

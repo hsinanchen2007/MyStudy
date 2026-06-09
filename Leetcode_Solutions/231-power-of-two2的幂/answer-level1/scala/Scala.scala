@@ -1,9 +1,9 @@
-### 解题思路
-将n转换为Double类型
+// ### 解题思路
+// 将n转换为Double类型
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def isPowerOfTwo(n: Int): Boolean = {
          var i: Double = n
@@ -25,4 +25,4 @@ object Solution {
     false
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-## 思路一：二分
-右边界一定小于num / 2 + 1。
-### 代码
-时间复杂度：O(logn)
-```c++
+// ## 思路一：二分
+// 右边界一定小于num / 2 + 1。
+// ### 代码
+// 时间复杂度：O(logn)
+// ```c++
 class Solution {
 public:
     bool isPerfectSquare(int num) {
@@ -21,14 +21,14 @@ public:
         return false;
     }
 };
-```
+// ```
 
-## 思路二：数学定理（最优）
-任何一个平方数可以表示为一个计数数列和。
-`1 + 3 + 5 + 7 + 9 + ... = n^2`
-### 代码
-时间复杂度：O(sprt(n))
-```c++
+// ## 思路二：数学定理（最优）
+// 任何一个平方数可以表示为一个计数数列和。
+// `1 + 3 + 5 + 7 + 9 + ... = n^2`
+// ### 代码
+// 时间复杂度：O(sprt(n))
+// ```c++
 class Solution {
 public:
     bool isPerfectSquare(int num) {
@@ -40,5 +40,5 @@ public:
         return num == 0;
     }
 };
-```
+// ```
 

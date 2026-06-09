@@ -1,10 +1,10 @@
-### 解题思路
-迭代法的思路，参考了[@huwt](/u/huwt/)
-递归法的思路，参考自剑指offer课本
-### 代码
+// ### 解题思路
+// 迭代法的思路，参考了[@huwt](/u/huwt/)
+// 递归法的思路，参考自剑指offer课本
+// ### 代码
 
-#### 迭代法
-```cpp
+// #### 迭代法
+// ```cpp
  class Solution {
  public:
 	 ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -30,11 +30,11 @@
 		 return mergeHead->next;
 	 }
  };
-```
+// ```
 
-#### 递归法
+// #### 递归法
 
-```cpp
+// ```cpp
 class Solution {
 public:
        ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -62,4 +62,4 @@ public:
               return mergeHead;
        }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-StringBuilder类型构建一个字符栈，通过遍历压栈出栈操作，检查字符串是否满足条件。
+// ### 解题思路
+// StringBuilder类型构建一个字符栈，通过遍历压栈出栈操作，检查字符串是否满足条件。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int getType(char ch) {
         switch (ch) {
@@ -61,4 +61,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```js
+// ```js
 var twoCitySchedCost = function(costs) {
 	// 让其以costs[0]-costs[1]的差值从小到大排序。
     costs.sort((a, b) => a[0] - a[1] - (b[0] - b[1]))
@@ -14,4 +14,4 @@ var twoCitySchedCost = function(costs) {
     }
     return sum
 };
-```
+// ```

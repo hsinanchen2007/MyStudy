@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def grayCode(self, n: int) -> List[int]:
         res = []
@@ -18,4 +18,4 @@ class Solution:
                 return ['0' + s for s in helper(n - 1)] +  ['1' + s for s in helper(n - 1)][::-1]
         return list(map(convert, helper(n)))
         
-```
+# ```

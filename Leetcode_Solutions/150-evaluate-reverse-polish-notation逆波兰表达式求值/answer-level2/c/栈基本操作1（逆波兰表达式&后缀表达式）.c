@@ -1,9 +1,9 @@
-### 解题思路
-如果是复杂计算器，可以考虑用状态机来做，避免过多的if、else。
+// ### 解题思路
+// 如果是复杂计算器，可以考虑用状态机来做，避免过多的if、else。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXSIZE 10000
 int strToInt(char *num)
 {
@@ -82,4 +82,4 @@ int evalRPN(char ** tokens, int tokensSize){
     return res;
 
 }
-```
+// ```

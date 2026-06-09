@@ -1,12 +1,12 @@
-![2020040901.PNG](https://pic.leetcode-cn.com/ad86cea0db76a24bc125b82413d22acdc40238e3ab0865eecdfbd6c125240d19-2020040901.PNG)
+// ![2020040901.PNG](https://pic.leetcode-cn.com/ad86cea0db76a24bc125b82413d22acdc40238e3ab0865eecdfbd6c125240d19-2020040901.PNG)
 
-### 解题思路
-****
-****
-****
-### 代码
+// ### 解题思路
+// ****
+// ****
+// ****
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
         int len = intervals.length;
@@ -51,4 +51,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

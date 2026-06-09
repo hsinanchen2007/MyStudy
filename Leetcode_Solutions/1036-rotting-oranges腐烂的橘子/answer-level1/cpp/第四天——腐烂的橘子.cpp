@@ -1,9 +1,9 @@
-### 解题思路
-- 使用一个queue结构
+// ### 解题思路
+// - 使用一个queue结构
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
@@ -49,4 +49,4 @@ public:
         return num_fresh_oranges?-1:time;   
     }
 };
-```
+// ```

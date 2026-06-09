@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-记录两个节点，一个前面，一个后面，后面匹配，前面指向后面的后面
-剑指Offer上说是直接删除，但是这个题好像不可以
-![图片.png](https://pic.leetcode-cn.com/3124b98a7de14c2e86a0f2c5e86bb0f9de45ca97400a9a6b7814fc34960459fa-%E5%9B%BE%E7%89%87.png)
+// 记录两个节点，一个前面，一个后面，后面匹配，前面指向后面的后面
+// 剑指Offer上说是直接删除，但是这个题好像不可以
+// ![图片.png](https://pic.leetcode-cn.com/3124b98a7de14c2e86a0f2c5e86bb0f9de45ca97400a9a6b7814fc34960459fa-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -37,4 +37,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

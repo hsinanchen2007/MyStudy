@@ -1,6 +1,6 @@
-两种方法，方法1略快一点
+// 两种方法，方法1略快一点
 
-```
+// ```
 class Solution {
 public:
     int minDominoRotations(vector<int>& A, vector<int>& B) {
@@ -71,8 +71,8 @@ public:
         return -1;
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     int minDominoRotations(vector<int>& A, vector<int>& B) {
@@ -127,4 +127,4 @@ public:
         }
     }
 };
-```
+// ```

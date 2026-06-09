@@ -1,7 +1,7 @@
-看了不少题解，没看到什么清楚易懂的，自己想了一个。
-思路就是先遍历一遍secret，将secret和guess中的公牛字符删去，同时将非公牛字符加入到list中，
-遍历无公牛值的guess，如果其中元素存在于list中，就将奶牛值+1，并在list中删掉该元素。
-```
+// 看了不少题解，没看到什么清楚易懂的，自己想了一个。
+// 思路就是先遍历一遍secret，将secret和guess中的公牛字符删去，同时将非公牛字符加入到list中，
+// 遍历无公牛值的guess，如果其中元素存在于list中，就将奶牛值+1，并在list中删掉该元素。
+// ```
 class Solution {
     public String getHint(String secret, String guess) {
         // int len=secret.length();
@@ -35,4 +35,4 @@ class Solution {
         return countA+"A"+countB+"B";
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-双指针快 时间o(n)
+# 双指针快 时间o(n)
 
-```
+# ```
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         s = s.lower()
@@ -17,4 +17,4 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```

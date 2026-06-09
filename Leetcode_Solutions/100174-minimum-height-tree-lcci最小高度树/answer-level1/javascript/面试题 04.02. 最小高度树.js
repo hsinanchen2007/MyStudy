@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-构造最小高度的 ``二叉搜索树`` 思路比较简单，只要满足左右子树高度相等即可:
+// 构造最小高度的 ``二叉搜索树`` 思路比较简单，只要满足左右子树高度相等即可:
 
-- 每次取 ``nums`` 的中位数作为 ``root`` 节点的值
-- 递归左右子树
+// - 每次取 ``nums`` 的中位数作为 ``root`` 节点的值
+// - 递归左右子树
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -32,4 +32,4 @@ var sortedArrayToBST = function(nums) {
     }
     return helper(0, nums.length)
 };
-```
+// ```

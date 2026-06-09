@@ -1,9 +1,9 @@
-### 解题思路
-代码非常的清楚，digitOfOne表示一个数中存在的1的个数，numOfOne求n以内的1的个数。numOfOne函数中return部分即为状态转移的递归关系
+// ### 解题思路
+// 代码非常的清楚，digitOfOne表示一个数中存在的1的个数，numOfOne求n以内的1的个数。numOfOne函数中return部分即为状态转移的递归关系
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int digitOfOne(int n)
@@ -31,4 +31,4 @@ int numOfOne(int n)
         return numOfOne(n);
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/3c66b7554a5ca0e8c91eb666cd6d6fd222197ffb5fc9aa9dcd3d924d83187729-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3c66b7554a5ca0e8c91eb666cd6d6fd222197ffb5fc9aa9dcd3d924d83187729-image.png)
 
-```c++
+// ```c++
 class Solution {
 public:
     string longestPrefix(string s) {
@@ -10,4 +10,4 @@ public:
       return std::move(s);
     }
 }
-```
+// ```

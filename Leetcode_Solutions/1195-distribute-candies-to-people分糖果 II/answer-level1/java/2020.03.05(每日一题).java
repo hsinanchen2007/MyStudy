@@ -1,12 +1,12 @@
-### 解题思路
-简单的思路就是拿需要分发的数量和剩下的糖果数量做比较，将较小者作为结果发给目标小朋友
+// ### 解题思路
+// 简单的思路就是拿需要分发的数量和剩下的糖果数量做比较，将较小者作为结果发给目标小朋友
 
-这里应该注意一下Math.min(candies, **i + n * num_people**)，
-如果需要分发**多轮**，则在for循环后轮数**n要+1**。
+// 这里应该注意一下Math.min(candies, **i + n * num_people**)，
+// 如果需要分发**多轮**，则在for循环后轮数**n要+1**。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int ans[]=new int[num_people];
@@ -26,4 +26,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

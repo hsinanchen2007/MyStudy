@@ -1,11 +1,11 @@
-### 解题思路
-参考别人在评论区发表的提示编写算法
-创建一个添加空的子集的result后，而后遍历数组将其中的每个元素都添加在其之前元素的集合中；
-即若**当前result中已有前i个元素的子集，得到第i + 1个元素后，对result进行遍历分别将第i+1个元素添加到其中即可**，即`addSubSets`方法完成该操作！！！
+// ### 解题思路
+// 参考别人在评论区发表的提示编写算法
+// 创建一个添加空的子集的result后，而后遍历数组将其中的每个元素都添加在其之前元素的集合中；
+// 即若**当前result中已有前i个元素的子集，得到第i + 1个元素后，对result进行遍历分别将第i+1个元素添加到其中即可**，即`addSubSets`方法完成该操作！！！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
@@ -27,4 +27,4 @@ class Solution {
         }
     }
 }
-```
+// ```

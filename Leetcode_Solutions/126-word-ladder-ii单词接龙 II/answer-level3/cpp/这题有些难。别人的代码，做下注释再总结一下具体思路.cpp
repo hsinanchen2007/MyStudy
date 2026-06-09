@@ -1,14 +1,14 @@
-这题真的有点难，贴下别人的代码，加上自己的注释和思路，算是个小总结
-（1）主干代码沿用127题单词接龙，从上到下的BFS用以建图，使用两个关键的数据结构
-```
+// 这题真的有点难，贴下别人的代码，加上自己的注释和思路，算是个小总结
+// （1）主干代码沿用127题单词接龙，从上到下的BFS用以建图，使用两个关键的数据结构
+// ```
     unordered_map<string,int> depth  记录每个节点所在高度的
     unordered_map<string,vector<string>> neighbor  记录每个节点所有它的前向变化节点集（由curr->temp，记录curr）
-```
-每个word所在的层，从上到下做记录。首先队列弹出curr节点，检查出和它相差一个字符的在字典wordList里的所有单词temp,之前没记录过的，更新高度：高度+1；因为curr->temp,注意我们这里记录逆向变化，不记录curr的下一层节点集，而是记录temp的所有上一层节点集
-（2）从下往上的dfs搜索
-第一步的bfs建图已经建好，这一步就非常简单了，常规的深度优先搜索思路。
-从endword顺着neighbor中记录的状态一步步往上树形空间搜索，到达beginword时，反转一下，存入最后的res
-```
+// ```
+// 每个word所在的层，从上到下做记录。首先队列弹出curr节点，检查出和它相差一个字符的在字典wordList里的所有单词temp,之前没记录过的，更新高度：高度+1；因为curr->temp,注意我们这里记录逆向变化，不记录curr的下一层节点集，而是记录temp的所有上一层节点集
+// （2）从下往上的dfs搜索
+// 第一步的bfs建图已经建好，这一步就非常简单了，常规的深度优先搜索思路。
+// 从endword顺着neighbor中记录的状态一步步往上树形空间搜索，到达beginword时，反转一下，存入最后的res
+// ```
 void dfs(string &beginword,string &curr,vector<string> path,
              unordered_map<string,vector<string>> &neighbor, vector<vector<string>> &res)
     {
@@ -73,4 +73,4 @@ void dfs(string &beginword,string &curr,vector<string> path,
         dfs(beginWord,endWord,path,neighbor,res);
         return res;
     }
-```
+// ```

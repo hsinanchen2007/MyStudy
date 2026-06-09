@@ -1,9 +1,9 @@
-### 解题思路
-全排序这道题的一个变形，有重复数据了，这里用了Set集合来进行去重复。其他的思路同全排序。
+// ### 解题思路
+// 全排序这道题的一个变形，有重复数据了，这里用了Set集合来进行去重复。其他的思路同全排序。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] permutation(String S) {
        if (null == S || S.trim().length() == 0) {
@@ -35,4 +35,4 @@ class Solution {
         board[from] = tmp;
     }
 }
-```
+// ```

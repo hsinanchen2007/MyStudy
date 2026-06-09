@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:
         stack=[];
@@ -15,4 +15,4 @@ class Solution:
             sr,sc=stack.pop();
             change(image,stack,sr,sc);
         return image
-```
+// ```

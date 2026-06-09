@@ -1,4 +1,4 @@
-```
+// ```
 int lengthOfLIS(int* nums, int numsSize){
     if ((nums == NULL) || (numsSize == 0)) {
         return 0;
@@ -28,4 +28,4 @@ int lengthOfLIS(int* nums, int numsSize){
 
     return dp[0] > returnValue ? dp[0] : returnValue;
 }
-```
+// ```

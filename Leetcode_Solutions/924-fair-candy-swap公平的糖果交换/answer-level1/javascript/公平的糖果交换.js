@@ -1,4 +1,4 @@
-```js
+// ```js
 var fairCandySwap = function(A, B) {
 	let sumA = 0;
 	let sumB = 0;
@@ -17,4 +17,4 @@ var fairCandySwap = function(A, B) {
     	}
     }
 };
-```
+// ```

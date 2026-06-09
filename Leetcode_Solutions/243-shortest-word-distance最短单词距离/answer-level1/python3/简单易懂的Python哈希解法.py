@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def shortestDistance(self, words: List[str], word1: str, word2: str) -> int:
         d = dict()
@@ -14,4 +14,4 @@ class Solution:
             for j in b_list:
                 res = min(res, abs(i-j))
         return res
-```
+# ```

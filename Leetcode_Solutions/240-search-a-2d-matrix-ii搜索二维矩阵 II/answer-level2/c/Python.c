@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```python
+// ```python
 class Solution(object):
     def searchMatrix(self, matrix, target):
         """
@@ -26,4 +26,4 @@ class Solution(object):
             else:
                 i=i+1
         return False
-```
+// ```

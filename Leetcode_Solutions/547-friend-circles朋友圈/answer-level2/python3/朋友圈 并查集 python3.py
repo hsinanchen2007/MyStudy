@@ -1,11 +1,11 @@
-### 解题思路
-find函数用来寻找某节点的根节点
-union函数用来合并当前节点到现有的某个根节点下
-parent列表用来存储朋友圈结构
+# ### 解题思路
+# find函数用来寻找某节点的根节点
+# union函数用来合并当前节点到现有的某个根节点下
+# parent列表用来存储朋友圈结构
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findCircleNum(self, M: List[List[int]]) -> int:
         parent = [-1 for _ in range(len(M))]
@@ -33,4 +33,4 @@ class Solution:
         
         return union_find(M)
 
-```
+# ```

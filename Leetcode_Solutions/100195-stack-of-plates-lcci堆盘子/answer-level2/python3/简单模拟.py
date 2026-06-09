@@ -1,8 +1,8 @@
-- 简单模拟, pop可以直接调用popAt(len-1)
-- **注意如果cap为0则不能push**
-- **注意如果popAt某个index导致该index的stack为空的话, 需要将后面的stack往前移动**
-    - (*题目描述示例2和实际测试用例结果不一样???*)
-```python
+# - 简单模拟, pop可以直接调用popAt(len-1)
+# - **注意如果cap为0则不能push**
+# - **注意如果popAt某个index导致该index的stack为空的话, 需要将后面的stack往前移动**
+#     - (*题目描述示例2和实际测试用例结果不一样???*)
+# ```python
 class StackOfPlates:
     def __init__(self, cap: int):
         self.cap = cap
@@ -27,4 +27,4 @@ class StackOfPlates:
         if not self.stacks[index]:
             self.stacks = self.stacks[0:index] + self.stacks[index + 1:]
         return res
-```
+# ```

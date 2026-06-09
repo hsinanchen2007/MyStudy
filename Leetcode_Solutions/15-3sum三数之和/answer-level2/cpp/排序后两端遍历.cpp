@@ -1,10 +1,10 @@
-### 解题思路
-注意重复检查
-重复检查只需考虑到三数相加为0的情况
+// ### 解题思路
+// 注意重复检查
+// 重复检查只需考虑到三数相加为0的情况
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -33,4 +33,4 @@ public:
         return res;
   }
 };
-```
+// ```

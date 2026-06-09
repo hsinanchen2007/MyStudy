@@ -1,9 +1,9 @@
-![Jietu20200206-212843.png](https://pic.leetcode-cn.com/c8a83b9e908554daf229de98b002f24d6f98e12b9d8d8d0a2bf0730037d9743a-Jietu20200206-212843.png)
+// ![Jietu20200206-212843.png](https://pic.leetcode-cn.com/c8a83b9e908554daf229de98b002f24d6f98e12b9d8d8d0a2bf0730037d9743a-Jietu20200206-212843.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //使用递归的方法
     public double myPow(double x, int n) {
@@ -24,4 +24,4 @@ class Solution {
         
     }*/
 }
-```
+// ```

@@ -1,5 +1,5 @@
-荷兰三色问题解
-```javascript
+// 荷兰三色问题解
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -28,4 +28,4 @@ const swap = function(nums,a,b) {
     nums[a] = nums[b];
     nums[b] = temp;
 }
-```
+// ```

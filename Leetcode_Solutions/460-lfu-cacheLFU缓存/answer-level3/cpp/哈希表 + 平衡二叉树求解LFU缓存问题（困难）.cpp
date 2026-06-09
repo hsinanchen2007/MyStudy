@@ -1,9 +1,9 @@
-### 解题思路
-哈希表 + 平衡二叉树
+// ### 解题思路
+// 哈希表 + 平衡二叉树
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct Node {
     int cnt, time, key, value;
 
@@ -79,4 +79,4 @@ public:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-这波啊，这波是递归划水。
+// ### 解题思路
+// 这波啊，这波是递归划水。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

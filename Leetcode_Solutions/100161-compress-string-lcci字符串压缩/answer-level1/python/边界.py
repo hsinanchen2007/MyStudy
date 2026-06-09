@@ -1,9 +1,9 @@
-### 解题思路
-。。我估计完全可以用字典来做吧
+# ### 解题思路
+# 。。我估计完全可以用字典来做吧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         s_hat = [_ for _  in S]
@@ -32,4 +32,4 @@ class Solution:
                 size -= 1
         return s_rs if (len(s_rs)<len(S)) else S
         
-```
+# ```

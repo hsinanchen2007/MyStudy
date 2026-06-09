@@ -1,11 +1,11 @@
-### 解题思路
-因为只有26个字母，我们可以用 int 的 1 个 bit 代表一个字母，对字符串进行hash映射，并且记录其长度。
+// ### 解题思路
+// 因为只有26个字母，我们可以用 int 的 1 个 bit 代表一个字母，对字符串进行hash映射，并且记录其长度。
 
-然后暴力遍历找最大值
+// 然后暴力遍历找最大值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProduct(vector<string>& words) {
@@ -46,4 +46,4 @@ public:
         return res;
     }
 };
-```
+// ```

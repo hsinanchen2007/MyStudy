@@ -1,9 +1,9 @@
-### 解题思路
-我就是想把这个字符串转为数组，然后再排序，再比较，不相等则为false
+// ### 解题思路
+// 我就是想把这个字符串转为数组，然后再排序，再比较，不相等则为false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
             if (s1.length() == 0 && s2.length()==0) {
@@ -28,4 +28,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

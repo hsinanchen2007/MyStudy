@@ -1,5 +1,5 @@
-# 子查询做法:先将最高价格查出来，再用子查询取出seller_id
-```
+-- # 子查询做法:先将最高价格查出来，再用子查询取出seller_id
+-- ```
  SELECT 
     seller_id 
  FROM 
@@ -19,9 +19,9 @@
                      LIMIT 1
                 )
 
-```
-# join做法:将子查询的结果用right join代替，join条件是价格相等
-```
+-- ```
+-- # join做法:将子查询的结果用right join代替，join条件是价格相等
+-- ```
 SELECT 
     seller_id 
 FROM
@@ -47,4 +47,4 @@ FROM
         LIMIT 1
     ) AS T2
     ON T1.P1 = T2.P2
-```
+-- ```

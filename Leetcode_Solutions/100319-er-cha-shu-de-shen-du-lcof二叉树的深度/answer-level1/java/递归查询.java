@@ -1,9 +1,9 @@
-### 解题思路
-递归查询树的左右节点深度，返回最大的值
+// ### 解题思路
+// 递归查询树的左右节点深度，返回最大的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -25,4 +25,4 @@ class Solution {
 
     }
 }
-```
+// ```

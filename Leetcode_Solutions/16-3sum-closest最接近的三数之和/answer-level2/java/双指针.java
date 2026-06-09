@@ -1,13 +1,13 @@
-前提：排除特殊情况，将数组排好序。
+// 前提：排除特殊情况，将数组排好序。
 
-利用第一个 for 循环固定好第一个数 curr
-利用第二个 while 循环，移动 left 指针和 right 指针。
-    如果三个数相加
-        = target，直接 return
-        < target，说明小的数太小，left++
-        > target，说明大的数太大，right--
+// 利用第一个 for 循环固定好第一个数 curr
+// 利用第二个 while 循环，移动 left 指针和 right 指针。
+//     如果三个数相加
+//         = target，直接 return
+//         < target，说明小的数太小，left++
+//         > target，说明大的数太大，right--
 
-```
+// ```
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
         int len = nums.length;
@@ -39,4 +39,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

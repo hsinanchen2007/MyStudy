@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     int movesToMakeZigzag(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         return min(res1,res2);
     }
 };
-```
+// ```

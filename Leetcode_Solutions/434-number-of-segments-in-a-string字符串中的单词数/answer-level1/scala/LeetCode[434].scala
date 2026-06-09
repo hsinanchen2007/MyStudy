@@ -1,7 +1,7 @@
-```
+// ```
 代码块
-```
-```
+// ```
+// ```
 object Solution {
   def countSegments(s: String): Int = {
 
@@ -19,4 +19,4 @@ object Solution {
     return num
   }
 }
-```
+// ```

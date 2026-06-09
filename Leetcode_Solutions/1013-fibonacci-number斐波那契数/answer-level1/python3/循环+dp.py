@@ -1,5 +1,5 @@
-#### 将递归改为循环
-```
+# #### 将递归改为循环
+# ```
 class Solution:
     def fib(self, N: int) -> int:
         if N == 0:
@@ -15,9 +15,9 @@ class Solution:
             num2 = num
             n += 1
         return num
-```
-#### dp算法
-```
+# ```
+# #### dp算法
+# ```
 class Solution:
     def fib(self, N: int) -> int:
         if N == 0:
@@ -32,4 +32,4 @@ class Solution:
             dp[n] = dp[n-1] + dp[n-2]
             n += 1
         return dp[-1]
-```
+# ```

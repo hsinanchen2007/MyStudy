@@ -1,9 +1,9 @@
-### 解题思路
-没有用什么算法，执行时间复杂度比较高
+# ### 解题思路
+# 没有用什么算法，执行时间复杂度比较高
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def mySqrt(self, x):
         """
@@ -26,4 +26,4 @@ class Solution(object):
 
 
         
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-借助于队列进行层次遍历，层数即为深度
+# ### 解题思路
+# 借助于队列进行层次遍历，层数即为深度
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,7 +25,7 @@ class Solution:
                     queue.append(cur.right)
             level += 1
         return level
-```
-### 复杂度
-时间复杂度O(n)
-空间复杂度O(n)
+# ```
+# ### 复杂度
+# 时间复杂度O(n)
+# 空间复杂度O(n)

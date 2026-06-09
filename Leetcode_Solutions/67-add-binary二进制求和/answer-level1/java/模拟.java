@@ -1,9 +1,9 @@
-### 解题思路
-我也不知道这么一道简单的题目我为啥写了这么长的代码
+// ### 解题思路
+// 我也不知道这么一道简单的题目我为啥写了这么长的代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addBinary(String a, String b) {
         StringBuilder s = new StringBuilder();
@@ -54,4 +54,4 @@ class Solution {
         return s.reverse().toString();
     } 
 }
-```
+// ```

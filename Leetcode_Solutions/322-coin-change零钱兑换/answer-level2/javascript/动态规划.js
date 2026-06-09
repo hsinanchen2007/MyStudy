@@ -1,13 +1,13 @@
-### 解题思路
-用动态规划可以解。
+// ### 解题思路
+// 用动态规划可以解。
 
-dp[n] 表示用 coins 的硬币集，最少花费多少步能到达 n
-dp[n] = min(dp[n-c0], dp[n-c1], ..., dp[n-c(n-1)])
+// dp[n] 表示用 coins 的硬币集，最少花费多少步能到达 n
+// dp[n] = min(dp[n-c0], dp[n-c1], ..., dp[n-c(n-1)])
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} coins
  * @param {number} amount
@@ -28,8 +28,8 @@ var coinChange = function(coins, amount) {
     }
     return dp[amount] > amount ? -1 : dp[amount];
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(S*N)
-- 空间复杂度 O(N)
+// ### 复杂度
+// - 时间复杂度 O(S*N)
+// - 空间复杂度 O(N)

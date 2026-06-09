@@ -1,6 +1,6 @@
-C++ beats 90%. 朴素直观的解法， 对每个为1的单元，检查它的上下左右是否为0或者为边界
+// C++ beats 90%. 朴素直观的解法， 对每个为1的单元，检查它的上下左右是否为0或者为边界
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int islandPerimeter(vector<vector<int>>& grid) {
@@ -18,4 +18,4 @@ public:
         return res;
     }
 };
-```
+// ```

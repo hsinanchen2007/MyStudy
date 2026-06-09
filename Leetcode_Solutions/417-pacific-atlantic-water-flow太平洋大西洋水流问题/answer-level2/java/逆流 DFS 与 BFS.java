@@ -1,8 +1,8 @@
-思路是从海洋开始逆流 如果可以逆流到 就标记为1 然后检查两个海洋都可以逆流到的区域
+// 思路是从海洋开始逆流 如果可以逆流到 就标记为1 然后检查两个海洋都可以逆流到的区域
 
-DFS
+// DFS
 
-```
+// ```
     public List<List<Integer>> pacificAtlantic(int[][] matrix) {
         if (matrix.length == 0 || matrix[0].length == 0) {
             return new ArrayList<>();
@@ -56,10 +56,10 @@ DFS
         dfs(matrix, aux, i, j - 1, matrix[i][j]);
         dfs(matrix, aux, i, j + 1, matrix[i][j]);
     }
-```
+// ```
 
-BFS
-```
+// BFS
+// ```
 public List<List<Integer>> pacificAtlantic(int[][] matrix) {
 
         if (matrix.length == 0 || matrix[0].length == 0) {
@@ -124,5 +124,5 @@ public List<List<Integer>> pacificAtlantic(int[][] matrix) {
             }
         }
     }
-```
+// ```
 

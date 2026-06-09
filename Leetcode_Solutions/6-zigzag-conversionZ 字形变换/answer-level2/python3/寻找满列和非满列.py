@@ -1,7 +1,7 @@
-竖列每一列都是numRows个元素, 而其它列都是只有一个元素, 因此每次更新到满列时，从s中取numRows个元素,
-而到非满列时只取一个元素
-使用一个level记录更新到哪一列, i标记运行到了s中的哪个元素
-```
+# 竖列每一列都是numRows个元素, 而其它列都是只有一个元素, 因此每次更新到满列时，从s中取numRows个元素,
+# 而到非满列时只取一个元素
+# 使用一个level记录更新到哪一列, i标记运行到了s中的哪个元素
+# ```
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         """
@@ -43,4 +43,4 @@ class Solution:
             final_str += "".join(dp[i])
         
         return final_str
-```
+# ```

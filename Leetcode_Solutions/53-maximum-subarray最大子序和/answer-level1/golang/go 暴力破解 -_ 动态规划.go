@@ -1,8 +1,8 @@
-go 
-1. 暴力破解
-2. 动态规划
+// go 
+// 1. 暴力破解
+// 2. 动态规划
 
-``` golang
+// ``` golang
 func maxSubArray(nums []int) int {
     return method1(nums)
     return method2(nums)
@@ -43,4 +43,4 @@ func getMax(a, b int) int {
         return b
     }
 }
-```
+// ```

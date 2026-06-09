@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func twoSum(numbers []int, target int) []int {
     l := len(numbers)
     var res []int
@@ -25,4 +25,4 @@ func twoSum(numbers []int, target int) []int {
     }
     return res
 }
-```
+// ```

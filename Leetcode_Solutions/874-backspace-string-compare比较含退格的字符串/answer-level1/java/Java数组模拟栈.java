@@ -1,12 +1,12 @@
-没有用到栈结构
-- 在遍历最小长度串的同时遍历最大长度串
-- 遍历完最小长度串后，遍历最大串剩下未遍历的子串
+// 没有用到栈结构
+// - 在遍历最小长度串的同时遍历最大长度串
+// - 遍历完最小长度串后，遍历最大串剩下未遍历的子串
 
-算法(以S为例)：
-- 遇到#时数组下标ai-1，为-1时置为0
-- 最后比较在0~ai下，2个字符数组是否完全相同
-**特殊情况**：ai != bi时必定不相等
-```java
+// 算法(以S为例)：
+// - 遇到#时数组下标ai-1，为-1时置为0
+// - 最后比较在0~ai下，2个字符数组是否完全相同
+// **特殊情况**：ai != bi时必定不相等
+// ```java
 class Solution {
     public boolean backspaceCompare(String S, String T) {
 		char[] s = S.toCharArray();
@@ -60,9 +60,9 @@ class Solution {
         return true;
     }
 }
-```
-以下是抽取公共方法后的简化版：
-```java
+// ```
+// 以下是抽取公共方法后的简化版：
+// ```java
 class Solution {
 	public static boolean backspaceCompare(String S, String T) {
 		char[] s = S.toCharArray();
@@ -113,4 +113,4 @@ class Solution {
 		return destIndex;
 	}
 }
-```
+// ```

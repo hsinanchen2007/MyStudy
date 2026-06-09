@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     //方法1：分各种情况讨论
     public int search(int[] nums, int target) {
@@ -84,4 +84,4 @@ class Solution {
     //方法3：通过寻找旋转点来确定在哪一区域做二分法，请参考官方题解
 
 }
-```
+// ```

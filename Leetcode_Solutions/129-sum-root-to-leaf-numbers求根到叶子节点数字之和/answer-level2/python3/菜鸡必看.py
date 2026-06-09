@@ -1,11 +1,11 @@
-### 解题思路
-思路就是到叶子节点就往res数组加内容 然后sum
-但是在递归的时候有点小乱
-看注释奥铁汁萌
+# ### 解题思路
+# 思路就是到叶子节点就往res数组加内容 然后sum
+# 但是在递归的时候有点小乱
+# 看注释奥铁汁萌
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             helper(root.right,cur)
         helper(root,0)
         return sum(res)
-```
+# ```

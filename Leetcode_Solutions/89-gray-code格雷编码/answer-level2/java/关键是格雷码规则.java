@@ -1,10 +1,10 @@
-### 解题思路
-关键是格雷码规则：
-![image.png](https://pic.leetcode-cn.com/d3d144f1f072d67815a488486a4aedcec0a07e1875f156bcb41256d2ffb41f84-image.png)
+// ### 解题思路
+// 关键是格雷码规则：
+// ![image.png](https://pic.leetcode-cn.com/d3d144f1f072d67815a488486a4aedcec0a07e1875f156bcb41256d2ffb41f84-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     /**
      * 0位的格雷码，为0
@@ -30,4 +30,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

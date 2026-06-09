@@ -1,4 +1,4 @@
-```
+// ```
 class MaxQueue {
     Queue<Integer> queue;
     List<Integer> res; //为了在max_value中找到最大数 因为在queue中peek方法用于peek第一个
@@ -45,4 +45,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

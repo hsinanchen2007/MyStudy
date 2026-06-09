@@ -1,8 +1,8 @@
-1. 先排序
-2. 因为数组有序，可以使用两个指针`start`和`end`指向数组的头部和尾部
-    1. 如果`nums[start] + nums[end] > target`，说明需要更大的元素，`start++`
-    2. 如果`nums[start] + nums[end] < target`，说明需要更小的元素，`end--`
-    3. 如果`nums[start] + nums[end] == target`，说明符合条件，将`start`和`end`加入结果中
+// 1. 先排序
+// 2. 因为数组有序，可以使用两个指针`start`和`end`指向数组的头部和尾部
+//     1. 如果`nums[start] + nums[end] > target`，说明需要更大的元素，`start++`
+//     2. 如果`nums[start] + nums[end] < target`，说明需要更小的元素，`end--`
+//     3. 如果`nums[start] + nums[end] == target`，说明符合条件，将`start`和`end`加入结果中
 ~~~java
 import java.util.Arrays;
 import java.util.LinkedList;

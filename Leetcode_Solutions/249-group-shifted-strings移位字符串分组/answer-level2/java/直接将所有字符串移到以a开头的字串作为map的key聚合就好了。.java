@@ -1,6 +1,6 @@
-好处是，如果字串本身就以a开头，无需遍历直接塞到map里
+// 好处是，如果字串本身就以a开头，无需遍历直接塞到map里
 
-```java
+// ```java
     public List<List<String>> groupStrings(String[] strings) {
         Map<String, List<String>> map = new HashMap<>();
         for (int i = 0; i < strings.length; i++) {
@@ -27,4 +27,4 @@
         }
         return new ArrayList<>(map.values());
     }
-```
+// ```

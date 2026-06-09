@@ -1,9 +1,9 @@
-### 解题思路
-给出范围，那就取巧了，求大佬告知怎么改进内存消耗
+// ### 解题思路
+// 给出范围，那就取巧了，求大佬告知怎么改进内存消耗
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findNumbers(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
         return false;
     }
 };
-```
+// ```

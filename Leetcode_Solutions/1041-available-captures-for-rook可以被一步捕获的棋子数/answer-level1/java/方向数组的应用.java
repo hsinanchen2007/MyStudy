@@ -1,4 +1,4 @@
-```Java
+// ```Java
 public int numRookCaptures(char[][] board) {
     // 方向数组
     int[][] directions = {{-1, 0}, {0, -1}, {1, 0}, {0, 1}};
@@ -44,4 +44,4 @@ private boolean swallow(char[][] board, int i, int j, int[] direction) {
 private boolean inArea(int i, int j) {
     return i >= 0 && i < 8 && j >= 0 && j < 8;
 }
-```
+// ```

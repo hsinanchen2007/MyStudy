@@ -1,9 +1,9 @@
-### 解题思路
-参考：https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/solution/mian-shi-ti-59-ii-dui-lie-de-zui-da-zhi-by-leetcod/
+// ### 解题思路
+// 参考：https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/solution/mian-shi-ti-59-ii-dui-lie-de-zui-da-zhi-by-leetcod/
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue 
 {
 public:
@@ -56,4 +56,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

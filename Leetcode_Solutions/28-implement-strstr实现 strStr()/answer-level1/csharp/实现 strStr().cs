@@ -1,5 +1,5 @@
-**思路1：** 遍历子串并对比，在haystack子串长度大于等于needle长度的情况下，进行haystack子串和needle对比。
-```
+// **思路1：** 遍历子串并对比，在haystack子串长度大于等于needle长度的情况下，进行haystack子串和needle对比。
+// ```
 public int StrStr(string haystack, string needle)
         {
             if (needle == "")
@@ -37,6 +37,6 @@ public int StrStr(string haystack, string needle)
 
             return -1;
         }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/e73f97ca56d1c5f54bd5ca378d6246238ff585c91bbe89e586a2fe1f40145998-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e73f97ca56d1c5f54bd5ca378d6246238ff585c91bbe89e586a2fe1f40145998-image.png)

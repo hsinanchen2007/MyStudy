@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ struct TreeNode* constructFromPrePost(int* pre, int preSize, int* post, int post
     root->right=constructFromPrePost(pre+i,preSize-i,post+i-1,postSize-i);
     return root;
 }
-```
+// ```

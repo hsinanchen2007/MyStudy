@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -74,9 +74,9 @@ public:
         return NULL;
     }
 };
-```
+// ```
 
-```
+// ```
  //法2 官方题解递归 后根序遍历 递归 如果一个节点的左子树是要找的 那这个节点的left为true 右子树不是要找的 
  //那这个节点的right为false 若一个节点它本身是要找的 则self=true
  //当一个节点的right&&left或self&&(left||right)时 它是最近公共祖先
@@ -97,4 +97,4 @@ public:
         return left||right||self;
     }
 };
-```
+// ```

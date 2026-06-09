@@ -1,9 +1,9 @@
-### 解题思路
-想一想零是怎么产生的
+// ### 解题思路
+// 想一想零是怎么产生的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trailingZeroes(int n)
 {
     int result=0;
@@ -17,4 +17,4 @@ int trailingZeroes(int n)
    
     return result;
 }
-```
+// ```

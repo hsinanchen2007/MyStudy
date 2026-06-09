@@ -1,4 +1,4 @@
-```
+// ```
 import "sort"
 
 func min(a, b int) int {
@@ -41,4 +41,4 @@ func diagonalSort(mat [][]int) [][]int {
 	}
 	return mat
 }
-```
+// ```

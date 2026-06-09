@@ -1,5 +1,5 @@
-其实这道题可以看做[241. 为运算表达式设计优先级](https://leetcode-cn.com/problems/different-ways-to-add-parentheses/)和[31. 下一个排列](https://leetcode-cn.com/problems/next-permutation/)的结合，偷懒直接用了自带的next_permutation。反正都是O(1)就懒得剪枝了（逃
-```c++ []
+// 其实这道题可以看做[241. 为运算表达式设计优先级](https://leetcode-cn.com/problems/different-ways-to-add-parentheses/)和[31. 下一个排列](https://leetcode-cn.com/problems/next-permutation/)的结合，偷懒直接用了自带的next_permutation。反正都是O(1)就懒得剪枝了（逃
+// ```c++ []
 class Solution {
 public:
     bool judgePoint24(vector<int>& nums) {
@@ -36,4 +36,4 @@ public:
         return move(res);
     }
 };
-```
+// ```

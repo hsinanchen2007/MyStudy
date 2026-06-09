@@ -1,10 +1,10 @@
-### 解题思路
-使用`unordered_map`记录键值对，key是元素的hash值，值是元素出现次数，根据hash值判断元素是否相同。
-`unordered_map`与`map`的区别：储时是根据key的hash值判断元素是否相同，即unordered_map内部元素是无序的，而map中的元素是按照二叉搜索树存储。
+// ### 解题思路
+// 使用`unordered_map`记录键值对，key是元素的hash值，值是元素出现次数，根据hash值判断元素是否相同。
+// `unordered_map`与`map`的区别：储时是根据key的hash值判断元素是否相同，即unordered_map内部元素是无序的，而map中的元素是按照二叉搜索树存储。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -16,4 +16,4 @@ public:
         return -1;
     }
 };
-```
+// ```

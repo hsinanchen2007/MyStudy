@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -24,11 +24,11 @@ public:
         pre->next = NULL;
     }
 };
-```
-<<<优化>>>其实只需用最临近的节点覆盖，后面的接上即可，注意链表相对于数组的优势！
-![图片.png](https://pic.leetcode-cn.com/33733e7b7a7354a88cb7d1ca2f3a76ae989ee85012a4a23db224e7ce618056c5-%E5%9B%BE%E7%89%87.png)
+// ```
+// <<<优化>>>其实只需用最临近的节点覆盖，后面的接上即可，注意链表相对于数组的优势！
+// ![图片.png](https://pic.leetcode-cn.com/33733e7b7a7354a88cb7d1ca2f3a76ae989ee85012a4a23db224e7ce618056c5-%E5%9B%BE%E7%89%87.png)
 
-```
+// ```
 class Solution {
 public:
     void deleteNode(ListNode* node) {
@@ -43,4 +43,4 @@ public:
         delete nxt;
     }
 };
-```
+// ```

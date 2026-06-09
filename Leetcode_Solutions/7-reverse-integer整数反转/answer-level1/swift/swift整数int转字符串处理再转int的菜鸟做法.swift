@@ -1,4 +1,4 @@
-```
+// ```
 func reverse(_ x: Int) -> Int {
     let string = "\(x)"
     var array = Array<String>()
@@ -16,4 +16,4 @@ func reverse(_ x: Int) -> Int {
     }
     return Int(Int32(temp) ?? 0)
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public boolean wordBreak(String s, List<String> wordDict) {
         int[] h = new int[s.length() + 1];
         Set<String> set = new HashSet<>(wordDict);//集合存储成set更快
@@ -15,4 +15,4 @@ public boolean wordBreak(String s, List<String> wordDict) {
         }
         return h[h.length - 1] == h.length - 1;//看最后能组成的长度是否等于单词s（由于保存的都是下标，所以减1）
     }
-```
+// ```

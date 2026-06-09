@@ -1,10 +1,10 @@
-### 解题思路
-**方法一：哈希映射**
-时间复杂度：O[N]
-空间复杂度：O[N]
-### 代码
+// ### 解题思路
+// **方法一：哈希映射**
+// 时间复杂度：O[N]
+// 空间复杂度：O[N]
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
         return 0;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-计算各数频次，然后取最小的次数，依次判断其约数是否是其他数的约数，如果存在这样的约数，则返回true
+// ### 解题思路
+// 计算各数频次，然后取最小的次数，依次判断其约数是否是其他数的约数，如果存在这样的约数，则返回true
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hasGroupsSizeX(deck []int) bool {
 	mp:=make(map[int]int)
 	groups:=0
@@ -39,4 +39,4 @@ func hasGroupsSizeX(deck []int) bool {
 	}
 	return false
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findSpecialInteger(int[] arr) {
         for (int count = 1, i = 1; i < arr.length; i++) {
@@ -10,4 +10,4 @@ class Solution {
         return arr[0];
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-用栈即可。
+# 用栈即可。
 
-整道题目的代码如下：
+# 整道题目的代码如下：
 
-```python
+# ```python
 class Solution(object):
     def isValid(self, s):
         """
@@ -33,5 +33,5 @@ class Solution(object):
                     return False
 
         return st.is_empty()
-```
+# ```
 

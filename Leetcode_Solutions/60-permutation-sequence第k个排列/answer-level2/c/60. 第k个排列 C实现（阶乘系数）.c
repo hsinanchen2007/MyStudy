@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 inline char GetAndRemoveAtIndex(int* nums, int idx, int idxLim)
 {
     int ret = nums[idx] + '0';
@@ -41,4 +41,4 @@ char * getPermutation(int n, int k){
 }
 
 
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-1，单调栈，记录左侧数组的下边界
-2，如果当前数字大于栈顶元素时，说明栈顶元素开头的子数组只能延长到当前位置的前面一位
-3，遍历完数组后，栈中剩余元素都可以延伸到数组最末尾
-通过以上规则计算即可
-时间复杂度 `O(n)`，空间复杂度`O(n)`
+// ### 解题思路
+// 1，单调栈，记录左侧数组的下边界
+// 2，如果当前数字大于栈顶元素时，说明栈顶元素开头的子数组只能延长到当前位置的前面一位
+// 3，遍历完数组后，栈中剩余元素都可以延伸到数组最末尾
+// 通过以上规则计算即可
+// 时间复杂度 `O(n)`，空间复杂度`O(n)`
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int validSubarrays(vector<int>& nums) {
@@ -29,6 +29,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f49edaeb7eb52a07592cd0748398bd33fa5f07fe80cf3b64472e1e2526b87a33-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f49edaeb7eb52a07592cd0748398bd33fa5f07fe80cf3b64472e1e2526b87a33-image.png)

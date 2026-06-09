@@ -1,4 +1,4 @@
-```python
+# ```python
     def consecutiveNumbersSum(self, N: int) -> int:
         # 1个数时，必然有一个数可构成N
         # 2个数若要构成N，第2个数与第1个数差为1，N减掉这个1能整除2则能由商与商+1构成N
@@ -10,4 +10,4 @@
             N -= i
             i += 1
         return res
-```
+# ```

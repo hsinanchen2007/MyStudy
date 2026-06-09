@@ -1,9 +1,9 @@
-### 解题思路
-栈存储数组下标
+# ### 解题思路
+# 栈存储数组下标
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
         stack = []
@@ -15,4 +15,4 @@ class Solution:
                 stack.pop()
             stack.append(i)
         return res
-```
+# ```

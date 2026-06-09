@@ -1,9 +1,9 @@
-### 解题思路
-排序
+// ### 解题思路
+// 排序
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func frequencySort(s string) string {
 	cntMap := make(map[rune]int)
 	for _, c := range s {
@@ -43,4 +43,4 @@ func (af *afs) Less(i, j int) bool {
 func (af *afs) Swap(i, j int) {
 	(*af)[i], (*af)[j] = (*af)[j], (*af)[i]
 }
-```
+// ```

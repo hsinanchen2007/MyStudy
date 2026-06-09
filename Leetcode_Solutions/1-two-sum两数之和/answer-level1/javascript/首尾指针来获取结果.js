@@ -1,9 +1,9 @@
-### 解题思路
-通过首尾指针来获取结果
+// ### 解题思路
+// 通过首尾指针来获取结果
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -30,4 +30,4 @@ var twoSum = function(nums, target) {
     }
     return [-1,-1]
 };
-```
+// ```

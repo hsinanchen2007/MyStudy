@@ -1,9 +1,9 @@
-### 解题思路
-有时一个暴力解法，多次循环作比较
+# ### 解题思路
+# 有时一个暴力解法，多次循环作比较
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if strs == []:
@@ -31,4 +31,4 @@ class Solution:
                 return ''
             else:
                 return strs[0][0: num1 + 1]
-```
+# ```

@@ -1,15 +1,15 @@
-### 解题思路
-对于上一层的每一个'('，先找打和它配对的')'。
-例如   xxxxx(xxxx)xxxx，可以在其里面和后面分别添加一对()，生产两种模式。
-里面添加：xxxxx(xxxx)xxxx    ->    xxxxx([xxxx])xxxx
-后面添加：xxxxx(xxxx)xxxx    ->    xxxxx(xxxx)[]xxxx
-为了方便区分，我用[]表示我先添加的()。
-然后从1层依次BFS到N层就可以了，最后利用set来去重。
+// ### 解题思路
+// 对于上一层的每一个'('，先找打和它配对的')'。
+// 例如   xxxxx(xxxx)xxxx，可以在其里面和后面分别添加一对()，生产两种模式。
+// 里面添加：xxxxx(xxxx)xxxx    ->    xxxxx([xxxx])xxxx
+// 后面添加：xxxxx(xxxx)xxxx    ->    xxxxx(xxxx)[]xxxx
+// 为了方便区分，我用[]表示我先添加的()。
+// 然后从1层依次BFS到N层就可以了，最后利用set来去重。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int findPair(String str, int index) {
         int left = 1;
@@ -67,4 +67,4 @@ class Solution {
         return new ArrayList<>(set);
     }
 }
-```
+// ```

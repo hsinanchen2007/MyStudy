@@ -1,9 +1,9 @@
-### 解题思路
-加加减减就完了
+// ### 解题思路
+// 加加减减就完了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -37,4 +37,4 @@ public:
         
     }
 };
-```
+// ```

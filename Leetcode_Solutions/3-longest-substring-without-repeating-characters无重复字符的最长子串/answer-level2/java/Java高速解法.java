@@ -1,16 +1,16 @@
-### 解题思路
-执行用时 :2 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :39.5 MB, 在所有 Java 提交中击败了8.92%的用户
+// ### 解题思路
+// 执行用时 :2 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :39.5 MB, 在所有 Java 提交中击败了8.92%的用户
 
-1.对于s.length()==0的情况直接返回即可
-2.定义[start,end)来表示这个substring，初始化状态即认为第一个字符为目标substring，即star0,end=1
-3.遍历完所有剩余字符，查看剩余字符是否与已知最长substring发生重复，pos返回-1即不重复，否则返回找到的重复位置
-4.在每步更新[start,end)来表示新的最长字符串
-5.返回end-start即为结果
+// 1.对于s.length()==0的情况直接返回即可
+// 2.定义[start,end)来表示这个substring，初始化状态即认为第一个字符为目标substring，即star0,end=1
+// 3.遍历完所有剩余字符，查看剩余字符是否与已知最长substring发生重复，pos返回-1即不重复，否则返回找到的重复位置
+// 4.在每步更新[start,end)来表示新的最长字符串
+// 5.返回end-start即为结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         if (s.length()==0) return 0;
@@ -45,4 +45,4 @@ class Solution {
     }
 
 }
-```
+// ```

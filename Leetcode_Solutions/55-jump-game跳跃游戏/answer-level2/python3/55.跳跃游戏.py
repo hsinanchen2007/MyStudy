@@ -1,12 +1,12 @@
-### 解题思路
-回溯算法超时，
-看了@默蓝 题解。只需考虑每个位置能跳的最远距离就行。
-![image.png](https://pic.leetcode-cn.com/807a5cdd09879191c5d4e2d63f93127ea3bad2b4a1f8782cccacd5e9c75767d4-image.png)
+# ### 解题思路
+# 回溯算法超时，
+# 看了@默蓝 题解。只需考虑每个位置能跳的最远距离就行。
+# ![image.png](https://pic.leetcode-cn.com/807a5cdd09879191c5d4e2d63f93127ea3bad2b4a1f8782cccacd5e9c75767d4-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         #回溯算法超时
@@ -36,4 +36,4 @@ class Solution:
                 return True
         
         return max_i>=i
-```
+# ```

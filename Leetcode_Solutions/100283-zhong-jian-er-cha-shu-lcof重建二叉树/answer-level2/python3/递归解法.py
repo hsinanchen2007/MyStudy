@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-思路一样，只是在递归的时候传递的是子数组，同样的解法Python要比Java省很多代码（不需要定义额外的函数）。
+# 思路一样，只是在递归的时候传递的是子数组，同样的解法Python要比Java省很多代码（不需要定义额外的函数）。
 
-### 代码
+# ### 代码
 
-```python3 []
+# ```python3 []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,8 +25,8 @@ class Solution:
         root.right = self.helper(pre[index + 1:], inorder[index + 1:])
         return root
 
-```
-```java []
+# ```
+# ```java []
 class Solution {
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
@@ -61,5 +61,5 @@ class Solution {
         return root;
     }
 }
-```
+# ```
 

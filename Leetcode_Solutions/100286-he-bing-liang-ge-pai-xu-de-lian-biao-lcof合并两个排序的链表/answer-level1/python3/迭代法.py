@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         prehead = prev = ListNode(-1)  # 设置两个头结点
@@ -16,4 +16,4 @@ class Solution:
         
         prev.next = l1 if l1 else l2
         return prehead.next
-```
+# ```

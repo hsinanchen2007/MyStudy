@@ -1,7 +1,7 @@
-思路：
-遍历数组，遇到0在后面插入一个0，然后删除一个数组尾的数。
+# 思路：
+# 遍历数组，遇到0在后面插入一个0，然后删除一个数组尾的数。
 
-```
+# ```
 class Solution:
     def duplicateZeros(self, arr: List[int]) -> None:
         i = 0
@@ -13,4 +13,4 @@ class Solution:
                 i += 2          
             else:
                 i += 1
-```
+# ```

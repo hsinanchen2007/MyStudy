@@ -1,9 +1,9 @@
-### 解题思路
-先特判1的情况，其他情况判断是否由最大公约数即可
+// ### 解题思路
+// 先特判1的情况，其他情况判断是否由最大公约数即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -46,4 +46,4 @@ public:
         return b?gcd(b,a%b):a;
     }
 };
-```
+// ```

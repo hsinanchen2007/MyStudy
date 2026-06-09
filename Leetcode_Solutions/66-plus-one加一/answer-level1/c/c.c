@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、主要需要头部预留一位位置，给进位留下空间；
+// ### 解题思路
+// 此处撰写解题思路
+// 1、主要需要头部预留一位位置，给进位留下空间；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -44,4 +44,4 @@ int* plusOne(int* digits, int digitsSize, int* returnSize){
 
     return results;
 }
-```
+// ```

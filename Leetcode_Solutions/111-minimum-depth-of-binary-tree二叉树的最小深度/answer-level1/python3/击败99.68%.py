@@ -1,6 +1,6 @@
-![9134248a6ca3ad2bb60128560317e13.png](https://pic.leetcode-cn.com/d8f9024deec7b800186aa9ef26e714a18f4d0c2f6b8bc55915ab723ffeeb438a-9134248a6ca3ad2bb60128560317e13.png)
+# ![9134248a6ca3ad2bb60128560317e13.png](https://pic.leetcode-cn.com/d8f9024deec7b800186aa9ef26e714a18f4d0c2f6b8bc55915ab723ffeeb438a-9134248a6ca3ad2bb60128560317e13.png)
 
-```python []
+# ```python []
 class Solution:
     def minDepth(self, root: TreeNode) -> int:
         if root == None:
@@ -19,6 +19,6 @@ class Solution:
             res += 1
             nodes = new_nodes
         return res
-```
+# ```
 
 

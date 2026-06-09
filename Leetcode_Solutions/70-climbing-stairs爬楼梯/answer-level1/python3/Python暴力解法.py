@@ -1,9 +1,9 @@
-### 解题思路
-从数学思想（排列组合问题）出发，看注释即可。
+# ### 解题思路
+# 从数学思想（排列组合问题）出发，看注释即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def climbStairs(self, n: int) -> int:
         stack,x,count,kind,m = [],0,0,1,n-1 
@@ -26,4 +26,4 @@ class Solution:
                 kind += factorial/factorial_count 
                 # 将每次合1为2后的各种1、2排序种类累加即可。factorial要除以count的阶乘是由于出现了阶乘count次重复情况，结合排列组合的组合问题来理解这一步。
         return int(kind) 
-```
+# ```

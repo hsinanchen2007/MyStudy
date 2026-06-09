@@ -1,9 +1,9 @@
-### 解题思路
-雖然很快就想到找最大公因數了，但前面那個判斷搞得我好苦啊~~~
+// ### 解题思路
+// 雖然很快就想到找最大公因數了，但前面那個判斷搞得我好苦啊~~~
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool CanMeasureWater(int x, int y, int z) {
         if(x+y<z) return false;
@@ -22,4 +22,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

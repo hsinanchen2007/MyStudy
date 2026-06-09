@@ -1,9 +1,9 @@
-### 解题思路
-递归计算树的高度，如果左右子树高度相差超过1，可以返回-1作为标记。表示不是平衡二叉树。
+// ### 解题思路
+// 递归计算树的高度，如果左右子树高度相差超过1，可以返回-1作为标记。表示不是平衡二叉树。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ public:
         return do_isBalanced_findDepth(root) != -1;
     }
 };
-```
+// ```

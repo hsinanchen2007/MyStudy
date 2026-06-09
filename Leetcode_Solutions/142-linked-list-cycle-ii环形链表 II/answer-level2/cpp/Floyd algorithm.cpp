@@ -1,9 +1,9 @@
-### 解题思路
-不得不感叹真的太聪明了，2倍速度就是正好能卡在相遇的点，别的倍数就不行。
+// ### 解题思路
+// 不得不感叹真的太聪明了，2倍速度就是正好能卡在相遇的点，别的倍数就不行。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
@@ -24,4 +24,4 @@ public:
         return slowPtr;
     }
 };
-```
+// ```

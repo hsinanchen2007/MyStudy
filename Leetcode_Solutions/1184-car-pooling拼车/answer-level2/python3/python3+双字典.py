@@ -1,9 +1,9 @@
-### 解题思路
-双字典
+# ### 解题思路
+# 双字典
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
         start = {}
@@ -27,4 +27,4 @@ class Solution:
             if count > capacity:
                 return False
         return True
-```
+# ```

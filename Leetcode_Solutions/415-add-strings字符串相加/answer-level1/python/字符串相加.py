@@ -1,5 +1,5 @@
-- 注意字符串不能直接更改赋值 a = 'abs'  a[0]='s'是不被允许的
-```
+# - 注意字符串不能直接更改赋值 a = 'abs'  a[0]='s'是不被允许的
+# ```
 class Solution:
     def addStrings(self, num1: str, num2: str) -> str:
         carr = 0
@@ -23,4 +23,4 @@ class Solution:
         if carr >= 1:
             res = '1'+res
         return res
-```
+# ```

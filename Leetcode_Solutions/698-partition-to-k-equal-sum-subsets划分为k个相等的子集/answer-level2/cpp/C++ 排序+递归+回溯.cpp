@@ -1,11 +1,11 @@
-### 解题思路
-1. 和值一定要能被k均分
-2. 从大到小排序后，可以减少回溯的次数
-3. 借鉴题解圈的大神的回溯算法，练习&学习中
+// ### 解题思路
+// 1. 和值一定要能被k均分
+// 2. 从大到小排序后，可以减少回溯的次数
+// 3. 借鉴题解圈的大神的回溯算法，练习&学习中
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool backtrace(const vector<int>& nums, vector<int>& sums, int i, int k, int average)
@@ -37,4 +37,4 @@ public:
         return backtrace(nums, sums, 0, k, sum / k);
     }
 };
-```
+// ```

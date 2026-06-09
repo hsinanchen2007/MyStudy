@@ -1,6 +1,6 @@
-简单递归
+// 简单递归
 
-```java
+// ```java
 class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p == null && q == null) return true;
@@ -14,4 +14,4 @@ class Solution {
         }
     }
 }
-```
+// ```

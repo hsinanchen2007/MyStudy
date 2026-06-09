@@ -1,11 +1,11 @@
-### 解题思路
-通过K将数组分为A，B两块。
-先将数组整体逆置，再将A块逆置， 再将B块j逆置。
-得到循环后的数组
+// ### 解题思路
+// 通过K将数组分为A，B两块。
+// 先将数组整体逆置，再将A块逆置， 再将B块j逆置。
+// 得到循环后的数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     public void rotate(int[] nums, int k) {
         k %= nums.length;
@@ -23,4 +23,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

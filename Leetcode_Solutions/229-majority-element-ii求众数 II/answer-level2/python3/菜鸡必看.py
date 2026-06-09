@@ -1,9 +1,9 @@
-### 解题思路
-这凭啥也是medium
+# ### 解题思路
+# 这凭啥也是medium
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
         res={}
@@ -19,4 +19,4 @@ class Solution:
         return dst
                 
 
-```
+# ```

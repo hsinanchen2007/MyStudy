@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] swapNumbers(int[] numbers) {
             numbers[0]=numbers[0]+numbers[1];
@@ -12,4 +12,4 @@ class Solution {
             return numbers;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-参考别人，做个记录
+// ### 解题思路
+// 参考别人，做个记录
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool makesquare(vector<int>& nums) {
@@ -47,4 +47,4 @@ public:
         return a>b; 
     }
 };
-```
+// ```

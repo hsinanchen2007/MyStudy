@@ -1,9 +1,9 @@
-### 解题思路
-辗转相除法 求最大公因数 gcd
+// ### 解题思路
+// 辗转相除法 求最大公因数 gcd
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str1
  * @param {string} str2
@@ -24,4 +24,4 @@ const check = (x, str) => {
     }
     return ans == str
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle){
     int i , count=0 ;
     int lenhaystack = strlen(haystack);
@@ -23,4 +23,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-跟着精选题解的思路，使用一个帮助的栈，这个栈的栈顶元素就是存储进来的栈中的最小值，“以空间换取时间”。
+// ### 解题思路
+// 跟着精选题解的思路，使用一个帮助的栈，这个栈的栈顶元素就是存储进来的栈中的最小值，“以空间换取时间”。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
     /** initialize your data structure here. */
@@ -54,4 +54,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

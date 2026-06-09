@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class Solution {//self：7ms 89%
 
     public void wiggleSort(int[] nums) {
@@ -26,4 +26,4 @@ class Solution {//self：7ms 89%
       | | | | | | |
     | | | | | | | |想象一下，往中间翻折，交叉插入，一定可以构成 摆动序列；
 */ 
-```
+// ```

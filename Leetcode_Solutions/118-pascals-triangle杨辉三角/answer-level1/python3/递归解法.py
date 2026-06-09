@@ -1,6 +1,6 @@
 
-通过numRows-1，求numRows行，递归求解
-```
+# 通过numRows-1，求numRows行，递归求解
+# ```
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         if numRows == 0:
@@ -18,4 +18,4 @@ class Solution:
             tmp.append(1)
             result.append(tmp)
             return result
-```
+# ```

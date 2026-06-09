@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int nthUglyNumber(int n) {
@@ -21,4 +21,4 @@ public:
         return res[n-1];
     }
 };
-```
+// ```

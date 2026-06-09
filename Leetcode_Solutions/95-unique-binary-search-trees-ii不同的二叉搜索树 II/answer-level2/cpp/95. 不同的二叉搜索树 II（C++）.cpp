@@ -1,6 +1,6 @@
-# 95. 不同的二叉搜索树 II
+// # 95. 不同的二叉搜索树 II
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -44,4 +44,4 @@ public:
 		return recurtion(1,n);
     }
 };
-```
+// ```

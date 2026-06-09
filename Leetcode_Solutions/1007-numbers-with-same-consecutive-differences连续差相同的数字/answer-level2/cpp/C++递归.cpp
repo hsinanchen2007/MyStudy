@@ -1,9 +1,9 @@
-### 解题思路
-枚举，然后递归选出符合要求的数
+// ### 解题思路
+// 枚举，然后递归选出符合要求的数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 vector<int> ans;
@@ -27,4 +27,4 @@ void func(int i,int len,int num){
         return ans;
     }
 };
-```
+// ```

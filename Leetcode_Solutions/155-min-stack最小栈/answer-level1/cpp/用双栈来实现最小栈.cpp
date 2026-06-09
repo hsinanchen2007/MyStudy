@@ -1,5 +1,5 @@
-采用2个栈，data栈用来保存数据，MinData栈用来保存最小值。
-```
+// 采用2个栈，data栈用来保存数据，MinData栈用来保存最小值。
+// ```
 class MinStack {
 private:
     stack<int> data;
@@ -41,4 +41,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

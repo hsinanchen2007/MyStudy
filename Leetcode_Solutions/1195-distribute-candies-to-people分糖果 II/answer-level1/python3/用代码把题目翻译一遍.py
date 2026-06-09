@@ -1,9 +1,9 @@
-### 解题思路
-如何用代码写故事
+# ### 解题思路
+# 如何用代码写故事
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         tangguo = 1
@@ -24,4 +24,4 @@ class Solution:
         return dp
             
 
-```
+# ```

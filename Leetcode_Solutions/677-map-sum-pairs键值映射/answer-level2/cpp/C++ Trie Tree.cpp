@@ -1,6 +1,6 @@
-用字典树存储，求 sum 的时候先判断是否存在这个前缀，若存在，从末尾字符开始 DFS 即可
+// 用字典树存储，求 sum 的时候先判断是否存在这个前缀，若存在，从末尾字符开始 DFS 即可
 
-```c++
+// ```c++
 class Trie {
 private:
     struct TrieNode {
@@ -66,4 +66,4 @@ public:
  * obj->insert(key,val);
  * int param_2 = obj->sum(prefix);
  */
-```
+// ```

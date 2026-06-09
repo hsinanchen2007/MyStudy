@@ -1,5 +1,5 @@
-#### 递归思想
-```java
+// #### 递归思想
+// ```java
     public ListNode swapPairs(ListNode head) {
         
         if(head==null||head.next==null){
@@ -13,11 +13,11 @@
         return p;
         
     }
-```
-#### 非递归,三指针法
-pre->head->after => pre->after->head
+// ```
+// #### 非递归,三指针法
+// pre->head->after => pre->after->head
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {

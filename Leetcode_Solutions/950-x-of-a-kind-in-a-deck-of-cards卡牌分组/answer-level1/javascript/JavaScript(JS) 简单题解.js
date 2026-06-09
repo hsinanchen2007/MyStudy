@@ -1,9 +1,9 @@
-### 解题思路
-先桶计数每个数字出现的次数，然后计算每个数次出现次数的最大公约数，如果最大公约数大于等于2，则返回true.
+// ### 解题思路
+// 先桶计数每个数字出现的次数，然后计算每个数次出现次数的最大公约数，如果最大公约数大于等于2，则返回true.
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -31,4 +31,4 @@ var hasGroupsSizeX = function (deck) {
     return max >= 2
 };
 
-```
+// ```

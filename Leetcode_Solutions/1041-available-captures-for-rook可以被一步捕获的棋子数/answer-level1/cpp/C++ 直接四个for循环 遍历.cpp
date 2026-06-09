@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int cnt = 0;
 public:
@@ -74,4 +74,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

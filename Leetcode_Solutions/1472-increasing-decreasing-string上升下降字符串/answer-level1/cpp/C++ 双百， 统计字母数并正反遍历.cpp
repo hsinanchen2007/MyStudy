@@ -1,5 +1,5 @@
-比赛的时候用的脑瘫模拟写半天还有bug，这个方法清晰了很多。
-```
+// 比赛的时候用的脑瘫模拟写半天还有bug，这个方法清晰了很多。
+// ```
 class Solution {
 public:
     string sortString(string s) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

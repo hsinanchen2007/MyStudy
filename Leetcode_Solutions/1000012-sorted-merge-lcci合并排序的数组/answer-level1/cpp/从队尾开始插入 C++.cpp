@@ -1,9 +1,9 @@
-### 解题思路
-思路：从队尾开始选择最大的元素插入
+// ### 解题思路
+// 思路：从队尾开始选择最大的元素插入
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -29,4 +29,4 @@ public:
         }
     }
 };
-```
+// ```

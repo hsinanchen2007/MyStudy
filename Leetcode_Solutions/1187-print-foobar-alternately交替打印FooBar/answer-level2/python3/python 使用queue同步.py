@@ -1,9 +1,9 @@
-### 解题思路
-没什么好说的，两个函数对应两个queue,queue为空时函数阻塞，控制queue弹出塞入元素即可
+# ### 解题思路
+# 没什么好说的，两个函数对应两个queue,queue为空时函数阻塞，控制queue弹出塞入元素即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import queue
 
 class FooBar:
@@ -30,4 +30,4 @@ class FooBar:
             # printBar() outputs "bar". Do not change or remove this line.
             printBar()
             self.q1.put(0)
-```
+# ```

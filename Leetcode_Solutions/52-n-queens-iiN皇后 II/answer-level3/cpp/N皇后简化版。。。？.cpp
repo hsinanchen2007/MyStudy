@@ -1,9 +1,9 @@
-### 解题思路
-这道和N皇后的思路是一样的，省去了看string的麻烦
+// ### 解题思路
+// 这道和N皇后的思路是一样的，省去了看string的麻烦
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool is_valid(int n, int line, int col, vector<vector<int>> & mp) {
@@ -49,4 +49,4 @@ public:
         return re;
     }
 };
-```
+// ```

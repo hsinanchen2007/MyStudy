@@ -1,5 +1,5 @@
-看到这道题，第一反应是递归，在创建构造器的时候直接将nestedList里的数据全部存储到list中，然后每次调用next()和hasNext()方法时从list中去获取和检查数据。先上代码吧，注释都在里面了。
-```
+// 看到这道题，第一反应是递归，在创建构造器的时候直接将nestedList里的数据全部存储到list中，然后每次调用next()和hasNext()方法时从list中去获取和检查数据。先上代码吧，注释都在里面了。
+// ```
 public class NestedIterator implements Iterator<Integer> {
 
     private List<Integer> list;
@@ -32,10 +32,10 @@ public class NestedIterator implements Iterator<Integer> {
         return index < list.size();
     }
 }
-```
+// ```
 
-但是由于是搜栈的标签找到这道题的，所以又想了想怎么用栈来解。大致想到利用先进后出的原则将nestedList中的元素逆向入栈，后来又参阅了其他大神的代码，最后整理如下：
-```
+// 但是由于是搜栈的标签找到这道题的，所以又想了想怎么用栈来解。大致想到利用先进后出的原则将nestedList中的元素逆向入栈，后来又参阅了其他大神的代码，最后整理如下：
+// ```
 public class NestedIterator implements Iterator<Integer> {
 
     private Stack<NestedInteger> stack;
@@ -72,6 +72,6 @@ public class NestedIterator implements Iterator<Integer> {
         return false;
     }
 }
-```
+// ```
 
-若有什么不对的地方欢迎大家指出。
+// 若有什么不对的地方欢迎大家指出。

@@ -1,7 +1,7 @@
-## 思路
-通过重新构建新序列进行递归。
-### 代码
-```c++
+// ## 思路
+// 通过重新构建新序列进行递归。
+// ### 代码
+// ```c++
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
@@ -21,10 +21,10 @@ public:
         return nullptr;
     }
 };
-```
-### 另一种写法
-通过下标范围指定新序列。
-```c++
+// ```
+// ### 另一种写法
+// 通过下标范围指定新序列。
+// ```c++
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
@@ -41,6 +41,6 @@ public:
         return root;
     }
 };
-```
+// ```
 
 

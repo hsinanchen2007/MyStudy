@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -20,4 +20,4 @@ int maxDepth(struct TreeNode* root){
     int height=leftHeight>rightHeight?leftHeight+1:rightHeight+1;
     return height;
 }
-```
+// ```

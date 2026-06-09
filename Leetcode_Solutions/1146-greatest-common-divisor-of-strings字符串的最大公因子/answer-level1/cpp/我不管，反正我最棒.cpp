@@ -1,6 +1,6 @@
-str2，str2/2,str2/3 ... str2/n， 挨个试呗~
+// str2，str2/2,str2/3 ... str2/n， 挨个试呗~
 
-```
+// ```
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
@@ -28,4 +28,4 @@ public:
         return "";
     }
 };
-```
+// ```

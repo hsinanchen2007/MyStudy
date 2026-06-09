@@ -1,9 +1,9 @@
-### 解题思路
-二分查找，加一个状态量，标记target所在区间（是否在旋转后前半段）
+// ### 解题思路
+// 二分查找，加一个状态量，标记target所在区间（是否在旋转后前半段）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -25,4 +25,4 @@ public:
         return nums[left]==target ? left : -1;  
     }
 };
-```
+// ```

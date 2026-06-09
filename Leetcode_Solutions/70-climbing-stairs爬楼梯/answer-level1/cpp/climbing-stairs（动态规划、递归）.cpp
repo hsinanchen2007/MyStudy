@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 //动态规划
 class Solution {
 public:
@@ -28,4 +28,4 @@ int climbStairs(int n) {
     return helper(n);
 }
 };
-```
+// ```

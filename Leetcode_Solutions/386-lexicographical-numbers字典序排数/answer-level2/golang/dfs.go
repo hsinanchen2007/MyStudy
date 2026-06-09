@@ -1,9 +1,9 @@
-### 解题思路
-dfs
+// ### 解题思路
+// dfs
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func lexicalOrder(n int) []int {
     ret := make([]int,0,n)
@@ -28,4 +28,4 @@ func help(start int,val int,ret *[]int){
 }
 
 
-```
+// ```

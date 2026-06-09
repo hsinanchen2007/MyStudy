@@ -1,11 +1,11 @@
-1. 递归中序遍历 
+// 1. 递归中序遍历 
 
-设置一个全局变量prev记录当前指针的前一位 还需要一个虚拟头节点dummy 让prev = dummy
+// 设置一个全局变量prev记录当前指针的前一位 还需要一个虚拟头节点dummy 让prev = dummy
 
-每次递归时，让prev.right = curr  curr.left = prev prev=prev.right，使得prev和curr 左右相连 且prev不断后移 直至最后一位
+// 每次递归时，让prev.right = curr  curr.left = prev prev=prev.right，使得prev和curr 左右相连 且prev不断后移 直至最后一位
 
-递归结束后 此时prev指的链表最后一位 dummy.right为链表第一位 然后让prev = dummy.right dummy.right.left = prev
-```
+// 递归结束后 此时prev指的链表最后一位 dummy.right为链表第一位 然后让prev = dummy.right dummy.right.left = prev
+// ```
 class Solution {
 
     Node prev = null;
@@ -36,16 +36,16 @@ class Solution {
         helper(curr.right);
     }
 }
-```
+// ```
 
-2. 迭代中序遍历 
+// 2. 迭代中序遍历 
 
-设置一个变量pre设置为当前指针的前一位
+// 设置一个变量pre设置为当前指针的前一位
 
-与递归一样，每次循环时，让prev.right = root root.left = prev prev=prev.right，使得prev和root 左右相连 且prev不断后移 直至最后一位
+// 与递归一样，每次循环时，让prev.right = root root.left = prev prev=prev.right，使得prev和root 左右相连 且prev不断后移 直至最后一位
 
-迭代结束后 与递归一样 此时prev指的链表最后一位 res.right为链表第一位 然后让prev = res.right res.right.left = prev
-```
+// 迭代结束后 与递归一样 此时prev指的链表最后一位 res.right为链表第一位 然后让prev = res.right res.right.left = prev
+// ```
 
 class Solution {
     public Node treeToDoublyList(Node root) {
@@ -79,4 +79,4 @@ class Solution {
         
     }
 }
-```
+// ```

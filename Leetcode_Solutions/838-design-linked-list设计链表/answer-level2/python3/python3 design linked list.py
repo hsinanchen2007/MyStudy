@@ -1,7 +1,7 @@
-开始觉得很简单，结果总写不对，最后还是用哨兵来解决的边界问题：
+# 开始觉得很简单，结果总写不对，最后还是用哨兵来解决的边界问题：
 
-- 单链表实现
-```
+# - 单链表实现
+# ```
 class Node:
     def __init__(self, val: int):
         self.val = val
@@ -72,4 +72,4 @@ class MyLinkedList:
             curr = curr.next
         curr.next = curr.next.next
         self.size -= 1
-```
+# ```

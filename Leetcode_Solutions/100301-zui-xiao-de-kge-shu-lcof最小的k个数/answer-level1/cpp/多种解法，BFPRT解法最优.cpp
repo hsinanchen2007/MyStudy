@@ -1,5 +1,5 @@
-## 直接排序后选择
-```cpp
+// ## 直接排序后选择
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -11,10 +11,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 使用堆排序
-```cpp
+// ## 使用堆排序
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -42,10 +42,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## BFPRT算法
-```cpp
+// ## BFPRT算法
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -130,8 +130,8 @@ public:
         return BFPRT(arr,i+1,r,k-m);
     }
 };
-```
+// ```
 
-![图片.png](https://pic.leetcode-cn.com/75393eb166f421ff49cfc798d402ac57492bd4cb809e31b354b880882324026c-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/75393eb166f421ff49cfc798d402ac57492bd4cb809e31b354b880882324026c-%E5%9B%BE%E7%89%87.png)
 
-有关BFPRT算法可以参考我的博客，[传送门](https://www.jianshu.com/p/83bb10ad1d32)。
+// 有关BFPRT算法可以参考我的博客，[传送门](https://www.jianshu.com/p/83bb10ad1d32)。

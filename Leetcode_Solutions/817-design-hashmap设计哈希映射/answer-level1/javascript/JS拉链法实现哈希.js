@@ -1,10 +1,10 @@
-本题是模板题。哈希常用的方法是`拉链法`和`开放寻址法`，要注意的是如果用`开放寻址法`的话，开槽的范围一般是数据的2 ~ 3倍。
-还有就是有些人用js的object去做也是错的，本题的考点就是哈希的实现，那种属于作弊了，而且面试官也肯定不会同意的。
+// 本题是模板题。哈希常用的方法是`拉链法`和`开放寻址法`，要注意的是如果用`开放寻址法`的话，开槽的范围一般是数据的2 ~ 3倍。
+// 还有就是有些人用js的object去做也是错的，本题的考点就是哈希的实现，那种属于作弊了，而且面试官也肯定不会同意的。
 
-![image.png](https://pic.leetcode-cn.com/56da441befb06c870c69e5d37ab760f80831b6eedaaa2d70ed9a5d62e9159efa-image.png)
+// ![image.png](https://pic.leetcode-cn.com/56da441befb06c870c69e5d37ab760f80831b6eedaaa2d70ed9a5d62e9159efa-image.png)
 
-js实现如下：
-```js
+// js实现如下：
+// ```js
 /**
  * Initialize your data structure here.
  */
@@ -92,4 +92,4 @@ MyHashMap.prototype.remove = function(key) {
  * var param_2 = obj.get(key)
  * obj.remove(key)
  */
-```
+// ```

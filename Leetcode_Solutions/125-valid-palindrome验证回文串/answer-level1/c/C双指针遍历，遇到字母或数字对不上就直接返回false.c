@@ -1,4 +1,4 @@
-```
+// ```
 bool is_number(char in)
 {
     if (in >= '0' && in <= '9') {
@@ -64,4 +64,4 @@ bool isPalindrome(char * s){
     }
     return true;
 }
-```
+// ```

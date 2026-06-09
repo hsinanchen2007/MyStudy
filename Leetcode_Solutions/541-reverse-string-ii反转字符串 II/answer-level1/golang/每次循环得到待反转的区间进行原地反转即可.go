@@ -1,12 +1,12 @@
-### 解题思路
-执行用时 :0 ms, 在所有 Go 提交中击败100.00%的用户
-内存消耗 :3.5 MB, 在所有 Go 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :0 ms, 在所有 Go 提交中击败100.00%的用户
+// 内存消耗 :3.5 MB, 在所有 Go 提交中击败了100.00%的用户
 
-每次循环得到待反转的区间进行原地反转即可
+// 每次循环得到待反转的区间进行原地反转即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseStr(s string, k int) string {
     bytes := []byte(s)
     l := len(bytes)
@@ -25,4 +25,4 @@ func reverseStr(s string, k int) string {
     }
     return string(bytes)
 }
-```
+// ```

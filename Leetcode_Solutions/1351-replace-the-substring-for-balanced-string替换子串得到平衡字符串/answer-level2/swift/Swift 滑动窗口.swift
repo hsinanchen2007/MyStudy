@@ -1,4 +1,4 @@
-```swift
+// ```swift
 func balancedString(_ s: String) -> Int {
     let sArray = s.map { $0 }
     var dic = [Character: Int]()
@@ -45,4 +45,4 @@ func balancedString(_ s: String) -> Int {
     return ans
 }
 
-```
+// ```

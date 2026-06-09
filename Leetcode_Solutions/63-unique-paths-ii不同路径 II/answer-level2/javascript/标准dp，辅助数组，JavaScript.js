@@ -1,9 +1,9 @@
-### 解题思路
-不难，直接看代码就可以了
+// ### 解题思路
+// 不难，直接看代码就可以了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} obstacleGrid
  * @return {number}
@@ -28,4 +28,4 @@ var uniquePathsWithObstacles = function(obstacleGrid) {
     // console.log(dp);
     return dp[xLen][yLen];
 };
-```
+// ```

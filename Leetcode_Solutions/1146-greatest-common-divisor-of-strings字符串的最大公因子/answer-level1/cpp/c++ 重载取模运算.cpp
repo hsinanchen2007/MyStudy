@@ -1,6 +1,6 @@
-重载运算符，然后用辗转相除法计算
+// 重载运算符，然后用辗转相除法计算
 
-```c++
+// ```c++
 #include <string>
 using namespace std;
 
@@ -40,4 +40,4 @@ class Solution {
     return str1;
   }
 };
-```
+// ```

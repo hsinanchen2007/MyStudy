@@ -1,9 +1,9 @@
-### 解题思路
-单独写一个中序遍历的函数即可，递归其实就是固定的模板
+// ### 解题思路
+// 单独写一个中序遍历的函数即可，递归其实就是固定的模板
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -32,4 +32,4 @@ var inorderTraversalHelper = function (root, result) {
         }
     }
 }
-```
+// ```

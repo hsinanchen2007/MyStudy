@@ -1,9 +1,9 @@
-### 解题思路
-普通想法，时间复杂度为O(kn)
+// ### 解题思路
+// 普通想法，时间复杂度为O(kn)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findKthLargest(int[] nums, int k) {
         if(nums.length == 0)
@@ -27,4 +27,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

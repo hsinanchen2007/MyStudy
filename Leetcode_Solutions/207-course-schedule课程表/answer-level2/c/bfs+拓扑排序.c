@@ -1,4 +1,4 @@
-```
+// ```
 #define INVALID -1
 bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* prerequisitesColSize){
     if (prerequisites == NULL || prerequisitesColSize == NULL) {
@@ -41,4 +41,4 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     }
     return res == 0 ? true : false;
 }
-```
+// ```

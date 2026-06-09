@@ -1,12 +1,12 @@
-### 解题思路
-1，快速排序，将输入数组正序排列
-2，动态申请指针数据空间，保存返回数据数组指针
-3，循环调用三数之和函数，三数之和函数做法见14题
-4，去重
+// ### 解题思路
+// 1，快速排序，将输入数组正序排列
+// 2，动态申请指针数据空间，保存返回数据数组指针
+// 3，循环调用三数之和函数，三数之和函数做法见14题
+// 4，去重
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -177,4 +177,4 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 
 
 
-```
+// ```

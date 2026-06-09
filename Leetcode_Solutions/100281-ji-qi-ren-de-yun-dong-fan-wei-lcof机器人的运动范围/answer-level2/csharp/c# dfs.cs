@@ -1,9 +1,9 @@
-### 解题思路
-dfs
+// ### 解题思路
+// dfs
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     int toSum(int s)
     {
@@ -71,4 +71,4 @@ public class Solution {
         return c;
     }
 }
-```
+// ```

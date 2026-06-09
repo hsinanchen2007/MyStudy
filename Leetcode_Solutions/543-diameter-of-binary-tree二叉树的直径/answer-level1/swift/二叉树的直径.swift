@@ -1,7 +1,7 @@
 
-深度优先搜索，找出树的每个节点左右节点之和，记录最大值
+// 深度优先搜索，找出树的每个节点左右节点之和，记录最大值
 
-```swift []
+// ```swift []
 class Solution {
 
     func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
@@ -38,5 +38,5 @@ class Solution {
         preOrder(root.right, excute)
     }
 }
-```
+// ```
 

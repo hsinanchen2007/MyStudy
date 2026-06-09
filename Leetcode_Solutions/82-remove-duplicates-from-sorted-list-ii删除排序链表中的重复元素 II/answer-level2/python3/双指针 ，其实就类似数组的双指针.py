@@ -1,11 +1,11 @@
-### 解题思路
-双指针 注释都有
+# ### 解题思路
+# 双指针 注释都有
 
-整体思路就是数组的双指针一样。
-只不过就是多了些 边界判断
-### 代码
+# 整体思路就是数组的双指针一样。
+# 只不过就是多了些 边界判断
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
@@ -33,4 +33,4 @@ class Solution:
         virtual.next = None
         return ans.next
 
-```
+# ```

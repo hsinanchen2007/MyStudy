@@ -1,4 +1,4 @@
-```
+// ```
 int
 divide( int dividend, int divisor )
 {
@@ -47,5 +47,5 @@ divide( int dividend, int divisor )
 
 	return minus * c;
 }
-```
-算法就是增加除数来逼近被除数，前面说的人很多。
+// ```
+// 算法就是增加除数来逼近被除数，前面说的人很多。

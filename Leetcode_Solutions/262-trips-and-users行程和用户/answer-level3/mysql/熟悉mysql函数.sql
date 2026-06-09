@@ -1,10 +1,10 @@
-### 解题思路
-熟悉mysql函数
-round(1/3,2)保留2位小数，
-count(if(?,true,false)) count函数里加判断
-### 代码
+-- ### 解题思路
+-- 熟悉mysql函数
+-- round(1/3,2)保留2位小数，
+-- count(if(?,true,false)) count函数里加判断
+-- ### 代码
 
-```mysql
+-- ```mysql
 
 
 
@@ -23,4 +23,4 @@ where Request_at between '2013-10-01' and '2013-10-03'
 group by Request_at
 
 
-```
+-- ```

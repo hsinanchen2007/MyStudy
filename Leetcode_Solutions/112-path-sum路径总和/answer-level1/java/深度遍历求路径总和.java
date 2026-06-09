@@ -1,5 +1,5 @@
-Java 耗时1ms，内存37MB
-```
+// Java 耗时1ms，内存37MB
+// ```
 /**
  * Problem
  *      112.Path Sum
@@ -45,5 +45,5 @@ public class Solution112 {
         return hasPathSum(root.left,sum-root.val)||hasPathSum(root.right,sum-root.val);
     }
 }
-```
+// ```
 

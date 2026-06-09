@@ -1,15 +1,15 @@
-> 解题
+// > 解题
 
-在78.子集这题的基础上进行剪枝即可. 记得要先将数组排序.
+// 在78.子集这题的基础上进行剪枝即可. 记得要先将数组排序.
 
-> 剪枝图解
-
-
-![image.png](https://pic.leetcode-cn.com/4495584e0c52dd3f472cf5b764065a2a909ed53ac517198a8be7dd447e86a55d-image.png)
+// > 剪枝图解
 
 
-> 代码
-```java
+// ![image.png](https://pic.leetcode-cn.com/4495584e0c52dd3f472cf5b764065a2a909ed53ac517198a8be7dd447e86a55d-image.png)
+
+
+// > 代码
+// ```java
 class Solution {
     
     
@@ -41,8 +41,8 @@ class Solution {
         
     }
 }
-```
+// ```
 
-> 截止到2019-10-02
+// > 截止到2019-10-02
 
-![image.png](https://pic.leetcode-cn.com/7918282fd4fd79b195886820410d96976e9940486cb6f1201eaa81ebe6738ce8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7918282fd4fd79b195886820410d96976e9940486cb6f1201eaa81ebe6738ce8-image.png)

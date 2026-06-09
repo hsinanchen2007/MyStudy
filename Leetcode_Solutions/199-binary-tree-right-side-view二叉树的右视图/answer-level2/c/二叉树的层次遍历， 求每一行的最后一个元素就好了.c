@@ -1,4 +1,4 @@
-/* 二叉树的层次便利， 求每一行的最后一个元素就好了 */
+// /* 二叉树的层次便利， 求每一行的最后一个元素就好了 */
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

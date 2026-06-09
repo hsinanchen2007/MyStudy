@@ -1,8 +1,8 @@
-### 解题思路
-计算子树的节点个数
-### 代码
+// ### 解题思路
+// 计算子树的节点个数
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -31,4 +31,4 @@ func nodeCount(root *TreeNode) int {
     }
     return 1 + nodeCount(root.Left) + nodeCount(root.Right)
 }
-```
+// ```

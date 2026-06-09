@@ -1,8 +1,8 @@
-主要从获取第一高，第二高，第三高三步来获取对应的薪水值。
-SQL比较长：
-执行493ms
+-- 主要从获取第一高，第二高，第三高三步来获取对应的薪水值。
+-- SQL比较长：
+-- 执行493ms
 
-```
+-- ```
 select d.name as Department ,e.name as Employee ,e.Salary
 from Employee e,
 Department d,
@@ -68,4 +68,4 @@ where e.DepartmentId = d.id
 and d.id = t.id
 and e.Salary >= t.maxS
 order by e.DepartmentId,e.Salary desc
-```
+-- ```

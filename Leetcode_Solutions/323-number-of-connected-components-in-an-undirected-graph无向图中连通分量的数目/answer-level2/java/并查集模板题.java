@@ -1,5 +1,5 @@
-Java ac代码：
-```
+// Java ac代码：
+// ```
 class Solution {
     public int countComponents(int n, int[][] edges) {
         
@@ -31,4 +31,4 @@ class Solution {
     }
   
 }
-```
+// ```

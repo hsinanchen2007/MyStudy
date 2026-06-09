@@ -1,6 +1,6 @@
-特殊情况尽可能清晰一些。
+// 特殊情况尽可能清晰一些。
 
-```
+// ```
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
@@ -22,4 +22,4 @@ public:
         return grid[row-1][col-1];
     }
 };
-```
+// ```

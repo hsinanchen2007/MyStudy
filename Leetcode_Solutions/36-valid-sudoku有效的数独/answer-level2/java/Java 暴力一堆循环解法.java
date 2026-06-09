@@ -1,5 +1,5 @@
-没用哈希表和map,就暴力做了
-```
+// 没用哈希表和map,就暴力做了
+// ```
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         boolean flag=true;
@@ -27,4 +27,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

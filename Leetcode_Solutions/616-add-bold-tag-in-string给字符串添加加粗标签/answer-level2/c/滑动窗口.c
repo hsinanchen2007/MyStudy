@@ -1,11 +1,11 @@
-### 解题思路
-// 1. 先找pos对，加到数组里,考虑dst 在 src里有多份的场景
-// 2. 排序，按pos对的begin排序后，使用 “滑动窗口” 归并pos对，得到有效pos对
-// 3。拼接out，按pos对 拼接out，考虑头、尾
+// ### 解题思路
+// // 1. 先找pos对，加到数组里,考虑dst 在 src里有多份的场景
+// // 2. 排序，按pos对的begin排序后，使用 “滑动窗口” 归并pos对，得到有效pos对
+// // 3。拼接out，按pos对 拼接out，考虑头、尾
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // 1. 先找pos对，加到数组里,考虑dst 在 src里有多份的场景
 // 2. 排序，按pos对的begin排序后，使用 “滑动窗口” 归并pos对，得到有效pos对
 // 3。拼接out，按pos对 拼接out，考虑头、尾
@@ -106,4 +106,4 @@ char * addBoldTag(char * s, char ** dict, int dictSize){
     }
     return g_out;
 }
-```
+// ```

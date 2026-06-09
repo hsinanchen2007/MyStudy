@@ -1,9 +1,9 @@
-### 解题思路
-最简单的递归思路，然鹅时空间都不太理想，求大佬指点如何改进。
+// ### 解题思路
+// 最简单的递归思路，然鹅时空间都不太理想，求大佬指点如何改进。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -24,4 +24,4 @@ struct TreeNode* searchBST(struct TreeNode* root, int val){
         return searchBST(root->left,val);
     }
 }
-```
+// ```

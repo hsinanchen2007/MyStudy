@@ -1,5 +1,5 @@
-几行代码
-```cpp
+// 几行代码
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -12,4 +12,4 @@ public:
         return res;
     }
 };
-```
+// ```

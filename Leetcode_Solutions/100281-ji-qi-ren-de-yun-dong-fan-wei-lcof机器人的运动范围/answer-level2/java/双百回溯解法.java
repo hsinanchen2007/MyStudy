@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     
     int res = 0;
@@ -32,5 +32,5 @@ class Solution {
         }
     }
 }
-```
-![批注 2020-04-09 092114.png](https://pic.leetcode-cn.com/df0a042afc0bd2f4c03d348bf6375341bc38e10b3ed986b637b97553a86ab407-%E6%89%B9%E6%B3%A8%202020-04-09%20092114.png)
+// ```
+// ![批注 2020-04-09 092114.png](https://pic.leetcode-cn.com/df0a042afc0bd2f4c03d348bf6375341bc38e10b3ed986b637b97553a86ab407-%E6%89%B9%E6%B3%A8%202020-04-09%20092114.png)

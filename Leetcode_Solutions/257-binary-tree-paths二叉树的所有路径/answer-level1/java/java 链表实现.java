@@ -1,4 +1,4 @@
-```java
+// ```java
 import javafx.util.Pair;
 class Solution {
     public List<String> binaryTreePaths(TreeNode root) {
@@ -26,4 +26,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

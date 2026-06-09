@@ -1,4 +1,4 @@
-```
+// ```
 int* searchRange(int* nums, int numsSize, int target, int* returnSize){
     int i=0,j=numsSize-1,mid;
     int *a = malloc(sizeof(int)*2);
@@ -35,4 +35,4 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize){
     *returnSize=2;
     return a;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-执行用时 :9 ms, 在所有 java 提交中击败了100.00%的用户
-内存消耗 :36.4 MB, 在所有 java 提交中击败了100.00%的用户
+// 执行用时 :9 ms, 在所有 java 提交中击败了100.00%的用户
+// 内存消耗 :36.4 MB, 在所有 java 提交中击败了100.00%的用户
 
-+ 对ring建图
-+ 记忆化搜索，利用当前的ring位置和当前key字符的位置作为状态标志
+// + 对ring建图
+// + 记忆化搜索，利用当前的ring位置和当前key字符的位置作为状态标志
 
-代码如下
-```
+// 代码如下
+// ```
     public int findRotateSteps(String ring, String key) {
         char[] rings=ring.toCharArray();
         List<Integer>[] rs=new List[26];
@@ -36,5 +36,5 @@
         }
         return dp[r_idx][k_idx]=res;
     }
-```
+// ```
 

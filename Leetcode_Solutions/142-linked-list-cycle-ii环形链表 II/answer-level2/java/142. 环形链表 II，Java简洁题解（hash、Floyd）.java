@@ -1,22 +1,22 @@
-# 审题
-1. 不能修改链表
-2. 不用额外空间也可以解决
-3. 返回环位置节点
+// # 审题
+// 1. 不能修改链表
+// 2. 不用额外空间也可以解决
+// 3. 返回环位置节点
 
-# 思路
-1. hash
-2. 双指针：快慢指针
+// # 思路
+// 1. hash
+// 2. 双指针：快慢指针
 
-# 反馈
-1. 快慢指针使用Floyd算法
+// # 反馈
+// 1. 快慢指针使用Floyd算法
 
-# 代码实现
-1. hash
-2. floyd
+// # 代码实现
+// 1. hash
+// 2. floyd
 
-## 1.hash
+// ## 1.hash
 
-```java
+// ```java
 private ListNode hashSolution(ListNode head) {
     Set<ListNode> set = new HashSet<>();
     while (head != null && head.next != null) {
@@ -28,11 +28,11 @@ private ListNode hashSolution(ListNode head) {
     }
     return null;
 }
-```
+// ```
 
-## 2.floyd
+// ## 2.floyd
 
-```java
+// ```java
 
 private ListNode floydSolution(ListNode head) {
     ListNode tail = getFloydIntersection(head);
@@ -63,4 +63,4 @@ private ListNode getFloydIntersection(ListNode head) {
     }
     return null;
 }
-```
+// ```

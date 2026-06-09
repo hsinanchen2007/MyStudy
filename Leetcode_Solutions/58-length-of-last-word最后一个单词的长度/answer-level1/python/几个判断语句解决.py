@@ -1,9 +1,9 @@
-### 解题思路
-简单的采用了判断语句。考虑几个边界条件即可。时间12ms。
+# ### 解题思路
+# 简单的采用了判断语句。考虑几个边界条件即可。时间12ms。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLastWord(self, s):
         """
@@ -19,4 +19,4 @@ class Solution(object):
         if len(s)>0:  ## 防止'aaaa'
             return ans
         return 0 # 防止空''
-```
+# ```

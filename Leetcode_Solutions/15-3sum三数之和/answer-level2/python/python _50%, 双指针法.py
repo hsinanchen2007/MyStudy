@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def threeSum(self, nums):
         """
@@ -34,4 +34,4 @@ class Solution(object):
         # print nums, sum, res
         return res
 
-```
+# ```

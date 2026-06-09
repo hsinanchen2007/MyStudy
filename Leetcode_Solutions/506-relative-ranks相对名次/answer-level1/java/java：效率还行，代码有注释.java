@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/d1ae2bf5d06334de756852a1f1db1faafba4f10c7ba40f2b5064d19185af7b18-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/d1ae2bf5d06334de756852a1f1db1faafba4f10c7ba40f2b5064d19185af7b18-image.png)
+// ```
 class Solution {
     public String[] findRelativeRanks(int[] nums) {
         String[] res = new String[nums.length];
@@ -71,5 +71,5 @@ class Solution {
         quickSort(nums, low + 1, end);
     }
 }
-```
+// ```
 

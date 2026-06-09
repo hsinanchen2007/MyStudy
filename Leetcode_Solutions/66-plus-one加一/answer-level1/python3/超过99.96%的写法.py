@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         temp, ret, flag = [], [], 1
@@ -20,10 +20,10 @@ class Solution:
         ret = list(reversed(temp))
         return ret
 
-```
+# ```
 
-利用列表操作方法，快速实现目标
-效果：
+# 利用列表操作方法，快速实现目标
+# 效果：
 
-![capture_20191125092459600.bmp](https://pic.leetcode-cn.com/3c8dc576a951066c30f5ed90293dd9181956292acc59f245f9a3c3fca03efa7a-capture_20191125092459600.bmp)
+# ![capture_20191125092459600.bmp](https://pic.leetcode-cn.com/3c8dc576a951066c30f5ed90293dd9181956292acc59f245f9a3c3fca03efa7a-capture_20191125092459600.bmp)
 

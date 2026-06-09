@@ -1,9 +1,9 @@
-### 解题思路
-使用PHP内置的SplMinHeap,PHP的最小堆，没有Size设置项，只能在代码中自己控制Size
+// ### 解题思路
+// 使用PHP内置的SplMinHeap,PHP的最小堆，没有Size设置项，只能在代码中自己控制Size
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class KthLargest {
     public $k = 0;
     public $heap = null;
@@ -45,4 +45,4 @@ class KthLargest {
  * $obj = KthLargest($k, $nums);
  * $ret_1 = $obj->add($val);
  */
-```
+// ```

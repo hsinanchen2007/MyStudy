@@ -1,9 +1,9 @@
-### 解题思路
-判断列表需要分成几段，然后用python切片切出每段，对每段用一个循环解压
+# ### 解题思路
+# 判断列表需要分成几段，然后用python切片切出每段，对每段用一个循环解压
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def decompressRLElist(self, nums: List[int]) -> List[int]:
         a = [] #存放切分只有的数组
@@ -18,4 +18,4 @@ class Solution:
             for i in range(a[0]): #a[0]表示分段频次
                 b.append(a[1])
         return b
-```
+# ```

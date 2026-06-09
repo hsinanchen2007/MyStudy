@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-易错点：
-1、没有判断是否为空
-2、循环结束后没有将tail的后面清空
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 易错点：
+# 1、没有判断是否为空
+# 2、循环结束后没有将tail的后面清空
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
                 node = tail.next
         tail.next = None
         return head
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-使用二分查找搜索[min(A,B),N * B]范围，每个数的神奇数字个数 = mid 整除 A + mid 整除 B - mid 整除 AB最小公倍数.
-类似题目：[https://leetcode-cn.com/problems/ugly-number-iii/]()
+# ### 解题思路
+# 使用二分查找搜索[min(A,B),N * B]范围，每个数的神奇数字个数 = mid 整除 A + mid 整除 B - mid 整除 AB最小公倍数.
+# 类似题目：[https://leetcode-cn.com/problems/ugly-number-iii/]()
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nthMagicalNumber(self, N: int, A: int, B: int) -> int:
         ab = self.LCM(A, B)
@@ -27,4 +27,4 @@ class Solution:
         :return:
         """
         return a * (b // math.gcd(a, b))
-```
+# ```

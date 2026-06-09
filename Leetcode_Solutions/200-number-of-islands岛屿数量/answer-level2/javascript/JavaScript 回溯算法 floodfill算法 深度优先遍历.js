@@ -1,9 +1,9 @@
-### 解题思路
-深度优先遍历 递归
+// ### 解题思路
+// 深度优先遍历 递归
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} grid
  * @return {number}
@@ -47,4 +47,4 @@ var numIslands = function(grid) {
     }
     return count
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func surfaceArea(grid [][]int) int {
     if len(grid) == 0 {
         return 0
@@ -41,4 +41,4 @@ func surfaceArea(grid [][]int) int {
     }
     return result+2*roof
 }
-```
+// ```

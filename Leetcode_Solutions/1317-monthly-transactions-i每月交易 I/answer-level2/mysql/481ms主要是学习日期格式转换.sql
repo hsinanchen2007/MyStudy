@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 #日期格式转换
@@ -16,4 +16,4 @@ FROM
     DATE_FORMAT(trans_date,'%Y-%m')  AS month
     from Transactions) A
 GROUP BY month,country ORDER BY month,country 
-```
+-- ```

@@ -1,10 +1,10 @@
-### 解题思路
-1.开始节点未知，遍历所有顶点作为开始节点；
-2.从各节点开始深度遍历+回溯，在每个节点都取最大的子路径往上返回。
+// ### 解题思路
+// 1.开始节点未知，遍历所有顶点作为开始节点；
+// 2.从各节点开始深度遍历+回溯，在每个节点都取最大的子路径往上返回。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int max = 0;
 
@@ -41,4 +41,4 @@ class Solution {
         return currentCount + Math.max(Math.max(left, right), Math.max(up, down));
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-对官方第三种方法的粗浅理解
+// ### 解题思路
+// 对官方第三种方法的粗浅理解
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int arrayPairSum(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return sum;
     }
 };
-```
+// ```

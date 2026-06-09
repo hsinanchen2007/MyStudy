@@ -1,4 +1,4 @@
-```python
+# ```python
 """
 # Definition for a Node.
 class Node:
@@ -33,4 +33,4 @@ class Solution:
         res, _ = dfs(head)
         return res
 
-```
+# ```

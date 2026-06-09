@@ -1,9 +1,9 @@
-### 解题思路
-使用哈希表存储元音字母，然后设置双指针进行检索，遇到元音字母就进行交换。然后终止条件是left < right;
+// ### 解题思路
+// 使用哈希表存储元音字母，然后设置双指针进行检索，遇到元音字母就进行交换。然后终止条件是left < right;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseVowels(String s) {
         HashMap<Character, Integer> hashmap = new HashMap<>();
@@ -38,4 +38,4 @@ class Solution {
         return new String(chars);
     }
 }
-```
+// ```

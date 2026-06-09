@@ -1,13 +1,13 @@
-### 解题思路
-参考自剑指offer解析
-二分查找
-1、通过二分查找找到第一个k出现的下标，未出现，则返回0
-2、通过二分查找找到最后一个k出现的下标，未出现，则返回0
+// ### 解题思路
+// 参考自剑指offer解析
+// 二分查找
+// 1、通过二分查找找到第一个k出现的下标，未出现，则返回0
+// 2、通过二分查找找到最后一个k出现的下标，未出现，则返回0
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int search(vector<int>& nums, int target) {
@@ -86,4 +86,4 @@ public:
 		return getLast(nums, target, left, right);
 	}
 };
-```
+// ```

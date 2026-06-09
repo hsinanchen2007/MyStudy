@@ -1,6 +1,6 @@
-注意边界条件
-注意0的位置
-```
+// 注意边界条件
+// 注意0的位置
+// ```
 function numDecodings($s) {
     $n = strlen($s);
     if($n==0 || $s[0]=='0') return 0;
@@ -18,4 +18,4 @@ function numDecodings($s) {
     }
     return $dp[$n-1];
 }
-```
+// ```

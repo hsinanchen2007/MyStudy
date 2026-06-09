@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int validSubarrays(int[] nums) {
         Stack<Integer> s=new Stack<>();
@@ -25,4 +25,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

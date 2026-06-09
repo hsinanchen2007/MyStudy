@@ -1,9 +1,9 @@
-1:用双指针,同时从头部和尾部开始进行`交换2个指针的值`
-2:并自增自减的向中间遍历
-3:直到触发`基准条件`:2个指针开始中间重合 返回即可
-代码如下:
+# 1:用双指针,同时从头部和尾部开始进行`交换2个指针的值`
+# 2:并自增自减的向中间遍历
+# 3:直到触发`基准条件`:2个指针开始中间重合 返回即可
+# 代码如下:
 
-```python []
+# ```python []
 def reverseString(self, s: List[str]) -> None:
         """
         Do not return anything, modify s in-place instead.
@@ -19,8 +19,8 @@ def reverseString(self, s: List[str]) -> None:
             i +=1
             j -=1
         return s
-```
-```php []
+# ```
+# ```php []
 function reverseString(&$s) {
         $length = count($s);
         if($length < 2){
@@ -38,4 +38,4 @@ function reverseString(&$s) {
         return $s;
             
     }
-```
+# ```

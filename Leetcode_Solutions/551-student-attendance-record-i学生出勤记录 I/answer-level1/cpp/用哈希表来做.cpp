@@ -1,8 +1,8 @@
-用哈希n表来判断“A”和"LLL"的数量
+// 用哈希n表来判断“A”和"LLL"的数量
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkRecord(string s) {
@@ -22,4 +22,4 @@ public:
         return false;
     }
 };
-```
+// ```

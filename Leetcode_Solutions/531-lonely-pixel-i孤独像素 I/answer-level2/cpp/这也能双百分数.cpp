@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findLonelyPixel(vector<vector<char>>& picture) {
@@ -42,4 +42,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

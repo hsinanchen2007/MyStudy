@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
         # over n / 3
@@ -31,4 +31,4 @@ class Solution:
         if check_cnt(p2, len(nums) // 3):
             res.append(p2)
         return res
-```
+# ```

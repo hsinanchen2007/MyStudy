@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     Node* dfs(Node* root) {
@@ -33,6 +33,6 @@ public:
         return head;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/1778b48661f2c63c0c0a94844c454bde76997dd86d38661683012040a523afa3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1778b48661f2c63c0c0a94844c454bde76997dd86d38661683012040a523afa3-image.png)

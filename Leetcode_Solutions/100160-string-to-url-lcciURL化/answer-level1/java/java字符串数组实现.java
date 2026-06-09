@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String replaceSpaces(String S, int length) {
         char[] ans = new char[length * 3];
@@ -15,4 +15,4 @@ class Solution {
         return new String(ans, 0, idx);
     }
 }
-```
+// ```

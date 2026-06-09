@@ -1,6 +1,6 @@
-比赛的时候脑子里都是正向操作，一直没过，回想起来突然发现，可以反向操作呀，筛选被预约的位置，然后马上就过了
+# 比赛的时候脑子里都是正向操作，一直没过，回想起来突然发现，可以反向操作呀，筛选被预约的位置，然后马上就过了
 
-```python
+# ```python
 class Solution(object):
     def maxNumberOfFamilies(self, n, res):
         left = set()
@@ -26,4 +26,4 @@ class Solution(object):
         count += 2*(min_-1)
         count += 2*(n-max_)
         return count
-```
+# ```

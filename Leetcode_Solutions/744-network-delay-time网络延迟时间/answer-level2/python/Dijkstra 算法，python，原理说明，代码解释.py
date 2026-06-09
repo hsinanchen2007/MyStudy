@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def networkDelayTime(self, times: List[List[int]], N: int, K: int) -> int:
         """
@@ -44,7 +44,7 @@ class Solution:
         return max(dist[1:])
 
 
-```
+# ```
 
 
 
@@ -52,4 +52,4 @@ class Solution:
 
         
         
-```
+# ```

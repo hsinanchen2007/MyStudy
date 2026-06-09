@@ -1,6 +1,6 @@
-费空间换智商哈哈哈
+// 费空间换智商哈哈哈
 
-```
+// ```
  TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
          if(inorder.size()==0&&postorder.size()==0) return NULL;
         
@@ -24,4 +24,4 @@
         
         return root;
     } 
-```
+// ```

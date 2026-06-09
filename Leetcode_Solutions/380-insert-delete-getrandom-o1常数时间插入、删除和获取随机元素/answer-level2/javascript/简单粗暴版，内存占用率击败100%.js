@@ -1,4 +1,4 @@
-```
+// ```
 
 var RandomizedSet = function() {
     this.list= []
@@ -31,5 +31,5 @@ RandomizedSet.prototype.getRandom = function() {
 };
 
 
-```
+// ```
 

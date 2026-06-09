@@ -1,8 +1,8 @@
-### 解题思路
-先记录0出现的位置，然后把对应位置的行列改为0
-### 代码
+# ### 解题思路
+# 先记录0出现的位置，然后把对应位置的行列改为0
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
@@ -24,4 +24,4 @@ class Solution:
         
                     
 
-```
+# ```

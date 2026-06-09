@@ -1,10 +1,10 @@
-### 解题思路
-建立双指针，一个指向第一个新数字，一个指向用于遍历的当前位置数字
-同时，考虑到删除时数组长度变化，因此从尾部向头部遍历，用指向0判断遍历完成
+# ### 解题思路
+# 建立双指针，一个指向第一个新数字，一个指向用于遍历的当前位置数字
+# 同时，考虑到删除时数组长度变化，因此从尾部向头部遍历，用指向0判断遍历完成
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         ll = len(nums)
@@ -23,4 +23,4 @@ class Solution:
                 cmpp = nums[i]
         return len(nums)
 
-```
+# ```

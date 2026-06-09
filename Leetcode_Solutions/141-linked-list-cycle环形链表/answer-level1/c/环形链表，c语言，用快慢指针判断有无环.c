@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针判断链表是否有环
+// ### 解题思路
+// 快慢指针判断链表是否有环
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasCycle(struct ListNode *head) {
     if(!head){
         return false;
@@ -19,4 +19,4 @@ bool hasCycle(struct ListNode *head) {
     }
     return true;
 }
-```
+// ```

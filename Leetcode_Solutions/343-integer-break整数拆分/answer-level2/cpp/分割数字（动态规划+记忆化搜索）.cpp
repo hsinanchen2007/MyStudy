@@ -1,10 +1,10 @@
-### 题解
-memo[i]---->分割数字的乘积最大值
-![image.png](https://pic.leetcode-cn.com/d2c1f4e595cd9015387f9cbb8bb1a2be952caa3866eb1b730b9819fb6dade204-image.png)
+// ### 题解
+// memo[i]---->分割数字的乘积最大值
+// ![image.png](https://pic.leetcode-cn.com/d2c1f4e595cd9015387f9cbb8bb1a2be952caa3866eb1b730b9819fb6dade204-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 //方法一：记忆化搜素
 class Solution {
 private:
@@ -61,4 +61,4 @@ public:
 };
 
 
-```
+// ```

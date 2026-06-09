@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-注意删除节点的逻辑。
+# 注意删除节点的逻辑。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
                 node = node.next
             else: 
                 node.next = None
-```
+# ```

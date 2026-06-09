@@ -1,6 +1,6 @@
-第一列和第10列的座位是否被占对最后结果毫无影响。
-先遍历一遍，找到2-9列被占情况，之后只对有被占用座位的行进行处理。
-```go
+// 第一列和第10列的座位是否被占对最后结果毫无影响。
+// 先遍历一遍，找到2-9列被占情况，之后只对有被占用座位的行进行处理。
+// ```go
 func maxNumberOfFamilies(n int, reservedSeats [][]int) int {
     reserverdMap := make(map[int]map[int]bool)
     for _, seat := range reservedSeats {
@@ -30,4 +30,4 @@ func maxNumberOfFamilies(n int, reservedSeats [][]int) int {
     count += 2*(n - len(reserverdMap))
     return count
 }
-```
+// ```

@@ -1,5 +1,5 @@
-找出最小值和在其之后的最大值的差值
-```cpp
+// 找出最小值和在其之后的最大值的差值
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -25,4 +25,4 @@ public:
         return maxmoney;
     }
 };
-```
+// ```

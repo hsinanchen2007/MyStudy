@@ -1,15 +1,15 @@
 
-![javascript.jpg](https://pic.leetcode-cn.com/da2d4a7a08ecd4043cd9300fadfd9797a7faa3c2e630276c676317f90a45fd16-javascript.jpg)
+// ![javascript.jpg](https://pic.leetcode-cn.com/da2d4a7a08ecd4043cd9300fadfd9797a7faa3c2e630276c676317f90a45fd16-javascript.jpg)
 
-<br />
+// <br />
 
-> es6新增两种数据结构, set和map, 其中set对应哈希集合, map对应哈希映射
+// > es6新增两种数据结构, set和map, 其中set对应哈希集合, map对应哈希映射
 
-## 使用数组设计哈希集合 (不建议)
+// ## 使用数组设计哈希集合 (不建议)
 
-- 比较耗费性能, 代码也没有对象设计来的简单
+// - 比较耗费性能, 代码也没有对象设计来的简单
 
-```js
+// ```js
 class MyHashSet {
   constructor () {
     this.data = []
@@ -35,13 +35,13 @@ class MyHashSet {
     }
   }
 }
-```
+// ```
 
-<br />
+// <br />
 
-## 使用对象设计哈希集合 (建议)
+// ## 使用对象设计哈希集合 (建议)
 
-```js
+// ```js
 class MyHashSet {
   constructor () {
     this.data = {}
@@ -56,4 +56,4 @@ class MyHashSet {
     this.data[value] && (delete this.data[value])
   }
 }
-```
+// ```

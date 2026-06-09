@@ -1,9 +1,9 @@
-### 解题思路
-整数数组排序，按顺序俩俩(i, i+1)配对，返回不匹配的元素即可。
+# ### 解题思路
+# 整数数组排序，按顺序俩俩(i, i+1)配对，返回不匹配的元素即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         res = nums.sort()
@@ -16,4 +16,4 @@ class Solution:
         else:
             return nums[-1]
             
-```
+# ```

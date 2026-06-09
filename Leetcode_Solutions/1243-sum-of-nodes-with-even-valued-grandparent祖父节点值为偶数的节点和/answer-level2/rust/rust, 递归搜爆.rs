@@ -1,5 +1,5 @@
-嗨, 别谈了, 作为一个新手, 通过编译都难
-```rust
+// 嗨, 别谈了, 作为一个新手, 通过编译都难
+// ```rust
 use std::rc::Rc;
 use std::cell::RefCell;
 
@@ -42,4 +42,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

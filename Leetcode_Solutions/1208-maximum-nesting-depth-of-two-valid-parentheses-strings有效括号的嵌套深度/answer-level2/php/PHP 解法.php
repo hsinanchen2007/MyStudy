@@ -1,6 +1,6 @@
-感谢高赞题解，真心看不懂题目
+// 感谢高赞题解，真心看不懂题目
 
-```php
+// ```php
 class Solution
 {
 
@@ -30,4 +30,4 @@ class Solution
         return $ans;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-说到动态回归，大致思路就是：定义一个标记列表 flag，flag[i] 表示到第 i-1 个字符时，是否为能被拆分为字典里的单词。
+# ### 解题思路
+# 说到动态回归，大致思路就是：定义一个标记列表 flag，flag[i] 表示到第 i-1 个字符时，是否为能被拆分为字典里的单词。
 
-状态转移矩阵：
-flag[j] = flag[i] and s[i:j+1] in wordDict
+# 状态转移矩阵：
+# flag[j] = flag[i] and s[i:j+1] in wordDict
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def wordBreak(self, s, wordDict):
         """
@@ -25,4 +25,4 @@ class Solution(object):
         return flag[-1]
 
 
-```
+# ```

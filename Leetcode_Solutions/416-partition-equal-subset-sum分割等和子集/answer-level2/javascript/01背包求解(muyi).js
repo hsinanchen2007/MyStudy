@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-01背包求解
+// 01背包求解
 
-1. 计算出数组总和
-2. 如果总和模2不为0，返回false
-3. 01背包，计算取出的物品能否满足体积为sum/2
+// 1. 计算出数组总和
+// 2. 如果总和模2不为0，返回false
+// 3. 01背包，计算取出的物品能否满足体积为sum/2
 
-### 一维动态规划解决01背包（经典代码模板）
+// ### 一维动态规划解决01背包（经典代码模板）
 
-cpp
+// cpp
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
@@ -28,11 +28,11 @@ public:
         return dp[V];
     }
 };
-```
+// ```
 
-javascript
+// javascript
 
-```javascript
+// ```javascript
 var canPartition = function (nums) {
     let sum = nums.reduce((prev, v) => {
         return prev + v
@@ -48,18 +48,18 @@ var canPartition = function (nums) {
     }
     return dp[target]
 };
-```
+// ```
 
-## 二维动态规划实现(不推荐，适用于初学者理解)
+// ## 二维动态规划实现(不推荐，适用于初学者理解)
 
-两个子集和相等，先求出数组总和，若总和%2==1,返回false
-然后再进行01背包求解
+// 两个子集和相等，先求出数组总和，若总和%2==1,返回false
+// 然后再进行01背包求解
 
-dp[i][j] 表示 前i个数和为j是否存在，则有状态转换方程
+// dp[i][j] 表示 前i个数和为j是否存在，则有状态转换方程
 
-`dp[i][j] = dp[i-1][j] || dp[i-1][j-nums[i]]`
+// `dp[i][j] = dp[i-1][j] || dp[i-1][j-nums[i]]`
 
-```javascript
+// ```javascript
 var canPartition = function (nums) {
     let sum = nums.reduce((pre, v) => {
         return pre + v
@@ -83,6 +83,6 @@ var canPartition = function (nums) {
     }
     return dp[nums.length - 1][sum / 2]
 };
-```
+// ```
 
-[更多题解...](https://github.com/muyids/leetcode)
+// [更多题解...](https://github.com/muyids/leetcode)

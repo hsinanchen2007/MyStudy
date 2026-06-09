@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-思路和上个题类似，只是递归时加入了List来储存当前路径元素，注意每次递归完需要将list中的当前元素值删除。其实就是DFS+回溯
+// 思路和上个题类似，只是递归时加入了List来储存当前路径元素，注意每次递归完需要将list中的当前元素值删除。其实就是DFS+回溯
 
-```
+// ```
 public List<List<Integer>> pathSum(TreeNode root, int sum) {
     List<List<Integer>> res = new ArrayList<>();
     if(root == null) return res;
@@ -21,4 +21,4 @@ private void helper(TreeNode root, int sum, List<Integer> list, List<List<Intege
     //回退
     list.remove(list.size()-1);
 }
-```
+// ```

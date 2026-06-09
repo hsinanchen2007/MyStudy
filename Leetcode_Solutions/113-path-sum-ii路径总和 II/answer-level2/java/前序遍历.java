@@ -1,6 +1,6 @@
-执行用时 :1 ms, 在所有 java 提交中击败了100.00% 的用户
-内存消耗 :37.8 MB, 在所有 java 提交中击败了79.08%的用户
-```
+// 执行用时 :1 ms, 在所有 java 提交中击败了100.00% 的用户
+// 内存消耗 :37.8 MB, 在所有 java 提交中击败了79.08%的用户
+// ```
 class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         List<List<Integer>> AL = new ArrayList();
@@ -25,4 +25,4 @@ class Solution {
         list.remove(list.size()-1);
     }
 }
-```
+// ```

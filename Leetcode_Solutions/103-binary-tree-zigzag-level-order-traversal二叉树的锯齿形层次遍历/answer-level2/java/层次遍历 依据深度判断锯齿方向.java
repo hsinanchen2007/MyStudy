@@ -1,6 +1,6 @@
-level % 2 判断锯齿方向
+// level % 2 判断锯齿方向
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,5 +34,5 @@ class Solution {
         bfs(node.right, level + 1, lists);
     }
 }
-```
+// ```
 

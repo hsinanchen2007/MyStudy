@@ -1,9 +1,9 @@
-### 解题思路
-看了大佬的讲解快慢指针，貌似python是这样实现的。
+# ### 解题思路
+# 看了大佬的讲解快慢指针，貌似python是这样实现的。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if len(nums) == 0:
@@ -17,4 +17,4 @@ class Solution:
                 i += 1
         return i+1
 
-```
+# ```

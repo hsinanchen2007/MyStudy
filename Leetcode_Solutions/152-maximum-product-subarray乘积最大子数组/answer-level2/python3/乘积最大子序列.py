@@ -1,15 +1,15 @@
-### 解题思路
-假设第`k+1`个整数`nums[k]`在最大子序列中，如`[nums[k1],nums[k2],...,nums[k],nums[k+1],...]`，那么`nums[k1]*nums[k1+1]*...*nums[k]`的乘积要么是最大正数，要么是最小负数；
+# ### 解题思路
+# 假设第`k+1`个整数`nums[k]`在最大子序列中，如`[nums[k1],nums[k2],...,nums[k],nums[k+1],...]`，那么`nums[k1]*nums[k1+1]*...*nums[k]`的乘积要么是最大正数，要么是最小负数；
 
-考虑整数数组`nums[:k]`与整数`nums[k]`的关系；
-1. 以`nums[k]`结尾的子序列的乘积要么是最大的正数，要么是最小的负数；
-2. 为了求step1中的两种情况，需要将以`nums[k-1]`结尾的子序列的乘积的最大数与最小数保存；
-3. 考虑相乘结果与`nums[k]`本身，即`max_p*nums[k], min_n*nums[k], nums[k]`，取这三个数中的最大数，最小数保存，即子序列以`nums[k]`结尾的乘积为最大正数或最大负数；
+# 考虑整数数组`nums[:k]`与整数`nums[k]`的关系；
+# 1. 以`nums[k]`结尾的子序列的乘积要么是最大的正数，要么是最小的负数；
+# 2. 为了求step1中的两种情况，需要将以`nums[k-1]`结尾的子序列的乘积的最大数与最小数保存；
+# 3. 考虑相乘结果与`nums[k]`本身，即`max_p*nums[k], min_n*nums[k], nums[k]`，取这三个数中的最大数，最小数保存，即子序列以`nums[k]`结尾的乘积为最大正数或最大负数；
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         if nums == []:
@@ -39,4 +39,4 @@ class Solution:
             max_product = max(max_product, tmp2)
             
         return max_product
-```
+# ```

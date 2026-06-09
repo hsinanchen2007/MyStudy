@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/cd2e34041a3b474e7611ea1cff8480415a771b6446779d4b15ddbafb514398f3-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/cd2e34041a3b474e7611ea1cff8480415a771b6446779d4b15ddbafb514398f3-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define DEBUG 0
 int IsPartLine(int* nums, int index)
 {
@@ -107,4 +107,4 @@ Out: 5
 In:  [5,5,5,1,1,1,5,5,5]
 Out: 1
 */
-```
+// ```

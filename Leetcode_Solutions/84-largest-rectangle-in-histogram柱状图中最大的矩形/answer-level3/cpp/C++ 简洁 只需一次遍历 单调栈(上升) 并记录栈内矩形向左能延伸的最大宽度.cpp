@@ -1,4 +1,4 @@
-```
+// ```
     int w[100010],stk[100010],tt;//栈内矩形向左最大延伸宽度 也可以理解为矩形合并成一个更宽的
     int largestRectangleArea(vector<int>& h) {
         int n = h.size(),ans = 0;
@@ -17,4 +17,4 @@
             stk[++tt] = h[i], w[tt] += width;//当前矩形向左延伸的长度
         }
         return ans;
-```
+// ```

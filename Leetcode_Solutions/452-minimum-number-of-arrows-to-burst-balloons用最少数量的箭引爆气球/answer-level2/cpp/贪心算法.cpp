@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findMinArrowShots(vector<vector<int>>& points) {
@@ -31,4 +31,4 @@ public:
         return count;
     }
 };
-```
+// ```

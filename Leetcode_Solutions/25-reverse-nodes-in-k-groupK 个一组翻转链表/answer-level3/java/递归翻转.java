@@ -1,5 +1,5 @@
-运行效率可观(1ms)，递归通病，空间消耗较大。
-```
+// 运行效率可观(1ms)，递归通病，空间消耗较大。
+// ```
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
 		int n=k;
@@ -20,5 +20,5 @@ class Solution {
 		return end;//翻转后尾结点变为头结点
     }
 }
-```
-希望能帮助到您！
+// ```
+// 希望能帮助到您！

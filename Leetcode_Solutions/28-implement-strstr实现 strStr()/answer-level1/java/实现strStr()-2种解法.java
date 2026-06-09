@@ -1,14 +1,14 @@
-欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
-几乎所有题目都会提供多种解法，真诚求star！
+// 欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// 几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：暴力破解法
+// # 解法一：暴力破解法
 
-时间复杂度是O(n1 * n2)，其中n1为字符串haystack的长度，n2为字符串needle的长度。
-空间复杂度是O(1)。
+// 时间复杂度是O(n1 * n2)，其中n1为字符串haystack的长度，n2为字符串needle的长度。
+// 空间复杂度是O(1)。
 
-执行用时；4ms，击败40.43%。消耗内存：37.2MB，击败61.27%。
+// 执行用时；4ms，击败40.43%。消耗内存：37.2MB，击败61.27%。
 
-```java
+// ```java
 public class Solution {
     public int strStr(String haystack, String needle) {
         int n1 = haystack.length(), n2 = needle.length();
@@ -32,16 +32,16 @@ public class Solution {
         return -1;
     }
 }
-```
+// ```
 
-# 解法二：KMP算法
+// # 解法二：KMP算法
 
-时间复杂度是O(n1 + n2)，其中n1为字符串haystack的长度，n2为字符串needle的长度。
-空间复杂度是O(n2)。
+// 时间复杂度是O(n1 + n2)，其中n1为字符串haystack的长度，n2为字符串needle的长度。
+// 空间复杂度是O(n2)。
 
-执行用时；11ms，击败12.12%。消耗内存：36.8MB，击败76.60%。
+// 执行用时；11ms，击败12.12%。消耗内存：36.8MB，击败76.60%。
 
-```java
+// ```java
 public class Solution {
     public int strStr(String haystack, String needle) {
         int n2;
@@ -85,4 +85,4 @@ public class Solution {
         return next;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-思路：直接原地修改nums数组，令nums[i]表示包含此元素的最大连续数列之和, 结果返回最大值即可。
-```
+// 思路：直接原地修改nums数组，令nums[i]表示包含此元素的最大连续数列之和, 结果返回最大值即可。
+// ```
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {

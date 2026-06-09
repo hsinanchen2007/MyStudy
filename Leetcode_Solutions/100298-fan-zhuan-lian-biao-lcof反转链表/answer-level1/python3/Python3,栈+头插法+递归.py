@@ -1,4 +1,4 @@
-```
+# ```
 class ListNode:
     def __init__(self, x):
         self.val = x       #数据域
@@ -53,4 +53,4 @@ class Solution:
         head.next.next= head
         head.next = None
         return p
-```
+# ```

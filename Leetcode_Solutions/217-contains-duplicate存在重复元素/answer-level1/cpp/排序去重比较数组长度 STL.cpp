@@ -1,5 +1,5 @@
-嘛算是挺偷懒的...
-```
+// 嘛算是挺偷懒的...
+// ```
 class Solution {
 public:
     bool containsDuplicate(vector<int> nums) {
@@ -9,4 +9,4 @@ public:
         return nums.size() != pre_size;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 typedef double (*ClacFunc) (double a, double b);
 #define DEBUG_PRINTF  // printf
 
@@ -85,4 +85,4 @@ bool judgePoint24(int* nums, int numsSize)
 
     return calc(tmpNums, numsSize);
 }
-```
+// ```

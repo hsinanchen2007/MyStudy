@@ -1,9 +1,9 @@
-### 解题思路
-3个...小时啊
+// ### 解题思路
+// 3个...小时啊
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define N 100000
 void store(int val, char* res) {
     // 获取res当前长度
@@ -100,4 +100,4 @@ struct TreeNode* deserialize(char* data) {
 	// 通过前序&中序遍历结果生成二叉树
 	return buildTree(nums,k,nums1,k);
 }
-```
+// ```

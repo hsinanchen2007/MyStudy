@@ -1,10 +1,10 @@
-### 解题思路
-这题算是简单中的简单吧...
-不需要解题思路...
+# ### 解题思路
+# 这题算是简单中的简单吧...
+# 不需要解题思路...
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
         if n < 1: return []
@@ -17,4 +17,4 @@ class Solution:
                 ans = str(i)
             A.append(ans)
         return A
-```
+# ```

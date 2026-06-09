@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-通过寻找最大公因数的方法来解决（有点长篇大论了哈哈）
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 通过寻找最大公因数的方法来解决（有点长篇大论了哈哈）
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mcp(self,Str): # 用来获得最小公共部分的方法（即找到字符串中最小的连接体）:
         Common = False
@@ -45,4 +45,4 @@ class Solution:
             return min_str1*max_times #（即为字符串的最大公因子）
         else:
             return ''
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-快慢指针。
-![捕获.PNG](https://pic.leetcode-cn.com/f21fdc79cfbb3981fc9b89e203e5b30544499642706f57e33adba021b9ca6441-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 此处撰写解题思路
+// 快慢指针。
+// ![捕获.PNG](https://pic.leetcode-cn.com/f21fdc79cfbb3981fc9b89e203e5b30544499642706f57e33adba021b9ca6441-%E6%8D%95%E8%8E%B7.PNG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ public:
 
     }
 };
-```
+// ```

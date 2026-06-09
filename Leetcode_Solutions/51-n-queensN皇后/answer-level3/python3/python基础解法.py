@@ -1,9 +1,9 @@
-### 解题思路
-主要是使用dfs的思想来做这道题，具体的思路可以看注释
+# ### 解题思路
+# 主要是使用dfs的思想来做这道题，具体的思路可以看注释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         ans = list()
@@ -34,4 +34,4 @@ class Solution:
         # 从第0行开始搜
         dfs(0)
         return ans
-```
+# ```

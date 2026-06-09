@@ -1,4 +1,4 @@
-```
+// ```
 public List<Integer> majorityElement(int[] nums) {
         Arrays.sort(nums);
         int count = nums.length/3;
@@ -16,4 +16,4 @@ public List<Integer> majorityElement(int[] nums) {
         }
         return res;
     }
-```
+// ```

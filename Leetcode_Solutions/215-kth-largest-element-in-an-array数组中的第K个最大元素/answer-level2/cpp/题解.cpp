@@ -1,12 +1,12 @@
-### 解题思路
-利用一个堆来实现一个优先队列。
-build_max函数来建堆
-heapify函数用来维护堆
-max函数用来返回头元素之后，调用heapify函数
+// ### 解题思路
+// 利用一个堆来实现一个优先队列。
+// build_max函数来建堆
+// heapify函数用来维护堆
+// max函数用来返回头元素之后，调用heapify函数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -51,4 +51,4 @@ public:
     }
 };
 
-```
+// ```

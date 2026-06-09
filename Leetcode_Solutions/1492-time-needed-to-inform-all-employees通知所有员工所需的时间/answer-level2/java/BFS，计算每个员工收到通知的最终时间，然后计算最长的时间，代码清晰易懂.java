@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-要先把每个员工的直属下属找到，并存起来，不然的话，最后从manager中去找的话会超时
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 要先把每个员工的直属下属找到，并存起来，不然的话，最后从manager中去找的话会超时
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
         Queue<Integer> queue = new LinkedList<>();
@@ -45,4 +45,4 @@ class Solution {
         return maxTime;
     }
 }
-```
+// ```

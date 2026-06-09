@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-8 ms
-, 在所有 Java 提交中击败了
-89.77%
-的用户
-内存消耗 :
-39.2 MB
-, 在所有 Java 提交中击败了
-51.67%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 8 ms
+// , 在所有 Java 提交中击败了
+// 89.77%
+// 的用户
+// 内存消耗 :
+// 39.2 MB
+// , 在所有 Java 提交中击败了
+// 51.67%
+// 的用户
+// ```
 class Solution {
     public boolean isPalindrome(String s) {
         int len = s.length();
@@ -61,4 +61,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

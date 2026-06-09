@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 func threeSumClosest(nums []int, target int) int {
     //排序
     sort.Ints(nums)
@@ -34,4 +34,4 @@ func abs(a int)int{
     return -a
 }
 
-```
+// ```

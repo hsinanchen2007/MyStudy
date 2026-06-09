@@ -1,7 +1,7 @@
-解法1:可以用String 的 replaceAll
-解法2:遍历字符串,判断是否是 '.' 如果是,拼接'[.]',如果不是则拼接原字符
+// 解法1:可以用String 的 replaceAll
+// 解法2:遍历字符串,判断是否是 '.' 如果是,拼接'[.]',如果不是则拼接原字符
 
-```
+// ```
     private final String STR = "[.]";
     public String defangIPaddr(String address) {
         StringBuilder sb = new StringBuilder();
@@ -15,4 +15,4 @@
         }
         return sb.toString();
     }
-```
+// ```

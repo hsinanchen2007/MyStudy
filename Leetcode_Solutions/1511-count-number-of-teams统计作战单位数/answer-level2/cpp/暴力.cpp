@@ -1,5 +1,5 @@
-暴力，双百。周赛的时候一直在找最大子序列，想错了。
-```
+// 暴力，双百。周赛的时候一直在找最大子序列，想错了。
+// ```
 class Solution {
 public:
     int numTeams(vector<int>& rating) {
@@ -30,4 +30,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

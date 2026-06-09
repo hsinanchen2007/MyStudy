@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int maxEqualRowsAfterFlips(int[][] matrix) {
         int ans = 0;
@@ -35,4 +35,4 @@ class Solution {
     }
 
 }
-```
+// ```

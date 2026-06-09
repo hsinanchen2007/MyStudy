@@ -1,23 +1,23 @@
-[198_打家劫舍 题解](https://github.com/luo-rong/LeetCode/tree/master/src/_198_HouseRobber) / [GitHub 持续更新](https://github.com/luo-rong/LeetCode)
+// [198_打家劫舍 题解](https://github.com/luo-rong/LeetCode/tree/master/src/_198_HouseRobber) / [GitHub 持续更新](https://github.com/luo-rong/LeetCode)
 
-1. 方法1：动态规划+数组记忆（最容易理解）
-    1. `robNums[x, y]`：「目前待处理的房间为x，上一个偷窃的房间为y」的偷窃最高金额。当前有两种决策（取较大值作为结果）：
-        1. 若上一个偷窃房间与x不相邻，可偷窃房间x，则「上一个偷窃房间」更新为y，当前偷窃金额为`robNums[x - 1, x] + nums[x]`
-        2. 不偷窃房间x，当前偷窃金额为`robNums[x - 1, y]`
-    2. 动规方程：`robNums[x, y] = max{robNums[x - 1, y], robNums[x - 1, x] + nums[x] (y - x > 1)}`
-    3. tips：初始值`y = nums.length + 1`，方便处理且不影响计算
-2. 方法2：
-    1. `robNums[x]`：「当前房间为x」的偷窃最高金额。当前有两种决策（取较大值作为结果）：
-        1. 偷窃房间x（则不能偷取x-1房间），取x-2房间的偷窃最高金额加上当前房间金额`robNums[x - 2] + nums[x]`
-        2. 不偷窃房间x，当前偷窃金额为`robNums[x - 1]`
-    2. 动规方程：`robNums[x] = Math.max(robNums[x - 1], robNums[x - 2] + nums[x])`
-    3. 方法正确性：房间x的偷窃金额/状态仅受x-1和x-2房间影响
-        1. 无论`robNums[x-2]`存放的是「偷窃房间x-2」的值或「不偷窃房间x-2」的值，都不影响`robNums[x]`的决策正确性
-        2. 若`robNums[x-1]`存放的是「偷窃房间x-1」的值，则因为x-1和x房间相邻，故不会同时偷窃两个房间；若存放的是「不偷窃房间x-1」的值，即和`robNums[x-2]`的值相同，决策结果必然为「取`robNums[x-2]`的值，偷窃房间x」
-        3. 1和2两点可保证决策符合条件（即正确性），在决策正确的基础上每次取较大值，则保证得到正确的「偷窃到的最高金额」
-3. 方法3：[@Ikaruga](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga/)
+// 1. 方法1：动态规划+数组记忆（最容易理解）
+//     1. `robNums[x, y]`：「目前待处理的房间为x，上一个偷窃的房间为y」的偷窃最高金额。当前有两种决策（取较大值作为结果）：
+//         1. 若上一个偷窃房间与x不相邻，可偷窃房间x，则「上一个偷窃房间」更新为y，当前偷窃金额为`robNums[x - 1, x] + nums[x]`
+//         2. 不偷窃房间x，当前偷窃金额为`robNums[x - 1, y]`
+//     2. 动规方程：`robNums[x, y] = max{robNums[x - 1, y], robNums[x - 1, x] + nums[x] (y - x > 1)}`
+//     3. tips：初始值`y = nums.length + 1`，方便处理且不影响计算
+// 2. 方法2：
+//     1. `robNums[x]`：「当前房间为x」的偷窃最高金额。当前有两种决策（取较大值作为结果）：
+//         1. 偷窃房间x（则不能偷取x-1房间），取x-2房间的偷窃最高金额加上当前房间金额`robNums[x - 2] + nums[x]`
+//         2. 不偷窃房间x，当前偷窃金额为`robNums[x - 1]`
+//     2. 动规方程：`robNums[x] = Math.max(robNums[x - 1], robNums[x - 2] + nums[x])`
+//     3. 方法正确性：房间x的偷窃金额/状态仅受x-1和x-2房间影响
+//         1. 无论`robNums[x-2]`存放的是「偷窃房间x-2」的值或「不偷窃房间x-2」的值，都不影响`robNums[x]`的决策正确性
+//         2. 若`robNums[x-1]`存放的是「偷窃房间x-1」的值，则因为x-1和x房间相邻，故不会同时偷窃两个房间；若存放的是「不偷窃房间x-1」的值，即和`robNums[x-2]`的值相同，决策结果必然为「取`robNums[x-2]`的值，偷窃房间x」
+//         3. 1和2两点可保证决策符合条件（即正确性），在决策正确的基础上每次取较大值，则保证得到正确的「偷窃到的最高金额」
+// 3. 方法3：[@Ikaruga](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga/)
 
-```java
+// ```java
 // 方法1
 public class HouseRobber {
     private int[] nums;
@@ -44,9 +44,9 @@ public class HouseRobber {
         return robNums(nums.length - 1, nums.length + 1);
     }
 }
-```
+// ```
 
-```java
+// ```java
 // 方法2
 public class HouseRobber {
     public int rob(int[] nums) {
@@ -62,9 +62,9 @@ public class HouseRobber {
         return robNums[nums.length - 1];
     }
 }
-```
+// ```
 
-```java
+// ```java
 // 方法3
 public class HouseRobber {
     public int rob(int[] nums) {
@@ -81,4 +81,4 @@ public class HouseRobber {
         return Math.max(sumEven, sumOdd);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minCost(self, costs: List[List[int]]) -> int:
         R=B=G=0
@@ -8,9 +8,9 @@ class Solution:
             ng=g+min(B,R)
             R,B,G=nr,nb,ng
         return min(R,B,G)
-```
-不清楚的话看O(n)版本：
-```
+# ```
+# 不清楚的话看O(n)版本：
+# ```
 class Solution:
     def minCost(self, costs: List[List[int]]) -> int:
         R,B,G=[0],[0],[0]
@@ -21,4 +21,4 @@ class Solution:
             R,B,G=R+[nr],B+[nb],G+[ng]
             # print(R,B,G)
         return min(R[-1],B[-1],G[-1])
-```
+# ```

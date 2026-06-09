@@ -1,6 +1,6 @@
-转换为分钟，排序后相邻的计算，最后计算首尾两个数值的计算。
+// 转换为分钟，排序后相邻的计算，最后计算首尾两个数值的计算。
 
-```
+// ```
 private int parse(String str) {
         String[] times = str.split(":");
         String hour = times[0];
@@ -31,4 +31,4 @@ private int parse(String str) {
         
         return min;
     }
-```
+// ```

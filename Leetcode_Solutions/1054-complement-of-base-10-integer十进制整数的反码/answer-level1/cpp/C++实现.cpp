@@ -1,9 +1,9 @@
-### 解题思路
-这个代码也够短了啊
+// ### 解题思路
+// 这个代码也够短了啊
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int bitwiseComplement(int N)
@@ -15,4 +15,4 @@ public:
     }
 };
 
-```
+// ```

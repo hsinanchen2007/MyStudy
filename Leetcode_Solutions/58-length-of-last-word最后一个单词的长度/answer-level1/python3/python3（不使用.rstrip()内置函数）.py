@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
 
@@ -18,4 +18,4 @@ class Solution:
                 return(len(s)-i-1)
         
         return len(s)    # 如果没有查找到空格就输出整个字符串长度
-```
+# ```

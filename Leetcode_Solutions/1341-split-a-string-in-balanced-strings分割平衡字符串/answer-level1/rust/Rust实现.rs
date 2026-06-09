@@ -1,12 +1,12 @@
-### 运行结果
-![image.png](https://pic.leetcode-cn.com/efaf954ed642c1d2eb83c9f1a6c3e1f36452b5ff4fb7c56724ff85c1e91264e1-image.png)
+// ### 运行结果
+// ![image.png](https://pic.leetcode-cn.com/efaf954ed642c1d2eb83c9f1a6c3e1f36452b5ff4fb7c56724ff85c1e91264e1-image.png)
 
-### 解题思路
-None
+// ### 解题思路
+// None
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn balanced_string_split(s: String) -> i32 {
         let mut count = 0i32;
@@ -30,4 +30,4 @@ impl Solution {
         (count)
     }
 }
-```
+// ```

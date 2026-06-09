@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class Solution {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
         if(n==1) {
@@ -43,5 +43,5 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 

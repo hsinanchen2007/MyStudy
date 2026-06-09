@@ -1,9 +1,9 @@
-### 解题思路
-同大多数大佬一样用mutex+condition variable;
-不能把x作函数内循环自增数，会超时。。。。。虽然还不懂为什么，但是略过了
-### 代码
+// ### 解题思路
+// 同大多数大佬一样用mutex+condition variable;
+// 不能把x作函数内循环自增数，会超时。。。。。虽然还不懂为什么，但是略过了
+// ### 代码
 
-```cpp
+// ```cpp
 class ZeroEvenOdd {
 private:
 public:
@@ -53,4 +53,4 @@ public:
         }
     }
 };
-```
+// ```

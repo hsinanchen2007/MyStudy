@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isRectangleOverlap(self, A: int, B: int, C: int, D: int, E: int, F: int, G: int, H: int) -> bool:#转为x与y轴上的线段判断
         return (min(C, G) > max(A, E) and min(D, H) > max(B, F))
@@ -10,8 +10,8 @@ class Solution:
         else:
             sum = s1 + s2
         return sum
-```
-```
+# ```
+# ```
 class Solution {
     public int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
         int l1 = Math.min(G, C);
@@ -32,4 +32,4 @@ class Solution {
         return sum;
     }
 }
-```
+# ```

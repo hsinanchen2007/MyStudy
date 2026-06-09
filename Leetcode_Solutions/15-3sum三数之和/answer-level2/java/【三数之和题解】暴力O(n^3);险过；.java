@@ -1,9 +1,9 @@
-### 解题思路
-暴力O(n^3);险过；
+// ### 解题思路
+// 暴力O(n^3);险过；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Set<List<Integer>> res = new HashSet<List<Integer>>();
@@ -36,4 +36,4 @@ class Solution {
         return resList;
     }
 }
-```
+// ```

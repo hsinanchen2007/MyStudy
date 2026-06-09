@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String shortestCompletingWord(String licensePlate, String[] words) {
         String ans = null;
@@ -31,4 +31,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

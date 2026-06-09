@@ -1,6 +1,6 @@
-上一题基础代码基础上加几个限制即可。
+# 上一题基础代码基础上加几个限制即可。
 
-```
+# ```
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         List = []
@@ -28,4 +28,4 @@ class Solution:
             if i not in List1:
                 List1.append(i)
         return List1
-```
+# ```

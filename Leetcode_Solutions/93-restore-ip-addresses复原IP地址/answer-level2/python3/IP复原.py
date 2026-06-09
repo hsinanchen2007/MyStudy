@@ -1,9 +1,9 @@
-### 解题思路
-思想是：ip四段，确定第一段，然后二段，三段、四段随机匹配，每一次判断都要判其是否合法ip段，最后用result拼接结果
+# ### 解题思路
+# 思想是：ip四段，确定第一段，然后二段，三段、四段随机匹配，每一次判断都要判其是否合法ip段，最后用result拼接结果
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     def restoreIpAddresses(self, s: str):
@@ -32,4 +32,4 @@ class Solution:
                         continue
                     result.append(w1 + "." + w2 + "." + w3 + "." + w4)
         return result
-```
+# ```

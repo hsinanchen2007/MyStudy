@@ -1,8 +1,8 @@
-## 思路一：BFS
-### 代码
-时间复杂度：O(r * c)，因为每个节点只会加入队列一次，不会多次加入。
-空间复杂度：O(r * c)
-```c++
+// ## 思路一：BFS
+// ### 代码
+// 时间复杂度：O(r * c)，因为每个节点只会加入队列一次，不会多次加入。
+// 空间复杂度：O(r * c)
+// ```c++
 class Solution {
 public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& matrix) {                
@@ -35,13 +35,13 @@ public:
         return dist;
     }
 };
-```
+// ```
 
-## 思路二：动态规划
-### 代码
-时间复杂度：O(r * c)，两遍扫描
-空间复杂度：O(r * c)
-```c++
+// ## 思路二：动态规划
+// ### 代码
+// 时间复杂度：O(r * c)，两遍扫描
+// 空间复杂度：O(r * c)
+// ```c++
 class Solution {
 public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& matrix) {                
@@ -68,4 +68,4 @@ public:
         return dist;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-1.构造数组
-2.初始化所有地址值
-3.排序
-4.遍历求重复的点即为返回值
-```
+// 1.构造数组
+// 2.初始化所有地址值
+// 3.排序
+// 4.遍历求重复的点即为返回值
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -70,4 +70,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     data = NULL;
     return NULL;
 }
-```
+// ```

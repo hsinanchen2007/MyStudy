@@ -1,6 +1,6 @@
-java 最搓实现
+// java 最搓实现
 
-```
+// ```
 class Solution {
     public int maximum69Number (int num) {
         String numStr = String.valueOf(num);
@@ -14,4 +14,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

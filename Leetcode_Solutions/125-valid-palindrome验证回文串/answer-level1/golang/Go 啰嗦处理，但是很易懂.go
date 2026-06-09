@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-- 首先预处理字符串，把非字符和数字都去除掉，并把大写字母处理为小写字母
-- 随后使用哦双指针，进行左右比较
+// - 首先预处理字符串，把非字符和数字都去除掉，并把大写字母处理为小写字母
+// - 随后使用哦双指针，进行左右比较
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func prepare(s string) []byte {
 	newStr := make([]byte, 0, len(s))
 	for i := 0; i < len(s); i++ {
@@ -40,4 +40,4 @@ func isPalindrome(s string) bool {
 	}
 	return true
 }
-```
+// ```

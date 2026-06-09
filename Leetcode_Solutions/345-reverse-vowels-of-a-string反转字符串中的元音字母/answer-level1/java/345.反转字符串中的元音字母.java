@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String reverseVowels(String s) {
         HashSet<Character>set=new HashSet<>();
@@ -22,4 +22,4 @@ class Solution {
 	return new String(ch);		
     }
 }
-```
+// ```

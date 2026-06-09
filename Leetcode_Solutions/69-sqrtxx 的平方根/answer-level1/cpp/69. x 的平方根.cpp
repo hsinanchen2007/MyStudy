@@ -1,8 +1,8 @@
-## 牛顿迭代法
-**牛顿迭代法用来求单调函数零点的近似值**
-![牛顿迭代法.png](https://pic.leetcode-cn.com/79c736088e5633991c8517a5504c408dea54812a57f3c9a603b13d5c9a6ce25d-%E7%89%9B%E9%A1%BF%E8%BF%AD%E4%BB%A3%E6%B3%95.png)
-*图是我偷来的，侵删*
-```
+// ## 牛顿迭代法
+// **牛顿迭代法用来求单调函数零点的近似值**
+// ![牛顿迭代法.png](https://pic.leetcode-cn.com/79c736088e5633991c8517a5504c408dea54812a57f3c9a603b13d5c9a6ce25d-%E7%89%9B%E9%A1%BF%E8%BF%AD%E4%BB%A3%E6%B3%95.png)
+// *图是我偷来的，侵删*
+// ```
 class Solution {
 public:
     int mySqrt(int y0) {
@@ -13,11 +13,11 @@ public:
         return (int)x;
     }
 };
-```
+// ```
 
 
-## 二分法
-```
+// ## 二分法
+// ```
 class Solution {
 public:
     int mySqrt(int x) {
@@ -36,10 +36,10 @@ public:
         return left - 1;
     }
 };
-```
+// ```
 
-## 暴力法
-```
+// ## 暴力法
+// ```
 class Solution {
 public:
     int mySqrt(int x) {
@@ -51,4 +51,4 @@ public:
         return i-1;
     }
 };
-```
+// ```

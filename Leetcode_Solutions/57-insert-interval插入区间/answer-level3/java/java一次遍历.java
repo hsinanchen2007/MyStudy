@@ -1,9 +1,9 @@
-### 解题思路
-借鉴id为 我不是混子 的解法，java完成
+// ### 解题思路
+// 借鉴id为 我不是混子 的解法，java完成
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         //如果区间为空，则直接返回新区间
@@ -37,4 +37,4 @@ class Solution {
        return list.toArray(new int[list.size()][]);
     }
 }
-```
+// ```

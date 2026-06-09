@@ -1,11 +1,11 @@
-### 解题思路
-广度优先搜索（二叉树的层次遍历）；
-时间复杂度：O（nlogn）
-空间复杂度：O(n)
+// ### 解题思路
+// 广度优先搜索（二叉树的层次遍历）；
+// 时间复杂度：O（nlogn）
+// 空间复杂度：O(n)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -30,4 +30,4 @@ var levelOrder = function(root) {
         }
     }return result;
 };
-```
+// ```

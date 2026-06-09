@@ -1,9 +1,9 @@
-### 解题思路
-深度优先遍历，每次dfs就是把当前点变成0
+// ### 解题思路
+// 深度优先遍历，每次dfs就是把当前点变成0
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} grid
  * @return {number}
@@ -27,4 +27,4 @@ var numIslands = function(grid) {
     }
     return count
 };
-```
+// ```

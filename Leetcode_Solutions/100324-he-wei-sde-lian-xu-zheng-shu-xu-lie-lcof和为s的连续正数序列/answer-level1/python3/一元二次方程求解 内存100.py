@@ -1,5 +1,5 @@
-# 1.对于一个公差为1的等差数列，已知数量n ,可用公式 target=n*a1+n*(n-1)/2,求得a1
-```
+# # 1.对于一个公差为1的等差数列，已知数量n ,可用公式 target=n*a1+n*(n-1)/2,求得a1
+# ```
  math import sqrt
 
 
@@ -17,4 +17,4 @@ class Solution:
             if int(n)==n:
                 ls.append([x + a1 for x in range(int(n))])
         return ls 
-```
+# ```

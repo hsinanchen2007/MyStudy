@@ -1,10 +1,10 @@
-### 解题思路
-1.把长的链表的数字直接接在短的联表后面
-2.判断进位的情况，极端的如1+9999999的情况，需要一直进位
+// ### 解题思路
+// 1.把长的链表的数字直接接在短的联表后面
+// 2.判断进位的情况，极端的如1+9999999的情况，需要一直进位
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     	ListNode head1 = l1;
@@ -57,4 +57,4 @@ class Solution {
     	return head1;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用DFS,BFS和并查集都可以做题，此处使用并查集
+// ### 解题思路
+// 使用DFS,BFS和并查集都可以做题，此处使用并查集
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct{
     int size;
     int parent;
@@ -65,4 +65,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
     }
     return ans+2;
 }
-```
+// ```

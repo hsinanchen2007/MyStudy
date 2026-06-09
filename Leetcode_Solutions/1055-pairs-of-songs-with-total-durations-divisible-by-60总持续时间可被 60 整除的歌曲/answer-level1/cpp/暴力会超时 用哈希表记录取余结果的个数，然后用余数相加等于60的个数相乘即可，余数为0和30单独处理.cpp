@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numPairsDivisibleBy60(vector<int>& time) {
@@ -16,6 +16,6 @@ public:
         return cnt;
     }
 };
-```
-执行用时 :28 ms, 在所有 C++ 提交中击败了93.44%的用户
-内存消耗 :23.4 MB, 在所有 C++ 提交中击败了5.03%的用户
+// ```
+// 执行用时 :28 ms, 在所有 C++ 提交中击败了93.44%的用户
+// 内存消耗 :23.4 MB, 在所有 C++ 提交中击败了5.03%的用户

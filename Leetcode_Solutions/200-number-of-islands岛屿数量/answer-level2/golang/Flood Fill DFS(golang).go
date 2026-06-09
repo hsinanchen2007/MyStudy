@@ -1,9 +1,9 @@
-### 解题思路
-Flood Fill DFS
+// ### 解题思路
+// Flood Fill DFS
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numIslands(grid [][]byte) int {
 	if len(grid) == 0 {
 		return 0
@@ -28,4 +28,4 @@ func dfs(grid [][]byte, m, n, i, j int) int {
 	dfs(grid, m, n, i, j+1)
 	return 1
 }
-```
+// ```

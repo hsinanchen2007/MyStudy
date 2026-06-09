@@ -1,9 +1,9 @@
-### 解题思路
-暴力+枚举，代码如下
+// ### 解题思路
+// 暴力+枚举，代码如下
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn find_continuous_sequence(target: i32) -> Vec<Vec<i32>> {
         let mut ans = vec![];
@@ -25,4 +25,4 @@ impl Solution {
         ans
     }
 }
-```
+// ```

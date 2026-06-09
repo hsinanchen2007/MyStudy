@@ -1,9 +1,9 @@
-### 解题思路
-转化为在两个数组中找第 K 个小的数 
+// ### 解题思路
+// 转化为在两个数组中找第 K 个小的数 
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
         let lenght_n = nums1.count
@@ -48,4 +48,4 @@ class Solution {
         }
     }
 }
-```
+// ```

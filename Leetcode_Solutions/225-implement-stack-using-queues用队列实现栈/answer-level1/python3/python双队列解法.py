@@ -1,9 +1,9 @@
-### 解题思路
-两个队列，进队直接压入， 出栈转一圈，inqueue出队列到outqueue直到只剩最后一个数值，进行操作后,再把outqueue压入inqueue
+# ### 解题思路
+# 两个队列，进队直接压入， 出栈转一圈，inqueue出队列到outqueue直到只剩最后一个数值，进行操作后,再把outqueue压入inqueue
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -59,4 +59,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

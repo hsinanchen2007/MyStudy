@@ -1,5 +1,5 @@
-暴力遍历
-```
+// 暴力遍历
+// ```
 func findRightInterval(intervals [][]int) []int {
     r := []int{}
     for i := 0; i< len(intervals); i++ {
@@ -19,4 +19,4 @@ func findRightInterval(intervals [][]int) []int {
     }
     return r
 }
-```
+// ```

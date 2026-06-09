@@ -1,8 +1,8 @@
-## 思路一：递归
-### 代码
-时间复杂度：O(n)，每个节点访问一次
-空间复杂度：O(logn)，树的高度
-```c++
+// ## 思路一：递归
+// ### 代码
+// 时间复杂度：O(n)，每个节点访问一次
+// 空间复杂度：O(logn)，树的高度
+// ```c++
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -14,11 +14,11 @@ public:
         return 1 + max(left, right);
     }
 };
-```
+// ```
 
-## 思路二：迭代（层次遍历）
-### 代码
-```c++
+// ## 思路二：迭代（层次遍历）
+// ### 代码
+// ```c++
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -47,10 +47,10 @@ public:
         return res;
     }
 };
-```
-### 另一种写法
-使用队列大小。
-```c++
+// ```
+// ### 另一种写法
+// 使用队列大小。
+// ```c++
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -70,6 +70,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
 

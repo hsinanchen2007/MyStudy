@@ -1,39 +1,39 @@
-# 29 - 二叉树的层次遍历2
+// # 29 - 二叉树的层次遍历2
 
-## 题目
+// ## 题目
 
-给定一个二叉树，返回其节点值自底向上的层次遍历。 （即按从叶子节点所在层到根节点所在的层，逐层从左向右遍历）
+// 给定一个二叉树，返回其节点值自底向上的层次遍历。 （即按从叶子节点所在层到根节点所在的层，逐层从左向右遍历）
 
-例如：
-给定二叉树 [3,9,20,null,null,15,7],
+// 例如：
+// 给定二叉树 [3,9,20,null,null,15,7],
 
->     ​	3
->    ​	/ \
->   9     20
->     ​	 /      \	
->    ​	15     7
+// >     ​	3
+// >    ​	/ \
+// >   9     20
+// >     ​	 /      \	
+// >    ​	15     7
 
-返回其自底向上的层次遍历为：
+// 返回其自底向上的层次遍历为：
 
-> [
->   [15,7],
->   [9,20],
->   [3]
-> ]
+// > [
+// >   [15,7],
+// >   [9,20],
+// >   [3]
+// > ]
 
-## 解答
+// ## 解答
 
-一开始的思路是，一层层pop出来，同一层的放在一个数组里面，最后reverse一下
+// 一开始的思路是，一层层pop出来，同一层的放在一个数组里面，最后reverse一下
 
-思路是有了，就是写了半天写不出来。心想这还简单难度呢？
+// 思路是有了，就是写了半天写不出来。心想这还简单难度呢？
 
-结果是要先把层次遍历的1写完，然后2就reverse一下。。。。
+// 结果是要先把层次遍历的1写完，然后2就reverse一下。。。。
 
-那自然是简单的很了！1可是中等难度呢！
+// 那自然是简单的很了！1可是中等难度呢！
 
-### 迭代
+// ### 迭代
 
-```js
+// ```js
 var levelOrderBottom = function (root) {
   if (!root) {
     return []
@@ -60,15 +60,15 @@ var levelOrderBottom = function (root) {
   }
   return result.reverse()
 };
-```
+// ```
 
-> Runtime: 68 ms, faster than 20.69% of JavaScript online submissions for Binary Tree Level Order Traversal II.
->
-> Memory Usage: 34.9 MB, less than 66.05% of JavaScript online submissions for Binary Tree Level Order Traversal II.
+// > Runtime: 68 ms, faster than 20.69% of JavaScript online submissions for Binary Tree Level Order Traversal II.
+// >
+// > Memory Usage: 34.9 MB, less than 66.05% of JavaScript online submissions for Binary Tree Level Order Traversal II.
 
-### 递归
+// ### 递归
 
-```js
+// ```js
 var levelOrderBottom = function (root) {
   if (!root) {
     return []
@@ -84,8 +84,8 @@ var levelOrderBottom = function (root) {
   traverse(root, 0);
   return result.reverse();
 };
-```
+// ```
 
-> Runtime: 68 ms, faster than 20.69% of JavaScript online submissions for Binary Tree Level Order Traversal II.
->
-> Memory Usage: 34.8 MB, less than 95.06% of JavaScript online submissions for Binary Tree Level Order Traversal II.
+// > Runtime: 68 ms, faster than 20.69% of JavaScript online submissions for Binary Tree Level Order Traversal II.
+// >
+// > Memory Usage: 34.8 MB, less than 95.06% of JavaScript online submissions for Binary Tree Level Order Traversal II.

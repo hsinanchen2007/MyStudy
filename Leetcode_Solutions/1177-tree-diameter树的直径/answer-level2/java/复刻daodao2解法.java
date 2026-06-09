@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     List<List<Integer>> graph=new LinkedList<>();
     int[] father;
@@ -51,4 +51,4 @@ class Solution {
 }
 [@daodao-2](/u/daodao-2/)
 [https://www.bilibili.com/video/av74372530]
-```
+// ```

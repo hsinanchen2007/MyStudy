@@ -1,6 +1,6 @@
 
-时间复杂度 O(n)
-```
+// 时间复杂度 O(n)
+// ```
 /**
  * @param {string} s
  * @return {boolean}
@@ -20,4 +20,4 @@ var isPalindrome = function(s) {
     }
     return true
 };
-```
+// ```

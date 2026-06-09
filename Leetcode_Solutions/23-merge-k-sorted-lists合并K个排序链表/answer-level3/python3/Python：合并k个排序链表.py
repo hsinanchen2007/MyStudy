@@ -1,10 +1,10 @@
-### 解题思路
-利用Python的logn的sort直接对所有元素排序
-其他方法还有很多，头疼，不想了，Python这个应该klogn的时间复杂度，不算差的，但是kn的空间复杂度，肯定是比较差的
+# ### 解题思路
+# 利用Python的logn的sort直接对所有元素排序
+# 其他方法还有很多，头疼，不想了，Python这个应该klogn的时间复杂度，不算差的，但是kn的空间复杂度，肯定是比较差的
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             node.next = ListNode(i)
             node = node.next
         return head.next
-```
+# ```

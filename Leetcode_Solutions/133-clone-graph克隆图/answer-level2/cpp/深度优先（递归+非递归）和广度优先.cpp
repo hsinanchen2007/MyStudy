@@ -1,5 +1,5 @@
-## 深度优先(stack+unordered_map)
-```cpp
+// ## 深度优先(stack+unordered_map)
+// ```cpp
     Node* cloneGraphDfs(Node* node)
 	{
 		if (!node) return nullptr;
@@ -20,9 +20,9 @@
 		}
 		return mp[node];
 	}
-```
-## 广度优先(queue+unordered_map)
-```cpp
+// ```
+// ## 广度优先(queue+unordered_map)
+// ```cpp
     Node* cloneGraphBfs(Node* node)
 	{
 		if (!node) return nullptr;
@@ -43,9 +43,9 @@
 		}
 		return mp[node];
 	}
-```
-## 深度优先(递归+unordered_map)
-```cpp
+// ```
+// ## 深度优先(递归+unordered_map)
+// ```cpp
     unordered_map<Node*, Node*>mp;
 	Node* cloneGraphDfsRecur(Node* node) {
 		if (!node) return nullptr;
@@ -57,4 +57,4 @@
 		}
 		return mp[node];
 	}
-```
+// ```

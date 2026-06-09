@@ -1,9 +1,9 @@
-### 解题思路
-引入指向第一个元素的头指针
+// ### 解题思路
+// 引入指向第一个元素的头指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ struct ListNode* reverseList(struct ListNode* head){
     }
     return p->next;
 }
-```
+// ```

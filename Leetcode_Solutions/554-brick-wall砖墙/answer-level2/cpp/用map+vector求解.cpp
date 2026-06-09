@@ -1,13 +1,13 @@
-### 解题思路
-解法效率低了一点，但是思路很明确
-1. 获取墙的宽度lineWidth
-2. 遍历计算每一层墙缝的位置
-3. 把所有缝的位置都存到map中，key=缝的位置，value等于缝出现的次数
-4. 找出value最大值，用层数减掉缝出现最多的次数，就是穿过的转投个数
+// ### 解题思路
+// 解法效率低了一点，但是思路很明确
+// 1. 获取墙的宽度lineWidth
+// 2. 遍历计算每一层墙缝的位置
+// 3. 把所有缝的位置都存到map中，key=缝的位置，value等于缝出现的次数
+// 4. 找出value最大值，用层数减掉缝出现最多的次数，就是穿过的转投个数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int leastBricks(vector<vector<int>>& wall) {
@@ -43,4 +43,4 @@ public:
         return linesNum - maxNum;   
     }
 };
-```
+// ```

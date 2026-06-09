@@ -1,4 +1,4 @@
-定义计数count,递归访问二叉树结点，如果二叉树节点不为null则计数++。
+// 定义计数count,递归访问二叉树结点，如果二叉树节点不为null则计数++。
 int x=[]{
      std::ios::sync_with_stdio(false);
      cin.tie(0);

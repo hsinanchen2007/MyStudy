@@ -1,9 +1,9 @@
-分别从数组1、2中取0-k个最大的数 dp[i]=dp[i+1].RemoveFirstLeftMinRight() {7,5,6,3},移除5得到 {7,6,3}
-比较max((0,k)、(1,k-1)...(k,0))哪个最大
-C#,JavaScript(C#翻译的),目前表现还可以
+// 分别从数组1、2中取0-k个最大的数 dp[i]=dp[i+1].RemoveFirstLeftMinRight() {7,5,6,3},移除5得到 {7,6,3}
+// 比较max((0,k)、(1,k-1)...(k,0))哪个最大
+// C#,JavaScript(C#翻译的),目前表现还可以
 
-C# 
-```
+// C# 
+// ```
 public class Solution {
     //get 0 from a ,get k from b
     //get 1 from a ,get k-1 from b
@@ -214,10 +214,10 @@ public class Solution {
         return nums1.Length - i - (nums2.Length - j) > 0;
     }
 }
-```
+// ```
 
-JavaScript(根据C#翻译的)
-```
+// JavaScript(根据C#翻译的)
+// ```
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -393,4 +393,4 @@ var isNums1Bigger = function (nums1, nums2, i, j) {
 
     return nums1.length - i - (nums2.length - j) > 0;
 }
-```
+// ```

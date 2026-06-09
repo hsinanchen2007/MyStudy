@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def makesquare(self, nums: List[int]) -> bool:
         # dp + bit
@@ -28,4 +28,4 @@ class Solution:
                 if half_arr[i] & half_arr[j] == 0:
                     if (half_arr[i] | half_arr[j]) == (1 << n) - 1: return True
         return False
-```
+# ```

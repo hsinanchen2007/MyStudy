@@ -1,17 +1,17 @@
-大概思路：
+// 大概思路：
 
-为了防止头指针出现重复而要删除头指针的情况，在头指针前面设置一个伪头指针来指向头指针，所以后面就用pre->next来跟now的值进行比较；
+// 为了防止头指针出现重复而要删除头指针的情况，在头指针前面设置一个伪头指针来指向头指针，所以后面就用pre->next来跟now的值进行比较；
 
-一些条件判断：
+// 一些条件判断：
 
-如果pre->next和now的值相等就将now往后推，直到pre->next和now指向的值不同；
+// 如果pre->next和now的值相等就将now往后推，直到pre->next和now指向的值不同；
 
-在pre->next跟now指向的值不同的情况下，
+// 在pre->next跟now指向的值不同的情况下，
 
-如果pre->next的下一个是now，说明pre->next没有出现重复值，直接将pre指针往后推；
+// 如果pre->next的下一个是now，说明pre->next没有出现重复值，直接将pre指针往后推；
 
-如果下一个不是now，说明pre->next跟now之间值pre->next的重复值，直接将now赋值给pre->next以删去重复值
-```
+// 如果下一个不是now，说明pre->next跟now之间值pre->next的重复值，直接将now赋值给pre->next以删去重复值
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -46,4 +46,4 @@ public:
         return result->next;
     }
 };
-```
+// ```

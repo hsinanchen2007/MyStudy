@@ -1,8 +1,8 @@
-### 解题思路
-统计字母数量，小心奇数个字母即可
-### 代码
+# ### 解题思路
+# 统计字母数量，小心奇数个字母即可
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         co = collections.Counter(s)
@@ -17,4 +17,4 @@ class Solution:
         else:
             return count*2
 
-```
+# ```

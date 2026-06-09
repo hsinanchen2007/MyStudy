@@ -1,9 +1,9 @@
-### 解题思路
-括号配对自然想到栈操作
+// ### 解题思路
+// 括号配对自然想到栈操作
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestValidParentheses(string s) {
@@ -28,4 +28,4 @@ public:
         return res;       
     }
 };
-```
+// ```

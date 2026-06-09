@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findCircleNum(self, M: List[List[int]]) -> int:
         li=[]
@@ -29,4 +29,4 @@ class Solution:
                             li.append(m[1])
                             se.add(m[1])
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permutation(self, S: str) -> List[str]:
         # return ["".join(i) for i in itertools.permutations(S)]
@@ -19,4 +19,4 @@ class Solution:
         
         helper(S)
         return ans
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 public static int uniquePathsWithObstacles(int[][] obstacleGrid) {
         if(obstacleGrid[0][0] == 1)
             return 0;
@@ -23,5 +23,5 @@ public static int uniquePathsWithObstacles(int[][] obstacleGrid) {
         }
         return memo[col-1];
     }
-```
-注：代码编写借鉴了题目62同一方法的题解
+// ```
+// 注：代码编写借鉴了题目62同一方法的题解

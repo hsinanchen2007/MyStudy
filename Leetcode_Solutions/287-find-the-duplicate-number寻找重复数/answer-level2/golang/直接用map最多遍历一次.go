@@ -1,4 +1,4 @@
-```
+// ```
 func findDuplicate(nums []int) int {
     num := make(map[int]int)
     var i int
@@ -8,4 +8,4 @@ func findDuplicate(nums []int) int {
 	}
     return nums[i] 
 }
-```
+// ```

@@ -1,7 +1,7 @@
-- LeetCode英文网站上搜的一位大佬（Sun Josan）的写法：
-- 已通过测试，共享一下：
+// - LeetCode英文网站上搜的一位大佬（Sun Josan）的写法：
+// - 已通过测试，共享一下：
 
-```
+// ```
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -19,4 +19,4 @@ public:
 		return s;
     }
 };
-```
+// ```

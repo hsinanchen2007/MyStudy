@@ -1,6 +1,6 @@
-- 时间复杂度：O(n)
-- 空间复杂度：O(1)
-```
+// - 时间复杂度：O(n)
+// - 空间复杂度：O(1)
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -25,5 +25,5 @@ public:
         return slow;
     }
 };
-```
+// ```
 

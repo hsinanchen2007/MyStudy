@@ -1,4 +1,4 @@
-```python
+# ```python
     def numEquivDominoPairs(self, dominoes: List[List[int]]) -> int:
         count, res = {}, 0
         for a, b in dominoes:
@@ -8,4 +8,4 @@
             res += i * (i - 1)
         return res >> 1  # 最后再除以2
 
-```
+# ```

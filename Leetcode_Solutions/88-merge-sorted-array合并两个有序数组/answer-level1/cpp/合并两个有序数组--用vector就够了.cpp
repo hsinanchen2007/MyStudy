@@ -1,4 +1,4 @@
-思路：vector可以帮你把啥都做了：
+// 思路：vector可以帮你把啥都做了：
 
 class Solution {
 public:

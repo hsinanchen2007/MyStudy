@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         """
@@ -22,4 +22,4 @@ class Solution:
             elif len(stack) == 0 or stack.pop() != mapping.get(c):
                 return False
         return len(stack) == 0
-```
+# ```

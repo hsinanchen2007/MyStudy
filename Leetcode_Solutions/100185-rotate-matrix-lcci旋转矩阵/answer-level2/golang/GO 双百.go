@@ -1,9 +1,9 @@
-### 解题思路
-上下翻转+对角线翻转
+// ### 解题思路
+// 上下翻转+对角线翻转
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func rotate(matrix [][]int)  {
     n := len(matrix)
 
@@ -24,4 +24,4 @@ func Mswap(a, b *int) {
     *b ^= *a
     *a ^= *b
 }
-```
+// ```

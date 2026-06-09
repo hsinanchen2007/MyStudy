@@ -1,9 +1,9 @@
-### 解题思路
-DFS
+// ### 解题思路
+// DFS
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPartitionKSubsets(vector<int>& nums, int k) {
@@ -38,4 +38,4 @@ public:
         }
     }
 };
-```
+// ```

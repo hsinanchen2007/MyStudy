@@ -1,9 +1,9 @@
-### 解题思路
-取第一个和第二个的公共前缀，减少后面遍历的次数
+// ### 解题思路
+// 取第一个和第二个的公共前缀，减少后面遍历的次数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string}
@@ -37,4 +37,4 @@ var checkStr = function(item, str) {
   }
   return str;
 } 
-```
+// ```

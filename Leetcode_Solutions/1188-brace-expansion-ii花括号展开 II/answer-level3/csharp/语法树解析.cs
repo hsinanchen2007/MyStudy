@@ -1,13 +1,13 @@
-### 解题思路
-Root->Concate-->Union{Concate, Concate, Concate}
-通过建立虚拟节点 Concate
-保证解析简单性
+// ### 解题思路
+// Root->Concate-->Union{Concate, Concate, Concate}
+// 通过建立虚拟节点 Concate
+// 保证解析简单性
 
-LL(1)文法，带index 停滞
+// LL(1)文法，带index 停滞
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, RegAst>;
 using ST = System.ValueTuple<int, System.Collections.Generic.List<string>>;
 enum RegTType{
@@ -228,4 +228,4 @@ public class Solution {
         return rs.BraceExpansionII(expression);
     }
 }
-```
+// ```

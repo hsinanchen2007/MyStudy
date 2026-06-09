@@ -1,7 +1,7 @@
-vector<int>color(N,1)：存储颜色；
-vector<vector<int>>table(N)：存储路径对应表；
-set<int>col_set：存储当前花园可用颜色；
-```c++ []
+// vector<int>color(N,1)：存储颜色；
+// vector<vector<int>>table(N)：存储路径对应表；
+// set<int>col_set：存储当前花园可用颜色；
+// ```c++ []
 vector<int> gardenNoAdj(int N, vector<vector<int>>& paths) {
     vector<vector<int>>table(N);
     for (auto x : paths)
@@ -15,5 +15,5 @@ vector<int> gardenNoAdj(int N, vector<vector<int>>& paths) {
     }
     return color;
 }
-```
+// ```
 

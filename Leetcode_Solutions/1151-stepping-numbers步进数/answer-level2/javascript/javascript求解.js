@@ -1,5 +1,5 @@
 
-```js
+// ```js
 /**
  * @param {number} low
  * @param {number} high
@@ -31,4 +31,4 @@ var countSteppingNumbers = function(low, high) {
     res.sort((a, b) => a - b);
     return res;
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-与3Sum思路一致，双指针
-要注意指针的边界问题
+# ### 解题思路
+# 与3Sum思路一致，双指针
+# 要注意指针的边界问题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         if len(nums) < 4:
@@ -37,4 +37,4 @@ class Solution:
         return res
                     
 
-```
+# ```

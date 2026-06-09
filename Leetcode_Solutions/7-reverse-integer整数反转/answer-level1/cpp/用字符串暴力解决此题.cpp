@@ -1,9 +1,9 @@
-### 解题思路
-先用一个longlong型的变量b来代替x，把该变量转成string类型，直接string类型的函数进行反转，再重新输入b，判断b是否再int范围内，如果不在就返回0，如果在就根据x的正负输出结果。
+// ### 解题思路
+// 先用一个longlong型的变量b来代替x，把该变量转成string类型，直接string类型的函数进行反转，再重新输入b，判断b是否再int范围内，如果不在就返回0，如果在就根据x的正负输出结果。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int reverse(int x) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

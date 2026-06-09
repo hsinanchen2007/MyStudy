@@ -1,9 +1,9 @@
-### 解题思路
-二分查找最大的小于target的数的位置
+// ### 解题思路
+// 二分查找最大的小于target的数的位置
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -21,4 +21,4 @@ public:
         return 0;
     }
 };
-```
+// ```

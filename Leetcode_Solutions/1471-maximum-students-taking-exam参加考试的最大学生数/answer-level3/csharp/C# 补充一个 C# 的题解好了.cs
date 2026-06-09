@@ -1,4 +1,4 @@
-```C# []
+// ```C# []
         public int MaxStudents(char[][] seats)
         {
             /*
@@ -100,4 +100,4 @@
 
             return forReturn;
         }
-```
+// ```

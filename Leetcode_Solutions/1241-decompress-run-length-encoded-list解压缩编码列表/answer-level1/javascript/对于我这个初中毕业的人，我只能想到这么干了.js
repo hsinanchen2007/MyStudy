@@ -1,9 +1,9 @@
-### 解题思路
-首先创建一个指针，每次循环，指针右移两个位置，按指针当前位置的数值，向结果数组中push相应个数的数值
+// ### 解题思路
+// 首先创建一个指针，每次循环，指针右移两个位置，按指针当前位置的数值，向结果数组中push相应个数的数值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -21,4 +21,4 @@ var decompressRLElist = function(nums) {
     }
     return result
 };
-```
+// ```

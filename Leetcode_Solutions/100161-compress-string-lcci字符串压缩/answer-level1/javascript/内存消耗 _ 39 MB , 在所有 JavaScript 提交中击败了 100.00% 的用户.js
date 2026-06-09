@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-首先声明一个空字符str和计算次数count；假设样本为S[0]，遍历S，相同的时候count++；不相同时拼接字符str,样本改为S[i],count赋值为1；最后比较长度就可以了。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 首先声明一个空字符str和计算次数count；假设样本为S[0]，遍历S，相同的时候count++；不相同时拼接字符str,样本改为S[i],count赋值为1；最后比较长度就可以了。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -23,4 +23,4 @@ var compressString = function(S) {
     }
     return S.length>str.length?str:S;
 };
-```
+// ```

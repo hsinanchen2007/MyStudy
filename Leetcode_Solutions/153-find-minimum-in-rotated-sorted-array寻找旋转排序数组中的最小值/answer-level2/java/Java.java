@@ -1,13 +1,13 @@
-### 解题思路
-1 l r
-2 判断如果没有换顺序 return nums[0]
-3 mid 
-4 二段性质是 nums[mid] < nums[0]；这里严格没有=
-5 更新l, r
+// ### 解题思路
+// 1 l r
+// 2 判断如果没有换顺序 return nums[0]
+// 3 mid 
+// 4 二段性质是 nums[mid] < nums[0]；这里严格没有=
+// 5 更新l, r
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findMin(int[] nums) {
 
@@ -22,4 +22,4 @@ class Solution {
         return nums[l];
     }
 }
-```
+// ```

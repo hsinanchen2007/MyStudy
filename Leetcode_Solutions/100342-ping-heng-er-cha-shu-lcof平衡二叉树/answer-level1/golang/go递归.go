@@ -1,12 +1,12 @@
-**思路**
-```
+// **思路**
+// ```
 1.判断平衡---->求解左右节点的深度   （递归求解）
 2.一个节点不平衡---->整个树不平衡 （递归传达）
-```
+// ```
 
-**代码**
+// **代码**
 
-```
+// ```
 
 func helper(root *TreeNode)(int,bool){
 	if root == nil{
@@ -31,4 +31,4 @@ func isBalanced(root *TreeNode) bool {
 	var _,result = helper(root)
 	return result
 }
-```
+// ```

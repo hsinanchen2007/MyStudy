@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
             p2.next=self.mergeTwoLists(p1,p2.next)
             return p2
                 
-```
+# ```

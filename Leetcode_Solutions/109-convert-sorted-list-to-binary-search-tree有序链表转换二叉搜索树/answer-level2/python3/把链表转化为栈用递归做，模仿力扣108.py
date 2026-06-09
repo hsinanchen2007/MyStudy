@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sortedListToBST(self, head: ListNode) -> TreeNode:
         if head == None:
@@ -18,4 +18,4 @@ class Solution:
             ans.right = helper(stack[mid+1:])
             return ans
         return helper(stack)
-```
+# ```

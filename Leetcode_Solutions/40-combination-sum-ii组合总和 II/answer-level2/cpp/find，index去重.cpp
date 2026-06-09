@@ -1,17 +1,17 @@
-### 解题思路
-这道题和上一道题差不多，就是多了一个降重。
-首先想到的是用find函数找res是否已经有了temp 结果时间太长了，
+// ### 解题思路
+// 这道题和上一道题差不多，就是多了一个降重。
+// 首先想到的是用find函数找res是否已经有了temp 结果时间太长了，
 
-然后发现题目是不允许在同一个for循环里有相同的数。不会关心迭代进去后的数和前面是否相等，所以用了if(i!=index&&candidates[i]==candidates[i-1]) continue;
+// 然后发现题目是不允许在同一个for循环里有相同的数。不会关心迭代进去后的数和前面是否相等，所以用了if(i!=index&&candidates[i]==candidates[i-1]) continue;
 
-最后看解题发现一个更巧妙的方法，首先把for改为while，可以减少迭代次数，最重要的是用了 
-combinationSum2Core(candidates, target-candidates[index++], index, temp, res);
-while(index<candidates.size()&&candidates[index]==candidates[index-1]) ++index;
-来降重，target-candidates[index++]表示target-candidates[index]和index-1.他后面的index就跟着变了，
+// 最后看解题发现一个更巧妙的方法，首先把for改为while，可以减少迭代次数，最重要的是用了 
+// combinationSum2Core(candidates, target-candidates[index++], index, temp, res);
+// while(index<candidates.size()&&candidates[index]==candidates[index-1]) ++index;
+// 来降重，target-candidates[index++]表示target-candidates[index]和index-1.他后面的index就跟着变了，
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     // 执行用时 :120 ms, 在所有 C++ 提交中击败了10.33% 的用户
@@ -96,4 +96,4 @@ public:
 
 
 };
-```
+// ```

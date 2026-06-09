@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针
+// ### 解题思路
+// 快慢指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ public:
         return head;
     }
 };
-```
+// ```

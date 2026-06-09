@@ -1,9 +1,9 @@
-### 解题思路
-不一定非要排序，试一试用ES6的map对象
+// ### 解题思路
+// 不一定非要排序，试一试用ES6的map对象
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -15,4 +15,4 @@ var majorityElement = function(nums) {
         if (nmap.get(nums[i]) >= len / 2) { return nums[i] }
     }
 };
-```
+// ```

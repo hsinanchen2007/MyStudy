@@ -1,8 +1,8 @@
-### 解题思路
-相同字符两两相消。对于每个字符，如果哈希表里没有这个字符则插入，否则删掉。最后哈希表如果剩下 0 个或者 1 个字符则可以变成回文串，否则不行。
+// ### 解题思路
+// 相同字符两两相消。对于每个字符，如果哈希表里没有这个字符则插入，否则删掉。最后哈希表如果剩下 0 个或者 1 个字符则可以变成回文串，否则不行。
 
-### 使用 STL 的 unordered_set
-```cpp
+// ### 使用 STL 的 unordered_set
+// ```cpp
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -16,10 +16,10 @@ public:
         return uset.size() <= 1;
     }
 };
-```
+// ```
 
-### ASCII 是有限的，可以用原生数组模拟一个哈希表
-```cpp
+// ### ASCII 是有限的，可以用原生数组模拟一个哈希表
+// ```cpp
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -37,4 +37,4 @@ public:
         return size <= 1;
     }
 };
-```
+// ```

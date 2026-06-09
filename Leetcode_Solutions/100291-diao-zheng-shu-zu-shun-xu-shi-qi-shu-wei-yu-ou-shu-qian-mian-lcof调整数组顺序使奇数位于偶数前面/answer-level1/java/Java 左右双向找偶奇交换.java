@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-1. 从左往右找偶数，从右往左找奇数。
-2. 交换
-3. 继续找
+// 1. 从左往右找偶数，从右往左找奇数。
+// 2. 交换
+// 3. 继续找
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] exchange(int[] nums) {
         return exchangeO1(nums);
@@ -44,4 +44,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

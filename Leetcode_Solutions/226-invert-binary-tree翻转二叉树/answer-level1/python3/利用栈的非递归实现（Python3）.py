@@ -1,5 +1,5 @@
 
-```python3
+# ```python3
 class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode:
         st = [root]
@@ -9,4 +9,4 @@ class Solution:
                 node.right, node.left = node.left, node.right
                 st += [node.right, node.left]
         return root
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-先用map统计每个字符出现的次数，然后遍历一遍map，更新答案（次数-次数%2），出现偶数次数的字符一定可以回文（左边一半右边一般即可），若有出现奇数次的字符则标记一下，最后把答案+1就行了（因为可以放中间）
+# ### 解题思路
+# 先用map统计每个字符出现的次数，然后遍历一遍map，更新答案（次数-次数%2），出现偶数次数的字符一定可以回文（左边一半右边一般即可），若有出现奇数次的字符则标记一下，最后把答案+1就行了（因为可以放中间）
 
-### 代码
+# ### 代码
 
-```cpp []
+# ```cpp []
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -21,8 +21,8 @@ public:
         return f==0?ans:ans+1;
     }
 };
-```
-```python []
+# ```
+# ```python []
 class Solution(object):
     def longestPalindrome(self, s):
         """
@@ -45,4 +45,4 @@ class Solution(object):
             return ans
         else:
             return ans+1
-```
+# ```

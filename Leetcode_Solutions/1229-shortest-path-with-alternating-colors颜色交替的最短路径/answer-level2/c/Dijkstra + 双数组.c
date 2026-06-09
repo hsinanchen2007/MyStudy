@@ -1,9 +1,9 @@
-### 解题思路
-Dijkstra + 双数组
+// ### 解题思路
+// Dijkstra + 双数组
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define RED  0
 #define BLUE 1
 
@@ -109,4 +109,4 @@ int* shortestAlternatingPaths(int n, int** red_edges, int red_edgesSize, int* re
     *returnSize = n;
     return distance_red;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-这个题用的双指针，一直在考虑怎样让指针一次走两步而不报错，不出现null.next的情况，写了个自认为对的思路，结果超出时间限制，希望大神们看到我的这个题解，可以为我解答这个为什么不能break出去，会超出时间限制。
-```
+// 这个题用的双指针，一直在考虑怎样让指针一次走两步而不报错，不出现null.next的情况，写了个自认为对的思路，结果超出时间限制，希望大神们看到我的这个题解，可以为我解答这个为什么不能break出去，会超出时间限制。
+// ```
 var swapPairs = function(head) {
     if(!head) return null;
     let dummy = new ListNode(0);
@@ -31,10 +31,10 @@ var swapPairs = function(head) {
     }
     return dummy.next;
 };
-```
+// ```
 
-没想到还能这样做，如此犀利，膜拜大神，原作在这里：[三元神的博客](http://47.98.159.95/leetcode-js/linkedlist/001.html#no-3-%E4%B8%A4%E4%B8%AA%E4%B8%80%E7%BB%84%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8)
-```
+// 没想到还能这样做，如此犀利，膜拜大神，原作在这里：[三元神的博客](http://47.98.159.95/leetcode-js/linkedlist/001.html#no-3-%E4%B8%A4%E4%B8%AA%E4%B8%80%E7%BB%84%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8)
+// ```
 var swapPairs = function(head) {
     if(head == null || head.next == null) 
         return head;
@@ -51,4 +51,4 @@ var swapPairs = function(head) {
     }
     return dummyHead.next;
 };
-```
+// ```

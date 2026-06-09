@@ -1,9 +1,9 @@
-### 解题思路
-采用左右双指针，遍历一遍数组，遇到非数字或字母的j偏移指针。
+// ### 解题思路
+// 采用左右双指针，遍历一遍数组，遇到非数字或字母的j偏移指针。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(String s) {
         int left = 0;
@@ -29,4 +29,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

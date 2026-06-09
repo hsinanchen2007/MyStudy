@@ -1,9 +1,9 @@
-### 解题思路
-主要是HashSet的应用。
+// ### 解题思路
+// 主要是HashSet的应用。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniqueMorseRepresentations(String[] words) {
 		String[]morse = new String[]{".-","-...","-.-.","-..",".","..-.","--.",
@@ -21,4 +21,4 @@ class Solution {
 		return seen.size();                         //Hashset无重复元素
     }
 }
-```
+// ```

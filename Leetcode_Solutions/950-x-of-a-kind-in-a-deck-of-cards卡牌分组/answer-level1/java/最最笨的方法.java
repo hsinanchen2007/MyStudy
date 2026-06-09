@@ -1,9 +1,9 @@
-### 解题思路
-先获取每个元素出现的次数，x必定小于数组长度，遍历每个元素出现的次数，如果能整除x，就说明有分组
+// ### 解题思路
+// 先获取每个元素出现的次数，x必定小于数组长度，遍历每个元素出现的次数，如果能整除x，就说明有分组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         if (deck.length<2) return false;
@@ -35,4 +35,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

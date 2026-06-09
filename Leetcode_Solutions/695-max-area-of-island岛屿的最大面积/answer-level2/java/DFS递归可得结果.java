@@ -1,9 +1,9 @@
-### 解题思路
-遍历整个矩阵，为1的点向四周进行DFS，一边遍历一边置为0防止重复遍历
+// ### 解题思路
+// 遍历整个矩阵，为1的点向四周进行DFS，一边遍历一边置为0防止重复遍历
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxAreaOfIsland(int[][] grid) {
         int maxS = 0 ;
@@ -32,4 +32,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

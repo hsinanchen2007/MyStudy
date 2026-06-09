@@ -1,10 +1,10 @@
-### 解题思路
-1.是官方题解的，dp中直接保存最小ASCII删除和
-2.是直接保存不删除的最大ASCII和，这样就和之前的[最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)一样了 ，还有[583. 两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/):
+// ### 解题思路
+// 1.是官方题解的，dp中直接保存最小ASCII删除和
+// 2.是直接保存不删除的最大ASCII和，这样就和之前的[最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)一样了 ，还有[583. 两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/):
 
-### 方法1：
+// ### 方法1：
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumDeleteSum(string s1, string s2) {
@@ -27,9 +27,9 @@ public:
         return dp[len1][len2];
     }
 };
-```
-### 方法2：
-```
+// ```
+// ### 方法2：
+// ```
 class Solution {
 public:
     int minimumDeleteSum(string s1, string s2) {
@@ -54,4 +54,4 @@ public:
         return sum - 2 * dp[len1][len2];
     }
 };
-```
+// ```

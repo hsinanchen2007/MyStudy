@@ -1,4 +1,4 @@
-计算两个数组所有char的合的差值，就是不同的那一个char
+// 计算两个数组所有char的合的差值，就是不同的那一个char
     public char findTheDifference(String s, String t) {
         char[] sChars = s.toCharArray();
         char[] tChars = t.toCharArray();

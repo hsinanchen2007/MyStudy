@@ -1,11 +1,11 @@
-### 解题思路
-* 定义 $dp[i]$ 为抢劫 $0..i$ 个 house 的最大收益
-* 对于第 i 个 house, 只有两种可能性：**抢或者不抢**, 当选择抢劫第 i 个时，则**不能**抢第 i - 1 个, 所以   recurrence formula: $dp[i] = max(dp[i - 2] + nums[i], dp[i - 1])$
+// ### 解题思路
+// * 定义 $dp[i]$ 为抢劫 $0..i$ 个 house 的最大收益
+// * 对于第 i 个 house, 只有两种可能性：**抢或者不抢**, 当选择抢劫第 i 个时，则**不能**抢第 i - 1 个, 所以   recurrence formula: $dp[i] = max(dp[i - 2] + nums[i], dp[i - 1])$
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         // 特殊情况处理
@@ -43,4 +43,4 @@ class Solution {
         return currMax;
     }
 }
-```
+// ```

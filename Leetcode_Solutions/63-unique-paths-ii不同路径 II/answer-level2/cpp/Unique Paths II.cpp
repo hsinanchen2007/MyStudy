@@ -1,14 +1,14 @@
-### Unique Paths II for DP
-I have finished the Unique paths I and II .The unique difference between them is either have the obstacles.It is easy for us to think that there is  a obstacle that we can not through the grid.It means the dp[i][j]=0 (zero path!);
+// ### Unique Paths II for DP
+// I have finished the Unique paths I and II .The unique difference between them is either have the obstacles.It is easy for us to think that there is  a obstacle that we can not through the grid.It means the dp[i][j]=0 (zero path!);
 
-summary:
-1.if m==0 and n==0,there are two situations: there is a obstacle,we can not pass.(dp[0][0]=0);
-there is not a obstacle ,we can pass.(dp[0][0]=1);
-2.We can not define the array dp by int ;Because when m and n >100 ,the figures are so large;
-3.Judge the grid ,if there is a obstacle ,push 0 into the array dp directly;
+// summary:
+// 1.if m==0 and n==0,there are two situations: there is a obstacle,we can not pass.(dp[0][0]=0);
+// there is not a obstacle ,we can pass.(dp[0][0]=1);
+// 2.We can not define the array dp by int ;Because when m and n >100 ,the figures are so large;
+// 3.Judge the grid ,if there is a obstacle ,push 0 into the array dp directly;
 
-Code：
-```
+// Code：
+// ```
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -40,4 +40,4 @@ public:
         return dp[m-1][n-1];
     }
 };
-```
+// ```

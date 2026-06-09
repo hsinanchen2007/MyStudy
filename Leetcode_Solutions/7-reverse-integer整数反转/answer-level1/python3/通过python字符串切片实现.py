@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-发挥出python的处理字符串极其方便的优势，通过字符串切片实现
+# ### 解题思路
+# 此处撰写解题思路
+# 发挥出python的处理字符串极其方便的优势，通过字符串切片实现
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         if x < 0:
@@ -18,4 +18,4 @@ class Solution:
             return 0
 
 
-```
+# ```

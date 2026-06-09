@@ -1,10 +1,10 @@
-### 解题思路
-递归求高度
-递归判断是否满足条件
+// ### 解题思路
+// 递归求高度
+// 递归判断是否满足条件
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         return Math.max(height(root.left), height(root.right)) + 1;
     }
 }
-```
+// ```

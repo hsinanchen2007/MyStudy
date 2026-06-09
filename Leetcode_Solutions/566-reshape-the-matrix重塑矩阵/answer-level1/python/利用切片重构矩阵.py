@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def matrixReshape(self, nums: List[List[int]], r: int, c: int) -> List[List[int]]:
     #如果行列数乘积与原矩阵不相等，则无法构造，直接输出原矩阵。如果相等，则把原矩阵先转化为一个列表
@@ -21,4 +21,4 @@ class Solution:
 
 
 
-```
+# ```

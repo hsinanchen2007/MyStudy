@@ -1,4 +1,4 @@
-![微信截图_20200222222154.png](https://pic.leetcode-cn.com/b4237209effade2cdd60504f2cd780af20697e0e9d8fdab8b9c301efbaa333ca-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200222222154.png) 
+// ![微信截图_20200222222154.png](https://pic.leetcode-cn.com/b4237209effade2cdd60504f2cd780af20697e0e9d8fdab8b9c301efbaa333ca-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200222222154.png) 
 public int minSetSize(int[] arr) {
 
     	List<Integer> list = new ArrayList<Integer>();

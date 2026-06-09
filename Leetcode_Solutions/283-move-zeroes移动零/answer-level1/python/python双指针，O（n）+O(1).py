@@ -1,9 +1,9 @@
-### 解题思路
-把非0的都挪到前面去，剩下的位置全部赋值为0
+# ### 解题思路
+# 把非0的都挪到前面去，剩下的位置全部赋值为0
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def moveZeroes(self, nums):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             nums[p2]=0
             p2+=1
         return nums
-```
+# ```

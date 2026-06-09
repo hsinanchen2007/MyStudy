@@ -1,4 +1,4 @@
-```js
+// ```js
 var isToeplitzMatrix = function(matrix) {
     if (matrix.length === 1 || matrix[0].length === 1) return true;
     for (let i=1;i<matrix.length;i++) {
@@ -10,4 +10,4 @@ var isToeplitzMatrix = function(matrix) {
     }
     return true;
 };
-```
+// ```

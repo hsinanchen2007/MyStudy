@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         #设置两个指针指向数组的开头和末尾
@@ -16,4 +16,4 @@ class Solution:
             if numbers[low] + numbers[high] > target:
                 high -= 1
         return None
-```
+# ```

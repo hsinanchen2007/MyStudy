@@ -1,4 +1,4 @@
-```
+// ```
 int missingNumber(int* nums, int numsSize){
     int i;
     int map[10001] = {0};
@@ -11,4 +11,4 @@ int missingNumber(int* nums, int numsSize){
     } 
     return i;
 }
-```
+// ```

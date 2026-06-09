@@ -1,10 +1,10 @@
-### 解题思路
-1.第一种使用状态机求解
-2.第二种直接遍历找出波峰波谷的顶点数
+// ### 解题思路
+// 1.第一种使用状态机求解
+// 2.第二种直接遍历找出波峰波谷的顶点数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int wiggleMaxLength(vector<int>& nums) {
@@ -62,4 +62,4 @@ public:
         return max(up,down);
     }
 };
-```
+// ```

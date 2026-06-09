@@ -1,11 +1,11 @@
-### 解题思路
-采用分而治之的思路，分为Billion/Million/Thousand/Left四个组，每个组可以由3位数表示。
-正确的分组和表示相应的三位数。
-ps:每个英文字母后加空格，最后使用rstrip()去掉最后的空格。繁杂但不难。
+# ### 解题思路
+# 采用分而治之的思路，分为Billion/Million/Thousand/Left四个组，每个组可以由3位数表示。
+# 正确的分组和表示相应的三位数。
+# ps:每个英文字母后加空格，最后使用rstrip()去掉最后的空格。繁杂但不难。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 #非负整数转换为相应的英文表示
 #123->One Hundred Twenty Three
 #12,345:Twelve Thousand Three Hundred Forty Five
@@ -48,4 +48,4 @@ class Solution:
         return res.rstrip()
 
         
-```
+# ```

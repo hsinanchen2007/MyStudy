@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-运用等差数列等求和公式以及二元一次方程求根公式求解。
+// 运用等差数列等求和公式以及二元一次方程求根公式求解。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -29,4 +29,4 @@ var findContinuousSequence = function(target) {
   }
   return res;
 };
-```
+// ```

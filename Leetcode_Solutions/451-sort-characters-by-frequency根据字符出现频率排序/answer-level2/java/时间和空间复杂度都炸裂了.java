@@ -1,13 +1,13 @@
-![2020021201.PNG](https://pic.leetcode-cn.com/7971ba084ae75afe0ab3b4605f070cdd86be148938a172b482e72d55278c8e62-2020021201.PNG)
+// ![2020021201.PNG](https://pic.leetcode-cn.com/7971ba084ae75afe0ab3b4605f070cdd86be148938a172b482e72d55278c8e62-2020021201.PNG)
 
-### 解题思路
-//先遍历一遍字符串,声明哈希表recMap记录字母出现次数,key为字母,value为出现次数
-//再遍历一遍哈希表recMap,维护两个单调栈letCount(按照字母出现次数单调递增),letter(根据字母出现次数单调递增给字母排序)
-//最后再使元素出栈,声明out记录拼接排序后的字符串,输出out;
+// ### 解题思路
+// //先遍历一遍字符串,声明哈希表recMap记录字母出现次数,key为字母,value为出现次数
+// //再遍历一遍哈希表recMap,维护两个单调栈letCount(按照字母出现次数单调递增),letter(根据字母出现次数单调递增给字母排序)
+// //最后再使元素出栈,声明out记录拼接排序后的字符串,输出out;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String frequencySort(String s) {
 //先遍历一遍字符串,声明哈希表recMap记录字母出现次数,key为字母,value为出现次数
@@ -61,4 +61,4 @@ class Solution {
     	return out;
     }
 }
-```
+// ```

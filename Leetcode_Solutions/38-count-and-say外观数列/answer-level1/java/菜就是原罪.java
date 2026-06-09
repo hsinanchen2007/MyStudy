@@ -1,8 +1,8 @@
-### 解题思路
-菜
-### 代码
+// ### 解题思路
+// 菜
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
         String res=new String("11");
@@ -36,4 +36,4 @@ class Solution {
         return _Work(res1,lever-1);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -27,4 +27,4 @@ func mergeTrees(t1 *TreeNode, t2 *TreeNode) *TreeNode {
     t1.Right = mergeTrees(t2.Right,t1.Right)
     return t1
 }
-```
+// ```

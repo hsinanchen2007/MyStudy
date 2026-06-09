@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //先进行快排，再从最小的开始逐个加1 
 int partition(int *arr, int left, int right)
 {
@@ -81,4 +81,4 @@ int minIncrementForUnique(int* A, int ASize)
     }
     return flag;
 }
-```
+// ```

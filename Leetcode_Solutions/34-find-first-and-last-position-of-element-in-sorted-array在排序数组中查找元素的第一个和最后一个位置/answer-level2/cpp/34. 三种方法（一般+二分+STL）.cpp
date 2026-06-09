@@ -1,5 +1,5 @@
-方法一
-```
+// 方法一
+// ```
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -14,10 +14,10 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/0f3425c26490d0aaa9c525a009e94bfb70bceaec57fa5189ae9e50b715ee6d7d-image.png)
-方法二、二分查找
-```
+// ```
+// ![image.png](https://pic.leetcode-cn.com/0f3425c26490d0aaa9c525a009e94bfb70bceaec57fa5189ae9e50b715ee6d7d-image.png)
+// 方法二、二分查找
+// ```
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -66,10 +66,10 @@ public:
     //     return res;
     // }
 };
-```
-![image.png](https://pic.leetcode-cn.com/a927522f1613016d23826403eb362d0959f858eabad481f4eb06f4065ca52a19-image.png)
-方法三 STL
-```
+// ```
+// ![image.png](https://pic.leetcode-cn.com/a927522f1613016d23826403eb362d0959f858eabad481f4eb06f4065ca52a19-image.png)
+// 方法三 STL
+// ```
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -80,4 +80,4 @@ public:
         if(left == right) return {-1,-1};
         return {left-nums.begin(), right-nums.begin()-1};
     }
-```
+// ```

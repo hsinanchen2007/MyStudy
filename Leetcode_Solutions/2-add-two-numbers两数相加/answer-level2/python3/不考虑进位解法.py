@@ -1,6 +1,6 @@
-不考虑进位问题，直接求出两个链表所代表的数字， 再将计算所得数字存进链表返回即刻，但是感觉这么搞失去了这个题的意义。耗时64ms，也不是很快
-代码如下：
-```
+# 不考虑进位问题，直接求出两个链表所代表的数字， 再将计算所得数字存进链表返回即刻，但是感觉这么搞失去了这个题的意义。耗时64ms，也不是很快
+# 代码如下：
+# ```
 def twoSum(l1: ListNode, l2: ListNode) -> ListNode:
     num1 = 0
     num2 = 0
@@ -31,5 +31,5 @@ def twoSum(l1: ListNode, l2: ListNode) -> ListNode:
         tmpNode = tmpNode.next
 
     return l3.next
-```
+# ```
 

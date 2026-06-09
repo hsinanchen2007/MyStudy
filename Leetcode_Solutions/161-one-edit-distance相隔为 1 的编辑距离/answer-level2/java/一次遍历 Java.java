@@ -1,15 +1,15 @@
-### 解题思路
-用两个指针扫描时两个字符串。设置布尔值difference，其为true时表明扫描过的部分已经有区别，所以直接返回false。
-- 首先判断边界情况：输入为null 为空字符串 长度相差超过一的情况。另外字符串相等的情况。
-- 新写一个方法funcWithOrder,传入的两个字符串，第一个更长，或者两者一样长。
-- funcWithOrder中，用两个指针（i,j）扫描字符串：
-1. 字符相等时，i++,j++
-2. 不相等时，若字符串一样长，则i++,j++
-3. 否则（第一个字符串长度多一），则i++
+// ### 解题思路
+// 用两个指针扫描时两个字符串。设置布尔值difference，其为true时表明扫描过的部分已经有区别，所以直接返回false。
+// - 首先判断边界情况：输入为null 为空字符串 长度相差超过一的情况。另外字符串相等的情况。
+// - 新写一个方法funcWithOrder,传入的两个字符串，第一个更长，或者两者一样长。
+// - funcWithOrder中，用两个指针（i,j）扫描字符串：
+// 1. 字符相等时，i++,j++
+// 2. 不相等时，若字符串一样长，则i++,j++
+// 3. 否则（第一个字符串长度多一），则i++
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isOneEditDistance(String s, String t) {
         if(s==null || t==null) return false;
@@ -43,4 +43,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

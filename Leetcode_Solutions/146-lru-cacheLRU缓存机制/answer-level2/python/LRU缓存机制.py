@@ -1,4 +1,4 @@
-```
+# ```
 class LRUCache:
     def __init__(self, capacity):
         """
@@ -43,4 +43,4 @@ class LRUCache:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+# ### 解题思路
+# 动态规划
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         Max=max(nums)
@@ -16,4 +16,4 @@ class Solution:
             else:
                 dp=0
         return Max
-```
+# ```

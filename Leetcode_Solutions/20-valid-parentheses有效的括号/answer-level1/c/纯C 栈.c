@@ -1,4 +1,4 @@
-```
+// ```
 bool isValid(char * s){
     int cStackLength = strlen(s);
 
@@ -70,4 +70,4 @@ bool isValid(char * s){
     return true;
 }
 
-```
+// ```

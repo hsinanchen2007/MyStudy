@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def sampleStats(self, count):
         """
@@ -41,4 +41,4 @@ class Solution(object):
         return [float(min1), float(max1), float(sum1) / float(all_cou), float(median), float(max_i)]
         
 
-```
+# ```

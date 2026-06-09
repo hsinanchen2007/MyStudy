@@ -1,9 +1,9 @@
-### 解题思路
-进制转换+按位取反
+// ### 解题思路
+// 进制转换+按位取反
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findComplement(int num) {
@@ -23,4 +23,4 @@ public:
         return res; 
     }
 };
-```
+// ```

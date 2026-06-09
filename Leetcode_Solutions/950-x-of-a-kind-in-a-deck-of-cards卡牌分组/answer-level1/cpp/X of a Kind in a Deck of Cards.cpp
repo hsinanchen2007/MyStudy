@@ -1,9 +1,9 @@
-### 解题思路
-X of a Kind in a Deck of Cards
+// ### 解题思路
+// X of a Kind in a Deck of Cards
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     int cnt[1000];
 public:
@@ -27,4 +27,4 @@ public:
     return gcd(y,x%y);
     }
 };
-```
+// ```

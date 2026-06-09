@@ -1,5 +1,5 @@
-之前使用@pre=0，时一直会有一定的差错。
-```
+-- 之前使用@pre=0，时一直会有一定的差错。
+-- ```
   select  round(sum(num)/(select count(distinct customer_id)from Delivery) *100 ,2) as immediate_percentage from (
         select 
 if(
@@ -13,4 +13,4 @@ as num
  from Delivery d ,(select @num:=0,@pre:=null,@customer:=0) b  
   order by customer_id,order_date asc 
   )t ;
-```
+-- ```

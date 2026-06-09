@@ -1,9 +1,9 @@
-详见代码，自己在纸上画下应该很好理解
-因为链表考研还是可能靠算法题的，特意刷一下
+// 详见代码，自己在纸上画下应该很好理解
+// 因为链表考研还是可能靠算法题的，特意刷一下
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
@@ -24,4 +24,4 @@ public:
         return new_head->next;
     }
 };
-```
+// ```

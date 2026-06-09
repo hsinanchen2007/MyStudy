@@ -1,11 +1,11 @@
-### 解题思路
-使用到字符串方法indexOf()查找字符串，如果找到返回字符串的索引值，找不到则返回-1；
-push()尾部进入队列；
-shift()头部移除
-continue跳过当前循环
-### 代码
+// ### 解题思路
+// 使用到字符串方法indexOf()查找字符串，如果找到返回字符串的索引值，找不到则返回-1；
+// push()尾部进入队列；
+// shift()头部移除
+// continue跳过当前循环
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -26,4 +26,4 @@ var lengthOfLongestSubstring = function(s) {
     }
     return result;
 }
-```
+// ```

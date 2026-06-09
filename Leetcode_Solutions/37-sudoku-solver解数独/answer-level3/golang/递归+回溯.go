@@ -1,6 +1,6 @@
-![WeChat63eca92cb18c9c8f9cd85b15b4899dc1.png](https://pic.leetcode-cn.com/2df9c47ffe9a8a764be2e90d67086536ba3bb2d101f4559ea10b24aa73281a6c-WeChat63eca92cb18c9c8f9cd85b15b4899dc1.png)
+// ![WeChat63eca92cb18c9c8f9cd85b15b4899dc1.png](https://pic.leetcode-cn.com/2df9c47ffe9a8a764be2e90d67086536ba3bb2d101f4559ea10b24aa73281a6c-WeChat63eca92cb18c9c8f9cd85b15b4899dc1.png)
 
-```go
+// ```go
 func solveSudoku(board [][]byte) {
 	row := [9][9]bool{}
 	col := [9][9]bool{}
@@ -41,6 +41,6 @@ func fill(board [][]byte, n int, row [9][9]bool, col [9][9]bool, box [9][9]bool)
 	board[rowK][colK] = '.'
 	return false
 }
-```
+// ```
 
-[github](https://github.com/temporaries/leetcode)
+// [github](https://github.com/temporaries/leetcode)

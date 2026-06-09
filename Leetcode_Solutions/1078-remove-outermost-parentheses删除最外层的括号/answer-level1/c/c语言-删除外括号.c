@@ -1,9 +1,9 @@
-### 解题思路
-利用栈来括号匹配，中间加一个字符前移
+// ### 解题思路
+// 利用栈来括号匹配，中间加一个字符前移
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int match(char *S,char *stack,int i,int top);
 void movek(char *S,int i,int k);
 char * removeOuterParentheses(char * S){
@@ -45,4 +45,4 @@ void movek(char *S,int i,int k){
     if(i==0)return;
     S[i-k]=S[i];
 }
-```
+// ```

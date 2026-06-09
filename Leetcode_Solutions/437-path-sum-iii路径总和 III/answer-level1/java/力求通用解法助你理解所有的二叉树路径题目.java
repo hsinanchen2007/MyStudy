@@ -1,19 +1,19 @@
-### 要点
-1. 在 [【LeetCode算法修炼+动画演示】—— 113. 路径总和 II](https://blog.csdn.net/weixin_42322309/article/details/104222272) 的基础上优化代码。
+// ### 要点
+// 1. 在 [【LeetCode算法修炼+动画演示】—— 113. 路径总和 II](https://blog.csdn.net/weixin_42322309/article/details/104222272) 的基础上优化代码。
 
-2. 之前我们仅仅是在**求到根结点的结果是否符合要求**是吧。
+// 2. 之前我们仅仅是在**求到根结点的结果是否符合要求**是吧。
 
-	那么从**叶子节点**为结尾的数组总共有多少个和能符合题目要求 。
-	>假设你要求和5，并且获取到如下路径 arr: [1,-1,5]   sum: ①5+(-1) = 5，② 5+(-1)+1 = 5  
-	>也就是说以当前节点结束时，共有两中情况符合。
+// 	那么从**叶子节点**为结尾的数组总共有多少个和能符合题目要求 。
+// 	>假设你要求和5，并且获取到如下路径 arr: [1,-1,5]   sum: ①5+(-1) = 5，② 5+(-1)+1 = 5  
+// 	>也就是说以当前节点结束时，共有两中情况符合。
 
-3. 那么题目告诉你不需要到叶子节点，也就是说每次遍历到一个节点都是有可能符合结果的。
+// 3. 那么题目告诉你不需要到叶子节点，也就是说每次遍历到一个节点都是有可能符合结果的。
 
-### 解法 
-#### 代码片段1
-一种暴力的解法，只要求出以根结点开始所有符合结果。然后扩展到左右子树。
-时间复杂度：$O(n^2)$
-```java
+// ### 解法 
+// #### 代码片段1
+// 一种暴力的解法，只要求出以根结点开始所有符合结果。然后扩展到左右子树。
+// 时间复杂度：$O(n^2)$
+// ```java
 public int pathSumIII(TreeNode root, int sum) {
 	if (root == null) {//3.终止条件
 		return 0;
@@ -33,11 +33,11 @@ public void pathSumIIIHelper(TreeNode root, int sum, int[] arrs) {
 	pathSumIIIHelper(root.left, sum - root.val, arrs);
 	pathSumIIIHelper(root.right, sum - root.val, arrs);
 }
-```
+// ```
 
-#### 代码片段2
-时间复杂度:$O(n)$
-```java
+// #### 代码片段2
+// 时间复杂度:$O(n)$
+// ```java
 //437. 路径总和 III 2
 public int pathSumIII2(TreeNode root, int sum) {
 	if (root == null) {//0.终止条件。
@@ -63,6 +63,6 @@ public void pathSumIII2Helper(TreeNode root, int sum, int[] arrs, int[] path, in
 	pathSumIII2Helper(root.left, sum, arrs, path, h + 1);//5.求左子树符合的数量
 	pathSumIII2Helper(root.right, sum, arrs, path, h + 1);//6.求右子树符合的数量
 }
-```
-[1.博客地址](https://blog.csdn.net/weixin_42322309)
-[2.相关源代码地址](href="https://gitee.com/Gre-Z/Algorithm)
+// ```
+// [1.博客地址](https://blog.csdn.net/weixin_42322309)
+// [2.相关源代码地址](href="https://gitee.com/Gre-Z/Algorithm)

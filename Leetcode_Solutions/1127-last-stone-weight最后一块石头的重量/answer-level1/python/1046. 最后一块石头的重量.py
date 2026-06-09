@@ -1,5 +1,5 @@
-每次都重新排序
-```
+# 每次都重新排序
+# ```
 class Solution(object):
     def lastStoneWeight(self, stones):
         """
@@ -18,4 +18,4 @@ class Solution(object):
         if stones==[]:
             stones.append(0)
         return stones[0]
-```
+# ```

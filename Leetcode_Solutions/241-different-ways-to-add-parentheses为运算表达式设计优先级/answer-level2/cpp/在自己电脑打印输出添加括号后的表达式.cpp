@@ -1,14 +1,14 @@
-### 解题思路
-**思路这么多人都写，我也是看的别人
-闲得没事，在自己电脑上写了下添加括号后的表达式**
+// ### 解题思路
+// **思路这么多人都写，我也是看的别人
+// 闲得没事，在自己电脑上写了下添加括号后的表达式**
 
 
-![image.png](https://pic.leetcode-cn.com/fdcf40a0874136127c19c68e825c4dbdf47607c710266754e360f015072803f1-image.png)
-**结果没排序**
+// ![image.png](https://pic.leetcode-cn.com/fdcf40a0874136127c19c68e825c4dbdf47607c710266754e360f015072803f1-image.png)
+// **结果没排序**
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <bits/stdc++.h>
 using namespace std;
  
@@ -84,4 +84,4 @@ int main()
         cout <<res[i].exp<<" = "<< res[i].num<<endl; 
     return 0; 
 } 
-```
+// ```

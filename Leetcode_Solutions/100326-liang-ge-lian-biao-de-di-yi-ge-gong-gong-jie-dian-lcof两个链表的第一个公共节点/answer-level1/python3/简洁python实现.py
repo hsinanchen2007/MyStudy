@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
         if not headA or not headB:
@@ -17,4 +17,4 @@ class Solution:
             else:
                 cur2 = headA
         return cur1
-```
+# ```

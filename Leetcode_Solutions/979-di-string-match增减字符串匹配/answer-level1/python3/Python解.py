@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def diStringMatch(self, S: str) -> List[int]:
         i=0
@@ -13,4 +13,4 @@ class Solution:
                 j-=1
         res.append(i)
         return res
-```
+# ```

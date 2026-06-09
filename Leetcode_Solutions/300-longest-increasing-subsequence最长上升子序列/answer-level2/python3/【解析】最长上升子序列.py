@@ -1,9 +1,9 @@
-### 解题思路
-这道题采用的是一个动态规划的思路。创建一个长度为len(nums)的dp数组，用于存储从头到每个位置的最大上升子序列，对于每个dp[i]，遍历比i更小的j。对于每个j，若nums数组中位于i处的值要比j处的值大时，dp[i] = max(dp[i], dp[j]+1)。最后返回dp数组中最大值即可。
+# ### 解题思路
+# 这道题采用的是一个动态规划的思路。创建一个长度为len(nums)的dp数组，用于存储从头到每个位置的最大上升子序列，对于每个dp[i]，遍历比i更小的j。对于每个j，若nums数组中位于i处的值要比j处的值大时，dp[i] = max(dp[i], dp[j]+1)。最后返回dp数组中最大值即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         if nums == []:
@@ -17,4 +17,4 @@ class Solution:
                     dp[i] = max(dp[i], dp[j]+1)
         
         return max(dp)
-```
+# ```

@@ -1,4 +1,4 @@
-先用数组保存每个节点，然后在数组取出重组时两两翻转。
+// 先用数组保存每个节点，然后在数组取出重组时两两翻转。
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {

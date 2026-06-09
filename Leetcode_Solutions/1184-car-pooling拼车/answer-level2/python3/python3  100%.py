@@ -1,19 +1,19 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-120 ms
-, 在所有 python3 提交中击败了
-36.42%
-的用户
-内存消耗 :
-13.2 MB
-, 在所有 python3 提交中击败了
-100.00%
-的用户
+# 执行结果：
+# 通过
+# 显示详情
+# 执行用时 :
+# 120 ms
+# , 在所有 python3 提交中击败了
+# 36.42%
+# 的用户
+# 内存消耗 :
+# 13.2 MB
+# , 在所有 python3 提交中击败了
+# 100.00%
+# 的用户
 
 
-```
+# ```
 class Solution:
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
         if len(trips) == 0:
@@ -43,4 +43,4 @@ class Solution:
             if now_passanger > capacity:
                 return False
         return True
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-因为要计算出现次数 所以考虑map
-### 代码
+// ### 解题思路
+// 因为要计算出现次数 所以考虑map
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char firstUniqChar(String s) {
         int len = s.length();  //算出字符串的长度
@@ -26,4 +26,4 @@ class Solution {
         return c1;              //否则返回空
     }
 }
-```
+// ```

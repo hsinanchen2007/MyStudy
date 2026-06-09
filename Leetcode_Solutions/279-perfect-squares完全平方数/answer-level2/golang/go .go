@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numSquares(n int) int {
     dp:=make([]int,n+1)
     for i:=1;i<=n;i++{
@@ -20,4 +20,4 @@ func min(x ,y int)int{
     }
     return x
 }
-```
+// ```

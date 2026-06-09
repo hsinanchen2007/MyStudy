@@ -1,4 +1,4 @@
-```
+// ```
 var numMovesStones = function(a, b, c) {
     let arr = [a, b, c]
     arr.sort((a, b) => a - b)
@@ -26,4 +26,4 @@ var numMovesStones = function(a, b, c) {
     }
     return [minMoves, maxMoves]
 }
-```
+// ```

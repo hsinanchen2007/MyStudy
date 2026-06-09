@@ -1,6 +1,6 @@
-![1DD52376-6AB1-4FDB-A04D-93C9CD923BD9.jpeg](https://pic.leetcode-cn.com/09171f24b2d5ac9a7618976adf1d22be1bf6a6ca62933c2b08da8660c5f568e0-1DD52376-6AB1-4FDB-A04D-93C9CD923BD9.jpeg)
+// ![1DD52376-6AB1-4FDB-A04D-93C9CD923BD9.jpeg](https://pic.leetcode-cn.com/09171f24b2d5ac9a7618976adf1d22be1bf6a6ca62933c2b08da8660c5f568e0-1DD52376-6AB1-4FDB-A04D-93C9CD923BD9.jpeg)
 
-```
+// ```
 //并查集
 
 int Find(int *graph, int a)
@@ -52,4 +52,4 @@ int findCircleNum(int** M, int MSize, int* MColSize)
     }
     return returnVal;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-# 思路
-暴力枚举上下边，将问题转为[最大子数组和问题](https://leetcode-cn.com/problems/maximum-subarray/)。
+// # 思路
+// 暴力枚举上下边，将问题转为[最大子数组和问题](https://leetcode-cn.com/problems/maximum-subarray/)。
 
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     private int max_sum = Integer.MIN_VALUE, global_col;
     private int[] res = new int[4];
@@ -41,4 +41,4 @@ class Solution {
         }
     }
 }
-```
+// ```

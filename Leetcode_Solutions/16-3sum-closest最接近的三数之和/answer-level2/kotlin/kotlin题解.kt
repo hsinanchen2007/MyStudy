@@ -1,9 +1,9 @@
-### 解题思路
-三指针
+// ### 解题思路
+// 三指针
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 import kotlin.math.abs
 class Solution {
     class result(val key: Int, val value: Int)
@@ -43,4 +43,4 @@ class Solution {
         return resultArray.first().value
     }
 }
-```
+// ```

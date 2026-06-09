@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用指针即可
+// 使用指针即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 struct ListNode* reverseList(struct ListNode* head){
     if(head == NULL) return NULL;
@@ -23,4 +23,4 @@ struct ListNode* reverseList(struct ListNode* head){
     head = q;
     return head;
 }
-```
+// ```

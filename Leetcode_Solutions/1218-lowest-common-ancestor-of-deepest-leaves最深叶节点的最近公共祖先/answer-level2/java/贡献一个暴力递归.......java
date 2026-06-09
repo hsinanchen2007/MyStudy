@@ -1,6 +1,6 @@
-看了题解没有暴力递归
-暴力递归有点夯余,有点慢,思想还是差不多得....
-```java
+// 看了题解没有暴力递归
+// 暴力递归有点夯余,有点慢,思想还是差不多得....
+// ```java
 class Solution {
     public TreeNode lcaDeepestLeaves(TreeNode root) {
         if (root==null) return root;
@@ -19,4 +19,4 @@ class Solution {
         return Math.max(Helper(root.left),Helper(root.right))+1;
     }
 }
-```
+// ```

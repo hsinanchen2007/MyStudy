@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         //实例化两个数 一个数当前连续1的个数。一个为最大连续1的个数。
@@ -17,4 +17,4 @@ class Solution {
         return Math.max(maxCount,count) ;
     }
 }
-```
+// ```

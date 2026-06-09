@@ -1,10 +1,10 @@
-### 解题思路
-用两个指针遍历
-拼接字符串
+# ### 解题思路
+# 用两个指针遍历
+# 拼接字符串
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countAndSay(self, n):
         """
@@ -35,4 +35,4 @@ class Solution(object):
 
 
             
-```
+# ```

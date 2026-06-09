@@ -1,8 +1,8 @@
-### 解题思路
-只需要用boolean数组进行遍历即可。
-### 代码
+// ### 解题思路
+// 只需要用boolean数组进行遍历即可。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         boolean[][] pal = new boolean[9][10];
@@ -42,4 +42,4 @@ class Solution {
     return true;
     }
 }
-```
+// ```

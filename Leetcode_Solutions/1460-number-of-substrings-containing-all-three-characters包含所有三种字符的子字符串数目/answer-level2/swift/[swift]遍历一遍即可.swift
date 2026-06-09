@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution3 {
     
     func numberOfSubstrings(_ s: String) -> Int {
@@ -28,4 +28,4 @@ class Solution3 {
         return ans
     }
  }
-```
+// ```

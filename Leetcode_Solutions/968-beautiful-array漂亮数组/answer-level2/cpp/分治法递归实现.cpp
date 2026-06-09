@@ -1,9 +1,9 @@
-### 解题思路
-参考[@xue-xi-test](/u/xue-xi-test/)的[思路](https://leetcode-cn.com/problems/beautiful-array/solution/fen-zhi-fa-by-xue-xi-test/)，递归实现
+// ### 解题思路
+// 参考[@xue-xi-test](/u/xue-xi-test/)的[思路](https://leetcode-cn.com/problems/beautiful-array/solution/fen-zhi-fa-by-xue-xi-test/)，递归实现
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> helper(vector<int> nums, int left, int right){
@@ -38,4 +38,4 @@ public:
         return res;
     }    
 };
-```
+// ```

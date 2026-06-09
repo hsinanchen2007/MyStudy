@@ -1,10 +1,10 @@
-### 解题思路
-先写一个中序遍历算法把两棵树的元素都提取出来
-然后直接暴力排序返回
+# ### 解题思路
+# 先写一个中序遍历算法把两棵树的元素都提取出来
+# 然后直接暴力排序返回
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
         if root == None:
             return []
         return self.inOrderTraversal(root.left) + [root.val] + self.inOrderTraversal(root.right)
-```
+# ```

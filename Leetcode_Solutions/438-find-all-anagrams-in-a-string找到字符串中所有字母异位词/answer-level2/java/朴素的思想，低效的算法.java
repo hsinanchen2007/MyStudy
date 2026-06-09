@@ -1,11 +1,11 @@
-### 解题思路
-1.将目标字符串排序
-2.依次截取字符串，然后字符串排序，和排序后的目标字符串排序
-3.满足条件加到结果list里
+// ### 解题思路
+// 1.将目标字符串排序
+// 2.依次截取字符串，然后字符串排序，和排序后的目标字符串排序
+// 3.满足条件加到结果list里
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         char[] chars = p.toCharArray();
@@ -23,4 +23,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

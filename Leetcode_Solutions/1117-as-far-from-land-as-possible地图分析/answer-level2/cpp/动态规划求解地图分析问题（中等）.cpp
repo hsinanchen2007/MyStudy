@@ -1,10 +1,10 @@
-### 解题思路
-动态规划
-![捕获.JPG](https://pic.leetcode-cn.com/a19025c529b499bc8f41e54c59c114a20995f02a9122d3f4fe19de48557ac5d2-%E6%8D%95%E8%8E%B7.JPG)
+// ### 解题思路
+// 动态规划
+// ![捕获.JPG](https://pic.leetcode-cn.com/a19025c529b499bc8f41e54c59c114a20995f02a9122d3f4fe19de48557ac5d2-%E6%8D%95%E8%8E%B7.JPG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     const int INF = int(1E6);
@@ -41,4 +41,4 @@ public:
         return result == INF?-1:result;
     }
 };
-```
+// ```

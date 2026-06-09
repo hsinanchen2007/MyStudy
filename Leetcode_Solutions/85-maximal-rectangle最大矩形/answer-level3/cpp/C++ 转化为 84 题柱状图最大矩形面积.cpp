@@ -1,9 +1,9 @@
-### 解题思路
-将第 i 行以上看作是一个柱状图，然后逐行进行求其矩形面积最大值
+// ### 解题思路
+// 将第 i 行以上看作是一个柱状图，然后逐行进行求其矩形面积最大值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximalRectangle(vector<vector<char>>& matrix) {
@@ -52,4 +52,4 @@ public:
         return maxArea;
     }
 };
-```
+// ```

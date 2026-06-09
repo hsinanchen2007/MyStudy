@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def simplifyPath(self, path):
         """
@@ -30,4 +30,4 @@ class Solution(object):
                 ans_str += "/"+ans_list[i]
         ans_str = "/" if ans_str == "" else ans_str
         return ans_str
-```
+# ```

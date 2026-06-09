@@ -1,4 +1,4 @@
-//定义两个指针变量，i用来往前探索，j用来保持 <=j 的数非0    
+// //定义两个指针变量，i用来往前探索，j用来保持 <=j 的数非0    
 
     class Solution {
         public void moveZeroes(int[] nums) {

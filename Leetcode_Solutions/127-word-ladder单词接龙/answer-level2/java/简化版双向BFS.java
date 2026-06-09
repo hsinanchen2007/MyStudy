@@ -1,6 +1,6 @@
-不通过傻枚举字符串去匹配字符串是否在列表中，而是通过先预处理wordList，然后通过 * 去匹配符合规则的字符串列表。
+// 不通过傻枚举字符串去匹配字符串是否在列表中，而是通过先预处理wordList，然后通过 * 去匹配符合规则的字符串列表。
 
-```
+// ```
 class Solution {
     private int length;
     private Map<String, List<String>> dict;
@@ -64,4 +64,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

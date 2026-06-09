@@ -1,10 +1,10 @@
-1. 每次只对比一个字符的字典序，若不满足则增加删除计数；
-2. 若当次扫描满足字典序，并且不存在相邻相等的情况，则可以结束算法；若存在相邻相等的情况，下次扫描则只需要检查上次相邻不等的位置。
+// 1. 每次只对比一个字符的字典序，若不满足则增加删除计数；
+// 2. 若当次扫描满足字典序，并且不存在相邻相等的情况，则可以结束算法；若存在相邻相等的情况，下次扫描则只需要检查上次相邻不等的位置。
 
-![image.png](https://pic.leetcode-cn.com/da64cf43ab71dc3b9f2b0663ecd84d9ee407fca2dcb80ba6f9e8cb47bc56c3a6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/da64cf43ab71dc3b9f2b0663ecd84d9ee407fca2dcb80ba6f9e8cb47bc56c3a6-image.png)
 
 
-```
+// ```
     int minDeletionSize(vector<string>& A) {
         if (A.size() == 0)
             return 0;
@@ -37,4 +37,4 @@
 
         return delCnt;
     }
-```
+// ```

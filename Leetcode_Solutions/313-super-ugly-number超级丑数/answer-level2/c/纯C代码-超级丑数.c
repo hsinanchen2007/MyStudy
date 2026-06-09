@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int getMaxIndex(int *data, int *index, int primesSize) {
     int min = 0;
     int i;
@@ -44,4 +44,4 @@ int nthSuperUglyNumber(int n, int* primes, int primesSize){
 
     return dp[n-1];
 }
-```
+// ```

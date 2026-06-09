@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1.考虑边界条件。
-2.计算链表的长度.
-3.根据长度计算2的阶层j.
-4.sum += head->val * j;
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1.考虑边界条件。
+// 2.计算链表的长度.
+// 3.根据长度计算2的阶层j.
+// 4.sum += head->val * j;
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -53,4 +53,4 @@ int getDecimalValue(struct ListNode* head){
     }
     return sum;
 }
-```
+// ```

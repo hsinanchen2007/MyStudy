@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -20,8 +20,8 @@ public:
         return max;
     }
 };
-```
-```
+// ```
+// ```
 //贪心法
 class Solution{
     public:
@@ -38,5 +38,5 @@ class Solution{
             return res;
         }
 };
-```
+// ```
 

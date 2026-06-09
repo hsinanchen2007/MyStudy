@@ -1,21 +1,21 @@
-**分治做法**
+// **分治做法**
 
-参考[邱天异的回答](https://www.zhihu.com/question/269813200)
+// 参考[邱天异的回答](https://www.zhihu.com/question/269813200)
 
 
-> Solve(l,r) 对连续子序列[l,r]计算，返回四个整数值{A,B,C,D}，意义如下：
-> A表示子序列中，不取用最左和最右元素的最大和。
-> B表示子序列中，不取用最左元素的最大和。
-> C表示子序列中，不取用最右元素的最大和。
-> D表示子序列中，无条件的最大和。
-> Solve(l,r)调用Solve(l,mid)得到{A1,B1,C1,D1}，调用Solve(mid+1,r)得到{A2,B2,C2,D2},则：
-> A=max{A1+C2，B1+A2}
-> B=max{A1+D2，B1+B2}
-> C=max{D1+A2，C1+C2}
-> D=max{D1+B2，C1+D2}
-> 返回{A,B,C,D}即可。
+// > Solve(l,r) 对连续子序列[l,r]计算，返回四个整数值{A,B,C,D}，意义如下：
+// > A表示子序列中，不取用最左和最右元素的最大和。
+// > B表示子序列中，不取用最左元素的最大和。
+// > C表示子序列中，不取用最右元素的最大和。
+// > D表示子序列中，无条件的最大和。
+// > Solve(l,r)调用Solve(l,mid)得到{A1,B1,C1,D1}，调用Solve(mid+1,r)得到{A2,B2,C2,D2},则：
+// > A=max{A1+C2，B1+A2}
+// > B=max{A1+D2，B1+B2}
+// > C=max{D1+A2，C1+C2}
+// > D=max{D1+B2，C1+D2}
+// > 返回{A,B,C,D}即可。
 
-```
+// ```
 typedef struct {
     int A;
     int B;
@@ -61,7 +61,7 @@ int rob(int* nums, int numsSize){
     mm = f(nums, 0, numsSize - 1);
     return mm->D;
 }
-```
+// ```
 
 
 

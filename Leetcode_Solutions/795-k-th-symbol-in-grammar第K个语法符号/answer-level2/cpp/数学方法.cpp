@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/785e5a8ce47cca7eccd9b322a1404ff79bec3a044571a8d6cd43d92637c57630-image.png)
-观察可发现，下一层的第k处（从0开始计算）的字符与本层与其对应的字符有关，本层字符+k，如果是偶数的话k处为0，奇数的话k处为1.
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/785e5a8ce47cca7eccd9b322a1404ff79bec3a044571a8d6cd43d92637c57630-image.png)
+// 观察可发现，下一层的第k处（从0开始计算）的字符与本层与其对应的字符有关，本层字符+k，如果是偶数的话k处为0，奇数的话k处为1.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int kthGrammar(int N, int K) {
@@ -26,4 +26,4 @@ public:
         return start;
     }
 };
-```
+// ```

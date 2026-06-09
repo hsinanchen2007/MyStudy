@@ -1,5 +1,5 @@
 
-```java []
+// ```java []
 class Solution {
     public int findRadius(int[] houses, int[] heaters) {
         Arrays.sort(houses); //对两个数组排序
@@ -27,4 +27,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

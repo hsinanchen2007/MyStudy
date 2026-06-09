@@ -1,10 +1,10 @@
-### 解题思路
-递归调用，时间空间复杂度都是树的高度，一般为logN，最坏为N
+# ### 解题思路
+# 递归调用，时间空间复杂度都是树的高度，一般为logN，最坏为N
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution(object):
             left,right = self.splitBST(root.left,V)
             root.left = right
             return left,root
-```
+# ```

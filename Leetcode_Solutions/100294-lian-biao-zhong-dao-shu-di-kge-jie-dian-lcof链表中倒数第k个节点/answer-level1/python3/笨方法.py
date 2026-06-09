@@ -1,9 +1,9 @@
-### 解题思路
-先求链表长度，获得倒数的位置（链表长度-k），移动头节点位置。
+# ### 解题思路
+# 先求链表长度，获得倒数的位置（链表长度-k），移动头节点位置。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             head = head.next
         # 返回链表
         return head
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     static const int maxn = 1e5 + 100;
@@ -48,5 +48,5 @@ public:
         return v[query(1,nums.size(),rt[0],rt[nums.size()],nums.size()-k+1)-1];
     }
 };
-```
-存粹闲的蛋疼QAQ
+// ```
+// 存粹闲的蛋疼QAQ

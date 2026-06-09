@@ -1,9 +1,9 @@
-### 解题思路
-见批注
+// ### 解题思路
+// 见批注
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int divide(int dividend, int divisor){
     int flag = 1;
     if (dividend == 0) {
@@ -56,4 +56,4 @@ int divide(int dividend, int divisor){
     }
     return flag == 1 ? cnt : -cnt;
 }
-```
+// ```

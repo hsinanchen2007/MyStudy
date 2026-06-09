@@ -1,4 +1,4 @@
-```
+// ```
 var constructMaximumBinaryTree = function(nums) {
     if (!nums.length) return null;
     let max = Math.max(...nums);
@@ -28,7 +28,7 @@ var constructMaximumBinaryTree = function(nums) {
     buildTree(root, index, nums);
     return root;
 };
-```
+// ```
 
-前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
-这里记录了我刷过的近500道LeetCode的题解，
+// 前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
+// 这里记录了我刷过的近500道LeetCode的题解，

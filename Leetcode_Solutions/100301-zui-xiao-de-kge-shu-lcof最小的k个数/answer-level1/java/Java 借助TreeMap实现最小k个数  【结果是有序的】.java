@@ -1,9 +1,9 @@
-### 解题思路
-借助于TreeMap来实现
+// ### 解题思路
+// 借助于TreeMap来实现
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         if (arr == null || k == 0) {
@@ -52,4 +52,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

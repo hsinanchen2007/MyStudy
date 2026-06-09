@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_82_deleteDuplicates.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_82_deleteDuplicates.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 对于链表类型的题目，就是按照next的指针进行遍历，找到题目要求
@@ -47,4 +47,4 @@
 
         return dummy.next;
     }
-```
+// ```

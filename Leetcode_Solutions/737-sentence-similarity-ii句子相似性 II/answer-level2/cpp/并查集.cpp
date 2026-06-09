@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-这道题用并查集比DFS的复杂度要低。
+// 这道题用并查集比DFS的复杂度要低。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class DisjointSet {
 private:
     unordered_map<string, string> parent;
@@ -57,6 +57,6 @@ public:
         return true;
     }
 };
-```
+// ```
 
-执行用时 :292 ms, 在所有 C++ 提交中击败了68.81% 的用户
+// 执行用时 :292 ms, 在所有 C++ 提交中击败了68.81% 的用户

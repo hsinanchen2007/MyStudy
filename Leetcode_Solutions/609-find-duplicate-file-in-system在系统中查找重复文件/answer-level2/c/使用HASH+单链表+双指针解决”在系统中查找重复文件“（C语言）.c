@@ -1,22 +1,22 @@
-### 解题思路
-使用C语言解决这道问题比较挑战，难度超过中等。
+// ### 解题思路
+// 使用C语言解决这道问题比较挑战，难度超过中等。
 
-1.将字符串取出，首先得到文件路径
+// 1.将字符串取出，首先得到文件路径
 
-2.然后逐文件解析，使用双指针，右指针找空格
+// 2.然后逐文件解析，使用双指针，右指针找空格
 
-3.每得到一个文件，进行一次hash查重，并保存
+// 3.每得到一个文件，进行一次hash查重，并保存
 
-4.最后便来hash表，构造结果，注意三重指针，应该构造两级指针数组
+// 4.最后便来hash表，构造结果，注意三重指针，应该构造两级指针数组
 
-另外C处理有个小技巧，为了方便双指针循环，在处理一个文件路径的时候，先将结尾的‘\0'转为‘ ’，处理结束再恢复
+// 另外C处理有个小技巧，为了方便双指针循环，在处理一个文件路径的时候，先将结尾的‘\0'转为‘ ’，处理结束再恢复
 
-![image.png](https://pic.leetcode-cn.com/ec08ceb303a0a75871a48fc2502c541d933525c46cf87d3757b8bdceb5d46919-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ec08ceb303a0a75871a48fc2502c541d933525c46cf87d3757b8bdceb5d46919-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -204,4 +204,4 @@ char *** findDuplicate(char ** paths, int pathsSize, int* returnSize, int** retu
     *returnColumnSizes = rcol_size;
     return res;
 }
-```
+// ```

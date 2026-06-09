@@ -1,12 +1,12 @@
-### 解题思路
-整体用的二分法,从0查到其平方根取整位置
-要注意两个特殊情况：
-1.a=0，b=sqrt(c)
-2.a==b
+# ### 解题思路
+# 整体用的二分法,从0查到其平方根取整位置
+# 要注意两个特殊情况：
+# 1.a=0，b=sqrt(c)
+# 2.a==b
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import math
 class Solution(object):
     def judgeSquareSum(self, c):
@@ -21,4 +21,4 @@ class Solution(object):
             else:
                 j -= 1
         return False
-```
+# ```

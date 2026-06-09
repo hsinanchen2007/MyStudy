@@ -1,9 +1,9 @@
-### 解题思路
-利用递归将手动全排列的过程实现出来即可
+// ### 解题思路
+// 利用递归将手动全排列的过程实现出来即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -35,4 +35,4 @@ var permute = function(nums) {
     [A[i], A[j]] = [A[j], A[i]]
   }
 };
-```
+// ```

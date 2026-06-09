@@ -1,13 +1,13 @@
-### 解题思路
-学习一位大佬的写法的c语言版本
-自己在编译器里测试没问题
-进leetcode测试一直报错AddressSanitizer: stack-buffer-overflow on address...
-检查是 char s[] = ""; 没写大小
-但是不写大小的话VC可以通过欸。
+// ### 解题思路
+// 学习一位大佬的写法的c语言版本
+// 自己在编译器里测试没问题
+// 进leetcode测试一直报错AddressSanitizer: stack-buffer-overflow on address...
+// 检查是 char s[] = ""; 没写大小
+// 但是不写大小的话VC可以通过欸。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char *intToRoman(int num)
 {
 	char* map[4][10] = {
@@ -23,4 +23,4 @@ char *intToRoman(int num)
     strcat (s,map[0][num%10]);
 	return str;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-**两个指针同时为元音字母时交换，否者不为元音的指针加1或减1**
+// **两个指针同时为元音字母时交换，否者不为元音的指针加1或减1**
 class Solution {
 public:
     string reverseVowels(string s) {

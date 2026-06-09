@@ -1,5 +1,5 @@
-通过前缀树，可快速判断
-```
+// 通过前缀树，可快速判断
+// ```
 class Solution
 {
 private:
@@ -54,4 +54,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

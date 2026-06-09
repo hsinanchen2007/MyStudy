@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define CHARCTOR_NUM 26
 int checkInclusion(char * s1, char * s2) {
     int len1 = strlen(s1);
@@ -43,4 +43,4 @@ int checkInclusion(char * s1, char * s2) {
 
     return false;
 }
-```
+// ```

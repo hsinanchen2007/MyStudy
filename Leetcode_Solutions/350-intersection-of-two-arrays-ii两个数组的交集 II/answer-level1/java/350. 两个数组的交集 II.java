@@ -1,13 +1,13 @@
 
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/3
- *
- * 解题思路: 使用hashmap 记录个数
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/3
+//  *
+//  * 解题思路: 使用hashmap 记录个数
+//  */
+// ```
 public int[] intersect(int[] nums1, int[] nums2) {
     int[] res ;
     if(nums1.length == 0 || nums2.length == 0){
@@ -41,4 +41,4 @@ public int[] intersect(int[] nums1, int[] nums2) {
     return res;
 }
 
-```
+// ```

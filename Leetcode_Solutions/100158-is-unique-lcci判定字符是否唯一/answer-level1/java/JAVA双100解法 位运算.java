@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isUnique(String astr) {
          if(astr.length()<2)
@@ -14,5 +14,5 @@ class Solution {
         return true;
     }
 }
-```
-评论区的JAVA真是看到我头大。。 自己写一个
+// ```
+// 评论区的JAVA真是看到我头大。。 自己写一个

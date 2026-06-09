@@ -1,4 +1,4 @@
-```
+// ```
 /**
      * problem 600
      * @param num
@@ -40,4 +40,4 @@
             return bits_problem_600[count]+ findIntegers(temp);
         }
     }
-```
+// ```

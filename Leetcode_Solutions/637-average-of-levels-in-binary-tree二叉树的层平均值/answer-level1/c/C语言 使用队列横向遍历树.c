@@ -1,9 +1,9 @@
-### 解题思路
-使用队列横向遍历树
+// ### 解题思路
+// 使用队列横向遍历树
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -129,4 +129,4 @@ double* averageOfLevels(struct TreeNode* root, int* returnSize){
 	*returnSize = level;
 	return rlt;
 }
-```
+// ```

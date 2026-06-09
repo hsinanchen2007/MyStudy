@@ -1,6 +1,6 @@
 
-单调栈
-```swift
+// 单调栈
+// ```swift
 class Solution {
     func dailyTemperatures(_ T: [Int]) -> [Int] {
         let n = T.count
@@ -28,4 +28,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

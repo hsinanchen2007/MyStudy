@@ -1,5 +1,5 @@
- 每次从数量最多的字符中取一个插入当前序列，注意：同一种字符不能连续取用超过2次
-```java
+//  每次从数量最多的字符中取一个插入当前序列，注意：同一种字符不能连续取用超过2次
+// ```java
     public String longestDiverseString(int a, int b, int c) {
         int[][] arr={{a,'a'},{b,'b'},{c,'c'}};
         StringBuilder sb=new StringBuilder();
@@ -20,4 +20,4 @@
         }
         return sb.toString();
     }
-```
+// ```

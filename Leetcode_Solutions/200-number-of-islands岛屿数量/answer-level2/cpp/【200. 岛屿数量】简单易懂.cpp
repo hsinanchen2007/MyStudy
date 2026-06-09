@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```
+// ## 思路
+// ### 代码
+// ```
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {        
@@ -32,10 +32,10 @@ public:
         dfs(grid, visited, row, col + 1);
     }
 };
-```
-#### 另一种写法
-优化空间复杂度，访问过就重置值为 0。
-```c++
+// ```
+// #### 另一种写法
+// 优化空间复杂度，访问过就重置值为 0。
+// ```c++
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {        
@@ -66,5 +66,5 @@ public:
         dfs(grid, row, col + 1);
     }
 };
-```
+// ```
 

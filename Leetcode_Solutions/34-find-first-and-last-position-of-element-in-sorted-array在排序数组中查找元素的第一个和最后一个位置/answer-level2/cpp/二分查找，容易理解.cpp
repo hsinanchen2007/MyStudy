@@ -1,8 +1,8 @@
-### 解题思路
-时间复杂度要求O(logn),使用二分查找
-### 代码
+// ### 解题思路
+// 时间复杂度要求O(logn),使用二分查找
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -22,4 +22,4 @@ public:
         return {-1, -1};
     }
 };
-```
+// ```

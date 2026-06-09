@@ -1,4 +1,4 @@
-public class _226_翻转二叉树 {
+// public class _226_翻转二叉树 {
 	public TreeNode invertTree(TreeNode root) {
 				if (root == null)  return root;
 			

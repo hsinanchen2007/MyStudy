@@ -1,6 +1,6 @@
-两次翻转链表即可。
+// 两次翻转链表即可。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode *plusOne(ListNode *head) {
@@ -42,4 +42,4 @@ private:
         return pre;
     }
 };
-```
+// ```

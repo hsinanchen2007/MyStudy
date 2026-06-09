@@ -1,10 +1,10 @@
-### 解题思路
-step1. 遍历一遍获取链表的长度。
-step2. 再次遍历到中间节点，然后返回。
+// ### 解题思路
+// step1. 遍历一遍获取链表的长度。
+// step2. 再次遍历到中间节点，然后返回。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

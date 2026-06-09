@@ -1,6 +1,6 @@
 
-每次匹配都是先找到值最大的那个数组的编号，然后让值较小的那些数组右移指针去适应。
-```python
+# 每次匹配都是先找到值最大的那个数组的编号，然后让值较小的那些数组右移指针去适应。
+# ```python
 class Solution:
     def arraysIntersection(self, arr1, arr2, arr3):
         idxs = [0, 0, 0]
@@ -26,4 +26,4 @@ class Solution:
                     if idxs[i] == len(arrs[i]):
                         return res
         return res
-```
+# ```

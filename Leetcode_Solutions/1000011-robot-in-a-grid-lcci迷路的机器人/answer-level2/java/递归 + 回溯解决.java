@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private LinkedList<List<Integer>> res = new LinkedList<>();
     private int rows;
@@ -52,4 +52,4 @@ class Solution {
         res.removeLast();
     }
 }
-```
+// ```

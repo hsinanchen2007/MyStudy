@@ -1,9 +1,9 @@
-### 解题思路
-递归+回溯
+// ### 解题思路
+// 递归+回溯
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -57,4 +57,4 @@ char ** letterCasePermutation(char * S, int* returnSize){
     return ret;
     
 }
-```
+// ```

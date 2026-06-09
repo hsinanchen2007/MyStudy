@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-dp
+// dp
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -23,4 +23,4 @@ var lengthOfLIS = function(nums) {
     dp.sort((a, b) => b - a)
     return dp[0]
 };
-```
+// ```

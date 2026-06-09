@@ -1,22 +1,22 @@
-### 解题思路
-丑数的经典构造方法为：
+// ### 解题思路
+// 丑数的经典构造方法为：
 
-1.为素数列表中的每个素数构建一个id
+// 1.为素数列表中的每个素数构建一个id
 
-2.遍历素数列表，列表中每个素数可以构造的下一个最小的新丑数为prime * results[id];
+// 2.遍历素数列表，列表中每个素数可以构造的下一个最小的新丑数为prime * results[id];
 
-3.选取所有下一个最小的新丑数中的最小值作为真正的新丑数(注意最小值有可能有重复，直接更新重复最小值的素数的id)
+// 3.选取所有下一个最小的新丑数中的最小值作为真正的新丑数(注意最小值有可能有重复，直接更新重复最小值的素数的id)
 
-4.更新取得最小值的素数id
+// 4.更新取得最小值的素数id
 
-5.循环处理，直到得到n个结果，并将其返回
+// 5.循环处理，直到得到n个结果，并将其返回
 
-![image.png](https://pic.leetcode-cn.com/b88d7edcd136393b3dc9349415bd1b0219615a7ac77c906153e8fe9b7d5d9242-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b88d7edcd136393b3dc9349415bd1b0219615a7ac77c906153e8fe9b7d5d9242-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
  * @lc app=leetcode.cn id=313 lang=c
  *
@@ -72,4 +72,4 @@ int nthSuperUglyNumber(int n, int* primes, int primesSize){
 // @lc code=end
 
 
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-max 记录最大利润
-min 记录最小价格
-一个for循环解决。
+// ### 解题思路
+// max 记录最大利润
+// min 记录最小价格
+// 一个for循环解决。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -19,4 +19,4 @@ var maxProfit = function(prices) {
     }
     return max;
 };
-```
+// ```

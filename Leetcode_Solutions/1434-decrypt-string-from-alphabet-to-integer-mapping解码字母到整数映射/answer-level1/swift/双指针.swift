@@ -1,9 +1,9 @@
-### 解题思路
-两个指针，一个指向字符串当前索引，一个指向2个身位后的索引
+// ### 解题思路
+// 两个指针，一个指向字符串当前索引，一个指向2个身位后的索引
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func freqAlphabets(_ s: String) -> String {
         
@@ -57,4 +57,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

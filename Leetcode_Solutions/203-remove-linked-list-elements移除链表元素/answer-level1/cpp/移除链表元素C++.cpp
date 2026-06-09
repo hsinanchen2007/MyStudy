@@ -1,9 +1,9 @@
-### 解题思路
-简单题，删除满足题目要求的节点即可
+// ### 解题思路
+// 简单题，删除满足题目要求的节点即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ public:
         return first->next;
     }
 };
-```
+// ```

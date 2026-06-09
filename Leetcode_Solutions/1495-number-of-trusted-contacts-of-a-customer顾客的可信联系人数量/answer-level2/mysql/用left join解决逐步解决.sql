@@ -1,4 +1,4 @@
--- //查出每个人的联系人数
+-- -- //查出每个人的联系人数
 -- (select count(user_id) contacts_cnt, user_id
 -- from Contacts
 -- group by user_id) t1

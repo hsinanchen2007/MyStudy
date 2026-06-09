@@ -1,6 +1,6 @@
-golang中Sort.Search函数本身就是二分搜索，但数组需要确保已经排序。
+// golang中Sort.Search函数本身就是二分搜索，但数组需要确保已经排序。
 
-```go
+// ```go
 func searchRange(nums []int, target int) []int {
 
 	i := sort.SearchInts(nums, target) // Sort Search 
@@ -17,4 +17,4 @@ func searchRange(nums []int, target int) []int {
 	return []int{-1, -1}
 
 }
-```
+// ```

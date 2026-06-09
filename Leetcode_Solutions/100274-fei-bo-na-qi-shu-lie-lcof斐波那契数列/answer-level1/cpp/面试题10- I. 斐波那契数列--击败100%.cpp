@@ -1,12 +1,12 @@
-### 解题思路
-不要写1e9+7
-每步取模
-带缓存动态规划
-![image.png](https://pic.leetcode-cn.com/0fa4ef8ad326fd64231b339815dcc284c60071087f0462cd48e65959166f750e-image.png)
+// ### 解题思路
+// 不要写1e9+7
+// 每步取模
+// 带缓存动态规划
+// ![image.png](https://pic.leetcode-cn.com/0fa4ef8ad326fd64231b339815dcc284c60071087f0462cd48e65959166f750e-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int fib(int n) {
@@ -19,4 +19,4 @@ public:
         return dp[n];
     }
 };
-```
+// ```

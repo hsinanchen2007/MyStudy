@@ -1,9 +1,9 @@
-### 解题思路
-首先确定窗口长度，start、end 分别为窗口的两边，开始需要将end到达需要的位置，start从head开始，当 end 到达时，开始start、end 同时移动，直到 end 为空
-（注： 需要确定所需要窗口长度，建立head 前一个节点）
-### 代码
+// ### 解题思路
+// 首先确定窗口长度，start、end 分别为窗口的两边，开始需要将end到达需要的位置，start从head开始，当 end 到达时，开始start、end 同时移动，直到 end 为空
+// （注： 需要确定所需要窗口长度，建立head 前一个节点）
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,4 +38,4 @@ class Solution {
 
     }
 }
-```
+// ```

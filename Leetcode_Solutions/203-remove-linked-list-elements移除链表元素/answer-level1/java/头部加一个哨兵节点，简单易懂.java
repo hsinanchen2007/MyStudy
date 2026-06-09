@@ -1,4 +1,4 @@
-```
+// ```
  public ListNode removeElements(ListNode head, int val) {
         if (head == null) return head;
         ListNode sentinel = new ListNode(-1000);
@@ -14,4 +14,4 @@
         }
         return sentinel.next;
     }
-```
+// ```

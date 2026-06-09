@@ -1,9 +1,9 @@
-### 解题思路
-辗转相除
+// ### 解题思路
+// 辗转相除
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //辗转相除——只要求长度的最大公约数即可
     private int find(int x ,int y){
@@ -16,4 +16,4 @@ class Solution {
         return str1.substring(0,find(str1.length(),str2.length()));
     }
 }
-```
+// ```

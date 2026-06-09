@@ -1,10 +1,10 @@
-### 解题思路
-深度优先搜索
-找到1个土地，然后向四周查找。
-找到之后标记为找到。在当前数据中操作，预留后续还原。
-### 代码
+// ### 解题思路
+// 深度优先搜索
+// 找到1个土地，然后向四周查找。
+// 找到之后标记为找到。在当前数据中操作，预留后续还原。
+// ### 代码
 
-```c
+// ```c
 #define MAXSIZE 50
 #define MAX(a, b) ((a > b) ? a : b)
 #define WATER 0
@@ -76,4 +76,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize)
 END:
     return iRetMaxArea;
 }
-```
+// ```

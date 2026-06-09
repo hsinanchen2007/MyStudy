@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func sumZero(_ n: Int) -> [Int] {
         var ans: [Int] = n % 2 == 1 ? [0] : []
@@ -8,4 +8,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

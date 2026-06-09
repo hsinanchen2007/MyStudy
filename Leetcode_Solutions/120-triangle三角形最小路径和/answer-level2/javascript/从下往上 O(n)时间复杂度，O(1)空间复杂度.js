@@ -1,4 +1,4 @@
-```js
+// ```js
 var minimumTotal = function(triangle) {
     let len = triangle.length;
     for (let i = len - 2; i > -1; i--) {
@@ -8,4 +8,4 @@ var minimumTotal = function(triangle) {
     }
     return triangle[0][0];
 };
-```
+// ```

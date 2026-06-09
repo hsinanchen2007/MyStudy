@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/287d7fe47464c6458b6aa997bfb936c5d7dc5d310e7ed4ac585c574c05059469-image.png)
+# ![image.png](https://pic.leetcode-cn.com/287d7fe47464c6458b6aa997bfb936c5d7dc5d310e7ed4ac585c574c05059469-image.png)
 
 
-```
+# ```
 '''
 暴力枚举可能的字符串，保证长度是n的滑动窗口在字符串上往右滑时候
 每次窗口里面的子串都不一样， n位k进制数，总共k**n种，有k**n个窗口
@@ -48,4 +48,4 @@ class Solution:
         self.dfs(0, int(k**n-1) + n, n, k, [], ans, set())
 
         return ans[0]
-```
+# ```

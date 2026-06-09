@@ -1,9 +1,9 @@
-### 解题思路
-参考官方题解思路
+// ### 解题思路
+// 参考官方题解思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 char* compressString(char* S){
     int size = strlen(S);
@@ -35,4 +35,4 @@ char* compressString(char* S){
 }
 
 
-```
+// ```

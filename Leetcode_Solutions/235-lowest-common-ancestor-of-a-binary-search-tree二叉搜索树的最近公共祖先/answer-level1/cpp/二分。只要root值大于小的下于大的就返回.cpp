@@ -1,9 +1,9 @@
-### 解题思路
-这道题很简单 就是找root->val>=p->val&&root->val<=q->val或者root->val>=q->val&&root->val<=p->val
+// ### 解题思路
+// 这道题很简单 就是找root->val>=p->val&&root->val<=q->val或者root->val>=q->val&&root->val<=p->val
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ public:
         return root;
     }
 };
-```
+// ```

@@ -1,18 +1,18 @@
-## 思路:
+# ## 思路:
 
-二叉搜索树, 一节点大于左子树节点, 小于右子树节点
+# 二叉搜索树, 一节点大于左子树节点, 小于右子树节点
 
-所以我们节点是从`1`到`n`,当一个节点为`val`那么它的左边是`<= val`,右边是`>=val`,
+# 所以我们节点是从`1`到`n`,当一个节点为`val`那么它的左边是`<= val`,右边是`>=val`,
 
-我们用递归解决!
+# 我们用递归解决!
 
-----------
+# ----------
 
-相关题型 : [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)
+# 相关题型 : [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)
 
-## 代码:
+# ## 代码:
 
-```python [1]
+# ```python [1]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -38,11 +38,11 @@ class Solution:
             return res
 
         return helper(1, n)
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -81,7 +81,7 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 
 
 

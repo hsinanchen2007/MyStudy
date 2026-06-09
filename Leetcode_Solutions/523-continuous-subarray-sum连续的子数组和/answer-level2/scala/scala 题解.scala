@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def checkSubarraySum(nums: Array[Int], k: Int): Boolean = {
     nums.indices.foreach(i => {
@@ -12,4 +12,4 @@ object Solution {
     false
   }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-如果识别到正常的目录则将其入栈，如果监测到..则将栈顶元素弹出，回到上一级目录。
+// ### 解题思路
+// 如果识别到正常的目录则将其入栈，如果监测到..则将栈顶元素弹出，回到上一级目录。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String simplifyPath(String path) {
         Stack<String> stack = new Stack<String>();
@@ -44,4 +44,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

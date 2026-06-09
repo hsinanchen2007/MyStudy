@@ -1,5 +1,5 @@
-[更多LeetCode题解](https://github.com/heyihui001/LeetCode)
-```java
+// [更多LeetCode题解](https://github.com/heyihui001/LeetCode)
+// ```java
 class Solution {
     public TreeNode deleteNode(TreeNode root, int key) {
         if(root == null) {
@@ -62,4 +62,4 @@ class Solution {
         return findMin(root.left);
     }
 }
-```
+// ```

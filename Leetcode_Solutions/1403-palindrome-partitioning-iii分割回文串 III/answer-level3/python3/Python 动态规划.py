@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/da581a1b1048e396df6081af5b7ee1bc7c351efce21a79e170631815248a3bd7-image.png)
+# ![image.png](https://pic.leetcode-cn.com/da581a1b1048e396df6081af5b7ee1bc7c351efce21a79e170631815248a3bd7-image.png)
 
 
-```
+# ```
 from functools import lru_cache
 class Solution:
     # 不对称的字符个数
@@ -31,4 +31,4 @@ class Solution:
                         dp[i][j] = min(dp[i][j], self.getDiffCharNum(s[x:i+1]) + dp[x-1][j-1])
                         x -= 1
         return dp[n-1][k]
-```
+# ```

@@ -1,5 +1,5 @@
-创建变量i和j，分别从头和尾向中间遍历，当S[i]和S[j]同时为字母时交换，否则就照搬。
-```c
+// 创建变量i和j，分别从头和尾向中间遍历，当S[i]和S[j]同时为字母时交换，否则就照搬。
+// ```c
 char * reverseOnlyLetters(char * S){
     int length=0,i,j;
     while(S[length]!=0) length++;
@@ -26,4 +26,4 @@ char * reverseOnlyLetters(char * S){
     S=str;
     return S;
 }
-```
+// ```

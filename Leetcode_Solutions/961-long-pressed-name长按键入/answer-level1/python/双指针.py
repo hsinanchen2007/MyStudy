@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
     def isLongPressedName(self, name, typed):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             return True
         else:
             return False
-```
+# ```

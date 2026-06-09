@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-字符串操作，边界情况很多。
+// 字符串操作，边界情况很多。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string validIPAddress(string IP) {
@@ -83,4 +83,4 @@ public:
         res.push_back(s.substr(start, s.size() - start));
     }
 };
-```
+// ```

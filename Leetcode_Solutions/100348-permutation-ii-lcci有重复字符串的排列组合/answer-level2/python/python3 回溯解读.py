@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-排序解决问题，这里的排序是参考题解里面的一位[道友](https://leetcode-cn.com/problems/permutation-ii-lcci/solution/python-li-yong-pai-xu-qu-zhong-de-hui-su-fa-ji-bai/)的
-，可以去看一看，思路很好。
+# ### 解题思路
+# 此处撰写解题思路
+# 排序解决问题，这里的排序是参考题解里面的一位[道友](https://leetcode-cn.com/problems/permutation-ii-lcci/solution/python-li-yong-pai-xu-qu-zhong-de-hui-su-fa-ji-bai/)的
+# ，可以去看一看，思路很好。
 
-一道很好的回溯的练习题目
+# 一道很好的回溯的练习题目
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from itertools import permutations
 class Solution:
     def permutation(self, S: str) -> List[str]:
@@ -67,4 +67,4 @@ class Solution:
         #     ans.append(''.join(i))
         # return ans
 
-```
+# ```

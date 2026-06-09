@@ -1,8 +1,8 @@
-### 解题思路
-刚从求数的最大深度过来，直接套用
-### 代码
+// ### 解题思路
+// 刚从求数的最大深度过来，直接套用
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -24,4 +24,4 @@ int maxdepth(struct TreeNode *root){
     int r=maxdepth(root->right)+1;
     return l>r?l:r;
 }
-```
+// ```

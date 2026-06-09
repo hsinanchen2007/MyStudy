@@ -1,4 +1,4 @@
-最简单的方法 就是直接用linkedList 去构造.
+// 最简单的方法 就是直接用linkedList 去构造.
 
 
 class MyHashSet {

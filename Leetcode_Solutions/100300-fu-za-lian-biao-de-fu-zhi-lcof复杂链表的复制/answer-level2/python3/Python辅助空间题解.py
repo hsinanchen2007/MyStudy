@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -33,4 +33,4 @@ class Solution:
                 p2.random=note[p1.random]
             p1=p1.next
         return newHead
-```
+# ```

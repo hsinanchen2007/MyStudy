@@ -1,13 +1,13 @@
-### 解题思路
-这题由两步组成：
-1. 获取树的深度d，这样就可以确认list的长度为2^d - 1
-2. 生成每一层的树的list，使用步长来处理，每个节点的pos=step * j + step / 2 - 1;
-![image.png](https://pic.leetcode-cn.com/66c0d2ffbc0c9ee2698d1dd059770955d17f98a01b51dbc80657e5429b423cd5-image.png)
+// ### 解题思路
+// 这题由两步组成：
+// 1. 获取树的深度d，这样就可以确认list的长度为2^d - 1
+// 2. 生成每一层的树的list，使用步长来处理，每个节点的pos=step * j + step / 2 - 1;
+// ![image.png](https://pic.leetcode-cn.com/66c0d2ffbc0c9ee2698d1dd059770955d17f98a01b51dbc80657e5429b423cd5-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -60,4 +60,4 @@ class Solution {
         return Math.max(left, right);
     }
 }
-```
+// ```

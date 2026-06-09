@@ -1,11 +1,11 @@
-### 解题思路
-对于每个字符串，使用bitset对其出现的字符计数，如果重复，bitset置0
-遍历每个字符串，以该字符串为首，开始拼接，并记录该次使用过字符的bitset
-后续字符串自身的bitset 与 前一次回溯的bitset，判定是否有重复位，如果有，则跳过本次迭代，没有则加入该字符串的bitset位，比较加入后的bitset为1的个数与结果result的大小，更新result
+// ### 解题思路
+// 对于每个字符串，使用bitset对其出现的字符计数，如果重复，bitset置0
+// 遍历每个字符串，以该字符串为首，开始拼接，并记录该次使用过字符的bitset
+// 后续字符串自身的bitset 与 前一次回溯的bitset，判定是否有重复位，如果有，则跳过本次迭代，没有则加入该字符串的bitset位，比较加入后的bitset为1的个数与结果result的大小，更新result
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxLength(vector<string>& arr) {
@@ -52,4 +52,4 @@ public:
         }
     }
 };
-```
+// ```

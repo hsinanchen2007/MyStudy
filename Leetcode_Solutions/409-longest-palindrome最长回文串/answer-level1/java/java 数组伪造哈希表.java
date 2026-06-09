@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int longestPalindrome(String s) {
         int[] count = new int[58]; // z - A = 57
@@ -14,4 +14,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

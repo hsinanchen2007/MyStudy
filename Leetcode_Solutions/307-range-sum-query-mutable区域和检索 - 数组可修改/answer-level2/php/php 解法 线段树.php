@@ -1,4 +1,4 @@
-```
+// ```
 class NumArray {
     /**
      * @param Integer[] $nums
@@ -57,4 +57,4 @@ class NumArray {
         return $sum;
     }
 }
-```
+// ```

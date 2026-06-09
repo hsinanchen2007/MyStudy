@@ -1,5 +1,5 @@
-# python用index实现就很简单
-```
+# # python用index实现就很简单
+# ```
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         if len(s) > len(t):
@@ -11,4 +11,4 @@ class Solution:
                 i = t.index(str_0)
                 t = t[i+1:]
         return True
-```
+# ```

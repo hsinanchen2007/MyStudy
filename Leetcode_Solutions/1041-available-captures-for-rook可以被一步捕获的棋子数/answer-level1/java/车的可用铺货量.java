@@ -1,9 +1,9 @@
-### 解题思路
-简单的dfs
+// ### 解题思路
+// 简单的dfs
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int result = 0;
@@ -56,4 +56,4 @@ class Solution {
         return right(board, curX, curY+1);
     }
 }
-```
+// ```

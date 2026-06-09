@@ -1,4 +1,4 @@
-```go
+// ```go
 func uniqueMorseRepresentations(words []string) int {
 	codes := []string{".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."}
 
@@ -13,11 +13,11 @@ func uniqueMorseRepresentations(words []string) int {
 	}
 	return len(uniqueWord)
 }
-```
+// ```
 
-简化实现学习 https://leetcode-cn.com/problems/unique-morse-code-words/solution/4msgo-shi-xian-by-elliotxx-4/
+// 简化实现学习 https://leetcode-cn.com/problems/unique-morse-code-words/solution/4msgo-shi-xian-by-elliotxx-4/
 
-```go
+// ```go
 func uniqueMorseRepresentations2(words []string) int {
 	table := []string{".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."}
 	hash := map[string]bool{}
@@ -30,4 +30,4 @@ func uniqueMorseRepresentations2(words []string) int {
 	}
 	return len(hash)
 }
-```
+// ```

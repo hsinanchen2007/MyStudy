@@ -1,9 +1,9 @@
-### 解题思路
-解题思路见代码注释。
+// ### 解题思路
+// 解题思路见代码注释。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         // 1. 首先对数组进行排序，一方面可以较好的解决重复问题，另一方面求三数之和可以缩小范围
@@ -40,4 +40,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

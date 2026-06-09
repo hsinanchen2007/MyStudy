@@ -1,9 +1,9 @@
-### 解题思路
-用了哈希表。把已经走过的节点放到表中，如果重复了肯定就是有环
+// ### 解题思路
+// 用了哈希表。把已经走过的节点放到表中，如果重复了肯定就是有环
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

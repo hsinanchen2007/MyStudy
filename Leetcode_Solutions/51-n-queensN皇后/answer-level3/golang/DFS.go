@@ -1,7 +1,7 @@
-思路：
-首先，将n皇后分别放置在不同行， 然后使用DFS去探路确定每一行的皇后所在列的位置，找到则加入re中。
+// 思路：
+// 首先，将n皇后分别放置在不同行， 然后使用DFS去探路确定每一行的皇后所在列的位置，找到则加入re中。
 
-```
+// ```
 func solveNQueens(n int) [][]string {
     if n == 1 {
         return [][]string{{"Q"}}
@@ -57,4 +57,4 @@ func bQ (re [][]int,n int) (result [][]string) {
     }
     return
 }
-```
+// ```

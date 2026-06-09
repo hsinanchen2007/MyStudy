@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
     def titleToNumber(self, s):
         """
@@ -11,4 +11,4 @@ class Solution(object):
         for index,v in enumerate(s):
             sum+=((ord(v)-64)*26**index)
         return sum
-```
+# ```

@@ -1,7 +1,7 @@
-执行用时 : 29 ms, 在所有 Java 提交中击败了 99.11% 的用户
-内存消耗 : 38.9 MB, 在所有 Java 提交中击败了 100.00% 的用户
+// 执行用时 : 29 ms, 在所有 Java 提交中击败了 99.11% 的用户
+// 内存消耗 : 38.9 MB, 在所有 Java 提交中击败了 100.00% 的用户
 
-```
+// ```
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
@@ -45,4 +45,4 @@ class FooBar {
         }
     }
 }
-```
+// ```

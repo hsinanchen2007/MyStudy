@@ -1,11 +1,11 @@
-### 解题思路
-使用遍历加map的方式记录节点的深度和位置，通过每层的位置相减的最大值求得最后结果。
-![image.png](https://pic.leetcode-cn.com/0d9bf2e440359b48617462e2867747b9e5e3743a8bbf5db448e2ee442d705af1-image.png)
+// ### 解题思路
+// 使用遍历加map的方式记录节点的深度和位置，通过每层的位置相减的最大值求得最后结果。
+// ![image.png](https://pic.leetcode-cn.com/0d9bf2e440359b48617462e2867747b9e5e3743a8bbf5db448e2ee442d705af1-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         if (treeNode.right != null) traverse(treeNode.right, index * 2, depth + 1, map);
     }
 }
-```
+// ```

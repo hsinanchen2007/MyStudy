@@ -1,10 +1,10 @@
-### 解题思路
-#优先队列：最小堆。
-注意：在LEETCODE提供的python38中，heap不能包含自定义类，很无语，在anaconda上python37是允许的
+# ### 解题思路
+# #优先队列：最小堆。
+# 注意：在LEETCODE提供的python38中，heap不能包含自定义类，很无语，在anaconda上python37是允许的
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
         return ahead.next
 
 
-```
+# ```

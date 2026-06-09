@@ -1,12 +1,12 @@
-在BFS标签下找到的这题目，于是乎当然想着用BFS来解，解法上用数组 Tree[2] 来保存符合要求节点的父节点
+// 在BFS标签下找到的这题目，于是乎当然想着用BFS来解，解法上用数组 Tree[2] 来保存符合要求节点的父节点
 
 
-执行用时 :1 ms, 在所有 Java 提交中击败了66.44% 的用户
-内存消耗 :37.5 MB, 在所有 Java 提交中击败了5.29%的用户
+// 执行用时 :1 ms, 在所有 Java 提交中击败了66.44% 的用户
+// 内存消耗 :37.5 MB, 在所有 Java 提交中击败了5.29%的用户
 
-我发现最近刷的BFS题，每一道都是递归被评判速度更快....
+// 我发现最近刷的BFS题，每一道都是递归被评判速度更快....
 
-```
+// ```
     public boolean isCousins(TreeNode root, int x, int y) {
         if (root == null) return false;
         TreeNode[] nodes = new TreeNode[2];
@@ -34,4 +34,4 @@
         }
         return false;
     }
-```
+// ```

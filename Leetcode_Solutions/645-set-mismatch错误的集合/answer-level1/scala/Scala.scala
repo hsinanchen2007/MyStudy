@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def findErrorNums(nums: Array[Int]): Array[Int] = {
     val counter: Array[Int] = new Array[Int](nums.length + 1)
@@ -24,4 +24,4 @@ object Solution {
     result    
     }
 }
-```
+// ```

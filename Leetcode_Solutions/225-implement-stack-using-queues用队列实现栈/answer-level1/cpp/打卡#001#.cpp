@@ -1,5 +1,5 @@
-单队列实现, 入栈O(n), 出栈O(1).c++
-```
+// 单队列实现, 入栈O(n), 出栈O(1).c++
+// ```
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -45,4 +45,4 @@ public:
 private:
     queue<int> que;
 };
-```
+// ```

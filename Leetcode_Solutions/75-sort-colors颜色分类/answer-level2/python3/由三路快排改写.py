@@ -1,9 +1,9 @@
-### 解题思路
-利用三路快排，设置索引点，zero,i,two,nums[i]=1时不变，nums[i]<1时与nums[zero]交换位置，nums[i]>1时与nums[two]交换位置
+# ### 解题思路
+# 利用三路快排，设置索引点，zero,i,two,nums[i]=1时不变，nums[i]<1时与nums[zero]交换位置，nums[i]>1时与nums[two]交换位置
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortColors(self,nums:[int]):
         zero=-1
@@ -21,4 +21,4 @@ class Solution:
                 i+=1
         return nums
 
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-这道题毕竟是简单题。
-另外：
-mid的值可以取 **((r - l) >> 1) + l** or  **((r - l + 1) >> 1) + l**
-### 代码
+// ### 解题思路
+// 这道题毕竟是简单题。
+// 另外：
+// mid的值可以取 **((r - l) >> 1) + l** or  **((r - l + 1) >> 1) + l**
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ struct TreeNode *dfs(int *nums, int l, int r) {
 struct TreeNode* sortedArrayToBST(int* nums, int numsSize){
     return dfs(nums, 0, numsSize - 1);
 }
-```
+// ```

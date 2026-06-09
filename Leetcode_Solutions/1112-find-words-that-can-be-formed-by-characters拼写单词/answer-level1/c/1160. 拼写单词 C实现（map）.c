@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define CHARNUMS 26
 
 bool MasterWord(char* s, int* map, int* mapTemp)
@@ -43,4 +43,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     free(map);
     return len;
 }
-```
+// ```

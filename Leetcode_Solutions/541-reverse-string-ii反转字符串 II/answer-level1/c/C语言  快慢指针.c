@@ -1,9 +1,9 @@
-### 解题思路
-隔2k翻转一次k个数的区间，剩下的小于k个数的，全部反转即可
+// ### 解题思路
+// 隔2k翻转一次k个数的区间，剩下的小于k个数的，全部反转即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void serverse(char *a,int begin,int end)
 {
     while(begin<=end)
@@ -27,4 +27,4 @@ char * reverseStr(char * s, int k){
     return s;
 
 }
-```
+// ```

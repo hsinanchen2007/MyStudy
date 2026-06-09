@@ -1,6 +1,6 @@
-执行用时 :84 ms, 在所有 C++ 提交中击败了92.46% 的用户
-内存消耗 :16 MB, 在所有 C++ 提交中击败了90.52%的用户
-```
+// 执行用时 :84 ms, 在所有 C++ 提交中击败了92.46% 的用户
+// 内存消耗 :16 MB, 在所有 C++ 提交中击败了90.52%的用户
+// ```
 class Solution {
 public:
     int islandPerimeter(vector<vector<int>>& grid) {
@@ -22,4 +22,4 @@ public:
        return sum;
     }
 };
-```
+// ```

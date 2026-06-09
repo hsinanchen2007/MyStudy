@@ -1,4 +1,4 @@
-```
+// ```
 // 取最大最小值，采用数值排序算法，起始值为max，终止值为min
 int findKthLargest(int nums, int numsSize, int k) {
     int *numCount = NULL;
@@ -29,5 +29,5 @@ int findKthLargest(int nums, int numsSize, int k) {
     free(numCount);
     return ans;
 }
-```
+// ```
 

@@ -1,4 +1,4 @@
-```js
+// ```js
 var isUgly = function(num) {
   if (num <= 0) return false;
 
@@ -8,4 +8,4 @@ var isUgly = function(num) {
 
   return num === 1;
 };
-```
+// ```

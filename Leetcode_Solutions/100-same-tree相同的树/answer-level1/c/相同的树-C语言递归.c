@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/bfca3eb6b928dce76fbe091abf22036db533aacf8a12c44b6d28dd7f06e7e647-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bfca3eb6b928dce76fbe091abf22036db533aacf8a12c44b6d28dd7f06e7e647-image.png)
   
----
-**代码：**
-```
+// ---
+// **代码：**
+// ```
 bool isSameTree(struct TreeNode* p, struct TreeNode* q){
     // 判断只有一边为空情况
     if((p == NULL && q!= NULL) || (p != NULL && q== NULL)) 
@@ -21,4 +21,4 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q){
     
     return left && true && right;
 }
-```
+// ```

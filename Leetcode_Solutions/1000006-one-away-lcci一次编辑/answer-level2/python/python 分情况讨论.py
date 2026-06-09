@@ -1,8 +1,8 @@
-具体分为两大分支来处理：
+# 具体分为两大分支来处理：
 
-字符串长度相同 -> 遍历一遍找出不同等的字符，如果超过1次不同，则返回False
-字符串长度不同 -> 遍历，长的字符串丢下一个字符与另外一个字符串比较，如果相同就返回True
-```
+# 字符串长度相同 -> 遍历一遍找出不同等的字符，如果超过1次不同，则返回False
+# 字符串长度不同 -> 遍历，长的字符串丢下一个字符与另外一个字符串比较，如果相同就返回True
+# ```
 class Solution(object):
     def oneEditAway(self, first, second):
         """
@@ -40,7 +40,7 @@ class Solution(object):
                         return False
             return True
         return False
-```
+# ```
 
 
 

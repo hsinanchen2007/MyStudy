@@ -1,5 +1,5 @@
-64ms AC通过
-```python []
+# 64ms AC通过
+# ```python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
         if carry:
             p.next = ListNode(1)
         return result.next
-```
+# ```

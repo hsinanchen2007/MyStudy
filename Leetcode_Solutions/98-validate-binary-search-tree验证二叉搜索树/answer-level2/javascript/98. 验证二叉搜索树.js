@@ -1,8 +1,8 @@
-#### 解法一：二叉树的中序遍历基于栈
-+ [戳看94.二叉树的中序遍历题解](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/94-er-cha-shu-de-zhong-xu-bian-li-by-alexer-660/)
-+ 中序遍历又叫升序遍历
-  + 所以仅需判断当前出栈的节点与上一个节点的大小，大于等于则不符合
-```javascript
+// #### 解法一：二叉树的中序遍历基于栈
+// + [戳看94.二叉树的中序遍历题解](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/94-er-cha-shu-de-zhong-xu-bian-li-by-alexer-660/)
+// + 中序遍历又叫升序遍历
+//   + 所以仅需判断当前出栈的节点与上一个节点的大小，大于等于则不符合
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -36,10 +36,10 @@ var isValidBST = function(root) {
     }
     return true;
 };
-```
-#### 解法二：递归验证
-+ [戳看94二叉树的中序遍历指解法二](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/94-er-cha-shu-de-zhong-xu-bian-li-by-alexer-660/)
-```javascript
+// ```
+// #### 解法二：递归验证
+// + [戳看94二叉树的中序遍历指解法二](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/94-er-cha-shu-de-zhong-xu-bian-li-by-alexer-660/)
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -67,4 +67,4 @@ var isValidBST = function(root) {
     }
     return pushRoot(root);
 };
-```
+// ```

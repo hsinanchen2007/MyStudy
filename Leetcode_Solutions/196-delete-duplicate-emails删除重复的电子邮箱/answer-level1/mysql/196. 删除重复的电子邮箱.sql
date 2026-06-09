@@ -1,4 +1,4 @@
-答案：
+-- 答案：
 DELETE p3
 FROM Person p3 
 WHERE p3.id IN(select pp.id from (select p.id from  Person p, Person p2 where p.email=p2.email and p.id > p2.id) pp )

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     struct DSU {
@@ -32,6 +32,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/dec86e6084b82fc376079af13bdbef65b8bb4857d55d53de96b067c497546bb9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dec86e6084b82fc376079af13bdbef65b8bb4857d55d53de96b067c497546bb9-image.png)

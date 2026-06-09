@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码
+// ### 解题思路
+// 直接看代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     int i = m - 1;
     int j = n - 1;
@@ -27,4 +27,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
 
     return;
 }
-```
+// ```

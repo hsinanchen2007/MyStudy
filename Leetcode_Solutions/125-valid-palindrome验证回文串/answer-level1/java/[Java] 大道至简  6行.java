@@ -1,4 +1,4 @@
-```
+// ```
 public boolean isPalindrome(String s) {
         String str = s.toLowerCase();
         StringBuilder sb = new StringBuilder();
@@ -7,4 +7,4 @@ public boolean isPalindrome(String s) {
         }
         return sb.toString().equals(sb.reverse().toString());
     }
-```
+// ```

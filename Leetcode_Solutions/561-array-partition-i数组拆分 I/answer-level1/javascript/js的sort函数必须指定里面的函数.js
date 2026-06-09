@@ -1,9 +1,9 @@
-### 解题思路
-sort函数如果不指定里面的参数，就会按照字符的大小来排序，而不是按照数值的大小
+// ### 解题思路
+// sort函数如果不指定里面的参数，就会按照字符的大小来排序，而不是按照数值的大小
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -16,4 +16,4 @@ var arrayPairSum = function(nums) {
     }
     return sum;
 };
-```
+// ```

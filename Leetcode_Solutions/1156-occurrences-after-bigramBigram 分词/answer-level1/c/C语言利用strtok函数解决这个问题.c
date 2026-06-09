@@ -1,4 +1,4 @@
-```
+// ```
 char ** findOcurrences(char * text, char * first, char * second, int* returnSize){
     int len = strlen(text);
     char tmp[len+1];
@@ -26,4 +26,4 @@ char ** findOcurrences(char * text, char * first, char * second, int* returnSize
     *returnSize = head+1;
     return ret;
 }
-```
+// ```

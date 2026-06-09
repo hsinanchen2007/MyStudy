@@ -1,5 +1,5 @@
-### 1. 使用HashMap
-```
+// ### 1. 使用HashMap
+// ```
 use std::collections::HashMap;
 
 impl Solution {
@@ -24,12 +24,12 @@ impl Solution {
         res
     }
 }
-```
+// ```
 
 
-### 2. 暴力遍历
+// ### 2. 暴力遍历
 
-```
+// ```
 impl Solution {
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         let mut res = vec![];
@@ -46,4 +46,4 @@ impl Solution {
     }
 }
 
-```
+// ```

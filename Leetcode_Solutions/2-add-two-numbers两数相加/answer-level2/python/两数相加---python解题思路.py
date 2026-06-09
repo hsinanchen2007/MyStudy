@@ -1,6 +1,6 @@
-## 方法1：构建自己的链表
+# ## 方法1：构建自己的链表
 
-```python
+# ```python
 # 题目定义的节点
 class ListNode:
     def __init__(self, x):
@@ -60,11 +60,11 @@ class Solution:
         # 用于测试
         # new_li.show()       
         return new_li.head
-```
+# ```
 
-**这里需要注意的是返回的结果只要是第一个节点，LeetCode就会进行自动遍历进行校验**
+# **这里需要注意的是返回的结果只要是第一个节点，LeetCode就会进行自动遍历进行校验**
 
-```python
+# ```python
 test_1 = [2, 4, 3]
 test_2 = [5, 6, 4]
 l1 = LinkedList()
@@ -77,11 +77,11 @@ s = Solution()
 s.addTwoNumbers(l1.head, l2.head)
 # 上面这些是测试数据
 # 预计结果[7,0,8]
-```
+# ```
 
-运行结果：
+# 运行结果：
 
-```
+# ```
 执行用时 :72 ms, 在所有 python3 提交中击败了98.44% 的用户
 内存消耗 :14 MB, 在所有 python3 提交中击败了5.06%的用户
 
@@ -90,15 +90,15 @@ s.addTwoNumbers(l1.head, l2.head)
 
 执行用时 :84 ms, 在所有 python3 提交中击败了84.08% 的用户
 内存消耗 :13.9 MB, 在所有 python3 提交中击败了5.06%的用户
-```
+# ```
 
-这次没有遇到什么超时问题，还蛮顺利的o(￣︶￣)o
+# 这次没有遇到什么超时问题，还蛮顺利的o(￣︶￣)o
 
-## 方法2：正常判断
+# ## 方法2：正常判断
 
-核心思路和上面那个一样，代码进行优化
+# 核心思路和上面那个一样，代码进行优化
 
-```python
+# ```python
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         new_list_node = ListNode(-1)
@@ -139,11 +139,11 @@ class Solution:
             l2 = l2.next
         return head.next
           
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :72 ms, 在所有 Python3 提交中击败了69.02% 的用户
 内存消耗 :13.7 MB, 在所有 Python3 提交中击败了5.01%的用户
 
@@ -152,6 +152,6 @@ class Solution:
 
 执行用时 :80 ms, 在所有 Python3 提交中击败了41.45% 的用户
 内存消耗 :13.7 MB, 在所有 Python3 提交中击败了5.01%的用户
-```
+# ```
 
-欢迎来github上看更多题目的解答[力扣解题思路](
+# 欢迎来github上看更多题目的解答[力扣解题思路](

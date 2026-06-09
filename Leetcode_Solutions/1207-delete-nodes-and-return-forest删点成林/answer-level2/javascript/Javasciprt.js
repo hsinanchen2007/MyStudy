@@ -1,4 +1,4 @@
-```
+// ```
 var delNodes = function(root, to_delete) {
     let forest = [];
     if( root && to_delete.indexOf(root.val) === -1 ) forest.push(root);
@@ -14,4 +14,4 @@ var delNodes = function(root, to_delete) {
     readTree(root);
     return forest;
 };
-```
+// ```

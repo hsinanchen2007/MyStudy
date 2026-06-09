@@ -1,11 +1,11 @@
-### 解题思路
-小根堆用于存放资本，大根堆用于存放收益。
-![image.png](https://pic.leetcode-cn.com/e7316e5fbd8a08c71afce9dbf39e5493b22fd0e1fe0fb74a70d9b451714eca52-image.png)
+// ### 解题思路
+// 小根堆用于存放资本，大根堆用于存放收益。
+// ![image.png](https://pic.leetcode-cn.com/e7316e5fbd8a08c71afce9dbf39e5493b22fd0e1fe0fb74a70d9b451714eca52-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //贪心策略：从W>Capital[i]中收益最大的那个开始做项目
     public class Node{
@@ -46,4 +46,4 @@ class Solution {
         return W;
     }
 }
-```
+// ```

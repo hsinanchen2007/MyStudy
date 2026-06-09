@@ -1,9 +1,9 @@
-### 解题思路
-如果对称，则左子树等于右子树；右子树等于左子树
+// ### 解题思路
+// 如果对称，则左子树等于右子树；右子树等于左子树
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
         return one.val==two.val &&check(one.left,two.right) && check(one.right,two.left);
     }
 }
-```
+// ```

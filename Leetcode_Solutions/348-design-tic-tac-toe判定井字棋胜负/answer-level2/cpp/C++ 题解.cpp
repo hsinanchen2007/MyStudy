@@ -1,4 +1,4 @@
-``` C++ []
+// ``` C++ []
 class TicTacToe {
 public:
     vector<vector<int> > cols;
@@ -42,6 +42,6 @@ public:
  * TicTacToe* obj = new TicTacToe(n);
  * int param_1 = obj->move(row,col,player);
  */
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/cb1cf6ae22b99c01b650b0592eff8fb06c3ed1a42d38fd9b9b1d5d48a3ee22ac-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cb1cf6ae22b99c01b650b0592eff8fb06c3ed1a42d38fd9b9b1d5d48a3ee22ac-image.png)

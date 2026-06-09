@@ -1,4 +1,4 @@
-```python
+# ```python
 """
     1. dp问题, 公式为: dp[i] = dp[i - 1] + dp[i - 2].
     2. dp[0], dp[1]都为1
@@ -20,4 +20,4 @@ def climbStairs1(n):
 
 print(climbStairs(10))
 print(climbStairs1(10))
-```
+# ```

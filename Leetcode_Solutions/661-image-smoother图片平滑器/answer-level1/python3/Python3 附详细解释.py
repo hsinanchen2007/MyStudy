@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def imageSmoother(self, M: List[List[int]]) -> List[List[int]]:
         
@@ -15,4 +15,4 @@ class Solution:
                             count += 1  # 算算有多少个元素相加了
                 ans[r][c] //= count  # 这也要我解释？
         return ans
-```
+# ```

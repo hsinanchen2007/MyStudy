@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/c6fd1da8b30727dc4c2c8128c7ef00a6cb7a95b60b15c924e341778f9e5136a6-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/c6fd1da8b30727dc4c2c8128c7ef00a6cb7a95b60b15c924e341778f9e5136a6-image.png)
 
 
-和第一道题一样一样的
-### 代码
+// 和第一道题一样一样的
+// ### 代码
 
-```c
+// ```c
 int** generateMatrix(int n, int* returnSize, int** returnColumnSizes){
      if(n==0){
         *returnSize = 0;
@@ -60,4 +60,4 @@ int** generateMatrix(int n, int* returnSize, int** returnColumnSizes){
     }
     return matrix;
 }
-```
+// ```

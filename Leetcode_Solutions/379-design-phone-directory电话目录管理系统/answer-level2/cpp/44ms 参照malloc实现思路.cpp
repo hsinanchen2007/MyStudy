@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-链表储存已经分配的区间
+// 链表储存已经分配的区间
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class PhoneDirectory {
 public:
     /** Initialize your data structure here
@@ -68,4 +68,4 @@ public:
  * bool param_2 = obj->check(number);
  * obj->release(number);
  */
-```
+// ```

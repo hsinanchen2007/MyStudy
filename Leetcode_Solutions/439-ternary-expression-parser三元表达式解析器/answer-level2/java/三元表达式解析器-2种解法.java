@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：从左向右扫描
+// # 解法一：从左向右扫描
 
-时间复杂度和空间复杂度均是O(n)，其中n为字符串expression的长度。
+// 时间复杂度和空间复杂度均是O(n)，其中n为字符串expression的长度。
 
-执行用时：10ms，击败53.85%。消耗内存：41.2MB，击败7.84%。
+// 执行用时：10ms，击败53.85%。消耗内存：41.2MB，击败7.84%。
 
-```java
+// ```java
 public class Solution {
     private Map<Integer, Integer> map = new HashMap<>();    //键是每一个?的索引，值是该?对应的:的索引
 
@@ -34,15 +34,15 @@ public class Solution {
         return parseTernary(expression, map.get(left + 1) + 1, right);
     }
 }
-```
+// ```
 
-# 解法二：从右向左扫描
+// # 解法二：从右向左扫描
 
-时间复杂度和空间复杂度均是O(n)，其中n为字符串expression的长度。
+// 时间复杂度和空间复杂度均是O(n)，其中n为字符串expression的长度。
 
-执行用时：10ms，击败53.85%。消耗内存：38.8MB，击败25.49%。
+// 执行用时：10ms，击败53.85%。消耗内存：38.8MB，击败25.49%。
 
-```java
+// ```java
 public class Solution {
     public String parseTernary(String expression) {
         Stack<Character> stack = new Stack<>();
@@ -64,4 +64,4 @@ public class Solution {
         return stack.pop().toString();
     }
 }
-```
+// ```

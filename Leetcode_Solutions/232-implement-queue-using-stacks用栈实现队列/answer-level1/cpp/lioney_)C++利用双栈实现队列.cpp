@@ -1,4 +1,4 @@
-```
+// ```
 class MyQueue {
 public:
     /** Initialize your data structure here. */
@@ -40,4 +40,4 @@ public:
 private:
     stack<int> _new, _old;
 };
-```
+// ```

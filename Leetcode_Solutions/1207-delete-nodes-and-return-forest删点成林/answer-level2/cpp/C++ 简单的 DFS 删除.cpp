@@ -1,5 +1,5 @@
-很直接的思路：若该节点需要被删除，则将左右子树结点存入 res 中。若 res 中也存在被删除的结点，那么将其 erase。注意一开始需要先将 root 置入 res。
-```c++
+// 很直接的思路：若该节点需要被删除，则将左右子树结点存入 res 中。若 res 中也存在被删除的结点，那么将其 erase。注意一开始需要先将 root 置入 res。
+// ```c++
 class Solution {
 private:
     vector<TreeNode*> res;
@@ -43,4 +43,4 @@ public:
         }
     }
 };
-```
+// ```

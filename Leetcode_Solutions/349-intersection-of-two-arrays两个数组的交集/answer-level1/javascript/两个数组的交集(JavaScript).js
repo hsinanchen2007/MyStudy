@@ -1,9 +1,9 @@
-### 解题思路
-将数组1的不重复元素统计出来，遍历数组二，如果在数组2中存在，则是一个重复元素
+// ### 解题思路
+// 将数组1的不重复元素统计出来，遍历数组二，如果在数组2中存在，则是一个重复元素
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -39,4 +39,4 @@ var intersection = function(nums1, nums2) {
 
   return arr;
 };
-```
+// ```

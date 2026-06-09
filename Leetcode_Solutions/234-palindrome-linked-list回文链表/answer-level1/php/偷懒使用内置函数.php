@@ -1,12 +1,12 @@
-### 解题思路
-偷懒写法，但执行还挺快。。。
+// ### 解题思路
+// 偷懒写法，但执行还挺快。。。
 
-执行用时 :16 ms, 在所有 PHP 提交中击败了100.00% 的用户
-内存消耗 :25.7 MB, 在所有 PHP 提交中击败了7.69%的用户
+// 执行用时 :16 ms, 在所有 PHP 提交中击败了100.00% 的用户
+// 内存消耗 :25.7 MB, 在所有 PHP 提交中击败了7.69%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return $listArr == array_reverse($listArr) ? true : false;
     }
 }
-```
+// ```

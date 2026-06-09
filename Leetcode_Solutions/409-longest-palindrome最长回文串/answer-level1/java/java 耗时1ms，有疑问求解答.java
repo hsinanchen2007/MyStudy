@@ -1,6 +1,6 @@
-**curCount /2*2 这种写法耗时多,2ms，不知道为什么，希望有人能解答下~**
+// **curCount /2*2 这种写法耗时多,2ms，不知道为什么，希望有人能解答下~**
 
-```
+// ```
 class Solution {
     public int longestPalindrome(String s) {
         //先排除空串
@@ -31,4 +31,4 @@ class Solution {
         }
     }
 }
-```
+// ```

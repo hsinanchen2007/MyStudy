@@ -1,9 +1,9 @@
-### 解题思路
-直接把下一个节点的属性复制到当前node节点位置. 这相当于删掉了下一个节点, 且用它的值替换了当前节点. 那不就是相当于删除了当前node节点吗
+# ### 解题思路
+# 直接把下一个节点的属性复制到当前node节点位置. 这相当于删掉了下一个节点, 且用它的值替换了当前节点. 那不就是相当于删除了当前node节点吗
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
         p.next = after.next
         
              
-```
+# ```

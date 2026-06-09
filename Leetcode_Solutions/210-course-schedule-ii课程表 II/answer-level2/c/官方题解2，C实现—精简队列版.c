@@ -1,4 +1,4 @@
-```
+// ```
 #define QUE_MAX_SIZE 2000
 
 int front;
@@ -48,4 +48,4 @@ int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     }
     return rst;
 }
-```
+// ```

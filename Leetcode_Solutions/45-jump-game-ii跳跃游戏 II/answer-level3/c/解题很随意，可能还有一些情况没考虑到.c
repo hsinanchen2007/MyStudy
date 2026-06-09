@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-如果不考虑不能跳出的话，还能省略一些步骤！
+// ### 解题思路
+// 此处撰写解题思路
+// 如果不考虑不能跳出的话，还能省略一些步骤！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int jump(int* nums, int numsSize){
     int i,cout=1;
 	int record = -1;
@@ -29,4 +29,4 @@ int jump(int* nums, int numsSize){
 	}
 	return -1;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-[详细题解 leetcode179](https://leetcode-cn.com/problems/largest-number/solution/custerxue-xi-bi-ji-zi-ding-yi-gui-ze-jin-xing-pai-/)
+// ### 解题思路
+// [详细题解 leetcode179](https://leetcode-cn.com/problems/largest-number/solution/custerxue-xi-bi-ji-zi-ding-yi-gui-ze-jin-xing-pai-/)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // Time: O(n*log(n)), Space: O(n)
 func minNumber(nums []int) string {
   // 处理边界情况，如果数组为空或长度为0
@@ -31,4 +31,4 @@ func minNumber(nums []int) string {
   }
   return buffer.String()  
 }
-```
+// ```

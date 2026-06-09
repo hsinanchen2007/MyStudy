@@ -1,9 +1,9 @@
-### 动态规划
-此处撰写解题思路
+// ### 动态规划
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func climbStairs(n int) int {
     if n == 1 {
         return 1
@@ -18,4 +18,4 @@ func climbStairs(n int) int {
 }
 
 
-```
+// ```

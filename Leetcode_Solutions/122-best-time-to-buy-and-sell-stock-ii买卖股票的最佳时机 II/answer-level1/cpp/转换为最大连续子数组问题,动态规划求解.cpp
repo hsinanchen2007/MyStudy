@@ -1,9 +1,9 @@
-### 解题思路
-这题我见过,算法导论上有
+// ### 解题思路
+// 这题我见过,算法导论上有
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -32,4 +32,4 @@ public:
         return dp[dp.size()-1];
     }
 };
-```
+// ```

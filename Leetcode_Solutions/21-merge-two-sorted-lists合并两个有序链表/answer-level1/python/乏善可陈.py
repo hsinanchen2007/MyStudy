@@ -1,8 +1,8 @@
-乏善可陈。
+# 乏善可陈。
 
-整道题目的代码如下：
+# 整道题目的代码如下：
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -46,5 +46,5 @@ class Solution(object):
             cur.next = None
 
         return res
-```
+# ```
 

@@ -1,4 +1,4 @@
-    //坐标走的四个方向：{↑，→，↓，←}
+//     //坐标走的四个方向：{↑，→，↓，←}
     public static final int[][] directiont=new int[][]{{0,1},{1,0},{0,-1},{-1,0}};
     public static int m,n;//m为行数，n为列数
     public static int longestIncreasingPath(int[][] matrix) {

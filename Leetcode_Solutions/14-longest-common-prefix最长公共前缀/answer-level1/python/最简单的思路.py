@@ -1,5 +1,5 @@
-**直接看代码：**
-```
+# **直接看代码：**
+# ```
 class Solution(object):
     def longestCommonPrefix(self, strs):
         """
@@ -26,5 +26,5 @@ class Solution(object):
 
             common_prefix += common
         return common_prefix
-```
+# ```
 

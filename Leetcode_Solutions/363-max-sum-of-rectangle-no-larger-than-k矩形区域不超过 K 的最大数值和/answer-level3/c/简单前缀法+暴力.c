@@ -1,4 +1,4 @@
-**简单前缀法就可以过**
+// **简单前缀法就可以过**
 
 int Prefix(int** matrix, int matrixSize, int matrixColSize, int k) {
     int i, j, l, m, t , left, right, row;

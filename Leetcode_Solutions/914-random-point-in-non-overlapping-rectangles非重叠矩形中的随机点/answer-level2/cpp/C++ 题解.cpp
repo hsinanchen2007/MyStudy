@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int> > rects;
@@ -24,6 +24,6 @@ public:
         return {x, y};
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/bfef378c5d73984f755998b7c9914ada37c83c395345afa806541533e16172e4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bfef378c5d73984f755998b7c9914ada37c83c395345afa806541533e16172e4-image.png)

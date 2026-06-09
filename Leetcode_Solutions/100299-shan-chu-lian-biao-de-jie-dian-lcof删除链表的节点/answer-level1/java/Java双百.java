@@ -1,10 +1,10 @@
-![WechatIMG3.png](https://pic.leetcode-cn.com/d42e713b16633cda2e2298ca7abe395cd2ec77090c11199e4b99ece720f2ed17-WechatIMG3.png)
+// ![WechatIMG3.png](https://pic.leetcode-cn.com/d42e713b16633cda2e2298ca7abe395cd2ec77090c11199e4b99ece720f2ed17-WechatIMG3.png)
 
-### 解题思路
-就是记录相等值节点的前一个节点
-### 代码
+// ### 解题思路
+// 就是记录相等值节点的前一个节点
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -33,4 +33,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

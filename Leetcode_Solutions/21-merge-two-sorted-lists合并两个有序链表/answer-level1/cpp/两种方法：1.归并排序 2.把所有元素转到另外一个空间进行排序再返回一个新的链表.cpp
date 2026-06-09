@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -38,21 +38,21 @@ public:
     return list->next;
     }
 };
-```
-  ListNode *dummy = new ListNode(0);//这个是一个题解中一个大神写的，很简练，很厉害。
-    ListNode *cur = dummy;
-    while(l1 && l2)
-    {
-        if(l1->val <l2->val)
-        {
-            cur->next = l1;
-            l1 = l1->next;
-        }
-        else{
-            cur->next = l2;
-            l2 = l2->next;
-        }
-        cur = cur->next;
-    }
-    cur->next = l1 ? l1 :l2;//处理l1或者l2有剩余的情况
-    return dummy->next;
+// ```
+//   ListNode *dummy = new ListNode(0);//这个是一个题解中一个大神写的，很简练，很厉害。
+//     ListNode *cur = dummy;
+//     while(l1 && l2)
+//     {
+//         if(l1->val <l2->val)
+//         {
+//             cur->next = l1;
+//             l1 = l1->next;
+//         }
+//         else{
+//             cur->next = l2;
+//             l2 = l2->next;
+//         }
+//         cur = cur->next;
+//     }
+//     cur->next = l1 ? l1 :l2;//处理l1或者l2有剩余的情况
+//     return dummy->next;

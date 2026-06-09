@@ -1,10 +1,10 @@
-### 解题思路
-只需注意到一个根为root的二叉树，如果它是镜像对称的，则root.left和root.right互为镜像对称，使用递归便可。
+// ### 解题思路
+// 只需注意到一个根为root的二叉树，如果它是镜像对称的，则root.left和root.right互为镜像对称，使用递归便可。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
 }
 
 
-```
+// ```

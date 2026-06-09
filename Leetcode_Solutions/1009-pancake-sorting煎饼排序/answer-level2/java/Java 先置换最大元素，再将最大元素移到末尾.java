@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class Solution {
     
     public List<Integer> pancakeSort(int[] a) {
@@ -44,6 +44,6 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 
-更多leetcode的题解欢迎关注github[地址](https://github.com/JessenPan/leetcode)
+// 更多leetcode的题解欢迎关注github[地址](https://github.com/JessenPan/leetcode)

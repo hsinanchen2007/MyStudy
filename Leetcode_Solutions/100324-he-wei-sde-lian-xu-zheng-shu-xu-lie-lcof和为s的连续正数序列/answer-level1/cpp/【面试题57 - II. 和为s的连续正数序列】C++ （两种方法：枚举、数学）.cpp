@@ -1,14 +1,14 @@
-### 方法一：枚举+暴力循环
+// ### 方法一：枚举+暴力循环
 
-首先，至少含有两个数字说明，第一个数字属于1到floor(s/2)
-然后依次按照第一个数字从1开始枚举，暴力循环累加知道大于等于target，再判断是否==target
+// 首先，至少含有两个数字说明，第一个数字属于1到floor(s/2)
+// 然后依次按照第一个数字从1开始枚举，暴力循环累加知道大于等于target，再判断是否==target
 
-时间复杂度：$O(\text { target } \sqrt{\text { target }})$
-空间复杂度：$O(1)$
+// 时间复杂度：$O(\text { target } \sqrt{\text { target }})$
+// 空间复杂度：$O(1)$
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     //至少含有两个数字说明，第一个数字属于1到floor(s/2)
 
@@ -43,24 +43,24 @@ public:
         return res;
     }
 };
-```
+// ```
 
 
-### 方法二：数学分析
+// ### 方法二：数学分析
 
-首先，假设序列的起点为$x$、终点为$y$，则由等差数列求和：
-$x+(x+1)+\cdots+y=\frac{(x+y) *(y-x+1)}{2}=\text { target }$
-以$y$为变量，解$y^{2}+y-x^{2}+x-2 *$ target $=0$即可（注意舍掉小于0的根）
+// 首先，假设序列的起点为$x$、终点为$y$，则由等差数列求和：
+// $x+(x+1)+\cdots+y=\frac{(x+y) *(y-x+1)}{2}=\text { target }$
+// 以$y$为变量，解$y^{2}+y-x^{2}+x-2 *$ target $=0$即可（注意舍掉小于0的根）
 
-时间复杂度：$O(1)$
-空间复杂度：$O(1)$
+// 时间复杂度：$O(1)$
+// 空间复杂度：$O(1)$
 
-**注意：计算delta的时候要用到`*1ll`**
-`ll`代表`long long`, `*1ll`是为了在计算时，把`int`类型的变量转化为`long long`，然后再赋值给`long long`类型的变量。否则会报错int溢出。。。
-![image.png](https://pic.leetcode-cn.com/a8f31afd3a3237d0da8990c58af1924e1371cd996c1722ea847b2d833d139d70-image.png)
+// **注意：计算delta的时候要用到`*1ll`**
+// `ll`代表`long long`, `*1ll`是为了在计算时，把`int`类型的变量转化为`long long`，然后再赋值给`long long`类型的变量。否则会报错int溢出。。。
+// ![image.png](https://pic.leetcode-cn.com/a8f31afd3a3237d0da8990c58af1924e1371cd996c1722ea847b2d833d139d70-image.png)
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
     //数学方法
 public:
@@ -92,6 +92,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
 

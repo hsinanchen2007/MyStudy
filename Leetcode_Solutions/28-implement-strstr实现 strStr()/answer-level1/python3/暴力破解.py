@@ -1,6 +1,6 @@
-看了好些都是使用的KMP等方法， 但是复杂度都是O(NM)，所以尝试了暴力破解，复杂度为O(N)
-使用for循环时判断条件太多，还是使用while比较舒服。
-```
+# 看了好些都是使用的KMP等方法， 但是复杂度都是O(NM)，所以尝试了暴力破解，复杂度为O(N)
+# 使用for循环时判断条件太多，还是使用while比较舒服。
+# ```
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if not needle:
@@ -25,4 +25,4 @@ class Solution:
         #         else:return -1
         
         return -1
-```
+# ```

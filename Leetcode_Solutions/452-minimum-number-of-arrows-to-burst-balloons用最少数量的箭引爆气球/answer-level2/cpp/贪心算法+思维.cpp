@@ -1,10 +1,10 @@
-### 解题思路
-首先要发现有一个结论：若要删除一定数量的区间使得剩余区间互不相交，则气球总数-删除的数量的最少值=所需射箭的最小值。
-![image.png](https://pic.leetcode-cn.com/0644721f07cb5c0c6acf1c67ba203c38a53df71caff86dbd10b684a5009c81b8-image.png)
+// ### 解题思路
+// 首先要发现有一个结论：若要删除一定数量的区间使得剩余区间互不相交，则气球总数-删除的数量的最少值=所需射箭的最小值。
+// ![image.png](https://pic.leetcode-cn.com/0644721f07cb5c0c6acf1c67ba203c38a53df71caff86dbd10b684a5009c81b8-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     struct interval
@@ -42,4 +42,4 @@ public:
 	return res=st.size();
     }
 };
-```
+// ```

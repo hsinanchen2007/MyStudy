@@ -1,5 +1,5 @@
-使用切片，分为len(ListNode)/k 组，然后分组反转，存入切片中，最后将切片中节点首尾相连
-```
+// 使用切片，分为len(ListNode)/k 组，然后分组反转，存入切片中，最后将切片中节点首尾相连
+// ```
 func reverseKGroup(head *ListNode, k int) *ListNode {
  	if head == nil || head.Next == nil {
 		return head
@@ -34,4 +34,4 @@ func reverseKGroup(head *ListNode, k int) *ListNode {
 	}
 	return pre.Next
 }
-```
+// ```

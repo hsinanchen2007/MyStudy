@@ -1,8 +1,8 @@
-这里有借鉴：
- 1. [@powcai](/u/powcai/) 在46题的解答，大佬用 nums[:i] + nums[i+1:] 巧妙避开了重复利用的问题。
- 2. [@liweiwei1419](/u/liweiwei1419/) 在本题的回答,用nums[i]==nums[i-1]，进行剪枝。
- 代码如下
-```python
+# 这里有借鉴：
+#  1. [@powcai](/u/powcai/) 在46题的解答，大佬用 nums[:i] + nums[i+1:] 巧妙避开了重复利用的问题。
+#  2. [@liweiwei1419](/u/liweiwei1419/) 在本题的回答,用nums[i]==nums[i-1]，进行剪枝。
+#  代码如下
+# ```python
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         nums.sort() # 数组先排序
@@ -19,4 +19,4 @@ class Solution:
                 continue
             self.recur(nums[:i]+nums[i+1:],temp+[nums[i]]) #nums[:i]+nums[i+1:] 避免了重复利用。
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-具体见注释。
+// ### 解题思路
+// 具体见注释。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numIslands(char[][] grid) {
         
@@ -46,4 +46,4 @@ class Solution {
     return count;
     }
 }
-```
+// ```

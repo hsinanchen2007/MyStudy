@@ -1,10 +1,10 @@
-二分搜索插入位置, 再按照56题的插入就好了
-![tmp2.png](https://pic.leetcode-cn.com/6d5128e601df318fc6f26618e2bef5f7bbbeb8ba39c18a1e7e786afbd680bf46-tmp2.png)
-![tmp3.png](https://pic.leetcode-cn.com/7b66b97fe4126e6d75f0d29dbbec5386785988b7647ffb18f1be305a10637bb2-tmp3.png)
-![tmp1.png](https://pic.leetcode-cn.com/45e800ed5b59b0fe4e61de2b2b826b7801d2d01bd2d157e7c5d3ba72e2ffcb33-tmp1.png)
+// 二分搜索插入位置, 再按照56题的插入就好了
+// ![tmp2.png](https://pic.leetcode-cn.com/6d5128e601df318fc6f26618e2bef5f7bbbeb8ba39c18a1e7e786afbd680bf46-tmp2.png)
+// ![tmp3.png](https://pic.leetcode-cn.com/7b66b97fe4126e6d75f0d29dbbec5386785988b7647ffb18f1be305a10637bb2-tmp3.png)
+// ![tmp1.png](https://pic.leetcode-cn.com/45e800ed5b59b0fe4e61de2b2b826b7801d2d01bd2d157e7c5d3ba72e2ffcb33-tmp1.png)
 
 
-```
+// ```
 #define ll long long int
 #include <vector>
 #include <queue>
@@ -85,4 +85,4 @@ int main(void) {
 #endif
 
 
-```
+// ```

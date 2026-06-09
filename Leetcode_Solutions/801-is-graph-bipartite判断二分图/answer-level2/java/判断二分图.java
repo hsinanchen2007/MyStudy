@@ -1,7 +1,7 @@
-其实就是染色问题：保证在遍历的过程中：前后遍历的两个顶点染不一样的颜色，一旦不满足就返回false退出遍历
-创建一个colors数组来存储每个顶点的染色情况
-1 BFS
-```java
+// 其实就是染色问题：保证在遍历的过程中：前后遍历的两个顶点染不一样的颜色，一旦不满足就返回false退出遍历
+// 创建一个colors数组来存储每个顶点的染色情况
+// 1 BFS
+// ```java
 class Solution {
     public boolean isBipartite(int[][] graph) {
         int v = graph.length;
@@ -37,10 +37,10 @@ class Solution {
         return true;
     }
 }
-```
-2. DFS 
-其实可以用colors数组来代替visited数组保存顶点是否访问信息，少创建一个变量
-```java
+// ```
+// 2. DFS 
+// 其实可以用colors数组来代替visited数组保存顶点是否访问信息，少创建一个变量
+// ```java
 class Solution {
     public boolean isBipartite(int[][] graph) {
         int v = graph.length;
@@ -73,5 +73,5 @@ class Solution {
     }
 }
 
-```
+// ```
 

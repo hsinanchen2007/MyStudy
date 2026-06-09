@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 class Cashier {
 
@@ -37,4 +37,4 @@ class Cashier {
  * Cashier obj = new Cashier(n, discount, products, prices);
  * double param_1 = obj.getBill(product,amount);
  */
-```
+// ```

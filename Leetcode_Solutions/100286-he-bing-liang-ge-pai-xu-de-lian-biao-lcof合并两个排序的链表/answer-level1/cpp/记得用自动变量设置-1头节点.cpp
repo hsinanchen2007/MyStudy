@@ -1,9 +1,9 @@
- 如果写成auto p=new ListNode(-1)的话，程序运行完这个变量就丢了，
-虽然很多题目自己都不是很规范，但是作为答题人这方面的细节能够体现出
-内存控制的良好习惯。设置成自动变量时，直接返回nHead.next后，nhead
-自动变量自己释放掉了。
+//  如果写成auto p=new ListNode(-1)的话，程序运行完这个变量就丢了，
+// 虽然很多题目自己都不是很规范，但是作为答题人这方面的细节能够体现出
+// 内存控制的良好习惯。设置成自动变量时，直接返回nHead.next后，nhead
+// 自动变量自己释放掉了。
 
-``` C++ []
+// ``` C++ []
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ public:
         return nhead.next;
     }
 };
-```
+// ```

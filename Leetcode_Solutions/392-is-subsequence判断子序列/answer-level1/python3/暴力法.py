@@ -1,9 +1,9 @@
-### 解题思路
-简单明了了
+# ### 解题思路
+# 简单明了了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def isSubsequence(self, s, t):    
        
@@ -17,4 +17,4 @@ class Solution(object):
         return i==len(s)
 
 
-```
+# ```

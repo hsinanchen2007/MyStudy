@@ -1,11 +1,11 @@
-### 解题思路
-![码农黑板报.png](https://pic.leetcode-cn.com/f2cba6960d5cc658cbc71d7a6900daa6f8213f28c9ffc1826bf238197006ec0f-%E7%A0%81%E5%86%9C%E9%BB%91%E6%9D%BF%E6%8A%A5.png)
-![image.png](https://pic.leetcode-cn.com/0f3b6e20ce8c50c92db3b5efb171c034464474a64f06324702003fbb68148984-image.png)
+// ### 解题思路
+// ![码农黑板报.png](https://pic.leetcode-cn.com/f2cba6960d5cc658cbc71d7a6900daa6f8213f28c9ffc1826bf238197006ec0f-%E7%A0%81%E5%86%9C%E9%BB%91%E6%9D%BF%E6%8A%A5.png)
+// ![image.png](https://pic.leetcode-cn.com/0f3b6e20ce8c50c92db3b5efb171c034464474a64f06324702003fbb68148984-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -58,4 +58,4 @@ public:
         return res;
     }
 };
-```
+// ```

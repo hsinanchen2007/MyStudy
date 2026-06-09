@@ -1,13 +1,13 @@
-### 解题思路
-记得看注释：
- function TreeNode(val) {
-     this.val = val;
-      this.left = this.right = null;
-}
+// ### 解题思路
+// 记得看注释：
+//  function TreeNode(val) {
+//      this.val = val;
+//       this.left = this.right = null;
+// }
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -26,4 +26,4 @@ var isSameTree = function(p, q) {
     if(p.val != q.val) return false;
     return isSameTree(p.left,q.left) &&  isSameTree(p.right,q.right)
 };
-```
+// ```

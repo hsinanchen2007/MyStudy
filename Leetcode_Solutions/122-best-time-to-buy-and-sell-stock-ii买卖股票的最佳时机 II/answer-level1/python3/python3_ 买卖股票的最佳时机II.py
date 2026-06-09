@@ -1,4 +1,4 @@
-```python
+# ```python
 def maxProfit(prices):
     # 考虑[1,2,3], 最大利润 = 3 - 1,
     # 实际上等价于(2 - 1) + (3 - 2)(违背卖出2再买入2的规则), 但这不影响最终的结果
@@ -11,4 +11,4 @@ def maxProfit(prices):
 
 print(maxProfit([7,1,5,3,6,4]))
 print(maxProfit([1,2,3,4,5]))
-```
+# ```

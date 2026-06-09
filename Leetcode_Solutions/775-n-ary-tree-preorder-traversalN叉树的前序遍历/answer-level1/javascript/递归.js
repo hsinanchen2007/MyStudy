@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val, children) {
@@ -23,4 +23,4 @@ var preorder = function(root) {
     })(root)
     return ans;
 };
-```
+// ```

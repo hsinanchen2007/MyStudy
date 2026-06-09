@@ -1,9 +1,9 @@
-### 解题思路
-思路比较简单：看代码注释吧
+# ### 解题思路
+# 思路比较简单：看代码注释吧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def surfaceArea(self, grid):
         total_surface = 0
@@ -24,4 +24,4 @@ class Solution(object):
                 total_surface -= min(p,grid[i+1][j])*2 if i+1<l else 0
                 total_surface -= min(p,grid[i][j+1])*2 if j+1<l else 0
         return total_surface
-```
+# ```

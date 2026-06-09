@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isNumber(String s) {
         char[] str=s.trim().toCharArray();
@@ -27,5 +27,5 @@ class Solution {
         return true;
     }
 }
-```
-时间2ms, 击败100%, 内存46M, 主站65题提交只击败6%, 在这提交击败100%, 可能这边提交的人少
+// ```
+// 时间2ms, 击败100%, 内存46M, 主站65题提交只击败6%, 在这提交击败100%, 可能这边提交的人少

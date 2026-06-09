@@ -1,5 +1,5 @@
-提供一种慢到爆炸的回溯解法😂
-```
+# 提供一种慢到爆炸的回溯解法😂
+# ```
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:    
         if not n:
@@ -27,4 +27,4 @@ class Solution:
                 helper(i+1,s+')')
         helper(0,'(')
         return ans
-```
+# ```

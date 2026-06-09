@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-只会写数字排列组合不会写字母排列组合的我
+# 只会写数字排列组合不会写字母排列组合的我
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permutation(self, S: str) -> List[str]:
 
@@ -18,4 +18,4 @@ class Solution:
             perms = new_perms
         
         return perms
-```
+# ```

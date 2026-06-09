@@ -1,10 +1,10 @@
-### 解题思路
-借鉴大佬的双指针解法
-由于是数组，一个指针i从前向后遍历，一个指针j从后向前遍历，如果 numbers[i]+numbers[j]大于目标值则j-1，如果 numbers[i]+numbers[j]小于目标值则i+1
+# ### 解题思路
+# 借鉴大佬的双指针解法
+# 由于是数组，一个指针i从前向后遍历，一个指针j从后向前遍历，如果 numbers[i]+numbers[j]大于目标值则j-1，如果 numbers[i]+numbers[j]小于目标值则i+1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         # for i in range(len(numbers)-1):
@@ -24,4 +24,4 @@ class Solution:
                 return [i+1,j+1]
             
             
-```
+# ```

@@ -1,16 +1,16 @@
-### Analyze
+// ### Analyze
 
-* 需要考虑的条件
-  * points 中的值是否会重合?
-  * 针对除不尽的数字, 精度问题是否需要考虑?
-  * 传入参数个数;
-* 为避免除法带来的问题, 可以求最大公约数, 将 9/6, 18/12 转化为 3/2;
-  * 在同一排可以表示为 '0/x', 在同一列可以表示为 'y/0';
-  * 重合的点可以表示为 '0/0', 并用变量 samePoint 来记录它;
+// * 需要考虑的条件
+//   * points 中的值是否会重合?
+//   * 针对除不尽的数字, 精度问题是否需要考虑?
+//   * 传入参数个数;
+// * 为避免除法带来的问题, 可以求最大公约数, 将 9/6, 18/12 转化为 3/2;
+//   * 在同一排可以表示为 '0/x', 在同一列可以表示为 'y/0';
+//   * 重合的点可以表示为 '0/0', 并用变量 samePoint 来记录它;
 
-> 求最大公约数用到了数学中的辗转相除法: 两个正整数 a 和 b(a>b), 它们的最大公约数等于 a 除以 b 的余数 c 和 b 之间的最大公约数。比如 25 和 10, 25 除以 10 商 2 余 5, 那么 25 和 10 的最大公约数, 等同于 10 和 5 的最大公约数。
+// > 求最大公约数用到了数学中的辗转相除法: 两个正整数 a 和 b(a>b), 它们的最大公约数等于 a 除以 b 的余数 c 和 b 之间的最大公约数。比如 25 和 10, 25 除以 10 商 2 余 5, 那么 25 和 10 的最大公约数, 等同于 10 和 5 的最大公约数。
 
-```js
+// ```js
 /**
  * @param {number[][]} points
  * @return {number}
@@ -66,12 +66,12 @@ var maxPoints = function(points) {
 
   return result
 }
-```
+// ```
 
-![](https://pic.leetcode-cn.com/e73b669b94433cb422889627b4f1c7c9809e8da3f68b32a3bb6ba58ebabf2e16.jpg-400)
+// ![](https://pic.leetcode-cn.com/e73b669b94433cb422889627b4f1c7c9809e8da3f68b32a3bb6ba58ebabf2e16.jpg-400)
 
-### Sister Title
+// ### Sister Title
 
-149
+// 149
 
-> 为确保内容的实时、准确性, 可以[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

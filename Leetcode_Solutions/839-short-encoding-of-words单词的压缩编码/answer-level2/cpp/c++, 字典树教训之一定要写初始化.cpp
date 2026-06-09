@@ -1,4 +1,4 @@
-```
+// ```
 
 class Solution
 {
@@ -58,5 +58,5 @@ public:
         return ans;
     }
 };
-```
-一开始没写数组的构造函数，自己机器上的g++编译器是正常的，提交了就member access within misaligned address，原来指针数组居然没有默认初始化成nullptr
+// ```
+// 一开始没写数组的构造函数，自己机器上的g++编译器是正常的，提交了就member access within misaligned address，原来指针数组居然没有默认初始化成nullptr

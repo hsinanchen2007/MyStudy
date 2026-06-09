@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public IList<int> SelfDividingNumbers(int left, int right) {
         IList<int> result = new List<int>();
@@ -30,4 +30,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

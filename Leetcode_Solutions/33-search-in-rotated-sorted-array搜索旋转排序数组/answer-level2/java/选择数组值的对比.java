@@ -1,6 +1,6 @@
-![选择数组.png](https://pic.leetcode-cn.com/30968d23c7198269866663c592fee621f6d12b060b9fddd1745b4166e6bc0aa0-%E9%80%89%E6%8B%A9%E6%95%B0%E7%BB%84.png)
+// ![选择数组.png](https://pic.leetcode-cn.com/30968d23c7198269866663c592fee621f6d12b060b9fddd1745b4166e6bc0aa0-%E9%80%89%E6%8B%A9%E6%95%B0%E7%BB%84.png)
 
-```java
+// ```java
 class Solution {
     
     // 一定是二分查找思想
@@ -60,4 +60,4 @@ class Solution {
     }
 }
 
-```
+// ```

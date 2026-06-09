@@ -1,6 +1,6 @@
-- 先用dfs找1~target的路径存在path中。然后用bfs计算概率(这个过程只放path中的节点)
-- 时间复杂度：$O(n+m)$
-```c++
+// - 先用dfs找1~target的路径存在path中。然后用bfs计算概率(这个过程只放path中的节点)
+// - 时间复杂度：$O(n+m)$
+// ```c++
 class Solution {
 public:
     vector<vector<int>>G;
@@ -53,4 +53,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 时间100%
-看到写题解的人不多，就来凑凑热闹，解法很简单，去重就好了
+// ### 时间100%
+// 看到写题解的人不多，就来凑凑热闹，解法很简单，去重就好了
 
-![图片.png](https://pic.leetcode-cn.com/bded4cd99b62f6d66d635e56f28e086cbdd35746845c5f80f2ef691f064e8c88-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/bded4cd99b62f6d66d635e56f28e086cbdd35746845c5f80f2ef691f064e8c88-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<Integer> sub = new ArrayList();
@@ -31,4 +31,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-方案：理解还原二叉树的过程+细心，在写代码时边界条件要仔细判断
-   本题就是根据前序和中序来确定构造二叉树，当前序第一位来确定出跟，然后将中序序列分为左子树成员集合和右子树成员集合，然后计算出前序的左子树成员集合和右子树成员集合，根据集合的长度来计算，然后重复下去，也就是递归，直到左子树成员集合或右子树成员集合的长度变为1的时候，就可以开始构造树节点，然后回溯，就可以生成一颗二叉树了。
+// ### 解题思路
+// 方案：理解还原二叉树的过程+细心，在写代码时边界条件要仔细判断
+//    本题就是根据前序和中序来确定构造二叉树，当前序第一位来确定出跟，然后将中序序列分为左子树成员集合和右子树成员集合，然后计算出前序的左子树成员集合和右子树成员集合，根据集合的长度来计算，然后重复下去，也就是递归，直到左子树成员集合或右子树成员集合的长度变为1的时候，就可以开始构造树节点，然后回溯，就可以生成一颗二叉树了。
 
-### 一代码
+// ### 一代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -44,10 +44,10 @@ struct TreeNode* sloveTree(int* preorder, int preStart, int preEnd, int* inorder
     parent->val = preorder[preStart];
     return parent;
 }
-```
-上面写的代码思路不太清晰
+// ```
+// 上面写的代码思路不太清晰
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -81,5 +81,5 @@ struct TreeNode* sloveTree(int* preorder, int preStart, int preEnd, int* inorder
     node->right = sloveTree(preorder, preStart+(i-inStart)+1, preEnd, inorder, i+1, inEnd);
     return node;
 }
-```
+// ```
 

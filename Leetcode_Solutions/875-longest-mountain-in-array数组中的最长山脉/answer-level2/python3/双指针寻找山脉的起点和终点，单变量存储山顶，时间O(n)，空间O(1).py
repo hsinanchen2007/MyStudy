@@ -1,7 +1,7 @@
-算法思路：
-先找上坡，后找下坡，用mid记录山顶位置。
-新山脉的起点为下坡的终点
-```
+# 算法思路：
+# 先找上坡，后找下坡，用mid记录山顶位置。
+# 新山脉的起点为下坡的终点
+# ```
 class Solution(object):
     def longestMountain(self, A):
         """
@@ -28,4 +28,4 @@ class Solution(object):
             else:
                 i = j
         return res
-```
+# ```

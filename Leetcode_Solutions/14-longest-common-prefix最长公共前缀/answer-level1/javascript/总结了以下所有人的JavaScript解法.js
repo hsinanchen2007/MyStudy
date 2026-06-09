@@ -1,12 +1,12 @@
-[https://leetcode-cn.com/problems/longest-common-prefix)
-##总结
-很多js的写法还是不熟悉，只能说写的大部分是但是的if else， for loop之类的
-现在熟悉了一些新的方法 比如indexOf, charAt, slice, substr, 
-还有很多es6的写法 let in, j简化if else
-解一：
-双重for循环，strs[i][j]!=strs[0][j]
-逐位比较，比较全部通过时re增加当前字符，不通过时直接返回re。
-```
+// [https://leetcode-cn.com/problems/longest-common-prefix)
+// ##总结
+// 很多js的写法还是不熟悉，只能说写的大部分是但是的if else， for loop之类的
+// 现在熟悉了一些新的方法 比如indexOf, charAt, slice, substr, 
+// 还有很多es6的写法 let in, j简化if else
+// 解一：
+// 双重for循环，strs[i][j]!=strs[0][j]
+// 逐位比较，比较全部通过时re增加当前字符，不通过时直接返回re。
+// ```
 var longestCommonPrefix = function(strs) {
     var re = '';
     if (!strs.length) return re;
@@ -18,9 +18,9 @@ var longestCommonPrefix = function(strs) {
     }
     return re;
 };
-```
-substr
-```
+// ```
+// substr
+// ```
 var longestCommonPrefix = function(strs) {
     if(!strs.length) 
         return "";
@@ -40,9 +40,9 @@ var longestCommonPrefix = function(strs) {
         
 };
 
-```
-charAt
-```
+// ```
+// charAt
+// ```
 //用charAt取元素，再用substring取子字符串
 // "static void main" must be defined in a public class.
 public class Main {
@@ -60,8 +60,8 @@ public class Main {
             
     }
 }
-```
-```
+// ```
+// ```
 //code with js
 var longestCommonPrefix = function(strs) {
     if(!strs.length) 
@@ -73,9 +73,9 @@ var longestCommonPrefix = function(strs) {
     return strs[0] //没有怎么办？
         
 };
-```
-一个逻辑不清晰的案例， substr
-```
+// ```
+// 一个逻辑不清晰的案例， substr
+// ```
 (function main() {
 var longestCommonPrefix = function(strs) {
     if(strs.length == 0) 
@@ -117,9 +117,9 @@ var longestCommonPrefix = function(strs) {
 =
 
 }());
-```
-用indexOf返回首次出现的位置
-```
+// ```
+// 用indexOf返回首次出现的位置
+// ```
 var longestCommonPrefix = function(strs) {
     let t = strs[0] || '';
     let i = 1;
@@ -138,11 +138,11 @@ var longestCommonPrefix = function(strs) {
         strs[i].indexOf(t) != 0 ? t = t.slice(0, t.length -1) : i++
     return t
 };
-```
-解二：
+// ```
+// 解二：
 
-解一的递归版本，需要增加一些判断语句。
-```
+// 解一的递归版本，需要增加一些判断语句。
+// ```
 var longestCommonPrefix = function (strs,re = '') {
     if (!strs.length) return re;
     if (strs.length == 1) return strs[0];
@@ -158,11 +158,11 @@ var longestCommonPrefix = function (strs,re = '') {
 //strs 由第一个和i后的字符串组成所以slice他们，相当于slice strs
     return longestCommonPrefix(strs, re);
 };
-```
-解三：
+// ```
+// 解三：
 
-和解一恰好相反，re初始化为数组中第一个元素，逐个比较，当比较通过时返回re，否则削去末位直至比较通过。这里的比较使用了正则表达式。
-```
+// 和解一恰好相反，re初始化为数组中第一个元素，逐个比较，当比较通过时返回re，否则削去末位直至比较通过。这里的比较使用了正则表达式。
+// ```
 var longestCommonPrefix = function(strs) {
     var re = strs[0] ? strs[0]:'';//f re = flower
     for (var i=1;i<strs.length;i++){
@@ -175,4 +175,4 @@ var longestCommonPrefix = function(strs) {
     }
     return re;
 };
-```
+// ```

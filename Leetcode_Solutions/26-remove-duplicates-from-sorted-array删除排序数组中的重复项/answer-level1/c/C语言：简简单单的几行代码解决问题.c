@@ -1,6 +1,6 @@
 
 
-```
+// ```
 int removeDuplicates(int* nums, int numsSize){
     if (numsSize == 0) return 0;
     int mov_num = 0;//记录前移的步数
@@ -12,4 +12,4 @@ int removeDuplicates(int* nums, int numsSize){
     nums[i-mov_num] = nums[i];  //处理尾部节点
     return (numsSize - mov_num);
 }
-```
+// ```

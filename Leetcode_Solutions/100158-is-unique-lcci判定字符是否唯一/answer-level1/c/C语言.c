@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-方法一：使用哈希表
+// 方法一：使用哈希表
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define CHARNUM 256
 
 bool isUnique(char* astr){
@@ -30,13 +30,13 @@ bool isUnique(char* astr){
     free(arr);
     return true;
 }
-```
+// ```
 
-方法二：排序
+// 方法二：排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(void *x, void *y)
 {
     return *(char *)x - *(char *)y;
@@ -59,4 +59,4 @@ bool isUnique(char* astr){
 
     return true;
 }
-```
+// ```

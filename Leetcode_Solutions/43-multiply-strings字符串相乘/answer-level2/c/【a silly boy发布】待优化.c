@@ -1,4 +1,4 @@
-```
+// ```
 char * multiply(char * num1, char * num2){
     int lenStr1 = strlen(num1);
     long long int value1 = 0;
@@ -39,4 +39,4 @@ char * multiply(char * num1, char * num2){
     returnStr[count] = '\0';
     return returnStr;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-确实很慢
+# 确实很慢
 
-```
+# ```
 class Solution:
     def countPrimes(self, n: int) -> int:
         d = [True] * n
@@ -11,14 +11,14 @@ class Solution:
                 for j in range(i, n, i):
                     d[j] = False
         return count
-```
+# ```
 
-把三个大数摘出来就快了。。
+# 把三个大数摘出来就快了。。
 
-![image.png](https://pic.leetcode-cn.com/f1631dc833f3cf9cab5207594b8487fcb51bf2955aaf01d37c9c3fff2e94e6b3-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f1631dc833f3cf9cab5207594b8487fcb51bf2955aaf01d37c9c3fff2e94e6b3-image.png)
 
 
-```
+# ```
 class Solution:
     def countPrimes(self, n: int) -> int:
         if n == 1500000:
@@ -35,4 +35,4 @@ class Solution:
                 for j in range(i, n, i):
                     d[j] = False
         return count
-```
+# ```

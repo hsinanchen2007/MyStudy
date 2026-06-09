@@ -1,7 +1,7 @@
-竞赛的时候还没有学习到贪心算法，做完之后第二天就看到了贪心恍然大悟
-不过自己写的代码不太美观
-感谢 ignore_express 忽略表情 https://leetcode-cn.com/problems/longest-happy-string/solution/js-tan-xin-si-lu-by-ignore_express/的思路
-我把注释写到代码里
+// 竞赛的时候还没有学习到贪心算法，做完之后第二天就看到了贪心恍然大悟
+// 不过自己写的代码不太美观
+// 感谢 ignore_express 忽略表情 https://leetcode-cn.com/problems/longest-happy-string/solution/js-tan-xin-si-lu-by-ignore_express/的思路
+// 我把注释写到代码里
 /**
  * @param {number} a
  * @param {number} b

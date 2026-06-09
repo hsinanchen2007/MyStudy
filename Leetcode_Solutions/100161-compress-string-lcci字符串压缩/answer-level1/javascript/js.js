@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -22,4 +22,4 @@ var compressString = function(S) {
     return str.length<S.length?str:S
 
 };
-```
+// ```

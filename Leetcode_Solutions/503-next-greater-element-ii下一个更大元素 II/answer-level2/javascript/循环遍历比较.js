@@ -1,5 +1,5 @@
-遍历原数组，再根据拼接一次原数组进行循环判断
-```js
+// 遍历原数组，再根据拼接一次原数组进行循环判断
+// ```js
 var nextGreaterElements = function(nums) {
     var res = [];
     var _nums = nums.concat(nums);
@@ -16,4 +16,4 @@ var nextGreaterElements = function(nums) {
     }
     return res;
 };
-```
+// ```

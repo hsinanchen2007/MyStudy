@@ -1,7 +1,7 @@
-* leetcode很多题都是一样的，我记得有一道是有序数组转换成二叉树，可以找找，思路是一样的
-* 这道题只要知道中序遍历能将搜索树有序遍历
-* 然后会将有序集合转换为二叉树就完成了
-```java
+// * leetcode很多题都是一样的，我记得有一道是有序数组转换成二叉树，可以找找，思路是一样的
+// * 这道题只要知道中序遍历能将搜索树有序遍历
+// * 然后会将有序集合转换为二叉树就完成了
+// ```java
 class Solution {
     List<TreeNode> temp=new ArrayList();
     public TreeNode balanceBST(TreeNode root) {
@@ -25,4 +25,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

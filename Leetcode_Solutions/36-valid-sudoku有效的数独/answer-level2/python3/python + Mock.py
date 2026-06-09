@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         def judge(i, j):
@@ -36,4 +36,4 @@ class Solution:
                     return False
         return True
 
-```
+# ```

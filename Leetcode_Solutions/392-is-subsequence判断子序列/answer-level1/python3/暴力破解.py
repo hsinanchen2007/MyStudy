@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-暴力破解，哈哈哈哈哈哈
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 暴力破解，哈哈哈哈哈哈
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         if len(s) == 0:
@@ -22,4 +22,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

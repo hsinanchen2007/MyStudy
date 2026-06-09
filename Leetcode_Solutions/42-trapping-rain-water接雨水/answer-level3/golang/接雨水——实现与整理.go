@@ -1,21 +1,21 @@
-Golang的同学可以看一下。
+// Golang的同学可以看一下。
 
-强烈推荐解法Sol_1_6 （分治思想，下图是其提交结果），高效又好理解！比较容易想到的是动态规划 + 缓存方案 （Sol_1_3），
-基于栈的解法（Sol_1_5）也比较好理解。
+// 强烈推荐解法Sol_1_6 （分治思想，下图是其提交结果），高效又好理解！比较容易想到的是动态规划 + 缓存方案 （Sol_1_3），
+// 基于栈的解法（Sol_1_5）也比较好理解。
 
-![image.png](https://pic.leetcode-cn.com/9c630e63756cb16e4dd7b8f17b7c22f67d9fe7365ddff9e0e614348cc90345be-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9c630e63756cb16e4dd7b8f17b7c22f67d9fe7365ddff9e0e614348cc90345be-image.png)
 
 
-*说实话，双指针法还没理清，下次再好好琢磨*
+// *说实话，双指针法还没理清，下次再好好琢磨*
 
-## 主要参考题解
+// ## 主要参考题解
 
-- <https://leetcode-cn.com/problems/trapping-rain-water/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-8/>
-- <https://leetcode-cn.com/problems/trapping-rain-water/solution/ke-neng-shi-zui-jian-dan-bao-li-de-jie-fa-by-neil-/>
+// - <https://leetcode-cn.com/problems/trapping-rain-water/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-8/>
+// - <https://leetcode-cn.com/problems/trapping-rain-water/solution/ke-neng-shi-zui-jian-dan-bao-li-de-jie-fa-by-neil-/>
 
-## 实现
+// ## 实现
 
-```go
+// ```go
 package lt42
 
 import (
@@ -319,4 +319,4 @@ func Sol_1_6(height []int) int {
 	return sum
 }
 
-```
+// ```

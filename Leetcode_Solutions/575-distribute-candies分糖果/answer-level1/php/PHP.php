@@ -1,7 +1,7 @@
-时间复杂度： O(n)
-空间复杂度： O(n)
+// 时间复杂度： O(n)
+// 空间复杂度： O(n)
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -21,4 +21,4 @@ class Solution {
         return $num1 < $num2 ? $num1 : $num2;
     }
 }
-```
+// ```

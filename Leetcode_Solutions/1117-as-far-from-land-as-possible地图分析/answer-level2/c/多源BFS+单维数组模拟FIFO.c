@@ -1,23 +1,23 @@
-### 解题思路
+// ### 解题思路
  
-![image.png](https://pic.leetcode-cn.com/171932f475158935334f7a32d87a2837f3bd5a4b62246594d2f1fed6b7cfe352-image.png)
-####第一个知识点：多源BFS
-类似于树的寻找最大叶子节点深度，这是单源BFS
-采用FIFO先入先出，level表示当前层次，每次遍历完该层，level++
+// ![image.png](https://pic.leetcode-cn.com/171932f475158935334f7a32d87a2837f3bd5a4b62246594d2f1fed6b7cfe352-image.png)
+// ####第一个知识点：多源BFS
+// 类似于树的寻找最大叶子节点深度，这是单源BFS
+// 采用FIFO先入先出，level表示当前层次，每次遍历完该层，level++
 
-把题目的陆地中比作树的root，只是有多个root，只需要初始的时候同时把所有的陆地push到0层，同时参与遍历，大家用共同的level表示海距离陆地的曼哈顿距离
-以陆地作为源，进行BFS可以得到地图上的海洋距离周边陆地的最短距离，该海洋被遍历到后就不再参与遍历
-BFS遍历图为了去重，通常用bool数组表示这个点已经访问过，这里只需要把grid[][]的值做原地修改即可
+// 把题目的陆地中比作树的root，只是有多个root，只需要初始的时候同时把所有的陆地push到0层，同时参与遍历，大家用共同的level表示海距离陆地的曼哈顿距离
+// 以陆地作为源，进行BFS可以得到地图上的海洋距离周边陆地的最短距离，该海洋被遍历到后就不再参与遍历
+// BFS遍历图为了去重，通常用bool数组表示这个点已经访问过，这里只需要把grid[][]的值做原地修改即可
 
-####第二个知识点：c语言里面的FIFO
-我们只需要(x,y)表示下一次要访问的坐标，由于题目给定0<=x,y<=100<256
-x,y可以通过 x<<8||y用一个unsinged short表示
-最大队列长度：gridSize*gridSize
+// ####第二个知识点：c语言里面的FIFO
+// 我们只需要(x,y)表示下一次要访问的坐标，由于题目给定0<=x,y<=100<256
+// x,y可以通过 x<<8||y用一个unsinged short表示
+// 最大队列长度：gridSize*gridSize
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 int maxDistance(int** grid, int gridSize, int* gridColSize) {
@@ -57,4 +57,4 @@ int maxDistance(int** grid, int gridSize, int* gridColSize) {
     return level;
 }
 
-```
+// ```

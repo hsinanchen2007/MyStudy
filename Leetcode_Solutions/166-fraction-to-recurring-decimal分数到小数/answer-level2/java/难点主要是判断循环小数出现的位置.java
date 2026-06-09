@@ -1,8 +1,8 @@
-余数重复的位置便是小数循环出现的地方，使用Hashmap记录余数值和其出现位置，发现重复余数则在重复余数第一次出现位置插入括号。
+// 余数重复的位置便是小数循环出现的地方，使用Hashmap记录余数值和其出现位置，发现重复余数则在重复余数第一次出现位置插入括号。
 
-这破题目特别容易掉坑了，一不小心结果就出错，大家小心
+// 这破题目特别容易掉坑了，一不小心结果就出错，大家小心
 
-```
+// ```
 class Solution {
     public String fractionToDecimal(int numerator, int denominator) {
         /* 分母为零，直接返回零 **/
@@ -47,4 +47,4 @@ class Solution {
         return (negetive)? "-"+ res.toString() : res.toString();
     }
 }
-```
+// ```

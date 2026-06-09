@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 func deleteAndEarn(nums []int) int {
     if len(nums) == 0 {
         return 0
@@ -28,4 +28,4 @@ func Max(i,j int)int {
     }
     return j
 }
-```
+// ```

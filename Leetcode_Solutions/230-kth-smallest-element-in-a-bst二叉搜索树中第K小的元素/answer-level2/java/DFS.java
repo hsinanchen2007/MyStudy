@@ -1,10 +1,10 @@
-### 解题思路
-因为是二叉搜索树，发现用DFS很方便。DFS可以直接用leetcode的模板
-类似的有二叉树的中序遍历，一样可以用DFS
+// ### 解题思路
+// 因为是二叉搜索树，发现用DFS很方便。DFS可以直接用leetcode的模板
+// 类似的有二叉树的中序遍历，一样可以用DFS
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -38,4 +38,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

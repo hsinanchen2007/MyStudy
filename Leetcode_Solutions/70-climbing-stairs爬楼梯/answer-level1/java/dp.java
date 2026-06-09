@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-还是不熟练啊
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 还是不熟练啊
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int climbStairs(int n) {
         if(n <= 1)
@@ -22,5 +22,5 @@ class Solution {
 		}
 		return dp[n];
 }}
-```
-![image.png](https://pic.leetcode-cn.com/a1229c52f429fa58bb84e072c786b79c5a1ecea434f3b6a1e74ab59347f7fe76-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/a1229c52f429fa58bb84e072c786b79c5a1ecea434f3b6a1e74ab59347f7fe76-image.png)

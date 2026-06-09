@@ -1,5 +1,5 @@
-后序递归法放到集合重，再把集合转成数组
-```
+// 后序递归法放到集合重，再把集合转成数组
+// ```
 public int[] reversePrint(ListNode head) {
     List<Integer> resList = new ArrayList<>();
     add(resList, head);
@@ -15,5 +15,5 @@ public int[] reversePrint(ListNode head) {
     add(list,listNode.next);
     list.add(listNode.val);
   }
-```
+// ```
 

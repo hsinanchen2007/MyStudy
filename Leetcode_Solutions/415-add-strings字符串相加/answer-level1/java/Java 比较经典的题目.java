@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![IMG_0459.PNG](https://pic.leetcode-cn.com/c4f3d36944c21ecdb1f6aee7cdddbef7c1ef9d45406da16309a1f5447bea960b-IMG_0459.PNG)
+// ![IMG_0459.PNG](https://pic.leetcode-cn.com/c4f3d36944c21ecdb1f6aee7cdddbef7c1ef9d45406da16309a1f5447bea960b-IMG_0459.PNG)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addStrings(String num1, String num2) {
         StringBuilder result = new StringBuilder();
@@ -25,4 +25,4 @@ class Solution {
     	return result.reverse().toString();
     }
 }
-```
+// ```

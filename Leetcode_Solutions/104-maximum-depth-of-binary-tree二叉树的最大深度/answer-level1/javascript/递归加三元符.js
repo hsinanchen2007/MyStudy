@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2f68fc02dde205cb75beb95d01e64ad7434774c11884c2a4eb07393e80ad585e-image.png)
-递归加三元符，行数少的一批。
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/2f68fc02dde205cb75beb95d01e64ad7434774c11884c2a4eb07393e80ad585e-image.png)
+// 递归加三元符，行数少的一批。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -25,4 +25,4 @@ var maxDepth = function (root) {
         return 1 + Math.max(root.left ? maxDepth(root.left) : 0, root.right ? maxDepth(root.right) : 0);
     }
 };
-```
+// ```

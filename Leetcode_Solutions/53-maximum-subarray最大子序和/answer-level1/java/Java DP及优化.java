@@ -1,6 +1,6 @@
-DP方程：
-dp[i] = Math.max(nums[i], dp[i - 1] + nums[i]);
-```java
+// DP方程：
+// dp[i] = Math.max(nums[i], dp[i - 1] + nums[i]);
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         int[] dp = new int[nums.length];
@@ -13,10 +13,10 @@ class Solution {
         return max;
     }
 }
-```
+// ```
 
-简化，利用原数组空间：
-```java
+// 简化，利用原数组空间：
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         int max = nums[0];
@@ -27,10 +27,10 @@ class Solution {
         return max;
     }
 }
-```
+// ```
 
-使用变量代替dp数组：
-```java
+// 使用变量代替dp数组：
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         int max = nums[0], cur = nums[0];
@@ -41,4 +41,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-非常简单的一道题，只需要BFS找到矛盾点
-第一次提交错误问题在于没有去判断是否是连通图，题目可能出现多个非连通图，所以要遍历每个点
+// ### 解题思路
+// 非常简单的一道题，只需要BFS找到矛盾点
+// 第一次提交错误问题在于没有去判断是否是连通图，题目可能出现多个非连通图，所以要遍历每个点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isBipartite(int[][] graph) {
         int [] nodeType=new int [graph.length];
@@ -37,4 +37,4 @@ class Solution {
         
     }
 }
-```
+// ```

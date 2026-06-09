@@ -1,6 +1,6 @@
-首先找到最短串，然后用cursor按index对比
+// 首先找到最短串，然后用cursor按index对比
 
-```
+// ```
 func longestCommonPrefix(strs []string) string {
 	lenStrs := len(strs)
 	// 边界判断
@@ -30,7 +30,7 @@ func longestCommonPrefix(strs []string) string {
 	return minLenStr[:cursor]
 
 }
-```
+// ```
 
 
-![image.png](https://pic.leetcode-cn.com/3887cb9d94a2708b8a7e2b370adc72dd2f58094e1e9372913463ed3b76e2b7e2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3887cb9d94a2708b8a7e2b370adc72dd2f58094e1e9372913463ed3b76e2b7e2-image.png)

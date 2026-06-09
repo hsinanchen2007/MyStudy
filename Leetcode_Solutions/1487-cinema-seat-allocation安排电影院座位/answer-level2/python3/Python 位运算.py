@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxNumberOfFamilies(self, n: int, reservedSeats: List[List[int]]) -> int:
         a = {i[0]:7 for i in reservedSeats} #分别设定了3个二进制位分别代表坐下的三种情况。
@@ -25,9 +25,9 @@ class Solution:
             else:
                 cnt += 1
         return cnt
-```
-# 思路如下：
-三个二进制位分别代表不同的坐法，用不同的位置去否掉其中的不能的坐法。
-![搜狗截图20200322003724.png](https://pic.leetcode-cn.com/1a630d128be078167146cb07e71f1d8b83674d91c7d5974d9104b6ea851f456f-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20200322003724.png)
+# ```
+# # 思路如下：
+# 三个二进制位分别代表不同的坐法，用不同的位置去否掉其中的不能的坐法。
+# ![搜狗截图20200322003724.png](https://pic.leetcode-cn.com/1a630d128be078167146cb07e71f1d8b83674d91c7d5974d9104b6ea851f456f-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20200322003724.png)
 
 

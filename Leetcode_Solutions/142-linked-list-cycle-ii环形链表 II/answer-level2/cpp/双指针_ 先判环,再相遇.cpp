@@ -1,12 +1,12 @@
-### 解题思路
-        // step_fast = 2 * step_slow;
-        // if: meet_point = cycle_head + m
-        // head to cycle_head = step_slow - m.
-        // meet_point to cycle_head = step_slow - m. (may n* cycle)
+// ### 解题思路
+//         // step_fast = 2 * step_slow;
+//         // if: meet_point = cycle_head + m
+//         // head to cycle_head = step_slow - m.
+//         // meet_point to cycle_head = step_slow - m. (may n* cycle)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
@@ -33,4 +33,4 @@ public:
     }
 };
 
-```
+// ```

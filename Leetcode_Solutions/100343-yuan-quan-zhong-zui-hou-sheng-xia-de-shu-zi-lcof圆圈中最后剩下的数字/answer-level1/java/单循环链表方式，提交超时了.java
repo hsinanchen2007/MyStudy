@@ -1,6 +1,6 @@
-直接上代码：
+// 直接上代码：
 
-```java
+// ```java
 class Solution {
     public DataNode head = new DataNode(-1);
 
@@ -54,4 +54,4 @@ class DataNode{
 }
 
 
-```
+// ```

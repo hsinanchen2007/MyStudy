@@ -1,9 +1,9 @@
-### 解题思路
-统计值的最大公约数
+# ### 解题思路
+# 统计值的最大公约数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import math
 import numpy as np 
 class Solution:
@@ -30,4 +30,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

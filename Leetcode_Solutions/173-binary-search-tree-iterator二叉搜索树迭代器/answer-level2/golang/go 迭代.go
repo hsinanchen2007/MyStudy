@@ -1,4 +1,4 @@
-```
+// ```
 type BSTIterator struct {
 	queue []int
 	index int
@@ -35,4 +35,4 @@ func (this *BSTIterator) Next() int {
 func (this *BSTIterator) HasNext() bool {
 	return this.index < len(this.queue)
 }
-```
+// ```

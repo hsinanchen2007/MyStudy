@@ -1,9 +1,9 @@
-### 解题思路
-直接暴力
+// ### 解题思路
+// 直接暴力
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
         public int countLargestGroup(int n) {
         int[] ans = new int[37];
@@ -36,4 +36,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

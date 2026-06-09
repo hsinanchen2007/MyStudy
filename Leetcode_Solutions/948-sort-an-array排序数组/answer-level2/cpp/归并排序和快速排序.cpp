@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int helpFunction(vector<int>&nums,int start,int end){
@@ -62,4 +62,4 @@ public:
         return nums;
     }
 };
-```
+// ```

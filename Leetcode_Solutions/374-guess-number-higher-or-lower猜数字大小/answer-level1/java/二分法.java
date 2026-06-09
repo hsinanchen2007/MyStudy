@@ -1,5 +1,5 @@
-    // 找区间端点用 left < right
-	// 找确切的某个值用 left <= right
+//     // 找区间端点用 left < right
+// 	// 找确切的某个值用 left <= right
     public class Solution extends GuessGame {
         public int guessNumber(int n) {
             int left = 1;

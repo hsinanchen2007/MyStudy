@@ -1,9 +1,9 @@
-### 解题思路
-没写，懒得写
+// ### 解题思路
+// 没写，懒得写
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::cmp::max;
 impl Solution {
     pub fn trap(height: Vec<i32>) -> i32 {
@@ -30,4 +30,4 @@ impl Solution {
         result
     }
 }
-```
+// ```

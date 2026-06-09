@@ -1,5 +1,5 @@
-感觉考察递归,就写了个递归.
-```
+// 感觉考察递归,就写了个递归.
+// ```
 public string CountAndSay(int n)
 {
     if (n == 1)
@@ -26,4 +26,4 @@ public string CountAndSay(int n)
         return result + count.ToString() + num[num.Length - 1];//补充最后一个字符
     }
 }
-```
+// ```

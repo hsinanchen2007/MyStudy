@@ -1,10 +1,10 @@
-### 解题思路
-记录每个位的值，能进位就进位
-若99，999这种情况就new int进位
+// ### 解题思路
+// 记录每个位的值，能进位就进位
+// 若99，999这种情况就new int进位
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] plusOne(int[] digits) {
         int digits_len = digits.length;
@@ -31,4 +31,4 @@ class Solution {
         return digits;
     }
 }
-```
+// ```

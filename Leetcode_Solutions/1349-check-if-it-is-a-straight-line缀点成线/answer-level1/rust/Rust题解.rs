@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn check_straight_line(coordinates: Vec<Vec<i32>>) -> bool {
         let x0 = &coordinates[0][0];
@@ -18,5 +18,5 @@ impl Solution {
         true
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

@@ -1,9 +1,9 @@
-### 解题思路
-解题思路详见注释
+// ### 解题思路
+// 解题思路详见注释
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[][]}
@@ -66,4 +66,4 @@ var solveNQueens = function(n) {
     return res;
 
 };
-```
+// ```

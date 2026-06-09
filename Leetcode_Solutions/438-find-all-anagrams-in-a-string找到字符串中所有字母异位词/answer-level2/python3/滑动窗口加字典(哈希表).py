@@ -1,5 +1,5 @@
-利用滑动窗口，每次右移在字典中添加/删除s中的元素,然后与p的字典比较，相同说明满足字母异位。
-```
+# 利用滑动窗口，每次右移在字典中添加/删除s中的元素,然后与p的字典比较，相同说明满足字母异位。
+# ```
     def findAnagrams(self, s: str, p: str) -> List[int]:
         if not s or not p:
             return []
@@ -32,4 +32,4 @@
                 ans.append(i)
 
         return ans
-```
+# ```

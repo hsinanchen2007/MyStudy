@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findRotateSteps(self, ring: str, key: str) -> int:
         
@@ -34,4 +34,4 @@ class Solution:
         
         # 返回最少步数
         return min(list(map(lambda x: x[1], last)))
-```
+# ```

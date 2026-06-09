@@ -1,19 +1,19 @@
-### 解题思路
-执行用时 :16 ms, 在所有 Go 提交中击败了66.67% 的用户
-内存消耗 :6.1 MB, 在所有 Go 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :16 ms, 在所有 Go 提交中击败了66.67% 的用户
+// 内存消耗 :6.1 MB, 在所有 Go 提交中击败了100.00%的用户
 
-type elem struct {
-    children map[string]*elem  // 子目录   
-    dir     string      // 目录 or 文件名
-    value   string      // 文件内容
-}
-1. 为目录 那么children 不为nil
-2. 为文件 那么children 为nil 
-3. 通过children map 将各子文件，子目录记录下来
+// type elem struct {
+//     children map[string]*elem  // 子目录   
+//     dir     string      // 目录 or 文件名
+//     value   string      // 文件内容
+// }
+// 1. 为目录 那么children 不为nil
+// 2. 为文件 那么children 为nil 
+// 3. 通过children map 将各子文件，子目录记录下来
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type FileSystem struct {
     root *elem
 }
@@ -148,4 +148,4 @@ func (this *FileSystem) ReadContentFromFile(filePath string) string {
  * obj.AddContentToFile(filePath,content);
  * param_4 := obj.ReadContentFromFile(filePath);
  */
-```
+// ```

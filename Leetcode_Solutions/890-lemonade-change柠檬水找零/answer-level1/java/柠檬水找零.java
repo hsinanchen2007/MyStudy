@@ -1,7 +1,7 @@
-# 贪心法
-实质只有一个：当20元出现时，优先找10元
+// # 贪心法
+// 实质只有一个：当20元出现时，优先找10元
 
-```java []
+// ```java []
 class Solution {
     public boolean lemonadeChange(int[] bills) {
         int[] dp=new int[2];
@@ -20,4 +20,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-44ms, 9MB
-![截屏2020-03-12下午10.26.31.png](https://pic.leetcode-cn.com/c1a076d2d992251099d00b8b113004937245f4b1664ea4a71e190934fe5f4650-%E6%88%AA%E5%B1%8F2020-03-12%E4%B8%8B%E5%8D%8810.26.31.png)
+// 44ms, 9MB
+// ![截屏2020-03-12下午10.26.31.png](https://pic.leetcode-cn.com/c1a076d2d992251099d00b8b113004937245f4b1664ea4a71e190934fe5f4650-%E6%88%AA%E5%B1%8F2020-03-12%E4%B8%8B%E5%8D%8810.26.31.png)
 
 
-```
+// ```
 use std::collections::HashMap;
 
 impl Solution {
@@ -26,4 +26,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func widthOfBinaryTree(root *TreeNode) int {
 	m := getDeep(root)
 	p := make([][]int, m)
@@ -58,4 +58,4 @@ func max1(a int, b int) int {
 	}
 	return b
 }
-```
+// ```

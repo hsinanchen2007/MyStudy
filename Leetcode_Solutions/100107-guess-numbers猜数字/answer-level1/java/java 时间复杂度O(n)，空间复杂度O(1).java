@@ -1,6 +1,6 @@
-时间复杂度O(n)，空间复杂度O(1)的解法：
+// 时间复杂度O(n)，空间复杂度O(1)的解法：
 
-```
+// ```
 class Solution {
     public int game(int[] guess, int[] answer) {
         //边界判断
@@ -15,6 +15,6 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-问题：有没有更优的解法？
+// 问题：有没有更优的解法？

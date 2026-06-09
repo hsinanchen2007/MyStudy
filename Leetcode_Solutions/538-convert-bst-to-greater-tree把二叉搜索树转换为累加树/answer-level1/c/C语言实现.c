@@ -1,5 +1,5 @@
-C语言实现
-```C []
+// C语言实现
+// ```C []
 void accBST(struct TreeNode *root, int *sum){
     if (NULL == root) return;
     accBST(root->right, sum);
@@ -13,4 +13,4 @@ struct TreeNode* convertBST(struct TreeNode* root){
     accBST(root, &sum);
     return root;
 }
-```
+// ```

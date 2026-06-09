@@ -1,9 +1,9 @@
-### 解题思路
-- 当isBadVersion(mid) 为 False 且 isBadVersion(mid+1）为True同时满足时返回mid+1,否则继续二分查找
+# ### 解题思路
+# - 当isBadVersion(mid) 为 False 且 isBadVersion(mid+1）为True同时满足时返回mid+1,否则继续二分查找
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool
@@ -26,4 +26,4 @@ class Solution:
                 left = mid       
         return mid+1
             
-```
+# ```

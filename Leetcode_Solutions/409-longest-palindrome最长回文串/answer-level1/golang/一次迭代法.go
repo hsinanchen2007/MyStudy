@@ -1,9 +1,9 @@
-### 解题思路
-思想就是看凑对的个数，然后再判断是否有奇个数，最后转换一下
+// ### 解题思路
+// 思想就是看凑对的个数，然后再判断是否有奇个数，最后转换一下
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // 思想就是看凑对的个数，然后转换一下
 func longestPalindrome(s string) int {
     if s == "" {
@@ -30,4 +30,4 @@ func longestPalindrome(s string) int {
     }
     return 2*cnt+1
 }
-```
+// ```

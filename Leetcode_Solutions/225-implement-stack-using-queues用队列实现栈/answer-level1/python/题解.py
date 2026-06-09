@@ -1,9 +1,9 @@
-### 解题思路
-不太聪明的样子
+# ### 解题思路
+# 不太聪明的样子
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import deque
 
 class MyStack(object):
@@ -72,4 +72,4 @@ class MyStack(object):
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

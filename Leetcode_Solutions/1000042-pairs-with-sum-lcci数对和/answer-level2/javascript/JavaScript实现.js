@@ -1,7 +1,7 @@
-# JavaScript最简单的思路：
-+ 从前往后一个一个遍历（不需要排序），找到与每一个元素的和为target的元素，然后插入到数组中，标记用过的元素，标记过的元素不用
+// # JavaScript最简单的思路：
+// + 从前往后一个一个遍历（不需要排序），找到与每一个元素的和为target的元素，然后插入到数组中，标记用过的元素，标记过的元素不用
 
-```
+// ```
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -56,4 +56,4 @@ var pairSums = function(nums, target) {
 //     }
 //     return result
 // };
-```
+// ```

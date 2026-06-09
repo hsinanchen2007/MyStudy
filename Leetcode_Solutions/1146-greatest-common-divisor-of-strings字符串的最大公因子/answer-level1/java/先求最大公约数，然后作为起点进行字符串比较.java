@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * @Author : josan
  * @Date : 2020/3/12 21:32
@@ -80,9 +80,9 @@ public class Solution {
     }
 }
 
-```
+// ```
 
-```
+// ```
 package leetcode.study.biggroup011.group053.ex1071;
 
 import org.junit.Assert;
@@ -110,4 +110,4 @@ public class TestSolution {
                 solution.gcdOfStrings(str1, str2));
     }
 }
-```
+// ```

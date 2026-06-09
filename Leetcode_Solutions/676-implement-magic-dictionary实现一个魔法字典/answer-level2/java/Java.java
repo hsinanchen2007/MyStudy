@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-要"判定能否只将这个单词中一个字母换成另一个字母，使得所形成的新单词存在于你构建的字典中。"，两个词必须是等长的，所以创建一个Map，key为单词的长度，value为对应长度的单词List，根据输入的单词长度来逐个比较字典中的单词不同的字符数只为1。
+// 要"判定能否只将这个单词中一个字母换成另一个字母，使得所形成的新单词存在于你构建的字典中。"，两个词必须是等长的，所以创建一个Map，key为单词的长度，value为对应长度的单词List，根据输入的单词长度来逐个比较字典中的单词不同的字符数只为1。
 
-```
+// ```
 class MagicDictionary {
     Map<Integer, List<String>> map;
 
@@ -48,4 +48,4 @@ class MagicDictionary {
         return false;
     }
 }
-```
+// ```

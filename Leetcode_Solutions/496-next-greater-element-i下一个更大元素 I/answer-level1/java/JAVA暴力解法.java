@@ -1,5 +1,5 @@
-实在想不出怎么用栈。哪位大神想到了。告诉我下，不胜感激
-```
+// 实在想不出怎么用栈。哪位大神想到了。告诉我下，不胜感激
+// ```
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         int a[]=new int[nums1.length];
@@ -26,4 +26,4 @@ class Solution {
     }
     
 }
-```
+// ```

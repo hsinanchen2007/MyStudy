@@ -1,8 +1,8 @@
-快速幂算法
+// 快速幂算法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double myPow(double x, int n) {

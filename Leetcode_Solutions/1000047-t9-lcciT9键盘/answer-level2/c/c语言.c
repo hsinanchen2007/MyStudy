@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -27,4 +27,4 @@ char** getValidT9Words(char* num, char** words, int wordsSize, int* returnSize){
     *returnSize = resCnt;
     return res;
 }
-```
+// ```

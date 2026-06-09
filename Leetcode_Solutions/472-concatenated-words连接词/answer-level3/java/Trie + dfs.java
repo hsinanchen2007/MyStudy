@@ -1,9 +1,9 @@
-1.先把trie给写好
-2.将words建成trie
-3.循环words对它进行dfs
-4.循环 如果找到一个Node是isWord的时候 进行dfs 传入的参数count+1
-5.最后判断是否count > 0 并且满足isWord为true
-```java []
+// 1.先把trie给写好
+// 2.将words建成trie
+// 3.循环words对它进行dfs
+// 4.循环 如果找到一个Node是isWord的时候 进行dfs 传入的参数count+1
+// 5.最后判断是否count > 0 并且满足isWord为true
+// ```java []
 class Solution {
     class TrieNode{
         TrieNode[] children = new TrieNode[26];
@@ -55,4 +55,4 @@ class Solution {
         return count > 0 && cur.isWord;
     }
 }
-```
+// ```

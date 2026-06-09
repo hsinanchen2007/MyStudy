@@ -1,9 +1,9 @@
-### 解题思路
-通过调用update函数，上下左右进行深度搜索，每每经过‘1’时，变为‘0’。最后得到岛屿的总数返回即可。
+# ### 解题思路
+# 通过调用update函数，上下左右进行深度搜索，每每经过‘1’时，变为‘0’。最后得到岛屿的总数返回即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         ans = 0
@@ -25,4 +25,4 @@ class Solution:
             self.update(grid, row, col+1) 
             self.update(grid, row, col-1)
 
-```
+# ```

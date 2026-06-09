@@ -1,7 +1,7 @@
-整体思路比较简单
-转换时超出int存储范围比较缠人
-使用try catch的方法处理两端的异常情况
-```C#
+// 整体思路比较简单
+// 转换时超出int存储范围比较缠人
+// 使用try catch的方法处理两端的异常情况
+// ```C#
 public int MyAtoi(string str) {
         string intStr = "";//有效数字字符串
         bool positive = true;//数字是否为正
@@ -56,4 +56,4 @@ public int MyAtoi(string str) {
             return positive ? int.MaxValue : int.MinValue;
         }
     }
-```
+// ```

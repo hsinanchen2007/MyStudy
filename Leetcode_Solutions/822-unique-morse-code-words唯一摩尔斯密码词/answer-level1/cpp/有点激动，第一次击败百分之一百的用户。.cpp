@@ -1,10 +1,10 @@
-### 解题思路
-![)S98S2FGNZBYKEUGMCQEMOW.png](https://pic.leetcode-cn.com/7517f7011284ecef64a7fdc056e84f320a80688dd3787fcc862a808fe9e88a0a-\)S98S2FGNZBYKEUGMCQEMOW.png)
-此处撰写解题思路
+// ### 解题思路
+// ![)S98S2FGNZBYKEUGMCQEMOW.png](https://pic.leetcode-cn.com/7517f7011284ecef64a7fdc056e84f320a80688dd3787fcc862a808fe9e88a0a-\)S98S2FGNZBYKEUGMCQEMOW.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniqueMorseRepresentations(vector<string>& words) {
@@ -24,4 +24,4 @@ public:
         return words.size();
     }
 };
-```
+// ```

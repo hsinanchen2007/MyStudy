@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def canWin(self, s: str) -> bool:
         win,lose=set(),set()
@@ -19,4 +19,4 @@ class Solution:
             return False
         
         return h(s)
-```
+# ```

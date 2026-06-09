@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-参考：https://www.cnblogs.com/tianqizhi/p/9673894.html
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 参考：https://www.cnblogs.com/tianqizhi/p/9673894.html
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
             last = head#当前的就变成了上一个
             head = tmp#下一个就变成了了当前的
         return last
-```
+# ```

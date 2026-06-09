@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         matrix = [[0]*n for i in range(n)]
@@ -24,6 +24,6 @@ class Solution:
             j +=row_dirs[dir_next] - row_dirs[dir]
             k +=col_dirs[dir_next] - col_dirs[dir]    
         return matrix
-```
+# ```
 
 

@@ -1,6 +1,6 @@
-方法比较简单，遍历即可。考虑格子数值为0 和边界的特殊情况。
-格子底部和顶部一定是可以计入面积的（为0的时候除外），其他四个面跟四周的格子逐一比较大小，扣除被遮掩部分的面积
-```
+// 方法比较简单，遍历即可。考虑格子数值为0 和边界的特殊情况。
+// 格子底部和顶部一定是可以计入面积的（为0的时候除外），其他四个面跟四周的格子逐一比较大小，扣除被遮掩部分的面积
+// ```
 var surfaceArea = function(grid) {
     let res=0;
     for(let i=0;i<grid.length;++i){
@@ -28,4 +28,4 @@ var   gteS = function(grid,x,y){
 var isIn = function(grid,x,y){
     return x>=0 && x<grid.length && y>=0 && y<grid[0].length;
 }
-```
+// ```

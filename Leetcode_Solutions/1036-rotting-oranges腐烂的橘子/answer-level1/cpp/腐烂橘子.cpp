@@ -1,10 +1,10 @@
-### 解题思路
-用queue<pair<int,int>>存放烂掉橘子的行和列
-注意queue不能遍历。。。
+// ### 解题思路
+// 用queue<pair<int,int>>存放烂掉橘子的行和列
+// 注意queue不能遍历。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
@@ -56,4 +56,4 @@ public:
         
     }
 };
-```
+// ```

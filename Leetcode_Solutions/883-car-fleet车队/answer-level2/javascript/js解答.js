@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} target
  * @param {number[]} position
@@ -25,4 +25,4 @@ var carFleet = function(target, position, speed) {
     }
     return ans
 };
-```
+// ```

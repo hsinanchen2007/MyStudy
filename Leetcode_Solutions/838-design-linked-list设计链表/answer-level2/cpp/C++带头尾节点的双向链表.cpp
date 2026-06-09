@@ -1,4 +1,4 @@
-```
+// ```
 struct Node {
     int val;
     Node *pre, *next;
@@ -78,4 +78,4 @@ class MyLinkedList {
         return p;
     }
 };
-```
+// ```

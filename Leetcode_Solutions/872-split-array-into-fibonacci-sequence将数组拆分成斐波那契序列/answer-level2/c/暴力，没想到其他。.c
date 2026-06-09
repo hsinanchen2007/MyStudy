@@ -1,9 +1,9 @@
-### 解题思路
-暴力，没想到其他。
+// ### 解题思路
+// 暴力，没想到其他。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define LEN_MAX 10
 bool splitIntoFibonacci_goon(char * S, int startPos, int *ret, int *returnSize) {
 	long nextNumber, nPre1, nPre2;
@@ -100,4 +100,4 @@ int* splitIntoFibonacci(char * S, int* returnSize){
 	return NULL;
 }
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-首先在初始化的阶段，将数组遍历前 i 个的和保存至数组的第 i 个位置
-在调用 sumRange(i,j) 方法时，返回数组第 j 个和第 i-1 个的差值 
+// ### 解题思路
+// 首先在初始化的阶段，将数组遍历前 i 个的和保存至数组的第 i 个位置
+// 在调用 sumRange(i,j) 方法时，返回数组第 j 个和第 i-1 个的差值 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class NumArray {
 
     int[] numArray;
@@ -27,4 +27,4 @@ class NumArray {
  * NumArray obj = new NumArray(nums);
  * int param_1 = obj.sumRange(i,j);
  */
-```
+// ```

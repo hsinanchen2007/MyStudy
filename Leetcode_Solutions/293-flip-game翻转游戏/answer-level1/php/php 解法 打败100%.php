@@ -1,4 +1,4 @@
-```
+// ```
     function generatePossibleNextMoves($s) {
         $res = array();
         for ($i=0,$j=1 ;$i<strlen($s);$i++,$j++){
@@ -10,4 +10,4 @@
         }
         return $res;
     }
-```
+// ```

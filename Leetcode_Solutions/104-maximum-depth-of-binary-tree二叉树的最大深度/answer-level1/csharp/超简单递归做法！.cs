@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     int answer;
     public int MaxDepth(TreeNode root) {
@@ -12,5 +12,5 @@ public class Solution {
         go(now+1,t.right);
     }
 }
-```
-now是当前层数哦）
+// ```
+// now是当前层数哦）

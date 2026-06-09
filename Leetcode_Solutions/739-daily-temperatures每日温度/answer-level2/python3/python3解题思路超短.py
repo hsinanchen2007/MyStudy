@@ -1,9 +1,9 @@
-### 解题思路
-和官方解题思路相同但是简化了一下。
+# ### 解题思路
+# 和官方解题思路相同但是简化了一下。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
         next = [0] * len(T)
@@ -14,4 +14,4 @@ class Solution:
                 stack.pop()
             stack.append([T[i], i])
         return next
-```
+# ```

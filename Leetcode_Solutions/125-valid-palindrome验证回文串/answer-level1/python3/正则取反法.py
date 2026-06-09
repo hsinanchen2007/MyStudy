@@ -1,5 +1,5 @@
-先将输入正则化，提取字母和数字，然后与反向比对
-``` Python
+# 先将输入正则化，提取字母和数字，然后与反向比对
+# ``` Python
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         s = s.lower()
@@ -9,4 +9,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

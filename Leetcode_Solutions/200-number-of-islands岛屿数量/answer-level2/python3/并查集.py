@@ -1,7 +1,7 @@
-应该还可以优化一下。。。
-懒得直接实现并查集， 模拟了一下
+# 应该还可以优化一下。。。
+# 懒得直接实现并查集， 模拟了一下
 
-```
+# ```
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         if grid == []:
@@ -45,4 +45,4 @@ if __name__ == "__main__":
             ["1", "1", "1", "1", "0"],
             ["0", "0", "0", "0", "0"]]
     print(s.numIslands(land))
-```
+# ```

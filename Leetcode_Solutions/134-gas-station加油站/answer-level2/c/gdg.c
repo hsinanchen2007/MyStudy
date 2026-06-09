@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int canCompleteCircuit(int* gas, int gasSize, int* cost, int costSize){
     int i,curr,j,flag;
     for(i=0;i<gasSize;i++){
@@ -28,4 +28,4 @@ int canCompleteCircuit(int* gas, int gasSize, int* cost, int costSize){
 
     return -1;
 }
-```
+// ```

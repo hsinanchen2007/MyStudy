@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         
@@ -48,4 +48,4 @@ class Solution {
         
     }
 }
-```
+// ```

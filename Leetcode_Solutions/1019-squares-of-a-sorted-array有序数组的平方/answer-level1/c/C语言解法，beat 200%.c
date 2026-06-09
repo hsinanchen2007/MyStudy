@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/4f8e49c9f49010a865b35570e98c0198da9a0bf8f1fb8f2cc7f161cc5c5c39de-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4f8e49c9f49010a865b35570e98c0198da9a0bf8f1fb8f2cc7f161cc5c5c39de-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -37,4 +37,4 @@ int* sortedSquares(int* A, int ASize, int* returnSize){
 
     return tmp;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-队列与栈不同在于一个先进先出，一个后进先出，所以为了使队列完成后进先出，只需在压入元素到队列之后将队列前的n-1个元素移入到该元素之后即可
+# ### 解题思路
+# 队列与栈不同在于一个先进先出，一个后进先出，所以为了使队列完成后进先出，只需在压入元素到队列之后将队列前的n-1个元素移入到该元素之后即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from Queue import Queue  #此处需注意python3为 from queue import Queue
 
 class MyStack(object):
@@ -31,4 +31,4 @@ class MyStack(object):
     def empty(self):
         return self.q.empty()
 
-```
+# ```

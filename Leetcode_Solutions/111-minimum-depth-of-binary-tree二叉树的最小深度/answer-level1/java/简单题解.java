@@ -1,5 +1,5 @@
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -18,4 +18,4 @@ class Solution {
         return Math.min(left,right) + 1;
     }
 }
-```
+// ```

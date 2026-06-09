@@ -1,5 +1,5 @@
 
-```
+// ```
 struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p, struct TreeNode* q) {
     if(root == NULL){
         return NULL;
@@ -11,4 +11,4 @@ struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p,
     }
     return root;
 }
-```
+// ```

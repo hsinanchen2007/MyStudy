@@ -1,7 +1,7 @@
-参考官方题解
+// 参考官方题解
 
-# 一.回溯法(注意剪枝的方法，否则会超时)
-```
+// # 一.回溯法(注意剪枝的方法，否则会超时)
+// ```
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -25,9 +25,9 @@ public:
         return false;
     }
 };
-```
-# 二.DFS(和二叉树的广度优先遍历一样。和上一种方法一样，同样需要记录访问过的元素，降低复杂度)
-```
+// ```
+// # 二.DFS(和二叉树的广度优先遍历一样。和上一种方法一样，同样需要记录访问过的元素，降低复杂度)
+// ```
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -50,9 +50,9 @@ public:
         return false;
     }
 };
-```
-# 三 .动态规划
-```
+// ```
+// # 三 .动态规划
+// ```
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -74,7 +74,7 @@ public:
         return false;
     }
 };
-```
+// ```
 
 
 

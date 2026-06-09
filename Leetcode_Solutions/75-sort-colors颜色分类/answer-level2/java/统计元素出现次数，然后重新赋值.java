@@ -1,9 +1,9 @@
-### 解题思路
-统计元素出现的个数，然后设置判断条件，再次设置对应元素对应个数的值
+// ### 解题思路
+// 统计元素出现的个数，然后设置判断条件，再次设置对应元素对应个数的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void sortColors(int[] nums) {
         int len = nums.length;
@@ -35,4 +35,4 @@ class Solution {
         }
     }
 }
-```
+// ```

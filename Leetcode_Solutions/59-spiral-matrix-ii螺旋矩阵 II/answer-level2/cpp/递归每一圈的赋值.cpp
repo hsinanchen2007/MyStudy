@@ -1,9 +1,9 @@
-### 解题思路
-把每一圈的赋值写成一个递归函数
+// ### 解题思路
+// 把每一圈的赋值写成一个递归函数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -43,4 +43,4 @@ public:
         generateMatrix_recursive(res,startRow+1,startCol+1,n-2,count);
     }
 };
-```
+// ```

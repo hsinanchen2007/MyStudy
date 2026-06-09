@@ -1,4 +1,4 @@
-```
+// ```
 #include <algorithm>
 class Solution {
 public:
@@ -34,5 +34,5 @@ public:
         return forend;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/5bfea9ec1282093f3b3eded0c24d9750fa8e6601d92ebf6bd95b1a3b929fe4c6-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/5bfea9ec1282093f3b3eded0c24d9750fa8e6601d92ebf6bd95b1a3b929fe4c6-image.png)

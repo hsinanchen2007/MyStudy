@@ -1,13 +1,13 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n!)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 循环遍历每一个元素，有两种情况
-        2.1.1 当前元素为1，深度遍历并改变相邻元素为0，自增result
-        2.1.2 当前元素为0，继续下一遍历
-<br />
-#### java实现
-```
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n!)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 循环遍历每一个元素，有两种情况
+//         2.1.1 当前元素为1，深度遍历并改变相邻元素为0，自增result
+//         2.1.2 当前元素为0，继续下一遍历
+// <br />
+// #### java实现
+// ```
 /**
  * Problem
  *     200.Number of Islands
@@ -65,10 +65,10 @@ class Solution{
     }
 }
 
-```
+// ```
 
-#### php实现
-```
+// #### php实现
+// ```
 class Solution{
     /**
      * 1.About Complexity
@@ -113,7 +113,7 @@ class Solution{
         $this->mark($grid, $i - 1, $j);
     }
 }
-```
+// ```
 
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

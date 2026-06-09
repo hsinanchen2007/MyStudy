@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-转为 相似问题
-45. 跳跃游戏 II https://leetcode-cn.com/problems/jump-game-ii/
-1024. 视频拼接	https://leetcode-cn.com/problems/video-stitching/
+// 转为 相似问题
+// 45. 跳跃游戏 II https://leetcode-cn.com/problems/jump-game-ii/
+// 1024. 视频拼接	https://leetcode-cn.com/problems/video-stitching/
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /*
 
 相似问题
@@ -69,4 +69,4 @@ func minSteps(nums []int) int {
 	return steps
 }
 
-```
+// ```

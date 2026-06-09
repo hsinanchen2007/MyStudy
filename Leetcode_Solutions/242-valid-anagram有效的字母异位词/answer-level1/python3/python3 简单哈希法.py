@@ -1,9 +1,9 @@
-### 解题思路
-遍历第一个词，记录字母频次。遍历第二个词，递减频次，恰好中和返回True，否则False
+# ### 解题思路
+# 遍历第一个词，记录字母频次。遍历第二个词，递减频次，恰好中和返回True，否则False
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         count_rd = dict()
@@ -22,4 +22,4 @@ class Solution:
         if sum(count_rd.values()) > 0:
             return False
         return True
-```
+# ```

@@ -1,9 +1,9 @@
-#### 官方题解借鉴桶排序的js实现
+// #### 官方题解借鉴桶排序的js实现
 
-- 一直在纠结-0 === 0 为true这个问题，最后觉得只要向下取整其实也可以解决这个问题
-- 不一定用map，用最简单的对象当然也行
+// - 一直在纠结-0 === 0 为true这个问题，最后觉得只要向下取整其实也可以解决这个问题
+// - 不一定用map，用最简单的对象当然也行
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -28,4 +28,4 @@ var containsNearbyAlmostDuplicate = function(nums, k, t) {
     }
     return false
 };
-```
+// ```

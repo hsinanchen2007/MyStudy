@@ -1,10 +1,10 @@
-### 解题思路
-看到题目只有一个思路，深搜。
-一提交果然超时，加入记忆化即可。
+# ### 解题思路
+# 看到题目只有一个思路，深搜。
+# 一提交果然超时，加入记忆化即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canCross(self, stones: List[int]) -> bool:
         self.target = stones[-1]
@@ -23,4 +23,4 @@ class Solution:
                     return True
         memo[(cur, k)] = False
         return False
-```
+# ```

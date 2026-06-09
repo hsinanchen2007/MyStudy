@@ -1,9 +1,9 @@
-### 解题思路
-通过正则判断每组关键数字出现的次数，相加即可
+// ### 解题思路
+// 通过正则判断每组关键数字出现的次数，相加即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -26,4 +26,4 @@ var romanToInt = function(s) {
         + ($13 ? $13.length : 0)
       })
 };
-```
+// ```

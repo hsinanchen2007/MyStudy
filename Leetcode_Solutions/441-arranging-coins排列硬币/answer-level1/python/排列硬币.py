@@ -1,10 +1,10 @@
-### 解题思路
-数学法：
-![image.png](https://pic.leetcode-cn.com/6dea5196af1063ecde097ee5a67b9227433ffcf6c86960f7824cf5a6e0841de3-image.png)
+# ### 解题思路
+# 数学法：
+# ![image.png](https://pic.leetcode-cn.com/6dea5196af1063ecde097ee5a67b9227433ffcf6c86960f7824cf5a6e0841de3-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def arrangeCoins(self, n: int) -> int:
 
@@ -25,8 +25,8 @@ class Solution:
         #     else:
         #         return i-1
 # 作者：powcai
-```
-```python3
+# ```
+# ```python3
 class Solution:
     def arrangeCoins(self, n: int) -> int:  
         i = 1
@@ -34,4 +34,4 @@ class Solution:
             n -= i
             i += 1
         return i - 1
-```
+# ```

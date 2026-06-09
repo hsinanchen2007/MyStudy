@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int calPoints(String[] ops) {
 		int sum = 0;
@@ -24,8 +24,8 @@ class Solution {
 		return sum;
 	}
 }
-```
-```
+// ```
+// ```
 class Solution {
    	public int calPoints(String[] ops) {
 		int sum = 0, index = 0;
@@ -49,5 +49,5 @@ class Solution {
 		return sum;
 	}
 }
-```
+// ```
 

@@ -1,8 +1,8 @@
-利用hash 和 快速排序
+// 利用hash 和 快速排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
@@ -43,4 +43,4 @@ char * frequencySort(char * s){
     ss[k] = '\0';
     return ss;
 }
-```
+// ```

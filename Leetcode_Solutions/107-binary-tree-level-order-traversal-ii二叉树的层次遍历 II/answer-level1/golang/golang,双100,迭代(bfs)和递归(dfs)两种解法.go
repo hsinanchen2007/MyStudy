@@ -1,8 +1,8 @@
-先顺序遍历,后翻转结果集
+// 先顺序遍历,后翻转结果集
 
-**迭代解法**
-![image.png](https://pic.leetcode-cn.com/2b8c91dedc06839e15cd9ebe46fb38cf0f5928814a6762de9387344a0e54b3b6-image.png)
-```
+// **迭代解法**
+// ![image.png](https://pic.leetcode-cn.com/2b8c91dedc06839e15cd9ebe46fb38cf0f5928814a6762de9387344a0e54b3b6-image.png)
+// ```
 func levelOrderBottom(root *TreeNode) [][]int {
 	//广度优先搜索(bfs)
 	result := make([][]int, 0)
@@ -56,12 +56,12 @@ func levelOrderBottom(root *TreeNode) [][]int {
 
 	return result
 }
-```
+// ```
 
 
-**递归解法**
-![image.png](https://pic.leetcode-cn.com/751b1ac168f447acf01e4b6bda067f1ccdc08c6746b5bfe588eb61079091fced-image.png)
-```
+// **递归解法**
+// ![image.png](https://pic.leetcode-cn.com/751b1ac168f447acf01e4b6bda067f1ccdc08c6746b5bfe588eb61079091fced-image.png)
+// ```
 func levelOrderBottom(root *TreeNode) [][]int {
 	//深度优先遍历(dfs)
 	result := make([][]int, 0)
@@ -102,4 +102,4 @@ func orderBottom(root *TreeNode, result *[][]int, level int) {
 	orderBottom(root.Left, result, level+1)
 	orderBottom(root.Right, result, level+1)
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：插入排序
@@ -40,4 +40,4 @@ void merge(int * A , int ASize , int m , int * B , int BSize , int n ){
     }
 
 }
-```
+// ```

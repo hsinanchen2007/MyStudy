@@ -1,25 +1,25 @@
-### 解题思路
-参考官方题解 [螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/solution/luo-xuan-ju-zhen-by-leetcode/)
+# ### 解题思路
+# 参考官方题解 [螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/solution/luo-xuan-ju-zhen-by-leetcode/)
 
-### 模拟：采用方向旋转法
-用一个矩阵标记已经走过的路线，
-每次朝当前方向前进一步，若已访问过或者越界，则转向下一个方向走一步，若仍访问过或者越界，则说明全部访问完了，停止。
+# ### 模拟：采用方向旋转法
+# 用一个矩阵标记已经走过的路线，
+# 每次朝当前方向前进一步，若已访问过或者越界，则转向下一个方向走一步，若仍访问过或者越界，则说明全部访问完了，停止。
 
-### 官方题解法2：
-从最外圈开始，使用顺时针访问整个一圈的节点，然后再访问往里一圈的节点。直到最终的节点。
-
-
-这一题也看到有人用 90°顺时针旋转矩阵法+额外操作，这个是套用了 [面试题 01.07. 旋转矩阵](https://leetcode-cn.com/problems/rotate-matrix-lcci/solution/gelthin-duo-chong-jie-fa-by-gelthin/) [48. 旋转图像](https://leetcode-cn.com/problems/rotate-image/) 的解答。
-[拿一行，逆时针转一下](https://leetcode-cn.com/problems/spiral-matrix/solution/luo-xuan-ju-zhen-by-leetcode/130844)
+# ### 官方题解法2：
+# 从最外圈开始，使用顺时针访问整个一圈的节点，然后再访问往里一圈的节点。直到最终的节点。
 
 
+# 这一题也看到有人用 90°顺时针旋转矩阵法+额外操作，这个是套用了 [面试题 01.07. 旋转矩阵](https://leetcode-cn.com/problems/rotate-matrix-lcci/solution/gelthin-duo-chong-jie-fa-by-gelthin/) [48. 旋转图像](https://leetcode-cn.com/problems/rotate-image/) 的解答。
+# [拿一行，逆时针转一下](https://leetcode-cn.com/problems/spiral-matrix/solution/luo-xuan-ju-zhen-by-leetcode/130844)
 
 
 
 
-### 代码
 
-```python3
+
+# ### 代码
+
+# ```python3
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         ## 模拟转弯，标记是否访问过
@@ -49,4 +49,4 @@ class Solution:
 
 
 
-```
+# ```

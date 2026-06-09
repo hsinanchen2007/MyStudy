@@ -1,10 +1,10 @@
-## 思路
-以每个位置开头检查是否存在路径。
+// ## 思路
+// 以每个位置开头检查是否存在路径。
 
-### 代码
-时间复杂度：O(n * m)
-空间复杂度：O(1)
-```cpp
+// ### 代码
+// 时间复杂度：O(n * m)
+// 空间复杂度：O(1)
+// ```cpp
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -34,13 +34,13 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-### 另一种写法
-使用访问数组表示每个位置是否访问。
-时间复杂度：O(n * m)
-空间复杂度：O(n * m)
-```c++
+// ### 另一种写法
+// 使用访问数组表示每个位置是否访问。
+// 时间复杂度：O(n * m)
+// 空间复杂度：O(n * m)
+// ```c++
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -70,4 +70,4 @@ public:
         return ret;
     }
 };
-```
+// ```

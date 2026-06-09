@@ -1,11 +1,11 @@
-### 解题思路
-a/d 可以由a/b * b/d或者a/c * c/d或者 a/e * e/d 计算得到，或者是无结果。
-所以维护一个二维数组（map），储存a,b,c,d,e之间的除法结果，如果两者之间无结果，则存-inf进行区别。
-不停遍历这个map，保证没有新的结果能计算出来，最后根据要求查询map即可
+# ### 解题思路
+# a/d 可以由a/b * b/d或者a/c * c/d或者 a/e * e/d 计算得到，或者是无结果。
+# 所以维护一个二维数组（map），储存a,b,c,d,e之间的除法结果，如果两者之间无结果，则存-inf进行区别。
+# 不停遍历这个map，保证没有新的结果能计算出来，最后根据要求查询map即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
         dic = {}
@@ -53,4 +53,4 @@ class Solution:
                 else:
                     output.append(-1.0)
         return output
-```
+# ```

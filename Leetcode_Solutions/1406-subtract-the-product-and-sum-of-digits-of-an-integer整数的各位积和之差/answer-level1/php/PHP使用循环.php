@@ -1,9 +1,9 @@
-### 解题思路
-使用循环乘积和求和，同时可以使用数组array_product和array_sum直接计算。
+// ### 解题思路
+// 使用循环乘积和求和，同时可以使用数组array_product和array_sum直接计算。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -23,4 +23,4 @@ class Solution {
         return $multi - $sum;
     }
 }
-```
+// ```

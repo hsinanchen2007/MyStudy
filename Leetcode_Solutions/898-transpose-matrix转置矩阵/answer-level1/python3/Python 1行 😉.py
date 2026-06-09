@@ -1,10 +1,10 @@
-```python
+# ```python
 class Solution:
     def transpose(self, A: List[List[int]]) -> List[List[int]]:
         return [*zip(*A)]
-```
-- 不用内置函数 ↓
-```python
+# ```
+# - 不用内置函数 ↓
+# ```python
 class Solution:
     def transpose(self, A: List[List[int]]) -> List[List[int]]:
         
@@ -13,4 +13,4 @@ class Solution:
                 yield [b[i] for b in arg]
         
         return [*myZip(*A)]
-```
+# ```

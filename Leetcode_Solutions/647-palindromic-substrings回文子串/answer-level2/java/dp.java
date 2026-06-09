@@ -1,4 +1,4 @@
-```java
+// ```java
 public int countSubstrings(String s) {
         int len = s.length();
         boolean[][] dp = new boolean[len][len];
@@ -26,4 +26,4 @@ public int countSubstrings(String s) {
         }
         return result;
     }
-```
+// ```

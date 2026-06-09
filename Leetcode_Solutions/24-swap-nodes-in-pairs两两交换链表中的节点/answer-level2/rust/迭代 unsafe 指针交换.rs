@@ -1,4 +1,4 @@
-```rust
+// ```rust
 pub fn swap_pairs(mut head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
     if head.is_none() { return head }
     let mut b: *mut _ = &mut head;
@@ -15,4 +15,4 @@ pub fn swap_pairs(mut head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
     }}
     head
 }
-```
+// ```

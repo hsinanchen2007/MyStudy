@@ -1,4 +1,4 @@
-```
+// ```
 class Trie {
     private final int ALPHABET_SIZE = 26;
     private Trie[] children = new Trie[ALPHABET_SIZE];
@@ -38,4 +38,4 @@ class Trie {
         return true;
     }
 }
-```
+// ```

@@ -1,17 +1,17 @@
-欢迎大家关注我的LeetCode代码仓：https://github.com/617076674/LeetCode
-几乎所有题目都会提供多种解法，真诚求star！
+// 欢迎大家关注我的LeetCode代码仓：https://github.com/617076674/LeetCode
+// 几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：floor函数
+// # 解法一：floor函数
 
-先对每行第一列的数据用floor函数进行查找。
+// 先对每行第一列的数据用floor函数进行查找。
 
-再对找到的那一行进行二分查找法。
+// 再对找到的那一行进行二分查找法。
 
-时间复杂度是O(log(m) + log(n))，其中m是矩阵的行数，n是矩阵的列数。空间复杂度是O(1)。
+// 时间复杂度是O(log(m) + log(n))，其中m是矩阵的行数，n是矩阵的列数。空间复杂度是O(1)。
 
-执行用时：1ms，击败99.30%。消耗内存：38.9MB，击败86.55%。
+// 执行用时：1ms，击败99.30%。消耗内存：38.9MB，击败86.55%。
 
-```java
+// ```java
 public class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int m;
@@ -63,19 +63,19 @@ public class Solution {
         return left;
     }
 }
-```
+// ```
 
-# 解法二：ceil函数
+// # 解法二：ceil函数
 
-先对每行最后一列的数据用ceil函数进行查找。
+// 先对每行最后一列的数据用ceil函数进行查找。
 
-再对找到的那一行进行二分查找法。
+// 再对找到的那一行进行二分查找法。
 
-时间复杂度是O(log(m) + log(n))，其中m是矩阵的行数，n是矩阵的列数。空间复杂度是O(1)。
+// 时间复杂度是O(log(m) + log(n))，其中m是矩阵的行数，n是矩阵的列数。空间复杂度是O(1)。
 
-执行用时：1ms，击败99.30%。消耗内存：39.8MB，击败76.97%。
+// 执行用时：1ms，击败99.30%。消耗内存：39.8MB，击败76.97%。
 
-```java
+// ```java
 public class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int m;
@@ -128,4 +128,4 @@ public class Solution {
         return right;
     }
 }
-```
+// ```

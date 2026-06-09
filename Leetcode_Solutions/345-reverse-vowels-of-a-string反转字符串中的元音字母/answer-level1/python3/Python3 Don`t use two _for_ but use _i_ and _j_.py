@@ -1,9 +1,9 @@
-### 解题思路
-I used two for but I failed. 
+# ### 解题思路
+# I used two for but I failed. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseVowels(self, s: str) -> str:
         yuanyin="aeiouAEIOU"
@@ -20,4 +20,4 @@ class Solution:
                 i+=1
                 j-=1
         return "".join(s)
-```
+# ```

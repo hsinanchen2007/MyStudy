@@ -1,12 +1,12 @@
-设置两个boolean类型的数组buffer1和buffer2分别存储是否能够流到太平洋和大西洋。
-采用广度优先搜索，以太平洋为例：
-首先从太平洋岸边的位置matrix[i][j]开始(即matrix矩阵的第一排元素和第一列元素),这些位置肯定可以流向太平洋(buffer[i][j] = 1)。
-然后判断四周位置matrix[i'][j']是否可以流向matrix[i][j]，如果可以流向matrix[i][j]，则buffer1[i'][j'] = 1 。
-再从四周位置中可以流到matrix[i][j]的位置matrix[i'][j']递归判断其周围的位置是否可以流向它。
-终止条件为matrix[i][j]四周的位置都无法流向它。
-同理可得到buffer2。
-最后buffer1和buffer2对应元素同为1的位置为本问题的解。
-```
+// 设置两个boolean类型的数组buffer1和buffer2分别存储是否能够流到太平洋和大西洋。
+// 采用广度优先搜索，以太平洋为例：
+// 首先从太平洋岸边的位置matrix[i][j]开始(即matrix矩阵的第一排元素和第一列元素),这些位置肯定可以流向太平洋(buffer[i][j] = 1)。
+// 然后判断四周位置matrix[i'][j']是否可以流向matrix[i][j]，如果可以流向matrix[i][j]，则buffer1[i'][j'] = 1 。
+// 再从四周位置中可以流到matrix[i][j]的位置matrix[i'][j']递归判断其周围的位置是否可以流向它。
+// 终止条件为matrix[i][j]四周的位置都无法流向它。
+// 同理可得到buffer2。
+// 最后buffer1和buffer2对应元素同为1的位置为本问题的解。
+// ```
 class Solution {
     public List<List<Integer>> pacificAtlantic(int[][] matrix) {
         List<List<Integer>> result = new ArrayList<>();
@@ -60,5 +60,5 @@ class Solution {
         }
     }
 }
-```
-![捕获.PNG](https://pic.leetcode-cn.com/d87969cf175fb496fe3f462d2ac7e90a2e3b45e39b6612d3653d8a1c39bd6c66-%E6%8D%95%E8%8E%B7.PNG)
+// ```
+// ![捕获.PNG](https://pic.leetcode-cn.com/d87969cf175fb496fe3f462d2ac7e90a2e3b45e39b6612d3653d8a1c39bd6c66-%E6%8D%95%E8%8E%B7.PNG)

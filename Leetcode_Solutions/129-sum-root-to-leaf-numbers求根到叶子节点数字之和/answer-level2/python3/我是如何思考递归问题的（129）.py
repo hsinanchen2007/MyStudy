@@ -1,6 +1,6 @@
-二叉树的问题基本都是递归解决的。按照题目意思要找到所有到叶子节点的路径的和。因此肯定要遍历这颗二叉树。二叉树有三种遍历方式。根据题目意思，显然是先序遍历的思路。遍历的时候用tmp_sum记录之前生成的数字。tmp_sum的更新为  tmp_sum = tmp_sum*10 + curr_val。res数组用来记录所有路径的数字。
+# 二叉树的问题基本都是递归解决的。按照题目意思要找到所有到叶子节点的路径的和。因此肯定要遍历这颗二叉树。二叉树有三种遍历方式。根据题目意思，显然是先序遍历的思路。遍历的时候用tmp_sum记录之前生成的数字。tmp_sum的更新为  tmp_sum = tmp_sum*10 + curr_val。res数组用来记录所有路径的数字。
 
-```python []
+# ```python []
 class Solution:
     def sumNumbers(self, root: TreeNode) -> int:
         #用来记录各个路径的结果
@@ -21,5 +21,5 @@ class Solution:
         for item in self.all_num:
             res += item
         return res
-```
+# ```
 

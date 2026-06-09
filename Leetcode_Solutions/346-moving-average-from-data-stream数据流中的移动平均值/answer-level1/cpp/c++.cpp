@@ -1,4 +1,4 @@
-```
+// ```
 class MovingAverage {
 public:
     /** Initialize your data structure here. */
@@ -24,4 +24,4 @@ public:
         return sum*1.0/count;
     }
 };
-```
+// ```

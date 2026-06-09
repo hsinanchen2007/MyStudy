@@ -1,10 +1,10 @@
-[91.解码方法](https://leetcode-cn.com/problems/decode-ways/submissions/)
+// [91.解码方法](https://leetcode-cn.com/problems/decode-ways/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
-[大神题解](https://leetcode-cn.com/problems/decode-ways/solution/c-wo-ren-wei-hen-jian-dan-zhi-guan-de-jie-fa-by-pr/)讲的很清楚，这道题解题思路没有难度，主要就是边界问题。
+// [大神题解](https://leetcode-cn.com/problems/decode-ways/solution/c-wo-ren-wei-hen-jian-dan-zhi-guan-de-jie-fa-by-pr/)讲的很清楚，这道题解题思路没有难度，主要就是边界问题。
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -27,4 +27,4 @@ var numDecodings = function(s) {
     }
     return cur;
 };
-```
+// ```

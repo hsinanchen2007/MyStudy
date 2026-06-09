@@ -1,5 +1,5 @@
-直接递归计算即可
-```
+// 直接递归计算即可
+// ```
 class Solution {
 public:
     void dfs(int* minutes, int index, vector<int>& manager, vector<int>& informTime) {
@@ -24,4 +24,4 @@ public:
         return ans;
     }
 };
-```
+// ```

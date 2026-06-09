@@ -1,12 +1,12 @@
-### 状态转移方程
-```cpp
+// ### 状态转移方程
+// ```cpp
 f(i, j) 代表 word1[0...i] 和 word2[0...j] 的编辑距离 
 f(i, j) = f(i-1, j-1),                                  word1[i] == word2[j]
 f(i, j) = min(f(i, j-1), f(i-1, j), f(i-1, j-1)) + 1,   word1[i] != word2[j]
-```
+// ```
 
-### 迭代
-```cpp
+// ### 迭代
+// ```cpp
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -31,4 +31,4 @@ public:
         return dp.back().back();
     }
 };
-```
+// ```

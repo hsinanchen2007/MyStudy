@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {  
     int ch;                    /* key */  
     char value;  
@@ -69,4 +69,4 @@ int lengthOfLongestSubstring(char * s){
     ClearList();
     return max;
 }
-```
+// ```

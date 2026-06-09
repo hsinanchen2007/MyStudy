@@ -1,15 +1,15 @@
-### 解题思路
-找到叶子结点返回0；
-左边的结点返回左边路径的个数；
-右边的结点返回右边路径的个数；
-左边+右边如果比g_Max大，则保留；否则丢弃；
-最终返回g_Max即可。
-![123.PNG](https://pic.leetcode-cn.com/a5bbdfd2df41b74ad42b5271bf22897ab92c5e98ebfc47a47839caa314fdfdaa-123.PNG)
+// ### 解题思路
+// 找到叶子结点返回0；
+// 左边的结点返回左边路径的个数；
+// 右边的结点返回右边路径的个数；
+// 左边+右边如果比g_Max大，则保留；否则丢弃；
+// 最终返回g_Max即可。
+// ![123.PNG](https://pic.leetcode-cn.com/a5bbdfd2df41b74ad42b5271bf22897ab92c5e98ebfc47a47839caa314fdfdaa-123.PNG)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     return g_Max;
 }
 
-```
+// ```

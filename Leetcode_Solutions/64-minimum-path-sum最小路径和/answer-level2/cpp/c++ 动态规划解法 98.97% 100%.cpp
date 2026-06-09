@@ -1,9 +1,9 @@
-### 解题思路
-一开始的i和j和之后的反了过来 注意行和列的顺序！！
+// ### 解题思路
+// 一开始的i和j和之后的反了过来 注意行和列的顺序！！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
@@ -30,4 +30,4 @@ public:
         return dp[m-1][n-1];
     }
 };
-```
+// ```

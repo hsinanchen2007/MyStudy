@@ -1,4 +1,4 @@
-```Java
+// ```Java
 class Solution{
 	public int countSegments(String s){
 		s=s.trim();
@@ -8,4 +8,4 @@ class Solution{
 		return str.length; 
 	}
 }
-```
+// ```

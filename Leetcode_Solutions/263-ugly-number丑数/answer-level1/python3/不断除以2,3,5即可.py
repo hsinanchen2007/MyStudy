@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isUgly(self, num: int) -> bool:
         if num<=0:
@@ -18,4 +18,4 @@ class Solution:
                 num=num/3
             if num%5==0:
                 num=num/5
-```
+# ```

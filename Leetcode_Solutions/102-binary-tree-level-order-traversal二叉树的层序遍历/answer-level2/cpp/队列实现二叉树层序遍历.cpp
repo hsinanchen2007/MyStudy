@@ -1,8 +1,8 @@
-### 解题思路
-利用队列FIFO的特性，每次遍历当前层节点的时候，将当前层节点的子节点入队。
-### 代码
+// ### 解题思路
+// 利用队列FIFO的特性，每次遍历当前层节点的时候，将当前层节点的子节点入队。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,6 +39,6 @@ public:
         return res;
     }
 };
-```
-### 结果
-![屏幕快照 2020-03-18 下午7.22.34.png](https://pic.leetcode-cn.com/bee32a61fb19f504945b36a2bbe421cc5a1800f5448101c60a3e0094c364a96f-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-18%20%E4%B8%8B%E5%8D%887.22.34.png)
+// ```
+// ### 结果
+// ![屏幕快照 2020-03-18 下午7.22.34.png](https://pic.leetcode-cn.com/bee32a61fb19f504945b36a2bbe421cc5a1800f5448101c60a3e0094c364a96f-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-18%20%E4%B8%8B%E5%8D%887.22.34.png)

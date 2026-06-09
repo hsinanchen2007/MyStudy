@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         uf = collections.defaultdict(int)
@@ -31,5 +31,5 @@ class Solution:
             if cnt[n+1]:
                 union(n,n+1)
         return max(cnt.values())
-```
+# ```
 

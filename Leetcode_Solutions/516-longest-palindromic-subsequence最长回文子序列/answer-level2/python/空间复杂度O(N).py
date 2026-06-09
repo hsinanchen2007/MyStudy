@@ -1,6 +1,6 @@
-使用长度为N的一维数组，每次进行从前向后(i+1开始)的更新时，提前暂存左下角元素dp[i]为lb，并并暂存当前元素dp[j]为tmp，dp[j]更新后，tmp变为左下角元素，将之赋值给lb，然后交替进行。
+# 使用长度为N的一维数组，每次进行从前向后(i+1开始)的更新时，提前暂存左下角元素dp[i]为lb，并并暂存当前元素dp[j]为tmp，dp[j]更新后，tmp变为左下角元素，将之赋值给lb，然后交替进行。
 
-```python []
+# ```python []
 class Solution:
     def longestPalindromeSubseq(self, s):
         n = len(s)
@@ -17,5 +17,5 @@ class Solution:
                 lb = tmp
             dp[i] = 1
         return dp[n-1]
-```
+# ```
 

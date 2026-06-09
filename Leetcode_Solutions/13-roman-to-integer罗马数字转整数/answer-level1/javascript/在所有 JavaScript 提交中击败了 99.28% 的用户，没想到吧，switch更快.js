@@ -1,9 +1,9 @@
-### 解题思路
-这道题不难。没想到的是keyvalue对象比switch查询要慢得多
+// ### 解题思路
+// 这道题不难。没想到的是keyvalue对象比switch查询要慢得多
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -37,4 +37,4 @@ const getValue = (ch) => {
     }
 }
 
-```
+// ```

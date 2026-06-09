@@ -1,9 +1,9 @@
-### 类似归并排序，左右子树各自递归，新建一颗二叉树，返回头结点，思路简单，哪个大佬能告诉我 内存得分为什么这么差
-![image.png](https://pic.leetcode-cn.com/88704206f1768171f94a44d732f4a5b14b7250a576608aecc7d8856ee378b986-image.png)
+// ### 类似归并排序，左右子树各自递归，新建一颗二叉树，返回头结点，思路简单，哪个大佬能告诉我 内存得分为什么这么差
+// ![image.png](https://pic.leetcode-cn.com/88704206f1768171f94a44d732f4a5b14b7250a576608aecc7d8856ee378b986-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ struct TreeNode* mergeTrees(struct TreeNode* t1, struct TreeNode* t2){
 
     return head;
 }
-```
+// ```

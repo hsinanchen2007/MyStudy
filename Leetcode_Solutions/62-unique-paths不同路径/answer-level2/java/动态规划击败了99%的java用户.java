@@ -1,8 +1,8 @@
 
 
-如果申请一个二维空间的dp[][],那么状态转移方程为dp[i][j] = dp[i - 1][j]+dp[i][j - 1];
-更多动态规划相关的问题请[参考此文](https://blog.csdn.net/reed1991/article/details/69218786)
-```
+// 如果申请一个二维空间的dp[][],那么状态转移方程为dp[i][j] = dp[i - 1][j]+dp[i][j - 1];
+// 更多动态规划相关的问题请[参考此文](https://blog.csdn.net/reed1991/article/details/69218786)
+// ```
 public int uniquePaths1(int m, int n) {
         if (m <= 0 || n <= 0) {
             return 0;
@@ -46,4 +46,4 @@ public int uniquePaths1(int m, int n) {
         }
         return dp[n - 1];
     }
-```
+// ```

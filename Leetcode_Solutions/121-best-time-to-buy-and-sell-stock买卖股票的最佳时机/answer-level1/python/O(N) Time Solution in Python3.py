@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         ans = 0
@@ -14,4 +14,4 @@ class Solution:
             minPrice = min(minPrice, stock)
         
         return ans
-```
+# ```

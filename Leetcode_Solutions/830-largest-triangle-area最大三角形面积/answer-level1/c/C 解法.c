@@ -1,5 +1,5 @@
-# 代码：
-```
+// # 代码：
+// ```
 double computelength(int* p1, int* p2){
     return sqrt((p1[0] - p2[0]) * (p1[0] - p2[0]) + (p1[1] - p2[1]) * (p1[1] - p2[1]));
 }
@@ -29,4 +29,4 @@ double largestTriangleArea(int** points, int pointsSize, int* pointsColSize){
     }
     return max;
 }
-```
+// ```

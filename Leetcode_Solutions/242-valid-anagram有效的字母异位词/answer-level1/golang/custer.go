@@ -1,8 +1,8 @@
-# Go实现
+// # Go实现
 
-## 第一思路
+// ## 第一思路
 
-```go
+// ```go
 package main
 
 import "fmt"
@@ -42,10 +42,10 @@ func main() {
 	t := "ccac"
 	fmt.Println(isAnagram(s, t))
 }
-```
-## map实现的优化
+// ```
+// ## map实现的优化
 
-```go
+// ```go
 package main
 
 import (
@@ -72,12 +72,12 @@ func main() {
 	fmt.Println(isAnagram(s, t))
 }
 
-```
+// ```
 
-## 桶排序
-使用两个数组，数组是值类型，相同类型，相同长度是一个类型，可以直接对比
+// ## 桶排序
+// 使用两个数组，数组是值类型，相同类型，相同长度是一个类型，可以直接对比
 
-```go
+// ```go
 func isAnagram(s string, t string) bool {
 	if !(len(s) == len(t)) {
 		return false
@@ -94,17 +94,17 @@ func isAnagram(s string, t string) bool {
 	}
 	return bucket1 == bucket2
 }
-```
+// ```
 
-## 思路
+// ## 思路
 
-1. 按字典序排序，查看是否相等 快排O(nlogn)
-1. Map计数个数O(N)
+// 1. 按字典序排序，查看是否相等 快排O(nlogn)
+// 1. Map计数个数O(N)
 
 
-# Python实现
+// # Python实现
 
-```python
+// ```python
 class Solution(object):
     def isAnagram(self, s, t):
         """
@@ -113,11 +113,11 @@ class Solution(object):
         :rtype: bool
         """
         return sorted(s) == sorted(t)
-```
+// ```
 
-## 经典做法
+// ## 经典做法
 
-```python
+// ```python
 class Solution(object):
     def isAnagram(self, s, t):
         """
@@ -131,9 +131,9 @@ class Solution(object):
         for item in t:
             dic2[item] = dic2.get(item, 0) + 1
         return dic1 == dic2
-```
+// ```
 
-```python
+// ```python
 class Solution(object):
     def isAnagram(self, s, t):
         """
@@ -147,4 +147,4 @@ class Solution(object):
         for item in t:
             dic2[ord(item)-ord('a')] += 1
         return dic1 == dic2
-```
+// ```

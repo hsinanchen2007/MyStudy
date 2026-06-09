@@ -1,5 +1,5 @@
-理解堆的思想解决这道题非常容易，根据题意需要构建一个最大堆。
-因为Java内置的PriorityQueue是最小堆，所以需要重写比较器使它转换为最大堆。
+// 理解堆的思想解决这道题非常容易，根据题意需要构建一个最大堆。
+// 因为Java内置的PriorityQueue是最小堆，所以需要重写比较器使它转换为最大堆。
 
 `import java.util.PriorityQueue;
 

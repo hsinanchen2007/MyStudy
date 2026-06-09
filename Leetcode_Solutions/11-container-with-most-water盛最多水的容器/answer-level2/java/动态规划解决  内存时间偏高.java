@@ -1,15 +1,15 @@
-动态转移方程是：
-是不是用到最后一根木板：
+// 动态转移方程是：
+// 是不是用到最后一根木板：
 
-f(x) = f(x-1) //最大值么有用到最后一根木板
-f(x) = max(最后一根木板与其他木板的搭配)  //用到了最后一根木板
+// f(x) = f(x-1) //最大值么有用到最后一根木板
+// f(x) = max(最后一根木板与其他木板的搭配)  //用到了最后一根木板
 
-最终解答是  f(x) = Matn.max(f(x-1),max(最后一根木板与其他木板的搭配) )
+// 最终解答是  f(x) = Matn.max(f(x-1),max(最后一根木板与其他木板的搭配) )
 
-代码如下：
+// 代码如下：
 
 
-```
+// ```
 class Solution {
     public  int maxArea(int[] height) {
         return maxCount(height, height.length);
@@ -33,4 +33,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

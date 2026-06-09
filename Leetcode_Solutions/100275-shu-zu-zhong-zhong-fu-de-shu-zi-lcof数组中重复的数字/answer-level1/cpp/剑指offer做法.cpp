@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
         return 1;
     }
 };
-```
+// ```

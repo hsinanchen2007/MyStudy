@@ -1,10 +1,10 @@
-### 解题思路
-快慢指针，92%击败。两种不同的微操，第二种更秀一点，个人感觉。
-![图片.png](https://pic.leetcode-cn.com/34a629b09a7ca7d34e19062fac28d79a817a20b49170130599717668f59fed13-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// 快慢指针，92%击败。两种不同的微操，第二种更秀一点，个人感觉。
+// ![图片.png](https://pic.leetcode-cn.com/34a629b09a7ca7d34e19062fac28d79a817a20b49170130599717668f59fed13-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,8 +29,8 @@ bool hasCycle(struct ListNode *head) {
 	}
 	return 0;
 }
-```
-```c
+// ```
+// ```c
 bool hasCycle(struct ListNode *head) {
     if(head==NULL)return false;
     struct ListNode *p,*q; 
@@ -45,4 +45,4 @@ bool hasCycle(struct ListNode *head) {
     }
     return false;
 }
-````
+// ````

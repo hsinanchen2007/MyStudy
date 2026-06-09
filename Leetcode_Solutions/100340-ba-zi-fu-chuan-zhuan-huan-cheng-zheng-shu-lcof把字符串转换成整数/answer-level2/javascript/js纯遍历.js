@@ -1,9 +1,9 @@
-### 解题思路
-纯遍历
+// ### 解题思路
+// 纯遍历
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {number}
@@ -45,4 +45,4 @@ var strToInt = function(str) {
     return res;
 
 };
-```
+// ```

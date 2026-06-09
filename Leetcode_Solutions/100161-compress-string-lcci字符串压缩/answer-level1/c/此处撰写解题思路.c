@@ -1,7 +1,7 @@
-### 解题思路
-此处撰写解题思路                                                          
-![QQ截图20200402133356.png](https://pic.leetcode-cn.com/9b50ff00038572de6bf2f95f7e81c2d2c7cbf9fb9c98332588cc2f5e065b8094-QQ%E6%88%AA%E5%9B%BE20200402133356.png)
-### 代码
+// ### 解题思路
+// 此处撰写解题思路                                                          
+// ![QQ截图20200402133356.png](https://pic.leetcode-cn.com/9b50ff00038572de6bf2f95f7e81c2d2c7cbf9fb9c98332588cc2f5e065b8094-QQ%E6%88%AA%E5%9B%BE20200402133356.png)
+// ### 代码
 char* compressString(char* S)
 {  int len=strlen(S);
    if(len<2)

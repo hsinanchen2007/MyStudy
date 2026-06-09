@@ -1,9 +1,9 @@
-### 解题思路
-我太难了，怎么才能去除result中的[1,4,4]和[4,1,4]这种子集呢，我只能想到sort
+# ### 解题思路
+# 我太难了，怎么才能去除result中的[1,4,4]和[4,1,4]这种子集呢，我只能想到sort
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         result = []
@@ -19,4 +19,4 @@ class Solution:
             backtrack(0, [], i)
         return result
             
-```
+# ```

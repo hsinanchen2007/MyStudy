@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean detectCapitalUse(String word) {
         char[] chars = word.toCharArray();
@@ -19,4 +19,4 @@ class Solution {
         return (upper == chars.length || lower == chars.length || (upper == 1 && Character.isUpperCase(chars[0])));
     }
 }
-```
+// ```

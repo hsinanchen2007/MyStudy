@@ -1,9 +1,9 @@
-### 解题思路
-先计算链表的长度，再遍历到链表长度的一半
+# ### 解题思路
+# 先计算链表的长度，再遍历到链表长度的一半
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             res += 1
 
         return head
-```
+# ```

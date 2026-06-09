@@ -1,4 +1,4 @@
-```java
+// ```java
 public static Boolean isVowel(char ch) {
     return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
             ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U';
@@ -28,4 +28,4 @@ public String reverseVowels(String s) {
 
     return new String(letters);
 }
-```
+// ```

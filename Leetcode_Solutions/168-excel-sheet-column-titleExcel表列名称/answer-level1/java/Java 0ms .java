@@ -1,7 +1,7 @@
-题目很简单
-唯一的问题是没有0
-因此可以人为地构造0——减1
-```
+// 题目很简单
+// 唯一的问题是没有0
+// 因此可以人为地构造0——减1
+// ```
 class Solution {
     public String convertToTitle(int n) {
         n = n - 1;
@@ -17,4 +17,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

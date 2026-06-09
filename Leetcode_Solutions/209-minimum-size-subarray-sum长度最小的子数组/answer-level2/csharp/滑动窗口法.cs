@@ -1,4 +1,4 @@
-```
+// ```
 public static int MinSubArrayLen(int[] nums, int s)
         {
             int left = 0, right = -1; 
@@ -21,4 +21,4 @@ public static int MinSubArrayLen(int[] nums, int s)
                 return 0;
             return res;
         }
-```
+// ```

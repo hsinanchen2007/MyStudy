@@ -1,9 +1,9 @@
-### 解题思路
-从一个岛屿开始深度搜索，满足条件g_num=1，并进行累加；不满足条件g_num=0。参考其他题解完成的。
+// ### 解题思路
+// 从一个岛屿开始深度搜索，满足条件g_num=1，并进行累加；不满足条件g_num=0。参考其他题解完成的。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void dfs(int i, int j, int** grid, int gridSize, int gridColSize, int *g_num)
 {
     if (i < 0 || i >= gridSize || j < 0 || j >= gridColSize) {
@@ -35,4 +35,4 @@ int closedIsland(int** grid, int gridSize, int* gridColSize){
     }
     return res;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int getCurVer(char* version, int* pos){
     int start = *pos;
 	
@@ -31,4 +31,4 @@ int compareVersion(char * version1, char * version2){
 	
     return 0;
 }
-```
+// ```

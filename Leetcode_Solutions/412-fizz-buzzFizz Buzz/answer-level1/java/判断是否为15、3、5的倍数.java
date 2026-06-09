@@ -1,5 +1,5 @@
-同时被3和5整除，等价于被15整除
-```java
+// 同时被3和5整除，等价于被15整除
+// ```java
 class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> res = new ArrayList<String>();
@@ -17,4 +17,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

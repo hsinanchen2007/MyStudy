@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
         if not buildings:
@@ -30,4 +30,4 @@ class Solution:
                     nh = max(hl)
         res.append([height[-1][0], 0])
         return res
-```
+# ```

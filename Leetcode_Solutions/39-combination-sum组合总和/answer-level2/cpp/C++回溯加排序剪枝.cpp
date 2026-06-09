@@ -1,5 +1,5 @@
-没加排序的时候48ms，加了排序后24ms，recursive的curCombine参数改成引用后8ms，一开始没注意值传递了，vector<int>一直在复制，很慢。
-```
+// 没加排序的时候48ms，加了排序后24ms，recursive的curCombine参数改成引用后8ms，一开始没注意值传递了，vector<int>一直在复制，很慢。
+// ```
 class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
@@ -29,4 +29,4 @@ public:
 
     vector<vector<int>> m_vecRes;
 };
-```
+// ```

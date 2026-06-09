@@ -1,5 +1,5 @@
-使用平衡二叉搜索树来作为滑动窗口元素的容器。
-```
+// 使用平衡二叉搜索树来作为滑动窗口元素的容器。
+// ```
 class Solution {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         TreeSet<Integer> set = new TreeSet<>();
@@ -20,4 +20,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-若一个数是快乐数，最终变换会回到1，因此确定循环终结条件；
-若不是快乐数，会进入死循环，如何终至死循环，将每次变换过后的值存入HashSet中，判断是否出现过重复值，出现则return false;
-```
+// 若一个数是快乐数，最终变换会回到1，因此确定循环终结条件；
+// 若不是快乐数，会进入死循环，如何终至死循环，将每次变换过后的值存入HashSet中，判断是否出现过重复值，出现则return false;
+// ```
 class Solution {
     public boolean isHappy(int n) {
         Set<Integer> set = new HashSet<>();
@@ -24,4 +24,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

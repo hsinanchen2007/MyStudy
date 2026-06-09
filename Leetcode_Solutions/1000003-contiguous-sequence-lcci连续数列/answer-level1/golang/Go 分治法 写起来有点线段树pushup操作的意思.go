@@ -1,4 +1,4 @@
-```
+// ```
 func maxSubArray(nums []int) int {
     var div func(l, r int) (int, int, int, int)
     div = func(l, r int) (int, int, int, int) {
@@ -22,4 +22,4 @@ func max(a, b int) int {
     }
     return b
 }
-```
+// ```

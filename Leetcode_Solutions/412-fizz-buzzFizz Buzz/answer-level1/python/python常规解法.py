@@ -1,9 +1,9 @@
-### 解题思路
-常规解法，利用 % 与 if，elif 实现。
+# ### 解题思路
+# 常规解法，利用 % 与 if，elif 实现。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
         num = []
@@ -18,4 +18,4 @@ class Solution:
                 num.append(str(i))
         return num 
 
-```
+# ```

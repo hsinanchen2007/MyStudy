@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def lengthOfLongestSubstringTwoDistinct(self, s: str) -> int:
         dic = collections.defaultdict(int)
@@ -17,4 +17,4 @@ class Solution:
             res = max(res, cnt)
         return res
     
-```
+# ```

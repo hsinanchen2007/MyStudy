@@ -1,9 +1,9 @@
-### 解题思路
-不会用递归，就用遍历，找到空子节点，插入即可。
+# ### 解题思路
+# 不会用递归，就用遍历，找到空子节点，插入即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
         return root
       
 
-```
+# ```

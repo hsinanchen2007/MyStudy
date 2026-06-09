@@ -1,10 +1,10 @@
-### 解题思路
-本题直接使用string.replace()这个api就可以解决。不过这个api底层基于规则表达式来做字符的查找，效率低。
-使用char数组或者StringBuilder来存储字符。
+// ### 解题思路
+// 本题直接使用string.replace()这个api就可以解决。不过这个api底层基于规则表达式来做字符的查找，效率低。
+// 使用char数组或者StringBuilder来存储字符。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         if (s==null || s.length()==0){
@@ -25,8 +25,8 @@ class Solution {
         return new String(returnS);
     }
 }
-```
-```java
+// ```
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         if (s==null || s.length()==0){
@@ -48,4 +48,4 @@ class Solution {
         return new String(array, 0, size);
     }
 }
-```
+// ```

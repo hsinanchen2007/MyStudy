@@ -1,5 +1,5 @@
-不知道为什么，这道题目被赋予了困难，但是正常遍历，效果也很好。。。
-```
+// 不知道为什么，这道题目被赋予了困难，但是正常遍历，效果也很好。。。
+// ```
 class Solution {
 public:
     int findMin(vector<int>& nums) 
@@ -12,4 +12,4 @@ public:
         return nums[0];
     }
 };
-```
+// ```

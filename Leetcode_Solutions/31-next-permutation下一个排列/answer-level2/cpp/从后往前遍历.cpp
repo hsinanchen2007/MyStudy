@@ -1,11 +1,11 @@
-### 解题思路
-击败了100%的c++用户
-从后往前遍历找到第一个nums[i]>nums[i-1]的i
-然后从i开始往后遍历大于nums[i-1]的最小的那个，将其于nums[i-1]交换
-然后sort(nums.begin()+i,nums.end());
-### 代码
+// ### 解题思路
+// 击败了100%的c++用户
+// 从后往前遍历找到第一个nums[i]>nums[i-1]的i
+// 然后从i开始往后遍历大于nums[i-1]的最小的那个，将其于nums[i-1]交换
+// 然后sort(nums.begin()+i,nums.end());
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -32,4 +32,4 @@ public:
         sort(nums.begin()+i,nums.end());
     }
 };
-```
+// ```

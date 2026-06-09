@@ -1,5 +1,5 @@
 
-```
+// ```
 public void moveZeroes(int[] nums) {       
     int j=0;    //j指针从头遍历，遇到0时停下，至到i指针指向大于0时交换
     for (int i = 1; i < nums.length; i++) {
@@ -14,6 +14,6 @@ public void moveZeroes(int[] nums) {
         }
     }
 }
-```
-时间复杂度O(n)
-空间复杂度O(1)
+// ```
+// 时间复杂度O(n)
+// 空间复杂度O(1)

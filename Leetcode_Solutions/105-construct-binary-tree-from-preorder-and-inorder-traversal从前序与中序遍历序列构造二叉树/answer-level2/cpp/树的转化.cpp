@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/d92a711bfb7373615dbab8024c1b42fffcabd5d7315d2d02728cedae2d717173-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d92a711bfb7373615dbab8024c1b42fffcabd5d7315d2d02728cedae2d717173-image.png)
 
-```
+// ```
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
@@ -21,4 +21,4 @@ public:
 
 
 
-```
+// ```

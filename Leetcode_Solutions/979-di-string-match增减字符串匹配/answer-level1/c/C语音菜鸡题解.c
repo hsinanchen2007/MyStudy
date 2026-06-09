@@ -1,14 +1,14 @@
-### 解题思路
-先观察题目 找规律
-我先发现数字间是有大小关系
-一开始考虑的是根据左值决定右值 但看了几个实例后 发现数字是按序的 并且是指定一个区间内选择数字
-于是我先取字符串的长度 得出了最大值 以及 最小值
-此时我可以遍历数组 根据I 与 D 选取我可用的最大最小值 写入
-最后返回数组即可
+// ### 解题思路
+// 先观察题目 找规律
+// 我先发现数字间是有大小关系
+// 一开始考虑的是根据左值决定右值 但看了几个实例后 发现数字是按序的 并且是指定一个区间内选择数字
+// 于是我先取字符串的长度 得出了最大值 以及 最小值
+// 此时我可以遍历数组 根据I 与 D 选取我可用的最大最小值 写入
+// 最后返回数组即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int* diStringMatch(char* S, int* returnSize){
     int char_size = strlen(S);
     int k = char_size;
@@ -24,9 +24,9 @@ int* diStringMatch(char* S, int* returnSize){
     }
     return ret;
 }
-```
+// ```
 
-```
+// ```
 int* diStringMatch(char* S, int* returnSize){
     int char_size = strlen(S);
     int k = char_size;
@@ -47,4 +47,4 @@ int* diStringMatch(char* S, int* returnSize){
     }
     return ret2;
 }
-```
+// ```

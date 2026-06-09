@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def getMoneyAmount(self, n):
 #dp[i][j]表示从i到j能找到正确数字所需要的最小代价
@@ -28,4 +28,4 @@ class Solution(object):
                 j = n - new_n
         return dp[0][-1]
 
-```
+# ```

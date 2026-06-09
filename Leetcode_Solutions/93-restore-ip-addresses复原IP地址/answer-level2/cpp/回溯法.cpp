@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void core(vector<string>& re, string& ans, int stage, string & s, int pos) {
@@ -43,4 +43,4 @@ public:
         return re;
     }
 };
-```
+// ```

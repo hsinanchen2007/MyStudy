@@ -1,9 +1,9 @@
-### 解题思路
-.....不能用递归，要超时.唉，看到旁边大佬给的解析说这个双百算法快，记住了哈哈哈哈
+// ### 解题思路
+// .....不能用递归，要超时.唉，看到旁边大佬给的解析说这个双百算法快，记住了哈哈哈哈
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.Scanner;
 public class Solution {
     public static void main(String[] args){
@@ -32,4 +32,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

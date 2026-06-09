@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-观察曲线图，把所有上升段所获得的profit相加即为最优解。
+// 观察曲线图，把所有上升段所获得的profit相加即为最优解。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int maxprofit = 0 ;
@@ -23,4 +23,4 @@ class Solution {
         return maxprofit;
     }
 }
-```
+// ```

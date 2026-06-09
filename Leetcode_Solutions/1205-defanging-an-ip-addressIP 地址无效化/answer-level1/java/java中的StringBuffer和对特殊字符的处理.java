@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public String defangIPaddr(String address) {
         String[] splits = address.split("\\.");//我们以.对这个字符进行分割
@@ -15,4 +15,4 @@ class Solution {
         return stringBuffer.toString().substring(0, stringBuffer.length() - 3);//我们这里把buffer转回字字符串后存用subString截取字符串，目的是把最后一个元素后的【。】去掉
     }
 }
-```
+// ```

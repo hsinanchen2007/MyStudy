@@ -1,5 +1,5 @@
-感觉有点慢
-```
+# 感觉有点慢
+# ```
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         if not nums:
@@ -16,4 +16,4 @@ class Solution:
                 tmp.pop()
         helper(nums, [], ans)
         return ans
-```
+# ```

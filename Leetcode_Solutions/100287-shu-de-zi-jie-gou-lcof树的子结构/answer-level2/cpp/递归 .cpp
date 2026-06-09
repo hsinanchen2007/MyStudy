@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 	bool update;
@@ -27,4 +27,4 @@ public:
     	return cmp(A->left,B->left)&&cmp(A->right,B->right); //对比A和B的左右子树
 	}
 };
-```
+// ```

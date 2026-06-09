@@ -1,10 +1,10 @@
-### 动态规划
+// ### 动态规划
 
-见注释
+// 见注释
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func PredictTheWinner(_ nums: [Int]) -> Bool {
         let count = nums.count
@@ -26,4 +26,4 @@ class Solution {
         return dp[0][count - 1] >= 0
     }
 }
-```
+// ```

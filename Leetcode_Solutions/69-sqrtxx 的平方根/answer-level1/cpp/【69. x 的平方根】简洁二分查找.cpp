@@ -1,7 +1,7 @@
-## 思路
-非负数x的平方根不会大于(x / 2 + 1)。
-### 代码
-```c++
+// ## 思路
+// 非负数x的平方根不会大于(x / 2 + 1)。
+// ### 代码
+// ```c++
 class Solution {
 public:
     int mySqrt(int x) {
@@ -20,10 +20,10 @@ public:
         return high;
     }
 };
-```
-#### 另一种写法（击败100%）
-用除法避免溢出。
-```
+// ```
+// #### 另一种写法（击败100%）
+// 用除法避免溢出。
+// ```
 class Solution {
 public:
     int mySqrt(int x) {
@@ -42,5 +42,5 @@ public:
         return high;
     }
 };
-```
+// ```
 

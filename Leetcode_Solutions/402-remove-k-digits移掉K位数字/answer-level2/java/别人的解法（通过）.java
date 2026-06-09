@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String removeKdigits(String num, int k) {
         if (k <= 0) {
@@ -27,4 +27,4 @@ class Solution {
         return idx == digits ? "0" : new String(stk, idx, digits - idx); //如果0的长度=所需长度（即剩下的都是0）则输出0，否则输出前digits长度的字符串
     }
 }
-```
+// ```

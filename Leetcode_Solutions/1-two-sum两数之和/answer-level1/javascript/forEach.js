@@ -1,9 +1,9 @@
-### 解
-为了练习一下forEach。。。但是有点慢，不知道为何，求解答
+// ### 解
+// 为了练习一下forEach。。。但是有点慢，不知道为何，求解答
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -28,4 +28,4 @@ let numsC = [];
                 });
                 return numsC;
 };
-```
+// ```

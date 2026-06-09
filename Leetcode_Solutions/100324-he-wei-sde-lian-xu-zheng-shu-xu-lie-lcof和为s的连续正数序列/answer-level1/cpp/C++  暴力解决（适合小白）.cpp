@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) 
@@ -34,11 +34,11 @@ public:
         return rev;//返回vector<vector<int>>类型数组
     }
 };
-```
+// ```
 
-由题意知道要求序列长度至少大于2  这个限制条件可以知道 两个数不可能都大于target的中间值 所以有了
-int limit=(target)/2;限制条件 也正因为这个条件可知for循环的起点为int i=1； 即第二个元素开始
-判断以它为起点的序列和 sum 是否等于 target 即可
+// 由题意知道要求序列长度至少大于2  这个限制条件可以知道 两个数不可能都大于target的中间值 所以有了
+// int limit=(target)/2;限制条件 也正因为这个条件可知for循环的起点为int i=1； 即第二个元素开始
+// 判断以它为起点的序列和 sum 是否等于 target 即可
 
 
 

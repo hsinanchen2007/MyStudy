@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/e12350372d81c4df0526bd21c743270031729082c21b2ddcc532ecac9a6d7d56-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e12350372d81c4df0526bd21c743270031729082c21b2ddcc532ecac9a6d7d56-image.png)
 
-```
+// ```
 func isValid(c rune) bool {
     return c=='a' || c=='e' || c=='i' || c=='o' || c=='u' ||
            c=='A' || c=='E' || c=='I' || c=='O' || c=='U'
@@ -22,4 +22,4 @@ func reverseVowels(s string) string {
     }
     return string(t)
 }
-```
+// ```

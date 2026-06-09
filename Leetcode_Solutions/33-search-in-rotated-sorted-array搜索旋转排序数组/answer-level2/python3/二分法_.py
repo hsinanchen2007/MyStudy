@@ -1,9 +1,9 @@
-### 解题思路
-首先利用二分法寻找旋转中心点，再在对应区域用二分法寻找target。注意分界点的独立情况。
+# ### 解题思路
+# 首先利用二分法寻找旋转中心点，再在对应区域用二分法寻找target。注意分界点的独立情况。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         def find_rotate_index(left, right):
@@ -46,4 +46,4 @@ class Solution:
 
 
         
-```
+# ```

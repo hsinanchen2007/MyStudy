@@ -1,4 +1,4 @@
-```
+// ```
 func findMaxAverage(nums []int, k int) float64 {
 	sums := make([]float64, len(nums)+1)
 	l, r := float64(nums[0]), float64(nums[0])
@@ -34,4 +34,4 @@ func findMaxAverage(nums []int, k int) float64 {
 	}
 	return l
 }
-```
+// ```

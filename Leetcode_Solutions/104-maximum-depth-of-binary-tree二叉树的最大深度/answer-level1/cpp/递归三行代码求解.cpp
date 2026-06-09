@@ -1,9 +1,9 @@
-### 解题思路
-最大深度的最大子树深度加一
+// ### 解题思路
+// 最大深度的最大子树深度加一
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -21,4 +21,4 @@ public:
         return max(maxDepth(root->left),maxDepth(root->right))+1;
     }
 };
-```
+// ```

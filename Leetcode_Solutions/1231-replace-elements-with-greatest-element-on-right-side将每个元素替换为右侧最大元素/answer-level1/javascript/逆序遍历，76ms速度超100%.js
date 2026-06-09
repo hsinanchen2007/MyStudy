@@ -1,5 +1,5 @@
-逆序遍历
-```
+// 逆序遍历
+// ```
 /**
  * @param {number[]} arr
  * @return {number[]}
@@ -15,4 +15,4 @@ var replaceElements = function (arr) {
   }
   return arr
 };
-```
+// ```

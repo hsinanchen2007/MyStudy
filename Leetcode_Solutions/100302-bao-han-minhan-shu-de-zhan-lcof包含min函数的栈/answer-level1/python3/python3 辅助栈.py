@@ -1,12 +1,12 @@
-### 解题思路
-(1)栈Stack1正常存储元素，正常入栈出栈；辅助栈min_Stack 自底至顶递减，弹出最小值时，输出min_Stack[-1]
-(2) 关键在于min_Stack 如何入栈和出栈操作，才能保证自底至顶递减
-(3) 入栈时，如果min_Stack 为空，或者 当前元素x<= min_Stack[-1],即栈顶元素，将x入栈，否则不入栈，因为始终要保证栈顶为最小值
-(4) 出栈时，需要判断，Stack1弹出的值是否是最小值，即判断min_Stack[-1]==Stack[-1],如果相等，min_Stack.pop(-1),执行出栈操作
-这题和求队列中的最大值类似 [https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/]() 入栈稍有不同
-### 代码
+# ### 解题思路
+# (1)栈Stack1正常存储元素，正常入栈出栈；辅助栈min_Stack 自底至顶递减，弹出最小值时，输出min_Stack[-1]
+# (2) 关键在于min_Stack 如何入栈和出栈操作，才能保证自底至顶递减
+# (3) 入栈时，如果min_Stack 为空，或者 当前元素x<= min_Stack[-1],即栈顶元素，将x入栈，否则不入栈，因为始终要保证栈顶为最小值
+# (4) 出栈时，需要判断，Stack1弹出的值是否是最小值，即判断min_Stack[-1]==Stack[-1],如果相等，min_Stack.pop(-1),执行出栈操作
+# 这题和求队列中的最大值类似 [https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/]() 入栈稍有不同
+# ### 代码
 
-```python3
+# ```python3
 class MinStack:
 
     def __init__(self):
@@ -49,4 +49,4 @@ class MinStack:
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.min()
-```
+# ```

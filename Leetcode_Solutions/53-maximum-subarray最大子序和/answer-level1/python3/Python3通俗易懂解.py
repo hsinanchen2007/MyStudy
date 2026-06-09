@@ -1,11 +1,11 @@
-### 解题思路
-O(N)时间.
-i指针往前走, 遇到cur_sum > max_sum就更新max_sum.
-更新完max_sum后, 再检查如果cur_sum < 0了, 那么cur_sum重置为0. 即由于之前的部分综合是负数, 我们可以舍弃了之前的数组部分.
+# ### 解题思路
+# O(N)时间.
+# i指针往前走, 遇到cur_sum > max_sum就更新max_sum.
+# 更新完max_sum后, 再检查如果cur_sum < 0了, 那么cur_sum重置为0. 即由于之前的部分综合是负数, 我们可以舍弃了之前的数组部分.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import sys
 
 class Solution:
@@ -25,4 +25,4 @@ class Solution:
         return max_sum
 
             
-```
+# ```

@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 struct MyQueue {
     stack_in: Vec<i32>,
     stack_out: Vec<i32>,
@@ -58,5 +58,5 @@ impl MyQueue {
  * let ret_3: i32 = obj.peek();
  * let ret_4: bool = obj.empty();
  */
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

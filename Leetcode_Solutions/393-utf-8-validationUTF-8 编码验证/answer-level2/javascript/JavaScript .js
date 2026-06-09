@@ -1,5 +1,5 @@
-渣水平只能写出这种代码了QAQ
-```
+// 渣水平只能写出这种代码了QAQ
+// ```
 /**
  * @param {number[]} data
  * @return {boolean}
@@ -49,4 +49,4 @@ var validUtf8 = function(data) {
   
   return true;
 };
-```
+// ```

@@ -1,5 +1,5 @@
-双指针的C语言实现版本
-```
+// 双指针的C语言实现版本
+// ```
 int cmp(const void *a, const void *b){
     return *(int*)a - *(int*)b;
 }
@@ -27,4 +27,4 @@ int findRadius(int* houses, int housesSize, int* heaters, int heatersSize){
 
     return radius;
 }
-```
+// ```

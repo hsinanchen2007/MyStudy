@@ -1,9 +1,9 @@
-### 解题思路
-    使用递归遍历二叉树，遇到与根节点值不相等就返回false,遇到一个false就判定不为单值二叉树.
+// ### 解题思路
+//     使用递归遍历二叉树，遇到与根节点值不相等就返回false,遇到一个false就判定不为单值二叉树.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -29,4 +29,4 @@ public:
         return isVaild(root->left, n) && isVaild(root->right, n);
     }
 };
-```
+// ```

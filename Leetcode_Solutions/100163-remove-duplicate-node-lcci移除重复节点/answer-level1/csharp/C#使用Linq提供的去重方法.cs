@@ -1,6 +1,6 @@
-不修改原有链表，需要重建新的链表；
-相信标准库的去重方法比自己使用 HashSet 要快。
-```
+// 不修改原有链表，需要重建新的链表；
+// 相信标准库的去重方法比自己使用 HashSet 要快。
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ public class Solution {
       return tempHead.next;
     }
 }
-```
+// ```

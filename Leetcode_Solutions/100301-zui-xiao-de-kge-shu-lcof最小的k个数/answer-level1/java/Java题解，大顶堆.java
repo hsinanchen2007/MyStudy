@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         int[] res = new int[k];
@@ -20,4 +20,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

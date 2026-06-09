@@ -1,5 +1,5 @@
-5行代码结束战斗
-```js
+// 5行代码结束战斗
+// ```js
 var minimumLengthEncoding = function(words) {
     return words.sort((a, b) => b.length - a.length)
     .reduce((t, s) => {
@@ -7,4 +7,4 @@ var minimumLengthEncoding = function(words) {
         return t;
     }, '').length;
 };
-```
+// ```

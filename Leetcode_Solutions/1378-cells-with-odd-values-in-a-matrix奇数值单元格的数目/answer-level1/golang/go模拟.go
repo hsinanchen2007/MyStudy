@@ -1,9 +1,9 @@
-### 解题思路
-模拟
+// ### 解题思路
+// 模拟
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // 统计变换后的数组中奇数的个数
 func oddCells(n int, m int, indices [][]int) int {
     nums := make([][]int,n)
@@ -29,4 +29,4 @@ func oddCells(n int, m int, indices [][]int) int {
 	return res
 }
 
-```
+// ```

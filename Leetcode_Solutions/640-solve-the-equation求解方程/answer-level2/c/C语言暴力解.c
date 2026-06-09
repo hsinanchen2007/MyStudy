@@ -1,9 +1,9 @@
-### 解题思路
-字符串处理，直接扫描整个等式即可，按照等号分开后分别记录x的系数和常数系数。
+// ### 解题思路
+// 字符串处理，直接扫描整个等式即可，按照等号分开后分别记录x的系数和常数系数。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * solveEquation(char * equation){
     int x = 0;
     int n = 0;
@@ -55,4 +55,4 @@ char * solveEquation(char * equation){
         return equation;
     }
 }
-```
+// ```

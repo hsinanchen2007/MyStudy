@@ -1,10 +1,10 @@
-### 解题思路
-先取出一个中最大的
-然后从第一个挨个往后加，若和小于0则重置sum为0
+# ### 解题思路
+# 先取出一个中最大的
+# 然后从第一个挨个往后加，若和小于0则重置sum为0
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         maximum = nums[0]
@@ -20,4 +20,4 @@ class Solution:
             elif sumup>maximum:
                 maximum=sumup
         return maximum
-```
+# ```

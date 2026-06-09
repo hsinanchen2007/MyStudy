@@ -1,11 +1,11 @@
-### 解题思路
-经典回溯求解，见代码注释
+// ### 解题思路
+// 经典回溯求解，见代码注释
 
-24ms 10.8M
---- wangtao HW-2020/2/23
-### 代码
+// 24ms 10.8M
+// --- wangtao HW-2020/2/23
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isQueenOK(vector<vector<char>>& grid, int row, int col)
@@ -56,4 +56,4 @@ public:
         return ans;
     }
 };
-```
+// ```

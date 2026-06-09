@@ -1,4 +1,4 @@
-```
+// ```
 
 bool oneEditAway(char* first, char* second){
 
@@ -47,4 +47,4 @@ bool oneEditAway(char* first, char* second){
   return 0;
 }
 
-```
+// ```

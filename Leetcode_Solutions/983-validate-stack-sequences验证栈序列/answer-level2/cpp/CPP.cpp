@@ -1,9 +1,9 @@
-### 解题思路
-比官方代码差多了。但思路一样吧好像。
+// ### 解题思路
+// 比官方代码差多了。但思路一样吧好像。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
@@ -31,4 +31,4 @@ public:
         return true;
     }
 };
-```
+// ```

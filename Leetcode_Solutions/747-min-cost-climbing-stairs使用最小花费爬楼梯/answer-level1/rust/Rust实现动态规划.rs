@@ -1,9 +1,9 @@
-### 解题思路
-说白了就是动态规划，有一说一，Rust真的啰嗦
+// ### 解题思路
+// 说白了就是动态规划，有一说一，Rust真的啰嗦
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::cmp::Ordering;
 
 impl Solution {
@@ -26,4 +26,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

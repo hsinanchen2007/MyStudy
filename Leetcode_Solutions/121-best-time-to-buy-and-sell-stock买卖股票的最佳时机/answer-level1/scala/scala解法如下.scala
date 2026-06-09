@@ -1,9 +1,9 @@
-### 解题思路
-scala解法如下
+// ### 解题思路
+// scala解法如下
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
   def maxProfit(prices: Array[Int]): Int = {
     var max = 0
@@ -23,4 +23,4 @@ object Solution {
     }
   }
 }
-```
+// ```

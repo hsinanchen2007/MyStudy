@@ -1,4 +1,4 @@
-```python
+# ```python
 def compareVersion(version1, version2):
     # 分隔为数组
     v1 = [int(v) for v in version1.split('.')]
@@ -18,4 +18,4 @@ print(compareVersion("1.0.1", "1"))
 print(compareVersion("7.5.2.4", "7.5.3"))
 print(compareVersion("1.01", "1.001"))
 print(compareVersion("1.0", "1.0.0"))
-```
+# ```

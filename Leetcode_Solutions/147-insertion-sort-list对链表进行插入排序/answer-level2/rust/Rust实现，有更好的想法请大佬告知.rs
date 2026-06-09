@@ -1,5 +1,5 @@
-思路还是大众的思路，依次遍历原链表并比较插入到新的链表中去。只不过Option<Box<ListNode>>让我快要疯了，整整跟编译器斗争了一天，给用Rust做链表题的同学提供个参考,废话不多说看代码。
-```rust
+// 思路还是大众的思路，依次遍历原链表并比较插入到新的链表中去。只不过Option<Box<ListNode>>让我快要疯了，整整跟编译器斗争了一天，给用Rust做链表题的同学提供个参考,废话不多说看代码。
+// ```rust
 pub fn insertion_sort_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
 	if head.is_none() { return None }
 	let mut head = head.unwrap();
@@ -24,5 +24,5 @@ pub fn insertion_sort_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>>
 	}
 	return result.unwrap().next;
 }
-```
-话说执行时间竟然32ms,和之前的那些题目的0ms反差有点大,有知道原因的大佬请告知
+// ```
+// 话说执行时间竟然32ms,和之前的那些题目的0ms反差有点大,有知道原因的大佬请告知

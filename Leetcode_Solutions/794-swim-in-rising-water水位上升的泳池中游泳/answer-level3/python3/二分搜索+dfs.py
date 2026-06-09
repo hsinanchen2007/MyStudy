@@ -1,9 +1,9 @@
-### 解题思路
-搜索范围是[0,数组最大值]，t时刻，用t替换数组中的最小值为t，然后从0,0开始深搜，看是否能够到达右下平台.
+# ### 解题思路
+# 搜索范围是[0,数组最大值]，t时刻，用t替换数组中的最小值为t，然后从0,0开始深搜，看是否能够到达右下平台.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def swimInWater(self, grid: List[List[int]]) -> int:
         import numpy as np
@@ -44,4 +44,4 @@ class Solution:
                 left = mid + 1
         return left
 
-```
+# ```

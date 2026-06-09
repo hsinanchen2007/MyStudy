@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
@@ -18,7 +18,7 @@ public class Solution {
         return reverse;
     }
 }
-```
-![QQ截图20200408223507.png](https://pic.leetcode-cn.com/4ca49cfbe99f4ffaf4fd40f94ca4ee41337a21a1fe4855141bb2f111f5695e8a-QQ%E6%88%AA%E5%9B%BE20200408223507.png)
+// ```
+// ![QQ截图20200408223507.png](https://pic.leetcode-cn.com/4ca49cfbe99f4ffaf4fd40f94ca4ee41337a21a1fe4855141bb2f111f5695e8a-QQ%E6%88%AA%E5%9B%BE20200408223507.png)
 
 

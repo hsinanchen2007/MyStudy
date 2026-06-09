@@ -1,8 +1,8 @@
 
-想了蛮久的，错了两次，第三次才做对
+// 想了蛮久的，错了两次，第三次才做对
 
 
-```c
+// ```c
 int romanToInt(char * s)
 {
     int integer=0, i;
@@ -88,4 +88,4 @@ int romanToInt(char * s)
     }
     return integer;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-将num的（元素——及其出现的次数）存入hashmap中，对应key——value
-遍历hashmap，找到value=1的键即是答案
-### 代码
+// ### 解题思路
+// 将num的（元素——及其出现的次数）存入hashmap中，对应key——value
+// 遍历hashmap，找到value=1的键即是答案
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         Map<Integer,Integer> map=new HashMap<Integer,Integer>();
@@ -16,4 +16,4 @@ class Solution {
 		return 0;
     }
 }
-```
+// ```

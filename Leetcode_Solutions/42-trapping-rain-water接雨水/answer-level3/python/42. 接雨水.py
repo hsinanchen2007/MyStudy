@@ -1,10 +1,10 @@
-### 解题思路
-遍历每一列，然后分别求出这一列两边最高的墙`left_max, right_max`；
-找出较矮的一端`min（left_max, right_max）`，和当前列的高度`height[i]`比较；
-如果较矮一端的高度也高于当前列，则该列加上`min（left_max, right_max）-height[i]`体积的水；
+# ### 解题思路
+# 遍历每一列，然后分别求出这一列两边最高的墙`left_max, right_max`；
+# 找出较矮的一端`min（left_max, right_max）`，和当前列的高度`height[i]`比较；
+# 如果较矮一端的高度也高于当前列，则该列加上`min（left_max, right_max）-height[i]`体积的水；
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         # 基础方法，双指针
@@ -36,4 +36,4 @@ class Solution:
             if height[i] < max_left[i] and height[i] < max_right[i]:
                 res += min(max_right[i], max_left[i])-height[i]
         return res
-```
+# ```

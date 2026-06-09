@@ -1,8 +1,8 @@
-## 仅统计奇数
+// ## 仅统计奇数
 
-- 总长度 - 奇数个数 + 奇数取一作为回文中心
+// - 总长度 - 奇数个数 + 奇数取一作为回文中心
 
-```java
+// ```java
 public int longestPalindrome(String s) {
     int[] freq = new int[58]; // from A to z
     for (char c : s.toCharArray()) freq[c - 'A']++;
@@ -10,15 +10,15 @@ public int longestPalindrome(String s) {
     for (int f : freq) odd += f & 1; // if (f % 2 == 1) odd++;
     return s.length() - odd + (odd > 0 ? 1 : 0);
 }
-```
+// ```
 
 
-## 位运算占位
+// ## 位运算占位
 
-- 位运算作为储物柜，等待下一个相同字符
-- 储物柜里剩余的，就是奇数个数
+// - 位运算作为储物柜，等待下一个相同字符
+// - 储物柜里剩余的，就是奇数个数
 
-```java
+// ```java
 public int longestPalindrome(String s) {
     int odd = 0;
     long freq = 0b0L; // 64 bits > 58 chars(from A to z)
@@ -30,4 +30,4 @@ public int longestPalindrome(String s) {
     }
     return s.length() - odd + (odd > 0 ? 1 : 0);
 }
-```
+// ```

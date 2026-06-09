@@ -1,8 +1,8 @@
-可以理解成每隔k个字符进行一次处理。
+// 可以理解成每隔k个字符进行一次处理。
 
-但是需要注意类型转换，int / int的结果还是int，如果不显式转换成double会导致错误的结果。
+// 但是需要注意类型转换，int / int的结果还是int，如果不显式转换成double会导致错误的结果。
 
-```c++
+// ```c++
 string reverseStr(string s, int k)
 {
     int length = s.length();
@@ -17,5 +17,5 @@ string reverseStr(string s, int k)
     }
     return s;
 }
-```
+// ```
 

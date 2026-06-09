@@ -1,9 +1,9 @@
-### 解题思路
-前缀和+单调递减栈
+// ### 解题思路
+// 前缀和+单调递减栈
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestWPI(hours []int) int {
 	for i, v := range hours {
 		if v > 8 {
@@ -35,4 +35,4 @@ func longestWPI(hours []int) int {
 	return wpi
 }
 
-```
+// ```

@@ -1,17 +1,17 @@
-### 解题思路
-用数组来模拟队列，约定数组的左边出队，右边入队。定义两个指针front, rear分别指向队首和队尾。
+// ### 解题思路
+// 用数组来模拟队列，约定数组的左边出队，右边入队。定义两个指针front, rear分别指向队首和队尾。
 
-规则：(没有为什么)
--- 为了方便，多一个空余的位置。所以队列长度为$k + 1
--- front指向队首元素，rear指向队尾元素的下一个位置。如此约定，为了方便队空和队满的检查。
--- 队空 front == rear
--- 队满 (rear + 1 + cap) % cap == front(通过取余来实现循环)
+// 规则：(没有为什么)
+// -- 为了方便，多一个空余的位置。所以队列长度为$k + 1
+// -- front指向队首元素，rear指向队尾元素的下一个位置。如此约定，为了方便队空和队满的检查。
+// -- 队空 front == rear
+// -- 队满 (rear + 1 + cap) % cap == front(通过取余来实现循环)
 
-**注意：入队的时候要检查队满，出队要检查队空。取队首和队尾元素都需要检查队空。**
+// **注意：入队的时候要检查队满，出队要检查队空。取队首和队尾元素都需要检查队空。**
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class MyCircularQueue {
 
     private $front = 0;
@@ -101,16 +101,16 @@ class MyCircularQueue {
  * $ret_5 = $obj->isEmpty();
  * $ret_6 = $obj->isFull();
  */
-```
+// ```
 
-### 性能
-执行用时 :40 ms, 在所有 PHP 提交中击败了53.57%的用户
-内存消耗 :15.8 MB, 在所有 PHP 提交中击败了12.50%的用户
+// ### 性能
+// 执行用时 :40 ms, 在所有 PHP 提交中击败了53.57%的用户
+// 内存消耗 :15.8 MB, 在所有 PHP 提交中击败了12.50%的用户
 
-### 时间复杂度
--- 时间复杂度 O(1)
--- 空间复杂度 O(N)
+// ### 时间复杂度
+// -- 时间复杂度 O(1)
+// -- 空间复杂度 O(N)
 
-### 参考
-这个解释的太清楚了，赞赞赞👍。
-[https://leetcode-cn.com/problems/design-circular-queue/solution/shu-zu-shi-xian-de-xun-huan-dui-lie-by-liweiwei141/](https://leetcode-cn.com/problems/design-circular-queue/solution/shu-zu-shi-xian-de-xun-huan-dui-lie-by-liweiwei141/)
+// ### 参考
+// 这个解释的太清楚了，赞赞赞👍。
+// [https://leetcode-cn.com/problems/design-circular-queue/solution/shu-zu-shi-xian-de-xun-huan-dui-lie-by-liweiwei141/](https://leetcode-cn.com/problems/design-circular-queue/solution/shu-zu-shi-xian-de-xun-huan-dui-lie-by-liweiwei141/)

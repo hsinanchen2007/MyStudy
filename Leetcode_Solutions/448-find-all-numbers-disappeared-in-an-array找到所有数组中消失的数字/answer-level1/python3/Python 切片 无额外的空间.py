@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
         l = len(nums)
@@ -11,4 +11,4 @@ class Solution:
             if re[i] == 0:
                 re.append(i + 1)
         return re[l:]
-```
+# ```

@@ -1,11 +1,11 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 广度优先搜索
+// # 广度优先搜索
 
-执行用时：60ms，击败100.00%。消耗内存：41.3MB，击败100.00%。
+// 执行用时：60ms，击败100.00%。消耗内存：41.3MB，击败100.00%。
 
-```java
+// ```java
 public class Solution {
     public int minCost(int[][] grid) {
         int m;
@@ -45,4 +45,4 @@ public class Solution {
         return cost[m - 1][n - 1];
     }
 }
-```
+// ```

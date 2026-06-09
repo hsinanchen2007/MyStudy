@@ -1,9 +1,9 @@
-### 解题思路
-硬算
+// ### 解题思路
+// 硬算
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
     	if (flowerbed.length == 1) {
@@ -27,4 +27,4 @@ class Solution {
     	return n <= 0;
     }
 }
-```
+// ```

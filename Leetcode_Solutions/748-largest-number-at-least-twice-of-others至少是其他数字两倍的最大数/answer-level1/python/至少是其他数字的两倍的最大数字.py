@@ -1,9 +1,9 @@
-### 解题思路
-最直白的解法
+# ### 解题思路
+# 最直白的解法
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def dominantIndex(self, nums):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                     return i 
         else:
             return -1
-```
+# ```

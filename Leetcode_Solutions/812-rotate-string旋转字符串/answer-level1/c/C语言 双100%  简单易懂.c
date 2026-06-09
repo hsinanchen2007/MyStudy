@@ -1,4 +1,4 @@
-```
+// ```
 bool rotateString(char * A, char * B){
     int i, len = strlen(A);
     if(strcmp(A, B) == 0)
@@ -18,4 +18,4 @@ bool rotateString(char * A, char * B){
     }
     return false;
 }
-```
+// ```

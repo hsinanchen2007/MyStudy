@@ -1,8 +1,8 @@
-### 解题思路
-    打卡学习 ~ ~ ~
-### 代码
+// ### 解题思路
+//     打卡学习 ~ ~ ~
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& T) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

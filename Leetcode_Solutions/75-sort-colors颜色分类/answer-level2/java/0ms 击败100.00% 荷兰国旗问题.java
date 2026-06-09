@@ -1,9 +1,9 @@
-### 解题思路
-看注释
+// ### 解题思路
+// 看注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void sortColors(int[] nums) {
         int p0=0,p2=nums.length-1,cur=0;//分别为0的右边界，2的左边界，当前下标。
@@ -28,4 +28,4 @@ class Solution {
         nums[j]=temp;
     }
 }
-```
+// ```

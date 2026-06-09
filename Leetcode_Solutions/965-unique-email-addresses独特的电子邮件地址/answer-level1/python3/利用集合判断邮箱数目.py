@@ -1,9 +1,9 @@
-### 解题思路
-利用集合set判断邮箱数目
+# ### 解题思路
+# 利用集合set判断邮箱数目
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
         temp = set()
@@ -21,4 +21,4 @@ class Solution:
                     break
             ret.add(tuple((val, col)))
         return len(ret)
-```
+# ```

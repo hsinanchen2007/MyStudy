@@ -1,9 +1,9 @@
-### 解题思路
-常规解法，先找行最小，然后判断是否列最大
+// ### 解题思路
+// 常规解法，先找行最小，然后判断是否列最大
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -43,4 +43,4 @@ int* luckyNumbers (int** matrix, int matrixSize, int* matrixColSize, int* return
     *returnSize=count;
     return result;
 }
-```
+// ```

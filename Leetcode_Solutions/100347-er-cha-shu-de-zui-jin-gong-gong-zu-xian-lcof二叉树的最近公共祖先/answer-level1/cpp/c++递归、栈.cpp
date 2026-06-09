@@ -1,5 +1,5 @@
-分别找出从根节点到目标节点的路径，存放到栈内。两个栈的栈顶的相同节点为公共节点。越往里层次越低。
-```
+// 分别找出从根节点到目标节点的路径，存放到栈内。两个栈的栈顶的相同节点为公共节点。越往里层次越低。
+// ```
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -52,4 +52,4 @@ public:
         return false;
     }
 };
-```
+// ```

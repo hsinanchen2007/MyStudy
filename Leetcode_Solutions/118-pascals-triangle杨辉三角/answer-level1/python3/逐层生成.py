@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def generate(self, numRows):
         """
@@ -12,4 +12,4 @@ class Solution(object):
                 cur[j] = res[i-1][j-1] + res[i-1][j]
             res.append(cur)
         return res
-```
+# ```

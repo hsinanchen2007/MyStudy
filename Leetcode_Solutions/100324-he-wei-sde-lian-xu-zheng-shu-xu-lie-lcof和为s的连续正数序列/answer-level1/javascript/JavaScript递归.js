@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -25,4 +25,4 @@ var backTrack = function(n, sum, item){
     }
     
 }
-```
+// ```

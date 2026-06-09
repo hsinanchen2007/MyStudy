@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minNumber(self, nums: List[int]) -> str:
         from functools import cmp_to_key
@@ -12,4 +12,4 @@ class Solution:
         for item in nums:
             res +=str(item) 
         return res 
-```
+# ```

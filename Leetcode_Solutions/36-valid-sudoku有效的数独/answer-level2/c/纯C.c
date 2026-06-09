@@ -1,9 +1,9 @@
-### 解题思路
-纯C
+// ### 解题思路
+// 纯C
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValidSudoku(char** board, int boardSize, int* boardColSize){
     if (NULL == board || 0 == boardSize || 0 == *boardColSize)
     {
@@ -91,4 +91,4 @@ bool isValidSudoku(char** board, int boardSize, int* boardColSize){
 
     return true;
 }
-```
+// ```

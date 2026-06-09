@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/3f957e92cffb26900e1a783662dd1424066f6a1fb3fb4a9186c4c6bce4c42a13-image.png)
+# ![image.png](https://pic.leetcode-cn.com/3f957e92cffb26900e1a783662dd1424066f6a1fb3fb4a9186c4c6bce4c42a13-image.png)
 
 
-```
+# ```
 from queue import PriorityQueue
 class Solution:
     def minKnightMoves(self, x: int, y: int) -> int:
@@ -25,4 +25,4 @@ class Solution:
                     best_stat[(new_i, new_j)] = payload+1
         return -1
 
-```
+# ```

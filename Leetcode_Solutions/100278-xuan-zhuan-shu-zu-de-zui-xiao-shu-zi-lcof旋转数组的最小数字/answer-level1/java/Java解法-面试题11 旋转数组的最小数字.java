@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * 本题目为Leetcode-cn.com
  * 剑指Offer专栏
@@ -40,4 +40,4 @@ class Solution {
          */
     }
 }
-```
+// ```

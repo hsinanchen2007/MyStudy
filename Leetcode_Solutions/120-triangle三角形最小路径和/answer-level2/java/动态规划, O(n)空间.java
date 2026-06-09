@@ -1,8 +1,8 @@
-## 思路：
+// ## 思路：
 
-我的第一个思路是用DFS,遍历所有从上到下的路径,如下图所示:
+// 我的第一个思路是用DFS,遍历所有从上到下的路径,如下图所示:
 
-```python
+// ```python
 def minimumTotal(self, triangle: List[List[int]]) -> int:
         self.res = float("inf")
         row = len(triangle)
@@ -17,11 +17,11 @@ def minimumTotal(self, triangle: List[List[int]]) -> int:
         # 层level, 访问下一层两个节点位置i,j , 目前总和tmp
         helper(0, -1, 0, 0)
         return self.res
-```
+// ```
 
-上面做法遍历所有路径,所以会超时,所以我们采用**带记忆的DFS**(动态规划的自顶向下),
+// 上面做法遍历所有路径,所以会超时,所以我们采用**带记忆的DFS**(动态规划的自顶向下),
 
-```python
+// ```python
   def minimumTotal(self, triangle) -> int:
         import functools
         row = len(triangle)
@@ -41,19 +41,19 @@ def minimumTotal(self, triangle: List[List[int]]) -> int:
             return res
 
         return helper(0, -1, 0) 
-```
+// ```
 
-接下来,我们用**自底向上动态规划**
+// 接下来,我们用**自底向上动态规划**
 
-我们先用$O(n^2)$空间,这样更容易理解
+// 我们先用$O(n^2)$空间,这样更容易理解
 
-`dp[i][j]` 表示到从上到下走到`i,j`位置最小路径的值.
+// `dp[i][j]` 表示到从上到下走到`i,j`位置最小路径的值.
 
-动态方程: `dp[i][j] = min(dp[i-1][j], dp[i-1][j+1]) + triangle[i][j]`
+// 动态方程: `dp[i][j] = min(dp[i-1][j], dp[i-1][j+1]) + triangle[i][j]`
 
-当然对于第一个和最后一个要单独考虑.
+// 当然对于第一个和最后一个要单独考虑.
 
-```python
+// ```python
 def minimumTotal(self, triangle: List[List[int]]) -> int:
         n = len(triangle)
         if n == 0:
@@ -71,11 +71,11 @@ def minimumTotal(self, triangle: List[List[int]]) -> int:
                 else:
                     dp[i][k] = min(dp[i - 1][k - 1], dp[i - 1][k]) + triangle[i][k]
         return min(dp[-1])
-```
+// ```
 
-其实我们dp时候每次只用到上一层数据,如果我们倒着,**从底向上**可以优化成$O(n)$空间的
+// 其实我们dp时候每次只用到上一层数据,如果我们倒着,**从底向上**可以优化成$O(n)$空间的
 
-```python [1]
+// ```python [1]
 def minimumTotal(self, triangle: List[List[int]]) -> int:
         row = len(triangle)
         dp = [0] * row
@@ -86,11 +86,11 @@ def minimumTotal(self, triangle: List[List[int]]) -> int:
             for j in range(i + 1):
                 dp[j] = min(dp[j], dp[j + 1]) + triangle[i][j]
         return dp[0]          
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int row = triangle.size();
@@ -102,5 +102,5 @@ class Solution {
         return dp[0];
     }
 }
-```
+// ```
 

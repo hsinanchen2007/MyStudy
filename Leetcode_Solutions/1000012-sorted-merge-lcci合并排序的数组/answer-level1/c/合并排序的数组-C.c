@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1.申请数组。
-2.比较两个数组，放入到申请的数组中。
-3.考虑边界：原数组全为0，
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1.申请数组。
+// 2.比较两个数组，放入到申请的数组中。
+// 3.考虑边界：原数组全为0，
+// ### 代码
 
-```c
+// ```c
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     int i, j, k;
     int *p;
@@ -70,4 +70,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
 
     return;
 }
-```
+// ```

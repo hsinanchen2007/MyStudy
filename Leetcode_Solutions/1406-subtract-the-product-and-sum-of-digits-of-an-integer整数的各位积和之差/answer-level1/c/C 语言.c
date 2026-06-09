@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-简单题
+// 简单题
 
-T: O(LOGN)
+// T: O(LOGN)
 
-S: O(1)
+// S: O(1)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int subtractProductAndSum(int n){
     int sum = 0;
     int multi = 1;
@@ -21,4 +21,4 @@ int subtractProductAndSum(int n){
 
     return multi - sum;
 }
-```
+// ```

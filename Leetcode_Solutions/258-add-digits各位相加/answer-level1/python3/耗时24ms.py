@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def addDigits(self, num: int) -> int:
         str1 = str(num)
@@ -12,4 +12,4 @@ class Solution:
             str1 = str(num1)
             n1 = len(str1)
         return(num1)
-```
+# ```

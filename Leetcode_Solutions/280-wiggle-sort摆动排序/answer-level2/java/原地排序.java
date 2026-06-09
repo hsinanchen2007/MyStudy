@@ -1,18 +1,18 @@
-### 解题思路
-此处撰写解题思路
-执行用时 :
-1 ms
-, 在所有 Java 提交中击败了
-95.92%
-的用户
-内存消耗 :
-40.5 MB
-, 在所有 Java 提交中击败了
-8.33%
-的用户
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 执行用时 :
+// 1 ms
+// , 在所有 Java 提交中击败了
+// 95.92%
+// 的用户
+// 内存消耗 :
+// 40.5 MB
+// , 在所有 Java 提交中击败了
+// 8.33%
+// 的用户
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void wiggleSort(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++){
@@ -26,11 +26,11 @@ class Solution {
         nums[right] = tmp;
     }
 }
-```
+// ```
 
 
-然后好好看看你之前提交的错的。。。。。离谱
-```
+// 然后好好看看你之前提交的错的。。。。。离谱
+// ```
 class Solution {
     public void wiggleSort(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++){
@@ -44,4 +44,4 @@ class Solution {
         right = tmp;
     }
 }
-```
+// ```

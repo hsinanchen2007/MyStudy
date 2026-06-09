@@ -1,14 +1,14 @@
-[117.填充每个节点的下一个右侧节点指针二](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/submissions/)
+// [117.填充每个节点的下一个右侧节点指针二](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
-## 方法一 大神解法
-
-
-解题方法脑回路逆天，解题思路参考[大神题解-方法三](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-28/)。
+// ## 方法一 大神解法
 
 
-```javascript
+// 解题方法脑回路逆天，解题思路参考[大神题解-方法三](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-28/)。
+
+
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val,left,right,next) {
@@ -42,13 +42,13 @@ var connect = function(root) {
     }
     return root;
 };
-```
+// ```
 
-## 方法二 
+// ## 方法二 
 
-题目说递归使用的栈空间不算额外的空间复杂度，因此可以利用递归
+// 题目说递归使用的栈空间不算额外的空间复杂度，因此可以利用递归
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val,left,right,next) {
@@ -97,4 +97,4 @@ function help(root) {
     }
     return null;
 }
-```
+// ```

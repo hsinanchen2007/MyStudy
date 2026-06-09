@@ -1,9 +1,9 @@
-### 解题思路
-思路简单，重点在于细节
+// ### 解题思路
+// 思路简单，重点在于细节
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -65,4 +65,4 @@ int* partitionLabels(char * S, int* returnSize){
     return res;
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-set存字符串的后缀，要先按长度排个序，要不然会wa，比如输入me time就会出错 答案就是不是任何在set中找到的字符串长度+个数
+// ### 解题思路
+// set存字符串的后缀，要先按长度排个序，要不然会wa，比如输入me time就会出错 答案就是不是任何在set中找到的字符串长度+个数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumLengthEncoding(vector<string>& words) {
@@ -23,4 +23,4 @@ public:
         return ans;
     }
 };
-```
+// ```

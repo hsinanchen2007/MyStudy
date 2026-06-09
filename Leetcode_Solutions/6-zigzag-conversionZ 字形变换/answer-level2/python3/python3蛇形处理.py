@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         j,flag,list1=0,True,[]
@@ -13,7 +13,7 @@ class Solution:
                 j-=1
                 if j==0:flag=True 
         return "".join(list1)
-```
+# ```
 
 
 

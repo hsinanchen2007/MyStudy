@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxSubArray(nums []int) int {
     if len(nums)<1{
         return 0
@@ -20,4 +20,4 @@ func maxSubArray(nums []int) int {
     }
     return max1
 }
-```
+// ```

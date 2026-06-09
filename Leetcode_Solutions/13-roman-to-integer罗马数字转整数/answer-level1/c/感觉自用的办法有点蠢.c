@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-用switch 判断，有几种特殊情况，就得列出来
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 用switch 判断，有几种特殊情况，就得列出来
+// ### 代码
 
-```c
+// ```c
 int romanToInt(char * s)
 {
     int num;
@@ -63,4 +63,4 @@ int romanToInt(char * s)
     }
 return sum;
 }
-```
+// ```

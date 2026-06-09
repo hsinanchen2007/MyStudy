@@ -1,9 +1,9 @@
-### 解题思路
-求出n的各位数字即可
+// ### 解题思路
+// 求出n的各位数字即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int subtractProductAndSum(int n) {
@@ -17,4 +17,4 @@ public:
 		return nCen - nSum;
     }
 };
-```
+// ```

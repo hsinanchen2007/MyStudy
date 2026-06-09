@@ -1,9 +1,9 @@
-### 解题思路
-max()每次返回数组中最长的项，并把该项置空，循环匹配子串是否已存在，一定要先加#再匹配,abbba#和bbb匹配，abbba#和bbb#不匹配
+// ### 解题思路
+// max()每次返回数组中最长的项，并把该项置空，循环匹配子串是否已存在，一定要先加#再匹配,abbba#和bbb匹配，abbba#和bbb#不匹配
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static String[] w;
     public int minimumLengthEncoding(String[] words) {
@@ -34,4 +34,4 @@ class Solution {
         return a;
     }
 }
-```
+// ```

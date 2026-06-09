@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseStr(self, s: str, k: int) -> str:
         if 2*k > len(s) - 1:
@@ -14,4 +14,4 @@ class Solution:
                 res += s[i:i+k][::-1]+s[i+k:]
         return res
 
-```
+# ```

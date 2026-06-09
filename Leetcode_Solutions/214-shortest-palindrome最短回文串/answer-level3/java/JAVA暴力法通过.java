@@ -1,4 +1,4 @@
-```
+// ```
     private static boolean isPalindrone(String s, int i) {
         for (int j = 0, k = i; j < k; j++, k--) {
             if (s.charAt(j) != s.charAt(k)) {
@@ -16,4 +16,4 @@
        }       
        return (new StringBuffer(s.substring(i + 1)).reverse()).toString() + s;
     }
-```
+// ```

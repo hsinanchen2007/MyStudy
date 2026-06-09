@@ -1,4 +1,4 @@
-```go
+// ```go
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -23,4 +23,4 @@ func hasCycle(head *ListNode) bool {
     }
     return false
 }
-```
+// ```

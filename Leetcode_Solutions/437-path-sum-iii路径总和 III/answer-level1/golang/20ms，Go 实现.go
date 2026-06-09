@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/f83a2868486d47dc80e60230e4506432e55ed99e542d5bf8242f0e33e69f8994-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f83a2868486d47dc80e60230e4506432e55ed99e542d5bf8242f0e33e69f8994-image.png)
 
-```
+// ```
 func Sum(cur *TreeNode, sum int, pathsum []int) int {
     if cur == nil {
         return 0
@@ -21,4 +21,4 @@ func Sum(cur *TreeNode, sum int, pathsum []int) int {
 func pathSum(root *TreeNode, sum int) int {
     return Sum(root, sum, []int{})
 }
-```
+// ```

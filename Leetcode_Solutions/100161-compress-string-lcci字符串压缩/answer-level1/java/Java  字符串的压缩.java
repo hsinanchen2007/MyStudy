@@ -1,9 +1,9 @@
-### 解题思路
-O(N)时间复杂度。
+// ### 解题思路
+// O(N)时间复杂度。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         if (S == null || S.length() <= 1) {
@@ -41,4 +41,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

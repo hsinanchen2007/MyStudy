@@ -1,10 +1,10 @@
 
-递归法：
+// 递归法：
 
-先递归中序遍历树（中序遍历就是一个自增的遍历），然后针对中序遍历的结果，重新构建树
+// 先递归中序遍历树（中序遍历就是一个自增的遍历），然后针对中序遍历的结果，重新构建树
 
 
-```swift []
+// ```swift []
 class Solution {
     
     func inOrder(_ root: TreeNode?, _ nodeArray: inout [Int]) {
@@ -34,5 +34,5 @@ class Solution {
         return root
     }
 }
-```
+// ```
 

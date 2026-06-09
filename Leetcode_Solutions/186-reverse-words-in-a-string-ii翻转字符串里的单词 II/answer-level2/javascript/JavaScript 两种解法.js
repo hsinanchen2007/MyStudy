@@ -1,7 +1,7 @@
 
-### splice  插入 单词
+// ### splice  插入 单词
 
-```javascript
+// ```javascript
 /**
  * @param {character[]} s
  * @return {void} Do not return anything, modify s in-place instead.
@@ -33,14 +33,14 @@ var reverseWords = function(s) {
   // 删除原数组
   s.splice(0, length + 1);
 };
-```
+// ```
 
-### 两次翻转
+// ### 两次翻转
 
-先翻转整个数组，再翻转单词
+// 先翻转整个数组，再翻转单词
 
 
-```javascript
+// ```javascript
 var reverseWords = function (s) {
 
   const length = s.length;
@@ -72,4 +72,4 @@ var reverseWords = function (s) {
   // 翻转最后一个单词
   reverse(s, start, end - 1);
 }
-```
+// ```

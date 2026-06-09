@@ -1,11 +1,11 @@
-### 解题思路
-解法是用回溯的方式，在循环里面套了递归调用。
-![image.png](https://pic.leetcode-cn.com/5219916a0556cdcbc2cff8c3c55701db8dbeec75afc0ade2e8639ad9cdc93b0b-image.png)
+# ### 解题思路
+# 解法是用回溯的方式，在循环里面套了递归调用。
+# ![image.png](https://pic.leetcode-cn.com/5219916a0556cdcbc2cff8c3c55701db8dbeec75afc0ade2e8639ad9cdc93b0b-image.png)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def letterCombinations(self, digits):
         """
@@ -38,4 +38,4 @@ class Solution:
             backtrace(init_str,digits)
 
         return output
-```
+# ```

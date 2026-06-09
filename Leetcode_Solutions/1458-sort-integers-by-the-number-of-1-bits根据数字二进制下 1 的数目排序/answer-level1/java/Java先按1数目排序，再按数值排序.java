@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] sortByBits(int[] arr) {
         List<Integer> list = Arrays.stream(arr).boxed().collect(Collectors.toList());
@@ -17,4 +17,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

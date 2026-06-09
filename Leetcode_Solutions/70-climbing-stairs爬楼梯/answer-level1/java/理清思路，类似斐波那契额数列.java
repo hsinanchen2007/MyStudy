@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度为O(N)
+// ### 解题思路
+// 时间复杂度为O(N)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int climbStairs(int n) {
     //理清思路，就是斐波那契数列
@@ -21,4 +21,4 @@ class Solution {
     return temp;
     }
 }
-```
+// ```

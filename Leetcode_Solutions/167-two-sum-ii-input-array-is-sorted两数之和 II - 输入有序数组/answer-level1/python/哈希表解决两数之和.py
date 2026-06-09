@@ -1,9 +1,9 @@
-### 解题思路
-刚开始用另一种遍历方法，一直超出范围，后来还是选择哈希表
+# ### 解题思路
+# 刚开始用另一种遍历方法，一直超出范围，后来还是选择哈希表
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def twoSum(self, numbers, target):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                 return [hashmap[target - num]+1,idx+1]
             else:
                 hashmap[num] = idx
-```
+# ```

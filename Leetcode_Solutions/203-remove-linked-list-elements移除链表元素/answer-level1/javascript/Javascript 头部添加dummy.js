@@ -1,4 +1,4 @@
-```
+// ```
 var dummy = {},
     prev = dummy,
     curt = head
@@ -16,4 +16,4 @@ while (curt) {
 }
 
 return dummy.next
-```
+// ```

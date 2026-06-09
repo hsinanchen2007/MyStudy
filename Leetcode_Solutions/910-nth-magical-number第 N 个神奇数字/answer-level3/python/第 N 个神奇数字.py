@@ -1,16 +1,16 @@
-#### 方法一：数学方法
+# #### 方法一：数学方法
 
-**思路和算法**
+# **思路和算法**
 
-用数学方法找出第 $N$ 个神奇数字。
+# 用数学方法找出第 $N$ 个神奇数字。
 
-神奇数字是有规律。设 $L$ 为 $A$，$B$ 的最小公倍数，如果 $X \leq L$ 是神奇数字，那么 $X + L$ 也是神奇数字，因为 $A \| X$， $A \| L$ 可以推出 $A \| (X + L)$，对于 $B$ 也是如此。
+# 神奇数字是有规律。设 $L$ 为 $A$，$B$ 的最小公倍数，如果 $X \leq L$ 是神奇数字，那么 $X + L$ 也是神奇数字，因为 $A \| X$， $A \| L$ 可以推出 $A \| (X + L)$，对于 $B$ 也是如此。
 
-有 $M = \frac{L}{A} + \frac{L}{B} - 1$ 个神奇数字小于等于 $L$： 其中 $\frac{L}{A}$ 个是能被 $A$ 整除的，$\frac{L}{B}$ 个能被 $B$ 整除，$1$ 个能同时被 $A，B$ 整除。
+# 有 $M = \frac{L}{A} + \frac{L}{B} - 1$ 个神奇数字小于等于 $L$： 其中 $\frac{L}{A}$ 个是能被 $A$ 整除的，$\frac{L}{B}$ 个能被 $B$ 整除，$1$ 个能同时被 $A，B$ 整除。
 
-设 $N = M*q + r$（$r < M$），前 $L*q$ 个数字有 $M*q$ 个神奇数字，$(L*q + 1, L*q + 2, \cdots)$ 之间有 $r$ 个神奇数字。可以暴力搜 $r$，下一个神奇数字要么是 $L*q + A$ 要么是 $L*q + B$，依此类推。
+# 设 $N = M*q + r$（$r < M$），前 $L*q$ 个数字有 $M*q$ 个神奇数字，$(L*q + 1, L*q + 2, \cdots)$ 之间有 $r$ 个神奇数字。可以暴力搜 $r$，下一个神奇数字要么是 $L*q + A$ 要么是 $L*q + B$，依此类推。
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 class Solution {
     public int nthMagicalNumber(int N, int A, int B) {
         int MOD = 1_000_000_007;
@@ -39,9 +39,9 @@ class Solution {
         return gcd(y % x, x);
     }
 }
-```
+# ```
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 class Solution(object):
     def nthMagicalNumber(self, N, A, B):
         from fractions import gcd
@@ -62,9 +62,9 @@ class Solution(object):
                 heads[1] += B
 
         return (q * L + min(heads)) % MOD
-```
+# ```
 
-```c++ [solution1-C++]
+# ```c++ [solution1-C++]
 class Solution {
 public:
     int nthMagicalNumber(int N, int A, int B) {
@@ -94,9 +94,9 @@ public:
         return gcd(y % x, x);
     }
 };
-```
+# ```
 
-```javascript [solution1-Javascript]
+# ```javascript [solution1-Javascript]
 var nthMagicalNumber = function(N, A, B) {
     gcd = (x, y) => {
         if (x == 0) return y;
@@ -123,27 +123,27 @@ var nthMagicalNumber = function(N, A, B) {
     ans += Math.min(heads[0], heads[1]);
     return ans % MOD;
 };
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度： $O(A + B)$，数学计算复杂度为 $O(1)$，计算 $q*M$ 后的 $r$ 个神奇数字的复杂度为 $O(M)$，即 $O(A+B)$。
+# * 时间复杂度： $O(A + B)$，数学计算复杂度为 $O(1)$，计算 $q*M$ 后的 $r$ 个神奇数字的复杂度为 $O(M)$，即 $O(A+B)$。
 
-* 空间复杂度： $O(1)$。
+# * 空间复杂度： $O(1)$。
 
-#### 方法二： 二分搜索
+# #### 方法二： 二分搜索
 
-**思路**
+# **思路**
 
-小于等于 $x$ 的神奇数字的个数是一个单调递增函数，可以用二分搜索来做这道题。
+# 小于等于 $x$ 的神奇数字的个数是一个单调递增函数，可以用二分搜索来做这道题。
 
-**算法**
+# **算法**
 
-设 $L = lcm(A, B)$，为 $A$，$B$ 的 **最小公倍数**，$L = \frac{A * B}{gcd(A, B)}$。
+# 设 $L = lcm(A, B)$，为 $A$，$B$ 的 **最小公倍数**，$L = \frac{A * B}{gcd(A, B)}$。
 
-$f(x)$ 为小于等于 $x$ 的神奇数字的个数。$f(x) = \lfloor \frac{x}{A} \rfloor + \lfloor \frac{x}{B} \rfloor - \lfloor \frac{x}{L} \rfloor$。有 $\lfloor \frac{x}{A} \rfloor$ 个数字能被 $A$ 整除的，$\lfloor \frac{x}{B} \rfloor$ 个数字能被 $B$ 整除，同时需要减去 $\lfloor \frac{x}{L} \rfloor$ 个能被 $A$，$B$ 整除的数。
+# $f(x)$ 为小于等于 $x$ 的神奇数字的个数。$f(x) = \lfloor \frac{x}{A} \rfloor + \lfloor \frac{x}{B} \rfloor - \lfloor \frac{x}{L} \rfloor$。有 $\lfloor \frac{x}{A} \rfloor$ 个数字能被 $A$ 整除的，$\lfloor \frac{x}{B} \rfloor$ 个数字能被 $B$ 整除，同时需要减去 $\lfloor \frac{x}{L} \rfloor$ 个能被 $A$，$B$ 整除的数。
 
-```java [solution2-Java]
+# ```java [solution2-Java]
 class Solution {
     public int nthMagicalNumber(int N, int A, int B) {
         int MOD = 1_000_000_007;
@@ -168,9 +168,9 @@ class Solution {
         return gcd(y % x, x);
     }
 }
-```
+# ```
 
-```python [solution2-Python]
+# ```python [solution2-Python]
 class Solution(object):
     def nthMagicalNumber(self, N, A, B):
         from fractions import gcd
@@ -191,9 +191,9 @@ class Solution(object):
                 hi = mi
 
         return lo % MOD
-```
+# ```
 
-```c++ [solution2-C++]
+# ```c++ [solution2-C++]
 class Solution {
 public:
     int nthMagicalNumber(int N, int A, int B) {
@@ -219,9 +219,9 @@ public:
         return gcd(y % x, x);
     }
 };
-```
+# ```
 
-```javascript [solution2-Javascript]
+# ```javascript [solution2-Javascript]
 var nthMagicalNumber = function(N, A, B) {
     gcd = (x, y) => {
         if (x == 0) return y;
@@ -244,10 +244,10 @@ var nthMagicalNumber = function(N, A, B) {
 
     return lo % MOD;
 };
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度： $O(\log(N * \max(A, B)))$。
+# * 时间复杂度： $O(\log(N * \max(A, B)))$。
 
-* 空间复杂度： $O(1)$。
+# * 空间复杂度： $O(1)$。

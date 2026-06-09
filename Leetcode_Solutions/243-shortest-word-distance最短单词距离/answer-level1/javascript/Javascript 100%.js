@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} word1
@@ -26,4 +26,4 @@ var shortestDistance = function(words, word1, word2) {
     }
     return dis;
 };
-```
+// ```

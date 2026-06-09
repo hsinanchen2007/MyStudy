@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minJumps(int[] arr) {
         // 初始化 
@@ -40,4 +40,4 @@ class Solution {
         return dist[n - 1];
     }
 }
-```
+// ```

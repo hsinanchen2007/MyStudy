@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isInside(int* a, char* b);
 char** wordSubsets(char** A, int ASize, char** B, int BSize, int* returnSize)
 {
@@ -63,4 +63,4 @@ bool isInside(int* data, char* b)
     return true;
 }
 
-```
+// ```

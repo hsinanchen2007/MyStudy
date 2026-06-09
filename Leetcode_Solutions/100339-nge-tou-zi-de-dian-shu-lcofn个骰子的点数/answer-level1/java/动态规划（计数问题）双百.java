@@ -1,10 +1,10 @@
-### 解题思路
-dp[n][sum]表示n个骰子摇出sum的有多少种情况
-递推公式 dp[n][sum] = ∑dp[n-1][sum-subsum] ，subsum=[1,6] 由于一个骰子的范围在[1,6]
+// ### 解题思路
+// dp[n][sum]表示n个骰子摇出sum的有多少种情况
+// 递推公式 dp[n][sum] = ∑dp[n-1][sum-subsum] ，subsum=[1,6] 由于一个骰子的范围在[1,6]
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double[] twoSum(int n) {
         int maxsum = 6*n;
@@ -30,5 +30,5 @@ class Solution {
         return res;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/243d021aba8852431cfb6d1d8ba11fee8b174d9475c83f1bff086f3072963f13-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/243d021aba8852431cfb6d1d8ba11fee8b174d9475c83f1bff086f3072963f13-image.png)

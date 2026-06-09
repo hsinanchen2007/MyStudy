@@ -1,4 +1,4 @@
-```js
+// ```js
 var minimumAbsDifference = function(arr) {
     arr.sort((a, b) => a - b)
     let res = []
@@ -13,4 +13,4 @@ var minimumAbsDifference = function(arr) {
     }
     return res
 };
-```
+// ```

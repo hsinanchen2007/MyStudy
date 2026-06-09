@@ -1,13 +1,13 @@
-### 解题思路
-这个解法时间复杂度比较高O(n^2)，但是比较容易理解。
-- 首先设置两个指针slow, fast. fast从slow的下一个节点开始算起.
-- 用fast依次遍历剩余的链表，如果遇到比slow->val大的值就break并输入到result中。
-- 因为最后一个节点没有后驱结点，所以可不予以遍历，并直接在result中输入0。
+// ### 解题思路
+// 这个解法时间复杂度比较高O(n^2)，但是比较容易理解。
+// - 首先设置两个指针slow, fast. fast从slow的下一个节点开始算起.
+// - 用fast依次遍历剩余的链表，如果遇到比slow->val大的值就break并输入到result中。
+// - 因为最后一个节点没有后驱结点，所以可不予以遍历，并直接在result中输入0。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -46,4 +46,4 @@ public:
         return result;
     }
 };
-```
+// ```

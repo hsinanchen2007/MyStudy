@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/5e32fc64f3e55bf645cc8a59b6f366414d84ee06ca36dd3b7c4caed3ec19ac8f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5e32fc64f3e55bf645cc8a59b6f366414d84ee06ca36dd3b7c4caed3ec19ac8f-image.png)
 
 
-```
+# ```
 '''
 动态规划
 dp(i) 表示以i位置结尾的等差数列的最长长度
@@ -37,4 +37,4 @@ class Solution:
                     dp[i] = dp[prev_pos] + 1
 
         return max(dp)
-```
+# ```

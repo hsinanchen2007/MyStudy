@@ -1,9 +1,9 @@
-### 解题思路
-左右指针，和快排思想差不多。
+// ### 解题思路
+// 左右指针，和快排思想差不多。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * reverseOnlyLetters(char * S){
     int i=0;
     int j=strlen(S)-1;
@@ -25,4 +25,4 @@ char * reverseOnlyLetters(char * S){
     }
     return S;
 }
-```
+// ```

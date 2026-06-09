@@ -1,9 +1,9 @@
-### 解题思路
-循环一次，通过t标记重复的次数，注意每次splice之后需要i--，t--
+// ### 解题思路
+// 循环一次，通过t标记重复的次数，注意每次splice之后需要i--，t--
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -26,4 +26,4 @@ var removeDuplicates = function(nums) {
     }
     return nums.length;
 };
-```
+// ```

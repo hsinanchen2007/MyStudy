@@ -1,16 +1,16 @@
-#### 二叉树
-+ [二叉树的前、中、后序遍历 - 解法大全](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/demos/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%89%E5%BA%8F%E9%81%8D%E5%8E%86.md)
-#### 解法一：递归
-+ 思路
-  + 前序遍历：根-左-右
-  + 中序遍历：左-根-右
-  + 因此
-    + 对于preorder，每个首元素即为一个子树的根元素
-    + 对于inorder，查找preorder中的根元素
-      + 左边为preorder当前根元素的左子树
-      + 右边为preorder当前根元素的右子树
-    + 据此递归构造出一颗二叉树即可
-```javascript
+// #### 二叉树
+// + [二叉树的前、中、后序遍历 - 解法大全](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/demos/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%89%E5%BA%8F%E9%81%8D%E5%8E%86.md)
+// #### 解法一：递归
+// + 思路
+//   + 前序遍历：根-左-右
+//   + 中序遍历：左-根-右
+//   + 因此
+//     + 对于preorder，每个首元素即为一个子树的根元素
+//     + 对于inorder，查找preorder中的根元素
+//       + 左边为preorder当前根元素的左子树
+//       + 右边为preorder当前根元素的右子树
+//     + 据此递归构造出一颗二叉树即可
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -31,9 +31,9 @@ var buildTree = function(preorder, inorder) {
     root.right = buildTree(preorder.slice(mid+1),inorder.slice(mid + 1))
     return root
 };
-```
-#### 解法二：递归简便版
-```javascript
+// ```
+// #### 解法二：递归简便版
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -57,9 +57,9 @@ var buildTree = function(preorder, inorder) {
     }
     return build(inorder)
 };
-```
-#### 解法三：参考解法
-```javascript
+// ```
+// #### 解法三：参考解法
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -86,4 +86,4 @@ var buildTree = function(preorder, inorder) {
     }
     return build()
 };
-```
+// ```

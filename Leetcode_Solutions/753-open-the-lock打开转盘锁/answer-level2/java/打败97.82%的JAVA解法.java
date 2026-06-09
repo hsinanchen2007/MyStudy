@@ -1,12 +1,12 @@
-### 解题思路
-执行用时 :9 ms, 在所有 Java 提交中击败了97.82% 的用户
-内存消耗 :41.1 MB, 在所有 Java 提交中击败了62.44%的用户
+// ### 解题思路
+// 执行用时 :9 ms, 在所有 Java 提交中击败了97.82% 的用户
+// 内存消耗 :41.1 MB, 在所有 Java 提交中击败了62.44%的用户
 
-思想就是双端BFS，用java实现了一下，执行速度果然很快
+// 思想就是双端BFS，用java实现了一下，执行速度果然很快
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int openLock(String[] deadends, String target) {
         if (target.equals("0000")){
@@ -133,4 +133,4 @@ class Solution {
         return low;
     }
 }
-```
+// ```

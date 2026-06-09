@@ -1,9 +1,9 @@
-### 解题思路
-直接上代码吧，语言表述能力不行，囧
+// ### 解题思路
+// 直接上代码吧，语言表述能力不行，囧
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -41,4 +41,4 @@ func sumNumbers(root *TreeNode) int {
 	}
 	return sum
 }
-```
+// ```

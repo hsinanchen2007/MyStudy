@@ -1,11 +1,11 @@
-### 解题思路
-深度优先
-![微信截图_20200317103013.png](https://pic.leetcode-cn.com/8f690767f4657eab95b948935316836e0c83510502938638878058392e7a90d3-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200317103013.png)
+// ### 解题思路
+// 深度优先
+// ![微信截图_20200317103013.png](https://pic.leetcode-cn.com/8f690767f4657eab95b948935316836e0c83510502938638878058392e7a90d3-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200317103013.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     set<int> s;
@@ -26,4 +26,4 @@ public:
         return t;
     }
 };
-```
+// ```

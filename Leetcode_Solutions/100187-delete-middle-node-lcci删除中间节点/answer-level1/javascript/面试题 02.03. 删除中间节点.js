@@ -1,9 +1,9 @@
-### 解题思路
-next节点覆盖当前节点
+// ### 解题思路
+// next节点覆盖当前节点
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -18,4 +18,4 @@ next节点覆盖当前节点
 var deleteNode = function(node) {
     Object.assign(node, node.next)
 };
-```
+// ```

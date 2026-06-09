@@ -1,18 +1,18 @@
-#### 方法：联通分量
+# #### 方法：联通分量
 
-**思路**
+# **思路**
 
-所有相互等于的变量能组成一个联通分量。举一个例子，如果 `a=b, b=c, c=d`，那么 `a, b, c, d` 就在同一个联通分量中，因为它们必须相等。
+# 所有相互等于的变量能组成一个联通分量。举一个例子，如果 `a=b, b=c, c=d`，那么 `a, b, c, d` 就在同一个联通分量中，因为它们必须相等。
 
-**算法**
+# **算法**
 
-第一步，我们基于给定的等式，用深度优先遍历将每一个变量按照联通分量染色。
+# 第一步，我们基于给定的等式，用深度优先遍历将每一个变量按照联通分量染色。
 
-将联通分量染色之后，我们分析形如 `a != b` 的不等式。如果两个分量有相同的颜色，那么它们一定相等，因此如果说它们不相等的话，就一定无法满足给定的方程组。
+# 将联通分量染色之后，我们分析形如 `a != b` 的不等式。如果两个分量有相同的颜色，那么它们一定相等，因此如果说它们不相等的话，就一定无法满足给定的方程组。
 
-否则，我们的染色就可以看作是一组能满足方程组约束的方案，所以结果是 `true`。
+# 否则，我们的染色就可以看作是一组能满足方程组约束的方案，所以结果是 `true`。
 
-```java [xvmEghMo-Java]
+# ```java [xvmEghMo-Java]
 class Solution {
     public boolean equationsPossible(String[] equations) {
         ArrayList<Integer>[] graph = new ArrayList[26];
@@ -59,8 +59,8 @@ class Solution {
         return true;
     }
 }
-```
-```python [xvmEghMo-Python]
+# ```
+# ```python [xvmEghMo-Python]
 class Solution(object):
     def equationsPossible(self, equations):
         graph = [[] for _ in xrange(26)]
@@ -93,14 +93,14 @@ class Solution(object):
                 if color[x] is not None and color[x] == color[y]:
                     return False
         return True
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：  $O(N)$，其中 $N$ 是方程组 `equations` 的数量。
+# * 时间复杂度：  $O(N)$，其中 $N$ 是方程组 `equations` 的数量。
 
-* 空间复杂度：  $O(1)$，认为字母表的大小是 $O(1)$ 的。
+# * 空间复杂度：  $O(1)$，认为字母表的大小是 $O(1)$ 的。
   
 
   

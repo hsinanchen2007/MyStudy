@@ -1,10 +1,10 @@
-### 解题思路
-- 题目说不要使用数据结构，位运算登场
-- 1位移n位`&`操作，只获取该位，接着`^`操作，=1，说明没出现，=0说明重复
+// ### 解题思路
+// - 题目说不要使用数据结构，位运算登场
+// - 1位移n位`&`操作，只获取该位，接着`^`操作，=1，说明没出现，=0说明重复
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isUnique(string astr) {
@@ -29,14 +29,14 @@ public:
         return true;
     }
 };
-```
+// ```
 
-上面程序的1要定义为`long long`,不然报以下错误。
+// 上面程序的1要定义为`long long`,不然报以下错误。
 
-```cpp
+// ```cpp
 Line 16: Char 25: runtime error: shift exponent 51 is too large 
 for 32-bit type 'int' (solution.cpp)
-```
-位移数超过32位int
+// ```
+// 位移数超过32位int
 
-[https://michael.blog.csdn.net/article/details/104307262](https://michael.blog.csdn.net/article/details/104307262)
+// [https://michael.blog.csdn.net/article/details/104307262](https://michael.blog.csdn.net/article/details/104307262)

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-使用一个最小栈解决问题，忽略大值，只储存小值
+# ### 解题思路
+# 此处撰写解题思路
+# 使用一个最小栈解决问题，忽略大值，只储存小值
 
-attention： 最小栈需要在相等的时候也存入，因为pop时的缘故。
-### 代码
+# attention： 最小栈需要在相等的时候也存入，因为pop时的缘故。
+# ### 代码
 
-```python3
+# ```python3
 class MinStack:
 
     def __init__(self):
@@ -41,4 +41,4 @@ class MinStack:
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.getMin()
-```
+# ```

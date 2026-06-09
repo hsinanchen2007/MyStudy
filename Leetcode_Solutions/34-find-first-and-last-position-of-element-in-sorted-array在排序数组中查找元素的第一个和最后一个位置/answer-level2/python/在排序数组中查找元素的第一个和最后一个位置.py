@@ -1,9 +1,9 @@
-### 解题思路
-从前往后和从后往前
+# ### 解题思路
+# 从前往后和从后往前
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         # if len(nums) == 1 and nums[0] == target:
@@ -26,4 +26,4 @@ class Solution:
             return pos
 
 
-```
+# ```

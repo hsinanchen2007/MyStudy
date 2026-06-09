@@ -1,10 +1,10 @@
-### 解题思路
-给胃口为g的小孩赋给满足尺寸为s的饼干；s的值是数组中满足s>=g的最小值
-所以首先要进行排序
+// ### 解题思路
+// 给胃口为g的小孩赋给满足尺寸为s的饼干；s的值是数组中满足s>=g的最小值
+// 所以首先要进行排序
 
-### 代码
-//冒泡排序
-```c
+// ### 代码
+// //冒泡排序
+// ```c
 void BubbleSort(int *nums, int numsSize)
 {
     for(int i=0;i<numsSize-1;i++)
@@ -47,4 +47,4 @@ int findContentChildren(int* g, int gSize, int* s, int sSize)
     }
     return sum;
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string removeOuterParentheses(string S) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/8e32914b041decc5b68f463c02e55a0a606fa62a1f67b7e8ec3873ae96399258-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8e32914b041decc5b68f463c02e55a0a606fa62a1f67b7e8ec3873ae96399258-image.png)
 
 
-```
+// ```
 class MinStack {
     List<Integer> data;
     int min;
@@ -55,4 +55,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

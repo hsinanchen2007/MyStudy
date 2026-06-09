@@ -1,9 +1,9 @@
-### 解题思路
-感觉是最简单的想法
+# ### 解题思路
+# 感觉是最简单的想法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s):
         length = len(s)
@@ -26,4 +26,4 @@ class Solution:
                 res += int(word_dict.get(s[temp])) - (temp - i) * word_dict.get(s[i])
                 i = temp + 1
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-把原数组排序后，新建一个比较数组不断修改比较数组的值和排序后的数组数值进行比较，差值累加即可得到结果。
+# ### 解题思路
+# 把原数组排序后，新建一个比较数组不断修改比较数组的值和排序后的数组数值进行比较，差值累加即可得到结果。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def minIncrementForUnique(self, A):
         if A == []:
@@ -21,4 +21,4 @@ class Solution(object):
             if a[i]<res[i]:
                 count += res[i]-a[i]
         return count
-```
+# ```

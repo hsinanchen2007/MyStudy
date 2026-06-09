@@ -1,4 +1,4 @@
-```
+// ```
 func isHappy(n int) bool {
 	calHistory := make(map[int]bool)
 	if n <= 0 {
@@ -19,4 +19,4 @@ func isHappy(n int) bool {
 	}
 	return true
 }
-```
+// ```

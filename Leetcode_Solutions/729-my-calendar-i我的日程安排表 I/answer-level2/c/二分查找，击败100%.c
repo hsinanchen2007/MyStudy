@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct BOOKING_ {
     int start;
     int end;
@@ -101,5 +101,5 @@ void myCalendarFree(MyCalendar* obj) {
  
  * myCalendarFree(obj);
 */
-```
+// ```
 

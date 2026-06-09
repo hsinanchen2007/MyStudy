@@ -1,5 +1,5 @@
-笨拙版动态规划,O(n)+O(n),dp数组非必需,可以优化为O(n)+O(1)
-```
+// 笨拙版动态规划,O(n)+O(n),dp数组非必需,可以优化为O(n)+O(1)
+// ```
  public int rob(int[] nums) {
         if (nums.length == 0) return 0;
         if (nums.length == 1) return nums[0];
@@ -12,4 +12,4 @@
         }
         return dp[nums.length - 1];
     }
-```
+// ```

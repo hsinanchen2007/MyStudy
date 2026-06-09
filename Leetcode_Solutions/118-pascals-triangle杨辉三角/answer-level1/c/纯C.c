@@ -1,9 +1,9 @@
-### 解题思路
-纯C
+// ### 解题思路
+// 纯C
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -40,4 +40,4 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes){
     
     return ppRes;
 }
-```
+// ```

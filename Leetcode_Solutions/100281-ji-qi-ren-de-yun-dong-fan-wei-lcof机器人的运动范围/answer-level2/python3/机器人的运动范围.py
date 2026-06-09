@@ -1,9 +1,9 @@
-### 解题思路
-抄作业。。
+# ### 解题思路
+# 抄作业。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # 作者：LeetCode-Solution
 def digitsum(n):
     ans = 0
@@ -28,4 +28,4 @@ class Solution:
 
 
 
-```
+# ```

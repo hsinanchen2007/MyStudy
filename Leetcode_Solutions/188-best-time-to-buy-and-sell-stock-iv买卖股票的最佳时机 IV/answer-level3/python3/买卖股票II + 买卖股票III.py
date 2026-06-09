@@ -1,10 +1,10 @@
-### 解题思路
-k > len(prices) // 2 说明无限交易次数，用 II 的方法直接套
-否则用 III 的方法直接套
+# ### 解题思路
+# k > len(prices) // 2 说明无限交易次数，用 II 的方法直接套
+# 否则用 III 的方法直接套
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         if not prices or not k:
@@ -25,4 +25,4 @@ class Solution:
                     minCost = min(minCost, prices[i] - dp[i-1][j-1])
                     dp[i][j] = max(dp[i-1][j], prices[i] - minCost)
             return dp[-1][-1]
-```
+# ```

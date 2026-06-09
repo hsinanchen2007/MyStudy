@@ -1,5 +1,5 @@
-方法一，dfs
-```
+# 方法一，dfs
+# ```
 """
 # Definition for a Node.
 class Node:
@@ -24,9 +24,9 @@ class Solution:
                 clone.neighbors.append(dfs(neighbor))   #在返回前需要把邻居节点访问好，放进来，连通图，可以访问到全部节点
             return clone    #返回的是克隆好的节点
         return dfs(node)
-```
-方法二，bfs
-```
+# ```
+# 方法二，bfs
+# ```
 """
 # Definition for a Node.
 class Node:
@@ -55,4 +55,4 @@ class Solution:
                 visited[n].neighbors.append(visited[neighbor])  #无论如何，这个节点是当前方位节点的邻居，其它属性若没有等访问时添加
 
         return visited[node]
-```
+# ```

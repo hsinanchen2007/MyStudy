@@ -1,11 +1,11 @@
-解题思路：对岛屿【为0的点】进行简单遍历【DFS】；需要对所有为0的点都遍历，对于越界的情况，就判断其所在连通域不是岛屿即可。
-1、对二维矩阵所有的点进行遍历：寻找连通域
-2、遍历采用DFS，在4个方向上搜索，只要遍历为0的点
-3、如果新位置越界，则表明当前点在边界上，即当前点所在的连通域不是封闭岛屿；
-![1.png](https://pic.leetcode-cn.com/8d0dfdae48938c850cf36cbe6a1d27ca0c03dbe1600015f65fbb3de1c2676a3b-1.png)
+# 解题思路：对岛屿【为0的点】进行简单遍历【DFS】；需要对所有为0的点都遍历，对于越界的情况，就判断其所在连通域不是岛屿即可。
+# 1、对二维矩阵所有的点进行遍历：寻找连通域
+# 2、遍历采用DFS，在4个方向上搜索，只要遍历为0的点
+# 3、如果新位置越界，则表明当前点在边界上，即当前点所在的连通域不是封闭岛屿；
+# ![1.png](https://pic.leetcode-cn.com/8d0dfdae48938c850cf36cbe6a1d27ca0c03dbe1600015f65fbb3de1c2676a3b-1.png)
 
 
-```
+# ```
 from typing import List
 
 class Solution:
@@ -55,4 +55,4 @@ class Solution:
         if 0 <= new_row < m and 0 <= new_col < n:
             return False
         return True
-```
+# ```

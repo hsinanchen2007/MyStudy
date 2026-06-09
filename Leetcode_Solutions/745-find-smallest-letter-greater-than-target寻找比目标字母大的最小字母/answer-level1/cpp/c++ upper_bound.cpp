@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     char nextGreatestLetter(vector<char> &letters, char target) {
@@ -6,4 +6,4 @@ public:
         return res == letters.end() ? *letters.begin() : *res;
     }
 };
-```
+// ```

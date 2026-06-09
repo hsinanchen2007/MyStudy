@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func pancakeSort(_ A: [Int]) -> [Int] {
         //空数组或者只有一个元素
@@ -31,4 +31,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

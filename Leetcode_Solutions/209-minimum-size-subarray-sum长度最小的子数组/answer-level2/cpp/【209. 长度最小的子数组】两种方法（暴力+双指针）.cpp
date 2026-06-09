@@ -1,8 +1,8 @@
-## 思路一：暴力
-### 代码
-时间复杂度：O(n^2)
-空间复杂度：O(1)
-```c++
+// ## 思路一：暴力
+// ### 代码
+// 时间复杂度：O(n^2)
+// 空间复杂度：O(1)
+// ```c++
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums) {                
@@ -21,13 +21,13 @@ public:
         return minLen == INT_MAX ? 0 : minLen;
     }
 };
-```
+// ```
 
-## 思路二：双指针（最优解）
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(1)
-```c++
+// ## 思路二：双指针（最优解）
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
+// ```c++
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums) {                
@@ -44,4 +44,4 @@ public:
         return minLen == INT_MAX ? 0 : minLen;
     }
 };
-```
+// ```

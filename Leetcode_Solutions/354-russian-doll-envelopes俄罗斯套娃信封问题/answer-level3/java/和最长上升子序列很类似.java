@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxEnvelopes(int[][] envelopes) {
         if (envelopes == null || envelopes.length == 0) {
@@ -40,4 +40,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

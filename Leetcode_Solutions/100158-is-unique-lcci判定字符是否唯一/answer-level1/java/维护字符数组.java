@@ -1,9 +1,9 @@
-### 解题思路
-128长的字符数组
+// ### 解题思路
+// 128长的字符数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         int n = astr.length();
@@ -17,4 +17,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

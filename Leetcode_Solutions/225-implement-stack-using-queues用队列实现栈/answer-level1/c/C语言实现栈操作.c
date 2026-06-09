@@ -1,8 +1,8 @@
-**解题思路**：
-    结构体成员`size`记录栈的大小，`top`记录栈顶，`stack`用来记录动态分配给栈的内存块。
-    若目前栈的大小等于栈顶，即`obj->size==obj->top`，则使用`realloc`动态扩存。
+// **解题思路**：
+//     结构体成员`size`记录栈的大小，`top`记录栈顶，`stack`用来记录动态分配给栈的内存块。
+//     若目前栈的大小等于栈顶，即`obj->size==obj->top`，则使用`realloc`动态扩存。
 
-```
+// ```
 #define NUM 100
 
 typedef struct {
@@ -74,4 +74,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn sort_list(mut head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         if head.as_ref() == None {
@@ -104,8 +104,8 @@ impl Solution {
         head.unwrap().next
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/00c3f5f8a519913a2334df31edc3b861451d326f8a732dd2601152082026970c-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/00c3f5f8a519913a2334df31edc3b861451d326f8a732dd2601152082026970c-image.png)
 
-写完之后发现可能不用unsafe也可以？
+// 写完之后发现可能不用unsafe也可以？
 

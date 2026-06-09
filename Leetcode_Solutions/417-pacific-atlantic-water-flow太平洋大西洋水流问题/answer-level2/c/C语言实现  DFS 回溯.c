@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-// DFS 回溯法：从太平洋和大西洋分别往中间进行搜索（下一个节点的满足条件是比该节点的值大），用2个数组分别记录每一个点是否可以流向大或者太，
-// 最后对2个数组进行遍历，找到满足要求的点。
+// ### 解题思路
+// 此处撰写解题思路
+// // DFS 回溯法：从太平洋和大西洋分别往中间进行搜索（下一个节点的满足条件是比该节点的值大），用2个数组分别记录每一个点是否可以流向大或者太，
+// // 最后对2个数组进行遍历，找到满足要求的点。
 
-// 4个方向的处理，使用2维数组处理，值得学习。
+// // 4个方向的处理，使用2维数组处理，值得学习。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -118,4 +118,4 @@ int** pacificAtlantic(int** matrix, int matrixSize, int* matrixColSize, int* ret
 
     return result;
 }
-```
+// ```

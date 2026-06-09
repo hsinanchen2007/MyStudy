@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int start = 0,end = nums.length - 1;
@@ -21,4 +21,4 @@ class Solution {
         return start;
     }
 }
-```
+// ```

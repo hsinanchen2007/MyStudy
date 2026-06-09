@@ -1,11 +1,11 @@
-### 解题思路
-桶排序
+// ### 解题思路
+// 桶排序
 
-![image.png](https://pic.leetcode-cn.com/4de738e5151e35bf42ec8b0998586a2b1fadc02ce460f430d792ec51073f19ef-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4de738e5151e35bf42ec8b0998586a2b1fadc02ce460f430d792ec51073f19ef-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         }
     }
 };
-```
+// ```

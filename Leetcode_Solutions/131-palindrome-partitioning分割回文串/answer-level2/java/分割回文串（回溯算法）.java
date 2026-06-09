@@ -1,9 +1,9 @@
-### 解题思路
-套路写法，嘿嘿
+// ### 解题思路
+// 套路写法，嘿嘿
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<String>> partition(String s) {
         List<List<String>> result = new ArrayList<>();
@@ -35,4 +35,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

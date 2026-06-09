@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int exchangeBits(int num) {
@@ -26,4 +26,4 @@ public:
         return sum;
     }
 };
-```
+// ```

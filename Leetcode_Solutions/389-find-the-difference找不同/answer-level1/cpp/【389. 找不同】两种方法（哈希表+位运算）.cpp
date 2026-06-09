@@ -1,8 +1,8 @@
-### 思路一：哈希表
+// ### 思路一：哈希表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     char findTheDifference(string s, string t) {
@@ -17,12 +17,12 @@ public:
         return 0;
     }
 };
-```
+// ```
 
-### 思路二：位运算
+// ### 思路二：位运算
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     char findTheDifference(string s, string t) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历一遍，用prev记录每个char，cnt记录重复的个数（默认为1）。
-从1位置开始遍历，如果和前一个相同则增加cnt，如果不同则变更stringbuilder的内容，更新prev以及cnt。
-### 代码
+// ### 解题思路
+// 遍历一遍，用prev记录每个char，cnt记录重复的个数（默认为1）。
+// 从1位置开始遍历，如果和前一个相同则增加cnt，如果不同则变更stringbuilder的内容，更新prev以及cnt。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String s) {
         if(s.length()<3) return s;
@@ -27,4 +27,4 @@ class Solution {
         return s;    
     }
 }
-```
+// ```

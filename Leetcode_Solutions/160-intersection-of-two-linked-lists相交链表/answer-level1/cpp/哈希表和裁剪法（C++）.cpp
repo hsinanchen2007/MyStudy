@@ -1,8 +1,8 @@
-## 哈希表
+// ## 哈希表
 
-先将headA所有放入哈希表，再遍历headB，找到一个已有的节点返回
+// 先将headA所有放入哈希表，再遍历headB，找到一个已有的节点返回
 
-```python []
+// ```python []
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
         hash_set = set()
@@ -15,8 +15,8 @@ class Solution:
             else:
                 headB = headB.next
         return None
-```
-```C++ []
+// ```
+// ```C++ []
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -36,14 +36,14 @@ public:
         return NULL;
     }
 };
-```
+// ```
 
 
-## 裁剪法
+// ## 裁剪法
 
-相交必定相交的部分长度相等，减去长链表的长部分，然后同时移动找到相交节点。
+// 相交必定相交的部分长度相等，减去长链表的长部分，然后同时移动找到相交节点。
 
-```
+// ```
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -80,7 +80,7 @@ public:
         return NULL; 
     }
 };
-```
-github pages：https://aiaimuti.github.io/ 里面有很多关于C++的总结
+// ```
+// github pages：https://aiaimuti.github.io/ 里面有很多关于C++的总结
 
 

@@ -1,4 +1,4 @@
-```
+// ```
 int myAtoi(char * str){
     char *p=str;
     int flag=1;
@@ -43,4 +43,4 @@ int myAtoi(char * str){
         return (int)ans;
     else return flag*(int)ans;
 }
-```
+// ```

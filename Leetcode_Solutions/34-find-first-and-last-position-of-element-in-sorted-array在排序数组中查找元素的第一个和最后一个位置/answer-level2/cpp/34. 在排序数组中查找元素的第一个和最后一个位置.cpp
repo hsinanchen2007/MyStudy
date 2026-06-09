@@ -1,9 +1,9 @@
-### 解题思路
-利用二分的思想，把区间分成两段，查找满足条件的边界下标！一直找满足条件的边界。
+// ### 解题思路
+// 利用二分的思想，把区间分成两段，查找满足条件的边界下标！一直找满足条件的边界。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -31,4 +31,4 @@ public:
         return {-1, -1};
     }
 };
-```
+// ```

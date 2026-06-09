@@ -1,8 +1,8 @@
- /*
-     *奇链表的头结点是head，尾节点是odd，奇节点下一个节点是偶节点的下一个节点
-     *偶链表的头结点是head.next需要用一个变量evenHead保存，尾节点是even，偶节点下一个节点是偶节点的下一个节点
-    **/
-```
+//  /*
+//      *奇链表的头结点是head，尾节点是odd，奇节点下一个节点是偶节点的下一个节点
+//      *偶链表的头结点是head.next需要用一个变量evenHead保存，尾节点是even，偶节点下一个节点是偶节点的下一个节点
+//     **/
+// ```
     public ListNode oddEvenList(ListNode head) {
         if (head == null || head.next == null || head.next.next == null) {
             return head;
@@ -19,4 +19,4 @@
         odd.next = evenHead;
         return head;
     }
-```
+// ```

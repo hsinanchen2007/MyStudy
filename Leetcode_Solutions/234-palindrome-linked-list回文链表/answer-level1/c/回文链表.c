@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -68,4 +68,4 @@ bool isPalindrome(struct ListNode* head){
         return true;
     }
 }
-```
+// ```

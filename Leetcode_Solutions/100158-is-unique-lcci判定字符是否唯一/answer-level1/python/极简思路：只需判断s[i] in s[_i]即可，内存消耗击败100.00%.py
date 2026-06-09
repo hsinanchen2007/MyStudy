@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def isUnique(self, astr: str) -> bool:
         for i in range(len(astr)):
@@ -7,4 +7,4 @@ class Solution:
                 return False
         return True
 
-```
+# ```

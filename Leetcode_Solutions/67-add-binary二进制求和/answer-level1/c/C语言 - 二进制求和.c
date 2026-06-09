@@ -1,8 +1,8 @@
-### 解题思路
-    跟着C++大佬们学习，写出优美的code ~ ~ ~
-### 代码
+// ### 解题思路
+//     跟着C++大佬们学习，写出优美的code ~ ~ ~
+// ### 代码
 
-```c
+// ```c
 #define N 1000
 char * addBinary(char * a, char * b){
     int len1 = strlen(a),len2 = strlen(b),carry = 0,k = 0;
@@ -29,4 +29,4 @@ char * addBinary(char * a, char * b){
     }
     return c;
 }
-```
+// ```

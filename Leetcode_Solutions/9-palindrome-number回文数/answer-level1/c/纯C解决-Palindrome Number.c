@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
     if(x<0)
     return false;
@@ -20,4 +20,4 @@ bool isPalindrome(int x){
     return true;
     return false;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-使用桶排序。
-这里也可以使用快排之类的方法， 但是需要返回输出下标，这个还要做额外处理，最好研究一下。
+# ### 解题思路
+# 使用桶排序。
+# 这里也可以使用快排之类的方法， 但是需要返回输出下标，这个还要做额外处理，最好研究一下。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRelativeRanks(self, nums: List[int]) -> List[str]:
         # 桶排序
@@ -29,4 +29,4 @@ class Solution:
                 i += 1
         return result
 
-```
+# ```

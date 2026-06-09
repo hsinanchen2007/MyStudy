@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numRabbits(self, answers: List[int]) -> int:
         ### answers中，回答数字相同的兔子的颜色可能是相同的
@@ -21,4 +21,4 @@ class Solution:
         return res
 
 
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
-思路都在代码里面了,这个题考的是数学思维
-by the way,提交的时间有点奇怪
+// ### 解题思路
+// 思路都在代码里面了,这个题考的是数学思维
+// by the way,提交的时间有点奇怪
 
-![image.png](https://pic.leetcode-cn.com/dd50906b4a2c8dfd42829cd67524c331a8365d45bee8e708e94d4dce39f4909e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dd50906b4a2c8dfd42829cd67524c331a8365d45bee8e708e94d4dce39f4909e-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int superpalindromesInRange(String L, String R) {
 
@@ -69,4 +69,4 @@ class Solution {
 		return true;
 	}
 }
-```
+// ```

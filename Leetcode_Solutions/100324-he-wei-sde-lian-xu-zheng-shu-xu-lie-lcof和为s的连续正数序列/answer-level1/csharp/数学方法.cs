@@ -1,9 +1,9 @@
-### 解题思路
-纯数学
+// ### 解题思路
+// 纯数学
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[][] FindContinuousSequence(int target) {
             var res = new List<int[]>();
@@ -34,4 +34,4 @@ public class Solution {
     }
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-类似二分查找，数组中间的为root，root->left指向左半边数组中间那项，root->right指向右半边数组中间那项，递归。
-```c
+// 类似二分查找，数组中间的为root，root->left指向左半边数组中间那项，root->right指向右半边数组中间那项，递归。
+// ```c
 struct TreeNode* sortedArrayToBST(int* nums, int numsSize){
     if(numsSize==0) return 0;
     struct TreeNode* root=malloc(sizeof(struct TreeNode));
@@ -29,4 +29,4 @@ struct TreeNode* sortedArrayToBST(int* nums, int numsSize){
     }
     return root;
 }
-```
+// ```

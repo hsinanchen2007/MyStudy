@@ -1,9 +1,9 @@
-### 解题思路
-对House 0和House n-1进行分情况考虑转为House Rob I问题
+# ### 解题思路
+# 对House 0和House n-1进行分情况考虑转为House Rob I问题
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public int rob(int[] nums) {
         // 分情况考虑
@@ -36,8 +36,8 @@ class Solution {
         return maxRes;        
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def rob(self, nums: List[int]) -> int:
         N = len(nums)
@@ -62,8 +62,8 @@ class Solution:
             f[i] = max(f[i-2]+nums[i], f[i-1])
         
         return max(maxRes, f[N-2])
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -93,4 +93,4 @@ public:
         return max(maxRes, f[N-2]);
     }
 };
-```
+# ```

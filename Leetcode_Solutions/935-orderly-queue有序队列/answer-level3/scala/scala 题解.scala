@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def orderlyQueue(S: String, K: Int): String = K match {
     case 1 => func(S)
@@ -14,4 +14,4 @@ object Solution {
     res
   }
 }
-```
+// ```

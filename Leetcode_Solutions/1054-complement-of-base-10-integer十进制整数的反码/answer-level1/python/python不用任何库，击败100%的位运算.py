@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def bitwiseComplement(self, N):
         """
@@ -17,4 +17,4 @@ class Solution(object):
             if 2**i<=N<2**(1+i):
                 print(2**(1+i)-1)
                 return N^(2**(1+i)-1)
-```
+# ```

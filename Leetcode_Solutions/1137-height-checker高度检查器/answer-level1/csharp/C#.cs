@@ -1,8 +1,8 @@
-### 解题思路
-这个C#居然自带的排序跟Reverse一样直接把原数组改变，都没法赋值给新的数组的，只能先复制一份了
-### 代码
+// ### 解题思路
+// 这个C#居然自带的排序跟Reverse一样直接把原数组改变，都没法赋值给新的数组的，只能先复制一份了
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int HeightChecker(int[] heights) {
         var nh = new List<int>(0);
@@ -17,4 +17,4 @@ public class Solution {
             return res;
     }
 }
-```
+// ```

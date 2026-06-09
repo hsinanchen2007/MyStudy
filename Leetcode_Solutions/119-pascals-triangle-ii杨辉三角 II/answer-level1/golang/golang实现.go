@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-对于每一层中的数据i，有： i = 上一层的i + 上一层的i-1
+// 对于每一层中的数据i，有： i = 上一层的i + 上一层的i-1
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func getRow(rowIndex int) []int {
 	result := []int{1,1}
 	var plus,rows int
@@ -34,4 +34,4 @@ func getRow(rowIndex int) []int {
 	}
 	return result
 }
-```
+// ```

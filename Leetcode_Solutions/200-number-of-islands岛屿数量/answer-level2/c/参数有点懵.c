@@ -1,9 +1,9 @@
-### 解题思路
-看gridColSize这个参数懵逼了半天不知道这个参数啥意思，看了别人写的才知道这个参数是用来告诉矩阵的列数，干嘛不直接给呢，写个注释说明也行呀
+// ### 解题思路
+// 看gridColSize这个参数懵逼了半天不知道这个参数啥意思，看了别人写的才知道这个参数是用来告诉矩阵的列数，干嘛不直接给呢，写个注释说明也行呀
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void setToOne(char** grid, int i, int j, int gridSize, int colSize)
 {
     if(i < 0 || i >= gridSize || j < 0 || j >= colSize || grid[i][j] == '0') {
@@ -36,4 +36,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     }
     return count;
 }
-```
+// ```

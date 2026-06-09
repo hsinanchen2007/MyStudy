@@ -1,4 +1,4 @@
-```
+// ```
 var countCharacters = function(words, chars) {
     // 先创建一个哈希表，记录可以用的字符和对应数量
     const charsMap = {}
@@ -23,4 +23,4 @@ var countCharacters = function(words, chars) {
     }
     return res
 };
-```
+// ```

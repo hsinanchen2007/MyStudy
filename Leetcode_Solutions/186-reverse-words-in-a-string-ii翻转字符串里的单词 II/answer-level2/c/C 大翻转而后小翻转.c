@@ -1,9 +1,9 @@
-### 解题思路
-C 大翻转而后小翻转
+// ### 解题思路
+// C 大翻转而后小翻转
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverse(char* s, int start, int end)
 {
     char tmp;
@@ -29,4 +29,4 @@ void reverseWords(char* s, int sSize){
         end = start;
     }
 }
-```
+// ```

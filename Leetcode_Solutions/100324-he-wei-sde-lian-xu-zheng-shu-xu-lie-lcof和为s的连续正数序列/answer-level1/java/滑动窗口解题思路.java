@@ -1,12 +1,12 @@
-### 解题思路
-滑动窗口
-1，先求最大可用的窗口
-2，获取到最大到窗口后，左指针右移，收缩窗口范围
-不断寻找，直到找到所以到窗口为止
+// ### 解题思路
+// 滑动窗口
+// 1，先求最大可用的窗口
+// 2，获取到最大到窗口后，左指针右移，收缩窗口范围
+// 不断寻找，直到找到所以到窗口为止
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
        
@@ -45,4 +45,4 @@ class Solution {
         return list.toArray(new int[list.size()][]);
     }
 }
-```
+// ```

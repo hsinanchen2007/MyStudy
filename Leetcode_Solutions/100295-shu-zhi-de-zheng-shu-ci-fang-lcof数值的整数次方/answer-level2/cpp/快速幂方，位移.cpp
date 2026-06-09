@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double myPow(double x, int n) 
@@ -24,4 +24,4 @@ public:
         return n > 0 ? num:1/num;
     }
 };
-```
+// ```

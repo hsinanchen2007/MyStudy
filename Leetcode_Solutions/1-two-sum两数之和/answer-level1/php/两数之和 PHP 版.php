@@ -1,10 +1,10 @@
-## 暴力解法
+// ## 暴力解法
 
-暴力解法：双重循环。
+// 暴力解法：双重循环。
 
-时间复杂度：$O(N^2)$。
+// 时间复杂度：$O(N^2)$。
 
-```PHP []
+// ```PHP []
 function twoSum($nums, $target) {
     $count = count($nums);
     for($i=0; $i< $count; $i++){
@@ -17,19 +17,19 @@ function twoSum($nums, $target) {
 
     return [$i, $j];   
 }
-```
+// ```
 
-## 使用 HashMap 
+// ## 使用 HashMap 
 
-HashMap 法：直接去查找对应的值的key。
+// HashMap 法：直接去查找对应的值的key。
 
-时间复杂度：$O(N)$。
+// 时间复杂度：$O(N)$。
 
-PHP 里使用 array 模拟 HashMap。
+// PHP 里使用 array 模拟 HashMap。
 
-` array_keys` 如果加了 第二个参数，表示仅返回含有该值的 key。
+// ` array_keys` 如果加了 第二个参数，表示仅返回含有该值的 key。
 
-```PHP []
+// ```PHP []
 
 function twoSum($nums, $target) {
     $count = count($nums);
@@ -44,12 +44,12 @@ function twoSum($nums, $target) {
         
     }
 }
-```
-时间复杂度：$O(n)$。
+// ```
+// 时间复杂度：$O(n)$。
 
-**改进：**
-借助一个hashtable，每次循环的时候，发现当前值在table中找不到配对，先记录下来，key是值，值是与之配对的值的索引；如果当前值在table中找到配对，说明配对成功。
-``` php
+// **改进：**
+// 借助一个hashtable，每次循环的时候，发现当前值在table中找不到配对，先记录下来，key是值，值是与之配对的值的索引；如果当前值在table中找到配对，说明配对成功。
+// ``` php
 function twoSum($nums, $target) {
     $table = []; //值 => 可以配对的索引
     $len = count($nums);
@@ -62,16 +62,16 @@ function twoSum($nums, $target) {
         }
     }
 }
-```
-时间：O(N)，空间O(N)。
+// ```
+// 时间：O(N)，空间O(N)。
 
-## 二分法
+// ## 二分法
 
-用一个排序都能把复杂度降到 $O(NlogN)$，通过排序，然后用两个指针从前后扫描逼近真值。
+// 用一个排序都能把复杂度降到 $O(NlogN)$，通过排序，然后用两个指针从前后扫描逼近真值。
 
-注意这个思想，可以让 $O(N^2)$ 的复杂度降为 $O(N)$，充分利用排序，因为一定会有一个值满足，然后通过值去原数组里找对应的下标。
+// 注意这个思想，可以让 $O(N^2)$ 的复杂度降为 $O(N)$，充分利用排序，因为一定会有一个值满足，然后通过值去原数组里找对应的下标。
 
-```PHP []
+// ```PHP []
 function twoSum($nums, $target) {
     $nums_c = $nums; //保留原数组，sort函数会修改原数组
     sort($nums);
@@ -101,6 +101,6 @@ function twoSum($nums, $target) {
     
     return $result; 
 }
-```
+// ```
 
-时间复杂度：$O(n)$。
+// 时间复杂度：$O(n)$。

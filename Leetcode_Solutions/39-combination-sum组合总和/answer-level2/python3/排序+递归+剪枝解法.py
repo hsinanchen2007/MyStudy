@@ -1,8 +1,8 @@
-### 解题思路
-排序+递归回溯+剪枝解法
-### 代码
+# ### 解题思路
+# 排序+递归回溯+剪枝解法
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         def dfs(candidates, index, c_len, stack, target, res):
@@ -25,4 +25,4 @@ class Solution:
         dfs(candidates, 0, c_len, [], target, res)
         return res
         
-```
+# ```

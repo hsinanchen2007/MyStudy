@@ -1,5 +1,5 @@
-递归
-```
+# 递归
+# ```
 class Solution:
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
 
@@ -13,9 +13,9 @@ class Solution:
         else: ans.next = self.reverseKGroup(ans.next, c - 1)
 
         return ans.next
-```
-非递归
-```
+# ```
+# 非递归
+# ```
 class Solution:
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
 
@@ -29,4 +29,4 @@ class Solution:
 
             if c > k: head.next, pos, head = h, head, h
             else: head.next, head, k = None, pos.next, c-1
-```
+# ```

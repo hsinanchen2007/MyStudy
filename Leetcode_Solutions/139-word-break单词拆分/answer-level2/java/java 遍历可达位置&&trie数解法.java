@@ -1,10 +1,10 @@
-### 解题思路
-![111.png](https://pic.leetcode-cn.com/3c9c128efc98625315a87f0579dc32945f2189b3ee9791203c88d2ee263ac6fb-111.png)
-昨天刚做了跳跃游戏，感觉这个方法挺类似的。
+// ### 解题思路
+// ![111.png](https://pic.leetcode-cn.com/3c9c128efc98625315a87f0579dc32945f2189b3ee9791203c88d2ee263ac6fb-111.png)
+// 昨天刚做了跳跃游戏，感觉这个方法挺类似的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         PriorityQueue<Integer> queue = new PriorityQueue<>();
@@ -97,4 +97,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-普通斐波那契，加静态缓存（空间换时间）
+// ### 解题思路
+// 普通斐波那契，加静态缓存（空间换时间）
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     public static $cache = [ 
@@ -24,4 +24,4 @@ class Solution {
         return static::$cache[$n];
     }
 }
-```
+// ```

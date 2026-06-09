@@ -1,5 +1,5 @@
-与leetcode 56合并区间是一模一样的问题
-```
+# 与leetcode 56合并区间是一模一样的问题
+# ```
 class Solution:
     def findPoisonedDuration(self, timeSeries: List[int], duration: int) -> int:
         if len(timeSeries) == 0:
@@ -22,4 +22,4 @@ class Solution:
                 x_right = x_left + duration
         
         return total_time + x_right - x_left
-```
+# ```

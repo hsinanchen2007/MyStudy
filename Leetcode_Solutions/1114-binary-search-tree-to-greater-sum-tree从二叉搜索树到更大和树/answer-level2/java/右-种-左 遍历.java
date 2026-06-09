@@ -1,9 +1,9 @@
-### 解题思路
-右中左遍历，逆序左右的val值，然后累加起来就好。
+// ### 解题思路
+// 右中左遍历，逆序左右的val值，然后累加起来就好。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
         return temp;
     }
 }
-```
+// ```

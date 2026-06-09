@@ -1,10 +1,10 @@
-### 解题思路
-递归过程中使用temp_path保存当前路径。
-当遍历到叶子时，判断是否符合条件，符合就把temp_path加到path里
+# ### 解题思路
+# 递归过程中使用temp_path保存当前路径。
+# 当遍历到叶子时，判断是否符合条件，符合就把temp_path加到path里
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
 
                 
 
-```
+# ```

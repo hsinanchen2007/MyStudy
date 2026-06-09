@@ -1,5 +1,5 @@
-用boolean数组保存钥匙状态，用坐标+钥匙状态避免重复路径（钥匙状态似乎用整数的二进制位保存更好，但写完才发现懒得改了=u=）
-```
+// 用boolean数组保存钥匙状态，用坐标+钥匙状态避免重复路径（钥匙状态似乎用整数的二进制位保存更好，但写完才发现懒得改了=u=）
+// ```
 class Solution {
     public int shortestPathAllKeys(String[] grid) {
         LinkedList<Status> queue = new LinkedList<>();
@@ -93,4 +93,4 @@ class Solution {
 
     }
 }
-```
+// ```

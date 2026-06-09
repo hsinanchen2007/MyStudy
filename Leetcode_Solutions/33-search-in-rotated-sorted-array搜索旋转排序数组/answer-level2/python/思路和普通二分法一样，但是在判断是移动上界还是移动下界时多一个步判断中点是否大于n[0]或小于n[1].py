@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def search(self, n, t):
         if len(n)==0:return -1
@@ -38,4 +38,4 @@ class Solution(object):
                     else:j=m-1
             if n[i]==t:return i
             else:return -1
-```
+# ```

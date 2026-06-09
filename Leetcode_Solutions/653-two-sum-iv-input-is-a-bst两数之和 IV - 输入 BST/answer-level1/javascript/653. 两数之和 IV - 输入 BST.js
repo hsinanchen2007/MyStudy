@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-- 中序遍历 ``二叉搜索树`` 并生成有序数组
-- 利用双指针找出目标值
+// - 中序遍历 ``二叉搜索树`` 并生成有序数组
+// - 利用双指针找出目标值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -51,4 +51,4 @@ var findTarget = function(root, k) {
     }
     return false
 };
-```
+// ```

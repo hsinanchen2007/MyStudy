@@ -1,5 +1,5 @@
-#### 定义函数判断3*3的方阵是否为幻方，然后依次判断原矩阵中的每个3*3的矩阵
-```
+# #### 定义函数判断3*3的方阵是否为幻方，然后依次判断原矩阵中的每个3*3的矩阵
+# ```
 class Solution:
     def numMagicSquaresInside(self, grid: List[List[int]]) -> int:
         if len(grid) < 3 or len(grid[0]) < 3:
@@ -39,4 +39,4 @@ class Solution:
             return 0
         return 1
 
-```
+# ```

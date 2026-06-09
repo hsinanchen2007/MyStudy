@@ -1,6 +1,6 @@
-思路一：利用字典，如果在字典中不存在元素i则添加i至字典 如果i存在在字典中则返回i
+# 思路一：利用字典，如果在字典中不存在元素i则添加i至字典 如果i存在在字典中则返回i
 
-```
+# ```
 class Solution(object):
     def findRepeatNumber(self, nums):
         """
@@ -14,5 +14,5 @@ class Solution(object):
                 dic[i]=1
             else:
                 return i
-```
+# ```
 

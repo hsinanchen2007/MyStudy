@@ -1,9 +1,9 @@
-### 解题思路
-利用二分法思路实现 O(logN)
+// ### 解题思路
+// 利用二分法思路实现 O(logN)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /* 二分查找 O(logN) */
 class Solution {
 public:
@@ -22,5 +22,5 @@ public:
         return left;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/5764bd0342c083917fb7078cbe4f770be04f82fe1e09111166b804a6c2a6a2ed-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/5764bd0342c083917fb7078cbe4f770be04f82fe1e09111166b804a6c2a6a2ed-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX 26
 int leastInterval(char* tasks, int tasksSize, int n){
     int shortestTime = 0;
@@ -41,4 +41,4 @@ int leastInterval(char* tasks, int tasksSize, int n){
 
     return shortestTime;
 }
-```
+// ```

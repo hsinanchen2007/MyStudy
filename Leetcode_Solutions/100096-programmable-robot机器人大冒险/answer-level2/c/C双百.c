@@ -1,4 +1,4 @@
-```
+// ```
 void lower(int *x, int *y, int d1, int d2){
     int p1 = *x/d1;
     int p2 = *y/d2;
@@ -51,4 +51,4 @@ bool robot(char * command, int** obstacles, int obstaclesSize, int* obstaclesCol
     
     return true;
 }
-```
+// ```

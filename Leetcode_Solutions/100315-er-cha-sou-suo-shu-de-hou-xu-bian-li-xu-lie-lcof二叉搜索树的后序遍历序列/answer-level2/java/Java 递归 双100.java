@@ -1,9 +1,9 @@
-### 解题思路
-只要看清楚是二叉搜索树，了解后续遍历数组最后一个为根节点，即可求解。
+// ### 解题思路
+// 只要看清楚是二叉搜索树，了解后续遍历数组最后一个为根节点，即可求解。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int[] postorder;
     public boolean verifyPostorder(int[] postorder) {
@@ -33,4 +33,4 @@ class Solution {
         return isBinaryTree(start, i - 1) && isBinaryTree(i, end - 1);
     }
 }
-```
+// ```

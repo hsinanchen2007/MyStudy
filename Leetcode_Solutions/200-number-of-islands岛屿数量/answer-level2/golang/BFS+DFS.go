@@ -1,6 +1,6 @@
-# 1. BFS
-- 使用额外切片使用广度优先染色
-```
+// # 1. BFS
+// - 使用额外切片使用广度优先染色
+// ```
 var dx = [4]int{-1, 1, 0, 0}
 var dy = [4]int{0, 0, 1, -1}
 var row, col int
@@ -41,10 +41,10 @@ func BFS(grid [][]byte, i, j int){
         }
     }
 }
-```
-# 2. DFS
-- 递归染色左右上下位置
-```
+// ```
+// # 2. DFS
+// - 递归染色左右上下位置
+// ```
 var dx = [4]int{-1, 1, 0, 0}
 var dy = [4]int{0, 0, 1, -1}
 func numIslands(grid [][]byte) int {
@@ -76,10 +76,10 @@ func DFS(grid [][]byte, i, j int){
         DFS(grid, i+dx[k], j+dy[k])
     }
 }
-```
-3. 并查集
-- 使用路径压缩和rank排名
-```
+// ```
+// 3. 并查集
+// - 使用路径压缩和rank排名
+// ```
 var dx = [4]int{-1, 1, 0, 0}
 var dy = [4]int{0, 0, 1, -1}
 var row, col int
@@ -150,4 +150,4 @@ func union(x, y int){
     
 } 
 
-```
+// ```

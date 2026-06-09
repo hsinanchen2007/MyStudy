@@ -1,9 +1,9 @@
-### 解题思路
-先找到白色车的位置，上下左右再找黑色卒，遇到白象停止查找。
+// ### 解题思路
+// 先找到白色车的位置，上下左右再找黑色卒，遇到白象停止查找。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
        public  int numRookCaptures(char[][] board) {
         int num1 = 0;
@@ -71,4 +71,4 @@ class Solution {
 
 }
 
-```
+// ```

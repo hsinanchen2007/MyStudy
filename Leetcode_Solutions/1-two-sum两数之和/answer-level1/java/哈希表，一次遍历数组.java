@@ -1,10 +1,10 @@
-### 解题思路
-将每一个数组值减去传入的值，判断最后的值是否存在于key中
-若存在将其索引打印出来
+// ### 解题思路
+// 将每一个数组值减去传入的值，判断最后的值是否存在于key中
+// 若存在将其索引打印出来
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
       public static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -20,4 +20,4 @@ class Solution {
       return new int[]{};
     }
 }
-```
+// ```

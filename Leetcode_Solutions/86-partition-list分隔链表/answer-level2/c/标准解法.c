@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* partition(struct ListNode* head, int x){
     struct ListNode * pre    = (struct ListNode *)malloc(sizeof(struct ListNode));
     struct ListNode * aft    = (struct ListNode *)malloc(sizeof(struct ListNode));
@@ -21,4 +21,4 @@ struct ListNode* partition(struct ListNode* head, int x){
     
     return pre->next;
 }
-```
+// ```

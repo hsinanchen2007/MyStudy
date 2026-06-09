@@ -1,9 +1,9 @@
-简单粗暴，先是同一个位置比大小。
-比完后然后剩下的一个看是否有大于0的数确定这两个版本大小。
-比如1.0与1.0.1
-前面两个1.0同位置比较相同。轮到version2 有.1大于0返回-1。
+// 简单粗暴，先是同一个位置比大小。
+// 比完后然后剩下的一个看是否有大于0的数确定这两个版本大小。
+// 比如1.0与1.0.1
+// 前面两个1.0同位置比较相同。轮到version2 有.1大于0返回-1。
 
-```
+// ```
 int compareVersion(char * version1, char * version2){
     int i=0,j=0;
     while(i<strlen(version1)&&j<strlen(version2)){
@@ -46,4 +46,4 @@ int compareVersion(char * version1, char * version2){
     }
     return 0;
 }
-```
+// ```

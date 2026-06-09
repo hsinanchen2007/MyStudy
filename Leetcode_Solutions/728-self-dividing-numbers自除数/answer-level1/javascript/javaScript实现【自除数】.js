@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var selfDividingNumbers = function (left, right) {
     let arr = []
     
@@ -31,4 +31,4 @@ console.log(selfDividingNumbers(1, 22))
  * 2. 因此可以想象出，小于10的都是自然数，我们只需要i计算出大于10的自然数
  * 3. 将大于10（自除数不允许包含 0 ）转换成字符串，遍历，如果有一项被除不尽，则舍弃，否则添加到数组中
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-打个卡
+// ### 解题思路
+// 打个卡
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int LastRemaining(int n, int m) {
  int p = 0;
@@ -14,4 +14,4 @@ public class Solution {
         return p;
     }
 }
-```
+// ```

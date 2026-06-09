@@ -1,9 +1,9 @@
-### 解题思路
-寻找数组交点
+// ### 解题思路
+// 寻找数组交点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -35,4 +35,4 @@ public:
         
     }
 };
-```
+// ```

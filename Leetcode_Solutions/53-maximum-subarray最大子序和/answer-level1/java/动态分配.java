@@ -1,9 +1,9 @@
-### 解题思路
-分治法也想出来了，不过太麻烦了8，就懒得去实现了
+// ### 解题思路
+// 分治法也想出来了，不过太麻烦了8，就懒得去实现了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         int i = 0,sum = 0,max =Integer.MIN_VALUE;
@@ -24,4 +24,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

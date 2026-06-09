@@ -1,8 +1,8 @@
-·基本思想与其他题解相同。
-·改进：计算距离时不开方，保留为距离的平方，以免使用double型，减少计算步骤；
-·代码如下：
+// ·基本思想与其他题解相同。
+// ·改进：计算距离时不开方，保留为距离的平方，以免使用double型，减少计算步骤；
+// ·代码如下：
 
-```
+// ```
 int cmp(const void* a, const void* b){
     if(*(int*) a > *(int*)b){
         return 1;
@@ -35,4 +35,4 @@ int numberOfBoomerangs(int** points, int pointsSize, int* pointsColSize){
     free(Distances);
     return Num_Boo;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class MaxQueue {
 public:
     std::queue<int> que;
@@ -29,4 +29,4 @@ public:
 	    return res;
     }
 };
-```
+// ```

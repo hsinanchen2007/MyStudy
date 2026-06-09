@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/5ddc9b5bfd4ff7ec2c70586588375bd6506f38ad5a914abae0f71e10b0c6b8e5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5ddc9b5bfd4ff7ec2c70586588375bd6506f38ad5a914abae0f71e10b0c6b8e5-image.png)
 
 
-方法一：朴素方法（192ms）
+// 方法一：朴素方法（192ms）
 
-累加 [i,j] 的和，如果有 k 次查询，时间复杂度就是 O(kn)
+// 累加 [i,j] 的和，如果有 k 次查询，时间复杂度就是 O(kn)
 
-```
+// ```
 type NumArray struct {
     data []int
 }
@@ -31,16 +31,16 @@ func (this *NumArray) SumRange(i int, j int) int {
  * obj := Constructor(nums);
  * param_1 := obj.SumRange(i,j);
  */
-```
+// ```
 
-方法二：求和数组相减（48ms）
+// 方法二：求和数组相减（48ms）
 
-提前计算出前 i 个数的和，即 a[i] 等于区间 [1,i] 的和，消耗时间为 O(n)
+// 提前计算出前 i 个数的和，即 a[i] 等于区间 [1,i] 的和，消耗时间为 O(n)
 
-区间 [i,j] 的和求法为：sum(i,j) = a[j] - a[i-1]，每次查询消耗时间为 O(1)，k 次查询时间复杂度为 O(k)
+// 区间 [i,j] 的和求法为：sum(i,j) = a[j] - a[i-1]，每次查询消耗时间为 O(1)，k 次查询时间复杂度为 O(k)
 
-总的来说，时间复杂度为 O(n+k)
-```
+// 总的来说，时间复杂度为 O(n+k)
+// ```
 type NumArray struct {
     presum []int    // 存储 [0,i] 的和
 }
@@ -67,14 +67,14 @@ func (this *NumArray) SumRange(i int, j int) int {
  * obj := Constructor(nums);
  * param_1 := obj.SumRange(i,j);
  */
-```
+// ```
 
-方法三：树状数组（52ms）
+// 方法三：树状数组（52ms）
 
-树状数组专门用来求前 n 个数的和，区间和求法和上述一样：sum(i,j) = a[j] - a[i-1]
+// 树状数组专门用来求前 n 个数的和，区间和求法和上述一样：sum(i,j) = a[j] - a[i-1]
 
-但是这道题仅查询，不用修改，没有发挥出树状数组的优势，查询上时间复杂度和方法二差不多。
-```
+// 但是这道题仅查询，不用修改，没有发挥出树状数组的优势，查询上时间复杂度和方法二差不多。
+// ```
 type NumArray struct {
     a []int                                 // 树状数组
 }
@@ -117,4 +117,4 @@ func (this *NumArray) SumRange(i int, j int) int {  // 求区间 [i,j] 的和
  * obj := Constructor(nums);
  * param_1 := obj.SumRange(i,j);
  */
-```
+// ```

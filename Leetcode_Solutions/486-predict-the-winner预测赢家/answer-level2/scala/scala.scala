@@ -1,4 +1,4 @@
-```scala []
+// ```scala []
 object Solution {
     
     // f(0, n-1) : max gain 
@@ -20,4 +20,4 @@ object Solution {
         dp(0)(n-1) *2 >= A.sum
     }
 }
-```
+// ```

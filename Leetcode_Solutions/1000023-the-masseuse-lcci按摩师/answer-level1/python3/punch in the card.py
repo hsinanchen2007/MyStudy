@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-Kick in the card. 
-Again, I will give you the code. 
+# Kick in the card. 
+# Again, I will give you the code. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         if len(nums)==0:
@@ -18,4 +18,4 @@ class Solution:
         for i in range(2,len(nums)):
             log[i]=max(log[:i-1])+nums[i]
         return max(log)
-```
+# ```

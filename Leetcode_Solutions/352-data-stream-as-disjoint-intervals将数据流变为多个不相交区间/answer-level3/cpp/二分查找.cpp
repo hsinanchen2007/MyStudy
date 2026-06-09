@@ -1,4 +1,4 @@
-```
+// ```
 class SummaryRanges {
 public:
     /** Initialize your data structure here. */
@@ -72,4 +72,4 @@ private:
  * obj->addNum(val);
  * vector<vector<int>> param_2 = obj->getIntervals();
  */
-```
+// ```

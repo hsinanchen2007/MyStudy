@@ -1,4 +1,4 @@
-```
+// ```
 int firstBadVersion(int n) {
     int lo = 1, hi = n;
     while(lo < hi) {
@@ -11,4 +11,4 @@ int firstBadVersion(int n) {
     }
     return hi;
 }
-```
+// ```

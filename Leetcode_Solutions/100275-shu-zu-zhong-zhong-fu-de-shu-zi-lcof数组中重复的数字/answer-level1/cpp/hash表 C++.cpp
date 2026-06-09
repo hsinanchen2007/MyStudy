@@ -1,9 +1,9 @@
-### 解题思路
-hash表
+// ### 解题思路
+// hash表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return 0;
     }
 };
-```
+// ```

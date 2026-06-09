@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def deleteDuplicates(head: ListNode): ListNode = head match {
     case null => head
@@ -12,4 +12,4 @@ object Solution {
       node
   }
 }
-```
+// ```

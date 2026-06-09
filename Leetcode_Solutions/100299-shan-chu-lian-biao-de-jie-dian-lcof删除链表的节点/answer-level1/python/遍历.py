@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-执行用时 :36 ms, 在所有 Python3 提交中击败了96.71% 的用户
-内存消耗 :14 MB, 在所有 Python3 提交中击败了100.00%的用户
+# 执行用时 :36 ms, 在所有 Python3 提交中击败了96.71% 的用户
+# 内存消耗 :14 MB, 在所有 Python3 提交中击败了100.00%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
         return res
             
             
-```
+# ```

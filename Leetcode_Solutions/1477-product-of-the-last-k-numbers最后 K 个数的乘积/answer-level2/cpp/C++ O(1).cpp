@@ -1,12 +1,12 @@
-### 解题
+// ### 解题
 
-保存后缀和数组。
+// 保存后缀和数组。
 
-执行用时 :208 ms
+// 执行用时 :208 ms
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class ProductOfNumbers {
 private:
     int zero;

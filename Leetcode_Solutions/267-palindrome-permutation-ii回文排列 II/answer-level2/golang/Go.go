@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func generatePalindromes(s string) []string {
 	l := len(s)
 	isOdd := true	// 长度是否为奇数
@@ -61,4 +61,4 @@ func dfsFindPalindromes(m map[byte]int, result string, resultList *[]string, l i
 		m[k]+=2	// 回溯
 	}
 }
-```
+// ```

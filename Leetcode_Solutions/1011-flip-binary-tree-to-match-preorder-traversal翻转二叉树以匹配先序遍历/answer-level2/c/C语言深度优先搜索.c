@@ -1,13 +1,13 @@
-### 解题思路
-利用一个start变量来记录voyage的遍历位置，如果root的值与voyage[start]的值不同，那么说明初始或者翻转后的树不符合规则，returnSize置1，ret[0]置-1并返回
+// ### 解题思路
+// 利用一个start变量来记录voyage的遍历位置，如果root的值与voyage[start]的值不同，那么说明初始或者翻转后的树不符合规则，returnSize置1，ret[0]置-1并返回
 
-当然首先需要判断root是否为空，或者voyage是否已经遍历完，这两种情况都是直接返回即可
+// 当然首先需要判断root是否为空，或者voyage是否已经遍历完，这两种情况都是直接返回即可
 
-如果上面的判断都通过了，就需要看是否需要翻转数组，如果root的左子树的值与voyage下一个位置的值不同，那么说明至少root的左右子树是要翻转的（至于翻转后是否满足规则，交给下次DFS的开头进行判断），翻转左右子树后再分别遍历左右子树，直到搜索成功或返回失败。
+// 如果上面的判断都通过了，就需要看是否需要翻转数组，如果root的左子树的值与voyage下一个位置的值不同，那么说明至少root的左右子树是要翻转的（至于翻转后是否满足规则，交给下次DFS的开头进行判断），翻转左右子树后再分别遍历左右子树，直到搜索成功或返回失败。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -59,4 +59,4 @@ int* flipMatchVoyage(struct TreeNode* root, int* voyage, int voyageSize, int* re
     DFS(root, voyage, voyageSize, ret, returnSize, &start);
     return ret;
 }
-```
+// ```

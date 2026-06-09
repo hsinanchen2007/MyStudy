@@ -1,12 +1,12 @@
-执行用时 : `68 ms` , 在所有 JavaScript 提交中击败了 `100.00%` 的用户
-内存消耗 : `36.6 MB` , 在所有 JavaScript 提交中击败了 `100.00%` 的用户
+// 执行用时 : `68 ms` , 在所有 JavaScript 提交中击败了 `100.00%` 的用户
+// 内存消耗 : `36.6 MB` , 在所有 JavaScript 提交中击败了 `100.00%` 的用户
 
-### 解题思路
-找规律，一共四种情况，不同情况，不同的操作
+// ### 解题思路
+// 找规律，一共四种情况，不同情况，不同的操作
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} seq
  * @return {number[]}
@@ -32,4 +32,4 @@ var maxDepthAfterSplit = function (seq) {
     }
     return res
 };
-```
+// ```

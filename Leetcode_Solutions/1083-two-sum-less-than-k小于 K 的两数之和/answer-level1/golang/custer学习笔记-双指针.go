@@ -1,4 +1,4 @@
-```go
+// ```go
 func twoSumLessThanK(A []int, K int) int {
 	res := make([]int, 0)
 	start, end := 0, 0
@@ -21,10 +21,10 @@ func twoSumLessThanK(A []int, K int) int {
 	}
 	return res[len(res)-1]
 }
-```
-学习自[caigogo](https://leetcode-cn.com/u/caigogo)
+// ```
+// 学习自[caigogo](https://leetcode-cn.com/u/caigogo)
 
-```go
+// ```go
 func twoSumLessThanK(A []int, K int) int {
 	n := len(A)
 	max := -1
@@ -39,6 +39,6 @@ func twoSumLessThanK(A []int, K int) int {
 	}
 	return max
 }
-```
+// ```
 
 

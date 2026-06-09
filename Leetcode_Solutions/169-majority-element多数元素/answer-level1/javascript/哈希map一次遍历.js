@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/bae77137f09ea50c0e6b66c67c2e7cc4608dbd4bcc1881f250c93e4d6729781b-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/bae77137f09ea50c0e6b66c67c2e7cc4608dbd4bcc1881f250c93e4d6729781b-image.png)
 
-新建hashMap， nums中的数字为key  出现的次数为 value。
-一次遍历，找到 hashMap 中出现次数最多的元素
+// 新建hashMap， nums中的数字为key  出现的次数为 value。
+// 一次遍历，找到 hashMap 中出现次数最多的元素
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -28,4 +28,4 @@ var majorityElement = function(nums) {
     }
     return res;
 };
-```
+// ```

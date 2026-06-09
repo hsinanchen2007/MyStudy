@@ -1,5 +1,5 @@
 
-```swift
+// ```swift
 class UnionFind {
     var parents = [String:String]()
     func find(_ node: String) -> String {
@@ -44,4 +44,4 @@ class Solution {
     }
 }
 
-```
+// ```

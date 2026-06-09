@@ -1,6 +1,6 @@
-### 解题思路
-时间复杂度O(n),空间复杂度O(1)
-```
+// ### 解题思路
+// 时间复杂度O(n),空间复杂度O(1)
+// ```
 int majorityElement(int* nums, int numsSize){
     int count=0;
     int current=0;
@@ -15,12 +15,12 @@ int majorityElement(int* nums, int numsSize){
     }
     return current;
 }
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int majorityElement(int* nums, int numsSize){
     int count=0;
     int current=0;
@@ -35,4 +35,4 @@ int majorityElement(int* nums, int numsSize){
     }
     return current;
 }
-```
+// ```

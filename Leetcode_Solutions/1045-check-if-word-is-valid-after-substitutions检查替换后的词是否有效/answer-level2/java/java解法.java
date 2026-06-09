@@ -1,7 +1,7 @@
-解题思路：1当要插入的不是c时入栈；
-2当插入c时只有b、a依次出栈,才能说明abc连续的；否则就不是有效的。
-3.当字符串s全部插入完后，判断栈是否为空，唯恐就是有效的。
-```
+// 解题思路：1当要插入的不是c时入栈；
+// 2当插入c时只有b、a依次出栈,才能说明abc连续的；否则就不是有效的。
+// 3.当字符串s全部插入完后，判断栈是否为空，唯恐就是有效的。
+// ```
 public static boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
         int length =s.length();
@@ -25,4 +25,4 @@ public static boolean isValid(String s) {
         return stack.empty();
 
     }
-```
+// ```

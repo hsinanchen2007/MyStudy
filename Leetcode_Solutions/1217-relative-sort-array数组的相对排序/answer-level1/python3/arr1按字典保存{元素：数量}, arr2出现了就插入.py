@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:
         arr1_counter = collections.Counter(arr1)
@@ -17,4 +17,4 @@ class Solution:
                 temp.append(i)
         temp = sorted(temp)
         return ans + temp
-```
+# ```

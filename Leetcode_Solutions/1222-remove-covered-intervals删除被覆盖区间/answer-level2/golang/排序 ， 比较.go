@@ -1,8 +1,8 @@
-1. [x, y]按照x升序 y降序排列
-2. 显然后面所有左边界和它一样的区间都将被删除
-3. 若小于 右置位最大值， 一样被删除
+// 1. [x, y]按照x升序 y降序排列
+// 2. 显然后面所有左边界和它一样的区间都将被删除
+// 3. 若小于 右置位最大值， 一样被删除
 
-```golang
+// ```golang
 func removeCoveredIntervals(intervals [][]int) int {
     if len(intervals) == 0 || len(intervals[0]) == 0 {
         return 0
@@ -33,4 +33,4 @@ func removeCoveredIntervals(intervals [][]int) int {
 // [x, y]按照x升序 y降序排列
 // 显然后面所有左边界和它一样的区间都将被删除
 // 若小于 右置位最大值， 一样被删除
-```
+// ```

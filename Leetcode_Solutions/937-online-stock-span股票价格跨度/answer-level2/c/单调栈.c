@@ -1,9 +1,9 @@
-### 解题思路
-单调栈，注意题意是连续的天数
+// ### 解题思路
+// 单调栈，注意题意是连续的天数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 typedef struct {
     int n;    
@@ -49,4 +49,4 @@ void stockSpannerFree(StockSpanner* obj) {
         free(obj);
     }
 }
-```
+// ```

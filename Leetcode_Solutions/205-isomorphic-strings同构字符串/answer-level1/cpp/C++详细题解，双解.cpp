@@ -1,6 +1,6 @@
-### 思路一
-常规解法，使用哈希映射，两个字符串相互映射。
-```cpp
+// ### 思路一
+// 常规解法，使用哈希映射，两个字符串相互映射。
+// ```cpp
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
@@ -23,10 +23,10 @@ public:
         return true;
     }
 };
-```
-### 思路二
-参考讨论区里的大佬，比较巧妙，对比两个字符串对应位置的字符在字符串内第一次出现的位置。
-```cpp
+// ```
+// ### 思路二
+// 参考讨论区里的大佬，比较巧妙，对比两个字符串对应位置的字符在字符串内第一次出现的位置。
+// ```cpp
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
@@ -37,4 +37,4 @@ public:
         return true;
     }
 };
-```
+// ```

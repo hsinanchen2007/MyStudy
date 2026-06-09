@@ -1,4 +1,4 @@
-```
+// ```
 int CompareByIncrease(const void* a, const void* b)
 {
     return *(int*)a - *(int*)b; // 快排构造递增序列
@@ -40,4 +40,4 @@ int threeSumClosest(int* nums, int numsSize, int target){
     
     return target + offset;
 }
-```
+// ```

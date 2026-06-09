@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/a8c7df7f018a95358b37d3d60a785539508dfa811ef5e315dcc0657c86e7fb48-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/a8c7df7f018a95358b37d3d60a785539508dfa811ef5e315dcc0657c86e7fb48-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -36,4 +36,4 @@ public:
         }
     }
 };
-```
+// ```

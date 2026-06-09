@@ -1,7 +1,7 @@
 
-在次数不足k次的字符处将字符串分段处理
+# 在次数不足k次的字符处将字符串分段处理
 
-```python3
+# ```python3
 from collections import Counter
 from re import split
 
@@ -25,4 +25,4 @@ class Solution:
 
         return helper(s, k)
 
-```
+# ```

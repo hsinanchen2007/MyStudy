@@ -1,9 +1,9 @@
-### 解题思路
-用新数组来顺序记录排好序的数组
+// ### 解题思路
+// 用新数组来顺序记录排好序的数组
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int* nums, int numsSize, int k){
     //解题思路
     //数组移动k轮
@@ -40,4 +40,4 @@ void rotate(int* nums, int numsSize, int k){
 
 
 }
-```
+// ```

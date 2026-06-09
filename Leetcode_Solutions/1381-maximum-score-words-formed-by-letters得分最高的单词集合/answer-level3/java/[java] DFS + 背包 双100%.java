@@ -1,8 +1,8 @@
-![91cf031dac356a06c99b2b9241467d6.png](https://pic.leetcode-cn.com/4b2614d7c2ff805639667732e76b73d74ac09c41cfcc1c1d728a02731d18eb3b-91cf031dac356a06c99b2b9241467d6.png)
+// ![91cf031dac356a06c99b2b9241467d6.png](https://pic.leetcode-cn.com/4b2614d7c2ff805639667732e76b73d74ac09c41cfcc1c1d728a02731d18eb3b-91cf031dac356a06c99b2b9241467d6.png)
 
-这道题数据量不大,相当于暴力
+// 这道题数据量不大,相当于暴力
 
-```
+// ```
 class Solution {
     int res;
     String[] words;
@@ -46,4 +46,4 @@ class Solution {
     }
 
 }
-```
+// ```

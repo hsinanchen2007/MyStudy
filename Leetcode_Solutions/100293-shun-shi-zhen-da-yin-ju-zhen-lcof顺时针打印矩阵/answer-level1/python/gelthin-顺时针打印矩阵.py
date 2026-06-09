@@ -1,9 +1,9 @@
-### 解题思路
-参见题解 [主站 54 题](https://leetcode-cn.com/problems/spiral-matrix/)
+# ### 解题思路
+# 参见题解 [主站 54 题](https://leetcode-cn.com/problems/spiral-matrix/)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         m = len(matrix)
@@ -27,4 +27,4 @@ class Solution:
                 k = (k+1)%4
                 i, j = i+dx[k], j+dy[k]
         return result
-```
+# ```

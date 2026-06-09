@@ -1,9 +1,9 @@
-### 解题思路
-之前写的太蠢了，借鉴别人的重新写了一遍
+// ### 解题思路
+// 之前写的太蠢了，借鉴别人的重新写了一遍
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -34,4 +34,4 @@ public:
         return (static_cast<double>(vleft) + vright) / 2;
     }
 };
-```
+// ```

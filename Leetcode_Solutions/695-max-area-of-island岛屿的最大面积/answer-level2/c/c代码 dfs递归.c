@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int search(int** grid, int gridSize, int colSize, int row, int col){
     if(row < 0 || row == gridSize || col < 0 || col == colSize || grid[row][col] == 0)
@@ -29,4 +29,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
 }
 
 
-```
+// ```

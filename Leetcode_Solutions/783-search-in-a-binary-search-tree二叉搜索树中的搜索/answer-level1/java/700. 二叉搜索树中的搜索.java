@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  :
- * Date   : 2019/10/8
- *
- * 解题思路: 常规题目
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  :
+//  * Date   : 2019/10/8
+//  *
+//  * 解题思路: 常规题目
+//  *
+//  */
+// ```
 public class leetcode700 {
 
     TreeNode res = null;
@@ -53,4 +53,4 @@ public class leetcode700 {
 
     }
 }
-```
+// ```

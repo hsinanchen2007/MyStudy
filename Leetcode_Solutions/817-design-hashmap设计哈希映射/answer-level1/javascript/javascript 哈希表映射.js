@@ -1,4 +1,4 @@
-```
+// ```
 var MyHashMap = function() {
     this.arr = new Array(93);
     for(let i=0;i<this.arr.length;++i){
@@ -45,4 +45,4 @@ var node = function(key,value){
     this.key = key;
     this.value = value;
 }
-```
+// ```

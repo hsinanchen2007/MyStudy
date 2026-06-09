@@ -1,4 +1,4 @@
-```
+// ```
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	if n < 1 || head == nil {
 		return head
@@ -19,4 +19,4 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	}
 }
 
-```
+// ```

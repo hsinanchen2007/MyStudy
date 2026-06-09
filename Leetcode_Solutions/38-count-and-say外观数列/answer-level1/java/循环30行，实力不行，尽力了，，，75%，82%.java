@@ -1,6 +1,6 @@
-执行用时 :5 ms, 在所有 Java 提交中击败了75.43%的用户
-内存消耗 :35.5 MB, 在所有 Java 提交中击败了82.60%的用户
-```
+// 执行用时 :5 ms, 在所有 Java 提交中击败了75.43%的用户
+// 内存消耗 :35.5 MB, 在所有 Java 提交中击败了82.60%的用户
+// ```
 class Solution {
     public String countAndSay(int n) {
         if (n==1)return "1";
@@ -29,4 +29,4 @@ class Solution {
         return s0;
     }
 }
-```
+// ```

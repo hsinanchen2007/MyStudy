@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def titleToNumber(self, s: str) -> int:
         '''
@@ -10,4 +10,4 @@ ord() 函数是 chr() 函数（对于8位的ASCII字符串）或 unichr() 函数
             res+=(ord(a)-64)*bit
             bit*=26
         return res
-```
+# ```

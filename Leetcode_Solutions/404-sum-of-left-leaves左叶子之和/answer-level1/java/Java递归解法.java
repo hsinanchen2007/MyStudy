@@ -1,5 +1,5 @@
-注意左叶子节点的判定，当遇到左叶子节点，就将值加到return语句中。
-```
+// 注意左叶子节点的判定，当遇到左叶子节点，就将值加到return语句中。
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -21,4 +21,4 @@ class Solution {
         return tempSum + sumOfLeftLeaves(root.left) + sumOfLeftLeaves(root.right);
     }
 }
-```
+// ```

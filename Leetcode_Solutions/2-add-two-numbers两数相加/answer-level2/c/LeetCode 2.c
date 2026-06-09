@@ -1,12 +1,12 @@
-### 解题思路
-有几个边界条件：
+// ### 解题思路
+// 有几个边界条件：
 
-1. 两个数的长度相等，并且有进位
-2. 两个数的长度不相等，并且有额外的进位
+// 1. 两个数的长度相等，并且有进位
+// 2. 两个数的长度不相等，并且有额外的进位
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -70,4 +70,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
 
     return ans;
 }
-```
+// ```

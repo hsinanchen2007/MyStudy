@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/22
- *
- * 解题思路: 很简单 求因子的时候记得 sqrt 就行
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/22
+//  *
+//  * 解题思路: 很简单 求因子的时候记得 sqrt 就行
+//  *
+//  */
+// ```
 public boolean checkPerfectNumber(int num) {
     if(num == 1){
         return false;
@@ -24,4 +24,4 @@ public boolean checkPerfectNumber(int num) {
     }
     return false;
 }
-```
+// ```

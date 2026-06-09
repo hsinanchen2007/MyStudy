@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] DecompressRLElist(int[] nums) {
         List<int> deint=new List<int>();
@@ -17,4 +17,4 @@ public class Solution {
         return deint.ToArray();
     }
 }
-```
+// ```

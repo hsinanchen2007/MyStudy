@@ -1,6 +1,6 @@
-因为前序遍历为root-root->left-root->right,而后续遍历为root->left-root->right-root;
-因此修改前序的代码为root-root->right-root->left，恰好为后续的逆序。逆向输出序列即可。
-```
+// 因为前序遍历为root-root->left-root->right,而后续遍历为root->left-root->right-root;
+// 因此修改前序的代码为root-root->right-root->left，恰好为后续的逆序。逆向输出序列即可。
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -34,7 +34,7 @@ public:
         return v;
     }
 };
-```
+// ```
 
 
 

@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历链表，把当前链表指向的下一个节点先保存，然后把当前节点的下一个节点反转，指向前一个，循环上述过程，直到next到达链表尾部
+// ### 解题思路
+// 一次遍历链表，把当前链表指向的下一个节点先保存，然后把当前节点的下一个节点反转，指向前一个，循环上述过程，直到next到达链表尾部
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -26,4 +26,4 @@ struct ListNode* reverseList(struct ListNode *head){
     }
     return cur;
 }
-```
+// ```

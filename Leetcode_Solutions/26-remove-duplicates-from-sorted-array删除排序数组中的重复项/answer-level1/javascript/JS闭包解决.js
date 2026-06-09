@@ -1,9 +1,9 @@
-### 解题思路
-使用js中闭包 和 数组的splice方法, 没有额外开辟空间
+// ### 解题思路
+// 使用js中闭包 和 数组的splice方法, 没有额外开辟空间
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -21,4 +21,4 @@ var removeDuplicates = function(nums) {
         return nums.length;
     })()
 };
-```
+// ```

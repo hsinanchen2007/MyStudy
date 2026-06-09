@@ -1,10 +1,10 @@
-### 解题思路
-这题我用到了做208题时候写的前缀树函数，如果没有完成208题的建议先去做208题，或者直接看我这个也可以。
-详细思路主要在注释中了
+// ### 解题思路
+// 这题我用到了做208题时候写的前缀树函数，如果没有完成208题的建议先去做208题，或者直接看我这个也可以。
+// 详细思路主要在注释中了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -149,4 +149,4 @@ char ** findWords(char** board, int boardSize, int* boardColSize, char ** words,
 
     return res;
 }
-```
+// ```

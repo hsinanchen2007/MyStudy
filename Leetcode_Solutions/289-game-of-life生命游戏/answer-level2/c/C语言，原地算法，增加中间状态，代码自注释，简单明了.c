@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/df4ce9ad5d0f47d318977021025ae9019f3e9d011dd217941afdf1a7c15f21de-image.png)
+// ![image.png](https://pic.leetcode-cn.com/df4ce9ad5d0f47d318977021025ae9019f3e9d011dd217941afdf1a7c15f21de-image.png)
 
-```
+// ```
 //增加中间态：当前存活，下阶段死亡： 2
 //增加中间态：当前死亡，下阶段存活： 3
 //遍历数组1次：得到中间态。
@@ -74,4 +74,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
     getFinalState(board);
 
 }
-```
+// ```

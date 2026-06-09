@@ -1,9 +1,9 @@
-### 解题思路
-转变成整型处理
+// ### 解题思路
+// 转变成整型处理
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int titleToNumber(string s) 
@@ -15,4 +15,4 @@ public:
         return sum;
     }
 };
-```
+// ```

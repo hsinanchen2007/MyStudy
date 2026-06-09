@@ -1,9 +1,9 @@
-### 解题思路
-根据`?`与`:`的配对情况确定三元表达式的分割点，然后递归解决
+// ### 解题思路
+// 根据`?`与`:`的配对情况确定三元表达式的分割点，然后递归解决
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string parseExp(const string& exp, int l, int r) {
@@ -27,6 +27,6 @@ public:
         return parseExp(expression, 0, expression.size() - 1);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/c3a63ec1fc270e741de00adba968f02cd509677dfce24ad28784c022cc1445ef-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c3a63ec1fc270e741de00adba968f02cd509677dfce24ad28784c022cc1445ef-image.png)

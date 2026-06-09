@@ -1,5 +1,5 @@
 
-```
+// ```
 typedef struct tagNoDupStr {
 	char* pStr; //组装最后的字符
 	int  letterCnt; // 已经选出了字符个数
@@ -105,4 +105,4 @@ char* removeDuplicateLetters(char* s) {
 	free(newStr.pStr);
 	return NULL;
 }
-```
+// ```

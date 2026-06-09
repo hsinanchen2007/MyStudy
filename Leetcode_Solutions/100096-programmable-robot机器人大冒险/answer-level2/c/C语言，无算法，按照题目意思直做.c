@@ -1,9 +1,9 @@
-### 解题思路
-1. 按照指令是否可以到达x, y点
-2. 先到达目的地后到达故障点无问题
-### 代码
+// ### 解题思路
+// 1. 按照指令是否可以到达x, y点
+// 2. 先到达目的地后到达故障点无问题
+// ### 代码
 
-```c
+// ```c
 // 按照指令是否可以到达x, y点
 bool isReach(char * command, int x, int y)
 {
@@ -54,4 +54,4 @@ bool robot(char * command, int** obstacles, int obstaclesSize, int* obstaclesCol
     }   
     return true;
 }
-```
+// ```

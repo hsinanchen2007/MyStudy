@@ -1,11 +1,11 @@
-### 解题思路
-执行时间：1ms
-内存消耗：39MB
-时间复杂度：O(n)
-思路见代码注释
-### 代码
+// ### 解题思路
+// 执行时间：1ms
+// 内存消耗：39MB
+// 时间复杂度：O(n)
+// 思路见代码注释
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     private static boolean canJump(int[] nums) {
         boolean flag = false;
@@ -42,4 +42,4 @@ public class Solution {
         System.out.println(canJump(nums3));
     }
 }
-```
+// ```

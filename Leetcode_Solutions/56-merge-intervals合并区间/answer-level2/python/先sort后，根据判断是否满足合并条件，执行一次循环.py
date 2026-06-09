@@ -1,5 +1,5 @@
-执行用时 : 92 ms , 在所有 Python 提交中击败了 72.46% 的用户 内存消耗 : 14 MB , 在所有 Python 提交中击败了 100.00% 的用户
-```
+# 执行用时 : 92 ms , 在所有 Python 提交中击败了 72.46% 的用户 内存消耗 : 14 MB , 在所有 Python 提交中击败了 100.00% 的用户
+# ```
 def merge(self, intervals):
         """
         :type intervals: List[List[int]]
@@ -21,4 +21,4 @@ def merge(self, intervals):
                 end = interval[1]
         res.append([start, end])
         return res
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-1、使用递归思路遍历所有值
-2、将不合法的不进行记录
+// ### 解题思路
+// 1、使用递归思路遍历所有值
+// 2、将不合法的不进行记录
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define INIT_MAX_SIZE 4096
 
 int IsValid(char *parenthes)
@@ -121,4 +121,4 @@ char **generateParenthesis(int n, int *returnSize)
 	free(parenthes);
 	return retStr;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-这一题要注意循环条件。  while(!(x == 0 && y == 0))
+// ### 解题思路
+// 这一题要注意循环条件。  while(!(x == 0 && y == 0))
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int hammingDistance(int x, int y) {
         int count = 0;
@@ -19,4 +19,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

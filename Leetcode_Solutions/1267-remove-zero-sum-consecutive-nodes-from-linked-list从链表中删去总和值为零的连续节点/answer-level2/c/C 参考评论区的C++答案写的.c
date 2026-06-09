@@ -1,5 +1,5 @@
-只能说c写LeetCode真的是头大
-```
+// 只能说c写LeetCode真的是头大
+// ```
 /**
  * Definition for singly-linked list.
  **/
@@ -43,5 +43,5 @@ struct ListNode* removeZeroSumSublists(struct ListNode* head)
     free(prehead);
     return node;
 }
-```
+// ```
 

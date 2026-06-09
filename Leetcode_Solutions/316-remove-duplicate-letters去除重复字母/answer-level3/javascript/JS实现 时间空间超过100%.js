@@ -1,7 +1,7 @@
 
-[用JS刷Leetcode](https://github.com/careteenL/data-structure_algorithm/blob/0816-leetcode/src/leetcode)
+// [用JS刷Leetcode](https://github.com/careteenL/data-structure_algorithm/blob/0816-leetcode/src/leetcode)
 
-```js
+// ```js
 /**
  * @think 利用栈和贪心算法的思想
  *        1. 维护一个栈stack，对字符串进行正序遍历
@@ -28,4 +28,4 @@ var removeDuplicateLetters = function (s) {
   }
   return stack.join('')
 }
-```
+// ```

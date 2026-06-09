@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-主要利用了go的切片实现了栈，过程比较简单就是对切片最后一个单位进行添加和删除操作
+// ### 解题思路
+// 此处撰写解题思路
+// 主要利用了go的切片实现了栈，过程比较简单就是对切片最后一个单位进行添加和删除操作
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
 	data []int
 }
@@ -48,4 +48,4 @@ func (this *MyStack) Top() int {
 func (this *MyStack) Empty() bool {
 	return len(this.data) ==0
 }
-```
+// ```

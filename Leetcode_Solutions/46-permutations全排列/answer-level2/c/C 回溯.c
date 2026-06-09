@@ -1,4 +1,4 @@
-```
+// ```
 #define CAP 10000
 int idx = 0;
 int **permuteRecur(int *nums, int numsSize, int *returnSize, int *ColumnSizes, int **result, int *arry, int currSize, int *visitd) {
@@ -36,4 +36,4 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     result = permuteRecur(nums, numsSize, returnSize, *returnColumnSizes, result, arry, currSize, visted);
     return result;
 }
-```
+// ```

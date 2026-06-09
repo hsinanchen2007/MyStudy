@@ -1,4 +1,4 @@
-```
+// ```
 char * longestCommonPrefix(char ** strs, int strsSize){
     if(strsSize==0) return "";  //如果字符串数组为空，直接返回""
     for(int i=0;i<strlen(strs[0]);i++){   //i表示列，strlen(strs[0])表示第一个字符串长度
@@ -11,4 +11,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     }
     return strs[0];
 }
-```
+// ```

@@ -1,5 +1,5 @@
-记录直到当前的最小买入价格
-```
+// 记录直到当前的最小买入价格
+// ```
 func maxProfit(prices []int) int {
     if len(prices) <= 1 {
         return 0
@@ -16,4 +16,4 @@ func maxProfit(prices []int) int {
     }
     return max
 }
-```
+// ```

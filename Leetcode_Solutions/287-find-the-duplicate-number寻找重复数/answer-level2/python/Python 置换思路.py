@@ -1,6 +1,6 @@
-刚写的时候没看到不能修改原数组。。不好意思
+# 刚写的时候没看到不能修改原数组。。不好意思
 
-```python
+# ```python
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         for i in range(len(nums)):
@@ -18,5 +18,5 @@ class Solution:
                 # 不然，直接交换两个数的位置，继续让数字归位
                 nxt, tmp = nums[i] - 1, nums[i]
                 nums[i], nums[nxt] = nums[nxt], tmp
-```
-均摊时间复杂度是O(n)，理论上比官方那个龟兔的更优一点
+# ```
+# 均摊时间复杂度是O(n)，理论上比官方那个龟兔的更优一点

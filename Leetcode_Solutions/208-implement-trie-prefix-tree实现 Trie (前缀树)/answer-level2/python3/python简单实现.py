@@ -1,20 +1,20 @@
-**思路**
+# **思路**
 
-前缀树，又称字典树
+# 前缀树，又称字典树
 
-详细可以[查看](<https://zhuanlan.zhihu.com/p/57342852>)
+# 详细可以[查看](<https://zhuanlan.zhihu.com/p/57342852>)
 
-多种写法，写个简单的！再来几个例子练练手。
+# 多种写法，写个简单的！再来几个例子练练手。
 
-相关题型:
+# 相关题型:
 
-[211. 添加与搜索单词 - 数据结构设计](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/)
+# [211. 添加与搜索单词 - 数据结构设计](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/)
 
-[212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)
+# [212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)
 
-[421. 数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+# [421. 数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/)
 
-```python
+# ```python
 class Trie:
 
     def __init__(self):
@@ -62,7 +62,7 @@ class Trie:
             tree = tree[a]
         return True
         
-```
+# ```
 
 
 

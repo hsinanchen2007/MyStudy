@@ -1,6 +1,6 @@
-从右子树开始进行DFS递归遍历
-保留第一次遍历到的值
-```js
+// 从右子树开始进行DFS递归遍历
+// 保留第一次遍历到的值
+// ```js
 var rightSideView = function(root, depth = 0, res = []) {
   if(!root) return []
   if(!res[depth]) {
@@ -10,4 +10,4 @@ var rightSideView = function(root, depth = 0, res = []) {
   rightSideView(root.left, depth + 1, res)
   return res
 };
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-正常的广度优先搜索，需要注意的是：
-1、队列保存的值:   使用二维数组 
-2、防止重复遍历:   将二维数组转换为字符串保存在set中  **Arrays.deepToString()很慢，慎用**
+// 正常的广度优先搜索，需要注意的是：
+// 1、队列保存的值:   使用二维数组 
+// 2、防止重复遍历:   将二维数组转换为字符串保存在set中  **Arrays.deepToString()很慢，慎用**
 
-还有一点分享一下，Java中数组的clone()函数是浅拷贝，要小心
+// 还有一点分享一下，Java中数组的clone()函数是浅拷贝，要小心
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int slidingPuzzle(int[][] board) {
         Set<String> set = new HashSet<>();
@@ -69,4 +69,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

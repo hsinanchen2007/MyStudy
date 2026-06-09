@@ -1,7 +1,7 @@
-```javascript []
+# ```javascript []
 console.log('Hello world!')
-```
-```python []
+# ```
+# ```python []
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -74,7 +74,7 @@ class Solution:
                 temp2.next = ListNode(1)
             
             return l2
-```
-```ruby []
+# ```
+# ```ruby []
 puts 'Hello world!'
-```
+# ```

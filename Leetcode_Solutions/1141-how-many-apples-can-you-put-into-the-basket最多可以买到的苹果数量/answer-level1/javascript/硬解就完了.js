@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} arr
  * @return {number}
@@ -16,4 +16,4 @@ var maxNumberOfApples = function (arr) {
     })
     return result || arr.length
 };
-```
+// ```

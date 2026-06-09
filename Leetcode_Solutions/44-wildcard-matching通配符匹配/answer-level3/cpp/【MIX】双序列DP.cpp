@@ -1,9 +1,9 @@
-### 解题思路
-$f[i][j]$表示A[0..i-1]与B[0..j-1]的匹配结果
+// ### 解题思路
+// $f[i][j]$表示A[0..i-1]与B[0..j-1]的匹配结果
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public boolean isMatch(String s, String p) {
         int N = s.length();
@@ -41,8 +41,8 @@ class Solution {
         return f[N][M];
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         N, M = len(s), len(p)
@@ -71,8 +71,8 @@ class Solution:
                         f[i][j] = f[i][j] or f[i-1][j]
 
         return f[N][M]
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     bool isMatch(string A, string B) {
@@ -118,4 +118,4 @@ public:
         return f[N][M];
     }
 };
-```
+// ```

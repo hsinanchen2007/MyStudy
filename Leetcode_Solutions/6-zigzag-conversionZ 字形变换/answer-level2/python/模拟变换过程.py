@@ -1,11 +1,11 @@
-模拟过程：
+# 模拟过程：
 
-1. 从第一行开始垂直向下走，即走从 `1` 走到 `numRows`
-2. 到了最后一行后垂直向上走，从 `numRows` 再走回 `1`
+# 1. 从第一行开始垂直向下走，即走从 `1` 走到 `numRows`
+# 2. 到了最后一行后垂直向上走，从 `numRows` 再走回 `1`
 
-循环这个过程。设置一个行走方向值 `forward`，当到达边界值时回头即可。
+# 循环这个过程。设置一个行走方向值 `forward`，当到达边界值时回头即可。
 
-```python
+# ```python
 class Solution(object):
     def convert(self, s, numRows):
         """
@@ -32,4 +32,4 @@ class Solution(object):
         for index in d:
             res += d[index]
         return res
-```
+# ```

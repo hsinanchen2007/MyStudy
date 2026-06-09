@@ -1,4 +1,4 @@
-```
+// ```
 
 int subarraysWithKDistinct(int* A, int ASize, int K){
     int left = 0;
@@ -48,5 +48,5 @@ int subarraysWithKDistinct(int* A, int ASize, int K){
 }
 
 
-```
+// ```
 

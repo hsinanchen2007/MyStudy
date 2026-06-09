@@ -1,4 +1,4 @@
-```
+// ```
 var findTheDistanceValue = function(arr1, arr2, d) {
     let cnt = 0;
     for(let i = 0; i < arr1.length; i++){
@@ -14,8 +14,8 @@ var findTheDistanceValue = function(arr1, arr2, d) {
     }
     return cnt;
 };
-```
+// ```
 
 
-前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
-这里记录了我刷过的近500道LeetCode的题解，
+// 前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
+// 这里记录了我刷过的近500道LeetCode的题解，

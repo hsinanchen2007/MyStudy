@@ -1,9 +1,9 @@
-### 解题思路
-动态规划：若只能和前面一个数组合，就是dp[i-2];若只能单独，就是dp[i-1]；若两者皆可，就是dp[i-2]+dp[i-1]。注意"0"无处不在。
+# ### 解题思路
+# 动态规划：若只能和前面一个数组合，就是dp[i-2];若只能单独，就是dp[i-1]；若两者皆可，就是dp[i-2]+dp[i-1]。注意"0"无处不在。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numDecodings(self, s: str) -> int:
         if "0" == s or s[0] == '0': return 0
@@ -34,4 +34,4 @@ class Solution:
                 else:
                     dp.append(dp[i-1]+dp[i-2])
         return dp[-1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-头绕晕了，还是用堆吧。
+# ### 解题思路
+# 头绕晕了，还是用堆吧。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             cur = cur.next
 
         return root.next
-```
+# ```

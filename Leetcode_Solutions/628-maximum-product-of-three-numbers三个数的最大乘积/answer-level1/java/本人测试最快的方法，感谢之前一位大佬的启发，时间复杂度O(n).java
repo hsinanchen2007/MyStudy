@@ -1,8 +1,8 @@
-```
+// ```
 执行用时 :8 ms, 在所有 Java 提交中击败了82.85%的用户内存消耗 :49.7 MB, 在所有 Java 提交中击败了37.72%的用户
-```
+// ```
 
-```
+// ```
 import java.util.Arrays;
 class Solution {
     public int maximumProduct(int[] nums) {
@@ -37,4 +37,4 @@ class Solution {
         return Math.max(max[0]*max[1]*max[2], min[0]*min[1]*max[2]);
     }
 }
-```
+// ```

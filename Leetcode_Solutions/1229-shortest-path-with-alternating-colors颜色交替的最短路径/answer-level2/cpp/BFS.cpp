@@ -1,13 +1,13 @@
-由于题目的特殊性，我声明4个辅助变量
-1. vector<int> m_vecRedShort;//存储当前以红色边 入 的i节点最短路径
-2. vector<int> m_vecBluShort;//存储当前以蓝色边 入 的i节点最短路径
-3. vector<bool> m_vecIsCoverRed;//i节点出发的红边是否已经考虑了？用于剪枝
-4. vector<bool> m_vecIsCoverBlu;//i节点出发的蓝边是否已经考虑了？用于剪枝
-思路是：
-从0节点出发，以广度优先的方式，寻找能构成红蓝交替的边，并更新路径长度。
-这里注意，当 路径长度 更新减小时，需要重新设置相应的m_vecIsCover变量为false，用于更新与该节点相关的 其他路径长度。
+// 由于题目的特殊性，我声明4个辅助变量
+// 1. vector<int> m_vecRedShort;//存储当前以红色边 入 的i节点最短路径
+// 2. vector<int> m_vecBluShort;//存储当前以蓝色边 入 的i节点最短路径
+// 3. vector<bool> m_vecIsCoverRed;//i节点出发的红边是否已经考虑了？用于剪枝
+// 4. vector<bool> m_vecIsCoverBlu;//i节点出发的蓝边是否已经考虑了？用于剪枝
+// 思路是：
+// 从0节点出发，以广度优先的方式，寻找能构成红蓝交替的边，并更新路径长度。
+// 这里注意，当 路径长度 更新减小时，需要重新设置相应的m_vecIsCover变量为false，用于更新与该节点相关的 其他路径长度。
 
-```
+// ```
 class Solution {
 public:
     vector<int> shortestAlternatingPaths(int n, vector<vector<int>>& red_edges, vector<vector<int>>& blue_edges) {
@@ -84,6 +84,6 @@ public:
     int m_iMax;//int类型的最大值，用于初始化最短路径
     int m_iSize;//存储图节点数目
 };
-```
-执行用时 :140 ms, 在所有 C++ 提交中击败了100.00%的用户
-内存消耗 :14.2 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ```
+// 执行用时 :140 ms, 在所有 C++ 提交中击败了100.00%的用户
+// 内存消耗 :14.2 MB, 在所有 C++ 提交中击败了100.00%的用户

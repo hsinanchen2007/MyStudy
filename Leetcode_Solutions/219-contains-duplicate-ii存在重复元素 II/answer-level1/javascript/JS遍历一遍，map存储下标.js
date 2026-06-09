@@ -1,9 +1,9 @@
-### 解题思路
-遍历一遍，使用Map存储原始值的最新下标，当遇到重复的value，比较下标差是否不大于k即可
+// ### 解题思路
+// 遍历一遍，使用Map存储原始值的最新下标，当遇到重复的value，比较下标差是否不大于k即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -19,4 +19,4 @@ var containsNearbyDuplicate = function(nums, k) {
     }
     return false;
 };
-```
+// ```

@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/61013491a42bbef2c177e16939ecf17d286166b1584f3a24908857afc83308bf-image.png)
+// ![image.png](https://pic.leetcode-cn.com/61013491a42bbef2c177e16939ecf17d286166b1584f3a24908857afc83308bf-image.png)
 
 
 
 
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -27,4 +27,4 @@ public:
         return left+1;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-先序遍历二叉树，寻找 `root.val == head.val` 的二叉树节点，与链表开头不一样的直接略过
+// 先序遍历二叉树，寻找 `root.val == head.val` 的二叉树节点，与链表开头不一样的直接略过
 
-每次找到这种节点后，递归的判断该子树能否和链表匹配上，见代码中的help()函数
+// 每次找到这种节点后，递归的判断该子树能否和链表匹配上，见代码中的help()函数
 
-```js
+// ```js
 var isSubPath = function(head, root) {
   if(root === null){
     return false;
@@ -29,4 +29,4 @@ function help(head,root){
     return false;
   }
 }
-```
+// ```

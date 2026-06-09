@@ -1,11 +1,11 @@
-### 解题思路
-    * 1 子树为空，正确
-    * 2 A为空，或两个树val不一样过，错误
-    * 3 进入下一个左右节点比较的递归
+// ### 解题思路
+//     * 1 子树为空，正确
+//     * 2 A为空，或两个树val不一样过，错误
+//     * 3 进入下一个左右节点比较的递归
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         else return recur(A.left, B.left) && recur(A.right, B.right);
     } 
 }
-```
+// ```

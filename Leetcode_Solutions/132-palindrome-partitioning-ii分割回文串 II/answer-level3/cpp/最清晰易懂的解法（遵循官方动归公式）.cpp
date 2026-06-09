@@ -1,10 +1,10 @@
 
-类似于最长回文串的题解。改动很小。先来看最长回文串：
+// 类似于最长回文串的题解。改动很小。先来看最长回文串：
 
-P(i, j) = true 如果子串Si….Sj是回文子串 false 其它情况
-所以，转移状态：P(i, j) = P(i+1, j-1) && Si == Sj    max_ = max(j+1 – i, max_)
-初始条件：P(i, i) = true  		 一字母： 字符个数为奇数时   max_ = 1
-		  P(i, i+1) = Si == Si+1  二字母： 字符个数为偶数时  max_ = 2
+// P(i, j) = true 如果子串Si….Sj是回文子串 false 其它情况
+// 所以，转移状态：P(i, j) = P(i+1, j-1) && Si == Sj    max_ = max(j+1 – i, max_)
+// 初始条件：P(i, i) = true  		 一字母： 字符个数为奇数时   max_ = 1
+// 		  P(i, i+1) = Si == Si+1  二字母： 字符个数为偶数时  max_ = 2
 			
 string longestPalindrome(string s) {
     int len = s.size();

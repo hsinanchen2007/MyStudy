@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
     int area = 0;
     for(int i=0; i<gridSize; i++) {
@@ -27,4 +27,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     }
     return area;
 }
-```
+// ```

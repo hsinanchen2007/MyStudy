@@ -1,10 +1,10 @@
-### 解题思路
-![图片.png](https://pic.leetcode-cn.com/ee0c1fe7ef8ed9e77561f7313eebab8ab429ee7d9da19b88b1424eaa1ab163ba-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// ![图片.png](https://pic.leetcode-cn.com/ee0c1fe7ef8ed9e77561f7313eebab8ab429ee7d9da19b88b1424eaa1ab163ba-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <math.h> 
 int myAtoi(char * str)
 {
@@ -47,4 +47,4 @@ int myAtoi(char * str)
     else
     return number;
 }
-```
+// ```

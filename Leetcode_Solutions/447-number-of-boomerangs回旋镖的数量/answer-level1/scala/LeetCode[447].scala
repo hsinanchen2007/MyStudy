@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def distance(a: Array[Int], b: Array[Int]): Int = {
     (a zip b).map(x => (x._1 - x._2) * (x._1 - x._2)).sum
@@ -19,4 +19,4 @@ object Solution {
     num
   }
 }
-```
+// ```

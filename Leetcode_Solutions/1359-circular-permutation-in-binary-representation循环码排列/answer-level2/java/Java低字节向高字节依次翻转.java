@@ -1,4 +1,4 @@
-```Java
+// ```Java
 class Solution {
     public List<Integer> circularPermutation(int n, int start) {
         List<Integer> ans = new ArrayList<Integer>();
@@ -24,5 +24,5 @@ class Solution {
         return ans;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/9938197c27c85ed801e3cf9f5c74ac0e32d3ca25371ca5274b505e062197d961-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/9938197c27c85ed801e3cf9f5c74ac0e32d3ca25371ca5274b505e062197d961-image.png)

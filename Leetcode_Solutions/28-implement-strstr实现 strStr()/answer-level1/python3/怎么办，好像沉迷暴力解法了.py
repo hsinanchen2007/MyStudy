@@ -1,6 +1,6 @@
-![QQ截图20191113163632.png](https://pic.leetcode-cn.com/00b319ca5bee75872180f9d6ab026e0a90b1f2313cbeea9e581d1fdbf30c4d55-QQ%E6%88%AA%E5%9B%BE20191113163632.png)
+# ![QQ截图20191113163632.png](https://pic.leetcode-cn.com/00b319ca5bee75872180f9d6ab026e0a90b1f2313cbeea9e581d1fdbf30c4d55-QQ%E6%88%AA%E5%9B%BE20191113163632.png)
 
-```
+# ```
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         l1 = len(haystack)
@@ -22,4 +22,4 @@ class Solution:
                 return cur
             else:
                 return -1
-```
+# ```

@@ -1,9 +1,9 @@
-## BST->inOrder 查看是否递增吧
-```
+// ## BST->inOrder 查看是否递增吧
+// ```
 执行用时 :16 ms, 在所有 C 提交中击败了47.48%的用户
 内存消耗 :10.1 MB, 在所有 C 提交中击败了100.00%的用户
-```
-```c
+// ```
+// ```c
 void inOrder(struct TreeNode* root,int arr[],int *len){
     if(root != NULL){
         inOrder(root->left,arr,len);
@@ -26,4 +26,4 @@ bool isValidBST(struct TreeNode* root){
     }
     return true;
 }
-```
+// ```

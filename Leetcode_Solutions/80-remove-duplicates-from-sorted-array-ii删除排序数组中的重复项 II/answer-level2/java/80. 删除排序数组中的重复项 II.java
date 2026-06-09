@@ -1,5 +1,5 @@
 
-```  java
+// ```  java
 class Solution {
     public int removeDuplicates(int[] array) {
         int L = 0;
@@ -22,4 +22,4 @@ class Solution {
         return L+1;
     }
 }
-```
+// ```

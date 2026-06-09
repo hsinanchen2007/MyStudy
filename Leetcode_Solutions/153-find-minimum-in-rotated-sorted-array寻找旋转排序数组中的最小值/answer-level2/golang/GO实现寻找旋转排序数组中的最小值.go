@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func findMin(nums []int) int {
       l,r := 0,len(nums)-1
     for nums[l]>=nums[r] && l<r{
@@ -17,4 +17,4 @@ func findMin(nums []int) int {
 }
 
 
-```
+// ```

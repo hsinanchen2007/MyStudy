@@ -1,6 +1,6 @@
 
-**思路: 利用row、col、block分别存储各行、各列、各块信息, 一边遍历一边比较重复**
-```
+// **思路: 利用row、col、block分别存储各行、各列、各块信息, 一边遍历一边比较重复**
+// ```
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         Set<Character>[] row = (Set<Character>[])new Set[board.length];
@@ -28,4 +28,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

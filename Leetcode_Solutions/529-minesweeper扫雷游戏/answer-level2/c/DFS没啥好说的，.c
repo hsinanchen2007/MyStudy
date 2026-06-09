@@ -1,5 +1,5 @@
-个人理解DFS需要统计事项或者有什么花招都是在深搜里进行的，调节好入参即可。套路基本一样
-```
+// 个人理解DFS需要统计事项或者有什么花招都是在深搜里进行的，调节好入参即可。套路基本一样
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -101,4 +101,4 @@ char** updateBoard(char** board, int boardSize, int* boardColSize, int* click, i
     *returnColumnSizes = retColSizes; // 返回的colsSize要自己申请内存去返回
     return board;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func lengthOfLIS(nums []int) int {
     if len(nums) < 2 {
         return len(nums)
@@ -27,4 +27,4 @@ func Max(a, b int) int{
     }
     return b
 }
-```
+// ```

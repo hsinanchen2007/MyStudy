@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func singleNumber(nums []int) int {
    help := make(map[int]int)
    for _,v := range nums{
@@ -13,4 +13,4 @@ func singleNumber(nums []int) int {
    }
    return -1
 }
-```
+// ```

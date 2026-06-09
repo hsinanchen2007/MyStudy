@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
 
@@ -13,4 +13,4 @@ class Solution:
             dp[i]=min(dp[i-c] if i-c>=0 else float("inf") for c in coins)+1
 
         return dp[-1] if dp[-1]!=float("inf") else -1
-```
+# ```

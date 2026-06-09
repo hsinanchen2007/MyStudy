@@ -1,9 +1,9 @@
-### 解题思路
-dp[i] = dp[i - 1](如果不为0) + dp[i - 2](如果在10-26之间)
+// ### 解题思路
+// dp[i] = dp[i - 1](如果不为0) + dp[i - 2](如果在10-26之间)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numDecodings(String s) {
         if (s == null || s.length() == 0) {
@@ -25,4 +25,4 @@ class Solution {
         return dp[size - 1];
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public  List<List<String>> solveNQueens(int n) {
         boolean[] rowUsed = new boolean[n];
         boolean[] colUsed = new boolean[n];
@@ -66,4 +66,4 @@ public  List<List<String>> solveNQueens(int n) {
         }
         return sb.toString();
     }
-```
+// ```

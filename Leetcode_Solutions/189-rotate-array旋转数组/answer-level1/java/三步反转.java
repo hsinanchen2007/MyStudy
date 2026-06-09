@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public void reverse(int[] num,int from, int to)//简单的翻转函数，从头到尾的那种
     {
@@ -17,4 +17,4 @@ class Solution {
         reverse(nums,0,lastIndex);//全体
     }
 }
-```
+// ```

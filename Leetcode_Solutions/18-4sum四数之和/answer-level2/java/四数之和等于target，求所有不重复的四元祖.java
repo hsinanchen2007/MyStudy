@@ -1,9 +1,9 @@
-### 解题思路
-最关键的是去除重复值，首先是去除最小数和最大数的可能重复值，其次四数之和等于target时，需要去掉左中间数和右中间数的重复值，在不等于target时可以不用加去除重复值的操作，不然就容易超时
+// ### 解题思路
+// 最关键的是去除重复值，首先是去除最小数和最大数的可能重复值，其次四数之和等于target时，需要去掉左中间数和右中间数的重复值，在不等于target时可以不用加去除重复值的操作，不然就容易超时
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         Arrays.sort(nums);
@@ -36,4 +36,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-#### 思路一：转化为10进制，进行模拟(超时)
+// #### 思路一：转化为10进制，进行模拟(超时)
 
-##### 代码：
-```golang
+// ##### 代码：
+// ```golang
 func numSteps(s string) int {
     num := convertToDecimal(s)
     res := 0
@@ -27,12 +27,12 @@ func convertToDecimal(s string) int {
     return res
 }
 
-```
+// ```
 
-#### 思路二：直接操作字符串（通过）
+// #### 思路二：直接操作字符串（通过）
 
-##### 代码：
-```golang
+// ##### 代码：
+// ```golang
 func numSteps(s string) int {
     res := 0
     for s != "1" {
@@ -65,4 +65,4 @@ func plusOne(s string) string {
     //全1
     return "1" + string(c)
 }
-```
+// ```

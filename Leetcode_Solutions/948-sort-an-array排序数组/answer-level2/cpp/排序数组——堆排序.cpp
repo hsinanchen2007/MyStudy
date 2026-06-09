@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     void HeapSort(vector<int>& nums, int n)
@@ -38,5 +38,5 @@ public:
         return nums;
     }
 };
-```
+// ```
 

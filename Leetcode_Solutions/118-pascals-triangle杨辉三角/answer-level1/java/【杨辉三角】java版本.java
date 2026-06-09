@@ -1,11 +1,11 @@
-### 解题思路
-1、第一行只有1，直接添加
-2、每行的第一个元素和最后一个元素均为1，直接添加
-3、每行（i行）中间元素值（index=j）=上一行（i-1行）（index=j-1）的值+（index=j）的值
+// ### 解题思路
+// 1、第一行只有1，直接添加
+// 2、每行的第一个元素和最后一个元素均为1，直接添加
+// 3、每行（i行）中间元素值（index=j）=上一行（i-1行）（index=j-1）的值+（index=j）的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<>();
@@ -26,4 +26,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

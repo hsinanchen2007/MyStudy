@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -32,4 +32,4 @@ public:
         return s;
     }
 };
-```
+// ```

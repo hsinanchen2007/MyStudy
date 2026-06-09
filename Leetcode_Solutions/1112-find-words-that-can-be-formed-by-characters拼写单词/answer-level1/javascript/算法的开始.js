@@ -1,11 +1,11 @@
-### 解题思路
-1.words里的单词分解成单个数组
-2.判断每个数组是否都在chars里
-3.如果都在就加上他的长度。
-4.最后返回这个总长度
-### 代码
+// ### 解题思路
+// 1.words里的单词分解成单个数组
+// 2.判断每个数组是否都在chars里
+// 3.如果都在就加上他的长度。
+// 4.最后返回这个总长度
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -35,4 +35,4 @@ for (let i = 0; i < words.length; i++) {
 }
 return total
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-难在写判断条件
-![2019-12-06 23-50-34屏幕截图.png](https://pic.leetcode-cn.com/3f2367e1e48006535ff3cb813c0db825d788225e80daf82da080d7b9be8c793a-2019-12-06%2023-50-34%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+# ### 解题思路
+# 难在写判断条件
+# ![2019-12-06 23-50-34屏幕截图.png](https://pic.leetcode-cn.com/3f2367e1e48006535ff3cb813c0db825d788225e80daf82da080d7b9be8c793a-2019-12-06%2023-50-34%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:
         l1 = version1.split('.')
@@ -32,4 +32,4 @@ class Solution:
             elif int(l1[i]) < int(l2[i]):
                 return -1
         return 0
-```
+# ```

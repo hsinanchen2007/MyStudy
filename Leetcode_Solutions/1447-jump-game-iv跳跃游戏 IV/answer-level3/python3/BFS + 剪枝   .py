@@ -1,17 +1,17 @@
-## [Leetcode 1345. 跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv/)
-## 题意：
-给一个一维的数组，你从下标0开始出发，有三种操作：每次可以向左，右移动一位，或者移动到与自己数值相同的位置。
+# ## [Leetcode 1345. 跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv/)
+# ## 题意：
+# 给一个一维的数组，你从下标0开始出发，有三种操作：每次可以向左，右移动一位，或者移动到与自己数值相同的位置。
 
-## 思路:
-这类搜索求最短步数的解法是典型的bfs，注意这题数据的特殊性，裸bfs会超时。 
-这是因为第三个操作枚举所有相同数值的位置时候，如果出现很多
-相同值的数值，光枚举相同值时间复杂度会近似O(n)，整体就变成O(n^2)。
+# ## 思路:
+# 这类搜索求最短步数的解法是典型的bfs，注意这题数据的特殊性，裸bfs会超时。 
+# 这是因为第三个操作枚举所有相同数值的位置时候，如果出现很多
+# 相同值的数值，光枚举相同值时间复杂度会近似O(n)，整体就变成O(n^2)。
 
-这一步枚举，可以把**连续出现相同值的区间只保留左右两个端点**，起到搜索剪枝的作用。
+# 这一步枚举，可以把**连续出现相同值的区间只保留左右两个端点**，起到搜索剪枝的作用。
 
-## 代码:
-python
-```python
+# ## 代码:
+# python
+# ```python
 class Solution:
     def minJumps(self, arr) -> int:
         import collections
@@ -31,10 +31,10 @@ class Solution:
                 if 0 < nxt < n-1 and nxt not in vis:
                     que.append((nxt , cur+1))
                     vis.add(nxt)
-```
+# ```
 
-c++
-```c++
+# c++
+# ```c++
 class Solution {
 public:
     int minJumps(vector<int>& arr) {
@@ -80,4 +80,4 @@ public:
         return ans;
     }
 };
-```
+# ```

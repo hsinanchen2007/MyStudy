@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def majorityElement(self, nums):
         """
@@ -14,4 +14,4 @@ class Solution(object):
             else:
                 res.pop()
         return res[0]
-```
+# ```

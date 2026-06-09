@@ -1,15 +1,15 @@
-### 解题思路
-最开始没有考虑大数，将所有可能的组合都放在一个二维数组中进行计算
-![image.png](https://pic.leetcode-cn.com/802796288787e887c502db03e6c0da52d389208c16bd5b1c2de5b9b9d0bc0107-image.png)
+// ### 解题思路
+// 最开始没有考虑大数，将所有可能的组合都放在一个二维数组中进行计算
+// ![image.png](https://pic.leetcode-cn.com/802796288787e887c502db03e6c0da52d389208c16bd5b1c2de5b9b9d0bc0107-image.png)
 
-之后遇到了大数的问题，把整数值存储更改为字符串存储，并编写了用于大数加法判断的puduan函数
+// 之后遇到了大数的问题，把整数值存储更改为字符串存储，并编写了用于大数加法判断的puduan函数
 
-![image.png](https://pic.leetcode-cn.com/69b1f6e4feea38202ff921ffbdd310818aceb342416e59a29fd2fe5cbf30cb2a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/69b1f6e4feea38202ff921ffbdd310818aceb342416e59a29fd2fe5cbf30cb2a-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isAdditiveNumber(String num) {
         String[][] mem = new String[num.length()][num.length()];
@@ -84,4 +84,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

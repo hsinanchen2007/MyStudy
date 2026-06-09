@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -30,4 +30,4 @@ var findClosestElements = function(arr, k, x) {
     }
     return arr.slice(low, high + 1)
 };
-```
+// ```

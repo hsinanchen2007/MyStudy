@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * 类似题目 67. 二进制求和（https://leetcode-cn.com/problems/add-binary/）
  * @param {string} num1
@@ -23,4 +23,4 @@ const addStrings = (num1, num2) => {
   }
   return carry === 0 ? arr.reverse().join('') : carry + arr.reverse().join('')
 }
-```
+// ```

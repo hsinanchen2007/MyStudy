@@ -1,8 +1,8 @@
-因为indexes是无序的，所以我们需要对indexes和对应的sources，targets排序。
-排完序开始替换
+// 因为indexes是无序的，所以我们需要对indexes和对应的sources，targets排序。
+// 排完序开始替换
 
-具体替换见注释
-```
+// 具体替换见注释
+// ```
 func findReplaceString(S string, indexes []int, sources []string, targets []string) string {
     n := make([]Node, len(indexes))
     for i := 0; i < len(indexes); i++ {
@@ -34,4 +34,4 @@ type Node struct{
     source string
     target string
 }
-```
+// ```

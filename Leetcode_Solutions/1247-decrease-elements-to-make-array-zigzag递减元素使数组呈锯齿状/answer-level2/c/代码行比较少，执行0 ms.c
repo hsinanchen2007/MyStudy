@@ -1,5 +1,5 @@
 
-```
+// ```
 #define MIN_NUM(a, b)  ((a) < (b) ? (a) : (b))
 #define MAX_NUM(a, b)  ((a) > (b) ? (a) : (b))
 
@@ -35,4 +35,4 @@ int movesToMakeZigzag(int* nums, int numsSize)
     
     return MIN_NUM(min1, min2);
 }
-```
+// ```

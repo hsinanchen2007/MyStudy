@@ -1,5 +1,5 @@
-亮点： 通过 `Default` 简化初始化过程，避免大量模板代码。
-```Rust
+// 亮点： 通过 `Default` 简化初始化过程，避免大量模板代码。
+// ```Rust
 #[derive(Default)]
 pub struct Trie {
     root: Node,
@@ -60,4 +60,4 @@ impl Trie {
         Some(node)
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-利用非尾递归内层先执行的特征将与节点ptr相对称的节点temp带出进行比较。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 利用非尾递归内层先执行的特征将与节点ptr相对称的节点temp带出进行比较。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,4 +38,4 @@ class Solution {
     }
 
 }
-```
+// ```

@@ -1,8 +1,8 @@
-思路如下，每次排序将大于基准值key的放key的左边，将小于基准值key的放key的右边。
-然后如果基准值所在的位置正好=k-1.则正好就是这个值
-如果左边的数量<k-1,则说明要找的数在右边，否则在左边。
+// 思路如下，每次排序将大于基准值key的放key的左边，将小于基准值key的放key的右边。
+// 然后如果基准值所在的位置正好=k-1.则正好就是这个值
+// 如果左边的数量<k-1,则说明要找的数在右边，否则在左边。
 
-```
+// ```
 public int findKthLargest(int[] nums, int k) {
         if (nums == null || nums.length < k) {
             return 0;
@@ -38,5 +38,5 @@ public int findKthLargest(int[] nums, int k) {
         return find(nums, left, start - 1, k);
 
     }
-```
-## [更多leetcode题解参考此处](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
+// ```
+// ## [更多leetcode题解参考此处](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)

@@ -1,9 +1,9 @@
-**注意**： 
+# **注意**： 
 
-`第一个有效注释优先于其他注释`
+# `第一个有效注释优先于其他注释`
 
-看到这一句就不用分析一大堆`//`和`/*`、`*/`相互包含的情况了。然后用python处理字符串感觉和作弊一样。。
-```python
+# 看到这一句就不用分析一大堆`//`和`/*`、`*/`相互包含的情况了。然后用python处理字符串感觉和作弊一样。。
+# ```python
 class Solution:
     def removeComments(self, source: List[str]) -> List[str]:
                 
@@ -27,5 +27,5 @@ class Solution:
                 result.append(s)
                 
         return result
-```
-评论区老哥的正则表达式的方法更棒。
+# ```
+# 评论区老哥的正则表达式的方法更棒。

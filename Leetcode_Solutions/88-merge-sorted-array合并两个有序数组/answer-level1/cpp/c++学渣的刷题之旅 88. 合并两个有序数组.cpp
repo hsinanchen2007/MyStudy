@@ -1,9 +1,9 @@
-### 解题思路
-需要学会使用c++ STL中vector容器的删除、插入、排序函数进行操作。
+// ### 解题思路
+// 需要学会使用c++ STL中vector容器的删除、插入、排序函数进行操作。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -13,4 +13,4 @@ public:
         
     }
 };
-```
+// ```

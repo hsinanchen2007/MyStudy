@@ -1,9 +1,9 @@
-### 解题思路
-利用Hashset记录地址，代码清晰易懂
+// ### 解题思路
+// 利用Hashset记录地址，代码清晰易懂
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numUniqueEmails(String[] emails) {
     	HashSet h =new HashSet<>();
@@ -32,4 +32,4 @@ class Solution {
     	return h.size();
     }
 }
-```
+// ```

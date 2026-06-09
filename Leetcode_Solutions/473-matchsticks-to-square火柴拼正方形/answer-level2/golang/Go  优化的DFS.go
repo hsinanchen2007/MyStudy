@@ -1,12 +1,12 @@
-### 解题思路
-深度优先搜索问题,要做一定的剪枝优化
+// ### 解题思路
+// 深度优先搜索问题,要做一定的剪枝优化
 
-DFS前做优化，选择时做优化
+// DFS前做优化，选择时做优化
 
 
 
-框架 
-```go
+// 框架 
+// ```go
 func DFS{
 	// 退出条件
 
@@ -18,10 +18,10 @@ func DFS{
 	}
 
 }
-```
-### 代码
+// ```
+// ### 代码
 
-```golang
+// ```golang
 func makesquare(nums []int) bool {
 
 	if len(nums) < 4 {
@@ -71,4 +71,4 @@ func DFS(position, nums []int, index, target int) bool {
 	return false
 }
 
-```
+// ```

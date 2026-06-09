@@ -1,11 +1,11 @@
-### 解题思路
-72 ms, faster than 52.77% of Python3 
-快慢指针取到中点, 不管奇偶, 总是取慢指针, 
-然后翻转后半部分链表, 此时不需要切断前半部分和后半部分的链接, 因为后半部分长度总是大于等于前半部分
+# ### 解题思路
+# 72 ms, faster than 52.77% of Python3 
+# 快慢指针取到中点, 不管奇偶, 总是取慢指针, 
+# 然后翻转后半部分链表, 此时不需要切断前半部分和后半部分的链接, 因为后半部分长度总是大于等于前半部分
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
                 return False
             pre, head = pre.next, head.next
         return True
-```
+# ```

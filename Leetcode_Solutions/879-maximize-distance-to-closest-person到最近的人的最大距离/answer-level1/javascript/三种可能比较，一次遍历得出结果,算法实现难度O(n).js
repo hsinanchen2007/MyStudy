@@ -1,5 +1,5 @@
-把头和尾巴拿出来，中间的逐次比较。
-```
+// 把头和尾巴拿出来，中间的逐次比较。
+// ```
 const maxDistToClosest = (seats) => {
     let max = 0, target = 0, left = 0, right = 0;
     for (let index = 0; index < seats.length; index++) {
@@ -22,4 +22,4 @@ const maxDistToClosest = (seats) => {
     }
     return Math.max(left, right, max);
 };
-```
+// ```

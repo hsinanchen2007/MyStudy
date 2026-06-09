@@ -1,9 +1,9 @@
-### 解题思路
-利用collections模块中的counter(),most_common()方法
+# ### 解题思路
+# 利用collections模块中的counter(),most_common()方法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def frequencySort(self, s: str) -> str:
         lis =  collections.Counter(s).most_common()
@@ -13,4 +13,4 @@ class Solution:
         return strs
 
 
-```
+# ```

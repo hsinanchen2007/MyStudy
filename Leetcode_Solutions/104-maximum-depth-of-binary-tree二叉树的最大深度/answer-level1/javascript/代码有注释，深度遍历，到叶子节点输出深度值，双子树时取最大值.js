@@ -1,13 +1,13 @@
-### 解题思路
-执行用时 :
-52 ms
-, 在所有 JavaScript 提交中击败了
-99.96%
-的用户
+// ### 解题思路
+// 执行用时 :
+// 52 ms
+// , 在所有 JavaScript 提交中击败了
+// 99.96%
+// 的用户
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -45,4 +45,4 @@ var maxDepth = function(root, level) {
         return level
     }
 };
-```
+// ```

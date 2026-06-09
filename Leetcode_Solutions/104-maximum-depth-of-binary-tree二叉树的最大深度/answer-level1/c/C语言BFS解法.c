@@ -1,9 +1,9 @@
-### 解题思路
-BFS，创建数组充当队列，按层遍历放入数组中。不过题目中未指明二叉树范围，所以数组的大小不好确认
+// ### 解题思路
+// BFS，创建数组充当队列，按层遍历放入数组中。不过题目中未指明二叉树范围，所以数组的大小不好确认
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -45,4 +45,4 @@ int maxDepth(struct TreeNode* root){
 	return depth;
 
 }
-```
+// ```

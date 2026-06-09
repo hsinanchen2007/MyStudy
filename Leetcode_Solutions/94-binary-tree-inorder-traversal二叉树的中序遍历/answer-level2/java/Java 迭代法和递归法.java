@@ -1,9 +1,9 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-使用递归和迭代两种方法：
+// 使用递归和迭代两种方法：
 
 
-```
+// ```
 class Solution{
 //中序遍历：左->中->右，递归法：
     public List<Integer> inorderTraversal1(TreeNode root) {

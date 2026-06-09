@@ -1,5 +1,5 @@
-仍然是利用广度优先遍历进行拓扑排序，不过是把遍历过程存了下来
-```java []
+// 仍然是利用广度优先遍历进行拓扑排序，不过是把遍历过程存了下来
+// ```java []
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         int res[] = new int[numCourses];
@@ -30,4 +30,4 @@ class Solution {
         else return new int[0];
     }
 }
-```
+// ```

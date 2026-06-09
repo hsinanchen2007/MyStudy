@@ -1,5 +1,5 @@
-# 递归
-```
+// # 递归
+// ```
 class Solution {
 public:
     bool isEqual(TreeNode* l, TreeNode* r)
@@ -13,11 +13,11 @@ public:
         return isEqual(root->left, root->right);
     }
 }
-```
+// ```
 
 
-# 迭代
-```
+// # 迭代
+// ```
 class Solution {
 public:
     bool isSymmetric(TreeNode* root)
@@ -49,4 +49,4 @@ public:
         return true;
     }
 }
-```
+// ```

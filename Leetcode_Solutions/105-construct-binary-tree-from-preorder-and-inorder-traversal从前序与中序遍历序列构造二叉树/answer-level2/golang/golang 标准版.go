@@ -1,5 +1,5 @@
 
-```go
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -28,4 +28,4 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
         root.Right = buildTree(preorder[idx+1:],inorder[idx+1:])
         return root
 }
-```
+// ```

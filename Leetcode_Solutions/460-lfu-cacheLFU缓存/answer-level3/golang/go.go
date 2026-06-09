@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type LFUCache struct {
 	keyMap map[int]LFUNode
 	cap int
@@ -89,4 +89,4 @@ func (this *LFUCache) ComputeLast(){
         }
     }
 }
-```
+// ```

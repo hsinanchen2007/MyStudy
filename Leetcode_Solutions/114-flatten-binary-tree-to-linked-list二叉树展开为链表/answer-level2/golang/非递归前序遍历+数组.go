@@ -1,8 +1,8 @@
-Go: 0ms(100%), 2.9MB(58%)
+// Go: 0ms(100%), 2.9MB(58%)
   
-**思路**：非递归前序遍历将节点放入数组中，然后遍历数组，将每个节点元素的左孩子置空，右孩子指向下一个元素节点
+// **思路**：非递归前序遍历将节点放入数组中，然后遍历数组，将每个节点元素的左孩子置空，右孩子指向下一个元素节点
 
-```go
+// ```go
 func flatten(root *TreeNode)  {
     if root == nil || (root.Left == nil && root.Right == nil) {
         return
@@ -29,4 +29,4 @@ func flatten(root *TreeNode)  {
     }
     nodes[len(nodes) - 1].Left = nil
 }
-```
+// ```

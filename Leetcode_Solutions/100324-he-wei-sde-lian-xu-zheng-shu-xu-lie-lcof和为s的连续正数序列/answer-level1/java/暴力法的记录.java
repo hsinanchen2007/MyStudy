@@ -1,9 +1,9 @@
-### 解题思路
-思路见代码注释。
+// ### 解题思路
+// 思路见代码注释。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int[]> ans = new ArrayList<>(); //申请一个list，存放每一个结果集
@@ -31,4 +31,4 @@ class Solution {
         return ans.toArray(new int[0][]);  //将ans转成一个数组
     }
 }
-```
+// ```

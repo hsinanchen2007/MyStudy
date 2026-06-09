@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def maxUncrossedLines(A: Array[Int], B: Array[Int]): Int = {
     val dp = Array.ofDim[Int](A.length + 1, B.length + 1)
@@ -9,4 +9,4 @@ object Solution {
     dp(A.length)(B.length)
   }
 }
-```
+// ```

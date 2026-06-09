@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     
@@ -32,4 +32,4 @@ public:
         for(auto i:table[root]){if(!vis[i])dfs(i,sum/val,t-1);}   
     }
 };
-```
+// ```

@@ -1,30 +1,30 @@
-### 思路:
+// ### 思路:
 
-从边界出发吧，先把边界上和 `O` 连通点找到, 把这些变成 `B`,然后遍历整个 `board` 把 `O` 变成 `X`, 把 `B` 变成 `O` 
+// 从边界出发吧，先把边界上和 `O` 连通点找到, 把这些变成 `B`,然后遍历整个 `board` 把 `O` 变成 `X`, 把 `B` 变成 `O` 
 
-如下图所示：
+// 如下图所示：
 
-![tmp.png](https://pic.leetcode-cn.com/f6cc252beb78212f68d55136cf6093419c3a07cb2f2ccbcc53f8fc064d27708a-tmp.png){:width=600}
-{:align=center}
+// ![tmp.png](https://pic.leetcode-cn.com/f6cc252beb78212f68d55136cf6093419c3a07cb2f2ccbcc53f8fc064d27708a-tmp.png){:width=600}
+// {:align=center}
 
 
-所以这样就有 2 种方法
+// 所以这样就有 2 种方法
 
-思路一: DFS
+// 思路一: DFS
 
-思路二: BFS
+// 思路二: BFS
 
-还有一种就是，把边界 `O` 并且与它连通这些点分在一起
+// 还有一种就是，把边界 `O` 并且与它连通这些点分在一起
 
-思路三 : 并查集
+// 思路三 : 并查集
 
-可以提供 `Java` 版本吗? 
+// 可以提供 `Java` 版本吗? 
 
-### 代码:
+// ### 代码:
 
-思路一:
+// 思路一:
 
-```Python [1]
+// ```Python [1]
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
@@ -67,11 +67,11 @@ class Solution:
                 # B 变成 O
                 if board[i][j] == "B":
                     board[i][j] = "O"
-```
+// ```
 
 
 
-```Java [1]
+// ```Java [1]
 class Solution {
     int[][] dirs = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
@@ -113,11 +113,11 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-思路二:
+// 思路二:
 
-```Python [2]
+// ```Python [2]
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
@@ -160,11 +160,11 @@ class Solution:
                     board[i][j] = "X"
                 if board[i][j] == "B":
                     board[i][j] = "O"
-```
+// ```
 
 
 
-```Java [2]
+// ```Java [2]
 class Solution {
     int[][] dirs = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
     private static class Point {
@@ -216,11 +216,11 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-思路三:
+// 思路三:
 
-```python [-Python]
+// ```python [-Python]
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
@@ -257,5 +257,5 @@ class Solution:
                     board[i][j] = "O"
                 else:
                     board[i][j] = "X"
-```
+// ```
 

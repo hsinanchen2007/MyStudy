@@ -1,4 +1,4 @@
-```
+// ```
 var isPalindrome = function(x) {
     let xs = Math.abs(x) //先转化为绝度值
     xs = xs + '' // 转为字符串，经过试验，这种转化比toString()快很多
@@ -25,5 +25,5 @@ var isPalindrome = function(x) {
     }
     return true //如果没有问题，最后返回true
 }
-```
+// ```
 

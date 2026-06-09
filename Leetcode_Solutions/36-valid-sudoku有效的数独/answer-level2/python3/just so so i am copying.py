@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         def cubeNum(i, j):
@@ -27,4 +27,4 @@ class Solution:
                     return False
         return True
 
-```
+# ```

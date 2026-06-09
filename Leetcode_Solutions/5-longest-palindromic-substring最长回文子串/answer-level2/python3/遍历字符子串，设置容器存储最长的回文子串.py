@@ -1,5 +1,5 @@
-对字符串中每个子串进行遍历提取，并判断是否是回文子串，如果是跟之前判断的回文子串进行length对比，如果大于，则存储，小于则继续进行遍历。
-```
+# 对字符串中每个子串进行遍历提取，并判断是否是回文子串，如果是跟之前判断的回文子串进行length对比，如果大于，则存储，小于则继续进行遍历。
+# ```
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         length = len(s)
@@ -15,6 +15,6 @@ class Solution:
                 else:
                     continue
         return result
-```
+# ```
 
-设置一个容器，用来存储长度最长的回文子串
+# 设置一个容器，用来存储长度最长的回文子串

@@ -1,4 +1,4 @@
-```
+// ```
 TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
     TreeNode* res = NULL;
     while (root) {
@@ -11,4 +11,4 @@ TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
     }
     return res;
 }
-```
+// ```

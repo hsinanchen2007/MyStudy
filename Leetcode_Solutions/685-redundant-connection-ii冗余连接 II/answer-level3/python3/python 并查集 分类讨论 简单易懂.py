@@ -1,8 +1,8 @@
  
-入度都为一，则用前一题方法
-入度为二，则判断是否有环
-直接看代码
-```
+# 入度都为一，则用前一题方法
+# 入度为二，则判断是否有环
+# 直接看代码
+# ```
 class Solution:
     def findRedundantDirectedConnection(self, edges: List[List[int]]) -> List[int]:
         def find(f,x):
@@ -37,4 +37,4 @@ class Solution:
                     if not cycle(edges[:edges.index([x,y])]+edges[edges.index([x,y])+1:]) :
                         return [x,y]
         
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-采用暴力解决，从第一个数字开始，依次计算该数字与它后面数字的和，如果符合要求，立即返回。如果最终未找到符合要求的两个数，则直接返回空。
+// ### 解题思路
+// 采用暴力解决，从第一个数字开始，依次计算该数字与它后面数字的和，如果符合要求，立即返回。如果最终未找到符合要求的两个数，则直接返回空。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         for (int i = 0; i < nums.Length - 1; i++)
@@ -17,4 +17,4 @@ public class Solution {
         return new int[]{};
     }
 }
-```
+// ```

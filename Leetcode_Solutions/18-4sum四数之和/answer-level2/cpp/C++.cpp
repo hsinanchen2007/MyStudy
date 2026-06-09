@@ -1,8 +1,8 @@
-### 解题思路
-此题的思路和三数之和的思路是相同的，只是多了一个判断条件，详细解释见注释。
-### 代码
+// ### 解题思路
+// 此题的思路和三数之和的思路是相同的，只是多了一个判断条件，详细解释见注释。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -42,4 +42,4 @@ public:
         return ans;
     }
 };
-```
+// ```

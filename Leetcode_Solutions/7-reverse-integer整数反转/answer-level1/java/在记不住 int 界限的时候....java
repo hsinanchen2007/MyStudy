@@ -1,9 +1,9 @@
-### 解题思路
-在不知道 int 界限的时候。。。
+// ### 解题思路
+// 在不知道 int 界限的时候。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         // 计算有符号 int 的界限
@@ -29,4 +29,4 @@ class Solution {
         }
     }
 }
-```
+// ```

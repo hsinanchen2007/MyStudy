@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -20,4 +20,4 @@ func deleteNode(head *ListNode, val int) *ListNode {
     }
     return dummy.Next
 }
-```
+// ```

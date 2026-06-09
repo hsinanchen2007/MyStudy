@@ -1,9 +1,9 @@
-### 解题思路
-理解二进制表达式
+// ### 解题思路
+// 理解二进制表达式
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
@@ -15,4 +15,4 @@ public:
         return cnt==1;
     }
 };
-```
+// ```

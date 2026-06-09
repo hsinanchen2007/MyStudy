@@ -1,4 +1,4 @@
-```
+// ```
 //45 ms
 class Solution {
     public int[] bestLine(int[][] points) {
@@ -39,4 +39,4 @@ class Solution {
         }
     }
 }
-```
+// ```

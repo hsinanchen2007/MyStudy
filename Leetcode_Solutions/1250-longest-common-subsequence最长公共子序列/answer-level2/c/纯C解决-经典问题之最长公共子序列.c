@@ -1,10 +1,10 @@
-### 解题思路
-该有的动态规划的解释在代码中都已经很清楚的标明了。
+// ### 解题思路
+// 该有的动态规划的解释在代码中都已经很清楚的标明了。
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestCommonSubsequence(char * text1, char * text2){
     int length1=strlen(text1),length2=strlen(text2);
     
@@ -28,4 +28,4 @@ int longestCommonSubsequence(char * text1, char * text2){
         }
     return dp[length1][length2];
 }
-```
+// ```

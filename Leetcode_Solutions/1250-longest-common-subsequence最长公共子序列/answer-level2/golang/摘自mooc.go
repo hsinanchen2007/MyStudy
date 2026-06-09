@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/a79eb314e8c628477f59e2db4cbb2e329d33708ecb229913c1840ad53dd08c60-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a79eb314e8c628477f59e2db4cbb2e329d33708ecb229913c1840ad53dd08c60-image.png)
 
-```cgo
+// ```cgo
 输入两个串s1,s2,
     设MaxLen(i,j)表示:  s1的左边i个字符形成的子串，与s2左边的j个字符形成的子串的最长公共子序列的长度(i,j从0开始算）
     MaxLen(i,j) 就是本题的“状态”
@@ -14,10 +14,10 @@
         MaxLen(i,j) = MaxLen(i-1,j-1) + 1
     else
         MaxLen(i,j) = Max(MaxLen(i,j-1),MaxLen(i-1,j) )
-```
-- 证明
+// ```
+// - 证明
 
-```cgo
+// ```cgo
 S1,S2表示表示长度为i,j的序列
 S1[:i-1]表示长度为i-1的序列
 S2[:j-1]表示长度为j-1的序列
@@ -35,4 +35,4 @@ MaxLen(S1,S2)不会比MaxLen(S1,S2[:j-1])和MaxLen(S1[:i-1],S2)两者之中任�
     故而S1[i-1]==S2[j-1],
     与假设矛盾,从而假设不成立. 证毕~
 
-```
+// ```

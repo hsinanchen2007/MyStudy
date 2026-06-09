@@ -1,15 +1,15 @@
-### 解题思路
-用三个Hash Table存各行各列以及九个宫格的0~9字符出现次数，
-如果发现Hash表中某个位置的数字大于1，则返回false；
-HashBox[(i/3)*3+(j/3)][board[i][j]-'0']中，
-(i/3)*3+(j/3)是根据行列关系计算得出的，第i行第j列的一个元素处于哪个宫格（宫格下标是0~8）。
+// ### 解题思路
+// 用三个Hash Table存各行各列以及九个宫格的0~9字符出现次数，
+// 如果发现Hash表中某个位置的数字大于1，则返回false；
+// HashBox[(i/3)*3+(j/3)][board[i][j]-'0']中，
+// (i/3)*3+(j/3)是根据行列关系计算得出的，第i行第j列的一个元素处于哪个宫格（宫格下标是0~8）。
 
-时间复杂度：由于只遍历一次board，因此是O(n^2).
+// 时间复杂度：由于只遍历一次board，因此是O(n^2).
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValidSudoku(char** board, int boardSize, int* boardColSize)
 {
     int HashRow[9][10];
@@ -51,4 +51,4 @@ bool isValidSudoku(char** board, int boardSize, int* boardColSize)
     }*/
     return true;
 }
-```
+// ```

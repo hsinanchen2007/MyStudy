@@ -1,8 +1,8 @@
-javascript的几个答案没太看明白，参考了精选图解，实现javascript版，比如容易理解
+// javascript的几个答案没太看明白，参考了精选图解，实现javascript版，比如容易理解
 
-![image.png](https://pic.leetcode-cn.com/df25831a5e084d12e84f5ea0290b567a6587a128fb8a369772f6a11dad8faa29-image.png)
+// ![image.png](https://pic.leetcode-cn.com/df25831a5e084d12e84f5ea0290b567a6587a128fb8a369772f6a11dad8faa29-image.png)
 
-```
+// ```
 var reverseKGroup = function(head, k) {
     let thead = new ListNode(0)
     thead.next = head
@@ -35,4 +35,4 @@ function reverse(head) {
     }
     return pre
 }
-```
+// ```

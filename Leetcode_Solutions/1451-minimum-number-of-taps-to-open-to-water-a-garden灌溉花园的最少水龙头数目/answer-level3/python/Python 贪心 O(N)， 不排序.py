@@ -1,15 +1,15 @@
-### 解题思路
-真是烦
-实在搞不懂这种case为什么是：-1
+# ### 解题思路
+# 真是烦
+# 实在搞不懂这种case为什么是：-1
 
-3
-[1, 0, 0, 1]
+# 3
+# [1, 0, 0, 1]
 
-没办法只能削足适履了...
+# 没办法只能削足适履了...
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minTaps(self, n, ranges):
         """
@@ -36,4 +36,4 @@ class Solution(object):
                 res += 1
             max_next = max(max_next, limits[i])
         return res
-```
+# ```

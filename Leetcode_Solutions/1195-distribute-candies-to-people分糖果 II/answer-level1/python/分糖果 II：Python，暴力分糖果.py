@@ -1,9 +1,9 @@
-### 解题思路
-模拟分糖过程
+# ### 解题思路
+# 模拟分糖过程
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def distributeCandies(self, candies, num_people):
         """
@@ -32,4 +32,4 @@ class Solution(object):
                     # 糖果已分完，不需要继续循环后续人员，直接跳出
                     break
         return ans
-```
+# ```

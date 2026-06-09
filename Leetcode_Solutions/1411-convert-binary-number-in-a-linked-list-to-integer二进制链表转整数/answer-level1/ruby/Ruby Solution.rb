@@ -1,5 +1,5 @@
-ruby solution
-```ruby
+# ruby solution
+# ```ruby
 def get_decimal_value(head)
     n = 0
     while head != nil  
@@ -9,4 +9,4 @@ def get_decimal_value(head)
     end
     n
 end
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) string {
     if len(s)==0{
         return s
@@ -36,4 +36,4 @@ func exten(s string, l int , r int)int{
     }
     return maxlen
 }
-```
+// ```

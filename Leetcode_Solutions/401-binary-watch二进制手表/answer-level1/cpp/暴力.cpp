@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/8f4587514978b78206fd78bf261b7986758ecb49808b7c78636cc489de20be75-image.png)
-不知道这么做违不违法
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/8f4587514978b78206fd78bf261b7986758ecb49808b7c78636cc489de20be75-image.png)
+// 不知道这么做违不违法
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getHours(int n)
@@ -140,4 +140,4 @@ public:
         return res;
     }
 };
-```
+// ```

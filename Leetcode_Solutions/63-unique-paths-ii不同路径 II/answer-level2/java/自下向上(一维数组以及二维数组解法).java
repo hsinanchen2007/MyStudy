@@ -1,6 +1,6 @@
-# 自下向上：二维数组
-时间复杂度是O(row * col), 空间复杂度为O(row * col)
-```
+// # 自下向上：二维数组
+// 时间复杂度是O(row * col), 空间复杂度为O(row * col)
+// ```
 public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int row = obstacleGrid.length;
         int col = obstacleGrid[0].length;
@@ -31,10 +31,10 @@ public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         }
         return memo[0][0];
     }
-```
-# 自下向上：一维数组
-时间复杂度是O(row * col), 空间复杂度降低为O(col)
-```
+// ```
+// # 自下向上：一维数组
+// 时间复杂度是O(row * col), 空间复杂度降低为O(col)
+// ```
 public int uniquePathsWithObstacles(int[][] obstacleGrid) {
     int row = obstacleGrid.length;
     int col = obstacleGrid[0].length;
@@ -63,5 +63,5 @@ public int uniquePathsWithObstacles(int[][] obstacleGrid) {
     }
     return dp[0];
 }
-```
+// ```
 

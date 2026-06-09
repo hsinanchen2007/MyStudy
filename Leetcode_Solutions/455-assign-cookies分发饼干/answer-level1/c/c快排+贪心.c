@@ -1,4 +1,4 @@
-int comp(const void*a,const void*b)//用来做比较的函数。
+// int comp(const void*a,const void*b)//用来做比较的函数。
 {    return *(int*)a-*(int*)b;}
 
 int findContentChildren(int* g, int gSize, int* s, int sSize){

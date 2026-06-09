@@ -1,16 +1,16 @@
-### 解题思路
-题是解出来了，但结果就是有点惨不忍睹; 不知道从哪优化了
+// ### 解题思路
+// 题是解出来了，但结果就是有点惨不忍睹; 不知道从哪优化了
 
-> 这是递归的
-![image.png](https://pic.leetcode-cn.com/8392683573da291ff836fef5d9177568e6dae058a106791b123e042d84aa4225-image.png)
+// > 这是递归的
+// ![image.png](https://pic.leetcode-cn.com/8392683573da291ff836fef5d9177568e6dae058a106791b123e042d84aa4225-image.png)
 
 
-> 这是动态规划的
-![image.png](https://pic.leetcode-cn.com/b010114437fb0b727c46b5fd8e71100420639f321e4a056fb49f41ea1ffb471f-image.png)
+// > 这是动态规划的
+// ![image.png](https://pic.leetcode-cn.com/b010114437fb0b727c46b5fd8e71100420639f321e4a056fb49f41ea1ffb471f-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -66,4 +66,4 @@ function numSquares(n) {
     }
     return cache[n]
 }
-```
+// ```

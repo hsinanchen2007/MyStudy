@@ -1,5 +1,5 @@
-1,最直观,最初级的解法,合并到一个数组
-```
+// 1,最直观,最初级的解法,合并到一个数组
+// ```
 object Solution {
   def findMedianSortedArrays(nums1: Array[Int], nums2: Array[Int]): Double = {
     var num: Array[Int] = null
@@ -32,9 +32,9 @@ object Solution {
 }
 
 
-```
-2,高级一点的解法,其实就是求解第k大元素的变形
-```
+// ```
+// 2,高级一点的解法,其实就是求解第k大元素的变形
+// ```
 
 object Solution {
   def findMedianSortedArrays(nums1: Array[Int], nums2: Array[Int]): Double = {
@@ -115,4 +115,4 @@ object Solution {
 
 }
 
-```
+// ```

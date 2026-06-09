@@ -1,5 +1,5 @@
-以空间换时间　统计0~n-1出现的次数
-```
+// 以空间换时间　统计0~n-1出现的次数
+// ```
 public int findRepeatNumber(int[] nums) {
         int[] count = new int[nums.length];
         for (int n : nums){
@@ -8,5 +8,5 @@ public int findRepeatNumber(int[] nums) {
         }
         return 0;
     }
-```
+// ```
 

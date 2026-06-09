@@ -1,4 +1,4 @@
-```
+// ```
 class KthLargest {
 public:
     priority_queue<int, vector<int>, greater<int>> sq;
@@ -25,4 +25,4 @@ public:
         return sq.top();
     }
 };
-```
+// ```

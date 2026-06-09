@@ -1,9 +1,9 @@
-### 解题思路
-利用字典，判断是否包含licensePlate中的全部元素，最后利用sort(key = len)返回长度最短的完整词。
+# ### 解题思路
+# 利用字典，判断是否包含licensePlate中的全部元素，最后利用sort(key = len)返回长度最短的完整词。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def shortestCompletingWord(self, licensePlate: str, words: List[str]) -> str:
         licensePlate = licensePlate.lower()
@@ -33,4 +33,4 @@ class Solution:
         ret.sort(key = len)
         return ret[0]
 
-```
+# ```

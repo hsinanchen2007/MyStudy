@@ -1,9 +1,9 @@
-### 解题思路
-遍历树节点，存到数组里面，然后转换成对外输出的数组，应该还可以优化合并
+// ### 解题思路
+// 遍历树节点，存到数组里面，然后转换成对外输出的数组，应该还可以优化合并
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -92,4 +92,4 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
     free(tmpArr);
     return retArr;
 }
-```
+// ```

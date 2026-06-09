@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeCoveredIntervals(self, intervals: List[List[int]]) -> int:
         li = sorted(intervals)
@@ -11,4 +11,4 @@ class Solution:
                 li.pop(i+1)
         # print(li)
         return len(li)
-```
+# ```

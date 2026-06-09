@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
         //取两个平面上不同的点，所花的时间实际就是两个点横坐标差与纵坐标差各取绝对值中较大的一个
@@ -14,4 +14,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

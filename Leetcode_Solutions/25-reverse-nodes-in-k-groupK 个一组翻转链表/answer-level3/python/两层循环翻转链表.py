@@ -1,9 +1,9 @@
-### 解题思路
-先遍历链表得到节点数n，使用两层循环，外侧循环更新上一段的尾节点和新一段的第一个节点，内侧循环功能翻转链表。
+# ### 解题思路
+# 先遍历链表得到节点数n，使用两层循环，外侧循环更新上一段的尾节点和新一段的第一个节点，内侧循环功能翻转链表。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
             tail.next, tail, first = old, first, new
         tail.next = first
         return pre.next
-```
+# ```

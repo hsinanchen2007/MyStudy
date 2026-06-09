@@ -1,10 +1,10 @@
-### 解题思路
-        先计算出每个类型事件发生的平均值,外连接到events表,
-        用DECODE(SIGN())标记大于平局值的BUSINESS_ID,
-        再筛选出有2个以上大于平均值的BUSINESS_ID即可
-### 代码
+-- ### 解题思路
+--         先计算出每个类型事件发生的平均值,外连接到events表,
+--         用DECODE(SIGN())标记大于平局值的BUSINESS_ID,
+--         再筛选出有2个以上大于平均值的BUSINESS_ID即可
+-- ### 代码
 
-```oraclesql
+-- ```oraclesql
 /* Write your PL/SQL query statement below */
 SELECT BUSINESS_ID
   FROM (SELECT S.BUSINESS_ID, SUM(S.SIGN) SUM
@@ -20,4 +20,4 @@ SELECT BUSINESS_ID
          GROUP BY S.BUSINESS_ID) T
  WHERE T.SUM >= 2
 
-```
+-- ```

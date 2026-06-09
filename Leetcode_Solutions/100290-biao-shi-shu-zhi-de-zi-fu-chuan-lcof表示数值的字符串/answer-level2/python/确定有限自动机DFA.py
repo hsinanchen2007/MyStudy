@@ -1,11 +1,11 @@
-### 解题思路
-确定有限自动机：根据每一位字符进行状态转移即可，方框表示合法的结束状态。图中未标出的状态9表示字符串末尾的空格。
-![IMG_3732.jpg](https://pic.leetcode-cn.com/21bb5c376b6f9d17f85a2cb5149cf663e15581a3cc4e7092d994bd8df5c0bd92-IMG_3732.jpg)
-![IMG_3733.jpg](https://pic.leetcode-cn.com/b2f30ff15f23955ba82c297a892eab2a4fa53ba2bb9760fca83bb8b85fd3d41b-IMG_3733.jpg)
+# ### 解题思路
+# 确定有限自动机：根据每一位字符进行状态转移即可，方框表示合法的结束状态。图中未标出的状态9表示字符串末尾的空格。
+# ![IMG_3732.jpg](https://pic.leetcode-cn.com/21bb5c376b6f9d17f85a2cb5149cf663e15581a3cc4e7092d994bd8df5c0bd92-IMG_3732.jpg)
+# ![IMG_3733.jpg](https://pic.leetcode-cn.com/b2f30ff15f23955ba82c297a892eab2a4fa53ba2bb9760fca83bb8b85fd3d41b-IMG_3733.jpg)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isNumber(self, s: str) -> bool:
         if not s:return False
@@ -47,4 +47,4 @@ class Solution:
             if state == -1:return False
         return True if state in legal_state else False
 
-```
+# ```

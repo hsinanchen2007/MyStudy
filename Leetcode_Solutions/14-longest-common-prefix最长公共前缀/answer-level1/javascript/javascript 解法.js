@@ -1,5 +1,5 @@
-有优化的地方 希望请教 
-```
+// 有优化的地方 希望请教 
+// ```
 var longestCommonPrefix = function(strs) {
     if(!strs.length) return ''
     return strs.reduce((k,m) => {
@@ -14,4 +14,4 @@ var longestCommonPrefix = function(strs) {
         return str
     })
 };
-```
+// ```

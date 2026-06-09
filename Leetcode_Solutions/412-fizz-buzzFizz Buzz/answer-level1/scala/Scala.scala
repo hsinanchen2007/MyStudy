@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def fizzBuzz(n: Int): List[String] = {
         import scala.collection.mutable.ListBuffer
@@ -22,4 +22,4 @@ object Solution {
     list.toList   
     }
 }
-```
+// ```

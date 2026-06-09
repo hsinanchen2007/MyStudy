@@ -1,4 +1,4 @@
-```go
+// ```go
 func fib(N int) int {
     if N == 0{
         return 0
@@ -12,4 +12,4 @@ func fib(N int) int {
     }
     return n1 + n2
 }
-```
+// ```

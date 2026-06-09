@@ -1,10 +1,10 @@
-### 解题思路
-12 ms	39.5 MB
-改了点大佬的东西 先去空格  把*/算完入栈 加起来
+// ### 解题思路
+// 12 ms	39.5 MB
+// 改了点大佬的东西 先去空格  把*/算完入栈 加起来
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int calculate(String s) {
         s = s.replace(" ", "");
@@ -53,4 +53,4 @@ class Solution {
     }
 }
 
-```
+// ```

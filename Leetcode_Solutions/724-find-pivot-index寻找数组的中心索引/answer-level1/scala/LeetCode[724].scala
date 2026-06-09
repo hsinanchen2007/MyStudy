@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def pivotIndex(nums: Array[Int]): Int = {
     val total = nums.sum
@@ -10,4 +10,4 @@ object Solution {
     return -1
   }
 }
-```
+// ```

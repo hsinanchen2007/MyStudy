@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         str1 = ""
@@ -34,4 +34,4 @@ class Solution:
                             str1 += s[j]
                             j += bb
         return(str1)
-```
+# ```

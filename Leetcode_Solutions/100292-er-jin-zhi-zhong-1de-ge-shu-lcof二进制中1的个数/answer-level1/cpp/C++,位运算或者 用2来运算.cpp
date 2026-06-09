@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

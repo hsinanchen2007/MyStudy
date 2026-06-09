@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :992 ms, 在所有 Java 提交中击败了5.62%的用户
-内存消耗 :50.9 MB, 在所有 Java 提交中击败了5.16%的用户
+// ### 解题思路
+// 执行用时 :992 ms, 在所有 Java 提交中击败了5.62%的用户
+// 内存消耗 :50.9 MB, 在所有 Java 提交中击败了5.16%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findLHS(int[] nums) {
         int ans = 0;
@@ -28,4 +28,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

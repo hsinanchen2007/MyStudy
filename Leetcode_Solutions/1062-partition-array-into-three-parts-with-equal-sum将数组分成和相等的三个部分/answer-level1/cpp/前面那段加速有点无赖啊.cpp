@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 static const auto _ = []()
 {
     ios::sync_with_stdio(false);
@@ -39,4 +39,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1. 效率有限排序
-2. 小顶堆优先队列维护最大速度的$K$个值
-3. $\max$更新团队表现
+// ### 解题思路
+// 1. 效率有限排序
+// 2. 小顶堆优先队列维护最大速度的$K$个值
+// 3. $\max$更新团队表现
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int maxPerformance(int N, int[] speed, int[] efficiency, int k) {
         if(N <= 0)
@@ -50,8 +50,8 @@ class Solution {
         public int eff;
     }
 }
-```
-```python []
+// ```
+// ```python []
 from queue import PriorityQueue
 class Solution:
     def maxPerformance(self, N: int, speed: List[int], efficiency: List[int], k: int) -> int:
@@ -81,8 +81,8 @@ class Solution:
             res = max(res, eff*t_speed)
 
         return res % P
-```
-```c++ []
+// ```
+// ```c++ []
 typedef long long ll;
 
 class Solution {
@@ -130,4 +130,4 @@ public:
         return res%P;
     }
 };
-```
+// ```

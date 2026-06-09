@@ -1,4 +1,4 @@
-```
+# ```
 # 先转化为柱形图(每一层都可以转化为柱形图) --- 再求解最大面积
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
@@ -45,4 +45,4 @@ class Solution:
                         max_area = curr
         return max_area
 
-```
+# ```

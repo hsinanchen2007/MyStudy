@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} s
  * @return {string}
@@ -27,4 +27,4 @@ var frequencySort = function(s) {
         return item.str.repeat(item.count)
     }).join('');
 };
-```
+// ```

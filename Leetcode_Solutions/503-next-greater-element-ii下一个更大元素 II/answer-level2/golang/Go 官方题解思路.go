@@ -1,9 +1,9 @@
-### 解题思路
-Go 官方题解思路
+// ### 解题思路
+// Go 官方题解思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func nextGreaterElements(nums []int) []int {
     stack := make([]int,0)
     res := make([]int, len(nums))
@@ -20,4 +20,4 @@ func nextGreaterElements(nums []int) []int {
     }
     return res
 }
-```
+// ```

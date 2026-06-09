@@ -1,8 +1,8 @@
-### 解题思路
-全局boolean 记录 是否平衡
-### 代码
+// ### 解题思路
+// 全局boolean 记录 是否平衡
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -32,4 +32,4 @@ class Solution {
     return Math.max(left, right) + 1;
   }
 }
-```
+// ```

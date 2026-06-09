@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxSubArray(int* nums, int numsSize){
 int i;
 int maxSum=nums[0];
@@ -18,4 +18,4 @@ for(i=0;i<numsSize;i++)
 }
 return maxSum;
 }
-```
+// ```

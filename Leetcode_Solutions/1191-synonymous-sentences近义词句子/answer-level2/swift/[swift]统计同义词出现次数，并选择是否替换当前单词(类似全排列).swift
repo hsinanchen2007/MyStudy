@@ -1,4 +1,4 @@
-```swift
+// ```swift
 extension Int {
     var reversedBinaryValue:  [Int]  {
         get {
@@ -66,4 +66,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

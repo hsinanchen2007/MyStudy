@@ -1,5 +1,5 @@
-如题。
-```
+# 如题。
+# ```
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         whole = head
@@ -15,4 +15,4 @@ class Solution:
                 prev.next = head.next
                 head = head.next
         return(whole)
-```
+# ```

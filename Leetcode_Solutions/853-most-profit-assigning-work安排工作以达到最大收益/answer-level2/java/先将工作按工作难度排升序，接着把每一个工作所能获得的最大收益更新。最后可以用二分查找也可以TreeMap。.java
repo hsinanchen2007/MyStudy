@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
         int[][] job = new int[difficulty.length][2];
@@ -39,4 +39,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

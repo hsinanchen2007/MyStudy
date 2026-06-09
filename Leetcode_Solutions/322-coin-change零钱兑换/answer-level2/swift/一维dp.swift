@@ -1,11 +1,11 @@
-### 解题思路
- 一维dp
-dp[i] 保存 总金额i时需要的硬币数
-dp[i] = min(dp[i - coins[j]] + 1)
+// ### 解题思路
+//  一维dp
+// dp[i] 保存 总金额i时需要的硬币数
+// dp[i] = min(dp[i - coins[j]] + 1)
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func coinChange(_ coins: [Int], _ amount: Int) -> Int {
         var dp = [Int](repeating: 0, count: amount + 1)
@@ -33,4 +33,4 @@ class Solution {
         return dp[amount]
     }
 }
-```
+// ```

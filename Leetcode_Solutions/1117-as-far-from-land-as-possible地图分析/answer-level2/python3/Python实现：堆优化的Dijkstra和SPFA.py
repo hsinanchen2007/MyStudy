@@ -1,9 +1,9 @@
-### 解题思路
-Dijkstra用于求有权图中的最短路径，对于无权图，Dijkstra跟BFS是一致的。另外堆优化的Dijkstra算法和SFPA算法在思想上并无太大区别。
+# ### 解题思路
+# Dijkstra用于求有权图中的最短路径，对于无权图，Dijkstra跟BFS是一致的。另外堆优化的Dijkstra算法和SFPA算法在思想上并无太大区别。
 
-### 代码
-#### 堆优化的Dijkstra
-```python3
+# ### 代码
+# #### 堆优化的Dijkstra
+# ```python3
 import heapq
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
@@ -36,10 +36,10 @@ class Solution:
                 if grid[i][j] == 0:ans = max(ans,d[i][j])
 
         return ans if ans != float('inf') else -1
-```
+# ```
 
-#### SPFA
-```python3
+# #### SPFA
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -74,4 +74,4 @@ class Solution:
                 if grid[i][j] == 0:ans = max(ans,d[i][j])
 
         return ans if ans != float('inf') else -1
-```
+# ```

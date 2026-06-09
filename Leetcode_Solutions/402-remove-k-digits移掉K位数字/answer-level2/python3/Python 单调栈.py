@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def removeKdigits(self, num: str, k: int) -> str:
         nums = list(num)
@@ -18,4 +18,4 @@ class Solution:
             k -= 1
         res = ''.join(stack).lstrip('0')
         return res if res != '' else '0'
-```
+# ```

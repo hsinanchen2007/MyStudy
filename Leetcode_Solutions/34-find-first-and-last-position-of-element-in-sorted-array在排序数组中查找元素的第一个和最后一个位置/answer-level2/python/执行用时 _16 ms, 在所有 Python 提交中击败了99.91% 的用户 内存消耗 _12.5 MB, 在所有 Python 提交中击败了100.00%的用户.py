@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import math
 class Solution(object):
     def searchRange(self, nums, target):
@@ -55,4 +55,4 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-```
+# ```

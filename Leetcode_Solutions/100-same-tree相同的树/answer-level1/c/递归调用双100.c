@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-如果节点为空，返回true；如果节点值相同且节点为叶子节点返回true，否则返回左节点结果 && 右节点结果
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 如果节点为空，返回true；如果节点值相同且节点为叶子节点返回true，否则返回左节点结果 && 右节点结果
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q){
 
     return false;
 }
-```
+// ```

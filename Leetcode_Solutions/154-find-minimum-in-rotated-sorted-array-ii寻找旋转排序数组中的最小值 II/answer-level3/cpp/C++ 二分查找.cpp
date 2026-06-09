@@ -1,7 +1,7 @@
-## 思路
-- 基本跟153差不多
-- 去重即可   即代码中`--r`
-```cpp
+// ## 思路
+// - 基本跟153差不多
+// - 去重即可   即代码中`--r`
+// ```cpp
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return nums[r];
     }
 };
-```
+// ```

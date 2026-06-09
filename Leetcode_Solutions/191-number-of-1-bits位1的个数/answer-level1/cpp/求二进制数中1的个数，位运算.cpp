@@ -1,9 +1,9 @@
-### 解题思路
-简单的与运算以及向右移
+// ### 解题思路
+// 简单的与运算以及向右移
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -16,4 +16,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-我想到的是自己建个图，本以为可以击败95%的同学，没想到被95%的同学击败了，有点搞幽啊！
+// ### 解题思路
+// 我想到的是自己建个图，本以为可以击败95%的同学，没想到被95%的同学击败了，有点搞幽啊！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public static int ladderLength(String beginWord, String endWord, List<String> wordList) {
         // 字典为空，当然返回 0
@@ -121,4 +121,4 @@ class Solution {
         return diff == 1;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/21e1d22756798839c6f56b452b344c92308462a8d22295361d3e103f84a49d82-image.png)
+// ![image.png](https://pic.leetcode-cn.com/21e1d22756798839c6f56b452b344c92308462a8d22295361d3e103f84a49d82-image.png)
 
 
-```
+// ```
 bool hasPathSum(struct TreeNode* root, int sum){
     if (root == NULL) {
         return false;
@@ -15,5 +15,5 @@ bool hasPathSum(struct TreeNode* root, int sum){
 
     return hasPathSum(root->left, remainSum) || hasPathSum(root->right, remainSum);
 }
-```
+// ```
 

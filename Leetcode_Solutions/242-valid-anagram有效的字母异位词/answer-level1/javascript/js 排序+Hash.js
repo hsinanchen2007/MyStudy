@@ -1,6 +1,6 @@
-![20200128102555.jpg](https://pic.leetcode-cn.com/019a0a0e2c1cb613f9dcf5c849a79ce29409888a2c01b002876fdea5612c4d03-20200128102555.jpg)
+// ![20200128102555.jpg](https://pic.leetcode-cn.com/019a0a0e2c1cb613f9dcf5c849a79ce29409888a2c01b002876fdea5612c4d03-20200128102555.jpg)
 
-```javascript
+// ```javascript
 /**
  * 1. 排序法
  * @param {string} s

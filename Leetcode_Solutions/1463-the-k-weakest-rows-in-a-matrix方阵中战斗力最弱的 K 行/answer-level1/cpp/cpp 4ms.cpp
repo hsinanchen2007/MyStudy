@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/b0a440c34dc9c2cea280de984bb5ce7b111b953c6d33cf362773104510e18a33-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b0a440c34dc9c2cea280de984bb5ce7b111b953c6d33cf362773104510e18a33-image.png)
 
-思路：
-1.遍历，每一行保存两个值，总和与序号
-2.按照题意排序
-3.输出到结果
+// 思路：
+// 1.遍历，每一行保存两个值，总和与序号
+// 2.按照题意排序
+// 3.输出到结果
 
-```
+// ```
 class Solution {
 public:
     vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
@@ -21,4 +21,4 @@ public:
         return result;
     }
 };
-```
+// ```

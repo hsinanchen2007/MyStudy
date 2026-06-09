@@ -1,5 +1,5 @@
-参考CSDN上博主的思路写的栈解。
-```
+# 参考CSDN上博主的思路写的栈解。
+# ```
 import sys
 class Solution:
     def find132pattern(self, nums: List[int]) -> bool:
@@ -20,4 +20,4 @@ class Solution:
                     break
             stack.append(nums[each])
         return False
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历，按值分割成两个子链表，再合并
+// ### 解题思路
+// 遍历，按值分割成两个子链表，再合并
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -32,4 +32,4 @@ func partition(head *ListNode, x int) *ListNode {
 	return sh.Next
 }
 
-```
+// ```

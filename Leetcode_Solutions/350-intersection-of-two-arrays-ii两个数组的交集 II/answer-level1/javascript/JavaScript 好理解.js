@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d2c268632c1be52f75cba122c2ddabe4a9136bcb1090f18e26ed1671c5151664-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d2c268632c1be52f75cba122c2ddabe4a9136bcb1090f18e26ed1671c5151664-image.png)
 
-- 通过 obj 进行计数
-- 判断两个 obj是否有相同项，如果有添加的 res数组中
-### 代码
+// - 通过 obj 进行计数
+// - 判断两个 obj是否有相同项，如果有添加的 res数组中
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -32,4 +32,4 @@ var intersect = function(nums1, nums2) {
     }
     return res
 };
-```
+// ```

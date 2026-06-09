@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-核心要点，排序，把重复数据堆一块
-其次如果重复数字从某个位置不被选择，那么从哪之后这个重复数字就不再被选择了，避免重复的结果
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 核心要点，排序，把重复数据堆一块
+// 其次如果重复数字从某个位置不被选择，那么从哪之后这个重复数字就不再被选择了，避免重复的结果
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void lookup(vector<int>& candidates,int nSize, int nStartIndex,int ntarget,int nLastNoCheck,vector<int>& vMiddle,vector<vector<int>>& vresult )
@@ -51,4 +51,4 @@ public:
         return vresult;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-#怪我英文垃圾箩~
-```
+-- #怪我英文垃圾箩~
+-- ```
 /* Write your PL/SQL query statement below */
 SELECT a.query_name, round(a.qualitySum / count, 2) AS quality
 	, round(a.poor_query_percentageSum / count * 100, 2) AS poor_query_percentage
@@ -13,4 +13,4 @@ FROM (
 	FROM Queries
 	GROUP BY query_name
 ) a
-```
+-- ```

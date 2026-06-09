@@ -1,10 +1,10 @@
-### 解题思路
-深度优先搜索，回溯，巧妙利用了swap
-这个代码应该很精简了！
+// ### 解题思路
+// 深度优先搜索，回溯，巧妙利用了swap
+// 这个代码应该很精简了！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         }
     }
 };
-```
+// ```

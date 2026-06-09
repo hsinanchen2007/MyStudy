@@ -1,11 +1,11 @@
-### 解题思路
-同习题 [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
+# ### 解题思路
+# 同习题 [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
 
-[299. 猜数字游戏](https://leetcode-cn.com/problems/bulls-and-cows/solution/gelthin-ji-shu-shu-zu-by-gelthin/)
+# [299. 猜数字游戏](https://leetcode-cn.com/problems/bulls-and-cows/solution/gelthin-ji-shu-shu-zu-by-gelthin/)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def CheckPermutation(self, s1: str, s2: str) -> bool:
         if len(s1) != len(s2):
@@ -26,4 +26,4 @@ class Solution:
         return True
 
     
-```
+# ```

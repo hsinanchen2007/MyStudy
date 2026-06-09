@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/8cc0dc9ff11e5ba7f02677b7d482da0faa62a8a8906efd8e92fceb1e86245934-image.png)
-1. 递归
-```
+// ![image.png](https://pic.leetcode-cn.com/8cc0dc9ff11e5ba7f02677b7d482da0faa62a8a8906efd8e92fceb1e86245934-image.png)
+// 1. 递归
+// ```
 /**
  * // Definition for a Node.
  * function Node(val, left, right, next) {
@@ -26,12 +26,12 @@ var connect = function(root) {
     connect(root.right)
     return root
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/d4fc6b239ff78795c5f20460a0596ad1ea91136a0f1169603980bc5ed5a23bb2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d4fc6b239ff78795c5f20460a0596ad1ea91136a0f1169603980bc5ed5a23bb2-image.png)
 
-2. 层次遍历
-```
+// 2. 层次遍历
+// ```
 /**
  * // Definition for a Node.
  * function Node(val, left, right, next) {
@@ -67,10 +67,10 @@ var connect = function(root) {
     }
     return root
 };
-```
+// ```
 
-利用list保存每层元素，不符合额外常量空间的要求，故舍弃
-```
+// 利用list保存每层元素，不符合额外常量空间的要求，故舍弃
+// ```
 /**
  * // Definition for a Node.
  * function Node(val, left, right, next) {
@@ -112,4 +112,4 @@ var connect = function(root) {
     }
     return root
 };
-```
+// ```

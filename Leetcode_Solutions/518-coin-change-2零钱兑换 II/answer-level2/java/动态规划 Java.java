@@ -1,9 +1,9 @@
-### 解题思路
-这是一个经典的完全背包问题，套用完全背包问题的模板即可。
+// ### 解题思路
+// 这是一个经典的完全背包问题，套用完全背包问题的模板即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int change(int amount, int[] coins) {
         int[] dp = new int[amount+1];
@@ -16,4 +16,4 @@ class Solution {
         return dp[amount];
     }
 }
-```
+// ```

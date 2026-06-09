@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-#### 迭代法
+# #### 迭代法
 
-##### 代码
+# ##### 代码
 
-```Python
+# ```Python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -17,13 +17,13 @@ class Solution:
         while p:
             rev, rev.next, p = p, rev, p.next
         return rev
-```
+# ```
 
-#### 递归法
+# #### 递归法
 
-##### 代码
+# ##### 代码
 
-```Python
+# ```Python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
         head.next.next = head
         head.next = None
         return tail
-```
+# ```

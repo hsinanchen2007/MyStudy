@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-参考 [*windliang*](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-2/) 的第四种解法，但是在*当{ i = 0 || j = 0}，切在了最前边 或者 当 {i = m || j = n}，切在最后边的时候，需要判断{j != 0 || i != 0}是否越（下）界或者判断{j != n || i !=m }是否越（上）界，不然会报错....
+// 参考 [*windliang*](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-2/) 的第四种解法，但是在*当{ i = 0 || j = 0}，切在了最前边 或者 当 {i = m || j = n}，切在最后边的时候，需要判断{j != 0 || i != 0}是否越（下）界或者判断{j != n || i !=m }是否越（上）界，不然会报错....
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 //注意各种越界....
 
@@ -84,4 +84,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
             return (maxleft + minright) / 2.0; 
         }
 }
-```
+// ```

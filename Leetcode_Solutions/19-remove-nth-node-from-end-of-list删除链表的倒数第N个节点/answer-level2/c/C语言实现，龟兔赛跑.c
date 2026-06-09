@@ -1,9 +1,9 @@
-执行结果：通过
-显示详情
-执行用时 :4 ms, 在所有 C 提交中击败了88.45%的用户
-内存消耗 :7.2 MB, 在所有 C 提交中击败了75.42%的用户
+// 执行结果：通过
+// 显示详情
+// 执行用时 :4 ms, 在所有 C 提交中击败了88.45%的用户
+// 内存消耗 :7.2 MB, 在所有 C 提交中击败了75.42%的用户
 
-```
+// ```
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     struct ListNode* tail = head;
     int i = 1;
@@ -32,4 +32,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     
     return head;
 }
-```
+// ```

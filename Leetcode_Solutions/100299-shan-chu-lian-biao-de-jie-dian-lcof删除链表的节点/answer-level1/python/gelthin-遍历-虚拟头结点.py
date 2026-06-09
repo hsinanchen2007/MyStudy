@@ -1,12 +1,12 @@
-### 解题思路
-增加一个虚拟头结点便于在头部删去节点，或者在头部插入节点，
-便于合并两个有序链表。
+# ### 解题思路
+# 增加一个虚拟头结点便于在头部删去节点，或者在头部插入节点，
+# 便于合并两个有序链表。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
             prev = prev.next
 
         return prehead.next
-```
+# ```

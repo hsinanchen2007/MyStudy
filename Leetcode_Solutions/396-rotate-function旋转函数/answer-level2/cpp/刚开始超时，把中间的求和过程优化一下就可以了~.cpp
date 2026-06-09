@@ -1,7 +1,7 @@
-![a7839ae7205be023e48fc8bc24b25b3.jpg](https://pic.leetcode-cn.com/516e7c1db325e5ff3ad216676c925d1779c958a004de91408b8679bdd0916719-a7839ae7205be023e48fc8bc24b25b3.jpg)
+// ![a7839ae7205be023e48fc8bc24b25b3.jpg](https://pic.leetcode-cn.com/516e7c1db325e5ff3ad216676c925d1779c958a004de91408b8679bdd0916719-a7839ae7205be023e48fc8bc24b25b3.jpg)
 
 
-```
+// ```
 class Solution {
 public:
     int maxRotateFunction(vector<int>& A) {
@@ -31,4 +31,4 @@ public:
     }
 };
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-为什么vector做全局变量不能初始化？？？
-fatal error: expected parameter declarator 报这样的错，看不懂啊
+// ### 解题思路
+// 为什么vector做全局变量不能初始化？？？
+// fatal error: expected parameter declarator 报这样的错，看不懂啊
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 vector<int> mark;      //为什么这里不能写成vector<int> mark(50001,0)？？？  
@@ -22,4 +22,4 @@ bool canReach(vector<int>& arr, int start){
         return arr[start];
     }
 };
-```
+// ```

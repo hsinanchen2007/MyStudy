@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -15,4 +15,4 @@ public:
         else return max(maxDepth(root->left),maxDepth(root->right))+1;
     }
 };
-```
+// ```

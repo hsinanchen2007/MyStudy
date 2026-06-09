@@ -1,7 +1,7 @@
-//从后往前遍历 不需要额外的空间
-![image.png](https://pic.leetcode-cn.com/e2b6505722d6676a28b89c026bdd9cfc30a460d476f2168ef0bd2cbcac41eb48-image.png)
+// //从后往前遍历 不需要额外的空间
+// ![image.png](https://pic.leetcode-cn.com/e2b6505722d6676a28b89c026bdd9cfc30a460d476f2168ef0bd2cbcac41eb48-image.png)
 
-```
+// ```
 func merge(nums1 []int, m int, nums2 []int, n int)  {
 	end1,end2:=m-1,n-1
 	sum:=m+n-1
@@ -25,4 +25,4 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
 	return
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class FooBar {
 private:
     int n;
@@ -32,4 +32,4 @@ public:
         }
     }
 };
-```
+// ```

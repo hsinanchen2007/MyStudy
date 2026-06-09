@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -34,5 +34,5 @@ var minDepth = function(root) {
   }
   return helper(root, 0);
 };
-```
-![image.png](https://pic.leetcode-cn.com/578b8282bf36bd71173f26140d43d9437e61505ee4eba8837a57abf119863737-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/578b8282bf36bd71173f26140d43d9437e61505ee4eba8837a57abf119863737-image.png)

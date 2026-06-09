@@ -1,9 +1,9 @@
-### 解题思路
-二分查找，并排除不必要的递归调用
+// ### 解题思路
+// 二分查找，并排除不必要的递归调用
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findX(vector<int>& nums, int target, int left, int right){
@@ -31,4 +31,4 @@ public:
             return findX(nums, target, 0, nums.size()-1);
     }
 };
-```
+// ```

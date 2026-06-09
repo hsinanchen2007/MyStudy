@@ -1,8 +1,8 @@
-### 解题思路
-当输出栈为空的时候再一次性把输入栈的内容压在输出栈中
-### 代码
+# ### 解题思路
+# 当输出栈为空的时候再一次性把输入栈的内容压在输出栈中
+# ### 代码
 
-```python3
+# ```python3
 class CQueue:
 
     def __init__(self):
@@ -28,4 +28,4 @@ class CQueue:
 # obj = CQueue()
 # obj.appendTail(value)
 # param_2 = obj.deleteHead()
-```
+# ```

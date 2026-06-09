@@ -1,9 +1,9 @@
-### 解题思路
-按照直觉来写。
+// ### 解题思路
+// 按照直觉来写。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int compress(char* chars, int charsSize){
     if(chars == NULL){
         return 0;
@@ -56,4 +56,4 @@ int compress(char* chars, int charsSize){
 
     return setIdx;
 }
-```
+// ```

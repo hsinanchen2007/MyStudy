@@ -1,4 +1,4 @@
-```
+// ```
 //本来准备用hash表的，发现不好合并，就使用数组。
 //一个二维数组，储存每个朋友圈的同学编号，同时不断合并数组，最后得到朋友圈数量
 var findCircleNum = function(M) {
@@ -46,4 +46,4 @@ var findCircleNum = function(M) {
     }
     return hash.length;
 };
-```
+// ```

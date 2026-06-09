@@ -1,7 +1,7 @@
-因为所有数字都在0 ~n-1之间；所以可以使用桶的思想。
-用n-1个桶来装每个数字的次数。
+// 因为所有数字都在0 ~n-1之间；所以可以使用桶的思想。
+// 用n-1个桶来装每个数字的次数。
 
-```
+// ```
 代码块
 func findRepeatNumber(nums []int) int {
     m := len(nums)
@@ -18,4 +18,4 @@ func findRepeatNumber(nums []int) int {
     }
     return re
 }
-```
+// ```

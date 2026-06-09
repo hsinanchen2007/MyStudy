@@ -1,9 +1,9 @@
-* 由于是简易模拟HashMap的key存储，所以不带扩容，使用固定长度数组
-* 冲突时使用双向链表在同一个bucket下存储
-* y = x ％ length 作为哈希函数
-* 用时85ms，战胜95.74%的java提交记录
+// * 由于是简易模拟HashMap的key存储，所以不带扩容，使用固定长度数组
+// * 冲突时使用双向链表在同一个bucket下存储
+// * y = x ％ length 作为哈希函数
+// * 用时85ms，战胜95.74%的java提交记录
 
-```java
+// ```java
 class MyHashMap {
 
     class Node{
@@ -90,4 +90,4 @@ class MyHashMap {
         }
     }
 }
-```
+// ```

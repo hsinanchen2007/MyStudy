@@ -1,9 +1,9 @@
-### 解题思路
-用队列实现广度优先搜索
+// ### 解题思路
+// 用队列实现广度优先搜索
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:
         return root->val;
     }
 };
-```
+// ```

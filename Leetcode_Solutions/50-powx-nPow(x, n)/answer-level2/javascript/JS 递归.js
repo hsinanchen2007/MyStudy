@@ -1,6 +1,6 @@
-# 代码
-> 80ms,33.5M。
-```javascript []
+// # 代码
+// > 80ms,33.5M。
+// ```javascript []
 /**
  * @param {number} x
  * @param {number} n
@@ -12,4 +12,4 @@ var myPow = function(x, n) {
   if (n % 2 === 0) return myPow(x * x, Math.floor(n / 2));
   return myPow(x * x, Math.floor(n / 2)) * x;
 };
-```
+// ```

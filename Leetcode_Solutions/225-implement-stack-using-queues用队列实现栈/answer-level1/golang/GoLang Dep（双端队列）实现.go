@@ -1,4 +1,4 @@
-```
+// ```
 type MyStack struct {
 	Tail *Node
 	Length int
@@ -58,4 +58,4 @@ func (this *MyStack) Empty() bool {
 	return this.Length == 0
 }
 
-```
+// ```

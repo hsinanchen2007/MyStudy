@@ -1,8 +1,8 @@
-使用 128 数组存放字符出现次数，最终遍历出现次数为 1 的即为首次出现的。
-可优化 byte 长度（如果空间换时间的话）
+// 使用 128 数组存放字符出现次数，最终遍历出现次数为 1 的即为首次出现的。
+// 可优化 byte 长度（如果空间换时间的话）
 
-### 代码
-```java
+// ### 代码
+// ```java
 public int firstUniqChar(String s) {
     char[] chars = s.toCharArray();
     byte[] bool = new byte[128]; // 如果空间换时间，可以 128 - 'a' 个长度，但是后序计算需要 -'a' 会增加字节码
@@ -13,4 +13,4 @@ public int firstUniqChar(String s) {
     for (int i = 0; i < length; i++) if (bool[chars[i]] == 1) return i; // 提取次数为 1 的下标
     return -1;
 }
-```
+// ```

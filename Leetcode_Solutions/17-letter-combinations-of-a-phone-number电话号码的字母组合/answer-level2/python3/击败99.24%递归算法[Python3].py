@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         if not digits:return []#特殊情况
@@ -11,4 +11,4 @@ class Solution:
                     res0.append(i+j)
             return func(s[1:],res0)
         return func(digits,[''])
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} s
  * @return {boolean}
@@ -52,4 +52,4 @@ function cType(c) {
     if(c === '.') return 3
     return -1
 }
-```
+// ```

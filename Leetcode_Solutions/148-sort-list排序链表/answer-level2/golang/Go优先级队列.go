@@ -1,5 +1,5 @@
-时间复杂度O(nlogn)，空间复杂度O(n)
-```
+// 时间复杂度O(nlogn)，空间复杂度O(n)
+// ```
 //https://golang.google.cn/pkg/container/heap
 type PriorityQueue []int 
 func (p PriorityQueue) Len() int { return len(p) }
@@ -36,4 +36,4 @@ func sortList(head *ListNode) *ListNode {
     }
     return h.Next
 }
-```
+// ```

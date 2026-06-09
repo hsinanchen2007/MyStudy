@@ -1,9 +1,9 @@
-### 解题思路
-第一反应就是trie，只不过把isEnd改为isFile，再加上文件内容成员content
+// ### 解题思路
+// 第一反应就是trie，只不过把isEnd改为isFile，再加上文件内容成员content
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct trie {
     bool isFile;
     string content;
@@ -95,4 +95,4 @@ private:
         return vector<string>(answer.begin() + 1, answer.end());
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-考虑删的节点的几种不同情况
-```
+// 考虑删的节点的几种不同情况
+// ```
 class Solution {
     public TreeNode deleteNode(TreeNode root, int key) {
         TreeNode parent = root;
@@ -63,4 +63,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

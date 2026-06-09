@@ -1,7 +1,7 @@
-## 双指针滑动
-1、暴力破解，时间复杂度太高
+# ## 双指针滑动
+# 1、暴力破解，时间复杂度太高
 
-```
+# ```
   # 暴力
         res = []
         sumx = 0
@@ -16,12 +16,12 @@
                 elif sumx>target:
                     break
         return res
-```
+# ```
 
 
-2、双指针滑动
+# 2、双指针滑动
 
-```
+# ```
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         # 双指针
@@ -50,4 +50,4 @@ class Solution:
                 sumx -= nums[l]
                 l+=1
         return res
-```
+# ```

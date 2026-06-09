@@ -1,10 +1,10 @@
-### 解题思路
-使用ArrayList的自带特性，从头到尾遍历链表的过程中，每次都将读取到的值加到List的最开头。这样生成的List就是反过来的所有数值。再将对象数值转成基本类型即可。
-内存击败100%用户。
+// ### 解题思路
+// 使用ArrayList的自带特性，从头到尾遍历链表的过程中，每次都将读取到的值加到List的最开头。这样生成的List就是反过来的所有数值。再将对象数值转成基本类型即可。
+// 内存击败100%用户。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

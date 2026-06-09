@@ -1,9 +1,9 @@
-### 解题思路
-字符串切分成列表，如果满足first和second同时出现，记录下third。
+# ### 解题思路
+# 字符串切分成列表，如果满足first和second同时出现，记录下third。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findOcurrences(self, text: str, first: str, second: str) -> List[str]:
         text_list = text.split(' ')
@@ -15,4 +15,4 @@ class Solution:
                 res.append(text_list[i+2])
         
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int dp[1000][1000] = {0};
 int countSubstrings(char *s)
 {
@@ -23,4 +23,4 @@ int countSubstrings(char *s)
     return res;
 }
 
-```
+// ```

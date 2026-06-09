@@ -1,9 +1,9 @@
-![1580739153(1).jpg](https://pic.leetcode-cn.com/c179571402055c12e4df21166631367d43d91c469fca8305d229b7c2bb77d186-1580739153\(1\).jpg)
+// ![1580739153(1).jpg](https://pic.leetcode-cn.com/c179571402055c12e4df21166631367d43d91c469fca8305d229b7c2bb77d186-1580739153\(1\).jpg)
 
-1. 对数组进行快速排序
-2. 对每三个相邻的元素进行求和，当大于目标值时停止，此时只需要对左边的值进行求解
-3. 使用双指针求解
-```
+// 1. 对数组进行快速排序
+// 2. 对每三个相邻的元素进行求和，当大于目标值时停止，此时只需要对左边的值进行求解
+// 3. 使用双指针求解
+// ```
 int comp(const void *a,const void *b)
 {
     return *(int *)a - *(int *)b;
@@ -76,4 +76,4 @@ int threeSumClosest(int* nums, int numsSize, int target){
         return result;
     }
 }
-```
+// ```

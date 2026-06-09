@@ -1,4 +1,4 @@
-```
+// ```
 func strStr(haystack string, needle string) int {
     
     if len(needle) == 0 {  // 按照题目要求返回0
@@ -40,4 +40,4 @@ func strStr(haystack string, needle string) int {
     return -1
     
 }
-```
+// ```

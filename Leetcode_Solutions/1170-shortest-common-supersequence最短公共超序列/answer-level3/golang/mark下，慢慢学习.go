@@ -1,6 +1,6 @@
-完全看不懂啊~~ [抄大佬的作业](https://leetcode-cn.com/u/caigogo)
+// 完全看不懂啊~~ [抄大佬的作业](https://leetcode-cn.com/u/caigogo)
 
-```go
+// ```go
 func shortestCommonSupersequence(str1 string, str2 string) string {
     n := len(str1)
     m := len(str2)
@@ -81,4 +81,4 @@ func min(a, b int) int {
     }
     return b
 }
-```
+// ```

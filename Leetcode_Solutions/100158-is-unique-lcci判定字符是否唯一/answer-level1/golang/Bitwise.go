@@ -1,15 +1,15 @@
-### 解题思路
-```
+// ### 解题思路
+// ```
 variable mark : 0000 0000 0000 0000 0000 0000 0000 0000
 mark as       :        zy xwvu tsrq ponm lkji hgfe dcba  
-``` 
+// ``` 
 
-replace map with uint32 as mark which character appeared.     
-- satisfy the condition of not use additional data structures.              
+// replace map with uint32 as mark which character appeared.     
+// - satisfy the condition of not use additional data structures.              
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isUnique(astr string) bool {
     var mark uint32 = 0
     for _, ch := range astr {
@@ -22,4 +22,4 @@ func isUnique(astr string) bool {
     }
     return true
 }
-```
+// ```

@@ -1,14 +1,14 @@
-## 思路：
+# ## 思路：
 
-使用双循环固定两个数，用双指针找另外两个数，通过比较与`target` 的大小，移动指针。
+# 使用双循环固定两个数，用双指针找另外两个数，通过比较与`target` 的大小，移动指针。
 
-里面有一些优化，可以直接看代码，很好理解！
+# 里面有一些优化，可以直接看代码，很好理解！
 
-所以时间复杂度不超过$O(n^3)$
+# 所以时间复杂度不超过$O(n^3)$
 
-## 代码：
+# ## 代码：
 
-```Python []
+# ```Python []
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         n = len(nums)
@@ -53,8 +53,8 @@ class Solution:
                     else:
                         left += 1
         return res
-```
-```Java []
+# ```
+# ```Java []
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> res = new LinkedList<>();
@@ -90,5 +90,5 @@ class Solution {
         return res; 
     }
 }
-```
+# ```
 

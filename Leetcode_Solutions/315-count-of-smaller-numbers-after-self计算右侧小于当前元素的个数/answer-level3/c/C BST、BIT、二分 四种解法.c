@@ -1,8 +1,8 @@
-【直接利用BST】
-48 ms	23.7 MB
-比较难想到
+// 【直接利用BST】
+// 48 ms	23.7 MB
+// 比较难想到
 
-```
+// ```
 #include <stdio.h>
 
 struct BstNode {
@@ -56,12 +56,12 @@ int* countSmaller(int* nums, int numsSize, int* returnSize){
     *returnSize = numsSize;
     return ans;
 }
-```
+// ```
 
-【间接利用BST】
-52 ms	29.1 MB
-和树状数组思路一样
-```
+// 【间接利用BST】
+// 52 ms	29.1 MB
+// 和树状数组思路一样
+// ```
 #include <stdio.h>
 
 struct RNode {
@@ -230,12 +230,12 @@ int* countSmaller(int* nums, int numsSize, int* returnSize){
     free(rankNum);
     return ans;
 }
-```
+// ```
 
-【树状数组】
-36 ms	11.3 MB
-执行效率较高，代码简洁，推介使用！
-```
+// 【树状数组】
+// 36 ms	11.3 MB
+// 执行效率较高，代码简洁，推介使用！
+// ```
 static int Lowbit(int x)
 {
 	return x & (-x);
@@ -305,12 +305,12 @@ int* countSmaller(int* nums, int numsSize, int* returnSize){
 	*returnSize = numsSize;
 	return ans;
 }
-```
+// ```
 
-【二分】
-408 ms	10.2 MB
-比较容易想到，但是更新数组需要逐个移动，效率很低，比其他算法运行时长大10倍。
-```
+// 【二分】
+// 408 ms	10.2 MB
+// 比较容易想到，但是更新数组需要逐个移动，效率很低，比其他算法运行时长大10倍。
+// ```
 #include <stdio.h>
 
 static int *g_record;
@@ -371,4 +371,4 @@ int* countSmaller(int* nums, int numsSize, int* returnSize){
     *returnSize = numsSize;
     return ans;
 }
-```
+// ```

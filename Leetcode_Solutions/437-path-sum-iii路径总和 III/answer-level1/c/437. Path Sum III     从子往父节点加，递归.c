@@ -1,10 +1,10 @@
-### 解题思路
-１．参考精选题解
-２．每往下一层，从下一层开始数，都是新的路径
+// ### 解题思路
+// １．参考精选题解
+// ２．每往下一层，从下一层开始数，都是新的路径
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ int pathSum(struct TreeNode* root, int sum){
     int * arr = malloc(1000 * sizeof(int));
     return dfs(root, sum, arr, 0);
 }
-```
+// ```

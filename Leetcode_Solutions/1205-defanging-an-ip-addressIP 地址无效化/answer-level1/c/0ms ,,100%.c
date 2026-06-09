@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * defangIPaddr(char *address){
     int i=0,j=0,ls=strlen(address);
     char s[ls+7];
@@ -21,4 +21,4 @@ char * defangIPaddr(char *address){
     }
     return x;
 }
-```
+// ```

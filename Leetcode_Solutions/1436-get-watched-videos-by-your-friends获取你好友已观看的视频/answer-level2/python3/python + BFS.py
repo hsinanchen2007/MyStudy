@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def watchedVideosByFriends(self, watchedVideos: List[List[str]], friends: List[List[int]], id: int, level: int) -> List[str]:
         fri_dic = collections.defaultdict(list)
@@ -21,4 +21,4 @@ class Solution:
         res = sorted(res_dic.items(), key = lambda x : (x[1], x[0]))
         return  [x[0] for x in res]
 
-```
+# ```

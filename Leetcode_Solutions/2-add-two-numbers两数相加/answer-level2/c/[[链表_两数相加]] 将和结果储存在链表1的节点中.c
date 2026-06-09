@@ -1,9 +1,9 @@
 
-把链表1和链表2相加的和结果储存在链表1的各结点中，最后返回链表1。
-链表1空间不够时，调用链表2的空间attach给链表1。以下详细解释。
+// 把链表1和链表2相加的和结果储存在链表1的各结点中，最后返回链表1。
+// 链表1空间不够时，调用链表2的空间attach给链表1。以下详细解释。
 
 
-```c
+// ```c
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
 //定义进位标志、节点和、链表1的头、当前结点空间、链表2的头
     int plus = 0,nodeSum = 0;
@@ -34,4 +34,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return head1;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/a6a3ca303cd8f5a93ce721fd1a60c63ac6a8160576e813c36115c499105f0b55-image.png)
-```python
+# ![image.png](https://pic.leetcode-cn.com/a6a3ca303cd8f5a93ce721fd1a60c63ac6a8160576e813c36115c499105f0b55-image.png)
+# ```python
 class Solution:
     def reverse(self, x: int) -> int:
         min = -2**31
@@ -27,4 +27,4 @@ class Solution:
                 else:
                     return 0
     
-```
+# ```

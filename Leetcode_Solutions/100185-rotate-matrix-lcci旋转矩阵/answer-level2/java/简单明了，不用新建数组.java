@@ -1,15 +1,15 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-首先设计一个将矩阵中某四个元素顺时针旋转90°的函数ring。
+// 首先设计一个将矩阵中某四个元素顺时针旋转90°的函数ring。
 
-如果n=方形矩阵.length;
-那么只需将第 i 行的第 j = i 到 j = ( n - 1 ) / 2 列元素进行ring就可以了
+// 如果n=方形矩阵.length;
+// 那么只需将第 i 行的第 j = i 到 j = ( n - 1 ) / 2 列元素进行ring就可以了
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
@@ -47,4 +47,4 @@ class Solution {
         }
     }
 }
-```
+// ```

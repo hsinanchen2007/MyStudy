@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func maxProfit(_ prices: [Int]) -> Int {
         if prices.count < 2 {
@@ -20,4 +20,4 @@ class Solution {
         return newPrices.last!
     }
 }
-```
+// ```

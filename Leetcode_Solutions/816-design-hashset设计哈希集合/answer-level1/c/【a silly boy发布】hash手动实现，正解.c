@@ -1,6 +1,6 @@
-![254B90C3-9DEA-4BF1-9F4C-53FF88D20EC4.jpeg](https://pic.leetcode-cn.com/a57816049fe2d3730f7ea0374e8601f7f341f3a73936f183c52521028f41634e-254B90C3-9DEA-4BF1-9F4C-53FF88D20EC4.jpeg)
+// ![254B90C3-9DEA-4BF1-9F4C-53FF88D20EC4.jpeg](https://pic.leetcode-cn.com/a57816049fe2d3730f7ea0374e8601f7f341f3a73936f183c52521028f41634e-254B90C3-9DEA-4BF1-9F4C-53FF88D20EC4.jpeg)
 
-```
+// ```
 typedef struct Val {
     int val;
     struct Val *next;
@@ -134,4 +134,4 @@ void myHashSetFree(MyHashSet* obj) {
  
  * myHashSetFree(obj);
 */
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-不太喜欢DFS，因为DFS如果遇到1万个单链表式（例如只有左节点，10000层）的话，会暴栈..
-用BFS写
+# ### 解题思路
+# 不太喜欢DFS，因为DFS如果遇到1万个单链表式（例如只有左节点，10000层）的话，会暴栈..
+# 用BFS写
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution(object):
         return [v for nodes, v in last_queue]
 
 
-```
+# ```

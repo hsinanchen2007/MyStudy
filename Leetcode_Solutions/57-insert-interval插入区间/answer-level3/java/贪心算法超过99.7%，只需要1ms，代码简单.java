@@ -1,6 +1,6 @@
-代码如下：
+// 代码如下：
 
-```
+// ```
     public int[][] insert(int[][] intervals, int[] newInterval) {
         List<int[]> res = new ArrayList<>();
         //如果已经解决了冲突，就不用再解决一遍，简单的逻辑优化
@@ -38,4 +38,4 @@
         }
         return res.toArray(new int[0][]);
     }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-链表的题都不难，无非就是头插和尾插法的使用。
+// ### 解题思路
+// 链表的题都不难，无非就是头插和尾插法的使用。
 
-这里需要注意这个是移动，而不是逆转。
+// 这里需要注意这个是移动，而不是逆转。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
     }
     return r;
 }
-```
+// ```

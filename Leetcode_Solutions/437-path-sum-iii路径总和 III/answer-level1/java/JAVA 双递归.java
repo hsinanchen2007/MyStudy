@@ -1,7 +1,7 @@
-使用leetcode模拟面试的时候碰到的题目，作为简单题感觉稍微复杂了些
-最外层做DFS遍历，每次DFS到新节点，递归求和。
-时间复杂度应该是N*logN，遍历了所有节点N，每个节点求和logN
-```
+// 使用leetcode模拟面试的时候碰到的题目，作为简单题感觉稍微复杂了些
+// 最外层做DFS遍历，每次DFS到新节点，递归求和。
+// 时间复杂度应该是N*logN，遍历了所有节点N，每个节点求和logN
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ class Solution {
         dfs(root.right,target-root.val);
     }
 }
-```
+// ```

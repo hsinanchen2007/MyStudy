@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] replaceElements(int[] arr) {
          if(arr.length==1)return new int[]{-1};
@@ -12,5 +12,5 @@ class Solution {
         return arr;
     }
 }
-```
-从前往后面扫一遍，用rightMax记住最大的一个数，然后更新数组。
+// ```
+// 从前往后面扫一遍，用rightMax记住最大的一个数，然后更新数组。

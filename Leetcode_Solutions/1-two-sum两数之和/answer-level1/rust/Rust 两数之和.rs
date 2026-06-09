@@ -1,5 +1,5 @@
-# 暴力法
-```rust
+// # 暴力法
+// ```rust
 impl Solution {
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         for i in 0..nums.len() {
@@ -12,10 +12,10 @@ impl Solution {
         vec![]
     }
 }
-```
-# 哈希表法
+// ```
+// # 哈希表法
 
-```rust
+// ```rust
 use std::collections::HashMap;
 impl Solution {
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
@@ -29,4 +29,4 @@ impl Solution {
         vec![]
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-``` ts
+// ``` ts
 class LFUCache {
   private kv: IKV = {};
   private countList = new LinkedList<ICountNodeValue>();
@@ -295,4 +295,4 @@ interface IKV {
   }
 }
 
-```
+// ```

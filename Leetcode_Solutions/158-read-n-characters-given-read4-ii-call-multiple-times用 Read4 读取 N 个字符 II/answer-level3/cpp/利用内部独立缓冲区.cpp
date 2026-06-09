@@ -1,7 +1,7 @@
-非常经典的题目，在CSAPP书中作者有类似的演示代码(rio_readlinen函数)，基本思路是利用缓冲区，既可以使得函数能被多次调用，也可加快读取速度。
-这里的代码与CSAPP中的非常类似，只是没有将内部buff抽象成独立数据结构
+// 非常经典的题目，在CSAPP书中作者有类似的演示代码(rio_readlinen函数)，基本思路是利用缓冲区，既可以使得函数能被多次调用，也可加快读取速度。
+// 这里的代码与CSAPP中的非常类似，只是没有将内部buff抽象成独立数据结构
 
-```
+// ```
 // Forward declaration of the read4 API.
 int read4(char *buf);
 
@@ -36,4 +36,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

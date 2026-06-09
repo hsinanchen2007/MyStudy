@@ -1,10 +1,10 @@
-### 解题思路
-就按照题目的要求，不明所以的就过了。
+// ### 解题思路
+// 就按照题目的要求，不明所以的就过了。
 
-不过大佬们说水很深，看来还是需要多历练啊。
-### 代码
+// 不过大佬们说水很深，看来还是需要多历练啊。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     Solution(vector<int>& nums) {
@@ -36,4 +36,4 @@ private:
  * vector<int> param_1 = obj->reset();
  * vector<int> param_2 = obj->shuffle();
  */
-```
+// ```

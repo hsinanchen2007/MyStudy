@@ -1,7 +1,7 @@
-从最高位数开始遍历，当第1位保持不变时，剩下的数排列组合有(n-1)! 种，当第2位保持不变时，剩下的数排列组合有(n-2)! 种... 以此类推。
-当k能被某个阶层整除时，说明已经到了这个数字的最后一种排列，剩下的数字倒序就行了。
-用一个list记录没被用到的数字。
-``` java
+// 从最高位数开始遍历，当第1位保持不变时，剩下的数排列组合有(n-1)! 种，当第2位保持不变时，剩下的数排列组合有(n-2)! 种... 以此类推。
+// 当k能被某个阶层整除时，说明已经到了这个数字的最后一种排列，剩下的数字倒序就行了。
+// 用一个list记录没被用到的数字。
+// ``` java
 public String getPermutation(int n, int k) {
         StringBuilder sb = new StringBuilder();
         List<Integer> list = new ArrayList<>();
@@ -30,4 +30,4 @@ public String getPermutation(int n, int k) {
         }
         return sb.toString();
     }
-```
+// ```

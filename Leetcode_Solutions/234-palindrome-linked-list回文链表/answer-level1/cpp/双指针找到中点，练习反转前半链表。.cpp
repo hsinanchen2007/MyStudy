@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/dfd71a17ef156425db089527cd1024d0ddc8c60f4f188eeadedc63f2b204c321-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/dfd71a17ef156425db089527cd1024d0ddc8c60f4f188eeadedc63f2b204c321-image.png)
 
-此处撰写解题思路
-先用双指针找到中间点，处于练习目的，反转前半链表，而后遍历是否有差。
-### 代码
+// 此处撰写解题思路
+// 先用双指针找到中间点，处于练习目的，反转前半链表，而后遍历是否有差。
+// ### 代码
 
-```cpp
+// ```cpp
 
 class Solution {
 public:
@@ -62,4 +62,4 @@ public:
     }
 };
 
-```
+// ```

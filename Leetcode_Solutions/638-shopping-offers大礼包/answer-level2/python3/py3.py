@@ -1,4 +1,4 @@
-```
+# ```
 # https://leetcode-cn.com/problems/shopping-offers/
 class Solution:
     def shoppingOffers(self, price: List[int], special: List[List[int]], needs: List[int]) -> int:
@@ -19,4 +19,4 @@ class Solution:
             sol = min(sol, av_sp_price)
         return sol
 
-```
+# ```

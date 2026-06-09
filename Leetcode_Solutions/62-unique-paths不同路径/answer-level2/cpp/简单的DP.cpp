@@ -1,12 +1,12 @@
-# 思路
-不失一般性,假设第i行第j列的路径数量为f[i,j]. 那么, 第i行第j列 只能从
-1. i-1 行,j列向下走
-2. i行,j-1 列向右走
-所以f[i,j]的 状态可以表示为 f[i,j] = f[i -1,j] + f[i , j-1];
+// # 思路
+// 不失一般性,假设第i行第j列的路径数量为f[i,j]. 那么, 第i行第j列 只能从
+// 1. i-1 行,j列向下走
+// 2. i行,j-1 列向右走
+// 所以f[i,j]的 状态可以表示为 f[i,j] = f[i -1,j] + f[i , j-1];
 
-![213.png](https://pic.leetcode-cn.com/2fde5c2aa75332a10e5da069c4d7becd2a6e5e23c84911a82ece91bb48537ff8-213.png)
+// ![213.png](https://pic.leetcode-cn.com/2fde5c2aa75332a10e5da069c4d7becd2a6e5e23c84911a82ece91bb48537ff8-213.png)
 
-```
+// ```
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -25,6 +25,6 @@ public:
         
     }
 };
-```
-y总牛逼 %%%%%%%%%%
+// ```
+// y总牛逼 %%%%%%%%%%
 

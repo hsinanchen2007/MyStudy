@@ -1,6 +1,6 @@
-很容易理解的两种方法，我都提供了
+# 很容易理解的两种方法，我都提供了
 
-```
+# ```
 class Solution:
     def exchange(self, nums: List[int]) -> List[int]:
         if not nums:
@@ -34,4 +34,4 @@ class Solution:
     #             res[left]=v
     #             left+=1 
     #     return res
-```
+# ```

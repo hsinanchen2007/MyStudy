@@ -1,5 +1,5 @@
-参考448
-```
+// 参考448
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -22,4 +22,4 @@ int* findDuplicates(int* nums, int numsSize, int* returnSize){
     *returnSize=index;
     return ret;
 }
-```
+// ```

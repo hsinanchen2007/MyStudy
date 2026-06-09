@@ -1,4 +1,4 @@
-```
+// ```
 var longestPalindrome = function(s) {
     if (s === '')
         return s
@@ -28,4 +28,4 @@ var longestPalindrome = function(s) {
     }
     return maxStr
 };
-```
+// ```

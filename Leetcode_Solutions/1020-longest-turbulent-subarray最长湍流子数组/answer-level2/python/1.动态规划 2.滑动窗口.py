@@ -1,6 +1,6 @@
-# 一.DP
-**思路**：比较常规 分成两种情况
-```python []
+# # 一.DP
+# **思路**：比较常规 分成两种情况
+# ```python []
 class Solution:
 	def maxTurbulenceSize(self,A):
 		dp_1=dp_2=ans=1 #一个是↗ 一个是↘
@@ -16,8 +16,8 @@ class Solution:
 				if dp_1>ans:
 					ans=dp_1 #也可以直接在最后ans=max(ans,dp_1,dp_2) 不需要写两个判断了
 		return ans
-```
-```golang []
+# ```
+# ```golang []
 func maxTurbulenceSize(A []int) int {
 	dp_1,dp_2,ans:=1,1,1
 	for i:=1;i<len(A);i++ {
@@ -37,10 +37,10 @@ func maxTurbulenceSize(A []int) int {
 	}
 	return ans
 }
-```
-# 二.滑动窗口
-**思路**：断掉的地方就可能是新的起点
-```python []
+# ```
+# # 二.滑动窗口
+# **思路**：断掉的地方就可能是新的起点
+# ```python []
 class Solution:
 	def maxTurbulenceSize(self,A):
 		ans,legt,i=1,len(A),1 #i遍历A时的索引
@@ -58,8 +58,8 @@ class Solution:
 				ans=l if l>ans else ans
 		except AssertionError:
 			return ans
-```
-```golang []
+# ```
+# ```golang []
 func maxTurbulenceSize(A []int) int {
 	ans,i,legt:=1,1,len(A) //i遍历A时的索引
 	for {
@@ -81,6 +81,6 @@ func maxTurbulenceSize(A []int) int {
 		}
 	}
 }
-```
-**注意**：本人菜鸡 尤其是滑动窗口的代码写得比较繁杂 还请大家多多指教
+# ```
+# **注意**：本人菜鸡 尤其是滑动窗口的代码写得比较繁杂 还请大家多多指教
 

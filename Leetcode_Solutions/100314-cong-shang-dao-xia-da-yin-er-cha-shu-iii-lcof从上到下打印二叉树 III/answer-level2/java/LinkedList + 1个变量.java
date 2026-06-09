@@ -1,7 +1,7 @@
-顺带一提这道题就是leetcode的[103题](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
+// 顺带一提这道题就是leetcode的[103题](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
 
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new LinkedList<>();
@@ -42,4 +42,4 @@ class Solution {
         }
     }
 }
-```
+// ```

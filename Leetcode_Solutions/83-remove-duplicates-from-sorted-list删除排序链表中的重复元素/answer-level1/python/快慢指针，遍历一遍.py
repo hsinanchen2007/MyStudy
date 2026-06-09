@@ -1,4 +1,4 @@
-```
+# ```
 创建两个指针，从head开始一前一后，在遍历时四种情况分开处理：
 （1）链表为空或者长度为1，直接返回head
 while 快指针指向的节点不为空：
@@ -38,4 +38,4 @@ class Solution(object):
                 break
                 
         return head
-```
+# ```

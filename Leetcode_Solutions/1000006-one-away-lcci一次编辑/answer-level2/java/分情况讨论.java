@@ -1,12 +1,12 @@
-### 解题思路
-不整花里胡哨的直接做，根据两个字符串 first 和 second 的长度进行分情况讨论：
-1. `Math.abs(first.length() - second.length()) >= 2`时，咋都不可能只一次操作使两者相同；
-2. first 和 second 长度相差 1，通过`substring()`方法去掉同一位置第一个不一样的字符，此时若两者相等，返回`true`，否则返回`false`；
-3. 长度相同时，将遍历到的第一个不同字符替换，若两者相同返回`true`，否则返回`false`。
+// ### 解题思路
+// 不整花里胡哨的直接做，根据两个字符串 first 和 second 的长度进行分情况讨论：
+// 1. `Math.abs(first.length() - second.length()) >= 2`时，咋都不可能只一次操作使两者相同；
+// 2. first 和 second 长度相差 1，通过`substring()`方法去掉同一位置第一个不一样的字符，此时若两者相等，返回`true`，否则返回`false`；
+// 3. 长度相同时，将遍历到的第一个不同字符替换，若两者相同返回`true`，否则返回`false`。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean oneEditAway(String first, String second) {
         if(Math.abs(first.length() - second.length()) >= 2) return false;
@@ -42,4 +42,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

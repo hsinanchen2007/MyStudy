@@ -1,4 +1,4 @@
-```
+// ```
 func bestSeqAtIndex(height []int, weight []int) int {
     n := len(height)
     if n == 0 {
@@ -34,4 +34,4 @@ func bestSeqAtIndex(height []int, weight []int) int {
     return len(f)
 }
 
-```
+// ```

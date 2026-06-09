@@ -1,6 +1,6 @@
-![QQ图片20190923184109.png](https://pic.leetcode-cn.com/82fe59bfcfe75979971c4a7d62becb40a14296ef18562e52e77c5d2958ea020c-QQ%E5%9B%BE%E7%89%8720190923184109.png)
+// ![QQ图片20190923184109.png](https://pic.leetcode-cn.com/82fe59bfcfe75979971c4a7d62becb40a14296ef18562e52e77c5d2958ea020c-QQ%E5%9B%BE%E7%89%8720190923184109.png)
 
-```
+// ```
 class Solution {
 public:
     int brokenCalc(int X, int Y) {
@@ -21,4 +21,4 @@ public:
         return res;
     }
 };
-```
+// ```

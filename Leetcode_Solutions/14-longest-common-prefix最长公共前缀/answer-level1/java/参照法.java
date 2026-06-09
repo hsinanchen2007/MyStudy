@@ -1,9 +1,9 @@
-### 解题思路
-以第一个字符串为参照，依次在后面的字符串中一个一个查找，遇到不一样的、长度不够的则跳出返回
+// ### 解题思路
+// 以第一个字符串为参照，依次在后面的字符串中一个一个查找，遇到不一样的、长度不够的则跳出返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         String common = "";
@@ -37,4 +37,4 @@ class Solution {
         return common;
     }
 }
-```
+// ```

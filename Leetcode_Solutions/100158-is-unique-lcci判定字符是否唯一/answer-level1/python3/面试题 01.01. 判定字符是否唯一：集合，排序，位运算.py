@@ -1,23 +1,23 @@
-### 集合
+# ### 集合
 
-```python []
+# ```python []
 class Solution:
     def isUnique(self, astr: str) -> bool:
         return len({*astr}) == len(astr)
-```
+# ```
 
-### 排序
+# ### 排序
 
-```python []
+# ```python []
 class Solution:
     def isUnique(self, astr: str) -> bool:
         s = sorted(astr)
         return all(s[i] != c for i, c in enumerate(s[1: ]))
-```
+# ```
 
-### 位运算
+# ### 位运算
 
-```python []
+# ```python []
 class Solution:
     def isUnique(self, astr: str) -> bool:
         t = 0
@@ -26,4 +26,4 @@ class Solution:
                 return False
             t |= p
         return True
-```
+# ```

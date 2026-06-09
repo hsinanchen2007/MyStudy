@@ -1,10 +1,10 @@
-### 解题思路
-hash、并查集都是轮子，还算比较通用，各位自行取用
-思路见注释
+// ### 解题思路
+// hash、并查集都是轮子，还算比较通用，各位自行取用
+// 思路见注释
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 //#include "uthash.h"
 
@@ -122,4 +122,4 @@ int longestConsecutive(int* nums, int numsSize){
     }
     return maxCnt;
 }
-```
+// ```

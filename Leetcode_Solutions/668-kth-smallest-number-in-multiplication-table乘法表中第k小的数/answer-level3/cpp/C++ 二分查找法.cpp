@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int countLessEqual(int m, int n, int t) {
@@ -23,7 +23,7 @@ public:
         return r;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d6e4ffa316fec034130d27ceea8adf872203093073950dd5f49307a1092575f4-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d6e4ffa316fec034130d27ceea8adf872203093073950dd5f49307a1092575f4-image.png)
 
 

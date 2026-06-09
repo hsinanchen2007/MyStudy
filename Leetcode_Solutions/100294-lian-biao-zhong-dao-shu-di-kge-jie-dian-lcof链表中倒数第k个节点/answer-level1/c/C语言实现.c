@@ -1,12 +1,12 @@
-### 解题思路
-该题较为简单，解题思路如下：
-* 定义一个获取链表长度的函数
-* 获取链表长度len，并计算得出倒数第K个数对应在链表中正数的位置len-k
-* 循环遍历链表到len-k的位置，并返回
+// ### 解题思路
+// 该题较为简单，解题思路如下：
+// * 定义一个获取链表长度的函数
+// * 获取链表长度len，并计算得出倒数第K个数对应在链表中正数的位置len-k
+// * 循环遍历链表到len-k的位置，并返回
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,15 +39,15 @@ struct ListNode* getKthFromEnd(struct ListNode* head, int k)
     }
     return head;
 }
-```
-### 解题思路
-参考别人的解法（更好的解法），用**双指针**实现了一遍，思路如下：
-* 创建双指针p和q
-* p先走K步，之后q再往前走，直到p == NULL时，跳出循环
-* 返回q之前，需判断p是否向前走了K步
+// ```
+// ### 解题思路
+// 参考别人的解法（更好的解法），用**双指针**实现了一遍，思路如下：
+// * 创建双指针p和q
+// * p先走K步，之后q再往前走，直到p == NULL时，跳出循环
+// * 返回q之前，需判断p是否向前走了K步
 
-### 代码
-``` c
+// ### 代码
+// ``` c
 struct ListNode* getKthFromEnd(struct ListNode* head, int k)
 {
     //双指针
@@ -66,4 +66,4 @@ struct ListNode* getKthFromEnd(struct ListNode* head, int k)
     }
     return (i<k ? NULL:q);
 }
-```
+// ```

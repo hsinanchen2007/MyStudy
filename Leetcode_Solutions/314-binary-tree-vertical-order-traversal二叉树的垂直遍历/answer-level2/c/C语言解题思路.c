@@ -1,9 +1,9 @@
-### 解题思路
-以根节点为Y坐标轴（坐标为0），其左节点坐标为-1，右节点坐标为1；前序遍历树，将各个节点的data和坐标记录下来；然后根据坐标降序排列（注意同一列输出时上层元素在前）。
+// ### 解题思路
+// 以根节点为Y坐标轴（坐标为0），其左节点坐标为-1，右节点坐标为1；前序遍历树，将各个节点的data和坐标记录下来；然后根据坐标降序排列（注意同一列输出时上层元素在前）。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define         MY_TRUE     1
 #define         MY_FALSE    0
 
@@ -221,4 +221,4 @@ int** verticalOrder(struct TreeNode* root, int* returnSize, int** returnColumnSi
     InitGlobal();
     return rslt;
 }
-```
+// ```

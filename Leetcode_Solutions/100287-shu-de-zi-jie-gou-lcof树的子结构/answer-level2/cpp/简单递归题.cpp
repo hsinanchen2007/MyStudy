@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     bool isSubStructure(TreeNode* A, TreeNode* B) {
@@ -22,4 +22,4 @@ public:
         }
     }
 };
-```
+// ```

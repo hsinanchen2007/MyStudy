@@ -1,4 +1,4 @@
-```python
+# ```python
 def addToArrayForm(A, K):
     A = list(reversed(A))
     K = list(reversed(list(str(K))))
@@ -26,4 +26,4 @@ def addToArrayForm(A, K):
     return list(reversed(r))
 
 print(addToArrayForm([1,2,0,0], 34))
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-C语言，依次判断指定元素是否为0且前一个元素和后一个元素是否为0，其中首尾元素需要重点关注，特殊场景需要关注
+// C语言，依次判断指定元素是否为0且前一个元素和后一个元素是否为0，其中首尾元素需要重点关注，特殊场景需要关注
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canPlaceFlowers(int* flowerbed, int flowerbedSize, int n){
     int i, cnt;
     
@@ -45,4 +45,4 @@ bool canPlaceFlowers(int* flowerbed, int flowerbedSize, int n){
     }
 }
 
-```
+// ```

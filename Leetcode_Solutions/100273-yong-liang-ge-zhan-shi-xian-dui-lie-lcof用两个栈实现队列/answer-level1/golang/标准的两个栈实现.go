@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-用两个切片作为栈进行append、[ : ]处理。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 用两个切片作为栈进行append、[ : ]处理。
+// ### 代码
 
-```golang
+// ```golang
 type CQueue struct {
     s1 []int
     s2 []int
@@ -46,4 +46,4 @@ func (this *CQueue) DeleteHead() int {
  * obj.AppendTail(value);
  * param_2 := obj.DeleteHead();
  */
-```
+// ```

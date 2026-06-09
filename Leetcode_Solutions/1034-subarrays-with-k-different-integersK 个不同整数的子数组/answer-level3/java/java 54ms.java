@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int subarraysWithKDistinct(int[] A, int K) {
         int count = 0;
@@ -31,4 +31,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

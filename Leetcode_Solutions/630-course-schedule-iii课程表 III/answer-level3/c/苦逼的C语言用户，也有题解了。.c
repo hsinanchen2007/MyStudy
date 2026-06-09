@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/793def46ba0ae3fda69e9fb481ce9011a09cbf59f5f9ad1a244df30f65080c71-image.png)
-1、对二维数组进行排序，用qsort。
-2、写一个优先级链表，头部是最大值。核心代码如下，当第i门课的课时 + 前（i-1）门课的最优值超过第i门课的截止时间endDay时，删除链表的头部元素（最大值）。
-```
+// ![image.png](https://pic.leetcode-cn.com/793def46ba0ae3fda69e9fb481ce9011a09cbf59f5f9ad1a244df30f65080c71-image.png)
+// 1、对二维数组进行排序，用qsort。
+// 2、写一个优先级链表，头部是最大值。核心代码如下，当第i门课的课时 + 前（i-1）门课的最优值超过第i门课的截止时间endDay时，删除链表的头部元素（最大值）。
+// ```
 for (int i = 0; i < coursesSize; i++) {
         courseLen = courses[i][0];
         endDay = courses[i][1];
@@ -13,10 +13,10 @@ for (int i = 0; i < coursesSize; i++) {
             PriLinkedListDelHead(priLL);
         }
     }
-```
+// ```
 
-==============================================================
-```
+// ==============================================================
+// ```
 int cmp(const void* a, const void* b)
 {
     int* ptrA = *(int** )a;
@@ -98,5 +98,5 @@ int scheduleCourse(int** courses, int coursesSize, int* coursesColSize)
     }
     return priLL->priLength;
 }
-```
+// ```
 

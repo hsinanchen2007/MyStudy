@@ -1,9 +1,9 @@
-### 解题思路
-利用stl中的partial_sort算法
+// ### 解题思路
+// 利用stl中的partial_sort算法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -13,9 +13,9 @@ public:
         return res;
     }
 };
-```
+// ```
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {

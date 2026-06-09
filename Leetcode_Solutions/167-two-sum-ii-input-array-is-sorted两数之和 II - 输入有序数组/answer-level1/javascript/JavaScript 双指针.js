@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} numbers
  * @param {number} target
@@ -19,4 +19,4 @@ var twoSum = function(numbers, target) {
     }
     return [];
 };
-```
+// ```

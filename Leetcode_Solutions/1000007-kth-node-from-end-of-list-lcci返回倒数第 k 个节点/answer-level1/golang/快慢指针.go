@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针，先让两个指针之间的距离为k，然后一起向后移动，快指针走到链尾的时候慢指针就是倒数第k个
+// ### 解题思路
+// 快慢指针，先让两个指针之间的距离为k，然后一起向后移动，快指针走到链尾的时候慢指针就是倒数第k个
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -26,4 +26,4 @@ func kthToLast(head *ListNode, k int) int {
     }
     return pSlow.Val
 }
-```
+// ```

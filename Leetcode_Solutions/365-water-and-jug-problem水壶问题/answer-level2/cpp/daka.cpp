@@ -1,8 +1,8 @@
-参考别人的思路。。
+// 参考别人的思路。。
 
-[https://blog.csdn.net/qq_40636117/article/details/80340421]()
+// [https://blog.csdn.net/qq_40636117/article/details/80340421]()
 
-```
+// ```
 class Solution {
 public:
     int gcd(int x, int y)
@@ -19,4 +19,4 @@ public:
         return false;
     }
 };
-```
+// ```

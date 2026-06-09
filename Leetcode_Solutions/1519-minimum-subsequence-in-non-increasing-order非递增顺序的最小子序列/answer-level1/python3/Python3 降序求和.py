@@ -1,5 +1,5 @@
-降序后求和，当和大于nums数组和的1/2时弹出
-```
+# 降序后求和，当和大于nums数组和的1/2时弹出
+# ```
 class Solution:
     def minSubsequence(self, nums: List[int]) -> List[int]:
         temp = int(sum(nums)/2)
@@ -12,4 +12,4 @@ class Solution:
             if s > temp:
                 break
         return ans
-```
+# ```

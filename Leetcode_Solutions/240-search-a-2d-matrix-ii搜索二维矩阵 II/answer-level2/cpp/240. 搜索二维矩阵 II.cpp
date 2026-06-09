@@ -1,6 +1,6 @@
-简单的对已排序的矩阵进行搜索。
+// 简单的对已排序的矩阵进行搜索。
 
-```
+// ```
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -26,4 +26,4 @@ public:
         return false;
     }
 };
-```
+// ```

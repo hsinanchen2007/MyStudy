@@ -1,5 +1,5 @@
-本题容易溢出，故用long类型
-```
+// 本题容易溢出，故用long类型
+// ```
 class Solution {
 public:
     bool isValidBST(TreeNode *root) {
@@ -14,4 +14,4 @@ public:
             return false;
     }
 };
-```
+// ```

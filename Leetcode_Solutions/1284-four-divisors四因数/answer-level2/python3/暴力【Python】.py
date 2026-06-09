@@ -1,19 +1,19 @@
-### 思路
+# ### 思路
 
-**数学**
+# **数学**
 
-```
+# ```
 暴力计算每个数的因数个数。
 满足四个，就因数相加。
 注意：因数不能重复。
-```
+# ```
 
-**时间复杂度:** O(n*max(int(sqrt(x)), 4))，n 为 nums 个数。
-**空间复杂度:** O(1)
+# **时间复杂度:** O(n*max(int(sqrt(x)), 4))，n 为 nums 个数。
+# **空间复杂度:** O(1)
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 from typing import List
 
 class Solution:
@@ -40,8 +40,8 @@ class Solution:
                     # print(_)
                     sum += _
         return int(sum)
-```
+# ```
 
-### GitHub链接
+# ### GitHub链接
 
-[Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1390-Four-Divisors/1390.py)
+# [Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1390-Four-Divisors/1390.py)

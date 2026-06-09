@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -89,4 +89,4 @@ char ** binaryTreePaths(struct TreeNode* root, int* returnSize){
     }
     return result;
 }
-```
+// ```

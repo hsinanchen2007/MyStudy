@@ -1,11 +1,11 @@
-### 解题思路
-动态规划
-抢了第i-1家：抢i-2家最多的钱+第[i]家的钱
-没抢第i家：抢i-1家最多的钱
+// ### 解题思路
+// 动态规划
+// 抢了第i-1家：抢i-2家最多的钱+第[i]家的钱
+// 没抢第i家：抢i-1家最多的钱
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int rob(int* nums, int numsSize){
     if(nums==0||numsSize==0)return 0;
     if(numsSize==1)return nums[0];
@@ -21,4 +21,4 @@ int rob(int* nums, int numsSize){
     free(Max);
     return result;
 }
-```
+// ```

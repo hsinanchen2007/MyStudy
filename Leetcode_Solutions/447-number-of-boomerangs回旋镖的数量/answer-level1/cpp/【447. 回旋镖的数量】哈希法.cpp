@@ -1,8 +1,8 @@
-### 思路一：哈希
+// ### 思路一：哈希
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOfBoomerangs(vector<vector<int>>& points) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

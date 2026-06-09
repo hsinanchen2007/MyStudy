@@ -1,12 +1,12 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
-枚举两条不同的边r1、r2作为长方形的上下边，然后在这两条边里遍历每列，记录存在多少列，使得该列中第r1行和第r2行中对应的元素都是1。对于满足上述条件的列数count，可以组成的长方形个数为count*(count-1)/2，累积。
+// 枚举两条不同的边r1、r2作为长方形的上下边，然后在这两条边里遍历每列，记录存在多少列，使得该列中第r1行和第r2行中对应的元素都是1。对于满足上述条件的列数count，可以组成的长方形个数为count*(count-1)/2，累积。
 
-代码：
+// 代码：
 
-```
+// ```
 class Solution {
     public int countCornerRectangles(int[][] grid) {
         int res = 0;
@@ -27,4 +27,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

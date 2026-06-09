@@ -1,9 +1,9 @@
-### 解题思路
-每次都求k//2，一直递归即可
+# ### 解题思路
+# 每次都求k//2，一直递归即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from typing import List
 
 
@@ -93,4 +93,4 @@ class Solution:
 
 
 
-```
+# ```

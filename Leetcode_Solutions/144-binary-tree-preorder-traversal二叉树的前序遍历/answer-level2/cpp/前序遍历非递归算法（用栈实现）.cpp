@@ -1,5 +1,5 @@
-1. 时间复杂度O(n)
-```
+// 1. 时间复杂度O(n)
+// ```
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
@@ -26,4 +26,4 @@ public:
         return ans;
     }
 };
-```
+// ```

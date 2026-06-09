@@ -1,4 +1,4 @@
-```golang
+// ```golang
 func reverseWords(s string) string {
     words := make([]string, 0)
     for i, last := 0, 0; i < len(s); i++ {
@@ -25,4 +25,4 @@ func reverseWords(s string) string {
     }
     return sentence
 }
-```
+// ```

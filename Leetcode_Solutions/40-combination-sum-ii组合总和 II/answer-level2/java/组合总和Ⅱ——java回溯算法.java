@@ -1,19 +1,19 @@
-### 解题思路
-首先用Arrays.sort()对数组进行排序（升序）
-接下来判断①该数是否大于target
-②该数是否等于target
-③该数是否重复，对函数进行优化。
-建立递归函数helper(int target,int index,List<Integer> list)
-每次优先用较大的数对目标target进行减法（因为这里想到LeetCoede中一道找钱的贪心算法题目）
-若，target==0则加入答案lists.
+// ### 解题思路
+// 首先用Arrays.sort()对数组进行排序（升序）
+// 接下来判断①该数是否大于target
+// ②该数是否等于target
+// ③该数是否重复，对函数进行优化。
+// 建立递归函数helper(int target,int index,List<Integer> list)
+// 每次优先用较大的数对目标target进行减法（因为这里想到LeetCoede中一道找钱的贪心算法题目）
+// 若，target==0则加入答案lists.
 
-注意：
-直接进行lists.add(list),可能会因为后面对list的操作导致lists的答案不正确
-因此使用ArrayList<>(ans)接收list的值，最后lists.add(ans)添加ans
+// 注意：
+// 直接进行lists.add(list),可能会因为后面对list的操作导致lists的答案不正确
+// 因此使用ArrayList<>(ans)接收list的值，最后lists.add(ans)添加ans
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> lists = new ArrayList<>();
     int[] candidate;
@@ -66,4 +66,4 @@ class Solution {
         }
     }
 }
-```
+// ```

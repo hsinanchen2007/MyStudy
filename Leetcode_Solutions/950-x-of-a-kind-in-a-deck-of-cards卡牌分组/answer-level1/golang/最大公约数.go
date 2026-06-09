@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-最大公约数的思想去做
+// 最大公约数的思想去做
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func hasGroupsSizeX(deck []int) bool {
 	if deck == nil || len(deck) < 2 {
@@ -39,4 +39,4 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 
-```
+// ```

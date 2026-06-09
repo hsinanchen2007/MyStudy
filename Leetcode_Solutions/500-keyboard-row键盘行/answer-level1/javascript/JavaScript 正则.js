@@ -1,5 +1,5 @@
-三行 每行写一个表达式 然后匹配就好了。
-```
+// 三行 每行写一个表达式 然后匹配就好了。
+// ```
 var findWords = function(words) {
     var reg1 = /[asdfghjkl]+/i;
     var reg2 = /[qwertyuiop]+/i;
@@ -18,4 +18,4 @@ var findWords = function(words) {
     }
     return words;
 };
-```
+// ```

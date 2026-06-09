@@ -1,9 +1,9 @@
-### 解题思路
-首先统计相同数字的个数，然后找大于1 的公因子
+# ### 解题思路
+# 首先统计相同数字的个数，然后找大于1 的公因子
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 
 class Solution:
@@ -35,4 +35,4 @@ class Solution:
             if all(re):
                 return True
         return False
-```
+# ```

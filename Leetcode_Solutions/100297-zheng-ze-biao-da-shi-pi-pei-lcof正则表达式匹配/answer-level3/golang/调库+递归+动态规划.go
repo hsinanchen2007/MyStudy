@@ -1,12 +1,12 @@
-```
+// ```
 // 直接调regexp包，需要前后加^和$，否则可能p只匹配了s的中间一部分
 func isMatch(s string, p string) bool {
 	res, _ := regexp.MatchString("^"+p+"$", s)
 	return res
 }
-```
+// ```
 
-```
+// ```
 // 递归
 // 终止条件：p为空时，s为空返回true，s不空返回false
 // first标志首位是否相等，p[0]是.也表示相等
@@ -31,9 +31,9 @@ func isMatch(s string, p string) bool {
 	return first && isMatch(s[1:], p[1:])
 }
 
-```
+// ```
 
-```
+// ```
 // 二维dp
 // dp[i][j]表示s[0:i]和p[0:j]是否匹配
 // dp[0][0] = true （s和p都为空）
@@ -79,4 +79,4 @@ func isMatch(s string, p string) bool {
 	return dp[rows][cols]
 }
 
-```
+// ```

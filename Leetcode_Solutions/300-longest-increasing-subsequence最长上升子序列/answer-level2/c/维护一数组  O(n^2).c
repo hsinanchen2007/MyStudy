@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLIS(int* nums, int numsSize){
 int*hope=(int*)malloc(sizeof(int)*numsSize);
 int i,j,cur,max;
@@ -28,4 +28,4 @@ if(hope[i]>max)
  max=hope[i];
  return max;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-摸着dfs过河
+// ### 解题思路
+// 摸着dfs过河
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} numCourses
  * @param {number[][]} prerequisites
@@ -45,4 +45,4 @@ function dfs(a, index, v) {
     }
     v[index] = -1//回溯的地方不再遍历
 }
-```
+// ```

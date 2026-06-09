@@ -1,7 +1,7 @@
 
-*法一*
+// *法一*
 
-```js
+// ```js
 var judgeCircle = function(moves) {
     let countR = 0;
     let countU = 0;
@@ -19,13 +19,13 @@ var judgeCircle = function(moves) {
     }
     return countR == 0 && countU == 0;
 };
-```
+// ```
 
-*法二*
+// *法二*
 
-```js
+// ```js
 var judgeCircle = function(moves) {
     // 判断 L.count === R.count && U.count === D.count
     return moves.split('L').length === moves.split('R').length && moves.split('U').length === moves.split('D').length
 };
-```
+// ```

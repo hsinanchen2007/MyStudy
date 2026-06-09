@@ -1,4 +1,4 @@
-```
+// ```
 //遇到重复字符串后，将指针移到重复字符串的后面
 int lengthOfLongestSubstring(char * s)
 {
@@ -24,4 +24,4 @@ int lengthOfLongestSubstring(char * s)
     max = max > (strlen(s) - start) ? max : (strlen(s) - start);
     return max;
 }
-```
+// ```

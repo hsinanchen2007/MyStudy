@@ -1,9 +1,9 @@
-### 解题思路
-小白一个，思路很蠢，比不得大神们的。但也算是侥幸通过。
+# ### 解题思路
+# 小白一个，思路很蠢，比不得大神们的。但也算是侥幸通过。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s: str) -> int:
         s_list = list(s)
@@ -33,4 +33,4 @@ class Solution:
                     temp = s_list[j]
                     s_list[j] = 0 - temp
         return sum(s_list)
-```
+# ```

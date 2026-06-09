@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/3304a0ee7b88d9d2da581b72ed75c9eb2b88e93ea16e4cba39da740b443458bb-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/3304a0ee7b88d9d2da581b72ed75c9eb2b88e93ea16e4cba39da740b443458bb-image.png)
+// ```
 vector<string> letterCasePermutation(string S)
 {
     vector<string> result;
@@ -40,4 +40,4 @@ vector<string> letterCasePermutation(string S)
 
     return result;
 }
-```
+// ```

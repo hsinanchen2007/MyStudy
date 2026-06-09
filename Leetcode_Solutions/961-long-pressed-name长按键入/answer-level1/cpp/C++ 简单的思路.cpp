@@ -1,5 +1,5 @@
-	核心思想就是按下标依次比 用一个字符串name2用于存放name和typed的比较情况。
-	最后根据name2的更新情况判断返回值。
+// 	核心思想就是按下标依次比 用一个字符串name2用于存放name和typed的比较情况。
+// 	最后根据name2的更新情况判断返回值。
 ![11111.PNG](https://pic.leetcode-cn.com/f072a7e5e88390b5a6c2bf4f0e384dda9cb01ec5a91c739d4f6de171cb31067d-11111.PNG)
 
 	bool isLongPressedName(string name, string typed) {

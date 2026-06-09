@@ -1,9 +1,9 @@
-### 解题思路
-解题思路先在第一列找出所在行，再去所在行找target，查找方法都是二分查找。难点在于查找所在行时，要注意最后的结果要么是mid要么是mid-1，这里需要判断一下。
+# ### 解题思路
+# 解题思路先在第一列找出所在行，再去所在行找target，查找方法都是二分查找。难点在于查找所在行时，要注意最后的结果要么是mid要么是mid-1，这里需要判断一下。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchMatrix(self, matrix, target: int) -> bool:
         rows = len(matrix)
@@ -39,4 +39,4 @@ class Solution:
                 i=mid1+1
         print(mid1)
         return False
-```
+# ```

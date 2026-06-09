@@ -1,6 +1,6 @@
 
-### 朴素斐波拉契
-```python
+# ### 朴素斐波拉契
+# ```python
 #@author:leacoder
 #@des:  斐波拉契 无优化 爬楼梯
 
@@ -20,13 +20,13 @@ class Solution:
         if n == 0 or n == 1 or  n == 2:
             return n
         return self.recursive(n-1) + self.recursive(n-2)
-```
+# ```
 
-### 斐波拉契+备忘录
+# ### 斐波拉契+备忘录
 
- 使用 字典 存储 斐波拉契数列 递归中重复计算项
+#  使用 字典 存储 斐波拉契数列 递归中重复计算项
 
-```python
+# ```python
 #@author:leacoder
 #@des:  斐波拉契 备忘录  爬楼梯
 
@@ -50,13 +50,13 @@ class Solution:
         result = self.recursive(n - 1) + self.recursive(n - 2)
         self.value_dict[n] = result     # 存入字典
         return result
-```
+# ```
 
-### 朴素动态规划
+# ### 朴素动态规划
 
-使用dp方程，不做存储优化
+# 使用dp方程，不做存储优化
 
-```python
+# ```python
 #@author:leacoder
 #@des:  动态规划 计算所有 f(n) 爬楼梯
 
@@ -86,12 +86,12 @@ class Solution:
         for i in range(2, n+1):
             dp[i] = dp[i - 1] + dp[i - 2]
         return dp[-1]
-```
+# ```
 
-### 优化版动态规划
-对存储优化，不存储所有dp[i]状态
+# ### 优化版动态规划
+# 对存储优化，不存储所有dp[i]状态
 
-```python
+# ```python
 #@author:leacoder
 #@des:  动态规划 优化版 爬楼梯
 
@@ -109,4 +109,4 @@ class Solution:
         for i in range(1, n):
             f0, f1 = f1,f0 + f1
         return f1
-```
+# ```

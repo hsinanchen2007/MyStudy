@@ -1,11 +1,11 @@
-### 解题思路
-基本的递归，一遍写成，一遍过，哇哈哈哈
-![wakaka.png](https://pic.leetcode-cn.com/a987e11d5c612dba28eb96aa00bc9fe95a879d01dfcd11cdefb4c352e02e0d3d-wakaka.png)
+# ### 解题思路
+# 基本的递归，一遍写成，一遍过，哇哈哈哈
+# ![wakaka.png](https://pic.leetcode-cn.com/a987e11d5c612dba28eb96aa00bc9fe95a879d01dfcd11cdefb4c352e02e0d3d-wakaka.png)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution(object):
         # print ret
         return ret
 
-```
+# ```

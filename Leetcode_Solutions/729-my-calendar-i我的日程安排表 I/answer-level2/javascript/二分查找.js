@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var MyCalendar = function () {
   this.booked = [];
 };
@@ -50,6 +50,6 @@ MyCalendar.prototype.searchAndInsert = function (start, end, left, right) {
     }
   }
 }
-```
+// ```
 
-主要思路：将已订时间段顺序存储在数组里，通过二分查找判断下一个订阅时间段是否与已定时间冲突
+// 主要思路：将已订时间段顺序存储在数组里，通过二分查找判断下一个订阅时间段是否与已定时间冲突

@@ -1,5 +1,5 @@
-使用hash table映射,标记好宝石,再做石头中筛选.时间复杂度O(m+n),空间复杂度O(1)
-```
+// 使用hash table映射,标记好宝石,再做石头中筛选.时间复杂度O(m+n),空间复杂度O(1)
+// ```
 class Solution {
 
     /**
@@ -26,4 +26,4 @@ class Solution {
         return $out;
     }
 }
-```
+// ```

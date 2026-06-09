@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/c7386a926fd3e1293403556ede191d3a3ad698c44b6a420dbfdfaf56a7b43dba-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c7386a926fd3e1293403556ede191d3a3ad698c44b6a420dbfdfaf56a7b43dba-image.png)
 
-### 解题思路
-判断边界然后从头到尾遍历一次
+// ### 解题思路
+// 判断边界然后从头到尾遍历一次
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //第一种：从头到尾遍历
@@ -24,4 +24,4 @@ public:
         return 0;
     }
 };
-```
+// ```

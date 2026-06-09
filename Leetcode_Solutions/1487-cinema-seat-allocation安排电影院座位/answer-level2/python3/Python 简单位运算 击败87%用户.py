@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/ac764d20a0cde0fd1ad79416373d07f5093b29671f517b8a4f23bef1ed563ba4-image.png)
+# ![image.png](https://pic.leetcode-cn.com/ac764d20a0cde0fd1ad79416373d07f5093b29671f517b8a4f23bef1ed563ba4-image.png)
 
 
-```
+# ```
 '''
 简单位运算判断是否合法即可
 每一行最多坐两家人，状态很有限
@@ -27,4 +27,4 @@ class Solution:
 
         ans += (n - len(vals)) * 2
         return ans
-```
+# ```

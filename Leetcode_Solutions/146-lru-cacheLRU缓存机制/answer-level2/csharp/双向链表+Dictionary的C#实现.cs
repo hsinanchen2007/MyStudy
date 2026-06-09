@@ -1,9 +1,9 @@
-### 解题思路
-给c#的小伙伴分享
+// ### 解题思路
+// 给c#的小伙伴分享
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class LRUCache {
 
         private Dictionary<int, LinkedNode> dic;
@@ -108,4 +108,4 @@ public class LRUCache {
  * int param_1 = obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```

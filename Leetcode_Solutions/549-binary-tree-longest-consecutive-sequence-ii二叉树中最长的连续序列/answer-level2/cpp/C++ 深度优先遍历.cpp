@@ -1,6 +1,6 @@
-# 思路：
-考虑子节点逆序最大长度与顺序最大长度，然后综合得出结果
-```C++ []
+// # 思路：
+// 考虑子节点逆序最大长度与顺序最大长度，然后综合得出结果
+// ```C++ []
 class Solution {
 public:
     pair<int, int> dfs(TreeNode* root, int& res) {
@@ -31,6 +31,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/88cb8d87173841e47d993d9f37dd5633251980ad3b7ef0dffcc85bc6f7910052-image.png)
+// ![image.png](https://pic.leetcode-cn.com/88cb8d87173841e47d993d9f37dd5633251980ad3b7ef0dffcc85bc6f7910052-image.png)

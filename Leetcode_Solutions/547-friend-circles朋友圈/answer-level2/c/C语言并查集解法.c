@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_NUM 300
 int uf_count = 0; // 连通分量
 int parent[MAX_NUM] = { 0 }; // x的父节点是parent[x]
@@ -62,4 +62,4 @@ int findCircleNum(int** M, int MSize, int* MColSize){
     }
     return uf_count;
 }
-```
+// ```

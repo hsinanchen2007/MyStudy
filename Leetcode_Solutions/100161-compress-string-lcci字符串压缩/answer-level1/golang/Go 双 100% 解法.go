@@ -1,4 +1,4 @@
-```go []
+// ```go []
 func compressString(S string) string {
 	if S == "" {
 		return ""
@@ -29,4 +29,4 @@ func compressString(S string) string {
 	return sb.String()
 }
 
-```
+// ```

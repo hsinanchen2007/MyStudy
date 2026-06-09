@@ -1,11 +1,11 @@
-### 解题思路
-哈希表
-![image.png](https://pic.leetcode-cn.com/f5cefda891ade8f1018ed3857e50949c30f94c4d355f25853eee7dd36c642cec-image.png)
+// ### 解题思路
+// 哈希表
+// ![image.png](https://pic.leetcode-cn.com/f5cefda891ade8f1018ed3857e50949c30f94c4d355f25853eee7dd36c642cec-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isStraight(vector<int>& nums) {
@@ -45,5 +45,5 @@ public:
         return false;
     }
 };
-```
-![码农黑板报.png](https://pic.leetcode-cn.com/c084b9c3a4bdfa879c3d3640d9cbb1b26acca9bc92cf814d97ac2126b26dbac9-%E7%A0%81%E5%86%9C%E9%BB%91%E6%9D%BF%E6%8A%A5.png)
+// ```
+// ![码农黑板报.png](https://pic.leetcode-cn.com/c084b9c3a4bdfa879c3d3640d9cbb1b26acca9bc92cf814d97ac2126b26dbac9-%E7%A0%81%E5%86%9C%E9%BB%91%E6%9D%BF%E6%8A%A5.png)

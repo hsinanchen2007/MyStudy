@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 
 class Solution(object):
     def computeArea(self, A, B, C, D, E, F, G, H):
@@ -9,7 +9,7 @@ class Solution(object):
         y = max(0,min(D,H)-max(B,F))
         area = a+b-x*y
         return area
-```
+# ```
 
 
 

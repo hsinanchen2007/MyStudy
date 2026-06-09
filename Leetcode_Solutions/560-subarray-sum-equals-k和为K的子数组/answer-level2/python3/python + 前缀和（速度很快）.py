@@ -1,4 +1,4 @@
-```python
+# ```python
 from typing import List
 import collections
 class Solution:
@@ -22,4 +22,4 @@ class Solution:
                 if other_index < index: cnt += 1
         return cnt
 
-```
+# ```

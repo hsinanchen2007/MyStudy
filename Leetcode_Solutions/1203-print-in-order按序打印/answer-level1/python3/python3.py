@@ -1,7 +1,7 @@
 
-贴一个完整的代码
+# 贴一个完整的代码
 
-```py
+# ```py
 from threading import Condition, Thread
 
 
@@ -63,4 +63,4 @@ if __name__ == '__main__':
     C.start()
 
 
-```
+# ```

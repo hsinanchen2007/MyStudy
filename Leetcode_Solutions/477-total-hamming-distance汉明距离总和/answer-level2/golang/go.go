@@ -1,4 +1,4 @@
-```
+// ```
 func totalHammingDistance(nums []int) int {
 	out := 0
 	for i := uint(0); i < 32; i++ {
@@ -12,4 +12,4 @@ func totalHammingDistance(nums []int) int {
 	}
 	return out
 }
-```
+// ```

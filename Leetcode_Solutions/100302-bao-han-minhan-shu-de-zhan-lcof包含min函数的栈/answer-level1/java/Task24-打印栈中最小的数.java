@@ -1,11 +1,11 @@
-### 解题思路
-两个思路：
-- 不用辅助栈，在min方法中用一个数组记录栈
-- 用辅助栈B来保存最小值。
+// ### 解题思路
+// 两个思路：
+// - 不用辅助栈，在min方法中用一个数组记录栈
+// - 用辅助栈B来保存最小值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
     Stack<Integer> A;
     /** initialize your data structure here. */
@@ -60,4 +60,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.min();
  */
-```
+// ```

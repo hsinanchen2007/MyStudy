@@ -1,10 +1,10 @@
-两个二重指针维护示意图：
+// 两个二重指针维护示意图：
 
-![1.png](https://pic.leetcode-cn.com/97183be787a6fad422349428bcc48de8304c2b77199c7d2df5774a4caa0bd21d-1.png)
+// ![1.png](https://pic.leetcode-cn.com/97183be787a6fad422349428bcc48de8304c2b77199c7d2df5774a4caa0bd21d-1.png)
 
 
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -123,4 +123,4 @@ struct ListNode ** listOfDepth( struct TreeNode * tree , int * returnSize ){
     return buf;
 
 }
-```
+// ```

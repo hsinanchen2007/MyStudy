@@ -1,11 +1,11 @@
-### 解题思路
-模拟法，[抄袭]
-flag 是关键
-60 ms, 击败了76.31%
-13.3 MB, 击败了58.96%
-### 代码
+# ### 解题思路
+# 模拟法，[抄袭]
+# flag 是关键
+# 60 ms, 击败了76.31%
+# 13.3 MB, 击败了58.96%
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if not s or numRows < 2: return s
@@ -19,4 +19,4 @@ class Solution:
                 flag = -flag
             i += flag
         return "".join(res)
-```
+# ```

@@ -1,10 +1,10 @@
-![2019-10-17 22-56-18屏幕截图.png](https://pic.leetcode-cn.com/32e1b3fcb995d419b8fd25d35c490b2fb8c4dda304dd130dbc470ce89bbbdf71-2019-10-17%2022-56-18%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+// ![2019-10-17 22-56-18屏幕截图.png](https://pic.leetcode-cn.com/32e1b3fcb995d419b8fd25d35c490b2fb8c4dda304dd130dbc470ce89bbbdf71-2019-10-17%2022-56-18%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
-首先，根据提示我们能够求出前缀和`sum[i] == nums[0]+nums[1]+...+nums[i]`
-由于我们要找的是一个连续的子区间，因此我们可以枚举这个区间的结尾i
-如果以`nums[i]`作为结尾的某个子区间和为k，而我们又知道前缀和`sum[i]`，因此必然前面存在`nums[0]+...+nums[j]==sum[i]-k`。如果我们利用hash表来存储前缀和为T的数组的最短长度是j，那么就可以在`O(1)`的时间内判断是否存在`nums[0]+...+nums[j]==sum[i]-k`。
-代码如下：
-```rust
+// 首先，根据提示我们能够求出前缀和`sum[i] == nums[0]+nums[1]+...+nums[i]`
+// 由于我们要找的是一个连续的子区间，因此我们可以枚举这个区间的结尾i
+// 如果以`nums[i]`作为结尾的某个子区间和为k，而我们又知道前缀和`sum[i]`，因此必然前面存在`nums[0]+...+nums[j]==sum[i]-k`。如果我们利用hash表来存储前缀和为T的数组的最短长度是j，那么就可以在`O(1)`的时间内判断是否存在`nums[0]+...+nums[j]==sum[i]-k`。
+// 代码如下：
+// ```rust
 use std::collections::HashMap;
 use std::cmp::max;
 
@@ -33,4 +33,4 @@ impl Solution {
         ans as i32
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-while循环判断
+// ### 解题思路
+// while循环判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numberOfSteps (int num) {
         int count = 0;
@@ -19,4 +19,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

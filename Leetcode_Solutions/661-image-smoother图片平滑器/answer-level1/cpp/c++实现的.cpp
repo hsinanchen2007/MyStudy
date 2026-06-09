@@ -1,10 +1,10 @@
-### 解题思路
-先把边界列出来，遍历矩阵过程中把边界内的像素加进来，最后得到res。代码可能不太优雅，效率好像还行。
-![upload.jpg](https://pic.leetcode-cn.com/2818fdd0ce7362e0335593514c65f66ad01ddb431bf66b026fea867e9d253714-upload.jpg)
+// ### 解题思路
+// 先把边界列出来，遍历矩阵过程中把边界内的像素加进来，最后得到res。代码可能不太优雅，效率好像还行。
+// ![upload.jpg](https://pic.leetcode-cn.com/2818fdd0ce7362e0335593514c65f66ad01ddb431bf66b026fea867e9d253714-upload.jpg)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> imageSmoother(vector<vector<int>>& M) {
@@ -55,4 +55,4 @@ public:
     }
 };
 
-```
+// ```

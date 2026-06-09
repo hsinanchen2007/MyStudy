@@ -1,9 +1,9 @@
-### 解题思路
-![`XKYY(NR\]4@8S7CRL6BZFN4.png](https://pic.leetcode-cn.com/4b84c48e13ebf60ad7cd9cb3b2c512b158f020c8fae4f64517b1c9900b82ad3f-%60XKYY\(NR%5D4@8S7CRL6BZFN4.png)
+// ### 解题思路
+// ![`XKYY(NR\]4@8S7CRL6BZFN4.png](https://pic.leetcode-cn.com/4b84c48e13ebf60ad7cd9cb3b2c512b158f020c8fae4f64517b1c9900b82ad3f-%60XKYY\(NR%5D4@8S7CRL6BZFN4.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,4 +23,4 @@ public:
         else return root->val + rangeSumBST(root->right, L, R) + rangeSumBST(root->left, L, R);
     }
 };
-```
+// ```

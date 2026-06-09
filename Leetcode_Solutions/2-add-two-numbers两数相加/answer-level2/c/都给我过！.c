@@ -1,10 +1,10 @@
-### 解题思路
-就是最普通不过的思路：直接相加
-需要注意的就是链表长度不一样的时候的两种处理办法以及最后需要进位时要开辟空间
+// ### 解题思路
+// 就是最普通不过的思路：直接相加
+// 需要注意的就是链表长度不一样的时候的两种处理办法以及最后需要进位时要开辟空间
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -84,4 +84,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return l1;
 }
-```
+// ```

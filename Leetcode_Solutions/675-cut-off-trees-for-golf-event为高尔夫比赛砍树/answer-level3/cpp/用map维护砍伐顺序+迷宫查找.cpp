@@ -1,6 +1,6 @@
-map可保证key有序，用于记录树木砍伐的顺序。
-通过广度遍历查找当前点到下一棵树的最短路径。
-```
+// map可保证key有序，用于记录树木砍伐的顺序。
+// 通过广度遍历查找当前点到下一棵树的最短路径。
+// ```
 class Solution {
 public:
     int cutOffTree(vector<vector<int>>& forest) {
@@ -51,4 +51,4 @@ public:
         return -1;
     }
 };
-```
+// ```

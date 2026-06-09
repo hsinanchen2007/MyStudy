@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func isPalindrome(_ s: String) -> Bool {
         let chars = "a"..."z", nums = "0"..."9"
@@ -13,4 +13,4 @@ class Solution {
         return true
     }
 }
-```
+// ```

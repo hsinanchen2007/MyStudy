@@ -1,9 +1,9 @@
-### 解题思路
-看代码，也扩张题目。
+// ### 解题思路
+// 看代码，也扩张题目。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -28,4 +28,4 @@ var sumNums = function(n) {
      */
     return  n && (n=n+sumNums(n-1));
 };
-```
+// ```

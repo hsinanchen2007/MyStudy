@@ -1,32 +1,32 @@
-本来还以为只是简单的遍历后把值相加然后return就好了（题目没看清楚），后面才发现不是这么简单。
+# 本来还以为只是简单的遍历后把值相加然后return就好了（题目没看清楚），后面才发现不是这么简单。
 
-这个有个难点
+# 这个有个难点
 
-```
+# ```
    -10
    / \
   9  20
     /  \
    15   7
-```
+# ```
 
-当树长上面这样是，结点20需要把左右两边的子树相加，而
+# 当树长上面这样是，结点20需要把左右两边的子树相加，而
 
-```
+# ```
    10
    / \
   9  20
     /  \
    15   7
-```
+# ```
 
-当树长上面这样是，结点20又只能选择左右子树里面最大的一个，所以感觉要判断两次的感觉，左右子树哪个加上root的val值会是最大，左右子树相加并且加上root.val与最终结果相比较。
+# 当树长上面这样是，结点20又只能选择左右子树里面最大的一个，所以感觉要判断两次的感觉，左右子树哪个加上root的val值会是最大，左右子树相加并且加上root.val与最终结果相比较。
 
-## 方法1：深度优先-DFS
+# ## 方法1：深度优先-DFS
 
-经过第二次的思索有了下面的代码(错误)
+# 经过第二次的思索有了下面的代码(错误)
 
-```python
+# ```python
 class Solution:
     total_max = float("-inf") 
 
@@ -49,11 +49,11 @@ class Solution:
         # 比较 最大单子树， 左右子树+root的完整子树, 左子树，右子树，之前的最大值
         self.total_max = max(total, left_total+right_total+root.val, left_total,right_total, self.total_max)
         return total
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 52 / 93 个通过测试用例
 	状态：解答错误
 	
@@ -62,11 +62,11 @@ class Solution:
 输出： -1
 预期： 1
 
-```
+# ```
 
-我擦怎么又不行啊！看上面这个样子少了左右子树的判断，果断加上，但是不能是为了抵消`float('-inf')`而变成0的左右子树最大值，所有做下面修改
+# 我擦怎么又不行啊！看上面这个样子少了左右子树的判断，果断加上，但是不能是为了抵消`float('-inf')`而变成0的左右子树最大值，所有做下面修改
 
-```python
+# ```python
 class Solution:
     total_max = float("-inf") 
 
@@ -94,11 +94,11 @@ class Solution:
             right_total,
             self.total_max)
         return total
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 67 / 93 个通过测试用例
 	状态：解答错误
 	
@@ -106,11 +106,11 @@ class Solution:
 输入： [-1,5,null,4,null,null,2,-4]
 输出： 7
 预期： 11
-```
+# ```
 
-我槽槽，还不行？？？看看这棵树有啥特别,测试了一下，下面的测试用例也能导致同样问题
+# 我槽槽，还不行？？？看看这棵树有啥特别,测试了一下，下面的测试用例也能导致同样问题
 
-```
+# ```
 [4, null, 2, -4, null]
     4
      \
@@ -124,13 +124,13 @@ class Solution:
 4
 预期结果
 6
-```
+# ```
 
-很明显上面的代码-4没有被抛弃掉。打算看一下官方的代码，卧槽官方用0这个我思考了一下感觉很秒哦，而且我还发现我多了一步可能导致问题的代码`if not root.left and not root.right: return root.val`感觉思路其实差不多，但是处理细节方面就差的非常多了。
+# 很明显上面的代码-4没有被抛弃掉。打算看一下官方的代码，卧槽官方用0这个我思考了一下感觉很秒哦，而且我还发现我多了一步可能导致问题的代码`if not root.left and not root.right: return root.val`感觉思路其实差不多，但是处理细节方面就差的非常多了。
 
-下面是官方的代码
+# 下面是官方的代码
 
-```python
+# ```python
 class Solution:
     def maxPathSum(self, root):
         def max_gain(node):
@@ -146,11 +146,11 @@ class Solution:
         max_gain(root)
         return max_sum
 
-```
+# ```
 
-运行结果-官方解法
+# 运行结果-官方解法
 
-```
+# ```
 执行用时 :100 ms, 在所有 Python3 提交中击败了67.61% 的用户
 内存消耗 :21.1 MB, 在所有 Python3 提交中击败了5.77%的用户
 
@@ -159,32 +159,32 @@ class Solution:
 
 执行用时 :104 ms, 在所有 Python3 提交中击败了55.20% 的用户
 内存消耗 :20.9 MB, 在所有 Python3 提交中击败了5.77%的用户
-```
+# ```
 
-对比一下代码，官方的思路是，如果这个子树比0还要小那就果断放弃，所以左右子树的值必然是>=0的
+# 对比一下代码，官方的思路是，如果这个子树比0还要小那就果断放弃，所以左右子树的值必然是>=0的
 
-```pthon
+# ```pthon
 left_gain = max(max_gain(node.left), 0)
 right_gain = max(max_gain(node.right), 0)
-```
+# ```
 
-然后我又疑惑这一句
+# 然后我又疑惑这一句
 
-```python
+# ```python
 price_newpath = node.val + left_gain + right_gain  
-```
+# ```
 
-那要是树长
+# 那要是树长
 
-```
+# ```
  -100
  /  \
 2     3
-```
+# ```
 
-price_new会不会被root的值影响呢？，当然会了，price_newpath = -95 但是这时的max_sum = 3！因为官方没有我那个多余的一句，所以最下面的子结点也会和max_sum进行比较，把官方的代码写成我平时习惯的样子
+# price_new会不会被root的值影响呢？，当然会了，price_newpath = -95 但是这时的max_sum = 3！因为官方没有我那个多余的一句，所以最下面的子结点也会和max_sum进行比较，把官方的代码写成我平时习惯的样子
 
-```python
+# ```python
 class Solution:
     total_max = float("-inf") 
 
@@ -201,11 +201,11 @@ class Solution:
         total = root.val + max(left_total, right_total)
         self.total_max = max(left_total+right_total+root.val, self.total_max)
         return total
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :108 ms, 在所有 Python3 提交中击败了44.49% 的用户
 内存消耗 :20.3 MB, 在所有 Python3 提交中击败了24.76%的用户
 
@@ -214,10 +214,10 @@ class Solution:
 
 执行用时 :96 ms, 在所有 Python3 提交中击败了81.02% 的用户
 内存消耗 :20.1 MB, 在所有 Python3 提交中击败了69.23%的用户
-```
+# ```
 
-细节真的很重要！！！
+# 细节真的很重要！！！
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
 
   

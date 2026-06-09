@@ -1,7 +1,7 @@
 
     
-![QQ截图20191124100450.png](https://pic.leetcode-cn.com/21bcdd46dc611c3226baa2b62a6afe02cbd01832635992b68059f86a114db604-QQ%E6%88%AA%E5%9B%BE20191124100450.png)
-    // 暴力递归,这也像子序列问题，可以先尝试用暴力递归进行求解，最后改成动态规划
+// ![QQ截图20191124100450.png](https://pic.leetcode-cn.com/21bcdd46dc611c3226baa2b62a6afe02cbd01832635992b68059f86a114db604-QQ%E6%88%AA%E5%9B%BE20191124100450.png)
+//     // 暴力递归,这也像子序列问题，可以先尝试用暴力递归进行求解，最后改成动态规划
     public int rob(int[] nums){
         return subRob(nums,0);
     }

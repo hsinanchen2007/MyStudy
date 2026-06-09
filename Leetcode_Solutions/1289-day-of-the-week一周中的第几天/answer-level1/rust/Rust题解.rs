@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn day_of_the_week(day: i32, month: i32, year: i32) -> String {
         let mut day = day;
@@ -13,5 +13,5 @@ impl Solution {
         week[day as usize % 7].to_string()
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

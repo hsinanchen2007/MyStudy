@@ -1,8 +1,8 @@
-### 解题思路
-Build a new head to link the nodes by asc order
-### 代码
+// ### 解题思路
+// Build a new head to link the nodes by asc order
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -41,4 +41,4 @@ class Solution {
         return head.next;
     }
 }
-```
+// ```

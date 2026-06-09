@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/a346591e4eb1a26854466513c836e96a93a263d7ced1f2893c1a14502645dae3-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/a346591e4eb1a26854466513c836e96a93a263d7ced1f2893c1a14502645dae3-image.png)
 
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn remove_outer_parentheses(s: String) -> String {
         let (mut l, mut r) = (0, 0);
@@ -29,4 +29,4 @@ impl Solution {
 }
 
 
-```
+// ```

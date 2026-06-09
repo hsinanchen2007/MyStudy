@@ -1,5 +1,5 @@
-这里采用方法3完成；
-```
+// 这里采用方法3完成；
+// ```
 
 int cmpfunc (const void *a, const void *b)
 {
@@ -53,4 +53,4 @@ int** pairSums(int* nums, int numsSize, int target, int* returnSize, int** retur
 }
 
 
-```
+// ```

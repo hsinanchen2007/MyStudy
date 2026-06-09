@@ -1,9 +1,9 @@
-### 解题思路
-1.使用istringstream，每检测到一个字符串就给count加1.
+// ### 解题思路
+// 1.使用istringstream，每检测到一个字符串就给count加1.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countSegments(string s) {
@@ -16,4 +16,4 @@ public:
         return counts;
     }
 };
-```
+// ```

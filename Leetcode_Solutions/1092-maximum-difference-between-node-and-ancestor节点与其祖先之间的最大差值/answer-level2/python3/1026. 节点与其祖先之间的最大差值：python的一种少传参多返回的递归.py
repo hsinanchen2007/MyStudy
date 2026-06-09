@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/60be02d7cf957357b864f0757dcfd0fa2d05f1d76602927aa2c5aef9964445e1-image.png)
+# ![image.png](https://pic.leetcode-cn.com/60be02d7cf957357b864f0757dcfd0fa2d05f1d76602927aa2c5aef9964445e1-image.png)
 
-左右根遍历树，得到每个子树下的最大值和最小值，并全局比较记录答案。
+# 左右根遍历树，得到每个子树下的最大值和最小值，并全局比较记录答案。
 
-```python []
+# ```python []
 class Solution:
     def maxAncestorDiff(self, root: TreeNode) -> int:
         ans = 0
@@ -18,4 +18,4 @@ class Solution:
             return rootmin, rootmax
         f(root)
         return ans
-```
+# ```

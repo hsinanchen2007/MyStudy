@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findSolution(self, customfunction: 'CustomFunction', z: int) -> List[List[int]]:
         ans = []
@@ -17,5 +17,5 @@ class Solution:
                         ans.append([x, m])
                         break
         return ans
-```
+# ```
 

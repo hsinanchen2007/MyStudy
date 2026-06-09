@@ -1,9 +1,9 @@
-### 解题思路
-求解深度很经典的算法。和前序中序后序遍历一样需要很熟练的写出来。
+// ### 解题思路
+// 求解深度很经典的算法。和前序中序后序遍历一样需要很熟练的写出来。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -26,4 +26,4 @@ class Solution {
         return calculate(root);
     }
 }
-```
+// ```

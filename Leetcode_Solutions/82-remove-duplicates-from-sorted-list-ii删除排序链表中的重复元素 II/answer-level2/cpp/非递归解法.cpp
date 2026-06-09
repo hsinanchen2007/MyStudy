@@ -1,5 +1,5 @@
 
-![捕获.PNG](https://pic.leetcode-cn.com/339fdd72359ccccf05e15f2b7c899491071ca865a8f7aed9229f7c84e5cd5180-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/339fdd72359ccccf05e15f2b7c899491071ca865a8f7aed9229f7c84e5cd5180-%E6%8D%95%E8%8E%B7.PNG)
 
  ListNode* deleteDuplicates(ListNode* head) {
            if(!head || !head->next)

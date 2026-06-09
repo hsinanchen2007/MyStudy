@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/1ee99daabab7267a7fbd9b132909e745e0f15751504513ce39a6895bd277f187-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/1ee99daabab7267a7fbd9b132909e745e0f15751504513ce39a6895bd277f187-image.png)
+// ```
 class Solution {
 public:
     int r[10][10], c[10][10], x[10][10];
@@ -62,4 +62,4 @@ public:
         }
     }
 };
-```
+// ```

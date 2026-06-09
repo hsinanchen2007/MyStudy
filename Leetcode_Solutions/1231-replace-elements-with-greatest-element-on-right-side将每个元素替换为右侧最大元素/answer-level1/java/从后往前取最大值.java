@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] replaceElements(int[] arr) {
       int max=arr[arr.length-1];int flag=0;
@@ -17,4 +17,4 @@ class Solution {
       return arr;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-使用for循环 判断 i*i<x&&(i+1)*(i+1)>x 的i值就是x的平方取整数了
-但是存在一个问题 java的int值范围问题，一旦乘出范围就为负数
-这里我玩赖了 直接判断x是否为最大值（2147483647，也就是Integer.MAX_VALUE）
+// 使用for循环 判断 i*i<x&&(i+1)*(i+1)>x 的i值就是x的平方取整数了
+// 但是存在一个问题 java的int值范围问题，一旦乘出范围就为负数
+// 这里我玩赖了 直接判断x是否为最大值（2147483647，也就是Integer.MAX_VALUE）
 
-```
+// ```
 class Solution {
     public int mySqrt(int x) {
     	if(x == 0){
@@ -24,4 +24,4 @@ class Solution {
     
     }
 }
-```
+// ```

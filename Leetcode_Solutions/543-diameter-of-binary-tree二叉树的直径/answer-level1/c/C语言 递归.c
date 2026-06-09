@@ -1,10 +1,10 @@
-### 解题思路
-递归过程中更新最大直径，返回单边最大边数
-![image.png](https://pic.leetcode-cn.com/2b81d3437fca7d0b16de4d79478286c9326612bcca2aed183d43dc6fc7aab9a9-image.png)
+// ### 解题思路
+// 递归过程中更新最大直径，返回单边最大边数
+// ![image.png](https://pic.leetcode-cn.com/2b81d3437fca7d0b16de4d79478286c9326612bcca2aed183d43dc6fc7aab9a9-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     proc(root, &max);
     return max;
 }
-```
+// ```

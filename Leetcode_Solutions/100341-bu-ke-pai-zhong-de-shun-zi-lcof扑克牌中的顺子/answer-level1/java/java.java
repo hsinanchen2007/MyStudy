@@ -1,10 +1,10 @@
-### 解题思路
-1. 若是非零的数字中包含重复数字，则一定不是顺子。
-2. 若是非零的数字中的最大值与最小值之差大于4，则一定不是顺子。否则一定是顺子。
+// ### 解题思路
+// 1. 若是非零的数字中包含重复数字，则一定不是顺子。
+// 2. 若是非零的数字中的最大值与最小值之差大于4，则一定不是顺子。否则一定是顺子。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isStraight(int[] nums) {
         if(containsDupNumExcludeZero(nums)) return false;
@@ -34,4 +34,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

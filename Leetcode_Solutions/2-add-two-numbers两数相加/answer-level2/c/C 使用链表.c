@@ -1,13 +1,13 @@
-### 解题思路
-将L1的内存空间，作为数据交换区；
-根据l1->next l2->next,是否为空，分情况讨论；
+// ### 解题思路
+// 将L1的内存空间，作为数据交换区；
+// 根据l1->next l2->next,是否为空，分情况讨论；
 
-注意：
-    MALLOC之后的内存空间，记得清零；否则，会有意外收获；
+// 注意：
+//     MALLOC之后的内存空间，记得清零；否则，会有意外收获；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -67,4 +67,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     
     return out;
 }
-```
+// ```

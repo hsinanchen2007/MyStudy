@@ -1,7 +1,7 @@
-用一个hash，key是集合中的数字，value是数字出现的次数 。 遍历hash中的key，如果key加上给定的k之后的值在hash中存在则计数加一。当k为0时需要判断hash中的key的value是否小于2，如果小于2则不满足条件。
+// 用一个hash，key是集合中的数字，value是数字出现的次数 。 遍历hash中的key，如果key加上给定的k之后的值在hash中存在则计数加一。当k为0时需要判断hash中的key的value是否小于2，如果小于2则不满足条件。
 
 
-```
+// ```
 
     if k<0 {
 		return 0
@@ -25,4 +25,4 @@
 	return count
 
 
-```
+// ```

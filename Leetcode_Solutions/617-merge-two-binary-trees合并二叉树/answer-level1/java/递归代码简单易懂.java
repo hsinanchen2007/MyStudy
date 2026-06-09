@@ -1,11 +1,11 @@
-### 解题思路
-把结果合并到了t1
-+ 如果当前位置两个树的结点都为null则返回null
-+ 如何当前结点处t1 t2其中一个为null则把不为null的结点给t1
-+ 如果当前结点处t1 t2都不为null则相加两结点的值个t1
-### 代码
+// ### 解题思路
+// 把结果合并到了t1
+// + 如果当前位置两个树的结点都为null则返回null
+// + 如何当前结点处t1 t2其中一个为null则把不为null的结点给t1
+// + 如果当前结点处t1 t2都不为null则相加两结点的值个t1
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         
     }
 }
-```
+// ```

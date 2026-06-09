@@ -1,6 +1,6 @@
-按照题意,必须使用栈,一个栈 不可能,两个即可
+// 按照题意,必须使用栈,一个栈 不可能,两个即可
 
-```javascript
+// ```javascript
 var MyQueue = function() {
     //输入栈
     this.istack = [];
@@ -52,4 +52,4 @@ MyQueue.prototype.empty = function() {
     //判断输入站与输出栈是否都为0
     return this.istack.length == 0 && this.ostack.length == 0;
 };
-```
+// ```

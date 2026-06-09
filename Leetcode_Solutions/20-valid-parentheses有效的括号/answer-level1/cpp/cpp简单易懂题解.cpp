@@ -1,9 +1,9 @@
-### 解题思路
-使用了数组做哈希，降低了出栈入栈的比较复杂性。
+// ### 解题思路
+// 使用了数组做哈希，降低了出栈入栈的比较复杂性。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool isValid(string s) {
@@ -30,4 +30,4 @@ public:
 		return Valid_sta.empty();
 	}
 };
-```
+// ```

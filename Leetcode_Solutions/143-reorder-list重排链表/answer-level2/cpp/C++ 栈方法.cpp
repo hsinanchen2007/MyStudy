@@ -1,9 +1,9 @@
-### 解题思路
-思路已经在代码注释中
+// ### 解题思路
+// 思路已经在代码注释中
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,5 +40,5 @@ public:
     }
 };
 
-```
-![image.png](https://pic.leetcode-cn.com/4dcd6a2a465a996e8785ed1c8bb48fd258a631e1217ef7428e4ddd86792d1fbf-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/4dcd6a2a465a996e8785ed1c8bb48fd258a631e1217ef7428e4ddd86792d1fbf-image.png)

@@ -1,11 +1,11 @@
-### 解题思路
-重点：fail数组来判断当前位置是否可以往下走
-result数组：记录字符串s匹配的单词在wordDict的下标
+// ### 解题思路
+// 重点：fail数组来判断当前位置是否可以往下走
+// result数组：记录字符串s匹配的单词在wordDict的下标
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -78,4 +78,4 @@ char ** wordBreak(char * s, char ** wordDict, int wordDictSize, int* returnSize)
     
     return res;
 }
-```
+// ```

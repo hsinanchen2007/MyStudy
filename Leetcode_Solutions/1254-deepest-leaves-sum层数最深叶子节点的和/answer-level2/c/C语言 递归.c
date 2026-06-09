@@ -1,11 +1,11 @@
-### 解题思路
-核心思想递归
-step1 查找最大深度
-step2 按照深度找值求和
+// ### 解题思路
+// 核心思想递归
+// step1 查找最大深度
+// step2 按照深度找值求和
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -54,4 +54,4 @@ int MaxDepSum(struct TreeNode* root, int sums, int depNum, int curDep) {
         return MaxDepSum(root->right, sums, depNum, curDep + 1) + MaxDepSum(root->left, sums, depNum, curDep + 1);
     }
 }
-```
+// ```

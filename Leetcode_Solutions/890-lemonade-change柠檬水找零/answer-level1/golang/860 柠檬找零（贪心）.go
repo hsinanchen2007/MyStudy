@@ -1,4 +1,4 @@
-```
+// ```
 func lemonadeChange(bills []int) bool {
    c5 := 0
    c10 := 0
@@ -28,4 +28,4 @@ func lemonadeChange(bills []int) bool {
    }
    return true
 }
-```
+// ```

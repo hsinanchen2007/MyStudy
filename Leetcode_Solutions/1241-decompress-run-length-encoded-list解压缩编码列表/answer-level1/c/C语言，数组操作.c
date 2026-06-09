@@ -1,14 +1,14 @@
-### 解题思路
-该题思路较为简单，解题思路如下：
-1 将原数组的奇数位元素和偶数位元素分别存放在不同数组中
-2 计算出需要malloc的数组长度
-3 利用循环遍历将奇数数组的元素放在新数组中
+// ### 解题思路
+// 该题思路较为简单，解题思路如下：
+// 1 将原数组的奇数位元素和偶数位元素分别存放在不同数组中
+// 2 计算出需要malloc的数组长度
+// 3 利用循环遍历将奇数数组的元素放在新数组中
 
-Note：该题所用循环较多，费时
+// Note：该题所用循环较多，费时
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -58,9 +58,9 @@ int* decompressRLElist(int* nums, int numsSize, int* returnSize)
     return result;
 
 }
-```
+// ```
 
-```c
+// ```c
 
 **//将代码优化了一下**
 
@@ -96,4 +96,4 @@ int* decompressRLElist(int* nums, int numsSize, int* returnSize)
     return result;
 
 }
-```
+// ```

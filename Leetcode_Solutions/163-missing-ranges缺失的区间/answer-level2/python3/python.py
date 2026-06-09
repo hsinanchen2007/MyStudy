@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findMissingRanges(self, nums: List[int], lower: int, upper: int) -> List[str]:
         # there maybe repeatable elements in the array.
@@ -15,4 +15,4 @@ class Solution:
                     res.append(str(begin))
                 begin = num + 1
         return res
-```
+# ```

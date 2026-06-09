@@ -1,16 +1,16 @@
-#### 方法框架
+# #### 方法框架
 
-**思路**
+# **思路**
 
-共有两种操作：`update`：掉落一个方块后，更新对应区间的高度；`query`：查询当前区间内的最大高度。
+# 共有两种操作：`update`：掉落一个方块后，更新对应区间的高度；`query`：查询当前区间内的最大高度。
 
-**坐标压缩**
+# **坐标压缩**
 
-数轴上最多有 `2 * len(positions)` 个临界点，即每个方块的左右边缘，使用坐标压缩将这些临界点映射到相应的整数位置，具体实现如下图代码所示。
+# 数轴上最多有 `2 * len(positions)` 个临界点，即每个方块的左右边缘，使用坐标压缩将这些临界点映射到相应的整数位置，具体实现如下图代码所示。
 
-为了简便起见，在具体实现方法中不添加这部分代码。
+# 为了简便起见，在具体实现方法中不添加这部分代码。
 
-```java [snippet1-Java]
+# ```java [snippet1-Java]
 Set<Integer> coords = new HashSet();
 for (int[] pos: positions) {
     coords.add(pos[0]);
@@ -22,30 +22,30 @@ Collections.sort(sortedCoords);
 Map<Integer, Integer> index = new HashMap();
 int t = 0;
 for (int coord: sortedCoords) index.put(coord, t++);
-```
+# ```
 
-```python [snippet1-Python]
+# ```python [snippet1-Python]
 coords = set()
 for left, size in positions:
     coords.add(left)
     coords.add(left + size - 1)
 index = {x: i for i, x in enumerate(sorted(coords))}
-```
+# ```
 
 
-#### 方法一：模拟方块掉落
+# #### 方法一：模拟方块掉落
 
-**思路**
+# **思路**
 
-不要思考“哪个方块影响次此位置的高度？”，应该思考“一个方块影响哪些位置的高度？”。
+# 不要思考“哪个方块影响次此位置的高度？”，应该思考“一个方块影响哪些位置的高度？”。
 
-**算法**
+# **算法**
 
-令 `qans[i]` 表示 `positions[i]` 的最大高度。最后返回数组 `qans` 中的最大值即可。
+# 令 `qans[i]` 表示 `positions[i]` 的最大高度。最后返回数组 `qans` 中的最大值即可。
 
-由于每个方块的初始高度 `positions[i]` 比所有已经落地的方块高度更高，因此只需要更新每个掉落方块所在坐标轴的区间 `[left, right], (left = positions[i][0], right = positions[i][0] + positions[i][1])` 的高度即可。
+# 由于每个方块的初始高度 `positions[i]` 比所有已经落地的方块高度更高，因此只需要更新每个掉落方块所在坐标轴的区间 `[left, right], (left = positions[i][0], right = positions[i][0] + positions[i][1])` 的高度即可。
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 class Solution {
     public List<Integer> fallingSquares(int[][] positions) {
         int[] qans = new int[positions.length];
@@ -74,9 +74,9 @@ class Solution {
         return ans;
     }
 }
-```
+# ```
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 class Solution(object):
     def fallingSquares(self, positions):
         qans = [0] * len(positions)
@@ -93,24 +93,24 @@ class Solution(object):
         for x in qans:
             ans.append(max(ans[-1], x) if ans else x)
         return ans
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N^2)$，其中 $N$ 是 `positions` 的长度，两层 for 循环，每层的复杂度都是 $O(N)$。
+# * 时间复杂度：$O(N^2)$，其中 $N$ 是 `positions` 的长度，两层 for 循环，每层的复杂度都是 $O(N)$。
 
-* 空间复杂度：$O(N)$，`qans` 和 `ans` 的存储空间。
+# * 空间复杂度：$O(N)$，`qans` 和 `ans` 的存储空间。
 
 
-#### 方法二：使用坐标压缩的暴力解法
+# #### 方法二：使用坐标压缩的暴力解法
 
-**思路和算法**
+# **思路和算法**
 
-令 `N = len(positions)`，将原始的坐标轴映射到 $2* N \leq 2000$ 的长度上，然后使用暴力解法模拟方块掉落。
+# 令 `N = len(positions)`，将原始的坐标轴映射到 $2* N \leq 2000$ 的长度上，然后使用暴力解法模拟方块掉落。
 
-计算结果是在映射后坐标轴上的，最后还需要映射回原坐标上。
+# 计算结果是在映射后坐标轴上的，最后还需要映射回原坐标上。
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 class Solution {
     int[] heights;
 
@@ -148,9 +148,9 @@ class Solution {
         return ans;
     }
 }
-```
+# ```
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 class Solution(object):
     def fallingSquares(self, positions):
         #Coordinate Compression
@@ -175,34 +175,34 @@ class Solution(object):
             ans.append(best)
 
         return ans
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N^2)$，其中 $N$ 是 `positions` 的长度，共两层 for 循环，每层的复杂度都是 $O(N)$（使用了坐标压缩）。
+# * 时间复杂度：$O(N^2)$，其中 $N$ 是 `positions` 的长度，共两层 for 循环，每层的复杂度都是 $O(N)$（使用了坐标压缩）。
 
-* 空间复杂度：$O(N)$，`heights` 的存储空间。
+# * 空间复杂度：$O(N)$，`heights` 的存储空间。
 
 
-#### 方法三：方块（平方根）分解
+# #### 方法三：方块（平方根）分解
 
-**思路**
+# **思路**
 
-在坐标轴是上执行 `update` 和 `query` 操作之前，先将长度为 $W$ 的坐标轴分为 $\sqrt{W}$ 个块。
+# 在坐标轴是上执行 `update` 和 `query` 操作之前，先将长度为 $W$ 的坐标轴分为 $\sqrt{W}$ 个块。
 
-每次方块掉落时，不仅更新方块所在坐标区间每个位置的高度，还更新方块数组 `blocks`，其中 `blocks[i]` 表示第 $i$ 个块，共 $B = \lfloor \sqrt{W} \rfloor$ 个位置的高度，即 `heights[B*i], heights[B*i + 1], ..., heights[B*i + B-1]`。
+# 每次方块掉落时，不仅更新方块所在坐标区间每个位置的高度，还更新方块数组 `blocks`，其中 `blocks[i]` 表示第 $i$ 个块，共 $B = \lfloor \sqrt{W} \rfloor$ 个位置的高度，即 `heights[B*i], heights[B*i + 1], ..., heights[B*i + B-1]`。
 
-**算法**
+# **算法**
 
-实际上还需要一个数组 `blocks_read`。更新块 `b = i / B` 中 `i` 个位置的高度时，同时更新 `blocks_read[b]` 和 `blocks[b]` 的值。如果查询整个块的值，则可以直接从 `blocks_read` 中读取。
+# 实际上还需要一个数组 `blocks_read`。更新块 `b = i / B` 中 `i` 个位置的高度时，同时更新 `blocks_read[b]` 和 `blocks[b]` 的值。如果查询整个块的值，则可以直接从 `blocks_read` 中读取。
 
-如果查询块 `b = i / B` 中的第 `i` 个位置的高度，可以通过 `heights[i]` 和 `blocks[b]` 中读取。
+# 如果查询块 `b = i / B` 中的第 `i` 个位置的高度，可以通过 `heights[i]` 和 `blocks[b]` 中读取。
 
-`query` 和 `update` 操作类似。当 `left` 或者 `right` 不是 `B` 的倍数时，使用暴力解法。最后 `[left, right+1)` 表示的连续块的长度和 `left` 都是 `B` 的倍数，
+# `query` 和 `update` 操作类似。当 `left` 或者 `right` 不是 `B` 的倍数时，使用暴力解法。最后 `[left, right+1)` 表示的连续块的长度和 `left` 都是 `B` 的倍数，
 
-`query` 和 `update` 操作类似。虽然 `left` 和 `right` 不是 `B` 的倍数，但可以通过方块位置暴力计算得到区间 `[left, right+1)` 对应的块序列。
+# `query` 和 `update` 操作类似。虽然 `left` 和 `right` 不是 `B` 的倍数，但可以通过方块位置暴力计算得到区间 `[left, right+1)` 对应的块序列。
 
-```java [solution3-Java]
+# ```java [solution3-Java]
 class Solution {
     int[] heights;
     int[] blocks;
@@ -270,9 +270,9 @@ class Solution {
         return ans;
     }
 }
-```
+# ```
 
-```python [solution3-Python]
+# ```python [solution3-Python]
 class Solution(object):
     def fallingSquares(self, positions):
         #Coordinate compression
@@ -321,28 +321,28 @@ class Solution(object):
             ans.append(best)
 
         return ans
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N\sqrt{N})$，其中 $N$ 是 `positions` 的长度，`query` 和 `update` 的复杂度都是 $O(\sqrt{N})$。
+# * 时间复杂度：$O(N\sqrt{N})$，其中 $N$ 是 `positions` 的长度，`query` 和 `update` 的复杂度都是 $O(\sqrt{N})$。
 
-* 空间复杂度：$O(N)$，`heights` 的存储空间。
+# * 空间复杂度：$O(N)$，`heights` 的存储空间。
 
 
-#### 方法四：懒惰传播的线段树
+# #### 方法四：懒惰传播的线段树
 
-**思路**
+# **思路**
 
-线段树支持查询和更新操作，使用线段树可以很容易的解决此问题。
+# 线段树支持查询和更新操作，使用线段树可以很容易的解决此问题。
 
-**算法**
+# **算法**
 
-线段树将整个区间分割为多个不连续的子区间，子区间的数量不超过 `log(width)`。更新某个元素的值，只需要更新 `log(width)` 个区间，并且这些区间都包含在一个包含该元素的大区间内。
+# 线段树将整个区间分割为多个不连续的子区间，子区间的数量不超过 `log(width)`。更新某个元素的值，只需要更新 `log(width)` 个区间，并且这些区间都包含在一个包含该元素的大区间内。
 
-一次性更新一个区间时，需要使用懒惰传播保证效率。
+# 一次性更新一个区间时，需要使用懒惰传播保证效率。
 
-```java [solution4-Java]
+# ```java [solution4-Java]
 class Solution {
     public List<Integer> fallingSquares(int[][] positions) {
         //Coordinate Compression
@@ -423,9 +423,9 @@ class SegmentTree {
         return ans;
     }
 }
-```
+# ```
 
-```python [solution4-Python]
+# ```python [solution4-Python]
 class SegmentTree(object):
     def __init__(self, N, update_fn, query_fn):
         self.N = N
@@ -503,10 +503,10 @@ class Solution(object):
             ans.append(best)
 
         return ans
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N \log N)$，其中 $N$ 是 `positions` 的长度，这也是线段树的时间复杂度。
+# * 时间复杂度：$O(N \log N)$，其中 $N$ 是 `positions` 的长度，这也是线段树的时间复杂度。
 
-* 空间复杂度：$O(N)$，线段树的存储空间。
+# * 空间复杂度：$O(N)$，线段树的存储空间。

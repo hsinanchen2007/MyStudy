@@ -1,9 +1,9 @@
-### 解题思路
-这题比较简单，遍历八个方向的活细胞，统计即可。
+// ### 解题思路
+// 这题比较简单，遍历八个方向的活细胞，统计即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -39,4 +39,4 @@ public:
         board = result;
     }
 };
-```
+// ```

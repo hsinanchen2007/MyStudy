@@ -1,5 +1,5 @@
-(1)递归方式：Dfs
-```
+// (1)递归方式：Dfs
+// ```
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
@@ -12,9 +12,9 @@ public:
         return root;
     }
 };
-```
-(2)非递归方式:Bfs
-```
+// ```
+// (2)非递归方式:Bfs
+// ```
 public:
     TreeNode* invertTree(TreeNode* root) {
         queue<TreeNode*> q;
@@ -33,5 +33,5 @@ public:
         }
     }
 };
-```
+// ```
 

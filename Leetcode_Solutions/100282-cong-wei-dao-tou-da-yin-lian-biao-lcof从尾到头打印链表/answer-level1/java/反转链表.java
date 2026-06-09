@@ -1,9 +1,9 @@
-### 解题思路
-先遍历链表里的数据到List中, 然后将List中的数据倒序输出到数组并返回即可
+// ### 解题思路
+// 先遍历链表里的数据到List中, 然后将List中的数据倒序输出到数组并返回即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

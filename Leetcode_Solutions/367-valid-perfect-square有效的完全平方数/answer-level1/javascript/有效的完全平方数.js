@@ -1,6 +1,6 @@
-*法一：暴力递增判断*
+// *法一：暴力递增判断*
 
-```js
+// ```js
 var isPerfectSquare = function(num) {
     var i = 1;
     while(i * i <= num) {
@@ -12,11 +12,11 @@ var isPerfectSquare = function(num) {
     }
     return false
 };
-```
+// ```
 
-*法二： 二分查找*
+// *法二： 二分查找*
 
-```js
+// ```js
 var isPerfectSquare2 = function(num) {
     let left = 1;
     let right = num;
@@ -33,6 +33,6 @@ var isPerfectSquare2 = function(num) {
     }
     return false;
 };
-```
+// ```
 
 

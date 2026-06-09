@@ -1,8 +1,8 @@
-### 解题思路
-BFS
-### 代码
+// ### 解题思路
+// BFS
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func isBipartite(_ graph: [[Int]]) -> Bool {
         // graph : [[1,3], [0,2], [1,3], [0,2]]
@@ -40,4 +40,4 @@ class Solution {
         return true
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} word1
  * @param {string} word2
@@ -30,4 +30,4 @@ var minDistance = function(word1, word2) {
     }
     return dp[len1][len2];
 };
-```
+// ```

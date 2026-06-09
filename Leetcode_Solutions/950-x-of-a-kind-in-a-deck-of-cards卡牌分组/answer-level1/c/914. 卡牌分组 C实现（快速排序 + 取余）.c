@@ -1,9 +1,9 @@
-### 解题思路
-        快速排序后统计每个元素的出现次数，取出现次数最小的次数遍历取余。
+// ### 解题思路
+//         快速排序后统计每个元素的出现次数，取出现次数最小的次数遍历取余。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Compare(const void* a, const void* b)
 {
     return *(int*)a - *(int*)b;
@@ -40,4 +40,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
     free(cnt);
     return false;
 }
-```
+// ```

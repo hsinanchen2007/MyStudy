@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var longestPalindrome = function(s) {
     const len = s.length
     if (len === 1) return s
@@ -35,4 +35,4 @@ var longestPalindrome = function(s) {
     }
     return s.substr(start, longest)
 };
-```
+// ```

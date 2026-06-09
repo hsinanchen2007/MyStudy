@@ -1,4 +1,4 @@
-```rust
+// ```rust
 pub fn reverse_words(s: String) -> String {
     s.split(' ')
         .rev()
@@ -6,4 +6,4 @@ pub fn reverse_words(s: String) -> String {
         .collect::<Vec<&str>>()
         .join(" ")
 }
-```
+// ```

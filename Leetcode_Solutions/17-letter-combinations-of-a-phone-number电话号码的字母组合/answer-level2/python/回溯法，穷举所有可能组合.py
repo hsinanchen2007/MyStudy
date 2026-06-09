@@ -1,7 +1,7 @@
-思路：将第一个数字映射的字母作为初始result，暴力循环result中全部元素和后一个数字映射的字母组合，并更新result(删除已处理组合+添加新组合)。
-注意：由于不断更新result，循环result时一定采用python列表的复制方法，防止陷入无限循环。
+# 思路：将第一个数字映射的字母作为初始result，暴力循环result中全部元素和后一个数字映射的字母组合，并更新result(删除已处理组合+添加新组合)。
+# 注意：由于不断更新result，循环result时一定采用python列表的复制方法，防止陷入无限循环。
 
-```
+# ```
 class Solution(object):
     def letterCombinations(self, digits):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 for j in num_str[int(i) - 2]:
                     res.insert(0, item+j)   # 添加新组合
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-第一想法是后缀树，但是怎么写后缀树呢？并不会😭，那就转成前缀树，按长度排序，就AC了
+// ### 解题思路
+// 第一想法是后缀树，但是怎么写后缀树呢？并不会😭，那就转成前缀树，按长度排序，就AC了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     
     class Trie {
@@ -58,6 +58,6 @@ class Solution {
         return ans;
     }
 }
-```
-### 时间复杂度
-没想错的话应该是 O(words.length * words[i].length())。
+// ```
+// ### 时间复杂度
+// 没想错的话应该是 O(words.length * words[i].length())。

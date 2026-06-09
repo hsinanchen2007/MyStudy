@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:
         size = len(nums)
@@ -14,4 +14,4 @@ class Solution:
         if size < 3 or n3<=3-sys.maxsize:
             return n1
         return n3
-```
+# ```

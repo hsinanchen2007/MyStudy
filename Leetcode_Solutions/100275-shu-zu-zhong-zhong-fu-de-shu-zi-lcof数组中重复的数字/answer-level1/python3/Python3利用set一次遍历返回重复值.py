@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         res_set = set() 
@@ -8,4 +8,4 @@ class Solution:
                 res_set.add(num)
             else:
                 return num
-```
+# ```

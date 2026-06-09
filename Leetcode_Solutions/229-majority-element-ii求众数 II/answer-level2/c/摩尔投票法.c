@@ -1,6 +1,6 @@
-### 解题思路
-摩尔投票的核心就是不同的同归于尽，同类不自残，剩下的一定是大多数
-```
+// ### 解题思路
+// 摩尔投票的核心就是不同的同归于尽，同类不自残，剩下的一定是大多数
+// ```
 int* majorityElement(int* nums, int numsSize, int* returnSize) {
 	int *res = (int*)malloc(sizeof(int) * 2);
 	*returnSize = 0;
@@ -38,12 +38,12 @@ int* majorityElement(int* nums, int numsSize, int* returnSize) {
 	if (count2 > numsSize / 3) res[(*returnSize)++] = current2;
 	return res;
 }
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -84,4 +84,4 @@ int* majorityElement(int* nums, int numsSize, int* returnSize) {
 	if (count2 > numsSize / 3) res[(*returnSize)++] = current2;
 	return res;
 }
-```
+// ```

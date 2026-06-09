@@ -1,5 +1,5 @@
-121.买卖股票的最佳时机 I
-```
+# 121.买卖股票的最佳时机 I
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if len(prices)<=1: return 0
@@ -11,10 +11,10 @@ class Solution:
             temp = max(0,diff[i]+temp)
             max_profit = max(max_profit,temp)
         return max_profit
-```
+# ```
 
-122.买卖股票的最佳时机 II
-```
+# 122.买卖股票的最佳时机 II
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         res = 0
@@ -22,4 +22,4 @@ class Solution:
             if prices[i]>prices[i-1]:
                 res+=(prices[i]-prices[i-1])
         return res
-```
+# ```

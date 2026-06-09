@@ -1,8 +1,8 @@
-看提交结果中执行 $0ms$ 的时候看到的方法，我觉得真的厉害，有必要记录一下。
+// 看提交结果中执行 $0ms$ 的时候看到的方法，我觉得真的厉害，有必要记录一下。
 
 
 
-```java [-Java]
+// ```java [-Java]
 class Solution {
     public int[][] findContinuousSequence(int target) {
         
@@ -26,4 +26,4 @@ class Solution {
         return result.toArray(new int[0][]);       
     }
 }
-```
+// ```

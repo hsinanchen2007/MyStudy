@@ -1,11 +1,11 @@
-## 解题思路
-题目有两个关键点：
+// ## 解题思路
+// 题目有两个关键点：
 
-1. 排序：采用快速排序的方法
-2. 比较：比较两个数字拼接在一起后的值
+// 1. 排序：采用快速排序的方法
+// 2. 比较：比较两个数字拼接在一起后的值
 
-## 解题方式
-```
+// ## 解题方式
+// ```
 public String largestNumber(int[] nums) {
         nums = sort(nums, 0, nums.length - 1);
 
@@ -59,5 +59,5 @@ public String largestNumber(int[] nums) {
 
         return (a + "" + b).compareTo(b + "" + a);
     }
-```
+// ```
 

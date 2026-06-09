@@ -1,7 +1,7 @@
-执行用时 : 280 ms, 在所有 Kotlin 提交中击败了100.00%的用户
-内存消耗 : 32.6 MB, 在所有 Kotlin 提交中击败了100.00%的用户
+// 执行用时 : 280 ms, 在所有 Kotlin 提交中击败了100.00%的用户
+// 内存消耗 : 32.6 MB, 在所有 Kotlin 提交中击败了100.00%的用户
 
-```
+// ```
     fun findContinuousSequence(target: Int): Array<IntArray> {
         val res = ArrayList<IntArray>()
         var sum = 0
@@ -24,4 +24,4 @@
         }
         return res.toTypedArray()
     }
-```
+// ```

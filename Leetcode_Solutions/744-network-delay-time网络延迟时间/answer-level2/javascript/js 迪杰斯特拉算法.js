@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[][]} times
  * @param {number} N
@@ -53,4 +53,4 @@ var networkDelayTime = function(times, N, K) {
     }
     return ans
 };
-```
+// ```

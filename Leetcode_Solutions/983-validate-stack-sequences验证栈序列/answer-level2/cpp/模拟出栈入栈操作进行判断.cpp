@@ -1,8 +1,8 @@
-### 解题思路
-利用题中给出的数组模拟出栈入栈操作，如果最后栈为空，表示给出的栈序列正确。
-### 代码
+// ### 解题思路
+// 利用题中给出的数组模拟出栈入栈操作，如果最后栈为空，表示给出的栈序列正确。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
@@ -26,4 +26,4 @@ public:
         return stacks.empty();
     }
 };
-```
+// ```

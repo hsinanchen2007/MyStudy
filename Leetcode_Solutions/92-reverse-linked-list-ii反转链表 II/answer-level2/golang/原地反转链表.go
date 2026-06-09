@@ -1,7 +1,7 @@
-思路：cur指针始终指向初始的第m个节点，tmp为其下一个节点，每次讲tmp往前移动，注意边界条件处理。
-建立头结点，防止m为原列表的第一个节点情况的出现。
+// 思路：cur指针始终指向初始的第m个节点，tmp为其下一个节点，每次讲tmp往前移动，注意边界条件处理。
+// 建立头结点，防止m为原列表的第一个节点情况的出现。
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -40,4 +40,4 @@ func reverseBetween(head *ListNode, m int, n int) *ListNode {
     return fake.Next    
 
 }
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/f3b9efcce3a8f34178bf890ead5c2a82e03d73391a2235b74b74f54b27389f91-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f3b9efcce3a8f34178bf890ead5c2a82e03d73391a2235b74b74f54b27389f91-image.png)
 
-```
+// ```
 #define MAX_ASIIC 256
 int lengthOfLongestSubstringKDistinct(char * s, int k){
     int bk[MAX_ASIIC] = {0};
@@ -32,4 +32,4 @@ int lengthOfLongestSubstringKDistinct(char * s, int k){
     }
     return max;
 }
-```
+// ```

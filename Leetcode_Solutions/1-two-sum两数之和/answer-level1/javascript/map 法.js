@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-1. 时间复杂度为 O(n)
-2. 空间复杂度为 O(n)
-3. 利用 map
+// 1. 时间复杂度为 O(n)
+// 2. 空间复杂度为 O(n)
+// 3. 利用 map
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -34,4 +34,4 @@ var twoSum = function(nums, target) {
 
     return [ pos1, pos2 ];
 };
-```
+// ```

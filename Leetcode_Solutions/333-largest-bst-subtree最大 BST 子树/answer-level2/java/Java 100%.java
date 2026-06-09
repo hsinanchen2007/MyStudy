@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/9a93a3aac7872ee69c865f1239f2ce43acd3adacefa24e5d612390e1c6a230b6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9a93a3aac7872ee69c865f1239f2ce43acd3adacefa24e5d612390e1c6a230b6-image.png)
 
 
-函数`boolean bst(TreeNode node)`, 使用中序遍历判断是否是 bst, 并使用count 记录当前 bst 树的大小
+// 函数`boolean bst(TreeNode node)`, 使用中序遍历判断是否是 bst, 并使用count 记录当前 bst 树的大小
 
-`int largestBSTSubtree(TreeNode root)`从根节点开始递归, 循环判断 是否是 bst, 如果检查到 bst , 则直接返回 count 
+// `int largestBSTSubtree(TreeNode root)`从根节点开始递归, 循环判断 是否是 bst, 如果检查到 bst , 则直接返回 count 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -56,4 +56,4 @@ class Solution {
 
 
 }
-```
+// ```

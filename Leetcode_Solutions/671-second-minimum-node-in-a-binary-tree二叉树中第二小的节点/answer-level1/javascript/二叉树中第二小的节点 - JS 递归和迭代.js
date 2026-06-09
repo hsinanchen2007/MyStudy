@@ -1,6 +1,6 @@
-> 递归
+// > 递归
 
-```js
+// ```js
 const findSecondMinimumValue = (root) => {
   const result = [];
   const ergodic = (root) => {
@@ -14,11 +14,11 @@ const findSecondMinimumValue = (root) => {
   ergodic(root);
   return [...new Set(result)][1] || -1;
 };
-```
+// ```
 
-> 迭代
+// > 迭代
 
-```js
+// ```js
 const findSecondMinimumValue = (root) => {
   const newRoot = [root];
   const result = [];
@@ -34,6 +34,6 @@ const findSecondMinimumValue = (root) => {
   }
   return [...new Set(result.sort((a, b) => a - b))][1] || -1;;
 };
-```
+// ```
 
-详解欢迎到 [jsliang 的文档库 - LeetCode](https://github.com/LiangJunrong/document-library/tree/master/other-library/LeetCode) 吐槽~
+// 详解欢迎到 [jsliang 的文档库 - LeetCode](https://github.com/LiangJunrong/document-library/tree/master/other-library/LeetCode) 吐槽~

@@ -1,9 +1,9 @@
-### 解题思路
-各位相加暴力求解
+// ### 解题思路
+// 各位相加暴力求解
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def addDigits(num: Int): Int = {
       var Num: Int = num
@@ -17,4 +17,4 @@ object Solution {
     count  
     }
 }
-```
+// ```

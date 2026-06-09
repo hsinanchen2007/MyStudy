@@ -1,4 +1,4 @@
-```
+// ```
 func maxPathSum(root *TreeNode) int {
     maxSum := -1 << 31
     maxGain(root, &maxSum)
@@ -28,4 +28,4 @@ func maxGain(tn *TreeNode, maxSum *int) int {
     
     return tn.Val + right
 }
-```
+// ```

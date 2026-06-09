@@ -1,9 +1,9 @@
-golang解决，排序+双指针之对撞指针
+// golang解决，排序+双指针之对撞指针
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
 
-```
+// ```
 // 排序+双指针之对撞指针
 // 先排序，然后固定一个元素,另外两个元素由对撞指针确定，注意对三个元素的去重处理
 // 时间复杂度：O(n^2)  空间复杂度：O(1)
@@ -51,4 +51,4 @@ func threeSum(nums []int) [][]int {
 
 	return res
 }
-```
+// ```

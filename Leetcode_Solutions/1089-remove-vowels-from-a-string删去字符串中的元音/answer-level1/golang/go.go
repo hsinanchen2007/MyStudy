@@ -1,4 +1,4 @@
-```
+// ```
 var m = [26]bool{
 	true, false, false, false, true, false, false, false, true, false, false, false, false, false,
 	true, false, false, false, false, false, true, false, false, false, false, false,
@@ -13,4 +13,4 @@ func removeVowels(S string) string {
 	}
 	return string(bs[:i])
 }
-```
+// ```

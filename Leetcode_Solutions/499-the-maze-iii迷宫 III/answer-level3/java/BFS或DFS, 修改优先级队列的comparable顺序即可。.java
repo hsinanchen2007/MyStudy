@@ -1,12 +1,12 @@
-### 解题思路
-思路：
-1.最重要的是：BFS中visit[][]数组 和 queue队列 每个node所存的 到当前点路径代价 的关系，即visit代表到此点的最短步数
-2.要注意不能找到目的地就退出，因为多路径要排序选择，同时出队列的优先级是 直线的数目， 而不是步数。
-3.字典序排序使用treeset或者treemap实现。
-4.使用优先级队列，count最大优先出队列，其实就变成了DFS， 而最小优先出则还是BFS，所以没有必要使用 PriorityQueue.
-### 代码
+// ### 解题思路
+// 思路：
+// 1.最重要的是：BFS中visit[][]数组 和 queue队列 每个node所存的 到当前点路径代价 的关系，即visit代表到此点的最短步数
+// 2.要注意不能找到目的地就退出，因为多路径要排序选择，同时出队列的优先级是 直线的数目， 而不是步数。
+// 3.字典序排序使用treeset或者treemap实现。
+// 4.使用优先级队列，count最大优先出队列，其实就变成了DFS， 而最小优先出则还是BFS，所以没有必要使用 PriorityQueue.
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public   String findShortestWay(int[][] maze, int[] ball, int[] hole) {
         TreeMap<String,Integer> answers = new TreeMap<>() ;
@@ -104,4 +104,4 @@ class node{
     }
 }
 
-```
+// ```

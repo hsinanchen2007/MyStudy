@@ -1,9 +1,9 @@
-### 解题思路
-深度优先搜索
+# ### 解题思路
+# 深度优先搜索
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def letterCombinations(self, digits):
         """
@@ -29,4 +29,4 @@ class Solution(object):
                     result.append(each+list)
         return result
 
-```
+# ```

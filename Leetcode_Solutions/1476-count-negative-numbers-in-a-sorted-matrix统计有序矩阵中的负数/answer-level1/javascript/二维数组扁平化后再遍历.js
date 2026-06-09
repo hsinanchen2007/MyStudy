@@ -1,9 +1,9 @@
-### 解题思路
-emmm不想双循环，就把二维数组变成一维了。
+// ### 解题思路
+// emmm不想双循环，就把二维数组变成一维了。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -15,4 +15,4 @@ var countNegatives = function(grid) {
     });
     return count;
 };
-```
+// ```

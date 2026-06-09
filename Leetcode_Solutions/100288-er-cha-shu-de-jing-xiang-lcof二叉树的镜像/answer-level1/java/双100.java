@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public TreeNode mirrorTree(TreeNode root) {
         if(root==null)
@@ -11,4 +11,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

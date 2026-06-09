@@ -1,9 +1,9 @@
-### 解题思路
-记录当前节点左右两侧最高峰，遍历相加当前节点可存储的雨水即可
+// ### 解题思路
+// 记录当前节点左右两侧最高峰，遍历相加当前节点可存储的雨水即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func trap(height []int) int {
 	if len(height) == 0 {
 		return 0
@@ -38,4 +38,4 @@ func min(a, b int) int {
 	return b
 }
 
-```
+// ```

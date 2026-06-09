@@ -1,10 +1,10 @@
-### 解题思路
-这个的周期性质看一下样本就很容易发现的
-顺便我这个还支持中文输入
+// ### 解题思路
+// 这个的周期性质看一下样本就很容易发现的
+// 顺便我这个还支持中文输入
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func convert(s string, numRows int) string {
     if numRows == 1 {
         return s
@@ -26,4 +26,4 @@ func convert(s string, numRows int) string {
     return ret
     
 }
-```
+// ```

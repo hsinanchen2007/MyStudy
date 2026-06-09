@@ -1,9 +1,9 @@
-### 解题思路
-搜索的时候，进行递归搜索，同时记得将root恢复为根节点。
+// ### 解题思路
+// 搜索的时候，进行递归搜索，同时记得将root恢复为根节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class WordDictionary {
     
     private TrieNode root;
@@ -89,4 +89,4 @@ class WordDictionary {
  * obj.addWord(word);
  * boolean param_2 = obj.search(word);
  */
-```
+// ```

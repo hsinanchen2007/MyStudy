@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minCostClimbingStairs(vector<int>& cost) {
@@ -24,5 +24,5 @@ public:
         return pre;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/4413273b8fcb4d9a1bec77e76352f1cfdf35e9f8c17de3b5f629d66f1260051c-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/4413273b8fcb4d9a1bec77e76352f1cfdf35e9f8c17de3b5f629d66f1260051c-image.png)

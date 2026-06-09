@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
             def S_One_Place(num):
@@ -21,4 +21,4 @@ class Solution:
                         ans -= min(grid[i][j], grid[i - 1][j]) * 2
 
             return ans
-```
+# ```

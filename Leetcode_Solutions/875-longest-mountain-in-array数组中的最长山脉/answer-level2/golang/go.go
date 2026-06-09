@@ -1,4 +1,4 @@
-```
+// ```
 func longestMountain(A []int) int {
 	o, u, d, l := 0, 0, 0, len(A)
 	for i := 1; i < l; i++ {
@@ -17,4 +17,4 @@ func longestMountain(A []int) int {
 	}
 	return o
 }
-```
+// ```

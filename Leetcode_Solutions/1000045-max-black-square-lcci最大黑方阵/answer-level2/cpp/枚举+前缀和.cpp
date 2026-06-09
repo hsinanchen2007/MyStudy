@@ -1,15 +1,15 @@
-### 解题思路
-预处理行前缀和，列前缀和。在枚举方阵的起点坐标(i,j)和方阵边长len。需要满足以下四个条件(题意要求 4 条边皆为黑色像素)：
-1. row[r][c+i] - row[r][c] + mat[r][c] == 0
-2. row[r+i][c+i] - row[r+i][c] + mat[r+i][c] == 0
-3. col[r+i][c] - col[r][c] + mat[r][c] == 0
-4. col[r+i][c+i] - col[r][c+i] + mat[r][c+i] == 0
+// ### 解题思路
+// 预处理行前缀和，列前缀和。在枚举方阵的起点坐标(i,j)和方阵边长len。需要满足以下四个条件(题意要求 4 条边皆为黑色像素)：
+// 1. row[r][c+i] - row[r][c] + mat[r][c] == 0
+// 2. row[r+i][c+i] - row[r+i][c] + mat[r+i][c] == 0
+// 3. col[r+i][c] - col[r][c] + mat[r][c] == 0
+// 4. col[r+i][c+i] - col[r][c+i] + mat[r][c+i] == 0
 
-满足条件，即可更新答案为当前坐标和边长。
+// 满足条件，即可更新答案为当前坐标和边长。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findSquare(vector<vector<int>>& mat) {
@@ -48,4 +48,4 @@ public:
         return ret;
     }
 };
-```
+// ```

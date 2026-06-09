@@ -1,6 +1,6 @@
-暴力法，两层循环，k依次递减nums[i] 当为0的时候count++;
+// 暴力法，两层循环，k依次递减nums[i] 当为0的时候count++;
 
-```
+// ```
 public class SubarraySum {
     public static int subarraySum(int[] nums, int k) {
         // 暴力法：从1开始，递减数字，如果为0则加1，然后从第二个开始。
@@ -19,11 +19,11 @@ public class SubarraySum {
     }
 }
 
-```
+// ```
 
-官方HashMap方法
+// 官方HashMap方法
 
-```
+// ```
 public class SubarraySum {
     public int subarraySum(int[] nums, int k) {
         int sum = 0, count = 0;
@@ -40,4 +40,4 @@ public class SubarraySum {
         return count;
     }
 }
-```
+// ```

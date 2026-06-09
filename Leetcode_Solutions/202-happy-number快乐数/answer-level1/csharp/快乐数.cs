@@ -1,5 +1,5 @@
-**思路：** 直接计算每位平方和，出现1就返回true，出现重复的sum就直接返回false（退出循环的条件不是非常容易想到）。
-```
+// **思路：** 直接计算每位平方和，出现1就返回true，出现重复的sum就直接返回false（退出循环的条件不是非常容易想到）。
+// ```
 public bool IsHappy(int n)
         {
             var sum = 0;
@@ -24,4 +24,4 @@ public bool IsHappy(int n)
 
             return true;
         }
-```
+// ```

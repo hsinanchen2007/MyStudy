@@ -1,8 +1,8 @@
-### 解题思路
-中心位分为单个字符、两个相等字符 两种情况分别计算最大回文串
-### 代码
+// ### 解题思路
+// 中心位分为单个字符、两个相等字符 两种情况分别计算最大回文串
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -46,4 +46,4 @@ var longestPalindrome = function(s) {
     }
     return max_Sub
 };
-```
+// ```

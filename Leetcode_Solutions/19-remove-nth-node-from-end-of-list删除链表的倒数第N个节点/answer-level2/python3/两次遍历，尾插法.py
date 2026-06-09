@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         # 判特殊
@@ -35,5 +35,5 @@ class Solution:
                 dum.next = newNode
 
         return dum.next
-```
-相比官方题解，复杂了不少，空间复杂度也是增加了。但是完全自己想出来的，还是记录一下。
+# ```
+# 相比官方题解，复杂了不少，空间复杂度也是增加了。但是完全自己想出来的，还是记录一下。

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int divide(int dividend, int divisor) {
        if(dividend==0 || divisor==0) return 0;
@@ -43,4 +43,4 @@ class Solution {
        return 0;
     }
 }
-```
+// ```

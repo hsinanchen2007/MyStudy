@@ -1,7 +1,7 @@
-# **C++写法**
+// # **C++写法**
 
-递归：
-```
+// 递归：
+// ```
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
@@ -18,9 +18,9 @@ public:
         helper(root->right,res);
     }
 };
-```
-迭代：
-```
+// ```
+// 迭代：
+// ```
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
@@ -45,11 +45,11 @@ public:
         return res;
     }
 };
-```
-# **C写法**
+// ```
+// # **C写法**
 
-递归：
-```
+// 递归：
+// ```
 int* inorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize = 0;
     int *ar = (int *)malloc(sizeof(int) * 1000);
@@ -66,10 +66,10 @@ void inorder(struct TreeNode* root, int *ar, int* returnSize)         // 递归�
         inorder(root->right, ar, returnSize);
     }
 }
-```
+// ```
 
-迭代：
-```
+// 迭代：
+// ```
 int* inorderTraversal(struct TreeNode* root, int* returnSize){
     int* res = (int*)malloc(sizeof(int) * 100),top = -1;
     struct TreeNode** stack = (struct TreeNode**)malloc(sizeof(struct TreeNode*) * 100);
@@ -91,4 +91,4 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
     }
     return res;
 }
-```
+// ```

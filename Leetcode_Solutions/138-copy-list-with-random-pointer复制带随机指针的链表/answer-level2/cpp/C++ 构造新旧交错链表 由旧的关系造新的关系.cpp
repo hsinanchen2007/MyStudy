@@ -1,4 +1,4 @@
-```
+// ```
     Node* copyRandomList(Node* head) {//即要求再创一个链表，结构与其相同
         if(!head) return NULL; 
         //创建相邻节点使得新旧交错
@@ -23,4 +23,4 @@
         }
         return newh;
     }
-```
+// ```

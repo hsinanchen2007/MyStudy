@@ -1,5 +1,5 @@
-思路比较简单，直接上代码：
-```
+// 思路比较简单，直接上代码：
+// ```
 class Solution {
 public:
     const int M = 1e9 + 7;
@@ -27,5 +27,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/60b3bce7d951f1a1cedf4bc9d8117e558ad115ab6979e155f17ee4f15bbe30e5-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/60b3bce7d951f1a1cedf4bc9d8117e558ad115ab6979e155f17ee4f15bbe30e5-image.png)

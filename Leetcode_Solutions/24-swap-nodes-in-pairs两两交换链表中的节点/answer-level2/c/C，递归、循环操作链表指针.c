@@ -1,13 +1,13 @@
-### 解题思路
-方法一：循环链表指针操作
-方法二：递归处理
-    1，确定递归终止条件
-    2，实现两个节点的交换操作
-    3，递归函数的应用
+// ### 解题思路
+// 方法一：循环链表指针操作
+// 方法二：递归处理
+//     1，确定递归终止条件
+//     2，实现两个节点的交换操作
+//     3，递归函数的应用
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -70,4 +70,4 @@ struct ListNode* swapPairs(struct ListNode* head){
     return pHeadNode->next;
 }
 */
-```
+// ```

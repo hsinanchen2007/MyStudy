@@ -1,6 +1,6 @@
-双指针，对撞指针。
+// 双指针，对撞指针。
 
-```js
+// ```js
 var reverseString = function(s) {
     let right = 0
     let left = s.length - 1
@@ -10,4 +10,4 @@ var reverseString = function(s) {
         left--
     }
 };
-```
+// ```

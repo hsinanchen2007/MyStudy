@@ -1,5 +1,5 @@
-这里的判断`if(i%2==1)`不能像python一样可以直接写`if(i%2)`
-```
+// 这里的判断`if(i%2==1)`不能像python一样可以直接写`if(i%2)`
+// ```
 public class Solution {
     public int[] SortArrayByParityII(int[] A) {
         var odd = 1;
@@ -17,4 +17,4 @@ public class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-当前数字计数cnt，当cnt==0，换数，与之相同++，不同--
+// ### 解题思路
+// 当前数字计数cnt，当cnt==0，换数，与之相同++，不同--
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         int res = 0,cnt = 0;
@@ -22,4 +22,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

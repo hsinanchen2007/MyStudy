@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-method 1:纯栈模拟 不出意外的超时
-```cpp
+// ### 代码
+// method 1:纯栈模拟 不出意外的超时
+// ```cpp
 //没有灵魂的贪心 + 栈模拟
 #include <stack>
 #include <deque>
@@ -41,11 +41,11 @@ public:
         return res;
     }
 };
-```
+// ```
 
 
-method 2:转换为记录相同字符出现个数的pair
-```cpp
+// method 2:转换为记录相同字符出现个数的pair
+// ```cpp
 //为提高效率，字符串转pair进行操作
 class Solution {
 public:
@@ -106,12 +106,12 @@ public:
     }
 };
 
-```
+// ```
 
 
 
-method 3:结合两种思路
-```cpp
+// method 3:结合两种思路
+// ```cpp
 //stack + pair
 #include <utility>
 #include <deque>
@@ -144,4 +144,4 @@ public:
     }
 };
 
-```
+// ```

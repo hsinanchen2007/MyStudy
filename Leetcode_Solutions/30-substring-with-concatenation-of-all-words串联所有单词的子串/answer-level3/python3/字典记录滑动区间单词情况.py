@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/4e43e589bb774202a00d33a70c071a79d5ef010f672ea4dea86f1e9e4f77ef3f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/4e43e589bb774202a00d33a70c071a79d5ef010f672ea4dea86f1e9e4f77ef3f-image.png)
 
-起点分别是[0,words[0].length-1]，每次滑动words[0].length，通过一个字典记录滑动区间内按words[0].length来分割的单词情况，滑动一次就减去首单词加上新单词，然后跟words对比。
+# 起点分别是[0,words[0].length-1]，每次滑动words[0].length，通过一个字典记录滑动区间内按words[0].length来分割的单词情况，滑动一次就减去首单词加上新单词，然后跟words对比。
 
-```
+# ```
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         n=len(words)
@@ -31,12 +31,12 @@ class Solution:
                 
                 
         return ans
-```
+# ```
 
-暴力法，排序后元组化哈希也可以过，大概800-1000ms这样，但是理解比较简单
+# 暴力法，排序后元组化哈希也可以过，大概800-1000ms这样，但是理解比较简单
 
 
-```
+# ```
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         n=len(words)
@@ -57,12 +57,12 @@ class Solution:
             i+=1
         
         return ans
-```
+# ```
 
 
-乐色代码纯暴力算法也可以过，大概2000ms左右，其实主要费时在添加删除元素上，哈希后本质上就变成最顶上那种算法了
+# 乐色代码纯暴力算法也可以过，大概2000ms左右，其实主要费时在添加删除元素上，哈希后本质上就变成最顶上那种算法了
 
-```
+# ```
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         n=len(words)
@@ -92,4 +92,4 @@ class Solution:
                         ans+=[l]
             i+=1
         return ans
-```
+# ```

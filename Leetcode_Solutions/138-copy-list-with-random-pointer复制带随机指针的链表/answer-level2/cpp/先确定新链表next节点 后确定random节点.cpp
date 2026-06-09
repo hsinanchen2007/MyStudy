@@ -1,11 +1,11 @@
-### 解题思路
-1. 首先新链表的random节点可能并没有产生，故先拷贝next节点
-2. 遍历新链表，根据原链表中random节点相对于头结点的距离，确定新链表节点的random节点
-为了避免每次从新链表头部查找，故对原链表做Node->index的映射，对新链表做index->Node的映射
+// ### 解题思路
+// 1. 首先新链表的random节点可能并没有产生，故先拷贝next节点
+// 2. 遍历新链表，根据原链表中random节点相对于头结点的距离，确定新链表节点的random节点
+// 为了避免每次从新链表头部查找，故对原链表做Node->index的映射，对新链表做index->Node的映射
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -50,4 +50,4 @@ public:
         return dummy.next;
     }
 };
-```
+// ```

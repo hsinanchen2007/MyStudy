@@ -1,9 +1,9 @@
-### 解题思路
-采先访问右分支、再累加节点值，再访问左子树即可
+// ### 解题思路
+// 采先访问右分支、再累加节点值，再访问左子树即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
         return Math.max(root.val, left);
     }
 }
-```
+// ```

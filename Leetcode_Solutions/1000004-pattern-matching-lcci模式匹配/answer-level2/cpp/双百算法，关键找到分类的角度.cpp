@@ -1,10 +1,10 @@
-### 解题思路
-![QQ截图20200327151600.png](https://pic.leetcode-cn.com/9e31e05a212d7b8cd45c1b449ea148f2ec08e9544d0d2748b96838ac34c8d45f-QQ%E6%88%AA%E5%9B%BE20200327151600.png)
-此处撰写解题思路
+// ### 解题思路
+// ![QQ截图20200327151600.png](https://pic.leetcode-cn.com/9e31e05a212d7b8cd45c1b449ea148f2ec08e9544d0d2748b96838ac34c8d45f-QQ%E6%88%AA%E5%9B%BE20200327151600.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int cnt[2];
@@ -66,4 +66,4 @@ public:
         return true;
     }
 };
-```
+// ```

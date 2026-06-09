@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         return(self.divid_and_conquer(nums, 0, len(nums)-1))
@@ -27,4 +27,4 @@ class Solution:
         cross_sum_max = cross_prefix + cross_suffix + nums[mid]
         return max(max_sum_left,cross_sum_max,max_sum_right)
 
-```
+# ```

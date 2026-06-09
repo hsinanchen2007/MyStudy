@@ -1,9 +1,9 @@
-### 解题思路
-两次for循环判断，while循环中删除相同变量
-	it = nums.erase(it);这个赋值比较重要否则在iterator中循环出问题
-### 代码
+// ### 解题思路
+// 两次for循环判断，while循环中删除相同变量
+// 	it = nums.erase(it);这个赋值比较重要否则在iterator中循环出问题
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int> &nums) 
@@ -40,4 +40,4 @@ public:
 	return nums.size();
 }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-各元素统计值
- 除了第一个最小奇数，奇数全部减1
-剩下偶数的统计值全部相加
+# ### 解题思路
+# 各元素统计值
+#  除了第一个最小奇数，奇数全部减1
+# 剩下偶数的统计值全部相加
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         # 收集所有奇数，并找到最小奇数
@@ -30,4 +30,4 @@ class Solution:
                 even = even+v
         result = odd + even
         return result
-```
+# ```

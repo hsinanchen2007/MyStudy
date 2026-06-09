@@ -1,9 +1,9 @@
-### 解题思路
-很有趣的一道题，多看看大家的解法
+// ### 解题思路
+// 很有趣的一道题，多看看大家的解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if (x == 0 || y == 0) {
@@ -19,4 +19,4 @@ class Solution {
         return gcd(y, x % y);
     }
 }
-```
+// ```

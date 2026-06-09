@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn matrix_block_sum(mat: Vec<Vec<i32>>, k: i32) -> Vec<Vec<i32>> {
         let m = mat.len();
@@ -36,5 +36,5 @@ impl Solution {
         answer
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

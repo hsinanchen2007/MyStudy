@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-按照塔的方式构造金字塔二位数组，当前位置的杯数大于1，那么会被均分到下一行的两个杯子中，所以 dp[i+1][j] += (dp[i][j] - 1) / 2.0 以及 dp[i+1][j+1] += (dp[i][j] - 1) / 2.0
+// 按照塔的方式构造金字塔二位数组，当前位置的杯数大于1，那么会被均分到下一行的两个杯子中，所以 dp[i+1][j] += (dp[i][j] - 1) / 2.0 以及 dp[i+1][j+1] += (dp[i][j] - 1) / 2.0
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func champagneTower(poured int, query_row int, query_glass int) float64 {
     dp := make([][]float64, query_row + 2)
     for i := 0; i < query_row + 2; i++ {
@@ -28,4 +28,4 @@ func minFloat(a, b float64) float64 {
     }
     return b
 }
-```
+// ```

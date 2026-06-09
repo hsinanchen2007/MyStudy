@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MovingCount(int m, int n, int k) {
           //创建二维数组
@@ -59,4 +59,4 @@ public int CheckAround(int[][] grid, int x, int y, int k)
 }
 }
 
-```
+// ```

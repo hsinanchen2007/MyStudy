@@ -1,12 +1,12 @@
-![WX20191016-121605.png](https://pic.leetcode-cn.com/2ed863a87ef9a39239ef021b813337cbbd865914bd8ac3bdf37b236afb459a57-WX20191016-121605.png)
+// ![WX20191016-121605.png](https://pic.leetcode-cn.com/2ed863a87ef9a39239ef021b813337cbbd865914bd8ac3bdf37b236afb459a57-WX20191016-121605.png)
 
 
-### 思路：
-- 找到需要反转链表的 前面一个节点（top） 和 后面一个节点 (end)
-- 反转链表
-- 将反转后的链表 链接到 top 和 end 上即可
+// ### 思路：
+// - 找到需要反转链表的 前面一个节点（top） 和 后面一个节点 (end)
+// - 反转链表
+// - 将反转后的链表 链接到 top 和 end 上即可
 
-```
+// ```
 class Solution {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         if(m > n || m < 1 || n < 1) return head;
@@ -39,4 +39,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-没有遇到过动态规划的问题
-还是一边百度一边做的 加了点注释
-### 代码
+// ### 解题思路
+// 没有遇到过动态规划的问题
+// 还是一边百度一边做的 加了点注释
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -28,4 +28,4 @@ var massage = function(nums) {
 
     return Math.max(dp0,dp1)
 };
-```
+// ```

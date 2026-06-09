@@ -1,16 +1,16 @@
 
-思路:
+# 思路:
     
-- **最短路径, 用BFS比较合适**
-- 一次BFS, 获取最短路径信息，如果直接存储路径入Queue，路径长度会随着层次数逐渐加大; 故改用**只存储前驱结点信息**。usedwords: word -> set of parent_word
-- 前驱结点信息中**通过dfs(回溯)恢复路径**
+# - **最短路径, 用BFS比较合适**
+# - 一次BFS, 获取最短路径信息，如果直接存储路径入Queue，路径长度会随着层次数逐渐加大; 故改用**只存储前驱结点信息**。usedwords: word -> set of parent_word
+# - 前驱结点信息中**通过dfs(回溯)恢复路径**
 
-总结:
-1. hashable预处理wordList, 获取无向图的邻接关系
-2. 层次遍历(bfs)，获取最短路径，通过前驱结点保留路径信息
-3. 回溯法(dfs)恢复最短路径 (也可以用迭代恢复，代码读起来头疼)
+# 总结:
+# 1. hashable预处理wordList, 获取无向图的邻接关系
+# 2. 层次遍历(bfs)，获取最短路径，通过前驱结点保留路径信息
+# 3. 回溯法(dfs)恢复最短路径 (也可以用迭代恢复，代码读起来头疼)
 
-```
+# ```
 p2w, len_word = defaultdict(list), len(beginWord)　＃预处理wordList
 for word in wordList:
     for i in range(len_word):
@@ -42,4 +42,4 @@ def get_path(begin_word: str, end_word: str, used_words) -> List[str]:　＃恢�
     return ans
 ans = get_path(beginWord, endWord, used_words)
 return ans
-```
+# ```

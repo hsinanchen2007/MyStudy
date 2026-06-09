@@ -1,9 +1,9 @@
-### 解题思路
-一个指针为0，一个为c的sqrt，使i * i+j * j逐渐趋于c
+// ### 解题思路
+// 一个指针为0，一个为c的sqrt，使i * i+j * j逐渐趋于c
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean judgeSquareSum(int c) {
        if(c<0) return false;
@@ -22,4 +22,4 @@ class Solution {
        return false;
     }
 }
-```
+// ```

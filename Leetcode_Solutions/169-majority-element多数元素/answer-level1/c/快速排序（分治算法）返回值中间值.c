@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void quickSort(int* nums, int left, int right);
 
 int majorityElement(int* nums, int numsSize){
@@ -38,4 +38,4 @@ void quickSort(int* nums, int left, int right){
     quickSort(nums, left, i - 1);
     quickSort(nums, i + 1, right);
 }
-```
+// ```

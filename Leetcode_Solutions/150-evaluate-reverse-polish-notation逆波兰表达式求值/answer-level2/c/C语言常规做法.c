@@ -1,5 +1,5 @@
-用数组构成栈。需要特别注意注释中标有的坑。
-```c
+// 用数组构成栈。需要特别注意注释中标有的坑。
+// ```c
 int charToInt(char* str){
     int i=str[0]=='-'?1:0,num=0;
     while(str[i])
@@ -33,4 +33,4 @@ int evalRPN(char ** tokens, int tokensSize){
             }
     return stack[0];
 }
-```
+// ```

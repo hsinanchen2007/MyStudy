@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/1bd85352b1251a624ae90adf955f4c02e94a5b91fd014215689c56f612a75d9e-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/1bd85352b1251a624ae90adf955f4c02e94a5b91fd014215689c56f612a75d9e-image.png)
 
-在“队列”教程中出现的这道题，似乎应该用队列做，但我想不出来怎么个BFS，只能用dp做了，慢的令人发指，我已经用map存储历史数据了。。。不然铁定TLE了。
+// 在“队列”教程中出现的这道题，似乎应该用队列做，但我想不出来怎么个BFS，只能用dp做了，慢的令人发指，我已经用map存储历史数据了。。。不然铁定TLE了。
 
-发了这篇题解，让我去翻答案。。。。
+// 发了这篇题解，让我去翻答案。。。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -42,4 +42,4 @@ var numSquares = function(n) {
 
     return dp(n);
 };
-```
+// ```

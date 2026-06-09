@@ -1,14 +1,14 @@
-### 解题思路
-1. set.lower_bound确定下界
-2. 找到的iterator合法则继续判断上界
-3. 寻找的范围永远限定在步长边界内，越界的元素不需要insert
+// ### 解题思路
+// 1. set.lower_bound确定下界
+// 2. 找到的iterator合法则继续判断上界
+// 3. 寻找的范围永远限定在步长边界内，越界的元素不需要insert
 
-执行用时 :36 ms, 在所有 C++ 提交中击败了11.72% 的用户
-内存消耗 :11.1 MB, 在所有 C++ 提交中击败了5.47%的用户
+// 执行用时 :36 ms, 在所有 C++ 提交中击败了11.72% 的用户
+// 内存消耗 :11.1 MB, 在所有 C++ 提交中击败了5.47%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t){
@@ -25,4 +25,4 @@ public:
 		return false;
 	}
 };
-```
+// ```

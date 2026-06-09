@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-get到的下标不一致就非同构
+// get到的下标不一致就非同构
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -22,4 +22,4 @@ const isIsomorphic = (s, t) => {
   }
   return true
 }
-```
+// ```

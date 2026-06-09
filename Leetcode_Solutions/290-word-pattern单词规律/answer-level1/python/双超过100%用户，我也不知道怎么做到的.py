@@ -1,9 +1,9 @@
-### 解题思路
-我这么垃圾的代码居然能双超100%？不敢相信
+# ### 解题思路
+# 我这么垃圾的代码居然能双超100%？不敢相信
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wordPattern(self, pattern: str, str: str) -> bool:
         list_ = str.split()
@@ -19,6 +19,6 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```
 
-![capture_20191212093634295.bmp](https://pic.leetcode-cn.com/17086a204cdc45d2feeb4d5f32f74f7db6629e95bd1ba59c3337fe186c23d7d9-capture_20191212093634295.bmp)
+# ![capture_20191212093634295.bmp](https://pic.leetcode-cn.com/17086a204cdc45d2feeb4d5f32f74f7db6629e95bd1ba59c3337fe186c23d7d9-capture_20191212093634295.bmp)

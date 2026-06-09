@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define min(x,y) (x > y ? y : x)
 int minPathSum(int** grid, int gridSize, int* gridColSize){
     int row = gridSize;
@@ -24,4 +24,4 @@ int minPathSum(int** grid, int gridSize, int* gridColSize){
     }
     return dp[j - 1];
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先遍历，把一开始的几个满足条件的节点去掉。
+// ### 解题思路
+// 先遍历，把一开始的几个满足条件的节点去掉。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,4 +43,4 @@ public:
         return head;
     }
 };
-```
+// ```

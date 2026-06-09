@@ -1,9 +1,9 @@
-### 解题思路
-使用数组模拟栈，先进后出
+// ### 解题思路
+// 使用数组模拟栈，先进后出
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isValid(s string) bool {
     stack := []byte{}
     match := map[byte]byte{
@@ -24,4 +24,4 @@ func isValid(s string) bool {
     }
     return len(stack)==0
 }
-```
+// ```

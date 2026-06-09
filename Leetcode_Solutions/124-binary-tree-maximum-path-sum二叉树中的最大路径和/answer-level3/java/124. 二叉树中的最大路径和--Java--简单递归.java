@@ -1,6 +1,6 @@
-[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_124_maxPathSum.java)
+// [Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_124_maxPathSum.java)
 
-```java
+// ```java
     private int maxPath = Integer.MIN_VALUE;
 
     /**
@@ -38,4 +38,4 @@
         //4
         return Math.max(root.val, Math.max(root.val + leftMax, root.val + rightMax));
     }
-```
+// ```

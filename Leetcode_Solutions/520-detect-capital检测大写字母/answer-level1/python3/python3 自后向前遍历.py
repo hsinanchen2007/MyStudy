@@ -1,11 +1,11 @@
-### 解题思路
-将word最后一位作为标志位，然后从倒数第二位开始自后向前遍历。
-时间复杂度：O(n)
-空间复杂度：O(1)
+# ### 解题思路
+# 将word最后一位作为标志位，然后从倒数第二位开始自后向前遍历。
+# 时间复杂度：O(n)
+# 空间复杂度：O(1)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
         s = word[-1]
@@ -20,4 +20,4 @@ class Solution:
                     return False
         return True
 
-```
+# ```

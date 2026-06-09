@@ -1,9 +1,9 @@
-### 解题思路
-利用map记录每一行的空隙，然后在遍历的时候记录出最大的空隙层数，最后返回总层数减去最大的空隙层数。
+// ### 解题思路
+// 利用map记录每一行的空隙，然后在遍历的时候记录出最大的空隙层数，最后返回总层数减去最大的空隙层数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int leastBricks(vector<vector<int>>& wall) {
@@ -24,4 +24,4 @@ public:
 		return (wall.size() - wallLength);
     }
 };
-```
+// ```

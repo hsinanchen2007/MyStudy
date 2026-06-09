@@ -1,4 +1,4 @@
-从代码上面来谁最容易理解的写法
+// 从代码上面来谁最容易理解的写法
     public int numDecodings(String s) {
         if (s == null || s.length() == 0) {
             return 0;

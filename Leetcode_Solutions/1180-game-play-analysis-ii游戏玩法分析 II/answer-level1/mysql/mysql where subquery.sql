@@ -1,4 +1,4 @@
-```
+-- ```
 select player_id,device_id
 from activity
 where (player_id,event_date) in(
@@ -7,4 +7,4 @@ where (player_id,event_date) in(
     group by player_id
 
 )
-```
+-- ```

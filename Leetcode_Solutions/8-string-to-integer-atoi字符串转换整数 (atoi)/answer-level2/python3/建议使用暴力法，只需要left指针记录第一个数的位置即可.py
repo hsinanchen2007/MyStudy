@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def myAtoi(self, str: str) -> int:
         s = str
@@ -37,5 +37,5 @@ class Solution:
         if res > 2 ** 31 - 1:
             return 2 ** 31 - 1
         return res
-```
+# ```
 

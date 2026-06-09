@@ -1,9 +1,9 @@
-### 解题思路
-利用左右两栈来实现反向,再注意一下push的顺序就好啦
+// ### 解题思路
+// 利用左右两栈来实现反向,再注意一下push的顺序就好啦
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -64,4 +64,4 @@ class Solution {
         return lists;
     }
 }
-```
+// ```

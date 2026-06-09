@@ -1,9 +1,9 @@
-### 解题思路
-前缀和
+// ### 解题思路
+// 前缀和
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class NumArray {
 public:
     vector<int> presum;
@@ -39,4 +39,4 @@ public:
  * obj->update(i,val);
  * int param_2 = obj->sumRange(i,j);
  */
-```
+// ```

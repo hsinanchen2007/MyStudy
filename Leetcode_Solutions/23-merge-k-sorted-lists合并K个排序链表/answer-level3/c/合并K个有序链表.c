@@ -1,10 +1,10 @@
-思路
-1、以头结点值最小的链表为基准链表进行两个链表合并
-2、采用归并思想，首尾链表合并，直到合并完成
-![image.png](https://pic.leetcode-cn.com/22e44e87a490f70246c21ab1f175772add14021e2a65912201a71a7bf13b1261-image.png)
+// 思路
+// 1、以头结点值最小的链表为基准链表进行两个链表合并
+// 2、采用归并思想，首尾链表合并，直到合并完成
+// ![image.png](https://pic.leetcode-cn.com/22e44e87a490f70246c21ab1f175772add14021e2a65912201a71a7bf13b1261-image.png)
 
 
-```
+// ```
 static void mergeTwoList(struct ListNode* baselist, struct ListNode* listTwo){
     struct ListNode* list1 = baselist;
     struct ListNode* list2 = listTwo;
@@ -68,4 +68,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
     }
     return baselist;
 # }
-```
+// ```

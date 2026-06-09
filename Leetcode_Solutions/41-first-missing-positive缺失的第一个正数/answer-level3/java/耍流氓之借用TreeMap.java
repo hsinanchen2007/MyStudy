@@ -1,9 +1,9 @@
-### 解题思路
-借用treemap分组，因为要考虑重复的元素，所以不能使用treeset，但是本身这相当于在内部实现了排序，这不应该算是一个符合要求的解法
+// ### 解题思路
+// 借用treemap分组，因为要考虑重复的元素，所以不能使用treeset，但是本身这相当于在内部实现了排序，这不应该算是一个符合要求的解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int firstMissingPositive(int[] nums) {
         TreeMap<Integer, Integer> map = new TreeMap<>();
@@ -24,4 +24,4 @@ class Solution {
         return bid;
     }
 }
-```
+// ```

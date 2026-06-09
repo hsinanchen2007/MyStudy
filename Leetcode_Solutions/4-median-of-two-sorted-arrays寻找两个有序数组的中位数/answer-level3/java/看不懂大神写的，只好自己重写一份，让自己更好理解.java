@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] A, int[] B) {
 int m=A.length;
@@ -55,4 +55,4 @@ int m=A.length;
         return 0.0;
     }
 }
-```
+// ```

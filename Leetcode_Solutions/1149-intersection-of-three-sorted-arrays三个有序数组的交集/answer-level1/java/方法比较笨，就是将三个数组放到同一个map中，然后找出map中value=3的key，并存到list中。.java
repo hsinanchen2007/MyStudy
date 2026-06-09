@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<Integer> arraysIntersection(int[] arr1, int[] arr2, int[] arr3) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -26,4 +26,4 @@ class Solution {
         }
     }
 }
-```
+// ```

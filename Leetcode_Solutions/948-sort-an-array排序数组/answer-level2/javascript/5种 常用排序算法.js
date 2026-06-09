@@ -1,10 +1,10 @@
-### 解题思路
-选择排序、插入排序、冒泡排序、快速排序、归并排序
+// ### 解题思路
+// 选择排序、插入排序、冒泡排序、快速排序、归并排序
 
-### 代码
+// ### 代码
 
-### 选择排序
-```javascript
+// ### 选择排序
+// ```javascript
 /**
  * 选择排序
  * @param {number[]} nums
@@ -24,10 +24,10 @@ var sortArray = function(nums) {
   }
   return nums;
 };
-```
+// ```
 
-### 插入排序
-```javascript
+// ### 插入排序
+// ```javascript
 /**
  * insert Sort
  * @param {number[]} nums
@@ -45,10 +45,10 @@ var sortArray = function(nums) {
   }
   return nums;
 };
-```
+// ```
 
-### 冒泡排序
-```javascript
+// ### 冒泡排序
+// ```javascript
 /**
  * bubble sort
  * @param {number[]} nums
@@ -64,10 +64,10 @@ var sortArray = function(nums) {
     }
     return nums;
 };
-```
+// ```
 
-### 快速排序
-```javascript
+// ### 快速排序
+// ```javascript
 /**
  * quick sort
  * @param {number[]} nums
@@ -98,11 +98,11 @@ function partition (nums, left, right) {
     [nums[leftIndex], nums[pivot]] = [nums[pivot], nums[leftIndex]];
     return leftIndex;
 }
-```
+// ```
 
 
-### 归并排序
-```javascript
+// ### 归并排序
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -140,4 +140,4 @@ function merge(nums, left, mid, right) {
     }
     return nums;
 }
-```
+// ```

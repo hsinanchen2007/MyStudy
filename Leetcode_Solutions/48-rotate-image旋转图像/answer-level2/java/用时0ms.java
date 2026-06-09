@@ -1,5 +1,5 @@
-找规律
-```java
+// 找规律
+// ```java
 class Solution {
 	/*
      00 02 22 20
@@ -53,4 +53,4 @@ class Solution {
     }
 }
 
-```
+// ```

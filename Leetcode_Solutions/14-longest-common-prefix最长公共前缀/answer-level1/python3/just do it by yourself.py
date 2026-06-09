@@ -1,10 +1,10 @@
-### 解题思路
-first to find the min(str)
-second step you can juts compare this str[:i] with other strs to find the longst str
+# ### 解题思路
+# first to find the min(str)
+# second step you can juts compare this str[:i] with other strs to find the longst str
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if(len(strs)== 0) :
@@ -26,4 +26,4 @@ class Solution:
         return cache
         
 
-```
+# ```

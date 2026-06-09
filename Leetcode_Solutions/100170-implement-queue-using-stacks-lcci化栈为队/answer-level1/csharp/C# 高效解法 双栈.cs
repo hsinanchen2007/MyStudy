@@ -1,6 +1,6 @@
-一个队列只负责Push，另一个负责Pop
+// 一个队列只负责Push，另一个负责Pop
 
-```
+// ```
 public class MyQueue {
     private Stack<int> s1;
     private Stack<int> s2;
@@ -48,4 +48,4 @@ public class MyQueue {
         return s1.Count==0 && s2.Count==0;
     }
 }
-```
+// ```

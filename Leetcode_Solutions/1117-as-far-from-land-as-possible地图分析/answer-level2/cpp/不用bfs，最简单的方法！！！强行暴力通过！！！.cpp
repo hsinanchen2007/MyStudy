@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/eb0b6f7e46a7521aa2fe3c010a19a05eb0b5dda28b5cfe04d2dad5014144c6b7-image.png)
-两步剪枝1、当前海洋到陆地的最小距离小于max1就直接break
-       2、陆地从后往前找，处于矩阵右下方的海洋会更快的找到最小值而break！！！
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/eb0b6f7e46a7521aa2fe3c010a19a05eb0b5dda28b5cfe04d2dad5014144c6b7-image.png)
+// 两步剪枝1、当前海洋到陆地的最小距离小于max1就直接break
+//        2、陆地从后往前找，处于矩阵右下方的海洋会更快的找到最小值而break！！！
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int max1=INT_MIN;
@@ -77,4 +77,4 @@ public:
         // return max1;
     }
 };
-```
+// ```

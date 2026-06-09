@@ -1,18 +1,18 @@
-本题要求:计算最小的工作计划难度.结果可以用下列式子来表达:
-$$
-    mD(jobs, d) = \sum_{i=1}^{d}max(job\in D_i) 
-$$
-$$
-= max(job\in D_1) + \sum_{i=2}^{d}max(job\in D_i)
-$$
-因为job必须按照顺序完成且每天至少完成一个工作, 所以$D_1$(第一天), 所以可以完成 $1$ 个, $2$ 个一直到 $n-d+1$ 个工作.令$S(D_1)={1, 2...n-d+1}$, $S(D_1^{rest})={job not in D_1}$
+# 本题要求:计算最小的工作计划难度.结果可以用下列式子来表达:
+# $$
+#     mD(jobs, d) = \sum_{i=1}^{d}max(job\in D_i) 
+# $$
+# $$
+# = max(job\in D_1) + \sum_{i=2}^{d}max(job\in D_i)
+# $$
+# 因为job必须按照顺序完成且每天至少完成一个工作, 所以$D_1$(第一天), 所以可以完成 $1$ 个, $2$ 个一直到 $n-d+1$ 个工作.令$S(D_1)={1, 2...n-d+1}$, $S(D_1^{rest})={job not in D_1}$
 
-$$
-md(jobs, d) = min_{S(D_1)}(max(job \in D_1) + md(D_1^{rest}, d - 1))
-$$
-通过上述公式可以,简单的求解出问题的解
+# $$
+# md(jobs, d) = min_{S(D_1)}(max(job \in D_1) + md(D_1^{rest}, d - 1))
+# $$
+# 通过上述公式可以,简单的求解出问题的解
 
-```
+# ```
 class Solution:
     def minDifficulty(self, jD: List[int], d: int) -> int:
         if len(jD) < d: return -1
@@ -31,5 +31,5 @@ class Solution:
             memo[(i, d)] = ans
             return ans
         return dp(memo, jD, 0, d)
-```
+# ```
 

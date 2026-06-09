@@ -1,5 +1,5 @@
-![014.jpg](https://pic.leetcode-cn.com/6469ebdf0d4f3d5760faa71a3fce63a50bd45749b1b8e21a3512cfd31781ca3a-014.jpg)
-```
+// ![014.jpg](https://pic.leetcode-cn.com/6469ebdf0d4f3d5760faa71a3fce63a50bd45749b1b8e21a3512cfd31781ca3a-014.jpg)
+// ```
 class Solution {
 public:
     int maximumSwap(int num) {
@@ -41,6 +41,6 @@ public:
     }
 };
 
-```
+// ```
 
 

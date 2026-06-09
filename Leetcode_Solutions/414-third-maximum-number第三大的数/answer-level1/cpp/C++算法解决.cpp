@@ -1,8 +1,8 @@
-### 解题思路
-逆序排列，然后顺序查找
-### 代码
+// ### 解题思路
+// 逆序排列，然后顺序查找
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -28,4 +28,4 @@ public:
 		return nums[0];
     }
 };
-```
+// ```

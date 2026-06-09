@@ -1,9 +1,9 @@
-### 解题思路
-其实不太想用long long，可惜用int会报错，不知道有没有合适的方式可以避开long long
+// ### 解题思路
+// 其实不太想用long long，可惜用int会报错，不知道有没有合适的方式可以避开long long
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findNthDigit(int n) {
@@ -40,4 +40,4 @@ public:
     }
 };
 
-```
+// ```

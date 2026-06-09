@@ -1,4 +1,4 @@
-```
+// ```
 func removeDuplicates(nums []int) int {
     k := 0
     for j:= 1;j<len(nums);j++{
@@ -9,4 +9,4 @@ func removeDuplicates(nums []int) int {
     }
     return k+1
 }
-```
+// ```

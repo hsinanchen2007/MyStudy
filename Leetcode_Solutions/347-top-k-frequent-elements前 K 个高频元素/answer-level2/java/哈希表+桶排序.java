@@ -1,16 +1,16 @@
-# 前 K 个高频元素 [题目链接](https://leetcode-cn.com/problems/top-k-frequent-elements/)
->给定一个非空的整数数组，返回其中出现频率前 k 高的元素。
+// # 前 K 个高频元素 [题目链接](https://leetcode-cn.com/problems/top-k-frequent-elements/)
+// >给定一个非空的整数数组，返回其中出现频率前 k 高的元素。
 
->示例 1:
-输入: nums = [1,1,1,2,2,3], k = 2
-输出: [1,2]
+// >示例 1:
+// 输入: nums = [1,1,1,2,2,3], k = 2
+// 输出: [1,2]
 
-思路分析：
+// 思路分析：
 
-1、根据 nums 统计每个元素出现的次数，以 Integer 为 key 出现次数为 value
+// 1、根据 nums 统计每个元素出现的次数，以 Integer 为 key 出现次数为 value
 
-2、再根据次数进行桶排序，对排序后的数倒序遍历加入 result 结果集，当前 k 个数 遍历完成结束遍历，返回 result。
-```java
+// 2、再根据次数进行桶排序，对排序后的数倒序遍历加入 result 结果集，当前 k 个数 遍历完成结束遍历，返回 result。
+// ```java
 class Solution {
  public List<Integer> topKFrequent(int[] nums, int k) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
@@ -48,4 +48,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

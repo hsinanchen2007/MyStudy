@@ -1,39 +1,39 @@
-## 02.06.回文链表
+// ## 02.06.回文链表
 
-### Information
+// ### Information
 
-* TIME: 2020/03/05
-* LINK: [Click Here](http://)
-* TAG: `List`
+// * TIME: 2020/03/05
+// * LINK: [Click Here](http://)
+// * TAG: `List`
 
-### Description
+// ### Description
 
-> 编写一个函数，检查输入的链表是否是回文的。
+// > 编写一个函数，检查输入的链表是否是回文的。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入： 1->2->2->1
 输出： true 
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 双指针使得`slow`滑动到链表中点
->
-> * 在这个过程中，将前一半链表反序
-> * `fast`不为空，表示节点奇数个，`slow`向右滑动一位
-> * 逐个比较得出结果
->
-> 边界：链表只有一个节点
->
-> * `fast`不空，`slow`滑动到空，`pre`是`null`，直接`true`
->
-> 边界：两个节点
->
-> * `fast`空，反序链表只有第一个节点，`slow`指向第二个节点，相当于两个节点进行比较
+// > 双指针使得`slow`滑动到链表中点
+// >
+// > * 在这个过程中，将前一半链表反序
+// > * `fast`不为空，表示节点奇数个，`slow`向右滑动一位
+// > * 逐个比较得出结果
+// >
+// > 边界：链表只有一个节点
+// >
+// > * `fast`不空，`slow`滑动到空，`pre`是`null`，直接`true`
+// >
+// > 边界：两个节点
+// >
+// > * `fast`空，反序链表只有第一个节点，`slow`指向第二个节点，相当于两个节点进行比较
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -69,23 +69,23 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/aad38f4f196b330d5e2135174a4220b5e03c4ec69ea6fb523479f92a9063d4f2-file_1583400656651)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/aad38f4f196b330d5e2135174a4220b5e03c4ec69ea6fb523479f92a9063d4f2-file_1583400656651)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

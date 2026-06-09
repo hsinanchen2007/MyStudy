@@ -1,17 +1,17 @@
-### 解题思路
-1. 先循环整个字符串，每个位置记录在这之前每个字符出现的次数；
-2. i + 1位置记录了前面0~i 的26个字符一共出现了多少次
-3. 用right+1 - left的每个字符出现的次数，统计出现奇数次的字符总数。
-4. 如果出现的次数大于 2 * k + ((left - right + 1) % 2) 说明无法实现回文
+// ### 解题思路
+// 1. 先循环整个字符串，每个位置记录在这之前每个字符出现的次数；
+// 2. i + 1位置记录了前面0~i 的26个字符一共出现了多少次
+// 3. 用right+1 - left的每个字符出现的次数，统计出现奇数次的字符总数。
+// 4. 如果出现的次数大于 2 * k + ((left - right + 1) % 2) 说明无法实现回文
 
 
-![image.png](https://pic.leetcode-cn.com/e4f8856c6ae279282e559d3e925c03548dd1ab8943977fea4891eb202fb3b77b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e4f8856c6ae279282e559d3e925c03548dd1ab8943977fea4891eb202fb3b77b-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 struct map_s
 {
@@ -68,4 +68,4 @@ bool* canMakePaliQueries(char * s, int** queries, int queriesSize, int* queriesC
     return ret;
 }
 
-```
+// ```

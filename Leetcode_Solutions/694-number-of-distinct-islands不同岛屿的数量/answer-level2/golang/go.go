@@ -1,4 +1,4 @@
-```
+// ```
 func numDistinctIslands(grid [][]int) int {
 	if 0 == len(grid) || 0 == len(grid[0]) {
 		return 0
@@ -29,4 +29,4 @@ func numDistinctIslands(grid [][]int) int {
 	}
 	return len(ms)
 }
-```
+// ```

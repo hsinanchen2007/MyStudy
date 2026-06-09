@@ -1,5 +1,5 @@
-# 解法一：
-```C++ []
+// # 解法一：
+// ```C++ []
 class Solution {
 public:
     void dfs(TreeNode* root, bool& valid, long& min_val, long& max_val, int& count) {
@@ -35,13 +35,13 @@ public:
         return count;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/6ede157eaaab654f3957adf32fa075c6c61af94aae1a127e8f8c1660a3f917d0-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6ede157eaaab654f3957adf32fa075c6c61af94aae1a127e8f8c1660a3f917d0-image.png)
 
 
-# 解法二：
+// # 解法二：
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int childCount(TreeNode* root) {
@@ -68,6 +68,6 @@ public:
         return max(largestBSTSubtree(root->left), largestBSTSubtree(root->right));
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/2ea74aca251a2fcfe3e52b63af1c8bd3605686996695f3daaa6ea500865642d6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2ea74aca251a2fcfe3e52b63af1c8bd3605686996695f3daaa6ea500865642d6-image.png)

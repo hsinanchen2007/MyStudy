@@ -1,4 +1,4 @@
-```python3
+# ```python3
 import queue
 class CQueue:
 #我正常写的用一个堆栈来保存，用另一个来中间帮忙折叠一次，发现一个问题超时我的第一次更改，多用一个堆栈，#当做10的缓存
@@ -35,4 +35,4 @@ class CQueue:
         if self.q1.empty():
             return -1        
         return self.q1.get()
-```
+# ```

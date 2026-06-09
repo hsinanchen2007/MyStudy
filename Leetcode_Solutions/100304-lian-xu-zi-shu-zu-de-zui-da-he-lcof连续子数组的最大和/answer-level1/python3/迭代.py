@@ -1,11 +1,11 @@
-### 解题
-分两种情况：
-当前面的子数组和小于等于0时，当前元素的最大值是当前元素
-当前面子数组和大于0时，当前元素的最大值是前面子数组和加上当前元素
+# ### 解题
+# 分两种情况：
+# 当前面的子数组和小于等于0时，当前元素的最大值是当前元素
+# 当前面子数组和大于0时，当前元素的最大值是前面子数组和加上当前元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         max_sum_arr = [nums[0]]
@@ -21,4 +21,4 @@ class Solution:
                 pre_max_sum = curr_max 
         return max(max_sum_arr)
 
-```
+# ```

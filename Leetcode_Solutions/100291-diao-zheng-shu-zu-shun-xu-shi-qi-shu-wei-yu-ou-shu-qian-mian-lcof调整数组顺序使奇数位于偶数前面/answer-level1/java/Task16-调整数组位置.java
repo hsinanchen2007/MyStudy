@@ -1,9 +1,9 @@
-### 解题思路
-利用快速排序即可。
+// ### 解题思路
+// 利用快速排序即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] exchange(int[] nums) {
         // 双指针算法
@@ -30,4 +30,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

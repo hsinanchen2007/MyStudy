@@ -1,11 +1,11 @@
-### 解题思路
-字符串+格式的输出对C语言不太友好。
-方法是暴力法，不过控制输出的格式麻烦
-![image.png](https://pic.leetcode-cn.com/69232584e6655e9f4d89314ea9f4a11b03cdf2ce11fc066af23b871f6ddcf7c9-image.png)
+// ### 解题思路
+// 字符串+格式的输出对C语言不太友好。
+// 方法是暴力法，不过控制输出的格式麻烦
+// ![image.png](https://pic.leetcode-cn.com/69232584e6655e9f4d89314ea9f4a11b03cdf2ce11fc066af23b871f6ddcf7c9-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -115,4 +115,4 @@ char ** readBinaryWatch(int num, int* returnSize){
     del(stack);
     return result;
 }
-```
+// ```

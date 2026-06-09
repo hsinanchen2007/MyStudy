@@ -1,9 +1,9 @@
-### 解题思路
-突然看到栈和队列 只记得特性了 在go里面似乎可以通过一个数组栈的操作
+// ### 解题思路
+// 突然看到栈和队列 只记得特性了 在go里面似乎可以通过一个数组栈的操作
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     enque []int
 }
@@ -50,4 +50,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

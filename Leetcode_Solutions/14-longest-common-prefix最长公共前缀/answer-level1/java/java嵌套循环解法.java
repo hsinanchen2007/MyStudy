@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-嵌套for循环
+// 嵌套for循环
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
     	if (strs.length == 0) // 判断传入数组长度
@@ -26,4 +26,4 @@ class Solution {
     	return commonString;
     }
 }
-```
+// ```

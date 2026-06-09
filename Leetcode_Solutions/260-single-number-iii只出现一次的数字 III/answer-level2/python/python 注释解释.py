@@ -1,4 +1,4 @@
-``` python
+# ``` python
 class Solution:
     def singleNumber(self, nums: List[int]) -> List[int]:
         # xor 为特殊两个数的异或
@@ -18,4 +18,4 @@ class Solution:
             else:
                 b ^= num
         return [b,a]
-```
+# ```

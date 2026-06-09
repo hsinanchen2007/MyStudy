@@ -1,9 +1,9 @@
-### 解题思路
-从低位开始，当前位加进位，尾插法生成链表
-注意最高位向上进位的情况，如[5,5]会产生额外的进位
-### 代码
+// ### 解题思路
+// 从低位开始，当前位加进位，尾插法生成链表
+// 注意最高位向上进位的情况，如[5,5]会产生额外的进位
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -49,4 +49,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return L->next;
 }
-```
+// ```

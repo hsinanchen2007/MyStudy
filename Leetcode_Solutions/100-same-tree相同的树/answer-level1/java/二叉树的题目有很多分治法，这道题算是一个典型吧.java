@@ -1,9 +1,9 @@
-### 解题思路
-二叉树的题目有很多分治法，这道题算是一个典型吧
+// ### 解题思路
+// 二叉树的题目有很多分治法，这道题算是一个典型吧
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-这题解题思路是典型的滑动窗求解，代码如下：
-```
+// 这题解题思路是典型的滑动窗求解，代码如下：
+// ```
 func lengthOfLongestSubstring(s string) int {
     ans := 0
     mem := make(map[byte] int) //char, location
@@ -18,6 +18,6 @@ func lengthOfLongestSubstring(s string) int {
 
     return ans
 }
-```
-这里我用的是hashMap来记录滑动窗内元素对应的下标，这题由于是字符，可以用一个更小的数组，如`[256]int`代替。
+// ```
+// 这里我用的是hashMap来记录滑动窗内元素对应的下标，这题由于是字符，可以用一个更小的数组，如`[256]int`代替。
 

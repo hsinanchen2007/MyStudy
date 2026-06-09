@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func verifyPostorder(postorder []int) bool {
     if len(postorder)==0{
         return true
@@ -22,4 +22,4 @@ func verifyPostorder(postorder []int) bool {
     }
     return verifyPostorder(postorder[0:split+1])&&verifyPostorder(postorder[split+1:len(postorder)-1])
 }
-```
+// ```

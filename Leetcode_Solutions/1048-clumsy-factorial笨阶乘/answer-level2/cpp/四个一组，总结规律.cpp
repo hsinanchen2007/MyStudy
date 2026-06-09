@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int clumsy(int N) {
@@ -15,4 +15,4 @@ public:
         return ret;
     }
 };
-```
+// ```

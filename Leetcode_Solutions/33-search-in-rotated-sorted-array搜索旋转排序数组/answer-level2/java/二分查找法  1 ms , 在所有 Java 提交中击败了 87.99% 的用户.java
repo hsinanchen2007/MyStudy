@@ -1,10 +1,10 @@
-### 解题思路
-1、先查找该数组的有序范围。
-2、在有序范围内用二分法进行查找。
+// ### 解题思路
+// 1、先查找该数组的有序范围。
+// 2、在有序范围内用二分法进行查找。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         int left = 0;
@@ -35,4 +35,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-把结果想成一个之字形的折线，保留每个折线段的第一个元素和最后一个元素，
-总的元素数即为结果
+// ### 解题思路
+// 把结果想成一个之字形的折线，保留每个折线段的第一个元素和最后一个元素，
+// 总的元素数即为结果
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int wiggleMaxLength(int* nums, int numsSize){
     int ret = 0;
     int i = 1;
@@ -55,4 +55,4 @@ int wiggleMaxLength(int* nums, int numsSize){
     
     return ret;
 }
-```
+// ```

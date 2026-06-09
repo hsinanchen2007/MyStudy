@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findAllConcatenatedWordsInADict(self, words):
         words.sort(key = lambda x: len(x))
@@ -32,4 +32,4 @@ def is_concatenated_word(p_node, word):
             return True
     return False
 
-```
+# ```

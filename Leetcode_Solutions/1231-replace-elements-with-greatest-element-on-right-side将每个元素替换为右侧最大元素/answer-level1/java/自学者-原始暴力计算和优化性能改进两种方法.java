@@ -1,13 +1,13 @@
-### 解题思路
-方法一、暴力计算法
-* 用暴力计算当前位置之后的最大元素
-* 最后一位直接替换为-1
-方案二、O(1)空间复杂度 O(n)时间复杂度
-* 一次迭代计算法
+// ### 解题思路
+// 方法一、暴力计算法
+// * 用暴力计算当前位置之后的最大元素
+// * 最后一位直接替换为-1
+// 方案二、O(1)空间复杂度 O(n)时间复杂度
+// * 一次迭代计算法
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 // 方案一、最原始最大计算方案
 class Solution {
     public int[] replaceElements(int[] arr) {
@@ -29,9 +29,9 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-```java []
+// ```java []
 // 方案二 算法优化版，直接修改了arr的内容，一次遍历高效计算
 class Solution {
     public int[] replaceElements(int[] arr) {
@@ -46,4 +46,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

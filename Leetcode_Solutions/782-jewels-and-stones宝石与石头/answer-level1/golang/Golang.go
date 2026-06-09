@@ -1,4 +1,4 @@
-```
+// ```
 func numJewelsInStones(J string, S string) int {
 	var result int
 	m := make(map[rune]bool)
@@ -13,4 +13,4 @@ func numJewelsInStones(J string, S string) int {
 	}
 	return result
 }
-```
+// ```

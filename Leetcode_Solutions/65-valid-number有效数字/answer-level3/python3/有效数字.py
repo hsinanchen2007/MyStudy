@@ -1,8 +1,8 @@
-## 思路:
+# ## 思路:
 
-思路一:作弊法
+# 思路一:作弊法
 
-```python
+# ```python
 class Solution:
     def isNumber(self, s: str) -> bool:
         try:
@@ -10,26 +10,26 @@ class Solution:
             return True
         except:
             return False
-```
+# ```
 
-思路二:考虑所有情况
+# 思路二:考虑所有情况
 
-思路三:有限自动机
-
-
-
-![1.png](https://pic.leetcode-cn.com/0ae239f74ce6ecaaf7c9044291b3fcdc8c5e60ac28dc447b7712a1500f9b3e01-1.png)
-
-
-以上思路二,三皆来自网络,我不是大佬,只是大自然搬运工!
+# 思路三:有限自动机
 
 
 
-## 代码:
+# ![1.png](https://pic.leetcode-cn.com/0ae239f74ce6ecaaf7c9044291b3fcdc8c5e60ac28dc447b7712a1500f9b3e01-1.png)
 
-思路二:
 
-```python
+# 以上思路二,三皆来自网络,我不是大佬,只是大自然搬运工!
+
+
+
+# ## 代码:
+
+# 思路二:
+
+# ```python
 class Solution:
     def isNumber(self, s: str):
         s = s.strip()
@@ -55,11 +55,11 @@ class Solution:
             else:
                 return False
         return num_seen
-```
+# ```
 
-思路三:
+# 思路三:
 
-```python
+# ```python
 class Solution:
     def isNumber(self, s: str) -> bool:
         state = [
@@ -97,5 +97,5 @@ class Solution:
         if cur_state not in [3, 5, 8, 9]:
             return False
         return True
-```
+# ```
 

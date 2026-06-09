@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/14f4930017d12306ea6450c468a0dc76bf198c33bdccf2096c313232b47741ad-image.png)
+// ![image.png](https://pic.leetcode-cn.com/14f4930017d12306ea6450c468a0dc76bf198c33bdccf2096c313232b47741ad-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   1. 遍历A，一旦遇到与 B 根节点相等的节点，那么递归去比较这个节点是否完全包含 B 
   2. 需要一个判断一棵树是否包含另一颗树的方法 isInclude: function
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -57,4 +57,4 @@ var isSubStructure = function(A, B) {
   
   return ans;
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-因为不同的值相互消耗，最后剩下的maj便是出现次数最多的数
-### 代码
+// ### 解题思路
+// 因为不同的值相互消耗，最后剩下的maj便是出现次数最多的数
+// ### 代码
 
-```c
+// ```c
 int majorityElement(int* nums, int numsSize){
     int c=1;
     int maj=nums[0];
@@ -16,4 +16,4 @@ int majorityElement(int* nums, int numsSize){
     }
     return maj;
 }
-```
+// ```

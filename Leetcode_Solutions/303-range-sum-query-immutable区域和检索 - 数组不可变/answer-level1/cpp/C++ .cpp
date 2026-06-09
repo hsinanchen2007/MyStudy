@@ -1,10 +1,10 @@
-### 解题思路
-题目304的退化版本。
-思路：dp[i+1]代表从0到i的和。那么求某个区间[i~j]的和就是dp[j+1]-dp[i].
+// ### 解题思路
+// 题目304的退化版本。
+// 思路：dp[i+1]代表从0到i的和。那么求某个区间[i~j]的和就是dp[j+1]-dp[i].
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class NumArray {
 public:
     vector<int> dp;
@@ -25,4 +25,4 @@ public:
  * NumArray* obj = new NumArray(nums);
  * int param_1 = obj->sumRange(i,j);
  */
-```
+// ```

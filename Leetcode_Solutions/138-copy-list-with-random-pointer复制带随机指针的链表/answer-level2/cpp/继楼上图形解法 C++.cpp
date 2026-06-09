@@ -1,6 +1,6 @@
-楼上 [图形法讲解](https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/yong-tu-xing-shuo-ming-jie-fa-by-commonheart/) 的很详细，我就不赘述了，这里提供一下C++版本，供C++使用者参考，看我的函数名就知道功能了
+// 楼上 [图形法讲解](https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/yong-tu-xing-shuo-ming-jie-fa-by-commonheart/) 的很详细，我就不赘述了，这里提供一下C++版本，供C++使用者参考，看我的函数名就知道功能了
 
-```
+// ```
 typedef Node node;
 //1->2->3 => 1->1->2->2->3->3
 void extendLinkList(node* &head) {
@@ -55,4 +55,4 @@ Node* copyRandomList(Node* head) {
 	putRandomPtr(head);
 	return splitLinkList(head);
 }
-```
+// ```

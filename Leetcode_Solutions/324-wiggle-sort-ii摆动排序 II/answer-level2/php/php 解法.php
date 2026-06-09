@@ -1,5 +1,5 @@
-先对数组排序，通过mid分割为大数部分和小数部分，再逆序穿插排序。
-```
+// 先对数组排序，通过mid分割为大数部分和小数部分，再逆序穿插排序。
+// ```
 function wiggleSort(&$nums) {
     sort($nums);
     $mid = floor((count($nums)-1)/2);
@@ -12,4 +12,4 @@ function wiggleSort(&$nums) {
     }
     $nums = $arr;
 }
-```
+// ```

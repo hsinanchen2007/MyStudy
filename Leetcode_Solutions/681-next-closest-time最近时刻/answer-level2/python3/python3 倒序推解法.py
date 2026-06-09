@@ -1,8 +1,8 @@
-1. 如果最后一位不是最大，那就换成比它大的数中最小的一个
-2. 如果最后一位是最大
-    2.1 把最后一位换成最小
-    2.2 然后倒序往前，换成比它大的数中最小的一个，如果不存在或者不符合条件，就换成最小值
-```
+# 1. 如果最后一位不是最大，那就换成比它大的数中最小的一个
+# 2. 如果最后一位是最大
+#     2.1 把最后一位换成最小
+#     2.2 然后倒序往前，换成比它大的数中最小的一个，如果不存在或者不符合条件，就换成最小值
+# ```
 
 class Solution:
     def nextClosestTime(self, time: str) -> str:
@@ -35,4 +35,4 @@ class Solution:
                             times[i] = larger
                             return str(times[0])+str(times[1])+":"+str(times[2])+str(times[3])
         return str(times[0])+str(times[1])+":"+str(times[2])+str(times[3])
-```
+# ```

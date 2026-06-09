@@ -1,9 +1,9 @@
-### 解题思路
-貌似就三种情况，直接写就完了
+# ### 解题思路
+# 貌似就三种情况，直接写就完了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numMovesStones(self, x, y, z):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             return [1, c - a - 2]
         else:
             return [2, c - a - 2]
-```
+# ```

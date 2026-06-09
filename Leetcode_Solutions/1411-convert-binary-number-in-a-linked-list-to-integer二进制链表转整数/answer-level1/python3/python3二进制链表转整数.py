@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -19,6 +19,6 @@ class Solution:
             num+=ptr.val
             ptr=ptr.next
         return num
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/49349e43ba98541d793d9c8c119272aabfc8946487e8f5b23e52f64c0bd23aaa-image.png)
+# ![image.png](https://pic.leetcode-cn.com/49349e43ba98541d793d9c8c119272aabfc8946487e8f5b23e52f64c0bd23aaa-image.png)

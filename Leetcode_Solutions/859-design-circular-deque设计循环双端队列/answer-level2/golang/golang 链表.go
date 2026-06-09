@@ -1,9 +1,9 @@
-### 解题思路
-由于不需要查询某个节点，只需要操作头尾，因此基于链表是最佳选择
+// ### 解题思路
+// 由于不需要查询某个节点，只需要操作头尾，因此基于链表是最佳选择
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 type MyCircularDeque struct {
 	head  *Node
@@ -121,4 +121,4 @@ func (this *MyCircularDeque) IsEmpty() bool {
 func (this *MyCircularDeque) IsFull() bool {
 	return this.len == this.count
 }
-```
+// ```

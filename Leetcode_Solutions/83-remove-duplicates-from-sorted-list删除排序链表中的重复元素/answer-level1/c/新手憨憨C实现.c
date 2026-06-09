@@ -1,10 +1,10 @@
-### 解题思路
-# 设置两个指针，往前排就好了。这里的else是关键
-# 所谓的空指针问题，很有可能是你的代码的逻辑是有问题的。我之前也不相信这一点。后来画了画图排查了一下才加上了else的
+// ### 解题思路
+// # 设置两个指针，往前排就好了。这里的else是关键
+// # 所谓的空指针问题，很有可能是你的代码的逻辑是有问题的。我之前也不相信这一点。后来画了画图排查了一下才加上了else的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

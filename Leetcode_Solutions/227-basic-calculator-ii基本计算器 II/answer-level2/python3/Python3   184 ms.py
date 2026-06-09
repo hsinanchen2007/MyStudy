@@ -1,6 +1,6 @@
-来凑个数。。。
-按照加号或者减号切分，计算每部分的结果加起来
-```py
+# 来凑个数。。。
+# 按照加号或者减号切分，计算每部分的结果加起来
+# ```py
 class Solution:
     def calculate(self, s: str) -> int:
         res = []
@@ -44,4 +44,4 @@ class Solution:
             else:
                 tmp_s += char
         return res
-```
+# ```

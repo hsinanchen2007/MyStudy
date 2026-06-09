@@ -1,11 +1,11 @@
-### 解题思路
-dfs
-![UC截图20200104141933.png](https://pic.leetcode-cn.com/546612127813bf1cb1e1bf9a14f2575ad7b0f81a7f15ac0a20c67f23544876fc-UC%E6%88%AA%E5%9B%BE20200104141933.png)
+# ### 解题思路
+# dfs
+# ![UC截图20200104141933.png](https://pic.leetcode-cn.com/546612127813bf1cb1e1bf9a14f2575ad7b0f81a7f15ac0a20c67f23544876fc-UC%E6%88%AA%E5%9B%BE20200104141933.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             help(root.right,minval,maxval)
         help(root,root.val, root.val)
         return self.maxvalue
-```
+# ```

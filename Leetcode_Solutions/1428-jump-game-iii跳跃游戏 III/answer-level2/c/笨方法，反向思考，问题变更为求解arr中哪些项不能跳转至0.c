@@ -1,14 +1,14 @@
-一、概述流程方法：
-    遍历记录arr中非零项索引index
-    多次循环将arr中能跳转至0的项项置为0
-    最终arr若全为0，则 start 为任意值（范围内）皆可跳转至0，返回true
-    若部分非零，直接判断start是否在index非零数组内，若在则返回false，否则返回true
-二、细节
-    多次循环跳出方式：判断非零项数目是否为0，判断两次循环后非零项数目是否发生变化
-    index初始化为-1
+// 一、概述流程方法：
+//     遍历记录arr中非零项索引index
+//     多次循环将arr中能跳转至0的项项置为0
+//     最终arr若全为0，则 start 为任意值（范围内）皆可跳转至0，返回true
+//     若部分非零，直接判断start是否在index非零数组内，若在则返回false，否则返回true
+// 二、细节
+//     多次循环跳出方式：判断非零项数目是否为0，判断两次循环后非零项数目是否发生变化
+//     index初始化为-1
 
-源代码如下
-```
+// 源代码如下
+// ```
 bool canReach(int* arr, int arrSize, int start){
     int index[arrSize+1];
     memset(index, -1, sizeof(index));
@@ -61,4 +61,4 @@ bool canReach(int* arr, int arrSize, int start){
     }
     return rslt;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-官方思路，python3版本。
+# ### 解题思路
+# 官方思路，python3版本。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addToArrayForm(self, A: List[int], K: int) -> List[int]:
         A[-1] += K
@@ -13,4 +13,4 @@ class Solution:
         if carry:
             A =list(map(int,str(carry))) + A
         return A
-```
+# ```

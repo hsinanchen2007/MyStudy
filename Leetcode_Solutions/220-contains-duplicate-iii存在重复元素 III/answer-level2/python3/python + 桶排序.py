@@ -1,6 +1,6 @@
-### 解题思路
-桶排序空间换时间
-```python
+# ### 解题思路
+# 桶排序空间换时间
+# ```python
 class Solution:
     def containsNearbyAlmostDuplicate(self, nums: List[int], k: int, t: int) -> bool:
         # max(nums[i] - nums[j])
@@ -15,4 +15,4 @@ class Solution:
             if index + 1 in bucket_arr  and i - bucket_arr[index + 1] <= k and abs(num - nums[bucket_arr[index + 1]] ) <= t: return True
             bucket_arr[index] = i
         return False
-```
+# ```

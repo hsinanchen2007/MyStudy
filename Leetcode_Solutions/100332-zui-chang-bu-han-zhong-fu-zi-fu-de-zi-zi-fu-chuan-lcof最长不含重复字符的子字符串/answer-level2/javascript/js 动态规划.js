@@ -1,9 +1,9 @@
-标准的滑动窗口问题
+// 标准的滑动窗口问题
 
-要找的子字符串必然存在与原字符串中
+// 要找的子字符串必然存在与原字符串中
 
 
-```js
+// ```js
 
 /**
  * @param {string} s
@@ -22,4 +22,4 @@ var lengthOfLongestSubstring = function(s) {
     return Math.max(res,cur.length);
 };
 
-```
+// ```

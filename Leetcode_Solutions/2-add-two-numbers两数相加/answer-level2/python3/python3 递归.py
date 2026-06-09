@@ -1,10 +1,10 @@
-### 解题思路
-get_num 把 ListNode 转为 int
-make_list 把数字转为 ListNode（但是不能处理 0）
+# ### 解题思路
+# get_num 把 ListNode 转为 int
+# make_list 把数字转为 ListNode（但是不能处理 0）
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
         if s == 0:
             return l1
         return make_list(s)
-```
+# ```

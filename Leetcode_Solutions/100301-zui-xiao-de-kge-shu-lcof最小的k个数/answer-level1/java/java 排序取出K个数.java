@@ -1,9 +1,9 @@
-### 解题思路
-java 排序取出K个数
+// ### 解题思路
+// java 排序取出K个数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
 
@@ -23,4 +23,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

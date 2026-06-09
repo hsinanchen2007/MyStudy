@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def printNumbers(self, n):
         """
@@ -11,4 +11,4 @@ class Solution(object):
         :rtype: List[int]
         """
         return [i for i in range(1,10**n)]
-```
+# ```

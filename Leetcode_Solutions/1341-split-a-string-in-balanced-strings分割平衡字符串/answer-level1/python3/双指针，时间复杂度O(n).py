@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def balancedStringSplit(self, s: str) -> int:
         res = 0
@@ -14,4 +14,4 @@ class Solution:
                 i = j + 1
             j += 1
         return res
-```
+# ```

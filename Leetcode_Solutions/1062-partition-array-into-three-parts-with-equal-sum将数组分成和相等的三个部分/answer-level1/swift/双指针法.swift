@@ -1,9 +1,9 @@
-### 解题思路
-双指针法
+// ### 解题思路
+// 双指针法
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func canThreePartsEqualSum(_ A: [Int]) -> Bool {
         
@@ -43,4 +43,4 @@ class Solution {
 
     }
 }
-```
+// ```

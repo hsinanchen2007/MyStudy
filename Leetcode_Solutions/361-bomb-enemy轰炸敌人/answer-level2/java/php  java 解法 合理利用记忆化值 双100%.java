@@ -1,4 +1,4 @@
-```php []
+// ```php []
 function maxKilledEnemies($grid) {
     $m = count($grid);
     $n = count($grid[0]);
@@ -27,8 +27,8 @@ function maxKilledEnemies($grid) {
     }
     return $max;
 }
-```
-```java []
+// ```
+// ```java []
 public int maxKilledEnemies(char[][] grid) {
     if(grid == null || grid.length == 0) return 0;
     int m = grid.length, n = grid[0].length;
@@ -57,4 +57,4 @@ public int maxKilledEnemies(char[][] grid) {
     }
     return max;
 }
-```
+// ```

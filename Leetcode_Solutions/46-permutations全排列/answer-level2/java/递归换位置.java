@@ -1,5 +1,5 @@
-对于无重复的全排列，可以采用换位置的方式
-```
+// 对于无重复的全排列，可以采用换位置的方式
+// ```
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> i = new ArrayList<List<Integer>>();
@@ -23,4 +23,4 @@ class Solution {
         }
     }
 }
-```
+// ```

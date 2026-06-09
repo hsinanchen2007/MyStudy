@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/fd4ae8fdff430b821bb686e9a55eff38021e38044f16b7b55dc7bb996b011ac5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fd4ae8fdff430b821bb686e9a55eff38021e38044f16b7b55dc7bb996b011ac5-image.png)
 
 
-```
+// ```
     var removeZeroSumSublists = function(head) {
         if (!head.next) {
             if (head.val == 0)
@@ -33,4 +33,4 @@
             }
         return newhead.next;
     };
-```
+// ```

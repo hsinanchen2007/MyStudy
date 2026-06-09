@@ -1,9 +1,9 @@
-__对二叉搜索树用中序遍历，遍历的节点顺序就是数字从小到大的顺序。__
+// __对二叉搜索树用中序遍历，遍历的节点顺序就是数字从小到大的顺序。__
 
 
 
-![timg (1).jpg](https://pic.leetcode-cn.com/bbe8c07f25227d96367b39df48d4d6aa54848512517598643297a73a521b45a0-timg%20\(1\).jpg)
-```
+// ![timg (1).jpg](https://pic.leetcode-cn.com/bbe8c07f25227d96367b39df48d4d6aa54848512517598643297a73a521b45a0-timg%20\(1\).jpg)
+// ```
 int min;
 struct TreeNode* pre;
 int minDiffInBST(struct TreeNode* root){
@@ -25,4 +25,4 @@ int dfs(struct TreeNode* root){
     dfs(root->right);
     return 0;
 }
-```
+// ```

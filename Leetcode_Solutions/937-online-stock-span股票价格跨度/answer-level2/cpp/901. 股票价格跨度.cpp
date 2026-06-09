@@ -1,7 +1,7 @@
-![QQ图片20191023141642.png](https://pic.leetcode-cn.com/072f8e3ccc91765bf6844e31083986eff95c6b11895cda013d3a57ddb7c24eb5-QQ%E5%9B%BE%E7%89%8720191023141642.png)
+// ![QQ图片20191023141642.png](https://pic.leetcode-cn.com/072f8e3ccc91765bf6844e31083986eff95c6b11895cda013d3a57ddb7c24eb5-QQ%E5%9B%BE%E7%89%8720191023141642.png)
 
 
-```
+// ```
 class StockSpanner {
 public:
     stack<pair<int,int>> tmp;
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

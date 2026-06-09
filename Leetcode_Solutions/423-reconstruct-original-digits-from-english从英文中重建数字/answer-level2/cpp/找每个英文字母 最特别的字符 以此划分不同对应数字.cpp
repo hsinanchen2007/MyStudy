@@ -1,6 +1,6 @@
-有些数字没特殊区分 可以先利用有特殊的数字 先排除完  剩下就是没特殊分别的数字
-题目没说是否是按数字序号从小到大 我就sort一下
-```
+// 有些数字没特殊区分 可以先利用有特殊的数字 先排除完  剩下就是没特殊分别的数字
+// 题目没说是否是按数字序号从小到大 我就sort一下
+// ```
 class Solution {
 public:
 //zero,one,two,three,four,five,six,seven,eight,nine
@@ -65,4 +65,4 @@ public:
         return res1;
     }
 };
-```
+// ```

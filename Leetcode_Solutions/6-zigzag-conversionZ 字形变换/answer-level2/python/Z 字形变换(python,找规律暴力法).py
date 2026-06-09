@@ -1,9 +1,9 @@
-### 解题思路
-暴力找规律，一行一行的把数字输出。
+# ### 解题思路
+# 暴力找规律，一行一行的把数字输出。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if not s:
@@ -46,4 +46,4 @@ class Solution:
             stem=stem+s[h*(i+1)+numRows-1]
         return stem
 
-```
+# ```

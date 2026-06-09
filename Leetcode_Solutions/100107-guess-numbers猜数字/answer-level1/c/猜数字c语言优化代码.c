@@ -1,9 +1,9 @@
-### 解题思路
-精简后的代码
+// ### 解题思路
+// 精简后的代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int game(int* guess, int guessSize, int* answer, int answerSize){
 int cnt=0;
 while(guessSize--)
@@ -13,4 +13,4 @@ while(guessSize--)
 }
 return cnt;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-就是常规的DFS，每次搜到底保存好叶子节点后要删除当前所有的叶子节点
+// ### 解题思路
+// 就是常规的DFS，每次搜到底保存好叶子节点后要删除当前所有的叶子节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void DFS(TreeNode* root, vector<int>& layerAns)
@@ -51,4 +51,4 @@ public:
         return move(ans);
     }
 };
-```
+// ```

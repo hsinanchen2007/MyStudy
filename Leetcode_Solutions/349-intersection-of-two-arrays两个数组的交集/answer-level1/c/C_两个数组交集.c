@@ -1,9 +1,9 @@
-### 解题思路
-考察库函数的题，对C不友好，没什么技巧，自己写的数据结构
+// ### 解题思路
+// 考察库函数的题，对C不友好，没什么技巧，自己写的数据结构
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -89,4 +89,4 @@ int* intersection(int* nums1, int nums1Size, int* nums2, int nums2Size, int* ret
     del(link);            
     return result;
 }
-```
+// ```

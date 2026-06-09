@@ -1,17 +1,17 @@
-**思路**
+// **思路**
 
-```
+// ```
 1. LevelNode结构体 :记录遍历的节点+该节点层次
 2. reverseSlice函数：用于奇偶层次翻转
 
 
 1. 记录层次！=当前层次  ： 添加slice记录-->结果,更新层次,声明新的slice
 2. 记录层次==当前层次   ：slice添加记录
-```
+// ```
 
-**代码**
+// **代码**
 
-```
+// ```
 type LevelNode struct {
 		node *TreeNode
 		level int
@@ -70,4 +70,4 @@ type LevelNode struct {
 		result = append(result, tempResult)
 		return result
 	}
-```
+// ```

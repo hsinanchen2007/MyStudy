@@ -1,5 +1,5 @@
-和39题一样的思想，不同的是候选集会改变，需要传递去掉选择元素之后的候选集，剪枝是门学问啊
-```
+# 和39题一样的思想，不同的是候选集会改变，需要传递去掉选择元素之后的候选集，剪枝是门学问啊
+# ```
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         # 加法回溯
@@ -60,6 +60,6 @@ class Solution:
         
         backtrack([],candidates,target)
         return res
-```
-![image.png](https://pic.leetcode-cn.com/b4632640f5939ae9a5a66a694df5ac6ed15e2b49193e9baada21d45ef6b7c882-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/b4632640f5939ae9a5a66a694df5ac6ed15e2b49193e9baada21d45ef6b7c882-image.png)
 

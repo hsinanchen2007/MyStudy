@@ -1,5 +1,5 @@
-![f69f08b2bc6c302125135864d7dc6da.png](https://pic.leetcode-cn.com/004ba45bc660a4480fd238df22f6e09986693e6b983f16fb9b0a778fd7d3675c-f69f08b2bc6c302125135864d7dc6da.png)
-```
+# ![f69f08b2bc6c302125135864d7dc6da.png](https://pic.leetcode-cn.com/004ba45bc660a4480fd238df22f6e09986693e6b983f16fb9b0a778fd7d3675c-f69f08b2bc6c302125135864d7dc6da.png)
+# ```
 1 把words中的word存入前缀树
 2 对board进行深度优先搜索
 dfs三个核心部分：
@@ -46,4 +46,4 @@ class Solution:
             for j in range(n):
                 dfs(i, j, trie, "")
         return res
-```
+# ```

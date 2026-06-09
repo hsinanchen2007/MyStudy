@@ -1,9 +1,9 @@
-### 解题思路
-从后往前遍历。i指向第一个数组的左后一个元素，j指向第二个数组的最后一个元素。p指向数组1的末尾。
+// ### 解题思路
+// 从后往前遍历。i指向第一个数组的左后一个元素，j指向第二个数组的最后一个元素。p指向数组1的末尾。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int i=m-1;
     int j=n-1;
@@ -36,4 +36,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用map记录滑动窗口中每个char的次数，与目标串的统计map做比较
+// ### 解题思路
+// 用map记录滑动窗口中每个char的次数，与目标串的统计map做比较
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func check_map_equal(m1, m2 map[byte]int) bool {
     for k, v := range m1 {
         if m2[k] != v {
@@ -38,4 +38,4 @@ func checkInclusion(s1 string, s2 string) bool {
     }
     return false
 }
-```
+// ```

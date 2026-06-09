@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int count[10000];
@@ -24,4 +24,4 @@ public:
         return true;
     }
 };
-```
+// ```

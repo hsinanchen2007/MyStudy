@@ -1,20 +1,20 @@
-# 解题思路：
+// # 解题思路：
 
-首先，`String`类型只有运算符重载的 ‘+’ ，用于拼接字符串的简化操作， 不支持常规的四则运算
+// 首先，`String`类型只有运算符重载的 ‘+’ ，用于拼接字符串的简化操作， 不支持常规的四则运算
 
-但是，`Char`类型可以进行加减乘除的运算，可以想到将`String`中的每个字符转换为`char`类型进行计算
+// 但是，`Char`类型可以进行加减乘除的运算，可以想到将`String`中的每个字符转换为`char`类型进行计算
 
-# 算法流程：
+// # 算法流程：
 
-　　首先确定`num1`与`num2`的长度`L`，因为 `num1` 和`num2` 都不包含任何前导零，题目明显暗示我们短的字符串需要前导补`0`
+// 　　首先确定`num1`与`num2`的长度`L`，因为 `num1` 和`num2` 都不包含任何前导零，题目明显暗示我们短的字符串需要前导补`0`
 
-　　需要两个变量，`temp`来储存 `num1`与`num2` 的`char`值相加的结果 ，`res`来储存是否有进位，进位则加一
+// 　　需要两个变量，`temp`来储存 `num1`与`num2` 的`char`值相加的结果 ，`res`来储存是否有进位，进位则加一
 
-　　结果需要存回字符串，由于先从末位开始计算，存进去的字符串需要逆序。
-![演示文稿1.mp4](97ed5a95-a2c8-4e1b-9c07-a8d0d417313d)
+// 　　结果需要存回字符串，由于先从末位开始计算，存进去的字符串需要逆序。
+// ![演示文稿1.mp4](97ed5a95-a2c8-4e1b-9c07-a8d0d417313d)
 
 
-```
+// ```
 public String addStrings(String num1, String num2) {
         int L = num1.length() >= num2.length() ? num1.length() : num2.length();
         String s="";
@@ -42,9 +42,9 @@ public String addStrings(String num1, String num2) {
         if (res) save.append(1);
         return save.reverse().toString();
     }
-```
-耗时很长，参考了一下Krahets的解法，思路是一致的，使用双指针进行解答
-```
+// ```
+// 耗时很长，参考了一下Krahets的解法，思路是一致的，使用双指针进行解答
+// ```
  public String addStrings(String num1, String num2) {
         StringBuilder res = new StringBuilder("");
         int i = num1.length() - 1, j = num2.length() - 1, carry = 0;
@@ -59,5 +59,5 @@ public String addStrings(String num1, String num2) {
         if(carry == 1) res.append(1);
         return res.reverse().toString();
     }
-```
-Krahets的解法少了进行补0字符串相加的操作，时间少减少很多。
+// ```
+// Krahets的解法少了进行补0字符串相加的操作，时间少减少很多。

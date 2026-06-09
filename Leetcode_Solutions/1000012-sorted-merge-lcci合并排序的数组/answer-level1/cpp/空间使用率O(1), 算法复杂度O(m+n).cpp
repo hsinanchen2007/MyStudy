@@ -1,6 +1,6 @@
-![捕获.PNG](https://pic.leetcode-cn.com/e1b55c97c3c200475606ff8a7131412945bcd5ab08d01d54ad038e39f121fbc2-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/e1b55c97c3c200475606ff8a7131412945bcd5ab08d01d54ad038e39f121fbc2-%E6%8D%95%E8%8E%B7.PNG)
 
-```
+// ```
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -32,4 +32,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-该题思路很简单，不多述，看代码。
+// 该题思路很简单，不多述，看代码。
 
-```java
+// ```java
 class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> list = new ArrayList<>();
@@ -18,4 +18,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

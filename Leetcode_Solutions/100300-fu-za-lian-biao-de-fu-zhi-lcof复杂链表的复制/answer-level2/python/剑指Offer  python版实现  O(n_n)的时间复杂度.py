@@ -1,12 +1,12 @@
-### 解题思路
-磕磕绊绊写了一个最原始的解法（O(n*n)时间复杂度），给需要的朋友参考。
-之前一直纠结为什么要原始链表中记录 randomNode 的位置，想的是直接通过 random指向 得到节点就可以了，然后在复制链表中从头到尾找到与randomNode的val一样的值进行指向就可以了。
-但是仅仅通过val是无法定位 randomNode 节点的（如果多个节点的val相同怎么办），所以还是得通过位置在定位。
+# ### 解题思路
+# 磕磕绊绊写了一个最原始的解法（O(n*n)时间复杂度），给需要的朋友参考。
+# 之前一直纠结为什么要原始链表中记录 randomNode 的位置，想的是直接通过 random指向 得到节点就可以了，然后在复制链表中从头到尾找到与randomNode的val一样的值进行指向就可以了。
+# 但是仅仅通过val是无法定位 randomNode 节点的（如果多个节点的val相同怎么办），所以还是得通过位置在定位。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -61,4 +61,4 @@ class Solution:
             copy_curr = copy_curr.next     
 
         return copyList.next
-```
+# ```

@@ -1,9 +1,9 @@
-第一遍dfs找起点
-第二遍dfs根据根据起点找路径
+// 第一遍dfs找起点
+// 第二遍dfs根据根据起点找路径
 
-为什么一边dfs不行，因为二叉树每一个节点都可以是链表的起点，所以需要枚举每一个值与链表头的值相同的节点为起点
+// 为什么一边dfs不行，因为二叉树每一个节点都可以是链表的起点，所以需要枚举每一个值与链表头的值相同的节点为起点
 
-```
+// ```
 class Solution {
     boolean res = false;
     public boolean isSubPath(ListNode head, TreeNode root) {
@@ -30,4 +30,4 @@ class Solution {
         dfs(root.left, head.next);
     }
 }
-```
+// ```

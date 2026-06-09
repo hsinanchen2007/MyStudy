@@ -1,9 +1,9 @@
-### 解题思路
-数字转子串转数组，用reduce方法结算乘积与和积，然后计算
+// ### 解题思路
+// 数字转子串转数组，用reduce方法结算乘积与和积，然后计算
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -18,4 +18,4 @@ var subtractProductAndSum = function(n) {
     })
     return reduceN - totalN;
 };
-```
+// ```

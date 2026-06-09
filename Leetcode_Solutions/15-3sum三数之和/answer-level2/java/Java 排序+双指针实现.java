@@ -1,7 +1,7 @@
-思路：
-    双循环：外循环确定一个数，内循环利用双指针确定两个数，满足条件为三数之和为0；
-    去重：外循环遇到相等的continue，例如：-1，-1，0，1，第二个-1跳过；
-          内循环指针left递减和right递增之后与之前的相等continue，例如：-2，0，0，2，2
+// 思路：
+//     双循环：外循环确定一个数，内循环利用双指针确定两个数，满足条件为三数之和为0；
+//     去重：外循环遇到相等的continue，例如：-1，-1，0，1，第二个-1跳过；
+//           内循环指针left递减和right递增之后与之前的相等continue，例如：-2，0，0，2，2
 public static List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> list = new ArrayList<List<Integer>>();
         if (nums.length < 3) return list;

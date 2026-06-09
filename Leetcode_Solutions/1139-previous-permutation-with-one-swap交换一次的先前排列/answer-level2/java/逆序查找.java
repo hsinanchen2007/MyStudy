@@ -1,7 +1,7 @@
-**从后向前遍历A，对于某个A[i]，如果在A[i+1]、A[i+2]……A[length-1]中存在比A[i]小的数，在这些数中找到小于A[i]的最大值max，将距离A[i]最近的（即索引最小的）最大值和A[i]交换即可**
+// **从后向前遍历A，对于某个A[i]，如果在A[i+1]、A[i+2]……A[length-1]中存在比A[i]小的数，在这些数中找到小于A[i]的最大值max，将距离A[i]最近的（即索引最小的）最大值和A[i]交换即可**
 
 
-```
+// ```
 class Solution {
     public int[] prevPermOpt1(int[] A) {
         int length = A.length;
@@ -50,4 +50,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

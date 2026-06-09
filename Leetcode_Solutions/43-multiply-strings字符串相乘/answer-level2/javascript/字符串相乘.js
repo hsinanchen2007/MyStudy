@@ -1,6 +1,6 @@
-小学的竖式相乘，主要是补0的思想
+// 小学的竖式相乘，主要是补0的思想
 
-```javascript
+// ```javascript
 /**
  * @param {string} num1
  * @param {string} num2
@@ -45,4 +45,4 @@ const add = function(ans,temp) {
     if(pre > 0) res.unshift(pre);
     return res;
 }
-```
+// ```

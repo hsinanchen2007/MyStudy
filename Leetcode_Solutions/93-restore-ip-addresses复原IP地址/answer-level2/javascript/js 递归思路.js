@@ -1,4 +1,4 @@
-```
+// ```
 var restoreIpAddresses = function(str) {
 //  判断最大边界
     if(str.length > 12) return []
@@ -31,5 +31,5 @@ var restoreIpAddresses = function(str) {
   return r
 }
 
-```
+// ```
 

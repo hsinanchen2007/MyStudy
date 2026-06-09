@@ -1,9 +1,9 @@
-### 解题思路
-int转string思路没错，但是不能使用string(data)
+// ### 解题思路
+// int转string思路没错，但是不能使用string(data)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findNumbers(nums []int) int {
     var n int 
     for _, data := range nums {
@@ -14,4 +14,4 @@ func findNumbers(nums []int) int {
     return n 
 }
 
-```
+// ```

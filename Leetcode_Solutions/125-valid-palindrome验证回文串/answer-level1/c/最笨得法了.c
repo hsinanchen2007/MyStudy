@@ -1,8 +1,8 @@
-### 这个方法可太笨了哦
+// ### 这个方法可太笨了哦
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(char * s){
     char tmp[100000];
     int len = strlen(s);
@@ -29,4 +29,4 @@ bool isPalindrome(char * s){
 
     return true;
 }
-```
+// ```

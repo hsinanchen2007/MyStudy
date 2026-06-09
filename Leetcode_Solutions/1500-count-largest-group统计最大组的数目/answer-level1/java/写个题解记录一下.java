@@ -1,7 +1,7 @@
-申请1个array记录，index是数位和，value是相同数位和的数字的个数，因为输入最大范围为10^4，所以数位和结果最大是4*9=36，所以array大小设37就好啦，
-第一次forloop记录每个相同sum结果的数字的个数，第二次forloop遍历找并列最多的数量（其实也用不了37次）
+// 申请1个array记录，index是数位和，value是相同数位和的数字的个数，因为输入最大范围为10^4，所以数位和结果最大是4*9=36，所以array大小设37就好啦，
+// 第一次forloop记录每个相同sum结果的数字的个数，第二次forloop遍历找并列最多的数量（其实也用不了37次）
 
-```java
+// ```java
 public int countLargestGroup(int n) {
         if(n < 9) return n;
         int[] bit_sum = new int[37];
@@ -29,4 +29,4 @@ public int countLargestGroup(int n) {
 
         return ans;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-上代码
+// ### 解题思路
+// 上代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int sumOfDigits(int n) {
     int ret = 0;
     while (n > 0) {
@@ -44,4 +44,4 @@ int movingCount(int m, int n, int k){
     free(matrix);
     return ret;
 }
-```
+// ```

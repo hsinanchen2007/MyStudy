@@ -1,9 +1,9 @@
-### 解题思路
-小细节还是蛮多的，需要小心
+// ### 解题思路
+// 小细节还是蛮多的，需要小心
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isVaild(string s){
@@ -47,4 +47,4 @@ public:
       return res;   
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-v[i] = min(v[i], v[i - j*j] + 1)
-j 属于[1, sqrt(i)]
+// ### 解题思路
+// v[i] = min(v[i], v[i - j*j] + 1)
+// j 属于[1, sqrt(i)]
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include "math.h"
 class Solution {
 public:
@@ -22,4 +22,4 @@ public:
 
     }
 };
-```
+// ```

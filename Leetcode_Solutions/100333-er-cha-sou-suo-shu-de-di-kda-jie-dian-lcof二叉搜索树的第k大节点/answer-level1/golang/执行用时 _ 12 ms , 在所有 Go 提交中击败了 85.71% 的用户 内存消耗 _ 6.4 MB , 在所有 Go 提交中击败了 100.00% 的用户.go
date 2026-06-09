@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
 
-常规思路 中序遍历
+// 常规思路 中序遍历
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -40,4 +40,4 @@ if root == nil {
 	return res[len(res)-k]
 
 }
-```
+// ```

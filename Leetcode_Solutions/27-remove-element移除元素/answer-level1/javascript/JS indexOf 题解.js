@@ -1,4 +1,4 @@
-```
+// ```
 var removeElement = function (nums, val) {
   let index = nums.indexOf(val)
   while (index > -1) {
@@ -7,4 +7,4 @@ var removeElement = function (nums, val) {
   }
   return nums.length
 };
-```
+// ```

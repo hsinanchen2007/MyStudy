@@ -1,8 +1,8 @@
-好多题都没有c++版本的题解，c++选手不要面子的吗。。。
-本题仅给萌新提供一个参考答案，虽然我也是萌新，翻评论太麻烦了。
+// 好多题都没有c++版本的题解，c++选手不要面子的吗。。。
+// 本题仅给萌新提供一个参考答案，虽然我也是萌新，翻评论太麻烦了。
 
-解法一：深度优先搜索（BFS）
-```
+// 解法一：深度优先搜索（BFS）
+// ```
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
@@ -20,9 +20,9 @@ public:
         pre(root->right,depth+1,res);
     }
 };
-```
-解法二：广度优先搜索（BFS）
-```
+// ```
+// 解法二：广度优先搜索（BFS）
+// ```
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
@@ -58,5 +58,5 @@ public:
         return res;
     }
 };
-```
-解法二虽然能通过，但是感觉太冗余了，看看就好，水平有限。
+// ```
+// 解法二虽然能通过，但是感觉太冗余了，看看就好，水平有限。

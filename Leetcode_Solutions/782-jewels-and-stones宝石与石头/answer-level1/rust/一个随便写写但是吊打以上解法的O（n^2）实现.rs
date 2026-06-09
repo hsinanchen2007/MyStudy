@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
     pub fn num_jewels_in_stones(j: String, s: String) -> i32 {
         s.chars()
@@ -9,4 +9,4 @@ impl Solution {
             .count() as i32
     }
 }
-```
+// ```

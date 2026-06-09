@@ -1,10 +1,10 @@
-就是回溯法，但是事先维护3个“判据”：行判据、列判据、九宫格判据，判据用了位运算进行比较，可节省一些内存空间
+// 就是回溯法，但是事先维护3个“判据”：行判据、列判据、九宫格判据，判据用了位运算进行比较，可节省一些内存空间
 
-每次遇到“.”的时候，就试一次0~9的数字，要是跟判据没有冲突，那就继续回溯，有冲突就试下一个数字
+// 每次遇到“.”的时候，就试一次0~9的数字，要是跟判据没有冲突，那就继续回溯，有冲突就试下一个数字
 
-其实最烦人的就是char跟int转来转去。。。
+// 其实最烦人的就是char跟int转来转去。。。
 
-```
+// ```
 class Solution {
 public:
 	void solveSudoku(vector<vector<char>>& board) {
@@ -92,4 +92,4 @@ private:
 		this->cellCriteria[cellNum] = add ? this->cellCriteria[cellNum] + num : this->cellCriteria[cellNum] - num;
 	}
 };
-```
+// ```

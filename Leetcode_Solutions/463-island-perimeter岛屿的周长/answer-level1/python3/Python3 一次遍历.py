@@ -1,5 +1,5 @@
-一次遍历，如果当前格的四周（超出边界 or 是水），那么周长+1
-```
+# 一次遍历，如果当前格的四周（超出边界 or 是水），那么周长+1
+# ```
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
         m = len(grid)
@@ -17,4 +17,4 @@ class Solution:
                     if j+1>=n or grid[i][j+1] == 0:
                         ans+=1
         return ans
-```
+# ```

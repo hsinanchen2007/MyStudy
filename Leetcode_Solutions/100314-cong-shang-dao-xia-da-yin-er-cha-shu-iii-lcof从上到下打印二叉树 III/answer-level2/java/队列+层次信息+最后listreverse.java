@@ -1,10 +1,10 @@
-### 解题思路
-1.使用队列和层次信息 存储List<List<Integer>> 每一层的层次遍历结果
-2.对单数层进行reverse操作
+// ### 解题思路
+// 1.使用队列和层次信息 存储List<List<Integer>> 每一层的层次遍历结果
+// 2.对单数层进行reverse操作
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -53,5 +53,5 @@ class Solution {
     }
 
 }
-```
-![image.png](https://pic.leetcode-cn.com/7b648d93bae8e2de93795a2af122c0f8e1bad994043209d86be5ccff0c1a5f98-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/7b648d93bae8e2de93795a2af122c0f8e1bad994043209d86be5ccff0c1a5f98-image.png)

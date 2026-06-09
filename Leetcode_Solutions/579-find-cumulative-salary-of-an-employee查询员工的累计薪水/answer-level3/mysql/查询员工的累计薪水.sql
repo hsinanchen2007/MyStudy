@@ -1,11 +1,11 @@
-### 解题思路
-1.找出最大月份和最小月份
-2.找出需要计算的月份，以及它们的求和范围
-3.与原表连接，针对每一个ID和月份的需要计算的月份都列出来，然后根据ID和月份分类求和
+-- ### 解题思路
+-- 1.找出最大月份和最小月份
+-- 2.找出需要计算的月份，以及它们的求和范围
+-- 3.与原表连接，针对每一个ID和月份的需要计算的月份都列出来，然后根据ID和月份分类求和
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select s1.Id as Id, s1.Month as Month, sum(s2.Salary) as Salary
 from(
@@ -23,4 +23,4 @@ join Employee s2
 on s1.Id = s2.Id and s2.Month>=s1.startMonth and s2.Month<=s1.Month
 group by s1.Id, s1.Month
 order by s1.Id asc, s1.Month desc
-```
+-- ```

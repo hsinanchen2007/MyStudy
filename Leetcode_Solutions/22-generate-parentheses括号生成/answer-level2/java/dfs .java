@@ -1,9 +1,9 @@
-### 解题思路
-这一句很重要：sb.deleteCharAt(sb.length() - 1);
+// ### 解题思路
+// 这一句很重要：sb.deleteCharAt(sb.length() - 1);
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<String> result = new ArrayList<>();		
 	StringBuilder sb = new StringBuilder();
@@ -32,5 +32,5 @@ class Solution {
 		}
 	}
 }
-```
-![image.png](https://pic.leetcode-cn.com/c35fb6f8967a883a37cc3bb233ab15fd482e3ac0de93207a6147933297dfbd1a-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/c35fb6f8967a883a37cc3bb233ab15fd482e3ac0de93207a6147933297dfbd1a-image.png)

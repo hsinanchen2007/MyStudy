@@ -1,4 +1,4 @@
-正向入，再正向出。
+// 正向入，再正向出。
 
 class Solution {
 public:

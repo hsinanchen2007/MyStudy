@@ -1,10 +1,10 @@
-### 解题思路
-一定要先判断传入的参数，一定要先判断传入的参数，一定要先判断传入的参数！！！
+# ### 解题思路
+# 一定要先判断传入的参数，一定要先判断传入的参数，一定要先判断传入的参数！！！
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         if s == "":
@@ -23,4 +23,4 @@ class Solution:
         print(list)
         max_len = max([len(i) for i in list])
         return max_len
-```
+# ```

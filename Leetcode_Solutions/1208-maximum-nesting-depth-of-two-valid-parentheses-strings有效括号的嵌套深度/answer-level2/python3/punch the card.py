@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-Kick in the card. 
-Again, I will give you code. 
+# Kick in the card. 
+# Again, I will give you code. 
 
-### 代码
+# ### 代码
 
-```cpp
+# ```cpp
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
@@ -28,4 +28,4 @@ private:
 
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-标准的二分查找模板
+# ### 解题思路
+# 标准的二分查找模板
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findBestValue(self, arr: List[int], target: int) -> int:
         left = 0
@@ -38,4 +38,4 @@ class Solution:
                 elif abs(s - target) == res:
                     ans = min(mid,ans)
         return ans
-```
+# ```

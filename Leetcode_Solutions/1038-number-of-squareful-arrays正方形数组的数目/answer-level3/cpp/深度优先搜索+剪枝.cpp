@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
-对于安排过的情况可以直接return，使用map记录或者用set都可以
-```cpp
+// ### 代码
+// 对于安排过的情况可以直接return，使用map记录或者用set都可以
+// ```cpp
 class Solution {
 public:
     int count=0;
@@ -55,4 +55,4 @@ public:
         return count;
     }
 };
-```
+// ```

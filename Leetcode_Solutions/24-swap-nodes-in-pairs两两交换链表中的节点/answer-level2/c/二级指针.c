@@ -1,5 +1,5 @@
 
-```
+// ```
 struct ListNode* swapPairs(struct ListNode* head) 
 {
 	struct ListNode *ret, **last = &ret, *tmp;
@@ -31,5 +31,5 @@ struct ListNode* swapPairs(struct ListNode* head)
 
 	return ret;
 }
-```
+// ```
 

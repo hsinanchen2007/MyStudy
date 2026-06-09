@@ -1,9 +1,9 @@
-### 解题思路
-此题比较简单，使用一个HashMap统计词频即可。
+// ### 解题思路
+// 此题比较简单，使用一个HashMap统计词频即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class WordsFrequency {
 
     Map<String,Integer> map;
@@ -25,4 +25,4 @@ class WordsFrequency {
  * WordsFrequency obj = new WordsFrequency(book);
  * int param_1 = obj.get(word);
  */
-```
+// ```

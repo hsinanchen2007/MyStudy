@@ -1,4 +1,4 @@
-```
+// ```
 function trailingZeroes($n) {
     $count = 0;
     while($n>=5){
@@ -7,4 +7,4 @@ function trailingZeroes($n) {
     }
     return $count;
 }
-```
+// ```

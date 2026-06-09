@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def robotSim(self, commands: List[int], obstacles: List[List[int]]) -> int:
         l=set(map(tuple,obstacles))
@@ -16,4 +16,4 @@ class Solution:
                     else:o=h
                 d=max(d,o[0]**2+o[1]**2)
         return d
-```
+# ```

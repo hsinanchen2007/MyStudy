@@ -1,9 +1,9 @@
-### 解题思路
-两两相比较，存入一个数组里返回
+// ### 解题思路
+// 两两相比较，存入一个数组里返回
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -17,4 +17,4 @@ var decompressRLElist = function(nums) {
     }
     return countArr
 };
-```
+// ```

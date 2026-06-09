@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-排序完把对应的分数和名次建立哈希表，把哈希表按原数组的键取出值加入结果数组。
+// 排序完把对应的分数和名次建立哈希表，把哈希表按原数组的键取出值加入结果数组。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findRelativeRanks(nums []int) []string {
 	hash := make(map[int]string)
 	res := []string{}
@@ -38,4 +38,4 @@ func sort(a []int) []int {
 	}
 	return a
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class BSTIterator:
 
     def __init__(self, root: TreeNode):
@@ -23,4 +23,4 @@ class BSTIterator:
         @return whether we have a next smallest number
         """
         return self.curr or self.stack
-```
+# ```

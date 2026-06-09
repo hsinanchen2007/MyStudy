@@ -1,4 +1,4 @@
-```
+# ```
 def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         tmp = head
         node_list = []
@@ -19,4 +19,4 @@ def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
             pre = node_list[-n-1]
             pre.next = node_list[-n+1]
             return node_list[0]
-```
+# ```

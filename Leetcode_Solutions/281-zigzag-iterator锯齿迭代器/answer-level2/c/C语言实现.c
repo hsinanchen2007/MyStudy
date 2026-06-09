@@ -1,9 +1,9 @@
-### 解题思路
-结构体里面用一个新数组装值。
+// ### 解题思路
+// 结构体里面用一个新数组装值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct ZigzagIterator {
     int ptr;
     int maxLen;
@@ -55,4 +55,4 @@ void zigzagIteratorFree(struct ZigzagIterator *iter) {
  * while (zigzagIteratorHasNext(i)) printf("%d\n", zigzagIteratorNext(i));
  * zigzagIteratorFree(i);
  */
-```
+// ```

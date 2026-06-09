@@ -1,4 +1,4 @@
-```
+// ```
     int val;
     boolean result = true;
     public boolean isUnivalTree(TreeNode root) {
@@ -19,4 +19,4 @@
         dfs(node.left);
         dfs(node.right);
     }
-```
+// ```

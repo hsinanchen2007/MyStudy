@@ -1,5 +1,5 @@
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ struct ListNode* removeZeroSumSublists(struct ListNode* head){
     }
     return pre->next;
 }
-```
+// ```

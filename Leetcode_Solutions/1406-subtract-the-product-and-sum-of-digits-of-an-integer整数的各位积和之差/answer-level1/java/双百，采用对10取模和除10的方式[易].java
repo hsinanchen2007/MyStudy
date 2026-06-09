@@ -1,9 +1,9 @@
-### 解题思路
-- n%10取模得到个位数
-- n/10得到10位以前的数
-### 代码
+// ### 解题思路
+// - n%10取模得到个位数
+// - n/10得到10位以前的数
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subtractProductAndSum(int n) {
         int temp1 = 0;
@@ -17,4 +17,4 @@ class Solution {
         return temp2-temp1;
     }
 }
-```
+// ```

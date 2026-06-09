@@ -1,9 +1,9 @@
-### 解题思路
-array
+// ### 解题思路
+// array
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -36,4 +36,4 @@ public:
         return true;
     }
 };
-```
+// ```

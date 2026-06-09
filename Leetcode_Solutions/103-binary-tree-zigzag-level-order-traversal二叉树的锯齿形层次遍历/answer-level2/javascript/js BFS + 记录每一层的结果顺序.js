@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/30aac563bf1bb98876f806155405c8c7a907b514cf116279be7426a0c6696f23-image.png)
+// ![image.png](https://pic.leetcode-cn.com/30aac563bf1bb98876f806155405c8c7a907b514cf116279be7426a0c6696f23-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   BFS 层层遍历，每隔一层，返回的层结果逆序就可以了
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -45,4 +45,4 @@ var zigzagLevelOrder = function(root) {
   
   return ans;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-找到倒数第N+1个元素，将倒数N+1个元素的next指向倒数N-1个元素
+// ### 解题思路
+// 找到倒数第N+1个元素，将倒数N+1个元素的next指向倒数N-1个元素
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -40,4 +40,4 @@ var removeNthFromEnd = function(head, n) {
         return r
     }
 };
-```
+// ```

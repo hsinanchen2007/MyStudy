@@ -1,11 +1,11 @@
-### 解题思路
-最优子结构，加上路径问题，想到动态规划
-动态规划就是从下向上考虑
-动态转移方程  F(i , j) = MIN( F(i +1 , j) , F(i +1, j+1) ) + F(i , j)
+// ### 解题思路
+// 最优子结构，加上路径问题，想到动态规划
+// 动态规划就是从下向上考虑
+// 动态转移方程  F(i , j) = MIN( F(i +1 , j) , F(i +1, j+1) ) + F(i , j)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} triangle
  * @return {number}
@@ -19,4 +19,4 @@ var minimumTotal = function(triangle) {
     }
     return arr[0][0]
 };
-```
+// ```

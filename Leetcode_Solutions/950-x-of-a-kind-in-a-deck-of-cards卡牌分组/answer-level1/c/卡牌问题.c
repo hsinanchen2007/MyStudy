@@ -1,9 +1,9 @@
-### 解题思路
-统计各张牌的数量，再求最大公约数
+// ### 解题思路
+// 统计各张牌的数量，再求最大公约数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gcd(int a,int b){
     return b ? gcd(b,a%b) : a;       //最大公约数 return b? gcd(b,a%b):a ;
 }
@@ -63,4 +63,4 @@ class Solution(object):
         return False
 
 
-```
+// ```

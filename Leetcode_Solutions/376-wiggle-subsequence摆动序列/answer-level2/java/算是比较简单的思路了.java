@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-数组从前往后找
-如果前一个数比当前大，那么up=down+1;
-如果前一个数比当前小，那么down=up+1;
-两者交替出现，才会交替+1；
+// ### 代码
+// 数组从前往后找
+// 如果前一个数比当前大，那么up=down+1;
+// 如果前一个数比当前小，那么down=up+1;
+// 两者交替出现，才会交替+1；
 
-```java
+// ```java
 class Solution {
     public int wiggleMaxLength(int[] nums) {
         int n=nums.length;
@@ -21,4 +21,4 @@ class Solution {
         return Math.max(up,down);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-双指针，只用了1/2长度的target数组，因为slow超过target一半肯定就没有解了
+# ### 解题思路
+# 双指针，只用了1/2长度的target数组，因为slow超过target一半肯定就没有解了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findContinuousSequence(self, target):
         """
@@ -29,4 +29,4 @@ class Solution(object):
 
 
 
-```
+# ```

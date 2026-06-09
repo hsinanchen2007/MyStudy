@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def isSymmetric(self, root):
         if root == None:
@@ -25,4 +25,4 @@ class Solution(object):
             queue.append(left.right)
             queue.append(right.left)
         return True
-```
+# ```

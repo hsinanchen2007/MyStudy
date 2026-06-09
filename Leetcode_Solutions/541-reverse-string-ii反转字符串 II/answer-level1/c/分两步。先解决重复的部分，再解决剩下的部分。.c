@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/3f0c583d27ea1f78b2935d5b5644910f6a63c209c3f9111222cd3700ed4250ae-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/3f0c583d27ea1f78b2935d5b5644910f6a63c209c3f9111222cd3700ed4250ae-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 void swap (char* a, int len)
 {
@@ -31,4 +31,4 @@ char * reverseStr(char* s, int k)
     }
     return s;
 }
-```
+// ```

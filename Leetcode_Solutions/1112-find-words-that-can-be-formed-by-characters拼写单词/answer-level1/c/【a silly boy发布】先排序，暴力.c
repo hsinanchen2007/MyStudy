@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/77e078acd3ae178261e1ca8d604b986e0cf7ce4fbc8c41afc003ff5ee8a8746a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/77e078acd3ae178261e1ca8d604b986e0cf7ce4fbc8c41afc003ff5ee8a8746a-image.png)
 
-```
+// ```
 int cmp(const void *a, const void *b)
 {
     return *(char *)a - *(char *)b;
@@ -57,4 +57,4 @@ int countCharacters(char ** words, int wordsSize, char * chars)
 
     return returnValue;
 }
-```
+// ```

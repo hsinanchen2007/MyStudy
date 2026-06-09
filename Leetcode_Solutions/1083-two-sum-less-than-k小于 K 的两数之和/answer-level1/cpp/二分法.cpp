@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-二分法
+// 二分法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int twoSumLessThanK(vector<int>& A, int K) {
@@ -22,4 +22,4 @@ public:
         return ret;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-使用一个标记数组，标记出不属于其他单词的后缀，但是时间复杂度很高，
-### 代码
+// ### 解题思路
+// 使用一个标记数组，标记出不属于其他单词的后缀，但是时间复杂度很高，
+// ### 代码
 
-```c
+// ```c
 bool match(char* s1, char* s2) {
 	int len1 = strlen(s1);
 	int len2 = strlen(s2);
@@ -37,4 +37,4 @@ int minimumLengthEncoding(char ** words, int wordsSize) {
 	}
 	return res;
 }
-```
+// ```

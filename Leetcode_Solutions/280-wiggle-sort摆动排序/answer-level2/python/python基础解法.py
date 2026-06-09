@@ -1,10 +1,10 @@
-### 解题思路
-1. 一次遍历，交换元素
-2. 暴力法，先排序后交换元素
+# ### 解题思路
+# 1. 一次遍历，交换元素
+# 2. 暴力法，先排序后交换元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wiggleSort(self, nums: List[int]) -> None:
         """
@@ -18,4 +18,4 @@ class Solution:
         nums.sort()
         for i in range(1,len(nums)- 1, 2):
             nums[i], nums[i+1] = nums[i+1], nums[i]
-```
+# ```

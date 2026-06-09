@@ -1,6 +1,6 @@
-4层for循环嵌套解您愁。
-废话不多说，直接看代码啥都懂了
-```
+// 4层for循环嵌套解您愁。
+// 废话不多说，直接看代码啥都懂了
+// ```
     public List<String> restoreIpAddresses(String s) {
         List<String> ret = new ArrayList<>();
 
@@ -28,6 +28,6 @@
                     }
         return ret;
     }
-```
+// ```
 
-代码来自国际站评论区-非原创
+// 代码来自国际站评论区-非原创

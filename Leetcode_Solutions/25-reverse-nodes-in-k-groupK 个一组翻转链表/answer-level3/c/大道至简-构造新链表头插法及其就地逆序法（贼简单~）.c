@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/220cb190ac2a462439010fcf1ed94555325622a5089293c01995d1b1aadc23c6-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/220cb190ac2a462439010fcf1ed94555325622a5089293c01995d1b1aadc23c6-image.png)
+// ```
 # 头插法
 struct ListNode* reverseKGroup(struct ListNode* head, int k){
 
@@ -46,9 +46,9 @@ struct ListNode* reverseKGroup(struct ListNode* head, int k){
     return L->next;
 }
 
-```
-# 就地排序，构造一个虚拟头结点
-```
+// ```
+// # 就地排序，构造一个虚拟头结点
+// ```
 struct ListNode* reverseKGroup(struct ListNode* head, int k){
     if (head == NULL || head->next == NULL) {//特殊情况
         return head;
@@ -105,4 +105,4 @@ struct ListNode* reverseKGroup(struct ListNode* head, int k){
     return head;
 }
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-如果z=a*x+b*y（a，b均整），x与y最大公约数为g，那么z一定是g的整数倍，即z%g=0！
-a*x=a*n*g,b*y=b*m*g,如果z=（a*n+b*m）g，那z就是g的整数倍
+// ### 解题思路
+// 如果z=a*x+b*y（a，b均整），x与y最大公约数为g，那么z一定是g的整数倍，即z%g=0！
+// a*x=a*n*g,b*y=b*m*g,如果z=（a*n+b*m）g，那z就是g的整数倍
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -29,4 +29,4 @@ class Solution {
         return $this->getfmod($m,fmod($n,$m));
     }
 }
-```
+// ```

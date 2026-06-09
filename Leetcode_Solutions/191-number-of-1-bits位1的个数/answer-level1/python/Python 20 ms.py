@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def hammingWeight(self, n):
         """
@@ -6,4 +6,4 @@ class Solution(object):
         :rtype: int
         """
         return bin(n).count("1")
-```
+# ```

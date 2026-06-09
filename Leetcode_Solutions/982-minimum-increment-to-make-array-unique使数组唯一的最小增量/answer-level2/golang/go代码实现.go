@@ -1,10 +1,10 @@
-### 解题思路
-1、先排序
-2、再依次遍历数组元素，若当前元素小于等于它前一个元素，则将其变为前一个数+1。
+// ### 解题思路
+// 1、先排序
+// 2、再依次遍历数组元素，若当前元素小于等于它前一个元素，则将其变为前一个数+1。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minIncrementForUnique(A []int) int {
 	sort.Ints(A)
 	var move = 0
@@ -17,4 +17,4 @@ func minIncrementForUnique(A []int) int {
 	}
 	return move
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 import "bytes"
 
 func maskPII(S string) string {
@@ -37,4 +37,4 @@ func maskPII(S string) string {
 	buf.Write(bs[l-4:])
 	return buf.String()
 }
-```
+// ```

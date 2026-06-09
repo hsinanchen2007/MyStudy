@@ -1,9 +1,9 @@
-### 解题思路
-只对前k个最大数选择出来排序，性能还不如sort
+// ### 解题思路
+// 只对前k个最大数选择出来排序，性能还不如sort
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -22,4 +22,4 @@ public:
         return nums[k - 1];
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def replaceSpace(self, s):
         """
@@ -23,4 +23,4 @@ class Solution(object):
         #把列表转换为字符串
         res = "".join(str_list)
         return res
-```
+# ```

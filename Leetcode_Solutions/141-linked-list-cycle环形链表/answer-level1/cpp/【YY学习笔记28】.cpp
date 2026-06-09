@@ -1,9 +1,9 @@
-### 解题思路
-采用官方思路一，用哈希表来实现。
+// ### 解题思路
+// 采用官方思路一，用哈希表来实现。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,4 +27,4 @@ public:
 
     }
 };
-```
+// ```

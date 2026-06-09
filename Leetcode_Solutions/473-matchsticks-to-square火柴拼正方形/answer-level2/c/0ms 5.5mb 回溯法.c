@@ -1,4 +1,4 @@
-```c []
+// ```c []
 static int cmp(const void *a, const void *b) {
     return *(int *)b - *(int *)a; // 逆序排
 }
@@ -71,5 +71,5 @@ bool makesquare(int* nums, int numsSize){
     free(infos);
     return true;
 }
-```
+// ```
 

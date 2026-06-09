@@ -1,20 +1,20 @@
-![image.png](https://pic.leetcode-cn.com/9e88a23a9be2b517d93af7bef3842681246b78e35381e4045318e47778d58737-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9e88a23a9be2b517d93af7bef3842681246b78e35381e4045318e47778d58737-image.png)
 
-### 解题思路
-观察可以发现此题结果和层次遍历的唯一区别是偶数行顺序相反
-所以我们直接在偶数行调用reverse即可，遍历reverse的时间复杂度O(n)
+// ### 解题思路
+// 观察可以发现此题结果和层次遍历的唯一区别是偶数行顺序相反
+// 所以我们直接在偶数行调用reverse即可，遍历reverse的时间复杂度O(n)
 
-```cpp
+// ```cpp
     for (int i=0;i<res.size();i++){
         if (i%2==1){
             reverse(res[i].begin(),res[i].end());
         }
     }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -61,4 +61,4 @@ public:
         return res;
     }
 };
-```
+// ```

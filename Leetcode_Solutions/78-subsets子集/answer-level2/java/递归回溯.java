@@ -1,13 +1,13 @@
-### 解题思路
-有一句代码很重要：
-**result.add(new LinkedList<Integer>(list));**
+// ### 解题思路
+// 有一句代码很重要：
+// **result.add(new LinkedList<Integer>(list));**
 
-*假如写成：result.add(list);* 那么输出result一直为空[]集合
-我也不知道为什么
+// *假如写成：result.add(list);* 那么输出result一直为空[]集合
+// 我也不知道为什么
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> result = new LinkedList<List<Integer>>();
 	
@@ -40,5 +40,5 @@ class Solution {
 		
 	}
 }
-```
-![image.png](https://pic.leetcode-cn.com/b92ef3cf8002d842bbe21a1a2627a9e1f44d2d0e2fe5f50bb74613b923b15084-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/b92ef3cf8002d842bbe21a1a2627a9e1f44d2d0e2fe5f50bb74613b923b15084-image.png)

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def uniqueMorseRepresentations(self, words):
         """
@@ -15,4 +15,4 @@ class Solution(object):
                 word = word+dict1[j]
             word_mosi.append(word)
         return len(list(set(word_mosi)))
-```
+# ```

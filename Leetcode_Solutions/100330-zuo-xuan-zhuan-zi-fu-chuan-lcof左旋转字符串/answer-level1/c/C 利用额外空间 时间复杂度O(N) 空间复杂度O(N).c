@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -33,4 +33,4 @@ char* reverseLeftWords( char * s , int n ){
     return buffer;
 
 }
-```
+// ```

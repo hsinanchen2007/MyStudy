@@ -1,5 +1,5 @@
-解法一：通过LinkedHashSet存放链表元素去重，效率较高
-```
+// 解法一：通过LinkedHashSet存放链表元素去重，效率较高
+// ```
 public ListNode removeDuplicateNodes(ListNode head) {
 
         LinkedHashSet<Integer> vals = new LinkedHashSet<>();
@@ -19,9 +19,9 @@ public ListNode removeDuplicateNodes(ListNode head) {
             
         return dummyHead.next;
     }
-```
-解法二：通过两层循环去重，效率较低
-```
+// ```
+// 解法二：通过两层循环去重，效率较低
+// ```
 public ListNode removeDuplicateNodes(ListNode head) {
 
         ListNode cur = head;
@@ -40,5 +40,5 @@ public ListNode removeDuplicateNodes(ListNode head) {
         }
         return head;
     }
-```
+// ```
 

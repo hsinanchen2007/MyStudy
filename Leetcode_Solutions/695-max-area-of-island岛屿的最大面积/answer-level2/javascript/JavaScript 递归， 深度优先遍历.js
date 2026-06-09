@@ -1,9 +1,9 @@
-### 解题思路
-深度优先搜索
+// ### 解题思路
+// 深度优先搜索
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -51,4 +51,4 @@ var maxAreaOfIsland = function(grid) {
     }
     return max
 };
-```
+// ```

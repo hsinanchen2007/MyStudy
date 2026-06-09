@@ -1,8 +1,8 @@
-C版本实现： 
- Runtime: 8 ms, faster than 98.46% of C online submissions for Add Two Numbers.
+// C版本实现： 
+//  Runtime: 8 ms, faster than 98.46% of C online submissions for Add Two Numbers.
 
 
-```
+// ```
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     struct ListNode *head = NULL;
     struct ListNode *curNode = NULL;
@@ -65,4 +65,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     
     return head;
 }
-```
+// ```

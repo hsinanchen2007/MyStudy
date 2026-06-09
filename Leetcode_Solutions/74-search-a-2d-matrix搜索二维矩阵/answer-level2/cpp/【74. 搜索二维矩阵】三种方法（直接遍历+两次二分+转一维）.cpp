@@ -1,6 +1,6 @@
-## 思路一：直接遍历
-### 代码
-```c++
+// ## 思路一：直接遍历
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -18,12 +18,12 @@ public:
         return false;
     }
 };
-```
+// ```
 
-## 思路二：两次二分
-第一次二分确定在哪一行，第二次二分确定在哪一列。
-### 代码
-```c++
+// ## 思路二：两次二分
+// 第一次二分确定在哪一行，第二次二分确定在哪一列。
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -62,11 +62,11 @@ public:
         return false;
     }
 };
-```
+// ```
 
-## 思路三：转为一维数组再二分
-### 代码
-```c++
+// ## 思路三：转为一维数组再二分
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -90,7 +90,7 @@ public:
         return false;
     }
 };
-```
+// ```
 
 
 

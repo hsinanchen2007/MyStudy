@@ -1,4 +1,4 @@
-```
+// ```
 	public static int[][] merge(int[][] intervals) {
 		if (intervals.length == 0)
 			return intervals;
@@ -72,4 +72,4 @@
 		return newIntervals;
 
 	}
-```
+// ```

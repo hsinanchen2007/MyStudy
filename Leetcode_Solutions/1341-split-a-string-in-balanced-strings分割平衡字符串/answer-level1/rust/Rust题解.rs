@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn balanced_string_split(s: String) -> i32 {
         let mut amt = 0;
@@ -19,5 +19,5 @@ impl Solution {
         amt
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

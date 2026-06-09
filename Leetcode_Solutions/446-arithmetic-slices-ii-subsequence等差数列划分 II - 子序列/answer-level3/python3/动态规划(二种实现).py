@@ -1,20 +1,20 @@
-## 思路:
+# ## 思路:
 
-动态规划，两种方法实现，但是`dp[i][k]`都是表示到数组第`i`为底公差为`k`的超过长度`3`的个数
+# 动态规划，两种方法实现，但是`dp[i][k]`都是表示到数组第`i`为底公差为`k`的超过长度`3`的个数
 
-思路一：直接转移方程
+# 思路一：直接转移方程
 
-`dp[i][k]  += 1 + dp[j][k], j < i` 
+# `dp[i][k]  += 1 + dp[j][k], j < i` 
 
-思路二：记录元素的索引号
+# 思路二：记录元素的索引号
 
-这样我们可以算出公差 `k = A[i] - A[j]`，找`A[j] - d`元素有几个(这里都是组成3个公差的个数)，在加上`A[j][k]`的个数就是`A[i][k]`
+# 这样我们可以算出公差 `k = A[i] - A[j]`，找`A[j] - d`元素有几个(这里都是组成3个公差的个数)，在加上`A[j][k]`的个数就是`A[i][k]`
 
-## 代码:
+# ## 代码:
 
-思路一：
+# 思路一：
 
-```python
+# ```python
 class Solution:
     def numberOfArithmeticSlices(self, A: List[int]) -> int:
         from collections import defaultdict
@@ -28,11 +28,11 @@ class Solution:
                 if diff in dp[j]:
                     res += dp[j][diff]
         return res
-```
+# ```
 
-思路二：
+# 思路二：
 
-```python
+# ```python
 class Solution:
     def numberOfArithmeticSlices(self, A: List[int]) -> int:
         from collections import defaultdict
@@ -61,5 +61,5 @@ class Solution:
             for val in dp[i].values():
                 res += val
         return res
-```
+# ```
 

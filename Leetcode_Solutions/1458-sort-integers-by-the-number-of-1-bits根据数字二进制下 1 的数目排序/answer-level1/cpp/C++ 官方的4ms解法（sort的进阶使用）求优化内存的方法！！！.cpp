@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
     #define N 10010
     int bit[N];
@@ -11,4 +11,4 @@ public:
         return arr;
     }
 };
-```
+// ```

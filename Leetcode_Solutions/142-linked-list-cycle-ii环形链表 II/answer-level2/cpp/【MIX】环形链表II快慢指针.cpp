@@ -1,11 +1,11 @@
-### 解题思路
-1. HsahSet. 使用额外空间
-2. 快慢指针. 不使用额外空间
+// ### 解题思路
+// 1. HsahSet. 使用额外空间
+// 2. 快慢指针. 不使用额外空间
 
-### 代码
+// ### 代码
 
-**快慢指针**
-```c++ []
+// **快慢指针**
+// ```c++ []
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
@@ -30,8 +30,8 @@ public:
         return cur;   
     }
 };
-```
-```java []
+// ```
+// ```java []
 public class Solution {
     public ListNode detectCycle(ListNode head) {
         if(head == null)
@@ -58,8 +58,8 @@ public class Solution {
         return cur;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def detectCycle(self, head: ListNode) -> ListNode:
         if head == None:
@@ -82,10 +82,10 @@ class Solution:
 
         return cur
         
-```
+// ```
 
-**额外空间**
-```c++ []
+// **额外空间**
+// ```c++ []
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -111,4 +111,4 @@ public:
         return nullptr;
     }
 };
-```
+// ```

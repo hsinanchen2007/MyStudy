@@ -1,5 +1,5 @@
-**方法一：双指针滑动**
-```
+// **方法一：双指针滑动**
+// ```
 class Solution {
     /**
     * 思路：
@@ -41,10 +41,10 @@ class Solution {
         return res.toArray(new int[res.size()][]);
     }
 }
-```
+// ```
 
-**方法二：数学思路**
-```
+// **方法二：数学思路**
+// ```
 class Solution {
     /**
     * 思路：
@@ -70,4 +70,4 @@ class Solution {
         return list.toArray(new int[0][]);       
     }
 }
-```
+// ```

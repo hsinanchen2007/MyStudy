@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
       def moveZeroes(self, nums: List[int]) -> None:    
         flag=-1
@@ -17,4 +17,4 @@ class Solution:
 
 
 
-```
+# ```

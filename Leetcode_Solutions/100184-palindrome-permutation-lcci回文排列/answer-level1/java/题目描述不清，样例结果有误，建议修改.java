@@ -1,9 +1,9 @@
-### 解题思路
-注意：不忽略大小写！输入范围不只是字母，包括其他符号！
+// ### 解题思路
+// 注意：不忽略大小写！输入范围不只是字母，包括其他符号！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canPermutePalindrome(String s) {
         char[] chars = s.toCharArray();
@@ -20,4 +20,4 @@ class Solution {
         return count <= 1;
     }
 }
-```
+// ```

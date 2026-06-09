@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/937921a622173fde4e644f4230f3bec8d96fb96575ccd6af103477c982beb007-image.png)
+// ![image.png](https://pic.leetcode-cn.com/937921a622173fde4e644f4230f3bec8d96fb96575ccd6af103477c982beb007-image.png)
 
-```
+// ```
 func corpFlightBookings(bookings [][]int, n int) []int {
 	passengers := make([]int, n + 1)
 	for _, booking := range bookings {
@@ -17,4 +17,4 @@ func corpFlightBookings(bookings [][]int, n int) []int {
 	}
 	return passengers[0: n]
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void reverseWords(vector<char>& s) {
@@ -27,7 +27,7 @@ public:
         }
     }
 };
-```
+// ```
 
 
-![image.png](https://pic.leetcode-cn.com/08ec407b0b7dc9d0886a891d3253d80fc234038ae91a33ffb64f374504d581d7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/08ec407b0b7dc9d0886a891d3253d80fc234038ae91a33ffb64f374504d581d7-image.png)

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def reverseStr(self, s, k):
         s_List = []
@@ -42,4 +42,4 @@ class Solution(object):
             for j in range(len(s)%(2*k)):
                 reList.append(s_List[len(s)-1-j])           
             return "".join(reList)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-用一个列表和不断累加的变量模拟全过程即可
+# ### 解题思路
+# 用一个列表和不断累加的变量模拟全过程即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         res=[0]*num_people
@@ -17,4 +17,4 @@ class Solution:
                 break
             i+=1
         return res
-```
+# ```

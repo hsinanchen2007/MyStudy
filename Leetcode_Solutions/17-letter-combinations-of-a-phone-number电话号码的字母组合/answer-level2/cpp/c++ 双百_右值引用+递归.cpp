@@ -1,9 +1,9 @@
-### 解题思路
-如果拷贝字符串的话，将浪费大量时间，因此可以用右值引用
+// ### 解题思路
+// 如果拷贝字符串的话，将浪费大量时间，因此可以用右值引用
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     vector<string> res;   
@@ -30,4 +30,4 @@ public:
             digui(digits, temp + s1[i], index + 1);
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 //类似斐波那契数列， 设0~i个请求的最大只是 f(i),  那么 f(i)=max(f(i-1), f(i-2)+nums[i]);
     public int massage(int[] nums) {
         int n=nums.length;
@@ -12,4 +12,4 @@
         }
         return c;
     }
-```
+// ```

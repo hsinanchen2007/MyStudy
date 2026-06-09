@@ -1,9 +1,9 @@
-### 解题思路
-起始就是二分法解题
+// ### 解题思路
+// 起始就是二分法解题
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for isBadVersion()
  * 
@@ -39,4 +39,4 @@ var solution = function (isBadVersion) {
         return left;
     };
 };
-```
+// ```

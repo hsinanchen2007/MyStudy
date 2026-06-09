@@ -1,9 +1,9 @@
-### 解题思路
-迭代，依次加入哨兵结点中
+// ### 解题思路
+// 迭代，依次加入哨兵结点中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return head.next;
     }
 }
-```
+// ```

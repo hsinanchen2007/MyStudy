@@ -1,4 +1,4 @@
-```
+// ```
 func preorder(root *Node) []int {
 	var res = make([]int, 0)
 	helper(root, &res)
@@ -14,4 +14,4 @@ func helper(root *Node, res *[]int) {
 		helper(v, res)
 	}
 }
-```
+// ```

@@ -1,18 +1,18 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/fb202645c1dcc349c99d374f7592105a3c596b8512c0dd93bc3ddbf98692460c-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/fb202645c1dcc349c99d374f7592105a3c596b8512c0dd93bc3ddbf98692460c-image.png)
 
-像我这么菜，顶多知道BFS，肯定不会听过什么叫多源啊；看了甜姐和一个老哥的题解，恍然大悟：
+// 像我这么菜，顶多知道BFS，肯定不会听过什么叫多源啊；看了甜姐和一个老哥的题解，恍然大悟：
 
-[甜姐的通俗易懂](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/jian-dan-java-miao-dong-tu-de-bfs-by-sweetiee/);
-[老哥的原理剖析](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/zhen-liang-yan-sou-huan-neng-duo-yuan-kan-wan-miao/);  
+// [甜姐的通俗易懂](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/jian-dan-java-miao-dong-tu-de-bfs-by-sweetiee/);
+// [老哥的原理剖析](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/zhen-liang-yan-sou-huan-neng-duo-yuan-kan-wan-miao/);  
 
-看完上面两位大人的图，解题思路就出来了：
- - 寻找多源；
- - 多源的广度优先遍历，记住，是广度；
- - 遍历时，不断与当前最大值比较，并更新；
+// 看完上面两位大人的图，解题思路就出来了：
+//  - 寻找多源；
+//  - 多源的广度优先遍历，记住，是广度；
+//  - 遍历时，不断与当前最大值比较，并更新；
 
-### 代码
-```javascript
+// ### 代码
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -93,4 +93,4 @@ var maxDistance = function(grid) {
     // 为什么要减一，因为前面为了好判断，是从1开始累加的
     return max - 1;
 };
-```
+// ```

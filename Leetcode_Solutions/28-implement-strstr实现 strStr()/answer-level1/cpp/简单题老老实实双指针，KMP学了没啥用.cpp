@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/90785cc5324af147b3c90558742aeb7e279a5d2584fe8eed9631d59ba084c065-image.png)
+// ![image.png](https://pic.leetcode-cn.com/90785cc5324af147b3c90558742aeb7e279a5d2584fe8eed9631d59ba084c065-image.png)
 
-我寻思这简单题老老实实双指针就行了呗，整那么大力气学KMP有啥用，面试基本用不到。更何况题目标签也提示双指针就行。
+// 我寻思这简单题老老实实双指针就行了呗，整那么大力气学KMP有啥用，面试基本用不到。更何况题目标签也提示双指针就行。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -27,4 +27,4 @@ public:
     }
 };
 
-```
+// ```

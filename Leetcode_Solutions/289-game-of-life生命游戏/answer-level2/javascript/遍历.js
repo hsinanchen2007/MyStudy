@@ -1,9 +1,9 @@
-### 解题思路
-对每一个格子，各个方向进行遍历，然后判断是否需要发生状态变化。最后需要复制一份数组，来确保每次遍历的都是原数组
+// ### 解题思路
+// 对每一个格子，各个方向进行遍历，然后判断是否需要发生状态变化。最后需要复制一份数组，来确保每次遍历的都是原数组
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -55,4 +55,4 @@ var gameOfLife = function(board) {
 
 
 
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
   //此题最终需要比较离左边还是右边的更小，才是答案，最大不超过数组长度
   public int[] shortestToChar(String S, char C) {
@@ -20,6 +20,6 @@ class Solution {
     }
     return result;
   }
-```
+// ```
 
-}
+// }

@@ -1,12 +1,12 @@
-### 解题思路
-之前的删了，重写的。
-1、先进行排序，让数组升序；
-2、从前向后，寻找第一个与之前序列不同的元素所在位置begin
-3、从后向前遍历 , ,end
-4、相减返回begin-end+1。如果已经有序就返回0
-### 代码
+// ### 解题思路
+// 之前的删了，重写的。
+// 1、先进行排序，让数组升序；
+// 2、从前向后，寻找第一个与之前序列不同的元素所在位置begin
+// 3、从后向前遍历 , ,end
+// 4、相减返回begin-end+1。如果已经有序就返回0
+// ### 代码
 
-```c
+// ```c
 int compare(const void *a,const void *b){
     return *(int*)a-*(int*)b;
 }
@@ -32,4 +32,4 @@ int findUnsortedSubarray(int* nums, int numsSize){
     }
     return end-begin+1;
 }
-```
+// ```

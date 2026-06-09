@@ -1,10 +1,10 @@
-### 解题思路
-回溯法，visited记录nums中每个元素是否被访问过。不过只有这个会超时。
-visitedsum记录曾经计算过的和。如果之前计算过就不在重复计算了。
+// ### 解题思路
+// 回溯法，visited记录nums中每个元素是否被访问过。不过只有这个会超时。
+// visitedsum记录曾经计算过的和。如果之前计算过就不在重复计算了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
@@ -36,4 +36,4 @@ public:
         return false;
     }
 };
-```
+// ```

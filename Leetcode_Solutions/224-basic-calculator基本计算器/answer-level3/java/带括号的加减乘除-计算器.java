@@ -1,12 +1,12 @@
-### 解题思路
-定义好操作符的优先级；
-用2个栈分别存放number与op；
-在轮到自己优先级的时候，触发计算。
+// ### 解题思路
+// 定义好操作符的优先级；
+// 用2个栈分别存放number与op；
+// 在轮到自己优先级的时候，触发计算。
 
-除了error cases外，需要留意一些 corner cases。
-### 代码
+// 除了error cases外，需要留意一些 corner cases。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private final char START = '^';
     private final char END = '$';
@@ -120,4 +120,4 @@ class Solution {
         throw new IllegalArgumentException();
     }
 }
-```
+// ```

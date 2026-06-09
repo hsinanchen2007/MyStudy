@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int mySqrt(int x){
     int low=0,high=x,mid;
     //if(x==0) return 0;
@@ -15,4 +15,4 @@ int mySqrt(int x){
     }
     return low;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-线段树，自己写好多坑啊。。。
-```
+// 线段树，自己写好多坑啊。。。
+// ```
 class NumArray {
 public:
     vector<int> num;
@@ -67,4 +67,4 @@ public:
         tree[rt] = tree[rt<<1] + tree[rt<<1 | 1];
     }
 };
-```
+// ```

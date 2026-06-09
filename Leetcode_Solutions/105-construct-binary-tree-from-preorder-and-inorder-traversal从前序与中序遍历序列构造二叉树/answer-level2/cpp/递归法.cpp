@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/0539ab2ef66dcf16e739c2df07666d20622141930a084a469bf1ef980a309de8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0539ab2ef66dcf16e739c2df07666d20622141930a084a469bf1ef980a309de8-image.png)
 
-### 解题思路
-代码复杂度低，结合代码和注释很容易明白。
+// ### 解题思路
+// 代码复杂度低，结合代码和注释很容易明白。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,6 +41,6 @@ public:
         return buildTreeHelper(preorder, inorder, 0, preorder.size(), 0, inorder.size());
     }
 };
-```
+// ```
 
-且稍微修改一下就是106题的答案。
+// 且稍微修改一下就是106题的答案。

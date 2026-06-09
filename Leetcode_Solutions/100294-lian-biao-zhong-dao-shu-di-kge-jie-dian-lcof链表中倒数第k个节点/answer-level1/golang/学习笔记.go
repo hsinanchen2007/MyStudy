@@ -1,4 +1,4 @@
-```
+// ```
 func getKthFromEnd(head *ListNode, k int) *ListNode {
     result := head
     for i:= 1; head != nil; i++ {
@@ -9,4 +9,4 @@ func getKthFromEnd(head *ListNode, k int) *ListNode {
     }
     return result
 }
-```
+// ```

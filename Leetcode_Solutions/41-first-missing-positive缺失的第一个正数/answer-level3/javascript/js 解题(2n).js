@@ -1,4 +1,4 @@
-最快48ms，优化后代码变少了,时间和内存消耗多了一点
+// 最快48ms，优化后代码变少了,时间和内存消耗多了一点
 var firstMissingPositive = function(nums) {
     let arr=[]
     for(let i=nums.length;i--;){

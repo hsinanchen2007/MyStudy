@@ -1,11 +1,11 @@
-### 解题思路
-参考[https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/liang-ge-zhi-zhen-yi-qi-hua-by-loick/](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/liang-ge-zhi-zhen-yi-qi-hua-by-loick/)
+// ### 解题思路
+// 参考[https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/liang-ge-zhi-zhen-yi-qi-hua-by-loick/](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/liang-ge-zhi-zhen-yi-qi-hua-by-loick/)
 
-参考2[https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/he-wei-sde-lian-xu-zheng-shu-xu-lie-by-duoduolee/]()
+// 参考2[https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/he-wei-sde-lian-xu-zheng-shu-xu-lie-by-duoduolee/]()
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -33,9 +33,9 @@ var findContinuousSequence = function(target) {
 
     return result;
 };
-```
+// ```
 
-```
+// ```
 var findContinuousSequence2 = function(target) {
     //设置两个指针
     let l = 1;
@@ -64,4 +64,4 @@ var findContinuousSequence2 = function(target) {
     }
     return result;
 };
-```
+// ```

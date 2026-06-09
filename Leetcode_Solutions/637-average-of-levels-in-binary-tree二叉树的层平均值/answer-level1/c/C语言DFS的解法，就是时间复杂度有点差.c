@@ -1,4 +1,4 @@
-```
+// ```
  void helper(struct TreeNode* root, double* sum, double* count, int index, int* head){
      if(root==NULL){
         return;
@@ -23,4 +23,4 @@ double* averageOfLevels(struct TreeNode* root, int* returnSize){
     *returnSize = head+1;
     return ret;
 }
-```
+// ```

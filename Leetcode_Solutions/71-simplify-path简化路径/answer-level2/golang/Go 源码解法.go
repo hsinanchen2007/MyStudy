@@ -1,6 +1,6 @@
-来自于 Go 的源码，速度 100%，内存 98%：
+// 来自于 Go 的源码，速度 100%，内存 98%：
 
-```
+// ```
 
 func simplifyPath(path string) string {
 	if path == "" {
@@ -102,4 +102,4 @@ func (b *lazybuf) string() string {
 	}
 	return string(b.buf[:b.w])
 }
-```
+// ```

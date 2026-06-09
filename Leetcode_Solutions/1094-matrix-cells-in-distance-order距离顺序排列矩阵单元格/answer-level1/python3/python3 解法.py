@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def allCellsDistOrder(self, R: int, C: int, r0: int, c0: int) -> List[List[int]]:
     	dict1={}
@@ -12,4 +12,4 @@ class Solution:
     		x,y=i[0].split('+')[0],i[0].split('+')[1]
     		re.append([int(x),int(y)])
     	return re
-```
+# ```

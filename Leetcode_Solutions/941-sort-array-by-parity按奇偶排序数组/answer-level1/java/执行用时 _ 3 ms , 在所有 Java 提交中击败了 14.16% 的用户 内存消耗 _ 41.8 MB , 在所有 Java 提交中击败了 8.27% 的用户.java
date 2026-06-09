@@ -1,9 +1,9 @@
-### 解题思路
-首先使用两个集合存储奇数和偶数，随后依次取出放入A中
+// ### 解题思路
+// 首先使用两个集合存储奇数和偶数，随后依次取出放入A中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArrayByParity(int[] A) {
         List<Integer> ji = new ArrayList<Integer>();
@@ -28,4 +28,4 @@ class Solution {
 
     }
 }
-```
+// ```

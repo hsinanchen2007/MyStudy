@@ -1,5 +1,5 @@
-1. 快慢指针
-```
+// 1. 快慢指针
+// ```
 func removeDuplicates(nums []int) int {
     if len(nums) == 0 {
         return 0
@@ -15,9 +15,9 @@ func removeDuplicates(nums []int) int {
 
     return i + 1
 }
-```
-2.map <hash>
-```
+// ```
+// 2.map <hash>
+// ```
 func removeDuplicates(nums []int) int {
     numExist := make(map[int]bool, len(nums))
 
@@ -33,4 +33,4 @@ func removeDuplicates(nums []int) int {
 
     return nl
 }
-```
+// ```

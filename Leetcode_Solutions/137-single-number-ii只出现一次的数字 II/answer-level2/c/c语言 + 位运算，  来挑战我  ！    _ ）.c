@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d33118721b5a330120850b4e22b10dd340026ce3a530f684fec8ec7383e26aa3-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d33118721b5a330120850b4e22b10dd340026ce3a530f684fec8ec7383e26aa3-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int singleNumber(int* nums, int numsSize){
     int a = 0;
     int b = 0;
@@ -17,4 +17,4 @@ int singleNumber(int* nums, int numsSize){
 
     return b;
 }
-```
+// ```

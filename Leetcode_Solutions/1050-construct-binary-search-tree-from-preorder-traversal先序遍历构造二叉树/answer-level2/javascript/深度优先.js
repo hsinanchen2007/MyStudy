@@ -1,4 +1,4 @@
-```js
+// ```js
 var bstFromPreorder = function(preorder) {
     return dfs(preorder);
     function dfs([...arr]){
@@ -19,4 +19,4 @@ var bstFromPreorder = function(preorder) {
         return node;
     }
 };
-```
+// ```

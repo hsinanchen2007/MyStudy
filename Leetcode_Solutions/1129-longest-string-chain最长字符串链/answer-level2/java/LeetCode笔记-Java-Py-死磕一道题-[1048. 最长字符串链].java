@@ -1,27 +1,27 @@
-#### 1048. 最长字符串链  Medium
+// #### 1048. 最长字符串链  Medium
 
 
-##### 方法1：DP
+// ##### 方法1：DP
 
-- `dp[i]`表示从`words[0]`到`words[i]`最长的词链长度
+// - `dp[i]`表示从`words[0]`到`words[i]`最长的词链长度
 
-> 将字母按字符长度字典序排序的代码
+// > 将字母按字符长度字典序排序的代码
 
-![LeetCode草稿.png](https://pic.leetcode-cn.com/29b6f2144970d4f6e0e7882cd34c9251f6cf4c8d2d55654efcd2caf92fadd23d-LeetCode%E8%8D%89%E7%A8%BF.png)
+// ![LeetCode草稿.png](https://pic.leetcode-cn.com/29b6f2144970d4f6e0e7882cd34c9251f6cf4c8d2d55654efcd2caf92fadd23d-LeetCode%E8%8D%89%E7%A8%BF.png)
 
-```java
+// ```java
       Arrays.sort(words, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
                 return o1.length() - o2.length();
             }
         });
-```
+// ```
 
 
 
 
-```java []
+// ```java []
 public int longestStrChain(String[] words) {
     Arrays.sort(words, Comparator.comparingInt(String::length));
     int n = words.length;
@@ -57,25 +57,25 @@ private boolean isPredecessor(String a, String b) {
     }
     return i == m;
 }
-```
-```python []
+// ```
+// ```python []
 print('Hello world!')
-```
+// ```
 
 
 
 
 
-##### 方法2：改进版DP
+// ##### 方法2：改进版DP
 
-- 根据题意`1 <= words[i].length <= 16` ==>`arr`存放的是`17`个长度的辅助数组，存的是`words`的同一字符长度的最末的下标
-- `dp[i]`表示从`words[0]`到`words[i]`最长的词链长度
+// - 根据题意`1 <= words[i].length <= 16` ==>`arr`存放的是`17`个长度的辅助数组，存的是`words`的同一字符长度的最末的下标
+// - `dp[i]`表示从`words[0]`到`words[i]`最长的词链长度
 
-![clipboard.png](https://pic.leetcode-cn.com/21ffeb94964cdc0169e98d99ac384d798e22d51ddb9567379335c7e052f9d267-clipboard.png)
+// ![clipboard.png](https://pic.leetcode-cn.com/21ffeb94964cdc0169e98d99ac384d798e22d51ddb9567379335c7e052f9d267-clipboard.png)
 
-![f7a6c42a3edf37751377413c52727ea.jpg](https://pic.leetcode-cn.com/c9d682e5270d99bab28ab3c5b99e0bfbff7c6d86e2c52f76e110dd090ce2c9b1-f7a6c42a3edf37751377413c52727ea.jpg)
+// ![f7a6c42a3edf37751377413c52727ea.jpg](https://pic.leetcode-cn.com/c9d682e5270d99bab28ab3c5b99e0bfbff7c6d86e2c52f76e110dd090ce2c9b1-f7a6c42a3edf37751377413c52727ea.jpg)
 
-```java []
+// ```java []
 public int longestStrChain1st(String[] words) {
     Arrays.sort(words, Comparator.comparingInt(String::length));
     int[] arr = new int[17];
@@ -100,17 +100,17 @@ public int longestStrChain1st(String[] words) {
     }
     return res;
 }
-```
-```python []
+// ```
+// ```python []
 print('Hello world!')
-```
+// ```
 
 
 
 
 
-##### 方法3：DFS
-```java []
+// ##### 方法3：DFS
+// ```java []
 int res = 0;
 
 public int longestStrChain2nd(String[] words) {
@@ -152,8 +152,8 @@ private void findNext(Map<Integer, Set<String>> map, int len, String levelStr) {
         }
     }
 }
-```
-```python []
+// ```
+// ```python []
 print('Hello world!')
-```
+// ```
 

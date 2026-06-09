@@ -1,9 +1,9 @@
-### 解题思路
-其实就是对每一个数出现次数的数组求最大公约数，如果大于1则返回true。
+// ### 解题思路
+// 其实就是对每一个数出现次数的数组求最大公约数，如果大于1则返回true。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -38,4 +38,4 @@ var hasGroupsSizeX = function(deck) {
     console.log(min)
     return min >1
 };
-```
+// ```

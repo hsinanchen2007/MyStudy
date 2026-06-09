@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：先序遍历
@@ -109,4 +109,4 @@ bool findTarget( struct TreeNode * root , int k ){
     return false;
 
 }
-```
+// ```

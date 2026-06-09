@@ -1,4 +1,4 @@
-```java
+// ```java
 public TreeNode deleteNode(TreeNode root, int key) {
     TreeNode parent = null;
     TreeNode curr = root;
@@ -47,4 +47,4 @@ public TreeNode deleteNode(TreeNode root, int key) {
     }
     return root;
 }
-```
+// ```

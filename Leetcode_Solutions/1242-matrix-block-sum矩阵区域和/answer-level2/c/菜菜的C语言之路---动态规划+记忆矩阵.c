@@ -1,34 +1,34 @@
-# 1. C语言知识点
-#    1.1 创建二维数组
-        (1)为指针int**分配m个int*指针的地址空间
-                int**memo = (int**)malloc(m*sizeof(int*)))
+// # 1. C语言知识点
+// #    1.1 创建二维数组
+//         (1)为指针int**分配m个int*指针的地址空间
+//                 int**memo = (int**)malloc(m*sizeof(int*)))
 
-        (2)为每个int*指针分配n个int整型的地址空间
-                for(int i = 0; i<m ;i++){
-                        memo[i] = (int*)malloc(n*sizeof(int));
-                }
+//         (2)为每个int*指针分配n个int整型的地址空间
+//                 for(int i = 0; i<m ;i++){
+//                         memo[i] = (int*)malloc(n*sizeof(int));
+//                 }
 
-#    1.2 为指针赋值
-        题目的意思是，returnSize指针和returnColumnSizes指针均为已分配
-        内存地址的指针。
+// #    1.2 为指针赋值
+//         题目的意思是，returnSize指针和returnColumnSizes指针均为已分配
+//         内存地址的指针。
 
-        由于返回的数组行、列长度未知，因此需要用到returnSize和
-        returnColumnSizes得到行与列的长度信息。
+//         由于返回的数组行、列长度未知，因此需要用到returnSize和
+//         returnColumnSizes得到行与列的长度信息。
 
-        所以这里用*returnSize = matSize;
-                 *returnColumnSizes = matColSize;
-        来得到返回矩阵的行、列信息
+//         所以这里用*returnSize = matSize;
+//                  *returnColumnSizes = matColSize;
+//         来得到返回矩阵的行、列信息
 
-# 2. 思路
-        (1) 创建一个memo矩阵，memop[i][j]表示从[0,0]到[i,j]的矩形内数值之和
-            如，在本题示例中，memo[1][1] = [0,0]到[1,1]内矩形数值之和，
-            为1+2+4+5 = 12
+// # 2. 思路
+//         (1) 创建一个memo矩阵，memop[i][j]表示从[0,0]到[i,j]的矩形内数值之和
+//             如，在本题示例中，memo[1][1] = [0,0]到[1,1]内矩形数值之和，
+//             为1+2+4+5 = 12
 
-        (2) 创建一个结果矩阵res，res[i][j]表示符合要求的所有元素之和。
-            显然，该值也是某矩形内所有元素之和，用memo矩阵表示可得。
+//         (2) 创建一个结果矩阵res，res[i][j]表示符合要求的所有元素之和。
+//             显然，该值也是某矩形内所有元素之和，用memo矩阵表示可得。
 
-# 3. 代码
-```
+// # 3. 代码
+// ```
 #include<stdio.h>
 #include<malloc.h>
 #include<stdlib.h>
@@ -92,5 +92,5 @@ int** matrixBlockSum(int** mat, int matSize, int* matColSize, int K, int* return
 	}
 	return res;
 }
-```
+// ```
 

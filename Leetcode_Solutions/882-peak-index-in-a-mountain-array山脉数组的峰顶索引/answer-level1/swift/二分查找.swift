@@ -1,4 +1,4 @@
-```
+// ```
     func peakIndexInMountainArray(_ A: [Int]) -> Int {
         var left = 0, right = A.count - 1
         while left <= right {
@@ -13,4 +13,4 @@
         }
         return -1
     }
-```
+// ```

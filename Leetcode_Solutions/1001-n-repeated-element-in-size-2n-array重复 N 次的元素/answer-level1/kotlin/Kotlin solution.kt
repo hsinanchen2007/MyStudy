@@ -1,4 +1,4 @@
-```kotlin
+// ```kotlin
 class Solution {
     fun repeatedNTimes(A: IntArray): Int {
         var first = A[0]
@@ -15,4 +15,4 @@ class Solution {
         return A[0]
     }
 }
-```
+// ```

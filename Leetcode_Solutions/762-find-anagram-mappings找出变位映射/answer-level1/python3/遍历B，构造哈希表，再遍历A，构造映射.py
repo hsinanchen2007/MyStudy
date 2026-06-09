@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def anagramMappings(self, A: List[int], B: List[int]) -> List[int]:
         from collections import defaultdict
@@ -14,4 +14,4 @@ class Solution:
         for i in A:
             res.append(mdict[i][0])
         return res
-```
+# ```

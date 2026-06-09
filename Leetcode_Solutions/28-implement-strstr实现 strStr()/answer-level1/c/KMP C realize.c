@@ -1,13 +1,13 @@
-### 解题思路
-关键是
-for(j=0;j<256;j++)
-        dp[0][j]=0;
-dp的第一个状态其他的量要清零，不然变长数组无法初始化，会导致很多不确定值
+// ### 解题思路
+// 关键是
+// for(j=0;j<256;j++)
+//         dp[0][j]=0;
+// dp的第一个状态其他的量要清零，不然变长数组无法初始化，会导致很多不确定值
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle)
 {
     if(needle==NULL||needle[0]=='\0')
@@ -48,4 +48,4 @@ int strStr(char * haystack, char * needle)
 	return -1;
 	
 }
-```
+// ```

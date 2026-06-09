@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/612459c050ec13fd69214faf47c305fc45a26021d653619f41edb173e88a41a2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/612459c050ec13fd69214faf47c305fc45a26021d653619f41edb173e88a41a2-image.png)
 
-```
+// ```
 func depthSumN(nestedList []*NestedInteger, dep int) int {    
     if len(nestedList) == 0 {
         return 0
@@ -18,4 +18,4 @@ func depthSumN(nestedList []*NestedInteger, dep int) int {
 func depthSum(nestedList []*NestedInteger) int {
     return depthSumN(nestedList, 1)
 }
-```
+// ```

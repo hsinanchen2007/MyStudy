@@ -1,9 +1,9 @@
-### 解题思路
-横竖是一样的，看一行有多少个block（连续的1），每一个block贡献两个周长，再看每一列
+# ### 解题思路
+# 横竖是一样的，看一行有多少个block（连续的1），每一个block贡献两个周长，再看每一列
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
 
@@ -35,4 +35,4 @@ class Solution:
             ans += b_num * 2
 
         return ans
-```
+# ```

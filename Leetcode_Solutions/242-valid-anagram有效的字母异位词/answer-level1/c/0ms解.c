@@ -1,5 +1,5 @@
-先判断两字符串长度是否相等，若不相等则false，若相等则将两字符串中每种字母的个数做差,若结果为0则true，不为0则false
-```
+// 先判断两字符串长度是否相等，若不相等则false，若相等则将两字符串中每种字母的个数做差,若结果为0则true，不为0则false
+// ```
 bool isAnagram(char * s, char * t){
     int n=strlen(s),m=strlen(t);
     if(n!=m)
@@ -14,4 +14,4 @@ bool isAnagram(char * s, char * t){
             return false;
     return true;
 }
-```
+// ```

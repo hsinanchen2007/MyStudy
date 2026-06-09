@@ -1,12 +1,12 @@
-### 解题思路
-![55.png](https://pic.leetcode-cn.com/299d4102b7191bafa7f39d88a3d4d5fda6212801f376866190a1dd0412ad8fe1-55.png)
-主要思路是使用vector的可变特性建立栈
-注意细节即可，难度不大
-cap=0的时候禁止入栈！！！
+// ### 解题思路
+// ![55.png](https://pic.leetcode-cn.com/299d4102b7191bafa7f39d88a3d4d5fda6212801f376866190a1dd0412ad8fe1-55.png)
+// 主要思路是使用vector的可变特性建立栈
+// 注意细节即可，难度不大
+// cap=0的时候禁止入栈！！！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class StackOfPlates {
  private:
     int size;
@@ -65,4 +65,4 @@ public:
  * int param_2 = obj->pop();
  * int param_3 = obj->popAt(index);
  */
-```
+// ```

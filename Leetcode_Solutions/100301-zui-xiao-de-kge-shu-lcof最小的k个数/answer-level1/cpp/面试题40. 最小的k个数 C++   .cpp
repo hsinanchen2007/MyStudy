@@ -1,11 +1,11 @@
-### 解题思路
-1、最小堆
+// ### 解题思路
+// 1、最小堆
 
-2、排序
+// 2、排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -38,4 +38,4 @@ public:
         return vector<int>(arr.begin(), arr.begin() + k);
     }
 };
-```
+// ```

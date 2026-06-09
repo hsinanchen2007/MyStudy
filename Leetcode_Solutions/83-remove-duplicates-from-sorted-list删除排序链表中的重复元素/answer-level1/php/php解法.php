@@ -1,4 +1,4 @@
-```
+// ```
 function deleteDuplicates($head) {
     $curr = $head;
     while($curr!=null && $curr->next!=null){
@@ -10,4 +10,4 @@ function deleteDuplicates($head) {
     }
     return $head;
 }
-```
+// ```

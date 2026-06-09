@@ -1,8 +1,8 @@
 
-解法一
-时间复杂度：O(n)
-空间复杂度：O(n)
-```
+// 解法一
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```
 class Solution {
     public int partitionDisjoint(int[] A) {
         int n = A.length;
@@ -28,12 +28,12 @@ class Solution {
         return n;
     }
 }
-```
+// ```
 
-解法二
-时间复杂度：O(n)
-空间复杂度：O(1)
-```
+// 解法二
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
+// ```
 class Solution {
     public int partitionDisjoint(int[] A) {
         // 记录左边最大值
@@ -56,5 +56,5 @@ class Solution {
         return count;
     }
 }
-```
-[Github-LeetCode](https://github.com/hncboy/LeetCode)
+// ```
+// [Github-LeetCode](https://github.com/hncboy/LeetCode)

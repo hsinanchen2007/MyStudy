@@ -1,4 +1,4 @@
-```
+// ```
 var (
 	blank  = 0 // 空格
 	digit1 = 1 // 数字(0-9) 无前缀
@@ -48,4 +48,4 @@ func isNumber(s string) bool {
 	}
 	return state == digit1 || state == digit2 || state == digit3
 }
-```
+// ```

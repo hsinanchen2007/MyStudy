@@ -1,17 +1,17 @@
-### 解题思路
-首先区分出两个string，一个长string一个短string分别记做maxString和minString。
+// ### 解题思路
+// 首先区分出两个string，一个长string一个短string分别记做maxString和minString。
 
-我们将计算结果存储到maxString中。
+// 我们将计算结果存储到maxString中。
 
-先反向遍历，从低位开始计算，计算maxString和minString重合的部分。
+// 先反向遍历，从低位开始计算，计算maxString和minString重合的部分。
 
-然后只遍历maxString多出来的部分，此时只需要计算maxString和flag的和。
+// 然后只遍历maxString多出来的部分，此时只需要计算maxString和flag的和。
 
-最后考虑最高位有没有进位。如果遍历完maxString之`后flag > 0`说明还需要进位。这时候只需要在maxString前面加"1"
+// 最后考虑最高位有没有进位。如果遍历完maxString之`后flag > 0`说明还需要进位。这时候只需要在maxString前面加"1"
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -60,4 +60,4 @@ public:
         return maxString;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```go
+// ```go
 /**
 1. 最长 关键字 可以联想到 使用 贪心 或者 动态规划
 2. 思考此类问题如果不能一眼看出答案,可以先思考解空间搜索法:
@@ -45,4 +45,4 @@ func longestValidParentheses(s string) int {
     }
     return res
 }
-```
+// ```

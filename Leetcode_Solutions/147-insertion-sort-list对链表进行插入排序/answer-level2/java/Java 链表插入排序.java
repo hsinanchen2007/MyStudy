@@ -1,12 +1,12 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
 
-插入排序是两次循环，外层循环是找到待插入元素，内层循环是找到待插入元素在排序好后元素中的插入位置。
+// 插入排序是两次循环，外层循环是找到待插入元素，内层循环是找到待插入元素在排序好后元素中的插入位置。
 
-这里使用cur代表待插入元素，insert表示待插入位置。 对于每个待插入元素，如果需要插入排好序的元素，则从头开始遍历，找到插入位置，直接插入即可。
+// 这里使用cur代表待插入元素，insert表示待插入位置。 对于每个待插入元素，如果需要插入排好序的元素，则从头开始遍历，找到插入位置，直接插入即可。
 
 
-```
+// ```
 public ListNode insertionSortList(ListNode head) {
     //两层循环
     ListNode fakeNode = new ListNode(0), cur = head, insert = fakeNode;
@@ -33,4 +33,4 @@ public ListNode insertionSortList(ListNode head) {
 
     return fakeNode.next;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-*法一*
+// *法一*
 
-缺点：速度太慢
+// 缺点：速度太慢
 
-```js
+// ```js
 var isLongPressedName = function(name, typed) {
     for (let i = 0; i < typed.length; i++) {
         if (typed[i] !== name[i]) {
@@ -12,13 +12,13 @@ var isLongPressedName = function(name, typed) {
     }
     return typed === name
 };
-```
+// ```
 
-*法二：双指针*
+// *法二：双指针*
 
-推荐
+// 推荐
 
-```js
+// ```js
 var isLongPressedName = function(name, typed) {
     let i = 0
     let j = 0
@@ -32,5 +32,5 @@ var isLongPressedName = function(name, typed) {
     }
     return i === name.length
 };
-```
+// ```
 

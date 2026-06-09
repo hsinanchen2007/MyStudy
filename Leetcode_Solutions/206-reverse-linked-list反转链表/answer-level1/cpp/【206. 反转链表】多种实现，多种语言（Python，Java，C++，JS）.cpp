@@ -1,35 +1,35 @@
-## 题目地址
-https://leetcode.com/problems/reverse-linked-list/description/
+// ## 题目地址
+// https://leetcode.com/problems/reverse-linked-list/description/
 
-## 题目描述
-Reverse a singly linked list.
+// ## 题目描述
+// Reverse a singly linked list.
 
-Example:
+// Example:
 
-Input: 1->2->3->4->5->NULL
-Output: 5->4->3->2->1->NULL
-Follow up:
+// Input: 1->2->3->4->5->NULL
+// Output: 5->4->3->2->1->NULL
+// Follow up:
 
-A linked list can be reversed either iteratively or recursively. Could you implement both?
+// A linked list can be reversed either iteratively or recursively. Could you implement both?
 
-## 思路
-这个就是常规操作了，使用一个变量记录前驱pre，一个变量记录后继next.
+// ## 思路
+// 这个就是常规操作了，使用一个变量记录前驱pre，一个变量记录后继next.
 
-不断更新`current.next = pre` 就好了
-## 关键点解析
+// 不断更新`current.next = pre` 就好了
+// ## 关键点解析
 
-- 链表的基本操作（交换）
-- 虚拟节点dummy 简化操作
-- 注意更新current和pre的位置， 否则有可能出现溢出
+// - 链表的基本操作（交换）
+// - 虚拟节点dummy 简化操作
+// - 注意更新current和pre的位置， 否则有可能出现溢出
 
 
-## 代码
+// ## 代码
 
-语言支持：JS, C++, Python,Java
+// 语言支持：JS, C++, Python,Java
 
-JavaScript Code：
+// JavaScript Code：
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -57,11 +57,11 @@ var reverseList = function(head) {
     return pre;
 };
 
-```
+// ```
 
-C++ Code：
+// C++ Code：
 
-```c++
+// ```c++
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -85,11 +85,11 @@ public:
         return prev;
     }
 };
-```
+// ```
 
-Python Code:
+// Python Code:
 
-```python
+// ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -104,11 +104,11 @@ class Solution:
         while cur:
             cur.next, prev, cur = prev, cur, cur.next
         return prev
-```
+// ```
 
-Java Code:
+// Java Code:
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -131,26 +131,26 @@ class Solution {
         return pre;
     }
 }
-```
+// ```
 
-**复杂度分析**
-- 时间复杂度：$O(N)$
-- 空间复杂度：$O(1)$
+// **复杂度分析**
+// - 时间复杂度：$O(N)$
+// - 空间复杂度：$O(1)$
 
-## 拓展
+// ## 拓展
 
-通过单链表的定义可以得知，单链表也是递归结构，因此，也可以使用递归的方式来进行reverse操作。
-> 由于单链表是线性的，使用递归方式将导致栈的使用也是线性的，当链表长度达到一定程度时，递归会导致爆栈，因此，现实中并不推荐使用递归方式来操作链表。
+// 通过单链表的定义可以得知，单链表也是递归结构，因此，也可以使用递归的方式来进行reverse操作。
+// > 由于单链表是线性的，使用递归方式将导致栈的使用也是线性的，当链表长度达到一定程度时，递归会导致爆栈，因此，现实中并不推荐使用递归方式来操作链表。
 
-### 描述
+// ### 描述
 
-1. 除第一个节点外，递归将链表reverse
-2. 将第一个节点添加到已reverse的链表之后
+// 1. 除第一个节点外，递归将链表reverse
+// 2. 将第一个节点添加到已reverse的链表之后
 
-> 这里需要注意的是，每次需要保存已经reverse的链表的头节点和尾节点
+// > 这里需要注意的是，每次需要保存已经reverse的链表的头节点和尾节点
 
-###  C++实现
-```c++
+// ###  C++实现
+// ```c++
 // 普通递归
 class Solution {
 public:
@@ -195,10 +195,10 @@ public:
         return reverseRecursive(head, next, n);
     }
 };
-```
+// ```
 
-### JavaScript实现
-```javascript
+// ### JavaScript实现
+// ```javascript
 var reverseList = function(head) {
   // 递归结束条件
   if (head === null || head.next === null) {
@@ -216,11 +216,11 @@ var reverseList = function(head) {
   // 将调整后的链表返回
   return newReverseList
 }
-```
+// ```
 
 
-**复杂度分析**
-- 时间复杂度：$O(N)$
-- 空间复杂度：$O(N)$
+// **复杂度分析**
+// - 时间复杂度：$O(N)$
+// - 空间复杂度：$O(N)$
 
-欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
+// 欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解

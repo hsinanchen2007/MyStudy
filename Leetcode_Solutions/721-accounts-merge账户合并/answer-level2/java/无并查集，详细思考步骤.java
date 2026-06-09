@@ -1,62 +1,62 @@
-### 解题思路
-![2.png](https://pic.leetcode-cn.com/44b25c90e11220979484e0d88c5ea0b05fc9e91df1e22e767d0b75679de174a8-2.png)
+// ### 解题思路
+// ![2.png](https://pic.leetcode-cn.com/44b25c90e11220979484e0d88c5ea0b05fc9e91df1e22e767d0b75679de174a8-2.png)
 
-无并查集，分享一下，欢迎指出意见
-首先想到用Map结构，用email做key，name做value，方便进行合并操作
-为了能够快速的找到每一步中，任意一个name对应的所有email,再引入一个名为reverseMap的新Map结构，key为name,value为对应的email列表，后面会解释
-然后遍历account并在这个过程中逐步合并列表：
+// 无并查集，分享一下，欢迎指出意见
+// 首先想到用Map结构，用email做key，name做value，方便进行合并操作
+// 为了能够快速的找到每一步中，任意一个name对应的所有email,再引入一个名为reverseMap的新Map结构，key为name,value为对应的email列表，后面会解释
+// 然后遍历account并在这个过程中逐步合并列表：
 
-对于accounts中的每一个列表list,令它对应的账户为name,先检查该列表中的是否有email已经存在于map中了
-**如果否：**
-只能说明现在list和已有的数据不能合并，不能代表以后不会合并，为了区分账户相同的情况，为每个name增加一个序号。然后把email和name存入map
-同时在reverseMap中增加一个键值对
-**如果是：**
-说明需要将list合并进去，此时确定好一个name，把map中需要合并的所有email都改成这个name
-所有需要合并的email包括三个部分:
-list中已经作为map的key存在的email+**这些email对应的name对应的所有email**+list中第一次遍历到的email
-合并的过程包括两种情况：
-1.对于已经作为key存在的email，不仅要修改这个email对应的name,还要根据原本的name查到所有相对应的email，把这些email的name也改成新的
-2.对于新遍历到的email,直接存储<email,name>对
-合并以后修改reverseMap,把这里的多个<name,List>对也合并起来并重新存进reverseMap
+// 对于accounts中的每一个列表list,令它对应的账户为name,先检查该列表中的是否有email已经存在于map中了
+// **如果否：**
+// 只能说明现在list和已有的数据不能合并，不能代表以后不会合并，为了区分账户相同的情况，为每个name增加一个序号。然后把email和name存入map
+// 同时在reverseMap中增加一个键值对
+// **如果是：**
+// 说明需要将list合并进去，此时确定好一个name，把map中需要合并的所有email都改成这个name
+// 所有需要合并的email包括三个部分:
+// list中已经作为map的key存在的email+**这些email对应的name对应的所有email**+list中第一次遍历到的email
+// 合并的过程包括两种情况：
+// 1.对于已经作为key存在的email，不仅要修改这个email对应的name,还要根据原本的name查到所有相对应的email，把这些email的name也改成新的
+// 2.对于新遍历到的email,直接存储<email,name>对
+// 合并以后修改reverseMap,把这里的多个<name,List>对也合并起来并重新存进reverseMap
 
-遍历结束以后直接获取reverseMap中的每一个列表即可，注意把序号再去掉
+// 遍历结束以后直接获取reverseMap中的每一个列表即可，注意把序号再去掉
 
-举例说明：
-所有的name都一样，邮箱序列如下:(0,1)(2,3)(4,5)(1,3)(3,5)
-第一步
-0:name0
-1:name0
-第二步
-0:name0
-1:name0
-2:name1
-3:name1
-第三步
-0:name0
-1:name0
-2:name1
-3:name1
-4:name2
-5:name2
-第四步
-0:name0
-1:name0
-2:name0
-3:name0
-4:name2
-5:name2
-第五步
-0:name0
-1:name0
-2:name0
-3:name0
-4:name0
-5:name0
+// 举例说明：
+// 所有的name都一样，邮箱序列如下:(0,1)(2,3)(4,5)(1,3)(3,5)
+// 第一步
+// 0:name0
+// 1:name0
+// 第二步
+// 0:name0
+// 1:name0
+// 2:name1
+// 3:name1
+// 第三步
+// 0:name0
+// 1:name0
+// 2:name1
+// 3:name1
+// 4:name2
+// 5:name2
+// 第四步
+// 0:name0
+// 1:name0
+// 2:name0
+// 3:name0
+// 4:name2
+// 5:name2
+// 第五步
+// 0:name0
+// 1:name0
+// 2:name0
+// 3:name0
+// 4:name0
+// 5:name0
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int id=0;
 
@@ -126,4 +126,4 @@ class Solution {
         }
     } 
 }
-```
+// ```

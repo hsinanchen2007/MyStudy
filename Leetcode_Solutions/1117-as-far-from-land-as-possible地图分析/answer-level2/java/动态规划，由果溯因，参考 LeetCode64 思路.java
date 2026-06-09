@@ -1,13 +1,13 @@
-# 1162. 地图分析
-解题思路：动态规划
+// # 1162. 地图分析
+// 解题思路：动态规划
 
-1、当前坐标距离为上下左右距离最小值+1
+// 1、当前坐标距离为上下左右距离最小值+1
 
-2、两次距离计算，第一次以上左为参照，第二次以下右为参照，如果是陆地标记为 0
+// 2、两次距离计算，第一次以上左为参照，第二次以下右为参照，如果是陆地标记为 0
 
-3、maxDistance 记录最大距离
+// 3、maxDistance 记录最大距离
 
-```java
+// ```java
 public int maxDistance(int[][] grid) {
         int maxDistance = -1;
         int[][] distance = new int[grid.length][grid[0].length];
@@ -48,4 +48,4 @@ public int maxDistance(int[][] grid) {
         // 对于全为海洋情况进行特殊处理
         return maxDistance == Integer.MAX_VALUE - 1 ? -1 : maxDistance;
     }
-```
+// ```

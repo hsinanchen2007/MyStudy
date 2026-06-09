@@ -1,9 +1,9 @@
-### 解题思路
-这道题很好的体现了动态规划自顶向下和自底向上两种思路，我采用了自底向下，不需要考虑边界情况
+// ### 解题思路
+// 这道题很好的体现了动态规划自顶向下和自底向上两种思路，我采用了自底向下，不需要考虑边界情况
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int row = triangle.size();
@@ -22,4 +22,4 @@ class Solution {
         return dp[0][0];
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-// 字符c在子字符串中的位置，不存在则返回-1
+// // 字符c在子字符串中的位置，不存在则返回-1
 int locInStr(char* s, int start, int end, char c)
 {
     int i;

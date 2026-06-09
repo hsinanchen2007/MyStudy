@@ -1,9 +1,9 @@
-### 解题思路
-单调栈，速度和内存消耗都一般，只能说还算工整吧
+// ### 解题思路
+// 单调栈，速度和内存消耗都一般，只能说还算工整吧
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -73,4 +73,4 @@ int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, in
 	*returnSize = nums1Size;
 	return rlt;
 }
-```
+// ```

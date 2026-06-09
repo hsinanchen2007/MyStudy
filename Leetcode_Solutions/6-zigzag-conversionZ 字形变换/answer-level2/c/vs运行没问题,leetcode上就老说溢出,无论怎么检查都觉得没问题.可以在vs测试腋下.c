@@ -1,7 +1,7 @@
-# 代码如下 简单易懂
+// # 代码如下 简单易懂
 
 
-```
+// ```
 char * convert(char * s, int numRows){
 	char s1[6][7];
 	memset(s1, 0, sizeof(s1));	
@@ -35,7 +35,7 @@ char * convert(char * s, int numRows){
 	}
 	return s2;
 }
-```
+// ```
 	
 
 

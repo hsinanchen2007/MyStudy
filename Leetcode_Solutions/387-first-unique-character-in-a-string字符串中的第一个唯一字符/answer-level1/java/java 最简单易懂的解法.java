@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class Solution {
     public int firstUniqChar(String s) {
         int len = s.length();
@@ -10,4 +10,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

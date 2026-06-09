@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int[] result = new int[2] ;
@@ -22,5 +22,5 @@ class Solution {
         return result ;
     }
 }
-```
-其实双指针的思路没啥好说的，思路也简单。
+// ```
+// 其实双指针的思路没啥好说的，思路也简单。

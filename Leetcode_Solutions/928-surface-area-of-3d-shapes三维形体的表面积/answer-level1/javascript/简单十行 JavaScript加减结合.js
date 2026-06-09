@@ -1,5 +1,5 @@
 
-``` javascript
+// ``` javascript
 var surfaceArea = function(grid) {
     var [n, sum, r, c] = [grid.length, 0];
     if (!n) return sum;
@@ -12,11 +12,11 @@ var surfaceArea = function(grid) {
     }
     return sum;
 };
-```
+// ```
 
-先把每一单元格的块组抽离来看
-其表面积是4倍的侧面积加上下底面积
-sum += 4n + 2
+// 先把每一单元格的块组抽离来看
+// 其表面积是4倍的侧面积加上下底面积
+// sum += 4n + 2
 
-再减去相邻的重叠面积
-sum -= 2n
+// 再减去相邻的重叠面积
+// sum -= 2n

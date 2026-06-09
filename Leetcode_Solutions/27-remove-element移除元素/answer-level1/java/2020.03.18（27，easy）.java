@@ -1,9 +1,9 @@
-### 解题思路
-本题和283题很像，只是这个索引**k是从0开始**，用while循环依次遍历数组，将满足题意的元素赋值给k索引所在位置即可
+// ### 解题思路
+// 本题和283题很像，只是这个索引**k是从0开始**，用while循环依次遍历数组，将满足题意的元素赋值给k索引所在位置即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int n = nums.length;
@@ -18,4 +18,4 @@ class Solution {
         return k;
     }
 }
-```
+// ```

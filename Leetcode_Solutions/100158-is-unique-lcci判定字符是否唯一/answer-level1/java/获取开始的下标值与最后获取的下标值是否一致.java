@@ -1,9 +1,9 @@
-### 解题思路
-获取开始的下标值与最后获取的下标值是否一致
+// ### 解题思路
+// 获取开始的下标值与最后获取的下标值是否一致
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         for (int i = 0; i <astr.length() ; i++) {
@@ -16,4 +16,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

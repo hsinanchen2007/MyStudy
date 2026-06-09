@@ -1,5 +1,5 @@
-[用JS刷Leetcode](https://github.com/careteenL/data-structure_algorithm/blob/0816-leetcode/src/leetcode)
-```js
+// [用JS刷Leetcode](https://github.com/careteenL/data-structure_algorithm/blob/0816-leetcode/src/leetcode)
+// ```js
 /**
  * @desc 二叉树的最大深度
  * @leetcode https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
@@ -76,4 +76,4 @@ var maxDepth2 = function (root) {
 }
 console.log(maxDepth2(root))
 
-```
+// ```

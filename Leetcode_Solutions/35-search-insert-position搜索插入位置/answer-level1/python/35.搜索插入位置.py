@@ -1,9 +1,9 @@
-### 解题思路
-先将列表排序，将列表最大数跟最小数与target进行比较，剩下中间的数依次进行比较
+# ### 解题思路
+# 先将列表排序，将列表最大数跟最小数与target进行比较，剩下中间的数依次进行比较
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def searchInsert(self, nums, target):
         """
@@ -24,4 +24,4 @@ class Solution(object):
                 
 
 
-```
+# ```

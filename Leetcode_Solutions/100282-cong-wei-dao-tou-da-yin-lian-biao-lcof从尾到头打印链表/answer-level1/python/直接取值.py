@@ -1,9 +1,9 @@
-### 解题思路
-直接遍历反转即可，或者再把ans里的东西pop到另外一个列表里
+# ### 解题思路
+# 直接遍历反转即可，或者再把ans里的东西pop到另外一个列表里
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
         
         return list(reversed(ans))
             
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-获取有效偏移量，设链表长len，有效偏移量offset=k%len，用front链表记录第1个到第len-offset的节点值，用back链表记录最后offset个节点，back的最后一个节点的naxt指向front，将两个链表拼合后返回back的头结点即可。
+// ### 解题思路
+// 获取有效偏移量，设链表长len，有效偏移量offset=k%len，用front链表记录第1个到第len-offset的节点值，用back链表记录最后offset个节点，back的最后一个节点的naxt指向front，将两个链表拼合后返回back的头结点即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -55,4 +55,4 @@ public:
 		return back->next;
     }
 };
-```
+// ```

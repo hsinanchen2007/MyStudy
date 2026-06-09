@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -33,7 +33,7 @@ public:
         return res;
     }
 };
-```
-先根据target的值判断滑动窗口的范围，以及窗口中的值最大是多少；
-根据n(n+1)=target 可得窗口最大范围为：sqrt(2*target),最大值(target+1)/2
-然后接下来就是滑动窗口了，根据上次循环得情况确定下次循环中的窗口起始位置，减小一点时间。
+// ```
+// 先根据target的值判断滑动窗口的范围，以及窗口中的值最大是多少；
+// 根据n(n+1)=target 可得窗口最大范围为：sqrt(2*target),最大值(target+1)/2
+// 然后接下来就是滑动窗口了，根据上次循环得情况确定下次循环中的窗口起始位置，减小一点时间。

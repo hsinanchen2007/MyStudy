@@ -1,11 +1,11 @@
-### 解题思路
-递归
-这种题击中了我的死穴，想的头疼
-最简单的方法解决，肯定有非常简单的，想不出来
+# ### 解题思路
+# 递归
+# 这种题击中了我的死穴，想的头疼
+# 最简单的方法解决，肯定有非常简单的，想不出来
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countAndSay(self, n: int) -> str:
         if n==1:
@@ -23,4 +23,4 @@ class Solution:
                 count+=1
         curNum+=str(count)+preNum[-1]
         return curNum
-```
+# ```

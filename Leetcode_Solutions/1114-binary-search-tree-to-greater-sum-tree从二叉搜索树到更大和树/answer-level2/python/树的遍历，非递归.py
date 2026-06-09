@@ -1,12 +1,12 @@
-## 思路
-相当有对树进行右 中 左的遍历方式，直接使用栈来进行处理，中间使用一个变量存储遍历过的节点的和
+# ## 思路
+# 相当有对树进行右 中 左的遍历方式，直接使用栈来进行处理，中间使用一个变量存储遍历过的节点的和
 
 
 
-## 代码
+# ## 代码
 
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
                 stack.append(cur)
                 cur = cur.right
         return root
-```
+# ```

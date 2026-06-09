@@ -1,10 +1,10 @@
-### 解题思路
-1. 取首位值，作为标准
-2. 然后和剩余的值做对比
+// ### 解题思路
+// 1. 取首位值，作为标准
+// 2. 然后和剩余的值做对比
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string}
@@ -23,4 +23,4 @@ var longestCommonPrefix = function(strs) {
     }
     return str;
 };
-```
+// ```

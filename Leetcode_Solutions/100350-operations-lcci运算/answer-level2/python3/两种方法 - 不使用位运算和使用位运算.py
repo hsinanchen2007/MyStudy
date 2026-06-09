@@ -1,13 +1,13 @@
-### 解题思路
-方法1: 不使用位运算, 使用字符串模拟十进制乘除
-方法2: 传统的二进制位运算
-代码中有解释
+# ### 解题思路
+# 方法1: 不使用位运算, 使用字符串模拟十进制乘除
+# 方法2: 传统的二进制位运算
+# 代码中有解释
 
-### 代码
+# ### 代码
 
-- 方法1: 不使用位运算的做法
+# - 方法1: 不使用位运算的做法
 
-```python3
+# ```python3
 class Operations:
     def __init__(self):
         pass
@@ -59,11 +59,11 @@ class Operations:
                 cnt += 1
             res = self.multiply(10, res) + cnt
         return res if pos else self.minus(0, res)
-```
+# ```
 
-- 方法2: 使用位运算的做法
+# - 方法2: 使用位运算的做法
 
-```python3
+# ```python3
 class Operations:
     def __init__(self):
         pass
@@ -119,4 +119,4 @@ class Operations:
             res += times
             a = self.minus(a, curb)
         return res if pos else self.minus(0, res)
-```
+# ```

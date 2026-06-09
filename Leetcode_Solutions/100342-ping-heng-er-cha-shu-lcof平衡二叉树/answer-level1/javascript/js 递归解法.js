@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/c5f191079f3d0c0d247a10d52ebaa09d10f2324f1940c2f1baebef98339da8b7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c5f191079f3d0c0d247a10d52ebaa09d10f2324f1940c2f1baebef98339da8b7-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 递归判断一旦有某个节点的左右子树的深度差大于1，直接判断结果为 false
-```
-### 代码
+// ```
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -39,4 +39,4 @@ var isBalanced = function(root) {
   
   return ans;
 };
-```
+// ```

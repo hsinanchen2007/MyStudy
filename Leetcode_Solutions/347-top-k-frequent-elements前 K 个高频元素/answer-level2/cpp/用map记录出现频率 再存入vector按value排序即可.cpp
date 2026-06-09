@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool cmp(const pair<int, int>& p, const pair<int, int>& q){
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

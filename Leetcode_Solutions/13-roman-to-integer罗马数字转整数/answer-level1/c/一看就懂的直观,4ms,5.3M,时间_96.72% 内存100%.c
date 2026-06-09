@@ -1,13 +1,13 @@
-## 截图
+// ## 截图
 
-![image.png](https://pic.leetcode-cn.com/e7150276a0412f76b4ca664adf127eb4ed9d4878df6c40f7a56d8580ca9625c3-image.png)
-
-
+// ![image.png](https://pic.leetcode-cn.com/e7150276a0412f76b4ca664adf127eb4ed9d4878df6c40f7a56d8580ca9625c3-image.png)
 
 
-## 代码
 
-```c
+
+// ## 代码
+
+// ```c
 int romanToInt(char * s){
     int rst=0;
     while(*s!='\0'){
@@ -74,4 +74,4 @@ int romanToInt(char * s){
     return rst;
 }
 
-```
+// ```

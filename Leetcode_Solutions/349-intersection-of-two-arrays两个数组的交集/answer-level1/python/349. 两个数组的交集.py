@@ -1,6 +1,6 @@
-- 40 ms, 在所有 Python 提交中击败了85.74%的用户
-- 除了set内置的方法外，还可以用字典的方式;
-```
+# - 40 ms, 在所有 Python 提交中击败了85.74%的用户
+# - 除了set内置的方法外，还可以用字典的方式;
+# ```
 class Solution(object):
     def intersection(self, nums1, nums2):
         """
@@ -14,11 +14,11 @@ class Solution(object):
             if i in S2:
                 L.append(i)
         return L
-```
+# ```
 
 
-- S1 & S2 交集
-```
+# - S1 & S2 交集
+# ```
 class Solution(object):
     def intersection(self, nums1, nums2):
         """
@@ -31,4 +31,4 @@ class Solution(object):
         """
         S1, S2 = set(nums1), set(nums2)
         return list(S1 & S2)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-正着解；第一次遍历算长度，第二次删除。
+// ### 解题思路
+// 正着解；第一次遍历算长度，第二次删除。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     free(p);
     return H->next;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-需要添加头文件`#include <unistd.h>`, 二分查找
+// ### 解题思路
+// 需要添加头文件`#include <unistd.h>`, 二分查找
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int search(ArrayReader R, int T) {
         int preIndex = 0;
@@ -35,8 +35,8 @@ class Solution {
 
     private static int P = Integer.MAX_VALUE;
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def search(self, reader, target):
         """
@@ -66,8 +66,8 @@ class Solution:
                 end = mid
 
         return -1
-```
-```c++ []
+// ```
+// ```c++ []
 /**
  * // This is the ArrayReader's API interface.
  * // You should not implement it, or speculate about its implementation
@@ -124,4 +124,4 @@ private:
         return -1;
     }
 };
-```
+// ```

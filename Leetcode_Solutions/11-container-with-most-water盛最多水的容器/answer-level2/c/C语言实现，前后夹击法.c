@@ -1,9 +1,9 @@
-执行结果：通过
-显示详情
-执行用时 :16 ms, 在所有 C 提交中击败了99.31%的用户
-内存消耗 :7.8 MB, 在所有 C 提交中击败了74.84%的用户
+// 执行结果：通过
+// 显示详情
+// 执行用时 :16 ms, 在所有 C 提交中击败了99.31%的用户
+// 内存消耗 :7.8 MB, 在所有 C 提交中击败了74.84%的用户
 
-```
+// ```
 int maxArea(int* height, int heightSize){
     int max = 0;
     int min = 0;
@@ -21,4 +21,4 @@ int maxArea(int* height, int heightSize){
     
     return max;
 }
-```
+// ```

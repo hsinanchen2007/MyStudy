@@ -1,11 +1,11 @@
-### 解题思路
-1. 从原图给定的点找到所有点
-2. 复制所有的点
-3. 复制所有的边
+# ### 解题思路
+# 1. 从原图给定的点找到所有点
+# 2. 复制所有的点
+# 3. 复制所有的边
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -45,4 +45,4 @@ class Solution:
                     result.add(neighbor)
                     queue.append(neighbor)
         return result
-```
+# ```

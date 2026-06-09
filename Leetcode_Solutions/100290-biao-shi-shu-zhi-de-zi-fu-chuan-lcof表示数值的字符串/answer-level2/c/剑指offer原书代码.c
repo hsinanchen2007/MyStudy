@@ -1,5 +1,5 @@
-代码主题是原书的，主要纪念一下leetcodeleetcode这个测试用例，前空格后空格坑了我好几分钟时间，厉害厉害。
-```
+// 代码主题是原书的，主要纪念一下leetcodeleetcode这个测试用例，前空格后空格坑了我好几分钟时间，厉害厉害。
+// ```
 bool scanUnsignedInt(char **ps) {
     const char *before = *ps;
 
@@ -36,4 +36,4 @@ bool isNumber(char* s){
         ++s;
     return numeric && *s == '\0';
 }
-```
+// ```

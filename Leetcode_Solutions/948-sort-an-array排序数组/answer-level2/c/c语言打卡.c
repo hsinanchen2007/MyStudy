@@ -1,9 +1,9 @@
-### 解题思路
-计数排序
+// ### 解题思路
+// 计数排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -23,4 +23,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize){
     *returnSize = numsSize;
     return result;
 }
-```
+// ```

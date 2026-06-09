@@ -1,13 +1,13 @@
-### 解题思路
-1.数组长度为0，直接返回结果0
-2.数组长度为1，返回结果nums[0]
-3.数组长度为3，结果可能是nums[0]+nums[2]或者nums[1]
-4.其他长度，建立辅助数组sum[len]。sum[i]为包含预约nums[i]的前i+1个预约的最大和，则sum[i]有两种可能，即sum[i-1]+nums[i] or sum[i-2]+nums[i]
-5.最大预约要么是sum[i]要么是sum[i-1]，返回大的即可
+// ### 解题思路
+// 1.数组长度为0，直接返回结果0
+// 2.数组长度为1，返回结果nums[0]
+// 3.数组长度为3，结果可能是nums[0]+nums[2]或者nums[1]
+// 4.其他长度，建立辅助数组sum[len]。sum[i]为包含预约nums[i]的前i+1个预约的最大和，则sum[i]有两种可能，即sum[i-1]+nums[i] or sum[i-2]+nums[i]
+// 5.最大预约要么是sum[i]要么是sum[i-1]，返回大的即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
         return (sum[len-1] > sum[len-2]) ? sum[len-1] : sum[len-2];
     }
 };
-```
+// ```

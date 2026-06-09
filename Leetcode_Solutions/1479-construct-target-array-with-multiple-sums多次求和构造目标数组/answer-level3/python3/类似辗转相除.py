@@ -1,9 +1,9 @@
-### 解题思路
-类似于辗转相除，从target反过来进行看看能不能推到[1, 1, ...].
+# ### 解题思路
+# 类似于辗转相除，从target反过来进行看看能不能推到[1, 1, ...].
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPossible(self, target: List[int]) -> bool:
         if len(target) == 1:
@@ -41,4 +41,4 @@ class Solution:
 
 
 
-```
+# ```

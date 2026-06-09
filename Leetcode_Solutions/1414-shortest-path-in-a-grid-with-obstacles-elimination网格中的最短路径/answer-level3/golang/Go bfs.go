@@ -1,9 +1,9 @@
-贴份`GO`的代码
+// 贴份`GO`的代码
 
 
-做法一样, $bfs$的 记录 $vis(i, j, k)$
+// 做法一样, $bfs$的 记录 $vis(i, j, k)$
 
-```go
+// ```go
 type node struct {
     x int
     y int
@@ -65,4 +65,4 @@ func shortestPath(grid [][]int, k int) int {
     
     return -1
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} A
  * @param {string} B
@@ -49,4 +49,4 @@ var kSimilarity = function(A, B) {
   }
 };
 
-```
+// ```

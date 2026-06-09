@@ -1,18 +1,18 @@
-步骤：
-    1. flag[i][j]保存“从0开始到(i,j)位置的最小值中的最大值。STACK s保存未走过的所有路径，s.top保存最大值。
-    2. 初始flag[100][100]全部设置为0， flag[0][0] = A[0][0]。push(s, -1);
-    3. 如果堆栈为空，就跳出来。
-    4. 进入新的节点x, y后，找出“上下左右”最大方位A[nx][ny]，判断MIN(flag[x,y],A[nx][ny])是否大于pop(s);
-    5. 如果大于，就将未选择的路径push(s,otherx,othery)，并跳转到nx,ny执行3。
-    6. 如果小于，就pop(s)赋值给nx,ny，并跳转到3执行。
+// 步骤：
+//     1. flag[i][j]保存“从0开始到(i,j)位置的最小值中的最大值。STACK s保存未走过的所有路径，s.top保存最大值。
+//     2. 初始flag[100][100]全部设置为0， flag[0][0] = A[0][0]。push(s, -1);
+//     3. 如果堆栈为空，就跳出来。
+//     4. 进入新的节点x, y后，找出“上下左右”最大方位A[nx][ny]，判断MIN(flag[x,y],A[nx][ny])是否大于pop(s);
+//     5. 如果大于，就将未选择的路径push(s,otherx,othery)，并跳转到nx,ny执行3。
+//     6. 如果小于，就pop(s)赋值给nx,ny，并跳转到3执行。
 
-思路：从0,0开始，有两个方向dir1/dir2, 选择一个最大的方向dir1，沿着这个方向继续行走，并记录这个方向可能的其他secondMax方向，
-	  如果遇到比secondMax还小的值，就跳到secondMax重复，直到记录值为空，或者找到了终点。
+// 思路：从0,0开始，有两个方向dir1/dir2, 选择一个最大的方向dir1，沿着这个方向继续行走，并记录这个方向可能的其他secondMax方向，
+// 	  如果遇到比secondMax还小的值，就跳到secondMax重复，直到记录值为空，或者找到了终点。
 	  
-待改进：在下面代码中，把PushStack函数中的查找动作加速一下，会更快一些。
-![image.png](https://pic.leetcode-cn.com/1368b429d4b32e02c9bbe30d4a6a69a166bd5589277052022dd76d919f75eef3-image.png)
+// 待改进：在下面代码中，把PushStack函数中的查找动作加速一下，会更快一些。
+// ![image.png](https://pic.leetcode-cn.com/1368b429d4b32e02c9bbe30d4a6a69a166bd5589277052022dd76d919f75eef3-image.png)
 
-```
+// ```
 #define MIN(x, y) ((x) > (y)? (y): (x))
 
 typedef struct {
@@ -154,4 +154,4 @@ int maximumMinimumPath(int** A, int ASize, int* AColSize){
     PreHandle(A, ASize, *AColSize, flag, stackMark, p);
     return flag[ASize - 1][*AColSize - 1];
 }
-```
+// ```

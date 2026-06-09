@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-注意n很大(10^9)，而reservedSeats所影响的行数不超过10^4。所以不要把n个状态直接用vector表示出来。那些没有被影响的状态可以直接用减法计算出来
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 注意n很大(10^9)，而reservedSeats所影响的行数不超过10^4。所以不要把n个状态直接用vector表示出来。那些没有被影响的状态可以直接用减法计算出来
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
@@ -43,4 +43,4 @@ public:
         return res + 2 * (n-s.size());
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```go
+// ```go
 func shortestSubarray(A []int, K int) int {
     // 建立sum数组
     var P []int64
@@ -39,4 +39,4 @@ func shortestSubarray(A []int, K int) int {
     
     return answer
 }
-```
+// ```

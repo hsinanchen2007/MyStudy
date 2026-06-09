@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def lemonadeChange(bills: Array[Int]): Boolean = {
     val mymap = scala.collection.mutable.Map[Int, Int]()
@@ -32,4 +32,4 @@ object Solution {
   }
 }
 
-```
+// ```

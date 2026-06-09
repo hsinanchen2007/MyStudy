@@ -1,5 +1,5 @@
-将路径转为图，直接深度优先遍历 记录跳到当前节点的概率：
-```
+# 将路径转为图，直接深度优先遍历 记录跳到当前节点的概率：
+# ```
 import collections
 
 
@@ -34,5 +34,5 @@ class Solution(object):
             return res
 
         return dfs(1, t, 1)
-```
+# ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-如果我们可以从树叶开始计算子树的节点值的和，在计算上面一层的子树时就可以使用原来的值了。用ArrayList一层一层地存储子节点，每个节点对应一个index，于是可以使用map，将节点和节点子树的sum值建立映射了。
+// ### 解题思路
+// 如果我们可以从树叶开始计算子树的节点值的和，在计算上面一层的子树时就可以使用原来的值了。用ArrayList一层一层地存储子节点，每个节点对应一个index，于是可以使用map，将节点和节点子树的sum值建立映射了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -53,4 +53,4 @@ class Solution {
         return tilt;
     }
 }
-```
+// ```

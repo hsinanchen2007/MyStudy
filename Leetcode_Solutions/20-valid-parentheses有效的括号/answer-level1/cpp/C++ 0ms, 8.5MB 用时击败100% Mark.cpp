@@ -1,13 +1,13 @@
-### 解题思路
-一个字，栈
-三个字，模拟栈
+// ### 解题思路
+// 一个字，栈
+// 三个字，模拟栈
 
-![image.png](https://pic.leetcode-cn.com/519a2c331f0c2f92282cd2fc9ca899fdfb1a9fd9a6893f01e3c82775e318869d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/519a2c331f0c2f92282cd2fc9ca899fdfb1a9fd9a6893f01e3c82775e318869d-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValid(string s) {
@@ -34,4 +34,4 @@ public:
         return (hp.size() == 0);
     }
 };
-```
+// ```

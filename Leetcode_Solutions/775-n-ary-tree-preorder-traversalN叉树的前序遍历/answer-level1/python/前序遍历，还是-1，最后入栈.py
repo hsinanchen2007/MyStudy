@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def preorder(self, root: 'Node') -> List[int]:
         res =[]
@@ -15,4 +15,4 @@ class Solution:
                 stack.append([node,True])
                 
         return res
-```
+# ```

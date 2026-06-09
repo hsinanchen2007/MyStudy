@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：（只要比较两个相邻元素即可求得最小差值）
@@ -69,4 +69,4 @@ int ** minimumAbsDifference( int * arr , int arrSize , int * returnSize , int **
     return buffer;
 
 }
-```
+// ```

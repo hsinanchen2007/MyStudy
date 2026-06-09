@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-通过 `notFull` 和  `notEmpty` 两个条件变量来控制阻塞等待
+// 通过 `notFull` 和  `notEmpty` 两个条件变量来控制阻塞等待
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class BoundedBlockingQueue {
 
     private final Lock lock = new ReentrantLock();
@@ -98,4 +98,4 @@ class BoundedBlockingQueue {
     private Node first;
     private Node last;
 }
-```
+// ```

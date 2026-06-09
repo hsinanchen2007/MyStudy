@@ -1,5 +1,5 @@
-1.分治递归
-```
+// 1.分治递归
+// ```
 #include <stdio.h>
 #include <stdlib.h>
 // /**
@@ -24,10 +24,10 @@ struct TreeNode* sortedArrayToBST(int* nums, int numsSize) {
     return helper(nums, 0, numsSize - 1);
 }
 
-```
+// ```
 
- 2.层次遍历建树+中序遍历赋值
-```
+//  2.层次遍历建树+中序遍历赋值
+// ```
 #include <stdio.h>
 #include <stdlib.h>
 #define MaxSize 10000
@@ -79,6 +79,6 @@ struct TreeNode* sortedArrayToBST(int* nums, int numsSize) {
     return root;
 }
 
-```
+// ```
 
 

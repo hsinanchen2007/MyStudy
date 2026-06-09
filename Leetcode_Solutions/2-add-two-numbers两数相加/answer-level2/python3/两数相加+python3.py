@@ -1,5 +1,5 @@
-### 解法1：创建一个新的链表
-```python []
+# ### 解法1：创建一个新的链表
+# ```python []
 class Solution(object):
     def addTwoNumbers(self, l1, l2):
         target = ListNode(0)   # 作为根节点的引用
@@ -22,4 +22,4 @@ class Solution(object):
         p.next = l1 
         
         return target.next
-```
+# ```

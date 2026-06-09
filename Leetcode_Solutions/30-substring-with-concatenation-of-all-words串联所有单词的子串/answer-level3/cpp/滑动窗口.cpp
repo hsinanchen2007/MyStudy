@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/059215f5990f6e129e8a89aa5895e2eaeaa2720c4377b90ecfd80cdee58b3e95-image.png)
-### 解题思路
-滑动窗口，但是我对我的效率不是很满意，哪里写的不好，请大佬指教
+// ![image.png](https://pic.leetcode-cn.com/059215f5990f6e129e8a89aa5895e2eaeaa2720c4377b90ecfd80cdee58b3e95-image.png)
+// ### 解题思路
+// 滑动窗口，但是我对我的效率不是很满意，哪里写的不好，请大佬指教
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     struct Info{
@@ -94,4 +94,4 @@ public:
         return ret;
     }
 };
-```
+// ```

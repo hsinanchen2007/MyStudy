@@ -1,11 +1,11 @@
-### 解题思路
-使用两个队列实现栈
-一个队列不断加入新数据，另一个队列仅保存栈顶元素
-当涉及到pop操作，需要循环将第一个队列的数据移到第二个队列中，以获取栈顶元素
-python实现时，最好不要使用Queue类，使用collections.deque比较好
-### 代码
+# ### 解题思路
+# 使用两个队列实现栈
+# 一个队列不断加入新数据，另一个队列仅保存栈顶元素
+# 当涉及到pop操作，需要循环将第一个队列的数据移到第二个队列中，以获取栈顶元素
+# python实现时，最好不要使用Queue类，使用collections.deque比较好
+# ### 代码
 
-```python3
+# ```python3
 import collections
 
 
@@ -58,4 +58,4 @@ class MyStack:
 # param_3 = obj.top()
 # param_4 = obj.empty()
 
-```
+# ```

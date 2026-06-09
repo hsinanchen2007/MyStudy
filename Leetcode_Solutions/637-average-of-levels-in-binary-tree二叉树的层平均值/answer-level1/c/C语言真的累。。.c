@@ -1,9 +1,9 @@
-### 解题思路
-利用循环队列进行层次遍历
+// ### 解题思路
+// 利用循环队列进行层次遍历
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -149,4 +149,4 @@ struct TreeNode* DeQueue(SeqQueue* obj){
     return NULL;
 }
 
-```
+// ```

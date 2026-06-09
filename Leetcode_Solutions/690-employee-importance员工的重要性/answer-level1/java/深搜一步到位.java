@@ -1,8 +1,8 @@
-### 解题思路
-直接找到当前Id,深搜就行了
-### 代码
+// ### 解题思路
+// 直接找到当前Id,深搜就行了
+// ### 代码
 
-```java
+// ```java
 /*
 // Employee info
 class Employee {
@@ -29,4 +29,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

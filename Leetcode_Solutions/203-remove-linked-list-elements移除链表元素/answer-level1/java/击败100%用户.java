@@ -1,4 +1,4 @@
-**思路**：把旧的链表插入到新的链表中（除去等于val的节点）
+// **思路**：把旧的链表插入到新的链表中（除去等于val的节点）
 public ListNode removeElements(ListNode head, int val)
   {
     // 新的链表

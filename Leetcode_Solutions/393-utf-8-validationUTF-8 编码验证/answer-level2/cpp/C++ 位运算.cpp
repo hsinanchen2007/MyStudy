@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int oneCount(int n) {
@@ -31,4 +31,4 @@ public:
         return k == 0;
     }
 };
-```
+// ```

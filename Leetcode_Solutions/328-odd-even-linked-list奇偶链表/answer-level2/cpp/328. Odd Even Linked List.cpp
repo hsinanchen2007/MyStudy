@@ -1,11 +1,11 @@
-### 解题思路
-* 维护奇数链的“头”与偶数链的“头”
-* 双指针交叉遍历后续结点
-* 最后退出循环情况：偶数个结点时，tmpOdd==NULL；奇数个结点时，tmpEven==NULL
+// ### 解题思路
+// * 维护奇数链的“头”与偶数链的“头”
+// * 双指针交叉遍历后续结点
+// * 最后退出循环情况：偶数个结点时，tmpOdd==NULL；奇数个结点时，tmpEven==NULL
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ public:
         return head;
     }
 };
-```
+// ```

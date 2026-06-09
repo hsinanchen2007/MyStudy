@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func compressString(_ S: String) -> String {
         if S.count == 0 {
@@ -25,4 +25,4 @@ class Solution {
         return result.count >= S.count ? S:result
     }
 }
-```
+// ```

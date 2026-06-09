@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -12,4 +12,4 @@ public:
         return nums[0]; //这是应对那些没有旋转的情况
     }
 };
-```
+// ```

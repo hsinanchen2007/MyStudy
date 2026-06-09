@@ -1,10 +1,10 @@
-### 解题思路
-跟动态规划没什么关系吧？
-利用迭代思想，假设只有1个元素，假设只有2个元素... 考虑到第四个就可以了。
+# ### 解题思路
+# 跟动态规划没什么关系吧？
+# 利用迭代思想，假设只有1个元素，假设只有2个元素... 考虑到第四个就可以了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         l = len(nums)
@@ -24,4 +24,4 @@ class Solution:
             ret = cur
 
         return ret
-```
+# ```

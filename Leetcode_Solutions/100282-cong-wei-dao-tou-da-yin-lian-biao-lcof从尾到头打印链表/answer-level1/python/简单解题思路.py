@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
-先创建一个空列表，用p指针在链表上循环并把p.val追加到列表a中，然后反向输出a
-### 代码
+# 先创建一个空列表，用p指针在链表上循环并把p.val追加到列表a中，然后反向输出a
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
 
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 //题目理解：上：执行函数  下：给的数值
 class MaxQueue {
 public:
@@ -47,4 +47,4 @@ private:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

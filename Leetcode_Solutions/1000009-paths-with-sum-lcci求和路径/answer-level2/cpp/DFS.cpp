@@ -1,10 +1,10 @@
-### 解题思路
-https://www.***.org/count-all-k-sum-paths-in-a-binary-tree/
-Geek上看到的解法，加了一点自己的理解注释，如有错误，还请指正！
+// ### 解题思路
+// https://www.***.org/count-all-k-sum-paths-in-a-binary-tree/
+// Geek上看到的解法，加了一点自己的理解注释，如有错误，还请指正！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ public:
         return count;
     }
 };
-```
+// ```

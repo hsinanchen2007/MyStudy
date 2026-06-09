@@ -1,9 +1,9 @@
-### 解题思路
-先把链表拆开，通过找中间节点，mid.next==null；拆开
-再进行两两排序
-### 代码
+// ### 解题思路
+// 先把链表拆开，通过找中间节点，mid.next==null；拆开
+// 再进行两两排序
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -62,4 +62,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

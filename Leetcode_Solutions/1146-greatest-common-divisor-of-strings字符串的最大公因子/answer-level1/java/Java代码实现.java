@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         String ok = "";
@@ -36,4 +36,4 @@ class Solution {
         return all.equals(newStr);
     }
 }
-```
+// ```

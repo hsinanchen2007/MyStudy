@@ -1,9 +1,9 @@
-### 解题思路
-先序遍历二叉树 剪枝条件：如果两个子节点都是null返回true 一个null 一个非null 返回false 值val不相等返回false 
+// ### 解题思路
+// 先序遍历二叉树 剪枝条件：如果两个子节点都是null返回true 一个null 一个非null 返回false 值val不相等返回false 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

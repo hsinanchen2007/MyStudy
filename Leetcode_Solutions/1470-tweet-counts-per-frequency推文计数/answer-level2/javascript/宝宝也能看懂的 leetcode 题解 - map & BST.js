@@ -1,23 +1,23 @@
-# 1348. 推文计数
+// # 1348. 推文计数
 
-Hi 大家好，我是张小猪。欢迎来到『宝宝也能看懂』系列之 leetcode 周赛题解。
+// Hi 大家好，我是张小猪。欢迎来到『宝宝也能看懂』系列之 leetcode 周赛题解。
 
-这里是第 175 期的第 3 题，也是题目列表中的第 1348 题 -- 『推文计数』
+// 这里是第 175 期的第 3 题，也是题目列表中的第 1348 题 -- 『推文计数』
 
-## 题目描述
+// ## 题目描述
 
-请你实现一个能够支持以下两种方法的推文计数类 `TweetCounts`：
+// 请你实现一个能够支持以下两种方法的推文计数类 `TweetCounts`：
 
-1. `recordTweet(string tweetName, int time)`
-   - 记录推文发布情况：用户 `tweetName` 在 `time`（以 **秒** 为单位）时刻发布了一条推文。
-2. `getTweetCountsPerFrequency(string freq, string tweetName, int startTime, int endTime)`
-   - 返回从开始时间 `startTime`（以 **秒** 为单位）到结束时间 `endTime`（以 **秒** 为单位）内，每 **分** *minute*，**时** *hour* 或者 **日** *day* （取决于 `freq`）内指定用户 `tweetName` 发布的推文总数。
-   - `freq` 的值始终为 **分** *minute*，**时** *hour* 或者 **日** *day* 之一，表示获取指定用户 `tweetName` 发布推文次数的时间间隔。
-   - 第一个时间间隔始终从 `startTime` 开始，因此时间间隔为 `[startTime, startTime + delta*1>,  [startTime + delta*1, startTime + delta*2>, [startTime + delta*2, startTime + delta*3>, ... , [startTime + delta*i, min(startTime + delta*(i+1), endTime + 1)>`，其中 `i` 和 `delta`（取决于 `freq`）都是非负整数。
+// 1. `recordTweet(string tweetName, int time)`
+//    - 记录推文发布情况：用户 `tweetName` 在 `time`（以 **秒** 为单位）时刻发布了一条推文。
+// 2. `getTweetCountsPerFrequency(string freq, string tweetName, int startTime, int endTime)`
+//    - 返回从开始时间 `startTime`（以 **秒** 为单位）到结束时间 `endTime`（以 **秒** 为单位）内，每 **分** *minute*，**时** *hour* 或者 **日** *day* （取决于 `freq`）内指定用户 `tweetName` 发布的推文总数。
+//    - `freq` 的值始终为 **分** *minute*，**时** *hour* 或者 **日** *day* 之一，表示获取指定用户 `tweetName` 发布推文次数的时间间隔。
+//    - 第一个时间间隔始终从 `startTime` 开始，因此时间间隔为 `[startTime, startTime + delta*1>,  [startTime + delta*1, startTime + delta*2>, [startTime + delta*2, startTime + delta*3>, ... , [startTime + delta*i, min(startTime + delta*(i+1), endTime + 1)>`，其中 `i` 和 `delta`（取决于 `freq`）都是非负整数。
 
-示例：
+// 示例：
 
-```shell
+// ```shell
 输入：
 ["TweetCounts","recordTweet","recordTweet","recordTweet","getTweetCountsPerFrequency","getTweetCountsPerFrequency","recordTweet","getTweetCountsPerFrequency"]
 [[],["tweet3",0],["tweet3",60],["tweet3",10],["minute","tweet3",0,59],["minute","tweet3",0,60],["tweet3",120],["hour","tweet3",0,210]]
@@ -34,40 +34,40 @@ tweetCounts.getTweetCountsPerFrequency("minute", "tweet3", 0, 59); // 返回 [
 tweetCounts.getTweetCountsPerFrequency("minute", "tweet3", 0, 60); // 返回 [2,1]。统计频率是每分钟（60 秒），因此有两个有效时间间隔 1) [0,60> - > 2 条推文，和 2) [60,61> - > 1 条推文。
 tweetCounts.recordTweet("tweet3", 120);                            // "tweet3" 发布推文的时间分别是 0, 10, 60 和 120 。
 tweetCounts.getTweetCountsPerFrequency("hour", "tweet3", 0, 210);  // 返回 [4]。统计频率是每小时（3600 秒），因此只有一个有效时间间隔 [0,211> - > 4 条推文。
-```
+// ```
 
-提示：
+// 提示：
 
-- 同时考虑 `recordTweet` 和 `getTweetCountsPerFrequency`，最多有 `10000` 次操作。
-- `0 <= time, startTime, endTime <= 10^9`
-- `0 <= endTime - startTime <= 10^4`
+// - 同时考虑 `recordTweet` 和 `getTweetCountsPerFrequency`，最多有 `10000` 次操作。
+// - `0 <= time, startTime, endTime <= 10^9`
+// - `0 <= endTime - startTime <= 10^4`
 
-## 官方难度
+// ## 官方难度
 
-MEDIUM
+// MEDIUM
 
-## 解决思路
+// ## 解决思路
 
-题目的描述和示例看起来都挺长的，不过主要都是为了解释清楚那个时间间隔的计算逻辑。其中需要注意的是，每一个时间间隔的区间，是左闭右开的区间，例如 `[startTime, startTime + delta)`。如果题目描述中看着不是很明白的话，可以结合示例中的数据和结果，相信就很容易弄明白这里面的逻辑啦。
+// 题目的描述和示例看起来都挺长的，不过主要都是为了解释清楚那个时间间隔的计算逻辑。其中需要注意的是，每一个时间间隔的区间，是左闭右开的区间，例如 `[startTime, startTime + delta)`。如果题目描述中看着不是很明白的话，可以结合示例中的数据和结果，相信就很容易弄明白这里面的逻辑啦。
 
-不过说实话，小猪看完这道题之后是懵逼的。因为小猪没看出其中有什么玄机，似乎按照要求直接实现就完事了。可是这也是周赛第三题了吧，怎么也该给它一点面子鸭...hmmmm...装模作样的思考了一下，算了，淦就完事了！
+// 不过说实话，小猪看完这道题之后是懵逼的。因为小猪没看出其中有什么玄机，似乎按照要求直接实现就完事了。可是这也是周赛第三题了吧，怎么也该给它一点面子鸭...hmmmm...装模作样的思考了一下，算了，淦就完事了！
 
-### 直接方案
+// ### 直接方案
 
-由于需要根据 `tweetName` 来匹配时间，所以我们通过一个字典来进行存储。然后对于给定的 `start` 和 `end` 两个参数，我们可以结合 `freq` 轻松的计算出时间间隔的数量。最后，遍历计数即可。具体流程如下：
+// 由于需要根据 `tweetName` 来匹配时间，所以我们通过一个字典来进行存储。然后对于给定的 `start` 和 `end` 两个参数，我们可以结合 `freq` 轻松的计算出时间间隔的数量。最后，遍历计数即可。具体流程如下：
 
-- 构造函数
-  - 申明 `freq` 的转换字典以及用于存储数据的字典。
-- `recordTweet`
-  - 根据 `name` 去字典里记录 `time` 即可。
-- `getTweetCountsPerFrequency`
-  - 根据 `freq` 获取到时间间隔长度。
-  - 根据 `start` 和 `end` 计算出时间间隔数量。
-  - 根据 `name` 获取时间列表并进行遍历和计数。
+// - 构造函数
+//   - 申明 `freq` 的转换字典以及用于存储数据的字典。
+// - `recordTweet`
+//   - 根据 `name` 去字典里记录 `time` 即可。
+// - `getTweetCountsPerFrequency`
+//   - 根据 `freq` 获取到时间间隔长度。
+//   - 根据 `start` 和 `end` 计算出时间间隔数量。
+//   - 根据 `name` 获取时间列表并进行遍历和计数。
 
-基于这个流程，我们可以实现类似下面的代码：
+// 基于这个流程，我们可以实现类似下面的代码：
 
-```js
+// ```js
 class TweetCounts {
   constructor() {
     this.freqInterval = {
@@ -97,15 +97,15 @@ class TweetCounts {
     return ret;
   }
 };
-```
+// ```
 
-### 优化
+// ### 优化
 
-上面的代码中，由于我们存储的时间是无序的，所以每次 `getTweetCountsPerFrequency` 方法都会把对应那个 `name` 的时间列表遍历一遍，需要消耗 O(n) 的代价。这里我们可以通过二叉树把它优化到 O(logn) 的时间，不过相应的，每次增加一个 `time` 的时间会从 O(1) 也变成 O(logn)。
+// 上面的代码中，由于我们存储的时间是无序的，所以每次 `getTweetCountsPerFrequency` 方法都会把对应那个 `name` 的时间列表遍历一遍，需要消耗 O(n) 的代价。这里我们可以通过二叉树把它优化到 O(logn) 的时间，不过相应的，每次增加一个 `time` 的时间会从 O(1) 也变成 O(logn)。
 
-具体的方式就是我们不用数组来存储时间，而是替换为一个二叉搜索树。流程其实还是一样的，所以这里就直接给代码了：
+// 具体的方式就是我们不用数组来存储时间，而是替换为一个二叉搜索树。流程其实还是一样的，所以这里就直接给代码了：
 
-```js
+// ```js
 const createNode = val => ({ val, left: null, right: null });
 class BinarySearchTree {
   constructor() {
@@ -153,23 +153,23 @@ class TweetCounts {
     return ret;
   }
 };
-```
+// ```
 
-这段代码以 192ms 暂时 beats 100%。不过很显然，可以继续优化，因为我这里只是用了非常简单的二叉搜索树，并不能保证树的深度是 logn，可以轻松的构建出一些用例让它退化为 O(n) 性能。所以，我们可以把它替换为一些自平衡二叉搜索树，以保证树的深度。
+// 这段代码以 192ms 暂时 beats 100%。不过很显然，可以继续优化，因为我这里只是用了非常简单的二叉搜索树，并不能保证树的深度是 logn，可以轻松的构建出一些用例让它退化为 O(n) 性能。所以，我们可以把它替换为一些自平衡二叉搜索树，以保证树的深度。
 
-但是，JS 里缺少太多内置的数据结构了，所以我这里就先不写啦，等到我们数据结构专题那边再做相关的实现吧。哼，才不是因为小猪懒呢（确信脸
+// 但是，JS 里缺少太多内置的数据结构了，所以我这里就先不写啦，等到我们数据结构专题那边再做相关的实现吧。哼，才不是因为小猪懒呢（确信脸
 
-## 总结
+// ## 总结
 
-说实话这道题确实让小猪比较懵逼。写这篇文章的时候看了一眼通过率，只有 20%+。可是小猪却一直不太明白这道题有什么玄机，也不明白为什么通过率这么低，更不明白这道题的点究竟在哪里。
+// 说实话这道题确实让小猪比较懵逼。写这篇文章的时候看了一眼通过率，只有 20%+。可是小猪却一直不太明白这道题有什么玄机，也不明白为什么通过率这么低，更不明白这道题的点究竟在哪里。
 
-hmmmm...一定是小猪太苯了，get 不到这个点。小猪还是去快乐的恰饭好了，喵喵喵 >.<
+// hmmmm...一定是小猪太苯了，get 不到这个点。小猪还是去快乐的恰饭好了，喵喵喵 >.<
 
-## 相关链接
+// ## 相关链接
 
-- [Weekly Contest 175 题目列表](https://github.com/poppinlp/leetcode#weekly-contest-175)
-- [系列题解 repo](https://github.com/poppinlp/leetcode)
-- [我的 segmentfault 专栏](https://segmentfault.com/blog/zxzfbz)
-- [我的知乎专栏](https://zhuanlan.zhihu.com/zxzfbz)
+// - [Weekly Contest 175 题目列表](https://github.com/poppinlp/leetcode#weekly-contest-175)
+// - [系列题解 repo](https://github.com/poppinlp/leetcode)
+// - [我的 segmentfault 专栏](https://segmentfault.com/blog/zxzfbz)
+// - [我的知乎专栏](https://zhuanlan.zhihu.com/zxzfbz)
 
-![qrcode_green.jpeg](https://pic.leetcode-cn.com/1b869dce00dbc0df4be93555675fc6b97b4902ab58364aba92f967fca87fca6e-qrcode_green.jpeg)
+// ![qrcode_green.jpeg](https://pic.leetcode-cn.com/1b869dce00dbc0df4be93555675fc6b97b4902ab58364aba92f967fca87fca6e-qrcode_green.jpeg)

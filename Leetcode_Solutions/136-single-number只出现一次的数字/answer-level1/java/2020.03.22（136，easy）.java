@@ -1,13 +1,13 @@
-### 解题思路
-本题给了两种解法
+// ### 解题思路
+// 本题给了两种解法
 
-- 第一种是按照**`HashMap`**将元素值为`1`的找出来。第二种是按照**异或运算**减少到空间复杂度为`O（1）`
+// - 第一种是按照**`HashMap`**将元素值为`1`的找出来。第二种是按照**异或运算**减少到空间复杂度为`O（1）`
 
-- 常规思路使用`HasnMap`是很容易得出结果的，但在这里巧妙使用异或运算却能够极大地优化空间复杂度。
+// - 常规思路使用`HasnMap`是很容易得出结果的，但在这里巧妙使用异或运算却能够极大地优化空间复杂度。
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int singleNumber(int[] nums) {        
         //解法一：使用 HashMap 记录元素出现的个数        
@@ -29,10 +29,10 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 
 
-```java []
+// ```java []
 class Solution {
     public int singleNumber(int[] nums) {        
         // 解法二：使用异或运算
@@ -46,4 +46,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

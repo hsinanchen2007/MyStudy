@@ -1,5 +1,5 @@
-代码功底.
-```
+// 代码功底.
+// ```
 class Solution {
 public:
 	ListNode* rotateRight(ListNode* head, int k) {
@@ -13,4 +13,4 @@ public:
 		return head;
 	}
 };
-```
+// ```

@@ -1,6 +1,6 @@
-求和，分三段计算，要注意每一段都不能为空
+// 求和，分三段计算，要注意每一段都不能为空
 
-```php
+// ```php
 class Solution
 {
 
@@ -33,4 +33,4 @@ class Solution
         return true;
     }
 }
-```
+// ```

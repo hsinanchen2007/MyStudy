@@ -1,6 +1,6 @@
-算法： 添加的数先存进ArrayList 然后当前数再当做key存进map， map的value存当前数在ArrayList中的index，find的时候对于每个ArrayList中的数计算是否存在component = value - list.(get) 然后从map中搜索key是否存在 再通过get(key)判断是否是数本身。
+// 算法： 添加的数先存进ArrayList 然后当前数再当做key存进map， map的value存当前数在ArrayList中的index，find的时候对于每个ArrayList中的数计算是否存在component = value - list.(get) 然后从map中搜索key是否存在 再通过get(key)判断是否是数本身。
 
-```
+// ```
 class TwoSum {
 
     HashMap<Integer,Integer> map;
@@ -34,4 +34,4 @@ class TwoSum {
 }
 
 
-```
+// ```

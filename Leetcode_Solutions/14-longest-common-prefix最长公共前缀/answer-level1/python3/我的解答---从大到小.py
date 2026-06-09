@@ -1,4 +1,4 @@
-```
+# ```
 
 def a(s):
     min1=find_short(s)
@@ -28,7 +28,7 @@ def corr(a1):
         return 1
     return 0
 
-```
-最后调用函数模块就行，我的解答时间和空间复杂度都一般
-![1.png](https://pic.leetcode-cn.com/bedd6bba65a5c28514f885d368ded04432c448a85d6cbad0a1adc0d6c4cce6aa-1.png)
+# ```
+# 最后调用函数模块就行，我的解答时间和空间复杂度都一般
+# ![1.png](https://pic.leetcode-cn.com/bedd6bba65a5c28514f885d368ded04432c448a85d6cbad0a1adc0d6c4cce6aa-1.png)
 

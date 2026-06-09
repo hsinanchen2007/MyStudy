@@ -1,7 +1,7 @@
-C++
+// C++
 
-一开始想的dfs，很明显，会超时。。。
-```
+// 一开始想的dfs，很明显，会超时。。。
+// ```
 class Solution {
 public:
     void dfs(vector<string>& str_num, string& tmp, string& str_min, 
@@ -45,10 +45,10 @@ public:
         return str_min;
     }
 };
-```
+// ```
 
-利用stl，自定义排序。
-```
+// 利用stl，自定义排序。
+// ```
 class Solution {
 public:
     static bool cmp(string a, string b)
@@ -73,5 +73,5 @@ public:
         return rec;
     }
 };
-```
+// ```
 

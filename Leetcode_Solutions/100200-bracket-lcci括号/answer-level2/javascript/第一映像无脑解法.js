@@ -1,9 +1,9 @@
-### 解题思路
-粗暴，排列组合所有可能，挑选其中从左往右累加（reduce）时，左括号树大于右括号的序列即可。
+// ### 解题思路
+// 粗暴，排列组合所有可能，挑选其中从左往右累加（reduce）时，左括号树大于右括号的序列即可。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -44,4 +44,4 @@ var generateParenthesis = function(n) {
     })
     
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-统计次数，求所有次数的最大公约数
+// ### 解题思路
+// 统计次数，求所有次数的最大公约数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 struct hashNode {
     int val;
@@ -50,4 +50,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
 
     return g>=2;
 }
-```
+// ```

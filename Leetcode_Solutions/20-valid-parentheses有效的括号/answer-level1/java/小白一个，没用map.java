@@ -1,9 +1,9 @@
-### 解题思路
-纯用栈，有点复杂，实在是不会map
+// ### 解题思路
+// 纯用栈，有点复杂，实在是不会map
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValid(String s) {
 
@@ -58,4 +58,4 @@ class Solution {
 		return stack.empty();
     }
 }
-```
+// ```

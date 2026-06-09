@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/8cfd12aeb4f76ce32b4ce912db0df98d4cb0fdb5796f7e748a7ba765523b81cb-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/8cfd12aeb4f76ce32b4ce912db0df98d4cb0fdb5796f7e748a7ba765523b81cb-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char findTheDifference(char * s, char * t){
     int* hash1 = (int*)malloc(sizeof(int) * 26);
     int* hash2 = (int*)malloc(sizeof(int) * 26);
@@ -28,4 +28,4 @@ char findTheDifference(char * s, char * t){
     }
     return 'a' + i;
 }
-```
+// ```

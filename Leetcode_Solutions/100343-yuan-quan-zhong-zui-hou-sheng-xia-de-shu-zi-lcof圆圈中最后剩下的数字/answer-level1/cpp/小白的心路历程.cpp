@@ -1,6 +1,6 @@
-看了答案没怎么看懂，于是把自己结合其他题解的思路跟大家分享一下，这个应该比较好理解
-![图片1.png](https://pic.leetcode-cn.com/b3a0eb7654dc87dbccac35c122275d418b39b17e2c01ce125c486d136b2bdd77-%E5%9B%BE%E7%89%871.png)
-```
+// 看了答案没怎么看懂，于是把自己结合其他题解的思路跟大家分享一下，这个应该比较好理解
+// ![图片1.png](https://pic.leetcode-cn.com/b3a0eb7654dc87dbccac35c122275d418b39b17e2c01ce125c486d136b2bdd77-%E5%9B%BE%E7%89%871.png)
+// ```
 class Solution {
 public:
     int lastRemaining(int n, int m) {
@@ -11,6 +11,6 @@ public:
         return ans;
     }
 };
-```
+// ```
 
 

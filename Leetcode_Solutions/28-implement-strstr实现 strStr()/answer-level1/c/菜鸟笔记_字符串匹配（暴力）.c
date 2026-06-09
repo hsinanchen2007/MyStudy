@@ -1,9 +1,9 @@
-### 解题思路
-1. 在if语句里面的自增语句，至少在if不生效的时候是不会生效的
+// ### 解题思路
+// 1. 在if语句里面的自增语句，至少在if不生效的时候是不会生效的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //date：2020.3.5 13：00
 
 bool isMatch(char* haystack, char* needle, int index){
@@ -41,4 +41,4 @@ int strStr(char * haystack, char * needle){
 
     return -1;
 }
-```
+// ```

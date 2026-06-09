@@ -1,9 +1,9 @@
-### 解题思路
-使用linkedlist保存栈的信息，同时记录一个最小值
+// ### 解题思路
+// 使用linkedlist保存栈的信息，同时记录一个最小值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
       private LinkedList<Integer> linkedList;
@@ -58,4 +58,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

@@ -1,5 +1,5 @@
-第一次，暴力版，超时无疑
-```cpp
+// 第一次，暴力版，超时无疑
+// ```cpp
 int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {
       int N = A.size();
       int res = 0;
@@ -17,10 +17,10 @@ int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D)
       }
       return res;
     }
-```
-第二次，尝试做些cache，只想着最后算的快，无奈cache n^3，超时
+// ```
+// 第二次，尝试做些cache，只想着最后算的快，无奈cache n^3，超时
 
-```cpp
+// ```cpp
 int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {
       int N = A.size();
       int res = 0;
@@ -46,10 +46,10 @@ int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D)
       }
       return res;
     }k
-```
-final n^2做两次，过了
+// ```
+// final n^2做两次，过了
 
-```cpp
+// ```cpp
 int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {
       int N = A.size();
       int res = 0;
@@ -76,5 +76,5 @@ int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D)
       }
       return res;
     }
-```
+// ```
 

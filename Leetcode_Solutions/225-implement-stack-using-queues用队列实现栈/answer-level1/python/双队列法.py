@@ -1,9 +1,9 @@
-### 解题思路
-使用两个队列，除了栈为空时，两个队列可以同时为空。其他时间保证一个队列非空、一个队列为空
+# ### 解题思路
+# 使用两个队列，除了栈为空时，两个队列可以同时为空。其他时间保证一个队列非空、一个队列为空
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MyStack(object):
 
     def __init__(self):
@@ -85,4 +85,4 @@ class MyStack(object):
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

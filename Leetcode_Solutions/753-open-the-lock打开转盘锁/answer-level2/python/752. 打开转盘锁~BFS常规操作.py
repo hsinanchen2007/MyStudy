@@ -1,13 +1,13 @@
-### 解题思路
-看图就明白了
+# ### 解题思路
+# 看图就明白了
 
-![image.png](https://pic.leetcode-cn.com/2de320e6bee5b676543192d9cd21c1850e5a28fcaa84f154c62d9f0b3c8bfc45-image.png)
+# ![image.png](https://pic.leetcode-cn.com/2de320e6bee5b676543192d9cd21c1850e5a28fcaa84f154c62d9f0b3c8bfc45-image.png)
 
-你需要每层都判断是否是deadends中的会导致死锁的密码，而且还没被访问过，这样才能入队
+# 你需要每层都判断是否是deadends中的会导致死锁的密码，而且还没被访问过，这样才能入队
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
         if '0000' in deadends:return -1
@@ -41,4 +41,4 @@ class Solution:
         return -1
 
 
-```
+# ```

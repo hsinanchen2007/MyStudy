@@ -1,4 +1,4 @@
-```python 
+# ```python 
 class Solution:
     def getModifiedArray(self, length: int, updates: List[List[int]]) -> List[int]:
         res = [0] * length
@@ -9,4 +9,4 @@ class Solution:
         for i in range(length):
             if i > 0: res[i] += res[i - 1]
         return res
-```
+# ```

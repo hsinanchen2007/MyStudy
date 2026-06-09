@@ -1,6 +1,6 @@
-思路：分治法，第一个下标座位有人坐和没人坐两种情况考虑。最后一个位置要判断是否有人坐。
-代码：
-```
+// 思路：分治法，第一个下标座位有人坐和没人坐两种情况考虑。最后一个位置要判断是否有人坐。
+// 代码：
+// ```
 class Solution {
     public int maxDistToClosest(int[] seats) {
         if (seats.length <= 1) {
@@ -56,4 +56,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

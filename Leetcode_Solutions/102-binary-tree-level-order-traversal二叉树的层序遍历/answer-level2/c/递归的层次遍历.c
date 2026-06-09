@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/11487fada41578e641d287c34930162d6e8cd3159bcdb09c6380444067a3cc23-image.png)
+// ![image.png](https://pic.leetcode-cn.com/11487fada41578e641d287c34930162d6e8cd3159bcdb09c6380444067a3cc23-image.png)
 
 
-1. 先求出层数，给结果数组的第一维开空间
-2. 求出每层个数(借助cnt数组存)，给结果数组的第二维开空间
-3. 将每层元素填入依次结果数组 getresult()
+// 1. 先求出层数，给结果数组的第一维开空间
+// 2. 求出每层个数(借助cnt数组存)，给结果数组的第二维开空间
+// 3. 将每层元素填入依次结果数组 getresult()
 
 
-```c
+// ```c
 int getDepth(struct TreeNode *root) {
     if(root == NULL) return 0;
     int l = getDepth(root->left);
@@ -47,5 +47,5 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
     return ret;
 }
 
-```
-这个是泽哥讲的，开始自己不会做
+// ```
+// 这个是泽哥讲的，开始自己不会做

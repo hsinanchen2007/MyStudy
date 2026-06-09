@@ -1,10 +1,10 @@
-### 解题思路
-方法一: 直接遍历对比
-方法二: 满足长度条件情况下,A+A包含了所有旋转的情况
+// ### 解题思路
+// 方法一: 直接遍历对比
+// 方法二: 满足长度条件情况下,A+A包含了所有旋转的情况
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} A
  * @param {string} B
@@ -24,4 +24,4 @@ var rotateString = function(A, B) {
   // 方法二:
   return A.length<=B.length && (A+A).includes(B)
 };
-```
+// ```

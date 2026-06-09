@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def numDistinct(s: String, t: String): Int = {
     val dp = Array.fill(t.length + 1, s.length + 1)(0)
@@ -9,4 +9,4 @@ object Solution {
     dp(t.length)(s.length)
   }
 }
-```
+// ```

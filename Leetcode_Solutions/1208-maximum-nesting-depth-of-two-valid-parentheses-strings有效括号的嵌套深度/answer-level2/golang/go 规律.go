@@ -1,4 +1,4 @@
-```
+// ```
 func maxDepthAfterSplit(seq string) []int {
 	maps := make([]int, len(seq))
 	for i := 0; i < len(seq); i++ {
@@ -10,4 +10,4 @@ func maxDepthAfterSplit(seq string) []int {
 	}
 	return maps
 }
-```
+// ```

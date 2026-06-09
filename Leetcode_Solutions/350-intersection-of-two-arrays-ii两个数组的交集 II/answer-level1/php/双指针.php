@@ -1,8 +1,8 @@
-### [THINKING]
-- 不能去重，跟349的 两个数组交集I 差不多
-- 排序 + 双指针
-### [CODING]
-```
+// ### [THINKING]
+// - 不能去重，跟349的 两个数组交集I 差不多
+// - 排序 + 双指针
+// ### [CODING]
+// ```
 class Solution {
 
     /**
@@ -39,4 +39,4 @@ $nums1 = [1,2,2,1];
 $nums2 = [2,2];
 $res   = $obj->intersect($nums1,$nums2);
 var_dump($res);
-```
+// ```

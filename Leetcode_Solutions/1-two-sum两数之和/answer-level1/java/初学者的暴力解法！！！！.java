@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] newArray = new int[]{-1,-1};
@@ -18,5 +18,5 @@ class Solution {
         return newArray;
     }
 }
-```
-初学者的暴力解法，哈哈哈哈
+// ```
+// 初学者的暴力解法，哈哈哈哈

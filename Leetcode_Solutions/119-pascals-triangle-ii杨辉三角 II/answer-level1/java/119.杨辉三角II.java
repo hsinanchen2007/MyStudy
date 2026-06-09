@@ -1,10 +1,10 @@
-### 解题思路
-- 利用一个数组，循环更新当前行，节省空间
-- 按照倒序添加元素，这样利用上一行的第j-1和j更新当前行的j,再利用上一行的j-2和j-1更新当前行的j-1。相对于正序添加，节省了一个temp空间。
+// ### 解题思路
+// - 利用一个数组，循环更新当前行，节省空间
+// - 按照倒序添加元素，这样利用上一行的第j-1和j更新当前行的j,再利用上一行的j-2和j-1更新当前行的j-1。相对于正序添加，节省了一个temp空间。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> res = new ArrayList<>();
@@ -20,4 +20,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

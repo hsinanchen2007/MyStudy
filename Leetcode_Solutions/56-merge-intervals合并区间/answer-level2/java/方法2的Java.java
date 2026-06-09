@@ -1,9 +1,9 @@
-### 解题思路
-还是现排序然后push到list里，通过循环interval对比前后interval的结束时间和开启时间，判断是否有overlap。
+// ### 解题思路
+// 还是现排序然后push到list里，通过循环interval对比前后interval的结束时间和开启时间，判断是否有overlap。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
         // if smaller just return
@@ -43,4 +43,4 @@ class Solution {
         return res_arr.toArray(new int[res_arr.size()][]);
     }
 }
-```
+// ```

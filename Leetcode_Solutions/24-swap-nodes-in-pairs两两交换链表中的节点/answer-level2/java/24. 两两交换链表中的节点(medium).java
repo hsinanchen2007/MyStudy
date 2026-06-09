@@ -1,17 +1,17 @@
-### 解题思路
-1. 递归法(本题为递归法的典型应用)
-    对于递归法而言，需要关注的最关键三个要素：返回值，调用单元的操作和终止条件。
-    a) 返回值：交换完成后的子链表
-    b) 调用单元：设置需要调换的两个节点为firstNode和secondNode，firstNode用来连接后面交换完成的子链表，secondNode连接firstNode，完成本轮交换操作。
-    c) 终止条件：firstNode或者secondNode为空，对应当前没有节点或者剩下最后一个单独的节点的情况。
-2. 迭代法
-    a) 将链表编号分为奇数编号的节点和偶数编号的节点。(要完成的操作是将对应节点两两互换)
-    b) 交换两个节点。
-    c) 维护一个preNode节点，preNode.next指向交换后的头节点。
+// ### 解题思路
+// 1. 递归法(本题为递归法的典型应用)
+//     对于递归法而言，需要关注的最关键三个要素：返回值，调用单元的操作和终止条件。
+//     a) 返回值：交换完成后的子链表
+//     b) 调用单元：设置需要调换的两个节点为firstNode和secondNode，firstNode用来连接后面交换完成的子链表，secondNode连接firstNode，完成本轮交换操作。
+//     c) 终止条件：firstNode或者secondNode为空，对应当前没有节点或者剩下最后一个单独的节点的情况。
+// 2. 迭代法
+//     a) 将链表编号分为奇数编号的节点和偶数编号的节点。(要完成的操作是将对应节点两两互换)
+//     b) 交换两个节点。
+//     c) 维护一个preNode节点，preNode.next指向交换后的头节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -42,10 +42,10 @@ class Solution {
 }
 
 
-```
-### 代码
+// ```
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -85,4 +85,4 @@ class Solution {
     }
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-其实用dict也可以做，不过我就是练习一下位运算
-```
+# 其实用dict也可以做，不过我就是练习一下位运算
+# ```
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
         res = 0
@@ -8,4 +8,4 @@ class Solution:
         for j in t:
             res ^= ord(j)
         return chr(res)
-```
+# ```

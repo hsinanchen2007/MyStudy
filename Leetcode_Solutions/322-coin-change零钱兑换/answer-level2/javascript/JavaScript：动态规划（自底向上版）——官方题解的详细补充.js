@@ -1,11 +1,11 @@
-leetcode官方的题解已经图文并茂诠释得清楚了。
+// leetcode官方的题解已经图文并茂诠释得清楚了。
 
-本题解的具体解题思路照搬[官方题解 （方法三、动态规划：自下而上）](https://leetcode-cn.com/problems/coin-change/solution/322-ling-qian-dui-huan-by-leetcode-solution/)，没有阅读官方题解的朋友可以大概阅读下。
+// 本题解的具体解题思路照搬[官方题解 （方法三、动态规划：自下而上）](https://leetcode-cn.com/problems/coin-change/solution/322-ling-qian-dui-huan-by-leetcode-solution/)，没有阅读官方题解的朋友可以大概阅读下。
 
-当然，本题解的注释内容也很详解，哪怕没有阅读过官方题解，也不妨碍继续往下阅读。
+// 当然，本题解的注释内容也很详解，哪怕没有阅读过官方题解，也不妨碍继续往下阅读。
 
 
-```
+// ```
 /**
  * @param {number[]} coins
  * @param {number} amount
@@ -44,4 +44,4 @@ leetcode官方的题解已经图文并茂诠释得清楚了。
     // 如果结果为无穷大，则无解
     return dp[amount] === Infinity ? -1 : dp[amount];
 };
-```
+// ```

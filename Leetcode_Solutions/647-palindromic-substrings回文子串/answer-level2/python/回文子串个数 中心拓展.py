@@ -1,12 +1,12 @@
-### 解题思路
-感觉中心拓展的思路对于回文子串更合适
-124 ms
-, 在所有 Python3 提交中击败了
-83.99%
+# ### 解题思路
+# 感觉中心拓展的思路对于回文子串更合适
+# 124 ms
+# , 在所有 Python3 提交中击败了
+# 83.99%
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countSubstrings(self, s: str) -> int:
         def solve(i, j):
@@ -21,4 +21,4 @@ class Solution:
             solve(i, i+1) # 偶数
             
         return res
-```
+# ```

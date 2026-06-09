@@ -1,11 +1,11 @@
-### 解题思路
-首先用一个队列queue辅助，层次遍历二叉树，并记录节点所在的层次
-用res字典顺序记录每一个层次的节点
-正序遍历res，每个一层做一次列表反转
+# ### 解题思路
+# 首先用一个队列queue辅助，层次遍历二叉树，并记录节点所在的层次
+# 用res字典顺序记录每一个层次的节点
+# 正序遍历res，每个一层做一次列表反转
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
                 ans.append(res[i])
             k += 1
         return ans
-```
+# ```

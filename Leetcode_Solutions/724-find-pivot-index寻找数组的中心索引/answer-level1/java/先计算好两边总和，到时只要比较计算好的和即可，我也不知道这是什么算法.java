@@ -1,5 +1,5 @@
-执行用时 :2 ms, 在所有 java 提交中击败了99.42%的用户
-内存消耗 :40.5 MB, 在所有 java 提交中击败了94.21%的用户
+// 执行用时 :2 ms, 在所有 java 提交中击败了99.42%的用户
+// 内存消耗 :40.5 MB, 在所有 java 提交中击败了94.21%的用户
 public int pivotIndex(int[] nums) {
     	
     	if (nums.length == 1) {

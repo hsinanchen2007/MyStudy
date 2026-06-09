@@ -1,4 +1,4 @@
-```golang []
+// ```golang []
 func reverse(nums []int) {
 	head,tail := 0,len(nums)-1
 	for head < tail {
@@ -25,4 +25,4 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
 		j ++
 	}
 }
-```
+// ```

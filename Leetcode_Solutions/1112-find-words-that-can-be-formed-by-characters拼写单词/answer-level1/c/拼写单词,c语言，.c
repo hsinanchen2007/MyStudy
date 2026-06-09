@@ -1,9 +1,9 @@
-### 解题思路
-sign[ ]记录字母表中每个字母出现的次数，temp[ ]记录每个单词中每个字母出现的次数.能拼出来就加上这个单词的长度。
+// ### 解题思路
+// sign[ ]记录字母表中每个字母出现的次数，temp[ ]记录每个单词中每个字母出现的次数.能拼出来就加上这个单词的长度。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     int result = 0;
         int sign[26] = {0,};
@@ -27,4 +27,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return result;
 }
-```
+// ```

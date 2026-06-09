@@ -1,6 +1,6 @@
-- 1、二分法
+// - 1、二分法
 
-```js
+// ```js
 var search = function (nums, target) {
     let left = 0, right = nums.length - 1;
     while (left <= right) {
@@ -22,10 +22,10 @@ var search = function (nums, target) {
     }
     return 0;
 };
-```
-- 2、题目应该明确时间复杂度o(logn)，其实还可以这样，代码简单
+// ```
+// - 2、题目应该明确时间复杂度o(logn)，其实还可以这样，代码简单
 
-```js
+// ```js
 var search = function(nums, target) {
     let ans = 0;
     let start = nums.indexOf(target), end = nums.lastIndexOf(target);

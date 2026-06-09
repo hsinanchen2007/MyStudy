@@ -1,9 +1,9 @@
-### 解题思路
-利用二叉搜索树特性，递归的解决。
+// ### 解题思路
+// 利用二叉搜索树特性，递归的解决。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -32,4 +32,4 @@ class Solution {
         return treeNode;
     }
 }
-```
+// ```

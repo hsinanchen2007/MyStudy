@@ -1,9 +1,9 @@
-### 解题思路
-常规思路，2次循环3次判断
+// ### 解题思路
+// 常规思路，2次循环3次判断
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool detectCapitalUse(char * word){
     int i,j;
     j=strlen(word);
@@ -24,4 +24,4 @@ bool detectCapitalUse(char * word){
     if(strcmp(cmp,word)==0) return true;
     return false;
 }
-```
+// ```

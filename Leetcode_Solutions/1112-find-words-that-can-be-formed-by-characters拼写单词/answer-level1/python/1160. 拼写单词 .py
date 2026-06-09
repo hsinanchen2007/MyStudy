@@ -1,9 +1,9 @@
-### 解题思路
-**1.Python标准库之collections**
+# ### 解题思路
+# **1.Python标准库之collections**
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import Counter
 class Solution(object):
     def countCharacters(self, words, chars):
@@ -15,10 +15,10 @@ class Solution(object):
             if ans == (ans & Counter(chars)):
                 len_w += len(w)
         return len_w
-```
-### 解题思路
-2。与方法一类似，不过不借助oython本身的库
-```python
+# ```
+# ### 解题思路
+# 2。与方法一类似，不过不借助oython本身的库
+# ```python
 class Solution(object):
     def countCharacters(self, words, chars):
         len_w = 0
@@ -33,4 +33,4 @@ class Solution(object):
                 len_w += len(w)
             dic = {}
         return len_w
-```
+# ```

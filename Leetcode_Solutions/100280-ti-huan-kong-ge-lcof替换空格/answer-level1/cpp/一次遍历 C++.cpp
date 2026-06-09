@@ -1,5 +1,5 @@
-遍历string，非空格原样插入，遇到空格替换成"%20"插入
-```
+// 遍历string，非空格原样插入，遇到空格替换成"%20"插入
+// ```
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -12,4 +12,4 @@ public:
         return res;
     }
 };
-```
+// ```

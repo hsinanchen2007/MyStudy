@@ -1,7 +1,7 @@
-没什么好说的，笨办法，分析下标的规律，然后翻译成代码
+// 没什么好说的，笨办法，分析下标的规律，然后翻译成代码
 
 
-```
+// ```
 /**
  * @param {string} s
  * @param {number} numRows
@@ -34,4 +34,4 @@ var convert = function(s, numRows) {
     return newS
 
 };
-```
+// ```

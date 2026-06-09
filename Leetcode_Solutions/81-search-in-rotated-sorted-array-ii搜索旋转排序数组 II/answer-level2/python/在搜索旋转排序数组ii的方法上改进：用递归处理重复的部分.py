@@ -1,9 +1,9 @@
-### 解题思路
-用递归应该会比遍历好一些吧hmmm
+# ### 解题思路
+# 用递归应该会比遍历好一些吧hmmm
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def search(self, nums, target):
         """
@@ -35,4 +35,4 @@ class Solution(object):
                     left = mid+1
         return False
 
-```
+# ```

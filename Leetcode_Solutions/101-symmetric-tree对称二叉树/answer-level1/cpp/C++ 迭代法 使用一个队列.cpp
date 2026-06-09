@@ -1,7 +1,7 @@
-使用一个队列进行存储节点
+// 使用一个队列进行存储节点
 
 
-```
+// ```
 class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
@@ -62,5 +62,5 @@ public:
         return true;
     }
 };
-```
+// ```
         

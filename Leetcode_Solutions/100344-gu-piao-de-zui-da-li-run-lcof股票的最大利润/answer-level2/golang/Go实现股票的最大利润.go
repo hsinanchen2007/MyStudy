@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
     if prices == nil|| len(prices)==0{
         return 0
@@ -29,4 +29,4 @@ func Min(a,b int)int{
         return a
     }
 }
-```
+// ```

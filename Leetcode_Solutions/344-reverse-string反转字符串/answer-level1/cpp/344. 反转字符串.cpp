@@ -1,9 +1,9 @@
-### 解题思路
-1.双指针交换各自元素实现反转字符。
+// ### 解题思路
+// 1.双指针交换各自元素实现反转字符。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -19,4 +19,4 @@ public:
     }
     }
 };
-```
+// ```

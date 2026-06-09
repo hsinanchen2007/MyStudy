@@ -1,9 +1,9 @@
-### 解题思路
-这道题刚开始没看懂什么意思 后来发现原来是直接遍历就可以 倒着遍历，是9变0，否则加1，直接返回即可
+# ### 解题思路
+# 这道题刚开始没看懂什么意思 后来发现原来是直接遍历就可以 倒着遍历，是9变0，否则加1，直接返回即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def plusOne(self, digits):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                 digits[i]=0
         digits.insert(0,1)
         return digits
-```
+# ```

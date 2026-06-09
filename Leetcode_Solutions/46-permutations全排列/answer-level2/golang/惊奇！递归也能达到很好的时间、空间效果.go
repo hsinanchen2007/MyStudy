@@ -1,8 +1,8 @@
-1、递归解法
-本来想先用递归实现，然后再考虑优化版本，谁知道提交后显示在空间和时间方面能满足要求，难道是因为没有人用golang提交过？
+// 1、递归解法
+// 本来想先用递归实现，然后再考虑优化版本，谁知道提交后显示在空间和时间方面能满足要求，难道是因为没有人用golang提交过？
 
 
-```golang
+// ```golang
 func BuildEveryResult(leftNums, curRes []int, result *[][]int) {
 	if len(leftNums) == 1 {
 		curRes = append(curRes, leftNums[0])
@@ -39,6 +39,6 @@ func permute(nums []int) [][]int {
 
 	return result
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/892eef8b67f9d51676295d11ad3919239a23ee928701d1b751503691f15a10f7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/892eef8b67f9d51676295d11ad3919239a23ee928701d1b751503691f15a10f7-image.png)

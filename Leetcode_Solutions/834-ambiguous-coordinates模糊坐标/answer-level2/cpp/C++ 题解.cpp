@@ -1,10 +1,10 @@
-### 解题思路
-1，先进行字符串分割
-2，寻找所有可能的组合
+// ### 解题思路
+// 1，先进行字符串分割
+// 2，寻找所有可能的组合
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<pair<string, string> > split(const string& s) {
@@ -42,6 +42,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/55349ee5df9f5fb0139c098c10d7076511166f0dd67cfa00b56c09e9e55e8353-image.png)
+// ![image.png](https://pic.leetcode-cn.com/55349ee5df9f5fb0139c098c10d7076511166f0dd67cfa00b56c09e9e55e8353-image.png)

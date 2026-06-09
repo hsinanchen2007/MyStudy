@@ -1,9 +1,9 @@
-### 解题思路
-递归，使用try catch来判断子树是否相同
+// ### 解题思路
+// 递归，使用try catch来判断子树是否相同
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -32,4 +32,4 @@ var isSameTree = function(p, q) {
     const right = isSameTree(p.right, q.right)
     return left && right
 };
-```
+// ```

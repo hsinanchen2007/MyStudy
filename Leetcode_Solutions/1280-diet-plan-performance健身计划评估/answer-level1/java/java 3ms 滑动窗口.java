@@ -1,4 +1,4 @@
-```
+// ```
     public int dietPlanPerformance(int[] calories, int k, int lower, int upper) {
         int res = 0, sum = 0;
         for (int i = 0; i < k; i++)
@@ -12,4 +12,4 @@
         }
         return res;
     }
-```
+// ```

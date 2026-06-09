@@ -1,6 +1,6 @@
-双指针法
+// 双指针法
 
-```
+// ```
 public static int[] SmallestRange(IList<IList<int>> nums)
 {
     if (nums.Count == 0) return Array.Empty<int>();
@@ -56,4 +56,4 @@ public static int[] SmallestRange(IList<IList<int>> nums)
 
     return new[] { start, end };
 }
-```
+// ```

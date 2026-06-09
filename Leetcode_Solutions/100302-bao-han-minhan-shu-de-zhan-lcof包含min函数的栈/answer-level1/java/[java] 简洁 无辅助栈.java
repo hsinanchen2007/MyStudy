@@ -1,10 +1,10 @@
-- 解题思路：
-- 当push（x），x <= min 时先将min进栈，再将x进栈；
-- 也就是说在栈中的每一个min下面都存有前一个min（就是比当前min小的那个）
--
+// - 解题思路：
+// - 当push（x），x <= min 时先将min进栈，再将x进栈；
+// - 也就是说在栈中的每一个min下面都存有前一个min（就是比当前min小的那个）
+// -
 
 
-```
+// ```
 class MinStack {
     private Stack<Integer> stack;
     private int min;
@@ -36,4 +36,4 @@ class MinStack {
         return min;
     }
 }
-```
+// ```

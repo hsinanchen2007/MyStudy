@@ -1,4 +1,4 @@
-```
+// ```
 func uncommonFromSentences(A string, B string) []string {
     c := A + " " +B
     if len(c) == 0 {
@@ -17,4 +17,4 @@ func uncommonFromSentences(A string, B string) []string {
     }
     return result
 }
-```
+// ```

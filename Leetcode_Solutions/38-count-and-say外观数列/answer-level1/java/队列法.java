@@ -1,5 +1,5 @@
-用队列的方式，压第一个元素，然后进行取出对比，进行尾插法，最后有2种情况 一种是 最后一个元素和前一个一样，一种是 最后元素与前一个不同，只需要重新尾插一次，更新count
-```
+// 用队列的方式，压第一个元素，然后进行取出对比，进行尾插法，最后有2种情况 一种是 最后一个元素和前一个一样，一种是 最后元素与前一个不同，只需要重新尾插一次，更新count
+// ```
 import java.util.LinkedList;
 class Solution {
     public String countAndSay(int n) {
@@ -42,4 +42,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

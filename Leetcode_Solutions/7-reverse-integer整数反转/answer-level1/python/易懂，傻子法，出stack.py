@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverse(self, x):
         neg = False     #负数判断参数
@@ -27,4 +27,4 @@ class Solution(object):
 
 
 
-```
+# ```

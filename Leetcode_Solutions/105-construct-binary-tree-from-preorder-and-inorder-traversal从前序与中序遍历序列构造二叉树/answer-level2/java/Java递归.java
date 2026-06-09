@@ -1,10 +1,10 @@
-### 解题思路
-先用hashmap存好中序遍历的所有值对应其索引。
-递归左右两颗子树， 只需要将左右子树分别在前序和中序数组中的开始和结尾点算出来即可。
+// ### 解题思路
+// 先用hashmap存好中序遍历的所有值对应其索引。
+// 递归左右两颗子树， 只需要将左右子树分别在前序和中序数组中的开始和结尾点算出来即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,4 +39,4 @@ class Solution {
         return buildTree_help(preorder, inorder, 0, n, 0, n);
     }
 }
-```
+// ```

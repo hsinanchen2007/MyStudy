@@ -1,5 +1,5 @@
-先用defauldict建立邻接表，然后dfs，其中使用visited判断当前点是否访问过
-```
+# 先用defauldict建立邻接表，然后dfs，其中使用visited判断当前点是否访问过
+# ```
 class Solution:
     def findWhetherExistsPath(self, n: int, graph: List[List[int]], start: int, target: int) -> bool:
         from collections import defaultdict
@@ -18,4 +18,4 @@ class Solution:
                 ans = ans or dfs(post, visted)
             return ans
         return dfs(start, visted)
-```
+# ```

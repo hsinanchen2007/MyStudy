@@ -1,9 +1,9 @@
-### 解题思路
-将res作为收纳遍历过元素的容器，如果当前元素+res的某个元素=target，就把这两个index返回
+// ### 解题思路
+// 将res作为收纳遍历过元素的容器，如果当前元素+res的某个元素=target，就把这两个index返回
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -24,4 +24,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

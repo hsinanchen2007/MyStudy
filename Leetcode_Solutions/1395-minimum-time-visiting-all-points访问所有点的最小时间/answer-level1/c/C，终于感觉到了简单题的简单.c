@@ -1,11 +1,11 @@
-![1.png](https://pic.leetcode-cn.com/64dfb878cce690c1a35f29cce6c1c1eac725b9cf44894ddece4821add683b54e-1.png)
+// ![1.png](https://pic.leetcode-cn.com/64dfb878cce690c1a35f29cce6c1c1eac725b9cf44894ddece4821add683b54e-1.png)
 
-### 解题思路
-每次的时间是坐标差的绝对值的最大值
+// ### 解题思路
+// 每次的时间是坐标差的绝对值的最大值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minTimeToVisitAllPoints(int** points, int pointsSize, int* pointsColSize){
 	if (pointsSize == 1)
 		return 0;
@@ -17,4 +17,4 @@ int minTimeToVisitAllPoints(int** points, int pointsSize, int* pointsColSize){
 	}
 	return max;
 }
-```
+// ```

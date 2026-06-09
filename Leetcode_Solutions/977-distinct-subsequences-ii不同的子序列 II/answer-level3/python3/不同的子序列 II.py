@@ -1,16 +1,16 @@
-### 解题思路
-例如字符串  ababc
-现象：按照字符串遍历顺序，最后一个字符加到已经生成的子序列中，发现当出现b第二次出现 b 时候出现相同的子序列
-a 
-ab  b 
-aba  ba aa 
-abab bab aab, abb bb, ab, b  (ab,b 重复了)             
+# ### 解题思路
+# 例如字符串  ababc
+# 现象：按照字符串遍历顺序，最后一个字符加到已经生成的子序列中，发现当出现b第二次出现 b 时候出现相同的子序列
+# a 
+# ab  b 
+# aba  ba aa 
+# abab bab aab, abb bb, ab, b  (ab,b 重复了)             
         
 
-分析归纳：假定已有子序类 substr,  后续遇到a+xxx+a ，对于 这两个a 都有可能产生 substr+a 的字串。产生重复
+# 分析归纳：假定已有子序类 substr,  后续遇到a+xxx+a ，对于 这两个a 都有可能产生 substr+a 的字串。产生重复
 
-方法一
-```python
+# 方法一
+# ```python
 class Solution(object):
     def distinctSubseqII(self, S):
         """
@@ -30,16 +30,16 @@ class Solution(object):
             last_index[c] = rhs
             sum_cnt = (sum_cnt + counter[rhs]) % MAX_NUM
         return sum_cnt
-```
+# ```
 
 
-方法二
-### 代码
+# 方法二
+# ### 代码
 
-![image.png](https://pic.leetcode-cn.com/2f7a3355280a9e115869b9db13b96db22bbd02ab168ed676506f5a73144ae8b6-image.png)
+# ![image.png](https://pic.leetcode-cn.com/2f7a3355280a9e115869b9db13b96db22bbd02ab168ed676506f5a73144ae8b6-image.png)
 
 
-```python
+# ```python
 class Solution(object):
     def distinctSubseqII(self, S):
         size_s = len(S)
@@ -52,4 +52,4 @@ class Solution(object):
             dp[i+1] = (2*dp[i]-pre_si_sum) % MAX_NUM # dp从1开始记录，S从0开始。
             last[x] = i # 记录前一个同字符在S的位置。该idx 是是 dp 中的idex-1
         return (dp[size_s]-1) % (MAX_NUM)
-```
+# ```

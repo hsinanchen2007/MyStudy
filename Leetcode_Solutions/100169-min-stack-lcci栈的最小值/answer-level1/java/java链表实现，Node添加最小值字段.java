@@ -1,6 +1,6 @@
-使用链表实现，节点Node添加一个min字段，保存在当前节点看来的栈中最小值
-注：思路来自国外leetcode大佬，很巧妙，在此分享
-```
+// 使用链表实现，节点Node添加一个min字段，保存在当前节点看来的栈中最小值
+// 注：思路来自国外leetcode大佬，很巧妙，在此分享
+// ```
 class MinStack {
 	class Node {
 		int val;
@@ -49,4 +49,4 @@ class MinStack {
 		return head.min;
 	}
 }
-```
+// ```

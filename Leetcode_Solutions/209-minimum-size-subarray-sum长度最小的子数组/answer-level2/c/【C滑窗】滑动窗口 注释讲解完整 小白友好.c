@@ -1,9 +1,9 @@
-### 解题思路
-标准的滑窗，第一次做，注释很完整，希望帮助到新人小白
+// ### 解题思路
+// 标准的滑窗，第一次做，注释很完整，希望帮助到新人小白
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int min(int a, int b) {
 	return a>b?b:a;
 }
@@ -32,4 +32,4 @@ int minSubArrayLen(int s, int* nums, int numsSize){
 	return minLen;
 
 }
-```
+// ```

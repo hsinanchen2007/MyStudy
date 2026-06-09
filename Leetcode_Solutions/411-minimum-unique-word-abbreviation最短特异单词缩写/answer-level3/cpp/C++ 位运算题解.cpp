@@ -1,5 +1,5 @@
-代码与详细注释如下：
-```C++ []
+// 代码与详细注释如下：
+// ```C++ []
 class Solution {
 public:
     pair<string, int> generateAbbr(string w, vector<int>& indices) {
@@ -73,4 +73,4 @@ public:
         return res;
     }
 };
-```
+// ```

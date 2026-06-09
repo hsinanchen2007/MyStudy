@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d088fc0c2f0f5cf9a0c11299a8d348a14c3a66c2f7a4bd56d4453c3d1086ac45-image.png)
-基本回溯就不说了，我在回溯之前加了个扫描，先把所有可以直接求解的解出来，可以成倍的减少回溯次数。
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/d088fc0c2f0f5cf9a0c11299a8d348a14c3a66c2f7a4bd56d4453c3d1086ac45-image.png)
+# 基本回溯就不说了，我在回溯之前加了个扫描，先把所有可以直接求解的解出来，可以成倍的减少回溯次数。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 NUM = [str(x) for x in range(1, 10)]
 class Solution:
     def solveSudoku(self, in_board: list) -> None:
@@ -65,4 +65,4 @@ class Solution:
     def sudoku_print(self, in_board: list):  # 用来打印
         for _ in in_board:
             print(_)
-```
+# ```

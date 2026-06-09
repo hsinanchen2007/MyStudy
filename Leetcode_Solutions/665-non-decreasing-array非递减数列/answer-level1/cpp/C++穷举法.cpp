@@ -1,10 +1,10 @@
-### 解题思路
-直接分析出现的各种情况
-![捕获.PNG](https://pic.leetcode-cn.com/5aab78ccf6998331415328228a176a367e32e84ed341f3847b43d2a89c3929bc-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 直接分析出现的各种情况
+// ![捕获.PNG](https://pic.leetcode-cn.com/5aab78ccf6998331415328228a176a367e32e84ed341f3847b43d2a89c3929bc-%E6%8D%95%E8%8E%B7.PNG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkPossibility(vector<int>& nums) {
@@ -43,4 +43,4 @@ public:
         return t;
     }
 };
-```
+// ```

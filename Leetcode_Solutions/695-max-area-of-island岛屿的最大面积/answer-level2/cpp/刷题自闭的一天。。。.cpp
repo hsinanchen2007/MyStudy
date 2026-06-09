@@ -1,11 +1,11 @@
-### 解题思路
-有一个好消息，有一个坏消息...
-好消息是，这道题跟之前做过的[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)几乎一毛一样...
-坏消息是，我还是不会做...哈哈哈哈哈哈嗝。
+// ### 解题思路
+// 有一个好消息，有一个坏消息...
+// 好消息是，这道题跟之前做过的[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)几乎一毛一样...
+// 坏消息是，我还是不会做...哈哈哈哈哈哈嗝。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     int d_i[4] = {0, 0, 1, -1};
@@ -36,4 +36,4 @@ public:
         return ans;
     }
 };
-```
+// ```

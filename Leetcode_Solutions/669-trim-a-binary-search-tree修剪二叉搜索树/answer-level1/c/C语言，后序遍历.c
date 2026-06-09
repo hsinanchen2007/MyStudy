@@ -1,9 +1,9 @@
-### 解题思路
-水题水题大水题
+// ### 解题思路
+// 水题水题大水题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -25,4 +25,4 @@ struct TreeNode* trimBST(struct TreeNode* root, int L, int R){
     else if(root -> val > R) return root -> left;
     else return root;
 }
-```
+// ```

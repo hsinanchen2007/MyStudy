@@ -1,4 +1,4 @@
-```
+// ```
 func numSubarrayProductLessThanK(nums []int, k int) int {
 	if k <= 1 {
 		return 0
@@ -15,4 +15,4 @@ func numSubarrayProductLessThanK(nums []int, k int) int {
 	}
 	return c
 }
-```
+// ```

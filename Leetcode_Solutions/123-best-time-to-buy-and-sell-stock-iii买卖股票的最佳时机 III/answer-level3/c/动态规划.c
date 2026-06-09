@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxValue(int a,int b)
 {
     if(a >=b)
@@ -57,4 +57,4 @@ int maxProfit(int* prices, int pricesSize){
     return sell[pricesSize-1][k];
     
 }
-```
+// ```

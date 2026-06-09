@@ -1,4 +1,4 @@
-```
+// ```
 bool isPowerOfTwo(int n){
     unsigned int a=1;
     for(int i=0;i<32;i++){
@@ -7,4 +7,4 @@ bool isPowerOfTwo(int n){
     }
     return false;
 }
-```
+// ```

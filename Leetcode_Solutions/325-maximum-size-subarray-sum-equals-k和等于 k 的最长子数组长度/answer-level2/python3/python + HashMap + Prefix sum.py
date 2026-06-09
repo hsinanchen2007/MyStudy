@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maxSubArrayLen(self, nums: List[int], k: int) -> int:
         #consecutive subarray
@@ -16,4 +16,4 @@ class Solution:
             for index in dic[num + k]:
                 if index >= i: res = max(res, index - i)
         return res
-```
+# ```

@@ -1,18 +1,18 @@
-## 思路:
+# ## 思路:
 
-异或就可以了
+# 异或就可以了
 
-```python [1]
+# ```python [1]
 def singleNumber(self, nums: List[int]) -> int:
         res = nums[0]
         for num in nums[1:]:
             res ^= num
         return res
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public int singleNumber(int[] nums) {
         int res = nums[0];
@@ -20,5 +20,5 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 

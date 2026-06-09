@@ -1,12 +1,12 @@
-### 解题思路
-递归就完事了，注意不要写成这样就行。
-Tree->right = invertTree(root->left);
-Tree->left = invertTree(root->right);
+// ### 解题思路
+// 递归就完事了，注意不要写成这样就行。
+// Tree->right = invertTree(root->left);
+// Tree->left = invertTree(root->right);
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ public:
         return Tree;
     }
 };
-```
+// ```

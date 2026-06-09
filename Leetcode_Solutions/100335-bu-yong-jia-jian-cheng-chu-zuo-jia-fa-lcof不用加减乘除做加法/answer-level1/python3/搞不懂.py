@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 
 # -*- coding:utf-8 -*-
 class Solution:
@@ -18,5 +18,5 @@ class Solution:
             num1 = temp
         return num1 if num1<=0x7FFFFFFF else ~(num1)^0xFFFFFFFF #<=,xian ~ 
 
-```
+# ```
 

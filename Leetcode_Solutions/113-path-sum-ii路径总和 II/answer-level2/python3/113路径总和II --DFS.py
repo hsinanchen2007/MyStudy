@@ -1,10 +1,10 @@
-### 解题思路
-和112题一样，是先序遍历（DFS）
-1.用sums依次减去节点的值，直到叶子节点的值为sums
-2.设置辅助变量res，初始为0，一直加到叶子节点时，`res+root.val==sums`
-### 代码 --1.依次相减
+# ### 解题思路
+# 和112题一样，是先序遍历（DFS）
+# 1.用sums依次减去节点的值，直到叶子节点的值为sums
+# 2.设置辅助变量res，初始为0，一直加到叶子节点时，`res+root.val==sums`
+# ### 代码 --1.依次相减
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,9 +30,9 @@ class Solution:
             DFS(root.right,temp+[root.val],sums-root.val)
         DFS(root,[],sums)
         return path
-```
-### 代码 --2.加辅助变量，依次相加
-```python3
+# ```
+# ### 代码 --2.加辅助变量，依次相加
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -58,4 +58,4 @@ class Solution:
             DFS(root.right,temp+[root.val],res+root.val)
         DFS(root,[],res)
         return path
-```
+# ```

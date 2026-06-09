@@ -1,6 +1,6 @@
-解题思路和第5题类似，选定一个位置(分奇数和偶数情况)，向两边搜索，每次两个字符相等，则结果加1即可。
+// 解题思路和第5题类似，选定一个位置(分奇数和偶数情况)，向两边搜索，每次两个字符相等，则结果加1即可。
 
-```C
+// ```C
 int countSubstrings(char * s){
     int len = strlen(s);
     int res = 0;
@@ -21,4 +21,4 @@ int countSubstrings(char * s){
     }
     return res;
 }
-```
+// ```

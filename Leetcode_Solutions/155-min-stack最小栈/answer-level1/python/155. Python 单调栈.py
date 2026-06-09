@@ -1,9 +1,9 @@
-### 解题思路
-按照题意叙述实际上就是维护一个普通的栈和一个单调栈，单调栈用于保存普通栈中的最小值。
+# ### 解题思路
+# 按照题意叙述实际上就是维护一个普通的栈和一个单调栈，单调栈用于保存普通栈中的最小值。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MinStack(object):
 
     def __init__(self):
@@ -57,4 +57,4 @@ class MinStack(object):
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.getMin()
-```
+# ```

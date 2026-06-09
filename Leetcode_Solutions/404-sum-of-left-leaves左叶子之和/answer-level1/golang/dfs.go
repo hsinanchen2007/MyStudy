@@ -1,8 +1,8 @@
-### 思路
-什么遍历都可以，处理一下左节点就完事
+// ### 思路
+// 什么遍历都可以，处理一下左节点就完事
 
-### dfs
-```golang
+// ### dfs
+// ```golang
 var res int
 
 func sumOfLeftLeaves(root *TreeNode) int {
@@ -22,7 +22,7 @@ func dfs(root *TreeNode) {
 	dfs(root.Left)
 	dfs(root.Right)
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
-[对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)
+// [Go版本 Github](https://github.com/temporaries/leetcode)
+// [对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)

@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -21,4 +21,4 @@ var searchBST = function(root, val) {
     if(root.val == val) return root
     return root.val < val ? searchBST(root.right, val) : searchBST(root.left, val)
 };
-```
+// ```

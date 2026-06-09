@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -28,4 +28,4 @@ func minDepth(root *TreeNode) int {
         return rightMin+1
     }
 }
-```
+// ```

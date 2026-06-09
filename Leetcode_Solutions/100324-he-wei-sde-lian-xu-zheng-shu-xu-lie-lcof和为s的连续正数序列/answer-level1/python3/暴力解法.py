@@ -1,10 +1,10 @@
-### 解题思路
-暴力不提倡，但可以解决问题
-面对问题不要慌，敢于分析动笔
+# ### 解题思路
+# 暴力不提倡，但可以解决问题
+# 面对问题不要慌，敢于分析动笔
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         res=list()
@@ -19,4 +19,4 @@ class Solution:
                     break
         return res
 
-```
+# ```

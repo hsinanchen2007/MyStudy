@@ -1,4 +1,4 @@
-```
+// ```
 int g_boardSize;
 int g_boardColSize;
 
@@ -116,4 +116,4 @@ bool exist(char **board, int boardSize, int *boardColSize, char * word)
     free(vist);
     return ret;
 }
-```
+// ```

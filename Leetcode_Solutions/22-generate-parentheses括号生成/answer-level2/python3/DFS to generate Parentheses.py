@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-#at first I also want to use DFS or DP(dynamic planning) to solve this question but the difficult is that I can not find
-#the conditions to do Prunning for the DFS
-#for example It is not clearly for me when I should stop and when I should to append the str It is the problem
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# #at first I also want to use DFS or DP(dynamic planning) to solve this question but the difficult is that I can not find
+# #the conditions to do Prunning for the DFS
+# #for example It is not clearly for me when I should stop and when I should to append the str It is the problem
+# ### 代码
 
-```python3
+# ```python3
 from typing import List
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
@@ -25,4 +25,4 @@ class Solution:
         return res
 
 
-```
+# ```

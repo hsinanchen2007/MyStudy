@@ -1,22 +1,22 @@
-### 解题思路
- 1. 找状态
- *   到达sum(m-1,n-1)最小，则上一步是最小 min( minSum(m-2,n-1), minSum(m-1,n-2)), 得到 minSum(m-1,n-1) = min( minSum(m-2,n-1),  `       minSum(m-1,n-2)) + 1
- *   要是当前最小 则满足两个条件，
- *      1. 可以到达  则(m-2,n-1) OR (m-1,n-2)
- *      2. 上一步最小 minSum(m-1,n-1) = min( minSum(m-2,n-1)
-2. 转移方程
- *      minSum(m-1,n-1) = min( minSum(m-2,n-1), minSum(m-1,n-2)) + 1
-3. 初始值，边界
- *      minSum(0, 0) = grid[0][0]
- *      minSum(i, 0) = Σ0-i  grid[j][0]
- *      minSum(0, i) = Σ0-j  grid[0][j]
-4. 计算顺序
- *      从小到大
- */
+// ### 解题思路
+//  1. 找状态
+//  *   到达sum(m-1,n-1)最小，则上一步是最小 min( minSum(m-2,n-1), minSum(m-1,n-2)), 得到 minSum(m-1,n-1) = min( minSum(m-2,n-1),  `       minSum(m-1,n-2)) + 1
+//  *   要是当前最小 则满足两个条件，
+//  *      1. 可以到达  则(m-2,n-1) OR (m-1,n-2)
+//  *      2. 上一步最小 minSum(m-1,n-1) = min( minSum(m-2,n-1)
+// 2. 转移方程
+//  *      minSum(m-1,n-1) = min( minSum(m-2,n-1), minSum(m-1,n-2)) + 1
+// 3. 初始值，边界
+//  *      minSum(0, 0) = grid[0][0]
+//  *      minSum(i, 0) = Σ0-i  grid[j][0]
+//  *      minSum(0, i) = Σ0-j  grid[0][j]
+// 4. 计算顺序
+//  *      从小到大
+//  */
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -70,4 +70,4 @@ var minPathSum = function(grid) {
 
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValid(char * s){
     int i,top=-1;
     char *stack=NULL;
@@ -20,4 +20,4 @@ bool isValid(char * s){
     if(top>-1) return false;
     else return true;
 }
-```
+// ```

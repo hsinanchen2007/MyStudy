@@ -1,9 +1,9 @@
-### 解题思路
-用list在循环里直接查询
+# ### 解题思路
+# 用list在循环里直接查询
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         box = [[]for i in range(9)]
@@ -27,4 +27,4 @@ class Solution:
 
 
 
-```
+# ```

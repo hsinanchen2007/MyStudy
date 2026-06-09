@@ -1,11 +1,11 @@
-### 解题思路
-https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/er-fen-cha-zhao-suan-fa-xi-jie-xiang-jie-by-labula/
+// ### 解题思路
+// https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/er-fen-cha-zhao-suan-fa-xi-jie-xiang-jie-by-labula/
 
-非常强
+// 非常强
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findleft(vector<int> nums, int target){
@@ -54,4 +54,4 @@ public:
       return {left, right};
     }
 };
-```
+// ```

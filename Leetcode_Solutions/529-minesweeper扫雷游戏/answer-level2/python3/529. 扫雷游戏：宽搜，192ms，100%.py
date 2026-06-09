@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def updateBoard(self, board: List[List[str]], click: List[int]) -> List[List[str]]:
         a, b = click
@@ -20,6 +20,6 @@ class Solution:
                     board[i][j] = c and str(c) or p.extend(t) or v.update(t) or 'B'
                 q = p
         return board
-```
-![image.png](https://pic.leetcode-cn.com/e705c54c353d8b9112ddb32dd5fccc960e3d6b621f393908eea758910bff0697-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/e705c54c353d8b9112ddb32dd5fccc960e3d6b621f393908eea758910bff0697-image.png)
 

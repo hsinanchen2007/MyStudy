@@ -1,9 +1,9 @@
-### 解题思路
-这是一个树的题目。使用vector代替邻接表，记录边。然后使用dfs层层遍历每一个当前位置的子节点，取最大值便能得到答案啦~
+// ### 解题思路
+// 这是一个树的题目。使用vector代替邻接表，记录边。然后使用dfs层层遍历每一个当前位置的子节点，取最大值便能得到答案啦~
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 vector<vector<int> > son;
@@ -26,4 +26,4 @@ vector<vector<int> > son;
         return informTime[x]+res;
     }
 };
-```
+// ```

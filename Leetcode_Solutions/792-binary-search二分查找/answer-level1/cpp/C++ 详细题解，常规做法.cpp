@@ -1,8 +1,8 @@
-### 思路
-- 设定数组的开头和尾端为左右边界，mid为(l + r)/2
-- 若target大于mid 将l赋值为mid，重新计算mid值
-- 若target小于mid 将r赋值为mid，重新计算mid值
-```cpp
+// ### 思路
+// - 设定数组的开头和尾端为左右边界，mid为(l + r)/2
+// - 若target大于mid 将l赋值为mid，重新计算mid值
+// - 若target小于mid 将r赋值为mid，重新计算mid值
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -30,4 +30,4 @@ public:
         return ans; 
     }
 };
-```
+// ```

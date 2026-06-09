@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         if n == 0 :
@@ -41,4 +41,4 @@ class Solution:
             return x * cal_times(shenyu)
 
         return cal_times(n)
-```
+# ```

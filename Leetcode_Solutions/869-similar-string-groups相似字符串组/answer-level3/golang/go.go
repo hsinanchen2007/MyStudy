@@ -1,4 +1,4 @@
-```
+// ```
 type ArrayUnion struct {
 	arr []int
 }
@@ -72,4 +72,4 @@ func numSimilarGroups(A []string) int {
 	}
 	return o
 }
-```
+// ```

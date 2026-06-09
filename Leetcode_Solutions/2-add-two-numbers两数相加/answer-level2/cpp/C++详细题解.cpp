@@ -1,8 +1,8 @@
-### 思路
-1. 用queue来做，同位相加
-2. 将位数较少的数字在高位补零，使两个数字长度相同
-3. 注意进位的话需要在tail添加一个节点。
-```
+// ### 思路
+// 1. 用queue来做，同位相加
+// 2. 将位数较少的数字在高位补零，使两个数字长度相同
+// 3. 注意进位的话需要在tail添加一个节点。
+// ```
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
@@ -58,4 +58,4 @@ public:
         return head;
     }
 };
-```
+// ```

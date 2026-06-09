@@ -1,12 +1,12 @@
-### 解题思路
-链表反转的口诀
-1. 保存前进方向
-2. 斩断过去,不忘前事
-3. 继续前行
+// ### 解题思路
+// 链表反转的口诀
+// 1. 保存前进方向
+// 2. 斩断过去,不忘前事
+// 3. 继续前行
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -31,4 +31,4 @@ func reverseList(head *ListNode) *ListNode {
     }
     return pre
 }
-```
+// ```

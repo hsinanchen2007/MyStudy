@@ -1,8 +1,8 @@
-python3思路：
-直接用exception 把那些出现IndexError的点去掉就好了，不用费心思去划分加判断，唯一要注意的是python的list是可以读到index为负数的值的，实际上就是往后读嘛，所以这里要加一个判断。
+# python3思路：
+# 直接用exception 把那些出现IndexError的点去掉就好了，不用费心思去划分加判断，唯一要注意的是python的list是可以读到index为负数的值的，实际上就是往后读嘛，所以这里要加一个判断。
 
 
-```
+# ```
 class Solution:
     def gameOfLife(self, board) -> None:
         """
@@ -74,4 +74,4 @@ class Solution:
                     board[i][j]=0
                 if board[i][j]==-1:
                     board[i][j]=1
-```
+# ```

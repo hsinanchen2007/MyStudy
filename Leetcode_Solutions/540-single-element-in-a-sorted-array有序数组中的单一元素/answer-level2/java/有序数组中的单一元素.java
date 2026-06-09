@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int singleNonDuplicate(int[] nums) {
         int l=0,h=nums.length-1;
@@ -16,4 +16,4 @@ class Solution {
         return nums[l];
     }
 }
-```
+// ```

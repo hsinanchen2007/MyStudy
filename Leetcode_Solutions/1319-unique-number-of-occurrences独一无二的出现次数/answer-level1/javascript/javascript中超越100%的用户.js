@@ -1,10 +1,10 @@
 
-可能是我第一个提交的原因，还有优化的空间
-思路
-1.统计数据中各元素出现的次数
-2.统计次数值有没相等的
-3.默认为true 当，出现次数相同时及为false
-```
+// 可能是我第一个提交的原因，还有优化的空间
+// 思路
+// 1.统计数据中各元素出现的次数
+// 2.统计次数值有没相等的
+// 3.默认为true 当，出现次数相同时及为false
+// ```
 var uniqueOccurrences = function(arr) {
     let c = {}
     let e = {}
@@ -27,5 +27,5 @@ var uniqueOccurrences = function(arr) {
     return s
     
 };
-```
+// ```
 

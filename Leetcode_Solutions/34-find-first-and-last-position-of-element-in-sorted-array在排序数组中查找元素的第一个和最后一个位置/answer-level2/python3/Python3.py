@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         if nums.count(target) == 0:
@@ -9,4 +9,4 @@ class Solution:
                 if nums[i] == target:
                     tar.append(i)
             return [tar[0],tar[len(tar)-1]]
-```
+# ```

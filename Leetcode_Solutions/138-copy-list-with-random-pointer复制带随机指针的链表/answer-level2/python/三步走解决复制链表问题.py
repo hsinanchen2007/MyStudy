@@ -1,13 +1,13 @@
-### 解题思路
-第一步：遍历链表，生成新节点接在原节点后面
-第二步：遍历链表，修改新链表random指针
-第三步：分离原链表和新链表
-时间复杂度O(n),空间复杂度O(1)
-![image.png](https://pic.leetcode-cn.com/8038180028a86a7e692b9e11f26d455d50772cf61cc173bd227470e1cf5d5765-image.png)
+# ### 解题思路
+# 第一步：遍历链表，生成新节点接在原节点后面
+# 第二步：遍历链表，修改新链表random指针
+# 第三步：分离原链表和新链表
+# 时间复杂度O(n),空间复杂度O(1)
+# ![image.png](https://pic.leetcode-cn.com/8038180028a86a7e692b9e11f26d455d50772cf61cc173bd227470e1cf5d5765-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -49,4 +49,4 @@ class Solution:
             
         
 
-```
+# ```

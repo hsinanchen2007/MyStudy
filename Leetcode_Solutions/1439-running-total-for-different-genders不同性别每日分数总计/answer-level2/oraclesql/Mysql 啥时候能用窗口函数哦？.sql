@@ -1,4 +1,4 @@
-```
+-- ```
 select t.gender,
         TO_CHAR(t.day,'YYYY-mm-dd') day,sum(t.total) over (partition by gender order by day) as total 
 from
@@ -6,4 +6,4 @@ from
     group by gender,day
     order by gender,day)t 
 
-```
+-- ```

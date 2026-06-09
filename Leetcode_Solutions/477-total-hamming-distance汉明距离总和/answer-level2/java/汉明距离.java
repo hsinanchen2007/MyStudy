@@ -1,10 +1,10 @@
-### 解题思路
-1.汉明距离总和等于仍以对应位上汉明距离的和
-2.对应位汉明距离和 = 对应位为0的个数  *  对应位为1的个数
+// ### 解题思路
+// 1.汉明距离总和等于仍以对应位上汉明距离的和
+// 2.对应位汉明距离和 = 对应位为0的个数  *  对应位为1的个数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int totalHammingDistance(int[] nums) {
         int len = nums.length;
@@ -33,4 +33,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

@@ -1,21 +1,21 @@
-### 解题思路
-#### 1.理解问题：
-    寻找两个list中的共同项，并伴随“索引之和最小”这个约束条件
-    一些细节：
-        1）每个list都没有重复元素
-        2）list长度有限制
-        3）结果是个list
-#### 2.如何实现：
-    官方解题3
-    遍历listl建立hashMap，list中的string为key，index为value，然后遍历list2更新ans。
-    细节：
-        如何正确更新ans：
-            index_min改变的时候ans要完全更新
-            index_min不变的情况下也有多解的可能性，此时ans中需要插入新的解
+# ### 解题思路
+# #### 1.理解问题：
+#     寻找两个list中的共同项，并伴随“索引之和最小”这个约束条件
+#     一些细节：
+#         1）每个list都没有重复元素
+#         2）list长度有限制
+#         3）结果是个list
+# #### 2.如何实现：
+#     官方解题3
+#     遍历listl建立hashMap，list中的string为key，index为value，然后遍历list2更新ans。
+#     细节：
+#         如何正确更新ans：
+#             index_min改变的时候ans要完全更新
+#             index_min不变的情况下也有多解的可能性，此时ans中需要插入新的解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:
         checklist = {}
@@ -39,4 +39,4 @@ class Solution:
                 pass
         return ans 
         
-```
+# ```

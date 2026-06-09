@@ -1,6 +1,6 @@
-可以算的节约一点，只算对所求杯子里有贡献的。
+# 可以算的节约一点，只算对所求杯子里有贡献的。
 
-```python
+# ```python
 import collections
 
 
@@ -25,11 +25,11 @@ class Solution:
                 (i - 1, j - 1)] - 1) + 0.5 * max(0, champange_through[(i - 1, j)] - 1)
             abundant |= champange_through[(i, j)] > 1
         return min(1, champange_through[(query_row, query_glass)])
-```
+# ```
 
-也可以奔放一些，上面杯子全算，貌似这样更快些。
+# 也可以奔放一些，上面杯子全算，貌似这样更快些。
 
-```python
+# ```python
 class Solution:
     def champagneTower(self, poured: int, query_row: int, query_glass: int) -> float:
         if query_row == query_glass == 0:
@@ -44,4 +44,4 @@ class Solution:
             if all(i <= 1 for i in cur):
                 break
         return 0
-```
+# ```

@@ -1,12 +1,12 @@
-惭愧，自己做不出来。在 leetcode.com 上看到一个讲解非常清晰的帖子。搬运一下。
+// 惭愧，自己做不出来。在 leetcode.com 上看到一个讲解非常清晰的帖子。搬运一下。
 
-[Python step-by-step walk through. Easy to understand. Two solutions comparison. : ) - LeetCode Discuss](https://leetcode.com/problems/path-sum-iii/discuss/141424/Python-step-by-step-walk-through.-Easy-to-understand.-Two-solutions-comparison.-%3A-))
+// [Python step-by-step walk through. Easy to understand. Two solutions comparison. : ) - LeetCode Discuss](https://leetcode.com/problems/path-sum-iii/discuss/141424/Python-step-by-step-walk-through.-Easy-to-understand.-Two-solutions-comparison.-%3A-))
 
 
 
-下面是自己改写为 JS 的代码，带注释。
+// 下面是自己改写为 JS 的代码，带注释。
 
-```js
+// ```js
 // 双层递归暴力解题，n^2 复杂度
 // 正常的深度递归之外，在每一节点处，设置一个子递归
 var pathSum = function(root, sum) {
@@ -59,11 +59,11 @@ var pathSum = function(root, sum) {
   dfs(root)
   return res
 };
-```
+// ```
 
 
-补一版「循环不变式」视角下的代码，逻辑几乎没变，但注释逻辑统一
-```js
+// 补一版「循环不变式」视角下的代码，逻辑几乎没变，但注释逻辑统一
+// ```js
 var pathSum = function(root, sum) {
   // initialize count to save result
   let count = 0
@@ -104,4 +104,4 @@ var pathSum = function(root, sum) {
 
   return count
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![截屏2020-03-06上午9.55.13.png](https://pic.leetcode-cn.com/1291319fd457baded39fb8529d2e1b99d13b526648ed3c873b070eb4a93268cb-%E6%88%AA%E5%B1%8F2020-03-06%E4%B8%8A%E5%8D%889.55.13.png)
+// ### 解题思路
+// ![截屏2020-03-06上午9.55.13.png](https://pic.leetcode-cn.com/1291319fd457baded39fb8529d2e1b99d13b526648ed3c873b070eb4a93268cb-%E6%88%AA%E5%B1%8F2020-03-06%E4%B8%8A%E5%8D%889.55.13.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.ArrayList;
 
 class Solution {
@@ -58,4 +58,4 @@ class Solution {
     }
 
 }
-```
+// ```

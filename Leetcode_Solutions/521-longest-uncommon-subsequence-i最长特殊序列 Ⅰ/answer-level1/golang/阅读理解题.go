@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findLUSlength(a string, b string) int {
     //a,b两个字符串长度相同时，如果a!=b，那么a或者b都可以是特殊子序列
     //a,b两个字符串长度不相同时，长度大的那个字符串是 最大特殊子序列
@@ -21,4 +21,4 @@ func findLUSlength(a string, b string) int {
     }
     return -1
 }
-```
+// ```

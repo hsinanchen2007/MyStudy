@@ -1,16 +1,16 @@
-纯模拟，8ms（丢人）
+// 纯模拟，8ms（丢人）
 
-首先，先了解一下string库中几个不太常用的函数：
-`find_first_of` [cppreference文档页](https://zh.cppreference.com/w/cpp/string/basic_string/find_first_of) 查找给定字符序列中任意字符首次出现的位置；
-`find_first_not_of` [cppreference文档页](https://zh.cppreference.com/w/cpp/string/basic_string/find_first_not_of) 查找不是给定字符序列的字符首次出现的位置；
+// 首先，先了解一下string库中几个不太常用的函数：
+// `find_first_of` [cppreference文档页](https://zh.cppreference.com/w/cpp/string/basic_string/find_first_of) 查找给定字符序列中任意字符首次出现的位置；
+// `find_first_not_of` [cppreference文档页](https://zh.cppreference.com/w/cpp/string/basic_string/find_first_not_of) 查找不是给定字符序列的字符首次出现的位置；
 
-1. 先用`find_first_of`找出第一个不是空格的位置，将字符串截取；
-2. 判断第一位是符号还是数字，如果是数字，neg_flag为0，如果是负号，则为-1，如果是正号，则为1；
-3. 使用`find_first_not_of`找出从abs(neg_flag)位置开始第一个不是数字的位置，截取；
-4. 进入数字还原的步骤，如果途中超出了INT_MAX，则根据正负提前返回对应的值，否则继续；
-5. 最后返回结果乘以正负标记即可（记得如果neg_flag为0先将其置为1）
+// 1. 先用`find_first_of`找出第一个不是空格的位置，将字符串截取；
+// 2. 判断第一位是符号还是数字，如果是数字，neg_flag为0，如果是负号，则为-1，如果是正号，则为1；
+// 3. 使用`find_first_not_of`找出从abs(neg_flag)位置开始第一个不是数字的位置，截取；
+// 4. 进入数字还原的步骤，如果途中超出了INT_MAX，则根据正负提前返回对应的值，否则继续；
+// 5. 最后返回结果乘以正负标记即可（记得如果neg_flag为0先将其置为1）
 
-```
+// ```
 class Solution {
    public:
     int myAtoi(string str) {
@@ -45,4 +45,4 @@ class Solution {
         return (int)ans * neg_flag;
     }
 };
-```
+// ```

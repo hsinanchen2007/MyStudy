@@ -1,9 +1,9 @@
-### 解题思路
-构造26个元素的hash，按照S的顺序给hash元素复制，S中不存在的复0，最先输出，然后根据元素值qsort一下就好了
+// ### 解题思路
+// 构造26个元素的hash，按照S的顺序给hash元素复制，S中不存在的复0，最先输出，然后根据元素值qsort一下就好了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int flag[26] = {0};
 int comfunc(const void* a, const void* b) {
     char c = *(char*)a;
@@ -22,4 +22,4 @@ char * customSortString(char * S, char * T){
     qsort(T, lenT, sizeof(char), comfunc);
     return T;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int twoSumLessThanK(vector<int>& A, int K) {
@@ -50,4 +50,4 @@ public:
         return limitSum;
     }
 };
-```
+// ```

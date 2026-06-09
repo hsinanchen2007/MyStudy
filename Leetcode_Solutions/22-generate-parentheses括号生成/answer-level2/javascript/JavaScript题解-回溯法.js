@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -22,4 +22,4 @@ var generateParenthesis = function(n) {
     trackback(0,0,"");
     return result;
 };
-```
+// ```

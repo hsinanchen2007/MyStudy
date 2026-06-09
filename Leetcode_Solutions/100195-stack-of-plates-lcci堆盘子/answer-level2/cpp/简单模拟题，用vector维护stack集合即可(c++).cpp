@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class StackOfPlates {
 public:
     vector<stack<int>>setstack;
@@ -38,4 +38,4 @@ public:
         return a;
     }
 };
-```
+// ```

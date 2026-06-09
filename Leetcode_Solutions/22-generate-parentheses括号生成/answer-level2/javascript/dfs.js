@@ -1,8 +1,8 @@
-### 解题思路
-深度优先遍历 dfs
-### 代码
+// ### 解题思路
+// 深度优先遍历 dfs
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -27,4 +27,4 @@ var generateParenthesis = function(n) {
     dfs(n, n, '')
     return ans
 };
-```
+// ```

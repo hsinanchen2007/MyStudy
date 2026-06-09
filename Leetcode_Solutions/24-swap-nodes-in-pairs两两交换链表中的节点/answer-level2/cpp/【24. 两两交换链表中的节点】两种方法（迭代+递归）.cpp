@@ -1,7 +1,7 @@
-相似题目：[25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
-## 思路一：迭代
-### 代码
-```c++
+// 相似题目：[25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
+// ## 思路一：迭代
+// ### 代码
+// ```c++
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
@@ -34,11 +34,11 @@ public:
         return pre;
     }
 };
-```
+// ```
 
-## 思路二：递归
-### 代码
-```c++
+// ## 思路二：递归
+// ### 代码
+// ```c++
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
@@ -63,5 +63,5 @@ public:
         return head;
     }
 };
-```
+// ```
 

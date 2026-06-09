@@ -1,14 +1,14 @@
-### 解题思路
-/**
- * 1.建立一个HashMap，前面多项和sum为key，此节点d作为value，组成 (sum,d)
- * 如果出现好多相同的(sum,d)，后面的覆盖前面的
- * 2.第二遍遍历哈希表，如果sum和哈希表里面的sum相同，找到sum对应的结点的next作为d.next;
- * 3.返回链表的头结点
- */
+// ### 解题思路
+// /**
+//  * 1.建立一个HashMap，前面多项和sum为key，此节点d作为value，组成 (sum,d)
+//  * 如果出现好多相同的(sum,d)，后面的覆盖前面的
+//  * 2.第二遍遍历哈希表，如果sum和哈希表里面的sum相同，找到sum对应的结点的next作为d.next;
+//  * 3.返回链表的头结点
+//  */
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public ListNode removeZeroSumSublists(ListNode head) {
         ListNode dummy = new ListNode(0);
@@ -28,4 +28,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

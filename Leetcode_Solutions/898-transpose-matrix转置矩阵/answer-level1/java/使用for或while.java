@@ -1,4 +1,4 @@
-```
+// ```
 //嵌套循环
 	public static int[][] transpose(int[][] A){
 		int Z = A.length;
@@ -11,8 +11,8 @@
 		}
 		return B;
 	}
-```
-```
+// ```
+// ```
 //while循环
 	public static int[][] transpose(int[][] A){
 		int Z = A.length;
@@ -30,4 +30,4 @@
 		}
 		return B;
 	}
-```
+// ```

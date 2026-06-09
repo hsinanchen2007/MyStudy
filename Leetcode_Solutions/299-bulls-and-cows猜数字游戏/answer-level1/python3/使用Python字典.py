@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
-对输入字符串遍历一次，计算A的个数和各个数字出现的次数；再对字典遍历一次，计算B的个数。
-### 代码
+# 对输入字符串遍历一次，计算A的个数和各个数字出现的次数；再对字典遍历一次，计算B的个数。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getHint(self, secret: str, guess: str) -> str:
         bulls = 0
@@ -19,4 +19,4 @@ class Solution:
         cows = sum(min(s_dict[str(i)], g_dict[str(i)]) for i in range(10)) - bulls
 
         return '{bulls}A{cows}B'.format(bulls = bulls, cows = cows)
-```
+# ```

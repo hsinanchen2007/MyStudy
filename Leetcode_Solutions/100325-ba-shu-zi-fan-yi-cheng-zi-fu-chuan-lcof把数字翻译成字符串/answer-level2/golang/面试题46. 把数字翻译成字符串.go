@@ -1,12 +1,12 @@
-### 解题思路
-瞎写
-1. dfs
-2. 动态规划
+// ### 解题思路
+// 瞎写
+// 1. dfs
+// 2. 动态规划
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func translateNum(num int) int {
 	numStr := fmt.Sprintf("%d", num)
 	res := helper(numStr, 0)
@@ -23,4 +23,4 @@ func helper(str string, idx int) int {
 	}
 	return helper(str, idx+1) + helper(str, idx+2)
 }
-```
+// ```

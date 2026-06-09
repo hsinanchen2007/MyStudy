@@ -1,4 +1,4 @@
-根据preorder的start找到根, 然后根据inorder确定左右子树关系。
+// 根据preorder的start找到根, 然后根据inorder确定左右子树关系。
 
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {

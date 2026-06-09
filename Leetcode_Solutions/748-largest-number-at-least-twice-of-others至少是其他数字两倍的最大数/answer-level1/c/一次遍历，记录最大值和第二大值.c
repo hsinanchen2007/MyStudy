@@ -1,4 +1,4 @@
-```
+// ```
 int dominantIndex(int* nums, int numsSize){
     int max = 0;    /* 最大值*/
     int max2 = 0;   /* 第二大值*/
@@ -18,7 +18,7 @@ int dominantIndex(int* nums, int numsSize){
     }
     return -1;
 }
-```
+// ```
 
 
 

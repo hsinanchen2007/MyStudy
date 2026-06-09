@@ -1,9 +1,9 @@
-### 解题思路
-每次入栈同一层结点，并标记深度，依次出栈直到最后一层。
+# ### 解题思路
+# 每次入栈同一层结点，并标记深度，依次出栈直到最后一层。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -51,4 +51,4 @@ class Solution(object):
 
 
 
-```
+# ```

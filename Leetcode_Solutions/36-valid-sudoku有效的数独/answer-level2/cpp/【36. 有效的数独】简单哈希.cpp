@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```
+// ## 思路
+// ### 代码
+// ```
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
@@ -24,10 +24,10 @@ public:
         return true;
     }
 };
-```
-#### 另一种写法
-使用vector减少插入set插入时间复杂度。
-```
+// ```
+// #### 另一种写法
+// 使用vector减少插入set插入时间复杂度。
+// ```
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
@@ -51,5 +51,5 @@ public:
         return true;
     }
 };
-```
+// ```
 

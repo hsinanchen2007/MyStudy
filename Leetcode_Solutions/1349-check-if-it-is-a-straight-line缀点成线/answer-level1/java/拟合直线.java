@@ -1,9 +1,9 @@
-### 解题思路
-1.将一个点作为标准点，后边的每个点和标准店对比，分别计算斜率。**值得注意的是，当两个点的横坐标相等时，我们把斜率赋值为Double.MAX_VALUE,就避免了斜率计算时分母为0的情形**；
-2.如果每个点的斜率相等，那么这些点在一条直线上。
+// ### 解题思路
+// 1.将一个点作为标准点，后边的每个点和标准店对比，分别计算斜率。**值得注意的是，当两个点的横坐标相等时，我们把斜率赋值为Double.MAX_VALUE,就避免了斜率计算时分母为0的情形**；
+// 2.如果每个点的斜率相等，那么这些点在一条直线上。
 
-### 代码
-```java []
+// ### 代码
+// ```java []
  public static boolean checkStraightLine(int[][] coordinates) {
         int size = coordinates.length;
         if(size == 2) return true;
@@ -21,9 +21,9 @@
 
         return true;
     }
-```
+// ```
 
-```scala []
+// ```scala []
 object Solution {
     def checkStraightLine(coordinates: Array[Array[Int]]): Boolean = {
     if (coordinates.length == 2) true
@@ -43,4 +43,4 @@ object Solution {
     }
   }
 }
-```
+// ```

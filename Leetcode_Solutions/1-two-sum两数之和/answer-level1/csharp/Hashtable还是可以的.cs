@@ -1,6 +1,6 @@
-Hashtable 牛逼！
+// Hashtable 牛逼！
 
-```
+// ```
 public int[] TwoSum(int[] nums, int target)
 {
     Hashtable hashtable = new Hashtable();
@@ -12,6 +12,6 @@ public int[] TwoSum(int[] nums, int target)
     }
     return new int[] { -1, -1 };
 }
-```
+// ```
 
 

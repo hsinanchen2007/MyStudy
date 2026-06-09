@@ -1,9 +1,9 @@
-### 解题思路
-用2次二分查找，不同的策略
+// ### 解题思路
+// 用2次二分查找，不同的策略
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
@@ -38,4 +38,4 @@ class Solution {
         return new int[]{num1, num2};
     }
 }
-```
+// ```

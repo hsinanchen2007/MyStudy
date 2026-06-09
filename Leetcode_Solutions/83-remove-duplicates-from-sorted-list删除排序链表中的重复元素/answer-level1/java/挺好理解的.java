@@ -1,9 +1,9 @@
-### 解题思路
-嵌套了一个循环，将下一个不重复的节点赋给fast，但是这样复杂度o有点高。。
+// ### 解题思路
+// 嵌套了一个循环，将下一个不重复的节点赋给fast，但是这样复杂度o有点高。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

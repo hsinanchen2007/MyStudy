@@ -1,10 +1,10 @@
-![2020010901.PNG](https://pic.leetcode-cn.com/df2432e1c1bcb579d9c7ab1c8c2e970eaee4420e4a225489c1fda33fb91e8c90-2020010901.PNG)
+// ![2020010901.PNG](https://pic.leetcode-cn.com/df2432e1c1bcb579d9c7ab1c8c2e970eaee4420e4a225489c1fda33fb91e8c90-2020010901.PNG)
 
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
     	Map<Integer,Integer> map = new HashMap<>();
@@ -27,4 +27,4 @@ class Solution {
         return nums1;
     }
 }
-```
+// ```

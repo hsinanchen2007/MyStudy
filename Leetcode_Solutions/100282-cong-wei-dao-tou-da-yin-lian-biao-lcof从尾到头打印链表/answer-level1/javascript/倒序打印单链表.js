@@ -1,10 +1,10 @@
-### 解题思路
-1、将各个节点递归遍历存储在栈【数组头部插入模拟】中
-2、通过弹栈取出，形成数组值
+// ### 解题思路
+// 1、将各个节点递归遍历存储在栈【数组头部插入模拟】中
+// 2、通过弹栈取出，形成数组值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -34,4 +34,4 @@ function inStack(head, stack = []) {
 var reversePrint = function(head) {
     return inStack(head).map(item => item.val)
 };
-```
+// ```

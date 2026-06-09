@@ -1,13 +1,13 @@
-1.前缀和+窗口滑动
-2.前缀和+正向单调递增栈 +反向单调栈
+// 1.前缀和+窗口滑动
+// 2.前缀和+正向单调递增栈 +反向单调栈
 
-1.前缀和+窗口滑动：
-1）计算前缀和（要在前面补0）
-2）设置滑窗left和right，因此前缀和已知，所以left和right之间的差值已知
-注意presum[iright] - presum[ileft]计算的是left+1~right的和，而不是left~right的和
-3）已知L和M，分别设置滑窗，然后加和，获得最大值
+// 1.前缀和+窗口滑动：
+// 1）计算前缀和（要在前面补0）
+// 2）设置滑窗left和right，因此前缀和已知，所以left和right之间的差值已知
+// 注意presum[iright] - presum[ileft]计算的是left+1~right的和，而不是left~right的和
+// 3）已知L和M，分别设置滑窗，然后加和，获得最大值
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSumTwoNoOverlap(vector<int> &A, int L, int M)
@@ -38,12 +38,12 @@ public:
         return maxvalue;
     }
 };
-```
-2.前缀和+正向最大值 +反向最大值
-由于方法1为了求最大值，存在很多无效加和。实际上方法1只是为了找到L窗口左右两边的M窗口的最大值；
-因此我们提前计算一遍i左边窗口M的最大值LeftMMAX，i右边的窗口M最大值RightMMAX，最终取L+MAX(RightMMAX,LeftMMAX)
-注意：这里面边界条件不是很好想，虽然效率高，但是没必要弄得这么难想。
-```
+// ```
+// 2.前缀和+正向最大值 +反向最大值
+// 由于方法1为了求最大值，存在很多无效加和。实际上方法1只是为了找到L窗口左右两边的M窗口的最大值；
+// 因此我们提前计算一遍i左边窗口M的最大值LeftMMAX，i右边的窗口M最大值RightMMAX，最终取L+MAX(RightMMAX,LeftMMAX)
+// 注意：这里面边界条件不是很好想，虽然效率高，但是没必要弄得这么难想。
+// ```
 class Solution {
 public:
     int maxSumTwoNoOverlap(vector<int> &A, int L, int M)
@@ -82,7 +82,7 @@ public:
         return maxvalue;
     }
 };
-```
+// ```
 
 
 

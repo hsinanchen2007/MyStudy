@@ -1,4 +1,4 @@
-```class SnakeGame {
+// ```class SnakeGame {
     Set<Integer> screen;
     Queue<Integer> body;
 
@@ -75,4 +75,4 @@
         return body.size() - 1;
     }
 }
-```
+// ```

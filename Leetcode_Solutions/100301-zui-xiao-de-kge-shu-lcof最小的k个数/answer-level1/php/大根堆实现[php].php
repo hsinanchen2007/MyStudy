@@ -1,9 +1,9 @@
-### 解题思路
-先贴代码，思路再补充。
+// ### 解题思路
+// 先贴代码，思路再补充。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
     /**
      * @param Integer[] $arr
@@ -47,4 +47,4 @@ class Solution {
         list($arr[$i],$arr[$j]) = [$arr[$j],$arr[$i]];
     }
 }
-```
+// ```

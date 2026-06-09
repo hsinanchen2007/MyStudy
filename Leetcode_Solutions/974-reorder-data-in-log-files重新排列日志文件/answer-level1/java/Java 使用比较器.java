@@ -1,12 +1,12 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
-排序规则：字符日志在数字日志之前，字符日志先按照内容的字典序排列，如果内容相同再按照标识符排序，数字日志按照输入的顺序排序。
+// 排序规则：字符日志在数字日志之前，字符日志先按照内容的字典序排列，如果内容相同再按照标识符排序，数字日志按照输入的顺序排序。
 
-所以使用两个集合来保存字符日志和数字日志，然后分别排序字符日志和数字日志，最后将数字日志添加到字符日志之后即可
+// 所以使用两个集合来保存字符日志和数字日志，然后分别排序字符日志和数字日志，最后将数字日志添加到字符日志之后即可
 
-```
+// ```
 class Solution {
     public String[] reorderLogFiles(String[] logs) {
         if (logs.length == 0) return new String[]{};
@@ -41,4 +41,4 @@ class Solution {
         return charList.toArray(new String[charList.size()]);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 代码块
 class Solution:
     def verifyPostorder(self, postorder) -> bool:
@@ -16,4 +16,4 @@ class Solution:
         if stack[1] < stack[0] and max(stack[1:]) < stack[0]:
             return self.dfs(stack[1:])
         else: return False
-```
+# ```

@@ -1,7 +1,7 @@
-1.由题可知每个奇偶数前面都会有0，所以先执行0再根据奇偶数特性判断下一个执行的
+// 1.由题可知每个奇偶数前面都会有0，所以先执行0再根据奇偶数特性判断下一个执行的
 
 
-```
+// ```
 class ZeroEvenOdd {
     private int n;
     private boolean first;
@@ -62,5 +62,5 @@ class ZeroEvenOdd {
 
     }
 }
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-先从左、上走到当前位置；再从右、下走到当前位置，一共四个方向的路径
+// ### 解题思路
+// 先从左、上走到当前位置；再从右、下走到当前位置，一共四个方向的路径
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxDistance(vector<vector<int>>& grid) {
@@ -39,4 +39,4 @@ public:
         return tMax;
     }
 };
-```
+// ```

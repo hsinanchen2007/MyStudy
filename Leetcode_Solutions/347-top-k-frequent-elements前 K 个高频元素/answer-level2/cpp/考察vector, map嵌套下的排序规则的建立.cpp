@@ -1,9 +1,9 @@
-### 解题思路
-开辟map存储原始ele以及times
-建立vector存储上述map，并且进行排序
-### 代码
+// ### 解题思路
+// 开辟map存储原始ele以及times
+// 建立vector存储上述map，并且进行排序
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<int> topKFrequent(vector<int>& nums, int k){
@@ -62,4 +62,4 @@ public:
     	return vec_k_freq;
     }*/
 };
-```
+// ```

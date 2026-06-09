@@ -1,5 +1,5 @@
-统计每个string中a-b每个字母的次数，异位词的次数会相等，把次数分布当做一个哈希的输入即可
-```
+// 统计每个string中a-b每个字母的次数，异位词的次数会相等，把次数分布当做一个哈希的输入即可
+// ```
 //方法1，结合unordered_multimap
 size_t hashFunc(const string& str) {
 	size_t table[26] = { 0 };
@@ -69,4 +69,4 @@ public:
 		return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用了 python list 的功能 pop() append()  来模拟了 stack 
+# ### 解题思路
+# 用了 python list 的功能 pop() append()  来模拟了 stack 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
@@ -20,4 +20,4 @@ class Solution:
             return False
         else:
             return True
-```
+# ```

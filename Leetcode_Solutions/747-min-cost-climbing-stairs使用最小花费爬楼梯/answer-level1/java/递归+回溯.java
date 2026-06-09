@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-递归加回溯，但是还是不如动态规划快。
+// 递归加回溯，但是还是不如动态规划快。
 
-```java
+// ```java
 class Solution {
     public int minCostClimbingStairs(int[] cost){
         int number = cost.length-1;
@@ -25,4 +25,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```go
+// ```go
 func removeOuterParentheses(S string) string {
 	size, i, res, l := len(S), 0, "", 0
 	for i < size {
@@ -22,4 +22,4 @@ func removeOuterParentheses(S string) string {
 	}
 	return res
 }
-```
+// ```

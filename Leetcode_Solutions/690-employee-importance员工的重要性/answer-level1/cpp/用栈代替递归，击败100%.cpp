@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int getImportance(vector<Employee*> employees, int id) {
@@ -22,4 +22,4 @@ public:
       return sum;
     }
 };
-```
+// ```

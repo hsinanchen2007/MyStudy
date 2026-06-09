@@ -1,5 +1,5 @@
-嗯， `cstdio` 库(捂脸)
-```c++
+// 嗯， `cstdio` 库(捂脸)
+// ```c++
 class Solution {
  public:
   string toHexspeak(string num) {
@@ -19,4 +19,4 @@ class Solution {
     return ans;
   }
 };
-```
+// ```

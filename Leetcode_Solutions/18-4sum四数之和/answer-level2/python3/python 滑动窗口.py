@@ -1,18 +1,18 @@
-### 解题思路
-此处撰写解题思路
-采用滑动窗口解法
-```javascript []
+# ### 解题思路
+# 此处撰写解题思路
+# 采用滑动窗口解法
+# ```javascript []
 console.log('Hello world!')
-```
-```python []
+# ```
+# ```python []
 print('Hello world!')
-```
-```ruby []
+# ```
+# ```ruby []
 puts 'Hello world!'
-```
-### 代码
+# ```
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         result = []
@@ -40,4 +40,4 @@ class Solution:
         return result
                          
 
-```
+# ```

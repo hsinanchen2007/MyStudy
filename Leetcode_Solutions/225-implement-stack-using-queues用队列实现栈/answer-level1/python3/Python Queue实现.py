@@ -1,15 +1,15 @@
-## 使用Python的Queue队列
-Queue对象通用方法：
-- Queue.qsize()
-- Queue.empty()
-- Queue.put(item)
-- Queue.get()
-有了这几个就可以了
+# ## 使用Python的Queue队列
+# Queue对象通用方法：
+# - Queue.qsize()
+# - Queue.empty()
+# - Queue.put(item)
+# - Queue.get()
+# 有了这几个就可以了
 
-重点关注push()的实现中，放入一个数据之后，将队列中原有数据按照顺序移动到队尾
+# 重点关注push()的实现中，放入一个数据之后，将队列中原有数据按照顺序移动到队尾
 
 
-```
+# ```
 from queue import Queue
 class MyStack:
 
@@ -53,4 +53,4 @@ class MyStack:
         # print(self.queue.get())
         return self.queue_push.empty()
 
-```
+# ```

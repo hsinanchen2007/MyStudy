@@ -1,9 +1,9 @@
-### 解题思路
-使用双指针法，一个在前面，一个在后面来进行这个操作
+// ### 解题思路
+// 使用双指针法，一个在前面，一个在后面来进行这个操作
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         		//排序
@@ -26,4 +26,4 @@ class Solution {
 
     }
 }
-```
+// ```

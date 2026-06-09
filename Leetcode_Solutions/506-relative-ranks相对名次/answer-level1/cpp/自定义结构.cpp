@@ -1,4 +1,4 @@
-```
+// ```
 struct Node{
 	int id;
 	int score;
@@ -40,4 +40,4 @@ public:
     	return re;
     }
 };
-```
+// ```

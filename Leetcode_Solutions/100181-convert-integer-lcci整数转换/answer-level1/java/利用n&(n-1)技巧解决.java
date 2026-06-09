@@ -1,15 +1,15 @@
-### 解题思路
-即求A与B异或的值中1的个数, 通过n&(n - 1)可以去掉一个数的二进制表示的最右边的1.
-如下原理: 
+// ### 解题思路
+// 即求A与B异或的值中1的个数, 通过n&(n - 1)可以去掉一个数的二进制表示的最右边的1.
+// 如下原理: 
 
-```
+// ```
      xxx100  (n)
   &  xxx011  (n - 1)
      xxx000
-```
-### 代码
+// ```
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int convertInteger(int A, int B) {
         int temp = A ^ B;
@@ -21,4 +21,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

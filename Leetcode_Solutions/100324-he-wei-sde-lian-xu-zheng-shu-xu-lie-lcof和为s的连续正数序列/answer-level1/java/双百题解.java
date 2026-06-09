@@ -1,11 +1,11 @@
 
-思路：获得数组左边界和长度，利用数学的求和公式就可以了
+// 思路：获得数组左边界和长度，利用数学的求和公式就可以了
 
-    1. 由于target = (start,...,target/n,...,start + n), 其中target/n 时要么在中间，要么是在中间偏左的那个数，如果在中间start = target/n - n/2，如果是中间偏左的那个数则start = target/n - n/2 + 1。
-    2. 得到 start 和 n则利用求和公式:sum = n*start + n*(n-1)/2，如果sum与target相等则此区间成立
-    3. 终止条件为：左边界start到达1或比1还小
+//     1. 由于target = (start,...,target/n,...,start + n), 其中target/n 时要么在中间，要么是在中间偏左的那个数，如果在中间start = target/n - n/2，如果是中间偏左的那个数则start = target/n - n/2 + 1。
+//     2. 得到 start 和 n则利用求和公式:sum = n*start + n*(n-1)/2，如果sum与target相等则此区间成立
+//     3. 终止条件为：左边界start到达1或比1还小
 
-```java []
+// ```java []
 public int[][] findContinuousSequence(int target) {
         List<int[]> result = new ArrayList<>();
         int num = 2;
@@ -33,4 +33,4 @@ public int[][] findContinuousSequence(int target) {
 
         return result.toArray(new int[0][]);
     }
-```
+// ```

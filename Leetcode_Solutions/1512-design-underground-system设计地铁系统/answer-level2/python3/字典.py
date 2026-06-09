@@ -1,5 +1,5 @@
 
-```
+# ```
 class UndergroundSystem:
 
     def __init__(self):
@@ -25,4 +25,4 @@ class UndergroundSystem:
 
     def getAverageTime(self, startStation, endStation):
         return self.out[(startStation, endStation)][0]/self.out[(startStation, endStation)][1]
-```
+# ```

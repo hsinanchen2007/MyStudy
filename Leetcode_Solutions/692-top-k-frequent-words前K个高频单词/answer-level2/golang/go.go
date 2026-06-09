@@ -1,9 +1,9 @@
-### 解题思路
-pq注意优先级相同使用字典序 
+// ### 解题思路
+// pq注意优先级相同使用字典序 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func topKFrequent(words []string, k int) []string {
 	m := make(map[string]int)
@@ -70,4 +70,4 @@ func (p *priorityQueue) Pop() interface{} {
 	return v
 }
 
-```
+// ```

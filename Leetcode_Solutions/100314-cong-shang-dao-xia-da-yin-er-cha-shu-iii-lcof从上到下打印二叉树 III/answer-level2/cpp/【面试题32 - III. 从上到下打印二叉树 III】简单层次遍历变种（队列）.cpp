@@ -1,9 +1,9 @@
-## 思路
-在[【面试题32 - II. 从上到下打印二叉树 II】简单层次遍历（队列）](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/solution/mian-shi-ti-32-ii-cong-shang-dao-xia-da-yin-er-c-4/)基础上偶数层逆序即可。
+// ## 思路
+// 在[【面试题32 - II. 从上到下打印二叉树 II】简单层次遍历（队列）](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/solution/mian-shi-ti-32-ii-cong-shang-dao-xia-da-yin-er-c-4/)基础上偶数层逆序即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

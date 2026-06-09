@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         if not nums:
@@ -19,4 +19,4 @@ class Solution:
             mins=min(mins*nums[i],nums[i])
             ans=max(ans,maxs)
         return ans
-```
+# ```

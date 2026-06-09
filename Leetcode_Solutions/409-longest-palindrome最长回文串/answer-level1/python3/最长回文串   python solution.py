@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         dic = {}
@@ -19,7 +19,7 @@ class Solution:
             if ans%2==0 and i%2==1:
                 ans +=1
         return ans
-```
+# ```
 
 
-the very nice method for this problme
+# the very nice method for this problme

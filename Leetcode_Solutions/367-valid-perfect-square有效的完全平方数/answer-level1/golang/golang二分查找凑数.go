@@ -1,10 +1,10 @@
-### 解题思路
-思路很简单、就是感觉leetcode上golang代码太少、哈哈
-需要注意的就是边界问题和中位数问题
+// ### 解题思路
+// 思路很简单、就是感觉leetcode上golang代码太少、哈哈
+// 需要注意的就是边界问题和中位数问题
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isPerfectSquare(num int) bool {
     l := 0
 	r := num
@@ -21,4 +21,4 @@ func isPerfectSquare(num int) bool {
 	}
 	return false
 }
-```
+// ```

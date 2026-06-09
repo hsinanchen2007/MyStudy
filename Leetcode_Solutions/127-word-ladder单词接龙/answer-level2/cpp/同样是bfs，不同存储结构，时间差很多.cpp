@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool Cmp(const string &s1, const string &s2)
@@ -62,4 +62,4 @@ public:
         return 0;
     }
 };
-```
+// ```

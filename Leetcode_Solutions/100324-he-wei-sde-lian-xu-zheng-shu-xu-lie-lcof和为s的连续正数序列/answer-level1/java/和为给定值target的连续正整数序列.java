@@ -1,8 +1,8 @@
-### 解题思路
-考虑使用两个数 small和big表示序列的最小值和最大值，初始化为1和2。如果从small到big的和大于target，去掉最小值，也就是增加small，如果和小于target，增加big。因为序列至少包含两个数，我们增加small一直到(1+target)/2为止。
-### 代码
+// ### 解题思路
+// 考虑使用两个数 small和big表示序列的最小值和最大值，初始化为1和2。如果从small到big的和大于target，去掉最小值，也就是增加small，如果和小于target，增加big。因为序列至少包含两个数，我们增加small一直到(1+target)/2为止。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> list = new ArrayList<>();
     public void addList(int small,int big){
@@ -42,4 +42,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

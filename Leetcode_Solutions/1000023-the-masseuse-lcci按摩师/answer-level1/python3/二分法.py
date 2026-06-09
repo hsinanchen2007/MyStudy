@@ -1,13 +1,13 @@
-# 二分法
+# # 二分法
 
-思路：每次选取最中心的一个数，分为两种状态：
+# 思路：每次选取最中心的一个数，分为两种状态：
 
-- 包含这个数：`nums[c] + f(nums[:c - 1]) + f(nums[c + 2:])`
-- 不包含这个数：`f(nums[:c]) + f(nums[c + 1:])`
+# - 包含这个数：`nums[c] + f(nums[:c - 1]) + f(nums[c + 2:])`
+# - 不包含这个数：`f(nums[:c]) + f(nums[c + 1:])`
 
-这两种状态的最大值即为结果
+# 这两种状态的最大值即为结果
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         l = len(nums)
@@ -20,10 +20,10 @@ class Solution:
             yes = nums[c] + self.massage(nums[:c - 1]) + self.massage(nums[c + 2:])
             no = self.massage(nums[:c]) + self.massage(nums[c + 1:])
             return max(yes, no)
-```
+# ```
 
-# 复杂度
+# # 复杂度
 
-时间复杂度：O(log(N))
+# 时间复杂度：O(log(N))
 
-空间复杂度：O(1)
+# 空间复杂度：O(1)

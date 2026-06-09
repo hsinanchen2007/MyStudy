@@ -1,9 +1,9 @@
-### 解题思路
-1. 转成integer加1
-2. 再转成list
-### 代码
+# ### 解题思路
+# 1. 转成integer加1
+# 2. 再转成list
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def plusOne(self, digits):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             digits.append(char)
   
         return digits
-```
+# ```

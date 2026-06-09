@@ -1,9 +1,9 @@
 
-看了，各位的代码，收获较大，，写了出来，一点点改进 。
+# 看了，各位的代码，收获较大，，写了出来，一点点改进 。
 
-只是早早break 。36ms ,
+# 只是早早break 。36ms ,
 
-`内联代码
+# `内联代码
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         

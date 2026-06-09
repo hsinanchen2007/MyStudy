@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func trap(height []int) int {
     result := 0
 	// 特殊情况处理
@@ -38,4 +38,4 @@ func max(a, b int) int {
 	return b
 }
 
-```
+// ```

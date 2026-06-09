@@ -1,8 +1,8 @@
-### 解题思路
-带头节点链表，只需判断是否为最后一个节点，或倒数第二个节点就行
-### 代码
+// ### 解题思路
+// 带头节点链表，只需判断是否为最后一个节点，或倒数第二个节点就行
+// ### 代码
 
-```c
+// ```c
 typedef struct stack{
 int data;
 struct stack* next;
@@ -93,4 +93,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

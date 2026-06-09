@@ -1,4 +1,4 @@
-```
+# ```
 class MedianFinder:
 
     def __init__(self):
@@ -34,4 +34,4 @@ class MedianFinder:
         else:                   # 奇数情况
             return self.__data[self.size // 2]
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> imageSmoother(vector<vector<int>>& M) {
@@ -22,5 +22,5 @@ public:
         return M;
     }
 };
-```
-对数组中的每个元素，考虑其四周的情况，逐一计算。
+// ```
+// 对数组中的每个元素，考虑其四周的情况，逐一计算。

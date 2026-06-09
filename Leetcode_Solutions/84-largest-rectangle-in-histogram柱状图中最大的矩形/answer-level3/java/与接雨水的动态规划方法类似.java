@@ -1,13 +1,13 @@
-### 解题思路
-以height[i]为高的矩形要使面积最大，宽就要最大，当左右两边以第一个比height[i]小的值的下标为边界时，宽最大。
-left[i]表示height[i]左边第一个小于height[i]的数的下标。
-right[i]表示height[i]右边第一个小于height[i]的数的下标。
-(right[i]-left[i]-1)为最大宽。
-left[i]的取值通过判断左边第一个元素是否比height[i]小，小则达到下标，否则取第一个元素的left值继续比较。
+// ### 解题思路
+// 以height[i]为高的矩形要使面积最大，宽就要最大，当左右两边以第一个比height[i]小的值的下标为边界时，宽最大。
+// left[i]表示height[i]左边第一个小于height[i]的数的下标。
+// right[i]表示height[i]右边第一个小于height[i]的数的下标。
+// (right[i]-left[i]-1)为最大宽。
+// left[i]的取值通过判断左边第一个元素是否比height[i]小，小则达到下标，否则取第一个元素的left值继续比较。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int largestRectangleArea(int[] heights) {
         if (heights==null || heights.length<1)return 0;
@@ -35,4 +35,4 @@ class Solution {
     }
 
 }
-```
+// ```

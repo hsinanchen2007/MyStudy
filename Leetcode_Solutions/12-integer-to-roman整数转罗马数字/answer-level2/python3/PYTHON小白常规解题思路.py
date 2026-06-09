@@ -1,9 +1,9 @@
-### 解题思路
-分离位权，进行四个条件判断，在字典查找对应值
+# ### 解题思路
+# 分离位权，进行四个条件判断，在字典查找对应值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intToRoman(self, num: int) -> str:
         dic = {1: 'I', 5: 'V', 10: 'X', 50: 'L', 100: 'C', 500: 'D',
@@ -27,4 +27,4 @@ class Solution:
         res_str = "".join(res[::-1])
         #print(res_str)
         return res_str
-```
+# ```

@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/f63c70b760740188c7c2ec0df9212b61ee7dc49051b4f71c0e63442ba6fc6422-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f63c70b760740188c7c2ec0df9212b61ee7dc49051b4f71c0e63442ba6fc6422-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 直观方法 dfs：判断所有格子是否可走，每次遇到新格子，统计次数 + 1，遇到不能走的停止即可。
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} m
  * @param {number} n
@@ -95,4 +95,4 @@ var movingCount = function(m, n, k) {
   
   return count;
 };
-```
+// ```

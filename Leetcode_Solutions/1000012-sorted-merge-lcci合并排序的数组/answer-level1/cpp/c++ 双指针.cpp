@@ -1,5 +1,5 @@
-将A的情况，分为已经可以直接复制和还需要判断后赋值。
-```
+// 将A的情况，分为已经可以直接复制和还需要判断后赋值。
+// ```
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -29,4 +29,4 @@ public:
         }
     }
 };
-```
+// ```

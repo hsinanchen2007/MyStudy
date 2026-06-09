@@ -1,9 +1,9 @@
-1. 归并排序的迭代写法思路比较简单，但是代码写的比较low，也不知道空间复杂度满不满足要求
-2. 快速排序不知道为什么会超时
-希望大佬们看看，给出一些宝贵的意见
+# 1. 归并排序的迭代写法思路比较简单，但是代码写的比较low，也不知道空间复杂度满不满足要求
+# 2. 快速排序不知道为什么会超时
+# 希望大佬们看看，给出一些宝贵的意见
 
-- 归并排序--递归
-```
+# - 归并排序--递归
+# ```
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
         #归并排序--递归
@@ -45,11 +45,11 @@ class Solution:
         if right:
             pre.next = right
         return res.next
-```
+# ```
 
 
-- 归并排序--迭代
-```
+# - 归并排序--迭代
+# ```
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
         
@@ -135,10 +135,10 @@ class Solution:
             pre = pre.next
         #返回合并后链表的开头和结尾
         return res.next, pre
-```
+# ```
 
-- 快速排序 -- 前后指针
-```
+# - 快速排序 -- 前后指针
+# ```
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
         if not head or not head.next:
@@ -165,4 +165,4 @@ class Solution:
             cur = cur.next
         pre.val, left.val = left.val, pre.val
         return pre 
-```
+# ```

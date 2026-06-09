@@ -1,16 +1,16 @@
-### 解题思路
-我的思路：无
+# ### 解题思路
+# 我的思路：无
 	
 
-复杂度分析：                                                             
-	• 时间复杂度：o(n)
-	• 空间复杂度：o(n)
+# 复杂度分析：                                                             
+# 	• 时间复杂度：o(n)
+# 	• 空间复杂度：o(n)
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         dicts = {}
@@ -26,4 +26,4 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```

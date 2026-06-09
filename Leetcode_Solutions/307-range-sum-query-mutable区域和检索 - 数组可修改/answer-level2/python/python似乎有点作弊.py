@@ -1,9 +1,9 @@
-### 解题思路
-这样的题目为什么是中等呢
+# ### 解题思路
+# 这样的题目为什么是中等呢
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class NumArray(object):
 
     def __init__(self, nums):
@@ -36,4 +36,4 @@ class NumArray(object):
 # obj = NumArray(nums)
 # obj.update(i,val)
 # param_2 = obj.sumRange(i,j)
-```
+# ```

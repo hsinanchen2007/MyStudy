@@ -1,6 +1,6 @@
-java，注释写了一下应该没有什么问题
+// java，注释写了一下应该没有什么问题
 
-```
+// ```
 class Solution {
     public int strStr(String haystack, String needle) {
         if(null==needle   || needle.length()==0)    return 0;
@@ -17,4 +17,4 @@ class Solution {
         return -1;                                         //h[i]比较结束没有相同的，返回-1；
     }
 }
-```
+// ```

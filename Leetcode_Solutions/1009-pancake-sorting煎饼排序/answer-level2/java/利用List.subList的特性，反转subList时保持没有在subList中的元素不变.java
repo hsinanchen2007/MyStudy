@@ -1,6 +1,6 @@
-采用官方的提示，使用了List.subList方法和Collections.reverse方法。
+// 采用官方的提示，使用了List.subList方法和Collections.reverse方法。
 
-```
+// ```
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -35,4 +35,4 @@ class Solution {
 		return result;
 	}
 }
-```
+// ```

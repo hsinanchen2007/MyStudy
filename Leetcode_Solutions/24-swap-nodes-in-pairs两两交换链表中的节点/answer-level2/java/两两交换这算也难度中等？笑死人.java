@@ -1,9 +1,9 @@
-### 解题思路
-仅仅就是两两交换而已，毫无科技含量啊，看代码吧
+// ### 解题思路
+// 仅仅就是两两交换而已，毫无科技含量啊，看代码吧
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return remember;
     }
 }
-```
+// ```

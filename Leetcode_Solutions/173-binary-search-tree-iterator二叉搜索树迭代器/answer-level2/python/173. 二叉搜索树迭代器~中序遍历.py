@@ -1,12 +1,12 @@
-### 解题思路
-这道题直接使用中序遍历，用列表记录遍历结果
-然后就是对列表的了：
-lst.pop(0) == next()操作
-if len(lst) == hasnext()操作
+# ### 解题思路
+# 这道题直接使用中序遍历，用列表记录遍历结果
+# 然后就是对列表的了：
+# lst.pop(0) == next()操作
+# if len(lst) == hasnext()操作
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -49,4 +49,4 @@ class BSTIterator:
 # obj = BSTIterator(root)
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
-```
+# ```

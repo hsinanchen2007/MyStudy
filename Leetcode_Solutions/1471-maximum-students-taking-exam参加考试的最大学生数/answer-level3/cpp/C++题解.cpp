@@ -1,17 +1,17 @@
-### [1349. 参加考试的最大学生数](https://leetcode-cn.com/problems/maximum-students-taking-exam/)
+// ### [1349. 参加考试的最大学生数](https://leetcode-cn.com/problems/maximum-students-taking-exam/)
 
-#### 题解
-  + 状压DP
-  + $dp[i][j]$ 表示统计前i行，（且第i行状态为j时的）所坐的最大学生数。
-  + 状态转移方程： $dp[i][j] = max(dp[i-1][k] + count(j))\\ k 为第i-1行的状态, count(j) 为状态j的学生数，即二进制1的个数$
-  + 第一行单独初始化， 注意边界条件和判断状态是否能存在，判断状态是否能转移，相互矛盾则不能转移。
-  + 注意二进制统计时 x & y 判断 非0 而不是 判断是1
-  + 时间复杂度: $O(m * x^n * 2^n)$
-  + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
+// #### 题解
+//   + 状压DP
+//   + $dp[i][j]$ 表示统计前i行，（且第i行状态为j时的）所坐的最大学生数。
+//   + 状态转移方程： $dp[i][j] = max(dp[i-1][k] + count(j))\\ k 为第i-1行的状态, count(j) 为状态j的学生数，即二进制1的个数$
+//   + 第一行单独初始化， 注意边界条件和判断状态是否能存在，判断状态是否能转移，相互矛盾则不能转移。
+//   + 注意二进制统计时 x & y 判断 非0 而不是 判断是1
+//   + 时间复杂度: $O(m * x^n * 2^n)$
+//   + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
 
-#### 代码
+// #### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -99,4 +99,4 @@ public:
        return res;
     }
 };
-```
+// ```

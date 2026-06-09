@@ -1,9 +1,9 @@
-注意题目里面的
-**假设你总是可以到达数组的最后一个位置。**
+// 注意题目里面的
+// **假设你总是可以到达数组的最后一个位置。**
 
-如果没有这个假设，贪心算法的方式是不能保证能达到全局最优解的，需要回溯或动态规划的方式进行解决
-**1.回溯法（本题样例通过91/92）**
-```
+// 如果没有这个假设，贪心算法的方式是不能保证能达到全局最优解的，需要回溯或动态规划的方式进行解决
+// **1.回溯法（本题样例通过91/92）**
+// ```
 class Solution {
     int ans=Integer.MAX_VALUE;
     Map<Integer,Integer> map=new HashMap<>();
@@ -27,9 +27,9 @@ class Solution {
         }
     }
 }
-```
-**2.贪心算法**
-```
+// ```
+// **2.贪心算法**
+// ```
 public class Solution {
 	public int jump(int[] nums) {
         int n = nums.length;
@@ -55,4 +55,4 @@ public class Solution {
         return steps;
     }
 
-```
+// ```

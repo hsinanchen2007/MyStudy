@@ -1,18 +1,18 @@
-### 解题思路
-单调栈的经典问题，这里给出c语言的解法
+// ### 解题思路
+// 单调栈的经典问题，这里给出c语言的解法
 
-0.构造单调栈用于记录数据id
-1.遍历数据
-2.当数据增长时，入栈
-3.当数据降低时，进行结算：高度为栈顶id对应的高度，宽度为栈顶前一个数据到i
-4.数据入栈完毕，结算栈中数据：高度为栈顶id对应的高度，宽度为栈顶前一个数据到终点
+// 0.构造单调栈用于记录数据id
+// 1.遍历数据
+// 2.当数据增长时，入栈
+// 3.当数据降低时，进行结算：高度为栈顶id对应的高度，宽度为栈顶前一个数据到i
+// 4.数据入栈完毕，结算栈中数据：高度为栈顶id对应的高度，宽度为栈顶前一个数据到终点
 
-![image.png](https://pic.leetcode-cn.com/7530fa2bf96dddacdcd5f7abe4bb8c5e4a2a6a2370f60ae19ed5bd552c60c338-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7530fa2bf96dddacdcd5f7abe4bb8c5e4a2a6a2370f60ae19ed5bd552c60c338-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -74,4 +74,4 @@ int largestRectangleArea(int* heights, int heightsSize){
 
     return max;
 }
-```
+// ```

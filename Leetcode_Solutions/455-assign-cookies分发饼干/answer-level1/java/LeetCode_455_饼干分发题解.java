@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先对数组进行排序，首先让饼干和孩子胃口对应的满足，之后满足饼干大于孩子的，奇数即可。
+// 先对数组进行排序，首先让饼干和孩子胃口对应的满足，之后满足饼干大于孩子的，奇数即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
                 if (g.length == 0) return 0;
@@ -27,4 +27,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-首先给出中序遍历代码：
-```
+// 首先给出中序遍历代码：
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -26,10 +26,10 @@ class Solution {
         return result;
     }
 }
-```
-在此基础上，改造代码结构，判断**只有从右孩子返回的节点，才能将该节点的值计入result**，我的改造方法比较麻烦，使用双栈法，**从左孩子返回的节点，不弹出栈，采用peek，从而继续遍历右子树，同时也不要忘记，把这个节点压入stack2**。
-**每次当stack.peek()得到的节点，和stack2.peek()相同时，说明这是一个右子树遍历完成后的情况，进入循环，把根子节点计入result，并更新curr和两个栈，直到stack为空，此时curr无法再更新，说明root已经计入result，结束代码。**
-```
+// ```
+// 在此基础上，改造代码结构，判断**只有从右孩子返回的节点，才能将该节点的值计入result**，我的改造方法比较麻烦，使用双栈法，**从左孩子返回的节点，不弹出栈，采用peek，从而继续遍历右子树，同时也不要忘记，把这个节点压入stack2**。
+// **每次当stack.peek()得到的节点，和stack2.peek()相同时，说明这是一个右子树遍历完成后的情况，进入循环，把根子节点计入result，并更新curr和两个栈，直到stack为空，此时curr无法再更新，说明root已经计入result，结束代码。**
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -65,4 +65,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

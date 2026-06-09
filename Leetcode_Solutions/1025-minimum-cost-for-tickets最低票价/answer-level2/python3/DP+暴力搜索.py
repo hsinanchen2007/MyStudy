@@ -1,12 +1,12 @@
-### 解题思路
-第i天的最低费用有三种选择：
-1.从i-1天;
-2.从第j天：分为2中情况：第j天买7天的票；第j天买30天的票，两者取小。
-最后取三者最小。
+# ### 解题思路
+# 第i天的最低费用有三种选择：
+# 1.从i-1天;
+# 2.从第j天：分为2中情况：第j天买7天的票；第j天买30天的票，两者取小。
+# 最后取三者最小。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
         if not days or not costs:
@@ -26,4 +26,4 @@ class Solution:
                           dp[j - 1] + costs[2]*((temp+30)//30))
 
         return dp[-1]
-```
+# ```

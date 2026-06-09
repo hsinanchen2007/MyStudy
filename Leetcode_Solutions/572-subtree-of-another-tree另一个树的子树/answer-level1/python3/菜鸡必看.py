@@ -1,10 +1,10 @@
-### 解题思路
-两个递归 
-子方法用到了100题
+# ### 解题思路
+# 两个递归 
+# 子方法用到了100题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
             return False
         return sameT(s,t) or self.isSubtree(s.left,t) or self.isSubtree(s.right,t)
         
-```
+# ```

@@ -1,8 +1,8 @@
-这道题我一开始想法很简单，直接暴力匹配即可，实际上，匹配也有讲究。
-## 基本解法：用text字串去匹配words中的目标字符
-- 用时：20ms
-- C++中，text.substr(start, length) api只需要索引和字串长度，所以预先算出words中的目标字符长度，然后遍历匹配即可
-```C++
+// 这道题我一开始想法很简单，直接暴力匹配即可，实际上，匹配也有讲究。
+// ## 基本解法：用text字串去匹配words中的目标字符
+// - 用时：20ms
+// - C++中，text.substr(start, length) api只需要索引和字串长度，所以预先算出words中的目标字符长度，然后遍历匹配即可
+// ```C++
 class Solution {
 public:
     vector<vector<int>> indexPairs(string text, vector<string>& words) {
@@ -23,12 +23,12 @@ public:
         return result;
     }
 };
-```
+// ```
 
-## 改变思路：用words中目标字符匹配text中寻找是否存在子串
-- 用时：8ms
-- Note: 需要继续寻找是否还存在相同字串
-```C++
+// ## 改变思路：用words中目标字符匹配text中寻找是否存在子串
+// - 用时：8ms
+// - Note: 需要继续寻找是否还存在相同字串
+// ```C++
 class Solution {
 public:
     vector<vector<int>> indexPairs(string text, vector<string>& words) {
@@ -47,4 +47,4 @@ public:
         return result;
     }
 };
-```
+// ```

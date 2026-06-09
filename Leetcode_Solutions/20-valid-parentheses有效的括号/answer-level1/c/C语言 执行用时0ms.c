@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-这个题是解决栈类型常见的题型 
-由于C没有STL库 故自己实现了一个栈
-注意多了一个length参数 加上这个参数后 
-在做default判断时 如果st->length长度大于s长度的1/2时肯定为false
-少了很多判断
+// 这个题是解决栈类型常见的题型 
+// 由于C没有STL库 故自己实现了一个栈
+// 注意多了一个length参数 加上这个参数后 
+// 在做default判断时 如果st->length长度大于s长度的1/2时肯定为false
+// 少了很多判断
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <malloc.h>
 
@@ -90,4 +90,4 @@ bool isValid(char *s) {
     }
     return IsEmpty(st);
 }
-```
+// ```

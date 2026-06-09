@@ -1,6 +1,6 @@
-![2019-09-28_18-50.png](https://pic.leetcode-cn.com/1f878205d0dcb71e378706b0f2416f29fd6670a3a61bc163947f223cc06c303a-2019-09-28_18-50.png)
+// ![2019-09-28_18-50.png](https://pic.leetcode-cn.com/1f878205d0dcb71e378706b0f2416f29fd6670a3a61bc163947f223cc06c303a-2019-09-28_18-50.png)
 
-```c
+// ```c
 int removeElement(int* nums, int numsSize, int val){
     if (numsSize == 0)
         return 0;
@@ -22,4 +22,4 @@ int removeElement(int* nums, int numsSize, int val){
     // 如果左指针的元素不是 val，则包括左指针处的元素
     return left - nums + (*left != val);
 }
-```
+// ```

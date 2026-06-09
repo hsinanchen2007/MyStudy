@@ -1,8 +1,8 @@
 
-思路：
-将每个version两个$.$之间的字符分割出来，然后用一个vector存储分割出来的字符的起始位置和长度（pair->first：起始位置，pair->second：长度），分别比较两个vector即可。
-代码：
-```
+// 思路：
+// 将每个version两个$.$之间的字符分割出来，然后用一个vector存储分割出来的字符的起始位置和长度（pair->first：起始位置，pair->second：长度），分别比较两个vector即可。
+// 代码：
+// ```
 class Solution {
 public:
     void split(string str,vector<pair<int,int>>& pos){
@@ -47,4 +47,4 @@ public:
         return 0;
     }
 };
-```
+// ```

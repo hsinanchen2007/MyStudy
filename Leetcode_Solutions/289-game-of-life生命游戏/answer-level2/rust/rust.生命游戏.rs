@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn game_of_life(board: &mut Vec<Vec<i32>>) {
         let direction=vec![(0,1),(0,-1),(1,0),(-1,0),(1,1),(1,-1),(-1,1),(-1,-1)];
@@ -38,4 +38,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

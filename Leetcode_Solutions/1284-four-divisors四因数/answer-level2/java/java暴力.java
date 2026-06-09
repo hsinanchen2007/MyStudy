@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int sumFourDivisors(int[] nums) {
         int sum= 0;
@@ -26,4 +26,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

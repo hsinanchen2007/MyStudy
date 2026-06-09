@@ -1,4 +1,4 @@
-```
+// ```
 func toLowerCase(str string) string {
     var buf bytes.Buffer
 	for _, c := range str {
@@ -10,4 +10,4 @@ func toLowerCase(str string) string {
 	}
 	return buf.String()
 }
-```
+// ```

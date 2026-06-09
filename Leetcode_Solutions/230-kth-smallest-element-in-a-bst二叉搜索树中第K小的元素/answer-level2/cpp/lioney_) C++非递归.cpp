@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int kthSmallest(TreeNode* root, int k) {
@@ -18,4 +18,4 @@ public:
         return -1;
     }
 };
-```
+// ```

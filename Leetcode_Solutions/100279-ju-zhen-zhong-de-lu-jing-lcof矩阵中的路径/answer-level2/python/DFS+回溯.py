@@ -1,7 +1,7 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 代码
-```python
+# ### 代码
+# ```python
 # -*- coding:utf-8 -*-
 def DFS(matrix, row, col, path, visited):
     if row < 0 or row >= len(matrix) or col < 0 or col >= len(matrix[0]) or (row, col) in visited: 
@@ -30,4 +30,4 @@ class Solution:
                 if DFS(board, i, j, list(path), visited): 
                     return True
         return False
-```
+# ```

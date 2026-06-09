@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         arr_sum = sum(nums)
@@ -14,4 +14,4 @@ class Solution:
                     dp[j] = dp[j] or dp[j - nums[i]]
             if dp[target] == True: return True
         return False
-```
+# ```

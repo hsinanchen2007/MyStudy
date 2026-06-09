@@ -1,4 +1,4 @@
-```
+// ```
 func swapPairs(head *ListNode) *ListNode {
 	var pre *ListNode=&ListNode{0,head}
     head=pre
@@ -10,4 +10,4 @@ func swapPairs(head *ListNode) *ListNode {
 	}
 	return pre.Next
 }
-```
+// ```

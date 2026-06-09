@@ -1,8 +1,8 @@
-### 解题思路
-backtrack条件提前pos<N and target < nums[pos]
-这样不用算target<0
-### 代码
-```
+# ### 解题思路
+# backtrack条件提前pos<N and target < nums[pos]
+# 这样不用算target<0
+# ### 代码
+# ```
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
 
@@ -32,4 +32,4 @@ class Solution:
 #     return True
 # else:
 #     return _dfs(target, pos + 1);
-```
+# ```

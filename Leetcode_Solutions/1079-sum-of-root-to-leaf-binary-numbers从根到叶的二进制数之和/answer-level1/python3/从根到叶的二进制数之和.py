@@ -1,12 +1,12 @@
-### 解题思路
-我的思路：累加的递归可以参考这个，有思路但是递归还不怎么会写，这个是受其它题解的启发
+# ### 解题思路
+# 我的思路：累加的递归可以参考这个，有思路但是递归还不怎么会写，这个是受其它题解的启发
         
-复杂度分析：                                                             
-        • 时间复杂度：o(n)
-        • 空间复杂度：o(1)
-### 代码
+# 复杂度分析：                                                             
+#         • 时间复杂度：o(n)
+#         • 空间复杂度：o(1)
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
         helper(root,s)
         return result
             
-```
+# ```

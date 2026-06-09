@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-使用 [::(-1) ** idx] 来调整输出顺序
+# 使用 [::(-1) ** idx] 来调整输出顺序
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
                 recursion(node.right, depth+1)
         recursion(root, 0)
         return [a[1][::(-1) ** idx] for idx, a in enumerate(sorted(self.ans.items()))]
-```
+# ```

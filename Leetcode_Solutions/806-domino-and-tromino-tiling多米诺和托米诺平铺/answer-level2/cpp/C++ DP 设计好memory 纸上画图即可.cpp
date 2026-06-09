@@ -1,6 +1,6 @@
-挺有意思的题 不压缩版
+// 挺有意思的题 不压缩版
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numTilings(int N) {
@@ -20,10 +20,10 @@ public:
 	return dp.back()[0];
     }
 };
-```
+// ```
 
-压缩版
-```cpp
+// 压缩版
+// ```cpp
 class Solution {
 public:
     int numTilings(int N) {
@@ -69,4 +69,4 @@ public:
         }
     }
 }
-```
+// ```

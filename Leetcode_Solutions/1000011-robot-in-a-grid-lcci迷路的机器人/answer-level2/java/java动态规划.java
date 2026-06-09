@@ -1,9 +1,9 @@
-### 解题思路
-看评论区老哥逆推路径，实现了下
+// ### 解题思路
+// 看评论区老哥逆推路径，实现了下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> pathWithObstacles(int[][] obstacleGrid) {
             //动态规划
@@ -61,4 +61,4 @@ class Solution {
 
     }
 }
-```
+// ```

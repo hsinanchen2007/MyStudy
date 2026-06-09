@@ -1,11 +1,11 @@
 
-# 几点坑需要注意
-- 输入capacity可能为零，此时按题意是不能put任何元素
-- 注意构造函数里实现capacity的处理
-- put一次也相当于一次访问，频数也要加一
-- 接上，新元素put后，频数按1处理
+// # 几点坑需要注意
+// - 输入capacity可能为零，此时按题意是不能put任何元素
+// - 注意构造函数里实现capacity的处理
+// - put一次也相当于一次访问，频数也要加一
+// - 接上，新元素put后，频数按1处理
 
-```
+// ```
 typedef int KEY;
 typedef int VALUE;
 typedef int FREQ;
@@ -118,4 +118,4 @@ public:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

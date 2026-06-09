@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
         if not matrix:
@@ -27,4 +27,4 @@ class Solution:
                 ans = max(ans, min(l,(j-i+1))*min(l,(j-i+1)))
                 j += 1
         return ans
-```
+# ```

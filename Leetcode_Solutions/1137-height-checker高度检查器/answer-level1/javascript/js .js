@@ -1,6 +1,6 @@
-思路：
-排序，然后对照，如遇到不同的元素就++
-```
+// 思路：
+// 排序，然后对照，如遇到不同的元素就++
+// ```
 /**
  * @param {number[]} heights
  * @return {number}
@@ -22,9 +22,9 @@ var heightChecker = function (heights) {
     }
     return count
 };
-```
-二：
-```
+// ```
+// 二：
+// ```
 var heightChecker = function (heights) {
     let tmp = [...heights]
     tmp.sort((a,b)=>a-b)
@@ -36,5 +36,5 @@ var heightChecker = function (heights) {
     }
     return count
 };
-```
+// ```
 

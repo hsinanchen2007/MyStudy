@@ -1,9 +1,9 @@
-### 解题思路
-我的代码清晰明了，非常简洁。
+# ### 解题思路
+# 我的代码清晰明了，非常简洁。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         if not grid:
@@ -31,4 +31,4 @@ class Solution:
                 if grid[i][j] == 1 and visit[i][j] == 0:
                     BFS(i, j)
         return max(areas) if areas else 0
-```
+# ```

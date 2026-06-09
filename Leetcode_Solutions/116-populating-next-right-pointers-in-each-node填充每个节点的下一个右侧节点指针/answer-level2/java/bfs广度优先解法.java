@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用递归，直接负责当层节点直接的关系即可！
+// 使用递归，直接负责当层节点直接的关系即可！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -41,4 +41,4 @@ class Solution {
         helper(right.left,right.right);     //满足右子树
     }
 }
-```
+// ```

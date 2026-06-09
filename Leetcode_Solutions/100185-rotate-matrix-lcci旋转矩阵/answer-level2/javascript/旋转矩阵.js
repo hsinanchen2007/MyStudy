@@ -1,9 +1,9 @@
-### 解题思路
-旋转后第一行等于第一列 第n行等于第n列
+// ### 解题思路
+// 旋转后第一行等于第一列 第n行等于第n列
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -22,4 +22,4 @@ var rotate = function(matrix) {
     matrix[index] = dd[index]
   })
 };
-```
+// ```

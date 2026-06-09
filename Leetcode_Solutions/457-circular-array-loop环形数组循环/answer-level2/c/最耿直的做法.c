@@ -1,5 +1,5 @@
-直接根据题目的要求去遍历数组
-```
+// 直接根据题目的要求去遍历数组
+// ```
 bool circularArrayLoop(int *nums, int numsSize)
 {
     if (nums == NULL || numsSize < 2) {
@@ -40,4 +40,4 @@ bool circularArrayLoop(int *nums, int numsSize)
     free(tmpInt);
     return false;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![QQ图片20200324140447.png](https://pic.leetcode-cn.com/ceb4d491367608043334b7996aa0930f1092cc3f938dc27204438c46e696b2d8-QQ%E5%9B%BE%E7%89%8720200324140447.png)
-1.暴力破解 2.递归
-### 代码
+// ![QQ图片20200324140447.png](https://pic.leetcode-cn.com/ceb4d491367608043334b7996aa0930f1092cc3f938dc27204438c46e696b2d8-QQ%E5%9B%BE%E7%89%8720200324140447.png)
+// 1.暴力破解 2.递归
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -101,4 +101,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head)
 	}
     return head;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-非常简单的将listnode中所有node放入一个列表，返回倒数第k个即可。
+# ### 解题思路
+# 非常简单的将listnode中所有node放入一个列表，返回倒数第k个即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -19,4 +19,4 @@ class Solution:
             nodes.append(head)
             head = head.next
         return nodes[-k]
-```
+# ```

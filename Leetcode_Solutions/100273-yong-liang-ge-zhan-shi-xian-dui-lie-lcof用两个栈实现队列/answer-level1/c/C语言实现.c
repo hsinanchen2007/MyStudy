@@ -1,4 +1,4 @@
-算法如下：
+// 算法如下：
 typedef struct {
     int *s1;
     int *s2;

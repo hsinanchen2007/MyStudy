@@ -1,10 +1,10 @@
-### 解题思路
-不会无限循环
-当a+b==b+a时，hA和hB会同时等于null，返回null
+// ### 解题思路
+// 不会无限循环
+// 当a+b==b+a时，hA和hB会同时等于null，返回null
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ public class Solution {
         return hA;
     }
 }
-```
+// ```

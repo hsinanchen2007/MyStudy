@@ -1,33 +1,33 @@
-### 解题思路
+# ### 解题思路
 
-#### 自己最初的解法: 保留高度和子树解
+# #### 自己最初的解法: 保留高度和子树解
 
-对左右子树， 分别记录其高度，和其最长的直径
-则对于 root 节点，其高度是  max(left_height, right_height)+1
-其直径是 max([left_diam, right_diam, left_height+right_height+2])
+# 对左右子树， 分别记录其高度，和其最长的直径
+# 则对于 root 节点，其高度是  max(left_height, right_height)+1
+# 其直径是 max([left_diam, right_diam, left_height+right_height+2])
 
-if root == None:  # 以此作为递归出口
-    return -1, 0  # height, diameter   # 这里 返回 height = -1 具有深意 
+# if root == None:  # 以此作为递归出口
+#     return -1, 0  # height, diameter   # 这里 返回 height = -1 具有深意 
 
-#### 官方题解
-设置一个全局变量，直接记录经过每个节点的最长路径，并不计算以此节点为父节点的树的最长路径。
+# #### 官方题解
+# 设置一个全局变量，直接记录经过每个节点的最长路径，并不计算以此节点为父节点的树的最长路径。
 
-我之前的方法是求出每个子树的最长路径，然后 root 树的最长路径必然是解。
+# 我之前的方法是求出每个子树的最长路径，然后 root 树的最长路径必然是解。
 
-直接从每个节点所经过的路径出发，思路似乎更好。并且不用再额外传出统计高度的变量值。
+# 直接从每个节点所经过的路径出发，思路似乎更好。并且不用再额外传出统计高度的变量值。
 
 
-直接设置一个全局变量 self.ans ，当遍历到某个节点时，求出经过该节点的路径的最大值，直接处理，而不一定要在父节点处理子树的 diam。
+# 直接设置一个全局变量 self.ans ，当遍历到某个节点时，求出经过该节点的路径的最大值，直接处理，而不一定要在父节点处理子树的 diam。
 
-但官方题解中，是统计路径中节点的个数，直接来计算。 函数名用 num_nodes 更恰当。
+# 但官方题解中，是统计路径中节点的个数，直接来计算。 函数名用 num_nodes 更恰当。
 
-我下面给出的另一种解法是直接统计路径长：
-+ 定义 路径长 = 节点个数-1
-+ 深度 = 节点个数 - 1
+# 我下面给出的另一种解法是直接统计路径长：
+# + 定义 路径长 = 节点个数-1
+# + 深度 = 节点个数 - 1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -49,9 +49,9 @@ class Solution:
             return new_height, new_diam
 
         return diam_height(root)[1]
-```
+# ```
 
-``` python3
+# ``` python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -78,4 +78,4 @@ class Solution:
         depth(root)
         return self.ans
         
-```
+# ```

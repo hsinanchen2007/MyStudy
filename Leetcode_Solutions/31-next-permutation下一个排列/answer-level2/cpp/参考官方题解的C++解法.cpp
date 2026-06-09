@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void swap(vector<int>& nums,int i,int j){
@@ -29,4 +29,4 @@ void reverse(vector<int>& nums,int start){
     reverse(nums,i+1);
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,6 +23,6 @@ public:
         return count += min(minDepth(root->left), minDepth(root->right));
     }
 };
-```
+// ```
 
-当只有左树或右树时，累加左子树或右子树深度；否则累加左子树或右子树的最小深度
+// 当只有左树或右树时，累加左子树或右子树深度；否则累加左子树或右子树的最小深度

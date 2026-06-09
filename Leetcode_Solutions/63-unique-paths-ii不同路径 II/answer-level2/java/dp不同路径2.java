@@ -1,10 +1,10 @@
-### 解题思路
-子问题：到点（i,j）一共有多少种可能，注意避开障碍物；
-状态方程：p(i,j)表示到当前节点所有可能性，障碍物处理为p(i,j) = 0;
-状态转移方程：p(i,j) = p(i-1,j) + p(i,j-1);
-### 代码
+// ### 解题思路
+// 子问题：到点（i,j）一共有多少种可能，注意避开障碍物；
+// 状态方程：p(i,j)表示到当前节点所有可能性，障碍物处理为p(i,j) = 0;
+// 状态转移方程：p(i,j) = p(i-1,j) + p(i,j-1);
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         
@@ -47,4 +47,4 @@ class Solution {
         return p[obstacleGrid.length-1][obstacleGrid[0].length-1];
     }
 }
-```
+// ```

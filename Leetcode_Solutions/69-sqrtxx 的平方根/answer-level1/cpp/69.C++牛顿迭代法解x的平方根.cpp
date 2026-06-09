@@ -1,9 +1,9 @@
-### 解题思路
-牛顿迭代法，注意cur需要设成long。（欢迎指正）
+// ### 解题思路
+// 牛顿迭代法，注意cur需要设成long。（欢迎指正）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int mySqrt(int n) {
@@ -19,4 +19,4 @@ int mySqrt(int n) {
 	}
 }
 };
-```
+// ```

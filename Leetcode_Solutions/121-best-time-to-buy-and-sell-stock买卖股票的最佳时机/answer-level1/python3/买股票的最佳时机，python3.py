@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历，用当前值减去前面的最小值，如果比res大，则对res重新赋值
+# ### 解题思路
+# 一次遍历，用当前值减去前面的最小值，如果比res大，则对res重新赋值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if len(prices) <= 1:
@@ -18,4 +18,4 @@ class Solution:
         return res
 
         
-```
+# ```

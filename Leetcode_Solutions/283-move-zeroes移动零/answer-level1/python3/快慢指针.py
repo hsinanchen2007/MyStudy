@@ -1,9 +1,9 @@
-### 解题思路
-快指针遇到非0数据就慢指针交换数据，慢指针始终指向0
+# ### 解题思路
+# 快指针遇到非0数据就慢指针交换数据，慢指针始终指向0
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -16,4 +16,4 @@ class Solution:
                 i += 1 
             j += 1
 
-```
+# ```

@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/5540ec7de8ca1ce297f90b912e2d06ba965af011fcaf0cef58192426101bdb7e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5540ec7de8ca1ce297f90b912e2d06ba965af011fcaf0cef58192426101bdb7e-image.png)
 
-思路：
-1. 遍历整个字符串
-2. 遇到空格或者最后就停下，reverse前面的单词
-3. 拼接
-```
+// 思路：
+// 1. 遍历整个字符串
+// 2. 遇到空格或者最后就停下，reverse前面的单词
+// 3. 拼接
+// ```
 /**
  * @param {string} s
  * @return {string}
@@ -30,4 +30,4 @@ var reverse = function(s) {
     }
     return t;
 }
-```
+// ```

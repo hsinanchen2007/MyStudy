@@ -1,8 +1,8 @@
-### 解题思路
-暴力解法
-### 代码
+// ### 解题思路
+// 暴力解法
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func distributeCandies(_ candies: Int, _ num_people: Int) -> [Int] {
 
@@ -28,4 +28,4 @@ class Solution {
         
     }
 }
-```
+// ```

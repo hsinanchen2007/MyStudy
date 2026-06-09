@@ -1,5 +1,5 @@
     
-```
+// ```
 public char[][] updateBoard(char[][] board, int[] click) {
     int rowLength = board.length;
     int colLength = board[0].length;
@@ -58,4 +58,4 @@ public char[][] updateBoard(char[][] board, int[] click) {
 
     return board;
 }
-```
+// ```

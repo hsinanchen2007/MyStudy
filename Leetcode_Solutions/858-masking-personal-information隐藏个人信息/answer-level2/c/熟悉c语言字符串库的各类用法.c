@@ -1,25 +1,25 @@
-涉及到字符串库的一些用法
+// 涉及到字符串库的一些用法
 
-#### 判断类
+// #### 判断类
 
-- isupper(char c) // 判断是否为大写字母
-- islower(char c) // 判断是否为小写字母
-- isdigit(char c) // 判断字符是否为数字
+// - isupper(char c) // 判断是否为大写字母
+// - islower(char c) // 判断是否为小写字母
+// - isdigit(char c) // 判断字符是否为数字
 
-#### 转化类
+// #### 转化类
 
-- tolower(char c) // 大写字母转小写
-- toupper(char c) // 小写字母转大写
+// - tolower(char c) // 大写字母转小写
+// - toupper(char c) // 小写字母转大写
 
-#### 字符串操作
+// #### 字符串操作
 
-- strcat(char *dst, const char *src) // src 添加到 dst 末尾，会自动添加'\0'
-- strcpy(char *dst, const char *src) // 把从src地址开始且含有\0结束符的字符串复制到以dest开始的
+// - strcat(char *dst, const char *src) // src 添加到 dst 末尾，会自动添加'\0'
+// - strcpy(char *dst, const char *src) // 把从src地址开始且含有\0结束符的字符串复制到以dest开始的
 
-### 题解
+// ### 题解
 
-先判断是邮件还是电话，按照要求转化即可。另外输入已经保证符合要求，所以函数内不再做合法性判断。
-```C
+// 先判断是邮件还是电话，按照要求转化即可。另外输入已经保证符合要求，所以函数内不再做合法性判断。
+// ```C
 char *cover_email(char *s)
 {
     int s_len = strlen(s);
@@ -91,4 +91,4 @@ char *maskPII(char *S)
     return cover_diag(S);
 }
 
-```
+// ```

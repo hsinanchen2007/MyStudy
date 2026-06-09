@@ -1,8 +1,8 @@
-后序代码段
+// 后序代码段
 
-前序，中序把中间注释的几段代码调换顺序即可
+// 前序，中序把中间注释的几段代码调换顺序即可
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -57,4 +57,4 @@ class Wrapper{
 		this.node=node;
 	}
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def shortestSuperstring(self, A: List[str]) -> str:
         def overlap(s1, s2): # 计算两个字符串的最大重复前后缀，可以用 KMP 优化
@@ -41,5 +41,5 @@ class Solution:
             res = A[last] + res[dist[last][tmp]:]
             s ^= (1 << tmp)
         return res
-```
+# ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-普通写法，看了尾插法思路，可能更好一些
+# ### 解题思路
+# 普通写法，看了尾插法思路，可能更好一些
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def licenseKeyFormatting(self, S: str, K: int) -> str:
         s, l = '', 0
@@ -17,4 +17,4 @@ class Solution:
             res = res + '-' + s[i - K:i] 
         return res.upper()
 
-```
+# ```

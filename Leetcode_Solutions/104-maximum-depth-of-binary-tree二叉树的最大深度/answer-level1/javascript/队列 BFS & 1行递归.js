@@ -1,6 +1,6 @@
-## 队列 BFS
+// ## 队列 BFS
 
-```js
+// ```js
 /**
  * @param {TreeNode} root
  * @return {number}
@@ -22,16 +22,16 @@ var maxDepth = function(root) {
 
   return level;
 };
-```
+// ```
 
 
-## 递归
+// ## 递归
 
-```js
+// ```js
 var maxDepthRecursive = function (root) {
   return root ? Math.max(maxDepthRecursive(root.left), maxDepthRecursive(root.right)) + 1 : 0;
 }
 
-```
+// ```
 
 

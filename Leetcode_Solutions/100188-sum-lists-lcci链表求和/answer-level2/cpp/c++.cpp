@@ -1,13 +1,13 @@
-### 解题思路
-分四种情况讨论：
-l1下一个为NULL，l2下一个不为NULL；
-l1下一个为NULL，l2下一个为NULL；
-l1下一个不为NULL，l2下一个不为NULL；
-l1下一个不为NULL，l2下一个为NULL；
+// ### 解题思路
+// 分四种情况讨论：
+// l1下一个为NULL，l2下一个不为NULL；
+// l1下一个为NULL，l2下一个为NULL；
+// l1下一个不为NULL，l2下一个不为NULL；
+// l1下一个不为NULL，l2下一个为NULL；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
@@ -63,4 +63,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-写了好几种递归方法，但是效率有所不同，最好的甚至只需要最慢的时间的二分之一。。。不知道谁能解答一下不
-这是最慢的，也是另一个题解的提供者powcai的代码
-```
+# 写了好几种递归方法，但是效率有所不同，最好的甚至只需要最慢的时间的二分之一。。。不知道谁能解答一下不
+# 这是最慢的，也是另一个题解的提供者powcai的代码
+# ```
    def letterCombinations(self, digits: str):
         dic = {
             "2": "abc",
@@ -26,10 +26,10 @@
                     helper(i+1,curStr+chara)
         helper(0,"")
         return ret
-```
-- 
-这是速度中等的
-```
+# ```
+# - 
+# 这是速度中等的
+# ```
         if not digits:
             return []
         ret = [""]
@@ -45,10 +45,10 @@
                     helper(i+1,curStr+chara)
         helper(0,"")
         return ret
-```
+# ```
 
-这是最快的
-```
+# 这是最快的
+# ```
         if not digits:
             return []
         ret = [""]
@@ -66,4 +66,4 @@
                     curStr = curStr[:-1]
         helper(0,"")
         return ret
-```
+# ```

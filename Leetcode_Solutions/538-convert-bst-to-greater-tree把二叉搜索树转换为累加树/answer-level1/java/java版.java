@@ -1,9 +1,9 @@
-### 解题思路
-翻转中序遍历然后递归即可。
+// ### 解题思路
+// 翻转中序遍历然后递归即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -26,4 +26,4 @@ class Solution {
        return root;
     }
 }   
-```
+// ```

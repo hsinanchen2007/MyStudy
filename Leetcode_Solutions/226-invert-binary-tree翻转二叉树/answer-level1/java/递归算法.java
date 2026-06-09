@@ -1,9 +1,9 @@
-### 解题思路
-直接交换左右孩子即可
+// ### 解题思路
+// 直接交换左右孩子即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ class Solution {
         reverse(root.right);
     }
 }
-```
+// ```

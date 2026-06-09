@@ -1,9 +1,9 @@
-### 解题思路  看清楚题意，是左叶子结点，不是左节点，叶子结点是它本身没有左右节点了
+// ### 解题思路  看清楚题意，是左叶子结点，不是左节点，叶子结点是它本身没有左右节点了
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -25,4 +25,4 @@ class Solution {
 
     }
 }
-```
+// ```

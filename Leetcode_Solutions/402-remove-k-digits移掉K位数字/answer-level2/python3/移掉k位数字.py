@@ -1,11 +1,11 @@
-### 解题思路
-1. 令前len(num)-k个字符num[:len(num)-k]为所需结果res；
-2. 遍历i in range(len(num)-k, len(num))，每次增加一个字符，思考如何更改res；
-    (1) 从左向右遍历res，如果存在res[k]>res[k+1]的情况，则应移除res[k]，将num[i]增加到res的最后；具体见代码
+# ### 解题思路
+# 1. 令前len(num)-k个字符num[:len(num)-k]为所需结果res；
+# 2. 遍历i in range(len(num)-k, len(num))，每次增加一个字符，思考如何更改res；
+#     (1) 从左向右遍历res，如果存在res[k]>res[k+1]的情况，则应移除res[k]，将num[i]增加到res的最后；具体见代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeKdigits(self, num: str, k: int) -> str:
         length = len(num)
@@ -36,4 +36,4 @@ class Solution:
         
         
         return str(int(res))
-```
+# ```

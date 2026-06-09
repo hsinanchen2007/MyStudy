@@ -1,29 +1,29 @@
-### 解题思路
-可以使用深度优先遍历进行解决
-    深度优先便利的模版
-    /**
-    参数n表示搜索到某一个节点，
-    参数d表示到达的深度
-    return 表示是否有解
-    boolean DFS(Node n, int d){
-        if(isEnd(n, d)){ // 一旦达到某一个节点满足 条件，就返回true
-            return true;
-        }    
-        for(Node NextNode in n){
-            visited[NextNode] = false; //在下一次搜索中，该节点不能再次出现
-            if(DFS(NextNode, d+1)){//如果搜索出有解
-                //做某种处理
-                return true;
-            }
-            visited[NextNode] = true; //重新表示true，该节点有可能出现在下一次搜索的别的路径中
-        }
-        return false;//表示这次搜索无解
-    }
-    */
+// ### 解题思路
+// 可以使用深度优先遍历进行解决
+//     深度优先便利的模版
+//     /**
+//     参数n表示搜索到某一个节点，
+//     参数d表示到达的深度
+//     return 表示是否有解
+//     boolean DFS(Node n, int d){
+//         if(isEnd(n, d)){ // 一旦达到某一个节点满足 条件，就返回true
+//             return true;
+//         }    
+//         for(Node NextNode in n){
+//             visited[NextNode] = false; //在下一次搜索中，该节点不能再次出现
+//             if(DFS(NextNode, d+1)){//如果搜索出有解
+//                 //做某种处理
+//                 return true;
+//             }
+//             visited[NextNode] = true; //重新表示true，该节点有可能出现在下一次搜索的别的路径中
+//         }
+//         return false;//表示这次搜索无解
+//     }
+//     */
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxAreaOfIsland(int[][] grid) {
         int res = 0;
@@ -53,4 +53,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

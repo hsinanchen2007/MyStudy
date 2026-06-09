@@ -1,9 +1,9 @@
-### 解题思路
-看代码
+// ### 解题思路
+// 看代码
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} candies
  * @param {number} num_people
@@ -33,4 +33,4 @@ var distributeCandies = function(candies, num_people) {
 
     return result;
 };
-```
+// ```

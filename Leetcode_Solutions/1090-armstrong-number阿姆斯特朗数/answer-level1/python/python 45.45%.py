@@ -1,8 +1,8 @@
-### 解题思路
-写简单题真是会让自己开心
-### 代码
+# ### 解题思路
+# 写简单题真是会让自己开心
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isArmstrong(self, N):
         """
@@ -22,4 +22,4 @@ class Solution(object):
 
 
 
-```
+# ```

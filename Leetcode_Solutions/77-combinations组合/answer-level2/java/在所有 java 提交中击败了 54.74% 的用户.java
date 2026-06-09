@@ -1,10 +1,10 @@
-### 解题思路
-利用回溯方法。
-1.从1-n，递归往list加，当个数为k时返回，返回后把最后一个元素移除。
+// ### 解题思路
+// 利用回溯方法。
+// 1.从1-n，递归往list加，当个数为k时返回，返回后把最后一个元素移除。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> r = new ArrayList();
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,18 +1,18 @@
-![1122.jpg](https://pic.leetcode-cn.com/b29e35423330d583285bd91151ce3ed8cd44b9425785d91992e9ef43ccca28aa-1122.jpg)
+// ![1122.jpg](https://pic.leetcode-cn.com/b29e35423330d583285bd91151ce3ed8cd44b9425785d91992e9ef43ccca28aa-1122.jpg)
 
-### 解题思路
-注意已经给出了两个限制：
-（1）arr2不重，故而每个Key只有一个value；
-（2）arr2中的元素arr1均出现，故而不用考虑查找不到的情况
+// ### 解题思路
+// 注意已经给出了两个限制：
+// （1）arr2不重，故而每个Key只有一个value；
+// （2）arr2中的元素arr1均出现，故而不用考虑查找不到的情况
 
-把arr2的都入hash map，
-key为值，value为出现次数，初始为0
-遍历arr2建好表
-遍历arr1给表填值（通过find ->second++的方式），若没找到则入一个vector最后排序拼接
+// 把arr2的都入hash map，
+// key为值，value为出现次数，初始为0
+// 遍历arr2建好表
+// 遍历arr1给表填值（通过find ->second++的方式），若没找到则入一个vector最后排序拼接
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 //对于arr2中的每个元素
 //  首先要对arr2中的元素去重，不必，因为各不相同
 //  转存为一种方便查找的结构，并且要方便记录其出现次数
@@ -67,9 +67,9 @@ public:
     }
 };
 
-```
-其他题解中用到了特殊argument排序，也是很优美的方法。
-依照arr2的顺序设置argument值，再sort是重定义比较函数。
+// ```
+// 其他题解中用到了特殊argument排序，也是很优美的方法。
+// 依照arr2的顺序设置argument值，再sort是重定义比较函数。
 
 
 

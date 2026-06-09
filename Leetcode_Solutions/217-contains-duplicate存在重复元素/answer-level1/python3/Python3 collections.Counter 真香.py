@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         s= len(collections.Counter(nums))
@@ -6,4 +6,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

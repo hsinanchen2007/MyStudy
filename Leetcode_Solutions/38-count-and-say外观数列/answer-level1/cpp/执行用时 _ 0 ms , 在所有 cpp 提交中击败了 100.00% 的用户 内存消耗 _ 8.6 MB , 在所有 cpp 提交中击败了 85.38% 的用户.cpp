@@ -1,5 +1,5 @@
-不用递归，完全按照人的思维方式进行解题
-```
+// 不用递归，完全按照人的思维方式进行解题
+// ```
 class Solution {
 public:
     string countAndSay(int n) {
@@ -33,4 +33,4 @@ public:
         return s1;
     }
 };
-```
+// ```

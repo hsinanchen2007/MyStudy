@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/12571f208779b6bf6d4b94107a03108e245308e73bbe29f0247b8279918689c4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/12571f208779b6bf6d4b94107a03108e245308e73bbe29f0247b8279918689c4-image.png)
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} grid
  * @return {number}
@@ -30,4 +30,4 @@ var numIslands = function(grid) {
     }
     return num;
 };
-```
+// ```

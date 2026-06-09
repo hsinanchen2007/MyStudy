@@ -1,4 +1,4 @@
-```
+// ```
 function kSmallestPairs($nums1, $nums2, $k) {
     $pq = new SplPriorityQueue();
     $n1 = count($nums1); // 可优化 min(count($nums1),$k);
@@ -16,4 +16,4 @@ function kSmallestPairs($nums1, $nums2, $k) {
     }
     return $ans;
 }
-```
+// ```

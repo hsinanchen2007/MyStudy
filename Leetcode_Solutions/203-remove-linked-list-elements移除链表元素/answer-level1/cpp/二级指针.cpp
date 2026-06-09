@@ -1,5 +1,5 @@
-我偏不用哨兵
-```cpp
+// 我偏不用哨兵
+// ```cpp
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
@@ -11,4 +11,4 @@ public:
         return head;
     }
 };
-```
+// ```

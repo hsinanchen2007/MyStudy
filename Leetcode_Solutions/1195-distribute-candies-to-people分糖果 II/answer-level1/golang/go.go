@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func distributeCandies(candies int, num_people int) []int {
     res := make([]int,num_people)
     cur := 1
@@ -23,4 +23,4 @@ func distributeCandies(candies int, num_people int) []int {
     }
     return res
 }
-```
+// ```

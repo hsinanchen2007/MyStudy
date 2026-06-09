@@ -1,9 +1,9 @@
-### 解题思路
-直接使用KMP算法匹配子串
+// ### 解题思路
+// 直接使用KMP算法匹配子串
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getNext(string p) {
@@ -46,4 +46,4 @@ public:
         return KMP(haystack, needle);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-总感觉这道题不想ease难度。。。
+// ### 解题思路
+// 总感觉这道题不想ease难度。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findUnsortedSubarray(vector<int>& nums) {
@@ -55,4 +55,4 @@ public:
         return st;
     }
 };
-```
+// ```

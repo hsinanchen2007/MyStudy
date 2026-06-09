@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/5c125c8a5c23ef2ea454ac009001a9a2dcbc6055d3fd55cc692de297349c2adf-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5c125c8a5c23ef2ea454ac009001a9a2dcbc6055d3fd55cc692de297349c2adf-image.png)
 
-```
+# ```
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
         def search(k):
@@ -18,4 +18,4 @@ class Solution:
         
         N=[chr(49+i) for i in range(n)]
         return search(k)
-```
+# ```

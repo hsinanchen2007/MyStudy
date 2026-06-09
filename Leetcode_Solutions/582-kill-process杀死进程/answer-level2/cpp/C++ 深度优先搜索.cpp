@@ -1,6 +1,6 @@
-运行到第156个用例时就超时了，哪位大佬帮再优化下。
+// 运行到第156个用例时就超时了，哪位大佬帮再优化下。
 
-```
+// ```
 class Solution {
 public:
     vector<int> killProcess(vector<int>& pid, vector<int>& ppid, int kill) {
@@ -57,6 +57,6 @@ public:
         return;
     }
 };
-```
+// ```
 
 

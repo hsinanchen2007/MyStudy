@@ -1,6 +1,6 @@
-- 由于是到叶节点的距离，所以单空节点一定不是距离结算点
+# - 由于是到叶节点的距离，所以单空节点一定不是距离结算点
 
-```py
+# ```py
 class Solution:
     def minDepth(self, root: TreeNode) -> int:
 
@@ -12,4 +12,4 @@ class Solution:
             return min(get_min_depth(node.left), get_min_depth(node.right)) + 1
     
         return get_min_depth(root) if root else 0
-```
+# ```

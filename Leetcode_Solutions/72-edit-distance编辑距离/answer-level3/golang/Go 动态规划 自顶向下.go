@@ -1,13 +1,13 @@
-参考思路：[自底向上 和自顶向下](https://leetcode-cn.com/problems/edit-distance/solution/zi-di-xiang-shang-he-zi-ding-xiang-xia-by-powcai-3/)
+// 参考思路：[自底向上 和自顶向下](https://leetcode-cn.com/problems/edit-distance/solution/zi-di-xiang-shang-he-zi-ding-xiang-xia-by-powcai-3/)
 
-思考总结：
+// 思考总结：
 
-依然是最小化问题的思考方向，先做 空 与 空 之间的转换，然后换成一个字符，到多个字符的推论。
-操作上的优先级：无操作 > 插入 > 替换 > 删除  （可作为参考用）
+// 依然是最小化问题的思考方向，先做 空 与 空 之间的转换，然后换成一个字符，到多个字符的推论。
+// 操作上的优先级：无操作 > 插入 > 替换 > 删除  （可作为参考用）
 
-代码如下：
+// 代码如下：
 
-```golang
+// ```golang
 func minDistance(word1 string, word2 string) int {
 	lS, lD := len(word1), len(word2)
 	res := buildBase(word1, word2)
@@ -65,4 +65,4 @@ func printSlice(word1 string, word2 string, s [][]int) {
 	}
 }
 
-```
+// ```

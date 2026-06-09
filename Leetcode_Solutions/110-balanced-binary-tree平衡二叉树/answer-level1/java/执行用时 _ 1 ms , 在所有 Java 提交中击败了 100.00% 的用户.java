@@ -1,9 +1,9 @@
-### 解题思路
-//左子树和右子树的高度差小于1，并且左子树和右子树分别是高度平衡的
+// ### 解题思路
+// //左子树和右子树的高度差小于1，并且左子树和右子树分别是高度平衡的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
     	return 1+Math.max(heightOfTree(root.left), heightOfTree(root.right));
     }
 }
-```
+// ```

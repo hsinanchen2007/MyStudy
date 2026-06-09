@@ -1,6 +1,6 @@
 
 
-```
+// ```
 class Solution {
     public int lastStoneWeight(int[] stones) {
         int[] ss = new int[1001];
@@ -35,4 +35,4 @@ class Solution {
         return first;
     }
 }
-```
+// ```

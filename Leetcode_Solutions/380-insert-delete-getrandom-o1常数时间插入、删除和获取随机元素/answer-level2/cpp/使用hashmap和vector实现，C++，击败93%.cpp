@@ -1,9 +1,9 @@
-### 解题思路
-hashmap用来 key->index(vector的索引位置),vector用来存储key值。插入比较简单，使用hashmap是映射索引便于在O(1)时间可以删除vector所对应的元素。
+// ### 解题思路
+// hashmap用来 key->index(vector的索引位置),vector用来存储key值。插入比较简单，使用hashmap是映射索引便于在O(1)时间可以删除vector所对应的元素。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class RandomizedSet {
 private:
     unordered_map<int,int> mymap;
@@ -53,4 +53,4 @@ public:
  * bool param_2 = obj->remove(val);
  * int param_3 = obj->getRandom();
  */
-```
+// ```

@@ -1,10 +1,10 @@
-1：从左上角向右向下遍历，算出每个节点向上和向左的延伸轴长度
-2：从右下角向左向上遍历，算出每个节点向下和向右的延伸轴长度，同时获取四个延伸长度的最小值就是加号的阶数，最后一次比较获取最大阶加号
+// 1：从左上角向右向下遍历，算出每个节点向上和向左的延伸轴长度
+// 2：从右下角向左向上遍历，算出每个节点向下和向右的延伸轴长度，同时获取四个延伸长度的最小值就是加号的阶数，最后一次比较获取最大阶加号
 
-![image.png](https://pic.leetcode-cn.com/b85d48ebb912ceb03489c35f33674f2db9595ddb64bb39cb02afbd47e6e55aa9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b85d48ebb912ceb03489c35f33674f2db9595ddb64bb39cb02afbd47e6e55aa9-image.png)
 
 
-```
+// ```
 #define MAX_GRID_SIZE 500
 #define MIN(a, b) (((a) > (b)) ? (b) : (a))
 #define MIN_FOUR(a,b,c,d)   MIN(MIN(a,b), MIN(c,d))
@@ -72,4 +72,4 @@ int orderOfLargestPlusSign(int N, int** mines, int minesSize, int* minesColSize)
 
     return stage;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} num
  * @return {boolean}
@@ -10,4 +10,4 @@ var isPerfectSquare = function(num) {
          }
          else{return false;}
 };
-```
+// ```

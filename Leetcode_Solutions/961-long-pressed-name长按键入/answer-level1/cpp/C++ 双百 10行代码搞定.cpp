@@ -1,11 +1,11 @@
-### 解题思路
-双指针法
-1. typed 的index 一直增加，不同时name的指针不动，同时比较前一个值是否相同（防止题目挖坑）
-2. 结束时看看name指针是否指向结尾即可
+// ### 解题思路
+// 双指针法
+// 1. typed 的index 一直增加，不同时name的指针不动，同时比较前一个值是否相同（防止题目挖坑）
+// 2. 结束时看看name指针是否指向结尾即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isLongPressedName(string name, string typed) {
@@ -21,4 +21,4 @@ public:
         else return true;
     }
 };
-```
+// ```

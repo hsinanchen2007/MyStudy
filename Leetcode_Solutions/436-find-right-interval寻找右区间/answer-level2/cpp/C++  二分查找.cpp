@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     struct Node {
@@ -30,6 +30,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/d43288d2c792286fb788420e599af67b1c58980cfabf09803ab76c8ca4152fb4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d43288d2c792286fb788420e599af67b1c58980cfabf09803ab76c8ca4152fb4-image.png)

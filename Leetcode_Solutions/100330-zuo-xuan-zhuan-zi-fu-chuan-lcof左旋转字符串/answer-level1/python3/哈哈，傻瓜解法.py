@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def reverseLeftWords(self, s: str, n: int) -> str:
         s1=''
@@ -6,4 +6,4 @@ class Solution:
         for i in range(n):
             s1+=s[i]
         return s[n:]+s1
-```
+# ```

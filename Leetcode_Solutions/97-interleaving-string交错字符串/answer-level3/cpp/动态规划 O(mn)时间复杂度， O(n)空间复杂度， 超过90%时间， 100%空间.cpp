@@ -1,20 +1,20 @@
-### 解题思路
-dp[i][j]表示 s1的前i个和s2的前j个， 能否交错形成s2的前i+j个
+// ### 解题思路
+// dp[i][j]表示 s1的前i个和s2的前j个， 能否交错形成s2的前i+j个
 
-如果 s1[i] == s3[i+j] == s2[j]，那么s3[i+j]的字符可以来自s1[i]也可以来自s2[j]
-        如果来自s1[i], 则dp[i][j] = dp[i-1][j]， 否则dp[i][j] = dp[i][j-1]
-        dp[i][j] = dp[i-1][j] || dp[i][j-1]
-如果 s1[i] == s3[i+j] != s2[j]，那么s3[i+j]的字符可以来自s1[i]
-        dp[i][j] = dp[i-1][j]，
-如果 s1[i] != s3[i+j] == s2[j]，那么s3[i+j]的字符可以来自s2[j]
-        dp[i][j] = dp[i][j-1]，
-否则dp[i][j] = false
+// 如果 s1[i] == s3[i+j] == s2[j]，那么s3[i+j]的字符可以来自s1[i]也可以来自s2[j]
+//         如果来自s1[i], 则dp[i][j] = dp[i-1][j]， 否则dp[i][j] = dp[i][j-1]
+//         dp[i][j] = dp[i-1][j] || dp[i][j-1]
+// 如果 s1[i] == s3[i+j] != s2[j]，那么s3[i+j]的字符可以来自s1[i]
+//         dp[i][j] = dp[i-1][j]，
+// 如果 s1[i] != s3[i+j] == s2[j]，那么s3[i+j]的字符可以来自s2[j]
+//         dp[i][j] = dp[i][j-1]，
+// 否则dp[i][j] = false
 
-因为dp[i][j]只和上方和左方有关，所以用两个翻转的数组轮流保存，只需要O(n)空间。
+// 因为dp[i][j]只和上方和左方有关，所以用两个翻转的数组轮流保存，只需要O(n)空间。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isInterleave(string s1, string s2, string s3) {
@@ -45,4 +45,4 @@ public:
         return dp[1-k][s2.size()];
     }
 };
-```
+// ```

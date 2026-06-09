@@ -1,8 +1,8 @@
-### 解题思路
-思路：利用%2判断是1还是0，/2判断前一位数
-### 代码
+// ### 解题思路
+// 思路：利用%2判断是1还是0，/2判断前一位数
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasAlternatingBits(int n) {
@@ -15,4 +15,4 @@ public:
         return true;
     }
 };
-```
+// ```

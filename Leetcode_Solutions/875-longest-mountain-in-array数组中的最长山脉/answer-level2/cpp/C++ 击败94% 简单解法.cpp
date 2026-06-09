@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int longestMountain(vector<int>& A) {  //这题应该算作easy
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

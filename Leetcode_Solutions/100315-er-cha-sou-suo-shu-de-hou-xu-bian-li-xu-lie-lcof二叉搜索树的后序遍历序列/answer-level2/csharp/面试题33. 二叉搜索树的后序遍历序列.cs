@@ -1,11 +1,11 @@
-### 解题思路
-C# 分治法
-使用分组后的最后一个数字作为当前子树的根节点，在当前分组的前Length-1个元素中找到一个索引，使得索引前后的数全部小于和大于子树的根节点数，如果找不到则认为不是二叉搜索树；
-如果找到了Index，以此Index将当前分组再次划分，以此类推；
+// ### 解题思路
+// C# 分治法
+// 使用分组后的最后一个数字作为当前子树的根节点，在当前分组的前Length-1个元素中找到一个索引，使得索引前后的数全部小于和大于子树的根节点数，如果找不到则认为不是二叉搜索树；
+// 如果找到了Index，以此Index将当前分组再次划分，以此类推；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool VerifyPostorder(int[] postorder) {
         if (postorder.Length < 2) return true;
@@ -45,4 +45,4 @@ public class Solution {
                 VerifyPostorder(postOrder, end, rootIndex + 1, end - 1);
     }
 }
-```
+// ```

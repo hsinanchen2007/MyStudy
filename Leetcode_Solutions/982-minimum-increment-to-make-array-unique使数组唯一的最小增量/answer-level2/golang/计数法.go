@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-官方题解一
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 官方题解一
+// ### 代码
 
-```golang
+// ```golang
 import "sort"
 func minIncrementForUnique(A []int) int {
     res := 0
@@ -26,4 +26,4 @@ func minIncrementForUnique(A []int) int {
     }
     return res
 }
-```
+// ```

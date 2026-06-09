@@ -1,7 +1,7 @@
-注意点：C语言，BFS用的队列要自己撸，因为不知道二叉树有多少个节点，所以队列这里采用的动态申请内存，而不是定义一个最大规格的数组。循环队列注意二叉树只有1个节点的情况，要做特殊处理，否则PushQueue的时候会判定为队列满。
+// 注意点：C语言，BFS用的队列要自己撸，因为不知道二叉树有多少个节点，所以队列这里采用的动态申请内存，而不是定义一个最大规格的数组。循环队列注意二叉树只有1个节点的情况，要做特殊处理，否则PushQueue的时候会判定为队列满。
 
-代码：
-```
+// 代码：
+// ```
 void GetTotalNodeNum(struct TreeNode *root, int *totalNum)
 {
     if (root == NULL) {
@@ -138,4 +138,4 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
     free(Q.elem);
     return result;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-用坐标法的很容易出错，因为要顾及每个坐标相关联的点；最简单办法还是矩阵的转置，之后倒序
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 用坐标法的很容易出错，因为要顾及每个坐标相关联的点；最简单办法还是矩阵的转置，之后倒序
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize)
 {
   /*int temp,w,h;
@@ -45,4 +45,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize)
 
   
 
-```
+// ```

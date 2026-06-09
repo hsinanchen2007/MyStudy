@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def rangeBitwiseAnd(self, m: int, n: int) -> int:
         flag = True
@@ -16,4 +16,4 @@ class Solution:
             
         return ans
 
-```
+# ```

@@ -1,6 +1,6 @@
-方法一把列表为[]的情况单独出来了，用计数的方式操作
+# 方法一把列表为[]的情况单独出来了，用计数的方式操作
 
-```
+# ```
 class Solution:
     def findLengthOfLCIS(self, nums: List[int]) -> int:
         # 1. sliding-window operation
@@ -22,4 +22,4 @@ class Solution:
                 anchor = i
             ans = max(ans, i-anchor+1)
         return ans
-```
+# ```

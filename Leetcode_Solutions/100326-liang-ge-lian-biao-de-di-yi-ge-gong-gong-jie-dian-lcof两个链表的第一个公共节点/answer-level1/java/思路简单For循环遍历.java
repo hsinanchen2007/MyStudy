@@ -1,8 +1,8 @@
-### 解题思路
-    思路简单，用for循环遍历headA和headB，若p1 == p2，则输出;
-### 代码
+// ### 解题思路
+//     思路简单，用for循环遍历headA和headB，若p1 == p2，则输出;
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -25,4 +25,4 @@ public class Solution {
         return null;
     }
 }
-```
+// ```

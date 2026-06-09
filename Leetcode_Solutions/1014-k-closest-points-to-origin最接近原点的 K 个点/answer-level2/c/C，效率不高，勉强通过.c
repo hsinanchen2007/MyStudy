@@ -1,8 +1,8 @@
-1，新开buffer存取前k个小的元素
-2，每次新获取的样点通过二分法在新卡buffer中找到插入位置并插入，最终返回这个新开buffer即可
+// 1，新开buffer存取前k个小的元素
+// 2，每次新获取的样点通过二分法在新卡buffer中找到插入位置并插入，最终返回这个新开buffer即可
 
-//二分法查找插入位置
-int InsertPoint(int **res, int cur, int len)
+// //二分法查找插入位置
+// int InsertPoint(int **res, int cur, int len)
 {
     int l = 0;
     int r = len - 1;

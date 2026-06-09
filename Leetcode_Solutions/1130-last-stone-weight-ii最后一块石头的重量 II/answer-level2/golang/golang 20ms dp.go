@@ -1,13 +1,13 @@
-一个数字要么是被加，要么是被减
-核心算法
-```
+// 一个数字要么是被加，要么是被减
+// 核心算法
+// ```
 for k := range cur {
 			t[k + stones[i]] = struct{}{}
 			t[k - stones[i]] = struct{}{}
 }
-```
-整体算法
-```
+// ```
+// 整体算法
+// ```
 func lastStoneWeightII(stones []int) int {
 	cur := map[int]struct{}{
 		stones[0]: struct{}{},
@@ -41,4 +41,4 @@ func min(x, y int) int {
 	}
 	return y
 }
-```
+// ```

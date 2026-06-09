@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d7878c9cb21acd90b1802718e9c644d3e763e250b33185344526d4fa3ec70c70-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d7878c9cb21acd90b1802718e9c644d3e763e250b33185344526d4fa3ec70c70-image.png)
 
-遍历二维数组，先累加面积 4*n+2 （4个立面，顶底2两个面），然后依次检查是否和右边贴住，贴住的话，面积减少两份“矮的那根”的高度，同理，再检查和下面是否贴住。
+// 遍历二维数组，先累加面积 4*n+2 （4个立面，顶底2两个面），然后依次检查是否和右边贴住，贴住的话，面积减少两份“矮的那根”的高度，同理，再检查和下面是否贴住。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -24,4 +24,4 @@ var surfaceArea = function(grid) {
     }
     return surfc;
 };
-```
+// ```

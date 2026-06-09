@@ -1,12 +1,12 @@
-### 解题思路
-原地操作需要注意两点：
-1 从末尾开始执行。
-2 截掉多余的前置。
+// ### 解题思路
+// 原地操作需要注意两点：
+// 1 从末尾开始执行。
+// 2 截掉多余的前置。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string replaceSpaces(string S, int length) {
@@ -27,4 +27,4 @@ public:
         return S.substr(_size);
     }
 };
-```
+// ```

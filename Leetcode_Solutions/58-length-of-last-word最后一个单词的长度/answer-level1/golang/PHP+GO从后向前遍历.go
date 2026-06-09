@@ -1,9 +1,9 @@
-- 从后向前遍历字符串
-- 末尾空格记得忽略
-- 只统计第一次遇到的字符串即可
-- Goland果然厉害
-![image.png](https://pic.leetcode-cn.com/b49f96c357eac0dc109a8212e264605cadbcd8b3c600459d2d985dd6e3a68ff8-image.png)
-```PHP []
+// - 从后向前遍历字符串
+// - 末尾空格记得忽略
+// - 只统计第一次遇到的字符串即可
+// - Goland果然厉害
+// ![image.png](https://pic.leetcode-cn.com/b49f96c357eac0dc109a8212e264605cadbcd8b3c600459d2d985dd6e3a68ff8-image.png)
+// ```PHP []
 class Solution {
 
     /**
@@ -28,8 +28,8 @@ class Solution {
         return $len;
     }
 }
-```
-```GO []
+// ```
+// ```GO []
 # GO果然强大,执行效果比PHP快多了
 func lengthOfLastWord(s string) int {
     if len(s) == 0 {return 0}
@@ -45,4 +45,4 @@ func lengthOfLastWord(s string) int {
     }
     return out
 }
-```
+// ```

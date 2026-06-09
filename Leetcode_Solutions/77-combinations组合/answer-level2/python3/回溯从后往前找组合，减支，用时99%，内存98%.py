@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         r = []
@@ -12,5 +12,5 @@ class Solution:
                 combination.pop()
         backtrack([], n, k)
         return r       
-```
-n = 4, k = 2。产生组合43, 42, 41, 32, 31, 21。可以看出不需要1（k)开头的组合，所以在for循环里，从k遍历到n+1
+# ```
+# n = 4, k = 2。产生组合43, 42, 41, 32, 31, 21。可以看出不需要1（k)开头的组合，所以在for循环里，从k遍历到n+1

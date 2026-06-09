@@ -1,9 +1,9 @@
-### 解题思路
-先排除六种特殊情况，再转化为数字，最后求和即可
+# ### 解题思路
+# 先排除六种特殊情况，再转化为数字，最后求和即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s: str) -> int:
         list1 = ['IV','IX','XL','XC','CD','CM']
@@ -21,4 +21,4 @@ class Solution:
         return sum(tmp)
 
             
-```
+# ```

@@ -1,8 +1,8 @@
-通过空格分隔字符串 保存一个临时变量 ，用栈保存字符串
+// 通过空格分隔字符串 保存一个临时变量 ，用栈保存字符串
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -46,9 +46,9 @@ public:
         return ans;
     }
 };
-```
-改为原地
-```
+// ```
+// 改为原地
+// ```
 class Solution {
 public:
     string reverseWords(string s) {
@@ -101,4 +101,4 @@ public:
         return ans;
     }
 };
-```
+// ```

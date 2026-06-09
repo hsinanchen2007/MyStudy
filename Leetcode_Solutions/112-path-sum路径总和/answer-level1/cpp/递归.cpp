@@ -1,9 +1,9 @@
-### 解题思路
-要注意输入节点值可能为负，所以不要用sum<0来优化。
+// ### 解题思路
+// 要注意输入节点值可能为负，所以不要用sum<0来优化。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ public:
         return hasPathSum_core(root, sum);
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
- `c++`  递归，英文计数有个特点就是每三位断一次，不像中文计数是按每四位断一次
+//  `c++`  递归，英文计数有个特点就是每三位断一次，不像中文计数是按每四位断一次
 
-```dart
+// ```dart
 const string tmp19[20] = {"One ", "Two ", "Three ", "Four ", "Five ", "Six ",
 				"Seven ", "Eight ", "Nine ", "Ten ", "Eleven ", "Twelve ",
 				"Thirteen ", "Fourteen ", "Fifteen ", "Sixteen ", "Seventeen ",
@@ -35,5 +35,5 @@ const string tmp19[20] = {"One ", "Two ", "Three ", "Four ", "Five ", "Six ",
         if(num < 20) return to19(num);
         return tmp90[(num / 10) - 2] + to19(num % 10);
     }
-```
+// ```
  

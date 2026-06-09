@@ -1,5 +1,5 @@
 
-```
+# ```
 def _missingNumber(self, nums: List[int]) -> int:    # 基础解法
         l = len(nums)+1     # 主要是这点要认清楚
         for i in range(l+1):
@@ -19,5 +19,5 @@ def _missingNumber(self, nums: List[int]) -> int:    # 基础解法
         for i, num in enumerate(nums):
             missing ^= i ^ num
         return missing
-```
-异或满足结合律，谁又能想到
+# ```
+# 异或满足结合律，谁又能想到

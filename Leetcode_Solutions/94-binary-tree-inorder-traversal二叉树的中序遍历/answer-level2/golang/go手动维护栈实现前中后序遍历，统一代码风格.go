@@ -1,10 +1,10 @@
-使用栈的话本质就是手动模拟递归调用栈，为了能像递归一样写出风格统一且简洁的代码，这里维护一个visited的map，来标记访问过的节点。
-* 中序遍历，要求顺序是左根右，入栈时就要按照相反的顺序入栈，即右根左；
-* 前序遍历，要求顺序是根左右，入栈时就要按照相反的顺序入栈，即右左根；
-* 后序遍历，要求顺序是左右根，入栈时就要按照相反的顺序入栈，即根右左。
+// 使用栈的话本质就是手动模拟递归调用栈，为了能像递归一样写出风格统一且简洁的代码，这里维护一个visited的map，来标记访问过的节点。
+// * 中序遍历，要求顺序是左根右，入栈时就要按照相反的顺序入栈，即右根左；
+// * 前序遍历，要求顺序是根左右，入栈时就要按照相反的顺序入栈，即右左根；
+// * 后序遍历，要求顺序是左右根，入栈时就要按照相反的顺序入栈，即根右左。
 
-首先自己写一个栈stack的简单实现
-```go
+// 首先自己写一个栈stack的简单实现
+// ```go
 type Stack struct {
 	data []*TreeNode
 }
@@ -32,9 +32,9 @@ func (stack *Stack) peek() *TreeNode {
 func (stack Stack) isEmpty() bool {
 	return len(stack.data) == 0
 }
-```
-实现中序遍历
-```go
+// ```
+// 实现中序遍历
+// ```go
 // 迭代，手动使用栈来模拟递归调用栈
 func inorderTraversal(root *TreeNode) []int {
 	if root == nil {
@@ -63,10 +63,10 @@ func inorderTraversal(root *TreeNode) []int {
 	}
 	return res
 }
-```
+// ```
 
-前序遍历
-```go
+// 前序遍历
+// ```go
 func preorderTraversal(root *TreeNode) []int {
 	if root == nil {
 		return nil
@@ -94,10 +94,10 @@ func preorderTraversal(root *TreeNode) []int {
 	}
 	return res
 }
-```
+// ```
 
-后序遍历
-```go
+// 后序遍历
+// ```go
 func postorderTraversal(root *TreeNode) []int {
 	if root == nil {
 		return nil
@@ -125,4 +125,4 @@ func postorderTraversal(root *TreeNode) []int {
 	}
 	return res
 }
-```
+// ```

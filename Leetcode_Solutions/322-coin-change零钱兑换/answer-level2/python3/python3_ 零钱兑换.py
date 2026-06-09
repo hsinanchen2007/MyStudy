@@ -1,4 +1,4 @@
-```python
+# ```python
 def coinChange(coins, amount):
     """
         1. dp问题: dp[i] = min(dp[i], dp[i-coins[j]] + 1)
@@ -19,4 +19,4 @@ def coinChange(coins, amount):
     return -1 if dp[amount] > amount else dp[amount]
 
 print(coinChange([1,2,5], 11))
-```
+# ```

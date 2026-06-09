@@ -1,6 +1,6 @@
-排列组合问题，递归回溯
-代码如下：
-```
+// 排列组合问题，递归回溯
+// 代码如下：
+// ```
 func letterCombinations(digits string) []string {
 	var res []string
 	if len(digits)==0 {
@@ -27,4 +27,4 @@ func getCombinations(digits string,mapping map[byte][]string,n int,res *[]string
 		getCombinations(digits,mapping,n+1,res,temp+mapping[digits[n]][i])
 	}
 }
-```
+// ```

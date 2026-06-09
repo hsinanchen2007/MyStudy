@@ -1,4 +1,4 @@
-```
+// ```
     LinkedList<Integer> data = new LinkedList<>();
 
     public boolean isValidBST(TreeNode root) {
@@ -21,4 +21,4 @@
         }
         return true;
     }
-```
+// ```

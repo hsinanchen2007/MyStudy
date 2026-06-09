@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -68,4 +68,4 @@ func Count(head *ListNode)int{
     }
     return count
 }
-```
+// ```

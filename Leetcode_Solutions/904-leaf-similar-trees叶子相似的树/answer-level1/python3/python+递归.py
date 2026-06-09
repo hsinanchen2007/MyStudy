@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def leafSimilar(self, root1: TreeNode, root2: TreeNode) -> bool:
         def bianli(root, l):
@@ -13,4 +13,4 @@ class Solution:
         a = bianli(root1, [])
         b = bianli(root2,[])
         return a == b
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-每次一步，走过的记录，走到底则可以算出结果
+// ### 解题思路
+// 每次一步，走过的记录，走到底则可以算出结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //向前推演异步：1.找相同，2.找前后
 	private Set<Integer> stepOne(int[] arr, int k, int[] store, Map<Integer, List<Integer>> m) {
@@ -73,4 +73,4 @@ class Solution {
 		
 	}
 }
-```
+// ```

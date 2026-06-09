@@ -1,10 +1,10 @@
-### 解题思路
-1.使用unorder_map做字母对应映射。
-2.当map中没有则加入字母映射对，若是发现映射对不对则返回false，若是所有的映射都正确则返回true。
+// ### 解题思路
+// 1.使用unorder_map做字母对应映射。
+// 2.当map中没有则加入字母映射对，若是发现映射对不对则返回false，若是所有的映射都正确则返回true。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
@@ -27,4 +27,4 @@ public:
         return true;
     }
 };
-```
+// ```

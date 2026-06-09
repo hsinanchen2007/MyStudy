@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int find_rep_sub_size(string s) {
@@ -28,5 +28,5 @@ public:
         return dp[0][N - 1];
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/0a9b64d6fbfb2b7e2baf0b6ef781525c3852bd731f5852b809a6b0a05873e97a-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/0a9b64d6fbfb2b7e2baf0b6ef781525c3852bd731f5852b809a6b0a05873e97a-image.png)

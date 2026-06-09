@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  :
- * Date   : 2019/11/13
- *
- * 解题思路: 使用一个hashmap <String,List> key:排序后的字符串标识 List:排序后的字符串与Key相同的字符串存储再当前List中,  After that,湖片区hashMap 的values组成一个List 进行输出
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  :
+//  * Date   : 2019/11/13
+//  *
+//  * 解题思路: 使用一个hashmap <String,List> key:排序后的字符串标识 List:排序后的字符串与Key相同的字符串存储再当前List中,  After that,湖片区hashMap 的values组成一个List 进行输出
+//  *
+//  */
+// ```
 public List<List<String>> groupAnagrams(String[] strs) {
     HashMap<String ,List<String>> hashMap = new HashMap<>();
 
@@ -30,4 +30,4 @@ public List<List<String>> groupAnagrams(String[] strs) {
 
     return lists;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findStrobogrammatic(self, n: int):
         if n == 0:
@@ -54,4 +54,4 @@ class Solution:
                 for key in lookup:
                     list1.append((first_str + key, lookup[key] + second_str))
         return rs
-```
+# ```

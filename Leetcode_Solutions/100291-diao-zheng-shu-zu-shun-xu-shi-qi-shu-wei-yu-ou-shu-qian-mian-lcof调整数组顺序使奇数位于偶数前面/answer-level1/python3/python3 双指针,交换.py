@@ -1,9 +1,9 @@
-### 解题思路
-使用双指针，left,right 从两头遍历，遇到nums[left]为偶数，nums[right]为奇数时候，交换。
+# ### 解题思路
+# 使用双指针，left,right 从两头遍历，遇到nums[left]为偶数，nums[right]为奇数时候，交换。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def exchange(self, nums: List[int]) -> List[int]:
         left,right=0,len(nums)-1
@@ -17,4 +17,4 @@ class Solution:
             right-=1
         return nums
 
-```
+# ```

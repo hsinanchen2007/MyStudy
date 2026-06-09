@@ -1,5 +1,5 @@
 
-```
+// ```
 func isFlipedString(s1 string, s2 string) bool {
     if s1 == s2 {
         return true
@@ -19,4 +19,4 @@ func isFlipedString(s1 string, s2 string) bool {
     }
     return false
 }
-```
+// ```

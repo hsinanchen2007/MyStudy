@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sortColors(nums []int)  {
     left, cur, right := 0, 0, len(nums) - 1
     for cur <= right {
@@ -19,4 +19,4 @@ func sortColors(nums []int)  {
         }
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-递归算法：
-```
+// 递归算法：
+// ```
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -19,10 +19,10 @@ public:
         }
     }
 };
-```
+// ```
 
-毫无疑问是超时的，观察递归算法可看出重复子过程很多，所以可以使用记忆数组的方式：
-```
+// 毫无疑问是超时的，观察递归算法可看出重复子过程很多，所以可以使用记忆数组的方式：
+// ```
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -76,11 +76,11 @@ private:
     vector<vector<int>> memo;
     int row;
 };
-```
+// ```
 
-执行用时 :
-24 ms, 在所有 C++ 提交中击败了5.71%的用户
+// 执行用时 :
+// 24 ms, 在所有 C++ 提交中击败了5.71%的用户
 
-内存消耗 :
-8.5 MB, 在所有 C++ 提交中击败了100.00%的用户
+// 内存消耗 :
+// 8.5 MB, 在所有 C++ 提交中击败了100.00%的用户
 

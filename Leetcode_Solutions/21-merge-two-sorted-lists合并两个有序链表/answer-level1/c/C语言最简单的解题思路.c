@@ -1,8 +1,8 @@
-我觉得我的解题方法最简单了
-1、把两个链表组合起来
-2、用冒泡排序把新的链表排序。
+// 我觉得我的解题方法最简单了
+// 1、把两个链表组合起来
+// 2、用冒泡排序把新的链表排序。
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -51,4 +51,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 }
 
 
-```
+// ```

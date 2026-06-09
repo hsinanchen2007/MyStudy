@@ -1,8 +1,8 @@
 
 
-换就完事了
+// 换就完事了
 
-```
+// ```
 class Solution {
     public void swap(int[] A,int a,int b){
         int t=A[a];
@@ -25,4 +25,4 @@ class Solution {
                
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-时间O(n)空间O(1)
-e...
+// 时间O(n)空间O(1)
+// e...
 
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     int i,t,s=0;
     for(i=1;i<pricesSize;i++){
@@ -11,4 +11,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return s;
 }
-```
+// ```

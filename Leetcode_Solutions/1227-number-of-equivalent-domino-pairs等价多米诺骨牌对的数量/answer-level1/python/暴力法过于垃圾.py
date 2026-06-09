@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numEquivDominoPairs(self, dominoes):
         """
@@ -18,4 +18,4 @@ class Solution(object):
             res+=sset.get(x,0)
             sset[x]=sset.get(x,0)+1
         return res
-```
+# ```

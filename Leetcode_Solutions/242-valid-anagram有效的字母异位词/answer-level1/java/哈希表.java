@@ -1,9 +1,9 @@
-### 解题思路
-为将其中一个的字符串中的字符加入到哈希表中，然后再将另一个字符串中的字符和哈希表进行对比，然后判断是否个数相等。
+// ### 解题思路
+// 为将其中一个的字符串中的字符加入到哈希表中，然后再将另一个字符串中的字符和哈希表进行对比，然后判断是否个数相等。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isAnagram(String s, String t) {
         if(s.length() != t.length())
@@ -37,4 +37,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

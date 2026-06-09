@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-思路就是遇到needle首字母相同的部分，就判断一下。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 思路就是遇到needle首字母相同的部分，就判断一下。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -47,4 +47,4 @@ public:
         return t;
     }
 };
-```
+// ```

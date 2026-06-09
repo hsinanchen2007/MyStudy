@@ -1,9 +1,9 @@
-### 解题思路
-简单解法，按照题目描述进行循环遍历，记录次数，简单粗暴
+// ### 解题思路
+// 简单解法，按照题目描述进行循环遍历，记录次数，简单粗暴
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int NumberOfSteps (int num) {
         int count=0;
@@ -21,4 +21,4 @@ public class Solution {
         return count;
     }
 }
-```
+// ```

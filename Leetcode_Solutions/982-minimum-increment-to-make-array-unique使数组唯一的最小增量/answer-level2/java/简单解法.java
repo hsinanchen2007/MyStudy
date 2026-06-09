@@ -1,6 +1,6 @@
 
-先排序，然后遍历数组查看当前数与下一个数的差，然后补齐下一个数比当前数大1.
-```
+// 先排序，然后遍历数组查看当前数与下一个数的差，然后补齐下一个数比当前数大1.
+// ```
 public int minIncrementForUnique(int[] A) {
     Arrays.sort(A);
     int actions = 0;
@@ -12,4 +12,4 @@ public int minIncrementForUnique(int[] A) {
     }
     return actions;
 }
-```
+// ```

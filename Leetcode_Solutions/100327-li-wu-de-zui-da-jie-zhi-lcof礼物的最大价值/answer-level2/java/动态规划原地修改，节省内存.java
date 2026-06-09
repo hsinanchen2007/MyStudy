@@ -1,10 +1,10 @@
-### 解题思路
-由于是从左上角到右下角，被访问过的元素不会再被访问，因此可以利用原数组上的空间
-需要注意的地方就是边界判断的问题
+// ### 解题思路
+// 由于是从左上角到右下角，被访问过的元素不会再被访问，因此可以利用原数组上的空间
+// 需要注意的地方就是边界判断的问题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxValue(int[][] grid) {
         for(int i = 0;i < grid.length;i++){
@@ -23,4 +23,4 @@ class Solution {
         return grid[grid.length-1][grid[0].length-1];
     }
 }
-```
+// ```

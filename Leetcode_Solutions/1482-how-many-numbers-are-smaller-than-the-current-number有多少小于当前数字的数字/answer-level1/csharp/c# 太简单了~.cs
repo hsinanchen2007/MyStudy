@@ -1,7 +1,7 @@
-参考一下：
- https://blog.csdn.net/us2019/article/details/104846603
+// 参考一下：
+//  https://blog.csdn.net/us2019/article/details/104846603
 
-```
+// ```
         public int[] SmallerNumbersThanCurrent(int[] nums)
         {
             //var dic = new Dictionary<char, int>();
@@ -26,4 +26,4 @@
             }
             return tempnum;
         }
-```
+// ```

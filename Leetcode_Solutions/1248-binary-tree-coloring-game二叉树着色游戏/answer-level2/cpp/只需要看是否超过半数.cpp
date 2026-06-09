@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     bool btreeGameWinningMove(TreeNode* root, int n, int x) {
@@ -24,4 +24,4 @@ public:
         return find(root->right, x);
     }
 };
-```
+// ```

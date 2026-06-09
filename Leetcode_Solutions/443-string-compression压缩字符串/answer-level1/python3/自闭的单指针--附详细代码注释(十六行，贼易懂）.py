@@ -1,23 +1,23 @@
 
-### 思路
-只用一个i做指针，应该算单指针吧？cnt只是用来计数的
+# ### 思路
+# 只用一个i做指针，应该算单指针吧？cnt只是用来计数的
 
-我受不了我这个弱智代码了。
+# 我受不了我这个弱智代码了。
 
-为什么计数超过10的，要！裂！开！来！输！出？
+# 为什么计数超过10的，要！裂！开！来！输！出？
 
-我  裂  开  了  ！
+# 我  裂  开  了  ！
 
-思路就是直接while循环，cnt计数，指针i，仙人指路
-碰到cnt为1的，直接跳过去
-碰到chars[i] == chars[i+1]的，cnt += 1,pop掉后面这个重复值
-碰到chars[i] != chars[i+1]的，插入一个cnt在i+1处，然后重置cnt=1
-（逐个字符插入嗷，超过1个的，把指针更新一位i+=1）
-最后一个，如果cnt==1：直接输出
-如果cnt > 1: 把cnt逐个字符的插入在i+1位置
+# 思路就是直接while循环，cnt计数，指针i，仙人指路
+# 碰到cnt为1的，直接跳过去
+# 碰到chars[i] == chars[i+1]的，cnt += 1,pop掉后面这个重复值
+# 碰到chars[i] != chars[i+1]的，插入一个cnt在i+1处，然后重置cnt=1
+# （逐个字符插入嗷，超过1个的，把指针更新一位i+=1）
+# 最后一个，如果cnt==1：直接输出
+# 如果cnt > 1: 把cnt逐个字符的插入在i+1位置
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def compress(self, chars: List[str]) -> int:
         cnt, i  = 1, 0    #指针初始化
@@ -36,4 +36,4 @@ class Solution:
             chars.extend([str(x) for x in list(str(cnt))])
             return len(chars)
         else: return len(chars)    #最后一组cnt=1，省略计数字符
-```
+# ```

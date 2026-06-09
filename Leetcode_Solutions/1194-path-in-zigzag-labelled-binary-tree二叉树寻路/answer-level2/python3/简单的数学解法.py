@@ -1,5 +1,5 @@
-看到本题的标签有个Math，就简单用了数学的解法。
-```
+# 看到本题的标签有个Math，就简单用了数学的解法。
+# ```
 import math
 
 class Solution:
@@ -21,4 +21,4 @@ class Solution:
             res.append(label)
         
         return res[::-1]
-```
+# ```

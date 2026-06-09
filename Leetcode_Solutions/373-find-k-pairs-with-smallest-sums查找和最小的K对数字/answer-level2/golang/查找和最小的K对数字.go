@@ -1,9 +1,9 @@
-### 解题思路
-枚举, 最大堆
+// ### 解题思路
+// 枚举, 最大堆
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //	373
 
 func kSmallestPairs(nums1 []int, nums2 []int, k int) [][]int {
@@ -60,4 +60,4 @@ func (pq *TupleMaxHeap) Peek() Tuple {
 	return (*pq)[0]
 }
 
-```
+// ```

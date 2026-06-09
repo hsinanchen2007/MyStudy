@@ -1,5 +1,5 @@
 
-```int numJewelsInStones(char * J, char * S){
+// ```int numJewelsInStones(char * J, char * S){
     int n = 0;
     int a[58] = {0};
     int x = strlen(J);

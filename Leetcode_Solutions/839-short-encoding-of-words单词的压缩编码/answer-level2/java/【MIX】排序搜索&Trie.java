@@ -1,12 +1,12 @@
-### 解题思路
-1. 按单词长度从大到小排序后进行插入, 考虑非结尾的情况
-2. Trie
-3. 后缀删除法
+// ### 解题思路
+// 1. 按单词长度从大到小排序后进行插入, 考虑非结尾的情况
+// 2. Trie
+// 3. 后缀删除法
 
-### 代码
+// ### 代码
 
-**插入法**
-```c++ []
+// **插入法**
+// ```c++ []
 class Solution {
 public:
     int minimumLengthEncoding(vector<string>& words) {
@@ -41,9 +41,9 @@ public:
         return res.size();
     }
 };
-```
-**后缀删除法**
-```java []
+// ```
+// **后缀删除法**
+// ```java []
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         // 删除法
@@ -61,8 +61,8 @@ class Solution {
         return res;
     }
 }
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     int minimumLengthEncoding(vector<string>& words) {
@@ -81,9 +81,9 @@ public:
         return res;
     }
 };
-```
-**Trie**
-```python []
+// ```
+// **Trie**
+// ```python []
 from functools import reduce
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
@@ -96,8 +96,8 @@ class Solution:
         nodes = [reduce(dict.__getitem__, w[::-1], root) for w in words]
         # nodes[i]表示第i个单词在Trie中的插入情况, len(nodes[i])==0表示为一个新词
         return sum(len(w)+1 for i, w in enumerate(words) if len(nodes[i])==0)
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     int minimumLengthEncoding(vector<string>& words) {
@@ -154,4 +154,4 @@ private:
         int cnt = 0;
     };
 };
-```
+// ```

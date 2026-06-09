@@ -1,5 +1,5 @@
-主要目如何将两个不同长短的有序数组进行拆分，使得左侧个数等于右侧个数并且左侧的最大值小于右侧的最小值。
-```
+# 主要目如何将两个不同长短的有序数组进行拆分，使得左侧个数等于右侧个数并且左侧的最大值小于右侧的最小值。
+# ```
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         m,n=len(nums1),len(nums2)
@@ -44,4 +44,4 @@ class Solution:
                     min_right = min(nums1[i],nums2[j])
                 
                 return (max_left+min_right)/2.0
-```
+# ```

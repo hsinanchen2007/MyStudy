@@ -1,9 +1,9 @@
-### 解题思路
-先判断是哪一行，再遍历每个word检查是否都在该行
+// ### 解题思路
+// 先判断是哪一行，再遍历每个word检查是否都在该行
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findWords(vector<string>& words) {
@@ -33,4 +33,4 @@ public:
         return res;
     }
 };
-```
+// ```

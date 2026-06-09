@@ -1,14 +1,14 @@
-### 解题思路
-透过现象看本质：其实就是两个list求和
-注意不要转成int，因为数组可能很长很长。
-1、都转成list
-2、翻转list
-3、分三种情况：两个长度相同、A长度大、B长度大
-4、注意边界情况即可
+// ### 解题思路
+// 透过现象看本质：其实就是两个list求和
+// 注意不要转成int，因为数组可能很长很长。
+// 1、都转成list
+// 2、翻转list
+// 3、分三种情况：两个长度相同、A长度大、B长度大
+// 4、注意边界情况即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> addToArrayForm(int[] A, int K) {
         String kString = String.valueOf(K);
@@ -97,4 +97,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

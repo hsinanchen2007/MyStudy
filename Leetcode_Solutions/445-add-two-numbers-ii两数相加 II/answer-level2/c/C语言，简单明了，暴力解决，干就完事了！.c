@@ -1,9 +1,9 @@
-### 解题思路
-先逆序两链表，再依次相加，最后判断最高位是否需要进位
+// ### 解题思路
+// 先逆序两链表，再依次相加，最后判断最高位是否需要进位
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -68,4 +68,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return dummy->next;
 }
-```
+// ```

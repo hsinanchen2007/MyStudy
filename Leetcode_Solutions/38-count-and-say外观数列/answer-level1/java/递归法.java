@@ -1,9 +1,9 @@
-### 解题思路
-根据字符串生成字符串
+// ### 解题思路
+// 根据字符串生成字符串
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public  String countString(String str) {
         StringBuilder sb = new StringBuilder();
@@ -33,4 +33,4 @@ class Solution {
 
     }
 }
-```
+// ```

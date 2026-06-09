@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -17,7 +17,7 @@ public:
         return (matrix[j / m][j % m] == target);
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d4329b07620bd83297aff77c0334795002113b2b68d6167c8313f415704863bf-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d4329b07620bd83297aff77c0334795002113b2b68d6167c8313f415704863bf-image.png)
 
 

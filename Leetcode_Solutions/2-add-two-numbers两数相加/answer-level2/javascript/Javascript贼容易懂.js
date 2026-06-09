@@ -1,5 +1,5 @@
-carry保存进位
-```javascript
+// carry保存进位
+// ```javascript
 var addTwoNumbers = function(l1, l2) {
     let n = new ListNode(0);
     let root = n;
@@ -21,4 +21,4 @@ var addTwoNumbers = function(l1, l2) {
     }
     return root.next;
 };
-```
+// ```

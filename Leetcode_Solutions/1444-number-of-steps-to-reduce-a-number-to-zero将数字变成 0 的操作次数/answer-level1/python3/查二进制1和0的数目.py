@@ -1,6 +1,6 @@
-二进制中有0需要1步操作，有1需要2步操作，最后一个1只需要1步。
+# 二进制中有0需要1步操作，有1需要2步操作，最后一个1只需要1步。
 
-```
+# ```
 class Solution:
     def numberOfSteps (self, num: int) -> int:
         if num == 0:
@@ -11,4 +11,4 @@ class Solution:
             res += 2 if i == '1' else 1
 
         return res-1
-```
+# ```

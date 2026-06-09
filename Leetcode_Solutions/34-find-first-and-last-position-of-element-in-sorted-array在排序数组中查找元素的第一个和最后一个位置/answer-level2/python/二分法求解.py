@@ -1,10 +1,10 @@
-### 解题思路
-首先二分法找到第一个相等值的下标
-找到下标后直接左右移动搜索
+# ### 解题思路
+# 首先二分法找到第一个相等值的下标
+# 找到下标后直接左右移动搜索
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def searchRange(self, nums, target):
         """
@@ -51,4 +51,4 @@ class Solution(object):
         
 
 
-```
+# ```

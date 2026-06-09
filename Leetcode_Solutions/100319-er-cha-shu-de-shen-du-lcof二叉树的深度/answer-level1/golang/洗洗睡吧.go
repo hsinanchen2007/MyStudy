@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -21,4 +21,4 @@ func max(x,y int)int{
     }
     return y
 }
-```
+// ```

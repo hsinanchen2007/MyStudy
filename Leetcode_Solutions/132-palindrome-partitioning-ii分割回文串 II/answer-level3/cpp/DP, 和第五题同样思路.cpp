@@ -1,11 +1,11 @@
-### 解题思路
-和 第 5 题 同样的 dp 思路
-用 arr[i] 表示到第 i 个字符，所需要的最小切割数，
-当 (left, right) 形成了回文串时， 则 arr[right] = arr[left-1] + 1;
+// ### 解题思路
+// 和 第 5 题 同样的 dp 思路
+// 用 arr[i] 表示到第 i 个字符，所需要的最小切割数，
+// 当 (left, right) 形成了回文串时， 则 arr[right] = arr[left-1] + 1;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCut(string s) {
@@ -25,4 +25,4 @@ public:
         return arr[n-1];
     }
 };
-```
+// ```

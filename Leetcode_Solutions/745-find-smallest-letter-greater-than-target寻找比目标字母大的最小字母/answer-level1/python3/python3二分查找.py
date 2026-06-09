@@ -1,9 +1,9 @@
-### 解题思路
-python3二分查找
+# ### 解题思路
+# python3二分查找
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
         if not letters:
@@ -26,4 +26,4 @@ class Solution:
 
             return letters[left]
 
-```
+# ```

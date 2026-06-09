@@ -1,12 +1,12 @@
-### 解题思路
-@powcai
-这个大神的代码点醒了我 
-怎么去判断是第一次访问
-这个代码感觉还拿得出手 哈哈
+# ### 解题思路
+# @powcai
+# 这个大神的代码点醒了我 
+# 怎么去判断是第一次访问
+# 这个代码感觉还拿得出手 哈哈
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
             helper(root.left,x+1)
         helper(root,0)
         return res
-```
+# ```

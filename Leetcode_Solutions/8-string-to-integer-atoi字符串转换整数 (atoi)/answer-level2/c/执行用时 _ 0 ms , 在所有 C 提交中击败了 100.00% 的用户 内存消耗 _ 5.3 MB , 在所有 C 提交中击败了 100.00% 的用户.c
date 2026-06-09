@@ -1,5 +1,5 @@
-### 解题思路
-```
+// ### 解题思路
+// ```
 int myAtoi(char * str){
     long res=0;
     int flag=0;
@@ -39,12 +39,12 @@ int myAtoi(char * str){
 
     return ((int)res)*flag;
 }
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str){
     long res=0;
     int flag=0;
@@ -84,4 +84,4 @@ int myAtoi(char * str){
 
     return ((int)res)*flag;
 }
-```
+// ```

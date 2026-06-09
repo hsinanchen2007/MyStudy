@@ -1,6 +1,6 @@
 
 
-```python
+# ```python
 class Solution(object):
     def findContinuousSequence(self, target):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                     head += 1
 
         return result
-```
+# ```

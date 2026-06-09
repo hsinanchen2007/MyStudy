@@ -1,6 +1,6 @@
-为每一个String创建一个char数组记录26个小写字母出现次数
-然后纵向从a到z取得每个字母出现的最小次数，加入到结果中
-```
+// 为每一个String创建一个char数组记录26个小写字母出现次数
+// 然后纵向从a到z取得每个字母出现的最小次数，加入到结果中
+// ```
 class Solution {
     public List<String> commonChars(String[] A) {
         List<String> list =new ArrayList<String>();
@@ -24,4 +24,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

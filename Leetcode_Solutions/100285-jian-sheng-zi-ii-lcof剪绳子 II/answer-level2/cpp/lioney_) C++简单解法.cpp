@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int cuttingRope(int n) {
@@ -12,4 +12,4 @@ public:
         return res * n % 1000000007;
     }
 };
-```
+// ```

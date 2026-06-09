@@ -1,5 +1,5 @@
-js 拓扑排序
-```js
+// js 拓扑排序
+// ```js
 var canFinish = function(numCourses, prerequisites) {
     const indegree = new Array(numCourses).fill(0);
     const record = {};
@@ -29,10 +29,10 @@ var canFinish = function(numCourses, prerequisites) {
     }
     return res.length === numCourses;
 };
-```
+// ```
 
-js DFS递归
-```js
+// js DFS递归
+// ```js
 /**
  * @param {number} numCourses
  * @param {number[][]} prerequisites
@@ -60,9 +60,9 @@ var canFinish = function(numCourses, prerequisites) {
     }
     return true;
 };
-```
-js DFS非递归
-```js
+// ```
+// js DFS非递归
+// ```js
 function canFinish(N, arr) {
     const indegree = new Array(N).fill(0);
     const record = {};
@@ -94,6 +94,6 @@ function canFinish(N, arr) {
     }
     return res.length === N;
 }
-```
+// ```
 
 

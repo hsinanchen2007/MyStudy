@@ -1,6 +1,6 @@
-# 解法一：
-动态规划
-```C++ []
+// # 解法一：
+// 动态规划
+// ```C++ []
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -18,13 +18,13 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/936aa461a08fee70df14491f7f675a6bcd1833c479729ec32c0bfeac707993de-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/936aa461a08fee70df14491f7f675a6bcd1833c479729ec32c0bfeac707993de-image.png)
 
 
-# 解法二：
-二分查找更新法
-```C++ []
+// # 解法二：
+// 二分查找更新法
+// ```C++ []
 class Solution {
 public:
     int bisearch(vector<int>& nums, int t) {
@@ -53,15 +53,15 @@ public:
         return res.size();
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/8a9659d0a024225a61256dd505d60abcd11f0a9422c7e8338727fad9350d507f-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/8a9659d0a024225a61256dd505d60abcd11f0a9422c7e8338727fad9350d507f-image.png)
 
 
-# 解法三：
-树状数组
-1，离散化数组
-2，每次都找比当前数小的最长递增序列，不断更新结果
-```
+// # 解法三：
+// 树状数组
+// 1，离散化数组
+// 2，每次都找比当前数小的最长递增序列，不断更新结果
+// ```
 class Solution {
 public:
     vector<int> bits;
@@ -95,6 +95,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/be68095b4f7bf16b4e281f0680b2f39bd9dea0bf5181c5d6ff732426355b2933-image.png)
+// ![image.png](https://pic.leetcode-cn.com/be68095b4f7bf16b4e281f0680b2f39bd9dea0bf5181c5d6ff732426355b2933-image.png)

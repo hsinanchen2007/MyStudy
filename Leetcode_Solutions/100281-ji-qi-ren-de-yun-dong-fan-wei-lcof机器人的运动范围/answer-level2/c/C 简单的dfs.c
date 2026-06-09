@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cnt = 0;
 int visted[101][101];
 int isValid(int i, int j, int k)
@@ -60,4 +60,4 @@ int movingCount(int m, int n, int k)
     dfs(m, n, k, 0, 0);
     return cnt;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-先找到 “R” 的位置
-然后分别探索 “R” 的上下左右能吃掉多少个 “p”。
+// ### 解题思路
+// 先找到 “R” 的位置
+// 然后分别探索 “R” 的上下左右能吃掉多少个 “p”。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
 
@@ -92,4 +92,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

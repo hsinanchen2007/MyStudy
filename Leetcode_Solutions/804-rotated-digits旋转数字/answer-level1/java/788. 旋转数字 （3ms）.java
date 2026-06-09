@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 2399144252@qq.com
- * Date   : 2019/10/11
- *
- * 解题思路: hash数组 暴力解决 3ms
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 2399144252@qq.com
+//  * Date   : 2019/10/11
+//  *
+//  * 解题思路: hash数组 暴力解决 3ms
+//  *
+//  */
+// ```
 public class leetcode788 {
 
     int[] hash = new int[]{1,1,2,0,0,2,2,0,1,2};
@@ -38,4 +38,4 @@ public class leetcode788 {
     }
 }
 
-```
+// ```

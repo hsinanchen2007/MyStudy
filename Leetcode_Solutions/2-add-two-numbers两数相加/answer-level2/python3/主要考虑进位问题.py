@@ -1,16 +1,16 @@
-### 解题思路
-两数相加
-1，长度相同
-2，长度不同
-3，进位问题
-我们计算每一位的和sum = l1.val + l2.val
-那么当前位的数字为:val = sum % 10
-当前位的进位:sum//10
-下一位的数字为:val = (sum//10 + sum_next)%10
+# ### 解题思路
+# 两数相加
+# 1，长度相同
+# 2，长度不同
+# 3，进位问题
+# 我们计算每一位的和sum = l1.val + l2.val
+# 那么当前位的数字为:val = sum % 10
+# 当前位的进位:sum//10
+# 下一位的数字为:val = (sum//10 + sum_next)%10
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -46,4 +46,4 @@ class Solution:
                 break
         return result
 
-```
+# ```

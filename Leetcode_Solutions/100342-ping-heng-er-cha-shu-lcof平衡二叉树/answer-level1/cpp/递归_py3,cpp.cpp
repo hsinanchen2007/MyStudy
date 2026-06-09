@@ -1,4 +1,4 @@
-```cpp []
+// ```cpp []
 class Solution {
 public:
     bool ans = true;
@@ -15,8 +15,8 @@ public:
         return max(left, right);
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
         self.ans = True
@@ -30,5 +30,5 @@ class Solution:
             return max(left, right)
         f(root)
         return self.ans
-```
+// ```
 

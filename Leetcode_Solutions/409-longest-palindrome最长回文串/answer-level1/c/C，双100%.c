@@ -1,9 +1,9 @@
-### 解题思路
-最长的回文串，最多有一个单数的字母，其他都得是双数，上代码。
+// ### 解题思路
+// 最长的回文串，最多有一个单数的字母，其他都得是双数，上代码。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestPalindrome(char * s){
     int* chars = (int *)malloc(sizeof(int) * 52);
     memset(chars, 0, sizeof(int) * 52);
@@ -33,4 +33,4 @@ int longestPalindrome(char * s){
     free(chars);
     return count;
 }
-```
+// ```

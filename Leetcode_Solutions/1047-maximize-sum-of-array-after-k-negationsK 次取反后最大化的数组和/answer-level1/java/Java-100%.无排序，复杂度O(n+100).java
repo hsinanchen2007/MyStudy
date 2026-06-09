@@ -1,5 +1,5 @@
-思路：将所有数字先求和**sum**，然后**number**数组记录所有负数出现的次数，**index**记录最小正整数，**i**从-100到-1.K>0时反转负数，比如**i**=-3变成+3，会使得sum增加2$\times$**i**$\times$**number**[i]。当K为0时返回结果，遍历结束后**K**如果仍然大于0，就检查它的奇偶性，若为奇数，就将最小的那个正数反转为负数
-```
+// 思路：将所有数字先求和**sum**，然后**number**数组记录所有负数出现的次数，**index**记录最小正整数，**i**从-100到-1.K>0时反转负数，比如**i**=-3变成+3，会使得sum增加2$\times$**i**$\times$**number**[i]。当K为0时返回结果，遍历结束后**K**如果仍然大于0，就检查它的奇偶性，若为奇数，就将最小的那个正数反转为负数
+// ```
 class Solution {
      public int largestSumAfterKNegations(int[] A, int K) {
         short[] number = new short[101];
@@ -28,4 +28,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

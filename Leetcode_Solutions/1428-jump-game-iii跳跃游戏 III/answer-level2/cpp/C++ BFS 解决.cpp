@@ -1,7 +1,7 @@
-//广度优先搜索
-//使用队列保存元素下标
-//使用bool类型的数组判断该元素是否进入过队列，不使用会提示超时
-```
+// //广度优先搜索
+// //使用队列保存元素下标
+// //使用bool类型的数组判断该元素是否进入过队列，不使用会提示超时
+// ```
 class Solution {
 public:
     bool canReach(vector<int>& arr, int start) {
@@ -29,4 +29,4 @@ public:
         return false;
     }
 };
-```
+// ```

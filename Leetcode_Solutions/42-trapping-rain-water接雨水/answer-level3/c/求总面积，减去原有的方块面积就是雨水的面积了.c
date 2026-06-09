@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
-内存消耗 :6 MB, 在所有 C 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
+// 内存消耗 :6 MB, 在所有 C 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
     int i;
     int max = -1;
@@ -36,4 +36,4 @@ int trap(int* height, int heightSize){
     return sumz -sum;
 
 }
-```
+// ```

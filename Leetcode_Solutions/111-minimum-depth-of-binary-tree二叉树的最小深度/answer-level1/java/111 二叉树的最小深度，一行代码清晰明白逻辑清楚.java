@@ -1,4 +1,4 @@
-```java
+// ```java
     /**
      * 执行用时 :0 ms, 100.00%
      * 内存消耗 :38 MB, 49.42%
@@ -15,4 +15,4 @@
                         root.right == null ? minDepth(root.left) + 1 :
                                 Math.min(minDepth(root.left), minDepth(root.right)) + 1;
     }
-```
+// ```

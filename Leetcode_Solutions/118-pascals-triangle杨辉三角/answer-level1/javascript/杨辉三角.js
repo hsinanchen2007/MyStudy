@@ -1,4 +1,4 @@
-```js
+// ```js
 var generate = function(numRows) {
 
     var result = [];
@@ -21,4 +21,4 @@ var generate = function(numRows) {
 
 var numRows = 6;
 console.log(generate(numRows))
-```
+// ```

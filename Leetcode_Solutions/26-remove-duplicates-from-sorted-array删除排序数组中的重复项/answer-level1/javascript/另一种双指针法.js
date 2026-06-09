@@ -1,7 +1,7 @@
-设置两个下标i,j;
-循环nums，
-比较nums[i]和nums[i-1];如果发现不同，则将nums[j] 重置为nums[i];
-```javascript []
+// 设置两个下标i,j;
+// 循环nums，
+// 比较nums[i]和nums[i-1];如果发现不同，则将nums[j] 重置为nums[i];
+// ```javascript []
 var removeDuplicates = function(nums) {
     if(nums.length <=1){
         return nums;
@@ -15,4 +15,4 @@ var removeDuplicates = function(nums) {
     }
     return j;
 };
-```
+// ```

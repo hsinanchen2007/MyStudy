@@ -1,7 +1,7 @@
 
-先遍历列，再遍历行。
+// 先遍历列，再遍历行。
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     vector<vector<int>> transpose(vector<vector<int>>& A) {
@@ -16,4 +16,4 @@ public:
         return B;
     } 
 };
-```
+// ```

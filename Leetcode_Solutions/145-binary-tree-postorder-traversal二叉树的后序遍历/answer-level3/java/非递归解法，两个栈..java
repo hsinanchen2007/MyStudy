@@ -1,4 +1,4 @@
-后序遍历右节点和根节点永远在左节点的后面，符合栈先进后出的特点。将temp栈按顺序弹出就是遍历结果。
+// 后序遍历右节点和根节点永远在左节点的后面，符合栈先进后出的特点。将temp栈按顺序弹出就是遍历结果。
 
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func fib(n int) int {
 	var f = fibonacci()
 	// 顺序计算，第1项为0，需要调用 f() n+1次
@@ -22,4 +22,4 @@ func fibonacci() func() int {
 		return f
 	}
 }
-```
+// ```

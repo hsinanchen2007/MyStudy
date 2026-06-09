@@ -1,17 +1,17 @@
-### 解题思路
-没有观察到斐波那契规律，但是想到累加组合数的规律。为了防止溢出，改良了组合数求法。
-执行用时也是0还不错吧。
+// ### 解题思路
+// 没有观察到斐波那契规律，但是想到累加组合数的规律。为了防止溢出，改良了组合数求法。
+// 执行用时也是0还不错吧。
 
-### 代码
-参考：[组合数](https://baike.baidu.com/item/%E7%BB%84%E5%90%88%E6%95%B0/2153250?fr=aladdin)
-图1
-![图1](https://pic.leetcode-cn.com/7e8635ddbb89b0169a8bb7f4a1af0f0c23a02a206581a428b76a9acebf844799-image.png)
+// ### 代码
+// 参考：[组合数](https://baike.baidu.com/item/%E7%BB%84%E5%90%88%E6%95%B0/2153250?fr=aladdin)
+// 图1
+// ![图1](https://pic.leetcode-cn.com/7e8635ddbb89b0169a8bb7f4a1af0f0c23a02a206581a428b76a9acebf844799-image.png)
 
 
-图2
-![图2](https://pic.leetcode-cn.com/91ec0610e84d7f90d215bb1063999e6bf2518c1a323abc39488f9557a25744e9-image.png)
+// 图2
+// ![图2](https://pic.leetcode-cn.com/91ec0610e84d7f90d215bb1063999e6bf2518c1a323abc39488f9557a25744e9-image.png)
 
-```c
+// ```c
 // 求"组合数"
 int C(int n, int m) {
     unsigned long ans = 1;
@@ -52,4 +52,4 @@ int climbStairs(int n){
         count += C(one, two);
     return count;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+-- ```
 # Write your MySQL query statement below
 select 
     distinct l.page_id as recommended_page
@@ -23,4 +23,4 @@ where
             user_id=1)
 order by 
     recommended_page
-```
+-- ```

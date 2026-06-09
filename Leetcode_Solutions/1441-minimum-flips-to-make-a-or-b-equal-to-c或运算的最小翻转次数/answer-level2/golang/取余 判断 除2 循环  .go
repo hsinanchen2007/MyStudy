@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minFlips(a int, b int, c int) int {
     sum := 0
     for a >0 || b > 0 || c > 0 {
@@ -33,4 +33,4 @@ func minFlips(a int, b int, c int) int {
 // 0 1  1
 // 1 0  1
 // 0 0  0
-```
+// ```

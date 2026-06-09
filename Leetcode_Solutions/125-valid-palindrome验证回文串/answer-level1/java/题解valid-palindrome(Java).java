@@ -1,10 +1,10 @@
-### 解题思路
-1、只保留数字和字母（这里无需大小写转换）；
-2、将处理后的字符串反转与原字符串比较是否一样（此处用equalsIgnoreCase函数忽略大小写字母差异）。
+// ### 解题思路
+// 1、只保留数字和字母（这里无需大小写转换）；
+// 2、将处理后的字符串反转与原字符串比较是否一样（此处用equalsIgnoreCase函数忽略大小写字母差异）。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(String s) {
         // 高层次主干逻辑，写好需要用的函数和实现逻辑
@@ -29,4 +29,4 @@ class Solution {
         return s.replaceAll("[^A-Za-z0-9]", "");
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```go []
+// ```go []
 
 func reverseList(head *ListNode) *ListNode {
 	var pre *ListNode
@@ -13,4 +13,4 @@ func reverseList(head *ListNode) *ListNode {
 
 	return pre
 }
-```
+// ```

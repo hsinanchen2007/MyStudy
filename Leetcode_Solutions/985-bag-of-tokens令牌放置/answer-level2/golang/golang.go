@@ -1,5 +1,5 @@
-双指针需要注意一下边界条件
-```
+// 双指针需要注意一下边界条件
+// ```
 func bagOfTokensScore(tokens []int, p int) int {
 	sort.Ints(tokens)
 	if len(tokens) == 0 || p < tokens[0] {
@@ -24,4 +24,4 @@ func bagOfTokensScore(tokens []int, p int) int {
 	}
 	return ret
 }
-```
+// ```

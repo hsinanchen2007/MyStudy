@@ -1,5 +1,5 @@
-直接贴代码了
-冒泡 判断是否相等
+// 直接贴代码了
+// 冒泡 判断是否相等
 var containsNearbyDuplicate = function(nums, k) {
    for(var i=0;i<nums.length;i++)    
        {

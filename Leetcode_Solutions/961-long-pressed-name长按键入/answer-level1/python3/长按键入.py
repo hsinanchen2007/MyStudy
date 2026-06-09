@@ -1,11 +1,11 @@
-### 解题思路
-1. 在name里的每一个字母都会在typed里；
-2. 在typed里的每一个字母类型，在name里也有，只不过数量不一样；
-3. typed中多按的字母必须是在原先正确的字母后面重复，而不是随意位置；
+# ### 解题思路
+# 1. 在name里的每一个字母都会在typed里；
+# 2. 在typed里的每一个字母类型，在name里也有，只不过数量不一样；
+# 3. typed中多按的字母必须是在原先正确的字母后面重复，而不是随意位置；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isLongPressedName(self, name: str, typed: str) -> bool:
         charSetN = set(name)
@@ -51,4 +51,4 @@ class Solution:
         #     else:
         #         continue
         # return True
-```
+# ```

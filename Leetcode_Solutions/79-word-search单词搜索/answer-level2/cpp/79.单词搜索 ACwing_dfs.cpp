@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 /*题目类型 
@@ -51,4 +51,4 @@ int y:y坐标
         return false; 
     }
 };
-```
+// ```

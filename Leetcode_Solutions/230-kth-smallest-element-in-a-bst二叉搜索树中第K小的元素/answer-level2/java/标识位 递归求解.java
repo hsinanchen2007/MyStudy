@@ -1,7 +1,7 @@
-# 思路
-  用count表示目前找到了倒数第几位，运用了中序遍历的思想
-# 代码
-```java
+// # 思路
+//   用count表示目前找到了倒数第几位，运用了中序遍历的思想
+// # 代码
+// ```java
     int count;
 
     public int kthSmallest(TreeNode root, int k) {
@@ -19,4 +19,4 @@
         if (root.right != null) return helper(root.right);
         return null;
     }
-```
+// ```

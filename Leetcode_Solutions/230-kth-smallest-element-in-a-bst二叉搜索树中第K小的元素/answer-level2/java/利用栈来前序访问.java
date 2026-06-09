@@ -1,11 +1,11 @@
-### 解题思路
-小的先访问，第k个被访问到的即是。
+// ### 解题思路
+// 小的先访问，第k个被访问到的即是。
 
-同样是用栈，对比官方的代码来看，我的太啰嗦了。
+// 同样是用栈，对比官方的代码来看，我的太啰嗦了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -67,4 +67,4 @@ class TreeNodeWrapper{
         this.selfStoredOnce=false;
     }
 }
-```
+// ```

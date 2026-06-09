@@ -1,11 +1,11 @@
-### 解题思路
-	first_head指向大于等于x的子链表头结点(第一个节点是哑结点)，first_tail指向其尾结点；
-	second_head指向小于x的子链表头结点(第一个节点是哑结点)，second_tail指向其尾结点；
-	将两链表连起来，返回头结点，注意不要包含哑结点
+# ### 解题思路
+# 	first_head指向大于等于x的子链表头结点(第一个节点是哑结点)，first_tail指向其尾结点；
+# 	second_head指向小于x的子链表头结点(第一个节点是哑结点)，second_tail指向其尾结点；
+# 	将两链表连起来，返回头结点，注意不要包含哑结点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
 
 
 
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-原地操作省拷贝
-大小切换位运算
+# ### 解题思路
+# 原地操作省拷贝
+# 大小切换位运算
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def letterCasePermutation(self, S: str) -> List[str]:
         if not S:return []
@@ -20,4 +20,4 @@ class Solution:
                 S[ix] = chr(ord(S[ix]) ^ (1<<5)) # reset
         dfs(list(S),0)
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-一步步保存已有的钥匙、箱子，暴力判断能否解开任意一个箱子，能就更新数据，否则返回当前已有糖果
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 一步步保存已有的钥匙、箱子，暴力判断能否解开任意一个箱子，能就更新数据，否则返回当前已有糖果
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxCandies(self, status: List[int], candies: List[int], keys: List[List[int]], containedBoxes: List[List[int]], initialBoxes: List[int]) -> int:
         if not initialBoxes:
@@ -26,4 +26,4 @@ class Solution:
                 has_boxes = list(set(has_boxes) - set(has_open)) # 判断已有箱子与打开的箱子是否重复，取差集
                 has_keys = set.union(has_keys, set(keys[box])) # 更新已有钥匙
         return has_candies
-```
+# ```

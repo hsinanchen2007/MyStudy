@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :264 ms, 在所有 C# 提交中击败了98.37% 的用户
-内存消耗 :29.9 MB, 在所有 C# 提交中击败了5.88%的用户
+// ### 解题思路
+// 执行用时 :264 ms, 在所有 C# 提交中击败了98.37% 的用户
+// 内存消耗 :29.9 MB, 在所有 C# 提交中击败了5.88%的用户
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] PlusOne(int[] digits) {
         int n=digits.Length;
@@ -23,4 +23,4 @@ public class Solution {
             return digits;
     }
 }
-```
+// ```

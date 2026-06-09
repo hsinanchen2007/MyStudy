@@ -1,5 +1,5 @@
-双指针
-```
+// 双指针
+// ```
 func merge(A []int, m int, B []int, n int)  {
     var x = m - 1  //A的指针
     var y = n - 1  //B的指针
@@ -15,4 +15,4 @@ func merge(A []int, m int, B []int, n int)  {
         c--
     }
 }
-```
+// ```

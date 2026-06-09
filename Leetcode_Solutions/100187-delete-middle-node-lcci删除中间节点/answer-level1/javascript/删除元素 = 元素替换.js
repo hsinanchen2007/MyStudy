@@ -1,9 +1,9 @@
-### 解题思路
-删除元素 其实就是把删除的那个元素(node)替换成下一个元素(node.next)
+// ### 解题思路
+// 删除元素 其实就是把删除的那个元素(node)替换成下一个元素(node.next)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -20,4 +20,4 @@ var deleteNode = function(node) {
     node.val = current.next.val;
     node.next = current.next.next;
 };
-```
+// ```

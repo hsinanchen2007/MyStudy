@@ -1,5 +1,5 @@
-- 要先把题目读懂，代码写出来之后再读一遍题目
-```
+# - 要先把题目读懂，代码写出来之后再读一遍题目
+# ```
 class Solution:
     def sumEvenAfterQueries(self, A: List[int], queries: List[List[int]]) -> List[int]:
         # 1. brute force O(n*n)
@@ -40,4 +40,4 @@ class Solution:
             
             ans.append(S)
         return ans
-```
+# ```

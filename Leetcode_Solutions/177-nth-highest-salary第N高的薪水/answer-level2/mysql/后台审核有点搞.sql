@@ -1,9 +1,9 @@
-### 解题思路
-后台审核在开玩笑，拿一个1,100 2,100 的数据来测试 第一的金额。。。
+-- ### 解题思路
+-- 后台审核在开玩笑，拿一个1,100 2,100 的数据来测试 第一的金额。。。
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
   RETURN (
@@ -17,4 +17,4 @@ BEGIN
     where w.n = N
   );
 END
-```
+-- ```

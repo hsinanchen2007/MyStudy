@@ -1,4 +1,4 @@
-[广度优先搜索实现详解](http://www.iaccepted.net/algorithm/leetcode/224.html)
+// [广度优先搜索实现详解](http://www.iaccepted.net/algorithm/leetcode/224.html)
 class Solution {
 public:
     bool canReach(vector<int>& arr, int start) {

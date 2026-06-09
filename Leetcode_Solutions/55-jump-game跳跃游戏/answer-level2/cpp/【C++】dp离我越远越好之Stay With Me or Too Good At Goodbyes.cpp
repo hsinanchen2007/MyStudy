@@ -1,8 +1,8 @@
-1.BFS超时最后一个用例超时
-2.使用DP
-3.从当前点达到的最远距离如果是目的地则Pass
-4.计算从在当前位置可以走到最远的距离
-```
+// 1.BFS超时最后一个用例超时
+// 2.使用DP
+// 3.从当前点达到的最远距离如果是目的地则Pass
+// 4.计算从在当前位置可以走到最远的距离
+// ```
 /*
 * Copyright (c) Nicolas-Tony Technologies Co., Ltd. 2019-2019. All rights reserved.
 * Description: i love leetcode
@@ -57,4 +57,4 @@ public:
     }
 
 };
-```
+// ```

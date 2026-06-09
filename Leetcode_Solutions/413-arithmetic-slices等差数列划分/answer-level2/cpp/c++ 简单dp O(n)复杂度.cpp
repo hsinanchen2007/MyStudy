@@ -1,15 +1,15 @@
-### 解题思路
-简单dp O(n)复杂度
+// ### 解题思路
+// 简单dp O(n)复杂度
 
-![image.png](https://pic.leetcode-cn.com/5f8d3e9512bb66a17bf1ab9caece7d14e07d76a451dddad875998ede746658b2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5f8d3e9512bb66a17bf1ab9caece7d14e07d76a451dddad875998ede746658b2-image.png)
 
-[我的题解](https://www.github.com/wfnuser/leetcode)
-[我的github](https://www.github.com/wfnuser)
-最近沉迷刷题，真诚欢迎大家star和follow 最近也在学习和实现lua，欢迎交流
+// [我的题解](https://www.github.com/wfnuser/leetcode)
+// [我的github](https://www.github.com/wfnuser)
+// 最近沉迷刷题，真诚欢迎大家star和follow 最近也在学习和实现lua，欢迎交流
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOfArithmeticSlices(vector<int>& A) {
@@ -29,4 +29,4 @@ public:
         return sum;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-每次计算相邻两个股偏差，作为收入。
-```
+// 每次计算相邻两个股偏差，作为收入。
+// ```
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -9,4 +9,4 @@ public:
         return p;
     }
 };
-```
+// ```

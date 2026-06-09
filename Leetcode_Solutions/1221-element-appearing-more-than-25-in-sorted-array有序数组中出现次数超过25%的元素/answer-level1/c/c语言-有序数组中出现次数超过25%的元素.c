@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findSpecialInteger(int* arr, int arrSize){
         int n=arrSize/4+1;
         int i;
@@ -16,4 +16,4 @@ int findSpecialInteger(int* arr, int arrSize){
         }
         return ;
 }
-```
+// ```

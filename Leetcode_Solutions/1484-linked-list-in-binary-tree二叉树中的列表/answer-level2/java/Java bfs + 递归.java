@@ -1,4 +1,4 @@
-先用BFS遍历树找到所有可能的结点，存入队列中，再递归判断即可
+// 先用BFS遍历树找到所有可能的结点，存入队列中，再递归判断即可
 ![image.png](https://pic.leetcode-cn.com/6e56d68bc59c53d09c48f233acb320e129a76059f5cac46559694e4ef6cf8bd2-image.png)
 
     Queue<TreeNode> queue = new ArrayDeque<>();

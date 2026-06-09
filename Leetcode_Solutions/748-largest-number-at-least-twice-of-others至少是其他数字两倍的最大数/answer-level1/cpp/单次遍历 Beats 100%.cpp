@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/25bf41bcf7aa4f41d5cc10d07095a5ea6c5debe3975d870a4aadce59a9ff763d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/25bf41bcf7aa4f41d5cc10d07095a5ea6c5debe3975d870a4aadce59a9ff763d-image.png)
 
-单次遍历，记录最大值、第二大值和最大值索引
-```
+// 单次遍历，记录最大值、第二大值和最大值索引
+// ```
 class Solution {
 public:
     int dominantIndex(vector<int>& nums) {
@@ -31,5 +31,5 @@ public:
             return -1;
     }
 };
-```
+// ```
 

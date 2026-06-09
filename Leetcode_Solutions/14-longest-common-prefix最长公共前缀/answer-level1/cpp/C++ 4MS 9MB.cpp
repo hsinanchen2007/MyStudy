@@ -1,7 +1,7 @@
-C++ 4MS 9MB 最长公共前缀不会超过最小的字符串
-逐个字符判断是否相等。
-the end
-```
+// C++ 4MS 9MB 最长公共前缀不会超过最小的字符串
+// 逐个字符判断是否相等。
+// the end
+// ```
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -26,4 +26,4 @@ public:
         return a;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-Stack存储左半边的括号，当出现右半边括号的时候去栈里pop一个看是否匹配，str全部遍历后均匹配则有效
+// ### 解题思路
+// Stack存储左半边的括号，当出现右半边括号的时候去栈里pop一个看是否匹配，str全部遍历后均匹配则有效
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
@@ -55,4 +55,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

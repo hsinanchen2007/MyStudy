@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def isNumber(self, s: str) -> bool:
         s = s.strip()
@@ -28,4 +28,4 @@ class Solution:
 
         return numeric and i == len(s)
 
-```
+# ```

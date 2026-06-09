@@ -1,5 +1,5 @@
-题目不难 看到评论里使用istringstream的方法非常优雅，如下👇
-```
+// 题目不难 看到评论里使用istringstream的方法非常优雅，如下👇
+// ```
 class Solution {
 public:
     int compareVersion(string version1, string version2) {
@@ -22,4 +22,4 @@ public:
         return 0;
     }
 };
-```
+// ```

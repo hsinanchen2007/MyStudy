@@ -1,9 +1,9 @@
-### 解题思路
-二叉搜索树中序遍历的结果是升序的
+# ### 解题思路
+# 二叉搜索树中序遍历的结果是升序的
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution(object):
                         return False
                     
         return True
-```
+# ```

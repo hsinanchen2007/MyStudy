@@ -1,5 +1,5 @@
-1、第一种
-```
+// 1、第一种
+// ```
 var searchInsert = function(nums, target) {
     const index=nums.indexOf(target)
     if(index>-1){
@@ -12,9 +12,9 @@ var searchInsert = function(nums, target) {
         return nums.indexOf(target)
     }
 };
-```
-1、第二种
-```
+// ```
+// 1、第二种
+// ```
 var searchInsert = function(nums, target) {
     let map=new Map()
     let index
@@ -44,5 +44,5 @@ var searchInsert = function(nums, target) {
     })
     return nums.indexOf(target)
 };
-```
+// ```
 

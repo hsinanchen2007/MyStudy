@@ -1,9 +1,9 @@
-### 解题思路
-先判断能否被15整除，再分别判断能否被3和5整除，否则添加该数字。
+// ### 解题思路
+// 先判断能否被15整除，再分别判断能否被3和5整除，否则添加该数字。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> ans = new ArrayList<>();
@@ -22,4 +22,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

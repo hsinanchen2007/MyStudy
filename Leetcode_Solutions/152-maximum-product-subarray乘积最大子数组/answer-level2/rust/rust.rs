@@ -1,11 +1,11 @@
-### 解题思路
-//curr_max = Max(curr_max*nums[i], nums[i]);
-//curr_min = Min(curr_max*nums[i], nums[i]);
-//nums[i]<0的时，swap(curr_max, curr_min)
+// ### 解题思路
+// //curr_max = Max(curr_max*nums[i], nums[i]);
+// //curr_min = Min(curr_max*nums[i], nums[i]);
+// //nums[i]<0的时，swap(curr_max, curr_min)
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 
 use std::mem;
 
@@ -30,4 +30,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

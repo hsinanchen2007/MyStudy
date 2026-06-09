@@ -1,9 +1,9 @@
-    我发现大家都执着于用java的contain()函数或者c++的strstr()函数。我觉得作为一个练习算法的题目，不应该总是想到调用别人的函数，而是应该尝试自己写一个字符串匹配的函数，虽然自己的函数不见得比别人的现成的函数好用，并且也是重复造轮子，但是自己写有助于加深自己对于某些经典算法的理解。
+//     我发现大家都执着于用java的contain()函数或者c++的strstr()函数。我觉得作为一个练习算法的题目，不应该总是想到调用别人的函数，而是应该尝试自己写一个字符串匹配的函数，虽然自己的函数不见得比别人的现成的函数好用，并且也是重复造轮子，但是自己写有助于加深自己对于某些经典算法的理解。
 
-我在本题中使用的是kmp算法，是一个经典的字符串匹配算法。这个算法的详解是：[https://blog.csdn.net/hanzhen7541/article/details/104155275](https://blog.csdn.net/hanzhen7541/article/details/104155275) 
+// 我在本题中使用的是kmp算法，是一个经典的字符串匹配算法。这个算法的详解是：[https://blog.csdn.net/hanzhen7541/article/details/104155275](https://blog.csdn.net/hanzhen7541/article/details/104155275) 
 
-最终实现的算法时间复杂度是O(2 * m) = O(m),空间复杂度是O(m).如果用正常的匹配算法复杂度应该是O(m^2)
-```
+// 最终实现的算法时间复杂度是O(2 * m) = O(m),空间复杂度是O(m).如果用正常的匹配算法复杂度应该是O(m^2)
+// ```
 class Solution {
 public:
 	bool isFlipedString(string s1, string s2) {
@@ -66,4 +66,4 @@ public:
 	}
 	
 };
-```
+// ```

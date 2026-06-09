@@ -1,9 +1,9 @@
-### 解题思路
-注意sum可能是为负数了
+// ### 解题思路
+// 注意sum可能是为负数了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -24,4 +24,4 @@ public:
              hasPathSum(root->right, sum - root->val);
     }
 };
-```
+// ```

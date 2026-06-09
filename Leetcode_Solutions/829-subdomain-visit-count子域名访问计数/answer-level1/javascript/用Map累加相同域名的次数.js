@@ -1,9 +1,9 @@
 
-1. 将原始一维数组转化为数量域名的二维数组 [[9001 , discuss.leetcode.com]]
-2. 用Map聚合每一对域名和次数
-3. split域名一一直统计到顶级域名
-4. 将map转化为二维数组再转化为题目要求的一维数组格式
-```
+// 1. 将原始一维数组转化为数量域名的二维数组 [[9001 , discuss.leetcode.com]]
+// 2. 用Map聚合每一对域名和次数
+// 3. split域名一一直统计到顶级域名
+// 4. 将map转化为二维数组再转化为题目要求的一维数组格式
+// ```
 var subdomainVisits = function (cpdomains) {
     return [...cpdomains
         .map(x => x.split(' '))// 将原始一维数组转化为数量域名的二维数组 [[9001 , discuss.leetcode.com]]
@@ -20,4 +20,4 @@ var subdomainVisits = function (cpdomains) {
         .map(item => item[1] + ' ' + item[0])// 二维数组映射成一维数组
 
 };
-```
+// ```

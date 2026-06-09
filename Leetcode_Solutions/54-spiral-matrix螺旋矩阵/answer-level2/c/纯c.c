@@ -1,9 +1,9 @@
-### 解题思路
-标记上下左右四个方向分别为0，1，2，3，上下左右极限分别为up,down,left,right
+// ### 解题思路
+// 标记上下左右四个方向分别为0，1，2，3，上下左右极限分别为up,down,left,right
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -51,4 +51,4 @@ int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
     *returnSize=all;
     return result;
 }
-```
+// ```

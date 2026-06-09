@@ -1,6 +1,6 @@
-执行用时 : 1168 ms, 在Two Sum的Python3提交中击败了39.26% 的用户
-内存消耗 : 13.3 MB, 在Two Sum的Python3提交中击败了99.27% 的用户
-```
+# 执行用时 : 1168 ms, 在Two Sum的Python3提交中击败了39.26% 的用户
+# 内存消耗 : 13.3 MB, 在Two Sum的Python3提交中击败了99.27% 的用户
+# ```
 #通过list.index()方法
 class Solution:
     def twoSum(self, nums, target):
@@ -25,4 +25,4 @@ if __name__ == '__main__':
     solution = Solution()
     result = solution.twoSum(nums, target)
     print(result)
-```
+# ```

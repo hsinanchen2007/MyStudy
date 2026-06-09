@@ -1,9 +1,9 @@
-### 解题思路
-求所有数字个数的最大公约数
+// ### 解题思路
+// 求所有数字个数的最大公约数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -40,4 +40,4 @@ var hasGroupsSizeX = function(deck) {
     //最大公约数是否大于1
     return result > 1;
 };
-```
+// ```

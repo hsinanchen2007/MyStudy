@@ -1,11 +1,11 @@
-### 解题思路
-没学过字典树，就硬写。。。
-![image.png](https://pic.leetcode-cn.com/1ce2be9445ea29a01f711579b01a659b7ab03d5f22b994a9168f98164e6e6586-image.png)
+// ### 解题思路
+// 没学过字典树，就硬写。。。
+// ![image.png](https://pic.leetcode-cn.com/1ce2be9445ea29a01f711579b01a659b7ab03d5f22b994a9168f98164e6e6586-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumLengthEncoding(vector<string>& words) {
@@ -67,4 +67,4 @@ public:
         placeholder.push_back(placeholder.back() + len + 1);
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-执行耗时:40 ms,击败了99.86% 的Python3用户
-内存消耗:13.6 MB,击败了97.49% 的Python3用户
-```
+# 执行耗时:40 ms,击败了99.86% 的Python3用户
+# 内存消耗:13.6 MB,击败了97.49% 的Python3用户
+# ```
     # 通过二分法找到第一个等于 target 的值, 然后以该值向左向右查找边界
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         if not nums: return [-1, -1]
@@ -21,4 +21,4 @@
                     right += 1
                 return [left, right]
         return [-1, -1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-常规思路，遍历加判断
+// ### 解题思路
+// 常规思路，遍历加判断
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -32,4 +32,4 @@ int* getNoZeroIntegers(int n, int* returnSize){
     res[1]=n-i;
     return res;
 }
-```
+// ```

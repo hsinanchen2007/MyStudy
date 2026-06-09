@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-利用水平遍历即可完成。
-把二叉树p和q的水平遍历（包括NULL节点）分别存储到vector<int>a和b当中，
-比较a和b是否相同就行了（NULL节点在vector中是用-0xfffffff替代的）
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 利用水平遍历即可完成。
+// 把二叉树p和q的水平遍历（包括NULL节点）分别存储到vector<int>a和b当中，
+// 比较a和b是否相同就行了（NULL节点在vector中是用-0xfffffff替代的）
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool isSameTree(TreeNode* p, TreeNode* q) {
@@ -34,4 +34,4 @@ public:
 		return;
 	}
 };
-```
+// ```

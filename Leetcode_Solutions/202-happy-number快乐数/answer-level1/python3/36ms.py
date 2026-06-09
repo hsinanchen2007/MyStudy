@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isHappy(self, n: int) -> bool:
         list1 = []
@@ -15,4 +15,4 @@ class Solution:
                 return(False)
             str1 = str(num1)
             num1 = 0
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
-有点慢，但比较直观。
+// ### 解题思路
+// 有点慢，但比较直观。
 
-使用了两个递归函数：
-    ·length(TreeNode* root)：递归得出以该结点为根的树的深度；
-    ·traveral(TreeNode* root,int ans)：ans是目前最大的长度，该函数遍历树，即可得到最大长度。
+// 使用了两个递归函数：
+//     ·length(TreeNode* root)：递归得出以该结点为根的树的深度；
+//     ·traveral(TreeNode* root,int ans)：ans是目前最大的长度，该函数遍历树，即可得到最大长度。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ public:
         return ans;
     }
 };
-```
+// ```

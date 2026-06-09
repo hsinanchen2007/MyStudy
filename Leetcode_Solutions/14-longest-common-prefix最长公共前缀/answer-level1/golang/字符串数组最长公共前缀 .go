@@ -1,4 +1,4 @@
-```
+// ```
 
 func longestCommonPrefix(strs []string) string {
 	if len(strs) == 0 {
@@ -23,4 +23,4 @@ func longestCommonPrefix(strs []string) string {
 	}
 	return commonPrefix
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         '''
@@ -32,4 +32,4 @@ class Solution:
                     dp[i][j] = min(dp[i-1][j-1],dp[i][j-1],dp[i-1][j])+1
                     
         return dp[-1][-1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-普通的数组问题，注意点边界条件就好
+// ### 解题思路
+// 普通的数组问题，注意点边界条件就好
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int rr = 0;
@@ -65,4 +65,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

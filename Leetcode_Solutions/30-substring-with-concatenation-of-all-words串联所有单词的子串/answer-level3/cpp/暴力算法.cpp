@@ -1,5 +1,5 @@
-代码精简,但速度太慢,勉强能过.
-```
+// 代码精简,但速度太慢,勉强能过.
+// ```
 class Solution {
 public:
 	vector<int> findSubstring(string s, vector<string>& words) {
@@ -19,4 +19,4 @@ public:
 		return v;
 	}
 };
-```
+// ```

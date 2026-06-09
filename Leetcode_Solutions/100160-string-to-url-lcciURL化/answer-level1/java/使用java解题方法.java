@@ -1,9 +1,9 @@
-### 解题思路
-首先用一个for循环计算得到字符串中的空格数量，通过length+spacenumber*2计算得到结果字符串的长度。然后替换即可
+// ### 解题思路
+// 首先用一个for循环计算得到字符串中的空格数量，通过length+spacenumber*2计算得到结果字符串的长度。然后替换即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpaces(String S, int length) {
         char[] c=S.toCharArray();
@@ -27,4 +27,4 @@ class Solution {
         return String.valueOf(res);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-列表简单操作。
+# ### 解题思路
+# 列表简单操作。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MaxQueue:
 
     def __init__(self):
@@ -30,4 +30,4 @@ class MaxQueue:
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

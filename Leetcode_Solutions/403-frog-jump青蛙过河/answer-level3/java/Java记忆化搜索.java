@@ -1,6 +1,6 @@
-- 用HashMap记录遍历过的节点
-- Key是格子的index，value是上一步的跳跃单位的集合
-```
+// - 用HashMap记录遍历过的节点
+// - Key是格子的index，value是上一步的跳跃单位的集合
+// ```
 class Solution {
     public boolean canCross(int[] stones) {
         if (stones.length == 1) return true;
@@ -25,4 +25,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

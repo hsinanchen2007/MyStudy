@@ -1,10 +1,10 @@
-### 解题思路
-**1.迭代方法**
-深度优先搜索 自顶向下遍历，将根节点的值分别加到子节点上，不断更新cur_sum值，只要碰到叶子节点，即比较cur_sum 与目标值的大小。
+# ### 解题思路
+# **1.迭代方法**
+# 深度优先搜索 自顶向下遍历，将根节点的值分别加到子节点上，不断更新cur_sum值，只要碰到叶子节点，即比较cur_sum 与目标值的大小。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -34,10 +34,10 @@ class Solution(object):
                     stack.append(c) 
         return False
 
-```
-### 解题思路
-**2.递归思想**
-```python
+# ```
+# ### 解题思路
+# **2.递归思想**
+# ```python
 class Solution(object):
     def hasPathSum(self, root, sum):
         if not root:return False
@@ -53,4 +53,4 @@ class Solution(object):
         return self.hasPathSum(root.right,sum) or self.hasPathSum(root.left,sum)    
 
 
-```
+# ```

@@ -1,7 +1,7 @@
-执行用时 :
-68 ms, 在所有 Python3 提交中击败了36.83%的用户
-内存消耗 :13.4 MB, 在所有 Python3 提交中击败了17.24%的用户
-```
+# 执行用时 :
+# 68 ms, 在所有 Python3 提交中击败了36.83%的用户
+# 内存消耗 :13.4 MB, 在所有 Python3 提交中击败了17.24%的用户
+# ```
 class Solution:
     def __init__(self):
         self.directions=[(0,1),(0,-1),(1,0),(-1,0)]
@@ -42,4 +42,4 @@ class Solution:
                         return -1
                 self.minute=max(self.minute,grid[i][j]-2)
         return self.minute
-```
+# ```

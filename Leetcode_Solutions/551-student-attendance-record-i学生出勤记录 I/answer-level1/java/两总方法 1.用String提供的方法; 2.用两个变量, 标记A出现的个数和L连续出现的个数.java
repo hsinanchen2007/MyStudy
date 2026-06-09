@@ -1,10 +1,10 @@
-方法1
-```
+// 方法1
+// ```
 return s.indexOf("LLL") < 0 && s.indexOf("A") == s.lastIndexOf("A");
-```
+// ```
 
-方法2
-```
+// 方法2
+// ```
 class Solution {
     public boolean checkRecord(String s) {
         int countA = 0; // 记录A的个数
@@ -26,4 +26,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

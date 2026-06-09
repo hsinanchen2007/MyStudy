@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         l = len(prices)
@@ -31,4 +31,4 @@ class Solution:
             max_price = max(max_price,prices[i])
             res=max(res,dp1[i-1]+dp2[i]) if i>=1 else max(res,dp2[i])
         return res
-```
+# ```

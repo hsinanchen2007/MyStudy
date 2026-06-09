@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> combine(int n, int k) {
         ArrayList<List<Integer>> res = new ArrayList<>();
@@ -21,4 +21,4 @@ class Solution {
         }
     }
 }
-```
+// ```

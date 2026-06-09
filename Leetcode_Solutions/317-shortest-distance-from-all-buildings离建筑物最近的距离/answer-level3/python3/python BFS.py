@@ -1,6 +1,6 @@
-distance[i][j]表示grid[i][j]到所有建筑的距离和
-counts是一个m行n列的二维数组，count[i][j]表示grid[i][j]能过到达的建筑数目
-```
+# distance[i][j]表示grid[i][j]到所有建筑的距离和
+# counts是一个m行n列的二维数组，count[i][j]表示grid[i][j]能过到达的建筑数目
+# ```
 from collections import deque
 class Solution:
     def shortestDistance(self, grid: List[List[int]]) -> int:
@@ -35,4 +35,4 @@ class Solution:
                 if counts[i][j]==cnt and distance[i][j]<min_dist:
                     min_dist=distance[i][j]
         return min_dist if min_dist<float('inf') else -1
-```
+# ```

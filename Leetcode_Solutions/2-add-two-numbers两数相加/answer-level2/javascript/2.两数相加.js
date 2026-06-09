@@ -1,5 +1,5 @@
-使用递归的方法
-```
+// 使用递归的方法
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -35,4 +35,4 @@ var addTwoNumbers = function(l1, l2) {
     l1.next = addTwoNumbers(l1.next,l2.next);//递归
     return l1;
 }
-```
+// ```

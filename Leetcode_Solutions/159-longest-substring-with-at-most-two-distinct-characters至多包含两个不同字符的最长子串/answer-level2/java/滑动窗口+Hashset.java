@@ -1,6 +1,6 @@
 
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstringTwoDistinct(String s) {
         int i = 0;
@@ -27,4 +27,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

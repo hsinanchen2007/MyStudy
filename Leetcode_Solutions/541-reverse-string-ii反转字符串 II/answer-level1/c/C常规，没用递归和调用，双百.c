@@ -1,12 +1,12 @@
-![1.png](https://pic.leetcode-cn.com/2cf7e1ffc0c4b451774c3685b4103f7166000e69ba3bb967bfcec52c5c724f84-1.png)
+// ![1.png](https://pic.leetcode-cn.com/2cf7e1ffc0c4b451774c3685b4103f7166000e69ba3bb967bfcec52c5c724f84-1.png)
 
 
-### 解题思路
-定义cnt记录反转的次数，每次反转后cnt+2，新的起点为k*cnt
+// ### 解题思路
+// 定义cnt记录反转的次数，每次反转后cnt+2，新的起点为k*cnt
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * reverseStr(char * s, int k){
 	int len = strlen(s), cnt = 0;
 	char *res = (char*)calloc(len + 2, 1);
@@ -34,4 +34,4 @@ char * reverseStr(char * s, int k){
 	}
 	return res;
 }
-```
+// ```

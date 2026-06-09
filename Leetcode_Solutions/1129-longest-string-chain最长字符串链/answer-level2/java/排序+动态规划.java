@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int longestStrChain(String[] words) {
         int n = words.length;
@@ -41,4 +41,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

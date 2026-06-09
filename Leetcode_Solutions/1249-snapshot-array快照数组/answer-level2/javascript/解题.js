@@ -1,28 +1,28 @@
-### 解题思路
+// ### 解题思路
 
-1. 暴力处理
+// 1. 暴力处理
 
-全量的备份数组到一个新的snapshot，当数据量过大时候，内存回溢出。
+// 全量的备份数组到一个新的snapshot，当数据量过大时候，内存回溢出。
 
-2. 增量备份
+// 2. 增量备份
 
-构建数组的数据结构为:
+// 构建数组的数据结构为:
 
-```
+// ```
 {
     [snap_id_0] : value,
     [snap_id_1] : value,
     [snap_id_n] : value,
     max_snap_id: cur_snap_id
 }
-```
+// ```
 
-在set的时候更新一下当前数组下的最大snap_id, get的时候，找到最后一次修改的snap_id就行了
+// 在set的时候更新一下当前数组下的最大snap_id, get的时候，找到最后一次修改的snap_id就行了
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var SnapshotArray = function (length) {
     this.snap_id = 0;
     this.data = [];
@@ -92,4 +92,4 @@ SnapshotArray.prototype.get = function (index, snap_id) {
 
     return result;
 };
-```
+// ```

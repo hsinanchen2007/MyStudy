@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         max_num = int((-1 + (1 + 8 * candies)**0.5) / 2)
@@ -25,4 +25,4 @@ class Solution:
                 i += 1
 
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-直接拿到第一个数组元素匹配后面的所有的相同则true字符串添加，只要false就返回str（不过要注意判断的是后面的元素下标是否溢出）
+// ### 解题思路
+// 直接拿到第一个数组元素匹配后面的所有的相同则true字符串添加，只要false就返回str（不过要注意判断的是后面的元素下标是否溢出）
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string}
@@ -34,4 +34,4 @@ var longestCommonPrefix = function(strs) {
    }
    return str; 
 };
-```
+// ```

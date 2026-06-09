@@ -1,21 +1,21 @@
-# 利用 Tire Tree 解决
+// # 利用 Tire Tree 解决
 
-- 编译成JavaScript再提交
-- Tire设计
-  - ITrieNode 节点接口
-  - createTrieNode 创建节点
-  - getFirstCharCodeAt 获取字符的Unicode编码
-  - trieInsert 想 tire 树中插入节点
-  - tireSearch 搜索节点
-- 解决本题（设计 MapSum implements ITrieNodeAndValue）
-  - ITrieNodeAndValue extends ITrieNode 本题需求节点
-  - public value：用于保存单词值
-  - insert 题目要求
-  - sum 题目要求
+// - 编译成JavaScript再提交
+// - Tire设计
+//   - ITrieNode 节点接口
+//   - createTrieNode 创建节点
+//   - getFirstCharCodeAt 获取字符的Unicode编码
+//   - trieInsert 想 tire 树中插入节点
+//   - tireSearch 搜索节点
+// - 解决本题（设计 MapSum implements ITrieNodeAndValue）
+//   - ITrieNodeAndValue extends ITrieNode 本题需求节点
+//   - public value：用于保存单词值
+//   - insert 题目要求
+//   - sum 题目要求
 
-## 设计前缀树
+// ## 设计前缀树
 
-```ts
+// ```ts
 interface ITrieNode {
   isEnd: boolean
   next: ITrieNode[]
@@ -67,11 +67,11 @@ const tireSearch = (root: ITrieNode, word: string): ITrieNode | null => {
   }
   return node.isEnd ? node : null
 }
-```
+// ```
 
-## 解决本题
+// ## 解决本题
 
-```typescript
+// ```typescript
 
 interface ITrieNodeAndValue extends ITrieNode {
   value: number
@@ -101,11 +101,11 @@ class MapSum implements ITrieNodeAndValue {
     return ans
   }
 }
-```
+// ```
 
-## jest 测试
+// ## jest 测试
 
-```typescript
+// ```typescript
 import { MapSum } from '../677 map-sum-pairs'
 
 describe('test 677 map-sum-pairs', () => {
@@ -124,4 +124,4 @@ describe('test 677 map-sum-pairs', () => {
   })
 })
 
-```
+// ```

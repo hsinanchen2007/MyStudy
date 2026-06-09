@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-左下角开始遍历即可。
+# 左下角开始遍历即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         i = len(matrix) - 1
@@ -18,4 +18,4 @@ class Solution:
                 return True
         return False
 
-```
+# ```

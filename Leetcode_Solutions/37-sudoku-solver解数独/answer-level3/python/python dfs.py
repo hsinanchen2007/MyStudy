@@ -1,12 +1,12 @@
-### 解题思路
-row[i] 第 i 行有哪些数字
-col[j] 第 j 列有哪些数字
-sqr[i][j] 第 i 行 j 列的 9 宫格里有哪些数字
+# ### 解题思路
+# row[i] 第 i 行有哪些数字
+# col[j] 第 j 列有哪些数字
+# sqr[i][j] 第 i 行 j 列的 9 宫格里有哪些数字
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
         """
@@ -60,4 +60,4 @@ class Solution:
                     sqr[i//3][j//3].remove(ch)
         self.flag = False
         dfs(0, 0)
-```
+# ```

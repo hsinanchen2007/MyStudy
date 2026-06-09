@@ -1,9 +1,9 @@
-### 解题思路
-相同的代码，C#需要112MS,jave需要1MS， 平台优化下C#把。。。
+// ### 解题思路
+// 相同的代码，C#需要112MS,jave需要1MS， 平台优化下C#把。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lastStoneWeight(int[] stones) {
          if (1 > stones.length || stones.length > 30) return 0;
@@ -41,4 +41,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-本题basecase不好写，因为没法确定dp表应该从哪个位置开始填
-所以就不使用动态规划了，直接暴力递归会超时
-所以加一个dp表，记忆化搜索
+# ### 解题思路
+# 本题basecase不好写，因为没法确定dp表应该从哪个位置开始填
+# 所以就不使用动态规划了，直接暴力递归会超时
+# 所以加一个dp表，记忆化搜索
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
         if matrix is None or matrix == []:
@@ -35,4 +35,4 @@ class Solution:
             p4 += self.process(matrix,i,j+1,dp)
         dp[i][j] =  max(res,p1,p2,p3,p4)
         return dp[i][j]
-```
+# ```

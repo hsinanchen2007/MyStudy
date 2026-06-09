@@ -1,11 +1,11 @@
-### 解题思路
-1. 二分法找到中间节点，作为**根节点**
-2. 使用二分法在左边区间找到中间节点作为**左节点**
-3. 使用二分法在左边区间找到中间节点作为**右节点**
-4. 然后一直寻找下去
-5. 注意使用二分法int值相加时会越界，因此使用`>>>`无符号右移运算更为合适
-    - 下面程序运行情况可以看出
-    ```
+// ### 解题思路
+// 1. 二分法找到中间节点，作为**根节点**
+// 2. 使用二分法在左边区间找到中间节点作为**左节点**
+// 3. 使用二分法在左边区间找到中间节点作为**右节点**
+// 4. 然后一直寻找下去
+// 5. 注意使用二分法int值相加时会越界，因此使用`>>>`无符号右移运算更为合适
+//     - 下面程序运行情况可以看出
+//     ```
     System.out.println(Integer.toBinaryString((Integer.MAX_VALUE)));
     System.out.println(Integer.toBinaryString((Integer.MAX_VALUE+Integer.MAX_VALUE)>>1));
     System.out.println(Integer.toBinaryString((Integer.MAX_VALUE+Integer.MAX_VALUE)>>>1));
@@ -13,11 +13,11 @@
     1111111111111111111111111111111
     11111111111111111111111111111111
     1111111111111111111111111111111
-    ```
+//     ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -131,4 +131,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-空间换时间
-最大值的存储 双端队列max [l,r] 从左到右是递减的
-为了保持递减，
-在入队value时，需要更新max的右边，将比value小的数都丢弃，才能将value放入右边
-在出队value，判断value是不是max的头，最大值已出队，需要更新最大值
+// ### 解题思路
+// 空间换时间
+// 最大值的存储 双端队列max [l,r] 从左到右是递减的
+// 为了保持递减，
+// 在入队value时，需要更新max的右边，将比value小的数都丢弃，才能将value放入右边
+// 在出队value，判断value是不是max的头，最大值已出队，需要更新最大值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
     LinkedList<Integer> queue = new LinkedList<Integer>();
     LinkedList<Integer> max = new LinkedList<Integer>();
@@ -45,5 +45,5 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
-![image.png](https://pic.leetcode-cn.com/4e698e2f13ed2a54cacd1f6850fbb7a5ba40bf8c4fe038ae0b1d67dbf01d6167-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/4e698e2f13ed2a54cacd1f6850fbb7a5ba40bf8c4fe038ae0b1d67dbf01d6167-image.png)

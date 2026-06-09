@@ -1,9 +1,9 @@
-### 解题思路
-对区间左端点进行快排，然后把每个区间和它后边第一个区间进行比较，三种情况：①没重叠②有重叠③不只是重叠，后者完全是前者的子集。
-注意：更新二维数组result【】【】的时候，直接更新一下一维数组的头地址就行了。
-### 代码
+// ### 解题思路
+// 对区间左端点进行快排，然后把每个区间和它后边第一个区间进行比较，三种情况：①没重叠②有重叠③不只是重叠，后者完全是前者的子集。
+// 注意：更新二维数组result【】【】的时候，直接更新一下一维数组的头地址就行了。
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -53,4 +53,4 @@ int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* retu
     (*returnColumnSizes)[(*returnSize)++] = 2;
     return result;
 }
-```
+// ```

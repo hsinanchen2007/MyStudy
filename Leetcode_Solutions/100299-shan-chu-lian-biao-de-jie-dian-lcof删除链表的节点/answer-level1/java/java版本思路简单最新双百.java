@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public ListNode deleteNode(ListNode head, int val) {
         ListNode fir = new ListNode(-1);
@@ -21,4 +21,4 @@ class Solution {
         return fir.next;
     }
 }
-```
+// ```

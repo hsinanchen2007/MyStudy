@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkOverlap(int r, int xc, int yc, int x1, int y1, int x2, int y2) {
@@ -16,4 +16,4 @@ public:
         return pow((xc-x),2)+pow((yc-y),2);
     }
 };
-```
+// ```

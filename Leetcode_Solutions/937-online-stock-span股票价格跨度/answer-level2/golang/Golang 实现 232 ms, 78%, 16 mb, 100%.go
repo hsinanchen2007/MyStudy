@@ -1,4 +1,4 @@
-```
+// ```
 type StockSpanner struct {
 	DecreaseList [][]int
 }
@@ -25,4 +25,4 @@ func (this *StockSpanner) Next (price int) int{
 	}
 	return this.DecreaseList[len(this.DecreaseList)-1][1]
 }
-```
+// ```

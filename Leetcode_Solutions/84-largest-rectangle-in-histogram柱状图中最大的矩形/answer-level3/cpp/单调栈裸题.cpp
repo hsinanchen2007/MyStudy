@@ -1,6 +1,6 @@
-维护一个单独递增的栈，去求l数组和r数组，l数组的l[i]表示向左的第一个比heights[i]小的heights数组下标，r数组的r[i]表示向右的第一个比heights[i]小的heights数组下标，这样就能遍历一遍得到以当前i的高度的最大矩阵面积为**(r[i]-l[i]+1)\*heights[i]**，这里的r[i]和l[i]分别进行了-1和+1的操作，正常按照l和r数组的定义面积应该为**(r[i]-l[i]-1)\*heights[i]**，而维护单调栈就是为了求L和R数组，原理很简单，当前的heights[i]值小于等于栈顶的值就pop()，直到当前的heights[i]值大于栈顶，此时的栈顶元素下标就是L或者R数组的值。
-代码如下：
-```
+// 维护一个单独递增的栈，去求l数组和r数组，l数组的l[i]表示向左的第一个比heights[i]小的heights数组下标，r数组的r[i]表示向右的第一个比heights[i]小的heights数组下标，这样就能遍历一遍得到以当前i的高度的最大矩阵面积为**(r[i]-l[i]+1)\*heights[i]**，这里的r[i]和l[i]分别进行了-1和+1的操作，正常按照l和r数组的定义面积应该为**(r[i]-l[i]-1)\*heights[i]**，而维护单调栈就是为了求L和R数组，原理很简单，当前的heights[i]值小于等于栈顶的值就pop()，直到当前的heights[i]值大于栈顶，此时的栈顶元素下标就是L或者R数组的值。
+// 代码如下：
+// ```
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
@@ -29,4 +29,4 @@ public:
         return ans;
     }
 };
-```
+// ```

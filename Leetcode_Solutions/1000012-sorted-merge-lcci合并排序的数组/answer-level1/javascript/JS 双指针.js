@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} m
@@ -23,4 +23,4 @@ var merge = function(A, m, B, n) {
         }
         return A;
 };
-```
+// ```

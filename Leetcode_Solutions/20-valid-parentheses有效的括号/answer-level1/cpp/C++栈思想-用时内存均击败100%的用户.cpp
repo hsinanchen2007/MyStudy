@@ -1,9 +1,9 @@
-### 解题思路
-见代码。
+// ### 解题思路
+// 见代码。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValid(string s) {
@@ -29,4 +29,4 @@ public:
         return ans.empty();
     }
 };
-```
+// ```

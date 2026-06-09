@@ -1,10 +1,10 @@
-### 解题思路
-1. 实现合并两个链表的方法
-2. 循环合并k个链表
+// ### 解题思路
+// 1. 实现合并两个链表的方法
+// 2. 循环合并k个链表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -61,4 +61,4 @@ public:
         return res;
     }
 };
-```
+// ```

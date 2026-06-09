@@ -1,8 +1,8 @@
 
-用双指针算法,用两个游标n,m,逐个比较
+// 用双指针算法,用两个游标n,m,逐个比较
 
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -24,4 +24,4 @@ class Solution {
         return $n + 1;
     }
 }
-```
+// ```

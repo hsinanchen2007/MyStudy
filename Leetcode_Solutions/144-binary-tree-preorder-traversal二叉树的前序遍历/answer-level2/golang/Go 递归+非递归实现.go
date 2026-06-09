@@ -1,5 +1,5 @@
-# **递归实现**
-```
+// # **递归实现**
+// ```
 func preorderTraversal(root *TreeNode) []int {
     if root == nil{
         return nil
@@ -14,11 +14,11 @@ func preorderTraversal(root *TreeNode) []int {
     return res
 }
 
-```
+// ```
 
 
-# **非递归实现**
-```
+// # **非递归实现**
+// ```
    func preorderTraversal(root *TreeNode) []int {
 	if root == nil {
 		return []int{}
@@ -41,5 +41,5 @@ func preorderTraversal(root *TreeNode) []int {
 	return res
 }  
 }
-```
+// ```
 

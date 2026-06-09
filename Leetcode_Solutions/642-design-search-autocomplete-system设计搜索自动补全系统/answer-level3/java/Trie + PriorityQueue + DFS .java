@@ -1,8 +1,8 @@
-dfs出所有prefix的情况加入到优先队列中(一个情况包含了 1. 该句子出现次数 2. 该句子的文本内容)
-自定义一个comparable的属性，然后在PriorityQueue中取出三个（不足3个时全部取出）。
-维护一个StringBuilder在用户输入#时insert这个StringBuilder到trie中
-值得注意的是，当我们遇到一整个完整的句子后 还要对当前节点继续遍历 不可以return否则会丢掉一些句子
-```
+// dfs出所有prefix的情况加入到优先队列中(一个情况包含了 1. 该句子出现次数 2. 该句子的文本内容)
+// 自定义一个comparable的属性，然后在PriorityQueue中取出三个（不足3个时全部取出）。
+// 维护一个StringBuilder在用户输入#时insert这个StringBuilder到trie中
+// 值得注意的是，当我们遇到一整个完整的句子后 还要对当前节点继续遍历 不可以return否则会丢掉一些句子
+// ```
 class AutocompleteSystem {
     Trie trie;
     public AutocompleteSystem(String[] sentences, int[] times) {
@@ -112,4 +112,4 @@ class Trie{
     cur.str = str;
   }
 }
-```
+// ```

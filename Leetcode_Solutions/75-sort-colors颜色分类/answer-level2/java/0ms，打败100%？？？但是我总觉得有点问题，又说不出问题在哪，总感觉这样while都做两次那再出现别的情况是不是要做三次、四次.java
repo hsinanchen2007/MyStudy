@@ -1,5 +1,5 @@
-有没有大佬帮忙看一下我的疑惑之处，下while都用了两次判断0和2
-```
+// 有没有大佬帮忙看一下我的疑惑之处，下while都用了两次判断0和2
+// ```
 class Solution {
     public void sortColors(int[] nums) {
         if(nums==null || nums.length==0) return;
@@ -29,4 +29,4 @@ class Solution {
         nums[j]=temp;
     }
 }
-```
+// ```

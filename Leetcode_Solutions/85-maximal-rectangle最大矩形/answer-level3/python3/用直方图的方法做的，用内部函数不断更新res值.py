@@ -1,9 +1,9 @@
-### 解题思路
-用直方图的方法做的，用内部函数不断更新res值
+# ### 解题思路
+# 用直方图的方法做的，用内部函数不断更新res值
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
         ans = 0
@@ -32,4 +32,4 @@ class Solution:
             _maxRectangle(heights)
 
         return ans
-```
+# ```

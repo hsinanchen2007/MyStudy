@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-递归简洁
+// 递归简洁
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -52,4 +52,4 @@ struct ListNode* swapPairs(struct ListNode* head){
     
     return p;
 }
-```
+// ```

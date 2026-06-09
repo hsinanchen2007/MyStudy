@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-典型的回溯算法，明确 路径、选择列表和结束条件。参考 labuladong 的题解。
+// 典型的回溯算法，明确 路径、选择列表和结束条件。参考 labuladong 的题解。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
     protected $result = [];
     /**
@@ -35,4 +35,4 @@ class Solution {
         }
     }
 }
-```
+// ```

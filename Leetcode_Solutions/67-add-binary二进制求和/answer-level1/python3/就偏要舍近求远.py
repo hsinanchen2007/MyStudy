@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         r, p = '', 0
@@ -18,4 +18,4 @@ class Solution:
             #p = s // 2
         return '1' + r if p else r
 
-```
+# ```

@@ -1,5 +1,5 @@
-与二维动态规划没什么差别，只是在原数组做修改而已，所以还是很快的。
-```
+// 与二维动态规划没什么差别，只是在原数组做修改而已，所以还是很快的。
+// ```
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
@@ -17,4 +17,4 @@ public:
         return grid[grid.size()-1][grid[0].size()-1];
     }
 };
-```
+// ```

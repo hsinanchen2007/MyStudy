@@ -1,9 +1,9 @@
-### 解题思路
-将初始链表分为两半，直到只剩两个链表 ，开始排序
-递归。。。。
-### 代码
+// ### 解题思路
+// 将初始链表分为两半，直到只剩两个链表 ，开始排序
+// 递归。。。。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -68,4 +68,4 @@ ListNode* mergeTwoList(ListNode *p,ListNode *q)
     }
     return head->next;
 }
-```
+// ```

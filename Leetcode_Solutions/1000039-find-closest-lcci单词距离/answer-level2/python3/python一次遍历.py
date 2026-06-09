@@ -1,6 +1,6 @@
-因为最短的距离只会出现在直接相邻的两个单词之间，所以只需要记录最新出现的单词位置并进行计算
-每一次检测到目标单词就更新一次距离，比较直观
-```
+# 因为最短的距离只会出现在直接相邻的两个单词之间，所以只需要记录最新出现的单词位置并进行计算
+# 每一次检测到目标单词就更新一次距离，比较直观
+# ```
 class Solution:
     def findClosest(self, words: List[str], word1: str, word2: str) -> int:
         w1_idx = -1
@@ -16,4 +16,4 @@ class Solution:
                 if tmp_dis<dis:
                     dis = tmp_dis
         return dis
-```
+# ```

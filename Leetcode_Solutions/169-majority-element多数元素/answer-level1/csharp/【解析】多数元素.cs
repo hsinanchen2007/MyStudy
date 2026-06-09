@@ -1,9 +1,9 @@
-### 解题思路
-比较简单的遍历思路就可以解决本题。从头到尾遍历，检查每个元素重复的次数是否大于n/2，若大于则返回，否则将计数器置为1后继续重复。
+// ### 解题思路
+// 比较简单的遍历思路就可以解决本题。从头到尾遍历，检查每个元素重复的次数是否大于n/2，若大于则返回，否则将计数器置为1后继续重复。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MajorityElement(int[] nums) {
         Array.Sort(nums);
@@ -23,4 +23,4 @@ public class Solution {
         return 0;
     }
 }
-```
+// ```

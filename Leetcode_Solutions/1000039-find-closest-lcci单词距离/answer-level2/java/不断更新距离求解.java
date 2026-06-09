@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findClosest(String[] words, String word1, String word2) {
         // 无论指针遇到了word1、word2，都更新一次距离。。
@@ -29,4 +29,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

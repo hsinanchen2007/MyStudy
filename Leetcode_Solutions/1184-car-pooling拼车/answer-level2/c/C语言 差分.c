@@ -1,4 +1,4 @@
-```
+// ```
 bool carPooling(int** trips, int tripsSize, int* tripsColSize, int capacity){
     int myArr[1000] = {0};
     int i, j;
@@ -21,4 +21,4 @@ bool carPooling(int** trips, int tripsSize, int* tripsColSize, int capacity){
 
     return true;
 }
-```
+// ```

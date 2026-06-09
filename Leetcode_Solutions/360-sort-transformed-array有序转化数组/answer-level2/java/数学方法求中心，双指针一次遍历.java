@@ -1,9 +1,9 @@
-### 解题思路
-数学方法求中心点，找到对应位置，维持ij双指针，前后同时进行，一次遍历实现
+// ### 解题思路
+// 数学方法求中心点，找到对应位置，维持ij双指针，前后同时进行，一次遍历实现
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortTransformedArray(int[] nums, int a, int b, int c) {
         int[] result = new int[nums.length];
@@ -88,4 +88,4 @@ class Solution {
         nums[index2] = temp;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
-两小边和大于第三边
-```cpp
+// ### 代码
+// 两小边和大于第三边
+// ```cpp
 class Solution {
 public:
     int triangleNumber(vector<int>& nums) {
@@ -28,4 +28,4 @@ public:
         return tag;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         temp=s.split(" ")
@@ -9,4 +9,4 @@ class Solution:
         
         return 0
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
     public boolean isOneBitCharacter(int[] bits) {
         int begin = 0;
         while (begin < bits.length) {
@@ -15,5 +15,5 @@
             return false;
         return true;
     }
-```
+// ```
 

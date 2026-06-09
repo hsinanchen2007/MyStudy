@@ -1,9 +1,9 @@
-![捕获.PNG](https://pic.leetcode-cn.com/650b3de1a6380cef41ec793fc8474083950137caa46a401a874a0537f955e789-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/650b3de1a6380cef41ec793fc8474083950137caa46a401a874a0537f955e789-%E6%8D%95%E8%8E%B7.PNG)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -18,4 +18,4 @@ public:
         return res;
     }
 };
-```
+// ```

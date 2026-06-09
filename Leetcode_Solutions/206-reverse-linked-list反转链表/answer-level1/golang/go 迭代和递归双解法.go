@@ -1,4 +1,4 @@
-```go
+// ```go
 func reverseList(head *ListNode) *ListNode {
     cur := head
     var prev *ListNode
@@ -13,10 +13,10 @@ func reverseList(head *ListNode) *ListNode {
 
     return prev
 }
-```
+// ```
 
 
-```go
+// ```go
 //reverse method
 func reverseList(head *ListNode) *ListNode {
     if head == nil {
@@ -38,4 +38,4 @@ func helper(head *ListNode) (*ListNode,*ListNode){
     return head,reverseHead
 }
 
-```
+// ```

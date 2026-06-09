@@ -1,4 +1,4 @@
-```
+# ```
 import math
 class Solution:
     def checkPerfectNumber(self, num: int) -> bool:
@@ -12,4 +12,4 @@ class Solution:
                     sum = sum + num / l
             l = l + 1
         return num == sum
-```
+# ```

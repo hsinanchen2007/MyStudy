@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public ListNode swapPairs(ListNode head) {
         // pre -> 1 -> 2 -> 3 -> 4
@@ -47,6 +47,6 @@ class Solution {
         return first.next;
     }
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/c0f9cc10190dcfe7da96f6c61df262b19b95566a03673c30a34480b1b791e765-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c0f9cc10190dcfe7da96f6c61df262b19b95566a03673c30a34480b1b791e765-image.png)

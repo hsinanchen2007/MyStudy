@@ -1,9 +1,9 @@
-### 解题思路
-参考[题解入度表法](https://leetcode-cn.com/problems/course-schedule/solution/course-schedule-tuo-bu-pai-xu-bfsdfsliang-chong-fa/)，在每次弹出入度为0的课程时加进学习列表中，若没有环则返回该学习列表即可；
+# ### 解题思路
+# 参考[题解入度表法](https://leetcode-cn.com/problems/course-schedule/solution/course-schedule-tuo-bu-pai-xu-bfsdfsliang-chong-fa/)，在每次弹出入度为0的课程时加进学习列表中，若没有环则返回该学习列表即可；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     """
     kahn实现拓扑排序
@@ -41,4 +41,4 @@ class Solution:
             return []
         else:
             return study_flow
-```
+# ```

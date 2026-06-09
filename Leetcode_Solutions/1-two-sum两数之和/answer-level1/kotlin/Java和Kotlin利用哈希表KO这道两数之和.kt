@@ -1,16 +1,16 @@
-### 解题思路
-1.可以简单地使用两个循环，第一层找到一个，第二层循环匹配，找到两数之和等于target即可，然后返回坐标。
-2.使用哈希表
-新定义一个哈希表 Map<Integer,Integer>map=new HashMap<>();
-想象一下这个思路，遍历数组nums[]中每一个元素，用target与之相减得到一个中间值temp，
-每一次相减后就去哈希表中查找（使用map.containsKey(temp)）有没有和中间值temp一样的元素，
-如果有就返回它的下标和遍历数组中与target相减元素的下标i即可；如果没有，把这个nums[i]
-使用map.put(nums[i],i)放到哈希表中，继续遍历数组查找。
-遍历完成以后都没有的话就返回-1，-1即可，return new int[]{-1,-1};
+// ### 解题思路
+// 1.可以简单地使用两个循环，第一层找到一个，第二层循环匹配，找到两数之和等于target即可，然后返回坐标。
+// 2.使用哈希表
+// 新定义一个哈希表 Map<Integer,Integer>map=new HashMap<>();
+// 想象一下这个思路，遍历数组nums[]中每一个元素，用target与之相减得到一个中间值temp，
+// 每一次相减后就去哈希表中查找（使用map.containsKey(temp)）有没有和中间值temp一样的元素，
+// 如果有就返回它的下标和遍历数组中与target相减元素的下标i即可；如果没有，把这个nums[i]
+// 使用map.put(nums[i],i)放到哈希表中，继续遍历数组查找。
+// 遍历完成以后都没有的话就返回-1，-1即可，return new int[]{-1,-1};
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 //暴力解法，不动脑子版本
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -44,9 +44,9 @@ class Solution {
 
     }
 }
-```
+// ```
 
-```kotlin
+// ```kotlin
 class Solution {
     fun twoSum(nums: IntArray, target: Int): IntArray {  //定义一个方法 返回值是Int数组类型
         var complement:Int 

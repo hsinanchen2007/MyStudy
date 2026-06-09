@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool FindNumberIn2DArray(int[][] matrix, int target) {
         for(int i=0;i<matrix.Length;i++){
@@ -15,4 +15,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

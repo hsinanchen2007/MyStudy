@@ -1,9 +1,9 @@
-### 解题思路
-很简单，创建一个数组用来记录各数字出现的次数(数组嵌套)，记录完后查看各次数的约数。其中只要有一个大于一的约数就返回true，否则返回false。
+// ### 解题思路
+// 很简单，创建一个数组用来记录各数字出现的次数(数组嵌套)，记录完后查看各次数的约数。其中只要有一个大于一的约数就返回true，否则返回false。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasGroupsSizeX(int* deck, int deckSize){
     int nums[100000]={0};
     for(int i=0;i<deckSize;i++){
@@ -26,4 +26,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
     }
     else return true;
 }
-```
+// ```

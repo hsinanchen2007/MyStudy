@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxProduct(int[] nums) {
         //dp[i] 表示以第i个结尾的序列的最大乘积
@@ -28,4 +28,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

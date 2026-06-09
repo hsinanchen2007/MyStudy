@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countUnivalSubtrees(self, root):
         if not root: return 0
@@ -10,4 +10,4 @@ class Solution:
             ans+=self.countUnivalSubtrees(root.right)
             root.uni&=root.right.uni and root.val==root.right.val
         return ans+1 if root.uni else ans
-```
+# ```

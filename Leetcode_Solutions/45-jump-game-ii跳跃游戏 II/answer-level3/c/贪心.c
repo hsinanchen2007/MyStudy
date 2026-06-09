@@ -1,7 +1,7 @@
 
-将每个点想象成加油站，车子先一直往前开，没油了，就直接获得开的范围中最多油的加油站。
+// 将每个点想象成加油站，车子先一直往前开，没油了，就直接获得开的范围中最多油的加油站。
 
-```
+// ```
 int jump(int* nums, int numsSize)
 {
     if (numsSize <= 1) return 0;
@@ -23,4 +23,4 @@ int jump(int* nums, int numsSize)
     }
     return ret;
 }
-```
+// ```

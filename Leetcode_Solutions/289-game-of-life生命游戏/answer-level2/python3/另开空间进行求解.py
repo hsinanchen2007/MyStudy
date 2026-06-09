@@ -1,4 +1,4 @@
-```
+# ```
 from copy import deepcopy
 
 
@@ -22,4 +22,4 @@ class Solution:
                 else:
                     if live_count == 3:
                         board[i - 1][j - 1] = 1
-```
+# ```

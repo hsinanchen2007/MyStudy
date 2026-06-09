@@ -1,5 +1,5 @@
-第一次写题解，注释都已经写清楚放入代码块
-```
+# 第一次写题解，注释都已经写清楚放入代码块
+# ```
 class Solution:
     def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:
         maxvalue = max(arr1)
@@ -14,6 +14,6 @@ class Solution:
             if counts[k] != 0:  #遍历桶数组，将没有在arr2中出现的值加入res
                 res += counts[k] * [k]  #第一次遍历的时候一排好序，只要将数值以及数值的个数依次加入res
         return res
-```
-![1.png](https://pic.leetcode-cn.com/aff40e2178e1f8a6dd55caca9ef77fb87a7744f0d564ab1bda0ae163766ba685-1.png)
+# ```
+# ![1.png](https://pic.leetcode-cn.com/aff40e2178e1f8a6dd55caca9ef77fb87a7744f0d564ab1bda0ae163766ba685-1.png)
 

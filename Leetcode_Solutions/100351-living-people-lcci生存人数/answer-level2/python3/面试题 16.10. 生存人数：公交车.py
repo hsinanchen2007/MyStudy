@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-统计各个年份的生死人数，对年份进行去重排序遍历。
+# 统计各个年份的生死人数，对年份进行去重排序遍历。
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def maxAliveYear(self, birth: List[int], death: List[int]) -> int:
         b = collections.Counter(birth)
@@ -17,4 +17,4 @@ class Solution:
                 ans = year
             cur -= d[year]
         return ans
-```
+# ```

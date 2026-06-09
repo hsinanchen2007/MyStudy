@@ -1,8 +1,8 @@
-### 解题思路
-遍历
-### 代码
+// ### 解题思路
+// 遍历
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public  boolean isSubsequence(String s, String t) {
      if(s.length() >t.length()){
@@ -32,4 +32,4 @@ class Solution {
 
 
 }
-```
+// ```

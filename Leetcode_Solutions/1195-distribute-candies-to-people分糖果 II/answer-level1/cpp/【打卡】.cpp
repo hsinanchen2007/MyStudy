@@ -1,5 +1,5 @@
-直接暴力。。。花里胡哨duck不必。。。。
-```
+// 直接暴力。。。花里胡哨duck不必。。。。
+// ```
 vector<int> distributeCandies(int candies, int num_people)
 {
     vector<int> rec(num_people, 0);
@@ -15,4 +15,4 @@ vector<int> distributeCandies(int candies, int num_people)
         rec[k] += candies;
     return rec;
 }
-```
+// ```

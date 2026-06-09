@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/f713dcb113855e89c1ef7a75ba6c5fa33432e90d145ad26f136087433db46f37-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/f713dcb113855e89c1ef7a75ba6c5fa33432e90d145ad26f136087433db46f37-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         for(int i = m - 1, j = n - 1, k = m + n - 1; k >= 0; k--){
@@ -21,4 +21,4 @@ class Solution {
         }
     }
 }
-```
+// ```

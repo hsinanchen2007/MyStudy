@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/b157e2edda61128d39f1d116a5e754e2a09838ad2a1823471186f126501c298f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b157e2edda61128d39f1d116a5e754e2a09838ad2a1823471186f126501c298f-image.png)
 
-1. 旋转次数由矩阵宽高短的一边决定
-2. 首先确定每次旋转起始点坐标
-3. 按照本次旋转起始点依次遍历上下左右四条边
+// 1. 旋转次数由矩阵宽高短的一边决定
+// 2. 首先确定每次旋转起始点坐标
+// 3. 按照本次旋转起始点依次遍历上下左右四条边
 
 
-```
+// ```
 func min(a, b int) int {
 	if a <= b {
 		return a
@@ -41,4 +41,4 @@ func spiralOrder(matrix [][]int) (res []int) {
 	}
 	return
 }
-```
+// ```

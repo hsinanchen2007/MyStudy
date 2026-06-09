@@ -1,16 +1,16 @@
 
 
-**solution**
+// **solution**
 
-![深度截图_选择区域_20191017220646.png](https://pic.leetcode-cn.com/57a8ae2555aacb3f6021b0d44e26170a1315edc05758a0847e3352990786285c-%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20191017220646.png)
-
-
-1. 使用vector<char>a1,a2 分别保存l1,l2各自的位
-2.  将从最后一个数开始a1、a2对应位数相加，再与进位相加的，结果保存到vector<char> res中
-3. 将进位以及对应的res转化成链表
+// ![深度截图_选择区域_20191017220646.png](https://pic.leetcode-cn.com/57a8ae2555aacb3f6021b0d44e26170a1315edc05758a0847e3352990786285c-%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20191017220646.png)
 
 
-```
+// 1. 使用vector<char>a1,a2 分别保存l1,l2各自的位
+// 2.  将从最后一个数开始a1、a2对应位数相加，再与进位相加的，结果保存到vector<char> res中
+// 3. 将进位以及对应的res转化成链表
+
+
+// ```
 
 
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
@@ -56,4 +56,4 @@ ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         }
         return head->next;
     }
-```
+// ```

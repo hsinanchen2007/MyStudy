@@ -1,4 +1,4 @@
-```
+// ```
 /**
 普通的 广度优先搜索，有两个关键点：1.不能有相互调用导致栈溢出；2.广度优先搜索得到的结果是错误的，需要搜索多次才行
  * @param {number[][]} matrix
@@ -73,4 +73,4 @@ function bfs2(i, j, matrix, ans) {
     if (bottom < matrix.length) temp3 = ans[bottom][j]
     ans[i][j] = 1 + Math.min(temp1, temp2, temp3, temp4)
 }
-```
+// ```

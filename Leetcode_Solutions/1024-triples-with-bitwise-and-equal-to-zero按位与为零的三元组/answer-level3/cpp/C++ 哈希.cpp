@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int countTriplets(vector<int>& A) {
@@ -22,5 +22,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/feb873bfb1229a879aac4a1b1f2a66e6074f288cfe5f3ceb61c692b456498fcb-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/feb873bfb1229a879aac4a1b1f2a66e6074f288cfe5f3ceb61c692b456498fcb-image.png)

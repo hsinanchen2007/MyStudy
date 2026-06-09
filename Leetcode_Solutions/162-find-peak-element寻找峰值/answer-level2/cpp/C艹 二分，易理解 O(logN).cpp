@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int findPeakElement(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return l;
     }
 };
-```
+// ```

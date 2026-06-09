@@ -1,11 +1,11 @@
-- 中序遍历获得有序值数组 O(n)
-- 二分查找寻找最接近的值（某个方向上的）O(logn)
-- 向两侧分别查找 k 个，在 2k 个值中寻找最接近的 k 个值 O(K*logK)
+// - 中序遍历获得有序值数组 O(n)
+// - 二分查找寻找最接近的值（某个方向上的）O(logn)
+// - 向两侧分别查找 k 个，在 2k 个值中寻找最接近的 k 个值 O(K*logK)
 
-![图片.png](https://pic.leetcode-cn.com/027853e02eea1d918026c2b3f28ab283900682f1cff4aa6d29442388e2c87fd8-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/027853e02eea1d918026c2b3f28ab283900682f1cff4aa6d29442388e2c87fd8-%E5%9B%BE%E7%89%87.png)
 
 
-```rust
+// ```rust
 use std::cell::RefCell;
 use std::cmp::Ordering;
 use std::collections::BinaryHeap;
@@ -101,4 +101,4 @@ impl Solution {
         values
     }
 }
-```
+// ```

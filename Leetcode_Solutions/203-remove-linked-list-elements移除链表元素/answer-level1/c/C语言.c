@@ -1,7 +1,7 @@
-方法1：
-![leetcode.png](https://pic.leetcode-cn.com/ddb2e5db1c2b59d2cc2ece0805214350cee65588cb478b4e905ca65dd6432ffe-leetcode.png)
+// 方法1：
+// ![leetcode.png](https://pic.leetcode-cn.com/ddb2e5db1c2b59d2cc2ece0805214350cee65588cb478b4e905ca65dd6432ffe-leetcode.png)
 
-```
+// ```
 struct ListNode* removeElements(struct ListNode* head, int val){
     struct ListNode *p = (struct ListNode*)malloc(sizeof(struct ListNode)), *q = head, *newHead;
     p -> next = head;
@@ -16,4 +16,4 @@ struct ListNode* removeElements(struct ListNode* head, int val){
     p -> next = NULL;
     return newHead -> next;
 }
-```
+// ```

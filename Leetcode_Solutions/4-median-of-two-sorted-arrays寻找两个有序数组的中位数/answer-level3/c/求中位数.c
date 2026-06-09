@@ -1,9 +1,9 @@
-### 解题思路
-    思路是按序取走较小的数，直到到达中间那个数。由于它可能是中间两个数的平均，故应对此加以区分，即如果总长度是偶数，那么还得求得下一个数，再平均两个数即可求得。此外还要考虑一个数组遍历完得情况
-    注:指针p到达末尾不是NULL!
-### 代码
+// ### 解题思路
+//     思路是按序取走较小的数，直到到达中间那个数。由于它可能是中间两个数的平均，故应对此加以区分，即如果总长度是偶数，那么还得求得下一个数，再平均两个数即可求得。此外还要考虑一个数组遍历完得情况
+//     注:指针p到达末尾不是NULL!
+// ### 代码
 
-```c
+// ```c
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size){
     int*p = nums1,*q = nums2,i=0;
     double middle = 0;//中位数
@@ -37,4 +37,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
             return (middle+*p)/2;
     }
 }
-```
+// ```

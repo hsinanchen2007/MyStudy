@@ -1,5 +1,5 @@
-1. 暴力
-```
+// 1. 暴力
+// ```
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -18,12 +18,12 @@ public:
         return answer;
     }
 };
-```
+// ```
 
-2. mutltiset
-* [multiset介绍](https://www.cnblogs.com/ChinaHook/p/6985444.html)
-直接利用multiset自动排序的特性
-```
+// 2. mutltiset
+// * [multiset介绍](https://www.cnblogs.com/ChinaHook/p/6985444.html)
+// 直接利用multiset自动排序的特性
+// ```
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -44,17 +44,17 @@ public:
         return answer;
     }
 };
-```
+// ```
 
-3. deque双端队列
-* [deque介绍](https://www.cnblogs.com/linuxAndMcu/p/10260124.html)
-维护一个窗口
-它内部是按从大到小排好序的
-可以理解为进入一个元素，就可以把前面比它小的元素全部从尾部出队
-保证了降序的同时，排除了过小的元素
-* [推荐详细题解](https://leetcode-cn.com/problems/sliding-window-maximum/solution/dan-diao-dui-lie-by-labuladong/)
+// 3. deque双端队列
+// * [deque介绍](https://www.cnblogs.com/linuxAndMcu/p/10260124.html)
+// 维护一个窗口
+// 它内部是按从大到小排好序的
+// 可以理解为进入一个元素，就可以把前面比它小的元素全部从尾部出队
+// 保证了降序的同时，排除了过小的元素
+// * [推荐详细题解](https://leetcode-cn.com/problems/sliding-window-maximum/solution/dan-diao-dui-lie-by-labuladong/)
 
-```
+// ```
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -84,22 +84,22 @@ public:
         return answer;
     }
 };
-```
+// ```
 
-4. 动态规划
-有点奇思妙想
-官方题解讲得比较详细了，可以直接看[官方题解](https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-leetcode-3/)
-将数组划分成k个块
-left数组为对应块中从左到右最大的数字
-right数组为对应块中从右到左最大的数字
-那么answer.at(index)=max(left.at(i+k-1),right.at(i))
-举个例子
-[1,3,-1][-3,5,3][6,7] k=3
-当遍历到i=1即窗口是(3,-1,-3)时
-窗口这时涉及到两个块了
-所以只需right.at(1)和left.at(3)比较即可
+// 4. 动态规划
+// 有点奇思妙想
+// 官方题解讲得比较详细了，可以直接看[官方题解](https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-leetcode-3/)
+// 将数组划分成k个块
+// left数组为对应块中从左到右最大的数字
+// right数组为对应块中从右到左最大的数字
+// 那么answer.at(index)=max(left.at(i+k-1),right.at(i))
+// 举个例子
+// [1,3,-1][-3,5,3][6,7] k=3
+// 当遍历到i=1即窗口是(3,-1,-3)时
+// 窗口这时涉及到两个块了
+// 所以只需right.at(1)和left.at(3)比较即可
 
-```
+// ```
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -135,7 +135,7 @@ public:
         return answer;
     }
 };
-```
+// ```
 
 
 

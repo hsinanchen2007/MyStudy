@@ -1,4 +1,4 @@
-非常容易理解的反转字符串解法。
+// 非常容易理解的反转字符串解法。
 
 class Solution {
     func reverse(_ x: Int) -> Int {

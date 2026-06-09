@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         # result_num = max(nums)
@@ -29,4 +29,4 @@ class Solution:
             max_res = max(max_res, imax)
            # print(max_res)
         return max_res
-```
+# ```

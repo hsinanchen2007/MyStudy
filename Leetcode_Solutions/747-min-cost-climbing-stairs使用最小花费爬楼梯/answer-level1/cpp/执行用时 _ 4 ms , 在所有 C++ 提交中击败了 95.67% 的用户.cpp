@@ -1,9 +1,9 @@
-### 解题思路
-f(n) = min(f(n-1),f(n-2))+cost[n],理解这个公式你就知道怎么做了
+// ### 解题思路
+// f(n) = min(f(n-1),f(n-2))+cost[n],理解这个公式你就知道怎么做了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCostClimbingStairs(vector<int>& cost) 
@@ -24,4 +24,4 @@ public:
     }
 
 };
-```
+// ```

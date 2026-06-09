@@ -1,6 +1,6 @@
-直观思路： 计算每个数的个数，看是否所有的数是否有公约数
+// 直观思路： 计算每个数的个数，看是否所有的数是否有公约数
 
-```
+// ```
     public boolean hasGroupsSizeX(int[] deck) {
         if (deck == null || deck.length == 0) {
             return false;
@@ -25,4 +25,4 @@
     private int gcd(int i, int j) {
         return i == 0 ? j : gcd(j % i, i);
     }
-```
+// ```

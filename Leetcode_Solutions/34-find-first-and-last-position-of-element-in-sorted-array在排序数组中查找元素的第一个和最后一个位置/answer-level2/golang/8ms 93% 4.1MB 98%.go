@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-二级制搜索的时候
-1. 处理left==right的情况
-2. 处理left==right-1的情况
-3. nums[mid] > ,= ,< >=target的要分开处理
+// 二级制搜索的时候
+// 1. 处理left==right的情况
+// 2. 处理left==right-1的情况
+// 3. nums[mid] > ,= ,< >=target的要分开处理
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func searchRange(nums []int, target int) []int {
 
@@ -81,4 +81,4 @@ func binSearch(nums []int, target int, getLeft bool) int {
 
 }
 
-```
+// ```

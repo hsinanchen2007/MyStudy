@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1、拿到题先找规律
-2、把边界写好
-3、搞个map，把每个字符出现的次数存起来，字符出现偶数次直接在res上相加，如果是奇数次，就在奇数次-1再加上res
+// ### 解题思路
+// 此处撰写解题思路
+// 1、拿到题先找规律
+// 2、把边界写好
+// 3、搞个map，把每个字符出现的次数存起来，字符出现偶数次直接在res上相加，如果是奇数次，就在奇数次-1再加上res
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) int {
     if (len(s) <= 1) {
         return len(s)
@@ -31,4 +31,4 @@ func longestPalindrome(s string) int {
         return res
     }
 }
-```
+// ```

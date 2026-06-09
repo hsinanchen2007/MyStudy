@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/a8ec8d2f1e970155d2c908ba4737e61f3c219f89f31cf2328b7ef818b7f29739-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a8ec8d2f1e970155d2c908ba4737e61f3c219f89f31cf2328b7ef818b7f29739-image.png)
 
 
-```
+# ```
 '''
 维护combinationLength个数位的数值，每次调用next时候顺次把数位移动到下一位置
 '''
@@ -42,4 +42,4 @@ class CombinationIterator:
 
     def hasNext(self) -> bool:
         return self.valid
-```
+# ```

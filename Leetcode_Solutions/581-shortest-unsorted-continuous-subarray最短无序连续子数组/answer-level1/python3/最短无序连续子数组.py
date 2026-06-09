@@ -1,9 +1,9 @@
-### 解题思路
-排序，然后进行比较即可
+# ### 解题思路
+# 排序，然后进行比较即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findUnsortedSubarray(self, nums: List[int]) -> int:
         nums_copy = sorted(nums)
@@ -23,4 +23,4 @@ class Solution:
             return R - L + 1
         else:
             return 0
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-难得双100%，理解起来复杂一点 但只循环一次。 i行j列==>j行len-i列， j行len-i列==>len-i行len-j列， len-i行len-j列==>len-j行i列， len-j行i列==>i行j列， 详细参考注释
+// ### 解题思路
+// 难得双100%，理解起来复杂一点 但只循环一次。 i行j列==>j行len-i列， j行len-i列==>len-i行len-j列， len-i行len-j列==>len-j行i列， len-j行i列==>i行j列， 详细参考注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public void rotate(int[][] matrix) {
         int len = matrix.length;
@@ -34,4 +34,4 @@ class Solution {
         }
     }
 }
-```
+// ```

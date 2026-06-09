@@ -1,4 +1,4 @@
-```
+// ```
 //直接用数组模拟队列，可灵活操作。其中，head为队列头的下一个位置。
 vector<vector<int>> levelOrderBottom(TreeNode* root) {
     TreeNode* que[9999];
@@ -25,4 +25,4 @@ vector<vector<int>> levelOrderBottom(TreeNode* root) {
     }
     return ans;
 }
-```
+// ```

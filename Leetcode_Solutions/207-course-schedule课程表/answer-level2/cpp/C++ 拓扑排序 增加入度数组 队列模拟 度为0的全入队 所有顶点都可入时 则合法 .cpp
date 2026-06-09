@@ -1,4 +1,4 @@
-```
+// ```
     int n;
     bool st[10010];
     int h[10010],e[10010],ne[10010],idx,deg[10010];
@@ -26,4 +26,4 @@
         for(auto v : pre) add(v[1],v[0]),deg[v[0]]++;
         return topSort();
     }
-```
+// ```

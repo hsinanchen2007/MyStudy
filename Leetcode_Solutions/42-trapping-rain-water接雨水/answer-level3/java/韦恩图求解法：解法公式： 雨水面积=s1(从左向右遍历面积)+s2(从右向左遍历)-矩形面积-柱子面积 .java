@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
   int d=height.length;  //矩形的宽度(数组的长度)
@@ -40,4 +40,4 @@ class Solution {
         return s0;
     }
 }
-```
+// ```

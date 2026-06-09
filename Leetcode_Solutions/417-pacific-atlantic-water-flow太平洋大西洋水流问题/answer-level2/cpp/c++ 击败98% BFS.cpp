@@ -1,15 +1,15 @@
-不优化空间复杂度，只求写起来简单，执行效率高
-![Screen Shot 2020-02-10 at 4.43.59 PM.png](https://pic.leetcode-cn.com/adde95663150cbc749ffc79a323ca8ffe60996619ff683794c1d166c20a7e02e-Screen%20Shot%202020-02-10%20at%204.43.59%20PM.png)
+// 不优化空间复杂度，只求写起来简单，执行效率高
+// ![Screen Shot 2020-02-10 at 4.43.59 PM.png](https://pic.leetcode-cn.com/adde95663150cbc749ffc79a323ca8ffe60996619ff683794c1d166c20a7e02e-Screen%20Shot%202020-02-10%20at%204.43.59%20PM.png)
 
-声明pacific和atlantic两个二维数组，记录可流到两大洋的位置。得到位置的方法直接用BFS从一定可以流到的位置开始扩散，直到找不到新的位置时，即得到了所有可能的位置。
-遍历一遍所有位置，如果pacific和atlantic两个数组皆有标记，则记录该位置到答案。
+// 声明pacific和atlantic两个二维数组，记录可流到两大洋的位置。得到位置的方法直接用BFS从一定可以流到的位置开始扩散，直到找不到新的位置时，即得到了所有可能的位置。
+// 遍历一遍所有位置，如果pacific和atlantic两个数组皆有标记，则记录该位置到答案。
 
-[自己动手实现分布式缓存](https://github.com/wfnuser/burrow)
-[我的题解](https://www.github.com/wfnuser/leetcode)
-[我的github](https://www.github.com/wfnuser)
-欢迎大家在github follow我 对分布式缓存感兴趣的可以看第一个项目，希望之后可以发布更多的玩具项目
+// [自己动手实现分布式缓存](https://github.com/wfnuser/burrow)
+// [我的题解](https://www.github.com/wfnuser/leetcode)
+// [我的github](https://www.github.com/wfnuser)
+// 欢迎大家在github follow我 对分布式缓存感兴趣的可以看第一个项目，希望之后可以发布更多的玩具项目
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> pacificAtlantic(vector<vector<int>>& matrix) {
@@ -81,4 +81,4 @@ public:
         return ans;
     }
 };
-```
+// ```

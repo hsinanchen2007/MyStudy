@@ -1,5 +1,5 @@
-看到题第一个想法就是用字典树 + 回溯法，跑的不快，也算一种方案吧
-```
+// 看到题第一个想法就是用字典树 + 回溯法，跑的不快，也算一种方案吧
+// ```
 class Solution {
 public:
     struct TreeNode {
@@ -75,6 +75,6 @@ public:
         return res;
     }
 };
-```
-跑的跑，内存占用高，orz
-![image.png](https://pic.leetcode-cn.com/00db90f5f3f57d6d1185b8c28baa48c4ad0bcbcdcde8075c2e364bd3e172219d-image.png)
+// ```
+// 跑的跑，内存占用高，orz
+// ![image.png](https://pic.leetcode-cn.com/00db90f5f3f57d6d1185b8c28baa48c4ad0bcbcdcde8075c2e364bd3e172219d-image.png)

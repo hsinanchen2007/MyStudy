@@ -1,9 +1,9 @@
-### 解题思路
-1.因为只有第一个节无需特别格式因此从后往前遍历字符串，按照格式规则压入result，再将result逆序化返回即可。
+// ### 解题思路
+// 1.因为只有第一个节无需特别格式因此从后往前遍历字符串，按照格式规则压入result，再将result逆序化返回即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string licenseKeyFormatting(string S, int K) {
@@ -29,4 +29,4 @@ public:
         return result;
     }
 };
-```
+// ```

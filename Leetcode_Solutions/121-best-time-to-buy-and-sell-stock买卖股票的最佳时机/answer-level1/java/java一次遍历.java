@@ -1,9 +1,9 @@
-执行用时 :1 ms, 在所有 Java 提交中击败了99.90%的用户
-### 一次遍历
-使用一个变量currPri存储最便宜的股票价格，遍历数组，如果遇到更便宜的股票，买入，即改变currPri的值。如果当前股票更贵，计算此时的利润并和之前存储的利润比较。
-细节可以看代码中的注释:
+// 执行用时 :1 ms, 在所有 Java 提交中击败了99.90%的用户
+// ### 一次遍历
+// 使用一个变量currPri存储最便宜的股票价格，遍历数组，如果遇到更便宜的股票，买入，即改变currPri的值。如果当前股票更贵，计算此时的利润并和之前存储的利润比较。
+// 细节可以看代码中的注释:
 
-```java
+// ```java
 public int maxProfit(int[] prices) {
     if(prices.length == 0 || prices == null) return 0;
     //利润
@@ -26,4 +26,4 @@ public int maxProfit(int[] prices) {
     }
     return pro;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-暴力求解，也能双百
+// ### 解题思路
+// 暴力求解，也能双百
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func distributeCandies(candies int, num_people int) []int {
     ans:=make([]int,num_people)
 	tmp:=0
@@ -22,4 +22,4 @@ func distributeCandies(candies int, num_people int) []int {
 	}
 	return ans
 }
-```
+// ```

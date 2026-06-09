@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/caeabc84e495143bac7a2727bc408729787782821248e8be5b7d6b0325fd6781-image.png)
+# ### 解题思路
+# 此处撰写解题思路
+# ![image.png](https://pic.leetcode-cn.com/caeabc84e495143bac7a2727bc408729787782821248e8be5b7d6b0325fd6781-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool
@@ -24,4 +24,4 @@ class Solution(object):
             else:
                 left=mid+1
         return right
-```
+# ```

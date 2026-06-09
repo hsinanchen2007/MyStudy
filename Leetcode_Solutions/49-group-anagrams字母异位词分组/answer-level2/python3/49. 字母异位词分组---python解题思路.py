@@ -1,6 +1,6 @@
-刚刚看到这种题目我想到把遇到的每一个字符串拆成列表，然后排序，然后再把排序后的列表转成字符串，放在字典里面判断。下面是代码
+# 刚刚看到这种题目我想到把遇到的每一个字符串拆成列表，然后排序，然后再把排序后的列表转成字符串，放在字典里面判断。下面是代码
 
-```python
+# ```python
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         result_dict = {}
@@ -14,11 +14,11 @@ class Solution:
         for key, value in result_dict.items():
             result_list.append(value)
         return result_list
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :108 ms, 在所有 Python3 提交中击败了92.14% 的用户
 内存消耗 :15.3 MB, 在所有 Python3 提交中击败了99.55%的用户
 
@@ -27,32 +27,32 @@ class Solution:
 
 执行用时 :108 ms, 在所有 Python3 提交中击败了92.14% 的用户
 内存消耗 :15.3 MB, 在所有 Python3 提交中击败了99.55%的用户
-```
+# ```
 
-感觉速度和内存消耗还是可以的O(∩_∩)O
+# 感觉速度和内存消耗还是可以的O(∩_∩)O
 
-接下来学习一下官方解答
+# 接下来学习一下官方解答
 
-**方法1**：思路和我的差不多，也是通过字典来解决问题
+# **方法1**：思路和我的差不多，也是通过字典来解决问题
 
-但是让我喜出望外的不是官方的思路和我一样，而是看代码发现了个宝贝
+# 但是让我喜出望外的不是官方的思路和我一样，而是看代码发现了个宝贝
 
-那就是发现了字典的get函数（话说之前我还不知道有这等神物），从一定程度上来说可以避免字典key值的判断！！！（有点开心！）
+# 那就是发现了字典的get函数（话说之前我还不知道有这等神物），从一定程度上来说可以避免字典key值的判断！！！（有点开心！）
 
-例如下面的例子
+# 例如下面的例子
 
-```python
+# ```python
 >>> a = {"A":10, "B":20}
 >>> b = a.get("C", "没有")
 >>> b
 '没有'
 get(可能存在的key值, 如果找不到返回的值)
 这简直太好用了！！！
-```
+# ```
 
-还有一点就是让我知道可以直接return字典的value，那马上就修改原先代码
+# 还有一点就是让我知道可以直接return字典的value，那马上就修改原先代码
 
-```python
+# ```python
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         result_dict = {}
@@ -60,11 +60,11 @@ class Solution:
             key = "".join(sorted(each_str))
             result_dict[key] = result_dict.get(key, []) + [each_str]
         return result_dict.values()
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :100 ms, 在所有 Python3 提交中击败了98.43% 的用户
 内存消耗 :15.9 MB, 在所有 Python3 提交中击败了67.26%的用户
 
@@ -73,11 +73,11 @@ class Solution:
 
 执行用时 :152 ms, 在所有 Python3 提交中击败了26.24% 的用户
 内存消耗 :16 MB, 在所有 Python3 提交中击败了55.23%的用户
-```
+# ```
 
-话说LeetCode的检测还真不稳定！
+# 话说LeetCode的检测还真不稳定！
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
 
   
 

@@ -1,9 +1,9 @@
-### 解题思路
-这是一个像 转换进制的题
+// ### 解题思路
+// 这是一个像 转换进制的题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convertToTitle(int n) {
@@ -18,4 +18,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-感觉这题完全就是麻烦，但是不难。
-```
+# 感觉这题完全就是麻烦，但是不难。
+# ```
 class Solution:
     def myAtoi(self, str: str) -> int:
         import re
@@ -23,4 +23,4 @@ class Solution:
         elif ans < -pow(2,31):
             return -pow(2,31)
         return ans
-```
+# ```

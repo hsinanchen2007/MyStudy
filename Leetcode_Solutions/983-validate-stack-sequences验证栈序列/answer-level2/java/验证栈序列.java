@@ -1,9 +1,9 @@
-### 解题思路
-    辅助栈的思想，具体解析见代码
+// ### 解题思路
+//     辅助栈的思想，具体解析见代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         if(pushed.length!=popped.length)
@@ -24,4 +24,4 @@ class Solution {
         return stack.isEmpty();   //判断栈是否为空，如果栈空，则说明栈序列是对的。
     }
 }
-```
+// ```

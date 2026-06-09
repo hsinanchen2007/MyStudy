@@ -1,12 +1,12 @@
-利用了数据漏洞（结点值小的为父结点），执行贼快
+# 利用了数据漏洞（结点值小的为父结点），执行贼快
 
-`son_par`存储子结点映射的父结点，从`target`一直寻父结点，直至根结点1
-- 若`target`有子结点，则深度必须与时间t相等；
-- 若`target`没有子结点，则深度可以小于时间t。
+# `son_par`存储子结点映射的父结点，从`target`一直寻父结点，直至根结点1
+# - 若`target`有子结点，则深度必须与时间t相等；
+# - 若`target`没有子结点，则深度可以小于时间t。
 
-<br/>
+# <br/>
 
-```python3
+# ```python3
 class Solution:
     def frogPosition(self, n: int, edges: List[List[int]], t: int, target: int) -> float:
         if target == 1:
@@ -39,22 +39,22 @@ class Solution:
         else:
             return 0
 
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/7e98f0ec17d720e042e49bb41c02a359fa6ea63a82263a907e668c3558e1b337-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7e98f0ec17d720e042e49bb41c02a359fa6ea63a82263a907e668c3558e1b337-image.png)
 
-<br/>
+# <br/>
 
-若要弥补本题逻辑漏洞，用邻接矩阵或者邻接表完成图的构建，dfs或者bfs完成题解。
+# 若要弥补本题逻辑漏洞，用邻接矩阵或者邻接表完成图的构建，dfs或者bfs完成题解。
 
-邻接表构建图，队列实现bfs遍历
-- 字典列表(`default(list)`)实现邻接表;
-- 双端队列`deque`实现队列，非递归实现bfs遍历，效率高；
-- `visited`记录访问过的节点，防止重新访问，陷入死循环，因为构建的是无向图；
+# 邻接表构建图，队列实现bfs遍历
+# - 字典列表(`default(list)`)实现邻接表;
+# - 双端队列`deque`实现队列，非递归实现bfs遍历，效率高；
+# - `visited`记录访问过的节点，防止重新访问，陷入死循环，因为构建的是无向图；
 
-<br/>
+# <br/>
 
-```
+# ```
 from collections import defaultdict, deque
 
 class Solution:
@@ -83,8 +83,8 @@ class Solution:
                         m = len(par_sons[par]) - 1
                         queue.append((son, p / m, depth + 1))
 
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/77d7e6c5a2a74dce85cf7550d89a23875a5b86580c0cb7cf79857981315f13f1-image.png)
+# ![image.png](https://pic.leetcode-cn.com/77d7e6c5a2a74dce85cf7550d89a23875a5b86580c0cb7cf79857981315f13f1-image.png)
 
-效果还不错！
+# 效果还不错！

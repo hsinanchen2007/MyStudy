@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
    public boolean isSymmetric(TreeNode root) {
         if (root == null) 
@@ -14,4 +14,4 @@ class Solution {
         return isSymmetric(left.left, right.right) && isSymmetric(left.right, right.left);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-能让我一次过的题着实不多。
-```cpp
+// ### 代码
+// 能让我一次过的题着实不多。
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -26,4 +26,4 @@ public:
         return head;
     }
 };
-```
+// ```

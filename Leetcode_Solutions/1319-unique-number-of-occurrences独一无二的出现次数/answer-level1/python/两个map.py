@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-two map
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# two map
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def uniqueOccurrences(self, arr):
         """
@@ -25,4 +25,4 @@ class Solution(object):
                 return False
         
         return True
-```
+# ```

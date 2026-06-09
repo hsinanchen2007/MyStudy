@@ -1,6 +1,6 @@
-详细的解释在代码中已经注释了的
+// 详细的解释在代码中已经注释了的
 
-```
+// ```
 class Solution {
             List<List<Integer>> lists = new ArrayList<List<Integer>>();
             public List<List<Integer>> combinationSum(int[] candidates, int target) {
@@ -37,4 +37,4 @@ class Solution {
         }
     }
 }
-```
+// ```

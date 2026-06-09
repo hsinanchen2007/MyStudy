@@ -1,11 +1,11 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
-方法1：层序遍历，将每层最后一个元素加入结果集
-方法2：递归，先查找右子树，创建一个变量保存当前已访问的最大深度，当访问到新深度时，第一个访问元素就是每层的最右节点
+// 思路：
+// 方法1：层序遍历，将每层最后一个元素加入结果集
+// 方法2：递归，先查找右子树，创建一个变量保存当前已访问的最大深度，当访问到新深度时，第一个访问元素就是每层的最右节点
 
-迭代：
-```
+// 迭代：
+// ```
 public List<Integer> rightSideView1(TreeNode root) {
     List<Integer> res = new ArrayList<>();
     if(root == null) return res;
@@ -25,10 +25,10 @@ public List<Integer> rightSideView1(TreeNode root) {
     }
     return res;
 }
-```
+// ```
 
-2.递归
-```
+// 2.递归
+// ```
 //2.递归
 int maxDepth = 0;
 public List<Integer> rightSideView2(TreeNode root) {
@@ -48,4 +48,4 @@ private void helper(TreeNode root, int depth,List<Integer> res) {
     helper(root.right,depth+1,res);
     helper(root.left,depth+1,res);
 }
-```
+// ```

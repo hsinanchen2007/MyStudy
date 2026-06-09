@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先根据n放入n/2对数据进入res，最后判断n是否是奇数，是的话添一个0后返回res，n是偶数直接返回res
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先根据n放入n/2对数据进入res，最后判断n是否是奇数，是的话添一个0后返回res，n是偶数直接返回res
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number[]}
@@ -23,4 +23,4 @@ var sumZero = function(n) {
     }
     return 0
 };
-```
+// ```

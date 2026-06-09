@@ -1,12 +1,12 @@
-### 解题思路
-参考了https://leetcode-cn.com/problems/rotting-oranges/solution/yan-du-you-xian-sou-suo-python3-c-by-z1m/
-首先将腐烂水果的坐标记录下来，并加入到第一轮腐烂队列queue<pair<int,int>> rotten，同时记录新鲜水果的数目count，行列的边界Row_MAX，Column_MAX。
-时间用腐烂的传递轮数来记录，第一轮模拟将队列中腐烂水果的腐烂传染至四个方向的新鲜水果，把队列中的本轮腐烂水果弹出，并将新腐烂的水果重新加入到队列，开始第二轮的腐烂传染。。。
-等到队列为空时，如果新鲜水果的个数大于0，则返回-1；个数为0，则返回腐烂的轮数。
+// ### 解题思路
+// 参考了https://leetcode-cn.com/problems/rotting-oranges/solution/yan-du-you-xian-sou-suo-python3-c-by-z1m/
+// 首先将腐烂水果的坐标记录下来，并加入到第一轮腐烂队列queue<pair<int,int>> rotten，同时记录新鲜水果的数目count，行列的边界Row_MAX，Column_MAX。
+// 时间用腐烂的传递轮数来记录，第一轮模拟将队列中腐烂水果的腐烂传染至四个方向的新鲜水果，把队列中的本轮腐烂水果弹出，并将新腐烂的水果重新加入到队列，开始第二轮的腐烂传染。。。
+// 等到队列为空时，如果新鲜水果的个数大于0，则返回-1；个数为0，则返回腐烂的轮数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) 
@@ -68,4 +68,4 @@ public:
     }
     }
 };
-```
+// ```

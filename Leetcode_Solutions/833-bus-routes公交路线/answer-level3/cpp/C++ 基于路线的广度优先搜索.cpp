@@ -1,5 +1,5 @@
-思路直观，见代码注释：
-```
+// 思路直观，见代码注释：
+// ```
 class Solution {
 public:
     int numBusesToDestination(vector<vector<int>>& routes, int S, int T) {
@@ -38,6 +38,6 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/adb8976df61c63e2c821a325200820302e793a6cc0c0b8db75281c2f7184248e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/adb8976df61c63e2c821a325200820302e793a6cc0c0b8db75281c2f7184248e-image.png)

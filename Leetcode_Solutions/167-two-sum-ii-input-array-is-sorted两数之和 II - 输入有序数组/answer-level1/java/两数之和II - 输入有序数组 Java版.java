@@ -1,4 +1,4 @@
-```java
+// ```java
 public class Solution{
 	/*
 	 * 双指针：i指向数组开头，j指向数组结尾。数组是升序排列
@@ -24,4 +24,4 @@ public class Solution{
 		return new int[] {0,0};
 	}
 }
-```
+// ```

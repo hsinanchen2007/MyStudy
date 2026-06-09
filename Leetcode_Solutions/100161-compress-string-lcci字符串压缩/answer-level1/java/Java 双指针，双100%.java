@@ -1,9 +1,9 @@
-### 解题思路
-直接上代码吧。
+// ### 解题思路
+// 直接上代码吧。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         if(S == null || S.length() <= 1) {
@@ -21,4 +21,4 @@ class Solution {
         return res.length() >= items.length ? S : res.toString();
     }
 }
-```
+// ```

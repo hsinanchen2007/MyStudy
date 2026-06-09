@@ -1,10 +1,10 @@
-感觉自己太菜了，只能暴力呀！
+// 感觉自己太菜了，只能暴力呀！
 
-满足条件的和只能是15，且3x3矩阵中心数字必须为5;
+// 满足条件的和只能是15，且3x3矩阵中心数字必须为5;
 
-同时数字不能重复，还要判断数字在1到9之间，可以用除10取余来判断是否在1到9之间。
+// 同时数字不能重复，还要判断数字在1到9之间，可以用除10取余来判断是否在1到9之间。
 
-```java
+// ```java
 class Solution {
     public int numMagicSquaresInside(int[][] grid) {
         if(grid.length <= 2 || grid[0].length <= 2) return 0;
@@ -34,4 +34,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

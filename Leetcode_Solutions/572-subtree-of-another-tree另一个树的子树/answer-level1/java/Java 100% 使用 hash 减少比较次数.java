@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/c403671559c8b04bc5a15d5a157c7076c24b6952cb694534d60e00eb3ff5a4de-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c403671559c8b04bc5a15d5a157c7076c24b6952cb694534d60e00eb3ff5a4de-image.png)
 
 
-1. 计算 TreeNode t 的 hash 值 a1
-2. 递归计算 TreeNode s 的 hash 值 a2, 如果 a1 == a2 则检查两颗子树是否相同
+// 1. 计算 TreeNode t 的 hash 值 a1
+// 2. 递归计算 TreeNode s 的 hash 值 a2, 如果 a1 == a2 则检查两颗子树是否相同
 
-优势: 在某些应用中, 能大量减少比较次数, 选用不同的hash函数, 可以达到不同的效果 
+// 优势: 在某些应用中, 能大量减少比较次数, 选用不同的hash函数, 可以达到不同的效果 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -69,4 +69,4 @@ class Solution {
 
 }
 
-```
+// ```

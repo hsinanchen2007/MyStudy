@@ -1,14 +1,14 @@
-### 解题思路
-考察基本的数组排序算法
-使用快速排序和归并排序
-快排：
-![image.png](https://pic.leetcode-cn.com/0b25de6a7cb292e67c1a9c77b178a3b2a641b23dbac01dcfaf5b567c47173a50-image.png)
-归并：
-![image.png](https://pic.leetcode-cn.com/2dc1415dcd80eca0228bd0bdef06e71aeca35fc1027704dcd18da0e09a62e329-image.png)
+// ### 解题思路
+// 考察基本的数组排序算法
+// 使用快速排序和归并排序
+// 快排：
+// ![image.png](https://pic.leetcode-cn.com/0b25de6a7cb292e67c1a9c77b178a3b2a641b23dbac01dcfaf5b567c47173a50-image.png)
+// 归并：
+// ![image.png](https://pic.leetcode-cn.com/2dc1415dcd80eca0228bd0bdef06e71aeca35fc1027704dcd18da0e09a62e329-image.png)
 
-### 代码
+// ### 代码
 
-```cpp []
+// ```cpp []
 class Solution {
     // 快排
     private:
@@ -44,9 +44,9 @@ public:
         return nums;
     }
 };
-```
+// ```
 
-```cpp []
+// ```cpp []
 class Solution {
     // 归并排序
     vector<int> tmp;
@@ -79,4 +79,4 @@ public:
         return nums;
     }
 };
-```
+// ```

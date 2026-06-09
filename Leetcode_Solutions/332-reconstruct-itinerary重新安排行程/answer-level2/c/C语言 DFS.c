@@ -1,9 +1,9 @@
-### 解题思路
-1.字符数组排序，减少时间复杂度。
-2.dfs 用g_flag标记飞行次序，用count判断出口。
-### 代码
+// ### 解题思路
+// 1.字符数组排序，减少时间复杂度。
+// 2.dfs 用g_flag标记飞行次序，用count判断出口。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

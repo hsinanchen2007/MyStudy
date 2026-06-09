@@ -1,9 +1,9 @@
-### 解题思路
-由于题目要求O(n)的复杂度，O(3n)也是O(n)的复杂度，所以，我们找三遍，找到第三大的数字输出。
+// ### 解题思路
+// 由于题目要求O(n)的复杂度，O(3n)也是O(n)的复杂度，所以，我们找三遍，找到第三大的数字输出。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int ThirdMax(int[] nums) {
         int f, s, t;
@@ -47,4 +47,4 @@ public class Solution {
             return t;
     }
 }
-```
+// ```

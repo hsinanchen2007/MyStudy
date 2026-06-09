@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-1，建立一个字符为`key`，出现次数为`int`类型的`map`；  
-2，第一次循环，记录字符串中每个字符出现的次数；  
-3，第二次循环，找出`index`。
+// 1，建立一个字符为`key`，出现次数为`int`类型的`map`；  
+// 2，第一次循环，记录字符串中每个字符出现的次数；  
+// 3，第二次循环，找出`index`。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func firstUniqChar(s string) int {
     // build hash map : character and how often it appears
     cmap := make(map[byte]int)
@@ -24,4 +24,4 @@ func firstUniqChar(s string) int {
 
     return -1
 }
-```
+// ```

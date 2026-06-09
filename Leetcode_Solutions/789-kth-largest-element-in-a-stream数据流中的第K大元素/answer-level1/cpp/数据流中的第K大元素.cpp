@@ -1,9 +1,9 @@
-# 数据流中的第k大元素
-设计一个找到数据流中第K大元素的类（class）。注意是排序后的**第K大元素**，不是第K个不同的元素。
-你的 KthLargest 类需要一个同时接收整数 k 和整数数组nums 的构造器，它包含数据流中的初始元素。每次调用 KthLargest.add，返回当前数据流中第K大的元素。
-示例:
+// # 数据流中的第k大元素
+// 设计一个找到数据流中第K大元素的类（class）。注意是排序后的**第K大元素**，不是第K个不同的元素。
+// 你的 KthLargest 类需要一个同时接收整数 k 和整数数组nums 的构造器，它包含数据流中的初始元素。每次调用 KthLargest.add，返回当前数据流中第K大的元素。
+// 示例:
 
-```
+// ```
 int k = 3;
 int[] arr = [4,5,8,2];
 KthLargest kthLargest = new KthLargest(3, arr);
@@ -12,14 +12,14 @@ kthLargest.add(5);   // returns 5
 kthLargest.add(10);  // returns 5
 kthLargest.add(9);   // returns 8
 kthLargest.add(4);   // returns 8
-```
-说明: 
-你可以假设 nums 的长度≥ k-1 且k ≥ 1。
+// ```
+// 说明: 
+// 你可以假设 nums 的长度≥ k-1 且k ≥ 1。
 
-###  解法1：
-维护k个元素的数组，并倒序排序，add元素时和数组尾元素比较 ，然后用插入排序
+// ###  解法1：
+// 维护k个元素的数组，并倒序排序，add元素时和数组尾元素比较 ，然后用插入排序
 
-```
+// ```
 class KthLargest {
 public:
     int len=0;//存放第k大中的k
@@ -65,11 +65,11 @@ public:
         return a>b;
     }
 };
-```
+// ```
 
-## 解法2：维护一个大小为k的小根堆，则根节点就是第k大元素
+// ## 解法2：维护一个大小为k的小根堆，则根节点就是第k大元素
 
-```
+// ```
 class KthLargest {
 public:
     int len=0;
@@ -107,28 +107,28 @@ public:
     }
 };
 
-```
-注：本代码逻辑正确，但是效率不高，在第9个测试用例会超出时间限制。
+// ```
+// 注：本代码逻辑正确，但是效率不高，在第9个测试用例会超出时间限制。
 
-##  优化：使用优先队列创建小根堆
-C++中的“优先队列（priority_queue）"，包含在头文件queue中。优先队列具有队列的所有特性，包括基本操作，只是在这基础上添加了内部的一个排序，它本质是一个堆实现的。
+// ##  优化：使用优先队列创建小根堆
+// C++中的“优先队列（priority_queue）"，包含在头文件queue中。优先队列具有队列的所有特性，包括基本操作，只是在这基础上添加了内部的一个排序，它本质是一个堆实现的。
 
-定义：priority_queue<Type, Container, Functional> 
+// 定义：priority_queue<Type, Container, Functional> 
 
--  Type 就是数据类型，
--  Container 就是容器类型（Container必须是用数组实现的容器，比如vector,deque等等，但不能用 list。STL里面默认用的是vector），
-- Functional 就是比较的方式，当需要用自定义的数据类型时才需要传入这三个参数，使用基本数据类型时，只需要传入数据类型，默认是大根堆 。
-<br>
+// -  Type 就是数据类型，
+// -  Container 就是容器类型（Container必须是用数组实现的容器，比如vector,deque等等，但不能用 list。STL里面默认用的是vector），
+// - Functional 就是比较的方式，当需要用自定义的数据类型时才需要传入这三个参数，使用基本数据类型时，只需要传入数据类型，默认是大根堆 。
+// <br>
 
-//降序队列（大根堆）
-priority_queue <int,vector<int>,less<int> >q;
+// //降序队列（大根堆）
+// priority_queue <int,vector<int>,less<int> >q;
  
-//升序队列（小根堆）
-priority_queue <int,vector<int>,greater<int> > q;
+// //升序队列（小根堆）
+// priority_queue <int,vector<int>,greater<int> > q;
 
-实现代码：
+// 实现代码：
 
-```
+// ```
 class KthLargest {
 public:
     priority_queue<int, vector<int>, greater<int>> pq;
@@ -148,6 +148,6 @@ public:
         return pq.top();
     }
 };
-```
+// ```
 
 

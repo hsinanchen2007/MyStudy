@@ -1,6 +1,6 @@
 
-双指针，从尾部开始
-```
+// 双指针，从尾部开始
+// ```
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int i, a=m-1, b=n-1;
     for(i=m+n-1;i>=0;i--){
@@ -10,4 +10,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
         else nums1[i]=nums2[b--];
     }
 }
-```
+// ```

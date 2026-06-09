@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> printNumbers(int n) {
@@ -14,4 +14,4 @@ public:
         return res;
     }
 };
-```
+// ```

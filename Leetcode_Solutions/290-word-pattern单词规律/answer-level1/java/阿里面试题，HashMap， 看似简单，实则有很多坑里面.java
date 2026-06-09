@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-总体思路是hashmap，很简单，细节需要注意
+// 总体思路是hashmap，很简单，细节需要注意
 
-比如说在判断m.containsKey(cur) 和 !m.get(cur).equals(s[i]) 不能连在一块写
+// 比如说在判断m.containsKey(cur) 和 !m.get(cur).equals(s[i]) 不能连在一块写
 
-if else 写的时机，放入map中的时机都不能出错
-### 代码
+// if else 写的时机，放入map中的时机都不能出错
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean wordPattern(String pattern, String str) {
         String[] s = str.split(" ");
@@ -27,4 +27,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

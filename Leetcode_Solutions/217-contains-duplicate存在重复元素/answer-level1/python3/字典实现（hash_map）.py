@@ -1,9 +1,9 @@
-### 解题思路
-查看key值，若存在返回真，其他为假
+# ### 解题思路
+# 查看key值，若存在返回真，其他为假
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         hash_map={}
@@ -13,4 +13,4 @@ class Solution:
             else:
                 return True
         return False
-```
+# ```

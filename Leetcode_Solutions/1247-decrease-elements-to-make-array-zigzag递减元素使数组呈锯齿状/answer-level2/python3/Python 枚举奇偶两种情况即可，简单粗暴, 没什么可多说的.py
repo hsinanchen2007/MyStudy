@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/f115756b8d445a428291cd8c9afd55f4ab8190c7171107ddd1ac2064c53e2fb6-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f115756b8d445a428291cd8c9afd55f4ab8190c7171107ddd1ac2064c53e2fb6-image.png)
 
 
-```
+# ```
 '''
 枚举奇数位置做做较小值和偶数位置做较小值两种不同的情况中
 开销较小的一种即可
@@ -31,4 +31,4 @@ class Solution:
             total2 += sub
 
         return min(total1, total2)
-```
+# ```

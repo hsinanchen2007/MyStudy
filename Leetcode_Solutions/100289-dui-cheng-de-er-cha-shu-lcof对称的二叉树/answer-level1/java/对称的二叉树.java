@@ -1,9 +1,9 @@
-### 解题思路
-递归将左右节点进行对比。。
+// ### 解题思路
+// 递归将左右节点进行对比。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -37,4 +37,4 @@ class Solution {
         return  recur(left.right, right.left) && recur(left.left, right.right); 
     }
 }
-```
+// ```

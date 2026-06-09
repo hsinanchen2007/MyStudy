@@ -1,9 +1,9 @@
-### 解题思路
-见代码注释
+// ### 解题思路
+// 见代码注释
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //栈存的节点
 type stackNode struct {
     res []rune
@@ -100,4 +100,4 @@ func repeat(s []rune, times int) []rune{
 
     return res
 }
-```
+// ```

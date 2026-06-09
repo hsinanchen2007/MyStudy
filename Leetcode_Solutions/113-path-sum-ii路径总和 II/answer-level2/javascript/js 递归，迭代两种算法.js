@@ -1,4 +1,4 @@
-```
+// ```
 // 递归 84 ms
 var pathSum = function(root, sum) {
     function help(node, path, pathSum, arr){
@@ -53,5 +53,5 @@ var pathSum = function(root, sum) {
     }
     return res        
 };
-```
+// ```
 

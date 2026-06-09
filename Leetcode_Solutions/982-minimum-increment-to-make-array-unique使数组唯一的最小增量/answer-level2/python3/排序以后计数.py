@@ -1,5 +1,5 @@
-先对A进行排序，然后再对A相邻的元素进行判断即可。
-```
+# 先对A进行排序，然后再对A相邻的元素进行判断即可。
+# ```
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         A.sort()
@@ -10,4 +10,4 @@ class Solution:
                 num+=A[i-1]-A[i]+1
                 A[i]=A[i-1]+1
         return num
-```
+# ```

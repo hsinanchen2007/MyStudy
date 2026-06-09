@@ -1,4 +1,4 @@
-```
+-- ```
 /* Write your PL/SQL query statement below */
 SELECT Request_at AS Day, ROUND(cancelCount / allNum, 2) AS "Cancellation Rate"
 FROM (
@@ -22,4 +22,4 @@ FROM (
 	) c
 	GROUP BY Request_at
 )
-```
+-- ```

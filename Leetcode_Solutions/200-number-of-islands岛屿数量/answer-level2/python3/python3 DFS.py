@@ -1,13 +1,13 @@
-### 解题思路
-看到好多人找到1之后把整个岛变成了0
-丧心病狂呀！！！
-1本来就少了还搞成0，这不是差距更大了吗？
-还是搞成-1会好一点
+# ### 解题思路
+# 看到好多人找到1之后把整个岛变成了0
+# 丧心病狂呀！！！
+# 1本来就少了还搞成0，这不是差距更大了吗？
+# 还是搞成-1会好一点
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         if len(grid)==0:
@@ -32,4 +32,4 @@ class Solution:
                     change_color(x,y)
                     
         return count
-```
+# ```

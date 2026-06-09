@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var heightChecker = function (heights) {
     let height = Array.from(heights);
     let arr = heights.sort(function (x, y) {
@@ -20,5 +20,5 @@ console.log(heightChecker([1, 1, 4, 2, 1, 3]))
  * 2. 排序成功后，对比两个数组的不同之处
  * 3. 即可得出答案
  */
-```
+// ```
 

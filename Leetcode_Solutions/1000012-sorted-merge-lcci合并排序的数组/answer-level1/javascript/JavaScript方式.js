@@ -1,9 +1,9 @@
-## 解题思路
-将A B中按大小依次放入A的末尾，排完B还有剩则直接放入A中相应位置
+// ## 解题思路
+// 将A B中按大小依次放入A的末尾，排完B还有剩则直接放入A中相应位置
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} m
@@ -20,4 +20,4 @@ var merge = function(A, m, B, n) {
   }
   return A
 };
-```
+// ```

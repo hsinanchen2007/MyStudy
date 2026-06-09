@@ -1,20 +1,20 @@
-### 解题思路：深度优先搜索 DFS
+// ### 解题思路：深度优先搜索 DFS
 
-我们可以将矩阵看作一个无向图。对于无向图，我们可以采用深度优先搜索和广度优先搜索两种办法进行遍历。
+// 我们可以将矩阵看作一个无向图。对于无向图，我们可以采用深度优先搜索和广度优先搜索两种办法进行遍历。
 
-![幻灯片11.JPG](https://pic.leetcode-cn.com/3aa75e29ee72da14df37229c76f21a2308a299fbb4800656f8f9b39f50d14d90-%E5%B9%BB%E7%81%AF%E7%89%8711.JPG)
+// ![幻灯片11.JPG](https://pic.leetcode-cn.com/3aa75e29ee72da14df37229c76f21a2308a299fbb4800656f8f9b39f50d14d90-%E5%B9%BB%E7%81%AF%E7%89%8711.JPG)
 
-因此对于 `word = ABCCEE`，我们可以先采用暴力搜索的办法找到目标字符串 `word` 中的第一个字符 `A`,找到之后按照深度优先搜索的顺序寻找是否有和 `word` 匹配的字符串，如果找到直接返回 `True`；如果没有，我们继续寻找下一个 `A`...
+// 因此对于 `word = ABCCEE`，我们可以先采用暴力搜索的办法找到目标字符串 `word` 中的第一个字符 `A`,找到之后按照深度优先搜索的顺序寻找是否有和 `word` 匹配的字符串，如果找到直接返回 `True`；如果没有，我们继续寻找下一个 `A`...
 
-对于一轮深度搜索过程中，为了避免重复我们需要将搜索过的字符置为 `0`。
+// 对于一轮深度搜索过程中，为了避免重复我们需要将搜索过的字符置为 `0`。
 
-![12.gif](https://pic.leetcode-cn.com/92e383cc1ca508f71d8eccd092c0333977651d7ce9de6672383981a2d78fb0c5-12.gif)
+// ![12.gif](https://pic.leetcode-cn.com/92e383cc1ca508f71d8eccd092c0333977651d7ce9de6672383981a2d78fb0c5-12.gif)
 
 
 
-### 代码
+// ### 代码
 
-```python []
+// ```python []
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         # 使用深度优先搜索
@@ -37,8 +37,8 @@ class Solution:
 
         board[i][j] = tmp
         return res
-```
-```cpp []
+// ```
+// ```cpp []
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -67,31 +67,31 @@ public:
         return flag;
     }
 };
-```
+// ```
 
 
-### 复杂度分析
+// ### 复杂度分析
 
-非常感谢 [@ZacBi](/u/zacbi/) 对时间复杂度和空间复杂度提出的宝贵意见~
+// 非常感谢 [@ZacBi](/u/zacbi/) 对时间复杂度和空间复杂度提出的宝贵意见~
 
-**1. 时间复杂度：${\mathcal{O}}((M\times N)^2)$。**
+// **1. 时间复杂度：${\mathcal{O}}((M\times N)^2)$。**
 
-根据 [力扣相关介绍](https://leetcode-cn.com/explore/orignial/card/recursion-i/259/complexity-analysis/1223/)：
+// 根据 [力扣相关介绍](https://leetcode-cn.com/explore/orignial/card/recursion-i/259/complexity-analysis/1223/)：
 
->给出一个递归算法，其时间复杂度 ${\mathcal{O}(T)}$ 通常是递归调用的数量（记作 ${R}$） 和计算的时间复杂度的乘积（表示为 ${\mathcal{O}(s)}$）的乘积：${\mathcal{O}(T) = R * \mathcal{O}(s)}$ 
+// >给出一个递归算法，其时间复杂度 ${\mathcal{O}(T)}$ 通常是递归调用的数量（记作 ${R}$） 和计算的时间复杂度的乘积（表示为 ${\mathcal{O}(s)}$）的乘积：${\mathcal{O}(T) = R * \mathcal{O}(s)}$ 
 
-$M$，$N$ 为矩阵的行数和列数。每个递归函数需要调用 `word.size()` 次。最坏情况下，`word` 为蛇形排列，长度为矩阵中的所有元素的数量，故每个递归函数调用次数为 $O(M\times N)$，且一次调用了四个递归函数，递归调用的总次数为 $\mathcal{O}(4\times M\times N )$，在递归函数中我们只进行了 `board[i][j] = tmp`，复杂度为 $\mathcal{O}(1)$，故递归的总时间复杂度为 ${\mathcal{O}(T) = \mathcal{O}(4\times M\times N) * \mathcal{O}(1)}={\mathcal{O}}(M\times N)$ 
+// $M$，$N$ 为矩阵的行数和列数。每个递归函数需要调用 `word.size()` 次。最坏情况下，`word` 为蛇形排列，长度为矩阵中的所有元素的数量，故每个递归函数调用次数为 $O(M\times N)$，且一次调用了四个递归函数，递归调用的总次数为 $\mathcal{O}(4\times M\times N )$，在递归函数中我们只进行了 `board[i][j] = tmp`，复杂度为 $\mathcal{O}(1)$，故递归的总时间复杂度为 ${\mathcal{O}(T) = \mathcal{O}(4\times M\times N) * \mathcal{O}(1)}={\mathcal{O}}(M\times N)$ 
 
-在主函数中的时间复杂度为 $\mathcal{O}(M\times N)，$ 故总的时间复杂度为 $O((M\times N)^2)$。
+// 在主函数中的时间复杂度为 $\mathcal{O}(M\times N)，$ 故总的时间复杂度为 $O((M\times N)^2)$。
 
-**2. 空间复杂度：${\mathcal{O}}(M\times N)$。**
-
-
-
-对于每个递归调用 `self.dfs(board,i+1,j,word[1:])`，假设它可能需要一个最大为某一常量值的空间,并且需要递归调用 `word.size()` 次，而 `word` 最长为 $(M\times N)$，所以对于每一个递归函数所需的空间复杂度为 ${\mathcal{O}}(M\times N)$，由于我们求 `res` 时需要一次执行四个递归函数，复杂度变成 ${\mathcal{O}}(4\times (M\times N))$，故最后的空间复杂度为 ${\mathcal{O}}(M\times N)$。
+// **2. 空间复杂度：${\mathcal{O}}(M\times N)$。**
 
 
 
+// 对于每个递归调用 `self.dfs(board,i+1,j,word[1:])`，假设它可能需要一个最大为某一常量值的空间,并且需要递归调用 `word.size()` 次，而 `word` 最长为 $(M\times N)$，所以对于每一个递归函数所需的空间复杂度为 ${\mathcal{O}}(M\times N)$，由于我们求 `res` 时需要一次执行四个递归函数，复杂度变成 ${\mathcal{O}}(4\times (M\times N))$，故最后的空间复杂度为 ${\mathcal{O}}(M\times N)$。
 
 
-如有问题，欢迎讨论~
+
+
+
+// 如有问题，欢迎讨论~

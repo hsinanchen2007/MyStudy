@@ -1,7 +1,7 @@
-### 解题思路
-### 代码
+// ### 解题思路
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isAdditiveNumber(String num) {
         for(int i=1;i<num.length()-1;i++)//遍历前两个数所有的可能
@@ -38,4 +38,4 @@ class Solution {
      else return backtrack(num,j,k,k+sum.length());
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-两次遍历构造平移后的正确顺序resultList，再递归创造平移后的链表
+// ### 解题思路
+// 两次遍历构造平移后的正确顺序resultList，再递归创造平移后的链表
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -39,4 +39,4 @@ func buildList(list []int) *ListNode {
 		return &node
 	}
 }
-```
+// ```

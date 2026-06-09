@@ -1,9 +1,9 @@
-### 解题思路 1
-用字典
+// ### 解题思路 1
+// 用字典
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func maxNumberOfBalloons(_ text: String) -> Int {
         
@@ -33,14 +33,14 @@ class Solution {
         return (balloonCount.values.min()! / 2)
     }
 }
-```
+// ```
 
-### 题解思路2 
-不用字典
+// ### 题解思路2 
+// 不用字典
 
-### 代码
+// ### 代码
 
-```
+// ```
 class Solution {
     func maxNumberOfBalloons(_ text: String) -> Int {
         
@@ -73,4 +73,4 @@ class Solution {
         return (min(bCount,aCount,lCount,oCount,nCount) / 2)
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-中心扩展法，参考官方题解。
-expansion 函数返回 left right 位置，为非难以理解的长度
+# ### 解题思路
+# 中心扩展法，参考官方题解。
+# expansion 函数返回 left right 位置，为非难以理解的长度
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         n = len(s)
@@ -23,4 +23,4 @@ class Solution:
                 maxlen = right-left
                 l, r = left, right
         return s[l:r+1]
-```
+# ```

@@ -1,6 +1,6 @@
  
-1. 当str处理
-```crmsh
+# 1. 当str处理
+# ```crmsh
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         node = l1
@@ -23,11 +23,11 @@ class Solution:
             l3 = l3.next
 
         return l4.next
-```
+# ```
 
 
-2. 每位相加
-```livecodeserver
+# 2. 每位相加
+# ```livecodeserver
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         add = 0
@@ -47,4 +47,4 @@ class Solution:
 
         return l4.next
 
-```
+# ```

@@ -1,8 +1,8 @@
-![微信截图_20191112154007.png](https://pic.leetcode-cn.com/d73805a45cfd2b9884a433a6799630db9d64c192e354089fe46547eb990ccd74-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191112154007.png)
+// ![微信截图_20191112154007.png](https://pic.leetcode-cn.com/d73805a45cfd2b9884a433a6799630db9d64c192e354089fe46547eb990ccd74-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191112154007.png)
 
-由于镜像对称，分别从1，3，7，9开始的手势方案数是相等的，分别从2，4，6，8开始的也是相等的。
-所以原先1~9for循环的方案600多ms优化到200多ms。
-```
+// 由于镜像对称，分别从1，3，7，9开始的手势方案数是相等的，分别从2，4，6，8开始的也是相等的。
+// 所以原先1~9for循环的方案600多ms优化到200多ms。
+// ```
 class Solution {
 
     /**
@@ -48,4 +48,4 @@ class Solution {
         return isset($this->path[$num1][$num2])?$visited[$this->path[$num1][$num2]]:true;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-思想同官方JAVA版
+// ### 解题思路
+// 思想同官方JAVA版
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -18,4 +18,4 @@ public:
     }
 
 };
-```
+// ```

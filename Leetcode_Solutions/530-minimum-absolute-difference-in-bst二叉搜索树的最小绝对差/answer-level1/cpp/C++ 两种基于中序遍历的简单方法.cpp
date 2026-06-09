@@ -1,6 +1,6 @@
-# 方法一：常规思路，先中序遍历，再逐个比较
+// # 方法一：常规思路，先中序遍历，再逐个比较
 
-```c++ []
+// ```c++ []
 void Inorder(TreeNode* root, vector<int>& ivec) {
     if (root) {
         Inorder(root->left, ivec);
@@ -16,11 +16,11 @@ int getMinimumDifference(TreeNode* root) {
         ans = abs(inorder[i - 1] - inorder[i]) < ans ? abs(inorder[i - 1] - inorder[i]) : ans;
     return ans;
 }
-```
+// ```
 
-# 方法二：优化思路，中序遍历的同时逐个比较
+// # 方法二：优化思路，中序遍历的同时逐个比较
 
-```c++ []
+// ```c++ []
 vector<int>ivec;
 int ans = INT_MAX;
 int getMinimumDifference(TreeNode* root) {
@@ -32,6 +32,6 @@ int getMinimumDifference(TreeNode* root) {
     }
     return ans;
 }
-```
+// ```
 
-方法一很直观简单，在熟练理解方法一的基础上，便可自然地优化为方法二，来避免过程中的遍历冗余问题。
+// 方法一很直观简单，在熟练理解方法一的基础上，便可自然地优化为方法二，来避免过程中的遍历冗余问题。

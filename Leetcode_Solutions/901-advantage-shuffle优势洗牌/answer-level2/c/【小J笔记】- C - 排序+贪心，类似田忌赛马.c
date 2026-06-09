@@ -1,10 +1,10 @@
-1. 对A数组从小到大排序
-2. 对B数组中每一个数val，有如下处理
-- 如果val大于等于A中没有使用的最大数，那么就将A中没有使用的最小数和val对应
-- 否则，在A数组中找到第一个比val大的且没有使用的数和val进行对应
-3. 查找时需要使用二分查找，否则会超时
+// 1. 对A数组从小到大排序
+// 2. 对B数组中每一个数val，有如下处理
+// - 如果val大于等于A中没有使用的最大数，那么就将A中没有使用的最小数和val对应
+// - 否则，在A数组中找到第一个比val大的且没有使用的数和val进行对应
+// 3. 查找时需要使用二分查找，否则会超时
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -101,4 +101,4 @@ int* advantageCount(int* A, int ASize, int* B, int BSize, int* returnSize)
     *returnSize = ASize;    
     return ret;
 }
-```
+// ```

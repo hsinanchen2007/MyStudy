@@ -1,11 +1,11 @@
-![1.png](https://pic.leetcode-cn.com/beda2072bbacdbce5ed972f8097f48f61299542a34bc28b1c3f7c737b5edffd1-1.png)
+// ![1.png](https://pic.leetcode-cn.com/beda2072bbacdbce5ed972f8097f48f61299542a34bc28b1c3f7c737b5edffd1-1.png)
 
-### 解题思路
-非原地，借助缓存空间，但是双百
+// ### 解题思路
+// 非原地，借助缓存空间，但是双百
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int area(int**grid, int i, int j, int x, int y){
 	int num = 0;
 	if (i > 0)
@@ -51,4 +51,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
 	}
 	free(t);
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-BFS，最小堆
+// ### 解题思路
+// BFS，最小堆
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 typedef struct {
     int x;
@@ -113,4 +113,4 @@ int trapRainWater(int** heightMap, int heightMapSize, int* heightMapColSize)
 
     return ans;
 }
-```
+// ```

@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-5 ms
-, 在所有 Java 提交中击败了
-94.03%
-的用户
-内存消耗 :
-38.7 MB
-, 在所有 Java 提交中击败了
-97.10%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 5 ms
+// , 在所有 Java 提交中击败了
+// 94.03%
+// 的用户
+// 内存消耗 :
+// 38.7 MB
+// , 在所有 Java 提交中击败了
+// 97.10%
+// 的用户
+// ```
 class Solution {
      public List<List<String>> partition(String s) {
 	        List<List<String>> res = new ArrayList<List<String>>();
@@ -59,4 +59,4 @@ class Solution {
 	        return true;
 	    }
 }
-```
+// ```

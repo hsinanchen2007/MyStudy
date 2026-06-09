@@ -1,11 +1,11 @@
-基于以下递推公式求解：
-1. dp[i]表示旅行到days[i]天需要的最小费用
-2. 对于j<i，且可以用一张票从days[j]旅行到days[i]的情况
-    i. days[i]-days[j] < 30，dp[i] = min(dp[i], dp[j-1]+costs[2]);
-    ii. days[i]-days[j] < 7，dp[i] = min(dp[i], dp[j-1]+costs[1]);
-    iii. days[i]-days[j] < 1，dp[i] = min(dp[i], dp[j-1]+costs[0]);
-3. 边界判断，需考虑
-```
+// 基于以下递推公式求解：
+// 1. dp[i]表示旅行到days[i]天需要的最小费用
+// 2. 对于j<i，且可以用一张票从days[j]旅行到days[i]的情况
+//     i. days[i]-days[j] < 30，dp[i] = min(dp[i], dp[j-1]+costs[2]);
+//     ii. days[i]-days[j] < 7，dp[i] = min(dp[i], dp[j-1]+costs[1]);
+//     iii. days[i]-days[j] < 1，dp[i] = min(dp[i], dp[j-1]+costs[0]);
+// 3. 边界判断，需考虑
+// ```
 class Solution {
 public:
     int mincostTickets(vector<int>& days, vector<int>& costs) {
@@ -26,4 +26,4 @@ public:
         return dp[n-1];
     }
 };
-```
+// ```

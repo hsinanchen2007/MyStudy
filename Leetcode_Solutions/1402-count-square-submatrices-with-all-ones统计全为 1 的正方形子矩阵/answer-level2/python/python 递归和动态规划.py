@@ -1,5 +1,5 @@
-![2019-12-01 17-11-14 的屏幕截图.png](https://pic.leetcode-cn.com/c77623bb7592b24988c423cce12cca24f581e405d1442530d6bbb25d5bab00e4-2019-12-01%2017-11-14%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
-```python
+# ![2019-12-01 17-11-14 的屏幕截图.png](https://pic.leetcode-cn.com/c77623bb7592b24988c423cce12cca24f581e405d1442530d6bbb25d5bab00e4-2019-12-01%2017-11-14%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+# ```python
     class Solution(object):
         def __init__(self):
             self.res = []

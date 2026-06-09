@@ -1,6 +1,6 @@
-终于勉强写出了本题的分治算法（话说动态规划不香嘛）
-# 重要参考[https://blog.csdn.net/abnerwang2014/article/details/36027747]()
-```
+// 终于勉强写出了本题的分治算法（话说动态规划不香嘛）
+// # 重要参考[https://blog.csdn.net/abnerwang2014/article/details/36027747]()
+// ```
 class Solution {
     //分治算法，看收藏题解中的博客链接
 private:
@@ -45,4 +45,4 @@ public:
         return helper(nums,0,nums.size()-1);
     }
 };
-```
+// ```

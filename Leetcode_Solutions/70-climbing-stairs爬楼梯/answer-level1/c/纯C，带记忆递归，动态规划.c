@@ -1,9 +1,9 @@
-### 解题思路
-直接上代码吧  思路很简单
+// ### 解题思路
+// 直接上代码吧  思路很简单
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*int helper(int i, int n, int* memo)
 {
     if(i>n)
@@ -38,4 +38,4 @@ int climbStairs(int n){
         dp[i]=dp[i-1]+dp[i-2];
     return dp[n];
 }
-```
+// ```

@@ -1,5 +1,5 @@
-注意考虑边界情况 其实就是第k个指针的问题
-```
+// 注意考虑边界情况 其实就是第k个指针的问题
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ public:
        return newhead;
     }
 };
-```
+// ```

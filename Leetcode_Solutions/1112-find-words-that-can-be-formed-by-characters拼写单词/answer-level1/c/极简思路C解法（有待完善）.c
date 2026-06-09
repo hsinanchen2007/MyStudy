@@ -1,9 +1,9 @@
-### 解题思路
-用一个数组记录每轮匹配到的字符数，遍历完一个单词之后对比匹配到的数量，相同则统计下来，最后返回解。
+// ### 解题思路
+// 用一个数组记录每轮匹配到的字符数，遍历完一个单词之后对比匹配到的数量，相同则统计下来，最后返回解。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     int *logs=(int *)malloc(strlen(chars)*sizeof(int));
     for(int i=0;i<strlen(chars);i++){//置0
@@ -37,4 +37,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return count;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-选择排序
+// ### 解题思路
+// 选择排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int heightChecker(int* heights, int heightsSize){
     int cnt=0;
     int num[heightsSize];
@@ -33,4 +33,4 @@ int heightChecker(int* heights, int heightsSize){
     }
     return cnt;
 }
-```
+// ```

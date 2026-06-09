@@ -1,7 +1,7 @@
-该题主要在于**处理好关键点的连接**：**正在反转的子链的首尾节点**、**已反转的上一条子链的尾节点的记录**
-处理好这两个点就可以了，详细看代码吧
+// 该题主要在于**处理好关键点的连接**：**正在反转的子链的首尾节点**、**已反转的上一条子链的尾节点的记录**
+// 处理好这两个点就可以了，详细看代码吧
 
-```go
+// ```go
 func reverseKGroup(head *ListNode, k int) *ListNode {
     if head == nil || head.Next == nil {
         return head
@@ -49,4 +49,4 @@ func reverseKGroup(head *ListNode, k int) *ListNode {
     }
     return newHead
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用map来给字符计数，然后逐个字符串check就行了
+// ### 解题思路
+// 使用map来给字符计数，然后逐个字符串check就行了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countCharacters(words []string, chars string) int {
 	count := 0
 	for _, v := range words {
@@ -27,4 +27,4 @@ func countCharacters(words []string, chars string) int {
 
 	return count
 }
-```
+// ```

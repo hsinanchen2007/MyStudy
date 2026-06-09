@@ -1,4 +1,4 @@
-```
+// ```
 func countAndSay(n int) string {
 	var res string = "1#"
 	for i := 1; i < n; i++ {
@@ -16,4 +16,4 @@ func countAndSay(n int) string {
 	}
 	return res[:len(res)-1]
 }
-```
+// ```

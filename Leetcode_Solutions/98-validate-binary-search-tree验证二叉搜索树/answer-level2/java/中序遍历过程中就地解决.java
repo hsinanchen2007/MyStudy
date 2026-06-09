@@ -1,9 +1,9 @@
-### 解题思路
-众所周知，二叉搜索树中序遍历可以得到一个升序的集合，那么中序遍历过程，前一个数值(prev)要小于后一个数值(cur)，那只要判定prev >= cur这个搜索树就作废False,反之，整个遍历流程跑通的话就返回True
+// ### 解题思路
+// 众所周知，二叉搜索树中序遍历可以得到一个升序的集合，那么中序遍历过程，前一个数值(prev)要小于后一个数值(cur)，那只要判定prev >= cur这个搜索树就作废False,反之，整个遍历流程跑通的话就返回True
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,4 +44,4 @@ class Solution {
 		return true;
     }
 }
-```
+// ```

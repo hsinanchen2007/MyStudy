@@ -1,12 +1,12 @@
-### 解题思路
-![413422BB-4064-4835-A27E-C8ED5402A7F3.png](https://pic.leetcode-cn.com/293559cf0b75bcc21ca649d96bf5000fd2db6cba8c5236900d03d5fd93bb9244-413422BB-4064-4835-A27E-C8ED5402A7F3.png)
+// ### 解题思路
+// ![413422BB-4064-4835-A27E-C8ED5402A7F3.png](https://pic.leetcode-cn.com/293559cf0b75bcc21ca649d96bf5000fd2db6cba8c5236900d03d5fd93bb9244-413422BB-4064-4835-A27E-C8ED5402A7F3.png)
 
 
-此处撰写解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasValidPath(vector<vector<int>>& grid) {
@@ -190,4 +190,4 @@ public:
         }
     }
 };
-```
+// ```

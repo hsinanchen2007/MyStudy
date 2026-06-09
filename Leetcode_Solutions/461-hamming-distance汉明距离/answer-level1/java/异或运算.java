@@ -1,9 +1,9 @@
-### 解题思路
-异或运算:相同为0不同为1,然后转换为二进制字符串,这里偷懒了.....
+// ### 解题思路
+// 异或运算:相同为0不同为1,然后转换为二进制字符串,这里偷懒了.....
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int hammingDistance(int x, int y) {
     	String s = Integer.toBinaryString(x^y);
@@ -17,4 +17,4 @@ class Solution {
 		return count;
     }
 }
-```
+// ```

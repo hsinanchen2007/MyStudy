@@ -1,10 +1,10 @@
-### 解题思路
-定义结构体头指针尾指针，长度，和value数组存储值
-创建的时候初始化结构体，push时在尾指针加元素，pop将尾指针元素return
+// ### 解题思路
+// 定义结构体头指针尾指针，长度，和value数组存储值
+// 创建的时候初始化结构体，push时在尾指针加元素，pop将尾指针元素return
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int rear;
     int front;
@@ -76,4 +76,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

@@ -1,4 +1,4 @@
-```c
+// ```c
 char * toLowerCase(char * str){
     int length=0,i;
     while(str[length]!=0) length++;
@@ -10,4 +10,4 @@ char * toLowerCase(char * str){
     string=s;
     return string;
 }
-```
+// ```

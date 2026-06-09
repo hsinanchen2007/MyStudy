@@ -1,9 +1,9 @@
-1.使用map记录所有经停站的信息，遍历所有经停站，先下后上。
-2.判断是否超过capacity
+// 1.使用map记录所有经停站的信息，遍历所有经停站，先下后上。
+// 2.判断是否超过capacity
 
-[一句话题解我看懂了](https://leetcode-cn.com/problems/car-pooling/solution/1094-pin-che-by-acj/)
+// [一句话题解我看懂了](https://leetcode-cn.com/problems/car-pooling/solution/1094-pin-che-by-acj/)
 
-```
+// ```
 /*
  * Copyright (c) Nicolas-Tony Technologies Co., Ltd. 2020-2020. All rights reserved.
  * Description: i love leetcode
@@ -48,4 +48,4 @@ public:
         return true;
     }
 };
-```
+// ```

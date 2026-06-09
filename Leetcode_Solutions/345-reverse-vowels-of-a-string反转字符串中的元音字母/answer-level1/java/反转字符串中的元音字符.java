@@ -1,10 +1,10 @@
-### 解题思路
-双指针，i指向开头，j指向末尾，分别向中间遍历，遇到元音时交换
-具体看注释
+// ### 解题思路
+// 双指针，i指向开头，j指向末尾，分别向中间遍历，遇到元音时交换
+// 具体看注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      private final static HashSet<Character> vowels=new HashSet<>(
             Arrays.asList('a','e','i','o','u','A','E','I','O','U'));
@@ -31,4 +31,4 @@ class Solution {
         return new String(result);//转换为String类型输出
     }
 }
-```
+// ```

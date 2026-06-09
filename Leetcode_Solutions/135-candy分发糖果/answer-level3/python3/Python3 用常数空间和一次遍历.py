@@ -1,5 +1,5 @@
-注意边界条件检查，山谷的重复。
-```python3 []
+# 注意边界条件检查，山谷的重复。
+# ```python3 []
 class Solution:
     def candy(self, ratings: List[int]) -> int:
         n = len(ratings)
@@ -42,4 +42,4 @@ class Solution:
         else:
             cnt += 1
         return cnt-gu
-```
+# ```

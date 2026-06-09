@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/c6634015a6e6b2249d8ab4a73f11cb8129fd19d696cb723f398908eaecc15b9d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c6634015a6e6b2249d8ab4a73f11cb8129fd19d696cb723f398908eaecc15b9d-image.png)
 
-```
+// ```
     public String addStrings(String num1, String num2) {    
         int carry = 0;
         StringBuilder sb = new StringBuilder();
@@ -16,4 +16,4 @@
         }
         return sb.reverse().toString();
     }
-```
+// ```

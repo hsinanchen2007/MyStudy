@@ -1,6 +1,6 @@
-#### 解法一：暴力排序 sort
-+ [242题的变种-戳看解法一](https://leetcode-cn.com/problems/valid-anagram/solution/242-you-xiao-de-zi-mu-yi-wei-ci-by-alexer-660/)
-```javascript
+// #### 解法一：暴力排序 sort
+// + [242题的变种-戳看解法一](https://leetcode-cn.com/problems/valid-anagram/solution/242-you-xiao-de-zi-mu-yi-wei-ci-by-alexer-660/)
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string[][]}
@@ -21,12 +21,12 @@ var groupAnagrams = function(strs) {
     }
     return result;
 };
-```
-#### 解法二：哈希表
-+ [242题的变种-戳看解法二](https://leetcode-cn.com/problems/valid-anagram/solution/242-you-xiao-de-zi-mu-yi-wei-ci-by-alexer-660/)
-+ 给每个字符做哈希映射
-+ 遍历时，将每个字符hash值相同的归到同一组里去
-```javascript
+// ```
+// #### 解法二：哈希表
+// + [242题的变种-戳看解法二](https://leetcode-cn.com/problems/valid-anagram/solution/242-you-xiao-de-zi-mu-yi-wei-ci-by-alexer-660/)
+// + 给每个字符做哈希映射
+// + 遍历时，将每个字符hash值相同的归到同一组里去
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string[][]}
@@ -58,4 +58,4 @@ var groupAnagrams = function(strs) {
     }
     return out;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     inline int uniqueMorseRepresentations(vector<string>& words) {
@@ -19,4 +19,4 @@ private:
         "-","..-","...-",".--","-..-","-.--","--.."
     };
 };
-```
+// ```

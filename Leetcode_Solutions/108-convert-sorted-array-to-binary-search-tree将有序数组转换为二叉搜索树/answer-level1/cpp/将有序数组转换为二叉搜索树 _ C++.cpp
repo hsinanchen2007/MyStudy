@@ -1,8 +1,8 @@
-**分析：**
-题目思路源于官方题解，每次选取右方元素作为节点。
+// **分析：**
+// 题目思路源于官方题解，每次选取右方元素作为节点。
 
-**代码：**
-```
+// **代码：**
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ public:
         return helper(nums, 0, nums.size() - 1);
     }
 };
-```
+// ```

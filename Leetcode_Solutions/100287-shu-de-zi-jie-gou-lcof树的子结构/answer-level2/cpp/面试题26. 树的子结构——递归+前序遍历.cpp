@@ -1,6 +1,6 @@
-主函数递归：判断是否调用子结构判断函数
-子函数递归：前序遍历判断b是否为a的子结构
-```
+// 主函数递归：判断是否调用子结构判断函数
+// 子函数递归：前序遍历判断b是否为a的子结构
+// ```
 class Solution
 {
 	bool Dfs(TreeNode* a, TreeNode* b) {
@@ -23,4 +23,4 @@ public:
 		return isSubStructure(a->left, b) || isSubStructure(a->right, b);
 	}
 };
-```
+// ```

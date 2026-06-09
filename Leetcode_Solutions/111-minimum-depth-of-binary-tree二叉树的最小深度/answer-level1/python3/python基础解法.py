@@ -1,11 +1,11 @@
-### 解题思路
-1. BFS，广度优先搜索的时候顺便存储depth，通过判断只要有一个node没有子节点，就直接输出depth
-2. DFS，深度优先搜索的时候存储depth，但是需要注意，随时替换最小的depth
-3. 递归其实也是利用的dfs的思想
+# ### 解题思路
+# 1. BFS，广度优先搜索的时候顺便存储depth，通过判断只要有一个node没有子节点，就直接输出depth
+# 2. DFS，深度优先搜索的时候存储depth，但是需要注意，随时替换最小的depth
+# 3. 递归其实也是利用的dfs的思想
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -57,4 +57,4 @@ class Solution:
         return min_depth+1
 
 
-```
+# ```

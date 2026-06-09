@@ -1,4 +1,4 @@
-定义两个变量f1、f2来保存f(n - 1) 和 f(n -2)的值。
+// 定义两个变量f1、f2来保存f(n - 1) 和 f(n -2)的值。
 
 class Solution {
     public int fib(int n) {

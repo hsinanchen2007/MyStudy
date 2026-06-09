@@ -1,9 +1,9 @@
-### 解题思路
-两两合并
+// ### 解题思路
+// 两两合并
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -54,4 +54,4 @@ func mergeTwoList(l1, l2 *ListNode) *ListNode {
 	}
 	return h.Next
 }
-```
+// ```

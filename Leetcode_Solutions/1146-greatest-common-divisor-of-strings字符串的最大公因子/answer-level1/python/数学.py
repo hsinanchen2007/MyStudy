@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         
@@ -13,4 +13,4 @@ class Solution:
         return ''
 
 
-```
+# ```

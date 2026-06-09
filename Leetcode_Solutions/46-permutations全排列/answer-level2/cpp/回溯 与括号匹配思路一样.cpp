@@ -1,8 +1,8 @@
-### 解题思路
-主要是不要忘了curVec.pop_back()，即回溯后要复原
-### 代码
+// ### 解题思路
+// 主要是不要忘了curVec.pop_back()，即回溯后要复原
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void dfs(vector<vector<int>>& result,vector<int>& curVec,vector<int>& num)
@@ -41,4 +41,4 @@ public:
         return result;
     }
 };
-```
+// ```

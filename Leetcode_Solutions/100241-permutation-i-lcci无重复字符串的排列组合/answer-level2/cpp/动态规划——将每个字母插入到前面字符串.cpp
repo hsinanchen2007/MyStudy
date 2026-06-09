@@ -1,9 +1,9 @@
-将每个字母插入到前面字符串所有可能的情况：
-例如："qwe"
-第一轮：q
-第二轮：将w插入q,有两种情况：wq, qw
-第三轮：将e插入wq, qw中去 即：ewq,weq,wqe;eqw,qew,qwe六种情况
-```
+// 将每个字母插入到前面字符串所有可能的情况：
+// 例如："qwe"
+// 第一轮：q
+// 第二轮：将w插入q,有两种情况：wq, qw
+// 第三轮：将e插入wq, qw中去 即：ewq,weq,wqe;eqw,qew,qwe六种情况
+// ```
 class Solution {
 public:
     vector<string> permutation(string S) {
@@ -29,5 +29,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/4db8417cee5f0148a47bfbc5a69bdf9949a0c6e53b5dc9695a727dd12c77a47d-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/4db8417cee5f0148a47bfbc5a69bdf9949a0c6e53b5dc9695a727dd12c77a47d-image.png)

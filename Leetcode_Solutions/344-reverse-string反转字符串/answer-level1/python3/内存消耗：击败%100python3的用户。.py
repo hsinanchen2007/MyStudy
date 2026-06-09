@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-执行用时 : 48 ms , 在所有 Python3 提交中击败了 87.30% 的用户 
-内存消耗 : 14.7 MB , 在所有 Python3 提交中击败了 100.00% 的用户
-### 代码
+# 执行用时 : 48 ms , 在所有 Python3 提交中击败了 87.30% 的用户 
+# 内存消耗 : 14.7 MB , 在所有 Python3 提交中击败了 100.00% 的用户
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -17,4 +17,4 @@ class Solution:
             i+=1
             j-=1
             
-```
+# ```

@@ -1,16 +1,16 @@
-[225.用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)
+// [225.用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
-# 方法一
+// # 方法一
 
-常规做法：利用两个队q1和q2，入栈时都从q1入栈，出栈时把q1中的元素保留最后一位，其余元素全部移入q2，在调换q1和q2。
+// 常规做法：利用两个队q1和q2，入栈时都从q1入栈，出栈时把q1中的元素保留最后一位，其余元素全部移入q2，在调换q1和q2。
 
-**push时间复杂度**：`O(1)` 
+// **push时间复杂度**：`O(1)` 
 
-**pop事件复杂度**：`O(n)`
+// **pop事件复杂度**：`O(n)`
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -67,17 +67,17 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```
 
-# 方法二
+// # 方法二
 
-push进q2，然后把所有q1元素移入q2，在把所有元素移入q1，来调换顺序。
+// push进q2，然后把所有q1元素移入q2，在把所有元素移入q1，来调换顺序。
 
-**push时间复杂度**：`O(n)` 
+// **push时间复杂度**：`O(n)` 
 
-**pop事件复杂度**：`O(1)`
+// **pop事件复杂度**：`O(1)`
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -137,17 +137,17 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```
 
-# 方法三
+// # 方法三
 
-**push时间复杂度**：`O(n)` 
+// **push时间复杂度**：`O(n)` 
 
-**pop事件复杂度**：`O(1)`
+// **pop事件复杂度**：`O(1)`
 
-直接看代码，简单易懂。
+// 直接看代码，简单易懂。
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -200,4 +200,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

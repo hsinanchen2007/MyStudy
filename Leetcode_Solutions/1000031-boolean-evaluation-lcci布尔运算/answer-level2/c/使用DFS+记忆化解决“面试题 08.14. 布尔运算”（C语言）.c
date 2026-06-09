@@ -1,18 +1,18 @@
-### 解题思路
-本题的基本算法思路是DFS，并采用记忆化剪枝。
+// ### 解题思路
+// 本题的基本算法思路是DFS，并采用记忆化剪枝。
 
-1.首先将字符串分成若干个（布尔运算符个数）个左右子串
+// 1.首先将字符串分成若干个（布尔运算符个数）个左右子串
 
-2.分别求解左右子问题的0和1的解的个数
+// 2.分别求解左右子问题的0和1的解的个数
 
-3.利用左右子问题的解，合成主问题的解
+// 3.利用左右子问题的解，合成主问题的解
 
-![image.png](https://pic.leetcode-cn.com/a05063bff5027a8bd431beabb8a9efde261f97e6229acc955f5ebd36d236e453-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a05063bff5027a8bd431beabb8a9efde261f97e6229acc955f5ebd36d236e453-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MEMO_SIZE   50
 
 typedef struct _info_st
@@ -112,4 +112,4 @@ int countEval(char* s, int result){
 
     return (result == 1)? ret->ocnt : ret->zcnt;
 }
-```
+// ```

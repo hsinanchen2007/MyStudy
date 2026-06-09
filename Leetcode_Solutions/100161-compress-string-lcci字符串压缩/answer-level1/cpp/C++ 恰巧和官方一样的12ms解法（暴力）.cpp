@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     string compressString(string S) {
@@ -20,4 +20,4 @@ public:
         return ans.size() < S.size() ? ans : S;
     }
 };
-```
+// ```

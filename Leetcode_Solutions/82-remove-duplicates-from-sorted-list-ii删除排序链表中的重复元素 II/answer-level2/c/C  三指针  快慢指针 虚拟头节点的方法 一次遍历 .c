@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* deleteDuplicates(struct ListNode* head)
 {
     if( !head )
@@ -43,4 +43,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head)
     }
     return head->next;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-斐波那契数列
+// ### 解题思路
+// 斐波那契数列
 
-![image.png](https://pic.leetcode-cn.com/9a4c277fb73ca019a1d6cc04efb9a5eea2b28025b389bd999a5704302f320210-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9a4c277fb73ca019a1d6cc04efb9a5eea2b28025b389bd999a5704302f320210-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) {
@@ -22,4 +22,4 @@ public:
         return b;
     }
 };
-```
+// ```

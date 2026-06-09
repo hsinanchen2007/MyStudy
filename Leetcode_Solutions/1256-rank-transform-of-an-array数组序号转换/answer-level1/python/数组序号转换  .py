@@ -1,8 +1,8 @@
-### 解题思路
-去重、排序、哈希表记录序号，用到zip()
-### 代码
+# ### 解题思路
+# 去重、排序、哈希表记录序号，用到zip()
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def arrayRankTransform(self, arr):
         arr_copy = set(arr)
@@ -11,4 +11,4 @@ class Solution(object):
         for i,c in enumerate(arr):
             arr[i] = dic[c]
         return arr
-```
+# ```

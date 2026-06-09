@@ -1,9 +1,9 @@
-### 解题思路
-xy面只需要值大于0则面积加1，其他两个面则分别求每行最大值的累加值和每列最大值的累加值即可，可以通过两次遍历得到.
+// ### 解题思路
+// xy面只需要值大于0则面积加1，其他两个面则分别求每行最大值的累加值和每列最大值的累加值即可，可以通过两次遍历得到.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int projectionArea(int[][] grid) {
         int len = grid.length;
@@ -32,4 +32,4 @@ class Solution {
         return a + b + c;
     }
 }
-```
+// ```

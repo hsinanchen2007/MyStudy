@@ -1,5 +1,5 @@
-和二叉树值搜索一样思路
-```
+// 和二叉树值搜索一样思路
+// ```
 class Solution {
 public:
     int closestValue(TreeNode* root, double target) {
@@ -20,5 +20,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

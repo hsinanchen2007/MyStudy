@@ -1,9 +1,9 @@
-### 解题思路
-就用一个列表存起来，然后反向输出
+# ### 解题思路
+# 就用一个列表存起来，然后反向输出
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -17,4 +17,4 @@ class Solution:
             stack.append(head.val)
             head=head.next
         return stack[::-1]
-```
+# ```

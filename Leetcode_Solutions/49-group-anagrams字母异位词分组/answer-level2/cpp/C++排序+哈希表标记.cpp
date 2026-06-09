@@ -1,9 +1,9 @@
-### 解题思路
-本题最重要的是要识别出两个字符串是否相等，我使用的是排序+哈希表标记位置
+// ### 解题思路
+// 本题最重要的是要识别出两个字符串是否相等，我使用的是排序+哈希表标记位置
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
@@ -24,4 +24,4 @@ public:
         return res;
     }
 };
-```
+// ```

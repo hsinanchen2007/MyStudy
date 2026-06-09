@@ -1,12 +1,12 @@
-### 解题思路
-1、用strtok将字符串根据空格进行分割，结果存入temp中，同时记录单词个数rows（结果的最长单词长度）和最长单词长度cols（结果的单词个数）
-2、根据rows循环对temp中的单词末尾填充空格，保证每个单次的长度均为cols
-3、双层for循环将temp旋转读取到ret中
-4、对ret中的元素循环遍历，去除末尾的空格
+// ### 解题思路
+// 1、用strtok将字符串根据空格进行分割，结果存入temp中，同时记录单词个数rows（结果的最长单词长度）和最长单词长度cols（结果的单词个数）
+// 2、根据rows循环对temp中的单词末尾填充空格，保证每个单次的长度均为cols
+// 3、双层for循环将temp旋转读取到ret中
+// 4、对ret中的元素循环遍历，去除末尾的空格
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -58,4 +58,4 @@ char ** printVertically(char * s, int* returnSize){
 
 
 }
-```
+// ```

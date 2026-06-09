@@ -1,6 +1,6 @@
- 越界时表示比较到最短的字符串后面，比较应该就结束了，可用越界的异常来判断是否结束。
+//  越界时表示比较到最短的字符串后面，比较应该就结束了，可用越界的异常来判断是否结束。
 
-```
+// ```
 public static String longestCommonPrefix(String[] strs) {
 		if(strs.length==0)
 			return new String("");
@@ -26,8 +26,8 @@ public static String longestCommonPrefix(String[] strs) {
 		  
         
 }
-```
+// ```
 
 
 
-不知道这么写有什么坏处，还请大神指导 ，嘿嘿
+// 不知道这么写有什么坏处，还请大神指导 ，嘿嘿

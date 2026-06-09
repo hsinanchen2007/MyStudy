@@ -1,6 +1,6 @@
-双指针法
+// 双指针法
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOfArithmeticSlices(vector<int>& A) {
@@ -19,4 +19,4 @@ public:
 	return count;
     }
 };
-```
+// ```

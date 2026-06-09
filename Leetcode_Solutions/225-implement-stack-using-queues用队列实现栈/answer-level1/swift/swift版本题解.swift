@@ -1,10 +1,10 @@
-### 解题思路
-这位仁兄写得很好了：
-https://www.jianshu.com/p/880272af8dc0
+// ### 解题思路
+// 这位仁兄写得很好了：
+// https://www.jianshu.com/p/880272af8dc0
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class MyStack {
     var stack = [Int]()
     /** Initialize your data structure here. */
@@ -45,4 +45,4 @@ class MyStack {
  * let ret_3: Int = obj.top()
  * let ret_4: Bool = obj.empty()
  */
-```
+// ```

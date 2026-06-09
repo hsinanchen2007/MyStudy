@@ -1,10 +1,10 @@
-### 解题思路
-暴力解题，遍历数组，找到最大的max_area,计算公式：
-max_area=max(min(y)*x)
+// ### 解题思路
+// 暴力解题，遍历数组，找到最大的max_area,计算公式：
+// max_area=max(min(y)*x)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -25,4 +25,4 @@ public:
     }
     
 };
-```
+// ```

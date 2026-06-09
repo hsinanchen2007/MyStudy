@@ -1,4 +1,4 @@
-```
+// ```
 void setZeroes(int** matrix, int matrixSize, int* matrixColSize){
   
   // create maps to record rows and cols need to be clear
@@ -40,4 +40,4 @@ void setZeroes(int** matrix, int matrixSize, int* matrixColSize){
   free(rowMap);
   free(colMap);
 }
-```
+// ```

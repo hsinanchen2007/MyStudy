@@ -1,5 +1,5 @@
-只想到了常规做法
-```c
+// 只想到了常规做法
+// ```c
 void reverse(char *s,int sta,int en){
     char temp;
     while(sta<en){
@@ -48,4 +48,4 @@ char * reverseWords(char * s){
 	}  
 	return s;
 }
-```
+// ```

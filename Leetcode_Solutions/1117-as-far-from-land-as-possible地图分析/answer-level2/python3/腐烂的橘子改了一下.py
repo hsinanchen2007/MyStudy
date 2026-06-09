@@ -1,4 +1,4 @@
-```
+# ```
 class Solution {
     class Pos {//定义结构
         int i, j, dis;
@@ -44,8 +44,8 @@ class Solution {
         return dis;
     }
 }
-```
-```
+# ```
+# ```
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         row = len(grid)
@@ -72,4 +72,4 @@ class Solution:
                 if k == 0:
                     return -1
         return dis
-```
+# ```

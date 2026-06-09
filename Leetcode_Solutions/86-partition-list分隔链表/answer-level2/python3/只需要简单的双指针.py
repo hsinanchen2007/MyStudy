@@ -1,9 +1,9 @@
-### 解题思路
-双指针，注意逻辑细节:只有大的，没有小的，反之。
+# ### 解题思路
+# 双指针，注意逻辑细节:只有大的，没有小的，反之。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -45,4 +45,4 @@ class Solution:
         return new_head
 
         # 1 2 2 4 3 5 
-```
+# ```

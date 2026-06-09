@@ -1,8 +1,8 @@
 
-一开始想到的是用哈希表来解决，字母和数字分别对应key和value存入哈希表，然后迭代哈希表，比较当前位置和下一位置的数字，决定当前数字是加还是减。
+// 一开始想到的是用哈希表来解决，字母和数字分别对应key和value存入哈希表，然后迭代哈希表，比较当前位置和下一位置的数字，决定当前数字是加还是减。
 
-耗时10ms，哭唧唧 (╥╯^╰╥)
-```
+// 耗时10ms，哭唧唧 (╥╯^╰╥)
+// ```
 public int romanToInt(String s) {
 	HashMap<Character, Integer> map = new HashMap<>() {//初始化哈希表
 		{
@@ -32,10 +32,10 @@ public int romanToInt(String s) {
 
 	return sum;
 }
-```
-然后，去掉哈希表，写一个可以返回对应值的函数，同样相邻位置做比
-耗时减少了，4ms   ＼( ^▽^ )／
-```
+// ```
+// 然后，去掉哈希表，写一个可以返回对应值的函数，同样相邻位置做比
+// 耗时减少了，4ms   ＼( ^▽^ )／
+// ```
 public int romanToInt(String s) {
 
 	int len = s.length();
@@ -75,4 +75,4 @@ public int valueOf(char c) {
 		return 0;
 	}
 }
-```
+// ```

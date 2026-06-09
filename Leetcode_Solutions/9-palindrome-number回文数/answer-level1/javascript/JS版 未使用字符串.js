@@ -1,5 +1,5 @@
 
-```js
+// ```js
 var isPalindrome = function(x) {
     // 特例判断
     if (x === 10 || x < 0) return false;
@@ -17,4 +17,4 @@ var isPalindrome = function(x) {
         if (tmp[i] !== tmp[len - 1 - i]) return false;
     return true;
 };
-```
+// ```

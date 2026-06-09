@@ -1,5 +1,5 @@
-维护一个有序min值的stack，弹出的时候检查是否是min的栈顶
-```
+// 维护一个有序min值的stack，弹出的时候检查是否是min的栈顶
+// ```
 type MinStack struct {
     data []int
     min []int
@@ -54,4 +54,4 @@ func (this *MinStack)is_empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.GetMin();
  */
-```
+// ```

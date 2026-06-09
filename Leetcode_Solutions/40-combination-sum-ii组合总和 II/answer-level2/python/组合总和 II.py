@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         result = []
@@ -22,4 +22,4 @@ class Solution:
         candidates = sorted(candidates)
         back(candidates,result,path,0)
         return result
-```
+# ```

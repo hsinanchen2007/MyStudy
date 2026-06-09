@@ -1,4 +1,4 @@
-```go
+// ```go
 import 	"strconv"
 
 const (
@@ -139,4 +139,4 @@ func strIntNumberCompare(a, b string) int {
 
 	return -1
 }
-```
+// ```

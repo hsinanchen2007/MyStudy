@@ -1,9 +1,9 @@
-### 解题思路
-字典存储，依次遍历。
+# ### 解题思路
+# 字典存储，依次遍历。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         dic={}
@@ -20,6 +20,6 @@ class Solution:
             else:
                 return False
         return not dic
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/737d4303ac47a1ba6a593355d326cd0f603aa7a23f6148052fdd3c7d8c4b69f3-image.png)
+# ![image.png](https://pic.leetcode-cn.com/737d4303ac47a1ba6a593355d326cd0f603aa7a23f6148052fdd3c7d8c4b69f3-image.png)

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def canConstruct(self, ransomNote, magazine):
         """
@@ -7,4 +7,4 @@ class Solution(object):
         :rtype: bool
         """
         return collections.Counter(magazine) & collections.Counter(ransomNote) == collections.Counter(ransomNote)
-```
+# ```

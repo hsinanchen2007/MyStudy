@@ -1,9 +1,9 @@
-### 解题思路
-先找出烂橘子位置和好橘子数量，然后广度优先搜索
+# ### 解题思路
+# 先找出烂橘子位置和好橘子数量，然后广度优先搜索
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         m = len(grid)
@@ -42,4 +42,4 @@ class Solution:
         return round_
 
 
-```
+# ```

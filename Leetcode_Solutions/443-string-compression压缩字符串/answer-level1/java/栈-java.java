@@ -1,4 +1,4 @@
-```java
+// ```java
 public int compress(char[] chars) {
     if (chars == null || chars.length == 0)
         return 0;
@@ -32,4 +32,4 @@ public int compress(char[] chars) {
     // top + 1 为总长度
     return top + 1;
 }
-```
+// ```

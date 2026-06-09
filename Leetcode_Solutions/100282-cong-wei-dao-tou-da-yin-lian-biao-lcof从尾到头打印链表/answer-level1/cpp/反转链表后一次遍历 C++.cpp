@@ -1,5 +1,5 @@
-先反转链表后，进行一次遍历
-```
+// 先反转链表后，进行一次遍历
+// ```
 class Solution {
 public:
     vector<int> reversePrint(ListNode* head) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

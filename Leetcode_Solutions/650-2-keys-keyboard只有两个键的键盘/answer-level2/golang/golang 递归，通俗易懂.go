@@ -1,11 +1,11 @@
-思路：
-递归模拟整个操作过程，每一次的操作总是分为两种情况：
-第一种情况，先copy,再paste
-第二种情况，直接paste
+// 思路：
+// 递归模拟整个操作过程，每一次的操作总是分为两种情况：
+// 第一种情况，先copy,再paste
+// 第二种情况，直接paste
 
-总结：递归易于理解，但是性能不是很好！
+// 总结：递归易于理解，但是性能不是很好！
 
-```
+// ```
 func minSteps(n int) int {
     // 记录最终的最小值，初始设置为最大的整数
     min := int(^(uint(1)<<63))
@@ -38,4 +38,4 @@ func handle(cur int, op int, cp int, n int, min *int) {
          handle(cur+cp,op+1,cp,n,min)
     }
 }
-```
+// ```

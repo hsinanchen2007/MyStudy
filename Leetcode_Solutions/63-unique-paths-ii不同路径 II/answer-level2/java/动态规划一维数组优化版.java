@@ -1,9 +1,9 @@
-### 解题思路
-凡是这种二维数组的都可以用一维数组来优化：
+// ### 解题思路
+// 凡是这种二维数组的都可以用一维数组来优化：
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m=obstacleGrid.length;
@@ -25,4 +25,4 @@ class Solution {
         return dp[n-1];
     }
 }
-```
+// ```

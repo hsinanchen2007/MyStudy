@@ -1,9 +1,9 @@
-### 解题思路
-一个for循环搞定，从第一个元素开始，查找下一个是否相同，相同则继续， 不同则输出。
+// ### 解题思路
+// 一个for循环搞定，从第一个元素开始，查找下一个是否相同，相同则继续， 不同则输出。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func compressString(S string) string {
 
@@ -33,4 +33,4 @@ func compressString(S string) string {
 	}
 	return S
 }
-```
+// ```

@@ -1,9 +1,9 @@
-## 思路：双指针
-同 [【剑指Offer】面试题05.替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/solution/mian-shi-ti-05-ti-huan-kong-ge-shuang-zhi-zhen-by-/)
+// ## 思路：双指针
+// 同 [【剑指Offer】面试题05.替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/solution/mian-shi-ti-05-ti-huan-kong-ge-shuang-zhi-zhen-by-/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string replaceSpaces(string S, int length) {
@@ -26,4 +26,4 @@ public:
         return S;
     }
 };
-```
+// ```

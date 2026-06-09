@@ -1,9 +1,9 @@
 
-根据自己的思路简单拆分了一下，增加可读性
-一个是数组存储器，另一个是环形指针组
+// 根据自己的思路简单拆分了一下，增加可读性
+// 一个是数组存储器，另一个是环形指针组
 
 
-```java
+// ```java
 package com.aizain.jhome.computer.data.queue.demo;
 
 import lombok.extern.slf4j.Slf4j;
@@ -209,4 +209,4 @@ class SimpleCircularQueue {
                 '}';
     }
 }
-```
+// ```

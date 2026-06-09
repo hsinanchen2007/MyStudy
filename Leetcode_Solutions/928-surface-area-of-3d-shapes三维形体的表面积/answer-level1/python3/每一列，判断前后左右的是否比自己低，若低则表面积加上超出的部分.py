@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-当心“堰塞湖”，中间凹下去的部分也是需要算表面积的。
-1.每一个点分别判断其6个面是否被遮挡
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 当心“堰塞湖”，中间凹下去的部分也是需要算表面积的。
+# 1.每一个点分别判断其6个面是否被遮挡
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         len1 = len(grid)
@@ -32,4 +32,4 @@ class Solution:
 
 
         return s
-```
+# ```

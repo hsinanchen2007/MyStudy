@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         n,ans,left= len(s),0,-1
@@ -14,4 +14,4 @@ class Solution:
         return ans
 
 
-```
+# ```

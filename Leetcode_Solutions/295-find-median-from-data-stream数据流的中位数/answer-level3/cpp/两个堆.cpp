@@ -1,9 +1,9 @@
-### 解题思路
-动态维护一个最大堆和一个最小堆，最大堆存储一半数据，最小堆存储一般数据，维持最大堆的堆顶比最小堆的堆顶小即可。
+// ### 解题思路
+// 动态维护一个最大堆和一个最小堆，最大堆存储一半数据，最小堆存储一般数据，维持最大堆的堆顶比最小堆的堆顶小即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MedianFinder {
 private:
     priority_queue<int> Max_heap;
@@ -78,4 +78,4 @@ public:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     Node* flatten(Node* head) {
@@ -19,4 +19,4 @@ public:
         return head;
     }
 };
-```
+// ```

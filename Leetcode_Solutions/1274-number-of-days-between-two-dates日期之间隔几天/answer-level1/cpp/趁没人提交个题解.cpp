@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/baa9f88e9cb870758ce5c0d782386f223a8b404cf97a24de738d4edaa1b03282-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/baa9f88e9cb870758ce5c0d782386f223a8b404cf97a24de738d4edaa1b03282-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int getDays(string date)
@@ -91,4 +91,4 @@ public:
         return result;
     }
 };
-```
+// ```

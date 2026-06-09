@@ -1,9 +1,9 @@
-### 解题思路
-通过找规律所得出的答案
+// ### 解题思路
+// 通过找规律所得出的答案
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int n) {
@@ -70,4 +70,4 @@ public:
         return str;
     }
 };
-```
+// ```

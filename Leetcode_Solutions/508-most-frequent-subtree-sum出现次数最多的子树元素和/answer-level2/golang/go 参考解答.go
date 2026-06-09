@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-1. dfs拿到所有节点和的数组sumList
-2. 给sumList排个序
-3. 使用currentCount, maxCount + 双指针找次数最多的
+// 1. dfs拿到所有节点和的数组sumList
+// 2. 给sumList排个序
+// 3. 使用currentCount, maxCount + 双指针找次数最多的
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 package problem0508
 
 import (
@@ -54,4 +54,4 @@ func findFrequentTreeSum(root *TreeNode) []int {
 	}
 	return result
 }
-```
+// ```

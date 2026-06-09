@@ -1,9 +1,9 @@
-### 解题思路
-substring、concat产生新的对象
+// ### 解题思路
+// substring、concat产生新的对象
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static String reverseLeftWords(String s, int n) {
         String newstr = s.substring(0,n);
@@ -11,4 +11,4 @@ class Solution {
         return s.concat(newstr);
     }
 }
-```
+// ```

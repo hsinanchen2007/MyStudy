@@ -1,7 +1,7 @@
 
 
 
-```swift []
+// ```swift []
     // 递归法：
     func isBalanced(_ root: TreeNode?) -> Bool {
         
@@ -61,4 +61,4 @@
         return sum + max(leftHeight, rightHeight)
     }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```sql
+-- ```sql
 select
     c.country_name,
     case when avg(w.weather_state) <= 15 then 'Cold' 
@@ -8,4 +8,4 @@ select
 from countries c join weather w on c.country_id = w.country_id
 where w.day between '2019-11-01' and '2019-11-30'
 group by c.country_id
-```
+-- ```

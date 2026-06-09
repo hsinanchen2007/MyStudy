@@ -1,9 +1,9 @@
-看到官方题解用线段树优化，只有c++版本，其他评论也没有java线段树，就用java誊写了一遍。
-试了一下效果拔群。上面是用线段树，下面时间是没用线段树（每次循环找最小值）的。
-![image.png](https://pic.leetcode-cn.com/8207c4067278db353786df8644e5c02c2b3923b6eaa887ac204e251dbddb05c1-image.png)
+// 看到官方题解用线段树优化，只有c++版本，其他评论也没有java线段树，就用java誊写了一遍。
+// 试了一下效果拔群。上面是用线段树，下面时间是没用线段树（每次循环找最小值）的。
+// ![image.png](https://pic.leetcode-cn.com/8207c4067278db353786df8644e5c02c2b3923b6eaa887ac204e251dbddb05c1-image.png)
 
-这是官方发的c++版的线段树[https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28941/segment-tree-solution-just-another-idea-onlogn-solution]()
-```
+// 这是官方发的c++版的线段树[https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28941/segment-tree-solution-just-another-idea-onlogn-solution]()
+// ```
 class SegTreeNode {
     int start;
     int end;
@@ -54,4 +54,4 @@ class Solution {
         return heights[leftMin] < heights[rightMin] ? leftMin : rightMin;
     }
 }
-```
+// ```

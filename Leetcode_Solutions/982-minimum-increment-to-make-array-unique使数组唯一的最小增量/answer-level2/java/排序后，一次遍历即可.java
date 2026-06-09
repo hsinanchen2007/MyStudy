@@ -1,11 +1,11 @@
-### 解题思路
-因为move只能做增1操作，所以对数组排序后如果出现重复元素是对相邻重复元素的后者进行move操作，并且move操作后不能比后面的元素大否则后面的元素仍然需要做move操作。
+// ### 解题思路
+// 因为move只能做增1操作，所以对数组排序后如果出现重复元素是对相邻重复元素的后者进行move操作，并且move操作后不能比后面的元素大否则后面的元素仍然需要做move操作。
 
-在做move操作时可以记录一个步长，而不是每次+1，这样可以减少计算量。
+// 在做move操作时可以记录一个步长，而不是每次+1，这样可以减少计算量。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int count=0;
     public int minIncrementForUnique(int[] A) {
@@ -26,4 +26,4 @@ class Solution {
         return this.count;
     }
 }
-```
+// ```

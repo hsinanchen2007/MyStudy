@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
             root.right = ds(preorder,length+st+1,en,ind+1,en1,di)
             return root
         return ds(preorder,0,len(preorder)-1,0,len(preorder)-1,di)
-```
+# ```

@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-1 ms
-, 在所有 Java 提交中击败了
-99.66%
-的用户
-内存消耗 :
-38.9 MB
-, 在所有 Java 提交中击败了
-30.21%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 1 ms
+// , 在所有 Java 提交中击败了
+// 99.66%
+// 的用户
+// 内存消耗 :
+// 38.9 MB
+// , 在所有 Java 提交中击败了
+// 30.21%
+// 的用户
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -60,4 +60,4 @@ class Solution {
         return get(root.left,root,p)&&get(root.right,root,p);
     }
 }
-```
+// ```

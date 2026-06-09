@@ -1,10 +1,10 @@
-### 解题思路
-用一个主栈和辅助栈
-保证辅助栈栈顶是最小元素
-因此返回辅助栈栈顶即可
-### 代码
+// ### 解题思路
+// 用一个主栈和辅助栈
+// 保证辅助栈栈顶是最小元素
+// 因此返回辅助栈栈顶即可
+// ### 代码
 
-```java
+// ```java
 class MinStack {
     private Stack<Integer> s1;
     private Stack<Integer> s2;
@@ -49,8 +49,8 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.min();
  */
-```
-```
+// ```
+// ```
 # python
 class MinStack(object):
 
@@ -100,4 +100,4 @@ class MinStack(object):
         """
         return self.min_stack[-1]
 
-```
+// ```

@@ -1,5 +1,5 @@
-思路很简单，注意大小写转换即可————建立String temp，为全小写值进行比较，放入原值进入result数组
-```
+// 思路很简单，注意大小写转换即可————建立String temp，为全小写值进行比较，放入原值进入result数组
+// ```
 class Solution {
     public String[] findWords(String[] words) {
         
@@ -63,6 +63,6 @@ class Solution {
         
     }
 }
-```
+// ```
 
 

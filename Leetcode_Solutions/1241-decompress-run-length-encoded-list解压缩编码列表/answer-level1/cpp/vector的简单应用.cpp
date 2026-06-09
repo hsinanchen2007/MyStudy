@@ -1,9 +1,9 @@
-### 解题思路
-vector的简单应用，没有什么可说的，直接看代码。
+// ### 解题思路
+// vector的简单应用，没有什么可说的，直接看代码。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> decompressRLElist(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
         return res;
     }
 };
-```
+// ```

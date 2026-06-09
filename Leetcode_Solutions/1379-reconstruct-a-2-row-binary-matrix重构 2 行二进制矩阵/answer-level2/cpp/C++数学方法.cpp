@@ -1,11 +1,11 @@
-# **思路**
-1、遍历一遍colsum，记one为colsum中为1的个数，two为colsum中为2的个数；
-2、upper-two即为第一行中需要增加的1，lower-two为 第二行中需要增加的1；
-3、如果two>upper || two>lower || one+two*2!=upper+lower返回空；
-4、使用一个unordered_set记录colsum为1的位置，在第一行中填前upper-two个，剩下的填到第二行；
+// # **思路**
+// 1、遍历一遍colsum，记one为colsum中为1的个数，two为colsum中为2的个数；
+// 2、upper-two即为第一行中需要增加的1，lower-two为 第二行中需要增加的1；
+// 3、如果two>upper || two>lower || one+two*2!=upper+lower返回空；
+// 4、使用一个unordered_set记录colsum为1的位置，在第一行中填前upper-two个，剩下的填到第二行；
 
-# **代码**
-```
+// # **代码**
+// ```
 class Solution {
 public:
     vector<vector<int>> reconstructMatrix(int upper, int lower, vector<int>& colsum) {
@@ -37,4 +37,4 @@ public:
         return res;
     }
 };
-```
+// ```

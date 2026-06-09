@@ -1,9 +1,9 @@
-### 解题思路
-使用Mathlog10()方法得到位数要比num/10要快
+// ### 解题思路
+// 使用Mathlog10()方法得到位数要比num/10要快
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findNumbers(int[] nums) {
         int result = 0;
@@ -31,4 +31,4 @@ class Solution {
         }
     }
 }
-```
+// ```

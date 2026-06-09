@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-- quque1 队头表示栈顶，queue1中元素始终是入队元素的倒序
-- queue2 用来缓冲，始终为空
-- 当插入元素时候，先插入 q2 ，再利用队列的特性将 q1 出队到 q2 ，最后 q2 就表示了元素出栈的顺序，交换 q1 和 q2 即可
+// - quque1 队头表示栈顶，queue1中元素始终是入队元素的倒序
+// - queue2 用来缓冲，始终为空
+// - 当插入元素时候，先插入 q2 ，再利用队列的特性将 q1 出队到 q2 ，最后 q2 就表示了元素出栈的顺序，交换 q1 和 q2 即可
 
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     queue1 []int
     queue2 []int
@@ -65,4 +65,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/4d7f13ad7b4886f489c36b1a30241d1f8434ca5f01e599c4f9e4922d36b275eb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4d7f13ad7b4886f489c36b1a30241d1f8434ca5f01e599c4f9e4922d36b275eb-image.png)
 
-```
+// ```
 class Solution {
 public:
     int largestPerimeter(vector<int>& A) {
@@ -14,4 +14,4 @@ public:
         return 0;
     }
 };
-```
+// ```

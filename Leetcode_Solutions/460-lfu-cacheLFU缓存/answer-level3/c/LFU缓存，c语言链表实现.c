@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 /*
     注意：
@@ -183,4 +183,4 @@ void lFUCacheFree(LFUCache* cache) {
  
  * lFUCacheFree(obj);
 */
-```
+// ```

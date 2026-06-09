@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/25f37609e408750c547a7d8cb456ac9ecef7e1b53aa029b753ad525c06e1dc84-image.png)
+// ![image.png](https://pic.leetcode-cn.com/25f37609e408750c547a7d8cb456ac9ecef7e1b53aa029b753ad525c06e1dc84-image.png)
 
 
-```
+// ```
 const int MAX_BITSISE_OF_NUM = 20;
 
 class Solution {
@@ -16,4 +16,4 @@ public:
         return true;
     }
 };
-```
+// ```

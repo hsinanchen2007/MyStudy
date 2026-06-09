@@ -1,21 +1,21 @@
-**思路** 逐层递归写法
+// **思路** 逐层递归写法
 
-对于某个递归函数，返回当前函数的unordered_set结果，以及一个int坐标，如果有}则表示右大括号的下一个坐标，否则一定是expression.size()，即超出范围
+// 对于某个递归函数，返回当前函数的unordered_set结果，以及一个int坐标，如果有}则表示右大括号的下一个坐标，否则一定是expression.size()，即超出范围
 
-此函数定义 unordered_set<string> res;表示此函数的结果，unordered_set<string> preset;表示当前的字符串集合
+// 此函数定义 unordered_set<string> res;表示此函数的结果，unordered_set<string> preset;表示当前的字符串集合
 
-函数内首先循环读取字符
- **如果读取到逗号**，那么把preset加到res上，当前坐标+1；
- **如果读取到{**，那么递归下一层，把他的返回set乘到preset上，更新当前坐标至对应的右大括号的下一个坐标/或者字符串末尾；
- **如果读取到**}**，那么把preset加到res上，返回unordered_set：res以及int：当前坐标+1；
- **否则（即字母）**，直接突进读取连续字母，然后把这个字符串乘到preset上，当前坐标=连续字母末尾 
+// 函数内首先循环读取字符
+//  **如果读取到逗号**，那么把preset加到res上，当前坐标+1；
+//  **如果读取到{**，那么递归下一层，把他的返回set乘到preset上，更新当前坐标至对应的右大括号的下一个坐标/或者字符串末尾；
+//  **如果读取到**}**，那么把preset加到res上，返回unordered_set：res以及int：当前坐标+1；
+//  **否则（即字母）**，直接突进读取连续字母，然后把这个字符串乘到preset上，当前坐标=连续字母末尾 
 
-循环结束表示坐标到expression末尾了，那么把preset加到res上，返回unordered_set：res以及int：当前坐标（即expression末尾）
+// 循环结束表示坐标到expression末尾了，那么把preset加到res上，返回unordered_set：res以及int：当前坐标（即expression末尾）
 
-最后入口函数调用这个递归函数，将返回值unordered_set转换成vector然后排个序
+// 最后入口函数调用这个递归函数，将返回值unordered_set转换成vector然后排个序
 
-**代码**
-```
+// **代码**
+// ```
 class Solution {
 private:
 	//add source to raw
@@ -92,5 +92,5 @@ public:
 		return returnres;
 	}
 };
-```
+// ```
 

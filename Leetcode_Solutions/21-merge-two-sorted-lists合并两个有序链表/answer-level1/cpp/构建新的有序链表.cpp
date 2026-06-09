@@ -1,8 +1,8 @@
-### 解题思路链表里面只能通过->next来遍历，通过迭代的方式来做
+// ### 解题思路链表里面只能通过->next来遍历，通过迭代的方式来做
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -50,4 +50,4 @@ public:
         return res->next;
     }
 };
-```
+// ```

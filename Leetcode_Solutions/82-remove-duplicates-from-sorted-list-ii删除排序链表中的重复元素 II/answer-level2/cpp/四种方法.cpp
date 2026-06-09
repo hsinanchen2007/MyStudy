@@ -1,5 +1,5 @@
-方法一 找到所有相同数后再将出现相同数的前一个数连接到相同数后第一个不同的数
-```
+// 方法一 找到所有相同数后再将出现相同数的前一个数连接到相同数后第一个不同的数
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -24,9 +24,9 @@ public:
         return dummy->next;
     }
 };
-```
-方法二 找到一次连接一次 eg 1->2->3->3->3->4->5, 当找到相同数时，循环一次后1->2->3->3->4->5
-```
+// ```
+// 方法二 找到一次连接一次 eg 1->2->3->3->3->4->5, 当找到相同数时，循环一次后1->2->3->3->4->5
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -48,9 +48,9 @@ public:
         return dummy->next;
     }
 };
-```
-方法三 快慢指针
-```
+// ```
+// 方法三 快慢指针
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -67,9 +67,9 @@ public:
         return dummy->next;
     }
 };
-```
-方法四 递归
-```
+// ```
+// 方法四 递归
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -82,7 +82,7 @@ public:
         return head;   
     }
 };
-```
+// ```
 
 
 

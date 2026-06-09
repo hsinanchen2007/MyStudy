@@ -1,9 +1,9 @@
-### 解题思路
-思路：构造一个map，遍历三个数组，看map里面的值哪个是3，就是谁
+// ### 解题思路
+// 思路：构造一个map，遍历三个数组，看map里面的值哪个是3，就是谁
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func arraysIntersection(arr1 []int, arr2 []int, arr3 []int) []int {
 	// 保存映射关系：
 	// key   : arr里的每个数字
@@ -32,4 +32,4 @@ func arraysIntersection(arr1 []int, arr2 []int, arr3 []int) []int {
 	return res
 }
 
-```
+// ```

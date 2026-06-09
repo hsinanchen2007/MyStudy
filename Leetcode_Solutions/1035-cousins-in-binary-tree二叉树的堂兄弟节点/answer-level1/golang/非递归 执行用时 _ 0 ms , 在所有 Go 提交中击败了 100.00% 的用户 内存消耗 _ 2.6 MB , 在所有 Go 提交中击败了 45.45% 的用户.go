@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-很容易想到层次遍历，难点是想到索引占位和最后的是否父节点
+// 很容易想到层次遍历，难点是想到索引占位和最后的是否父节点
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -67,4 +67,4 @@ if root == nil || x == y {
 
 	return false
 }
-```
+// ```

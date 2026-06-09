@@ -1,4 +1,4 @@
-```
+// ```
 type Link = Option<Box<ListNode>>;
 
 impl Solution {
@@ -52,5 +52,5 @@ impl Solution {
         head.unwrap().next
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/e84f8a6cafc591777d35f191cc0dcbf77ddad3b7d22953dce389854bb48da3fe-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e84f8a6cafc591777d35f191cc0dcbf77ddad3b7d22953dce389854bb48da3fe-image.png)

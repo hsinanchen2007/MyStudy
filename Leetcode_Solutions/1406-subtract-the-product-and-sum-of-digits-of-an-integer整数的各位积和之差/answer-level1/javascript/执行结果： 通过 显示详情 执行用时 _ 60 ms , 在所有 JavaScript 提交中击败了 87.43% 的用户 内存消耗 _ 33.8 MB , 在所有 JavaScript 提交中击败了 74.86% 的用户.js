@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} n
  * @return {number}
@@ -9,4 +9,4 @@ var subtractProductAndSum = function (n) {
     let mul = arr.reduce((pre, cur) => pre * cur)
     return mul - add
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countSmaller(nums []int) []int {
     n := len(nums)
     
@@ -21,4 +21,4 @@ func countSmaller(nums []int) []int {
     
     return res
 }
-```
+// ```

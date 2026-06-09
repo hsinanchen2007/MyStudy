@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-动态规划就完事了
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 动态规划就完事了
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         
@@ -37,4 +37,4 @@ class Solution {
         return dp[dp.length-1][dp[0].length-1];
     }
 }
-```
+// ```

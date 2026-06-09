@@ -1,14 +1,14 @@
-### 解题思路
-排序 + 双指针
+// ### 解题思路
+// 排序 + 双指针
 
-两数之和 可能会整数溢出  可改为求差  
-如 [INT_MIN, 1, 2, INT_MAX] target = 1   
-INT_MIN + 2 + INT_MAX = 1 等于 target， 但 2 + INT_MAX溢出
+// 两数之和 可能会整数溢出  可改为求差  
+// 如 [INT_MIN, 1, 2, INT_MAX] target = 1   
+// INT_MIN + 2 + INT_MAX = 1 等于 target， 但 2 + INT_MAX溢出
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 int threeSumClosest(vector<int>& nums, int target) {
 
     if (nums.size() < 3)
@@ -78,4 +78,4 @@ int threeSumClosest(vector<int>& nums, int target) {
 
     return sum;
 }
-```
+// ```

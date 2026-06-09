@@ -1,14 +1,14 @@
-### 解题思路
-num_left = matrix[len - i][left];//zuo
-num_bottom = matrix[bottom][len-i];//xia
-num_right = matrix[i][right];//you
-num_top = matrix[top][i];//shang
-然后循环赋值，向内圈收缩
-最终得到结果
+// ### 解题思路
+// num_left = matrix[len - i][left];//zuo
+// num_bottom = matrix[bottom][len-i];//xia
+// num_right = matrix[i][right];//you
+// num_top = matrix[top][i];//shang
+// 然后循环赋值，向内圈收缩
+// 最终得到结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         int len = matrix.length-1;
@@ -31,4 +31,4 @@ class Solution {
         }
     }
 }
-```
+// ```

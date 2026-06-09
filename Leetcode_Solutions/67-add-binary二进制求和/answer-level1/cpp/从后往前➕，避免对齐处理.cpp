@@ -1,9 +1,9 @@
-### 解题思路
-从后往前➕，最后把结果 reverse 一下
+// ### 解题思路
+// 从后往前➕，最后把结果 reverse 一下
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -27,4 +27,4 @@ public:
         return res;
     }
 };
-```
+// ```

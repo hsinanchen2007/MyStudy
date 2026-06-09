@@ -1,9 +1,9 @@
-### 解题思路
-每次插入都要从根节点开始比较
+// ### 解题思路
+// 每次插入都要从根节点开始比较
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
             insert(node->right, val);
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-找到第k小的数，比如left与right分别的指向可计算中位数的位置
-程序采用尾递归的形式，递归出口有两个，一个是k=1，一个是len1 or len2等于0
-对k进行二分法
-### 代码
+// ### 解题思路
+// 找到第k小的数，比如left与right分别的指向可计算中位数的位置
+// 程序采用尾递归的形式，递归出口有两个，一个是k=1，一个是len1 or len2等于0
+// 对k进行二分法
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -41,4 +41,4 @@ public:
 		}
 	}
 };
-```
+// ```

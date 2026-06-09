@@ -1,6 +1,6 @@
-click here
+// click here
 
-```
+// ```
 char * reverseWords(char * s){
 
     int len = strlen(s);
@@ -48,4 +48,4 @@ char * reverseWords(char * s){
     return retBuf;
 }
 
-```
+// ```

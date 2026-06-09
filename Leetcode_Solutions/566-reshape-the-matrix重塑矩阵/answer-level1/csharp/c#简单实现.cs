@@ -1,9 +1,9 @@
-### 解题思路
-简单的实现思路
+// ### 解题思路
+// 简单的实现思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[][] MatrixReshape(int[][] nums, int r, int c) {
         int x=nums.Length;
@@ -39,4 +39,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

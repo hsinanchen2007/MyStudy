@@ -1,4 +1,4 @@
-```
+// ```
     public int minAddToMakeValid(String S) {
         int left = 0, res = 0;
         for(char ch : S.toCharArray()){
@@ -14,5 +14,5 @@
         }
         return res + left;
     }
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-最简单的办法就是从后往前遍历，遇到重复的就删除，因为正序遍历会在循环时改变原数组长度
+// ### 解题思路
+// 最简单的办法就是从后往前遍历，遇到重复的就删除，因为正序遍历会在循环时改变原数组长度
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -16,4 +16,4 @@ var removeDuplicates = function(nums) {
     }
     return nums.length;
 };
-```
+// ```

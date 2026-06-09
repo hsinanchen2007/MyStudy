@@ -1,9 +1,9 @@
-### 解题思路
-间项差等于之间临项差的和
+// ### 解题思路
+// 间项差等于之间临项差的和
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     if(pricesSize<2) return 0;
 int i=0;
@@ -14,4 +14,4 @@ int i=0;
     }
     return i;
 }
-```
+// ```

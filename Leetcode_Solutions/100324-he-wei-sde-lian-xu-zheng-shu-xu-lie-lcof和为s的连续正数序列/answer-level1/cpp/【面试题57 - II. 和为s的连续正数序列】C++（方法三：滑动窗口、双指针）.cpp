@@ -1,14 +1,14 @@
-### 解题思路
-主要操作：
-1. sum<target，扩大窗口，右边界右移（`j++; sum += j;`）
-2. sum>target，缩小窗口，左边界右移（`sum -= i; i--;`）
-3. sum==target，找到i开头的唯一答案，记录结果，左边界右移（`sum -= i; i--;`）
+// ### 解题思路
+// 主要操作：
+// 1. sum<target，扩大窗口，右边界右移（`j++; sum += j;`）
+// 2. sum>target，缩小窗口，左边界右移（`sum -= i; i--;`）
+// 3. sum==target，找到i开头的唯一答案，记录结果，左边界右移（`sum -= i; i--;`）
 
-![image.png](https://pic.leetcode-cn.com/163198a7dd3eb7e751a708545fb90224f9125e211c046a16c3cd285d4797d858-image.png)
+// ![image.png](https://pic.leetcode-cn.com/163198a7dd3eb7e751a708545fb90224f9125e211c046a16c3cd285d4797d858-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     //滑动窗口（双指针）
 public:
@@ -45,4 +45,4 @@ public:
         
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     static bool cmp(vector<int> a,vector<int> b){
@@ -25,4 +25,4 @@ public:
         return ret;
     }
 };
-```
+// ```

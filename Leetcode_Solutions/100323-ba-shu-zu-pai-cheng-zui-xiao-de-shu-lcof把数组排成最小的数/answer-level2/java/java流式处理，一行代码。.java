@@ -1,9 +1,9 @@
-### 解题思路
-对于数字 a和b， 直接比较字符串形式的 a+b 和 b+a
+// ### 解题思路
+// 对于数字 a和b， 直接比较字符串形式的 a+b 和 b+a
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String minNumber(int[] nums) {
         return Arrays.stream(nums)  // 得到 IntStream 流
@@ -12,4 +12,4 @@ class Solution {
                 .collect(Collectors.joining()); // 将流收集成字符串
     }
 }
-```
+// ```

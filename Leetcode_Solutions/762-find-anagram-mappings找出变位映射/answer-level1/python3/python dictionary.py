@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def anagramMappings(self, A: List[int], B: List[int]) -> List[int]:
         dictB = {}
@@ -10,4 +10,4 @@ class Solution:
                 res.append(dictB[A[i]])
             
         return res
-```
+# ```

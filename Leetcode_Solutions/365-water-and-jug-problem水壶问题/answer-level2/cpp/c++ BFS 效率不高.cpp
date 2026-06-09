@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-BFS,六种情况扩展，集合记录已经遍历过的状态。
-pair作为unordered_set时遇到一些问题，顺利解决：加上结构体，自定义hash函数。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// BFS,六种情况扩展，集合记录已经遍历过的状态。
+// pair作为unordered_set时遇到一些问题，顺利解决：加上结构体，自定义hash函数。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 struct pair_hash
@@ -47,4 +47,4 @@ struct pair_hash
         return false;
     }
 };
-```
+// ```

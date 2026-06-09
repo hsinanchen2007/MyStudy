@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-洗牌算法的思路，是通过每次从下标范围为[0, index]位置中随机选取一个元素，与当前index下标位置的元素进行交换。
+// 洗牌算法的思路，是通过每次从下标范围为[0, index]位置中随机选取一个元素，与当前index下标位置的元素进行交换。
 
-### 执行消耗
-![image.png](https://pic.leetcode-cn.com/347a351e6abcf1a0906de9c0554af289001081300b4f86c587e05dd26022c4c2-image.png)
+// ### 执行消耗
+// ![image.png](https://pic.leetcode-cn.com/347a351e6abcf1a0906de9c0554af289001081300b4f86c587e05dd26022c4c2-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type Solution struct {
     arr []int
 }
@@ -48,4 +48,4 @@ func (this *Solution) Shuffle() []int {
  * param_1 := obj.Reset();
  * param_2 := obj.Shuffle();
  */
-```
+// ```

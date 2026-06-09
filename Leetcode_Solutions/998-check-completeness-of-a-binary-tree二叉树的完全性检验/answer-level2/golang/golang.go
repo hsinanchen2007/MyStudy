@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * 判断逻辑： 1. 广度优先遍历
  *           2. 如果一个节点有右子树没有左子树，直接返回false
@@ -38,4 +38,4 @@ func isCompleteTree(root *TreeNode) bool {
 
     return true
 }
-```
+// ```

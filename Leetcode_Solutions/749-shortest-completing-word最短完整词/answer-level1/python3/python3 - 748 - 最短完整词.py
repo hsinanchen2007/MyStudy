@@ -1,10 +1,10 @@
-### 解题思路
-正则表达式
-就很python的解法
+# ### 解题思路
+# 正则表达式
+# 就很python的解法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def shortestCompletingWord(self, licensePlate: str, words: List[str]) -> str:
         license_ = licensePlate.lower()                 #大写 -> 小写
@@ -15,4 +15,4 @@ class Solution:
             if collections.Counter(word) & dic == dic:
                 return word
         return -1
-```
+# ```

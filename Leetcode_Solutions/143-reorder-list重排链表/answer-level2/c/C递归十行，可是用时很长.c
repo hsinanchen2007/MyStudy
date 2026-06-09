@@ -1,4 +1,4 @@
-```
+// ```
 	if (!head || !head->next || !head->next->next)
 		return;
 	struct ListNode *p = head, *temp = head;
@@ -9,4 +9,4 @@
 	p->next->next = temp;
 	p->next = NULL;
 	reorderList(temp);
-```
+// ```

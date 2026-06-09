@@ -1,5 +1,5 @@
 
-```
+// ```
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -26,7 +26,7 @@ var findPairs = function(nums, k) {
 
 	return count
 };
-```
+// ```
 
 
 

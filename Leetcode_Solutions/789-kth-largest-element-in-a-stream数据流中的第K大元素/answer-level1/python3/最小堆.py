@@ -1,9 +1,9 @@
-### 解题思路
-也可以用①heapq.heapify(nums)②heapq.heappush(nums, val)③heapq.nlargest(k,nums)
-但是会超出时间限制
-### 代码
+# ### 解题思路
+# 也可以用①heapq.heapify(nums)②heapq.heappush(nums, val)③heapq.nlargest(k,nums)
+# 但是会超出时间限制
+# ### 代码
 
-```python3
+# ```python3
 import heapq
 class KthLargest:
 
@@ -23,4 +23,4 @@ class KthLargest:
 # Your KthLargest object will be instantiated and called as such:
 # obj = KthLargest(k, nums)
 # param_1 = obj.add(val)
-```
+# ```

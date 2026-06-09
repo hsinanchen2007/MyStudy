@@ -1,9 +1,9 @@
-### 解题思路
-linkedHashMap保证第二次遍历时最长也就26次
+// ### 解题思路
+// linkedHashMap保证第二次遍历时最长也就26次
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int firstUniqChar(String s) {
         LinkedHashMap<Character, Integer> map = new LinkedHashMap<>();
@@ -24,4 +24,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

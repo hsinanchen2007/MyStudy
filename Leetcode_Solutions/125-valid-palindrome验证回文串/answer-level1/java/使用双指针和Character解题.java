@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-通过`i`两个指针`j`，通过`charAt()`原位比较：
+// 通过`i`两个指针`j`，通过`charAt()`原位比较：
 
-1. 使用`Character.isLetterOrDigit`判断字母和数字
-2. 使用`Character.toLowerCase`进行大小写转换
+// 1. 使用`Character.isLetterOrDigit`判断字母和数字
+// 2. 使用`Character.toLowerCase`进行大小写转换
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(String s) {
         int i = 0;
@@ -30,4 +30,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

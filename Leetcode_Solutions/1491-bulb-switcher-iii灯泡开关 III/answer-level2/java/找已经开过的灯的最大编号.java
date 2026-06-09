@@ -1,9 +1,9 @@
-### 解题思路
-直接看注释吧，看题看了我好久
+// ### 解题思路
+// 直接看注释吧，看题看了我好久
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numTimesAllBlue(int[] light) {
         int result = 0;
@@ -17,4 +17,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,16 +1,16 @@
-#### 方法 1：启发式极小化极大算法
+# #### 方法 1：启发式极小化极大算法
 
-**想法**
+# **想法**
 
-显然，可行单词列表中的单词越少越好。如果数据随机，那么我们可以认定这个情况是普遍的。
+# 显然，可行单词列表中的单词越少越好。如果数据随机，那么我们可以认定这个情况是普遍的。
 
-现在，利用极小化极大算法猜测可行的单词列表。如果我们开始有 $N$ 个单词，我们通过迭代去选择可行单词。
+# 现在，利用极小化极大算法猜测可行的单词列表。如果我们开始有 $N$ 个单词，我们通过迭代去选择可行单词。
 
-**算法**
+# **算法**
 
-存储 `H[i][j]` 为 `wordlist[i]` 和 `wordlist[j]` 单词匹配数。每次猜测要求之前没有猜过，按照上面的说法实现极小化极大算法，每次选择猜测的单词是当前可行单词中的一个。
+# 存储 `H[i][j]` 为 `wordlist[i]` 和 `wordlist[j]` 单词匹配数。每次猜测要求之前没有猜过，按照上面的说法实现极小化极大算法，每次选择猜测的单词是当前可行单词中的一个。
 
-```Java []
+# ```Java []
 class Solution {
     int[][] H;
     public void findSecretWord(String[] wordlist, Master master) {
@@ -69,9 +69,9 @@ class Solution {
         return ansguess;
     }
 }
-```
+# ```
 
-```Python []
+# ```Python []
 
 class Solution(object):
     def findSecretWord(self, wordlist, master):
@@ -102,10 +102,10 @@ class Solution(object):
                     ansgrp, ansguess = maxgroup, guess
 
         return ansguess
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N^2 \log{N})$，其中 $N$ 是单词的总数，假设其长度为 $O(1)$。每调用一次 `solve` 是 $O(N)$，调用次数的上界为 $O(\log N)$。
-* 空间复杂度：$O(N^2)$。
+# * 时间复杂度：$O(N^2 \log{N})$，其中 $N$ 是单词的总数，假设其长度为 $O(1)$。每调用一次 `solve` 是 $O(N)$，调用次数的上界为 $O(\log N)$。
+# * 空间复杂度：$O(N^2)$。

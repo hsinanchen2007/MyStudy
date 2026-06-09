@@ -1,15 +1,15 @@
-### 解题思路
-根据大神的团灭方法总结出的笨办法，没有优化，虽然效率非常非常低，但是利于本人记忆
-- dynamic programming
--- 买卖股票的最佳时机 k = 1
--- 买卖股票的最佳时机III k = 2
-- greedy method
--- 买卖股票的最佳时机II k = infinity
--- 最佳买卖股票时机含冷冻期 k = infinity, cooldown time = 2
--- 买卖股票的最佳时机含手续费 k = infinity, fee != 0
-### 代码
-#### 买卖股票的最佳时机 IV
-```python3
+# ### 解题思路
+# 根据大神的团灭方法总结出的笨办法，没有优化，虽然效率非常非常低，但是利于本人记忆
+# - dynamic programming
+# -- 买卖股票的最佳时机 k = 1
+# -- 买卖股票的最佳时机III k = 2
+# - greedy method
+# -- 买卖股票的最佳时机II k = infinity
+# -- 最佳买卖股票时机含冷冻期 k = infinity, cooldown time = 2
+# -- 买卖股票的最佳时机含手续费 k = infinity, fee != 0
+# ### 代码
+# #### 买卖股票的最佳时机 IV
+# ```python3
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         if len(prices) == 0:
@@ -47,12 +47,12 @@ class Solution:
             dp[i][1] = max(dp[i-1][1], dp[i-1][0] - prices[i])
         return dp[-1][0]
 
-```
-#### 最佳买卖股票时机含冷冻期
-因为dp[i-2][]，所以需要考虑i=0或1时，这两种base case
-当i > 2时，dp[i][1]考虑回退到i-2的时候
-当i = 1时，dp[i][1]考虑回退到i-1的时候，因为之前也没有任何交易，所以无需冷却
-```python3
+# ```
+# #### 最佳买卖股票时机含冷冻期
+# 因为dp[i-2][]，所以需要考虑i=0或1时，这两种base case
+# 当i > 2时，dp[i][1]考虑回退到i-2的时候
+# 当i = 1时，dp[i][1]考虑回退到i-1的时候，因为之前也没有任何交易，所以无需冷却
+# ```python3
 class Solution:
     def greedy(self, prices, cool):
         #dp = [[0]*2]*len(prices)
@@ -83,9 +83,9 @@ class Solution:
             return 0
         return self.greedy(prices,2)   
 
-```
-#### 买卖股票的最佳时机含手续费
-```python3
+# ```
+# #### 买卖股票的最佳时机含手续费
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int], fee: int) -> int:
         if len(prices) == 0:
@@ -105,5 +105,5 @@ class Solution:
             dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])
             dp[i][1] = max(dp[i-1][1], dp[i-1][0] - prices[i] - fee)
         return dp[-1][0]
-```
+# ```
 

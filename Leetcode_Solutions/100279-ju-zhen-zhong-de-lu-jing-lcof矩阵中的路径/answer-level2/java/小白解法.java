@@ -1,9 +1,9 @@
-### 解题思路
-这道题的本质就是DFS，代码和注释如下
+// ### 解题思路
+// 这道题的本质就是DFS，代码和注释如下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean exist(char[][] board, String word) {
         //初始化一个boolean类型的二维数组标记是否走过
@@ -46,4 +46,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,26 +1,26 @@
-#  有效的完全平方数
-给定一个正整数 num，编写一个函数，如果 num 是一个完全平方数，则返回 True，否则返回 False。
+// #  有效的完全平方数
+// 给定一个正整数 num，编写一个函数，如果 num 是一个完全平方数，则返回 True，否则返回 False。
 
-说明：不要使用任何内置的库函数，如  sqrt。
+// 说明：不要使用任何内置的库函数，如  sqrt。
 
-示例 1：
+// 示例 1：
 
-```
+// ```
 输入：16
 输出：True
-```
-示例 2：
+// ```
+// 示例 2：
 
-```
+// ```
 输入：14
 输出：False
-```
+// ```
 
-<hr>
+// <hr>
 
-##  解法1：递增判断
+// ##  解法1：递增判断
 
-```
+// ```
 public:
     bool isPerfectSquare(int num) {
         int i=1;
@@ -38,10 +38,10 @@ public:
         return false;
     }
 };
-```
+// ```
 
-##  解法2：二分法
-```
+// ##  解法2：二分法
+// ```
 class Solution {
 public:
     bool isPerfectSquare(int num) {
@@ -64,12 +64,12 @@ public:
         return false;
     }
 };
-```
+// ```
 
-##  解法3：公式法
-利用 1+3+5+7+9+…+(2n-1)=n^2，即完全平方数肯定是前n个连续奇数的和
+// ##  解法3：公式法
+// 利用 1+3+5+7+9+…+(2n-1)=n^2，即完全平方数肯定是前n个连续奇数的和
 
-```
+// ```
 class Solution {
 public:
     bool isPerfectSquare(int num) {
@@ -82,5 +82,5 @@ public:
         return num==0;
     }
 };
-```
+// ```
 

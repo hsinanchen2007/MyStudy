@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func intersection(nums1 []int, nums2 []int) []int {
 	sort.Ints(nums1)
 	sort.Ints(nums2)
@@ -32,4 +32,4 @@ func intersection(nums1 []int, nums2 []int) []int {
 	}
 	return data
 }
-```
+// ```

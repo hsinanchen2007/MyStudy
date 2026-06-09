@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
  public:
   std::vector<int> sortedSquares(std::vector<int>& A) {
@@ -10,5 +10,5 @@ class Solution {
     return ans;
   }
 };
-```
-注意由正向迭代器构造反向迭代器时，指向前一个元素
+// ```
+// 注意由正向迭代器构造反向迭代器时，指向前一个元素

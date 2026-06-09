@@ -1,7 +1,7 @@
 
-字典中的单词字符串直接保存在字典树子节点中，方便返回结果。
+// 字典中的单词字符串直接保存在字典树子节点中，方便返回结果。
 
-```
+// ```
 class Solution {
     public List<String> findWords(char[][] board, String[] words) {
         Trie trie = new Trie();
@@ -63,4 +63,4 @@ class TrieNode {
     public TrieNode[] children = new TrieNode[26];
     public String word = null;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-观察可得  最大长度 = 左子树的最大高度 + 右子树的最大高度
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 观察可得  最大长度 = 左子树的最大高度 + 右子树的最大高度
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         return Math.max(left, right) + 1;
     }
 }
-```
+// ```

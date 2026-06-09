@@ -1,6 +1,6 @@
-初始化数组boolean[] b，映射二维数组char[][] board, b[k]对应board[k/w][k%w]，其中w为board的宽度；
-从边界出发，发现O时，设置对应的b[k]为true；最后遍历b，值为true的设置为O，其余为X。
-```
+// 初始化数组boolean[] b，映射二维数组char[][] board, b[k]对应board[k/w][k%w]，其中w为board的宽度；
+// 从边界出发，发现O时，设置对应的b[k]为true；最后遍历b，值为true的设置为O，其余为X。
+// ```
 class Solution {
     public void solve(char[][] board) {
         int h = board.length;
@@ -43,4 +43,4 @@ class Solution {
         }
     }
 }
-```
+// ```

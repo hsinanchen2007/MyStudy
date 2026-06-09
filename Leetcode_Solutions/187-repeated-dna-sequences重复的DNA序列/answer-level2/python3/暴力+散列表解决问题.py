@@ -1,6 +1,6 @@
-1.首先利用切片的方法获得所有长度10的列表
-2.利用散列表统计个数，然后遍历列表将符合条件的挑出
-```
+# 1.首先利用切片的方法获得所有长度10的列表
+# 2.利用散列表统计个数，然后遍历列表将符合条件的挑出
+# ```
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
         str_list=[]
@@ -14,4 +14,4 @@ class Solution:
             if v>1:
                 new_list.append(k)
         return new_list
-```
+# ```

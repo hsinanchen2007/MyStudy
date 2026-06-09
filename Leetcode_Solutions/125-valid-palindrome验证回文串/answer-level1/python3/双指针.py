@@ -1,6 +1,6 @@
-头尾指针往中间走，非字母或数字直接跳过。
+# 头尾指针往中间走，非字母或数字直接跳过。
 
-```
+# ```
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         s = s.lower()
@@ -18,4 +18,4 @@ class Solution:
             elif not s[j].isalnum():
                 j -= 1
         return True
-```
+# ```

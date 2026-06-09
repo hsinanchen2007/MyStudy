@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/754e349162ab3e0bae89bd41b16c323e8fef81b6259742e7a5c570031b060dd4-image.png)
+# ![image.png](https://pic.leetcode-cn.com/754e349162ab3e0bae89bd41b16c323e8fef81b6259742e7a5c570031b060dd4-image.png)
 
 
-```
+# ```
 '''
 转成其他问题求解
 求最长回文子串的长度，字符串总长度减去最长回文子串长度就是答案
@@ -27,4 +27,4 @@ class Solution:
                 else:
                     dp[i][j] = max(dp[i+1][j], dp[i][j-1]) if j - i >= 2 else 1
         return n - dp[0][n-1]
-```
+# ```

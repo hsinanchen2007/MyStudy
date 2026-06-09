@@ -1,9 +1,9 @@
-一 DFS前序遍历的迭代形式
-1.collections.defaultdict(list)：当字典中不存在key时返回list：[]
-  traverse：记录深度及该深度所有节点，字典的key是深度，value是节点列表
-2.栈stack记录遍历的节点及深度
-时间复杂度O(N)，空间复杂度O(H)
-```
+# 一 DFS前序遍历的迭代形式
+# 1.collections.defaultdict(list)：当字典中不存在key时返回list：[]
+#   traverse：记录深度及该深度所有节点，字典的key是深度，value是节点列表
+# 2.栈stack记录遍历的节点及深度
+# 时间复杂度O(N)，空间复杂度O(H)
+# ```
 class Solution:
     def averageOfLevels(self, root: TreeNode) -> List[float]:
         traverse = collections.defaultdict(list)
@@ -17,12 +17,12 @@ class Solution:
             n,node=stack.pop()
             node=node.right
         return [sum(vals) / len(vals) for vals in traverse.values()]
-```
+# ```
         
         
-二 DFS前序遍历的递归形式
+# 二 DFS前序遍历的递归形式
 
-```
+# ```
 class Solution:
     def averageOfLevels(self, root: TreeNode) -> List[float]:
         traverse = collections.defaultdict(list)
@@ -33,14 +33,14 @@ class Solution:
                 dfs(node.right,n+1)
         dfs(root, 0)
         return [sum(vals)/len(vals) for vals in traverse.values()]
-```
+# ```
 
         
         
-三 BFS层次遍历，队列的迭代形式
-时间复杂度O(N)，空间复杂度O(B)， B是最大的层节点数
+# 三 BFS层次遍历，队列的迭代形式
+# 时间复杂度O(N)，空间复杂度O(B)， B是最大的层节点数
 
-```
+# ```
 class Solution:
     def averageOfLevels(self, root: TreeNode) -> List[float]:       
         #BFS层次遍历的队列迭代形式
@@ -58,4 +58,4 @@ class Solution:
                     queue.append(node.right)
             res.append(nodesum/n)
         return res
-```
+# ```

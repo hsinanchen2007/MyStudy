@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool FilterCore(const size_t& dim, const size_t& row_ini, const size_t& col_ini, vector<vector<int>>& matrix){
@@ -35,4 +35,4 @@ public:
     	return num_valid_squares;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     int partition(vector<int>& nums, int l, int r) {
         int pivot = nums[r];
@@ -38,4 +38,4 @@ public:
 
 
 
-```
+// ```

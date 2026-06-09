@@ -1,15 +1,15 @@
 
-用快排，为避免超时，在 partition 中分成三部分 (小于 pivot、等于 pivot、大于 pivot)。
+# 用快排，为避免超时，在 partition 中分成三部分 (小于 pivot、等于 pivot、大于 pivot)。
 
-first_pivot 是第一个等于 pivot 的位置，last_pivot 是最后一个等于 pivot 的位置。
+# first_pivot 是第一个等于 pivot 的位置，last_pivot 是最后一个等于 pivot 的位置。
 
-如果 tmp.val < pivot，为了跳过中间等于 pivot 的部分，要换两次。
+# 如果 tmp.val < pivot，为了跳过中间等于 pivot 的部分，要换两次。
 
-输入 [7, 5, 7, 10, 4]，当 pivot = 7, tmp.val = 4 时。
-需要先 4 和 10 换，[7, 5, 7, 4, 10]，
-然后 4 和 7 换，[7, 5, 4, 7, 10]。
+# 输入 [7, 5, 7, 10, 4]，当 pivot = 7, tmp.val = 4 时。
+# 需要先 4 和 10 换，[7, 5, 7, 4, 10]，
+# 然后 4 和 7 换，[7, 5, 4, 7, 10]。
 
-```python
+# ```python
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
         if not head or not head.next:
@@ -42,4 +42,4 @@ class Solution:
         
         quicksort(head, None)
         return head
-```
+# ```

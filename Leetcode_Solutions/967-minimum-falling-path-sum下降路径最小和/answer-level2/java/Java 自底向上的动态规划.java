@@ -1,5 +1,5 @@
-#### 使用两个数组来保存中间的结果
-```
+// #### 使用两个数组来保存中间的结果
+// ```
 class Solution {
     public int minFallingPathSum(int[][] A) {
         int len=A.length;
@@ -24,4 +24,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

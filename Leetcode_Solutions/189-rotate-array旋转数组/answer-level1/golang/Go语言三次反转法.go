@@ -1,4 +1,4 @@
-```
+// ```
 func rotate(nums []int, k int) {
 	k = k % len(nums)
 
@@ -14,4 +14,4 @@ func reverse(nums []int, start int, end int) {
 		end--
 	}
 }
-```
+// ```

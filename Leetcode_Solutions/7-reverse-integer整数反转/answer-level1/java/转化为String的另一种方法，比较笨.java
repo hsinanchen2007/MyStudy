@@ -1,5 +1,5 @@
-先转换成字符串，再将字符串转换成int
-```
+// 先转换成字符串，再将字符串转换成int
+// ```
 
         private static int reverse(int a) {
 		String str = String.valueOf(a);
@@ -28,4 +28,4 @@
 		}
 		}
 	}
-```
+// ```

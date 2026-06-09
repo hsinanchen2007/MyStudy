@@ -1,5 +1,5 @@
-看代码就完事了
-```go
+// 看代码就完事了
+// ```go
 func reverseList(head *ListNode) *ListNode {
 	prev,cur := &ListNode{},head
 	prev = nil
@@ -8,4 +8,4 @@ func reverseList(head *ListNode) *ListNode {
 	}
 	return prev
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用数组记录sum，使其在递归深处改变的值可以反应到上层来。
+// ### 解题思路
+// 用数组记录sum，使其在递归深处改变的值可以反应到上层来。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
         dfs(root.left,sum);
     }
 }
-```
+// ```

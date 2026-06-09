@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-之前用C，只能自己手撸哈希表，强行给自己加难度。现在用Cpp，直接调用容器的`unordered_map`真的好开心。
+// 之前用C，只能自己手撸哈希表，强行给自己加难度。现在用Cpp，直接调用容器的`unordered_map`真的好开心。
 
-尤其是赋值语法`x[key] = value`，简洁又容易阅读
+// 尤其是赋值语法`x[key] = value`，简洁又容易阅读
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -26,4 +26,4 @@ public:
         
     }
 };
-```
+// ```

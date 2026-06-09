@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int removeElement(int[] nums, int val) {
         int j = nums.length - 1;
@@ -16,4 +16,4 @@ class Solution {
         nums[j] = temp;
     }
 }
-```
+// ```

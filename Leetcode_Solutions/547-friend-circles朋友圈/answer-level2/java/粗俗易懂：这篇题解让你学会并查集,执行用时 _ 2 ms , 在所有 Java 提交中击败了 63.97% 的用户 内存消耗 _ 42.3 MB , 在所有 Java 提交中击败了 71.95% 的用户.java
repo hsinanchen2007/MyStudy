@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     // 内部类实现一个并查集，关于并查集的学习，我这里有一片博客讲的很明白的，还不太了解或者忘记并查集的可以看下：https://blog.csdn.net/xiaolinnulidushu/article/details/104123088
     class unionFind{
@@ -121,4 +121,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/40fd8236cbf8728155a5bb499f0ce5e4be2d698197d75d743baed1d8f874cd30-image.png)
+# ![image.png](https://pic.leetcode-cn.com/40fd8236cbf8728155a5bb499f0ce5e4be2d698197d75d743baed1d8f874cd30-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         intervals.sort(key = lambda x:x[0])
@@ -14,10 +14,10 @@ class Solution:
                 res[-1][1] = max(res[-1][1], temp[1])
         return res
 
-```
+# ```
 
-### WRONG SOLUTION
-```
+# ### WRONG SOLUTION
+# ```
 class Solution:
     def merge(self, intervals):
         intervals.sort(key = lambda x:x[0])
@@ -38,4 +38,4 @@ class Solution:
             l += 1
             r += 1
         return r, l, intervals[r-1][1]
-```
+# ```

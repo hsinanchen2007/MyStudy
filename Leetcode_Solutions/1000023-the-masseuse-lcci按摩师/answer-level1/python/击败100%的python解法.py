@@ -1,12 +1,12 @@
-### 解题思路
-动态规划 
-cur = 0
-pre = 0
-res = max(cur,pre + nums[i])
+# ### 解题思路
+# 动态规划 
+# cur = 0
+# pre = 0
+# res = max(cur,pre + nums[i])
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def massage(self, nums):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             pre = cur
             cur = res
         return res
-```
+# ```

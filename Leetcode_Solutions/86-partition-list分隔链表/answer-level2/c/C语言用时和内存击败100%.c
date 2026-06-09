@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![list.png](https://pic.leetcode-cn.com/de540ffc869ddced842f9640edd0880c3f926463e65b2569548f93c5d66fdfb2-list.png)
-利用数组排序的插入法，往后寻找比X值得结点，插入到前面
-### 代码
+// ![list.png](https://pic.leetcode-cn.com/de540ffc869ddced842f9640edd0880c3f926463e65b2569548f93c5d66fdfb2-list.png)
+// 利用数组排序的插入法，往后寻找比X值得结点，插入到前面
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ struct ListNode* partition(struct ListNode* head, int x){
     }
     return tou->next;
 }
-```
+// ```

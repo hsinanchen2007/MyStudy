@@ -1,4 +1,4 @@
-```c
+// ```c
 #define HASH_SIZE 10007
 #define INF 0x7fffffff
 #define SEED 131
@@ -201,4 +201,4 @@ char ** braceExpansionII(char * expression, int* returnSize){
     qsort(ret, g_count, sizeof(char*), Cmp);
     return ret;
 }
-```
+// ```

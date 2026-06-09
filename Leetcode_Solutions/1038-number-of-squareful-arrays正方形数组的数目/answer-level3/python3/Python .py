@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/7e3b749b04f1b0fbbceae1ed17d01e3e880f914335ba94070c5613d85942ca88-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7e3b749b04f1b0fbbceae1ed17d01e3e880f914335ba94070c5613d85942ca88-image.png)
 
 
-```
+# ```
 import math
 class Solution:
     def numSquarefulPerms(self, A: List[int]) -> int:
@@ -28,4 +28,4 @@ class Solution:
                 # 传数组不如传下标（可以优化时间）
         back(state,A)
         return res[0]
-```
+# ```

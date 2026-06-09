@@ -1,24 +1,24 @@
 
 
-## 思路
+// ## 思路
 
-用滑动窗口来记录序列， 每当滑动窗口中的 sum 超过 s， 就去更新最小值，并根据先进先出的原则更新滑动窗口，直至 sum 刚好小于 s
+// 用滑动窗口来记录序列， 每当滑动窗口中的 sum 超过 s， 就去更新最小值，并根据先进先出的原则更新滑动窗口，直至 sum 刚好小于 s
 
-![](https://pic.leetcode-cn.com/44a234b3825b5e5c79205eb3cd6b56721807670ba7d6e07c5818ee8478ace2b9.jpg)
+// ![](https://pic.leetcode-cn.com/44a234b3825b5e5c79205eb3cd6b56721807670ba7d6e07c5818ee8478ace2b9.jpg)
 
-> 这道题目和 leetcode 3 号题目有点像，都可以用滑动窗口的思路来解决
+// > 这道题目和 leetcode 3 号题目有点像，都可以用滑动窗口的思路来解决
 
-## 关键点
+// ## 关键点
 
-- 滑动窗口简化操作(滑窗口适合用于求解这种要求`连续`的题目)
+// - 滑动窗口简化操作(滑窗口适合用于求解这种要求`连续`的题目)
 
-## 代码
+// ## 代码
 
-- 语言支持：JS，C++，Python
+// - 语言支持：JS，C++，Python
 
-Python Code：
+// Python Code：
 
-```python
+// ```python
 
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
@@ -31,12 +31,12 @@ class Solution:
                 total -= nums[l]
                 l += 1
         return  0 if ans == len(nums) + 1 else ans
-```
+// ```
 
 
-JavaScript Code：
+// JavaScript Code：
 
-```js
+// ```js
 /*
  * @lc app=leetcode id=209 lang=javascript
  *
@@ -71,11 +71,11 @@ var minSubArrayLen = function(s, nums) {
 
   return min || 0;
 };
-```
+// ```
 
-C++ Code：
+// C++ Code：
 
-```C++
+// ```C++
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums) {
@@ -92,23 +92,23 @@ public:
         return min_len <= num_len ? min_len: 0;
     }
 };
-```
+// ```
 
-**复杂度分析**
-- 时间复杂度：$O(N)$，其中 N 为数组大小。
-- 空间复杂度：$O(1)$
+// **复杂度分析**
+// - 时间复杂度：$O(N)$，其中 N 为数组大小。
+// - 空间复杂度：$O(1)$
 
-欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
+// 欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
 
-![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
+// ![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
 
-## 扩展
+// ## 扩展
 
-如果题目要求是 sum = s, 而不是 sum >= s 呢？
+// 如果题目要求是 sum = s, 而不是 sum >= s 呢？
 
-eg:
+// eg:
 
-```js
+// ```js
 var minSubArrayLen = function(s, nums) {
   if (nums.length === 0) return 0;
   const slideWindow = [];
@@ -135,6 +135,6 @@ var minSubArrayLen = function(s, nums) {
 
   return min || 0;
 };
-```
+// ```
 
 

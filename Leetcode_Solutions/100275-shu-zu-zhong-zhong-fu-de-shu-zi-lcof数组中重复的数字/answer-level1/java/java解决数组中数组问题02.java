@@ -1,8 +1,8 @@
-### 解题思路
-1.充分利用条件中的【数字在0-n-1之间】这个特性，将数组下标和数字对应上
-### 代码
+// ### 解题思路
+// 1.充分利用条件中的【数字在0-n-1之间】这个特性，将数组下标和数字对应上
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         //遍历数组nums
@@ -22,4 +22,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

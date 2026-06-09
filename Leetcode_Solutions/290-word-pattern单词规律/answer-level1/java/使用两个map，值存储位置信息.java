@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean wordPattern(String pattern, String str) {
         String[] strings = str.split(" ");
@@ -21,4 +21,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

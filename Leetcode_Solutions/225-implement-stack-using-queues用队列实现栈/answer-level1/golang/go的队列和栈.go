@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //import "container/list"
 
 type MyStack struct {
@@ -34,4 +34,4 @@ func (this *MyStack) Top() int {
 func (this *MyStack) Empty() bool {
 	return this.List.Len() == 0
 }
-```
+// ```

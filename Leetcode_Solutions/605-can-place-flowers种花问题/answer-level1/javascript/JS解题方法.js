@@ -1,5 +1,5 @@
-JS解题方法
-```
+// JS解题方法
+// ```
 /**
  * @param {number[]} arr
  * @param {number} n
@@ -22,4 +22,4 @@ var canPlaceFlowers = function(arr, n) {
   }
   return max >= n
 };
-```
+// ```

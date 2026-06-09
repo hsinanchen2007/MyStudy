@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<List<String>> solveNQueens(int n) {
         List<List<Integer>> result = new ArrayList<>();
@@ -47,4 +47,4 @@ class Solution {
         }
     }
 }
-```
+// ```

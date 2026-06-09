@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strongPasswordChecker(string s) {
@@ -41,4 +41,4 @@ public:
         return s.size() - 21 + max(missed, exceedsTimes);
     }
 };
-```
+// ```

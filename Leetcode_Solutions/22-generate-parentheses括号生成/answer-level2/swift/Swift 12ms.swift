@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
   
   func generateParenthesis(_ n: Int) -> [String] {
@@ -23,4 +23,4 @@ class Solution {
   }
 
 }
-```
+// ```

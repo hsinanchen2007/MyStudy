@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def searchRange(self, nums, target):
         l=0
@@ -44,4 +44,4 @@ class Solution(object):
             elif nums[m]<target:
                 l=m+1
         return [-1,-1]
-```
+# ```

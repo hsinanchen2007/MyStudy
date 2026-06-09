@@ -1,8 +1,8 @@
-一 思路
-二叉搜索树的中序遍历序列单调递增，因此非递归中根序遍历二叉搜索树，将当前结点值与前一结点值作差，如果结果小于之前的最小距离，则用此结果更新最小距离。
-二 实现
-非递归版本（栈实现）
-```python3 []
+# 一 思路
+# 二叉搜索树的中序遍历序列单调递增，因此非递归中根序遍历二叉搜索树，将当前结点值与前一结点值作差，如果结果小于之前的最小距离，则用此结果更新最小距离。
+# 二 实现
+# 非递归版本（栈实现）
+# ```python3 []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,9 +28,9 @@ class Solution:
             pre = val
             p = p.right
         return min_val
-```
-递归版本
-```python3 []
+# ```
+# 递归版本
+# ```python3 []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -56,7 +56,7 @@ class Solution:
             if res[i] - res[i-1] < min_val:
                 min_val = res[i] - res[i-1]
         return min_val
-```
-三 复杂度分析
-程序中虽然有两层循环，但每个结点均只会进出栈一次，故时间复杂度为O(N)，N为树中结点树。
-栈的深度不会超过树的高度，空间复杂度为O(H), H为树的高度。
+# ```
+# 三 复杂度分析
+# 程序中虽然有两层循环，但每个结点均只会进出栈一次，故时间复杂度为O(N)，N为树中结点树。
+# 栈的深度不会超过树的高度，空间复杂度为O(H), H为树的高度。

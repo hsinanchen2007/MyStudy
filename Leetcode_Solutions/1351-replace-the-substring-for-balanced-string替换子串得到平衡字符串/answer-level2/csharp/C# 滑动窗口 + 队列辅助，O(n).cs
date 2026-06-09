@@ -1,8 +1,8 @@
-滑动窗口法 + 队列辅助。
+// 滑动窗口法 + 队列辅助。
 
-队列起到了记录left的作用。使用的时候直接从队列中去取即可！
+// 队列起到了记录left的作用。使用的时候直接从队列中去取即可！
 
-```c#
+// ```c#
 public class Solution
 {
     public int BalancedString(string s)
@@ -68,4 +68,4 @@ public class Solution
         return res == Int32.MaxValue ? 0 : res;
     }
 }
-```
+// ```

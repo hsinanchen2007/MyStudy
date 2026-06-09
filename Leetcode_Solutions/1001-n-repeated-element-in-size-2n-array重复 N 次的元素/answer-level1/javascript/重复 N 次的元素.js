@@ -1,4 +1,4 @@
-```
+// ```
 var repeatedNTimes = function(A) {
     let set = new Set();
     for (let item of A) {
@@ -9,4 +9,4 @@ var repeatedNTimes = function(A) {
         }
     }
 };
-```
+// ```

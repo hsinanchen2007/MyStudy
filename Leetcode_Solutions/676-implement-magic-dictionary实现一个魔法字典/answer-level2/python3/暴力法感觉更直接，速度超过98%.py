@@ -1,6 +1,6 @@
-直接把要找的字符串放进去挨个比较
+# 直接把要找的字符串放进去挨个比较
 
-代码块
+# 代码块
 class MagicDictionary:
 
     def __init__(self):

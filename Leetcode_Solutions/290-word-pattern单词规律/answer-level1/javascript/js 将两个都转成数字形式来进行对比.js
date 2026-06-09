@@ -1,10 +1,10 @@
-### 解题思路
-将abba转成1221，使用map，若是之前出现过，取该词对应的数，没出现过，则新加数。
-两个都进行转化，看最后是否一样。
+// ### 解题思路
+// 将abba转成1221，使用map，若是之前出现过，取该词对应的数，没出现过，则新加数。
+// 两个都进行转化，看最后是否一样。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} pattern
  * @param {string} str
@@ -25,4 +25,4 @@ var wordPattern = function(pattern, str) {
     }
     return getSame(pattern) === getSame(str,true);
 };
-```
+// ```

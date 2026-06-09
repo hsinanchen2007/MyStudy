@@ -1,9 +1,9 @@
-### 解题思路
-最简单的就是遍历对比。还可以用set去重的思路
+// ### 解题思路
+// 最简单的就是遍历对比。还可以用set去重的思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         char[] chars = astr.toCharArray();
@@ -18,4 +18,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

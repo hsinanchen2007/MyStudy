@@ -1,9 +1,9 @@
 
-笨办法，初始化阶段一次性分配足够的栈空间。
+// 笨办法，初始化阶段一次性分配足够的栈空间。
 
-结果：80% & 100%
+// 结果：80% & 100%
 
-```
+// ```
 #define MAX_SET 1000
 
 typedef struct {
@@ -100,4 +100,4 @@ void stackOfPlatesFree(StackOfPlates* obj) {
   free(obj);
 }
 
-```
+// ```

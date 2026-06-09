@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def canThreePartsEqualSum(self, A):
         """
@@ -14,4 +14,4 @@ class Solution(object):
                 num = 0
                 count += 1
         return count == 3
-```
+# ```

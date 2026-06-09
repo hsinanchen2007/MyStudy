@@ -1,5 +1,5 @@
-![图片.png](https://pic.leetcode-cn.com/f937d73f990213291b4934b66aaddc58eeac004a0b73d3ef27a8a947e8d3a24c-%E5%9B%BE%E7%89%87.png)
-```
+# ![图片.png](https://pic.leetcode-cn.com/f937d73f990213291b4934b66aaddc58eeac004a0b73d3ef27a8a947e8d3a24c-%E5%9B%BE%E7%89%87.png)
+# ```
 class Solution:
     def trap(self, height: List[int]) -> int:
         if height==[]:return 0
@@ -16,5 +16,5 @@ class Solution:
             i+=1
             j-=1 
         return rain
-```
+# ```
 

@@ -1,13 +1,13 @@
-### 解题思路
-1、思路
-两个dummyHead建立两个链表，一个链表放小于x的节点，一个链表放大于等于x的节点，然后拼接两段链表。注意尾指针一定要赋值为空。
+// ### 解题思路
+// 1、思路
+// 两个dummyHead建立两个链表，一个链表放小于x的节点，一个链表放大于等于x的节点，然后拼接两段链表。注意尾指针一定要赋值为空。
 
-2、运行结果
-![image.png](https://pic.leetcode-cn.com/8573227633c6580b80d9ad1ed9280e5956c41665efc82d36ae170a471cda659e-image.png)
+// 2、运行结果
+// ![image.png](https://pic.leetcode-cn.com/8573227633c6580b80d9ad1ed9280e5956c41665efc82d36ae170a471cda659e-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -82,4 +82,4 @@ struct ListNode* partition(struct ListNode* head, int x){
 
     return stLnHead1.next;
 }*/
-```
+// ```

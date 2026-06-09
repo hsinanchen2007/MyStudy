@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/1ce24e708b07203ade115aa90b6d18987815b99c5ec0f39ade42372b34e9c449-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/1ce24e708b07203ade115aa90b6d18987815b99c5ec0f39ade42372b34e9c449-image.png)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var chars []string
 
 func letterCombinations(digits string) []string {
@@ -43,4 +43,4 @@ func arrange(digits string, s []rune) {
 		s = s[:len(s)-1]
 	}
 }
-```
+// ```

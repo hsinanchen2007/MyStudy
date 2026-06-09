@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int climbStairs(int n) {
@@ -12,4 +12,4 @@ public:
         return dp[n];
     }
 };
-```
+// ```

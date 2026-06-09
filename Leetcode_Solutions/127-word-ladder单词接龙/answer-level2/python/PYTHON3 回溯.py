@@ -1,5 +1,5 @@
-按回溯标签刷的题 先做的126 写了遍回溯 但是只能得到所有的序列 得不到最短的.. 看了这题的解析 改了一下用在这题上 但是ans和A的定义很愚蠢 为什么函数可以调用外面的数组不能调用变量？定义ans=2 函数加形参 返回的ans还是出错  求大神解答一下?
-```
+# 按回溯标签刷的题 先做的126 写了遍回溯 但是只能得到所有的序列 得不到最短的.. 看了这题的解析 改了一下用在这题上 但是ans和A的定义很愚蠢 为什么函数可以调用外面的数组不能调用变量？定义ans=2 函数加形参 返回的ans还是出错  求大神解答一下?
+# ```
 class Solution:
     def ladderLength(self, beginWord, endWord, wordList):
         wordList = set(wordList)
@@ -30,6 +30,6 @@ class Solution:
             return 0     
         return len(ans)
                     
-```
+# ```
 
 

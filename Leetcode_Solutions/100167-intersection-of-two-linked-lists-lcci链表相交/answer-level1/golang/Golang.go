@@ -1,9 +1,9 @@
-### 解题思路
-相当于A,B两人绕着操场跑步，若以相同的速度，又走过相同的路程，必有相遇之时。
+// ### 解题思路
+// 相当于A,B两人绕着操场跑步，若以相同的速度，又走过相同的路程，必有相遇之时。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -28,4 +28,4 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
     return p
     
 }
-```
+// ```

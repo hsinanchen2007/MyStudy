@@ -1,6 +1,6 @@
-思路：比较简单，利用集合去掉重复元素即可
+# 思路：比较简单，利用集合去掉重复元素即可
 
-```
+# ```
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
         arr = []
@@ -9,4 +9,4 @@ class Solution:
             if i not in nums_set:
                 arr.append(i)
         return arr
-```
+# ```

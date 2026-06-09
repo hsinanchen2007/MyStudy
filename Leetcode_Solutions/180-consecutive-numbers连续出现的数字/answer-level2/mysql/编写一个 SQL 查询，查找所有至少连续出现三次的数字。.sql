@@ -1,5 +1,5 @@
-### 解题思路
-```
+-- ### 解题思路
+-- ```
 #①首先遍历一遍整张表，找出每个数字的连续重复次数
 #具体方法为：
     #初始化两个变量，一个为pre，记录上一个数字；一个为count，记录上一个数字已经连续出现的次数。
@@ -26,12 +26,12 @@
     where nums >=3;
 
 #注意：pre初始值最好不要赋值为一个数字，因为不确定赋值的数字是否会出现在测试表中。
-```
+-- ```
 
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select 
     distinct Num as ConsecutiveNums 
@@ -43,4 +43,4 @@ from
             (select @pre:= null,@count:=1) as pc
       ) as n
 where nums >=3;
-```
+-- ```

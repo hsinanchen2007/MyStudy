@@ -1,7 +1,7 @@
-遍历更新最大长度即可
+// 遍历更新最大长度即可
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
 	int findLengthOfLCIS(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
 		return 0;
 	}
 };
-```
+// ```

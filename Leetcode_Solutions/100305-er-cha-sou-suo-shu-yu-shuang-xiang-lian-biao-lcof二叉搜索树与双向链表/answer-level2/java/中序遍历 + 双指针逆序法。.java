@@ -1,7 +1,7 @@
-时间复杂度 = O( 2n ), 空间复杂度 = O( treeHeight )。
+// 时间复杂度 = O( 2n ), 空间复杂度 = O( treeHeight )。
 
 
-```java
+// ```java
 class Solution {
 	private Node head;
 	private Node tail;
@@ -39,4 +39,4 @@ class Solution {
 		recursion( root.right );
 	}
 }
-```
+// ```

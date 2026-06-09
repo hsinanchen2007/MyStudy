@@ -1,10 +1,10 @@
-### 解题思路
-这道题给medium.....我实在是觉得小看了吧.....整整做了五天，自己都感动了自己。
+// ### 解题思路
+// 这道题给medium.....我实在是觉得小看了吧.....整整做了五天，自己都感动了自己。
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int opposite(int key)//补码转换
 {
     return ~key+1;
@@ -57,4 +57,4 @@ int divide(int dividend, int divisor){
 		}
     return mark>0?quotient:-quotient;
 }
-```
+// ```

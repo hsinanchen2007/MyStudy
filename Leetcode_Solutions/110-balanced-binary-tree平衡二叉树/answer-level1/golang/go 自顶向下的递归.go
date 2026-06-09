@@ -1,4 +1,4 @@
-```
+// ```
 func hight(root *TreeNode) int {
 	if root == nil {
 		return -1
@@ -12,4 +12,4 @@ func isBalanced(root *TreeNode) bool {
 	}
 	return math.Abs(float64(hight(root.Left))-float64(hight(root.Right))) < 2 && isBalanced(root.Left) && isBalanced(root.Right)
 }
-```
+// ```

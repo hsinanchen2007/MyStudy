@@ -1,9 +1,9 @@
-### 解题思路
-把26进制转换成10进制
+// ### 解题思路
+// 把26进制转换成10进制
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int titleToNumber(string s)
@@ -16,4 +16,4 @@ public:
         return sum;
     }
 };
-```
+// ```

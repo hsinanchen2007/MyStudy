@@ -1,6 +1,6 @@
-比较基本的搜索，考虑清楚什么情况下是false，什么情况下是true就可以
+// 比较基本的搜索，考虑清楚什么情况下是false，什么情况下是true就可以
 
-```
+// ```
 func exist(board [][]byte, word string) bool {
     if len(board) == 0 || len(board[0]) == 0 {
         return false
@@ -47,4 +47,4 @@ func dfs(row int, column int, board [][]byte, m [][]bool, word string, num int) 
     m[row][column] = false // 回溯，如果这个点不符合，应该认为这个点没走过，应该还有其他路可能会到达这个点
     return false
 }
-```
+// ```

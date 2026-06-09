@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         res = head = ListNode(0)
@@ -24,4 +24,4 @@ class Solution:
             head.next = l2
         
         return res.next
-```
+# ```

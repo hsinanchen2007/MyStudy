@@ -1,9 +1,9 @@
-### 解题思路
-按顺序遍历即可
+# ### 解题思路
+# 按顺序遍历即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def diagonalSort(self, mat: List[List[int]]) -> List[List[int]]:
         #直接遍历不行咩
@@ -48,4 +48,4 @@ class Solution:
                 
             
 
-```
+# ```

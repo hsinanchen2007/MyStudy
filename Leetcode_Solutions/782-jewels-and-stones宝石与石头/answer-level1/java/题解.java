@@ -1,9 +1,9 @@
-### 解题思路
-用的暴力解法，但是超过了99%，可能是indexOf的方法比较快吧，用HashMap也可以写，但我比较懒。。。
+// ### 解题思路
+// 用的暴力解法，但是超过了99%，可能是indexOf的方法比较快吧，用HashMap也可以写，但我比较懒。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numJewelsInStones(String J, String S) {
         int sum = 0;
@@ -13,4 +13,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

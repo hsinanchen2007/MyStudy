@@ -1,4 +1,4 @@
-解题思路：2^x=n,x的二进制数中必然只有一个1
+// 解题思路：2^x=n,x的二进制数中必然只有一个1
 
     public boolean isPowerOfTwo(int n) {
         int count = 0;

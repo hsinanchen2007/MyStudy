@@ -1,4 +1,4 @@
-使用C语言提交的代码使用的是暴力法，并没有太大难度，代码如下：
+// 使用C语言提交的代码使用的是暴力法，并没有太大难度，代码如下：
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     int *a = (int *)malloc(sizeof(int) * 2);
     int i, j;

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b9524d997d24342f193507437bb7b295a6149eedf96afd6bade787d43ff0b3a7-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b9524d997d24342f193507437bb7b295a6149eedf96afd6bade787d43ff0b3a7-image.png)
 
 
-```
+# ```
 '''
 统计每一个数字出现的次数，从小到大枚举出现过的数值，每次迭代
 到的数值后面连续k-1个数值一定要是存在且数量比当前数值多，否则
@@ -34,4 +34,4 @@ class Solution:
                 c[v] -= min_cnt
 
         return True
-```
+# ```

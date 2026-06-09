@@ -1,7 +1,7 @@
-python3 暴力法，从左到右遍历，把区间输出
+# python3 暴力法，从左到右遍历，把区间输出
 
 
-```
+# ```
 class Solution:
     def findMissingRanges(self, nums: List[int], lower: int, upper: int) -> List[str]:
         if not nums:
@@ -28,4 +28,4 @@ class Solution:
         if upper-nums[-1]>=2:
             ltem.append(str(nums[-1]+1)+"->"+str(upper))
         return ltem
-```
+# ```

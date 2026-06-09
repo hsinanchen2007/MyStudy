@@ -1,9 +1,9 @@
-### 解题思路
-求左右最大值
+// ### 解题思路
+// 求左右最大值
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int Trap(int[] height) {
         int[] leftMaxs = new int[height.Length];
@@ -34,4 +34,4 @@ public class Solution {
         return water;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-这一题注意与78.子集这一题进行区分。
-这一题的传入变量pos主要作用是看一个数组中是否有nums.size()个元素，如果有那么加入最终的答案。
-```
+// 这一题注意与78.子集这一题进行区分。
+// 这一题的传入变量pos主要作用是看一个数组中是否有nums.size()个元素，如果有那么加入最终的答案。
+// ```
 class Solution {
 public:
     void dfs(vector<int>& nums,int pos,vector<int>&list,vector<vector<int>>&ans,vector<bool>&vis){
@@ -29,4 +29,4 @@ public:
         return ans;
     }
 };
-```
+// ```

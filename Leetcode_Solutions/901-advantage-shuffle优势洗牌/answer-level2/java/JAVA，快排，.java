@@ -1,9 +1,9 @@
-### 解题思路
-先排序，通过比较大小，确定需要替换的B数组索引的值，最后返回B 。
+// ### 解题思路
+// 先排序，通过比较大小，确定需要替换的B数组索引的值，最后返回B 。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int[] advantageCount(int[] A, int[] B) {
         Arrays.sort(A);
@@ -46,4 +46,4 @@ class NUM implements Comparable<NUM> {
         return this.num - o.num;
     }
 }
-```
+// ```

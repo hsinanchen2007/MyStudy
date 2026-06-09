@@ -1,4 +1,4 @@
-int isok(char * s1, char * s2 ) //检查s2 是否在s1中，不考虑空串
+// int isok(char * s1, char * s2 ) //检查s2 是否在s1中，不考虑空串
 {
     //puts(s1);
     //puts(s2);

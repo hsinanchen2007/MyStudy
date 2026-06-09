@@ -1,8 +1,8 @@
-先遍历一次求出总和，作为rightsum（leftsum初始为0）。
-然后再遍历一次数组，每次rightsum减当前元素，此时如果rightsum和leftsum相等，就找到了中心索引，中断遍历。
-如果不等，则leftsum加上当前元素后，继续遍历。
+// 先遍历一次求出总和，作为rightsum（leftsum初始为0）。
+// 然后再遍历一次数组，每次rightsum减当前元素，此时如果rightsum和leftsum相等，就找到了中心索引，中断遍历。
+// 如果不等，则leftsum加上当前元素后，继续遍历。
 
-```
+// ```
 class Solution {
     public int pivotIndex(int[] nums) {
         int ans = -1;
@@ -21,4 +21,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

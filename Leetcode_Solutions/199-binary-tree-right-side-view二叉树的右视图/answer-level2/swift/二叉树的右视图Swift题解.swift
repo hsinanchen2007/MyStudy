@@ -1,7 +1,7 @@
 
-右孩子DFS遍历，每一层第一个遍到的加入数组，即为右视图
+// 右孩子DFS遍历，每一层第一个遍到的加入数组，即为右视图
 
-```
+// ```
 class Solution {
     func rightSideView(_ root: TreeNode?) -> [Int] {
         var ret : [Int] = []
@@ -23,4 +23,4 @@ class Solution {
          return ret
     }
 }
-```
+// ```

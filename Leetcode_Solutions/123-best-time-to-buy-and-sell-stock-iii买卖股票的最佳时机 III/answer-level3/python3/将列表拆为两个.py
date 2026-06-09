@@ -1,7 +1,7 @@
-### 解题思路
-# 想法1、将列表拆为两个，然后分别应用买卖股票的最佳时机I场景，求和，最后取和的最大值。
+# ### 解题思路
+# # 想法1、将列表拆为两个，然后分别应用买卖股票的最佳时机I场景，求和，最后取和的最大值。
 
-```
+# ```
 def maxProfit(self, prices: List[int]) -> int:
     if not prices or len(prices)==1:
         return 0
@@ -24,15 +24,15 @@ def maxProfit(self, prices: List[int]) -> int:
                 max_right = max(max_right, prices[j]-min_right)
         ans = max(ans, max_right+max_left)
     return ans
-```
-最后两重循环，但是超出了时间限制。
+# ```
+# 最后两重循环，但是超出了时间限制。
 
-# 想法2、优化两重循环，用空间换时间。
-left数组从左到右求极小值来确定股票的最大收益；
-right数组从右到左求极大值来确定股票的最大收益，right数组倒置即和left数组顺序一致；
-两个数组对应元素和的最大值即为股票整体的最大收益。
+# # 想法2、优化两重循环，用空间换时间。
+# left数组从左到右求极小值来确定股票的最大收益；
+# right数组从右到左求极大值来确定股票的最大收益，right数组倒置即和left数组顺序一致；
+# 两个数组对应元素和的最大值即为股票整体的最大收益。
 
-```
+# ```
 def maxProfit(self, prices: List[int]) -> int:
     if not prices or len(prices)==1:
         return 0
@@ -62,4 +62,4 @@ def maxProfit(self, prices: List[int]) -> int:
     for idx in range(1, n-1):
         ans = max(ans, right[idx]+left[idx])
     return ans
-```
+# ```

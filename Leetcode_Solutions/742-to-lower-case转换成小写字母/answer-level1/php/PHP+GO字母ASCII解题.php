@@ -1,5 +1,5 @@
-- `A` 到 `a` 的ASCII 相差32
-```PHP []
+// - `A` 到 `a` 的ASCII 相差32
+// ```PHP []
 class Solution {
 
     /**
@@ -20,8 +20,8 @@ class Solution {
         return $out;
     }
 }
-```
-```GO []
+// ```
+// ```GO []
 func toLowerCase(str string) string {
     out := ""
     for _,val := range(str) {
@@ -32,4 +32,4 @@ func toLowerCase(str string) string {
     }
     return out
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-记录每个字符个数。
+# ### 解题思路
+# 记录每个字符个数。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         dic = {}
@@ -20,4 +20,4 @@ class Solution:
                     count1 += 1
         return count2*2 + 1 if count1 > 0 else count2*2
                 
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-倒序遍历字符串s，每次将t字符串中s的最后一个字母的位置拿出，并截取t，如果遍历能走完，则为true。否则为false。
+// 倒序遍历字符串s，每次将t字符串中s的最后一个字母的位置拿出，并截取t，如果遍历能走完，则为true。否则为false。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isSubsequence(String s, String t) {
         if (s != null && t != null && t.length() >= s.length()) {
@@ -21,4 +21,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

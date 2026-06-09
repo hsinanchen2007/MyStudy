@@ -1,9 +1,9 @@
-### 解题思路
-摩尔投票这么神奇的嘛..    自己的算法真是菜啊
+// ### 解题思路
+// 摩尔投票这么神奇的嘛..    自己的算法真是菜啊
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int majorityElement(int* nums, int numsSize)
 {
 	int count = 0, ans = 0;
@@ -23,4 +23,4 @@ int majorityElement(int* nums, int numsSize)
 	}
 	return nums[ans];
 }
-```
+// ```

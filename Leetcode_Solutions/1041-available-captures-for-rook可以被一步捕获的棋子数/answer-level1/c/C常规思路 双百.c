@@ -1,10 +1,10 @@
-### 解题思路
-先定R，然后左右上下寻找
+// ### 解题思路
+// 先定R，然后左右上下寻找
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     if(boardSize==0) return 0;
     int i,j,log=0;
@@ -51,4 +51,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }   
     return count;
 }
-```
+// ```

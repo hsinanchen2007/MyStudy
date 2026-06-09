@@ -1,4 +1,4 @@
-```
+// ```
 
 int numberOfSubarrays(int* nums, int numsSize, int k){
 
@@ -55,4 +55,4 @@ int numberOfSubarrays(int* nums, int numsSize, int k){
 	return sum;
 }
 
-```
+// ```

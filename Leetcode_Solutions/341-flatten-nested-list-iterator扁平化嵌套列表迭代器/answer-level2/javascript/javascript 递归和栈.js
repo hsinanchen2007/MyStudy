@@ -1,10 +1,10 @@
 
-# 递归
+// # 递归
 
-![image.png](https://pic.leetcode-cn.com/09efe5f5fd61e28e4bdc6c000e3815a1be490149f74dbbdcb7323f03f42c0e32-image.png)
+// ![image.png](https://pic.leetcode-cn.com/09efe5f5fd61e28e4bdc6c000e3815a1be490149f74dbbdcb7323f03f42c0e32-image.png)
 
 
-``` 
+// ``` 
 var NestedIterator = function(nestedList) {
     this.list = [];
     this.resetList(nestedList);
@@ -23,15 +23,15 @@ NestedIterator.prototype.hasNext = function() {
 NestedIterator.prototype.next = function() {
     return this.list.shift();
 };
-```
+// ```
 
 
 
-# 使用栈 
-![image.png](https://pic.leetcode-cn.com/5b01d838953e566ea8614198d62690bc37862c602909804ec6380253b8a6162f-image.png)
+// # 使用栈 
+// ![image.png](https://pic.leetcode-cn.com/5b01d838953e566ea8614198d62690bc37862c602909804ec6380253b8a6162f-image.png)
 
 
-``` 
+// ``` 
 var NestedIterator = function(nestedList) {
     this.num = null;
     this.flag = false;
@@ -60,6 +60,6 @@ NestedIterator.prototype.hasNext = function() {
     }
     return this.flag;
 };
-```
+// ```
 
 

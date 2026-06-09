@@ -1,9 +1,9 @@
-### 解题思路
-用两个数中较大的数作为底数，迭代次数为较小的数
+// ### 解题思路
+// 用两个数中较大的数作为底数，迭代次数为较小的数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int multiply(int A, int B) {
         int max=Math.max(A,B);
@@ -16,4 +16,4 @@ class Solution {
         return num+helper(num,times-1);
     }
 }
-```
+// ```

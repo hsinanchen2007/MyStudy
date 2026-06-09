@@ -1,8 +1,8 @@
-两种方法差不多，一个生成链表，然后拼接，一个生成数组拼接，然后直接修改原链表的值，不用另外生成链表。
+# 两种方法差不多，一个生成链表，然后拼接，一个生成数组拼接，然后直接修改原链表的值，不用另外生成链表。
 
-![image.png](https://pic.leetcode-cn.com/651a9abd36ec42ef65b320170383050458536695311082404ed3ee4bc98be181-image.png)
+# ![image.png](https://pic.leetcode-cn.com/651a9abd36ec42ef65b320170383050458536695311082404ed3ee4bc98be181-image.png)
 
-```
+# ```
 class Solution:
     def partition(self, head: ListNode, x: int) -> ListNode:
         if head:
@@ -19,11 +19,11 @@ class Solution:
                 head=head.next
             l.next=tmp.next
             return ans.next
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/6a9969e8088c38e532343bbd26c7d21eba59fd87dd21e104fb7f60a775da342c-image.png)
+# ![image.png](https://pic.leetcode-cn.com/6a9969e8088c38e532343bbd26c7d21eba59fd87dd21e104fb7f60a775da342c-image.png)
 
-```
+# ```
 class Solution:
     def partition(self, head: ListNode, x: int) -> ListNode:
         if head:
@@ -40,6 +40,6 @@ class Solution:
                 head.val=i
                 head=head.next
             return ans
-```
+# ```
 
-两个方法都是三分钟就写完了，看官解才知道生成链表法和官解一模一样
+# 两个方法都是三分钟就写完了，看官解才知道生成链表法和官解一模一样

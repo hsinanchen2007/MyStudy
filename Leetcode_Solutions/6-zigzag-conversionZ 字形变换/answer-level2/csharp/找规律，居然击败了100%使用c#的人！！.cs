@@ -1,11 +1,11 @@
-找规律，居然击败了100%使用c#的人！！
+// 找规律，居然击败了100%使用c#的人！！
 
-![Snipaste_2019-08-31_20-47-13.png](https://pic.leetcode-cn.com/67fb7fd28933423489101d222f26f791aee242d6085044d434ec25feef62a20d-Snipaste_2019-08-31_20-47-13.png)
+// ![Snipaste_2019-08-31_20-47-13.png](https://pic.leetcode-cn.com/67fb7fd28933423489101d222f26f791aee242d6085044d434ec25feef62a20d-Snipaste_2019-08-31_20-47-13.png)
 
 
-注意特殊情况的处理。
+// 注意特殊情况的处理。
 
-```c#
+// ```c#
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -67,6 +67,6 @@ namespace ConsoleApp1
     }
     
 }
-```
+// ```
 
 

@@ -1,11 +1,11 @@
-### 解题思路
-1、用数组存储内容，用变量topIndex表示当前栈顶。
-2、push时候topIndex + 1，pop时候topIndex - 1。
-3、空栈时候进行操作要注意边界值。
+// ### 解题思路
+// 1、用数组存储内容，用变量topIndex表示当前栈顶。
+// 2、push时候topIndex + 1，pop时候topIndex - 1。
+// 3、空栈时候进行操作要注意边界值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXSIZE_SL1 80000
 typedef struct {
     int data[MAXSIZE_SL1];
@@ -75,4 +75,4 @@ void myStackFree(MyStack* stack) {
  
  * myStackFree(obj);
 */
-```
+// ```

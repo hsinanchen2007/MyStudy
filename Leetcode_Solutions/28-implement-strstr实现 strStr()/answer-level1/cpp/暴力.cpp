@@ -1,9 +1,9 @@
-### 解题思路
-已短的那个的长度作为遍历次数
+// ### 解题思路
+// 已短的那个的长度作为遍历次数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -34,4 +34,4 @@ public:
         return -1;
     }
 };
-```
+// ```

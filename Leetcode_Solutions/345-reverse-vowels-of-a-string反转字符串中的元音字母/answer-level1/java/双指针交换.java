@@ -1,5 +1,5 @@
-算法思想为：设定第一个指针start指向数组的初始位置，第二个指针end指向数组的结束位置。先让start进行循环遍历，找寻到从数组开始的第一个元音字符，然后在让第二个指针end寻找最后一个元音字符，在对这两个字符进行替换。（类似的算法思想也可以用于实现快速排序）
-```
+// 算法思想为：设定第一个指针start指向数组的初始位置，第二个指针end指向数组的结束位置。先让start进行循环遍历，找寻到从数组开始的第一个元音字符，然后在让第二个指针end寻找最后一个元音字符，在对这两个字符进行替换。（类似的算法思想也可以用于实现快速排序）
+// ```
 public String reverseVowels(String s) {
 		StringBuilder s1 = new StringBuilder(s);
 		int start = 0;
@@ -33,4 +33,4 @@ public String reverseVowels(String s) {
 		}
 	    return s1.toString();
 	}
-```
+// ```

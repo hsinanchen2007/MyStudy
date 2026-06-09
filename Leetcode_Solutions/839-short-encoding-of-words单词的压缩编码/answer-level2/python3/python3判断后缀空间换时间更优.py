@@ -1,5 +1,5 @@
-直接在set中遍历而不在list中遍历
-```
+# 直接在set中遍历而不在list中遍历
+# ```
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         good = set(words)
@@ -10,4 +10,4 @@ class Solution:
 
         return sum(len(word) + 1 for word in fli)
 
-```
+# ```

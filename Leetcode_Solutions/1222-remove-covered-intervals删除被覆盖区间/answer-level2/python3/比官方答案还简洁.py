@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def removeCoveredIntervals(self, intervals: List[List[int]]) -> int:
         intervals.sort(key=lambda x: x[0])
@@ -9,4 +9,4 @@ class Solution:
                 ans += 1
                 end = y
         return ans
-```
+# ```

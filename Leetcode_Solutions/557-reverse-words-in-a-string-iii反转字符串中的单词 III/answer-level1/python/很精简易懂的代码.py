@@ -1,7 +1,7 @@
-1.`[i,j)`指示的区间表示一个单词.
-下次循环时跳过空格.
-cpp代码如下
-```cpp
+# 1.`[i,j)`指示的区间表示一个单词.
+# 下次循环时跳过空格.
+# cpp代码如下
+# ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -17,10 +17,10 @@ public:
         return s;
     }
 };
-```
-2.用Python就更简单了
-```python
+# ```
+# 2.用Python就更简单了
+# ```python
 class Solution:
     def reverseWords(self, s: str) -> str:
         return ' '.join([x[::-1] for x in s.split(" ")])
-```
+# ```

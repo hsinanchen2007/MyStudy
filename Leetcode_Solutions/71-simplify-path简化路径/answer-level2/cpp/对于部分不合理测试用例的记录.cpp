@@ -1,14 +1,14 @@
-### 解题思路
-左测试用例      右答案
-/...           /...
-/..hidden      /..hidden
-/.heal.        /.heal.
+// ### 解题思路
+// 左测试用例      右答案
+// /...           /...
+// /..hidden      /..hidden
+// /.heal.        /.heal.
 
-本题栈内一个目录表示为
-**目录名/**
-### 代码
+// 本题栈内一个目录表示为
+// **目录名/**
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string simplifyPath(string path) {
@@ -79,4 +79,4 @@ public:
 
     }
 };
-```
+// ```

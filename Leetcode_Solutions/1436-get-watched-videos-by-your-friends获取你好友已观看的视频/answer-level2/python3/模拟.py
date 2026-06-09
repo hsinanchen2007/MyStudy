@@ -1,10 +1,10 @@
-## 思路
-1. 构建第`level`层好友列表，这里要注意记录已经访问过的好友
-2. 统计该层所有好友影片
-3. 根据影片观看数量升序，数量相同时影片名字典升序
+# ## 思路
+# 1. 构建第`level`层好友列表，这里要注意记录已经访问过的好友
+# 2. 统计该层所有好友影片
+# 3. 根据影片观看数量升序，数量相同时影片名字典升序
 
-## 代码
-```
+# ## 代码
+# ```
 class Solution:
     def watchedVideosByFriends(self, watchedVideos: List[List[str]], friends: List[List[int]], id: int, level: int) -> List[str]:
         now = 0        # 当前层数
@@ -41,4 +41,4 @@ class Solution:
         for k, v in c:
             res.append(k)
         return res
-```
+# ```

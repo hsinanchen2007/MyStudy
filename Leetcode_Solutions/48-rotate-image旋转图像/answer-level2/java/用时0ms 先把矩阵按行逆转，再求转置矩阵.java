@@ -1,10 +1,10 @@
-### 解题思路
-1.按行逆转
-2.矩阵转置（沿对角线交换数据）
+// ### 解题思路
+// 1.按行逆转
+// 2.矩阵转置（沿对角线交换数据）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         int temp;
@@ -25,4 +25,4 @@ class Solution {
 		}
     }
 }
-```
+// ```

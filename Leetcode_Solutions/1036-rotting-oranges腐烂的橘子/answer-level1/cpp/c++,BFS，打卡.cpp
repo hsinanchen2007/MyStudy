@@ -1,9 +1,9 @@
-### 解题思路
-很菜的方法，直接暴力BFS，注意一点是该题BFS不是单点出发，而是多点出发。（如果有两或多个坏橘子，要从多个坏橘子一起进行BFS）
+// ### 解题思路
+// 很菜的方法，直接暴力BFS，注意一点是该题BFS不是单点出发，而是多点出发。（如果有两或多个坏橘子，要从多个坏橘子一起进行BFS）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
@@ -55,4 +55,4 @@ public:
         return 0 == fresh_c?time:-1;
     }
 };
-```
+// ```

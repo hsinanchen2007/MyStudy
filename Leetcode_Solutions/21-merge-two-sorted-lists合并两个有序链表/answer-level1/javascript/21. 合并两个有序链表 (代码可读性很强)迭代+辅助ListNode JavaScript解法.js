@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -60,4 +60,4 @@ var mergeTwoLists = function (l1, l2) {
     helperL.next = l1 === null ? l2 : l1;
     return helperLHead.next;
 };
-```
+// ```

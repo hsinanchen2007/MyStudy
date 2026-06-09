@@ -1,5 +1,5 @@
-递归,但是速度很慢.
-```
+// 递归,但是速度很慢.
+// ```
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -11,9 +11,9 @@ public:
                     isMatch(s.substr(1),p.substr(1));
     }
 };
-```
-动态规划就快了.
-```
+// ```
+// 动态规划就快了.
+// ```
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -35,5 +35,5 @@ public:
     }
 };
    
-```
+// ```
 

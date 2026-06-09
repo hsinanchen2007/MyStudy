@@ -1,10 +1,10 @@
-### 解题思路
-动态规划，状态方程：dp[i][j] == dp[i+1][j-1] && s[i] == s[j] if j - 1 > 1 else s[i] == s[j]
-其中dp[i][j] 表示s[i:j+1] 是否为回文字符串
+// ### 解题思路
+// 动态规划，状态方程：dp[i][j] == dp[i+1][j-1] && s[i] == s[j] if j - 1 > 1 else s[i] == s[j]
+// 其中dp[i][j] 表示s[i:j+1] 是否为回文字符串
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) string {
     n := len(s)
     if n <= 1 {
@@ -37,4 +37,4 @@ func makeArray(rows, cols int) [][]bool{
     }
     return m
 }
-```
+// ```

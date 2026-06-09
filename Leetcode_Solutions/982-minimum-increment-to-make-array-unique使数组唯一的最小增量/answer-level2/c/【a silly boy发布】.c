@@ -1,6 +1,6 @@
-![228DC347-0C4D-43C9-B176-C73B775397B6.jpeg](https://pic.leetcode-cn.com/4d1e44ed4206dabff4e284396ebf532ff5514e2b528b499fe763ead5d5ff48e5-228DC347-0C4D-43C9-B176-C73B775397B6.jpeg)
+// ![228DC347-0C4D-43C9-B176-C73B775397B6.jpeg](https://pic.leetcode-cn.com/4d1e44ed4206dabff4e284396ebf532ff5514e2b528b499fe763ead5d5ff48e5-228DC347-0C4D-43C9-B176-C73B775397B6.jpeg)
 
-```
+// ```
 int cmp(const void *a, const void *b)
 {
     return *(int *)a - *(int *)b;
@@ -28,4 +28,4 @@ int minIncrementForUnique(int* A, int ASize)
 
     return returnValue;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-双指针快排
+// ### 解题思路
+// 双指针快排
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
@@ -41,4 +41,4 @@ public:
         return low;
     }
 };
-```
+// ```

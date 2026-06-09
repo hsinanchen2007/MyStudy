@@ -1,11 +1,11 @@
-### 第一种解法：O（N^2）的解法
+// ### 第一种解法：O（N^2）的解法
 
-```
+// ```
 执行用时 :8 ms, 在所有 golang 提交中击败了83.16%的用户
 内存消耗 :3.7 MB, 在所有 golang 提交中击败了100.00%的用户
-```
+// ```
 
-```go
+// ```go
 // 从前往后找，遇到第一个0之后，找到这个0后的第一个非0，交换
 func moveZeroes(nums []int)  {
     length, j := len(nums), 0
@@ -27,18 +27,18 @@ func moveZeroes(nums []int)  {
         }
     }
 }
-```
+// ```
 
-### 第二种解法：一遍for，交换，时间复杂度O(n)
+// ### 第二种解法：一遍for，交换，时间复杂度O(n)
 
-计数0，进行交换
+// 计数0，进行交换
 
-```
+// ```
 执行用时 :4 ms, 在所有 golang 提交中击败了99.20%的用户
 内存消耗 :3.7 MB, 在所有 golang 提交中击败了100.00%的用户
-```
+// ```
 
-```go
+// ```go
 func moveZeroes(nums []int)  {
 	count := 0
 	for i := 0; i < len(nums); i++ {
@@ -49,16 +49,16 @@ func moveZeroes(nums []int)  {
 		}
 	}
 }
-```
+// ```
 
-计数非零的元素，进行交换
+// 计数非零的元素，进行交换
 
-```
+// ```
 执行用时 :4 ms, 在所有 golang 提交中击败了99.20%的用户
 内存消耗 :3.7 MB, 在所有 golang 提交中击败了100.00%的用户
-```
+// ```
 
-```go
+// ```go
 func moveZeroes(nums []int) {
 	pos := 0
 	for i := 0; i < len(nums); i++ {
@@ -68,18 +68,18 @@ func moveZeroes(nums []int) {
 		}
 	}
 }
-```
+// ```
 
 
 
-### 第三种解法，先移动，再填充0，时间复杂度O（N）
+// ### 第三种解法，先移动，再填充0，时间复杂度O（N）
 
-```
+// ```
 执行用时 :4 ms, 在所有 golang 提交中击败了99.20%的用户
 内存消耗 :3.7 MB, 在所有 golang 提交中击败了100.00%的用户
-```
+// ```
 
-```go
+// ```go
 func moveZeroes(nums []int) {
 	pos := 0
 	for i := 0; i < len(nums); i++ {
@@ -92,5 +92,5 @@ func moveZeroes(nums []int) {
 		nums[i] = 0
 	}
 }
-```
+// ```
 

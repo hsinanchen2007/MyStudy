@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-1，将链表里的值顺序`append`进事先声明好的`re`数组；  
-2，将`re`数组中的值倒序`append`进`er`数组后，返回。
+// 1，将链表里的值顺序`append`进事先声明好的`re`数组；  
+// 2，将`re`数组中的值倒序`append`进`er`数组后，返回。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -25,4 +25,4 @@ func reversePrint(head *ListNode) []int {
     }
     return er
 }
-```
+// ```

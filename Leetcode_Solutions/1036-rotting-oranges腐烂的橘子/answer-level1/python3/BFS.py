@@ -1,7 +1,7 @@
 
-# 服了
-BFS都能成简单题就离谱。
-```
+# # 服了
+# BFS都能成简单题就离谱。
+# ```
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         # BFS
@@ -34,4 +34,4 @@ class Solution:
                 if i == 1:
                     return -1 # 这都没烂完啊？
         return minute
-```
+# ```

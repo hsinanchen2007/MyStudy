@@ -1,4 +1,4 @@
-```
+# ```
 # https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/
 class Solution:
     def findSolution(self, customfunction: 'CustomFunction', z: int) -> List[List[int]]:
@@ -18,5 +18,5 @@ class Solution:
             else:
                 y -= 1
 
-```
+# ```
 

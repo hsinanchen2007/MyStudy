@@ -1,13 +1,13 @@
-### 解题思路
-维护一个hashmap: unordered_map<string, vector<string>>
-key是排序后的string
-value，是所有排序后为这个string的vector<string>的集合
+// ### 解题思路
+// 维护一个hashmap: unordered_map<string, vector<string>>
+// key是排序后的string
+// value，是所有排序后为这个string的vector<string>的集合
 
-这道题目的关键是要能够相当使用sort进行string的对比，以及使用sorted string作为key
+// 这道题目的关键是要能够相当使用sort进行string的对比，以及使用sorted string作为key
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
@@ -36,8 +36,8 @@ public:
         return s1 == s2;
     }
 };
-```
+// ```
 
-### 结果
-执行用时 : 160 ms , 在所有 C++ 提交中击败了 12.91% 的用户 
-内存消耗 : 18.5 MB , 在所有 C++ 提交中击败了 83.65% 的用户
+// ### 结果
+// 执行用时 : 160 ms , 在所有 C++ 提交中击败了 12.91% 的用户 
+// 内存消耗 : 18.5 MB , 在所有 C++ 提交中击败了 83.65% 的用户

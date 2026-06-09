@@ -1,7 +1,7 @@
-二维向量外积不为0，则两向量共线
+// 二维向量外积不为0，则两向量共线
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     bool isBoomerang(vector<vector<int>>& points) {
@@ -12,4 +12,4 @@ public:
         return x1 * y2 != x2 * y1;
     }
 };
-```
+// ```

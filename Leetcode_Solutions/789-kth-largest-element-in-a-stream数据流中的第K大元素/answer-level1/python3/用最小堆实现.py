@@ -1,11 +1,11 @@
 
 
-![84a059c5df2c5441003dd5139470de7.png](https://pic.leetcode-cn.com/bbd97fefc7f1f6c9407a52a16912366d811b86adf0a68705edc61f7adb6bc3e6-84a059c5df2c5441003dd5139470de7.png)
+# ![84a059c5df2c5441003dd5139470de7.png](https://pic.leetcode-cn.com/bbd97fefc7f1f6c9407a52a16912366d811b86adf0a68705edc61f7adb6bc3e6-84a059c5df2c5441003dd5139470de7.png)
 
 
 
 
-```python []
+# ```python []
 class KthLargest:
 
     def __init__(self, k: int, nums: List[int]):
@@ -19,4 +19,4 @@ class KthLargest:
             return self.nums[0]  ## 返回最小的数
         heapq.heappush(self.nums, val)  ## 如果是k-1个数，把val塞进堆里
         return self.nums[0]  ## 返回最小的数
-```
+# ```

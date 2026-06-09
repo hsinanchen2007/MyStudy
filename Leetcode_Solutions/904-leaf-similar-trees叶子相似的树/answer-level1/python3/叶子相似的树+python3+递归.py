@@ -1,6 +1,6 @@
-### 递归
-先序遍历，递归左右子树，理解起来还是比较简单的。代码如下：
-```
+# ### 递归
+# 先序遍历，递归左右子树，理解起来还是比较简单的。代码如下：
+# ```
 class Solution:
     def leafSimilar(self, root1: TreeNode, root2: TreeNode) -> bool:
         nums1 = []
@@ -15,6 +15,6 @@ class Solution:
             return nums
         return leaf(root1,nums1) == leaf(root2,nums2)
         
-```
-#### 复杂度分析
-时空复杂度都是O(m+n)
+# ```
+# #### 复杂度分析
+# 时空复杂度都是O(m+n)

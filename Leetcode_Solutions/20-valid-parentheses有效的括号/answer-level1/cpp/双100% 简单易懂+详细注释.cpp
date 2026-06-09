@@ -1,8 +1,8 @@
-if-else连用有点绕，核心在于列举各可能性后逐一排除法分析
+// if-else连用有点绕，核心在于列举各可能性后逐一排除法分析
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValid(string s) {
@@ -31,4 +31,4 @@ public:
         return false;    
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-定义一个辅助栈和两个指针,遍历popped数组,思路都在注释里
-![image.png](https://pic.leetcode-cn.com/ff20d3d692ad75643f0bce9ff613add901731b2af165ad7af75dc8c626489bb3-image.png)
+# ### 解题思路
+# 定义一个辅助栈和两个指针,遍历popped数组,思路都在注释里
+# ![image.png](https://pic.leetcode-cn.com/ff20d3d692ad75643f0bce9ff613add901731b2af165ad7af75dc8c626489bb3-image.png)
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def validateStackSequences(self, pushed: [int], popped: [int]) -> bool:
         stack=[] #辅助栈
@@ -24,4 +24,4 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```

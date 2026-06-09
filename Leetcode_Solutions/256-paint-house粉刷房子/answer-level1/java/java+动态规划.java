@@ -1,5 +1,5 @@
-设dp[i][k]为刷到第i个房子选择颜色k时的最小成本，最终要求的就是dp[m-1][0],dp[m-1][1]...中的最小值
-```
+// 设dp[i][k]为刷到第i个房子选择颜色k时的最小成本，最终要求的就是dp[m-1][0],dp[m-1][1]...中的最小值
+// ```
 public class Solution {
     public int minCost(int[][] costs) {
         if (costs == null || costs.length == 0 || costs[0] == null || costs[0].length == 0) {
@@ -22,4 +22,4 @@ public class Solution {
     }
 }
 
-```
+// ```

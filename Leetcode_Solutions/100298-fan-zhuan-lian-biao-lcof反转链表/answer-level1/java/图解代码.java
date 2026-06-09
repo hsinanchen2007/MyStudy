@@ -1,10 +1,10 @@
-### 解题思路
-![捕获1.PNG](https://pic.leetcode-cn.com/8af6d5631e8e81bffb53168884827b2a975432e956bd6e4afc4b0ea07531f8a4-%E6%8D%95%E8%8E%B71.PNG)
+// ### 解题思路
+// ![捕获1.PNG](https://pic.leetcode-cn.com/8af6d5631e8e81bffb53168884827b2a975432e956bd6e4afc4b0ea07531f8a4-%E6%8D%95%E8%8E%B71.PNG)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return nHead;
     }
 }
-```
+// ```

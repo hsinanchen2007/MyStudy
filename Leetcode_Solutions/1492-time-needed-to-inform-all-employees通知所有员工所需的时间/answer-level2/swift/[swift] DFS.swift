@@ -1,5 +1,5 @@
 
-```swift
+// ```swift
  class Solution {
     func numOfMinutes(_ n: Int, _ headID: Int, _ managers: [Int], _ informTime: [Int]) -> Int {
         var tree = [Int: [Int]]()
@@ -24,4 +24,4 @@
         return maxNeedTime
     }
  }
-```
+// ```

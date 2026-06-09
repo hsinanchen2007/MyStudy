@@ -1,6 +1,6 @@
-![FABE3F4E-4144-4668-9721-468EDB7F4D31.jpeg](https://pic.leetcode-cn.com/e75b82dcc206e164add0429e6c44c80cef4dec4f84086f809df871fbf0f71d30-FABE3F4E-4144-4668-9721-468EDB7F4D31.jpeg)
+// ![FABE3F4E-4144-4668-9721-468EDB7F4D31.jpeg](https://pic.leetcode-cn.com/e75b82dcc206e164add0429e6c44c80cef4dec4f84086f809df871fbf0f71d30-FABE3F4E-4144-4668-9721-468EDB7F4D31.jpeg)
 
-```
+// ```
 struct HashEntry {
     int key;
     int val;
@@ -43,4 +43,4 @@ int findLucky(int* arr, int arrSize)
     
     return returnMaxVal;
 }
-```
+// ```

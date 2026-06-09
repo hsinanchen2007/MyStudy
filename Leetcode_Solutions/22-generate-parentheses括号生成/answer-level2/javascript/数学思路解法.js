@@ -1,9 +1,9 @@
-### 解题思路
-数学思路 "(" 做 1 ")" 做 0 显然的区间就是101010 - 111000 然后找规律解决就行
+// ### 解题思路
+// 数学思路 "(" 做 1 ")" 做 0 显然的区间就是101010 - 111000 然后找规律解决就行
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -40,4 +40,4 @@ var generateParenthesis = function(n) {
 
     return result;
 };
-```
+// ```

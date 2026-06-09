@@ -1,10 +1,10 @@
-### 解题思路
-这道题思路比较简单。首先处理数组为空或只有一个数的情况。然后创建一个大小为nums数组大小的dp数组，用于存放连续序列的长度。dp[0]显然为1，若相邻元素相差1，说明连续，dp递增；若相邻元素相等，dp不变；若相邻元素不等，说明不连续，dp重新计1.最后返回dp数组的最大值即为题解。
-![QQ截图20200207153739.png](https://pic.leetcode-cn.com/5b885c10b58d481b95be1f2e49dfc37b5eaed1375db556be85714df9699af2c9-QQ%E6%88%AA%E5%9B%BE20200207153739.png)
+// ### 解题思路
+// 这道题思路比较简单。首先处理数组为空或只有一个数的情况。然后创建一个大小为nums数组大小的dp数组，用于存放连续序列的长度。dp[0]显然为1，若相邻元素相差1，说明连续，dp递增；若相邻元素相等，dp不变；若相邻元素不等，说明不连续，dp重新计1.最后返回dp数组的最大值即为题解。
+// ![QQ截图20200207153739.png](https://pic.leetcode-cn.com/5b885c10b58d481b95be1f2e49dfc37b5eaed1375db556be85714df9699af2c9-QQ%E6%88%AA%E5%9B%BE20200207153739.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
         return *maxPosition;
     }
 };
-```
+// ```

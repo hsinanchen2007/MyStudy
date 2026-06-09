@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str){
 int i=0,flag=1,s=1,m;
 long int sum=0;
@@ -35,4 +35,4 @@ return (s>0?INT_MAX:INT_MIN);
 else
 return sum*s;
 }
-```
+// ```

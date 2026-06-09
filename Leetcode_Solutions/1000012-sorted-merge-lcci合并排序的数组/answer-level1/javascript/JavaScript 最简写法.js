@@ -1,9 +1,9 @@
-### 解题思路
-双指针从后向前遍历A的值和B的值，选取A或者B中最大值放到A的最后。
+// ### 解题思路
+// 双指针从后向前遍历A的值和B的值，选取A或者B中最大值放到A的最后。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} m
@@ -23,4 +23,4 @@ var merge = function(A, m, B, n) {
     //如果B不为空，剩余B填充到A
     while(n) A[len--] = B[--n];
 };
-```
+// ```

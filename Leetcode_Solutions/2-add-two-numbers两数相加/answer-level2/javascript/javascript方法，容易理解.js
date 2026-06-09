@@ -1,5 +1,5 @@
-先转成数组相加再转为链表，顺带回顾一下力扣的数组相加题目
-```
+// 先转成数组相加再转为链表，顺带回顾一下力扣的数组相加题目
+// ```
 var addTwoNumbers = function(l1, l2) {
     if(!l1){
         return l2;
@@ -47,4 +47,4 @@ var addTwoNumbers = function(l1, l2) {
     }
     return head.next;  
 };
-```
+// ```

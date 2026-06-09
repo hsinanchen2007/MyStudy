@@ -1,22 +1,22 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/25
- *
- * 解题思路: 使用两个数组 记录从前向后的当前最大值 从后向前的当前最小值
- *
- * 从后向前遍历 如出现当前的值小于他之前的最大值，则停止记录end
- * 从前向后遍历 如出现当前的值大于他之后的最小值，则停止记录start
- *
- * return end - start + 1> 0 ? end - start + 1:0
- *
- * 注意：如果是一个数字 直接返回
- *
- *
- */
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/25
+//  *
+//  * 解题思路: 使用两个数组 记录从前向后的当前最大值 从后向前的当前最小值
+//  *
+//  * 从后向前遍历 如出现当前的值小于他之前的最大值，则停止记录end
+//  * 从前向后遍历 如出现当前的值大于他之后的最小值，则停止记录start
+//  *
+//  * return end - start + 1> 0 ? end - start + 1:0
+//  *
+//  * 注意：如果是一个数字 直接返回
+//  *
+//  *
+//  */
 
-```
+// ```
 public int findUnsortedSubarray(int[] nums) {
     if(nums.length == 1) return 0;
     
@@ -59,4 +59,4 @@ public int findUnsortedSubarray(int[] nums) {
 
     return end - start + 1> 0 ? end - start + 1:0;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         Set<Integer> hashSet = new HashSet<>();
@@ -12,4 +12,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

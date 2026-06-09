@@ -1,4 +1,4 @@
-```
+// ```
 bool CheckExist(int *s, int a)
 {
     return a == s[0] || a == s[1];
@@ -46,4 +46,4 @@ int totalFruit(int* tree, int treeSize)
     UpdateSum(&totalSumMax, totalSum);
     return totalSumMax;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-KMP的next 数组求解的就是 快乐前缀 （满足前缀=后缀的最长前缀串）
+// ### 解题思路
+// KMP的next 数组求解的就是 快乐前缀 （满足前缀=后缀的最长前缀串）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
     int next(string& p) {
         int N = p.size();
         vector<int> n(N, 0);
@@ -18,57 +18,57 @@ KMP的next 数组求解的就是 快乐前缀 （满足前缀=后缀的最长前
     string longestPrefix(string s) {
         return s.substr(0, next(s));
     }
-```
+// ```
 
 
-> 附录：KMP详解
+// > 附录：KMP详解
 
-# KMP 字符串匹配算法
+// # KMP 字符串匹配算法
 
-***
+// ***
 
-**KMP的核心思想在于 从模式串本身寻找特征，当一个字符不匹配时，直接移动到下一个位置，无需做多余的比较，时间复杂度O(N+M)**
+// **KMP的核心思想在于 从模式串本身寻找特征，当一个字符不匹配时，直接移动到下一个位置，无需做多余的比较，时间复杂度O(N+M)**
 
-***
-## 1. 特征数的求法
-特征数：满足前缀和后缀相同的最大子串长度
+// ***
+// ## 1. 特征数的求法
+// 特征数：满足前缀和后缀相同的最大子串长度
 
-公式定义：
-**Let's define:**
+// 公式定义：
+// **Let's define:**
 
-$$
-next[j] =
-\begin{cases}
-\max\ of\ \{k\ |\ 0<k<j\ \&\&\ P_0P_1...P_{k-1}=P_{j-k+1}P_{j-k+2}...P_j \} \\
-0,\ if\ k\ not\ exist
-\end{cases}
-$$
+// $$
+// next[j] =
+// \begin{cases}
+// \max\ of\ \{k\ |\ 0<k<j\ \&\&\ P_0P_1...P_{k-1}=P_{j-k+1}P_{j-k+2}...P_j \} \\
+// 0,\ if\ k\ not\ exist
+// \end{cases}
+// $$
 
-从匹配成功的j-1如何推到j ？
+// 从匹配成功的j-1如何推到j ？
 
-推导过程：
-$let\ \text{next[j-1] = k}$
-$i.e\ P_0P_1...P_{k-1}=P_{j-k+1}P_{j-k+2}...P_{j-1}$
-*To extend case to j*
-$$
-\begin{cases}
-next[j] =k+1,\ if\ P_k = P_j\quad (1) \\
-k = next[k-1],\ otherwise\quad (2)
-\end{cases}
-$$
-***Why?***
-(1) 显而易见，重点讨论 (2) 当 $P_k 和 P_j$ 不匹配时，要重新找一个 $k^*$ 能满足最长前缀的需求，这个前缀串满足：
-$P_0P_1...P_{k^*}=P_{j-k^*}P_{j-k^*+2}...P_{j}$
-那么一定有
-$P_0P_1...P_{k^*-1}=P_{j-k^*}P_{j-k^*+2}...P_{j-1}$
-而我们已知 
-$P_0P_1...P_{k-1}=P_{j-k+1}P_{j-k+2}...P_{j-1}$
-也就是 $k^*$ 一定有
-$P_0P_1...P_{k^*-1}=P_{k-k^*}P_{k-k^*+1}...P_{k-1}$
-要找这样的 $k^*$， $next[k-1]$ 一定是其中最大的那个（快乐前缀的定义），所以才有 (2) 成立
+// 推导过程：
+// $let\ \text{next[j-1] = k}$
+// $i.e\ P_0P_1...P_{k-1}=P_{j-k+1}P_{j-k+2}...P_{j-1}$
+// *To extend case to j*
+// $$
+// \begin{cases}
+// next[j] =k+1,\ if\ P_k = P_j\quad (1) \\
+// k = next[k-1],\ otherwise\quad (2)
+// \end{cases}
+// $$
+// ***Why?***
+// (1) 显而易见，重点讨论 (2) 当 $P_k 和 P_j$ 不匹配时，要重新找一个 $k^*$ 能满足最长前缀的需求，这个前缀串满足：
+// $P_0P_1...P_{k^*}=P_{j-k^*}P_{j-k^*+2}...P_{j}$
+// 那么一定有
+// $P_0P_1...P_{k^*-1}=P_{j-k^*}P_{j-k^*+2}...P_{j-1}$
+// 而我们已知 
+// $P_0P_1...P_{k-1}=P_{j-k+1}P_{j-k+2}...P_{j-1}$
+// 也就是 $k^*$ 一定有
+// $P_0P_1...P_{k^*-1}=P_{k-k^*}P_{k-k^*+1}...P_{k-1}$
+// 要找这样的 $k^*$， $next[k-1]$ 一定是其中最大的那个（快乐前缀的定义），所以才有 (2) 成立
 
-代码：
-```c++
+// 代码：
+// ```c++
 //直接版
 vector<int> get_next(string& P) {
     int N = P.size();
@@ -102,12 +102,12 @@ vector<int> get_next(string& P) {
     }
     return next;
 }
-```
+// ```
 
-## 2. KMP 算法
-理解了next 特征数的产生，再来看KMP算法就比较直接了，当模式串与目标串不匹配时，移动模式串的下标到next。
+// ## 2. KMP 算法
+// 理解了next 特征数的产生，再来看KMP算法就比较直接了，当模式串与目标串不匹配时，移动模式串的下标到next。
 
-```c++
+// ```c++
 //brute force， O(N*M)
 int find(string& T, string& P) {
     if (P.size() > T.size()) return -1;
@@ -141,4 +141,4 @@ int kmp(string& T, string& P) {
     }
     return j == N ? i - j : -1;
 }
-```
+// ```

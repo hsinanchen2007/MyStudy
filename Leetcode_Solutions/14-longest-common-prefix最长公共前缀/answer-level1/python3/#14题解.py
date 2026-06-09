@@ -1,9 +1,9 @@
-### 解题思路1
-利用zip函数进行压缩
+# ### 解题思路1
+# 利用zip函数进行压缩
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         s = ""
@@ -13,10 +13,10 @@ class Solution:
             else:
                 break           
         return s
-```
-### 解题思路2
-水平扫描
-```
+# ```
+# ### 解题思路2
+# 水平扫描
+# ```
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         s=''
@@ -37,4 +37,4 @@ class Solution:
             else:
                 break
         return s
-```
+# ```

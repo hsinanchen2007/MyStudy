@@ -1,9 +1,9 @@
-### 解题思路
-strstr()
+// ### 解题思路
+// strstr()
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * boldWords(char ** words, int wordsSize, char * S)
 {
     int flag[500] = {0};
@@ -42,4 +42,4 @@ char * boldWords(char ** words, int wordsSize, char * S)
     }
     return res;
 }
-```
+// ```

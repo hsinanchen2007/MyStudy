@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     fun isOneEditDistance(s: String, t: String): Boolean {
         if (s == t) {
@@ -54,4 +54,4 @@ class Solution {
         return true
     }
 }
-```
+// ```

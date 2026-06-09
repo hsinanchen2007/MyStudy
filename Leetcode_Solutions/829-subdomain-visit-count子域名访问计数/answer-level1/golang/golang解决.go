@@ -1,4 +1,4 @@
-分割字符串放hash，然后循环：
+// 分割字符串放hash，然后循环：
 func subdomainVisits(cpdomains []string) []string {
 ret := []string{}
 	mapret := make(map[string]int)

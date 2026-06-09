@@ -1,9 +1,9 @@
-### 解题思路
-参考官方题解递归思路
+# ### 解题思路
+# 参考官方题解递归思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def isSymmetric(self, root):
         if not root:
@@ -17,4 +17,4 @@ class Solution(object):
                 return False
             return dfs(left.left,right.right) and dfs(left.right,right.left)
         return dfs(root.left,root.right)
-```
+# ```

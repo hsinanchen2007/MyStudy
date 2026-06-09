@@ -1,26 +1,26 @@
-#### 方法 1：前缀和与二分搜索
+// #### 方法 1：前缀和与二分搜索
 
-**想法**
+// **想法**
 
-让 $\text{tot} = \sum_{i=0}^{N-1}w[i]$ ，其中 $N = \text{len}(w)$。
+// 让 $\text{tot} = \sum_{i=0}^{N-1}w[i]$ ，其中 $N = \text{len}(w)$。
 
-如果我们从 [半开区间](http://mathworld.wolfram.com/Half-ClosedInterval.html) $[0, \text{tot})$ 中随机选择一个整数会发生什么？
+// 如果我们从 [半开区间](http://mathworld.wolfram.com/Half-ClosedInterval.html) $[0, \text{tot})$ 中随机选择一个整数会发生什么？
 
-是否有办法将每一个可能的整数映射到 $w$ 中一个下标，使得每个下标映射的数目与下标的权重对应呢？
+// 是否有办法将每一个可能的整数映射到 $w$ 中一个下标，使得每个下标映射的数目与下标的权重对应呢？
 
-是否有办法使用少于 $O(\text{tot})$ 的空间呢？
+// 是否有办法使用少于 $O(\text{tot})$ 的空间呢？
 
-**算法**
+// **算法**
 
-求出前缀和数组 $p$，其中 $p[x] = \sum_{i=0}^{x}w[i]$。
+// 求出前缀和数组 $p$，其中 $p[x] = \sum_{i=0}^{x}w[i]$。
 
-在范围 $[0, \text{tot})$ 中随机选择一个整数 $\text{targ}$。
+// 在范围 $[0, \text{tot})$ 中随机选择一个整数 $\text{targ}$。
 
-使用二分查找来找到下标 $x$，其中 $x$ 是满足 $\text{targ} < p[x]$ 的最小下标。
+// 使用二分查找来找到下标 $x$，其中 $x$ 是满足 $\text{targ} < p[x]$ 的最小下标。
 
-对于某些下标 $i$，所有满足 $p[i] - w[i] \leq v < p[i]$ 的整数 $v$ 都映射到这个下标。因此，所有的下标都与下标权重成比例。
+// 对于某些下标 $i$，所有满足 $p[i] - w[i] \leq v < p[i]$ 的整数 $v$ 都映射到这个下标。因此，所有的下标都与下标权重成比例。
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<int> psum;
@@ -49,9 +49,9 @@ public:
         return lo;
     }
 };
-```
+// ```
 
-```Java []
+// ```Java []
 class Solution {
 
     List<Integer> psum = new ArrayList<>();
@@ -78,9 +78,9 @@ class Solution {
         return lo;
     }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N)$ 的预处理。 $\text{priceIndex}$ 需要花费 $O(\log(N))$ 的时间。
-* 空间复杂度：$O(N)$。
+// * 时间复杂度：$O(N)$ 的预处理。 $\text{priceIndex}$ 需要花费 $O(\log(N))$ 的时间。
+// * 空间复杂度：$O(N)$。

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String[] findOcurrences(String text, String first, String second) {
         String[] letter = text.split(" ");

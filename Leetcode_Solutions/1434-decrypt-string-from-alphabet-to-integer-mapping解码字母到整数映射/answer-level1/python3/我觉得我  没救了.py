@@ -1,4 +1,4 @@
-```
+# ```
 
 class Solution:
     def freqAlphabets(self, s: str) -> str:
@@ -12,4 +12,4 @@ class Solution:
             "7", "g").replace("8", "h").replace("9", "i")
 
 
-```
+# ```

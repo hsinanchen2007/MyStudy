@@ -1,8 +1,8 @@
-### 解题思路
-插眼
-### 代码
+# ### 解题思路
+# 插眼
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -10,4 +10,4 @@ class Solution:
         """
         A[m:m + n + 1] = B
         return A.sort()
-```
+# ```

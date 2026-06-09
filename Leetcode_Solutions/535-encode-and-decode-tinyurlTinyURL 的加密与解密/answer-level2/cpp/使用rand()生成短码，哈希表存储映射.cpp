@@ -1,8 +1,8 @@
-可以最多保存62^6对映射，每个映射解析完即作废。
+// 可以最多保存62^6对映射，每个映射解析完即作废。
 
-吐槽：这道题的效率排名没任何参考意义，都被各种直接return参数的提交给打败了...
+// 吐槽：这道题的效率排名没任何参考意义，都被各种直接return参数的提交给打败了...
 
-```
+// ```
 class Solution {
     
 private:
@@ -67,4 +67,4 @@ public:
 // Your Solution object will be instantiated and called as such:
 // Solution solution;
 // solution.decode(solution.encode(url));
-```
+// ```

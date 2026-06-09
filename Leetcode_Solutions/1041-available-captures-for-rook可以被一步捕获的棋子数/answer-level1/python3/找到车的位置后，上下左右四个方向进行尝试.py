@@ -1,9 +1,9 @@
-### 解题思路
-找到车的位置后，上下左右四个方向进行尝试
+# ### 解题思路
+# 找到车的位置后，上下左右四个方向进行尝试
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         res=0
@@ -47,4 +47,4 @@ class Solution:
                             res+=1
                             break
         return res
-```
+# ```

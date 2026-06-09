@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/edd7c981697048a116a4c7fec74f002c13c3497f016badc022ab491f64dd80f8-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/edd7c981697048a116a4c7fec74f002c13c3497f016badc022ab491f64dd80f8-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximumGap(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return maxdif;
     }
 };
-```
+// ```

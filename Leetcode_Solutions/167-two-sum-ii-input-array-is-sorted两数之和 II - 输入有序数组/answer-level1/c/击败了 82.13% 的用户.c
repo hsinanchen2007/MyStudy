@@ -1,9 +1,9 @@
-### 解题思路
-1. 前后双指针
+// ### 解题思路
+// 1. 前后双指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -53,4 +53,4 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
     return out;
 }
 */
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-取字符串组strs中最小字符串str，以防字符串超出
-从最长递减到最短截取str,遍历strs判断是否最长公共前缀
-if(true)则直接返回最长公共前缀
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 取字符串组strs中最小字符串str，以防字符串超出
+// 从最长递减到最短截取str,遍历strs判断是否最长公共前缀
+// if(true)则直接返回最长公共前缀
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
    public String longestCommonPrefix(String[] strs) {
@@ -30,4 +30,4 @@ class Solution {
         return "";
     }
 }
-```
+// ```

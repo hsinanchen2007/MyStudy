@@ -1,11 +1,11 @@
-思路：首先 机器路径肯定是可以无限长的 但是最多结束到 的位置是 假定机器人走的路长为L(U+R) 时结束
-那么 程序停止的时候一定是2种情况  所有碰撞节点的长度和大于终点点可以全部排除在外
- 1，false L=obstacles[x][0]+obstacles[x][1] ,且 LU= obstacles[x][1]
+// 思路：首先 机器路径肯定是可以无限长的 但是最多结束到 的位置是 假定机器人走的路长为L(U+R) 时结束
+// 那么 程序停止的时候一定是2种情况  所有碰撞节点的长度和大于终点点可以全部排除在外
+//  1，false L=obstacles[x][0]+obstacles[x][1] ,且 LU= obstacles[x][1]
 
- 2，true  L=X+Y     且  LU=Y
+//  2，true  L=X+Y     且  LU=Y
 
- 3 false  1和2都不满足
-```
+//  3 false  1和2都不满足
+// ```
   public boolean robot(String command, int[][] obstacles, int x, int y) {
                 char[] urls = command.toCharArray();
         int countY = 0;
@@ -39,8 +39,8 @@
 
         return false;
     }
-```
-![image.png](https://pic.leetcode-cn.com/35825fde918da3e37395d54c495a904f3f8d156fcf74ab5b55901dee30cb89c1-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/35825fde918da3e37395d54c495a904f3f8d156fcf74ab5b55901dee30cb89c1-image.png)
 
 
  

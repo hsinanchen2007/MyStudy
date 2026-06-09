@@ -1,9 +1,9 @@
-### 解题思路
-只是简单的实现，没有考虑内存消耗和时间复杂度空间复杂度
+// ### 解题思路
+// 只是简单的实现，没有考虑内存消耗和时间复杂度空间复杂度
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -26,4 +26,4 @@ var twoSum = function(nums, target) {
     }
     console.log("无法找到匹配");
 };
-```
+// ```

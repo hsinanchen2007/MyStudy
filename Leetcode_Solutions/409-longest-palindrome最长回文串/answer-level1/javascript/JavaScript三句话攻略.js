@@ -1,10 +1,10 @@
-### 解题思路
-1、最长回文串中最多只含有一个出现奇数次的字母
-2、当s中出现奇数次字母数(oddCount)不为0时，最长回文串长度为s.length - oddCount + 1
-3、当oddCount = 0时，说明s本身就是一个回文串
-### 代码
+// ### 解题思路
+// 1、最长回文串中最多只含有一个出现奇数次的字母
+// 2、当s中出现奇数次字母数(oddCount)不为0时，最长回文串长度为s.length - oddCount + 1
+// 3、当oddCount = 0时，说明s本身就是一个回文串
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -27,4 +27,4 @@ var longestPalindrome = function(s) {
     }
     return oddCount === 0 ? s.length : s.length - oddCount + 1;
 };
-```
+// ```

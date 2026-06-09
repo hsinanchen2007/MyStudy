@@ -1,12 +1,12 @@
-思路：题目要求**构建高度平衡二叉搜索树**，找到解决问题的突破口。
+// 思路：题目要求**构建高度平衡二叉搜索树**，找到解决问题的突破口。
 
-1、将有序数组一分为二，中间结点成为根结点，前半部分是左子树，右半部分是右子树；
-2、递归构建左子树和右子树，应用到分治思想。
+// 1、将有序数组一分为二，中间结点成为根结点，前半部分是左子树，右半部分是右子树；
+// 2、递归构建左子树和右子树，应用到分治思想。
 
-**参考代码**：
+// **参考代码**：
 
 
-```Java []
+// ```Java []
 class TreeNode {
     int val;
     TreeNode left;
@@ -44,8 +44,8 @@ public class Solution {
         return treeNode;
     }
 }
-```
-```Python []
+// ```
+// ```Python []
 from typing import List
 
 
@@ -76,8 +76,8 @@ class Solution:
         if size == 0:
             return None
         return helper(nums, 0, size - 1)
-```
-```C++ []
+// ```
+// ```C++ []
 class TreeNode {
     int val;
     TreeNode left;
@@ -115,9 +115,9 @@ public class Solution {
         return treeNode;
     }
 }
-```
+// ```
 
-**复杂度分析**：
+// **复杂度分析**：
 
-+ 时间复杂度：$O(N)$，根据主定理：$T(N) = 2 \times T(\frac{N}{2}) + O(1)$，这里 $N$ 是数组的长度。
-+ 空间复杂度：$O(\log N)$。
+// + 时间复杂度：$O(N)$，根据主定理：$T(N) = 2 \times T(\frac{N}{2}) + O(1)$，这里 $N$ 是数组的长度。
+// + 空间复杂度：$O(\log N)$。

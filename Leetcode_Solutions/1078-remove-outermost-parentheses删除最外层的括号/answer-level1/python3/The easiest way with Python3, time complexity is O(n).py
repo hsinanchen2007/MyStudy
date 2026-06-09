@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeOuterParentheses(self, S: str) -> str:
         # 使用栈stack来记录左括号和右括号，所有的
@@ -17,4 +17,4 @@ class Solution:
                     result+=each
                     
         return result
-```
+# ```

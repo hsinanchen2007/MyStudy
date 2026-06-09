@@ -1,5 +1,5 @@
-# 代码：
-```
+// # 代码：
+// ```
 struct ListNode* getKthFromEndrecursion(struct ListNode* head, int*k){
     if(head == NULL) return head; 
     
@@ -14,4 +14,4 @@ struct ListNode* getKthFromEndrecursion(struct ListNode* head, int*k){
 struct ListNode* getKthFromEnd(struct ListNode* head, int k){
     return getKthFromEndrecursion(head, &k);
 }
-```
+// ```

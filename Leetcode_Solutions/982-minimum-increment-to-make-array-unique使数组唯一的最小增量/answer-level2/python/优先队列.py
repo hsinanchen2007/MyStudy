@@ -1,10 +1,10 @@
-### 解题思路
-优先队列
-最小堆
+# ### 解题思路
+# 优先队列
+# 最小堆
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import heapq
 class Solution:
     def minIncrementForUnique(self, A) -> int:
@@ -25,4 +25,4 @@ class Solution:
                 garbage.append(garbage[-1]+1)
                 move += (garbage[-1]-tmp)
         return move
-```
+# ```

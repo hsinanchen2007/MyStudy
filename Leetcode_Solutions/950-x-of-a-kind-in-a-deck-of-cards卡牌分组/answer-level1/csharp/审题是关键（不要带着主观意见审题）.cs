@@ -1,9 +1,9 @@
-### 解题思路
-在读懂题目之后就知道它给的测试用例的结果是错误的。显然X选1是肯定成立的，现在就是从2开始判断后面有没有可以成立的。用字典保存每个键值之间的关联，然后从2开始计算符合两个要求的结果就可以了。
+// ### 解题思路
+// 在读懂题目之后就知道它给的测试用例的结果是错误的。显然X选1是肯定成立的，现在就是从2开始判断后面有没有可以成立的。用字典保存每个键值之间的关联，然后从2开始计算符合两个要求的结果就可以了。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool HasGroupsSizeX(int[] deck) {
         Dictionary<int,int> dic = new Dictionary<int,int>();
@@ -37,4 +37,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

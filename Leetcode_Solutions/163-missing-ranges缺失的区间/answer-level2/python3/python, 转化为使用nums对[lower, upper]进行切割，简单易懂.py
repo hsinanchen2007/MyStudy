@@ -1,4 +1,4 @@
-```
+# ```
 def convert_range_to_str(range_list):
     if range_list[0] == range_list[1]:
         return str(range_list[0])
@@ -25,7 +25,7 @@ class Solution:
             results.append(convert_range_to_str(missing))
 
         return results
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/6263ee14a629a0974e34c796ef27692457c7e95797511ef47b93a27cc618a00b-image.png)
+# ![image.png](https://pic.leetcode-cn.com/6263ee14a629a0974e34c796ef27692457c7e95797511ef47b93a27cc618a00b-image.png)
 

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/5b693634f6d05fcff2093a1f9f1eb89f06e0f32e167ff2f153443757e4b893a3-image.png)
-按照题目的思路，用Map储存chars字典中出现过的字符及次数，并对于每个字符串检测是否可以拼写成功。
-```
+// ![image.png](https://pic.leetcode-cn.com/5b693634f6d05fcff2093a1f9f1eb89f06e0f32e167ff2f153443757e4b893a3-image.png)
+// 按照题目的思路，用Map储存chars字典中出现过的字符及次数，并对于每个字符串检测是否可以拼写成功。
+// ```
 class Solution 
 {
     public int countCharacters(String[] words, String chars) 
@@ -34,4 +34,4 @@ class Solution
         return ans;
     }
 }
-```
+// ```

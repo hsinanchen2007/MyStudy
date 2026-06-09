@@ -1,8 +1,8 @@
-**法一：**
+// **法一：**
 
-转化成字符串，比较字符串首尾是否一样
+// 转化成字符串，比较字符串首尾是否一样
 
-```js
+// ```js
 /**
  * @param {number} x
  * @return {boolean}
@@ -25,11 +25,11 @@ var isPalindrome = function(x) {
 var x = -132231;
 
 console.log(isPalindrome(x))
-```
+// ```
 
-**法二：利用数组反转,比较慢，不建议**
+// **法二：利用数组反转,比较慢，不建议**
 
-```js
+// ```js
 var isPalindrome2 = function(x) {
     var StrX = x.toString();
     var flag;
@@ -49,6 +49,6 @@ var isPalindrome2 = function(x) {
 };
 
 console.log(isPalindrome2(x))
-```
+// ```
 
-**法三：不利用字符串，待补充。。。**
+// **法三：不利用字符串，待补充。。。**

@@ -1,8 +1,8 @@
-### 解题思路
-找出两两相邻的字符串的公共前缀返回即可。
-### 代码
+// ### 解题思路
+// 找出两两相邻的字符串的公共前缀返回即可。
+// ### 代码
 
-```c
+// ```c
 char *Common(char *str1,char *str2)
 {
     int length1=strlen(str1),length2=strlen(str2);
@@ -31,4 +31,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     result=Common(result,strs[i]);
     return result;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-js正则替换来一波
+// ### 解题思路
+// js正则替换来一波
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -11,4 +11,4 @@ js正则替换来一波
 var replaceSpace = function(s) {
     return s.replace(/\s/g,'%20')
 };
-```
+// ```

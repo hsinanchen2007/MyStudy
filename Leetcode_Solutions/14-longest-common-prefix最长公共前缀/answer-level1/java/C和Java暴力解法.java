@@ -1,5 +1,5 @@
-# C
-```
+// # C
+// ```
 char * longestCommonPrefix(char ** strs, int strsSize){
     if(strsSize == 0) return "";
     char *commonPrefix = *strs;
@@ -12,9 +12,9 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     }
     return commonPrefix;
 }
-```
-# Java
-```
+// ```
+// # Java
+// ```
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if(strs == null || strs.length == 0) return "";
@@ -32,4 +32,4 @@ class Solution {
         return first;
     }
 }
-```
+// ```

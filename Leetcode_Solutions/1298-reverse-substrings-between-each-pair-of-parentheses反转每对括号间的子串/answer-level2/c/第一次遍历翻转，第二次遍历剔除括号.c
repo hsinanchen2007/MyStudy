@@ -1,4 +1,4 @@
-```
+// ```
 // 字符串翻转函数
 void swapstr(char * s, int begin, int end) 
 {
@@ -54,4 +54,4 @@ char * reverseParentheses(char * s){
     return ans;
 }
 
-```
+// ```

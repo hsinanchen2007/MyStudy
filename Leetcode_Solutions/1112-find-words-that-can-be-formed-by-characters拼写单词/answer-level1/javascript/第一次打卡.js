@@ -1,9 +1,9 @@
-### 解题思路
-刚开始想到用全排列搞，但是一看排列算法想想还是算了。根据要求想到只要words中的单词在chars中有并且words中的数量小于等于chars中的数量就算掌握了。
+// ### 解题思路
+// 刚开始想到用全排列搞，但是一看排列算法想想还是算了。根据要求想到只要words中的单词在chars中有并且words中的数量小于等于chars中的数量就算掌握了。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -43,4 +43,4 @@ function createMap(str) {
     }
     return ans;
 };
-```
+// ```

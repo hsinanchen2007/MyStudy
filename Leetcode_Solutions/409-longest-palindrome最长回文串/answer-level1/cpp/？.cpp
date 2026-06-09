@@ -1,9 +1,9 @@
-### 解题思路
-（我就看看为什么能双百，思路简单得很
+// ### 解题思路
+// （我就看看为什么能双百，思路简单得很
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -28,4 +28,4 @@ public:
         return len;
     }
 };
-```
+// ```

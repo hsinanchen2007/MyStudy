@@ -1,8 +1,8 @@
 
 
-js hash表：
+// js hash表：
 
-```
+// ```
 var hasCycle = function(head, pos) {
     if(!head) return false
     if(pos=== -1) return false
@@ -19,11 +19,11 @@ var hasCycle = function(head, pos) {
     }
     return sentry
 };
-```
+// ```
 
-js 快慢指针：
+// js 快慢指针：
 
-```
+// ```
 var hasCycle = function(head, pos) {
     if(!head) return false
     if(pos=== -1) return false
@@ -40,5 +40,5 @@ var hasCycle = function(head, pos) {
     }
     return false
 };
-```
+// ```
 

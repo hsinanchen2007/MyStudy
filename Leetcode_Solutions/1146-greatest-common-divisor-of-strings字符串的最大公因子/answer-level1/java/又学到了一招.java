@@ -1,9 +1,9 @@
-### 解题思路
-辗转相除找最大公约数
+// ### 解题思路
+// 辗转相除找最大公约数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         if (!(str1+str2).equals(str2+str1)) {
@@ -23,4 +23,4 @@ class Solution {
 		}
     }
 }
-```
+// ```

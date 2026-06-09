@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
     free(prefix);
     return tmp;
 }
-```
+// ```

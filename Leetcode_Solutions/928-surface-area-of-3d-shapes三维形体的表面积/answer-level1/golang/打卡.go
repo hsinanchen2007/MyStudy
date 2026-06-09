@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func surfaceArea(grid [][]int) int {
     if grid==nil || len(grid)==0{
         return 0
@@ -39,4 +39,4 @@ func min(a,b int) int {
     }
     return b
 }
-```
+// ```

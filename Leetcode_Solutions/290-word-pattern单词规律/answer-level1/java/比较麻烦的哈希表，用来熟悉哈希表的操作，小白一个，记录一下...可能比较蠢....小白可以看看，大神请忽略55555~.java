@@ -1,9 +1,9 @@
-### 解题思路
-1.全部在代码里面注释了，小白一个。。。有改进的地方欢迎大佬指正。。。
+// ### 解题思路
+// 1.全部在代码里面注释了，小白一个。。。有改进的地方欢迎大佬指正。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean wordPattern(String pattern, String str) {
         if(pattern.length()==0||str.length()==0){return false;}//判断pattern和str是否是空字符串，如果是，直接输出false。
@@ -30,4 +30,4 @@ class Solution {
         }
 
     }
-```
+// ```

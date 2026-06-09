@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -42,11 +42,11 @@ public:
         return false;
     }
 };
-```
-善用isalnum函数、tolower函数:
-isalnum(char c):当c为数字0-9或字母a-z及A-Z时，返回非零值，否则返回零。
-tolower(char c):把字母字符转换成小写,非字母字符不做出处理。
-```cpp
+// ```
+// 善用isalnum函数、tolower函数:
+// isalnum(char c):当c为数字0-9或字母a-z及A-Z时，返回非零值，否则返回零。
+// tolower(char c):把字母字符转换成小写,非字母字符不做出处理。
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -61,4 +61,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int distributeCandies(int[] candies) {
         int[] sister = new int[candies.length];
@@ -18,4 +18,4 @@ class Solution {
         return maxKind;
     }
 }
-```
+// ```

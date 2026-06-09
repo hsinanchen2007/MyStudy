@@ -1,13 +1,13 @@
-### 解题思路
-- 1，3 个列表，分别存储 `head`, `random`, `copy`
-- 2，遍历 `head`，存储 `head` 和 `random` ，同时获取 `head.val` 并生成 `copy`
-- 3，遍历 `copy`，存储所有 `copy` 节点
-- 4，计算 `random` 在 `head` 中的 `index`，这时对应的 `copy.random` 指向的也是这个 `copy[index]`
+# ### 解题思路
+# - 1，3 个列表，分别存储 `head`, `random`, `copy`
+# - 2，遍历 `head`，存储 `head` 和 `random` ，同时获取 `head.val` 并生成 `copy`
+# - 3，遍历 `copy`，存储所有 `copy` 节点
+# - 4，计算 `random` 在 `head` 中的 `index`，这时对应的 `copy.random` 指向的也是这个 `copy[index]`
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -62,4 +62,4 @@ class Solution:
                 j=head_list.index(random_list[i])  # 查找 random 在 head_list 里的 index
                 copy_list[i].random = copy_list[j]  # 将 copy_node.random = copy_list 中对应位置 index 的值
         return rev
-```
+# ```

@@ -1,15 +1,15 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-感觉写的很烂还通过了
-执行用时 :
-3 ms
-内存消耗 :
-42.3 MB
-的用户
-### 代码
+// 感觉写的很烂还通过了
+// 执行用时 :
+// 3 ms
+// 内存消耗 :
+// 42.3 MB
+// 的用户
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int size=nums1.length+nums2.length;
@@ -35,4 +35,4 @@ class Solution {
         else return (temp[size/2]+temp[size/2-1])/2.0;
     }
 }
-```
+// ```

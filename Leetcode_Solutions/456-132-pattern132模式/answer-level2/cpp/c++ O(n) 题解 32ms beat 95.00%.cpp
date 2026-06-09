@@ -1,8 +1,8 @@
-解题思路：
-    从后向前遍历对于每个元素定义为A[K]
-    A[K]的前面一个较大元素为A[J] A[J] > A[K]
-    A[J]之前的最小元素为A[I]
-    此时 I < J < K 如果满足A[I] < A[J] 则此题可解
+// 解题思路：
+//     从后向前遍历对于每个元素定义为A[K]
+//     A[K]的前面一个较大元素为A[J] A[J] > A[K]
+//     A[J]之前的最小元素为A[I]
+//     此时 I < J < K 如果满足A[I] < A[J] 则此题可解
 class Solution {
 public:
     bool find132pattern(vector<int>& nums) {

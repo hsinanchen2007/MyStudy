@@ -1,9 +1,9 @@
-### 解题思路
-典型的Union Find解法，代码比较清晰。
+// ### 解题思路
+// 典型的Union Find解法，代码比较清晰。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     vector<int> parent;
@@ -48,4 +48,4 @@ public:
         return count;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-解法一：动态规划
-思路：遍历数组的每个元素，如果当前元素大于在他前面的任何一个元素，状态转移方程为 if n-1 < n, f(n)=f(n-1)+1
-时间复杂度：O(n*n)
-```
+# 解法一：动态规划
+# 思路：遍历数组的每个元素，如果当前元素大于在他前面的任何一个元素，状态转移方程为 if n-1 < n, f(n)=f(n-1)+1
+# 时间复杂度：O(n*n)
+# ```
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         # 注意处理异常输入
@@ -17,12 +17,12 @@ class Solution:
                 if nums[j] < nums[i]:
                     n[i] = max(n[i], n[j] + 1)
         return max(n)
-```
+# ```
 
-解法二：贪心算法 + 二分查找
-思路：如果后续的元素大于数组末尾的元素，则接在末尾；否则找到第一个大于等于元素的值，然后替换
-时间复杂度：O(nlog⁡n)
-```
+# 解法二：贪心算法 + 二分查找
+# 思路：如果后续的元素大于数组末尾的元素，则接在末尾；否则找到第一个大于等于元素的值，然后替换
+# 时间复杂度：O(nlog⁡n)
+# ```
 class Solution(object):
     def lengthOfLIS(self, nums):
         """
@@ -49,4 +49,4 @@ class Solution(object):
             tail[left] = nums[i]
         return len(tail)
 
-```
+# ```

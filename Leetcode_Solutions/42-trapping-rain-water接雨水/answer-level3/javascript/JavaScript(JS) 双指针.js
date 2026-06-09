@@ -1,9 +1,9 @@
-### 解题思路
-双指针思路
+// ### 解题思路
+// 双指针思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} height
  * @return {number}
@@ -34,4 +34,4 @@ var trap = function (height) {
     }
     return count
 };
-```
+// ```

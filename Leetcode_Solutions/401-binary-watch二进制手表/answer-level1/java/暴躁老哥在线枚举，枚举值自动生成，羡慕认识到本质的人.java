@@ -1,4 +1,4 @@
-```java
+// ```java
 public List<String> readBinaryWatch(int num) {
 
         int[] nums = new int[]{8,4,2,1};
@@ -35,4 +35,4 @@ public List<String> readBinaryWatch(int num) {
             }
         }
     }
-```
+// ```

@@ -1,25 +1,25 @@
-### 解题思路
-还是要讲清楚里面diameter是点中的线有多少，所以
-max(left_height+right_height, diameter(r.right),diameter(r.left))
-height function也是计算，点间的线有多少
+# ### 解题思路
+# 还是要讲清楚里面diameter是点中的线有多少，所以
+# max(left_height+right_height, diameter(r.right),diameter(r.left))
+# height function也是计算，点间的线有多少
 
-```
+# ```
 def _height(node: TreeNode) -> int:
     if not node:
         return 0
     left = _height(node.left)
     right = _height(node.right)
     return max(left,right) + 1
-```
-l_h = _height(root.left)
-r_h = _height(root.right)
-注意这里没有加一，是因为diameter是node中的线有多少
-return max(l_h + r_h, self.diameterOfBinaryTree(root.left), self.diameterOfBinaryTree(root.right))
+# ```
+# l_h = _height(root.left)
+# r_h = _height(root.right)
+# 注意这里没有加一，是因为diameter是node中的线有多少
+# return max(l_h + r_h, self.diameterOfBinaryTree(root.left), self.diameterOfBinaryTree(root.right))
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -57,4 +57,4 @@ class Solution:
 #         depth(root)
 #         return self.ans - 1
 
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
-1.普通迭代
-2.先序遍历（将空节点也记录）
-3.DFS
-4.BFS
+# ### 解题思路
+# 1.普通迭代
+# 2.先序遍历（将空节点也记录）
+# 3.DFS
+# 4.BFS
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -77,4 +77,4 @@ class Solution(object):
             else:
                 return False
         return True
-```
+# ```

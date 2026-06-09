@@ -1,9 +1,9 @@
-### 解题思路
-利用stringBuilder可以改变的特性，从根节点到叶子节点，全部记录下来，一旦到了叶子节点就将String转化为int累加起来
+// ### 解题思路
+// 利用stringBuilder可以改变的特性，从根节点到叶子节点，全部记录下来，一旦到了叶子节点就将String转化为int累加起来
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

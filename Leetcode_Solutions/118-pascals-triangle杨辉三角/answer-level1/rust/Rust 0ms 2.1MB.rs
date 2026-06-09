@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/4f23abd27f469236656a36c97155787701af50ed5897e54c5202904f42975c04-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4f23abd27f469236656a36c97155787701af50ed5897e54c5202904f42975c04-image.png)
 
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn generate(num_rows: i32) -> Vec<Vec<i32>> {
         let mut t = Vec::with_capacity(num_rows as usize);
@@ -20,4 +20,4 @@ impl Solution {
         t
     }
 }
-```
+// ```

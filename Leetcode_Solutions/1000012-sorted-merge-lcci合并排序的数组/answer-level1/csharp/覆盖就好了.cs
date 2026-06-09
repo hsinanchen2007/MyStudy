@@ -1,9 +1,9 @@
-### 解题思路
-从指定位置覆盖然后利用Sort排序
+// ### 解题思路
+// 从指定位置覆盖然后利用Sort排序
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public void Merge(int[] A, int m, int[] B, int n) {
         for (int i = 0; i < n; i++)
@@ -13,4 +13,4 @@ public class Solution {
             Array.Sort(A);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseList(head *ListNode) *ListNode {
 	var pre *ListNode
 	cur := head
@@ -16,4 +16,4 @@ func reverseList(head *ListNode) *ListNode {
 	return pre
 }
 
-```
+// ```

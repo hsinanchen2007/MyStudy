@@ -1,12 +1,12 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  :
- * Date   : 2019/9/2
- *
- * 解题思路：话不多说,连除判断质因子
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  :
+//  * Date   : 2019/9/2
+//  *
+//  * 解题思路：话不多说,连除判断质因子
+//  */
+// ```
 public boolean isUgly(int num) {
 
     if(num < 1){
@@ -32,4 +32,4 @@ public boolean isUgly(int num) {
     }
 
 }
-```
+// ```

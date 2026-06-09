@@ -1,4 +1,4 @@
-```
+// ```
 var search = function (nums, target) {
     let map = new Map()
     nums.forEach((num, i) => {
@@ -8,4 +8,4 @@ var search = function (nums, target) {
     })
     return map.get(target) || 0
 };
-```
+// ```

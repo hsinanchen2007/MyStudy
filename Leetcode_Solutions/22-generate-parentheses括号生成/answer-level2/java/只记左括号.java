@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/5223d2f4a23811370af5de0534efdd30a75969ff02a00d4d9c716780996b61ca-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5223d2f4a23811370af5de0534efdd30a75969ff02a00d4d9c716780996b61ca-image.png)
 
-关键点：右括号个数 = 当前字符长度 - 左括号个数
-```java
+// 关键点：右括号个数 = 当前字符长度 - 左括号个数
+// ```java
 public List<String> generateParenthesis(int n) {
     if (n < 1) return Collections.emptyList();
     if (n == 1) return Collections.singletonList("()");
@@ -33,4 +33,4 @@ private void _generate(int leftCnt, int max, List<String> res, String curr) {
     }
     // reverse state
 }
-```
+// ```

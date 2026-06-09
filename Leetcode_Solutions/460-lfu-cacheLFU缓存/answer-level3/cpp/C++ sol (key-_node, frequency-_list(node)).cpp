@@ -1,14 +1,14 @@
-### 解题思路
-1. 跟 LRU 类似的，创建 key->node 的hash表，其中node 要包含 freq（频率） 和 it（指向对应双向链表的指针）
-2. node当中的freq的作用是，通过key我们可以找到对应的node，而对应node的访问频率可以找到对应的双向链表 O(1)
-3. node当中的it的作用是，我们在第2步找到的对应链表，可以通过it找到其在双向链表的准确位置O(1)
-4. 需要注意的是put 操作，如果capacity已满，则删除频率最低的链表当中末尾的元素，当该链表为空时，还要从 cache 当中移除
-5. 在put时，如果capacity没有满，则直接插入元素，其访问频率初始化成1
-6. 特别需要注意的是，get时也有一个put操作，这是为了更新当前node的频率在m与cache当中的位子。
+// ### 解题思路
+// 1. 跟 LRU 类似的，创建 key->node 的hash表，其中node 要包含 freq（频率） 和 it（指向对应双向链表的指针）
+// 2. node当中的freq的作用是，通过key我们可以找到对应的node，而对应node的访问频率可以找到对应的双向链表 O(1)
+// 3. node当中的it的作用是，我们在第2步找到的对应链表，可以通过it找到其在双向链表的准确位置O(1)
+// 4. 需要注意的是put 操作，如果capacity已满，则删除频率最低的链表当中末尾的元素，当该链表为空时，还要从 cache 当中移除
+// 5. 在put时，如果capacity没有满，则直接插入元素，其访问频率初始化成1
+// 6. 特别需要注意的是，get时也有一个put操作，这是为了更新当前node的频率在m与cache当中的位子。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct Node {
     Node(int key, int val, int freq) : key(key), val(val), freq(freq) {}
 
@@ -90,4 +90,4 @@ public:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

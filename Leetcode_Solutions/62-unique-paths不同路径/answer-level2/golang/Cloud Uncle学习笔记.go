@@ -1,5 +1,5 @@
-1.递归
-```
+// 1.递归
+// ```
 func uniquePaths(m int, n int) int {
     if m <= 0 || n <= 0 {
         return 0
@@ -13,9 +13,9 @@ func uniquePaths(m int, n int) int {
 
     return down + right
 }
-```
-2.二维数组，动态规划(动态递推)，时间复杂度O(m*n),空间复杂度O(m*n)
-```
+// ```
+// 2.二维数组，动态规划(动态递推)，时间复杂度O(m*n),空间复杂度O(m*n)
+// ```
 func uniquePaths(m int, n int) int {
     if m <= 0 || n <= 0 {
         return 0
@@ -39,9 +39,9 @@ func uniquePaths(m int, n int) int {
 
     return pathArr[m-1][n-1]
 }
-```
-3.一维数组，动态规划(递推),时间复杂度O(m*n),空间复杂度O(n)
-```
+// ```
+// 3.一维数组，动态规划(递推),时间复杂度O(m*n),空间复杂度O(n)
+// ```
 func uniquePaths(m int, n int) int { 
     if m <= 0 || n <= 0 {
         return 0
@@ -58,4 +58,4 @@ func uniquePaths(m int, n int) int {
 
     return pathArr[n-1]
 }
-```
+// ```

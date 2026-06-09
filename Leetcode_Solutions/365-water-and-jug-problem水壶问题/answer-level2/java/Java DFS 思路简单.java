@@ -1,9 +1,9 @@
-### 解题思路
-DFS 遍历所有状态，不过未避免死循环，用一个Set将遍历过的状态存起来，这种思路是比较容易想到的
+// ### 解题思路
+// DFS 遍历所有状态，不过未避免死循环，用一个Set将遍历过的状态存起来，这种思路是比较容易想到的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if (x + y < z) {
@@ -64,4 +64,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

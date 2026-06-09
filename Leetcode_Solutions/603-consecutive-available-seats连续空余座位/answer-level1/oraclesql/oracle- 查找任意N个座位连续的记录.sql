@@ -1,6 +1,6 @@
 
 
-```sql
+-- ```sql
 select
     seat_id
 from
@@ -17,4 +17,4 @@ from
     )
 where cnt >= 2 -- 2改为N，可实现查找任意N个座位连续的记录。
 order by seat_id
-```
+-- ```

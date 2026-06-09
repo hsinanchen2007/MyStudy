@@ -1,4 +1,4 @@
-```js
+// ```js
 var permutation = function(S) {
     const result = []
     const sArr = S.split("")
@@ -18,4 +18,4 @@ var permutation = function(S) {
     huisu([], sArr)
     return result
 };
-```
+// ```

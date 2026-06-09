@@ -1,6 +1,6 @@
-### 分治
-将`[bottomLeft, topRight]`所包括的矩形区域进行二分，横着划分或者竖着划分都行，递归调用计算船舶的总数。那么，`nCountShips = nLeftCountShips + nRightCountShips = nTopCountShips + nBottomCountShips`。如果矩形区域内没有船，则返回0；如果有船，则递归求解；如果不能进行二分了，则返回1（该整数点有一艘船）。
-```
+// ### 分治
+// 将`[bottomLeft, topRight]`所包括的矩形区域进行二分，横着划分或者竖着划分都行，递归调用计算船舶的总数。那么，`nCountShips = nLeftCountShips + nRightCountShips = nTopCountShips + nBottomCountShips`。如果矩形区域内没有船，则返回0；如果有船，则递归求解；如果不能进行二分了，则返回1（该整数点有一艘船）。
+// ```
 /**
  * // This is Sea's API interface.
  * // You should not implement it, or speculate about its implementation
@@ -51,5 +51,5 @@ public:
 		return nCountShips;
 	}
 };
-```
-我果真不适合写题解，写文章啊！
+// ```
+// 我果真不适合写题解，写文章啊！

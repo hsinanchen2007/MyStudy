@@ -1,9 +1,9 @@
 
-i：代表第一个点可到达的最后一个位置
-j：代表第二个点可到达的最后一个位置
-k：代表第三个点可到达的最后一个位置
-## 代码
-```
+// i：代表第一个点可到达的最后一个位置
+// j：代表第二个点可到达的最后一个位置
+// k：代表第三个点可到达的最后一个位置
+// ## 代码
+// ```
 int getnum(char *s, int l, int r) {
     if (l < r && s[l] == '0') return -1;
     int x = 0;
@@ -42,5 +42,5 @@ char ** restoreIpAddresses(char * s, int* returnSize){
     }
     return res;
 }
-```
+// ```
 

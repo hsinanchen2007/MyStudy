@@ -1,4 +1,4 @@
-```python
+# ```python
 def maxTurbulenceSize(A):
     """
         1. dp问题: 这里我们不应该关注数值本身, 而是应该关注变化的趋势.
@@ -28,4 +28,4 @@ def maxTurbulenceSize(A):
     return max(dp) + 1
 
 print(maxTurbulenceSize([9,4,2,10,7,8,8,1,9]))
-```
+# ```

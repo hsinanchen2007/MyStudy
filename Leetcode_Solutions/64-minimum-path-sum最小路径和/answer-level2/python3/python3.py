@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         r = len(grid)
@@ -13,4 +13,4 @@ class Solution:
             for j in range(1,c):
                 res[i][j] = min(res[i-1][j], res[i][j-1]) + grid[i][j]
         return res[-1][-1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-递归遍历&回溯算法
+// ### 解题思路
+// 递归遍历&回溯算法
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         res = new ArrayList<>();
@@ -35,8 +35,8 @@ class Solution {
 
     private List<List<Integer>> res;
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def __init__(self):
         self.res = []
@@ -61,8 +61,8 @@ class Solution:
             self.getPath(node.left, path+[node.val], Sum-node.val)
         if node.right != None:
             self.getPath(node.right, path+[node.val], Sum-node.val)
-```
-```c++ []
+// ```
+// ```c++ []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -107,4 +107,4 @@ private:
 private:
     vector<vector<int>> res;
 };
-```
+// ```

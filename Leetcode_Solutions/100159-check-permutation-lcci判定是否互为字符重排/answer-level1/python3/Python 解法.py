@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-- 通过256 散列表确定每个字符的次数
-- 遍历散列表比较每一个字符出现次数
+# - 通过256 散列表确定每个字符的次数
+# - 遍历散列表比较每一个字符出现次数
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def CheckPermutation(self, s1, s2):
         """
@@ -36,4 +36,4 @@ if __name__ == '__main__':
     s2 = 'bac'
     solution = Solution()
     print(solution.CheckPermutation(s1, s2))
-```
+# ```

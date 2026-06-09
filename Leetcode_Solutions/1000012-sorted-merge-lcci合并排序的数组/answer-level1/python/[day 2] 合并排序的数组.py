@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-从后往前比较
+# 从后往前比较
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, A, m, B, n):
         """
@@ -27,4 +27,4 @@ class Solution(object):
         while n:
             A[n-1]=B[n-1]
             n -= 1
-```
+# ```

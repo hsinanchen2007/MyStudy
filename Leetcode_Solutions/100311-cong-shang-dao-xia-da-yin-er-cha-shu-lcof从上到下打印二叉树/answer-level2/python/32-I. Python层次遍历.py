@@ -1,9 +1,9 @@
-### 解题思路
-对于树的层次遍历最常用的方法就是使用队列，每次将队首的节点的非空左右孩子入队，再删除队首节点，直到队空。
+# ### 解题思路
+# 对于树的层次遍历最常用的方法就是使用队列，每次将队首的节点的非空左右孩子入队，再删除队首节点，直到队空。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution(object):
                 queue.append(node.right)
             del queue[0]
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         words=sorted([word[::-1] for word in words])#会按照字典序排序
@@ -11,4 +11,4 @@ class Solution:
                 res+=len(words[i])
                 count+=1
         return res+count
-```
+# ```

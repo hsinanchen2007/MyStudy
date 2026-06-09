@@ -1,14 +1,14 @@
-### 解题思路
-维持一个单调的list，在list中保存key和value；map中用key映射到list的iterator
-inc时把对应元素和list前面的相比，把value较大的往前面交换
-同理，dec时把对应元素和list后面的相比，把value较小的往后面交换
+// ### 解题思路
+// 维持一个单调的list，在list中保存key和value；map中用key映射到list的iterator
+// inc时把对应元素和list前面的相比，把value较大的往前面交换
+// 同理，dec时把对应元素和list后面的相比，把value较小的往后面交换
 
-![image.png](https://pic.leetcode-cn.com/cd9f4fb15f678c878d21e6f6b6e72fb20ad578af0b45790a76826408fa29cfa3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cd9f4fb15f678c878d21e6f6b6e72fb20ad578af0b45790a76826408fa29cfa3-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class AllOne {
 public:
     list<pair<string, int>> m_list;
@@ -85,4 +85,4 @@ public:
  * string param_3 = obj->getMaxKey();
  * string param_4 = obj->getMinKey();
  */
-```
+// ```

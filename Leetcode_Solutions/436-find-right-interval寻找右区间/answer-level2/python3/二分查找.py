@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findRightInterval(self, intervals: List[List[int]]) -> List[int]:
         """
@@ -25,4 +25,4 @@ class Solution:
                 ans.append(sorted_index_intervals[i][-1])  
 
         return ans
-```
+# ```

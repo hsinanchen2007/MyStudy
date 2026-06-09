@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int min3(int x, int y, int z) {
@@ -21,6 +21,6 @@ public:
         return dp[R][C];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/6ab97b100e8d571838f356dd66ff5a2ae71554bc4732c80fedfd73e68de39e22-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6ab97b100e8d571838f356dd66ff5a2ae71554bc4732c80fedfd73e68de39e22-image.png)

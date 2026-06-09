@@ -1,17 +1,17 @@
-我们让程序来模拟我们输出数字
+# 我们让程序来模拟我们输出数字
 
-首先用 begin_i和end_i ,begin_j和end_j 记录下横轴和纵轴的开始和结束位置
+# 首先用 begin_i和end_i ,begin_j和end_j 记录下横轴和纵轴的开始和结束位置
 
-然后写出 从左到右 从上到下 从右到左 从下到上 为一个大循环
+# 然后写出 从左到右 从上到下 从右到左 从下到上 为一个大循环
 
-每当输出了一个横轴就begin_i+1 输出纵轴就end_i-1
+# 每当输出了一个横轴就begin_i+1 输出纵轴就end_i-1
 
-以此类推 注意边值问题
+# 以此类推 注意边值问题
 
-记录输出了多少个数字 如果输出了所有数字就跳出循环
+# 记录输出了多少个数字 如果输出了所有数字就跳出循环
  
 
-``` python
+# ``` python
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         begin_i=0
@@ -52,4 +52,4 @@ class Solution:
                 
                 break
         return result
-```
+# ```

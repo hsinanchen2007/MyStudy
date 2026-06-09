@@ -1,12 +1,12 @@
-### 解题思路
-为了减轻遍历次数，可以计算出需要会循环多少次track；
-然后只用遍历一次num_people根据remain(剩余多少)和track(遍历次数)对应赋值即可
-res[i] = a + base; 其中a是当前需要给的糖果，可能为0，base为之前轮次给的糖果
-base公式为：(num_people * (track * (track - 1)) / 2) + track * (i + 1)，自己品吧!
-其实就是(b + 0n) + (b + 1n) + (b + 2n) +  ...。
-### 代码
+// ### 解题思路
+// 为了减轻遍历次数，可以计算出需要会循环多少次track；
+// 然后只用遍历一次num_people根据remain(剩余多少)和track(遍历次数)对应赋值即可
+// res[i] = a + base; 其中a是当前需要给的糖果，可能为0，base为之前轮次给的糖果
+// base公式为：(num_people * (track * (track - 1)) / 2) + track * (i + 1)，自己品吧!
+// 其实就是(b + 0n) + (b + 1n) + (b + 2n) +  ...。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} candies
  * @param {number} num_people
@@ -33,4 +33,4 @@ var distributeCandies = function(candies, num_people) {
     }
     return res;
 };
-```
+// ```

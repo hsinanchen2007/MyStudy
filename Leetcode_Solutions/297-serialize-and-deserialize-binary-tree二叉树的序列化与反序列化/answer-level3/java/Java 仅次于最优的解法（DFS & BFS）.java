@@ -1,6 +1,6 @@
-执行用时：2 ms，仅次于0ms的最优提交，但如果你看过0ms解法，就知道这个实际已经是最优解了。
-（0ms解法摘录在最后，相当鬼才）
-```java
+// 执行用时：2 ms，仅次于0ms的最优提交，但如果你看过0ms解法，就知道这个实际已经是最优解了。
+// （0ms解法摘录在最后，相当鬼才）
+// ```java
 public class Codec {
     public String serialize(TreeNode root) {
         if (root == null) return null;
@@ -47,10 +47,10 @@ public class Codec {
         return node;
     }
 }
-```
+// ```
 
-补一个广度优先算法，利用层序遍历实现：
-```java
+// 补一个广度优先算法，利用层序遍历实现：
+// ```java
 public class Codec {
     public String serialize(TreeNode root) {
         if (root == null) return null;
@@ -111,12 +111,12 @@ public class Codec {
         return val;
     }
 }
-```
+// ```
 
 
 
-0ms解法，优秀到没朋友！
-```java
+// 0ms解法，优秀到没朋友！
+// ```java
 public class Codec {
     private TreeNode root;
 
@@ -129,5 +129,5 @@ public class Codec {
         return root;
     }
 }
-```
+// ```
 

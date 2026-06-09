@@ -1,4 +1,4 @@
-```
+// ```
 // 判断奇数字符串的个数长度为：总字符数 - 奇数数量的字符种类数 + 1 (区分大小写)
 var longestPalindrome = function(s) {
     let map = new Map();
@@ -22,4 +22,4 @@ var longestPalindrome = function(s) {
         return lenS - numOdd + 1;
     }
 };
-```
+// ```

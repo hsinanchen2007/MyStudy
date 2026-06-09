@@ -1,12 +1,12 @@
-### 解题思路
-init初始化队列
-push入队列
-pop出队列
-top返回队列顶端元素
-empty检查是否为空
-### 代码
+# ### 解题思路
+# init初始化队列
+# push入队列
+# pop出队列
+# top返回队列顶端元素
+# empty检查是否为空
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -56,4 +56,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

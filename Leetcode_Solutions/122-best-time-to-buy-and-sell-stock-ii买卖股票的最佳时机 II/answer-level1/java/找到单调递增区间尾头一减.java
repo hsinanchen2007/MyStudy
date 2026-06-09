@@ -1,4 +1,4 @@
-```
+// ```
 public int maxProfit(int[] prices) {
         int day = 0, profit = 0;
         while (day < prices.length) {
@@ -11,4 +11,4 @@ public int maxProfit(int[] prices) {
         }
         return profit;
     }
-```
+// ```

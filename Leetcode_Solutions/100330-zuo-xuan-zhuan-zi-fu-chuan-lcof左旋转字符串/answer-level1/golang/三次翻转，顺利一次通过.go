@@ -1,9 +1,9 @@
-### 解题思路
-先分段翻转前后两段字符串，然后整体翻转
+// ### 解题思路
+// 先分段翻转前后两段字符串，然后整体翻转
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseLeftWords(s string, n int) string {
     // 先做分别翻转，然后再整体翻转
     l := len(s)
@@ -32,4 +32,4 @@ func reverse(str []byte, start, end int) {
         end--
     }
 }
-```
+// ```

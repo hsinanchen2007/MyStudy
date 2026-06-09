@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/30bfee0f2c1607d6292866d23eb5102ff7a5e7a8c43428ce3a67e78c2c415f98-image.png)
-- 镜像也就是左右子树的左右节点值是否相等
-- 通过比较即可得出结果
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/30bfee0f2c1607d6292866d23eb5102ff7a5e7a8c43428ce3a67e78c2c415f98-image.png)
+# - 镜像也就是左右子树的左右节点值是否相等
+# - 通过比较即可得出结果
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution(object):
         return isSyt(root.left, root.right)
 
             
-```
+# ```

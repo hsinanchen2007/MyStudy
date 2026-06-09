@@ -1,5 +1,5 @@
-用栈模拟过程。
-```
+// 用栈模拟过程。
+// ```
 class Solution {
 public:
     struct node{
@@ -32,4 +32,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
     
-思路是自顶向下+ 记忆化memo。
-dfs 表示的是pre 的状态下， 从第i行开始到结束的最大seats 数目。
-check 表示的是 在当前candi 状态下， pre 是之前的状态， 当前第i 行是否符合题意、
+# 思路是自顶向下+ 记忆化memo。
+# dfs 表示的是pre 的状态下， 从第i行开始到结束的最大seats 数目。
+# check 表示的是 在当前candi 状态下， pre 是之前的状态， 当前第i 行是否符合题意、
     
 def maxStudents(self, seats: List[List[str]]) -> int:
         n = len(seats)

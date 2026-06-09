@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度O（m + n）
+// ### 解题思路
+// 时间复杂度O（m + n）
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -29,4 +29,4 @@ var searchMatrix = function(matrix = [], target) {
 
     return false
 };
-```
+// ```

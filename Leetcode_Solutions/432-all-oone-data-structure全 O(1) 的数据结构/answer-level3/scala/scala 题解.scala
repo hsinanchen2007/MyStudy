@@ -1,4 +1,4 @@
-```scala
+// ```scala
 import scala.collection.mutable
 
 class AllOne() {
@@ -78,4 +78,4 @@ class AllOne() {
   }
 
 }
-```
+// ```

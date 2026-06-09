@@ -1,9 +1,9 @@
-d为2
-![image.png](https://pic.leetcode-cn.com/2b5381e06e0391ff59c790a86fa7bcb3e15de0460eed2bdee8f2308654a9fc80-image.png)
-d为3
-![image.png](https://pic.leetcode-cn.com/0e86b6301c8c6bc7d9f3afa6691c0bd40e5801e978c0d62eccfd8a80f8537748-image.png)
+// d为2
+// ![image.png](https://pic.leetcode-cn.com/2b5381e06e0391ff59c790a86fa7bcb3e15de0460eed2bdee8f2308654a9fc80-image.png)
+// d为3
+// ![image.png](https://pic.leetcode-cn.com/0e86b6301c8c6bc7d9f3afa6691c0bd40e5801e978c0d62eccfd8a80f8537748-image.png)
 
-```
+// ```
 class Solution {
     public String multiply(String a, String b) {
         int d = 2; // 两两一组运算
@@ -56,4 +56,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

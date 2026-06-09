@@ -1,9 +1,9 @@
-### 解题思路
-#当每次+2的操作为nil时，+1的操作正好是中间值（奇数），（偶数是中间偏右的值）
+// ### 解题思路
+// #当每次+2的操作为nil时，+1的操作正好是中间值（奇数），（偶数是中间偏右的值）
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -20,4 +20,4 @@ func middleNode(head *ListNode) *ListNode {
 	}
 	return slow
 }
-```
+// ```

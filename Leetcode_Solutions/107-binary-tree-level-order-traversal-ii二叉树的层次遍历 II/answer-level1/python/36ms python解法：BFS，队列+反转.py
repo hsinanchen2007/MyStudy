@@ -1,10 +1,10 @@
-### 解题思路
-思路：BFS，这次不止要将左右结点送入队列，且加上深度
-结构：队列+反转
+# ### 解题思路
+# 思路：BFS，这次不止要将左右结点送入队列，且加上深度
+# 结构：队列+反转
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -49,4 +49,4 @@ class Solution:
                 listnew.append((n,node2.left,node2.right))
         result.reverse()
         return result
-```
+# ```

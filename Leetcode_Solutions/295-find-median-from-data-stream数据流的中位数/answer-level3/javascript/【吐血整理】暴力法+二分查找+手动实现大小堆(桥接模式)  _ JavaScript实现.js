@@ -1,9 +1,9 @@
 
-## 解法 1:暴力法
+// ## 解法 1:暴力法
 
-每次取出中位数的时候，都先将所有元素进行排序，然后再计算中位数。代码如下：
+// 每次取出中位数的时候，都先将所有元素进行排序，然后再计算中位数。代码如下：
 
-```javascript
+// ```javascript
 // 原文地址：https://xxoo521.com/2020-02-27-find-median-from-data-stream/
 
 var MedianFinder = function() {
@@ -27,19 +27,19 @@ MedianFinder.prototype.findMedian = function() {
     }
     return (this.data[mid] + this.data[mid + 1]) / 2;
 };
-```
+// ```
 
-也可以在添加元素的时候直接排序。时间复杂度一样，均是$O(NlogN)$，**无法 ac**。
+// 也可以在添加元素的时候直接排序。时间复杂度一样，均是$O(NlogN)$，**无法 ac**。
 
-## 解法 2: 二分查找
+// ## 解法 2: 二分查找
 
-其实不需要每次添加元素的时候，都对全部元素重新排序。如果之前一直保证元素是有序的，那么添加新元素的时候，只需要将元素插入到正确位置即可，查找正确位置可以通过「二分搜索」来完成。
+// 其实不需要每次添加元素的时候，都对全部元素重新排序。如果之前一直保证元素是有序的，那么添加新元素的时候，只需要将元素插入到正确位置即可，查找正确位置可以通过「二分搜索」来完成。
 
-为了保证之前的元素有序，针对每个新添加的元素都将其放入正确位置。
+// 为了保证之前的元素有序，针对每个新添加的元素都将其放入正确位置。
 
-代码实现如下：
+// 代码实现如下：
 
-```javascript
+// ```javascript
 // ac地址：https://leetcode-cn.com/problems/find-median-from-data-stream/
 // 原文地址：https://xxoo521.com/2020-02-27-find-median-from-data-stream/
 
@@ -81,30 +81,30 @@ MedianFinder.prototype.findMedian = function() {
     }
     return (this.data[mid] + this.data[mid + 1]) / 2;
 };
-```
+// ```
 
-二分查找需要$O(logN)$的复杂度，移动元素需要$O(N)$复杂度，所以时间复杂度是$O(N)$。
+// 二分查找需要$O(logN)$的复杂度，移动元素需要$O(N)$复杂度，所以时间复杂度是$O(N)$。
 
-## 解法 3: 最大堆 + 最小堆
+// ## 解法 3: 最大堆 + 最小堆
 
-对于这种动态数据，堆是极好的解决方案。准备两个堆：
+// 对于这种动态数据，堆是极好的解决方案。准备两个堆：
 
--   最大堆：存放数据流中较小的一半元素
--   最小堆：存放数据流中较大的一半元素
+// -   最大堆：存放数据流中较小的一半元素
+// -   最小堆：存放数据流中较大的一半元素
 
-需要保证这 2 个堆的“平衡”。这里的平衡指得是：最大堆的大小 = 最小堆的大小， 或者 最大堆的大小 = 最小堆的大小 + 1。
+// 需要保证这 2 个堆的“平衡”。这里的平衡指得是：最大堆的大小 = 最小堆的大小， 或者 最大堆的大小 = 最小堆的大小 + 1。
 
-当调用 findMedian 查询中位数的时候，中位数就是最大堆的堆顶元素，或者 (最大堆的堆顶元素 + 最小堆的堆顶元素)/2
+// 当调用 findMedian 查询中位数的时候，中位数就是最大堆的堆顶元素，或者 (最大堆的堆顶元素 + 最小堆的堆顶元素)/2
 
-剩下的问题就是怎么保证堆的平衡？步骤如下：
+// 剩下的问题就是怎么保证堆的平衡？步骤如下：
 
--   先让 num 入 maxHeap
--   取出 maxHeap 的堆顶元素，放入 minHeap
--   若此时`最大堆的大小 < 最小堆的大小`，取出 minHeap 的堆顶元素，让入 maxHeap
+// -   先让 num 入 maxHeap
+// -   取出 maxHeap 的堆顶元素，放入 minHeap
+// -   若此时`最大堆的大小 < 最小堆的大小`，取出 minHeap 的堆顶元素，让入 maxHeap
 
-由于 JavaScript 中没有堆，所以要自己实现。**在实现的时候，堆的代码其实只需要一份，堆中进行判定的比较函数由外界传入即可**。这是一种名为「桥接模式」的设计模式，具体可以看这篇文章：[《设计模式 - 桥接模式 - JavaScript》](https://xxoo521.com/2019-01-19-bridge-pattern/)
+// 由于 JavaScript 中没有堆，所以要自己实现。**在实现的时候，堆的代码其实只需要一份，堆中进行判定的比较函数由外界传入即可**。这是一种名为「桥接模式」的设计模式，具体可以看这篇文章：[《设计模式 - 桥接模式 - JavaScript》](https://xxoo521.com/2019-01-19-bridge-pattern/)
 
-```javascript
+// ```javascript
 // ac地址：https://leetcode-cn.com/problems/find-median-from-data-stream/
 // 原文地址：https://xxoo521.com/2020-02-27-find-median-from-data-stream/
 
@@ -171,11 +171,11 @@ class Heap {
         return null;
     }
 }
-```
+// ```
 
-整体的代码逻辑如下：
+// 整体的代码逻辑如下：
 
-```javascript
+// ```javascript
 // ac地址：https://leetcode-cn.com/problems/find-median-from-data-stream/
 // 原文地址：https://xxoo521.com/2020-02-27-find-median-from-data-stream/
 
@@ -200,14 +200,14 @@ MedianFinder.prototype.findMedian = function() {
         ? this.maxHeap.top()
         : (this.maxHeap.top() + this.minHeap.top()) / 2;
 };
-```
+// ```
 
-时间复杂度是$O(logN)$，空间复杂度是$O(N)$。
+// 时间复杂度是$O(logN)$，空间复杂度是$O(N)$。
 
-## 更多资料
+// ## 更多资料
 
-**若有错误，欢迎指正。若对您有帮助，请给个「关注+点赞」，您的支持是我更新的动力** 👇
+// **若有错误，欢迎指正。若对您有帮助，请给个「关注+点赞」，您的支持是我更新的动力** 👇
 
--   **📖Blog：[剑指 Offer + Leetcode 题解](https://xxoo521.com/algorithm/)**
--   **🐱Github ：[https://github.com/dongyuanxin/blog](https://github.com/dongyuanxin/blog)**
--   **🌟 公众号：[心谭博客](https://tva1.sinaimg.cn/large/006tNbRwly1g9xhhp50jpj31bi0hcju4.jpg)**
+// -   **📖Blog：[剑指 Offer + Leetcode 题解](https://xxoo521.com/algorithm/)**
+// -   **🐱Github ：[https://github.com/dongyuanxin/blog](https://github.com/dongyuanxin/blog)**
+// -   **🌟 公众号：[心谭博客](https://tva1.sinaimg.cn/large/006tNbRwly1g9xhhp50jpj31bi0hcju4.jpg)**

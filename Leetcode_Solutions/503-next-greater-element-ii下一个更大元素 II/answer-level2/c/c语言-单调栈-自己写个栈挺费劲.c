@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/0d772473dc1deb523420598c827e1e17156315b11a40dad48538959e7da74f7e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0d772473dc1deb523420598c827e1e17156315b11a40dad48538959e7da74f7e-image.png)
 
-相比c++可以使用的大量的库，c语言开发效率要低多了。想用栈自己写，挺费劲。
+// 相比c++可以使用的大量的库，c语言开发效率要低多了。想用栈自己写，挺费劲。
 
-```c
+// ```c
 
 #define MAX_NUMS 20000
 
@@ -93,4 +93,4 @@ int* nextGreaterElements(int* nums, int numsSize, int* returnSize){
 
     return ret;
 }
-```
+// ```

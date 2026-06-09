@@ -1,9 +1,9 @@
-### 解题思路
-每次寻找数组的中间节点作为子树的根节点，最后返回的树一定满足题目条件。
+// ### 解题思路
+// 每次寻找数组的中间节点作为子树的根节点，最后返回的树一定满足题目条件。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

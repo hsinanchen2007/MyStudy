@@ -1,5 +1,5 @@
-### 方法一 暴力
-```cpp
+// ### 方法一 暴力
+// ```cpp
 class Solution {
 public:
     vector<string> fizzBuzz(int n) {
@@ -13,10 +13,10 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-### 方法二 散列表（解决更复杂的规则）
-```cpp
+// ### 方法二 散列表（解决更复杂的规则）
+// ```cpp
 class Solution {
 public:
     vector<string> fizzBuzz(int n) {
@@ -34,4 +34,4 @@ public:
         return ans;
     }
 };
-```
+// ```

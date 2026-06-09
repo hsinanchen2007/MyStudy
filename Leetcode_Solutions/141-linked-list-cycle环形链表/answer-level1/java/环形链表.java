@@ -1,9 +1,9 @@
-### 解题思路
-双指针,1个走1步 1个走2步 有环必定重合
+// ### 解题思路
+// 双指针,1个走1步 1个走2步 有环必定重合
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -33,4 +33,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

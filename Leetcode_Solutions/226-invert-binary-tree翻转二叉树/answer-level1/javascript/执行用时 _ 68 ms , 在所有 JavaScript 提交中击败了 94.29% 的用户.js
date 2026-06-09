@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var invertTree = function (root) {
     let s1 = {}
     function sf(r, n) {
@@ -14,5 +14,5 @@ var invertTree = function (root) {
 /**
  * 该题主要使用递归思想，重新建树
  */
-```
+// ```
 

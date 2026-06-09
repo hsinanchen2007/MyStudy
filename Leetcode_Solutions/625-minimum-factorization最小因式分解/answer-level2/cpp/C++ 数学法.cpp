@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int smallestFactorization(int a) {
@@ -18,6 +18,6 @@ public:
         return res > INT_MAX ? 0 : res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/fe4c2b803a239a46ac25a40d45f2cc48313710d0141ac2b979bfac1485b61de4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fe4c2b803a239a46ac25a40d45f2cc48313710d0141ac2b979bfac1485b61de4-image.png)

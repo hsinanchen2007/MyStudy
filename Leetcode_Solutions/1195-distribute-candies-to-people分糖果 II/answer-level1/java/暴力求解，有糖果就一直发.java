@@ -1,11 +1,11 @@
-### 解题思路
-用一个变量i来计数，则i+1和剩余糖果数candies的较小值，是当前数组元素需要发放的糖果。
+// ### 解题思路
+// 用一个变量i来计数，则i+1和剩余糖果数candies的较小值，是当前数组元素需要发放的糖果。
 
-数组下标通过i % num_people 来定位，累加发放的糖果
+// 数组下标通过i % num_people 来定位，累加发放的糖果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int[] res = new int[num_people];
@@ -22,4 +22,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

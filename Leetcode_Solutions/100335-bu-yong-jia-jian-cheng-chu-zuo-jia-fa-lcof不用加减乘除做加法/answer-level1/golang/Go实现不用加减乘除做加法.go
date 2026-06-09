@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func add(a int, b int) int {
     sum := a
     for b!=0{
@@ -10,4 +10,4 @@ func add(a int, b int) int {
     }
     return sum
 }
-```
+// ```

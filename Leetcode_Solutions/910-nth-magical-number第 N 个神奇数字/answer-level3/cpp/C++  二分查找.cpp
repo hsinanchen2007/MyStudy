@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     using ull = unsigned long long;
@@ -23,6 +23,6 @@ public:
         return hi % M;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/e2bd38de338d6e55f2fba86e2e0fa5dc100f2f5221861ff775b9bcf6bb28dbea-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e2bd38de338d6e55f2fba86e2e0fa5dc100f2f5221861ff775b9bcf6bb28dbea-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
 func threeSum(_ nums: [Int]) -> [[Int]] {
     //小于三个时，不能成立
@@ -72,4 +72,4 @@ func threeSum(_ nums: [Int]) -> [[Int]] {
     return Array(set.map { $0.reduce([Int]()) { $0 + [Int](repeating: $1.key, count: $1.value) } })
 }
 }
-```
+// ```

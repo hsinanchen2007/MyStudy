@@ -1,22 +1,22 @@
-## 思路:
+# ## 思路:
 
-这道题关键在于,如何找到可以唯一标识具有相同字母并且个数也一样的**键**:
+# 这道题关键在于,如何找到可以唯一标识具有相同字母并且个数也一样的**键**:
 
-思路一:单词按字典顺序排序
+# 思路一:单词按字典顺序排序
 
-思路二:用素数.
+# 思路二:用素数.
 
-思路三: 按字母个数(大家自行写代码)
+# 思路三: 按字母个数(大家自行写代码)
 
-------
+# ------
 
 
 
-## 代码:
+# ## 代码:
 
-思路一
+# 思路一
 
-```python [1]
+# ```python [1]
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         from collections import defaultdict
@@ -24,9 +24,9 @@ class Solution:
         for s in strs:
             lookup["".join(sorted(s))].append(s)
         return list(lookup.values())
-```
+# ```
 
-```java [1]
+# ```java [1]
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         if (strs == null || strs.length ==0)  return new ArrayList<List<String>>();
@@ -42,11 +42,11 @@ class Solution {
         
     }
 }
-```
+# ```
 
-思路二
+# 思路二
 
-```python [2]
+# ```python [2]
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         from collections import defaultdict
@@ -58,9 +58,9 @@ class Solution:
                 key_val *= prime[ord(s) - 97]
             lookup[key_val].append(_str)
         return list(lookup.values())
-```
+# ```
 
-```java [2]
+# ```java [2]
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         int[] prime = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103};
@@ -76,5 +76,5 @@ class Solution {
         return new ArrayList<>(map.values());
     }
 }
-```
+# ```
 

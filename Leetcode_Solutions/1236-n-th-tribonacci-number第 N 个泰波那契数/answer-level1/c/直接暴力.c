@@ -1,4 +1,4 @@
-```
+// ```
 int tribonacci(int n){
     int i;
     if(n == 0) return 0;
@@ -12,5 +12,5 @@ int tribonacci(int n){
     }
     return d;
 }
-```
-![捕获.PNG](https://pic.leetcode-cn.com/857de5c41ce8b52f26d672a66e515d27e7507bdba7999cf801df6556ede927ff-%E6%8D%95%E8%8E%B7.PNG)
+// ```
+// ![捕获.PNG](https://pic.leetcode-cn.com/857de5c41ce8b52f26d672a66e515d27e7507bdba7999cf801df6556ede927ff-%E6%8D%95%E8%8E%B7.PNG)

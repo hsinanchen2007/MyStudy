@@ -1,4 +1,4 @@
-```
+# ```
 # https://leetcode-cn.com/problems/valid-square/
 class Solution:
     def validSquare(self, p1: List[int], p2: List[int], p3: List[int], p4: List[int]) -> bool:
@@ -28,7 +28,7 @@ class Solution:
                check_perpendicular(l13, l24) and check_intersection(s13, s24) or \
                check_perpendicular(l14, l23) and check_intersection(s14, s23)
 
-```
-向量长度相等且垂直，由check_perpendicular判断
-相交由check_intersection（中点相同）保证
+# ```
+# 向量长度相等且垂直，由check_perpendicular判断
+# 相交由check_intersection（中点相同）保证
 

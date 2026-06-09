@@ -1,6 +1,6 @@
-执行用时 :1 ms, 在所有 java 提交中击败了99.94% 的用户
-内存消耗 :35.9 MB, 在所有 java 提交中击败了82.66%的用户
-```
+// 执行用时 :1 ms, 在所有 java 提交中击败了99.94% 的用户
+// 内存消耗 :35.9 MB, 在所有 java 提交中击败了82.66%的用户
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -39,4 +39,4 @@ class Solution {
         return headTemp;
     }
 }
-```
+// ```

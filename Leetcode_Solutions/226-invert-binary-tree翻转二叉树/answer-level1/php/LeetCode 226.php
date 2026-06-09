@@ -1,9 +1,9 @@
-### 解题思路
-递归算法：核心思想就是左右树对调
+// ### 解题思路
+// 递归算法：核心思想就是左右树对调
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
         return $root;
     }
 }
-```
+// ```

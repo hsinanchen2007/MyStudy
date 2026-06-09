@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、二分查找
-2、查不到再遍历找位置，应该可以优化，找时间研究一下
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1、二分查找
+// 2、查不到再遍历找位置，应该可以优化，找时间研究一下
+// ### 代码
 
-```golang
+// ```golang
 func searchInsert(nums []int, target int) int {
 
     if len(nums) == 0 || target < nums[0]{
@@ -39,4 +39,4 @@ func searchInsert(nums []int, target int) int {
         }
         return res
     }
-```
+// ```

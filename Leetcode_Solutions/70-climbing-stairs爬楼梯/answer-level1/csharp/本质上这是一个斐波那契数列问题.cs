@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-找到f(n)的数学函数通式 `f(n) = f(n-1) + f(n-2)`,
-所以本质上这是一个斐波那契数列问题。
+// 找到f(n)的数学函数通式 `f(n) = f(n-1) + f(n-2)`,
+// 所以本质上这是一个斐波那契数列问题。
 
-### 程序实现
+// ### 程序实现
 
-```C#
+// ```C#
 public class Solution {
     public int ClimbStairs(int n) {
         if(n < 2){
@@ -20,4 +20,4 @@ public class Solution {
         return dp[n];
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-思路是先找旋转点，再二分查找。
+// 思路是先找旋转点，再二分查找。
 
-```cpp
+// ```cpp
 class Solution {
     int find(const vector<int>& nums, int lo, int hi, int target) {
         int m = -1;
@@ -51,4 +51,4 @@ public:
         } else return 0;
     }
 };
-```
+// ```

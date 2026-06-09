@@ -1,11 +1,11 @@
-### 解题思路
-首先创建一个字典用于存储每个元素的出现次数
-然后创建一个list，根据出现的频率排序
-逆序合并list输出即可
+# ### 解题思路
+# 首先创建一个字典用于存储每个元素的出现次数
+# 然后创建一个list，根据出现的频率排序
+# 逆序合并list输出即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def frequencySort(self, s):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             buckets[times-1] += val*times
         # 逆序合并输出
         return ''.join(buckets[::-1])
-```
+# ```

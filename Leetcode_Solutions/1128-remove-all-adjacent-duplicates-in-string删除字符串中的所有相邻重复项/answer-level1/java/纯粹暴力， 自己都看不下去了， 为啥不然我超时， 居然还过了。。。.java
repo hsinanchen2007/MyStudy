@@ -1,6 +1,6 @@
-暴力迭代， 自己都看不下去了， 为啥不然我超时， 居然还过了。。。
+// 暴力迭代， 自己都看不下去了， 为啥不然我超时， 居然还过了。。。
 
-```
+// ```
 class Solution {
     public String removeDuplicates(String S) {
         String ss = remove(S);
@@ -21,4 +21,4 @@ class Solution {
         return s;
     }
 }
-```
+// ```

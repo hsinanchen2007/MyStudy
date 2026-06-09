@@ -1,11 +1,11 @@
-### 解题思路
-递归实现，每次获取中间点的值，加入到树种；
-注意细节：1.mid的计算需要left + （right - left + 1）/2；
-2.退出条件
+// ### 解题思路
+// 递归实现，每次获取中间点的值，加入到树种；
+// 注意细节：1.mid的计算需要left + （right - left + 1）/2；
+// 2.退出条件
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ struct TreeNode* sortedArrayToBST(int* nums, int numsSize){
     
     return getMid(nums,numsSize,0,numsSize - 1);
 }
-```
+// ```

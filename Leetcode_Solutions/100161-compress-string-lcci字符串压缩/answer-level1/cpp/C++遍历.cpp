@@ -1,9 +1,9 @@
-### 解题思路
-直接遍历
+// ### 解题思路
+// 直接遍历
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string compressString(string S) {
@@ -24,4 +24,4 @@ public:
 
     }
 };
-```
+// ```

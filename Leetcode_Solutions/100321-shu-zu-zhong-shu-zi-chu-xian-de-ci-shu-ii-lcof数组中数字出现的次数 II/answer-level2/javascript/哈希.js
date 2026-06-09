@@ -1,9 +1,9 @@
-### 解题思路
-哈希解法
+// ### 解题思路
+// 哈希解法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -21,4 +21,4 @@ var singleNumber = function(nums) {
 
     return 0
 };
-```
+// ```

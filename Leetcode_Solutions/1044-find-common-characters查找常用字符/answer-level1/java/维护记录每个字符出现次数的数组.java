@@ -1,7 +1,7 @@
-执行用时 : 3 ms, 在Find Common Characters的Java提交中击败了100.00% 的用户
-内存消耗 : 36.8 MB, 在Find Common Characters的Java提交中击败了96.08% 的用户
+// 执行用时 : 3 ms, 在Find Common Characters的Java提交中击败了100.00% 的用户
+// 内存消耗 : 36.8 MB, 在Find Common Characters的Java提交中击败了96.08% 的用户
 
-```
+// ```
 class Solution {
     public List<String> commonChars(String[] A) {
         
@@ -57,4 +57,4 @@ class Solution {
 		return res;
     }
 }
-```
+// ```

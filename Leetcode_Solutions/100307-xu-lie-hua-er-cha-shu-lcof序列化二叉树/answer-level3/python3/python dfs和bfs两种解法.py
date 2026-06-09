@@ -1,7 +1,7 @@
-观察两种解法可以发现，往往序列化时的结构是什么，反序列化时的结构也是什么，序列化的时候用了dfs，反序列化的时候也用dfs；序列化的时候用了队列，反序列化的时候也用了队列。同时，反序列化的时候都需要额外的指针index去遍历data，取出数值到所需的结构中去。data仅仅扮演着取数容器的角色，而不直接参与到结构建设中。
+# 观察两种解法可以发现，往往序列化时的结构是什么，反序列化时的结构也是什么，序列化的时候用了dfs，反序列化的时候也用dfs；序列化的时候用了队列，反序列化的时候也用了队列。同时，反序列化的时候都需要额外的指针index去遍历data，取出数值到所需的结构中去。data仅仅扮演着取数容器的角色，而不直接参与到结构建设中。
 
-前序遍历做法
-```
+# 前序遍历做法
+# ```
 class Codec:
 
     def serialize(self, root):
@@ -46,9 +46,9 @@ class Codec:
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
 # codec.deserialize(codec.serialize(root))
-```
-BFS做法
-```
+# ```
+# BFS做法
+# ```
 class Codec:
 
     def serialize(self, root):
@@ -94,5 +94,5 @@ class Codec:
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
 # codec.deserialize(codec.serialize(root))
-```
+# ```
 

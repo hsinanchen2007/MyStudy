@@ -1,4 +1,4 @@
-首先，定义两者的pv操作变量分别为fo,ba，然后分析foo和bar的先后执行顺序，考虑到foo输出完以后，bar要输出，这时候要唤醒bar，因此，printfoo（）以后执行ba.unlock(),又考虑到printbar()以后要重新进行新一轮的printfoo(),所以printbar()之后执行fo.unlock()。在执行printfoo()和printbar()之前都要加锁，因此对应加上自己的锁即可。
+// 首先，定义两者的pv操作变量分别为fo,ba，然后分析foo和bar的先后执行顺序，考虑到foo输出完以后，bar要输出，这时候要唤醒bar，因此，printfoo（）以后执行ba.unlock(),又考虑到printbar()以后要重新进行新一轮的printfoo(),所以printbar()之后执行fo.unlock()。在执行printfoo()和printbar()之前都要加锁，因此对应加上自己的锁即可。
 
 class FooBar {
 private:

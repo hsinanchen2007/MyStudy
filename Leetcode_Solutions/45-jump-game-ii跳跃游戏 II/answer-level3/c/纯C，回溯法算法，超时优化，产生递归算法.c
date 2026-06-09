@@ -1,23 +1,23 @@
-### 解题思路
-方法一：回溯法，始终超时，因此考虑优化
-1,边界条件，当前位置 iCurPos >= numsSize
-.    iCurPos > numsSize  返回错误，返回至上一位置，进行长一步的试探，所以不存在
-.    iCurPos = numsSize 保存步数结果，并且返回上两层，进行长一步的试探
-2,回溯调用
-.    从 1 - nums[iCurPos] 开始调用回溯函数，返回true则j结束当前层的探测
+// ### 解题思路
+// 方法一：回溯法，始终超时，因此考虑优化
+// 1,边界条件，当前位置 iCurPos >= numsSize
+// .    iCurPos > numsSize  返回错误，返回至上一位置，进行长一步的试探，所以不存在
+// .    iCurPos = numsSize 保存步数结果，并且返回上两层，进行长一步的试探
+// 2,回溯调用
+// .    从 1 - nums[iCurPos] 开始调用回溯函数，返回true则j结束当前层的探测
 
-优化一，增加判断如果 iCurPos + num[iCurPos] >= numsSize 的话，可以直接结束
-优化二，当pCurStep >= pMinStep 当前步数已经大于已有的最小步数，可以直接结束当前层探测
-优化三，走每步的时候都考虑走最大的一步，每一步都决定出能够走出的最大一步，直到终点，由此找到了第二种解法，见方法二
+// 优化一，增加判断如果 iCurPos + num[iCurPos] >= numsSize 的话，可以直接结束
+// 优化二，当pCurStep >= pMinStep 当前步数已经大于已有的最小步数，可以直接结束当前层探测
+// 优化三，走每步的时候都考虑走最大的一步，每一步都决定出能够走出的最大一步，直到终点，由此找到了第二种解法，见方法二
 
 
-方法二：递归法
-1，在当前位置 iCurPos 上找出能够探寻最大长度的点 MAX(iCurPos + nums[i])  i=1 -> num[iCurPos]
-2，结束条件 (iCurPos + nums[iCurPos]) > numsSize 
+// 方法二：递归法
+// 1，在当前位置 iCurPos 上找出能够探寻最大长度的点 MAX(iCurPos + nums[i])  i=1 -> num[iCurPos]
+// 2，结束条件 (iCurPos + nums[iCurPos]) > numsSize 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 //方法二：递归法
 //1，在当前位置 iCurPos 上找出能够探寻最大长度的点 MAX(iCurPos + nums[i])  i=1 -> num[iCurPos]
@@ -144,4 +144,4 @@ int jump(int* nums, int numsSize){
     return iMinStep;
 }
 */
-```
+// ```

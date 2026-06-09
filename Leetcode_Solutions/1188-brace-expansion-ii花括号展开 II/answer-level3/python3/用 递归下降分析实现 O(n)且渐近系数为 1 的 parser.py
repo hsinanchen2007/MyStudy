@@ -1,14 +1,14 @@
-O(n)，  递归下降， parser
+# O(n)，  递归下降， parser
 
-语法
-```
+# 语法
+# ```
     expr -> item | item ',' expr
     item -> factor | factor item
     factor -> WORD | '{' expr '}'
-```
-python 代码
+# ```
+# python 代码
 
-```python
+# ```python
 import re
 from collections import namedtuple
 
@@ -95,4 +95,4 @@ if __name__ == '__main__':
     for i in li:
         print(pr.parse(i))
 
-```
+# ```

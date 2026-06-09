@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-依次找最小的进行拼接到结果串
+// 依次找最小的进行拼接到结果串
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func removeDuplicateLetters(s string) string {
     res := ""
     for k:=0; k<len(s); k++ {
@@ -57,4 +57,4 @@ func removeDuplicateLetters(s string) string {
     }
     return res
 }
-```
+// ```

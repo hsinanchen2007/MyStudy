@@ -1,9 +1,9 @@
-### 解题思路
-维护一个k大小的小顶堆，堆顶即为第K大元素
+// ### 解题思路
+// 维护一个k大小的小顶堆，堆顶即为第K大元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class KthLargest {
 
     PriorityQueue<Integer> q;
@@ -33,4 +33,4 @@ class KthLargest {
  * KthLargest obj = new KthLargest(k, nums);
  * int param_1 = obj.add(val);
  */
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1.先判断根结点是否存在
-2.对左右节点进行判断，这里学到一点就是建立函数来对左右节点进行操作，判断左右节点是否存在。
-3.然后对左右子树进行递归操作
+# ### 解题思路
+# 1.先判断根结点是否存在
+# 2.对左右节点进行判断，这里学到一点就是建立函数来对左右节点进行操作，判断左右节点是否存在。
+# 3.然后对左右子树进行递归操作
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution(object):
         #用递归函数比较左节点和右节点
         return dfs(root.left,root.right)
         
-```
+# ```

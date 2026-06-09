@@ -1,9 +1,9 @@
-### 解题思路
-很简单的思路，遇到嵌套括号就分别分配给AB
+// ### 解题思路
+// 很简单的思路，遇到嵌套括号就分别分配给AB
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int* maxDepthAfterSplit(char * seq, int* returnSize){
     *returnSize = strlen(seq);
     int continueFlag = 1;
@@ -14,4 +14,4 @@ int* maxDepthAfterSplit(char * seq, int* returnSize){
     }
     return allocate;
 }
-```
+// ```

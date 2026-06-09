@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         max_s = 0
@@ -18,4 +18,4 @@ class Solution:
                 max_s = 2*j-2
                 ls = s[i-j+2:i+j]
         return ls
-```
+# ```

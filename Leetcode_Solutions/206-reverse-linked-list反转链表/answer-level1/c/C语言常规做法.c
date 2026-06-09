@@ -1,6 +1,6 @@
-- 方法一
-此方法时间复杂度O(N)，空间复杂度O(1)。
-```c
+// - 方法一
+// 此方法时间复杂度O(N)，空间复杂度O(1)。
+// ```c
 struct ListNode* reverseList(struct ListNode* head){
     if(head==0) return 0;
     struct ListNode*tmp,*header=head;
@@ -12,10 +12,10 @@ struct ListNode* reverseList(struct ListNode* head){
     }
     return header;
 }
-```
-- 方法二
-此方法时间复杂度O(N)，空间复杂度O(N)。
-```c
+// ```
+// - 方法二
+// 此方法时间复杂度O(N)，空间复杂度O(N)。
+// ```c
 struct ListNode* reverseList(struct ListNode* head){
     if(head==0) return head;
     short length=0,i;
@@ -37,4 +37,4 @@ struct ListNode* reverseList(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

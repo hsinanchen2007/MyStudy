@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public int MissingNumber(int[] nums) {
           if (nums[0] == 0 && nums.Length == 1)
@@ -29,4 +29,4 @@ public class Solution {
             return res;
     }
 }
-```
+// ```

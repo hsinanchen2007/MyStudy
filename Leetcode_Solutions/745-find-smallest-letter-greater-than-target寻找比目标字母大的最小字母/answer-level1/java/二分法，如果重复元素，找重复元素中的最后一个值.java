@@ -1,9 +1,9 @@
-### 解题思路
-二分法，如果重复元素，找重复元素中的最后一个值。
+// ### 解题思路
+// 二分法，如果重复元素，找重复元素中的最后一个值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char nextGreatestLetter(char[] letters, char target) {
         int len = letters.length;
@@ -26,4 +26,4 @@ class Solution {
         return letters[end];
     }
 }
-```
+// ```

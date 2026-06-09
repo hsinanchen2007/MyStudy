@@ -1,9 +1,9 @@
-### 解题思路
-使用快速选择法，因此首先需要理解快速排序中的分区操作
+// ### 解题思路
+// 使用快速选择法，因此首先需要理解快速排序中的分区操作
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int FindKthLargest(int[] nums, int k) {
         int lowestItem=nums.Length-k;
@@ -66,4 +66,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

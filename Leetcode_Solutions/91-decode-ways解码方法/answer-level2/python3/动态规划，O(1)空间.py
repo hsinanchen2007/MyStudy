@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/d029a61545477a771dcbeafbb934eb279d2d06646cfa06f0b457789b5e07950d-image.png)
+# ![image.png](https://pic.leetcode-cn.com/d029a61545477a771dcbeafbb934eb279d2d06646cfa06f0b457789b5e07950d-image.png)
 
-只需要记录前两个扫描值的答案就可以了，连续两次出现0就剪枝。
+# 只需要记录前两个扫描值的答案就可以了，连续两次出现0就剪枝。
 
-```
+# ```
 class Solution:
     def numDecodings(self, s: str) -> int:
         n=len(s)
@@ -31,4 +31,4 @@ class Solution:
                 return 0
             ans2,ans1=ans1,ans
         return ans
-```
+# ```

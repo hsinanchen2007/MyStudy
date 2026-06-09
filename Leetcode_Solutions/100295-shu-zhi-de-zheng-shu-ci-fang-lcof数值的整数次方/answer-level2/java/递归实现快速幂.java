@@ -1,9 +1,9 @@
-### 解题思路
-第二种递归方法很巧妙，O（logn）
+// ### 解题思路
+// 第二种递归方法很巧妙，O（logn）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     /*这种方法会超时，因为pow(x, n/2)被算了两遍
     public double myPow(double x, int n) {
@@ -37,4 +37,4 @@ class Solution {
 
 
 
-```
+// ```

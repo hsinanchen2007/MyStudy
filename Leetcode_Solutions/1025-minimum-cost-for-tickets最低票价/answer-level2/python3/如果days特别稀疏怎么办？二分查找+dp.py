@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
         dp = [float('inf')]*len(days)
@@ -12,4 +12,4 @@ class Solution:
                 indexr = bisect.bisect_right(days,index)-1
                 dp[i] = min(dp[i],dp[indexr]+costs[j])
         return dp[-1]
-```
+# ```

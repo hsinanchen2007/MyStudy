@@ -1,10 +1,10 @@
-### 解题思路
-官方题解 方法3：用翻转代替旋转
-和其他题解基本大同小异。
+// ### 解题思路
+// 官方题解 方法3：用翻转代替旋转
+// 和其他题解基本大同小异。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func rotate(matrix [][]int)  {
 
     // 获取N
@@ -29,7 +29,7 @@ func rotate(matrix [][]int)  {
 		}
 	}
 }
-```
+// ```
 
-### 运行结果
-![image.png](https://pic.leetcode-cn.com/f6276f5d25e2275bbef626672b547ced4ed9c19edfd64a30f6cb7b8ef485b5bb-image.png)
+// ### 运行结果
+// ![image.png](https://pic.leetcode-cn.com/f6276f5d25e2275bbef626672b547ced4ed9c19edfd64a30f6cb7b8ef485b5bb-image.png)

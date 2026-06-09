@@ -1,18 +1,18 @@
-![image.png](https://pic.leetcode-cn.com/62a2a69f528b17ad629d39f5606d7bceaa9baad847739c04829cdc25620a31b0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/62a2a69f528b17ad629d39f5606d7bceaa9baad847739c04829cdc25620a31b0-image.png)
 
-## 注意：
-```
+// ## 注意：
+// ```
 我刚开始的时候只注意了序列化的时候把节点后加特殊符号分开，却忽略了根节点处的问题
 比如母树只有根节点12，子树只个节点2。如果不处理根节点则序列化后
 s1:12_#_#_
 s2:2_#_#_
 明明应该是输出false却变成了true
 所以要在根节点前加一个特殊符号做出节点分割，保证每个节点前后都独立，就可以通过~
-```
+// ```
 
 
-Code：
-```
+// Code：
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -83,4 +83,4 @@ public:
 
 
 
-```
+// ```

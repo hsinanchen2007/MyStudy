@@ -1,4 +1,4 @@
-```php
+// ```php
 function maxProfit($prices)
     {
         // dp
@@ -27,4 +27,4 @@ function maxProfit($prices)
         }
         return $dp[$len - 1][1][0];
     }
-```
+// ```

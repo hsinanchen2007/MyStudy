@@ -1,9 +1,9 @@
-### 解题思路
-栈，使用栈的思想就能很轻松的解决
+// ### 解题思路
+// 栈，使用栈的思想就能很轻松的解决
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValid(char * s){
     int len=strlen(s);
     int a[10001]={0};
@@ -47,4 +47,4 @@ bool isValid(char * s){
     return true;
 }
 
-```
+// ```

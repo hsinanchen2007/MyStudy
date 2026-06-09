@@ -1,9 +1,9 @@
-### 解题思路
-简单的二分查找
+// ### 解题思路
+// 简单的二分查找
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func search(reader ArrayReader, target int) int {
 	lo := 0
@@ -27,4 +27,4 @@ func search(reader ArrayReader, target int) int {
 	}
 	return -1
 }
-```
+// ```

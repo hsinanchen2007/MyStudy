@@ -1,6 +1,6 @@
-暴力法：
+// 暴力法：
 
-```c++
+// ```c++
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -12,10 +12,10 @@ public:
         return i;
     }
 };
-```
-二分查找：
+// ```
+// 二分查找：
 
-```c++
+// ```c++
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -32,6 +32,6 @@ public:
         return left;
     }
 };
-```
-二分查找很简单，用left和right代替下标进行计算，比较mid与target的值，判断目标区间。
-需要注意边界情况。
+// ```
+// 二分查找很简单，用left和right代替下标进行计算，比较mid与target的值，判断目标区间。
+// 需要注意边界情况。

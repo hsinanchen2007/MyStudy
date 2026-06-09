@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char Change(char c)
 {
     switch(c){
@@ -35,4 +35,4 @@ return false;
 else
 return true;
 }
-```
+// ```

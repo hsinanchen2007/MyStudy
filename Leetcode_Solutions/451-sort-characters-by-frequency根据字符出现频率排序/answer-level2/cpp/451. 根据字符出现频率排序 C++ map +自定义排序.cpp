@@ -1,9 +1,9 @@
-### 解题思路
-定义1个全局map 保存字符出现的顺序；然后用sort排序
+// ### 解题思路
+// 定义1个全局map 保存字符出现的顺序；然后用sort排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 unordered_map<char, int> countmap;
 class Solution {
 public:
@@ -31,4 +31,4 @@ public:
         return s;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-跟大家一样用二进制表示已访问的结点的记录。用了dp做剪枝。
-```python
+# 跟大家一样用二进制表示已访问的结点的记录。用了dp做剪枝。
+# ```python
     def shortestPathLength(self, graph: List[List[int]]) -> int:
         n = len(graph)
         target = (1 << n) - 1  # 目标即全部已访问
@@ -18,4 +18,4 @@
                     dp[_visited][next] = step  # 更新dp
                     q.append((_visited, next))  # 入队BFS
         return -1  # 不存在这样的路径
-```
+# ```

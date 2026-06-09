@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、采用归并思想，进行递归合并
-2、将多个排序合并，转化成最终两个序列合并
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1、采用归并思想，进行递归合并
+// 2、将多个排序合并，转化成最终两个序列合并
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -58,4 +58,4 @@ class Solution {
         return result.next;
     }
 }
-```
+// ```

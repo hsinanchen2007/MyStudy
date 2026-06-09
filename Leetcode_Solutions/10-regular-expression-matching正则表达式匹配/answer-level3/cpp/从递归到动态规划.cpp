@@ -1,6 +1,6 @@
-### 解题思路
-开始直接递归法，比较粗暴,20ms,
-```cpp
+// ### 解题思路
+// 开始直接递归法，比较粗暴,20ms,
+// ```cpp
 class Solution {
     bool interMatch(char* s, int slen, char* p,int plen){
 	if(plen==0){
@@ -42,10 +42,10 @@ public:
         return interMatch((char*)s.c_str(), s.length(), (char*)p.c_str(),p.length());
     }
 };
-```
-经过改进，时候动态规划再次修改， 0ms, 8.9m
+// ```
+// 经过改进，时候动态规划再次修改， 0ms, 8.9m
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -91,4 +91,4 @@ public:
         return ret;
     }
 };
-```
+// ```

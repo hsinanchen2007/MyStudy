@@ -1,6 +1,6 @@
-用两个变量来进行滚动的动态规划。
-cur'表示目前以nums[i]结尾的前i个元素的最大子序和，pre表示前i-1个元素的最大子序和，result是保留过程是以i结尾的最大子序和的最大值，也就是整个数组的最大子序和。
-```
+// 用两个变量来进行滚动的动态规划。
+// cur'表示目前以nums[i]结尾的前i个元素的最大子序和，pre表示前i-1个元素的最大子序和，result是保留过程是以i结尾的最大子序和的最大值，也就是整个数组的最大子序和。
+// ```
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -16,4 +16,4 @@ public:
         return result;
     }
 };
-```
+// ```

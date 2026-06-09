@@ -1,9 +1,9 @@
-### 解题思路
-跟前两个还是差不多，照着模板写一遍就行了
+// ### 解题思路
+// 跟前两个还是差不多，照着模板写一遍就行了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 vector<vector<int>> answer;
@@ -33,4 +33,4 @@ vector<vector<int>> combinationSum3(int k, int n) {
         return answer;
     }
 };
-```
+// ```

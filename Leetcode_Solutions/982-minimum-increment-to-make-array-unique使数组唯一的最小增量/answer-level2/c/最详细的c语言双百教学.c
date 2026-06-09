@@ -1,9 +1,9 @@
-### 解题思路
-整体思路是这次的多余值要传递给下一个，sum会在下一个进行计算，另外要注意两个数的距离和多余的树之间的比较。
+// ### 解题思路
+// 整体思路是这次的多余值要传递给下一个，sum会在下一个进行计算，另外要注意两个数的距离和多余的树之间的比较。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minIncrementForUnique(int *A, int ASize)
 {
     int array[40001];
@@ -41,4 +41,4 @@ int minIncrementForUnique(int *A, int ASize)
     return sum;
 }
 
-```
+// ```

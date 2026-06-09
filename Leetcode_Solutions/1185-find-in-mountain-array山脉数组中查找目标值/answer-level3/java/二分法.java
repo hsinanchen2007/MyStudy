@@ -1,8 +1,8 @@
-&emsp;&emsp;这题的思路就是先二分法找最高的山，然后再用二分法向两边找。<br>
-&emsp;&emsp;不过要注意一下，两种二分法的方式有一点不同。<br>
-&emsp;&emsp;另外，有点难受的是，javascript怎么都通不过，所以才改成了Java写了。
+// &emsp;&emsp;这题的思路就是先二分法找最高的山，然后再用二分法向两边找。<br>
+// &emsp;&emsp;不过要注意一下，两种二分法的方式有一点不同。<br>
+// &emsp;&emsp;另外，有点难受的是，javascript怎么都通不过，所以才改成了Java写了。
 
-```java
+// ```java
 class Solution {
     public int findH(MountainArray mountainArr) {
         int s = 0, e = mountainArr.length() - 1;
@@ -47,4 +47,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-构建2个二维dp数组dp_max[start][end],dp_min[start][end],分别维护对于从名nums的vector中，start到end这段子数组，先手所能取到的最小值，在后手的回合，求start到end这段子数组的最小值，并存在dp_min[start][end]以备下次使用。在先手的回合，求start到end这段子数组的最大值，并存在dp_max[start][end]以备下次使用。
+// ### 解题思路
+// 构建2个二维dp数组dp_max[start][end],dp_min[start][end],分别维护对于从名nums的vector中，start到end这段子数组，先手所能取到的最小值，在后手的回合，求start到end这段子数组的最小值，并存在dp_min[start][end]以备下次使用。在先手的回合，求start到end这段子数组的最大值，并存在dp_max[start][end]以备下次使用。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int maxm =static_cast<int>( pow(2, 31) )- 1;
@@ -73,4 +73,4 @@ int predictWinner(int**dp_max, int**dp_min, bool firstTurn,int start,int end,vec
     else return false;
     }
 };
-```
+// ```

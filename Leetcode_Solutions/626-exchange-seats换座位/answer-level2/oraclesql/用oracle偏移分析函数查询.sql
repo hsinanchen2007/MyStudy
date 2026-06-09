@@ -1,5 +1,5 @@
-用oracle偏移分析函数lag/lead, 一列查出当前行及上/下行，再通过case判断。
-```
+-- 用oracle偏移分析函数lag/lead, 一列查出当前行及上/下行，再通过case判断。
+-- ```
 select id,
        (case
          when mod(rn, 2) = 1 and s3 is not null then

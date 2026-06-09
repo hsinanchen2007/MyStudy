@@ -1,9 +1,9 @@
-### 解题思路
-用map保存当前node 和复制链表的node对应关系
+// ### 解题思路
+// 用map保存当前node 和复制链表的node对应关系
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -47,4 +47,4 @@ public:
         return dummy->next;
     }
 };
-```
+// ```

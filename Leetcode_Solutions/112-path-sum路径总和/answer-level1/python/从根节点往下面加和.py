@@ -1,9 +1,9 @@
-### 解题思路
-注意，这个问题的终止条件，是左子树或者右子树满足，都算满足
+# ### 解题思路
+# 注意，这个问题的终止条件，是左子树或者右子树满足，都算满足
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def _dfs(self, root, curr_sum: int, sum: int) -> bool:
         if not root:
@@ -20,4 +20,4 @@ class Solution:
         if not root:
             return False
         return self._dfs(root, 0, sum)
-```
+# ```

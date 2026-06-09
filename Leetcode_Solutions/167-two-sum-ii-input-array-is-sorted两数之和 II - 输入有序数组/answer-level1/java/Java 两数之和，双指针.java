@@ -1,4 +1,4 @@
-有序就考虑双指针，朝靠近target的方向移动
+// 有序就考虑双指针，朝靠近target的方向移动
 
 public static int[] twoSum(int[] numbers, int target) {
         int left =0;

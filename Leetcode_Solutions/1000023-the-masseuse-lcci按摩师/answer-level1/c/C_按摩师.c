@@ -1,9 +1,9 @@
-### 解题思路
-和打家劫舍相同，动态规划
+// ### 解题思路
+// 和打家劫舍相同，动态规划
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int massage(int* nums, int numsSize){
 
     if(numsSize==0||nums==0)return 0;
@@ -19,4 +19,4 @@ int massage(int* nums, int numsSize){
     return temp;
     
 }
-```
+// ```

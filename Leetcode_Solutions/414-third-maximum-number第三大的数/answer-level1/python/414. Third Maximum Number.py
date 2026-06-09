@@ -1,11 +1,11 @@
-1. 去重
-2. 倒序排序
-3. 其他情况处理
-- 无值 返回None
-- len(L) >= 3 返回L[-1]
-- len(L) < 3 返回的是L[0]
+# 1. 去重
+# 2. 倒序排序
+# 3. 其他情况处理
+# - 无值 返回None
+# - len(L) >= 3 返回L[-1]
+# - len(L) < 3 返回的是L[0]
 
-```
+# ```
 class Solution(object):
     def thirdMax(self, nums):
         """
@@ -30,4 +30,4 @@ class Solution(object):
         if len(L) == 0: 
           return None
         return L[0]
-```
+# ```

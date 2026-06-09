@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         dic = {}
@@ -9,4 +9,4 @@ class Solution:
             dic[var] = index
         return False
             
-```
+# ```

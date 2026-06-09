@@ -1,15 +1,15 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/15
- *
- * 解题思路: 怎么想 怎么做 统计当前字符个数
- *
- * 注意: 跳出循环陷阱
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/15
+//  *
+//  * 解题思路: 怎么想 怎么做 统计当前字符个数
+//  *
+//  * 注意: 跳出循环陷阱
+//  *
+//  */
+// ```
 public int compress(char[] chars) {
 
     int index = 0;
@@ -39,4 +39,4 @@ public int compress(char[] chars) {
     }
     return index;
 }
-```
+// ```

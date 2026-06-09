@@ -1,4 +1,4 @@
-```
+// ```
 public int strStr(int nums[], int target) {
         int len = nums.length;
         int left = 0, right = len -1;
@@ -15,4 +15,4 @@ public int strStr(int nums[], int target) {
         }
         return nums[left] < target ? left + 1 : left;
     }
-```
+// ```

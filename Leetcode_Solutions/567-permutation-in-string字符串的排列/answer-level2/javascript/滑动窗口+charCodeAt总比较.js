@@ -1,4 +1,4 @@
-```js
+// ```js
 var checkInclusion = function(s1: string, s2: string): boolean {
   if (s2.length < s1.length) {
     return false;
@@ -45,4 +45,4 @@ var checkInclusion = function(s1: string, s2: string): boolean {
     return s[i].charCodeAt(0) - 97;
   }
 };
-```
+// ```

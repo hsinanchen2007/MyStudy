@@ -1,4 +1,4 @@
-```
+// ```
 public int getSum(int a, int b) {
         int digit = 1;
         int sum = 0;
@@ -14,4 +14,4 @@ public int getSum(int a, int b) {
         }
         return sum;
     }
-```
+// ```

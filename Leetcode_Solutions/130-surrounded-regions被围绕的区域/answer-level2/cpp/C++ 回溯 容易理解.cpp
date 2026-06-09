@@ -1,9 +1,9 @@
-### 解题思路
-对边界上的'O'进行dfs。
+// ### 解题思路
+// 对边界上的'O'进行dfs。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void solve(vector<vector<char>>& board) {
@@ -61,4 +61,4 @@ public:
         return x >= 0 && y >= 0 && x < board.size() && y < board[0].size();
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int maxAliveYear(int* birth, int birthSize, int* death, int deathSize){
     int a[2001] = { 0 };
     for (int i = 0; i < birthSize; i++) {
@@ -18,6 +18,6 @@ int maxAliveYear(int* birth, int birthSize, int* death, int deathSize){
     }
     return year+1900;
 }
-```
-前缀和
-当作公交上下车，如果出生则在出生年加一，如果死亡则在死亡后的一年减一，对数组遍历一遍即可找出最大出生人数所在的年份
+// ```
+// 前缀和
+// 当作公交上下车，如果出生则在出生年加一，如果死亡则在死亡后的一年减一，对数组遍历一遍即可找出最大出生人数所在的年份

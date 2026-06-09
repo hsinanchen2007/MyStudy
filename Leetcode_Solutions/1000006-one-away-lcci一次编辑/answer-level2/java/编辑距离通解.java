@@ -1,9 +1,9 @@
-### 解题思路
-简单思路就是算编辑距离，然后判断最短编辑距离是否大于二，虽然时间慢了点，但是如果只能改一次改成只能改 n 次，那么只需结果处修改为判断 dp[fl-1][sl-1] < n 就可以了。
+// ### 解题思路
+// 简单思路就是算编辑距离，然后判断最短编辑距离是否大于二，虽然时间慢了点，但是如果只能改一次改成只能改 n 次，那么只需结果处修改为判断 dp[fl-1][sl-1] < n 就可以了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean oneEditAway(String first, String second) {
         if(first == null || second == null
@@ -32,4 +32,4 @@ class Solution {
         return dp[fl-1][sl-1] < 2;
     }
 }
-```
+// ```

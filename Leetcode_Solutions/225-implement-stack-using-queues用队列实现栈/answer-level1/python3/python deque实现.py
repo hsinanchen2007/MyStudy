@@ -1,5 +1,5 @@
 
-```
+# ```
 from collections import deque
 class MyStack:
 
@@ -61,4 +61,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

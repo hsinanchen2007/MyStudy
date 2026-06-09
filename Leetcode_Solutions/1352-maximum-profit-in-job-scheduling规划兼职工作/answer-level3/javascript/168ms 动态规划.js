@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {number[]} startTime
  * @param {number[]} endTime
@@ -32,4 +32,4 @@ var jobScheduling = function(startTime, endTime, profit) {
     }
     return res;
 };
-```
+// ```

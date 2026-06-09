@@ -1,10 +1,10 @@
-### 解题思路
-先排序
-然后一次遍历
+// ### 解题思路
+// 先排序
+// 然后一次遍历
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] missingTwo(int[] nums) {
         Arrays.sort(nums);
@@ -39,4 +39,4 @@ class Solution {
         return new int[]{a, b};
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-对于每一个二进制位，1出现的次数要么是3的倍数，要么是3的倍数加1，如果是后者那说明出现一次的数字在这位上是1.
+// ### 解题思路
+// 对于每一个二进制位，1出现的次数要么是3的倍数，要么是3的倍数加1，如果是后者那说明出现一次的数字在这位上是1.
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int singleNumber(int* nums, int numsSize){
     int result = 0;
     for(int i=0;i<32;i++){
@@ -15,4 +15,4 @@ int singleNumber(int* nums, int numsSize){
     }
     return result;
 }
-```
+// ```

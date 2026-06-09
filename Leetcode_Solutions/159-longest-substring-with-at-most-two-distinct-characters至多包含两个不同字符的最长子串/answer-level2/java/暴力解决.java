@@ -1,9 +1,9 @@
-### 解题思路
-不停向stack中压入数据，当压入的数据时第三的时候，记录最大长度，再把stack中顶部的数据弹出，在计算下一次。
+// ### 解题思路
+// 不停向stack中压入数据，当压入的数据时第三的时候，记录最大长度，再把stack中顶部的数据弹出，在计算下一次。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstringTwoDistinct(String s) {
         if (s == null || s.isEmpty()) {
@@ -39,4 +39,4 @@ class Solution {
         return maxLength;
     }
 }
-```
+// ```

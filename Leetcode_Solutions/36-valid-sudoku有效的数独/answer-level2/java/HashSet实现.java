@@ -1,12 +1,12 @@
-### 解题思路
-再加入新元素前先判断一下ROWS、COLS、BOXS中对应位置有没有该元素。 
-if(ROWS[i].contains(c) || COLS[j].contains(c) || BOXS[i/3*3+j/3].contains(c)){
-    return false;
-}
+// ### 解题思路
+// 再加入新元素前先判断一下ROWS、COLS、BOXS中对应位置有没有该元素。 
+// if(ROWS[i].contains(c) || COLS[j].contains(c) || BOXS[i/3*3+j/3].contains(c)){
+//     return false;
+// }
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -43,4 +43,4 @@ public class Solution {
     }
 }
 
-```
+// ```

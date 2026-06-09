@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/c17b9bcfc3428ce3bf11e0584bd224fd791ced895f6b6a8053982f94d1411ce3-image.png)
-解题思路:统计每种字母出现的次数，除以该字母在balloon中出现的次数，取最小值。
-```
+// ![image.png](https://pic.leetcode-cn.com/c17b9bcfc3428ce3bf11e0584bd224fd791ced895f6b6a8053982f94d1411ce3-image.png)
+// 解题思路:统计每种字母出现的次数，除以该字母在balloon中出现的次数，取最小值。
+// ```
     int maxNumberOfBalloons(string text) {
         int cnum[5] = {0}; int min = 10000;
         for(int i = 0;i<text.size();++i){
@@ -15,5 +15,5 @@
         }
         return min;
     }
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-循环遍历分开陆地和海洋，最终结果就是每个海洋和陆地之间最短距离的最大值
+// ### 解题思路
+// 循环遍历分开陆地和海洋，最终结果就是每个海洋和陆地之间最短距离的最大值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -41,4 +41,4 @@ var maxDistance = function(grid) {
     }
     return max
 };
-```
+// ```

@@ -1,7 +1,7 @@
 
-使用互斥锁控制
+// 使用互斥锁控制
 
-`
+// `
 class Foo {
 private:
     pthread_mutex_t mutex_one;

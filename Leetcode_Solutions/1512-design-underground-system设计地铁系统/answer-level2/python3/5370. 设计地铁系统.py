@@ -1,9 +1,9 @@
-### 解题思路
-这题花了我很多时间，第一次遇到这类设计题真得很懵逼。下面的代码中基本就是要算什么，就设什么样的数据结构，由于题目保证了出站一定在入站后，所以checkOut的时候，可以简单地去计算一段旅程的时间差。
+# ### 解题思路
+# 这题花了我很多时间，第一次遇到这类设计题真得很懵逼。下面的代码中基本就是要算什么，就设什么样的数据结构，由于题目保证了出站一定在入站后，所以checkOut的时候，可以简单地去计算一段旅程的时间差。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class UndergroundSystem:
 
     def __init__(self):
@@ -21,4 +21,4 @@ class UndergroundSystem:
 
     def getAverageTime(self, startStation: str, endStation: str) -> float:
         return sum(self.travel[(startStation,endStation)])/len(self.travel[(startStation,endStation)])
-```
+# ```

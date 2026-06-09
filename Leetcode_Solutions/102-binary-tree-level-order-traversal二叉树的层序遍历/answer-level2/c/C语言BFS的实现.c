@@ -1,5 +1,5 @@
-这种问题用C语言真的很蛋疼，主要是C语言不支持变长数组，所以比较痛苦。
-```
+// 这种问题用C语言真的很蛋疼，主要是C语言不支持变长数组，所以比较痛苦。
+// ```
 int maxDepth(struct TreeNode* root){
     int left =0;
     int right =0;
@@ -74,4 +74,4 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
     return result;
 }
 
-```
+// ```

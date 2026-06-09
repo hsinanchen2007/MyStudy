@@ -1,10 +1,10 @@
-### 解题思路
-后序遍历，把左子树接在root和root.right之间。
-之所以用后序遍历是因为只有当把左右子树都处理成链表的时候才能进行拼接。
+# ### 解题思路
+# 后序遍历，把左子树接在root和root.right之间。
+# 之所以用后序遍历是因为只有当把左右子树都处理成链表的时候才能进行拼接。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution(object):
             
             
         
-```
+# ```

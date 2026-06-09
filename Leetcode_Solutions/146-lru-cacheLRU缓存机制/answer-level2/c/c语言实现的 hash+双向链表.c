@@ -1,40 +1,40 @@
-写个题解记录下这题，写了好久。。。。。。
-算法核心思路：
-    要用接近O（1）的时间复杂度选用：hash表+双向链表，
-    缓存空间恒为capacity，hash冲突采用线性探索的开发地址法，hash码相同的数据用链表链接，提高查找效率
+// 写个题解记录下这题，写了好久。。。。。。
+// 算法核心思路：
+//     要用接近O（1）的时间复杂度选用：hash表+双向链表，
+//     缓存空间恒为capacity，hash冲突采用线性探索的开发地址法，hash码相同的数据用链表链接，提高查找效率
 
-    put算法思路
-    一、如果节点为空直接存入，结束
-    二、节点不为空，如有相同的key，则替换,结束
-    三、节点不为空、缓存已满
-        1、最少使用节点和要添加元素hashcode相同,新元素替换最少使用节点，结束
-        2、最少使用节点和要添加节点hashcode不同，删除最少使用节点，进入第四步
-            a、最少使用节点len为0（表示index和存储数据的hashcode不同，不是该节点应存的数据）：找出该数据的链头，并删除链的该节点（注意拼接）
-            b、最少使用节点len为1：直接删除
-            c、最少使用节点len为2：用该节点的下一节点替换该元素、删除下一节点空间（注意拼接）（注意不直接删除）
-    四、节点不为空、有空位
-        a、该节点len等于0，把该节点移到其他空节点（注意拼接），新元素填充该节点
-        b、该节点len大于0，找一个空位添加元素，该节点 链上新添加的节点
+//     put算法思路
+//     一、如果节点为空直接存入，结束
+//     二、节点不为空，如有相同的key，则替换,结束
+//     三、节点不为空、缓存已满
+//         1、最少使用节点和要添加元素hashcode相同,新元素替换最少使用节点，结束
+//         2、最少使用节点和要添加节点hashcode不同，删除最少使用节点，进入第四步
+//             a、最少使用节点len为0（表示index和存储数据的hashcode不同，不是该节点应存的数据）：找出该数据的链头，并删除链的该节点（注意拼接）
+//             b、最少使用节点len为1：直接删除
+//             c、最少使用节点len为2：用该节点的下一节点替换该元素、删除下一节点空间（注意拼接）（注意不直接删除）
+//     四、节点不为空、有空位
+//         a、该节点len等于0，把该节点移到其他空节点（注意拼接），新元素填充该节点
+//         b、该节点len大于0，找一个空位添加元素，该节点 链上新添加的节点
 
-    贴一个打印的缓存结构好j理解
-    capacity=10,size=10,head.key=11,tail.key=13{
-        0,size:0==>key:12,val:17->;
-        1,size:2==>key:1,val:20->key:11,val:7->;
-        2,size:2==>key:2,val:15->key:12,val:17->;
-        3,size:2==>key:3,val:16->key:13,val:17->;
-        4,size:0==>key:13,val:17->;
-        5,size:1==>key:5,val:18->;
-        6,size:1==>key:6,val:19->;
-        7,size:0==>key:11,val:7->;
-        8,size:1==>key:8,val:1->;
-        9,size:1==>key:9,val:1->;
-        orderNext=>key:11,val:7->key:8,val:1->key:5,val:18->key:6,val:19->key:9,val:1->key:12,val:17->key:1,val:20->key:3,val:16->key:2,val:15->key:13,val:17->;
-        orderLast=>key:13,val:17->key:2,val:15->key:3,val:16->key:1,val:20->key:12,val:17->key:9,val:1->key:6,val:19->key:5,val:18->key:8,val:1->key:11,val:7->;
-    }
+//     贴一个打印的缓存结构好j理解
+//     capacity=10,size=10,head.key=11,tail.key=13{
+//         0,size:0==>key:12,val:17->;
+//         1,size:2==>key:1,val:20->key:11,val:7->;
+//         2,size:2==>key:2,val:15->key:12,val:17->;
+//         3,size:2==>key:3,val:16->key:13,val:17->;
+//         4,size:0==>key:13,val:17->;
+//         5,size:1==>key:5,val:18->;
+//         6,size:1==>key:6,val:19->;
+//         7,size:0==>key:11,val:7->;
+//         8,size:1==>key:8,val:1->;
+//         9,size:1==>key:9,val:1->;
+//         orderNext=>key:11,val:7->key:8,val:1->key:5,val:18->key:6,val:19->key:9,val:1->key:12,val:17->key:1,val:20->key:3,val:16->key:2,val:15->key:13,val:17->;
+//         orderLast=>key:13,val:17->key:2,val:15->key:3,val:16->key:1,val:20->key:12,val:17->key:9,val:1->key:6,val:19->key:5,val:18->key:8,val:1->key:11,val:7->;
+//     }
 
-执行用时 :92 ms, 在所有 c 提交中击败了99.72%的用户
-内存消耗 :25.9 MB, 在所有 c 提交中击败了75.00%的用户
-```
+// 执行用时 :92 ms, 在所有 c 提交中击败了99.72%的用户
+// 内存消耗 :25.9 MB, 在所有 c 提交中击败了75.00%的用户
+// ```
 #define key_type int
 #define val_type int
 
@@ -397,4 +397,4 @@ void lRUCacheFree(LRUCache* obj) {}
  
  * lRUCacheFree(obj);
 */
-```
+// ```

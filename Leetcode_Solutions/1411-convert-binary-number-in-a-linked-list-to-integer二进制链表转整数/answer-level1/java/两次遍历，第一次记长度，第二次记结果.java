@@ -1,9 +1,9 @@
-### 解题思路
-两次遍历，第一次记长度，第二次记结果
+// ### 解题思路
+// 两次遍历，第一次记长度，第二次记结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

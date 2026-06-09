@@ -1,11 +1,11 @@
 
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int GetNum(char *s, int *i, int len)
 {
     int index = *i;
@@ -79,4 +79,4 @@ int calculate(char *s)
 
     return rlt;
 }
-```
+// ```

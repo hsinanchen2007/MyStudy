@@ -1,9 +1,9 @@
-### 解题思路
-因为有一半是相同的，所以情况只有三种，相邻或者不相邻时第一个或者第二个
+// ### 解题思路
+// 因为有一半是相同的，所以情况只有三种，相邻或者不相邻时第一个或者第二个
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def repeatedNTimes(A: Array[Int]): Int = {
          for(i<- 0 until A.length-1){
@@ -14,4 +14,4 @@ object Solution {
     A(0)   
     }
 }
-```
+// ```

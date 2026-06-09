@@ -1,4 +1,4 @@
-遍历链表，奇数节点放在一个链表中，偶数节点放在一个链表中，遍历完毕。奇数链表的尾节点指向偶链表的头节点，偶链表的尾节点为None,最后返回one_link.next（注意标志位的使用）
+# 遍历链表，奇数节点放在一个链表中，偶数节点放在一个链表中，遍历完毕。奇数链表的尾节点指向偶链表的头节点，偶链表的尾节点为None,最后返回one_link.next（注意标志位的使用）
     
     class Solution:
         def oddEvenList(self, head: ListNode) -> ListNode:

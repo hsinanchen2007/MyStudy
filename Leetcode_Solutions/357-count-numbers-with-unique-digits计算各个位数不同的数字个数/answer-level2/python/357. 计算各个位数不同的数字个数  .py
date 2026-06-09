@@ -1,9 +1,9 @@
-### 解题思路
-排列组合知识
+# ### 解题思路
+# 排列组合知识
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countNumbersWithUniqueDigits(self, n):
         #由于数字只有0~9，因此无重复出现数字的长度仅有10位
@@ -16,4 +16,4 @@ class Solution(object):
             ans_i *= (10 - i) 
             ans += ans_i
         return ans
-```
+# ```

@@ -1,5 +1,5 @@
-在每一个点上从 8 个方向收集信息，建立两个数组循环使用，减少空间复杂度
-```
+// 在每一个点上从 8 个方向收集信息，建立两个数组循环使用，减少空间复杂度
+// ```
 class Solution {
 public:
     double knightProbability(int N, int K, int r, int c) {
@@ -24,10 +24,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-还可以进一步，把二维坐标转换成一维坐标，精简代码，不过并没有改变时间和空间复杂度
-```
+// 还可以进一步，把二维坐标转换成一维坐标，精简代码，不过并没有改变时间和空间复杂度
+// ```
 class Solution {
 public:
     double knightProbability(int N, int K, int r, int c) {
@@ -49,6 +49,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
 

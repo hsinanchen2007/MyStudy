@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-Sieve of Eratosthenes
+// Sieve of Eratosthenes
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int isPrimeNumber (int num) {
     if (num == 1) return 0;
     if (num == 2) return 1;
@@ -48,4 +48,4 @@ int countPrimes(int n){
 
     return cnt;
 }
-```
+// ```

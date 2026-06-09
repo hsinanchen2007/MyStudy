@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def searchInsert(self, nums, target):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                 j = m - 1
         return i
 
-```
+# ```

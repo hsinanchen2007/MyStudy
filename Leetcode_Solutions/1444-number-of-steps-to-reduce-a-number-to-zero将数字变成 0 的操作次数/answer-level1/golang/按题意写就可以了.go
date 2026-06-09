@@ -1,4 +1,4 @@
-```
+// ```
 func numberOfSteps(num int) (rst int) {
 	for num != 0 {
 		if num&1 == 0 {
@@ -11,4 +11,4 @@ func numberOfSteps(num int) (rst int) {
 	}
 	return rst
 }
-```
+// ```

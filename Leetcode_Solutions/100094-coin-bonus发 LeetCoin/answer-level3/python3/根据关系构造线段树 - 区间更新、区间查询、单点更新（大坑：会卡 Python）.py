@@ -1,14 +1,14 @@
-LC 上的题真的无力吐槽！！！
+# LC 上的题真的无力吐槽！！！
 
-用 Python3 写线段树又会被卡时间，估计是官方没有测试过 python 的速度。。强烈建议运算量大的数据由于常数问题 + python 的运行效率放宽 Python 的运行时间。
+# 用 Python3 写线段树又会被卡时间，估计是官方没有测试过 python 的速度。。强烈建议运算量大的数据由于常数问题 + python 的运行效率放宽 Python 的运行时间。
 
-解题思路大概就是：
-1. 建树，然后遍历每一个节点来计算儿子节点的长度，做出节点的映射关系 L ，R，当做线段树区间更新的范围；
-2. 构建线段树，要用 Lazy 做延迟更新，将区间更新优化到 logN。
+# 解题思路大概就是：
+# 1. 建树，然后遍历每一个节点来计算儿子节点的长度，做出节点的映射关系 L ，R，当做线段树区间更新的范围；
+# 2. 构建线段树，要用 Lazy 做延迟更新，将区间更新优化到 logN。
 
-以下是通过 cpp ac 的版本：
+# 以下是通过 cpp ac 的版本：
 
-```cpp
+# ```cpp
 #define maxn 50005
 #define lson l, m, rt << 1
 #define rson m + 1, r, rt << 1 | 1
@@ -126,16 +126,16 @@ public:
         return ans;
     }
 };
-```
+# ```
 
----
+# ---
 
-还有一个 TLE 的 Python3 版本，代码一模一样。会卡在 48/50 这组数据上（@LeetCode中国 官方，可以来测试下 Python）。感觉用树状数组可过，主要是常数开销问题：
+# 还有一个 TLE 的 Python3 版本，代码一模一样。会卡在 48/50 这组数据上（@LeetCode中国 官方，可以来测试下 Python）。感觉用树状数组可过，主要是常数开销问题：
 
-![image.png](https://pic.leetcode-cn.com/7921a776ea0ab621fdefe6b65a035c80289e90f32db708475ea844b91109162d-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7921a776ea0ab621fdefe6b65a035c80289e90f32db708475ea844b91109162d-image.png)
 
 
-```
+# ```
 48382
 [[1
 33002]
@@ -143,9 +143,9 @@ public:
 38285]
 ...
 [3060... 1247159 more chars
-```
+# ```
 
-```python
+# ```python
 class Solution:
     
     def __init__(self):
@@ -241,4 +241,4 @@ class Solution:
                 ans.append(self.query(self.L[op[1]], self.R[op[1]], 1, self.cnt, 1) % self.MOD)    
         # print(ans)        
         return ans        
-```
+# ```

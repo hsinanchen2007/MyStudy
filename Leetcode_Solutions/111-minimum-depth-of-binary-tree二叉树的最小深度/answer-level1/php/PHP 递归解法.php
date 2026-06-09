@@ -1,6 +1,6 @@
-一定要理解递归函数的含义，具体在当前递归层级做了些什么，其他的不用考虑
+// 一定要理解递归函数的含义，具体在当前递归层级做了些什么，其他的不用考虑
 
-```php
+// ```php
 class Solution
 {
     function minDepth($root)
@@ -13,4 +13,4 @@ class Solution
         return $min + 1;
     }
 }
-```
+// ```

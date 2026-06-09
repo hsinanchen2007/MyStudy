@@ -1,4 +1,4 @@
-```c
+// ```c
 uint32_t reverseBits(uint32_t n) {
     unsigned long num=0;
     int i;
@@ -8,4 +8,4 @@ uint32_t reverseBits(uint32_t n) {
     }
     return num;
 }
-```
+// ```

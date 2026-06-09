@@ -1,11 +1,11 @@
-### 解题思路
-使用多一个栈buf作为缓冲，push操作直接加入buf中，
-当主栈st为空时，buf栈直接倒入st中
-使用peek或pop时，才确认st是否为空
+// ### 解题思路
+// 使用多一个栈buf作为缓冲，push操作直接加入buf中，
+// 当主栈st为空时，buf栈直接倒入st中
+// 使用peek或pop时，才确认st是否为空
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyQueue {
 public:
     /** Initialize your data structure here. */
@@ -61,4 +61,4 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
-```
+// ```

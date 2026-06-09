@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     private int min;
     private int smin = -1;
@@ -25,4 +25,4 @@ class Solution {
         preOrder(root.right);
     }
 }
-```
+// ```

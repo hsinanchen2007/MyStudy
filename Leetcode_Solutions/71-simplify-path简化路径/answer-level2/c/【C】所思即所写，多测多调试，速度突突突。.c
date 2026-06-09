@@ -1,9 +1,9 @@
-按照直观想法来处理：写一个数组，遇到.跳过，遇到..向上返回一级，遇到.......不变，遇到其他也不变。
-可以通过一个数组下标来处理返回上一级。其他的细节，调试修补一下。
-速度还是蛮快的。
-![image.png](https://pic.leetcode-cn.com/87300b62cd0cdd10f5edcb5fde0761e79bc2f83d16c0743df8e77618fe1e7b2b-image.png)
+// 按照直观想法来处理：写一个数组，遇到.跳过，遇到..向上返回一级，遇到.......不变，遇到其他也不变。
+// 可以通过一个数组下标来处理返回上一级。其他的细节，调试修补一下。
+// 速度还是蛮快的。
+// ![image.png](https://pic.leetcode-cn.com/87300b62cd0cdd10f5edcb5fde0761e79bc2f83d16c0743df8e77618fe1e7b2b-image.png)
 
-```
+// ```
 
 #define printf
 static void BackspaceOneLevel(char *ret, int *id)
@@ -101,5 +101,5 @@ char * simplifyPath(char * path){
     InsertCharToRet(ret, &i, '\0', 1);
     return ret;
 }
-```
+// ```
 

@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-rt[i][j] = (s1[i-1] == s3[i+j-1] && rt[i-1][j]) || (s2[j-1] == s3[i+j-1] && rt[i][j-1]);
+// rt[i][j] = (s1[i-1] == s3[i+j-1] && rt[i-1][j]) || (s2[j-1] == s3[i+j-1] && rt[i][j-1]);
 
 
-动态规划
+// 动态规划
 
-执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
-### 代码
+// 执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isInterleave(string s1, string s2, string s3) {
@@ -35,4 +35,4 @@ public:
         return rt[len_s1][len_s2];
     }
 };
-```
+// ```

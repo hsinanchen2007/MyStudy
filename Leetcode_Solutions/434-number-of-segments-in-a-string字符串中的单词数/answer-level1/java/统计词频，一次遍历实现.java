@@ -1,7 +1,7 @@
-一次遍历,当遍历到的字符不是空格时,temp加1,当遍历到最后一个字符不是空格时,结果加1;
-当遍历到的字符是空格并且temp大于0的时候结果加1。
-代码如下:
-```
+// 一次遍历,当遍历到的字符不是空格时,temp加1,当遍历到最后一个字符不是空格时,结果加1;
+// 当遍历到的字符是空格并且temp大于0的时候结果加1。
+// 代码如下:
+// ```
 public int countSegments(String s) {
 
         if (s == null || s.length() == 0) {
@@ -26,4 +26,4 @@ public int countSegments(String s) {
         return res;
 
     }
-```
+// ```

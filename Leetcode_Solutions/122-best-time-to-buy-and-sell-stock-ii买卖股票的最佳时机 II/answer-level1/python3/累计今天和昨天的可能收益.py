@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -10,4 +10,4 @@ class Solution(object):
             if prices[i] > prices[i-1]:
                 s += prices[i] - prices[i-1]
         return s
-```
+# ```

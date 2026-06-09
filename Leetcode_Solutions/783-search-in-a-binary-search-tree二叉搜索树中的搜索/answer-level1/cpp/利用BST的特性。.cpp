@@ -1,5 +1,5 @@
-# 普通解
-```
+// # 普通解
+// ```
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
@@ -12,10 +12,10 @@ public:
         return NULL;
     }
 };
-```
-显然普通解与这棵树是不是BST并无关系，但既然是BST，那么就从根结点遍历，并且根据`root->val > = < val`进行二分，提高效率。
-# 二分搜索
-```
+// ```
+// 显然普通解与这棵树是不是BST并无关系，但既然是BST，那么就从根结点遍历，并且根据`root->val > = < val`进行二分，提高效率。
+// # 二分搜索
+// ```
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
@@ -26,4 +26,4 @@ public:
         return nullptr;
     }
 };
-```
+// ```

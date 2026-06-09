@@ -1,4 +1,4 @@
-```go
+// ```go
 func twoSum(numbers []int, target int) []int {
     l := 0
     r := len(numbers) -1
@@ -14,5 +14,5 @@ func twoSum(numbers []int, target int) []int {
     }
     return []int{l+1,r+1}
 }
-```
-通过调整l,r索引值来不断逼近target
+// ```
+// 通过调整l,r索引值来不断逼近target

@@ -1,5 +1,5 @@
-//贴上可在编译器中运行的完整代码
-```
+// //贴上可在编译器中运行的完整代码
+// ```
 public class distributeCandies1103_1 {
     public static void main(String[] args) {
         int result[]=distributeCandies(10,3);
@@ -25,4 +25,4 @@ public class distributeCandies1103_1 {
         return result;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-代码时间复杂度是 O(n)
-1. 先对数组排序
-2. 比较相邻的两个值
-3. 求差值累加步数
+// ### 解题思路
+// 代码时间复杂度是 O(n)
+// 1. 先对数组排序
+// 2. 比较相邻的两个值
+// 3. 求差值累加步数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number}
@@ -24,4 +24,4 @@ var minIncrementForUnique = function(A) {
     return moves;
 };
 
-```
+// ```

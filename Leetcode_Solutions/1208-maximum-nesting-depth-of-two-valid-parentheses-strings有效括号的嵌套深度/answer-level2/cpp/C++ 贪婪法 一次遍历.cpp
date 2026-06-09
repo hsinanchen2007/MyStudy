@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
@@ -27,7 +27,7 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d2ac68ff8c791b0a3f800f62959cd19fe23cb9be6e0da0d5c35a63a16862c677-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d2ac68ff8c791b0a3f800f62959cd19fe23cb9be6e0da0d5c35a63a16862c677-image.png)
 
 

@@ -1,5 +1,5 @@
-由于二分查找的先后顺序决定着一类数字（如很多相同数字）的查找先后，所以我使用两次二分查找，第一次先比较左边数组和target，第二次先比较右边数组和target。代码如下：
-```
+// 由于二分查找的先后顺序决定着一类数字（如很多相同数字）的查找先后，所以我使用两次二分查找，第一次先比较左边数组和target，第二次先比较右边数组和target。代码如下：
+// ```
 public int[] searchRange(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
@@ -73,5 +73,5 @@ public int[] searchRange(int[] nums, int target) {
         }
         return result;
     }
-```
+// ```
 

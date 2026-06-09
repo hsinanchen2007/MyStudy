@@ -1,5 +1,5 @@
-两重循环实现倒序查找，输出时用zfill()进行修正
-```
+# 两重循环实现倒序查找，输出时用zfill()进行修正
+# ```
 class Solution:
     def largestTimeFromDigits(self, A: List[int]) -> str:
         for i in range(23,-1,-1):
@@ -10,4 +10,4 @@ class Solution:
                 if sorted(tmp) == sorted(A):
                     return str(i).zfill(2) + ':' + str(j).zfill(2)
         return ''
-```
+# ```

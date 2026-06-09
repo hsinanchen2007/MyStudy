@@ -1,9 +1,9 @@
-### 解题思路
-map存储字符串中元素和元素个数，元素偶数次则直接相加，出现奇数次则-1后相加。最后，判断若出现过奇数次则总数加一
+// ### 解题思路
+// map存储字符串中元素和元素个数，元素偶数次则直接相加，出现奇数次则-1后相加。最后，判断若出现过奇数次则总数加一
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -33,4 +33,4 @@ var longestPalindrome = function(s) {
     if(count) return num+1;
     else return num;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-判断列优先出现0的行号，注意长度。
+// ### 解题思路
+// 判断列优先出现0的行号，注意长度。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
@@ -33,4 +33,4 @@ public:
         return weakrow;
     }
 };
-```
+// ```

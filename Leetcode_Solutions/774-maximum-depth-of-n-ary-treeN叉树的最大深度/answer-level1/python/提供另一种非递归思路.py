@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node(object):
@@ -29,4 +29,4 @@ class Solution(object):
             dep+=1
             stack=tmp
         return dep
-```
+# ```

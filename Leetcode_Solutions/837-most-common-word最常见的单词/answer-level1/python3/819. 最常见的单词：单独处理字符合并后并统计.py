@@ -1,6 +1,6 @@
-非正则就反锁一点吧，首先把字符串列表化，非字母的变空格，大写变小写，然后过滤掉被ban的词和可能出现的空串，最后统计最大值输出。
+# 非正则就反锁一点吧，首先把字符串列表化，非字母的变空格，大写变小写，然后过滤掉被ban的词和可能出现的空串，最后统计最大值输出。
 
-```python []
+# ```python []
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
         p = [*paragraph]
@@ -18,4 +18,4 @@ class Solution:
                 t = ct[w]
                 ans = w
         return ans
-```
+# ```

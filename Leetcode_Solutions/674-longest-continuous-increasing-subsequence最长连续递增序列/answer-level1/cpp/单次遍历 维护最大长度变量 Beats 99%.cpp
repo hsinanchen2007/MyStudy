@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/eab3a380c99d3aa6603d7a6c88765c114d706b44923699b75f22b4a1366a9061-image.png)
+// ![image.png](https://pic.leetcode-cn.com/eab3a380c99d3aa6603d7a6c88765c114d706b44923699b75f22b4a1366a9061-image.png)
 
-````
+// ````
 class Solution {
 public:
     int findLengthOfLCIS(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return max_cnt;
     }
 };
-```
+// ```

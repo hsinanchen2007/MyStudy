@@ -1,12 +1,12 @@
-### 解题思路
-代码真的浅显易懂，注意深拷贝和浅拷贝问题，这里System.arraycopy使用与一维数组是深拷贝，二维数组是浅拷贝
-![image.png](https://pic.leetcode-cn.com/571f65172c02ef2f0042f6fbd589bf7093eba24fe59f8a00b86935ddcc95d9be-image.png)
+// ### 解题思路
+// 代码真的浅显易懂，注意深拷贝和浅拷贝问题，这里System.arraycopy使用与一维数组是深拷贝，二维数组是浅拷贝
+// ![image.png](https://pic.leetcode-cn.com/571f65172c02ef2f0042f6fbd589bf7093eba24fe59f8a00b86935ddcc95d9be-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int lengthX=-1;
 	private int lengthY=-1;
@@ -54,4 +54,4 @@ class Solution {
     
     
 }
-```
+// ```

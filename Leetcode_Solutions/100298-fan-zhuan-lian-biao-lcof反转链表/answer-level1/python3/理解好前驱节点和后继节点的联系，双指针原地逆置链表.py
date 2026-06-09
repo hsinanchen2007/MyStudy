@@ -1,8 +1,8 @@
-双指针原地逆置链表
+# 双指针原地逆置链表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
         return head               #返回新的首节点
         
 
-```
+# ```

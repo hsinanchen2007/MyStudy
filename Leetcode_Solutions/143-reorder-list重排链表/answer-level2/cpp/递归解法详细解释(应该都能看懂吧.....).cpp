@@ -1,8 +1,8 @@
-1. 参考大佬,自己改了一下.
-2. 注释感觉已经清楚了.
-3. 更多题解,详见我的博客 https://blog.csdn.net/qieyuan4083/article/details/104338538
-4. 欢迎一起交流学习.
-```
+// 1. 参考大佬,自己改了一下.
+// 2. 注释感觉已经清楚了.
+// 3. 更多题解,详见我的博客 https://blog.csdn.net/qieyuan4083/article/details/104338538
+// 4. 欢迎一起交流学习.
+// ```
     class Solution {
     public:
         ListNode* helper(ListNode* head, int len) {
@@ -36,4 +36,4 @@
             ListNode* tail = helper(head, len);
         }
 };
-```
+// ```

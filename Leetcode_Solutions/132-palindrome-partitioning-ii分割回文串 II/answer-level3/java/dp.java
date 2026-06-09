@@ -1,9 +1,9 @@
-### 解题思路
-dp
+// ### 解题思路
+// dp
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minCut(String ss) {
         if (ss == null || ss.length() == 0) {
@@ -57,4 +57,4 @@ class Solution {
         return isPalin;
     }
 }
-```
+// ```

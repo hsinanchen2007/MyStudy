@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean wordPattern(String pattern, String str) {
         if(pattern.length()<1)
@@ -32,4 +32,4 @@ class Solution {
 		return sum;
 	}
 }
-```
+// ```

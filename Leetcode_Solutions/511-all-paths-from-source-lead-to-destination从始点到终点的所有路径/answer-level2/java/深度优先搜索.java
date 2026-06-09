@@ -1,9 +1,9 @@
-### 解题思路
-深度优先搜索。
+// ### 解题思路
+// 深度优先搜索。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean leadsToDestination(int n, int[][] edges, int source, int destination) {
         if (n <= 0 || edges == null || edges.length == 0) return true;
@@ -54,4 +54,4 @@ class Node {
         this.next = next;
     }
 }
-```
+// ```

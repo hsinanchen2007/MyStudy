@@ -1,15 +1,15 @@
 
 
-方法一：暴力法
-步骤：
-1、先计算完整面积
-2、减去黑色部分剩下粉色部分和蓝色部分
-3、从最高点分别向左和向右找次高点，减去对应粉色部分
-4、从次高点出发，循环步骤3直到尽头，最后剩下蓝色部分即为答案
-5、粉色格内数字代表第n次循环时要减去的部分
-![微信图片_20200317160955.png](https://pic.leetcode-cn.com/090a2e2dea2b5802dc88617943177d5849faf38831ffe7ffe9f08904f0528750-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200317160955.png)
+// 方法一：暴力法
+// 步骤：
+// 1、先计算完整面积
+// 2、减去黑色部分剩下粉色部分和蓝色部分
+// 3、从最高点分别向左和向右找次高点，减去对应粉色部分
+// 4、从次高点出发，循环步骤3直到尽头，最后剩下蓝色部分即为答案
+// 5、粉色格内数字代表第n次循环时要减去的部分
+// ![微信图片_20200317160955.png](https://pic.leetcode-cn.com/090a2e2dea2b5802dc88617943177d5849faf38831ffe7ffe9f08904f0528750-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200317160955.png)
 
-```csharp
+// ```csharp
 public int Trap(int[] height)
 {
     if (height.Length < 3)
@@ -96,9 +96,9 @@ public int FindNextPeek(int[] arr, int idx, bool fromLeft)
         return ans;
     }
 }
-```
-方法二：参考题解的左右扫描法
-```csharp
+// ```
+// 方法二：参考题解的左右扫描法
+// ```csharp
 public int Trap(int[] height)
 {
     if(height == null || height.Length < 3) return 0;
@@ -120,4 +120,4 @@ public int Trap(int[] height)
     }
     return leftSum + rightSum - sum - left * height.Length;
 }
-```
+// ```

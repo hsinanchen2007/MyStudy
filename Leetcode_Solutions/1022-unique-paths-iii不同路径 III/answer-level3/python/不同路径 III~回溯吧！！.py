@@ -1,11 +1,11 @@
-### 解题思路
-回溯问题 == 多叉树的深度遍历 + 剪枝
+# ### 解题思路
+# 回溯问题 == 多叉树的深度遍历 + 剪枝
 
-![image.png](https://pic.leetcode-cn.com/a929872d568f73160d618779859a9c8fd18f4997354ce53bbbf9f645573be052-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a929872d568f73160d618779859a9c8fd18f4997354ce53bbbf9f645573be052-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsIII(self, grid: List[List[int]]) -> int:
         row = len(grid)
@@ -43,4 +43,4 @@ class Solution:
         return len(res)
 
             
-```
+# ```

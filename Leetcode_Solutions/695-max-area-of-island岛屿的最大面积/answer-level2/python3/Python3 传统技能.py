@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-1，搜索的时候将当前的点置为 0，防止重复搜索
-2，搜索这个点周围的值
+# 1，搜索的时候将当前的点置为 0，防止重复搜索
+# 2，搜索这个点周围的值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         
@@ -43,4 +43,4 @@ class Solution:
                     dfs(grid, i, j, 0)
                     
         return self.rev
-```
+# ```

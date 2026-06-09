@@ -1,6 +1,6 @@
-如题：合并根节点的值，然后依次合并左子树和右子树
+// 如题：合并根节点的值，然后依次合并左子树和右子树
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -25,4 +25,4 @@ public:
         }
     }
 };
-```
+// ```

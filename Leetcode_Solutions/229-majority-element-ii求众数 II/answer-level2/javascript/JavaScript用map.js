@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-用map
+// 用map
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -28,4 +28,4 @@ var majorityElement = function(nums) {
     }
     return res
 };
-```
+// ```

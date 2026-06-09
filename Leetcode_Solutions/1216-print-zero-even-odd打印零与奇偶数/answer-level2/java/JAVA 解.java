@@ -2,8 +2,8 @@
 
 
 
-1.定义number 从0开始，每次输出0 则自增1
-2.wait(); notify(); 等待唤醒线程
+// 1.定义number 从0开始，每次输出0 则自增1
+// 2.wait(); notify(); 等待唤醒线程
 3.if(number == n) break;
 
 

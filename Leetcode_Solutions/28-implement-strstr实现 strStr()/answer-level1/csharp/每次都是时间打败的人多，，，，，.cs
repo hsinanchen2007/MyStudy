@@ -1,5 +1,5 @@
-出一个错加一个if哈哈
-```
+// 出一个错加一个if哈哈
+// ```
 public class Solution {
     public int StrStr(string haystack, string needle) {
         if(needle == "") return 0;
@@ -27,4 +27,4 @@ public class Solution {
         return -1;
     }
 }
-```
+// ```

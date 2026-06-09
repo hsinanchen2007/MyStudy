@@ -1,5 +1,5 @@
-一种思路
-```python []
+# 一种思路
+# ```python []
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         i, ans = 0, 0
@@ -7,4 +7,4 @@ class Solution:
             ans += max(i - a, 0)
             i = max(a, i) + 1
         return ans
-```
+# ```

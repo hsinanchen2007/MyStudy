@@ -1,9 +1,9 @@
-### 解题思路
-看代码
+// ### 解题思路
+// 看代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  //从起始位置设置两个指针，一个指向数组1，一个指向数组2
     //空间换时间
@@ -36,4 +36,4 @@ class Solution {
         }
         System.arraycopy(current, 0, nums1, 0, current.length);
 }
-```
+// ```

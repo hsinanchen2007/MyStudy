@@ -1,5 +1,5 @@
-字典 + 栈的思想
-```
+# 字典 + 栈的思想
+# ```
 class Solution:
     def isValid(self, s: str) -> bool:
         def str2int(s):
@@ -15,4 +15,4 @@ class Solution:
                     x.pop()
         return x==[]
 
-```
+# ```

@@ -1,21 +1,21 @@
-### 解题思路
-此处撰写解题思路
-1.
-s1=aabb对应的是bbaabb
-首先把s1=aabb反转为s2=bbaa
-将s2视为匹配串计算next索引值
-2.
-将得到的索引值使用匹配当主串的指针移到最后一位并且模式串的指针指在了某一位，让他们相减得到是需要附加的字串
-注：
-            int len1=s.length();
-            int len2=t.length();
-            while(i<len1&&j<len2)
-            与 while(i<s.length()&&j<t.length())结果不相同
-            不知道为什么，有知道的大佬告诉小弟一声，感激。
+// ### 解题思路
+// 此处撰写解题思路
+// 1.
+// s1=aabb对应的是bbaabb
+// 首先把s1=aabb反转为s2=bbaa
+// 将s2视为匹配串计算next索引值
+// 2.
+// 将得到的索引值使用匹配当主串的指针移到最后一位并且模式串的指针指在了某一位，让他们相减得到是需要附加的字串
+// 注：
+//             int len1=s.length();
+//             int len2=t.length();
+//             while(i<len1&&j<len2)
+//             与 while(i<s.length()&&j<t.length())结果不相同
+//             不知道为什么，有知道的大佬告诉小弟一声，感激。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void nextidx(const string &T, int nextarr[])
@@ -86,4 +86,4 @@ public:
 
 
 
-```
+// ```

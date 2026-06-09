@@ -1,10 +1,10 @@
-### 解题思路
-2n 个排列
-交换顺序 确保 P 在 D 前面
+// ### 解题思路
+// 2n 个排列
+// 交换顺序 确保 P 在 D 前面
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 class Delivery{
     private const UInt64 ModV = 1000000000+7;
     public int CountOrders(int n) {
@@ -35,4 +35,4 @@ public class Solution {
         return d.CountOrders(n);
     }
 }
-```
+// ```

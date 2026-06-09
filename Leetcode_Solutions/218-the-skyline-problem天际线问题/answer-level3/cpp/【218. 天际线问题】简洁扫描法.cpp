@@ -1,9 +1,9 @@
-### 思路
-参考大神[Grandyang](https://www.cnblogs.com/grandyang/p/4534586.html)解法
+// ### 思路
+// 参考大神[Grandyang](https://www.cnblogs.com/grandyang/p/4534586.html)解法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> getSkyline(vector<vector<int>>& buildings) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

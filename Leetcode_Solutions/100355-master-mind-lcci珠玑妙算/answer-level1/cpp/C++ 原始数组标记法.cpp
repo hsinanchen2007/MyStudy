@@ -1,13 +1,13 @@
-### 解题思路
-1. 把相同位置的元素计算一下，同时把其他对应位置不相同的字母放到数组里
-2. 判断若两个数组对应的位置如果不为0的话，说明存放了“颜色”，取最小值即可
+// ### 解题思路
+// 1. 把相同位置的元素计算一下，同时把其他对应位置不相同的字母放到数组里
+// 2. 判断若两个数组对应的位置如果不为0的话，说明存放了“颜色”，取最小值即可
 
-![image.png](https://pic.leetcode-cn.com/6c31ef2e308ea2c07c9e0a9aee784c8d0ee51517412f8e4b6816d5f8cf64e487-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6c31ef2e308ea2c07c9e0a9aee784c8d0ee51517412f8e4b6816d5f8cf64e487-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> masterMind(string solution, string guess) {
@@ -36,4 +36,4 @@ GRR
 
 
 */
-```
+// ```

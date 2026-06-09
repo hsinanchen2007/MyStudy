@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         l = 0
@@ -33,4 +33,4 @@ class Solution:
                 index = mid
                 break
         return index 
-```
+# ```

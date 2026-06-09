@@ -1,5 +1,5 @@
-思路：由于栈是后进先出，队列是先进先出，那么声明两个栈，一个按顺序压入栈为stackPush，再把stackPush栈按顺序全部倒入stackPop栈，stackPop用来弹出栈，就能实现队列的效果了。注意：如果直接调用API，没有使用两个栈的方式，即使能通过也违背了题意。
-```javascript
+// 思路：由于栈是后进先出，队列是先进先出，那么声明两个栈，一个按顺序压入栈为stackPush，再把stackPush栈按顺序全部倒入stackPop栈，stackPop用来弹出栈，就能实现队列的效果了。注意：如果直接调用API，没有使用两个栈的方式，即使能通过也违背了题意。
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -62,4 +62,4 @@ MyQueue.prototype.empty = function () {
     // 当length = 0 时，0 隐式转换为 false，取反为true
     return !this.stackPush.length && !this.stackPop.length;
 };
-```
+// ```

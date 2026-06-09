@@ -1,8 +1,8 @@
-### 解题思路
-循环-分割-翻转-组合
-### 代码
+// ### 解题思路
+// 循环-分割-翻转-组合
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string ReverseWords(string s) {
         string[] n=s.Split(" ");
@@ -19,4 +19,4 @@ public class Solution {
         return new string(arr);
     }
 }
-```
+// ```

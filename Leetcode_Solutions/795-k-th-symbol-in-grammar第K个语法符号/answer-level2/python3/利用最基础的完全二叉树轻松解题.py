@@ -1,5 +1,5 @@
 
-```python3
+# ```python3
 class Solution:
     def kthGrammar(self, N: int, K: int) -> int:
         sign = [] #记录从根结点到目标结点的变换方式，-1 表示左孩子；1 表示右孩子
@@ -28,4 +28,4 @@ class Solution:
 
 
 
-```
+# ```

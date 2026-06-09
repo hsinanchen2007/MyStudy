@@ -1,7 +1,7 @@
-思路：遍历字符串，标记A和连续的L数目，最后判断条件即可。
-<br/><br/>
-代码：
-```
+// 思路：遍历字符串，标记A和连续的L数目，最后判断条件即可。
+// <br/><br/>
+// 代码：
+// ```
 class Solution {
     public boolean checkRecord(String s) {
         int a = 0;
@@ -32,4 +32,4 @@ class Solution {
         return a <= 1 && l <= 2;
     }
 }
-```
+// ```

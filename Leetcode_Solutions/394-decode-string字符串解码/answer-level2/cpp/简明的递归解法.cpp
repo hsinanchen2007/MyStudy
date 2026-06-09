@@ -1,6 +1,6 @@
-这里提供一个看起来比较简明的递归解法，欢迎指正
+// 这里提供一个看起来比较简明的递归解法，欢迎指正
 
-```
+// ```
 class Solution {
 public:
     string decodeString(string s) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

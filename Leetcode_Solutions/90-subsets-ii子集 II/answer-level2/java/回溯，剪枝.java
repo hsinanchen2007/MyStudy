@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-3 ms
-, 在所有 Java 提交中击败了
-88.32%
-的用户
-内存消耗 :
-37.4 MB
-, 在所有 Java 提交中击败了
-82.06%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 3 ms
+// , 在所有 Java 提交中击败了
+// 88.32%
+// 的用户
+// 内存消耗 :
+// 37.4 MB
+// , 在所有 Java 提交中击败了
+// 82.06%
+// 的用户
+// ```
 class Solution {
     List<List<Integer>> res = new ArrayList<List<Integer>>();
     Integer min = Integer.MIN_VALUE;
@@ -55,4 +55,4 @@ class Solution {
          }
     }
 }
-```
+// ```

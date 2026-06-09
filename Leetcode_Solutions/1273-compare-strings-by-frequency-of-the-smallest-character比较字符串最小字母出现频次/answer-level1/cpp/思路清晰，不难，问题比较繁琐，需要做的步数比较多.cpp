@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int fuc(string s){  //f函数，输出最小字母的计数
@@ -37,4 +37,4 @@ public:
         return res;
     }
 };
-```
+// ```

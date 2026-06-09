@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 哈希表
+// # 哈希表
 
-时间复杂度是O(n1 + n)，其中n1是words1数组的长度。n是pairs的长度。空间复杂度是O(n)。
+// 时间复杂度是O(n1 + n)，其中n1是words1数组的长度。n是pairs的长度。空间复杂度是O(n)。
 
-执行用时：2ms，击败100.00%。消耗内存：38.6MB，击败10.00%。
+// 执行用时：2ms，击败100.00%。消耗内存：38.6MB，击败10.00%。
 
-```java
+// ```java
 public class Solution {
     public boolean areSentencesSimilar(String[] words1, String[] words2, List<List<String>> pairs) {
         int n1 = words1.length, n2 = words2.length;
@@ -30,4 +30,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

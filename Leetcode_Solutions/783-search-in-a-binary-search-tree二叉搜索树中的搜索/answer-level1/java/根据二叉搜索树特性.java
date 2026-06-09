@@ -1,9 +1,9 @@
-### 解题思路
-二叉搜索树特性
+// ### 解题思路
+// 二叉搜索树特性
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
         }
     }
 }
-```
+// ```

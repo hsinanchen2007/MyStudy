@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         # 先生成一个都为1金子塔
@@ -10,4 +10,4 @@ class Solution:
                 if r > c and c != 0:
                     res[r][c] = res[r-1][c-1]+res[r-1][c]
         return res
-```
+# ```

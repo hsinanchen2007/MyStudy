@@ -1,9 +1,9 @@
-### 解题思路
-击败了98.95%的用户
+// ### 解题思路
+// 击败了98.95%的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -18,4 +18,4 @@ bool hasPathSum(struct TreeNode* root, int sum){
     if (root->left == NULL && root->right == NULL) return (sum == 0);
     return hasPathSum(root->left, sum) || hasPathSum(root->right, sum);
 }
-```
+// ```

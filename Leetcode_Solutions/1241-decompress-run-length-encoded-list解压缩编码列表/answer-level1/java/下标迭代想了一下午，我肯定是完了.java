@@ -1,10 +1,10 @@
-### 解题思路
-想了一下午才想清楚新数组下标迭代的解决方法，设置变量存一下啊！！！
-我肯定是完了。
+// ### 解题思路
+// 想了一下午才想清楚新数组下标迭代的解决方法，设置变量存一下啊！！！
+// 我肯定是完了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] decompressRLElist(int[] nums) {
     	int len=0;
@@ -21,4 +21,4 @@ class Solution {
     	return arr;
     }
 }
-```
+// ```

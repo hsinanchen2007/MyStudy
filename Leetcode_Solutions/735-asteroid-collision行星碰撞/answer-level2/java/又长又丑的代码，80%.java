@@ -1,4 +1,4 @@
-```
+// ```
 public static int[] asteroidCollision(int[] asteroids) {
 		Stack<Integer> stack = new Stack<Integer>();
 		for(int i=0;i<asteroids.length;i++){
@@ -76,4 +76,4 @@ public static int[] asteroidCollision(int[] asteroids) {
 		}
 		return res;
     }
-```
+// ```

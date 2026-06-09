@@ -1,10 +1,10 @@
-### 解题思路
-思路就官方题解思路，但实现更好理解。
+# ### 解题思路
+# 思路就官方题解思路，但实现更好理解。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         x, y, time = len(grid), len(grid[0]), 0
@@ -28,4 +28,4 @@ class Solution:
             
         return time
         
-```
+# ```

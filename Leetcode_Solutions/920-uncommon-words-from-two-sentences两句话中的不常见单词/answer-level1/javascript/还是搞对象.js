@@ -1,9 +1,9 @@
-### 解题思路
-把两个字符串的单词 放到个数组里, 用对象记录单词出现的次数, 获取出现过一次的 属性 就行了
+// ### 解题思路
+// 把两个字符串的单词 放到个数组里, 用对象记录单词出现的次数, 获取出现过一次的 属性 就行了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} A
  * @param {string} B
@@ -23,4 +23,4 @@ var uncommonFromSentences = function(A, B) {
   }
   return arr
 };
-```
+// ```

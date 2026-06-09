@@ -1,9 +1,9 @@
-### 解题思路
-如果能看出这道题是求图的连通子图个数，那么问题就很好解决了。时间复杂度为O(N^2)，空间复杂度为O(N)。
+# ### 解题思路
+# 如果能看出这道题是求图的连通子图个数，那么问题就很好解决了。时间复杂度为O(N^2)，空间复杂度为O(N)。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findCircleNum(self, M: List[List[int]]) -> int:
         if not M or not M[0]:
@@ -24,4 +24,4 @@ class Solution:
                 dfs(i,visited)
                 res+=1
         return res
-```
+# ```

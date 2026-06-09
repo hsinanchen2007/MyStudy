@@ -1,26 +1,26 @@
-### 解题思路
-定义diff = a[n]-a[n-1], 相邻两天的股价差， 其中a[i]表示第i天的股价
-定义f(n) 为第n天卖出，可以达到的最大收益（前提是第{1,2,3,...,n-1}的某一天进行了购买）
+# ### 解题思路
+# 定义diff = a[n]-a[n-1], 相邻两天的股价差， 其中a[i]表示第i天的股价
+# 定义f(n) 为第n天卖出，可以达到的最大收益（前提是第{1,2,3,...,n-1}的某一天进行了购买）
 
-利用穷举的思想，将f(n) f(n-1) 写出来
-f(n) = max(a[n]-a[1], a[n]-a[2], a[n]-a[3], ... ,a[n]-a[n-1])
-f(n-1) = max(a[n-1]-a[1], a[n-1]-a[2], a[n-1]-a[3], ... ,a[n-1]-a[n-2])
+# 利用穷举的思想，将f(n) f(n-1) 写出来
+# f(n) = max(a[n]-a[1], a[n]-a[2], a[n]-a[3], ... ,a[n]-a[n-1])
+# f(n-1) = max(a[n-1]-a[1], a[n-1]-a[2], a[n-1]-a[3], ... ,a[n-1]-a[n-2])
 
-f(n) = max(a[n]-a[1], a[n]-a[2], a[n]-a[3], ... ,a[n]-a[n-1])
-     = max(a[n-1]+diff -a[1], a[n-1]+diff-a[2], a[n-1]+diff-a[3], ... ,diff)
-     = max(max(a[n-1]+diff -a[1], a[n-1]+diff-a[2], a[n-1]+diff-a[3], ... ,diff), diff)
-     = max(max(a[n-1]-a[1], a[n-1]-a[2], a[n-1]-a[3], ..., a[n-1]-a[n-2])+diff, diff)
-     = max(f(n-1)+diff, diff)
+# f(n) = max(a[n]-a[1], a[n]-a[2], a[n]-a[3], ... ,a[n]-a[n-1])
+#      = max(a[n-1]+diff -a[1], a[n-1]+diff-a[2], a[n-1]+diff-a[3], ... ,diff)
+#      = max(max(a[n-1]+diff -a[1], a[n-1]+diff-a[2], a[n-1]+diff-a[3], ... ,diff), diff)
+#      = max(max(a[n-1]-a[1], a[n-1]-a[2], a[n-1]-a[3], ..., a[n-1]-a[n-2])+diff, diff)
+#      = max(f(n-1)+diff, diff)
 
-至此状态转移方程出来了
-f(n) = max(f(n-1)+diff, diff), 其中diff = a[n]-a[n-1] 
+# 至此状态转移方程出来了
+# f(n) = max(f(n-1)+diff, diff), 其中diff = a[n]-a[n-1] 
 
-需设置一个岗哨，求解动态规划矩阵的过程中，一直监视当前最大值
-程序执行完成，哨岗中的值就是问题答案。
+# 需设置一个岗哨，求解动态规划矩阵的过程中，一直监视当前最大值
+# 程序执行完成，哨岗中的值就是问题答案。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         rst = 0
@@ -48,4 +48,4 @@ class Solution:
     #     return dp[0][-1]
             
 
-```
+# ```

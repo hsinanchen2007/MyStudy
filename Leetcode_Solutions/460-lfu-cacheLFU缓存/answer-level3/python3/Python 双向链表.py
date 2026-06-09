@@ -1,11 +1,11 @@
-今天这个题倒是真的难。。。 以下是抄的一份答案
-大概的意思就是维护这样一个双向链表
-![image.png](https://pic.leetcode-cn.com/289e935072c54f40201a6ecb3aa1bfb6cda06672da666c7211dbafdc76e4732e-image.png)
-然后边界条件非常多... 这个可以从代码里体会
-写不来。。。 学习一下这种数据结构
+# 今天这个题倒是真的难。。。 以下是抄的一份答案
+# 大概的意思就是维护这样一个双向链表
+# ![image.png](https://pic.leetcode-cn.com/289e935072c54f40201a6ecb3aa1bfb6cda06672da666c7211dbafdc76e4732e-image.png)
+# 然后边界条件非常多... 这个可以从代码里体会
+# 写不来。。。 学习一下这种数据结构
 
 
-```python
+# ```python
 class LFUCache(object):
 
     def __init__(self, capacity: int):
@@ -171,4 +171,4 @@ class FreqNode(object):
         freqNode.pre = self.pre
         freqNode.nxt = self
         self.pre = freqNode
-```
+# ```

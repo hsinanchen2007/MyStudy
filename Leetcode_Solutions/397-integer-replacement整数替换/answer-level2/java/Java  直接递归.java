@@ -1,4 +1,4 @@
-直接采用递归，当n为最大值时另做处理防止溢出，代码如下
+// 直接采用递归，当n为最大值时另做处理防止溢出，代码如下
 
  	public int integerReplacement(int n) 
     {

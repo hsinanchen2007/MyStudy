@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     /**
      * @param head The linked list's head.
@@ -28,4 +28,4 @@ class Solution {
         return $val;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-把ArrayList当作Map来使用，实测数组的访问是比HashMap要快的，因此只要定义一个长度为nums中最大值的数组用来存放nums中每个数字的出现次数即可。
+// ### 解题思路
+// 把ArrayList当作Map来使用，实测数组的访问是比HashMap要快的，因此只要定义一个长度为nums中最大值的数组用来存放nums中每个数字的出现次数即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findDuplicates(int[] nums) {
         List<Integer> result = new LinkedList<>();
@@ -31,4 +31,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

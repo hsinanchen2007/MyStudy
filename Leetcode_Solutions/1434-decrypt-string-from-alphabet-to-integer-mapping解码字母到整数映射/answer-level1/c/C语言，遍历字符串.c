@@ -1,9 +1,9 @@
-### 解题思路
-遍历一次即可
+// ### 解题思路
+// 遍历一次即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * freqAlphabets(char * s){
     char *ret = (char *)malloc(sizeof(char) * 1000);
     int len = 0;
@@ -22,4 +22,4 @@ char * freqAlphabets(char * s){
     ret[len] = '\0';
     return ret;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-看到数组及频率，我首先想到用map，后面说用升序排列，所以没用unordered_map
+// ### 解题思路
+// 看到数组及频率，我首先想到用map，后面说用升序排列，所以没用unordered_map
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2) {
@@ -20,4 +20,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

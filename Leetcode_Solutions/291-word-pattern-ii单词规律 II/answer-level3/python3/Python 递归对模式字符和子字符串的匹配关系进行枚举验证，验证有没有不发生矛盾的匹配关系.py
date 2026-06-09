@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/f85b2be6f22e8eaf5dac1aa052a053bfc255e2c648d44c1e5bbfd5e520de077c-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f85b2be6f22e8eaf5dac1aa052a053bfc255e2c648d44c1e5bbfd5e520de077c-image.png)
 
 
-```
+# ```
 '''
 递归对模式字符和子字符串进行匹配，如果出现类匹配矛盾，即失败
 只要有一种匹配方成功，即返回成功
@@ -64,4 +64,4 @@ class Solution:
     def wordPatternMatch(self, pattern: str, str: str) -> bool:
         m = {ch: ['', False] for ch in 'abcdefghijklmnopqrstuvwxyz'}  # 记录每个patter对应的字符串和该patter是否当前有效
         return self.dfs(0, 0, pattern, str, m)
-```
+# ```

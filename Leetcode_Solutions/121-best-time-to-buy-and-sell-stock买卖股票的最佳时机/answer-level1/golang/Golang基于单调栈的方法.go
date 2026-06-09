@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度100%
+// ### 解题思路
+// 时间复杂度100%
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
     if len(prices) < 2 {
         return 0
@@ -31,4 +31,4 @@ func maxProfit(prices []int) int {
     }
     return max
 }
-```
+// ```

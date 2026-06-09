@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String reorganizeString(String S) {
         Map<Character, Integer> map = new HashMap<>();
@@ -30,4 +30,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

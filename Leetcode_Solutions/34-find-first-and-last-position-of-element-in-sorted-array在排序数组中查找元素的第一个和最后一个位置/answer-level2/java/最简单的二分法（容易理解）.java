@@ -1,10 +1,10 @@
-### 解题思路
-看到log(n)估计无数大佬就会知道肯定要用二分法，我试着用二分法一次性找出left和right，发现太复杂，还是来两轮比较好。
-首先是求最左侧的值，参考searchLeft，然后是求最右侧的值，参考searchRight，然后把结果合并即可。
+// ### 解题思路
+// 看到log(n)估计无数大佬就会知道肯定要用二分法，我试着用二分法一次性找出left和right，发现太复杂，还是来两轮比较好。
+// 首先是求最左侧的值，参考searchLeft，然后是求最右侧的值，参考searchRight，然后把结果合并即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
 
@@ -102,4 +102,4 @@ class Solution {
         }
     }
 }
-```
+// ```

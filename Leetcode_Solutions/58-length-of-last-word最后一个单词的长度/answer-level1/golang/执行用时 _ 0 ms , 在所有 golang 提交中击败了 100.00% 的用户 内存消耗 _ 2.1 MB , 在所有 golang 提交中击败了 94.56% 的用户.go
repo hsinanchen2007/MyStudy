@@ -1,11 +1,11 @@
-![微信截图_20191211141338.png](https://pic.leetcode-cn.com/6b3aad7f21e3c09feeaf3fa305ba5cfb12e9be9bada905c7218dcc84ff681955-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191211141338.png)
+// ![微信截图_20191211141338.png](https://pic.leetcode-cn.com/6b3aad7f21e3c09feeaf3fa305ba5cfb12e9be9bada905c7218dcc84ff681955-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191211141338.png)
 
 
-解题思路：
-找最后一个单词的起始位置和长度
+// 解题思路：
+// 找最后一个单词的起始位置和长度
 
-代码
-```
+// 代码
+// ```
 func lengthOfLastWord(s string) int {
 	
 	sLen := len(s)
@@ -52,5 +52,5 @@ func lengthOfLastWord(s string) int {
 
 	return len(s[wordsStartIndex : wordsStartIndex+wordsMaxLen])
 }
-```
+// ```
 

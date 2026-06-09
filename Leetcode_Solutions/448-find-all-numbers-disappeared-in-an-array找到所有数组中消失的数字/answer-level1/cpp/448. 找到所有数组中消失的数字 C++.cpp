@@ -1,10 +1,10 @@
-### 解题思路
-1.使用s存储数组中所有的数字并去除重复数字。
-2.再遍历一边数组，把不在set中的元素加入result容器中
+// ### 解题思路
+// 1.使用s存储数组中所有的数字并去除重复数字。
+// 2.再遍历一边数组，把不在set中的元素加入result容器中
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
     return result;
     }
 };
-```
+// ```

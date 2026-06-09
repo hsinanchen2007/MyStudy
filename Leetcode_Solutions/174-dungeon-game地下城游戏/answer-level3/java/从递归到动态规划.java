@@ -1,5 +1,5 @@
-递归解法（会超时）
-```
+// 递归解法（会超时）
+// ```
 int ans = Integer.MIN_VALUE;
 public int calculateMinimumHP1(int[][] dungeon) {
     int m = dungeon.length - 1, n = dungeon[0].length - 1;
@@ -20,9 +20,9 @@ private void dfs(int[][] dungeon, int i, int j, int sum) {
         dfs(dungeon, i, j - 1, Math.min(sum + dungeon[i][j-1], 0));
     }
 }
-```
-动态规划（AC）
-```
+// ```
+// 动态规划（AC）
+// ```
 public int calculateMinimumHP(int[][] dungeon) {
     int m = dungeon.length - 1, n = dungeon[0].length - 1;
     int[][] dp = new int[m + 1][n + 1];
@@ -42,5 +42,5 @@ public int calculateMinimumHP(int[][] dungeon) {
     }
     return -dp[0][0] + 1;
 }
-```
+// ```
 

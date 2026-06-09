@@ -1,10 +1,10 @@
-### 解题思路
-将二维坐标和一维坐标做对应：(i,j)->i*w+j，其中w为宽，对二维数组进行遍历，若其四周存在1，则将其与当前节点并在一起。再遍历一次二维数组，由于每个岛屿的任意一点执行find操作得到的结果都是一样的，所以只需要建立find操作结果和面积area的映射map，接下来再遍历二维数组，找出一个海洋点，将其四周的陆地加起来再加一则为连通后的面积，遍历所有情况取最大值。
-![image.png](https://pic.leetcode-cn.com/8220cafbdb852ceb7c95a402aac8fbf7b9b7d75fc2db32de359000b6f5e11c51-image.png)
+// ### 解题思路
+// 将二维坐标和一维坐标做对应：(i,j)->i*w+j，其中w为宽，对二维数组进行遍历，若其四周存在1，则将其与当前节点并在一起。再遍历一次二维数组，由于每个岛屿的任意一点执行find操作得到的结果都是一样的，所以只需要建立find操作结果和面积area的映射map，接下来再遍历二维数组，找出一个海洋点，将其四周的陆地加起来再加一则为连通后的面积，遍历所有情况取最大值。
+// ![image.png](https://pic.leetcode-cn.com/8220cafbdb852ceb7c95a402aac8fbf7b9b7d75fc2db32de359000b6f5e11c51-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int f[2501];
@@ -105,4 +105,4 @@ void merge(int x,int y)
           return maxn;
         } 
 };
-```
+// ```

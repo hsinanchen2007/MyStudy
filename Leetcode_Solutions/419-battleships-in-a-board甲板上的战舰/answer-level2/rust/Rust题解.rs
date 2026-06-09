@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn count_battleships(board: Vec<Vec<char>>) -> i32 {
         let mut ret = 0;
@@ -16,5 +16,5 @@ impl Solution {
         ret
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

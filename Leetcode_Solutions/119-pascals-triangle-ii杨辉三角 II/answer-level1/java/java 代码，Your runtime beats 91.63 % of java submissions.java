@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         Integer[] dp = new Integer[rowIndex+1];
@@ -12,4 +12,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

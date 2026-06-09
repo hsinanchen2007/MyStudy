@@ -1,7 +1,7 @@
-暴力法，性能比较低，但是能通过，代码简单
-为了比较，先排序word，然后遍历s，取总长度的字符串，切割为相同大小，也排序，对比，如果相同就找到了。
+// 暴力法，性能比较低，但是能通过，代码简单
+// 为了比较，先排序word，然后遍历s，取总长度的字符串，切割为相同大小，也排序，对比，如果相同就找到了。
 
-```
+// ```
 public List<Integer> findSubstring(String s, String[] words) {
 		List<Integer> result = new ArrayList<>();
     	if(words == null || words.length == 0 || words[0].length() == 0){
@@ -29,4 +29,4 @@ private String[] split(String s,int n){
     }
     return result;
 }
-```
+// ```

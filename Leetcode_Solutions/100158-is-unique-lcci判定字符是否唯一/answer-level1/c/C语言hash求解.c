@@ -1,5 +1,5 @@
-发现面试宝典上面的题，和leetcode原本的题目的最大区别就是，面试宝典上面的题，每次要求的是ascii所有的字符，leetcode上面一般是alphabet。
-```
+// 发现面试宝典上面的题，和leetcode原本的题目的最大区别就是，面试宝典上面的题，每次要求的是ascii所有的字符，leetcode上面一般是alphabet。
+// ```
 typedef struct {
     int key;
     int counts;
@@ -27,4 +27,4 @@ bool isUnique(char* astr){
 
     return res;
 }
-```
+// ```

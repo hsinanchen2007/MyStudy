@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/da4aeb2c13086de0e69b769a363e094e94f039772c25e5c2e1b7f63d600b51ce-image.png)
+// ![image.png](https://pic.leetcode-cn.com/da4aeb2c13086de0e69b769a363e094e94f039772c25e5c2e1b7f63d600b51ce-image.png)
 
-```c++
+// ```c++
 class Solution {
 public:
     int sumFourDivisors(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
         });
     }
 };
-```
+// ```

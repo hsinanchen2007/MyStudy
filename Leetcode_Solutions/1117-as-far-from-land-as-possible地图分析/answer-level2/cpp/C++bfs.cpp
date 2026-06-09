@@ -1,9 +1,9 @@
-### 解题思路
-一开始用dfs，直到看了题解
+// ### 解题思路
+// 一开始用dfs，直到看了题解
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxDistance(vector<vector<int>>& grid) {
@@ -32,4 +32,4 @@ public:
         else return grid[ans[0]][ans[1]]-1;
     }
 };
-```
+// ```

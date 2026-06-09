@@ -1,6 +1,6 @@
-## 思路一：直接法
-### 代码
-```c++
+// ## 思路一：直接法
+// ### 代码
+// ```c++
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
@@ -25,11 +25,11 @@ public:
         return head;
     }
 };
-```
+// ```
 
-## 思路二：虚拟头结点
-### 代码
-```c++
+// ## 思路二：虚拟头结点
+// ### 代码
+// ```c++
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {       
@@ -52,5 +52,5 @@ public:
         return pHead->next;
     }
 };
-```
+// ```
 

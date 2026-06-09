@@ -1,11 +1,11 @@
-### 解题思路
-1 把中序遍历的结果放在list集合中
-2 用两个指针遍历集合
-3 遍历到的两个元素相加看是否等于k。
+// ### 解题思路
+// 1 把中序遍历的结果放在list集合中
+// 2 用两个指针遍历集合
+// 3 遍历到的两个元素相加看是否等于k。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -42,4 +42,4 @@ public void helper(TreeNode root){
     helper(root.right);
 }
 }
-```
+// ```

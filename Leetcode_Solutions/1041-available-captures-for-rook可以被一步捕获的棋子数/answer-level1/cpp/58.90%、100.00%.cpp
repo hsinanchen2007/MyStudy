@@ -1,9 +1,9 @@
-### 解题思路
-你有方向数组，我有四个for
+// ### 解题思路
+// 你有方向数组，我有四个for
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -82,4 +82,4 @@ public:
 [".",".",".",".",".",".",".","."]]
 
 */
-```
+// ```

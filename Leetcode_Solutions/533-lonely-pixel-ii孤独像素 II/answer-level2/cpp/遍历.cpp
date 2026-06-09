@@ -1,6 +1,6 @@
-1. 本题比较蛋疼，感觉也不需要什么技巧，就是题目有点难以理解.
-2. 遍历比较即可。
-```
+// 1. 本题比较蛋疼，感觉也不需要什么技巧，就是题目有点难以理解.
+// 2. 遍历比较即可。
+// ```
 class Solution {
 public:
     int findBlackPixel(vector<vector<char>>& picture, int N) {
@@ -54,4 +54,4 @@ public:
         return res;
     }
 };
-```
+// ```

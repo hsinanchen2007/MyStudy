@@ -1,8 +1,8 @@
-根据街道的方向建图，然后从起点开始 DFS
+# 根据街道的方向建图，然后从起点开始 DFS
 
-注意判断要去的格点能否返回到当前格点，能返回才能继续 DFS
+# 注意判断要去的格点能否返回到当前格点，能返回才能继续 DFS
 
-```python
+# ```python
 class Solution:
     def hasValidPath(self, grid: List[List[int]]) -> bool:
         n, m = len(grid), len(grid[0])
@@ -29,4 +29,4 @@ class Solution:
                     return True
             return False
         return dfs(0)
-```
+# ```

@@ -1,16 +1,16 @@
-#### 方法：递归
+# #### 方法：递归
 
-**思路**
+# **思路**
 
-令 `trim(node)` 作为该节点上的子树的理想答案。我们可以递归地构建该答案。
+# 令 `trim(node)` 作为该节点上的子树的理想答案。我们可以递归地构建该答案。
 
-**算法**
+# **算法**
 
-当 $\text{node.val > R}$，那么修剪后的二叉树必定出现在节点的左边。
+# 当 $\text{node.val > R}$，那么修剪后的二叉树必定出现在节点的左边。
 
-类似地，当 $\text{node.val < L}$，那么修剪后的二叉树出现在节点的右边。否则，我们将会修剪树的两边。
+# 类似地，当 $\text{node.val < L}$，那么修剪后的二叉树出现在节点的右边。否则，我们将会修剪树的两边。
 
-```java [GoXj8r6W-Java]
+# ```java [GoXj8r6W-Java]
 class Solution {
     public TreeNode trimBST(TreeNode root, int L, int R) {
         if (root == null) return root;
@@ -22,8 +22,8 @@ class Solution {
         return root;
     }
 }
-```
-```python [GoXj8r6W-Python]
+# ```
+# ```python [GoXj8r6W-Python]
 class Solution(object):
     def trimBST(self, root, L, R):
         def trim(node):
@@ -39,11 +39,11 @@ class Solution(object):
                 return node
 
         return trim(root)
-```
+# ```
 
 
-**复杂度分析** 
+# **复杂度分析** 
 
-* 时间复杂度：$O(N)$，其中 $N$ 是给定的树的全部节点。我们最多访问每个节点一次。
+# * 时间复杂度：$O(N)$，其中 $N$ 是给定的树的全部节点。我们最多访问每个节点一次。
 
-* 空间复杂度：$O(N)$，即使我们没有明确使用任何额外的内存，在最糟糕的情况下，我们递归调用的栈可能与节点数一样大。
+# * 空间复杂度：$O(N)$，即使我们没有明确使用任何额外的内存，在最糟糕的情况下，我们递归调用的栈可能与节点数一样大。

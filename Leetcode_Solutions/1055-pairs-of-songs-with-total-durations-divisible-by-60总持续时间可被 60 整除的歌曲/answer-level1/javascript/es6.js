@@ -1,4 +1,4 @@
-```
+// ```
 var numPairsDivisibleBy60 = time => {
     let c = new Array(60).fill(0)
     return time.reduce((count, cur) => {

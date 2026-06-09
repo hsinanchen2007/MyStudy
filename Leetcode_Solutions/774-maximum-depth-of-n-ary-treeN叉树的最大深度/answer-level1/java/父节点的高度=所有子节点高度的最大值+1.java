@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-ArrayList求出最大值用`Collections.max()`
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ArrayList求出最大值用`Collections.max()`
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -35,4 +35,4 @@ class Solution {
         
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先用快速幂拿到10^n, 然后再循环打印
+// 先用快速幂拿到10^n, 然后再循环打印
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 先用快速幂拿到10^n, 然后再循环打印
     public int[] printNumbers(int n) {
@@ -21,4 +21,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

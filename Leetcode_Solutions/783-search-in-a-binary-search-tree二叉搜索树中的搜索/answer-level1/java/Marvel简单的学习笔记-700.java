@@ -1,6 +1,6 @@
-### 递归
+// ### 递归
 
-```java
+// ```java
 class Solution {
     public TreeNode searchBST(TreeNode root, int val) {
         if(root == null)    return null;
@@ -9,11 +9,11 @@ class Solution {
         return root;
     }
 }
-```
+// ```
 
-### 迭代
+// ### 迭代
 
-```java
+// ```java
 class Solution {
     public TreeNode searchBST(TreeNode root, int val) {
         while(root != null)
@@ -25,4 +25,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

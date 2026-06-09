@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -39,4 +39,4 @@ public:
 //              ->null ->null  ->null ->null(通过第一个条件返回的) 
 
 };
-```
+// ```

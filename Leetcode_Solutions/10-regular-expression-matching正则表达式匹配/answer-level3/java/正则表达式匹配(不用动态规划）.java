@@ -1,6 +1,6 @@
-300分钟里的解答方法：
+// 300分钟里的解答方法：
 
-```
+// ```
 class Solution {
     public boolean isMatch(String s, String p) {
         if(s==null || p==null){
@@ -54,4 +54,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sumZero(self, n: int) -> List[int]:
         list1 = [0]
@@ -15,4 +15,4 @@ class Solution:
             return(list1)
         else:
             return(list1)
-```
+# ```

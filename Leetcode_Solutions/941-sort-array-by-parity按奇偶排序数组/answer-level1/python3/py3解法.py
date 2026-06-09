@@ -1,5 +1,5 @@
-双指针
-```
+# 双指针
+# ```
 class Solution:
     def sortArrayByParity(self, A: List[int]) -> List[int]:
         m=0
@@ -8,4 +8,4 @@ class Solution:
                 A[m],A[i]=A[i],A[m]
                 m+=1
         return A
-```
+# ```

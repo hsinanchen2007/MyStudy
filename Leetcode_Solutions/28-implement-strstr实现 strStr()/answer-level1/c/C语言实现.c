@@ -1,8 +1,8 @@
-一定要注意循环判断条件的等号成立
+// 一定要注意循环判断条件的等号成立
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle){
     int srcLen = strlen(haystack);
     int desLen = strlen(needle);
@@ -16,4 +16,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

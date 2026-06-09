@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/58b3c42df28ef8c2db41f7b982f1a06bc18c41b2e36b0b0cf37d99d5cf12746e-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/58b3c42df28ef8c2db41f7b982f1a06bc18c41b2e36b0b0cf37d99d5cf12746e-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* 在hash表遍历的过程中遇到两个相等的值，比如都是-3，第一个-3表示到该元素为止，多出现了3个0，
  * 第二个-3还是表示到该元素为止，多出3个0，那么这两个元素之间的0和1的个数必定相互抵消。
  * 于是，所求子串等同于，hash表中距离最远的两个相同值，复杂度o(n)*/
@@ -84,4 +84,4 @@ int findMaxLength(int* nums, int numsSize){
 	return ans ;
 }
 
-```
+// ```

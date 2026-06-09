@@ -1,10 +1,10 @@
-### 解题思路
-設定一組方向List 當走到邊界或是走到已經走過的位置就轉向
-直到 最後儲存的 List數量與 matrix 像素一樣多就結束
+# ### 解题思路
+# 設定一組方向List 當走到邊界或是走到已經走過的位置就轉向
+# 直到 最後儲存的 List數量與 matrix 像素一樣多就結束
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if not matrix:
@@ -39,4 +39,4 @@ class Solution:
 
 
         
-```
+# ```

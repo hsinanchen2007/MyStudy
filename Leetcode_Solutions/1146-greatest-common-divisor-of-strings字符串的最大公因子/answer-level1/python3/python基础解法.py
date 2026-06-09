@@ -1,11 +1,11 @@
-### 解题思路
-1. 枚举，枚举所有的前缀去判断是否存在这个最长前缀
-2. 通过直接取两个字符串的公约数来判断是否满足要求
-3. 数学方法我是看官方题解才看懂了，完全没想到，战术后仰
+# ### 解题思路
+# 1. 枚举，枚举所有的前缀去判断是否存在这个最长前缀
+# 2. 通过直接取两个字符串的公约数来判断是否满足要求
+# 3. 数学方法我是看官方题解才看懂了，完全没想到，战术后仰
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         # for i in range(min(len(str1), len(str2)), 0, -1):
@@ -26,4 +26,4 @@ class Solution:
             return candidate
         return ''
 
-```
+# ```

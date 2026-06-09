@@ -1,16 +1,16 @@
-### 解题思路
-此处撰写解题思路
-错误提交
-1次：没有考虑b数组为空
-2次：由于while大循环里又写了while循环 其实没有必要，
+// ### 解题思路
+// 此处撰写解题思路
+// 错误提交
+// 1次：没有考虑b数组为空
+// 2次：由于while大循环里又写了while循环 其实没有必要，
 
-时间复杂度为o(m+n)
-空间复杂度为o(m+n)
+// 时间复杂度为o(m+n)
+// 空间复杂度为o(m+n)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         int pl1=0,pl2=0,pr1=m,pc=0;
@@ -35,4 +35,4 @@ class Solution {
         A[i]=c[i];
     }
 }
-```
+// ```

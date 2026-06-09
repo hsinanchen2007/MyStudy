@@ -1,5 +1,5 @@
-此题目思路倒是很简单，每次比较两个链表第一个元素，取最小的那个赋值到新链表。难的是链表的操作以及golang的语法实现不太熟悉，想的出来写不出来。
-```
+// 此题目思路倒是很简单，每次比较两个链表第一个元素，取最小的那个赋值到新链表。难的是链表的操作以及golang的语法实现不太熟悉，想的出来写不出来。
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -39,4 +39,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	return resListNode.Next// resListNode.Next代表tmplistnode第一次取得较小值，是通过地址的引用实现的
 }
 
-```
+// ```

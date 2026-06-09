@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProduct(nums []int) int {
 	var (
 		result = math.MinInt32
@@ -31,4 +31,4 @@ func min(a int, b int) int {
 	}
 	return a
 }
-```
+// ```

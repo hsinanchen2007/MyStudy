@@ -1,5 +1,5 @@
 
-```
+// ```
 
 // 动态规划
 // 动态规划
@@ -40,4 +40,4 @@ func numDistinct(s string, t string) int {
 
 }
 
-```
+// ```

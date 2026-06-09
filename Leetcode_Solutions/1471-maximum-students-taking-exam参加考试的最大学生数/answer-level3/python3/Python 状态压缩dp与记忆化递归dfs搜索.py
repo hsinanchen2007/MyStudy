@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-借鉴自
-[fanhua--java压缩dp与记忆化递归](https://leetcode-cn.com/problems/maximum-students-taking-exam/solution/dpjava-by-henrylee4/)
-但两种不同实现方式在中并没有体现出速度的差距，可能是因为函数递归调用开销比较大？？。具体的不是很了解。
+# 借鉴自
+# [fanhua--java压缩dp与记忆化递归](https://leetcode-cn.com/problems/maximum-students-taking-exam/solution/dpjava-by-henrylee4/)
+# 但两种不同实现方式在中并没有体现出速度的差距，可能是因为函数递归调用开销比较大？？。具体的不是很了解。
 
-### 代码
-压缩状态dp 80ms
-```python3 []
+# ### 代码
+# 压缩状态dp 80ms
+# ```python3 []
 from functools import reduce
 class Solution:
     def maxStudents(self, seats: List[List[str]]) -> int:
@@ -22,13 +22,13 @@ class Solution:
                         if not j&k<<1 and not j&k>>1:
                             dp[i][j]=max(dp[i][j],dp[i-1][k]+bin(j).count('1'))
         return max(dp[-1])
-```
+# ```
 
 
 
 
-记忆化递归 72ms
-```python3
+# 记忆化递归 72ms
+# ```python3
 from functools import reduce
 class Solution:
     def maxStudents(self, seats: List[List[str]]) -> int:
@@ -49,4 +49,4 @@ class Solution:
         rows=[reduce(lambda x,y:x|1<<y , [0]+[j for j in range(c) if seats[i][j]=='#']) for i in range(r)]
         return dfs(memo,0,0)
     
-```
+# ```

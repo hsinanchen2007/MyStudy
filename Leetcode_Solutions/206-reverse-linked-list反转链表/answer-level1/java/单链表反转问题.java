@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-对于原有的链表，声明三个节点，prev：前节点，curr：当前操作节点，nextNode，后节点，对curr进行指针操作，并且三个节点依次向后移动，直到curr为null
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 对于原有的链表，声明三个节点，prev：前节点，curr：当前操作节点，nextNode，后节点，对curr进行指针操作，并且三个节点依次向后移动，直到curr为null
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return prev;
     }
 }
-```
+// ```

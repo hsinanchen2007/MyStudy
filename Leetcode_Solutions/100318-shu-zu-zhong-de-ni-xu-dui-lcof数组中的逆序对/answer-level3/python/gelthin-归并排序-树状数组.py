@@ -1,13 +1,13 @@
-### 解题思路
-+ 要么计算 B[j]加入C时构成了多少逆序对
-+ 要么计算 A[i] 加入C时构成多少逆序对，不要重复计算
+# ### 解题思路
+# + 要么计算 B[j]加入C时构成了多少逆序对
+# + 要么计算 A[i] 加入C时构成多少逆序对，不要重复计算
 
-看 liweiwei 大佬的题解，另一个解法是树状数组，但是这个还没有深入理解，有待进一步学习。
+# 看 liweiwei 大佬的题解，另一个解法是树状数组，但是这个还没有深入理解，有待进一步学习。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reversePairs(self, nums: List[int]) -> int:
         ## 归并排序的一个用处
@@ -42,4 +42,4 @@ class Solution:
 
         A, res = mergesort(nums, 0, len(nums)-1)
         return res
-```
+# ```

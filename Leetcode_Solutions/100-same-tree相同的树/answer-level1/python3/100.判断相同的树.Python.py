@@ -1,5 +1,5 @@
-递归思想
-测试用时40ms，内存14mb
+# 递归思想
+# 测试用时40ms，内存14mb
 
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:

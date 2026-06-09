@@ -1,9 +1,9 @@
-### 解题思路
-位运算倍增求解, 使用异或判断结果正负号
+// ### 解题思路
+// 位运算倍增求解, 使用异或判断结果正负号
 
-### 代码
+// ### 代码
 
-```c++ []
+// ```c++ []
 typedef long long LL;
 class Solution {
 public:
@@ -25,8 +25,8 @@ public:
         return (res > INT32_MAX || res < INT32_MIN) ? INT32_MAX : res;
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int divide(int dividend, int divisor) {
         long dvd = Math.abs((long)dividend);
@@ -49,8 +49,8 @@ class Solution {
         return (res > (long)Integer.MAX_VALUE || res < (long)Integer.MIN_VALUE) ? Integer.MAX_VALUE: (int)res;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         dvd, div = abs(dividend), abs(divisor)
@@ -65,4 +65,4 @@ class Solution:
             dvd -= base
         res = res if (dividend<0)^(divisor<0)==0 else -res
         return INT_MAX if res>INT_MAX or res<INT_MIN else res
-```
+// ```

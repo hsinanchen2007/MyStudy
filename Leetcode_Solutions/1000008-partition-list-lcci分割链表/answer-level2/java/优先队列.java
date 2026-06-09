@@ -1,5 +1,5 @@
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     public ListNode partition(ListNode head, int x) {
         if (head == null) return null;
@@ -20,4 +20,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

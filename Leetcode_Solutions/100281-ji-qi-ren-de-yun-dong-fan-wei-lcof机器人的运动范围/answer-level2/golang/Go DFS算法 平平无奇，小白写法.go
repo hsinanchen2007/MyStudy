@@ -1,9 +1,9 @@
-### 解题思路
-根据Krahets的题解思路编写，没有用到什么特别的骚操作，一步一步慢慢来，所以执行用时和内存消耗都比不上其他人。
+// ### 解题思路
+// 根据Krahets的题解思路编写，没有用到什么特别的骚操作，一步一步慢慢来，所以执行用时和内存消耗都比不上其他人。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func movingCount(m int, n int, k int) int {
     	// 使用匿名函数 - 需要提前声明才能调用自身
 	var dfs func(y, x int) (res int)
@@ -52,7 +52,7 @@ func movingCount(m int, n int, k int) int {
     // 执行DFS算法
     return dfs(0, 0)
 }
-```
+// ```
 
-### 运行结果
-![image.png](https://pic.leetcode-cn.com/6aac9130ba57c06661b447052466753e9ec8ad1e942235655ca51a5fcd2745ad-image.png)
+// ### 运行结果
+// ![image.png](https://pic.leetcode-cn.com/6aac9130ba57c06661b447052466753e9ec8ad1e942235655ca51a5fcd2745ad-image.png)

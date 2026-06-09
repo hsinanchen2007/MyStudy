@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func flipAndInvertImage(A [][]int) [][]int {
 	for i:=0;i< len(A);i++{
 		tmp:=[]int{}
@@ -14,4 +14,4 @@ func flipAndInvertImage(A [][]int) [][]int {
 	}
 	return A
 }
-```
+// ```

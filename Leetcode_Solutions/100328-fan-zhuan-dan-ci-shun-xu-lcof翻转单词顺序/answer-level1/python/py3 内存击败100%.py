@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseWords(self, s: str) -> str:
         s=s.split()
@@ -10,4 +10,4 @@ class Solution:
         except ValueError:
             s=s[::-1]
             return ' '.join(s)
-```
+# ```

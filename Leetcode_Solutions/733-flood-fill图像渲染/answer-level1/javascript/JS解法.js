@@ -1,10 +1,10 @@
-### 解题思路
-这道题用到DFS（深度优先搜索）的概念；
-先判断是否需要染色，然后定义保存老颜色，然后在合法坐标内上下左右搜索判断是否为老颜色，进行递归运算。
+// ### 解题思路
+// 这道题用到DFS（深度优先搜索）的概念；
+// 先判断是否需要染色，然后定义保存老颜色，然后在合法坐标内上下左右搜索判断是否为老颜色，进行递归运算。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} image
  * @param {number} sr
@@ -27,4 +27,4 @@ var floodFill = function(image, sr, sc, newColor) {
     dfs(sr, sc);
     return image;
 };
-```
+// ```

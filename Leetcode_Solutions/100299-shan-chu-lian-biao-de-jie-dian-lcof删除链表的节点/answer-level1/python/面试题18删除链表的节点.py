@@ -1,9 +1,9 @@
-### 解题思路
-通过设置两个节点`node and node.next`,在遍历节点的过程中，如果发现`node.next.val == val`,则令`node.next = node.next.next`.
+# ### 解题思路
+# 通过设置两个节点`node and node.next`,在遍历节点的过程中，如果发现`node.next.val == val`,则令`node.next = node.next.next`.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def deleteNode(self, head: ListNode, val: int) -> ListNode:
         if head.val == val: return head.next # 特殊情况:位于首部，返回head.next
@@ -14,4 +14,4 @@ class Solution:
             node = node.next
         return head
 
-```
+# ```

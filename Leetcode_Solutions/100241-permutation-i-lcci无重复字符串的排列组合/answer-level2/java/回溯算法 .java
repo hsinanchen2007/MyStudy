@@ -1,4 +1,4 @@
-```
+// ```
     private List<String> list = new LinkedList<>();
 
     public String[] permutation(String S) {
@@ -25,4 +25,4 @@
             builder.deleteCharAt(builder.length() - 1);
         }
     }
-```
+// ```

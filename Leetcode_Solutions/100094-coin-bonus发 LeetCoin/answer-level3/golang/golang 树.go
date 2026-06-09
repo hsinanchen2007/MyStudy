@@ -1,5 +1,5 @@
-每次发奖的时候，把这个人获得的leetcoin同时发给他的负责人，取的时候直接读值即可
-```
+// 每次发奖的时候，把这个人获得的leetcoin同时发给他的负责人，取的时候直接读值即可
+// ```
 func bonus(n int, leadership [][]int, operations [][]int) []int {
     m := make(map[int][]int)
     lead := make(map[int]int)
@@ -34,4 +34,4 @@ func find(m map[int][]int, total []int, lead map[int]int, now, lt int) {
         find(m, total, lead, v, lt)
     }
 }
-```
+// ```

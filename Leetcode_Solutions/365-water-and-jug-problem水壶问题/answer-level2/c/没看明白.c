@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int GCD(int a,int b){
     return a%b==0?b:GCD(b,a%b);
 }
@@ -15,4 +15,4 @@ bool canMeasureWater(int x, int y, int z){
     return z%a==0;
 }
 
-```
+// ```

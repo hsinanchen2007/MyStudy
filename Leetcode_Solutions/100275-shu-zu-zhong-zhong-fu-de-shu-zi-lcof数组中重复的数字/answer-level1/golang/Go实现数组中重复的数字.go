@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func findRepeatNumber(nums []int) int {
     for i := 0;i<len(nums);i++{
         for nums[i]!=i{
@@ -13,4 +13,4 @@ func findRepeatNumber(nums []int) int {
     }
     return -1
 }
-```
+// ```

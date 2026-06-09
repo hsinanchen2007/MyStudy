@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def checkPossibility(nums: Array[Int]): Boolean = {
     if (nums.length <= 2) return true
@@ -31,4 +31,4 @@ object Solution {
   }
 }
 
-```
+// ```

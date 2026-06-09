@@ -1,5 +1,5 @@
-通过统计字符个数来计算的方法。
-```
+# 通过统计字符个数来计算的方法。
+# ```
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         d = {key:0 for key in s}
@@ -21,4 +21,4 @@ class Solution:
         # 如果是每个字符出现的次数全为偶数，则最大长度已经算出来了
         # 如果不全为偶数，则随便找一个字符放在偶数字符中间，即可构成回文串，即长度+1        
         return lenP if count == len(d.values()) else lenP + 1
-```
+# ```

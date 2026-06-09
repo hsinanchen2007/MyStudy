@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/7d3c076c528b632097cb8e46eb43f83b010e59b8999b0a29c97e6e74910110ed-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/7d3c076c528b632097cb8e46eb43f83b010e59b8999b0a29c97e6e74910110ed-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -31,4 +31,4 @@ public:
         return ans;
     }
 };
-```
+// ```

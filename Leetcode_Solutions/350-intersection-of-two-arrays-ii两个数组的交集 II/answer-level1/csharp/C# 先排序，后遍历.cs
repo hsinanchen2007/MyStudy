@@ -1,6 +1,6 @@
-执行用时 : 292 ms, 在所有 C# 提交中击败了96.83%的用户
-内存消耗 :29.8 MB, 在所有 C# 提交中击败了5.26%的用户
-```
+// 执行用时 : 292 ms, 在所有 C# 提交中击败了96.83%的用户
+// 内存消耗 :29.8 MB, 在所有 C# 提交中击败了5.26%的用户
+// ```
 public class Solution {
     public int[] Intersect(int[] nums1, int[] nums2) {
         if(nums1.Length == 0 || nums2.Length == 0) return new int[0];
@@ -26,4 +26,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

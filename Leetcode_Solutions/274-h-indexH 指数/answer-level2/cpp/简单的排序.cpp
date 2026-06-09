@@ -1,9 +1,9 @@
-### 解题思路
-将数组从大到小进行排序，计数即可
+// ### 解题思路
+// 将数组从大到小进行排序，计数即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class compare{
     public:
     bool operator()(int a,int b)
@@ -31,4 +31,4 @@ public:
          return sum;
     }
 };
-```
+// ```

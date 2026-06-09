@@ -1,9 +1,9 @@
 
-递归法：
+// 递归法：
 
-需要注意临界条件的判断，左右节点的空情况的枚举
+// 需要注意临界条件的判断，左右节点的空情况的枚举
 
-```swift []
+// ```swift []
 class Solution {
     func minDepth(_ root: TreeNode?) -> Int {
         
@@ -29,5 +29,5 @@ class Solution {
         
     }
 }
-```
+// ```
 

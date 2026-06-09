@@ -1,15 +1,15 @@
-### 解题思路
-给定一个字符串，你需要反转字符串中每个单词的字符顺序，同时仍保留空格和单词的初始顺序。
+// ### 解题思路
+// 给定一个字符串，你需要反转字符串中每个单词的字符顺序，同时仍保留空格和单词的初始顺序。
 
-示例 1:
+// 示例 1:
 
-输入: "Let's take LeetCode contest"
-输出: "s'teL ekat edoCteeL tsetnoc" 
+// 输入: "Let's take LeetCode contest"
+// 输出: "s'teL ekat edoCteeL tsetnoc" 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

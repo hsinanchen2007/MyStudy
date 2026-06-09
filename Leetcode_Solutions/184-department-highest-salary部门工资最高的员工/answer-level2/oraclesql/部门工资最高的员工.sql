@@ -1,6 +1,6 @@
-错误版本：
--- 一开始写错了，疑问在于不知道把name怎么加进去。
--- 但是直接把name加max后面会形成错位，name是按照原顺序来的
+-- 错误版本：
+-- -- 一开始写错了，疑问在于不知道把name怎么加进去。
+-- -- 但是直接把name加max后面会形成错位，name是按照原顺序来的
 select c.Department,c.Employee,c.max_salary as Salary
 from 
 

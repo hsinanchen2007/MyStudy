@@ -1,9 +1,9 @@
-### 解题思路
-对角线翻转再轴对称翻转
+// ### 解题思路
+// 对角线翻转再轴对称翻转
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int row = 0;
     int col = 0;
@@ -31,4 +31,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         }
     }
 }
-```
+// ```

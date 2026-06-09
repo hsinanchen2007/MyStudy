@@ -1,9 +1,9 @@
-### 解题思路
-[递推求解](https://www.dotnetperls.com/fibonacci-ruby)
+# ### 解题思路
+# [递推求解](https://www.dotnetperls.com/fibonacci-ruby)
 
-### 代码
+# ### 代码
 
-```ruby
+# ```ruby
 # @param {Integer} n
 # @return {Integer}
 def num_ways(n)
@@ -21,4 +21,4 @@ def num_ways(n)
     a % (10 ** 9 + 7)
         
 end
-```
+# ```

@@ -1,18 +1,18 @@
-本题分为以下几个点
-- 初始化链表
-- 获得第index个节点的值
-- 添加头节点
-- 添加尾节点
-- 添加第index个节点
-- 删除第index个节点
+// 本题分为以下几个点
+// - 初始化链表
+// - 获得第index个节点的值
+// - 添加头节点
+// - 添加尾节点
+// - 添加第index个节点
+// - 删除第index个节点
 
-这里使用双向链表来做。节省运行时间，但比较占用内存。 
+// 这里使用双向链表来做。节省运行时间，但比较占用内存。 
 
-代码基本都有注释，相对详细。
+// 代码基本都有注释，相对详细。
 
-__代码后面有图解解释关键步骤__
+// __代码后面有图解解释关键步骤__
 
-```cpp
+// ```cpp
 struct Node{ //构造链表Node结构
     int val; 
     Node *prev, *next;
@@ -134,24 +134,24 @@ private:
     Node* tail;
     int size;
 };
-```
+// ```
 
-以下是关于单链表的图解，至于双链表，就比单链表每个节点多一个指针，需要注意更新相应的指针
+// 以下是关于单链表的图解，至于双链表，就比单链表每个节点多一个指针，需要注意更新相应的指针
 
-__添加head的图解，添加tail类似__
+// __添加head的图解，添加tail类似__
 
-![添加节点.png](https://pic.leetcode-cn.com/3ade6a162afc613a69cef86d1886bbaa136f9343cb63290e54e4847ad046ea82-%E6%B7%BB%E5%8A%A0%E8%8A%82%E7%82%B9.png)
+// ![添加节点.png](https://pic.leetcode-cn.com/3ade6a162afc613a69cef86d1886bbaa136f9343cb63290e54e4847ad046ea82-%E6%B7%BB%E5%8A%A0%E8%8A%82%E7%82%B9.png)
 
-__在指定位置插入节点__
+// __在指定位置插入节点__
 
-![在指定位置插入节点.png](https://pic.leetcode-cn.com/3e5ecef5864da58714200ac6d1cd7a83260286dfd0c1d7d525959bb29f42e49a-%E5%9C%A8%E6%8C%87%E5%AE%9A%E4%BD%8D%E7%BD%AE%E6%8F%92%E5%85%A5%E8%8A%82%E7%82%B9.png)
+// ![在指定位置插入节点.png](https://pic.leetcode-cn.com/3e5ecef5864da58714200ac6d1cd7a83260286dfd0c1d7d525959bb29f42e49a-%E5%9C%A8%E6%8C%87%E5%AE%9A%E4%BD%8D%E7%BD%AE%E6%8F%92%E5%85%A5%E8%8A%82%E7%82%B9.png)
 
-__删除节点图解__
+// __删除节点图解__
 
-![删除节点.png](https://pic.leetcode-cn.com/119decedf50955c481bb01ae643c09aa8cb1c3127dfacfbd546f7e7411527723-%E5%88%A0%E9%99%A4%E8%8A%82%E7%82%B9.png)
+// ![删除节点.png](https://pic.leetcode-cn.com/119decedf50955c481bb01ae643c09aa8cb1c3127dfacfbd546f7e7411527723-%E5%88%A0%E9%99%A4%E8%8A%82%E7%82%B9.png)
 
-__搜索节点__
+// __搜索节点__
 
-![搜索1.png](https://pic.leetcode-cn.com/3b06bbf9f7c5bc628569763f47354b9404adf6251e0ec9e1cac1b02eecc6aa23-%E6%90%9C%E7%B4%A21.png)
+// ![搜索1.png](https://pic.leetcode-cn.com/3b06bbf9f7c5bc628569763f47354b9404adf6251e0ec9e1cac1b02eecc6aa23-%E6%90%9C%E7%B4%A21.png)
 
-![搜索2.png](https://pic.leetcode-cn.com/6c7d860280212facbfa40b849ae16682c1f85758055c652896ace4d634ff5566-%E6%90%9C%E7%B4%A22.png)
+// ![搜索2.png](https://pic.leetcode-cn.com/6c7d860280212facbfa40b849ae16682c1f85758055c652896ace4d634ff5566-%E6%90%9C%E7%B4%A22.png)

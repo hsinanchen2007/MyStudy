@@ -1,12 +1,12 @@
-### 解题思路
-单调双端队列的实现，思路参考这位老哥的，看了就明白了，写的非常好
-[双向队列解决滑动窗口最大值
-](https://leetcode-cn.com/problems/sliding-window-maximum/solution/shuang-xiang-dui-lie-jie-jue-hua-dong-chuang-kou-2/)
+// ### 解题思路
+// 单调双端队列的实现，思路参考这位老哥的，看了就明白了，写的非常好
+// [双向队列解决滑动窗口最大值
+// ](https://leetcode-cn.com/problems/sliding-window-maximum/solution/shuang-xiang-dui-lie-jie-jue-hua-dong-chuang-kou-2/)
 
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -47,4 +47,4 @@ class Solution {
         return $result;
     }
 }
-```
+// ```

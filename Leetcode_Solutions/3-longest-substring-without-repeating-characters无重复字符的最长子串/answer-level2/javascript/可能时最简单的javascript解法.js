@@ -1,9 +1,9 @@
-### 解题思路
-记录平滑时出现的最高长度，每次比较最新值有无出现重复值。
+// ### 解题思路
+// 记录平滑时出现的最高长度，每次比较最新值有无出现重复值。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -24,4 +24,4 @@ var lengthOfLongestSubstring = function(s) {
     }
     return s.length===1?1:len;
 };
-```
+// ```

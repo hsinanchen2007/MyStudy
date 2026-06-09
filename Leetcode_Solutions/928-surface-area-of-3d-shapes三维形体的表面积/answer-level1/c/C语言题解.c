@@ -1,8 +1,8 @@
-思路：
-表面积=所有正方体表面积-接触面个数*2
-接触面=（本层个数-1）*2+四个方向相邻接触面；
-相邻接触面=较少方块的个数。
-```
+// 思路：
+// 表面积=所有正方体表面积-接触面个数*2
+// 接触面=（本层个数-1）*2+四个方向相邻接触面；
+// 相邻接触面=较少方块的个数。
+// ```
 int min(int a, int b){
     return a<b?a:b;
 }
@@ -32,7 +32,7 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     }
     return all*6-more;
 }
-```
-![image.png](https://pic.leetcode-cn.com/a32ede7fdb7e6d7b3e280f6eca7ae31339f61b453a98dc666fb868bbe9683528-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/a32ede7fdb7e6d7b3e280f6eca7ae31339f61b453a98dc666fb868bbe9683528-image.png)
 
 

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class StockSpanner {
 public:
     vector<int> prices;
@@ -18,4 +18,4 @@ public:
         return prices.size() - ret;
     }
 };
-```
+// ```

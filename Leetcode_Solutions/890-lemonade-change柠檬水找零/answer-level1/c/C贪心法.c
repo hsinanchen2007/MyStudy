@@ -1,10 +1,10 @@
-### 解题思路
-![Snipaste_2020-03-12_17-43-01.png](https://pic.leetcode-cn.com/1475a30da93a861acfe72ecd0000966ea7aacbd95bb121b68bdd0cf89c202773-Snipaste_2020-03-12_17-43-01.png)
-首先第一张必须为5元。然后分别统计5元和10元的数量，每次找零优先用10元的。
+// ### 解题思路
+// ![Snipaste_2020-03-12_17-43-01.png](https://pic.leetcode-cn.com/1475a30da93a861acfe72ecd0000966ea7aacbd95bb121b68bdd0cf89c202773-Snipaste_2020-03-12_17-43-01.png)
+// 首先第一张必须为5元。然后分别统计5元和10元的数量，每次找零优先用10元的。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool lemonadeChange(int* bills, int billsSize){
     if(billsSize==0) return true;
     if(bills[0]!=5) return false;//首张必须为5
@@ -41,4 +41,4 @@ bool lemonadeChange(int* bills, int billsSize){
     }
     return true;
 }
-```
+// ```

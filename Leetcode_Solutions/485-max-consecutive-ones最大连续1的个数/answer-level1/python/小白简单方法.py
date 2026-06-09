@@ -1,9 +1,9 @@
-### 解题思路
-没啥思路，看完题就写了
+# ### 解题思路
+# 没啥思路，看完题就写了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findMaxConsecutiveOnes(self, nums):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             else:
                 res=0
         return max_num
-```
+# ```

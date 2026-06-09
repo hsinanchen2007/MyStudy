@@ -1,4 +1,4 @@
-```java
+// ```java
 public class Solution{
 	/*
 	* 若当前的三个元素是：[a b c]，i指向中间的b,j从c开始扫描
@@ -45,4 +45,4 @@ public class Solution{
 		return i;
 	}
 }
-```
+// ```

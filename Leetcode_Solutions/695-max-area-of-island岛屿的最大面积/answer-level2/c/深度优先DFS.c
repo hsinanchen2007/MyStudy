@@ -1,9 +1,9 @@
-### 解题思路
-dfs c 
+// ### 解题思路
+// dfs c 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void dfs(int i, int j, int** grid, int gridSize, int gridColSize, int *value)
 {
     if(i < 0 || i >= gridSize) {
@@ -48,4 +48,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
     free(p);
     return maxValue;
 }
-```
+// ```

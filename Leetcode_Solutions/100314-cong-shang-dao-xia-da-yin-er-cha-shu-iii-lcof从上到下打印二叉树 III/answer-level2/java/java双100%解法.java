@@ -1,8 +1,8 @@
-### 解题思路
-使用标志位flag,将其初始化为true；每循环一次，flag变化一次。当flag为false时，元素在头部加入列表，为true时元素在尾部加入列表
-### 代码
+// ### 解题思路
+// 使用标志位flag,将其初始化为true；每循环一次，flag变化一次。当flag为false时，元素在头部加入列表，为true时元素在尾部加入列表
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -48,4 +48,4 @@ class Solution {
 		}
     }
 
-```
+// ```

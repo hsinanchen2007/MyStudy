@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 bool judgeCircle(char * moves){
     int len = strlen(moves);
@@ -19,4 +19,4 @@ bool judgeCircle(char * moves){
     }
     return false;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-比较A[i]与B[i], 然后找到可以交换一次的位置，找不到就找交换一次但是需要换回来的
+// ### 解题思路
+// 比较A[i]与B[i], 然后找到可以交换一次的位置，找不到就找交换一次但是需要换回来的
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func kSimilarity(A string, B string) int {
     strA := []byte(A)
     strB := []byte(B)
@@ -53,4 +53,4 @@ func kSimilarity(A string, B string) int {
 }
 
 
-```
+// ```

@@ -1,10 +1,10 @@
-    刚拿到题目没有思路看了题解，发现第一页没有java解法，就尝试用java做了一下，主要思路为：
+//     刚拿到题目没有思路看了题解，发现第一页没有java解法，就尝试用java做了一下，主要思路为：
 
-    1.定义一个helper函数，其功能为给定一个序列，求解下一个序列，返回字符串，其中用到了栈
+//     1.定义一个helper函数，其功能为给定一个序列，求解下一个序列，返回字符串，其中用到了栈
 
-    2.定义递归函数，n=1时直接返回1，否则进行递归
+//     2.定义递归函数，n=1时直接返回1，否则进行递归
 
-```
+// ```
 import java.util.Stack;
 class Solution {
 	public static String countAndSay(int n) {
@@ -35,6 +35,6 @@ class Solution {
     	System.out.print(countAndSay(10));
     }
 }
-```
+// ```
 
 

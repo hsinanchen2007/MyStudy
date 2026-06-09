@@ -1,5 +1,5 @@
-取第一个号码对应的列表1，与后一个号码对应的列表2的每一项进行组合，得到新的列表，一直向后遍历号码即可。
-```python
+# 取第一个号码对应的列表1，与后一个号码对应的列表2的每一项进行组合，得到新的列表，一直向后遍历号码即可。
+# ```python
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         phone = {
@@ -29,4 +29,4 @@ class Solution:
             for j in range(len(list)):
                 temp.append(t+list[j])
         return temp
-```
+# ```

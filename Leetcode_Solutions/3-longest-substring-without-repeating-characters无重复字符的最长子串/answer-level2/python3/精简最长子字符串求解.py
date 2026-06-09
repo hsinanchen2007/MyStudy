@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         s1=[]#定义的子字符串数组#
@@ -26,4 +26,4 @@ class Solution:
             
         
                 
-```
+# ```

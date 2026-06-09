@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def shiftingLetters(self, S: str, org_shifts) -> str:
         result = ""
@@ -10,4 +10,4 @@ class Solution:
             result += chr(ord('a') + ((ord(c) + shifts[i] - ord('a')) % 26))
 
         return result
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 var containsNearbyDuplicate = function(nums, k) {
     let map = new Map();
     for(let i=0; i<nums.length; i++){
@@ -10,4 +10,4 @@ var containsNearbyDuplicate = function(nums, k) {
     }
      return false;
 };
-```
+// ```

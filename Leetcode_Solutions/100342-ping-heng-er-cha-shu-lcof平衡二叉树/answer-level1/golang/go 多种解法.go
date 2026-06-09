@@ -1,4 +1,4 @@
-```
+// ```
 func isBalanced(root *TreeNode) bool {
 	return dfsIsBalanced(root) != -1
 }
@@ -14,10 +14,10 @@ func dfsIsBalanced(root *TreeNode) int {
 	}
 	return -1
 }
-```
+// ```
 
 
-```
+// ```
 //另外一种答题
 func hight(root *TreeNode) int {
 	if root == nil {
@@ -33,5 +33,5 @@ func isBalanced(root *TreeNode) bool {
 	return math.Abs(float64(hight(root.Left))-float64(hight(root.Right))) < 2 && isBalanced(root.Left) && isBalanced(root.Right)
 }
 
-```
+// ```
 

@@ -1,5 +1,5 @@
-# 方法一：使用PHP原生的方法 str_replace；
-```
+// # 方法一：使用PHP原生的方法 str_replace；
+// ```
 class Solution {
 
     /**
@@ -10,10 +10,10 @@ class Solution {
        return str_replace(' ', '%20', $s);
     }
 }
-```
+// ```
 
-# 方法二：剑指上面推荐的方法
-```
+// # 方法二：剑指上面推荐的方法
+// ```
 class Solution {
 
     /**
@@ -46,4 +46,4 @@ class Solution {
         return $newStr;
     }
 }
-```
+// ```

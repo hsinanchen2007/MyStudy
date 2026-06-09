@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxSlidingWindow(nums []int, k int) []int {
     var helper []int
     var res []int
@@ -39,4 +39,4 @@ func appendMaxToHelper(helper []int, val int) []int{
         }
     return helper
 }
-```
+// ```

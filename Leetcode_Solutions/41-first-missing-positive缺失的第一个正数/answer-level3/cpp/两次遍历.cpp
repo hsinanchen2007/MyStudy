@@ -1,8 +1,8 @@
-### 解题思路
-需要注意一下第一次遍历时，若当前位置的数需要换出，不要i++。
-### 代码
+// ### 解题思路
+// 需要注意一下第一次遍历时，若当前位置的数需要换出，不要i++。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return len+1;
     }
 };
-```
+// ```

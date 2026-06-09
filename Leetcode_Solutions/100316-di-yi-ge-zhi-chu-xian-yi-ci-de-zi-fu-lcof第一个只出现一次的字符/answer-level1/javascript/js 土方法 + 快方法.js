@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/b8d38221cca42266e2d6b77f3a844e552e8794e543056c41bf1bfb1547518f97-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b8d38221cca42266e2d6b77f3a844e552e8794e543056c41bf1bfb1547518f97-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 使用 indexOf 判断，除了当前字符之外，其余部分如果都不存在此字符，那么找到答案
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {character}
@@ -57,4 +57,4 @@ var firstUniqChar = function(s) {
   
 //   return ans;
 // };
-```
+// ```

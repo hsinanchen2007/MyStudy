@@ -1,9 +1,9 @@
-### 解题思路
-思路和三数之和基本一致。先排序，后双指针，然后根据条件优化剪枝。
+# ### 解题思路
+# 思路和三数之和基本一致。先排序，后双指针，然后根据条件优化剪枝。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         nums.sort()
@@ -41,4 +41,4 @@ class Solution:
             while f < n - 4 and nums[f] == nums[f + 1]: f += 1
             f += 1
         return result
-```
+# ```

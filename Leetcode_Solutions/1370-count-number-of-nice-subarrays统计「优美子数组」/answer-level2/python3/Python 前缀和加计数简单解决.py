@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/a79985a07e50790777a9ee964ff25db751599c5eef23f5fe6a9b303e109050ee-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a79985a07e50790777a9ee964ff25db751599c5eef23f5fe6a9b303e109050ee-image.png)
 
 
-```
+# ```
 '''
 前缀和累加计数数字出现的次数，一遍扫描即可解决
 '''
@@ -29,4 +29,4 @@ class Solution:
             c[dp[i]] += 1
 
         return ans
-```
+# ```

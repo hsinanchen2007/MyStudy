@@ -1,8 +1,8 @@
-### 解题思路：
-步骤一：用一个 $hashmap$ 存放数字出现的次数
-步骤二：然后对 $hashmap$ 的 $value$ 进行降序排序
-步骤三：比较 $key$ 和 $value$ 是否相等，相等则返回
-```java
+// ### 解题思路：
+// 步骤一：用一个 $hashmap$ 存放数字出现的次数
+// 步骤二：然后对 $hashmap$ 的 $value$ 进行降序排序
+// 步骤三：比较 $key$ 和 $value$ 是否相等，相等则返回
+// ```java
 class Solution {
 	 public int findLucky(int[] arr) {
 		 //步骤一：用一个hashmap存放数字出现的次数
@@ -39,4 +39,4 @@ class Solution {
 		return -1;
 	    }
 }
-```
+// ```

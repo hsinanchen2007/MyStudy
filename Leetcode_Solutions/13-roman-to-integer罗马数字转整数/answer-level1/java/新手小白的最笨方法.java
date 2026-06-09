@@ -1,11 +1,11 @@
-### 解题思路
-笨方法，列出全部情况。
-执行用时 :4 ms, 在所有 Java 提交中击败了99.98%的用户
-内存消耗 :39.8 MB, 在所有 Java 提交中击败了5.02%的用户
+// ### 解题思路
+// 笨方法，列出全部情况。
+// 执行用时 :4 ms, 在所有 Java 提交中击败了99.98%的用户
+// 内存消耗 :39.8 MB, 在所有 Java 提交中击败了5.02%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int romanToInt(String s) {
         char[] chars = s.toCharArray();
@@ -47,4 +47,4 @@ class Solution {
         return x;
     }
 }
-```
+// ```

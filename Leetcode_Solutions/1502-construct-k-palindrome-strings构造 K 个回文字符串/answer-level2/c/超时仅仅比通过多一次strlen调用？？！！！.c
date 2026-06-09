@@ -1,12 +1,12 @@
-### 解题思路
-超时仅仅比通过多一次strlen调用
+// ### 解题思路
+// 超时仅仅比通过多一次strlen调用
 
-### 超时
+// ### 超时
 
-![image.png](https://pic.leetcode-cn.com/5fbc8463281c796c157123e6ec3a1419ec0c6e2d49ff80d156f28efe38a7c02f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5fbc8463281c796c157123e6ec3a1419ec0c6e2d49ff80d156f28efe38a7c02f-image.png)
 
 
-```
+// ```
 bool canConstruct(char * s, int k){
     if (strlen(s) < k) return false;
 
@@ -23,12 +23,12 @@ bool canConstruct(char * s, int k){
 
     return true;
 }
-```
+// ```
 
 
-### 通过
+// ### 通过
 
-```c
+// ```c
 bool canConstruct(char * s, int k){
     int cnt[26] = {0};
     int length = strlen(s);
@@ -48,4 +48,4 @@ bool canConstruct(char * s, int k){
 }
 
 
-```
+// ```

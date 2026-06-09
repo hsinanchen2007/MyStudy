@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def validMountainArray(self, A: List[int]) -> bool:
         if len(A) < 3:
@@ -13,4 +13,4 @@ class Solution:
             if A[i] <= A[i+1]:
                 return False
         return True
-```
+# ```

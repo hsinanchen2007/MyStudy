@@ -1,9 +1,9 @@
-### 解题思路
-听说有的大佬一行代码就完事了，我比较菜，想了很久用到了列表的特性才解决的
+# ### 解题思路
+# 听说有的大佬一行代码就完事了，我比较菜，想了很久用到了列表的特性才解决的
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def decompressRLElist(self, nums):
         """
@@ -20,4 +20,4 @@ class Solution(object):
   
 
 
-```
+# ```

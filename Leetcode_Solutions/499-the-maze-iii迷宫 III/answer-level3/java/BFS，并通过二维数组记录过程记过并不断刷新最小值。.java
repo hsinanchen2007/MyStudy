@@ -1,16 +1,16 @@
-### 解题思路
-1：定义PriorityQueue进行BFS。
-2：定义director方便四个方向扩展
-3：定义directStr方便获取ways的字符
-4：定义对象Point，并重写compareTo，方便后续进行对象操作
-5：定义二维数组dp[][]，用来存储到达该坐标的最小对象。（通过compareTo比较，不断刷新）
-6：如果更新了dp[][]，该坐标重新加入queue
-注意：起始点的坐标不要重新加入queue。（判断：(nextX != point.x || nextY != point.y)）
+// ### 解题思路
+// 1：定义PriorityQueue进行BFS。
+// 2：定义director方便四个方向扩展
+// 3：定义directStr方便获取ways的字符
+// 4：定义对象Point，并重写compareTo，方便后续进行对象操作
+// 5：定义二维数组dp[][]，用来存储到达该坐标的最小对象。（通过compareTo比较，不断刷新）
+// 6：如果更新了dp[][]，该坐标重新加入queue
+// 注意：起始点的坐标不要重新加入queue。（判断：(nextX != point.x || nextY != point.y)）
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int[][] maze;
 
@@ -121,4 +121,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findLengthOfLCIS(self, nums: List[int]) -> int:
         if len(nums) < 1:
@@ -19,4 +19,4 @@ class Solution:
                 i = j+1
                 j = i
         return count
-```
+# ```

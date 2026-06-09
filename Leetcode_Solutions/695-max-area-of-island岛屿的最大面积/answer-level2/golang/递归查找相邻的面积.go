@@ -1,9 +1,9 @@
-### 解题思路
-递归查找相邻部分的面积
+// ### 解题思路
+// 递归查找相邻部分的面积
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxAreaOfIsland(grid [][]int) (area int) {
     var traverse func(i, j int) int
     MaxI, MaxJ := len(grid), 0
@@ -38,4 +38,4 @@ func maxAreaOfIsland(grid [][]int) (area int) {
     }
     return
 }
-```
+// ```

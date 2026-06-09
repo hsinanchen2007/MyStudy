@@ -1,7 +1,7 @@
 
-通过计算两链长度，减去长度差，
-让两链一起next往前走，找到共同的交点
-```
+// 通过计算两链长度，减去长度差，
+// 让两链一起next往前走，找到共同的交点
+// ```
 
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
@@ -56,4 +56,4 @@ public class Solution {
         
     }
 }
-```
+// ```

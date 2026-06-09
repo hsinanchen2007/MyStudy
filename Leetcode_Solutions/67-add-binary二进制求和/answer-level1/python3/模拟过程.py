@@ -1,10 +1,10 @@
-## 思路:
+# ## 思路:
 
-思路一: 库函数
+# 思路一: 库函数
 
-二进制转十进制,十进制数相加再转二进制
+# 二进制转十进制,十进制数相加再转二进制
 
-```python
+# ```python
 class Solution:
     def addBinary(self, a, b):
         """
@@ -13,15 +13,15 @@ class Solution:
         :rtype: str
         """
         return bin(int(a,2) + int(b,2))[2:]
-```
+# ```
 
-思路二:模拟加法过程
+# 思路二:模拟加法过程
 
-## 代码:
+# ## 代码:
 
-思路二 :
+# 思路二 :
 
-```python [1]
+# ```python [1]
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         res = ""
@@ -36,11 +36,11 @@ class Solution:
             i -= 1
             j -= 1
         return res
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public String addBinary(String a, String b) {
         StringBuilder res = new StringBuilder();
@@ -54,5 +54,5 @@ class Solution {
         return res.reverse().toString();      
     }
 }
-```
+# ```
 

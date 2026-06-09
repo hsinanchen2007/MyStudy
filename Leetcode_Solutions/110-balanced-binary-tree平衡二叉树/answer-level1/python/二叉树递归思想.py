@@ -1,10 +1,10 @@
-[]()### 解题思路
-使用递归的思想，建立递归函数，返回值为以节点为根的高度，递归统计左右子树的高度，并进行比较，比较若差的绝对值大于1
-则将judge进行修改
+# []()### 解题思路
+# 使用递归的思想，建立递归函数，返回值为以节点为根的高度，递归统计左右子树的高度，并进行比较，比较若差的绝对值大于1
+# 则将judge进行修改
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
         return self.judge
                 
             
-```
+# ```

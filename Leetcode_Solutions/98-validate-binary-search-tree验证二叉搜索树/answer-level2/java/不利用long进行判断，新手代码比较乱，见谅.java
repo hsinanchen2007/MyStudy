@@ -1,4 +1,4 @@
-主要是进行Integer.MAX_VALUE和Integer.MIN_VALUE值得判断，利用minflag,maxflag作为标志 
+// 主要是进行Integer.MAX_VALUE和Integer.MIN_VALUE值得判断，利用minflag,maxflag作为标志 
 class Solution {
     public boolean isValidBST(TreeNode root) {
         if(root==null) return true;

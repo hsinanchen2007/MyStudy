@@ -1,9 +1,9 @@
-### 解题思路
-先用hashmap计数，O(n)，然后minheap筛选，堆最大深度为k+1，n*log(k+1)，总时间复杂度 n*log(k+1)
+// ### 解题思路
+// 先用hashmap计数，O(n)，然后minheap筛选，堆最大深度为k+1，n*log(k+1)，总时间复杂度 n*log(k+1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> topKFrequent(int[] nums, int k) {
 
@@ -28,4 +28,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

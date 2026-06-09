@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -45,6 +45,6 @@ func deleteDuplicates(head *ListNode) *ListNode {
 	}
 	return res.Next
 }
-```
-### 执行结果
-![image.png](https://pic.leetcode-cn.com/9bd62bb224dbdcf0ae1becf49bb1ce183878548e0e05de2419455596e0755959-image.png)
+// ```
+// ### 执行结果
+// ![image.png](https://pic.leetcode-cn.com/9bd62bb224dbdcf0ae1becf49bb1ce183878548e0e05de2419455596e0755959-image.png)

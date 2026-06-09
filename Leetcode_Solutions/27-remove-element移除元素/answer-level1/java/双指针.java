@@ -1,8 +1,8 @@
-### 解题思路
-双指针
-### 代码
+// ### 解题思路
+// 双指针
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int i = 0;
@@ -16,4 +16,4 @@ class Solution {
         return i;
     }
 }
-```
+// ```

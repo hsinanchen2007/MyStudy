@@ -1,12 +1,12 @@
-### 解题思路
-1.首先进行预处理，对原数组进行排序和删除比target大的数据
-2.使用递归和回溯，将和为target的temp数组加入res；
-3.剪枝：temp加入新数据的和大于target了；
-4.去重：一开始会有重复出现，看其他答案受到启发，可以通过大小来判断，不让比之前小的数据加入temp；
+// ### 解题思路
+// 1.首先进行预处理，对原数组进行排序和删除比target大的数据
+// 2.使用递归和回溯，将和为target的temp数组加入res；
+// 3.剪枝：temp加入新数据的和大于target了；
+// 4.去重：一开始会有重复出现，看其他答案受到启发，可以通过大小来判断，不让比之前小的数据加入temp；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
@@ -37,4 +37,4 @@ public:
         }
     }
 };
-```
+// ```

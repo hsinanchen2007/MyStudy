@@ -1,10 +1,10 @@
-### 解题思路
-先比较board[i][j] 与 word第一个字符关系，然后再进行递归，执行时间4ms，击败
-99.75%
+// ### 解题思路
+// 先比较board[i][j] 与 word第一个字符关系，然后再进行递归，执行时间4ms，击败
+// 99.75%
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean exist(char[][] board, String word) {
         char[] wordChars = word.toCharArray();
@@ -31,4 +31,4 @@ class Solution {
         return flag;
     }
 }
-```
+// ```

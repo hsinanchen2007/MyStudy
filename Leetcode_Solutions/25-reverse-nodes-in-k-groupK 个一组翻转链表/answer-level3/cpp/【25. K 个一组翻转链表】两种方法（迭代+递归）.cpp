@@ -1,7 +1,7 @@
-## 思路一：迭代
-从前向后一组一组进行反转。
-### 代码
-```c++
+// ## 思路一：迭代
+// 从前向后一组一组进行反转。
+// ### 代码
+// ```c++
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {              
@@ -34,12 +34,12 @@ public:
         return pre;
     }
 };
-```
+// ```
 
-## 思路二：递归
-递归反转后面链表，然后反转当前链表节点。
-### 代码
-```c++
+// ## 思路二：递归
+// 递归反转后面链表，然后反转当前链表节点。
+// ### 代码
+// ```c++
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {                
@@ -63,4 +63,4 @@ public:
         return head;
     }
 };
-```
+// ```

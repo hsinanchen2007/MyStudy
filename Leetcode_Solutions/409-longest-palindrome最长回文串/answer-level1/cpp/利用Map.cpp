@@ -1,6 +1,6 @@
-![捕获.PNG](https://pic.leetcode-cn.com/4dc6f18b687820df9f902a8d67265e6efcb5290a7eddb7c98c45ca5a7015ea0f-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/4dc6f18b687820df9f902a8d67265e6efcb5290a7eddb7c98c45ca5a7015ea0f-%E6%8D%95%E8%8E%B7.PNG)
 
-```
+// ```
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -19,4 +19,4 @@ public:
         return count;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-暴力破解法
-### 代码
+// ### 解题思路
+// 暴力破解法
+// ### 代码
 
-```c
+// ```c
 int min(int a,int b){
     return a<b?a:b;
 }
@@ -19,4 +19,4 @@ int maxArea(int* height, int heightSize){
             
     
 }
-```
+// ```

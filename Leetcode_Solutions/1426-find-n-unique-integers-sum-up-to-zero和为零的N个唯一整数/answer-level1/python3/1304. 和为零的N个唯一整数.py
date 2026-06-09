@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sumZero(self, n: int) -> List[int]:
         ans = []
@@ -16,4 +16,4 @@ class Solution:
         return ans 
 
         
-```
+# ```

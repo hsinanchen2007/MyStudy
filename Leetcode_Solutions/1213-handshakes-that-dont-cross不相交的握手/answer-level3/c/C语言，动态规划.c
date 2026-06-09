@@ -1,16 +1,16 @@
-### 解题思路
-动态规划：奇数的dp=0；dp[0] = 1;
-dp[num]:
-for (int i = 1; i < num; i = i + NUM_2)  {
-        g_dpMap[num]    +=  ((g_dpMap[i - 1] * g_dpMap[num - i - 1]) % MOD_MUN);
-        g_dpMap[num]    = g_dpMap[num] % MOD_MUN;
-    }
-![image.png](https://pic.leetcode-cn.com/dbc98084552792396e4714eedf3f40bb5c1fe92e906545d21eb9cf1b2edf42fc-image.png)
+// ### 解题思路
+// 动态规划：奇数的dp=0；dp[0] = 1;
+// dp[num]:
+// for (int i = 1; i < num; i = i + NUM_2)  {
+//         g_dpMap[num]    +=  ((g_dpMap[i - 1] * g_dpMap[num - i - 1]) % MOD_MUN);
+//         g_dpMap[num]    = g_dpMap[num] % MOD_MUN;
+//     }
+// ![image.png](https://pic.leetcode-cn.com/dbc98084552792396e4714eedf3f40bb5c1fe92e906545d21eb9cf1b2edf42fc-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define             MAX_SIZE        10002
 #define             NUM_2           2
 #define             MOD_MUN         (1000000000 + 7)
@@ -64,4 +64,4 @@ int numberOfWays(int num_people)
 
     return (int)g_dpMap[num_people];
 }
-```
+// ```

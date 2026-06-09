@@ -1,8 +1,8 @@
-### 链表快排
+# ### 链表快排
 
-递归函数栈似乎不太符合空间要求，不过比归并递归要快不少。
+# 递归函数栈似乎不太符合空间要求，不过比归并递归要快不少。
 
-```python []
+# ```python []
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
         if not head or not head.next:
@@ -28,13 +28,13 @@ class Solution:
         l.next = middle.next
         m.next = right.next
         return left.next
-```
+# ```
 
-### 数组法
+# ### 数组法
 
-空间完全不符合要求，但是最快。
+# 空间完全不符合要求，但是最快。
 
-```python []
+# ```python []
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
         ans, vals = ListNode(0), []
@@ -47,4 +47,4 @@ class Solution:
         for val in vals:
             head.val, head = val, head.next
         return ans.next
-```
+# ```

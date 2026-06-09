@@ -1,4 +1,4 @@
-```
+// ```
 int compare(int** ptr1, int**ptr2)
 {
     return (ptr1[0][0] - ptr2[0][0]);
@@ -47,4 +47,4 @@ int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* retu
 
     return result;
 }
-```
+// ```

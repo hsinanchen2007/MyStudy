@@ -1,8 +1,8 @@
-> 思路描述：首先能否分割，先求一下sum，如果sum是偶数的话，这道题就演变成是否可以从数组中找到几个数，使得其和等于sum/2，类似于背包问题，定义数组dp，dp\[i][j]表示从0...i中选出一些数字之和等于j，那么状态转移方程就等于
->
-> dp\[i][j] = dp\[i-1][j] || dp\[i-1][j-nums[i]] || nums[i] - j
+// > 思路描述：首先能否分割，先求一下sum，如果sum是偶数的话，这道题就演变成是否可以从数组中找到几个数，使得其和等于sum/2，类似于背包问题，定义数组dp，dp\[i][j]表示从0...i中选出一些数字之和等于j，那么状态转移方程就等于
+// >
+// > dp\[i][j] = dp\[i-1][j] || dp\[i-1][j-nums[i]] || nums[i] - j
 
-```C++
+// ```C++
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
@@ -26,11 +26,11 @@ public:
         return dp[nums.size() - 1][sum/2];
     }
 };
-```
+// ```
 
-> 优化一下时间复杂度
+// > 优化一下时间复杂度
 
-```C++
+// ```C++
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
@@ -56,5 +56,5 @@ public:
         return dp[sum/2];
     }
 };
-```
+// ```
 

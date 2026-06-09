@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先遍历一遍找到所有不同的数，保存在一个list中。然后二重循环，找到出现次数最多的数即可。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先遍历一遍找到所有不同的数，保存在一个list中。然后二重循环，找到出现次数最多的数即可。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
 		int len = nums.length;
@@ -30,4 +30,4 @@ class Solution {
 
     }
 }
-```
+// ```

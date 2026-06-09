@@ -1,9 +1,9 @@
-### 解题思路
-从前序中序构建树来的，双百AC
+// ### 解题思路
+// 从前序中序构建树来的，双百AC
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -26,4 +26,4 @@ class Solution {
         return root;     
     } 
 }
-```
+// ```

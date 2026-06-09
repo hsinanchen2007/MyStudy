@@ -1,10 +1,10 @@
-### 解题思路
-1, 先排序，
-2，排序好的数组和原数组比较，找出开始不同的位置和最后不同的位置
+// ### 解题思路
+// 1, 先排序，
+// 2，排序好的数组和原数组比较，找出开始不同的位置和最后不同的位置
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int findUnsortedSubarray(int[] nums) {
         int[] sortArr = new int[nums.length];
@@ -32,4 +32,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numMovesStones(self, a: int, b: int, c: int) -> List[int]:
         d1=abs(a-b)
@@ -15,6 +15,6 @@ class Solution:
             return [1,maxd-2]
         else:
             return [2,maxd-2]
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/aab8fc2f1ed970192fe3596610afa9ec25272abe4a0d907ebf7166129fd2d7fe-image.png)
+# ![image.png](https://pic.leetcode-cn.com/aab8fc2f1ed970192fe3596610afa9ec25272abe4a0d907ebf7166129fd2d7fe-image.png)

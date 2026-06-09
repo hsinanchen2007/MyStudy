@@ -1,6 +1,6 @@
-执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
- 代码如下
-```angelscript
+// 执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
+//  代码如下
+// ```angelscript
     
 public class Solution357 {
     private static  int nums[]=new int[]{1,10,91,739,5275,32491,168571,712891,2345851,5611771};
@@ -28,4 +28,4 @@ public class Solution357 {
     }
 
 
-```
+// ```

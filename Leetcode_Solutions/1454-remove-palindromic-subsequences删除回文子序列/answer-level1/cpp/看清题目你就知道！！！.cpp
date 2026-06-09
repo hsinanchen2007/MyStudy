@@ -1,9 +1,9 @@
-### 解题思路
-子序列而非子串！！！
+// ### 解题思路
+// 子序列而非子串！！！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removePalindromeSub(string s) {
@@ -17,4 +17,4 @@ public:
             return 2;
     }
 };
-```
+// ```

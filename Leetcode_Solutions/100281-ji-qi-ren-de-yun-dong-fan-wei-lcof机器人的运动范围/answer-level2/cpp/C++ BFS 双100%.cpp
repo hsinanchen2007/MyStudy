@@ -1,7 +1,7 @@
-C++ 宽搜 双100%
-`执行用时：0 ms
-内存消耗：6.1 MB`
-```cpp
+// C++ 宽搜 双100%
+// `执行用时：0 ms
+// 内存消耗：6.1 MB`
+// ```cpp
 class Solution {
 private:
     int mat[100][100]={};
@@ -38,4 +38,4 @@ public:
         return BFS(m, n, k);
     }
 };
-```
+// ```

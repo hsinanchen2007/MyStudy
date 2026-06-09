@@ -1,7 +1,7 @@
-计算每个字母出现的次数，每个字母出现的总次数除以该字母在单词中出现的次数，取最小值。  
-其实是hash的思想，key就是`(字母-'a')`
+// 计算每个字母出现的次数，每个字母出现的总次数除以该字母在单词中出现的次数，取最小值。  
+// 其实是hash的思想，key就是`(字母-'a')`
 
-```c
+// ```c
 int maxNumberOfBalloons(char * text){
     int charNum[26] = {0};
     char* p = text;
@@ -21,4 +21,4 @@ int maxNumberOfBalloons(char * text){
     
     return ret;
 }
-```
+// ```

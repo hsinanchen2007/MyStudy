@@ -1,8 +1,8 @@
-动态规划 dp[i][j] 表示word1[0...i]到word2[0...j]的编辑距离
-如果word1[i] == word2[j], 则dp[i][j] = max(dp[i-1][j] + 1, dp[i][j-1] + 1, dp[i-1][j-1])
-如果word1[i] != word2[j], 则dp[i][j] = max(dp[i-1][j] + 1, dp[i][j-1] + 1, dp[i-1][j-1] + 1)
+// 动态规划 dp[i][j] 表示word1[0...i]到word2[0...j]的编辑距离
+// 如果word1[i] == word2[j], 则dp[i][j] = max(dp[i-1][j] + 1, dp[i][j-1] + 1, dp[i-1][j-1])
+// 如果word1[i] != word2[j], 则dp[i][j] = max(dp[i-1][j] + 1, dp[i][j-1] + 1, dp[i-1][j-1] + 1)
 
-```
+// ```
     public int minDistance(String word1, String word2) {
         int m = word1.length();
         int n = word2.length();
@@ -26,4 +26,4 @@
         }
         return dp[m][n];
     }
-```
+// ```

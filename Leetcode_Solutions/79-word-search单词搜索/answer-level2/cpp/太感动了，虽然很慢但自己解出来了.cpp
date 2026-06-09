@@ -1,8 +1,8 @@
-### 解题思路
-刚开始自己没有考虑到数组中字母重复使用的问题，看了别人的题解解决了
-### 代码
+// ### 解题思路
+// 刚开始自己没有考虑到数组中字母重复使用的问题，看了别人的题解解决了
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) { 
@@ -42,4 +42,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1. 首先找到任意一个target所在索引（helper函数部分）
-2. 然后通过该索引可以将数组nums分为两部分
-3. 依次重复步骤2，分别向左右收敛，直到找不到target为止（find_side的递归）
+# ### 解题思路
+# 1. 首先找到任意一个target所在索引（helper函数部分）
+# 2. 然后通过该索引可以将数组nums分为两部分
+# 3. 依次重复步骤2，分别向左右收敛，直到找不到target为止（find_side的递归）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         def helper(left, right):
@@ -45,4 +45,4 @@ class Solution:
         l = find_side(0, loc, True, loc)
         r = find_side(loc, len(nums) - 1, False, loc)
         return [l, r]
-```
+# ```

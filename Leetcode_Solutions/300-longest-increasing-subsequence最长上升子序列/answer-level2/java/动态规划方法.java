@@ -1,6 +1,6 @@
-# 动态规划算法
-时间复杂度O(n^2),空间复杂度O(n)
-```java []
+// # 动态规划算法
+// 时间复杂度O(n^2),空间复杂度O(n)
+// ```java []
 class Solution {
     public int lengthOfLIS(int[] nums) {
         if(nums.length==0) return 0;
@@ -18,5 +18,5 @@ class Solution {
         return max_val;
     }
 }
-```
+// ```
 

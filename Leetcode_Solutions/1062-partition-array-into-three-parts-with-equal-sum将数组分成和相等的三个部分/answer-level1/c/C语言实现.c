@@ -1,8 +1,8 @@
-### 解题思路
-官方解题思路
-### 代码
+// ### 解题思路
+// 官方解题思路
+// ### 代码
 
-```c
+// ```c
 bool canThreePartsEqualSum(int* A, int ASize){
     int sum=0,sum1=0;
     for(int i=0;i<ASize;i++)
@@ -28,4 +28,4 @@ bool canThreePartsEqualSum(int* A, int ASize){
     }
     return false;
 }
-```
+// ```

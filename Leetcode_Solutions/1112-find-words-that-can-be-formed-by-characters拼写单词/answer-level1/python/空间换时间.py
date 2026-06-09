@@ -1,5 +1,5 @@
-因为总共有26个小写字母，所以可以建立一个数组，来保存chars中各个字母出现的次数，然后将words中的单词与数组比较。
-```
+# 因为总共有26个小写字母，所以可以建立一个数组，来保存chars中各个字母出现的次数，然后将words中的单词与数组比较。
+# ```
 class Solution(object):
     def countCharacters(self, words, chars):
         """
@@ -24,4 +24,4 @@ class Solution(object):
             if flag:
                 res += len(word)
         return res
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-官方题解的动态规划是用左向右和右向左两次遍历，我这种方式是用了一次左向右，但通过循环来判断右边到左边的情况。
+// ### 解题思路
+// 官方题解的动态规划是用左向右和右向左两次遍历，我这种方式是用了一次左向右，但通过循环来判断右边到左边的情况。
 
-### 代码
-![image.png](https://pic.leetcode-cn.com/dc94cc01851f6054224652fb4681a7d6d962122d6556203dcf079affc9bf2442-image.png)
+// ### 代码
+// ![image.png](https://pic.leetcode-cn.com/dc94cc01851f6054224652fb4681a7d6d962122d6556203dcf079affc9bf2442-image.png)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestValidParentheses(string s) {
@@ -42,4 +42,4 @@ public:
         }
         return 2*max_ans;
     }};  
-```
+// ```

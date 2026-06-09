@@ -1,4 +1,4 @@
-大体思路就是遍历l1、l2和l1.next、l2.next是否为None的各种场景，再递归调用。
+# 大体思路就是遍历l1、l2和l1.next、l2.next是否为None的各种场景，再递归调用。
 
 class Solution(object):
     def addTwoNumbers(self, l1, l2):

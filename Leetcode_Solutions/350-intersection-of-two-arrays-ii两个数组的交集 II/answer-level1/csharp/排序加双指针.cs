@@ -1,9 +1,9 @@
-### 解题思路
-排序加双指针
+// ### 解题思路
+// 排序加双指针
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
 public int[] Intersect(int[] nums1, int[] nums2)
         {
@@ -34,4 +34,4 @@ public int[] Intersect(int[] nums1, int[] nums2)
             return result.ToArray();
         }
 }
-```
+// ```

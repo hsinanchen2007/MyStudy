@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isSubStructure(self, main: TreeNode, sub: TreeNode) -> bool:
         """
@@ -37,4 +37,4 @@ class Solution:
         # 继续在两个子树中判断
         return self.isSubStructureWhenTheyHaveSameRoot(main.left, sub.left) and \
                self.isSubStructureWhenTheyHaveSameRoot(main.right, sub.right)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-太难了，写了半天
+# ### 解题思路
+# 太难了，写了半天
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         if len(nums)==0:
@@ -27,4 +27,4 @@ class Solution:
 
         return p1
 
-```
+# ```

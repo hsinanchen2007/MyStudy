@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -37,11 +37,11 @@ var rightSideView = function(root) {
     }
     return arr;
 };
-```
+// ```
 
-还是使用层次遍历来搞，
-层次遍历我通常用以下这个模板
-```
+// 还是使用层次遍历来搞，
+// 层次遍历我通常用以下这个模板
+// ```
 if (!root) {
   return [];
 }
@@ -68,8 +68,8 @@ while (queue.length > 0) {
   length = currLength;
 }
 return arr;
-```
+// ```
 
-回到当前这道题目，套用模板。
-这题优先的是右节点，因此率先把右节点放入，再放左节点。
-队列返回时候，取第一个放入数组中即可。
+// 回到当前这道题目，套用模板。
+// 这题优先的是右节点，因此率先把右节点放入，再放左节点。
+// 队列返回时候，取第一个放入数组中即可。

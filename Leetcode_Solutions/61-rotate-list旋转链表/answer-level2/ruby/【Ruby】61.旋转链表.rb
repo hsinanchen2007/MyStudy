@@ -1,4 +1,4 @@
-```ruby
+# ```ruby
 #
 # @lc app=leetcode.cn id=61 lang=ruby
 #
@@ -42,4 +42,4 @@ def rotate_right(head, k)
   second
 end
 # @lc code=end
-```
+# ```

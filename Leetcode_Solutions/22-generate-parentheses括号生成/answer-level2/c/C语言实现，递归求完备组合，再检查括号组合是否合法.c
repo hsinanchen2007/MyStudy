@@ -1,10 +1,10 @@
-思路：1、将括号先转化为数字，1对应"("，-1对应")"，生成组合后再转化为括号；
-2、递归求括号的完备组合；
-3、检查括号组合是否合法，合法条件：任意前n项和不小于0，且，总和为0；
+// 思路：1、将括号先转化为数字，1对应"("，-1对应")"，生成组合后再转化为括号；
+// 2、递归求括号的完备组合；
+// 3、检查括号组合是否合法，合法条件：任意前n项和不小于0，且，总和为0；
 
-![括号生成.PNG](https://pic.leetcode-cn.com/dff5df2c906a29764a32529da32f7026fcd5ef497c521df05767ead1f70ee64a-%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90.PNG)
+// ![括号生成.PNG](https://pic.leetcode-cn.com/dff5df2c906a29764a32529da32f7026fcd5ef497c521df05767ead1f70ee64a-%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90.PNG)
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -77,4 +77,4 @@ char ** generateParenthesis(int n, int* returnSize){
     return ret;
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] numSmallerByFrequency(String[] queries, String[] words) {
         int[] counts = new int[2000];
@@ -32,4 +32,4 @@ class Solution {
         return counts[min];
     }
 }
-```
+// ```

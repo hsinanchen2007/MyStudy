@@ -1,16 +1,16 @@
-# LeetCode 451.根据字符出现频率排序
+// # LeetCode 451.根据字符出现频率排序
 
-## 题目：
+// ## 题目：
 
-给定一个字符串，请将字符串里的字符按照出现的频率降序排列。
+// 给定一个字符串，请将字符串里的字符按照出现的频率降序排列。
 
-## 思想：
+// ## 思想：
 
-我的想法是使用map或者unordered_map进行频率统计，因为在c++中是map底层实现是红黑树，unordered_map底层实现是哈希表，所以无法直接输出答案。故采用优先级队列priority_queue对统计结果进行处理，最后进行字符串的拼接即可。
+// 我的想法是使用map或者unordered_map进行频率统计，因为在c++中是map底层实现是红黑树，unordered_map底层实现是哈希表，所以无法直接输出答案。故采用优先级队列priority_queue对统计结果进行处理，最后进行字符串的拼接即可。
 
-## 代码:
+// ## 代码:
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string frequencySort(string s) {
@@ -33,5 +33,5 @@ public:
         return res;
     }
 };
-```
-![leetcode题解.png](https://pic.leetcode-cn.com/440d4db79f1b3379b1ce1f9e6266da986eaf3f38e779ab3aefa83305b0a1bf6a-leetcode%E9%A2%98%E8%A7%A3.png)
+// ```
+// ![leetcode题解.png](https://pic.leetcode-cn.com/440d4db79f1b3379b1ce1f9e6266da986eaf3f38e779ab3aefa83305b0a1bf6a-leetcode%E9%A2%98%E8%A7%A3.png)

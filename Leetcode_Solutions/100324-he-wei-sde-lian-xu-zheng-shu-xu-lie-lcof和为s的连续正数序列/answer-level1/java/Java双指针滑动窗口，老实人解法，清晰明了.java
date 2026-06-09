@@ -1,9 +1,9 @@
-### 解题思路
-sum保存前n个数字的和，区间 2 - 5之间的和，可以由sum[5] - sum[2]得到，初始sum[0] = 0,sum[1] = 1
-r,l双指针维护一个滑动窗口
-### 代码
+// ### 解题思路
+// sum保存前n个数字的和，区间 2 - 5之间的和，可以由sum[5] - sum[2]得到，初始sum[0] = 0,sum[1] = 1
+// r,l双指针维护一个滑动窗口
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         int[] sum = new int[target + 1];
@@ -35,4 +35,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

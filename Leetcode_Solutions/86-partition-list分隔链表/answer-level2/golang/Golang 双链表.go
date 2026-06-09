@@ -1,6 +1,6 @@
 
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -44,4 +44,4 @@ func partition(head *ListNode, x int) *ListNode {
   
   return l.Next
 }
-```
+// ```

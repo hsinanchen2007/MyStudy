@@ -1,6 +1,6 @@
-看着代码的注释走
+// 看着代码的注释走
 
-```
+// ```
 class Solution {
 public:
     bool checkSubTree(TreeNode* t1, TreeNode* t2) {
@@ -21,4 +21,4 @@ public:
         return helper(t1->left,t2->left)&&helper(t1->right,t2->right);//左右子树同时满足呗
     }
 };
-```
+// ```

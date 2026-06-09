@@ -1,11 +1,11 @@
-### 解题思路
-1.找到坐标变化的规律
-2.根据规律实现算法
-基本思想：由外到内循环调整位置的变化
+# ### 解题思路
+# 1.找到坐标变化的规律
+# 2.根据规律实现算法
+# 基本思想：由外到内循环调整位置的变化
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -24,4 +24,4 @@ class Solution:
                         start, matrix[ni][nj] = matrix[ni][nj], start  # 交换即将变化位置的数与起点数，冥思苦想
                         num += 1
                         
-```
+# ```

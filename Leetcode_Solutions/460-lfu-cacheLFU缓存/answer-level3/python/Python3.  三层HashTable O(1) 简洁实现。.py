@@ -1,16 +1,16 @@
-### 解题思路
-![Capture.PNG](https://pic.leetcode-cn.com/eb2fc6bd91851c529ff56c34b07294645b3d9b0f98433ac703f63dd5c9408496-Capture.PNG)
+# ### 解题思路
+# ![Capture.PNG](https://pic.leetcode-cn.com/eb2fc6bd91851c529ff56c34b07294645b3d9b0f98433ac703f63dd5c9408496-Capture.PNG)
      
-一点猜测，有人知道还请留言      
-不清楚OrderedDict的实现细节， 各种操作的时间复杂度，估计是O(1)，不管是删除特定值，还是两端的值
-综合来看我觉得，reference 相同的情况下 随机删除一个的性能应该比这个按FIFO的顺序替换要好。简单的可以直接用一个哈希表，而且随机的准确率不会比FIFO差多少
-每隔一段时间再减少一定数量的引用数
+# 一点猜测，有人知道还请留言      
+# 不清楚OrderedDict的实现细节， 各种操作的时间复杂度，估计是O(1)，不管是删除特定值，还是两端的值
+# 综合来看我觉得，reference 相同的情况下 随机删除一个的性能应该比这个按FIFO的顺序替换要好。简单的可以直接用一个哈希表，而且随机的准确率不会比FIFO差多少
+# 每隔一段时间再减少一定数量的引用数
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import OrderedDict
 from collections import defaultdict
 
@@ -65,4 +65,4 @@ class LFUCache:
 # obj = LFUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

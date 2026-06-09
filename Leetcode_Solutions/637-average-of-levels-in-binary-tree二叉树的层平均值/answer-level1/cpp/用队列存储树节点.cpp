@@ -1,9 +1,9 @@
-### 解题思路
-用队列存储树节点
+// ### 解题思路
+// 用队列存储树节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
         return averVec;
     }
 };
-```
+// ```

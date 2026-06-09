@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def numSquares(self, n: int) -> int:
         if n==0:
@@ -30,5 +30,5 @@ class Solution:
         
         
     
-```
+# ```
 

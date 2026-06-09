@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int fun1(string &v){
@@ -46,4 +46,4 @@ public:
         return 0;
         }
 };
-```
+// ```

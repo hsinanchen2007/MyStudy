@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
-具体看代码实现
-### 代码
+# 具体看代码实现
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniqueMorseRepresentations(self, words: List[str]) -> int:
         word = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
@@ -19,4 +19,4 @@ class Solution:
             res_list.append(res)
         return len(set(res_list))
 
-```
+# ```

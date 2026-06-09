@@ -1,5 +1,5 @@
-方法一 迭代
-```
+// 方法一 迭代
+// ```
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
@@ -16,8 +16,8 @@ public:
         return res->next;
     } 
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
@@ -33,9 +33,9 @@ public:
         return res->next;
     }
 };
-```
-方法二 递归
-```
+// ```
+// 方法二 递归
+// ```
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
@@ -48,8 +48,8 @@ public:
         return res->next;
     } 
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
@@ -60,5 +60,5 @@ public:
         return tmp;
     }
 };
-```
+// ```
 

@@ -1,6 +1,6 @@
-多次买卖，即找出直到最后一天，你能交易赚到的所有的钱，如果prices[i]>prices[i-1]则交易，否则不交易。
+# 多次买卖，即找出直到最后一天，你能交易赚到的所有的钱，如果prices[i]>prices[i-1]则交易，否则不交易。
 
-```
+# ```
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -13,4 +13,4 @@ class Solution(object):
             if tmp > 0:
                 p += tmp
         return p
-```
+# ```

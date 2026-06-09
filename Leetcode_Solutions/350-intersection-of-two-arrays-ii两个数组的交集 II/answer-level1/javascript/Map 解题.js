@@ -1,11 +1,11 @@
-### 解题
+// ### 解题
 
-思路: 使用字典 Map 的数据结构来统计次数。
+// 思路: 使用字典 Map 的数据结构来统计次数。
 
-1. 将 num1、nums2 各自出现的次数分别统计存进 nums1Map 与 nums2Map 中;
-2. 根据题目说明中的条件`可以不考虑输出结果的顺序`, 因而可以以 num1、nums2 相同的 key 中较小的值为输出次数, 将其输出;
+// 1. 将 num1、nums2 各自出现的次数分别统计存进 nums1Map 与 nums2Map 中;
+// 2. 根据题目说明中的条件`可以不考虑输出结果的顺序`, 因而可以以 num1、nums2 相同的 key 中较小的值为输出次数, 将其输出;
 
-```js
+// ```js
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -41,10 +41,10 @@ var getMap = function(arr) {
   }
   return map
 }
-```
+// ```
 
-### 姊妹题
+// ### 姊妹题
 
-349
+// 349
 
-> [javascript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > [javascript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

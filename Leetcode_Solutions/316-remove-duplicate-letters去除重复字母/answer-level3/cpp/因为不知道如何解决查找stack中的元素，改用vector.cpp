@@ -1,12 +1,12 @@
-解题思路：
-1.s[0]直接存入vector(后面用v表示)，后面的元素先判断是否存在v中，存在就continue跳过。
-2.判断s[i]是否大于v.back()，大于直接存入v。
-3.if s[i] < v.back(),判断v.back()是否存在于s的i到结尾。
-如果存在，弹出，跳到2.不存在，s[i]加入v。
+// 解题思路：
+// 1.s[0]直接存入vector(后面用v表示)，后面的元素先判断是否存在v中，存在就continue跳过。
+// 2.判断s[i]是否大于v.back()，大于直接存入v。
+// 3.if s[i] < v.back(),判断v.back()是否存在于s的i到结尾。
+// 如果存在，弹出，跳到2.不存在，s[i]加入v。
 
-另：希望有大佬给我讲解为什么大家普遍使用stack，而不是vector。因为不会判断s[i]是否在stack中就弃用stack了
+// 另：希望有大佬给我讲解为什么大家普遍使用stack，而不是vector。因为不会判断s[i]是否在stack中就弃用stack了
 
-```
+// ```
 class Solution {
 public:
 	string removeDuplicateLetters(string s) {
@@ -40,5 +40,5 @@ public:
 		return res;
 	}
 };
-```
+// ```
 

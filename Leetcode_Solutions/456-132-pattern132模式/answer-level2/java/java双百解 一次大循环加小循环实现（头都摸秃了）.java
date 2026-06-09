@@ -1,9 +1,9 @@
-### 解题思路
-采用倒序查找，找出已遍历区段的符合的最大元素与次大元素，难点在于次大元素的更新选择。后续只需判断是否存在元素小于次大元素即可https://blog.csdn.net/qq_23134039/article/details/103611818
+// ### 解题思路
+// 采用倒序查找，找出已遍历区段的符合的最大元素与次大元素，难点在于次大元素的更新选择。后续只需判断是否存在元素小于次大元素即可https://blog.csdn.net/qq_23134039/article/details/103611818
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean find132pattern(int[] nums) {
       	if (nums == null || nums.length < 3) {
@@ -87,4 +87,4 @@ class Solution {
 		return false;
     }
 }
-```
+// ```

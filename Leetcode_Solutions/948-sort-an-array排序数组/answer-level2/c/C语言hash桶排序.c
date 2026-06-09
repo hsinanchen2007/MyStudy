@@ -1,5 +1,5 @@
-桶排序，感觉不像中等题。
-```
+// 桶排序，感觉不像中等题。
+// ```
 #define DATA_SIZE 100001
 int g_hashMap[DATA_SIZE];
 
@@ -24,4 +24,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize){
     *returnSize = numsSize;
     return res;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-利用哈希表建立匹配，字符为键 键为序号 参考密码学的简单加密方法。
-代码优化算法，利用位运算：异或
-首先拿到秘钥，遍历字符，并取字符的编码与其运算，解码就需要拿秘钥再次遍历运算
+# ### 解题思路
+# 利用哈希表建立匹配，字符为键 键为序号 参考密码学的简单加密方法。
+# 代码优化算法，利用位运算：异或
+# 首先拿到秘钥，遍历字符，并取字符的编码与其运算，解码就需要拿秘钥再次遍历运算
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import random
 class Codec:
     def __init__(self):
@@ -76,4 +76,4 @@ class Codec:
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
 # codec.decode(codec.encode(url))
-```
+# ```

@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn can_three_parts_equal_sum(a: Vec<i32>) -> bool {
         let mut total_sum: i32 = a.iter().sum();
@@ -29,5 +29,5 @@ impl Solution {
         i + 1 < j
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

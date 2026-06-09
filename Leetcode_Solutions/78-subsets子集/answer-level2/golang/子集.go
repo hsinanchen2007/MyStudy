@@ -1,9 +1,9 @@
-### 解题思路
-2^n
+// ### 解题思路
+// 2^n
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func subsets(nums []int) [][]int {
 	var n = uint(len(nums))
 	res := make([][]int, 0, 1 << n)
@@ -21,4 +21,4 @@ func subsets(nums []int) [][]int {
 	return res
 }
 
-```
+// ```

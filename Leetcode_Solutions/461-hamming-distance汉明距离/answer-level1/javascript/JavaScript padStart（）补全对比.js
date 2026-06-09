@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/02bcef3b4d3a686fb34493f6bc4abd89dc6dadc0fc655ec101ae824f07c11848-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/02bcef3b4d3a686fb34493f6bc4abd89dc6dadc0fc655ec101ae824f07c11848-image.png)
 
-- 通过 padStart()，用 0 补全到 32 位
-- 然后对比差异
+// - 通过 padStart()，用 0 补全到 32 位
+// - 然后对比差异
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @param {number} y
@@ -23,4 +23,4 @@ var hammingDistance = function(x, y) {
     }
     return sum
 };
-```
+// ```

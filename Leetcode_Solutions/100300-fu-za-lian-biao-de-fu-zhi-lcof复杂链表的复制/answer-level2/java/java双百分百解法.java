@@ -1,9 +1,9 @@
-### 解题思路
-根据next指针遍历每一个原链表元素，借助辅助map，获得每个元素的复制元素，修改复制元素的next、random指针，返回原链表head的复制元素。
+// ### 解题思路
+// 根据next指针遍历每一个原链表元素，借助辅助map，获得每个元素的复制元素，修改复制元素的next、random指针，返回原链表head的复制元素。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -42,4 +42,4 @@ class Solution {
         return map.get(node);
     }
 }
-```
+// ```

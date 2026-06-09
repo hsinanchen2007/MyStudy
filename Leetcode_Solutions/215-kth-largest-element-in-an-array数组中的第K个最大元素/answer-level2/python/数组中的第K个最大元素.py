@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def _partition(self, nums, l, r):
         j = l
@@ -25,4 +25,4 @@ class Solution(object):
                 r = p - 1
             else:
                 l = p + 1
-```
+# ```

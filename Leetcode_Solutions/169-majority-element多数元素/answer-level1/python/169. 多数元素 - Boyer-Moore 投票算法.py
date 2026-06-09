@@ -1,9 +1,9 @@
-### 解题思路
-按官方提供算法实现
+# ### 解题思路
+# 按官方提供算法实现
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def majorityElement(self, nums):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             else:
                 cnt-=1
         return mode
-```
+# ```

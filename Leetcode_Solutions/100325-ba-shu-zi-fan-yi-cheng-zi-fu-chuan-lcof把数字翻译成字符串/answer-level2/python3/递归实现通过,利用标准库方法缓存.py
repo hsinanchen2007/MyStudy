@@ -1,4 +1,4 @@
-```python3
+# ```python3
 from functools import lru_cache
 
 
@@ -30,4 +30,4 @@ class Solution:
 
     def translateNum(self, num: int) -> int:
         return self.translate_num_core(str(num), 0)
-```
+# ```

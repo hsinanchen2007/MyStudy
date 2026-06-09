@@ -1,9 +1,9 @@
-### 解题思路
-双指针解决奇偶排序问题
+# ### 解题思路
+# 双指针解决奇偶排序问题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArrayByParityII(self, A: List[int]) -> List[int]:
         odd, even = 1, 0
@@ -15,4 +15,4 @@ class Solution:
             if even >= len(A) and odd >= len(A):
                 return A
             A[even], A[odd] = A[odd], A[even]
-```
+# ```

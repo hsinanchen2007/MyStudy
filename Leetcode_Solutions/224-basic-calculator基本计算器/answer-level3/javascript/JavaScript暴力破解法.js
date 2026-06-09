@@ -1,7 +1,7 @@
- 执行用时 :116 ms, 在所有 JavaScript 提交中击败了84.75%的用户
- 内存消耗 :37.9 MB, 在所有 JavaScript 提交中击败了76.47%的用户
+//  执行用时 :116 ms, 在所有 JavaScript 提交中击败了84.75%的用户
+//  内存消耗 :37.9 MB, 在所有 JavaScript 提交中击败了76.47%的用户
 
-```
+// ```
 var calculate = function(s) {
     let arr = [], temp = '';
 
@@ -63,4 +63,4 @@ function getResult(arr){
         }
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-1）找到最大深度
-2）将深度大于最大深度一半的分给B
+// ### 解题思路
+// 1）找到最大深度
+// 2）将深度大于最大深度一半的分给B
 
-![image.png](https://pic.leetcode-cn.com/b9b5600eb1f747562a2b8cc86834cfa296375a5c1f19e237a39532102200b6b5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b9b5600eb1f747562a2b8cc86834cfa296375a5c1f19e237a39532102200b6b5-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
@@ -46,4 +46,4 @@ public:
         return res;
     }
 };
-```
+// ```

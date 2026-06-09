@@ -1,15 +1,15 @@
 
-# 递归
-```
+// # 递归
+// ```
  public ListNode removeElements(ListNode head, int val) {
         if(head == null)
             return null;
         head.next = removeElements(head.next,val);
         return head.val == val ? head.next : head;
  }
-```
-# 添加dummy节点
-```
+// ```
+// # 添加dummy节点
+// ```
  public ListNode removeElements(ListNode head, int val) {
 
         ListNode dummyHead = new ListNode(-1);
@@ -25,7 +25,7 @@
 
         return dummyHead.next;
     }
-```
+// ```
 
 
 

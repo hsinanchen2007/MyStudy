@@ -1,5 +1,5 @@
-## 贪心
-```c++
+// ## 贪心
+// ```c++
 int cnt[4], id[4];
 inline bool cmp(int a, int b) {
     return cnt[a] > cnt[b];
@@ -38,4 +38,4 @@ public:
         return ans;
     }
 };
-```
+// ```

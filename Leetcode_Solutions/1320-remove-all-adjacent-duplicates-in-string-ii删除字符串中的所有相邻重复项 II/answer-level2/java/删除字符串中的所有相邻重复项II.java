@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //删除字符串中的相邻重复项，II
     public String removeDuplicates(String s, int k) {
@@ -33,4 +33,4 @@ class Solution {
         return s;
     }
 }
-```
+// ```

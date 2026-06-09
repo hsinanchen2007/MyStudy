@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"bytes"
 	"strconv"
@@ -30,4 +30,4 @@ func (codec *Codec) Decode(strs string) []string {
 	}
 	return out
 }
-```
+// ```

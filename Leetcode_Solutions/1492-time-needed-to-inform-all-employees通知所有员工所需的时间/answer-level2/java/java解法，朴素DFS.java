@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
  
     //定义结点类，表示员工的id和被通知时的时间
@@ -34,4 +34,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-常规的拓扑排序，注意边界情况的处理。
-```swift []
+// 常规的拓扑排序，注意边界情况的处理。
+// ```swift []
 class Solution {
     func findOrder(_ numCourses: Int, _ prerequisites: [[Int]]) -> [Int] {
         var result:[Int] = []
@@ -64,4 +64,4 @@ class Solution {
         return false
     }
 }
-```
+// ```

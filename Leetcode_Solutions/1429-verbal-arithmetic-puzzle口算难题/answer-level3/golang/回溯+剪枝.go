@@ -1,8 +1,8 @@
-- 回溯+剪枝
-- 借助加法原则剪枝
-- 不剪枝会超时
+// - 回溯+剪枝
+// - 借助加法原则剪枝
+// - 不剪枝会超时
 
-```
+// ```
 var noZero map[byte]bool
 var visited []bool
 var wordss []string
@@ -120,4 +120,4 @@ func max(a,b int) int {
     }
     return b
 }
-```
+// ```

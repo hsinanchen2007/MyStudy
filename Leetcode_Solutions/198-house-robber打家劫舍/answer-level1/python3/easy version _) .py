@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rob(self, nums: List[int]) -> int:
         if not nums:
@@ -17,4 +17,4 @@ class Solution:
             temp[i] = max(temp[i-2]+nums[i], temp[i-1])
         return temp[-1]
 
-```
+# ```

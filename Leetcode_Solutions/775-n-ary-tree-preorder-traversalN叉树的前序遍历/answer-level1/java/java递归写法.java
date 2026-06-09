@@ -1,4 +1,4 @@
-```
+// ```
 List<Integer> list=new ArrayList();
     public List<Integer> preorder(Node root) {
         if(root!=null){
@@ -11,4 +11,4 @@ List<Integer> list=new ArrayList();
             return list;
         }
     }
-```
+// ```

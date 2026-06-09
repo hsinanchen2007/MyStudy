@@ -1,9 +1,9 @@
-### 解题思路
-左括号入栈、右括号匹配出栈，最后栈为空表示有效
+// ### 解题思路
+// 左括号入栈、右括号匹配出栈，最后栈为空表示有效
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isLeftParenthesis(char c) {
@@ -37,4 +37,4 @@ public:
         return chars.empty();
     }
 };
-```
+// ```

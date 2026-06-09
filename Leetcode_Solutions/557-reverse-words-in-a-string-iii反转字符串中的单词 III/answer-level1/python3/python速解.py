@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def reverseWords(self, s: str) -> str:
         # 字符串切分为数组
@@ -10,4 +10,4 @@ class Solution:
         return ' '.join(terms)
             
         
-```
+# ```

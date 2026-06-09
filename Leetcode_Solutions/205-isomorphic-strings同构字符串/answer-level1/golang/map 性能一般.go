@@ -1,9 +1,9 @@
-### Golang Hash
-性能一般
+// ### Golang Hash
+// 性能一般
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isIsomorphic(s string, t string) bool {
     v1 := oneWay(s,t)
     v2 := oneWay(t,s)
@@ -25,4 +25,4 @@ func oneWay(s ,t string)bool{
     }
     return true
 }
-```
+// ```

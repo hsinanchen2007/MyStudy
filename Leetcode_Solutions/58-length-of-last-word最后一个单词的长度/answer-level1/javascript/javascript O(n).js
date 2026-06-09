@@ -1,5 +1,5 @@
 
-```javascript []
+// ```javascript []
 /**
  * @param {string} s
  * @return {number}
@@ -19,4 +19,4 @@ var lengthOfLastWord = function(s) {
 
     return end - start;
 };
-```
+// ```

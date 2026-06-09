@@ -1,4 +1,4 @@
-```
+# ```
     def numSpecialEquivGroups(self, A):
         """
         :type A: List[str]
@@ -17,4 +17,4 @@
             k = sorted(k)
             temp.add(''.join(o+k)) 
         return len(temp)
-```
+# ```

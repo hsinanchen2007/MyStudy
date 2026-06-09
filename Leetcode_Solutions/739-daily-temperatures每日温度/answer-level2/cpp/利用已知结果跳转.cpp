@@ -1,9 +1,9 @@
-### 解题思路
-从右邻居开始，直接跳到下一个比它大的，不够大再跳，比它们小的就没必要比了
+// ### 解题思路
+// 从右邻居开始，直接跳到下一个比它大的，不够大再跳，比它们小的就没必要比了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& T) {
@@ -31,4 +31,4 @@ public:
         return days;
     }
 };
-```
+// ```

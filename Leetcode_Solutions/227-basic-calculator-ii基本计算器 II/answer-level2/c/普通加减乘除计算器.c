@@ -1,4 +1,4 @@
-```
+// ```
 /*
 1、表达式中可能有空格
 2、只有+ - * /
@@ -114,4 +114,4 @@ int calculate(char * s){
     free(arr);
     return (int)result;
 }
-```
+// ```

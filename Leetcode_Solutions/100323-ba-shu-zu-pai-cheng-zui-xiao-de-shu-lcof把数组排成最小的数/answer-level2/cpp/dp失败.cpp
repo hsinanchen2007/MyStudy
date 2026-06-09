@@ -1,10 +1,10 @@
-### 解题思路
-dp思想：全排列，剪枝树
-在第202个测试用例超时T^T
+// ### 解题思路
+// dp思想：全排列，剪枝树
+// 在第202个测试用例超时T^T
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 string res = "";
 bool comparestring(string str1, string str2)
 {
@@ -51,9 +51,9 @@ string minNumber(vector<int>& nums) {
 	return res;
 
 }
-```
-最后抄了个答案，失败。。。
-```cpp
+// ```
+// 最后抄了个答案，失败。。。
+// ```cpp
 class Solution {
 public:
     string minNumber(vector<int>& nums) {
@@ -72,4 +72,4 @@ private:
         return a+b<b+a;
     }
 };
-```
+// ```

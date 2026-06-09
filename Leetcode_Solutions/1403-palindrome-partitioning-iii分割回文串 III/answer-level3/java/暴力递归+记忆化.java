@@ -1,7 +1,7 @@
-# 思路
-通过递归的方式，每次递归从不同的位置分割字符串，计算最小值即可。具体代码如下：
+// # 思路
+// 通过递归的方式，每次递归从不同的位置分割字符串，计算最小值即可。具体代码如下：
 
-```java
+// ```java
  private int sLen;
     private int[][] memo;
     private int[][] memoOfChangeCount; // 字符串替换成回文串所需要的替换字符数记忆化数组
@@ -82,4 +82,4 @@
 
         return backTrack(s, 0, k);
     }
-```
+// ```

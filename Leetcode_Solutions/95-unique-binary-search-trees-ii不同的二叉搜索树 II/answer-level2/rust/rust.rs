@@ -1,11 +1,11 @@
-### 解题思路
-参考了大佬们的思路
-//每次新增的数字都大于之前的数字，所以新增的数字位置只能是根节点或者根节点的右孩子，右孩子的右孩子，右孩子的右孩子的右孩子等等
-//总之一定是右边。其次，新数字所在位置的原来的子树，移为新插入的节点的左孩子即可
+// ### 解题思路
+// 参考了大佬们的思路
+// //每次新增的数字都大于之前的数字，所以新增的数字位置只能是根节点或者根节点的右孩子，右孩子的右孩子，右孩子的右孩子的右孩子等等
+// //总之一定是右边。其次，新数字所在位置的原来的子树，移为新插入的节点的左孩子即可
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
 // pub struct TreeNode {
@@ -107,4 +107,4 @@ pub fn tree_copy(root: Option<&Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<Tree
     new_node.borrow_mut().right = tree_copy(root.borrow_mut().right.as_ref());
     return Some(new_node);
 }
-```
+// ```

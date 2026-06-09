@@ -1,4 +1,4 @@
-单遍遍历，设置两个标记指针，一个标记遍历位置，一个标记上个节点：
+// 单遍遍历，设置两个标记指针，一个标记遍历位置，一个标记上个节点：
 struct ListNode* removeElements(struct ListNode* head, int val){
     struct ListNode *l1 = head;
     struct ListNode *result = NULL;

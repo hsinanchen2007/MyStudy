@@ -1,6 +1,6 @@
-![批注 2020-03-14 165648.png](https://pic.leetcode-cn.com/ac5b47bc0c1f562a5590317017bade60194fc92549d801c0a1cf70153f18f208-%E6%89%B9%E6%B3%A8%202020-03-14%20165648.png)
+// ![批注 2020-03-14 165648.png](https://pic.leetcode-cn.com/ac5b47bc0c1f562a5590317017bade60194fc92549d801c0a1cf70153f18f208-%E6%89%B9%E6%B3%A8%202020-03-14%20165648.png)
 
-```
+// ```
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
           int len=nums1.length+nums2.length;
@@ -72,4 +72,4 @@ class Solution {
 return result;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-暴力破解法解题
+// ### 解题思路
+// 暴力破解法解题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int movingCount(int m, int n, int k){
     if(k<0)
         return 0;
@@ -33,4 +33,4 @@ int movingCount(int m, int n, int k){
     }
     return cnt;
 }
-```
+// ```

@@ -1,12 +1,12 @@
 
-内含详细思路，有兴趣的可以看下
+// 内含详细思路，有兴趣的可以看下
 
-![image.png](https://pic.leetcode-cn.com/22316df3adf39c7a356a751637fcd1f7b750c2383d6cf2a0d96f4a2efb955587-image.png)
+// ![image.png](https://pic.leetcode-cn.com/22316df3adf39c7a356a751637fcd1f7b750c2383d6cf2a0d96f4a2efb955587-image.png)
 
 
-## 循环双端队列思路与实现
+// ## 循环双端队列思路与实现
 
-```go
+// ```go
 package lt641
 
 // 设计实现双端队列。
@@ -263,10 +263,10 @@ func (this *MyCircularDeque) IsEmpty() bool {
 func (this *MyCircularDeque) IsFull() bool {
 	return (this.last + 1) % len(this.data) == this.front
 }
-```
+// ```
 
-## 链接
+// ## 链接
 
-- 博客：<https://eiger.me/post/algo/lt641/>
-- Github: <https://github.com/azd1997/Leetcode-training/blob/master/lt641/1.go>
+// - 博客：<https://eiger.me/post/algo/lt641/>
+// - Github: <https://github.com/azd1997/Leetcode-training/blob/master/lt641/1.go>
 

@@ -1,6 +1,6 @@
-解答：使用栈的思想，找到每个原语的起点终点，拼接起点+1 与 终点-1即可。
-1.
-```
+// 解答：使用栈的思想，找到每个原语的起点终点，拼接起点+1 与 终点-1即可。
+// 1.
+// ```
 func removeOuterParentheses(S string) string {
 	res := ""
 	num := 0
@@ -25,9 +25,9 @@ func removeOuterParentheses(S string) string {
 	}
 	return res
 }
-```
-2.
-```
+// ```
+// 2.
+// ```
 func removeOuterParentheses(S string) string {
 	res := ""
 	num := 0
@@ -47,4 +47,4 @@ func removeOuterParentheses(S string) string {
 	}
 	return res
 }
-```
+// ```

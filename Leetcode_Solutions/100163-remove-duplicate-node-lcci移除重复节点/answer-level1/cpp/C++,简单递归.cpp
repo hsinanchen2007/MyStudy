@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ public:
         return head;     //没有与头结点有相同值的结点时遍历整个链表后返回
     }
 };
-```
+// ```

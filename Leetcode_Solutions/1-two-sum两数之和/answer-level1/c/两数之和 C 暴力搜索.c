@@ -1,5 +1,5 @@
-小白第一次在leetcode码题。
-```
+// 小白第一次在leetcode码题。
+// ```
 
 
 /**
@@ -26,4 +26,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize)
 }
 
 
-```
+// ```

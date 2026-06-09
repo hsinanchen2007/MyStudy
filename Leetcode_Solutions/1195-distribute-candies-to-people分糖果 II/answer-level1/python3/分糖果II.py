@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-循环累加+判断剩下的够不够分给下一个小朋友。这里用取余来完成n个小朋友来回地分糖果（参考官方）
+# ### 解题思路
+# 此处撰写解题思路
+# 循环累加+判断剩下的够不够分给下一个小朋友。这里用取余来完成n个小朋友来回地分糖果（参考官方）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         #官方解答
@@ -30,4 +30,4 @@ class Solution:
         return candi_list
             
 
-```
+# ```

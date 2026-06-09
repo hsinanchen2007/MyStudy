@@ -1,9 +1,9 @@
-### 解题思路
-三指针法
+# ### 解题思路
+# 三指针法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             p2.next = p1
             p0 = p0.next.next
         return  new_head.next
-```
+# ```

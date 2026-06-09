@@ -1,9 +1,9 @@
-### 解题思路
-* 蠢笨蠢笨的暴力破解
+// ### 解题思路
+// * 蠢笨蠢笨的暴力破解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         Objects.requireNonNull(p);
@@ -24,4 +24,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

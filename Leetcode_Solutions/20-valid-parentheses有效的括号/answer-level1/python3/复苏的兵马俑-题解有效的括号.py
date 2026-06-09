@@ -1,8 +1,8 @@
-### 题解思路1（正则法-re.findall()）
-LeetCode中提交执行结果-执行用时：200 ms，内存消耗：13.5 MB。
+# ### 题解思路1（正则法-re.findall()）
+# LeetCode中提交执行结果-执行用时：200 ms，内存消耗：13.5 MB。
 
-### 代码
-```python
+# ### 代码
+# ```python
 import re
 class Solution:
     def isValid(self, s: str) -> bool:
@@ -14,10 +14,10 @@ class Solution:
             for char in re_list:
                 no_space_s = no_space_s.replace(char,'')
         return True
-```
+# ```
 
-### 测试代码
-```python
+# ### 测试代码
+# ```python
 print('字符串“()”是否有效：',Solution().isValid("()"))
 print('字符串“”是否有效：',Solution().isValid(""))
 print('字符串“[”是否有效：',Solution().isValid("["))
@@ -26,10 +26,10 @@ print('字符串“{[]}”是否有效：',Solution().isValid("{[]}"))
 print('字符串“()[]{}”是否有效：',Solution().isValid("()[]{}"))
 print('字符串“(]”是否有效：',Solution().isValid("(]"))
 print('字符串“([)]”是否有效：',Solution().isValid("([)]"))
-```
+# ```
 
-### 运行结果
-```python
+# ### 运行结果
+# ```python
 字符串“()”是否有效： True
 字符串“”是否有效： True
 字符串“[”是否有效： False
@@ -38,13 +38,13 @@ print('字符串“([)]”是否有效：',Solution().isValid("([)]"))
 字符串“()[]{}”是否有效： True
 字符串“(]”是否有效： False
 字符串“([)]”是否有效： False
-```
+# ```
 
-### 题解思路2（正则法-re.search()）
-LeetCode中提交执行结果-执行用时：312 ms，内存消耗：13.5 MB。
+# ### 题解思路2（正则法-re.search()）
+# LeetCode中提交执行结果-执行用时：312 ms，内存消耗：13.5 MB。
 
-### 代码
-```python
+# ### 代码
+# ```python
 import re
 class Solution:
     def isValid(self, s: str) -> bool:
@@ -56,10 +56,10 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```
 
-### 测试代码
-```python
+# ### 测试代码
+# ```python
 print('字符串“()”是否有效：',Solution().isValid("()"))
 print('字符串“”是否有效：',Solution().isValid(""))
 print('字符串“[”是否有效：',Solution().isValid("["))
@@ -68,9 +68,9 @@ print('字符串“{[]}”是否有效：',Solution().isValid("{[]}"))
 print('字符串“()[]{}”是否有效：',Solution().isValid("()[]{}"))
 print('字符串“(]”是否有效：',Solution().isValid("(]"))
 print('字符串“([)]”是否有效：',Solution().isValid("([)]"))
-```
-运行结果：
-```python
+# ```
+# 运行结果：
+# ```python
 字符串“()”是否有效： True
 字符串“”是否有效： True
 字符串“[”是否有效： False
@@ -79,13 +79,13 @@ print('字符串“([)]”是否有效：',Solution().isValid("([)]"))
 字符串“()[]{}”是否有效： True
 字符串“(]”是否有效： False
 字符串“([)]”是否有效： False
-```
+# ```
 
-### 题解思路3（堆栈法）
-LeetCode中提交执行结果-执行用时：32 ms，内存消耗：13.5 MB。
+# ### 题解思路3（堆栈法）
+# LeetCode中提交执行结果-执行用时：32 ms，内存消耗：13.5 MB。
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def isValid(self, s: str) -> bool:
         dic = {'{': '}',  '[': ']', '(': ')', '#': '#'}
@@ -95,10 +95,10 @@ class Solution:
                 stack.append(c)
             elif dic[stack.pop()] != c: return False
         return len(stack) == 0
-```
+# ```
 
-### 测试代码
-```python
+# ### 测试代码
+# ```python
 print('字符串“()”是否有效：',Solution().isValid("()"))
 print('字符串“”是否有效：',Solution().isValid(""))
 print('字符串“[”是否有效：',Solution().isValid("["))
@@ -107,9 +107,9 @@ print('字符串“{[]}”是否有效：',Solution().isValid("{[]}"))
 print('字符串“()[]{}”是否有效：',Solution().isValid("()[]{}"))
 print('字符串“(]”是否有效：',Solution().isValid("(]"))
 print('字符串“([)]”是否有效：',Solution().isValid("([)]"))
-```
-### 运行结果
-```python
+# ```
+# ### 运行结果
+# ```python
 字符串“()”是否有效： True
 字符串“”是否有效： True
 字符串“[”是否有效： False
@@ -118,13 +118,13 @@ print('字符串“([)]”是否有效：',Solution().isValid("([)]"))
 字符串“()[]{}”是否有效： True
 字符串“(]”是否有效： False
 字符串“([)]”是否有效： False
-```
+# ```
 
-### 题解思路4（堆栈法）
-LeetCode中提交执行结果-执行用时：56 ms，内存消耗：13.3 MB。
+# ### 题解思路4（堆栈法）
+# LeetCode中提交执行结果-执行用时：56 ms，内存消耗：13.3 MB。
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def isValid(self, s: str) -> bool:
         dic = {'}': '{',  ']': '[', ')': '('}
@@ -137,10 +137,10 @@ class Solution:
             else:
                 stack.append(char)
         return not stack
-```
+# ```
 
-### 测试代码
-```python
+# ### 测试代码
+# ```python
 print('字符串“()”是否有效：',Solution().isValid("()"))
 print('字符串“”是否有效：',Solution().isValid(""))
 print('字符串“[”是否有效：',Solution().isValid("["))
@@ -149,10 +149,10 @@ print('字符串“{[]}”是否有效：',Solution().isValid("{[]}"))
 print('字符串“()[]{}”是否有效：',Solution().isValid("()[]{}"))
 print('字符串“(]”是否有效：',Solution().isValid("(]"))
 print('字符串“([)]”是否有效：',Solution().isValid("([)]"))
-```
+# ```
 
-### 运行结果
-```python
+# ### 运行结果
+# ```python
 字符串“()”是否有效： True
 字符串“”是否有效： True
 字符串“[”是否有效： False
@@ -161,4 +161,4 @@ print('字符串“([)]”是否有效：',Solution().isValid("([)]"))
 字符串“()[]{}”是否有效： True
 字符串“(]”是否有效： False
 字符串“([)]”是否有效： False
-```
+# ```

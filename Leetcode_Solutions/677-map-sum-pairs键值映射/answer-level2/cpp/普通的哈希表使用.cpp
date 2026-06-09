@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MapSum {
 public:
     /** Initialize your data structure here. */
@@ -33,4 +33,4 @@ public:
  * obj->insert(key,val);
  * int param_2 = obj->sum(prefix);
  */
-```
+// ```

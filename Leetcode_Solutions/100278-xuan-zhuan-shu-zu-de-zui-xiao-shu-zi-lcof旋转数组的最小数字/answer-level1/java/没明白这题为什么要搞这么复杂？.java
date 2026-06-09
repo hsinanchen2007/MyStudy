@@ -1,5 +1,5 @@
-是我哪里没有考虑到吗？双百通过：
-```java
+// 是我哪里没有考虑到吗？双百通过：
+// ```java
 public int minArray(int[] numbers) {
     if(numbers == null || numbers.length == 0) {
         return -1;
@@ -13,4 +13,4 @@ public int minArray(int[] numbers) {
     }
     return min;
 }
-```
+// ```

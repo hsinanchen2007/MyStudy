@@ -1,5 +1,5 @@
 
-```sql
+-- ```sql
 select
 	id, company, salary
 from
@@ -10,4 +10,4 @@ from
 	from employee
 	)
 where abs(rn - (cnt+1)/2) < 1 -- 顺序编号在公司薪水记录数中间的，即为中位数
-```
+-- ```

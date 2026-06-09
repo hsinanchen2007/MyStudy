@@ -1,9 +1,9 @@
-### 解题思路
-gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!
-gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!
-### 代码
+// ### 解题思路
+// gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!
+// gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!gogogogog!!!
+// ### 代码
 
-```c
+// ```c
 
 typedef struct {
     int nums[100];
@@ -43,4 +43,4 @@ bool myStackEmpty(MyStack* obj) {
 void myStackFree(MyStack* obj) {
     free(obj);
 }
-```
+// ```

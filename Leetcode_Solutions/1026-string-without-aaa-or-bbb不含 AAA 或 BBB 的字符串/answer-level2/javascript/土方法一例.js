@@ -1,9 +1,9 @@
-### 解题思路
-判断两个数组哪个长，长的截成比短的+1的长度，填充进去即可
+// ### 解题思路
+// 判断两个数组哪个长，长的截成比短的+1的长度，填充进去即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} A
  * @param {number} B
@@ -56,4 +56,4 @@ var strWithout3a3b = function(A, B) {
 
     return str
 };
-```
+// ```

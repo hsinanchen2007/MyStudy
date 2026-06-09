@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:
         return isMirror(root->left, root->right);
     }
 };
-```
+// ```

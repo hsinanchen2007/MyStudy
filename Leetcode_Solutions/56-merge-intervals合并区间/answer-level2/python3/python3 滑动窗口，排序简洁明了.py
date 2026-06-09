@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if not intervals:
@@ -16,4 +16,4 @@ class Solution:
                 end=i[1]
         res.append([start,end])
         return res
-```
+# ```

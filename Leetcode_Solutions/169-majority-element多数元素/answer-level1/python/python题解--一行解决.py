@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def majorityElement(self, nums):
         """
@@ -6,4 +6,4 @@ class Solution(object):
         :rtype: int
         """
         return collections.Counter(nums).most_common(1)[0][0]
-```
+# ```

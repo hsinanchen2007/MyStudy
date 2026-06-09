@@ -1,9 +1,9 @@
-### 解题思路
-层次遍历解决问题
+# ### 解题思路
+# 层次遍历解决问题
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution(object):
             queue = tmpQ
         
         return ret
-```
+# ```

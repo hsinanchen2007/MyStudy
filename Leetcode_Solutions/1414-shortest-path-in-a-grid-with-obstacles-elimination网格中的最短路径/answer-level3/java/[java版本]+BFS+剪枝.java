@@ -1,5 +1,5 @@
-idea来自于花花酱的视频 https://www.bilibili.com/video/av79362682/ ， 提供下JAVA版本
-```
+// idea来自于花花酱的视频 https://www.bilibili.com/video/av79362682/ ， 提供下JAVA版本
+// ```
 // 1293 有障碍物的最短路径，拥有K个消除权力的
     public int shortestPath(int[][] grid, int k) {
         int[] dirs = new int[]{0, -1, 0, 1, 0};
@@ -40,4 +40,4 @@ idea来自于花花酱的视频 https://www.bilibili.com/video/av79362682/ ， �
     }
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-大致思路和官方一样。这里用了一个小技巧可以直接在原数组上修改。就是把每个数从2开始算。
-2就是1，4就是2，8就是4
-所以把最后答案整数除法除以2就行了
-如果到达不了则最后的数为1，除出来是0
+# 大致思路和官方一样。这里用了一个小技巧可以直接在原数组上修改。就是把每个数从2开始算。
+# 2就是1，4就是2，8就是4
+# 所以把最后答案整数除法除以2就行了
+# 如果到达不了则最后的数为1，除出来是0
 
-```
+# ```
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         m = len(obstacleGrid)
@@ -40,4 +40,4 @@ class Solution:
                     continue
         return obstacleGrid[-1][-1] // 2
         
-```
+# ```

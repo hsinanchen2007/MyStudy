@@ -1,8 +1,8 @@
-### 解题思路
-懒就完事了= =
-### 代码
+// ### 解题思路
+// 懒就完事了= =
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -13,4 +13,4 @@ class Solution {
         return is_numeric(trim($s))?true:false;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-*法一：直接循环判断每个数是否是质数*
+// *法一：直接循环判断每个数是否是质数*
 
-缺点：超时
+// 缺点：超时
 
-```js
+// ```js
 var countPrimes = function(n) {
     var count = 0;
     for (let i = 1; i < n; i++) {
@@ -24,13 +24,13 @@ var countPrimes = function(n) {
     }
     return count; 
 };
-```
+// ```
 
-*法二：厄拉多塞筛法*
+// *法二：厄拉多塞筛法*
 
-每计算一个数，都要把它的倍数去掉。到了n，数一下留下了几个数。
+// 每计算一个数，都要把它的倍数去掉。到了n，数一下留下了几个数。
 
-```js
+// ```js
 var countPrimes2 = function(n) {
     var count = 0;
     var arr = [];
@@ -44,4 +44,4 @@ var countPrimes2 = function(n) {
     }
     return count; 
 };
-```
+// ```

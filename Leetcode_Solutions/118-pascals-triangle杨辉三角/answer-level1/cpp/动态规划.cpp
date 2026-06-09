@@ -1,5 +1,5 @@
-可能都写得差不多。。。
-第二个for循环把之前的temp.size()-1改成了i运行时间从20%提高到100%  
+// 可能都写得差不多。。。
+// 第二个for循环把之前的temp.size()-1改成了i运行时间从20%提高到100%  
 
     vector<vector<int>> generate(int numRows) {
         vector<vector<int>> result;

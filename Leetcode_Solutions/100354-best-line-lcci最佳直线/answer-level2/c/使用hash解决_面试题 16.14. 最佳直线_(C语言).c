@@ -1,24 +1,24 @@
-### 解题思路
-1.遍历坐标点。在每次遍历中，固定左边的点；
+// ### 解题思路
+// 1.遍历坐标点。在每次遍历中，固定左边的点；
 
-2.计算两两之间的斜率，
+// 2.计算两两之间的斜率，
 
-3.将斜率作为hash进行保存和统计。
+// 3.将斜率作为hash进行保存和统计。
 
-4.返回结果
+// 4.返回结果
 
-对于C语言开发者，需要注意：
+// 对于C语言开发者，需要注意：
 
-a.注意除数为0的情况，C语言要定义FLT_MAX;
+// a.注意除数为0的情况，C语言要定义FLT_MAX;
 
-b.以及被除数为0的情况，需要直接等于0（计算会失真）；
+// b.以及被除数为0的情况，需要直接等于0（计算会失真）；
 
-![image.png](https://pic.leetcode-cn.com/a1332acfd09547a462bab5a6476758447d55ca46c9d706a27239ab770d406a14-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a1332acfd09547a462bab5a6476758447d55ca46c9d706a27239ab770d406a14-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -92,4 +92,4 @@ int* bestLine(int** points, int pointsSize, int* pointsColSize, int* returnSize)
     return ret;
 }
 
-```
+// ```

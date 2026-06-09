@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-典型的排序，以及candidates选择下标设置去重。
+# ### 解题思路
+# 此处撰写解题思路
+# 典型的排序，以及candidates选择下标设置去重。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
 
@@ -29,4 +29,4 @@ class Solution:
         
         helper(candidates,0,target,[])
         return ans
-```
+# ```

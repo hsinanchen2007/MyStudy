@@ -1,21 +1,21 @@
-##### 思路
-- 类比最大子序和，`dp_max[i]`表示以i为结尾的连续最大乘积，但是会有负数的干扰，会出现最大值变为最小值的问题。
-- 可以再设置最小值数组`dp_min[i]`，当`nums[i]<0`时，会出现最小值变最大值，最大值变最小值，因此可以得到递推表达式。
-$$
-dp\_max[i] = \begin{cases}
-nums[0]&&i=0\\
-max(dp\_max[i-1]*nums[i],nums[i])&&i>0,nums[i]>=0\\
-max(dp\_min[i-1]*nums[i],nums[i])&&i>0,nums[i]<0\\
-\end{cases}
-$$
-$$
-dp\_min[i] = \begin{cases}
-nums[0]&&i=0\\
-min(dp\_min[i-1]*nums[i],nums[i])&&i>0,nums[i]>=0\\
-min(dp\_max[i-1]*nums[i],nums[i])&&i>0,nums[i]<0\\
-\end{cases}
-$$
-```cpp
+// ##### 思路
+// - 类比最大子序和，`dp_max[i]`表示以i为结尾的连续最大乘积，但是会有负数的干扰，会出现最大值变为最小值的问题。
+// - 可以再设置最小值数组`dp_min[i]`，当`nums[i]<0`时，会出现最小值变最大值，最大值变最小值，因此可以得到递推表达式。
+// $$
+// dp\_max[i] = \begin{cases}
+// nums[0]&&i=0\\
+// max(dp\_max[i-1]*nums[i],nums[i])&&i>0,nums[i]>=0\\
+// max(dp\_min[i-1]*nums[i],nums[i])&&i>0,nums[i]<0\\
+// \end{cases}
+// $$
+// $$
+// dp\_min[i] = \begin{cases}
+// nums[0]&&i=0\\
+// min(dp\_min[i-1]*nums[i],nums[i])&&i>0,nums[i]>=0\\
+// min(dp\_max[i-1]*nums[i],nums[i])&&i>0,nums[i]<0\\
+// \end{cases}
+// $$
+// ```cpp
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
@@ -38,4 +38,4 @@ public:
         return maxval;
     }
 };
-```
+// ```

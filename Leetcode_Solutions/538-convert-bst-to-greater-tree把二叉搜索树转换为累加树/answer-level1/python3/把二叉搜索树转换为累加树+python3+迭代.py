@@ -1,6 +1,6 @@
-### 迭代
-使用迭代法，对原始二叉树进行中序遍历，将栈来做临时存储，再对里面的元素一一处理。代码如下：
-```
+# ### 迭代
+# 使用迭代法，对原始二叉树进行中序遍历，将栈来做临时存储，再对里面的元素一一处理。代码如下：
+# ```
 class Solution:
     def convertBST(self, root: TreeNode) -> TreeNode:
         target = []
@@ -22,8 +22,8 @@ class Solution:
             target[i].val=target[i+1].val+target[i].val
         return head
             
-```
-#### 复杂度分析
-__时间复杂度：__ O(n)
+# ```
+# #### 复杂度分析
+# __时间复杂度：__ O(n)
 
-__空间复杂度：__ O(n)
+# __空间复杂度：__ O(n)

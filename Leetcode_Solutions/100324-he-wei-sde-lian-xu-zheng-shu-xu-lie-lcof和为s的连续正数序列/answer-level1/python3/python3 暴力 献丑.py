@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         if target<2:
@@ -21,4 +21,4 @@ class Solution:
                 if sums>target:
                     break
         return res  
-```
+# ```

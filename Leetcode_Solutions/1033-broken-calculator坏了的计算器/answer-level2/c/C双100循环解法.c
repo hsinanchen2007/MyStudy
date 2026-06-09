@@ -1,8 +1,8 @@
-### 解题思路
-乘二后面每两个减一 可以替换成乘二前面一个减一
-### 代码
+// ### 解题思路
+// 乘二后面每两个减一 可以替换成乘二前面一个减一
+// ### 代码
 
-```c
+// ```c
 int brokenCalc(int X, int Y){
     int x2count = 0;
     int d1count = 0;
@@ -24,4 +24,4 @@ int brokenCalc(int X, int Y){
     }
     return count;
 }
-```
+// ```

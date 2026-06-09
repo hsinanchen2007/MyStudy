@@ -1,9 +1,9 @@
-### 解题思路
-将一个长度为n*n的char [] 作为棋盘，初始化一个长度为n的数组记录每一列是否有皇后，初始化两个长度为2n-1的数组记录两种对角线上的是否有queen（每一条对角线能够根据当前位置唯一对应到对角线记录数组一个索引）。 
+// ### 解题思路
+// 将一个长度为n*n的char [] 作为棋盘，初始化一个长度为n的数组记录每一列是否有皇后，初始化两个长度为2n-1的数组记录两种对角线上的是否有queen（每一条对角线能够根据当前位置唯一对应到对角线记录数组一个索引）。 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private void nQ_backTrack(char [] board, int [] col_record, int [] diag_record1,int [] diag_record2, int row, int n){
         if (row >= n){
@@ -73,4 +73,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

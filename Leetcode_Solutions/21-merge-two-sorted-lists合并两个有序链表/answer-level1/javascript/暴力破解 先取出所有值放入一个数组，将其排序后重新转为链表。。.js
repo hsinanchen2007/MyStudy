@@ -1,4 +1,4 @@
-```
+// ```
 // time: 92ms(25.86%) memory: 36.6MB(5.81%)
 /**
  * Definition for singly-linked list.
@@ -36,4 +36,4 @@ var mergeTwoLists = function(l1, l2) {
 
     return res.next;
 };
-```
+// ```

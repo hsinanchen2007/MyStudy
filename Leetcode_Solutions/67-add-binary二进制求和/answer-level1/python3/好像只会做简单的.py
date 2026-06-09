@@ -1,4 +1,4 @@
- ```
+#  ```
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         res = ""
@@ -31,4 +31,4 @@ class Solution:
             res +='1'
        
         return res[::-1] 
-```
+# ```

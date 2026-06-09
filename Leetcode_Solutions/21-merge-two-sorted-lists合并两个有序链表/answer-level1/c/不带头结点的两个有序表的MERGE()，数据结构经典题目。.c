@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode {
     int val;
     struct ListNode *next;
@@ -25,4 +25,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     else r->next=l2;             //若l1和l2都未空，也插入r，因为r->next需要一个NULL
     return l3->next;             //将头结点后一个返回，也懒得free头结点了
 }
-```
+// ```

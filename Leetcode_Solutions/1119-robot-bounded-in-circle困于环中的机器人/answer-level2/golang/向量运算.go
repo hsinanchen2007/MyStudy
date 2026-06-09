@@ -1,4 +1,4 @@
-```
+// ```
 /**
 执行G后位置：dest = dest + d*1 向量运算
 无法回到原位置情况：1、执行一次指令后未回到原点且方向不变！
@@ -40,4 +40,4 @@ func isRobotBounded(instructions string) bool {
     }
     return true
 }
-```
+// ```

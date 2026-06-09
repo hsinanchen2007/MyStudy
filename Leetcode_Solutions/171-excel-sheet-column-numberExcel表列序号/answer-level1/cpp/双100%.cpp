@@ -1,10 +1,10 @@
 
-![excel.png](https://pic.leetcode-cn.com/42b77d9da9eaae3bdeeaa0320d7a51c07c006132d9c74046692988c1faae70d0-excel.png)
+// ![excel.png](https://pic.leetcode-cn.com/42b77d9da9eaae3bdeeaa0320d7a51c07c006132d9c74046692988c1faae70d0-excel.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int titleToNumber(string s) {
@@ -19,4 +19,4 @@ public:
         return sum;
     }
 };
-```
+// ```

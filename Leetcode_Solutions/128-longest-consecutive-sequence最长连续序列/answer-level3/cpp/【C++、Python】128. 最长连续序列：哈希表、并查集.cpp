@@ -1,6 +1,6 @@
-### 哈希表 ###
-#### 代码 ####
-```cpp []
+// ### 哈希表 ###
+// #### 代码 ####
+// ```cpp []
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
@@ -15,8 +15,8 @@ public:
         return res;
     }
 };
-```
-```python3 []
+// ```
+// ```python3 []
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         s = set(nums)
@@ -30,12 +30,12 @@ class Solution:
                 num += 1
             res = max(res, curLen)
         return res
-```
+// ```
 
 
-### 并查集 ###
-#### 代码 ####
-```cpp []
+// ### 并查集 ###
+// #### 代码 ####
+// ```cpp []
 class Solution {
 public:
     struct DSU {
@@ -82,8 +82,8 @@ public:
         return res;
     }
 };
-```
-```python3 []
+// ```
+// ```python3 []
 class DSU:
     def __init__(self, nums):
         self.pre = {num: num for num in nums}
@@ -119,4 +119,4 @@ class Solution:
         for num in nums:
             res = max(res, dsu.merge(num, num + 1))
         return res
-```
+// ```

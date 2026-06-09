@@ -1,9 +1,9 @@
-### 解题思路
-构造hash数组，遍历两次即可
+// ### 解题思路
+// 构造hash数组，遍历两次即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     char firstUniqChar(string s) {
@@ -18,4 +18,4 @@ public:
         return ' ';
     }
 };
-```
+// ```

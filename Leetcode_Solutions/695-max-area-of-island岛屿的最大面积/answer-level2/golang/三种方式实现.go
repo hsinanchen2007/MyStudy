@@ -1,7 +1,7 @@
-## 本题按照官方解法有三种方式，dfs,dfs+栈，bfs
+// ## 本题按照官方解法有三种方式，dfs,dfs+栈，bfs
 
-### DFS实现
-```
+// ### DFS实现
+// ```
 //dfs实现
 func maxAreaOfIsland(grid [][]int) int {
     if grid==nil || len(grid)==0{
@@ -33,11 +33,11 @@ func dfs(grid [][]int,i,j int)int{
     grid[i][j]=0
     return dfs(grid,i+1,j)+dfs(grid,i-1,j)+dfs(grid,i,j-1)+dfs(grid,i,j+1)+1
 }
-```
+// ```
 
-### DFS+栈（不使用系统栈，自己定义栈实现）
+// ### DFS+栈（不使用系统栈，自己定义栈实现）
 
-```
+// ```
 //dfs实现+用栈
 func maxAreaOfIsland(grid [][]int) int {
     if grid==nil || len(grid)==0{
@@ -115,10 +115,10 @@ func (s *stack)peek()int{
 func (s *stack)empty()bool{
     return s.dummy.Next==nil
 }
-```
+// ```
 
-### BFS（BFS和DFS+栈实现很像，区别无非就是栈是FILO，相当于不停的向后走，走完再回去。而队列是FIFO，扫描完一圈才开始扫描下一圈。）
-```
+// ### BFS（BFS和DFS+栈实现很像，区别无非就是栈是FILO，相当于不停的向后走，走完再回去。而队列是FIFO，扫描完一圈才开始扫描下一圈。）
+// ```
 //bfs实现
 func maxAreaOfIsland(grid [][]int) int {
     if grid==nil || len(grid)==0{
@@ -158,6 +158,6 @@ func maxAreaOfIsland(grid [][]int) int {
     }
     return max
 }
-```
+// ```
 
-### 本题涉及栈，dfs，bfs，队列知识点，是个好题，之前做的时候只做了dfs就不管了，看来还是理解不深入,做题不仅要做对，还要知其所以然，不然做多了，和没做其实一样，都会忘
+// ### 本题涉及栈，dfs，bfs，队列知识点，是个好题，之前做的时候只做了dfs就不管了，看来还是理解不深入,做题不仅要做对，还要知其所以然，不然做多了，和没做其实一样，都会忘

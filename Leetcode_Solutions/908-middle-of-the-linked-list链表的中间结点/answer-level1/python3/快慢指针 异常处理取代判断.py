@@ -1,5 +1,5 @@
-利用异常处理机制简化一下处理，就这。
-```
+# 利用异常处理机制简化一下处理，就这。
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -15,4 +15,4 @@ class Solution:
                 mid = mid.next
         except Exception:
             return mid
-```
+# ```

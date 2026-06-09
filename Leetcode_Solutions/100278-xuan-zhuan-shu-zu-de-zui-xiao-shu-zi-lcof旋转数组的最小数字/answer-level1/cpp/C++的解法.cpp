@@ -1,9 +1,9 @@
-### 解题思路
-利用set容器的自动排序，耗时较长
+// ### 解题思路
+// 利用set容器的自动排序，耗时较长
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include<set>
 class Solution {
 public:
@@ -17,4 +17,4 @@ public:
         return *result.begin();
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/4e2070c2697c6550bdf16cf53cb891e8b2792a0e7a2cd06c9babf744e98b2333-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4e2070c2697c6550bdf16cf53cb891e8b2792a0e7a2cd06c9babf744e98b2333-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 这种去重方式。。。em。。得手动画流程理解一下
 
 去重的本质是开始重复的时候就去掉这次尝试就不会重复了
@@ -15,11 +15,11 @@
 
 第二种情况就被我们去重掉了，因为我们是不断的尝试，所以只需要在每次尝试之前判断：这次尝试所拿的字符
 和上一次相邻尝试所拿的字符是否相同，相同即为重复，直接跳过即可，可称为“剪枝”
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string[]}
@@ -76,4 +76,4 @@ var permutation = function(S) {
   
 //   return ans;
 // };
-```
+// ```

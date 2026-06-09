@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isIsomorphic(self, s, t):
         """
@@ -24,4 +24,4 @@ class Solution(object):
         else:
             return False
         
-```
+# ```

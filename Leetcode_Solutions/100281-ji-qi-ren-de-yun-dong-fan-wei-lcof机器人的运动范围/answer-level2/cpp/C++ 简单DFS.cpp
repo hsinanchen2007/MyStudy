@@ -1,10 +1,10 @@
-### 解题思路
-由于是从左上角到右下角，只需要向下和向右就可以保证到达，而不需要向上和向左
-![image.png](https://pic.leetcode-cn.com/3c330945b01a7aceaa6a3c454bc5e4e5a8106cf2e4bd6f2be434d5e55d889867-image.png)
+// ### 解题思路
+// 由于是从左上角到右下角，只需要向下和向右就可以保证到达，而不需要向上和向左
+// ![image.png](https://pic.leetcode-cn.com/3c330945b01a7aceaa6a3c454bc5e4e5a8106cf2e4bd6f2be434d5e55d889867-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     inline int sum(int num)
@@ -28,4 +28,4 @@ public:
         return dfs(m, n, 0, 0, k, visited);
     }
 };
-```
+// ```

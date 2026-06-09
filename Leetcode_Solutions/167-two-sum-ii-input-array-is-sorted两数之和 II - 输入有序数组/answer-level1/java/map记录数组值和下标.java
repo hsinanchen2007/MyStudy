@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-11 ms
-, 在所有 Java 提交中击败了
-13.97%
-的用户
-内存消耗 :
-39.4 MB
-, 在所有 Java 提交中击败了
-17.30%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 11 ms
+// , 在所有 Java 提交中击败了
+// 13.97%
+// 的用户
+// 内存消耗 :
+// 39.4 MB
+// , 在所有 Java 提交中击败了
+// 17.30%
+// 的用户
+// ```
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         Map<Integer,Integer> map = new HashMap<Integer,Integer>();
@@ -57,4 +57,4 @@ class Solution {
         
     }
 }
-```
+// ```

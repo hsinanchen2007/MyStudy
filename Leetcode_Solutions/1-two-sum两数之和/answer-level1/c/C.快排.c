@@ -1,11 +1,11 @@
-### 解题思路
-1.对所给数组快排变成有序数组（同时设置一个数组id表示交换后的序号）
-2.i指向数组尾部，j指向数组头部，比较nums[i]+nums[j]与target的大小
-3.若大，则i--，相等则通过数组id找到原序号返回，否则j++;
+// ### 解题思路
+// 1.对所给数组快排变成有序数组（同时设置一个数组id表示交换后的序号）
+// 2.i指向数组尾部，j指向数组头部，比较nums[i]+nums[j]与target的大小
+// 3.若大，则i--，相等则通过数组id找到原序号返回，否则j++;
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -63,4 +63,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 
 
 
-```
+// ```

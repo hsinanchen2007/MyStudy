@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {number} x
  * @return {number}
@@ -20,4 +20,4 @@ var reverse = function(x) {
     }
     return x<0?parseInt(result)*(-1) : parseInt(result)
 };
-```
+// ```

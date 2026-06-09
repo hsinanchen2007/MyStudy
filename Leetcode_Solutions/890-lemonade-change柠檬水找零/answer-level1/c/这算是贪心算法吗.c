@@ -1,11 +1,11 @@
-![1.png](https://pic.leetcode-cn.com/a69141a10b1ca3c8929d23fb41dc3102701b5d37c39853e1526b4cd0891624f3-1.png)
+// ![1.png](https://pic.leetcode-cn.com/a69141a10b1ca3c8929d23fb41dc3102701b5d37c39853e1526b4cd0891624f3-1.png)
 
-### 解题思路
-用了一个数组，标记5、10的个数
+// ### 解题思路
+// 用了一个数组，标记5、10的个数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool lemonadeChange(int* bills, int billsSize){
 	if (!billsSize)
 		return 1;
@@ -32,4 +32,4 @@ bool lemonadeChange(int* bills, int billsSize){
 	}
 	return 1;
 }
-```
+// ```

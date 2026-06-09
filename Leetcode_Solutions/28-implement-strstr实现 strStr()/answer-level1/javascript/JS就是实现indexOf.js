@@ -1,7 +1,7 @@
-思路：
-    按照js的思路实际上就是实现indexOf,直接用indexOf就没有意义了。
+// 思路：
+//     按照js的思路实际上就是实现indexOf,直接用indexOf就没有意义了。
 
-```js
+// ```js
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -24,4 +24,4 @@ var strStr = function(haystack, needle) {
     return -1
 
 };
-```
+// ```

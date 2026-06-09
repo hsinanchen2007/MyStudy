@@ -1,9 +1,9 @@
-### 解题思路
-相对比较清楚
+# ### 解题思路
+# 相对比较清楚
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def pondSizes(self, land):
         """
@@ -37,4 +37,4 @@ class Solution(object):
                     total_result.append(res )
 
         return sorted(total_result)
-```
+# ```

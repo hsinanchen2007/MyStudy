@@ -1,15 +1,15 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 解题思路
-暴力法时间复杂度是o(n^2)，超时。
+# ### 解题思路
+# 暴力法时间复杂度是o(n^2)，超时。
 
-考虑一下，逆序是说a[i]>a[j]，i<j。那么在排序的过程中，会把a[i]和a[j]交换过来，这个交换的过程，每交换一次，就是一个逆序对的“正序”过程。
+# 考虑一下，逆序是说a[i]>a[j]，i<j。那么在排序的过程中，会把a[i]和a[j]交换过来，这个交换的过程，每交换一次，就是一个逆序对的“正序”过程。
 
-排序每个数，归并排序。
+# 排序每个数，归并排序。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 def MergeElem(data, start, mid, end, temp):  # data[start...mid], data[mid+1...end]
     cnt = 0
     i = start
@@ -54,4 +54,4 @@ class Solution(object):
         temp = nums[:]
         count = InverseCore(nums, 0, len(nums)-1, temp)
         return count
-```
+# ```

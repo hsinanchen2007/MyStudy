@@ -1,11 +1,11 @@
-####思路：
-1. 遍历seq，遇到`(`则压入栈
-2. 遇到`)`则计算：
-- 使用`stack.size()`获取当前深度
-- 当前遍历`stack.pop()`和`i` 获取括号的左右下标
-- `depth%2` 判断负责为`1` 还是`0`
+// ####思路：
+// 1. 遍历seq，遇到`(`则压入栈
+// 2. 遇到`)`则计算：
+// - 使用`stack.size()`获取当前深度
+// - 当前遍历`stack.pop()`和`i` 获取括号的左右下标
+// - `depth%2` 判断负责为`1` 还是`0`
 
-```java []
+// ```java []
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         if (seq == null || seq.isEmpty()) {
@@ -28,4 +28,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

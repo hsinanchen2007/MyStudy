@@ -1,14 +1,14 @@
-# 题目描述（中等难度）
+// # 题目描述（中等难度）
 
-![image.png](https://pic.leetcode-cn.com/e3fb1d2990fb9ccf0f9f1f8b785ba623c403022344696c23c9ac0217ee735ee3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e3fb1d2990fb9ccf0f9f1f8b785ba623c403022344696c23c9ac0217ee735ee3-image.png)
 
-和[上一道题](https://leetcode.windliang.cc/leetCode-46-Permutations.html)类似，不同之处就是给定的数字中会有重复的，这样的话用之前的算法会产出重复的序列。例如，[ 1 1 ]，用之前的算法，产生的结果肯定是 [ \[ 1 1 \]，  \[ 1 1  \] ]，也就是产生了重复的序列。但我们可以在上一题的解法中进行修改从而解决这道题。
+// 和[上一道题](https://leetcode.windliang.cc/leetCode-46-Permutations.html)类似，不同之处就是给定的数字中会有重复的，这样的话用之前的算法会产出重复的序列。例如，[ 1 1 ]，用之前的算法，产生的结果肯定是 [ \[ 1 1 \]，  \[ 1 1  \] ]，也就是产生了重复的序列。但我们可以在上一题的解法中进行修改从而解决这道题。
 
-# 解法一 插入
+// # 解法一 插入
 
-这个没想到怎么在原基础上改，可以直接了当些，在它产生的结果里，对结果去重再返回。对于去重的话，一般的方法肯定就是写两个 for 循环，然后一个一个互相比较，然后找到重复的去掉。这里，我们用 [39题](https://leetcode.windliang.cc/leetCode-39-Combination-Sum.html?h=remove) 解法二中提到的一种去重的方法。
+// 这个没想到怎么在原基础上改，可以直接了当些，在它产生的结果里，对结果去重再返回。对于去重的话，一般的方法肯定就是写两个 for 循环，然后一个一个互相比较，然后找到重复的去掉。这里，我们用 [39题](https://leetcode.windliang.cc/leetCode-39-Combination-Sum.html?h=remove) 解法二中提到的一种去重的方法。
 
-```java
+// ```java
 public List<List<Integer>> permuteUnique(int[] nums) {
     List<List<Integer>> all = new ArrayList<>(); 
     List<Integer> temp = new ArrayList<>();
@@ -59,13 +59,13 @@ private List<List<Integer>> removeDuplicate(List<List<Integer>> list) {
     }
     return ans_list;
 }
-```
+// ```
 
-# 解法二 回溯
+// # 解法二 回溯
 
-看下之前的算法
+// 看下之前的算法
 
-```java
+// ```java
 public List<List<Integer>> permute(int[] nums) {
     List<List<Integer>> list = new ArrayList<>(); 
     backtrack(list, new ArrayList<>(), nums);
@@ -84,27 +84,27 @@ private void backtrack(List<List<Integer>> list, List<Integer> tempList, int [] 
         }
     }
 }
-```
+// ```
 
-假如给定的数组是 [ 1 1 3 ]，我们来看一下遍历的这个图。
+// 假如给定的数组是 [ 1 1 3 ]，我们来看一下遍历的这个图。
 
-![image.png](https://pic.leetcode-cn.com/080465893fcc2f36d2a8e9fff0b3506f80ddef721d8f96fdceaf0ace53abccac-image.png)
+// ![image.png](https://pic.leetcode-cn.com/080465893fcc2f36d2a8e9fff0b3506f80ddef721d8f96fdceaf0ace53abccac-image.png)
 
-第一个要解决的就是这句代码
+// 第一个要解决的就是这句代码
 
-```java
+// ```java
 if(tempList.contains(nums[i])) continue; // 已经存在的元素，跳过
-```
+// ```
 
-之前没有重复的元素，所以可以直接在 templist 判断有没有当前元素，有的话就跳过。但这里的话，因为给定的有重复的元素，这个方法明显不可以了。
+// 之前没有重复的元素，所以可以直接在 templist 判断有没有当前元素，有的话就跳过。但这里的话，因为给定的有重复的元素，这个方法明显不可以了。
 
-换个思路，我们可以再用一个 list 保存当前 templist 中已经有的元素的下标，然后添加新元素的时候去判断下标就可以了。
+// 换个思路，我们可以再用一个 list 保存当前 templist 中已经有的元素的下标，然后添加新元素的时候去判断下标就可以了。
 
-第二个问题就是，可以看到有重复元素的时候，上边第 1 个图和第 2 个图产生的是完全一样的序列。所以第 2 个遍历是没有必要的。
+// 第二个问题就是，可以看到有重复元素的时候，上边第 1 个图和第 2 个图产生的是完全一样的序列。所以第 2 个遍历是没有必要的。
 
-解决的方案就是把数组首先排下顺序，然后判断一下上一个添加的元素和当前元素是不是相等，相等的话就跳过，继续下一个元素。
+// 解决的方案就是把数组首先排下顺序，然后判断一下上一个添加的元素和当前元素是不是相等，相等的话就跳过，继续下一个元素。
 
-```java
+// ```java
 public List<List<Integer>> permuteUnique(int[] nums) {
     List<List<Integer>> list = new ArrayList<>();
     Arrays.sort(nums);
@@ -134,18 +134,18 @@ private void backtrack(List<List<Integer>> list, List<Integer> tempList, int[] n
         }
     }
 }
-```
+// ```
 
-解决第二个问题 !old.contains(i - 1) 很关键
-因为上边 old.contains(i) 代码会使得一些元素跳过没有加到 templist 上，所以我们要判断 nums[ i - 1 ] 是不是被跳过的那个元素，如果  old.contains ( i ) 返回 true ， 即使 nums [ i - 1 ] == nums [ i ] 也不能跳过当前元素。因为上一个元素 nums [ i - 1 ] 并没有被添加到 templist。可能比较绕，但是可以参照上边的图，走一下流程就懂了。如果不加 !old.contains ( i - 1 )，那么图中的第 2 行的第 2 个 1 本来应该加到 tempList，但是会被跳过。因为第 2 行第 1 个元素也是 1。
+// 解决第二个问题 !old.contains(i - 1) 很关键
+// 因为上边 old.contains(i) 代码会使得一些元素跳过没有加到 templist 上，所以我们要判断 nums[ i - 1 ] 是不是被跳过的那个元素，如果  old.contains ( i ) 返回 true ， 即使 nums [ i - 1 ] == nums [ i ] 也不能跳过当前元素。因为上一个元素 nums [ i - 1 ] 并没有被添加到 templist。可能比较绕，但是可以参照上边的图，走一下流程就懂了。如果不加 !old.contains ( i - 1 )，那么图中的第 2 行的第 2 个 1 本来应该加到 tempList，但是会被跳过。因为第 2 行第 1 个元素也是 1。
 
-对于解决第一个问题，我们用了一个 list 来保存下标来解决。需要一个 O ( n ) 的空间。有一种方法，我们可以用 O（1）的空间。不过前提是，我们需要对问题的样例了解，也就是给定的输入所包含的数字。我们需要找到一个样例中一定不包含的数字来解决我们的问题。
+// 对于解决第一个问题，我们用了一个 list 来保存下标来解决。需要一个 O ( n ) 的空间。有一种方法，我们可以用 O（1）的空间。不过前提是，我们需要对问题的样例了解，也就是给定的输入所包含的数字。我们需要找到一个样例中一定不包含的数字来解决我们的问题。
 
-首先，我们假设输入的所有的数字中没有 -100 这个数字。
+// 首先，我们假设输入的所有的数字中没有 -100 这个数字。
 
-然后，我们就可以递归前将当前数字先保存起来，然后置为 -100 隐藏起来，递归结束后还原即可。
+// 然后，我们就可以递归前将当前数字先保存起来，然后置为 -100 隐藏起来，递归结束后还原即可。
 
-```java
+// ```java
 public List<List<Integer>> permuteUnique(int[] nums) {
     List<List<Integer>> list = new ArrayList<>();
     Arrays.sort(nums); 
@@ -175,17 +175,17 @@ private void backtrack(List<List<Integer>> list, List<Integer> tempList, int[] n
         }
     }
 }
-```
+// ```
 
 
 
-当然这个想法局限性很大，但是如果对解决的问题很熟悉，一般是可以找到这样一个不会输入的数字，然后可以优化空间复杂度。
+// 当然这个想法局限性很大，但是如果对解决的问题很熟悉，一般是可以找到这样一个不会输入的数字，然后可以优化空间复杂度。
 
-# 解法三  交换
+// # 解法三  交换
 
-这个改起来相对容易些，之前的想法就是在每一个位置，让每个数字轮流交换过去一下。这里的话，我们其实只要把当前位置已经有哪些数字来过保存起来，如果有重复的话，我们不让他交换，直接换下一个数字就可以了。
+// 这个改起来相对容易些，之前的想法就是在每一个位置，让每个数字轮流交换过去一下。这里的话，我们其实只要把当前位置已经有哪些数字来过保存起来，如果有重复的话，我们不让他交换，直接换下一个数字就可以了。
 
-```java
+// ```java
 public List<List<Integer>> permuteUnique(int[] nums) {
     List<List<Integer>> all = new ArrayList<>();
     Arrays.sort(nums);
@@ -220,10 +220,10 @@ private void swap(int[] nums, int i, int begin) {
     nums[i] = nums[begin];
     nums[begin] = temp;
 }
-```
+// ```
 
-# 总
+// # 总
 
-基本上都是在上道题的基础上改出来了，一些技巧也是经常遇到，比如先排序，然后判断和前一个是否重复。利用 Hash 去重的功能。利用原来的存储空间隐藏掉数据，然后再想办法还原。
+// 基本上都是在上道题的基础上改出来了，一些技巧也是经常遇到，比如先排序，然后判断和前一个是否重复。利用 Hash 去重的功能。利用原来的存储空间隐藏掉数据，然后再想办法还原。
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minInsertions(self, s: str) -> int:
         def solve(a,b,dp,s):
@@ -18,4 +18,4 @@ class Solution:
         for i in range(l):
             dp[i][i] = 0
         return solve(0,l-1,dp, s)
-```
+# ```

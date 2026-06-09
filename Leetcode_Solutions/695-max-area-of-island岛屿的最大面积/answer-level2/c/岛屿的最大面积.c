@@ -1,11 +1,11 @@
-### 解题思路
-明显递归 
--设置为0后不会影响新的计数（因为不会连着，如果连着，已经被计过了）
--不设置为0，自身计数可能会被重复计算
+// ### 解题思路
+// 明显递归 
+// -设置为0后不会影响新的计数（因为不会连着，如果连着，已经被计过了）
+// -不设置为0，自身计数可能会被重复计算
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countArea(int** grid, int i, int j, int gridSize, int* gridColSize){
 	grid[i][j] = 0;
     int cnt = 1;
@@ -30,4 +30,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
 			}
 	return max;
 }
-```
+// ```

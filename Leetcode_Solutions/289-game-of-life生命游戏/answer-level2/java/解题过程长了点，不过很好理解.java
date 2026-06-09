@@ -1,6 +1,6 @@
-内容长了点，不过很好理解。
+// 内容长了点，不过很好理解。
 
-```
+// ```
 public static void gameOfLife(int[][] board) {
         int[][] boardOld = new int[board.length][board[0].length];
         //复制一个数组，记录数组的当前状态
@@ -56,4 +56,4 @@ public static void gameOfLife(int[][] board) {
         if (y < 0 || y > n) return 0;
         return board[x][y];
     }
-```
+// ```

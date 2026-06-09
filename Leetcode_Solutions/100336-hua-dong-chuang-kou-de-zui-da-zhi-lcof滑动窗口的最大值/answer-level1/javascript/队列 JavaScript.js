@@ -1,9 +1,9 @@
-### 解题思路
-创建队列 如果下一位元素比队列最大值 queue[0] 大, 清空队列，让下一个元素成为 queue[0]。否则往后面push元素。当队列长度超过k时，剔除队列第一个元素，是队列剩下元素最大值成为 queue[0]
+// ### 解题思路
+// 创建队列 如果下一位元素比队列最大值 queue[0] 大, 清空队列，让下一个元素成为 queue[0]。否则往后面push元素。当队列长度超过k时，剔除队列第一个元素，是队列剩下元素最大值成为 queue[0]
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -36,4 +36,4 @@ var maxSlidingWindow = function(nums, k) {
     res.splice(0, k - 1)
     return res
 };
-```
+// ```

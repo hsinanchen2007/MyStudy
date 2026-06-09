@@ -1,10 +1,10 @@
-### 解题思路
-按定义递归判断
-中序遍历是递增数列
+# ### 解题思路
+# 按定义递归判断
+# 中序遍历是递增数列
 
-### 递归判断
+# ### 递归判断
 
-```
+# ```
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -27,11 +27,11 @@ class Solution:
 
         return helper(root)
         
-```
+# ```
 
-### 中序遍历
+# ### 中序遍历
 
-```
+# ```
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -59,4 +59,4 @@ class Solution:
         return True
         
         
-```
+# ```

@@ -1,13 +1,13 @@
 
-![image.png](https://pic.leetcode-cn.com/8afbb89655e3a3a4e0571cbf1b1ab3b1d8b85a95b41b2f5a250727ea20cf8dee-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8afbb89655e3a3a4e0571cbf1b1ab3b1d8b85a95b41b2f5a250727ea20cf8dee-image.png)
 
-### 解题思路
-1.计算棋子数量、和获胜人
-2.判断是否合理
+// ### 解题思路
+// 1.计算棋子数量、和获胜人
+// 2.判断是否合理
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 void whoWin(bool* X,bool* O,char ** board){
     //printf("%d",strcmp(board[0],"XXX") == 0);
@@ -48,4 +48,4 @@ if(((!Xwin)&&(!Owin)) || (Xwin&&(!Owin)&&((Xn-On) == 1))|| (Owin&&(!Xwin)&&((Xn-
     return true;
 return false;
 }
-```
+// ```

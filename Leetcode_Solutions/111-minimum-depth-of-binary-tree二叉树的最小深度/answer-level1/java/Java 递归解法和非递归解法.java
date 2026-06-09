@@ -1,5 +1,5 @@
-递归解法
-```java
+// 递归解法
+// ```java
 class Solution {
     public int minDepth(TreeNode root) {
         if (root == null) return 0;
@@ -8,11 +8,11 @@ class Solution {
         return 1 + Math.min(minDepth(root.left), minDepth(root.right));
     }
 }
-```
+// ```
 
-非递归解法
+// 非递归解法
 
-```java
+// ```java
 class Solution2 {
     public int minDepth(TreeNode root) {
         if (root == null) return 0;
@@ -33,4 +33,4 @@ class Solution2 {
         return 0;
     }
 }
-```
+// ```

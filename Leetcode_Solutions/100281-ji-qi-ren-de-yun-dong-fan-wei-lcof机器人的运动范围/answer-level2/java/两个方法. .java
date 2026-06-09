@@ -1,13 +1,13 @@
 
-![image.png](https://pic.leetcode-cn.com/e4ff22c8f03124073cc14d8117459934b5b3a0e1fe2bff7bc58411d5fae44ea3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e4ff22c8f03124073cc14d8117459934b5b3a0e1fe2bff7bc58411d5fae44ea3-image.png)
 
-- 一图: 满足条件区域, 二图为可走到的区域
-## 方法 1 
+// - 一图: 满足条件区域, 二图为可走到的区域
+// ## 方法 1 
 
 
-遍历.  m x n矩阵 都设置0 横着走遍历, 每走一步向下遍历所有点. 碰到不可达则break; 三层遍历  最外层向右,第二层向下,第三层向右; 暴力破解. 会有多走的地方. 不过不会累计. 将走过的地方设置1 最后累加和
+// 遍历.  m x n矩阵 都设置0 横着走遍历, 每走一步向下遍历所有点. 碰到不可达则break; 三层遍历  最外层向右,第二层向下,第三层向右; 暴力破解. 会有多走的地方. 不过不会累计. 将走过的地方设置1 最后累加和
 
-```
+// ```
 public int movingCount(int m, int n, int k) {
         int[][] canReach = new int[m][n];
         for (int i = 0; i < m; i++) {
@@ -42,10 +42,10 @@ public int movingCount(int m, int n, int k) {
         }
         return c;
     }
-```
-## 方法 2 递归;
-没走一步则可向四个点再走. 用boolean矩阵代表是否可走. 走完后将走过的点设置为不可走.  每走一步则累计1;
-```
+// ```
+// ## 方法 2 递归;
+// 没走一步则可向四个点再走. 用boolean矩阵代表是否可走. 走完后将走过的点设置为不可走.  每走一步则累计1;
+// ```
     public int movingCount(int m, int n, int k) {
         boolean[][] reach = new boolean[m][n];
         for (int i = 0; i < m; i++) {
@@ -64,6 +64,6 @@ public int movingCount(int m, int n, int k) {
             return 0;
         }
     }
-```
+// ```
 
 

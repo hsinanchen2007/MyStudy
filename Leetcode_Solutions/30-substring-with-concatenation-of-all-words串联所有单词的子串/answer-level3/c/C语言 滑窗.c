@@ -1,11 +1,11 @@
-### 解题思路
-跌跌撞撞6小时，一把辛酸泪...
-代码还有很多地方需要优化，主要是hash生成和比较部分，做得耦合比较紧
-![image.png](https://pic.leetcode-cn.com/aecb41abdef2ed6c5fc9cc7cc2d149093f9b6ac7b99dd62d03219385f902d997-image.png)
+// ### 解题思路
+// 跌跌撞撞6小时，一把辛酸泪...
+// 代码还有很多地方需要优化，主要是hash生成和比较部分，做得耦合比较紧
+// ![image.png](https://pic.leetcode-cn.com/aecb41abdef2ed6c5fc9cc7cc2d149093f9b6ac7b99dd62d03219385f902d997-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -240,4 +240,4 @@ int* findSubstring(char * s, char ** words, int wordsSize, int* returnSize){
 	*returnSize = r.cnt;
 	return r.rlt;
 }
-```
+// ```

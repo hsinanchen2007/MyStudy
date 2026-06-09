@@ -1,5 +1,5 @@
-![WX20200218-212114.png](https://pic.leetcode-cn.com/528b27eb1e4edbaae04c890bac3b6d8fd35bb886dd4780d35a0a542212597b52-WX20200218-212114.png)
-```golang
+// ![WX20200218-212114.png](https://pic.leetcode-cn.com/528b27eb1e4edbaae04c890bac3b6d8fd35bb886dd4780d35a0a542212597b52-WX20200218-212114.png)
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -43,4 +43,4 @@ func zigzagLevelOrder(root *TreeNode) [][]int {
     }
     return ans
 }
-```
+// ```

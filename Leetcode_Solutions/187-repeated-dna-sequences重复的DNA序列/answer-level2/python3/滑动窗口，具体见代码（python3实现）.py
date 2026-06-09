@@ -1,8 +1,8 @@
-### 解题思路
-滑动窗口，具体见代码（python3实现）
-### 代码
+# ### 解题思路
+# 滑动窗口，具体见代码（python3实现）
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
         collec=set()
@@ -16,4 +16,4 @@ class Solution:
             else:
                 collec.add(s[i:i+10])
         return list(answ)
-```
+# ```

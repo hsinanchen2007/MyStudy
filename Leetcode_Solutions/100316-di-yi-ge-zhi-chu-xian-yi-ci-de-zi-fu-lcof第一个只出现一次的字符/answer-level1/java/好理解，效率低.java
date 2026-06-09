@@ -1,9 +1,9 @@
-### 解题思路
-统计次数自然想到Map
+// ### 解题思路
+// 统计次数自然想到Map
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char firstUniqChar(String s) {
         Map<Character, Integer> map = new HashMap<>();
@@ -19,4 +19,4 @@ class Solution {
         return ' ';
     }
 }
-```
+// ```

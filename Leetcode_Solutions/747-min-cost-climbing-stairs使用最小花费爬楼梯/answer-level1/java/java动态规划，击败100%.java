@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/905199beba37c1ace3b33ccb1c9fa8e161697a1477369199e4d46455ec4079a4-image.png)
-![image.png](https://pic.leetcode-cn.com/814ede2e568716091c078485c2f34e49a5446cdb1daf83f5390cb93213d54f43-image.png)
+// ![image.png](https://pic.leetcode-cn.com/905199beba37c1ace3b33ccb1c9fa8e161697a1477369199e4d46455ec4079a4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/814ede2e568716091c078485c2f34e49a5446cdb1daf83f5390cb93213d54f43-image.png)
 
-```java []
+// ```java []
 class Solution {
     public final int minCostClimbingStairs(int[] cost) {
         int size=cost.length;
@@ -21,5 +21,5 @@ class Solution {
     }
     
 }
-```
+// ```
 

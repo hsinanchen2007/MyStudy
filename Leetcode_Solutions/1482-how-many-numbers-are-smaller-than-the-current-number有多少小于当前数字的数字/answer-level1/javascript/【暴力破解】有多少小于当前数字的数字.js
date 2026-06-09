@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度O(n^2)
+// ### 解题思路
+// 时间复杂度O(n^2)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -19,4 +19,4 @@ var smallerNumbersThanCurrent = function(nums) {
     }
     return r
 };
-```
+// ```

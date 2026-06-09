@@ -1,12 +1,12 @@
-### 解题思路
-参照84题解法，以第一列为纵轴，每一行分别为横轴，是不是和84题要求的东西一模一样？
-每一行分别输入，调用84题接口即可。
-![image.png](https://pic.leetcode-cn.com/0d24edeb4adf3e7af6d69c3d5bca7e2c88ea07289b512788d657903ad11ca523-image.png)
+// ### 解题思路
+// 参照84题解法，以第一列为纵轴，每一行分别为横轴，是不是和84题要求的东西一模一样？
+// 每一行分别输入，调用84题接口即可。
+// ![image.png](https://pic.leetcode-cn.com/0d24edeb4adf3e7af6d69c3d5bca7e2c88ea07289b512788d657903ad11ca523-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct
 {
     int index;
@@ -69,4 +69,4 @@ int maximalRectangle(char** matrix, int matrixSize, int* matrixColSize){
     }
     return ret;
 }
-```
+// ```

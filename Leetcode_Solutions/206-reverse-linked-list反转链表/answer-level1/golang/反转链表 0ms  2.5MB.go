@@ -1,9 +1,9 @@
-### 解题思路
-设置 3 个指针，当前元素current，上一个元素left（初始为空），下一个元素right。如果right不为空则一直迭代，right为空时直接将current的下一个设置为left即可，最后返回current即可。
+// ### 解题思路
+// 设置 3 个指针，当前元素current，上一个元素left（初始为空），下一个元素right。如果right不为空则一直迭代，right为空时直接将current的下一个设置为left即可，最后返回current即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -29,4 +29,4 @@ func reverseList(head *ListNode) *ListNode {
 	current.Next = left
 	return current
 }
-```
+// ```

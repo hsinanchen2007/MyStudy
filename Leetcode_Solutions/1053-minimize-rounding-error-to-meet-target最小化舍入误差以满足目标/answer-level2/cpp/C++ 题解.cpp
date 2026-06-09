@@ -1,5 +1,5 @@
-参考官方提示的思路
-```C++ []
+// 参考官方提示的思路
+// ```C++ []
 class Solution {
 public:
     string minimizeError(vector<string>& prices, int target) {
@@ -27,6 +27,6 @@ public:
         return string(res);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/d8d967759e9b97be98514e6f34aced2f0a374ccebc16430f499b48a7c833e399-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d8d967759e9b97be98514e6f34aced2f0a374ccebc16430f499b48a7c833e399-image.png)

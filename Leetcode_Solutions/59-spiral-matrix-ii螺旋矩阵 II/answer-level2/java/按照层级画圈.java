@@ -1,8 +1,8 @@
-执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
+// 执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
 
-按照层级循环
+// 按照层级循环
 
-```
+// ```
 public int[][] generateMatrix(int n) {
         int[][] res = new int[n][n];
         //按照层级进行填充数据
@@ -34,4 +34,4 @@ public int[][] generateMatrix(int n) {
         }
         return res;
     }
-```
+// ```

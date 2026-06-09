@@ -1,9 +1,9 @@
-### 解题思路
-将整数拆解成多个整数之和，如为偶数即奇数+奇数 如为奇数即为本身即可
+// ### 解题思路
+// 将整数拆解成多个整数之和，如为偶数即奇数+奇数 如为奇数即为本身即可
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func generateTheString(_ n: Int) -> String {
         if n == 1 {
@@ -21,11 +21,11 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 
 class Solution {
     func generateTheString(_ n: Int) -> String {
@@ -42,4 +42,4 @@ class Solution {
     }
 }
 
-```
+// ```

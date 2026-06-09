@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     static int idx(int x,int y,int colum){
@@ -80,4 +80,4 @@ public:
         return res;
     }
 };
-```
+// ```

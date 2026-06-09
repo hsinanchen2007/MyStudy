@@ -1,5 +1,5 @@
-- 对于时间的判断，小时数和分钟数要分开判断，不能整体判断0<=time<=2359,否则会有19:60这种用例错误。
-```
+// - 对于时间的判断，小时数和分钟数要分开判断，不能整体判断0<=time<=2359,否则会有19:60这种用例错误。
+// ```
 #define MAX_SIZE (10)
 #define TRUE (1)
 #define FALSE (0)
@@ -67,4 +67,4 @@ char * largestTimeFromDigits(int* A, int ASize)
     }
     return g_maxTimeRet;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-1.guess()返回值1和-1的坑
-2.超过int的坑
-### 代码
+// ### 解题思路
+// 1.guess()返回值1和-1的坑
+// 2.超过int的坑
+// ### 代码
 
-```cpp
+// ```cpp
 // Forward declaration of guess API.
 // @param num, your guess
 // @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
@@ -28,4 +28,4 @@ public:
         return curr;
     }
 };
-```
+// ```

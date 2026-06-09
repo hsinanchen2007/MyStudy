@@ -1,9 +1,9 @@
-### 解题思路
-迭代思想，类似于BFS
+# ### 解题思路
+# 迭代思想，类似于BFS
 
-### 代码
-BFS
-```python
+# ### 代码
+# BFS
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -44,8 +44,8 @@ class Solution(object):
             return False
         return self.ismirror(root1.left,root2.right) and self.ismirror(root1.right,root2.left)
 
-```
+# ```
 
 
 
-```
+# ```

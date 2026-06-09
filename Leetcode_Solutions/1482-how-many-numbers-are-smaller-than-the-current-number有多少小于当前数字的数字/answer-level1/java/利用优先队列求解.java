@@ -1,9 +1,9 @@
-### 解题思路
-优先队列可以存储各个元素的序号并排序。然后按序取出时便可计算小于当前元素值的元素个数。
+// ### 解题思路
+// 优先队列可以存储各个元素的序号并排序。然后按序取出时便可计算小于当前元素值的元素个数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int len = nums.length;
@@ -33,4 +33,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

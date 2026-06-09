@@ -1,9 +1,9 @@
-### 解题思路
-直接判断三种内容是否出现重复样例即可
+# ### 解题思路
+# 直接判断三种内容是否出现重复样例即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         hash1, hash2, hash3 = [[] for i in range(9)], [[] for i in range(9)], [[] for i in range(9)]
@@ -25,4 +25,4 @@ class Solution:
         return True
 
 
-```
+# ```

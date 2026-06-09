@@ -1,7 +1,7 @@
-这道题和 257 求二叉树的所有路径一样，需要求出所有的可能路径，
-为了方便 数字和字母的对应，导入string 库 用到ascii_lowcase，函数。
-利用python的自带sort函数，对 路径的逆序 进行排序。。默认按照字典序。
-```
+# 这道题和 257 求二叉树的所有路径一样，需要求出所有的可能路径，
+# 为了方便 数字和字母的对应，导入string 库 用到ascii_lowcase，函数。
+# 利用python的自带sort函数，对 路径的逆序 进行排序。。默认按照字典序。
+# ```
 class Solution:
     def smallestFromLeaf(self, root: TreeNode) -> str:
         import string
@@ -23,4 +23,4 @@ class Solution:
         return sorted(res)[0]
         
 
-```
+# ```

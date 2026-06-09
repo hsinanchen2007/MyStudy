@@ -1,10 +1,10 @@
-### 解题思路
-每次能达到的范围都是连续的，因此只需要记录某一次能到达的范围即可，知道推导到最后。
-时间复杂度O(n)
-转自：https://leetcode-cn.com/problems/jump-game-ii/solution/45-by-ikaruga/
-### 代码
+// ### 解题思路
+// 每次能达到的范围都是连续的，因此只需要记录某一次能到达的范围即可，知道推导到最后。
+// 时间复杂度O(n)
+// 转自：https://leetcode-cn.com/problems/jump-game-ii/solution/45-by-ikaruga/
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int jump(vector<int>& nums) {
@@ -28,4 +28,4 @@ public:
     }
 };
 大佬算法果然比summer的dp快一万倍
-```
+// ```

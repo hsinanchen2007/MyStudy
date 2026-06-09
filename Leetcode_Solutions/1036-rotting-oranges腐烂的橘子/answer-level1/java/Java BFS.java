@@ -1,9 +1,9 @@
-### 解题思路
-BFS
+// ### 解题思路
+// BFS
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private static final int[][] DIRECTIONS = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
     public static int orangesRotting(int[][] grid) {
@@ -64,4 +64,4 @@ class Solution {
         return minutes;
     }
 }
-```
+// ```

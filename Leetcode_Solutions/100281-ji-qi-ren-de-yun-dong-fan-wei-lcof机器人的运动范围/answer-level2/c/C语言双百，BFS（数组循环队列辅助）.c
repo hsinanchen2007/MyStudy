@@ -1,8 +1,8 @@
 
-典型的BFS题目，从[0,0]开始，分别往上、下、左、右遍历，队列的代码这里就不贴了，用的是数组实现的循环队列。
-如果能够满足条件（GetSum(x) + GetSum(y)) <= k），说明该坐标可达，计数加一，并置标记位。
-![image.png](https://pic.leetcode-cn.com/8bfee1210928de8ac561a237ed1b86421f8d39214a39f9be66118b20e66a9d20-image.png)
-```
+// 典型的BFS题目，从[0,0]开始，分别往上、下、左、右遍历，队列的代码这里就不贴了，用的是数组实现的循环队列。
+// 如果能够满足条件（GetSum(x) + GetSum(y)) <= k），说明该坐标可达，计数加一，并置标记位。
+// ![image.png](https://pic.leetcode-cn.com/8bfee1210928de8ac561a237ed1b86421f8d39214a39f9be66118b20e66a9d20-image.png)
+// ```
 int g_walkCnt;
 int g_visited[MAX_SIZE][MAX_SIZE];
 
@@ -36,4 +36,4 @@ int movingCount(int m, int n, int k){
     EnQueue(&start);
     return Bfs(m, n, k);
 }
-```
+// ```

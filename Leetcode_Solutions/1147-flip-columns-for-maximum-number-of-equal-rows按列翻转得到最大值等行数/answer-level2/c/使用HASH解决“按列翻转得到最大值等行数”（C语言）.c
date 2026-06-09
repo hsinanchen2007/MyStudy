@@ -1,13 +1,13 @@
-### 解题思路
-此题需要脑筋急转弯式的问题转换，即两行互补或相等，则可以通过翻转列得到相同行。
+// ### 解题思路
+// 此题需要脑筋急转弯式的问题转换，即两行互补或相等，则可以通过翻转列得到相同行。
 
-使用hash表实现这一过程的快速查找。
+// 使用hash表实现这一过程的快速查找。
 
-![image.png](https://pic.leetcode-cn.com/71b15a1d1ed526127c52ab8c8ef312a9248077db1ca3810fb654451736bd5a33-image.png)
+// ![image.png](https://pic.leetcode-cn.com/71b15a1d1ed526127c52ab8c8ef312a9248077db1ca3810fb654451736bd5a33-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
  * @lc app=leetcode.cn id=1072 lang=c
  *
@@ -93,4 +93,4 @@ int maxEqualRowsAfterFlips(int** matrix, int matrixSize, int* matrixColSize){
 // @lc code=end
 
 
-```
+// ```

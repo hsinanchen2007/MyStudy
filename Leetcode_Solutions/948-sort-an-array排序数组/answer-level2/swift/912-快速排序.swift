@@ -1,10 +1,10 @@
-### 解题思路
-熟练掌握快排。
-执行用时 :204 ms, 在所有 Swift 提交中击败了96.58%的用户
+// ### 解题思路
+// 熟练掌握快排。
+// 执行用时 :204 ms, 在所有 Swift 提交中击败了96.58%的用户
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func sortArray(_ nums: [Int]) -> [Int] {
         var newNums = nums
@@ -43,4 +43,4 @@ class Solution {
         quickSort(&nums, i+1, end)
     }
 }
-```
+// ```

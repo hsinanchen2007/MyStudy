@@ -1,9 +1,9 @@
-执行用时 :72 ms, 在所有 Swift 提交中击败了71.43%的用户
-内存消耗 :21.2 MB, 在所有 Swift 提交中击败了100.00%的用户
+// 执行用时 :72 ms, 在所有 Swift 提交中击败了71.43%的用户
+// 内存消耗 :21.2 MB, 在所有 Swift 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func decompressRLElist(_ nums: [Int]) -> [Int] {
         
@@ -22,4 +22,4 @@ class Solution {
     }
 }
 
-```
+// ```

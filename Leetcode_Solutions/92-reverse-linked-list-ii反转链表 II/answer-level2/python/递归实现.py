@@ -1,9 +1,9 @@
-### 解题思路
-见代码注释
+# ### 解题思路
+# 见代码注释
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, x):
@@ -50,4 +50,4 @@ class Solution(object):
         last = reverse(head.next, n-m+1)  # 需要注意是n-m+1
         precursor.next = last
         return res
-```
+# ```

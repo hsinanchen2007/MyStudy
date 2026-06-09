@@ -1,6 +1,6 @@
-参考了题目给出的提示，果然理解问题的角度才是最重要的……
-感觉层序遍历会比较清晰直观
-```
+# 参考了题目给出的提示，果然理解问题的角度才是最重要的……
+# 感觉层序遍历会比较清晰直观
+# ```
 # @param {Integer} n
 # @return {String[]}
 def generate_parenthesis(n)
@@ -16,4 +16,4 @@ def generate_parenthesis(n)
   end
   return xs.map! { |s, l, r| s }
 end
-```
+# ```

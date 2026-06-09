@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 栈的应用
+// # 栈的应用
 
-时间复杂度和空间复杂度均是O(n)，其中n为nums数组的长度。
+// 时间复杂度和空间复杂度均是O(n)，其中n为nums数组的长度。
 
-执行用时：8ms，击败95.87%。消耗内存：42.4MB，击败5.45%。
+// 执行用时：8ms，击败95.87%。消耗内存：42.4MB，击败5.45%。
 
-```java
+// ```java
 public class Solution {
     public boolean find132pattern(int[] nums) {
         int n;
@@ -37,4 +37,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

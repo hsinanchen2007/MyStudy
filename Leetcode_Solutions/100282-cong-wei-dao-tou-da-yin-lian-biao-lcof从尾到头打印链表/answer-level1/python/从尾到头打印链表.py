@@ -1,9 +1,9 @@
-### 解题思路
-遍历每个节点，每次都插入到列表的第一个位置
+# ### 解题思路
+# 遍历每个节点，每次都插入到列表的第一个位置
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution(object):
             head = head.next
 
         return res
-```
+# ```

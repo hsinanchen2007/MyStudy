@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         words.sort(key=lambda x: len(x), reverse=True)
@@ -13,4 +13,4 @@ class Solution:
                 ans += word + '#'
 
         return len(ans)
-```
+# ```

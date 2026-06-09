@@ -1,4 +1,4 @@
-```java
+// ```java
 public class Solution{
     /*
 	 * 基于快速排序
@@ -86,4 +86,4 @@ public class Solution{
 		 return nums[nums.length - k];
 	 }
 }
-```
+// ```

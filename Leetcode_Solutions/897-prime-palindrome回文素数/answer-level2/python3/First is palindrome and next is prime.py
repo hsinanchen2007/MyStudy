@@ -1,27 +1,27 @@
-解题思路：
-首先思考是先找palindrome再判断是不是prime，还是先找prime再判断是不是palindrome？
-根据先验知识，可以知道一定大的范围内，palindrome的数量是少于prime的，因此应该先找prime再判断是不是palindrome。
-所以先找到离N最近的palindrome，然后只要满足两个条件：1.大于N， 2.是prime 就可以return
+# 解题思路：
+# 首先思考是先找palindrome再判断是不是prime，还是先找prime再判断是不是palindrome？
+# 根据先验知识，可以知道一定大的范围内，palindrome的数量是少于prime的，因此应该先找prime再判断是不是palindrome。
+# 所以先找到离N最近的palindrome，然后只要满足两个条件：1.大于N， 2.是prime 就可以return
 
-解题步骤：
-1. N是不是palindrome：
-    - yes：是不是prime：
-        - yes：return
-        - no：pass
-    - no：寻找离N最近的palindrome
+# 解题步骤：
+# 1. N是不是palindrome：
+#     - yes：是不是prime：
+#         - yes：return
+#         - no：pass
+#     - no：寻找离N最近的palindrome
 
-2. 离N最近的palindrome是不是大于N：
-    - yes：是不是prime：
-        - yes：return
-        - no：pass
-    - no：pass
+# 2. 离N最近的palindrome是不是大于N：
+#     - yes：是不是prime：
+#         - yes：return
+#         - no：pass
+#     - no：pass
 
-3. 寻找最近的比N大的palindrome，并判断是不是prime：
-    - yes：return
-    - no：继续执行步骤3
+# 3. 寻找最近的比N大的palindrome，并判断是不是prime：
+#     - yes：return
+#     - no：继续执行步骤3
 
 
-```
+# ```
 class Solution:
     def primePalindrome(self, N: int) -> int:
         def is_prime(n):        #check whether n is prime
@@ -103,4 +103,4 @@ class Solution:
             N=find_next_palindrome(N)
 
         return N
-```
+# ```

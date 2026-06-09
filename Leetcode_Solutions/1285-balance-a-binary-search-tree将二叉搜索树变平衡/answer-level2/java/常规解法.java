@@ -1,6 +1,6 @@
-常规解法，没想到双100%
+// 常规解法，没想到双100%
 
-```
+// ```
 void buildList(TreeNode root, List<TreeNode> list) {
         if (root.left == null && root.right == null) {
             list.add(root);
@@ -43,4 +43,4 @@ void buildList(TreeNode root, List<TreeNode> list) {
         buildList(root, list);
         return toBST(list, 0, list.size() - 1);
     }
-```
+// ```

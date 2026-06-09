@@ -1,4 +1,4 @@
-```
+// ```
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	pre := new(ListNode)
 	pre.Val = 0
@@ -46,6 +46,6 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	// 因为第一位是0 所以需要放弃
 	return pre.Next
 }
-```
+// ```
 
-非常简单的题目，因为是逆序的反而更简单，就按照平常算加法的方式从低位往高位去计算，当数字大于9 时就进以为，在下一位计算的时候加上这个进位
+// 非常简单的题目，因为是逆序的反而更简单，就按照平常算加法的方式从低位往高位去计算，当数字大于9 时就进以为，在下一位计算的时候加上这个进位

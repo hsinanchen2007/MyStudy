@@ -1,9 +1,9 @@
-### 解题思路
-for循环，不断相加对比留下最大值
+// ### 解题思路
+// for循环，不断相加对比留下最大值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -22,4 +22,4 @@ var maxSubArray = function (nums) {
     }
     return arr
 };
-```
+// ```

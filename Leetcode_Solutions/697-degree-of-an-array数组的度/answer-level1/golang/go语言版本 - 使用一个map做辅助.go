@@ -1,15 +1,15 @@
-### 解题思路
-本解法来自公众号**算法和数据结构的峡谷**
+// ### 解题思路
+// 本解法来自公众号**算法和数据结构的峡谷**
 
-这道题的这种解法主要是使用了一个辅助的map，map的k是nums的值，map的值是一个slice（可以理解为数组）这个slice中存放了
-关于这个nums中值的下标举个例子： 1 1 1 2 3 4 那么map[1] = []int{0,1,2}
+// 这道题的这种解法主要是使用了一个辅助的map，map的k是nums的值，map的值是一个slice（可以理解为数组）这个slice中存放了
+// 关于这个nums中值的下标举个例子： 1 1 1 2 3 4 那么map[1] = []int{0,1,2}
 
-当把所有的值放入到map中并且记录了下标后，我们开始遍历这个map只要找到slice中len最大，并且slice中第一个跟最后一个
-的差最小的就是我们要求的数量
+// 当把所有的值放入到map中并且记录了下标后，我们开始遍历这个map只要找到slice中len最大，并且slice中第一个跟最后一个
+// 的差最小的就是我们要求的数量
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findShortestSubArray(nums []int) int {
 	// 边界判断，如果是0就返回0就OK
     if len(nums) == 0 { 
@@ -45,6 +45,6 @@ func findShortestSubArray(nums []int) int {
 
 	return result[1]+1
 }
-```
+// ```
 
-> 最后吐槽一下力扣的 markdown转码系统真的不好用。转码以后的显示真的不如GitHub，改进一下。
+// > 最后吐槽一下力扣的 markdown转码系统真的不好用。转码以后的显示真的不如GitHub，改进一下。

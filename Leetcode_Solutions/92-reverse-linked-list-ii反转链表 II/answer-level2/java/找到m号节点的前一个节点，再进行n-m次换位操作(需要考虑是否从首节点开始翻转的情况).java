@@ -1,14 +1,14 @@
 
 
->    运行结果
- ![image.png](https://pic.leetcode-cn.com/38ab7dbacee52219d82985ccaf557f142534489c40737e8df80c7a47d280692c-image.png)
+// >    运行结果
+//  ![image.png](https://pic.leetcode-cn.com/38ab7dbacee52219d82985ccaf557f142534489c40737e8df80c7a47d280692c-image.png)
 
 
 
->
+// >
 
-##### 代码部分 :
-```
+// ##### 代码部分 :
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -45,4 +45,4 @@ class Solution {
         return sub_head; // 否则表示从首节点开始翻转,返回新的头结点
     }
 }
-```
+// ```

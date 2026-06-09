@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -23,4 +23,4 @@ var getIntersectionNode = function(headA, headB) {
         }
         return tempA
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int dietPlanPerformance(int[] calories, int k, int lower, int upper) {
         // 总分
@@ -31,4 +31,4 @@ class Solution {
         return totalScore;
     }
 }
-```
+// ```

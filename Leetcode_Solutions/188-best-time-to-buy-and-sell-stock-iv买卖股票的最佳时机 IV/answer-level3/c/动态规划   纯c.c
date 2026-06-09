@@ -1,4 +1,4 @@
-```
+// ```
 #define Max(i,j) i>j?i:j
 int Profit(int* prices, int pricesSize){
     if(pricesSize < 1) return 0;
@@ -30,4 +30,4 @@ int maxProfit(int k, int* prices, int pricesSize){
         }
     return dp_0[k];
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-把每层节点由左往右丢入队列
-处理一层同时放入一层
-直到队列为空
-### 代码
+// ### 解题思路
+// 把每层节点由左往右丢入队列
+// 处理一层同时放入一层
+// 直到队列为空
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -38,4 +38,4 @@ func levelOrder(root *TreeNode) [][]int {
     }
     return rs
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1.求出新数组长度
-2.添加数据,统计循环次数和带循环数
+// ### 解题思路
+// 1.求出新数组长度
+// 2.添加数据,统计循环次数和带循环数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] decompressRLElist(int[] nums) {
      if (nums.length < 2 || nums.length > 100 || nums.length % 2 != 0) {
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

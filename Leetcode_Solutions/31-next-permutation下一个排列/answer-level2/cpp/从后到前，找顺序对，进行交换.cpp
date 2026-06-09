@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -19,10 +19,10 @@ public:
         return;
     }
 };
-```
+// ```
 
-优化
-```
+// 优化
+// ```
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -45,5 +45,5 @@ public:
         return;
     }
 };
-```
+// ```
 

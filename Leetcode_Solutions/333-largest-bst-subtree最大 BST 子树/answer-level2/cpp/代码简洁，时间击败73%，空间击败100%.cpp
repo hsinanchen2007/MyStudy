@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     enum{
@@ -43,4 +43,4 @@ public:
         return result;
     } 
 };
-```
+// ```

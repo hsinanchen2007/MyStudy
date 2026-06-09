@@ -1,10 +1,10 @@
-### 解题思路
-分左右，逐个解析出，左x参数leftx,左常数leftnum,以及右边的
-然后判断
+// ### 解题思路
+// 分左右，逐个解析出，左x参数leftx,左常数leftnum,以及右边的
+// 然后判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String solveEquation(String equation) {
         String[] equal = equation.split("=");
@@ -57,4 +57,4 @@ class Solution {
 		return ans;
 	}
 }
-```
+// ```

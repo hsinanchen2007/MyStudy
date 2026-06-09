@@ -1,10 +1,10 @@
-### 解题思路
-追求代码行数尽可能少，可读性较差，不太清楚的朋友可以先看我另一个简单的解答
-https://leetcode-cn.com/problems/plus-one/solution/c-z-by-zrita/
+// ### 解题思路
+// 追求代码行数尽可能少，可读性较差，不太清楚的朋友可以先看我另一个简单的解答
+// https://leetcode-cn.com/problems/plus-one/solution/c-z-by-zrita/
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -17,4 +17,4 @@ public:
         return digits;
     }
 };
-```
+// ```

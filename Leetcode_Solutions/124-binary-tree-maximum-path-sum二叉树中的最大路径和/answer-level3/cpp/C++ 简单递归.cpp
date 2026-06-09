@@ -1,5 +1,5 @@
-# 解法一：
-```C++ []
+// # 解法一：
+// ```C++ []
     int helper(TreeNode* root, int& max_path) {
         if (root == NULL) return 0;
         int left = max(helper(root->left, max_path), 0);
@@ -13,13 +13,13 @@
         return max_path;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/dd0a91683d4b5255611beed2fa0250ec4b284abf4df5d6bf1c3852dbbf053c1b-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/dd0a91683d4b5255611beed2fa0250ec4b284abf4df5d6bf1c3852dbbf053c1b-image.png)
 
-# 解法二：
-helper函数返回以root为终点的最长路径以及root子树中的最长路径
-以此来递归计算
-```C++ []
+// # 解法二：
+// helper函数返回以root为终点的最长路径以及root子树中的最长路径
+// 以此来递归计算
+// ```C++ []
 class Solution {
 public:
     pair<int, int> helper(TreeNode* root) {
@@ -42,5 +42,5 @@ public:
         return p.second;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/3e16c5da5491d00d9085b5ea84fafbfc7bbc483510612cae087a1d580651f3ec-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/3e16c5da5491d00d9085b5ea84fafbfc7bbc483510612cae087a1d580651f3ec-image.png)

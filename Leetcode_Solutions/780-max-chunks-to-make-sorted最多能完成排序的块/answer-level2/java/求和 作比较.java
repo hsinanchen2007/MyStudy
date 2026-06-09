@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxChunksToSorted(int[] arr) {
         int res=0,sum1=0,sum2=0;
@@ -10,4 +10,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

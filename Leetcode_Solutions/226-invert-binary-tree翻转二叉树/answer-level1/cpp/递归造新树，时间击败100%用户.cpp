@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,8 +38,8 @@ private:
         return newTree;       
     }
 };
-```
+// ```
 
-![image.jpeg](https://pic.leetcode-cn.com/75d596c97079fc5648c35cfd4e2f39b40807b7b5b0dd881738d1189c23fa1655-image.jpeg)
+// ![image.jpeg](https://pic.leetcode-cn.com/75d596c97079fc5648c35cfd4e2f39b40807b7b5b0dd881738d1189c23fa1655-image.jpeg)
 
-造个新树不就好了？？万一不行把原来的树删掉，不就相当于翻转了这棵树。
+// 造个新树不就好了？？万一不行把原来的树删掉，不就相当于翻转了这棵树。

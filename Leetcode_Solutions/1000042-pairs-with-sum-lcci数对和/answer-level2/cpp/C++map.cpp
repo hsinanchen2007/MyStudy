@@ -1,9 +1,9 @@
-### 解题思路
-记录出现数字的次数
+// ### 解题思路
+// 记录出现数字的次数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> pairSums(vector<int>& nums, int target) {
@@ -19,4 +19,4 @@ public:
         return ans;
     }
 };
-```
+// ```

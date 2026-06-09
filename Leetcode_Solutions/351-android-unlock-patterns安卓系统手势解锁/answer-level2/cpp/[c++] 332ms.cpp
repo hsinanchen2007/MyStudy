@@ -1,7 +1,7 @@
-### 1、采用dfs深度遍历即可。
-### 2、求出经过N个点的手势的数量，计算从m到n个点的手势数目和即可。
-### 3、最关键的一点是如何判断从点x到下一个点y的判断，详细参考代码如下：
-```
+// ### 1、采用dfs深度遍历即可。
+// ### 2、求出经过N个点的手势的数量，计算从m到n个点的手势数目和即可。
+// ### 3、最关键的一点是如何判断从点x到下一个点y的判断，详细参考代码如下：
+// ```
         /*if point y has been visited*/
        if(used[y]){
             return false;
@@ -18,10 +18,10 @@
         if(!used[min(x,y)+3]&&abs(x-y) == 6 && (x-1)%3 == (y-1)%3){
             return false;
         }
-```
+// ```
 
 
-```
+// ```
 class Solution {
 public:
     bool isValid(int x,int y,vector<bool> & used){
@@ -86,4 +86,4 @@ public:
        return ans;
     }
 };
-```
+// ```

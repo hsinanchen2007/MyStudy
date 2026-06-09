@@ -1,9 +1,9 @@
-### 解题思路
-- 没递归，没动态规划
+// ### 解题思路
+// - 没递归，没动态规划
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int tribonacci(int n) {
@@ -23,4 +23,4 @@ public:
       return ans;
     }
 };
-```
+// ```

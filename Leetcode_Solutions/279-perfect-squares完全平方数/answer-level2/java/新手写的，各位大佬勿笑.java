@@ -1,11 +1,11 @@
-### 解题思路
-刚学了bfs,写一下自己踩的坑
-1. 获取queue.size()，不要再循环中获取
-2. 结束条件是s ==0
+// ### 解题思路
+// 刚学了bfs,写一下自己踩的坑
+// 1. 获取queue.size()，不要再循环中获取
+// 2. 结束条件是s ==0
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numSquares(int n) {
          ArrayList<Integer> mlist = new ArrayList<>();
@@ -40,4 +40,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-js 常规递归
-```js
+// js 常规递归
+// ```js
 var generateParenthesis = function(n) {
     const res = [];
     function dfs(left, right, path) {
@@ -14,4 +14,4 @@ var generateParenthesis = function(n) {
     dfs(n, n, '');
     return res;
 };
-```
+// ```

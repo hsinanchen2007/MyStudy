@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/60f3903caf7a6dc7f8dd9aff874a015dcc4b5480ce233b1abbea7a8a58f8ed58-image.png)
-利用快速查找的切分函数。
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/60f3903caf7a6dc7f8dd9aff874a015dcc4b5480ce233b1abbea7a8a58f8ed58-image.png)
+// 利用快速查找的切分函数。
+// ### 代码
 
-```golang
+// ```golang
 func getLeastNumbers(arr []int, k int) []int {
     if k==0{
         return []int{}
@@ -53,4 +53,4 @@ func partition(a []int,lo,hi int)int{
     exch(lo,j)
     return j
 }
-```
+// ```

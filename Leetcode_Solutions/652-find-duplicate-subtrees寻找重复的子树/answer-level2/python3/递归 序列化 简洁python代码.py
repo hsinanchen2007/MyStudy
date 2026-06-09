@@ -1,5 +1,5 @@
-序列化，递归
-```
+# 序列化，递归
+# ```
 from collections import defaultdict
 class Solution:
     def findDuplicateSubtrees(self, root: TreeNode) -> List[TreeNode]:
@@ -11,4 +11,4 @@ class Solution:
         ser(root)
         rs = [v.pop() for v in m.values() if len(v) > 1] # 大于一个节点
         return rs
-```
+# ```

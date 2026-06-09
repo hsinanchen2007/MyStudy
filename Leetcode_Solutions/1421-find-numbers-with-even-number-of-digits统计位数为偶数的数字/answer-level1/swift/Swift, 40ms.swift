@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func findNumbers(_ nums: [Int]) -> Int {
         var ans: Int = 0
@@ -8,4 +8,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

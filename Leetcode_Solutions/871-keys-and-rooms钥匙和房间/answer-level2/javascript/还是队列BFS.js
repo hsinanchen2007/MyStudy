@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d9d03dc08ad018bfbe3539eb400adf0c9f62aec3dce32e0723994691270455b2-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d9d03dc08ad018bfbe3539eb400adf0c9f62aec3dce32e0723994691270455b2-image.png)
 
-用一个js的set来放已经进入过的房间号，如果当前的钥匙串都已经进过了，就结束循环，比较set和rooms的大小是否相等。
+// 用一个js的set来放已经进入过的房间号，如果当前的钥匙串都已经进过了，就结束循环，比较set和rooms的大小是否相等。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} rooms
  * @return {boolean}
@@ -38,4 +38,4 @@ var canVisitAllRooms = function (rooms) {
     }
     return visited.size === rooms.length;
 };
-```
+// ```

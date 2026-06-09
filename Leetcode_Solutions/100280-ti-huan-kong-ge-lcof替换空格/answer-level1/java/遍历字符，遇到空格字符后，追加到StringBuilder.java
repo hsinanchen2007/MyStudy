@@ -1,5 +1,5 @@
-思路是遍历字符串中的每个字符，匹配到空格后，修改为%20。
-```
+// 思路是遍历字符串中的每个字符，匹配到空格后，修改为%20。
+// ```
 StringBuilder sb = new StringBuilder();
 int length = s.length();
 for(int i = 0; i < length; i++) {
@@ -11,4 +11,4 @@ for(int i = 0; i < length; i++) {
     }
 }
 return sb.toString();
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String findReplaceString(String S, int[] indexes, String[] sources, String[] targets) {
         StringBuilder sb = new StringBuilder(S);
@@ -29,8 +29,8 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-在每次替换后，更新indexes。
-将每一个比当前index大的index都加上当前source长度和当前target长度的差，得出替换后indexes的正确位置。再次进行替换。
+// 在每次替换后，更新indexes。
+// 将每一个比当前index大的index都加上当前source长度和当前target长度的差，得出替换后indexes的正确位置。再次进行替换。
 

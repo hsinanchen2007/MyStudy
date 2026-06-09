@@ -1,7 +1,7 @@
-- 执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
+// - 执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
 
-- 内存消耗 :7.1 MB, 在所有 C 提交中击败了14.59%的用户
-```
+// - 内存消耗 :7.1 MB, 在所有 C 提交中击败了14.59%的用户
+// ```
 bool isAnagram(char * s, char * t){
     if (strlen(s) != strlen(t)) return false;
     int i = 0;
@@ -26,4 +26,4 @@ bool isAnagram(char * s, char * t){
     }
     return true;
 }
-```
+// ```

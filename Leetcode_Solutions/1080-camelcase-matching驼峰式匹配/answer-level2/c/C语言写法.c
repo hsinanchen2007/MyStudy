@@ -1,4 +1,4 @@
-```
+// ```
 bool isMatch(char* queries, char* pattern) 
 {
     int qLen = strlen(queries);
@@ -63,4 +63,4 @@ bool* camelMatch(char ** queries, int queriesSize, char * pattern, int* returnSi
     *returnSize = retIndex;
     return ret;
 }
-```
+// ```

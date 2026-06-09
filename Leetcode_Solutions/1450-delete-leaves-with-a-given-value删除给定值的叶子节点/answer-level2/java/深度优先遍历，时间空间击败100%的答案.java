@@ -1,8 +1,8 @@
-![100.png](https://pic.leetcode-cn.com/354fa2a1aa01fe3189353b1977c721491b340d2e7414002243cbd1aaed304b67-100.png)
+// ![100.png](https://pic.leetcode-cn.com/354fa2a1aa01fe3189353b1977c721491b340d2e7414002243cbd1aaed304b67-100.png)
 
-思路也比较简单，就是从叶子节点递归的向上删除值为target的叶子节点
+// 思路也比较简单，就是从叶子节点递归的向上删除值为target的叶子节点
 
-```
+// ```
 
 class Solution {
     public TreeNode removeLeafNodes(TreeNode root, int target) {
@@ -36,4 +36,4 @@ class Solution {
         }
     }
 }
-```
+// ```

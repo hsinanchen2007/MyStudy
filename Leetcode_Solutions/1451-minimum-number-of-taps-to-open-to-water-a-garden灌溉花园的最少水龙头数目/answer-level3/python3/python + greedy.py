@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minTaps(self, n: int, ranges: List[int]) -> int:
         # start from 0
@@ -38,4 +38,4 @@ class Solution:
             i = i + 1
             
         return res if right == n else -1
-```
+# ```

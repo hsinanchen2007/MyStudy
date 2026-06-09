@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-暴力解法，数据量大了就用不了了。
-### 代码
+// 暴力解法，数据量大了就用不了了。
+// ### 代码
 
-```c
+// ```c
 
 
 int strStr(char * haystack, char * needle){
@@ -26,4 +26,4 @@ int strStr(char * haystack, char * needle){
 }
 
 
-```
+// ```

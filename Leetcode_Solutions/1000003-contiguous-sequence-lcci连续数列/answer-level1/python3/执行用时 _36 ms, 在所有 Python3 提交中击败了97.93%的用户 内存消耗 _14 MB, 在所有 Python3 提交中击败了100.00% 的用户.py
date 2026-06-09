@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         s,n,mm =0,0,nums[0]
@@ -11,4 +11,4 @@ class Solution:
             s = n 
         return mm 
 
-```
+# ```

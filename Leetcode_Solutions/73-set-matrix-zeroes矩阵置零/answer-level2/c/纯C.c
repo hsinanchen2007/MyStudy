@@ -1,9 +1,9 @@
-### 解题思路
-纯C 在矩阵里做标记
+// ### 解题思路
+// 纯C 在矩阵里做标记
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void setZeroes(int** matrix, int matrixSize, int* matrixColSize){
     // 在第一行和第一列标记, 若第一行和第一列存在0就再用bRow和bCol标记
     // 因为是从左到右，从上到下遍历矩阵，所以不用担心第一行和第一例会先受其他行列影响
@@ -63,4 +63,4 @@ void setZeroes(int** matrix, int matrixSize, int* matrixColSize){
         }
     }
 }
-```
+// ```

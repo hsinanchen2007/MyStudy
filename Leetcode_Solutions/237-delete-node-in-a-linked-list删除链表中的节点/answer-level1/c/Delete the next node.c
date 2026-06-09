@@ -1,9 +1,9 @@
-### 解题思路
-As been told the node of a singly-linked list, we can operate the node or the next node;
+// ### 解题思路
+// As been told the node of a singly-linked list, we can operate the node or the next node;
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -19,4 +19,4 @@ void deleteNode(struct ListNode* node) {
     node->next=temp->next;              // Delete next node
     free(temp);                         // Free next node
 }
-```
+// ```

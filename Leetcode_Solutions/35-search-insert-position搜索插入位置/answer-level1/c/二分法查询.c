@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/60982e1a828f431ce9abf9a6224578e4fc423a832ebd43e2b3827f8646ef64ac-image.png)
+// ![image.png](https://pic.leetcode-cn.com/60982e1a828f431ce9abf9a6224578e4fc423a832ebd43e2b3827f8646ef64ac-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int searchInsert(int* nums, int numsSize, int target){
 
 	int left = 0, right = numsSize - 1;    //使用二分法查询，定义两个指针，分别指向要查询的左边与右边。
@@ -21,4 +21,4 @@ int searchInsert(int* nums, int numsSize, int target){
 	return left;
 
 }
-```
+// ```

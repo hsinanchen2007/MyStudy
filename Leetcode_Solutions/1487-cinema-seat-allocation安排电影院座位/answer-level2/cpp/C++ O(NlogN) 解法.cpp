@@ -1,11 +1,11 @@
-![1386.png](https://pic.leetcode-cn.com/b599f140d22c41efe1f7e0f59ac43d691d13867a2657ae0e49bfcf01b9cb31f7-1386.png)
+// ![1386.png](https://pic.leetcode-cn.com/b599f140d22c41efe1f7e0f59ac43d691d13867a2657ae0e49bfcf01b9cb31f7-1386.png)
 
-### 思路
-对reservedSeats进行排序，然后分别讨论reservedSeats中出现的每一行占用情况，最终得解。
-代码应该比较容易理解。
+// ### 思路
+// 对reservedSeats进行排序，然后分别讨论reservedSeats中出现的每一行占用情况，最终得解。
+// 代码应该比较容易理解。
 
-### 题解
-```
+// ### 题解
+// ```
 class Solution {
 public:
     int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
@@ -41,4 +41,4 @@ public:
         return count;
     }
 };
-```
+// ```

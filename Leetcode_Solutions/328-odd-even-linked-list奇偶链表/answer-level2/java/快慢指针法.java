@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/8f76cc0b6065b64518348e7e41de3d8e3675e9dd27648b0c6865852a7a807968-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8f76cc0b6065b64518348e7e41de3d8e3675e9dd27648b0c6865852a7a807968-image.png)
 
-主要思路就是利用快慢指针，快慢指针每次都指向连续的奇节点，只需要将快指针指向的节点移动到慢指针的下一个节点就可以了。
-移动节点之后，快指针的相对位置就应该是preFast指针的位置。大家可以根据代码，结合画图理解一下。
-```
+// 主要思路就是利用快慢指针，快慢指针每次都指向连续的奇节点，只需要将快指针指向的节点移动到慢指针的下一个节点就可以了。
+// 移动节点之后，快指针的相对位置就应该是preFast指针的位置。大家可以根据代码，结合画图理解一下。
+// ```
 class Solution {
     public ListNode oddEvenList(ListNode head) {
         if (head == null || head.next == null) {
@@ -31,4 +31,4 @@ class Solution {
         return pre.next;
     }
 }
-```
+// ```

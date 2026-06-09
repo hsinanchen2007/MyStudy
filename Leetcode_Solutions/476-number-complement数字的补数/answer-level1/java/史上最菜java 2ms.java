@@ -1,6 +1,6 @@
-史上最菜java 2ms
+// 史上最菜java 2ms
 
-```
+// ```
 class Solution {
     public int findComplement(int num) {
         String res = Integer.toBinaryString(num);
@@ -17,4 +17,4 @@ class Solution {
         return Integer.valueOf(builder.toString(),2);
     }
 }
-```
+// ```

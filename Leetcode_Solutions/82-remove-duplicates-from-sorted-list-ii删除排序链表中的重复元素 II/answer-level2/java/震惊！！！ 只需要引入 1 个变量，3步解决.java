@@ -1,17 +1,17 @@
-### 解题思路
-1. 全局引入当前重复的值 repeatNum , head 值如果重复，则 head = next
+// ### 解题思路
+// 1. 全局引入当前重复的值 repeatNum , head 值如果重复，则 head = next
 
-举个比方 [1,1,1,2,2,3]
-1. repeatNum = 1 ,  当前 next 指向最后一个 1   [1,1,2,2,3]
-2. head == next == repeatNum ,  head 不能为 repeatNum , head = next , 重新赋值
-3. 重新计算 next , 当前 next 指向 2  [2,2,3]
-4. next == next.next , 所以 next 指向 3  [3]
-5. head = next , 输出 [3]
+// 举个比方 [1,1,1,2,2,3]
+// 1. repeatNum = 1 ,  当前 next 指向最后一个 1   [1,1,2,2,3]
+// 2. head == next == repeatNum ,  head 不能为 repeatNum , head = next , 重新赋值
+// 3. 重新计算 next , 当前 next 指向 2  [2,2,3]
+// 4. next == next.next , 所以 next 指向 3  [3]
+// 5. head = next , 输出 [3]
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -45,4 +45,4 @@ class Solution {
 
     }
 }
-```
+// ```

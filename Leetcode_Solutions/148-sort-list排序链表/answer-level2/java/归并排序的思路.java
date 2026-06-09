@@ -1,9 +1,9 @@
-### 解题思路
-由于链表的缘故，合并时，只申请了常数个节点，这点与数组还是很不同的。
+// ### 解题思路
+// 由于链表的缘故，合并时，只申请了常数个节点，这点与数组还是很不同的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -55,4 +55,4 @@ class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```

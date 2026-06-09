@@ -1,6 +1,6 @@
-递归法（普通斐波那契数列会超时，设一个变量存历史值）
+// 递归法（普通斐波那契数列会超时，设一个变量存历史值）
 
-```
+// ```
 int climbStairsB(int, int*);
 
 int climbStairs(int n){
@@ -17,10 +17,10 @@ int climbStairsB(int n, int* mem){
     mem[n - 1] = climbStairsB(n - 1, mem) + climbStairsB(n - 2, mem);
     return mem[n - 1];
 }
-```
+// ```
 
-迭代法
-```
+// 迭代法
+// ```
 int climbStairs(int n){
     if (n == 1) return 1;
     if (n == 2) return 2;
@@ -33,4 +33,4 @@ int climbStairs(int n){
     }
     return cnt;
 }
-```
+// ```

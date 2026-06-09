@@ -1,42 +1,42 @@
-## 结构设计
-cache 基于两层list实现。第一层为出现的次数，第二层为具体的元素。
-router 是一个 unordered_map。记录每个 key 在 cache 中的位置。 
-具体结构如下图所示：
-![LFU.png](https://pic.leetcode-cn.com/c5f758cb360e8d6bf6ecf9b06672bc26b99fabf892a376c8e9cfd3a2d9023482-LFU.png)
+// ## 结构设计
+// cache 基于两层list实现。第一层为出现的次数，第二层为具体的元素。
+// router 是一个 unordered_map。记录每个 key 在 cache 中的位置。 
+// 具体结构如下图所示：
+// ![LFU.png](https://pic.leetcode-cn.com/c5f758cb360e8d6bf6ecf9b06672bc26b99fabf892a376c8e9cfd3a2d9023482-LFU.png)
 
-## 功能设计
-### GET
-**时间复杂度：O(1)**
+// ## 功能设计
+// ### GET
+// **时间复杂度：O(1)**
 
-直接访问 router，判断 key 是否存在：
-* 不存在，返回 -1。
-* 存在，通过router中缓存的位置，直接访问对应的数据链表结点，返回数据。
+// 直接访问 router，判断 key 是否存在：
+// * 不存在，返回 -1。
+// * 存在，通过router中缓存的位置，直接访问对应的数据链表结点，返回数据。
 
-### PUT
-**时间复杂度：O(1)**
-首先判断 key 是否在 router 中：
-* 如果在，直接更新对应数据链表结点的值，并调用 updateFreq 更新访问次数。PUT结束。
-* 如果不存在。则判断是否已满：若已满先调用 swapOut (该函数会按LFU规则淘汰一个元素，后面会讨论)。
-* 判断次数为1的频次链表结点是否存在，不存在则创建。
-* 将数据插入到次数为 1 的数据链表。并更新 router。PUT 结束。
+// ### PUT
+// **时间复杂度：O(1)**
+// 首先判断 key 是否在 router 中：
+// * 如果在，直接更新对应数据链表结点的值，并调用 updateFreq 更新访问次数。PUT结束。
+// * 如果不存在。则判断是否已满：若已满先调用 swapOut (该函数会按LFU规则淘汰一个元素，后面会讨论)。
+// * 判断次数为1的频次链表结点是否存在，不存在则创建。
+// * 将数据插入到次数为 1 的数据链表。并更新 router。PUT 结束。
 
-以插入(key = 5, val = 5) 为例，图示如下：
-![LFU插入.png](https://pic.leetcode-cn.com/46287cb09c76bd0ed7243c70a6bc2a24237e5ad3545dd130f4f8a811aa50e1cd-LFU%E6%8F%92%E5%85%A5.png)
-### updateFreq
-**时间复杂度：O(1)**
-每次更新或查询，对应元素的频次只会增加一，也就是说对应的数据结点**应从当前的数据链表移动到下一个数据链表**，如果下一个数据链表**不存在或者对应的频次不符**，则应创建新的数据链表。
-以更新(key=5, val = 5)为例，过程如下图示：
+// 以插入(key = 5, val = 5) 为例，图示如下：
+// ![LFU插入.png](https://pic.leetcode-cn.com/46287cb09c76bd0ed7243c70a6bc2a24237e5ad3545dd130f4f8a811aa50e1cd-LFU%E6%8F%92%E5%85%A5.png)
+// ### updateFreq
+// **时间复杂度：O(1)**
+// 每次更新或查询，对应元素的频次只会增加一，也就是说对应的数据结点**应从当前的数据链表移动到下一个数据链表**，如果下一个数据链表**不存在或者对应的频次不符**，则应创建新的数据链表。
+// 以更新(key=5, val = 5)为例，过程如下图示：
 
-<![](https://pic.leetcode-cn.com/d41d72efe878cb6965a3a4371ae7341a3c781d41f0d9f71511472b7c5b2410a2-1.png),![](https://pic.leetcode-cn.com/6a3b1ddd96e07276cc901096737db7a14dca7787b74a9031fdd29e2248a48086-2.png)>
+// <![](https://pic.leetcode-cn.com/d41d72efe878cb6965a3a4371ae7341a3c781d41f0d9f71511472b7c5b2410a2-1.png),![](https://pic.leetcode-cn.com/6a3b1ddd96e07276cc901096737db7a14dca7787b74a9031fdd29e2248a48086-2.png)>
 
-### swapOut
-**时间复杂度：O(1)**
-弹出频次最小的数据链表的最后一个元素，并删除router。
-![LFU-swapout.png](https://pic.leetcode-cn.com/b8844ce65cdc4dac9b029bbf0a4453caf34e72066d7562e54afad6214072b925-LFU-swapout.png)
+// ### swapOut
+// **时间复杂度：O(1)**
+// 弹出频次最小的数据链表的最后一个元素，并删除router。
+// ![LFU-swapout.png](https://pic.leetcode-cn.com/b8844ce65cdc4dac9b029bbf0a4453caf34e72066d7562e54afad6214072b925-LFU-swapout.png)
 
-## 代码实现
+// ## 代码实现
 
-```cpp
+// ```cpp
 //为 list 自定义一个内存管理类模板
 template<typename T>
 class SingleAlloctor {
@@ -167,15 +167,15 @@ public:
 		}
     }
 };
-```
+// ```
 
-**对STL不熟悉的小伙伴，可以关注公众号回复 "CPP标准库" 获取相关PDF哦。**
-# 如果感觉有点意思，可以关注👏HelloNebula👏
-* **分享周赛题解**
-* **分享计算机专业课知识**
-* **分享C++相关岗位面试题**
-* **分享专业书籍PDF**
+// **对STL不熟悉的小伙伴，可以关注公众号回复 "CPP标准库" 获取相关PDF哦。**
+// # 如果感觉有点意思，可以关注👏HelloNebula👏
+// * **分享周赛题解**
+// * **分享计算机专业课知识**
+// * **分享C++相关岗位面试题**
+// * **分享专业书籍PDF**
 
-![qrcode_for_gh_6e5f8557b1f8_258.jpg](https://pic.leetcode-cn.com/05e5a3b25cb51d114880f718c50446c6a6e9d3f242c7418e6b6e52fb2db48994-qrcode_for_gh_6e5f8557b1f8_258.jpg)
+// ![qrcode_for_gh_6e5f8557b1f8_258.jpg](https://pic.leetcode-cn.com/05e5a3b25cb51d114880f718c50446c6a6e9d3f242c7418e6b6e52fb2db48994-qrcode_for_gh_6e5f8557b1f8_258.jpg)
 
 

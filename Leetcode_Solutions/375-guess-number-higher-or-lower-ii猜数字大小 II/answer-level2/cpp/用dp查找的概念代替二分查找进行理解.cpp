@@ -1,5 +1,5 @@
-详情见代码注释
-```
+// 详情见代码注释
+// ```
 class Solution {
 public:
 	int getMoneyAmount(int n) {
@@ -25,4 +25,4 @@ public:
 		return dp[1][n];
 	}
 };
-```
+// ```

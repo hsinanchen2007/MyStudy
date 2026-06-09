@@ -1,4 +1,4 @@
-```
+// ```
 var backspaceCompare = function(S, T) {
     let a = S.split('').reduce((pre, cur) => {
         return pre == '#' ? (cur == "#" ? '' : cur) : (cur == "#" ? pre.slice(0, pre.length - 1) : pre + cur);
@@ -8,4 +8,4 @@ var backspaceCompare = function(S, T) {
     })
     return a == b;
 };
-```
+// ```

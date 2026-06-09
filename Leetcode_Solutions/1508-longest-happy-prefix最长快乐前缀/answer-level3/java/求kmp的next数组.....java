@@ -1,6 +1,6 @@
-求出next数组后，取最后位置的值即可...
-为啥会放到第四题...
-```
+// 求出next数组后，取最后位置的值即可...
+// 为啥会放到第四题...
+// ```
 class Solution {
     public String longestPrefix(String s) {
         int n=s.length();
@@ -22,4 +22,4 @@ class Solution {
         return s.substring(0,next[n]);
     }
 }
-```
+// ```

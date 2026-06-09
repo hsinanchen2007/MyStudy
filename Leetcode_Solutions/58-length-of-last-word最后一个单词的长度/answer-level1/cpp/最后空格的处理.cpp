@@ -1,9 +1,9 @@
-### 解题思路
-O(n)既可，主要最后字符是空格的处理
+// ### 解题思路
+// O(n)既可，主要最后字符是空格的处理
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -21,4 +21,4 @@ public:
         return result;
     }
 };
-```
+// ```

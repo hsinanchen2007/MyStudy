@@ -1,11 +1,11 @@
-### 解题思路
-1. 用数组存储节点
-2. 双指针重排数组
-3. 重排后的数据进行节点链接成链表
+// ### 解题思路
+// 1. 用数组存储节点
+// 2. 双指针重排数组
+// 3. 重排后的数据进行节点链接成链表
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reorderList(head *ListNode) {
 	if head == nil {
 		return
@@ -34,4 +34,4 @@ func reorderList(head *ListNode) {
 		result[i].Next = nil
 	}
 }
-```
+// ```

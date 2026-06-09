@@ -1,9 +1,9 @@
-### 解题思路
-纯C 简单的流程控制
+// ### 解题思路
+// 纯C 简单的流程控制
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -86,4 +86,4 @@ int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
 
     return pRes;
 }
-```
+// ```

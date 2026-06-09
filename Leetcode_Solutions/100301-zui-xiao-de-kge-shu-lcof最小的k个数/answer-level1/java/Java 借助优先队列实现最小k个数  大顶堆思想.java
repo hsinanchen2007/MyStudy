@@ -1,11 +1,11 @@
-### 解题思路
-思路：大顶堆
-Java中使用优先队列即可，默认是小顶堆，需要修改比较器规则
-需要申请一个k大小的优先队列以及一个存储最终返回对象的int数组
+// ### 解题思路
+// 思路：大顶堆
+// Java中使用优先队列即可，默认是小顶堆，需要修改比较器规则
+// 需要申请一个k大小的优先队列以及一个存储最终返回对象的int数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         if (k == 0 || arr.length == 0) {
@@ -35,4 +35,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

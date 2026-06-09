@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
         if(intervals.length==0){
@@ -37,4 +37,4 @@ class Solution {
         return outQueue.toArray(new int[][]{});
     }
 }
-```
+// ```

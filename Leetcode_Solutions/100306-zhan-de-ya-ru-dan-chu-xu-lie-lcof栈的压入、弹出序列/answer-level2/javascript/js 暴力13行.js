@@ -1,5 +1,5 @@
-暴力13行解决战斗
-```js
+// 暴力13行解决战斗
+// ```js
 /**
  * @param {number[]} pushed
  * @param {number[]} popped
@@ -20,4 +20,4 @@ var validateStackSequences = function(pushed, popped) {
     }
     return popHead === pushed.length;
 };
-```
+// ```

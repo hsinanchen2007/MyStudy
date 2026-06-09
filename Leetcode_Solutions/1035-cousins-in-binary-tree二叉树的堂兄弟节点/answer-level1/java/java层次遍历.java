@@ -1,4 +1,4 @@
-```java
+// ```java
     public boolean isCousins(TreeNode root, int x, int y) {
         Queue<TreeNode> queue = new LinkedList<>();
         // 每个节点的值都是唯一的
@@ -34,4 +34,4 @@
         }
         return false;
     }
-```
+// ```

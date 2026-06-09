@@ -1,9 +1,9 @@
-### 解题思路
-由于只有四个方向，那么可以得知如果能回到原点，那么执行4次必然能够回到原点
+// ### 解题思路
+// 由于只有四个方向，那么可以得知如果能回到原点，那么执行4次必然能够回到原点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isRobotBounded(String instructions) {
           String str =instructions+instructions+instructions+instructions;
@@ -46,4 +46,4 @@ class Solution {
 		return x==0&&y==0;			
     }
 }
-```
+// ```

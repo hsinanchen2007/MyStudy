@@ -1,8 +1,8 @@
-### 解题思路
-不怕晚 
-### 代码
+// ### 解题思路
+// 不怕晚 
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int orangesRotting(int[][] grid) {
  boolean change=false;
@@ -76,4 +76,4 @@ class Solution {
 		 return false;
 	}
 }
-```
+// ```

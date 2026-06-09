@@ -1,5 +1,5 @@
 
-```
+// ```
 class KthLargest {
      //创建一个K大小的优先级队列，即最小堆。因为是int类型，默认从小到大。
     private PriorityQueue<Integer> queue;
@@ -24,4 +24,4 @@ class KthLargest {
 
 }
 
-```
+// ```

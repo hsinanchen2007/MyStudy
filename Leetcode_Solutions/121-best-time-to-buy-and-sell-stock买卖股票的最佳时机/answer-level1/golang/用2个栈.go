@@ -1,9 +1,9 @@
-### 解题思路
-递减栈stack1（从左往右）和递增栈stack2（从右往左）
-最后2个数组同位相减的最大值就是最大收益
-### 代码
+// ### 解题思路
+// 递减栈stack1（从左往右）和递增栈stack2（从右往左）
+// 最后2个数组同位相减的最大值就是最大收益
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
     stack1:=make([]int,len(prices))
     stack2:=make([]int,len(prices))
@@ -29,4 +29,4 @@ func maxProfit(prices []int) int {
     }
     return max
 }
-```
+// ```

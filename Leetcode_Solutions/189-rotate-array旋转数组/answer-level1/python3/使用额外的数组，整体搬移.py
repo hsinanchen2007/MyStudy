@@ -1,21 +1,21 @@
-### 解题思路
-此处撰写解题思路
-2）使用额外的数组，整体搬移
-        """
-        # 2）使用额外的数组，整体搬移
-        # [1, 2, 3, 4, 5, 6, 7] 
-        #      备份 |
-        # tmp_nums = [1, 2, 3, 4]
-        #  0 ~ len(nums)-k
-        # 后面k个往前拷贝
-        # [5, 6, 7, 4, 5, 6, 7]
-        # 在把      |   把备份的重新拷贝过来
-        # [5, 6, 7, 1, 2, 3, 4]
-![image.png](https://pic.leetcode-cn.com/b80dab9a9767d8b118c600725034e0edc76a27e04e1f69bb163b3b920a8d4867-image.png)
+# ### 解题思路
+# 此处撰写解题思路
+# 2）使用额外的数组，整体搬移
+#         """
+#         # 2）使用额外的数组，整体搬移
+#         # [1, 2, 3, 4, 5, 6, 7] 
+#         #      备份 |
+#         # tmp_nums = [1, 2, 3, 4]
+#         #  0 ~ len(nums)-k
+#         # 后面k个往前拷贝
+#         # [5, 6, 7, 4, 5, 6, 7]
+#         # 在把      |   把备份的重新拷贝过来
+#         # [5, 6, 7, 1, 2, 3, 4]
+# ![image.png](https://pic.leetcode-cn.com/b80dab9a9767d8b118c600725034e0edc76a27e04e1f69bb163b3b920a8d4867-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -36,4 +36,4 @@ class Solution:
         print(nums)
         nums[k: len(nums)] = tmp_nums
         print(nums)
-```
+# ```

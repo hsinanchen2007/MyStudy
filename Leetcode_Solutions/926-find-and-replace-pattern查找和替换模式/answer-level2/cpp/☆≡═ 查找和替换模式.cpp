@@ -1,10 +1,10 @@
-1. 按照单词中字母首次出现的顺序，把字母映射到一个递增序列，比如
-["abc", "deq", "mee", "aqq", "dkd", "ccc"]被映射为
-["ABC", "ABC", "ABB", "ABB", "ABA", "AAA"]
-而pattern "abb" 也被映射为 "ABB"
-2. 之后在单词列表中进行字符串匹配。
+// 1. 按照单词中字母首次出现的顺序，把字母映射到一个递增序列，比如
+// ["abc", "deq", "mee", "aqq", "dkd", "ccc"]被映射为
+// ["ABC", "ABC", "ABB", "ABB", "ABA", "AAA"]
+// 而pattern "abb" 也被映射为 "ABB"
+// 2. 之后在单词列表中进行字符串匹配。
 
-```
+// ```
 class Solution {
 public:
     vector<string> findAndReplacePattern(const vector<string>& words, const string& pattern) {
@@ -28,4 +28,4 @@ private:
         return os.str();
     }
 };
-```
+// ```

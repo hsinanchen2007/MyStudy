@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
 	int i,j;
 	int len,temp;
@@ -44,4 +44,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
 		}	
 	}
 }
-```
+// ```

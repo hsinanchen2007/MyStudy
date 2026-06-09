@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/bb252eb67ee4fb233a95c23445eefa79943ab0c34a14d3fa2a65102573a5dec4-image.png)
+# ![image.png](https://pic.leetcode-cn.com/bb252eb67ee4fb233a95c23445eefa79943ab0c34a14d3fa2a65102573a5dec4-image.png)
 
 
-```
+# ```
 '''
 先统计超出平均数量的字符的个数，滑动窗口查找最短的窗口能够包含多出来的字符
 '''
@@ -56,7 +56,7 @@ class Solution:
                     cnt[s[r]] += 1
 
         return ans
-```
+# ```
 
 
 

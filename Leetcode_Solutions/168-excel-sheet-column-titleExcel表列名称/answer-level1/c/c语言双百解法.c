@@ -1,6 +1,6 @@
-偷鸡摸狗偷偷设定他不超过32的长度啦~毕竟应该int类型没那么大的数据
+// 偷鸡摸狗偷偷设定他不超过32的长度啦~毕竟应该int类型没那么大的数据
 
-```
+// ```
 char * convertToTitle(int n){
     int tmp=n,len=31;
     char *ch=(char*)malloc(sizeof(char)*(32));
@@ -12,4 +12,4 @@ char * convertToTitle(int n){
     }
     return ch+len;
 }
-```
+// ```

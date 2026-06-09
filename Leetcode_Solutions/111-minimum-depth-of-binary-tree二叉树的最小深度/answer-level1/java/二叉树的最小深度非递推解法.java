@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
- 遇到左右子节点为null时直接返回结果
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+//  遇到左右子节点为null时直接返回结果
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -38,4 +38,4 @@ class Solution {
         return depths;
     }
 }
-```
+// ```

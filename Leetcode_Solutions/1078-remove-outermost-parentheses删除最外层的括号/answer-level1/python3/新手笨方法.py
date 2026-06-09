@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def removeOuterParentheses(self, S):
         result=str()
@@ -25,4 +25,4 @@ if '__name__'=='__main__':
     solution = Solution()
     result = soluton.removeOuterParenthese(S)
     print(result)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-记录当前深度，处理左括号时后更新深度，处理右括号时先更新深度。
+// ### 解题思路
+// 记录当前深度，处理左括号时后更新深度，处理右括号时先更新深度。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string removeOuterParentheses(string S) {
@@ -23,4 +23,4 @@ public:
         return ans;
     }
 };
-```
+// ```

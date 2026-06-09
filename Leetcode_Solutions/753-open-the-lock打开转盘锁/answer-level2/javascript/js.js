@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string[]} deadends
  * @param {string} target
@@ -62,4 +62,4 @@ var openLock = function(deadends, target) {
   }
 };
 
-```
+// ```

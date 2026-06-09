@@ -1,9 +1,9 @@
-### 解题思路
-求有多少个因子5
+// ### 解题思路
+// 求有多少个因子5
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int trailingZeroes(int n) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

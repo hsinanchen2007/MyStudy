@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     void **data;
     int top;
@@ -150,4 +150,4 @@ int largestRectangleArea(int* heights, int heightsSize)
     StackFree(monotoneStack);
     return ret;
 }
-```
+// ```

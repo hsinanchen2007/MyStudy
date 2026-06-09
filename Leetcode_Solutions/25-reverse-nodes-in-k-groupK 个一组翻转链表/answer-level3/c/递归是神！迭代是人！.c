@@ -1,4 +1,4 @@
-直接递归，模仿大牛代码！
+// 直接递归，模仿大牛代码！
 struct ListNode* reverseKGroup(struct ListNode* head, int k)
 {
     struct ListNode* pr=head;

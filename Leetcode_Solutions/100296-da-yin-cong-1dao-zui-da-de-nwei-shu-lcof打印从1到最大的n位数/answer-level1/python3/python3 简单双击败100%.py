@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def printNumbers(self, n: int) -> List[int]:
         a=[]
@@ -11,4 +11,4 @@ class Solution:
             a.append(i)
         return a
 
-```
+# ```

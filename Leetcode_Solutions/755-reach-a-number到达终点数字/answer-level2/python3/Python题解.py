@@ -1,5 +1,5 @@
-参考大神的方法写了一下
-```
+# 参考大神的方法写了一下
+# ```
 class Solution:
     def reachNumber(self, target):
         #正着走反着走是一样的
@@ -14,4 +14,4 @@ class Solution:
                 return(num)
             num+=1
             distance = distance+num
-```
+# ```

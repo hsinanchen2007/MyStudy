@@ -1,12 +1,12 @@
-### 解题思路
-step1:记录链表的长度
-step2:判断链表的长度是否>30
-step3:相应的链表的值进行左移 
-step4:对值进行求和
+// ### 解题思路
+// step1:记录链表的长度
+// step2:判断链表的长度是否>30
+// step3:相应的链表的值进行左移 
+// step4:对值进行求和
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -45,4 +45,4 @@ public:
         return sum;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-类 `CountDownLatch` 所提供的功能是判断 count 计数不为0时,则当前线程呈 wait 状态,也就是在屏障处等待
-`second` 方法等待`first`方法执行后`count`-1 变为0,然后执行
-`third`方法等待`second`方法执行后`count`-1 变为0 ,然后执行
-```java
+// ### 代码
+// 类 `CountDownLatch` 所提供的功能是判断 count 计数不为0时,则当前线程呈 wait 状态,也就是在屏障处等待
+// `second` 方法等待`first`方法执行后`count`-1 变为0,然后执行
+// `third`方法等待`second`方法执行后`count`-1 变为0 ,然后执行
+// ```java
 import java.util.concurrent.CountDownLatch;
 class Foo {
 
@@ -38,4 +38,4 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-本以为会挂在打卡第三天
+# ### 解题思路
+# 此处撰写解题思路
+# 本以为会挂在打卡第三天
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         length1=len(grid)
@@ -46,4 +46,4 @@ class Solution:
                         if grid[i][j]==1:
                             return -1
                 return count
-```
+# ```

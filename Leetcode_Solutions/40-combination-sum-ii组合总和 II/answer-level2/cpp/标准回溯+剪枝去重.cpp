@@ -1,13 +1,13 @@
-### 解题思路
-重点在于剪枝去重操作
-if (i != begin && candidates[i] == candidates[i - 1])
-	{
-		continue;	//剪枝
-	}
+// ### 解题思路
+// 重点在于剪枝去重操作
+// if (i != begin && candidates[i] == candidates[i - 1])
+// 	{
+// 		continue;	//剪枝
+// 	}
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -44,4 +44,4 @@ public:
 		}
 	}
 };
-```
+// ```

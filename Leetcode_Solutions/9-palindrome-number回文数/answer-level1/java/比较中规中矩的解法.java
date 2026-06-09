@@ -1,11 +1,11 @@
-### 解题思路
-情况1：当x为负数时 回文数必与之不相等 返回false；
-情况2：当x为0时 回文数为0 返回true；
-情况3：使用while计算得出回文数 判断是否与输入x相等
+// ### 解题思路
+// 情况1：当x为负数时 回文数必与之不相等 返回false；
+// 情况2：当x为0时 回文数为0 返回true；
+// 情况3：使用while计算得出回文数 判断是否与输入x相等
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         int initx=x;
@@ -38,4 +38,4 @@ class Solution {
         }
     }
 }
-```
+// ```

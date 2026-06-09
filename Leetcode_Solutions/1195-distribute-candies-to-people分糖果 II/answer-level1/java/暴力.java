@@ -1,9 +1,9 @@
-### 解题思路
-两层循环，暴力迭代
+// ### 解题思路
+// 两层循环，暴力迭代
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
 
@@ -25,4 +25,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

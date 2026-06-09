@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn projection_area(grid: Vec<Vec<i32>>) -> i32 {
         let mut top = 0;
@@ -24,5 +24,5 @@ impl Solution {
         top + front + side
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

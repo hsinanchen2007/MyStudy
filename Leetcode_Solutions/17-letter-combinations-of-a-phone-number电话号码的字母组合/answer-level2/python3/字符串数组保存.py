@@ -1,13 +1,13 @@
-### 解题思路
-例：2 * 4 * 7
-s[0] = "aaaaaaaaaaaabbbbbbbbbbbbcccccccccccc"
-s[1] = "gggghhhhiiiigggghhhhiiiigggghhhhiiii"
-s[2] = "pqrspqrspqrspqrspqrspqrspqrspqrspqrs"
-然后再拼:agp,agq,agr,ags,ahp,ahq,ahr,ahs,.....
+# ### 解题思路
+# 例：2 * 4 * 7
+# s[0] = "aaaaaaaaaaaabbbbbbbbbbbbcccccccccccc"
+# s[1] = "gggghhhhiiiigggghhhhiiiigggghhhhiiii"
+# s[2] = "pqrspqrspqrspqrspqrspqrspqrspqrspqrs"
+# 然后再拼:agp,agq,agr,ags,ahp,ahq,ahr,ahs,.....
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         dict = {2:"abc",3:"def",4:"ghi",5:"jkl",6:"mno",7:"pqrs",8:"tuv",9:"wxyz"}
@@ -55,4 +55,4 @@ class Solution:
 
         return res
 
-```
+# ```

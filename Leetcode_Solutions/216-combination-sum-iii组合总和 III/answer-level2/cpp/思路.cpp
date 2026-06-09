@@ -1,10 +1,10 @@
-### 解题思路
-相对比较简单dfs
-不如39、40的剪枝复杂
+// ### 解题思路
+// 相对比较简单dfs
+// 不如39、40的剪枝复杂
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;
@@ -34,4 +34,4 @@ public:
       return res;
     }
 };
-```
+// ```

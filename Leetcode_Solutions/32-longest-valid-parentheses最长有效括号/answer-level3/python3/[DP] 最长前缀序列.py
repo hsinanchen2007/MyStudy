@@ -1,13 +1,13 @@
-## Methods
-- DP三步：
-  1. `D[i]` 表示以i位置字符结束的最长括号序列
-  2. `D[i]` 转移方程：
-      - `s[i-1] == '('`: `D[i] = D[i-1] + 2`
-      - `s[i-1] == ')' and s[i - D[i-1] -1] == '('`: `D[i] = D[i-1] + D[i - D[i-1] - 2] + 2`
-  3. 注意边界判断
+# ## Methods
+# - DP三步：
+#   1. `D[i]` 表示以i位置字符结束的最长括号序列
+#   2. `D[i]` 转移方程：
+#       - `s[i-1] == '('`: `D[i] = D[i-1] + 2`
+#       - `s[i-1] == ')' and s[i - D[i-1] -1] == '('`: `D[i] = D[i-1] + D[i - D[i-1] - 2] + 2`
+#   3. 注意边界判断
 
-## Solutions
-```python3
+# ## Solutions
+# ```python3
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         n = len(s)
@@ -34,4 +34,4 @@ class Solution:
                 res = max(res, d[iind])
         # print(d)
         return res
-```
+# ```

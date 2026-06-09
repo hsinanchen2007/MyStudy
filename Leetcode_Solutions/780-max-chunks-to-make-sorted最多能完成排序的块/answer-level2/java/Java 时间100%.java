@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/8f7f417f0ccecb661600c6608bbabb782522afeb1b1c0e011923a384388bb52f-image.png)
-每块在正确的位置时块内下标和与块内元素和相等
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/8f7f417f0ccecb661600c6608bbabb782522afeb1b1c0e011923a384388bb52f-image.png)
+// 每块在正确的位置时块内下标和与块内元素和相等
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxChunksToSorted(int[] arr) {
         int n = arr.length;
@@ -22,4 +22,4 @@ class Solution {
         return res + 1;
     }
 }
-```
+// ```

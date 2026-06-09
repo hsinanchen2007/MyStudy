@@ -1,9 +1,9 @@
-### 解题思路
-借鉴官方题解，复杂度比较高
+// ### 解题思路
+// 借鉴官方题解，复杂度比较高
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if (z == 0) return true;
@@ -32,4 +32,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

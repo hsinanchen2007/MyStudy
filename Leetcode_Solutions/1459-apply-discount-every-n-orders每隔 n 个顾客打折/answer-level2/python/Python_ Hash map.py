@@ -1,8 +1,8 @@
-### 解题思路
-用一个hash map 来存储商品和价格的对应关系，这在之后计算bill查找价格的时候能节省时间。
-### 代码
+# ### 解题思路
+# 用一个hash map 来存储商品和价格的对应关系，这在之后计算bill查找价格的时候能节省时间。
+# ### 代码
 
-```python
+# ```python
 class Cashier:
 
     def __init__(self, n: int, discount: int, products: List[int], prices: List[int]):
@@ -31,4 +31,4 @@ class Cashier:
 # Your Cashier object will be instantiated and called as such:
 # obj = Cashier(n, discount, products, prices)
 # param_1 = obj.getBill(product,amount)
-```
+# ```

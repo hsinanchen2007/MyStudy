@@ -1,9 +1,9 @@
-极端情况
-1.全空
-2.除开头空格外有效字符仅+ -
-需注意的地方：
-i作为索引指向末尾时，需提前break，否则会out of str index
-```
+# 极端情况
+# 1.全空
+# 2.除开头空格外有效字符仅+ -
+# 需注意的地方：
+# i作为索引指向末尾时，需提前break，否则会out of str index
+# ```
    def myAtoi(self, str: str) -> int:
         if len(str)==0:#str本身为空
             return 0
@@ -37,4 +37,4 @@ i作为索引指向末尾时，需提前break，否则会out of str index
         if result<-2**31:
             return -2**31
         return result
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-本题的思路很简单，采用递归方法中序遍历二叉树。将遍历到的节点值存储在列表list中。然后依据列表list的元素顺序构造新的二叉树。
+// ### 解题思路
+// 本题的思路很简单，采用递归方法中序遍历二叉树。将遍历到的节点值存储在列表list中。然后依据列表list的元素顺序构造新的二叉树。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         Inorder_Traversal(root.right);
     }
 }
-```
+// ```

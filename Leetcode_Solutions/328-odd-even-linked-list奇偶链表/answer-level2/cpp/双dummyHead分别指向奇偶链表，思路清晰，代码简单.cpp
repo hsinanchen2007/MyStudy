@@ -1,6 +1,6 @@
-### 解题思路
-思路分析，伪码如下：
-```
+// ### 解题思路
+// 思路分析，伪码如下：
+// ```
 ListNode* oddEvenList(ListNode* head){
     if(head为NULL或一个节点或两个节点)
         return head;
@@ -17,11 +17,11 @@ ListNode* oddEvenList(ListNode* head){
         return dummyOdd头结点的下一个节点；
     }
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -67,4 +67,4 @@ public:
 
     }
 };
-```
+// ```

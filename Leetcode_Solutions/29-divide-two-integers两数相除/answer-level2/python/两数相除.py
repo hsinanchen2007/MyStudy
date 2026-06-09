@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         if dividend == 0:
@@ -64,4 +64,4 @@ class Solution:
         if k == -1:
             r = -r
         return min(max(-2**31, r), 2**31-1)
-```
+# ```

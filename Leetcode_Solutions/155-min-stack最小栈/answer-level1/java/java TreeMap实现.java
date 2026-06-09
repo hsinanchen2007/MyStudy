@@ -1,10 +1,10 @@
-#### 思路
-1. 使用TreeMap 保存<值，数量>
-2. getMin方法，调用TreeMap的getFirstKey即可获得最小值
-3. 其他方法，push和pop的时候注意修改map就可以了
-4. 这个方法。。写起来不太费脑子，也就导致了时间复杂度不太好。。
-#### 代码
-```java
+// #### 思路
+// 1. 使用TreeMap 保存<值，数量>
+// 2. getMin方法，调用TreeMap的getFirstKey即可获得最小值
+// 3. 其他方法，push和pop的时候注意修改map就可以了
+// 4. 这个方法。。写起来不太费脑子，也就导致了时间复杂度不太好。。
+// #### 代码
+// ```java
 class MinStack {
 
 
@@ -43,4 +43,4 @@ class MinStack {
            return map.firstKey();
         }
 }
-```
+// ```

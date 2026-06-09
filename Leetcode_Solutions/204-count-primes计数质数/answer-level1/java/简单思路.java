@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-在每次找到一个素数时，将这个素数的倍数排除掉。
-简单吧。哈哈哈。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 在每次找到一个素数时，将这个素数的倍数排除掉。
+// 简单吧。哈哈哈。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countPrimes(int n) {
         boolean[]a=new boolean[n];
@@ -20,4 +20,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

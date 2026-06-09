@@ -1,6 +1,6 @@
-HashMap+ 双向链表 
-利用哨兵简化头尾判断
-```
+// HashMap+ 双向链表 
+// 利用哨兵简化头尾判断
+// ```
 class LRUCache {
     private Map<Integer,ListNode> mMap = new HashMap<>();
 
@@ -88,4 +88,4 @@ class LRUCache {
     }
 }
 
-```
+// ```

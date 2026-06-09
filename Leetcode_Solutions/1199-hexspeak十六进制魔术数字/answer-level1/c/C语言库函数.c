@@ -1,4 +1,4 @@
-```
+// ```
 #define N 12
 
 char * toHexspeak(char * num){
@@ -24,4 +24,4 @@ char * toHexspeak(char * num){
 
     return ans;
 }
-```
+// ```

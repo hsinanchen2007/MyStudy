@@ -1,26 +1,26 @@
-## 思路:
+# ## 思路:
 
-一张图说明白！
+# 一张图说明白！
 
-![image-20200405214800495.png](https://pic.leetcode-cn.com/61423eef7863d87c25bc77381e29504d91ad342234ca9b991e0c9046ca03533a-image-20200405214800495.png)
+# ![image-20200405214800495.png](https://pic.leetcode-cn.com/61423eef7863d87c25bc77381e29504d91ad342234ca9b991e0c9046ca03533a-image-20200405214800495.png)
 
 
-准备两个字典，
+# 准备两个字典，
 
-1. `key`与`freq`映射，为了找`key`在哪个频率下；
-2. `key`与`value`映射，为了找`key`对应的`valu`e值，这个需要一个有序字典`OrderedDict`，为了好弹出同一个频率下，最开始加入的key（当然是容量不够，需要弹出的时候）
+# 1. `key`与`freq`映射，为了找`key`在哪个频率下；
+# 2. `key`与`value`映射，为了找`key`对应的`valu`e值，这个需要一个有序字典`OrderedDict`，为了好弹出同一个频率下，最开始加入的key（当然是容量不够，需要弹出的时候）
 
-对于第二个字典，可以使用python自带库，也可以使用双向链表实现
+# 对于第二个字典，可以使用python自带库，也可以使用双向链表实现
 
-思路一：用`python`内建有序字典`OrderedDict`实现。
+# 思路一：用`python`内建有序字典`OrderedDict`实现。
 
-思路二：双向链表，第一个字典就是`key`对应`node`的位置。
+# 思路二：双向链表，第一个字典就是`key`对应`node`的位置。
 
-## 代码:
+# ## 代码:
 
-思路一：
+# 思路一：
 
-```python
+# ```python
 class LFUCache:
 
     def __init__(self, capacity: int):
@@ -59,11 +59,11 @@ class LFUCache:
             self.key_to_freq[key] = 1
             self.freq[1][key] = value
             self.min_freq = 1
-```
+# ```
 
-思路二：
+# 思路二：
 
-```python
+# ```python
 # 定义节点
 class Node:
     def __init__(self, key, val):
@@ -141,5 +141,5 @@ class LFUCache:
             self.key_to_node[key] = node
             self.freq[1].append(node)
             self.min_freq = 1
-```
+# ```
 

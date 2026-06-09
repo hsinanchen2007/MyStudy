@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     import random
     def __init__(self, nums):
@@ -25,6 +25,6 @@ class Solution(object):
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(nums)
 # param_1 = obj.pick(target)
-```
+# ```
 
-每个索引的值都被存储了，那空间复杂度不是O(N)么？
+# 每个索引的值都被存储了，那空间复杂度不是O(N)么？

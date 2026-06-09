@@ -1,7 +1,7 @@
-搬运题解第二篇的思路，用python实现。
-另外感觉这题目理解有点争议。
+# 搬运题解第二篇的思路，用python实现。
+# 另外感觉这题目理解有点争议。
 
-```
+# ```
 class Solution:
     def balancedStringSplit(self, s: str) -> int:
         i = 0
@@ -16,5 +16,5 @@ class Solution:
                 r += 1
             i+=1
         return r
-```
+# ```
 

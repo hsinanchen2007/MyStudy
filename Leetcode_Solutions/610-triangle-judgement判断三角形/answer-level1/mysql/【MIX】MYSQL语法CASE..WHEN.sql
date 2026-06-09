@@ -1,9 +1,9 @@
-### 解题思路
-CASE WHEN语句
+-- ### 解题思路
+-- CASE WHEN语句
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 # case when 语法使用
 SELECT x, y, z,
@@ -13,4 +13,4 @@ CASE
 END
 AS 'triangle'
 FROM triangle;
-```
+-- ```

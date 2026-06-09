@@ -1,9 +1,9 @@
-### 解题思路
-找到'R'的位置，提取出R所在行和列非'.'的元素，然后进行遍历，需要额外空间
+# ### 解题思路
+# 找到'R'的位置，提取出R所在行和列非'.'的元素，然后进行遍历，需要额外空间
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numRookCaptures(self, board):
         r,c = 0,0
@@ -39,4 +39,4 @@ class Solution(object):
                     count += 1
         return count
 
-```
+# ```

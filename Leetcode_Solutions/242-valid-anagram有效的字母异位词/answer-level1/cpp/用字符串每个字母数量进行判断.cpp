@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -18,4 +18,4 @@ public:
         else return false;
     }
 };
-```题目规定仅有小写字母，所以可以直接通过判断s和t的字母数量是否相等。
+// ```题目规定仅有小写字母，所以可以直接通过判断s和t的字母数量是否相等。

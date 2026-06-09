@@ -1,9 +1,9 @@
-### 解题思路
-循环翻转
+# ### 解题思路
+# 循环翻转
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode dummy = new ListNode(-1);
@@ -50,8 +50,8 @@ class Solution {
         return n1;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
         if head == None or k<=1:
@@ -90,8 +90,8 @@ class Solution:
             prev = reverseKNodes(prev, k)
 
         return dummy.next
-```
-```c++ []
+# ```
+# ```c++ []
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -146,4 +146,4 @@ private:
         return N1;
     }
 };
-```
+# ```

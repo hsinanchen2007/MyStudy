@@ -1,17 +1,17 @@
-### 解题思路
-反转链表主要有两种思路：
-- 从前向后反转的迭代实现（当然也能原模原样地写成递归）
-- 从后向前开始逆转指针方向的递归方法
+// ### 解题思路
+// 反转链表主要有两种思路：
+// - 从前向后反转的迭代实现（当然也能原模原样地写成递归）
+// - 从后向前开始逆转指针方向的递归方法
 
-下面是迭代方法的实现，清晰易懂
-- 先临时保存`cur.Next`
-- 再将`cur.Next`指向`pre`
-- `pre`向前移动（`pre = cur`）
-- `cur`向前移动（`cur = tmp`）
+// 下面是迭代方法的实现，清晰易懂
+// - 先临时保存`cur.Next`
+// - 再将`cur.Next`指向`pre`
+// - `pre`向前移动（`pre = cur`）
+// - `cur`向前移动（`cur = tmp`）
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -37,4 +37,4 @@ func reverseList(head *ListNode) *ListNode {
     // 最后pre就是新的head
     return pre
 }
-```
+// ```

@@ -1,11 +1,11 @@
-当然还是使用搜索，主要是回溯的思想，在整个棋盘中每一行放寻找一个有效位置，保证放上皇后之后可以和前面已经放过的行能不冲突，不冲突的判断方法就是朝3个方向搜索一下，左上，右上和正上方。
+// 当然还是使用搜索，主要是回溯的思想，在整个棋盘中每一行放寻找一个有效位置，保证放上皇后之后可以和前面已经放过的行能不冲突，不冲突的判断方法就是朝3个方向搜索一下，左上，右上和正上方。
 
-如果有冲突，那就在该行换一个位置继续监测，如果该行没有合适位置，那就不要继续搜索下去，而是回到上一行换位置再搜索。
+// 如果有冲突，那就在该行换一个位置继续监测，如果该行没有合适位置，那就不要继续搜索下去，而是回到上一行换位置再搜索。
 
-这个题的C语言解法，需要注意返回三维数组的方法，特别容易出错。
-具体分析在[[N-queues题解]](http://www.iaccepted.net/algorithm/leetcode/217.html)
+// 这个题的C语言解法，需要注意返回三维数组的方法，特别容易出错。
+// 具体分析在[[N-queues题解]](http://www.iaccepted.net/algorithm/leetcode/217.html)
 
-```
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -110,5 +110,5 @@ char *** solveNQueens(int n, int* returnSize, int** returnColumnSizes){
     return res;
 }   
 
-```
+// ```
 

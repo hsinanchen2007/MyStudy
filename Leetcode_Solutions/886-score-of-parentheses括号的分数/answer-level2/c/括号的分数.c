@@ -1,6 +1,6 @@
-![截图.PNG](https://pic.leetcode-cn.com/8e887f9e10635d47aefd01b1845bf7a50cb8a93eac1dd71052607dd68957e0fe-%E6%88%AA%E5%9B%BE.PNG)
+// ![截图.PNG](https://pic.leetcode-cn.com/8e887f9e10635d47aefd01b1845bf7a50cb8a93eac1dd71052607dd68957e0fe-%E6%88%AA%E5%9B%BE.PNG)
 
-```
+// ```
 int CalScore(char *S, int len)
 {
     int i;
@@ -29,4 +29,4 @@ int scoreOfParentheses(char * S){
     int len = strlen(S);
     return CalScore(S, len);
 }
-```
+// ```

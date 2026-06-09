@@ -1,5 +1,5 @@
-### 迭代DP
-```C++
+// ### 迭代DP
+// ```C++
 #define INF 0x3f3f3f3f
 const int MAXN = 1e5 + 50;
 int dp[MAXN];
@@ -18,9 +18,9 @@ public:
             return dp[amount];
     }
 };
-```
-### 记忆化搜索
-```c++
+// ```
+// ### 记忆化搜索
+// ```c++
 #define INF 0x3f3f3f3f
 const int MAXN = 1e5 + 50;
 int dp[MAXN];
@@ -49,4 +49,4 @@ public:
         return dfs(amount);
     }
 };
-```
+// ```

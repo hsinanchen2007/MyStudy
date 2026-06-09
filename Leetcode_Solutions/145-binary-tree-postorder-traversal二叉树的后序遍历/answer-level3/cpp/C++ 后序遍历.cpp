@@ -1,5 +1,5 @@
 
-见代码，栈里添加了一个状态变量
+// 见代码，栈里添加了一个状态变量
 
 vector<int> postorderTraversal(TreeNode* root) {
         vector<int> res;

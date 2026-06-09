@@ -1,10 +1,10 @@
-### 解题思路
-对动态规划比较熟悉，采用标准的动态规划解题并进行优化。空间复杂度O(n)
-注意一下更新d[0] d[n]的时机，循环的顺序，其他都比较简单，
-供采用动态规划的参考。
-### 代码
+# ### 解题思路
+# 对动态规划比较熟悉，采用标准的动态规划解题并进行优化。空间复杂度O(n)
+# 注意一下更新d[0] d[n]的时机，循环的顺序，其他都比较简单，
+# 供采用动态规划的参考。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         if triangle == None:
@@ -24,4 +24,4 @@ class Solution:
                 dp[j] = min(dp[j-1], dp[j]) + triangle[i][j]
             dp[0] = dp[0] + triangle[i][0]  #第一个更新
         return min(dp)
-```
+# ```

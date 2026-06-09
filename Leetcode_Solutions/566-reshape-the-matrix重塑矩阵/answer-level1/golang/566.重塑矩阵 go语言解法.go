@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-用flag来控制每行元素个数，每次向tmp插入一个元素，flag+1，当flag=c时，表示一行的元素数量够了，把tmp添加到结果数组 
+// 用flag来控制每行元素个数，每次向tmp插入一个元素，flag+1，当flag=c时，表示一行的元素数量够了，把tmp添加到结果数组 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func matrixReshape(nums [][]int, r int, c int) [][]int {
 	if len(nums) * len(nums[0]) != r * c {
 		return nums
@@ -25,4 +25,4 @@ func matrixReshape(nums [][]int, r int, c int) [][]int {
 	}
 	return res
 }
-```
+// ```

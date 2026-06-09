@@ -1,7 +1,7 @@
-从所有的建筑物出发，去做BFS
-一个空点被所有的建筑物遍历到来就计算出改点到所有建筑物的距离，
-取其中最小值就是解
-```
+// 从所有的建筑物出发，去做BFS
+// 一个空点被所有的建筑物遍历到来就计算出改点到所有建筑物的距离，
+// 取其中最小值就是解
+// ```
 class Solution {
 public:
     struct Node {
@@ -60,6 +60,6 @@ public:
         return res == INT_MAX ? -1 : res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/be8cc8f89b950c146b4d23084621c41c674fbb9135c822b0914d6d3a8de20272-image.png)
+// ![image.png](https://pic.leetcode-cn.com/be8cc8f89b950c146b4d23084621c41c674fbb9135c822b0914d6d3a8de20272-image.png)

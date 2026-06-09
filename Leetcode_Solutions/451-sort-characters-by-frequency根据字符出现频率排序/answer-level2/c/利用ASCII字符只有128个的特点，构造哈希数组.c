@@ -1,9 +1,9 @@
-### 解题思路
-注释即思路
+// ### 解题思路
+// 注释即思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 char * frequencySort(char * s){
     
@@ -95,4 +95,4 @@ char * frequencySort(char * s){
 
 
 
-```
+// ```

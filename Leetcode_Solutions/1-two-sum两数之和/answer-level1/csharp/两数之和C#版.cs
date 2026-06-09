@@ -1,9 +1,9 @@
-### 解题思路
-两数之和，所给数组中，两层循环方式，暴力破解
+// ### 解题思路
+// 两数之和，所给数组中，两层循环方式，暴力破解
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         for(int i=0;i<nums.Length;i++){
@@ -16,4 +16,4 @@ public class Solution {
         throw new InvalidCastException("No two sum solution");
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/b1c338fa04316db52f6a9febfa6e138a7de4ba1ee42648332032a43dfcb9bf15-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b1c338fa04316db52f6a9febfa6e138a7de4ba1ee42648332032a43dfcb9bf15-image.png)
 
 
 
-```javascript []
+// ```javascript []
 var romanToInt = function(s) {
   const loma = {
     I: 1,
@@ -24,4 +24,4 @@ var romanToInt = function(s) {
   }
   return res;
 };
-```
+// ```

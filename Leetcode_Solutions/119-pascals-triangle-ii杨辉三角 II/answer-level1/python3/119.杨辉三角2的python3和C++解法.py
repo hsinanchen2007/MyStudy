@@ -1,7 +1,7 @@
-python3的两种解法
+# python3的两种解法
 
-法1：根据组合数公式n!/(i!*(n-i)!)计算
-```
+# 法1：根据组合数公式n!/(i!*(n-i)!)计算
+# ```
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         # 法1：根据组合数公式n!/(i!*(n-i)!)计算
@@ -15,9 +15,9 @@ class Solution:
         for i in range(rowIndex): # 根据组合数公式计算n!/(i!*(n-i)!)
             ans[i] = factorials[-1]//(factorials[i]*factorials[rowIndex-i])
         return ans
-```
-法2：根据组合数公式C(n,i)=n!/(i!*(n-i)!)直接由C(n,i)算C(n,i+1),后者是前者的(n-i)/(i+1)倍
-```
+# ```
+# 法2：根据组合数公式C(n,i)=n!/(i!*(n-i)!)直接由C(n,i)算C(n,i+1),后者是前者的(n-i)/(i+1)倍
+# ```
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         # 法2：根据组合数公式C(n,i)=n!/(i!*(n-i)!)直接由C(n,i)算C(n,i+1),后者是前者的(n-i)/(i+1)倍
@@ -27,9 +27,9 @@ class Solution:
         for i in range(rowIndex):
             ans[i+1] = ans[i]*(rowIndex-i)//(i+1)
         return ans
-```
-python3解法2的C++版
-```
+# ```
+# python3解法2的C++版
+# ```
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
@@ -42,4 +42,4 @@ public:
         return res;
     }
 };
-```
+# ```

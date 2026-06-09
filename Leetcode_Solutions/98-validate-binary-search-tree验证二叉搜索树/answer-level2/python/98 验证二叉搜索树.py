@@ -1,9 +1,9 @@
-### 解题思路
-利用中序遍历的方法、递归实现
+# ### 解题思路
+# 利用中序遍历的方法、递归实现
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -34,15 +34,15 @@ class Solution(object):
                 return False
         return True
 
-```
+# ```
 
 
-### 解题思路
-利用中序遍历的方法、迭代实现
+# ### 解题思路
+# 利用中序遍历的方法、迭代实现
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isValidBST(self, root):
         """
@@ -69,4 +69,4 @@ class Solution(object):
             if res[i] <= res[i-1]:
                 return False
         return True
-```
+# ```

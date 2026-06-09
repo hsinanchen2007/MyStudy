@@ -1,9 +1,9 @@
-### 解题思路
-主要思想：用2个队列模拟栈
+// ### 解题思路
+// 主要思想：用2个队列模拟栈
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // golang没有队列所以需要先定义队列的操作
 type Queue struct {
     Arr []int
@@ -127,4 +127,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

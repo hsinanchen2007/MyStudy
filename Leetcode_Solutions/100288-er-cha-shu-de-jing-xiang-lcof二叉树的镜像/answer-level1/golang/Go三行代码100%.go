@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -15,4 +15,4 @@ func mirrorTree(root *TreeNode) *TreeNode {
     }
     return &TreeNode{root.Val,mirrorTree(root.Right),mirrorTree(root.Left)}
 }
-```
+// ```

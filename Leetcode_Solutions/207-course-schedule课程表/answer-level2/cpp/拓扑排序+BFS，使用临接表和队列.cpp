@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
@@ -41,8 +41,8 @@ public:
         return numCourses == 0;
     }
 };
-```
+// ```
 
-* 执行用时 :36 ms, 在所有 C++ 提交中击败了61.48%的用户
-* 内存消耗 :14 MB, 在所有 C++ 提交中击败了15.60%的用户
-* 基本是参照其他题解写的，多了临接表的部分。
+// * 执行用时 :36 ms, 在所有 C++ 提交中击败了61.48%的用户
+// * 内存消耗 :14 MB, 在所有 C++ 提交中击败了15.60%的用户
+// * 基本是参照其他题解写的，多了临接表的部分。

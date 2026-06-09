@@ -1,4 +1,4 @@
-# 依次比较前n个元素数组是否满足即可
+# # 依次比较前n个元素数组是否满足即可
 class Solution:
     def minSubsequence(self, nums: list) -> list:
         if(len(nums)<2):

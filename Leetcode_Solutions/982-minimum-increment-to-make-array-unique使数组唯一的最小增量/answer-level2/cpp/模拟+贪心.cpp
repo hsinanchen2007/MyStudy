@@ -1,9 +1,9 @@
-### 解题思路
-参考官方题解
-### 代码
+// ### 解题思路
+// 参考官方题解
+// ### 代码
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -37,8 +37,8 @@ public:
         return result;
     }
 };
-```
-```cpp
+// ```
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -70,4 +70,4 @@ public:
         return result;
     }
 };
-```
+// ```

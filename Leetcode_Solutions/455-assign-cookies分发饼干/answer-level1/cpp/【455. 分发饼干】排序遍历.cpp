@@ -1,8 +1,8 @@
-### 思路一：暴力
+// ### 思路一：暴力
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findContentChildren(vector<int>& g, vector<int>& s) {
@@ -21,10 +21,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 另一种写法
-```c++
+// ### 另一种写法
+// ```c++
 class Solution {
 public:
     int findContentChildren(vector<int>& g, vector<int>& s) {
@@ -41,4 +41,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 def floating(heap,index):
     parent = int((index-1)/2)
     
@@ -58,10 +58,10 @@ def build(nums):
     for i in range(int(len(nums)/2-1),-1,-1):
         sinking(nums,i)
     return nums
-```
+# ```
 
-在本题中可以这样使用
-```
+# 在本题中可以这样使用
+# ```
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         heap = build(arr)
@@ -70,4 +70,4 @@ class Solution:
             res.append(delete(heap))
             print(heap)
         return res
-```
+# ```

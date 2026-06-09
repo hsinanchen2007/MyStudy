@@ -1,9 +1,9 @@
-### 解题思路
-树的题目一般都可以递归来做，递归的话首先要考虑base case, 其他的交给递归。这里的base case 显然是root跟节点，树的递归base case基本都是跟
-。考虑根节点，我们需要考虑z什么情况下删除节点，当左子树全是零可以删除，因此定义一个函数来确定一棵树是否全是0.右子树同上，代码如下。
-### 代码
+# ### 解题思路
+# 树的题目一般都可以递归来做，递归的话首先要考虑base case, 其他的交给递归。这里的base case 显然是root跟节点，树的递归base case基本都是跟
+# 。考虑根节点，我们需要考虑z什么情况下删除节点，当左子树全是零可以删除，因此定义一个函数来确定一棵树是否全是0.右子树同上，代码如下。
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
             root.right=self.pruneTree(root.right)
         return root
         
-```
+# ```

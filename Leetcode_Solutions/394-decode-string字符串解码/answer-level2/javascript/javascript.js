@@ -1,10 +1,10 @@
-[394.字符串解码。](https://leetcode-cn.com/problems/decode-string/solution/)    
+// [394.字符串解码。](https://leetcode-cn.com/problems/decode-string/solution/)    
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
 
-采用双栈分别记录出现过的数字和字符串，一次遍历即可得到结果。
+// 采用双栈分别记录出现过的数字和字符串，一次遍历即可得到结果。
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -46,4 +46,4 @@ var decodeString = function(s) {
     }
     return res;
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-循环haystack 暂存循环数temp 为了能直接返回下表
-while循环needle k1复制i为了在后面+1上不影响haystack的循环
-做符合neele的第一项 则双方继续匹配第二项 知道不符合 或k2循环完needle
-若不符合 重置needle循环 haystack 继续
+// ### 解题思路
+// 循环haystack 暂存循环数temp 为了能直接返回下表
+// while循环needle k1复制i为了在后面+1上不影响haystack的循环
+// 做符合neele的第一项 则双方继续匹配第二项 知道不符合 或k2循环完needle
+// 若不符合 重置needle循环 haystack 继续
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -29,4 +29,4 @@ var strStr = function(haystack, needle) {
     }
     return -1
 };
-```
+// ```

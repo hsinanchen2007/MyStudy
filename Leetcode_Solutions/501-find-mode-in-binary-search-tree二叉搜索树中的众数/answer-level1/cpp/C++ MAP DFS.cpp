@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     map<int, int>m;//哈希表
@@ -30,4 +30,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-如果有环，循环四次一定能构成换，只需判断第五次循环是否比第四次循环新增加了点。
-```
+// 如果有环，循环四次一定能构成换，只需判断第五次循环是否比第四次循环新增加了点。
+// ```
 class Solution {
 public:
     bool isRobotBounded(string instructions) {
@@ -45,4 +45,4 @@ public:
         return num1==num2;
     }
 };
-```
+// ```

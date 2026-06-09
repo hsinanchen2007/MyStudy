@@ -1,9 +1,9 @@
-### 解题思路
-大家应该都很熟悉的杨辉三角，就是以前都是直接二维数组，现在二维vector废了点劲
+// ### 解题思路
+// 大家应该都很熟悉的杨辉三角，就是以前都是直接二维数组，现在二维vector废了点劲
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -24,4 +24,4 @@ public:
         return shu;
     }
 };
-```
+// ```

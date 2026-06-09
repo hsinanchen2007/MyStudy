@@ -1,13 +1,13 @@
-### 解题思路
-1 
-    初始化 分配内存空间
-    遍历获取嵌套层数（平均总的嵌套层数的一半，平衡后，能够保证总的嵌套层数最小）
-    获取平均嵌套层数，然后进行分类赋值
-2 int a = 5/2; a = 2;
+// ### 解题思路
+// 1 
+//     初始化 分配内存空间
+//     遍历获取嵌套层数（平均总的嵌套层数的一半，平衡后，能够保证总的嵌套层数最小）
+//     获取平均嵌套层数，然后进行分类赋值
+// 2 int a = 5/2; a = 2;
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -50,4 +50,4 @@ int* maxDepthAfterSplit(char * seq, int* returnSize){
     free(depth);
     return nums;    
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canJump(self, nums):
         last = len(nums) - 1
@@ -11,4 +11,4 @@ class Solution(object):
             if last-i<=nums[i]:
                 last=i
         return last == 0
-```
+# ```

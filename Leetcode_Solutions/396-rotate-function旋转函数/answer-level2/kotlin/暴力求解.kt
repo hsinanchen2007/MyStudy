@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     fun maxRotateFunction(A: IntArray): Int {
         val F = A.clone()
@@ -16,18 +16,18 @@ class Solution {
         return sum
     }
 }
-```
+// ```
 
-执行结果：
-通过
-显示详情
-执行用时 :
-2476 ms
-, 在所有 Kotlin 提交中击败了
-100.00%
-的用户
-内存消耗 :
-39.2 MB
-, 在所有 Kotlin 提交中击败了
-100.00%
-的用户
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 2476 ms
+// , 在所有 Kotlin 提交中击败了
+// 100.00%
+// 的用户
+// 内存消耗 :
+// 39.2 MB
+// , 在所有 Kotlin 提交中击败了
+// 100.00%
+// 的用户

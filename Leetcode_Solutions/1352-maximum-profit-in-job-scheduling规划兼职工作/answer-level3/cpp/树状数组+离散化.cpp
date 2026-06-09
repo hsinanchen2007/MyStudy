@@ -1,9 +1,9 @@
-离散化时间，用树状数组统计[1,time]时间内的最大收益。
-对于一个[start,end]，更新树状数组的end，更新方法：update(end, max(1,start)+profit)
+// 离散化时间，用树状数组统计[1,time]时间内的最大收益。
+// 对于一个[start,end]，更新树状数组的end，更新方法：update(end, max(1,start)+profit)
 
-代码中的dp是多余的。
+// 代码中的dp是多余的。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     
@@ -87,4 +87,4 @@ public:
    */
 }
 
-```
+// ```

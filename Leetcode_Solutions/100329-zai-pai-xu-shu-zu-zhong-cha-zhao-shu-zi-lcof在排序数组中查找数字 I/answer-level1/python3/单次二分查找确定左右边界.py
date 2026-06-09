@@ -1,9 +1,9 @@
-### 解题思路
-单次二分查找确定左右边界
+# ### 解题思路
+# 单次二分查找确定左右边界
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         if not nums: return 0
@@ -27,7 +27,7 @@ class Solution:
                 right = mid
         return 0  
         
-```
-### 复杂度
-时间复杂度O(logn)
-空间复杂度O(1)
+# ```
+# ### 复杂度
+# 时间复杂度O(logn)
+# 空间复杂度O(1)

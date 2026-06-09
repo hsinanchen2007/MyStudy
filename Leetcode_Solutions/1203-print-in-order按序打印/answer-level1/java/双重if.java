@@ -1,9 +1,9 @@
-### 解题思路保证执行，不用while  空间换取时间
-此处撰写解题思路
+// ### 解题思路保证执行，不用while  空间换取时间
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Foo {
     private  int flag=1;
     public Foo() {
@@ -37,4 +37,4 @@ class Foo {
         printThird.run();
     }}
 }
-```
+// ```

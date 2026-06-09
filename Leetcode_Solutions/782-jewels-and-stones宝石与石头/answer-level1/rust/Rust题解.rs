@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 use std::collections::HashMap;
 
 impl Solution {
@@ -15,5 +15,5 @@ impl Solution {
         jewels.values().sum()
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

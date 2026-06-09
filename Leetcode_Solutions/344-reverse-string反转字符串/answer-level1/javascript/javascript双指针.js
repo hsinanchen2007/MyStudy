@@ -1,5 +1,5 @@
-最好时间164ms
-```
+// 最好时间164ms
+// ```
 var reverseString = function(s) {
     let i = 0,
         x = s.length -1;
@@ -10,4 +10,4 @@ var reverseString = function(s) {
     }
     return s
 };
-```
+// ```

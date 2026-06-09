@@ -1,9 +1,9 @@
-### 解题思路
-三个节点
+// ### 解题思路
+// 三个节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ public:
         return head;
     }
 };
-```
+// ```

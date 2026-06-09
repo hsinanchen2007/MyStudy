@@ -1,7 +1,7 @@
-思路借鉴题解中一大神的，具体解释请看：[大神题解](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/solution/yi-ge-bu-suan-you-mei-de-acjie-by-horizonlc-coding/)
-关于sort和map混合的高级使用：
-![image.png](https://pic.leetcode-cn.com/1529a9b644aaf075173b0c7a5dc603e66a885fb434e69bc1e8b6f884f4580942-image.png)
-```
+// 思路借鉴题解中一大神的，具体解释请看：[大神题解](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/solution/yi-ge-bu-suan-you-mei-de-acjie-by-horizonlc-coding/)
+// 关于sort和map混合的高级使用：
+// ![image.png](https://pic.leetcode-cn.com/1529a9b644aaf075173b0c7a5dc603e66a885fb434e69bc1e8b6f884f4580942-image.png)
+// ```
 var minNumber = function(nums) {
     // 先获取最大数值的位数
     const max = Math.max(...nums).toString().length;
@@ -39,10 +39,10 @@ var minNumber = function(nums) {
     }).join('');
     return res;
 };
-```
-又在题解里看到了一种贼简单的解法，不得不说，数组的方法学透之后，能用的太多了
-具体解释看大神：[炒鸡简单](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/solution/cao-ji-jian-dan-yi-dong-by-delicate-solo/)
-```
+// ```
+// 又在题解里看到了一种贼简单的解法，不得不说，数组的方法学透之后，能用的太多了
+// 具体解释看大神：[炒鸡简单](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/solution/cao-ji-jian-dan-yi-dong-by-delicate-solo/)
+// ```
 var minNumber = function(nums) {
     nums.sort((a, b) => {
         a = a.toString();
@@ -55,4 +55,4 @@ var minNumber = function(nums) {
     })
     return nums.join('');
 };
-```
+// ```

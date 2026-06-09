@@ -1,4 +1,4 @@
-```
+// ```
 public ListNode oddEvenList(ListNode head) {
         if(head==null||head.next==null)
             return head;
@@ -20,4 +20,4 @@ public ListNode oddEvenList(ListNode head) {
         head.next=shead;
         return fhead;
     }
-```
+// ```

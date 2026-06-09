@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-![2020-01-07_190941.png](https://pic.leetcode-cn.com/35b8b91f46a95c83bb48d0954584b63290c291c740e0d2ccd4dcea4a07392bf9-2020-01-07_190941.png)
-int t = 0;
-当前位的数值：t+=l1->val+l2->val;--->t%10
-进位：t=t/10;
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ![2020-01-07_190941.png](https://pic.leetcode-cn.com/35b8b91f46a95c83bb48d0954584b63290c291c740e0d2ccd4dcea4a07392bf9-2020-01-07_190941.png)
+// int t = 0;
+// 当前位的数值：t+=l1->val+l2->val;--->t%10
+// 进位：t=t/10;
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -77,4 +77,4 @@ public:
         return h->next;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -44,4 +44,4 @@ func mergeKLists(lists []*ListNode) *ListNode {
     result.Next = mergeKLists(lists)
     return result
 }
-```
+// ```

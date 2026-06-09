@@ -1,4 +1,4 @@
-```python
+# ```python
 def numMagicSquaresInside(grid):
     def help(grid, i, j):
         # 确定数字为1~9
@@ -31,4 +31,4 @@ def numMagicSquaresInside(grid):
 
 grid = [[4,3,8,4],[9,5,1,9],[2,7,6,2]]
 print(numMagicSquaresInside(grid))
-```
+# ```

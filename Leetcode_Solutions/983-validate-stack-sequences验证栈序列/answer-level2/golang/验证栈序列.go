@@ -1,9 +1,9 @@
-### 解题思路
-模拟
+// ### 解题思路
+// 模拟
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func validateStackSequences(pushed []int, popped []int) bool {
 	stack := make([]int, 0)
 	i := 0
@@ -26,4 +26,4 @@ func validateStackSequences(pushed []int, popped []int) bool {
 	}
 	return len(stack) == 0
 }
-```
+// ```

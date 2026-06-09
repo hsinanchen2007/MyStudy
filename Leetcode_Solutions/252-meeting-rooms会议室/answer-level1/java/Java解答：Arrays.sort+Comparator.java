@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution implements Comparator<int[]>{
     public boolean canAttendMeetings(int[][] intervals){
         Arrays.sort(intervals,this);//通过指定比较器产生的顺序对指定对象数组intervals进行排序。
@@ -13,4 +13,4 @@ public class Solution implements Comparator<int[]>{
         return t1[0]-t2[0];
     }
 }
-```
+// ```

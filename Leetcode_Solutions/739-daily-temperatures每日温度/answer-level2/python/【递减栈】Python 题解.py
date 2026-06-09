@@ -1,12 +1,12 @@
-维护递减栈，后入栈的元素总比栈顶元素小。
+# 维护递减栈，后入栈的元素总比栈顶元素小。
 
-- 比对当前元素与栈顶元素的大小
-    - 若当前元素 < 栈顶元素：入栈
-    - 若当前元素 > 栈顶元素：弹出栈顶元素，记录两者下标差值即为所求天数
+# - 比对当前元素与栈顶元素的大小
+#     - 若当前元素 < 栈顶元素：入栈
+#     - 若当前元素 > 栈顶元素：弹出栈顶元素，记录两者下标差值即为所求天数
 
-这里用栈记录的是 T 的下标。
+# 这里用栈记录的是 T 的下标。
 
-```python
+# ```python
 class Solution(object):
     def dailyTemperatures(self, T):
         """
@@ -24,6 +24,6 @@ class Solution(object):
                     stack.pop()
             stack.append(key)
         return res_list
-```
+# ```
 
-嘤嘤嘤，刷题本求小星星：[Github 刷题本](https://github.com/JalanJiang/leetcode-notebook)
+# 嘤嘤嘤，刷题本求小星星：[Github 刷题本](https://github.com/JalanJiang/leetcode-notebook)

@@ -1,8 +1,8 @@
-1. 遍历数组找到最高点，若最高点为第一个或者最后一个，则return false
-2. 从最高点往后判断是否满足A[i]>A[i+1}]，不满足返回false
+// 1. 遍历数组找到最高点，若最高点为第一个或者最后一个，则return false
+// 2. 从最高点往后判断是否满足A[i]>A[i+1}]，不满足返回false
 
 
-``` C++
+// ``` C++
 class Solution {
 public:
     bool validMountainArray(vector<int>& A) {
@@ -28,4 +28,4 @@ public:
         return true;
     }
 };
-```
+// ```

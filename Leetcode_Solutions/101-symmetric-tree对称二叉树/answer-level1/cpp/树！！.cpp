@@ -1,9 +1,9 @@
-### 解题思路
-树 的题就是很有框架感，先根后左右，逐一判断，递归
+// ### 解题思路
+// 树 的题就是很有框架感，先根后左右，逐一判断，递归
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ public:
         else return false;
     }
 };
-```
+// ```

@@ -1,16 +1,16 @@
-## 思路:
+# ## 思路:
 
-最小生成树
+# 最小生成树
 
-思路一：`kruskal`算法
+# 思路一：`kruskal`算法
 
-思路二：`prim`算法
+# 思路二：`prim`算法
 
-## 代码:
+# ## 代码:
 
-思路一：
+# 思路一：
 
-```python
+# ```python
 class Solution:
     def minimumCost(self, N: int, connections: List[List[int]]) -> int:
         import heapq
@@ -38,11 +38,11 @@ class Solution:
                 if count == N -1:
                     return res
         return  -1
-```
+# ```
 
-思路二：
+# 思路二：
 
-```python
+# ```python
 class Solution:
     def minimumCost(self, N: int, connections: List[List[int]]) -> int:
         from collections import defaultdict
@@ -63,5 +63,5 @@ class Solution:
             for nxt, c in graph[y].items():
                 heapq.heappush(heap, [c, nxt])
         return -1
-```
+# ```
 

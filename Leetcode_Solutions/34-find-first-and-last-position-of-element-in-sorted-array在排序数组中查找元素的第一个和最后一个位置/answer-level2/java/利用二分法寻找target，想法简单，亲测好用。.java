@@ -1,12 +1,12 @@
-### 解题思路
-思路很简单：（1）使用二分法找到target元素。如果没有就返回[-1,-1].
-           （2）如果找到了target的一个位置,就从这个位置开始，向两边判断是否等于target.直到找到不等的位置，
-               将这两个位置记录下来返回就行了。
-![image.png](https://pic.leetcode-cn.com/d9157399c65fdb951bbd8bade8f9ad4361e8d7a3130eba222cebf575c405fe9a-image.png)
+// ### 解题思路
+// 思路很简单：（1）使用二分法找到target元素。如果没有就返回[-1,-1].
+//            （2）如果找到了target的一个位置,就从这个位置开始，向两边判断是否等于target.直到找到不等的位置，
+//                将这两个位置记录下来返回就行了。
+// ![image.png](https://pic.leetcode-cn.com/d9157399c65fdb951bbd8bade8f9ad4361e8d7a3130eba222cebf575c405fe9a-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int left=0;
@@ -55,4 +55,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

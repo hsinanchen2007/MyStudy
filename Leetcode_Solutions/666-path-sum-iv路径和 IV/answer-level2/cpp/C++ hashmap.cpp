@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 int pathSum(vector<int>& nums) {
   int res = 0;
   unordered_map<int, int> M;
@@ -10,4 +10,4 @@ int pathSum(vector<int>& nums) {
   }
   return res;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-先打卡，慢慢消化
+// 先打卡，慢慢消化
 
-```php
+// ```php
 class Solution
 {
 
@@ -51,4 +51,4 @@ class Solution
         return array_merge(self::quickSort($left), [$mid], self::quickSort($right));
     }
 }
-```
+// ```

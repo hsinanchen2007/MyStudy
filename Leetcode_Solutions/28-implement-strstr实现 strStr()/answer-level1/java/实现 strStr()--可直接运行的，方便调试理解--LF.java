@@ -1,4 +1,4 @@
-```
+// ```
 package ZJM_28_实现strStr函数;
 
 public class Main {
@@ -56,4 +56,4 @@ class Solution {
  * 注意，如果haystack剩下未匹配的长度小于needle的长度，就不用继续匹配了，因为不可能会有匹配的了，也防止数组下标越界
  */
 
-```
+// ```

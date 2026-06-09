@@ -1,9 +1,9 @@
-### 解题思路
-考虑到当needle特别长的情况，当haystack运行到倒数needle.size()-1个字符，还没和needle对应上，可以直接返回-1.
+// ### 解题思路
+// 考虑到当needle特别长的情况，当haystack运行到倒数needle.size()-1个字符，还没和needle对应上，可以直接返回-1.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -24,4 +24,4 @@ public:
 		return -1;
     }
 };
-```
+// ```

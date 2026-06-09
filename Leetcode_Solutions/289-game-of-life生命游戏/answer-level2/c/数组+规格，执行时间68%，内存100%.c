@@ -1,9 +1,9 @@
-### 解题思路
-1.定义8个方向的运动向量，遍历查找每个位置，计算1出现的次数，通过规则进行判断，保存在临时变量中，然后重新赋值给原数组。
+// ### 解题思路
+// 1.定义8个方向的运动向量，遍历查找每个位置，计算1出现的次数，通过规则进行判断，保存在临时变量中，然后重新赋值给原数组。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void gameOfLife(int** board, int boardSize, int* boardColSize){
     int xShift[] = {-1, 0, 1, -1, 1, -1, 0, 1};
     int yshift[] = {-1, -1, -1, 0, 0 ,1, 1, 1};
@@ -47,4 +47,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
 
     free(tmp);
 }
-```
+// ```

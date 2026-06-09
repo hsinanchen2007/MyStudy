@@ -1,5 +1,5 @@
-1.深度优先搜索
- ```
+// 1.深度优先搜索
+//  ```
 //dfs
 func levelOrder(root *TreeNode) [][]int {
     if root == nil {
@@ -28,9 +28,9 @@ func dfs(root *TreeNode, level int, res *[][]int) {
     dfs(root.Left, level+1, res)
     dfs(root.Right, level+1, res)
 }
-```
-2.广度优先搜索
-```
+// ```
+// 2.广度优先搜索
+// ```
 func levelOrder(root *TreeNode) [][]int {
     if root == nil {
         return [][]int{}
@@ -57,5 +57,5 @@ func levelOrder(root *TreeNode) [][]int {
 
     return res    
 }
-```
+// ```
 

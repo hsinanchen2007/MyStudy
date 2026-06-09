@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def sumNumbers(root: TreeNode): Int = {
     dfs(root, 0)
@@ -11,4 +11,4 @@ object Solution {
     dfs(root.left, t) + dfs(root.right, t)
   }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-具体看代码
+// 具体看代码
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -30,10 +30,10 @@ var findContinuousSequence = function(target) {
   }
   return ans
 };
-```
-### typescript 解法
+// ```
+// ### typescript 解法
 
-```typescript
+// ```typescript
 const findContinuousSequence = function(target: number): number[][] {
   if (target < 3) return []
   let [start, end] = [1, 2]
@@ -56,4 +56,4 @@ const findContinuousSequence = function(target: number): number[][] {
   return ans
 }
 
-```
+// ```

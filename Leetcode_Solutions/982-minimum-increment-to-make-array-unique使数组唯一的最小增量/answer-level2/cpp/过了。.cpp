@@ -1,6 +1,6 @@
 
-自己直接的思路。  排序nlogn ,  运算O(n + n) 吧 rear的大小为最大值最小值的差那么长。 接着就是遍历A
-```
+// 自己直接的思路。  排序nlogn ,  运算O(n + n) 吧 rear的大小为最大值最小值的差那么长。 接着就是遍历A
+// ```
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -44,4 +44,4 @@ public:
         return ans;
     }
 };
-```
+// ```

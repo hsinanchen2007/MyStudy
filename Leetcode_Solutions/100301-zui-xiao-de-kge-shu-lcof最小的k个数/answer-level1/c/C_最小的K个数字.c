@@ -1,8 +1,8 @@
-### 解题思路
-冒泡排序的每一趟都能选出一个最大或者最小的数，循环k趟即可 O(K*N)
-### 代码
+// ### 解题思路
+// 冒泡排序的每一趟都能选出一个最大或者最小的数，循环k趟即可 O(K*N)
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -24,4 +24,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
 
     return result;
 }
-```
+// ```

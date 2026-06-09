@@ -1,9 +1,9 @@
-### 解题思路
-C语言实现，N叉树的实现，方法简单，较为通用
+// ### 解题思路
+// C语言实现，N叉树的实现，方法简单，较为通用
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -90,4 +90,4 @@ void trieFree(Trie *obj)
 	}
 	free(obj);
 }
-```
+// ```

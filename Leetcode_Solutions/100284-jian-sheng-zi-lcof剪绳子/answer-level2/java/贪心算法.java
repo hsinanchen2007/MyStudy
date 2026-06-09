@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int cuttingRope(int n) {
         if(n <= 3) return n-1;
@@ -16,4 +16,4 @@ class Solution {
         return res * n;
     }
 }
-```
+// ```

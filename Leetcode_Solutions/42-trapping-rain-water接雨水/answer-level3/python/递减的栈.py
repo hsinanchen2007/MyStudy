@@ -1,10 +1,10 @@
-### 解题思路
-维护一个递减的栈。
-从左往右数，比栈顶小的元素直接入栈。如果元素A比栈顶大，栈顶pop，直到小于栈顶元素为止，计算此时A和栈顶之间的柱子能盛多少水，并将它们之间的柱子填平。最后，别忘了把A入栈。
+# ### 解题思路
+# 维护一个递减的栈。
+# 从左往右数，比栈顶小的元素直接入栈。如果元素A比栈顶大，栈顶pop，直到小于栈顶元素为止，计算此时A和栈顶之间的柱子能盛多少水，并将它们之间的柱子填平。最后，别忘了把A入栈。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         if len(height)<=2:return 0
@@ -27,4 +27,4 @@ class Solution:
             #print(i,'height',height[i],stack,res)
             i+=1
         return res
-```
+# ```

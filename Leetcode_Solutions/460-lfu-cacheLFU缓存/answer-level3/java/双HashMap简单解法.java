@@ -1,10 +1,10 @@
-### 解题思路
-利用两个HashMap，一个记录(Key,Value)。另一个用LinkedHasMap记录(Key,Frequency)，实现LRU（最近最少使用）解决平局问题(即两个或更多个键具有相同使用频率)。
-1.get操作：如果Map中含有该元素，则返回value值，并需要更新LinkedHasMap，来保证LRU顺序。否则返回-1.
-2.put操作：如果Map中含有该元素，则更新两个Map(注意LinkedHasMap，保证LRU顺序)。否则先判断Map是否已满，若已满则遍历LinkedHashMap寻找最小frequency的key将其删除(LinkdedHashMap维护LRU顺序，解决了平局问题)，将新值加入Map中。
-### 代码
+// ### 解题思路
+// 利用两个HashMap，一个记录(Key,Value)。另一个用LinkedHasMap记录(Key,Frequency)，实现LRU（最近最少使用）解决平局问题(即两个或更多个键具有相同使用频率)。
+// 1.get操作：如果Map中含有该元素，则返回value值，并需要更新LinkedHasMap，来保证LRU顺序。否则返回-1.
+// 2.put操作：如果Map中含有该元素，则更新两个Map(注意LinkedHasMap，保证LRU顺序)。否则先判断Map是否已满，若已满则遍历LinkedHashMap寻找最小frequency的key将其删除(LinkdedHashMap维护LRU顺序，解决了平局问题)，将新值加入Map中。
+// ### 代码
 
-```java
+// ```java
 class LFUCache {
     private static int capacity;
     Map<Integer,Integer> lfu1;//记录Key Value
@@ -62,4 +62,4 @@ class LFUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

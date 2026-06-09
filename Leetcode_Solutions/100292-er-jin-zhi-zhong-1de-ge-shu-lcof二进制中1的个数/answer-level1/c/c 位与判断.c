@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -32,4 +32,4 @@ int hammingWeight( uint32_t n ) {
     return count;
 
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-- 排序后遍历列表
-- if cur<pre,cur = pre + 1; move = move + 增量；
-- 增量的计算：更新后的值-更新前的值，更新之前计算（pre+1 - cur），避免cur更新以后丢失cur的旧值。 
-### 代码
+# ### 解题思路
+# - 排序后遍历列表
+# - if cur<pre,cur = pre + 1; move = move + 增量；
+# - 增量的计算：更新后的值-更新前的值，更新之前计算（pre+1 - cur），避免cur更新以后丢失cur的旧值。 
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         A.sort()
@@ -19,4 +19,4 @@ class Solution:
         return res
             
             
-```
+# ```

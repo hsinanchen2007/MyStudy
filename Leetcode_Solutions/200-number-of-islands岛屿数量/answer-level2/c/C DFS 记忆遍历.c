@@ -1,4 +1,4 @@
-```
+// ```
 void wallk(int row, int col, char **grid, int rowMax, int colMax)
 {
 	int offset[5] = { -1, 0, 1, 0, -1 };
@@ -46,4 +46,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize) {
 	return islandCount;
 }
 
-```
+// ```

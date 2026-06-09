@@ -1,8 +1,8 @@
-解法为遍历寻找回文字符串最中间的两个（如：bb）或三个（如：bab）字母，然后逐步向两边展开，最后由left和right划定回文字符串，left和right初始圈定第一个字母。
+# 解法为遍历寻找回文字符串最中间的两个（如：bb）或三个（如：bab）字母，然后逐步向两边展开，最后由left和right划定回文字符串，left和right初始圈定第一个字母。
 
-由于涉及到index，index+1，index+2的比较，所以要注意字符串长度为1,2或者3的情况和index越界的情况。
-Python3代码：
-```
+# 由于涉及到index，index+1，index+2的比较，所以要注意字符串长度为1,2或者3的情况和index越界的情况。
+# Python3代码：
+# ```
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         left=0
@@ -43,4 +43,4 @@ class Solution:
             index+=1
 
         return s[left:right]
-```
+# ```

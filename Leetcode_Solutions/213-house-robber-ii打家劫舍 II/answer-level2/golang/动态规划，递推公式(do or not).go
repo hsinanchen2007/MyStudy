@@ -1,7 +1,7 @@
-首尾不能同时存在，这个思维啊
-![image.png](https://pic.leetcode-cn.com/f96972a5529576546af6fb3fdd69d46fdf683a2d728e5d681e66c0a760ad82e3-image.png)
+// 首尾不能同时存在，这个思维啊
+// ![image.png](https://pic.leetcode-cn.com/f96972a5529576546af6fb3fdd69d46fdf683a2d728e5d681e66c0a760ad82e3-image.png)
 
-```
+// ```
 // 首尾成环，第一个和最后一个不能同时抢
 func rob(nums []int) int {
 	if len(nums) == 0 {
@@ -35,4 +35,4 @@ func getMax(a, b int) int {
 	return b
 }
 
-```
+// ```

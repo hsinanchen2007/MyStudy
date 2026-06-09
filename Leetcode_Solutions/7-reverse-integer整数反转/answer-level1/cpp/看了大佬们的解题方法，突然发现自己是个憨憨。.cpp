@@ -1,10 +1,10 @@
-### 解题思路
-![Snipaste_2020-03-22_23-31-59.png](https://pic.leetcode-cn.com/163e411f0e76656b09577117bb19cae681bf3459eed4ac2a2c9626a23c0f68c9-Snipaste_2020-03-22_23-31-59.png)
+// ### 解题思路
+// ![Snipaste_2020-03-22_23-31-59.png](https://pic.leetcode-cn.com/163e411f0e76656b09577117bb19cae681bf3459eed4ac2a2c9626a23c0f68c9-Snipaste_2020-03-22_23-31-59.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int reverse(long long x){ 
@@ -93,4 +93,4 @@ public:
         }
     } 
 };
-```
+// ```

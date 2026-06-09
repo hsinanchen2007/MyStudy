@@ -1,6 +1,6 @@
-标准树状数组板子，需要注意的是，因为是区间修改，单点查询，所以`update`两次，`query`一次。
+// 标准树状数组板子，需要注意的是，因为是区间修改，单点查询，所以`update`两次，`query`一次。
 
-```cpp
+// ```cpp
 const int hi = 102;
 
 int lowbit(int x) {
@@ -39,4 +39,4 @@ public:
         return ans;
     }
 };
-```
+// ```

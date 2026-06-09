@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/2202a0d2c9cd4bf61bd22c8199659cb65a258ce9a5c3ac590e76a5ee1b61c5e5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2202a0d2c9cd4bf61bd22c8199659cb65a258ce9a5c3ac590e76a5ee1b61c5e5-image.png)
 
-### 解题思路
-双指针，遍历一趟，见下图。
-![image.png](https://pic.leetcode-cn.com/6a18fd8627f7c723a60cff766b80bcb7e50e66667758c07837000202b3fd5305-image.png)
+// ### 解题思路
+// 双指针，遍历一趟，见下图。
+// ![image.png](https://pic.leetcode-cn.com/6a18fd8627f7c723a60cff766b80bcb7e50e66667758c07837000202b3fd5305-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
         return head;
     }
 };
-```
+// ```

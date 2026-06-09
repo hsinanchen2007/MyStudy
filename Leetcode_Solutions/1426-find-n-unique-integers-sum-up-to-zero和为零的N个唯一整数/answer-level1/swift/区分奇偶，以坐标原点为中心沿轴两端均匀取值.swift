@@ -1,9 +1,9 @@
-### 解题思路
-区分奇偶，以坐标原点为中心沿轴两端均匀取值
+// ### 解题思路
+// 区分奇偶，以坐标原点为中心沿轴两端均匀取值
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func sumZero(_ n: Int) -> [Int] {
         
@@ -28,4 +28,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

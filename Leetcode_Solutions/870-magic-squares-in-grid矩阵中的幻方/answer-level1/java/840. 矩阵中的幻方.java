@@ -1,15 +1,15 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/12
- * 
- * 解题思路: 暴力循环 进行3*3 矩阵验证 
- * 
- * 注意：矩阵9个数字不同验证可以用hash进行 使用累加和为45也可以 但前提是必须过滤掉0和大于9的数字
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/12
+//  * 
+//  * 解题思路: 暴力循环 进行3*3 矩阵验证 
+//  * 
+//  * 注意：矩阵9个数字不同验证可以用hash进行 使用累加和为45也可以 但前提是必须过滤掉0和大于9的数字
+//  * 
+//  */
+// ```
 public int numMagicSquaresInside(int[][] grid) {
     int res = 0;
     for(int i = 0;i < grid.length - 2;i++){
@@ -73,4 +73,4 @@ public int numMagicSquaresInside(int[][] grid) {
     }
     return res;
 }
-```
+// ```

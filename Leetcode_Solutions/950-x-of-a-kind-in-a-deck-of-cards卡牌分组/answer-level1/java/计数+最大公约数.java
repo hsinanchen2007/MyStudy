@@ -1,9 +1,9 @@
-### 解题思路
-计数，求最大公约数，最后return 最大公约数大于1
+// ### 解题思路
+// 计数，求最大公约数，最后return 最大公约数大于1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         if(deck.length < 1)return false;
@@ -41,4 +41,4 @@ class Solution {
 		return gcd(b, t);
 	}
 }
-```
+// ```

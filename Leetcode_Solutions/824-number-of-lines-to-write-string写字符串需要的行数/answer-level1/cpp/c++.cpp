@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     vector<int> numberOfLines(vector<int>& widths, string S) {
@@ -21,4 +21,4 @@ public:
         return ans;
     }
 };
-```
+// ```

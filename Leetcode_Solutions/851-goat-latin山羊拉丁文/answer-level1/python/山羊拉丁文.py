@@ -1,9 +1,9 @@
-### 解题思路
-正常做法
+# ### 解题思路
+# 正常做法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def toGoatLatin(self, S: str) -> str:
         temp = S.split(' ')
@@ -19,4 +19,4 @@ class Solution:
             temp[i] += (i + 1) * 'a'
             ret += temp[i]
         return ret
-```
+# ```

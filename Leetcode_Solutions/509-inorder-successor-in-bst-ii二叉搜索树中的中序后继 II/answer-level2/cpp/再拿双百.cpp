@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -33,4 +33,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

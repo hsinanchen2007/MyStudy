@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         left = 0
@@ -24,4 +24,4 @@ class Solution:
                     left = mid + 1
 
         return -1            
-```
+# ```

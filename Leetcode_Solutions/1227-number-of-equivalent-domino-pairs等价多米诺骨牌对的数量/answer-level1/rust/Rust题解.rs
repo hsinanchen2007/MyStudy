@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn num_equiv_domino_pairs(dominoes: Vec<Vec<i32>>) -> i32 {
         let mut cnt = [0; 100];
@@ -12,5 +12,5 @@ impl Solution {
         ret
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

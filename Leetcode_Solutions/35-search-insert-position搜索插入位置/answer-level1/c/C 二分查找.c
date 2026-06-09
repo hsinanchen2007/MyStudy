@@ -1,9 +1,9 @@
-### 解题思路
-	二分查找入门题，注意最后处理下边界
+// ### 解题思路
+// 	二分查找入门题，注意最后处理下边界
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 
 int binarySearch(int *nums, int low, int high, int target) {
@@ -25,4 +25,4 @@ int searchInsert(int* nums, int numsSize, int target) {
 	int insertPos = binarySearch(nums, low, high, target);
 	return nums[insertPos] >= target? insertPos : insertPos + 1;
 }
-```
+// ```

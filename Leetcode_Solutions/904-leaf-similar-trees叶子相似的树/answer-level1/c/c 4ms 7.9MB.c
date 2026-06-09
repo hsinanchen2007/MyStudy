@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -102,4 +102,4 @@ bool leafSimilar( struct TreeNode * root1 , struct TreeNode * root2 ){
     return true;
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  //两个数交换
         void swap(int[] a,int i,int j){
@@ -34,4 +34,4 @@ class Solution {
        
     }
 }
-```
+// ```

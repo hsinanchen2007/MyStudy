@@ -1,4 +1,4 @@
-```
+// ```
 public static int compareVersion(String version1, String version2) {
         String[] v1 = version1.split("\\.");//得到两个版本号分别对应的字符串数组v1和v2
         String[] v2 = version2.split("\\.");
@@ -14,4 +14,4 @@ public static int compareVersion(String version1, String version2) {
         }
         return 0;//如果循环结束都没有返回结果，说明版本是一样的，返回0
     }
-```
+// ```

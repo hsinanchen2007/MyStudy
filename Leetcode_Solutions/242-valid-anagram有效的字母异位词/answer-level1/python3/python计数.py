@@ -1,11 +1,11 @@
-### 解题思路
-首先判断字符串s与t长度是否相同，若不相同直接返回False。
-若相同，使用字典记录字母数，用两个字典分别记录s与t中出现的字符及次数
-最终，判定两字典是否相同，相同返回True，不同返回False。
+# ### 解题思路
+# 首先判断字符串s与t长度是否相同，若不相同直接返回False。
+# 若相同，使用字典记录字母数，用两个字典分别记录s与t中出现的字符及次数
+# 最终，判定两字典是否相同，相同返回True，不同返回False。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
@@ -26,4 +26,4 @@ class Solution:
         else:
             return False 
 
-```
+# ```

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/7bdbb474390390415d93cbb9b9a7a2da3f344e04f8d7b341de88bc4dc5a18a17-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7bdbb474390390415d93cbb9b9a7a2da3f344e04f8d7b341de88bc4dc5a18a17-image.png)
 
-快是偶然，慢的时候也测出60-76ms
+# 快是偶然，慢的时候也测出60-76ms
 
-```
+# ```
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:
         s1,s2=[int(i) for i in version1.split('.')],[int(i) for i in version2.split('.')]#分割
@@ -24,4 +24,4 @@ class Solution:
             return 0
         else:#如果不重叠肯定是短的小，反之亦然
             return -1 if n1<n2 else 1
-```
+# ```

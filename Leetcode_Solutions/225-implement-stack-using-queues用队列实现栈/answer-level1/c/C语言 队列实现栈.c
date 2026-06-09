@@ -1,5 +1,5 @@
-感觉就是写了个栈，跟队列没啥关系
-```
+// 感觉就是写了个栈，跟队列没啥关系
+// ```
 #define MAXSIZE 1000
 
 typedef struct {
@@ -54,4 +54,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

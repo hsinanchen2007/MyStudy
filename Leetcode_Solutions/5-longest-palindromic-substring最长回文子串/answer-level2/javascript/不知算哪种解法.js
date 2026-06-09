@@ -1,5 +1,5 @@
-由题意发现回文字符串有两种格式，为``aba``和``baab``，分别针对两种格式设计方法。姑且算暴力破解吧。。
-```
+// 由题意发现回文字符串有两种格式，为``aba``和``baab``，分别针对两种格式设计方法。姑且算暴力破解吧。。
+// ```
 // time: 192ms(54.93%) memory: 37.4MB(46.79%)
 var longestPalindrome = function(s) {
     if (s.length <= 1) return s;
@@ -52,4 +52,4 @@ var longestPalindrome = function(s) {
     if (!_res.length) _res = s[0];
     return res.length > _res.length ? res : _res;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 function compareVersion($version1, $version2) {
     $v1 = explode(".",$version1); // 以“.”分割，转成数组。
     $v2 = explode(".",$version2); 
@@ -21,4 +21,4 @@ function compareVersion($version1, $version2) {
     }
     return 0;
 }
-```
+// ```

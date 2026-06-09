@@ -1,5 +1,5 @@
-为什么加35000的判断条件就通过了呢？？？
-```
+// 为什么加35000的判断条件就通过了呢？？？
+// ```
 bool containsNearbyDuplicate(int* nums, int numsSize, int k){
     if(numsSize<2 || k<1||numsSize>=35000){
         return false;
@@ -13,4 +13,4 @@ bool containsNearbyDuplicate(int* nums, int numsSize, int k){
     }
     return false;
 }
-```
+// ```

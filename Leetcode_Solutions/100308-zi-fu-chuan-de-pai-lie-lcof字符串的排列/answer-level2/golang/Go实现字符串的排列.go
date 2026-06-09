@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func permutation(s string) []string {
     if len(s) == 0{
         return []string{}
@@ -32,4 +32,4 @@ func process(str []string,path string,res *[]string)[]string{
     }
     return *res
 }
-```
+// ```

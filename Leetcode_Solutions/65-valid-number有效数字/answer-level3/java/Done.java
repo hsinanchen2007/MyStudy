@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //index遍历进行搜索整个字符串
     private int index = 0;
@@ -46,4 +46,4 @@ class Solution {
         return index > start;
     }
 }
-```
+// ```

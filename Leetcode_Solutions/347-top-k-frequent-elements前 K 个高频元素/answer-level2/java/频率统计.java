@@ -1,12 +1,12 @@
-### 解题思路
-首先需要对数组进行频率统计，然后按频率排序可以得出结果，
-排序算法按题目要求是不能使用快速排序等算法，复杂度不能满足要求，
-可以使用O(n)的算法进行排序
-同样的词频题目可以看 692题
+// ### 解题思路
+// 首先需要对数组进行频率统计，然后按频率排序可以得出结果，
+// 排序算法按题目要求是不能使用快速排序等算法，复杂度不能满足要求，
+// 可以使用O(n)的算法进行排序
+// 同样的词频题目可以看 692题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> topKFrequent(int[] nums, int k) {
         List<Integer> retList=new ArrayList<>(k);
@@ -36,4 +36,4 @@ class Solution {
         return retList.subList(0,k);
     }
 }
-```
+// ```

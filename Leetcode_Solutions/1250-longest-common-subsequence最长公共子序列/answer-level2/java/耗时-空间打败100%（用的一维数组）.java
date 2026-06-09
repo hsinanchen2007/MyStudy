@@ -1,7 +1,7 @@
-- 执行用时 : 6 ms, 在所有 java 提交中击败了100.00%的用户
-- 内存消耗 : 33.9 MB, 在所有 java 提交中击败了100.00%的用户
-- 时间复杂度：O(n*m)
-```java
+// - 执行用时 : 6 ms, 在所有 java 提交中击败了100.00%的用户
+// - 内存消耗 : 33.9 MB, 在所有 java 提交中击败了100.00%的用户
+// - 时间复杂度：O(n*m)
+// ```java
 public int longestCommonSubsequence(String text1, String text2) {
 	if (text1 == null || text2 == null) return 0;
 	int len1 = text1.length(), len2 = text2.length();
@@ -29,4 +29,4 @@ public int longestCommonSubsequence(String text1, String text2) {
 	}
 	return dp[colText.length];
 }
-```
+// ```

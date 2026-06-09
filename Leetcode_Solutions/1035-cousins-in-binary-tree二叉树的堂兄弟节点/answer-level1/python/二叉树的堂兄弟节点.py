@@ -1,15 +1,15 @@
-#### 方法：标记父节点与深度
+# #### 方法：标记父节点与深度
 
-**思路**
+# **思路**
 
-当且仅当一对节点深度相同而父节点不相同时，它们是堂兄弟节点。一种非常直接的方法就是通过某种方法求出每一个节点的深度与父节点。
+# 当且仅当一对节点深度相同而父节点不相同时，它们是堂兄弟节点。一种非常直接的方法就是通过某种方法求出每一个节点的深度与父节点。
 
-**算法**
+# **算法**
 
-我们用深度优先搜索标记每一个节点，对于每一个节点 `node`，它的父亲为 `par`，深度为 `d`，我们将其记录到 `Hashmap` 中：`parent[node.val] = par` 且 `depth[node.val] = d`。
+# 我们用深度优先搜索标记每一个节点，对于每一个节点 `node`，它的父亲为 `par`，深度为 `d`，我们将其记录到 `Hashmap` 中：`parent[node.val] = par` 且 `depth[node.val] = d`。
 
 
-```java [YSAzV8YK-Java]
+# ```java [YSAzV8YK-Java]
 class Solution {
     Map<Integer, Integer> depth;
     Map<Integer, TreeNode> parent;
@@ -30,8 +30,8 @@ class Solution {
         }
     }
 }
-```
-```python [YSAzV8YK-Python]
+# ```
+# ```python [YSAzV8YK-Python]
 class Solution(object):
     def isCousins(self, root, x, y):
         parent = {}
@@ -45,14 +45,14 @@ class Solution(object):
 
         dfs(root)
         return depth[x] == depth[y] and parent[x] != parent[y]
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N)$，其中 $N$ 是给定树中节点的数量。
+# * 时间复杂度：$O(N)$，其中 $N$ 是给定树中节点的数量。
 
-* 空间复杂度：$O(N)$。
+# * 空间复杂度：$O(N)$。
 
 
 

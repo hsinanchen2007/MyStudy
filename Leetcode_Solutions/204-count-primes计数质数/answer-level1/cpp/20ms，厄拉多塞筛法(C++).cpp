@@ -1,9 +1,9 @@
-执行用时 : 20 ms, 在Count Primes的C++提交中击败了98.62% 的用户
+// 执行用时 : 20 ms, 在Count Primes的C++提交中击败了98.62% 的用户
 
-内存消耗 : 11.3 MB, 在Count Primes的C++提交中击败了34.66% 的用户
+// 内存消耗 : 11.3 MB, 在Count Primes的C++提交中击败了34.66% 的用户
 
 
-```c++[]
+// ```c++[]
 class Solution {
 public:
     int countPrimes(int n) {
@@ -25,4 +25,4 @@ public:
 	return res;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-执行用时 :6 ms, 在所有 Java 提交中击败了99.83%的用户
+// 执行用时 :6 ms, 在所有 Java 提交中击败了99.83%的用户
 
-```java
+// ```java
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         TreeNode node = root;
@@ -17,4 +17,4 @@ class Solution {
         }
     }
 }
-```
+// ```

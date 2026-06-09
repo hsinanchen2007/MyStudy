@@ -1,9 +1,9 @@
-### 解题思路
-先遍历一次求平均值，然后再再遍历一次，每次相加的和等于平均值，就从0开始加。最后如果等于3次返回true，或者大于3次且平均值为0，也返回true。其他均为false。
+// ### 解题思路
+// 先遍历一次求平均值，然后再再遍历一次，每次相加的和等于平均值，就从0开始加。最后如果等于3次返回true，或者大于3次且平均值为0，也返回true。其他均为false。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int len = A.length;
@@ -33,4 +33,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

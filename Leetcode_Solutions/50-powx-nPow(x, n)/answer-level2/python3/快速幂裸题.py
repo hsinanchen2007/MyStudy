@@ -1,6 +1,6 @@
-裸快速幂，特判等于 0 和小于 0 的情况即可。
+# 裸快速幂，特判等于 0 和小于 0 的情况即可。
 
-```python
+# ```python
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         if n == 0: 
@@ -16,4 +16,4 @@ class Solution:
             x *= x    
             n >>= 1
         return res if not flag else 1 / res
-```
+# ```

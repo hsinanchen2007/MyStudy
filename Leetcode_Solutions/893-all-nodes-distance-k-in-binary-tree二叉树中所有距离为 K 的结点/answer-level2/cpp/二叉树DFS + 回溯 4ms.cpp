@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     vector<int>ans;
@@ -61,7 +61,7 @@ public:
         find_ans(root->right, dis - 1);
     }    
 };
-```
-![QQ截图20200330102751.png](https://pic.leetcode-cn.com/56adaa23c5fdc2baf0279337066b113861e0b330c9f46cf5a1276138c43ecdff-QQ%E6%88%AA%E5%9B%BE20200330102751.png)
+// ```
+// ![QQ截图20200330102751.png](https://pic.leetcode-cn.com/56adaa23c5fdc2baf0279337066b113861e0b330c9f46cf5a1276138c43ecdff-QQ%E6%88%AA%E5%9B%BE20200330102751.png)
 
 

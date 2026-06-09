@@ -1,4 +1,4 @@
-```
+// ```
 #define MAXSIZE 50000
 
 struct HashEntry {
@@ -119,4 +119,4 @@ char * minWindow(char * s, char * t)
     DeleteHashEntrySCnt();
     return returnVal;
 }
-```
+// ```

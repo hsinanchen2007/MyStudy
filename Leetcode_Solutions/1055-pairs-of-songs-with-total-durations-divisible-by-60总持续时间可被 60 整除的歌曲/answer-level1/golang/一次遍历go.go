@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numPairsDivisibleBy60(time []int) int {
 //因为除以60之后的余数是0-59之间，所以 新建一个长度为60的数组
 	res:=make([]int,60)
@@ -21,4 +21,4 @@ func numPairsDivisibleBy60(time []int) int {
 	}
 	return count
 }
-```
+// ```

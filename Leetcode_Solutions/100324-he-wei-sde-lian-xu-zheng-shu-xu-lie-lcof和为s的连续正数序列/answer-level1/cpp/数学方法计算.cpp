@@ -1,20 +1,20 @@
-### 解题思路
-基本思路：
-1. 题目要求为连续正数，所以其实是等差数列，已知target 求取该数列；
-2. 遍历数列，对每个start求取其长度；
+// ### 解题思路
+// 基本思路：
+// 1. 题目要求为连续正数，所以其实是等差数列，已知target 求取该数列；
+// 2. 遍历数列，对每个start求取其长度；
 
-根据观察可以简化一部分处理：
-1. 遍历过程可以减去一半，明显再target/2之后不会存在连续数列和为target；
-2. 计算过程我们发现b*b-4*a*c永远为正数，所以可以抛去该值为0或者为负数的处理；
-3. 我们所需要的长度一定是一个正数，所以只需要：x1 = (1 - 2*start + sqrt(discriminant)) / 2
-4. 再计算discrimination时，需要注意，这里中间计算过程为int型会越界，所以这里强转为double；
-
-
+// 根据观察可以简化一部分处理：
+// 1. 遍历过程可以减去一半，明显再target/2之后不会存在连续数列和为target；
+// 2. 计算过程我们发现b*b-4*a*c永远为正数，所以可以抛去该值为0或者为负数的处理；
+// 3. 我们所需要的长度一定是一个正数，所以只需要：x1 = (1 - 2*start + sqrt(discriminant)) / 2
+// 4. 再计算discrimination时，需要注意，这里中间计算过程为int型会越界，所以这里强转为double；
 
 
-### 代码
 
-```cpp
+
+// ### 代码
+
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -46,7 +46,7 @@ public:
         return result;
     }
 };
-```
+// ```
 
-提交：
-![image.png](https://pic.leetcode-cn.com/03b03fa8cb45473e443e6469d4f3268cda8b94f4c805169b88038a49fd743c51-image.png)
+// 提交：
+// ![image.png](https://pic.leetcode-cn.com/03b03fa8cb45473e443e6469d4f3268cda8b94f4c805169b88038a49fd743c51-image.png)

@@ -1,8 +1,8 @@
-**解题思路**
-深度优先遍历获取每个子树的最小和次小值，跟当前树次小值比较。
+// **解题思路**
+// 深度优先遍历获取每个子树的最小和次小值，跟当前树次小值比较。
 
-**代码**
-```
+// **代码**
+// ```
 func dfs(root *TreeNode) (int, int) {
     one, two := root.Val, root.Val
     if root.Left != nil && root.Left.Val != two {
@@ -42,4 +42,4 @@ func findSecondMinimumValue(root *TreeNode) int {
     }
     return two
 }
-```
+// ```

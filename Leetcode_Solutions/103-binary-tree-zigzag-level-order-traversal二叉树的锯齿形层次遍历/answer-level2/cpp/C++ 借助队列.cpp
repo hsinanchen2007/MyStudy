@@ -1,11 +1,11 @@
-### 解题思路
-借助队列，队列的元素是treeNode和对应的层次
-while循环后，得到的res是层次遍历的结果，
-最后需要把奇数层的结果倒置一下
+// ### 解题思路
+// 借助队列，队列的元素是treeNode和对应的层次
+// while循环后，得到的res是层次遍历的结果，
+// 最后需要把奇数层的结果倒置一下
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -68,4 +68,4 @@ public:
         return res;
     }
 };
-```
+// ```

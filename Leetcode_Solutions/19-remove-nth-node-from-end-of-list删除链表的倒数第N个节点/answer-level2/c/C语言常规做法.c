@@ -1,6 +1,6 @@
-- 方法一
-双指针法
-```c
+// - 方法一
+// 双指针法
+// ```c
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     struct ListNode*slow_p=head,*p=head;
     while(n--) p=p->next;
@@ -13,10 +13,10 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     slow_p->next=slow_p->next->next;
     return head;
 }
-```
-- 方法二
-常规做法
-```c
+// ```
+// - 方法二
+// 常规做法
+// ```c
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     short len=0;
     struct ListNode* tmp;
@@ -32,4 +32,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     tmp->next=tmp->next->next;
     return head;
 }
-```
+// ```

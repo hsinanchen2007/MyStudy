@@ -1,9 +1,9 @@
-### 解题思路
-如果在hashMap中找到某个节点，表明是有环链表，那么返回那个节点即可。
+// ### 解题思路
+// 如果在hashMap中找到某个节点，表明是有环链表，那么返回那个节点即可。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

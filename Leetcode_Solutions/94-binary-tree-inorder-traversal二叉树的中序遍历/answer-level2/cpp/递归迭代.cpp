@@ -1,4 +1,4 @@
-简单的C++解法
+// 简单的C++解法
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {

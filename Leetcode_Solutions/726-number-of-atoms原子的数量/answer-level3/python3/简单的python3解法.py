@@ -1,11 +1,11 @@
-本来一开始也是想从左到右解析的, 
-但是 __从右侧开始解析__ , 解析起来比较简单
+# 本来一开始也是想从左到右解析的, 
+# 但是 __从右侧开始解析__ , 解析起来比较简单
 
-1. 遇到数字则为倍数, 需要乘以保留的倍数
-2. 如果遇到')', 则保存倍数, 如果遇到'(', 则删除倍数
-3. 遇到小写字母代表原子名开头, 遇到大写字母则为原子结束, 更新原子个数
+# 1. 遇到数字则为倍数, 需要乘以保留的倍数
+# 2. 如果遇到')', 则保存倍数, 如果遇到'(', 则删除倍数
+# 3. 遇到小写字母代表原子名开头, 遇到大写字母则为原子结束, 更新原子个数
 
-```
+# ```
 class Solution:
     # 更新结果
     def update(self,atom_name,tmp_times,cur_times, result_dit):
@@ -46,4 +46,4 @@ class Solution:
         result = [ atom_name+("" if result_dit[atom_name] ==1 else str(result_dit[atom_name])) for atom_name in result_dit.keys()]
         result.sort()
         return "".join(result)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-感觉就是道模拟题，题目读懂就能写了
+// ### 解题思路
+// 感觉就是道模拟题，题目读懂就能写了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class TweetCounts {
     
     Map<String, List> m = new HashMap<>();
@@ -53,4 +53,4 @@ class TweetCounts {
  * obj.recordTweet(tweetName,time);
  * List<Integer> param_2 = obj.getTweetCountsPerFrequency(freq,tweetName,startTime,endTime);
  */
-```
+// ```

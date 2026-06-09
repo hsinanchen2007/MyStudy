@@ -1,4 +1,4 @@
-```
+// ```
 #define LINE 10
 #define ORIGIN "123456789."
 char strRow[LINE - 1][LINE + 1];
@@ -36,4 +36,4 @@ bool isValidSudoku(char** board, int boardSize, int* boardColSize){
     }
     return true;
 }
-```
+// ```

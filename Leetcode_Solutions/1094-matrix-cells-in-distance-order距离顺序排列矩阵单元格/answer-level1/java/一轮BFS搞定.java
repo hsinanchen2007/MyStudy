@@ -1,7 +1,7 @@
-# 思路
-这里的顺序其实就是BFS的遍历过程。每次从队列中取出数据距离就会加1。具体代码如下
+// # 思路
+// 这里的顺序其实就是BFS的遍历过程。每次从队列中取出数据距离就会加1。具体代码如下
 
-```java
+// ```java
 
     public int[][] allCellsDistOrder(int rowCount, int colCount, int r0, int c0) {
         LinkedList<int[]> queue = new LinkedList<>();
@@ -54,4 +54,4 @@
 
     }
 
-```
+// ```

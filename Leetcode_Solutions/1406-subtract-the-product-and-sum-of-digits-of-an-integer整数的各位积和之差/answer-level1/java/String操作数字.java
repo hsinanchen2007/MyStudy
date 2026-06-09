@@ -1,9 +1,9 @@
-### 解题思路
-用String提供的API操作int型
+// ### 解题思路
+// 用String提供的API操作int型
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subtractProductAndSum(int n) {
                 String str_n=String.valueOf(n);
@@ -18,4 +18,4 @@ class Solution {
         
     }
 }
-```
+// ```

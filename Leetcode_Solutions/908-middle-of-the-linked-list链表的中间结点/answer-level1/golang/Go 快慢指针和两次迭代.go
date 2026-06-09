@@ -1,8 +1,8 @@
-## 快慢指针
+// ## 快慢指针
 
-使用快慢指针，快指针到尾部到时候慢指针正好在中间节点。
+// 使用快慢指针，快指针到尾部到时候慢指针正好在中间节点。
 
-```
+// ```
 func middleNode(head *ListNode) *ListNode {
 	fast := head
 	slow := head
@@ -27,13 +27,13 @@ func middleNode(head *ListNode) *ListNode {
 
 	return nil
 }
-```
+// ```
 
-## 两次迭代
+// ## 两次迭代
 
-第一次迭代先算出链表长度，知道长度后第二次迭代到中间返回即可。
+// 第一次迭代先算出链表长度，知道长度后第二次迭代到中间返回即可。
 
-```
+// ```
 func middleNode(head *ListNode) *ListNode {
 	i := head
 	length := 0
@@ -49,4 +49,4 @@ func middleNode(head *ListNode) *ListNode {
 
 	return head
 }
-```
+// ```

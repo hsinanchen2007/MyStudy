@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/d830ea7f8991f3475360a244fb7c899bccc713cc1dbbd1c7223f3d74c0439274-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d830ea7f8991f3475360a244fb7c899bccc713cc1dbbd1c7223f3d74c0439274-image.png)
 
-```java
+// ```java
 class Solution {
     private List<List<Integer>> ansList;
 
@@ -41,4 +41,4 @@ class Solution {
         return ansList;
     }
 }
-```
+// ```

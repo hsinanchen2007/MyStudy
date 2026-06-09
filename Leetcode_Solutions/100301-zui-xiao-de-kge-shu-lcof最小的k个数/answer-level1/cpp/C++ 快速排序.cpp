@@ -1,9 +1,9 @@
-### 解题思路
-c++ 快速排序  找到前k个就返回  速度比用sort要快 因为没有全部排序
+// ### 解题思路
+// c++ 快速排序  找到前k个就返回  速度比用sort要快 因为没有全部排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 vector<int> res;
@@ -33,4 +33,4 @@ vector<int> res;
         return res;
     }
 };
-```
+// ```

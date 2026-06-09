@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-双指针
+// 双指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class WordDistance {
 public:
     unordered_map<string,vector<int>> um;
@@ -32,4 +32,4 @@ public:
  * WordDistance* obj = new WordDistance(words);
  * int param_1 = obj->shortest(word1,word2);
  */
-```
+// ```

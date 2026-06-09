@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class PhoneDirectory:
 
     def __init__(self, maxNumbers: int):
@@ -55,4 +55,4 @@ class PhoneDirectory:
 # param_1 = obj.get()
 # param_2 = obj.check(number)
 # obj.release(number)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-如果要对一个字符串进行大量的修改，推荐使用StringBuilder进行构造
+// ### 解题思路
+// 如果要对一个字符串进行大量的修改，推荐使用StringBuilder进行构造
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         StringBuilder sb = new StringBuilder();
@@ -14,4 +14,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

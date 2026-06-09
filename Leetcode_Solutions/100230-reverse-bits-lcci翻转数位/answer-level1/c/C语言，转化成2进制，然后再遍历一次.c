@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void toBit(int num, int *val) {
     int i = 0;
     while(num) {
@@ -33,4 +33,4 @@ int reverseBits(int num){
 
     return max;
 }
-```
+// ```

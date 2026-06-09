@@ -1,6 +1,6 @@
-![QQ图片20191113022023.png](https://pic.leetcode-cn.com/b9fd3e638c06ec44c9889e80adea9b1fa0a21fc013a782663bf706a763a6d16e-QQ%E5%9B%BE%E7%89%8720191113022023.png)
+// ![QQ图片20191113022023.png](https://pic.leetcode-cn.com/b9fd3e638c06ec44c9889e80adea9b1fa0a21fc013a782663bf706a763a6d16e-QQ%E5%9B%BE%E7%89%8720191113022023.png)
 
-以上是报错，烦请好心人帮我看看，谢谢！
+// 以上是报错，烦请好心人帮我看看，谢谢！
 
 class Solution {
 public:

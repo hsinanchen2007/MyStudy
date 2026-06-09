@@ -1,6 +1,6 @@
-这道题和生成有效括号对的解法类似，都是每一层可以有两个选择。在这一题中，每一个元素可以选择有或无，并产生一个新的子集。
+// 这道题和生成有效括号对的解法类似，都是每一层可以有两个选择。在这一题中，每一个元素可以选择有或无，并产生一个新的子集。
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         resub(level + 1, result, subset, nums);
     }
 };
-```
+// ```

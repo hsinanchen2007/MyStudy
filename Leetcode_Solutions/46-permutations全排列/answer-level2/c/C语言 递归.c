@@ -1,9 +1,9 @@
-### 解题思路
-此处仅作为递归法C语言代码参考
+// ### 解题思路
+// 此处仅作为递归法C语言代码参考
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -47,4 +47,4 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     
     return res;
 }
-```
+// ```

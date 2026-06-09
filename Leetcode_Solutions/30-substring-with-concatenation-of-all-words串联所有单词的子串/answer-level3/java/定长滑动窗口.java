@@ -1,10 +1,10 @@
-### 解题思路
-留下了没技术的眼泪
-![微信截图_20200305221833.png](https://pic.leetcode-cn.com/6fd177b4a1a954400f4f87466736a955ec6b207138aac88d64a62286d6f632cf-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200305221833.png)
+// ### 解题思路
+// 留下了没技术的眼泪
+// ![微信截图_20200305221833.png](https://pic.leetcode-cn.com/6fd177b4a1a954400f4f87466736a955ec6b207138aac88d64a62286d6f632cf-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200305221833.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
         HashMap<String,Integer> need = new HashMap<String,Integer>();
@@ -43,4 +43,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-创建map表存频率 => 加入vector<pair<int,int> > 后按照频率大小使用快速排序 =>返回数组最后两个的first（key值）  
+// ### 解题思路
+// 创建map表存频率 => 加入vector<pair<int,int> > 后按照频率大小使用快速排序 =>返回数组最后两个的first（key值）  
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:      
     vector<int> topKFrequent(vector<int>& nums, int k) {
@@ -52,4 +52,4 @@ public:
     }
 
 };
-```
+// ```

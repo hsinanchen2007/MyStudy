@@ -1,12 +1,12 @@
-### 解题思路
-考虑两种特殊情况：
-1、没有反转：numbers[left]<numbers[right]
-2、left=mid或left=right或者mid=right
-##注意此情况应该放在while下讨论，不是像1一样单独讨论！！！！！
+// ### 解题思路
+// 考虑两种特殊情况：
+// 1、没有反转：numbers[left]<numbers[right]
+// 2、left=mid或left=right或者mid=right
+// ##注意此情况应该放在while下讨论，不是像1一样单独讨论！！！！！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minArray(vector<int>& numbers) {
@@ -40,4 +40,4 @@ public:
 
     
 };
-```
+// ```

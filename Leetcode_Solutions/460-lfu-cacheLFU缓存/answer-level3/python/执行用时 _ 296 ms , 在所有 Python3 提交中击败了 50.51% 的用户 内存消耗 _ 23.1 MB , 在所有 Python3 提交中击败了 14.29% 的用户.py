@@ -1,9 +1,9 @@
-### 解题思路
-抄大佬的思路和代码，我并不会。。。。二分
+# ### 解题思路
+# 抄大佬的思路和代码，我并不会。。。。二分
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class LFUCache:
     def __init__(self, capacity: int):
         self.cap, self.tick = capacity, 0  # 容量和计时
@@ -42,4 +42,4 @@ class LFUCache:
 # obj = LFUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

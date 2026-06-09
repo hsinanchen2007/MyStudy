@@ -1,6 +1,6 @@
-## 思路一：递归
-### 代码
-```c++
+// ## 思路一：递归
+// ### 代码
+// ```c++
 class Solution {
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
@@ -17,13 +17,13 @@ public:
         return root;
     }
 };
-```
+// ```
 
-## 思路二：利用本身递归
-本身参数是数组，所以构建左右数组，然后调用自身递归。
-**注意：构建vector时迭代器左闭右开**
-### 代码
-```c++
+// ## 思路二：利用本身递归
+// 本身参数是数组，所以构建左右数组，然后调用自身递归。
+// **注意：构建vector时迭代器左闭右开**
+// ### 代码
+// ```c++
 class Solution {
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
@@ -36,5 +36,5 @@ public:
         return root;
     }
 };
-```
+// ```
 

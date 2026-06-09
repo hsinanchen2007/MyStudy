@@ -1,4 +1,4 @@
-```
+// ```
 var isToeplitzMatrix = function (matrix) {
     if (matrix.length < 2 || matrix[0].length === 1) return true
     let len = matrix[0].length - 1
@@ -13,4 +13,4 @@ var isToeplitzMatrix = function (matrix) {
     }
     return max === 0 ? true : false
 };
-```
+// ```

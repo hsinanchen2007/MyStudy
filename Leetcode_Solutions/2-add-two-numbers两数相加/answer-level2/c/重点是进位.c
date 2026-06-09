@@ -1,6 +1,6 @@
-p->next 记得要赋空值！
+// p->next 记得要赋空值！
 
-```C
+// ```C
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){   
     struct ListNode *head = (struct ListNode *)malloc(sizeof(struct ListNode));
     head->next = NULL;
@@ -50,4 +50,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return head->next;
 }
-```
+// ```

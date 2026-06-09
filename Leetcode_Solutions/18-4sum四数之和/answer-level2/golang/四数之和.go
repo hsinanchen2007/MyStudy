@@ -1,7 +1,7 @@
-### 思路
-滑动窗口 + 二分法查找指定数值
-### 完整代码
-```
+// ### 思路
+// 滑动窗口 + 二分法查找指定数值
+// ### 完整代码
+// ```
 func fourSum(nums []int, target int) [][]int {
 	i := 0  // 左指针
 	j := 0  // 右指针
@@ -80,6 +80,6 @@ func fourSum(nums []int, target int) [][]int {
 	}
 	return result
 }
-```
-### 执行结果
-![image.png](https://pic.leetcode-cn.com/fe50b76614124bd037382706ca501dc5e8a6c63775a84897abeb8a5ec46dee21-image.png)
+// ```
+// ### 执行结果
+// ![image.png](https://pic.leetcode-cn.com/fe50b76614124bd037382706ca501dc5e8a6c63775a84897abeb8a5ec46dee21-image.png)

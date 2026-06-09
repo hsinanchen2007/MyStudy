@@ -1,5 +1,5 @@
-自己先写了个，有点蠢，执行久。参考了题解，修改了下
-```
+// 自己先写了个，有点蠢，执行久。参考了题解，修改了下
+// ```
 var lengthOfLongestSubstring = function(s) {
     let len = s.length, b = 0, ret = 0, n;
     for(let i = 0; i < len; i++) {
@@ -11,5 +11,5 @@ var lengthOfLongestSubstring = function(s) {
     }
    return Math.max(ret, len-b);
 }
-```
+// ```
 

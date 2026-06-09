@@ -1,10 +1,10 @@
-### 解题思路
-确实烧脑，理清思路中最重要一点是，每下降一次可确定前面最短路径，且不影响下一步的下降。
-![微信截图_20200328095501.png](https://pic.leetcode-cn.com/49ee4e97f188acc3edbe01c5b779fa2277081baaec4be0bf24d5538dcb361496-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200328095501.png)
+// ### 解题思路
+// 确实烧脑，理清思路中最重要一点是，每下降一次可确定前面最短路径，且不影响下一步的下降。
+// ![微信截图_20200328095501.png](https://pic.leetcode-cn.com/49ee4e97f188acc3edbe01c5b779fa2277081baaec4be0bf24d5538dcb361496-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200328095501.png)
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -47,4 +47,4 @@ class Solution {
         return min($sum[$arr_len-1]);//取下降到最后一行的最小值
     }
 }
-```
+// ```

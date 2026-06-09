@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/dc8bc2ad0b1075290d9d87ab517b0ab6e0823c5176a0b0e7045138e2875e04d5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dc8bc2ad0b1075290d9d87ab517b0ab6e0823c5176a0b0e7045138e2875e04d5-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void setZeroes(int[][] matrix) {
         int val = matrix[0][0];
@@ -38,4 +38,4 @@ class Solution {
         }
     }
 }
-```
+// ```

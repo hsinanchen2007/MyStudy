@@ -1,9 +1,9 @@
-### 解题思路
-1.变量j永远指向下一个待交换元素0的位置
+// ### 解题思路
+// 1.变量j永远指向下一个待交换元素0的位置
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func moveZeroes(_ nums: inout [Int]) {
         var j = 0
@@ -19,4 +19,4 @@ class Solution {
         
     }
 }
-```
+// ```

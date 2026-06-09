@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/bda93a0e879e09cc31b659a455ee55699deabfa7fd9091efd98c1f8147ba7f11-image.png)
+# ![image.png](https://pic.leetcode-cn.com/bda93a0e879e09cc31b659a455ee55699deabfa7fd9091efd98c1f8147ba7f11-image.png)
 
-主要方法是把同名交易放进字典，判断城市和时间差。
+# 主要方法是把同名交易放进字典，判断城市和时间差。
 
-```python []
+# ```python []
 class Solution:
     def invalidTransactions(self, transactions: List[str]) -> List[str]:
         transactions = [x.split(',') for x in transactions]
@@ -21,4 +21,4 @@ class Solution:
                 if flag or int(d[name][i][2]) > 1000:
                     ans += [d[name][i]]
         return [*{','.join(x) for x in ans}]
-```
+# ```

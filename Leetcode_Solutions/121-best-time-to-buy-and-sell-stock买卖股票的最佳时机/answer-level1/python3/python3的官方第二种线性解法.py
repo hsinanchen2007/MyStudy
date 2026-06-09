@@ -1,6 +1,6 @@
 
 
-```python []
+# ```python []
 class Solution:
     
     def maxProfit(self,prices:List[int])->int:
@@ -13,4 +13,4 @@ class Solution:
                 if i-min_prices>maxprofit:
                     maxprofit = i-min_prices
         return maxprofit
-```
+# ```

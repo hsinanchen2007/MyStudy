@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} s
  * @return {string}
@@ -36,4 +36,4 @@ var minRemoveToMakeValid = function(s) {
 
     return stack.join("");
 };
-```
+// ```

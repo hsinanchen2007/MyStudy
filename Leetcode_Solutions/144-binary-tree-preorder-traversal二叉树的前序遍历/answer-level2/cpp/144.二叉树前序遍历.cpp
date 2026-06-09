@@ -1,6 +1,6 @@
-方法一：递归方法
+// 方法一：递归方法
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,11 +28,11 @@ private:
         preorderTraversal(root->right,result);
     }
 };
-```
+// ```
 
-方法二：循环方法
-利用栈的先进后出，后进先出的原理
-```cpp
+// 方法二：循环方法
+// 利用栈的先进后出，后进先出的原理
+// ```cpp
 //循环方法
 class Solution {
 public:
@@ -58,4 +58,4 @@ public:
         return result;
     }
 }
-```
+// ```

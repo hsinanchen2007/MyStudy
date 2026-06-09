@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/573ee45c82ba1eb1aa2334ef7cbe392c8c23e81b0964724134bb6496b8ed549f-image.png)
-这道题目坑有点多啊：
-1) 一定是求不同数字的公约数，一定要 >=2, 比如4个1和6个2，这是可以分组的。我采取的是每两个相邻的个数就统计公约数
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/573ee45c82ba1eb1aa2334ef7cbe392c8c23e81b0964724134bb6496b8ed549f-image.png)
+// 这道题目坑有点多啊：
+// 1) 一定是求不同数字的公约数，一定要 >=2, 比如4个1和6个2，这是可以分组的。我采取的是每两个相邻的个数就统计公约数
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a, const void *b)
 {
     return *(int*)a - *(int*)b;
@@ -47,4 +47,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
 
     return true;
 }
-```
+// ```

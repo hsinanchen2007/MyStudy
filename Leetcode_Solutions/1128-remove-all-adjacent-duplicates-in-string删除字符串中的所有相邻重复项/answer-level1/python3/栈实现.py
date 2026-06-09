@@ -1,9 +1,9 @@
-执行用时 :64 ms, 在所有 Python 提交中击败了86.72%的用户
+# 执行用时 :64 ms, 在所有 Python 提交中击败了86.72%的用户
 
-内存消耗 :12.1 MB, 在所有 Python 提交中击败100.00%
-的用户
+# 内存消耗 :12.1 MB, 在所有 Python 提交中击败100.00%
+# 的用户
 
-```
+# ```
 class Solution(object):
     def removeDuplicates(self, S):
         """
@@ -20,5 +20,5 @@ class Solution(object):
             else:
                 stack.append(c)
         return ''.join(stack)
-```
+# ```
 

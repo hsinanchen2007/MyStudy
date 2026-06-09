@@ -1,7 +1,7 @@
-1，先排序
-2，后从小到大逐渐动态规划找出最长路径的上一个数的下标来源
-3，然后回溯路径得到最终解
-```
+// 1，先排序
+// 2，后从小到大逐渐动态规划找出最长路径的上一个数的下标来源
+// 3，然后回溯路径得到最终解
+// ```
 class Solution {
 public:
     vector<int> largestDivisibleSubset(vector<int>& nums) {
@@ -36,6 +36,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/7028a26c57048998677911289541cca16ae39b84dfd6ff62da5832073bbec86b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7028a26c57048998677911289541cca16ae39b84dfd6ff62da5832073bbec86b-image.png)

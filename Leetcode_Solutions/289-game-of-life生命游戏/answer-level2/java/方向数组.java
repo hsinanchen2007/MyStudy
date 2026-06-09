@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public void gameOfLife(int[][] board) {
         int i = 0, j = 0, k = 0;
@@ -39,4 +39,4 @@ class Solution {
 
     }
 }
-```
+// ```

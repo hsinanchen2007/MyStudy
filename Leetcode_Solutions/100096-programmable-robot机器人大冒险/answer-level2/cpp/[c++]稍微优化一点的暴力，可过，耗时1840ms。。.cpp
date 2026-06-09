@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     bool robot(string command, vector<vector<int>> &obstacles, int x, int y) {
@@ -62,9 +62,9 @@ public:
         return true;
     }
 };
-```
+// ```
 
-```cpp
+// ```cpp
 class Solution {
 private:
     vector<pair<int, int>> moves;
@@ -119,4 +119,4 @@ private:
 };
 
 
-```
+// ```

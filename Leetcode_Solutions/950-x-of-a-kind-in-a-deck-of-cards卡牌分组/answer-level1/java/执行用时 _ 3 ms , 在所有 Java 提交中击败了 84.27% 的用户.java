@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     // 卡牌分组————最大公约数
     public boolean hasGroupsSizeX(int[] deck) {
@@ -18,4 +18,4 @@ class Solution {
         return b == 0 ? a : gcd(b, a % b);
     }
 }
-```
+// ```

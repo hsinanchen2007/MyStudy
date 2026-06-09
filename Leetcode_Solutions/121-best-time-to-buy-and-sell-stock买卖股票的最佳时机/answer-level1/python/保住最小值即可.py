@@ -1,10 +1,10 @@
-### 解题思路
-一开始想的是暴力法，但是Python会超时。
-看了官方解答，发现最一开始的时候自己想的也有点眉目，但是错在想直接找到最大和最小，然后求得最大收益。关键在于，需要在动态遍历中找到当前序列中的最小值，并求出相应的最大差值。在遍历完成后，就可以得到全序列的最大差值。
+# ### 解题思路
+# 一开始想的是暴力法，但是Python会超时。
+# 看了官方解答，发现最一开始的时候自己想的也有点眉目，但是错在想直接找到最大和最小，然后求得最大收益。关键在于，需要在动态遍历中找到当前序列中的最小值，并求出相应的最大差值。在遍历完成后，就可以得到全序列的最大差值。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -27,4 +27,4 @@ class Solution(object):
             minprice = min(minprice,price)
             maxprofit = max(maxprofit,price-minprice)
         return maxprofit
-```
+# ```

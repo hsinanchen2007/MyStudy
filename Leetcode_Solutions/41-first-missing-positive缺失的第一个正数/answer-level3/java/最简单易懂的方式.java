@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-核心就是排序数组，同时为了避免nums中有一些负数的边界因素来添加判断条件，所以直接排序后过滤掉负数，然后将边缘条件剔除，顺序遍历数组即可。
-![zx.png](https://pic.leetcode-cn.com/fd70448fa1910a473a469da518647c7579f294b74a4accfdcb941873dca9ce7d-zx.png)
+// 核心就是排序数组，同时为了避免nums中有一些负数的边界因素来添加判断条件，所以直接排序后过滤掉负数，然后将边缘条件剔除，顺序遍历数组即可。
+// ![zx.png](https://pic.leetcode-cn.com/fd70448fa1910a473a469da518647c7579f294b74a4accfdcb941873dca9ce7d-zx.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int firstMissingPositive(int[] nums) {
         //排序，过滤
@@ -37,4 +37,4 @@ class Solution {
         return nums1[a]+1;
     }
 }
-```
+// ```

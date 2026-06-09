@@ -1,14 +1,14 @@
-### 解题思路
-1.hashmap法
-2.排序法
-3.随机化
-4.分治
-5.投票法
-参考：官方题解
+# ### 解题思路
+# 1.hashmap法
+# 2.排序法
+# 3.随机化
+# 4.分治
+# 5.投票法
+# 参考：官方题解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement_1(self, nums: List[int]) -> int:
         # 1.hashmap方法
@@ -72,4 +72,4 @@ class Solution:
         
     def majorityElement(self, nums: List[int]) -> int:
         return self.majorityElement_4(nums)
-```
+# ```

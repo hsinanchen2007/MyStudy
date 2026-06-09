@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // 法一：模方法
 int hammingWeight(uint32_t n) {
     int count = 0;
@@ -33,4 +33,4 @@ int hammingWeight(uint32_t n) {
     }
     return count;
 }
-```
+// ```

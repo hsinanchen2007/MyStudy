@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-计算二进制中1的个数
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 计算二进制中1的个数
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
@@ -17,4 +17,4 @@ public:
         return count==1;
     }
 };
-```
+// ```

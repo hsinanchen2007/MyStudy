@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func CheckPermutation(s1 string, s2 string) bool {
     a1:=strings.Split(s1,"")
 	a2:=strings.Split(s2,"")
@@ -11,4 +11,4 @@ func CheckPermutation(s1 string, s2 string) bool {
 	sort.Strings(a1)
 	return reflect.DeepEqual(a1, a2)
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
@@ -23,6 +23,6 @@ public:
             
     }
 };
-```
+// ```
 
-刚开始会想着key的值用set来实现，最后发现当一个单词中有相同的字母的时候会出现错误，因此改为vector然后排序来实现。
+// 刚开始会想着key的值用set来实现，最后发现当一个单词中有相同的字母的时候会出现错误，因此改为vector然后排序来实现。

@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     bool isEscapePossible(vector<vector<int>>& blocked, vector<int>& source, vector<int>& target) {
@@ -81,4 +81,4 @@ private:
         return i >= 0 && i < n && j >= 0 && j < m;
     }
 };
-```
+// ```

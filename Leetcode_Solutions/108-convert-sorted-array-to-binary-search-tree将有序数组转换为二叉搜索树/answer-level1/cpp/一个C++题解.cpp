@@ -1,5 +1,5 @@
-脑子里面第一反应想到的题解，速度很慢，只击败5%左右的C++解法，先写在这里做个记录，以后再回来看。
-```
+// 脑子里面第一反应想到的题解，速度很慢，只击败5%左右的C++解法，先写在这里做个记录，以后再回来看。
+// ```
 class Solution {
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
@@ -16,4 +16,4 @@ public:
         return root;
     }
 };
-```
+// ```

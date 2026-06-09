@@ -1,9 +1,9 @@
-### 解题思路
-初始化坐标，根据指示做相应的加减操作，若最后坐标和初始坐标一致，则说明回到原点
+// ### 解题思路
+// 初始化坐标，根据指示做相应的加减操作，若最后坐标和初始坐标一致，则说明回到原点
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} moves
  * @return {boolean}
@@ -29,4 +29,4 @@ var judgeCircle = function(moves) {
     }
     return x === 0 && y ===0
 };
-```
+// ```

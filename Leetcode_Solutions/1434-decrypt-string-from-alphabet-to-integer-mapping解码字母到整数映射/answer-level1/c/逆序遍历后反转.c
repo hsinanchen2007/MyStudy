@@ -1,4 +1,4 @@
-```c
+// ```c
 void reverseString2(char* s, int sSize)
 {
     int i = 0;
@@ -40,4 +40,4 @@ char* freqAlphabets(char* s)
     reverseString2(ret, strlen(ret));
     return ret;
 }
-```
+// ```

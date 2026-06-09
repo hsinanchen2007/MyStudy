@@ -1,4 +1,4 @@
-```c
+// ```c
 void sortColors(int* nums, int numsSize){
     short red=0,white=0,blue=0,i;
     for(i=0;i<numsSize;i++)
@@ -11,4 +11,4 @@ void sortColors(int* nums, int numsSize){
     for(i=red;i<red+white;i++) nums[i]=1;
     for(i=red+white;i<numsSize;i++) nums[i]=2;
 }
-```
+// ```

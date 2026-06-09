@@ -1,9 +1,9 @@
-### 解题思路
-双端队列 更小的入队，比栈顶大的一直pop 每次返回队头 单调递减
+// ### 解题思路
+// 双端队列 更小的入队，比栈顶大的一直pop 每次返回队头 单调递减
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums.length==0||k>nums.length) return new int[0];
@@ -33,4 +33,4 @@ class Solution {
     }
 
 }
-```
+// ```

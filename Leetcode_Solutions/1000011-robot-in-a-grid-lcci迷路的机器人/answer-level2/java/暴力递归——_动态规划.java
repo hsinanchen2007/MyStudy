@@ -1,19 +1,19 @@
-1.如果用递归做,那么一条一条路径走，如果能走通则返回存储的路径。
-对于每个节点，它可以往下走，也可以往右走。
-obstacleGrid[i][j]表示机器人所在的节点。
-得出递归公式：
-```
+// 1.如果用递归做,那么一条一条路径走，如果能走通则返回存储的路径。
+// 对于每个节点，它可以往下走，也可以往右走。
+// obstacleGrid[i][j]表示机器人所在的节点。
+// 得出递归公式：
+// ```
 obstacleGrid[i][j]能否到底目标的boolean == 
 obstacleGrid[++i][j](往下走)能否到达目标的boolean || obstacleGrid[i][++j](往右走)能否到达目标的boolean
-```
-边界条件：
-```
+// ```
+// 边界条件：
+// ```
 1.当j == obstacleGrid[0].length - 1  只能往下走
 2.当i == obstacleGrid.length - 1 只能往右走
 3.当同时满足1和2那么 递归结束，到达目的地
-```
-代码如下：
-```
+// ```
+// 代码如下：
+// ```
 class Solution {
     public List<List<Integer>> pathWithObstacles(int[][] obstacleGrid) {
         int i = 0;
@@ -49,11 +49,11 @@ class Solution {
         return b1;
     }
 }
-```
-2.分析存在大量计算。
-不存在最优子结构及重复子问题
-3.动态规划
-```
+// ```
+// 2.分析存在大量计算。
+// 不存在最优子结构及重复子问题
+// 3.动态规划
+// ```
 class Solution {
     public List<List<Integer>> pathWithObstacles(int[][] obstacleGrid) {
         LinkedList<List<Integer>> arr = new LinkedList<>();
@@ -100,6 +100,6 @@ class Solution {
         return arr;
     }
 }
-```
+// ```
 
  

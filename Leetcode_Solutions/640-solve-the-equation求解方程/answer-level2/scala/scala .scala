@@ -1,11 +1,11 @@
-1. 用等号分成左右
-2. 用+-号分割表达式和数值
-3. 将表达式和数值统一为相同结构
-4. 结构自运算，最后输出。
+// 1. 用等号分成左右
+// 2. 用+-号分割表达式和数值
+// 3. 将表达式和数值统一为相同结构
+// 4. 结构自运算，最后输出。
 
-这是一个monad
+// 这是一个monad
 
-```scala []
+// ```scala []
 object Solution {
     case class Coeff(n:Int, bias:Int){
         def +(that: Coeff):Coeff = Coeff(n + that.n, bias + that.bias)
@@ -39,4 +39,4 @@ object Solution {
         
     
 }
-```
+// ```

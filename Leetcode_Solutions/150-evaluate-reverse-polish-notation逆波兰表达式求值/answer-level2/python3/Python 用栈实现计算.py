@@ -1,12 +1,12 @@
-### 解题思路
-注意点：
-负数除法取整是向负无穷方向取整，所以要用int(a/b)
-isdigit智能判断正整数，无法判断小数和负数，要用isinstance()
+# ### 解题思路
+# 注意点：
+# 负数除法取整是向负无穷方向取整，所以要用int(a/b)
+# isdigit智能判断正整数，无法判断小数和负数，要用isinstance()
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def evalRPN(self, tokens) -> int:
         stack = []
@@ -35,4 +35,4 @@ class Solution:
         return stack.pop()
 
 
-```
+# ```

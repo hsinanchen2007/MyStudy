@@ -1,6 +1,6 @@
-### 遍历每个窗口的最大值
-思路比较简单，耗时较多。
-```
+# ### 遍历每个窗口的最大值
+# 思路比较简单，耗时较多。
+# ```
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         res = []
@@ -11,5 +11,5 @@ class Solution:
                 res.append(tmp_max)
         return res
 
-```
+# ```
 

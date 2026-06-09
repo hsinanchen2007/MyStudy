@@ -1,9 +1,9 @@
-### 解题思路
-在矩阵外围嵌套一个0环。这样就可以节省限制条件
+# ### 解题思路
+# 在矩阵外围嵌套一个0环。这样就可以节省限制条件
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
         sum = 0
@@ -33,4 +33,4 @@ class Solution:
 
 
 
-```
+# ```

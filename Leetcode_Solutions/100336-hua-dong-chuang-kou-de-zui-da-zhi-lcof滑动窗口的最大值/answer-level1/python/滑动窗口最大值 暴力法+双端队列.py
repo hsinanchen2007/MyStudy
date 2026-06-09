@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```
+# ```
 # python 方法一： 使用双端队列
 class Solution(object):
     def maxSlidingWindow(self, nums, k):
@@ -28,8 +28,8 @@ class Solution(object):
                 result.append(nums[queue[0]])
                 # 过程中始终保持deque[0]为最大值的索引
         return result
-````
-```
+# ````
+# ```
 # python 方法二：暴力解法
 class Solution(object):
     def maxSlidingWindow(self, nums, k):
@@ -58,4 +58,4 @@ class Solution(object):
             i+=1
             j+=1
         return res
-```
+# ```

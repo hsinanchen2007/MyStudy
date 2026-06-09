@@ -1,11 +1,11 @@
-### 解题思路
-1. 使用栈，栈先进后出的特性使得它来反转轻而易举
-2. 使用三个指针
-3. 使用俩个指针，其实是将头节点的Next作为第三个指针来用
+// ### 解题思路
+// 1. 使用栈，栈先进后出的特性使得它来反转轻而易举
+// 2. 使用三个指针
+// 3. 使用俩个指针，其实是将头节点的Next作为第三个指针来用
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -77,4 +77,4 @@ func reverseList(head *ListNode) *ListNode {
     }
     
 }
-```
+// ```

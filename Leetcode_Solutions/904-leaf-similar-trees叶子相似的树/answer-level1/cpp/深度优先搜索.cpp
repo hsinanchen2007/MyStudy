@@ -1,8 +1,8 @@
-### 解题思路
-用两个vector数组存储两个树的叶子结点的值，然后比较两个数组。
-### 代码
+// ### 解题思路
+// 用两个vector数组存储两个树的叶子结点的值，然后比较两个数组。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ public:
         return true;
     }
 };
-```
+// ```

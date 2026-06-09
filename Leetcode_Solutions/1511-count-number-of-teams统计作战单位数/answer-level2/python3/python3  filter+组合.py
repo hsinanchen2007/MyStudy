@@ -1,8 +1,8 @@
-思路：
-1.通过有顺序的排列组合，获取所有的可能性
-2.通过一个升序和一个降序的filter进行过滤
-3.输出过滤后的列表的长度
-```
+# 思路：
+# 1.通过有顺序的排列组合，获取所有的可能性
+# 2.通过一个升序和一个降序的filter进行过滤
+# 3.输出过滤后的列表的长度
+# ```
 
 class Solution:
     def numTeams(self, rating: List[int]) -> int:
@@ -35,4 +35,4 @@ class Solution:
         result = filter(good, temp)
         result = [i for i in result]
         return len(result)
-```
+# ```

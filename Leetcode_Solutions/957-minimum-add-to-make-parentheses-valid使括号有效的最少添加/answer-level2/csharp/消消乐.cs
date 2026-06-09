@@ -1,9 +1,9 @@
-### 解题思路
-遍历替换
+// ### 解题思路
+// 遍历替换
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MinAddToMakeValid(string S) {
         string unit="()";
@@ -12,4 +12,4 @@ public class Solution {
         return S.Length;
     }
 }
-```
+// ```

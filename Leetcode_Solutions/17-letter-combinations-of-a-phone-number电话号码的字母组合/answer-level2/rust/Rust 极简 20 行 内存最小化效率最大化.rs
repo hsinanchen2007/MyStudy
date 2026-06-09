@@ -1,5 +1,5 @@
-我实在强迫症，很喜欢用 unsafe，看看就好。
-```rust
+// 我实在强迫症，很喜欢用 unsafe，看看就好。
+// ```rust
 const LETTERS: [&[u8]; 8] = [b"abc", b"def", b"ghi", b"jkl", b"mno", b"pqrs", b"tuv", b"wxyz"];
 pub fn letter_combinations(digits: String) -> Vec<String> {
     let len = digits.len();
@@ -20,4 +20,4 @@ fn recursive_push(buf: &mut Vec<u8>, res: &mut Vec<String>, i: usize, digits: &[
         }
     }
 }
-```
+// ```

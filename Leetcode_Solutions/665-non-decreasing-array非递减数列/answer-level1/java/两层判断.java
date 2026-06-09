@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public static boolean checkPossibility(int[] nums){
 		int count = 0;
@@ -14,4 +14,4 @@ class Solution {
 		return true;
 	}
 }
-```
+// ```

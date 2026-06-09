@@ -1,28 +1,28 @@
-# 审题
-1. 只输出是否有环
-2. 可以用 O(1)（即，常量）内存
-3. 题目并没有说是否有重复元素
+// # 审题
+// 1. 只输出是否有环
+// 2. 可以用 O(1)（即，常量）内存
+// 3. 题目并没有说是否有重复元素
 
-# 思路
-1. hash表，重复则有环
-2. 双指针：快慢指针
+// # 思路
+// 1. hash表，重复则有环
+// 2. 双指针：快慢指针
 
-# 反馈
-1. 会有重复数据
-2. 不能用值判重，但可以用节点判重
-3. 异常方式
-4. 递归，可以不管原对象
+// # 反馈
+// 1. 会有重复数据
+// 2. 不能用值判重，但可以用节点判重
+// 3. 异常方式
+// 4. 递归，可以不管原对象
 
-# 代码实现
-1. hash表
-2. 快慢指针
-3. 快慢指针异常版
-4. 递归：破坏链表结构
-5. 递归：标记法
+// # 代码实现
+// 1. hash表
+// 2. 快慢指针
+// 3. 快慢指针异常版
+// 4. 递归：破坏链表结构
+// 5. 递归：标记法
 
-## 1.hash表
+// ## 1.hash表
 
-```java
+// ```java
 private boolean hashSolution(ListNode head) {
     Set<ListNode> set = new LinkedHashSet<>();
     while (head != null) {
@@ -34,11 +34,11 @@ private boolean hashSolution(ListNode head) {
     }
     return false;
 }
-```
+// ```
 
-## 2.双指针：快慢指针
+// ## 2.双指针：快慢指针
 
-```java
+// ```java
 private boolean slowAndFastSolution(ListNode head) {
     if (head == null) {
         return false;
@@ -55,11 +55,11 @@ private boolean slowAndFastSolution(ListNode head) {
 
     return false;
 }
-```
+// ```
 
-## 3.快慢指针异常版
+// ## 3.快慢指针异常版
 
-```java
+// ```java
 private boolean slowAndFastExceptionSolution(ListNode head) {
     try {
         ListNode slow = head;
@@ -73,11 +73,11 @@ private boolean slowAndFastExceptionSolution(ListNode head) {
         return false;
     }
 }
-```
+// ```
 
-## 4.递归：破坏链表结构
+// ## 4.递归：破坏链表结构
 
-```java
+// ```java
 private boolean traverseBreakSolution(ListNode head) {
     if (head == null || head.next == null) {
         return false;
@@ -91,11 +91,11 @@ private boolean traverseBreakSolution(ListNode head) {
     head.next = head;
     return traverseBreakSolution(breaker);
 }
-```
+// ```
 
-## 5.递归：标记法
+// ## 5.递归：标记法
 
-```java
+// ```java
 private boolean traverseMarkSolution(ListNode head) {
     if (head == null) {
         return false;
@@ -106,11 +106,11 @@ private boolean traverseMarkSolution(ListNode head) {
     head.val = 0xcafebabe;
     return traverseMarkSolution(head.next);
 }
-```
+// ```
 
-## 6.旧代码
+// ## 6.旧代码
 
-```java
+// ```java
 public boolean hasCycle20191102(ListNode head) {
     Set<ListNode> visited = new HashSet<>();
     boolean contains = false;
@@ -136,4 +136,4 @@ public boolean hasCycleFastAntSlow(ListNode head) {
 
     return false;
 }
-```
+// ```

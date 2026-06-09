@@ -1,14 +1,14 @@
-主要分为3个步骤，核心点就一个：
+# 主要分为3个步骤，核心点就一个：
 
-1、首先判断最后结果的符号，也就是判断除数和被除数和0的关系，然后将两者都转化为正数。
+# 1、首先判断最后结果的符号，也就是判断除数和被除数和0的关系，然后将两者都转化为正数。
 
-2、然后我们不断的divisor倍增（用加法实现），直到找到倍增后大于dividend，这个时候我们保存这个倍数index。
-然后将dividend减去index乘以divisor的值temp，；
-接下来递归解决就行。
+# 2、然后我们不断的divisor倍增（用加法实现），直到找到倍增后大于dividend，这个时候我们保存这个倍数index。
+# 然后将dividend减去index乘以divisor的值temp，；
+# 接下来递归解决就行。
 
-3、判断最后的结果，如果大于存储边界，则存储最大值即可。
+# 3、判断最后的结果，如果大于存储边界，则存储最大值即可。
 
-```
+# ```
 class Solution(object):
     def divide(self, dividend, divisor):
         """
@@ -40,4 +40,4 @@ class Solution(object):
         if returnNum >= 2147483648:
             return 2147483647
         return returnNum
-```
+# ```

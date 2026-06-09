@@ -1,9 +1,9 @@
-### 解题思路
-暴力扫描 当遇到一个L计数 当遇到一个R计数 当LR数量一样的时候 说明有一对平衡字符串
+# ### 解题思路
+# 暴力扫描 当遇到一个L计数 当遇到一个R计数 当LR数量一样的时候 说明有一对平衡字符串
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def balancedStringSplit(self, s):
         """
@@ -23,4 +23,4 @@ class Solution(object):
                 count += 1
         return count
 
-```
+# ```

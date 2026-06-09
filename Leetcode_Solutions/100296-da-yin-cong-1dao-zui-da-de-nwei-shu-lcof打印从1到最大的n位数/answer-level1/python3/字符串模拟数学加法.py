@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def printNumbers(self, n: int) -> List[int]:
         number = ['0'] * n
@@ -46,4 +46,4 @@ class Solution:
         recur('', 0)
 
         return ans[1:]
-```
+# ```

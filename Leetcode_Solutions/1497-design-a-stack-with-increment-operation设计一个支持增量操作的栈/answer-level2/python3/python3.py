@@ -1,11 +1,11 @@
-### 解题思路
-总体来说就是类的编写，没什么难度
-思路：用列表来模拟栈
-列表的pop方法默认删除最后一个元素并返回该元素
+# ### 解题思路
+# 总体来说就是类的编写，没什么难度
+# 思路：用列表来模拟栈
+# 列表的pop方法默认删除最后一个元素并返回该元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class CustomStack:
 
     def __init__(self, maxSize: int):
@@ -38,4 +38,4 @@ class CustomStack:
 # obj.push(x)
 # param_2 = obj.pop()
 # obj.increment(k,val)
-```
+# ```

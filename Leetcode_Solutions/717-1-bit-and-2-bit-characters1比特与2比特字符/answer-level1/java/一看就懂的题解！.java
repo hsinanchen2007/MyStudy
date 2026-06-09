@@ -1,4 +1,4 @@
-```
+// ```
 var isOneBitCharacter = function (bits) {
     if (bits.length === 1) return true
     for (let i = 0; i < bits.length; i++) {
@@ -13,4 +13,4 @@ var isOneBitCharacter = function (bits) {
     }
     return false
 };
-```
+// ```

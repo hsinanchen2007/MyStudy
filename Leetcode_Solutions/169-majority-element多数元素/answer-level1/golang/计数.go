@@ -1,5 +1,5 @@
-计数
-```
+// 计数
+// ```
 func majorityElement(nums []int) int {
     c := map[int]int{}
     for _, v := range nums {
@@ -12,4 +12,4 @@ func majorityElement(nums []int) int {
     }
     return nums[0]
 }
-```
+// ```

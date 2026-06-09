@@ -1,10 +1,10 @@
-### 解题思路
-1. 拿出第n个元素a[n], 然后获取差值d=target-n
-2. 在数组内用二分法寻找d
+// ### 解题思路
+// 1. 拿出第n个元素a[n], 然后获取差值d=target-n
+// 2. 在数组内用二分法寻找d
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -36,4 +36,4 @@ var twoSum = function(nums, target) {
     }
     return [];
 };
-```
+// ```

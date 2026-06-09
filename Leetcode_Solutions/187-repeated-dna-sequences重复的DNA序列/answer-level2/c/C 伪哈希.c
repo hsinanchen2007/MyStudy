@@ -1,4 +1,4 @@
-```
+// ```
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -89,4 +89,4 @@ char ** findRepeatedDnaSequences(char * s, int* returnSize){
 
 
 
-```
+// ```

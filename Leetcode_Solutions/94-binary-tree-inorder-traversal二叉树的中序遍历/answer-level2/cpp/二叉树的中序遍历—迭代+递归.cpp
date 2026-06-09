@@ -1,6 +1,6 @@
-方法一 迭代
-遍历时顺序：左子树->根节点->右子树，因此先将根节点压入栈中
-```
+// 方法一 迭代
+// 遍历时顺序：左子树->根节点->右子树，因此先将根节点压入栈中
+// ```
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
@@ -18,9 +18,9 @@ public:
         return res;      
     }
 };
-```
-方法二 递归
-```
+// ```
+// 方法二 递归
+// ```
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
@@ -35,5 +35,5 @@ public:
         helper(root->right,res);
     }
 };
-```
+// ```
 

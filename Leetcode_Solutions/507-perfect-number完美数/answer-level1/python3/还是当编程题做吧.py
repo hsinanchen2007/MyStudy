@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def checkPerfectNumber(self, num: int) -> bool:
         if num<=1:
@@ -15,4 +15,4 @@ class Solution:
                 nums.append(i)
                 nums.append(num//i)
         return sum(nums)==num
-```
+# ```

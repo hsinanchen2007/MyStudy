@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
@@ -11,6 +11,6 @@ class Solution:
             else:
                 return False
         return not stack
-```
+# ```
 
 

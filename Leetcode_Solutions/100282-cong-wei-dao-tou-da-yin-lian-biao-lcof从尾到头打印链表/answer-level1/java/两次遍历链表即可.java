@@ -1,6 +1,6 @@
-注册LeetCode好久，今晚第一次刷题，第一次击溃了100%用户，这是真的吗？
+// 注册LeetCode好久，今晚第一次刷题，第一次击溃了100%用户，这是真的吗？
 
-```java
+// ```java
 class Solution {
     public int[] reversePrint(ListNode head) {
         ListNode saved = head;
@@ -19,4 +19,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-LRU是最近最少使用， 使用nodeMap寻址，链表表示访问时间
+// LRU是最近最少使用， 使用nodeMap寻址，链表表示访问时间
 
-LFU是最不经常使用，使用nodeMap寻址，freqMap表示每个频次的LRU链表
+// LFU是最不经常使用，使用nodeMap寻址，freqMap表示每个频次的LRU链表
 
-有很多细节问题，需要调试才能找到
+// 有很多细节问题，需要调试才能找到
 
-```
+// ```
 class LFUCache {
     // 容量
     private int capacity;
@@ -155,4 +155,4 @@ class LFUCache {
 
     }
 }
-```
+// ```

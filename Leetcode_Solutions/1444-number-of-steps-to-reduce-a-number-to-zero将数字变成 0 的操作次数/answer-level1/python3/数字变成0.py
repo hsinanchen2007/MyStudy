@@ -1,5 +1,5 @@
-此处贴出自己的代码
-```
+# 此处贴出自己的代码
+# ```
 class Solution:
     def numberOfSteps (self, num: int) -> int:
         count = 0
@@ -11,4 +11,4 @@ class Solution:
                 num -= 1
                 count+=1
         return count
-```
+# ```

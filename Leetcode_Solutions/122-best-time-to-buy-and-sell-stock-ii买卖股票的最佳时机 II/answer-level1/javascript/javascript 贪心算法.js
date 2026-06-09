@@ -1,9 +1,9 @@
-### 解题思路
-只要某一天的价格比后一天的低，就买入，第二天卖掉，总利润加上差值
+// ### 解题思路
+// 只要某一天的价格比后一天的低，就买入，第二天卖掉，总利润加上差值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -18,4 +18,4 @@ var maxProfit = function(prices) {
     }
     return max
 };
-```
+// ```

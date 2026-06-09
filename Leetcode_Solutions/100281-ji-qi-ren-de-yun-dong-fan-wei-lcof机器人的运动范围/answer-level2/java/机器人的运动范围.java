@@ -1,11 +1,11 @@
-### 解题思路
-1.定义cnt记录到达格子的次数,定义visit数组记录当前格子是否进入过
-2.从0,0坐标开始移动递归判断当前格子是否符合行列坐标位数之和小于k,符合则visit[i][j] = 1,并且cnt++
-3.返回cnt
+// ### 解题思路
+// 1.定义cnt记录到达格子的次数,定义visit数组记录当前格子是否进入过
+// 2.从0,0坐标开始移动递归判断当前格子是否符合行列坐标位数之和小于k,符合则visit[i][j] = 1,并且cnt++
+// 3.返回cnt
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int cnt = 0;
 	public int movingCount(int m, int n, int k) {
@@ -43,4 +43,4 @@ class Solution {
         return sum>threshold;
     }
 }
-```
+// ```

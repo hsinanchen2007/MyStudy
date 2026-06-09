@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-二分查找剪枝筛选，一般来说比O(N)法快
+# 二分查找剪枝筛选，一般来说比O(N)法快
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix or not matrix[0]:
@@ -20,4 +20,4 @@ class Solution:
                 return True
             p = m
         return False
-```
+# ```

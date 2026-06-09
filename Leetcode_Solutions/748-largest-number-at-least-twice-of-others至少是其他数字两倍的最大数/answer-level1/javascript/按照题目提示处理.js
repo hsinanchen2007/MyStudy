@@ -1,10 +1,10 @@
-### 解题思路
-1. 找最大值
-2. 除最大值的那个元素外，若有max<num*2则返回-1
+// ### 解题思路
+// 1. 找最大值
+// 2. 除最大值的那个元素外，若有max<num*2则返回-1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -18,4 +18,4 @@ var dominantIndex = function(nums) {
     }
     return nums.findIndex(val => val === max)
 };
-```
+// ```

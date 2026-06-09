@@ -1,12 +1,12 @@
-如果一个字符串括号匹配，那么其内层括号也一定是匹配的。
+// 如果一个字符串括号匹配，那么其内层括号也一定是匹配的。
 
-1. 先从左向右扫描找到第一个`)`
-2. 从右向左扫描找到第一个`(`，如果找到，对两者做标记
-3. 回到1，直到遍历整个字符串
+// 1. 先从左向右扫描找到第一个`)`
+// 2. 从右向左扫描找到第一个`(`，如果找到，对两者做标记
+// 3. 回到1，直到遍历整个字符串
 
-此时，从左到右遍历找出最长的标记了的连续子串就行了。
+// 此时，从左到右遍历找出最长的标记了的连续子串就行了。
 
-```cpp []
+// ```cpp []
 /*
  * @lc app=leetcode.cn id=32 lang=cpp
  *
@@ -53,8 +53,8 @@ public:
   √ Your runtime beats 46.24 % of cpp submissions
   √ Your memory usage beats 97.46 % of cpp submissions (9.1 MB)
 */
-```
-```java []
+// ```
+// ```java []
 /*
  * @lc app=leetcode.cn id=32 lang=java
  *
@@ -98,6 +98,6 @@ class Solution {
   √ Your memory usage beats 86.81 % of java submissions (36.8 MB)
 */
 
-```
+// ```
 
-本题解被同步发布在[我的博客](https://www.ntutn.top/show/88)上，有空可以去踩踩。
+// 本题解被同步发布在[我的博客](https://www.ntutn.top/show/88)上，有空可以去踩踩。

@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/697a2f93cf4ada2d491f39529b378bc01ca5a093a042d8c6fa7a19d481b93f56-image.png)  
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/697a2f93cf4ada2d491f39529b378bc01ca5a093a042d8c6fa7a19d481b93f56-image.png)  
 
-解题思路与最小重复数思路比较像：[最小重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/solution/xun-zhao-zhong-fu-shu-chang-gui-si-lu-tou-ji-qu-qi/)  
+// 解题思路与最小重复数思路比较像：[最小重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/solution/xun-zhao-zhong-fu-shu-chang-gui-si-lu-tou-ji-qu-qi/)  
 
-详细解答看下面注释
-### 代码
+// 详细解答看下面注释
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -58,4 +58,4 @@ var firstMissingPositive = function(nums) {
     }
     return length + 1;
 };
-```
+// ```

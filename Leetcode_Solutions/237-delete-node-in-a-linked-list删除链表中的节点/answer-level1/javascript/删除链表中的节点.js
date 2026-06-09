@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-将node.next合到node中
+// 将node.next合到node中
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -21,4 +21,4 @@ var deleteNode = function(node) {
     // node.next = node.next.next
     Object.assign(node, node.next);
 };
-```
+// ```

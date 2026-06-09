@@ -1,5 +1,5 @@
-简单递归
-```
+// 简单递归
+// ```
 int g_sum = 0;
 int IsUnivaltree(struct TreeNode* root){
     if (root == NULL) {
@@ -25,4 +25,4 @@ int countUnivalSubtrees(struct TreeNode* root){
     IsUnivaltree(root);
     return g_sum;
 }
-```
+// ```

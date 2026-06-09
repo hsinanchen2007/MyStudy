@@ -1,9 +1,9 @@
-### 解题思路
-建立单调栈并设置辅助节点$-1$(考虑所有柱子的公共面积)
+# ### 解题思路
+# 建立单调栈并设置辅助节点$-1$(考虑所有柱子的公共面积)
 
-### 代码
+# ### 代码
 
-```c++ []
+# ```c++ []
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
@@ -28,8 +28,8 @@ public:
         return maxA;
     }
 };
-```
-```java []
+# ```
+# ```java []
 class Solution {
     public int largestRectangleArea(int[] heights) {
         // 单调栈
@@ -52,8 +52,8 @@ class Solution {
         return maxA;
     }
     private Stack<Integer> st;
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         N = len(heights)
@@ -70,4 +70,4 @@ class Solution:
             st.append(i)
 
         return S
-```
+# ```

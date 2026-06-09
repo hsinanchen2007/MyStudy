@@ -1,9 +1,9 @@
-### 解题思路
-正序遍历，并且存储到列表中。然后初始化数组，存储到数组中。
+// ### 解题思路
+// 正序遍历，并且存储到列表中。然后初始化数组，存储到数组中。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

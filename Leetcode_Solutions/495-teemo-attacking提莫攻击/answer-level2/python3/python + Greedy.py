@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findPoisonedDuration(self, timeSeries: List[int], duration: int) -> int:
         # 1, 2
@@ -15,4 +15,4 @@ class Solution:
             else:
                 max_end = max(max_end, time + duration)
         return res
-```
+# ```

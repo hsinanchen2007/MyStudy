@@ -1,27 +1,27 @@
-### 解题思路
-给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
-在杨辉三角中，每个数是它左上方和右上方的数的和。
+// ### 解题思路
+// 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
+// 在杨辉三角中，每个数是它左上方和右上方的数的和。
 
-示例:
+// 示例:
 
-输入: 5
-输出:
-[
-     [1],
-    [1,1],
-   [1,2,1],
-  [1,3,3,1],
- [1,4,6,4,1]
-]
-
-
+// 输入: 5
+// 输出:
+// [
+//      [1],
+//     [1,1],
+//    [1,2,1],
+//   [1,3,3,1],
+//  [1,4,6,4,1]
+// ]
 
 
-注意体会leetcode风格 各参数含义
 
-### 代码
 
-```c
+// 注意体会leetcode风格 各参数含义
+
+// ### 代码
+
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -49,4 +49,4 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes){
     }
     return res;
 }
-```
+// ```

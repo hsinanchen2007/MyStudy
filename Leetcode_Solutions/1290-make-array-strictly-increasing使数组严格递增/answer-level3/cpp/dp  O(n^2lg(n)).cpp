@@ -1,20 +1,20 @@
-国际版上看到的解法,虽然不是最快的解法，但我认为是非常容易理解的解法：
-[国际版解法参考](https://leetcode.com/problems/make-array-strictly-increasing/discuss/377680/Simple-Java-DP-Solution-%2B-TreeSet-with-Explanation-beats-100)
+// 国际版上看到的解法,虽然不是最快的解法，但我认为是非常容易理解的解法：
+// [国际版解法参考](https://leetcode.com/problems/make-array-strictly-increasing/discuss/377680/Simple-Java-DP-Solution-%2B-TreeSet-with-Explanation-beats-100)
 
-1. ```dp[i][j]```表示，将数组```arr1```的前```j```个元素通过```i```次替换后变为严格递增序列时，序列中最后一个元素的最小值,第```j```个元素的最小值。
-2. 求```dp[i][j+1]```时，递推如下：当```arr[j+1] > dp[i][j] ```时，即前```j```个元素已经严格递增，这时```arr[j+1]```大于严格递增序列的最大值时，```arr[j+1]```,直接加在序列末尾，即这时的序列应该严格递增，且此时的序列进行替换的次数仍然为```i```次。
-3. 另一种选择，或者选择将```arr[j+1]```进行元素替换，此时，我们应当在数组```arr2```中找到第一个比```dp[i-1][j]```大的数，```dp[i-1][j]```即前```j```个元素进行```i-1```替换后的序列的最大值，我们使用二分查找即可在```O(lgn)```时间复杂度内找到该值,此时我们仍然保证前```j+1```个元素进行了```i```次替换。
-4. 递推公式如下: 
-    $$ dp[i][j+1] = min\left\{
-    \begin{array}{rcl}
-    arr1[j+1] &  & {if \: arr1[j+1] > dp[i][j]} \\ 
-              &  &   \\
-    arr2.upperbound(dp[i-1][j]) &   &{if \: arr2.upperbound(dp[i-1][j]) \: \: exisit} \\
-    \end{array} \right.$$
+// 1. ```dp[i][j]```表示，将数组```arr1```的前```j```个元素通过```i```次替换后变为严格递增序列时，序列中最后一个元素的最小值,第```j```个元素的最小值。
+// 2. 求```dp[i][j+1]```时，递推如下：当```arr[j+1] > dp[i][j] ```时，即前```j```个元素已经严格递增，这时```arr[j+1]```大于严格递增序列的最大值时，```arr[j+1]```,直接加在序列末尾，即这时的序列应该严格递增，且此时的序列进行替换的次数仍然为```i```次。
+// 3. 另一种选择，或者选择将```arr[j+1]```进行元素替换，此时，我们应当在数组```arr2```中找到第一个比```dp[i-1][j]```大的数，```dp[i-1][j]```即前```j```个元素进行```i-1```替换后的序列的最大值，我们使用二分查找即可在```O(lgn)```时间复杂度内找到该值,此时我们仍然保证前```j+1```个元素进行了```i```次替换。
+// 4. 递推公式如下: 
+//     $$ dp[i][j+1] = min\left\{
+//     \begin{array}{rcl}
+//     arr1[j+1] &  & {if \: arr1[j+1] > dp[i][j]} \\ 
+//               &  &   \\
+//     arr2.upperbound(dp[i-1][j]) &   &{if \: arr2.upperbound(dp[i-1][j]) \: \: exisit} \\
+//     \end{array} \right.$$
 
-5. 我们只需要找到最小转换次数的```i```，能够使得满足前```n```个元素成为严格递增序列即可。
+// 5. 我们只需要找到最小转换次数的```i```，能够使得满足前```n```个元素成为严格递增序列即可。
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int makeArrayIncreasing(vector<int>& arr1, vector<int>& arr2) {
@@ -46,8 +46,8 @@ public:
         return -1;
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def makeArrayIncreasing(self, arr1: List[int], arr2: List[int]) -> int:
         n = len(arr1)
@@ -72,8 +72,8 @@ class Solution:
                     return j
             
         return -1
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int makeArrayIncreasing(int[] arr1, int[] arr2) {
         if (arr1 == null || arr1.length == 0) return -1;
@@ -101,5 +101,5 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 

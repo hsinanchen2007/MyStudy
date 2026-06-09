@@ -1,9 +1,9 @@
-### 解题思路
-分别统计计数两串出现的字母，然后一一比较个数 不一致就输出
+// ### 解题思路
+// 分别统计计数两串出现的字母，然后一一比较个数 不一致就输出
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char findTheDifference(char * s, char * t){
     int i,j;
      int l=strlen(s);
@@ -40,4 +40,4 @@ char findTheDifference(char * s, char * t){
      }
      return 0;
 }
-```
+// ```

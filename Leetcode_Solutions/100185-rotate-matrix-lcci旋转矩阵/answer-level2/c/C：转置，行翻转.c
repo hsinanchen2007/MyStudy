@@ -1,8 +1,8 @@
-思路：
-顺时针旋转：先按主对角线转置，再按行翻转
-逆时针旋转：先按主对角线转置，再按列翻转
-注意处理下标和交换
-```
+// 思路：
+// 顺时针旋转：先按主对角线转置，再按行翻转
+// 逆时针旋转：先按主对角线转置，再按列翻转
+// 注意处理下标和交换
+// ```
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int n = matrixSize;
     int i, j;
@@ -22,4 +22,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
     }
     return;
 }
-```
+// ```

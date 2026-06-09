@@ -1,10 +1,10 @@
-### 解题思路
-增速思路：1.手写快速排序，将字符数组按长度降序排列比用Arrays自带的排序要快很多
-2.将每个字符串的字符逆序插入字典树，直接从字符串的尾部开始可以提高效率.
-3.根结点作为成员变量可以省去传参所浪费的时间
-### 代码
+// ### 解题思路
+// 增速思路：1.手写快速排序，将字符数组按长度降序排列比用Arrays自带的排序要快很多
+// 2.将每个字符串的字符逆序插入字典树，直接从字符串的尾部开始可以提高效率.
+// 3.根结点作为成员变量可以省去传参所浪费的时间
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     Trie trie = new Trie();
     public int minimumLengthEncoding(String[] words) {
@@ -70,4 +70,4 @@ public class Solution {
     TrieNode(){}
     public TrieNode(char val) { this.val = val; }
 }
-```
+// ```

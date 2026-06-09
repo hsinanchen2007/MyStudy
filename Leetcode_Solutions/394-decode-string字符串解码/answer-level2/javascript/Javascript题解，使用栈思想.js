@@ -1,4 +1,4 @@
-```
+// ```
 var decodeString = function (s) {
     let num = ""
     let unit = ""
@@ -25,4 +25,4 @@ var decodeString = function (s) {
     }
     return unit
 };
-```
+// ```

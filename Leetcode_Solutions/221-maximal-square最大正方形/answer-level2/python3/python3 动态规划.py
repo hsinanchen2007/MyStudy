@@ -1,9 +1,9 @@
-### 解题思路
-转移方程dp[i][j]=min(dp[i-1][j-1],dp[i][j-1],dp[i-1][j])+1
-也就是说当前正方形的变长是由左上角，上方，左方三个地方的最小正值确定
-### 代码
+# ### 解题思路
+# 转移方程dp[i][j]=min(dp[i-1][j-1],dp[i][j-1],dp[i-1][j])+1
+# 也就是说当前正方形的变长是由左上角，上方，左方三个地方的最小正值确定
+# ### 代码
 
-```
+# ```
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
         if not matrix:
@@ -20,4 +20,4 @@ class Solution:
 
 
        
-```
+# ```

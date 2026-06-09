@@ -1,6 +1,6 @@
 
-使用volatile保证计数器自增操作的可靠性，加synchronized锁避免同时操作
-```java
+// 使用volatile保证计数器自增操作的可靠性，加synchronized锁避免同时操作
+// ```java
 class FizzBuzz {
     private int n;
     private volatile int i;
@@ -81,6 +81,6 @@ class FizzBuzz {
         
     }
 }
-```
-执行用时 6 ms
-内存消耗 36.5 MB
+// ```
+// 执行用时 6 ms
+// 内存消耗 36.5 MB

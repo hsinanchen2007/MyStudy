@@ -1,9 +1,9 @@
-### 解题思路
-递归思路：fn(x) = max(fn(x.left),fn(x.right))+1
+// ### 解题思路
+// 递归思路：fn(x) = max(fn(x.left),fn(x.right))+1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -28,4 +28,4 @@ const diameterOfBinaryTree = (root)=> {
   depth(root);
   return res > 1 ? res - 1 : 0;
 };
-```
+// ```

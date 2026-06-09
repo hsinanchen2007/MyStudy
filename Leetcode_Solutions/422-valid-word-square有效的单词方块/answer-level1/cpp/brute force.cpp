@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validWordSquare(vector<string>& words) {
@@ -21,4 +21,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-找到分配规律，不难实现。
+// ### 解题思路
+// 找到分配规律，不难实现。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int ans[] = new int[num_people];
@@ -25,4 +25,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

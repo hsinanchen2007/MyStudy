@@ -1,9 +1,9 @@
-### 解题思路
-将n转换为二进制，通过累乘减少计算
+// ### 解题思路
+// 将n转换为二进制，通过累乘减少计算
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double myPow(double x, int n) {
@@ -28,4 +28,4 @@ public:
         return flag?ans:1/ans;
     }
 };
-```
+// ```

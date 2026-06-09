@@ -1,15 +1,15 @@
-### 解题思路
-本题直观的思路是使用hash表解决查找前一个定差值。
+// ### 解题思路
+// 本题直观的思路是使用hash表解决查找前一个定差值。
 
-对于C语言来说，主要使用uthash库函数解决问题。
+// 对于C语言来说，主要使用uthash库函数解决问题。
 
-但是本题的c实现难点在于，**直接将arr[i]的值作为key，使用uthash解决本题时，出现了hash冲突。**
+// 但是本题的c实现难点在于，**直接将arr[i]的值作为key，使用uthash解决本题时，出现了hash冲突。**
 
-一种解决办法时将arr[i]*大素数，来解决hash冲突问题。
+// 一种解决办法时将arr[i]*大素数，来解决hash冲突问题。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
  * @lc app=leetcode.cn id=1218 lang=c
  *
@@ -99,4 +99,4 @@ int longestSubsequence(int* arr, int arrSize, int difference){
 // @lc code=end
 
 
-```
+// ```

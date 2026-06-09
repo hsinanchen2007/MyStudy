@@ -1,5 +1,5 @@
-每次循环中dp[i][j]的取值只和三个变量有关系：dp[i-1][j-1],dp[i][j-1],dp[i-1][j] ，所以用a,c,b三个临时变量取代它们，但是需要维持一个一维数组up来记录变量b的变化，因为下一次外部循环开始后需要up来给b赋值
-```
+// 每次循环中dp[i][j]的取值只和三个变量有关系：dp[i-1][j-1],dp[i][j-1],dp[i-1][j] ，所以用a,c,b三个临时变量取代它们，但是需要维持一个一维数组up来记录变量b的变化，因为下一次外部循环开始后需要up来给b赋值
+// ```
 func longestCommonSubsequence(text1 string, text2 string) int {
 	m, n := len(text1), len(text2)
 	up := make([]int, n+2)
@@ -31,4 +31,4 @@ func max(a, b int) int {
 	}
 	return b
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 const int maxn=1e4+10;
 map<char,vector<int>>mp;
 int m;
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

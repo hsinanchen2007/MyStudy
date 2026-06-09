@@ -1,10 +1,10 @@
-### 解题思路
-这道题应该算是比较常见的链表基础题, 考点应该还是做好链表的迭代循环处理.
-注意一下这里开头的结点没真正存数据, 所以return的时候要return p3.next
+# ### 解题思路
+# 这道题应该算是比较常见的链表基础题, 考点应该还是做好链表的迭代循环处理.
+# 注意一下这里开头的结点没真正存数据, 所以return的时候要return p3.next
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -41,4 +41,4 @@ class Solution:
         return l3.next
             
             
-```
+# ```

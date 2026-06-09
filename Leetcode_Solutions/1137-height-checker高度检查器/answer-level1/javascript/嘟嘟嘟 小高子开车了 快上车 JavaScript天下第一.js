@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 /**
  * @param {number[]} heights
  * @return {number}
@@ -22,5 +22,5 @@ var heightChecker = function(heights) {
     })
     return int
 };
-```
+// ```
 

@@ -1,6 +1,6 @@
-C语言桶排序的解题思路。
-对于每一个桶内的排序，没有做好动态排序，最终使用了qsort来排序，这里没有处理好，后续改改这块的代码。
-```
+// C语言桶排序的解题思路。
+// 对于每一个桶内的排序，没有做好动态排序，最终使用了qsort来排序，这里没有处理好，后续改改这块的代码。
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -59,6 +59,6 @@ int* sortByBits(int* arr, int arrSize, int* returnSize){
     return res;
 
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/43c6ef2c080296766a0956172223d4d2d669e0401aa0096977d0c19ffc62ea21-image.png)
+// ![image.png](https://pic.leetcode-cn.com/43c6ef2c080296766a0956172223d4d2d669e0401aa0096977d0c19ffc62ea21-image.png)

@@ -1,10 +1,10 @@
-### 解题思路
-画个图，理清思路。就是用二分查找每个时间的间隔点，然后统计间隔中的推文个数。
-借助C++的lower_bound可以完成完成二分查找。
+// ### 解题思路
+// 画个图，理清思路。就是用二分查找每个时间的间隔点，然后统计间隔中的推文个数。
+// 借助C++的lower_bound可以完成完成二分查找。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class TweetCounts {
 public:
     TweetCounts() {
@@ -48,4 +48,4 @@ public:
 private:
     unordered_map<string, vector<int>> mmap;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         r=n-1
@@ -25,4 +25,4 @@ class Solution:
                 c+=1
             l+=1
         return res
-```
+# ```

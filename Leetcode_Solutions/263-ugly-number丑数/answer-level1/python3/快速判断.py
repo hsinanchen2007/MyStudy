@@ -1,6 +1,6 @@
-![2a00e7f7994b6baa12dc98f41943a55.png](https://pic.leetcode-cn.com/fcd02f938bc9667db5946b77b106e3d17ddc9d0e0a8ba28f36f5582ec77ac8c0-2a00e7f7994b6baa12dc98f41943a55.png)
+# ![2a00e7f7994b6baa12dc98f41943a55.png](https://pic.leetcode-cn.com/fcd02f938bc9667db5946b77b106e3d17ddc9d0e0a8ba28f36f5582ec77ac8c0-2a00e7f7994b6baa12dc98f41943a55.png)
 
-```python []
+# ```python []
 class Solution:
     def isUgly(self, num: int) -> bool:
         if num <= 0:  ## 如果num非正，就不是丑数
@@ -17,5 +17,5 @@ class Solution:
                 return True
             if last == num:  ## 如果1轮操作后，num没变，说明num不是丑数
                 return False
-```
+# ```
 

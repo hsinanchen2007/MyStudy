@@ -1,4 +1,4 @@
-```
+// ```
 int* preorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize = 0;
     if(root == NULL)
@@ -41,4 +41,4 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
     }
     return out;
 }
-```
+// ```

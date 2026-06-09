@@ -1,11 +1,11 @@
-### 解题思路
-用dfs算法来找到全排列，编写代码的时候可以利用golang闭包的性质，减少dfs函数的参数，同时也可以减少内存消耗
+// ### 解题思路
+// 用dfs算法来找到全排列，编写代码的时候可以利用golang闭包的性质，减少dfs函数的参数，同时也可以减少内存消耗
 
-注意深拷贝的坑
+// 注意深拷贝的坑
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func permute(nums []int) [][]int {
 	var (
 		result  [][]int
@@ -32,4 +32,4 @@ func permute(nums []int) [][]int {
 	dfs(0)
 	return result
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
+# ### 解题思路
 
-用一个数组来进行简单计数。
-但要注意小写字母和大写字母要分开计数。
+# 用一个数组来进行简单计数。
+# 但要注意小写字母和大写字母要分开计数。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         a_hash = [0]*26
@@ -35,4 +35,4 @@ class Solution:
         result += tmp
 
         return result
-```
+# ```

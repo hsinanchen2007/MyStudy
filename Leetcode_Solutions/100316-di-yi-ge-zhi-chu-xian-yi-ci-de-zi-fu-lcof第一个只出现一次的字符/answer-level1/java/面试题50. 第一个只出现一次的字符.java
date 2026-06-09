@@ -1,9 +1,9 @@
-### 解题思路
-使用java中的map
+// ### 解题思路
+// 使用java中的map
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char firstUniqChar(String s) {
         char res=' ';
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

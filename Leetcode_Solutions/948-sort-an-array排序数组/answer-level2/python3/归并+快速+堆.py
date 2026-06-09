@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         def merge_sort(nums):
@@ -28,9 +28,9 @@ class Solution:
             return result
         return merge_sort(nums)
 
-```
+# ```
 
-```python3
+# ```python3
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         l,r=0,len(nums)-1
@@ -55,9 +55,9 @@ class Solution:
         sort(l,r)
         return nums
 
-```
+# ```
 
-```python3
+# ```python3
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         def heapify(nums, root, n):
@@ -87,4 +87,4 @@ class Solution:
             heapify(nums,0,n)
         return nums
 
-```
+# ```

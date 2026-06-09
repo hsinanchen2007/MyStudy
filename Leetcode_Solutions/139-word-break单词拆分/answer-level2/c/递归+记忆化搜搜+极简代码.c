@@ -1,4 +1,4 @@
-```
+// ```
 int g_st[1000];
 
 bool check(char *s, int start, char dist[])
@@ -31,4 +31,4 @@ bool wordBreak(char * s, char ** wordDict, int wordDictSize){
     memset(g_st, -1, sizeof(g_st));
     return dfs(s, 0, wordDict, wordDictSize);
 }
-```
+// ```

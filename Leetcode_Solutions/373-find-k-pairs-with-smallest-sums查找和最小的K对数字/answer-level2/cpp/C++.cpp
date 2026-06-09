@@ -1,4 +1,4 @@
-```
+// ```
 struct MyStruct
 {
   bool operator () (const vector<int>& v1, const vector<int>& v2) {
@@ -41,4 +41,4 @@ public:
     return res;
   }
 };
-```
+// ```

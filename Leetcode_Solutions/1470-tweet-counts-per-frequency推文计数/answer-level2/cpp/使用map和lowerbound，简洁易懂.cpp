@@ -1,4 +1,4 @@
-```
+// ```
 class TweetCounts {
 public:
     TweetCounts() {
@@ -25,4 +25,4 @@ private:
     map<string, int> _dict = {{"minute", 60}, {"hour", 3600}, {"day", 24 * 3600}};
     map<string,set<int> > _uid_records;
 };
-```
+// ```

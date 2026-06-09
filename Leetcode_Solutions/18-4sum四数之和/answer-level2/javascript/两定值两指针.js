@@ -1,9 +1,9 @@
-### 解题思路
-参考三数和问题，多添加一个定值
+// ### 解题思路
+// 参考三数和问题，多添加一个定值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -39,4 +39,4 @@ var fourSum = function (nums, target) {
     }
     return store
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-参考了大佬的方法
+# ### 解题思路
+# 参考了大佬的方法
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node(object):
@@ -45,4 +45,4 @@ class Solution(object):
                 cur = cur.next
             tmp = tmp.left
         return root
-```
+# ```

@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/dab7e0238b3c330382524b453654755d65e1af4599f57598763eac7901f50ed1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dab7e0238b3c330382524b453654755d65e1af4599f57598763eac7901f50ed1-image.png)
 
-### 解题思路
-利用isValidBST验证是否是二叉搜索树的函数
-递归法
+// ### 解题思路
+// 利用isValidBST验证是否是二叉搜索树的函数
+// 递归法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ int largestBSTSubtree(struct TreeNode* root){
 }
 
 
-```
+// ```

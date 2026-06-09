@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def getSkyline(self, buildings):
         """
@@ -86,4 +86,4 @@ class Solution(object):
         return [[key, value] for key, value in Hash.items()]
 
         
-```
+# ```

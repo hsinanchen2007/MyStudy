@@ -1,9 +1,9 @@
-    将每一个位置想象成一个桶, 桶的左右边界分别为 往左看的最大值和往右看的最大值
-    桶的理想容量为这两者中较小的那个
-    实际容量为, 理想容量 - 桶底的高度
+#     将每一个位置想象成一个桶, 桶的左右边界分别为 往左看的最大值和往右看的最大值
+#     桶的理想容量为这两者中较小的那个
+#     实际容量为, 理想容量 - 桶底的高度
 
 
-```python
+# ```python
 class Solution(object):
     def trap(self, height):
         """
@@ -30,4 +30,4 @@ class Solution(object):
                 ans += space
             left_max = max(left_max, height[i])
         return ans
-```
+# ```

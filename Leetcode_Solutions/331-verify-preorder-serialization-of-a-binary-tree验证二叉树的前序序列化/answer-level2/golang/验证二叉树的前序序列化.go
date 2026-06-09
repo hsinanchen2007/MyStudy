@@ -1,9 +1,9 @@
-### 解题思路
-出度和入度的关系
+// ### 解题思路
+// 出度和入度的关系
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isValidSerialization(preorder string) bool {
 	// 每个非空节点都有两个出度,每个结点都有一个入度(根节点除外), 出度==入度+1
 	splits := strings.Split(preorder, ",")
@@ -20,4 +20,4 @@ func isValidSerialization(preorder string) bool {
 	return edge == 0
 
 }
-```
+// ```

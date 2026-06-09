@@ -1,9 +1,9 @@
-### 解题思路
-求所有数出现次数的公约数
+// ### 解题思路
+// 求所有数出现次数的公约数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         int L=deck.length;
@@ -25,4 +25,4 @@ static int gcd(int a,int b){
             return b==0?a:gcd(b,a%b);
         }
 }
-```
+// ```

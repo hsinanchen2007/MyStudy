@@ -1,8 +1,8 @@
-## 思路分析
-归并排序
+// ## 思路分析
+// 归并排序
 
-## 代码实现
-```cpp
+// ## 代码实现
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -77,4 +77,4 @@ ListNode * merge(ListNode * left, ListNode * right)
     return head->next;
 }
 };
-```
+// ```

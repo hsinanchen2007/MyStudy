@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean verifyPostorder(int[] postorder) {
         return test(postorder, 0, postorder.length);  // [0, postorder.length) 左闭右开
@@ -26,7 +26,7 @@ class Solution {
         return test(postorder, start, i) && test(postorder, i, end-1);        
     }
 }
-```
-时间复杂度：对平衡的树，是O(nlogn),对退化成链表的二叉搜索树，O(n2)。
-ps:划分子序列的时候很容易出现"off-by-one"的问题（反正我经常出错），后来看了STL的某一个二分查找实现，用[left, right)表示区间以后情况大大改善，脑子也不纠结+1-1的问题了。
+// ```
+// 时间复杂度：对平衡的树，是O(nlogn),对退化成链表的二叉搜索树，O(n2)。
+// ps:划分子序列的时候很容易出现"off-by-one"的问题（反正我经常出错），后来看了STL的某一个二分查找实现，用[left, right)表示区间以后情况大大改善，脑子也不纠结+1-1的问题了。
 

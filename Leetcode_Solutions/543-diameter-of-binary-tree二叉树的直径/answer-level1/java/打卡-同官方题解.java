@@ -1,4 +1,4 @@
-  深度搜索，定义变量max与当前结点的直径比较
+//   深度搜索，定义变量max与当前结点的直径比较
     int max;
 
     public int diameterOfBinaryTree(TreeNode root) {

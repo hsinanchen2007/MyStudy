@@ -1,11 +1,11 @@
-方法一：左右各一个指针遍历并交换。
+// 方法一：左右各一个指针遍历并交换。
 
-1. 左奇右偶，则交换并移动左右指针；
-2. 左奇右奇，则向左移动右指针；
-3. 左偶右偶，则向右移动左指针；
-4. 左偶右奇，则直接移动左右指针。
+// 1. 左奇右偶，则交换并移动左右指针；
+// 2. 左奇右奇，则向左移动右指针；
+// 3. 左偶右偶，则向右移动左指针；
+// 4. 左偶右奇，则直接移动左右指针。
 
-```java
+// ```java
 class Solution {
     public int[] sortArrayByParity(int[] A){
         int left = 0;
@@ -29,11 +29,11 @@ class Solution {
         return A;
     }
 }
-```
+// ```
 
-方法二：另外开辟一个A.length大小的空间B，遍历A遇到偶数从左边插入，遇到奇数从右边插入。
+// 方法二：另外开辟一个A.length大小的空间B，遍历A遇到偶数从左边插入，遇到奇数从右边插入。
 
-```java
+// ```java
 class Solution {
     public int[] sortArrayByParity(int[] A) {
         int[] B = new int[A.length];
@@ -48,4 +48,4 @@ class Solution {
         return B;
     }
 }
-```
+// ```

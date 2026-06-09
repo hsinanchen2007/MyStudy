@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/ea02205fb238d79e6d7dcdf227bb19a62e77ee3254455d03003f101bcff9317e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ea02205fb238d79e6d7dcdf227bb19a62e77ee3254455d03003f101bcff9317e-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 直观思路：
 给每个小朋友分糖果，一个一个分，直到把所有糖果分完
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} candies
  * @param {number} num_people
@@ -33,4 +33,4 @@ var distributeCandies = function(candies, num_people) {
   
   return ans;
 };
-```
+// ```

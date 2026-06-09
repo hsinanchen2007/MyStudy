@@ -1,7 +1,7 @@
 
-辅助双向队列 写起来真费劲
+// 辅助双向队列 写起来真费劲
 
-```
+// ```
 #define MAX_LEN 10000
 
 typedef struct {
@@ -131,4 +131,4 @@ void maxQueueFree(MaxQueue* obj)
   free(obj);
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用左右指针，因为题目为升序数组，则左累加右累减即可找到最后的结果
+// ### 解题思路
+// 利用左右指针，因为题目为升序数组，则左累加右累减即可找到最后的结果
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
@@ -24,5 +24,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d86b8d27a726358664b313474bfb25f26599ce628a2026230241bd9d17665bd2-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d86b8d27a726358664b313474bfb25f26599ce628a2026230241bd9d17665bd2-image.png)

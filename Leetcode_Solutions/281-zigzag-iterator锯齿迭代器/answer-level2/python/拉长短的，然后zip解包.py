@@ -1,4 +1,4 @@
-```python
+# ```python
 class ZigzagIterator(object):
 
     def __init__(self, v1, v2):
@@ -38,4 +38,4 @@ class ZigzagIterator(object):
         :rtype: bool
         """
         return not self.cur == len(self.it)
-```
+# ```

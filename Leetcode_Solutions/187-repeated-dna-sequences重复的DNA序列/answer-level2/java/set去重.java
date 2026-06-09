@@ -1,8 +1,8 @@
-### 解题思路
-set直接去重即可。不过感觉如果用字典树应该更节省内存？
-### 代码
+// ### 解题思路
+// set直接去重即可。不过感觉如果用字典树应该更节省内存？
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
         Set<String> seen = new HashSet<String>();
@@ -23,4 +23,4 @@ class Solution {
         return l;
     }
 }
-```
+// ```

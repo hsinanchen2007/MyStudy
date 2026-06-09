@@ -1,9 +1,9 @@
-### 解题思路
-从0,0坐标开始深搜，搜完了就是答案
+// ### 解题思路
+// 从0,0坐标开始深搜，搜完了就是答案
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 inline int calcSum(int m) {
     int sum = 0;
     while (m) {
@@ -35,4 +35,4 @@ int movingCount(int m, int n, int k){
     dfs(0, 0, visited, m, n, k, &step);
     return step;
 }
-```
+// ```

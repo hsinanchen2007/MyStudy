@@ -1,4 +1,4 @@
-```
+// ```
 public char[][] updateBoard(char[][] board, int[] click) {
     int clickX = click[0];
     int clickY = click[1];
@@ -58,4 +58,4 @@ class Point {
         this.y = y;
     }
 }
-```
+// ```

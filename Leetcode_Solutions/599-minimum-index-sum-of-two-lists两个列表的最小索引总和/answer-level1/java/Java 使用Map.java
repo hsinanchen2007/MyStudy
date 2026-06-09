@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
- 先将list1中的名称和对应索引位置加入Map，再遍历list2中元素，遇到相同的餐厅计算索引和并判断是否是最小， 如果当前索引和小于最小值，则清空结果集，在将当前餐厅名加入结果集，并给最小值重新赋值；如果索引和和最小值相等，则直接加入List
+//  先将list1中的名称和对应索引位置加入Map，再遍历list2中元素，遇到相同的餐厅计算索引和并判断是否是最小， 如果当前索引和小于最小值，则清空结果集，在将当前餐厅名加入结果集，并给最小值重新赋值；如果索引和和最小值相等，则直接加入List
 
-```
+// ```
 public String[] findRestaurant(String[] list1, String[] list2) {
     Map<String, Integer> map = new HashMap<>();
     for (int i = 0; i < list1.length; i++) {
@@ -26,4 +26,4 @@ public String[] findRestaurant(String[] list1, String[] list2) {
     }
     return list.toArray(new String[list.size()]);
 }
-```
+// ```

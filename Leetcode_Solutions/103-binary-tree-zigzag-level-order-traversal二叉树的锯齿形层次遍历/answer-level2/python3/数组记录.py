@@ -1,10 +1,10 @@
-### 解题思路
-用res来记录，然后用layer记录目前是在哪一层
-res先记下的是TreeNode，遍历完了才会转成val
+# ### 解题思路
+# 用res来记录，然后用layer记录目前是在哪一层
+# res先记下的是TreeNode，遍历完了才会转成val
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
             layer += 1
         res.pop()
         return res
-```
+# ```

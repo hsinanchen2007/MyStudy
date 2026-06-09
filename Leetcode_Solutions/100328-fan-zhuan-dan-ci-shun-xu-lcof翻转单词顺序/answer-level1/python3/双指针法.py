@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def reverseWords(self, s: str) -> str:
         s = s.strip()  # 去除首尾的括号
@@ -16,4 +16,4 @@ class Solution:
                 end = start + 1
             start -= 1
         return res + s[:end]
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/31b763cf68e1b8f9ee747718e0ad4f998418db5e3269dc0a765642984e615d2a-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/31b763cf68e1b8f9ee747718e0ad4f998418db5e3269dc0a765642984e615d2a-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findNthDigit(int n) {
@@ -38,4 +38,4 @@ public:
 
     }
 };
-```
+// ```

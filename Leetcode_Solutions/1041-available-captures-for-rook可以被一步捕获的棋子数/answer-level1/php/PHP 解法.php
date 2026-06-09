@@ -1,6 +1,6 @@
-按题目意思写就可以了
+// 按题目意思写就可以了
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -59,4 +59,4 @@ class Solution {
         return $count;
     }
 }
-```
+// ```

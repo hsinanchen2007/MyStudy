@@ -1,9 +1,9 @@
-### 解题思路
-找6
+// ### 解题思路
+// 找6
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximum69Number (int num) {
         if(num/1000 == 6){
@@ -19,4 +19,4 @@ class Solution {
         }
     }
 }
-```
+// ```

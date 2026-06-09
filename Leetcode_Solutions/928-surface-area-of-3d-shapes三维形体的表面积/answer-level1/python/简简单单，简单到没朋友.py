@@ -1,9 +1,9 @@
-### 解题思路
-按照时间顺序摆放就行
+# ### 解题思路
+# 按照时间顺序摆放就行
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid) -> int:
         res = 0
@@ -18,4 +18,4 @@ class Solution:
                     res -= min(grid[i][j], grid[i][j-1]) * 2
         return res
         
-```
+# ```

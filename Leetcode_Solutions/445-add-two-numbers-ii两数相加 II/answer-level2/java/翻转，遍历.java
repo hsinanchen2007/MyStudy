@@ -1,9 +1,9 @@
-### 解题思路
-参考题号2，翻转过后就跟第二题一样了，记得结果也要翻转。
+// ### 解题思路
+// 参考题号2，翻转过后就跟第二题一样了，记得结果也要翻转。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -52,4 +52,4 @@ class Solution {
         return pre;
     }
 }
-```
+// ```

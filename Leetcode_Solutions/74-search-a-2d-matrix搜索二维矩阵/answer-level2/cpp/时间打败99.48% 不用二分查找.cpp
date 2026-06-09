@@ -1,9 +1,9 @@
-### 解题思路
-根据二维矩阵的特点，从右上开始遍历。
+// ### 解题思路
+// 根据二维矩阵的特点，从右上开始遍历。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -31,4 +31,4 @@ public:
         return false;
     }
 };
-```
+// ```

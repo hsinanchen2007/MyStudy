@@ -1,4 +1,4 @@
-```
+# ```
 /**
  * @param {string} a
  * @param {string} b
@@ -19,8 +19,8 @@ var addBinary = function(a, b) {
     str += count ==1 ? 1 : '';
     return str.split('').reverse().join('');
 };
-```
-```
+# ```
+# ```
 class Solution(object):
     def addBinary(self, a, b):
         """
@@ -40,4 +40,4 @@ class Solution(object):
             count = sums//2
             
         return '1'+arr[::-1] if count == 1 else arr[::-1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define DIRECTON 4
 
 inline int Max(int a, int b)
@@ -41,4 +41,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     free(dy);
     return ret;
 }
-```
+// ```

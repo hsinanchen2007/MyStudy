@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 //减少if
 const mapping = {
     "(": ")",
@@ -37,4 +37,4 @@ var isValid = function(s) {
     // //栈必须为空
     // return flag && stack.length == 0;
 };
-```
+// ```

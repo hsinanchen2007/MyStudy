@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countEval(s string, result int) int {
 	var dp [40][40][2]int
 	l := len(s)
@@ -46,4 +46,4 @@ func getAns(s string, i, mid, j int, dp *[40][40][2]int){
 		dp[i][j][0] += dp[i][mid-1][0] * dp[mid+1][j][0]
 	}
 }
-```
+// ```

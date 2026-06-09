@@ -1,7 +1,7 @@
-这题应该归到简单题。枚举几个格子的数值，很容易发现状态转移方程 dp[i][j]=dp[i-1][j]+dp[i][j-1]。
-其他就是初始化，并且修补下特殊情况的数值。
+# 这题应该归到简单题。枚举几个格子的数值，很容易发现状态转移方程 dp[i][j]=dp[i-1][j]+dp[i][j-1]。
+# 其他就是初始化，并且修补下特殊情况的数值。
 
-```
+# ```
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         if m==0 or n==0:                   #两种特殊情况
@@ -18,4 +18,4 @@ class Solution:
             for j in range(1,m):
                 dp[i][j]=dp[i-1][j]+dp[i][j-1]
         return dp[n-1][m-1]
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/6485ce8443e18d025767b2ce15ffd4f38bc5b2d5ed2985ece96e495051a6b65a-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/6485ce8443e18d025767b2ce15ffd4f38bc5b2d5ed2985ece96e495051a6b65a-image.png)
 
-- 存一下思路
-### 代码
+// - 存一下思路
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} R
  * @param {number} C
@@ -28,4 +28,4 @@ var allCellsDistOrder = function(R, C, r0, c0) {
   )
 };
 
-```
+// ```

@@ -1,6 +1,6 @@
 
-解题代码如下
-```
+// 解题代码如下
+// ```
 /**
  * @param {number[]} arr
  * @return {boolean}
@@ -35,4 +35,4 @@ var hasGroupsSizeX = function(arr) {
       }
       return group.length ? group[0] > 1 : false
 };
-```
+// ```

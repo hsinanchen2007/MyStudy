@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_NUM 10001
 #define BASE 2
 int g_hash[MAX_NUM] = {0};
@@ -54,4 +54,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
     free(tmpArr);
     return true;
 }
-```
+// ```

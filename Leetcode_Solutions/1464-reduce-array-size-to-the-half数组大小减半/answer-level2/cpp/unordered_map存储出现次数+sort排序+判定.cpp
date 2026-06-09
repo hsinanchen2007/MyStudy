@@ -1,9 +1,9 @@
-### 解题思路
-unordered_map存储出现次数+sort排序+判定
+// ### 解题思路
+// unordered_map存储出现次数+sort排序+判定
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minSetSize(vector<int>& arr) {
@@ -24,4 +24,4 @@ public:
         return res;
     }
 };
-```
+// ```

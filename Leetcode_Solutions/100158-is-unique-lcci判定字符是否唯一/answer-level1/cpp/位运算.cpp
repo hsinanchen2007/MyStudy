@@ -1,9 +1,9 @@
-### 解题思路
-位运算，将一个int变量看成长度为32的数组，然后与操作根据某位进行判别
+// ### 解题思路
+// 位运算，将一个int变量看成长度为32的数组，然后与操作根据某位进行判别
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isUnique(string astr) {
@@ -19,4 +19,4 @@ public:
         return true;
     }
 };
-```
+// ```

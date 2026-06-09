@@ -1,9 +1,9 @@
-### 解题思路
-做这个想到了数据结构-链表中的头插法插入数据，自己掌握不熟，，，，，，尝试了很久
+// ### 解题思路
+// 做这个想到了数据结构-链表中的头插法插入数据，自己掌握不熟，，，，，，尝试了很久
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode current=head;          //当前元素所在位置
@@ -18,4 +18,4 @@ class Solution {
         return rever;                   //bingo
     }
 }
-```
+// ```

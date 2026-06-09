@@ -1,9 +1,9 @@
-### 解题思路
-"  ,  "这种的也算单词，工作量下降了好多
+// ### 解题思路
+// "  ,  "这种的也算单词，工作量下降了好多
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countSegments(string s) {
@@ -17,4 +17,4 @@ public:
         return num;
     }
 };
-```
+// ```

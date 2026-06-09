@@ -1,6 +1,6 @@
-具体[见此](https://newdee.gitbook.io/leetcode/leetcode-index/653.two_sum_iv_input_is_a_bst)  
+// 具体[见此](https://newdee.gitbook.io/leetcode/leetcode-index/653.two_sum_iv_input_is_a_bst)  
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,7 +38,7 @@ public:
         return false;
     }
 };
-```
+// ```
 
->  执行用时 : 76 ms, 在Two Sum IV - Input is a BST的C++提交中击败了60.15% 的用户  
-内存消耗 : 25 MB, 在Two Sum IV - Input is a BST的C++提交中击败了83.87% 的用户
+// >  执行用时 : 76 ms, 在Two Sum IV - Input is a BST的C++提交中击败了60.15% 的用户  
+// 内存消耗 : 25 MB, 在Two Sum IV - Input is a BST的C++提交中击败了83.87% 的用户

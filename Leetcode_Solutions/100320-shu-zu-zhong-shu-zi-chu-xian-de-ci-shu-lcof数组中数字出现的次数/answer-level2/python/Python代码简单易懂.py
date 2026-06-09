@@ -1,9 +1,9 @@
-### 解题思路
-利用了字典和集合去重的特性
+# ### 解题思路
+# 利用了字典和集合去重的特性
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def singleNumbers(self, nums):
         """
@@ -17,5 +17,5 @@ class Solution(object):
             else:
                 s.remove(i)
         return list(s)
-```
-![image.png](https://pic.leetcode-cn.com/e7e5749195c1deb4a910f15221dbb1deefa56117097399dc2c95f4b8a9957036-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/e7e5749195c1deb4a910f15221dbb1deefa56117097399dc2c95f4b8a9957036-image.png)

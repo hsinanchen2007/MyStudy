@@ -1,9 +1,9 @@
-### 解题思路
-把python中不可变的字符串先转化为可变的列表，然后每次遍历到一个字母就从列表中移除，最后统计结果
+# ### 解题思路
+# 把python中不可变的字符串先转化为可变的列表，然后每次遍历到一个字母就从列表中移除，最后统计结果
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         res=0
@@ -18,4 +18,4 @@ class Solution:
                 if c==n-1:
                     res+=n
         return res
-```
+# ```

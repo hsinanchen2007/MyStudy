@@ -1,4 +1,4 @@
-```
+// ```
 func isValid(s string) bool {
     stack := InitStack()
 	for _, c := range s {
@@ -46,4 +46,4 @@ func (s *Stack) Pop() *int {
 func (s *Stack) Push(val int) {
 	s.vals = append(s.vals, &val)
 }
-```
+// ```

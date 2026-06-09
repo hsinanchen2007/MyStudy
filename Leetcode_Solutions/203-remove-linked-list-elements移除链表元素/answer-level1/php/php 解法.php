@@ -1,4 +1,4 @@
-```
+// ```
 function removeElements($head, $val) {
     $dummy = new ListNode(-1);
     $dummy->next = $head;
@@ -12,4 +12,4 @@ function removeElements($head, $val) {
     }
     return $dummy->next;
 }
-```
+// ```

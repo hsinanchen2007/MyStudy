@@ -1,4 +1,4 @@
-```
+// ```
 //递归合并两个链表
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     if(!l1 || !l2) return l1?l1:l2;//看了答案优化，把两行if语句判断是否为NULL，合并成一句
@@ -23,4 +23,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
     }
     return head;
 }
-```
+// ```

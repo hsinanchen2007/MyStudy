@@ -1,9 +1,9 @@
-### 解题思路
-斜向遍历
-dp[i][j]代表s[i,...,j]中最长回文子序列的长度
-### 代码
+# ### 解题思路
+# 斜向遍历
+# dp[i][j]代表s[i,...,j]中最长回文子序列的长度
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindromeSubseq(self, s: str) -> int:
         n = len(s)
@@ -19,4 +19,4 @@ class Solution:
                 else:
                     dp[i][j] = max(dp[i][j - 1], dp[i + 1][j])
         return dp[0][n - 1]
-```
+# ```

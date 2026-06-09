@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Logger {
     unordered_map<string, int> umap;
 public:
@@ -26,9 +26,9 @@ public:
         return true;        
     }
 };
-```
-#### 简化代码
-```c++
+// ```
+// #### 简化代码
+// ```c++
 class Logger {
     unordered_map<string, int> umap;
 public:
@@ -48,5 +48,5 @@ public:
         return false;        
     }
 };
-```
+// ```
 

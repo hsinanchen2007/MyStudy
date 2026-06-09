@@ -1,9 +1,9 @@
-### 解题思路
-常规思路，找到不同元素个数的最大公约数，如为1，返回false，否则返回true
+// ### 解题思路
+// 常规思路，找到不同元素个数的最大公约数，如为1，返回false，否则返回true
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -29,4 +29,4 @@ public:
         else return gcd(b, a%b);
     }
 };
-```
+// ```

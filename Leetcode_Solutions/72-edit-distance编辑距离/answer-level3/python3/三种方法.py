@@ -1,5 +1,5 @@
-1、递归
-```
+# 1、递归
+# ```
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         """递归思想,速度太慢"""
@@ -23,10 +23,10 @@ class Solution:
                 return min(del_, insert, replace)
 
         return dp(len(word1)-1, len(word2)-1)
-```
+# ```
 
-2、对于重叠子问题可进行优化
-```
+# 2、对于重叠子问题可进行优化
+# ```
 def minDistance(word1: str, word2: str) -> int:
     """备忘录+递归思想"""
     
@@ -59,10 +59,10 @@ def minDistance(word1: str, word2: str) -> int:
     
     return dp(len(word1)-1, len(word2)-1)
 
-```
+# ```
 
-3、动态规划， DP table
-```
+# 3、动态规划， DP table
+# ```
 def minDistance(word1: str, word2: str) -> int:
         m = len(word1)
         n = len(word2)
@@ -83,4 +83,4 @@ def minDistance(word1: str, word2: str) -> int:
                     dp[i][j] = min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1
                     
         return dp[-1][-1]
-```
+# ```

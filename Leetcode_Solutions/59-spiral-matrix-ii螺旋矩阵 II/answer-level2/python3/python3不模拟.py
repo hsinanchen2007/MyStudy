@@ -1,5 +1,5 @@
-类似于之前那道题
-```
+# 类似于之前那道题
+# ```
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         if not n:
@@ -20,4 +20,4 @@ class Solution:
             ans.insert(0,[x for x in range(t-len(ans[0])+1,t+1)])
             t -= len(ans[0])
         return ans
-```
+# ```

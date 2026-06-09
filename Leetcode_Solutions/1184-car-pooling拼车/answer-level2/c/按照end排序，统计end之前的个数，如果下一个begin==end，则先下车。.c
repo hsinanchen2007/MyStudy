@@ -1,9 +1,9 @@
-### 解题思路
-按照end排序，统计end之前的个数，如果下一个begin==end，则先下车。
+// ### 解题思路
+// 按照end排序，统计end之前的个数，如果下一个begin==end，则先下车。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int comparearry(const void *a, const void * b)
 {
     int *aa = *(int **)a;
@@ -62,4 +62,4 @@ int carPooling(int** trips, int tripsSize, int* tripsColSize, int capacity){
 
     //所有元素遍历完成，返回TRUE
 }
-```
+// ```

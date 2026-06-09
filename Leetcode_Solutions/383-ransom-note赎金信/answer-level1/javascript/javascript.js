@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {string} ransomNote
  * @param {string} magazine
@@ -32,4 +32,4 @@ var canConstruct = function(ransomNote, magazine) {
     
     return true
 };
-```
+// ```

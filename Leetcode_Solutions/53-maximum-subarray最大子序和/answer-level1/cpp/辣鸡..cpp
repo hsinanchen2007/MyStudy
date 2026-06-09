@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-很显然,这段代码就是个辣鸡.
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 很显然,这段代码就是个辣鸡.
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return MAX;
     }
 };
-```
+// ```

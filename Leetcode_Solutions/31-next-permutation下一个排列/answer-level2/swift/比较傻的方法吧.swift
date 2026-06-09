@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
 func nextPermutation(_ nums: inout [Int]) {
     guard nums.count > 1 else { return }
@@ -45,4 +45,4 @@ func nextPermutation(_ nums: inout [Int]) {
     bubbleSort(nums: &nums, range: (0...nums.endIndex - 1))
 }
 }
-```
+// ```

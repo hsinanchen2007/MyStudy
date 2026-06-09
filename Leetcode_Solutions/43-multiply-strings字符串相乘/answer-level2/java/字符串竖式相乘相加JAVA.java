@@ -1,13 +1,13 @@
-# 解题思路：
+// # 解题思路：
 
-首先，`String`类型只有运算符重载的 ‘+’ ，用于拼接字符串的简化操作， 不支持常规的四则运算
+// 首先，`String`类型只有运算符重载的 ‘+’ ，用于拼接字符串的简化操作， 不支持常规的四则运算
 
-但是，`Char`类型可以进行加减乘除的运算，可以想到将`String`中的每个字符转换为`char`类型进行计算
+// 但是，`Char`类型可以进行加减乘除的运算，可以想到将`String`中的每个字符转换为`char`类型进行计算
 
-**第一次尝试：**
-首先是一个取巧的做法，想直接利用`sum = (num2.charAt(i)-'0')*s+sum;`取巧
-很明显，题目给的数值结果是大于`Integer.MAXVALUE`的，导致下面这个取巧解法在大数下直接溢出成负数，结果惨不忍睹
-```
+// **第一次尝试：**
+// 首先是一个取巧的做法，想直接利用`sum = (num2.charAt(i)-'0')*s+sum;`取巧
+// 很明显，题目给的数值结果是大于`Integer.MAXVALUE`的，导致下面这个取巧解法在大数下直接溢出成负数，结果惨不忍睹
+// ```
 class Solution {
     public String multiply(String num1, String num2) {
         int l1 = num1.length();
@@ -36,12 +36,12 @@ class Solution {
         return save.reverse().toString();
     }
 }
-```
-**第二次尝试：**
-想到既然相加的时候`Int`会溢出，相乘的时候`Int`不会溢出，所以想到把每一个对位相乘的结果存入数组
-然后使用https://leetcode-cn.com/problems/add-strings/ NO145的字符串相加来对数组进行相加
-尝试的结果是原来相乘`int`也会溢出
-```
+// ```
+// **第二次尝试：**
+// 想到既然相加的时候`Int`会溢出，相乘的时候`Int`不会溢出，所以想到把每一个对位相乘的结果存入数组
+// 然后使用https://leetcode-cn.com/problems/add-strings/ NO145的字符串相加来对数组进行相加
+// 尝试的结果是原来相乘`int`也会溢出
+// ```
 public class NO43 {
     public String multiply(String num1, String num2) {
         int l1 = num1.length();
@@ -100,11 +100,11 @@ public class NO43 {
         System.out.println(a);
     }
 }
-```
-**第三次尝试**
-老老实实按位相乘再相加去做乘法运算，总算结束了，附上breezean的代码，回过头一看思路还是很相似的
-都是用了后面N0415的相加的函数，然后按位相乘相加了
-```
+// ```
+// **第三次尝试**
+// 老老实实按位相乘再相加去做乘法运算，总算结束了，附上breezean的代码，回过头一看思路还是很相似的
+// 都是用了后面N0415的相加的函数，然后按位相乘相加了
+// ```
 class Solution {
     /**
     * 计算形式
@@ -163,4 +163,4 @@ class Solution {
     }
 }
 
-```
+// ```

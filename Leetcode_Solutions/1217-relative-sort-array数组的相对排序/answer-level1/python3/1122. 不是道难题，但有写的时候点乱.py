@@ -1,11 +1,11 @@
-### 解题思路
-1. 统计arr1中各个值出现的个数
-2. 先按照arr2中的顺序，将这些在arr2中出现的数值依次排好，记得清空已经排好的数值，为后面统计没出现在arr2中的数值做准备
-3. 排列剩下所有没有出现在arr2中的数值
+# ### 解题思路
+# 1. 统计arr1中各个值出现的个数
+# 2. 先按照arr2中的顺序，将这些在arr2中出现的数值依次排好，记得清空已经排好的数值，为后面统计没出现在arr2中的数值做准备
+# 3. 排列剩下所有没有出现在arr2中的数值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:
         # 统计arr1中各个值出现的个数。
@@ -30,4 +30,4 @@ class Solution:
 
         new_list = new_list + sorted(remain_nums)
         return new_list
-```
+# ```

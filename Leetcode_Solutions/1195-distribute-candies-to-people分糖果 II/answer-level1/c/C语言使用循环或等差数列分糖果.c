@@ -1,6 +1,6 @@
-**下面两种方法的详解请看leetcode官方思路解释**
-# 方法一：循环发糖，直至糖果发完
-```
+// **下面两种方法的详解请看leetcode官方思路解释**
+// # 方法一：循环发糖，直至糖果发完
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -24,9 +24,9 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
     *returnSize = num_people;
     return nums;
 }
-```
-# 方法二：使用等差数列求和
-```
+// ```
+// # 方法二：使用等差数列求和
+// ```
 int* distributeCandies(int candies, int num_people, int* returnSize){
     int *nums = (int *)calloc(num_people, sizeof(int));
     int p = (int)floor(sqrt(2 * candies) - 0.5);
@@ -45,5 +45,5 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
     *returnSize = num_people;
     return nums;
 }
-```
+// ```
 

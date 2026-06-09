@@ -1,10 +1,10 @@
-### 解题思路
-分析每个字符出现的次数，出现次数偶数，则直接加出现的次数
-为奇数，则加1
+// ### 解题思路
+// 分析每个字符出现的次数，出现次数偶数，则直接加出现的次数
+// 为奇数，则加1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
         if (s == null || s.isEmpty()) {
@@ -46,4 +46,4 @@ class Solution {
         return total > 1 ? total : 1;
     }
 }
-```
+// ```

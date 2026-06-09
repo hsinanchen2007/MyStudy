@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int nthSuperUglyNumber(int n, int[] primes) {
         int []dp=new int[n]; // dp[i]表示第i+1个超级丑数
@@ -21,4 +21,4 @@ class Solution {
         
     }
 }
-```
+// ```

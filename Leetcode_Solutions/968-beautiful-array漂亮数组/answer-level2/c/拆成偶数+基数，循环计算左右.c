@@ -1,17 +1,17 @@
-### 解题思路
-关键算法
-    for (int j = 3; j <= n; j++) {  
-        for (m = 0; m < (j + 1) / 2; m++) {
-            arr[j][m] = arr[(j + 1) / 2][m] * 2 - 1;
-        }
+// ### 解题思路
+// 关键算法
+//     for (int j = 3; j <= n; j++) {  
+//         for (m = 0; m < (j + 1) / 2; m++) {
+//             arr[j][m] = arr[(j + 1) / 2][m] * 2 - 1;
+//         }
         
-        for (int n = 0; n < j / 2; n++) {
-            arr[j][m + n] = arr[j / 2][n] * 2;
-        }
-    }
-### 代码
+//         for (int n = 0; n < j / 2; n++) {
+//             arr[j][m + n] = arr[j / 2][n] * 2;
+//         }
+//     }
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -51,4 +51,4 @@ int* beautifulArray(int N, int* returnSize){
     *returnSize = N;
     return calArr(N);
 }
-```
+// ```

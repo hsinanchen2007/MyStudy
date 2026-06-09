@@ -1,8 +1,8 @@
 
-队列存的是 `[当前员工索引, 当前员工完成通知这一任务经过的时间]`
-每次出队的时候, 记录一下截止目前为止的最大时间即可.
+# 队列存的是 `[当前员工索引, 当前员工完成通知这一任务经过的时间]`
+# 每次出队的时候, 记录一下截止目前为止的最大时间即可.
 
-```python
+# ```python
 class Solution:
     def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:
         que = collections.deque()
@@ -23,4 +23,4 @@ class Solution:
                 for idx in id_with_idxs[cur_id]:
                     que.append((idx, cur_time + informTime[idx]))
         return res
-```
+# ```

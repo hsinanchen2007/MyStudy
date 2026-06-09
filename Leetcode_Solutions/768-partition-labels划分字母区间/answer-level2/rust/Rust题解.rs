@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn partition_labels(s: String) -> Vec<i32> {
         let mut last = [0; 26];
@@ -26,5 +26,5 @@ impl Solution {
         ret
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

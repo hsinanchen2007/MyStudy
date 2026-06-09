@@ -1,6 +1,6 @@
 
-C语言实现
-```C []
+// C语言实现
+// ```C []
 char * reverseStr(char * s, int k){
     int len = strlen(s);
     if (len == 0) return NULL;
@@ -18,4 +18,4 @@ char * reverseStr(char * s, int k){
     }
     return s;
 }
-```
+// ```

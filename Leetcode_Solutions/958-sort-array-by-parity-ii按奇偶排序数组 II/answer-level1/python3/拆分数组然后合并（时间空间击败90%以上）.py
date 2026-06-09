@@ -1,11 +1,11 @@
-### 解题思路
-将数组拆分成奇数组和偶数组
-将奇数组和偶数组穿插插入新的数组即可
-时间复杂度O(n)
+# ### 解题思路
+# 将数组拆分成奇数组和偶数组
+# 将奇数组和偶数组穿插插入新的数组即可
+# 时间复杂度O(n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArrayByParityII(self, A: List[int]) -> List[int]:
         ouli = []
@@ -20,4 +20,4 @@ class Solution:
             newlist.append(ouli[i])
             newlist.append(jili[i])
         return newlist
-```
+# ```

@@ -1,7 +1,7 @@
-1. 构造并查集
-2. 构造新字符串
-最近写的代码都超长超烂。。。
-```
+// 1. 构造并查集
+// 2. 构造新字符串
+// 最近写的代码都超长超烂。。。
+// ```
 func generateSentences(synonyms [][]string, text string) []string {
 	var (
 		m      = map[string]int{}
@@ -80,4 +80,4 @@ func find(x int, id []int) int {
 	return id[x]
 }
 
-```
+// ```

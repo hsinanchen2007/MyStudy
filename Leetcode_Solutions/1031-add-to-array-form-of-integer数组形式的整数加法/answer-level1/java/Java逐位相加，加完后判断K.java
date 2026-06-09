@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/31e509a5497fb5d3d564a33a8ea13774b67e43a9f37540bb71849c48a5f0eb39-image.png)
+// ![image.png](https://pic.leetcode-cn.com/31e509a5497fb5d3d564a33a8ea13774b67e43a9f37540bb71849c48a5f0eb39-image.png)
 
-```
+// ```
     public List<Integer> addToArrayForm(int[] A, int K) {
 
         int carry = 0;// 进位
@@ -39,4 +39,4 @@
         }
         return list;
     }
-```
+// ```

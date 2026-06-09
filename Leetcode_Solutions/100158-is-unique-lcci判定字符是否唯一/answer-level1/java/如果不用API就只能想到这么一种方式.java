@@ -1,9 +1,9 @@
-### 解题思路
-判断字符串中字母出现的次数
+// ### 解题思路
+// 判断字符串中字母出现的次数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         if(null == astr)
@@ -19,4 +19,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

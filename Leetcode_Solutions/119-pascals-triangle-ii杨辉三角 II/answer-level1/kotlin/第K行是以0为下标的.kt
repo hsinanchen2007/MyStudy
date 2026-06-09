@@ -1,9 +1,9 @@
-### 解题思路
-本来这个题，顺势而为如下面所示：
+// ### 解题思路
+// 本来这个题，顺势而为如下面所示：
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun getRow(rowIndex: Int): List<Int> {
         var dp = Array<Int>(rowIndex){0}
@@ -20,13 +20,13 @@ class Solution {
         return dp.toList()
     }
 }
-```
-结果：
-输入：3
-输出：[1,2,1]
-看了一下动图，Perfect...
+// ```
+// 结果：
+// 输入：3
+// 输出：[1,2,1]
+// 看了一下动图，Perfect...
 
-But，打脸比2000的雪来得还早一些
+// But，打脸比2000的雪来得还早一些
 
-至于如何修改，各位看官Go on...
+// 至于如何修改，各位看官Go on...
 

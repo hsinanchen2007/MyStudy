@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minCost(vector<vector<int>>& costs) {
@@ -19,4 +19,4 @@ public:
         return min(min(m[i][0], m[i][1]), m[i][2]);
     }
 };
-```
+// ```

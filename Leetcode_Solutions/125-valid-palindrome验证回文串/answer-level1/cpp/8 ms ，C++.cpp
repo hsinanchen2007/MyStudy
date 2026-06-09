@@ -1,8 +1,8 @@
-### 解题思路
-利用双指针。
-### 代码
+// ### 解题思路
+// 利用双指针。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int isCharOrNum(char s)  //判断是否为数字或字母，数字返回1；字母返回2
@@ -41,4 +41,4 @@ bool isPalindrome(string s)
     return true;
     }
 };
-```
+// ```

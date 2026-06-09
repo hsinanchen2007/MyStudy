@@ -1,10 +1,10 @@
-第一次写题解
-分为四个步骤
-1. 将字符串大写转小写
-2. 将字符串分割，调用C内置strtok函数
-3. 建立map<string,int>的映射关系，并按value排序
-4. 查找高频率单词是否在banned数组里面出现
-```
+// 第一次写题解
+// 分为四个步骤
+// 1. 将字符串大写转小写
+// 2. 将字符串分割，调用C内置strtok函数
+// 3. 建立map<string,int>的映射关系，并按value排序
+// 4. 查找高频率单词是否在banned数组里面出现
+// ```
 bool cmp(pair<string,int> &a,pair<string,int> &b)
     {
         return a.second>b.second;
@@ -53,4 +53,4 @@ public:
         return "";
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution(object):
     def permute(self, nums):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                 result.append(item)
 
         return result
-```
+# ```

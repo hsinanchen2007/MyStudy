@@ -1,5 +1,5 @@
-最小堆排序
-```
+// 最小堆排序
+// ```
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -31,9 +31,9 @@ public:
         arr[s]=tmp;
     }
 };
-```
-快速排序
-```
+// ```
+// 快速排序
+// ```
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -72,4 +72,4 @@ public:
         return j;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-因为两个字符串的长度可能不相等，为同步结束，首先把短的string补全，在前面添加0的形式，然后再按位计算
-```
+# 因为两个字符串的长度可能不相等，为同步结束，首先把短的string补全，在前面添加0的形式，然后再按位计算
+# ```
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         alist = list(a)
@@ -24,4 +24,4 @@ class Solution:
         if target == 1:
             reslist.insert(0, str(target))
         return ''.join(reslist)
-```
+# ```

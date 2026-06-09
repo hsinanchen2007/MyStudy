@@ -1,10 +1,10 @@
-统计不同年龄的人的个数，遍历年龄进行计算，尽量剪掉不必要的计算。效率还行。
+// 统计不同年龄的人的个数，遍历年龄进行计算，尽量剪掉不必要的计算。效率还行。
 
-![image.png](https://pic.leetcode-cn.com/804dbdd1012a55064384c70aaf07f396117d111244c9610e383ef54878004385-image.png)
+// ![image.png](https://pic.leetcode-cn.com/804dbdd1012a55064384c70aaf07f396117d111244c9610e383ef54878004385-image.png)
 
-具体思路写在注释里。
+// 具体思路写在注释里。
 
-```java
+// ```java
 class Solution {
     public int numFriendRequests(int[] ages) {
         // 注意题目说的三个条件是满足其一就不能发！！！
@@ -37,4 +37,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

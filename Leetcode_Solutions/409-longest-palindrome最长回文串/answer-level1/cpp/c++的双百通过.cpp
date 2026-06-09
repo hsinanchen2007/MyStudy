@@ -1,23 +1,23 @@
-### 总体思路
-![GKL}1K}VK85R6\]~33{DATW9.png](https://pic.leetcode-cn.com/e7e7d65b9a70602c2f716bd839713d9ee94e9d06cb545fbffe04e9147e2e887e-GKL%7D1K%7DVK85R6%5D~33%7BDATW9.png)
-这道题的思路分为两个部分，一个是构建哈希表，另一个是判断字符串是否回文。
+// ### 总体思路
+// ![GKL}1K}VK85R6\]~33{DATW9.png](https://pic.leetcode-cn.com/e7e7d65b9a70602c2f716bd839713d9ee94e9d06cb545fbffe04e9147e2e887e-GKL%7D1K%7DVK85R6%5D~33%7BDATW9.png)
+// 这道题的思路分为两个部分，一个是构建哈希表，另一个是判断字符串是否回文。
 
-### 哈希表的构建
-在前两天的每日一题，拼写单词 这一题中就有哈希表的构建，当时看到了大神运用长度为26的数组进行字母次数统计，链接如下：
-[https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/solution/tong-ji-zi-mu-chu-xian-de-ci-shu-shu-zu-ji-qiao-cj/]() 
-在这里做了引用，针对大小写字母分别构建字符计数数组，即哈希表。见代码注释。
+// ### 哈希表的构建
+// 在前两天的每日一题，拼写单词 这一题中就有哈希表的构建，当时看到了大神运用长度为26的数组进行字母次数统计，链接如下：
+// [https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/solution/tong-ji-zi-mu-chu-xian-de-ci-shu-shu-zu-ji-qiao-cj/]() 
+// 在这里做了引用，针对大小写字母分别构建字符计数数组，即哈希表。见代码注释。
 
-### 回文字符串的判断
-几经调试，总结如下：
-一、首先针对每一个 偶数次 与 奇数次 字母：
-1.若为偶数，直接计入总长度；
-2.若为奇数，将该奇数减去1 计入总长度；
-3.若计算中有奇数次字母，总的长度在最后加上1；
-具体见代码注释。
+// ### 回文字符串的判断
+// 几经调试，总结如下：
+// 一、首先针对每一个 偶数次 与 奇数次 字母：
+// 1.若为偶数，直接计入总长度；
+// 2.若为奇数，将该奇数减去1 计入总长度；
+// 3.若计算中有奇数次字母，总的长度在最后加上1；
+// 具体见代码注释。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestPalindrome(string s) {

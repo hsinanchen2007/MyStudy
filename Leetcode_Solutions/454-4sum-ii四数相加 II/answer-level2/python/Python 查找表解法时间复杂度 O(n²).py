@@ -1,10 +1,10 @@
-### 解题思路
-选择两个数组如 A， B 。计算 A， B 所有元素两两相加的和存入字典查找表（sumNum）， 并将结果与 C， D 的两两求和进行比较。其中 sumNum 的 k 为A， B元素两两求和和的数值， v 为两元素相加和为 k 的数量
-此题的关键就是要找到查找表中存放的 k， v 合适的含义。
+# ### 解题思路
+# 选择两个数组如 A， B 。计算 A， B 所有元素两两相加的和存入字典查找表（sumNum）， 并将结果与 C， D 的两两求和进行比较。其中 sumNum 的 k 为A， B元素两两求和和的数值， v 为两元素相加和为 k 的数量
+# 此题的关键就是要找到查找表中存放的 k， v 合适的含义。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def fourSumCount(self, A, B, C, D):
         """
@@ -32,4 +32,4 @@ class Solution(object):
                 if -k in sumNum:  # -k 存在则 -k + k 即为 0
                     res += sumNum[-k]
         return res
-```
+# ```

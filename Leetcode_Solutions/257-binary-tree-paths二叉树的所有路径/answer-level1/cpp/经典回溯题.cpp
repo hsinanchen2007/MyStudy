@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/f23e2367b4670dc08a05c824eaa245f5e77b3a146f9c8b649eb8e2e21df2fe01-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/f23e2367b4670dc08a05c824eaa245f5e77b3a146f9c8b649eb8e2e21df2fe01-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> binaryTreePaths(TreeNode* root)
@@ -48,4 +48,4 @@ public:
         return sign+x;
     }
 };
-```
+// ```

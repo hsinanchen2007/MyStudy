@@ -1,8 +1,8 @@
-array_count_values()函数统计
+// array_count_values()函数统计
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -22,4 +22,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-1. 看代码完全能看懂，就一个自定义排序
+// ### 解题思路
+// 1. 看代码完全能看懂，就一个自定义排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string minNumber(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return ans;
     }
 };
-```
+// ```

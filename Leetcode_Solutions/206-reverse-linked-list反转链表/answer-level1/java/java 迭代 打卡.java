@@ -1,4 +1,4 @@
-从头节点开始，新建链表对象，然后采用头插法，重新插入链表
+// 从头节点开始，新建链表对象，然后采用头插法，重新插入链表
 public ListNode reverseList(ListNode head) {
         ListNode rev = head ;
 		ListNode temp , result ;

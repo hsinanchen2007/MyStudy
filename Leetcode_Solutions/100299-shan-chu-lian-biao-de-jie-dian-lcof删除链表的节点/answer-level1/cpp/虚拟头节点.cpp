@@ -1,9 +1,9 @@
-### 解题思路
-注意 while 中的判断也需要判断 cur 指针不为空
+// ### 解题思路
+// 注意 while 中的判断也需要判断 cur 指针不为空
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ public:
         return temp->next;
     }
 };
-```
+// ```

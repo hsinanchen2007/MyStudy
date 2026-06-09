@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def tictactoe(self, board: List[str]) -> str:
         n = len(board)
@@ -18,4 +18,4 @@ class Solution:
         if ' ' in ''.join(board):
             return 'Pending'
         return 'Draw'
-```
+# ```

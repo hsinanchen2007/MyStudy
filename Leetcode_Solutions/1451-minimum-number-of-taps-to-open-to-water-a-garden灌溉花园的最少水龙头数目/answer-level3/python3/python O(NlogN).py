@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minTaps(self, n: int, ranges: List[int]) -> int:
         # Time complexity: O(NlogN)
@@ -18,4 +18,4 @@ class Solution:
 
 
 
-```
+# ```

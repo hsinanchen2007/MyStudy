@@ -1,7 +1,7 @@
-找到0就把行列设置成-0（好吧我就是作弊）
-实际执行时间和内存其实差别不是很大...
+// 找到0就把行列设置成-0（好吧我就是作弊）
+// 实际执行时间和内存其实差别不是很大...
 
-```javascript []
+// ```javascript []
 var setZeroes = function(matrix) {
     let i, j;
     i = matrix.length;
@@ -31,4 +31,4 @@ var setZeroes = function(matrix) {
         }
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用一个HashSet即可搞定
+// ### 解题思路
+// 用一个HashSet即可搞定
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         HashSet<Integer> set = new HashSet<>();
@@ -21,4 +21,4 @@ class Solution {
         return Arrays.copyOf(res,index);
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-# Python
-```
+# # Python
+# ```
 class Solution(object):
     def climbStairs(self, n):
         """
@@ -12,8 +12,8 @@ class Solution(object):
         for i in range(2, n):
             dp.append(dp[i-1] + dp[i-2])
         return dp[-1]
-```
-```
+# ```
+# ```
 class Solution(object):
     def climbStairs(self, n):
         """
@@ -28,9 +28,9 @@ class Solution(object):
             f2 = f3;
             f3 = f1 + f2;
         return f3
-```
-# Java
-```
+# ```
+# # Java
+# ```
 class Solution {
     public int climbStairs(int n) {
         if (n < 3) {
@@ -47,4 +47,4 @@ class Solution {
         return f3;
     }
 }
-```
+# ```

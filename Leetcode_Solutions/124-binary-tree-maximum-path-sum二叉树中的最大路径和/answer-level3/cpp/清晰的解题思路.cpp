@@ -1,6 +1,6 @@
-**思路写在代码里了，感觉还是比较清晰的**
-感觉有点面向if-else编程  哈哈哈哈哈
-```cpp
+// **思路写在代码里了，感觉还是比较清晰的**
+// 感觉有点面向if-else编程  哈哈哈哈哈
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -49,4 +49,4 @@ public:
             return 0;
     }
 };
-```
+// ```

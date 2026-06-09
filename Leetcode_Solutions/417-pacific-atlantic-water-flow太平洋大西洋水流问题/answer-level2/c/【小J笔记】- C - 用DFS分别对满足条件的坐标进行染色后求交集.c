@@ -1,7 +1,7 @@
-- i == 0 j == 0 染色能到达太平洋的点
-- i == matRow - 1 j == matCol - 1染色能到达大西洋的点
-- 注意只需要染色即可，不需要回溯，所以DFS必然可以结束
-```
+// - i == 0 j == 0 染色能到达太平洋的点
+// - i == matRow - 1 j == matCol - 1染色能到达大西洋的点
+// - 注意只需要染色即可，不需要回溯，所以DFS必然可以结束
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -107,4 +107,4 @@ int** pacificAtlantic(int** matrix, int matrixSize, int* matrixColSize, int* ret
     }
     return ret;
 }
-```
+// ```

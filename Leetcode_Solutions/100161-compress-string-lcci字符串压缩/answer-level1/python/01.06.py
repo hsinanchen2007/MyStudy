@@ -1,10 +1,10 @@
-### 解题思路
-创建空字符串s
-遍历字符串S，遇到不同的就在s添加
+# ### 解题思路
+# 创建空字符串s
+# 遍历字符串S，遇到不同的就在s添加
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         count = 1
@@ -23,4 +23,4 @@ class Solution:
         
         return s if len(S)>len(s) else S
             
-```
+# ```

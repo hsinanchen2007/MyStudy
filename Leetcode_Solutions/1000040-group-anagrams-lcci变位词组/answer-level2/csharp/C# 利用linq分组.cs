@@ -1,4 +1,4 @@
-利用linq的group进行分组
+// 利用linq的group进行分组
 
 
  public static IList<IList<string>> GroupAnagrams(string[] strs)

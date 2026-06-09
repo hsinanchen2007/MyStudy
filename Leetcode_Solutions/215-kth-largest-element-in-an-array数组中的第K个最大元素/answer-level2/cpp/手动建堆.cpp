@@ -1,9 +1,9 @@
-### 解题思路
-手动建堆，用时击败99.8%？？？
+// ### 解题思路
+// 手动建堆，用时击败99.8%？？？
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void percolate(vector<int>& arr, int idx, int n) {
@@ -43,4 +43,4 @@ public:
         return nums[0];
     }
 };
-```
+// ```

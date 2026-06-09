@@ -1,11 +1,11 @@
-### 运行结果
+// ### 运行结果
 
-![image.png](https://pic.leetcode-cn.com/5de6fa8c8a39b7c961051fbbc7f284d4d7f6127871da1f49e44b562198a7ce61-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5de6fa8c8a39b7c961051fbbc7f284d4d7f6127871da1f49e44b562198a7ce61-image.png)
 
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn array_pair_sum(nums: Vec<i32>) -> i32 {
         let mut numbers = nums;
@@ -22,4 +22,4 @@ impl Solution {
         (sum)
     }
 }
-```
+// ```

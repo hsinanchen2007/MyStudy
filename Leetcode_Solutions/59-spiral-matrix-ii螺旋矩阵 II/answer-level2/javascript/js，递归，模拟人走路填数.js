@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/a26d45fdeff3db3c5b348c83764e00595a55d7dce2d9686e4b2c911ed5468fdb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a26d45fdeff3db3c5b348c83764e00595a55d7dce2d9686e4b2c911ed5468fdb-image.png)
 
-这道题目和54题有些类似，我们可以用模拟一个人，转圈走路填数的方法
-![image.png](https://pic.leetcode-cn.com/5f3e9d088d49ec603fddbabf3f39de35f476c8934bf0b92977caaeca63973cfc-image.png)
-就是按照图片上的这个方法，顺序是：上 右 下 左 的顺序
-具体的实现思路：
-  1.初始化一个n长度的数组，然后开始填数
-  2.上 右 下 左 四个方向，从外到内循环每一条边，每个方向循环填数的逻辑封装在changeDirection的四个方法中
-  3.递归的终止条件是：填完(n*n)个数，
-```
+// 这道题目和54题有些类似，我们可以用模拟一个人，转圈走路填数的方法
+// ![image.png](https://pic.leetcode-cn.com/5f3e9d088d49ec603fddbabf3f39de35f476c8934bf0b92977caaeca63973cfc-image.png)
+// 就是按照图片上的这个方法，顺序是：上 右 下 左 的顺序
+// 具体的实现思路：
+//   1.初始化一个n长度的数组，然后开始填数
+//   2.上 右 下 左 四个方向，从外到内循环每一条边，每个方向循环填数的逻辑封装在changeDirection的四个方法中
+//   3.递归的终止条件是：填完(n*n)个数，
+// ```
 var generateMatrix = function(n) {
   let end = n * n,
       start = 1, // 初始化，从1开始填
@@ -67,4 +67,4 @@ var generateMatrix = function(n) {
   return result;
 };
 
-```
+// ```

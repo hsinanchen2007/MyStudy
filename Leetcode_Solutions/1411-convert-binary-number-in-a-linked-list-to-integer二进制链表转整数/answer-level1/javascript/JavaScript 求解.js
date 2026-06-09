@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/06d2a0195041865e0f3dd65774be293c7a0a65dbc2e384595d51a84ef7cc8856-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/06d2a0195041865e0f3dd65774be293c7a0a65dbc2e384595d51a84ef7cc8856-image.png)
 
-- 转化为字符串
-- parseInt（）转化为十进制
+// - 转化为字符串
+// - parseInt（）转化为十进制
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -28,4 +28,4 @@ var getDecimalValue = function(head) {
 };
 
 
-```
+// ```

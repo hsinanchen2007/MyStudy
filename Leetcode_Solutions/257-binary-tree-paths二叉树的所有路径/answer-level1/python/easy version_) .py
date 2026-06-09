@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-If we approach to the leave node, just put the path into the list, and we would use recursion to look through 
-the tree, make sure all possibilities would be considered ! 
+# If we approach to the leave node, just put the path into the list, and we would use recursion to look through 
+# the tree, make sure all possibilities would be considered ! 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
         result = []
         cal(root, "")
         return result
-```
+# ```

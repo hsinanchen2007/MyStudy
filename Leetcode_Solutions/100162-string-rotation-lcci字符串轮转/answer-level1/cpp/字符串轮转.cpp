@@ -1,9 +1,9 @@
-### 解题思路
-把s2乘以2，比如s1=“waterbottle”，s2=“erbottlewat”，s2*2=“erbottlewaterbottlewat”，若s2是s1旋转而成，s1一定会在s2*2中，只需对字符串进行一些比较即可。
+// ### 解题思路
+// 把s2乘以2，比如s1=“waterbottle”，s2=“erbottlewat”，s2*2=“erbottlewaterbottlewat”，若s2是s1旋转而成，s1一定会在s2*2中，只需对字符串进行一些比较即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isFlipedString(string s1, string s2) {
@@ -27,4 +27,4 @@ public:
         else return false;
     }
 };
-```
+// ```

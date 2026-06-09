@@ -1,9 +1,9 @@
-### 解题思路
-纯C 深度优先 递归
+// ### 解题思路
+// 纯C 深度优先 递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -43,4 +43,4 @@ int DFS(struct TreeNode* root, int min)
 int findSecondMinimumValue(struct TreeNode* root){
     return DFS(root, root->val);
 }
-```
+// ```

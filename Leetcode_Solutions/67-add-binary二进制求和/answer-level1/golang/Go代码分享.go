@@ -1,4 +1,4 @@
-Go的发布我看着比较少，加一个
+// Go的发布我看着比较少，加一个
 func addBinary(a string, b string) string {
 	indexa :=len(a)-1
 	indexb :=len(b)-1

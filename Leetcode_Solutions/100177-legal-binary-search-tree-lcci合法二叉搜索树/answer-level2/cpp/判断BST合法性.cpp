@@ -1,9 +1,9 @@
-### 解题思路
-记录最大值、最小值 以便与左右子树的所有节点进行比较，增加函数参数列表来实现。
+// ### 解题思路
+// 记录最大值、最小值 以便与左右子树的所有节点进行比较，增加函数参数列表来实现。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ public:
         return isValidBST(root->left,min,root)&&isValidBST(root->right,root,max);
     }
 };
-```
+// ```

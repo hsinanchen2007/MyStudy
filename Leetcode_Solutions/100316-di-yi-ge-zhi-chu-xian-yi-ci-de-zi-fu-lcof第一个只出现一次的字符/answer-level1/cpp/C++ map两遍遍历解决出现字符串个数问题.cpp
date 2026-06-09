@@ -1,9 +1,9 @@
-### 解题思路
-利用map key-value第二遍遍历找到第一个出现一次的字符
+// ### 解题思路
+// 利用map key-value第二遍遍历找到第一个出现一次的字符
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     char firstUniqChar(string s) {
@@ -24,4 +24,4 @@ public:
 
     }
 };
-```
+// ```

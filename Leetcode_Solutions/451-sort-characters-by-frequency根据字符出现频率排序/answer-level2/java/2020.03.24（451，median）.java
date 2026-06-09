@@ -1,13 +1,13 @@
-### 解题思路
-本题给出两种思路
+// ### 解题思路
+// 本题给出两种思路
 
-- 第一种是按照**字符频率**排序，在排序的时候需要传入**自定义比较器** `Comparator` 的实现对象
-- 第二种是使用**优先队列**依据先进先出的特点将高频次的元素首先进队，那么出队的元素也会按照从高到低的顺序排序
-- 具体实现参考代码注释即可。
+// - 第一种是按照**字符频率**排序，在排序的时候需要传入**自定义比较器** `Comparator` 的实现对象
+// - 第二种是使用**优先队列**依据先进先出的特点将高频次的元素首先进队，那么出队的元素也会按照从高到低的顺序排序
+// - 具体实现参考代码注释即可。
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public String frequencySort(String s) {
         
@@ -54,8 +54,8 @@ class Solution {
         return sb.toString();
     }
 }
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public String frequencySort(String s) {
         // 字符串转字符数组后存入 map
@@ -94,4 +94,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

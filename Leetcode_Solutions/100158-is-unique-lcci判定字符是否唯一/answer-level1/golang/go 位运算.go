@@ -1,4 +1,4 @@
-```
+// ```
 func isUnique(astr string) bool {
   a:=0
   for _,b:=range astr{
@@ -10,4 +10,4 @@ func isUnique(astr string) bool {
 }
 return true
 }
-```
+// ```

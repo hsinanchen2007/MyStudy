@@ -1,10 +1,10 @@
-### 解题思路
-转移方程：dp[i]=max(dp[-1],dp[i-2]+nums[i])
+// ### 解题思路
+// 转移方程：dp[i]=max(dp[-1],dp[i-2]+nums[i])
 
-解释：当前天的数值取决于前一次的最大值和上上一次的最大值加上本次的预约
-### 代码
+// 解释：当前天的数值取决于前一次的最大值和上上一次的最大值加上本次的预约
+// ### 代码
 
-```golang
+// ```golang
 func massage(nums []int) int {
 	if len(nums)==0{
 		return 0
@@ -30,4 +30,4 @@ func max(a,b int) int {
 	}
 	return b
 }
-```
+// ```

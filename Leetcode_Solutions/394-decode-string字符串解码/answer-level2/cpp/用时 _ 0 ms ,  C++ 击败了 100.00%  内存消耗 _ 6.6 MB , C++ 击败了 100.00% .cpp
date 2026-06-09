@@ -1,7 +1,7 @@
 
-迭代法  代码不是很优美 但是结果还可以。
+// 迭代法  代码不是很优美 但是结果还可以。
 
-```
+// ```
 class Solution {
 public:
     string decodeString(string s) {
@@ -39,7 +39,7 @@ public:
         return ans;
     }
 };
-```
+// ```
 
 
 

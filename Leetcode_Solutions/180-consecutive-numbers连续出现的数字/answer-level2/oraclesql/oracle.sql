@@ -1,4 +1,4 @@
-```
+-- ```
 /* Write your PL/SQL query statement below */
 
 SELECT distinct Num as ConsecutiveNums
@@ -8,4 +8,4 @@ FROM (
     FROM Logs
 ) a
 WHERE a.id2 = a.id + 2
-```
+-- ```

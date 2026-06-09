@@ -1,4 +1,4 @@
-```
+-- ```
 select name 
 from (
 select name,count(*) freq
@@ -8,4 +8,4 @@ group by candidateid
 order by freq desc
 limit 1
 
-```
+-- ```

@@ -1,4 +1,4 @@
-```
+// ```
 #define min(a,b) ((a)<(b)?(a):(b))
 
 char * longestPalindrome(char * s){
@@ -45,8 +45,8 @@ free (src);
 free (radius);
 return dst;
 }
-```
-```
+// ```
+// ```
 #define max(a,b) ((a)>(b)?(a):(b))
 
 int expandAroundCenter(char* s, int left, int right,int len)
@@ -84,4 +84,4 @@ strncpy(res, s + start, end - start + 1);
 res[end - start + 1] = '\0';
 return res;
 }
-```
+// ```

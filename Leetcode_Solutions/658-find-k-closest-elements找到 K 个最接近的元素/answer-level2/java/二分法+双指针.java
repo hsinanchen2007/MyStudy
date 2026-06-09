@@ -1,9 +1,9 @@
-### 解题思路
-二分法+双指针
+// ### 解题思路
+// 二分法+双指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
         List<Integer> list = new ArrayList<>();
@@ -56,4 +56,4 @@ class Solution {
         return target - arr[left] <= arr[right] - target;
     }
 }
-```
+// ```

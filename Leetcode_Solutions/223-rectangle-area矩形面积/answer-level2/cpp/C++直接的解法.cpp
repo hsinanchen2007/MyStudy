@@ -1,10 +1,10 @@
-上来直接计算重叠区域，判断能不能构成重叠。然后分别采取对应的措施。最气的题目说了“重叠后”，居然和有算例不重叠，误导人啊。
+// 上来直接计算重叠区域，判断能不能构成重叠。然后分别采取对应的措施。最气的题目说了“重叠后”，居然和有算例不重叠，误导人啊。
 
-这题不需要做过多的讨论，就这么几种情况：
-1.两个矩形分离
-2.两个矩形嵌套
-3.两个矩形重叠
-```
+// 这题不需要做过多的讨论，就这么几种情况：
+// 1.两个矩形分离
+// 2.两个矩形嵌套
+// 3.两个矩形重叠
+// ```
 int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
         //分别计算两个矩形的面积
         long long Area1=((long long)C-A)*((long long)D-B);
@@ -32,6 +32,6 @@ int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
             ans=Area1+Area2-Area3;
         return ans;
     }
-```
+// ```
 
 

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public void duplicateZeros(int[] arr) {
         for(int k = 0; k < arr.length-1; k++){
@@ -12,4 +12,4 @@ class Solution {
         }
     }
 }
-```
+// ```

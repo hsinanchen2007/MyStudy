@@ -1,13 +1,13 @@
-### 哈希表+最大堆
+# ### 哈希表+最大堆
 
-* step1：建立哈希表{elem: num}，统计每个元素出现的次数
-* step2：把所有的次数取相反数放进列表中（因为heapq是最小堆，建立最大堆需要手动取反）
-* step3：建立最大堆，每次pop出来出现次多的次数值，减去它得到计算此时的长度，判断是否删去一半了。
+# * step1：建立哈希表{elem: num}，统计每个元素出现的次数
+# * step2：把所有的次数取相反数放进列表中（因为heapq是最小堆，建立最大堆需要手动取反）
+# * step3：建立最大堆，每次pop出来出现次多的次数值，减去它得到计算此时的长度，判断是否删去一半了。
 
-* 时间复杂度：O（nlogn）第一步为O（n），n为arr长度；第二步为O（klogk），k为distinct（arr）的长度；第三步：log（k）
-* 空间复杂度：O（k），最差为O（n）
+# * 时间复杂度：O（nlogn）第一步为O（n），n为arr长度；第二步为O（klogk），k为distinct（arr）的长度；第三步：log（k）
+# * 空间复杂度：O（k），最差为O（n）
 
-```python []
+# ```python []
 from collections import defaultdict
 import heapq
 
@@ -30,4 +30,4 @@ class Solution:
             curr_sum -= heapq.heappop(num_list)
             res += 1
         return res
-```
+# ```

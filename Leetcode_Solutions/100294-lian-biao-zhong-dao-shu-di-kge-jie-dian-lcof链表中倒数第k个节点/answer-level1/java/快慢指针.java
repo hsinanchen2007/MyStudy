@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
- 双指针、快指针先走K步、然后双指针同步走、快指针到尾时慢指针所在即为所求
-### 代码
+//  双指针、快指针先走K步、然后双指针同步走、快指针到尾时慢指针所在即为所求
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return slow;
     }
 }
-```
+// ```

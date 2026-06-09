@@ -1,13 +1,13 @@
-### 解题思路
-先确定矩行哪个在左面，
-		下面是不重叠的几种请况
-		1.left矩形的右边是否  <= right矩形的左边
-		2.left矩形的下边是否  >= right矩形的上边
-		2.left矩形的上边是否  <= right矩形的下边
+// ### 解题思路
+// 先确定矩行哪个在左面，
+// 		下面是不重叠的几种请况
+// 		1.left矩形的右边是否  <= right矩形的左边
+// 		2.left矩形的下边是否  >= right矩形的上边
+// 		2.left矩形的上边是否  <= right矩形的下边
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         int[] left=rec1;
@@ -22,4 +22,4 @@ class Solution {
 		return true;
     }
 }
-```
+// ```

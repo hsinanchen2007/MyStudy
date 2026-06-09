@@ -1,40 +1,40 @@
-# 题目描述（困难难度）
+// # 题目描述（困难难度）
 
-![image.png](https://pic.leetcode-cn.com/2e863f7002d25ecef59b7673dc261dff4ad27907dea49287d620f9171e915752-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2e863f7002d25ecef59b7673dc261dff4ad27907dea49287d620f9171e915752-image.png)
 
-给一个只有 0 和 1 的矩阵，输出一个最大的矩形的面积，这个矩形里边只含有 1。
+// 给一个只有 0 和 1 的矩阵，输出一个最大的矩形的面积，这个矩形里边只含有 1。
 
-# 解法一 暴力破解
+// # 解法一 暴力破解
 
-参考[这里](<https://leetcode.com/problems/maximal-rectangle/discuss/29172/My-O(n3)-solution-for-your-reference>)，遍历每个点，求以这个点为矩阵右下角的所有矩阵面积。如下图的两个例子，橙色是当前遍历的点，然后虚线框圈出的矩阵是其中一个矩阵。
+// 参考[这里](<https://leetcode.com/problems/maximal-rectangle/discuss/29172/My-O(n3)-solution-for-your-reference>)，遍历每个点，求以这个点为矩阵右下角的所有矩阵面积。如下图的两个例子，橙色是当前遍历的点，然后虚线框圈出的矩阵是其中一个矩阵。
 
-![image.png](https://pic.leetcode-cn.com/28f7b0ae6d95bba9f81ef0236f7448d030cc484453de077a05c5436b557cf223-image.png)
+// ![image.png](https://pic.leetcode-cn.com/28f7b0ae6d95bba9f81ef0236f7448d030cc484453de077a05c5436b557cf223-image.png)
 
-怎么找出这样的矩阵呢？如下图，如果我们知道了以这个点结尾的连续 1 的个数的话，问题就变得简单了。
+// 怎么找出这样的矩阵呢？如下图，如果我们知道了以这个点结尾的连续 1 的个数的话，问题就变得简单了。
 
-![image.png](https://pic.leetcode-cn.com/59a6f3369ea805a02e2fc2ec1ca3aeedceba54825dd5b75775cf740a6db85811-image.png)
+// ![image.png](https://pic.leetcode-cn.com/59a6f3369ea805a02e2fc2ec1ca3aeedceba54825dd5b75775cf740a6db85811-image.png)
 
-1. 首先求出高度是 1 的矩形面积，也就是它自身的数，如图中橙色的 4，面积就是 4。
+// 1. 首先求出高度是 1 的矩形面积，也就是它自身的数，如图中橙色的 4，面积就是 4。
 
-2. 然后向上扩展一行，高度增加一，选出当前列最小的数字，作为矩阵的宽，求出面积，对应上图的矩形框。
+// 2. 然后向上扩展一行，高度增加一，选出当前列最小的数字，作为矩阵的宽，求出面积，对应上图的矩形框。
 
-3. 然后继续向上扩展，重复步骤 2。
+// 3. 然后继续向上扩展，重复步骤 2。
 
-按照上边的方法，遍历所有的点，求出所有的矩阵就可以了。
+// 按照上边的方法，遍历所有的点，求出所有的矩阵就可以了。
 
-以橙色的点为右下角，高度为 1。
+// 以橙色的点为右下角，高度为 1。
 
-![image.png](https://pic.leetcode-cn.com/cb03542bb14becd73ddc9af3700f25cda782b5bb049c8bc13e3ab344bc1e09f4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cb03542bb14becd73ddc9af3700f25cda782b5bb049c8bc13e3ab344bc1e09f4-image.png)
 
-高度为 2。
+// 高度为 2。
 
-![image.png](https://pic.leetcode-cn.com/23c8266cd3f7d1d004b4ab1890097865ddafb524f95e103fccbb79f11b672051-image.png)
+// ![image.png](https://pic.leetcode-cn.com/23c8266cd3f7d1d004b4ab1890097865ddafb524f95e103fccbb79f11b672051-image.png)
 
-高度为 3。
+// 高度为 3。
 
-![image.png](https://pic.leetcode-cn.com/2fef628d76686b283691d8989e08bf4ba24e4639dd8d1149f8a19b22cd254ddd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2fef628d76686b283691d8989e08bf4ba24e4639dd8d1149f8a19b22cd254ddd-image.png)
 
-```java
+// ```java
 public int maximalRectangle(char[][] matrix) {
     if (matrix.length == 0) {
         return 0;
@@ -69,29 +69,29 @@ public int maximalRectangle(char[][] matrix) {
     }
     return maxArea;
 }
-```
+// ```
 
-时间复杂度：O（m²n）。
+// 时间复杂度：O（m²n）。
 
-空间复杂度：O（mn）。
+// 空间复杂度：O（mn）。
 
-# 解法二
+// # 解法二
 
-参考[这里](<https://leetcode.com/problems/maximal-rectangle/discuss/29064/A-O(n2)-solution-based-on-Largest-Rectangle-in-Histogram>)，接下来的解法，会让这道题变得异常简单。还记得 [84 题](<https://leetcode.wang/leetCode-84-Largest-Rectangle-in-Histogram.html>)吗？求一个直方图矩形的最大面积。
+// 参考[这里](<https://leetcode.com/problems/maximal-rectangle/discuss/29064/A-O(n2)-solution-based-on-Largest-Rectangle-in-Histogram>)，接下来的解法，会让这道题变得异常简单。还记得 [84 题](<https://leetcode.wang/leetCode-84-Largest-Rectangle-in-Histogram.html>)吗？求一个直方图矩形的最大面积。
 
-![image.png](https://pic.leetcode-cn.com/2e86317dfe24b5dd66c71fe6cf57675ac3977f9cd452bc8bd351063c9f82ebed-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2e86317dfe24b5dd66c71fe6cf57675ac3977f9cd452bc8bd351063c9f82ebed-image.png)
 
-大家可以先做 [84 题](<https://leetcode.wang/leetCode-84-Largest-Rectangle-in-Histogram.html>)，然后回来考虑这道题。
+// 大家可以先做 [84 题](<https://leetcode.wang/leetCode-84-Largest-Rectangle-in-Histogram.html>)，然后回来考虑这道题。
 
-再想一下这个题，看下边的橙色的部分，这完全就是上一道题呀！
+// 再想一下这个题，看下边的橙色的部分，这完全就是上一道题呀！
 
-![image.png](https://pic.leetcode-cn.com/aabb1b287134cf950aa80526806ef4025e3920d57d237c0369ed34fae83e2690-image.png)
+// ![image.png](https://pic.leetcode-cn.com/aabb1b287134cf950aa80526806ef4025e3920d57d237c0369ed34fae83e2690-image.png)
 
-算法有了，就是求出每一层的 heights[] 然后传给上一题的函数就可以了。
+// 算法有了，就是求出每一层的 heights[] 然后传给上一题的函数就可以了。
 
-利用上一题的栈解法。
+// 利用上一题的栈解法。
 
-```java
+// ```java
 public int maximalRectangle(char[][] matrix) {
     if (matrix.length == 0) {
         return 0;
@@ -153,15 +153,15 @@ public int largestRectangleArea(int[] heights) {
     }
     return maxArea;
 }
-```
+// ```
 
-时间复杂度：O（mn）。
+// 时间复杂度：O（mn）。
 
-空间复杂度：O（n）。
+// 空间复杂度：O（n）。
 
-利用上一题的解法四。
+// 利用上一题的解法四。
 
-```java
+// ```java
 public int maximalRectangle(char[][] matrix) {
     if (matrix.length == 0) {
         return 0;
@@ -213,17 +213,17 @@ public int largestRectangleArea(int[] heights) {
     }
     return maxArea;
 }
-```
+// ```
 
-时间复杂度：O（mn）。
+// 时间复杂度：O（mn）。
 
-空间复杂度：O（n）。
+// 空间复杂度：O（n）。
 
-# 解法三
+// # 解法三
 
-解法二中套用的栈的解法，我们其实可以不用调用函数，而是把栈糅合到原来求 heights 中。因为栈的话并不是一次性需要所有的高度，所以可以求出一个高度，然后就操作栈。
+// 解法二中套用的栈的解法，我们其实可以不用调用函数，而是把栈糅合到原来求 heights 中。因为栈的话并不是一次性需要所有的高度，所以可以求出一个高度，然后就操作栈。
 
-```java
+// ```java
 public int maximalRectangle(char[][] matrix) {
     if (matrix.length == 0) {
         return 0;
@@ -260,41 +260,41 @@ public int maximalRectangle(char[][] matrix) {
     }
     return maxArea;
 }
-```
+// ```
 
-时间复杂度：O（mn）。
+// 时间复杂度：O（mn）。
 
-空间复杂度：O（n）。
+// 空间复杂度：O（n）。
 
-里边有一个小技巧，[84 题](<https://leetcode.wang/leetCode-84-Largest-Rectangle-in-Histogram.html>) 的栈解法中，我们用了两个 while 循环，第二个 while 循环用来解决遍历完元素栈不空的情况。其实，我们注意到两个 while 循环的逻辑完全一样的。所以我们可以通过一些操作，使得遍历结束后，依旧进第一个 while 循环，从而剩下了第 2 个 while 循环，代码看起来会更简洁。
+// 里边有一个小技巧，[84 题](<https://leetcode.wang/leetCode-84-Largest-Rectangle-in-Histogram.html>) 的栈解法中，我们用了两个 while 循环，第二个 while 循环用来解决遍历完元素栈不空的情况。其实，我们注意到两个 while 循环的逻辑完全一样的。所以我们可以通过一些操作，使得遍历结束后，依旧进第一个 while 循环，从而剩下了第 2 个 while 循环，代码看起来会更简洁。
 
-那就是 heights 多申请一个元素，赋值为 0。这样最后一次遍历的时候，栈顶肯定会大于当前元素，所以就进入了第一个 while 循环。
+// 那就是 heights 多申请一个元素，赋值为 0。这样最后一次遍历的时候，栈顶肯定会大于当前元素，所以就进入了第一个 while 循环。
 
-# 解法四 动态规划
+// # 解法四 动态规划
 
-参考[这里](<https://leetcode.com/problems/maximal-rectangle/discuss/29054/Share-my-DP-solution>)，这是 leetcode Solution 中投票最高的，但比较难理解，但如果结合 84 题去想的话就很容易了。
+// 参考[这里](<https://leetcode.com/problems/maximal-rectangle/discuss/29054/Share-my-DP-solution>)，这是 leetcode Solution 中投票最高的，但比较难理解，但如果结合 84 题去想的话就很容易了。
 
-解法二中，用了 84 题的两个解法，解法三中我们把栈糅合进了原算法，那么另一种可以一样的思路吗？不行！因为栈不要求所有的高度，可以边更新，边处理。而另一种，是利用两个数组，  leftLessMin [ ] 和 rightLessMin [ ]。而这两个数组的更新，是需要所有高度的。
+// 解法二中，用了 84 题的两个解法，解法三中我们把栈糅合进了原算法，那么另一种可以一样的思路吗？不行！因为栈不要求所有的高度，可以边更新，边处理。而另一种，是利用两个数组，  leftLessMin [ ] 和 rightLessMin [ ]。而这两个数组的更新，是需要所有高度的。
 
-解法二中，我们更新一次 heights，就利用之前的算法，求一遍   leftLessMin [ ] 和 rightLessMin [ ]，然后更新面积。而其实，我们求  leftLessMin [ ] 和 rightLessMin [ ] 可以利用之前的  leftLessMin [ ] 和 rightLessMin [ ] 来更新本次的。
+// 解法二中，我们更新一次 heights，就利用之前的算法，求一遍   leftLessMin [ ] 和 rightLessMin [ ]，然后更新面积。而其实，我们求  leftLessMin [ ] 和 rightLessMin [ ] 可以利用之前的  leftLessMin [ ] 和 rightLessMin [ ] 来更新本次的。
 
-我们回想一下  leftLessMin [ ] 和 rightLessMin [ ] 的含义， leftLessMin [ i ] 代表左边第一个比当前柱子矮的下标，如下图橙色柱子时当前遍历的柱子。rightLessMin [ ]  时右边第一个。
+// 我们回想一下  leftLessMin [ ] 和 rightLessMin [ ] 的含义， leftLessMin [ i ] 代表左边第一个比当前柱子矮的下标，如下图橙色柱子时当前遍历的柱子。rightLessMin [ ]  时右边第一个。
 
-![image.png](https://pic.leetcode-cn.com/8c1c753843e2696cc1522b79a024d5b36d5ee9a74efc2845f077a06ed0545e71-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8c1c753843e2696cc1522b79a024d5b36d5ee9a74efc2845f077a06ed0545e71-image.png)
 
-left 和 right 是对称关系，下边只考虑 left 的求法。
+// left 和 right 是对称关系，下边只考虑 left 的求法。
 
-如下图，如果当前新增的层全部是 1，当然这时最完美的情况，那么 leftLessMin [ ] 根本不需要改变。
+// 如下图，如果当前新增的层全部是 1，当然这时最完美的情况，那么 leftLessMin [ ] 根本不需要改变。
 
-![image.png](https://pic.leetcode-cn.com/e525185c3c840f36473c1a0b60db746282dd9d14f8d5464f383c9a05b73ffe2a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e525185c3c840f36473c1a0b60db746282dd9d14f8d5464f383c9a05b73ffe2a-image.png)
 
-然而事实是残酷的，一定会有 0 的出现。
+// 然而事实是残酷的，一定会有 0 的出现。
 
-![image.png](https://pic.leetcode-cn.com/da386a084b00b7252897c219d105d3720f421fd6024e9fa84594deca2c560aec-image.png)
+// ![image.png](https://pic.leetcode-cn.com/da386a084b00b7252897c219d105d3720f421fd6024e9fa84594deca2c560aec-image.png)
 
-我们考虑最后一个柱子的更新。上一层的 leftLessMin = 1，也就是蓝色 0 的位置是第一个比它低的柱子。但是在当前层，由于中间出现了 0。所以不再是之前的 leftLessMin ，而是和上次出现 0 的位置进行比较（因为 0 一定比当前柱子小），谁的下标大，更接近当前柱子，就选择谁。上图中出现 0 的位置是 2，之前的 leftLessMin 是 1，选一个较大的，那就是 2 了。
+// 我们考虑最后一个柱子的更新。上一层的 leftLessMin = 1，也就是蓝色 0 的位置是第一个比它低的柱子。但是在当前层，由于中间出现了 0。所以不再是之前的 leftLessMin ，而是和上次出现 0 的位置进行比较（因为 0 一定比当前柱子小），谁的下标大，更接近当前柱子，就选择谁。上图中出现 0 的位置是 2，之前的 leftLessMin 是 1，选一个较大的，那就是 2 了。
 
-```java
+// ```java
 public int maximalRectangle4(char[][] matrix) {
     if (matrix.length == 0) {
         return 0;
@@ -350,14 +350,14 @@ public int maximalRectangle4(char[][] matrix) {
 
 }
 
-```
+// ```
 
-时间复杂度：O（mn）。
+// 时间复杂度：O（mn）。
 
-空间复杂度：O（n）。
+// 空间复杂度：O（n）。
 
-# 总
+// # 总
 
-有时候，如果可以把题抽象到已解决的问题当中去，可以大大的简化问题，很酷！
+// 有时候，如果可以把题抽象到已解决的问题当中去，可以大大的简化问题，很酷！
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

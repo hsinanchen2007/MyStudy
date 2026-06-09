@@ -1,8 +1,8 @@
-python 28ms ； python3 62ms
-#我的想法：int ——> str 倒序 删除0 溢出 特殊情况
-#我的主要是按字符类型来做的，我把我学的基础都放上去了。
-#后面我看了其它大佬的思路，还可以用求余，殊途同归，思路差不多，方法不同。
-```
+# python 28ms ； python3 62ms
+# #我的想法：int ——> str 倒序 删除0 溢出 特殊情况
+# #我的主要是按字符类型来做的，我把我学的基础都放上去了。
+# #后面我看了其它大佬的思路，还可以用求余，殊途同归，思路差不多，方法不同。
+# ```
 class Solution(object):
     def reverse(self, x):
         """
@@ -29,4 +29,4 @@ class Solution(object):
                 return xr
             else:
                 return 0
-```
+# ```

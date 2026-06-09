@@ -1,4 +1,4 @@
-```
+// ```
 func solveNQueens(n int) [][]string {
 	if n < 4 && n != 1 {
 		return [][]string{}
@@ -97,4 +97,4 @@ func (m *mark) remove(row, column int) {
 
 }
 
-```
+// ```

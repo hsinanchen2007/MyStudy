@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isRight( vector<int>& a, vector<int>& b){
@@ -51,4 +51,4 @@ public:
         return s.substr( begin, res_size);
     }
 };
-```
+// ```

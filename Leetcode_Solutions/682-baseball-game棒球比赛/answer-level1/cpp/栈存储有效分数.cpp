@@ -1,10 +1,10 @@
-### 解题思路
-1. 用一个栈保存有效的分数
-2. 对栈中的分数求和
+// ### 解题思路
+// 1. 用一个栈保存有效的分数
+// 2. 对栈中的分数求和
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int calPoints(vector<string>& ops) {
@@ -35,4 +35,4 @@ public:
         return ans;
     }
 };
-```
+// ```

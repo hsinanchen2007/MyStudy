@@ -1,15 +1,15 @@
 
-![javascript.jpg](https://pic.leetcode-cn.com/004f791f72d4c32ab2c13611f23aa41d6413a4b4ca38f71db0ff3f455b9b98af-javascript.jpg)
+// ![javascript.jpg](https://pic.leetcode-cn.com/004f791f72d4c32ab2c13611f23aa41d6413a4b4ca38f71db0ff3f455b9b98af-javascript.jpg)
 
-<br />
+// <br />
 
-> es6新增两种数据结构, set和map, 其中set对应哈希集合, map对应哈希映射
+// > es6新增两种数据结构, set和map, 其中set对应哈希集合, map对应哈希映射
 
-<br />
+// <br />
 
-- 明明提示`所有的值都在 [1, 1000000]的范围内`, 为什么我又碰到0了
+// - 明明提示`所有的值都在 [1, 1000000]的范围内`, 为什么我又碰到0了
 
-```js
+// ```js
 class MyHashMap {
   constructor () {
     this.data = {}
@@ -24,5 +24,5 @@ class MyHashMap {
     delete this.data[key]
   }
 }
-```
+// ```
 

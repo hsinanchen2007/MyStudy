@@ -1,9 +1,9 @@
-### 解题思路
-耗时较长，参考：https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/solution/linusda-lao-de-jie-jue-fang-an-by-adjwang/
+// ### 解题思路
+// 耗时较长，参考：https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/solution/linusda-lao-de-jie-jue-fang-an-by-adjwang/
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -26,4 +26,4 @@ public:
 
     
 };
-```
+// ```

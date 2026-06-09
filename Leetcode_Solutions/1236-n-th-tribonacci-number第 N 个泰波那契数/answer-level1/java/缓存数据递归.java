@@ -1,9 +1,9 @@
-### 解题
-中间数据缓存方式
+// ### 解题
+// 中间数据缓存方式
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int tribonacci(int n) {
         //创建数组变量存储中间计算值
@@ -29,4 +29,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

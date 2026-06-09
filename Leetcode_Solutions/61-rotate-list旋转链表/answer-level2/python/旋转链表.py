@@ -1,8 +1,8 @@
-### 解题思路
-链表闭合成环，然后找到合适的位置切开 
-### 代码
+# ### 解题思路
+# 链表闭合成环，然后找到合适的位置切开 
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution:
         
 
         return newHead
-```
+# ```

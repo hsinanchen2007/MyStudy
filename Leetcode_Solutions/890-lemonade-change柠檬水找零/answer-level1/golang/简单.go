@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lemonadeChange(bills []int) bool {
 	five:=0//手里的5的个数
 	ten:=0//手里的10的个数
@@ -34,4 +34,4 @@ func lemonadeChange(bills []int) bool {
 	}
 	return true
 }
-```
+// ```

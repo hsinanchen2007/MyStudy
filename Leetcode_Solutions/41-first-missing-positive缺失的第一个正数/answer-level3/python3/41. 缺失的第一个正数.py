@@ -1,9 +1,9 @@
-### 解题思路
-官方代码，用索引当键，拿元素符号当判断有无的技巧，tql。
+# ### 解题思路
+# 官方代码，用索引当键，拿元素符号当判断有无的技巧，tql。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def firstMissingPositive(self, nums):
         """
@@ -50,4 +50,4 @@ class Solution:
             return n
 
         return n + 1
-```
+# ```

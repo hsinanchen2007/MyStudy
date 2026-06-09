@@ -1,9 +1,9 @@
-### 解题思路
-借助两个列表分别存储数据和最小值
+// ### 解题思路
+// 借助两个列表分别存储数据和最小值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
     private int index=0;
     private List<Integer> nums=new ArrayList();
@@ -49,4 +49,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 #define N  1001
 #define mod 16777259
 unsigned int val[N][N];//val(i,j)即字符串str(i,j)的哈希值
@@ -22,7 +22,7 @@ char * longestPalindrome(char * s) {
     *(rt+tl)=0;
 	return rt;
 }
-```
+// ```
 
-///由于是暴力算法，复杂度的确太高了
-![暴力哈希.png](https://pic.leetcode-cn.com/9c2e24636917547460848de4c18efec415da96871d85b22da56440e3dcab44c9-%E6%9A%B4%E5%8A%9B%E5%93%88%E5%B8%8C.png)
+// ///由于是暴力算法，复杂度的确太高了
+// ![暴力哈希.png](https://pic.leetcode-cn.com/9c2e24636917547460848de4c18efec415da96871d85b22da56440e3dcab44c9-%E6%9A%B4%E5%8A%9B%E5%93%88%E5%B8%8C.png)

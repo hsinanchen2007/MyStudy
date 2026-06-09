@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-看了大佬的思路后，使用了Hash表，将时间复杂度从O(n^2)降到了O(n)，结果还是被吊打。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 看了大佬的思路后，使用了Hash表，将时间复杂度从O(n^2)降到了O(n)，结果还是被吊打。
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
         public int[] TwoSum(int[] nums, int target)
         {
@@ -30,4 +30,4 @@ public class Solution {
             return sumNum;
         }
 }
-```
+// ```

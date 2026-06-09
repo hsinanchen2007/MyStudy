@@ -1,12 +1,12 @@
-### 缺陷
-Line 16: Char 18: runtime error: index 50 out of bounds for type 'char [50]' (solution.c)
-没有给栈分配动态空间，导致最后一个测试案例不通过（最终暴力修改：char Stack[10000];），汗颜……
-然后整个代码块写得啰哩啰嗦，逻辑上也不是很缜密。
-注释写得比较简陋……
+// ### 缺陷
+// Line 16: Char 18: runtime error: index 50 out of bounds for type 'char [50]' (solution.c)
+// 没有给栈分配动态空间，导致最后一个测试案例不通过（最终暴力修改：char Stack[10000];），汗颜……
+// 然后整个代码块写得啰哩啰嗦，逻辑上也不是很缜密。
+// 注释写得比较简陋……
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValid(char * s){
     char Stack[10000];
     if(s==NULL || s[0]=='\0') return 1;
@@ -47,4 +47,4 @@ bool isValid(char * s){
     if(top!=-1) return 0; //栈不为空，无效
     return 1;
 }
-```
+// ```

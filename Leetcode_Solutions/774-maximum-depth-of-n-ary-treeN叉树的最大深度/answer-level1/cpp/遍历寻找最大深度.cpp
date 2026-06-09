@@ -1,9 +1,9 @@
-### 解题思路
-通过遍历寻找最大深度
+// ### 解题思路
+// 通过遍历寻找最大深度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -34,4 +34,4 @@ public:
         return ++depth;
     }
 };
-```
+// ```

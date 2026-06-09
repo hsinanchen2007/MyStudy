@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/f93e9189a4c250b90489b66d2c337efe208883ed74621673bd29131ffa194fa4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f93e9189a4c250b90489b66d2c337efe208883ed74621673bd29131ffa194fa4-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -144,4 +144,4 @@ int** pathSum(struct TreeNode* root, int sum, int* returnSize, int** returnColum
     *returnColumnSizes = r.returnColumnSizes;
     return r.rlt;
 }
-```
+// ```

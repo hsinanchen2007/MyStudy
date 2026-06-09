@@ -1,9 +1,9 @@
-### 解题思路
-递归的写法很巧妙，保留上一个节点的值，回溯回来。
+// ### 解题思路
+// 递归的写法很巧妙，保留上一个节点的值，回溯回来。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ bool isRight(struct TreeNode* root, long lowest, long highest) {
     return isRight(root->left, lowest, root->val) && isRight(root->right, root->val, highest);
 }
 
-```
+// ```

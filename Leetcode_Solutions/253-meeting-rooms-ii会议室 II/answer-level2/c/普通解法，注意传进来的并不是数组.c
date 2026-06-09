@@ -1,8 +1,8 @@
-### 解题思路
-比较和操作时intervals不能按数组处理
+// ### 解题思路
+// 比较和操作时intervals不能按数组处理
 
-### 代码
-```c
+// ### 代码
+// ```c
 int minMeet()
 {
     return 0;
@@ -66,4 +66,4 @@ int minMeetingRooms(int **intervals, int intervalsSize, int *intervalsColSize)
     }
     return count;
 }
-```
+// ```

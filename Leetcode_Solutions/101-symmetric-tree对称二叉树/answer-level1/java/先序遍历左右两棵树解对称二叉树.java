@@ -1,7 +1,7 @@
-// 对称二叉树
-        // 左子树按（中左右顺序遍历）
-        // 右子树按（中右左顺序遍历）
-        // if val不等返回false，或一个为空一个不为空返回false
+// // 对称二叉树
+//         // 左子树按（中左右顺序遍历）
+//         // 右子树按（中右左顺序遍历）
+//         // if val不等返回false，或一个为空一个不为空返回false
 
 class Solution {
     public boolean isSymmetric(TreeNode root) {

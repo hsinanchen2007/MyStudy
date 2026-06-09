@@ -1,10 +1,10 @@
-### 解题思路
-检查有无 正负号，有的话去掉。对去掉的字符串做reverse()操作，然后再拼接上正负号。
-使用long来解决溢出问题。
+// ### 解题思路
+// 检查有无 正负号，有的话去掉。对去掉的字符串做reverse()操作，然后再拼接上正负号。
+// 使用long来解决溢出问题。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         String a = "" + x;
@@ -23,4 +23,4 @@ class Solution {
         
     }
 }
-```
+// ```

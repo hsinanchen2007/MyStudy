@@ -1,6 +1,6 @@
-## 思路一：暴力
-### 代码
-```c++
+// ## 思路一：暴力
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
@@ -28,12 +28,12 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 思路二：投票加验证
-满足条件的数最多为两个，找出两个候选数进行投票，进行两次遍历，第一次遍历找到两个候选数，第二次遍历统计出现次数，最后验证是否满足出现次数。
-### 代码
-```c++
+// ## 思路二：投票加验证
+// 满足条件的数最多为两个，找出两个候选数进行投票，进行两次遍历，第一次遍历找到两个候选数，第二次遍历统计出现次数，最后验证是否满足出现次数。
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
@@ -76,5 +76,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

@@ -1,4 +1,4 @@
-```
+// ```
 func missingElement(nums []int, k int) int {
 	o, i := 0, 0
 	for ; i < len(nums)-1; i++ {
@@ -11,4 +11,4 @@ func missingElement(nums []int, k int) int {
 	}
 	return nums[i] + k
 }
-```
+// ```

@@ -1,8 +1,8 @@
-## 思路:
+# ## 思路:
 
-其实对于这种题目,递归不太好想的,可以有个取巧的方法,就是把树转列表,因为结果是按照前序遍历的,所以有:
+# 其实对于这种题目,递归不太好想的,可以有个取巧的方法,就是把树转列表,因为结果是按照前序遍历的,所以有:
 
-```python
+# ```python
 def flatten(self, root: TreeNode) -> None:
         """
         Do not return anything, modify root in-place instead.
@@ -23,32 +23,32 @@ def flatten(self, root: TreeNode) -> None:
             p.right = TreeNode(d[i])
             p = p.right
             i += 1
-```
+# ```
 
-上面做法属于作弊过的,
+# 上面做法属于作弊过的,
 
-思路一: 递归, 类似后序遍历
+# 思路一: 递归, 类似后序遍历
 
-递归过程:
+# 递归过程:
 
-![image.png](https://pic.leetcode-cn.com/4f800f385b3334c089edae965c19926bbe2227aa5a4b61f5e4471abc2962870b-image.png)
-
-
-思路二: 迭代,
-
-直接看代码,很容易理解,但是不容易想!
-
-迭代过程：
-
-![image.png](https://pic.leetcode-cn.com/50a2825c3340a122cd48a3125074763e58ef95a17a6c1a2e20014ca075309fd9-image.png)
+# ![image.png](https://pic.leetcode-cn.com/4f800f385b3334c089edae965c19926bbe2227aa5a4b61f5e4471abc2962870b-image.png)
 
 
+# 思路二: 迭代,
 
-## 代码:
+# 直接看代码,很容易理解,但是不容易想!
 
-思路一:
+# 迭代过程：
 
-```python [1]
+# ![image.png](https://pic.leetcode-cn.com/50a2825c3340a122cd48a3125074763e58ef95a17a6c1a2e20014ca075309fd9-image.png)
+
+
+
+# ## 代码:
+
+# 思路一:
+
+# ```python [1]
 def flatten(self, root: TreeNode, pre = None) -> None:
         """
         Do not return anything, modify root in-place instead.
@@ -64,11 +64,11 @@ def flatten(self, root: TreeNode, pre = None) -> None:
             root.left = None
             return pre
         helper(root, None)
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public void flatten(TreeNode root) {
         helper(root, null);
@@ -84,11 +84,11 @@ class Solution {
         return pre;
     }
 }
-```
+# ```
 
-思路二:
+# 思路二:
 
-```python [2]
+# ```python [2]
 def flatten(self, root: TreeNode) -> None:
         """
         Do not return anything, modify root in-place instead.
@@ -102,12 +102,12 @@ def flatten(self, root: TreeNode) -> None:
                 cur.right = cur.left
                 cur.left = None
             cur = cur.right
-```
+# ```
 
 
 
 
-```java [2]
+# ```java [2]
 class Solution {
     public void flatten(TreeNode root) {
       TreeNode cur = root;
@@ -123,9 +123,9 @@ class Solution {
         }
     }
 }
-```
+# ```
 
-​    
+# ​    
 
 
 

@@ -1,6 +1,6 @@
-- 题目很容易，注意先判断15
+// - 题目很容易，注意先判断15
 
-```
+// ```
 class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> result = new ArrayList();
@@ -15,4 +15,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

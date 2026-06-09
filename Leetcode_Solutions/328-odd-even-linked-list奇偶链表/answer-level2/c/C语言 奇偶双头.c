@@ -1,11 +1,11 @@
-### 解题思路
-采用奇偶双头，遍历一遍即可
+// ### 解题思路
+// 采用奇偶双头，遍历一遍即可
 
-![image.png](https://pic.leetcode-cn.com/ffe1dc61721e72a831274db2a70ae2ce2c7bc09ea8886d3bddd690af327d78bc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ffe1dc61721e72a831274db2a70ae2ce2c7bc09ea8886d3bddd690af327d78bc-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,4 +44,4 @@ struct ListNode* oddEvenList(struct ListNode* head){
     curOdd->next = NULL;
     return evenHead;
 }
-```
+// ```

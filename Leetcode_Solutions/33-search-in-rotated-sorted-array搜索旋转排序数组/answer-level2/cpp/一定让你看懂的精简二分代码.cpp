@@ -1,21 +1,21 @@
-### 解题思路
+// ### 解题思路
 
-1、首先二分值域，找到旋转数组的分界点。
-即我们找到原始数组最小值，在旋转数组中的索引位置。以nums = [4,5,6,7,0,1,2], 
-target = 0为例，通过调用函数find_rotate_index，我们找到了最小值的索引idx为4。
+// 1、首先二分值域，找到旋转数组的分界点。
+// 即我们找到原始数组最小值，在旋转数组中的索引位置。以nums = [4,5,6,7,0,1,2], 
+// target = 0为例，通过调用函数find_rotate_index，我们找到了最小值的索引idx为4。
 
-2、有了最小值分界点位置后，我们就能获得整个数组的最大值max和最小值min以及最右端值
-nums[numsSize - 1]，接下来就和普通二分法一模一样了，不过之前我们可以对一些
-特殊条件提前判断，比如说target < min, target > max，则直接返回-1。否则target
-就只可能在[0, idx - 1]、 [idx, numsSize - 1]两个区间之一寻找，判断的条件是：
-a、target <= nums[numsSize],则去[idx, numsSize - 1]中二分查找。
-b、否则去[0, idx - 1]中查找，这样我们就考虑到所有情况了。
+// 2、有了最小值分界点位置后，我们就能获得整个数组的最大值max和最小值min以及最右端值
+// nums[numsSize - 1]，接下来就和普通二分法一模一样了，不过之前我们可以对一些
+// 特殊条件提前判断，比如说target < min, target > max，则直接返回-1。否则target
+// 就只可能在[0, idx - 1]、 [idx, numsSize - 1]两个区间之一寻找，判断的条件是：
+// a、target <= nums[numsSize],则去[idx, numsSize - 1]中二分查找。
+// b、否则去[0, idx - 1]中查找，这样我们就考虑到所有情况了。
 
-是不是思路很easy，记得点赞哦！！！
+// 是不是思路很easy，记得点赞哦！！！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 //值域二分法，找最小分界点
 int find_rotate_index(int q[], int len)
@@ -56,4 +56,4 @@ int search(int* nums, int numsSize, int target){
     if (target <= nums[numsSize - 1]) return find(nums, min_idx, numsSize - 1, target);
     else return find(nums, 0, min_idx - 1, target);
 }
-```
+// ```

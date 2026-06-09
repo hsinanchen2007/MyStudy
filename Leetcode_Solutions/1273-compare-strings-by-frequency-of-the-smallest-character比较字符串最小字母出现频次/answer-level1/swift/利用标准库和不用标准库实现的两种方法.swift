@@ -1,11 +1,11 @@
-### 解题思路 1
-只用了标准库，效率不怎么高..
+// ### 解题思路 1
+// 只用了标准库，效率不怎么高..
 
-(#`O′)那些拿swift当c++写得那么底层的，你们是怪物吗！
+// (#`O′)那些拿swift当c++写得那么底层的，你们是怪物吗！
 
-### 代码 1
+// ### 代码 1
 
-```swift
+// ```swift
 class Solution {
     func numSmallerByFrequency(_ queries: [String], _ words: [String]) -> [Int] {
         
@@ -37,17 +37,17 @@ class Solution {
         
     }
 }
-```
+// ```
 
 
-### 解题思路 2 
+// ### 解题思路 2 
 
-自己造轮子的效率改进版
+// 自己造轮子的效率改进版
 
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func numSmallerByFrequency(_ queries: [String], _ words: [String]) -> [Int] {
 
@@ -108,4 +108,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-Oracle 写法：
+-- Oracle 写法：
 
-题解
-```sql
+-- 题解
+-- ```sql
 select 
 	distinct Num as consecutiveNums
 from
@@ -15,10 +15,10 @@ from
 )
 group by Num, lag
 having count(1) >= 3;
-```
+-- ```
 
-自行在本地执行下述语句并观察结果（或者手写结果），就能发现相关规律：
-```sql
+-- 自行在本地执行下述语句并观察结果（或者手写结果），就能发现相关规律：
+-- ```sql
 select
 	Id,
 	Num,
@@ -28,4 +28,4 @@ select
 		-
 		row_number() over (partition by Num order by Id)
 from Logs;
-```
+-- ```

@@ -1,4 +1,4 @@
-```
+// ```
 var lastRemaining = function(n, m) {
     let arr = [];
     for (let i=0;i<n;i+=1) {
@@ -15,7 +15,7 @@ var lastRemaining = function(n, m) {
     }
     return arr[0];
 };
-```
+// ```
 
 
-简单非递归方法。明天更新递归方法。
+// 简单非递归方法。明天更新递归方法。

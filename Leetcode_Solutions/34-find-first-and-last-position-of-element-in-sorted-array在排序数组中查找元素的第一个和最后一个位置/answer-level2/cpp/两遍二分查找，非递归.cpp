@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/38922dba04fe29e50e378e2f8af24ee0ed2f772f39de858267b438058e909740-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/38922dba04fe29e50e378e2f8af24ee0ed2f772f39de858267b438058e909740-image.png)
 
-两遍二分查找，分别找最左端和最右端，只在当nums[mid]==target时做一些改变。
-当然也可以用递归来找，递归时间短但是空间开销大。
+// 两遍二分查找，分别找最左端和最右端，只在当nums[mid]==target时做一些改变。
+// 当然也可以用递归来找，递归时间短但是空间开销大。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -53,4 +53,4 @@ public:
         return res;
     }
 };
-```
+// ```

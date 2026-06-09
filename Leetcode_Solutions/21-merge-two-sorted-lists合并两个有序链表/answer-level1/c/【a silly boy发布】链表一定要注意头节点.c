@@ -1,6 +1,6 @@
-![F22647D8-A640-45F9-826B-A239D7E4B8E4.jpeg](https://pic.leetcode-cn.com/51f5d70a4718c145df42917570581336ec02968d755a4435d737166a57a6876c-F22647D8-A640-45F9-826B-A239D7E4B8E4.jpeg)
+// ![F22647D8-A640-45F9-826B-A239D7E4B8E4.jpeg](https://pic.leetcode-cn.com/51f5d70a4718c145df42917570581336ec02968d755a4435d737166a57a6876c-F22647D8-A640-45F9-826B-A239D7E4B8E4.jpeg)
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -47,4 +47,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2)
     returnRecordList = returnRecordList->next;
     return returnRecordList;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-本题我采用的是回溯法思想来解决的，怎么求解的步骤我就不多说了，于本题而言，很简单，大家看我下面的代码很容易get清楚。
-关于回文串的定义，相信大家也都清楚，就是一个字符串的顺序和逆序是一样的。
-代码如下：
-```python
+# 本题我采用的是回溯法思想来解决的，怎么求解的步骤我就不多说了，于本题而言，很简单，大家看我下面的代码很容易get清楚。
+# 关于回文串的定义，相信大家也都清楚，就是一个字符串的顺序和逆序是一样的。
+# 代码如下：
+# ```python
 class Solution(object):
     # 本题采用回溯法
     def partition(self, s):
@@ -33,9 +33,9 @@ if __name__ == "__main__":
     s = "aab"
     split_result = Solution().partition(s)
     print(split_result)
-```
-执行效率还算不错，在80%左右。
+# ```
+# 执行效率还算不错，在80%左右。
 
-![image.png](https://pic.leetcode-cn.com/587b65d4fd266dd562939713d1afb0cebe2b7f4139f0a42eeaeeca3ddeed2324-image.png)
+# ![image.png](https://pic.leetcode-cn.com/587b65d4fd266dd562939713d1afb0cebe2b7f4139f0a42eeaeeca3ddeed2324-image.png)
 
-看网上的帖子，还有用动态规划来写的，我偷个懒就没想了，大家如果想到了，还请积极留言啊！
+# 看网上的帖子，还有用动态规划来写的，我偷个懒就没想了，大家如果想到了，还请积极留言啊！

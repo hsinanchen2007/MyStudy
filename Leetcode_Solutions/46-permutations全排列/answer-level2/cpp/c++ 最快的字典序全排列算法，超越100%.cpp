@@ -1,6 +1,6 @@
 
-O(n)时间复杂度计算下一个字典序，计算全排列组合数个字典序.
-```C++
+// O(n)时间复杂度计算下一个字典序，计算全排列组合数个字典序.
+// ```C++
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -41,4 +41,4 @@ private:
         return result;
     }
 };
-```
+// ```

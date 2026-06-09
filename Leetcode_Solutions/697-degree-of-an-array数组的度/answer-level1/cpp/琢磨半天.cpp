@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int findShortestSubArray(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return ans;
     }
 };
-```
+// ```

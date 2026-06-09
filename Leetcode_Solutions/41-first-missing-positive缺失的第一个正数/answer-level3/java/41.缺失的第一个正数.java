@@ -1,4 +1,4 @@
-排序，相邻两数做差（后减前），如果差值大于1，前面的数+1作为返回值。当然要考虑负数等情况。
+// 排序，相邻两数做差（后减前），如果差值大于1，前面的数+1作为返回值。当然要考虑负数等情况。
 
 public int firstMissingPositive(int[] nums) {
 		if(nums == null || nums.length == 0) return 1;

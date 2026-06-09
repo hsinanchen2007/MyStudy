@@ -1,14 +1,14 @@
-取两个数组的中位数
+# 取两个数组的中位数
 
 
-分解步骤
-1. 合并数组
-2. 新数组排序
-3. 分单双长度处理
+# 分解步骤
+# 1. 合并数组
+# 2. 新数组排序
+# 3. 分单双长度处理
 
-代码：
+# 代码：
 
-```
+# ```
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         nums = nums1 + nums2
@@ -22,4 +22,4 @@ class Solution:
             mid2 = int(n/2)
             res = (nums[mid1]+nums[mid2])/2
         return res
-```
+# ```

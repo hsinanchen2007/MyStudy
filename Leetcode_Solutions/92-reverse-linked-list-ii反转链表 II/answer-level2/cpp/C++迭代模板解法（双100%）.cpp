@@ -1,14 +1,14 @@
-![Image.png](https://pic.leetcode-cn.com/e2434144e83ff00f6c2d53e3334485b86cfd2751849840d01b56fd424f017351-Image.png)
-提交后，第一次不看题解还出现双100%，所以斗胆挂出来了，只是提供一种可行性吧，本人菜鸟，求大神们轻点喷。
+// ![Image.png](https://pic.leetcode-cn.com/e2434144e83ff00f6c2d53e3334485b86cfd2751849840d01b56fd424f017351-Image.png)
+// 提交后，第一次不看题解还出现双100%，所以斗胆挂出来了，只是提供一种可行性吧，本人菜鸟，求大神们轻点喷。
 
-**解题思路：**
-- 采用链表遍历标准框架，采用双指针pre和cur（标准框架是参照[@nettee](/u/nettee/)大佬的公众号《面向大象编程》，顺便感谢大佬让我这种菜鸟也能不看题解做出来这道题）
-- 在遍历到m节点时记录当前cur和pre为cur0和pre0，等到第n节点的时候要用
-- (m,n)区间，采用常规 cur->next = pre的反转操作
-- 在遍历到n点时(cur指向n)，除了反转操作外，还要将pre0->next指向cur，将cur0->next指向cur->next，如下图：
-![Image2.png](https://pic.leetcode-cn.com/ca59dd700c5a982658b316e327fa8a55c626c2918bb31d373166b088e0bcaaf8-Image2.png)
+// **解题思路：**
+// - 采用链表遍历标准框架，采用双指针pre和cur（标准框架是参照[@nettee](/u/nettee/)大佬的公众号《面向大象编程》，顺便感谢大佬让我这种菜鸟也能不看题解做出来这道题）
+// - 在遍历到m节点时记录当前cur和pre为cur0和pre0，等到第n节点的时候要用
+// - (m,n)区间，采用常规 cur->next = pre的反转操作
+// - 在遍历到n点时(cur指向n)，除了反转操作外，还要将pre0->next指向cur，将cur0->next指向cur->next，如下图：
+// ![Image2.png](https://pic.leetcode-cn.com/ca59dd700c5a982658b316e327fa8a55c626c2918bb31d373166b088e0bcaaf8-Image2.png)
 
-```
+// ```
 class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int m, int n) {
@@ -62,9 +62,9 @@ public:
         return head;
     }
 };
-```
-发布后觉得代码有些冗余，又修改了下：
-```
+// ```
+// 发布后觉得代码有些冗余，又修改了下：
+// ```
 class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int m, int n) {
@@ -105,7 +105,7 @@ public:
         return head;
     }
 };
-```
+// ```
 
 
 

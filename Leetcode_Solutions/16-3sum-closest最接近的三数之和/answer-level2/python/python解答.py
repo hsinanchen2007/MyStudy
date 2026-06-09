@@ -1,9 +1,9 @@
-### 解题思路
-借鉴3sum的思路，先将数组排序，固定一个值，使用双指针搜索，每次比较3sum和target的gap，如果gap变小了，保存最新的3sum。排序好的双指针能减少时间复杂度，当3sum的值比target小，需要增大3sum，左指针向右，反之右指针向左
+# ### 解题思路
+# 借鉴3sum的思路，先将数组排序，固定一个值，使用双指针搜索，每次比较3sum和target的gap，如果gap变小了，保存最新的3sum。排序好的双指针能减少时间复杂度，当3sum的值比target小，需要增大3sum，左指针向右，反之右指针向左
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def threeSumClosest(self, nums, target):
         nums.sort()
@@ -26,4 +26,4 @@ class Solution(object):
                 else:
                     j+=1
         return result
-```
+# ```

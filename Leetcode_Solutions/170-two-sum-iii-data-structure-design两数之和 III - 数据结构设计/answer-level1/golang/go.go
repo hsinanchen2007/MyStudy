@@ -1,4 +1,4 @@
-```
+// ```
 type TwoSum struct {
 	m map[int]int
 }
@@ -26,4 +26,4 @@ func (this *TwoSum) Find(value int) bool {
 	}
 	return false
 }
-```
+// ```

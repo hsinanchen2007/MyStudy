@@ -1,10 +1,10 @@
-### 解题思路
-套路化的动态规划
+# ### 解题思路
+# 套路化的动态规划
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         #dp表还是那个
@@ -39,4 +39,4 @@ class Solution:
         return dp[n-1][m-1]
         
 
-```
+# ```

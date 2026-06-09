@@ -1,4 +1,4 @@
-```python
+# ```python
 def generate(numRows):
     # 处理0, 1的特殊情况
     if numRows == 0:
@@ -15,4 +15,4 @@ def generate(numRows):
     return r
 
 print(generate(5))
-```
+# ```

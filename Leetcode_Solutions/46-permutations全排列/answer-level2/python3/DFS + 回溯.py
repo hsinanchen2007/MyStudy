@@ -1,5 +1,5 @@
-DFS + 回溯模板题，注意剪枝
-```py3
+# DFS + 回溯模板题，注意剪枝
+# ```py3
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         ans = []
@@ -14,4 +14,4 @@ class Solution:
                     index.pop()
         dfs([], 0)
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-假设A>B。
-ans = ''
-每次迭代ans追加'aab'，A自减2,B自减1；
-直到出现A == B或者A+1 == B的情况出现以后(不可能出现B-A > 1)，每次迭代追加'ab'，直到结束。
+# 假设A>B。
+# ans = ''
+# 每次迭代ans追加'aab'，A自减2,B自减1；
+# 直到出现A == B或者A+1 == B的情况出现以后(不可能出现B-A > 1)，每次迭代追加'ab'，直到结束。
 
-```
+# ```
 class Solution:
     def strWithout3a3b(self, A: int, B: int) -> str:
         ans = ''
@@ -42,4 +42,4 @@ class Solution:
                     B-=1
                 ans += 'a'
         return ans
-```
+# ```

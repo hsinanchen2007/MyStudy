@@ -1,4 +1,4 @@
-```
+// ```
 int numberOfBoomerangs(vector<vector<int>>& points) {
        
 		int result = 0;
@@ -15,4 +15,4 @@ int numberOfBoomerangs(vector<vector<int>>& points) {
 		}
 		return result;
     }
-```
+// ```

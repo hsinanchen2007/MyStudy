@@ -1,9 +1,9 @@
-### 解题思路
-单调递减栈
+// ### 解题思路
+// 单调递减栈
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -42,4 +42,4 @@ func nextLargerNodes(head *ListNode) []int {
 	}
 	return nextLarger
 }
-```
+// ```

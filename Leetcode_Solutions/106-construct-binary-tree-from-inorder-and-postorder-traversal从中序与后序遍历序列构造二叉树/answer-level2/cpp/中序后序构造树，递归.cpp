@@ -1,9 +1,9 @@
-### 解题思路
-同先序中序构造树
+// ### 解题思路
+// 同先序中序构造树
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,4 +38,4 @@ public:
         return t;
     }
 };
-```
+// ```

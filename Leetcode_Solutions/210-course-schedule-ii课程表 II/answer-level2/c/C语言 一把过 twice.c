@@ -1,10 +1,10 @@
-### 解题思路
-基于207题
-![image.png](https://pic.leetcode-cn.com/c0e9c6de73c6c5d06a4c34393cdc09fdca9458f3d5c594477a7f414f0725b71a-image.png)
+// ### 解题思路
+// 基于207题
+// ![image.png](https://pic.leetcode-cn.com/c0e9c6de73c6c5d06a4c34393cdc09fdca9458f3d5c594477a7f414f0725b71a-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_OK 0
 #define MY_FAIL (-1)
 
@@ -191,4 +191,4 @@ int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* 
 	*returnSize = rlt.cnt;
     return rlt.rlt;
 }
-```
+// ```

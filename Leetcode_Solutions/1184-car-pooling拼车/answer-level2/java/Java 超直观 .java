@@ -1,4 +1,4 @@
-```java []
+// ```java []
 public boolean carPooling(int[][] trips, int capacity) {
         // 由于至多有1000个站点，可以创建两个数组分别记录上下车情况
         int[] in = new int[1001];   //站点上车情况统计
@@ -17,5 +17,5 @@ public boolean carPooling(int[][] trips, int capacity) {
         }
         return true;
     }
-```
-```
+// ```
+// ```

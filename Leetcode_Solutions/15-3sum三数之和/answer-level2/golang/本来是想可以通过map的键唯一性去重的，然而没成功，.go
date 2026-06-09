@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //threeSum1错误的，会遗漏值
 func threeSum1(nums []int) [][]int {
 	numsLen := len(nums)		//获取到长度
@@ -102,4 +102,4 @@ func threeSum(nums []int) [][]int {
 	}
 	return res
 }
-```
+// ```

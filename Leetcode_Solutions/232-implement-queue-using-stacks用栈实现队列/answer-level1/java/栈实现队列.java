@@ -1,10 +1,10 @@
-- ### 解题思路
-这个很简单 因为队列是先进先出的 我们需要准备两个栈 一个叫push 一个叫pop
-其中 push 只负责模拟进队列 pop负责模拟出队列，当pop为空的时候才能把push 倒入pop中 如果不为空就不能倒入
+// - ### 解题思路
+// 这个很简单 因为队列是先进先出的 我们需要准备两个栈 一个叫push 一个叫pop
+// 其中 push 只负责模拟进队列 pop负责模拟出队列，当pop为空的时候才能把push 倒入pop中 如果不为空就不能倒入
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 	class MyQueue {
 		private Stack<Integer> stackPush;
 		private Stack<Integer> stackPop;
@@ -60,4 +60,4 @@
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

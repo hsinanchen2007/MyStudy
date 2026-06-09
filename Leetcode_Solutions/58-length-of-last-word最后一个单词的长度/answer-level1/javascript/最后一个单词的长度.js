@@ -1,4 +1,4 @@
-```js
+// ```js
 var lengthOfLastWord = function(s) {
     let trimS = s.trim();
     let sToArr = trimS.split(/\s+/);
@@ -8,4 +8,4 @@ var lengthOfLastWord = function(s) {
 
 var s = "Hello  World ";
 console.log(lengthOfLastWord(s))
-```
+// ```

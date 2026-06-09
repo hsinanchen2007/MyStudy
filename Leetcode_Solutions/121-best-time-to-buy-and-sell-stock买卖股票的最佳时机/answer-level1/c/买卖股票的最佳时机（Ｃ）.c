@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，有点类似最长不下降子序列问题（(LIS)。
+// ### 解题思路
+// 动态规划，有点类似最长不下降子序列问题（(LIS)。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize)
 {
     int i, j, max = 0;
@@ -16,11 +16,11 @@ int maxProfit(int* prices, int pricesSize)
     }
     return max;
 }
-```
+// ```
 
-# O(n)的做法
+// # O(n)的做法
 
-```
+// ```
 int maxProfit(int* prices, int pricesSize)
 {
     int i, max = 0, minprice = 0x7fffffff;
@@ -32,4 +32,4 @@ int maxProfit(int* prices, int pricesSize)
     }
     return max;
 }
-```
+// ```

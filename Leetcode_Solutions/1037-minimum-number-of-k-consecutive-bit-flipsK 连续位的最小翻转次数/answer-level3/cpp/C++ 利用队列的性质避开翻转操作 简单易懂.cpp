@@ -1,6 +1,6 @@
-C++ 利用队列的性质 简单易懂
+// C++ 利用队列的性质 简单易懂
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minKBitFlips(vector<int>& A, int K) {
@@ -21,4 +21,4 @@ public:
 	return count;
     }
 };
-```
+// ```

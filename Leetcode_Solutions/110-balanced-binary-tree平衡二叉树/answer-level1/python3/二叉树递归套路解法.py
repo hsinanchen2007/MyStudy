@@ -1,21 +1,21 @@
-## 二叉树递归套路解法
+# ## 二叉树递归套路解法
 
-对于需要向左右子节点索取信息的问题，可以使用如下递归套路。
+# 对于需要向左右子节点索取信息的问题，可以使用如下递归套路。
 
-1、对每个节点进行可能性分析，判断是return false 还是return true。
+# 1、对每个节点进行可能性分析，判断是return false 还是return true。
 
-2、递归实现功能。
+# 2、递归实现功能。
 
-if 根节点满足某种条件
+# if 根节点满足某种条件
 
-return 递归(左子树) && 递归(右子树)
+# return 递归(左子树) && 递归(右子树)
 
-return (递归(左子树) || 递归右子树) （其中一个满足条件即可）
+# return (递归(左子树) || 递归右子树) （其中一个满足条件即可）
 
-return false
+# return false
 
-本题对每个节点要求左右子树都为平衡树，即左右子树的高度相差小于2。
-```python []
+# 本题对每个节点要求左右子树都为平衡树，即左右子树的高度相差小于2。
+# ```python []
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
         if not root: return True
@@ -25,9 +25,9 @@ class Solution:
     def maxdepth (self, root:TreeNode) -> int:
         if not root: return 0
         return max(self.maxdepth(root.left) + 1, self.maxdepth(root.right) + 1 )
-```
+# ```
 
-```C++ []
+# ```C++ []
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
@@ -44,4 +44,4 @@ public:
     }
     
 };
-```
+# ```

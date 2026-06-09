@@ -1,9 +1,9 @@
-### 解题思路
-简单的删除节点问题。
+// ### 解题思路
+// 简单的删除节点问题。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

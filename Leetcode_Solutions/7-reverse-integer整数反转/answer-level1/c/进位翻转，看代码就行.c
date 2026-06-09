@@ -1,8 +1,8 @@
 
-感觉思路比较清晰 没写注释
+// 感觉思路比较清晰 没写注释
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int reverse(int x) {
@@ -18,4 +18,4 @@ public:
         return ans;
     }
 };
-```
+// ```

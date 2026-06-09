@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numDecodings(self, s: str) -> int:
         l = len(s)
@@ -23,9 +23,9 @@ class Solution:
                 if 10 <= t <= 26:
                     dp[i] += dp[i-2]
         return dp[-1]
-```
+# ```
 
 
 
 
-the  very nice method for this problem
+# the  very nice method for this problem

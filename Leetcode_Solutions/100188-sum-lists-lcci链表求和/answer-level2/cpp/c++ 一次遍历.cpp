@@ -1,10 +1,10 @@
-### 解题思路
-正常思路
-循环退出后不要忘记判断最后的dlt。
+// ### 解题思路
+// 正常思路
+// 循环退出后不要忘记判断最后的dlt。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
         return result->next;
     }
 };
-```
+// ```

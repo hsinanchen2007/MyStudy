@@ -1,9 +1,9 @@
-### 解题思路
-刚开始一直报超出内存限制的错,后来发现是tm的初始的头节点head.next没有置为null,应该是打印的时候就死循环了
+// ### 解题思路
+// 刚开始一直报超出内存限制的错,后来发现是tm的初始的头节点head.next没有置为null,应该是打印的时候就死循环了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ class Solution {
     }
 
 }
-```
+// ```

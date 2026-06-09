@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-很简单的想法，从最后一个有效位开始比，把较大的放在 `A` 的预留位的最后一位上。
+// 很简单的想法，从最后一个有效位开始比，把较大的放在 `A` 的预留位的最后一位上。
 
-然后，如果是 B 的长度小于 A，那么我们上一步执行完以后就已经得到了有序数组。
+// 然后，如果是 B 的长度小于 A，那么我们上一步执行完以后就已经得到了有序数组。
 
-如果 B 长度大于 A，则只需要把 B 中剩余的数字依次填入就好。
+// 如果 B 长度大于 A，则只需要把 B 中剩余的数字依次填入就好。
 
-### 代码
+// ### 代码
 
-```python3 []
+// ```python3 []
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -31,9 +31,9 @@ class Solution:
             A[len] = B[j]
             len -= 1
             j -= 1
-```
+// ```
 
-```c []
+// ```c []
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
         int len = m + n - 1;
         int i = m - 1;
@@ -50,9 +50,9 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
         while(j >= 0 && len >= 0) { A[len--] = B[j--]; }
 
 }
-```
+// ```
 
-```rust []
+// ```rust []
 impl Solution {
     pub fn merge(a: &mut Vec<i32>, m: i32, b: &mut Vec<i32>, n: i32) {
         let mut len = (m + n - 1) as usize;
@@ -77,4 +77,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

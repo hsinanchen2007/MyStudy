@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 
 var movingCount = function(m, n, k) {
     let flag = [];
@@ -30,4 +30,4 @@ const getSum = (num) => {
     }while((num = Math.floor(num/10)) > 0)
     return sum 
 }
-```
+// ```

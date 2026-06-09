@@ -1,6 +1,6 @@
-暴力法
+// 暴力法
 
-```c
+// ```c
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 	int *p=NULL;
 	p=(int*)malloc(sizeof(int)*2);
@@ -16,4 +16,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 	}
 	return p;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
         inDegree = [0] * len(graph)
@@ -19,4 +19,4 @@ class Solution:
         return sorted(res)
 
 
-```
+# ```

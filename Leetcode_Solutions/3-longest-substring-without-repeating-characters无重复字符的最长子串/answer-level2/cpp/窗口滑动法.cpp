@@ -1,14 +1,14 @@
-### 解题思路
-定位两个指针start和end至初始位置
-end向右移动一个单位，判断s[end]是否存在于s[start]至s[end]中，若不存在，则end++ length++
-若存在，将start更新至该重复字符的后一位(start = index + 1)，长度为(end-start)+1
+// ### 解题思路
+// 定位两个指针start和end至初始位置
+// end向右移动一个单位，判断s[end]是否存在于s[start]至s[end]中，若不存在，则end++ length++
+// 若存在，将start更新至该重复字符的后一位(start = index + 1)，长度为(end-start)+1
 
-#### 复杂度
-时间复杂度 O(n^2)
+// #### 复杂度
+// 时间复杂度 O(n^2)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -30,4 +30,4 @@ public:
         return result;
     }
 };
-```
+// ```

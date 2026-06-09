@@ -1,11 +1,11 @@
-### 解题思路
-找到R所在位置 然后对R在四个方向上进行移动
-四个方向：上下左右 定义2个数组 
-一个dx表示x方向移动 dx={-1,1,0,0} moveleft：x-1 moveright:x+1 moveup:x+0 movedown:x+0
-一个dy表示x方向移动 dy={0,0,1,-1} moveleft：y+0 moveright:y+0 moveup:y+1 movedown:y-1
-### 代码
+// ### 解题思路
+// 找到R所在位置 然后对R在四个方向上进行移动
+// 四个方向：上下左右 定义2个数组 
+// 一个dx表示x方向移动 dx={-1,1,0,0} moveleft：x-1 moveright:x+1 moveup:x+0 movedown:x+0
+// 一个dy表示x方向移动 dy={0,0,1,-1} moveleft：y+0 moveright:y+0 moveup:y+1 movedown:y-1
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         
@@ -55,4 +55,4 @@ class Solution {
         return cnt;
     }
 }
-```
+// ```

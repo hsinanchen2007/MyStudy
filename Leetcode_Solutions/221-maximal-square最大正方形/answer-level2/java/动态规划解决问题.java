@@ -1,8 +1,8 @@
-### 解题思路
-动态规划解决问题懒得优化了
-### 代码
+// ### 解题思路
+// 动态规划解决问题懒得优化了
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximalSquare(char[][] matrix) {
         int Max=0,tmp=1;
@@ -38,4 +38,4 @@ class Solution {
         return Max;
     }
 }
-```
+// ```

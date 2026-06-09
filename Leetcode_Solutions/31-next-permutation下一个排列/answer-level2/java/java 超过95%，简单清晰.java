@@ -1,8 +1,8 @@
-思路：
-1、从后往前找，当找到i使得nums[i] > nums[i - 1]的时候，则需要将[i-1, nums.length)的数进行重排序
-2、重排序规则：从i-1后面找到第一个大于nums[i - 1]的数，并与nums[i - 1]交换，之后将[i, nums.length - 1)进行字典序排序（直接调用Arrays.sort()即可）
+// 思路：
+// 1、从后往前找，当找到i使得nums[i] > nums[i - 1]的时候，则需要将[i-1, nums.length)的数进行重排序
+// 2、重排序规则：从i-1后面找到第一个大于nums[i - 1]的数，并与nums[i - 1]交换，之后将[i, nums.length - 1)进行字典序排序（直接调用Arrays.sort()即可）
 
-```
+// ```
 import java.util.Arrays;
 
 class Solution {
@@ -37,4 +37,4 @@ class Solution {
         }
     }
 }
-```
+// ```

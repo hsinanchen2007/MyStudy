@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<int> F;
@@ -26,5 +26,5 @@ public:
         return true;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/25faa1311194953e56aca797283a5b1e8c9af9aa09961b55680aa8ba3f53b460-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/25faa1311194953e56aca797283a5b1e8c9af9aa09961b55680aa8ba3f53b460-image.png)

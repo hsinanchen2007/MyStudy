@@ -1,7 +1,7 @@
-解题思路：参考官方题解
+// 解题思路：参考官方题解
 
 
-```
+// ```
 class Solution {
 public:
     //思路：
@@ -30,4 +30,4 @@ public:
         return new_head;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-Semaphore令牌桶阻塞
+// ### 解题思路
+// Semaphore令牌桶阻塞
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Foo {
     Semaphore first = new Semaphore(0);
     Semaphore second = new Semaphore(0);
@@ -32,4 +32,4 @@ class Foo {
 
     }
 }
-```
+// ```

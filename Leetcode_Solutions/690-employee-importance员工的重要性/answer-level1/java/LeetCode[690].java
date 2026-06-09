@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private Integer bfs(Map<Integer, Employee> employees, int id) {
         Integer sum = 0;
@@ -23,4 +23,4 @@ class Solution {
     }
 }
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 遍历，遍历，遍历！
-2. 二叉树的遍历不能放在 dfs 函数，否则 is_null 部分会误判
+// ### 解题思路
+// 1. 遍历，遍历，遍历！
+// 2. 二叉树的遍历不能放在 dfs 函数，否则 is_null 部分会误判
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -38,4 +38,4 @@ class Solution {
         return $A->val == $B->val && $this->dfs($A->left, $B->left) && $this->dfs($A->right, $B->right);
     }
 }
-```
+// ```

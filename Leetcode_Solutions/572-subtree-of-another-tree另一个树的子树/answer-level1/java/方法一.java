@@ -1,10 +1,10 @@
-### 解题思路
-肯定是需要用到树的遍历，两处核心，
-    一是遍历结果的表述形式(String);
-    二是拿到s和t的遍历结果后如何确定t是否是s的子树
-### 代码
+// ### 解题思路
+// 肯定是需要用到树的遍历，两处核心，
+//     一是遍历结果的表述形式(String);
+//     二是拿到s和t的遍历结果后如何确定t是否是s的子树
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
         return String.format("*%s#*%s#*%s#",treeNode.val, preOrder(treeNode.left, true), preOrder(treeNode.right, false));
     }
 }
-```
+// ```

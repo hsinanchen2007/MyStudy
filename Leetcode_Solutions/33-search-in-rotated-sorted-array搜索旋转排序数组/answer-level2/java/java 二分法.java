@@ -1,24 +1,24 @@
-### 解题思路
+// ### 解题思路
 
-二分法判断目标数是在mid的前还是在后面的思路
+// 二分法判断目标数是在mid的前还是在后面的思路
 
-if sums[mid]>sums[start] && sums[mid]<sums[end] :
-    if T > sums[mid] : 后
-    else 前
-else if sums[mid]<sums[start] :
-    if T > sums[end] : 前
-    else :
-        if T < sums[mid] : 前
-        else 后
-else :
-    if T < sums[start] : 后
-    else : 
-        if T > sums[mid] : 后
-        else 前
+// if sums[mid]>sums[start] && sums[mid]<sums[end] :
+//     if T > sums[mid] : 后
+//     else 前
+// else if sums[mid]<sums[start] :
+//     if T > sums[end] : 前
+//     else :
+//         if T < sums[mid] : 前
+//         else 后
+// else :
+//     if T < sums[start] : 后
+//     else : 
+//         if T > sums[mid] : 后
+//         else 前
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         if (nums == null || nums.length == 0) return -1;
@@ -62,4 +62,4 @@ class Solution {
 
 
 }
-```
+// ```

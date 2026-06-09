@@ -1,9 +1,9 @@
-# 两个坑点：
+// # 两个坑点：
 
-1.abbr含有**01**这样的是非法的
-2.遍历完了abbr，要检查word是否**到头**了
+// 1.abbr含有**01**这样的是非法的
+// 2.遍历完了abbr，要检查word是否**到头**了
 
-```
+// ```
 class Solution {
 public:
     bool validWordAbbreviation(string word, string abbr) {
@@ -30,4 +30,4 @@ public:
         return pos >= word.size();
     }
 };
-```
+// ```

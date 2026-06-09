@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
 
@@ -31,4 +31,4 @@ class Solution:
 
     def _chech_valid(self, i, j, m, n):
         return 0 <= i < m and 0 <= j < n
-```
+# ```

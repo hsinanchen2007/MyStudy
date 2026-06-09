@@ -1,13 +1,13 @@
-### 解题思路
-普通的前缀和，
-map中记录所有的被K整取的数字，
-如果是负数则要转换成对应的正数，比如K=5, -2，那么就是3.
+// ### 解题思路
+// 普通的前缀和，
+// map中记录所有的被K整取的数字，
+// 如果是负数则要转换成对应的正数，比如K=5, -2，那么就是3.
 
-性能和内存都很差，但是比较好理解。
+// 性能和内存都很差，但是比较好理解。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subarraysDivByK(int[] A, int K) {
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
@@ -31,4 +31,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

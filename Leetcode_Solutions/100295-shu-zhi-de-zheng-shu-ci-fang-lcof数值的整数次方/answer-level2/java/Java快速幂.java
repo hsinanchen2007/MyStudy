@@ -1,9 +1,9 @@
-# 思路
+// # 思路
 
-基本的快速幂求解，注意防止溢出
+// 基本的快速幂求解，注意防止溢出
 
-# 代码
-```
+// # 代码
+// ```
 class Solution {
     public double myPow(double x, int n) {
         if(n == 0){
@@ -22,4 +22,4 @@ class Solution {
         return n > 0 ? res: 1 / res;
     }
 }
-```
+// ```

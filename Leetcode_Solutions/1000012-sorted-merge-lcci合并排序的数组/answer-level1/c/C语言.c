@@ -1,9 +1,9 @@
-### 解题思路
-合并+快排
+// ### 解题思路
+// 合并+快排
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int split(int a[], int low, int high){
     int part_element = a[low];
     for(;;){
@@ -39,4 +39,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
         }
     quicksort(A, 0, ASize-1);
 }
-```
+// ```

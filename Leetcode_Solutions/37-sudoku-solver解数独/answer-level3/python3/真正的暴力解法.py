@@ -1,6 +1,6 @@
-1. 先创建一个字典，key是第一行，第二行。。。。第二列，第一方格，相当于有27个key。字典的value是当前行，列，方格已经存在的数。比如说 {（1，3）=【1，2，3】} 就代表第三列已经有1，2，3了
-2. 剩下的自己看把
-```
+# 1. 先创建一个字典，key是第一行，第二行。。。。第二列，第一方格，相当于有27个key。字典的value是当前行，列，方格已经存在的数。比如说 {（1，3）=【1，2，3】} 就代表第三列已经有1，2，3了
+# 2. 剩下的自己看把
+# ```
 class Solution:
     '''
     用于判断当前位置位于哪个小方块内
@@ -159,4 +159,4 @@ class Solution:
         hashmap = {}
         self.getoptSudoku(board,hashmap,res)
         self.recusiveSolveSudoku(board,hashmap,res)
-```
+# ```

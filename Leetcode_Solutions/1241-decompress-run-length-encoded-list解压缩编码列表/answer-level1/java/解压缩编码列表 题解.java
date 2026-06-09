@@ -1,9 +1,9 @@
-### 解题思路
-nums中每两个数为一组，a是奇数位置的数字，b是偶数位置的数字，返回a个b。例如[1,2,3,4]就要返回1个2和3个4
+// ### 解题思路
+// nums中每两个数为一组，a是奇数位置的数字，b是偶数位置的数字，返回a个b。例如[1,2,3,4]就要返回1个2和3个4
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] decompressRLElist(int[] nums) {
         int len = 0;
@@ -21,4 +21,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/e6ba9a6a63f8e36fe7188d6c2e5b8c4a7bcf788a499909153e7a5a4ae0df458e-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/e6ba9a6a63f8e36fe7188d6c2e5b8c4a7bcf788a499909153e7a5a4ae0df458e-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public boolean isAdditiveNumber(String num) {
@@ -86,4 +86,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

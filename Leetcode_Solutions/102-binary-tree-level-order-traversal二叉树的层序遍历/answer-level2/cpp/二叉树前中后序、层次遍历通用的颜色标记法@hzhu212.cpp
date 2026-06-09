@@ -1,5 +1,5 @@
-采用了[@hzhu212](/u/hzhu212/)的颜色标记法做了一下层次遍历：
-```
+// 采用了[@hzhu212](/u/hzhu212/)的颜色标记法做了一下层次遍历：
+// ```
 class Solution {
     
 struct levelNode{
@@ -48,4 +48,4 @@ public:
         return output;
     }
 };
-```
+// ```

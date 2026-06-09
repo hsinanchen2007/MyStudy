@@ -1,4 +1,4 @@
-新建头节点temp计算链表长度奇偶性，再遍历一次，分奇数偶数情况，找到正确的中间position值，直接返回head就行，其中已经包含了next各项
+// 新建头节点temp计算链表长度奇偶性，再遍历一次，分奇数偶数情况，找到正确的中间position值，直接返回head就行，其中已经包含了next各项
 
 /**
 Definition for singly-linked list.

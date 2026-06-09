@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findComplement(int num)
 {
     int mask = 0, i = 0;
@@ -11,4 +11,4 @@ int findComplement(int num)
         mask += pow(2, i++);
     return mask ^ num;
 }
-```
+// ```

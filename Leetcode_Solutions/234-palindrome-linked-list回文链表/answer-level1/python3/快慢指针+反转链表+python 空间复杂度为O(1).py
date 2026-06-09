@@ -1,5 +1,5 @@
-核心思想：利用快慢指针,找到链表的中心位置，然后一个指针跟在慢指针后，慢指针向前，反转链表。再比较前后两个链表是否一样
-```
+# 核心思想：利用快慢指针,找到链表的中心位置，然后一个指针跟在慢指针后，慢指针向前，反转链表。再比较前后两个链表是否一样
+# ```
 class Solution(object):
     def isPalindrome(self, head):
         """
@@ -36,4 +36,4 @@ class Solution(object):
                 slow = slow.next
         return True
 
-```
+# ```

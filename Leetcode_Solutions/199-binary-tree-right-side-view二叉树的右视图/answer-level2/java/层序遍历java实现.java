@@ -1,4 +1,4 @@
-```
+// ```
 public List<Integer> rightSideView(TreeNode root) {
         List<Integer> result = new LinkedList<>();
         if (root == null){
@@ -28,4 +28,4 @@ public List<Integer> rightSideView(TreeNode root) {
         }
         return result;
     }
-```
+// ```

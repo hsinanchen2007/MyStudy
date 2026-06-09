@@ -1,10 +1,10 @@
-### 解题思路一
+// ### 解题思路一
 
-DFS，是一棵树如果满足：(1) 没有回边（除了回到parent视为同一条边以外）; (2) 只有一个联通分量（否则就是森林了）。
+// DFS，是一棵树如果满足：(1) 没有回边（除了回到parent视为同一条边以外）; (2) 只有一个联通分量（否则就是森林了）。
 
-### 代码一
+// ### 代码一
 
-```cpp
+// ```cpp
 class Solution {
   public:
     bool validTree(int n, vector<vector<int>>& edges) {
@@ -46,14 +46,14 @@ class Solution {
     }
 };
 
-```
+// ```
 
-### 解题思路二
+// ### 解题思路二
 
-BFS，需要保存的状态是一个pair，节点的子女及parent.
+// BFS，需要保存的状态是一个pair，节点的子女及parent.
 
-### 代码二
-```cpp
+// ### 代码二
+// ```cpp
 class Solution {
   public:
     bool validTree(int n, vector<vector<int>>& edges) {
@@ -98,4 +98,4 @@ class Solution {
       return false;
     }
 };
-```
+// ```

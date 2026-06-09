@@ -1,9 +1,9 @@
-### 解题思路
-单调栈,遇到heights[i]>heights[i-1] 入栈,heights[i-1]>=heights[i]出栈
+// ### 解题思路
+// 单调栈,遇到heights[i]>heights[i-1] 入栈,heights[i-1]>=heights[i]出栈
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int largestRectangleArea(int[] heights) {
         Stack<Integer> stack=new Stack<>();
@@ -36,4 +36,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

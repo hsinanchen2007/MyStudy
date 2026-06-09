@@ -1,9 +1,9 @@
-### 解题思路
-判断两数组相同索引的值是否相同
+// ### 解题思路
+// 判断两数组相同索引的值是否相同
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int game(int* guess, int guessSize, int* answer, int answerSize)
 {
     int k = 0;
@@ -16,4 +16,4 @@ int game(int* guess, int guessSize, int* answer, int answerSize)
     }
     return k;
 }
-```
+// ```

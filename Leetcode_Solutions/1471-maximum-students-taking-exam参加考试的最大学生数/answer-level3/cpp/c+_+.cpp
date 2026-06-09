@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/4755277d4505861745f0d398677dffb88a219511e4bf80a7f116e9870cf02fae-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/4755277d4505861745f0d398677dffb88a219511e4bf80a7f116e9870cf02fae-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool st_row[8][1 << 9];
@@ -72,4 +72,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

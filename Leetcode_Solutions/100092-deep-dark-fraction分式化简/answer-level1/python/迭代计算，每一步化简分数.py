@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def fraction(self, cont):
         """
@@ -24,4 +24,4 @@ class Solution(object):
             y = [x * y[0] + y[1], y[0]]
             y = trans(y[0], y[1])
         return y
-```
+# ```

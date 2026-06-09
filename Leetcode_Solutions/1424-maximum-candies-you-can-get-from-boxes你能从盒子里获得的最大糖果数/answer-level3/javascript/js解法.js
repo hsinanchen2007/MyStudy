@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} status
  * @param {number[]} candies
@@ -30,4 +30,4 @@ var maxCandies = function(status, candies, keys, containedBoxes, initialBoxes) {
 
   return res;
 };
-```
+// ```

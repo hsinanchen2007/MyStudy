@@ -1,7 +1,7 @@
-直接按题意来一步一步走。  
-具体[见此](https://newdee.gitbook.io/leetcode/leetcode-index/937.reorder_log_files)    
+// 直接按题意来一步一步走。  
+// 具体[见此](https://newdee.gitbook.io/leetcode/leetcode-index/937.reorder_log_files)    
 
-```
+// ```
 class Solution {
 public:
     vector<string> reorderLogFiles(vector<string>& logs) {
@@ -81,7 +81,7 @@ public:
         return logs;
     }
 };
-```
+// ```
 
-> 执行用时 : 20 ms, 在Reorder Log Files的C++提交中击败了96.79% 的用户  
-内存消耗 : 16.3 MB, 在Reorder Log Files的C++提交中击败了7.50% 的用户
+// > 执行用时 : 20 ms, 在Reorder Log Files的C++提交中击败了96.79% 的用户  
+// 内存消耗 : 16.3 MB, 在Reorder Log Files的C++提交中击败了7.50% 的用户

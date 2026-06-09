@@ -1,8 +1,8 @@
-### 解题思路
-从后向前遍历字符串，遍历一次。时间复杂度为o(n)
-### 代码
+// ### 解题思路
+// 从后向前遍历字符串，遍历一次。时间复杂度为o(n)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLastWord(String s) {
          int len = s.length(),total = 0;
@@ -27,4 +27,4 @@ class Solution {
          return start-end;
     }
 }
-```
+// ```

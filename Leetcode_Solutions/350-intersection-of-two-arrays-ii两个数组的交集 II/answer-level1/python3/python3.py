@@ -1,9 +1,9 @@
-### 解题思路
-先求出交集，然后选择交集中次数最少的添加进去
+# ### 解题思路
+# 先求出交集，然后选择交集中次数最少的添加进去
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         from collections import Counter
@@ -19,4 +19,4 @@ class Solution:
         
 
       
-```
+# ```

@@ -1,6 +1,6 @@
-就嗯解，笨人用笨方法
+// 就嗯解，笨人用笨方法
 
-```
+// ```
 class Solution {
 public:
     bool checkZero(vector<int>& a){
@@ -130,4 +130,4 @@ public:
         return res;
     }
 };
-```
+// ```

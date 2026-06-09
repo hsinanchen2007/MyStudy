@@ -1,4 +1,4 @@
-```
+// ```
 func strStr(haystack string, needle string) int {
     n_length := len(needle)
     h_length := len(haystack)
@@ -16,6 +16,6 @@ func strStr(haystack string, needle string) int {
     }
     return -1
 }
-```
+// ```
 
-[更多使用go的题解可查看](https://github.com/leekachung/leetcode-use-golang)
+// [更多使用go的题解可查看](https://github.com/leekachung/leetcode-use-golang)

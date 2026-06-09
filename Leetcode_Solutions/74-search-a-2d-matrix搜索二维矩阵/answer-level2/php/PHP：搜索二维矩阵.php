@@ -1,6 +1,6 @@
-感谢[@rjs](/u/rjs/)在官方评论中的代码，非常nice~
+// 感谢[@rjs](/u/rjs/)在官方评论中的代码，非常nice~
 
-```PHP
+// ```PHP
 class Solution {
 
     /**
@@ -44,4 +44,4 @@ class Solution {
         return $found;
     }
 }
-```
+// ```

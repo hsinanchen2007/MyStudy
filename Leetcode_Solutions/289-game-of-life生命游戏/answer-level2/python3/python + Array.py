@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -28,4 +28,4 @@ class Solution:
 
 
 
-```
+# ```

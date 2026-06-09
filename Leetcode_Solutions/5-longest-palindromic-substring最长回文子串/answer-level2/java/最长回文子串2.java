@@ -1,9 +1,9 @@
-### 解题思路
-此处采用了二维数组解决，难点在于状态（长串的首尾相同，它的子串的状态是否相同）的传递，
+// ### 解题思路
+// 此处采用了二维数组解决，难点在于状态（长串的首尾相同，它的子串的状态是否相同）的传递，
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
        int len=s.length();
@@ -39,4 +39,4 @@ class Solution {
         return s.substring(start,start+maxLen);
     }
 }
-```
+// ```

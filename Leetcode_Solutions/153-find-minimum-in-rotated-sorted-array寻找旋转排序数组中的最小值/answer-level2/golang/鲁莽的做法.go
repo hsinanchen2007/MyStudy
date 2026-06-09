@@ -1,4 +1,4 @@
-```
+// ```
 func findMin(nums []int) int {
 	var (
 		i      int
@@ -12,4 +12,4 @@ func findMin(nums []int) int {
 	}
 	return nums[0]
 }
-```
+// ```

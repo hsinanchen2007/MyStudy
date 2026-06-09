@@ -1,5 +1,5 @@
-其实呢，题目很简单，我们只需要看奇数和偶数谁的个数少就行，因为同属于一种类型的数字(奇数或偶数)，都不会耗费体力，则题目如下若是
-```
+// 其实呢，题目很简单，我们只需要看奇数和偶数谁的个数少就行，因为同属于一种类型的数字(奇数或偶数)，都不会耗费体力，则题目如下若是
+// ```
 class Solution {
     public int minCostToMoveChips(int[] chips) {
         int evenNum = 0;
@@ -14,6 +14,6 @@ class Solution {
         return evenNum > oddNum ?oddNum:evenNum;
     }    
 }
-```
+// ```
 
 

@@ -1,6 +1,6 @@
-fib(n) = fib(n-1)+fib(n-2)
-只需记住前两项即可求解fib(n)
-```
+// fib(n) = fib(n-1)+fib(n-2)
+// 只需记住前两项即可求解fib(n)
+// ```
 class Solution {
 public:
     int fib(int n) {
@@ -15,4 +15,4 @@ public:
         return b;
     }
 };
-```
+// ```

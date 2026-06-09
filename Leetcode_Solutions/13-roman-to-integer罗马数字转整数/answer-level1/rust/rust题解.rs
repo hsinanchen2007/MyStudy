@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历
+// ### 解题思路
+// 一次遍历
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn roman_to_int(s: String) -> i32 {
         fn get_value(c: char) -> i32 {
@@ -36,4 +36,4 @@ impl Solution {
     sum+pre
     }
 }
-```
+// ```

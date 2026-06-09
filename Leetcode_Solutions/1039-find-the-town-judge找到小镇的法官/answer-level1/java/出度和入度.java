@@ -1,5 +1,5 @@
-法官是这样一个点：出度为0，并且入度为N-1
-```
+// 法官是这样一个点：出度为0，并且入度为N-1
+// ```
 public int findJudge(int N, int[][] trust) {
 		int inDegree[] = new int[N + 1];
 		int outDegree[] = new int[N + 1];
@@ -16,5 +16,5 @@ public int findJudge(int N, int[][] trust) {
 		}
 		return -1;
 	}
-```
+// ```
 

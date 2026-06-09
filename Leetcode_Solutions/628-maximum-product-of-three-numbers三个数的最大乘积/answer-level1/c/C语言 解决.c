@@ -1,6 +1,6 @@
-先对数组排序，冒泡排序长度较大时效率低，选用快速排序法
-注意有两个及以上负数的情况，最大值有可能是nums[0] * nums[1] * nums[numsSize - 1];
-```
+// 先对数组排序，冒泡排序长度较大时效率低，选用快速排序法
+// 注意有两个及以上负数的情况，最大值有可能是nums[0] * nums[1] * nums[numsSize - 1];
+// ```
 void qusort(int* arr, int left, int right)
 {
     int mid = left;
@@ -48,4 +48,4 @@ int maximumProduct(int* nums, int numsSize)
     }
     return max;
 }
-```
+// ```

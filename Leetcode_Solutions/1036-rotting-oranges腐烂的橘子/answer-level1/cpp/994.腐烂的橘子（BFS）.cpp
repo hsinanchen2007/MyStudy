@@ -1,9 +1,9 @@
-方法一 BFS
-根据https://leetcode-cn.com/problems/rotting-oranges/solution/994-by-ikaruga/
-值 1 代表新鲜橘子，值 2 代表腐烂的橘子
-在这里2还代表第0分钟坏的橘子，此后变坏橘子的值=使它变坏的烂橘子值+1，比如第一分钟变坏的橘子的值为3，第二分钟变坏的橘子的值为4。
-最后所有橘子都是腐烂的时所需分钟数=最后一个变坏的橘子的值-2。
-```
+// 方法一 BFS
+// 根据https://leetcode-cn.com/problems/rotting-oranges/solution/994-by-ikaruga/
+// 值 1 代表新鲜橘子，值 2 代表腐烂的橘子
+// 在这里2还代表第0分钟坏的橘子，此后变坏橘子的值=使它变坏的烂橘子值+1，比如第一分钟变坏的橘子的值为3，第二分钟变坏的橘子的值为4。
+// 最后所有橘子都是腐烂的时所需分钟数=最后一个变坏的橘子的值-2。
+// ```
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid){
@@ -34,9 +34,9 @@ public:
         return good == 0 ? res:-1;
     }
 };
-```
-方法二 队列+集合
-```
+// ```
+// 方法二 队列+集合
+// ```
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
@@ -70,6 +70,6 @@ public:
         return good.size() == 0 ? res:-1;
     }
 };
-```
+// ```
 
 

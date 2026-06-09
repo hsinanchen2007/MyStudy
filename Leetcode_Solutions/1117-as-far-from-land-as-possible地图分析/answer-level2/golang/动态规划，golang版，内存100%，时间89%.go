@@ -1,9 +1,9 @@
-### 解题思路
-参考官方题解动态规划法
+// ### 解题思路
+// 参考官方题解动态规划法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxDistance(grid [][]int) int {
 	if len(grid)==0||len(grid[0])==0{
 		return -1
@@ -67,4 +67,4 @@ func min(a,b int) int{
     }
     return b
 }
-```
+// ```

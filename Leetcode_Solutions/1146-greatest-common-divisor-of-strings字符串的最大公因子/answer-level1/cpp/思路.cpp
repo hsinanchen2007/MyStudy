@@ -1,10 +1,10 @@
-### 解题思路
-其实能把写的很好看，也不错了
-数学的方法 需要一定的时间
+// ### 解题思路
+// 其实能把写的很好看，也不错了
+// 数学的方法 需要一定的时间
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     bool check(string x, string y){
       int len = y.size() / x.size();
@@ -31,4 +31,4 @@ public:
       return "";
     }
 };
-```
+// ```

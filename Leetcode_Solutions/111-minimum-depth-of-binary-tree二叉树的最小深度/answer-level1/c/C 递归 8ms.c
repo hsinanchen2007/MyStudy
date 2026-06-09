@@ -1,4 +1,4 @@
-```
+// ```
 int minDepth(struct TreeNode* root){
     //return root ? 1 + (root->left && root->right ? fmin(minDepth(root->left), minDepth(root->right)) : minDepth(root->left ? root->left : root->right)) : 0;
     if (!root)
@@ -15,4 +15,4 @@ int minDepth(struct TreeNode* root){
             return 1 + minDepth(root->right);
     }
 }
-```
+// ```

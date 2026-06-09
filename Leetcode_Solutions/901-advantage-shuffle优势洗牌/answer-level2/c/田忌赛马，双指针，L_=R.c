@@ -1,9 +1,9 @@
-### 解题思路
-双指针，left <= right
+// ### 解题思路
+// 双指针，left <= right
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -67,4 +67,4 @@ int *advantageCount(int *A, int ASize, int *B, int BSize, int *returnSize)
 	*returnSize = ASize;
 	return ans;
 }
-```
+// ```

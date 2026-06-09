@@ -1,21 +1,21 @@
-## 思路
+# ## 思路
 
-这道题，遍历 `grid` 当发现 `1`  辐射出去，找到所有 `1`,
+# 这道题，遍历 `grid` 当发现 `1`  辐射出去，找到所有 `1`,
 
-所以有两种方式
+# 所以有两种方式
 
-1. DFS
-2. BFS
+# 1. DFS
+# 2. BFS
 
-还有一种通过并查集解决， 把在一起的`1`分为一组！
+# 还有一种通过并查集解决， 把在一起的`1`分为一组！
 
-直接看代码， 不清楚的地方，欢迎留言！
+# 直接看代码， 不清楚的地方，欢迎留言！
 
-## 代码：
+# ## 代码：
 
-**DFS**
+# **DFS**
 
-```python
+# ```python
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         if not grid: return 0
@@ -37,11 +37,11 @@ class Solution:
                     dfs(i, j)
                     cnt += 1
         return cnt
-```
+# ```
 
-**BFS**
+# **BFS**
 
-```python
+# ```python
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         from collections import deque
@@ -69,11 +69,11 @@ class Solution:
                     bfs(i, j)
                     cnt += 1
         return cnt
-```
+# ```
 
-**并查集**
+# **并查集**
 
-```python
+# ```python
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         f = {}
@@ -106,5 +106,5 @@ class Solution:
                 if grid[i][j] == "1":
                     res.add(find((i * row + j)))
         return len(res)
-```
+# ```
 

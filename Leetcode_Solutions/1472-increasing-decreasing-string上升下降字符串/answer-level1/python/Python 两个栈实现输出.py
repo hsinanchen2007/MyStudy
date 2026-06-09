@@ -1,9 +1,9 @@
-### 解题思路
-用两个栈就可以轻松的实现了，为啥周赛的时候脑袋和短路了一样啊啊啊
+# ### 解题思路
+# 用两个栈就可以轻松的实现了，为啥周赛的时候脑袋和短路了一样啊啊啊
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sortString(self, s):
         """
@@ -31,4 +31,4 @@ class Solution(object):
                     
 
 
-```
+# ```

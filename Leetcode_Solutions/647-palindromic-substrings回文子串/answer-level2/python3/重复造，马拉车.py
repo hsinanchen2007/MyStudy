@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countSubstrings(self, s: str) -> int:
         if len(s)==0: 
@@ -27,4 +27,4 @@ class Solution:
         return count
         
         
-```
+# ```

@@ -1,6 +1,6 @@
-![捕获.PNG](https://pic.leetcode-cn.com/53b02af87cc00aa50f7e60a9b170468eec83d2492385bc06f530ecc096e229e2-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/53b02af87cc00aa50f7e60a9b170468eec83d2492385bc06f530ecc096e229e2-%E6%8D%95%E8%8E%B7.PNG)
 
-```
+// ```
 class Solution {
 public:
     double myPow(double x, int n) {
@@ -24,4 +24,4 @@ public:
 
     }
 };
-```
+// ```

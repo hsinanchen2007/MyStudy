@@ -1,4 +1,4 @@
-```
+-- ```
 (select name results
 from Movie_Rating natural join Users
 group by Users.user_id
@@ -11,5 +11,5 @@ where month(created_at)='2'
 group by Movies.movie_id
 order by avg(rating) desc, title asc
 limit 1)
-```
+-- ```
 

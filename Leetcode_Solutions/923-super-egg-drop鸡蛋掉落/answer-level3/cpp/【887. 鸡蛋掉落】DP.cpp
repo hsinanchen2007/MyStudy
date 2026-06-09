@@ -1,9 +1,9 @@
-### 思路
-参考大神[Grandyang](https://www.cnblogs.com/grandyang/p/11048142.html)
+// ### 思路
+// 参考大神[Grandyang](https://www.cnblogs.com/grandyang/p/11048142.html)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int superEggDrop(int K, int N) {
@@ -18,4 +18,4 @@ public:
         return m;
     }
 };
-```
+// ```

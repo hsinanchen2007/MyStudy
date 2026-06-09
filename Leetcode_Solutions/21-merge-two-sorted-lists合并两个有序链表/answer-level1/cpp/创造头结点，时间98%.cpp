@@ -1,9 +1,9 @@
-### 解题思路
-没有头结点创造头结点法合并无头链表
+// ### 解题思路
+// 没有头结点创造头结点法合并无头链表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ public:
         return head->next;
     }
 };
-```
+// ```

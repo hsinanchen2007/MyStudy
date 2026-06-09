@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func replaceSpace(s string) string {
 	result := make([]rune, len(s)*3)
 
@@ -24,4 +24,4 @@ func replaceSpace(s string) string {
 	return string(result)[:i]
 	
 }
-```
+// ```

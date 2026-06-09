@@ -1,21 +1,21 @@
-![捕获.PNG](https://pic.leetcode-cn.com/8bea5996187de69475e743687b049f7ffe87f063abf04429a19c900130aa6362-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/8bea5996187de69475e743687b049f7ffe87f063abf04429a19c900130aa6362-%E6%8D%95%E8%8E%B7.PNG)
 
-### 解题思路   
-    解决该问题在最初层序便利的基础上需要注意两点：
-        1.遍历到层末的时候的处理
-        2.奇数层需要反转的情况
-    大体思路：
-        对于基础的借助队列进行层序遍历就不多加赘述了。
-        1.为了处理层末情况，引入两个指针，currentLast，nextLast顾名思义第一个指针维持着指向当前层的末尾结点，nextLast维持下一层的      末尾结点。
-        currentLast的更新：当前结点等于currentLast结点时，currentLast = newxtLast，已知此时到达层末，需要temp插入总的list。
-        nextLast的更新：nextLast时刻指向新入队的结点。
-        2.对于反转情况：
-        引入一个奇数标志位oddFlag（表示当前层是否为奇数层，如是奇数层需要反转）
-        在1中到达层么时则需要将此时的temp反转，并在更新新oddFlag ^= true;
+// ### 解题思路   
+//     解决该问题在最初层序便利的基础上需要注意两点：
+//         1.遍历到层末的时候的处理
+//         2.奇数层需要反转的情况
+//     大体思路：
+//         对于基础的借助队列进行层序遍历就不多加赘述了。
+//         1.为了处理层末情况，引入两个指针，currentLast，nextLast顾名思义第一个指针维持着指向当前层的末尾结点，nextLast维持下一层的      末尾结点。
+//         currentLast的更新：当前结点等于currentLast结点时，currentLast = newxtLast，已知此时到达层末，需要temp插入总的list。
+//         nextLast的更新：nextLast时刻指向新入队的结点。
+//         2.对于反转情况：
+//         引入一个奇数标志位oddFlag（表示当前层是否为奇数层，如是奇数层需要反转）
+//         在1中到达层么时则需要将此时的temp反转，并在更新新oddFlag ^= true;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -62,4 +62,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

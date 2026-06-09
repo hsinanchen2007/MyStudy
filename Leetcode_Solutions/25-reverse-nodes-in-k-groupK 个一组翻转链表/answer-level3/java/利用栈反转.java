@@ -1,9 +1,9 @@
-### 解题思路
-可能是用了栈，性能极差
+// ### 解题思路
+// 可能是用了栈，性能极差
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -43,4 +43,4 @@ class Solution {
         
     }
 }
-```
+// ```

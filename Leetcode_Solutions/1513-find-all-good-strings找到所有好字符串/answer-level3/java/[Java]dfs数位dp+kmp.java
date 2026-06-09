@@ -1,5 +1,5 @@
-非常好的题目,首先题目读完应该能想到要用数位dp，然后关键的点就是字符串匹配的时候**并不是**两个字符串从头开始匹配，匹配不上就gg了。而是要让这里的模式串evil回退（其实就是kmp思想了）
-```
+// 非常好的题目,首先题目读完应该能想到要用数位dp，然后关键的点就是字符串匹配的时候**并不是**两个字符串从头开始匹配，匹配不上就gg了。而是要让这里的模式串evil回退（其实就是kmp思想了）
+// ```
     private int[] next;
     private int[] getNext4(String s) {
         int[] next = new int[s.length() + 1];
@@ -58,4 +58,4 @@
         if (!limit) findGoodStringsDp[pos][match] = tmp;
         return tmp;
     }
-```
+// ```

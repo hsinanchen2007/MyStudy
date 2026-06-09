@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wiggleMaxLength(self, nums: List[int]) -> int:
         n=len(nums)
@@ -17,4 +17,4 @@ class Solution:
             elif nums[i]<nums[i-1]:
                 high=low+1
         return max(low,high)
-```
+# ```

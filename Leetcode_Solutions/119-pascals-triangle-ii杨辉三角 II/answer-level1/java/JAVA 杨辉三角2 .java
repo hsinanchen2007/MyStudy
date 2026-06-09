@@ -1,8 +1,8 @@
-题目这个返回值应该是第n+1行吧？
+// 题目这个返回值应该是第n+1行吧？
 
-在一个list上取值替换值进行计算，**需要通过一个中间值保存被替换的值**，因为该值还需要参加下一个数的运算。
+// 在一个list上取值替换值进行计算，**需要通过一个中间值保存被替换的值**，因为该值还需要参加下一个数的运算。
 
-```
+// ```
 public static List<Integer> generate(int rowIndex) {
         List<Integer> triangle = new ArrayList<>(rowIndex);
         if (rowIndex == 0) {
@@ -20,7 +20,7 @@ public static List<Integer> generate(int rowIndex) {
         }
         return triangle;
     }
-```
+// ```
 
 
 

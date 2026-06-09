@@ -1,6 +1,6 @@
-只要使用java自带的优先队列,我的主要想法就是把integer数据类型自己化简一下.
-使得其包含成员val值和下标,重写该类的equals方法使得下标相等对象就相等.然后再优先队列里面存放自己带下标的"int"类型.之后调用remove(Obj)方法.
-```
+// 只要使用java自带的优先队列,我的主要想法就是把integer数据类型自己化简一下.
+// 使得其包含成员val值和下标,重写该类的equals方法使得下标相等对象就相等.然后再优先队列里面存放自己带下标的"int"类型.之后调用remove(Obj)方法.
+// ```
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -79,5 +79,5 @@ class myInt{
         return other.getIndex()==this.getIndex();
     }
 }
-```
-实际效果并不好,速度不快,自己只是采用这种思路实现一下,比自己写一个堆简单不少.
+// ```
+// 实际效果并不好,速度不快,自己只是采用这种思路实现一下,比自己写一个堆简单不少.

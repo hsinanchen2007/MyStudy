@@ -1,9 +1,9 @@
-### 解题思路
-当遇到重复节点时，让指针指向下一个值不一样的节点继续处理即可。
+// ### 解题思路
+// 当遇到重复节点时，让指针指向下一个值不一样的节点继续处理即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -39,4 +39,4 @@ class Solution {
         return newHead.next;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-执行用时 :84 ms, 在所有 python3 提交中击败了100.00% 的用户
-内存消耗 :16.5 MB, 在所有 python3 提交中击败了100.00%的用户
-### 解题思路
-这里用的是大部分数据结构书中将二叉树和N叉树转换的定义，对于每个节点递归调用本函数实现转化。
+# 执行用时 :84 ms, 在所有 python3 提交中击败了100.00% 的用户
+# 内存消耗 :16.5 MB, 在所有 python3 提交中击败了100.00%的用户
+# ### 解题思路
+# 这里用的是大部分数据结构书中将二叉树和N叉树转换的定义，对于每个节点递归调用本函数实现转化。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -55,4 +55,4 @@ class Codec:
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
 # codec.decode(codec.encode(root))
-```
+# ```

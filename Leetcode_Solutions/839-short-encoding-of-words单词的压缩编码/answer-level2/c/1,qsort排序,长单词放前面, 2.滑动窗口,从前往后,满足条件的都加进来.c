@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
 1,qsort排序,长单词放前面,
 2.滑动窗口,从前往后,满足条件的都加进来
@@ -34,4 +34,4 @@ int minimumLengthEncoding(char ** words, int wordsSize)
     }
     return strlen(out);
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-dfs
+// ### 解题思路
+// dfs
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxAreaOfIsland(grid [][]int) int {
     ans := 0
     for i:=0;i<len(grid);i++ {
@@ -35,4 +35,4 @@ func Max(a,b int) int {
     }
     return b
 }
-```
+// ```

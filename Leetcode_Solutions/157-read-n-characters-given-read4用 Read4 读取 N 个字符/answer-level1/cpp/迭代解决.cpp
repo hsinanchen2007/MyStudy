@@ -1,5 +1,5 @@
-buf是一个指针，每次读取不能覆盖原来的地方，需要偏移4，然后如果可读的内容比n小，要返回读取的值，反之返回n原先的值
-```
+// buf是一个指针，每次读取不能覆盖原来的地方，需要偏移4，然后如果可读的内容比n小，要返回读取的值，反之返回n原先的值
+// ```
 // Forward declaration of the read4 API.
 int read4(char *buf);
 
@@ -20,4 +20,4 @@ public:
         return result < n ? result : n;
     }
 };
-```
+// ```

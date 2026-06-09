@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* insertionSortList(struct ListNode* head){
     if(head==NULL || head->next==NULL)return head;
 
@@ -52,6 +52,6 @@ struct ListNode* insertionSortList(struct ListNode* head) {
     }
     return pre->next;
 }
-```
-使用尾指针的算法参考这篇
-[https://leetcode-cn.com/problems/insertion-sort-list/solution/12ms-99ji-ben-de-cha-ru-pai-xu-by-tiyife/]()
+// ```
+// 使用尾指针的算法参考这篇
+// [https://leetcode-cn.com/problems/insertion-sort-list/solution/12ms-99ji-ben-de-cha-ru-pai-xu-by-tiyife/]()

@@ -1,5 +1,5 @@
-用while循环先把那个没有len()的ListNode变成一个List，然后就能用 return List[-k]来解题。
-```
+# 用while循环先把那个没有len()的ListNode变成一个List，然后就能用 return List[-k]来解题。
+# ```
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution(object):
         #到这里， 就变成List啦！
         return list1[-k]
         
-```
+# ```

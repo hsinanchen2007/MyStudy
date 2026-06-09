@@ -1,9 +1,9 @@
-### 解题思路
-这里返回的是一个字符串，最后要加个\0,这点不能忽略
+// ### 解题思路
+// 这里返回的是一个字符串，最后要加个\0,这点不能忽略
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * addStrings(char * num1, char * num2){
     int i,j,k;
     int len,len1,len2;
@@ -86,4 +86,4 @@ char * addStrings(char * num1, char * num2){
     }
     return res;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct node{
     int val;
     int index;
@@ -57,4 +57,4 @@ bool containsNearbyDuplicate(int* nums, int numsSize, int k){
     }
     return false;
 }
-```
+// ```

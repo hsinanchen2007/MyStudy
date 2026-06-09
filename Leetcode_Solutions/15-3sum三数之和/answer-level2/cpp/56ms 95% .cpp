@@ -1,9 +1,9 @@
-### 解题思路
-排序后利用两数之和双指针解法思想构造a+b=-c。
+// ### 解题思路
+// 排序后利用两数之和双指针解法思想构造a+b=-c。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -56,4 +56,4 @@ public:
         return res;
     }
 };
-```
+// ```

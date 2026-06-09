@@ -1,11 +1,11 @@
-### 解题思路
-见备注即可。
-每个位置添加的括号，只要满足他前面的左括号数量不小于右括号就行。
-最后一个括号肯定是右括号；
+// ### 解题思路
+// 见备注即可。
+// 每个位置添加的括号，只要满足他前面的左括号数量不小于右括号就行。
+// 最后一个括号肯定是右括号；
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -44,4 +44,4 @@ var generateParenthesis = function(n) {
     getRule(n, '');
     return result;
 };
-```
+// ```

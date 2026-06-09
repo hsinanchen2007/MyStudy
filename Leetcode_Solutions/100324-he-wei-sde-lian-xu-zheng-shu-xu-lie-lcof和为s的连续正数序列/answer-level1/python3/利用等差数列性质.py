@@ -1,9 +1,9 @@
-### 解题思路
-题给的循环终止条件是正整数，对应就是等差数列中起始项a1>0.0，初始化n=2，每次循环n+=1，得到整数a1则构造等差数列。最后将数组reverse。
+# ### 解题思路
+# 题给的循环终止条件是正整数，对应就是等差数列中起始项a1>0.0，初始化n=2，每次循环n+=1，得到整数a1则构造等差数列。最后将数组reverse。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         res = []
@@ -16,4 +16,4 @@ class Solution:
             n += 1
         res.reverse()
         return res
-```
+# ```

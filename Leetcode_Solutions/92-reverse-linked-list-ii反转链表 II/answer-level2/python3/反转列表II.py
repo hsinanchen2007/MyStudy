@@ -1,8 +1,8 @@
-### 迭代
+# ### 迭代
 
-* 两个指针`p1`和`p2`，用于反转; 虚拟头结点`dummy`; 指针`tmp`作为辅助; `prev`指向第m-1个节点。
+# * 两个指针`p1`和`p2`，用于反转; 虚拟头结点`dummy`; 指针`tmp`作为辅助; `prev`指向第m-1个节点。
 
-```python []
+# ```python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -29,14 +29,14 @@ class Solution:
         prev.next.next = p2
         prev.next = p1
         return dummy.next
-```
+# ```
 
-### 递归
+# ### 递归
 
-* `reverseN(self, head, n)`函数用于反转1-n位的节点；`reverseBetween(self, head, m, n)`函数用于反转m-n位的节点。
+# * `reverseN(self, head, n)`函数用于反转1-n位的节点；`reverseBetween(self, head, m, n)`函数用于反转m-n位的节点。
 
 
-```python []
+# ```python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -57,5 +57,5 @@ class Solution:
         head.next.next = head
         head.next = self.successor
         return last
-```
+# ```
 

@@ -1,12 +1,12 @@
-标准DFS操作
-关键在剪纸去重
-```
+// 标准DFS操作
+// 关键在剪纸去重
+// ```
 if (i > 0 && s[i] == s[i - 1] && !visited[i - 1]) 
                 continue;
-```
+// ```
 
 
-```
+// ```
 
 class Solution {
 public:
@@ -45,4 +45,4 @@ public:
         return;
     }
 }; 
-```
+// ```

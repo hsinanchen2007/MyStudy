@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
     def canJump(self, nums):
         """
@@ -14,4 +14,4 @@ class Solution(object):
             # 用当前位置的信息更新dis
             dis = max(dis - 1, iter - 1)
         return True
-```
+# ```

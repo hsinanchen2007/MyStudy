@@ -1,5 +1,5 @@
-最后发现是分情况讨论。。。
-```
+# 最后发现是分情况讨论。。。
+# ```
 from string import ascii_lowercase
 class Solution:
     def canConvert(self, a: str, b: str) -> bool:
@@ -16,4 +16,4 @@ class Solution:
                 if b[i]!=r:
                     return False
         return True
-```
+# ```

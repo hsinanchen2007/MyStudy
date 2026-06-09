@@ -1,4 +1,4 @@
-```
+// ```
 int* postorderTraversal(struct TreeNode* root, int* returnSize){
     if (root == NULL) {
         *returnSize = 0;
@@ -37,4 +37,4 @@ int* postorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize = j;
     return array;
 }
-```
+// ```

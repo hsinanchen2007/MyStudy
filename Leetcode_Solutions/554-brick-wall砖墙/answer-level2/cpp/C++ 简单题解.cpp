@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int leastBricks(vector<vector<int>>& wall) {
@@ -19,6 +19,6 @@ public:
         return R - max_count;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/9948040154e0da58223fc9073c82ff59455e801882350ba16d6e06ac414d3a0e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9948040154e0da58223fc9073c82ff59455e801882350ba16d6e06ac414d3a0e-image.png)

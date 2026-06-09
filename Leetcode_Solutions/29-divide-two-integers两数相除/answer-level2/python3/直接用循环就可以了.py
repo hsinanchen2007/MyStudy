@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
@@ -36,4 +36,4 @@ class Solution:
             return_result = -return_result
         return return_result if -2 ** 31 <= return_result <= 2 ** 31 - 1 else 2 ** 31 - 1
 
-```
+# ```

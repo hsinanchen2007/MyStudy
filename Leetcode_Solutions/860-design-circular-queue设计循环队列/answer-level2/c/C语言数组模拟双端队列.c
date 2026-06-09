@@ -1,20 +1,20 @@
-### 解题思路
+// ### 解题思路
 
-> 参考自 https://leetcode-cn.com/problems/design-circular-queue/solution/shu-zu-shi-xian-de-xun-huan-dui-lie-by-liweiwei141/ 
+// > 参考自 https://leetcode-cn.com/problems/design-circular-queue/solution/shu-zu-shi-xian-de-xun-huan-dui-lie-by-liweiwei141/ 
 
-这题需要你把后面检查队列是空还是满的函数，也就是myCircularQueueIsFull， myCircularQueueIsEmpyt移动到前面 ，或者先在前面定义，否则会编译报错。（我以为官方会把这些函数先搞一个全局定义的）
+// 这题需要你把后面检查队列是空还是满的函数，也就是myCircularQueueIsFull， myCircularQueueIsEmpyt移动到前面 ，或者先在前面定义，否则会编译报错。（我以为官方会把这些函数先搞一个全局定义的）
 
-因为用数组进行模拟，因此需要额外当head和tail到数组最后一位的时候，再前进就需要回到最前面。也就是
+// 因为用数组进行模拟，因此需要额外当head和tail到数组最后一位的时候，再前进就需要回到最前面。也就是
 
-- head = (head + 1) / size
-- tail = (tail + 1) / size
+// - head = (head + 1) / size
+// - tail = (tail + 1) / size
 
-tail始终在最后一个元素的后一位，这样子验证数组为空，就是head=tail, 也就是留出一个额外空间
+// tail始终在最后一个元素的后一位，这样子验证数组为空，就是head=tail, 也就是留出一个额外空间
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
 	int *arr;
 	int size;
@@ -118,4 +118,4 @@ void myCircularQueueFree(MyCircularQueue* obj) {
 
  * myCircularQueueFree(obj);
 */
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-通用的dp的思想
-### 代码
+// ### 解题思路
+// 通用的dp的思想
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -34,4 +34,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-![QQ图片20200313002726.png](https://pic.leetcode-cn.com/d3cac550389ff8a83f4f669a2940482e876eee00f9d4bdc764878e2adead7f0b-QQ%E5%9B%BE%E7%89%8720200313002726.png)
+// ![QQ图片20200313002726.png](https://pic.leetcode-cn.com/d3cac550389ff8a83f4f669a2940482e876eee00f9d4bdc764878e2adead7f0b-QQ%E5%9B%BE%E7%89%8720200313002726.png)
 
     #define max(a,b) (a>b?a:b)
 

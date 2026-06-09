@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minArray(vector<int>& numbers) {
@@ -12,4 +12,4 @@ public:
         return numbers.back();
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-通过循环获取连续的字符串，当前字符与前一个字符是否相同，判断连续次数是否大于2
-![830. Positions of Large Groups.png](https://pic.leetcode-cn.com/67c16a63af1685594ec6f6ddad20f991a0e1b81aa6f1f7a5aedff656d23fdd9b-830.%20Positions%20of%20Large%20Groups.png)
+// ### 解题思路
+// 通过循环获取连续的字符串，当前字符与前一个字符是否相同，判断连续次数是否大于2
+// ![830. Positions of Large Groups.png](https://pic.leetcode-cn.com/67c16a63af1685594ec6f6ddad20f991a0e1b81aa6f1f7a5aedff656d23fdd9b-830.%20Positions%20of%20Large%20Groups.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * 830. Positions of Large Groups
  * https://leetcode-cn.com/problems/positions-of-large-groups/
@@ -36,4 +36,4 @@ var largeGroupPositions = function (s) {
   }
   return res;
 };
-```
+// ```

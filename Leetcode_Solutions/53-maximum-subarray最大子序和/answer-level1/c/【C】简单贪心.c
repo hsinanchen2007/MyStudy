@@ -1,9 +1,9 @@
-### 解题思路
-简单贪心
+// ### 解题思路
+// 简单贪心
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //贪心
 int maxSubArray(int* nums, int numsSize){
     int max_sum = nums[0];
@@ -13,4 +13,4 @@ int maxSubArray(int* nums, int numsSize){
     }
     return max_sum;
 }
-```
+// ```

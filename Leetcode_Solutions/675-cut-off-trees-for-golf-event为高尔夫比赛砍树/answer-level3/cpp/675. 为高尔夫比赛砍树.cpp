@@ -1,7 +1,7 @@
 
-先把所有的树放到优先队列里，然后按照高度排序，利用BFS寻找两树之间的最短距离。
+// 先把所有的树放到优先队列里，然后按照高度排序，利用BFS寻找两树之间的最短距离。
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int cutOffTree(vector<vector<int>>& forest) {
@@ -66,4 +66,4 @@ private:
         return -1;
     }
 };
-```
+// ```

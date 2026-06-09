@@ -1,14 +1,14 @@
-### 解题思路
-通式就是$DP[i] = LCP(DP[i-1], strs[i]])$
-一日代码没烦恼，今天就把老八DP前缀搞！
-臭豆腐，俘虏，来循环！
-你问这前缀拙地行不行？
-奥利给，写它都完了！
+# ### 解题思路
+# 通式就是$DP[i] = LCP(DP[i-1], strs[i]])$
+# 一日代码没烦恼，今天就把老八DP前缀搞！
+# 臭豆腐，俘虏，来循环！
+# 你问这前缀拙地行不行？
+# 奥利给，写它都完了！
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if len(strs) == 0: return ""
@@ -24,4 +24,4 @@ class Solution:
             dp[i] = cpref2(dp[i-1], strs[i])
         return dp[-1]
         
-```
+# ```

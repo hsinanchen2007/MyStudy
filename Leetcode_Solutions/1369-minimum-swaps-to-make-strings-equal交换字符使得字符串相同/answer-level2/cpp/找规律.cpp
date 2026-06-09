@@ -1,7 +1,7 @@
-通过交换可以变相同的只有两种情况：
-1、'xx'，'yy'只需一次交换即可相同；
-2、'xy'，'yx'需交换二次；
-```
+// 通过交换可以变相同的只有两种情况：
+// 1、'xx'，'yy'只需一次交换即可相同；
+// 2、'xy'，'yx'需交换二次；
+// ```
 int minimumSwap(string s1, string s2) {
 	if (s1.size() != s2.size()) return 0;
 
@@ -33,4 +33,4 @@ int minimumSwap(string s1, string s2) {
 	}
 	return res;
 }
-```
+// ```

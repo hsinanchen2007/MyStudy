@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-单向BFS，没有用双向BFS。本解法的特点在于，用索引去代替字符串去做bfs和去重。
+// 单向BFS，没有用双向BFS。本解法的特点在于，用索引去代替字符串去做bfs和去重。
 
-执行用时 : 60 ms , 在所有 Java 提交中击败了 74.51% 的用户
+// 执行用时 : 60 ms , 在所有 Java 提交中击败了 74.51% 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
         
@@ -179,4 +179,4 @@ class Solution {
     
     
 }
-```
+// ```

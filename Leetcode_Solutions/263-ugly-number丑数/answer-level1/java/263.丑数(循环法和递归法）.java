@@ -1,4 +1,4 @@
-```Java
+// ```Java
 /**
  * 循环解法，每次放置最小的丑数
  */
@@ -40,4 +40,4 @@ class Solution{
         return false;
 	}
 }
-```
+// ```

@@ -1,15 +1,15 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 贪心算法
+// # 贪心算法
 
-对于某个地址ip，寻找其最右边的1的位置。
+// 对于某个地址ip，寻找其最右边的1的位置。
 
-假设最右边1的位置的索引（从右往左）是k，那么这个长度为(32 - k)的ip地址能够代表(1 << k)个地址，因为最右边的1后面的0可以随意变换。
+// 假设最右边1的位置的索引（从右往左）是k，那么这个长度为(32 - k)的ip地址能够代表(1 << k)个地址，因为最右边的1后面的0可以随意变换。
 
-执行用时：12ms，击败48.57%。消耗内存：39.8MB，击败9.09%。
+// 执行用时：12ms，击败48.57%。消耗内存：39.8MB，击败9.09%。
 
-```java
+// ```java
 public class Solution {
     public List<String> ipToCIDR(String ip, int n) {
         List<String> result = new ArrayList<>();
@@ -58,4 +58,4 @@ public class Solution {
         return sb.toString();
     }
 }
-```
+// ```

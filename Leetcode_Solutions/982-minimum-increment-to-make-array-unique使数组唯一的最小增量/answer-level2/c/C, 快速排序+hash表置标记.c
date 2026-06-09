@@ -1,10 +1,10 @@
-### 解题思路
-快速排序+hash表置标记.
-快速排序比较耗时，影响了执行时间。
+// ### 解题思路
+// 快速排序+hash表置标记.
+// 快速排序比较耗时，影响了执行时间。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define HASH_VALUE_SIZE 50000   // 注意此值要大于40000, 如果最大数正好为40000，那么往后操作还要向后累加的
 int gHash[HASH_VALUE_SIZE] = { 0 };
@@ -47,4 +47,4 @@ int minIncrementForUnique(int* A, int ASize){
     }   
     return sum;
 }
-```
+// ```

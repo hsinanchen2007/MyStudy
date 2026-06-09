@@ -1,5 +1,5 @@
 
-```java []
+// ```java []
 public  class Solution2 {
 
         public boolean exist(char[][] board, String word) {
@@ -81,4 +81,4 @@ public  class Solution2 {
     }
 
 
-```
+// ```

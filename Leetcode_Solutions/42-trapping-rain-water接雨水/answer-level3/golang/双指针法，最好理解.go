@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func trap(height []int) int {
     l := len(height)
     // 双指针法，最优解
@@ -34,4 +34,4 @@ func trap(height []int) int {
     }
     return res
 }
-```
+// ```

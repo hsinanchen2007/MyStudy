@@ -1,5 +1,5 @@
-使用BFS，用两个二维数组分别记录路径长度和移动方向
-```
+// 使用BFS，用两个二维数组分别记录路径长度和移动方向
+// ```
 //构造路径记录和路径长度数组
         int n = maze.length;
         int m = maze[0].length;
@@ -47,4 +47,4 @@
         }
 
         return way[hole[0]][hole[1]].equals("") ? "impossible" : way[hole[0]][hole[1]];
-```
+// ```

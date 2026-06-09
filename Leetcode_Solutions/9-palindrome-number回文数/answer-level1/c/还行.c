@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
     long y=0;int x1=x;
     if(x<0)
@@ -19,4 +19,4 @@ bool isPalindrome(int x){
             return false;
     }
 }
-```
+// ```

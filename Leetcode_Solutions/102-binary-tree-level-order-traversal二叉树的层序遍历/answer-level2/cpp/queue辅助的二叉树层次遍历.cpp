@@ -1,11 +1,11 @@
-### queue辅助的层次遍历方法
-1, 使用一个queue< pair<TreeNode*, int> >  存放TreeNode节点指针和其对应的层次，第一次插入根节点，层次为1
-2, 判断 queue是否为空，如果不为空，则记录当前节点的 node->val，并将非空的node->left和node->right压入queue中
-3，重复第二步直到 queue为空 
+// ### queue辅助的层次遍历方法
+// 1, 使用一个queue< pair<TreeNode*, int> >  存放TreeNode节点指针和其对应的层次，第一次插入根节点，层次为1
+// 2, 判断 queue是否为空，如果不为空，则记录当前节点的 node->val，并将非空的node->left和node->right压入queue中
+// 3，重复第二步直到 queue为空 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -50,4 +50,4 @@ public:
 
     }
 };
-```
+// ```

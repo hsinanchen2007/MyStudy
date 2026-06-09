@@ -1,4 +1,4 @@
-```
+// ```
 1、判断当前字符串是否是其他字符串的前缀
 class Solution {
     public int minimumLengthEncoding(String[] words) {
@@ -99,4 +99,4 @@ class Solution {
         }
     }
 }
-```
+// ```

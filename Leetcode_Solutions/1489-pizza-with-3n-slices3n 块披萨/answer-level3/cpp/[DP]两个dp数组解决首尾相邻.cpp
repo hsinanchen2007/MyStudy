@@ -1,5 +1,5 @@
 
-```c++
+// ```c++
     int maxSizeSlices(vector<int>& slices) {
          int n = slices.size();
          vector<vector<int>> dp1 (n+1, vector<int>(n+1, 0)); 
@@ -18,4 +18,4 @@
 
          return max(dp1[n-1][n/3], dp2[n][n/3]);
     }
-```
+// ```

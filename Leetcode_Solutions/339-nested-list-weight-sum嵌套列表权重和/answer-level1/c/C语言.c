@@ -1,4 +1,4 @@
-```
+// ```
 void dfs1(struct NestedInteger* nestnode,int k,int *sum){
     struct NestedInteger**tmp=NestedIntegerGetList(nestnode);
     int size=NestedIntegerGetListSize(nestnode);
@@ -24,4 +24,4 @@ int depthSum(struct NestedInteger** nestedList, int nestedListSize){
     }
     return sum;
 }
-```
+// ```

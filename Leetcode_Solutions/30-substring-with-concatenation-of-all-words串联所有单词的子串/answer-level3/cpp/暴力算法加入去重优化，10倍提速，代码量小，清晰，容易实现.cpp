@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/39985a428c7d68621ab1e532cdbd0367db7fbfabadbd225b21c9a692f67fad36-image.png)
+// ![image.png](https://pic.leetcode-cn.com/39985a428c7d68621ab1e532cdbd0367db7fbfabadbd225b21c9a692f67fad36-image.png)
 
-思路就是，先把存在的字符串，放到 hashmap ，可以快速比较，然后每一个位置都进行匹配
-但这里会有很多的重复计算，就可以使用一个小技巧，先计算目标串的每个字母的 ASCII 和， 
-然后和当前要匹配的字符串的每个字母的 ASCII 进行比较，如果不相等就不用进行下面的匹配过程了
+// 思路就是，先把存在的字符串，放到 hashmap ，可以快速比较，然后每一个位置都进行匹配
+// 但这里会有很多的重复计算，就可以使用一个小技巧，先计算目标串的每个字母的 ASCII 和， 
+// 然后和当前要匹配的字符串的每个字母的 ASCII 进行比较，如果不相等就不用进行下面的匹配过程了
 
-```
+// ```
 class Solution {
 public:
     vector<int> findSubstring(string s, vector<string>& words) {
@@ -30,5 +30,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

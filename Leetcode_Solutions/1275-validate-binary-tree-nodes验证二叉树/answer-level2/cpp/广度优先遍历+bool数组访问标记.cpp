@@ -1,9 +1,9 @@
-30ms 30MB
-队列广度优先遍历
-由于节点数是0-n-1，用bool数组代替哈希表
-通过队列遍历判断节点是否访问过
-最后遍历bool数组查看是否有未访问过的节点
-```
+// 30ms 30MB
+// 队列广度优先遍历
+// 由于节点数是0-n-1，用bool数组代替哈希表
+// 通过队列遍历判断节点是否访问过
+// 最后遍历bool数组查看是否有未访问过的节点
+// ```
 class Solution {
 public:
     bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) {
@@ -28,4 +28,4 @@ public:
         return true;
     }
 };
-```
+// ```

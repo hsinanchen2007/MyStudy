@@ -1,12 +1,12 @@
-每一段的可接雨水值取决于左边柱子最高的高度(left)和右边柱子最高的高度(right)和其本省的高度(height)。
-即：
-```
+// 每一段的可接雨水值取决于左边柱子最高的高度(left)和右边柱子最高的高度(right)和其本省的高度(height)。
+// 即：
+// ```
 ans += min(left,right) - height > 0 ? min(left,right) - height : 0;
-```
-所以我们只需要知道当前段的左右最大柱子的高度就可以得到当前段的可接雨水值是多少。
+// ```
+// 所以我们只需要知道当前段的左右最大柱子的高度就可以得到当前段的可接雨水值是多少。
 
 
-```
+// ```
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -31,5 +31,5 @@ public:
         return ans;
     }
 };
-```
+// ```
 

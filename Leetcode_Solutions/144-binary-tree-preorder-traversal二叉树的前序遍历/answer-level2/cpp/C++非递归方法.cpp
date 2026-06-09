@@ -1,5 +1,5 @@
-递归法就不写了，大家都会
-```c++ []
+// 递归法就不写了，大家都会
+// ```c++ []
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
@@ -19,4 +19,4 @@ public:
     return ans;
     }
 };
-```
+// ```

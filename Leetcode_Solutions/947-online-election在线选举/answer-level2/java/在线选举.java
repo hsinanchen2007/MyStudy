@@ -1,12 +1,12 @@
-#### 方法 1：列表 + 二分搜索
+// #### 方法 1：列表 + 二分搜索
 
-**想法和算法**
+// **想法和算法**
 
-我么可以把选票存储在选票列表的列表 `A` 中。每个投票都有一个人和一个时间戳，`A[count]` 是一个列表，记录当前人获得的第 `count` 张选票。
+// 我么可以把选票存储在选票列表的列表 `A` 中。每个投票都有一个人和一个时间戳，`A[count]` 是一个列表，记录当前人获得的第 `count` 张选票。
 
-然后，`A[i][0]` 和 `A[i]` 单调增加，所以我们可以利用二分搜索根据时间找到最近的选票。
+// 然后，`A[i][0]` 和 `A[i]` 单调增加，所以我们可以利用二分搜索根据时间找到最近的选票。
 
-```Java []
+// ```Java []
 class TopVotedCandidate {
     List<List<Vote>> A;
     public TopVotedCandidate(int[] persons, int[] times) {
@@ -58,9 +58,9 @@ class Vote {
         time = t;
     }
 }
-```
+// ```
 
-```Python []
+// ```Python []
 class TopVotedCandidate(object):
 
     def __init__(self, persons, times):
@@ -82,20 +82,20 @@ class TopVotedCandidate(object):
         i = lo - 1
         j = bisect.bisect(self.A[i], (t, float('inf')))
         return self.A[i][j-1][1]
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N + Q \log^2 N)$，其中 $N$ 是选票的个数，$Q$ 是询问的个数。
-* 空间复杂度：$O(N)$。
+// * 时间复杂度：$O(N + Q \log^2 N)$，其中 $N$ 是选票的个数，$Q$ 是询问的个数。
+// * 空间复杂度：$O(N)$。
 
-#### 方法 2：预计算结果 + 二分搜索
+// #### 方法 2：预计算结果 + 二分搜索
 
-**想法和算法**
+// **想法和算法**
 
-每当选票记录，我们可以记录每个胜者改变的 `(winner, time)` 时刻信息。之后，我们拥有一个有序的时刻信息，并用二分搜索找到答案。
+// 每当选票记录，我们可以记录每个胜者改变的 `(winner, time)` 时刻信息。之后，我们拥有一个有序的时刻信息，并用二分搜索找到答案。
 
-```Java []
+// ```Java []
 class TopVotedCandidate {
     List<Vote> A;
     public TopVotedCandidate(int[] persons, int[] times) {
@@ -141,9 +141,9 @@ class Vote {
         time = t;
     }
 }
-```
+// ```
 
-```Python []
+// ```Python []
 class TopVotedCandidate(object):
     def __init__(self, persons, times):
         self.A = []
@@ -164,9 +164,9 @@ class TopVotedCandidate(object):
     def q(self, t):
         i = bisect.bisect(self.A, (t, float('inf')), 1)
         return self.A[i-1][1]
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N + Q\log{N})$，其中 $N$ 是选票个数，$Q$ 是询问个数。
-* 空间复杂度：$O(N)$。
+// * 时间复杂度：$O(N + Q\log{N})$，其中 $N$ 是选票个数，$Q$ 是询问个数。
+// * 空间复杂度：$O(N)$。

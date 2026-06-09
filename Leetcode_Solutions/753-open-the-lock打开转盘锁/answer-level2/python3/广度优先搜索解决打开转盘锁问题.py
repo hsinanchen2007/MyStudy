@@ -1,11 +1,11 @@
-### 解题思路
-每转动一次，只能改变某一位的数字，且只能加一或者减一。
-用一个队列将与当前数字curnode相邻的节点存储在队列中，并用step+1标记该节点是在第step+1步存放在队列中的（step为curnode节点的标记）。
-用集合seen存放被检查过的数字，以免重复运算，造成超时
+# ### 解题思路
+# 每转动一次，只能改变某一位的数字，且只能加一或者减一。
+# 用一个队列将与当前数字curnode相邻的节点存储在队列中，并用step+1标记该节点是在第step+1步存放在队列中的（step为curnode节点的标记）。
+# 用集合seen存放被检查过的数字，以免重复运算，造成超时
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import deque 
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
@@ -32,5 +32,5 @@ class Solution:
                         queue.append((newnode,step+1))
                         seen.add(newnode)
         return -1
-```
-![image.png](https://pic.leetcode-cn.com/33a78b5904b237b0723e9407c30b250e5e26c428782382b5f0bc7b4362f02304-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/33a78b5904b237b0723e9407c30b250e5e26c428782382b5f0bc7b4362f02304-image.png)

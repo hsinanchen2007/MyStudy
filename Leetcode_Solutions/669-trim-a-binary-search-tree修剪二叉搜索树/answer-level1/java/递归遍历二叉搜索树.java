@@ -1,11 +1,11 @@
-### 解题思路
-1. 中序遍历二叉搜索树
-2. 如果节点val > L && val < R 则保留，否则舍弃
-![image.png](https://pic.leetcode-cn.com/0dc9123b597bcc794791ca249f1c881ec298d7d8ca877e76fd1a335d1c323c9e-image.png)
+// ### 解题思路
+// 1. 中序遍历二叉搜索树
+// 2. 如果节点val > L && val < R 则保留，否则舍弃
+// ![image.png](https://pic.leetcode-cn.com/0dc9123b597bcc794791ca249f1c881ec298d7d8ca877e76fd1a335d1c323c9e-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         }
     }
 }
-```
+// ```

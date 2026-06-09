@@ -1,9 +1,9 @@
-### 解题思路
-遍历链表计数，找到一半处，返回。
+// ### 解题思路
+// 遍历链表计数，找到一半处，返回。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ struct ListNode* middleNode(struct ListNode* head){
     }
     return l;
 }
-```
+// ```

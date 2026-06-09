@@ -1,11 +1,11 @@
-### 解题思路
-类似233的思路做。
-![111.png](https://pic.leetcode-cn.com/7284f4d56abc34cd203d93d7bdd3be0243b784c06ca7468771f9eca134090412-111.png)
+// ### 解题思路
+// 类似233的思路做。
+// ![111.png](https://pic.leetcode-cn.com/7284f4d56abc34cd203d93d7bdd3be0243b784c06ca7468771f9eca134090412-111.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int digitsCount(int d, int low, int high) {
         //(0,high] - (0, low-1]
@@ -42,4 +42,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

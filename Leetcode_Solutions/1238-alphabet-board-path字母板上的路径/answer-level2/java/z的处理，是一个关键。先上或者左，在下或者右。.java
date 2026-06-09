@@ -1,4 +1,4 @@
-z的处理，是一个关键。先上或者左，在下或者右。
+// z的处理，是一个关键。先上或者左，在下或者右。
 
 class Solution {
     public String alphabetBoardPath(String target) {

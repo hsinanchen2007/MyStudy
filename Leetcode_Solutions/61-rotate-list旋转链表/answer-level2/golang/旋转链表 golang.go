@@ -1,11 +1,11 @@
-### 解题思路
-1 组成循环链表
-2 从head位置开始迭代，迭代 len-(k%len) 次，即得到尾结点和新的头节点
-3 将尾结点Next置为空，返回新的头结点
+// ### 解题思路
+// 1 组成循环链表
+// 2 从head位置开始迭代，迭代 len-(k%len) 次，即得到尾结点和新的头节点
+// 3 将尾结点Next置为空，返回新的头结点
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -41,4 +41,4 @@ func rotateRight(head *ListNode, k int) *ListNode {
     newTail.Next = nil
     return head
 }
-```
+// ```

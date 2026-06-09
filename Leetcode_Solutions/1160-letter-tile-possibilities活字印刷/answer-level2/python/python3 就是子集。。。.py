@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-和自己的题目一样的，但是排序去重为啥时间这么长，有点疑问，。
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 和自己的题目一样的，但是排序去重为啥时间这么长，有点疑问，。
+# ### 代码
 
-```python3
+# ```python3
 import itertools
 class Solution:
     def numTilePossibilities(self, tiles: str) -> int:
@@ -27,4 +27,4 @@ class Solution:
         #     helper(tiles,i)
         # return self.ans
 
-```
+# ```

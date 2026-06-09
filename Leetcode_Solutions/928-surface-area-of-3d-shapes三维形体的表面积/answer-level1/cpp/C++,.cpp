@@ -1,7 +1,7 @@
 
-### 减重合部分
+// ### 减重合部分
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid) {
@@ -32,11 +32,11 @@ public:
         return sum;
     }
 };
-```
+// ```
 
 
-### 直接计算
-```
+// ### 直接计算
+// ```
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid) {
@@ -67,4 +67,4 @@ public:
         return res;
     }
 };
-```
+// ```

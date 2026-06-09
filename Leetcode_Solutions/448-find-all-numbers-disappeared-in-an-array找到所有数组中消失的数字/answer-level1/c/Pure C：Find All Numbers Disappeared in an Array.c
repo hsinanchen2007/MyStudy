@@ -1,8 +1,8 @@
-## solution:
-① 使用**index** = Nums\[i]-1   
-							Nums\[index] 发生变化，      (第一个代码变化为取反，第二个代码变化为+n)
-②  遍历：在数组中没有变化的即没有出现的。
-```
+// ## solution:
+// ① 使用**index** = Nums\[i]-1   
+// 							Nums\[index] 发生变化，      (第一个代码变化为取反，第二个代码变化为+n)
+// ②  遍历：在数组中没有变化的即没有出现的。
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -20,9 +20,9 @@ int* findDisappearedNumbers(int* nums, int numsSize, int* returnSize){
     *returnSize = Len;
     return Return;
 }
-```
+// ```
 
-```
+// ```
 
 
 /**
@@ -42,4 +42,4 @@ int* findDisappearedNumbers(int* nums, int numsSize, int* returnSize){
     *returnSize = Len;
     return ReturnArray;
 }
-```
+// ```

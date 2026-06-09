@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class CQueue {
 public:
     CQueue() {
@@ -44,4 +44,4 @@ std::stack<int> stack2;
  * obj->appendTail(value);
  * int param_2 = obj->deleteHead();
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-这个解题思路是我看到的最好的解题思路了.
-原作者实在是太让我佩服了,我希望我有朝一日也能够独立写出这样的代码.
-### 代码
+// ### 解题思路
+// 这个解题思路是我看到的最好的解题思路了.
+// 原作者实在是太让我佩服了,我希望我有朝一日也能够独立写出这样的代码.
+// ### 代码
 
-```c
+// ```c
 bool canPlaceFlowers(int* flowerbed, int flowerbedSize, int n)
 {
     short gap=1,i;
@@ -26,4 +26,4 @@ bool canPlaceFlowers(int* flowerbed, int flowerbedSize, int n)
     return n<=0;
 }
 // 总结 多学学人家的思路,看看人家写的多好!
-```
+// ```

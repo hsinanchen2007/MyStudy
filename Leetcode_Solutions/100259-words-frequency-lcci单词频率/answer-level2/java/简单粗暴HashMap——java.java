@@ -1,4 +1,4 @@
-```java
+// ```java
 class WordsFrequency {
     private HashMap<String, Integer> map = new HashMap<>();
 
@@ -11,4 +11,4 @@ class WordsFrequency {
         return map.getOrDefault(word, 0);
     }
 }
-```
+// ```

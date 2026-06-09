@@ -1,9 +1,9 @@
-### 解题思路
-先序遍历确定访问顺序，中序遍历确定左右子树信息
+// ### 解题思路
+// 先序遍历确定访问顺序，中序遍历确定左右子树信息
 
-### 代码
-基础代码：
-```cpp
+// ### 代码
+// 基础代码：
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,9 +32,9 @@ public:
     return root;
     }
 };
-```
-借助于哈希表用空间换时间：
-```cpp
+// ```
+// 借助于哈希表用空间换时间：
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -66,5 +66,5 @@ public:
     return root;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/ada0eaf499ad9e7e794b012fcf3d67ed05725eed425976ed065487c319f709a8-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/ada0eaf499ad9e7e794b012fcf3d67ed05725eed425976ed065487c319f709a8-image.png)

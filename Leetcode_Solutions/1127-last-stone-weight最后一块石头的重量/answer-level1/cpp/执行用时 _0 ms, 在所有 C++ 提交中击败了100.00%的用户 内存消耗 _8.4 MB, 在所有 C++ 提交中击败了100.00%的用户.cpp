@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
@@ -15,5 +15,5 @@ public:
         return 0;
     }
 };
-```
-得亏想了半天，其实不用多想，直接干就行了，数据量这么小又不会超时
+// ```
+// 得亏想了半天，其实不用多想，直接干就行了，数据量这么小又不会超时

@@ -1,4 +1,4 @@
-```
+// ```
 function rob($nums) {
     if(empty($nums)) return 0;
     $dp[0] = $nums[0];
@@ -8,4 +8,4 @@ function rob($nums) {
     }
     return $dp[count($nums)-1];
 }
-```
+// ```

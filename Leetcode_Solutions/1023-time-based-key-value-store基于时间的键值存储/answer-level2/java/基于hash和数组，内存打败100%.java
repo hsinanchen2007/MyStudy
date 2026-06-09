@@ -1,5 +1,5 @@
-将key作为hash的key存储，value是装着value和时间戳的对象数组，根据题目时间戳是递增的，只需要每次将value对象装进数组，get的时候根据时间戳进行二分。即可解决问题。
-```
+// 将key作为hash的key存储，value是装着value和时间戳的对象数组，根据题目时间戳是递增的，只需要每次将value对象装进数组，get的时候根据时间戳进行二分。即可解决问题。
+// ```
 class TimeMap {
 
 class Obj {
@@ -48,4 +48,4 @@ HashMap<String,ArrayList> map = new HashMap<String,ArrayList>();
         return "";
     }
 }
-````
+// ````

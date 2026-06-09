@@ -1,15 +1,15 @@
-### 解题思路
-用python的列表代表队列
-整体思路就是每次来一个新的数时，先把队列之前的数都放入pop_element里面，然后让最新的数进入队列，再让pop_element里面的数重新回队列，其实是一个逆序的过程。
-注意：
-1、pop_element.append(self.queue1.pop(0))
-每次是pop第一个，因为pop出去这个数就没有了，最后会变成空
-2、top是返回队列第一个而pop是直接弹出第一个
+# ### 解题思路
+# 用python的列表代表队列
+# 整体思路就是每次来一个新的数时，先把队列之前的数都放入pop_element里面，然后让最新的数进入队列，再让pop_element里面的数重新回队列，其实是一个逆序的过程。
+# 注意：
+# 1、pop_element.append(self.queue1.pop(0))
+# 每次是pop第一个，因为pop出去这个数就没有了，最后会变成空
+# 2、top是返回队列第一个而pop是直接弹出第一个
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MyStack(object):
 
     def __init__(self):
@@ -75,4 +75,4 @@ class MyStack(object):
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

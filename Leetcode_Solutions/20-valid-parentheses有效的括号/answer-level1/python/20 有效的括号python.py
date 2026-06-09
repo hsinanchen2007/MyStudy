@@ -1,16 +1,16 @@
-### 解题思路
-        stack = []
-        lookup = {
-            "(":")",
-            "[":"]",
-            "{":"}"
-        }
-return True if not stack else False
+# ### 解题思路
+#         stack = []
+#         lookup = {
+#             "(":")",
+#             "[":"]",
+#             "{":"}"
+#         }
+# return True if not stack else False
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isValid(self, s):
         """
@@ -35,4 +35,4 @@ class Solution(object):
                 return False
 
         return True if not stack else False
-```
+# ```

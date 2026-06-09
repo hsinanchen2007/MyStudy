@@ -1,8 +1,8 @@
-**要点**
-1. 利用哈希表构造map<listnode*, int>；
-2. 在一次链表遍历后保存每个listnode；
-3. 根据当前节点的后续节点是否在map中来判断是否有环；
-```
+// **要点**
+// 1. 利用哈希表构造map<listnode*, int>；
+// 2. 在一次链表遍历后保存每个listnode；
+// 3. 根据当前节点的后续节点是否在map中来判断是否有环；
+// ```
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -15,4 +15,4 @@ public:
         return false;
     }
 };
-```
+// ```

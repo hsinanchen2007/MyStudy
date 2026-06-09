@@ -1,9 +1,9 @@
-### 解题思路
-- isalnum():判断字符是否由字母和数字构成的方法；
+# ### 解题思路
+# - isalnum():判断字符是否由字母和数字构成的方法；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         new = ''
@@ -12,4 +12,4 @@ class Solution:
                 new += ch.lower()
         return new == new[::-1]
        
-```
+# ```

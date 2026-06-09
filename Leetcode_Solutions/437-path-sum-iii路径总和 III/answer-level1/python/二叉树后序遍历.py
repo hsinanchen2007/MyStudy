@@ -1,8 +1,8 @@
-### 解题思路
-通过后序遍历，从下往上分别计算每个节点与其子树的组合
-### 代码
+# ### 解题思路
+# 通过后序遍历，从下往上分别计算每个节点与其子树的组合
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

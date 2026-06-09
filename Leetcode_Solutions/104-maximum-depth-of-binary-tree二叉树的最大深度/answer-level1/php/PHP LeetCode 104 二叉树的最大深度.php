@@ -1,9 +1,9 @@
-### 解题思路
-递归算法：类似最小深度
+// ### 解题思路
+// 递归算法：类似最小深度
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -26,14 +26,14 @@ class Solution {
         return max($this->maxDepth($root->left),$this->maxDepth($root->right))+1;
     }
 }
-```
+// ```
 
-### 解题思路
-迭代算法：层次遍历；类似最小深度
+// ### 解题思路
+// 迭代算法：层次遍历；类似最小深度
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -70,4 +70,4 @@ class Solution {
         return $min;
     }
 }
-```
+// ```

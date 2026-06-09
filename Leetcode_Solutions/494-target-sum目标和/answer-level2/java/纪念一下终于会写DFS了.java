@@ -1,5 +1,5 @@
-先按照暴力破解方法，写一下过程，再翻译成dfs就好了
-```
+// 先按照暴力破解方法，写一下过程，再翻译成dfs就好了
+// ```
 public class TargetSum {
     public static void main(String[] args) {
         int[] arr={1, 1, 1, 1, 1};
@@ -27,13 +27,13 @@ public class TargetSum {
     }
 }
 时间复杂度很高，试试能不能做优化
-```
-![image.png](https://pic.leetcode-cn.com/0745679721f9c6b755eb2233a423b60de6eb7996c293be97ed1c27b25e7d3d93-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/0745679721f9c6b755eb2233a423b60de6eb7996c293be97ed1c27b25e7d3d93-image.png)
 
 
-做了剪枝优化竟然变得更慢了，搞不懂了
-![image.png](https://pic.leetcode-cn.com/ecd821ed0668647206f881b6c10d930878d7b56fefd1b4f9904d53230fbcdf91-image.png)
-```
+// 做了剪枝优化竟然变得更慢了，搞不懂了
+// ![image.png](https://pic.leetcode-cn.com/ecd821ed0668647206f881b6c10d930878d7b56fefd1b4f9904d53230fbcdf91-image.png)
+// ```
 public class TargetSum {
     public static void main(String[] args) {
         int[] arr={1, 1, 1, 1, 1};
@@ -66,4 +66,4 @@ public class TargetSum {
     }
 }
 
-```
+// ```

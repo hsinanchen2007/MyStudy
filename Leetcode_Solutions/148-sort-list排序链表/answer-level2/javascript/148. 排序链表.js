@@ -1,25 +1,25 @@
-#### 解法一：归并排序 - 递归
-+ [经典排序算法讲解 - 归并排序 - 递归版](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/BitOperation%E4%BD%8D%E8%BF%90%E7%AE%97%E3%80%81Bloom%20Filter%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8%E3%80%81LRU%20Cache%E7%BC%93%E5%AD%98%E3%80%81Sorting%20algorithm%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95.md)
-  + 跟上述讲解思路一模一样
-+ 摘抄讲解如下
-  + 1、**把长度为n的输入序列分成两个长度为n/2的子序列**
-  + 2、**对这两个子序列分别采用归并排序**
-  + 3、**将两个排序好的子序列合并成一个最终的排序序列**
-+ 对应链表
-  + 1、用双指针法(快慢指针)寻找链表中间节点
-    + [参看链表各种操作大全 - 求链表的中间节点](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/algo/%E9%93%BE%E8%A1%A8_linkedList.md)
-      + 奇数个节点找到中点，偶数个节点找到中心左边的节点
-      + 注意
-        + 找到中点后，要将链表切断，即 mid.next = null
-        + 因链表性质，左边子序列取左端点即可
-        + 同数组归并一样，只剩一个节点时终止
-    + 用于分成左右两边子序列
-      + 右边子序列为慢指针的next
-  + 2、递归排序左右子序列
-  + 3、合并
-    + 同数组一样，判断值的大小
-    + 不同的是，用哨兵节点链接合并后的链表，返回即可
-```javascript
+// #### 解法一：归并排序 - 递归
+// + [经典排序算法讲解 - 归并排序 - 递归版](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/BitOperation%E4%BD%8D%E8%BF%90%E7%AE%97%E3%80%81Bloom%20Filter%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8%E3%80%81LRU%20Cache%E7%BC%93%E5%AD%98%E3%80%81Sorting%20algorithm%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95.md)
+//   + 跟上述讲解思路一模一样
+// + 摘抄讲解如下
+//   + 1、**把长度为n的输入序列分成两个长度为n/2的子序列**
+//   + 2、**对这两个子序列分别采用归并排序**
+//   + 3、**将两个排序好的子序列合并成一个最终的排序序列**
+// + 对应链表
+//   + 1、用双指针法(快慢指针)寻找链表中间节点
+//     + [参看链表各种操作大全 - 求链表的中间节点](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/algo/%E9%93%BE%E8%A1%A8_linkedList.md)
+//       + 奇数个节点找到中点，偶数个节点找到中心左边的节点
+//       + 注意
+//         + 找到中点后，要将链表切断，即 mid.next = null
+//         + 因链表性质，左边子序列取左端点即可
+//         + 同数组归并一样，只剩一个节点时终止
+//     + 用于分成左右两边子序列
+//       + 右边子序列为慢指针的next
+//   + 2、递归排序左右子序列
+//   + 3、合并
+//     + 同数组一样，判断值的大小
+//     + 不同的是，用哨兵节点链接合并后的链表，返回即可
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -64,11 +64,11 @@ var sortList = function(head) {
     }
     return mergeSort(head);
 };
-```
-#### 解法二：归并排序 - 非递归
-+ [经典排序算法讲解 - 归并排序 - 非递归版](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/BitOperation%E4%BD%8D%E8%BF%90%E7%AE%97%E3%80%81Bloom%20Filter%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8%E3%80%81LRU%20Cache%E7%BC%93%E5%AD%98%E3%80%81Sorting%20algorithm%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95.md)
-  + 跟上述讲解思路一模一样
-```javascript
+// ```
+// #### 解法二：归并排序 - 非递归
+// + [经典排序算法讲解 - 归并排序 - 非递归版](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/BitOperation%E4%BD%8D%E8%BF%90%E7%AE%97%E3%80%81Bloom%20Filter%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8%E3%80%81LRU%20Cache%E7%BC%93%E5%AD%98%E3%80%81Sorting%20algorithm%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95.md)
+//   + 跟上述讲解思路一模一样
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -132,4 +132,4 @@ var sortList = function(head) {
     }
     return preHead.next;
 };
-```
+// ```

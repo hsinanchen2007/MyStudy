@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/c98bc74e1478ccb1a637813edd071313e1a48feb8db2166f203b9c380195eb4e-image.png)
-动态规划，C语言版
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/c98bc74e1478ccb1a637813edd071313e1a48feb8db2166f203b9c380195eb4e-image.png)
+// 动态规划，C语言版
+// ### 代码
 
-```c
+// ```c
 
 bool IsInDict(char * s, int i, int j, char ** wordDict, int wordDictSize)
 {
@@ -86,4 +86,4 @@ bool wordBreak(char * s, char ** wordDict, int wordDictSize){
 ["a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa"]
 */
 
-```
+// ```

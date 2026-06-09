@@ -1,10 +1,10 @@
-### 解题思路
-最简单动态规划  （关注微信公众号'码农黑板报' 获取更多题解）
-![image.png](https://pic.leetcode-cn.com/1361359d49761da5148839ae8665f19a60887cba6bef8216ddb2ba26b58feb63-image.png)
+// ### 解题思路
+// 最简单动态规划  （关注微信公众号'码农黑板报' 获取更多题解）
+// ![image.png](https://pic.leetcode-cn.com/1361359d49761da5148839ae8665f19a60887cba6bef8216ddb2ba26b58feb63-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int fib(int n) {
@@ -19,4 +19,4 @@ public:
         return dp[n];
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-每个点的最大值有三种可能 max（左分支+右分支+val，左分支+val，右分支+val，val）
-作为经过路径的子节点，该节点的值转换为路径的最大值 max（左分支+val，右分支+val，val）
+# ### 解题思路
+# 每个点的最大值有三种可能 max（左分支+右分支+val，左分支+val，右分支+val，val）
+# 作为经过路径的子节点，该节点的值转换为路径的最大值 max（左分支+val，右分支+val，val）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution:
         get_max_solution(root)
         return res
 
-```
+# ```

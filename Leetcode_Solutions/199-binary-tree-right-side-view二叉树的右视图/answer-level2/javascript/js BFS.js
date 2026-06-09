@@ -1,4 +1,4 @@
-```
+// ```
 var rightSideView = function(root) {
 	const queue = [root];
 	let i = queue.length;
@@ -16,4 +16,4 @@ var rightSideView = function(root) {
 	}
 	return res;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 def pivotIndex(nums):
     if not nums:
         return -1
@@ -12,4 +12,4 @@ def pivotIndex(nums):
     return -1
 
 print(pivotIndex([1,7,3,6,5,6]))
-```
+# ```

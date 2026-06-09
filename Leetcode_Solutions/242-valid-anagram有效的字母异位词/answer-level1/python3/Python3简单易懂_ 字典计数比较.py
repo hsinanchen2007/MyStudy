@@ -1,9 +1,9 @@
-### 解题思路
-字典计数, 然后比较一下即可.
+# ### 解题思路
+# 字典计数, 然后比较一下即可.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         d1 = {}
@@ -17,4 +17,4 @@ class Solution:
             if d2.get(c, 0) > d1.get(c, 0):
                 return False
         return True
-```
+# ```

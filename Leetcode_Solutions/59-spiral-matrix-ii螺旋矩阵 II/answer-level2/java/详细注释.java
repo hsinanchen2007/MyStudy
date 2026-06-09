@@ -1,4 +1,4 @@
-```
+// ```
     public int[][] generateMatrix(int n) {
         if(n==0) return null;
         int[][] arr=new int[n][n];
@@ -56,4 +56,4 @@
         }
         return arr;
     }
-```
+// ```

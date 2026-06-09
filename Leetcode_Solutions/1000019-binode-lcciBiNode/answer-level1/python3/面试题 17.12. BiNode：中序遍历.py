@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def convertBiNode(self, root: TreeNode) -> TreeNode:
         if root:
@@ -10,4 +10,4 @@ class Solution:
                 ans[i].right = r
             ans[-1].left = None
             return ans[0]
-```
+# ```

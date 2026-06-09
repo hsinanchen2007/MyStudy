@@ -1,11 +1,11 @@
 
-## 说明
+// ## 说明
 
-- 异或获取两个数不同的位置。
-- 静态表计算二进制1的个数。
+// - 异或获取两个数不同的位置。
+// - 静态表计算二进制1的个数。
 
 
-```c++
+// ```c++
 class Solution {
 public:
     unsigned int table[256] = 
@@ -32,4 +32,4 @@ public:
         return  table[c&0xFF] + table[(c>>8)&0xff] + table[(c>>16)&0xff]+ table[(c>>24)&0xff];
     }
 };
-```
+// ```

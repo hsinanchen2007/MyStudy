@@ -1,9 +1,9 @@
-![批注 2020-04-03 002338.png](https://pic.leetcode-cn.com/76f0ad7048cd5ad5c8239ddabf7cea411ce1f10025035f39b6c327b0a50e640f-%E6%89%B9%E6%B3%A8%202020-04-03%20002338.png)
-我心态炸了！
-我心态炸了！
-我心态炸了！
-谨以此纪念我逝去的青春，生活不易，且行且珍惜！
-```
+// ![批注 2020-04-03 002338.png](https://pic.leetcode-cn.com/76f0ad7048cd5ad5c8239ddabf7cea411ce1f10025035f39b6c327b0a50e640f-%E6%89%B9%E6%B3%A8%202020-04-03%20002338.png)
+// 我心态炸了！
+// 我心态炸了！
+// 我心态炸了！
+// 谨以此纪念我逝去的青春，生活不易，且行且珍惜！
+// ```
 class Solution {
 public:
     vector<string> ambiguousCoordinates(string S) {
@@ -134,4 +134,4 @@ public:
         }
     }
 };
-```
+// ```

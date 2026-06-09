@@ -1,5 +1,5 @@
-这道题可以使用bitmap算法，java里面有实现好了的BitSet类，比hash表节约空间
-```java
+// 这道题可以使用bitmap算法，java里面有实现好了的BitSet类，比hash表节约空间
+// ```java
     public boolean isUnique(String astr) {
         BitSet bitSet = new BitSet();
         for(int i=0;i<astr.length();i++) {
@@ -10,5 +10,5 @@
         }
         return true;
     }
-```
+// ```
 

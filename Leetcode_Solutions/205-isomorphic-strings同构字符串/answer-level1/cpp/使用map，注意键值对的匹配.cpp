@@ -1,13 +1,13 @@
-### 解题思路
-1.记录键值对，判断是否匹配
-2.存在情况，多个key匹配一个value
-    如：“ab” "aa"
-    这时候，添加b，a键值对的时候就判断一下，a这个value是否已经存在了
-    只要判断次数和是否重复，map都是不错的选择
+// ### 解题思路
+// 1.记录键值对，判断是否匹配
+// 2.存在情况，多个key匹配一个value
+//     如：“ab” "aa"
+//     这时候，添加b，a键值对的时候就判断一下，a这个value是否已经存在了
+//     只要判断次数和是否重复，map都是不错的选择
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
@@ -36,4 +36,4 @@ public:
         return true;
     }
 };
-```
+// ```

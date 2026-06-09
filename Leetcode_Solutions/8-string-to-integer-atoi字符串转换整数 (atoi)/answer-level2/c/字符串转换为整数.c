@@ -1,9 +1,9 @@
-### 解题思路
-看过K&R那本《The C Programming Language》的同学会发现这道题挺熟悉的，但是这道题需要判断溢出。LeetCode的优点在于他会给出错误样例，但这同样也成了它的缺点，少了思考为什么会有这个样例的过程。思路其实题目已经给了出来，难点在于是如何把它转换为代码。如果记不住int型范围的同学，可以在<limits.h>里找INT_MAX和INT_MIN。另外，<ctype.h>库里面太多好东西了，哈哈哈！isspace(char c)判断字符c是否为空格，是返回1，否则返回0.isdigit(char c)判断字符c是否为数字，是返回1，否则返回0.
+// ### 解题思路
+// 看过K&R那本《The C Programming Language》的同学会发现这道题挺熟悉的，但是这道题需要判断溢出。LeetCode的优点在于他会给出错误样例，但这同样也成了它的缺点，少了思考为什么会有这个样例的过程。思路其实题目已经给了出来，难点在于是如何把它转换为代码。如果记不住int型范围的同学，可以在<limits.h>里找INT_MAX和INT_MIN。另外，<ctype.h>库里面太多好东西了，哈哈哈！isspace(char c)判断字符c是否为空格，是返回1，否则返回0.isdigit(char c)判断字符c是否为数字，是返回1，否则返回0.
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str)
 {
     int i = 0, r = 0, sign = 1;
@@ -24,4 +24,4 @@ int myAtoi(char * str)
     }
     return r * sign;
 }
-```
+// ```

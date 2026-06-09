@@ -1,7 +1,7 @@
-### 解题思路
-### 代码
+// ### 解题思路
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -11,4 +11,4 @@
         nums.sort((a, b) => a - b);
         return nums[nums.length-k]
 };
-```
+// ```

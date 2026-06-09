@@ -1,11 +1,11 @@
-### 解题思路
-增加一个坐标转换之后，就直接变成了二分法查找
+// ### 解题思路
+// 增加一个坐标转换之后，就直接变成了二分法查找
 
-![image.png](https://pic.leetcode-cn.com/95404ddfe5cab582b87c4317c56e182eaed5321547d3bfd2ad4257958da92647-image.png)
+// ![image.png](https://pic.leetcode-cn.com/95404ddfe5cab582b87c4317c56e182eaed5321547d3bfd2ad4257958da92647-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_NUM_2 2
 
 typedef struct {
@@ -75,4 +75,4 @@ int search(int* nums, int numsSize, int target){
     sInit(&s, nums, numsSize, target);
     return proc(&s);
 }
-```
+// ```

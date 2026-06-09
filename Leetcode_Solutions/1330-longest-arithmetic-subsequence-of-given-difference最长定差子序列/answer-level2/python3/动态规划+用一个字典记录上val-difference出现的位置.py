@@ -1,6 +1,6 @@
-主要思路是动态规划，用一个数组记录以第i个位置结尾的最长定差子序列。
-同时，为了尽快找到上一个val-difference的位置，用一个dict记录最后一个val-difference的位置。
-```
+# 主要思路是动态规划，用一个数组记录以第i个位置结尾的最长定差子序列。
+# 同时，为了尽快找到上一个val-difference的位置，用一个dict记录最后一个val-difference的位置。
+# ```
 class Solution:
     def longestSubsequence(self, arr: List[int], difference: int) -> int:
         n = len(arr)
@@ -15,4 +15,4 @@ class Solution:
             last_val[val] = i
             max_length = max(max_length, dp[i])
         return max_length
-```
+# ```

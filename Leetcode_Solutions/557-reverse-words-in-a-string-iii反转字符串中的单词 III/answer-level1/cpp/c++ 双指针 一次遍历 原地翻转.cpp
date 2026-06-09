@@ -1,9 +1,9 @@
-### 解题思路
-用两个指针，遍历找到每个单词的首位，然后翻转该单词，翻转后继续寻找，直到遍历完毕。
+// ### 解题思路
+// 用两个指针，遍历找到每个单词的首位，然后翻转该单词，翻转后继续寻找，直到遍历完毕。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -25,7 +25,7 @@ public:
         return s;
     }
 };
-```
+// ```
 
-### 执行结果
-![微信截图_20200323235301.png](https://pic.leetcode-cn.com/45dd5f03880b02e1b2c7f1085988af1c810a3633c491217b9fcb7ce346fc6cb3-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200323235301.png)
+// ### 执行结果
+// ![微信截图_20200323235301.png](https://pic.leetcode-cn.com/45dd5f03880b02e1b2c7f1085988af1c810a3633c491217b9fcb7ce346fc6cb3-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200323235301.png)

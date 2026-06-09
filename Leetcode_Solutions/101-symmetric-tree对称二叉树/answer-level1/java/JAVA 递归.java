@@ -1,9 +1,9 @@
-### 解题思路
-把树的左子树生成镜像树，和右子树进行对比
+// ### 解题思路
+// 把树的左子树生成镜像树，和右子树进行对比
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -56,4 +56,4 @@ class Solution {
         return compare(p.left,q.left)&&compare(p.right,q.right);
     }
 }
-```
+// ```

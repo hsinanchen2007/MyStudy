@@ -1,11 +1,11 @@
-### 解题思路
-```java
+// ### 解题思路
+// ```java
 System.out.println();
 // 这原来也是消耗时间的
-```
-### 代码
+// ```
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
 
@@ -50,4 +50,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

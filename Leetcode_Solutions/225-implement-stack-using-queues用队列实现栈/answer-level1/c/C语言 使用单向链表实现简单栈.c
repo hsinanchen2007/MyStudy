@@ -1,9 +1,9 @@
-### 解题思路
-数据使用单向链表存储，每次只需要对表头进行操作，同时维护节点数size，便于判空。
+// ### 解题思路
+// 数据使用单向链表存储，每次只需要对表头进行操作，同时维护节点数size，便于判空。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct newListNode {
 	int val;
 	struct newListNode* next;
@@ -80,4 +80,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

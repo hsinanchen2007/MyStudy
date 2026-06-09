@@ -1,9 +1,9 @@
-### 解题思路
-使用一个函数求一个结点的最大深度（该函数使用递归），然后在isBalanced函数中使用递归进行判断。因为实际不需要得到每个节点的深度，因此这个方法还有优化的空间。好处是代码简洁易懂。执行用时：8ms；内存消耗：8.7M。
+// ### 解题思路
+// 使用一个函数求一个结点的最大深度（该函数使用递归），然后在isBalanced函数中使用递归进行判断。因为实际不需要得到每个节点的深度，因此这个方法还有优化的空间。好处是代码简洁易懂。执行用时：8ms；内存消耗：8.7M。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ unsigned int maxDepth(struct TreeNode* root){
     unsigned int n_right=maxDepth(root->right)+1;
     return (n_left>n_right?n_left:n_right);
 }
-```
+// ```

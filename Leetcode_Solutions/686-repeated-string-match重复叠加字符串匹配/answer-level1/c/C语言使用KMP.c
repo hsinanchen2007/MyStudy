@@ -1,4 +1,4 @@
-```
+// ```
 typedef char Element;
 int* computePrefix(Element* s, int sSize) {
     int* res = malloc(sizeof(int) * sSize);
@@ -36,5 +36,5 @@ int repeatedStringMatch(char * A, char * B){
     else {
         return i / aLen + 1;
     }
-```
+// ```
 

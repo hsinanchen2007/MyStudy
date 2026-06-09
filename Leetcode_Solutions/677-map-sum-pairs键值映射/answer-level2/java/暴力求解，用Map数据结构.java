@@ -1,4 +1,4 @@
-```
+// ```
 class MapSum {
 
     Map<String, Integer> map = new HashMap<>();
@@ -25,4 +25,4 @@ class MapSum {
         return sum;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var gcdOfStrings = function(str1, str2) {
   let n1 = str1.length, n2 = str2.length
   if(n1 === n2) {
@@ -20,4 +20,4 @@ var gcdOfStrings = function(str1, str2) {
   }
 };
 
-```
+// ```

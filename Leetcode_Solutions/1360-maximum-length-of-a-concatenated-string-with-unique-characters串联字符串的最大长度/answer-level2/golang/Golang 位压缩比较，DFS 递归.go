@@ -1,38 +1,38 @@
-### 解题思路
+// ### 解题思路
 
-*   runtime 0ms
-*   ram 2MB
-*   beats 100% go submits
+// *   runtime 0ms
+// *   ram 2MB
+// *   beats 100% go submits
   
-采用了以下两个大佬的思路，使得性能得到显著提高。
+// 采用了以下两个大佬的思路，使得性能得到显著提高。
 
-感谢 ❤ [花花酱的详细视频讲解](https://zxi.mytechroad.com/blog/searching/leetcode-1239-maximum-length-of-a-concatenated-string-with-unique-characters/)
+// 感谢 ❤ [花花酱的详细视频讲解](https://zxi.mytechroad.com/blog/searching/leetcode-1239-maximum-length-of-a-concatenated-string-with-unique-characters/)
 
 
-感谢 ❤ [小小算法的答案解析](https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/solution/jian-ji-de-chui-su-yi-dong-by-huwt/)
+// 感谢 ❤ [小小算法的答案解析](https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/solution/jian-ji-de-chui-su-yi-dong-by-huwt/)
 
-因为这两位大佬的算法都是C++写的，我这里在题目的基础上写一个 `Go`的解答。思路和两位大佬提出的答案是一样的。***侵删！***
+// 因为这两位大佬的算法都是C++写的，我这里在题目的基础上写一个 `Go`的解答。思路和两位大佬提出的答案是一样的。***侵删！***
 
-#### 位压缩的思路
+// #### 位压缩的思路
 
-采用位压缩来*查重复*是一种非常快速的计算方法，无需使用map或者其他复杂的数据结构。这里粗鄙的说明一下位压缩。
+// 采用位压缩来*查重复*是一种非常快速的计算方法，无需使用map或者其他复杂的数据结构。这里粗鄙的说明一下位压缩。
 
-    因为这道题的字符全是小写英文字符，所以用一个int来做bit mask。
+//     因为这道题的字符全是小写英文字符，所以用一个int来做bit mask。
 
-我们可以把一个 `bit mask`看成一个数组，`mask[i]`为`0`表示第`[i]`个位置还没出现，如果为`1`则表示出现了重复。由于全小写字母，所以只需要一个长度为26的mask。在`Go`里面，如果没有特别指出，`int`是64bit。这足够我们当`bit mask`了。
+// 我们可以把一个 `bit mask`看成一个数组，`mask[i]`为`0`表示第`[i]`个位置还没出现，如果为`1`则表示出现了重复。由于全小写字母，所以只需要一个长度为26的mask。在`Go`里面，如果没有特别指出，`int`是64bit。这足够我们当`bit mask`了。
 
-我们设 `'a'` 字符对应 `mask[0]`, 这样对于其他小写字符`x`, `x-a`就是这个字符相对的位置。
+// 我们设 `'a'` 字符对应 `mask[0]`, 这样对于其他小写字符`x`, `x-a`就是这个字符相对的位置。
     
-例如(以一个byte为例）：
+// 例如(以一个byte为例）：
 
-    `abc`  对应     `1110 0000`
-    `dbc`  对应     `0111 0000`
-    `def`  对应     `000d 1100`
-    对这两个字符执行 & 操作，如果答案不为0，则说明他们之间有重复。
+//     `abc`  对应     `1110 0000`
+//     `dbc`  对应     `0111 0000`
+//     `def`  对应     `000d 1100`
+//     对这两个字符执行 & 操作，如果答案不为0，则说明他们之间有重复。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxLength(arr []string) int {
 	mask := 0
 	return dfs(arr, 0, mask)
@@ -93,9 +93,9 @@ func dfs(arr []string, childIndex int, mask int) int {
     // 如果这个字符串重复，我们跳过塔，继续递归搜索
 	return dfs(arr, childIndex+1, mask)
 }
-```
+// ```
 
-小结：
+// 小结：
 
-*   Go 里面string literal 是utf-8
-*   位比较是查询有限字符重复的快速方法
+// *   Go 里面string literal 是utf-8
+// *   位比较是查询有限字符重复的快速方法

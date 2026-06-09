@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/327a5d04a8f6dd4a7a80ce33f1dbbb3992cdbe552271e92d379f68192caf71e2-image.png)
-基本思路就是排列组合吧，用php写出了大概，但是感觉在循环的时候出现了点问题，最后出来的组合会有问题(比如‘234’的时候会把23、24的组合也列出来)，所以最后加上了一个长度的判断来重新整合,等有空了想想是哪里出了问题然后再优化一下，内存消耗也需要优化一下
+// ![image.png](https://pic.leetcode-cn.com/327a5d04a8f6dd4a7a80ce33f1dbbb3992cdbe552271e92d379f68192caf71e2-image.png)
+// 基本思路就是排列组合吧，用php写出了大概，但是感觉在循环的时候出现了点问题，最后出来的组合会有问题(比如‘234’的时候会把23、24的组合也列出来)，所以最后加上了一个长度的判断来重新整合,等有空了想想是哪里出了问题然后再优化一下，内存消耗也需要优化一下
 
-```
+// ```
 $number = array(
             1=>null,
             2=>array('a','b','c'),
@@ -42,4 +42,4 @@ $number = array(
         }
         $result = array_values($result);
         return $result;
-```
+// ```

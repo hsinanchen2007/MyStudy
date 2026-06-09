@@ -1,10 +1,10 @@
-### 解题思路
-深度优先
-类似于递归的反向思维
+// ### 解题思路
+// 深度优先
+// 类似于递归的反向思维
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	int m, n, k;
     public int movingCount(int m, int n, int k) {
@@ -31,4 +31,4 @@ class Solution {
     	return sum;
     }
 }
-```
+// ```

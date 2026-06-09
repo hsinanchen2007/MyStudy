@@ -1,4 +1,4 @@
-**sum用来记录连续递增的长度，递增中断时与max比较后重置sum**
+// **sum用来记录连续递增的长度，递增中断时与max比较后重置sum**
 int findLengthOfLCIS(int* nums, int numsSize)
 {
     if (numsSize == 0)

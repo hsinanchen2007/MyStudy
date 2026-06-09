@@ -1,6 +1,6 @@
-执行用时 :148 ms, 在所有 csharp 提交中击败了100.00%的用户
-内存消耗 :29.9 MB, 在所有 csharp 提交中击败了6.67%的用户
-```
+// 执行用时 :148 ms, 在所有 csharp 提交中击败了100.00%的用户
+// 内存消耗 :29.9 MB, 在所有 csharp 提交中击败了6.67%的用户
+// ```
 public class Solution {
     public int FindContentChildren(int[] g, int[] s) {
         Array.Sort(g);//排序
@@ -25,4 +25,4 @@ public class Solution {
         return total;
     }
 }
-```
+// ```

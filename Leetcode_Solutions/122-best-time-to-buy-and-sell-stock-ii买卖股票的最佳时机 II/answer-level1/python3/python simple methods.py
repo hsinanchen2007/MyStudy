@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         '''
@@ -22,4 +22,4 @@ class Solution:
         for i in range(len(prices)-1):
             maxprofit += max(0,prices[i+1]-prices[i])
         return maxprofit
-```
+# ```

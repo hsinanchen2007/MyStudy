@@ -1,7 +1,7 @@
-**解题思路：**
-利用map
-**代码：**
-```
+# **解题思路：**
+# 利用map
+# **代码：**
+# ```
 class Solution(object):
     def sortedSquares(self, A):
         """
@@ -13,4 +13,4 @@ class Solution(object):
         B = map(f,A)
         B.sort()
         return B
-```
+# ```

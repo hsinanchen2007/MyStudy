@@ -1,4 +1,4 @@
-```
+# ```
 '''
         cost, profit = float("+inf"),0
         for price in prices:
@@ -15,4 +15,4 @@
             temp = max(0,diff[i]+temp)
             max_profit = max(max_profit,temp)
         return max_profit
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-太坑了
+-- ### 解题思路
+-- 太坑了
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select
@@ -20,4 +20,4 @@ order by
     tmp.cnt desc, d.dept_name
 
 
-```
+-- ```

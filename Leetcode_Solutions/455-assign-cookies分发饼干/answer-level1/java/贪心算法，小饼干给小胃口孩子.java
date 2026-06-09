@@ -1,7 +1,7 @@
-先排序
-使用两层循环，外层为孩子，内层为饼干
+// 先排序
+// 使用两层循环，外层为孩子，内层为饼干
 
-```
+// ```
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
         Arrays.sort(g);
@@ -27,4 +27,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

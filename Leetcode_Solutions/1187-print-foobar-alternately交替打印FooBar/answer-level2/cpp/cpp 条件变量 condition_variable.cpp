@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class FooBar {
 private:
     int n;
@@ -42,4 +42,4 @@ private:
     std::condition_variable v2;//bar条件变量对象
     std::mutex Mu;//定义一个锁
 };
-```
+// ```

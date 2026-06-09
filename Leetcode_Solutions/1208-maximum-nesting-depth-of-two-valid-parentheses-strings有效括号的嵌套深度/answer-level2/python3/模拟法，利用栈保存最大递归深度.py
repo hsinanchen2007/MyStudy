@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-模拟法，先找到所有的最大递归深度，然后再模拟
+# 模拟法，先找到所有的最大递归深度，然后再模拟
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDepthAfterSplit(self, seq: str) -> List[int]:
         s = []
@@ -42,4 +42,4 @@ class Solution:
                     res.append(0)
                 s.pop()
         return res
-```
+# ```

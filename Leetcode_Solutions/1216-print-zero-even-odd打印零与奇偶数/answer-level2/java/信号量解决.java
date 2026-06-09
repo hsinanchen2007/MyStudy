@@ -1,12 +1,12 @@
-### 解题思路
-通过三个信号量来控制
-zero方法中的for表示要输出的0个次数，同时用来控制要唤醒偶数还是奇数方法
-even方法用来输出偶数同时唤醒zero方法
-odd方法用来输出奇数同时唤醒zero方法
+// ### 解题思路
+// 通过三个信号量来控制
+// zero方法中的for表示要输出的0个次数，同时用来控制要唤醒偶数还是奇数方法
+// even方法用来输出偶数同时唤醒zero方法
+// odd方法用来输出奇数同时唤醒zero方法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.concurrent.Semaphore;
 import java.util.function.IntConsumer;
 

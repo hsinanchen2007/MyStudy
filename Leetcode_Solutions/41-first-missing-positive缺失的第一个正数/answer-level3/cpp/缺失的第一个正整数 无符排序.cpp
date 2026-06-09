@@ -1,8 +1,8 @@
-无符号排序，然后依次查找最小无符正整数。
-其实也可以考虑改为有符号排序。
+// 无符号排序，然后依次查找最小无符正整数。
+// 其实也可以考虑改为有符号排序。
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int firstMissingPositive(vector<int> &nums)
@@ -23,4 +23,4 @@ public:
         return min;
     }
 };
-```
+// ```

@@ -1,14 +1,14 @@
-![1.png](https://pic.leetcode-cn.com/449de38730ae96fd3e19e021092bd8edf43e291d2e6948cc9d0f04bb7d61b81e-1.png)
+// ![1.png](https://pic.leetcode-cn.com/449de38730ae96fd3e19e021092bd8edf43e291d2e6948cc9d0f04bb7d61b81e-1.png)
 
 
-### 解题思路
-1、设置flag=0为不接水状态，=1为接水状态；
-2、flag=0，height[i+1]>=height[i]时，直接跳过；
-3、height[i+1]<height[i]时，如果存在height[i+1]右侧仍然有大于height[i]，直接开始计数；如果没有，取右侧的最大值
+// ### 解题思路
+// 1、设置flag=0为不接水状态，=1为接水状态；
+// 2、flag=0，height[i+1]>=height[i]时，直接跳过；
+// 3、height[i+1]<height[i]时，如果存在height[i+1]右侧仍然有大于height[i]，直接开始计数；如果没有，取右侧的最大值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
 	if (heightSize < 3)
 		return 0;
@@ -46,4 +46,4 @@ int trap(int* height, int heightSize){
 	}
 	return res;
 }
-```
+// ```

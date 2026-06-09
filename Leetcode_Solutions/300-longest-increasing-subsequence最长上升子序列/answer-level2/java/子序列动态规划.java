@@ -1,9 +1,9 @@
-### 解题思路
-分析题目 动态规划
+// ### 解题思路
+// 分析题目 动态规划
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         if(nums == null || nums.length == 0) return 0;
@@ -33,4 +33,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

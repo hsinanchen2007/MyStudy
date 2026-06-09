@@ -1,9 +1,9 @@
-### 解题思路
-    前一题解为c的uthash，还是java的map好用。
+// ### 解题思路
+//     前一题解为c的uthash，还是java的map好用。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subarraySum(int[] nums, int k) {
         if (nums.length <= 0) {
@@ -22,4 +22,4 @@ class Solution {
         return cnt;
     }
 }
-```
+// ```

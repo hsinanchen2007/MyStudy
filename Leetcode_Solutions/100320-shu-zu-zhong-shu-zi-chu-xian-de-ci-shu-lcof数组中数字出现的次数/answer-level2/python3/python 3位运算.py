@@ -1,9 +1,9 @@
-### 解题思路
-位运算
+# ### 解题思路
+# 位运算
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def singleNumbers(self, nums: List[int]) -> List[int]:
         #一个数和0异或是其本身，和本身异或为0
@@ -26,4 +26,4 @@ class Solution:
 
 
 
-```
+# ```

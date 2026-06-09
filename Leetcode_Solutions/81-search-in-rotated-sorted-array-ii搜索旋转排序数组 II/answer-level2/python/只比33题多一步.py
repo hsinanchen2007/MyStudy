@@ -1,5 +1,5 @@
-其实也就只比第33题多一个步骤就可以了，就是验证左右节点是否相等，若相等，则左指针往右移一步即可。还有一点小区别就是`nums[mid] >= nums[left]`，要加上等于号，注意下这点即可。
-```python []
+# 其实也就只比第33题多一个步骤就可以了，就是验证左右节点是否相等，若相等，则左指针往右移一步即可。还有一点小区别就是`nums[mid] >= nums[left]`，要加上等于号，注意下这点即可。
+# ```python []
 class Solution(object):
     def search(self, nums, target):
         """
@@ -31,4 +31,4 @@ class Solution(object):
                 left += 1
 
         return False
-```
+# ```

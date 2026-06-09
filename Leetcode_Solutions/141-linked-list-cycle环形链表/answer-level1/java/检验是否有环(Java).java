@@ -1,4 +1,4 @@
-```
+// ```
 public boolean hasCycle(ListNode head) {
         boolean flag=false;
         ListNode slow=head;
@@ -21,7 +21,7 @@ public boolean hasCycle(ListNode head) {
         }
         return flag;
         }
-```
+// ```
 
 
-![TIM截图20191116115033.png](https://pic.leetcode-cn.com/baea8895816686ac7022495809726d40d3f4035f631b6a2e441ba1412a00115f-TIM%E6%88%AA%E5%9B%BE20191116115033.png)
+// ![TIM截图20191116115033.png](https://pic.leetcode-cn.com/baea8895816686ac7022495809726d40d3f4035f631b6a2e441ba1412a00115f-TIM%E6%88%AA%E5%9B%BE20191116115033.png)

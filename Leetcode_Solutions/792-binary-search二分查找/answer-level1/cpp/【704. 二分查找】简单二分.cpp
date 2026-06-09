@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -21,4 +21,4 @@ public:
         return -1;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-与题112，题113求路径总和问题思路差不多
+// 与题112，题113求路径总和问题思路差不多
 
-```
+// ```
 class Solution {
     private int ans = 0;
     private int sum = 0;
@@ -27,4 +27,4 @@ class Solution {
         sum = sum / 10;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 import scala.collection.mutable
 object Solution {
     def uniqueMorseRepresentations(words: Array[String]): Int = {
@@ -20,4 +20,4 @@ object Solution {
         set.size
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-中序遍历压栈，弹栈过程中更新累加和
+// 中序遍历压栈，弹栈过程中更新累加和
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     stack<TreeNode *> st;
@@ -30,4 +30,4 @@ public:
         InOrder(root->right);
     }
 };
-```
+// ```

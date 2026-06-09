@@ -1,11 +1,11 @@
-### 解题思路
-如果是递归解法，可以这么理解removeDuplicateNodes(head)函数，如果head.val已经重复了那就去掉了head节点，处理head.next节点。
-如果head没有重复，那就head.next = removeDuplicateNodes(head.next)。很好理解。非递归代码就是讲重复的值跳过去。
+// ### 解题思路
+// 如果是递归解法，可以这么理解removeDuplicateNodes(head)函数，如果head.val已经重复了那就去掉了head节点，处理head.next节点。
+// 如果head没有重复，那就head.next = removeDuplicateNodes(head.next)。很好理解。非递归代码就是讲重复的值跳过去。
 
-### 代码
-递归解法
+// ### 代码
+// 递归解法
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,9 +29,9 @@ class Solution {
         }
     }
 }
-```
-非递归解法
-```java
+// ```
+// 非递归解法
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -64,4 +64,4 @@ class Solution {
        return head;
     }
 }
-```
+// ```

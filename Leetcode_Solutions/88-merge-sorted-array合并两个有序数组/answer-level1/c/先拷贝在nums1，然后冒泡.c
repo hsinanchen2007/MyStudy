@@ -1,9 +1,9 @@
-### 解题思路
-先将nums2的元素拷贝到nums1后面，这样就变成我们熟知的排序。由于数组内元素部分是有序的，推荐使用冒泡排序，运行时间会少一点。
+// ### 解题思路
+// 先将nums2的元素拷贝到nums1后面，这样就变成我们熟知的排序。由于数组内元素部分是有序的，推荐使用冒泡排序，运行时间会少一点。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     for(int i=0,j=m;i<n;i++,j++){
         nums1[j]=nums2[i];
@@ -18,4 +18,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
         }
     }
 }
-```
+// ```

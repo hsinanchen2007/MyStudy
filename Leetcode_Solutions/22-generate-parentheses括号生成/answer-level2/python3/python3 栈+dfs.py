@@ -1,10 +1,10 @@
-### 解题思路
-括号匹配的问题可以用栈来解决
-对于这种策略问题，可以用强化学习......啊复习晕了，可以用dfs来搜索可以实现的策略
+# ### 解题思路
+# 括号匹配的问题可以用栈来解决
+# 对于这种策略问题，可以用强化学习......啊复习晕了，可以用dfs来搜索可以实现的策略
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         #栈+dfs试试
@@ -27,4 +27,4 @@ class Solution:
         dfs(n,n,[],str_ = '')
         return res
             
-```
+# ```

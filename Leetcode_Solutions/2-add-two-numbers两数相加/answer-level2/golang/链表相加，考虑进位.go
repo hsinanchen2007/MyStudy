@@ -1,10 +1,10 @@
-### 解题思路
-两个链表依次相加，保留进位，相加直至任何一个链表为空且进位为0
-可以复用输入的节点，避免不必要的内存分配
+// ### 解题思路
+// 两个链表依次相加，保留进位，相加直至任何一个链表为空且进位为0
+// 可以复用输入的节点，避免不必要的内存分配
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -79,4 +79,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	return headNode
 }
 
-```
+// ```

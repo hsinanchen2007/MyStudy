@@ -1,13 +1,13 @@
-### 解题思路
-平衡树乱搞
+// ### 解题思路
+// 平衡树乱搞
 
-二叉查找树查找第K大树的单次操作时间复杂度是O(树高)，使用平衡树可以保证单次O(logn)。在节点的value里加一个时间戳以保证每个节点的值都不同。
+// 二叉查找树查找第K大树的单次操作时间复杂度是O(树高)，使用平衡树可以保证单次O(logn)。在节点的value里加一个时间戳以保证每个节点的值都不同。
 
-（正解是大小堆？果然上AVL还是有些大材小用了……）
+// （正解是大小堆？果然上AVL还是有些大材小用了……）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct AVLNode{
     int value, id, height, size;
     AVLNode *left, *right, *parent;
@@ -249,4 +249,4 @@ public:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
-```
+// ```

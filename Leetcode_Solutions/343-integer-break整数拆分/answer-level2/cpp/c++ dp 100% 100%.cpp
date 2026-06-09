@@ -1,11 +1,11 @@
-### 解题思路
-dp[i]代表i拆分成两个以上个数的最大乘积
+// ### 解题思路
+// dp[i]代表i拆分成两个以上个数的最大乘积
 
-dp[i]=max(dp[i],max((i-j)*j,j*dp[i-j])),其中 1=<j<i
+// dp[i]=max(dp[i],max((i-j)*j,j*dp[i-j])),其中 1=<j<i
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int integerBreak(int n) {
@@ -17,4 +17,4 @@ public:
     return dp[n];
     }
 };
-```
+// ```

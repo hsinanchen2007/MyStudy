@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def rob(self, root):
         def work(roo):
@@ -9,4 +9,4 @@ class Solution(object):
             return max(roo.val + r2 +l2,l1+r1), l1+r1
         ans, ans_next =  work(root)
         return ans
-```
+# ```

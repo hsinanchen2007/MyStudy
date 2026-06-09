@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string longestPalindrome(string &s) {
@@ -15,8 +15,8 @@ public:
         return s.substr(begin,end-begin+1);
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     string longestPalindrome(string &s) {
@@ -30,8 +30,8 @@ public:
         return s.substr(begin,end-begin+1);
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     string longestPalindrome(string &s) {
@@ -55,6 +55,6 @@ public:
         return s.substr((center-r)/2,r-1);
     }
 };
-```
+// ```
 
 

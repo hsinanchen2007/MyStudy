@@ -1,13 +1,13 @@
-### 思路
+# ### 思路
 
-**暴力**
+# **暴力**
 
-**时间复杂度:** O(n^2)
-**空间复杂度:** O(1)
+# **时间复杂度:** O(n^2)
+# **空间复杂度:** O(1)
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 from typing import List
 
 class Solution:
@@ -27,8 +27,8 @@ class Solution:
 
         # solution two: 一行代码
         return sum(all(abs(a1 - a2) > d for a2 in arr2) for a1 in arr1)
-```
+# ```
 
-### GitHub链接
+# ### GitHub链接
 
-[Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1385-Find-the-Distance-Value-Between-Two-Arrays/1385.py)
+# [Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1385-Find-the-Distance-Value-Between-Two-Arrays/1385.py)

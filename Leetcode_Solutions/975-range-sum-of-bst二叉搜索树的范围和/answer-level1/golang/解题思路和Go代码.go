@@ -1,12 +1,12 @@
-### 解题思路
-遍历二叉搜索树，求出所有节点在[L,R]之间的值
-优化：
-1、当前节点值小于L，说明该节点的左子树，会在[L,R]的左边，则不进行遍历该节点的左子树
-2、当前节点值大于R，说明该节点的右子树，会在[L,R]的右边，则不进行遍历该节点的右子树
+// ### 解题思路
+// 遍历二叉搜索树，求出所有节点在[L,R]之间的值
+// 优化：
+// 1、当前节点值小于L，说明该节点的左子树，会在[L,R]的左边，则不进行遍历该节点的左子树
+// 2、当前节点值大于R，说明该节点的右子树，会在[L,R]的右边，则不进行遍历该节点的右子树
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -27,4 +27,4 @@ func rangeSumBST(root *TreeNode, L int, R int) int {
     }
     return root.Val + rangeSumBST(root.Right, L, R) + rangeSumBST(root.Left, L, R)
 }
-```
+// ```

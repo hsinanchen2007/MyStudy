@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int lastRemaining(int n, int m) {
@@ -7,5 +7,5 @@ public:
     return (lastRemaining(n-1, m) + m)%n;
     }
 };
-```
+// ```
 

@@ -1,5 +1,5 @@
-![Annotation 2019-11-24 165155.jpg](https://pic.leetcode-cn.com/0bf90db70e9f32fa0aa1864b5c0d48766081044e57af68e70ff43e5ef4009e74-Annotation%202019-11-24%20165155.jpg)
-```
+// ![Annotation 2019-11-24 165155.jpg](https://pic.leetcode-cn.com/0bf90db70e9f32fa0aa1864b5c0d48766081044e57af68e70ff43e5ef4009e74-Annotation%202019-11-24%20165155.jpg)
+// ```
 var permuteUnique = function(nums) {
     nums.sort((a,b)=>a-b)
     console.log(nums)
@@ -35,5 +35,5 @@ function callBack(nums,temp,result,used,depth){
     }
 }
 
-```
+// ```
 

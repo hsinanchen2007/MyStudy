@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -22,4 +22,4 @@ void deleteNode( struct ListNode * node ) {
     form -> next = NULL;
     
 }
-```
+// ```

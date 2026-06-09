@@ -1,12 +1,12 @@
-### 解题思路
-1. 先判断是否能够排列成回文，否则返回空；
-2. 根据上一步统计出来的字符数量，如果有奇数个的字符，则要保存一下，后面放到字符串中央位置；
-3. 偶数个的字符取一半放在临时string中；
-4. 再使用 [47.全排列 II] 的算法稍加改造。
+// ### 解题思路
+// 1. 先判断是否能够排列成回文，否则返回空；
+// 2. 根据上一步统计出来的字符数量，如果有奇数个的字符，则要保存一下，后面放到字符串中央位置；
+// 3. 偶数个的字符取一半放在临时string中；
+// 4. 再使用 [47.全排列 II] 的算法稍加改造。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPermutePalindrome(string s, map<char, int>& m) {
@@ -80,6 +80,6 @@ public:
         return permuteUnique(half, ch);  // 使用 [47.全排列 II] 的算法改造成
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/3603464eab3735d227bdec546a750174fc7487aa1219e280268da24ce93da58a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3603464eab3735d227bdec546a750174fc7487aa1219e280268da24ce93da58a-image.png)

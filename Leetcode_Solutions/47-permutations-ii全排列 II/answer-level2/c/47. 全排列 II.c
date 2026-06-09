@@ -1,9 +1,9 @@
-### 解题思路
-排序去重！
+// ### 解题思路
+// 排序去重！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -77,4 +77,4 @@ void Dfs(int* nums, int numsSize, int* returnSize, int** returnColumnSizes, int*
         }
     }
 }
-```
+// ```

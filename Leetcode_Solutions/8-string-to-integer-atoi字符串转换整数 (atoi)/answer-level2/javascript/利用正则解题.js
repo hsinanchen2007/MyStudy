@@ -1,4 +1,4 @@
-```
+// ```
 var myAtoi = function(str) {
     //利用正则
     let result = str.trim().match(/^[-|+]{0,1}[0-9]+/)
@@ -15,4 +15,4 @@ var myAtoi = function(str) {
     
     return 0
 };
-```
+// ```

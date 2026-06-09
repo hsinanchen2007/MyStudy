@@ -1,10 +1,10 @@
-### 解题思路
-1. 状态表示 dp[i] 第i个位置的最长上升子序列
-2. 状态递归 dp[i]=1+max(dp[j] j<i and nums[j]<nums[i]>>)
-3. 求最大
-### 代码
+// ### 解题思路
+// 1. 状态表示 dp[i] 第i个位置的最长上升子序列
+// 2. 状态递归 dp[i]=1+max(dp[j] j<i and nums[j]<nums[i]>>)
+// 3. 求最大
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -35,4 +35,4 @@ public:
         return res; 
     }
 };
-```
+// ```

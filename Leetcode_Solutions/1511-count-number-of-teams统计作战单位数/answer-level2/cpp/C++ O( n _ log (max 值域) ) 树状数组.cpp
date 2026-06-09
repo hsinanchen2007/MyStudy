@@ -1,4 +1,4 @@
-```
+// ```
     int tr[100010],great[210],low[210];//tr为树状数组 每个数左边大于该点的个数 小于该点的个数
     int Max;
     int lowbit(int x){
@@ -32,4 +32,4 @@
         }
         return res1 + res2;
     }
-```
+// ```

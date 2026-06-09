@@ -1,4 +1,4 @@
-```
+// ```
 class MapSum {
 
     // 创建字典树节点类
@@ -67,4 +67,4 @@ class MapSum {
  * obj.insert(key,val);
  * int param_2 = obj.sum(prefix);
  */
-```
+// ```

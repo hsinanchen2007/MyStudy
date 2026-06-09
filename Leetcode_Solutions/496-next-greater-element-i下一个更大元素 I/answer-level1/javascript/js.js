@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/2fe545605b4b148a1cbc6c0da79deb20781fede94b9b7d8475bef475b7bd788b-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/2fe545605b4b148a1cbc6c0da79deb20781fede94b9b7d8475bef475b7bd788b-image.png)
+// ```
 // 基于基数排序
 var nextGreaterElement = function(arr1, arr2) {
     if (!arr1.length)
@@ -51,4 +51,4 @@ let nextGreaterElement2  = function(arr1, arr2) {
     })
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minAddToMakeValid(string S) {
@@ -13,5 +13,5 @@ public:
         return stringstack.size();
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/2d9c168ee5538c1352047c4c45136942fcb8bf02350b0a403c6d961b396e5fcf-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/2d9c168ee5538c1352047c4c45136942fcb8bf02350b0a403c6d961b396e5fcf-image.png)

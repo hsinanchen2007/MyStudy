@@ -1,4 +1,4 @@
-```
+// ```
 func arrayRankTransform(arr []int) []int {
     lenth := len(arr)
     var res = make([]int, lenth)
@@ -27,4 +27,4 @@ func arrayRankTransform(arr []int) []int {
 	}
 	return res1
 }
-```
+// ```

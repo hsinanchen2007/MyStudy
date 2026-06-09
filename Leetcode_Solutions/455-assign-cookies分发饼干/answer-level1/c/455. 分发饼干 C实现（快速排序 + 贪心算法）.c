@@ -1,9 +1,9 @@
-### 解题思路
-    快速排序，依次喂饼干，每次都在损失最小的情况下喂饱小孩子。
+// ### 解题思路
+//     快速排序，依次喂饼干，每次都在损失最小的情况下喂饱小孩子。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Cmp(const void* a, const void* b)
 {
     return *(int*)a -*(int*)b;
@@ -33,4 +33,4 @@ int findContentChildren(int* g, int gSize, int* s, int sSize)
     }
     return ret;
 }
-```
+// ```

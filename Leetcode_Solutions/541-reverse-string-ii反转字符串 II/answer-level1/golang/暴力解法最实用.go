@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseStr(s string, k int) string {
 	n:= len(s)/(2*k)
 	m:= len(s)%(2*k)
@@ -35,4 +35,4 @@ func reverseStr(s string, k int) string {
 	return string(resSlice)
 }
 
-```
+// ```

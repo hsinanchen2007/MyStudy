@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/44c468b8ce9e8caaeb231e0c119351e3f3ebeadf26bcd9d9627c45cafe90cf97-image.png)
+// ![image.png](https://pic.leetcode-cn.com/44c468b8ce9e8caaeb231e0c119351e3f3ebeadf26bcd9d9627c45cafe90cf97-image.png)
 
-```
+// ```
 
 char res[27];
 char *smallestSubsequence(char *text)
@@ -33,4 +33,4 @@ char *smallestSubsequence(char *text)
     return res;
 }
 
-```
+// ```

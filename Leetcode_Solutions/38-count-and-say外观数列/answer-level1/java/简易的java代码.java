@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n){
 		if(n == 1){
@@ -28,8 +28,8 @@ class Solution {
 		return sb.toString();
 	}
 }
-```
+// ```
 
-### 性能表现
+// ### 性能表现
 
-![1.png](https://pic.leetcode-cn.com/ee2a7380e94205e49e4c00dccee57770660312e873323b81943725d1a74cc578-1.png)
+// ![1.png](https://pic.leetcode-cn.com/ee2a7380e94205e49e4c00dccee57770660312e873323b81943725d1a74cc578-1.png)

@@ -1,4 +1,4 @@
-```
+// ```
 func rotate(matrix [][]int)  {
 	length := len(matrix)
 	for i := 0 ; i < length / 2; i ++{
@@ -12,6 +12,6 @@ func rotate(matrix [][]int)  {
 		}
 	}
 }
-```
+// ```
 
-暴力解法，一层一层的旋转
+// 暴力解法，一层一层的旋转

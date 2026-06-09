@@ -1,10 +1,10 @@
-### 解题思路
-方法一：
-该方法比较笨，将链表中的数据存到数组中，然后再将数组中的数据逐步插入到一个新链表中。
+// ### 解题思路
+// 方法一：
+// 该方法比较笨，将链表中的数据存到数组中，然后再将数组中的数据逐步插入到一个新链表中。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -30,11 +30,11 @@ var reverseList = function(head) {
     }
     return temp.next;
 };
-```
-方法二、迭代
-创建两个个指针，分别指向前一个节点，当前节点；
-在循环过程中，创建一个节点指向下一个节点
-```
+// ```
+// 方法二、迭代
+// 创建两个个指针，分别指向前一个节点，当前节点；
+// 在循环过程中，创建一个节点指向下一个节点
+// ```
 var reverseList = function(head) {
     if(head==null){
         return null;
@@ -49,11 +49,11 @@ var reverseList = function(head) {
     }
     return prev;
 };
-```
-方法三、递归
-![屏幕快照 2020-03-02 上午11.51.48.png](https://pic.leetcode-cn.com/2afdde61265dc7d1598464bad5e4902fcc0d4af045e4fd8fe2441f427568554b-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-02%20%E4%B8%8A%E5%8D%8811.51.48.png)
+// ```
+// 方法三、递归
+// ![屏幕快照 2020-03-02 上午11.51.48.png](https://pic.leetcode-cn.com/2afdde61265dc7d1598464bad5e4902fcc0d4af045e4fd8fe2441f427568554b-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-02%20%E4%B8%8A%E5%8D%8811.51.48.png)
 
-```
+// ```
 var reverseList = function(head) {
     if(!head || !head.next) {
         return head;
@@ -63,5 +63,5 @@ var reverseList = function(head) {
     head.next=null;
     return p;
 };
-```
+// ```
 

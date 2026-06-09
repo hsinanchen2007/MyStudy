@@ -1,9 +1,9 @@
-### 解题思路
-贪心算法，从小的开始满足，满足一个再搞下一个
+# ### 解题思路
+# 贪心算法，从小的开始满足，满足一个再搞下一个
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findContentChildren(self, g, s):
         """
@@ -21,4 +21,4 @@ class Solution(object):
             cookie+=1
         return child
 
-```
+# ```

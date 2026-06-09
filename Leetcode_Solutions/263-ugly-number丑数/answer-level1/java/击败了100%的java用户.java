@@ -1,5 +1,5 @@
-## [更多leetcode分类题解](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
-```
+// ## [更多leetcode分类题解](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
+// ```
 public boolean isUgly(int num) {
         if(num == 0){
             return false;
@@ -23,4 +23,4 @@ public boolean isUgly(int num) {
         return true;
         
     }
-```
+// ```

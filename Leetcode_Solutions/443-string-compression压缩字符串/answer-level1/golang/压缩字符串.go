@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-借鉴他人的思路，写一个自己比较好理解的方法
+// ### 解题思路
+// 此处撰写解题思路
+// 借鉴他人的思路，写一个自己比较好理解的方法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func compress(chars []byte) int {
 
 	write :=0
@@ -47,4 +47,4 @@ func compress(chars []byte) int {
 	
 	return len(chars)
 }
-```
+// ```

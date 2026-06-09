@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func mostCommonWord(paragraph string, banned []string) string {
 	str:=strings.Split(paragraph," ")
 	m:=make(map[string]int)
@@ -58,4 +58,4 @@ func mostCommonWord(paragraph string, banned []string) string {
 	return res
 }
 
-```
+// ```

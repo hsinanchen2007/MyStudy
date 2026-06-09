@@ -1,11 +1,11 @@
-### 解题思路
-时间复杂度：对于 put 和 get 操作复杂度是 O(1)O(1)，因为有序字典中的所有操作：get/in/set/move_to_end/popitem（get/containsKey/put/remove）都可以在常数时间内完成。
-空间复杂度：O(capacity)O(capacity)，因为空间只用于有序字典存储最多 capacity + 1 个元素。
+# ### 解题思路
+# 时间复杂度：对于 put 和 get 操作复杂度是 O(1)O(1)，因为有序字典中的所有操作：get/in/set/move_to_end/popitem（get/containsKey/put/remove）都可以在常数时间内完成。
+# 空间复杂度：O(capacity)O(capacity)，因为空间只用于有序字典存储最多 capacity + 1 个元素。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import OrderedDict
 class LRUCache(OrderedDict):
 
@@ -29,4 +29,4 @@ class LRUCache(OrderedDict):
 # param_1 = obj.get(key)
 # obj.put(key,value)
 
-```
+# ```

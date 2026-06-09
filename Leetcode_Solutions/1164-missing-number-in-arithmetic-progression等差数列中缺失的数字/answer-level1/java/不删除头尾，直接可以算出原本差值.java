@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int missingNumber(int[] arr) {
         int delta = (arr[arr.length-1]-arr[0])/(arr.length);
@@ -13,4 +13,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

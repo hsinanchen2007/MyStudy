@@ -1,9 +1,9 @@
-首先根据二维数组的第一个数排序。
+// 首先根据二维数组的第一个数排序。
 
-1. 记录当前的末尾end， 遍历数组，如果interval[i][0] >= end 说明当前无重叠。另end = interval[i][1] 
-2. 如果interval[i][0] < end && intervals[i][1] < end, 说明 当前end比之前的更小（更优）
-，则剔除上一个区间（count++）， end = intervals[i][1].
-```
+// 1. 记录当前的末尾end， 遍历数组，如果interval[i][0] >= end 说明当前无重叠。另end = interval[i][1] 
+// 2. 如果interval[i][0] < end && intervals[i][1] < end, 说明 当前end比之前的更小（更优）
+// ，则剔除上一个区间（count++）， end = intervals[i][1].
+// ```
 func eraseOverlapIntervals(intervals [][]int) int {
     if len(intervals) == 0 {
 		return 0
@@ -28,4 +28,4 @@ func eraseOverlapIntervals(intervals [][]int) int {
 	}
 	return count
 }
-```
+// ```

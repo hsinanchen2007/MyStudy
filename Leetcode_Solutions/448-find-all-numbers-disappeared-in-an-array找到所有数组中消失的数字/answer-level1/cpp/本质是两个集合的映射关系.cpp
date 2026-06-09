@@ -1,9 +1,9 @@
-集合I是给定的nums，其中数字范围为1~n，有缺失数字，也有重复
-契合II是1~n，每个数字都有一个
-两个集合的元素个数相等，范围相等。
-集合I将元素作为下标互相访问，一定有缺失的几个数字无法被访问到，而其他元素必定被访问到
-另外，第287题寻找重复数字，跟此题思路类似[287](https://leetcode-cn.com/problems/find-the-duplicate-number/)
-```cpp
+// 集合I是给定的nums，其中数字范围为1~n，有缺失数字，也有重复
+// 契合II是1~n，每个数字都有一个
+// 两个集合的元素个数相等，范围相等。
+// 集合I将元素作为下标互相访问，一定有缺失的几个数字无法被访问到，而其他元素必定被访问到
+// 另外，第287题寻找重复数字，跟此题思路类似[287](https://leetcode-cn.com/problems/find-the-duplicate-number/)
+// ```cpp
 class Solution
 {
 public:
@@ -25,4 +25,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-如果相交的话，两个矩形的宽加起来后，一定是大于他们最远的点形成的矩形的宽。高也同理。
+// ### 解题思路
+// 如果相交的话，两个矩形的宽加起来后，一定是大于他们最远的点形成的矩形的宽。高也同理。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -16,4 +16,4 @@ public:
         return crossWidth < (width1 + width2) && crossHeight < (height1 + height2);
     }
 };
-```
+// ```

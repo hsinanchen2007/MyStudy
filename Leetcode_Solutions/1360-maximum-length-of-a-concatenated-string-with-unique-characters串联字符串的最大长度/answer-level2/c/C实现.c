@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/b3efcc01a8ccc81e3406e5f03c1cc3e90c83a10336299c1a6b6f3ee6efe9c3ad-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b3efcc01a8ccc81e3406e5f03c1cc3e90c83a10336299c1a6b6f3ee6efe9c3ad-image.png)
 
-```
+// ```
 #define LEN 16
 #define MAX 26
 #define MAX_NUM 450
@@ -99,13 +99,13 @@ int maxLength(char ** arr, int arrSize){
 
     return GetMax(count, LEN);
 }
-```
+// ```
 
-**DFS**
-![image.png](https://pic.leetcode-cn.com/c5adc1e487ae9f5e79e427baf94fcfa4dfba02d64cd71f14d6849cba84ccab3f-image.png)
+// **DFS**
+// ![image.png](https://pic.leetcode-cn.com/c5adc1e487ae9f5e79e427baf94fcfa4dfba02d64cd71f14d6849cba84ccab3f-image.png)
 
-DFS递归稍慢，DFS和BFS属于暴力算法，不到万不得已不要使用
-```
+// DFS递归稍慢，DFS和BFS属于暴力算法，不到万不得已不要使用
+// ```
 #define MAX 26
 
 int g_max;
@@ -153,4 +153,4 @@ int maxLength(char ** arr, int arrSize){
     g_max = 0;
     return DFS(arr, arrSize, 0, 0, NULL);
 }
-```
+// ```

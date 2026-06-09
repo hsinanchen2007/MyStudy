@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numTeams(self, rating: List[int]) -> int:
         ans = 0
@@ -22,4 +22,4 @@ class Solution:
                     if down[j] > 1:
                         ans += down[j] + 2 -3
         return ans
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-递归，并按层级奇偶分样式保存   （关注微信公众号'码农黑板报'获取更多题解）
-![image.png](https://pic.leetcode-cn.com/ecf20521d19f03192a55db21e11ce36b6c0e535a47e271c8cfafb052258afbe6-image.png)
+// ### 解题思路
+// 递归，并按层级奇偶分样式保存   （关注微信公众号'码农黑板报'获取更多题解）
+// ![image.png](https://pic.leetcode-cn.com/ecf20521d19f03192a55db21e11ce36b6c0e535a47e271c8cfafb052258afbe6-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -46,4 +46,4 @@ public:
         dfs(res, node->right, dep+1);
     }
 };
-```
+// ```

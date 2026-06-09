@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1. 字符串和单词按位编码，统计出字符个数；
-2. 逐个单词进行字符个数比较，若满足条件则累加长度。
+// ### 解题思路
+// 此处撰写解题思路
+// 1. 字符串和单词按位编码，统计出字符个数；
+// 2. 逐个单词进行字符个数比较，若满足条件则累加长度。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define CHAR_ARRAY_SIZE 26
 
 int countCharacters(char ** words, int wordsSize, char * chars)
@@ -49,4 +49,4 @@ int countCharacters(char ** words, int wordsSize, char * chars)
 
     return result;
 }
-```
+// ```

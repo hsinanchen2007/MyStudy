@@ -1,4 +1,4 @@
-```
+# ```
     def nextPermutation1(self, nums: List[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.
@@ -59,4 +59,4 @@
         # 二分交换
         for k in range((size - start) // 2):
             nums[start + k], nums[size - k - 1] = nums[size - k - 1], nums[start + k]
-```
+# ```

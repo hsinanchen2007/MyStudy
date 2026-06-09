@@ -1,9 +1,9 @@
-### 解题思路
-自己没想出来，参考的官解方法一动态规划
+// ### 解题思路
+// 自己没想出来，参考的官解方法一动态规划
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLIS(int* nums, int numsSize){
     if(numsSize==0)
     {
@@ -28,4 +28,4 @@ int lengthOfLIS(int* nums, int numsSize){
     }
     return ans;
 }
-```
+// ```

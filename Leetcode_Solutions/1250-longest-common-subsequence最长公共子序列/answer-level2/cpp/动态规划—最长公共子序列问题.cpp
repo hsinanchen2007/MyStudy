@@ -1,11 +1,11 @@
-### 解题思路
-1. text1[i]==text2[j]
-    dp[i][j]=dp[i-1][j-1]+1
-2. text1[i]!=text2[j]
-    dp[i][j]=max(dp[i-1][j],dp[i][j-1])
-### 代码
+// ### 解题思路
+// 1. text1[i]==text2[j]
+//     dp[i][j]=dp[i-1][j-1]+1
+// 2. text1[i]!=text2[j]
+//     dp[i][j]=max(dp[i-1][j],dp[i][j-1])
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
@@ -24,4 +24,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

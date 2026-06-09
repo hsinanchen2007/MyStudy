@@ -1,5 +1,5 @@
-**数学解法o(n^2)思路：以i为中心，分别统计左右两边大于、小于rating[i]的数目，最后通过相乘求和。**
-```
+// **数学解法o(n^2)思路：以i为中心，分别统计左右两边大于、小于rating[i]的数目，最后通过相乘求和。**
+// ```
 class Solution {
 public:
     int numTeams(vector<int>& rating) {
@@ -26,11 +26,11 @@ public:
         return cnt;
     }
 };
-```
+// ```
 
 
-**回溯解法o(n^3)思路：简单回溯解法**
-```
+// **回溯解法o(n^3)思路：简单回溯解法**
+// ```
 class Solution {
 public:
     int numTeams(vector<int>& rating) {
@@ -60,5 +60,5 @@ public:
         }
     }
 };
-```
+// ```
 

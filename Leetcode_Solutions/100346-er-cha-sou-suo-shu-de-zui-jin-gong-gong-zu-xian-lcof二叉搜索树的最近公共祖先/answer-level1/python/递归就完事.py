@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-代码一看就懂
+# 代码一看就懂
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
                 return self.lowestCommonAncestor(root.right,p,q)
             else:
                 return self.lowestCommonAncestor(root.left,p,q)
-```
+# ```

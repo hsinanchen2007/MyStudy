@@ -1,5 +1,5 @@
-使用前缀树将words存储，dfs遍历board。注意去重复。思路大同小异，做个记录。
-```
+// 使用前缀树将words存储，dfs遍历board。注意去重复。思路大同小异，做个记录。
+// ```
 class Solution {
     struct Trie{
         static const int SIZE = 26;
@@ -55,4 +55,4 @@ public:
         return ans;
     }
 };
-```
+// ```

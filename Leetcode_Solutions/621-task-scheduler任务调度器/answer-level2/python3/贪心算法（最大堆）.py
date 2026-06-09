@@ -1,9 +1,9 @@
-### 解题思路
-首先执行个数多的任务，当任务不够时填充！
+# ### 解题思路
+# 首先执行个数多的任务，当任务不够时填充！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from heapq import heappush, heapify, heappop
 
 class Solution:
@@ -36,4 +36,4 @@ class Solution:
                 times+=count
         return times
 
-```
+# ```

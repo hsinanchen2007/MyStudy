@@ -1,10 +1,10 @@
-### 解题思路
-* 哑巴节点，无穷大和无穷小的使用
-* 永远不变的记住前一个节点
+// ### 解题思路
+// * 哑巴节点，无穷大和无穷小的使用
+// * 永远不变的记住前一个节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -45,4 +45,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

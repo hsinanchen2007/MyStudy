@@ -1,9 +1,9 @@
-### 解题思路
-C# 改良的滑动窗口
+// ### 解题思路
+// C# 改良的滑动窗口
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool CheckInclusion(string s1, string s2) {
         if(string.IsNullOrEmpty(s1) ||
@@ -55,4 +55,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

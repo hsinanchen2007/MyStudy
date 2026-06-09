@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int subarrayBitwiseORs(int[] A) {
         
@@ -18,4 +18,4 @@ class Solution {
         return set.size();
     }
 }
-```
+// ```

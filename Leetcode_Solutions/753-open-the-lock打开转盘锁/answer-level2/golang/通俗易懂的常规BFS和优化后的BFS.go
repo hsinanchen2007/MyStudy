@@ -1,6 +1,6 @@
-这是个好问题，思路是用广度优先搜索来找到最短路径，有一些细节好好挖掘能形成编程技巧。<br>
-如果对BFS不熟，可以先参考这个题解：[[778] 在水位上升的泳池中游泳](https://leetcode-cn.com/problems/swim-in-rising-water/solution/go-xiang-xi-bfsjiang-jie-guan-fang-ti-jie-de-ben-z/)
-```text
+// 这是个好问题，思路是用广度优先搜索来找到最短路径，有一些细节好好挖掘能形成编程技巧。<br>
+// 如果对BFS不熟，可以先参考这个题解：[[778] 在水位上升的泳池中游泳](https://leetcode-cn.com/problems/swim-in-rising-water/solution/go-xiang-xi-bfsjiang-jie-guan-fang-ti-jie-de-ben-z/)
+// ```text
 解法一：常规广度优先搜索
 用一个集合存储当前访问状态列表
 从 0000 开始搜索，对于每一个状态，可以扩展到最多 8 个状态，即将每一位增加 1 或减少 1，
@@ -9,8 +9,8 @@
 注意 0000 本身有可能也在 deadends 中。
 为方便计数，可以在visited里维护到达每个状态的步数
 存储当前访问状态列表的集合可以任选，切片、list、map等都可以，对顺序没有要求
-```
-```go
+// ```
+// ```go
 func openLock(deadends []string, target string) int {
 	// 预处理，边界情况及时返回
 	const initial = "0000"
@@ -54,17 +54,17 @@ func openLock(deadends []string, target string) int {
 	}
 	return -1
 }
-```
-```text
+// ```
+// ```text
 解法二：优化后的广度优先搜索
 首先一开始可以把deadends里的状态放入visited，这样不用另开辟isDead的空间；实际测试这个优化对性能提升并不明显
 看了别的题解，有这样一个优化：
 可以分别从初始状态和目标状态向中间状态搜索，如果中间有状态相同，即完成了BFS
 实际测试发现，维持这两个搜索使用的集合大小相当，会显著优化时间花费
 注意，为了能迅速获知两个集合是不是有相同元素，这里的集合用哈希表再合适不过
-```
-参考的 [leetcode题解](https://leetcode-cn.com/problems/open-the-lock/solution/da-kai-zhuan-pan-suo-shi-xian-yu-zheng-li-by-eiger/)
-```go
+// ```
+// 参考的 [leetcode题解](https://leetcode-cn.com/problems/open-the-lock/solution/da-kai-zhuan-pan-suo-shi-xian-yu-zheng-li-by-eiger/)
+// ```go
 func openLock(deadends []string, target string) int {
 	const initial = "0000"
 	if target == initial {
@@ -114,4 +114,4 @@ func bfs(start, end, visited map[string]bool, count int) int {
 	count++
 	return bfs(nextStatus, end, visited, count)
 }
-```
+// ```

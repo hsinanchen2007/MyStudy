@@ -1,9 +1,9 @@
-### 解题思路
-感觉自己一般般，没有想到map，不过应该也算一种不用map的思路，用时24ms。看了map才发现存在判断确实很快。
+// ### 解题思路
+// 感觉自己一般般，没有想到map，不过应该也算一种不用map的思路，用时24ms。看了map才发现存在判断确实很快。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func twoSum(nums []int, target int) []int {
 
 	type Map struct {
@@ -28,4 +28,4 @@ func twoSum(nums []int, target int) []int {
 
 	return nil
 }
-```
+// ```

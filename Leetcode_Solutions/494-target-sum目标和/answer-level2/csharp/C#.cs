@@ -1,5 +1,5 @@
-方法一：数组
-```csharp
+// 方法一：数组
+// ```csharp
 public class Solution {
     public int FindTargetSumWays(int[] nums, int S)
     {
@@ -23,10 +23,10 @@ public class Solution {
         return arr[1000 + S];
     }
 }
-```
+// ```
 
-方法二：递归（会超时）
-```csharp
+// 方法二：递归（会超时）
+// ```csharp
 public class Solution {
     public int FindTargetSumWays(int[] nums, int S) {
         if(nums.Length == 0) return 0;
@@ -38,10 +38,10 @@ public class Solution {
         return p + n;
     }
 }
-```
+// ```
 
-方法二：优化递归（不超时但很慢）
-```csharp
+// 方法二：优化递归（不超时但很慢）
+// ```csharp
 public class Solution {
     public int FindTargetSumWays(int[] nums, int S)
     {
@@ -76,4 +76,4 @@ public class Solution {
         return arrSum[arr.Length];
     }
 }
-```
+// ```

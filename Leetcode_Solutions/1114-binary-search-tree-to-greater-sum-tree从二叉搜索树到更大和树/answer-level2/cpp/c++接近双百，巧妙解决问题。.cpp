@@ -1,10 +1,10 @@
-### 解题思路
-对于一个结点，他要更新的值是他的右子树加上该结点的值，并且还要加上他的父节点传来的值（他的父节点已经更新完后的值）。那么就可以递归来解决问题。对于每次递归，需要完成的就是更新该结点的值，并且更新sum的值，这个sum值是传给左子树用的。
-![image.png](https://pic.leetcode-cn.com/ec8463e9a82e27e9a86c3a32252cecc05cf40648dbcc2334d99b1a7c498c87b4-image.png)
+// ### 解题思路
+// 对于一个结点，他要更新的值是他的右子树加上该结点的值，并且还要加上他的父节点传来的值（他的父节点已经更新完后的值）。那么就可以递归来解决问题。对于每次递归，需要完成的就是更新该结点的值，并且更新sum的值，这个sum值是传给左子树用的。
+// ![image.png](https://pic.leetcode-cn.com/ec8463e9a82e27e9a86c3a32252cecc05cf40648dbcc2334d99b1a7c498c87b4-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ public:
         return p;
     }
 };
-```
+// ```

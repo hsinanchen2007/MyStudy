@@ -1,9 +1,9 @@
-### 解题思路
-自己写的小型图库工具类，还在完善中
+// ### 解题思路
+// 自己写的小型图库工具类，还在完善中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
@@ -290,4 +290,4 @@ class Solution {
         return g1.isBinaryGraph();
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-计算三角形面积的方法，可以转化成已知三角形三边a, b, c 使用海伦公式求解
+// 计算三角形面积的方法，可以转化成已知三角形三边a, b, c 使用海伦公式求解
 
-虽然方法绕一点，但也顺便学习了一种求三角形面积的方法。
+// 虽然方法绕一点，但也顺便学习了一种求三角形面积的方法。
 
 
-![Screenshot from 2019-06-15 08-34-06.png](https://pic.leetcode-cn.com/8e9e1504e47c132e3ca136d00efb321e37eeef50c675c44e202d601433c21365-Screenshot%20from%202019-06-15%2008-34-06.png)
+// ![Screenshot from 2019-06-15 08-34-06.png](https://pic.leetcode-cn.com/8e9e1504e47c132e3ca136d00efb321e37eeef50c675c44e202d601433c21365-Screenshot%20from%202019-06-15%2008-34-06.png)
 
-```
+// ```
 inline double getLength(int *point1, int *point2)
 {
     return sqrt((point1[0]-point2[0])*(point1[0]-point2[0]) + \
@@ -39,4 +39,4 @@ double largestTriangleArea(int** points, int pointsSize, int* pointsColSize){
     
     return ret;
 }
-```
+// ```

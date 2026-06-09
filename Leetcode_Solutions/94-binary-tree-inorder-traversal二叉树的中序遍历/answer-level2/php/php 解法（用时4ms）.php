@@ -1,5 +1,5 @@
-关联：二叉树的[前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/solution/php-jie-fa-by-andfly-27/)、[中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/php-jie-fa-yong-shi-4ms-by-andfly-2/)、[后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/solution/php-jie-fa-by-andfly-28/) 解法
-```
+// 关联：二叉树的[前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/solution/php-jie-fa-by-andfly-27/)、[中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/php-jie-fa-yong-shi-4ms-by-andfly-2/)、[后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/solution/php-jie-fa-by-andfly-28/) 解法
+// ```
 class Solution {
 
     /**
@@ -19,4 +19,4 @@ class Solution {
         $this->helper($root->right,$res);
     }
 }
-```
+// ```

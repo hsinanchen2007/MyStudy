@@ -1,9 +1,9 @@
-### 解题思路
-将整个矩阵展开，使用数列二分查找的方式
+# ### 解题思路
+# 将整个矩阵展开，使用数列二分查找的方式
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix:
@@ -31,4 +31,4 @@ class Solution:
         return False
 
             
-```
+# ```

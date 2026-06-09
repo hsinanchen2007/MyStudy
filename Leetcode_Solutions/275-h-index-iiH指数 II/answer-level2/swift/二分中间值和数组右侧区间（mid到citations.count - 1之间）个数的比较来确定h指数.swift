@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func hIndex(_ citations: [Int]) -> Int {
         if citations.count == 0 {
@@ -17,4 +17,4 @@ class Solution {
         return rets.last ?? 0
     }
 }
-```
+// ```

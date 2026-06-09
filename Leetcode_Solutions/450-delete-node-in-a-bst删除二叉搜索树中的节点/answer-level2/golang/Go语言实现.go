@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -55,6 +55,6 @@ func removeMin(node *TreeNode)*TreeNode{
     node.Left = removeMin(node.Left)
     return node
 }
-```
+// ```
 
-```
+// ```

@@ -1,12 +1,12 @@
 
 
-思路：从个位开始判断，如果个位能满足条件再判断十位，直到所有位满足条件
+// 思路：从个位开始判断，如果个位能满足条件再判断十位，直到所有位满足条件
 
-注意处理前导0
+// 注意处理前导0
 
 
 
-```rust
+// ```rust
 impl Solution {
     pub fn is_solvable(words: Vec<String>, result: String) -> bool {
         let mut v: Vec<Vec<usize>> = Vec::new();
@@ -74,4 +74,4 @@ impl Solution {
         dfs(0, 0, 0, &mut map, &mut vis, &v, &res)
     }
 }
-```
+// ```

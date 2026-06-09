@@ -1,7 +1,7 @@
-队列有前后两端，首先将root加入队列，第一层level = 1；
-奇数层：level%2 == 1时，从队列的前面取值，pollFirst，然后在队列后端加入左右节点，即addLast(left) addLast(right)
-偶数层：level%2 == 0时，从队列的后面取值，pollLast，然后在队列前端加入右左节点，即addFirst(right) addFirst(left)
-```
+// 队列有前后两端，首先将root加入队列，第一层level = 1；
+// 奇数层：level%2 == 1时，从队列的前面取值，pollFirst，然后在队列后端加入左右节点，即addLast(left) addLast(right)
+// 偶数层：level%2 == 0时，从队列的后面取值，pollLast，然后在队列前端加入右左节点，即addFirst(right) addFirst(left)
+// ```
 public List<List<Integer>> levelOrder3(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<>();
         if(root==null) return ans;
@@ -30,4 +30,4 @@ public List<List<Integer>> levelOrder3(TreeNode root) {
         }
         return ans;
     }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/3917d8cb8e19512d07077a2e38699c3093b22111668733b5a0d236cdaa0b8a11-image.png)
+# ![image.png](https://pic.leetcode-cn.com/3917d8cb8e19512d07077a2e38699c3093b22111668733b5a0d236cdaa0b8a11-image.png)
 
-这里提供了一种处理边界问题的思路：
-```python []
+# 这里提供了一种处理边界问题的思路：
+# ```python []
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         m, n = len(nums1), len(nums2) 
@@ -49,5 +49,5 @@ class Solution:
             # 情形三：nums[lo]是第k个数的前一个数
             else:
                 return nums2[k - lo - 2]
-```
+# ```
 

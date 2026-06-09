@@ -1,14 +1,14 @@
-### 解题思路
-关键在于后缀
-将每个word倒序插入Trie前缀树中
+// ### 解题思路
+// 关键在于后缀
+// 将每个word倒序插入Trie前缀树中
 
-明明看了官方代码，自己写的时候还是踩了很多坑。。
-用一个HashMap来存储每个(TrieNode,i),因为后续还要用TrieNode.count==0来判断是否是叶结点，然后再由i找出words[i]的长度。
+// 明明看了官方代码，自己写的时候还是踩了很多坑。。
+// 用一个HashMap来存储每个(TrieNode,i),因为后续还要用TrieNode.count==0来判断是否是叶结点，然后再由i找出words[i]的长度。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         //关键在于后缀
@@ -49,4 +49,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int searchInsert(int[] nums, int target) {
         if(nums.length<=0){
@@ -21,4 +21,4 @@ class Solution {
         return start;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] anagramMappings(int[] A, int[] B) {
         //哈希表法：用哈希表存下B数组中元素的值和它的索引
@@ -16,4 +16,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

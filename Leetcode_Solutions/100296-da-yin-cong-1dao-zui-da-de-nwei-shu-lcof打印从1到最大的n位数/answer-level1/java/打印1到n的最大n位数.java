@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] printNumbers(int n) {
         int  sum = (int)Math.pow(10,n);
@@ -9,4 +9,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

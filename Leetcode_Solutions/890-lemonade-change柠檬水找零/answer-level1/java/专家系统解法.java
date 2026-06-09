@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/d8c67749f3a55de98f6c4958922a59b938def93289ed459587915554fe10edd4-image.png)
-pkg是钱包
+// ![image.png](https://pic.leetcode-cn.com/d8c67749f3a55de98f6c4958922a59b938def93289ed459587915554fe10edd4-image.png)
+// pkg是钱包
 
-```
+// ```
 class Solution {
     public boolean lemonadeChange(int[] bills) {
         if (bills[0] != 5) {return false;}
@@ -43,4 +43,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

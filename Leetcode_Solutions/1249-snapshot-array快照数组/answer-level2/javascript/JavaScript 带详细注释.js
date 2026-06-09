@@ -1,7 +1,7 @@
-这题解题的关键是优化空间复杂度。
+// 这题解题的关键是优化空间复杂度。
 
 
-```javascript
+// ```javascript
 var SnapshotArray = function(length) {
     // map[n]表示第n个数的操作记录
     // map[n][0]第n个数最后一次的操作记录
@@ -38,4 +38,4 @@ SnapshotArray.prototype.get = function(index, snap_id) {
     }
     return ans;
 };
-```
+// ```

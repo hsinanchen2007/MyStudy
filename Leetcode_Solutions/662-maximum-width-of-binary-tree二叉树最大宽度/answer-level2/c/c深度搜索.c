@@ -1,9 +1,9 @@
-### 解题思路
-用了官方的深度搜索的思路，c要注意pos可能会超过int的最大长度。这里用了double
+// ### 解题思路
+// 用了官方的深度搜索的思路，c要注意pos可能会超过int的最大长度。这里用了double
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ int widthOfBinaryTree(struct TreeNode* root){
 }
 
 
-```
+// ```

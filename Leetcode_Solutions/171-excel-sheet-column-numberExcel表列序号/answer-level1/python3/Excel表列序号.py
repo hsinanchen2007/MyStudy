@@ -1,9 +1,9 @@
-### 解题思路
-将26进制转换成十进制数；
+# ### 解题思路
+# 将26进制转换成十进制数；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     """
     类似于将26进制转换成十进制；
@@ -17,4 +17,4 @@ class Solution:
         for i in range(len(s)):
             res = res*26 + (ord(s[i]) - ord('A') + 1)
         return res
-```
+# ```

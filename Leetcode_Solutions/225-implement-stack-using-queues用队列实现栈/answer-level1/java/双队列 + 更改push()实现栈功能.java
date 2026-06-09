@@ -1,11 +1,11 @@
-### 解题思路
-使用两个队列加更改push的方法实现栈功能。
-- inQuene用来维持出栈顺序，让inQuene一直为空，保证每次有新元素加入时可以直接进入队首。
-- outQuene用来弹出元素，在inQuene接收完新元素后，将outQuene中的元素加入inQuene中维持出栈顺序，然后再把inQuene中的元素加入outQuene保证outQuene的弹出顺序。
+// ### 解题思路
+// 使用两个队列加更改push的方法实现栈功能。
+// - inQuene用来维持出栈顺序，让inQuene一直为空，保证每次有新元素加入时可以直接进入队首。
+// - outQuene用来弹出元素，在inQuene接收完新元素后，将outQuene中的元素加入inQuene中维持出栈顺序，然后再把inQuene中的元素加入outQuene保证outQuene的弹出顺序。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
 
     private Queue<Integer> inQuene;
@@ -64,4 +64,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

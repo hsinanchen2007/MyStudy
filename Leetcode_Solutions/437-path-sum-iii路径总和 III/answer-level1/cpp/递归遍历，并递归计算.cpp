@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int pathSum(TreeNode* root, int sum) {
@@ -24,4 +24,4 @@ public:
             path(root->right, sum-root->val, target, count, flag);
     }
 };
-```
+// ```

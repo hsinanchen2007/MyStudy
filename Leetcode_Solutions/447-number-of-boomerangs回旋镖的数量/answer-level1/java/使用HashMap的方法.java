@@ -1,5 +1,5 @@
-尝试把每一个点都当做第一个点，然后计算与其它点的距离，并保存在hashMap中，若计算出的距离在hashMap中已有值，则表明之前有相同的距离，累加到count，由于可以换位，则乘以2.当前点作为第一个点结束之后，清空hashMap，继续以下一个点作为第一个点。
-```
+// 尝试把每一个点都当做第一个点，然后计算与其它点的距离，并保存在hashMap中，若计算出的距离在hashMap中已有值，则表明之前有相同的距离，累加到count，由于可以换位，则乘以2.当前点作为第一个点结束之后，清空hashMap，继续以下一个点作为第一个点。
+// ```
 class Solution {
     public int numberOfBoomerangs(int[][] points) {
         HashMap<Integer,Integer> hashMap = new HashMap<>();
@@ -18,4 +18,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

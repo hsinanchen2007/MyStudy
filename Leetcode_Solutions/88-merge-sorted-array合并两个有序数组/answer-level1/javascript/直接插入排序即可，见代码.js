@@ -1,4 +1,4 @@
-```
+// ```
 var merge = function(nums1, m, nums2, n) {
     for(let i=m;i<m+n;++i){
          let j=i;
@@ -6,4 +6,4 @@ var merge = function(nums1, m, nums2, n) {
          nums1[j] = nums2[i-m];
     }
 };
-```
+// ```

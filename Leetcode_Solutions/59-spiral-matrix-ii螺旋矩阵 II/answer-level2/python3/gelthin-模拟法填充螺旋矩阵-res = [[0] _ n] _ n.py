@@ -1,17 +1,17 @@
-### 解题思路
-类似习题 [54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)
+# ### 解题思路
+# 类似习题 [54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)
 
-#### 自己的解法是 螺旋矩阵，模拟法，每一步模拟螺旋的走法。
+# #### 自己的解法是 螺旋矩阵，模拟法，每一步模拟螺旋的走法。
 
-#### 看了一个更优秀的解答 [设定边界](https://leetcode-cn.com/problems/spiral-matrix-ii/solution/spiral-matrix-ii-mo-ni-fa-she-ding-bian-jie-qing-x/)
-避免了使用一个 marked 数组，也避免了撞墙后修改方向，速度也快了一些。
-首先设置四个边界， left, right, top, bottom = 0, n-1, 0, n-1
+# #### 看了一个更优秀的解答 [设定边界](https://leetcode-cn.com/problems/spiral-matrix-ii/solution/spiral-matrix-ii-mo-ni-fa-she-ding-bian-jie-qing-x/)
+# 避免了使用一个 marked 数组，也避免了撞墙后修改方向，速度也快了一些。
+# 首先设置四个边界， left, right, top, bottom = 0, n-1, 0, n-1
 
-控制走的时候不要越过边界，当走完一段时，就更新上面的边界值。
+# 控制走的时候不要越过边界，当走完一段时，就更新上面的边界值。
 
-自己写的代码，报了几次 BUG， 对于特例 n=1, n=2, n=3 要想清楚，还是有一点复杂。
+# 自己写的代码，报了几次 BUG， 对于特例 n=1, n=2, n=3 要想清楚，还是有一点复杂。
 
-```python3
+# ```python3
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         if n == 0:
@@ -51,19 +51,19 @@ class Solution:
                 val += 1
             left += 1 #至此，最左边一行被删去, 只需考虑 [[9]]
         return matrix
-```
+# ```
 
 
-#### 讨论 [我二维数组初始化用来 res = [[0] * n] * n 为什么就不行呢?](https://leetcode-cn.com/problems/spiral-matrix-ii/solution/spiral-matrix-ii-mo-ni-fa-she-ding-bian-jie-qing-x/309054)
-注意到 `[x]*n` 默认是做浅拷贝，
-+ 浅拷贝也是 copy, 只是只 copy 一层而已，所以 `[0]*n` 确实是 `n` 个 `0` 的副本 `[0,0,0,...,0]`, 更新互补干扰。
-+ 但是浅拷贝不会去递归复制，对于 `[[0,0]]*n`, 记 `[0,0]` 的地址为 `id`, 其实是 `[id]*n`, 得到了 `[id, id, id, ...]` 这些 `id` 指向了同一个对象 `[0,0]`, 因此会在这一个对象上面反复修改，导致出错。
+# #### 讨论 [我二维数组初始化用来 res = [[0] * n] * n 为什么就不行呢?](https://leetcode-cn.com/problems/spiral-matrix-ii/solution/spiral-matrix-ii-mo-ni-fa-she-ding-bian-jie-qing-x/309054)
+# 注意到 `[x]*n` 默认是做浅拷贝，
+# + 浅拷贝也是 copy, 只是只 copy 一层而已，所以 `[0]*n` 确实是 `n` 个 `0` 的副本 `[0,0,0,...,0]`, 更新互补干扰。
+# + 但是浅拷贝不会去递归复制，对于 `[[0,0]]*n`, 记 `[0,0]` 的地址为 `id`, 其实是 `[id]*n`, 得到了 `[id, id, id, ...]` 这些 `id` 指向了同一个对象 `[0,0]`, 因此会在这一个对象上面反复修改，导致出错。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         if n == 0:
@@ -98,4 +98,4 @@ class Solution:
                 nx, ny = x+dx[k], y+dy[k] 
             x, y = nx, ny
         return matrix
-```
+# ```

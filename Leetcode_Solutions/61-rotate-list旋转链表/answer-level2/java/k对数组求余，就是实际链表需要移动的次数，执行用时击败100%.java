@@ -1,9 +1,9 @@
-### 解题思路
-实际上不用移动k次就是得出结果，我们先遍历一次链表求出链表长度length，然后求出余数k%length,就是链表需要移动的次数。
+// ### 解题思路
+// 实际上不用移动k次就是得出结果，我们先遍历一次链表求出链表长度length，然后求出余数k%length,就是链表需要移动的次数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

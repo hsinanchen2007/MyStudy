@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-利用快排找到下标index， 使得index之前的数都比它小，当index==k时，找到最小k个数。
+# 利用快排找到下标index， 使得index之前的数都比它小，当index==k时，找到最小k个数。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         if k == 0:
@@ -33,4 +33,4 @@ class Solution:
                 left = index + 1
                 index = partition(left, right)
         return arr[:k]
-```
+# ```

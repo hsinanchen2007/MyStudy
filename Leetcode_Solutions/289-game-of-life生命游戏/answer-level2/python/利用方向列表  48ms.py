@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -50,4 +50,4 @@ class Solution:
         # 更新细胞状态
         for key,val in dic.items():
             board[key[0]][key[1]] = val
-```
+# ```

@@ -1,20 +1,20 @@
-### 解题思路
-1. 注意叶子节点的判断条件，
-```
+# ### 解题思路
+# 1. 注意叶子节点的判断条件，
+# ```
 if not node.left and not node.right and curr_sum == 0:  
     return True
-```
-2. 非叶子节点需要向下递归or append 到stact里面
+# ```
+# 2. 非叶子节点需要向下递归or append 到stact里面
 
-```
+# ```
 if node.right:
     de.append((node.right, curr_sum - node.right.val))
 if node.left:
     de.append((node.left, curr_sum - node.left.val))
-```
-### 代码
+# ```
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -57,4 +57,4 @@ class Solution:
                 de.append((node.left, curr_sum - node.left.val))
         return False
 
-```
+# ```

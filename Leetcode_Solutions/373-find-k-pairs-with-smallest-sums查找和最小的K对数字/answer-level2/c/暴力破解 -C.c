@@ -1,10 +1,10 @@
-### 解题思路
-1.列出所有素组组合
-2.对二维数组的和大小升序排序。
-3.输出数组
-### 代码
+// ### 解题思路
+// 1.列出所有素组组合
+// 2.对二维数组的和大小升序排序。
+// 3.输出数组
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -86,4 +86,4 @@ int** kSmallestPairs(int* nums1, int nums1Size, int* nums2, int nums2Size, int k
 
     return returnnum;
 }
-```
+// ```

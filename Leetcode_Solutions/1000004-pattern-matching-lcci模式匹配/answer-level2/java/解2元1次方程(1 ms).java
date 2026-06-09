@@ -1,12 +1,12 @@
-# 思路
-简单说就是统计a和b的数量，比如统计到`3`个`a`和`2`个`b`。
-然后就是解方程：`3 * str_a.length() + 2 * str_b.length() = value.length()`
-其中：`str_a`是指代表`a`的字符串，`str_b`是指代表`b`的字符串，`value`是指`patternMatching(String pattern, String value)`方法的第2个参数。
-至于怎么解呢？穷举就完事了。
-需要注意的是，str_a或str_b可以为空字符串`""`，同时题目要求：str_a不能与str_b相同。
+// # 思路
+// 简单说就是统计a和b的数量，比如统计到`3`个`a`和`2`个`b`。
+// 然后就是解方程：`3 * str_a.length() + 2 * str_b.length() = value.length()`
+// 其中：`str_a`是指代表`a`的字符串，`str_b`是指代表`b`的字符串，`value`是指`patternMatching(String pattern, String value)`方法的第2个参数。
+// 至于怎么解呢？穷举就完事了。
+// 需要注意的是，str_a或str_b可以为空字符串`""`，同时题目要求：str_a不能与str_b相同。
 
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     private char[] global_pattern, global_value;
     private int value_len;
@@ -74,4 +74,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

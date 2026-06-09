@@ -1,4 +1,4 @@
-```
+// ```
 
 #define LEN 12800
 
@@ -210,4 +210,4 @@ bool validateBinaryTreeNodes(int n, int* leftChild, int leftChildSize, int* righ
     
     return count_user(seen) == n;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-普普通通逻辑，一步一步就绪吧。
+// ### 解题思路
+// 普普通通逻辑，一步一步就绪吧。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* compressString(char* S)
 { 
     int len=strlen(S);  //开辟足够用的数组空间
@@ -71,4 +71,4 @@ char* compressString(char* S)
     else return S;
 }
 
-```
+// ```

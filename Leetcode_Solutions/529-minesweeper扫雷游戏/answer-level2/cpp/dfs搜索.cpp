@@ -1,5 +1,5 @@
-处理好递归边界，搜就完事了
-```
+// 处理好递归边界，搜就完事了
+// ```
 class Solution {
 public:
     vector<vector<char>> updateBoard(vector<vector<char>>& board, vector<int>& click) {
@@ -73,4 +73,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### Problem-solving Idea
-Change the given number to a string first, and reverse it second.
+# ### Problem-solving Idea
+# Change the given number to a string first, and reverse it second.
 
-### Code
+# ### Code
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         if x == 0:
@@ -18,4 +18,4 @@ class Solution:
                 return - int(str(-x)[::-1])
             else:
                 return 0
-```
+# ```

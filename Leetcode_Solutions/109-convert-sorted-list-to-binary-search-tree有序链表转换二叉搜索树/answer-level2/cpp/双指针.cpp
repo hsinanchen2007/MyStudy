@@ -1,10 +1,10 @@
-### 解题思路
-这道题一开始想到了双指针。但是没有规定end，pRoot->right = sortedListToBSTCore(slow->next); 右子树会一直向后取循环，所以一直无法通过。pRoot->right = sortedListToBSTCore(slow->next, end);加了end过后就行了。。
+// ### 解题思路
+// 这道题一开始想到了双指针。但是没有规定end，pRoot->right = sortedListToBSTCore(slow->next); 右子树会一直向后取循环，所以一直无法通过。pRoot->right = sortedListToBSTCore(slow->next, end);加了end过后就行了。。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,4 +43,4 @@ public:
         return pRoot;
     }
 };
-```
+// ```

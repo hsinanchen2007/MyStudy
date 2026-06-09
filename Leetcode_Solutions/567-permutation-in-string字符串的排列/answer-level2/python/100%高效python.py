@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def checkInclusion(self, s1, s2):
         """
@@ -26,4 +26,4 @@ class Solution(object):
         # 最后还有一个窗口没有判断，但是不会进入到for循环里面了
         return s2_dic == s1_dic
         
-```
+# ```

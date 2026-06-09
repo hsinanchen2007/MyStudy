@@ -1,11 +1,11 @@
-- 时间复杂度O(n),空间复杂度O(1)
-- 先计算出大写字母个数
-1. 一个字符
-2. 一个大写字母并且第一个字母大写
-3. 没有大写字母
-4. 字符串个数和大写字母个数相同
-以上4种都是为true的情况,剩下的都为false
-```PHP []
+// - 时间复杂度O(n),空间复杂度O(1)
+// - 先计算出大写字母个数
+// 1. 一个字符
+// 2. 一个大写字母并且第一个字母大写
+// 3. 没有大写字母
+// 4. 字符串个数和大写字母个数相同
+// 以上4种都是为true的情况,剩下的都为false
+// ```PHP []
 class Solution {
 
     /**
@@ -27,8 +27,8 @@ class Solution {
         return false;
     }
 }
-```
-```GO []
+// ```
+// ```GO []
 func detectCapitalUse(word string) bool {
     count := len(word)
     if count == 1 {return true}
@@ -43,4 +43,4 @@ func detectCapitalUse(word string) bool {
     if t == count {return true}
     return false
 }
-```
+// ```

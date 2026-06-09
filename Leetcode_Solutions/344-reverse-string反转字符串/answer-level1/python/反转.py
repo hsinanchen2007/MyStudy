@@ -1,10 +1,10 @@
-### 解题思路
-搞了半天才知道参数要在def里面直接改掉...
-s[::-1]就是反转了 还是简单的
+# ### 解题思路
+# 搞了半天才知道参数要在def里面直接改掉...
+# s[::-1]就是反转了 还是简单的
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverseString(self, s=["h","e","l","l","o"]):
         """
@@ -13,4 +13,4 @@ class Solution(object):
         """
         s[:] = s[::-1]
         # print()
-```
+# ```

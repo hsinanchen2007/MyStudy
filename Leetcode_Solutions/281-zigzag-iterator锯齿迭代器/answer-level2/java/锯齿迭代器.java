@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class ZigzagIterator {
 
     private List<Integer> list;
@@ -37,4 +37,4 @@ public class ZigzagIterator {
  * ZigzagIterator i = new ZigzagIterator(v1, v2);
  * while (i.hasNext()) v[f()] = i.next();
  */
-```
+// ```

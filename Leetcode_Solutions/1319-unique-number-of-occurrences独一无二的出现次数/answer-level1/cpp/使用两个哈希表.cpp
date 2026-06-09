@@ -1,9 +1,9 @@
-### 解题思路
-第一个哈希表储存每个数字的出现次数，第二个哈希表储存出现次数的出现次数，如果其值大于一，返回false
+// ### 解题思路
+// 第一个哈希表储存每个数字的出现次数，第二个哈希表储存出现次数的出现次数，如果其值大于一，返回false
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
@@ -18,4 +18,4 @@ public:
         return true;
     }
 };
-```
+// ```

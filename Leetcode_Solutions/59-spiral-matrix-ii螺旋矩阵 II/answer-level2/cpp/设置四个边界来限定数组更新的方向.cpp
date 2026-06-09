@@ -1,9 +1,9 @@
-### 解题思路
-自己写的代码有点过于繁琐了，有空得改改
+// ### 解题思路
+// 自己写的代码有点过于繁琐了，有空得改改
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -66,4 +66,4 @@ public:
         return re;
     }
 };
-```
+// ```

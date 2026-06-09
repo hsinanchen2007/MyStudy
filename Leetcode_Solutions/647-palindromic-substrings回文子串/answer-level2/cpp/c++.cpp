@@ -1,10 +1,10 @@
-### 解题思路
-暴力遍历所有的可能对称中心，即所有的字符和字符间隔
-![1.png](https://pic.leetcode-cn.com/556a84b70d35ddeba0d5f213952076701f99deb4b5a752ca1afb47c54988d58a-1.png)
+// ### 解题思路
+// 暴力遍历所有的可能对称中心，即所有的字符和字符间隔
+// ![1.png](https://pic.leetcode-cn.com/556a84b70d35ddeba0d5f213952076701f99deb4b5a752ca1afb47c54988d58a-1.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countSubstrings(string s) {
@@ -31,4 +31,4 @@ public:
         return part1+part2;
     }
 };
-```
+// ```

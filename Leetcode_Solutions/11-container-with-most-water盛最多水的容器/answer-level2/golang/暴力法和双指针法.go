@@ -1,7 +1,7 @@
 
-思路参考前人~
+// 思路参考前人~
 
-```
+// ```
 func maxArea(height []int) int {
     var left, right = 0, len(height)-1
     max := 0
@@ -46,5 +46,5 @@ func Min(a, b, l, r int) (int, bool) {
 //     }
 //     return b
 // }
-```
+// ```
 

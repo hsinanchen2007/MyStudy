@@ -1,6 +1,6 @@
-可以使用两个栈来模拟队列，其中一个栈用于接收input，另一个栈用于output，数据从input栈流出并流入output栈以实现两个栈数据之间的单向流动。此时在模型上两个栈就可以与一个队列等价。
-具体代码如下：
-```python
+# 可以使用两个栈来模拟队列，其中一个栈用于接收input，另一个栈用于output，数据从input栈流出并流入output栈以实现两个栈数据之间的单向流动。此时在模型上两个栈就可以与一个队列等价。
+# 具体代码如下：
+# ```python
 class MyQueue:
 
     def __init__(self):
@@ -52,4 +52,4 @@ class MyQueue:
 # param_2 = obj.pop()
 # param_3 = obj.peek()
 # param_4 = obj.empty()
-```
+# ```

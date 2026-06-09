@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-if((rt[i][j][k] && rt[i+k][j+k][len-k]) || (rt[i][j+len-k][k] && rt[i+k][j][len-k]))
-rt[i][j][len] = true;
+// if((rt[i][j][k] && rt[i+k][j+k][len-k]) || (rt[i][j+len-k][k] && rt[i+k][j][len-k]))
+// rt[i][j][len] = true;
 
-执行用时 :56 ms, 在所有 C++ 提交中击败了26.38%的用户
+// 执行用时 :56 ms, 在所有 C++ 提交中击败了26.38%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isScramble(string s1, string s2) {
@@ -37,4 +37,4 @@ public:
         return rt[0][0][m];
     }
 };
-```
+// ```

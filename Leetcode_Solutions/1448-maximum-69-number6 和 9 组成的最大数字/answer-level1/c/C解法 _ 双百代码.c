@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maximum69Number (int num){
     int k=1;
     int nc=num;
@@ -26,4 +26,4 @@ int maximum69Number (int num){
     }
     return num;
 }
-```
+// ```

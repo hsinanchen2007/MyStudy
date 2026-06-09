@@ -1,9 +1,9 @@
-### 解题思路
-使用除法，不要使用乘法，否则会产生越界现象
+// ### 解题思路
+// 使用除法，不要使用乘法，否则会产生越界现象
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int mySqrt(int x) {
         if(x == 0){
@@ -19,4 +19,4 @@ class Solution {
         return i;
     }
 }
-```
+// ```

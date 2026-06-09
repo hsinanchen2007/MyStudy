@@ -1,13 +1,13 @@
-### 解题思路
-双重遍历。first + second
-第一重，遍历Tree当first值
-第二重，在first确定的情况下遍历Tree找second的值
-时间复杂度: O(nlogn)。遍历树n加上二叉树的查找logn。如果查找用hashset的话，能到常数
-空间复杂度：O(1)
+// ### 解题思路
+// 双重遍历。first + second
+// 第一重，遍历Tree当first值
+// 第二重，在first确定的情况下遍历Tree找second的值
+// 时间复杂度: O(nlogn)。遍历树n加上二叉树的查找logn。如果查找用hashset的话，能到常数
+// 空间复杂度：O(1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
   
 public class Solution {
@@ -48,4 +48,4 @@ public class Solution {
 
 
 
-```
+// ```

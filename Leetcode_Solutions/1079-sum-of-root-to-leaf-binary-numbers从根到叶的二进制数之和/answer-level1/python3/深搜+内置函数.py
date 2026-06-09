@@ -1,21 +1,21 @@
-知识点：
-二进制转十进制：
-int('100', 2)    -> 4
-八进制转十进制:
-int('17', 8)     -> 15
-十六进制转十进制：
-int('0xf', 16)   -> 15
+# 知识点：
+# 二进制转十进制：
+# int('100', 2)    -> 4
+# 八进制转十进制:
+# int('17', 8)     -> 15
+# 十六进制转十进制：
+# int('0xf', 16)   -> 15
 
-十进制转二进制：
-bin(4)   -> '0b100'
+# 十进制转二进制：
+# bin(4)   -> '0b100'
 
-十进制转八进制：
-oct(15)  -> '017'
+# 十进制转八进制：
+# oct(15)  -> '017'
 
-十进制转十六进制：
-hex(15)  -> '0xf'
+# 十进制转十六进制：
+# hex(15)  -> '0xf'
 
-```python []
+# ```python []
 class Solution:
     def _dfs(self, root, path):
         path.append(str(root.val))
@@ -41,5 +41,5 @@ class Solution:
         path = []
         result = self._dfs(root, path)
         return result
-```
+# ```
 

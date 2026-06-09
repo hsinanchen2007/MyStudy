@@ -1,10 +1,10 @@
-### 解题思路
-#思路就是反中序遍历
-#就是说遍历出来的结果是从大到小,遇到一个节点就将其加入cur_total中
-#并cur_total赋值给当前节点..
-### 代码
+# ### 解题思路
+# #思路就是反中序遍历
+# #就是说遍历出来的结果是从大到小,遇到一个节点就将其加入cur_total中
+# #并cur_total赋值给当前节点..
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
                 helper(n.left)
                 return n
         return helper(root)
-```
+# ```

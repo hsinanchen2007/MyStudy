@@ -1,13 +1,13 @@
-### 解题思路
-1.先排序，按照第一个元素
-2.设置shoot_begin,shoot_end,重叠区间，从point[0]开始
-3.相邻两个区间有重叠就更新重叠区间，shooter数不变
-4.没有shooter加一，更新shoot_begin,shoot_end
+# ### 解题思路
+# 1.先排序，按照第一个元素
+# 2.设置shoot_begin,shoot_end,重叠区间，从point[0]开始
+# 3.相邻两个区间有重叠就更新重叠区间，shooter数不变
+# 4.没有shooter加一，更新shoot_begin,shoot_end
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findMinArrowShots(self, points):
         """
@@ -37,4 +37,4 @@ class Solution(object):
 
 
 
-```
+# ```

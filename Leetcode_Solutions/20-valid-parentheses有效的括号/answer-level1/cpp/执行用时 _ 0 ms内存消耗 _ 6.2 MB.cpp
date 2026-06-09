@@ -1,11 +1,11 @@
-### 解题思路
-思路：遇到左括号加进去，右括号检验，匹配就和左括号抵消掉，不匹配就返回false
+// ### 解题思路
+// 思路：遇到左括号加进去，右括号检验，匹配就和左括号抵消掉，不匹配就返回false
 
-具体实现：利用vector构建栈数据结构，遍历string每个字符，若为左括号则push_back，遇到右括号判断vector是否空&&是否match，是则删除栈顶元素，否则返回false。最后防止左括号过多，检验vector是否为空。
+// 具体实现：利用vector构建栈数据结构，遍历string每个字符，若为左括号则push_back，遇到右括号判断vector是否空&&是否match，是则删除栈顶元素，否则返回false。最后防止左括号过多，检验vector是否为空。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isleft(const char& c){
@@ -42,4 +42,4 @@ public:
         }
     }
 };
-```
+// ```

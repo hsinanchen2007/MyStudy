@@ -1,10 +1,10 @@
-### 解题思路
-关键点是从后往前遍历。
-如果从index为0开始处理，则需要频繁的移动A数组元素的位置！！！
+// ### 解题思路
+// 关键点是从后往前遍历。
+// 如果从index为0开始处理，则需要频繁的移动A数组元素的位置！！！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         if (A == null) {
@@ -27,4 +27,4 @@ class Solution {
         }
     }
 }
-```
+// ```

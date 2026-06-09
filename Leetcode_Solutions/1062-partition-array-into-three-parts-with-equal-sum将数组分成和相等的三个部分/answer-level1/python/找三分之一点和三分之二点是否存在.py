@@ -1,8 +1,8 @@
-### 解题思路
-和官方题解的思想一样。不过写法不太一样。还有可以优化的地方。
-### 代码
+# ### 解题思路
+# 和官方题解的思想一样。不过写法不太一样。还有可以优化的地方。
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canThreePartsEqualSum(self, A):
         """
@@ -34,4 +34,4 @@ class Solution(object):
 
 
 
-```
+# ```

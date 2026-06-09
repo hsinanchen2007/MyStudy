@@ -1,13 +1,13 @@
-#### 类似题型
-+ [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/solution/198-da-jia-jie-she-by-alexer-660/)
-  + 所有解法跟198题解法几乎完全一样
-  + 区别就是本题第一个房子和最后一个房子连在一起，而且同样保留198题的相邻房子不能同时偷的原则
-  + 所以此题可以分为两种情况
-    + 偷第一家，不能偷最后一家
-    + 不偷第一家，能偷最后一家
-  + 因此在代码中，直接截取掉第一个和最后一个数字分解成两个子问题求解即可。
-#### 解法一：动态规划
-```javascript
+// #### 类似题型
+// + [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/solution/198-da-jia-jie-she-by-alexer-660/)
+//   + 所有解法跟198题解法几乎完全一样
+//   + 区别就是本题第一个房子和最后一个房子连在一起，而且同样保留198题的相邻房子不能同时偷的原则
+//   + 所以此题可以分为两种情况
+//     + 偷第一家，不能偷最后一家
+//     + 不偷第一家，能偷最后一家
+//   + 因此在代码中，直接截取掉第一个和最后一个数字分解成两个子问题求解即可。
+// #### 解法一：动态规划
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -34,9 +34,9 @@ var rob = function(nums) {
     var need2 = dpGO(nums.slice(0,nums.length-1));
     return Math.max(need1,need2);
 };
-```
-#### 解法二：动态规划降维
-```javascript
+// ```
+// #### 解法二：动态规划降维
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -61,9 +61,9 @@ var rob = function(nums) {
     var need2 = dpGO(nums.slice(0,nums.length-1));
     return Math.max(need1,need2);
 };
-```
-#### 解法三：动态规划-去维
-```javascript
+// ```
+// #### 解法三：动态规划-去维
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -89,9 +89,9 @@ var rob = function(nums) {
     var need2 = dpGO(nums.slice(0,nums.length-1));
     return Math.max(need1,need2);
 };
-```
-#### 解法四：间隔步数
-```javascript
+// ```
+// #### 解法四：间隔步数
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -119,4 +119,4 @@ var rob = function(nums) {
     var need2 = dpGO(nums.slice(0,nums.length-1));
     return Math.max(need1,need2);
 };
-```
+// ```

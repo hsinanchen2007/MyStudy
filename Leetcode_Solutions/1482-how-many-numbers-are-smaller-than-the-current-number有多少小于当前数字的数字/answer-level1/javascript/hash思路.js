@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-由于数据规模较小，牺牲空间建立hash，然后从大数往小数遍历，维护小于的数量。
+// 由于数据规模较小，牺牲空间建立hash，然后从大数往小数遍历，维护小于的数量。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -27,4 +27,4 @@ var smallerNumbersThanCurrent = function(nums) {
     }
     return nums.map(t => records[t])
 };
-```
+// ```

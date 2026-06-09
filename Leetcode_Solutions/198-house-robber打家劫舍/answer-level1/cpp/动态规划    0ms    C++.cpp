@@ -1,4 +1,4 @@
-动态规划的题
+// 动态规划的题
 class Solution {
     vector<int>dp;     //dp[i]表示到第i个房子为止能抢到的最大的金额
 public:

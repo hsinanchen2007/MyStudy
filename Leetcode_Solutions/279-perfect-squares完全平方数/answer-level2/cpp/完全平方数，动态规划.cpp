@@ -1,9 +1,9 @@
-### 解题思路
-记dp[i]为和为i的完全平方数的个数，那么对于j，dp[i+j*j] 为dp[i+j*j]与dp[i]+1(即和为i的个数再加上j，即1)的较小值
+// ### 解题思路
+// 记dp[i]为和为i的完全平方数的个数，那么对于j，dp[i+j*j] 为dp[i+j*j]与dp[i]+1(即和为i的个数再加上j，即1)的较小值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numSquares(int n) {
@@ -17,4 +17,4 @@ public:
         return dp.back();
     }
 };
-```
+// ```

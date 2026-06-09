@@ -1,5 +1,5 @@
-滑窗求解
-```
+// 滑窗求解
+// ```
 
 int numOfSubarrays(int* arr, int arrSize, int k, int threshold){
     if (arr == NULL || arrSize <= 0 || k <= 0 || k > arrSize) {
@@ -22,4 +22,4 @@ int numOfSubarrays(int* arr, int arrSize, int k, int threshold){
     }
     return count;
 }
-```
+// ```

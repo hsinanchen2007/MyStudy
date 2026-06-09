@@ -1,15 +1,15 @@
-### 解题思路
-层次遍历需要借助于队列！！！
-Queue<TreeNode> queue = new LinkedList<TreeNode>();
-queue.offer(root);
-TreeNode tmp = queue.poll();
+// ### 解题思路
+// 层次遍历需要借助于队列！！！
+// Queue<TreeNode> queue = new LinkedList<TreeNode>();
+// queue.offer(root);
+// TreeNode tmp = queue.poll();
 
-创建一个足够大的int数组，返回之前需要根据实际长度进行处理。
-Arrays.copyOfRange(result, 0, i);
+// 创建一个足够大的int数组，返回之前需要根据实际长度进行处理。
+// Arrays.copyOfRange(result, 0, i);
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,4 +44,4 @@ class Solution {
         return Arrays.copyOfRange(result, 0, i);
     }
 }
-```
+// ```

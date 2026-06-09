@@ -1,9 +1,9 @@
-### 解题思路
-如果前两个(几个)数相等, 就向后移动,直到找到两个不相等的数,来确定单调性
+// ### 解题思路
+// 如果前两个(几个)数相等, 就向后移动,直到找到两个不相等的数,来确定单调性
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isMonotonic(int[] A) {
         if(A.length==1)return true;
@@ -31,4 +31,4 @@ class Solution {
 		}
     }
 }
-```
+// ```

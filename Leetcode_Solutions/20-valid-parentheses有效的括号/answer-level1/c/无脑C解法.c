@@ -1,4 +1,4 @@
-//无脑C解法
+// //无脑C解法
 
 bool isValid(char * s){
     int len = strlen(s);

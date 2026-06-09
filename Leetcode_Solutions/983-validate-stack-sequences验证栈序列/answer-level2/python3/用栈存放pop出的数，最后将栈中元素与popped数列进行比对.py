@@ -1,4 +1,4 @@
-**解题思路：遍历push列表，将列表中的数依次加入push_stack，同时与popped中的元素对比，如果遇到和pop中相等的元素则将其放入pop_stack，并将指向popped元素的指针+1；遍历结束后，将push_stack中的数依次弹出放入pop_stack，最后按照栈尾→栈顶的顺序与popped中的元素进行比对**
+# **解题思路：遍历push列表，将列表中的数依次加入push_stack，同时与popped中的元素对比，如果遇到和pop中相等的元素则将其放入pop_stack，并将指向popped元素的指针+1；遍历结束后，将push_stack中的数依次弹出放入pop_stack，最后按照栈尾→栈顶的顺序与popped中的元素进行比对**
 
 
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:

@@ -1,4 +1,4 @@
-```js
+// ```js
 var multiply = function(num1, num2) {
   if (num1 == "0" || num2 == "0") return "0";
   let l1 = num1.length,
@@ -19,4 +19,4 @@ var multiply = function(num1, num2) {
   }
   return num > 0 ? num + str : str;
 };
-```
+// ```

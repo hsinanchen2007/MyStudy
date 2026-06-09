@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 //被除数越小，求出来的和越大
 class Solution {
     public int smallestDivisor(int[] nums, int threshold) {
@@ -34,4 +34,4 @@ class Solution {
         return left;
     }
 }
-```
+// ```

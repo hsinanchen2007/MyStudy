@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     // 这种hash表的方式思路简单。没啥说的。
     //但是这种问题应该是可以试用异或的思路来做的吧。
@@ -13,4 +13,4 @@ class Solution {
         return false ;
     }
 }
-```
+// ```

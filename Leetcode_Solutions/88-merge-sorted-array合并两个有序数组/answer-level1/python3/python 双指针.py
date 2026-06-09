@@ -1,8 +1,8 @@
 
-官答的python版
+# 官答的python版
 
-方法一
-```
+# 方法一
+# ```
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -13,14 +13,14 @@ class Solution:
         nums1.extend(nums2)
         nums1.sort()
         
-```
+# ```
 
-方法二就不写了，有类似的链表题目，解法一样，而且此法也不满足o(1)的空间。
+# 方法二就不写了，有类似的链表题目，解法一样，而且此法也不满足o(1)的空间。
 
-方法三
-从后往前双指针
+# 方法三
+# 从后往前双指针
 
-```
+# ```
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -41,4 +41,4 @@ class Solution:
             nums1[p]=nums2[p2]
             p2-=1
             p-=1
-```
+# ```

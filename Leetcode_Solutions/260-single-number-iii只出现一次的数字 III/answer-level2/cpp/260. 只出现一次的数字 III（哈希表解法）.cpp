@@ -1,9 +1,9 @@
-### 解题思路
-用哈希表
+// ### 解题思路
+// 用哈希表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         return result;
     }
 };
-```
+// ```

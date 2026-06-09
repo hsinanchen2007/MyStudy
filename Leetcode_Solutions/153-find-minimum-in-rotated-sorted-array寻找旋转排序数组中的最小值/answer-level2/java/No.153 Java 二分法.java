@@ -1,9 +1,9 @@
-### 解题思路
-二分法 参考33题
+// ### 解题思路
+// 二分法 参考33题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findMin(int[] nums) {
         if (nums.length == 1) {
@@ -28,4 +28,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

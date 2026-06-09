@@ -1,5 +1,5 @@
 
-```
+// ```
 public int[][] merge(int[][] intervals) {
         boolean[] merged = new boolean[intervals.length];
         for (int i = 0; i < intervals.length; i++) {
@@ -54,4 +54,4 @@ public int[][] merge(int[][] intervals) {
         }
         return result;
     }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-除了目瞪口呆我还能做什么呢……  
-[Two star programming](http://wordaligned.org/articles/two-star-programming)
+// ### 解题思路
+// 除了目瞪口呆我还能做什么呢……  
+// [Two star programming](http://wordaligned.org/articles/two-star-programming)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct ListNode* deleteNode(struct ListNode* head, int val){
     struct ListNode** indirect = &head; 
     //struct ListNode* temp;
@@ -18,4 +18,4 @@ struct ListNode* deleteNode(struct ListNode* head, int val){
     }
     return head;
 }
-```
+// ```

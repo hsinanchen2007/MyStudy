@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/379fd87e11f283a50740c4e8505db28047d586ee6786cf73b268538febc366bc-image.png) 
+// ![image.png](https://pic.leetcode-cn.com/379fd87e11f283a50740c4e8505db28047d586ee6786cf73b268538febc366bc-image.png) 
 
-```c++
+// ```c++
 class Solution {
 public:
     int res,n;
@@ -23,9 +23,9 @@ public:
         }
     }
 };
-```
-下面的代码打印了了所有方案
-```c++
+// ```
+// 下面的代码打印了了所有方案
+// ```c++
 class Solution {
 public:
     int res,n;
@@ -51,4 +51,4 @@ public:
         }
     }
 };
-```
+// ```

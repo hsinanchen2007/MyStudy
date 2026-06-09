@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/cbab5d2442912622ebdc5ff1986323c55c37b494e2a6bd6b3b9a03f11a7f60bf-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cbab5d2442912622ebdc5ff1986323c55c37b494e2a6bd6b3b9a03f11a7f60bf-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -48,4 +48,4 @@ void flatten(struct TreeNode* root){
     }
     proc(root);
 }
-```
+// ```

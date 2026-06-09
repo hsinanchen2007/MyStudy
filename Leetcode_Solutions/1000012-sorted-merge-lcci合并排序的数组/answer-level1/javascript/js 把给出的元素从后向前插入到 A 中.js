@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/9b687614c91389f5b098e5a50fcca9be629c4294b4ebe1233bf36335e731d6a0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9b687614c91389f5b098e5a50fcca9be629c4294b4ebe1233bf36335e731d6a0-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 把 A 和 B 中的所有元素，从大到小依次放入 A 中
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} m
@@ -36,4 +36,4 @@ var merge = function(A, m, B, n) {
   
   return A;
 };
-```
+// ```

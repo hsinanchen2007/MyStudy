@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def complexNumberMultiply(self, a: str, b: str) -> str:
         if not a:
@@ -12,4 +12,4 @@ class Solution:
         Image = int(alist[0]) * int(blist[1][:-1]) + int(alist[1][:-1]) * int(blist[0])
         result = [str(Real), str(Image) + 'i']
         return "+".join(result)
-```
+# ```

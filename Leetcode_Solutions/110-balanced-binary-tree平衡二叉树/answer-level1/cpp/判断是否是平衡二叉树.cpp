@@ -1,10 +1,10 @@
-### 解题思路
-我是完全按照平衡二叉树的概念来的。
-首先计算任何一个二叉的高度，即getheight(TreeNode* root)函数，之后使用isBalanced函数，根据定义写下来这个函数的内容。
+// ### 解题思路
+// 我是完全按照平衡二叉树的概念来的。
+// 首先计算任何一个二叉的高度，即getheight(TreeNode* root)函数，之后使用isBalanced函数，根据定义写下来这个函数的内容。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ public:
         return max(getheight(root->left) , getheight(root->right))+1;
     }
 };
-```
+// ```

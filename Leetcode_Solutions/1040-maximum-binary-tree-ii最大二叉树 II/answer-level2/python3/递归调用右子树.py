@@ -1,7 +1,7 @@
 
-新加入的值始终是最大数的数组形式的最右边, 因此可以理解最终的加入点始终会在最右边,
-因此可以层次遍历二叉树, 找到合适的右子树节点插入
-```
+# 新加入的值始终是最大数的数组形式的最右边, 因此可以理解最终的加入点始终会在最右边,
+# 因此可以层次遍历二叉树, 找到合适的右子树节点插入
+# ```
 def insertIntoMaxTree(self, root: TreeNode, val: int) -> TreeNode:
     # A树为空的情况
     if root is None:
@@ -35,4 +35,4 @@ def insertIntoMaxTree(self, root: TreeNode, val: int) -> TreeNode:
             helper(root, root.right, val)
         
         return root
-```
+# ```

@@ -1,11 +1,11 @@
 
-递归，每次处理前k个元素
+# 递归，每次处理前k个元素
 
-执行用时 :64 ms, 在所有 Python3 提交中击败了92.88%的用户
-内存消耗 :14.9 MB, 在所有 Python3 提交中击败了5.15%的用户
+# 执行用时 :64 ms, 在所有 Python3 提交中击败了92.88%的用户
+# 内存消耗 :14.9 MB, 在所有 Python3 提交中击败了5.15%的用户
 
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution:
                     h.next=gen(p)
                     return q   
             return h
-```
+# ```

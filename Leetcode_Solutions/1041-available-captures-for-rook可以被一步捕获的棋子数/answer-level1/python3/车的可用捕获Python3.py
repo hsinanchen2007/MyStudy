@@ -1,9 +1,9 @@
-### 解题思路
-先找到R位置，再计算各个路径的黑卒
+# ### 解题思路
+# 先找到R位置，再计算各个路径的黑卒
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         for i in range(len(board)):
@@ -39,4 +39,4 @@ class Solution:
                 count=count+1
                 break
         return count
-```
+# ```

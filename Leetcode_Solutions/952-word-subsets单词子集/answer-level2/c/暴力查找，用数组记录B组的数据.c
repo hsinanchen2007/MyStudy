@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -98,4 +98,4 @@ char ** wordSubsets(char ** A, int ASize, char ** B, int BSize, int* returnSize)
 	*returnSize = cnt;
 	return ans;
 }
-```
+// ```

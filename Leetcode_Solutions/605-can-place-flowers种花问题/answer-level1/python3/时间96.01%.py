@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-将开头为0和结尾为0的数组等效变形为开头和结尾都是1的数组
+# ### 解题思路
+# 此处撰写解题思路
+# 将开头为0和结尾为0的数组等效变形为开头和结尾都是1的数组
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import math
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
@@ -35,4 +35,4 @@ class Solution:
 
 
 
-```
+# ```

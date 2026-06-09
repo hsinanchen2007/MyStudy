@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class Solution {
     public int[][] flipAndInvertImage(int[][] A) throws RuntimeException {
         int lineNum = A.length;
@@ -36,4 +36,4 @@ class Solution {
         return AResver;
     }
 }
-```
+// ```

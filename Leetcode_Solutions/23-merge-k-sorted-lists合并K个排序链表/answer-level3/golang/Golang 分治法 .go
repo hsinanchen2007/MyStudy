@@ -1,6 +1,6 @@
-只会用分治，只会用递归。 哎。 
+// 只会用分治，只会用递归。 哎。 
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -45,4 +45,4 @@ func mergeTwoList(l1,l2 *ListNode) *ListNode{
     
     
 }
-```
+// ```

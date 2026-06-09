@@ -1,7 +1,7 @@
-由于本题只需要前k小的数，而不需要这k个数有序
-可以很直接的想到partition函数，它的返回值index就表示前面index个数都不大于arr[index]，后面的数都不小于arr[index]
-因此只需要index==k-1就找到了前面最小的k个数。
-```
+// 由于本题只需要前k小的数，而不需要这k个数有序
+// 可以很直接的想到partition函数，它的返回值index就表示前面index个数都不大于arr[index]，后面的数都不小于arr[index]
+// 因此只需要index==k-1就找到了前面最小的k个数。
+// ```
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -29,5 +29,5 @@ public:
         return l;
     }
 };
-```
+// ```
 

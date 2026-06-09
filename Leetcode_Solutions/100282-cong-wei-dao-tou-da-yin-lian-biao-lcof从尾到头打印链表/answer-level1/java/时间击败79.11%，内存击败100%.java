@@ -1,9 +1,9 @@
-### 解题思路
-1.遍历一遍，计算结点数。2.通过count，给数组赋相应的值。时间复杂度O(n)
+// ### 解题思路
+// 1.遍历一遍，计算结点数。2.通过count，给数组赋相应的值。时间复杂度O(n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
 
     }
 }
-```
+// ```

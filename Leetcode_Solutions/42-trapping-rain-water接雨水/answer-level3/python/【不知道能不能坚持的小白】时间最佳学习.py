@@ -1,12 +1,12 @@
-### 解题思路
-学习结果里面的时间最佳方法。
+# ### 解题思路
+# 学习结果里面的时间最佳方法。
 
-**本题关键思路**：双指针方法。思路同之前打卡写的相似。区别在实现上，省略了一个current_idx。
-https://leetcode-cn.com/problems/trapping-rain-water/solution/bu-zhi-dao-neng-bu-neng-jian-chi-de-xiao-bai-mei-t/
+# **本题关键思路**：双指针方法。思路同之前打卡写的相似。区别在实现上，省略了一个current_idx。
+# https://leetcode-cn.com/problems/trapping-rain-water/solution/bu-zhi-dao-neng-bu-neng-jian-chi-de-xiao-bai-mei-t/
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         result = 0  # 最终返回的结果值
@@ -35,4 +35,4 @@ class Solution:
                     left += 1
 
         return result
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-一个正向数组，一个反向数组，比较
+// ### 解题思路
+// 一个正向数组，一个反向数组，比较
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func isPalindrome(_ x: Int) -> Bool {
     if x < 0 {
@@ -23,4 +23,4 @@ class Solution {
     return true
 }
 }
-```
+// ```

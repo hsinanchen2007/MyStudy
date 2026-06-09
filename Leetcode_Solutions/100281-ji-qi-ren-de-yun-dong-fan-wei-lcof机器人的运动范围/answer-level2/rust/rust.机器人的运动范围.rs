@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::collections::VecDeque;
 impl Solution {
     pub fn get(&self,x:i32)->i32{
@@ -43,4 +43,4 @@ impl Solution {
         ans
     }
 }
-```
+// ```

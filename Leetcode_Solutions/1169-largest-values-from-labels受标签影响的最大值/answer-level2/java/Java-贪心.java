@@ -1,9 +1,9 @@
-# 思路
-`items[i][0]`存`value`，`items[i][1]`存`label`。
-根据`value`**降序排序**，每次取当前最大的`value`，若能添加到最终结果中则添加。
+// # 思路
+// `items[i][0]`存`value`，`items[i][1]`存`label`。
+// 根据`value`**降序排序**，每次取当前最大的`value`，若能添加到最终结果中则添加。
 
-# 代码(HashMap)
-```java
+// # 代码(HashMap)
+// ```java
 class Solution {
     public int largestValsFromLabels(int[] values, int[] labels, int num_wanted, int use_limit) {
         int len = values.length;
@@ -27,11 +27,11 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-# 代码(数组)
-既然题目说了`label`的值的范围是`[0, 20000]`，那就将`HashMap`改为数组，速度更快。
-```java
+// # 代码(数组)
+// 既然题目说了`label`的值的范围是`[0, 20000]`，那就将`HashMap`改为数组，速度更快。
+// ```java
 class Solution {
     public int largestValsFromLabels(int[] values, int[] labels, int num_wanted, int use_limit) {
         int len = values.length;
@@ -55,4 +55,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

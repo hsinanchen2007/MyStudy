@@ -1,5 +1,5 @@
-## 1.Java实现
-```java
+// ## 1.Java实现
+// ```java
 class Solution {
     public ListNode removeZeroSumSublists(ListNode head) {
         ListNode ahead = new ListNode(-1);
@@ -28,10 +28,10 @@ class Solution {
         return ahead.next;
     }
 }
-```
+// ```
 
-## 2. Go实现
-```go
+// ## 2. Go实现
+// ```go
 func removeZeroSumSublists(head *ListNode) *ListNode {
 	p := &ListNode{}
 	p.Next = head
@@ -57,5 +57,5 @@ func removeZeroSumSublists(head *ListNode) *ListNode {
 
 	return p.Next
 }
-```
+// ```
 

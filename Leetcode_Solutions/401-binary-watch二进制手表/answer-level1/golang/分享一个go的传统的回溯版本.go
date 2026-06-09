@@ -1,9 +1,9 @@
-### 解题思路
-将小时和分钟合并到一个数组，然后回溯遍历，可以加入剪枝条件判断，减少递归的次数
-耗时0ms击败100%用户，内存使用2.1 MB，击败27%的用户
-### 代码
+// ### 解题思路
+// 将小时和分钟合并到一个数组，然后回溯遍历，可以加入剪枝条件判断，减少递归的次数
+// 耗时0ms击败100%用户，内存使用2.1 MB，击败27%的用户
+// ### 代码
 
-```golang
+// ```golang
 func readBinaryWatch(num int) []string {
     if num > 8 {
 		return nil
@@ -76,4 +76,4 @@ func readBinaryWatch(num int) []string {
 
 	return ans
 }
-```
+// ```

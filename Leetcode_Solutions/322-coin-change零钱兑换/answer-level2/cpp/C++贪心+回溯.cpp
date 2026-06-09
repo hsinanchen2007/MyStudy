@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int N;
@@ -31,4 +31,4 @@ public:
         return N;
     }
 };
-```
+// ```

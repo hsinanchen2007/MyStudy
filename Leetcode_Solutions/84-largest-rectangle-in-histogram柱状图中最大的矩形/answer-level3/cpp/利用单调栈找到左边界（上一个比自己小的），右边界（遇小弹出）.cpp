@@ -1,11 +1,11 @@
-### 解题思路
-注意这一行
-ans=max(heights[temp]*(i-mono.top()-1),ans);//注意这里
-之前写成了
-ans=max(heights[temp]*(i-temp-1),ans);
-### 代码
+// ### 解题思路
+// 注意这一行
+// ans=max(heights[temp]*(i-mono.top()-1),ans);//注意这里
+// 之前写成了
+// ans=max(heights[temp]*(i-temp-1),ans);
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
@@ -31,4 +31,4 @@ public:
         return ans;
     }
 };
-```
+// ```

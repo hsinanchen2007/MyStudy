@@ -1,9 +1,9 @@
-![2020010501.PNG](https://pic.leetcode-cn.com/b86552822cb59d9c4865a6988e8b42d28089245142a9b8e402b9583df8783d13-2020010501.PNG)
+// ![2020010501.PNG](https://pic.leetcode-cn.com/b86552822cb59d9c4865a6988e8b42d28089245142a9b8e402b9583df8783d13-2020010501.PNG)
 
-### 解题思路
-### 代码
+// ### 解题思路
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int titleToNumber(String s) {
         int out = 0;
@@ -19,4 +19,4 @@ class Solution {
     	return out;
     }
 }
-```
+// ```

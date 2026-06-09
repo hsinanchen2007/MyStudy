@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public boolean validPalindrome(String s) {
         int start = 0;
@@ -26,4 +26,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

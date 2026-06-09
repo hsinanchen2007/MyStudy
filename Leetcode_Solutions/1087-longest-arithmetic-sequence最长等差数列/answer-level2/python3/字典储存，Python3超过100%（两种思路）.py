@@ -1,8 +1,8 @@
-![b54f564675b7e7d043432b6d922ca00.png](https://pic.leetcode-cn.com/e8b9b9daa3af24ebe61fcf6039e539a7909e950eccfc35084de24fe91ae07a2a-b54f564675b7e7d043432b6d922ca00.png)
-提供两种**大同小异**的思路，都是**字典储存**，效率都比较高。
+# ![b54f564675b7e7d043432b6d922ca00.png](https://pic.leetcode-cn.com/e8b9b9daa3af24ebe61fcf6039e539a7909e950eccfc35084de24fe91ae07a2a-b54f564675b7e7d043432b6d922ca00.png)
+# 提供两种**大同小异**的思路，都是**字典储存**，效率都比较高。
 
-**思路一**
-```python []
+# **思路一**
+# ```python []
 from collections import defaultdict
 
 
@@ -33,10 +33,10 @@ class Solution:
                     length += 1
                     max_len = max(max_len, length)
         return max_len
-```
+# ```
 
-**思路二** DP
-```python []
+# **思路二** DP
+# ```python []
 from collections import defaultdict
 
 
@@ -65,5 +65,5 @@ class Solution:
             return max(dp[i][j] for i in dp for j in dp[i]) + 2
         except ValueError:
             return 2
-```
-理论上思路二比思路一块，因为思路二对于每个i，j只处理了一步O(1)，不像思路一里面要循环到底O(n)，但跑下来也差不多，可能跟测试集有关系
+# ```
+# 理论上思路二比思路一块，因为思路二对于每个i，j只处理了一步O(1)，不像思路一里面要循环到底O(n)，但跑下来也差不多，可能跟测试集有关系

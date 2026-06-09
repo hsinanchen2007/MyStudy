@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-失败：若 连线数 < 节点数 - 1，则失败。
-否则必然可行。通过并查集找到独立子集的个数count，需要的连线为count-1。
+# 失败：若 连线数 < 节点数 - 1，则失败。
+# 否则必然可行。通过并查集找到独立子集的个数count，需要的连线为count-1。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class UnionFind:
     def __init__(self, n):
         self.up = list(range(n))
@@ -50,4 +50,4 @@ class Solution:
 
 
 
-```
+# ```

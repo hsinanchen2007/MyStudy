@@ -1,9 +1,9 @@
-#### 方法一：暴力法
-- 基本思路：根据题意可以知道，我们需要为一个函数提供 **两个参数**，当参数等于某个 **给定的值** 时，将参数记录下来，所以可以利用 **二重循环**，遍历两个参数的所有取值，当函数结果等于给定的值时，就将参数记录下来。
-- 优化：由题意可知，函数是 **单调递增** 的，所以当函数结果 **大于等于** 给定的值时，就可以 **结束** 当前循环，因为根据函数单调的性质，后面的值必然也是大于给定的值的。
-- 时间复杂度：$O($n^{2}$)$
-#### 代码：
-```java [-Java]
+// #### 方法一：暴力法
+// - 基本思路：根据题意可以知道，我们需要为一个函数提供 **两个参数**，当参数等于某个 **给定的值** 时，将参数记录下来，所以可以利用 **二重循环**，遍历两个参数的所有取值，当函数结果等于给定的值时，就将参数记录下来。
+// - 优化：由题意可知，函数是 **单调递增** 的，所以当函数结果 **大于等于** 给定的值时，就可以 **结束** 当前循环，因为根据函数单调的性质，后面的值必然也是大于给定的值的。
+// - 时间复杂度：$O($n^{2}$)$
+// #### 代码：
+// ```java [-Java]
 class Solution {
     public List<List<Integer>> findSolution(CustomFunction customfunction, int z) {
         List<List<Integer>> res = new ArrayList<>();
@@ -26,12 +26,12 @@ class Solution {
         return res;
     }
 }
-```
-##### 方法二：二分查找
-- 基于暴力法的优化，将内层循环变为二分查找。
-- 时间复杂度：$O($nlog_{2}n$)$
-#### 代码：
-```java [-Java]
+// ```
+// ##### 方法二：二分查找
+// - 基于暴力法的优化，将内层循环变为二分查找。
+// - 时间复杂度：$O($nlog_{2}n$)$
+// #### 代码：
+// ```java [-Java]
 
 class Solution {
     public List<List<Integer>> findSolution(CustomFunction customfunction, int z) {
@@ -61,13 +61,13 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-##### 方法三：双指针法
-- 既然函数是单调有序的，那么自然可以使用双指针法来代替二重循环。
-- 时间复杂度：$O($n$)$
-#### 代码：
-```java [-Java]
+// ##### 方法三：双指针法
+// - 既然函数是单调有序的，那么自然可以使用双指针法来代替二重循环。
+// - 时间复杂度：$O($n$)$
+// #### 代码：
+// ```java [-Java]
 class Solution {
     public List<List<Integer>> findSolution(CustomFunction customfunction, int z) {
         List<List<Integer>> res = new ArrayList<>();
@@ -90,4 +90,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-单调栈, 哈希表
+// ### 解题思路
+// 单调栈, 哈希表
 
-### 代码 
+// ### 代码 
 
-```golang
+// ```golang
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	length := len(nums2)
 	bigger := make(map[int]int, len(nums1))
@@ -29,4 +29,4 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	}
 	return result
 }
-```
+// ```

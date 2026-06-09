@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -36,7 +36,7 @@ class Solution:
         self.head.left, self.pre.right =  self.pre, self.head # 链接首位节点，跳出递归的pre是最后一个节点
         return self.head
 
-```
+# ```
 
-非递归解法先留个坑...
+# 非递归解法先留个坑...
 

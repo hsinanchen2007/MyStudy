@@ -1,6 +1,6 @@
-第一种实现：简单递归
-缺点：容易爆栈（整个函数不是在第一次遭遇不同值的节点停止，而是要返回到root节点。）
-```C++
+// 第一种实现：简单递归
+// 缺点：容易爆栈（整个函数不是在第一次遭遇不同值的节点停止，而是要返回到root节点。）
+// ```C++
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
@@ -23,11 +23,11 @@ public:
         return false;
     }
 };
-```
+// ```
 
-第二种实现：双stack做DFS，while循环替代函数栈，降低爆栈风险
-（第一次遭遇不同取值的节点就终止整个函数）
-```C++
+// 第二种实现：双stack做DFS，while循环替代函数栈，降低爆栈风险
+// （第一次遭遇不同取值的节点就终止整个函数）
+// ```C++
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
@@ -69,10 +69,10 @@ public:
         return true;
     }
 };
-```
+// ```
 
-第三种实现：双端队列替代两个栈，纯粹的STL语法糖
-```C++
+// 第三种实现：双端队列替代两个栈，纯粹的STL语法糖
+// ```C++
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
@@ -108,4 +108,4 @@ public:
         return true;
     }
 };
-```
+// ```

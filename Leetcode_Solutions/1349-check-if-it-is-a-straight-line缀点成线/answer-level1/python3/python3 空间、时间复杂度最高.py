@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/e0b448e75aeb521fef34c65037de332f41b41434a58ff110819ce83479ebad2f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/e0b448e75aeb521fef34c65037de332f41b41434a58ff110819ce83479ebad2f-image.png)
 
-```
+# ```
 class Solution:
     def checkStraightLine(self, coordinates: List[List[int]]) -> bool:
         X=[x[0] for x in coordinates]
@@ -18,4 +18,4 @@ class Solution:
             if k1!=k:
                 return False
         return True
-```
+# ```

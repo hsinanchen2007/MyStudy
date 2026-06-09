@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     //解法1:C++二进制容器
@@ -37,8 +37,8 @@ public:
         return count;
     }
 };
-```
-注：这里说明一下，第四种解法，在二进制表示中，数字n中最低位的1总是对应n-1中的0。因此，将n和n-1与运算总是能把n中最低位的1变成0 ，并保持其他位不变。
+// ```
+// 注：这里说明一下，第四种解法，在二进制表示中，数字n中最低位的1总是对应n-1中的0。因此，将n和n-1与运算总是能把n中最低位的1变成0 ，并保持其他位不变。
 
-[![image.png](https://pic.leetcode-cn.com/91507deb7e435c63ef465a54feb2fcac5916b2fd521ca64c926fdaeeca1616c7-image.png)]()
+// [![image.png](https://pic.leetcode-cn.com/91507deb7e435c63ef465a54feb2fcac5916b2fd521ca64c926fdaeeca1616c7-image.png)]()
 

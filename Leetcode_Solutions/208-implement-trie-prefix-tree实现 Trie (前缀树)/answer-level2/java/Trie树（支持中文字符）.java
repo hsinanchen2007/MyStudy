@@ -1,15 +1,15 @@
-### 解题思路
-关键是查找字符串在trie树中所处的叶子节点的位置
+// ### 解题思路
+// 关键是查找字符串在trie树中所处的叶子节点的位置
 
-1. insert：searchLeaf找到叶子节点，在后续添加新的节点，注意插入的最后一个节点要打个标识，用于处理有更长的路径insert后search不到；
-2. search：searchLeaf找到叶子节点，叶子节点是最后一个节点且路径长度和输入字符串的长度一致；
-3. startWith：searchLeaf找到叶子节点，叶子节点的长度和输入字符串的长度一致表示搜到了即可；
+// 1. insert：searchLeaf找到叶子节点，在后续添加新的节点，注意插入的最后一个节点要打个标识，用于处理有更长的路径insert后search不到；
+// 2. search：searchLeaf找到叶子节点，叶子节点是最后一个节点且路径长度和输入字符串的长度一致；
+// 3. startWith：searchLeaf找到叶子节点，叶子节点的长度和输入字符串的长度一致表示搜到了即可；
 
-算法渣刷leetcode...
+// 算法渣刷leetcode...
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Trie {
         private static class Node {
             public char val;
@@ -130,4 +130,4 @@ class Trie {
             return Arrays.asList(p, leaf);
         }
     }
-```
+// ```

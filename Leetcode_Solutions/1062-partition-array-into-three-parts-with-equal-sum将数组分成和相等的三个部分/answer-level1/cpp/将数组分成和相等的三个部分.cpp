@@ -1,8 +1,8 @@
-### 解题思路
-如果可以找出索引 i+1 < j 且满足 (A[0] + A[1] + ... + A[i] == A[i+1] + A[i+2] + ... + A[j-1] == A[j] + A[j-1] + ... + A[A.length - 1]) 就可以将数组三等分。
-### 代码
+// ### 解题思路
+// 如果可以找出索引 i+1 < j 且满足 (A[0] + A[1] + ... + A[i] == A[i+1] + A[i+2] + ... + A[j-1] == A[j] + A[j-1] + ... + A[A.length - 1]) 就可以将数组三等分。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
    bool canThreePartsEqualSum(vector<int>& A)
@@ -65,4 +65,4 @@ public:
 
 	}
 };
-```
+// ```

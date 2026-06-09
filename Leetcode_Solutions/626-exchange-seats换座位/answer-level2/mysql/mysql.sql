@@ -1,4 +1,4 @@
-```
+-- ```
 SELECT 
     (CASE 
         WHEN id % 2 = 0 THEN id - 1
@@ -6,4 +6,4 @@ SELECT
     END) AS id, student
 FROM seat
 ORDER BY id
-```
+-- ```

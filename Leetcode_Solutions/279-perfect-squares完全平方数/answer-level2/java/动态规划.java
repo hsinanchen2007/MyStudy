@@ -1,21 +1,21 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n log n)
-    1.2 空间负责度为O(n)
-2. 我的解题思路
-    2.1 这个解法基于动态规划
-    2.2 我认为这个题目关键在于两地啊
-        2.2.1 完全平方数
-        2.2.2 相加与相减
-    2.3 我画了一个表推出一个规律：temp[current]=Math.min(min,temp[current-j*j])+1，j*j代表小于n的完全平方数
-    2.4 使用双重循环遍历
-        2.4.1 外层循环为1到n，专门设置当前元素的最后结果
-        2.4.2 内层循环为1到n，但是循环终止条件为j*j<=i,对比获取当前最小value
-3. 提交记录
-    3.1 力扣中耗时34ms,消耗36.3MB内存
-    3.2 leetcode中耗时17ms,消耗35.4MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n log n)
+//     1.2 空间负责度为O(n)
+// 2. 我的解题思路
+//     2.1 这个解法基于动态规划
+//     2.2 我认为这个题目关键在于两地啊
+//         2.2.1 完全平方数
+//         2.2.2 相加与相减
+//     2.3 我画了一个表推出一个规律：temp[current]=Math.min(min,temp[current-j*j])+1，j*j代表小于n的完全平方数
+//     2.4 使用双重循环遍历
+//         2.4.1 外层循环为1到n，专门设置当前元素的最后结果
+//         2.4.2 内层循环为1到n，但是循环终止条件为j*j<=i,对比获取当前最小value
+// 3. 提交记录
+//     3.1 力扣中耗时34ms,消耗36.3MB内存
+//     3.2 leetcode中耗时17ms,消耗35.4MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     279.Perfect Squares
@@ -65,6 +65,6 @@ class Solution {
 
 }
 
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

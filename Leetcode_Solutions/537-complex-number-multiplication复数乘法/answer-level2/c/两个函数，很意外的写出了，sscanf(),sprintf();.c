@@ -1,4 +1,4 @@
-```
+// ```
 #define LEN 64
 char * complexNumberMultiply(char * a, char * b){
     int x1,y1;
@@ -14,4 +14,4 @@ char * complexNumberMultiply(char * a, char * b){
     sprintf(arr,"%d+%di",x,y);//输入数组
     return arr;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-##分的比较细 解法比较费劲
+// ##分的比较细 解法比较费劲
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -68,4 +68,4 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
         return head;
     }
 }
-```
+// ```

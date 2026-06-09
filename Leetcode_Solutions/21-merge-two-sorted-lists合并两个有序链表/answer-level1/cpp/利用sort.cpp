@@ -1,5 +1,5 @@
-方法一、
-```
+// 方法一、
+// ```
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -25,4 +25,4 @@ public:
         return  rs;
     }
 };
-```
+// ```

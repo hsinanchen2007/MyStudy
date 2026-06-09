@@ -1,12 +1,12 @@
-### 解题思路
-根据定义，检查每个Node是否满足子树深度差不大于1
-- 定义depth函数用于返回树的深度
-- isBalanced递归实现，返回 逻辑 （根结点满足？ and isBalanced(左子树根) and isBalanced(右子树根)）
-- 递归终止条件：空节点满足条件平衡二叉树，return True
+# ### 解题思路
+# 根据定义，检查每个Node是否满足子树深度差不大于1
+# - 定义depth函数用于返回树的深度
+# - isBalanced递归实现，返回 逻辑 （根结点满足？ and isBalanced(左子树根) and isBalanced(右子树根)）
+# - 递归终止条件：空节点满足条件平衡二叉树，return True
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution(object):
             return 0
         return 1+max(self.depth(root.left),self.depth(root.right))
     
-```
+# ```

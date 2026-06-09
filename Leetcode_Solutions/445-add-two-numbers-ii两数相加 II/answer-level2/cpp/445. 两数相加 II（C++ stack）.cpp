@@ -1,6 +1,6 @@
-# 445. 两数相加 II
-利用栈保存两个列表的值，再分别出栈计算。
-```
+// # 445. 两数相加 II
+// 利用栈保存两个列表的值，再分别出栈计算。
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -57,4 +57,4 @@ public:
 		return rstHead.next;
     }
 };
-```
+// ```

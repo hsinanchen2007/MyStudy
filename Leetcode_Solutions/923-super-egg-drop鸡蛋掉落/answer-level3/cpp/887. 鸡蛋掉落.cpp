@@ -1,6 +1,6 @@
-优化了下别人的题解，当K较大时减少一些计算量
+// 优化了下别人的题解，当K较大时减少一些计算量
 
-```
+// ```
 class Solution {
 public:
     int superEggDrop(int K, int N) {
@@ -28,4 +28,4 @@ public:
         return res0;
     }
 };
-```
+// ```

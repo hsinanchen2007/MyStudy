@@ -1,9 +1,9 @@
-### 解题思路
-成员运算符解决
+# ### 解题思路
+# 成员运算符解决
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isUnique(self, astr):
         """
@@ -18,4 +18,4 @@ class Solution(object):
             return False
         else:
             return True
-```
+# ```

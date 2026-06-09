@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/47befeba95e7b1ff1f339e07bd8d93ded85e8227d0c7c17c883c62754d43b10d-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/47befeba95e7b1ff1f339e07bd8d93ded85e8227d0c7c17c883c62754d43b10d-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -70,4 +70,4 @@ char **letterCombinations(char *digits, int *returnSize)
     GetResult(digits, buf, 0, res, &index);
     return res;
 }
-```
+// ```

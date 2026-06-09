@@ -1,9 +1,9 @@
-### 解题思路
-字典查询表
+# ### 解题思路
+# 字典查询表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def arrayNesting(self, nums: List[int]) -> int:
         d = {}
@@ -22,4 +22,4 @@ class Solution:
             i += 1
             count = max(count,ans)
         return count
-```
+# ```

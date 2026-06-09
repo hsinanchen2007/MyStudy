@@ -1,8 +1,8 @@
-# 遇到‘(’，则将ss入栈，并置为0；
-# 遇到‘）’，将将ss乘以2，并加上一个出栈的数据；
-# 遇到1，则直接加
+# # 遇到‘(’，则将ss入栈，并置为0；
+# # 遇到‘）’，将将ss乘以2，并加上一个出栈的数据；
+# # 遇到1，则直接加
 
-```
+# ```
 class Solution(object):
     def scoreOfParentheses(self, S):
         """
@@ -22,6 +22,6 @@ class Solution(object):
             else:
                 ss += int(c)
         return ss
-```
+# ```
 
     

@@ -1,9 +1,9 @@
-### 解题思路
-max_num 记录最大种植数量
-判断前一项、当前项、后一项是否为1，都不成立为当前项可种植
-### 代码
+// ### 解题思路
+// max_num 记录最大种植数量
+// 判断前一项、当前项、后一项是否为1，都不成立为当前项可种植
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} flowerbed
  * @param {number} n
@@ -21,4 +21,4 @@ var canPlaceFlowers = function (flowerbed, n) {
   }
   return max_num >= n
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-借助了js中的对象取得下标
+// ### 解题思路
+// 借助了js中的对象取得下标
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -17,4 +17,4 @@ var twoSum = function(nums, target) {
          if(index!==undefined && index!==i ) return [i,index]
     }
 };
-```
+// ```

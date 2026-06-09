@@ -1,18 +1,18 @@
-### 解题思路 - 临时数组进行拷贝的方法
-[leetcode-189](https://leetcode-cn.com/problems/rotate-array/)
+// ### 解题思路 - 临时数组进行拷贝的方法
+// [leetcode-189](https://leetcode-cn.com/problems/rotate-array/)
 
-对比旋转后的数组和旋转前的数组，可以看出本质上就是把前k个字符，挪到了字符串后面。
+// 对比旋转后的数组和旋转前的数组，可以看出本质上就是把前k个字符，挪到了字符串后面。
 
-- 于是我们可以使用辅助数组，
-- 先把原始字符串后n-k个字符填充进去，
-- 再把原始字符串前k个字符填充进去，
+// - 于是我们可以使用辅助数组，
+// - 先把原始字符串后n-k个字符填充进去，
+// - 再把原始字符串前k个字符填充进去，
 
-这个方法的时间复杂度是O(n),n是数组长度，使用了一个临时数组，空间复杂度是O(n)。
+// 这个方法的时间复杂度是O(n),n是数组长度，使用了一个临时数组，空间复杂度是O(n)。
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseLeftWords(s string, n int) string {
   // 字符串长度赋值给m，n对字符串长度取模，定义游标i
   m, k, i := len(s), n%len(s), 0 
@@ -30,4 +30,4 @@ func reverseLeftWords(s string, n int) string {
   }
   return string(t)
 }
-```
+// ```

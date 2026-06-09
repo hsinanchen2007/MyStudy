@@ -1,5 +1,5 @@
-遇到不同的字符就输出
-```
+// 遇到不同的字符就输出
+// ```
 class Solution {
 public:
     string compressString(string S) {
@@ -27,4 +27,4 @@ public:
 
     }
 };
-```
+// ```

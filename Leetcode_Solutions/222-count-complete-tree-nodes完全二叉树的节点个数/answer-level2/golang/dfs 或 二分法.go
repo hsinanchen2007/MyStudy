@@ -1,18 +1,18 @@
-# dfs
+// # dfs
 
-```golang
+// ```golang
 func countNodes(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}
 	return 1 + countNodes(root.Left) + countNodes(root.Right)
 }
-```
+// ```
 
 
-# 二分法
+// # 二分法
 
-```golang
+// ```golang
 var level int
 var counter int
 
@@ -65,6 +65,6 @@ func compute(root *TreeNode) int {
 	}
 	return l
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
+// [Go版本 Github](https://github.com/temporaries/leetcode)

@@ -1,9 +1,9 @@
-### 解题思路
-新开辟一块空间，将两个数据元素排序
+// ### 解题思路
+// 新开辟一块空间，将两个数据元素排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
 
     int *buff = NULL;
@@ -40,4 +40,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     memcpy(A, buff, sizeof(int)*(m+n));
     return;
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-/**
- * 栈 + HashMap
- * 1.当栈顶非空且栈顶元素小于当前元素，始终放入哈希表
- * 2.将非空的栈顶元素，配上-1，放入哈希表
- * 3.将结果放入result中，返回result
- */
-### 代码
+// ### 解题思路
+// /**
+//  * 栈 + HashMap
+//  * 1.当栈顶非空且栈顶元素小于当前元素，始终放入哈希表
+//  * 2.将非空的栈顶元素，配上-1，放入哈希表
+//  * 3.将结果放入result中，返回result
+//  */
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Map<Integer,Integer> map = new HashMap<Integer,Integer>();
@@ -28,4 +28,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

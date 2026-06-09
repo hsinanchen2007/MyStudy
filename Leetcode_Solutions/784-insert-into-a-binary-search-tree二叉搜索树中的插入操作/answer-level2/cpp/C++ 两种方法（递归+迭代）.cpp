@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-思路很简单，如果 `新值比根节点val大，则新值插入到右子树；否则新值插入到左子树`。
+// 思路很简单，如果 `新值比根节点val大，则新值插入到右子树；否则新值插入到左子树`。
 
 
-### 代码1. 迭代
+// ### 代码1. 迭代
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
@@ -31,10 +31,10 @@ public:
         }
         return root;
     }
-```
+// ```
 
-### 代码2. 递归版本
-```cpp
+// ### 代码2. 递归版本
+// ```cpp
 class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
@@ -52,4 +52,4 @@ private:
         return root;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-同64_Minimum Path Sum该题
+# 同64_Minimum Path Sum该题
 
-```
+# ```
 # grid[i][j] = grid[i-1][j] + grid[i][j-1]
 
 class Solution(object):
@@ -26,4 +26,4 @@ class Solution(object):
                     grid[i][j] = grid[i-1][j] + grid[i][j-1]
         return grid[-1][-1]
 print Solution().uniquePaths(3,2)        
-```
+# ```

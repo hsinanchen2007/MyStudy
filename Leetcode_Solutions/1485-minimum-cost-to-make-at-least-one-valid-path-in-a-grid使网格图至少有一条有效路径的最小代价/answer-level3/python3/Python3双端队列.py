@@ -1,6 +1,6 @@
-参考了[@ezoixx130](/u/ezoixx130/)的C++双端队列解法，将其翻译为Python3，代码如下：
+# 参考了[@ezoixx130](/u/ezoixx130/)的C++双端队列解法，将其翻译为Python3，代码如下：
 
-```python
+# ```python
 class Solution:
     class Node:
         def __init__(self, x, y, d):
@@ -34,5 +34,5 @@ class Solution:
                     q.append(self.Node(ax, ay, now.d + 1))
 
         return -1
-```
-![QQ20200301-143027@2x.png](https://pic.leetcode-cn.com/978aa4545ca753a1e8d934f0084b25ffcbc6443d1a39b9ab8df9cb4c05426eb0-QQ20200301-143027@2x.png)
+# ```
+# ![QQ20200301-143027@2x.png](https://pic.leetcode-cn.com/978aa4545ca753a1e8d934f0084b25ffcbc6443d1a39b9ab8df9cb4c05426eb0-QQ20200301-143027@2x.png)

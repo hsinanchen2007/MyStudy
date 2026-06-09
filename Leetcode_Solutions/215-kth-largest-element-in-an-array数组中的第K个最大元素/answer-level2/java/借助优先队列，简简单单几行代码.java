@@ -1,8 +1,8 @@
-### 解题思路
-利用高级数据结构，可以完成。
-### 代码
+// ### 解题思路
+// 利用高级数据结构，可以完成。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findKthLargest(int[] nums, int k) {
         PriorityQueue<Integer> queue = new PriorityQueue<>((x,y)->y-x);
@@ -16,4 +16,4 @@ class Solution {
         return temp;
     }
 }
-```
+// ```

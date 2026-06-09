@@ -1,9 +1,9 @@
-### 解题思路
-由于数组事有序的，先归并排序，然后取中位数
+# ### 解题思路
+# 由于数组事有序的，先归并排序，然后取中位数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         index1 = 0
@@ -29,4 +29,4 @@ class Solution:
         else:
             return combined[length // 2]
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-先左移再或运算，获取全是1的数，再进行异或
+// ### 解题思路
+// 先左移再或运算，获取全是1的数，再进行异或
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int bitwiseComplement(int N) {
         int num = 1;
@@ -14,4 +14,4 @@ class Solution {
         }
     }
 }
-```
+// ```

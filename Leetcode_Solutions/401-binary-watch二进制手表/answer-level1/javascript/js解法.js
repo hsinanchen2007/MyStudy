@@ -1,6 +1,6 @@
 
-参考之前的解法
-```
+// 参考之前的解法
+// ```
 /**
  * @param {number} num
  * @return {string[]}
@@ -27,10 +27,10 @@ var readBinaryWatch = function(num) {
     return res;
     
 };
-```
-js版的回溯算法
+// ```
+// js版的回溯算法
 
-```
+// ```
 /**
  * @param {number} num
  * @return {string[]}
@@ -62,4 +62,4 @@ var readBinaryWatch = function(num) {
     return res
     
 };
-```
+// ```

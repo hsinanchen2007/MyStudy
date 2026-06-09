@@ -1,9 +1,9 @@
-### 解题思路
-不用ide果然代码比较丑，白板写题bugfree挑战第一题。
+// ### 解题思路
+// 不用ide果然代码比较丑，白板写题bugfree挑战第一题。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String nextClosestTime(String time) {
         Set<Integer> appears = new HashSet<>();
@@ -58,4 +58,4 @@ class Solution {
         else return String.valueOf(x);
     }
 }
-```
+// ```

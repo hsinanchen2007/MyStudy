@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasAlternatingBits(int n){
     int f=1;
     long num=0;
@@ -15,4 +15,4 @@ bool hasAlternatingBits(int n){
     if(num==n) return true;
     else return false;
 }
-```
+// ```

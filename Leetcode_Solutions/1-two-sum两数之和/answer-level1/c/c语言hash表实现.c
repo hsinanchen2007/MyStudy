@@ -1,18 +1,18 @@
-### 解题思路
-跑了几次还跑出一个0ms，击败100%用户。
-内存消耗9.4MB
+// ### 解题思路
+// 跑了几次还跑出一个0ms，击败100%用户。
+// 内存消耗9.4MB
 
-c语言hash表实现，链表防止hash冲突。
+// c语言hash表实现，链表防止hash冲突。
 
-思路是遍历数组，用`target - nums[i]`去表中查询，
-+ 若查到了，则取出index；
-+ 若没查到，则保存`nums[i]`进入hash 表；
+// 思路是遍历数组，用`target - nums[i]`去表中查询，
+// + 若查到了，则取出index；
+// + 若没查到，则保存`nums[i]`进入hash 表；
 
-供参考。
+// 供参考。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -189,4 +189,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     FreeHashRow();
     return ret;
 }
-```
+// ```

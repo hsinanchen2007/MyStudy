@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/a93e4134817d819053dfff8aa3353a2744062c37641c3026ae834a483d1ff83c-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/a93e4134817d819053dfff8aa3353a2744062c37641c3026ae834a483d1ff83c-image.png)
 
-思路比较简单，root空的时候返回空，root没有子节点的时候返回to_string(root->val)，其余时候利用迭代的思想，构建新的vector并返回
+// 思路比较简单，root空的时候返回空，root没有子节点的时候返回to_string(root->val)，其余时候利用迭代的思想，构建新的vector并返回
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> binaryTreePaths(TreeNode* root) 
@@ -24,4 +24,4 @@ public:
         return result;
     }
 };
-```
+// ```

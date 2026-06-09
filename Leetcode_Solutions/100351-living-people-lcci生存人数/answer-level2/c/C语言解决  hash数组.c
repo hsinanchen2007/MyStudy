@@ -1,11 +1,11 @@
-### 解题思路
-1.建立数组求出每个人的年龄；
-2.建立hash数组，求出每一年的生存人数；
-3.遍历数组，找出最大值及下标。
+// ### 解题思路
+// 1.建立数组求出每个人的年龄；
+// 2.建立hash数组，求出每一年的生存人数；
+// 3.遍历数组，找出最大值及下标。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define ARRAY_SIZE 101
 
 int maxAliveYear(int* birth, int birthSize, int* death, int deathSize)
@@ -58,4 +58,4 @@ int maxAliveYear(int* birth, int birthSize, int* death, int deathSize)
     }
     return resultYear + 1900;
 }
-```
+// ```

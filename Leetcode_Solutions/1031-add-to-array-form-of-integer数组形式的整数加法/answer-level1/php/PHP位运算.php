@@ -1,5 +1,5 @@
-根据大佬思想,php实现
-```
+// 根据大佬思想,php实现
+// ```
 class Solution {
 
     /**
@@ -30,4 +30,4 @@ class Solution {
         return $res;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-超过97%,双指针以及其优化，避免不必要的比较，每次移动直接移到比当前元素大的元素位置处
+# ### 解题思路
+# 超过97%,双指针以及其优化，避免不必要的比较，每次移动直接移到比当前元素大的元素位置处
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         n = len(height)
@@ -25,4 +25,4 @@ class Solution:
                 while left<right and  temp >= height[right]:
                     right -= 1
         return max_
-```
+# ```

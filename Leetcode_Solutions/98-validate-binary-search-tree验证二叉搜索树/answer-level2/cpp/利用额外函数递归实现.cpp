@@ -1,4 +1,4 @@
-本题关键是给出左右边界，并不断刷新，因为是线索二叉树，所以左子树均小于根节点，右子树均大于根节点。其中边界值应设置为LONG_MAX和LONG_MIN.
+// 本题关键是给出左右边界，并不断刷新，因为是线索二叉树，所以左子树均小于根节点，右子树均大于根节点。其中边界值应设置为LONG_MAX和LONG_MIN.
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {

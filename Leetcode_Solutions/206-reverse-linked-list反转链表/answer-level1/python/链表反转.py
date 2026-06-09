@@ -1,9 +1,9 @@
-### 解题思路
-pre_cur作为前驱节点，head作为当前结点，先保存当前结点后继(temp)，然后更改当前结点后继为其自身的前驱，然后更新pre_cur(head)和head(temp)，注意pre_cur初始值设为None，可省去反转完成后的尾结点处理。
+# ### 解题思路
+# pre_cur作为前驱节点，head作为当前结点，先保存当前结点后继(temp)，然后更改当前结点后继为其自身的前驱，然后更新pre_cur(head)和head(temp)，注意pre_cur初始值设为None，可省去反转完成后的尾结点处理。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution(object):
             pre_cur = head     # 当前对象变前驱
             head = temp     # 后继变当前处理对象
         return pre_cur
-```
+# ```

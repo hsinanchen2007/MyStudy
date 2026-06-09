@@ -1,9 +1,9 @@
-### 解题思路
-使用三指针，利用两个数组都是有序的特点。last为m+n-1处开始递减。
+// ### 解题思路
+// 使用三指针，利用两个数组都是有序的特点。last为m+n-1处开始递减。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -40,4 +40,4 @@ public:
         
     }
 };
-```
+// ```

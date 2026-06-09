@@ -1,9 +1,9 @@
-### 解题思路
-动态规划 清清爽爽
+// ### 解题思路
+// 动态规划 清清爽爽
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int climbStairs(int n){
     /*
      * 状态方程： dp[i] = dp[i - 1] + dp[i - 2]
@@ -27,4 +27,4 @@ int climbStairs(int n){
 
     return dp[n];
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -84,4 +84,4 @@ int numSpecialEquivGroups( char ** A , int ASize ){
     return count;
 
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int removeDuplicates(int* nums, int numsSize){
     int putIndex = 0;
     int probeIndex = 0;
@@ -14,4 +14,4 @@ int removeDuplicates(int* nums, int numsSize){
     return putIndex;
 }
 
-```
+// ```

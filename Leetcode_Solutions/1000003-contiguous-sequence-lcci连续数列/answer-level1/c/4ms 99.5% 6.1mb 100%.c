@@ -1,9 +1,9 @@
-### 解题思路
-弱者代码 注意可能每一个数都小于0
+// ### 解题思路
+// 弱者代码 注意可能每一个数都小于0
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxSubArray(int* nums, int numsSize){
     int i=0,max=0;
     for(i=1;i<numsSize;i++){
@@ -27,4 +27,4 @@ int maxSubArray(int* nums, int numsSize){
     }
     return max;
 }
-```
+// ```

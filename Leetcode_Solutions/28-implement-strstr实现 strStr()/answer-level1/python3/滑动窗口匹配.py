@@ -1,9 +1,9 @@
-### 解题思路
-挺简单的，循环往后匹配就玩了
+# ### 解题思路
+# 挺简单的，循环往后匹配就玩了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         m, n = len(haystack), len(needle)
@@ -18,5 +18,5 @@ class Solution:
         return -1
 
 
-```
-44 ms 13.9 MB
+# ```
+# 44 ms 13.9 MB

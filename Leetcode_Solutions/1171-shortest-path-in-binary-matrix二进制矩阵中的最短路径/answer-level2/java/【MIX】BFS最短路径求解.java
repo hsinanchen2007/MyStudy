@@ -1,4 +1,4 @@
-```c++ []
+// ```c++ []
 #include <queue>
 class Solution {
 public:
@@ -67,8 +67,8 @@ private:
     // 路径长度
     vector<vector<int>> dis;
 };
-```
-```python []
+// ```
+// ```python []
 from queue import Queue
 class Solution:
     R, C = 0, 0
@@ -115,8 +115,8 @@ class Solution:
 
     def inArea(self, x:int, y:int) -> bool:
         return 0<= x and x < self.R and 0<= y and y< self.C
-```
-```java []
+// ```
+// ```java []
 class Solution {
     // 设置八连通方向
     private int[][] dirs = {{-1, 0}, {-1, 1}, {0, 1}, {1, 1}, {1, 0}, {1, -1}, {0, -1}, {-1, -1}};
@@ -168,4 +168,4 @@ class Solution {
         return 0<=x && x<R && 0<=y && y<C;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-递归剪枝
+# ### 解题思路
+# 递归剪枝
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
             root.right = self.trimBST(root.right, L, R)
             return root
         return self.trimBST(root, L, R)
-```
+# ```

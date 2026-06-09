@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def pathsWithMaxScore(self, board: List[str]) -> List[int]:
         m = len(board)
@@ -19,4 +19,4 @@ class Solution:
             finalsum = sum([i[1] for i in [dp[1][0],dp[1][1],dp[0][1]] if i[0] == finalnum])
             return [finalnum % (10**9 + 7),finalsum % (10**9 + 7)]
         else:return [0,0]
-```
+# ```

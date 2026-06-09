@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     string findContestMatch(int n) {
@@ -19,6 +19,6 @@ public:
         return res[0];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/256d9b4fc3afcafd653633bb453f6215c315f4b18b50162fde5054c6f0bef32e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/256d9b4fc3afcafd653633bb453f6215c315f4b18b50162fde5054c6f0bef32e-image.png)

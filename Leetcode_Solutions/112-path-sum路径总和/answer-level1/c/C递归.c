@@ -1,9 +1,9 @@
-### 解题思路
-递归判断左右子树，递归时sum减去当前根节点的值，到叶结点处返回，叶结点中有一个返回true即可
+// ### 解题思路
+// 递归判断左右子树，递归时sum减去当前根节点的值，到叶结点处返回，叶结点中有一个返回true即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -21,4 +21,4 @@ bool hasPathSum(struct TreeNode* root, int sum){
         return sum == root->val;
     return hasPathSum(root->left, sum-root->val) || hasPathSum(root->right, sum-root->val);
 }
-```
+// ```

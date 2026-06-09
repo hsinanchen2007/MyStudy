@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/dea8588e1bbea93e71f4ac6cd345a9a0baa8bd92723328acf5edb4f55b1ec532-image.png)
-分类讨论一下，要么抢劫第一间，要么抢最后一间，要么两边都不抢，那不就是调用三次简单题的函数就行了嘛
-结果随便一写真的击败了100%。。。。我傻了都。。。
-rob1是前面的简单题的代码，完全照抄
-```
+// ![image.png](https://pic.leetcode-cn.com/dea8588e1bbea93e71f4ac6cd345a9a0baa8bd92723328acf5edb4f55b1ec532-image.png)
+// 分类讨论一下，要么抢劫第一间，要么抢最后一间，要么两边都不抢，那不就是调用三次简单题的函数就行了嘛
+// 结果随便一写真的击败了100%。。。。我傻了都。。。
+// rob1是前面的简单题的代码，完全照抄
+// ```
 class Solution {
 public:
     int rob1(vector<int>& nums) {
@@ -77,5 +77,5 @@ public:
         
     }
 };
-```
+// ```
 

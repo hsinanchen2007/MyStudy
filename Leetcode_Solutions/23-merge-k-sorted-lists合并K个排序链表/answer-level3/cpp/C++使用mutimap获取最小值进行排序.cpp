@@ -1,5 +1,5 @@
-使用mutimap代替优先队列，mutimap会自动对key从小到大排序，可以免去编写比较函数的麻烦。
-```
+// 使用mutimap代替优先队列，mutimap会自动对key从小到大排序，可以免去编写比较函数的麻烦。
+// ```
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
@@ -23,4 +23,4 @@ public:
         return dummy.next;
     }
 };
-```
+// ```

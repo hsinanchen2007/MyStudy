@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -25,5 +25,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/0ac73c0398eb06b6435a7cdbd63eccdd00636f0a0a1a01a23c273e403fb7ab24-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/0ac73c0398eb06b6435a7cdbd63eccdd00636f0a0a1a01a23c273e403fb7ab24-image.png)

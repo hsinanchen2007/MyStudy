@@ -1,5 +1,5 @@
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -57,4 +57,4 @@ var infectOthers = function (grid, i, j, q) {
 
   return infected;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-萌新渣方法，各位大佬海涵
-![image.png](https://pic.leetcode-cn.com/868536b565872b7f21128f88541d2ecd1807d95014f7d8c97bcea673e4078b7a-image.png)
-```
+// 萌新渣方法，各位大佬海涵
+// ![image.png](https://pic.leetcode-cn.com/868536b565872b7f21128f88541d2ecd1807d95014f7d8c97bcea673e4078b7a-image.png)
+// ```
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         }
     }
 };
-```
+// ```

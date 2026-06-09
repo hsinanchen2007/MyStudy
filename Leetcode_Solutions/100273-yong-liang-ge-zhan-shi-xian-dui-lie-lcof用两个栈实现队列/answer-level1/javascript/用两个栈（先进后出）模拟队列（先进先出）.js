@@ -1,10 +1,10 @@
-### 解题思路
-实现栈的进出只能使用数组尾部方法push()和pop();
-对于队头删除操作 利用第二个栈，将第一个栈从尾部开始压入第二个，输出栈底（队头）后，再将第二个栈从尾部压回第一个。
+// ### 解题思路
+// 实现栈的进出只能使用数组尾部方法push()和pop();
+// 对于队头删除操作 利用第二个栈，将第一个栈从尾部开始压入第二个，输出栈底（队头）后，再将第二个栈从尾部压回第一个。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var CQueue = function() {
     this.pushArr=[];
     this.popArr=[];
@@ -42,4 +42,4 @@ CQueue.prototype.deleteHead = function() {
  * obj.appendTail(value)
  * var param_2 = obj.deleteHead()
  */
-```
+// ```

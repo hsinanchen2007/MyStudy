@@ -1,12 +1,12 @@
-和丑数II一题的做法一样（丑数II地址：https://leetcode-cn.com/problems/ugly-number-ii/）
-具体的可以看原作者
+# 和丑数II一题的做法一样（丑数II地址：https://leetcode-cn.com/problems/ugly-number-ii/）
+# 具体的可以看原作者
 
-作者：powcai
-链接：https://leetcode-cn.com/problems/ugly-number-ii/solution/dui-he-dong-tai-gui-hua-by-powcai/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+# 作者：powcai
+# 链接：https://leetcode-cn.com/problems/ugly-number-ii/solution/dui-he-dong-tai-gui-hua-by-powcai/
+# 来源：力扣（LeetCode）
+# 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
-```
+# ```
 class Solution:
     def getKthMagicNumber(self, k: int) -> int:
         dp = [0] * k
@@ -23,4 +23,4 @@ class Solution:
             if dp[i] >= 7 * dp[l_7]:
                 l_7 += 1
         return dp[-1]
-```
+# ```

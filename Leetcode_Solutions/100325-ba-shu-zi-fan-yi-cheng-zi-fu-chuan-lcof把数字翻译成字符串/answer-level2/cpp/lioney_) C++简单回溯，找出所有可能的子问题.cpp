@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int translateNum(int num) {
@@ -19,4 +19,4 @@ private:
             helper(s, index+2, res);
     }
 };
-```
+// ```

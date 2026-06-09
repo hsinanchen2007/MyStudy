@@ -1,15 +1,15 @@
-### 解题思路
-排序后，遍历元素，使用两指针在当前元素后面查找。注意去重。
+// ### 解题思路
+// 排序后，遍历元素，使用两指针在当前元素后面查找。注意去重。
 
-之前在某公司面试遇到这题，采用的是分3个数组的方式，面试官不太满意。
+// 之前在某公司面试遇到这题，采用的是分3个数组的方式，面试官不太满意。
 
-### 性能
-执行用时 :176 ms, 在所有 PHP 提交中击败了96.88%的用户
-内存消耗 :24.7 MB, 在所有 PHP 提交中击败了16.66%的用户
+// ### 性能
+// 执行用时 :176 ms, 在所有 PHP 提交中击败了96.88%的用户
+// 内存消耗 :24.7 MB, 在所有 PHP 提交中击败了16.66%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -46,11 +46,11 @@ class Solution {
         return $res;
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度: O(N ^ 2)
-- 空间复杂度：O（N）
+// ### 算法复杂度
+// - 时间复杂度: O(N ^ 2)
+// - 空间复杂度：O（N）
 
-### 参考
-[https://leetcode-cn.com/problems/3sum/solution/hua-jie-suan-fa-15-san-shu-zhi-he-by-guanpengchn/](https://leetcode-cn.com/problems/3sum/solution/hua-jie-suan-fa-15-san-shu-zhi-he-by-guanpengchn/)
+// ### 参考
+// [https://leetcode-cn.com/problems/3sum/solution/hua-jie-suan-fa-15-san-shu-zhi-he-by-guanpengchn/](https://leetcode-cn.com/problems/3sum/solution/hua-jie-suan-fa-15-san-shu-zhi-he-by-guanpengchn/)

@@ -1,4 +1,4 @@
-```
+// ```
 public:
     void sortColors(vector<int>& nums) {
         int red = 0, blue = nums.size() - 1;
@@ -13,4 +13,4 @@ public:
         }
     }
 };
-```
+// ```

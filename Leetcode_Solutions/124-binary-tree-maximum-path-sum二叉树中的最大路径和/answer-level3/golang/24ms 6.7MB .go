@@ -1,17 +1,17 @@
-### 解题思路
+// ### 解题思路
 
-递归
-注意 nil节点返回的要是
-```go
+// 递归
+// 注意 nil节点返回的要是
+// ```go
 	if root == nil {
 		return math.MinInt32, math.MinInt32
 	}
 
-```
+// ```
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -60,4 +60,4 @@ func help(root *TreeNode) (maxLen, sum int) {
 	return
 }
 
-```
+// ```

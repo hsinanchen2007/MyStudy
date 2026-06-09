@@ -1,9 +1,9 @@
-### 解题思路
-> 依次遍历，记录当前最小价格，实时计算当前最大收益；
+# ### 解题思路
+# > 依次遍历，记录当前最小价格，实时计算当前最大收益；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         '''
@@ -21,4 +21,4 @@ class Solution:
             if prices[i] < lowest:
                 lowest = prices[i]
         return ans
-```
+# ```

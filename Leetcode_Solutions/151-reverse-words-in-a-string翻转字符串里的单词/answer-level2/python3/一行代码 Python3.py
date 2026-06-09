@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-分别利用join,reversed,split的特性
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 分别利用join,reversed,split的特性
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseWords(self, s: str) -> str:
         return " ".join(reversed(s.split( )))
@@ -21,4 +21,4 @@ class Solution:
         # s1 = s1.strip()
         # return s1
             
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 
 func hIndex(citations []int) int {
     if len(citations) == 0 {
@@ -50,4 +50,4 @@ func qSort(array []int, left, right int) {
     }
 }
 
-```
+// ```

@@ -1,7 +1,7 @@
-执行用时 : 120 ms, 在Valid Palindrome的C#提交中击败了98.09% 的用户
-内存消耗 : 21.9 MB, 在Valid Palindrome的C#提交中击败了88.75% 的用户
-时间复杂度O(N),空间复杂度O(1)
-```
+// 执行用时 : 120 ms, 在Valid Palindrome的C#提交中击败了98.09% 的用户
+// 内存消耗 : 21.9 MB, 在Valid Palindrome的C#提交中击败了88.75% 的用户
+// 时间复杂度O(N),空间复杂度O(1)
+// ```
 public bool IsPalindrome(string s)
 {
     if (s == null)
@@ -44,4 +44,4 @@ public bool IsPalindrome(string s)
     }
     return true;
 }
-```
+// ```

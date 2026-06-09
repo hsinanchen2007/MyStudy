@@ -1,5 +1,5 @@
-比较典型的深搜回溯，先一个数重复到底，然后拿掉这个数，回溯
-```
+// 比较典型的深搜回溯，先一个数重复到底，然后拿掉这个数，回溯
+// ```
 class Solution {
 public:
     set<vector<int>> int_set;
@@ -24,4 +24,4 @@ private:
         generate(candidates,target,sum,path,res,i+1);
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-- 利用哈希表，将数组中的数字作为 ``key``，用 ``boolean`` 值标记是否出现过
-- 从 ``1`` 到 ``nums.length`` 遍历一次，每次从哈希表中取 ``key`` 值，判断该值是否被标记过
-- 没有被标记过的值 ``push`` 到数组里面
+// - 利用哈希表，将数组中的数字作为 ``key``，用 ``boolean`` 值标记是否出现过
+// - 从 ``1`` 到 ``nums.length`` 遍历一次，每次从哈希表中取 ``key`` 值，判断该值是否被标记过
+// - 没有被标记过的值 ``push`` 到数组里面
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -24,4 +24,4 @@ var findDisappearedNumbers = function(nums) {
     }
     return res
 };
-```
+// ```

@@ -1,20 +1,20 @@
-其实就是三步走
- 1.首先定义二维数组的含义：
-    dp[i][j]代表i长度的word1字符串转变为j长度的Word2需要的最小操作数
-2.找出子结构
-    (1)当word1字符串的第i个字符与word2的第j个字符相同，就不需要转换。
-        dp[i][j] = dp[i-1][j-1]
-    (2)当word1字符串的第i个字符与word2的第j个字符不同，有三种操作。
-        1）删除一个字符(将i处字符删除，也就是用i-1长度的word1与j长度的word2比较)
-            dp[i][j] = dp[i-1][j]+1
-        2)插入一个字符（在i处字符后插入与word2[j]相同的字符，剩下就是i长度的word1与j-1长度的word2比较）
-            dp[i][j] = dp[i][j-1]+1
-        3）替换一个字符(i处字符替换为与j相同的字符，剩下比较i-1长度的word1与j-1长度的word2)
-            dp[i][j] = dp[i-1][j-1]+1
-            Max(上面三种情况)
-3.初始情况：
-    只要i或者j为0，就全部替换为对方长度。
-```
+// 其实就是三步走
+//  1.首先定义二维数组的含义：
+//     dp[i][j]代表i长度的word1字符串转变为j长度的Word2需要的最小操作数
+// 2.找出子结构
+//     (1)当word1字符串的第i个字符与word2的第j个字符相同，就不需要转换。
+//         dp[i][j] = dp[i-1][j-1]
+//     (2)当word1字符串的第i个字符与word2的第j个字符不同，有三种操作。
+//         1）删除一个字符(将i处字符删除，也就是用i-1长度的word1与j长度的word2比较)
+//             dp[i][j] = dp[i-1][j]+1
+//         2)插入一个字符（在i处字符后插入与word2[j]相同的字符，剩下就是i长度的word1与j-1长度的word2比较）
+//             dp[i][j] = dp[i][j-1]+1
+//         3）替换一个字符(i处字符替换为与j相同的字符，剩下比较i-1长度的word1与j-1长度的word2)
+//             dp[i][j] = dp[i-1][j-1]+1
+//             Max(上面三种情况)
+// 3.初始情况：
+//     只要i或者j为0，就全部替换为对方长度。
+// ```
 class Solution {
     public int minDistance(String word1, String word2) {
         char[]word1Array = word1.toCharArray();
@@ -51,4 +51,4 @@ class Solution {
         return dp[word1Array.length][word2Array.length];
     }
 }
-```
+// ```

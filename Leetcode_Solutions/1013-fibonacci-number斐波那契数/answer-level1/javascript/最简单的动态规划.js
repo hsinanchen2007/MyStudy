@@ -1,10 +1,10 @@
-### 解题思路
-以fib(0)、fib(1)、fib(2)、...、fib(N)的顺序计算
-fib(N)=fib(N-1)+fib(N-2)
+// ### 解题思路
+// 以fib(0)、fib(1)、fib(2)、...、fib(N)的顺序计算
+// fib(N)=fib(N-1)+fib(N-2)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} N
  * @return {number}
@@ -19,4 +19,4 @@ var fib = function(N) {
     }
     return curr
 };
-```
+// ```

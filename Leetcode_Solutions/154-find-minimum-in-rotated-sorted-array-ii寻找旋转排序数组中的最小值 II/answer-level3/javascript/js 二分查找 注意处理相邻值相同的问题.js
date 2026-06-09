@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/19553cf1b22eccff0f43fac4d53bae4f3fa559ec38684119611fa95e7ae971c0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/19553cf1b22eccff0f43fac4d53bae4f3fa559ec38684119611fa95e7ae971c0-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 二分查找
 
 重点：每次二分之前，先判断左右指针的值是否与他们向中间走一步的元素相等，
@@ -11,11 +11,11 @@
 [10,1,10,10,10] 把最小值包在了中间，有时候会搜索不到的
 
 也可以取巧，nums = [...new Set(nums)] 把它排序了一下 😁，不过不推荐
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -43,4 +43,4 @@ var findMin = function(nums) {
   
   return ans;
 };
-```
+// ```

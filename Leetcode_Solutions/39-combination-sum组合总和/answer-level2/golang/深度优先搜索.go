@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先排序，然后深度优先搜索，用一个变量记录搜索过的值，防止重复
+// 先排序，然后深度优先搜索，用一个变量记录搜索过的值，防止重复
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func combinationSum(candidates []int, target int) [][]int {
 	var (
 		ans    [][]int
@@ -38,4 +38,4 @@ func combinationSum(candidates []int, target int) [][]int {
 	return ans
 }
 
-```
+// ```

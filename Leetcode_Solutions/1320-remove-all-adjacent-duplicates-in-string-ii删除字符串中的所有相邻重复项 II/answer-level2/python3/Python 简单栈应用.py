@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/26d45262a72a6c50d0c3d9b219ddc14b6baaadaf4fabef113fa495af44b91d6e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/26d45262a72a6c50d0c3d9b219ddc14b6baaadaf4fabef113fa495af44b91d6e-image.png)
 
 
-```
+# ```
 '''
 栈应用
 '''
@@ -25,4 +25,4 @@ class Solution:
             ans += node[0] * node[1]
 
         return ans
-```
+# ```

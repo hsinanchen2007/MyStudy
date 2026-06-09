@@ -1,8 +1,8 @@
-### 解题思路
-当countDown为0时，放行。
-### 代码
+// ### 解题思路
+// 当countDown为0时，放行。
+// ### 代码
 
-```java
+// ```java
 class Foo {
     private CountDownLatch latch = new CountDownLatch(1);
     private CountDownLatch latch1 = new CountDownLatch(1);    
@@ -29,4 +29,4 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```

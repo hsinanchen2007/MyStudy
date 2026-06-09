@@ -1,14 +1,14 @@
-### 解题思路
-map的key是元素，value是一个ArrayList，里面存的元素的index
-执行query方法时，遍历map的keySet，对每一个元素的list进行遍历
-list.get(p1)是大于等于left的下标
-list.get(p2)是小于等于right的下标
-p2-p1+1就是该元素在这个区间内出现的次数
-如果大于等于threshold，则返回该元素的值
+// ### 解题思路
+// map的key是元素，value是一个ArrayList，里面存的元素的index
+// 执行query方法时，遍历map的keySet，对每一个元素的list进行遍历
+// list.get(p1)是大于等于left的下标
+// list.get(p2)是小于等于right的下标
+// p2-p1+1就是该元素在这个区间内出现的次数
+// 如果大于等于threshold，则返回该元素的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MajorityChecker {
     HashMap<Integer, ArrayList<Integer>> map = new HashMap<>();
     public MajorityChecker(int[] arr) {
@@ -43,4 +43,4 @@ class MajorityChecker {
  * MajorityChecker obj = new MajorityChecker(arr);
  * int param_1 = obj.query(left,right,threshold);
  */
-```
+// ```

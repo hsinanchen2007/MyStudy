@@ -1,9 +1,9 @@
-### 解题思路
-c++，转化为26进制代码就很好想了
+// ### 解题思路
+// c++，转化为26进制代码就很好想了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int titleToNumber(string s) {
@@ -14,4 +14,4 @@ public:
         return num;
     }
 };
-```
+// ```

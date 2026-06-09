@@ -1,9 +1,9 @@
-### 解题思路
-先快速排序，再判定
+// ### 解题思路
+// 先快速排序，再判定
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int comp(const void *a, const void *b) 
 {
     return *(int *)a - *(int *)b;
@@ -22,4 +22,4 @@ bool containsDuplicate(int* nums, int numsSize){
     }
     return false;
 }
-```
+// ```

@@ -1,29 +1,29 @@
-### 解题思路
-1. 找状态
-       要想使 一个点为正方形的最右边下角，那么他的上面一点，左边一点，斜上方一点，也应该是一个正方形的右下角。
-```
+// ### 解题思路
+// 1. 找状态
+//        要想使 一个点为正方形的最右边下角，那么他的上面一点，左边一点，斜上方一点，也应该是一个正方形的右下角。
+// ```
          if dp[i][j] == 1
           dp[i][j] = Math.min(dp[i-1][j-1],dp[i-1][j],dp[i][j-1]) + 1 
-```
-2. 转移方程
-```
+// ```
+// 2. 转移方程
+// ```
           if dp[i][j] == 1
                   dp[i][j] = Math.min(dp[i-1][j-1],dp[i-1][j],dp[i][j-1]) + parseInt(dp[i][j]) + 1
           else
                   dp[i][j] = 0     
-```
-3. 初始条件和边界值  
-```
+// ```
+// 3. 初始条件和边界值  
+// ```
       max = 0;
       dp[0][0] = maxrix[0][0]
       dp[0][j] = maxrix[0][j]
       dp[i][0] = maxrix[i][0]
-```
- 4. 顺序 从小到大
+// ```
+//  4. 顺序 从小到大
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 
 var maximalSquare = function(matrix) {
     let dp = [];
@@ -56,4 +56,4 @@ var maximalSquare = function(matrix) {
     }
     return max * max;
  };
-```
+// ```

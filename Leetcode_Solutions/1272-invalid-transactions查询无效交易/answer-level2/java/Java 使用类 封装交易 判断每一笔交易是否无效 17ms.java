@@ -1,8 +1,8 @@
-![1169.png](https://pic.leetcode-cn.com/06067956a9098e3901ae0b278174adb1a3804bdf764dd3b7498a2fa04dcabb69-1169.png)
+// ![1169.png](https://pic.leetcode-cn.com/06067956a9098e3901ae0b278174adb1a3804bdf764dd3b7498a2fa04dcabb69-1169.png)
 
----
+// ---
 
-```java
+// ```java
 class Solution {
     public List<String> invalidTransactions(String[] transactions) {
         Transaction[] trans = new Transaction[transactions.length];
@@ -42,4 +42,4 @@ class Transaction{
     }
 }
 
-```
+// ```

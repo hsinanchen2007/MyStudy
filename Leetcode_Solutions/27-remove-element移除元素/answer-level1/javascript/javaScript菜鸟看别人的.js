@@ -1,9 +1,9 @@
-### 解题思路
-先遍历，再通过下标剔除不一样的元素，最后计数组长度
+// ### 解题思路
+// 先遍历，再通过下标剔除不一样的元素，最后计数组长度
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -19,4 +19,4 @@ var removeElement = function(nums, val) {
     }
     return conunt;  
 };
-```
+// ```

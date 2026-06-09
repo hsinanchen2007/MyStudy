@@ -1,9 +1,9 @@
-1.使用queue
-2.如果在窗体范围中push
-3.移出窗体pop
-4.求max，average，min，sum随意
+// 1.使用queue
+// 2.如果在窗体范围中push
+// 3.移出窗体pop
+// 4.求max，average，min，sum随意
 
-```
+// ```
 class MovingAverage
 {
 public:
@@ -37,4 +37,4 @@ private:
  * MovingAverage* obj = new MovingAverage(size);
  * double param_1 = obj->next(val);
  */
-```
+// ```

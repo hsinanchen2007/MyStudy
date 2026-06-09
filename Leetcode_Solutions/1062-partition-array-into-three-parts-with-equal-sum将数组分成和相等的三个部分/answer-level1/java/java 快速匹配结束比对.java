@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/e80532c1f80a91ef4c3c0493be1811ff12caba3efe7d683c4ce92647301017c4-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/e80532c1f80a91ef4c3c0493be1811ff12caba3efe7d683c4ce92647301017c4-image.png)
 
-第一次写题解，望大佬们指正
+// 第一次写题解，望大佬们指正
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         if (A.length < 3) {
@@ -40,4 +40,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

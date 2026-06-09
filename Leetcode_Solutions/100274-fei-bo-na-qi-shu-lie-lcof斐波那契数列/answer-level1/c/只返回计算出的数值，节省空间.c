@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int fib(int n){
     if(n == 0 ) return 0;
     long long int i,j,k,h;
@@ -19,4 +19,4 @@ int fib(int n){
     return h;
 
 }
-```
+// ```

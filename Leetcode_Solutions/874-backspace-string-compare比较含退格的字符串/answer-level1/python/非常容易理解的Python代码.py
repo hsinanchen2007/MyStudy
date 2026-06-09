@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def backspaceCompare(self, S: str, T: str) -> bool:
         s = []
@@ -19,4 +19,4 @@ class Solution:
         return s == t
 
 
-```
+# ```

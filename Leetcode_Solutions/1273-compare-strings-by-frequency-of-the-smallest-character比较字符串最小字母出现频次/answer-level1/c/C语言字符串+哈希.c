@@ -1,23 +1,23 @@
-审题：
+// 审题：
 
-1、字符串数组均不为空
+// 1、字符串数组均不为空
 
-2、字符串数组中元素均是小写英文字母
+// 2、字符串数组中元素均是小写英文字母
 
-3、 answer[i] 是每个字符串 queries[i]满足f(queries[i]) < f(W[0..j]) 的个数
+// 3、 answer[i] 是每个字符串 queries[i]满足f(queries[i]) < f(W[0..j]) 的个数
 
-解题思路：
+// 解题思路：
 
-1、分别获取queries 和 word字符串数组中各个字符串的（按字典序比较）最小字母的出现频次
+// 1、分别获取queries 和 word字符串数组中各个字符串的（按字典序比较）最小字母的出现频次
 
-2、分别依次查找queries中字符串满足f(queries[i]) < f(W[0..j])的个数
-
-
-执行结果：
-![EasyCapture2.bmp](https://pic.leetcode-cn.com/12c8cd9bbfe06843e21c4e4f0782be030fb30a80bb9daf16f62c107d15882cd8-EasyCapture2.bmp)
+// 2、分别依次查找queries中字符串满足f(queries[i]) < f(W[0..j])的个数
 
 
-```
+// 执行结果：
+// ![EasyCapture2.bmp](https://pic.leetcode-cn.com/12c8cd9bbfe06843e21c4e4f0782be030fb30a80bb9daf16f62c107d15882cd8-EasyCapture2.bmp)
+
+
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -69,4 +69,4 @@ int* numSmallerByFrequency(char ** queries, int queriesSize, char ** words, int 
     *returnSize = count;
     return res;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-1. 整理顶点
-2. 整理边
-3. 按照字典序排序顶点
-4. 遍历所有顶点，dfs
-5. 组装结果
-![图片.png](https://pic.leetcode-cn.com/ca1cff3b264c0b93743457719eb356707ca54c9159b8f7531dba90aa9f7fde95-%E5%9B%BE%E7%89%87.png)
+// 1. 整理顶点
+// 2. 整理边
+// 3. 按照字典序排序顶点
+// 4. 遍历所有顶点，dfs
+// 5. 组装结果
+// ![图片.png](https://pic.leetcode-cn.com/ca1cff3b264c0b93743457719eb356707ca54c9159b8f7531dba90aa9f7fde95-%E5%9B%BE%E7%89%87.png)
 
-```
+// ```
 func trulyMostPopular(names []string, synonyms []string) []string {
 	vertex := make(map[string]int)
 	for _, info := range names {
@@ -77,4 +77,4 @@ func trulyMostPopular(names []string, synonyms []string) []string {
 
 	return result
 }
-```
+// ```

@@ -1,5 +1,5 @@
-核心思想下一个节点访问只跟当前节点位置有关系
-```
+// 核心思想下一个节点访问只跟当前节点位置有关系
+// ```
 class Solution {
     boolean[][] visted;
 
@@ -53,4 +53,4 @@ class Solution {
             return false;
     }
 }
-```
+// ```

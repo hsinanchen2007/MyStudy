@@ -1,9 +1,9 @@
-### 解题思路
-create_new_tree用于中序遍历 把结果暂存Tree数组 然后提取Tree数组 重新建树 同时Tree的Tree[0]为新树的根节点
+# ### 解题思路
+# create_new_tree用于中序遍历 把结果暂存Tree数组 然后提取Tree数组 重新建树 同时Tree的Tree[0]为新树的根节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             new_root.right = i
             new_root=i
         return Tree[0]
-```
+# ```

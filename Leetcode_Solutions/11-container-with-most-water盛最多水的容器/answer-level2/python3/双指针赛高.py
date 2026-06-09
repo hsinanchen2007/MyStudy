@@ -1,8 +1,8 @@
-### 解题思路
-双指针赛高哦
-想到的第一个想法就是直接暴力穷举
-复杂度O（n^2）直接超时
-```pythin
+# ### 解题思路
+# 双指针赛高哦
+# 想到的第一个想法就是直接暴力穷举
+# 复杂度O（n^2）直接超时
+# ```pythin
 class Solution(object):
     def maxArea(self, height):
         """
@@ -17,14 +17,14 @@ class Solution(object):
                 water = max(curr,water)
         return(water)
 
-```
-双指针直接降到O（n）
-其实就是利用先验减小求解域 思路很重要
+# ```
+# 双指针直接降到O（n）
+# 其实就是利用先验减小求解域 思路很重要
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxArea(self, height):
         """
@@ -45,4 +45,4 @@ class Solution(object):
         return res
 
 
-```
+# ```

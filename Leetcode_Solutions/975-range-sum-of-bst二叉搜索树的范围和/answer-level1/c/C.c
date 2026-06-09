@@ -1,9 +1,9 @@
-### 解题思路
-C
+// ### 解题思路
+// C
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ int rangeSumBST(struct TreeNode* root, int L, int R){
     }
 
 }
-```
+// ```

@@ -1,4 +1,4 @@
-先对arr1进行计数排序，遍历arr2中的数值并输出，最后再输出arr2中没有的值
+// 先对arr1进行计数排序，遍历arr2中的数值并输出，最后再输出arr2中没有的值
 ![1122.png](https://pic.leetcode-cn.com/b2268c14b426d6300c3029f9a03920b88c09aa533be0d46e2ca1ccaccb9db259-1122.png)
 
 class Solution {

@@ -1,18 +1,18 @@
-### 解题思路
-BackTrace(路径，选择列表)
-{
-    if 退出条件
-        记录结果
-        退出
-    for 场景 in 选择列表
-        排除不符合条件的场景
-        进行选择:路径增加、选择列表变化
-        BackTrace(增加后的路径， 选择后的列表)
-        回退选择：路径减少，选择列表回退
-}
-### 代码
+// ### 解题思路
+// BackTrace(路径，选择列表)
+// {
+//     if 退出条件
+//         记录结果
+//         退出
+//     for 场景 in 选择列表
+//         排除不符合条件的场景
+//         进行选择:路径增加、选择列表变化
+//         BackTrace(增加后的路径， 选择后的列表)
+//         回退选择：路径减少，选择列表回退
+// }
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool IsUsed(int row, int col, const set<pair<int, int>>& used)
@@ -55,4 +55,4 @@ public:
 private:
     vector<vector<string>>  res;
 };
-```
+// ```

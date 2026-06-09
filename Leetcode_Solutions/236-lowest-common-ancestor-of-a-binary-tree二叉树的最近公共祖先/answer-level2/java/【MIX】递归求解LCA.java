@@ -1,12 +1,12 @@
-### 解题思路
-LCA出现的位置只可能有三种, 使用divide & conquer求解：
-1. 左子树
-2. 右子树
-3. 跨接左右子树
+// ### 解题思路
+// LCA出现的位置只可能有三种, 使用divide & conquer求解：
+// 1. 左子树
+// 2. 右子树
+// 3. 跨接左右子树
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(root == null || root == p || root == q)
@@ -27,8 +27,8 @@ class Solution {
         return null;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         if root == None or root == p or root == q:
@@ -47,8 +47,8 @@ class Solution:
             return resR
 
         return None
-```
-```c++ []
+// ```
+// ```c++ []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -83,4 +83,4 @@ public:
 
     }
 };
-```
+// ```

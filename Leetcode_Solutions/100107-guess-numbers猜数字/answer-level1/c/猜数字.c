@@ -1,9 +1,9 @@
-### 解题思路
-因为数组下标也是对应的，所以简单的循环即可解决问题
+// ### 解题思路
+// 因为数组下标也是对应的，所以简单的循环即可解决问题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int game(int* guess, int guessSize, int* answer, int answerSize){
     int i = 0;
     int cnt = 0;
@@ -14,4 +14,4 @@ int game(int* guess, int guessSize, int* answer, int answerSize){
     }
     return cnt;
 }
-```
+// ```

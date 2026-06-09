@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseWords(s string) string {
     res:=""
     for{
@@ -41,4 +41,4 @@ func reverseWords(s string) string {
     }
     return res
 }
-```
+// ```

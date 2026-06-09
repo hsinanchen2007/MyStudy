@@ -1,4 +1,4 @@
-```py3
+# ```py3
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         ans = []
@@ -11,4 +11,4 @@ class Solution:
                 tmp.pop()
         completePermutation([], 1)
         return ans 
-```
+# ```

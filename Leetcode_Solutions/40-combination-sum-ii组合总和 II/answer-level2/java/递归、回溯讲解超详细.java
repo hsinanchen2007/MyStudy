@@ -1,6 +1,6 @@
-本题和39题解法大致一致，关于递归、回溯的套路可参考[递归、回溯的一些套路](https://leetcode-cn.com/circle/article/GV6eQ2/)
-有区别的是，本题的数只能使用一次。因此遍历的时候，每次的start应该为i+1,并且在遍历时需要做一个判重。具体见代码
-```
+// 本题和39题解法大致一致，关于递归、回溯的套路可参考[递归、回溯的一些套路](https://leetcode-cn.com/circle/article/GV6eQ2/)
+// 有区别的是，本题的数只能使用一次。因此遍历的时候，每次的start应该为i+1,并且在遍历时需要做一个判重。具体见代码
+// ```
 List<List<Integer>> lists = new ArrayList<>();
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
@@ -33,4 +33,4 @@ List<List<Integer>> lists = new ArrayList<>();
         }
 
     }
-```
+// ```

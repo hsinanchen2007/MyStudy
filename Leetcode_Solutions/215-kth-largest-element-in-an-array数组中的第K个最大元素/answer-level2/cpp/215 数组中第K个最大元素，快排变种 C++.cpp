@@ -1,10 +1,10 @@
-### 解题思路
-沿用快排思路
-找到分割点，根据分割点的index判断向左还是向右查找
+// ### 解题思路
+// 沿用快排思路
+// 找到分割点，根据分割点的index判断向左还是向右查找
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findIndex(vector<int>& nums, int l, int r) {
@@ -50,4 +50,4 @@ public:
         return target;
     }
 };
-```
+// ```

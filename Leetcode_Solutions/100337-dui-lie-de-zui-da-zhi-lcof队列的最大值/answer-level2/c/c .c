@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -160,4 +160,4 @@ void maxQueueFree( MaxQueue * obj ) {
  
  * maxQueueFree(obj);
 */
-```
+// ```

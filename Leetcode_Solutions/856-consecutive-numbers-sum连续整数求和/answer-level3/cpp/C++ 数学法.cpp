@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int consecutiveNumbersSum(int N) {
@@ -12,6 +12,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/5986445f9376bf7bd6e8bee1c1b00cbe363dba2609ccdc1fc9334ebecb72240a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5986445f9376bf7bd6e8bee1c1b00cbe363dba2609ccdc1fc9334ebecb72240a-image.png)

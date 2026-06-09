@@ -1,12 +1,12 @@
-[116.填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/submissions/)   
+// [116.填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/submissions/)   
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
 
-## 层序遍历
+// ## 层序遍历
 
-常规解法，但不满足题目要求。
+// 常规解法，但不满足题目要求。
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val,left,right,next) {
@@ -39,14 +39,14 @@ var connect = function(root) {
     }
     return root;
 };
-```
+// ```
 
 
-## 常量级额外空间
+// ## 常量级额外空间
 
-题解参考[优质题解](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--27/)。
+// 题解参考[优质题解](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--27/)。
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val,left,right,next) {
@@ -79,13 +79,13 @@ var connect = function(root) {
     }
     return root;
 };
-```
+// ```
 
-## 递归
+// ## 递归
 
-题目规定递归符合要求
+// 题目规定递归符合要求
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val,left,right,next) {
@@ -118,4 +118,4 @@ function help(root) {
     root = root.next;
     return root === null ? null : root.left;
 }
-```
+// ```

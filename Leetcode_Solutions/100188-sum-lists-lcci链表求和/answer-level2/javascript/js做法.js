@@ -1,9 +1,9 @@
-### 解题思路
-从个位开始加，有进位cf就等于1，加到后面一位的结果里。 最后只有l1,l2,cf都为null或0时停止计算。
+// ### 解题思路
+// 从个位开始加，有进位cf就等于1，加到后面一位的结果里。 最后只有l1,l2,cf都为null或0时停止计算。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -36,4 +36,4 @@ var addTwoNumbers = function(l1, l2) {
 
 
 };
-```
+// ```

@@ -1,9 +1,9 @@
-都可以走? 应该是指, 某个「黑皇后」只能沿横 [或] 直 [或] 斜, 不能有2种以上混合走法, 如果有的话, 这题就稍微复杂点了
-以下是某个「黑皇后」只能已某一中走法【横 [或] 直 [或] 斜】的思路
+// 都可以走? 应该是指, 某个「黑皇后」只能沿横 [或] 直 [或] 斜, 不能有2种以上混合走法, 如果有的话, 这题就稍微复杂点了
+// 以下是某个「黑皇后」只能已某一中走法【横 [或] 直 [或] 斜】的思路
 
-[题目传送门](https://leetcode-cn.com/problems/queens-that-can-attack-the-king)
+// [题目传送门](https://leetcode-cn.com/problems/queens-that-can-attack-the-king)
 
-```
+// ```
 public List<List<Integer>> queensAttacktheKing(int[][] queens, int[] king) {
     List<List<Integer>> result = new LinkedList<List<Integer>>();
     int[][] flags = new int[8][8]; // 标志数组
@@ -30,14 +30,14 @@ public List<List<Integer>> queensAttacktheKing(int[][] queens, int[] king) {
     }
     return result;
 }
-```
-以题目描述第三个输入输出为测试数据: 0为空白区, 1为queen, 2为king, 得到下面的样子
-1  1  0  1  1  1  1  1  
-1  1  1  0  1  0  1  1  
-0  1  1  1  0  0  1  1  
-0  0  0  0  2  0  0  1  
-1  0  1  1  0  1  1  0  
-1  1  1  0  1  0  1  0  
-0  1  0  1  1  0  0  0  
-0  0  0  0  0  1  0  1 
-再通过各个方向查找, 如果找到就不再继续查找此方向.
+// ```
+// 以题目描述第三个输入输出为测试数据: 0为空白区, 1为queen, 2为king, 得到下面的样子
+// 1  1  0  1  1  1  1  1  
+// 1  1  1  0  1  0  1  1  
+// 0  1  1  1  0  0  1  1  
+// 0  0  0  0  2  0  0  1  
+// 1  0  1  1  0  1  1  0  
+// 1  1  1  0  1  0  1  0  
+// 0  1  0  1  1  0  0  0  
+// 0  0  0  0  0  1  0  1 
+// 再通过各个方向查找, 如果找到就不再继续查找此方向.

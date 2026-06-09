@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/b741dcd302241835525eee4c92a25d74f8bdb16af616dd2074bea2840ed82c74-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/b741dcd302241835525eee4c92a25d74f8bdb16af616dd2074bea2840ed82c74-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -21,4 +21,4 @@ var climbStairs = function(n) {
 
     return dp[n];
 };
-```
+// ```

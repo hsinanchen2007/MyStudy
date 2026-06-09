@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func isRectangleOverlap(_ rec1: [Int], _ rec2: [Int]) -> Bool {
         /*let center1 = (x: (rec1[0] + rec1[2]) / 2, y: (rec1[1] + rec1[3]) / 2)
@@ -11,4 +11,4 @@ class Solution {
         return abs((rec1[0] + rec1[2]) - (rec2[0] + rec2[2])) < (abs(rec1[0] - rec1[2]) + abs(rec2[0] - rec2[2])) && abs((rec1[1] + rec1[3]) - (rec2[1] + rec2[3])) < (abs(rec1[1] - rec1[3]) + abs(rec2[1] - rec2[3]))
     }
 }
-```
+// ```

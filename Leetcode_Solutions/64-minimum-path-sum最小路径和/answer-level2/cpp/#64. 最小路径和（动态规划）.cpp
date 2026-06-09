@@ -1,14 +1,14 @@
-### 状态转移方程
-```cpp
+// ### 状态转移方程
+// ```cpp
 f(0, 0) = grid[0][0]
 f(0, n) = f(0, n-1) + grid[0][n]
 f(m, 0) = f(m-1, 0) + grid[m][0]
 f(m, n) = min(f(m-1, n), f(m, n-1)) + grid[m][n]
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp []
+// ```cpp []
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
@@ -34,4 +34,4 @@ public:
     	return f.back().back();
     }
 };
-```
+// ```

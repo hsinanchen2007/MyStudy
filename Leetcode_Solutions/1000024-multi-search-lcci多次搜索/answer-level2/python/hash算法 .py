@@ -1,7 +1,7 @@
-建立2个hash表，1个用来存放small中
-small中的每个字符串的首字母作为key 把这个所有首字母一样的hash到一个
-然后遍历字符串 这样small表中同样的字母就可以一起来计算
-因为返回的是有序的 另外一个用来存放字符串出现的位置
+# 建立2个hash表，1个用来存放small中
+# small中的每个字符串的首字母作为key 把这个所有首字母一样的hash到一个
+# 然后遍历字符串 这样small表中同样的字母就可以一起来计算
+# 因为返回的是有序的 另外一个用来存放字符串出现的位置
 
 class Solution(object):
     def multiSearch(self, big, smalls):

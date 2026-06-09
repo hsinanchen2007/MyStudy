@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a, const void *b) 
 {
     char *x = *(char **) a;
@@ -40,4 +40,4 @@ char * findLongestWord(char * s, char ** d, int dSize){
     }
     return "";
 }
-```
+// ```

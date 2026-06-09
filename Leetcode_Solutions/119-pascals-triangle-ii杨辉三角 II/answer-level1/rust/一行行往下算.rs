@@ -1,9 +1,9 @@
-### 解题思路
-一行行往下算
+// ### 解题思路
+// 一行行往下算
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn get_row(row_index: i32) -> Vec<i32> {
         let mut res = vec![];
@@ -16,4 +16,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

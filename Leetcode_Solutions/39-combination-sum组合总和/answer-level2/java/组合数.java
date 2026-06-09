@@ -1,25 +1,25 @@
-### 解题思路
-典型的回溯法：
-递归跳出的条件
-return
+// ### 解题思路
+// 典型的回溯法：
+// 递归跳出的条件
+// return
 
-满足题目条件
-将list加入容器
-else 未满足条件：
-for（遍历给出的所有变量）{
-（为了去重，往往加start，来控制递归，遍历之后的元素）
-将元素加入到list
-递归这个函数
-去除当前list的最后一个元素
-}
+// 满足题目条件
+// 将list加入容器
+// else 未满足条件：
+// for（遍历给出的所有变量）{
+// （为了去重，往往加start，来控制递归，遍历之后的元素）
+// 将元素加入到list
+// 递归这个函数
+// 去除当前list的最后一个元素
+// }
 
-回溯原理类似树，不断的选择，剪枝，直到把所有结果都遍历到
-![image.png](https://pic.leetcode-cn.com/56ef87ff9ff3d91a8cffcffa32e1b036edf9a24979f55ee1cb90ba04de2351b0-image.png)
+// 回溯原理类似树，不断的选择，剪枝，直到把所有结果都遍历到
+// ![image.png](https://pic.leetcode-cn.com/56ef87ff9ff3d91a8cffcffa32e1b036edf9a24979f55ee1cb90ba04de2351b0-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      List<List<Integer>> res=new ArrayList<>();
      public List<List<Integer>> combinationSum(int[] candidates, int target) {
@@ -47,4 +47,4 @@ class Solution {
           }
      }
 }
-```
+// ```

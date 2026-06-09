@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str1
  * @param {string} str2
@@ -24,4 +24,4 @@ function gcd(a, b) {
         if (a % b == 0) return b;
         return gcd(b, a % b);
     }
-```
+// ```

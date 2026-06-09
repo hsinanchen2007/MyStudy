@@ -1,4 +1,4 @@
-```
+// ```
 int minCostClimbingStairs(int* cost, int costSize){
     int i;
     int* dp = (int*)malloc(sizeof(int) * (costSize + 1));
@@ -12,4 +12,4 @@ int minCostClimbingStairs(int* cost, int costSize){
     dp[costSize] = fmin(dp[costSize - 1], dp[costSize - 2]);
     return dp[costSize];
 }
-```
+// ```

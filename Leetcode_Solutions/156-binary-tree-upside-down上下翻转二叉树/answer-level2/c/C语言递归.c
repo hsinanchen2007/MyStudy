@@ -1,6 +1,6 @@
-1、先遍历左子树，找到新的跟节点。
-2、返回跟节点，其左子树为原节点的右子树，右子树为原来的父节点，并返回右子树。
-```
+// 1、先遍历左子树，找到新的跟节点。
+// 2、返回跟节点，其左子树为原节点的右子树，右子树为原来的父节点，并返回右子树。
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -49,4 +49,4 @@ struct TreeNode* upsideDownBinaryTree(struct TreeNode* root){
     (void)Dfs(root);
     return g_newTreeRoot;
 }
-```
+// ```

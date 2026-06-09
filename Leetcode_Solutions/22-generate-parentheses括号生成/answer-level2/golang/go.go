@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func generateParenthesis(n int) []string {
     dp := make([][]string,n+1)
     dp[0] = []string{""}
@@ -21,4 +21,4 @@ func generateParenthesis(n int) []string {
     }
     return dp[n]
 }
-```
+// ```

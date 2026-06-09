@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/3532c0f6ca297407638db6ef2a5aa13b51253484b84cbf2efaa2985f1121b349-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3532c0f6ca297407638db6ef2a5aa13b51253484b84cbf2efaa2985f1121b349-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 思路：
 数组的某一段是排好序的，我们直接进行二分搜索，每次搜索之后如果中间值不等于目标值
 我们判断：
@@ -15,11 +15,11 @@
       target 在右边吗？
       ? => 查找右边
       : => 查找左边
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -88,4 +88,4 @@ var search = function(nums, target) {
   
 //   return binarySearch(0, nums.length - 1);
 // };
-```
+// ```

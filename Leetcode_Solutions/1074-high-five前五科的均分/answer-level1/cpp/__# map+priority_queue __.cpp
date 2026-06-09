@@ -1,8 +1,8 @@
-**# map+priority_queue **
-小白刷题记录
-1. map映射id与score（map自动根据key排序）
-2. priority_queue的 (构建size为5的小顶堆)
-```
+// **# map+priority_queue **
+// 小白刷题记录
+// 1. map映射id与score（map自动根据key排序）
+// 2. priority_queue的 (构建size为5的小顶堆)
+// ```
 class Solution {
 public:
 	vector<vector<int>> highFive(vector<vector<int>>& items) {
@@ -42,4 +42,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

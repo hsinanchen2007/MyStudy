@@ -1,6 +1,6 @@
-原题只利用了0和1来表示细胞状态，故可以利用其它位来表示是否发生状态变化。
-而状态变化只考虑周围八个方向的细胞，用十位储存就足够了
-```
+// 原题只利用了0和1来表示细胞状态，故可以利用其它位来表示是否发生状态变化。
+// 而状态变化只考虑周围八个方向的细胞，用十位储存就足够了
+// ```
 //更新一个细胞状态
 void refreshcell(int** board,int x,int y,int boardSize,int* boardColSize){ 
     int sum=0,left=x,right=x,up=y,down=y;
@@ -28,4 +28,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
         }
     }
 }
-```
+// ```

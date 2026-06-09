@@ -1,4 +1,4 @@
-```
+// ```
 public int removeDuplicates(int[] nums) {
         //这个题不排除空数字过不了
     	if(nums.length==0) return 0;
@@ -34,4 +34,4 @@ public int removeDuplicates(int[] nums) {
         }
         return left+1;
     }
-```
+// ```

@@ -1,5 +1,5 @@
-1. 中心扩散法：
-```python
+# 1. 中心扩散法：
+# ```python
 class Solution(object):
     res = ''
     maxlen = 0
@@ -17,9 +17,9 @@ class Solution(object):
                 self.res = strs[left:right+1]
             left -= 1
             right += 1 
-```
-2.动态规划法：
-```python
+# ```
+# 2.动态规划法：
+# ```python
 class Solution(object):
     def longestPalindrome(self, s):
         if len(s) <= 1: return s
@@ -36,5 +36,5 @@ class Solution(object):
                     maxlen = j-i+1
                     res = s[i:j+1]
         return res
-```
-具体思路可以参考 B 站视频：https://www.bilibili.com/video/av46183143?from=search&seid=17804670437594009423
+# ```
+# 具体思路可以参考 B 站视频：https://www.bilibili.com/video/av46183143?from=search&seid=17804670437594009423

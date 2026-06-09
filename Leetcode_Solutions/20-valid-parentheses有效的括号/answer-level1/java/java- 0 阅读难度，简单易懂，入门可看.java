@@ -1,6 +1,6 @@
-将括号转换为数字，可以统一匹配条件，减少思考量，分分钟过关
+// 将括号转换为数字，可以统一匹配条件，减少思考量，分分钟过关
 
-```
+// ```
 import java.util.ArrayList;
 import java.util.Stack;
 
@@ -55,4 +55,4 @@ public class Solution {
 
 }
 
-```
+// ```

@@ -1,20 +1,20 @@
-## 结果
+// ## 结果
 
-![image.png](https://pic.leetcode-cn.com/19f899206dca391c5b23f44a8d256d6b1d6951bcf423296120403714d2c50575-image.png)
+// ![image.png](https://pic.leetcode-cn.com/19f899206dca391c5b23f44a8d256d6b1d6951bcf423296120403714d2c50575-image.png)
 
-## 思路
+// ## 思路
 
-不需要记录已经走过的路径，只需要不断重复右下左上并不断缩小边界即可
+// 不需要记录已经走过的路径，只需要不断重复右下左上并不断缩小边界即可
 
-- 走完第一行，上边界下移
-- 走完最后一列，右边界左移
-- 走完最后一行，下边界上移
-- 走完第一列，左边界右移
-- 只需要走m*n次就可以走完整个矩阵
+// - 走完第一行，上边界下移
+// - 走完最后一列，右边界左移
+// - 走完最后一行，下边界上移
+// - 走完第一列，左边界右移
+// - 只需要走m*n次就可以走完整个矩阵
 
-## Code
+// ## Code
 
-```
+// ```
 func spiralOrder(matrix [][]int) []int {
     m := len(matrix)
     if m == 0 {
@@ -74,5 +74,5 @@ func spiralOrder(matrix [][]int) []int {
     }
     return result
 }
-```
+// ```
 

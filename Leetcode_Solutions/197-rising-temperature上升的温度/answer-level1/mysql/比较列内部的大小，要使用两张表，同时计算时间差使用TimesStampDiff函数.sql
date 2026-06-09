@@ -1,6 +1,6 @@
-因为比较的是一张表里边两行之间的关系，所以一定要使用两张表。
+-- 因为比较的是一张表里边两行之间的关系，所以一定要使用两张表。
 
-解法1,万能的TimesSatmpDiff函数，计算两个日期函数的差值，day，hour，second都可以：
+-- 解法1,万能的TimesSatmpDiff函数，计算两个日期函数的差值，day，hour，second都可以：
 SELECT 
     w2.Id AS Id
 FROM Weather AS w1，Weather AS w2

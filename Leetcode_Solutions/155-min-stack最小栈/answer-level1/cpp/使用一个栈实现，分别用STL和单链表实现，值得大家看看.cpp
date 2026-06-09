@@ -1,9 +1,9 @@
-# 算法如下:
-自定义一个结构体，里面存放一个int值以及一个指向包含自身以及已经栈内的最小int值的指针。再创建一个私有成员（栈）。所以每个栈元素都有保存数据变量以及指向栈内最小值的指针。可以看出栈内的元素中指向最小值的指针都是单向的，都是由栈顶指向栈底的方向，不会指向后面压入的栈元素，所以，当目前的最小值被pop后（也就是pop的值就是原栈内最小值）并不会改变pop后栈内的最小值。总的来说，除了栈顶元素自身，其他栈元素的指向最小值的指针不可能指向栈顶元素的值。
+// # 算法如下:
+// 自定义一个结构体，里面存放一个int值以及一个指向包含自身以及已经栈内的最小int值的指针。再创建一个私有成员（栈）。所以每个栈元素都有保存数据变量以及指向栈内最小值的指针。可以看出栈内的元素中指向最小值的指针都是单向的，都是由栈顶指向栈底的方向，不会指向后面压入的栈元素，所以，当目前的最小值被pop后（也就是pop的值就是原栈内最小值）并不会改变pop后栈内的最小值。总的来说，除了栈顶元素自身，其他栈元素的指向最小值的指针不可能指向栈顶元素的值。
 
-# 这里给出两个算法：
-1. 算法一：利用STL栈
-```
+// # 这里给出两个算法：
+// 1. 算法一：利用STL栈
+// ```
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -59,12 +59,12 @@ private:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
-![2.png](https://pic.leetcode-cn.com/d8ba9c8995e5706a039acbbacb1f1c194cfd6288e21faeb448f37240777faee2-2.png)
+// ```
+// ![2.png](https://pic.leetcode-cn.com/d8ba9c8995e5706a039acbbacb1f1c194cfd6288e21faeb448f37240777faee2-2.png)
 
 
-2. 算法2：使用单链表实现
-```
+// 2. 算法2：使用单链表实现
+// ```
 class MinStack {
 public:
     typedef struct stacknodo
@@ -154,15 +154,15 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
-![1.png](https://pic.leetcode-cn.com/e44ff6629ea88cd61f7b494e8eeade96119006ff93b6b062d6f8b251e12dff9d-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/e44ff6629ea88cd61f7b494e8eeade96119006ff93b6b062d6f8b251e12dff9d-1.png)
 
-# 优势：
-当本题的数据类型改为string或者更大的数据结构时，将会节省更多的内存空间，优势将会愈来愈大；只需要每个栈元素中放一个数据类型的指针标记最小值的f地址，比如string的指针，而不管是什么类型的指针都是一个字的大小，而不需要用更多的空间备份数据，而数据可能远比一个字还要大。而是用双栈，或者使用一个数据的类型的变量来存储最小值的方法将会使用更多的内存。
+// # 优势：
+// 当本题的数据类型改为string或者更大的数据结构时，将会节省更多的内存空间，优势将会愈来愈大；只需要每个栈元素中放一个数据类型的指针标记最小值的f地址，比如string的指针，而不管是什么类型的指针都是一个字的大小，而不需要用更多的空间备份数据，而数据可能远比一个字还要大。而是用双栈，或者使用一个数据的类型的变量来存储最小值的方法将会使用更多的内存。
 
-最后
-算法1借鉴了[@jason-2](/u/jason-2/)同学的算法：
-[https://leetcode-cn.com/problems/min-stack/solution/yong-zhan-by-jason-2/]()
-算法2借鉴了[@xiaohuntun](/u/xiaohuntun/)同学的算法：
-[https://leetcode-cn.com/problems/min-stack/solution/gen-ju-zhan-de-yuan-li-shi-xian-bu-shi-yong-stl-by/]()
+// 最后
+// 算法1借鉴了[@jason-2](/u/jason-2/)同学的算法：
+// [https://leetcode-cn.com/problems/min-stack/solution/yong-zhan-by-jason-2/]()
+// 算法2借鉴了[@xiaohuntun](/u/xiaohuntun/)同学的算法：
+// [https://leetcode-cn.com/problems/min-stack/solution/gen-ju-zhan-de-yuan-li-shi-xian-bu-shi-yong-stl-by/]()
 

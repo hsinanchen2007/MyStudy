@@ -1,8 +1,8 @@
-### 解题思路
-优先队列外加贪心算法。代码如下
-### 代码
+# ### 解题思路
+# 优先队列外加贪心算法。代码如下
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxEvents(self, events: List[List[int]]) -> int:
         import heapq
@@ -33,4 +33,4 @@ class Solution:
 
         
 
-```
+# ```

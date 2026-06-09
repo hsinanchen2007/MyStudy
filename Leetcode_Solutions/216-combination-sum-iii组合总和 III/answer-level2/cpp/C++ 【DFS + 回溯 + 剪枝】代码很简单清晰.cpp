@@ -1,6 +1,6 @@
-# 代码很简单很清晰，希望对大家有帮助！^_^
+// # 代码很简单很清晰，希望对大家有帮助！^_^
 
-```
+// ```
 int k;
 vector<vector<int>> ans;
 void DFS(int pos, int curr, vector<int>res) {//位置、当前目标值、当前所用数字
@@ -19,4 +19,4 @@ vector<vector<int>> combinationSum3(int k, int n) {
     DFS(1, n, vector<int>{});
     return ans;
 }
-```
+// ```

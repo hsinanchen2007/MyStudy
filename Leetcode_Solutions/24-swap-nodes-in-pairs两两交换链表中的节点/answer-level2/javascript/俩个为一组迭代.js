@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 // 55/55 cases passed (52 ms)
 // Your runtime beats 98.62 % of javascript submissions
 // Your memory usage beats 54.34 % of javascript submissions (33.8 MB)
@@ -30,4 +30,4 @@ var swapPairs = function(head) {
     }
     return result.next
 };
-```
+// ```

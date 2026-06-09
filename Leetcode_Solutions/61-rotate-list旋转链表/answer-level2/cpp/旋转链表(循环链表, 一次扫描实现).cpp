@@ -1,9 +1,9 @@
-### 解题思路
-一次扫描链表,并保存,连成环,然后在合适位置断开
+// ### 解题思路
+// 一次扫描链表,并保存,连成环,然后在合适位置断开
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ public:
         return Nodes[(n-k%n)%n];
     }
 };
-```
+// ```

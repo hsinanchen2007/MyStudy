@@ -1,11 +1,11 @@
-### 解题思路
-动态规划
-dp[i] 表示组成总金额数为i的最小硬币数
-dp[i] = {min(dp[i-c])(for c in coins)}+1
+// ### 解题思路
+// 动态规划
+// dp[i] 表示组成总金额数为i的最小硬币数
+// dp[i] = {min(dp[i-c])(for c in coins)}+1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
@@ -25,4 +25,4 @@ public:
         return dp[amount];
     }
 };
-```
+// ```

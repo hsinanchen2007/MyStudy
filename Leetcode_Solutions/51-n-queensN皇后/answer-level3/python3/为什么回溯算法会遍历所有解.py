@@ -1,7 +1,7 @@
-虽然通过了，但是有一处不解：为什么程序会遍历所有解
+# 虽然通过了，但是有一处不解：为什么程序会遍历所有解
 
 
-```python [class Solution:
+# ```python [class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         self.List = [-1]*n
         index = 0
@@ -37,7 +37,7 @@
             newlist.append(newstr)
         self.newlist.append(newlist)
         return ]
-```
+# ```
 
 
 

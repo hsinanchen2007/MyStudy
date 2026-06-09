@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int myAtoi(String str) {
         String newStr = "";
@@ -44,5 +44,5 @@ class Solution {
         return (int)num * symbol;
     }
 }
-```
-    当然，在判断越界的时候直接把运算放到右侧，用int也可以的
+// ```
+//     当然，在判断越界的时候直接把运算放到右侧，用int也可以的

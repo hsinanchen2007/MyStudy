@@ -1,5 +1,5 @@
-go里面的container包基本没用过，需要练练手。
-```
+// go里面的container包基本没用过，需要练练手。
+// ```
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	l := list.New()
 	record := make(map[int]int, len(nums2))
@@ -23,4 +23,4 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	}
 	return nums1
 }
-```
+// ```

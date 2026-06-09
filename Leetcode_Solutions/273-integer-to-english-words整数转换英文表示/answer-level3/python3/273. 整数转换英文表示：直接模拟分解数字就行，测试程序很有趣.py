@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/b47147ac47e643ebb61ffaa1ab996fce347f9591e1dc9d784fd9748f68e544ae-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b47147ac47e643ebb61ffaa1ab996fce347f9591e1dc9d784fd9748f68e544ae-image.png)
 
-难度可以说没有，就是模拟分解数字，三位三位的分解就是了，就是测试数据和验证程序很有意思。
+# 难度可以说没有，就是模拟分解数字，三位三位的分解就是了，就是测试数据和验证程序很有意思。
 
-```python []
+# ```python []
 class Solution:
     def numberToWords(self, num: int) -> str:
         b = {1000000000: 'Billion', 1000000: 'Million', 1000: 'Thousand'}
@@ -36,9 +36,9 @@ class Solution:
                 ans += f(num // i) + [b[i]]
                 num %= i
         return ' '.join(ans + f(num))
-```
+# ```
 
 
-明明说了是非负整数，但是系统却可以通过负数的测试，小数和超容则都通不过。
+# 明明说了是非负整数，但是系统却可以通过负数的测试，小数和超容则都通不过。
 
-![image.png](https://pic.leetcode-cn.com/7bcdf2b2c07e4d47f6b23f82182ef20ae2b2ef64e4f2044aa8ed770fd2d561c0-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7bcdf2b2c07e4d47f6b23f82182ef20ae2b2ef64e4f2044aa8ed770fd2d561c0-image.png)

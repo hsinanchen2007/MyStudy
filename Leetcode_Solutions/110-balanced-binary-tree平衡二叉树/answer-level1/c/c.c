@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -59,4 +59,4 @@ bool isBalanced(struct TreeNode* root){
     return result;
 
 }
-```
+// ```

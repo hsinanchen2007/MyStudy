@@ -1,4 +1,4 @@
-```
+// ```
 class MyLinkedList {
     
     public class Node {
@@ -109,4 +109,4 @@ class MyLinkedList {
  * obj.addAtIndex(index,val);
  * obj.deleteAtIndex(index);
  */
-```
+// ```

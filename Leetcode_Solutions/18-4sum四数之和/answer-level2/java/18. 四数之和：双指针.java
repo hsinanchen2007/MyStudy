@@ -1,19 +1,19 @@
-### 解题思路
-其实大致思路跟三数之和差不多，只是多了一层循环；
-先把给定数组排序，之后需要先确定两个数的值，接下来在利用双指针，遍历所有的情况
-第一层循环：去重，当前循环四数之和的最小值:nums[first]+nums[first+1]+nums[first+2]+nums[first+3]和最大值:nums[first]+nums[length]+nums[length-1]+nums[length-2]+nums[length-3]分别与target比较，不符合情况，直接continue；
-第二层循环：去重，设置第三个数的初始下标three=second+1，第四个数的初始下标four=length-1，
-同样的把当前四数之和的最小值nums[first]+nums[second]+nums[second+1]+nums[second+2]和最大值：nums[first]+nums[second]+nums[length]+nums[length-1]与target比较，不符合情况，直接continue；
-第三层循环：这一层循环就是移动three和four两个指针，遍历数组找出符合的组合；
-sum=nums[first]+nums[second]+nums[three]+nums[four]
-    1. sum > target: four--;
-    2. sum < target: three++;\
-    3. sum == target: 找到符合情况的组合，加入result；同时需要把three指针和four指针在移动过程中存在的重复值去除掉；
-最终得到的result就是所有不重复的结果
+// ### 解题思路
+// 其实大致思路跟三数之和差不多，只是多了一层循环；
+// 先把给定数组排序，之后需要先确定两个数的值，接下来在利用双指针，遍历所有的情况
+// 第一层循环：去重，当前循环四数之和的最小值:nums[first]+nums[first+1]+nums[first+2]+nums[first+3]和最大值:nums[first]+nums[length]+nums[length-1]+nums[length-2]+nums[length-3]分别与target比较，不符合情况，直接continue；
+// 第二层循环：去重，设置第三个数的初始下标three=second+1，第四个数的初始下标four=length-1，
+// 同样的把当前四数之和的最小值nums[first]+nums[second]+nums[second+1]+nums[second+2]和最大值：nums[first]+nums[second]+nums[length]+nums[length-1]与target比较，不符合情况，直接continue；
+// 第三层循环：这一层循环就是移动three和four两个指针，遍历数组找出符合的组合；
+// sum=nums[first]+nums[second]+nums[three]+nums[four]
+//     1. sum > target: four--;
+//     2. sum < target: three++;\
+//     3. sum == target: 找到符合情况的组合，加入result；同时需要把three指针和four指针在移动过程中存在的重复值去除掉；
+// 最终得到的result就是所有不重复的结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         int length=nums.length;
@@ -72,4 +72,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-憨憨减1超时了。
+// 憨憨减1超时了。
 
-```
+// ```
 impl Solution {
    fn divide_posi(mut dividend: i32, divisor: i32) -> i32 {
         let mut ret = 0;
@@ -54,4 +54,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         if (!canFinish(numCourses, prerequisites)) {
@@ -72,4 +72,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

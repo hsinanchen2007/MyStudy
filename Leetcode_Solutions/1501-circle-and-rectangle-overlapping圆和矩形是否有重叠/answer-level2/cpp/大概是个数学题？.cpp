@@ -1,11 +1,11 @@
-### 解题思路
-![捕获.PNG](https://pic.leetcode-cn.com/7d284c65d841513b3deab015044e73c17482f79a0ba54a01308189faad4f3d5c-%E6%8D%95%E8%8E%B7.PNG)
-红色框离矩形的边的距离都是r
-只要圆心在红色框的范围内就ok
+// ### 解题思路
+// ![捕获.PNG](https://pic.leetcode-cn.com/7d284c65d841513b3deab015044e73c17482f79a0ba54a01308189faad4f3d5c-%E6%8D%95%E8%8E%B7.PNG)
+// 红色框离矩形的边的距离都是r
+// 只要圆心在红色框的范围内就ok
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkOverlap(int r, int xc, int yc, int x1, int y1, int x2, int y2) {
@@ -42,4 +42,4 @@ public:
         return 0;
     }
 };
-```
+// ```

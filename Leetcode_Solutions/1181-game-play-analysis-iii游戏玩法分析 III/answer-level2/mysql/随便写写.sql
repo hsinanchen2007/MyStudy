@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select A1.player_id, A1.event_date, sum(A2.games_played) as games_played_so_far
 from
@@ -14,4 +14,4 @@ on A1.player_id = A2.player_id and
    A1.event_date >= A2.event_date
 group by 1,2
 order by 1,2
-```
+-- ```

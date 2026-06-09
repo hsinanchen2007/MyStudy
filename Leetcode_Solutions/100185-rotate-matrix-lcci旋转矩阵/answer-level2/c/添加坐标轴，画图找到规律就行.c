@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/cd8abf61bf75f2e1ac4d85c699bd28e12eb415319e27a1af3456513195e591fa-image.png)
-外层循环次数应该可以不用sqrt求对角线长度，可能用时还能短一些吧
+// ![image.png](https://pic.leetcode-cn.com/cd8abf61bf75f2e1ac4d85c699bd28e12eb415319e27a1af3456513195e591fa-image.png)
+// 外层循环次数应该可以不用sqrt求对角线长度，可能用时还能短一些吧
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int row, col, diagonal;
     int i ,j;
@@ -35,4 +35,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         }
     }
 }
-```
+// ```

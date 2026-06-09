@@ -1,10 +1,10 @@
-### 解题思路
-1. 使用三个节点，pre保存反转结果，cur代表当前遍历到的节点，next保存未反转部分。
-2. 代码中有详细注释和示例。
+// ### 解题思路
+// 1. 使用三个节点，pre保存反转结果，cur代表当前遍历到的节点，next保存未反转部分。
+// 2. 代码中有详细注释和示例。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return pre;
     }
 }
-```
+// ```

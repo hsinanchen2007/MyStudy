@@ -1,5 +1,5 @@
-只需要将有效的得分添加进栈中，最后计算和即可
-```
+// 只需要将有效的得分添加进栈中，最后计算和即可
+// ```
 import java.util.*
 class Solution {
     fun calPoints(ops: Array<String>): Int {
@@ -33,6 +33,6 @@ class Solution {
         return result
     }
 }
-```
+// ```
 
 

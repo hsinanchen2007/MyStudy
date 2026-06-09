@@ -1,4 +1,4 @@
-```
+// ```
 	public bool CheckPossibility(int[] nums)
 	{
 		var numsTemp = nums.ToArray();
@@ -29,5 +29,5 @@
 		}
 		return isOK || isOKTemp;
 	}
-```
-在i和i + 1出现递减的时候, 尝试让nums[i] = nums[i + 1], 重新开始判断, 如果是非递减, 返回true, 否则, 让nums[i + 1] = nums[i], 再次重新判断, 如果是非递减, 返回true, 否则, 返回false
+// ```
+// 在i和i + 1出现递减的时候, 尝试让nums[i] = nums[i + 1], 重新开始判断, 如果是非递减, 返回true, 否则, 让nums[i + 1] = nums[i], 再次重新判断, 如果是非递减, 返回true, 否则, 返回false

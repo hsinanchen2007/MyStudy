@@ -1,6 +1,6 @@
-同[486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)几乎一个套路的博弈问题，这类题都可以用这种动规+回溯的方法求解
+# 同[486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)几乎一个套路的博弈问题，这类题都可以用这种动规+回溯的方法求解
 
-```python
+# ```python
 class Solution:
     def stoneGameII(self, piles: List[int]) -> int:
         dp = {}
@@ -24,4 +24,4 @@ class Solution:
                 dp[M, start] = max_pre, max_post
             return dp[M, start]
         return max_get(1, 0)[0]
-```
+# ```

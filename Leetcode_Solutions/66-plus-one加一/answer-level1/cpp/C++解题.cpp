@@ -1,9 +1,9 @@
-### 解题思路
-参考自[@yhhzw](/u/yhhzw/)
+// ### 解题思路
+// 参考自[@yhhzw](/u/yhhzw/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	//除9,99,999之外的数字+1即可
@@ -21,4 +21,4 @@ public:
 		return ans;
 	}
 };
-```
+// ```

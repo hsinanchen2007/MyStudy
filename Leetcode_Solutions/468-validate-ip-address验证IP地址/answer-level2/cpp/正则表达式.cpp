@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-C++使用正则表达式，但效率极低，内存消耗也极高。
+// C++使用正则表达式，但效率极低，内存消耗也极高。
 
-建议遍历，效率高，内存占用小。
+// 建议遍历，效率高，内存占用小。
 
-### 代码
+// ### 代码
 
-```cpp []
+// ```cpp []
 class Solution
 {
 public:
@@ -17,6 +17,6 @@ public:
         return regex_match(IP, ipv4_r) ? "IPv4" : regex_match(IP, ipv6_r) ? "IPv6" : "Neither";
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/5d1da8c49347a238939287a87abf68d64a369fe1d2ec64a9c716e0fe697073ea-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5d1da8c49347a238939287a87abf68d64a369fe1d2ec64a9c716e0fe697073ea-image.png)

@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-![图片.png](https://pic.leetcode-cn.com/236867072140b57a03e6a68b8315416dc7780d904ca00ae583d3ea529200dbe4-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/236867072140b57a03e6a68b8315416dc7780d904ca00ae583d3ea529200dbe4-%E5%9B%BE%E7%89%87.png)
 
-想了很久，最后还是选择参考评论里的大神hhhhhh
-大致思路：从右上角开始查找，如果target>该数则删除行，target<该数则删除列
-具体见代码↓↓
+// 想了很久，最后还是选择参考评论里的大神hhhhhh
+// 大致思路：从右上角开始查找，如果target>该数则删除行，target<该数则删除列
+// 具体见代码↓↓
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool findNumberIn2DArray(int** matrix, int matrixSize, int* matrixColSize, int target){
     
     
@@ -38,4 +38,4 @@ bool findNumberIn2DArray(int** matrix, int matrixSize, int* matrixColSize, int t
     return false;
 
 }
-```
+// ```

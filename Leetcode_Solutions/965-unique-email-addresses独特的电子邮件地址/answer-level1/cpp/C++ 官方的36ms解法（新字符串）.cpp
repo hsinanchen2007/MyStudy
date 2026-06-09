@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int numUniqueEmails(vector<string>& emails) {
@@ -16,4 +16,4 @@ public:
         return hash.size();
     }
 };
-```
+// ```

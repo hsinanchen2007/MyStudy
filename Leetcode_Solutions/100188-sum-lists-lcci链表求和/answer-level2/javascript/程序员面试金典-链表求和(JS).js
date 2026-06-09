@@ -1,6 +1,6 @@
-### 重复题 原题是leetcode 2 两数相加 
-在字节飞书的笔试题写过
-```js
+// ### 重复题 原题是leetcode 2 两数相加 
+// 在字节飞书的笔试题写过
+// ```js
 var addTwoNumbers = function(l1, l2) {
     let sum = 0,
         head = {},
@@ -14,4 +14,4 @@ var addTwoNumbers = function(l1, l2) {
     }
     return head.next;
 };
-```
+// ```

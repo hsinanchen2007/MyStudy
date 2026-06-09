@@ -1,10 +1,10 @@
-使用 map 进行查找操作，使用双向链表记录值的新旧(链表头部代表最新数据)
+// 使用 map 进行查找操作，使用双向链表记录值的新旧(链表头部代表最新数据)
 
-get 和 put 时间复杂度都为 O(1)
+// get 和 put 时间复杂度都为 O(1)
 
-具体见代码注释
+// 具体见代码注释
 
-```
+// ```
 struct MyListNode {
     MyListNode* next;
     MyListNode* pre;
@@ -79,4 +79,4 @@ class LRUCache {
     MyListNode* _head;
     MyListNode* _tail;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-自定义头前节点来保证后续节点的判断，不需要特殊处理头节点
+// ### 解题思路
+// 自定义头前节点来保证后续节点的判断，不需要特殊处理头节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -28,4 +28,4 @@ class Solution {
         return node0.next;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-代码写的比较形象化，就是看看四个方向能不能走，然后在搜索顺序和剪枝上都做了下优化
-![image.png](https://pic.leetcode-cn.com/3a3b4e4eb084b22fd2b186012d2ab40a4e5e8526bc2a9e8c178b5d6d80f8b099-image.png)
+// ### 解题思路
+// 代码写的比较形象化，就是看看四个方向能不能走，然后在搜索顺序和剪枝上都做了下优化
+// ![image.png](https://pic.leetcode-cn.com/3a3b4e4eb084b22fd2b186012d2ab40a4e5e8526bc2a9e8c178b5d6d80f8b099-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     struct position{
@@ -74,4 +74,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/ba32d622f82a981af19ff466ac8ed5a8b6cec12f71be547f1fd99584fdfff2dd-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/ba32d622f82a981af19ff466ac8ed5a8b6cec12f71be547f1fd99584fdfff2dd-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isOneBitCharacter(self, bits):
         """
@@ -20,4 +20,4 @@ class Solution(object):
                 return True
         
         return p!=len(bits)
-```
+# ```

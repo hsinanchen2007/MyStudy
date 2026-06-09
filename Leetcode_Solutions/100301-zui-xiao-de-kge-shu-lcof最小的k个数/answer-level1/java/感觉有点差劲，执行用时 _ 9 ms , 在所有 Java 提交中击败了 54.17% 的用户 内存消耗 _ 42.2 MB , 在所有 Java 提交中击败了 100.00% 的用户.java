@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         //首先，先定义一个数组，用来存储和返回
@@ -19,4 +19,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

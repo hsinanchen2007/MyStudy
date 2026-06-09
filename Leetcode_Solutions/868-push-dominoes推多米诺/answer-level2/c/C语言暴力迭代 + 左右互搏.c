@@ -1,7 +1,7 @@
-方法一：数据量不大，直接暴力记录每轮的状态，状态不再变化时结束。
-方法二：先从左往右推，遇到L再局部从右往左推。
-代码：
-```
+// 方法一：数据量不大，直接暴力记录每轮的状态，状态不再变化时结束。
+// 方法二：先从左往右推，遇到L再局部从右往左推。
+// 代码：
+// ```
 char * pushDominoes(char * dominoes){
     int len = strlen(dominoes);
     if (len == 0) {
@@ -45,9 +45,9 @@ char * pushDominoes(char * dominoes){
     }
     return dominoes;
 }
-```
-方法二：
-```
+// ```
+// 方法二：
+// ```
 char * pushDominoes(char * dominoes){
     int len = strlen(dominoes);
     if (len == 0) {
@@ -81,5 +81,5 @@ char * pushDominoes(char * dominoes){
     }
     return dominoes;
 }
-```
+// ```
 

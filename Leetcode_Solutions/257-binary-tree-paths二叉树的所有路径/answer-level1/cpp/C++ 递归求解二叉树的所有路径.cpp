@@ -1,7 +1,7 @@
-### 解题思路
+// ### 解题思路
 
-很简单的问题，对于这种二叉树遍历的问题，使用递归的话，解题框架是一样的
-```cpp
+// 很简单的问题，对于这种二叉树遍历的问题，使用递归的话，解题框架是一样的
+// ```cpp
 void dfs(TreeNode* root){
     if(!root) return;
     /*
@@ -16,10 +16,10 @@ void dfs(TreeNode* root){
     dfs(root->left);
     dfs(root->right)
 }
-```
+// ```
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     vector<string> binaryTreePaths(TreeNode* root) {
@@ -41,4 +41,4 @@ private:
         dfs(root->right, v, prev);
     }
 };
-```
+// ```

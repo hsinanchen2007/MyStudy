@@ -1,9 +1,9 @@
-### 解题思路
-Js 集合 parseint 转换
+// ### 解题思路
+// Js 集合 parseint 转换
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {number}
@@ -18,4 +18,4 @@ var myAtoi = function(str) {
     }
     return int ?int : 0; 
 };
-```
+// ```

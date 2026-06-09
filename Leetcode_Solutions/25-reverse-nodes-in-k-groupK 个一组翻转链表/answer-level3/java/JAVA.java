@@ -1,10 +1,10 @@
-### 解题思路
-利用递归
-每k个数可以看作是链表的倒序，不停递归 直到剩余的结点不足k为止
+// ### 解题思路
+// 利用递归
+// 每k个数可以看作是链表的倒序，不停递归 直到剩余的结点不足k为止
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -43,4 +43,4 @@ class Solution {
         }
     }
 }
-```
+// ```

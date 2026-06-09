@@ -1,5 +1,5 @@
-深度遍历组合成字符串，叶子节点转换成number累加输出结果
-```js
+// 深度遍历组合成字符串，叶子节点转换成number累加输出结果
+// ```js
 var sumNumbers = function(root) {
     var res = 0;
     dfs(root, '');
@@ -15,4 +15,4 @@ var sumNumbers = function(root) {
         dfs(root.right, str);
     }
 };
-```
+// ```

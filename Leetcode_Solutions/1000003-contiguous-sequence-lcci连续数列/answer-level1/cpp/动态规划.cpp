@@ -1,7 +1,7 @@
-很明显是dp
-关键点在于找到状态转移方程 dp[i] = max(dp[i-1]+nums[i],nums[i])
-可以直接在原数组上直接进行修改，并用一个值来存储当前最大的数组序列和
-```cpp
+// 很明显是dp
+// 关键点在于找到状态转移方程 dp[i] = max(dp[i-1]+nums[i],nums[i])
+// 可以直接在原数组上直接进行修改，并用一个值来存储当前最大的数组序列和
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return max;
     }
 };
-```
+// ```

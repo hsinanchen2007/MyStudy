@@ -1,4 +1,4 @@
-```
+// ```
 type HitCounter struct {
 	ts [300]int
 	cs [300]int
@@ -28,4 +28,4 @@ func (this *HitCounter) GetHits(timestamp int) int {
 	}
 	return sum
 }
-```
+// ```

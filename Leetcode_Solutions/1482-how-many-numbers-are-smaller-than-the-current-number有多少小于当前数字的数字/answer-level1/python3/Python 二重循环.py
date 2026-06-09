@@ -1,9 +1,9 @@
-### 解题思路
-Python 二重循环
+# ### 解题思路
+# Python 二重循环
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
         lens = len(nums)
@@ -16,4 +16,4 @@ class Solution:
                     count[j] += 1
         return count
 
-```
+# ```

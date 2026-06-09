@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int sign_value[10000] = {0};
 
 bool hasSameNum(int a, int b)
@@ -46,4 +46,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
 
     return true;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-统计words中的频率,因为题目中说最大长度为10, 放到数组中,然后计算freq小于等于i的cnt,每个queries直接取数组即可
-```java
+// 统计words中的频率,因为题目中说最大长度为10, 放到数组中,然后计算freq小于等于i的cnt,每个queries直接取数组即可
+// ```java
 class Solution {
     public int[] numSmallerByFrequency(String[] queries, String[] words) {
         int[] charCntNum = new int[11];
@@ -33,4 +33,4 @@ class Solution {
         return cnt;
     }
 }
-```
+// ```

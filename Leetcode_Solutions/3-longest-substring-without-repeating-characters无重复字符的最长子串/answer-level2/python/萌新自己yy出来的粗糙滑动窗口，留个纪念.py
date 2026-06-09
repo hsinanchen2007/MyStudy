@@ -1,10 +1,10 @@
-### 解题思路
-没想到这做法还有名字，可惜在边界情况处理很麻烦
-正在尝试优化
+# ### 解题思路
+# 没想到这做法还有名字，可惜在边界情况处理很麻烦
+# 正在尝试优化
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         if len(s)==0:return 0
@@ -24,4 +24,4 @@ class Solution(object):
             return len(s)
         return max(count.values())
 
-```
+# ```

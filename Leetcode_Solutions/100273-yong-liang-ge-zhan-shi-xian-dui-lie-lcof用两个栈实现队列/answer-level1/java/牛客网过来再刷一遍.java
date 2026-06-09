@@ -1,9 +1,9 @@
-### 解题思路
-主要就是最后s2的pop操作需要判空，不然会出错
+// ### 解题思路
+// 主要就是最后s2的pop操作需要判空，不然会出错
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CQueue {
     private Stack<Integer> s1;
     private Stack<Integer> s2;
@@ -32,4 +32,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

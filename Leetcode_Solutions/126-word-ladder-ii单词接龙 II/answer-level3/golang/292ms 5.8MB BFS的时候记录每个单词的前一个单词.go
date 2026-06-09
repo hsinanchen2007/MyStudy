@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-BFS的时候使用一个map记录每个单词的前一个单词，然后再从endWork 基于这个map执行dfs来得到结果
+// BFS的时候使用一个map记录每个单词的前一个单词，然后再从endWork 基于这个map执行dfs来得到结果
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func findLadders(beginWord string, endWord string, wordList []string) [][]string {
 
@@ -138,4 +138,4 @@ func queryLadders(root string, prePath []string, result *[][]string, parentMap m
 
 }
 
-```
+// ```

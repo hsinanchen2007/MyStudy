@@ -1,5 +1,5 @@
-主要是改变了dp数组的定义
-```cpp
+// 主要是改变了dp数组的定义
+// ```cpp
 class Solution 
 {
 public:
@@ -41,4 +41,4 @@ public:
         return dp.size();       //dp数组的长度即为最长上升子序列的长度
     }
 };
-```
+// ```

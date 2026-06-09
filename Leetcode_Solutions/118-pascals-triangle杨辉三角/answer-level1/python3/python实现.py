@@ -1,9 +1,9 @@
-### 解题思路
-先初始化每行元素，之后利用动态规划实现累加运算
+# ### 解题思路
+# 先初始化每行元素，之后利用动态规划实现累加运算
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         List = []
@@ -23,4 +23,4 @@ class Solution:
 
 
 
-```
+# ```

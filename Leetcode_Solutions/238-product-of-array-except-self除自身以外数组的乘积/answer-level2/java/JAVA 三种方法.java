@@ -1,6 +1,6 @@
-**第一种方法（暴解） 面向测试用例**
-最后一个用例是基本都是1和-1 所以直接跳过就不会超时，不过时间效率太低
-```
+// **第一种方法（暴解） 面向测试用例**
+// 最后一个用例是基本都是1和-1 所以直接跳过就不会超时，不过时间效率太低
+// ```
     public int[] productExceptSelf(int[] nums) {
         int[] res = new int[nums.length];
         Arrays.fill(res,1);
@@ -16,10 +16,10 @@
         }
         return res;
     }
-```
-**第二种方法 用一个left[]和right[]进行保存i左边和右边的乘积 **
-两次遍历得到结果
-```
+// ```
+// **第二种方法 用一个left[]和right[]进行保存i左边和右边的乘积 **
+// 两次遍历得到结果
+// ```
     public int[] productExceptSelf(int[] nums) {
         int[] res = new int[nums.length];
         int[] left = new int[nums.length];
@@ -53,11 +53,11 @@
         }
         return res;
     }
-```
+// ```
 
-**第三种跟第二种差不多，其实我们用一个常量去保持右边遍历的right[] 就可以了 然后一直更新left[] 就可以达到空间复杂度为O（n）的情况**
-首先还是遍历一次left[],其次从后往前更新乘积即可
-```
+// **第三种跟第二种差不多，其实我们用一个常量去保持右边遍历的right[] 就可以了 然后一直更新left[] 就可以达到空间复杂度为O（n）的情况**
+// 首先还是遍历一次left[],其次从后往前更新乘积即可
+// ```
     public int[] productExceptSelf(int[] nums) {
         int[] res = new int[nums.length];
         for (int i = 0; i < nums.length; i++) {
@@ -87,6 +87,6 @@
         }
 return res;
     }
-```
+// ```
 
 

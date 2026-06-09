@@ -1,9 +1,9 @@
-### 解题思路
-	排完序后如果后面一个数小于等于前面一个数则赋值为前一个数+1，增量为改变的差值。
+// ### 解题思路
+// 	排完序后如果后面一个数小于等于前面一个数则赋值为前一个数+1，增量为改变的差值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a, const void *b) {
 	return *(int*)a > *(int*)b;
 }
@@ -22,4 +22,4 @@ int minIncrementForUnique(int* A, int ASize) {
 	}
 	return move;
 }
-```
+// ```

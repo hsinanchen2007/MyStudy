@@ -1,7 +1,7 @@
-![Screen Shot 2020-04-01 at 1.34.37 PM.png](https://pic.leetcode-cn.com/474e3df96d6cea7a5244c6365d4a4a38dffa36a62ab9f4d2072ac65bee52ef8a-Screen%20Shot%202020-04-01%20at%201.34.37%20PM.png)
+// ![Screen Shot 2020-04-01 at 1.34.37 PM.png](https://pic.leetcode-cn.com/474e3df96d6cea7a5244c6365d4a4a38dffa36a62ab9f4d2072ac65bee52ef8a-Screen%20Shot%202020-04-01%20at%201.34.37%20PM.png)
 
 
-```c++
+// ```c++
 class Solution {
 public:
     int longestSubstring(string s, int k) {
@@ -35,4 +35,4 @@ public:
         return ans;
     }
 };
-```
+// ```

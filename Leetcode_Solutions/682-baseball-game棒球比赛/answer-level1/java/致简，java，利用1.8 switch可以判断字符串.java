@@ -1,4 +1,4 @@
-```java
+// ```java
 public int calPoints(String[] ops) {
         int score = 0;
         Stack<Integer> stack = new Stack<>();
@@ -19,4 +19,4 @@ public int calPoints(String[] ops) {
         }
         return score;
     }
-```
+// ```

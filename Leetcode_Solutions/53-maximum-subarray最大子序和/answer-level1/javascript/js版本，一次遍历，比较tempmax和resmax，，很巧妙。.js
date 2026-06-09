@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历，比较tempmax和resmax，，很巧妙。
+// ### 解题思路
+// 一次遍历，比较tempmax和resmax，，很巧妙。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * 遍历，比较tempmax和resmax，，很巧妙。
  */
@@ -34,4 +34,4 @@ var maxSubArray = function(nums) {
 
 
 
-```
+// ```

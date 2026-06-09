@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/aafbbbfedaf978e1dc4875f4fc77af88cc03d556fe4285767cf3960f94ccd695-image.png)
+// ![image.png](https://pic.leetcode-cn.com/aafbbbfedaf978e1dc4875f4fc77af88cc03d556fe4285767cf3960f94ccd695-image.png)
 
-### 解题思路
-常规的思路模拟加法。
-1. 参考了最佳写法，采用char数组的方式，避免了字符串的reverse
-2. 空间换时间，转成array来提高charAt的速度。
-3. 做了一次数组的交换，减少了分支和重复代码。
-4. 把a和b的定义放到了循环外层，可以提高效率。
+// ### 解题思路
+// 常规的思路模拟加法。
+// 1. 参考了最佳写法，采用char数组的方式，避免了字符串的reverse
+// 2. 空间换时间，转成array来提高charAt的速度。
+// 3. 做了一次数组的交换，减少了分支和重复代码。
+// 4. 把a和b的定义放到了循环外层，可以提高效率。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addStrings(String num1, String num2) {
         char[] chArr1 = num1.toCharArray();
@@ -42,4 +42,4 @@ class Solution {
         return "1" + String.valueOf(chArr1);
     }
 }
-```
+// ```

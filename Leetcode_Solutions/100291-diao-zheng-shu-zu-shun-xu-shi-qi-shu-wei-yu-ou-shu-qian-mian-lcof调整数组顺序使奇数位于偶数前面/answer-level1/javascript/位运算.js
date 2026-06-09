@@ -1,9 +1,9 @@
-### 解题思路
-位运算
+// ### 解题思路
+// 位运算
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -16,4 +16,4 @@ var exchange = function(arr) {
   });
   return res;
 };
-```
+// ```

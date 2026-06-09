@@ -1,9 +1,9 @@
-### 解题思路
-通过链表栈实现最小栈（链表栈可以存储更多元数据信息）
+// ### 解题思路
+// 通过链表栈实现最小栈（链表栈可以存储更多元数据信息）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
     /** initialize your data structure here. */
@@ -66,4 +66,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

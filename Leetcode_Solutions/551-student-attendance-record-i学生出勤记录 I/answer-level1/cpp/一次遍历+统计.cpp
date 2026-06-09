@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool checkRecord(string s) {
@@ -21,5 +21,5 @@ public:
 
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/e65f35c048657889c5a106d87a53a077be21033da1437cb49c604860ce5f9279-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e65f35c048657889c5a106d87a53a077be21033da1437cb49c604860ce5f9279-image.png)

@@ -1,10 +1,10 @@
-### 解题思路
-统计两个字符串每个字母出现的个数
-然后比较哪个字母出现次数不同
+// ### 解题思路
+// 统计两个字符串每个字母出现的个数
+// 然后比较哪个字母出现次数不同
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char findTheDifference(String s, String t) {
         int[] countS = new int[26];
@@ -29,4 +29,4 @@ class Solution {
         
     }
 }
-```
+// ```

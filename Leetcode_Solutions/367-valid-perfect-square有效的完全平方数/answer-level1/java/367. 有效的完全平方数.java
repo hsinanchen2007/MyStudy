@@ -1,14 +1,14 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/3
- *
- * 解题思路: 牛顿迭代法
- */
-![CD3748A47C35F5B3DFAE630318C8FF67.png](https://pic.leetcode-cn.com/759c6f0a96371eb2f6217d95aa14021d05e42567738492bf5a7810366e10f89f-CD3748A47C35F5B3DFAE630318C8FF67.png)
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/3
+//  *
+//  * 解题思路: 牛顿迭代法
+//  */
+// ![CD3748A47C35F5B3DFAE630318C8FF67.png](https://pic.leetcode-cn.com/759c6f0a96371eb2f6217d95aa14021d05e42567738492bf5a7810366e10f89f-CD3748A47C35F5B3DFAE630318C8FF67.png)
 
-```
+// ```
   public boolean isPerfectSquare(int num) {
         if(num <= 0){
             return false;
@@ -24,4 +24,4 @@
         }
         return true;
     }
-```
+// ```

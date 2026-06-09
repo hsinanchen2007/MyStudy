@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPerfectSquare(int x) {
         if (x < 2) {
@@ -23,4 +23,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

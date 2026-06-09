@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lengthOfLongestSubstringTwoDistinct(self, s: str) -> int:
         freqDict = {}
@@ -19,4 +19,4 @@ class Solution:
                         del freqDict[leftChar]
             maxLen = max(maxLen, windowEnd - windowStart + 1)
         return maxLen
-```
+# ```

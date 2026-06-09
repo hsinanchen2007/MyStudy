@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findMinDifference(vector<string>& timePoints) {
@@ -17,4 +17,4 @@ public:
             return stoi(s)*60+stoi(s.substr(3));
     }
 };
-```
+// ```

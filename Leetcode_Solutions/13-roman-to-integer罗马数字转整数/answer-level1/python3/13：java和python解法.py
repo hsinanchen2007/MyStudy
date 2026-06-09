@@ -1,7 +1,7 @@
-java用的是switch建立联系，把对应的数字按照顺序放置在一个新的List中。之后，从左往右判断，随后如果是左边小于右边，则将右边减去左边并将结果替代两个本身的值，否则保持不变，最后对List所剩的元素进行累加。
-python3参考了用户Shao的思路，从右往左判断，简化了代码。
+# java用的是switch建立联系，把对应的数字按照顺序放置在一个新的List中。之后，从左往右判断，随后如果是左边小于右边，则将右边减去左边并将结果替代两个本身的值，否则保持不变，最后对List所剩的元素进行累加。
+# python3参考了用户Shao的思路，从右往左判断，简化了代码。
 
-```java []
+# ```java []
 public int romanToInt(String s) {
         ArrayList<Integer> sToInteger = new ArrayList<Integer>();
         for (int i = 0; i < s.length(); i++) {
@@ -29,8 +29,8 @@ public int romanToInt(String s) {
         return sum;
 
     }
-```
-```python []
+# ```
+# ```python []
 def romanToInt(s: str) -> int:
     dic = {"I":1,"V":5, "X":10,"L":50,"C":100,"D":500,"M":1000 }
     prev = 0
@@ -44,6 +44,6 @@ def romanToInt(s: str) -> int:
             result += temp
         prev = temp
     return result
-```
+# ```
 
 

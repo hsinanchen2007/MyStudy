@@ -1,4 +1,4 @@
-```
+// ```
 public static List<Boolean> camelMatch(String[] queries, String pattern) {
     	List<Boolean> res = new ArrayList<>();
     	
@@ -27,4 +27,4 @@ public static List<Boolean> camelMatch(String[] queries, String pattern) {
     	
     	return res;
     }
-```
+// ```

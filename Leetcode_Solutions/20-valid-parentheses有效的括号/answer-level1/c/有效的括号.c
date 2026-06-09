@@ -1,6 +1,6 @@
-注意边界情况：'[' 或者 ''
+// 注意边界情况：'[' 或者 ''
 
-```
+// ```
 bool isValid(char * s){
     int len = strlen(s), top = -1, i;
     char c;
@@ -27,4 +27,4 @@ bool isValid(char * s){
     if(i == len && top == -1 ) return true;   // 记得保证栈最后为空。。
     else return false;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-根据官方的讲解，我复现出第三种和第四种方法
+// 根据官方的讲解，我复现出第三种和第四种方法
 
-## 缓存行
-将第i行的的下标从零到j的和保存到数组dp[i][j]中,调用sumRegion方法时，只需要累加dp[i][col2],row1<=i<=row2,减去dp[i][col1-1]即可
+// ## 缓存行
+// 将第i行的的下标从零到j的和保存到数组dp[i][j]中,调用sumRegion方法时，只需要累加dp[i][col2],row1<=i<=row2,减去dp[i][col1-1]即可
 
 ~~~js
 var NumMatrix = function (matrix) {

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isPalindrome(string& s,int beg,int end){
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

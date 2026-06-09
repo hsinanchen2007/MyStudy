@@ -1,11 +1,11 @@
-### 解题思路
-双指针
-执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :43.1 MB, 在所有 Java 提交中击败了99.75%的用户
+// ### 解题思路
+// 双指针
+// 执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :43.1 MB, 在所有 Java 提交中击败了99.75%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void reverseString(char[] s) {
         if(s.length <= 1)   return;
@@ -21,4 +21,4 @@ class Solution {
         return ;
     }
 }
-```
+// ```

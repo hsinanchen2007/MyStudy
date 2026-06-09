@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int triangleNumber(vector<int>& nums) {
@@ -21,6 +21,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/3af173afcc687115f2407457435f1c6e544511ee992001cc117f6ef42df49d8e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3af173afcc687115f2407457435f1c6e544511ee992001cc117f6ef42df49d8e-image.png)

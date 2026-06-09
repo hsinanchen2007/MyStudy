@@ -1,8 +1,8 @@
-### 解题思路
-递归的思路与理解，还是那几个步骤（写二叉树类型题目的步骤）
-### 代码
+// ### 解题思路
+// 递归的思路与理解，还是那几个步骤（写二叉树类型题目的步骤）
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,20 +33,20 @@ public:   //用递归写试试。。
 };
 
 
-```cpp
-/*这位大佬的思路比我的清晰多了，虽然我的能写出来，但是有些地方还是没想到的，例如[1,2,3,4,5]当递归返回到2这个位置时，就算3在回溯的时候可能多一个父节点和子节点，但是改变不了他还有一个原链表的父节点*/
-class Solution {
-public:
-    ListNode* reverseList(ListNode* head) {
-        if (head == NULL || head->next == NULL) {
-            return head;
-        }
-        ListNode* ret = reverseList(head->next);
-        head->next->next = head;  //就是我之前说的当前节点的值指向原本链表该节点的后一个值，就不需要我上面写的代码那种方式
-        head->next = NULL;
-        return ret;
-    }
-};
+// ```cpp
+// /*这位大佬的思路比我的清晰多了，虽然我的能写出来，但是有些地方还是没想到的，例如[1,2,3,4,5]当递归返回到2这个位置时，就算3在回溯的时候可能多一个父节点和子节点，但是改变不了他还有一个原链表的父节点*/
+// class Solution {
+// public:
+//     ListNode* reverseList(ListNode* head) {
+//         if (head == NULL || head->next == NULL) {
+//             return head;
+//         }
+//         ListNode* ret = reverseList(head->next);
+//         head->next->next = head;  //就是我之前说的当前节点的值指向原本链表该节点的后一个值，就不需要我上面写的代码那种方式
+//         head->next = NULL;
+//         return ret;
+//     }
+// };
 
-作者：huwt
-链接：https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/solution/fan-zhuan-lian-biao-yi-dong-de-shuang-zhi-zhen-jia/
+// 作者：huwt
+// 链接：https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/solution/fan-zhuan-lian-biao-yi-dong-de-shuang-zhi-zhen-jia/

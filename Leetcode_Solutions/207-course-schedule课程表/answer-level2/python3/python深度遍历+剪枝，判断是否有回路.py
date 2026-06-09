@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         if len(prerequisites) == 1:
@@ -48,4 +48,4 @@ class Solution:
             if not hascircle(i, path_set):
                 return False
         return True
-```
+# ```

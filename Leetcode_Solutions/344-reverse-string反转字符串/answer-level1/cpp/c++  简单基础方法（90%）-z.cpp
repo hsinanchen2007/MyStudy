@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -14,13 +14,13 @@ public:
         }
     }
 };
-```
+// ```
 
-### 利用swap
+// ### 利用swap
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -32,4 +32,4 @@ public:
         }
     }
 };
-```
+// ```

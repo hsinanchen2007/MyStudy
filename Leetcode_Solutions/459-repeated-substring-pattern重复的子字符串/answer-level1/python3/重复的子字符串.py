@@ -1,9 +1,9 @@
-### 解题思路
-for循环里用常数会稍微提高一点点执行效率
+# ### 解题思路
+# for循环里用常数会稍微提高一点点执行效率
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def repeatedSubstringPattern(self, s: str) -> bool:
         if len(s) <= 1:
@@ -14,4 +14,4 @@ class Solution:
                 return True 
         return False
 
-```
+# ```

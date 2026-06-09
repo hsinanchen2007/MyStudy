@@ -1,10 +1,10 @@
-### 解题思路
-注意如果k>链表长度，直接用余数
+// ### 解题思路
+// 注意如果k>链表长度，直接用余数
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-写出来的 带 bug 的代码
+# 写出来的 带 bug 的代码
 
 
 
-``` python3
+# ``` python3
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         n = len(nums)
@@ -37,5 +37,5 @@ class Solution:
                 res = max(res, DP_min[i-1]*nums[i])
             i += 1
         return res
-```
-一直报错
+# ```
+# 一直报错

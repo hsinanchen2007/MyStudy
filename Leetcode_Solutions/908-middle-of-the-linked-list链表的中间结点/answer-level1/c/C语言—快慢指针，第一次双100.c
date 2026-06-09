@@ -1,9 +1,9 @@
-### 解题思路
-典型的快慢指针。
-fast指针快于slow指针二倍，最终slow会趋于中间。
-### 代码
+// ### 解题思路
+// 典型的快慢指针。
+// fast指针快于slow指针二倍，最终slow会趋于中间。
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -25,4 +25,4 @@ struct ListNode* middleNode(struct ListNode* head){
     }
     return slow;
 }
-```
+// ```

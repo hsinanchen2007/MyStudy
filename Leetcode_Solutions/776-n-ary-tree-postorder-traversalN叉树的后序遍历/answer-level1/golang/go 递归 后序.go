@@ -1,4 +1,4 @@
-```
+// ```
 
 func postorder(root *Node) []int {
 	var res = make([]int, 0)
@@ -15,4 +15,4 @@ func helper(root *Node, res *[]int) {
 	}
 	*res = append(*res, root.Val)
 }
-```
+// ```

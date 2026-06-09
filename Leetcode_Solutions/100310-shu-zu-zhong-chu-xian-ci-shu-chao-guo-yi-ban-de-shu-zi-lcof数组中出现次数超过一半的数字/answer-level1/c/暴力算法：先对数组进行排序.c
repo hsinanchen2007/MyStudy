@@ -1,4 +1,4 @@
-```
+// ```
 /* 数组中出现次数超过一半以上的数 */
 int cmp(const void *num1, const void *num2)
 {
@@ -30,4 +30,4 @@ int majorityElement(int* nums, int numsSize)
 
     return 0;
 }
-```
+// ```

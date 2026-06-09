@@ -1,4 +1,4 @@
-```
+// ```
 let arr = [];
 arr[1] = 1;
 arr[2] = 2;
@@ -11,4 +11,4 @@ var climbStairs = function(n) {
     arr[n] = temp;
     return temp;
 };
-```
+// ```

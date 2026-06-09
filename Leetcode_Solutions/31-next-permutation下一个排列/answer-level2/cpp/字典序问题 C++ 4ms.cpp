@@ -1,12 +1,12 @@
-### 解题思路
-字典序问题
+// ### 解题思路
+// 字典序问题
 
-![image.png](https://pic.leetcode-cn.com/dd4080262e70ae44b3561b87c4175964c359223ed50e22d4305839f28464e37f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dd4080262e70ae44b3561b87c4175964c359223ed50e22d4305839f28464e37f-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -39,4 +39,4 @@ public:
         
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-总共的步数最小，当然要劲往一处使，数往中间靠啦，所以本题的核心在于找到中位数  ヾ(o◕∀◕)ﾉヾ
+// 总共的步数最小，当然要劲往一处使，数往中间靠啦，所以本题的核心在于找到中位数  ヾ(o◕∀◕)ﾉヾ
 
-```
+// ```
 var minMoves2 = function(nums) {
     let result = 0
     nums = nums.sort((a, b) => {
@@ -12,4 +12,4 @@ var minMoves2 = function(nums) {
     })
     return result
 };
-```
+// ```

@@ -1,10 +1,10 @@
-* 使用`stack`存储每一个单词
-* `pos`指向第一个不是' '的位置，即单词的首字母
-* 将`pos`所指的单词保存到`stack`中
-* 最后将`stack`中的单词保存到字符串中
+// * 使用`stack`存储每一个单词
+// * `pos`指向第一个不是' '的位置，即单词的首字母
+// * 将`pos`所指的单词保存到`stack`中
+// * 最后将`stack`中的单词保存到字符串中
 
-## 代码
-```
+// ## 代码
+// ```
 class Solution {
 public:
     string reverseWords(string s) {
@@ -27,4 +27,4 @@ public:
         return out;
     }
 };
-```
+// ```

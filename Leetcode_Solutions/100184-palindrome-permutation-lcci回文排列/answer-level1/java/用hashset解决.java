@@ -1,4 +1,4 @@
-// 用hashset记录，若字符已存在则移除，不存在则插入，最后看看hashset的size就可以
+// // 用hashset记录，若字符已存在则移除，不存在则插入，最后看看hashset的size就可以
 class Solution {
     public boolean canPermutePalindrome(String s) {
         HashSet<Character> charSet = new HashSet();

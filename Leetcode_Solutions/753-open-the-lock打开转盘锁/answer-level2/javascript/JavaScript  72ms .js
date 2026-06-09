@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string[]} deadends
  * @param {string} target
@@ -47,4 +47,4 @@ function getNexts(cur){
 }
   
 
-```
+// ```

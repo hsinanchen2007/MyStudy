@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-直接暴力法
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 直接暴力法
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
 		int length=0,num;
@@ -34,4 +34,4 @@ class Solution {
 		return length;
     }
 }
-```
+// ```

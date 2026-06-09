@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} s
@@ -12,11 +12,11 @@
 var findString = function(words, s) {
     return words.indexOf(s)
 };
-```
+// ```
 
-用字典
+// 用字典
 
-``` js
+// ``` js
 var findString = function(words, s) {
    let map = new Map()
    for(let i = 0; i< words.length; i++){
@@ -24,4 +24,4 @@ var findString = function(words, s) {
    }
     return map.has(s) ? map.get(s) : -1 
 };
-```
+// ```

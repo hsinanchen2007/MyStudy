@@ -1,4 +1,4 @@
-```
+// ```
 // 双指针， 时间复杂度O(n) 空间复杂度O(1)
 var twoSum = function(numbers, target) {
     var left = 0;
@@ -26,4 +26,4 @@ var twoSum = function(numbers, target) {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public ListNode partition(ListNode head, int x) {
         List<ListNode> big, small;
@@ -36,4 +36,4 @@ class Solution {
         return smallHead;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
         int max = 0;
@@ -26,4 +26,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

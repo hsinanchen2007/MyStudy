@@ -1,5 +1,5 @@
-因为题目要求的返回时String[]，这时候灵活变通下，不用List动态扩容，而是计算下数组容量，然后填充。
-```java
+// 因为题目要求的返回时String[]，这时候灵活变通下，不用List动态扩容，而是计算下数组容量，然后填充。
+// ```java
 class Solution {
     String[] res = null;
     public String[] permutation(String S) {
@@ -32,4 +32,4 @@ class Solution {
         chars[j] = c;
     }
 }
-```
+// ```

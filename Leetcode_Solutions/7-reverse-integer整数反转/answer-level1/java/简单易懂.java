@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         long y = x; //使用一个比int范围更大的long类型的变量y来接收x
@@ -22,4 +22,4 @@ class Solution {
         return (int)result;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![企业微信截图_a534de76-7b05-4bf0-a936-c0f7f17ef7fe.png](https://pic.leetcode-cn.com/fd03ddfa4a8037cddde01f34c57193e7cf3c9ab40c77c65c40839bbc39e55c3a-%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_a534de76-7b05-4bf0-a936-c0f7f17ef7fe.png)
-直接统计，看代码吧
+// ### 解题思路
+// ![企业微信截图_a534de76-7b05-4bf0-a936-c0f7f17ef7fe.png](https://pic.leetcode-cn.com/fd03ddfa4a8037cddde01f34c57193e7cf3c9ab40c77c65c40839bbc39e55c3a-%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_a534de76-7b05-4bf0-a936-c0f7f17ef7fe.png)
+// 直接统计，看代码吧
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         //特例
@@ -36,4 +36,4 @@ class Solution {
         return str.length() >= len ? S : str;
     }
 }
-```
+// ```

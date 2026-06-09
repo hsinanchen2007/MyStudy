@@ -1,4 +1,4 @@
-```java
+// ```java
 public class BoundedBlockingQueue {
 
     private int maxCapacity;
@@ -51,4 +51,4 @@ public class BoundedBlockingQueue {
         return queue.size();
     }
 }
-```
+// ```

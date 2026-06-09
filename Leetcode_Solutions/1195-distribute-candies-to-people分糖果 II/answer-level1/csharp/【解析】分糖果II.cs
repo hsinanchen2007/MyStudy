@@ -1,9 +1,9 @@
-### 解题思路
-先建立一个二维数组存每一波要分的数量，然后剩下的就按照提示，如果够分就一波走，如果不够分就一个一个来。
+// ### 解题思路
+// 先建立一个二维数组存每一波要分的数量，然后剩下的就按照提示，如果够分就一波走，如果不够分就一个一个来。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] DistributeCandies(int candies, int num_people) {
         int rows = 100000;
@@ -79,4 +79,4 @@ public class Solution {
         return res;
     }
 }
-```
+// ```

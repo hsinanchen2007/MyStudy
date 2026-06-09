@@ -1,8 +1,8 @@
-### 解题思路
-从头和尾部一起比对，减少循环次数
-### 代码
+// ### 解题思路
+// 从头和尾部一起比对，减少循环次数
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -19,4 +19,4 @@ var searchInsert = function(nums, target) {
     }
     return len
 };
-```
+// ```

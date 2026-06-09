@@ -1,4 +1,4 @@
-```
+// ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         n = len(prices)
@@ -10,8 +10,8 @@ class Solution:
             max1 = max(max1, prices[i] - min1)
             min1 = min(min1, prices[i])
         return max1
-```
-```
+// ```
+// ```
 class Solution {
     public int maxProfit(int[] prices) {
         if(prices.length <= 1) return 0;
@@ -24,4 +24,4 @@ class Solution {
         return maxProfit;
     }
 }
-```
+// ```

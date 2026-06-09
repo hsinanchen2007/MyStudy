@@ -1,5 +1,5 @@
-执行用时 :56 ms, 在所有 javascript 提交中击败了98.26%的用户
-```
+// 执行用时 :56 ms, 在所有 javascript 提交中击败了98.26%的用户
+// ```
     var plusOne = function (digits) {
         for (let i = digits.length - 1; i >= 0; i--) {
             if (digits[i] !== 9) {
@@ -13,4 +13,4 @@
 
         return digits;
     };
-```
+// ```

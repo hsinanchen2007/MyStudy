@@ -1,9 +1,9 @@
-### 解题思路
-最大公约字符串，暴力破解
+# ### 解题思路
+# 最大公约字符串，暴力破解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         m = len(str1)
@@ -14,4 +14,4 @@ class Solution:
                     if str2[:i]*(m//i) == str1:
                         return str2[:i]
         return ''
-```
+# ```

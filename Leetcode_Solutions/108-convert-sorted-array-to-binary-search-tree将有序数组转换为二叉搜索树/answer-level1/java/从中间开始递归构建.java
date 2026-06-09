@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-从中间节点作为根节点开始，不断递归构造子树，最后得到目标二叉搜索树。
+// 从中间节点作为根节点开始，不断递归构造子树，最后得到目标二叉搜索树。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         return buildTree(nums, 0, nums.length - 1);
     }
 }
-```
+// ```

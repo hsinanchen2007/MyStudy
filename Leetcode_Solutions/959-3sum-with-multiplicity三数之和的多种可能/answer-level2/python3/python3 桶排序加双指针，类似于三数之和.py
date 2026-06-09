@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def threeSumMulti(self, A: List[int], target: int) -> int:
         count = [0] * 101
@@ -42,4 +42,4 @@ class Solution:
                         tail -= 1
                         res %= 1000000007
         return res
-```
+# ```

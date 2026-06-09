@@ -1,4 +1,4 @@
-```c++
+// ```c++
 static const auto _ = []() //这段函数的主要作用就是提高输入输出的速度
 {
     ios::sync_with_stdio(false); 
@@ -23,4 +23,4 @@ public:
         return true;
     }
 };
-```
+// ```

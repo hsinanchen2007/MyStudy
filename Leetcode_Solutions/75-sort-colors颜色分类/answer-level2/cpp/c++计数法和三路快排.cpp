@@ -1,5 +1,5 @@
-// 计数法
-```
+// // 计数法
+// ```
 class Solution {
 public:
 	void sortColors(vector<int>& nums) {
@@ -18,10 +18,10 @@ public:
 		}
 	}
 };
-```
+// ```
 
-//三路快排
-```
+// //三路快排
+// ```
 class Solution {
 public:
 	void sortColors(vector<int>& nums) {
@@ -44,4 +44,4 @@ public:
 		}
 	}
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-将两个list连接并排序，效果竟然还可以
-执行用时 :20 ms, 在所有 Python 提交中击败了89.29%的用户
-内存消耗 :11.9 MB, 在所有 Python 提交中击败了100.00%的用户
-### 代码
+# ### 解题思路
+# 将两个list连接并排序，效果竟然还可以
+# 执行用时 :20 ms, 在所有 Python 提交中击败了89.29%的用户
+# 内存消耗 :11.9 MB, 在所有 Python 提交中击败了100.00%的用户
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, A, m, B, n):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             A.append(B.pop())
         A.sort()
         return A
-```
+# ```

@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/b2dfa933932ea32700fb33283a0267b8908d2b27faea940bbfadf809a4b99d9c-image.png)
-### 代码
+// ![image.png](https://pic.leetcode-cn.com/b2dfa933932ea32700fb33283a0267b8908d2b27faea940bbfadf809a4b99d9c-image.png)
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} m
@@ -18,4 +18,4 @@ var merge = function(A, m, B, n) {
         A[n-1] = B[n-- -1]
     }
 };
-```
+// ```

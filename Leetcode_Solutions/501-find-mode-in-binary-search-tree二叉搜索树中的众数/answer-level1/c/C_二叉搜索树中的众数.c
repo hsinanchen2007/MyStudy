@@ -1,10 +1,10 @@
-### 解题思路
-统计数字出现的频率
-去除频率最低的数字
-输出
-### 代码
+// ### 解题思路
+// 统计数字出现的频率
+// 去除频率最低的数字
+// 输出
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -110,4 +110,4 @@ int* findMode(struct TreeNode* root, int* returnSize){
     del(linkHead);
     return result;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-该方法不是最优解法，后期仍旧需要优化。
+// ### 解题思路
+// 该方法不是最优解法，后期仍旧需要优化。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define STACKLEN 20
 
 typedef struct {
@@ -112,4 +112,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

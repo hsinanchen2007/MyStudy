@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-问题还是防溢出
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 问题还是防溢出
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool judgeSquareSum(int c) {
@@ -19,4 +19,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![3V382JHP3CIFN}8_O(1F7Q3.png](https://pic.leetcode-cn.com/acca858e1909bf2fe451a0e843e4a154e66126cee4fbe07db0d6cc11e76ec96b-3V382JHP3CIFN%7D8_O\(1F7Q3.png)
+# ### 解题思路
+# ![3V382JHP3CIFN}8_O(1F7Q3.png](https://pic.leetcode-cn.com/acca858e1909bf2fe451a0e843e4a154e66126cee4fbe07db0d6cc11e76ec96b-3V382JHP3CIFN%7D8_O\(1F7Q3.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countPrimes(self, n: int) -> int:
         if n<=2:
@@ -24,4 +24,4 @@ class Solution:
                 select_set.add(i)
         return len(select_set) 
                 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-以矩阵的右上角作为起点，开始与target对比，若右上角值等于target返回true,若小于target，去除当前行，若大于target,去除当前列。
+// ### 解题思路
+// 以矩阵的右上角作为起点，开始与target对比，若右上角值等于target返回true,若小于target，去除当前行，若大于target,去除当前列。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool findNumberIn2DArray(vector<vector<int>>& matrix, int target) {
@@ -20,4 +20,4 @@ public:
         return false;
     }
 };
-```
+// ```

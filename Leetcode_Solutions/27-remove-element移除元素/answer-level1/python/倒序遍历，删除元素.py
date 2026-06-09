@@ -1,5 +1,5 @@
-倒着遍历，这样删除的时候尽管删除，前面的不受影响
-```
+# 倒着遍历，这样删除的时候尽管删除，前面的不受影响
+# ```
 class Solution(object):
     def removeElement(self, nums, val):
         """
@@ -11,4 +11,4 @@ class Solution(object):
             if(nums[i-1]==val):
                 nums.pop(i-1)
         return len(nums)
-```
+# ```

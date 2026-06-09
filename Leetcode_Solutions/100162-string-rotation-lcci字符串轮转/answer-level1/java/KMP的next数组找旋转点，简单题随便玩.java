@@ -1,4 +1,4 @@
-    // 找到旋转点拼接起来看和s2是否一样
+//     // 找到旋转点拼接起来看和s2是否一样
     class Solution {
         public boolean isFlipedString(String s1, String s2) {
             if(s1.length() != s2.length()) {

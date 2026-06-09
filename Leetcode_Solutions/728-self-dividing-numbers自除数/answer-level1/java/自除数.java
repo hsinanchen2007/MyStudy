@@ -1,11 +1,11 @@
-####  方法一：暴力法
-**算法：**
-- 对于给定范围内的每个数，我们将直接判断该数是否为自除数。
-- 根据定义，我们先判断数字是否非零，若数字非零再判断是否能够被该数除尽。例如，对于 `128`，我们要判断 `d != 0 && 128 % d == 0`，且 `d = 1, 2, 8`。
-- 解决这个问题的一个简单方法是将数字转换成一个字符数组（python 中的字符串），然后在检查 `n%d==0` 时转换回整数执行模运算。
-- 我们还可以不断地把数字除以 `10`，取整数的最后一个数字。在代码中为注释的部分。
+// ####  方法一：暴力法
+// **算法：**
+// - 对于给定范围内的每个数，我们将直接判断该数是否为自除数。
+// - 根据定义，我们先判断数字是否非零，若数字非零再判断是否能够被该数除尽。例如，对于 `128`，我们要判断 `d != 0 && 128 % d == 0`，且 `d = 1, 2, 8`。
+// - 解决这个问题的一个简单方法是将数字转换成一个字符数组（python 中的字符串），然后在检查 `n%d==0` 时转换回整数执行模运算。
+// - 我们还可以不断地把数字除以 `10`，取整数的最后一个数字。在代码中为注释的部分。
 
-```Python [ ]
+// ```Python [ ]
 class Solution(object):
     def selfDividingNumbers(self, left, right):
         def self_dividing(n):
@@ -28,9 +28,9 @@ class Solution(object):
             if self_dividing(n):
                 ans.append(n)
         return ans #Equals filter(self_dividing, range(left, right+1))
-```
+// ```
 
-```Java [ ]
+// ```Java [ ]
 class Solution {
     public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> ans = new ArrayList();
@@ -58,9 +58,9 @@ class Solution {
         return true;
     */
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(D)$。$D$ 是在区间 $[L, R]$ 里的整数数。
-* 空间复杂度：$O(D)$，使用了一个数组来存放结果。
+// * 时间复杂度：$O(D)$。$D$ 是在区间 $[L, R]$ 里的整数数。
+// * 空间复杂度：$O(D)$，使用了一个数组来存放结果。

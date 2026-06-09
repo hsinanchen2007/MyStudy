@@ -1,13 +1,13 @@
-### 解题思路
-/*测试用例题目没给说清楚*/
-输入strsSize==0的时候 return "";
-输入strsSize==1的时候 return strs[0];
+// ### 解题思路
+// /*测试用例题目没给说清楚*/
+// 输入strsSize==0的时候 return "";
+// 输入strsSize==1的时候 return strs[0];
 
-返回空的时候是返回 "" 不是返回一个 值为null的指针
-只有一行的时候不是返回空，而是返回仅有的那一行就行
-### 代码
+// 返回空的时候是返回 "" 不是返回一个 值为null的指针
+// 只有一行的时候不是返回空，而是返回仅有的那一行就行
+// ### 代码
 
-```c
+// ```c
 //链表节点
 typedef struct node{
     char data;
@@ -71,4 +71,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     free(stack);
     return result;
 }
-```
+// ```

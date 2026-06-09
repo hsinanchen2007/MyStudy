@@ -1,9 +1,9 @@
-### 解题思路
-遍历相加，注意： 每次遍历 chars 的每个字母都只能用一次。
+// ### 解题思路
+// 遍历相加，注意： 每次遍历 chars 的每个字母都只能用一次。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -26,4 +26,4 @@ var countCharacters = function(words, chars) {
     }
     return sum
 };
-```
+// ```

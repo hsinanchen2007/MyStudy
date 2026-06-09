@@ -1,8 +1,8 @@
-### 题解思路1（正则匹配法）
-LeetCode中提交执行结果-执行用时：376 ms，内存消耗：13.5 MB。
+# ### 题解思路1（正则匹配法）
+# LeetCode中提交执行结果-执行用时：376 ms，内存消耗：13.5 MB。
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def romanToInt(self, s: str) -> int:
         import re
@@ -34,31 +34,31 @@ class Solution:
                 else:
                     continue
         return num
-```
+# ```
 
-### 测试代码
-```python
+# ### 测试代码
+# ```python
 print('“III”对应的整数为：{}'.format(Solution().romanToInt('III')))
 print('“IV”对应的整数为：{}'.format(Solution().romanToInt('IV')))
 print('“IX”对应的整数为：{}'.format(Solution().romanToInt('IX')))
 print('“LVIII”对应的整数为：{}'.format(Solution().romanToInt('LVIII')))
 print('“MCMXCIV”对应的整数为：{}'.format(Solution().romanToInt('MCMXCIV')))
-```
+# ```
 
-### 运行结果
-```python
+# ### 运行结果
+# ```python
 “III”对应的整数为：3
 “IV”对应的整数为：4
 “IX”对应的整数为：9
 “LVIII”对应的整数为：58
 “MCMXCIV”对应的整数为：1994
-```
+# ```
 
-### 题解思路2（正则匹配法优化版）
-LeetCode中提交执行结果-执行用时：56 ms，内存消耗：13.5 MB。
+# ### 题解思路2（正则匹配法优化版）
+# LeetCode中提交执行结果-执行用时：56 ms，内存消耗：13.5 MB。
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def romanToInt(self, s: str) -> int:
         import re
@@ -82,31 +82,31 @@ class Solution:
         for s in list_s:
             num += roman_dict[s]
         return num
-```
+# ```
 
-### 测试代码
-```python
+# ### 测试代码
+# ```python
 print('“III”对应的整数为：{}'.format(Solution().romanToInt('III')))
 print('“IV”对应的整数为：{}'.format(Solution().romanToInt('IV')))
 print('“IX”对应的整数为：{}'.format(Solution().romanToInt('IX')))
 print('“LVIII”对应的整数为：{}'.format(Solution().romanToInt('LVIII')))
 print('“MCMXCIV”对应的整数为：{}'.format(Solution().romanToInt('MCMXCIV')))
-```
+# ```
 
-### 运行结果
-```python
+# ### 运行结果
+# ```python
 “III”对应的整数为：3
 “IV”对应的整数为：4
 “IX”对应的整数为：9
 “LVIII”对应的整数为：58
 “MCMXCIV”对应的整数为：1994
-```
+# ```
 
-### 题解思路3
-LeetCode中提交执行结果-执行用时：52 ms，内存消耗：13.3 MB。
+# ### 题解思路3
+# LeetCode中提交执行结果-执行用时：52 ms，内存消耗：13.3 MB。
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def romanToInt(self, s: str) -> int:
         roman_dict = {
@@ -125,31 +125,31 @@ class Solution:
             else:
                 num += roman_dict[s[i]]
         return num
-```
+# ```
 
-### 测试代码
-```python
+# ### 测试代码
+# ```python
 print('“III”对应的整数为：{}'.format(Solution().romanToInt('III')))
 print('“IV”对应的整数为：{}'.format(Solution().romanToInt('IV')))
 print('“IX”对应的整数为：{}'.format(Solution().romanToInt('IX')))
 print('“LVIII”对应的整数为：{}'.format(Solution().romanToInt('LVIII')))
 print('“MCMXCIV”对应的整数为：{}'.format(Solution().romanToInt('MCMXCIV')))
-```
+# ```
 
-### 运行结果
-```python
+# ### 运行结果
+# ```python
 “III”对应的整数为：3
 “IV”对应的整数为：4
 “IX”对应的整数为：9
 “LVIII”对应的整数为：58
 “MCMXCIV”对应的整数为：1994
-```
+# ```
 
-### 题解思路4
-LeetCode中提交执行结果-执行用时：60 ms，内存消耗：13.4 MB。
+# ### 题解思路4
+# LeetCode中提交执行结果-执行用时：60 ms，内存消耗：13.4 MB。
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def romanToInt(self, s: str) -> int:
         roman_dict = {
@@ -168,31 +168,31 @@ class Solution:
             'M': 1000
         }
         return sum(roman_dict.get(s[i: i + 2], roman_dict[s[i]]) for i in range(len(s)))
-```
+# ```
 
-### 测试代码
-```python
+# ### 测试代码
+# ```python
 print('“III”对应的整数为：{}'.format(Solution().romanToInt('III')))
 print('“IV”对应的整数为：{}'.format(Solution().romanToInt('IV')))
 print('“IX”对应的整数为：{}'.format(Solution().romanToInt('IX')))
 print('“LVIII”对应的整数为：{}'.format(Solution().romanToInt('LVIII')))
 print('“MCMXCIV”对应的整数为：{}'.format(Solution().romanToInt('MCMXCIV')))
-```
+# ```
 
-### 运行结果
-```python
+# ### 运行结果
+# ```python
 “III”对应的整数为：3
 “IV”对应的整数为：4
 “IX”对应的整数为：9
 “LVIII”对应的整数为：58
 “MCMXCIV”对应的整数为：1994
-```
+# ```
 
-### 题解思路5
-LeetCode中提交执行结果-执行用时：88 ms，内存消耗：13.6 MB。
+# ### 题解思路5
+# LeetCode中提交执行结果-执行用时：88 ms，内存消耗：13.6 MB。
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def romanToInt(self, s: str) -> int:
         roman_dict = {
@@ -214,22 +214,22 @@ class Solution:
                 result += num
                 prev_num = num
         return result
-```
+# ```
 
-### 测试代码
-```python
+# ### 测试代码
+# ```python
 print('“III”对应的整数为：{}'.format(Solution().romanToInt('III')))
 print('“IV”对应的整数为：{}'.format(Solution().romanToInt('IV')))
 print('“IX”对应的整数为：{}'.format(Solution().romanToInt('IX')))
 print('“LVIII”对应的整数为：{}'.format(Solution().romanToInt('LVIII')))
 print('“MCMXCIV”对应的整数为：{}'.format(Solution().romanToInt('MCMXCIV')))
-```
+# ```
 
-### 运行结果
-```python
+# ### 运行结果
+# ```python
 “III”对应的整数为：3
 “IV”对应的整数为：4
 “IX”对应的整数为：9
 “LVIII”对应的整数为：58
 “MCMXCIV”对应的整数为：1994
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-用的random库
+# ### 解题思路
+# 用的random库
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     def __init__(self, nums: [int]):
@@ -32,4 +32,4 @@ class Solution:
 # obj = Solution(nums)
 # param_1 = obj.reset()
 # param_2 = obj.shuffle()
-```
+# ```

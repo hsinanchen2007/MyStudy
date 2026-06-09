@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     public boolean isValid(String s) {
         if(s.length() == 0)//如果是空字符串，则有效
@@ -38,4 +38,4 @@ public class Solution {
         return index == -1;
     }
 }
-```
+// ```

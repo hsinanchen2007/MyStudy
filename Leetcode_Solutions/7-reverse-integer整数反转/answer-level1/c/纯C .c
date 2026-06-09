@@ -1,5 +1,5 @@
-纯C
-```
+// 纯C
+// ```
 #define isOverLength 0
 
 int reverse(int x){
@@ -17,4 +17,4 @@ int reverse(int x){
 
     return (int)lRet;
 }
-```
+// ```

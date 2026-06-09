@@ -1,5 +1,5 @@
-状态机！！！！！！！ 透了， .1 竟然是合法的 2.e1 也合法。。。。 服了
-```
+# 状态机！！！！！！！ 透了， .1 竟然是合法的 2.e1 也合法。。。。 服了
+# ```
 class Solution:
     def isNumber(self, s: str) -> bool:
         dp=[
@@ -31,6 +31,6 @@ class Solution:
             if state == -1 : return False 
         print(state)
         return True if state in accept else False
-```
+# ```
 
 

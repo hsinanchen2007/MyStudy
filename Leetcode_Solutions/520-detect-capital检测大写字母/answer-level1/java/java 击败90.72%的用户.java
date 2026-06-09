@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public boolean detectCapitalUse(String word) {
           char[] chars = word.toCharArray();
@@ -22,4 +22,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

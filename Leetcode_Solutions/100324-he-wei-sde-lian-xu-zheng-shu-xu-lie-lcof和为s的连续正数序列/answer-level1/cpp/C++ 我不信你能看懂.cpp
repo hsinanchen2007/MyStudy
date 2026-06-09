@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/ce7f4bf6870d47a3bba3e97b93fbda2c43a977849518418658dd5c8ecc4bb6eb-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/ce7f4bf6870d47a3bba3e97b93fbda2c43a977849518418658dd5c8ecc4bb6eb-image.png)
+// ```
     vector<vector<int>> findContinuousSequence(int trg) {
         vector<vector<int>> res;
         if(trg<3) return res;
@@ -19,4 +19,4 @@
                 res.push_back(begin);
         return res;
     }
-```
+// ```

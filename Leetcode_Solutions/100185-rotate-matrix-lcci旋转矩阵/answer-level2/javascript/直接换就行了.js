@@ -1,5 +1,5 @@
 
-```
+// ```
 var rotate = function(matrix) {
     var n = matrix.length;
     for (let i = 0; i < n / 2; i++) {
@@ -11,5 +11,5 @@ var rotate = function(matrix) {
     }
     return matrix;
 };
-```
+// ```
 

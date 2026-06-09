@@ -1,12 +1,12 @@
-### 解题思路
-本题使用了数组和两个索引（front和last）实现，问题的关键有三处：
-1. front和last的初始化分别使用-1和k；
-2. 只有一个结点时，front和last要相同；
-3. 队列为空的时候，front和last要还原为初始值。 
+// ### 解题思路
+// 本题使用了数组和两个索引（front和last）实现，问题的关键有三处：
+// 1. front和last的初始化分别使用-1和k；
+// 2. 只有一个结点时，front和last要相同；
+// 3. 队列为空的时候，front和last要还原为初始值。 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int *data;
     int front;
@@ -134,8 +134,8 @@ void myCircularDequeFree(MyCircularDeque* obj) {
     memset(&myDeque, 0, sizeof(myDeque));
     return;
 }
-```
+// ```
 
-# 执行结果
-执行用时 :40 ms, 在所有 C 提交中击败了71.68%的用户
-内存消耗 :12.2 MB, 在所有 C 提交中击败了100.00%的用户
+// # 执行结果
+// 执行用时 :40 ms, 在所有 C 提交中击败了71.68%的用户
+// 内存消耗 :12.2 MB, 在所有 C 提交中击败了100.00%的用户

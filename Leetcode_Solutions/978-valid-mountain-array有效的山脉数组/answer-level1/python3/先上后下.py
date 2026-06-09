@@ -1,6 +1,6 @@
-应该算是最正常解法，就是不知道为啥这么慢
+# 应该算是最正常解法，就是不知道为啥这么慢
 
-```
+# ```
 class Solution:
     def validMountainArray(self, A: List[int]) -> bool:
         n = len(A)
@@ -12,4 +12,4 @@ class Solution:
         while k < n and A[k] < A[k - 1]:
             k += 1
         return k == n
-```
+# ```

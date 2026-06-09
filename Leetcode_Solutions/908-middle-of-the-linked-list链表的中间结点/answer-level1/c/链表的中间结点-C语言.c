@@ -1,12 +1,12 @@
-### 解题思路
-方法一：长度判别法
-方法二：快慢指针法（推荐）
-![image.png](https://pic.leetcode-cn.com/5c5e26a49f86e50ee786d5050b96b4e14861eb85a5111942519374e97b767dcd-image.png)
+// ### 解题思路
+// 方法一：长度判别法
+// 方法二：快慢指针法（推荐）
+// ![image.png](https://pic.leetcode-cn.com/5c5e26a49f86e50ee786d5050b96b4e14861eb85a5111942519374e97b767dcd-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -47,4 +47,4 @@ struct ListNode* middleNode(struct ListNode* head){
     }
     return pstLnSlow;  
 }
-```
+// ```

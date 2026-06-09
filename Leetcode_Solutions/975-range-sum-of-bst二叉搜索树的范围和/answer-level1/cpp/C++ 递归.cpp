@@ -1,4 +1,4 @@
-```c++
+// ```c++
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -17,4 +17,4 @@ public:
         return root->val + rangeSumBST(root->left, L, R) + rangeSumBST(root->right, L, R);
     }
 };
-```
+// ```

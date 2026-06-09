@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-动态规划把nums数组重置为最远跳多远
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 动态规划把nums数组重置为最远跳多远
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canJump(int[] nums) {
         for (int i = 1; i < nums.length; i++) {
@@ -44,4 +44,4 @@ public static boolean canJump(int[] nums) {
     }
 
 */
-```
+// ```

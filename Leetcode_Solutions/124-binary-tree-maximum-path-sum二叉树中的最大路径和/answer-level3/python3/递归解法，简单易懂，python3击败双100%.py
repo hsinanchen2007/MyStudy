@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/7bd0ed168aaebdf879043d6fee112c990828bc17f4f5bb48f20781f4f590823c-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7bd0ed168aaebdf879043d6fee112c990828bc17f4f5bb48f20781f4f590823c-image.png)
 
-核心思路：对每个节点，计算全局最大值，同时返回以当前节点作为根节点的最大和
+# 核心思路：对每个节点，计算全局最大值，同时返回以当前节点作为根节点的最大和
 
-```
+# ```
 class Solution:
     def maxPathSum(self, root: TreeNode) -> int:
       self.res = -float("inf")
@@ -34,4 +34,4 @@ class Solution:
         root_val = root.val + (0 if left_val < 0 else left_val)
         self.res = max(root_val, self.res)
         return root_val
-```
+# ```

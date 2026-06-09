@@ -1,6 +1,6 @@
-## 思路一 贪心
+// ## 思路一 贪心
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string removeDuplicateLetters(string s) {
@@ -38,11 +38,11 @@ public:
         return std::move(ret);
     }
 };
-```
+// ```
 
-## 思路二 栈 （看人别人题解之后写的）
+// ## 思路二 栈 （看人别人题解之后写的）
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string removeDuplicateLetters(string s) {
@@ -70,4 +70,4 @@ public:
         return std::move(ret);
     }
 };
-```
+// ```

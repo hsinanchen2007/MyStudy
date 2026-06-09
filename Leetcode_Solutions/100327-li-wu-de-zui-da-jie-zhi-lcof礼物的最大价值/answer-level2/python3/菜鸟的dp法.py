@@ -1,5 +1,5 @@
- 先上代码
-```
+#  先上代码
+# ```
 class Solution:
     def maxValue(self, grid: List[List[int]]) -> int:
         raw=len(grid)
@@ -15,5 +15,5 @@ class Solution:
                 Best[i][j]=max(Best[i-1][j],Best[i][j-1])+grid[i][j]
         return Best[raw-1][coloum-1]
 
-```
-基本思路：对于1行n列和n行1列的子问题，只需累加即可得到最大价值。用Best矩阵存储其对应的最大价值，对于grid[i][j]，在Best[i-1][j]和Best[i][j-1]中取最大值，再加上grid[i][j]即可。
+# ```
+# 基本思路：对于1行n列和n行1列的子问题，只需累加即可得到最大价值。用Best矩阵存储其对应的最大价值，对于grid[i][j]，在Best[i-1][j]和Best[i][j-1]中取最大值，再加上grid[i][j]即可。

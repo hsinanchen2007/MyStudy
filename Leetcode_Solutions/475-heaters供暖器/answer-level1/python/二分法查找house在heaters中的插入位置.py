@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRadius(self, houses: List[int], heaters: List[int]) -> int:
         houses.sort()
@@ -23,8 +23,8 @@ class Solution:
 
         return max(distance)
 
-```
+# ```
 
-1. for loop house
-2. find out the distance of the house in the heaters
-3. if on the first or on the last, one distance, else get min between
+# 1. for loop house
+# 2. find out the distance of the house in the heaters
+# 3. if on the first or on the last, one distance, else get min between

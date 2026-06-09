@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 	string f(string &s, int l, int r, int len) {
         while(l >= 0 && r < len) {
             if(s[l] == s[r]) {
@@ -25,4 +25,4 @@
         return ans;
     }
 
-```
+// ```

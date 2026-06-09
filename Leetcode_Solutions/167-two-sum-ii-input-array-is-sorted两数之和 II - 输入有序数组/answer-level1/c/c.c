@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1、我使用的是双指针模式；
-2、还可以使用哈希表的方式进行存储；
+// ### 解题思路
+// 此处撰写解题思路
+// 1、我使用的是双指针模式；
+// 2、还可以使用哈希表的方式进行存储；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -34,4 +34,4 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
 
     return results;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-拼接两个数组
-### 代码
+// ### 解题思路
+// 拼接两个数组
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -22,4 +22,4 @@ public:
         }
     }
 };
-```
+// ```

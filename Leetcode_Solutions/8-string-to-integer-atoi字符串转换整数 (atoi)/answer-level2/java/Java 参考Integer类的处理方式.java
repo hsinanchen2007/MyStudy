@@ -1,11 +1,11 @@
-### Java 参考 Integer类的处理方式
-参考了`Integer.parseInt(String s, int radix)`方法对边界的处理方式, **用负数来表示正负数的边界**
-1. 这样正数的边界就是`-Integer.MAX_VALUE`,负数是`Integer.MIN_VALUE`
-2. 然后我们同样也用负数来保存结果, 这样我们按负数累减就是：`res=res*10-digit`
-3. 然后我们需要对`res`做判断防止溢出 也就是 `res*10-digit>=limit (负边界)`,但是直接判断可能会溢出,所以进行移项,变换为 `res<(limit+digit)/10`
-4. 最后如果是正数就返回 `-res`,负数就返回`res`
+// ### Java 参考 Integer类的处理方式
+// 参考了`Integer.parseInt(String s, int radix)`方法对边界的处理方式, **用负数来表示正负数的边界**
+// 1. 这样正数的边界就是`-Integer.MAX_VALUE`,负数是`Integer.MIN_VALUE`
+// 2. 然后我们同样也用负数来保存结果, 这样我们按负数累减就是：`res=res*10-digit`
+// 3. 然后我们需要对`res`做判断防止溢出 也就是 `res*10-digit>=limit (负边界)`,但是直接判断可能会溢出,所以进行移项,变换为 `res<(limit+digit)/10`
+// 4. 最后如果是正数就返回 `-res`,负数就返回`res`
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         if(str==null || str.length()<=0) return 0;
@@ -45,4 +45,4 @@ class Solution {
         return c>='0' && c<='9';
     }
 }
-```
+// ```

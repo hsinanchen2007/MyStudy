@@ -1,10 +1,10 @@
-### 解题思路
-1. 构造roman字符合值的转化map
-2. 依次遍历每一个字符，加到result上，如果后面一个大于前面的数值，说明是小数前置，需要将当前值置为负值
+# ### 解题思路
+# 1. 构造roman字符合值的转化map
+# 2. 依次遍历每一个字符，加到result上，如果后面一个大于前面的数值，说明是小数前置，需要将当前值置为负值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def romanToInt(self, s):
         """
@@ -31,4 +31,4 @@ class Solution(object):
         return result
 
 
-```
+# ```

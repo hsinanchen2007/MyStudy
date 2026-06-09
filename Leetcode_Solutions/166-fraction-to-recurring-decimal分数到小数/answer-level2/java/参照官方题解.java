@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-4 ms
-, 在所有 Java 提交中击败了
-87.54%
-的用户
-内存消耗 :
-34.5 MB
-, 在所有 Java 提交中击败了
-81.87%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 4 ms
+// , 在所有 Java 提交中击败了
+// 87.54%
+// 的用户
+// 内存消耗 :
+// 34.5 MB
+// , 在所有 Java 提交中击败了
+// 81.87%
+// 的用户
+// ```
 class Solution {
     public String fractionToDecimal(int numerator, int denominator) {
         if(numerator==0)return "0";
@@ -46,4 +46,4 @@ class Solution {
     }
     
 }
-```
+// ```

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/324731913eb51360c386305f54c491ddd8e9fe5ad98dc924052605945e616af5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/324731913eb51360c386305f54c491ddd8e9fe5ad98dc924052605945e616af5-image.png)
 
-双指针遍历
+// 双指针遍历
 
-```
+// ```
 class Solution {
 public:
     bool isStrobogrammatic(string num) {
@@ -27,4 +27,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-分两种情况，偷第一个房子和不偷第一个房子
+# ### 解题思路
+# 分两种情况，偷第一个房子和不偷第一个房子
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rob(self, nums: List[int]) -> int:
         if len(nums)==1:
@@ -16,4 +16,4 @@ class Solution:
         return max(my_rob(nums[:-1]),my_rob(nums[1:])) 
 
         
-```
+# ```

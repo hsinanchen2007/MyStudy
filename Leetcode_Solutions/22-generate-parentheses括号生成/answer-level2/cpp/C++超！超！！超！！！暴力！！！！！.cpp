@@ -1,10 +1,10 @@
-### 解题思路
-从最开始，每次添加一对括号。
-感觉我是不是废了，想不到其他的.......
+// ### 解题思路
+// 从最开始，每次添加一对括号。
+// 感觉我是不是废了，想不到其他的.......
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -37,4 +37,4 @@ public:
       return resA;
     }
 };
-```
+// ```

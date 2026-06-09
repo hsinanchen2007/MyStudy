@@ -1,9 +1,9 @@
-### 解题思路
-和隔壁重合的面积为高度矮的那叠的面积
+// ### 解题思路
+// 和隔壁重合的面积为高度矮的那叠的面积
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -34,4 +34,4 @@ var surfaceArea = function(grid) {
 
     return number
 };
-```
+// ```

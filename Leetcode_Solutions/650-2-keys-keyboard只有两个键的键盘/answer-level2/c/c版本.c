@@ -1,5 +1,5 @@
 
-```
+// ```
 int g_elem[1001] = {-1};
 
 int minSteps(int n){
@@ -30,4 +30,4 @@ int minStepsRecur(int n)
     g_elem[n] = n;
     return n;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-![捕获.PNG](https://pic.leetcode-cn.com/f1df3b4c50af3f4b3df050d07380e0bc2ea1d90cda2b5f966b26f4e8eed63063-%E6%8D%95%E8%8E%B7.PNG)
-```cpp []
+// ![捕获.PNG](https://pic.leetcode-cn.com/f1df3b4c50af3f4b3df050d07380e0bc2ea1d90cda2b5f966b26f4e8eed63063-%E6%8D%95%E8%8E%B7.PNG)
+// ```cpp []
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -41,4 +41,4 @@ public:
         return res;
     }
 };
-```
+// ```

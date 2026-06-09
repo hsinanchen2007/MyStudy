@@ -1,9 +1,9 @@
-### 解题思路
-用的是STL的函数，注意点是不要进入erase()的陷阱，就是注意迭代器的失效。具体可以参考https://www.cnblogs.com/skyofbitbit/p/3648841.html
+// ### 解题思路
+// 用的是STL的函数，注意点是不要进入erase()的陷阱，就是注意迭代器的失效。具体可以参考https://www.cnblogs.com/skyofbitbit/p/3648841.html
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -21,4 +21,4 @@ public:
 		return (nums.size());
     }
 };
-```
+// ```

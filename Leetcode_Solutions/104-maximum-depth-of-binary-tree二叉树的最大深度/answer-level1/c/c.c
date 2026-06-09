@@ -1,5 +1,5 @@
-递归
-```
+// 递归
+// ```
 int maxDepth(struct TreeNode* root){
     int leftMax=0,rightMax=0;
     if(root==NULL) return 0;
@@ -9,4 +9,4 @@ int maxDepth(struct TreeNode* root){
         return (leftMax>rightMax?leftMax:rightMax)+1;
     }
 }
-```
+// ```

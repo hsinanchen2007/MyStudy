@@ -1,6 +1,6 @@
-对每个皇后，记录离国王这八个放心的最近的皇后。
-这个代码复杂了些，复杂度是O(M)，M为皇后的个数。
-```
+// 对每个皇后，记录离国王这八个放心的最近的皇后。
+// 这个代码复杂了些，复杂度是O(M)，M为皇后的个数。
+// ```
     private void init(int[][] resTmp, int i) {
         for (int j = 0; j < resTmp.length; j++) {
             for (int k = 0; k < resTmp[0].length; k++) {
@@ -54,4 +54,4 @@
             res[i][1]=queen[1];
         }
     }
-```
+// ```

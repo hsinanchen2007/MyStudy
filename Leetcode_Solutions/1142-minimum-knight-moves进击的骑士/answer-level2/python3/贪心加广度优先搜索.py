@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
--   使用队列，不断地找出距离更小的点
--   需要注意的就是，如果距离很近，也就是周边节点需要处理
+# -   使用队列，不断地找出距离更小的点
+# -   需要注意的就是，如果距离很近，也就是周边节点需要处理
 
-```python
+# ```python
 from collections import deque, defaultdict
 
 
@@ -30,17 +30,17 @@ class Solution:
                         mem[(ni, nj)] = mem[(i, j)] + 1
         return mem[(x, y)]
 
-```
-上面的时间复杂度较高，主要体现在两个点距离较远的情况下，有很多无效路径的搜索，因此，下面首先对这些路径进行压缩，找到距离较近的点，然后开始广度优先搜索
+# ```
+# 上面的时间复杂度较高，主要体现在两个点距离较远的情况下，有很多无效路径的搜索，因此，下面首先对这些路径进行压缩，找到距离较近的点，然后开始广度优先搜索
 
 
--   **改进版**
+# -   **改进版**
 
--   另一种方法，首先尽可能的靠近目标点，然后使用广度优先搜索
-![image.png](https://pic.leetcode-cn.com/08ffe8871c85a28c5d45da467b89490220cb32afc1a9e619a71df625b78afa9b-image.png)
+# -   另一种方法，首先尽可能的靠近目标点，然后使用广度优先搜索
+# ![image.png](https://pic.leetcode-cn.com/08ffe8871c85a28c5d45da467b89490220cb32afc1a9e619a71df625b78afa9b-image.png)
 
 
-```python
+# ```python
 from collections import deque, defaultdict
 
 class Solution:
@@ -97,6 +97,6 @@ class Solution:
                         mem[(ni, nj)] = mem[(i, j)] + 1
 
         return mem[(x, y)]
-```
+# ```
 
 

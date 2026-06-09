@@ -1,8 +1,8 @@
-### 解题思路
-如果这个问题不要求常数空间，那么BFS就可以解决了；所以我们可以使用递归来解决
+// ### 解题思路
+// 如果这个问题不要求常数空间，那么BFS就可以解决了；所以我们可以使用递归来解决
 
-对于递归的条件：
-```
+// 对于递归的条件：
+// ```
 root 为根节点
 
 1. 先连接根节点的左右孩子  root->left->next = root->right;
@@ -11,13 +11,13 @@ root 为根节点
 
 递归停止的条件:
 root->left不为空 （因为是完美二叉树，只判断左节点即可）
-```
+// ```
 
-![binaryTree](https://pic.leetcode-cn.com/3a912d95fc77de4219713f32c934f37a53ff2975da45bc14dea4c1ca528a253c)
+// ![binaryTree](https://pic.leetcode-cn.com/3a912d95fc77de4219713f32c934f37a53ff2975da45bc14dea4c1ca528a253c)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     Node* connect(Node* root) {
@@ -42,4 +42,4 @@ private:
         }
     }
 };
-```
+// ```

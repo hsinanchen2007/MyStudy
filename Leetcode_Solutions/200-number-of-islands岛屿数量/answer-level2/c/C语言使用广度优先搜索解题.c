@@ -1,4 +1,4 @@
-```c
+// ```c
 int numIslands(char** grid, int gridSize, int* gridColSize){
     if (gridSize == 0) return 0;
     int num = 0;
@@ -35,4 +35,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     }
     return num;
 }
-```
+// ```

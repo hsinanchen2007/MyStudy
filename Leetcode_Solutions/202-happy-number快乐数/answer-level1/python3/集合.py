@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isHappy(self, n: int) -> bool:
         exist, temp = set(), n
@@ -8,4 +8,4 @@ class Solution:
             exist.add(temp)
             temp = sum(int(i) **2 for i in str(temp))
 
-```
+# ```

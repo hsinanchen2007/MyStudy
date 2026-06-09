@@ -1,13 +1,13 @@
-思路解析：
-伪代码：
-创建空字符串str用以存放字串
-创建变量	max_len=0存放最大子串长度
-              	strlen=0存放当前子串长度
-逐个字符遍历字符串s:
-	if当前字符s[i]不在子串str中:
-		把当前字符s[i]拼接到子串str中
-		当前子串长度strlen+1
-		if当前子串长度strlen+1>最大子串长度max_len：
+# 思路解析：
+# 伪代码：
+# 创建空字符串str用以存放字串
+# 创建变量	max_len=0存放最大子串长度
+#               	strlen=0存放当前子串长度
+# 逐个字符遍历字符串s:
+# 	if当前字符s[i]不在子串str中:
+# 		把当前字符s[i]拼接到子串str中
+# 		当前子串长度strlen+1
+# 		if当前子串长度strlen+1>最大子串长度max_len：
 			max_len=strlen
 	else:
 		if当前子串长度len(str)>最大子串长度max_len：

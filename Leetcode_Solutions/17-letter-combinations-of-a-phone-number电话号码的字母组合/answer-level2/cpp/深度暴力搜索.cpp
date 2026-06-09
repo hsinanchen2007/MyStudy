@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     char ss[8][5]={//8个数字建对应的字母
@@ -25,6 +25,6 @@ public:
         return rt;
     }
 };
-```
-![图片1.png](https://pic.leetcode-cn.com/5cb3ce575596bdffd7a3a6a3bf52c1de321c54532d24f6ab04bc1f5a3a610a0d-%E5%9B%BE%E7%89%871.png)
-算是道深搜的常规题吧。每次都忽略了输入可能为空...
+// ```
+// ![图片1.png](https://pic.leetcode-cn.com/5cb3ce575596bdffd7a3a6a3bf52c1de321c54532d24f6ab04bc1f5a3a610a0d-%E5%9B%BE%E7%89%871.png)
+// 算是道深搜的常规题吧。每次都忽略了输入可能为空...

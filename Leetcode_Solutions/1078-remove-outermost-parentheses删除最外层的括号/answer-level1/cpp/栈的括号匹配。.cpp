@@ -1,9 +1,9 @@
-### 解题思路
-栈括号匹配，易于理解。
+// ### 解题思路
+// 栈括号匹配，易于理解。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string removeOuterParentheses(string S) {
@@ -32,4 +32,4 @@ public:
         return ret;
     }
 };
-```
+// ```

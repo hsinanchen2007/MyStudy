@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countNumbersWithUniqueDigits(int n){
     int result=0;
     for(;n>=0;n--)
@@ -31,4 +31,4 @@ int count(int m)
         return result;
     }
 }
-```
+// ```

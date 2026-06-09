@@ -1,5 +1,5 @@
-基于icecrea的改了改
-```java
+// 基于icecrea的改了改
+// ```java
     public int countSubstrings(String s) {
         int len = s.length();
         int res = 0;
@@ -22,4 +22,4 @@
         }
         return res;
     }
-```
+// ```

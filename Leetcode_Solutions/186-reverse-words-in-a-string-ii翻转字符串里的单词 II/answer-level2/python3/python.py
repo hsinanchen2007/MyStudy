@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def reverseWords(self, s: List[str]) -> None:
         """
@@ -19,4 +19,4 @@ class Solution:
             if i == len(s) or s[i] == ' ' :
                 reverse(s, begin, i - 1)
                 begin = i + 1
-```
+# ```

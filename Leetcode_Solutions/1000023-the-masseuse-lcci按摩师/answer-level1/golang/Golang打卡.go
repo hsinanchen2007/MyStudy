@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func massage(nums []int) int {
     if len(nums) == 0 {
         return 0
@@ -28,4 +28,4 @@ func getMax(i,j int) int {
     }
     return i
 }
-```
+// ```

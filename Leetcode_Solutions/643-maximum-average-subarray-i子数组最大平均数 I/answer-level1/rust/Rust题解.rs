@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn find_max_average(nums: Vec<i32>, k: i32) -> f64 {
         let k = k as usize;
@@ -13,5 +13,5 @@ impl Solution {
         max_sum as f64 / k as f64
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

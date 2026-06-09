@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class LFUCache:
 
     def __init__(self, capacity: int):
@@ -54,4 +54,4 @@ class Node:
         self.cnt = cnt
         self.key = key
         self.value = value
-```
+# ```

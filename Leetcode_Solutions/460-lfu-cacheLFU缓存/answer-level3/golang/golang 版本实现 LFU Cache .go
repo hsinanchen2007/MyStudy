@@ -1,4 +1,4 @@
-```
+// ```
 type LFUCache struct {
   cache map[int]*Node
   freq map[int]*DoubleList
@@ -115,4 +115,4 @@ func (this *DoubleList) IsEmpty() bool {
  * param_1 := obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-这题用二分好坑爹啊。对应[0]、[1]这种输入很蛋疼，二分最后的l会大于size。后面还需要进行判断。
+// ### 解题思路
+// 这题用二分好坑爹啊。对应[0]、[1]这种输入很蛋疼，二分最后的l会大于size。后面还需要进行判断。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return l >= nums.size() ? nums[l-1] + 1 : nums[l] - 1; //这里需要判断l是不是大于size了
     }
 };
-```
+// ```

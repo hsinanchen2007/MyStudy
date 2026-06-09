@@ -1,13 +1,13 @@
-### 解题思路
-执行用时 :
-20 ms, 在所有 C 提交中击败了92.85%的用户
-内存消耗 :
-8.2 MB, 在所有 C 提交中击败了100.00%的用户
-此处撰写解题思路
+// ### 解题思路
+// 执行用时 :
+// 20 ms, 在所有 C 提交中击败了92.85%的用户
+// 内存消耗 :
+// 8.2 MB, 在所有 C 提交中击败了100.00%的用户
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -68,4 +68,4 @@ int* topKFrequent(int* nums, int numsSize, int k, int* returnSize){
     *returnSize = k;
     return out;
 }
-```
+// ```

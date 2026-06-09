@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def verifyPostorder(self, postorder: List[int]) -> bool:
         def judge(i, j):
@@ -10,4 +10,4 @@ class Solution:
                 if postorder[p] > postorder[j]: return False 
             return judge(i,end) and judge(end+1, j-1)
         return judge(0, len(postorder)-1)
-```
+# ```

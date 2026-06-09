@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {number[][]} M
  * @return {number}
@@ -51,4 +51,4 @@ class UnionFind {
         // return this.pre.filter((item, index) => item === index).length;
     }
 }
-```
+// ```

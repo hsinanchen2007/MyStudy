@@ -1,13 +1,13 @@
-### 解题思路
-考虑各种异常：
-1、不同时为NULL， 返回false
-2、同时为空，返回true
-3、不同时为空，值若不同，返回false
-4、递归进行左右子树判断
+// ### 解题思路
+// 考虑各种异常：
+// 1、不同时为NULL， 返回false
+// 2、同时为空，返回true
+// 3、不同时为空，值若不同，返回false
+// 4、递归进行左右子树判断
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -43,4 +43,4 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q){
 
     return false;
 }
-```
+// ```

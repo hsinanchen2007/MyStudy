@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def spiralMatrixIII(self, R: int, C: int, r0: int, c0: int) -> List[List[int]]:
         out = [[r0, c0]]
@@ -17,5 +17,5 @@ class Solution:
                     break
                 if r0 >= 0 and r0 < R and c0 >= 0 and c0 < C: out.append([r0, c0])
         return out
-```
-思路，寻找最长步进半径；根据奇偶性来累加累减；越界后跳过累加累减。
+# ```
+# 思路，寻找最长步进半径；根据奇偶性来累加累减；越界后跳过累加累减。

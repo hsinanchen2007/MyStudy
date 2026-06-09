@@ -1,10 +1,10 @@
-### 解题思路
-1，哈希存储每一个词的下标，其下标递增排列
-2，遍历两个词的下标，寻找最近距离
+// ### 解题思路
+// 1，哈希存储每一个词的下标，其下标递增排列
+// 2，遍历两个词的下标，寻找最近距离
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class WordDistance {
 public:
     unordered_map<string, vector<int> > indices;
@@ -38,6 +38,6 @@ public:
  * WordDistance* obj = new WordDistance(words);
  * int param_1 = obj->shortest(word1,word2);
  */
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/7905560f5bbd2f501abe14ce0fe28928b49ad35ff74c7b6e8e46a0df35150116-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7905560f5bbd2f501abe14ce0fe28928b49ad35ff74c7b6e8e46a0df35150116-image.png)

@@ -1,9 +1,9 @@
-看了网上很多其他的语言都是调用系统的hash实现的，很无奈，C语言似乎没有封装好的，也没有看到很简单利用
+// 看了网上很多其他的语言都是调用系统的hash实现的，很无奈，C语言似乎没有封装好的，也没有看到很简单利用
 
-hash实现的。自己就利用数组模拟了一下hashMap的函数的实现，代码应该已经非常清晰明了了。有疑问得欢迎留
+// hash实现的。自己就利用数组模拟了一下hashMap的函数的实现，代码应该已经非常清晰明了了。有疑问得欢迎留
 
-言。
-```
+// 言。
+// ```
 bool containsNearbyDuplicate(int* nums, int numsSize, int k){
     if(numsSize==0)
     return false;
@@ -38,4 +38,4 @@ bool containsNearbyDuplicate(int* nums, int numsSize, int k){
 }
 
 
-```
+// ```

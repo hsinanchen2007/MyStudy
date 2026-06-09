@@ -1,9 +1,9 @@
-### 解题思路
-在ASCII码表，大写字母与小写字母相差32
+// ### 解题思路
+// 在ASCII码表，大写字母与小写字母相差32
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 char * toLowerCase(char * str){
     for(int i=0;i<strlen(str);i++)

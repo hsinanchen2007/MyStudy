@@ -1,11 +1,11 @@
-### 解题思路
-此题思路二分查找，以此索引为起点定义两个left,right指针，根据比较left元素，和right元素与目标值的绝对值差，决定left,right指针的移动。
-也就是left--或者right++。注意边界即可。
+// ### 解题思路
+// 此题思路二分查找，以此索引为起点定义两个left,right指针，根据比较left元素，和right元素与目标值的绝对值差，决定left,right指针的移动。
+// 也就是left--或者right++。注意边界即可。
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func findClosestElements(arr []int, k int, x int) []int {
 	s, e := 0, len(arr)-1
@@ -59,4 +59,4 @@ func findClosestElements(arr []int, k int, x int) []int {
 	}
 	return arr[left : right+1]
 }
-```
+// ```

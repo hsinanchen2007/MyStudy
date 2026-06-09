@@ -1,21 +1,21 @@
-### 解题思路
--   每个节点都想上传递下面三个值
+# ### 解题思路
+# -   每个节点都想上传递下面三个值
 
-```
+# ```
 val, up, down
 
 - 当前节点的值
 - 当前当前节点向下递增的最长序列
 - 当前当前节点向下递减的最长序列
-```
+# ```
 
--   **注意**：考虑左右节点同时存在，并且左右节点以当前节点为中心的连接，更新结果值即可
+# -   **注意**：考虑左右节点同时存在，并且左右节点以当前节点为中心的连接，更新结果值即可
 
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -73,4 +73,4 @@ class Solution:
                 return node.val, current_up, current_down
         dfs(root)
         return ans
-```
+# ```

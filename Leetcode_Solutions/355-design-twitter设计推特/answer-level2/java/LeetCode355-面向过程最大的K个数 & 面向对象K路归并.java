@@ -1,23 +1,23 @@
-## 算法一：最大K个数方法 & 面向过程
+// ## 算法一：最大K个数方法 & 面向过程
 
-**如何存放用户ID:**
-* 用一个哈希表`followers_`来存放用户的关注者。（key为用户id， value为一个关注着集合）
-* 用另一个哈希表`contents_`存放用户的tweet。（key为用户id， value为一个pair类型{时间， TweetId}
-* 用一个全局时间`time`变量来标定发tweet的时间,每发一条tweet时间就加1
+// **如何存放用户ID:**
+// * 用一个哈希表`followers_`来存放用户的关注者。（key为用户id， value为一个关注着集合）
+// * 用另一个哈希表`contents_`存放用户的tweet。（key为用户id， value为一个pair类型{时间， TweetId}
+// * 用一个全局时间`time`变量来标定发tweet的时间,每发一条tweet时间就加1
 
-**发tweet方法`void postTweet(int userId, int tweetId)`**
-* 直接在`contents_`中存入对应userId的tweetId和时间，时间记得加一
+// **发tweet方法`void postTweet(int userId, int tweetId)`**
+// * 直接在`contents_`中存入对应userId的tweetId和时间，时间记得加一
 
-**关注和取消关注方法`follow` 和 `unfollow` 方法**
-* 直接在`followers_`中进行添加和删除用户
-* 注意不能自己关注自己
+// **关注和取消关注方法`follow` 和 `unfollow` 方法**
+// * 直接在`followers_`中进行添加和删除用户
+// * 注意不能自己关注自己
 
-**最重要的获取前10条Tweet方法`vector<int> getNewsFeed(int userId)`方法**
-* 用一个最小堆，堆中只维护最大的10个元素
-* 遍历当前userId的所有关注者和**自己**,去时间最大的10个
+// **最重要的获取前10条Tweet方法`vector<int> getNewsFeed(int userId)`方法**
+// * 用一个最小堆，堆中只维护最大的10个元素
+// * 遍历当前userId的所有关注者和**自己**,去时间最大的10个
 
-### 用堆选前K个哥数套路
-```cpp
+// ### 用堆选前K个哥数套路
+// ```cpp
 typedef pair<int, int> PII;
 
 class Twitter {
@@ -70,18 +70,18 @@ public:
         followers_[followerId].erase(followeeId);
     }
 };
-```
+// ```
 
----
+// ---
 
-## 算法二：K路链表归并算法 & 面向对象设计思路
-根据 [@labuladong](/u/labuladong/) [本题的面向对象分析方法，以及K路归并算法](https://leetcode-cn.com/problems/design-twitter/solution/mian-xiang-dui-xiang-she-ji-he-bing-k-ge-you-xu-li/)的C++实现
+// ## 算法二：K路链表归并算法 & 面向对象设计思路
+// 根据 [@labuladong](/u/labuladong/) [本题的面向对象分析方法，以及K路归并算法](https://leetcode-cn.com/problems/design-twitter/solution/mian-xiang-dui-xiang-she-ji-he-bing-k-ge-you-xu-li/)的C++实现
 
-### K路归并 & OO代码
+// ### K路归并 & OO代码
 
-省略了析构函数
+// 省略了析构函数
 
-```java
+// ```java
 int now_ = 0;
 
 class Tweet {
@@ -185,4 +185,4 @@ public:
         userMap[followerId]->unfollow(followeeId);
     }
 };
-```
+// ```

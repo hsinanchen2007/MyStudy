@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-**！都是忘记写的：注意一下不要忘记遍历的过程中随时更新dp数组**
-**本题的特点是，注意添加Start和max记录型变量**
+// **！都是忘记写的：注意一下不要忘记遍历的过程中随时更新dp数组**
+// **本题的特点是，注意添加Start和max记录型变量**
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -37,4 +37,4 @@ public:
        return s.substr(start,max);
     }
 };
-```
+// ```

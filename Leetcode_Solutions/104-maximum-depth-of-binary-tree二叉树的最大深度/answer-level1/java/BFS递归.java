@@ -1,9 +1,9 @@
-### 解题思路
-应该是很常见的解……
+// ### 解题思路
+// 应该是很常见的解……
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -19,4 +19,4 @@ class Solution {
         return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
     }
 }
-```
+// ```

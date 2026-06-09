@@ -1,10 +1,10 @@
-### 解题思路
-4ms 97.44%还不错
-to_string函数用于将数字转化为字符串，方便好用
+// ### 解题思路
+// 4ms 97.44%还不错
+// to_string函数用于将数字转化为字符串，方便好用
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 string Value(int n)
 {
     if(n%3==0&&n%5==0) return "FizzBuzz";
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

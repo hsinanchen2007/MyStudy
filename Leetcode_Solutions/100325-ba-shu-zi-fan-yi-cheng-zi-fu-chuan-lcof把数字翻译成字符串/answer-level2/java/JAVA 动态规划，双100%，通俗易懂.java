@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int translateNum(int num) {
         String nums = String.valueOf(num);
@@ -20,4 +20,4 @@ class Solution {
         return dp[nums.length()];
     }
 }
-```
+// ```

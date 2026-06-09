@@ -1,9 +1,9 @@
-### 解题思路
-二分法牛逼,关键是要找到要二分什么东西
+// ### 解题思路
+// 二分法牛逼,关键是要找到要二分什么东西
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int findDuplicate(int[] nums) {
         int start = 1;
@@ -27,4 +27,4 @@ class Solution {
         return end;
     }
 }
-```
+// ```

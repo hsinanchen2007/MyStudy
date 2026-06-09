@@ -1,6 +1,6 @@
-dfs
+# dfs
 
-```python []
+# ```python []
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         d = collections.defaultdict(list)
@@ -11,8 +11,8 @@ class Solution:
                 f(r.right, i + 1)
         f(root, 0)
         return [*d.values()][:: -1]
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         d = collections.defaultdict(list)
@@ -23,11 +23,11 @@ class Solution:
                 f(r.right, i + 1)
         f(root, 0)
         return reversed(d.values())
-```
+# ```
 
 
-bfs
-```python []
+# bfs
+# ```python []
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         d = root and [root]
@@ -36,9 +36,9 @@ class Solution:
             ans.appendleft([t.val for t in d])
             d = [r for t in d for r in (t.left, t.right) if r]
         return ans
-```
+# ```
 
-```python []
+# ```python []
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         ans, d = [], root and [root]
@@ -46,9 +46,9 @@ class Solution:
             ans.insert(0, [t.val for t in d])
             d = [r for t in d for r in (t.left, t.right) if r]
         return ans
-```
+# ```
 
-```python []
+# ```python []
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         ans, d = [], root and [root]
@@ -56,10 +56,10 @@ class Solution:
             ans.append([t.val for t in d])
             d = [r for t in d for r in (t.left, t.right) if r]
         return ans[:: -1]
-```
+# ```
 
 
-```python []
+# ```python []
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         def f(d):
@@ -67,14 +67,14 @@ class Solution:
                 yield from f([r for t in d for r in (t.left, t.right) if r])
                 yield [r.val for r in d]
         return f(root and [root])
-```
+# ```
 
 
-```python []
+# ```python []
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         f = lambda d: d and ((yield from f([r for t in d for r in (t.left, t.right) if r])) or (yield [r.val for r in d]))
         return f(root and [root])
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/d011088de2bb4729b418b69dfd6d7d831380da9fb104cb08b0241344b7d26d4f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/d011088de2bb4729b418b69dfd6d7d831380da9fb104cb08b0241344b7d26d4f-image.png)

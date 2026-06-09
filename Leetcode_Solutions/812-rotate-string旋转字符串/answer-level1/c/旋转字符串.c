@@ -1,9 +1,9 @@
-### 解题思路
-先将B复制两次放在新字符串res中，再使用strstr()函数，看res中是否存在A
+// ### 解题思路
+// 先将B复制两次放在新字符串res中，再使用strstr()函数，看res中是否存在A
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 bool rotateString(char * A, char * B){
@@ -18,4 +18,4 @@ bool rotateString(char * A, char * B){
 }
 
 
-```
+// ```

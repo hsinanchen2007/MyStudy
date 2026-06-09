@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minIncrementForUnique(self, A):
         A = sorted(A)
@@ -19,4 +19,4 @@ class Solution:
         ans += (tmp+1)*tmp/2
         return int(ans)
             
-```
+# ```

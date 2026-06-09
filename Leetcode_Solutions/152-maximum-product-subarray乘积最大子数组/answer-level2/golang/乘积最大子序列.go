@@ -1,4 +1,4 @@
-```
+// ```
 1. 暴力法 找到每一个组合的乘积
 func maxProduct(nums []int) int {
     maxSum := nums[0]
@@ -13,4 +13,4 @@ func maxProduct(nums []int) int {
     } 
     return maxSum
 }
-```
+// ```

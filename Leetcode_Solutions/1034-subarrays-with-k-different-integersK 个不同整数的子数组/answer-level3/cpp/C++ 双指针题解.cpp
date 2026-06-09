@@ -1,10 +1,10 @@
-### 解题思路
-1，双指针，`l`指向左端，`i`作为右端不断往右滑动
-2，一旦可以凑出正好`K`个整数，则尝试滑动`l`找到当前情况下的所有可能，并记得复原状态
+// ### 解题思路
+// 1，双指针，`l`指向左端，`i`作为右端不断往右滑动
+// 2，一旦可以凑出正好`K`个整数，则尝试滑动`l`找到当前情况下的所有可能，并记得复原状态
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int subarraysWithKDistinct(vector<int>& A, int K) {
@@ -36,6 +36,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/86f20c20a1bccd597e31fbf8c483814c789b8ae483f291f44eb2ef07736b90c3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/86f20c20a1bccd597e31fbf8c483814c789b8ae483f291f44eb2ef07736b90c3-image.png)

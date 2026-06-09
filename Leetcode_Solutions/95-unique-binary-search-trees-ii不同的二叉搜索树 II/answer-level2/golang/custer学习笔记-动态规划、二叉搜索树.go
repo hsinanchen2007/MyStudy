@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-[二叉搜索树的数量](https://leetcode-cn.com/problems/unique-binary-search-trees/solution/custerxue-xi-bi-ji-dong-tai-gui-hua-shu-by-custer-/)
+// [二叉搜索树的数量](https://leetcode-cn.com/problems/unique-binary-search-trees/solution/custerxue-xi-bi-ji-dong-tai-gui-hua-shu-by-custer-/)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -75,4 +75,4 @@ func genTrees(low, high int) []*TreeNode {
   }
   return result // 循环结束后返回结果列表即可
 }
-```
+// ```

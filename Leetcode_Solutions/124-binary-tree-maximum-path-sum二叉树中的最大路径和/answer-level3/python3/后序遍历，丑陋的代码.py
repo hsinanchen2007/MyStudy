@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -41,5 +41,5 @@ class Solution:
             r.val = ret
              
         return res
-```
-![TIM截图20190921180226.png](https://pic.leetcode-cn.com/8ab7f7b441ba01f46b3373e3b6c1070ff15d5c7277e5f6df91e68674c051c415-TIM%E6%88%AA%E5%9B%BE20190921180226.png)
+# ```
+# ![TIM截图20190921180226.png](https://pic.leetcode-cn.com/8ab7f7b441ba01f46b3373e3b6c1070ff15d5c7277e5f6df91e68674c051c415-TIM%E6%88%AA%E5%9B%BE20190921180226.png)

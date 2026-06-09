@@ -1,9 +1,9 @@
-### 解题思路
-代码如下
+# ### 解题思路
+# 代码如下
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class CustomStack:
     def __init__(self, maxSize: int):
         self.maxSize = maxSize
@@ -37,4 +37,4 @@ class CustomStack:
 # obj.push(x)
 # param_2 = obj.pop()
 # obj.increment(k,val)
-```
+# ```

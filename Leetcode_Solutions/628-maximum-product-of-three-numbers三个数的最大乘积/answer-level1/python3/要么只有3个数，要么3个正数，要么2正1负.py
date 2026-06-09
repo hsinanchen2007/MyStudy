@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def maximumProduct(self, nums):
         """
@@ -22,4 +22,4 @@ class Solution(object):
         if nums_sm.__len__()>=2 and nums_bg.__len__()>=1:
             rs.append(nums_sm[0]*nums_sm[1]*nums_bg[-1])
         return max(rs)
-```
+# ```

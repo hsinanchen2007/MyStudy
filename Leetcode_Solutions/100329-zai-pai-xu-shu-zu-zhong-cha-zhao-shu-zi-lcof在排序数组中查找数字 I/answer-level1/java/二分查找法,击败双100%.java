@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/3fe52e9a81898e17ca1bb3f989ca6fb74b797d71e66fbdc81d41e5e25c8965f1-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/3fe52e9a81898e17ca1bb3f989ca6fb74b797d71e66fbdc81d41e5e25c8965f1-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         int i = 0 , j = nums.length-1;
@@ -31,4 +31,4 @@ class Solution {
         return right-left-1;
     }
 }
-```
+// ```

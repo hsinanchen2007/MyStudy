@@ -1,6 +1,6 @@
-父进程为0的记为1，为KILL的记为2
+// 父进程为0的记为1，为KILL的记为2
 
-```
+// ```
 #define MAXNUM 100000
 #define TRUEFLAG 2
 
@@ -79,4 +79,4 @@ int* TerminateProcess(int* pid, int pidSize, int* ppid, int ppidSize, int kill, 
     *returnSize = m;
     return r;
 }
-```
+// ```

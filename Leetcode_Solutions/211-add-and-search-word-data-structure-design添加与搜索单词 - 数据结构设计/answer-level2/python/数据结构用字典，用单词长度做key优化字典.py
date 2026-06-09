@@ -1,8 +1,8 @@
-数据结构用字典，用单词长度做key优化字典
+# 数据结构用字典，用单词长度做key优化字典
 
-python 用时152ms，提交中击败了97.14%的用户
+# python 用时152ms，提交中击败了97.14%的用户
 
-```
+# ```
 class WordDictionary:
 
     def __init__(self):
@@ -35,5 +35,5 @@ class WordDictionary:
                 if word[i]!='.' and word[i]!=w[i]:
                     f = False
                 i+=1
-```
+# ```
 

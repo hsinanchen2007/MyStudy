@@ -1,8 +1,8 @@
-执行用时:2ms,在所有Java提交中击败了100.00%的用户
-内存消耗:39MB,在所有Java提交中击败了12.98%的用户
-### 代码
+// 执行用时:2ms,在所有Java提交中击败了100.00%的用户
+// 内存消耗:39MB,在所有Java提交中击败了12.98%的用户
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int []warehouse=new int[100];
@@ -20,4 +20,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

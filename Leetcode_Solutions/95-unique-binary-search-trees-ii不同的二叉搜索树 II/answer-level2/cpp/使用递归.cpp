@@ -1,9 +1,9 @@
-### 解题思路
-此题借用大神的思路，自己进行梳理，以供加深记忆。
+// ### 解题思路
+// 此题借用大神的思路，自己进行梳理，以供加深记忆。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
         return getTree(1, n);
     }
 };
-```
+// ```

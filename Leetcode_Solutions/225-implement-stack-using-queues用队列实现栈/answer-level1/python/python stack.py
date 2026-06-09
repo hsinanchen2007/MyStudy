@@ -1,9 +1,9 @@
-### 解题思路
-完成打卡任务，挺直观的这题
+# ### 解题思路
+# 完成打卡任务，挺直观的这题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -46,4 +46,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

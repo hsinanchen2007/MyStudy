@@ -1,4 +1,4 @@
-```
+# ```
 def majorityElement(self, nums):
         """
         :type nums: List[int]
@@ -13,4 +13,4 @@ def majorityElement(self, nums):
         for key in dict:
             if dict[key]>len(nums)//2:
                 return key
-```
+# ```

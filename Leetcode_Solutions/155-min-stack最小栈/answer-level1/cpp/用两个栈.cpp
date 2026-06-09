@@ -1,12 +1,12 @@
-### 解题思路
-一个存数据st，一个存最小的数据min
-需要注意的一点：
- if(min.empty()||x**<=**min.top()) min.push(x);这里一定是“<=”,不是‘<’,也就是说就算重了也要存进去
-因为现在不存，将来st中pop时，min也要pop，就会出现st重复的那个数还能pop，而min中因为没有重复的数不能pop了
+// ### 解题思路
+// 一个存数据st，一个存最小的数据min
+// 需要注意的一点：
+//  if(min.empty()||x**<=**min.top()) min.push(x);这里一定是“<=”,不是‘<’,也就是说就算重了也要存进去
+// 因为现在不存，将来st中pop时，min也要pop，就会出现st重复的那个数还能pop，而min中因为没有重复的数不能pop了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 public:
     stack<int> st;
@@ -43,4 +43,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

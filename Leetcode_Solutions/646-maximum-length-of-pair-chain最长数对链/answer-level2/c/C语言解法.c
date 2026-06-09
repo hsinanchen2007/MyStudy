@@ -1,9 +1,9 @@
-### 解题思路
-与俄罗斯套娃信封问题的解题思路一样
+// ### 解题思路
+// 与俄罗斯套娃信封问题的解题思路一样
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int MAX(int a,int b){return a>b?a:b;}
 int MIN(int a,int b){return a>b?a:b;}
 typedef struct node {
@@ -48,4 +48,4 @@ int findLongestChain(int** list, int row, int* col){
 
  	return tmax;
 }
-```
+// ```

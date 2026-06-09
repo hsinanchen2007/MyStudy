@@ -1,7 +1,7 @@
-从颜色标记法转化过来的.
+# 从颜色标记法转化过来的.
 
 
-```python
+# ```python
 class Solution:
     def inorderSuccessor(self, root: 'TreeNode', p: 'TreeNode') -> 'TreeNode':
         used_p = False
@@ -20,4 +20,4 @@ class Solution:
                 if used_p and node.val > p.val:
                     return node
         return None
-```
+# ```

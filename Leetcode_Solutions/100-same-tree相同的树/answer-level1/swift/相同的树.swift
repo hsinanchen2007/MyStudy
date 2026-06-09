@@ -1,9 +1,9 @@
 
-递归法：
-递归每一个树的节点，判断两棵树是否相同。
+// 递归法：
+// 递归每一个树的节点，判断两棵树是否相同。
 
 
-```swift []
+// ```swift []
 
 class Solution {
     func checkNode(_ n1: TreeNode?, _ n2: TreeNode?, _ flag: inout Int) {
@@ -34,5 +34,5 @@ class Solution {
     }
 }
 
-```
+// ```
 

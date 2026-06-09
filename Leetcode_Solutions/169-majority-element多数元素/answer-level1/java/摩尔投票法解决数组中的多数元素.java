@@ -1,9 +1,9 @@
-### 解题思路
-原理就是用大部分数消去小部分数，因为众数占多半，所以最后剩下的肯定就是众数
+// ### 解题思路
+// 原理就是用大部分数消去小部分数，因为众数占多半，所以最后剩下的肯定就是众数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         int count = 0;
@@ -21,4 +21,4 @@ class Solution {
         return value;
     }
 }
-```
+// ```

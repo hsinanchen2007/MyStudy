@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
         if equations == []: return []
@@ -33,4 +33,4 @@ class Solution:
             else:
                 res.append(-1)
         return res    
-```
+# ```

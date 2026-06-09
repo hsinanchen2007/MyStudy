@@ -1,9 +1,9 @@
-### 解题思路
-桶排序，然后求最大公约数，如果 最大公约数 >=2,那么OK.时间复杂度O(NlogC),N是卡牌个数（相同卡牌算一个），logC是求两个数最大公约数的时间复杂度，总共需要比较 N-1次
+// ### 解题思路
+// 桶排序，然后求最大公约数，如果 最大公约数 >=2,那么OK.时间复杂度O(NlogC),N是卡牌个数（相同卡牌算一个），logC是求两个数最大公约数的时间复杂度，总共需要比较 N-1次
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         if (deck.length < 2) {
@@ -34,4 +34,4 @@ class Solution {
         return b;
     }
 }
-```
+// ```

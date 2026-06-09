@@ -1,8 +1,8 @@
-执行用时 : 2 ms, 在所有 Java 提交中击败了95.66%的用户
-内存消耗 : 37.6 MB, 在所有 Java 提交中击败了85.61%的用户
-先得到长度，然后从长度相等处开始比较。
-测试用例的val相等，不代表node是相等的，所以是比较node不是比较val
-```
+// 执行用时 : 2 ms, 在所有 Java 提交中击败了95.66%的用户
+// 内存消耗 : 37.6 MB, 在所有 Java 提交中击败了85.61%的用户
+// 先得到长度，然后从长度相等处开始比较。
+// 测试用例的val相等，不代表node是相等的，所以是比较node不是比较val
+// ```
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode A = headA;

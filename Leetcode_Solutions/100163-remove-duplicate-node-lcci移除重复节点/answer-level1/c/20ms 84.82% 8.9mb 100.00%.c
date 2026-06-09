@@ -1,9 +1,9 @@
-### 解题思路
-记录下所有出现过的节点并删除重复出现的节点
+// ### 解题思路
+// 记录下所有出现过的节点并删除重复出现的节点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ struct ListNode* removeDuplicateNodes(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

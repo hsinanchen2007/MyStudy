@@ -1,12 +1,12 @@
-一开始做的时候没想到好的解法，看了大佬们的解法讨论后用python实现,但是python标准库中没有TreeMap，只好用Sort + OrderedDict来替代
+# 一开始做的时候没想到好的解法，看了大佬们的解法讨论后用python实现,但是python标准库中没有TreeMap，只好用Sort + OrderedDict来替代
 
 
-解法：
-连续数字的集合实际上等于一条条的线段，那么，如果将每个点的出现次数统计，然后从最小的点开始为其寻找连续的k个点来组成线段，如果无法找到连续的k个点，则返回False。
+# 解法：
+# 连续数字的集合实际上等于一条条的线段，那么，如果将每个点的出现次数统计，然后从最小的点开始为其寻找连续的k个点来组成线段，如果无法找到连续的k个点，则返回False。
 
 
 
-```
+# ```
 from collections import OrderedDict
 class Solution:
     def isPossibleDivide(self, nums: [int], k: int) -> bool:
@@ -30,6 +30,6 @@ class Solution:
                 val -= 1
         
         return True
-```
+# ```
 
-时间复杂度O(nlogn) 空间复杂度O(n)
+# 时间复杂度O(nlogn) 空间复杂度O(n)

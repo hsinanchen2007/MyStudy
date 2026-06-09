@@ -1,9 +1,9 @@
-### 解题思路
-如题
+# ### 解题思路
+# 如题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class CustomStack:
 
     def __init__(self, maxSize: int):
@@ -39,4 +39,4 @@ class CustomStack:
 # obj.push(x)
 # param_2 = obj.pop()
 # obj.increment(k,val)
-```
+# ```

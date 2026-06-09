@@ -1,4 +1,4 @@
-```java
+// ```java
     public void sortColors(int[] nums) {
         int num = 1;
         int small = -1, equal = 0, big = nums.length;
@@ -20,4 +20,4 @@
             nums[p1] = nums[p1] ^ nums[p2];
         }
     }
-```
+// ```

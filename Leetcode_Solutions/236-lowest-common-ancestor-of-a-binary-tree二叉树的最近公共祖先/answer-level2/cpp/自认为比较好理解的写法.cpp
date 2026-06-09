@@ -1,5 +1,5 @@
-如果p,q都在左孩子，就去左孩子里面找，如果p,q都在右孩子就去右孩子找，同时记录所有同时包含p,q的节点，然后返回最后一个
-```
+// 如果p,q都在左孩子，就去左孩子里面找，如果p,q都在右孩子就去右孩子找，同时记录所有同时包含p,q的节点，然后返回最后一个
+// ```
 class Solution {
 public:
     bool nodeExistInRoot(TreeNode *root, TreeNode *node) {
@@ -32,4 +32,4 @@ public:
         return queue.back();
     }
 };
-```
+// ```

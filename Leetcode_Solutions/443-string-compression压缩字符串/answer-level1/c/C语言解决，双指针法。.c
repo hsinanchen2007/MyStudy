@@ -1,10 +1,10 @@
-### 解题思路
-用指针anchor指向连续块的起始位置，用指针read指向不同于该连续块字符的第一个位置，用write指针更新字符数组。
-read-anchor即为连续块长度，若为1，则不写入，一趟完成后让anchor指向read，即继续扫描下一连续块。
+// ### 解题思路
+// 用指针anchor指向连续块的起始位置，用指针read指向不同于该连续块字符的第一个位置，用write指针更新字符数组。
+// read-anchor即为连续块长度，若为1，则不写入，一趟完成后让anchor指向read，即继续扫描下一连续块。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int compress(char* chars, int charsSize){
     int write = 0;
     char buf[1000];
@@ -21,4 +21,4 @@ int compress(char* chars, int charsSize){
     }
     return write;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-解题思路：
-序列化：层序遍历
-反序列化：双指针，i指向上一层，j指向下一层，建立父子关系。
+# 解题思路：
+# 序列化：层序遍历
+# 反序列化：双指针，i指向上一层，j指向下一层，建立父子关系。
 
-``` python
+# ``` python
 import sys
 class Codec:
     def serialize(self, root):
@@ -52,4 +52,4 @@ class Codec:
             else:
                 i+=1
         return root
-```
+# ```

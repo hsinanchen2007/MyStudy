@@ -1,9 +1,9 @@
-### 解题思路
-从头开始遍历，如果这组情侣不满足要求，则从后面找到满足要求的1个情侣交换过来。
+# ### 解题思路
+# 从头开始遍历，如果这组情侣不满足要求，则从后面找到满足要求的1个情侣交换过来。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minSwapsCouples(self, row: List[int]) -> int:
         change_count = 0
@@ -21,4 +21,4 @@ class Solution:
                 change_count += 1
 
         return change_count
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func wiggleMaxLength(nums []int) int {
     if len(nums)<2{
         return len(nums)
@@ -34,4 +34,4 @@ func max(i,j int)int{
     }
     return j
 }
-```
+// ```

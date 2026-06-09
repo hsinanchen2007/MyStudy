@@ -1,4 +1,4 @@
-```
+// ```
 void reverseWord(char *s, int start, int end)
 {
 	while (start < end)
@@ -35,4 +35,4 @@ char * reverseWords(char * s) {
 	return s;
 }
 
-```
+// ```

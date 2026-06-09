@@ -1,4 +1,4 @@
-```
+// ```
 func knightProbability(N int, K int, r int, c int) float64 {
     moves := [][]int{{-2, -1},{-2, 1},{-1, -2},{-1, 2},{1, -2},{1, 2},{2, -1},{2, 1}}
     temp, dp := make([][]float64, N), make([][]float64, N)
@@ -29,4 +29,4 @@ func knightProbability(N int, K int, r int, c int) float64 {
     }
     return dp[r][c]
 }
-```
+// ```

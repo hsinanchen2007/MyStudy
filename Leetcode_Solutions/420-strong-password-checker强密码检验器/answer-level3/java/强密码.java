@@ -1,7 +1,7 @@
 
 
 
-```
+// ```
 import java.util.*;
 class Solution {
     //连续字符的长度不能大于等于3
@@ -162,5 +162,5 @@ class Solution {
         return result;
     }
 }
-```
+// ```
 

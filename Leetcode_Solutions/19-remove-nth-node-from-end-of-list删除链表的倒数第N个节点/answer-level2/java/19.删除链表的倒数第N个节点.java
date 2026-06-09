@@ -1,9 +1,9 @@
-### 解题思路
-双指针遍历加个头节点，O(n)
+// ### 解题思路
+// 双指针遍历加个头节点，O(n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return node.next;
     }
 }
-```
+// ```

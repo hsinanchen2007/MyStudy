@@ -1,4 +1,4 @@
-```
+// ```
 function findMissingRanges($nums, $lower, $upper) {
     $lastlower = $lower;
     $ans = [];
@@ -17,4 +17,4 @@ function findMissingRanges($nums, $lower, $upper) {
     }
     return $ans;
 }
-```
+// ```

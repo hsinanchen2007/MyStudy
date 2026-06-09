@@ -1,15 +1,15 @@
-### 解题思路
-- 设置一个位置指针，每次比较这个指针对应的位置的元素和val是否相等
-- 相等
-    * 从location+1开始到最后依次向前移动一个位置
-    * 即location这个位置的元素被覆盖掉了所以后面接着还是从location开始考察
-    * 数组的大小减一
-- 不相等
-    * 直接location指针加一
+// ### 解题思路
+// - 设置一个位置指针，每次比较这个指针对应的位置的元素和val是否相等
+// - 相等
+//     * 从location+1开始到最后依次向前移动一个位置
+//     * 即location这个位置的元素被覆盖掉了所以后面接着还是从location开始考察
+//     * 数组的大小减一
+// - 不相等
+//     * 直接location指针加一
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeElement(int* nums, int numsSize, int val){
     int location , j , temp ;
 
@@ -35,4 +35,4 @@ int removeElement(int* nums, int numsSize, int val){
 
     return numsSize;
 }
-```
+// ```

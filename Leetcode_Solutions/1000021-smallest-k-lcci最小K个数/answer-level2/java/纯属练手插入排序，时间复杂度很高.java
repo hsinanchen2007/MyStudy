@@ -1,9 +1,9 @@
-### 解题思路
-想看插入排序实现的想法可以看看代码，没什么好讲的，插入排序常规思路了，就是效率不高
+// ### 解题思路
+// 想看插入排序实现的想法可以看看代码，没什么好讲的，插入排序常规思路了，就是效率不高
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] smallestK(int[] arr, int k) {
         int temp;
@@ -24,4 +24,4 @@ class Solution {
 		return result;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-没懂要怎么实现，为什么大家写得那么复杂，哭了
+# ### 解题思路
+# 没懂要怎么实现，为什么大家写得那么复杂，哭了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyHashMap:
 
     def __init__(self):
@@ -36,4 +36,4 @@ class MyHashMap:
 # obj.put(key,value)
 # param_2 = obj.get(key)
 # obj.remove(key)
-```
+# ```

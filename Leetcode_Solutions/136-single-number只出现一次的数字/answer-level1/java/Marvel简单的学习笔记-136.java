@@ -1,11 +1,11 @@
-多种解法，逐步优化，值得回味的题。
-### 解法一：哈希表
-执行用时：14ms
-内存消耗：40MB
+// 多种解法，逐步优化，值得回味的题。
+// ### 解法一：哈希表
+// 执行用时：14ms
+// 内存消耗：40MB
 
-代码
+// 代码
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         Map<Integer,Integer> map=new HashMap<Integer,Integer>();
@@ -20,14 +20,14 @@ class Solution {
         return -1;//do not exist
     }
 }
-```
-### 解法二：数学
-执行用时：15ms
-内存消耗：39MB
+// ```
+// ### 解法二：数学
+// 执行用时：15ms
+// 内存消耗：39MB
 
-代码
+// 代码
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         int a=0,b=0;
@@ -42,14 +42,14 @@ class Solution {
         return 2*b-a;
     }
 }
-```
-### 解法三：位运算（XOR按位异或）
-执行用时：1ms
-内存消耗：39MB
+// ```
+// ### 解法三：位运算（XOR按位异或）
+// 执行用时：1ms
+// 内存消耗：39MB
 
-代码
+// 代码
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         int ans=0;
@@ -58,4 +58,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

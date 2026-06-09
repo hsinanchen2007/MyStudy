@@ -1,4 +1,4 @@
-```java
+// ```java
 
     public int dominantIndex(int[] nums) {
         int []nums1=nums.clone();
@@ -20,4 +20,4 @@
         
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-判断链表有环的操作是:
-初始化一个快指针一个慢指针，快指针一次走 2 格，慢指针一次走 1 格。当快慢指针相等
-时，停止循环。然后让快指针回到初始位置，再次开始移动两个指针，这次两个指针每次都走一格，
-重合的位置即为开始循环的位置。
+# 判断链表有环的操作是:
+# 初始化一个快指针一个慢指针，快指针一次走 2 格，慢指针一次走 1 格。当快慢指针相等
+# 时，停止循环。然后让快指针回到初始位置，再次开始移动两个指针，这次两个指针每次都走一格，
+# 重合的位置即为开始循环的位置。
 
-```Python
+# ```Python
 class Solution:
     def detectCycle(self, head: ListNode) -> ListNode:
         if head == None or head.next == None:
@@ -24,4 +24,4 @@ class Solution:
             fast = fast.next
             slow = slow.next
         return fast
-```
+# ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -28,4 +28,4 @@ var longestConsecutive = function(nums) {
     }
     return leng1;
 };
-```
+// ```

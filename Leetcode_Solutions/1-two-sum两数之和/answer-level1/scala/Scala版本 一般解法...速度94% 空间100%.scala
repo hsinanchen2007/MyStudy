@@ -1,4 +1,4 @@
-```
+// ```
 import scala.util.control.Breaks._
 object Solution {
     def twoSum(nums: Array[Int], target: Int): Array[Int] = {
@@ -17,4 +17,4 @@ object Solution {
         res
     }
 }
-```
+// ```

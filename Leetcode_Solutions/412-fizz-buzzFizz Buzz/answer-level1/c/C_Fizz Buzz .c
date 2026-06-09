@@ -1,13 +1,13 @@
-### 解题思路
-注意1：函数内显式定义的常量字符串，在函数结束时是不会销毁的，仍然可以通过调用该字符串的地址来访问这个字符串。
-注意2：152这种数字转换成字符串要另外写一个函数（c语言）
+// ### 解题思路
+// 注意1：函数内显式定义的常量字符串，在函数结束时是不会销毁的，仍然可以通过调用该字符串的地址来访问这个字符串。
+// 注意2：152这种数字转换成字符串要另外写一个函数（c语言）
 
-代码多，但是速度和空间还行
-![image.png](https://pic.leetcode-cn.com/ee3f9f0ec8e444a1aa63a63727eefa9d18fa39307607a51e01ebecfbe757bfc9-image.png)
+// 代码多，但是速度和空间还行
+// ![image.png](https://pic.leetcode-cn.com/ee3f9f0ec8e444a1aa63a63727eefa9d18fa39307607a51e01ebecfbe757bfc9-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -89,4 +89,4 @@ char ** fizzBuzz(int n, int* returnSize){
             result[i]=toString(i+1);
     return result;   
 }
-```
+// ```

@@ -1,8 +1,8 @@
-哈希表法
-==============
-哈希表二次遍历
-----------------
-```cpp
+// 哈希表法
+// ==============
+// 哈希表二次遍历
+// ----------------
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -25,11 +25,11 @@ public:
 };
 
 
-```
-哈希表一次遍历
---------------
+// ```
+// 哈希表一次遍历
+// --------------
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -47,4 +47,4 @@ public:
         return res;
     }
 };
-```
+// ```

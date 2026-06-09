@@ -1,20 +1,20 @@
-### 分析
-题目要求时间复杂度为O(log(m + n))。基本可以确定本题应该用二分查找，对于数组arr的中位数，如果数组长度为len，len为奇数，则中位数为第（len+1）/2 位，如果len为偶数，我们需要知道第 len/2和 len/2+1 个数。
-我们需要找出两个排序数组的第k个数的问题。比较两个数组的第k/2位，然后将第k/2位较小的数组中的前k/2位删除。 然后继续此过程
+// ### 分析
+// 题目要求时间复杂度为O(log(m + n))。基本可以确定本题应该用二分查找，对于数组arr的中位数，如果数组长度为len，len为奇数，则中位数为第（len+1）/2 位，如果len为偶数，我们需要知道第 len/2和 len/2+1 个数。
+// 我们需要找出两个排序数组的第k个数的问题。比较两个数组的第k/2位，然后将第k/2位较小的数组中的前k/2位删除。 然后继续此过程
 
-** 举个例子**
- ```
+// ** 举个例子**
+//  ```
 A={1,3,4,9} lenA=4  B={1,2,3,4,5,6,7,8,9} lenB=9  lenA+lenB=13 ，因此找第7个数
 7/2 = 3   A的第3个数为4，B的第3个数为3，  因此接下来A={1,3,4,9}   B={4,5,6,7,8,9}  找第7-3=4个数，
 4/2=2 A的第2个数为3，B的第3个数为6，  因此接下来A={4,9}   B={4,5,6,7,8,9}   找第4-2=2个数，
 2/2=1 A的第1个数为4，B的第1个数为4，  因此接下来A={4}   B={5,6,7,8,9}   找第2-1=1个数，
 现在找第1个数，比较A[0]和B[0]谁更小即可，因此最后结果为4
-```
+// ```
 
-更多二分查找相关的算法题，[参考此文](https://blog.csdn.net/reed1991/article/details/53341385)
+// 更多二分查找相关的算法题，[参考此文](https://blog.csdn.net/reed1991/article/details/53341385)
      
 
-```
+// ```
 public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int len1 = nums1.length;
         int len2 = nums2.length;
@@ -47,6 +47,6 @@ public double findMedianSortedArrays(int[] nums1, int[] nums2) {
             return find(nums1, pos1 + 1, end1, nums2, start2, end2, cnt - Math.min(cnt / 2, len1));
         }
     }
-```
-本人建了个公众号用于刷题交流，欢迎关注：
-![qrcode_for_gh_8eedbc428c9a_258(1).jpg](https://pic.leetcode-cn.com/e5f794b173fbe256a541447fc7ff8e6eb031774890bdfdb48ca3c7866dc81dc2-qrcode_for_gh_8eedbc428c9a_258\(1\).jpg)
+// ```
+// 本人建了个公众号用于刷题交流，欢迎关注：
+// ![qrcode_for_gh_8eedbc428c9a_258(1).jpg](https://pic.leetcode-cn.com/e5f794b173fbe256a541447fc7ff8e6eb031774890bdfdb48ca3c7866dc81dc2-qrcode_for_gh_8eedbc428c9a_258\(1\).jpg)

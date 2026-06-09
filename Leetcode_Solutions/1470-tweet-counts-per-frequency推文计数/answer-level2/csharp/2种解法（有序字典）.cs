@@ -1,16 +1,16 @@
-## 解法一（有序字典）
-思路：使用字典存储有序列表便于顺序查找，查询主要是在指定的区间内对数据计数。方案比较简洁，难点审题和调试。
-测试用例容易晕，调试时候遇到较长的测试用例及对应的预期输出如下，自己用了1个多小时通过测试用例，找输出对应的输入，用了1秒解决了问题：
-1. 插入数据时，生成有序字典，也可以改用二分法加快效率
-2. 使用起止时间差作为结束条件，每一个对应的时间间隔输出计数的插入数据
+// ## 解法一（有序字典）
+// 思路：使用字典存储有序列表便于顺序查找，查询主要是在指定的区间内对数据计数。方案比较简洁，难点审题和调试。
+// 测试用例容易晕，调试时候遇到较长的测试用例及对应的预期输出如下，自己用了1个多小时通过测试用例，找输出对应的输入，用了1秒解决了问题：
+// 1. 插入数据时，生成有序字典，也可以改用二分法加快效率
+// 2. 使用起止时间差作为结束条件，每一个对应的时间间隔输出计数的插入数据
 
-* 时间复杂度：O(n)
-* 空间复杂度：O(n)
+// * 时间复杂度：O(n)
+// * 空间复杂度：O(n)
 
 
-* 测试用例：[https://www.zhenxiangsimple.com/files/tech/testCase20200209.txt](https://www.zhenxiangsimple.com/files/tech/testCase20200209.txt)
-* 预期输出：[https://www.zhenxiangsimple.com/files/tech/testCase20200209-1.txt](https://www.zhenxiangsimple.com/files/tech/testCase20200209-1.txt)
-```csharp
+// * 测试用例：[https://www.zhenxiangsimple.com/files/tech/testCase20200209.txt](https://www.zhenxiangsimple.com/files/tech/testCase20200209.txt)
+// * 预期输出：[https://www.zhenxiangsimple.com/files/tech/testCase20200209-1.txt](https://www.zhenxiangsimple.com/files/tech/testCase20200209-1.txt)
+// ```csharp
 public class TweetCounts {
     
     Dictionary<string,List<int>> list;
@@ -74,6 +74,6 @@ public class TweetCounts {
         return t;
     }
 }
-```
-***
-## 解法二
+// ```
+// ***
+// ## 解法二

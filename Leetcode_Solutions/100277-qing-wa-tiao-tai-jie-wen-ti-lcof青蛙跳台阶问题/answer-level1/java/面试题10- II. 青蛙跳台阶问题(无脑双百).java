@@ -1,9 +1,9 @@
-### 解题思路
-注意当n=0的时候是1种跳法
+// ### 解题思路
+// 注意当n=0的时候是1种跳法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numWays(int n) {
         if(n<2)return 1;
@@ -18,4 +18,4 @@ class Solution {
         return item;
     }
 }
-```
+// ```

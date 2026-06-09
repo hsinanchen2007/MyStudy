@@ -1,4 +1,4 @@
-这题简单，贡献一个js的代码
+// 这题简单，贡献一个js的代码
 
 var CustomStack = function(maxSize) {
     this.max_size=maxSize

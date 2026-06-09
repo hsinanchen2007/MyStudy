@@ -1,9 +1,9 @@
-### 法一
-动态规划，dp[i]表示以i结尾的序列长度（必须取到i），dp[i] = Max(dp[j]) + 1 {0 <= j < i && nums[i] > nums[j]}
+// ### 法一
+// 动态规划，dp[i]表示以i结尾的序列长度（必须取到i），dp[i] = Max(dp[j]) + 1 {0 <= j < i && nums[i] > nums[j]}
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         if (0 == nums.length) {
@@ -29,4 +29,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

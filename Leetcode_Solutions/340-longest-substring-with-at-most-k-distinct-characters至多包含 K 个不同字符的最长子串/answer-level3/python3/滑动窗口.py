@@ -1,10 +1,10 @@
-## 思路:
+# ## 思路:
 
-滑动窗口
+# 滑动窗口
 
-## 代码:
+# ## 代码:
 
-```python
+# ```python
 class Solution:
     def lengthOfLongestSubstringKDistinct(self, s: str, k: int) -> int:
         res = 0
@@ -20,17 +20,17 @@ class Solution:
                 left += 1
             res = max(res, right - left + 1)
         return res
-```
+# ```
 
-------
+# ------
 
-下面介绍关于滑动窗口的**万能模板**,可以解决相关问题,相信一定可以对滑动窗口有一定了解!
+# 下面介绍关于滑动窗口的**万能模板**,可以解决相关问题,相信一定可以对滑动窗口有一定了解!
 
-还有类似题目有:
+# 还有类似题目有:
 
-[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+# [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 
-```python
+# ```python
 class Solution:
     def lengthOfLongestSubstring(self, s):
         """
@@ -55,13 +55,13 @@ class Solution:
                 start += 1
             max_len = max(max_len, end - start)
         return max_len
-```
+# ```
 
 
 
- [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
+#  [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
 
-```python
+# ```python
 class Solution:
     def minWindow(self, s: 'str', t: 'str') -> 'str':
         from collections import defaultdict
@@ -87,11 +87,11 @@ class Solution:
                 lookup[s[start]] += 1
                 start += 1
         return res
-```
+# ```
 
-[159. 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
+# [159. 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
 
-```python
+# ```python
 class Solution:
     def lengthOfLongestSubstringTwoDistinct(self, s: str) -> int:
         from collections import defaultdict
@@ -112,11 +112,11 @@ class Solution:
                 start += 1
             max_len = max(max_len, end - start)
         return max_len
-```
+# ```
 
- [340. 至多包含 K 个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters/)
+#  [340. 至多包含 K 个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters/)
 
-```python
+# ```python
 class Solution:
     def lengthOfLongestSubstringKDistinct(self, s: str, k: int) -> int:
         from collections import defaultdict
@@ -137,7 +137,7 @@ class Solution:
                 start += 1
             max_len = max(max_len, end - start)
         return max_len
-```
+# ```
 
 
 
@@ -145,27 +145,27 @@ class Solution:
 
 
 
-------
+# ------
 
-滑动窗口题目:
+# 滑动窗口题目:
 
-[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+# [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 
- [30. 串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
+#  [30. 串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
 
- [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
+#  [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
 
-[159. 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
+# [159. 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
 
- [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
+#  [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
 
-[239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
+# [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
 
-[567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)
+# [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)
 
- [632. 最小区间](https://leetcode-cn.com/problems/smallest-range/)
+#  [632. 最小区间](https://leetcode-cn.com/problems/smallest-range/)
 
- [727. 最小窗口子序列](https://leetcode-cn.com/problems/minimum-window-subsequence/)
+#  [727. 最小窗口子序列](https://leetcode-cn.com/problems/minimum-window-subsequence/)
 
 
 

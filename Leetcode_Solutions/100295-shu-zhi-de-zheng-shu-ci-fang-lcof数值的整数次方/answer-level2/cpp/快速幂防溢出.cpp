@@ -1,4 +1,4 @@
-```C++
+// ```C++
 class Solution {
 public:
     double myPow(double x, int n) {
@@ -25,5 +25,5 @@ public:
         return ans;
     }
 };
-```
-复杂度O(logn)
+// ```
+// 复杂度O(logn)

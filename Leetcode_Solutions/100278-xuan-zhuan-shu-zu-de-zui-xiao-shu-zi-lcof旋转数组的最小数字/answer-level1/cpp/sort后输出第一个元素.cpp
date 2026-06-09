@@ -1,9 +1,9 @@
-### 解题思路
-sort后输出第一个元素，用时较久
+// ### 解题思路
+// sort后输出第一个元素，用时较久
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minArray(vector<int>& numbers) {
@@ -11,4 +11,4 @@ public:
         return numbers[0];
     }
 };
-```
+// ```

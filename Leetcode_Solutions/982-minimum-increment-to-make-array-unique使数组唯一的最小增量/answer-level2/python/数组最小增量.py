@@ -1,9 +1,9 @@
-### 解题思路
-sort排序，然后遍历一遍，小了加差值加一即可完成
+# ### 解题思路
+# sort排序，然后遍历一遍，小了加差值加一即可完成
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minIncrementForUnique(self, A):
         """
@@ -21,4 +21,4 @@ class Solution(object):
                 A[i] = A[i-1]+1
                 res += dif
         return res
-```
+# ```

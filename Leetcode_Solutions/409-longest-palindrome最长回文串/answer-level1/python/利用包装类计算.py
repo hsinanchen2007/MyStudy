@@ -1,9 +1,9 @@
-### 解题思路
-利用Counter计算重复字符，从而得到最长回文串长度
+# ### 解题思路
+# 利用Counter计算重复字符，从而得到最长回文串长度
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         from collections import Counter
@@ -18,4 +18,4 @@ class Solution:
 
             
 
-```
+# ```

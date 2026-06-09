@@ -1,4 +1,4 @@
-```
+// ```
 /*
 参考思想如下：https://blog.csdn.net/qq_41593380/article/details/81146850
 参考了两份C++实现，改进以后形成以下代码
@@ -59,4 +59,4 @@ public:
         return res;
     }
 };
-```
+// ```

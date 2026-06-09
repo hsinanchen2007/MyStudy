@@ -1,13 +1,13 @@
-### 执行结果
-执行用时 :
-2 ms, 在所有 Java 提交中击败了98.78%的用户
-内存消耗 :
-36.8 MB, 在所有 Java 提交中击败了96.08%的用户
+// ### 执行结果
+// 执行用时 :
+// 2 ms, 在所有 Java 提交中击败了98.78%的用户
+// 内存消耗 :
+// 36.8 MB, 在所有 Java 提交中击败了96.08%的用户
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> commonChars(String[] A) {
         List<String> lst = new ArrayList<>();
@@ -48,4 +48,4 @@ class Solution {
         return freqs;
     }
 }
-```
+// ```

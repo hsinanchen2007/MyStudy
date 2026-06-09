@@ -1,9 +1,9 @@
-### 解题思路
-运用set天然的去重性质
+// ### 解题思路
+// 运用set天然的去重性质
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         TreeSet<Integer> set = new TreeSet<>();
@@ -28,4 +28,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-### 解题思路
-1. 快慢指针分割链表，快指针走2步，慢指针走1步
-循环终止条件：fast->next==NULL
-```
+// ### 解题思路
+// 1. 快慢指针分割链表，快指针走2步，慢指针走1步
+// 循环终止条件：fast->next==NULL
+// ```
 fast=head;
 slow=head;
 while(fast->next)
@@ -14,19 +14,19 @@ while(fast->next)
         break;
     }
 }
-```
-2. 此时的slow指针位置：若单链表长度为odd，slow位于中间。若单链表长度为even，slow位于左半部分，最后一个位置。
-可以简单画个图移动一下指针就明白了。
-3. 递归链表
-```
+// ```
+// 2. 此时的slow指针位置：若单链表长度为odd，slow位于中间。若单链表长度为even，slow位于左半部分，最后一个位置。
+// 可以简单画个图移动一下指针就明白了。
+// 3. 递归链表
+// ```
 tmp = slow->next; //保存右半部分链表
 slow->next=NULL; //割断链表
 left=sort(head);
 right=sort(tmp);
-```
-4. 合并链表
-left和right均为有序链表头指针，合并2链表算法如下
-```
+// ```
+// 4. 合并链表
+// left和right均为有序链表头指针，合并2链表算法如下
+// ```
 while(left&&right){
     if(left->val>right->val){
         L->next=right;
@@ -43,11 +43,11 @@ while(last){
         last=last->next;
         L=L->next;
     }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -105,4 +105,4 @@ public:
         return New_Head->next;
     }
 };
-```
+// ```

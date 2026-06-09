@@ -1,5 +1,5 @@
-比较前后两个罗马字符对应的数值大小，后面大的话就将前面数值取反
-```
+// 比较前后两个罗马字符对应的数值大小，后面大的话就将前面数值取反
+// ```
 int readroma(char roma){
     switch(roma){
         case 'I':return 1;
@@ -27,4 +27,4 @@ int romanToInt(char * s){
     num += readroma(*s);
     return num;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-感觉最近疫情，大家都在耍Leetcode, 导致服务器运行速度变得很慢啊
+// ### 解题思路
+// 感觉最近疫情，大家都在耍Leetcode, 导致服务器运行速度变得很慢啊
 
-![image.png](https://pic.leetcode-cn.com/3df781f950af713c425298e33c83f6cfb206ee83aa41172b8167748018187980-image.png)
-### 代码
+// ![image.png](https://pic.leetcode-cn.com/3df781f950af713c425298e33c83f6cfb206ee83aa41172b8167748018187980-image.png)
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} piles
  * @param {number} H
@@ -38,4 +38,4 @@ var minEatingSpeed = function(piles, H) {
   // 已经跳出了二分，所以这时K是不对的，那为什么speedMin 就对喃， 因为speedMax已经经过了验证
   return speedMin;
 };
-```
+// ```

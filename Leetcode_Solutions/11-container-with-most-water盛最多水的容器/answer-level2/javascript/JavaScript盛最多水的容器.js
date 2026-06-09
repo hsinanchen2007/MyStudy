@@ -1,5 +1,5 @@
-思路一：循环遍历每一种可能的面积，取最大值即可，时间复杂度：**O(n^2)**。
-```
+// 思路一：循环遍历每一种可能的面积，取最大值即可，时间复杂度：**O(n^2)**。
+// ```
 var maxArea = function(height) {
     let area = 0;
     for (let i = 0; i < height.length; i++) {
@@ -10,9 +10,9 @@ var maxArea = function(height) {
     }
     return area;
 };
-```
-思路二：从最左边和最右边开始计算面积，哪边高度小，就往中间进一步，比较面积大小，时间复杂度：**O(n)**。
-```
+// ```
+// 思路二：从最左边和最右边开始计算面积，哪边高度小，就往中间进一步，比较面积大小，时间复杂度：**O(n)**。
+// ```
 var maxArea = function(height) {
     let area = 0;
     let i = 0;
@@ -28,9 +28,9 @@ var maxArea = function(height) {
     }
     return area;
 };
-```
-思路二的优化方法：
-```
+// ```
+// 思路二的优化方法：
+// ```
 var maxArea = function(height) {
     let area = 0;
     let i = 0;
@@ -50,6 +50,6 @@ var maxArea = function(height) {
     }
     return area;
 };
-```
+// ```
 
 

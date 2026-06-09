@@ -1,6 +1,6 @@
-![5DE1DC6B-A981-4A53-99EE-3F958B8E8F79.jpeg](https://pic.leetcode-cn.com/1a3619fccc524ba4476e192640740f4495f4615564365876df08828210d61ffa-5DE1DC6B-A981-4A53-99EE-3F958B8E8F79.jpeg)
+// ![5DE1DC6B-A981-4A53-99EE-3F958B8E8F79.jpeg](https://pic.leetcode-cn.com/1a3619fccc524ba4476e192640740f4495f4615564365876df08828210d61ffa-5DE1DC6B-A981-4A53-99EE-3F958B8E8F79.jpeg)
 
-```
+// ```
 int Cmp(const void *a, const void *b)
 {
     return *(int *)b - *(int *)a;
@@ -30,4 +30,4 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize){
 
     return returnVal;
 }
-```
+// ```

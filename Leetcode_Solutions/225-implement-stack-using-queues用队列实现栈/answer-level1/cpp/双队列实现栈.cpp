@@ -1,9 +1,9 @@
-### 解题思路
-双队列实现一个栈（当初夏令营面试遇到的一道机试）
+// ### 解题思路
+// 双队列实现一个栈（当初夏令营面试遇到的一道机试）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -61,4 +61,4 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

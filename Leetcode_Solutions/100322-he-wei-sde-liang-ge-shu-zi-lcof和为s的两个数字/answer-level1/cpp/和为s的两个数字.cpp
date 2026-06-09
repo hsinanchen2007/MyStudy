@@ -1,10 +1,10 @@
-### 解题思路
-双指针
-对于排序好的数组，从首位向中间逼近
+// ### 解题思路
+// 双指针
+// 对于排序好的数组，从首位向中间逼近
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -24,4 +24,4 @@ public:
         return res;
     }
 };
-```
+// ```

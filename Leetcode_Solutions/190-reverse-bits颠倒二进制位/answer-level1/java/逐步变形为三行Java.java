@@ -1,4 +1,4 @@
-```java
+// ```java
 public int reverseBits(int n) {
     int res = 0b0; // java 7 以后支持 0b 或 0B 直接写二进制
     for (int i = 0; i < 32; i++) { // 遍历32个位
@@ -8,8 +8,8 @@ public int reverseBits(int n) {
     }
     return res;
 }
-```
-```java
+// ```
+// ```java
 public int reverseBits(int n) {
     int res = 0b0, i = 0; // for 换 while
     // res 左移不需要暂存，直接用 (res << 1)
@@ -18,4 +18,4 @@ public int reverseBits(int n) {
     while (i++ < 32) res = (res << 1) | (n >>> (i - 1) & 1);
     return res;
 }
-```
+// ```

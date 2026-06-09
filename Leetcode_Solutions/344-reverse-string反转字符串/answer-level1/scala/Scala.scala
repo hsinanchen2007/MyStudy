@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def reverseString(s: Array[Char]): Unit = {
      var i=0
@@ -16,4 +16,4 @@ object Solution {
     } 
     }
 }
-```
+// ```

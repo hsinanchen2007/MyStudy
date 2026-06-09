@@ -1,13 +1,13 @@
-### 解题思路
-难点在于几个：
-1、C语言的HASH
-2、C语言的多维数组数据处理
-3、并查集本身
-4、输出排序
+// ### 解题思路
+// 难点在于几个：
+// 1、C语言的HASH
+// 2、C语言的多维数组数据处理
+// 3、并查集本身
+// 4、输出排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_EMAIL_ACOUNTS_SIZE  10000 
 #define MAX_EMAIL_NAME_LENGTH   30
 typedef struct {
@@ -249,4 +249,4 @@ char *** accountsMerge(char *** accounts, int accountsSize, int* accountsColSize
 
     return ans;
 }
-```
+// ```

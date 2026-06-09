@@ -1,9 +1,9 @@
-### 解题思路
-1. 除了牛逼还能说啥，加油理解吧
+// ### 解题思路
+// 1. 除了牛逼还能说啥，加油理解吧
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int dp_i_1 = Integer.MIN_VALUE, dp_i_0 = 0, dp_pre = 0;
@@ -16,4 +16,4 @@ class Solution {
         return dp_i_0;
     }
 }
-```
+// ```

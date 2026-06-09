@@ -1,6 +1,6 @@
-首先计算每行的偏移，遍历一遍判断在哪一行，然后递增下标即可：
+// 首先计算每行的偏移，遍历一遍判断在哪一行，然后递增下标即可：
 
-```
+// ```
 char * convert(char * s, int numRows){
     int len = strlen(s);
     if (len < 2 || numRows == 1) {
@@ -42,4 +42,4 @@ char * convert(char * s, int numRows){
     
     return s;
 }
-```
+// ```

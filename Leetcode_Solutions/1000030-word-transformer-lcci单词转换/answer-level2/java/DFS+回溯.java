@@ -1,14 +1,14 @@
-### 解题思路
-DFS，只不过与当前节点相邻是与之只差一个字母的string
-1.先实现一个函数，返回与当前String 只差一个字母的字符串列表。
-2.遍历返回的列表中的string：
-    如果与endword相等，则返回结果。
-    如果与endword不等，继续dfs
-    如果已经遍历完当前列表还没找到endword, 说明这个路径不对，删除当前string, 回溯到上一层
+// ### 解题思路
+// DFS，只不过与当前节点相邻是与之只差一个字母的string
+// 1.先实现一个函数，返回与当前String 只差一个字母的字符串列表。
+// 2.遍历返回的列表中的string：
+//     如果与endword相等，则返回结果。
+//     如果与endword不等，继续dfs
+//     如果已经遍历完当前列表还没找到endword, 说明这个路径不对，删除当前string, 回溯到上一层
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<String> wordList;
     boolean[] marked;
@@ -57,4 +57,4 @@ class Solution {
         return queue;
     }
 }
-```
+// ```

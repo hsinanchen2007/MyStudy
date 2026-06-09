@@ -1,9 +1,9 @@
-### 解题思路
-先排序，根据每一行已经预留的位置中间8bit对应占位情况，判断每行被占用的座位数。最后用总行数*2 - 被占用的座位数就是最终可以预定座位数
+// ### 解题思路
+// 先排序，根据每一行已经预留的位置中间8bit对应占位情况，判断每行被占用的座位数。最后用总行数*2 - 被占用的座位数就是最终可以预定座位数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(void* a, void* b)
 {
     int* a1 = *(int** )a;
@@ -62,4 +62,4 @@ int maxNumberOfFamilies(int n, int** reservedSeats, int reservedSeatsSize, int* 
     return (numsCnt - numTmp);
 
 }
-```
+// ```

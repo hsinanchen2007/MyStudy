@@ -1,9 +1,9 @@
-### 解题思路
-代码还是回溯的模版，注意去重用Set记录，如果从本次j开始的循环已经记录过那么就直接跳过
+// ### 解题思路
+// 代码还是回溯的模版，注意去重用Set记录，如果从本次j开始的循环已经记录过那么就直接跳过
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var findSubsequences = function(nums) {
     let res = [];
 
@@ -27,4 +27,4 @@ function dfs(j, nums, temp, res) {
         temp.pop();
     }
 }
-```
+// ```

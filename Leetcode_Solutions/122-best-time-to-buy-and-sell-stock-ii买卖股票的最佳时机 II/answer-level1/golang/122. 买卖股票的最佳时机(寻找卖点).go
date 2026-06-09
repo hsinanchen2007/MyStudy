@@ -1,4 +1,4 @@
-```
+// ```
 func maxProfit(prices []int) int {
     //遍历数组，考察当前元素小于后继元素，则出现卖点，并累计利润
     profit := 0 
@@ -10,4 +10,4 @@ func maxProfit(prices []int) int {
     return profit
 }
 
-```
+// ```

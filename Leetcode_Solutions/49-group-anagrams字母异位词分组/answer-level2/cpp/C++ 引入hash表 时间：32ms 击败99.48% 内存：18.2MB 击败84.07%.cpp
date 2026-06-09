@@ -1,9 +1,9 @@
-因为要找组成一样的单词，如何判断？
-最简单的，一排序，如果是同一个单词，那么就是组成一样的
-比如 “eat” "tea" 排序后都为 “aet” 
-只要引入一个hash表，索引是排序后的单词，值为结果vector的下标，循环一遍就好了
-代码如下：
-```
+// 因为要找组成一样的单词，如何判断？
+// 最简单的，一排序，如果是同一个单词，那么就是组成一样的
+// 比如 “eat” "tea" 排序后都为 “aet” 
+// 只要引入一个hash表，索引是排序后的单词，值为结果vector的下标，循环一遍就好了
+// 代码如下：
+// ```
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
@@ -29,7 +29,7 @@ public:
         return res;
     }
 };
-```
-![深度截图_选择区域_20200203170046.png](https://pic.leetcode-cn.com/84ecfc335b8973ff30c44a5ac00092d583ae4a71236462cc065af49b87628ed9-%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20200203170046.png)
+// ```
+// ![深度截图_选择区域_20200203170046.png](https://pic.leetcode-cn.com/84ecfc335b8973ff30c44a5ac00092d583ae4a71236462cc065af49b87628ed9-%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20200203170046.png)
 
 

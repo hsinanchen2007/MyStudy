@@ -1,9 +1,9 @@
-### 解题思路
-递归实现
+# ### 解题思路
+# 递归实现
 
-### 代码
+# ### 代码
 
-```ruby
+# ```ruby
 def reverse_list(head)
     if head == nil or head.next == nil
         return head
@@ -13,4 +13,4 @@ def reverse_list(head)
     head.next = nil
     return new_head
 end
-```
+# ```

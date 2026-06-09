@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         dp = [[0] * len(obstacleGrid[i]) for i in range(len(obstacleGrid))]
@@ -20,4 +20,4 @@ class Solution:
                 else:
                     dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
         return dp[-1][-1]
-```
+# ```

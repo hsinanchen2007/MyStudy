@@ -1,9 +1,9 @@
-### 解题思路
-除了求和作差之外的另一种方法，求和的思路不太好想，哈希表容易想到
+# ### 解题思路
+# 除了求和作差之外的另一种方法，求和的思路不太好想，哈希表容易想到
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
         from collections import Counter
@@ -20,4 +20,4 @@ class Solution:
         return [rep,missed]
                 
 
-```
+# ```

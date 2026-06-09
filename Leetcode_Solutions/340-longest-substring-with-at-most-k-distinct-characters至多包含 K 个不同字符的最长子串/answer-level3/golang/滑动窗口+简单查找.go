@@ -1,4 +1,4 @@
-```
+// ```
 func lengthOfLongestSubstringKDistinct(s string, k int) int {
     n := len(s)
     if n*k == 0 { return 0 }
@@ -29,4 +29,4 @@ func max(a, b int) int {
     }
     return a
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-都是看了知乎god-jiang的文章，才变得厉害起来
+// ### 解题思路
+// 都是看了知乎god-jiang的文章，才变得厉害起来
 
-### 复杂度分析
-- 时间复杂度：O(N)
-- 空间复杂度：O(N)
+// ### 复杂度分析
+// - 时间复杂度：O(N)
+// - 空间复杂度：O(N)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char firstUniqChar(String s) {
         if(s==null||s.length()==0){
@@ -29,4 +29,4 @@ class Solution {
         return ' ';
     }
 }
-```
+// ```

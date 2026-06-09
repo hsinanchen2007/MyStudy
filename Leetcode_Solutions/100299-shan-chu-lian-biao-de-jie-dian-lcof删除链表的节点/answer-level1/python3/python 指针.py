@@ -1,10 +1,10 @@
-- 当删除的是第一个节点时，直接返回head.next
-- pre指向前一节点，head往后走
-- 创建一个新节点new 指向头结点，最后直接返回new.next
-- 
-![image.png](https://pic.leetcode-cn.com/9722b78e947afda63bda78848db1739f9eeebb71c23793667ae070b3b3cfd315-image.png)
+# - 当删除的是第一个节点时，直接返回head.next
+# - pre指向前一节点，head往后走
+# - 创建一个新节点new 指向头结点，最后直接返回new.next
+# - 
+# ![image.png](https://pic.leetcode-cn.com/9722b78e947afda63bda78848db1739f9eeebb71c23793667ae070b3b3cfd315-image.png)
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
             pre = head
             head = head.next
         return nhead.next
-```
+# ```

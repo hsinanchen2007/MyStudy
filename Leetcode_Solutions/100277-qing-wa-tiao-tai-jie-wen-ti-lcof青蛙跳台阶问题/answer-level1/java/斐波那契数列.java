@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numWays(int n) {
         long curr = 0, next = 1, sum = 0;
@@ -17,4 +17,4 @@ class Solution {
         return (int)next;        
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1.基于数值范围0-100，可以采用计数排序
-2.count存储每个数值的计数
-3.计算时将小于当前数值的计数累加起来即可。
+// ### 解题思路
+// 1.基于数值范围0-100，可以采用计数排序
+// 2.count存储每个数值的计数
+// 3.计算时将小于当前数值的计数累加起来即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -34,4 +34,4 @@ int* smallerNumbersThanCurrent(int* nums, int numsSize, int* returnSize){
     *returnSize = numsSize;
     return ans;
 }
-```
+// ```

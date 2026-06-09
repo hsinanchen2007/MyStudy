@@ -1,11 +1,11 @@
-执行结果：通过
-显示详情
-执行用时 :48 ms, 在所有 C 提交中击败了100.00%的用户
-内存消耗 :7.9 MB, 在所有 C 提交中击败了100.00%的用户
+// 执行结果：通过
+// 显示详情
+// 执行用时 :48 ms, 在所有 C 提交中击败了100.00%的用户
+// 内存消耗 :7.9 MB, 在所有 C 提交中击败了100.00%的用户
 
-![image.png](https://pic.leetcode-cn.com/cc1d6b356944d2db3b223900b559894d2f65d8fab944b5a1a705a3c1aff72187-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cc1d6b356944d2db3b223900b559894d2f65d8fab944b5a1a705a3c1aff72187-image.png)
 
-```
+// ```
 int minIncrementForUnique(int* A, int ASize){
     if (A == NULL || ASize == 0) return 0;
     int set[80000] = {0};
@@ -32,4 +32,4 @@ int minIncrementForUnique(int* A, int ASize){
     }
     return step;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-递归判断  遇到不同的 直接反转root2
-之后在对比 左右节点是否都一致 
+// ### 解题思路
+// 递归判断  遇到不同的 直接反转root2
+// 之后在对比 左右节点是否都一致 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -29,4 +29,4 @@ func flipEquiv(root1 *TreeNode, root2 *TreeNode) bool {
     }
     return flipEquiv(root1.Left, root2.Left) && flipEquiv(root1.Right, root2.Right)
 }
-```
+// ```

@@ -1,5 +1,5 @@
-假设p是\*aa\*bb\*cc，其实这里只需要关心aa，bb，cc在s中出现的顺序即可。
-```
+// 假设p是\*aa\*bb\*cc，其实这里只需要关心aa，bb，cc在s中出现的顺序即可。
+// ```
 public boolean isMatch(String s, String p) {
         if (p.equals("*")) {
             return true;
@@ -34,4 +34,4 @@ public boolean isMatch(String s, String p) {
         }
         return true;
     }
-```
+// ```

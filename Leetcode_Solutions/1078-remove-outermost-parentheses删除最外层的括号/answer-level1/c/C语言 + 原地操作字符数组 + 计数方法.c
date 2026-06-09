@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * removeOuterParentheses(char * S){
     int cnt = 0,k = 0;
     for(int i = 0;i < strlen(S);i++){
@@ -19,4 +19,4 @@ char * removeOuterParentheses(char * S){
     S[k] = '\0';
     return S;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用栈对树进行层次遍历是很常用的方法，这道题只需要我们在向栈中存储节点的时候，不仅要存储节点的引用，还要存储节点的层数。
+# ### 解题思路
+# 用栈对树进行层次遍历是很常用的方法，这道题只需要我们在向栈中存储节点的时候，不仅要存储节点的引用，还要存储节点的层数。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution(object):
                 queue.append((node.right, level + 1))
             del queue[0]
         return res
-```
+# ```

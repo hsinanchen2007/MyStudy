@@ -1,9 +1,9 @@
-### 解题思路
-利用**栈**
+# ### 解题思路
+# 利用**栈**
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def balancedStringSplit(self, s):
         dic = {'R':'L','L':'R'}
@@ -20,4 +20,4 @@ class Solution(object):
                 else:
                     stack.append(c)
         return count        
-```
+# ```

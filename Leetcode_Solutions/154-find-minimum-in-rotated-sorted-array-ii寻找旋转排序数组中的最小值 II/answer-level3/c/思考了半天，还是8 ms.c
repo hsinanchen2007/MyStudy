@@ -1,9 +1,9 @@
-### 解题思路
-找到转择点，还可以优化
+// ### 解题思路
+// 找到转择点，还可以优化
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findMin(int* nums, int numsSize){
    int i=0,min=nums[0];
 
@@ -17,4 +17,4 @@ int findMin(int* nums, int numsSize){
 //如何找到转择点，
 //判断第一个 元素与第二个元素的关系
 
-```
+// ```

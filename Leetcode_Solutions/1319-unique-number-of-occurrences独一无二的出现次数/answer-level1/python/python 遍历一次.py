@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/2d58ebe78bc286dd6f996459c2f835b7888370b7f6be43e4a52ac700936ccbe8-image.png)
-一次过，开心。
+# ![image.png](https://pic.leetcode-cn.com/2d58ebe78bc286dd6f996459c2f835b7888370b7f6be43e4a52ac700936ccbe8-image.png)
+# 一次过，开心。
 
-```
+# ```
 class Solution(object):
     def uniqueOccurrences(self, arr):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                 dic[i]=1
         #转换成set，看key的长度和value的长度是否一样
         return len(set(dic))==len(set(dic.values()))
-```
+# ```

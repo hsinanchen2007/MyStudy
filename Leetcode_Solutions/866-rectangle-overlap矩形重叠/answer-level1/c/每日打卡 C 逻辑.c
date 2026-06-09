@@ -1,9 +1,9 @@
-### 解题思路
-边界坐标的比较
+// ### 解题思路
+// 边界坐标的比较
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define x1 0
 #define y1 1
 #define x2 2
@@ -14,4 +14,4 @@ bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size)
     return false;
     else return true;
 }
-```
+// ```

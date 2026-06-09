@@ -1,5 +1,5 @@
-方法一、根据官方方法
-```
+// 方法一、根据官方方法
+// ```
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -26,8 +26,8 @@ public:
         }
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -51,8 +51,8 @@ public:
         }
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -71,16 +71,16 @@ public:
         }
     }
 };
-```
+// ```
 
-方法二、来自[zeroAc](https://leetcode-cn.com/problems/next-permutation/solution/c-fu-li-stl-next_permutation-yi-xing-gao-ding-by-z/)
+// 方法二、来自[zeroAc](https://leetcode-cn.com/problems/next-permutation/solution/c-fu-li-stl-next_permutation-yi-xing-gao-ding-by-z/)
 
-```
+// ```
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
         next_permutation(nums.begin(),nums.end()); 
     }
 };
-```
+// ```
 

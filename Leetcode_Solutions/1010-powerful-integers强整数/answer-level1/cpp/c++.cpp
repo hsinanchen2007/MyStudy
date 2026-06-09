@@ -1,8 +1,8 @@
-### 解题思路
-要注意x/y可能为1情况，此时要排除
+// ### 解题思路
+// 要注意x/y可能为1情况，此时要排除
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     vector<int> powerfulIntegers(int x, int y, int bound) {
@@ -25,4 +25,4 @@ public:
         TotalPowerInterger(x, y, i, j + 1, x_val, y_val * y, bound, res);
     }
 };
-```
+// ```

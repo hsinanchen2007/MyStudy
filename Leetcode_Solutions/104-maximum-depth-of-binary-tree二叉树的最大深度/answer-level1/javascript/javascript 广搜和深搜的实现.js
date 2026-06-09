@@ -1,4 +1,4 @@
-```
+// ```
 // 深度优先搜索递归版本
 var maxDepth = function(root) {
     if(!root) return 0;
@@ -40,5 +40,5 @@ var maxDepth = function(root) {
     }
     return max;
 };
-```
+// ```
 

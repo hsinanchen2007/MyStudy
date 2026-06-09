@@ -1,4 +1,4 @@
-```
+// ```
 var countAndSay = function (n) {
   let nums = 0 // 个数
   let s = '' // 单个字符串
@@ -21,4 +21,4 @@ var countAndSay = function (n) {
   }
   return res
 };
-```
+// ```

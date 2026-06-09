@@ -1,9 +1,9 @@
-### 解题思路
-1.通过vector存放add进来的元素。
-2.通过map实现元素的快速查找。map的key值为插进来的元素的值，value为插进来的第几元素。
-3.当target - nums[i] == nums[i]，此时不满足一对整数的要求，所以不能返回true。（这个条件的判断是通过mymap[value - myvec[i]] != i）
+// ### 解题思路
+// 1.通过vector存放add进来的元素。
+// 2.通过map实现元素的快速查找。map的key值为插进来的元素的值，value为插进来的第几元素。
+// 3.当target - nums[i] == nums[i]，此时不满足一对整数的要求，所以不能返回true。（这个条件的判断是通过mymap[value - myvec[i]] != i）
 
-### 代码
+// ### 代码
 
 cpp
 class TwoSum {

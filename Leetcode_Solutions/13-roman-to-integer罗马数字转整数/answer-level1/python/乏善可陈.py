@@ -1,8 +1,8 @@
-判断当前字符是否比后一个字符小，如果是这样，那么它应该取负。
+# 判断当前字符是否比后一个字符小，如果是这样，那么它应该取负。
 
-整道题目的代码如下：
+# 整道题目的代码如下：
 
-```python
+# ```python
 class Solution(object):
     def romanToInt(self, s):
         """
@@ -24,5 +24,5 @@ class Solution(object):
 
         res += map[s[-1]]
         return res
-```
+# ```
 

@@ -1,8 +1,8 @@
-### 解题思路
-enumerated 简直是性能杀手
-### 代码
+// ### 解题思路
+// enumerated 简直是性能杀手
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
  func compressString(_ S: String) -> String {
     if S.isEmpty {
@@ -32,4 +32,4 @@ class Solution {
  
  
 }
-```
+// ```

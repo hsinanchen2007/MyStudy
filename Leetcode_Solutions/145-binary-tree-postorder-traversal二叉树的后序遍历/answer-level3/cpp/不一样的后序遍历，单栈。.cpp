@@ -1,6 +1,6 @@
-从n叉树得到一个思路，可以和前序二叉树遍历一样，最后做个反转即可。
+// 从n叉树得到一个思路，可以和前序二叉树遍历一样，最后做个反转即可。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> postorderTraversal(TreeNode* root) {
@@ -27,4 +27,4 @@ public:
         return ans;
     }
 };
-```
+// ```

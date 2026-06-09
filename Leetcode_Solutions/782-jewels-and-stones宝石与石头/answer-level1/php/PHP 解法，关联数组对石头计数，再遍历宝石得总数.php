@@ -1,5 +1,5 @@
 
-```php []
+// ```php []
 function numJewelsInStones($J, $S) {
     $cnt = [];
     for ($i=0; $i < strlen($S); $i++) {
@@ -17,4 +17,4 @@ function numJewelsInStones($J, $S) {
     }
     return $sum;
 }
-```
+// ```

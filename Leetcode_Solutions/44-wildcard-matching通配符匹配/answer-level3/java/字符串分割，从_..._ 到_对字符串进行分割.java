@@ -1,12 +1,12 @@
-****
-在这个过程中发现java自带的spit方法的问题 
-"as2a2".split("2") = ["as","a"]  而非 ["as","a",""].
-但对于前面的分割是正确的
-"2as2a".split("2") = ["","as","a"]
-所以这里重新写了个split方法处理
-详细代码如下
-****
-```
+// ****
+// 在这个过程中发现java自带的spit方法的问题 
+// "as2a2".split("2") = ["as","a"]  而非 ["as","a",""].
+// 但对于前面的分割是正确的
+// "2as2a".split("2") = ["","as","a"]
+// 所以这里重新写了个split方法处理
+// 详细代码如下
+// ****
+// ```
 class Solution {    
     public boolean isMatch(String s, String p) {
     	if(p.isEmpty()) return s.isEmpty();
@@ -106,4 +106,4 @@ class Solution {
     	return s.substring(si);
     }
 }
-```
+// ```

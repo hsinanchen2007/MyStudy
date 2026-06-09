@@ -1,8 +1,8 @@
-### 解题思路
-碰到I选取集合中当前最小的，D选取当前最大的
-### 代码
+// ### 解题思路
+// 碰到I选取集合中当前最小的，D选取当前最大的
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> diStringMatch(string S) {
@@ -31,4 +31,4 @@ public:
         return res;
     }
 };
-```
+// ```

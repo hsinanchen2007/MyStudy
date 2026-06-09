@@ -1,9 +1,9 @@
-### 解题思路
-取出字符数字并使之全部toLowerCase,循环判断，游戏结束 ，外比巴卜。
+// ### 解题思路
+// 取出字符数字并使之全部toLowerCase,循环判断，游戏结束 ，外比巴卜。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(String s) {
         if (s == "" ) return true;
@@ -24,4 +24,4 @@ class Solution {
 		return true;
     }
 }
-```
+// ```

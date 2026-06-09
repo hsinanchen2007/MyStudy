@@ -1,4 +1,4 @@
-```
+// ```
 for i, a := range A {
 		if i%2 == a%2 {
 			continue
@@ -13,4 +13,4 @@ for i, a := range A {
 	}
 
 	return A
-```
+// ```

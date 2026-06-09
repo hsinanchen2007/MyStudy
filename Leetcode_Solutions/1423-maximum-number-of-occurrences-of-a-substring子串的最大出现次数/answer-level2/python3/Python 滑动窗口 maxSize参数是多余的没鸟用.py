@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/7f82683300c44a958aadc33233778b323823ef840abcfebbd1ff81186b577e9d-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7f82683300c44a958aadc33233778b323823ef840abcfebbd1ff81186b577e9d-image.png)
 
-```
+# ```
 '''
 可能次数最多的字符串一定是长度为minSize的字符串，maxSize参数是多余的
 用长度为minSize的的窗口枚举子字符串，维护窗口中不同的字符个数，可以快速判断窗口
@@ -45,4 +45,4 @@ class Solution:
                 diff_cnt += 1
 
         return max(str_cnt.values()) if len(str_cnt) != 0 else 0
-```
+# ```

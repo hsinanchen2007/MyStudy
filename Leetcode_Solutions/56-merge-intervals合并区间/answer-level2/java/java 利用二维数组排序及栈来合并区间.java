@@ -1,29 +1,29 @@
-### 解题思路
-1、第一步先对区间进行排序。
-   保证左边的元素的第一项一定比右边的元素第一项小
+// ### 解题思路
+// 1、第一步先对区间进行排序。
+//    保证左边的元素的第一项一定比右边的元素第一项小
 
-2、排序完成后，我们利用栈来帮助我们做合并。
-   // 栈里面的每一个元素都是一个数组，数组里只有两个元素 
-   2.1 定义栈为Stack<int[]> stack = new Stack<int[]>();
+// 2、排序完成后，我们利用栈来帮助我们做合并。
+//    // 栈里面的每一个元素都是一个数组，数组里只有两个元素 
+//    2.1 定义栈为Stack<int[]> stack = new Stack<int[]>();
      
-   2.2 循环intervals,并与stack的顶部元素进行比较
-        int[] peekArray = stack.peek();
-        如果intervals[i][0] <=peekArray[1]  说明两者有交集,那么将peekArray弹出
-        获取交集的右边值max = Math.max(intervals[i][1],peekArray[1])
-        再将新的区间new int[]{peekArray[0],max}压入栈中
-        如果intervals[i][0] > peekArray[1] 说明两者没有交集，则将如果new int[]{intervals[i][0],intervals[i][1]} 压入栈
+//    2.2 循环intervals,并与stack的顶部元素进行比较
+//         int[] peekArray = stack.peek();
+//         如果intervals[i][0] <=peekArray[1]  说明两者有交集,那么将peekArray弹出
+//         获取交集的右边值max = Math.max(intervals[i][1],peekArray[1])
+//         再将新的区间new int[]{peekArray[0],max}压入栈中
+//         如果intervals[i][0] > peekArray[1] 说明两者没有交集，则将如果new int[]{intervals[i][0],intervals[i][1]} 压入栈
    
-   2.3 最后循环stack，将结果输出
-   时间复杂度:假设二维数组的行数为N，那么
-   //第一个为排序耗时，第二个为循环操作耗时
-   O(T) = O(N*N)+O(N)
+//    2.3 最后循环stack，将结果输出
+//    时间复杂度:假设二维数组的行数为N，那么
+//    //第一个为排序耗时，第二个为循环操作耗时
+//    O(T) = O(N*N)+O(N)
 
-   空间复杂度:
-   O(N) 我们利用到了一个堆栈来保存中间结果。
+//    空间复杂度:
+//    O(N) 我们利用到了一个堆栈来保存中间结果。
   
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     private void sort(int[][] intervals){
@@ -81,4 +81,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

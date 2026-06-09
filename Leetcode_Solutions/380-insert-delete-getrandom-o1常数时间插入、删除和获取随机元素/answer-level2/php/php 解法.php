@@ -1,4 +1,4 @@
-```
+// ```
 class RandomizedSet {
     /**
      * Initialize your data structure here.
@@ -51,4 +51,4 @@ class RandomizedSet {
         return $this->list[rand(0,count($this->list)-1)];
     }
 }
-```
+// ```

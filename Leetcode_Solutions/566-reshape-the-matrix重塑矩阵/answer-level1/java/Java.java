@@ -1,6 +1,6 @@
-先判断重塑的矩阵是否合理，如果合理则读取nums矩阵的每一个数赋值给res，使用row和col来控制res的行和列。
-也可以先用一个一维数组读取nums的所有值，再赋值给res。
-```
+// 先判断重塑的矩阵是否合理，如果合理则读取nums矩阵的每一个数赋值给res，使用row和col来控制res的行和列。
+// 也可以先用一个一维数组读取nums的所有值，再赋值给res。
+// ```
 public static int[][] matrixReshape(int[][] nums,int r,int c){
 		int[][] res = new int[r][c];
 		int row = 0,col = 0;
@@ -18,4 +18,4 @@ public static int[][] matrixReshape(int[][] nums,int r,int c){
 		}
 		return res;
 	}
-```
+// ```

@@ -1,16 +1,16 @@
-![1.png](https://pic.leetcode-cn.com/d3572464043d249f6fb96e515d69944cbb88cf26e6d3afa582cf09d69e918cc6-1.png)
+// ![1.png](https://pic.leetcode-cn.com/d3572464043d249f6fb96e515d69944cbb88cf26e6d3afa582cf09d69e918cc6-1.png)
 
-### 解题思路
-本题看似简单，但是极易被绕晕
-被绕了许久才找到正确答案。
+// ### 解题思路
+// 本题看似简单，但是极易被绕晕
+// 被绕了许久才找到正确答案。
 
-映射map空间=citationsSize + 1；
-如果引用次数>=citationsSize，map[citationsSize] ++；
-亦如果引用次数>0，map[citations[i]] ++;
+// 映射map空间=citationsSize + 1；
+// 如果引用次数>=citationsSize，map[citationsSize] ++；
+// 亦如果引用次数>0，map[citations[i]] ++;
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int hIndex(int* citations, int citationsSize){
 	int *map = (int*)calloc(citationsSize + 1, sizeof(int));
 	for (int i = 0; i < citationsSize; i++){
@@ -28,4 +28,4 @@ int hIndex(int* citations, int citationsSize){
 	}
 	return 0;
 }
-```
+// ```

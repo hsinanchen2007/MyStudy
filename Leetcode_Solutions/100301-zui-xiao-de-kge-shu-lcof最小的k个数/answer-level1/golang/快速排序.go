@@ -1,10 +1,10 @@
-### 解题思路
-1、快速排序
-2、空间复杂度为O(1)
+// ### 解题思路
+// 1、快速排序
+// 2、空间复杂度为O(1)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func quickSort(arr []int) (ret []int) {
 	if len(arr) < 2 {
 		return arr
@@ -34,4 +34,4 @@ func quickSort(arr []int) (ret []int) {
 func getLeastNumbers(arr []int, k int) []int {
     return quickSort(arr)[:k]
 }
-```
+// ```

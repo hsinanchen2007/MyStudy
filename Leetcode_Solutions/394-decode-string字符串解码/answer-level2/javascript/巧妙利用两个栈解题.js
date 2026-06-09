@@ -1,17 +1,17 @@
-### 解题思路
-+ 首先声明两个变量，resStr 拼接字符串，repet 重复次数。
-+ 题目需要拼接字符串，分别用两个栈来保存两个变量。
-+ 总体遍历一遍s，根据遍历到不同的字符做出操作：
-    1. 当遇到数字时，累积 repet 值
-    2. 当遇到字母时，直接拼接到 resStr 后面
-    3. 当遇到 '[' 时，将之前的 resStr 和 repet 分别压入各自的栈中，保存当前状态
-    4. 当遇到 ']' 时，取出栈中的 repet，将当前 resStr 重复 repet 次，赋值给临时变量 temp，然后和之前存放的 resStr(也就是存放repetStack栈顶元素) 拼接起来
+// ### 解题思路
+// + 首先声明两个变量，resStr 拼接字符串，repet 重复次数。
+// + 题目需要拼接字符串，分别用两个栈来保存两个变量。
+// + 总体遍历一遍s，根据遍历到不同的字符做出操作：
+//     1. 当遇到数字时，累积 repet 值
+//     2. 当遇到字母时，直接拼接到 resStr 后面
+//     3. 当遇到 '[' 时，将之前的 resStr 和 repet 分别压入各自的栈中，保存当前状态
+//     4. 当遇到 ']' 时，取出栈中的 repet，将当前 resStr 重复 repet 次，赋值给临时变量 temp，然后和之前存放的 resStr(也就是存放repetStack栈顶元素) 拼接起来
 
-具体参照以下代码
+// 具体参照以下代码
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -53,4 +53,4 @@ var decodeString = function(s) {
     }
     return resStr;
 };
-```
+// ```

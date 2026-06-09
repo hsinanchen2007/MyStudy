@@ -1,16 +1,16 @@
-速度肯定是慢的因为我这样搜索节点的话必须从头往后走，单链表好像常数时间搜索有点难度，我没做到。。。
+// 速度肯定是慢的因为我这样搜索节点的话必须从头往后走，单链表好像常数时间搜索有点难度，我没做到。。。
 
-√ Accepted
+// √ Accepted
 
-  √ 61/61 cases passed (56 ms)
+//   √ 61/61 cases passed (56 ms)
 
-  √ Your runtime beats 98.71 % of cpp submissions
+//   √ Your runtime beats 98.71 % of cpp submissions
 
-  √ Your memory usage beats 73.43 % of cpp submissions (19.3 MB)
+//   √ Your memory usage beats 73.43 % of cpp submissions (19.3 MB)
 
-如果设置一个中间节点的话，在要搜索的节点处于后半部分的话会快很多，或者有别的改进方法吧
+// 如果设置一个中间节点的话，在要搜索的节点处于后半部分的话会快很多，或者有别的改进方法吧
 
-```
+// ```
 /*
  * @lc app=leetcode.cn id=707 lang=cpp
  *
@@ -110,4 +110,4 @@ class MyLinkedList {
  */
 
 
-```
+// ```

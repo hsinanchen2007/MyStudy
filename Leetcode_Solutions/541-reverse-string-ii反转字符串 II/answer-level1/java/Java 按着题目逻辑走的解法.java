@@ -1,10 +1,10 @@
-### 解题思路
-每次取字符串中的2k个字符，然后反转前面k个字符，再append后面k个不需要反转的字符。 如果最后长度不够2k了，就需要分情况讨论了
-1ms, 40MB
+// ### 解题思路
+// 每次取字符串中的2k个字符，然后反转前面k个字符，再append后面k个不需要反转的字符。 如果最后长度不够2k了，就需要分情况讨论了
+// 1ms, 40MB
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseStr(String s, int k) {
         int count = 0;
@@ -44,4 +44,4 @@ class Solution {
         return sb.toString(); 
     }
 }
-```
+// ```

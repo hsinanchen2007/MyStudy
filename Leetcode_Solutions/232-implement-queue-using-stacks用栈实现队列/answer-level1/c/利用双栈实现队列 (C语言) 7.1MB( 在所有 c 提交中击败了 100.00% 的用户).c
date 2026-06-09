@@ -1,8 +1,8 @@
 
-![批注 2019-11-22 164356.png](https://pic.leetcode-cn.com/9c27e4ae580d7b3c81ad6716a78df6b154011ff3ed4731b8d4ef4fcf32f6425a-%E6%89%B9%E6%B3%A8%202019-11-22%20164356.png)
+// ![批注 2019-11-22 164356.png](https://pic.leetcode-cn.com/9c27e4ae580d7b3c81ad6716a78df6b154011ff3ed4731b8d4ef4fcf32f6425a-%E6%89%B9%E6%B3%A8%202019-11-22%20164356.png)
 
 
-```
+// ```
 #define MAXSIZE 100
 //创建栈
 struct Stack{
@@ -78,4 +78,4 @@ void myQueueFree(MyQueue* obj) {
  
  * myQueueFree(obj);
 */
-```
+// ```

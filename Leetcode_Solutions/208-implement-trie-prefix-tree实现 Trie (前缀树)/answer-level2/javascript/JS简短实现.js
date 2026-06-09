@@ -1,4 +1,4 @@
-```js
+// ```js
 class Trie {
     insert(g) { [...g].reduce((p, w) => p[w] || (p[w] = {}), this).$ = true }
     search(g, o = this) {
@@ -10,5 +10,5 @@ class Trie {
         return true
     }
 }
-```
-其实还可以更短，现在战胜94%，要更快的话把一些语句展开就行
+// ```
+// 其实还可以更短，现在战胜94%，要更快的话把一些语句展开就行

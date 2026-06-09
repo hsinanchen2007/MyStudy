@@ -1,7 +1,7 @@
-使用一个map来记录当前处理子串中包含的字符，详见代码
-![image.png](https://pic.leetcode-cn.com/40b512978ea1c62ac7713ed09561f6df6c361b6c47a997fbac3efbb773155d47-image.png)
+// 使用一个map来记录当前处理子串中包含的字符，详见代码
+// ![image.png](https://pic.leetcode-cn.com/40b512978ea1c62ac7713ed09561f6df6c361b6c47a997fbac3efbb773155d47-image.png)
 
-```
+// ```
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {    //滑动窗口
@@ -36,4 +36,4 @@ public:
         return maxlen;
     }
 };
-```
+// ```

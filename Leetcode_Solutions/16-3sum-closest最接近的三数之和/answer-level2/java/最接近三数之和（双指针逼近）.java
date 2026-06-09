@@ -1,7 +1,7 @@
- //先进行排序，确定一个nums[i];然后从剩余元素的两端逐渐取值，逼近最小值
+//  //先进行排序，确定一个nums[i];然后从剩余元素的两端逐渐取值，逼近最小值
 
-### 代码
-```java**粗体**
+// ### 代码
+// ```java**粗体**
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
         int len=nums.length;
@@ -30,4 +30,4 @@ class Solution {
 	return number;
     }
 }
-```
+// ```

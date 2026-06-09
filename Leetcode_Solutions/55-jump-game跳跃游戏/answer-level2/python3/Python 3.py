@@ -1,4 +1,4 @@
-```python3 []
+# ```python3 []
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         if not nums:
@@ -18,4 +18,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-双指针及递归
+// ### 解题思路
+// 双指针及递归
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void reverseString2(char[] s) {
         int start = 0;
@@ -29,4 +29,4 @@ class Solution {
         helper(s, ++start, --end);
     }
 }
-```
+// ```

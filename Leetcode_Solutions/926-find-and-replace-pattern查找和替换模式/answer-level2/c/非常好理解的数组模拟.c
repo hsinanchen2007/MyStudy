@@ -1,8 +1,8 @@
-### 解题思路
-将一个单词的pattern转化为数组的数字：从cnt=0开始标识每个位置，和以前都不同的字母位置用cnt++表示，和以前相同的数字用一样的数字标识。这样把每个单词的pattern就直观表示出来啦！
-### 代码
+// ### 解题思路
+// 将一个单词的pattern转化为数组的数字：从cnt=0开始标识每个位置，和以前都不同的字母位置用cnt++表示，和以前相同的数字用一样的数字标识。这样把每个单词的pattern就直观表示出来啦！
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -67,4 +67,4 @@ char ** findAndReplacePattern(char ** words, int wordsSize, char * pattern, int*
 	*returnSize = cnt;
 	return ans;
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-1.首先对products进行字典排序
-2.剔除重复的product
-3.用searchWord中的前n个字母对products进行匹配
-4.剔除超过范围（3个）的products
+// ### 解题思路
+// 1.首先对products进行字典排序
+// 2.剔除重复的product
+// 3.用searchWord中的前n个字母对products进行匹配
+// 4.剔除超过范围（3个）的products
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<String>> suggestedProducts(String[] products, String searchWord) {
         List<List<String>> lists = new ArrayList<>();
@@ -36,4 +36,4 @@ class Solution {
         return lists;
     }
 }
-```
+// ```

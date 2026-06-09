@@ -1,17 +1,17 @@
-### 解题思路
-动态规划（编辑距离的变种）
+// ### 解题思路
+// 动态规划（编辑距离的变种）
 
-                if(t[i] == s[j]){
-                    rt[i][j] = rt[i-1][j-1] + rt[i][j-1];
-                }
-                else{
-                    rt[i][j] = rt[i][j-1];
-                }
+//                 if(t[i] == s[j]){
+//                     rt[i][j] = rt[i-1][j-1] + rt[i][j-1];
+//                 }
+//                 else{
+//                     rt[i][j] = rt[i][j-1];
+//                 }
 
-执行用时 :8 ms, 在所有 C++ 提交中击败了87.04%的用户
-### 代码
+// 执行用时 :8 ms, 在所有 C++ 提交中击败了87.04%的用户
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numDistinct(string s, string t) {
@@ -41,4 +41,4 @@ public:
         return rt[len_t-1][len_s-1];
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-之前理解错了，0行就是第一行  ，所以后面有加1操作
-```
+// 之前理解错了，0行就是第一行  ，所以后面有加1操作
+// ```
 class Solution {
 public:
     vector<int>fun(vector<int>&res,int i){
@@ -26,4 +26,4 @@ public:
         return  res;
     }
 };
-```
+// ```

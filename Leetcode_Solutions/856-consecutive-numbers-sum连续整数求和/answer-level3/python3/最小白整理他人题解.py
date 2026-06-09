@@ -1,4 +1,4 @@
-```
+# ```
 '''
 LeetCode 829 连续整数求和
 Given a positive integer N, how many ways can we write it as a sum of consecutive positive integers?
@@ -130,4 +130,4 @@ if __name__ == "__main__":
     N = 9
     s = Solution()
     print(s.consecutiveNumbersSum(N))
-```
+# ```

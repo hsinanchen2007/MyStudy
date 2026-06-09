@@ -1,7 +1,7 @@
-golang解法
-github: https://github.com/Crownt/leetcode
+// golang解法
+// github: https://github.com/Crownt/leetcode
 
-```
+// ```
 // 考虑在32位的机器上运行，必须预先检查向原整数附加另一位数字时是否会导致溢出
 // int类型的范围是 -2^31——2^31-1，即-2147483648——2147483647,个位数分别是-8和7
 // 当＇res>math.MaxInt32/10 || (res==math.MaxInt32/10 && temp>7)＇时，正向溢出
@@ -28,4 +28,4 @@ func reverse(x int) int {
 
 	return res
 }
-```
+// ```

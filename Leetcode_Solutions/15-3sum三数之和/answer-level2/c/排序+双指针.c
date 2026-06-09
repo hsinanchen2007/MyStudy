@@ -1,9 +1,9 @@
 
-1、将三数之和分解为求解两数之和；
-2、求解两数之和的时候，用排序+双指针会快一点；
-3、最后就是在遍历的时候剔除相同的答案。
+// 1、将三数之和分解为求解两数之和；
+// 2、求解两数之和的时候，用排序+双指针会快一点；
+// 3、最后就是在遍历的时候剔除相同的答案。
 
-```
+// ```
 int comp(const void *a,const void *b)
 {
     return *(int *)a - *(int *)b;
@@ -71,6 +71,6 @@ int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes
     return returnArr;
 }
 
-```
+// ```
 
 

@@ -1,6 +1,6 @@
-子树A和子树B对称的条件是
-A->val==B-> && A->left==B->right &&A->right==B->left
-```
+// 子树A和子树B对称的条件是
+// A->val==B-> && A->left==B->right &&A->right==B->left
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:
          
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路,同整数反转的思路，将整数反转后确认值有没有变化，如果同有变化的话，则认为是TURE，否则为FALSE
+// ### 解题思路
+// 此处撰写解题思路,同整数反转的思路，将整数反转后确认值有没有变化，如果同有变化的话，则认为是TURE，否则为FALSE
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         if (x < 0) return false;
@@ -22,4 +22,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

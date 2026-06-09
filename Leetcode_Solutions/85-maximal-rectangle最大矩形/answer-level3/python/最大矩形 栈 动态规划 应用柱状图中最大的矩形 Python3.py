@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :80 ms, 在所有 Python3 提交中击败了97.38%的用户
-内存消耗 :14.3 MB, 在所有 Python3 提交中击败了5.26%的用户
+# ### 解题思路
+# 执行用时 :80 ms, 在所有 Python3 提交中击败了97.38%的用户
+# 内存消耗 :14.3 MB, 在所有 Python3 提交中击败了5.26%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     
     def largestRectangleArea(self, heights):
@@ -43,4 +43,4 @@ class Solution:
         return max_area
 
             
-```
+# ```

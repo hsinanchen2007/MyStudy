@@ -1,9 +1,9 @@
-### 解题思路
-遍历二叉树，计算总和，考虑左右节点非空，左右节点有一个为空和左右节点均为空（即叶子节点的情况：需要返回,return即可，用flag标记是否有和=sum的情况）
+# ### 解题思路
+# 遍历二叉树，计算总和，考虑左右节点非空，左右节点有一个为空和左右节点均为空（即叶子节点的情况：需要返回,return即可，用flag标记是否有和=sum的情况）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -41,4 +41,4 @@ class Solution:
 
 
     
-```
+# ```

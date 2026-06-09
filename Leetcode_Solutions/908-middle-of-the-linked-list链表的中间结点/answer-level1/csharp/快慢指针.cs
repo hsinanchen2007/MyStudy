@@ -1,9 +1,9 @@
-### 解题思路
-使用快慢指针，慢指针每次走一步，快指针每次走两步
+// ### 解题思路
+// 使用快慢指针，慢指针每次走一步，快指针每次走两步
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ public class Solution {
             return slow;
         }
 }
-```
+// ```

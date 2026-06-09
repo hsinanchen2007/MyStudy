@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     TreeNode pre = null;
     public void flatten(TreeNode root) {
@@ -10,4 +10,4 @@ class Solution {
         pre = root;        
     }
 }
-```
+// ```

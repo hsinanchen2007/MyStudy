@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxNumberOfBalloons(self, text: str) -> int:
         word = 'balloon'
@@ -10,4 +10,4 @@ class Solution:
         counts[2] = counts[2] // 2
         counts[3] = counts[3] // 2
         return min(counts)
-```
+# ```

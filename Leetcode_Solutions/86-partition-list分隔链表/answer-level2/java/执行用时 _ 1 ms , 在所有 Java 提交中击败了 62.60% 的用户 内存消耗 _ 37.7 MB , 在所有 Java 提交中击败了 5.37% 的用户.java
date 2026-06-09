@@ -1,4 +1,4 @@
-```
+// ```
     public ListNode partition(ListNode head, int x) {
         if (head == null) {
             return null;
@@ -21,4 +21,4 @@
         listNode.next = cur1.next;
         return cur.next;
     }
-```
+// ```

@@ -1,9 +1,9 @@
 
-思路：
-使用任意一种遍历方法遍历树，然后再对树进行搜索 k-遍历val 在树中是否存在
+// 思路：
+// 使用任意一种遍历方法遍历树，然后再对树进行搜索 k-遍历val 在树中是否存在
 
 
-```swift []
+// ```swift []
 class Solution {
   func findTarget(_ root: TreeNode?, _ k: Int) -> Bool {
         guard let root = root else {
@@ -49,4 +49,4 @@ class Solution {
         
     }
 }
-```
+// ```

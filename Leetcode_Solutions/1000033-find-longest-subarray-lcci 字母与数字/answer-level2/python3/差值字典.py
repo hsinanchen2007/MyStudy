@@ -1,9 +1,9 @@
-使用一个字典, 数字与字符数目的差值diff作为key, value是前i个数的差值为key的起始下标
-只需要存1个下标, 遇到新的下标的时候直接判断是否要更新s和e即可
-**注意需要额外处理diff=0的情况**
-**注意结果是[s+1:e]**
-**注意输入存在多位数字的情况..**
-```python
+# 使用一个字典, 数字与字符数目的差值diff作为key, value是前i个数的差值为key的起始下标
+# 只需要存1个下标, 遇到新的下标的时候直接判断是否要更新s和e即可
+# **注意需要额外处理diff=0的情况**
+# **注意结果是[s+1:e]**
+# **注意输入存在多位数字的情况..**
+# ```python
 class Solution:
     def findLongestSubarray(self, array: List[str]) -> List[str]:
         diffToStartIndex = {}
@@ -21,4 +21,4 @@ class Solution:
             elif i - diffToStartIndex[diff] > e - s:
                 s, e = diffToStartIndex[diff], i
         return array[s + 1:e + 1]
-```
+# ```

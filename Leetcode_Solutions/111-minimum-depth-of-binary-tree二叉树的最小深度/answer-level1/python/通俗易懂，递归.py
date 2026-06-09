@@ -1,10 +1,10 @@
-### 解题思路
-1、前序遍历
-2、递归记录根节点到每个叶子节点的深度
-3、设置全局变量的最小深度，每次比较替换最小值
-### 代码
+# ### 解题思路
+# 1、前序遍历
+# 2、递归记录根节点到每个叶子节点的深度
+# 3、设置全局变量的最小深度，每次比较替换最小值
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution(object):
             
 
 
-```
+# ```

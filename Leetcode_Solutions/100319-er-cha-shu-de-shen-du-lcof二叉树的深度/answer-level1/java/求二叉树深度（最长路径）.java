@@ -1,10 +1,10 @@
-### 解题思路
-递归，判断root是否为空
-空则返回0，不空则返回深度较深的子树的深度加+1
+// ### 解题思路
+// 递归，判断root是否为空
+// 空则返回0，不空则返回深度较深的子树的深度加+1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -20,4 +20,4 @@ class Solution {
         }
 }
 
-```
+// ```

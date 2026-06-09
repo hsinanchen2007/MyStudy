@@ -1,4 +1,4 @@
-```
+// ```
     string longestCommonPrefix(vector<string>& strs) {
         
         if (strs.size() == 0) return "";
@@ -42,4 +42,4 @@
         
         return string(strs[0].begin(), strs[0].begin()+pre_len);
     }
-```
+// ```

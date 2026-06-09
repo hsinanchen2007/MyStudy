@@ -1,6 +1,6 @@
-## 删除当前结点
-**将下一结点的值赋给当前结点，删除下一结点**
-```cpp
+// ## 删除当前结点
+// **将下一结点的值赋给当前结点，删除下一结点**
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -16,4 +16,4 @@ public:
         node->next = node->next->next;
     }
 };
-```
+// ```

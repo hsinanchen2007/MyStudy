@@ -1,4 +1,4 @@
-![捕获.PNG](https://pic.leetcode-cn.com/8a583695b0451ad597e909f9c229b80e8d5dde82875067d07f86c73e0eba37ba-%E6%8D%95%E8%8E%B7.PNG)
+-- ![捕获.PNG](https://pic.leetcode-cn.com/8a583695b0451ad597e909f9c229b80e8d5dde82875067d07f86c73e0eba37ba-%E6%8D%95%E8%8E%B7.PNG)
 
 
 select sum(case when t3.TIV_2015 is not null then t2.TIV_2016 else 0 end) TIV_2016 

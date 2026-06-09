@@ -1,6 +1,6 @@
-![6ED6C7C9E4766C211BAA21E10573B0B1.png](https://pic.leetcode-cn.com/516a2b6014e23a32f92231cada8d0610c4c9009f3857181dbce5fe7601603693-6ED6C7C9E4766C211BAA21E10573B0B1.png)
+// ![6ED6C7C9E4766C211BAA21E10573B0B1.png](https://pic.leetcode-cn.com/516a2b6014e23a32f92231cada8d0610c4c9009f3857181dbce5fe7601603693-6ED6C7C9E4766C211BAA21E10573B0B1.png)
 
-```
+// ```
 class Solution {
     public int dominantIndex(int[] nums) {
         //排除特殊情况
@@ -26,4 +26,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

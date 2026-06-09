@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public void deleteNode(ListNode node) {
   
@@ -7,4 +7,4 @@ class Solution {
 
     }
 }
-```
+// ```

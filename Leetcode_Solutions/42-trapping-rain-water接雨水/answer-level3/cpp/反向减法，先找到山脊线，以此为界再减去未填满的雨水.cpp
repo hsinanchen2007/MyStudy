@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/efad621465c386bba5bf81f57f7119040b43d3f096698f3a5e2fc863aaf449a2-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/efad621465c386bba5bf81f57f7119040b43d3f096698f3a5e2fc863aaf449a2-image.png)
+// ```
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -44,4 +44,4 @@ public:
         return total;
     }
 };
-```
+// ```

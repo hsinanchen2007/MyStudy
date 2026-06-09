@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 struct Position{
     int x, y, man;
     Position(int x_, int y_, int man_) : x(x_), y(y_), man(man_){};
@@ -47,4 +47,4 @@ private:
         return abs(x0 - x0) + abs(y0 - y1);
     }
 };
-```
+// ```

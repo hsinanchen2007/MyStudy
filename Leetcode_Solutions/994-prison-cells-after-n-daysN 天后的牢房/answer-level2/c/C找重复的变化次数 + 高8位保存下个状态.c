@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/8bf7aaab84d72e524debe174a38294aa294a525c841ee0bd72bef9024bbe6749-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/8bf7aaab84d72e524debe174a38294aa294a525c841ee0bd72bef9024bbe6749-image.png)
 
-两头的房间最终都是0， 所以先做1次变化，后面再找到重复时变化的次数。
+// 两头的房间最终都是0， 所以先做1次变化，后面再找到重复时变化的次数。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -93,4 +93,4 @@ int* prisonAfterNDays(int* cells, int cellsSize, int N, int* returnSize){
 
     return cells;
 }
-```
+// ```

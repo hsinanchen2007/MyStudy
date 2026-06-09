@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool CheckPermutation(char* s1, char* s2)
 {
     int i,len,num1=0,num2=0;
@@ -22,4 +22,4 @@ bool CheckPermutation(char* s1, char* s2)
     else
         return false;
 }
-```
+// ```

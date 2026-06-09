@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int firstUniqChar(String s) {
         char[] chars=s.toCharArray();
@@ -17,4 +17,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-1.去除前后空格 2.判断起始字符为“+”或“-”还是数字  3.转换为数字（最重要的是临界值的判断，坑了好久）
+// ### 解题思路
+// 1.去除前后空格 2.判断起始字符为“+”或“-”还是数字  3.转换为数字（最重要的是临界值的判断，坑了好久）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
    int result = 0;
@@ -41,4 +41,4 @@ class Solution {
         return symbol ? result : -result;
     }
 }
-```
+// ```

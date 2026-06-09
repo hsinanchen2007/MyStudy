@@ -1,7 +1,7 @@
-二分查找一般适用于定位某个确定的值，而不是一堆值。
-所以这里的思路是用二分查找找到target，在采用顺序遍历的方式，得到所有的target
+// 二分查找一般适用于定位某个确定的值，而不是一堆值。
+// 所以这里的思路是用二分查找找到target，在采用顺序遍历的方式，得到所有的target
 
-```
+// ```
 public int search(int[] nums, int target) {
         // 二分查找mid=(left+right)/2, left=mid+1
         int mid, left = 0;
@@ -40,4 +40,4 @@ public int search(int[] nums, int target) {
         }
         return count;
     }
-```
+// ```

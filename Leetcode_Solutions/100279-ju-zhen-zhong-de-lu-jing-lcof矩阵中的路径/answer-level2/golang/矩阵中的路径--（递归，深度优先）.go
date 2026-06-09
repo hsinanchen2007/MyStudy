@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func exist(board [][]byte, word string) bool {
 	// 是否访问过
 	visited := make([][]bool, len(board))
@@ -45,4 +45,4 @@ func search(board [][]byte,visited [][]bool,n,m,x int,str string) bool {
 	visited[n][m] = false
 	return false
 }
-```
+// ```

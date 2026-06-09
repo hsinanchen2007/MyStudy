@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int size = 9;
 	int square = size * size;
@@ -74,4 +74,4 @@ class Solution {
         boxUsed[(x / 3) * 3 + y / 3][index] = flag;
     }
 }
-```
+// ```

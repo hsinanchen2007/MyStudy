@@ -1,9 +1,9 @@
-### 解题思路
-声明两个大小为26的数组，然后判断words[i]的字母是否在chars中， 在的话 chars里相应字母个数减一。 没有直接下一个words。  
+// ### 解题思路
+// 声明两个大小为26的数组，然后判断words[i]的字母是否在chars中， 在的话 chars里相应字母个数减一。 没有直接下一个words。  
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
 
     int ret = 0;
@@ -34,4 +34,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return ret;
 }
-```
+// ```

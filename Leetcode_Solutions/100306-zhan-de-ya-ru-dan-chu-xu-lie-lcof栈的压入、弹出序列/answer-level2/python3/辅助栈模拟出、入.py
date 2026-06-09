@@ -1,4 +1,4 @@
-新手第一次发题解，请大佬们指教
+# 新手第一次发题解，请大佬们指教
 class Solution:
     def validateStackSequences(self, pushed, popped) -> bool:
         stack, stack1, i, j = [], [], 0, 0

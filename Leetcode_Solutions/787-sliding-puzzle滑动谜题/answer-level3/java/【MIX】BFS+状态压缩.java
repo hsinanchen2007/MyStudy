@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class Solution {
     // 定义每个点可移动的4个方向
     private int[][] dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
@@ -101,8 +101,8 @@ class Solution {
         return 0<=x && x<2 && 0<=y && y<3;
     }
 }
-```
-```python []
+// ```
+// ```python []
 from collections import deque
 import operator
 class Solution:
@@ -137,8 +137,8 @@ class Solution:
                         visited.add(nex_board)
                         queue.append([nex_board, nex, depth+1])
         return -1
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     int slidingPuzzle(vector<vector<int>>& board) {
@@ -237,4 +237,4 @@ private:
 private:
     vector<vector<int>> dirs{{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 };
-```
+// ```

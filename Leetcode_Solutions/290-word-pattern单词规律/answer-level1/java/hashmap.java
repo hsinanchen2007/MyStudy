@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 	public boolean wordPattern(String pattern, String str) {
 		Map<Character, String> mp = new HashMap<Character, String>();
@@ -25,4 +25,4 @@ class Solution {
 		return true;
 	}
 }
-```
+// ```

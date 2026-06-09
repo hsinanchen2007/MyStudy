@@ -1,4 +1,4 @@
-```
+// ```
 func findRepeatNumber(nums []int) int {
 
 	mp := map[int]int{}
@@ -11,4 +11,4 @@ func findRepeatNumber(nums []int) int {
 	}
 	return 0
 }
-```
+// ```

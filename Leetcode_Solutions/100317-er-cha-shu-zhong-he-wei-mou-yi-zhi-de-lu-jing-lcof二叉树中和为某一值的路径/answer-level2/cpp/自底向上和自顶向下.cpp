@@ -1,5 +1,5 @@
-第一个想到的解法是自底向上的解法，递归到符合条件的叶子节点后，然后沿着回溯路径一路insert，但是这样因为insert会导致大量的数据移动，所以复杂度较高
-```
+// 第一个想到的解法是自底向上的解法，递归到符合条件的叶子节点后，然后沿着回溯路径一路insert，但是这样因为insert会导致大量的数据移动，所以复杂度较高
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,10 +35,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-然后想到的是设置一个辅助的helper，记录路径上的节点，遇到符合条件的就res.push_back(helper)，这样就显著的降低了时间复杂度
-```
+// 然后想到的是设置一个辅助的helper，记录路径上的节点，遇到符合条件的就res.push_back(helper)，这样就显著的降低了时间复杂度
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -72,8 +72,8 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/e8279ed23a98864bcb6bbfa72ac40f95d874dc77f9a7cf023ad7bda4d4b154d3-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e8279ed23a98864bcb6bbfa72ac40f95d874dc77f9a7cf023ad7bda4d4b154d3-image.png)
 
 
 

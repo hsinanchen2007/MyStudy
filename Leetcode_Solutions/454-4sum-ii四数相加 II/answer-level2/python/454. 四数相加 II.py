@@ -1,9 +1,9 @@
-### 解题思路
-此题数组位置固定且为乱序, 故不能使用双指针. 用数组题经典的哈希解法, 四个数分为两组双循环时间复杂度最低, 第一组存哈希表, 第二组找哈希表.
+# ### 解题思路
+# 此题数组位置固定且为乱序, 故不能使用双指针. 用数组题经典的哈希解法, 四个数分为两组双循环时间复杂度最低, 第一组存哈希表, 第二组找哈希表.
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def fourSumCount(self, A, B, C, D):
         """
@@ -27,4 +27,4 @@ class Solution(object):
                 if -c-d in dic:
                     count+= dic[-c-d]
         return count
-```
+# ```

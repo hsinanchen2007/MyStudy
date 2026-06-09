@@ -1,11 +1,11 @@
-### 解题思路
-希望下面的图片能帮助理解，代码中也有注释
-![image.png](https://pic.leetcode-cn.com/7d69c10e4d2c0b938724ab1805f889d20802585ebb9d1fba1c746f8508554df1-image.png)
-时间复杂度：O(n)
-空间复杂度：O(1)
-### 代码
+// ### 解题思路
+// 希望下面的图片能帮助理解，代码中也有注释
+// ![image.png](https://pic.leetcode-cn.com/7d69c10e4d2c0b938724ab1805f889d20802585ebb9d1fba1c746f8508554df1-image.png)
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int hIndex(int[] citations) {
         int hIndex=0,N=citations.length;
@@ -21,4 +21,4 @@ class Solution {
         return hIndex;
     }
 }
-```
+// ```

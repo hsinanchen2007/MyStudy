@@ -1,5 +1,5 @@
-比较标准的bfs模板，树的广度优先搜索都可以用
-```
+// 比较标准的bfs模板，树的广度优先搜索都可以用
+// ```
 var rightSideView = function(root) {
   if (root === null) return []
   let result = []
@@ -17,4 +17,4 @@ var rightSideView = function(root) {
   }
   return result
 };
-```
+// ```

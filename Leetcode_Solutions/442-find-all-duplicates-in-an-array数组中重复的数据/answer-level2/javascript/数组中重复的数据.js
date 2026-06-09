@@ -1,5 +1,5 @@
-//先将数组排序，然后顺序扫描数组。直到发现有重复数字；
-```
+// //先将数组排序，然后顺序扫描数组。直到发现有重复数字；
+// ```
 var findDuplicates = function(nums) {
   const len = nums.length-1;
   const temp = [];
@@ -18,10 +18,10 @@ var findDuplicates = function(nums) {
   }
   return temp;
 };
-```
+// ```
 
-//用一个set，顺序扫描数组，如果set没有包含当前数字，就把这个数字放入set,否则，就为重复数字。
-```
+// //用一个set，顺序扫描数组，如果set没有包含当前数字，就把这个数字放入set,否则，就为重复数字。
+// ```
 var findDuplicates = function(nums) {
   const len = nums.length - 1;
   const set = new Set();
@@ -38,4 +38,4 @@ var findDuplicates = function(nums) {
   }
   return temp;
 };
-```
+// ```

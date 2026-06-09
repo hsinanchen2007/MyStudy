@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-12 ms
-, 在所有 Java 提交中击败了
-13.32%
-的用户
-内存消耗 :
-37.7 MB
-, 在所有 Java 提交中击败了
-21.25%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 12 ms
+// , 在所有 Java 提交中击败了
+// 13.32%
+// 的用户
+// 内存消耗 :
+// 37.7 MB
+// , 在所有 Java 提交中击败了
+// 21.25%
+// 的用户
+// ```
 class Solution {
     public String addBinary(String a, String b) {
         int la = a.length();
@@ -69,4 +69,4 @@ class Solution {
         return (last==1)?1+new String(res):new String(res);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -17,4 +17,4 @@ func middleNode(head *ListNode) *ListNode {
     }
     return slow
 }
-```
+// ```

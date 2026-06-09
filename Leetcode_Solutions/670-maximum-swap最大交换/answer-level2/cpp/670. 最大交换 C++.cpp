@@ -1,9 +1,9 @@
-### 解题思路
-1、使用了multimap
+// ### 解题思路
+// 1、使用了multimap
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -47,4 +47,4 @@ public:
         return num;
     }
 };
-```
+// ```

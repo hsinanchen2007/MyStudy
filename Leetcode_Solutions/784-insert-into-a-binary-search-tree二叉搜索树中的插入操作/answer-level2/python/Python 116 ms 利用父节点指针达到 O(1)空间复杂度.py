@@ -1,9 +1,9 @@
-### 解题思路
-利用两个指针分别指向分节点与当前节点，减少判断
+# ### 解题思路
+# 利用两个指针分别指向分节点与当前节点，减少判断
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
             else: pre.left = vnode
             return root
 
-```
+# ```

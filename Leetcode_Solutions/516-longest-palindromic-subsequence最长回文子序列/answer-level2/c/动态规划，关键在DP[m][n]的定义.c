@@ -1,14 +1,14 @@
-### 解题思路
-关键点
-            if (s[m] == s[n]) {
-                dp[m][n] = 2 + dp[m + 1][n - 1]; 
-            } else {
-                dp[m][n] = Max(dp[m + 1][n], dp[m][n - 1]);
-            }
+// ### 解题思路
+// 关键点
+//             if (s[m] == s[n]) {
+//                 dp[m][n] = 2 + dp[m + 1][n - 1]; 
+//             } else {
+//                 dp[m][n] = Max(dp[m + 1][n], dp[m][n - 1]);
+//             }
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Max(int a, int b) {
     return (a > b) ? a : b;
 }
@@ -48,4 +48,4 @@ int longestPalindromeSubseq(char * s){
     return dp[0][len - 1];
 
 }
-```
+// ```

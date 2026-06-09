@@ -1,4 +1,4 @@
-```
+// ```
 func canReach(arr []int, start int) bool {
     if arr[start] == 0 {
         return true
@@ -36,4 +36,4 @@ func canReach(arr []int, start int) bool {
 
     return false
 }
-```
+// ```

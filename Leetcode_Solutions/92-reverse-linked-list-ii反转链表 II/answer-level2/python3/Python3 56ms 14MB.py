@@ -1,6 +1,6 @@
-语言；Python3
-效果：O(n) 56ms 14MB
-```python []
+# 语言；Python3
+# 效果：O(n) 56ms 14MB
+# ```python []
     def reverseBetween(self, head: ListNode, m: int, n: int) -> ListNode:
         # 一个元素直接返回
         if not head.next:
@@ -25,4 +25,4 @@
             return head
         else:
             return pre
-```
+# ```

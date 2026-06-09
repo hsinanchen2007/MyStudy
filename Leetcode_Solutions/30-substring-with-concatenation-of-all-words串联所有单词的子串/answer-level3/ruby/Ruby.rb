@@ -1,6 +1,6 @@
-思路见注释
+# 思路见注释
 
-```ruby []
+# ```ruby []
 require 'set'
 # @param {String} s
 # @param {String[]} words
@@ -61,4 +61,4 @@ def find_substring(s, words)
     sub_string_set == words
   end
 end
-```
+# ```

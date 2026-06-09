@@ -1,11 +1,11 @@
-### 解题思路
-![QQ截图20200312160501.png](https://pic.leetcode-cn.com/4a09c67d89c76ba37f16fe8c61c8dd762421e96d8aebc51e0ffdd1292b1b03a3-QQ%E6%88%AA%E5%9B%BE20200312160501.png)
+// ### 解题思路
+// ![QQ截图20200312160501.png](https://pic.leetcode-cn.com/4a09c67d89c76ba37f16fe8c61c8dd762421e96d8aebc51e0ffdd1292b1b03a3-QQ%E6%88%AA%E5%9B%BE20200312160501.png)
 
-当我到了第i家时，我要么偷，那就是dp[i-2]+nums[i]；要么不偷，那就还是dp[i-1]
-dp[i] = max(dp[i-2]+nums[i], dp[i-1])
-### 代码
+// 当我到了第i家时，我要么偷，那就是dp[i-2]+nums[i]；要么不偷，那就还是dp[i-1]
+// dp[i] = max(dp[i-2]+nums[i], dp[i-1])
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         if(nums.length==0){
@@ -29,4 +29,4 @@ class Solution {
 
     }
 }
-```
+// ```

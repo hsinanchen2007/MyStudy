@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
         if is_same(s, t):
             return True
         return self.isSubtree(s.left, t) or self.isSubtree(s.right, t)  
-```
+# ```

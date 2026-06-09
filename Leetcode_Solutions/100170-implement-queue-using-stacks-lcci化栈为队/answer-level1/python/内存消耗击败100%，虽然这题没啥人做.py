@@ -1,11 +1,11 @@
-### 解题思路
-分为输入输出两个栈，输入栈正常push
-pop时若输出栈为空，则将输入栈自顶向下逐个push进输出栈，否则正常pop
-peek时按题目要求只用常规栈操作，不知道列表的[-1]行不行，先用pop顶一下
+# ### 解题思路
+# 分为输入输出两个栈，输入栈正常push
+# pop时若输出栈为空，则将输入栈自顶向下逐个push进输出栈，否则正常pop
+# peek时按题目要求只用常规栈操作，不知道列表的[-1]行不行，先用pop顶一下
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyQueue:
 
     def __init__(self):
@@ -62,4 +62,4 @@ class MyQueue:
 # param_2 = obj.pop()
 # param_3 = obj.peek()
 # param_4 = obj.empty()
-```
+# ```

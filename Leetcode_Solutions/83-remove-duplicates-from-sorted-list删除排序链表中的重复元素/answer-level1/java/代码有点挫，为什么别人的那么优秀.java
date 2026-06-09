@@ -1,4 +1,4 @@
-```
+// ```
 public ListNode deleteDuplicates(ListNode head) {
         if(head == null)
             return head;
@@ -14,4 +14,4 @@ public ListNode deleteDuplicates(ListNode head) {
         p1.next = p2;
         return head;
     }
-```
+// ```

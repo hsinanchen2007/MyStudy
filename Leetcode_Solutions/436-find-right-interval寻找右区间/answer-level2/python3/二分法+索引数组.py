@@ -1,6 +1,6 @@
-# 不改变原有数组顺序
+# # 不改变原有数组顺序
 
-```python
+# ```python
 class Solution:
     def findRightInterval(self, intervals: List[List[int]]) -> List[int]:
         size = len(intervals)
@@ -21,4 +21,4 @@ class Solution:
             return indexes[l]
 
         return [firstGreater(intervals[i][1]) for i in range(size)]
-```
+# ```

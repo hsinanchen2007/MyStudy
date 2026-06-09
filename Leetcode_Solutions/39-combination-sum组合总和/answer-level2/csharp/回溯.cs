@@ -1,9 +1,9 @@
-### 解题思路
-关于如何解决重复的问题还没有很好的想法
+// ### 解题思路
+// 关于如何解决重复的问题还没有很好的想法
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
   	int[] data;
 		List<int> record;
@@ -75,4 +75,4 @@ public class Solution {
 			return false;
 		}
 }
-```
+// ```

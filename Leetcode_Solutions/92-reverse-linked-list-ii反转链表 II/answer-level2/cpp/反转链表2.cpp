@@ -1,16 +1,16 @@
 
-pre head nextnode
-1 →  2 →  3 → 4 → 5
+// pre head nextnode
+// 1 →  2 →  3 → 4 → 5
 
-↑→--→↓
-1...2 ← 3...4 → 5
-.....↓______↑
+// ↑→--→↓
+// 1...2 ← 3...4 → 5
+// .....↓______↑
 
-pre    head  nextnode
-1 → 3 → 2 →  4 → 5
-。。。。。。
+// pre    head  nextnode
+// 1 → 3 → 2 →  4 → 5
+// 。。。。。。
 
-```
+// ```
 class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int m, int n) {
@@ -29,5 +29,5 @@ public:
         return dummy->next;
     }
 };
-```
-啊啊啊ε＝ε＝ε＝(#>д<)ﾉ是这题好麻烦，还是我太弱。。加油呀！！欢迎指正，谢谢。
+// ```
+// 啊啊啊ε＝ε＝ε＝(#>д<)ﾉ是这题好麻烦，还是我太弱。。加油呀！！欢迎指正，谢谢。

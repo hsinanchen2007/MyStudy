@@ -1,4 +1,4 @@
-```
+// ```
 int bitwiseComplement(int N){
     if (N == 0) return 1;
     unsigned int m = N;
@@ -6,4 +6,4 @@ int bitwiseComplement(int N){
     m = (m << 1) - 1;
     return ~N & m;
 }
-```
+// ```

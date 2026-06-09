@@ -1,24 +1,24 @@
-队列法
-C语言的痛苦在于队列的pop和push等操作需要自行创建
-解题思路：
-1、构建队列的Push, Pop等方法
-2、主函数中对特例输入操作：
-    1] 输入的数组为NULL，直接返回NULL
-    2] k == 1 时，啥也不说直接返回nums即可
-    3] 当numsSize <= k 时，直接找出数组内的最大值即可
-3、主函数中对于非特例，即普适条件时
-    1] 创建一个队列queue，数据长度为k+1
-    2] i < k时在nums[0] : nums[k] 之间找出第一个maxValue
-    3] i < k时将nums[0] : nums[k]每个值push到queue中
-    4] 对于i >= k时最大值求法：
-        1> num[i] > maxValue时，直接将队列头pop出去然后把nums[i] push进去
-        2> num[i] <= maxValue时，取出队列头值tmp，然后把队列头pop出去然后把nums[i] push进去
-        3> 如果tmp == maxValue时，需要遍历求出queue中最大值重新给maxValue
-4、每一步移动i均把最大值给data指针，最后返回data
+// 队列法
+// C语言的痛苦在于队列的pop和push等操作需要自行创建
+// 解题思路：
+// 1、构建队列的Push, Pop等方法
+// 2、主函数中对特例输入操作：
+//     1] 输入的数组为NULL，直接返回NULL
+//     2] k == 1 时，啥也不说直接返回nums即可
+//     3] 当numsSize <= k 时，直接找出数组内的最大值即可
+// 3、主函数中对于非特例，即普适条件时
+//     1] 创建一个队列queue，数据长度为k+1
+//     2] i < k时在nums[0] : nums[k] 之间找出第一个maxValue
+//     3] i < k时将nums[0] : nums[k]每个值push到queue中
+//     4] 对于i >= k时最大值求法：
+//         1> num[i] > maxValue时，直接将队列头pop出去然后把nums[i] push进去
+//         2> num[i] <= maxValue时，取出队列头值tmp，然后把队列头pop出去然后把nums[i] push进去
+//         3> 如果tmp == maxValue时，需要遍历求出queue中最大值重新给maxValue
+// 4、每一步移动i均把最大值给data指针，最后返回data
 
-下面是C代码实现
+// 下面是C代码实现
 
-```
+// ```
 #define NULL ((void *)0)
 #define false 0
 #define true 1
@@ -147,5 +147,5 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize){
     queueFree(q);
     return data;
 }
-```
+// ```
 

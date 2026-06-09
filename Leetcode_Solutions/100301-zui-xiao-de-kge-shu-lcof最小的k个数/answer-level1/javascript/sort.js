@@ -1,11 +1,11 @@
-### 解题思路
-先判断限制条件
+// ### 解题思路
+// 先判断限制条件
 
-要求解析条件需要分解出前k个最小的值就排序裁剪即可
+// 要求解析条件需要分解出前k个最小的值就排序裁剪即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -16,4 +16,4 @@ var getLeastNumbers = function(arr, k) {
     if (arr.filter(v => v > 10000 || v < 0).length) return []
     return arr.sort((a, b) => a - b).slice(0, k)
 };
-```
+// ```

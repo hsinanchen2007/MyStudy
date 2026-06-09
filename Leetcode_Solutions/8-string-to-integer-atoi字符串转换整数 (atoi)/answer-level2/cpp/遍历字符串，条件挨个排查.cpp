@@ -1,8 +1,8 @@
-### 解题思路
-遍历字符串，挨个排查所有条件
-### 代码
+// ### 解题思路
+// 遍历字符串，挨个排查所有条件
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -56,4 +56,4 @@ public:
         return res;
     }
 };
-```
+// ```

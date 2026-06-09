@@ -1,9 +1,9 @@
-### 解题思路
-This is suitable for the beginers ! 
+# ### 解题思路
+# This is suitable for the beginers ! 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxKilledEnemies(self, grid: List[List[str]]) -> int:
         if not grid:
@@ -23,4 +23,4 @@ class Solution:
                             col += move_y[x]
                     count = max(count, temp)
         return count
-```
+# ```

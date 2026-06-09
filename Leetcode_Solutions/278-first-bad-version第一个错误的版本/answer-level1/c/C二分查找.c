@@ -1,5 +1,5 @@
-很好理解，找分界点
-```
+// 很好理解，找分界点
+// ```
 int firstBadVersion(int n) {
     long i=1,j=n,mid;
     while(i<j){
@@ -12,4 +12,4 @@ int firstBadVersion(int n) {
     }
     return j;
 }
-```
+// ```

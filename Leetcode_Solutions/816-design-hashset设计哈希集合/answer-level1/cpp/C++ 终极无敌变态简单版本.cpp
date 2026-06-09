@@ -1,4 +1,4 @@
-```
+// ```
 class MyHashSet {
 public:
     /** Initialize your data structure here. */
@@ -23,4 +23,4 @@ public:
         else return false;       
     }
 };
-```
+// ```

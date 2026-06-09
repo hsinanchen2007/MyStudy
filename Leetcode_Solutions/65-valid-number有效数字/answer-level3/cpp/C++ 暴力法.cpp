@@ -1,5 +1,5 @@
-逐步判断
-```
+// 逐步判断
+// ```
 class Solution {
 public:
     bool isNumber(string s) {
@@ -35,4 +35,4 @@ public:
         return num;
     }
 };
-```
+// ```

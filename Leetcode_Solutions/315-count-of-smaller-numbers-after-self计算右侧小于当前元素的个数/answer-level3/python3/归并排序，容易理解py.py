@@ -1,5 +1,5 @@
-归并排序，我觉得写得很好理解吧。。。
-```
+# 归并排序，我觉得写得很好理解吧。。。
+# ```
 class Solution:
     def countSmaller(self, nums: List[int]) -> List[int]:
         # 使用索引数组
@@ -48,4 +48,4 @@ class Solution:
             index[k] = right[j]
             k += 1
             j += 1
-```
+# ```

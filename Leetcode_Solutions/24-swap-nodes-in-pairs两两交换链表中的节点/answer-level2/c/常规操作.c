@@ -1,5 +1,5 @@
-多申请了一个头结点
-```
+// 多申请了一个头结点
+// ```
 struct ListNode* swapPairs(struct ListNode* head){
     struct ListNode * preHead = (struct ListNode *)malloc (sizeof(struct ListNode));
     preHead->next = head;    
@@ -16,4 +16,4 @@ struct ListNode* swapPairs(struct ListNode* head){
 
     return preHead->next;
 }
-```
+// ```

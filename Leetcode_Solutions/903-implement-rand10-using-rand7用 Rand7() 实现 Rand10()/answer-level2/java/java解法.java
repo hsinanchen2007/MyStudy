@@ -1,6 +1,6 @@
-执行用时 :12 ms, 击败了36.45%的用户。
-内存消耗 :44.3 MB, 击败了33.33%的用户
-```
+// 执行用时 :12 ms, 击败了36.45%的用户。
+// 内存消耗 :44.3 MB, 击败了33.33%的用户
+// ```
 class Solution extends SolBase {
     public int rand10() {
         int x = rand7();
@@ -21,4 +21,4 @@ class Solution extends SolBase {
         return res + z;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-思路：
-将数组内数据进行排序（从小到大）
-依次从最大的数进行累加
-依次将剩余的数进行累加
-比较两累加和
+// 思路：
+// 将数组内数据进行排序（从小到大）
+// 依次从最大的数进行累加
+// 依次将剩余的数进行累加
+// 比较两累加和
 
-```
+// ```
 class Solution {
     public List<Integer> minSubsequence(int[] nums) {
         List<Integer> list = new ArrayList<>();
@@ -36,4 +36,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

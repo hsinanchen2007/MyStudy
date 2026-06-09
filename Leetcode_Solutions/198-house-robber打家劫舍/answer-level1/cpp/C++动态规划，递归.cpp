@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int rob(vector<int>& nums) 
@@ -21,4 +21,4 @@ currentMax[i]= max(*max_element(currentMax,currentMax+i-1)+nums[i],currentMax[i-
  
     }
 };
-```
+// ```

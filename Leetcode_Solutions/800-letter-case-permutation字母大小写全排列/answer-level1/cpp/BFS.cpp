@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     bool isAlpha(char c){
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

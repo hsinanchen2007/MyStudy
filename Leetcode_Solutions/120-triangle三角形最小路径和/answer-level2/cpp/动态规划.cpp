@@ -1,9 +1,9 @@
-### 解题思路
-c[i, j] = min(c[i+1, j], c[i+1, j+1]) + tri[i, j];
+// ### 解题思路
+// c[i, j] = min(c[i+1, j], c[i+1, j+1]) + tri[i, j];
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int cala(int k1, int k2){
@@ -27,4 +27,4 @@ public:
         return c[0];
     }
 };
-```
+// ```

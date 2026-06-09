@@ -1,19 +1,19 @@
-### 解题思路
+// ### 解题思路
 
-找到状态转移方程  dp[i] = dp[i-Math.pow(2, n)] + 1
+// 找到状态转移方程  dp[i] = dp[i-Math.pow(2, n)] + 1
 
-其中 n 表示不超过 i 的最大2的幂次数
+// 其中 n 表示不超过 i 的最大2的幂次数
 
-e.g.  
-```
+// e.g.  
+// ```
   dp[9] = dp[9-8] + 1
   dp[8] = dp[8-8] + 1
   dp[7] = dp[7-4] + 1
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number[]}
@@ -30,4 +30,4 @@ var countBits = function(num) {
   }
   return dp
 };
-```
+// ```

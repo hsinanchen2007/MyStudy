@@ -1,9 +1,9 @@
-### 解题思路
-dfs递归，每次传入下一层的sum为sum减去当前节点的值，最后判断一下当前节点是否等于sum
+# ### 解题思路
+# dfs递归，每次传入下一层的sum为sum减去当前节点的值，最后判断一下当前节点是否等于sum
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
         return self.hasPathSum(root.left,sum-root.val) or self.hasPathSum(root.right,sum-root.val)
       
        
-```
+# ```

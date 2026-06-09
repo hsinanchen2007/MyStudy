@@ -1,9 +1,9 @@
-### 解题思路
-统计各个字母出现次数作为hashkey。
+// ### 解题思路
+// 统计各个字母出现次数作为hashkey。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String, List<String>> groups = new HashMap<>();
@@ -24,4 +24,4 @@ class Solution {
         return new ArrayList<>(groups.values());
     }
 }
-```
+// ```

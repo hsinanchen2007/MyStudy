@@ -1,4 +1,4 @@
-```js
+// ```js
 var numSpecialEquivGroups = function(A) {
     let set = new Set()
     for (let i = 0; i < A.length; i++) {
@@ -16,4 +16,4 @@ var numSpecialEquivGroups = function(A) {
     }
     return set.size
 };
-```
+// ```

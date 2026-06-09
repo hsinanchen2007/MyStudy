@@ -1,9 +1,9 @@
-### 解题思路
-老哈希了
+// ### 解题思路
+// 老哈希了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool uniqueOccurrences(int* arr, int arrSize){
     int a[2000]={0},b[1000]={0};
     int i=0;
@@ -24,4 +24,4 @@ bool uniqueOccurrences(int* arr, int arrSize){
     }
     return true;
 }
-```
+// ```

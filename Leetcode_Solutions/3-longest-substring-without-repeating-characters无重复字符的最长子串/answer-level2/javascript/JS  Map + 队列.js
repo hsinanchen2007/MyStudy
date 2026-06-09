@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var lengthOfLongestSubstring = function(s) {
     const map = new Map();
     const queue = [];
@@ -18,4 +18,4 @@ var lengthOfLongestSubstring = function(s) {
     res = Math.max(res, queue.length)
     return res
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-充分利用数组右上角元素（行中最大，列中最小）的特性
+// ### 解题思路
+// 充分利用数组右上角元素（行中最大，列中最小）的特性
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target)      {
         if(matrix.length==0)
@@ -27,4 +27,4 @@ class Solution {
     }
     
 }
-```
+// ```

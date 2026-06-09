@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseString(s []byte)  {
 
 	for from ,to :=0,len(s)-1; from < to ; from,to = from+1,to-1{
@@ -11,4 +11,4 @@ func reverseString(s []byte)  {
 	}
 }
 
-```
+// ```

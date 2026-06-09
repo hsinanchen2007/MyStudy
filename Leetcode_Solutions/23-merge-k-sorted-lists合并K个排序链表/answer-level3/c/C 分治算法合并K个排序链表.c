@@ -1,12 +1,12 @@
-### 解题思路
-1、lists是个指针数组，每个指针指向一个结构体链表；
-2、将lists自行进行拆分，最终拆分到是2个结构体链表进行合并；（对mergeKLists()自身进行递归调用，达到lists拆分的目的）
-3、mergeKLists()调到最后是2个链表的合并，此时调用static struct ListNode* mergedTwoLists(struct ListNode *list1, struct ListNode *list2)对2个链表进行简单合并；
-4、static struct ListNode* mergedTwoLists(struct ListNode *list1, struct ListNode *list2)，每次取出2个链表中的最小值，list1链表取最小值后剩余的数据当作一个新的链表newList1，另一个链表list2没有动; newList1和list2又重复调用mergedTwoLists()进行合并；
+// ### 解题思路
+// 1、lists是个指针数组，每个指针指向一个结构体链表；
+// 2、将lists自行进行拆分，最终拆分到是2个结构体链表进行合并；（对mergeKLists()自身进行递归调用，达到lists拆分的目的）
+// 3、mergeKLists()调到最后是2个链表的合并，此时调用static struct ListNode* mergedTwoLists(struct ListNode *list1, struct ListNode *list2)对2个链表进行简单合并；
+// 4、static struct ListNode* mergedTwoLists(struct ListNode *list1, struct ListNode *list2)，每次取出2个链表中的最小值，list1链表取最小值后剩余的数据当作一个新的链表newList1，另一个链表list2没有动; newList1和list2又重复调用mergedTwoLists()进行合并；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -139,4 +139,4 @@ int main()
 }
 #endif
 
-```
+// ```

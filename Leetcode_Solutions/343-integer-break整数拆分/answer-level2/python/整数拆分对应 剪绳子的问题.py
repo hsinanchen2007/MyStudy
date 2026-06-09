@@ -1,12 +1,12 @@
-### 解题思路
-使用动态规划，dp[i]表示整数i 分解后的最大乘积。 dp[i]应该等于某个整数j的分解乘积dp[j]和（i-j）乘积。
-但是由于dp[j]是经过分解后的，失去了一种情况。那就是j*(i-j)这种情况。
-所以需要取max(j*(i-j), dp[j]*（i-j）)
+# ### 解题思路
+# 使用动态规划，dp[i]表示整数i 分解后的最大乘积。 dp[i]应该等于某个整数j的分解乘积dp[j]和（i-j）乘积。
+# 但是由于dp[j]是经过分解后的，失去了一种情况。那就是j*(i-j)这种情况。
+# 所以需要取max(j*(i-j), dp[j]*（i-j）)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def integerBreak(self, n):
         """
@@ -44,4 +44,4 @@ class Solution(object):
         #     return 3**(a-1)*4
         # if b == 2:
         #     return 3**a*2
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-减去重合表面积
+// ### 解题思路
+// 减去重合表面积
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func surfaceArea(grid [][]int) int {
 	res := 0
 	for i := range grid {
@@ -29,4 +29,4 @@ func min(a, b int) int {
 	return b
 }
 
-```
+// ```

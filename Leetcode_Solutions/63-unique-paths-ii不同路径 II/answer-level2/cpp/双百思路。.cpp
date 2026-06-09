@@ -1,10 +1,10 @@
-###1.考虑边界是否有障碍1，if有，该路径不通。2.其次就是中间的，同样的思路
+// ###1.考虑边界是否有障碍1，if有，该路径不通。2.其次就是中间的，同样的思路
 
-此处撰写解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -34,4 +34,4 @@ public:
         return dp[m-1][n-1];
     }
 };
-```
+// ```

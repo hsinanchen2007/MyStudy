@@ -1,16 +1,16 @@
-## 思路:
+// ## 思路:
 
-我们找到数组的中点, 然后分成两部分,
+// 我们找到数组的中点, 然后分成两部分,
 
-比如` [-10,-3,0,5,9]`, 节点`0`的左边`[-10, -3]`,右边`[5, 9]`
+// 比如` [-10,-3,0,5,9]`, 节点`0`的左边`[-10, -3]`,右边`[5, 9]`
 
-依次递归下去.
+// 依次递归下去.
 
-相关题型:[109. 有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)
+// 相关题型:[109. 有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)
 
-## 代码:
+// ## 代码:
 
-```python [1]
+// ```python [1]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,11 +26,11 @@ class Solution:
         root.left = self.sortedArrayToBST(nums[:mid])
         root.right = self.sortedArrayToBST(nums[mid+1:])
         return root
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -55,5 +55,5 @@ class Solution {
         return root;
     }
 }
-```
+// ```
 

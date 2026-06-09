@@ -1,4 +1,4 @@
-```python
+# ```python
     def trapRainWater(self, heightMap: List[List[int]]) -> int:
         # 整体是初始化最外围一圈的围栏，模拟围栏外的水不停上涨往里灌的过程
         if not heightMap:
@@ -22,4 +22,4 @@
                     heapq.heappush(border, (heightMap[_i][_j], _i, _j))  # 将其继续加入围栏的优先队列用于继续bfs
                     heightMap[_i][_j] = -1  # 标记已访问
         return res
-```
+# ```

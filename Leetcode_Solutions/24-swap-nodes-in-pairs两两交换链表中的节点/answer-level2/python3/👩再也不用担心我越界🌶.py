@@ -1,9 +1,9 @@
-### 解题思路
-模拟交换即可
+# ### 解题思路
+# 模拟交换即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
             except:
                 p = p.next
         return h.next
-```
+# ```

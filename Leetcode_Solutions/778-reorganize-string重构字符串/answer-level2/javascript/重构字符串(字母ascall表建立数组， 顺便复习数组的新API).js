@@ -1,16 +1,16 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/34d2e28d7625499bf5c3813ef7e8cdc61b707c6237d36385b52058b8bb2431bc-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/34d2e28d7625499bf5c3813ef7e8cdc61b707c6237d36385b52058b8bb2431bc-image.png)
 
- - 第一步，建立每个字母出现的次数（类hash表），同时确定出现次数最多的字母
- - 第二步，根据最大次数，判断是否能重构；能重构，用出现最多的字母建立一个二维数组；
- - 第三步，遍历剩余字母依次插入到二维数组中；
- - 第四部，遍历拼接得出答案；
+//  - 第一步，建立每个字母出现的次数（类hash表），同时确定出现次数最多的字母
+//  - 第二步，根据最大次数，判断是否能重构；能重构，用出现最多的字母建立一个二维数组；
+//  - 第三步，遍历剩余字母依次插入到二维数组中；
+//  - 第四部，遍历拼接得出答案；
 
-** 重点注意思想在代码中已标记 **
+// ** 重点注意思想在代码中已标记 **
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -68,4 +68,4 @@ var reorganizeString = function(S) {
   // reduce 常规骚操作
   return res.reduce((cur, pre) => cur + pre.join(''), '');
 };
-```
+// ```

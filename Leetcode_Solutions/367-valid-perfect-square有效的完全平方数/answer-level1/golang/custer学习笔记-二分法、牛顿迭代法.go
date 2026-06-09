@@ -1,5 +1,5 @@
-## 二分法
-```go
+// ## 二分法
+// ```go
 package main
 
 import "fmt"
@@ -23,11 +23,11 @@ func main() {
 	n := 5
 	fmt.Println(isPerfectSquare(n))
 }
-```
+// ```
 
-## 牛顿迭代法
+// ## 牛顿迭代法
 
-```go
+// ```go
 func isPerfectSquare(num int) bool {
 	r := num
 	for r*r > num {
@@ -38,4 +38,4 @@ func isPerfectSquare(num int) bool {
 	}
 	return false
 }
-```
+// ```

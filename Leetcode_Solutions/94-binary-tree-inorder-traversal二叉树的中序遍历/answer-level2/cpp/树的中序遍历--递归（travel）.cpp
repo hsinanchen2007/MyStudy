@@ -1,11 +1,11 @@
-### 解题思路
-travel的递归注意点：
-（1）无需返回值，void ；
-（2）需要传入引用记录遍历点；
+// ### 解题思路
+// travel的递归注意点：
+// （1）无需返回值，void ；
+// （2）需要传入引用记录遍历点；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:
         inorderTraversal(root->right, result);
     }
 };
-```
+// ```

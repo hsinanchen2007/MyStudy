@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-倒序遍历存入A内就完了
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 倒序遍历存入A内就完了
+// ### 代码
 
-```c
+// ```c
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     int p1=m-1;
     int p2=n-1;
@@ -21,4 +21,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
         A[cur--]=B[p2--];
     }
 }
-```
+// ```

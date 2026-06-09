@@ -1,16 +1,16 @@
-### 解题思路
-相比39题来说，这个题一共多加了两个考点：
+// ### 解题思路
+// 相比39题来说，这个题一共多加了两个考点：
 
-题目：candidates = [10,1,2,7,6,1,5], target = 8
-candidates排序后为 [1,1,2,5,6,7,10]
+// 题目：candidates = [10,1,2,7,6,1,5], target = 8
+// candidates排序后为 [1,1,2,5,6,7,10]
 
-考点一：用过第i位的元素不能再用，比如排序后第0位为1，则用回溯法之后第0位的1是不能再用的，但是第1位的i是可以再用的，所以我们可以用stack来解决，代码中有提示
-考点二：第0位的1+第2位的2+第3位的5 => [1,2,5]，第1位的1+第2位的2+第3位的5 => [1,2,5] 这两种情况会导致重复
+// 考点一：用过第i位的元素不能再用，比如排序后第0位为1，则用回溯法之后第0位的1是不能再用的，但是第1位的i是可以再用的，所以我们可以用stack来解决，代码中有提示
+// 考点二：第0位的1+第2位的2+第3位的5 => [1,2,5]，第1位的1+第2位的2+第3位的5 => [1,2,5] 这两种情况会导致重复
        
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
@@ -43,10 +43,10 @@ class Solution {
         }
     }
 }
-```
-代码第二版
-用int来取代stack
-```
+// ```
+// 代码第二版
+// 用int来取代stack
+// ```
  public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> one = new ArrayList<>();
         Arrays.sort(candidates);
@@ -75,4 +75,4 @@ public void search(List<List<Integer>> one, List<Integer> two, int[] candidates,
         }
 
     }
-```
+// ```

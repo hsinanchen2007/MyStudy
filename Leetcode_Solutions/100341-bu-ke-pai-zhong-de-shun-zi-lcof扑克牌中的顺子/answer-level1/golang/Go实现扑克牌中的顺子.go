@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func isStraight(nums []int) bool {
     sort.Ints(nums)
     num := 0
@@ -15,4 +15,4 @@ func isStraight(nums []int) bool {
     } 
     return num<5
 }
-```
+// ```

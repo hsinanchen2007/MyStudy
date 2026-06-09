@@ -1,11 +1,11 @@
-### 解题思路
-- 从每一个 0 出发寻找更多的 0
-- 首先判断 left 和 right 是不是 1， 如果不是继续判断是不是 undefined
-- 将每个 0 出发找到的最大距离进行比较
+// ### 解题思路
+// - 从每一个 0 出发寻找更多的 0
+// - 首先判断 left 和 right 是不是 1， 如果不是继续判断是不是 undefined
+// - 将每个 0 出发找到的最大距离进行比较
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} seats
  * @return {number}
@@ -30,4 +30,4 @@ var maxDistToClosest = function(seats) {
     return max
     
 };
-```
+// ```

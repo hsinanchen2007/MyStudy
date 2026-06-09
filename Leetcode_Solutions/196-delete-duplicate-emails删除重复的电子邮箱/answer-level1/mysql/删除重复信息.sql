@@ -1,5 +1,5 @@
 
-# 来删除(删除!!!) Person 表中所有重复的电子邮箱
+-- # 来删除(删除!!!) Person 表中所有重复的电子邮箱
 
 delete from person 
 where id not in 

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-见代码
+// 见代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         return isPalindrome(x + "");
@@ -24,4 +24,4 @@ class Solution {
 		return true;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用一个ArrayList容器，两个for循环吧数组中的数加进来，，利用Collections的sort方法对容器arr进行排序，这样arr里的就是  数组nums1和nums2  排序好的数据
+// ### 解题思路
+// 用一个ArrayList容器，两个for循环吧数组中的数加进来，，利用Collections的sort方法对容器arr进行排序，这样arr里的就是  数组nums1和nums2  排序好的数据
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 		ArrayList<Integer>arr = new ArrayList<>();	
@@ -30,4 +30,4 @@ class Solution {
 				}
 	 }	
 }
-```
+// ```

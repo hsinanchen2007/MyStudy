@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reorderList(self, head):
         """
@@ -29,4 +29,4 @@ class Solution(object):
             s.next = one
             s = s.next
             n += 1
-```
+# ```

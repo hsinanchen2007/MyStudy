@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -13,4 +13,4 @@ class Solution {
                 node.next = node.next.next;
     }
 }
-```
+// ```

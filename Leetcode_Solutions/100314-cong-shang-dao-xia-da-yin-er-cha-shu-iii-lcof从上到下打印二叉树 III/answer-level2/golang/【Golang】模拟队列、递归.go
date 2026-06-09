@@ -1,11 +1,11 @@
-# 解题思路
-- 本题是[面试题32 - I-从上到下打印二叉树 ](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/solution/go-mo-ni-dui-lie-di-gui-by-sakura-151/) 的变化
-- 有题目可知在奇偶层数打印顺序相反
-- 所以在上一题代码的基础上，加上判断层数是奇或偶，从而确定节点数值是从左往右还是从右往左打印即可。
----
-# 解法一：模拟队列
---执行用时：0 ms --内存消耗：3.3 MB
-```go
+// # 解题思路
+// - 本题是[面试题32 - I-从上到下打印二叉树 ](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/solution/go-mo-ni-dui-lie-di-gui-by-sakura-151/) 的变化
+// - 有题目可知在奇偶层数打印顺序相反
+// - 所以在上一题代码的基础上，加上判断层数是奇或偶，从而确定节点数值是从左往右还是从右往左打印即可。
+// ---
+// # 解法一：模拟队列
+// --执行用时：0 ms --内存消耗：3.3 MB
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -49,12 +49,12 @@ func levelOrder(root *TreeNode) [][]int {
     }
     return ret
 }
-```
+// ```
 
----
-# 解法二：递归
---执行用时：0 ms --内存消耗：3.3 MB
-```go
+// ---
+// # 解法二：递归
+// --执行用时：0 ms --内存消耗：3.3 MB
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -95,4 +95,4 @@ func build(root *TreeNode,level int){
     build(root.Left,level)
     build(root.Right,level)
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-*   tmpA: 4 1 8 4 5 (5) (0) (1) (8)
- *  tmpB: 5 0 1 8 4 (5) (4) (1) (8)
+// ### 解题思路
+// *   tmpA: 4 1 8 4 5 (5) (0) (1) (8)
+//  *  tmpB: 5 0 1 8 4 (5) (4) (1) (8)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -50,4 +50,4 @@ public:
         return tmpA;
     }
 };
-```
+// ```

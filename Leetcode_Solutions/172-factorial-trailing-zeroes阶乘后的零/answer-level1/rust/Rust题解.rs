@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn trailing_zeroes(n: i32) -> i32 {
         let mut n = n;
@@ -10,5 +10,5 @@ impl Solution {
         zeroes
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

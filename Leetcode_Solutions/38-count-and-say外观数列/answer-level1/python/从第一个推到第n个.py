@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def countAndSay(self, n):
         """
@@ -27,4 +27,4 @@ class Solution(object):
 
 sol = Solution()
 print(sol.countAndSay(6))
-```
+# ```

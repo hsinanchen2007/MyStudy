@@ -1,10 +1,10 @@
-### 解题思路
-直接看注释吧，这题和滑动窗口的中位数解法类似
-https://leetcode-cn.com/problems/sliding-window-median/
+// ### 解题思路
+// 直接看注释吧，这题和滑动窗口的中位数解法类似
+// https://leetcode-cn.com/problems/sliding-window-median/
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MedianFinder {
 public:
     multiset<int> int_set;
@@ -42,4 +42,4 @@ public:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
-```
+// ```

@@ -1,7 +1,7 @@
-用数组搞的，，也能过，，不知道有没有什么问题
+// 用数组搞的，，也能过，，不知道有没有什么问题
 
-我错了，才发现题目是要求用栈
-```
+// 我错了，才发现题目是要求用栈
+// ```
 class CQueue {
 public:
     vector<int> res; 
@@ -32,6 +32,6 @@ public:
  * obj->appendTail(value);
  * int param_2 = obj->deleteHead();
  */
-```
+// ```
 
-大吉
+// 大吉

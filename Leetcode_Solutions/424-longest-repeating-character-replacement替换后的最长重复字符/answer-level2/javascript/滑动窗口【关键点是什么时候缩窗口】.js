@@ -1,4 +1,4 @@
-```
+// ```
 var characterReplacement = function(s, k) {
     let start=0//定义滑动窗口的开始
     let dict={}//定义一个哈希对象
@@ -19,4 +19,4 @@ var characterReplacement = function(s, k) {
     }
     return longestStr
 };
-```
+// ```

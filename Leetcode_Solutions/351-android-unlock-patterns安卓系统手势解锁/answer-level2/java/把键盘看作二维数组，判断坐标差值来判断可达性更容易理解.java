@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numberOfPatterns(int m, int n) {
         boolean[][] visit = new boolean[3][3];
@@ -39,4 +39,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

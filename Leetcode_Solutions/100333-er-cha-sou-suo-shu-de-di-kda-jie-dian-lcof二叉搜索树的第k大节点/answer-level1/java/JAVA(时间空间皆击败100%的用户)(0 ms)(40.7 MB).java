@@ -1,10 +1,10 @@
-![1.JPG](https://pic.leetcode-cn.com/809e156aba1e0a67d91b659f49860c3755f8904c7708748ac6e9e1733080d847-1.JPG)
+// ![1.JPG](https://pic.leetcode-cn.com/809e156aba1e0a67d91b659f49860c3755f8904c7708748ac6e9e1733080d847-1.JPG)
 
-**此解法运用了，二叉搜索树的从大到小遍历。运用了递归的算法**
-**当遍历到第k大节点的时候，将数值赋值给res成员变量**
-**返回成员变量res的值即可**
+// **此解法运用了，二叉搜索树的从大到小遍历。运用了递归的算法**
+// **当遍历到第k大节点的时候，将数值赋值给res成员变量**
+// **返回成员变量res的值即可**
 
-```java
+// ```java
 class Solution {
     private int count;
     private int res;
@@ -29,4 +29,4 @@ class Solution {
 }
 
 
-```
+// ```

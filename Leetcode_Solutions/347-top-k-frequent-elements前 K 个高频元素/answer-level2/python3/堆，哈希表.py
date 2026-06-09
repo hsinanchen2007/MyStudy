@@ -1,9 +1,9 @@
-### 解题思路
-问题在于，可不可以用dic.key建堆呢？
+# ### 解题思路
+# 问题在于，可不可以用dic.key建堆呢？
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         from collections import Counter
@@ -16,4 +16,4 @@ class Solution:
         #     res.extend(item)
         # return set(res)
 
-```
+# ```

@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def tree2str(t: TreeNode): String = {
     if (t == null) return ""
@@ -9,4 +9,4 @@ object Solution {
     res
   }
 }
-```
+// ```

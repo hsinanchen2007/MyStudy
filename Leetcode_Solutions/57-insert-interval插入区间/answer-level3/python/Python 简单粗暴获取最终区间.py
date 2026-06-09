@@ -1,9 +1,9 @@
 
-注意到：区间 [a, b] 对我们的 new 来说的话，如果 a > new[0] 或是 b < new[1] 的情况下，是不会受影响的。对于受影响的区间，我们就更新最小值left，最大值right。最终进行一个排序就可以了。
+# 注意到：区间 [a, b] 对我们的 new 来说的话，如果 a > new[0] 或是 b < new[1] 的情况下，是不会受影响的。对于受影响的区间，我们就更新最小值left，最大值right。最终进行一个排序就可以了。
 
-（时间击败98%，空间击败100%）
+# （时间击败98%，空间击败100%）
 
-```python
+# ```python
 class Solution(object):
     def insert(self, intervals, new):
         if not new: return intervals
@@ -20,4 +20,4 @@ class Solution(object):
         lst.append([left, right])
         lst.sort()
         return lst
-```
+# ```

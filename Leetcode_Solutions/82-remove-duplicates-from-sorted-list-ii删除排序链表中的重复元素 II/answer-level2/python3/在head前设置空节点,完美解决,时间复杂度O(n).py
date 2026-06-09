@@ -1,10 +1,10 @@
-### 解题思路
-#在head前面设置空节点,然后不断先后,其中cur表示当前节点
-#若遇到next节点==next.next情况,就不断循环,直到遍历到重复元素的末尾,若无这种情况,直接cur=cur.next
+# ### 解题思路
+# #在head前面设置空节点,然后不断先后,其中cur表示当前节点
+# #若遇到next节点==next.next情况,就不断循环,直到遍历到重复元素的末尾,若无这种情况,直接cur=cur.next
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
             else:
                 cur=cur.next
         return pre.next
-```
+# ```

@@ -1,4 +1,4 @@
-```rust
+// ```rust
 pub fn valid_mountain_array(a: Vec<i32>) -> bool {
     let mut reverse = false;
 
@@ -23,4 +23,4 @@ pub fn valid_mountain_array(a: Vec<i32>) -> bool {
 
     reverse
 }
-```
+// ```

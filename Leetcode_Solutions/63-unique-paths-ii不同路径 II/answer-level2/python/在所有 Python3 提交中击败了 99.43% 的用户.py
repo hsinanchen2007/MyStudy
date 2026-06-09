@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-dp
+# ### 解题思路
+# 此处撰写解题思路
+# dp
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         rows = len(obstacleGrid)
@@ -24,4 +24,4 @@ class Solution:
         return rec[-1]
                 
                 
-```
+# ```

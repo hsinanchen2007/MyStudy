@@ -1,12 +1,12 @@
 
-![image.png](https://pic.leetcode-cn.com/e3ae12aad1d5441aa9d9e85ffef44b2250ebf3adda46d5e051d660bd9433b4b9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e3ae12aad1d5441aa9d9e85ffef44b2250ebf3adda46d5e051d660bd9433b4b9-image.png)
 
-### 解题思路
-按单调增方式保栈，需要记录出栈的索引
+// ### 解题思路
+// 按单调增方式保栈，需要记录出栈的索引
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX 50000
 struct stackInfo {
     int rightId[MAX]; //记录Node右边第一个高度小于的索引
@@ -54,4 +54,4 @@ int largestRectangleArea(int* heights, int heightsSize){
 
     return max;
 }
-```
+// ```

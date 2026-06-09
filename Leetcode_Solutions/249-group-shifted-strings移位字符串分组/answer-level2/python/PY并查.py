@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def groupStrings(self, s: List[str]) -> List[List[str]]:
         n=len(s)
@@ -30,4 +30,4 @@ class Solution:
         for i in range(n):
             d[find(i)].append(s[i])
         return list(map(list,d.values()))        
-```
+# ```

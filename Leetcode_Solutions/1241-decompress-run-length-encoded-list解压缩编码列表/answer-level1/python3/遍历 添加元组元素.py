@@ -1,5 +1,5 @@
-很简单，不多说了吧，上代码
-```
+# 很简单，不多说了吧，上代码
+# ```
 class Solution:
     def decompressRLElist(self, nums: List[int]) -> List[int]:
         myList=[]
@@ -8,4 +8,4 @@ class Solution:
                 myList.append(nums[2*i+1])
         return myList
                 
-```
+# ```

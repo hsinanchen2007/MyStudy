@@ -1,8 +1,8 @@
-### 解题思路
-用一个pair记录每一个队投票情况，将所有pair组合成vector，然后进行排序
-### 代码
+// ### 解题思路
+// 用一个pair记录每一个队投票情况，将所有pair组合成vector，然后进行排序
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool cmp(pair<char, vector<int>> a, pair<char, vector<int>> b){
@@ -46,4 +46,4 @@ public:
         return ans;
     }
 };
-```
+// ```

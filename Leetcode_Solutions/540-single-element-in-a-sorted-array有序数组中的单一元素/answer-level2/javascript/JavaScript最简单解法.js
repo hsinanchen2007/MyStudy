@@ -1,9 +1,9 @@
-### 解题思路
-javascript本题解法十分简单，因为是有序数组，故单一元素必然出现在奇数位，若nums[i] == nums[i+1]则表示不是单一元素，i+2
+// ### 解题思路
+// javascript本题解法十分简单，因为是有序数组，故单一元素必然出现在奇数位，若nums[i] == nums[i+1]则表示不是单一元素，i+2
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -17,4 +17,4 @@ var singleNonDuplicate = function(nums) {
      }
  }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String getPermutation(int n, int k) {
         String result = "";
@@ -38,4 +38,4 @@ class Solution {
     }
     
 }
-```
+// ```

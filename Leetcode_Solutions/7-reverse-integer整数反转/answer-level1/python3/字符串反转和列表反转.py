@@ -1,9 +1,9 @@
-### 解题思路
-如题
+# ### 解题思路
+# 如题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         # 列表反转
@@ -26,4 +26,4 @@ class Solution:
         return out
         
         
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func checkValidString(s string) bool {
 	l, h := 0, 0
 	for i := 0; i < len(s); i++ {
@@ -21,4 +21,4 @@ func checkValidString(s string) bool {
 	}
 	return l == 0
 }
-```
+// ```

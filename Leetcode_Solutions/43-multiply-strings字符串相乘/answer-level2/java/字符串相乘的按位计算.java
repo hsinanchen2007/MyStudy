@@ -1,5 +1,5 @@
-从低到高的按位运算，结果去除前面的0
-```
+// 从低到高的按位运算，结果去除前面的0
+// ```
 class Solution {
     public String multiply(String num1, String num2) {
         int[] res = new int[num1.length() + num2.length()];
@@ -20,4 +20,4 @@ class Solution {
          return sb.length()==0?"0":sb.toString();
     }
 }
-```
+// ```

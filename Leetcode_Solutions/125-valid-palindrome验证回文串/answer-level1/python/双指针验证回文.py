@@ -1,9 +1,9 @@
-### 解题思路
-左右指针从两端依次验证所指字符是否相同
+# ### 解题思路
+# 左右指针从两端依次验证所指字符是否相同
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isPalindrome(self, s):
         """
@@ -40,4 +40,4 @@ class Solution(object):
 
 
 
-```
+# ```

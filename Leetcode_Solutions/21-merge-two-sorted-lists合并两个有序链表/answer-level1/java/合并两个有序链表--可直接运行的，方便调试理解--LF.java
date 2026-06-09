@@ -1,5 +1,5 @@
-链表定义部分：
-```
+// 链表定义部分：
+// ```
 package ZJM_21_合并两个有序链表;
 
 public class ListNode {
@@ -11,9 +11,9 @@ public class ListNode {
     }
 }
 
-```
-实例代码：
-```
+// ```
+// 实例代码：
+// ```
 package ZJM_21_合并两个有序链表;
 
 public class Main {
@@ -105,4 +105,4 @@ class Solution {
  * 本题主要考察的是链表部分的掌握，在函数中新建立一个链表节点，通过这个链表节点对两条链表进行比较后，next有序排列
  */
 
-```
+// ```

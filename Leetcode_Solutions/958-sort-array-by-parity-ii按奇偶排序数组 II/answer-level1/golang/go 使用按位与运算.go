@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-将取余2运算 换成 按位与1 运算 速度会加快很多 **beat 83.18%**
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 将取余2运算 换成 按位与1 运算 速度会加快很多 **beat 83.18%**
+// ### 代码
 
-```golang
+// ```golang
 func sortArrayByParityII(A []int) []int {
 	newSlice := make([]int, len(A))
 	oddIdx := 1
@@ -19,4 +19,4 @@ func sortArrayByParityII(A []int) []int {
 	}
 	return newSlice
 }
-```
+// ```

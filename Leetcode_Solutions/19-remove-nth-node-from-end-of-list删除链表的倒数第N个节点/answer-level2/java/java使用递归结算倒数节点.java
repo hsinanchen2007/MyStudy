@@ -1,7 +1,7 @@
-   使用递归记录节点总数，**倒数节点 = 节点总数-当前节点**
-使用虚拟头节点辅助计算
+//    使用递归记录节点总数，**倒数节点 = 节点总数-当前节点**
+// 使用虚拟头节点辅助计算
 
-``` java
+// ``` java
  public ListNode removeNthFromEnd(ListNode head, int n) {
         // 虚拟头节点
         ListNode dummyHead = new ListNode(-1);
@@ -30,4 +30,4 @@
         return max;
     }
 
-```
+// ```

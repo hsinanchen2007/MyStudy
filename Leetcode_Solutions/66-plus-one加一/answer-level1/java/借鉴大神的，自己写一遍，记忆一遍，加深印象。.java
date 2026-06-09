@@ -1,9 +1,9 @@
-### 解题思路
-进位 加1，后面变0 的思想
+// ### 解题思路
+// 进位 加1，后面变0 的思想
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] plusOne(int[] digits) {
         int len = digits.length;
@@ -18,5 +18,5 @@ class Solution {
 
     }
 }
-```
-PS:借鉴YHHZW 的解法，自己加深印象。
+// ```
+// PS:借鉴YHHZW 的解法，自己加深印象。

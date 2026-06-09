@@ -1,5 +1,5 @@
-直接遍历赋值到新的矩阵，最后再赋值回去原矩阵
-```
+// 直接遍历赋值到新的矩阵，最后再赋值回去原矩阵
+// ```
 func rotate(matrix [][]int)  {
     length := len(matrix)
 	var tempMatrix [][]int
@@ -17,4 +17,4 @@ func rotate(matrix [][]int)  {
 		}
 	}
 }
-```
+// ```

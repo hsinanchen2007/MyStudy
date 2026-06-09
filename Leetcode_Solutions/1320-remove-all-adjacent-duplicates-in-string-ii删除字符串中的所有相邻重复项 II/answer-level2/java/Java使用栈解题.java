@@ -1,4 +1,4 @@
-```
+// ```
 public static String removeDuplicates(String s, int k) {
         Stack<Character> stack = new Stack<>();
         int[] num = new int[s.length()];
@@ -28,4 +28,4 @@ public static String removeDuplicates(String s, int k) {
         }
         return stringBuilder.reverse().toString();
     }
-```
+// ```

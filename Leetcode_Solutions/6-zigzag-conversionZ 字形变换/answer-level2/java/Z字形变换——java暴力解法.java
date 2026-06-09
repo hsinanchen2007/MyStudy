@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-空间复杂度O（n²）
-时间复杂度O（n²）
-思路：用二维数组arr存储 字符串s 中字符的下标index,
-之后遍历二维数组arr构造字符串ans
-不足之处，还望指正，谢谢！
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 空间复杂度O（n²）
+// 时间复杂度O（n²）
+// 思路：用二维数组arr存储 字符串s 中字符的下标index,
+// 之后遍历二维数组arr构造字符串ans
+// 不足之处，还望指正，谢谢！
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String convert(String s, int numRows) {
       int len = s.length();
@@ -67,4 +67,4 @@ class Solution {
 
 
 }
-```
+// ```

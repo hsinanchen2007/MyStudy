@@ -1,10 +1,10 @@
-### 解题思路
-一般的层序遍历是每层从左到右，遍历到最后的元素就是右下角元素。
-如果反过来，每层从右到左进行层序遍历，最后一个就是左下角元素，直接输出即可，不需要记录深度。
+# ### 解题思路
+# 一般的层序遍历是每层从左到右，遍历到最后的元素就是右下角元素。
+# 如果反过来，每层从右到左进行层序遍历，最后一个就是左下角元素，直接输出即可，不需要记录深度。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             if cur.left:    # 后左
                 queue.append(cur.left)
         return cur.val
-```
+# ```

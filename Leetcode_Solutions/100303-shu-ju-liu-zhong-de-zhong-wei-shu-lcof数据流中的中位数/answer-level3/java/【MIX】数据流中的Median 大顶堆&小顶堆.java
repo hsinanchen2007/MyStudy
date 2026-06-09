@@ -1,9 +1,9 @@
-### 解题思路
-设中位数为pivot, 维护两个堆, 中位数为堆顶元素考虑奇偶性加权计算
+// ### 解题思路
+// 设中位数为pivot, 维护两个堆, 中位数为堆顶元素考虑奇偶性加权计算
 
-### 代码
+// ### 代码
 
-```c++ []
+// ```c++ []
 class MedianFinder {
 public:
     /** initialize your data structure here. */
@@ -46,8 +46,8 @@ private:
     
 };
 
-```
-```java []
+// ```
+// ```java []
 class MedianFinder {
 
     /** initialize your data structure here. */
@@ -100,8 +100,8 @@ class MedianFinder {
  * obj.addNum(num);
  * double param_2 = obj.findMedian();
  */
-```
-```python []
+// ```
+// ```python []
 from queue import PriorityQueue as PQ
 class MedianFinder:
 
@@ -135,4 +135,4 @@ class MedianFinder:
             return self.pqMax.queue[0][1]
         else:
             return (self.pqMax.queue[0][1]+self.pqMin.queue[0][1])/2
-```
+// ```

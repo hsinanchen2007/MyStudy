@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNthDigit(self, n: int) -> int:
         num = 9  # 个数
@@ -13,4 +13,4 @@ class Solution:
             digit += 1
         a, b = divmod(n - 1, digit)
         return int(str(10 ** (digit - 1) + a)[b])
-```
+# ```

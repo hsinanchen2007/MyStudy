@@ -1,9 +1,9 @@
-### 解题思路
-用multiset的查找方法来判断数字出现了几次 
+// ### 解题思路
+// 用multiset的查找方法来判断数字出现了几次 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
         return -1; 
     }
 };
-```
+// ```

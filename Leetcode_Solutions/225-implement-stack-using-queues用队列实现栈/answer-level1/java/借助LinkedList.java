@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用LinkedList,单向插入和删除
+// 使用LinkedList,单向插入和删除
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
 
     private LinkedList<Integer> list;
@@ -43,4 +43,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

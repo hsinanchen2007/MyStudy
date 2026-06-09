@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public ListNode getKthFromEnd(ListNode head, int k) {
         while(head != null){
@@ -14,4 +14,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 function oddEvenList($head) {
     if($head == null || $head->next == null) return $head;
     $p1 = $head;
@@ -15,4 +15,4 @@ function oddEvenList($head) {
     $p2->next = null;
     return $o1;
 }
-```
+// ```

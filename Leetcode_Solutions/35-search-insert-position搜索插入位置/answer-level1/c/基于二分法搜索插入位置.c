@@ -1,5 +1,5 @@
-思路：二分法查找，再寻找插入位置
-```c
+// 思路：二分法查找，再寻找插入位置
+// ```c
 int searchInsert(int* nums, int numsSize, int target){
     int middle = 0,left = 0,right = numsSize-1;
     while(right-left>1){
@@ -12,9 +12,9 @@ int searchInsert(int* nums, int numsSize, int target){
         if(nums[middle]>=target)break;
     return middle;
 }
-```
-//改良版 思路：直接二分法
-```c
+// ```
+// //改良版 思路：直接二分法
+// ```c
 int searchInsert(int* nums, int numsSize, int target){
      int middle = 0,left = 0,right = numsSize-1;
      while(right>=left){
@@ -24,4 +24,4 @@ int searchInsert(int* nums, int numsSize, int target){
      }
      return left;
  }
-```
+// ```

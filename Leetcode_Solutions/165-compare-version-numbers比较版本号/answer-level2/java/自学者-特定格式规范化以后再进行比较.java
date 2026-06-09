@@ -1,9 +1,9 @@
-### 解题思路
-* 特定格式规范化以后再进行比较
+// ### 解题思路
+// * 特定格式规范化以后再进行比较
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 // 方案一、传统比较法
 class Solution {
     private static String normalize(String version) {
@@ -46,9 +46,9 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 
-```java []
+// ```java []
 // 方案二、刷题学习简洁优雅的代码
 class Solution {
     public int compareVersion(String version1, String version2) {
@@ -64,4 +64,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

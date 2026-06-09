@@ -1,6 +1,6 @@
-搜索，记录横向、纵向能伤害到的敌人，相邻都是 0 的格子，可以直接取已缓存的值。
+// 搜索，记录横向、纵向能伤害到的敌人，相邻都是 0 的格子，可以直接取已缓存的值。
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int maxKilledEnemies(vector<vector<char>> &grid) {
@@ -58,4 +58,4 @@ private:
         return res;
     }
 };
-```
+// ```

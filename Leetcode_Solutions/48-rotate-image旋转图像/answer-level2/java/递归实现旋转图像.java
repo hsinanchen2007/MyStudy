@@ -1,4 +1,4 @@
-思路：由外向内旋转图像
+// 思路：由外向内旋转图像
 
     public void rotate(int[][] matrix) {
         recursiveRotate(matrix, 0);

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-当两个串都为空时或比较出大小后结束，一个为空时，则其版本号为0
+# ### 解题思路
+# 此处撰写解题思路
+# 当两个串都为空时或比较出大小后结束，一个为空时，则其版本号为0
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def compareVersion(self, version1, version2):
         """
@@ -24,4 +24,4 @@ class Solution(object):
             version1 = "" if version1 == "" else version1[version1.index('.')+1:]
             version2 = "" if version2 == "" else version2[version2.index('.')+1:]
         return 0
-```
+# ```

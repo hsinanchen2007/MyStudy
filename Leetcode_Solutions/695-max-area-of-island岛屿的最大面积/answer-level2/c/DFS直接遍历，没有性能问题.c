@@ -1,9 +1,9 @@
-### 解题思路
-和200题基本思路一致，只是DFS获取的结果有所不同，200题会了，这个题也没啥难度。
+// ### 解题思路
+// 和200题基本思路一致，只是DFS获取的结果有所不同，200题会了，这个题也没啥难度。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a , b) ((a) > (b)) ? (a) : (b)
 void DFS(int **grid, int x, int y, int *ans, int n, int m)
 {
@@ -36,4 +36,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
     
     return ans;
 }
-```
+// ```

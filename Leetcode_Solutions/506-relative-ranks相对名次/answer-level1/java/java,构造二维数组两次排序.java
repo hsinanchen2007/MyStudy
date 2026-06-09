@@ -1,9 +1,9 @@
-思路：记录当前数组的值[0]和当前位置[1]
-按照值排序[0]
-将数组的值[0]更替为当前的位置（排名）
-res[data[1]]对应排名da[0]
+// 思路：记录当前数组的值[0]和当前位置[1]
+// 按照值排序[0]
+// 将数组的值[0]更替为当前的位置（排名）
+// res[data[1]]对应排名da[0]
 
-```
+// ```
 class Solution {
        public String[] findRelativeRanks(int[] nums) {
         int data[][]=new int[nums.length][2];
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

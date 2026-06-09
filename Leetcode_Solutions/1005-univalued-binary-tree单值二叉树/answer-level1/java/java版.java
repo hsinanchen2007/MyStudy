@@ -1,11 +1,11 @@
-### 解题思路
-1 以根节点作为参照节点
-2 递归遍历左右节点，让左右节点的值和根节点比较，如果有节点的值和根节点的值不相等则返回false，
-否则返回true。
+// ### 解题思路
+// 1 以根节点作为参照节点
+// 2 递归遍历左右节点，让左右节点的值和根节点比较，如果有节点的值和根节点的值不相等则返回false，
+// 否则返回true。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -26,4 +26,4 @@ class Solution {
         return helper(root.left,val)&&helper(root.right,val);
     }
 }
-```
+// ```

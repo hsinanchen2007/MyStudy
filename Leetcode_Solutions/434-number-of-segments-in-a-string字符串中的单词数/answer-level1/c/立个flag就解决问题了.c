@@ -1,5 +1,5 @@
-只通过空格计数的话是不稳妥的，加一个flag标志位，当遇到非空格的字符的时候，再将返回值加一
-```
+// 只通过空格计数的话是不稳妥的，加一个flag标志位，当遇到非空格的字符的时候，再将返回值加一
+// ```
 int countSegments(char * s){
     int len = strlen(s);
     if(len == 0){
@@ -28,4 +28,4 @@ int countSegments(char * s){
     return cnt+1;
 }
 
-```
+// ```

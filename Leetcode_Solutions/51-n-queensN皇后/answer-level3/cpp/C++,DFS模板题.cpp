@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isValid(int n,int row,int col,vector<string>&list){
@@ -44,4 +44,4 @@ public:
         return ans;
     }
 };
-```
+// ```

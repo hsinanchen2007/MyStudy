@@ -1,15 +1,15 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/e81ebac103c4d85ec82ba9bf31536188a733bb83adbaaea126c930db0a5226c3-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/e81ebac103c4d85ec82ba9bf31536188a733bb83adbaaea126c930db0a5226c3-image.png)
 
-用flag==1标记子树未遍历结束，flag==0子树遍历结束
-当弹出栈内元素（根）代表要遍历左右子树--默认遍历了左子树，置flag=1
-当遍历右子树为空结点且flag=1置flag=0表示子树遍历结束
+// 用flag==1标记子树未遍历结束，flag==0子树遍历结束
+// 当弹出栈内元素（根）代表要遍历左右子树--默认遍历了左子树，置flag=1
+// 当遍历右子树为空结点且flag=1置flag=0表示子树遍历结束
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValidSerialization(string preorder) {
@@ -46,4 +46,4 @@ public:
     
     
 };
-```
+// ```

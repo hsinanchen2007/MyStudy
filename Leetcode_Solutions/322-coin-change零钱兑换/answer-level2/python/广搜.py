@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         if not amount or not coins:return 0
@@ -25,4 +25,4 @@ class Solution:
                         queue.append(current - coins[i])
                         visited.add(current - coins[i])
         return -1
-```
+# ```

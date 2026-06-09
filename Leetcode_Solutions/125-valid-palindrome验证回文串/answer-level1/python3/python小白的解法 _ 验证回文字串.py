@@ -1,5 +1,5 @@
 
-```
+# ```
 def is_palindrome(s):
     s = s.strip().lower()
     length = len(s)
@@ -26,4 +26,4 @@ def is_palindrome(s):
             break
 
     return flag
-```
+# ```

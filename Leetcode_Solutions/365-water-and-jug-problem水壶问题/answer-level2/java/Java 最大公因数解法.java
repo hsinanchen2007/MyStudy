@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if(x+y<z) return false;
@@ -21,4 +21,4 @@ class Solution {
         return temp;
     }
 }
-```
+// ```

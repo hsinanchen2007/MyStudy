@@ -1,14 +1,14 @@
-√ Accepted
+// √ Accepted
   
-√ 504/504 cases passed (4 ms)
+// √ 504/504 cases passed (4 ms)
   
-√ Your runtime beats 100 % of cpp submissions
+// √ Your runtime beats 100 % of cpp submissions
   
-√ Your memory usage beats 87.54 % of cpp submissions (9.5 MB)
+// √ Your memory usage beats 87.54 % of cpp submissions (9.5 MB)
 
-我觉得如果还有什么可以改进的就是box的vector可以设置为3个，每三行重置一下，可以更省空间
-![微信截图_20190525041834.png](https://pic.leetcode-cn.com/a0f9053344252738ffb82f9c0da81fd5c3bbf8d61520ff5b77cfae900aea0689-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190525041834.png)
-```
+// 我觉得如果还有什么可以改进的就是box的vector可以设置为3个，每三行重置一下，可以更省空间
+// ![微信截图_20190525041834.png](https://pic.leetcode-cn.com/a0f9053344252738ffb82f9c0da81fd5c3bbf8d61520ff5b77cfae900aea0689-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190525041834.png)
+// ```
 class Solution
 {
 public:
@@ -37,4 +37,4 @@ public:
         return 1;
     }
 };
-```
+// ```

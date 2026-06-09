@@ -1,9 +1,9 @@
-### 解题思路
-懒写case 所以空间复杂度超低的写法。。。
+// ### 解题思路
+// 懒写case 所以空间复杂度超低的写法。。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} gas
  * @param {number[]} cost
@@ -25,4 +25,4 @@ var canCompleteCircuit = function(gas, cost) {
     }
     return greedy.length > 0 ? greedy[0] : -1
 };
-```
+// ```

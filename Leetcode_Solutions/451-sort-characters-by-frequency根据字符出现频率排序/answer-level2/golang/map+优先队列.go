@@ -1,5 +1,5 @@
 
-```go
+// ```go
 func frequencySort(s string) string {
 	hashMap := make(map[string]int)
 	for _, v := range s {
@@ -71,4 +71,4 @@ func (p *PriorityQueue) Update(item *Item, value string, priority int) {
 func (p *PriorityQueue) Delete(item *Item) {
 	heap.Remove(p, item.index)
 }
-```
+// ```

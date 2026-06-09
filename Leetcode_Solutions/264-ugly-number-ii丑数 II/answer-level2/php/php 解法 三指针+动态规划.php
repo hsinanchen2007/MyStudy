@@ -1,4 +1,4 @@
-```
+// ```
 function nthUglyNumber($n) {
     $idx2 = 0;
     $idx3 = 0;
@@ -14,5 +14,5 @@ function nthUglyNumber($n) {
     }
     return $dp[$n-1];
 }
-```
+// ```
 

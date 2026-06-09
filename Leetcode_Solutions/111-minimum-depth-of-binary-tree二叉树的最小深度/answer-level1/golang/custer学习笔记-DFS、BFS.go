@@ -1,16 +1,16 @@
-# 思考
+// # 思考
 
-DFS
+// DFS
 
-- 终止条件、返回值和递归过程：
-  - 当前节点root为空时，说明此树的高度为0，0也是最小值
-  - 当前节点root的左子树和右子树都为空时，说明此树的高度为1，1也是最小值。
-  - 如果为其他情况，则说明当前节点有值，且需要分别计算其左右子树的最小深度，返回最小深度+1，+1表示当前节点存在有1个深度
-- 时间复杂度是O(N)，N为树的节点数量
+// - 终止条件、返回值和递归过程：
+//   - 当前节点root为空时，说明此树的高度为0，0也是最小值
+//   - 当前节点root的左子树和右子树都为空时，说明此树的高度为1，1也是最小值。
+//   - 如果为其他情况，则说明当前节点有值，且需要分别计算其左右子树的最小深度，返回最小深度+1，+1表示当前节点存在有1个深度
+// - 时间复杂度是O(N)，N为树的节点数量
 
-# Go实现
+// # Go实现
 
-```go
+// ```go
 func minDepth(root *TreeNode) int {
     if root == nil {
         return 0
@@ -39,12 +39,12 @@ func Min(a, b int) int {
     }
     return b
 }
-```
+// ```
 
-## 代码优化
-学习自[ElliotXX](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/solution/12msdfs-de-go-shi-xian-by-elliotxx/)
+// ## 代码优化
+// 学习自[ElliotXX](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/solution/12msdfs-de-go-shi-xian-by-elliotxx/)
 
-```go
+// ```go
 func minDepth(root *TreeNode) int {
     if root == nil {
         return 0
@@ -63,11 +63,11 @@ func Min(a, b int) int {
     }
     return b
 }
-```
+// ```
 
-# BFS 迭代实现
+// # BFS 迭代实现
 
-```go
+// ```go
 // Time: O(n), Space: O(n)
 func minDepthIterative(root *TreeNode) int {
     if root == nil {
@@ -96,4 +96,4 @@ func minDepthIterative(root *TreeNode) int {
     }
     return depth // 一定会访问叶子节点并返回，不会走到这里
 }
-```
+// ```

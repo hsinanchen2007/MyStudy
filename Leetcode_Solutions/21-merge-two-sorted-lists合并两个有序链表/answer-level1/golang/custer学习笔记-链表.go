@@ -1,5 +1,5 @@
-# 递归
-```go
+// # 递归
+// ```go
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
     if l1 == nil {
         return l2
@@ -15,10 +15,10 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
         return l2
     }
 }
-```
+// ```
 
-# 迭代
-```go
+// # 迭代
+// ```go
 func mergeTwoLists2(l1 *ListNode, l2 *ListNode) *ListNode {
     newHead := &ListNode{}
     cur := newHead
@@ -40,10 +40,10 @@ func mergeTwoLists2(l1 *ListNode, l2 *ListNode) *ListNode {
     }
     return newHead.Next
 }
-```
+// ```
 
-# 便于理解
-```go
+// # 便于理解
+// ```go
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
     // 有一条链为nil，直接返回另一条链
     if l1 == nil {
@@ -92,4 +92,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 
     return head
 }
-```
+// ```

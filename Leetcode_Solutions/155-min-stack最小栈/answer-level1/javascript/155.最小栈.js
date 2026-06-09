@@ -1,8 +1,8 @@
-### 两个栈操作
+// ### 两个栈操作
 
-具体可看[这里](https://leetcode-cn.com/problems/min-stack/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-38/)
+// 具体可看[这里](https://leetcode-cn.com/problems/min-stack/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-38/)
 
-```javascript
+// ```javascript
 /**
  * initialize your data structure here.
  */
@@ -50,11 +50,11 @@ MinStack.prototype.top = function() {
 MinStack.prototype.getMin = function() {
   return this._minStack[this._minStack.length - 1];
 };
-```
+// ```
 
-### 跑题练习：直接使用数组方法操作栈
+// ### 跑题练习：直接使用数组方法操作栈
 
-```javascript
+// ```javascript
 /**
  * initialize your data structure here.
  */
@@ -90,11 +90,11 @@ MinStack.prototype.top = function() {
 MinStack.prototype.getMin = function() {
   return Math.min(...this.stack);
 };
-```
+// ```
 
-### 跑题练习：使用对象
+// ### 跑题练习：使用对象
 
-```javascript
+// ```javascript
 /**
  * initialize your data structure here.
  */
@@ -140,4 +140,4 @@ MinStack.prototype.getMin = function() {
   }
   return value
 };
-```
+// ```

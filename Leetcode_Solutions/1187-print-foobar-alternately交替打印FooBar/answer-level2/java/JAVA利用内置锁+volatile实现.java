@@ -1,5 +1,5 @@
-利用内置锁synchronized加上一个volatile变量,volatile变量用于标记当前执行的是哪个方法,从而决定是否要wait.
-```
+// 利用内置锁synchronized加上一个volatile变量,volatile变量用于标记当前执行的是哪个方法,从而决定是否要wait.
+// ```
 class FooBar {
     private int n;
 
@@ -47,4 +47,4 @@ class FooBar {
         }
     }
 }
-```
+// ```

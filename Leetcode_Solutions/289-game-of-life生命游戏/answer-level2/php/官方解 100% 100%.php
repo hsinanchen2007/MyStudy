@@ -1,9 +1,9 @@
-### 解题思路
-严格按照题目往下走
+// ### 解题思路
+// 严格按照题目往下走
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -71,4 +71,4 @@ class Solution {
         return $living_dots;
     }
 }
-```
+// ```

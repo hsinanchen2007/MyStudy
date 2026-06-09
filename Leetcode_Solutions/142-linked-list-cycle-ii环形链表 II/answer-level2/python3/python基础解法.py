@@ -1,10 +1,10 @@
-### 解题思路
-1. 快慢指针，快慢指针相遇后，慢指针与新的慢指针相遇的点就是入口处
-2. 哈希表
+# ### 解题思路
+# 1. 快慢指针，快慢指针相遇后，慢指针与新的慢指针相遇的点就是入口处
+# 2. 哈希表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
             lookup.add(node)
             node = node.next
         return None
-```
+# ```

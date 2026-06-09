@@ -1,6 +1,6 @@
-**耗时5ms**
+// **耗时5ms**
 
-```
+// ```
 class Solution {
     private List<Integer> mList;
     public boolean findTarget(TreeNode root, int k) {
@@ -36,4 +36,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

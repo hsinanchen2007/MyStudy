@@ -1,6 +1,6 @@
-经过排序，for循环中的i应该等于nums[i]，所以只要找到满足 i!=nums[i] 的i即可
-如果缺失的是n，返回nums[nums.size()-1]+1即可
-```
+// 经过排序，for循环中的i应该等于nums[i]，所以只要找到满足 i!=nums[i] 的i即可
+// 如果缺失的是n，返回nums[nums.size()-1]+1即可
+// ```
 Code fence
 class Solution {
 public:
@@ -14,4 +14,4 @@ public:
         return nums[nums.size()-1] + 1;
     }
 };
-```
+// ```

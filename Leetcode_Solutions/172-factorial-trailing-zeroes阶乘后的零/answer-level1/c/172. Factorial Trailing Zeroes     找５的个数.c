@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trailingZeroes(int n){
     int count = 0;
     while(n){
@@ -12,4 +12,4 @@ int trailingZeroes(int n){
     }
     return count;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-对第二个字符串组做桶排序
-再对一个字符串组做依次处理，感觉时间复杂度上差不多应该是最佳了
-执行用时和我预料的差不多，在时间复杂度上超过100%了
-```
+// 对第二个字符串组做桶排序
+// 再对一个字符串组做依次处理，感觉时间复杂度上差不多应该是最佳了
+// 执行用时和我预料的差不多，在时间复杂度上超过100%了
+// ```
 func numSmallerByFrequency(queries []string, words []string) []int {
 	var res []int
 	w:=make([]int,11)
@@ -36,4 +36,4 @@ func getFre(s string) int {
 	}
 	return res
 }
-```
+// ```

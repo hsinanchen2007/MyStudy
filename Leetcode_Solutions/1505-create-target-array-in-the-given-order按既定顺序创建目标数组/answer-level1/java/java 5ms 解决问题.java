@@ -1,6 +1,6 @@
-java 5ms 解决问题
+// java 5ms 解决问题
 
-```
+// ```
 class Solution {
     public int[] createTargetArray(int[] nums, int[] index) {
         List<Integer> list = new ArrayList<>();
@@ -11,4 +11,4 @@ class Solution {
         return list.stream().mapToInt(Integer::valueOf).toArray();
     }
 }
-```
+// ```

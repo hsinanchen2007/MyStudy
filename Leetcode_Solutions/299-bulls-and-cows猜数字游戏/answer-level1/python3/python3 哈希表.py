@@ -1,9 +1,9 @@
-### 解题思路
-先统计bulls再统计cows
+# ### 解题思路
+# 先统计bulls再统计cows
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getHint(self, secret: str, guess: str) -> str:
         from collections import Counter
@@ -28,4 +28,4 @@ class Solution:
         
         
     
-```
+# ```

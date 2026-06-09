@@ -1,9 +1,9 @@
-### 解题思路
-直接下标不相等就返回
+// ### 解题思路
+// 直接下标不相等就返回
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -16,4 +16,4 @@ public:
         return i;
     }
 };
-```
+// ```

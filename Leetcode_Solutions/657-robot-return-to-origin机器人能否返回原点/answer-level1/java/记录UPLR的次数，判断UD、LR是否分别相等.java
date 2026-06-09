@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/eb1f887302b82c83ff51335c11056e5eefae157634728006285dd82555191ac3-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/eb1f887302b82c83ff51335c11056e5eefae157634728006285dd82555191ac3-image.png)
+// ```
 class Solution {
         public boolean judgeCircle(String moves) {
             if (moves.length()==0)
@@ -22,4 +22,4 @@ class Solution {
             return false;
         }
 }
-```
+// ```

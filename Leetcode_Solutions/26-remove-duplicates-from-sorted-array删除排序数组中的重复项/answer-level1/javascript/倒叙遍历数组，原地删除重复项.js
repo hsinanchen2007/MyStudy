@@ -1,11 +1,11 @@
-/**
- * @param {number[]} nums
- * @return {number}
- */
+// /**
+//  * @param {number[]} nums
+//  * @return {number}
+//  */
 
-倒叙遍历数组，
+// 倒叙遍历数组，
 
-```
+// ```
 
 var removeDuplicates = function(nums) {
     if (nums.length === 0) {
@@ -23,4 +23,4 @@ var removeDuplicates = function(nums) {
     }, NaN);
     return nums.length;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-    C实现代码量较大，简单题不划算。
+// ### 解题思路
+//     C实现代码量较大，简单题不划算。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct stack {
     char c;
     struct stack* next;
@@ -81,4 +81,4 @@ int balancedStringSplit(char * s)
     FreeStack(head);
     return ret;
 }
-```
+// ```

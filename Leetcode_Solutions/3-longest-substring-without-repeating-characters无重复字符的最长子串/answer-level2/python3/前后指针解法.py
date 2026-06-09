@@ -1,9 +1,9 @@
-### 解题思路
-前后各一个指针 框出候选子串
+# ### 解题思路
+# 前后各一个指针 框出候选子串
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         if s == '':
@@ -22,4 +22,4 @@ class Solution:
                 start += 1
         return max_len
             
-```
+# ```

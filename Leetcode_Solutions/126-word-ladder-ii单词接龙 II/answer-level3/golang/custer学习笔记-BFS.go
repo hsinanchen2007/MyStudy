@@ -1,8 +1,8 @@
-# BFS
+// # BFS
 
-根据[127题的题解](https://leetcode-cn.com/problems/word-ladder/solution/custerxue-xi-bi-ji-bfs-shuang-xiang-bfs-by-custerg/)添加路径，记录访问该单词的上一个单词来源
+// 根据[127题的题解](https://leetcode-cn.com/problems/word-ladder/solution/custerxue-xi-bi-ji-bfs-shuang-xiang-bfs-by-custerg/)添加路径，记录访问该单词的上一个单词来源
 
-```go
+// ```go
 func findLadders(beginWord string, endWord string, wordList []string) [][]string {
     dict := make(map[string]bool) // 把word存入字典
     for _, word := range wordList {
@@ -90,4 +90,4 @@ red  <       /       >  tax
         ted  -  tad
 [["red","rex","tex","tax"],["red","ted","tex","tax"],["red","ted","tad","tax"]]
 */
-```
+// ```

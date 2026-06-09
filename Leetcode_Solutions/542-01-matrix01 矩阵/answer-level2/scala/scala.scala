@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def updateMatrix(matrix: Array[Array[Int]]): Array[Array[Int]] = {
     val res = Array.ofDim[Int](matrix.length, matrix(0).length)
@@ -19,4 +19,4 @@ object Solution {
     res
   }
 }
-```
+// ```

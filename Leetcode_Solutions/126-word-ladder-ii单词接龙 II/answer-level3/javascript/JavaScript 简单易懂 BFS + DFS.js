@@ -1,10 +1,10 @@
-### 解题思路
-先用 BFS 求出最短距离
-再用 DFS 求出最短距离路径
+// ### 解题思路
+// 先用 BFS 求出最短距离
+// 再用 DFS 求出最短距离路径
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} beginWord
  * @param {string} endWord
@@ -62,4 +62,4 @@ function dfs (beginWord, endWord, ans, path, map, minDistance, distance) {
         }
     }
 }
-```
+// ```

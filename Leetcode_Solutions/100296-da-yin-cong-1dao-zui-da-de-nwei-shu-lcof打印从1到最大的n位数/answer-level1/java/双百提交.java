@@ -1,10 +1,10 @@
-### 解题思路
-1、求解出n位最大的整数
-2、构造数组，进行赋值
+// ### 解题思路
+// 1、求解出n位最大的整数
+// 2、构造数组，进行赋值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] printNumbers(int n) {
         int number = 1;
@@ -19,4 +19,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

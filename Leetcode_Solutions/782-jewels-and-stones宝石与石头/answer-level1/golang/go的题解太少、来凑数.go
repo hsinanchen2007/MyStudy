@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numJewelsInStones(J string, S string) int {
     set := make(map[byte]bool)
 	count := 0
@@ -17,4 +17,4 @@ func numJewelsInStones(J string, S string) int {
 	}
 	return count
 }
-```
+// ```

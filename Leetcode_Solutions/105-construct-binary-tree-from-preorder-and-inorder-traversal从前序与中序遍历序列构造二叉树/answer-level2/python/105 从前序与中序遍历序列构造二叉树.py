@@ -1,20 +1,20 @@
-### 解题思路
-root = TreeNode(preorder[0])
-root.left = self.buildTree(）
-root.right = self.buildTree(）
-return root
+# ### 解题思路
+# root = TreeNode(preorder[0])
+# root.left = self.buildTree(）
+# root.right = self.buildTree(）
+# return root
 
-preorder 中的第一个元素一定是树的根，这个根又将 inorder 序列分成了左右两棵子树。
-构建二叉树的问题本质上就是：
-    找到各个子树的根节点 root
-    构建该根节点的左子树
-    构建该根节点的右子树
-整个过程我们可以用递归来完成。
+# preorder 中的第一个元素一定是树的根，这个根又将 inorder 序列分成了左右两棵子树。
+# 构建二叉树的问题本质上就是：
+#     找到各个子树的根节点 root
+#     构建该根节点的左子树
+#     构建该根节点的右子树
+# 整个过程我们可以用递归来完成。
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution(object):
         root.right = self.buildTree(preorder[mid+1:], inorder[mid+1:])
 
         return root
-```
+# ```

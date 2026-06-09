@@ -1,9 +1,9 @@
-### 解题思路
-通过map记录每个字母的次数，再通过pair与优先队列实现降序排列。
+// ### 解题思路
+// 通过map记录每个字母的次数，再通过pair与优先队列实现降序排列。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string frequencySort(string s) {
@@ -32,4 +32,4 @@ public:
         return str;
     }
 };
-```
+// ```

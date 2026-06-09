@@ -1,9 +1,9 @@
-### 解题思路
-只需要改变两个节点之间的指向即可
+// ### 解题思路
+// 只需要改变两个节点之间的指向即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -23,4 +23,4 @@ struct ListNode* reverseList(struct ListNode* head){
    }
    return pre;
 }
-```
+// ```

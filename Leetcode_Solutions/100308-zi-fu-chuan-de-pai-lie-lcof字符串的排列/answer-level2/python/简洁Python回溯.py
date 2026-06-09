@@ -1,5 +1,5 @@
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def permutation(self, s: str) -> List[str]:
         used = [False for _ in range(len(s))]
@@ -17,4 +17,4 @@ class Solution:
                     used[i] = False
         backtrack(s, '')
         return list(set(res))    
-```
+# ```

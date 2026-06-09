@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/38cc2d56293202722607522cae9595d92949502b9577f9191f63445789e951ec-image.png)
+# ![image.png](https://pic.leetcode-cn.com/38cc2d56293202722607522cae9595d92949502b9577f9191f63445789e951ec-image.png)
 
 
-```
+# ```
 '''
 从叶子往根节点找反向路径，只要知道当前节点在所在层的偏移量
 就可以算出父节点在上一层的偏移量，有偏移量就可以计算出父节点
@@ -36,4 +36,4 @@ class Solution:
 
         ans.reverse()
         return ans
-```
+# ```

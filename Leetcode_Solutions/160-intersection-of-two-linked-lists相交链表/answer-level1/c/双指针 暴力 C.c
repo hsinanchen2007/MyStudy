@@ -1,9 +1,9 @@
-### 解题思路
-具体看注释
+// ### 解题思路
+// 具体看注释
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -80,4 +80,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     return NULL;
 }
 
-```
+// ```

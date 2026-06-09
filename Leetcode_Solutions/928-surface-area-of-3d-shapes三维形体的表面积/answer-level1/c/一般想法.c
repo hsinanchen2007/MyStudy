@@ -1,9 +1,9 @@
-### 解题思路
-首先每个网格上不看旁边结点时，表面积是a = 6 * v - 2 * (v - 1)前提是v要大于0，再依据旁边结点j（上下左右）判断其是否大于当前结点i，若j > i则a = a - i，若j <= i则a = a - j(理由：相邻的网格会遮盖正方体的表面),再将得到的a累加即可。
+// ### 解题思路
+// 首先每个网格上不看旁边结点时，表面积是a = 6 * v - 2 * (v - 1)前提是v要大于0，再依据旁边结点j（上下左右）判断其是否大于当前结点i，若j > i则a = a - i，若j <= i则a = a - j(理由：相邻的网格会遮盖正方体的表面),再将得到的a累加即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
     int v = 0,a = 0;
     int area = 0;
@@ -44,4 +44,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
 
     return area;
 }
-```
+// ```

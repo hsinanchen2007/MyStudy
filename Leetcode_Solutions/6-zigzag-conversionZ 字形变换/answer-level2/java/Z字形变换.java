@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 增加一个zigZag标记位来指示移动方向
+// # 增加一个zigZag标记位来指示移动方向
 
-时间复杂度和空间复杂度均是O(n)，其中n为字符串s的长度。
+// 时间复杂度和空间复杂度均是O(n)，其中n为字符串s的长度。
 
-执行用时：24ms，击败62.22%。消耗内存：44.8MB，击败70.46%。
+// 执行用时：24ms，击败62.22%。消耗内存：44.8MB，击败70.46%。
 
-```java
+// ```java
 public class Solution {
     public String convert(String s, int numRows) {
         int n;
@@ -36,4 +36,4 @@ public class Solution {
         return result.toString();
     }
 }
-```
+// ```

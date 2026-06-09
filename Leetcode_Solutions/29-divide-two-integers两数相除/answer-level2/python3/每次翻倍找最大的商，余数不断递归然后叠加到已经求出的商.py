@@ -1,12 +1,12 @@
-执行用时 :32 ms, 在所有 python3 提交中击败了97.41%的用户
-内存消耗 :12.7 MB, 在所有 python3 提交中击败了99.52%的用户
+# 执行用时 :32 ms, 在所有 python3 提交中击败了97.41%的用户
+# 内存消耗 :12.7 MB, 在所有 python3 提交中击败了99.52%的用户
 
-### 解题思路
-此处撰写解题思路
-不断循环翻倍加大除数，否则会超时
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 不断循环翻倍加大除数，否则会超时
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         dividend_abs=abs(dividend)
@@ -32,4 +32,4 @@ class Solution:
         if (dividend>0 and divisor<0) or (dividend<0 and divisor>0):
             res=-res
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-NULL
+// ### 解题思路
+// NULL
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool backspaceCompare(string S, string T) {
@@ -42,4 +42,4 @@ public:
 
     }
 };
-```
+// ```

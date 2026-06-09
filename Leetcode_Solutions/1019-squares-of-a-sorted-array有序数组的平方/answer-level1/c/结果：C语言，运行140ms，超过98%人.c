@@ -1,5 +1,5 @@
-思路：利用数组索引，指向第一个正数与负数，随后通过左右移动即可。
-```
+// 思路：利用数组索引，指向第一个正数与负数，随后通过左右移动即可。
+// ```
 int* sortedSquares(int* A, int ASize, int* returnSize){
     int * p = (int*)malloc(sizeof(int)*ASize);
     *returnSize = ASize;
@@ -35,4 +35,4 @@ int* sortedSquares(int* A, int ASize, int* returnSize){
     }
     return p;
 }
-```
+// ```

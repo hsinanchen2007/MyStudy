@@ -1,9 +1,9 @@
-127是纯BFS, DFS会导致超时。
-126则在BFS过程中记录回溯数据，确保每个单词能记录回beginword，一旦找到endword，继续完成本层BFS。最后利用DFS回溯数据构建返回值。
+// 127是纯BFS, DFS会导致超时。
+// 126则在BFS过程中记录回溯数据，确保每个单词能记录回beginword，一旦找到endword，继续完成本层BFS。最后利用DFS回溯数据构建返回值。
 
-C代码如下 (改了N个版本，写了一天。。。)
+// C代码如下 (改了N个版本，写了一天。。。)
 
- ```
+//  ```
 char** list;
 int** back;
 int* backSize;
@@ -111,4 +111,4 @@ char*** findLadders(char* beginWord, char* endWord, char** wordList, int wordLis
     dfs(res, returnSize, returnColumnSizes, ans, retlevel - 1, retlevel);
     return res;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def game(self, guess: List[int], answer: List[int]) -> int:
         cnt = 0
@@ -6,5 +6,5 @@ class Solution:
             if i == j:
                 cnt += 1
         return cnt
-```
+# ```
 

@@ -1,6 +1,6 @@
-迭代法：root非空，先保存数值，然后右孩子先压栈，左孩子后压栈，依次遍历
+# 迭代法：root非空，先保存数值，然后右孩子先压栈，左孩子后压栈，依次遍历
 
-```
+# ```
 def preorderTraversal(self, root):
         """
         :type root: TreeNode
@@ -29,4 +29,4 @@ def preorderTraversal(self, root):
                 if node.left is not None:
                     stack.append(node.left)
         return res
-```
+# ```

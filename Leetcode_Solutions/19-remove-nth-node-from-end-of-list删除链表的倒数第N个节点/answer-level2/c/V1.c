@@ -1,6 +1,6 @@
-### 解题思路
-会造成内存泄漏，可以添加内存回收语句
-```
+// ### 解题思路
+// 会造成内存泄漏，可以添加内存回收语句
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -24,11 +24,11 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     p->next=p->next->next;
     return head;
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -52,4 +52,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     p->next=p->next->next;
     return head;
 }
-```
+// ```

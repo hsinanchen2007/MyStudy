@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针的应用,通过挺慢指针,快指针比慢指针多走一步,快指针到链表尾部的时候,慢指针刚好到中间.
+# ### 解题思路
+# 快慢指针的应用,通过挺慢指针,快指针比慢指针多走一步,快指针到链表尾部的时候,慢指针刚好到中间.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
             else:
                 break
         return p
-```
+# ```

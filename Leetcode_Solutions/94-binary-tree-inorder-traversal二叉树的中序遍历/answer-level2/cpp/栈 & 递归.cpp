@@ -1,5 +1,5 @@
-//采用递归的方法
-```
+// //采用递归的方法
+// ```
 class Solution {
 public:
         vector<int>res;//首先在递归函数外边创建一个全局的vector，用于下边答案的记录。
@@ -13,10 +13,10 @@ public:
             return res;
         }
 };
-```
+// ```
 
-//用栈的方法
-```
+// //用栈的方法
+// ```
 class Solution {
 public:
     vector<int>res;
@@ -37,13 +37,13 @@ public:
         return res;
     }
 };
-```
+// ```
 
 
 
 
-//使用vector，正如前面多次表达，vector模拟stack，比直接使用stack有常数级的时间优化
-```
+// //使用vector，正如前面多次表达，vector模拟stack，比直接使用stack有常数级的时间优化
+// ```
 class Solution {
 public:
     vector<int>res;
@@ -64,5 +64,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

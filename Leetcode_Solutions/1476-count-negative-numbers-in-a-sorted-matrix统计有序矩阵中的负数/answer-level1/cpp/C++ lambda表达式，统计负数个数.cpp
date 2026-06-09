@@ -1,5 +1,5 @@
-C++ lambda表达式，统计负数个数。
-```
+// C++ lambda表达式，统计负数个数。
+// ```
 class Solution {
 public:
     int countNegatives(vector<vector<int>>& grid) {
@@ -12,5 +12,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/370731c5d9f6b92f900b281222f1cbdf8969b210604f7e1c11896310165ff933-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/370731c5d9f6b92f900b281222f1cbdf8969b210604f7e1c11896310165ff933-image.png)

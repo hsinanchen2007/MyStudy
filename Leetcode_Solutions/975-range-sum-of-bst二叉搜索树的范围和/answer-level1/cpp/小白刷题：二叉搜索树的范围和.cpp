@@ -1,7 +1,7 @@
-DST递归即可
+// DST递归即可
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int rangeSumBST(TreeNode* root, int L, int R) {
@@ -15,4 +15,4 @@ public:
         }
     }
 };
-```
+// ```

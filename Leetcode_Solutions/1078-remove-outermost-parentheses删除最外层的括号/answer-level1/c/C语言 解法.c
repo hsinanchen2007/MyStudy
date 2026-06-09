@@ -1,8 +1,8 @@
-上次flag是0，这次是1       
-上次flag是1，这次是0          
+// 上次flag是0，这次是1       
+// 上次flag是1，这次是0          
 
-统统不要
-```c
+// 统统不要
+// ```c
 char* removeOuterParentheses(char* S)
 {
     int   flag   = 0;
@@ -31,4 +31,4 @@ char* removeOuterParentheses(char* S)
     }
     return n;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
 
-## 法一  ： 利用动态计算累加值，利用缓存求解
-### 代码
+# ## 法一  ： 利用动态计算累加值，利用缓存求解
+# ### 代码
 
-```python
+# ```python
 class NumArray(object):
 
     def __init__(self, nums):
@@ -34,16 +34,16 @@ class NumArray(object):
         return self.sums[j+1]-self.sums[i]
         
         
-```
+# ```
 
-## 法二、  利用sum()内置方法，和slice求解。但是因为本题目增加了要求：
-    你可以假设数组不可变。
-    会多次调用 sumRange 方法。
+# ## 法二、  利用sum()内置方法，和slice求解。但是因为本题目增加了要求：
+#     你可以假设数组不可变。
+#     会多次调用 sumRange 方法。
 
-因此 如果调用太多次次，那么每次调用都会调用sum()方法，使得性能降低!!!
+# 因此 如果调用太多次次，那么每次调用都会调用sum()方法，使得性能降低!!!
 
-不过这里还是码一下吧：
-```python
+# 不过这里还是码一下吧：
+# ```python
 class NumArray(object):
 
     def __init__(self, nums):
@@ -61,5 +61,5 @@ class NumArray(object):
         """
         return sum(self.nums[i:j+1])
         
-```
+# ```
 

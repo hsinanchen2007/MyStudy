@@ -1,10 +1,10 @@
-### 解题思路
-![捕获.PNG](https://pic.leetcode-cn.com/910a2316e5f73b4b86f245007650531f78eb2a61ada90394e125e075f9fa341e-%E6%8D%95%E8%8E%B7.PNG)
-首先解决坐标数位之和小于k的问题，然后采用广度优先遍历算法逐个遍历，注意记录各个坐标位置是否已访问，否则可能会陷入无限循环。
+// ### 解题思路
+// ![捕获.PNG](https://pic.leetcode-cn.com/910a2316e5f73b4b86f245007650531f78eb2a61ada90394e125e075f9fa341e-%E6%8D%95%E8%8E%B7.PNG)
+// 首先解决坐标数位之和小于k的问题，然后采用广度优先遍历算法逐个遍历，注意记录各个坐标位置是否已访问，否则可能会陷入无限循环。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int digitSum(int n)
@@ -52,4 +52,4 @@ public:
         return range;
     }
 };
-```
+// ```

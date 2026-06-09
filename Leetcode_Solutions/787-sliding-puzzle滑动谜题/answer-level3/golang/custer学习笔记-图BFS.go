@@ -1,4 +1,4 @@
-```go []
+// ```go []
 func slidingPuzzle(board [][]int) int {
 	queue := make([]string, 0)           // 队列中存储的元素是每一次board的状态
 	visited := make(map[string]int)      // 记录达到当前顶点所处的状态对应走了多少步
@@ -83,8 +83,8 @@ func stringToBoard(s string) [][]int {
 	}
 	return board
 }
-```
-```java []
+// ```
+// ```java []
 import java.util.ArrayList;
 import java.util.Queue;
 import java.util.LinkedList;
@@ -174,6 +174,6 @@ public class Solution {
         System.out.println((new Solution()).slidingPuzzle(board));
     }
 }
-```
+// ```
 
 

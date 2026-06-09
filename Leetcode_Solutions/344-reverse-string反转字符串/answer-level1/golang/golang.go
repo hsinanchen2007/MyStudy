@@ -1,4 +1,4 @@
-```
+// ```
 func reverseString(s []byte) {
 	for i := range s {
 		if i >= len(s)/2 {
@@ -10,4 +10,4 @@ func reverseString(s []byte) {
 
 	}
 }
-```
+// ```

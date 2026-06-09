@@ -1,9 +1,9 @@
-### 解题思路
-用两个栈来实现,一个用来入队列,一个用来出队列和返回队列首部元素,当两个栈都空的时候,该队列为空
+// ### 解题思路
+// 用两个栈来实现,一个用来入队列,一个用来出队列和返回队列首部元素,当两个栈都空的时候,该队列为空
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyQueue {
     private Stack<Integer> a;
     private Stack<Integer> b;
@@ -53,4 +53,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

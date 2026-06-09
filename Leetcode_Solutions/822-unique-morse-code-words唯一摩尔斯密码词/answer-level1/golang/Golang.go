@@ -1,4 +1,4 @@
-```
+// ```
 func uniqueMorseRepresentations(words []string) int {
     morseStr := []string{".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."}
 	morseMap := map[string]int{}
@@ -11,4 +11,4 @@ func uniqueMorseRepresentations(words []string) int {
 	}
 	return len(morseMap)
 }
-```
+// ```

@@ -1,9 +1,9 @@
-思路：
-1. 遍历secret，找公牛（同位相等），并把可能的母牛出现次数全都记录到map中
-2. 遍历guess，只找母牛（同位不等且map中有次数），每找到一只对应map减1  
-3. 打印成字符串
+// 思路：
+// 1. 遍历secret，找公牛（同位相等），并把可能的母牛出现次数全都记录到map中
+// 2. 遍历guess，只找母牛（同位不等且map中有次数），每找到一只对应map减1  
+// 3. 打印成字符串
 
-```C
+// ```C
 char * getHint(char * secret, char * guess){
     int A = 0, B = 0, map[10] = {0};
     for (int i=0; secret[i]; i++)  
@@ -18,4 +18,4 @@ char * getHint(char * secret, char * guess){
     sprintf(res, "%dA%dB", A, B);
     return res;
 }
-```
+// ```

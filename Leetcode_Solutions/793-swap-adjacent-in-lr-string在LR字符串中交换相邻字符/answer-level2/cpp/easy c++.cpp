@@ -1,10 +1,10 @@
-### 解题思路
-1.R与L的相对位置保持一致
-2.R只能右移L只能左移
+// ### 解题思路
+// 1.R与L的相对位置保持一致
+// 2.R只能右移L只能左移
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canTransform(string start, string end) {
@@ -29,4 +29,4 @@ public:
         return true;
     }
 };
-```
+// ```

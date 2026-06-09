@@ -1,9 +1,9 @@
-### 解题思路
-核心思想在于K个和的计算，没必要每次全加一遍，只需关注进来的和出去的差。
+// ### 解题思路
+// 核心思想在于K个和的计算，没必要每次全加一遍，只需关注进来的和出去的差。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
         long sum = 0;
@@ -25,4 +25,4 @@ class Solution {
         return (double) maxSum / k;
     }
 }
-```
+// ```

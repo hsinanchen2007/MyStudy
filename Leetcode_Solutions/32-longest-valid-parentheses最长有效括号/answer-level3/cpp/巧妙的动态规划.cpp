@@ -1,13 +1,13 @@
-### 解题思路
-思路如下图：
-![捕获.PNG](https://pic.leetcode-cn.com/455a86bf87800938b6dcfecab039e106916df1f9dcdd302ff45d5a2ddedf09dd-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 思路如下图：
+// ![捕获.PNG](https://pic.leetcode-cn.com/455a86bf87800938b6dcfecab039e106916df1f9dcdd302ff45d5a2ddedf09dd-%E6%8D%95%E8%8E%B7.PNG)
 
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int longestValidParentheses(string s) {
@@ -38,4 +38,4 @@ public:
         return max;
 	}
 };
-```
+// ```

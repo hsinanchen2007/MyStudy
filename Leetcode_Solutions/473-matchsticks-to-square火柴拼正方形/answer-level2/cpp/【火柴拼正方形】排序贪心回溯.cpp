@@ -1,13 +1,13 @@
-### 执行时间
-![图片.png](https://pic.leetcode-cn.com/b3f32e06784998e4152de8067fd57b62485811cb249c26b856dfad63d212a856-%E5%9B%BE%E7%89%87.png)
+// ### 执行时间
+// ![图片.png](https://pic.leetcode-cn.com/b3f32e06784998e4152de8067fd57b62485811cb249c26b856dfad63d212a856-%E5%9B%BE%E7%89%87.png)
 
-### 思路
-1. 排序
-2. 算和，除以 4 算每条边的长度
-3. 从后往前回溯 4 次
+// ### 思路
+// 1. 排序
+// 2. 算和，除以 4 算每条边的长度
+// 3. 从后往前回溯 4 次
 
-### 答题
-```C++ []
+// ### 答题
+// ```C++ []
 bool dfs(vector<int>& nums, vector<bool>& vi, int idx, int sum)
 {
     if (sum == 0) return true;
@@ -40,13 +40,13 @@ bool makesquare(vector<int>& nums)
     }
     return true;
 }
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

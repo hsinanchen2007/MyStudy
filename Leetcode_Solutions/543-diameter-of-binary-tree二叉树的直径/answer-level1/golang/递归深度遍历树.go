@@ -1,9 +1,9 @@
-### 解题思路
-递归，
+// ### 解题思路
+// 递归，
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -34,4 +34,4 @@ func GetHeight(root *TreeNode) int{
 		return right+1
 	}
 }
-```
+// ```

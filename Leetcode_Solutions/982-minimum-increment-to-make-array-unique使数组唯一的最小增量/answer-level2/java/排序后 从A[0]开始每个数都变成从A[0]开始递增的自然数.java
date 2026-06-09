@@ -1,4 +1,4 @@
-```
+// ```
     public int minIncrementForUnique(int[] A) {
         if (A.length==0)
             return 0;
@@ -20,4 +20,4 @@
         }
         return count;
     }
-```
+// ```

@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	TreeNode* invertTree(TreeNode* root)
@@ -17,4 +17,4 @@ public:
 		return root;
 	}
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-建立管理者-员工表, dfs求解
+// ### 解题思路
+// 建立管理者-员工表, dfs求解
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
         if(n <= 0)
@@ -31,8 +31,8 @@ class Solution {
             dfs(id, info+informTime[id], informTime);
         }
     }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:
         if n <= 0:
@@ -51,8 +51,8 @@ class Solution:
         for id in self.G[index]:
             self.res = max(self.res, info)
             self.dfs(id, info+informTime[id], informTime)
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
@@ -80,4 +80,4 @@ private:
     vector<int> G[100005];
     int res;
 };
-```
+// ```

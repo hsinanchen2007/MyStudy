@@ -1,9 +1,9 @@
-### 解题思路
-数组存储，注意**用long接收结果**，否则用int的话会越界。
+// ### 解题思路
+// 数组存储，注意**用long接收结果**，否则用int的话会越界。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
     int res[32];
     int i=0;
@@ -24,4 +24,4 @@ bool isPalindrome(int x){
 
 
 
-```
+// ```

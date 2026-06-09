@@ -1,5 +1,5 @@
-利用赛跑法，快的总能套圈慢的
-``` Python
+# 利用赛跑法，快的总能套圈慢的
+# ``` Python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution(object):
             else:
                 return False
         return False
-```
+# ```

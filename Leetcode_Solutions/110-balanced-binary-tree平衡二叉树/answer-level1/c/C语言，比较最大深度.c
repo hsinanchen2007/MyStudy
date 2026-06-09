@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ right=TreeNodeDepth(root->right);
 return (Convert(left,right)<=1)&&(isBalanced(root->left))&&(isBalanced(root->right));
 
 }
-```
+// ```

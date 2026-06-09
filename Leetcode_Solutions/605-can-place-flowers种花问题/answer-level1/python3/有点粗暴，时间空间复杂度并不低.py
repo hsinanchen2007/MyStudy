@@ -1,5 +1,5 @@
-两端各补两个位置[1,0]和[0,1]，计算所有连续零个数减一再整除二的结果之和，与N作比较
-```
+# 两端各补两个位置[1,0]和[0,1]，计算所有连续零个数减一再整除二的结果之和，与N作比较
+# ```
 class Solution:
 
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
@@ -16,4 +16,4 @@ class Solution:
                 break
         return False
 
-```
+# ```

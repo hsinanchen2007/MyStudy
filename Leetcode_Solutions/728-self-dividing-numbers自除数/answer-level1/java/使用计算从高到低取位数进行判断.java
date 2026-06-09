@@ -1,4 +1,4 @@
-```
+// ```
 public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> nums = new LinkedList<>();
         for(;left<=right;left++){
@@ -14,4 +14,4 @@ public List<Integer> selfDividingNumbers(int left, int right) {
         }
         return nums;
     }
-```
+// ```

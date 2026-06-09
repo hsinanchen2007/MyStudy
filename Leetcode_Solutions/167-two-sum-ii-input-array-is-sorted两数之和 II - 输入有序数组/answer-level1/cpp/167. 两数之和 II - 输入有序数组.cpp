@@ -1,5 +1,5 @@
-感觉挺简单的，应该不用多解释，打败95%+，我也不知道为啥……
-```
+// 感觉挺简单的，应该不用多解释，打败95%+，我也不知道为啥……
+// ```
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
@@ -21,4 +21,4 @@ public:
         return vector<int>(0);
     }
 };
-```
+// ```

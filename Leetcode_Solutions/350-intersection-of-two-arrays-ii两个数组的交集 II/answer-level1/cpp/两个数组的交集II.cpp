@@ -1,4 +1,4 @@
-// 思路：遍历数组1，以数组元素为键，map++；遍历数组2，发现map中有当前元素且个数>0，则存入结果数组，同时map--。
+// // 思路：遍历数组1，以数组元素为键，map++；遍历数组2，发现map中有当前元素且个数>0，则存入结果数组，同时map--。
 
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
         vector<int> res;

@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/65e4d6d2dde154bcb6c53f080b2d993493189561724e63a7a4fd83a233b893e5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/65e4d6d2dde154bcb6c53f080b2d993493189561724e63a7a4fd83a233b893e5-image.png)
 
 
-### 解题思路
-比较好理解，一次遍历，比较当前和前一个是否相等，不相等时对比下标是否超过3，注意最后一个的边界问题
+// ### 解题思路
+// 比较好理解，一次遍历，比较当前和前一个是否相等，不相等时对比下标是否超过3，注意最后一个的边界问题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> largeGroupPositions(String S) {
         List<List<Integer>> result = new ArrayList<>();
@@ -27,4 +27,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-计算子树元素和，应该自底向上，故考虑后序遍历，遍历过程中存取每个节点为根节点的子树元素和
-```cpp
+// 计算子树元素和，应该自底向上，故考虑后序遍历，遍历过程中存取每个节点为根节点的子树元素和
+// ```cpp
 int dfs(unordered_map<int, int>& M, TreeNode* root) {
   if (!root) return 0;
   int left = dfs(M, root->left);
@@ -19,4 +19,4 @@ vector<int> findFrequentTreeSum(TreeNode* root) {
     if (item.second == maxTime) res.push_back(item.first);
   return res;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-使用中序遍历就能使二叉排序树从小到大进行排序,然后取出第K个数
-```java []
+// 使用中序遍历就能使二叉排序树从小到大进行排序,然后取出第K个数
+// ```java []
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
         List<TreeNode> list  = new ArrayList<TreeNode>();

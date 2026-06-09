@@ -1,9 +1,9 @@
-### 解题思路
-切断链表操作，定位到末尾
+// ### 解题思路
+// 切断链表操作，定位到末尾
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ public:
 
     }
 };
-```
+// ```

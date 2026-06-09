@@ -1,4 +1,4 @@
-```
+// ```
 var buildTree = function(inorder, postorder) {
     function dfs(preorder, inorder) {
         if(!preorder.length || !inorder.length) return null;
@@ -12,4 +12,4 @@ var buildTree = function(inorder, postorder) {
     }
     return dfs(postorder.reverse(), inorder);
 };
-```
+// ```

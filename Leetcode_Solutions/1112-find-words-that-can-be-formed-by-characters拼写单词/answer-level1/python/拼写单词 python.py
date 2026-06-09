@@ -1,11 +1,11 @@
-### 解题思路
-word 长度大于chars 不累加
-根据chars构建词典
-word中包含的字符，加入到新的词典中，每次有字符， 计数减一，减为负数则跳到下一个word
+# ### 解题思路
+# word 长度大于chars 不累加
+# 根据chars构建词典
+# word中包含的字符，加入到新的词典中，每次有字符， 计数减一，减为负数则跳到下一个word
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countCharacters(self, words, chars):
         """
@@ -39,4 +39,4 @@ class Solution(object):
         return count
                     
 
-```
+# ```

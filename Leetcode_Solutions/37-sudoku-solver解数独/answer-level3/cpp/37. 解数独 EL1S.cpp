@@ -1,7 +1,7 @@
-dfs是把一堆东西塞到某一个地方，塞的时候要注意约束条件
-这道题就是把1-9的数字塞进数独表格里面
-约束条件是：一行1-9出现一次，一列1-9出现一次，一个3*3格子1-9出现一次
-```
+// dfs是把一堆东西塞到某一个地方，塞的时候要注意约束条件
+// 这道题就是把1-9的数字塞进数独表格里面
+// 约束条件是：一行1-9出现一次，一列1-9出现一次，一个3*3格子1-9出现一次
+// ```
 class Solution {
     bool dfs(int rowidx, int colidx, vector<vector<char>>& board, vector<vector<bool>> rows, vector<vector<bool>> cols, vector<vector<bool>> grid)
     {
@@ -63,6 +63,6 @@ public:
         dfs(0, 0, board, rows, cols, grid);
     }
 };
-```
-可以通过优化状态存储来节省空间：
+// ```
+// 可以通过优化状态存储来节省空间：
 

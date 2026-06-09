@@ -1,4 +1,4 @@
-```
+// ```
 func breakPalindrome(palindrome string) string {
 	var (
 		i      int
@@ -19,4 +19,4 @@ func breakPalindrome(palindrome string) string {
 
 	return palindrome[:length-1] + "b"
 }
-```
+// ```

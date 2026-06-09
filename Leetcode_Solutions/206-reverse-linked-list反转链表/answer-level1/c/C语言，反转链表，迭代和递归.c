@@ -1,9 +1,9 @@
 
-##### 方法一：迭代
+// ##### 方法一：迭代
 
-更容易理解，效率更高
+// 更容易理解，效率更高
 
-```C
+// ```C
 struct ListNode* reverseList(struct ListNode* head){
     struct ListNode *res = NULL, *cur = head;
     while (cur){            //cur代表本次循环要处理的节点，此时head已提取至cur中
@@ -14,10 +14,10 @@ struct ListNode* reverseList(struct ListNode* head){
     }
     return res;
 }
-```
-##### 方法二：递归
+// ```
+// ##### 方法二：递归
 
-```C
+// ```C
 struct ListNode* reverseList(struct ListNode* head){
     //当只有一个节点，它的反转就是本身
     if(!head || !head->next)  return head;
@@ -28,4 +28,4 @@ struct ListNode* reverseList(struct ListNode* head){
     head->next = NULL;
     return res;
 }
-```
+// ```

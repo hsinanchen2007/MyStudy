@@ -1,9 +1,9 @@
-通过分析dp数组当前值只与前三个值有关
-那么我们dp数组就存三个值
-每次用当前index于3取模即可
-不过为啥空间复杂度才击败5%？？？
+// 通过分析dp数组当前值只与前三个值有关
+// 那么我们dp数组就存三个值
+// 每次用当前index于3取模即可
+// 不过为啥空间复杂度才击败5%？？？
 
-```
+// ```
 class Solution {
     public int rob(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -30,4 +30,4 @@ class Solution {
         return dp[(nums.length - 1) % 3];
     }
 }
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-数据结构：Hashmap，int数组 tmp
-辅助函数：helper(int nums) 计算从1到nums的和。
+// ### 解题思路
+// 数据结构：Hashmap，int数组 tmp
+// 辅助函数：helper(int nums) 计算从1到nums的和。
 
-思路：将A中每个元素加入到int数组中（不加重复元素），HashMap记录每个元素的个数。然后sort int数组。
-遍历数组tmp（除了最后一个元素），int nums = map.get.(tmp[i])-1是下表为i元素多余重复次数，计算capacity = A[i+1]-A[i]-1。
-（1）capacity >= nums，则 res += helper（nums）。
-（2）capacity <  nums，res += helper(capacity)+(capacity+1)*(nums-capacity),map.put(tmp[i+1],(nums-capacity)+map.get(tmp[i+1]));
-return res 加上helper(tmp中最后一个元素在map中的值-1);
-### 代码
+// 思路：将A中每个元素加入到int数组中（不加重复元素），HashMap记录每个元素的个数。然后sort int数组。
+// 遍历数组tmp（除了最后一个元素），int nums = map.get.(tmp[i])-1是下表为i元素多余重复次数，计算capacity = A[i+1]-A[i]-1。
+// （1）capacity >= nums，则 res += helper（nums）。
+// （2）capacity <  nums，res += helper(capacity)+(capacity+1)*(nums-capacity),map.put(tmp[i+1],(nums-capacity)+map.get(tmp[i+1]));
+// return res 加上helper(tmp中最后一个元素在map中的值-1);
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
         if(A.length == 0)
@@ -50,4 +50,4 @@ class Solution {
         return (1+nums)*nums/2;
     }
 }
-```
+// ```

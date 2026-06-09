@@ -1,10 +1,10 @@
-### 解题思路
-动态规划构造转移方程
-用个矩阵来记录
+# ### 解题思路
+# 动态规划构造转移方程
+# 用个矩阵来记录
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         if text1 == text2:
@@ -38,4 +38,4 @@ class Solution:
                         dp[row][col] = max(dp[row - 1][col],dp[row][col - 1])
         # print(dp)
         return dp[-1][-1]
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-跨考小白第一次刷题，直接i，j遍历两遍数组，只要i，j下标不一样并且和等于target即可。
+// ### 解题思路
+// 跨考小白第一次刷题，直接i，j遍历两遍数组，只要i，j下标不一样并且和等于target即可。
 
-时间复杂度应该是O（n^2）,以后待优化……
+// 时间复杂度应该是O（n^2）,以后待优化……
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -21,4 +21,4 @@ public:
         return {};
     }
 };
-```
+// ```

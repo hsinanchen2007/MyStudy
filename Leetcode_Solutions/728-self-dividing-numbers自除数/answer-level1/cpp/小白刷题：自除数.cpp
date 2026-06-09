@@ -1,7 +1,7 @@
-循环遍历，按照定义判定，某一位为0或无法自除则break判定下一个数
+// 循环遍历，按照定义判定，某一位为0或无法自除则break判定下一个数
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     vector<int> selfDividingNumbers(int left, int right) {
@@ -25,4 +25,4 @@ public:
         return ans;
     }
 };
-```
+// ```

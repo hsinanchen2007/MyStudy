@@ -1,9 +1,9 @@
-### 解题思路
-遍历判断、数组移除
+// ### 解题思路
+// 遍历判断、数组移除
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -32,4 +32,4 @@ var removeElement = function(nums, val) {
 //     }
 //     return nums.length
 // };
-```
+// ```

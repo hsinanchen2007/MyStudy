@@ -1,10 +1,10 @@
-### 解题思路
-等差即 A[i-1]-A[i] == dis, 计算等差长度n，就知道等差子素组数为n*(n+1)/2;
-所以只需要找到有多少种差值，及每种等差的长度。
+// ### 解题思路
+// 等差即 A[i-1]-A[i] == dis, 计算等差长度n，就知道等差子素组数为n*(n+1)/2;
+// 所以只需要找到有多少种差值，及每种等差的长度。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number}
@@ -31,4 +31,4 @@ var numberOfArithmeticSlices = function(A) {
     count += dLength * (dLength + 1) / 2
     return count;
 };
-```
+// ```

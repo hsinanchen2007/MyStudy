@@ -1,9 +1,9 @@
-### 解题思路
-思路见代码注释
+// ### 解题思路
+// 思路见代码注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canPermutePalindrome(String s) {
         // 当字符串长度为奇数时，允许一个字符出现奇数次，否则不循序出现奇数次的字符
@@ -25,4 +25,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

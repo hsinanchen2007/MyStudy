@@ -1,4 +1,4 @@
-50000个结构体打印出来只有580多KB，但是运行结果总是显示60多MB开销，将malloc换成栈上的临时变量即可将内存跑分降下来。
+// 50000个结构体打印出来只有580多KB，但是运行结果总是显示60多MB开销，将malloc换成栈上的临时变量即可将内存跑分降下来。
 
 
 int findShortestSubArray(int* nums, int numsSize)

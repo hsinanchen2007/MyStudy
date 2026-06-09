@@ -1,11 +1,11 @@
-### 解题思路
-每次判断本节点是否删除，直到不删除的节点为止，则为头结点。
-迭代中保存父节点，若是头结点则要修改对应子节点指针。
-随便写的，参数太多，后面还可以优化。看有没有时间吧。
+// ### 解题思路
+// 每次判断本节点是否删除，直到不删除的节点为止，则为头结点。
+// 迭代中保存父节点，若是头结点则要修改对应子节点指针。
+// 随便写的，参数太多，后面还可以优化。看有没有时间吧。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -52,4 +52,4 @@ struct TreeNode** delNodes(struct TreeNode* root, int* to_delete, int to_deleteS
     *returnSize = num;
     return retArray;
 }
-```
+// ```

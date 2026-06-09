@@ -1,8 +1,8 @@
-### 解题思路
-复制粘贴。能有多难😂。js按照普通思维就内存炸了，只能通过一半测试用例
-### 代码
+// ### 解题思路
+// 复制粘贴。能有多难😂。js按照普通思维就内存炸了，只能通过一半测试用例
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {number}
@@ -17,4 +17,4 @@ var uniqueLetterString = function(S) {
 		return sum%1000000007;
 };
 
-```
+// ```

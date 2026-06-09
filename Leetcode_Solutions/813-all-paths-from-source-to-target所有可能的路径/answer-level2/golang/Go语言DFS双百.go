@@ -1,5 +1,5 @@
-Go的实现
-```golang
+// Go的实现
+// ```golang
 func allPathsSourceTarget(graph [][]int) [][]int {
 	var res [][]int
 	path:=[]int{0}
@@ -24,4 +24,4 @@ func dfs797(graph [][]int,path *[]int,res *[][]int){
 		*path=(*path)[:len(*path)-1]
 	}
 }
-```
+// ```

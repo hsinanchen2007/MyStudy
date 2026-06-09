@@ -1,9 +1,9 @@
-### 解题思路
-才开始做不对，居然一直是因为忘了root->left=NULL 气死了
+// ### 解题思路
+// 才开始做不对，居然一直是因为忘了root->left=NULL 气死了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -29,4 +29,4 @@ void flatten(struct TreeNode* root){
         root->left=NULL;
     }
 }
-```
+// ```

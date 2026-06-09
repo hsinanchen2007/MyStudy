@@ -1,9 +1,9 @@
-### 解题思路
-每次从中间扩展，需要区分偶数长度和奇数长度的情形。
+// ### 解题思路
+// 每次从中间扩展，需要区分偶数长度和奇数长度的情形。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* 统计回文串数目 */
 void helper(char *s, int i, int j, int *res) {
     while (i >= 0 && j < strlen(s) && s[i] == s[j]) {
@@ -28,4 +28,4 @@ int countSubstrings(char * s){
     }
     return res;
 }
-```
+// ```

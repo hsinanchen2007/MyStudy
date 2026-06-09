@@ -1,4 +1,4 @@
-```
+# ```
 S = list(S)
         for i in range(0, len(indexes)):
             h = len(sources[i])
@@ -8,4 +8,4 @@ S = list(S)
                     for j in range(indexes[i]+1, indexes[i]+h):
                         S[j] = ''
         return ''.join(S)
-```
+# ```

@@ -1,16 +1,16 @@
-### 解题思路
-inorderRootIndex 是中序遍历树根节点的位置
- 同时这个索引也是左子树得长度
-所以 1->inorderRootIndex+1 就是先序遍历左子树得长度
-递归参数是先序左子树和中序左子树
-    rootNode.Left = buildTree(preorder[1:inorderRootIndex+1], inorder[:inorderRootIndex])
-递归参数是先序右子树和中序右子树
-    rootNode.Right = buildTree(preorder[inorderRootIndex+1:], inorder[inorderRootIndex+1:])
+// ### 解题思路
+// inorderRootIndex 是中序遍历树根节点的位置
+//  同时这个索引也是左子树得长度
+// 所以 1->inorderRootIndex+1 就是先序遍历左子树得长度
+// 递归参数是先序左子树和中序左子树
+//     rootNode.Left = buildTree(preorder[1:inorderRootIndex+1], inorder[:inorderRootIndex])
+// 递归参数是先序右子树和中序右子树
+//     rootNode.Right = buildTree(preorder[inorderRootIndex+1:], inorder[inorderRootIndex+1:])
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -48,4 +48,4 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
 
 
 }
-```
+// ```

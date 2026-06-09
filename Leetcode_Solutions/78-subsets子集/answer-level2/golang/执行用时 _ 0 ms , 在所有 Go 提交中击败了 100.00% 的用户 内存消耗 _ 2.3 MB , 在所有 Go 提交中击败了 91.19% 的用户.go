@@ -1,5 +1,5 @@
-递归加回溯，个人觉得就全排列那种类型的吧，代码如下：
-```
+// 递归加回溯，个人觉得就全排列那种类型的吧，代码如下：
+// ```
 func subsets(nums []int) [][]int {
 	var res [][]int
 	if len(nums)==0 {
@@ -24,4 +24,4 @@ func getSubsets(res *[][]int,nums []int,temp *[]int,n int){
 	getSubsets(res,nums,temp,n+1)
 }
 
-```
+// ```

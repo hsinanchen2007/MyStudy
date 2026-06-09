@@ -1,10 +1,10 @@
-### 解题思路
-1. 分别转置前后子串
-2. 转置整个字符串
+// ### 解题思路
+// 1. 分别转置前后子串
+// 2. 转置整个字符串
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //转置字符串，num为字符串长度
 void reverseString(char* s, int num) {
     char temp;
@@ -27,4 +27,4 @@ char* reverseLeftWords(char* s, int n){
     reverseString(s, count);
     return s;
 }
-```
+// ```

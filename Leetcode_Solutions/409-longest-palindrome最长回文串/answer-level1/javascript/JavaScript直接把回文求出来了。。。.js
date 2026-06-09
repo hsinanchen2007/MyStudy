@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-直接把回文求出来了，显然是比较差的一种算法
-下面注释的是大神的大牌大法，抽到一对就打出去
+// 直接把回文求出来了，显然是比较差的一种算法
+// 下面注释的是大神的大牌大法，抽到一对就打出去
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -53,4 +53,4 @@ var longestPalindrome = function(s) {
 //     sum = temp.size > 0 ? sum + 1 : sum
 //     return sum
 // };
-```
+// ```

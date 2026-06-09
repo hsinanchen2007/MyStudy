@@ -1,9 +1,9 @@
-### 解题思路
-要注意重复数字的编号
+// ### 解题思路
+// 要注意重复数字的编号
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] arrayRankTransform(int[] arr) {
         int[] temp = new int[arr.length];
@@ -26,4 +26,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

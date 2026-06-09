@@ -1,9 +1,9 @@
-### 解题思路
-    效率比本人前一题解邻接矩阵高不少。
-    开始对这题很困惑，[0,1],[2,1],[1,2]的这种组合不行，先学0这样就能学1，就可以完成2。所以开始考虑的很复杂，想通过深搜 + 出度 + 入度剪枝，这题单纯只考察有向图判断环就比较简单了。
-### 代码
+// ### 解题思路
+//     效率比本人前一题解邻接矩阵高不少。
+//     开始对这题很困惑，[0,1],[2,1],[1,2]的这种组合不行，先学0这样就能学1，就可以完成2。所以开始考虑的很复杂，想通过深搜 + 出度 + 入度剪枝，这题单纯只考察有向图判断环就比较简单了。
+// ### 代码
 
-```c
+// ```c
 typedef struct head {
     int node;
     struct list* next;
@@ -92,4 +92,4 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     Free(numCourses, adjacency, color);
     return true;
 }
-```
+// ```

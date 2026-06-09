@@ -1,4 +1,4 @@
-```java
+// ```java
 public static int strStr(String haystack, String needle) {
         int pos = -1;
         if (needle.equals("")) {
@@ -23,4 +23,4 @@ public static int strStr(String haystack, String needle) {
         }
         return pos;
     }
-```
+// ```

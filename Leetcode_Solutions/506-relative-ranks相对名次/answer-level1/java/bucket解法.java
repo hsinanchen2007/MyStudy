@@ -1,9 +1,9 @@
-### 解题思路
-放入桶中即可
+// ### 解题思路
+// 放入桶中即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] findRelativeRanks(int[] nums) {
         int[] hash=new int[144444];
@@ -32,4 +32,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

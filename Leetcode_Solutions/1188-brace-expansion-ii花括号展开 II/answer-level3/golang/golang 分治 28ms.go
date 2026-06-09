@@ -1,6 +1,6 @@
-核心思想： 分治，先计算最内层的括号，再计算外层的
-写的比较乱，直接看注释
-```
+// 核心思想： 分治，先计算最内层的括号，再计算外层的
+// 写的比较乱，直接看注释
+// ```
 func braceExpansionII(expression string) []string {
     all, next := [][]string{}, []string{} // all：并集， next：平行数据
 	// 判断是否有{,如果没有，说明没有需要合并的，直接split并返回
@@ -71,4 +71,4 @@ func braceExpansionII(expression string) []string {
 	return ret
 }
 
-```
+// ```

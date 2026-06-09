@@ -1,10 +1,10 @@
-### 解题思路
-暴力解法
-![image.png](https://pic.leetcode-cn.com/d7b8caba96a0c6276b79ed6b490850b35b1c278ab339c50174bfd95fb1cbe2da-image.png)
+// ### 解题思路
+// 暴力解法
+// ![image.png](https://pic.leetcode-cn.com/d7b8caba96a0c6276b79ed6b490850b35b1c278ab339c50174bfd95fb1cbe2da-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int subarraySum(int* nums, int numsSize, int k){
     if (nums == NULL || numsSize < 1) return 0;
 
@@ -56,4 +56,4 @@ int subarraySum(int* nums, int numsSize, int k){
 0
 
 */
-```
+// ```

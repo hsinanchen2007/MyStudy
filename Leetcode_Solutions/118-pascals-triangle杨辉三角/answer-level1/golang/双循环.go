@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/5dbc7b10d1081227d088764c7143b1fd2b1e7dceba297414f8adef8f298dc461-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5dbc7b10d1081227d088764c7143b1fd2b1e7dceba297414f8adef8f298dc461-image.png)
 
-```
+// ```
 func generate(numRows int) [][]int {
 	if numRows == 0 {
 		return [][]int{}
@@ -25,5 +25,5 @@ func generate(numRows int) [][]int {
 	}
 	return ret
 }
-```
+// ```
 

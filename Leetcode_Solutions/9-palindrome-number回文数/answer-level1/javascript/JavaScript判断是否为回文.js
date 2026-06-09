@@ -1,9 +1,9 @@
-### 解题思路
-关键：循环次数最大值为Math.floor(x.length/2), 而如果不一致，则判断非回文
+// ### 解题思路
+// 关键：循环次数最大值为Math.floor(x.length/2), 而如果不一致，则判断非回文
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {boolean}
@@ -22,4 +22,4 @@ var isPalindrome = function(x) {
     }
     return flag
 };
-```
+// ```

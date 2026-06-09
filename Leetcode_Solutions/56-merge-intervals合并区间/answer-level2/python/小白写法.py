@@ -1,9 +1,9 @@
-### 解题思路
-先sort排序，依次遍历合并区间，把合并过的移出列表，需要移出时，n要-1，以便temp1,temp2指向相合并的第二个列表
+# ### 解题思路
+# 先sort排序，依次遍历合并区间，把合并过的移出列表，需要移出时，n要-1，以便temp1,temp2指向相合并的第二个列表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         intervals.sort()
@@ -22,4 +22,4 @@ class Solution:
             return intervals
         else:
             return []
-```
+# ```

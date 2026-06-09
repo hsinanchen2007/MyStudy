@@ -1,4 +1,4 @@
-```
+// ```
 struct Node {
     int val;
     struct Node* next;
@@ -54,4 +54,4 @@ char * getPermutation(int n, int k){
     free(head);
     return res;
 }
-```
+// ```

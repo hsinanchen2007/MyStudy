@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
         from collections import Counter
@@ -19,4 +19,4 @@ class Solution:
             if word[0] not in banned:
                 return word[0]
         return ''
-```
+# ```

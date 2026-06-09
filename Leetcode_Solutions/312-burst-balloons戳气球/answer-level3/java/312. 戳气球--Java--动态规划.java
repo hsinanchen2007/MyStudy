@@ -1,6 +1,6 @@
-[Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_312_maxCoins.java)
+// [Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_312_maxCoins.java)
 
-```java
+// ```java
     /**
      * 解题思路：如何使最终结果最大化？动态规划保存结果
      * 1.将问题拆解成求i->j的最大值，最大的i=0,j=n
@@ -33,4 +33,4 @@
         }
         return dp[0][newNums.length - 1];
     }
-```
+// ```

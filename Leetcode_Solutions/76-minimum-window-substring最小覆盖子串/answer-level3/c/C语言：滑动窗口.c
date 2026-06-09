@@ -1,4 +1,4 @@
-```c
+// ```c
 void mySubstr(char* s, char* res, int start, int len){
     for (int i = 0; i < len; i++){
         res[i] = s[i + start];
@@ -40,4 +40,4 @@ char * minWindow(char * s, char * t){
     mySubstr(s, res, idx, mlen);
     return res;
 }
-```
+// ```

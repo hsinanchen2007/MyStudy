@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func removeKdigits(num string, k int) string {
 	l := len(num)
 	value := make([]int, l)
@@ -38,4 +38,4 @@ func removeKdigits(num string, k int) string {
 	return string(result)
 }
 
-```
+// ```

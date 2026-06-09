@@ -1,10 +1,10 @@
-### 解题思路
-注意点：
-最后的几个元素要删除！
+// ### 解题思路
+// 注意点：
+// 最后的几个元素要删除！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -33,4 +33,4 @@ public:
         return nums.size();
     }
 };
-```
+// ```

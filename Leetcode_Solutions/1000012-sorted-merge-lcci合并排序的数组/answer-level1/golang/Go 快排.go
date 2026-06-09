@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func merge(A []int, m int, B []int, n int)  {
     A = append(A[:m],B...)
     FastSort(A)
@@ -31,4 +31,4 @@ func FastSort(A []int){
     }
     
 }
-```
+// ```

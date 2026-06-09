@@ -1,4 +1,4 @@
-```C# []
+// ```C# []
         public string RemoveDuplicates(string S)
         {
             /*
@@ -31,4 +31,4 @@
 
             return new string(stackTemp.Reverse().ToArray());
         }
-```
+// ```

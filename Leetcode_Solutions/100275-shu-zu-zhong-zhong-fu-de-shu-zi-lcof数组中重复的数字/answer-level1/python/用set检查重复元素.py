@@ -1,9 +1,9 @@
-### 解题思路
-用set检查重复元素
+# ### 解题思路
+# 用set检查重复元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         ans = set()
@@ -13,4 +13,4 @@ class Solution:
             else:
                 ans.add(nums[i])
             
-```
+# ```

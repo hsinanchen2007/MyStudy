@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn add_binary(a: String, b: String) -> String {
         let (mut a, mut b) = (a.chars().rev().peekable(), b.chars().rev().peekable()); 
@@ -44,4 +44,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

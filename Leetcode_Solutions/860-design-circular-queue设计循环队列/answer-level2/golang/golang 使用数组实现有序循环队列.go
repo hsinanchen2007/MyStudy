@@ -1,4 +1,4 @@
-```
+// ```
 // 队空的判断条件是 head == tail,
 // 队满的判断条件，(tail+1)%n=head。
 // 当队列满时，tail 指向的位置实际上是没有存储数据的。所以，循环队列会浪费一个数组的存储空间。
@@ -71,4 +71,4 @@ func (this *MyCircularQueue) IsFull() bool {
 	}
 	return false
 }
-```
+// ```

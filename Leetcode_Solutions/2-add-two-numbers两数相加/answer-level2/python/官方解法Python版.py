@@ -1,6 +1,6 @@
-依照 java 版写的，测试通过，结构清晰易读。
+# 依照 java 版写的，测试通过，结构清晰易读。
 
-```python
+# ```python
 class Solution(object):
     def addTwoNumbers(self, l1, l2):
         """
@@ -35,4 +35,4 @@ class Solution(object):
             curr.next = ListNode(carry)
 
         return dummyHead.next
-```
+# ```

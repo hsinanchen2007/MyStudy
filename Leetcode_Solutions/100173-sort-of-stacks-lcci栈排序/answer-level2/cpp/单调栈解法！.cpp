@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class SortedStack {
 public:
 
@@ -47,4 +47,4 @@ private:
  * int param_3 = obj->peek();
  * bool param_4 = obj->isEmpty();
  */
-```
+// ```

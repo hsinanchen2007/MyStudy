@@ -1,12 +1,12 @@
-### 解题思路
-换着挺快，就是内存消耗有点大
+// ### 解题思路
+// 换着挺快，就是内存消耗有点大
 
-1、遍历链表，确定顺序
-2、m和n，之间的 前后的 val 互换
+// 1、遍历链表，确定顺序
+// 2、m和n，之间的 前后的 val 互换
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -32,4 +32,4 @@ func reverseBetween(head *ListNode, m int, n int) *ListNode {
 	
 	return hmap[0]
 }
-```
+// ```

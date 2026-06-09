@@ -1,9 +1,9 @@
-### 解题思路
-从头开始算和，和等于1/3sum的时候在原地开始算和....暴力
+# ### 解题思路
+# 从头开始算和，和等于1/3sum的时候在原地开始算和....暴力
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canThreePartsEqualSum(self, A):
         """
@@ -30,4 +30,4 @@ class Solution(object):
                         if part2 == part3:
                             return True
         return False
-```
+# ```

@@ -1,19 +1,19 @@
-### 解题思路
-解法1：递归
-执行用时 :44 ms, 在所有 Python3 提交中击败了46.88%的用户
-内存消耗 :13.6 MB, 在所有 Python3 提交中击败了5.04%的用户
+# ### 解题思路
+# 解法1：递归
+# 执行用时 :44 ms, 在所有 Python3 提交中击败了46.88%的用户
+# 内存消耗 :13.6 MB, 在所有 Python3 提交中击败了5.04%的用户
 
-思路：
-当l1.val<l2.val时，新的链表的val应该是l1.val，新的链表的next应该是l1剩下的链表与l2组成的链表
-l1剩下的链表与l2组成的链表仍然可以用mergeTwoLists这个函数来计算，因此形成了递归
-当l1.val<=l2.val时，同理
-当l1为空时，直接返回l2
-当l2为空时，同理
+# 思路：
+# 当l1.val<l2.val时，新的链表的val应该是l1.val，新的链表的next应该是l1剩下的链表与l2组成的链表
+# l1剩下的链表与l2组成的链表仍然可以用mergeTwoLists这个函数来计算，因此形成了递归
+# 当l1.val<=l2.val时，同理
+# 当l1为空时，直接返回l2
+# 当l2为空时，同理
 
-注释部分是官方解法，显然看起来更简洁
-### 代码
+# 注释部分是官方解法，显然看起来更简洁
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -38,31 +38,31 @@ class Solution:
             return l_new
             # l2.next = self.mergeTwoLists(l2.next, l1)
             # return l2
-```
+# ```
 
-### 解题思路
-解法2：指针
-执行用时 :40 ms, 在所有 Python3 提交中击败了68.64%的用户
-内存消耗 :13.6 MB, 在所有 Python3 提交中击败了5.04%的用户
+# ### 解题思路
+# 解法2：指针
+# 执行用时 :40 ms, 在所有 Python3 提交中击败了68.64%的用户
+# 内存消耗 :13.6 MB, 在所有 Python3 提交中击败了5.04%的用户
 
-思路：
-新创建一个链表，l_pre和p都指向这个链表
-然后p负责向后移动，不停添加p.next
-当l1.val<l2.val时，将l1添加进去，然后p和l1都向后移动
-当l1.val>=l2.val时，同理
-当l1为空时，直接将l2添加进去
-当l2为空时，同理
-当l1和l2同时为空时，跳出循环
+# 思路：
+# 新创建一个链表，l_pre和p都指向这个链表
+# 然后p负责向后移动，不停添加p.next
+# 当l1.val<l2.val时，将l1添加进去，然后p和l1都向后移动
+# 当l1.val>=l2.val时，同理
+# 当l1为空时，直接将l2添加进去
+# 当l2为空时，同理
+# 当l1和l2同时为空时，跳出循环
 
-官方写法更为简洁，将l1和l2有一个为空或全为空的情况，和l1和l2没有任何一个为空的情况分开
-这样一来循环的条件就是whle l1 and l2
-l1和l2有一个为空或全为空的情况是：prev.next = l1 if l1 is not None else l2
+# 官方写法更为简洁，将l1和l2有一个为空或全为空的情况，和l1和l2没有任何一个为空的情况分开
+# 这样一来循环的条件就是whle l1 and l2
+# l1和l2有一个为空或全为空的情况是：prev.next = l1 if l1 is not None else l2
 
-注意：
-Python下面编程其实是没有指针的，实际编程一般用引用来代替，比如像ListNode这样来定义一个类
-### 代码
+# 注意：
+# Python下面编程其实是没有指针的，实际编程一般用引用来代替，比如像ListNode这样来定义一个类
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -90,4 +90,4 @@ class Solution:
             p = p.next
             
         return l_pre.next
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-1. 先确定需返回结果的正负号
-2. 定义输出变量i = 1， 用divisor += divisor; i += i使divisor快速逼近dividend, 并记录下一共累加了多少次初始的divisor
-3. 当divisor>dividend后，使divisor和i都减半，然后用dividend与divisor的差值递归调用这个函数，并与将结果与i相加
-4. 最后判断结果有没有越界
-### 代码
+# ### 解题思路
+# 1. 先确定需返回结果的正负号
+# 2. 定义输出变量i = 1， 用divisor += divisor; i += i使divisor快速逼近dividend, 并记录下一共累加了多少次初始的divisor
+# 3. 当divisor>dividend后，使divisor和i都减半，然后用dividend与divisor的差值递归调用这个函数，并与将结果与i相加
+# 4. 最后判断结果有没有越界
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         flag = False
@@ -46,4 +46,4 @@ class Solution:
                 return 2147483647
             return i
         
-```
+# ```

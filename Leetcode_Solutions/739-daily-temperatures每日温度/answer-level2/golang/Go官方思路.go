@@ -1,9 +1,9 @@
-### 解题思路
-官方思路
+// ### 解题思路
+// 官方思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //O(n),O(T[i]可取值)
 func dailyTemperatures(T []int) []int {     //单调递增stack
     stack := make([]int,0)
@@ -19,4 +19,4 @@ func dailyTemperatures(T []int) []int {     //单调递增stack
     }
     return result
 }
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-中序遍历
+// ### 解题思路
+// 中序遍历
 
-说明：inOrderTask(&$node, &$num)，$node是不是引用都可以，$num必须是引用
+// 说明：inOrderTask(&$node, &$num)，$node是不是引用都可以，$num必须是引用
 
-### 性能
-执行用时 :24 ms, 在所有 PHP 提交中击败了100.00%的用户
-内存消耗 :19.5 MB, 在所有 PHP 提交中击败了100.00%的用户
+// ### 性能
+// 执行用时 :24 ms, 在所有 PHP 提交中击败了100.00%的用户
+// 内存消耗 :19.5 MB, 在所有 PHP 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         $this->inOrderTask($node->left, $num);
     }
 }
-```
+// ```

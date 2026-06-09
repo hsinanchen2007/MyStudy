@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String freqAlphabets(String s) {
         StringBuilder sb = new StringBuilder();
@@ -15,4 +15,4 @@ class Solution {
         return sb.toString(); 
     }
 }
-```
+// ```

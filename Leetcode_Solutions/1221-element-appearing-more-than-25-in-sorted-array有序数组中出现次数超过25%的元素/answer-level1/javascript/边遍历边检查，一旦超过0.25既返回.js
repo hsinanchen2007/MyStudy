@@ -1,10 +1,10 @@
-### 解题思路
-1. 遍历数组，遇到重复的元素就把变量累加1，然后检查是否占比超越％25，是的话返回
-2. 遇到不一样的就重设累加器为1
+// ### 解题思路
+// 1. 遍历数组，遇到重复的元素就把变量累加1，然后检查是否占比超越％25，是的话返回
+// 2. 遇到不一样的就重设累加器为1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {number}
@@ -24,4 +24,4 @@ var findSpecialInteger = function(arr) {
     }
     throw Error('WTF HAVE YOU FED ME!!!')
 };
-```
+// ```

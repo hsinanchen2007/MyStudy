@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -25,4 +25,4 @@ var mergeTrees = function (t1, t2) {
     node.right = mergeTrees(t1 ? t1.right : null, t2 ? t2.right : null)
     return node
 };
-```
+// ```

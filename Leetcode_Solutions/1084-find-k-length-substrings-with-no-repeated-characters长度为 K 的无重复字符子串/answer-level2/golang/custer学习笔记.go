@@ -1,5 +1,5 @@
-# 第一思路暴力解发
-```go 
+// # 第一思路暴力解发
+// ```go 
 func numKLenSubstrNoRepeats(S string, K int) int {
 	res := make([]string, 0)
 	if len(S) < K {
@@ -26,12 +26,12 @@ func numKLenSubstrNoRepeats(S string, K int) int {
 	}
 	return len(res) - count // 返回所有长度为 K 且不含重复字符的子串
 }
-```
-# 学习滑动窗口
+// ```
+// # 学习滑动窗口
 
-https://leetcode-cn.com/u/caigogo
+// https://leetcode-cn.com/u/caigogo
 
-```go
+// ```go
 func numKLenSubstrNoRepeats(S string, K int) int {
     count := make([]int, 26)
     ans := 0
@@ -62,4 +62,4 @@ func valid(count []int) bool {
     }
     return true
 }
-```
+// ```

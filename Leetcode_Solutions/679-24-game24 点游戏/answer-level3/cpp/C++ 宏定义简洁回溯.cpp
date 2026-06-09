@@ -1,4 +1,4 @@
-```
+// ```
 # define ADD +
 # define SUB -
 # define MUL *
@@ -41,4 +41,4 @@ public:
     }
 };
 
-```
+// ```

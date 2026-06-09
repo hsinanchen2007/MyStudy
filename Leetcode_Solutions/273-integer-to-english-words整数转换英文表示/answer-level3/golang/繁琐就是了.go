@@ -1,4 +1,4 @@
-```
+// ```
 import "strings"
 
 var digitMap = map[int]string{
@@ -88,4 +88,4 @@ func numberToWords3(num int) string {
 		}
 	}
 }
-```
+// ```

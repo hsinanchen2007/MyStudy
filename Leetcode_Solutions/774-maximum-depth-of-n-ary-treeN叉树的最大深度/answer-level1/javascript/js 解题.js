@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/fd8b36006b76377b75572d2d1ec2aeada89204d9b764f02ea136d6a06c6d0583-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fd8b36006b76377b75572d2d1ec2aeada89204d9b764f02ea136d6a06c6d0583-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 跟二叉树的最大深度唯一的区别就是，二叉树比较两个子树 left 和 right 中
 较大深度的那个，多叉树比较 children 中的所有子树中最大深度的那个
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val,children) {
@@ -35,4 +35,4 @@ var maxDepth = function(root) {
   
   return maxdepth( root );
 };
-```
+// ```

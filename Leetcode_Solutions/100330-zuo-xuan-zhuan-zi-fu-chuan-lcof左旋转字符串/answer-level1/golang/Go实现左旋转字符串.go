@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 func reverseLeftWords(s string, n int) string {
     if s == "" {
         return s
@@ -18,4 +18,4 @@ func reverse(str []rune,left,right int){
         right--
     }
 }
-```
+// ```

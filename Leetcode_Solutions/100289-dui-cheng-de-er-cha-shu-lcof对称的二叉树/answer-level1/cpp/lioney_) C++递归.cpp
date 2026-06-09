@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
@@ -11,4 +11,4 @@ public:
         return helper(A->left, B->right) && helper(A->right, B->left);   
     }
 };
-```
+// ```

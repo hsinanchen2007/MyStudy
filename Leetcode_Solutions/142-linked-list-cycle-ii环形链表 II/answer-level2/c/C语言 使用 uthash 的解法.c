@@ -1,19 +1,19 @@
-leetcode 已经支持了uthash, 关于uthash的详细说明可以参考 [uthash User Guide](https://troydhanson.github.io/uthash/userguide.html)。
+// leetcode 已经支持了uthash, 关于uthash的详细说明可以参考 [uthash User Guide](https://troydhanson.github.io/uthash/userguide.html)。
 
-基本的使用方法如下：
+// 基本的使用方法如下：
 
-- 定义一个结构体
-```C
+// - 定义一个结构体
+// ```C
 struct hash_entry {
     void *key;              /* we'll use this field as the key */
     int visitd;
     UT_hash_handle hh;      /* makes this structure hashable */
 };
 struct hash_entry *hash = NULL;
-```
+// ```
 
-- 查找元素
-```C
+// - 查找元素
+// ```C
     struct hash_entry * temp; 
     HASH_FIND_PTR(hash, &head, temp);
     if (temp == NULL) { // temp 为0, 则说明在hash 中没有查找到head
@@ -26,11 +26,11 @@ struct hash_entry *hash = NULL;
         res->next = NULL;
         return res;
     }
-```
+// ```
 
-### 代码实现
+// ### 代码实现
 
-```C
+// ```C
 struct hash_entry {
     void *key;              /* we'll use this field as the key */
     int visitd;
@@ -57,4 +57,4 @@ struct ListNode *detectCycle(struct ListNode *head) {
     }
     return NULL;
 }
-```
+// ```

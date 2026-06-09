@@ -1,5 +1,5 @@
-因为每次只能向下一个或者右下一格，所以可以转换为dp[i][j]+=min(dp[i+1][j],dp[i+1][j+1])
-```python
+# 因为每次只能向下一个或者右下一格，所以可以转换为dp[i][j]+=min(dp[i+1][j],dp[i+1][j+1])
+# ```python
 class Solution:
     def minimumTotal(self, t: List[List[int]]) -> int:
         row=len(t)
@@ -12,4 +12,4 @@ class Solution:
                 t[y][x]+=min(a,b)
         print(t)
         return t[0][0]
-```
+# ```

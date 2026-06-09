@@ -1,5 +1,5 @@
-双指针法，sum1表示从第一个数组和，sum2表示第三个数组和，只要sum1 == sum2 == sum(A)//3，那么第二个数组也和也一样等于sum(A)//3，就返回True
-```
+# 双指针法，sum1表示从第一个数组和，sum2表示第三个数组和，只要sum1 == sum2 == sum(A)//3，那么第二个数组也和也一样等于sum(A)//3，就返回True
+# ```
 def canThreePartsEqualSum(self, A: List[int]) -> bool:
         nums_sum = sum(A)       
         if not nums_sum % 3:
@@ -24,4 +24,4 @@ def canThreePartsEqualSum(self, A: List[int]) -> bool:
                 sum1 += A[i]
                 sum2 += A[j]
         return False
-```
+# ```

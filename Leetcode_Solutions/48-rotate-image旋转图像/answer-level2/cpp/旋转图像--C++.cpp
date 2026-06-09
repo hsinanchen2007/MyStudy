@@ -1,6 +1,6 @@
-**翻转每一行，对角线镜像换位**
+// **翻转每一行，对角线镜像换位**
 
-```c++
+// ```c++
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -20,4 +20,4 @@ public:
             }
     }
 };
-```
+// ```

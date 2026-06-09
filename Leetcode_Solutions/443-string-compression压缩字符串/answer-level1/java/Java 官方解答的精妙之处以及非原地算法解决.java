@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![IMG_0461.PNG](https://pic.leetcode-cn.com/845dd0dc1eb9d06215515935ad6a7df8977ffd45f51d997983fe7d2f497bfd7c-IMG_0461.PNG)
+// ![IMG_0461.PNG](https://pic.leetcode-cn.com/845dd0dc1eb9d06215515935ad6a7df8977ffd45f51d997983fe7d2f497bfd7c-IMG_0461.PNG)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int compress(char[] chars) {
     	int anchor=0;
@@ -29,4 +29,4 @@ class Solution {
     	return write;
     }
 }
-```
+// ```

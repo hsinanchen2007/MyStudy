@@ -1,15 +1,15 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/8/28
- *
- * 解题思路1： 暴力 配合sqrt
- *
- * 解题思路2：厄拉多塞筛法 详见代码 所有的非质数最终都可以分解为质数因子
- */
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/8/28
+//  *
+//  * 解题思路1： 暴力 配合sqrt
+//  *
+//  * 解题思路2：厄拉多塞筛法 详见代码 所有的非质数最终都可以分解为质数因子
+//  */
 
-```
+// ```
     public boolean isPrime(int n){
 
         for(int i = 2 ; i*i <= n ; i++){
@@ -54,4 +54,4 @@
         return count;
 
     }
-```
+// ```

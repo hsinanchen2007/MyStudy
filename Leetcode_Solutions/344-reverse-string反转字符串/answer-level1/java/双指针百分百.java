@@ -1,9 +1,9 @@
-### 解题思路
-又是熟悉的首尾互换，不纠结，双指针搞定
+// ### 解题思路
+// 又是熟悉的首尾互换，不纠结，双指针搞定
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void reverseString(char[] s) {
         int begin = 0;
@@ -24,4 +24,4 @@ class Solution {
         }
     }
 }
-```
+// ```

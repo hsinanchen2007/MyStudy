@@ -1,9 +1,9 @@
-### 解题思路
-先统计每个数二进制在每一位1的个数。汉明距离为 cnt[i] * (n-cnt[i])
+// ### 解题思路
+// 先统计每个数二进制在每一位1的个数。汉明距离为 cnt[i] * (n-cnt[i])
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int totalHammingDistance(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

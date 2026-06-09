@@ -1,5 +1,5 @@
-利用双指针即可解决，思路较为清晰，不再赘述。
-```c
+// 利用双指针即可解决，思路较为清晰，不再赘述。
+// ```c
 struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB) {
     struct ListNode *p_1=headA,*p_2=headB;
     while(p_1!=0&&p_2!=0){
@@ -23,4 +23,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     }
     return 0;
 }
-```
+// ```

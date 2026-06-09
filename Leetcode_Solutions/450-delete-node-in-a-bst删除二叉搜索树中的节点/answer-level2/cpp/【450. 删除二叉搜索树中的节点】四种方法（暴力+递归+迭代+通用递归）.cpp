@@ -1,7 +1,7 @@
-## 思路一：暴力法
-比较复杂（可以略过），自己对着测试案例一次次修改的...后面几种思路参考大佬[grandyang](https://www.cnblogs.com/grandyang/p/6228252.html)的。
-### 代码
-```c++
+// ## 思路一：暴力法
+// 比较复杂（可以略过），自己对着测试案例一次次修改的...后面几种思路参考大佬[grandyang](https://www.cnblogs.com/grandyang/p/6228252.html)的。
+// ### 代码
+// ```c++
 class Solution {
 public:
     TreeNode* deleteNode(TreeNode* root, int key) {
@@ -72,11 +72,11 @@ public:
         return dummy->left;
     }
 };
-```
+// ```
 
-## 思路二：递归（击败99.52%）
-### 代码
-```c++
+// ## 思路二：递归（击败99.52%）
+// ### 代码
+// ```c++
 class Solution {
 public:
     TreeNode* deleteNode(TreeNode* root, int key) {
@@ -100,11 +100,11 @@ public:
         return root;
     }
 };
-```
+// ```
 
-## 思路三：迭代
-### 代码
-```c++
+// ## 思路三：迭代
+// ### 代码
+// ```c++
 class Solution {
 public:
     TreeNode* deleteNode(TreeNode* root, int key) {
@@ -136,12 +136,12 @@ public:
         return node->right;
     }
 };
-```
+// ```
 
-## 思路四：通用递归
-没有利用BST性质，遍历所有节点，删除与key相同节点。
-### 代码
-```c++
+// ## 思路四：通用递归
+// 没有利用BST性质，遍历所有节点，删除与key相同节点。
+// ### 代码
+// ```c++
 class Solution {
 public:
     TreeNode* deleteNode(TreeNode* root, int key) {
@@ -161,6 +161,6 @@ public:
         return root;
     }
 };
-```
+// ```
 
 

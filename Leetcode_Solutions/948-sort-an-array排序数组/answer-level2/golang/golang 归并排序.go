@@ -1,11 +1,11 @@
-### 解题思路
-二分法将数组拆分：时间复杂度 O(logn)
-每层排序：O(n)
-所以，总体时间复杂度为 O(nlogn)
+// ### 解题思路
+// 二分法将数组拆分：时间复杂度 O(logn)
+// 每层排序：O(n)
+// 所以，总体时间复杂度为 O(nlogn)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sortArray(nums []int) []int {
     if len(nums) < 2 {
         return nums
@@ -35,4 +35,4 @@ func merge(l, r []int) []int {
 
     return res
 }
-```
+// ```

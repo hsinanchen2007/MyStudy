@@ -1,9 +1,9 @@
-### 解题思路
-这里是用迭代的方法来解决问题，速度不好
+// ### 解题思路
+// 这里是用迭代的方法来解决问题，速度不好
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type SudokuInfo struct {
 	rowMap map[int]map[byte]int
 	colMap map[int]map[byte]int
@@ -103,12 +103,12 @@ func solveSudoku(board [][]byte) {
 
 	sudoku.FillSudokuInfo(0, 0)
 }
-```
+// ```
 
 
-按点赞最多的思路，还没有上面速度快，在找到合适的字符后没有退出，接着往下比较了；
-不过优化了那里后，速度还是没有上面的快，还要再看看有哪里可以提速的
-```
+// 按点赞最多的思路，还没有上面速度快，在找到合适的字符后没有退出，接着往下比较了；
+// 不过优化了那里后，速度还是没有上面的快，还要再看看有哪里可以提速的
+// ```
 type SudokuInfo struct {
 	rowMap map[int]map[byte]int
 	colMap map[int]map[byte]int
@@ -213,10 +213,10 @@ func solveSudoku(board [][]byte) {
 
 	sudoku.FillSudokuInfo(0, 0)
 }
-```
+// ```
 
-把map改为slice，时间和空间都变得好了，但还是没有达到预期效果
-```
+// 把map改为slice，时间和空间都变得好了，但还是没有达到预期效果
+// ```
 type SudokuInfo struct {
 	rowMap map[int][]int
 	colMap map[int][]int
@@ -316,4 +316,4 @@ func solveSudoku(board [][]byte) {
 
 	sudoku.FillSudokuInfo(0, 0)
 }
-```
+// ```

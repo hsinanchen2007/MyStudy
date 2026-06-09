@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
@@ -9,4 +9,4 @@ public:
                 isSameTree(p->right, q->right);
     }
 };
-```
+// ```

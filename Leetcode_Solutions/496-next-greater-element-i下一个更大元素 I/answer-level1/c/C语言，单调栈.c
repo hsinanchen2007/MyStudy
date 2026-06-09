@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -38,4 +38,4 @@ int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, in
     *returnSize = nums1Size;
     return result;
 }
-```
+// ```

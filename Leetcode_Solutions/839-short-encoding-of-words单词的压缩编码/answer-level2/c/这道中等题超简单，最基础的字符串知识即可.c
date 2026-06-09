@@ -1,4 +1,4 @@
-```
+// ```
 int cmp(char **a, char **b)
 {
     return(strlen(*b) - strlen(*a));
@@ -24,4 +24,4 @@ int minimumLengthEncoding(char ** words, int wordsSize){
 
     return cnt;
 }
-```
+// ```

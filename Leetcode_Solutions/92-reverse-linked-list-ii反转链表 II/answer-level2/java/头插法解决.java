@@ -1,9 +1,9 @@
-### 解题思路
-首先找到 m 节点的前一个节点，看作头插法的哑巴节点，然后一直头插，n-m 次即可
+// ### 解题思路
+// 首先找到 m 节点的前一个节点，看作头插法的哑巴节点，然后一直头插，n-m 次即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -42,4 +42,4 @@ class Solution {
         return help.next;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct LRUNode {
     // hash table
     int key;
@@ -105,4 +105,4 @@ void lRUCacheFree(LRUCache* obj) {
 
  * lRUCacheFree(obj);
 */
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1.枚举low到high范围的所有位数的顺次数
-2.筛选在low到high数值范围中的顺次数
+// ### 解题思路
+// 1.枚举low到high范围的所有位数的顺次数
+// 2.筛选在low到high数值范围中的顺次数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> sequentialDigits(int low, int high) {
         List<Integer> seqDigits = new ArrayList<>();
@@ -29,4 +29,4 @@ class Solution {
         return seqDigits;
     }
 }
-```
+// ```

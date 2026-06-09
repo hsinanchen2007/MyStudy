@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def movesToChessboard(board: Array[Array[Int]]): Int = {
     var rowSum = 0
@@ -24,4 +24,4 @@ object Solution {
     (rowDiff + colDiff) / 2
   }
 }
-```
+// ```

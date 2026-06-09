@@ -1,9 +1,9 @@
-### 解题思路
-map+双向链表，将每次使用的节点移动到链表头部，则尾部节点就是在容量满时，需要淘汰的节点。
+// ### 解题思路
+// map+双向链表，将每次使用的节点移动到链表头部，则尾部节点就是在容量满时，需要淘汰的节点。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type LRUCacheNode struct {
 	key   int
 	value int
@@ -108,4 +108,4 @@ func (this *LRUCache) RemoveNode(node *LRUCacheNode) {
  * param_1 := obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```

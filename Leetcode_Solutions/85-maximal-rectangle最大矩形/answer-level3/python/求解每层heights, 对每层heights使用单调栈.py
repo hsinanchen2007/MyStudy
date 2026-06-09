@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
         if not matrix: return 0
@@ -34,4 +34,4 @@ class Solution:
                 if matrix[i][j] == '1': heights[j] += 1
             res = max(res, maxarea(heights))
         return res
-```
+# ```

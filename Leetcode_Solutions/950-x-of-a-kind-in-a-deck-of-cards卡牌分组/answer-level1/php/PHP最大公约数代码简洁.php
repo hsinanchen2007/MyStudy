@@ -1,4 +1,4 @@
-```php
+// ```php
 class Solution {
 
     /**
@@ -17,4 +17,4 @@ class Solution {
         return $y == 0 ? $x : $this->gcd($y, $x % $y);
     }
 }
-```
+// ```

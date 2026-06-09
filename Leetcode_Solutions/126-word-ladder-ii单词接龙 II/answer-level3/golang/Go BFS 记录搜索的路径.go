@@ -1,11 +1,11 @@
-### 解题思路
-一：构造图，用邻接表来表示
-1. 宽度优先搜索的队列，宽度优先搜索时不pop，而是通过front指针来模拟pop，即front后移动
-2. 加入到队列的判断条件与127题有所不同，这里是当没有搜索过，或者搜索过了，但是与搜索过的路径到达该节点所用的步数一致
+// ### 解题思路
+// 一：构造图，用邻接表来表示
+// 1. 宽度优先搜索的队列，宽度优先搜索时不pop，而是通过front指针来模拟pop，即front后移动
+// 2. 加入到队列的判断条件与127题有所不同，这里是当没有搜索过，或者搜索过了，但是与搜索过的路径到达该节点所用的步数一致
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findLadders(beginWord string, endWord string, wordList []string) [][]string {
 	var has bool
 	for i:=0;i< len(wordList);i++{
@@ -98,4 +98,4 @@ func BFS_Graph(beginWord string, endWord string, graph map[string][]string, Q *[
 		front++
 	}
 }
-```
+// ```

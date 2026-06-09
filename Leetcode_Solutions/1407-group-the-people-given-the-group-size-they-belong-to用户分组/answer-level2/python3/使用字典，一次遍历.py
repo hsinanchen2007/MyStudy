@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def groupThePeople(self, groupSizes):
         group = {}
@@ -10,4 +10,4 @@ class Solution:
             else:
                 group[n].append([i])
         return [i for g in group.values() for i in g]
-```
+# ```

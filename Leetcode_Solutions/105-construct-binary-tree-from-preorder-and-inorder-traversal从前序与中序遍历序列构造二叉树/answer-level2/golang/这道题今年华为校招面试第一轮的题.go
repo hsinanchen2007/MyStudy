@@ -1,13 +1,13 @@
-思路其实和平时复现二叉树的类似。
-通过preorder 的数组找出数组的根
-然后通过定位根在inorder中的index来确定left subtree 和 right subtree。
+// 思路其实和平时复现二叉树的类似。
+// 通过preorder 的数组找出数组的根
+// 然后通过定位根在inorder中的index来确定left subtree 和 right subtree。
 
-注意里面一些边界条件的判断，不要超出数组长度
+// 注意里面一些边界条件的判断，不要超出数组长度
 
-这到题是当是一开始没状态，一下没想起来，不过面试官还是很nice的稍加引导，最后也做出来了
-结果最后一轮还是挂了 -_-!
+// 这到题是当是一开始没状态，一下没想起来，不过面试官还是很nice的稍加引导，最后也做出来了
+// 结果最后一轮还是挂了 -_-!
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -49,4 +49,4 @@ func findIndex(arr []int, value int) int {
     }
     return -1
 }
-```
+// ```

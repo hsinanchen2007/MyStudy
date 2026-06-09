@@ -1,9 +1,9 @@
-### 解题思路
- 思路是这样的，前x个构成的括号，和n-x构成的括号进行组合。这样就能组合成所有的情况了。
+// ### 解题思路
+//  思路是这样的，前x个构成的括号，和n-x构成的括号进行组合。这样就能组合成所有的情况了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -20,4 +20,4 @@ public:
         return r;
     }
 };
-```
+// ```

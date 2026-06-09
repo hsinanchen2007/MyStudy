@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-includes() 方法用来判断一个数组是否包含一个指定的值，如果是返回 true，否则false。
+// includes() 方法用来判断一个数组是否包含一个指定的值，如果是返回 true，否则false。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -19,13 +19,13 @@ var intersection = function(nums1, nums2) {
     })
     return list
 };
-```
+// ```
 
 
-```js
+// ```js
 var intersection = function(nums1, nums2) {
     return [...new Set(nums1)].filter(item => {
       return nums2.includes(item)
     })
 };
-```
+// ```

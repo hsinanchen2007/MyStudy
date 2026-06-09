@@ -1,8 +1,8 @@
-### 解题思路
-使用双指针，遇到不同的就更新`slow`到`quick`，同时计算数字为`quick-slow`
-### 代码
+// ### 解题思路
+// 使用双指针，遇到不同的就更新`slow`到`quick`，同时计算数字为`quick-slow`
+// ### 代码
 
-```golang
+// ```golang
 func compressString(S string) string {
 	if len(S) <= 1 {
 		return S
@@ -26,4 +26,4 @@ func compressString(S string) string {
 	}
 	return res
 }
-```
+// ```

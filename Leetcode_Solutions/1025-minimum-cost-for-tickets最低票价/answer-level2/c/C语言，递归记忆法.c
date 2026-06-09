@@ -1,6 +1,6 @@
-4ms，C语言 递归公式：dp(i)=min(dp(i+1)+costs[0],dp(i+7)+costs[1],dp(i+30)+costs[2])
+// 4ms，C语言 递归公式：dp(i)=min(dp(i+1)+costs[0],dp(i+7)+costs[1],dp(i+30)+costs[2])
 
-```
+// ```
 #define TICKET_TYPE 3
 #define MIN(a, b) ((a) < (b)) ? (a) : (b);
 #define MAX_COST (365*1000)
@@ -56,4 +56,4 @@ int mincostTickets(int* days, int daysSize, int* costs, int costsSize)
     
     return minCost;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-差分序列
-### 代码
+// ### 解题思路
+// 差分序列
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] corpFlightBookings(int[][] bookings, int n) {
         int dif[] = new int[n];
@@ -35,4 +35,4 @@ class Solution {
                 
     }
 }
-```
+// ```

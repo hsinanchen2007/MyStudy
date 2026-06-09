@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   case class Point(r: Int, c: Int)
   def dfs(image: Array[Array[Int]],
@@ -26,4 +26,4 @@ object Solution {
   }
 }
 
-```
+// ```

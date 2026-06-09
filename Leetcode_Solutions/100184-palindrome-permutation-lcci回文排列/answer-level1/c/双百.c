@@ -1,8 +1,8 @@
-### 解题思路
-不能有2个及以上的字母的出现次数为奇数
-### 代码
+// ### 解题思路
+// 不能有2个及以上的字母的出现次数为奇数
+// ### 代码
 
-```c
+// ```c
 bool canPermutePalindrome(char* s){
     int a[128]={0};
     while(*s!=0){
@@ -21,4 +21,4 @@ bool canPermutePalindrome(char* s){
     }
     return true;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```cpp []
+// ```cpp []
 class Trie {
     Trie* Node[26];
     bool is_end;
@@ -42,5 +42,5 @@ public:
         return true;
     }
 };
-```
+// ```
 

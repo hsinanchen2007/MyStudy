@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/567495a33ac82cef62bafc3665880270d724c5a99591e64724375b2a676906bf-image.png)
+// ![image.png](https://pic.leetcode-cn.com/567495a33ac82cef62bafc3665880270d724c5a99591e64724375b2a676906bf-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public List<String> generateParenthesis(int n) {
@@ -35,4 +35,4 @@ class Solution {
         return result.get(n);
     }
 }
-```
+// ```

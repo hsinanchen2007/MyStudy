@@ -1,8 +1,8 @@
-读到左括号时入栈
-读到右括号时，若与栈顶的括号互为左右，则栈顶元素出栈；否则认为括号不匹配
-最后栈全空时认为通过校验。
+// 读到左括号时入栈
+// 读到右括号时，若与栈顶的括号互为左右，则栈顶元素出栈；否则认为括号不匹配
+// 最后栈全空时认为通过校验。
 
-```
+// ```
 import java.util.*;
 class Solution {
     public boolean isValid(String s) {
@@ -35,4 +35,4 @@ class Solution {
         return stack.isEmpty();
     }
 }
-```
+// ```

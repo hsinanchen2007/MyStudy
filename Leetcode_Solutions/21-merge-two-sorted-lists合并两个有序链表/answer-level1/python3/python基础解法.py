@@ -1,9 +1,9 @@
-### 解题思路
-递归解决，边界条件就是判断l1.val和l2.val大小，然后重复将l1.next,l2.next插入到列表中。
+# ### 解题思路
+# 递归解决，边界条件就是判断l1.val和l2.val大小，然后重复将l1.next,l2.next插入到列表中。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             l2.next = self.mergeTwoLists(l1, l2.next)
             return l2
         
-```
+# ```

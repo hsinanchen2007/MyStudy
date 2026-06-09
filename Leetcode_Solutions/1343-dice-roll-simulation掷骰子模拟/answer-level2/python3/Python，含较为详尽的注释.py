@@ -1,11 +1,11 @@
-建立三维数组nums[i][j][cnt]，表示第i次掷出j点且是连续第cnt次掷出了j点。所以最终对nums[-1][j]求和可以得到第n次掷出j点的总的可能数，再让j循环0-5求和，即可得到答案。
+# 建立三维数组nums[i][j][cnt]，表示第i次掷出j点且是连续第cnt次掷出了j点。所以最终对nums[-1][j]求和可以得到第n次掷出j点的总的可能数，再让j循环0-5求和，即可得到答案。
 
-在计算数组nums[i+1][k]时，仅需考虑与nums[i][j]的关系，即第i+1次掷出k点，仅与第i次掷出j点有关，若j!=k，则求和；若j==k，则根据rollMax[j]允许的连续次数对nums[i][j][1~rollMax[j]]（闭区间）求和。
+# 在计算数组nums[i+1][k]时，仅需考虑与nums[i][j]的关系，即第i+1次掷出k点，仅与第i次掷出j点有关，若j!=k，则求和；若j==k，则根据rollMax[j]允许的连续次数对nums[i][j][1~rollMax[j]]（闭区间）求和。
 
-竞赛的时候死磕错误解法，结束之后看了别人的代码才知道连续次数的信息必须保留。
-写以下解法的时候，把心理活动写在注释里了。 Hope it help :)
+# 竞赛的时候死磕错误解法，结束之后看了别人的代码才知道连续次数的信息必须保留。
+# 写以下解法的时候，把心理活动写在注释里了。 Hope it help :)
 
-```
+# ```
 class Solution:
     def dieSimulator(self, n: int, rollMax):
         MOD = 10 ** 9 + 7
@@ -28,4 +28,4 @@ class Solution:
         for j in range(6):
             ans[j] = sum(nums[-1][j]) % MOD
         return sum(ans) % MOD
-```
+# ```

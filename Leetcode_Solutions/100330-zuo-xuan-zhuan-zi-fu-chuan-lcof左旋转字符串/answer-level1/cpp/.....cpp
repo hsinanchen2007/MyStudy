@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-用substr函数就可以了，然后相加就行了emmmmm，很简单。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 用substr函数就可以了，然后相加就行了emmmmm，很简单。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseLeftWords(string s, int n) {
@@ -12,4 +12,4 @@ public:
         return str2+str1;
     }
 };
-```
+// ```

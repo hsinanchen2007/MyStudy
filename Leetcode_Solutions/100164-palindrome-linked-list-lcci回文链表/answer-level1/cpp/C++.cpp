@@ -1,12 +1,12 @@
-### 解题思路
-找到中间节点，反转后半段，再与前半段逐一比较
+// ### 解题思路
+// 找到中间节点，反转后半段，再与前半段逐一比较
 
-注意：使用while(fast->next && fast->next->next)  在元素个数为偶数时，中间节点为两个中间的第一个 
-可以对奇数、偶数情况进行统一处理
+// 注意：使用while(fast->next && fast->next->next)  在元素个数为偶数时，中间节点为两个中间的第一个 
+// 可以对奇数、偶数情况进行统一处理
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -66,4 +66,4 @@ public:
         return true;
     }
 };
-```
+// ```

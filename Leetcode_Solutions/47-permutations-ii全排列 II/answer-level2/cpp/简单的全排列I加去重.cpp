@@ -1,6 +1,6 @@
-很惭愧，击败了7%，方法很好理解，在全排列的基础上去重就OK了，关于vector去重，使用erase函数和unique函数。
+// 很惭愧，击败了7%，方法很好理解，在全排列的基础上去重就OK了，关于vector去重，使用erase函数和unique函数。
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
@@ -32,10 +32,10 @@ public:
 private:
     vector<vector<int>> res;
 };
-```
-```python []
+// ```
+// ```python []
 print('Hello world!')
-```
-```ruby []
+// ```
+// ```ruby []
 puts 'Hello world!'
-```
+// ```

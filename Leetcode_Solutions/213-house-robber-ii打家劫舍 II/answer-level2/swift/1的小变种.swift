@@ -1,5 +1,5 @@
-分成两种情况1到n户：1. 偷1不偷n，2.偷n不偷1，然后判断哪种偷得更多
-```
+// 分成两种情况1到n户：1. 偷1不偷n，2.偷n不偷1，然后判断哪种偷得更多
+// ```
 class Solution {
     func rob(_ nums: [Int]) -> Int {
         if nums.count == 0 {
@@ -24,4 +24,4 @@ class Solution {
         return currMax
     }
 }
-```
+// ```

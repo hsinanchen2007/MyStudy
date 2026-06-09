@@ -1,9 +1,9 @@
-### 解题思路
-前序、中序、后序遍历都可以，交换左右两棵子树即可。
+# ### 解题思路
+# 前序、中序、后序遍历都可以，交换左右两棵子树即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution(object):
             root.right = right
             return root
         return get_res(root)
-```
+# ```

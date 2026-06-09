@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int peakIndexInMountainArray(int[] A) {
        
@@ -15,4 +15,4 @@ class Solution {
         return i-1;
     }
 }
-```
+// ```

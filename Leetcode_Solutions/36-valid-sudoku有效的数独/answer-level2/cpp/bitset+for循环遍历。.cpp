@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
@@ -27,6 +27,6 @@ public:
     }
 }; 
 
-```
+// ```
 
-代码简单易懂
+// 代码简单易懂

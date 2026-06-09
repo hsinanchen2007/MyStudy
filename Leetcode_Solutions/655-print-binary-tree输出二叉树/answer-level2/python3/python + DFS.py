@@ -1,4 +1,4 @@
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
         res = [[""] * width for _ in range(height)]
         fill_val(root, 0, width, res, 0)
         return res
-```
+# ```

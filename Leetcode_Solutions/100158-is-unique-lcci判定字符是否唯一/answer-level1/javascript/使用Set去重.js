@@ -1,9 +1,9 @@
-### 解题思路
-一行代码可还香？
+// ### 解题思路
+// 一行代码可还香？
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} astr
  * @return {boolean}
@@ -11,4 +11,4 @@
 var isUnique = function(astr) {
     return new Set(astr).size === astr.length
 };
-```
+// ```

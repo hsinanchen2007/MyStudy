@@ -1,10 +1,10 @@
-### 解题思路
-产生的直径有两种可能性：1.包含root为顶点（对应max函数逗号前一半）
-                    2.root不是该直径的顶点（对应max函数逗号后一半）
+// ### 解题思路
+// 产生的直径有两种可能性：1.包含root为顶点（对应max函数逗号前一半）
+//                     2.root不是该直径的顶点（对应max函数逗号后一半）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
 
     }
 }
-```
+// ```

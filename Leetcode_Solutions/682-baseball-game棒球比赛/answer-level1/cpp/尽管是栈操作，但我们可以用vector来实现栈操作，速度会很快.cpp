@@ -1,9 +1,9 @@
-### 解题思路
-尽管是栈操作，但我们可以用vector来实现栈操作，速度会很快
+// ### 解题思路
+// 尽管是栈操作，但我们可以用vector来实现栈操作，速度会很快
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 // class Solution {
 // public:
 // 	int calPoints(vector<string>& ops) {
@@ -58,4 +58,4 @@ public:
         return accumulate(v.begin(), v.end(), 0);
     }
 };
-```
+// ```

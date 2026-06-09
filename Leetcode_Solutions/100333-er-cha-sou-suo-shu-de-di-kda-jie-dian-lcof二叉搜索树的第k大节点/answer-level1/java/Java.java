@@ -1,9 +1,9 @@
-### 解题思路
-递归纠结了很久原因是判断root非空的if写成了while，还是没有理解递归。while应该是栈的写法。
+// ### 解题思路
+// 递归纠结了很久原因是判断root非空的if写成了while，还是没有理解递归。while应该是栈的写法。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -37,4 +37,4 @@ class Solution {
         }
     }
 }
-```
+// ```

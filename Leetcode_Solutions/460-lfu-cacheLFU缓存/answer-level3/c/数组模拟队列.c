@@ -1,6 +1,6 @@
-每次插入和查询更新对应的times并使用插入排序根据times向后调整节点，表示最近访问，若大于缓存空间就队列start++
+// 每次插入和查询更新对应的times并使用插入排序根据times向后调整节点，表示最近访问，若大于缓存空间就队列start++
 
-```
+// ```
 #define LEN 10001
 typedef struct {
     int key;
@@ -94,4 +94,4 @@ void lFUCacheFree(LFUCache* obj) {
  
  * lFUCacheFree(obj);
 */
-```
+// ```

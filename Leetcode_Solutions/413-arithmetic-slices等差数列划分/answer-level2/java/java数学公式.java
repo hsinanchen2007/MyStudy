@@ -1,4 +1,4 @@
-```
+// ```
 public int numberOfArithmeticSlices(int[] A) {
         if (A.length < 3)
             return 0;
@@ -21,5 +21,5 @@ public int numberOfArithmeticSlices(int[] A) {
         }
         return ans;
     }
-```
-如果题目说可以不连续那就比这个难了
+// ```
+// 如果题目说可以不连续那就比这个难了

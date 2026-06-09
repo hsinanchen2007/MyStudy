@@ -1,11 +1,11 @@
-### 解题思路
-遍历每个格子，判断每个格子的上右下左方向是否贡献表面积。
-Time O(n*2)
-Space O(1)
+// ### 解题思路
+// 遍历每个格子，判断每个格子的上右下左方向是否贡献表面积。
+// Time O(n*2)
+// Space O(1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int surfaceArea(int[][] grid) {
         int s = 0;
@@ -30,4 +30,4 @@ class Solution {
         return s;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int state(const vector<int>& cells) {
@@ -42,6 +42,6 @@ public:
         return cells;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/0905b9ca77389970900c5fda2766e9bb1a98e88e728064e199f0cbd953e54e34-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0905b9ca77389970900c5fda2766e9bb1a98e88e728064e199f0cbd953e54e34-image.png)

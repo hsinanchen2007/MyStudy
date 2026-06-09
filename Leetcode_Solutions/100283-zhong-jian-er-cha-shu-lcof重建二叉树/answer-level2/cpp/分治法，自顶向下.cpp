@@ -1,4 +1,4 @@
-```C++
+// ```C++
 class Solution {
 public:
     TreeNode* buildCore(std::vector<int>& preorder, std::vector<int>& inorder, int preStart, int preEnd, int inStart, int inEnd) {
@@ -15,4 +15,4 @@ public:
         return buildCore(preorder, inorder, 0, preorder.size()-1, 0, inorder.size()-1);
     }
 };
-```
+// ```

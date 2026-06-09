@@ -1,8 +1,8 @@
-感觉这道题和[51. N皇后](https://leetcode-cn.com/problems/n-queens/)就是一毛一样，直接拿51题的代码,具体解题思路在[N皇后---python解题思路](https://leetcode-cn.com/problems/n-queens/solution/nhuang-hou-pythonjie-ti-si-lu-by-wrallen/)
+# 感觉这道题和[51. N皇后](https://leetcode-cn.com/problems/n-queens/)就是一毛一样，直接拿51题的代码,具体解题思路在[N皇后---python解题思路](https://leetcode-cn.com/problems/n-queens/solution/nhuang-hou-pythonjie-ti-si-lu-by-wrallen/)
 
-下面直接上代码
+# 下面直接上代码
 
-```python
+# ```python
 class Solution:
     def solveNQueens(self, N) -> ListNode:	
     	checkerboard = [ "."*N for i in range(N)]
@@ -44,11 +44,11 @@ class Solution:
         result = []
         input(0)
         return len(result) 
-```
+# ```
 
-运算结果
+# 运算结果
 
-```
+# ```
 执行用时 :132 ms, 在所有 python3 提交中击败了15.03% 的用户
 内存消耗 :12.8 MB, 在所有 python3 提交中击败了99.31%的用户
 
@@ -57,8 +57,8 @@ class Solution:
 
 执行用时 :124 ms, 在所有 python3 提交中击败了16.78% 的用户
 内存消耗 :13 MB, 在所有 python3 提交中击败了95.17%的用户
-```
+# ```
 
 
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)

@@ -1,6 +1,6 @@
-![81671EF1-922D-45BE-B953-6A4136D8C3ED.jpeg](https://pic.leetcode-cn.com/f22d157a9654369b921cc231e802210b7c48d5e905262cdcd106a3e3ef620aca-81671EF1-922D-45BE-B953-6A4136D8C3ED.jpeg)
+// ![81671EF1-922D-45BE-B953-6A4136D8C3ED.jpeg](https://pic.leetcode-cn.com/f22d157a9654369b921cc231e802210b7c48d5e905262cdcd106a3e3ef620aca-81671EF1-922D-45BE-B953-6A4136D8C3ED.jpeg)
 
-```
+// ```
 //滑动窗口 + hash
 typedef struct {
     int key;
@@ -83,4 +83,4 @@ int numKLenSubstrNoRepeats(char * S, int K)
     ResetHashNode();
     return returnCnt;
 }
-```
+// ```

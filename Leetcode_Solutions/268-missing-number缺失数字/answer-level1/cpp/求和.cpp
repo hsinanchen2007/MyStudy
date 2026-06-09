@@ -1,9 +1,9 @@
-### 解题思路
-求出数组的和，然后用0到n的和减去之，就是缺少的数字了。
+// ### 解题思路
+// 求出数组的和，然后用0到n的和减去之，就是缺少的数字了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
         return (1+n)*n/2-sum;
     }
 };
-```
+// ```

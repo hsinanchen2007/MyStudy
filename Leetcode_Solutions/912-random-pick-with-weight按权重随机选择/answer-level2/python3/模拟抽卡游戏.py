@@ -1,9 +1,9 @@
-### 解题思路
-缓存一个计数池，每次操作从计数池中随机抽取元素，当计数池中某元素少于等于0时，剔除该元素，当所有元素都少于等于0则重置该计数池。
+# ### 解题思路
+# 缓存一个计数池，每次操作从计数池中随机抽取元素，当计数池中某元素少于等于0时，剔除该元素，当所有元素都少于等于0则重置该计数池。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     def __init__(self, w: List[int]):
@@ -36,4 +36,4 @@ class Solution:
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(w)
 # param_1 = obj.pickIndex()
-```
+# ```

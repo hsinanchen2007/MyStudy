@@ -1,8 +1,8 @@
-### 解题思路
-rt
-### 代码
+# ### 解题思路
+# rt
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         if 10>x>-10:
@@ -16,4 +16,4 @@ class Solution:
             x = int(str_x)
             x = -x
         return x if -2147483648 < x < 2147483647 else 0
-```
+# ```

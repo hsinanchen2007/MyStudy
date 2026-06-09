@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numSteps(self, s: str) -> int:
         if s == '1': return 0
@@ -17,4 +17,4 @@ class Solution:
             else:
                 break
         return '1' + ''.join(str_ls) if flag else ''.join(str_ls)
-```
+# ```

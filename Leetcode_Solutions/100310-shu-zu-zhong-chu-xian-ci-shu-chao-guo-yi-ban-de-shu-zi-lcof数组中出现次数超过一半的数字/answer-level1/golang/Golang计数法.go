@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func majorityElement(nums []int) int {
     current,count:=nums[0],1
     for i:=1;i<len(nums);i++{
@@ -16,4 +16,4 @@ func majorityElement(nums []int) int {
     }
     return current
 }
-```
+// ```

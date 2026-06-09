@@ -1,9 +1,9 @@
-### 解题思路
-排序，排完序后从后头加判断是否大于前头
+// ### 解题思路
+// 排序，排完序后从后头加判断是否大于前头
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -45,4 +45,4 @@ int* minSubsequence(int* nums, int numsSize, int* returnSize){
     return returnSum;
 
 }
-```
+// ```

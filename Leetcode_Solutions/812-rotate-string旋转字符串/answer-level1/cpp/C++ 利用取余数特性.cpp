@@ -1,9 +1,9 @@
-### 解题思路
-当AB都为空的时候，返回true，所有要写一个专门的来判断，不知道小伙伴们有没有什么巧妙的办法融合到循环里面去
+// ### 解题思路
+// 当AB都为空的时候，返回true，所有要写一个专门的来判断，不知道小伙伴们有没有什么巧妙的办法融合到循环里面去
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool rotateString(string A, string B) {
@@ -28,4 +28,4 @@ public:
         return false;
     }
 };
-```
+// ```

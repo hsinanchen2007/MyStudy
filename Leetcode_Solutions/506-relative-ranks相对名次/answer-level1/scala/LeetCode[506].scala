@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def findRelativeRanks(nums: Array[Int]): Array[String] = {
     val sortNums = nums.sorted.reverse
@@ -13,4 +13,4 @@ object Solution {
   }
 }
 
-```
+// ```

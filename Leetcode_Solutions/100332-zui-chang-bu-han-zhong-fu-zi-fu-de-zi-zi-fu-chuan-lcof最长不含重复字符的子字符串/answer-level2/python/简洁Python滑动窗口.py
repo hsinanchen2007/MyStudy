@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         from collections import defaultdict
@@ -19,4 +19,4 @@ class Solution:
                 left += 1
             res = max(res, right - left)
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-判断x中是否有交集，判断y轴是否有交集，两个轴同时有交集则表示矩阵有重叠
+// ### 解题思路
+// 判断x中是否有交集，判断y轴是否有交集，两个轴同时有交集则表示矩阵有重叠
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} rec1
  * @param {number[]} rec2
@@ -25,4 +25,4 @@ var isRectangleOverlap = function(rec1, rec2) {
     
     
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-不明白为什么题目分类是排序 :3
+# ### 解题思路
+# 不明白为什么题目分类是排序 :3
 
-思路：将两个队列按照元素出现的次数进行统计得到字典，两个字典中key相同的，返回value更小的那一个，是次数重复出现的交集。
+# 思路：将两个队列按照元素出现的次数进行统计得到字典，两个字典中key相同的，返回value更小的那一个，是次数重复出现的交集。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         if len(nums1) == 0 or (len(nums2) == 0):
@@ -36,4 +36,4 @@ class Solution:
                 intersection.extend([key] * min(dictNums1.get(key), dictNums2.get(key)))
         return intersection
 
-```
+# ```

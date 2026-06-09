@@ -1,4 +1,4 @@
-```js
+// ```js
 var constructRectangle = function(area) {
     let middle = parseInt(Math.sqrt(area));
     let arr = [];
@@ -9,5 +9,5 @@ var constructRectangle = function(area) {
     arr.push(area/middle);
     return arr.sort((a, b) => b - a);
 };
-```
+// ```
 

@@ -1,11 +1,11 @@
-### 解题思路
-比较菜鸡，用的字典来储存每个结点指针
-然后再计算出要删除结点的位置
-按照情况来进行删除即可
+# ### 解题思路
+# 比较菜鸡，用的字典来储存每个结点指针
+# 然后再计算出要删除结点的位置
+# 按照情况来进行删除即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         dist = {}
@@ -28,4 +28,4 @@ class Solution:
 
         return head
 
-```
+# ```

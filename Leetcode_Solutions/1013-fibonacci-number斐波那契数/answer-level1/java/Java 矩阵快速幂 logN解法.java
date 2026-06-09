@@ -1,52 +1,52 @@
-我就是闲得*疼哈哈用矩阵乘法写斐波那契😂
+// 我就是闲得*疼哈哈用矩阵乘法写斐波那契😂
 
-斐波那契f(n)可以通过矩阵乘法来计算，如下：
-$$
-\left[
- \begin{matrix}
-   f(n) \\
-   f(n-1)
-  \end{matrix}
-  \right] = \left[
- \begin{matrix}
-   1 & 1\\
-   1 & 0
-  \end{matrix}
-  \right] \left[
- \begin{matrix}
-   f(n-1) \\
-   f(n-2)
-  \end{matrix}
-   \right] = \left[
- \begin{matrix}
-   1 & 1\\
-   1 & 0
-  \end{matrix}
-  \right]^{n-1} \left[
- \begin{matrix}
-   f(1) \\
-   f(0)
-  \end{matrix}
-   \right] 
-$$
-即计算：
-$$
-\left[
- \begin{matrix}
-   1 & 1\\
-   1 & 0
-  \end{matrix}
-  \right]^{n-1} \left[
- \begin{matrix}
-   1\\
-   0
-  \end{matrix}
-   \right] 
-$$
+// 斐波那契f(n)可以通过矩阵乘法来计算，如下：
+// $$
+// \left[
+//  \begin{matrix}
+//    f(n) \\
+//    f(n-1)
+//   \end{matrix}
+//   \right] = \left[
+//  \begin{matrix}
+//    1 & 1\\
+//    1 & 0
+//   \end{matrix}
+//   \right] \left[
+//  \begin{matrix}
+//    f(n-1) \\
+//    f(n-2)
+//   \end{matrix}
+//    \right] = \left[
+//  \begin{matrix}
+//    1 & 1\\
+//    1 & 0
+//   \end{matrix}
+//   \right]^{n-1} \left[
+//  \begin{matrix}
+//    f(1) \\
+//    f(0)
+//   \end{matrix}
+//    \right] 
+// $$
+// 即计算：
+// $$
+// \left[
+//  \begin{matrix}
+//    1 & 1\\
+//    1 & 0
+//   \end{matrix}
+//   \right]^{n-1} \left[
+//  \begin{matrix}
+//    1\\
+//    0
+//   \end{matrix}
+//    \right] 
+// $$
 
-如上累乘是O(N)的，可以通过递归或者位运算来优化成O(logN)，即快速幂，下边儿给出了递归和位运算俩方法。
+// 如上累乘是O(N)的，可以通过递归或者位运算来优化成O(logN)，即快速幂，下边儿给出了递归和位运算俩方法。
 
-``` Java
+// ``` Java
 class Solution {
     public int fib(int n) {
         if (n == 0 || n == 1) {
@@ -99,4 +99,4 @@ class Solution {
     
 }
 
-```
+// ```

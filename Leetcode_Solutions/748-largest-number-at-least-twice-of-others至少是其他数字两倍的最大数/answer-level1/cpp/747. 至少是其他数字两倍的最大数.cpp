@@ -1,9 +1,9 @@
-### 解题思路
-找到最大的两个数即可
+// ### 解题思路
+// 找到最大的两个数即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int dominantIndex(vector<int>& nums) {
@@ -39,4 +39,4 @@ public:
         else return -1;
     }
 };
-```
+// ```

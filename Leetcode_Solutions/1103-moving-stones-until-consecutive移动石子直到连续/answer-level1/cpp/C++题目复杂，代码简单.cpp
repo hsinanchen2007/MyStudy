@@ -1,9 +1,9 @@
-### 解题思路
-不要想太复杂了
+// ### 解题思路
+// 不要想太复杂了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> numMovesStones(int a, int b, int c) {
@@ -16,4 +16,4 @@ public:
         return {mi,c-a-2};
     }
 };
-```
+// ```

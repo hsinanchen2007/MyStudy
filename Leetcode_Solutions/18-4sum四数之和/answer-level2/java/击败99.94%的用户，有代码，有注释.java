@@ -1,6 +1,6 @@
-![WX20191116-184342@2x.png](https://pic.leetcode-cn.com/0faa707eb6c94e48bdc5510ae9366ca20437be16c1f29027da61aabf66c8d77c-WX20191116-184342@2x.png)
+// ![WX20191116-184342@2x.png](https://pic.leetcode-cn.com/0faa707eb6c94e48bdc5510ae9366ca20437be16c1f29027da61aabf66c8d77c-WX20191116-184342@2x.png)
 
-```
+// ```
 public List<List<Integer>> fourSum(int[] nums,int target){
         /*定义一个返回值*/
         List<List<Integer>> result=new ArrayList<>();
@@ -71,4 +71,4 @@ public List<List<Integer>> fourSum(int[] nums,int target){
         }
         return result;
     }
-```
+// ```

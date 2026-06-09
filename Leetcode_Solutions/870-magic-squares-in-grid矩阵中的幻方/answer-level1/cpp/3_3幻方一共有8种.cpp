@@ -1,6 +1,6 @@
-直接把8种幻方加入set中，然后暴力循环判断每个3*3的格子是否在set中，在的话count+1。
-至于哪8种，只要写出一种，然后将该幻方旋转和翻转即可。
-```
+// 直接把8种幻方加入set中，然后暴力循环判断每个3*3的格子是否在set中，在的话count+1。
+// 至于哪8种，只要写出一种，然后将该幻方旋转和翻转即可。
+// ```
 class Solution {
 public:
 	int numMagicSquaresInside(vector<vector<int>>& grid) {
@@ -33,6 +33,6 @@ public:
 	}
 };
 
-```
+// ```
 
 

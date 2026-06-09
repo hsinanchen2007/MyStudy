@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string removeKdigits(string num, int k) {
@@ -28,4 +28,4 @@ public:
         return pos==ans.size()?"0":ans.substr(pos);
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 public class 数字的补数 {
     public static void main(String[] args) {
 //        System.out.println(1 ^ 1);
@@ -44,4 +44,4 @@ public class 数字的补数 {
     }
 }
 
-```
+// ```

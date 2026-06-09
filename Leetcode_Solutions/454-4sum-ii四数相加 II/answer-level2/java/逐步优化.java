@@ -1,8 +1,8 @@
-### 解题思路
-**方法一**：o(n^4)做法 代码略 超时
-**方法二**：o(n^3*logn)做法  排序+二分  超时46/48
-代码：
-```
+// ### 解题思路
+// **方法一**：o(n^4)做法 代码略 超时
+// **方法二**：o(n^3*logn)做法  排序+二分  超时46/48
+// 代码：
+// ```
 class Solution {
     public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         if(A==null||A.length==0) return 0;
@@ -38,10 +38,10 @@ class Solution {
         return cnt;
     }
 }
-```
-**方法三**：o(n^3)做法 HashMap存放最后一层循环的数据 超时 47/48
-代码：
-```
+// ```
+// **方法三**：o(n^3)做法 HashMap存放最后一层循环的数据 超时 47/48
+// 代码：
+// ```
 class Solution {
     public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         if(A==null||A.length==0) return 0;
@@ -61,13 +61,13 @@ class Solution {
     }
 }
 
-```
+// ```
 
-**方法四**：o(n^2)做法 同方法三 只是把两层循环的和放入HashMap 通过
+// **方法四**：o(n^2)做法 同方法三 只是把两层循环的和放入HashMap 通过
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         if(A==null||A.length==0) return 0;
@@ -89,4 +89,4 @@ class Solution {
         return cnt;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-这题最朴素最容易想到的就是BFS了，完全就是一道BFS裸题。从原点出发，沿四个方向（**其实两个方向就行了，因为可行区域在原点的右上方**）不断拓展，将可到达并且满足坐标数位和不大于`k`的点加入到队列中，直到所有可到达的点都被访问到。
+// ### 解题思路
+// 这题最朴素最容易想到的就是BFS了，完全就是一道BFS裸题。从原点出发，沿四个方向（**其实两个方向就行了，因为可行区域在原点的右上方**）不断拓展，将可到达并且满足坐标数位和不大于`k`的点加入到队列中，直到所有可到达的点都被访问到。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int movingCount(int m, int n, int k) {
         int res = 1;
@@ -62,11 +62,11 @@ class Point {
         this.y = y;
     }
 }
-```
+// ```
 
-当然，这道题用dfs也很简单。
+// 当然，这道题用dfs也很简单。
 
-```java
+// ```java
 class Solution {
     public int movingCount(int m, int n, int k) {
         boolean[][] visited = new boolean[m][n];
@@ -92,4 +92,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

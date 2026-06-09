@@ -1,8 +1,8 @@
-### 解题思路
-和47的思路很像，这里需要做的是如果不满足sqrt的要求，就不进入下一个递归函数
+# ### 解题思路
+# 和47的思路很像，这里需要做的是如果不满足sqrt的要求，就不进入下一个递归函数
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def numSquarefulPerms(self, nums: List[int]) -> int:
         if not nums: return []
@@ -29,4 +29,4 @@ class Solution:
                 # else: #不能提前终止，当前元素nums[i]不满足要求，直接break，会让下一个元素没办法获得
                 # [1,17,8] 17breek的话，直接无法尝试8了。导致空值
                 #     break
-```
+# ```

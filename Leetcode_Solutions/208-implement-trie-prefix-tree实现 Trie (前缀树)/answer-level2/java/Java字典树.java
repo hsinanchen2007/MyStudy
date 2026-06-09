@@ -1,36 +1,36 @@
-### 解题思路
-字典树的标准结构如下：
+// ### 解题思路
+// 字典树的标准结构如下：
 
-/**
- * trie树的一个例子是
- * see pain paint pair dog
- *
- *           [树根是空的]
- *          /    |     \
- *         d     p     s    // 字母顺序自然排序
- *         |     |     |
- *         o     a     e
- *         |     |     |
- *         g     i     e    // 'e' && 'g' --> isWholeWord = true
- *              / \
- *             n   r        // 'n' && 'r' --> isWholeWord = true
- *             |
- *             t            // 't' --> isWholeWord = true
- *
- *
- */
+// /**
+//  * trie树的一个例子是
+//  * see pain paint pair dog
+//  *
+//  *           [树根是空的]
+//  *          /    |     \
+//  *         d     p     s    // 字母顺序自然排序
+//  *         |     |     |
+//  *         o     a     e
+//  *         |     |     |
+//  *         g     i     e    // 'e' && 'g' --> isWholeWord = true
+//  *              / \
+//  *             n   r        // 'n' && 'r' --> isWholeWord = true
+//  *             |
+//  *             t            // 't' --> isWholeWord = true
+//  *
+//  *
+//  */
 
-所以我们构建字典树也要根据上面的结构：
-1. 需要一个子节点数组
-2. 需要记录当前节点保存的一个字符c
-3. 需要记录到当前节点是否是一个完整的单词
-4. 需要经过当前节点的字母的数量（方便统计最大前缀）
+// 所以我们构建字典树也要根据上面的结构：
+// 1. 需要一个子节点数组
+// 2. 需要记录当前节点保存的一个字符c
+// 3. 需要记录到当前节点是否是一个完整的单词
+// 4. 需要经过当前节点的字母的数量（方便统计最大前缀）
 
-请参考如下代码：
+// 请参考如下代码：
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Trie {
 
     protected int num;
@@ -118,4 +118,4 @@ class Trie {
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
-```
+// ```

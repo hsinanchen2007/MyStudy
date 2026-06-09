@@ -1,9 +1,9 @@
-### 解题思路
-**找到m节点和n节点后反转，然后两边连接起来**
+// ### 解题思路
+// **找到m节点和n节点后反转，然后两边连接起来**
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -62,4 +62,4 @@ class Solution {
 		return pre.next;
     }
 }
-```
+// ```

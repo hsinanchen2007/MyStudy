@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
         
     }
 };
-```
+// ```

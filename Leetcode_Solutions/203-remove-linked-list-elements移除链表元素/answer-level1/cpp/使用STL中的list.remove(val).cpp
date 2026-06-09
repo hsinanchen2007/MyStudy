@@ -1,4 +1,4 @@
-```
+// ```
 #include <iostream>
 #include<list>
 using namespace std;
@@ -38,4 +38,4 @@ int main()
 	system("pause");
 	return 0;
 }
-```
+// ```

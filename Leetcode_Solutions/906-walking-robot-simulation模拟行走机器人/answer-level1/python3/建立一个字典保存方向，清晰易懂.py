@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def robotSim(self, commands: List[int], obstacles: List[List[int]]) -> int:
         directions = {'up':{0:[0,1], -1:'right', -2:'left'},
@@ -23,4 +23,4 @@ class Solution:
                     cord = [tmp_x, tmp_y]
                 res = max(res, cord[0]**2+cord[1]**2)
         return res
-```
+# ```

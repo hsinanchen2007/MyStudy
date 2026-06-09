@@ -1,4 +1,4 @@
-```cpp []
+// ```cpp []
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -21,5 +21,5 @@ public:
         return leftCount > rightCount ? left : right;
     }
 };
-```
+// ```
 

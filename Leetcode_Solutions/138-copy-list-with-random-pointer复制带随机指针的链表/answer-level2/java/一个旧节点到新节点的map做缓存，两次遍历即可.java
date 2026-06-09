@@ -1,4 +1,4 @@
-```
+// ```
  HashMap<Node, Node> oldtonew = new HashMap<Node, Node>();
         Node p;
         Node l=null;
@@ -21,4 +21,4 @@
         }
 
         return newHead;
-```
+// ```

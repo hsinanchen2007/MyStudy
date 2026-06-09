@@ -1,4 +1,4 @@
-```
+// ```
 var uniqueMorseRepresentations = function(words) {
     var base = "abcdefghijklmnopqrstuvwxyz";
     var text_code = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."];
@@ -17,4 +17,4 @@ var uniqueMorseRepresentations = function(words) {
     }
     return resArr.length;
 };
-```
+// ```

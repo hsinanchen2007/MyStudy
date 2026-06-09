@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-第一个节点拿出来单独判断即可
+// 第一个节点拿出来单独判断即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,4 +27,4 @@ public:
         return head;
     }
 };
-```
+// ```

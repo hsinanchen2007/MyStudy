@@ -1,9 +1,9 @@
-### 解题思路
-将链表的数字转换之后存到num1，num2中，求完和后在转换为链表
+# ### 解题思路
+# 将链表的数字转换之后存到num1，num2中，求完和后在转换为链表
 
-### 代码
+# ### 代码
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
         return pre
         
 
-```
+# ```

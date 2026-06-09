@@ -1,9 +1,9 @@
-### 解题思路
-    先用map将单个数出现的次数记录一下，之后从map中取出次数和数组长度做除法。
+// ### 解题思路
+//     先用map将单个数出现的次数记录一下，之后从map中取出次数和数组长度做除法。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findSpecialInteger(int[] arr) {
        if (arr == null) {
@@ -31,4 +31,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

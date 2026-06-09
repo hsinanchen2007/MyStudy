@@ -1,9 +1,9 @@
-### 解题思路
-《剑指Offer》python3版，书上是c++版本的
+# ### 解题思路
+# 《剑指Offer》python3版，书上是c++版本的
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def __init__(self):
         self.p = 0
@@ -43,4 +43,4 @@ class Solution:
         while(self.p < len(s) and s[self.p]>='0' and s[self.p]<='9'):
             self.p += 1
         return self.p > pre
-```
+# ```

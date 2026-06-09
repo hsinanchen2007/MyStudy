@@ -1,11 +1,11 @@
-### 解题思路
-1. 二分查找旋转点
-2. 确定二分查找区间
-3. 二分查找目标值
+// ### 解题思路
+// 1. 二分查找旋转点
+// 2. 确定二分查找区间
+// 3. 二分查找目标值
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func search(nums []int, target int) int {
 
     if len(nums) == 0{
@@ -81,4 +81,4 @@ func targetIndex(nums []int, low, high, target int) int {
 	return -1
 }
 
-```
+// ```

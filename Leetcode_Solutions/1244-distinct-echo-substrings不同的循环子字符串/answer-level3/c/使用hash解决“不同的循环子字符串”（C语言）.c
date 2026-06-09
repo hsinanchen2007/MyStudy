@@ -1,16 +1,16 @@
-### 解题思路
-1.本题没有使用复杂的算法，只用最基本的遍历比较，然后使用hash去除重复。
+// ### 解题思路
+// 1.本题没有使用复杂的算法，只用最基本的遍历比较，然后使用hash去除重复。
 
-2.问题在于，会存在已经查找过的字串，重复查找的问题，出现超时。
+// 2.问题在于，会存在已经查找过的字串，重复查找的问题，出现超时。
 
-3.增加一步剪枝，即在遍历判断一个新的字串之前，先hash判断该字串是否已经被处理。
+// 3.增加一步剪枝，即在遍历判断一个新的字串之前，先hash判断该字串是否已经被处理。
 
-![image.png](https://pic.leetcode-cn.com/576b0ee33b22dd301c2c7ab903957882e654ae08b75f33f7f7032c2738b48c96-image.png)
+// ![image.png](https://pic.leetcode-cn.com/576b0ee33b22dd301c2c7ab903957882e654ae08b75f33f7f7032c2738b48c96-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define POOL_SIZE   1000
 
 typedef struct _hash_st
@@ -74,4 +74,4 @@ int distinctEchoSubstrings(char * text){
 
     return sum;
 }
-```
+// ```

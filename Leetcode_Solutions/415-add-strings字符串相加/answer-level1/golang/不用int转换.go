@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/45675669927a06f80aae3ef25a1546459eb46cc40f48029808a1abebd00a26b3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/45675669927a06f80aae3ef25a1546459eb46cc40f48029808a1abebd00a26b3-image.png)
 
-```
+// ```
 func addStrings(num1 string, num2 string) string {
     var i int = len(num1) - 1
     var j int = len(num2) - 1
@@ -28,4 +28,4 @@ func addStrings(num1 string, num2 string) string {
     return string(s)
 }
 
-```
+// ```

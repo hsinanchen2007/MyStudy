@@ -1,9 +1,9 @@
-### 解题思路
-递归遍历，找出每个节点到叶子节点的过程中，找到的满足条件的路径，相加即可。
+// ### 解题思路
+// 递归遍历，找出每个节点到叶子节点的过程中，找到的满足条件的路径，相加即可。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -35,4 +35,4 @@ function findPath(node, sum) {
     return res
 }
 
-```
+// ```

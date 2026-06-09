@@ -1,6 +1,6 @@
-参考精选的java代码实现javascript，代码比较简单些
+// 参考精选的java代码实现javascript，代码比较简单些
 
-```javascript
+// ```javascript
 var lengthOfLIS = function(nums) {
     let n = nums.length;
     let res = 0
@@ -18,4 +18,4 @@ var lengthOfLIS = function(nums) {
     })
     return res
 };
-```
+// ```

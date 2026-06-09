@@ -1,9 +1,9 @@
 
-暴力解法
+# 暴力解法
 
 
 
-```python []
+# ```python []
 class Solution:
     def check(self,word1,word2):
         for i in word1:
@@ -20,4 +20,4 @@ class Solution:
                     res = max(res, len(words[i])*len(words[j]))
         
         return res
-```
+# ```

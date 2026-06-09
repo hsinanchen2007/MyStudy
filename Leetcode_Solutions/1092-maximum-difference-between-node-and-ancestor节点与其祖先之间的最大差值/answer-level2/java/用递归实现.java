@@ -1,5 +1,5 @@
-用递归来解决此问题，递归函数两个数值参数分别记录当前节点的所有祖宗节点的上界和下界
-```
+// 用递归来解决此问题，递归函数两个数值参数分别记录当前节点的所有祖宗节点的上界和下界
+// ```
 public class Solution {
     public int maxAncestorDiff(TreeNode root) {
         if(root==null){
@@ -27,4 +27,4 @@ public class Solution {
         return b-a;
     }
 }
-```
+// ```

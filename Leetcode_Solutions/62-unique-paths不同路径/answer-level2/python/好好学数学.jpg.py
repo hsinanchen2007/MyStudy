@@ -1,9 +1,9 @@
-### 解题思路
-排列组合真好用
+# ### 解题思路
+# 排列组合真好用
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         child = 1
@@ -14,4 +14,4 @@ class Solution:
             mother *= i
         return int(child/mother)
 
-```
+# ```

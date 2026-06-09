@@ -1,21 +1,21 @@
-Python3
+# Python3
 
-一个有效的二叉搜索树，满足一下三个条件：
-1.左子树的节点值均小于当前节点值 -> max_val(root.left) < root.val
-2.右子树的节点值均大于当前节点值 -> min_val(root.right) > root.val
-3.左右子树均为BST -> l and r,其中l = self.isValidBST(root.left) ；r = self.isValidBST(root.right)
-因此定义函数
-func:= isValidBST
-input: root
-return: 条件1 and 条件2 and 条件3
+# 一个有效的二叉搜索树，满足一下三个条件：
+# 1.左子树的节点值均小于当前节点值 -> max_val(root.left) < root.val
+# 2.右子树的节点值均大于当前节点值 -> min_val(root.right) > root.val
+# 3.左右子树均为BST -> l and r,其中l = self.isValidBST(root.left) ；r = self.isValidBST(root.right)
+# 因此定义函数
+# func:= isValidBST
+# input: root
+# return: 条件1 and 条件2 and 条件3
 
-除此之外，定义两个辅助函数，计算树的最大节点和最小节点。
-
-
+# 除此之外，定义两个辅助函数，计算树的最大节点和最小节点。
 
 
 
-```
+
+
+# ```
 class Solution:
     """给定一个二叉树，判断其是否是一个有效的二叉搜索树
     """
@@ -40,4 +40,4 @@ class Solution:
         l = self.max_val(root.left)  # 左子树的最小值
         r = self.max_val(root.right)  # 右子树的最小值
         return max(root.val, l, r)
-```
+# ```

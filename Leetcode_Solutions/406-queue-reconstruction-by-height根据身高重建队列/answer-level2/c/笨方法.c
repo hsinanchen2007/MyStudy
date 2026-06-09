@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/03340feca3908c8e86ce68ee0c4a31af26cc87bd28c44d0ddc2f0baa3f396947-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/03340feca3908c8e86ce68ee0c4a31af26cc87bd28c44d0ddc2f0baa3f396947-image.png)
 
-最笨的方法
-首先身高排序，且将所有人的身高设为最大值
-然后从最矮(h,k)的开始排，最矮的人左边有k个比他高的人即可，找到位置就放进去
+// 最笨的方法
+// 首先身高排序，且将所有人的身高设为最大值
+// 然后从最矮(h,k)的开始排，最矮的人左边有k个比他高的人即可，找到位置就放进去
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void sortArray(int** people, int peopleSize)
 {
     int i;
@@ -53,4 +53,4 @@ int** reconstructQueue(int** people, int peopleSize, int* peopleColSize,
     *returnColumnSizes = peopleColSize;
     return peopleTemp;
 }
-```
+// ```

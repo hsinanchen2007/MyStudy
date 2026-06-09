@@ -1,7 +1,7 @@
-### 具体思路注释在代码中
-### 代码
+// ### 具体思路注释在代码中
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean exist(char[][] board, String word) {
         int index = 0;//作为字符串的索引
@@ -53,4 +53,4 @@ class Solution {
 		return tempFlag;
 	}
 }
-```
+// ```

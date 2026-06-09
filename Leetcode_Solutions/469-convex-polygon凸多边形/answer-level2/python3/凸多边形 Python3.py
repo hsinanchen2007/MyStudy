@@ -1,16 +1,16 @@
-### 解题思路
-执行用时 :236 ms, 在所有 Python3 提交中击败了42.31%的用户
-内存消耗 :18.4 MB, 在所有 Python3 提交中击败了10.00%的用户
+# ### 解题思路
+# 执行用时 :236 ms, 在所有 Python3 提交中击败了42.31%的用户
+# 内存消耗 :18.4 MB, 在所有 Python3 提交中击败了10.00%的用户
 
-依次选取三个点做叉乘得到value：
-记录上次叉乘的结果为pre_value
-1. pre_value*value<0: 方向发生变化，不是凸多边形
-2. pre_value*value>0: 方向没有发生变化，更新pre_value为value
-2. value=0: 三个点在一条直线上，不更新pre_value
+# 依次选取三个点做叉乘得到value：
+# 记录上次叉乘的结果为pre_value
+# 1. pre_value*value<0: 方向发生变化，不是凸多边形
+# 2. pre_value*value>0: 方向没有发生变化，更新pre_value为value
+# 2. value=0: 三个点在一条直线上，不更新pre_value
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isConvex(self, points: List[List[int]]) -> bool:
         
@@ -31,4 +31,4 @@ class Solution:
                 pre_value = value
 
         return True
-```
+# ```

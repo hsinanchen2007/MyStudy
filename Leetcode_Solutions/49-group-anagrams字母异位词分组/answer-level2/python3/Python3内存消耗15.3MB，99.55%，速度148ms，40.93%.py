@@ -1,9 +1,9 @@
-### 解题思路
-对每个字符串排序后加入字典即可，暴力求解
+# ### 解题思路
+# 对每个字符串排序后加入字典即可，暴力求解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         res = []
@@ -17,4 +17,4 @@ class Solution:
         for key in res_.keys():
             res.append(res_[key])
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-用一个临时数组的下标记录出现过的数字。
+// ### 解题思路
+// 用一个临时数组的下标记录出现过的数字。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
  int amount = nums.length;
@@ -15,4 +15,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

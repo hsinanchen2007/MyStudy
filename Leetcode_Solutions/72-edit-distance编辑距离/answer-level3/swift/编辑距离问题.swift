@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
 func minDistance(_ word1: String, _ word2: String) -> Int {
     let word1Array = word1.map{$0}
@@ -42,4 +42,4 @@ func minDistance(_ word1: String, _ word2: String) -> Int {
 
 
 }
-```
+// ```

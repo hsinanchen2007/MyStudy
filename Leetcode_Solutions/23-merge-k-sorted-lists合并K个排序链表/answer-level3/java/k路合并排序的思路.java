@@ -1,9 +1,9 @@
 
-k路合并排序的思路
-组建一个最小堆，取最小的值则为需要输出的，取出后 再去列表里面取最小的一个值放入堆里面，我这里为了方便使用java自带的sort函数，用数组来表示堆（思想差不多）
-用List<ListNode> list 来记录最小的堆
+// k路合并排序的思路
+// 组建一个最小堆，取最小的值则为需要输出的，取出后 再去列表里面取最小的一个值放入堆里面，我这里为了方便使用java自带的sort函数，用数组来表示堆（思想差不多）
+// 用List<ListNode> list 来记录最小的堆
 
-```
+// ```
 public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) {
             return null;
@@ -84,4 +84,4 @@ public ListNode mergeKLists(ListNode[] lists) {
         }
         return result;
     }
-```
+// ```

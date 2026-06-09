@@ -1,5 +1,5 @@
-大写字母都是在65~90之间，加上32会转换成小写
-```
+// 大写字母都是在65~90之间，加上32会转换成小写
+// ```
 public String toLowerCase(String str) {
         //创建一个字符数组，用于存储传换后的小写字母
         char [] c = new char[str.length()];
@@ -16,4 +16,4 @@ public String toLowerCase(String str) {
         //把字符数组转换成字符串返回
         return new String(c);
     }
-```
+// ```

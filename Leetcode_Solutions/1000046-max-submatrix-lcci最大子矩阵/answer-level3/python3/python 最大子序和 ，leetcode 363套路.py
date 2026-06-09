@@ -1,18 +1,18 @@
 
-和363题代码框架一样，区别是找需要记录下最大子序和的起点和终点  
-主函数整体结构都一样的
+# 和363题代码框架一样，区别是找需要记录下最大子序和的起点和终点  
+# 主函数整体结构都一样的
 
-依次做这几道题，方便理解  
-[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
-[84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
-[85. 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/)
-[363. 矩形区域不超过 K 的最大数值和](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/)
-[面试题 17.24. 最大子矩阵](https://leetcode-cn.com/problems/max-submatrix-lcci/)  
+# 依次做这几道题，方便理解  
+# [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+# [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
+# [85. 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/)
+# [363. 矩形区域不超过 K 的最大数值和](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/)
+# [面试题 17.24. 最大子矩阵](https://leetcode-cn.com/problems/max-submatrix-lcci/)  
    
   
 
 
-```python3 []
+# ```python3 []
     #leetcode 363 代码套路一样
     def getMaxMatrix(self, matrix: List[List[int]]) -> List[int]:
         row = len(matrix)
@@ -51,8 +51,8 @@
                 end = i                        #终点是当前坐标
         return start, end, maxVal              #起点，终点，最大前缀和（最大面积）
 
-```
-```python3 []
+# ```
+# ```python3 []
     # 这里是 leetcode 363 的题解，用于参考
     # 1、先计算每列的前缀和
     # 2、计算每行的最大子数组和
@@ -128,4 +128,4 @@
     #                 re = sum
     #             if max==k:return k 
     #     return re
-```
+# ```

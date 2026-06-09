@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numSubarrayBoundedMax(int[] A, int L, int R) {
         int count = 0;               
@@ -22,5 +22,5 @@ class Solution {
         return count;
     }
 }
-```
+// ```
 

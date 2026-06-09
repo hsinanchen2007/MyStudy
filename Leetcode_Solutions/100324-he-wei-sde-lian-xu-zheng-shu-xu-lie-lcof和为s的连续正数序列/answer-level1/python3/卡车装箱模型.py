@@ -1,10 +1,10 @@
-### 解题思路
-卡车装箱模型：
-每箱，如果没装满就一直装，装超了就丢弃，刚好装满则放到车上。
+# ### 解题思路
+# 卡车装箱模型：
+# 每箱，如果没装满就一直装，装超了就丢弃，刚好装满则放到车上。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         result = []
@@ -29,4 +29,4 @@ class Solution:
                     break
             i += 1
         return result
-```
+# ```

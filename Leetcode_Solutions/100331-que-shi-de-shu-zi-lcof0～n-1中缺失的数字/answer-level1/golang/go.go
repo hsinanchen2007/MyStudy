@@ -1,4 +1,4 @@
-```
+// ```
 func missingNumber(nums []int) int {
 	n := len(nums)
 	sum := n * ((n >> 1) + 1)
@@ -11,4 +11,4 @@ func missingNumber(nums []int) int {
 	}
 	return sum - s
 }
-```
+// ```

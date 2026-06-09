@@ -1,12 +1,12 @@
-### 解题思路
-两个栈stack1和stack2分别存放奇数层和偶数层的节点。
-清空stack1过程中，依次将栈顶节点子节点（先左后右）压入stack2
-清空stack2过程中，依次将栈顶节点子节点（先右后左）压入stack1
-直到stack1和stack2都为空。
+// ### 解题思路
+// 两个栈stack1和stack2分别存放奇数层和偶数层的节点。
+// 清空stack1过程中，依次将栈顶节点子节点（先左后右）压入stack2
+// 清空stack2过程中，依次将栈顶节点子节点（先右后左）压入stack1
+// 直到stack1和stack2都为空。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -58,4 +58,4 @@ public:
 
     }
 };
-```
+// ```

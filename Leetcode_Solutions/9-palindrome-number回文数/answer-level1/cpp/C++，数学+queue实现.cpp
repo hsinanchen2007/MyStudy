@@ -1,5 +1,5 @@
-纸片对折
-```
+// 纸片对折
+// ```
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -16,9 +16,9 @@ public:
         return false;
     }
 };
-```
-queue实现
-```
+// ```
+// queue实现
+// ```
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -40,4 +40,4 @@ public:
         return false;
     }
 };
-```
+// ```

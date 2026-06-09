@@ -1,4 +1,4 @@
-```
+// ```
   public boolean hasCycle(ListNode head) {
         if(head == null || head.next == null) return false; //如果是空结点或只有一个结点
 	        ListNode slow = head;   // 慢指针
@@ -10,5 +10,5 @@
 	        }
 	        return false;    //如果不是环形，返回fasle
     }
-```
-我是菜鸟，请多交流
+// ```
+// 我是菜鸟，请多交流

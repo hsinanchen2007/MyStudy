@@ -1,14 +1,14 @@
 
-## 思路：
-因为第 i 个位置可以从 第 i - 2 位置跳过来，也可以从 i - 1 位置跳过来
-**状态转移方程**
-*dp[i] = Min(dp[i - 2] + cost[i - 2], dp[i - 1] + cost[i - 1])*
+// ## 思路：
+// 因为第 i 个位置可以从 第 i - 2 位置跳过来，也可以从 i - 1 位置跳过来
+// **状态转移方程**
+// *dp[i] = Min(dp[i - 2] + cost[i - 2], dp[i - 1] + cost[i - 1])*
 
-## 初始状态
-第0个位置和第1个位置都可以直达，所以dp[0] = dp[1] = 0
+// ## 初始状态
+// 第0个位置和第1个位置都可以直达，所以dp[0] = dp[1] = 0
 
 
-```
+// ```
 #define MAX_SIZE 1001
 
 int Min(int a, int b)
@@ -37,4 +37,4 @@ int minCostClimbingStairs(int* cost, int costSize){
     return dp[costSize];
 
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```java
+// ```java
 
 class Solution {
     public int[] fraction(int[] cont) {
@@ -23,4 +23,4 @@ class Solution {
         return new int[]{x, y};
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-### 思路
-- 先将表达式拆分成数字列表`numList`和运算符列表`operatorList`，其中注意的是每个数字的位数可能不止1位；
-- 然后，我们发现，当数字个数大于1个的时候，算到最后肯定就剩下两个数字。那么这两个数字，一个肯定是左边若干个数字算出来的结果，另一个则是右边若干个数字算出来的结果。同时，由于不同的括号添加方案，左右都会有多种结果。因此，可的核心算法如下：
-```java
+// ### 思路
+// - 先将表达式拆分成数字列表`numList`和运算符列表`operatorList`，其中注意的是每个数字的位数可能不止1位；
+// - 然后，我们发现，当数字个数大于1个的时候，算到最后肯定就剩下两个数字。那么这两个数字，一个肯定是左边若干个数字算出来的结果，另一个则是右边若干个数字算出来的结果。同时，由于不同的括号添加方案，左右都会有多种结果。因此，可的核心算法如下：
+// ```java
         List<Integer> ansList = new ArrayList<>();
         for (int i = start; i < end; i++) {
             List<Integer> leftList = rec(start, i);
@@ -12,11 +12,11 @@
                 }
             }
         }
-```
-其中，`calc`是通过不同的运算符计算两数之间的运算结果。
+// ```
+// 其中，`calc`是通过不同的运算符计算两数之间的运算结果。
 
-**完整代码如下：**
-```java
+// **完整代码如下：**
+// ```java
 private List<Integer> numList;
     private List<Character> operatorList;
     private List<Integer>[][] memo;
@@ -84,4 +84,4 @@ private List<Integer> numList;
         return rec(0, len - 1);
     }
 
-```
+// ```

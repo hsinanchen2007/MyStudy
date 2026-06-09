@@ -1,6 +1,6 @@
-- 先快慢指针取中点
-- 然后递归后半部分，在“归”的时候（逆序）和前半部分（正序）判断
-```Java
+// - 先快慢指针取中点
+// - 然后递归后半部分，在“归”的时候（逆序）和前半部分（正序）判断
+// ```Java
 class Solution {
     private ListNode head;
     public boolean isPalindrome(ListNode head) {
@@ -21,4 +21,4 @@ class Solution {
         return ret && isEq;
     }
 }
-```
+// ```

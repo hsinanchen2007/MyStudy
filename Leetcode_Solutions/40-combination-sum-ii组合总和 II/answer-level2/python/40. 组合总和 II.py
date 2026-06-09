@@ -1,5 +1,5 @@
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution(object):
     def combinationSum2(self, candidates, target):
         self.ans = []
@@ -23,4 +23,4 @@ class Solution(object):
             temp.append(candidates[i])
             self.combination(candidates,res,temp,i+1)
             temp.pop()
-```
+# ```

@@ -1,8 +1,8 @@
-题解思路：
-- 题目中已经给出，用字典树来做是效率最高的，所以此题考察的就是字典树的应用。
-- 分析题目可知，是查询board中的字符上下左右连通匹配到 words 数组中的字符。所以我们对 words 构建字典树，然后遍历board中的每个字符，进行四连通+判断是否匹配字典树
+// 题解思路：
+// - 题目中已经给出，用字典树来做是效率最高的，所以此题考察的就是字典树的应用。
+// - 分析题目可知，是查询board中的字符上下左右连通匹配到 words 数组中的字符。所以我们对 words 构建字典树，然后遍历board中的每个字符，进行四连通+判断是否匹配字典树
 
-```javascript
+// ```javascript
 /**
  * 212. Word Search II
  * https://leetcode-cn.com/problems/word-search-ii/
@@ -60,4 +60,4 @@ class Trie {
     node.isEnd = true
   }
 }
-```
+// ```

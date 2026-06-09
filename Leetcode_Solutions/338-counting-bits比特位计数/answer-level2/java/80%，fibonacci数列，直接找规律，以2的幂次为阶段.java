@@ -1,6 +1,6 @@
-其实应该用Linkedlist解更容易
-2^m ~ 2^m - 1 中的数的bit表示的1的数量是0 ~ 2^m - 1的bit表示的1的数量每个数加1
-```
+// 其实应该用Linkedlist解更容易
+// 2^m ~ 2^m - 1 中的数的bit表示的1的数量是0 ~ 2^m - 1的bit表示的1的数量每个数加1
+// ```
 class Solution {
     public int[] countBits(int num) {
         if(num == 0)
@@ -20,4 +20,4 @@ class Solution {
         return r;
     }
 }
-```
+// ```

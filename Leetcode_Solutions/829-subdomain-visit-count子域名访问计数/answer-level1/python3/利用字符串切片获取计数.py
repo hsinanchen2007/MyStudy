@@ -1,9 +1,9 @@
-### 解题思路
-广泛利用str.split()。超过73.97%的用户
+# ### 解题思路
+# 广泛利用str.split()。超过73.97%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subdomainVisits(self, cpdomains: List[str]) -> List[str]:
         countNet = {}
@@ -23,4 +23,4 @@ class Solution:
         for i, j in zip(countNet.keys(), countNet.values()):
             ret.append("{} {}".format(j, i))
         return ret
-```
+# ```

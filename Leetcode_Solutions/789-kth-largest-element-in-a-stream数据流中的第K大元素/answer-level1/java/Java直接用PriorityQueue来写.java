@@ -1,6 +1,6 @@
-直接用java自带的优先队来实现。
+// 直接用java自带的优先队来实现。
 
-```
+// ```
 class KthLargest {
     
     final PriorityQueue<Integer> minHeap;
@@ -31,6 +31,6 @@ class KthLargest {
         
     }
 }
-```
+// ```
 
 

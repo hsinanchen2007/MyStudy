@@ -1,7 +1,7 @@
-# 一.分治
-**思路**:以每一个运算符为界 可以分成左半边和右半边 递归得到左半边和右半边所有可能的运算结果 最后按照运算符完成1×1的笛卡尔积运算
-**注意**:python3可以使用@lru_cache()装饰器来尽可能提高递归的效率 两种语言都可以用备忘录来进行优化 本人菜鸡 主要的语句都给了注释(详见py版本) 还请大家多多指教
-```python []
+// # 一.分治
+// **思路**:以每一个运算符为界 可以分成左半边和右半边 递归得到左半边和右半边所有可能的运算结果 最后按照运算符完成1×1的笛卡尔积运算
+// **注意**:python3可以使用@lru_cache()装饰器来尽可能提高递归的效率 两种语言都可以用备忘录来进行优化 本人菜鸡 主要的语句都给了注释(详见py版本) 还请大家多多指教
+// ```python []
 from functools import lru_cache #使用这个可以尽量提高递归算法的效率
 class Solution:
 	@lru_cache()
@@ -21,8 +21,8 @@ class Solution:
 		if not ans: #说明当前的input中是没有运算符的
 			ans.append(int(input))
 		return ans
-```
-```golang []
+// ```
+// ```golang []
 import "strconv"
 func diffWaysToCompute(input string) (ans []int) {
 	for i,v:=range input { //这边没必要用到[]rune的强制类型转换
@@ -49,13 +49,13 @@ func diffWaysToCompute(input string) (ans []int) {
 	}
 	return
 }
-```
+// ```
 
 
-# 二.DP(动态规划)
-**思路**:连续的两个数字的运算结果=>连续的三个数字的运算结果=>连续的四个数字的运算结果=>...老师讲算法的时候有讲过矩阵连乘问题 感觉这题目也可以这么想 语死早 说得不清楚 具体可参考以下链接所示博文[https://blog.csdn.net/qq_32919451/article/details/80643118]()
-**注意**:这种方法效率不是很好 主要的语句都添加了注释(详见py版本) 还请大家多多指教 /(ㄒoㄒ)/~~
-```python []
+// # 二.DP(动态规划)
+// **思路**:连续的两个数字的运算结果=>连续的三个数字的运算结果=>连续的四个数字的运算结果=>...老师讲算法的时候有讲过矩阵连乘问题 感觉这题目也可以这么想 语死早 说得不清楚 具体可参考以下链接所示博文[https://blog.csdn.net/qq_32919451/article/details/80643118]()
+// **注意**:这种方法效率不是很好 主要的语句都添加了注释(详见py版本) 还请大家多多指教 /(ㄒoㄒ)/~~
+// ```python []
 from re import compile,findall
 class Solution:
 	def diffWaysToCompute(self,input):
@@ -71,8 +71,8 @@ class Solution:
 					new[j].extend(str(eval(x+ope+y)) for x in situ[offset][j] for y in situ[i-offset][j+offset]) #也是笛卡尔积
 			situ.append(new) #接上行注释 situ的第一个索引表示左/右有多少个数字 i之所以从2开始计数,situ首元素为空dict 就是为了这里方便理解和编写 第二个索引表示这些数字中的第一个数字在nums中的索引
 		return list(map(int,situ[-1][0]))
-```
-```golang []
+// ```
+// ```golang []
 import (
 	"strconv"
 	"regexp"
@@ -114,7 +114,7 @@ func diffWaysToCompute(input string) []int {
 	}
 	return situ[len(situ)-1][0]
 }
-```
+// ```
 
 
 

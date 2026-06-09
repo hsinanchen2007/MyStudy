@@ -1,5 +1,5 @@
-字典树，后缀存储：
-```
+// 字典树，后缀存储：
+// ```
   int ans = 0;
     public int minimumLengthEncoding(String[] words) {
         for (String w : words) {
@@ -44,5 +44,5 @@
         cur.count = word.length() + 1;
     }
 
-```
+// ```
 

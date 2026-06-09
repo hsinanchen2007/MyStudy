@@ -1,9 +1,9 @@
-### 解题思路
-每一次比较栈顶元素与popped当前元素是否相同，不同就将pushed元素压入栈中。
+// ### 解题思路
+// 每一次比较栈顶元素与popped当前元素是否相同，不同就将pushed元素压入栈中。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
@@ -25,4 +25,4 @@ public:
         return j==popped.size();
     }
 };
-```
+// ```

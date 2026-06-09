@@ -1,15 +1,15 @@
-这道题之前可以先做 76. 最小覆盖子串
+# 这道题之前可以先做 76. 最小覆盖子串
 
-```
+# ```
 def chessRight(window: dict, count: dict) -> bool:
     # 判断window中的元素是否满足count
     for count_key in count.keys():
         if window[count_key] < count[count_key]:
             return False
     return True
-```
+# ```
 
-```
+# ```
 def balance_string(s: str) -> int:
     # 每个字母应该出现的次数
     times = int(len(s) / 4)
@@ -43,6 +43,6 @@ def balance_string(s: str) -> int:
             window[s[left]] -= 1
             left += 1
     return res
-```
+# ```
 
 

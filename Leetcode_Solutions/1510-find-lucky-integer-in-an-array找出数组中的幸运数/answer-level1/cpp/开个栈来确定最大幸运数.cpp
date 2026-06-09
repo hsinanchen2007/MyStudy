@@ -1,9 +1,9 @@
-### 解题思路
-关键就是能否找出最大幸运数了吧
+// ### 解题思路
+// 关键就是能否找出最大幸运数了吧
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findLucky(vector<int>& arr) {
@@ -35,4 +35,4 @@ public:
         return -1;       
     }
 };
-```
+// ```

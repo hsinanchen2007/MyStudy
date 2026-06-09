@@ -1,4 +1,4 @@
-C语言用递归法写的
+// C语言用递归法写的
 
 struct TreeNode* buildTree(int* preorder, int preorderSize, int* inorder, int inorderSize)
 {

@@ -1,21 +1,21 @@
-### 解题思路
-在这里总结一下链表题目的做法总结，基本方法有两种，一般的链表题目都是可以用这两种方法解决
-```
+// ### 解题思路
+// 在这里总结一下链表题目的做法总结，基本方法有两种，一般的链表题目都是可以用这两种方法解决
+// ```
 1.直接法
 
 2.递归法
-```
-这两种方法的特点如下：
-```
+// ```
+// 这两种方法的特点如下：
+// ```
 1.直接法就是可以直接从头开始遍历操作，这种思路很简单
 
 2.递归法，就是对于我们平时解决那种需要倒序遍历操作的题目
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -49,9 +49,9 @@ struct ListNode* swapPairs(struct ListNode* head){
     }
     return head;
 }
-```
+// ```
 
-```c
+// ```c
 //递归
 /**
  * Definition for singly-linked list.
@@ -81,4 +81,4 @@ struct ListNode* swapPairs(struct ListNode* head){
 }
 
 
-```
+// ```

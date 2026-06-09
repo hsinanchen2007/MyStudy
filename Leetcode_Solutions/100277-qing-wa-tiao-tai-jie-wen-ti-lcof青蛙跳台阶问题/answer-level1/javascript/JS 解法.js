@@ -1,12 +1,12 @@
-### 解题思路
-类斐波那契数列
+// ### 解题思路
+// 类斐波那契数列
 
-f(0) = 1, f(1) = 1, f(2) = 2
-f(n) = f(n-1) + f(n-2)
+// f(0) = 1, f(1) = 1, f(2) = 2
+// f(n) = f(n-1) + f(n-2)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -23,11 +23,11 @@ var numWays = function (n) {
   return b
 }
 
-```
+// ```
 
 
-记忆函数 迭代
-```js
+// 记忆函数 迭代
+// ```js
 var numWays = function (n) {
   let memo = []
   return step(0, n, memo)
@@ -40,4 +40,4 @@ function step(i, n, memo) {
   memo[i] = step(i + 1, n, memo) + step(i + 2, n, memo)
   return memo[i] % 1000000007
 }
-```
+// ```

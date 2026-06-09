@@ -1,9 +1,9 @@
-### 解题思路
-用到了哈希表，想法很简单
+// ### 解题思路
+// 用到了哈希表，想法很简单
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.ArrayList;
 import java.util.HashMap;
 class Solution {
@@ -36,4 +36,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

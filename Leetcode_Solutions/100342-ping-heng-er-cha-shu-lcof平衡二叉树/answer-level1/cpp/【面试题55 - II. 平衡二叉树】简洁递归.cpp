@@ -1,10 +1,10 @@
-## 思路一：自顶向下
+// ## 思路一：自顶向下
 
 
-### 代码
-时间复杂度：O(n^2)，每个点访问两次
-空间复杂度：O(nlogn)
-```cpp
+// ### 代码
+// 时间复杂度：O(n^2)，每个点访问两次
+// 空间复杂度：O(nlogn)
+// ```cpp
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
@@ -20,4 +20,4 @@ public:
         return max(helper(root->left), helper(root->right)) + 1;
     }
 };
-```
+// ```

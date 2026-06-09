@@ -1,9 +1,9 @@
-### 解题思路
-把字符串拆了，然后逆序拼接
+// ### 解题思路
+// 把字符串拆了，然后逆序拼接
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s)
@@ -34,4 +34,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-2个条件：
-1）当前节点的左右子树是二叉搜索树；
-2）当前节点的值要大于左子树的最大值，同时要小于右子树的最小值
+// ### 解题思路
+// 2个条件：
+// 1）当前节点的左右子树是二叉搜索树；
+// 2）当前节点的值要大于左子树的最大值，同时要小于右子树的最小值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int FindMax(struct TreeNode* root)
 {
     struct TreeNode *tmp = root;
@@ -59,4 +59,4 @@ bool isValidBST(struct TreeNode* root){
         return false;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-![1.png](https://pic.leetcode-cn.com/bcc098e5080604b98b3bcbd77498c90e1917fef6f67809d64c3d56c96251e673-1.png)
+// ![1.png](https://pic.leetcode-cn.com/bcc098e5080604b98b3bcbd77498c90e1917fef6f67809d64c3d56c96251e673-1.png)
 
-### 解题思路
-遍历周围八个点
+// ### 解题思路
+// 遍历周围八个点
 
-注意：不是遍历周边最新状态，而是最初的状态
-### 代码
+// 注意：不是遍历周边最新状态，而是最初的状态
+// ### 代码
 
-```golang
+// ```golang
 func gameOfLife(board [][]int)  {
     temp := make([][]int, len(board))
     for i := 0;i < len(board);i++ {
@@ -57,4 +57,4 @@ func gameOfLife(board [][]int)  {
     }
     copy(board, temp)
 }
-```
+// ```

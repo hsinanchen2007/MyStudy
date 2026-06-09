@@ -1,13 +1,13 @@
-[494.目标和](https://leetcode-cn.com/problems/target-sum/submissions/)    
+// [494.目标和](https://leetcode-cn.com/problems/target-sum/submissions/)    
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
 
-## 方法一 DFS    
+// ## 方法一 DFS    
 
-直接上代码，代码比较简单。   
+// 直接上代码，代码比较简单。   
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} S
@@ -23,13 +23,13 @@ function help(nums, S, index) {
     }
     
     return help(nums, S-nums[index], index+1) + help(nums, S+nums[index], index + 1);
-```
+// ```
 
-## 方法二 背包问题  
+// ## 方法二 背包问题  
 
-神仙方法，我做的时候没想到，参考[大神的解析](https://leetcode-cn.com/problems/target-sum/solution/python-dfs-xiang-jie-by-jimmy00745/)。
+// 神仙方法，我做的时候没想到，参考[大神的解析](https://leetcode-cn.com/problems/target-sum/solution/python-dfs-xiang-jie-by-jimmy00745/)。
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} S
@@ -51,4 +51,4 @@ var findTargetSumWays = function(nums, S) {
     }
     return dp[target];
 };
-```
+// ```

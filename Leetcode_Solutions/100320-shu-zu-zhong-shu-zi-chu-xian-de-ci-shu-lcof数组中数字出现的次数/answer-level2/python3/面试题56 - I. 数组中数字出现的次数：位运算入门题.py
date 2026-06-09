@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def singleNumbers(self, nums: List[int]) -> List[int]:
         xor, ans = 0, [0, 0]
@@ -9,4 +9,4 @@ class Solution:
         for num in nums:
             ans[not num & low] ^= num
         return ans
-```
+# ```

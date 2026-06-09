@@ -1,15 +1,15 @@
-### 解题思路
-模拟乘法运算：
-999 * 999
-8991
- 8991
-  8991
--------
-998001
+// ### 解题思路
+// 模拟乘法运算：
+// 999 * 999
+// 8991
+//  8991
+//   8991
+// -------
+// 998001
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 string multiply(string num1, string num2) {
@@ -67,4 +67,4 @@ string multiply(string num1, string num2) {
     return str;
 }
 };
-```
+// ```

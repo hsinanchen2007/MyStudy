@@ -1,6 +1,6 @@
-# idea1
-将左右的非零元素向前移动，最后把所有的零元素放到末尾。
-```
+// # idea1
+// 将左右的非零元素向前移动，最后把所有的零元素放到末尾。
+// ```
 public void moveZeroes(int[] nums) {
     //nums中非零元素的个数，也是零元素的开始插入位置。
     int nonZeroCount = 0;
@@ -12,10 +12,10 @@ public void moveZeroes(int[] nums) {
         nums[nonZeroCount++] = 0;
     }
 }
-```
-# idea2
-compare and swap 两个指针，第一个指针记录 第一个零元素的位置，第二个指针记录当前遍历的数组的位置，遇见非零元素，与第一个零元素交换位置。
-```
+// ```
+// # idea2
+// compare and swap 两个指针，第一个指针记录 第一个零元素的位置，第二个指针记录当前遍历的数组的位置，遇见非零元素，与第一个零元素交换位置。
+// ```
  public void moveZeroes(int[] nums) {
        int i = 0;
         for(int j = 0 ;j < nums.length; j++){
@@ -37,4 +37,4 @@ compare and swap 两个指针，第一个指针记录 第一个零元素的位�
    
 
 
-```
+// ```

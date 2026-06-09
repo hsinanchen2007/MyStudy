@@ -1,5 +1,5 @@
-无脑搜就完事了，16ms
-```
+// 无脑搜就完事了，16ms
+// ```
 class Solution {
 public:
     vector<long long>dp;//以i为起点的最小步数
@@ -24,4 +24,4 @@ public:
         return dp[x]=ans;
     }
 };
-```
+// ```

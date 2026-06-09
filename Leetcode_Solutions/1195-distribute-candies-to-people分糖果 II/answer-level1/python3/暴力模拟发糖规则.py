@@ -1,9 +1,9 @@
-### 解题思路
-开始在思考有没有什么数学解法，不如暴力来的简单啊
+# ### 解题思路
+# 开始在思考有没有什么数学解法，不如暴力来的简单啊
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         ans=[0]*num_people
@@ -30,4 +30,4 @@ class Solution:
                      candies=0
         return ans
 
-```
+# ```

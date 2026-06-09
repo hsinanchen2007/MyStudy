@@ -1,9 +1,9 @@
-### 解题思路
-跟《100. 相同的树》差不多的解法
+// ### 解题思路
+// 跟《100. 相同的树》差不多的解法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -34,4 +34,4 @@ func isMirrorTree(p *TreeNode, q *TreeNode) bool {
 	}
 	return isMirrorTree(p.Left, q.Right) && isMirrorTree(p.Right, q.Left)
 }
-```
+// ```

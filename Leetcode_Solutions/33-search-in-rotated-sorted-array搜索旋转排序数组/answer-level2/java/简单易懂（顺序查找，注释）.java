@@ -1,9 +1,9 @@
-# 将数组a[4,5,6,7,0,1,2]看成两段递增子数组m[4,5,6,7] n[0,1,2] target = 0
-# target直接可以通过与a[0]比较得出在哪个子数组中
-1. target<a[0]则target在子数组n中
-2. 由于子数组n是递增数组，所以可以通过while (nums[j - 1] < nums[j])循环控制一直在子数组n中寻找target
-# 详细代码如下：
-```
+// # 将数组a[4,5,6,7,0,1,2]看成两段递增子数组m[4,5,6,7] n[0,1,2] target = 0
+// # target直接可以通过与a[0]比较得出在哪个子数组中
+// 1. target<a[0]则target在子数组n中
+// 2. 由于子数组n是递增数组，所以可以通过while (nums[j - 1] < nums[j])循环控制一直在子数组n中寻找target
+// # 详细代码如下：
+// ```
 public static int search(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
             return -1;
@@ -54,5 +54,5 @@ public static int search(int[] nums, int target) {
             return -1;
         }
     }
-```
-# 新手上路，感觉判断条件欠佳，希望大家帮改正！
+// ```
+// # 新手上路，感觉判断条件欠佳，希望大家帮改正！

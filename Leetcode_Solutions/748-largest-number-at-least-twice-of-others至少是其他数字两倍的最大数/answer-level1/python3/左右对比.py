@@ -1,9 +1,9 @@
-### 解题思路
-我的想法是找到最大数，根据最大数进行左右对比，没有则返回最大数的索引
+# ### 解题思路
+# 我的想法是找到最大数，根据最大数进行左右对比，没有则返回最大数的索引
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def dominantIndex(self, nums: List[int]) -> int:
         max_nums = max(nums)
@@ -15,4 +15,4 @@ class Solution:
             if max_nums < nums[i] * 2:
                 return - 1
         return max_index_nums
-```
+# ```

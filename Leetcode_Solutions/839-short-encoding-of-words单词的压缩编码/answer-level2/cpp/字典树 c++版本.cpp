@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 struct charNode{
     vector<charNode *> next;
     charNode():next(vector<charNode *>(26, NULL)){}
@@ -33,4 +33,4 @@ public:
         if(isLeaf) r+=curDepth+1;
     }
 };
-```
+// ```

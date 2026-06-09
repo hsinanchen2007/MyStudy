@@ -1,5 +1,5 @@
-直接bfs搞起来：
-```js
+// 直接bfs搞起来：
+// ```js
 /**
  * @param {number[][]} grid
  * @return {boolean}
@@ -136,4 +136,4 @@ var hasValidPath = function(grid) {
   }
   return visited.has(`${m-1}-${n-1}`)
 }
-```
+// ```

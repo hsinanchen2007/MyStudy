@@ -1,4 +1,4 @@
-```
+// ```
 int max(int a, int b) {
     if(a > b) {
         b = a;
@@ -51,4 +51,4 @@ int removeBoxes(int* boxes, int boxesSize) {
     free(dp);
     return ans;
 }
-```
+// ```

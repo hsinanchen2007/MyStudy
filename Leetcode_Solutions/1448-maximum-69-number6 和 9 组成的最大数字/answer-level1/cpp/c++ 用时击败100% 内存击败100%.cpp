@@ -1,6 +1,6 @@
-找到第一个6换成9
+// 找到第一个6换成9
 
-```c++
+// ```c++
 class Solution {
 public:
     int fun(vector<int> &v)
@@ -50,4 +50,4 @@ public:
         
     }
 };
-```
+// ```

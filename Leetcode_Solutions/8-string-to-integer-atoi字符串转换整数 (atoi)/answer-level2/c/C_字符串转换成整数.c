@@ -1,14 +1,14 @@
-### 解题思路
-处理字符串的问题，要想办法应对各种奇奇怪怪的输入，没有什么特殊算法和技巧，没意思，选了一个写的比较简单的修改一下交了
+// ### 解题思路
+// 处理字符串的问题，要想办法应对各种奇奇怪怪的输入，没有什么特殊算法和技巧，没意思，选了一个写的比较简单的修改一下交了
 
-原答案:
-作者：non1th
-链接：https://leetcode-cn.com/problems/string-to-integer-atoi/solution/cyu-yan-jie-fa-ji-si-lu-by-non1th/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处
-### 代码
+// 原答案:
+// 作者：non1th
+// 链接：https://leetcode-cn.com/problems/string-to-integer-atoi/solution/cyu-yan-jie-fa-ji-si-lu-by-non1th/
+// 来源：力扣（LeetCode）
+// 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char* str) {
     //去除空格及判断符号位
     while(*str==' ')
@@ -36,4 +36,4 @@ int myAtoi(char* str) {
     return (int)ret;
 }
 
-```
+// ```

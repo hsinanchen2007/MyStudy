@@ -1,6 +1,6 @@
-判断有matrixSize/2圈
-每圈进行数据交换
-```
+// 判断有matrixSize/2圈
+// 每圈进行数据交换
+// ```
 void rotate(int** matrix, int matrixSize, int* matrixColSize)
 {
     int first,last,top,offect;
@@ -21,4 +21,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize)
 	}
 
 }
-```
+// ```

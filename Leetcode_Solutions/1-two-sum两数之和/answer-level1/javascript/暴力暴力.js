@@ -1,9 +1,9 @@
-### 解题思路
-暴力暴力
+// ### 解题思路
+// 暴力暴力
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -19,4 +19,4 @@ let twoSum = (nums,target)=>{
         }
     }          
 };
-```
+// ```

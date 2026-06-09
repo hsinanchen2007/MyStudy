@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
         Integer num = null;
         public boolean isUnivalTree(TreeNode root) {
@@ -8,4 +8,4 @@ class Solution {
             return isUnivalTree(root.left) && isUnivalTree(root.right);
         }
     }
-```
+// ```

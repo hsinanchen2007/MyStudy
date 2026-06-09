@@ -1,10 +1,10 @@
-### 解题思路
-字典存储当前字符的索引，因此下次碰到相同字符可以直接滑动窗口到该索引。
-同时需要记住，这种滑动需要注意碰撞字符需要在窗口内，不在窗口内的直接忽略。
+// ### 解题思路
+// 字典存储当前字符的索引，因此下次碰到相同字符可以直接滑动窗口到该索引。
+// 同时需要记住，这种滑动需要注意碰撞字符需要在窗口内，不在窗口内的直接忽略。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import "fmt"
 
 func lengthOfLongestSubstring(s string) int {
@@ -26,4 +26,4 @@ func lengthOfLongestSubstring(s string) int {
     return maxLength
 }
 
-```
+// ```

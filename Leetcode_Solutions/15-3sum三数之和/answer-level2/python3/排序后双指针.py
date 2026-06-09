@@ -1,5 +1,5 @@
-没想出这个用set应该怎么处理重复的数字以达到O(n2)级别，这个是先排序然后双指针相夹来找到确定和的
-```
+# 没想出这个用set应该怎么处理重复的数字以达到O(n2)级别，这个是先排序然后双指针相夹来找到确定和的
+# ```
 class Solution(object):
     def threeSum(self, nums):
         """
@@ -29,4 +29,4 @@ class Solution(object):
                     k -= 1
                     while nums[k + 1] == nums[k] and j < k: k -= 1
         return redata
-```
+# ```

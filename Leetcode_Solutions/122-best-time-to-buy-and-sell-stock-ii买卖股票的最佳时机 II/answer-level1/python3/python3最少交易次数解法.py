@@ -1,9 +1,9 @@
-### 解题思路
-寻找最佳买点和对应的最佳卖点
+# ### 解题思路
+# 寻找最佳买点和对应的最佳卖点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         x_cursor = 0
@@ -39,4 +39,4 @@ class Solution:
             else:
                 x_cursor = x_cursor + 1
         return earn
-```
+# ```

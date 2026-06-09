@@ -1,9 +1,9 @@
-### 解题思路
-参考官方，解法很巧妙
+// ### 解题思路
+// 参考官方，解法很巧妙
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

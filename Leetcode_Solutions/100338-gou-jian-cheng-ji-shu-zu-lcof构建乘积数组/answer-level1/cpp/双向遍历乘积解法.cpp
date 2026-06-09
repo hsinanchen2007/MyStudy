@@ -1,9 +1,9 @@
-### 解题思路
-双向遍历再乘积，正好符合题意
+// ### 解题思路
+// 双向遍历再乘积，正好符合题意
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> constructArr(vector<int>& a) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

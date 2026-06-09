@@ -1,5 +1,5 @@
-先按.split做分隔，然后补齐四位，再一位一位比较
-```
+// 先按.split做分隔，然后补齐四位，再一位一位比较
+// ```
 func compareVersion(version1 string, version2 string) int {
     versionA:= strings.Split(version1,".")
     versionB:= strings.Split(version2,".")
@@ -23,4 +23,4 @@ func compareVersion(version1 string, version2 string) int {
     }
     return 0
 }
-```
+// ```

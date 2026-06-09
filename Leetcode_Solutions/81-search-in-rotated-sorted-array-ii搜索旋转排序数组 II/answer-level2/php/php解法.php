@@ -1,5 +1,5 @@
-相对于31题多了一步处理重复元素的操作
-```
+// 相对于31题多了一步处理重复元素的操作
+// ```
 function search($nums, $target) {
     $left = 0;
     $right = count($nums)-1;
@@ -24,4 +24,4 @@ function search($nums, $target) {
         }
     }
 }
-```
+// ```

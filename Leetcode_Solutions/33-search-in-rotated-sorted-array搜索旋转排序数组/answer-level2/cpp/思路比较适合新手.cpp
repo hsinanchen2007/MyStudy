@@ -1,10 +1,10 @@
-### 解题思路
-先确定旋转点的数组下标。
-根据target可能落在的区间进行二分查找。
-细节在代码里的注释。
-### 代码
+// ### 解题思路
+// 先确定旋转点的数组下标。
+// 根据target可能落在的区间进行二分查找。
+// 细节在代码里的注释。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -51,4 +51,4 @@ private:
             return -1;
     }
 };
-```
+// ```

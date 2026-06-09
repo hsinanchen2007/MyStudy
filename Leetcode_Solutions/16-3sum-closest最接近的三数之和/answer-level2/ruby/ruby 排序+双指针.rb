@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :64 ms, 在所有 Ruby 提交中击败了100.00%的用户
-内存消耗 :9.8 MB, 在所有 Ruby 提交中击败了100.00%的用户
+# ### 解题思路
+# 执行用时 :64 ms, 在所有 Ruby 提交中击败了100.00%的用户
+# 内存消耗 :9.8 MB, 在所有 Ruby 提交中击败了100.00%的用户
 
-### 代码
+# ### 代码
 
-```ruby
+# ```ruby
 def three_sum_closest(nums, target)
 	a = nums.sort
 	n = nums.size
@@ -34,4 +34,4 @@ def three_sum_closest(nums, target)
 	end
 	s
 end
-```
+# ```

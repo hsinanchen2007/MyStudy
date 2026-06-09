@@ -1,5 +1,5 @@
 
-写得好丑-_-
+// 写得好丑-_-
    
     class listnode{
         public:

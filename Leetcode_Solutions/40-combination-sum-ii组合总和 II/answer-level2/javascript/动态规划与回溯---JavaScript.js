@@ -1,5 +1,5 @@
-一、动态规划
-```javascript
+// 一、动态规划
+// ```javascript
 var combinationSum2 = function (candidates, target) {
   var dp = []
   //先排序解决顺序问题 例 （1，2）（2，1）
@@ -20,9 +20,9 @@ var combinationSum2 = function (candidates, target) {
   return Array.from(dp[target]).map(item => item.slice(1).split(','))
 };
 
-```
-二、回溯
-```javascript
+// ```
+// 二、回溯
+// ```javascript
 var combinationSum2 = function (candidates, target) {
   candidates.sort((a, b) => a - b)
   var result = [], n = candidates.length
@@ -43,4 +43,4 @@ var combinationSum2 = function (candidates, target) {
 
   return result
 }
-```
+// ```

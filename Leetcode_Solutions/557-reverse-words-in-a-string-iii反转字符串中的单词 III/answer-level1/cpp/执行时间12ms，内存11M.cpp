@@ -1,5 +1,5 @@
-# 用string::find和std::reverse
-```
+// # 用string::find和std::reverse
+// ```
 class Solution {
 public:
     string reverseWords(string s) {
@@ -17,4 +17,4 @@ public:
         return s;
     }
 };
-```
+// ```

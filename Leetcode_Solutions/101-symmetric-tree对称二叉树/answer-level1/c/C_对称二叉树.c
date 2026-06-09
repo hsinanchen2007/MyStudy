@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ int fun(struct TreeNode* l_root, struct TreeNode* r_root)
            fun(l_root->left,  r_root->right) &&
            fun(l_root->right, r_root->left);
 }
-```
+// ```

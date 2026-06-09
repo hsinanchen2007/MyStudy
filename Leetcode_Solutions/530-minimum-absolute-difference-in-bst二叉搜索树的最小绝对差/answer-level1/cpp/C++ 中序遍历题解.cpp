@@ -1,10 +1,10 @@
-### 解题思路
-prev存储前继数
-然后与当前数做差
+// ### 解题思路
+// prev存储前继数
+// 然后与当前数做差
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,6 +30,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/1d78f36e0eb704c2d32efbed956507ba0c4d9c9cd31b35795d2c7800cf1c46f3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1d78f36e0eb704c2d32efbed956507ba0c4d9c9cd31b35795d2c7800cf1c46f3-image.png)

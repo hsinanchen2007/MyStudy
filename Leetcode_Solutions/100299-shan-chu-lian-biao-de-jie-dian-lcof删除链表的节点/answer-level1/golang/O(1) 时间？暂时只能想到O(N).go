@@ -1,4 +1,4 @@
-```
+// ```
 func deleteNode(head *ListNode, val int) *ListNode {
 	if nil == head {
 		return nil
@@ -13,4 +13,4 @@ func deleteNode(head *ListNode, val int) *ListNode {
 	}
 	return head
 }
-```
+// ```

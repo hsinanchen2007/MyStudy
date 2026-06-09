@@ -1,5 +1,5 @@
-简单粗暴的方法，效率最高，内存最小
-```javascript []
+// 简单粗暴的方法，效率最高，内存最小
+// ```javascript []
 var compressString = function(S) {
     let count=1;
     let str = new String() ;
@@ -14,6 +14,6 @@ var compressString = function(S) {
     return S.length > str.length ? str : S
 };
 
-```
+// ```
 
 

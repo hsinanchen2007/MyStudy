@@ -1,6 +1,6 @@
-- 通过字母建立哈希表并且计数
-- 遍历每个单词匹配字母匹配
-```PHP []
+// - 通过字母建立哈希表并且计数
+// - 遍历每个单词匹配字母匹配
+// ```PHP []
 class Solution {
 
     /**
@@ -43,8 +43,8 @@ class Solution {
         return $out;
     }
 }
-```
-```GO []
+// ```
+// ```GO []
 func countCharacters(words []string, chars string) int {
     out := 0
     for _,v := range words {
@@ -70,4 +70,4 @@ func countCharacters(words []string, chars string) int {
     }
     return out
 }
-```
+// ```

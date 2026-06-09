@@ -1,5 +1,5 @@
-前端和只要从起点到终点，车上人数总小于capacity则满足
-```
+// 前端和只要从起点到终点，车上人数总小于capacity则满足
+// ```
 class Solution {
 public:
     bool carPooling(vector<vector<int>>& trips, int capacity) {
@@ -19,4 +19,4 @@ public:
         return result;
     }
 };
-```
+// ```

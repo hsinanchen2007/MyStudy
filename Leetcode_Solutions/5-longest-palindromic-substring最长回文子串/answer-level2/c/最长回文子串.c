@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/1e32d4cb274b338ec3d1e391f88e7dc0e4204bf429055e4ef0943fac2f6b50cc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1e32d4cb274b338ec3d1e391f88e7dc0e4204bf429055e4ef0943fac2f6b50cc-image.png)
 
-```
+// ```
 int inline min(int x, int y) {
 	return x > y ? y : x;
 }
@@ -48,4 +48,4 @@ char *longestPalindrome(char *s) {
 	s[max_pf + max_len] = '\0';
 	return s + max_pf;
 }
-```
+// ```

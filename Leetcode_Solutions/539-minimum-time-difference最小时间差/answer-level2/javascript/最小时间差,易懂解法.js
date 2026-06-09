@@ -1,9 +1,9 @@
-### 解题思路
-转换成分钟，塞进一新数组，然后新数组升序排序，本体重点理解：arr[0]+1440，其是为了解决'小时差'大于12小时的情况。
+// ### 解题思路
+// 转换成分钟，塞进一新数组，然后新数组升序排序，本体重点理解：arr[0]+1440，其是为了解决'小时差'大于12小时的情况。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**)
  * @param {string[]} timePoints
  * @return {number}
@@ -26,4 +26,4 @@ var findMinDifference = function(timePoints) {
     return Math.min(...newArr);
 
 };
-```
+// ```

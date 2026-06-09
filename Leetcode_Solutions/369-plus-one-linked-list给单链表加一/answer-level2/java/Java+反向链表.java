@@ -1,6 +1,6 @@
-和445.两数相加2 类似。
-先反向链表，末尾加1，然后再反向回来。要注意进位。
-```
+// 和445.两数相加2 类似。
+// 先反向链表，末尾加1，然后再反向回来。要注意进位。
+// ```
 class Solution {
     public ListNode plusOne(ListNode head) {
         ListNode rev = reverse(head);
@@ -32,4 +32,4 @@ class Solution {
         return prev;
     }
 }
-```
+// ```

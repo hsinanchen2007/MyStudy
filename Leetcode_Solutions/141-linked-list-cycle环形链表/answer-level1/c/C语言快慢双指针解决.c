@@ -1,9 +1,9 @@
-### 解题思路
-本题比较重要的就是快慢双指针的设定以及while和if语句中条件的判定
+// ### 解题思路
+// 本题比较重要的就是快慢双指针的设定以及while和if语句中条件的判定
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ bool hasCycle(struct ListNode *head) {
 //    }
 //    return false;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-经典的深度优先搜索套路
+// 经典的深度优先搜索套路
 
-```go
+// ```go
 func DFS(){
 // 退出条件
 
@@ -12,10 +12,10 @@ func DFS(){
 		//取消选择
 	}
 }
-```
-### 代码
+// ```
+// ### 代码
 
-```golang
+// ```golang
 func letterCombinations(digits string) []string {
 	if len(digits) == 0 {
 		return nil
@@ -54,4 +54,4 @@ func DFS(m map[byte][]byte, ds []byte, index int, vector []byte, result *[]strin
 	}
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-比迭代写起来方便一些吧
-```
+// 比迭代写起来方便一些吧
+// ```
 class Solution {
 private:
     set<int> res;
@@ -16,4 +16,4 @@ public:
         return vector<int>(res.begin(), res.end());
     }
 };
-```
+// ```

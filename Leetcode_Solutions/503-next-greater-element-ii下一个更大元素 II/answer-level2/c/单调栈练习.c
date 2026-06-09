@@ -1,8 +1,8 @@
-### 解题思路
-单调栈练习
-### 代码
+// ### 解题思路
+// 单调栈练习
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -36,4 +36,4 @@ int* nextGreaterElements(int* nums, int numsSize, int* returnSize){
     *returnSize = numsSize;
     return result;
 }
-```
+// ```

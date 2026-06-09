@@ -1,4 +1,4 @@
-无脑暴力求解
+// 无脑暴力求解
 public class CandyCrush {
     private int xLength;
     private int yLength;

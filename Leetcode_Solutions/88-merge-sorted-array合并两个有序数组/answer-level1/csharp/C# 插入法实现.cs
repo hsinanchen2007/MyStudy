@@ -1,4 +1,4 @@
-```
+// ```
 public static void Merge(int[] nums1, int m, int[] nums2, int n)
         {
             for(int i = 0; i < nums2.Length; i++) {
@@ -18,4 +18,4 @@ public static void Merge(int[] nums1, int m, int[] nums2, int n)
                 nums1[j+1] = nums2[i];
             }
         }
-```
+// ```

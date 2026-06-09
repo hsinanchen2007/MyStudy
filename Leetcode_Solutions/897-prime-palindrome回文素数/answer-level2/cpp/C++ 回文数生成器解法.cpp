@@ -1,4 +1,4 @@
-```
+// ```
 vector<int> digits(int n) {
     vector<int> nums;
     while (n > 0) {
@@ -71,5 +71,5 @@ public:
         return 0;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/6fe5a1c5cb520c13f941a4c8e574a4c3d03181a5dfb36fd2fe65a73a321354bf-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6fe5a1c5cb520c13f941a4c8e574a4c3d03181a5dfb36fd2fe65a73a321354bf-image.png)

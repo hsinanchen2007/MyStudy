@@ -1,5 +1,5 @@
-思路比较直接，时间52ms
-```
+// 思路比较直接，时间52ms
+// ```
 //中心扩展法
 class Solution {
 public:
@@ -69,4 +69,4 @@ public:
             return singalPointStr;
     }
 };
-```
+// ```

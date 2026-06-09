@@ -1,10 +1,10 @@
-### 解题思路
-因为字符串属于不可变的数据类型，故转成列表，思想朴素，遇到#就置之前一个字符为空
-时间O(N)空间0(N)
+# ### 解题思路
+# 因为字符串属于不可变的数据类型，故转成列表，思想朴素，遇到#就置之前一个字符为空
+# 时间O(N)空间0(N)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def backspaceCompare(self, S: str, T: str) -> bool:
         slist = [i for i in S]
@@ -28,4 +28,4 @@ class Solution:
         return ''.join(slist) == ''.join(tlist)
         
 
-```
+# ```

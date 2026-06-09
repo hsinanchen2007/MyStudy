@@ -1,5 +1,5 @@
-按行遍历原始矩阵，然后用count计数，c是新的列数，那么count/c 就是新的行，count%c就是新的列。
-```java
+// 按行遍历原始矩阵，然后用count计数，c是新的列数，那么count/c 就是新的行，count%c就是新的列。
+// ```java
 class Solution {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
         int len1 = nums.length;
@@ -17,19 +17,19 @@ class Solution {
         return res;
     }
 }
-```
-例如nums = [[1,2,3], [4,5,6]], r = 3, c = 2;
+// ```
+// 例如nums = [[1,2,3], [4,5,6]], r = 3, c = 2;
 
-res[0/2][0%2] = res[0][0] = nums[0][0]
+// res[0/2][0%2] = res[0][0] = nums[0][0]
 
-res[1/2][1%2] = res[0][1] = nums[0][1]
+// res[1/2][1%2] = res[0][1] = nums[0][1]
 
-res[2/2][2%2] = res[1][0] = nums[0][2]
+// res[2/2][2%2] = res[1][0] = nums[0][2]
 
-res[3/2][3%2] = res[1][1] = nums[1][0]
+// res[3/2][3%2] = res[1][1] = nums[1][0]
 
-res[4/2][4%2] = res[2][0] = nums[1][1]
+// res[4/2][4%2] = res[2][0] = nums[1][1]
 
-res[5/2][5%2] = res[2][1] = nums[1][2]
+// res[5/2][5%2] = res[2][1] = nums[1][2]
 
-结果res = [[1,2], [3,4], [5,6]]
+// 结果res = [[1,2], [3,4], [5,6]]

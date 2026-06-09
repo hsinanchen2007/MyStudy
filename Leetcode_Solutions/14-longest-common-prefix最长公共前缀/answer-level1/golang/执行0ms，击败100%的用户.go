@@ -1,4 +1,4 @@
-```go []
+// ```go []
 //最长公共整数
 func longestCommonPrefix(strs []string) string {
 	if  len(strs)==0 {
@@ -25,5 +25,5 @@ func longestCommonPrefix(strs []string) string {
 	}
 	return res
 }
-```
+// ```
 

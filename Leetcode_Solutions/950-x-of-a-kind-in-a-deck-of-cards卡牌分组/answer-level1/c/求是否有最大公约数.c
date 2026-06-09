@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //求取最大公约数
 int least_common_divisor(int min, int b)
 {
@@ -66,4 +66,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
 
     return true;
 }
-```
+// ```

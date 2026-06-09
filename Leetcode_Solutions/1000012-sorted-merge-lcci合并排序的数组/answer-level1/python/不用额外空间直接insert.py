@@ -1,4 +1,4 @@
-```
+# ```
         point1 = 0
         point2 = 0
         while point2 < n and point2+m>point1:
@@ -15,4 +15,4 @@
                 point1 += 1
         for i in range(n):
             A.pop()
-```
+# ```

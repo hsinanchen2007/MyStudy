@@ -1,9 +1,9 @@
-### 解题思路
-借助一个栈，对二叉树进行右节点优先的前序遍历
-最后返回前序遍历的逆序
-### 代码
+# ### 解题思路
+# 借助一个栈，对二叉树进行右节点优先的前序遍历
+# 最后返回前序遍历的逆序
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def postorderTraversal(self, root: TreeNode) -> List[int]:
         if not root:
@@ -19,4 +19,4 @@ class Solution:
             if cur.right:
                 stack.append(cur.right)
         return res[::-1]
-```
+# ```

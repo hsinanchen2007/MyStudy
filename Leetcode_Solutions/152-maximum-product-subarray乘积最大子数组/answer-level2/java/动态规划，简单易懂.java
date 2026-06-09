@@ -1,9 +1,9 @@
-### 解题思路
-由于正负号因素，同时记录以i为结尾的子数组最大乘积和最小乘积
+// ### 解题思路
+// 由于正负号因素，同时记录以i为结尾的子数组最大乘积和最小乘积
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProduct(int[] nums) {
         //以i结尾的子数组最大乘积
@@ -21,4 +21,4 @@ class Solution {
         return Math.max(res, dpMax[0]);
     }
 }
-```
+// ```

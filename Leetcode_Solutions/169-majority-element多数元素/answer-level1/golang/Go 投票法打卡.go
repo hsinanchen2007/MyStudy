@@ -1,4 +1,4 @@
-```
+// ```
 func majorityElement(nums []int) int {
     if len(nums) ==  0 {
         return -1
@@ -17,4 +17,4 @@ func majorityElement(nums []int) int {
     }
     return tmp
 }
-```
+// ```

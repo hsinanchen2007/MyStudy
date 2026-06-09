@@ -1,12 +1,12 @@
-### 解题思路
-三个指针
-p1指向num1最后一个数
-p2指向nums2最后一个数
-p指向nums1的m+n-1
-比较大小，复制到nums1上
-### 代码
+# ### 解题思路
+# 三个指针
+# p1指向num1最后一个数
+# p2指向nums2最后一个数
+# p指向nums1的m+n-1
+# 比较大小，复制到nums1上
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
         """
@@ -32,4 +32,4 @@ class Solution(object):
         while(p2>=0):
             nums1[p2]=nums2[p2]
             p2-=1
-```
+# ```

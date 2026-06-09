@@ -1,9 +1,9 @@
-### 解题思路
-记住核心还是一颗二叉树的遍历
+// ### 解题思路
+// 记住核心还是一颗二叉树的遍历
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ class Solution {
         return isTheSame(A.left, B.left) && isTheSame(A.right, B.right);
     }
 }
-```
+// ```

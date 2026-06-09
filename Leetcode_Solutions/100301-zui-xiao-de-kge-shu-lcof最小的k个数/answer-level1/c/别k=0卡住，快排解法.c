@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -35,4 +35,4 @@ int partation(int *arr,int low,int high)
     arr[low]=temp;
     return low;
 }
-```
+// ```

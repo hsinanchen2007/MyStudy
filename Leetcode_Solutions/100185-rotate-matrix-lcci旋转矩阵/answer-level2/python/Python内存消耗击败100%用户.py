@@ -1,6 +1,6 @@
-思路就是先对矩阵转置，之后对每一行内容取反。
+# 思路就是先对矩阵转置，之后对每一行内容取反。
 
-```
+# ```
 class Solution(object):
     def rotate(self, matrix):
         """
@@ -17,4 +17,4 @@ class Solution(object):
         # 转置后，对每一行进行取反
         for i in range(n):
             matrix[i].reverse()
-```
+# ```

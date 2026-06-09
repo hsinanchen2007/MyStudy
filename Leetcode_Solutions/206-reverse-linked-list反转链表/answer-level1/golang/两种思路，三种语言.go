@@ -1,7 +1,7 @@
 
-## 迭代
+// ## 迭代
 
-```go
+// ```go
 func reverseList(head *ListNode) *ListNode {
     if head == nil {
 		return head
@@ -17,9 +17,9 @@ func reverseList(head *ListNode) *ListNode {
 	cur.Next = prev
 	return cur
 }
-```
+// ```
 
-```javascript
+// ```javascript
 var reverseList = function(head) {
     if (head == null) return head
     let cur = head, pre = null
@@ -32,9 +32,9 @@ var reverseList = function(head) {
     cur.next = pre
     return cur
 };
-```
+// ```
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -49,13 +49,13 @@ public:
         return pre;
     }
 };
-```
+// ```
 
-## 递归
+// ## 递归
 
-![206.reverse-linked-list.png](https://pic.leetcode-cn.com/b919430e6e4c940268d689e40c8e96d3c6434e9a7756d206de760bdec61522b0-file_1583135125249)
+// ![206.reverse-linked-list.png](https://pic.leetcode-cn.com/b919430e6e4c940268d689e40c8e96d3c6434e9a7756d206de760bdec61522b0-file_1583135125249)
 
-```javascript
+// ```javascript
 var reverseList = function(head) {
     if (head == null || head.next == null) return head
     let next = reverseList(head.next)
@@ -63,9 +63,9 @@ var reverseList = function(head) {
     head.next = null
     return next
 };
-```
+// ```
 
-```go
+// ```go
 func reverseList(head *ListNode) *ListNode {
     if head == nil || head.Next == nil {
         return head
@@ -75,9 +75,9 @@ func reverseList(head *ListNode) *ListNode {
     head.Next = nil
     return next
 }
-```
+// ```
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -88,4 +88,4 @@ public:
         return cur;
     }
 };
-```
+// ```

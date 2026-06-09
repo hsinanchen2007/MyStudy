@@ -1,8 +1,8 @@
-### 解题思路
-纯逻辑判断，也是超菜超厉害的了
-### 代码
+# ### 解题思路
+# 纯逻辑判断，也是超菜超厉害的了
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         if not intervals:
@@ -136,4 +136,4 @@ class Solution:
                                     intervals.pop(i+2)
                                     k-=1
                                 return(intervals)
-```
+# ```

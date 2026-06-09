@@ -1,4 +1,4 @@
-用自带函数写的一个容易理解的解法
+# 用自带函数写的一个容易理解的解法
 
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:

@@ -1,4 +1,4 @@
-```
+# ```
 from typing import List
 
 import numpy as np
@@ -54,4 +54,4 @@ class Solution:
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(rects)
 # param_1 = obj.pick()
-```
+# ```

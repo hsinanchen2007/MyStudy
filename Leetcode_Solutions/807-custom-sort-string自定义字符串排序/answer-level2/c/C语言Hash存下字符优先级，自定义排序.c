@@ -1,4 +1,4 @@
-```
+// ```
 int CharPriv[26];
 int cmp(void *a, void *b) 
 {
@@ -22,4 +22,4 @@ char * customSortString(char * S, char * T)
     qsort(T, lenT, sizeof(char), cmp);
     return T;
 }
-```
+// ```

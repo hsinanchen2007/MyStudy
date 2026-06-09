@@ -1,5 +1,5 @@
-这种方法真的是太好了，一遍就可以记住
-```python3
+# 这种方法真的是太好了，一遍就可以记住
+# ```python3
 class Solution:
     def minDistance(self, word1:str, word2:str) -> int:
         import functools

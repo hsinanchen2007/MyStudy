@@ -1,5 +1,5 @@
-二分偷懒使用了python自带的二分库来做，也可以自己实现，时间复杂度O(nlogk)
-```python
+# 二分偷懒使用了python自带的二分库来做，也可以自己实现，时间复杂度O(nlogk)
+# ```python
 from bisect import bisect
 
 class Solution:
@@ -13,4 +13,4 @@ class Solution:
             if node:  # 所取出的节点若还有后续，把它二分插入排序好的列表
                 _sorted.insert(bisect([v[0] for v in _sorted], node.val), (node.val, node))
         return dumb.next
-```
+# ```

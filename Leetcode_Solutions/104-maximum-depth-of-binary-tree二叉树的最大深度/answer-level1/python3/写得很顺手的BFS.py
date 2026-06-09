@@ -1,4 +1,4 @@
-```
+# ```
 from collections import deque
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
@@ -16,6 +16,6 @@ class Solution:
                     q.append(cur.right)
             cnt += 1 #每次出去完才+1  第一层root出来了才+1
         return cnt
-```
+# ```
 
-bfs写的很顺手，递归的写着突然卡壳了。。。。
+# bfs写的很顺手，递归的写着突然卡壳了。。。。

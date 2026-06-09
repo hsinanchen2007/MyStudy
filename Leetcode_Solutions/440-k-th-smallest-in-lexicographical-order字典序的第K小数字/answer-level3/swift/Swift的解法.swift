@@ -1,10 +1,10 @@
-### 解题思路
-我也是参考了这个链接的思路：https://blog.csdn.net/FJJ543/article/details/81908992
-和这个解法的注释：https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/solution/bian-li-chou-xiang-de-shi-cha-shu-qu-qian-xu-bian-/
+// ### 解题思路
+// 我也是参考了这个链接的思路：https://blog.csdn.net/FJJ543/article/details/81908992
+// 和这个解法的注释：https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/solution/bian-li-chou-xiang-de-shi-cha-shu-qu-qian-xu-bian-/
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func findKthNumber(_ n: Int, _ k: Int) -> Int {
         var current = 1
@@ -34,4 +34,4 @@ class Solution {
         return current
     }
 }
-```
+// ```

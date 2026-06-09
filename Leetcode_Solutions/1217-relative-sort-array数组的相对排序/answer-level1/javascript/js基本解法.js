@@ -1,4 +1,4 @@
-```
+// ```
 var arr1 = [2,3,1,3,2,4,6,19,9,2,7]
 var arr2 = [2,1,4,3,9,6]
 var arr = []
@@ -23,7 +23,7 @@ arrNew.sort(function(a,b){return a - b})
 console.log('结果数组2--',arrNew)
 arr = arr.concat(arrNew)
 console.log('结果数组3--',arr)
-```
-没有用到特殊的算法基本上就是按照题意来的。
-1. 执行用时：80ms
-2. 内存消耗：34.6MB
+// ```
+// 没有用到特殊的算法基本上就是按照题意来的。
+// 1. 执行用时：80ms
+// 2. 内存消耗：34.6MB

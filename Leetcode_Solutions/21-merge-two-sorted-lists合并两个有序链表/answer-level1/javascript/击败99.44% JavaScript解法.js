@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {ListNode} l1
  * @param {ListNode} l2
@@ -48,4 +48,4 @@ var mergeTwoLists = function (l1, l2) {
     return pHead;
 };
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-注意判断个数为奇数还是偶数
+// ### 解题思路
+// 注意判断个数为奇数还是偶数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -33,4 +33,4 @@ var findContinuousSequence = function(target) {
         return a[0]-b[0];
     });
 };
-```
+// ```

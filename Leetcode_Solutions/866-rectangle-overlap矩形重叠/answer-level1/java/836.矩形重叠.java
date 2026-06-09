@@ -1,9 +1,9 @@
-### 解题思路
-当线段x1x2和x3x4重叠并且线段y1y2和y3y4重叠时，两块区域重叠
+// ### 解题思路
+// 当线段x1x2和x3x4重叠并且线段y1y2和y3y4重叠时，两块区域重叠
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  
   private boolean Judge(int a1,int a2,int a3,int a4){
@@ -18,4 +18,4 @@ return false;
 
     }
 }
-```
+// ```

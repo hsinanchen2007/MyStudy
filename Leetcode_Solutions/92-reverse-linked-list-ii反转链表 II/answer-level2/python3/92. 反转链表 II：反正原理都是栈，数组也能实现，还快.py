@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/a1c97aa6677cbadca9ab84750331188e13142de37cfec8c0cdbff2e4fb1c3d21-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a1c97aa6677cbadca9ab84750331188e13142de37cfec8c0cdbff2e4fb1c3d21-image.png)
 
-用数组来实现逆序，只修改链表值，不用修改next，不一定会慢多少。
+# 用数组来实现逆序，只修改链表值，不用修改next，不一定会慢多少。
 
-```python []
+# ```python []
 class Solution:
     def reverseBetween(self, head: ListNode, m: int, n: int) -> ListNode:
         ans = ListNode(0)
@@ -20,4 +20,4 @@ class Solution:
             h.val = i
             h = h.next
         return ans.next
-```
+# ```

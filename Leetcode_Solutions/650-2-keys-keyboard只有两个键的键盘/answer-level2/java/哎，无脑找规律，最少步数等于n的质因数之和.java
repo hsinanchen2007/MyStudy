@@ -1,7 +1,7 @@
-执行用时 :0 ms, 在所有 Java 提交中击败了100.00的用户内存消耗 :35.9 MB, 在所有 Java 提交中击败了13.21%
-的用户
+// 执行用时 :0 ms, 在所有 Java 提交中击败了100.00的用户内存消耗 :35.9 MB, 在所有 Java 提交中击败了13.21%
+// 的用户
 
-```
+// ```
 class Solution {
     public int minSteps(int n) {
         if(n==1) return 0;
@@ -24,4 +24,4 @@ class Solution {
         return m;
     }
 }
-```
+// ```

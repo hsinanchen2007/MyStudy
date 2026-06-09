@@ -1,7 +1,7 @@
-找规律；
-高位数，如 8 （1000）二进制4位数；是 000 的结果 +1；
-dp[i] = dp[i - 2^digNum]  + 1; 
-```
+// 找规律；
+// 高位数，如 8 （1000）二进制4位数；是 000 的结果 +1；
+// dp[i] = dp[i - 2^digNum]  + 1; 
+// ```
 class Solution {
     public int[] countBits(int num) {
         int[] ans = new int[num+1];
@@ -19,10 +19,10 @@ class Solution {
         return ans;
     }
 }
-```
-这里，在计算幂运算耗费太多时间；
-用 digit 来存储幂运算结果。
-```
+// ```
+// 这里，在计算幂运算耗费太多时间；
+// 用 digit 来存储幂运算结果。
+// ```
 class Solution {
     public int[] countBits(int num) {
         int[] ans = new int[num+1];
@@ -41,5 +41,5 @@ class Solution {
         return ans;
     }
 }
-```
-O(n)的时间复杂度。
+// ```
+// O(n)的时间复杂度。

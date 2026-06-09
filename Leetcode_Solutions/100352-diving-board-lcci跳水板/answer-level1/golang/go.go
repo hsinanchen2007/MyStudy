@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func divingBoard(shorter int, longer int, k int) []int {
     if k == 0 {
         return []int{}
@@ -25,4 +25,4 @@ func divingBoard(shorter int, longer int, k int) []int {
     
     return res
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-如果递归函数直接传子串代码会简单很多，但是会创建很多零碎的string，影响效率。
+// ### 解题思路
+// 如果递归函数直接传子串代码会简单很多，但是会创建很多零碎的string，影响效率。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isScramble(string s1, string s2) {
@@ -57,4 +57,4 @@ public:
     bool* res;
     int area;
 };
-```
+// ```

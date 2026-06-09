@@ -1,8 +1,8 @@
-**思路：**
-1. 先判断全部大写 
-2. 从第二个字母开始循环，有大写字母就返回false 
-3. 循环到最后返回true
-```
+// **思路：**
+// 1. 先判断全部大写 
+// 2. 从第二个字母开始循环，有大写字母就返回false 
+// 3. 循环到最后返回true
+// ```
 /**
  * @param {string} word
  * @return {boolean}
@@ -17,4 +17,4 @@ var detectCapitalUse = function(word) {
     }
     return true;
 };
-```
+// ```

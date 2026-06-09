@@ -1,9 +1,9 @@
-### 解题思路
-用的暴力求解法，时间复杂度太高，没想起哈希表
+// ### 解题思路
+// 用的暴力求解法，时间复杂度太高，没想起哈希表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {    
@@ -25,4 +25,4 @@ public:
         return two_Sum;
     }
 };
-```
+// ```

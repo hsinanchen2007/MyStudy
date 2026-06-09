@@ -1,5 +1,5 @@
     
-     执行时间4ms
+//      执行时间4ms
 
      function reverse($x) {
         $x = (string)$x;

@@ -1,4 +1,4 @@
-```scala []
+// ```scala []
 object Solution {
     def checkValidString(s: String): Boolean = {
         def f(l:List[Char], i:Int, l1:List[Int], l2:List[Int]):Boolean = l match {
@@ -15,4 +15,4 @@ object Solution {
         f(s.toList, 0, Nil, Nil)
     }
 }
-```
+// ```

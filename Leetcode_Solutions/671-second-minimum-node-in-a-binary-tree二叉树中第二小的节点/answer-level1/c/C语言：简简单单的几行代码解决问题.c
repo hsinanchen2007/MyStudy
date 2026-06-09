@@ -1,6 +1,6 @@
 
 
-```
+// ```
 int top;
 int findSecondMinimumValue(struct TreeNode* root){
     int *value = (int *)calloc(1024, sizeof(int));
@@ -24,4 +24,4 @@ int find_node(int value[], struct TreeNode* root)
     find_node(value, root->right);
     return 0;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
     public int findSecondMinimumValue(TreeNode root) {
 
         int min = root.val;
@@ -30,5 +30,5 @@
         }
 
     }
-```
-不知道为啥，对于我来说我总觉的迭代比递归好理解多了[捂脸]
+// ```
+// 不知道为啥，对于我来说我总觉的迭代比递归好理解多了[捂脸]

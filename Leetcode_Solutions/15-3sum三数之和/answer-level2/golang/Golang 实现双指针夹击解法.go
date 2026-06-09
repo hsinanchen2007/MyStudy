@@ -1,5 +1,5 @@
-双指针的go实现, 执行用时36ms
-```go
+// 双指针的go实现, 执行用时36ms
+// ```go
 targetSum := 0
 numsLen := len(nums)
 var result [][]int
@@ -33,4 +33,4 @@ for i := 0; i < numsLen-2; i++ {
     }
 }
 return result
-```
+// ```

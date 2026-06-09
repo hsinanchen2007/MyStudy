@@ -1,13 +1,13 @@
-算法题还是不建议用诸如find()和substr()的高级函数，尽可能自己编写算法。
+// 算法题还是不建议用诸如find()和substr()的高级函数，尽可能自己编写算法。
 
 
 
-执行用时 :8 ms, 在所有 C++ 提交中击败了30.41%的用户
-内存消耗 :8.5 MB, 在所有 C++ 提交中击败了100.00%的用户
+// 执行用时 :8 ms, 在所有 C++ 提交中击败了30.41%的用户
+// 内存消耗 :8.5 MB, 在所有 C++ 提交中击败了100.00%的用户
 
 
 
-```
+// ```
 class Solution {
 public:
     vector<string> findOcurrences(string text, string first, string second) {
@@ -42,4 +42,4 @@ public:
         
     }
 };
-```
+// ```

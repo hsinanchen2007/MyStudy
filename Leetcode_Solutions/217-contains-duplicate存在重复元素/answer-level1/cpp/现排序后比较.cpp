@@ -1,9 +1,9 @@
-### 解题思路
-没想到排序居然比unorder_map还要快
+// ### 解题思路
+// 没想到排序居然比unorder_map还要快
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
     return false;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-不断更新最远指针
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 不断更新最远指针
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         if nums == []:
@@ -20,4 +20,4 @@ class Solution:
                 far = max(i + nums[i],far)
         
         return True
-```
+# ```

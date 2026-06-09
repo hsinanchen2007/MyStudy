@@ -1,5 +1,5 @@
 
-用到set，set中包含动左腿，不包含动就右腿。
+# 用到set，set中包含动左腿，不包含动就右腿。
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-头尾连接，转化为判断环形链表问题，再用快慢指针判断
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 头尾连接，转化为判断环形链表问题，再用快慢指针判断
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     }
     
 }
-```
+// ```

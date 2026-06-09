@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
                 list1.append((now_node.left,now_step+1))
             if now_node.right:
                 list1.append((now_node.right,now_step+1))
-```
+# ```

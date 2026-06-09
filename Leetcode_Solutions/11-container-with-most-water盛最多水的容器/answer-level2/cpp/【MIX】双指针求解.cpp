@@ -1,9 +1,9 @@
-### 解题思路
-双指针移动短板
+// ### 解题思路
+// 双指针移动短板
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int maxArea(int[] height) {
         int N = height.length;
@@ -26,8 +26,8 @@ class Solution {
         return maxV;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         N = len(height)
@@ -46,8 +46,8 @@ class Solution:
                     j-=1
 
         return maxV
-```
-```c++ []
+// ```
+// ```c++ []
 #include <cassert>
 
 class Solution {
@@ -72,4 +72,4 @@ public:
         return maxV;
     }
 };
-```
+// ```

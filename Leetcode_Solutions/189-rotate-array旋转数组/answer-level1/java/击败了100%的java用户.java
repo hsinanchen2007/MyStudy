@@ -1,6 +1,6 @@
-## [更多leetcode分类题解](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
+// ## [更多leetcode分类题解](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
 
-```
+// ```
 public void rotate(int[] nums, int k) {
         if (nums == null || nums.length == 0) {
             return;
@@ -24,4 +24,4 @@ public void rotate(int[] nums, int k) {
             end--;
         }
     }
-```
+// ```

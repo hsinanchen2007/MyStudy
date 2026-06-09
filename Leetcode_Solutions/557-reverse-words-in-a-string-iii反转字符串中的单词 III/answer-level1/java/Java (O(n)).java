@@ -1,9 +1,9 @@
-### 解题思路
-使用StringBuilder优化速度。
+// ### 解题思路
+// 使用StringBuilder优化速度。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         String[] words = s.split(" ");
@@ -22,4 +22,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

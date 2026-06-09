@@ -1,18 +1,18 @@
-#### 方法一：动态规划
+# #### 方法一：动态规划
 
-**思路**
+# **思路**
 
-如果该计划的利润 $\geq P$ 的话，我们无需考虑利润问题，因为它肯定超过盈利所需的阀值。类似地，如果该计划需要的人数 $> G$ 的话，我们无需考虑该计划，因为它对于这个帮派来说太大了。
+# 如果该计划的利润 $\geq P$ 的话，我们无需考虑利润问题，因为它肯定超过盈利所需的阀值。类似地，如果该计划需要的人数 $> G$ 的话，我们无需考虑该计划，因为它对于这个帮派来说太大了。
 
-因此，边界足够小，可以使用动态编程。让我们跟踪 `cur[p][g]`，它包括有盈利能力的计划数量 $p$ 以及要求参与的团伙成员数量 $g$：除了我们会称（不改变答案）所有计划*至少*获利为 `P` 美元而不是*确切地* `P` 美元。
+# 因此，边界足够小，可以使用动态编程。让我们跟踪 `cur[p][g]`，它包括有盈利能力的计划数量 $p$ 以及要求参与的团伙成员数量 $g$：除了我们会称（不改变答案）所有计划*至少*获利为 `P` 美元而不是*确切地* `P` 美元。
 
-**算法**
+# **算法**
 
-跟踪如上所定义的 `cur[p][g]`，让我们了解它是如何变化的，当我们考虑一个额外的犯罪，获利 `p0` 且需要 `g0` 名成员。我们将更新后的数目放入 `cur2`。
+# 跟踪如上所定义的 `cur[p][g]`，让我们了解它是如何变化的，当我们考虑一个额外的犯罪，获利 `p0` 且需要 `g0` 名成员。我们将更新后的数目放入 `cur2`。
 
-对于每个利润 `p1`、需要 `g1` 的计划，该计划加上我们考虑的额外犯罪 (`p0, g0`) ，其利润为 `p2 = min(p1 + p0, P)`，需要 `g2 = g1 + g0` 人。
+# 对于每个利润 `p1`、需要 `g1` 的计划，该计划加上我们考虑的额外犯罪 (`p0, g0`) ，其利润为 `p2 = min(p1 + p0, P)`，需要 `g2 = g1 + g0` 人。
 
-```cpp [zmzbBHym-C++]
+# ```cpp [zmzbBHym-C++]
 class Solution {
 public:
     int profitableSchemes(int G, int P, vector<int>& group, vector<int>& profit) {
@@ -55,8 +55,8 @@ public:
         return (int) (ans % MOD);
     }
 };
-```
-```java [zmzbBHym-Java]
+# ```
+# ```java [zmzbBHym-Java]
 class Solution {
     public int profitableSchemes(int G, int P, int[] group, int[] profit) {
         int MOD = 1_000_000_007;
@@ -96,8 +96,8 @@ class Solution {
         return (int) ans;
     }
 }
-```
-```python [zmzbBHym-Python]
+# ```
+# ```python [zmzbBHym-Python]
 class Solution(object):
     def profitableSchemes(self, G, P, group, profit):
         MOD = 10**9 + 7
@@ -121,8 +121,8 @@ class Solution(object):
 
         # Sum all schemes with profit P and group size 0 <= g <= G.
         return sum(cur[-1]) % MOD
-```
-```javascript [zmzbBHym-JavaScript]
+# ```
+# ```javascript [zmzbBHym-JavaScript]
 var profitableSchemes = function(G, P, group, profit) {
     const MOD = 1e9 + 7;
     const N = group.length;
@@ -157,10 +157,10 @@ var profitableSchemes = function(G, P, group, profit) {
         ans += x;
     return ans % MOD;
 };
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N * P * G)$，其中 $N$ 是该团伙可能做到的犯罪数目。
-* 空间复杂度：$O(P * G)$。
+# * 时间复杂度：$O(N * P * G)$，其中 $N$ 是该团伙可能做到的犯罪数目。
+# * 空间复杂度：$O(P * G)$。

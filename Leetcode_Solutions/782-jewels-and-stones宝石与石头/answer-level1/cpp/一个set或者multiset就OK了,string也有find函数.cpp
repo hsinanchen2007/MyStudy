@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 	int numJewelsInStones(string J, string S) {
@@ -14,10 +14,10 @@ public:
 		return count;
 	}
 };
-```
+// ```
 
 
-```
+// ```
 class Solution {
 public:
 	int numJewelsInStones(string J, string S) {
@@ -32,8 +32,8 @@ public:
 		return count;
 	}
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
 	int numJewelsInStones(string J, string S) {
@@ -45,4 +45,4 @@ public:
 		return count;
 	}
 };
-```
+// ```

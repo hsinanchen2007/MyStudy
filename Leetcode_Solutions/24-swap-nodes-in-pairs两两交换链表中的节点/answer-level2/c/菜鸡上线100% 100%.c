@@ -1,11 +1,11 @@
-### 解题思路
-![QQ图片20200322230456.png](https://pic.leetcode-cn.com/5a1878cee33e7b0c2366756983ce11db4a96e0899e54081f3a39a5245f4349ec-QQ%E5%9B%BE%E7%89%8720200322230456.png)
+// ### 解题思路
+// ![QQ图片20200322230456.png](https://pic.leetcode-cn.com/5a1878cee33e7b0c2366756983ce11db4a96e0899e54081f3a39a5245f4349ec-QQ%E5%9B%BE%E7%89%8720200322230456.png)
 
-顺着题意的正常思路(暴力破解)
+// 顺着题意的正常思路(暴力破解)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -66,4 +66,4 @@ struct ListNode* swapPairs(struct ListNode* head)
 	}
 	return head;
 }
-```
+// ```

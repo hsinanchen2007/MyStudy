@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/464126ea446cec3faedecdadb5b9cb27ce6280a4e8f10d334419e5d1017f41d4-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/464126ea446cec3faedecdadb5b9cb27ce6280a4e8f10d334419e5d1017f41d4-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(a,b) ((a < b) ? (a) : (b))
 
 int min(int a ,int b,int c)
@@ -48,4 +48,4 @@ int nthUglyNumber(int n){
 
     return dp[i-1];
 }
-```
+// ```

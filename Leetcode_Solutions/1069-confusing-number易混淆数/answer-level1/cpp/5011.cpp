@@ -1,6 +1,6 @@
 
-![1.PNG](https://pic.leetcode-cn.com/ca3d5911ba79f79a5cba72b3808cc92209efdf7278c194e43afcc606e6f57e7a-1.PNG)
-```c++
+// ![1.PNG](https://pic.leetcode-cn.com/ca3d5911ba79f79a5cba72b3808cc92209efdf7278c194e43afcc606e6f57e7a-1.PNG)
+// ```c++
 class Solution {
 public:
     int judge(int N,unordered_set<int> & dic)
@@ -34,4 +34,4 @@ public:
         
     }
 };
-```
+// ```

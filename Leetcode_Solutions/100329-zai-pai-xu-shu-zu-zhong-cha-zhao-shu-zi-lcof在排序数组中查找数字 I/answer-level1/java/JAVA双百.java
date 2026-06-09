@@ -1,10 +1,10 @@
-### 解题思路
-二分查找：主要是处理nums数组中不存在target的情况
-![批注 2020-03-25 231738.png](https://pic.leetcode-cn.com/901048541455590aab5b382908f47dc407f3ed034632623cbd02f88d088ca798-%E6%89%B9%E6%B3%A8%202020-03-25%20231738.png)
+// ### 解题思路
+// 二分查找：主要是处理nums数组中不存在target的情况
+// ![批注 2020-03-25 231738.png](https://pic.leetcode-cn.com/901048541455590aab5b382908f47dc407f3ed034632623cbd02f88d088ca798-%E6%89%B9%E6%B3%A8%202020-03-25%20231738.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
         public static int search(int[] nums, int target) {
         // base case
@@ -65,4 +65,4 @@ class Solution {
         }
     }
 }
-```
+// ```

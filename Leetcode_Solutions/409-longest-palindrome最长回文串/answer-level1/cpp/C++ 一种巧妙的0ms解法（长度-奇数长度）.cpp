@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
 	int longestPalindrome(string s)
@@ -11,4 +11,4 @@ public:
 		return min(N, N - oddNum + 1);
 	}
 };
-```
+// ```

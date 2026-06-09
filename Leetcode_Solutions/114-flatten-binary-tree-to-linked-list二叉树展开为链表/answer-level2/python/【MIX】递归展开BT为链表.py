@@ -1,9 +1,9 @@
-### 解题思路
-可以使用PreOrder
+# ### 解题思路
+# 可以使用PreOrder
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     private TreeNode pre = null;
     public void flatten(TreeNode root) {
@@ -16,8 +16,8 @@ class Solution {
         pre = root;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def __init__(self):
         self.lastNode = None
@@ -37,8 +37,8 @@ class Solution:
         right = root.right
         self.flatten(root.left)
         self.flatten(right)
-```
-```c++ []
+# ```
+# ```c++ []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -66,4 +66,4 @@ public:
 private:
     TreeNode *pre = nullptr;
 };
-```
+# ```

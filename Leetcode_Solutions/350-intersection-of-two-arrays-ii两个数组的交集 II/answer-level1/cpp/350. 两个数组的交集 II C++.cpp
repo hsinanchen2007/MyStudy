@@ -1,11 +1,11 @@
-### 解题思路
-1.使用hash_map对数组nums1中的每一个元素进行计数记录。
-2.在遍历nums2，找到存在与hash_map中存在的元素并按照计数器个数压入nums1中，从头压入。
-3.若nums2的大小小于nums1则调换位置递归。
+// ### 解题思路
+// 1.使用hash_map对数组nums1中的每一个元素进行计数记录。
+// 2.在遍历nums2，找到存在与hash_map中存在的元素并按照计数器个数压入nums1中，从头压入。
+// 3.若nums2的大小小于nums1则调换位置递归。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
@@ -26,4 +26,4 @@ public:
     return vector<int> (begin(nums1), begin(nums1) + k);
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-- 暴力解法
-- 首先找出`R`的位置
-- 对`R`分别上下左右移动，遇到友方`B`停止，遇到`p`结果+1并停止，到达边缘也停止
+// - 暴力解法
+// - 首先找出`R`的位置
+// - 对`R`分别上下左右移动，遇到友方`B`停止，遇到`p`结果+1并停止，到达边缘也停止
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func numRookCaptures(_ board: [[Character]]) -> Int {
          if board.count == 0 {
@@ -77,4 +77,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

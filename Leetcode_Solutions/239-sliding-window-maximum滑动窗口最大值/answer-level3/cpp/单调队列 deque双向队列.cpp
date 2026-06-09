@@ -1,9 +1,9 @@
-### 解题思路
-将队列按照递减的顺序存放。
+// ### 解题思路
+// 将队列按照递减的顺序存放。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -19,4 +19,4 @@ public:
         return res;
     }
 };
-```
+// ```

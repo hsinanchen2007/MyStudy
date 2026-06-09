@@ -1,4 +1,4 @@
-```
+// ```
 public int uniqueMorseRepresentations(String[] words) {
         String[] strings={".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
     Set<String> set=new HashSet<String>();
@@ -12,4 +12,4 @@ public int uniqueMorseRepresentations(String[] words) {
     }
     return set.size();
 }
-```
+// ```

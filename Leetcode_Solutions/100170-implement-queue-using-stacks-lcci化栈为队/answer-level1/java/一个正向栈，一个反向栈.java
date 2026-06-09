@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-栈是先进后出，而队列是先进先出。
-所以，通过两个栈来回倒，可实现队列效果。
+// 栈是先进后出，而队列是先进先出。
+// 所以，通过两个栈来回倒，可实现队列效果。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyQueue {
 
     private Stack<Integer> forwordstack;
@@ -61,4 +61,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

@@ -1,6 +1,6 @@
-数组输出：
+# 数组输出：
 
-```python []
+# ```python []
 class NestedIterator:
     def __init__(self, nestedList: [NestedInteger]):
         self.d = []
@@ -20,11 +20,11 @@ class NestedIterator:
     def hasNext(self) -> bool:
         return self.i < self.n
 
-```
+# ```
 
-迭代器输出：
+# 迭代器输出：
 
-```python []
+# ```python []
 class NestedIterator:
     def __init__(self, nestedList: [NestedInteger]):
         def f(nestedList):
@@ -44,8 +44,8 @@ class NestedIterator:
             return True
         except:
             return False
-```
+# ```
 
 
-![image.png](https://pic.leetcode-cn.com/b88e6ed4818b887b4afe95cee51674eeaa3813be85b3f082694994e1c2ae783d-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b88e6ed4818b887b4afe95cee51674eeaa3813be85b3f082694994e1c2ae783d-image.png)
 

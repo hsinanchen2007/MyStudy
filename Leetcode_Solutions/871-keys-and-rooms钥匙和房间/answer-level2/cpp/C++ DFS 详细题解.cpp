@@ -1,9 +1,9 @@
-使用stack数据结构来实现DFS遍历所有能进入的房间，取到钥匙说明指向的房间能进入，直接放入visited。
+// 使用stack数据结构来实现DFS遍历所有能进入的房间，取到钥匙说明指向的房间能进入，直接放入visited。
 
-使用set visited来记录已经走过的房间，set内的元素不重复，且能查找某个元素是否存在于集合内。
+// 使用set visited来记录已经走过的房间，set内的元素不重复，且能查找某个元素是否存在于集合内。
 
-注意：房间从第0开始。
-```
+// 注意：房间从第0开始。
+// ```
 class Solution {
 public:
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
@@ -29,4 +29,4 @@ public:
         return visited.size() == rooms.size(); //如果遍历过的房间数等于实际房间数，返回true
     }
 };
-```
+// ```

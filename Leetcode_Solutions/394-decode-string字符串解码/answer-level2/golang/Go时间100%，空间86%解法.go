@@ -1,10 +1,10 @@
-第一次没有看到类似"[[]]"的嵌套结构，因此写了一版只含一层的"[]"的字符串解析
-于是后面看到了双层"[]"的嵌套结构后，想到了递归实现，同时想到了栈
-但这里不需要栈，只需要记录与"["符号相对应的"]"出现的位置即可
-于是就有了下面的这种解法
+// 第一次没有看到类似"[[]]"的嵌套结构，因此写了一版只含一层的"[]"的字符串解析
+// 于是后面看到了双层"[]"的嵌套结构后，想到了递归实现，同时想到了栈
+// 但这里不需要栈，只需要记录与"["符号相对应的"]"出现的位置即可
+// 于是就有了下面的这种解法
 
 
-```golang
+// ```golang
 func decodeString(s string) string {
 	var res strings.Builder
 	for i:=0;i<len(s);i++{
@@ -42,11 +42,11 @@ func decodeString(s string) string {
 	}
 	return res.String()
 }
-```
+// ```
 
-再补充个go的正则表达式实现吧
+// 再补充个go的正则表达式实现吧
 
-```golang
+// ```golang
 func decodeString2(s string) string {
 	res:=regexp.MustCompile("\\d+\\[\\w+]")
 	res2:=regexp.MustCompile("\\d+")
@@ -65,4 +65,4 @@ func decodeString2(s string) string {
 	}
 	return s
 }
-```
+// ```

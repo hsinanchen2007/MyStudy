@@ -1,9 +1,9 @@
-### 解题思路
-正整数为什么会有0
+// ### 解题思路
+// 正整数为什么会有0
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def checkPerfectNumber(num: Int): Boolean = {
     var res = 0
@@ -17,4 +17,4 @@ object Solution {
     false
     }
 }
-```
+// ```

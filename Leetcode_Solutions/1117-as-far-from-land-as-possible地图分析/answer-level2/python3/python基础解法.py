@@ -1,9 +1,9 @@
-### 解题思路
-使用bfs的思路去解决，这个问题主要是有多个起点，都将起点将入到queue中就行更新就好了
+# ### 解题思路
+# 使用bfs的思路去解决，这个问题主要是有多个起点，都将起点将入到queue中就行更新就好了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -32,4 +32,4 @@ class Solution:
                 st[a][b] = True # 访问过的位置标记为 True
                 
         return dis
-```
+# ```

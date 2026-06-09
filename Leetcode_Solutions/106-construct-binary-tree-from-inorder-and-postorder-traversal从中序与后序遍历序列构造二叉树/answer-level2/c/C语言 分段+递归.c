@@ -1,10 +1,10 @@
-### 解题思路
-和105题一样，是一菜两吃
-![image.png](https://pic.leetcode-cn.com/6410f699eb42491cf6c48df257e30acd300a0e5cf9961f467e24f19df1629d20-image.png)
+// ### 解题思路
+// 和105题一样，是一菜两吃
+// ![image.png](https://pic.leetcode-cn.com/6410f699eb42491cf6c48df257e30acd300a0e5cf9961f467e24f19df1629d20-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,4 +47,4 @@ struct TreeNode* buildTree(int* inorder, int inorderSize, int* postorder, int po
     n->right = buildTree(inorder + n_inx + 1, right, postorder + left, right);
     return n;
 }
-```
+// ```

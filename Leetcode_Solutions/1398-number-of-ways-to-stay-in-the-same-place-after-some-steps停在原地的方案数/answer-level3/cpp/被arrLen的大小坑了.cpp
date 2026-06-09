@@ -1,6 +1,6 @@
-题目实际上不难，用动态规划很容易做，`dp[i][j]=dp[i][j-1]+dp[i][j]+dp[i][j+1]`，dp[i][j]表示i步到达j处的方法个数。
-关键是我被arrLen的大小坑了，steps小于arrLen时根本不用考虑每行后面的计算，因为最终结果根本用不到那些值。因此dp矩阵的大小只要steps*steps就可以了，实际上右下角的那个三角也可以不要。
-```
+// 题目实际上不难，用动态规划很容易做，`dp[i][j]=dp[i][j-1]+dp[i][j]+dp[i][j+1]`，dp[i][j]表示i步到达j处的方法个数。
+// 关键是我被arrLen的大小坑了，steps小于arrLen时根本不用考虑每行后面的计算，因为最终结果根本用不到那些值。因此dp矩阵的大小只要steps*steps就可以了，实际上右下角的那个三角也可以不要。
+// ```
 class Solution {
 public:
 	int numWays(int steps, int arrLen) {
@@ -34,4 +34,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

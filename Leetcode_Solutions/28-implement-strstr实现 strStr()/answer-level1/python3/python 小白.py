@@ -1,7 +1,7 @@
-## 1 暴力解法
+# ## 1 暴力解法
 
-遍历就完事了
-```
+# 遍历就完事了
+# ```
 class Solution(object):
     def strStr(self, haystack, needle):
         """
@@ -17,9 +17,9 @@ class Solution(object):
                 return i
 
         return -1
-```
-## 2.python库函数法--str.index(sub)
-```
+# ```
+# ## 2.python库函数法--str.index(sub)
+# ```
 class Solution(object):
     def strStr(self, haystack, needle):
         """
@@ -34,10 +34,10 @@ class Solution(object):
                 return -1
         
         return 0
-```
+# ```
 
-## 3.python库函数--str.find(sub)
-```
+# ## 3.python库函数--str.find(sub)
+# ```
 class Solution(object):
     def strStr(self,haystack, needle):
         """
@@ -49,6 +49,6 @@ class Solution(object):
             return haystack.find(needle)
         else:
             return 0
-```
+# ```
 
-## 4.KMP算法，子串匹配的奥义
+# ## 4.KMP算法，子串匹配的奥义

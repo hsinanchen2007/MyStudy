@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 int nxt[100005];
 class Solution {
 public:
@@ -18,4 +18,4 @@ public:
         return s.substr(0,nxt[sz]);
     }
 };
-```
+// ```

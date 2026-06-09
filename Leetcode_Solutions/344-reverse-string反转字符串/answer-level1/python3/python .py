@@ -1,6 +1,6 @@
-双指针直接互换即可
+# 双指针直接互换即可
 
-```
+# ```
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -13,4 +13,4 @@ class Solution:
             s[left],s[right]=s[right],s[left]
             left+=1
             right-=1
-```
+# ```

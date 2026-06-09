@@ -1,5 +1,5 @@
-没想到通过了
-```
+# 没想到通过了
+# ```
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
         nums.sort()
@@ -11,4 +11,4 @@ class Solution:
             i += 2
         return sum(res)
 
-```
+# ```

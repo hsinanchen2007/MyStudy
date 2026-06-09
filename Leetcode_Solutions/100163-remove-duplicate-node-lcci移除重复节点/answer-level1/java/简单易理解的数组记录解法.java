@@ -1,6 +1,6 @@
-![Screen Shot 2020-03-31 at 10.09.22 PM.png](https://pic.leetcode-cn.com/579ee92cecccb30c03e86c86e6a6d810ddd7e8f549b17d51ec543b3d9c3db76d-Screen%20Shot%202020-03-31%20at%2010.09.22%20PM.png)
+// ![Screen Shot 2020-03-31 at 10.09.22 PM.png](https://pic.leetcode-cn.com/579ee92cecccb30c03e86c86e6a6d810ddd7e8f549b17d51ec543b3d9c3db76d-Screen%20Shot%202020-03-31%20at%2010.09.22%20PM.png)
 
-```
+// ```
 class Solution {
     public ListNode removeDuplicateNodes(ListNode head) {
         if(head == null) return head;
@@ -31,4 +31,4 @@ class Solution {
     }
 }
 
-```
+// ```

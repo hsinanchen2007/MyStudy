@@ -1,14 +1,14 @@
-### 解题思路
-使用Go []int 来模拟队列
-首先栈的特性是先进后出
-Push：压入元素，使用list append即可模拟
-Top：获取栈顶元素，即list最后一个元素
-Pop: 弹出栈顶元素， 即移除list最后一个元素， 并return该元素
-Empty: 判断是否为空， list长度是否为0
+// ### 解题思路
+// 使用Go []int 来模拟队列
+// 首先栈的特性是先进后出
+// Push：压入元素，使用list append即可模拟
+// Top：获取栈顶元素，即list最后一个元素
+// Pop: 弹出栈顶元素， 即移除list最后一个元素， 并return该元素
+// Empty: 判断是否为空， list长度是否为0
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 package main
 
 type MyStack struct {
@@ -56,4 +56,4 @@ func (this *MyStack) Empty() bool {
  * param_4 := obj.Empty();
  */
 
-```
+// ```

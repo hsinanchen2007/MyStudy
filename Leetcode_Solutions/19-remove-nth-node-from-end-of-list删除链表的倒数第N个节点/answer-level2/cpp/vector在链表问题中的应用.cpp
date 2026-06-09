@@ -1,9 +1,9 @@
-在刷题的过程中遇到过很多有关链表的问题
-ListNode作为一种自定义结构体
-自然而然的可以应用vector来解题
-看题解中没有提及，在此把这种思路和大家分享
-值得注意的是：**vector内的数据类型应该是ListNode***
-```
+// 在刷题的过程中遇到过很多有关链表的问题
+// ListNode作为一种自定义结构体
+// 自然而然的可以应用vector来解题
+// 看题解中没有提及，在此把这种思路和大家分享
+// 值得注意的是：**vector内的数据类型应该是ListNode***
+// ```
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) 
@@ -25,6 +25,6 @@ public:
         return vec[0];  //返回第一个节点即可
     }
 };
-```
-效果还不错，大家可以尝试在其他题目中尝试应用
-![屏幕快照 2019-09-19 上午11.11.38.png](https://pic.leetcode-cn.com/5d070d9bcc3cffe69b63ad2e76f8ee516f3954a0794d5b656eaa5e1b11efa766-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-09-19%20%E4%B8%8A%E5%8D%8811.11.38.png)
+// ```
+// 效果还不错，大家可以尝试在其他题目中尝试应用
+// ![屏幕快照 2019-09-19 上午11.11.38.png](https://pic.leetcode-cn.com/5d070d9bcc3cffe69b63ad2e76f8ee516f3954a0794d5b656eaa5e1b11efa766-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-09-19%20%E4%B8%8A%E5%8D%8811.11.38.png)

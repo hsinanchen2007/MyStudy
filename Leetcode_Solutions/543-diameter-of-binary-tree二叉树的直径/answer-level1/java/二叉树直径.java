@@ -1,9 +1,9 @@
-### 解题思路
-求深度的同时更新max,最长路径肯定有且仅有一个最小深度节点。当路径中深度最小的节点是当前节点时，最大路径的节点数为depth(root.left)+depth(root.right)+1,长度为left+right。求出以每个节点为最小深度节点的结果，找到max。
+// ### 解题思路
+// 求深度的同时更新max,最长路径肯定有且仅有一个最小深度节点。当路径中深度最小的节点是当前节点时，最大路径的节点数为depth(root.left)+depth(root.right)+1,长度为left+right。求出以每个节点为最小深度节点的结果，找到max。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
         return Math.max(left,right)+1;
     }
 }
-```
+// ```

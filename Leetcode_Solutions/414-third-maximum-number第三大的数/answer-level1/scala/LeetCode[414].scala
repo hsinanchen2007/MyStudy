@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def thirdMax(nums: Array[Int]): Int = {
     val l: Array[Int] = nums.distinct.sorted
@@ -6,4 +6,4 @@ object Solution {
     else l(l.length - 3)
   }
 }
-```
+// ```

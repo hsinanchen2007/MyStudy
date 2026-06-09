@@ -1,7 +1,7 @@
-重复项删除操作会选择**两个**相邻且相同的字母，并删除它们
-这里删除的是相邻**两个**, 而非所有的! 所以'aaa'输出为'a'而不是''!!
+# 重复项删除操作会选择**两个**相邻且相同的字母，并删除它们
+# 这里删除的是相邻**两个**, 而非所有的! 所以'aaa'输出为'a'而不是''!!
 
-```
+# ```
 class Solution:
     def removeDuplicates(self, S: str) -> str:
         s = S
@@ -11,11 +11,11 @@ class Solution:
                 stack = stack[:-1]
             else: stack += s
         return stack
-```
+# ```
 
 
-删除所有相同的
-```
+# 删除所有相同的
+# ```
 class Solution:
     def removeDuplicates(self, S: str) -> str:
         s = S
@@ -29,4 +29,4 @@ class Solution:
             stack += s[i]
             i += 1
         return stack
-```
+# ```

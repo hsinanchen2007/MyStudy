@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         i ,j = 0,1
@@ -23,4 +23,4 @@ class Solution:
         return strs[0][i:j]
 
             
-```
+# ```

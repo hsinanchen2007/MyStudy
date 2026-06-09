@@ -1,21 +1,21 @@
-> 每日更新 1+ 刷题，欢迎 star [Nodreame: Leetcode-note-js](https://github.com/Nodreame/leetcode-note-js)
-- 刷题进度:
-    - [x] 归并递归法(空间复杂度不符合题意)
-    - [x] 归并迭代法(不截断)
-    - [x] 归并迭代法(截断)
-- 难度: medium
-- 题意解析: 对给定链表进行排序，要求时间复杂度为O(nlogn), 空间复杂度为O(1).
-- 输入处理: 给定链表为空 & 链表长度为1时，直接返回.
-- 初始思路: 归并递归法.
-    - 思路: 不断二分再归并.
-    - 复杂度分析:
-        - 时间: O(nlogn).
-        - 空间: O(logn).
-    - Leetcode 结果:
-        - 执行用时: 116 ms, 在所有 JavaScript 提交中击败了 81 %的用户
-        - 内存消耗: 41.8 MB, 在所有 JavaScript 提交中击败 32 %的用户
-    - 实现:
-        ``` js
+// > 每日更新 1+ 刷题，欢迎 star [Nodreame: Leetcode-note-js](https://github.com/Nodreame/leetcode-note-js)
+// - 刷题进度:
+//     - [x] 归并递归法(空间复杂度不符合题意)
+//     - [x] 归并迭代法(不截断)
+//     - [x] 归并迭代法(截断)
+// - 难度: medium
+// - 题意解析: 对给定链表进行排序，要求时间复杂度为O(nlogn), 空间复杂度为O(1).
+// - 输入处理: 给定链表为空 & 链表长度为1时，直接返回.
+// - 初始思路: 归并递归法.
+//     - 思路: 不断二分再归并.
+//     - 复杂度分析:
+//         - 时间: O(nlogn).
+//         - 空间: O(logn).
+//     - Leetcode 结果:
+//         - 执行用时: 116 ms, 在所有 JavaScript 提交中击败了 81 %的用户
+//         - 内存消耗: 41.8 MB, 在所有 JavaScript 提交中击败 32 %的用户
+//     - 实现:
+//         ``` js
         var sortList = function(head) {
             // 递归思想：
             if (!head || !head.next) return head;
@@ -36,17 +36,17 @@
             //  4. return 空节点.next;
             return res.next;
         };
-        ```
-- 第二思路: 归并迭代法(不截断).
-    - 思路: 两两比较合并.
-    - 复杂度分析:
-        - 时间: O(nlogn). 每次长度*2推进复杂度 O(logn)，中间逐个推进 O(n).
-        - 空间: O(1). 原地归并故O(1).
-    - Leetcode 结果:
-        - 执行用时: 264 ms, 在所有 JavaScript 提交中击败了 23.8 %的用户
-        - 内存消耗: 49.2 MB, 在所有 JavaScript 提交中击败 8.8 %的用户
-    - 实现:
-        ``` js
+//         ```
+// - 第二思路: 归并迭代法(不截断).
+//     - 思路: 两两比较合并.
+//     - 复杂度分析:
+//         - 时间: O(nlogn). 每次长度*2推进复杂度 O(logn)，中间逐个推进 O(n).
+//         - 空间: O(1). 原地归并故O(1).
+//     - Leetcode 结果:
+//         - 执行用时: 264 ms, 在所有 JavaScript 提交中击败了 23.8 %的用户
+//         - 内存消耗: 49.2 MB, 在所有 JavaScript 提交中击败 8.8 %的用户
+//     - 实现:
+//         ``` js
         var sortList = function(head) {
             // 不截断归并：
             //  0. head 为空或只有一个，直接返回
@@ -86,18 +86,18 @@
             //  4. 返回
             return res.next;
         };
-        ```
-- 第三思路: 归并迭代法(截断).
-    - 思路: 类似第二思路，但是每次都会截断和合并.
-        - 参考：[ivan_allen的答案](https://leetcode-cn.com/problems/sort-list/solution/148-pai-xu-lian-biao-bottom-to-up-o1-kong-jian-by-/)
-    - 复杂度分析:
-        - 时间: O(nlogn). 同上.
-        - 空间: O(1). 原地归并.
-    - Leetcode 结果:
-        - 执行用时: 140 ms, 在所有 JavaScript 提交中击败了 38.9 %的用户
-        - 内存消耗: 45 MB, 在所有 JavaScript 提交中击败 17.6 %的用户
-    - 实现:
-        ``` js
+//         ```
+// - 第三思路: 归并迭代法(截断).
+//     - 思路: 类似第二思路，但是每次都会截断和合并.
+//         - 参考：[ivan_allen的答案](https://leetcode-cn.com/problems/sort-list/solution/148-pai-xu-lian-biao-bottom-to-up-o1-kong-jian-by-/)
+//     - 复杂度分析:
+//         - 时间: O(nlogn). 同上.
+//         - 空间: O(1). 原地归并.
+//     - Leetcode 结果:
+//         - 执行用时: 140 ms, 在所有 JavaScript 提交中击败了 38.9 %的用户
+//         - 内存消耗: 45 MB, 在所有 JavaScript 提交中击败 17.6 %的用户
+//     - 实现:
+//         ``` js
         var sortList = function(head) {
             if (!head || !head.next) return head;
             let [tmp, count] = [head, 0];
@@ -139,4 +139,4 @@
             prev.next = n1 ? n1 : n2;
             return res.next;
         }
-        ```
+//         ```

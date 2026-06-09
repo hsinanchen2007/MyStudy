@@ -1,15 +1,15 @@
-### 解题思路
-![D5056490-3B3F-43F9-BD13-AC44F7F8C6D7.png](https://pic.leetcode-cn.com/a2f8f11d1b559d5def25b0700a25240abe66b1e5b5405c0a242b0b0aa49e867d-D5056490-3B3F-43F9-BD13-AC44F7F8C6D7.png)
+// ### 解题思路
+// ![D5056490-3B3F-43F9-BD13-AC44F7F8C6D7.png](https://pic.leetcode-cn.com/a2f8f11d1b559d5def25b0700a25240abe66b1e5b5405c0a242b0b0aa49e867d-D5056490-3B3F-43F9-BD13-AC44F7F8C6D7.png)
 
-此处撰写解题思路
-首先先计算出一轮指令向右和向上的步长，后面的每一个循环完成都是移动相同的步长，用于统计障碍物和目标所在的区间。
-然后循环每一个障碍物，判断是否可达。
-最后判断终点是否可达
-时间复杂度 O(m * n) m 为指令的长度，n为障碍物长度
-空间复杂度 O(1) 只保存了步长；
-### 代码
+// 此处撰写解题思路
+// 首先先计算出一轮指令向右和向上的步长，后面的每一个循环完成都是移动相同的步长，用于统计障碍物和目标所在的区间。
+// 然后循环每一个障碍物，判断是否可达。
+// 最后判断终点是否可达
+// 时间复杂度 O(m * n) m 为指令的长度，n为障碍物长度
+// 空间复杂度 O(1) 只保存了步长；
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean robot(String command, int[][] obstacles, int x, int y) {
         int up = 0;//向上的步长
@@ -63,4 +63,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

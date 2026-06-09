@@ -1,5 +1,5 @@
-执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :34.9 MB, 在所有 Java 提交中击败了100.00%的用户
+// 执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :34.9 MB, 在所有 Java 提交中击败了100.00%的用户
 public int[] sumZero(int n) {
         int []zero = new int[n];
     	int index = 0;

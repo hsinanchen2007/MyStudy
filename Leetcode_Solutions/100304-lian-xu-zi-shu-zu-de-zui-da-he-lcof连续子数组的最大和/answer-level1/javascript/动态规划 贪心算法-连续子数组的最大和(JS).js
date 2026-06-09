@@ -1,5 +1,5 @@
-## 动态规划
-```js
+// ## 动态规划
+// ```js
 var maxSubArray = function(nums) {
   let len = nums.length;
   let max = nums[0];
@@ -9,9 +9,9 @@ var maxSubArray = function(nums) {
   }
   return max;
 };
-```
-## 贪心算法
-```js
+// ```
+// ## 贪心算法
+// ```js
 var maxSubArray = function(nums) {
   let len = nums.length;
   let max = nums[0];
@@ -22,4 +22,4 @@ var maxSubArray = function(nums) {
   }
   return max;
 };
-```
+// ```

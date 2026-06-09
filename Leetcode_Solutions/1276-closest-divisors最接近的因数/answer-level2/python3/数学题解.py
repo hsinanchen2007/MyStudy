@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-从根开始解气，寻找差值最小因子。很简单的数学题
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 从根开始解气，寻找差值最小因子。很简单的数学题
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def closestDivisors(self, num: int) -> List[int]:
         
@@ -23,4 +23,4 @@ class Solution:
             return list1 
         else:
             return list2
-```
+# ```

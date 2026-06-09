@@ -1,8 +1,8 @@
-### 解题思路
-遍历的框架不用多说了！！只要是树的题目一般就是这个框架，先写出来
-重要的是对当前的节点的操作！！需要你自己实现细节，这道题只需要判断是不是叶节点即可！
-【这道题前中序三种遍历都可以AC，递归和迭代的版本都需要会】
-```python3
+# ### 解题思路
+# 遍历的框架不用多说了！！只要是树的题目一般就是这个框架，先写出来
+# 重要的是对当前的节点的操作！！需要你自己实现细节，这道题只需要判断是不是叶节点即可！
+# 【这道题前中序三种遍历都可以AC，递归和迭代的版本都需要会】
+# ```python3
 def help(root):
     if root is None:
         return
@@ -11,10 +11,10 @@ def help(root):
     //中序遍历（对当前的根结点的操作）
     help(root.right)
     //后序遍历（对当前的根结点的操作）
-```
-### 代码(中序递归)
+# ```
+# ### 代码(中序递归)
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -37,9 +37,9 @@ class Solution:
 
         return help(root1, []) == help(root2, [])
         
-```
-### 代码（中序迭代）
-```python3
+# ```
+# ### 代码（中序迭代）
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -63,4 +63,4 @@ class Solution:
             return res
         
         return help(root1) == help(root2)
-```
+# ```

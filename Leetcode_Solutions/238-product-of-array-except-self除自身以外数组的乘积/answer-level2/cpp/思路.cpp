@@ -1,10 +1,10 @@
-### 解题思路
-想半天 以为用动态规划
-结果看题解还蛮简单的
+// ### 解题思路
+// 想半天 以为用动态规划
+// 结果看题解还蛮简单的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
       return res;
     }
 };
-```
+// ```

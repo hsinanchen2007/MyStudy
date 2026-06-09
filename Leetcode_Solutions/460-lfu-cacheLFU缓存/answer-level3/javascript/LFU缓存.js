@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * 定义节点
  * @param {*} key 
@@ -145,4 +145,4 @@ LFUCache.prototype.put = function(key, value) {
   }
 };
 
-```
+// ```

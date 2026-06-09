@@ -1,9 +1,9 @@
-### 解题思路
-1. 按注释理解思路
+// ### 解题思路
+// 1. 按注释理解思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -59,4 +59,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k)
     p3->next = head;
     return pRotate;
 }
-```
+// ```

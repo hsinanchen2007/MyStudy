@@ -1,5 +1,5 @@
-1. n有可能是INT_MIN，这时候n=-n的话会超出数值范围，因此用long N = n；先转换一下；
-2. 单纯暴力超时，用pow(x, n) = pow(x, n / 2) * pow(x, n /2)去递归；
+// 1. n有可能是INT_MIN，这时候n=-n的话会超出数值范围，因此用long N = n；先转换一下；
+// 2. 单纯暴力超时，用pow(x, n) = pow(x, n / 2) * pow(x, n /2)去递归；
 
 class Solution {
 public:

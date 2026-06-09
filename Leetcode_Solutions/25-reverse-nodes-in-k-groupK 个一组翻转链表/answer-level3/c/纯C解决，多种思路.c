@@ -1,11 +1,11 @@
-### 解题思路
-这道题我觉得没啥难点，递归和直接都很容易，给hard我觉得评价过了。
+// ### 解题思路
+// 这道题我觉得没啥难点，递归和直接都很容易，给hard我觉得评价过了。
 
-不太懂的欢迎留言，一定细心解答~
+// 不太懂的欢迎留言，一定细心解答~
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //直接法
 /**
  * Definition for singly-linked list.
@@ -51,8 +51,8 @@ struct ListNode* reverseKGroup(struct ListNode* head, int k){
     }
     return head;
 }
-```
-```
+// ```
+// ```
 //递归法
 struct ListNode* reverseKGroup(struct ListNode* head, int k){
     struct ListNode *p=head,*q=head;//头尾
@@ -79,8 +79,8 @@ struct ListNode* reverseKGroup(struct ListNode* head, int k){
     }
     return head;
 }
-```
-```c
+// ```
+// ```c
 //递归2
 /**
  * Definition for singly-linked list.
@@ -124,4 +124,4 @@ struct ListNode *reverse(struct ListNode *head,int k)
 struct ListNode* reverseKGroup(struct ListNode* head, int k){
     return reverse(head,k);
 }
-```
+// ```

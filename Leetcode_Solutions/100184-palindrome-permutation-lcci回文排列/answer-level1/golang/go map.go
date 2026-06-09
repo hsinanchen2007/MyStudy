@@ -1,4 +1,4 @@
-```
+// ```
 func canPermutePalindrome(s string) bool {
 	maps := map[int]int{}
 	for i:= 0;i < len(s);i++{
@@ -12,4 +12,4 @@ func canPermutePalindrome(s string) bool {
 	}
 	return  counts <= 1
 }
-```
+// ```

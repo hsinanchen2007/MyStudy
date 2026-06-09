@@ -1,10 +1,10 @@
-### 经验
-for i in range(len(li)-1):
-迭代得用下标。写成for i in li会发生奇怪的事。
+# ### 经验
+# for i in range(len(li)-1):
+# 迭代得用下标。写成for i in li会发生奇怪的事。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canThreePartsEqualSum(self, A) -> bool:
         # if A/3 is integer
@@ -25,4 +25,4 @@ class Solution:
         if len(l) < 3 : return False 
         else:return l[0] == l[1] == l[2]
         
-```
+# ```

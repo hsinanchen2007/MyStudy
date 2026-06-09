@@ -1,9 +1,9 @@
-### 解题思路
-> 二叉搜索树的中序遍历是一个递增序列
+// ### 解题思路
+// > 二叉搜索树的中序遍历是一个递增序列
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -50,4 +50,4 @@ class BSTIterator {
  * int param_1 = obj.next();
  * boolean param_2 = obj.hasNext();
  */
-```
+// ```

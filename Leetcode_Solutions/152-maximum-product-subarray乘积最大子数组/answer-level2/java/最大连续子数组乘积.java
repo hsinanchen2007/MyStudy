@@ -1,9 +1,9 @@
-### 解题思路
-由于存在负数，那么会导致最大的变最小的，最小的变最大的。因此还需要维护当前最小值imin
+// ### 解题思路
+// 由于存在负数，那么会导致最大的变最小的，最小的变最大的。因此还需要维护当前最小值imin
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProduct(int[] nums) {
         if(nums.length == 1) return nums[0];
@@ -23,4 +23,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

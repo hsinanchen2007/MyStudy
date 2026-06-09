@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -15,4 +15,4 @@ func isSameTree(p *TreeNode, q *TreeNode) bool {
 	}
 	return isSameTree(p.Left,q.Left)&&isSameTree(p.Right,q.Right)&&p.Val==q.Val
 }
-```
+// ```

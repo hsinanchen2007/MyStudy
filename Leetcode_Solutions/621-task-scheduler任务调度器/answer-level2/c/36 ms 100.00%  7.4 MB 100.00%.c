@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct Task {
     int kind;
     int num;
@@ -42,4 +42,4 @@ int leastInterval(char* tasks, int tasksSize, int n){
     int ret = (n + 1 - maxNum) * (max - 1) + max * maxNum;
     return ret > tasksSize ? ret : tasksSize;
 }
-```
+// ```

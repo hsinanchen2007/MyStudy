@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def countSubstrings(self, s: str) -> int:
         l, cnt = len(s), 0
@@ -14,4 +14,4 @@ class Solution:
                 pre = temp
                 cnt += dp[j]
         return cnt
-```
+# ```

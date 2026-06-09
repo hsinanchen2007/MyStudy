@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-用切片记录每回合得分，相加即可。
+// 用切片记录每回合得分，相加即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func calPoints(ops []string) int {
 	tmp := make([]int,len(ops))
 	p := 0	//指向存放成绩的数组的指针
@@ -28,4 +28,4 @@ func calPoints(ops []string) int {
     fmt.Println(tmp)
 	return res
 }
-```
+// ```

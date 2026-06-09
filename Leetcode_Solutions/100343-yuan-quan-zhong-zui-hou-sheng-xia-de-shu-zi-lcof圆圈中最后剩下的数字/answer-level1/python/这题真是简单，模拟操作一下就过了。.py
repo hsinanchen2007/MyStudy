@@ -1,9 +1,9 @@
-### 解题思路
-生成一个数组，每次删除索引+m-1,取余是防止超界。
+# ### 解题思路
+# 生成一个数组，每次删除索引+m-1,取余是防止超界。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
         circle = [i for i in range(n)]
@@ -15,4 +15,4 @@ class Solution:
             # print(circle[index])
             del circle[index]
         return circle[0]
-```
+# ```

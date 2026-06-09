@@ -1,6 +1,6 @@
-1. 记录所有字符出现的位置.
-2. 主要比较本次字符与上次字符出现的位置.
-```
+// 1. 记录所有字符出现的位置.
+// 2. 主要比较本次字符与上次字符出现的位置.
+// ```
 class Solution {
 public:
     int findRotateSteps(string ring, string key) {
@@ -43,4 +43,4 @@ public:
         return ans;
     }
 };
-```
+// ```

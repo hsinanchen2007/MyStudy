@@ -1,9 +1,9 @@
-### 解题思路
-对于本题的解题思路是：DFS(超时) -> 动态规划O(n^2)(14ms,37.7MB) -> 贪心算法(3ms,37.5MB) -> 贪心算法+二分查找(1ms,37.8MB)
+// ### 解题思路
+// 对于本题的解题思路是：DFS(超时) -> 动态规划O(n^2)(14ms,37.7MB) -> 贪心算法(3ms,37.5MB) -> 贪心算法+二分查找(1ms,37.8MB)
 
-### 代码
-一开始没想出好的方法，就试了一下DFS，等于穷举，当然超时了
-```java
+// ### 代码
+// 一开始没想出好的方法，就试了一下DFS，等于穷举，当然超时了
+// ```java
 class Solution {
     int result = 0;
     public int lengthOfLIS(int[] nums) {
@@ -21,9 +21,9 @@ class Solution {
         }
     }
 }
-```
-动态规划：定义dp[i]表示前i个值可以组成的最长上升序列的长度，然后求dp[i+1]的时候用k遍历前面i个dp值，取nums[k]<nums[i+1]中dp[k]的最大值再加1，时间复杂度是O(n^2):
-```java
+// ```
+// 动态规划：定义dp[i]表示前i个值可以组成的最长上升序列的长度，然后求dp[i+1]的时候用k遍历前面i个dp值，取nums[k]<nums[i+1]中dp[k]的最大值再加1，时间复杂度是O(n^2):
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         if(nums.length<=1) return nums.length;
@@ -42,10 +42,10 @@ class Solution {
         return max;
     }
 }
-```
-贪心算法：使用一个数组tmp，遍历nums，如果遍历的值是tmp中最大的，就放在tmp最后，否则取代比它大的数中最小的一个；
-注意：tmp的结果不一定是符合要求的子序列，但是长度是正确的，比如:[2,3,1,4,5]
-```java
+// ```
+// 贪心算法：使用一个数组tmp，遍历nums，如果遍历的值是tmp中最大的，就放在tmp最后，否则取代比它大的数中最小的一个；
+// 注意：tmp的结果不一定是符合要求的子序列，但是长度是正确的，比如:[2,3,1,4,5]
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         if(nums.length<=1) return nums.length;
@@ -63,9 +63,9 @@ class Solution {
         return len;
     }
 }
-```
-贪心算法+二分查找：上面的方法可以使用二分查找改善时间复杂度因为tmp是递增的，因此可以使用二分查找得到所插入的位置：
-```java
+// ```
+// 贪心算法+二分查找：上面的方法可以使用二分查找改善时间复杂度因为tmp是递增的，因此可以使用二分查找得到所插入的位置：
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         if(nums.length<=1) return nums.length;
@@ -86,4 +86,4 @@ class Solution {
         return len;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-就遍历
+// ### 解题思路
+// 就遍历
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* replaceSpace(char* s){
     int i=0,j=0,sum=0;
     while(s[i]!=0){
@@ -28,4 +28,4 @@ char* replaceSpace(char* s){
     }
     return res;
 }
-```
+// ```

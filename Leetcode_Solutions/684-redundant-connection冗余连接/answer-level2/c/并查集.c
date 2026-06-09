@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-![image.png](https://pic.leetcode-cn.com/f8a4792e8ffe6f75a3fc9ad26f428fa41b72205ed8014e643425f73ce2bd9dee-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f8a4792e8ffe6f75a3fc9ad26f428fa41b72205ed8014e643425f73ce2bd9dee-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -68,4 +68,4 @@ int* findRedundantConnection(int** edges, int edgesSize, int* edgesColSize, int*
     }
     return NULL;
 }
-```
+// ```

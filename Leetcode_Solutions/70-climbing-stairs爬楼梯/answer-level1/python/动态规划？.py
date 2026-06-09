@@ -1,15 +1,15 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-学习新得：
+# 学习新得：
 
-还是要注意，类函数传递的问题。
-以及python3的新的属性，dict 中key in dict确认是否有这个键
+# 还是要注意，类函数传递的问题。
+# 以及python3的新的属性，dict 中key in dict确认是否有这个键
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def climbStairs(self, n: int) -> int:
         # 子问题递归
@@ -27,4 +27,4 @@ class Solution:
         res = self.dg(L,n-1) + self.dg(L ,n-2)
         L[n] = res
         return res
-```
+# ```

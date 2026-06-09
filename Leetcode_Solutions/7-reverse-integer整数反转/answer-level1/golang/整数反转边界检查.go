@@ -1,9 +1,9 @@
-### 解题思路
-注意检查上溢和下溢的边界条件
+// ### 解题思路
+// 注意检查上溢和下溢的边界条件
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import (
     "math"
 )
@@ -26,4 +26,4 @@ func reverse(x int) int {
     }
     return result
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```js
+// ```js
 var findLHS = function(nums) {
     let map = new Map();
     let max = 0;
@@ -16,6 +16,6 @@ var findLHS = function(nums) {
     }
     return max;
 };
-```
+// ```
 
 

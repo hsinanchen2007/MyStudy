@@ -1,4 +1,4 @@
-```
+// ```
 
  int Partition(int *nums,int left,int right){
     int temp=nums[left];
@@ -50,4 +50,4 @@ int** combinationSum(int* candidates, int candidatesSize, int target, int* retur
     *returnSize=ind;
     return res;
 }
-```
+// ```

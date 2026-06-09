@@ -1,5 +1,5 @@
-****
-```
+# ****
+# ```
 class Solution:
 	def generateMatrix(self, n: int):
 		res = [[0]*n for _ in range(n)]
@@ -21,5 +21,5 @@ class Solution:
 			helper(n-1,i+1)
 		helper(n,0)
 		return res
-```
+# ```
 

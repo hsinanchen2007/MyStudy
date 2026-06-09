@@ -1,17 +1,17 @@
-![image.png](https://pic.leetcode-cn.com/a33eeab0c1ba94b6bdae9410f7c600cfd057116512e9b32ab0ce9b4064bef11d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a33eeab0c1ba94b6bdae9410f7c600cfd057116512e9b32ab0ce9b4064bef11d-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   因为字母只有26个，将所有字母统计到 26 长度的数组中，返回第一个出现次数为 1 的字母
   
   字母的对应的 code：
   a - z
   97 - 122
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -36,4 +36,4 @@ var firstUniqChar = function(s) {
   
   return index;
 };
-```
+// ```

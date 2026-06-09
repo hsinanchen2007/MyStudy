@@ -1,9 +1,9 @@
-### 解题思路
-以0为中心对称分布
+// ### 解题思路
+// 以0为中心对称分布
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sumZero(n int) []int {
     pair := n / 2
 
@@ -15,4 +15,4 @@ func sumZero(n int) []int {
 
 	return ans
 }
-```
+// ```

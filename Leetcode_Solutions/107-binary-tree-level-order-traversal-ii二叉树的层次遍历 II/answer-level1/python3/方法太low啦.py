@@ -1,10 +1,10 @@
-### 解题思路
-做完深度又做这道题，想当然的先获取深度再根据深度构建结果数组，然后递归填充数据
-应该有更好办法，树遍历了两次
+# ### 解题思路
+# 做完深度又做这道题，想当然的先获取深度再根据深度构建结果数组，然后递归填充数据
+# 应该有更好办法，树遍历了两次
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def levelOrderBottom(self, root):
         """
@@ -36,4 +36,4 @@ class Solution(object):
         """
         if root is None: return 0
         else: return max(self.maxDepth(root.left),self.maxDepth(root.right))+1
-```
+# ```

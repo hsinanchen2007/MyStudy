@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/6b558f0dadb024a016377191bc543a82cc0127d6155f72b3d5b997ffb5d36df2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6b558f0dadb024a016377191bc543a82cc0127d6155f72b3d5b997ffb5d36df2-image.png)
 
 
-和获取树的最大深度类似，遍历一遍，发现是叶子节点就看下是不是比最小的小，是就更新一下最小值
+// 和获取树的最大深度类似，遍历一遍，发现是叶子节点就看下是不是比最小的小，是就更新一下最小值
 
 
-```java []
+// ```java []
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -45,6 +45,6 @@ class Solution {
         return 0;
     }
 }
-```
+// ```
 
-虽然是过了，还是没有官方题解思路清晰 orz..
+// 虽然是过了，还是没有官方题解思路清晰 orz..

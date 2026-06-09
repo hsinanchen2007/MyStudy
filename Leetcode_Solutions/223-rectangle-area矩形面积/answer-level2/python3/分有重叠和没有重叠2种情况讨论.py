@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def computeArea(self, A: int, B: int, C: int, D: int, E: int, F: int, G: int, H: int) -> int:
         if A > E:   #1在左，2在右。如果不是，调过来
@@ -17,4 +17,4 @@ class Solution:
         s_overlap = (overlap_up - overlap_down) * (overlap_right - overlap_left)
 
         return s1 + s2 - s_overlap    
-```
+# ```

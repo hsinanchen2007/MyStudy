@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def licenseKeyFormatting(self, S: str, K: int) -> str:
         S = ''.join(S.upper().split('-'))
@@ -10,4 +10,4 @@ class Solution:
             return S[:m]
         return S[:m] + '-' + sl
 
-```
+# ```

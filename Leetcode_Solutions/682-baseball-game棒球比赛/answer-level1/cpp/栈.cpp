@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/05d8457b7620579175db7630e6357a11a4ebd2182b26e5d1f24fcbd1d7d446b8-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/05d8457b7620579175db7630e6357a11a4ebd2182b26e5d1f24fcbd1d7d446b8-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int calPoints(vector<string>& ops) {
@@ -43,4 +43,4 @@ public:
         return ans;
     }
 };
-```
+// ```

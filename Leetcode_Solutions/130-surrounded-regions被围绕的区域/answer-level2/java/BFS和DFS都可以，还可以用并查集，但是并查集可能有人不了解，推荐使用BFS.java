@@ -1,10 +1,10 @@
-### 解题思路
-从4个边缘找'O',然后找到和这些'O'相联通的连通分量，都写成'W'，最后把board里面所有的'O'替换成'X'，所有的'W'替换成'O'。
+// ### 解题思路
+// 从4个边缘找'O',然后找到和这些'O'相联通的连通分量，都写成'W'，最后把board里面所有的'O'替换成'X'，所有的'W'替换成'O'。
 
-### 代码
+// ### 代码
 
-BFS：
-```java
+// BFS：
+// ```java
 class Point {
     int i;
     int j;
@@ -80,10 +80,10 @@ class Solution {
         return nextx >= 0 && nextx < m && nexty >= 0 && nexty < n;
     }
 }
-```
+// ```
 
-DFS：
-```java
+// DFS：
+// ```java
 class Point {
     int i;
     int j;
@@ -147,4 +147,4 @@ class Solution {
         return nextx >= 0 && nextx < m && nexty >= 0 && nexty < n;
     }
 }
-```
+// ```

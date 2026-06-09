@@ -1,18 +1,18 @@
-![image.png](https://pic.leetcode-cn.com/2f55d6102c5b900c95716ae026c56896e3345d8ed58b98beac6e6ce54cd2c15b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2f55d6102c5b900c95716ae026c56896e3345d8ed58b98beac6e6ce54cd2c15b-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   1. 层次遍历二叉树，把根节点索引标记为 0，那么把它的左子树的索引当做 -1(0 - 1)，
      右子树的索引当做 1(0 + 1)
   2. 所有节点遍历出来后，同索引的放到一个数组中，因为同索引的为同一列，也就是在
      同一条垂线上
      
   3. 每个数组自定义顺序：层级小在前，层级相等则数值小在前
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -72,4 +72,4 @@ var verticalTraversal = function(root) {
 
 
 
-```
+// ```

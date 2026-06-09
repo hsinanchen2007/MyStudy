@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/fb19073ec0e24421a9d7a876e0557b1fef529fa80a985c935900ac2b5aaaebb9-image.png)
+# ![image.png](https://pic.leetcode-cn.com/fb19073ec0e24421a9d7a876e0557b1fef529fa80a985c935900ac2b5aaaebb9-image.png)
 
 
-```
+# ```
 '''
 简单dfs解决，就是状态转移稍微有点恶心
 '''
@@ -43,4 +43,4 @@ class Solution:
 
         visited = [[0 for _ in range(len(grid[0]))] for _ in range(len(grid))]
         return self.dfs(grid, 0, 0, len(grid), len(grid[0]), moves, visited)
-```
+# ```

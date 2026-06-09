@@ -1,10 +1,10 @@
-### 解题思路
-自己手写的代码，增加了一个 add_in 进位变量。
-不算太好，过于冗长。
+# ### 解题思路
+# 自己手写的代码，增加了一个 add_in 进位变量。
+# 不算太好，过于冗长。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         add_in = 0
@@ -63,4 +63,4 @@ class Solution:
 
 
 
-```
+# ```

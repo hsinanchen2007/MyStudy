@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
     int smallestRangeI(vector<int>& A, int K) {
         int Max = A[0], Min = A[0];
 
@@ -10,4 +10,4 @@
 
         return max(0, Max - Min - 2*K);
     }
-```
+// ```

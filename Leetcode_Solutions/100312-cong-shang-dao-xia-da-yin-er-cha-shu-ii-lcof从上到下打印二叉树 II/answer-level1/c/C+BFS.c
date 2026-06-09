@@ -1,8 +1,8 @@
-1、把访问的顶点存到队列中
-2、从队列中取出节点，访问该节点的左右孩子节点，把访问的的节点存入队列中
-3、重复2过程
+// 1、把访问的顶点存到队列中
+// 2、从队列中取出节点，访问该节点的左右孩子节点，把访问的的节点存入队列中
+// 3、重复2过程
 
-```
+// ```
 #define MAX_TREE_QUEUE_NUM 0xffff
 
 typedef struct TreeNode TreeNode;
@@ -58,4 +58,4 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
 
     return result;
 }
-```
+// ```

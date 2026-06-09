@@ -1,4 +1,4 @@
-```
+// ```
 func peakIndexInMountainArray(A []int) int {
     for {
 		if len(A) == 1 {
@@ -25,4 +25,4 @@ func peakIndexInMountainArray(A []int) int {
 		}
 	}
 }
-```
+// ```

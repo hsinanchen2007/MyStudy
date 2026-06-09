@@ -1,5 +1,5 @@
-想说的其实已经标注在代码里了，水平不够，写的比较长
-```
+# 想说的其实已经标注在代码里了，水平不够，写的比较长
+# ```
 class Solution:
     def fractionToDecimal(self, numerator: int, denominator: int) -> str:
         #对于小数s = 0.ab(c),c长度为m,则 s * (10 ** m) = ab[c的前m-2位].**(c)
@@ -96,4 +96,4 @@ class Solution:
             pre /= (count)
             pre = str(pre) + s_post
         return flag + pre
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Foo {
     public Foo() {
 
@@ -32,4 +32,4 @@ class Foo {
         }
     }
 }
-```
+// ```

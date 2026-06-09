@@ -1,7 +1,7 @@
-1. 杨辉三角的第 k 行等价于，二项式 (x + y)^k 的系数。
-![gif.latex.gif](https://pic.leetcode-cn.com/fcde665c91e6cdda4a8009c4bff7b044bf93586c2c1fa60b4232c973686ab9a1-gif.latex.gif)
-2. 按顺序计算出组合数即可。
-```
+// 1. 杨辉三角的第 k 行等价于，二项式 (x + y)^k 的系数。
+// ![gif.latex.gif](https://pic.leetcode-cn.com/fcde665c91e6cdda4a8009c4bff7b044bf93586c2c1fa60b4232c973686ab9a1-gif.latex.gif)
+// 2. 按顺序计算出组合数即可。
+// ```
 class Solution {
 public:
     vector<int> getRow(const int rowIndex) {
@@ -23,4 +23,4 @@ private:
         return c;
     }
 };
-```
+// ```

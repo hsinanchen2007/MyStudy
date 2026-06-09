@@ -1,5 +1,5 @@
-比上一题多一个判断，还是比较好写
-```
+# 比上一题多一个判断，还是比较好写
+# ```
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         if obstacleGrid[0][0] == 1:
@@ -39,4 +39,4 @@ class Solution:
         # return dp[-2]
 
 
-```
+# ```

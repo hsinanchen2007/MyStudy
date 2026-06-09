@@ -1,9 +1,9 @@
-### 解题思路
-输入数据规律性很好，根据规律性可解题。
-returnSize是返回字符串长度
-### 代码
+// ### 解题思路
+// 输入数据规律性很好，根据规律性可解题。
+// returnSize是返回字符串长度
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -27,4 +27,4 @@ int* decompressRLElist(int* nums, int numsSize, int* returnSize){
     *returnSize=length;
     return result;
 }
-```
+// ```

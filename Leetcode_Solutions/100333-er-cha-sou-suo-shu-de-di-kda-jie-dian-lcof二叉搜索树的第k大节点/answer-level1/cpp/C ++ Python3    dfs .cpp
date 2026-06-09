@@ -1,10 +1,10 @@
-### 解题思路
-后序：右根左（有序递减）
-中序：左根右（有序递增）
-![截屏2020-03-10下午4.33.18.png](https://pic.leetcode-cn.com/2ceeedaaf551c5e64efdf9a8a3e43006955a7aa7556a87f09c8648524c46b35a-%E6%88%AA%E5%B1%8F2020-03-10%E4%B8%8B%E5%8D%884.33.18.png)
+// ### 解题思路
+// 后序：右根左（有序递减）
+// 中序：左根右（有序递增）
+// ![截屏2020-03-10下午4.33.18.png](https://pic.leetcode-cn.com/2ceeedaaf551c5e64efdf9a8a3e43006955a7aa7556a87f09c8648524c46b35a-%E6%88%AA%E5%B1%8F2020-03-10%E4%B8%8B%E5%8D%884.33.18.png)
 
-### 可读代码
-```python []
+// ### 可读代码
+// ```python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,9 +30,9 @@ class Solution:
         dfs(root)
         return self.res
 
-```
-### 代码
-```python []
+// ```
+// ### 代码
+// ```python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -52,10 +52,10 @@ class Solution:
         dfs(root)
         return self.res
 
-```
+// ```
 
 
-```cpp []
+// ```cpp []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -80,9 +80,9 @@ public:
         if(k > 0) dfs(root->left, k);
     }
 };
-```
+// ```
 
-```python []
+// ```python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -97,4 +97,4 @@ class Solution:
            
         res = inorder(root)
         return res[-k]      
-```
+// ```

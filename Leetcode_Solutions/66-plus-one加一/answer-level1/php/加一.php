@@ -1,4 +1,4 @@
-```
+// ```
 function plusOne($digits) {
     for($i = count($digits) - 1 ; $i >= 0 ; $i --){
         $digits[$i] = $digits[$i] + 1;
@@ -8,4 +8,4 @@ function plusOne($digits) {
     array_unshift($digits, 1);
     return $digits;
 }
-```
+// ```

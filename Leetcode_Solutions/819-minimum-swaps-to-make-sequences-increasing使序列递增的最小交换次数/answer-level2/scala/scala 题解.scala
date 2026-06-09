@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def minSwap(A: Array[Int], B: Array[Int]): Int = {
     var n1 = 0
@@ -20,4 +20,4 @@ object Solution {
     n1.min(s1)
   }
 }
-```
+// ```

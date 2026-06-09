@@ -1,10 +1,10 @@
-### 解题思路
-bfs遍历 
-每一次取当前的作为cur 如果左儿子 和 右儿子 哪个不为空 就哪个输出
+// ### 解题思路
+// bfs遍历 
+// 每一次取当前的作为cur 如果左儿子 和 右儿子 哪个不为空 就哪个输出
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -33,4 +33,4 @@ func levelOrder(root *TreeNode) []int {
     }
     return ans
 }
-```
+// ```

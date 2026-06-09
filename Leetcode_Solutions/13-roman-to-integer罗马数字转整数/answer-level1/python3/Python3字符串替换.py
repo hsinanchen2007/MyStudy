@@ -1,10 +1,10 @@
-### 解题思路
-使用re模块的subn函数进行字符替换.subn函数的返回值是替换后的字符串和替换次数.
-我们先对两个字符的罗马数字进行替换,可以保证不会出现错误.
+# ### 解题思路
+# 使用re模块的subn函数进行字符替换.subn函数的返回值是替换后的字符串和替换次数.
+# 我们先对两个字符的罗马数字进行替换,可以保证不会出现错误.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s: str) -> int:
         if not s:
@@ -24,4 +24,4 @@ class Solution:
 if __name__ == "__main__":
     s="MCMXCIV"
     print(Solution().romanToInt(s))
-```
+# ```

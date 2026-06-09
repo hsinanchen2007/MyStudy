@@ -1,6 +1,6 @@
-## 类DP思路
-遍历字符串，得到当前数字所有字母，基于前一次遍历数字结果与当前数字字母得到，当前数字下所有组合~
-```
+// ## 类DP思路
+// 遍历字符串，得到当前数字所有字母，基于前一次遍历数字结果与当前数字字母得到，当前数字下所有组合~
+// ```
 var letterCombinations = function(digits) {
     if( digits == "") return [];
     let dpResult = [];
@@ -21,4 +21,4 @@ var letterCombinations = function(digits) {
     }
     return dpResult[len-1];
 };
-```
+// ```

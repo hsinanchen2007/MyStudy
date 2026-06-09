@@ -1,9 +1,9 @@
-### 解题思路
-利用距离构建排序，排序用的mergeSort，同时构建结构体将距离和index绑定，这样就可以求出距离前K的index，根据index再去求数组；
+// ### 解题思路
+// 利用距离构建排序，排序用的mergeSort，同时构建结构体将距离和index绑定，这样就可以求出距离前K的index，根据index再去求数组；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct kDistance {
     int distance;
     int index;
@@ -62,4 +62,4 @@ private:
         return;
     }
 };
-```
+// ```

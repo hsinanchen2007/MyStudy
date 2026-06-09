@@ -1,9 +1,9 @@
-### 解题思路
-解题思路
+// ### 解题思路
+// 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int calPoints(char ** ops, int opsSize){
     int arr[1000]={0};
     int score=0,i=0,j=0;
@@ -31,4 +31,4 @@ int calPoints(char ** ops, int opsSize){
     }
     return score;
 }
-```
+// ```

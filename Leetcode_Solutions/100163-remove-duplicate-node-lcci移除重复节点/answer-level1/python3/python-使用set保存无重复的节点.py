@@ -1,7 +1,7 @@
 
-凑活使用啦
+# 凑活使用啦
 
-```
+# ```
 class Solution:
     def removeDuplicateNodes(self, head: ListNode) -> ListNode:
         if not head:
@@ -17,4 +17,4 @@ class Solution:
                 node_set.add(cur.val)
                 prev, cur = cur, cur.next
         return head
-```
+# ```

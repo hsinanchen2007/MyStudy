@@ -1,16 +1,16 @@
-测试了一下，同样的解题方法，去括号按顺序求值。
-用C++写，力扣得分为：
- * 执行用时 :16 ms, 在所有 C++ 提交中击败了93.43%的用户
- * 内存消耗 :10.5 MB, 在所有 C++ 提交中击败了69.92%的用户
+// 测试了一下，同样的解题方法，去括号按顺序求值。
+// 用C++写，力扣得分为：
+//  * 执行用时 :16 ms, 在所有 C++ 提交中击败了93.43%的用户
+//  * 内存消耗 :10.5 MB, 在所有 C++ 提交中击败了69.92%的用户
 
-用JavaScript写，力扣得分为：
- * 执行用时 :112 ms, 在所有 JavaScript 提交中击败了88.14%的用户
- * 内存消耗 :36.8 MB, 在所有 JavaScript 提交中击败了94.12%的用户
+// 用JavaScript写，力扣得分为：
+//  * 执行用时 :112 ms, 在所有 JavaScript 提交中击败了88.14%的用户
+//  * 内存消耗 :36.8 MB, 在所有 JavaScript 提交中击败了94.12%的用户
 
-感觉还是C++的效率快一点啊！
+// 感觉还是C++的效率快一点啊！
 
-C++代码, 来自jakenma
-```
+// C++代码, 来自jakenma
+// ```
 class Solution {
 public:
     int calculate(string s) {
@@ -68,11 +68,11 @@ public:
         return sum;
     }
 };
-```
+// ```
 
 
-JavaScript代码
-```
+// JavaScript代码
+// ```
 var calculate = function(s){
     let arr = [], sum = 0, num = 0, flag = 1;
     s = "+" + s; //前面加一个+号
@@ -117,4 +117,4 @@ var calculate = function(s){
     }
     return sum;
 }
-```
+// ```

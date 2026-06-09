@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
 
     public int findNumbers(int[] nums) {
@@ -6,4 +6,4 @@ class Solution {
     }
 
 }
-```
+// ```

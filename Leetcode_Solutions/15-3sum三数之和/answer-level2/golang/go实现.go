@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-上面有人提到的算法的一个go版本
+// 上面有人提到的算法的一个go版本
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func threeSum(nums []int) [][]int {
 	answer := [][]int{}
 	if len(nums) < 3{
@@ -44,4 +44,4 @@ func threeSum(nums []int) [][]int {
 	}
 	return answer
 }
-```
+// ```

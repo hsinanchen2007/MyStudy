@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     struct node {//定义结点
@@ -40,4 +40,4 @@ public:
     }
     
 };
-```
+// ```

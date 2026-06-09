@@ -1,9 +1,9 @@
-# **代码思路：**
-（1）运用递归按顺序把结点的数字和数字所对应的层数拿出放入预先已经准备好的两个数组
-（2）创建用于返回的新数组
+// # **代码思路：**
+// （1）运用递归按顺序把结点的数字和数字所对应的层数拿出放入预先已经准备好的两个数组
+// （2）创建用于返回的新数组
 
-# **代码：**
-```
+// # **代码：**
+// ```
 int  getting_the_numbers_out(struct TreeNode* root,  int** numbers,int**level, int currentlevel, int* count, int* defaultlen);
 
 int** levelOrderBottom(struct TreeNode* root, int* returnSize, int** returnColumnSizes){
@@ -70,4 +70,4 @@ int  getting_the_numbers_out(struct TreeNode* root,  int** numbers,int**level, i
     return (right > left? right:left);
 }
 }
-```
+// ```

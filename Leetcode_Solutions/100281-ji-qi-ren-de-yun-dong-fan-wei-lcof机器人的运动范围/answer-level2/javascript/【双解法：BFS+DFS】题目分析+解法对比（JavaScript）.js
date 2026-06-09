@@ -1,9 +1,9 @@
 
-## 题目分析
+// ## 题目分析
 
-题目提到了数字的数位之和，这个利用取余运算即可，并将其单独封装函数。代码如下：
+// 题目提到了数字的数位之和，这个利用取余运算即可，并将其单独封装函数。代码如下：
 
-```javascript
+// ```javascript
 // ac地址：https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/
 // 原文地址：https://xxoo521.com/2020-02-20-moving-count/
 
@@ -20,24 +20,24 @@ function bitSum(n) {
     }
     return res;
 }
-```
+// ```
 
-**要注意的是：能满足数位之和的要求的坐标，不一定能达到**。因为题目提到了机器人的移动是每次可以向上下左右 4 个方向移动一格，并且开始的坐标是`(0, 0)`。
+// **要注意的是：能满足数位之和的要求的坐标，不一定能达到**。因为题目提到了机器人的移动是每次可以向上下左右 4 个方向移动一格，并且开始的坐标是`(0, 0)`。
 
-例如当 m=36，n=15，k=9 时，由于只能向合法坐标移动 1 格，从`(18,0)`并不能到达`(20, 0)`，即使`(20, 0)`满足数位之和的条件。
+// 例如当 m=36，n=15，k=9 时，由于只能向合法坐标移动 1 格，从`(18,0)`并不能到达`(20, 0)`，即使`(20, 0)`满足数位之和的条件。
 
-这就需要使用深度优先遍历（DFS）或者广度优先遍历（BFS），而不是直接检查每个元素。
+// 这就需要使用深度优先遍历（DFS）或者广度优先遍历（BFS），而不是直接检查每个元素。
 
-## 解法 1: 广度优先遍历（推荐）
+// ## 解法 1: 广度优先遍历（推荐）
 
-和普通 BFS 相比，有两点不同：
+// 和普通 BFS 相比，有两点不同：
 
--   需要调用 bitSum 来检查数位之和
--   **因为从左上角开始遍历，因此只需要遍历「右」和「下」这两个方向**
+// -   需要调用 bitSum 来检查数位之和
+// -   **因为从左上角开始遍历，因此只需要遍历「右」和「下」这两个方向**
 
-代码如下：
+// 代码如下：
 
-```javascript
+// ```javascript
 // ac地址：https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/
 // 原文地址：https://xxoo521.com/2020-02-20-moving-count/
 /**
@@ -84,15 +84,15 @@ var movingCount = function(m, n, k) {
 
     return res;
 };
-```
+// ```
 
-时间复杂度是$O(N)$，空间复杂度是$O(N)$。
+// 时间复杂度是$O(N)$，空间复杂度是$O(N)$。
 
-## 解法 2: 深度优先遍历
+// ## 解法 2: 深度优先遍历
 
-DFS 不如 BFS，除了递归调用外，还要尝试 4 个方向（BFS 只要 2 个）。代码实现如下：
+// DFS 不如 BFS，除了递归调用外，还要尝试 4 个方向（BFS 只要 2 个）。代码实现如下：
 
-```javascript
+// ```javascript
 // ac地址：https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/
 // 原文地址：https://xxoo521.com/2020-02-20-moving-count/
 /**
@@ -135,12 +135,12 @@ var movingCount = function(m, n, k) {
         }
     }
 };
-```
+// ```
 
-时间复杂度是$O(N)$，空间复杂度是$O(N)$。
+// 时间复杂度是$O(N)$，空间复杂度是$O(N)$。
 
-## 更多资料
+// ## 更多资料
 
--   **📖Blog：[剑指 Offer 题解 + JS 代码](https://xxoo521.com/algorithm/)**
--   **🐱Github ：[https://github.com/dongyuanxin/blog](https://github.com/dongyuanxin/blog)**
--   **🌟 公众号：[心谭博客](https://tva1.sinaimg.cn/large/006tNbRwly1g9xhhp50jpj31bi0hcju4.jpg)**
+// -   **📖Blog：[剑指 Offer 题解 + JS 代码](https://xxoo521.com/algorithm/)**
+// -   **🐱Github ：[https://github.com/dongyuanxin/blog](https://github.com/dongyuanxin/blog)**
+// -   **🌟 公众号：[心谭博客](https://tva1.sinaimg.cn/large/006tNbRwly1g9xhhp50jpj31bi0hcju4.jpg)**

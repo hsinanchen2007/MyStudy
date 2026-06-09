@@ -1,9 +1,9 @@
-### 解题思路
-用动态规划的思路，`dp[i] = max(dp[i], dp[j] * dp[i - j])`
+// ### 解题思路
+// 用动态规划的思路，`dp[i] = max(dp[i], dp[j] * dp[i - j])`
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int cuttingRope(int n) {
@@ -24,10 +24,10 @@ public:
         return dp[n];
     }
 };
-```
-### 解题思路
-贪心，当绳子长度大于等于5时把绳子尽可能分成长度为3的段，当绳子长度为4时将绳子分成2*2 
-```
+// ```
+// ### 解题思路
+// 贪心，当绳子长度大于等于5时把绳子尽可能分成长度为3的段，当绳子长度为4时将绳子分成2*2 
+// ```
 class Solution {
 public:
     int cuttingRope(int n) {
@@ -49,4 +49,4 @@ public:
         
     }
 };
-```
+// ```

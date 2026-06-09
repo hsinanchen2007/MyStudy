@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> masterMind(string solution, string guess) {
@@ -18,4 +18,4 @@ public:
         return {num,sum-num};
     }
 };
-```
+// ```

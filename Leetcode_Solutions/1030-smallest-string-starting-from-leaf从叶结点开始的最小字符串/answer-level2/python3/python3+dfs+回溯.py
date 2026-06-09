@@ -1,12 +1,12 @@
-### 解题思路
-dfs+回溯
+# ### 解题思路
+# dfs+回溯
 
-![UC截图20200106111318.png](https://pic.leetcode-cn.com/25cb9064dd9212431e00c032933d01d2fba7df3cfa9f91b8e678c4bce897ff64-UC%E6%88%AA%E5%9B%BE20200106111318.png)
+# ![UC截图20200106111318.png](https://pic.leetcode-cn.com/25cb9064dd9212431e00c032933d01d2fba7df3cfa9f91b8e678c4bce897ff64-UC%E6%88%AA%E5%9B%BE20200106111318.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
         self.res += chr(97 + root.val)
         help(root)
         return self.min_str
-```
+# ```

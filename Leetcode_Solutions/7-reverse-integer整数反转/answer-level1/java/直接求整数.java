@@ -1,9 +1,9 @@
-### 解题思路
-先求最高位数，再求反转后的整数值。
+// ### 解题思路
+// 先求最高位数，再求反转后的整数值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         boolean isNegative = x < 0;
@@ -34,4 +34,4 @@ class Solution {
         return (int)ans;
     }
 }
-```
+// ```

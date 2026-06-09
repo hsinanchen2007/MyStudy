@@ -1,9 +1,9 @@
-### 解题思路
-暴力方法
+// ### 解题思路
+// 暴力方法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -27,4 +27,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
     *returnSize = num_people;
     return nums;
 }
-```
+// ```

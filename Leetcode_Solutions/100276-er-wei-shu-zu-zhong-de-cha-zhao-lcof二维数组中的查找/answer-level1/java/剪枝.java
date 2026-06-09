@@ -1,11 +1,11 @@
-### 解题思路
-  从四个角触发, 看边界不断缩小筛选范围。
-   这里存在优化空间，四个角的值存在重复比较了
+// ### 解题思路
+//   从四个角触发, 看边界不断缩小筛选范围。
+//    这里存在优化空间，四个角的值存在重复比较了
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if (matrix == null || matrix.length < 1) {
@@ -40,4 +40,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

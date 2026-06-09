@@ -1,9 +1,9 @@
-### 解题思路
-参考注释
-### 代码
+// ### 解题思路
+// 参考注释
+// ### 代码
 
-习惯性思维使用快慢指针写法（操作较多）：
-```java
+// 习惯性思维使用快慢指针写法（操作较多）：
+// ```java
 class Solution {
     public void moveZeroes(int[] nums) {
         int i = 0; // 快指针
@@ -25,9 +25,9 @@ class Solution {
         }
     }
 }
-```
-**优化一波为：**
-```java
+// ```
+// **优化一波为：**
+// ```java
 public void moveZeroes(int[] nums) {
         int k = 0; // 慢指针
         for (int num : nums) {
@@ -39,4 +39,4 @@ public void moveZeroes(int[] nums) {
             nums[k++] = 0;
         }
 }
-```
+// ```

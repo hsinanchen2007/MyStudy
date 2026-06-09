@@ -1,6 +1,6 @@
-# 中规中矩的java解法，没有优雅也没有取巧 
-集合，一层一层一个一个算
-```java []
+// # 中规中矩的java解法，没有优雅也没有取巧 
+// 集合，一层一层一个一个算
+// ```java []
     public static List<List<Integer>> generate(int numRows) {
         // 初始化返回集合
         List<List<Integer>> xie = new ArrayList<List<Integer>>();
@@ -43,4 +43,4 @@
         }
         return xie;
     }
-```
+// ```

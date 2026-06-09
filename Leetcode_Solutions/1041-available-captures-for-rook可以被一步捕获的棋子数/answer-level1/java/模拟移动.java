@@ -1,9 +1,9 @@
-### 解题思路
-模拟车的移动,碰见卒记录,并且break,遇到象直接break;
+// ### 解题思路
+// 模拟车的移动,碰见卒记录,并且break,遇到象直接break;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         //找到车的坐标xBoard代表车的x坐标,yBoard代表是车的y坐标
@@ -62,4 +62,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

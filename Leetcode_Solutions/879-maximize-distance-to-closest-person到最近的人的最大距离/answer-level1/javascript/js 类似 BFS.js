@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/f05db64c88de9f354bd665d54bced07bcda31b4fa11e24e9967001b2a7cac269-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f05db64c88de9f354bd665d54bced07bcda31b4fa11e24e9967001b2a7cac269-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 类似 BFS
 思路：
 从每一个空座位出发，向左右两边走，只要有其中一边遇到人了，
 那么拿当前走的最大距离和已保存的最大距离比较。
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} seats
  * @return {number}
@@ -42,4 +42,4 @@ var maxDistToClosest = function(seats) {
 
 
 
-```
+// ```

@@ -1,7 +1,7 @@
-执行用时 :112 ms
-内存消耗 : 22.7 MB
+// 执行用时 :112 ms
+// 内存消耗 : 22.7 MB
 
-```swift
+// ```swift
 class Solution {
     func deserialize(_ s: String) -> NestedInteger {
         var integerStr = ""
@@ -49,4 +49,4 @@ class Solution {
         return stack.first?.getList().first ?? NestedInteger()
     }
 }
-```
+// ```

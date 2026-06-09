@@ -1,10 +1,10 @@
 
-![image.png](https://pic.leetcode-cn.com/f6ec3c76d84e8f66e39e9af90a18db8d50c725bf87253b7608d0d46dfc098afd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f6ec3c76d84e8f66e39e9af90a18db8d50c725bf87253b7608d0d46dfc098afd-image.png)
 
-经典的 DFS 深度优先遍历题，从每个土地的一角开始遍历，计算每块土地的面积，并记录最大面积。
+// 经典的 DFS 深度优先遍历题，从每个土地的一角开始遍历，计算每块土地的面积，并记录最大面积。
 
-代码
-```
+// 代码
+// ```
 var isv [][]bool                        // 存储每个位置是否访问过
 var dx = [4]int{-1,0,1,0}               // 控制遍历方向
 var dy = [4]int{0,-1,0,1}
@@ -54,4 +54,4 @@ func maxAreaOfIsland(grid [][]int) int {
     }
     return MaxArea
 }
-```
+// ```

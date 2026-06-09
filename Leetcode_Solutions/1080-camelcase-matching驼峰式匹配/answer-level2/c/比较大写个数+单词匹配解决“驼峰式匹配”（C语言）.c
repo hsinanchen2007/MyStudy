@@ -1,14 +1,14 @@
-### 解题思路
-1.首先统计大写次数，不同的就返回false
+// ### 解题思路
+// 1.首先统计大写次数，不同的就返回false
 
-2.quries和pattern逐字符比较即可。
+// 2.quries和pattern逐字符比较即可。
 
-![image.png](https://pic.leetcode-cn.com/1435f80fda5b998395454a2f888db02147711c6b1eed05e287d250055168f02b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1435f80fda5b998395454a2f888db02147711c6b1eed05e287d250055168f02b-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 /**
@@ -80,4 +80,4 @@ bool* camelMatch(char ** queries, int queriesSize, char * pattern, int* returnSi
 }
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         rev = 0
@@ -14,4 +14,4 @@ class Solution:
             if rev >= (2**31-1) or rev <=(-2**31):
                 return 0
         return rev
-```
+# ```

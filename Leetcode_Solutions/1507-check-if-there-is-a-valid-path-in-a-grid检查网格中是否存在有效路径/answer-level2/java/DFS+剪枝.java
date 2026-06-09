@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/08c9e2e427ea36c965a81160d14c637fe13fb931c19aec4896f2927008c00668-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/08c9e2e427ea36c965a81160d14c637fe13fb931c19aec4896f2927008c00668-image.png)
+// ```
 class Solution {
 
     // 左右上下方向;
@@ -92,4 +92,4 @@ class Solution {
         }
     }
 }
-```
+// ```

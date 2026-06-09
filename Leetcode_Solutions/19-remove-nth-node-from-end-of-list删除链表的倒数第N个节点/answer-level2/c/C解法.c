@@ -1,10 +1,10 @@
-### 解题思路
-此题主要就是注意处理好边界问题。
-另外，n大于链表长度，力扣的处理规则是，一律当成删除倒数最后（即第一个元素）。
+// ### 解题思路
+// 此题主要就是注意处理好边界问题。
+// 另外，n大于链表长度，力扣的处理规则是，一律当成删除倒数最后（即第一个元素）。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,4 +43,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n)
     return head;
 }
 
-```
+// ```

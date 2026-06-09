@@ -1,4 +1,4 @@
-```
+// ```
 func uniqueLetterString(S string) int {
 	pre, cur := [26]int{}, [26]int{}
 	for i := 0; i < 26; i++ {
@@ -16,4 +16,4 @@ func uniqueLetterString(S string) int {
 	}
 	return out
 }
-```
+// ```

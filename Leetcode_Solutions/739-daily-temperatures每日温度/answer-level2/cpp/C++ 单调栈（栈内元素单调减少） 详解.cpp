@@ -1,4 +1,4 @@
-```
+// ```
     vector<int> dailyTemperatures(vector<int>& T) {
         stack<pair<int,int> > s;//pair 存储每个温度以及其在数组T中的下标
         int n = T.size();
@@ -13,4 +13,4 @@
         }
         return ans;//如果栈中还有数,默认都为零了
     }
-```
+// ```

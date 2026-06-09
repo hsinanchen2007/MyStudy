@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int climbStairs(int n){
     int a = 1;
     int b = 2;
@@ -18,4 +18,4 @@ int climbStairs(int n){
     }
     return sum;
 }
-```
+// ```

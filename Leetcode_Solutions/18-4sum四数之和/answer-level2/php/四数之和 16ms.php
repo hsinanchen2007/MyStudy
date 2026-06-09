@@ -1,9 +1,9 @@
-### 解题思路
-过滤最大最小值，第二处过滤最大值有num[i]较小，后num[j]数值还有大值，不可break跳出for循环，推荐先练习三数之和，双指针同理
-附大佬链接，[超级思路](https://leetcode-cn.com/problems/4sum/solution/ji-bai-9994de-yong-hu-you-dai-ma-you-zhu-shi-by-yo/)
-### 代码
+// ### 解题思路
+// 过滤最大最小值，第二处过滤最大值有num[i]较小，后num[j]数值还有大值，不可break跳出for循环，推荐先练习三数之和，双指针同理
+// 附大佬链接，[超级思路](https://leetcode-cn.com/problems/4sum/solution/ji-bai-9994de-yong-hu-you-dai-ma-you-zhu-shi-by-yo/)
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -61,4 +61,4 @@ class Solution {
         return $ret;
     }
 }
-```
+// ```

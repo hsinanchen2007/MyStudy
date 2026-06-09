@@ -1,10 +1,10 @@
-### 解题思路
-![{~)OY5@EF8A\]~@KKZY1NL_5.png](https://pic.leetcode-cn.com/4933cb3edf578e95cf90b442bbe3bd1e317840726940b571ce22457c715a2315-%7B~\)OY5@EF8A%5D~@KKZY1NL_5.png)
-此处撰写解题思路
+// ### 解题思路
+// ![{~)OY5@EF8A\]~@KKZY1NL_5.png](https://pic.leetcode-cn.com/4933cb3edf578e95cf90b442bbe3bd1e317840726940b571ce22457c715a2315-%7B~\)OY5@EF8A%5D~@KKZY1NL_5.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
@@ -81,6 +81,6 @@ public:
     return ans;
     }
 };
-```
-![F6408289075E47C0A855EC1E9D0D5C65.jpg](https://pic.leetcode-cn.com/ae573bc15bf381c6660bdcea209fb14122adfd03653a22bbfaea604716787134-F6408289075E47C0A855EC1E9D0D5C65.jpg)
-我们给m*n的矩阵设计一格标技数组，（m+1）*（n+1）4周为0，中间为1。访问的时候，从1开始访问，每访问一个元素就将该元素的标技数组的1置为0；
+// ```
+// ![F6408289075E47C0A855EC1E9D0D5C65.jpg](https://pic.leetcode-cn.com/ae573bc15bf381c6660bdcea209fb14122adfd03653a22bbfaea604716787134-F6408289075E47C0A855EC1E9D0D5C65.jpg)
+// 我们给m*n的矩阵设计一格标技数组，（m+1）*（n+1）4周为0，中间为1。访问的时候，从1开始访问，每访问一个元素就将该元素的标技数组的1置为0；

@@ -1,11 +1,11 @@
-### 解题思路
-使用一个map保存数组元素排序信息
-![leetcode1331.jpg](https://pic.leetcode-cn.com/1007b9d527513bd0ccd92cd7bf2e55469c77d309e4e2e5cd77bf819f89f6fcb7-leetcode1331.jpg)
+// ### 解题思路
+// 使用一个map保存数组元素排序信息
+// ![leetcode1331.jpg](https://pic.leetcode-cn.com/1007b9d527513bd0ccd92cd7bf2e55469c77d309e4e2e5cd77bf819f89f6fcb7-leetcode1331.jpg)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {number[]}
@@ -35,4 +35,4 @@ var arrayRankTransform = function(arr) {
     }
     return res
 };
-```
+// ```

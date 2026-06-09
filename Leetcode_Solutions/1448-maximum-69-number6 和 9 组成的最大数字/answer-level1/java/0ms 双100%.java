@@ -1,9 +1,9 @@
-### 解题思路
-参考的，感觉无敌。。。。
+// ### 解题思路
+// 参考的，感觉无敌。。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximum69Number (int num) {
         switch(num) {
@@ -52,4 +52,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

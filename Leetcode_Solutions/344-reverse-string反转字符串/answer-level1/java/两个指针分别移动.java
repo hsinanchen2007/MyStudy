@@ -1,9 +1,9 @@
-### 解题思路
-通过i,j分别指向第一个和最后一个元素
+// ### 解题思路
+// 通过i,j分别指向第一个和最后一个元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void reverseString(char[] s) {
         if(s == null || s.length < 2){
@@ -22,4 +22,4 @@ class Solution {
         }
     }
 }
-```
+// ```

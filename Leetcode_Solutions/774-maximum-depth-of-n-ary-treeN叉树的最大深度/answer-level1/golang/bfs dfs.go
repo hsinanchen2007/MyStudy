@@ -1,7 +1,7 @@
-# 算法全是模版，全是套路啊啊啊啊啊啊啊
+// # 算法全是模版，全是套路啊啊啊啊啊啊啊
 
-# bfs
-```golang
+// # bfs
+// ```golang
 func maxDepth(root *Node) int {
 	if root == nil {
 		return 0
@@ -21,11 +21,11 @@ func maxDepth(root *Node) int {
 	}
 	return level
 }
-```
+// ```
 
-# dfs
+// # dfs
 
-```golang
+// ```golang
 var max int
 
 func maxDepth(root *Node) int {
@@ -46,8 +46,8 @@ func maxInt(a, b int) int {
 	}
 	return a
 }
-```
+// ```
 
-#  
-[Go版本 Github](https://github.com/temporaries/leetcode)
-[对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)
+// #  
+// [Go版本 Github](https://github.com/temporaries/leetcode)
+// [对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)

@@ -1,10 +1,10 @@
-### 解题思路
-java 执行用时 :
-0 ms
+// ### 解题思路
+// java 执行用时 :
+// 0 ms
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int fib(int n) {
         if (n <= 1) return n;
@@ -19,4 +19,4 @@ class Solution {
         return second;
     }
 }
-```
+// ```

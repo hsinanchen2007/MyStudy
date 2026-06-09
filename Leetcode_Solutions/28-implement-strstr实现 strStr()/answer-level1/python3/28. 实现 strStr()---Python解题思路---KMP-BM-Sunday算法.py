@@ -1,16 +1,16 @@
-这题，不知道可不可以用字符串的index额姑且一试
+# 这题，不知道可不可以用字符串的index额姑且一试
 
-```python
+# ```python
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if needle == "": return 0
         if needle not in haystack: return -1
         return haystack.index(needle)
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :24 ms, 在所有 python3 提交中击败了99.68% 的用户
 内存消耗 :12.8 MB, 在所有 python3 提交中击败了99.53%的用户
 
@@ -19,33 +19,33 @@ class Solution:
 
 执行用时 :36 ms, 在所有 python3 提交中击败了90.03% 的用户
 内存消耗 :12.8 MB, 在所有 python3 提交中击败了99.47%的用户
-```
+# ```
 
-其实如果是用内置函数的话有个更匹配的函数find
+# 其实如果是用内置函数的话有个更匹配的函数find
 
-```python
+# ```python
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         return haystack.find(needle)
-```
+# ```
 
-同样符合题目要求， needle 为 空 返回0 needle 找不到就返回 -1
+# 同样符合题目要求， needle 为 空 返回0 needle 找不到就返回 -1
 
-但是题目显然不是想让我们调用内置函数，于是下面开启字符串查找的学习之旅---字符匹配算法
+# 但是题目显然不是想让我们调用内置函数，于是下面开启字符串查找的学习之旅---字符匹配算法
 
-### KMP算法
+# ### KMP算法
 
-具体什么事KMP算法我这里就不解释了，推荐几个大佬写的博客
+# 具体什么事KMP算法我这里就不解释了，推荐几个大佬写的博客
 
-对kmp算法的[漫画解释](http://www.sohu.com/a/336648975_453160) 非常的有意思
+# 对kmp算法的[漫画解释](http://www.sohu.com/a/336648975_453160) 非常的有意思
 
-还有一篇对kmp的解释[阮一峰的字符串匹配的KMP算法](http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html)也写的非常好
+# 还有一篇对kmp的解释[阮一峰的字符串匹配的KMP算法](http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html)也写的非常好
 
-好了，下面就当大家都会KMP算法的思路了，具体的代码下面做出构建
+# 好了，下面就当大家都会KMP算法的思路了，具体的代码下面做出构建
 
-下面是构建 PMT (也看到博客里面经常有人叫做next数组)的代码
+# 下面是构建 PMT (也看到博客里面经常有人叫做next数组)的代码
 
-```python
+# ```python
 # 下面这个构建PMT的代码好像是祖传代码，开始我还疑惑为啥nex[0] = -1,后面自己解答后才发现是方便判断，后面会做解释
 # p 是 子字符串
 def getNext(self, p):
@@ -61,13 +61,13 @@ def getNext(self, p):
         else:
             j = nex[j]
     return nex
-```
+# ```
 
-看完这个祖传代码我是一头雾水，于是我用麻烦一点的方法构建了这个 PMT
+# 看完这个祖传代码我是一头雾水，于是我用麻烦一点的方法构建了这个 PMT
 
-原理就是按照构建PMT的方式来的，逐一比较前缀和后缀取出对应得最长重复长度
+# 原理就是按照构建PMT的方式来的，逐一比较前缀和后缀取出对应得最长重复长度
 
-```python
+# ```python
 def getNextBySelf(self, needle):
     list_length = len(needle)
     # 先创建了一个全是0的PMT
@@ -94,11 +94,11 @@ def getNextBySelf(self, needle):
     next.insert(0, -1)
     next.pop()
     return next
-```
+# ```
 
-下面就是对应得解答
+# 下面就是对应得解答
 
-```python
+# ```python
 class Solution:
     # 判断主体函数
     def strStr(self, haystack: str, needle: str) -> int:
@@ -134,11 +134,11 @@ class Solution:
         next.insert(0, -1)
         next.pop()
         return next
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :24 ms, 在所有 python3 提交中击败了99.68% 的用户
 内存消耗 :12.7 MB, 在所有 python3 提交中击败了99.53%的用户
 
@@ -147,38 +147,38 @@ class Solution:
 
 执行用时 :32 ms, 在所有 python3 提交中击败了95.43% 的用户
 内存消耗 :12.8 MB, 在所有 python3 提交中击败了99.53%的用户
-```
+# ```
 
-像复杂逻辑的代码向来我是不喜欢太pythonic的，让人看了会一头雾水，后期自己回顾起来的时候也会气的想打自己
+# 像复杂逻辑的代码向来我是不喜欢太pythonic的，让人看了会一头雾水，后期自己回顾起来的时候也会气的想打自己
 
 
 
-### BM算法
+# ### BM算法
 
-Boyer-Moore字符串搜索算法**是一种非常高效的字符串搜索算法。它由Bob Boyer和J Strother Moore设计于1977年。BM算法(Boyer-Moore)不仅效率高，而且构思巧妙，是十分有效的字符串匹配算法，比KMP算法要更加高效。
+# Boyer-Moore字符串搜索算法**是一种非常高效的字符串搜索算法。它由Bob Boyer和J Strother Moore设计于1977年。BM算法(Boyer-Moore)不仅效率高，而且构思巧妙，是十分有效的字符串匹配算法，比KMP算法要更加高效。
 
-时间复杂度最差和KMP一样 最佳是O(n)
+# 时间复杂度最差和KMP一样 最佳是O(n)
 
-与KMP算法一样，不去理会 文本串，而是在匹配前先对 模式串 进行处理
+# 与KMP算法一样，不去理会 文本串，而是在匹配前先对 模式串 进行处理
 
-具体可看下面大佬的说明，写的非常好
+# 具体可看下面大佬的说明，写的非常好
 
-[阮一峰的字符串匹配的Boyer-Moore算法](http://www.ruanyifeng.com/blog/2013/05/boyer-moore_string_search_algorithm.html)
+# [阮一峰的字符串匹配的Boyer-Moore算法](http://www.ruanyifeng.com/blog/2013/05/boyer-moore_string_search_algorithm.html)
 
-于是有去搜索了一下如果构建 **坏字符规则** 和 **好后缀规则**
+# 于是有去搜索了一下如果构建 **坏字符规则** 和 **好后缀规则**
 
-话说我还是要吐槽一下，百度（最近由于不能科学上网只好用百度了）搜索出来的文章真的是抄来抄去。看了就心烦。
+# 话说我还是要吐槽一下，百度（最近由于不能科学上网只好用百度了）搜索出来的文章真的是抄来抄去。看了就心烦。
 
-下面用自己的话稍微解释一下
+# 下面用自己的话稍微解释一下
 
-**坏字符规则** 
+# **坏字符规则** 
 
-公式：后移位数（文本串） = 坏字符的位置（模式串中） - 搜索词中的上一次出现位置（模式串中，如果没有就是-1）
+# 公式：后移位数（文本串） = 坏字符的位置（模式串中） - 搜索词中的上一次出现位置（模式串中，如果没有就是-1）
 
-拿同样的例子来解释(为了直观空格用"_"替代)
-首先把 文本串 和 模式串 从开头对其， 然后从 模式串 的最后一位进行判断,如果相等就往左比较
+# 拿同样的例子来解释(为了直观空格用"_"替代)
+# 首先把 文本串 和 模式串 从开头对其， 然后从 模式串 的最后一位进行判断,如果相等就往左比较
 
-```
+# ```
 指                   |
 标 0  1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18 19 20 21 22 23
 文 H  E  R  E  _  I  S  _  A  _  S  I  M  P  L  E  _  E  X  A  M  P  L  E
@@ -208,20 +208,20 @@ Boyer-Moore字符串搜索算法**是一种非常高效的字符串搜索算法�
 文 H  E  R  E  _  I  S  _  A  _  S  I  M  P  L  E  _  E  X  A  M  P  L  E
 模                                                    E  X  A  M  P  L  E
 结束
-```
+# ```
 
-**好后缀规则**
+# **好后缀规则**
 
-公式：后移位数 （文本串） =  好后缀的位置 - 搜索词中的上一次出现位置
+# 公式：后移位数 （文本串） =  好后缀的位置 - 搜索词中的上一次出现位置
 
-这里有篇[文章](https://blog.csdn.net/sscc_learning/article/details/89568045)解答了我对 好后缀 移动的原因，也看了一些祖传的代码，但是还是对相关的代码晦涩难懂，
+# 这里有篇[文章](https://blog.csdn.net/sscc_learning/article/details/89568045)解答了我对 好后缀 移动的原因，也看了一些祖传的代码，但是还是对相关的代码晦涩难懂，
 
-下面就不涉及 好后缀了。等后面资料多了我再研究
+# 下面就不涉及 好后缀了。等后面资料多了我再研究
 
 
-下面 **坏字符规则** 目测又是祖传代码，看了几篇博客文章都是千篇一律的样子，代码都差不多但是都没有具体的对代码进行解释，而是直接说了一下思路，然后马上就把代码扔上来了
+# 下面 **坏字符规则** 目测又是祖传代码，看了几篇博客文章都是千篇一律的样子，代码都差不多但是都没有具体的对代码进行解释，而是直接说了一下思路，然后马上就把代码扔上来了
 
-```c++
+# ```c++
 // 坏字符串 C++ 版， 因为网上找不到python版本，话说都没看到为什么要有第一个循环
 void get_bmB(string& T,vector<int>& bmB)
 {
@@ -235,11 +235,11 @@ void get_bmB(string& T,vector<int>& bmB)
         bmB[T[i]]=tlen-i-1;
     }
 }
-```
+# ```
 
-下面是我自己根据理解写的python版的 **坏字符规则** 但是暂时没有**好后缀规则** 的代码
+# 下面是我自己根据理解写的python版的 **坏字符规则** 但是暂时没有**好后缀规则** 的代码
 
-```python
+# ```python
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if needle and not haystack: return -1
@@ -267,11 +267,11 @@ class Solution:
         for i in range(len(new_needle)):
             if new_needle[i] == char: index = i
         return index
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :28 ms, 在所有 python3 提交中击败了98.32% 的用户
 内存消耗 :12.7 MB, 在所有 python3 提交中击败了99.53%的用户
 
@@ -280,31 +280,31 @@ class Solution:
 
 执行用时 :40 ms, 在所有 python3 提交中击败了77.48% 的用户
 内存消耗 :12.7 MB, 在所有 python3 提交中击败了99.53%的用户
-```
+# ```
 
-### Sunday算法
+# ### Sunday算法
 
-Sunday算法是Daniel M.Sunday于1990年提出的字符串模式匹配。相对比较KMP和BM算法而言，简单了许多。
+# Sunday算法是Daniel M.Sunday于1990年提出的字符串模式匹配。相对比较KMP和BM算法而言，简单了许多。
 
-由于Sunday算法相对KMP和BM算法简单了许多，也十分好理解，网上看几篇文章就马上get到里面的思路了
+# 由于Sunday算法相对KMP和BM算法简单了许多，也十分好理解，网上看几篇文章就马上get到里面的思路了
 
-[Switchvov的字符串匹配——Sunday算法](https://blog.csdn.net/q547550831/article/details/51860017)
+# [Switchvov的字符串匹配——Sunday算法](https://blog.csdn.net/q547550831/article/details/51860017)
 
-照上面的例子用我自己的话来说明一下Sunday算法
+# 照上面的例子用我自己的话来说明一下Sunday算法
 
-就是看模式串和文本串从左到右是否匹配，如果出现不匹配，也不用管哪个位置不匹配，直接判断 当前匹配的文本串后面一位是什么。
+# 就是看模式串和文本串从左到右是否匹配，如果出现不匹配，也不用管哪个位置不匹配，直接判断 当前匹配的文本串后面一位是什么。
 
-如果不在模式串里面
+# 如果不在模式串里面
 
-​	公式：后移位数（文本串） = 模式串长度 + 1；
+# ​	公式：后移位数（文本串） = 模式串长度 + 1；
 
-如果在模式串里面
+# 如果在模式串里面
 
-​	公式：后移位数（文本串） = 模式串中该字符最右出现的位置到尾部的距离 + 1；
+# ​	公式：后移位数（文本串） = 模式串中该字符最右出现的位置到尾部的距离 + 1；
 
-这样就好了，对比一下上面的KMP和BM简直不要太爽
+# 这样就好了，对比一下上面的KMP和BM简直不要太爽
 
-```
+# ```
 标 0  1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18 19 20 21 22 23
 文 H  E  R  E  _  I  S  _  A  _  S  I  M  P  L  E  _  E  X  A  M  P  L  E
 模 E  X  A  M  P  L  E
@@ -325,11 +325,11 @@ Sunday算法是Daniel M.Sunday于1990年提出的字符串模式匹配。相对�
 文 H  E  R  E  _  I  S  _  A  _  S  I  M  P  L  E  _  E  X  A  M  P  L  E
 模                                                    E  X  A  M  P  L  E
 bingo结束
-```
+# ```
 
-下面祭出代码
+# 下面祭出代码
 
-```python
+# ```python
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if needle and not haystack: return -1
@@ -364,11 +364,11 @@ class Solution:
         for i in range(nee_len):
             if needle[i] == char: index = nee_len - i
         return index
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :24 ms, 在所有 python3 提交中击败了99.64% 的用户
 内存消耗 :12.6 MB, 在所有 python3 提交中击败了99.53%的用户
 
@@ -377,8 +377,8 @@ class Solution:
 
 执行用时 :36 ms, 在所有 python3 提交中击败了88.66% 的用户
 内存消耗 :12.7 MB, 在所有 python3 提交中击败了99.53%的用户
-```
+# ```
 
 
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)

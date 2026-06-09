@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/a6ecdcab85acdf8ab52ac66015d431f4bf787fd44d4db22853c3f2be6677ad3f-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/a6ecdcab85acdf8ab52ac66015d431f4bf787fd44d4db22853c3f2be6677ad3f-image.png)
 
-见下方代码注释
+// 见下方代码注释
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} heights
  * @return {number}
@@ -59,4 +59,4 @@ var largestRectangleArea = function(heights) {
     }
     return large
 };
-```
+// ```

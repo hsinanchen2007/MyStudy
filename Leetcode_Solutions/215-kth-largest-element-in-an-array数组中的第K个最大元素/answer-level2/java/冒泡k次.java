@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findKthLargest(int[] nums, int k) {//冒泡k次
          for(int i=0;i<k;i++)
@@ -21,4 +21,4 @@ class Solution {
         nums[j]=temp;
     }
 }
-```
+// ```

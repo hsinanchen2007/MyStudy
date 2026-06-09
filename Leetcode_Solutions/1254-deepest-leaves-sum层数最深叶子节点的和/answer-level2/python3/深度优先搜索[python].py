@@ -1,8 +1,8 @@
-通过闭包记录最大深度和最大深度的和，DFS和BFS都可以解决，就贴下周赛时写的DFS的代码吧。
+# 通过闭包记录最大深度和最大深度的和，DFS和BFS都可以解决，就贴下周赛时写的DFS的代码吧。
 
-![执行结果.png](https://pic.leetcode-cn.com/b4470385d1fd23bc28a3271d764ade314a77ee2cae0eff3b4c013ad0e3bc41b0-%E6%89%A7%E8%A1%8C%E7%BB%93%E6%9E%9C.png)
+# ![执行结果.png](https://pic.leetcode-cn.com/b4470385d1fd23bc28a3271d764ade314a77ee2cae0eff3b4c013ad0e3bc41b0-%E6%89%A7%E8%A1%8C%E7%BB%93%E6%9E%9C.png)
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
                 dfs(r.right, deep + 1)
         dfs(root, 0)
         return v[1]
-```
+# ```

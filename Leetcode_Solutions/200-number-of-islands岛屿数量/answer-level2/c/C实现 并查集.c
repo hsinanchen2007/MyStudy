@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/441707b75981a347e32673ca7240baffba8d6b74124ce69a939dadddf30df9e8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/441707b75981a347e32673ca7240baffba8d6b74124ce69a939dadddf30df9e8-image.png)
 
-### 解题思路
-并查集，相邻的岛屿合并为一个圈，统计最终圈子个数
+// ### 解题思路
+// 并查集，相邻的岛屿合并为一个圈，统计最终圈子个数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define INVALID -2
 #define VALID -1
 
@@ -90,4 +90,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     free(preNode);
     return count;
 }
-```
+// ```

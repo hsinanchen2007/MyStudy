@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void dfs(int **M, int MSize, int cur, int *visited)
 {
     for(int i = 0; i < MSize; i++) {
@@ -34,4 +34,4 @@ int findCircleNum(int** M, int MSize, int* MColSize)
     *MColSize = count;
     return count;
 }
-```
+// ```

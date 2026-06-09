@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ int mirror(struct TreeNode* node1, struct TreeNode* node2) {
 bool isSymmetric(struct TreeNode* root){
     return mirror(root, root);
 }
-```
+// ```

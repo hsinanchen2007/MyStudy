@@ -1,9 +1,9 @@
-### 解题思路
-由于每行中1均在0之前，故按列检测，遇到为0的行时，保存该行号，同时对已记录过的行做记录
+// ### 解题思路
+// 由于每行中1均在0之前，故按列检测，遇到为0的行时，保存该行号，同时对已记录过的行做记录
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
@@ -33,4 +33,4 @@ public:
         return res;
     }
 };
-```
+// ```

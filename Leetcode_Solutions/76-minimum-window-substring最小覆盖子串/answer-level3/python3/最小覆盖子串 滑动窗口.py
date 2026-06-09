@@ -1,10 +1,10 @@
-### 解题思路
-双指针, 一开始思路是正确的, 一个指针j先走直到满足要求, 之后另一个指针i再走不断缩小字符串.
-后面没想到的是当缩小到不满足条件时i,j怎么走. 一开始错误的认为不满足条件时i应该直接跳到j处然后重新遍历, 实际上是当不满足条件时j往前走, 满足条件时i往前走
-因为对包含字母没有顺序要求. 所以需要两个dict去map字母的count
+# ### 解题思路
+# 双指针, 一开始思路是正确的, 一个指针j先走直到满足要求, 之后另一个指针i再走不断缩小字符串.
+# 后面没想到的是当缩小到不满足条件时i,j怎么走. 一开始错误的认为不满足条件时i应该直接跳到j处然后重新遍历, 实际上是当不满足条件时j往前走, 满足条件时i往前走
+# 因为对包含字母没有顺序要求. 所以需要两个dict去map字母的count
 
-### 代码
-```
+# ### 代码
+# ```
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         from collections import Counter, defaultdict
@@ -29,9 +29,9 @@ class Solution:
                 i += 1
             j += 1
         return res
-```
-再贴一个错误代码, 反省一下
-```
+# ```
+# 再贴一个错误代码, 反省一下
+# ```
 if len(s)<len(t): return ''
         from collections import Counter, defaultdict
         dt, ds = dict(Counter(t)), defaultdict(int)
@@ -49,10 +49,10 @@ if len(s)<len(t): return ''
                     i += 1
             j += 1
         return res 
-```
+# ```
 
-所以应该改成用一个match去标记然后和len(t)比较, 只有某个字符的数量符合要求了才match++
-```
+# 所以应该改成用一个match去标记然后和len(t)比较, 只有某个字符的数量符合要求了才match++
+# ```
 char c1 = s[right];
     if (needs.count(c1)) {
         window[c1]++; // 加入 window
@@ -72,4 +72,4 @@ char c1 = s[right];
             if (window[c2] < needs[c2])
                 // 字符 c2 出现次数不再符合要求
                 match--;
-```
+# ```

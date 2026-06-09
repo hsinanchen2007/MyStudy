@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def climbStairs(self, n: int) -> int:
         if n < 3:
@@ -8,4 +8,4 @@ class Solution:
         for i in range(n - 1):
             a, b = b, a + b
         return a
-```
+# ```

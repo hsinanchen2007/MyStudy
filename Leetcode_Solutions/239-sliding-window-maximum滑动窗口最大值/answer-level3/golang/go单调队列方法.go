@@ -1,8 +1,8 @@
-### 解题思路
-go单调队列方法
-### 代码
+// ### 解题思路
+// go单调队列方法
+// ### 代码
 
-```golang
+// ```golang
 
 func maxSlidingWindow(nums []int, k int) []int {
 	windows := New()
@@ -170,4 +170,4 @@ func (d *Deque) Reset() {
 	d.right = d.blocks[0]
 }
 
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-转换成ASCII码求和后作差，差值即为多余的字母
-### 代码
+// ### 解题思路
+// 转换成ASCII码求和后作差，差值即为多余的字母
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     char findTheDifference(string s, string t) {
@@ -15,4 +15,4 @@ public:
         return res;
     }
 };
-```
+// ```

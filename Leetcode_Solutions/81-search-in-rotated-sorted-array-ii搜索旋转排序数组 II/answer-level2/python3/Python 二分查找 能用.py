@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
         if nums == []: return False
@@ -19,4 +19,4 @@ class Solution:
         else:
             index = left + bisect.bisect(nums[left + 1:], target)
         return nums[index] == target
-```
+# ```

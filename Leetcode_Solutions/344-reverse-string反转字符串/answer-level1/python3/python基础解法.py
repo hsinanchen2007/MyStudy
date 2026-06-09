@@ -1,11 +1,11 @@
-### 解题思路
-1. 内置函数reverse()
-2. 通过切片方式进行反转list
-3. 通过双指针的方法反转list
+# ### 解题思路
+# 1. 内置函数reverse()
+# 2. 通过切片方式进行反转list
+# 3. 通过双指针的方法反转list
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -22,4 +22,4 @@ class Solution:
             i += 1
             j -= 1
         return s
-```
+# ```

@@ -1,5 +1,5 @@
-解题思路：贪心 + 排序
-```javascript
+// 解题思路：贪心 + 排序
+// ```javascript
 /**
  * 621. Task Scheduler
  * https://leetcode.com/problems/task-scheduler/ 
@@ -32,4 +32,4 @@ const leastInterval = (tasks, n) => {
   }
   return Math.max(minTime, tasks.length) 
 }
-```
+// ```

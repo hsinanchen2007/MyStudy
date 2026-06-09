@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     TreeNode* p = new TreeNode(0);
@@ -17,4 +17,4 @@ public:
         return tree -> right;
     }
 };
-```
+// ```

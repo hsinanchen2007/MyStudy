@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     Node* inorderSuccessor(Node* node) {
@@ -16,4 +16,4 @@ public:
         return node;
     }
 };
-```
+// ```

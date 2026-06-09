@@ -1,8 +1,8 @@
-### 方法一: 动态规划
+# ### 方法一: 动态规划
 
-dp[i]表示前i个字母的所有组合
+# dp[i]表示前i个字母的所有组合
 
-```python
+# ```python
 class Solution(object):
     def letterCombinations(self, digits):
         """
@@ -19,11 +19,11 @@ class Solution(object):
         for i in range(1, n):
             dp[i] = [x + y for x in dp[i - 1] for y in d[digits[i]]]
         return dp[-1]
-```
+# ```
 
-由于dp[i]只与dp[i-1]有关, 所以使用变量代替上面的列表存储结果,降低空间复杂度
+# 由于dp[i]只与dp[i-1]有关, 所以使用变量代替上面的列表存储结果,降低空间复杂度
 
-```python
+# ```python
 class Solution(object):
     def letterCombinations(self, digits):
         """
@@ -39,11 +39,11 @@ class Solution(object):
         for i in range(n):
             res = [x + y for x in res for y in d[digits[i]]]
         return res
-```
+# ```
 
-### 方法二:递归
+# ### 方法二:递归
 
-```python
+# ```python
 class Solution(object):
     def letterCombinations(self, digits):
         """
@@ -58,4 +58,4 @@ class Solution(object):
         if len(digits) == 1:
             return [x for x in d[digits[0]]]
         return [x + y for x in d[digits[0]] for y in self.letterCombinations(digits[1:])]
-```
+# ```

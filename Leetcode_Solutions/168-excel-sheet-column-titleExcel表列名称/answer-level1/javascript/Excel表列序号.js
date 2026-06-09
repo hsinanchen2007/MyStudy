@@ -1,5 +1,5 @@
-1、映射
-```javascript
+// 1、映射
+// ```javascript
 /**
  * @param {number} n
  * @return {string}
@@ -17,10 +17,10 @@ var convertToTitle = function(n) {
     }
     return res
 };
-```
-2、fromCharCode方法
+// ```
+// 2、fromCharCode方法
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string}
@@ -38,4 +38,4 @@ var convertToTitle = function(n) {
     }
     return  res; 
 };
-```
+// ```

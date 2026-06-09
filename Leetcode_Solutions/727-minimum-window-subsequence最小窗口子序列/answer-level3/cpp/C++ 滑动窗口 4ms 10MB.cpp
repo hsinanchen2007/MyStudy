@@ -1,8 +1,8 @@
-搞了半天其实用不到DP 直接滑窗就行 C++ 4ms 10MB
+// 搞了半天其实用不到DP 直接滑窗就行 C++ 4ms 10MB
 
-这道题的难点其实是剪枝和优化
+// 这道题的难点其实是剪枝和优化
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string minWindow(string& S, string& T) {
@@ -37,4 +37,4 @@ public:
 	return end - start + 1 == S.length() ? "" : S.substr(start, end - start + 1);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用两个数组分别存储陆地和海洋的坐标，然后进行遍历，更新最大值
+// ### 解题思路
+// 用两个数组分别存储陆地和海洋的坐标，然后进行遍历，更新最大值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -39,4 +39,4 @@ var maxDistance = function(grid) {
   }
   return max
 };
-```
+// ```

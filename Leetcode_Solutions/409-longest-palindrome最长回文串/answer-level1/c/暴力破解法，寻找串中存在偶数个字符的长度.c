@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //获取当前位置，回文串长度
 int getPalindromeLength(char * s, int pos, int length)
 {
@@ -85,4 +85,4 @@ int longestPalindrome(char * s){
         return num+1;
     }
 }
-```
+// ```

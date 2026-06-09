@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def minDeletionSize(A: Array[String]): Int = {
     val dp = Array.fill(A(0).length)(1)
@@ -13,4 +13,4 @@ object Solution {
     d.sum
   }
 }
-```
+// ```

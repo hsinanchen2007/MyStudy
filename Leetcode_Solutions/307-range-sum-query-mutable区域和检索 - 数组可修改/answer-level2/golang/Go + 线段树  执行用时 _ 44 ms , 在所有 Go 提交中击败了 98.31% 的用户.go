@@ -1,9 +1,9 @@
-### 解题思路
-深度优先搜索，树的遍历 
+// ### 解题思路
+// 深度优先搜索，树的遍历 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type NumArray struct {
 	value  []int
 	length int
@@ -77,4 +77,4 @@ func UpdateSegmentTree(value []int, pos, left, right, index, newvalue int) {
 	value[pos] = value[pos*2+1] + value[pos*2+2]
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用Lock和Condition解决问题
+// ### 解题思路
+// 用Lock和Condition解决问题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class ZeroEvenOdd {
     private int n;
 
@@ -80,4 +80,4 @@ class ZeroEvenOdd {
         }
     }
 }
-```
+// ```

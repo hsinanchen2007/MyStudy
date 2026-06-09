@@ -1,8 +1,8 @@
-### 解题思路
-C语言递归，别的现在还没想到。
-### 代码
+// ### 解题思路
+// C语言递归，别的现在还没想到。
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ int* postorderTraversal(struct TreeNode* root, int* returnSize){
     posttravl(root, retarray, returnSize);
     return retarray;
 }
-```
+// ```

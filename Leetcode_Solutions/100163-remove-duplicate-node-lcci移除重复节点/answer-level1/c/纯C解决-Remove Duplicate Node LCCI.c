@@ -1,9 +1,9 @@
-### 解题思路
-看代码即懂
+// ### 解题思路
+// 看代码即懂
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ struct ListNode* removeDuplicateNodes(struct ListNode* head){
     pre->next=NULL;
     return new_head->next;
 }
-```
+// ```

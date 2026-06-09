@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-Javascript 模拟字符串相加，思路：把字符串转换成数组，不同位对齐相加，结果转换成字符串输出
+// Javascript 模拟字符串相加，思路：把字符串转换成数组，不同位对齐相加，结果转换成字符串输出
 
-注意点：如果某一位大于10需要进1
+// 注意点：如果某一位大于10需要进1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} num1
  * @param {string} num2
@@ -52,4 +52,4 @@ var addStrings = function(num1, num2) {
   // 转化成字符串输出
   return resultArr.join('');
 };
-```
+// ```

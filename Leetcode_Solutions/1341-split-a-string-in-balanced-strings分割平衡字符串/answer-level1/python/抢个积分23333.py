@@ -1,4 +1,4 @@
-```python
+# ```python
     def balancedStringSplit(self, s: str) -> int:
         l_minus_r = res = 0
         for i in s:
@@ -10,4 +10,4 @@
                 res += 1
                 l_minus_r = 0
         return res
-```
+# ```

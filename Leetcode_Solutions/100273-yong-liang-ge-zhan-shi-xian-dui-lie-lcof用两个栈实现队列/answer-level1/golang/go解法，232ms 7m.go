@@ -1,5 +1,5 @@
-思路：使用切片作为数据承载，append作为末尾入队，出队进行切片切割，推出头数据。
-```
+// 思路：使用切片作为数据承载，append作为末尾入队，出队进行切片切割，推出头数据。
+// ```
 type CQueue struct {
     Var []int
 }
@@ -32,4 +32,4 @@ func (this *CQueue) DeleteHead() int {
  * obj.AppendTail(value);
  * param_2 := obj.DeleteHead();
  */
-```
+// ```

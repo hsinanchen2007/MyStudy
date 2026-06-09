@@ -1,4 +1,4 @@
-```
+// ```
 class Solution{
 	public:
 	    int pivotIndex(vector<int>& nums) {
@@ -11,4 +11,4 @@ class Solution{
 			return -1;
     	} 
 };
-```
+// ```

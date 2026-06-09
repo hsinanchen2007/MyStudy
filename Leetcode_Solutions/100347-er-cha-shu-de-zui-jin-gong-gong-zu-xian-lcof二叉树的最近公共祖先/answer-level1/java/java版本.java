@@ -1,5 +1,5 @@
-没错！我就是来提前占坑的！终于可以在 LeetCode 上刷 剑指offer 了！尤为开心！
-```java
+// 没错！我就是来提前占坑的！终于可以在 LeetCode 上刷 剑指offer 了！尤为开心！
+// ```java
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(root == null || p == root || q == root)return root;
@@ -9,4 +9,4 @@ class Solution {
         return left == null ? right : left;
     }
 }
-```
+// ```

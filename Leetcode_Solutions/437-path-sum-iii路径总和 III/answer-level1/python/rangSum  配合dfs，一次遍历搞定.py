@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def pathSum(self, root, sum):
         """
@@ -23,6 +23,6 @@ class Solution(object):
         result += self.dfs(node.right, pathSum, target, cache)
         cache[pathSum] -= 1
         return result
-```
+# ```
 
-直觉上看，每次都重新计算和肯定有浪费，所以缓存之前的sum，因为是求个数，所以value存个数就行。
+# 直觉上看，每次都重新计算和肯定有浪费，所以缓存之前的sum，因为是求个数，所以value存个数就行。

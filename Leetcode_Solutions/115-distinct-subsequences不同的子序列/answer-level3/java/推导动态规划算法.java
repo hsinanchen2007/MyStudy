@@ -1,16 +1,16 @@
-### 解题思路
-分析过程，示例 s=babgbag,t=bag
-如果我们把bag分成一个给字符串计算，就可以知道，
-如果要匹配bag的情况，在匹配到g的时候我们只需要知道 ba字符串在前面出现的次数，就可以计算出bag的次数
-再计算ba的匹配情况，我们只需要知道前面出现了多少次b的，就可以知道ba的匹配情况，
-如果我们可以建立一个二维数组记录 每个字符串在s字符串的出现的次数
-我们可以推导出一个公式 count[i][j]为t(0-j) 在位s(0,j)字符匹配的出现次数
-我们如果当前字符相等 count[i+1][j+1]=count[i+1][j]+count[i][j]
-如果不相等 count[i+1][j+1]=count[i+1][j]
+// ### 解题思路
+// 分析过程，示例 s=babgbag,t=bag
+// 如果我们把bag分成一个给字符串计算，就可以知道，
+// 如果要匹配bag的情况，在匹配到g的时候我们只需要知道 ba字符串在前面出现的次数，就可以计算出bag的次数
+// 再计算ba的匹配情况，我们只需要知道前面出现了多少次b的，就可以知道ba的匹配情况，
+// 如果我们可以建立一个二维数组记录 每个字符串在s字符串的出现的次数
+// 我们可以推导出一个公式 count[i][j]为t(0-j) 在位s(0,j)字符匹配的出现次数
+// 我们如果当前字符相等 count[i+1][j+1]=count[i+1][j]+count[i][j]
+// 如果不相等 count[i+1][j+1]=count[i+1][j]
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numDistinct(String s, String t) {
         /**
@@ -40,4 +40,4 @@ class Solution {
         return counts[words.length][chars.length];
     }
 }
-```
+// ```

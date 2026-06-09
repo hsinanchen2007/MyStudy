@@ -1,9 +1,9 @@
-### 解题思路
-记录一下呀~~
+// ### 解题思路
+// 记录一下呀~~
 
-#### 迭代代码
+// #### 迭代代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> preorder(Node* root) {
@@ -33,10 +33,10 @@ private:
         }
     }
 };
-```
+// ```
 
-#### 递归代码
-```cpp
+// #### 递归代码
+// ```cpp
 class Solution {
 public:
     vector<int> preorder(Node* root) {
@@ -55,4 +55,4 @@ private:
         }
     }
 };
-```
+// ```

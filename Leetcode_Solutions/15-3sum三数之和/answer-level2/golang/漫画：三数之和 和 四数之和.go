@@ -1,15 +1,15 @@
-本题关键之处（完整代码见文末）：
+// 本题关键之处（完整代码见文末）：
 
-- 知道使用双指针进行求解
-- 处理好重复元素
+// - 知道使用双指针进行求解
+// - 处理好重复元素
 
-同时，大家有兴趣也可以学习 [二数之和](https://leetcode-cn.com/problems/two-sum/solution/man-hua-liang-shu-zhi-he-dao-si-shu-zhi-he-by-chen/) 和 [四数之和]()
-
-
-![image.png](https://pic.leetcode-cn.com/162b055e199e251b4fc639bb242c3e299dc5d8aabd220afca5efbf35041a06d1-image.png)
+// 同时，大家有兴趣也可以学习 [二数之和](https://leetcode-cn.com/problems/two-sum/solution/man-hua-liang-shu-zhi-he-dao-si-shu-zhi-he-by-chen/) 和 [四数之和]()
 
 
-```java []
+// ![image.png](https://pic.leetcode-cn.com/162b055e199e251b4fc639bb242c3e299dc5d8aabd220afca5efbf35041a06d1-image.png)
+
+
+// ```java []
 class Solution {
     public static List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> ans = new ArrayList();
@@ -37,8 +37,8 @@ class Solution {
         return ans;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         
@@ -69,4 +69,4 @@ class Solution:
                 else:
                     L=L+1
         return res
-```
+// ```

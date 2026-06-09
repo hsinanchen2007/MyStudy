@@ -1,6 +1,6 @@
-设置两个串遍历的时候相邻字母改变标志flag，flag不一致说明变化不一致，设置字典两个字符串对应的字母不一致也表明结构不一样。
+# 设置两个串遍历的时候相邻字母改变标志flag，flag不一致说明变化不一致，设置字典两个字符串对应的字母不一致也表明结构不一样。
 
-```
+# ```
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         dic = {}
@@ -31,4 +31,4 @@ class Solution:
         return True
 
 
-```
+# ```

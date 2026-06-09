@@ -1,4 +1,4 @@
-    def jump(nums): #递归，相当于穷举，但是解一定是对的。
+#     def jump(nums): #递归，相当于穷举，但是解一定是对的。
         res_all=[]
         
         def f(loc,num):

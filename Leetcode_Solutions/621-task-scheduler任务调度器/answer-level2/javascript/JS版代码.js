@@ -1,4 +1,4 @@
-```js
+// ```js
 var leastInterval = function(tasks, n) {
   const o = {}
   tasks.forEach(key => {
@@ -36,4 +36,4 @@ var leastInterval = function(tasks, n) {
   const queue = Q.join('').replace(/-+$/g, '')
   return queue.length
 }
-```
+// ```

@@ -1,11 +1,11 @@
-# 解法一：
-二维动态规划：
-1，`dp[i][j]`代表前`i`个数能否找到若干个数组成和为`j`
-2，状态转移方程：
-`dp[i][j] = dp[i - 1][j - nums[i]] || dp[i - 1][j];`
+// # 解法一：
+// 二维动态规划：
+// 1，`dp[i][j]`代表前`i`个数能否找到若干个数组成和为`j`
+// 2，状态转移方程：
+// `dp[i][j] = dp[i - 1][j - nums[i]] || dp[i - 1][j];`
 
-完整代码如下：
-```C++ []
+// 完整代码如下：
+// ```C++ []
 class Solution {
 public:
     bool helper(const vector<int>& nums, int target) {
@@ -27,13 +27,13 @@ public:
         return helper(nums, sum >> 1);
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/c162a63b8764009a73446b32890a756d178576dcd3c1ec0b06235b93bc2806ca-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/c162a63b8764009a73446b32890a756d178576dcd3c1ec0b06235b93bc2806ca-image.png)
 
 
-# 解法二：
-状态压缩动态规划
-```C++ []
+// # 解法二：
+// 状态压缩动态规划
+// ```C++ []
 class Solution {
 public:
     bool helper(const vector<int>& nums, int target) {
@@ -53,6 +53,6 @@ public:
         return helper(nums, sum >> 1);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/bcf1844d68ba3edbe88875b3c32e1dc2df45038d4340c0fda925d615b843f22f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bcf1844d68ba3edbe88875b3c32e1dc2df45038d4340c0fda925d615b843f22f-image.png)

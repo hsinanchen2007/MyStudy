@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 class Solution {
 public:
     // 桶排序 通过（最快）52ms
@@ -145,5 +145,5 @@ public:
         return bucketSort(nums);
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/b216f541d8c08ad1f7235ed51731c83a178467b9b55f94ac24b22c0c41ad888a-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/b216f541d8c08ad1f7235ed51731c83a178467b9b55f94ac24b22c0c41ad888a-image.png)

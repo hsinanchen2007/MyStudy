@@ -1,9 +1,9 @@
-### 解题思路
-倒序查找
+// ### 解题思路
+// 倒序查找
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findLucky(arr []int) int {
     max := getMax(arr)
     res := make([]int, max+1)
@@ -28,4 +28,4 @@ func getMax(nums []int) int {
     }
     return nums[left]
 }
-```
+// ```

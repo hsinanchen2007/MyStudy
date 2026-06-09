@@ -1,8 +1,8 @@
-### 解题思路
-一次dfs将每个节点的子树和算出来，再循环一次找到最大值
-### 代码
+// ### 解题思路
+// 一次dfs将每个节点的子树和算出来，再循环一次找到最大值
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-dfs
-![image.png](https://pic.leetcode-cn.com/7e652750f34ddb33df6853bce1b88b2e2014ad5ee7b9003e1916bb845896c7a6-image.png)
+// ### 解题思路
+// dfs
+// ![image.png](https://pic.leetcode-cn.com/7e652750f34ddb33df6853bce1b88b2e2014ad5ee7b9003e1916bb845896c7a6-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         doSumOfLeftLeaves(root.right, false);
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-set存储，由于是(n+1)个不同元素，所以只要重复就一定是重复n次
+// set存储，由于是(n+1)个不同元素，所以只要重复就一定是重复n次
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int repeatedNTimes(vector<int>& A) {
@@ -19,4 +19,4 @@ public:
         return ans;
     }
 };
-```
+// ```

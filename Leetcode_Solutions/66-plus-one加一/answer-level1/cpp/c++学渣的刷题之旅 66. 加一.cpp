@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -14,5 +14,5 @@ public:
         return digits;
     }
 };
-```
-用 j 表示进位，t 表示当前位置临时值，循环完后，如果 j > 0 说明最前面进位了，则在开头插入。（需要了解vector插入方法）
+// ```
+// 用 j 表示进位，t 表示当前位置临时值，循环完后，如果 j > 0 说明最前面进位了，则在开头插入。（需要了解vector插入方法）

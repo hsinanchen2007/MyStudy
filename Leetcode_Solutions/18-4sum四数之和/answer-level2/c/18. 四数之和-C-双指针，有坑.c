@@ -1,30 +1,30 @@
-### 解题思路
-在三数和那道题外面再嵌套一层循环。
-需要注意的是这道题的去重条件
+// ### 解题思路
+// 在三数和那道题外面再嵌套一层循环。
+// 需要注意的是这道题的去重条件
 
-固定 Now， then， low， high，
-固定now， then，动low，high  
-        移动then
-移动now
+// 固定 Now， then， low， high，
+// 固定now， then，动low，high  
+//         移动then
+// 移动now
 
-对于now和then都要做去重。
-```
+// 对于now和then都要做去重。
+// ```
 while (now > 0 && (now + 3) < numsSize && nums[now] == nums[now - 1]) {
     now++;
 }
-```
+// ```
 
-then去重的时候要考虑到：
-比如0,0,0,0这种组合，then如果上一个就是now，但是它们又相等，这种情况不能算是重复的
-```
+// then去重的时候要考虑到：
+// 比如0,0,0,0这种组合，then如果上一个就是now，但是它们又相等，这种情况不能算是重复的
+// ```
 while ((then + 2) < numsSize  && then > (now + 1) && nums[then] == nums[then - 1]) {
     then++;
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Compare(const void *a, const void *b) {
     return (*(int *)a - *(int *)b);
 }
@@ -125,4 +125,4 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 
 }
 
-```
+// ```

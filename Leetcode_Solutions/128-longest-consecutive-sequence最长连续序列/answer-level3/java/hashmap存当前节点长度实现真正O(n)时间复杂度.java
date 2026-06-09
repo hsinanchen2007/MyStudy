@@ -1,6 +1,6 @@
-真正的O(n)时间复杂度
+// 真正的O(n)时间复杂度
 
-```java
+// ```java
 class Solution {
     public int longestConsecutive(int[] nums) {
         int ans = 0;
@@ -44,4 +44,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

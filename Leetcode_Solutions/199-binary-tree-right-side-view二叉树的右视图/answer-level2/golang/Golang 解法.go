@@ -1,6 +1,6 @@
-广度优先搜索记录每一层最右侧节点的值，送入最终结果
+// 广度优先搜索记录每一层最右侧节点的值，送入最终结果
 
-```
+// ```
 func rightSideView(root *TreeNode) []int {
     var (
         cq, nq []*TreeNode
@@ -38,7 +38,7 @@ func rightSideView(root *TreeNode) []int {
     }
     return res
 }
-```
+// ```
 
-空间复杂度 O(n)
-时间复杂度 O(n)
+// 空间复杂度 O(n)
+// 时间复杂度 O(n)

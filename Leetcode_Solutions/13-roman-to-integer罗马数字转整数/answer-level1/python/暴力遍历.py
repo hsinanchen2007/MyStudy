@@ -1,7 +1,7 @@
-先将字符串转成列表，然后先判定两字符的，再判断一个字符的，这样想法比较简单，容易实现
+# 先将字符串转成列表，然后先判定两字符的，再判断一个字符的，这样想法比较简单，容易实现
 
 
-```python []
+# ```python []
 class Solution:
     def romanToInt(self, s: str) -> int:
         roman=['I','V','X','L','C','D','M','IV','IX','XL','XC','CD','CM']
@@ -24,5 +24,5 @@ class Solution:
                 num_return = num_return+num[roman.index(a)]
                 del s_list[0]
         return num_return
-```
+# ```
 

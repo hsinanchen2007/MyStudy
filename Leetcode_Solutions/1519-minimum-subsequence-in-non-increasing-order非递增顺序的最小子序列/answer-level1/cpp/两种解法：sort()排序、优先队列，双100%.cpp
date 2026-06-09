@@ -1,9 +1,9 @@
-### 优先队列
-优先队列，取出队列中前的最大值，和剩余之和比较。
+// ### 优先队列
+// 优先队列，取出队列中前的最大值，和剩余之和比较。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> minSubsequence(vector<int>& nums) {
@@ -23,11 +23,11 @@ public:
         return res;
     }
 };
-```
+// ```
 
-&nbsp;
-### sort()
-```
+// &nbsp;
+// ### sort()
+// ```
 class Solution {
 public:
     int sum1=0,sum2=0;
@@ -48,4 +48,4 @@ public:
         return ans;
     }
 };
-```
+// ```

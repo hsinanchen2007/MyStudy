@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def strobogrammaticInRange(self, low: str, high: str) -> int:
         dict1 = {'0': '0', '1': '1', '6': '9', '8': '8', '9': '6'}
@@ -28,4 +28,4 @@ class Solution:
         helper(n)
         helper(n - 1)
         return len(res)
-```
+# ```

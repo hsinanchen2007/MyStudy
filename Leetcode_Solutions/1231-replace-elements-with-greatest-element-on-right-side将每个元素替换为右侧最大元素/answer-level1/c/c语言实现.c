@@ -1,9 +1,9 @@
-### 解题思路
-类似于选择排序但又不相同。
+// ### 解题思路
+// 类似于选择排序但又不相同。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -25,4 +25,4 @@ int* replaceElements(int* arr, int arrSize, int* returnSize){
     *returnSize=arrSize;
     return num;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-二叉搜索树中序遍历得到的即为有序序列
+// ### 解题思路
+// 二叉搜索树中序遍历得到的即为有序序列
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ public:
         return res[k-1];
     }
 };
-```
+// ```

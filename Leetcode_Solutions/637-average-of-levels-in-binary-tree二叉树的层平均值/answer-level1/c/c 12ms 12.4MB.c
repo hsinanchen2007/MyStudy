@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：先序遍历二叉树
@@ -103,4 +103,4 @@ double * averageOfLevels( struct TreeNode * root , int * returnSize ){
     return buffer;
 
 }
-```
+// ```

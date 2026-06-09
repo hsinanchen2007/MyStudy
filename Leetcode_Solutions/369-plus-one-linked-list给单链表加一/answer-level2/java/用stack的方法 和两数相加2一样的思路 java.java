@@ -1,6 +1,6 @@
-和两数相加2的写法一模一样 就是将所有数存进stack里 然后再新建链表不断往前放
+// 和两数相加2的写法一模一样 就是将所有数存进stack里 然后再新建链表不断往前放
 
-```
+// ```
 class Solution {
     public ListNode plusOne(ListNode head) {
         if(head == null)
@@ -32,4 +32,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

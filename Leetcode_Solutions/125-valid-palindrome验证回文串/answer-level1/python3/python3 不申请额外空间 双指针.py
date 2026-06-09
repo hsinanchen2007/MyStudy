@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+# ### 解题思路
+# 双指针
 
-### 解法一
+# ### 解法一
 
-```python
+# ```python
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         strAndNum = 'abcdefghijklmnopqrstuvwxyz0123456789'
@@ -31,4 +31,4 @@ class Solution:
         return True
 
 
-```
+# ```

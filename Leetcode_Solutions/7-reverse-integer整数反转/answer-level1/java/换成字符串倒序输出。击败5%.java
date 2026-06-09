@@ -1,9 +1,9 @@
-### 解题思路
-我的第二道题
+// ### 解题思路
+// 我的第二道题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         boolean nega = false;
@@ -28,4 +28,4 @@ class Solution {
         }
     }
 }
-```
+// ```

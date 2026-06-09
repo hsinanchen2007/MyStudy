@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
         # 递归法
@@ -21,4 +21,4 @@ class Solution:
         #     remind = (m + remind) % i
         # return remind
 
-```
+# ```

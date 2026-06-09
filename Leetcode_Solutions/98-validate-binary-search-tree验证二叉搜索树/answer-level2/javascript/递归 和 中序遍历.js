@@ -1,12 +1,12 @@
-### 递归遍历
+// ### 递归遍历
 
-分析
+// 分析
 
-递归遍历，所有节点满足，二叉树的左孩子 < 根, 右孩子 > 根
+// 递归遍历，所有节点满足，二叉树的左孩子 < 根, 右孩子 > 根
 
-代码
+// 代码
 
-```
+// ```
 var isValidBST = function(root) {
 
     function dfs(root){
@@ -25,21 +25,21 @@ var isValidBST = function(root) {
 
     return dfs(root)
 };
-```
+// ```
 
-但是这样也不一定正确，如下面的case就不通过
+// 但是这样也不一定正确，如下面的case就不通过
 
-[10,5,15,null,null,6,20] 返回true,期望false
+// [10,5,15,null,null,6,20] 返回true,期望false
 
-实际上BST，需要整个右子树都大于根，整个左子树都小于根
+// 实际上BST，需要整个右子树都大于根，整个左子树都小于根
 
-前面已经判断了，右孩子一定大于根，左孩子一定小于根；
+// 前面已经判断了，右孩子一定大于根，左孩子一定小于根；
 
-需要再附加条件：**任意节点的值必须大于其左子树的最右节点；同时小于右子树的最左节点。从根节点开始检查，一旦发现不满足则返回false。**
+// 需要再附加条件：**任意节点的值必须大于其左子树的最右节点；同时小于右子树的最左节点。从根节点开始检查，一旦发现不满足则返回false。**
  
-整理代码
+// 整理代码
 
-```javascript
+// ```javascript
 var isValidBST = function(root) {
 
     function dfs(root){
@@ -73,11 +73,11 @@ var isValidBST = function(root) {
 
     return dfs(root)
 };
-```
+// ```
 
-### 中序遍历
+// ### 中序遍历
 
-```javascript
+// ```javascript
 var isValidBST = function(root) {
     var queue = []
     function dfs(root){
@@ -95,5 +95,5 @@ var isValidBST = function(root) {
     
     return true
 };
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-为什么可以跳过len个？利用反证法，假设len内的位置可以复用，那么必定满足循环结构。而第len+1个则是破坏了这个结构，故而len内的数据都是被破坏的
+// ### 解题思路
+// 为什么可以跳过len个？利用反证法，假设len内的位置可以复用，那么必定满足循环结构。而第len+1个则是破坏了这个结构，故而len内的数据都是被破坏的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean rotateString(String A, String B) {
         //loop操作即可
@@ -41,4 +41,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

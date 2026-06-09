@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define MAX(a, b) (((a) > (b))? (a) : (b))
 int maxPathSumDFS(struct TreeNode* root, int *max){
@@ -23,4 +23,4 @@ int maxPathSum(struct TreeNode* root){
     maxPathSumDFS(root, &max);
     return max;
 }
-```
+// ```

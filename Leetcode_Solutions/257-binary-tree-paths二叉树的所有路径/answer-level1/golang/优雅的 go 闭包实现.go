@@ -1,6 +1,6 @@
 
-go 闭包时递归需要先声明，传递数组指教直接 append 即可。
-```go
+// go 闭包时递归需要先声明，传递数组指教直接 append 即可。
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -34,4 +34,4 @@ func binaryTreePaths(root *TreeNode) []string {
     return result
 }
 
-```
+// ```

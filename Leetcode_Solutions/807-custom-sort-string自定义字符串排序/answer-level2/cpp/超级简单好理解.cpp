@@ -1,5 +1,5 @@
-没有自己写排序算法直接调用了c++ sort
-```
+// 没有自己写排序算法直接调用了c++ sort
+// ```
 class Solution {
 public:
     string customSortString(string S, string T) {
@@ -19,6 +19,6 @@ public:
         return T;
     }
 };
-```
+// ```
 
-欢迎各位大哥指点哈新手上路
+// 欢迎各位大哥指点哈新手上路

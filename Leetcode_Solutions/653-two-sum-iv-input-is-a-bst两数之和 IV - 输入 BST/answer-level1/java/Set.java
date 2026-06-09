@@ -1,9 +1,9 @@
-### 解题思路
-遍历整个树，使用set存节点的值，每次判断set里面是否存在k-root.val。
+// ### 解题思路
+// 遍历整个树，使用set存节点的值，每次判断set里面是否存在k-root.val。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
         return find(root.left, k, set) || find(root.right, k, set);
     }
 }
-```
+// ```

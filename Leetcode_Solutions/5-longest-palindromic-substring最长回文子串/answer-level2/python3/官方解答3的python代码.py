@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         # 找寻所有的一字回文和二字回文
@@ -28,4 +28,4 @@ class Solution:
             else:
                 break
         return s[myList[-1][0]:myList[-1][1]]
-```
+# ```

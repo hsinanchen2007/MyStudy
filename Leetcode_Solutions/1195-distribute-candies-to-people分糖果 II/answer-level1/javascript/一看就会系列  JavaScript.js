@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} candies
  * @param {number} num_people
@@ -22,4 +22,4 @@ var distributeCandies = function(candies, num_people) {
     }
     return childrens;//返回所有小朋友获得糖果的情况
 };
-```
+// ```

@@ -1,5 +1,5 @@
-查到重复直接返回即可
-```
+// 查到重复直接返回即可
+// ```
 class Solution {
     func repeatedNTimes(_ A: [Int]) -> Int {
         var set:[Int] = []
@@ -13,4 +13,4 @@ class Solution {
         return 0
     }
 }
-```
+// ```

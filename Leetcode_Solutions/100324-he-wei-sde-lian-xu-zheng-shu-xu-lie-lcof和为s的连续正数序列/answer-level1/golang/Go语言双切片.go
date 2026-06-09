@@ -1,11 +1,11 @@
-### 解题思路
-双切片
-![image.png](https://pic.leetcode-cn.com/403eb5d3b9fa779edb8c6bbe08e029eb4d15353193395b6511f365f51c0b8bcd-image.png)
+// ### 解题思路
+// 双切片
+// ![image.png](https://pic.leetcode-cn.com/403eb5d3b9fa779edb8c6bbe08e029eb4d15353193395b6511f365f51c0b8bcd-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findContinuousSequence(target int) [][]int {
 	var mid = target / 2
 	var small = make([]int,0) //当满足条件时，将连续的数记录
@@ -36,4 +36,4 @@ func findContinuousSequence(target int) [][]int {
 	}
 	return ans
 }
-```
+// ```

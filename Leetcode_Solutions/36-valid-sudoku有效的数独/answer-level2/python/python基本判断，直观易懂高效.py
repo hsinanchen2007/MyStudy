@@ -1,14 +1,14 @@
-### 解题思路
-按规则逐条判断，9行+9列+9块
+# ### 解题思路
+# 按规则逐条判断，9行+9列+9块
 
 
-### 执行结果
-![image.png](https://pic.leetcode-cn.com/9193909046d4efa42df3e2408a90f2a0c766efdbe7d9e628d33a3ae34639b281-image.png)
+# ### 执行结果
+# ![image.png](https://pic.leetcode-cn.com/9193909046d4efa42df3e2408a90f2a0c766efdbe7d9e628d33a3ae34639b281-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         def isvaild9(lyst):
@@ -31,4 +31,4 @@ class Solution:
         return True
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class TicTacToe {
 
     /** Initialize your data structure here. */
@@ -124,4 +124,4 @@ boolean isLeftDownToRightUp=true;
  * TicTacToe obj = new TicTacToe(n);
  * int param_1 = obj.move(row,col,player);
  */
-```
+// ```

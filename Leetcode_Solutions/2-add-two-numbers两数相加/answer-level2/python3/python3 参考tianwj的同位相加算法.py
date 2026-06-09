@@ -1,5 +1,5 @@
-参考[@tianwj](/u/tianwj)的算法中同位相加的算法，运行时发现出现错误，后更改为下列代码发现可以正常提交：
-```
+# 参考[@tianwj](/u/tianwj)的算法中同位相加的算法，运行时发现出现错误，后更改为下列代码发现可以正常提交：
+# ```
 代码块
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
@@ -29,4 +29,4 @@ class Solution:
                 l3.next = ListNode(0)
                 l3 = l3.next
         return l4
-```
+# ```

@@ -1,5 +1,5 @@
-先排除数组中不存在目标值的可能  存在的情况下left一定不会超过right 直接循环找就好
-```
+// 先排除数组中不存在目标值的可能  存在的情况下left一定不会超过right 直接循环找就好
+// ```
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -10,4 +10,4 @@ public:
          return {left,right};
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-Integer.bitCount()的源码
+// ### 解题思路
+// Integer.bitCount()的源码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 public class Solution {
     // you need to treat n as an unsigned value
@@ -16,4 +16,4 @@ public class Solution {
         return n & 0x3f;
     }
 }
-```
+// ```

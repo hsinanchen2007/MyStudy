@@ -1,9 +1,9 @@
-### 解题思路
-取模拆分数字，判断数字首尾是否对称
+// ### 解题思路
+// 取模拆分数字，判断数字首尾是否对称
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         if(x<0){
@@ -23,4 +23,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

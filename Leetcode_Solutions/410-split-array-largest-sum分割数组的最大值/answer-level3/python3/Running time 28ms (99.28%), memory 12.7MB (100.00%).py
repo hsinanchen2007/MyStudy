@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def splitArray(self, nums: List[int], m: int) -> int:
         low, high = max(nums), sum(nums)
@@ -17,4 +17,4 @@ class Solution:
             else:
                 high = mid
         return low
-```
+# ```

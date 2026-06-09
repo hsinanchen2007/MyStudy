@@ -1,5 +1,5 @@
 
-```
+// ```
 var uniqueMorseRepresentations = function(words) {
     function switchSomething (val) {
         switch(val){
@@ -78,5 +78,5 @@ var uniqueMorseRepresentations = function(words) {
     }
     return arrNum.length
 };
-```
-switch展示了......毅力......运行时间还是挺好看的~
+// ```
+// switch展示了......毅力......运行时间还是挺好看的~

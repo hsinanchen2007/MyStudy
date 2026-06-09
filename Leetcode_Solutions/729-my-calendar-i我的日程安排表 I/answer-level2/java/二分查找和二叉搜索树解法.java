@@ -1,5 +1,5 @@
-# 解法一：二分查找
-```java
+// # 解法一：二分查找
+// ```java
 
 /**
  * @author li
@@ -44,10 +44,10 @@ public class MyCalendar {
         return false;
     }
 }
-```
+// ```
 
-# 解法二：二叉搜索树
-```java
+// # 解法二：二叉搜索树
+// ```java
 class MyCalendar {
     static class BstNode {
         int start;
@@ -94,4 +94,4 @@ class MyCalendar {
     }
 
 }
-```
+// ```

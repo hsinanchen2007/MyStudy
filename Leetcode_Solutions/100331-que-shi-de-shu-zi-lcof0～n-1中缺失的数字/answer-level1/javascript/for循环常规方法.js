@@ -1,9 +1,9 @@
-### 解题思路
-常规方法
+// ### 解题思路
+// 常规方法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 let missingNumber = (nums) => {
   let len = nums.length
   if (nums[0] !== 0) {
@@ -16,4 +16,4 @@ let missingNumber = (nums) => {
   }
   return nums[len -1] +1
 };
-```
+// ```

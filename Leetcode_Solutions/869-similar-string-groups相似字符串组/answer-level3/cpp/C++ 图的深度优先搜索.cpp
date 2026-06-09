@@ -1,6 +1,6 @@
-# 解法一：
-先构建图，然后深度遍历图去计算有几个连通子树
-```
+// # 解法一：
+// 先构建图，然后深度遍历图去计算有几个连通子树
+// ```
 class Solution {
 public:
     bool isSim(const string& s1, const string& s2) {
@@ -45,13 +45,13 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/9e7e002154435837c390e5aba732c6c780f433666d85b427d1fae524bcf572e8-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/9e7e002154435837c390e5aba732c6c780f433666d85b427d1fae524bcf572e8-image.png)
 
-# 解法二：
-并查集
+// # 解法二：
+// 并查集
 
-```
+// ```
 class Solution {
 public:
     bool isSim(const string& s1, const string& s2) {
@@ -88,5 +88,5 @@ public:
         return s.size();
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/337e9affc35f49ab811ebb265f7397c2b46e3f8f4ff6d9f859f36474f7db4bd8-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/337e9affc35f49ab811ebb265f7397c2b46e3f8f4ff6d9f859f36474f7db4bd8-image.png)

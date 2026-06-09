@@ -1,7 +1,7 @@
-本题使用DFS来实现，通过计数器`counter`来记录深度，不断迭代直到遍历完数组内的全部数据。
-记下符合目标的支路。
+// 本题使用DFS来实现，通过计数器`counter`来记录深度，不断迭代直到遍历完数组内的全部数据。
+// 记下符合目标的支路。
 
-```
+// ```
 class Solution {
 public:
     void DFS(vector<int>& nums, int S, int& count, int counter, int sum)
@@ -23,4 +23,4 @@ public:
         return count;
     }
 };
-```
+// ```

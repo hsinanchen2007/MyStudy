@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def removeDuplicates(self, s: str, k: int) -> str:
         stack = []
@@ -10,5 +10,5 @@ class Solution:
                 cnt += 1
                 if cnt != k: stack.append((top, cnt))
         return ''.join([item[0] * item[1] for item in stack])
-```
-时间复杂度 $O(len(s))$ ,空间复杂度$O(len(s))$
+# ```
+# 时间复杂度 $O(len(s))$ ,空间复杂度$O(len(s))$

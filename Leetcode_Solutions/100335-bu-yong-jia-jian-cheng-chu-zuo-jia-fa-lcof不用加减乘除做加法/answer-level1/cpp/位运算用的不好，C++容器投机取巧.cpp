@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int add(int a, int b) {
@@ -11,4 +11,4 @@ public:
         return std::accumulate(r.begin(), r.end(), 0);
     }
 };
-```
+// ```

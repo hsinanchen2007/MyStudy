@@ -1,4 +1,4 @@
-```
+// ```
 type StringIterator struct {
 	bs []byte
 	cs []int
@@ -40,4 +40,4 @@ func (this *StringIterator) Next() byte {
 func (this *StringIterator) HasNext() bool {
 	return this.i < len(this.bs)
 }
-```
+// ```

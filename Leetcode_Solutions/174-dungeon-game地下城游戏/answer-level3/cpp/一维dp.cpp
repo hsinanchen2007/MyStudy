@@ -1,9 +1,9 @@
-### 解题思路
-参考：`https://leetcode-cn.com/problems/dungeon-game/solution/c-dp-10xing-by-pjpj/`
-![在这里插入图片描述](https://pic.leetcode-cn.com/d34a084387168c54bd919d757d3858ab5508b62a574c384a6d4797fb5fdfe053.png)
-### 代码
+// ### 解题思路
+// 参考：`https://leetcode-cn.com/problems/dungeon-game/solution/c-dp-10xing-by-pjpj/`
+// ![在这里插入图片描述](https://pic.leetcode-cn.com/d34a084387168c54bd919d757d3858ab5508b62a574c384a6d4797fb5fdfe053.png)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int calculateMinimumHP(vector<vector<int>>& dungeon) {
@@ -21,4 +21,4 @@ public:
         return dp[0];
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-经典无需多言
+// ### 解题思路
+// 经典无需多言
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         preSearch(root.right);
     }
 }
-```
+// ```

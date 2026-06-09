@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 private:
     // 一个用来判断有没有被记录， 一个存放记录
@@ -23,4 +23,4 @@ public:
         return false;
     }
 };
-```
+// ```

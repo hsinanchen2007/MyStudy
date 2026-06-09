@@ -1,6 +1,6 @@
-### 方法一：使用isGoingUp标记目前状态（上山/下山）
-在解题的过程中首先考虑了使用一个布尔值标记“行程”状态的方法。
-```java
+// ### 方法一：使用isGoingUp标记目前状态（上山/下山）
+// 在解题的过程中首先考虑了使用一个布尔值标记“行程”状态的方法。
+// ```java
 class Solution {
     public boolean validMountainArray(int[] A) {
         int length = A.length;
@@ -31,11 +31,11 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-### 方法二：while循环判断上下山过程
-测试结果指出方法一相对比较慢，于是考虑不再显性地使用isGoingUp布尔值。这种方法可以达到100%的时间排位。
-```java
+// ### 方法二：while循环判断上下山过程
+// 测试结果指出方法一相对比较慢，于是考虑不再显性地使用isGoingUp布尔值。这种方法可以达到100%的时间排位。
+// ```java
 class Solution {
     public boolean validMountainArray(int[] A) {
         int length = A.length;
@@ -69,5 +69,5 @@ class Solution {
         return false;
     }
 }
-```
-尽管两种方法的时间复杂度均为 O(n)，但其中的细微差异亦会导致不同。
+// ```
+// 尽管两种方法的时间复杂度均为 O(n)，但其中的细微差异亦会导致不同。

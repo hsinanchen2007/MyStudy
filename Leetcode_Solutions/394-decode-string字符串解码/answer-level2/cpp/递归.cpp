@@ -1,9 +1,9 @@
-### 解题思路
-遇到[，先去计算[]里面内容，然后，再去根据loop展开。
+// ### 解题思路
+// 遇到[，先去计算[]里面内容，然后，再去根据loop展开。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
  public:
   string decodeString(const string& s) {
@@ -38,4 +38,4 @@ class Solution {
     return result;
   }
 };
-```
+// ```

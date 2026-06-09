@@ -1,8 +1,8 @@
-1. 偷懒直接计算。
-$$
-f(n,x) = \sum_{i=1}^{6}\frac{f(n-1,x-i)}{6}
-$$
-```c++
+// 1. 偷懒直接计算。
+// $$
+// f(n,x) = \sum_{i=1}^{6}\frac{f(n-1,x-i)}{6}
+// $$
+// ```c++
 class Solution {
 public:
     vector<double> twoSum(int n) {
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

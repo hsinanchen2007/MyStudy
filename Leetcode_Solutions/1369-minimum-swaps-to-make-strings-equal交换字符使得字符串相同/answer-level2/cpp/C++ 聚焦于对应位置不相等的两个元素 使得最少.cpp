@@ -1,4 +1,4 @@
-```
+// ```
     int minimumSwap(string s1, string s2) {
         int ans = 0, n = s1.size();
         int cnt1 = 0,cnt2 = 0;//统计有多少对x-y和y-x
@@ -14,4 +14,4 @@
         else if(cnt1+cnt2==2) ans+=2;//只剩了 x-y和y-x 需要两次匹配
         return ans;
     }
-```
+// ```

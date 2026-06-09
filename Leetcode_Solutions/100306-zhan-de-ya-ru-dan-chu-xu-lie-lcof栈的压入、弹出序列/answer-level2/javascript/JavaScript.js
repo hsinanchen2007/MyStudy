@@ -1,11 +1,11 @@
-准备一个辅助栈res.
-算法流程：
-按顺序依次压入pushed各项item，有以下情况：
-1.当item和popped第一项相等时，切割popped第一项。
-2.当item和popped第一项不相等时：
-   比较res的末项和popped第一项是否相等，相等的话删除res最后一项，切割popped第一项
-   将item压入res
-```
+// 准备一个辅助栈res.
+// 算法流程：
+// 按顺序依次压入pushed各项item，有以下情况：
+// 1.当item和popped第一项相等时，切割popped第一项。
+// 2.当item和popped第一项不相等时：
+//    比较res的末项和popped第一项是否相等，相等的话删除res最后一项，切割popped第一项
+//    将item压入res
+// ```
 var validateStackSequences = function(pushed, popped) {
     let res=[];
     pushed.forEach((item)=>{
@@ -24,11 +24,11 @@ var validateStackSequences = function(pushed, popped) {
     }
     return true
 };
-```
+// ```
 
 
-第二种方法将第一种简化
-```
+// 第二种方法将第一种简化
+// ```
 var validateStackSequences = function(pushed, popped) {
     //辅助
     let res=[];
@@ -41,4 +41,4 @@ var validateStackSequences = function(pushed, popped) {
     }
     return popped.length==0;
 };
-```
+// ```

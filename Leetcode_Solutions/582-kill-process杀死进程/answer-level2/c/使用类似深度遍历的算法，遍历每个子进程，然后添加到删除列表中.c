@@ -1,12 +1,12 @@
-### 解题思路
-1、对特殊值进行处理，例如：父进程是0的处理
-2、将kill节点加入删除列表中
-3、遍历父进程，查看kill节点相等情况下，子进程都有哪些，然后加入到删除列表
-4、遍历删除列表的同时，就生成了删除节点
+// ### 解题思路
+// 1、对特殊值进行处理，例如：父进程是0的处理
+// 2、将kill节点加入删除列表中
+// 3、遍历父进程，查看kill节点相等情况下，子进程都有哪些，然后加入到删除列表
+// 4、遍历删除列表的同时，就生成了删除节点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int GetPidIndex(int* pid, int pidSize, int val) {
     for (int i = 0; i < pidSize; i++) {
         if (pid[i] == val) {
@@ -102,4 +102,4 @@ int* killProcess(int* pid, int pidSize, int* ppid, int ppidSize, int kill, int* 
     free(first);    
     return killList;
 }
-```
+// ```

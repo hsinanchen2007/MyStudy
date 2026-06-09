@@ -1,15 +1,15 @@
-矩阵的搜索问题使用DFS解决
-注意最开始剪枝（越界判断，不满足条件）
-`if(i>=board.size()||i<0||j>=board[0].size()||j<0||board[i][j]!=word[n]) return false;`
-另外给矩阵中的元素设置一个标记防止重复访问
- ` board[i][j]='#';//避免重复访问`
-在深搜完之后，恢复元素的值
-` board[i][j]=temp;`
-具体代码如下：
+// 矩阵的搜索问题使用DFS解决
+// 注意最开始剪枝（越界判断，不满足条件）
+// `if(i>=board.size()||i<0||j>=board[0].size()||j<0||board[i][j]!=word[n]) return false;`
+// 另外给矩阵中的元素设置一个标记防止重复访问
+//  ` board[i][j]='#';//避免重复访问`
+// 在深搜完之后，恢复元素的值
+// ` board[i][j]=temp;`
+// 具体代码如下：
 
 
 
-```
+// ```
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -41,5 +41,5 @@ public:
         }
    
 };
-```
+// ```
 

@@ -1,4 +1,4 @@
-```
+// ```
 public int[] createTargetArray(int[] nums,int[] index) {
 	List<Integer> target=new ArrayList<>();
 	for(int i=0;i<nums.length;i++) {
@@ -6,4 +6,4 @@ public int[] createTargetArray(int[] nums,int[] index) {
 	}
     return target.stream().mapToInt(Integer::intValue).toArray();
 }
-```
+// ```

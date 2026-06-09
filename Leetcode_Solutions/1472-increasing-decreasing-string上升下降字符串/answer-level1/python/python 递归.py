@@ -1,10 +1,10 @@
-### 解题思路
-递归
-但是时长有点可怕
+# ### 解题思路
+# 递归
+# 但是时长有点可怕
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortString(self, s: str) -> str:
         #递归
@@ -54,4 +54,4 @@ class Solution:
 
             
 
-```
+# ```

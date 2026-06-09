@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/0136dee2bb544a818bb5a2272e3501c3b606a308416174c098d58a7a2fb887e6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0136dee2bb544a818bb5a2272e3501c3b606a308416174c098d58a7a2fb887e6-image.png)
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -53,9 +53,9 @@ while(root||top!=-1)
 *returnSize=index;
 return res;
 }
-```
-//递归巧妙解法
-```
+// ```
+// //递归巧妙解法
+// ```
 int TreeSize(struct TreeNode* root)
 {
     if(!root) return 0;
@@ -79,4 +79,4 @@ Preorder(root,returnSize,res);
 
 return res;
 }
-```
+// ```

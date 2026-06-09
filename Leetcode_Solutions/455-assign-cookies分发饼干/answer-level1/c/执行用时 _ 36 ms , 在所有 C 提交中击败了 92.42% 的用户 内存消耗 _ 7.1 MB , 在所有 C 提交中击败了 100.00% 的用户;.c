@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int cmp(void *a,void *b)
 {
@@ -36,4 +36,4 @@ int findContentChildren(int* g, int gSize, int* s, int sSize){
     iContentNum = (iContentNum > gSize)?gSize:iContentNum;
     return iContentNum;
 }
-```
+// ```

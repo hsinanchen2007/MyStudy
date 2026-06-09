@@ -1,4 +1,4 @@
-```js
+// ```js
 var reverseString = function(s) {
     var length = s.length;
     var middle = Math.floor(s.length/2)
@@ -9,5 +9,5 @@ var reverseString = function(s) {
     }
     return s
 };
-```
+// ```
 

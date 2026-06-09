@@ -1,8 +1,8 @@
-用500个可变数组 分别记录不同的分组情况就可以 当前分组满了就放到答案里即可.
+// 用500个可变数组 分别记录不同的分组情况就可以 当前分组满了就放到答案里即可.
 
-以下是`Go` , `C++` 代码
+// 以下是`Go` , `C++` 代码
 
-```go
+// ```go
 func groupThePeople(groupSizes []int) [][]int {
     ans := make([][]int, 0)
 
@@ -18,9 +18,9 @@ func groupThePeople(groupSizes []int) [][]int {
     fmt.Println(ans)
     return ans
 }
-```
+// ```
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
@@ -37,4 +37,4 @@ public:
         return ans;
     }
 };
-```
+// ```

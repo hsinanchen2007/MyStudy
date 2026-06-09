@@ -1,17 +1,17 @@
-### 解题思路
-总体思路：
-通过讲words按长度从小到大排序，然后看后面的string的尾部是否包含当前string，不包含就装入list，最后将计算list长度（要加#号的长度）。
-分步：
-1.利用Array进行排序。
-2.从短到长遍历words。
-3.对于每一个words[i]，首先设置flag为true，标记后面是否有尾部包含关系。
-4.遍历后面i到words.length的单词，判断比自己长或者和自己相等长度的字符串的最后几位是不是和自己相同，相同的话将flag设为false；
-5.不相同的话，就加入list中。
-6。遍历list计算长度。
+// ### 解题思路
+// 总体思路：
+// 通过讲words按长度从小到大排序，然后看后面的string的尾部是否包含当前string，不包含就装入list，最后将计算list长度（要加#号的长度）。
+// 分步：
+// 1.利用Array进行排序。
+// 2.从短到长遍历words。
+// 3.对于每一个words[i]，首先设置flag为true，标记后面是否有尾部包含关系。
+// 4.遍历后面i到words.length的单词，判断比自己长或者和自己相等长度的字符串的最后几位是不是和自己相同，相同的话将flag设为false；
+// 5.不相同的话，就加入list中。
+// 6。遍历list计算长度。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
 List<String> list = new ArrayList<String>();
@@ -61,4 +61,4 @@ List<String> list = new ArrayList<String>();
 		return words;
 	}
 }
-```
+// ```

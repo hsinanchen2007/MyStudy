@@ -1,9 +1,9 @@
-### 解题思路
- bfs 效率要高一些 从目标值往开始值找 ，找到返回true 否则false ,再用一个visited 记录走过的节点
+// ### 解题思路
+//  bfs 效率要高一些 从目标值往开始值找 ，找到返回true 否则false ,再用一个visited 记录走过的节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool findWhetherExistsPath(int n, vector<vector<int>>& graph, int start, int target) {
@@ -30,4 +30,4 @@ public:
         return false;
     }
 };
-```
+// ```

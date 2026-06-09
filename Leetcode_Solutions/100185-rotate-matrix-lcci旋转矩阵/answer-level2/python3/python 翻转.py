@@ -1,7 +1,7 @@
-由外到内一层一层进行翻转。
+# 由外到内一层一层进行翻转。
 
 
-```
+# ```
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -23,4 +23,4 @@ class Solution:
             
         for layer in range(len(matrix)//2):
             matrix = helper(matrix,layer)
-```
+# ```

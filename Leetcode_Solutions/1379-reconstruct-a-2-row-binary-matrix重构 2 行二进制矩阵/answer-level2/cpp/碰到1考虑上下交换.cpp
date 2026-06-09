@@ -1,9 +1,9 @@
-思路：
-初始时，第0行全部放1（和为uu），第1行全部放0(和为ll)；
-利用 flag 标记列和为0和2的列，更新uu和ll；
-对于列和为1的情况，遍历，若当前uu > upper，则对应列上下翻转，减小uu；否则break;
-检查uu==upper ll==lower
-```
+// 思路：
+// 初始时，第0行全部放1（和为uu），第1行全部放0(和为ll)；
+// 利用 flag 标记列和为0和2的列，更新uu和ll；
+// 对于列和为1的情况，遍历，若当前uu > upper，则对应列上下翻转，减小uu；否则break;
+// 检查uu==upper ll==lower
+// ```
 class Solution {
 public:
     vector<vector<int>> reconstructMatrix(int upper, int lower, vector<int>& colsum) 
@@ -48,4 +48,4 @@ public:
 
     }
 };
-```
+// ```

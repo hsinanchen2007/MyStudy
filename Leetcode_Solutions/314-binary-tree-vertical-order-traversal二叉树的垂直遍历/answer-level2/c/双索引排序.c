@@ -1,17 +1,17 @@
-### 解题思路
-此处撰写解题思路
-节点深度（raw）作为第一优先排序索引
-节点序号（index）作为第二优先排序索引
+// ### 解题思路
+// 此处撰写解题思路
+// 节点深度（raw）作为第一优先排序索引
+// 节点序号（index）作为第二优先排序索引
 
-build阶段，根据节点所处的列（col），将节点存入lst中
-sort阶段，对lst中的节点进行排序
+// build阶段，根据节点所处的列（col），将节点存入lst中
+// sort阶段，对lst中的节点进行排序
 
-输出结果
+// 输出结果
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -129,4 +129,4 @@ int** verticalOrder(struct TreeNode* root, int* returnSize, int** returnColumnSi
     }
     return res;
 }
-```
+// ```

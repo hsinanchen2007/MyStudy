@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-python 利用前一次的值 和被移出窗口的值的关系
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# python 利用前一次的值 和被移出窗口的值的关系
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxSlidingWindow(self, nums, k):
         """
@@ -25,4 +25,4 @@ class Solution(object):
         
         return res
             
-```
+# ```

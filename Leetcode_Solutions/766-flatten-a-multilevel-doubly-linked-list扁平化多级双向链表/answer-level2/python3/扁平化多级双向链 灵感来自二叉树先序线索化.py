@@ -1,6 +1,6 @@
-代码量全场最少，空间效率最高，递归。
+# 代码量全场最少，空间效率最高，递归。
 
-```
+# ```
 class Solution:
 
     def flatten(self, head: 'Node') -> 'Node':
@@ -28,4 +28,4 @@ class Solution:
         
         fun(head)
         return head
-```
+# ```

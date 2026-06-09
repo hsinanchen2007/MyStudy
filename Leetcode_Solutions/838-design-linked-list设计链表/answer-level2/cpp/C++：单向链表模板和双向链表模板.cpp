@@ -1,7 +1,7 @@
-**推荐**：[leetcode 刷题总结之链表](https://leetcode-cn.com/circle/article/YGr54o/)
+// **推荐**：[leetcode 刷题总结之链表](https://leetcode-cn.com/circle/article/YGr54o/)
 
-**单向链表模板如下，可直接复制使用：**
-```cpp
+// **单向链表模板如下，可直接复制使用：**
+// ```cpp
 #include <iostream>
 using namespace std;
 
@@ -132,11 +132,11 @@ int main()
     cout<<endl;
     system("pause");
 }
-```
-****
-****
-**双向链表模板，可直接复制使用：**
-```cpp
+// ```
+// ****
+// ****
+// **双向链表模板，可直接复制使用：**
+// ```cpp
 #include <iostream>
 using namespace std;
 
@@ -295,4 +295,4 @@ int main()
     cout<<endl;
     system("pause");
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/b3caf626afe0dc115cd70098b5084e6b8aa978fda0ea1ab83b52c2a676cbb771-image.png)
-先对输入字符串数组按照字典序排序，方便后续输出；
-然后哈希表求每个单词出现频率；
-对出现频率qsort排序；
-按照index从原数组抓取输出；
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/b3caf626afe0dc115cd70098b5084e6b8aa978fda0ea1ab83b52c2a676cbb771-image.png)
+// 先对输入字符串数组按照字典序排序，方便后续输出；
+// 然后哈希表求每个单词出现频率；
+// 对出现频率qsort排序；
+// 按照index从原数组抓取输出；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -60,4 +60,4 @@ char ** topKFrequent(char ** words, int wordsSize, int k, int* returnSize){
     }
     return ret;
 }
-```
+// ```

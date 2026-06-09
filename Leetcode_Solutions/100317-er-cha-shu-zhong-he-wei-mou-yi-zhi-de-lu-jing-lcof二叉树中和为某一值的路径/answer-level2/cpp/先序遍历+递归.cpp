@@ -1,9 +1,9 @@
-先序遍历二叉树
-首先将节点储存到路径中，然后sum=sum-val;继续遍历后续节点
+// 先序遍历二叉树
+// 首先将节点储存到路径中，然后sum=sum-val;继续遍历后续节点
 
-如过是叶子节点并且sum==0的话就将路径加入
+// 如过是叶子节点并且sum==0的话就将路径加入
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
         path.pop_back();
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-从第一个字符开始，找符合的字串（每增加一个字符需要和之前的进行比较）
+// ### 解题思路
+// 从第一个字符开始，找符合的字串（每增加一个字符需要和之前的进行比较）
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLongestSubstring(s string) int {
 	if len(s) <= 0 {
 		return 0
@@ -30,4 +30,4 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return len(max)
 }
-```
+// ```

@@ -1,7 +1,7 @@
-1，构建字典树加速搜索
-2，动态规划，`dp[j]`代表截止到`j - 1`位置处最后一个单词所有可能的起始位置
-3，根据最后一个dp值进行DFS路径回溯，获取到所有的可能结果
-```
+// 1，构建字典树加速搜索
+// 2，动态规划，`dp[j]`代表截止到`j - 1`位置处最后一个单词所有可能的起始位置
+// 3，根据最后一个dp值进行DFS路径回溯，获取到所有的可能结果
+// ```
 class Solution {
 public:
     struct TrieNode {
@@ -76,6 +76,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/98f1b3f9194ad6049185d3325554a0db4bae25f55a0fab5c563291332e364607-image.png)
+// ![image.png](https://pic.leetcode-cn.com/98f1b3f9194ad6049185d3325554a0db4bae25f55a0fab5c563291332e364607-image.png)

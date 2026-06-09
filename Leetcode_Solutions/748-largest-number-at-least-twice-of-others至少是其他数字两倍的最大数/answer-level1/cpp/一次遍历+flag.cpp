@@ -1,8 +1,8 @@
-注释：
-premax记录此前最大数的下标；
-maynot用于标记nums[premax]虽然是此前最大的数，但不满足大于2倍特性，当且仅当新的最大数>=2*nums[premax]时恢复为false；
-时间复杂度O(n)，空间O(1);
-```
+// 注释：
+// premax记录此前最大数的下标；
+// maynot用于标记nums[premax]虽然是此前最大的数，但不满足大于2倍特性，当且仅当新的最大数>=2*nums[premax]时恢复为false；
+// 时间复杂度O(n)，空间O(1);
+// ```
 class Solution {
 public:
     int dominantIndex(vector<int>& nums) 
@@ -30,4 +30,4 @@ public:
         return premax;
     }
 };
-```
+// ```

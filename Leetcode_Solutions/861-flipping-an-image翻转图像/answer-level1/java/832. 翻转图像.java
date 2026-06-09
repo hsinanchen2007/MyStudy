@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/12
- *
- * 解题思路: 双重循环 一次完成
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/12
+//  *
+//  * 解题思路: 双重循环 一次完成
+//  *
+//  */
+// ```
 public int[][] flipAndInvertImage(int[][] A) {
     //水平翻转
     int temp = 0;
@@ -28,4 +28,4 @@ public int[][] flipAndInvertImage(int[][] A) {
     return A;
 
 }
-```
+// ```

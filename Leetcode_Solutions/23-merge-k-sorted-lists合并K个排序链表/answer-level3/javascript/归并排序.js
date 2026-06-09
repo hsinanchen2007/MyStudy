@@ -1,11 +1,11 @@
 
 
 
-![image.png](https://pic.leetcode-cn.com/d07a27fb9be2f909db71587736826862dea21604f6867060fed8b8cfb8ff7dd4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d07a27fb9be2f909db71587736826862dea21604f6867060fed8b8cfb8ff7dd4-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -51,4 +51,4 @@ var mergeKLists = function (lists) {
 
   return merge(0, length - 1);
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-1.先遍历一遍链表，求出中间的值
-2.然后在遍历到中间值，注意临界条件
-### 代码
+// ### 解题思路
+// 1.先遍历一遍链表，求出中间的值
+// 2.然后在遍历到中间值，注意临界条件
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -35,4 +35,4 @@ class Solution {
     return p
  }
 }
-```
+// ```

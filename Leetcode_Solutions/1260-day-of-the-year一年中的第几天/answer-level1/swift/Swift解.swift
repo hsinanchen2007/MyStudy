@@ -1,4 +1,4 @@
-```
+// ```
 func dayOfYear(_ date: String) -> Int {
     var monthMap = [ 0,
                      31, 28, 31,
@@ -28,6 +28,6 @@ func dayOfYear(_ date: String) -> Int {
     
     return rs
 }
-```
+// ```
 
-![Screen Shot 2019-08-13 at 00.25.39.png](https://pic.leetcode-cn.com/5dbe9dd39860abf1c13213add91f50fdbc5c95a1f9f3d3a79a3d9aa54e66b8f4-Screen%20Shot%202019-08-13%20at%2000.25.39.png)
+// ![Screen Shot 2019-08-13 at 00.25.39.png](https://pic.leetcode-cn.com/5dbe9dd39860abf1c13213add91f50fdbc5c95a1f9f3d3a79a3d9aa54e66b8f4-Screen%20Shot%202019-08-13%20at%2000.25.39.png)

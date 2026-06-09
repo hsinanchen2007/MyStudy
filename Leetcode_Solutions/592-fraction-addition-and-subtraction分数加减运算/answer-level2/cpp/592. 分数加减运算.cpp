@@ -1,18 +1,18 @@
-### 解题思路
-数据先存如pair中 运算符存入op中
-pair<int,int> 分子，分母
-根据分母经行通分：
-如：1/2+1/4
-  数据储存：[1,2],[1,4]
-  根据分母2，4找到的最小公倍数4
-  然后根据最小公倍数经行通分，运算分子
-一直循环直到数据处理完
+// ### 解题思路
+// 数据先存如pair中 运算符存入op中
+// pair<int,int> 分子，分母
+// 根据分母经行通分：
+// 如：1/2+1/4
+//   数据储存：[1,2],[1,4]
+//   根据分母2，4找到的最小公倍数4
+//   然后根据最小公倍数经行通分，运算分子
+// 一直循环直到数据处理完
 
-![image.png](https://pic.leetcode-cn.com/afbdf05c09c7e9125671d6fcb0c89487764d401a42677fe13612302053e4356b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/afbdf05c09c7e9125671d6fcb0c89487764d401a42677fe13612302053e4356b-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //flg为1：求最小公倍数 flg为0求最大公因数
@@ -122,4 +122,4 @@ string fractionAddition(string expression)
 	return res;
 }
 };
-```
+// ```

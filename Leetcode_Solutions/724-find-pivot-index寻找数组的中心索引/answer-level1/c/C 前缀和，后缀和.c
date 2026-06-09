@@ -1,9 +1,9 @@
-### 解题思路
-使用前缀和和后缀和
+// ### 解题思路
+// 使用前缀和和后缀和
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int pivotIndex(int* nums, int numsSize){
     
     //定义两个数组，一个存前缀和，一个存后缀和
@@ -51,4 +51,4 @@ int pivotIndex(int* nums, int numsSize){
     }
     return pivotIndex;
 }
-```
+// ```

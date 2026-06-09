@@ -1,14 +1,14 @@
-### 解题思路
-使用头指针，不会丢失链表。
-使用头指针指向头结点head：None->1->2->3->4，
-Node节点的名字有：pHead和pre
-在第一个迭代中：
-将pre.next(a)与pre.next.next(b)进行位置上的交换，再将a.next指向b.next实现了箭头的交换，然后挪动pre，变到a的位置，这样就完成了前两个节点的交换。None->2->1->3->4，继续迭代。
-最后返回pHead.next（2->1->4->3）
+# ### 解题思路
+# 使用头指针，不会丢失链表。
+# 使用头指针指向头结点head：None->1->2->3->4，
+# Node节点的名字有：pHead和pre
+# 在第一个迭代中：
+# 将pre.next(a)与pre.next.next(b)进行位置上的交换，再将a.next指向b.next实现了箭头的交换，然后挪动pre，变到a的位置，这样就完成了前两个节点的交换。None->2->1->3->4，继续迭代。
+# 最后返回pHead.next（2->1->4->3）
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution(object):
             # pre实现两步移位
             pre = a
         return pHead.next
-```
+# ```

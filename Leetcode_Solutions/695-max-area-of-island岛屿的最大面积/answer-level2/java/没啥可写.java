@@ -1,9 +1,9 @@
-### 解题思路
-主要是要记录已经遍历过的数组，防止重复扫描，这样理论上可以节约时间，然而并没有，应该还可以优化，算了就这样吧
+// ### 解题思路
+// 主要是要记录已经遍历过的数组，防止重复扫描，这样理论上可以节约时间，然而并没有，应该还可以优化，算了就这样吧
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxAreaOfIsland(int[][] grid) {
         line=grid.length;
@@ -57,4 +57,4 @@ class Solution {
         return area;
     }
 }
-```
+// ```

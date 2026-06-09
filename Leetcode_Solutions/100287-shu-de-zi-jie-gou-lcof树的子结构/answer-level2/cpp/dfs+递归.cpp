@@ -1,5 +1,5 @@
-首先先序遍历A树，找到与B根节点相同的节点P，找不到返回false；
-递归遍历B树是否和A子结构和值相同
+// 首先先序遍历A树，找到与B根节点相同的节点P，找不到返回false；
+// 递归遍历B树是否和A子结构和值相同
 class Solution {
 public:
     bool issame(TreeNode* A, TreeNode* B){

@@ -1,10 +1,10 @@
-思路：
+// 思路：
 
-这道题做法比较多，这里用一个 map 来记录下标和 stack 的关联关系，再用一个 set 来维护可用的位置，因为 map 和 set 都是有序的，所以每次 push 时往 set 的第一个元素 push 即可， pop 则对 map 的最后一个元素 pop 出来同时更新 set 里的可用位置
+// 这道题做法比较多，这里用一个 map 来记录下标和 stack 的关联关系，再用一个 set 来维护可用的位置，因为 map 和 set 都是有序的，所以每次 push 时往 set 的第一个元素 push 即可， pop 则对 map 的最后一个元素 pop 出来同时更新 set 里的可用位置
 
-代码实现：
+// 代码实现：
 
-```c++
+// ```c++
 class DinnerPlates {
     int _capacity;
     map<int, vector<int>> _data;
@@ -56,6 +56,6 @@ public:
  * int param_2 = obj->pop();
  * int param_3 = obj->popAtStack(index);
  */
-```
+// ```
 
-更多题解欢迎关注 [Do Leetcode For Fun](https://zhuanlan.zhihu.com/c_1145647496591298560) 专栏~
+// 更多题解欢迎关注 [Do Leetcode For Fun](https://zhuanlan.zhihu.com/c_1145647496591298560) 专栏~

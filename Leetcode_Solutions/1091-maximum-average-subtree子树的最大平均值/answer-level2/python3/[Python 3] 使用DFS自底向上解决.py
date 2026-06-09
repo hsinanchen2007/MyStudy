@@ -1,6 +1,6 @@
-使用DFS自底向上解决，每次计算出以当前节点为根节点的左右子树的平均值，进行比较；
+# 使用DFS自底向上解决，每次计算出以当前节点为根节点的左右子树的平均值，进行比较；
 
-```python3
+# ```python3
 class Solution:
     def maximumAverageSubtree(self, root: TreeNode) -> float:
         """ DFS算法解决
@@ -28,5 +28,5 @@ class Solution:
         self.max = 0
         DFS(root)
         return self.max
-```
+# ```
 

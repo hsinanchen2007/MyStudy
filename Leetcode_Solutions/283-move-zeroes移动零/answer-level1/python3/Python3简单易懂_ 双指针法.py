@@ -1,10 +1,10 @@
-### 解题思路
-j指针是非零元素和零元素的分界
-顺着i指针从左往右走, 遇到0就del, 然后append到最后.
+# ### 解题思路
+# j指针是非零元素和零元素的分界
+# 顺着i指针从左往右走, 遇到0就del, 然后append到最后.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -25,4 +25,4 @@ class Solution:
             else:
                 i += 1  
 
-```
+# ```

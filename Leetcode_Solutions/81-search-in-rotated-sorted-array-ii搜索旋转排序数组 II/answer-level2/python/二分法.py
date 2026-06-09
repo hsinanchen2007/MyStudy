@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def search(self,l,t):
         if len(l)==0:return False
@@ -34,4 +34,4 @@ class Solution(object):
         for i in range(m,len(l)-1):
             if l[i+1]<l[i]:return False
         return True
-```
+# ```

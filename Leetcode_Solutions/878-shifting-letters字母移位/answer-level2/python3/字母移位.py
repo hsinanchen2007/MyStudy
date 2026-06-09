@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def shiftingLetters(self, S: str, shifts: List[int]) -> str:
         pre = 0
@@ -10,4 +10,4 @@ class Solution:
             k = ord(Slist[i]) + shifts[i] if ord(Slist[i]) + shifts[i]<= 122 else ord(Slist[i]) + shifts[i] - 26 
             Slist[i] = chr(k)
         return ''.join(Slist)
-```
+# ```

@@ -1,6 +1,6 @@
-大概思路就是：从前边开始遍历，遇到奇数就与尾部的偶数交换
-记录好本次交换的偶数的下标，下次交换直接从这个往前找
-```
+// 大概思路就是：从前边开始遍历，遇到奇数就与尾部的偶数交换
+// 记录好本次交换的偶数的下标，下次交换直接从这个往前找
+// ```
 public int[] SortArrayByParity(int[] A) {
         int s = 0;
         for (int i = 0; i < A.Count() - s; i++)
@@ -26,4 +26,4 @@ public int[] SortArrayByParity(int[] A) {
         }
         return A;
     }
-```
+// ```

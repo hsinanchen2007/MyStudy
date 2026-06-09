@@ -1,6 +1,6 @@
-先对x或y为1做特殊处理，然后两重while.
+# 先对x或y为1做特殊处理，然后两重while.
 
-```
+# ```
 class Solution:
     def powerfulIntegers(self, x: int, y: int, bound: int) -> List[int]:
         if bound<2:
@@ -32,4 +32,4 @@ class Solution:
             j=0
             z=x**i+y**j
         return list(set(L))
-```
+# ```

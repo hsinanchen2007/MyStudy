@@ -1,9 +1,9 @@
-### 解题思路
-每次统计0和1的个数，取较小的累加。
+# ### 解题思路
+# 每次统计0和1的个数，取较小的累加。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countBinarySubstrings(self, s: str) -> int:
         sums = 0
@@ -33,4 +33,4 @@ class Solution:
 
         sums += min(count_0,count_1)           
         return sums
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<List<String>> findDuplicate(String[] paths) {
         Map<String,List<String>> map = new HashMap<>();
@@ -21,7 +21,7 @@ class Solution {
         return result;
     }
 }
-```
-思路：
-    1.将所有的文件路径遍历存入hashmap钟，key值为（）中的文件内容，value值为list，list中存放所有文件内       容相同的文件的路径
-    2.遍历map，找多所有value值中的list长度大于1的kv对，把value中的链表取出来存到结果集链表中
+// ```
+// 思路：
+//     1.将所有的文件路径遍历存入hashmap钟，key值为（）中的文件内容，value值为list，list中存放所有文件内       容相同的文件的路径
+//     2.遍历map，找多所有value值中的list长度大于1的kv对，把value中的链表取出来存到结果集链表中

@@ -1,10 +1,10 @@
-### 解题思路
-双指针，快指针步长为2，慢指针步长为1，当快指针的next存在,next.next不存在，返回慢指针的.next,当next不存在，返回慢指针
+# ### 解题思路
+# 双指针，快指针步长为2，慢指针步长为1，当快指针的next存在,next.next不存在，返回慢指针的.next,当next不存在，返回慢指针
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
         if k2.next:
             return k1.next
         return k1
-```
+# ```

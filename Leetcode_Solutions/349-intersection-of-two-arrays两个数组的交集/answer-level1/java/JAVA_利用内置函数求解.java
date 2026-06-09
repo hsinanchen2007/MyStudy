@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         int k=0;
@@ -23,4 +23,4 @@ class Solution {
             return answer;
     }
 }
-```
+// ```

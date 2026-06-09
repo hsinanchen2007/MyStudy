@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct dictnode{
     char str[3];
     int val;
@@ -23,4 +23,4 @@ void backtrack(int num,dictnode* dict,int i,char *ret,int len){
     len=len+l;
     backtrack(num,dict,i,ret,len);
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-1、连续正数不大于(target/2+1)
-2、双指针，j往右移动，直到sum大于等于target
-3、sum=target，则正数范围[i,j]。结果放入数组后，j往右移动一位。
-4、sum>target,则i往右移动。
+// ### 解题思路
+// 1、连续正数不大于(target/2+1)
+// 2、双指针，j往右移动，直到sum大于等于target
+// 3、sum=target，则正数范围[i,j]。结果放入数组后，j往右移动一位。
+// 4、sum>target,则i往右移动。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target)
@@ -66,4 +66,4 @@ public:
         return vec;
     }
 };
-```
+// ```

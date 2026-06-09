@@ -1,9 +1,9 @@
-### 解题思路
-加入头节点，确保删除操作的普适性。
+// ### 解题思路
+// 加入头节点，确保删除操作的普适性。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MedianFinder:
 
     def __init__(self):
@@ -22,4 +22,4 @@ class MedianFinder:
             return (self.min_heap[0] + -1 * self.max_heap[0]) / 2
         else:
             return self.min_heap[0]
-```
+# ```

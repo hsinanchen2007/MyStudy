@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string findLongestWord(string s, vector<string>& d) {
@@ -14,10 +14,10 @@ public:
         return ans;
     }
 };
-```
+// ```
 
 
-```
+// ```
 class Solution {
 public:
     static bool fun(const string &a, const string &b)
@@ -38,5 +38,5 @@ public:
         return "";
     }
 };
-```
+// ```
 

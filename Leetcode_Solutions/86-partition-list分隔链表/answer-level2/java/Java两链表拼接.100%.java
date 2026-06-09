@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/ad935315e989d7ce218d71bea6e88ecca300e2318294e343579e49ba6fad0108-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ad935315e989d7ce218d71bea6e88ecca300e2318294e343579e49ba6fad0108-image.png)
 
-### 解题思路
-![微信图片_20200220211135.jpg](https://pic.leetcode-cn.com/d30d9910bcedf4b443b51debda2c585f48deeb8dffc6e067c01a8b6c1c2ec9e4-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200220211135.jpg)
-注释就写在代码里，跟着走一遍。
+// ### 解题思路
+// ![微信图片_20200220211135.jpg](https://pic.leetcode-cn.com/d30d9910bcedf4b443b51debda2c585f48deeb8dffc6e067c01a8b6c1c2ec9e4-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200220211135.jpg)
+// 注释就写在代码里，跟着走一遍。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -45,4 +45,4 @@ class Solution {
         return minLink.next; 
     }
 }
-```
+// ```

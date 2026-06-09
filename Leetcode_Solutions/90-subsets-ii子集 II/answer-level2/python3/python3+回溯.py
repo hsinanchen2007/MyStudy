@@ -1,5 +1,5 @@
-跟上一个找子集的题目差不多，多一个剪枝
-```
+# 跟上一个找子集的题目差不多，多一个剪枝
+# ```
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         if not nums:
@@ -18,4 +18,4 @@ class Solution:
                 tmp.pop()
         helper(nums, [], ans)
         return ans
-```
+# ```

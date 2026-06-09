@@ -1,5 +1,5 @@
-代码有点长
-```c
+// 代码有点长
+// ```c
 void reverseString(char* s, int sSize) {
     int i = 0;
     int j = sSize-1;
@@ -74,4 +74,4 @@ char * addStrings(char * num1, char * num2){
     reverseString(r, strlen(r));
     return r;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-看到题目的数据量大小就觉得O(n²)应该不会超时
-sum[i]记录从0到i的数组的和
-所以要求i~j的和 就是sum[j] - sum[i - 1] （i > 0）
-于是长度从2开始一直到数组长度
-数组从下标0开始遍历
-```
+// 看到题目的数据量大小就觉得O(n²)应该不会超时
+// sum[i]记录从0到i的数组的和
+// 所以要求i~j的和 就是sum[j] - sum[i - 1] （i > 0）
+// 于是长度从2开始一直到数组长度
+// 数组从下标0开始遍历
+// ```
 class Solution {
     func checkSubarraySum(_ nums: [Int], _ k: Int) -> Bool {
         let len = nums.count
@@ -42,4 +42,4 @@ class Solution {
         return false
     }
 }
-```
+// ```

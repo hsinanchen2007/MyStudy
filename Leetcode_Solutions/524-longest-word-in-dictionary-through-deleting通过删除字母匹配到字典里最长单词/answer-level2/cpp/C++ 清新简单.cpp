@@ -1,5 +1,5 @@
-双指针，比加挪就完了
-```
+// 双指针，比加挪就完了
+// ```
 class Solution {
 public:
     string findLongestWord(string s, vector<string>& d) {
@@ -15,4 +15,4 @@ public:
         return res;
     }
 };
-```
+// ```

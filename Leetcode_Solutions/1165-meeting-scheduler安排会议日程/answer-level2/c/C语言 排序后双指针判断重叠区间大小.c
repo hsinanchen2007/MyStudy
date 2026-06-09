@@ -1,4 +1,4 @@
-```
+// ```
 struct Time {
     int begin;
     int end;
@@ -47,4 +47,4 @@ int* minAvailableDuration(int** slots1, int slots1Size, int* slots1ColSize, int*
     result[1] = time[r].begin + duration;
     return result;
 }
-```
+// ```

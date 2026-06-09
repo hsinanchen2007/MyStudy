@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -32,6 +32,6 @@ var isPalindrome = function(head) {
     }
     return flag
 };
-```
+// ```
 
-将ListNode转化成数组，然后遍历数组以中间为分界点判断对称位置的数字是否相等
+// 将ListNode转化成数组，然后遍历数组以中间为分界点判断对称位置的数字是否相等

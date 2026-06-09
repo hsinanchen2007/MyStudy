@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d49e091263f74e4cb4fe6c136670b00c52b129079d54b96d7a68f56af2b7460e-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d49e091263f74e4cb4fe6c136670b00c52b129079d54b96d7a68f56af2b7460e-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* 矩阵中的路径 递归 +枚举 + 剪枝 */
 bool find(char **board, int boardSize, int boardColSize, int i, int j,
           int **flag, int index, char *word)
@@ -57,4 +57,4 @@ bool exist(char** board, int boardSize, int* boardColSize, char* word){
 
     return false;
 }
-```
+// ```

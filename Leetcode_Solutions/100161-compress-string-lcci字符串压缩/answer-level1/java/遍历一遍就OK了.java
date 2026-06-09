@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String compressString(String S) {
         if(S==null || S.length()<3)
@@ -21,4 +21,4 @@ class Solution {
         return sb.toString().length()<len?sb.toString():S;
     }
 }
-```
+// ```

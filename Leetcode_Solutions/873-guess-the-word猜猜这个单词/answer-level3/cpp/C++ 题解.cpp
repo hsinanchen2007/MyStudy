@@ -1,6 +1,6 @@
-参考官方以及@ldeng7 @lizju题解
-写出一个c++题解如下：
-```
+// 参考官方以及@ldeng7 @lizju题解
+// 写出一个c++题解如下：
+// ```
 /**
  * // This is the Master's API interface.
  * // You should not implement it, or speculate about its implementation
@@ -59,6 +59,6 @@ public:
         }
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/37d7079c201efc6c8fc157d4f85c61ccd40abf66423797d41839c223bc9dcc71-image.png)
+// ![image.png](https://pic.leetcode-cn.com/37d7079c201efc6c8fc157d4f85c61ccd40abf66423797d41839c223bc9dcc71-image.png)

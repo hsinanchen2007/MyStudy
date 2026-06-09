@@ -1,4 +1,4 @@
-```
+// ```
 char* replaceSpaces(char* S, int length){
   
   int sLen = strlen(S);
@@ -25,4 +25,4 @@ char* replaceSpaces(char* S, int length){
   
   return sCur + 1;
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-一种不好的解法：
+// 一种不好的解法：
 
-```c
+// ```c
 #define STR_MAX_LEN 100
 char ** commonChars(char ** A, int ASize, int* returnSize){
     char** ret = malloc(sizeof(char*)*STR_MAX_LEN);
@@ -35,4 +35,4 @@ char ** commonChars(char ** A, int ASize, int* returnSize){
     *returnSize = retCnt;
     return ret;
 }
-```
+// ```

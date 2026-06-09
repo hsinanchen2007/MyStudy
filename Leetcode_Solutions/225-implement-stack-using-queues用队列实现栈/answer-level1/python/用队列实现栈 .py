@@ -1,11 +1,11 @@
-### 解题思路
-python中没栈和队列数据结构，数组：list   双端队列 deque
-队列:  先入先出 ABCD ABCD  
-栈：先入后出    ABCD DCBA
+# ### 解题思路
+# python中没栈和队列数据结构，数组：list   双端队列 deque
+# 队列:  先入先出 ABCD ABCD  
+# 栈：先入后出    ABCD DCBA
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MyStack(object):
 
     def __init__(self):
@@ -56,4 +56,4 @@ class MyStack(object):
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

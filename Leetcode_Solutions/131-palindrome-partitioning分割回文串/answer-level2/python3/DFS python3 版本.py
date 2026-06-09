@@ -1,9 +1,9 @@
-根据大神的题解 [回溯 优化(使用动态规划预处理数组)](https://leetcode-cn.com/problems/palindrome-partitioning/solution/hui-su-you-hua-jia-liao-dong-tai-gui-hua-by-liweiw/)  整理的python版本.
+# 根据大神的题解 [回溯 优化(使用动态规划预处理数组)](https://leetcode-cn.com/problems/palindrome-partitioning/solution/hui-su-you-hua-jia-liao-dong-tai-gui-hua-by-liweiw/)  整理的python版本.
 
-不过内存占用还是有点高. 
+# 不过内存占用还是有点高. 
 
 
-```
+# ```
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
         res = []
@@ -32,5 +32,5 @@ class Solution:
             if subs[i] != subs[-(i+1)]:
                 return False
         return True
-```
+# ```
 

@@ -1,10 +1,10 @@
-### 解题思路
-对于i将nums[|nums[i]|]改成负数，如果已经是负数了，就是|nums[i]| 这个数
-然后返回前再把之前改过负数的改回来。
+// ### 解题思路
+// 对于i将nums[|nums[i]|]改成负数，如果已经是负数了，就是|nums[i]| 这个数
+// 然后返回前再把之前改过负数的改回来。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return 0;
     }
 };
-```
+// ```

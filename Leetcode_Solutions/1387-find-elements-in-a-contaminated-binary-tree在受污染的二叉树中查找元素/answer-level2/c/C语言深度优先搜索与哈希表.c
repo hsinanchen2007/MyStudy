@@ -1,12 +1,12 @@
-### 解题思路
-这一堆函数框架摆在那里就代表这个题想让你用uthash，照着写就行，稍微绕点弯的地方是恢复二叉树，其实也谈不上恢复，
-就是让计算一下二叉树各个节点的值而已，个人更喜欢深度优先搜索，不用像BFS那样用到队列，每计算出一个值插入到uthash中，
-findElementsFind就是实现find，findElementsFree就是实现deleteAll，起到清理全局变量的目的。一般我写注释很多，但是
-这个题确实没什么可写，如果不太懂的话最好是先看uthash怎么用，网上例子很多，真的是非常容易使用的开源库了。
+// ### 解题思路
+// 这一堆函数框架摆在那里就代表这个题想让你用uthash，照着写就行，稍微绕点弯的地方是恢复二叉树，其实也谈不上恢复，
+// 就是让计算一下二叉树各个节点的值而已，个人更喜欢深度优先搜索，不用像BFS那样用到队列，每计算出一个值插入到uthash中，
+// findElementsFind就是实现find，findElementsFree就是实现deleteAll，起到清理全局变量的目的。一般我写注释很多，但是
+// 这个题确实没什么可写，如果不太懂的话最好是先看uthash怎么用，网上例子很多，真的是非常容易使用的开源库了。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -78,4 +78,4 @@ void findElementsFree(FindElements* obj) {
  
  * findElementsFree(obj);
 */
-```
+// ```

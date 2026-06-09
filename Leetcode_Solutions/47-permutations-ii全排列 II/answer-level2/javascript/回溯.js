@@ -1,7 +1,7 @@
 
-和上一题类似，核心在于去除重复。首先要排序，每次回溯完，添新枝时候要判断arr是否和上次一样。
+// 和上一题类似，核心在于去除重复。首先要排序，每次回溯完，添新枝时候要判断arr是否和上次一样。
 
-```
+// ```
 var permuteUnique = function(nums) {
   const state = [];
   const res = [];
@@ -35,4 +35,4 @@ var permuteUnique = function(nums) {
   recursive(0);
   return res;
 };
-```
+// ```

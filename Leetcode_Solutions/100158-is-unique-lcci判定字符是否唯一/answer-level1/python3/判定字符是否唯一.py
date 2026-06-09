@@ -1,9 +1,9 @@
-### 解题思路
-是否需要判断astr是否为空？
+# ### 解题思路
+# 是否需要判断astr是否为空？
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isUnique(self, astr: str) -> bool:
         dic = collections.Counter(astr)
@@ -12,4 +12,4 @@ class Solution:
                 return False
         
         return True
-```
+# ```

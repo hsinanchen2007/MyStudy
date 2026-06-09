@@ -1,4 +1,4 @@
-```
+// ```
 
 char * decodeAtIndex(char * S, int K){
     char* res = (char*)calloc(3, sizeof(char));
@@ -42,4 +42,4 @@ char * decodeAtIndex(char * S, int K){
     }
     return res;
 }
-```
+// ```

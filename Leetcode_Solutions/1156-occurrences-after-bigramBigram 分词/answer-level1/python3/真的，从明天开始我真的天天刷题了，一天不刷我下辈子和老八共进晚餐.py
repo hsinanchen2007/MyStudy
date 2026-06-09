@@ -1,11 +1,11 @@
-### 解题思路
-![QQ截图20200303143444.png](https://pic.leetcode-cn.com/76e48c5d361a0d1abf073d339916fb6d0888aee86599184e0a092aea204e1754-QQ%E6%88%AA%E5%9B%BE20200303143444.png)
+# ### 解题思路
+# ![QQ截图20200303143444.png](https://pic.leetcode-cn.com/76e48c5d361a0d1abf073d339916fb6d0888aee86599184e0a092aea204e1754-QQ%E6%88%AA%E5%9B%BE20200303143444.png)
 
-没啥好写的，就是用zip函数同时遍历列表的相邻元素
+# 没啥好写的，就是用zip函数同时遍历列表的相邻元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findOcurrences(self, text: str, first: str, second: str) -> List[str]:
         list_text=text.split(" ")
@@ -19,4 +19,4 @@ class Solution:
                     pass
             i+=1
         return list_res
-```
+# ```

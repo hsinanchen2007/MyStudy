@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null) return null;
@@ -34,4 +34,4 @@ class Solution {
         return second;
     }
 }
-```
+// ```

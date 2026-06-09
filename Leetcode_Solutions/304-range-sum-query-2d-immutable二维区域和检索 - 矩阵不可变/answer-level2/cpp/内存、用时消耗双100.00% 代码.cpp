@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-动态规划思想：dp[i][j]表示从matrix[0][0]到matrix[i][j]的所有数的总和，则（row1，col1）到（row2，col2）的和为：1.row1 == row2 && col1 == col2时，sum = dp[row2][col2] - dp[row2 - 1][col2] - dp[row2][col2 - 1] + dp[row2 - 1][col2 - 1];2.否则，sum = dp[row2][col2] - dp[row1 - 1][col2] - dp[row2][col1 - 1] + dp[row1 - 1][col1 - 1];
-以上是一般情况，再依据上述思路，分别讨论0 == row1和0 == col1的情况即可
+// ### 解题思路
+// 此处撰写解题思路
+// 动态规划思想：dp[i][j]表示从matrix[0][0]到matrix[i][j]的所有数的总和，则（row1，col1）到（row2，col2）的和为：1.row1 == row2 && col1 == col2时，sum = dp[row2][col2] - dp[row2 - 1][col2] - dp[row2][col2 - 1] + dp[row2 - 1][col2 - 1];2.否则，sum = dp[row2][col2] - dp[row1 - 1][col2] - dp[row2][col1 - 1] + dp[row1 - 1][col1 - 1];
+// 以上是一般情况，再依据上述思路，分别讨论0 == row1和0 == col1的情况即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
     class NumMatrix {
     public:
         NumMatrix(vector<vector<int>>& matrix) {
@@ -61,4 +61,4 @@
  * NumMatrix* obj = new NumMatrix(matrix);
  * int param_1 = obj->sumRegion(row1,col1,row2,col2);
  */
-```
+// ```

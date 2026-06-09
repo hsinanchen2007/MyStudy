@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         r = len(grid)
@@ -17,4 +17,4 @@ class Solution:
                 if i+1<r: ans = ans - min(temp, grid[i+1][j])*2
                 if j+1<c: ans = ans - min(temp, grid[i][j+1])*2
         return ans
-```
+# ```

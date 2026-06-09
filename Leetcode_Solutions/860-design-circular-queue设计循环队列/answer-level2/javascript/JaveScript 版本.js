@@ -1,5 +1,5 @@
-# 循环队列和指针
-```
+// # 循环队列和指针
+// ```
 var MyCircularQueue = function(k) {
     this.front = 0
     this.rear = 0
@@ -77,4 +77,4 @@ MyCircularQueue.prototype.isEmpty = function() {
 MyCircularQueue.prototype.isFull = function() {
     return (this.front === this.rear) && !!this.list[this.front]
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-- 对左子树进行**根-左-右**顺序遍历，生成字符串`left_str`,对左子树进行**根-右-左**遍历，生成字符串`right_str`。
-- 若`left_str`与`right_str`相等，则对称，否则不对称
+// ### 解题思路
+// - 对左子树进行**根-左-右**顺序遍历，生成字符串`left_str`,对左子树进行**根-右-左**遍历，生成字符串`right_str`。
+// - 若`left_str`与`right_str`相等，则对称，否则不对称
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -54,4 +54,4 @@ public:
         return false;
     }
 };
-```
+// ```

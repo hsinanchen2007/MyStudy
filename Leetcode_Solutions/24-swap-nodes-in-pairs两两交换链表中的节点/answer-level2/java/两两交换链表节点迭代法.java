@@ -1,5 +1,5 @@
-![WechatIMG7.jpeg](https://pic.leetcode-cn.com/6972028cdabd2e743c859e26a39bd53bbe15e56b38e6aefaf8a2a6214f37953b-WechatIMG7.jpeg)
-```
+// ![WechatIMG7.jpeg](https://pic.leetcode-cn.com/6972028cdabd2e743c859e26a39bd53bbe15e56b38e6aefaf8a2a6214f37953b-WechatIMG7.jpeg)
+// ```
 class Solution {
     public ListNode swapPairs(ListNode head) {
         ListNode pp = null;
@@ -22,4 +22,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1.按一维数组中第0个元素由小到大排序
-2.合并
+// ### 解题思路
+// 1.按一维数组中第0个元素由小到大排序
+// 2.合并
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} intervals
  * @return {number[][]}
@@ -27,4 +27,4 @@ var merge = function(intervals) {
   }
   return resultlist;
 };
-```
+// ```

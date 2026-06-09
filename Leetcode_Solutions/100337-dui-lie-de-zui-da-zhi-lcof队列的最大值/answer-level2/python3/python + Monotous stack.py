@@ -1,4 +1,4 @@
-```python
+# ```python
 class MaxQueue:
 
     def __init__(self):
@@ -31,4 +31,4 @@ class MaxQueue:
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

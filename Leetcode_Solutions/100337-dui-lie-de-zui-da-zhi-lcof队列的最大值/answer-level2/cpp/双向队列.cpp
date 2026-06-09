@@ -1,9 +1,9 @@
-### 解题思路
-双向队列
+// ### 解题思路
+// 双向队列
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 public:
     MaxQueue() 
@@ -48,4 +48,4 @@ private:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

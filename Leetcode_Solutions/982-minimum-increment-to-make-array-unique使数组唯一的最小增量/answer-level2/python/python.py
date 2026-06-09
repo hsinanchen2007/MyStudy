@@ -1,9 +1,9 @@
-### 解题思路
-先排序，然后按顺序加差值+1
+# ### 解题思路
+# 先排序，然后按顺序加差值+1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         if not A:
@@ -21,4 +21,4 @@ class Solution:
             pre = A[i]
         
         return res
-```
+# ```

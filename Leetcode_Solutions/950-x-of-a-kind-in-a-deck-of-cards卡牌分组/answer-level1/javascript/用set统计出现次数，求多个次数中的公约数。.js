@@ -1,9 +1,9 @@
-### 解题思路
-用set统计出现次数，求多个次数中的公约数。
+// ### 解题思路
+// 用set统计出现次数，求多个次数中的公约数。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -31,4 +31,4 @@ var gcd = function(a, b) {
 	if (b == 0) return a;
 	return gcd(b, a % b);
 };
-```
+// ```

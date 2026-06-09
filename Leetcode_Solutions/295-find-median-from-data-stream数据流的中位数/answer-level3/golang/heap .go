@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MedianFinder struct {
     p1 *IntHeap     // 顶部最大
     p2 *IntHeaps    // 顶部最小
@@ -103,4 +103,4 @@ func (h *IntHeaps) Pop() interface{} {
  * obj.AddNum(num);
  * param_2 := obj.FindMedian();
  */
-```
+// ```

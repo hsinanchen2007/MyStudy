@@ -1,8 +1,8 @@
-解题思路简单描述：
-- 使用长度为capacity的整型数组int[]来存储元素。
-- 使用putIndex及takeIndex这两个变量来记录当前入队/出队的数组下标，使用count来记录当前素组中的元素个数。
-- 使用ReentrantLock及两个Condition来完成线程间同步。 
-```
+// 解题思路简单描述：
+// - 使用长度为capacity的整型数组int[]来存储元素。
+// - 使用putIndex及takeIndex这两个变量来记录当前入队/出队的数组下标，使用count来记录当前素组中的元素个数。
+// - 使用ReentrantLock及两个Condition来完成线程间同步。 
+// ```
 class BoundedBlockingQueue {
     private int[] items;
 
@@ -76,4 +76,4 @@ class BoundedBlockingQueue {
         }
     }
 }
-```
+// ```

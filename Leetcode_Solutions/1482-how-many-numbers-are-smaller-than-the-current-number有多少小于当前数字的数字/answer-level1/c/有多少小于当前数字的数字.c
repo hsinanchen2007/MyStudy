@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-c语言，while双层循环遍历
+// c语言，while双层循环遍历
 
-### 代码
-```c
+// ### 代码
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -24,4 +24,4 @@ int* smallerNumbersThanCurrent(int* nums, int numsSize, int* returnSize){
     *returnSize=numsSize;
     return retResult;
 }
-```
+// ```

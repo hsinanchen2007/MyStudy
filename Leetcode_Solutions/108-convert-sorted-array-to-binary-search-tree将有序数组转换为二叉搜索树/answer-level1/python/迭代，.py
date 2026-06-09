@@ -1,9 +1,9 @@
-### 解题思路
-找到当前数组的中间位置作为根节点
+# ### 解题思路
+# 找到当前数组的中间位置作为根节点
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -54,4 +54,4 @@ class Solution(object):
 
 
             # if len(BndIds)==0:return Root
-```
+# ```

@@ -1,4 +1,4 @@
-向右旋转k次即整体左移len(nums)-k%len(nums)次，每次左移都可以看做将列表首元素加入尾部，再删除首元素
+# 向右旋转k次即整体左移len(nums)-k%len(nums)次，每次左移都可以看做将列表首元素加入尾部，再删除首元素
 
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:

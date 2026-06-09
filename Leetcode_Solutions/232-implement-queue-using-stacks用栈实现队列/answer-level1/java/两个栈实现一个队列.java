@@ -1,7 +1,7 @@
-![微信图片_20190801155927.jpg](https://pic.leetcode-cn.com/4aa08a4e1b0b506b32bc68e5c61e70faae84e10424e8a83b931a0adb90983ef6-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190801155927.jpg)
+// ![微信图片_20190801155927.jpg](https://pic.leetcode-cn.com/4aa08a4e1b0b506b32bc68e5c61e70faae84e10424e8a83b931a0adb90983ef6-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190801155927.jpg)
 
-代码如下:
-```
+// 代码如下:
+// ```
 class MyQueue {
     Stack<Integer> stackPush;
     Stack<Integer> stackPop;
@@ -66,5 +66,5 @@ class MyQueue {
 
 
 
-```
+// ```
 

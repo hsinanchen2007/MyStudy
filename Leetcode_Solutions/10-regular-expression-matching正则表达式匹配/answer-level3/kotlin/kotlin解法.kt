@@ -1,9 +1,9 @@
-### 解题思路
-迭代
+// ### 解题思路
+// 迭代
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun isMatch(s: String, p: String): Boolean {
         if(p.isEmpty()) return s.isEmpty()
@@ -15,4 +15,4 @@ class Solution {
         }
     }
 }
-```
+// ```

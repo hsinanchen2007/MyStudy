@@ -1,9 +1,9 @@
-### 解题思路
-第二天比第一天涨了则第一天买入
+// ### 解题思路
+// 第二天比第一天涨了则第一天买入
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int maxProfit = 0;
@@ -21,4 +21,4 @@ class Solution {
         return maxProfit;
     }
 }
-```
+// ```

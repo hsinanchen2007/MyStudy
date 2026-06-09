@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-用一个额外的列表记录不重复的子串（滑动窗口）。注意在遇到重复字符串的时候，要将字符串从重复的位置截开。
+# 用一个额外的列表记录不重复的子串（滑动窗口）。注意在遇到重复字符串的时候，要将字符串从重复的位置截开。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         res = []
@@ -16,4 +16,4 @@ class Solution:
                 res = res[index+1:]
             res.append(i)
         return max(len(res), ans)
-```
+# ```

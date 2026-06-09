@@ -1,4 +1,4 @@
-```
+// ```
 public TreeNode deleteNode(TreeNode root, int key) {
         //当前节点
         TreeNode p = root;
@@ -67,4 +67,4 @@ public TreeNode deleteNode(TreeNode root, int key) {
         }
         return root;
     }
-```
+// ```

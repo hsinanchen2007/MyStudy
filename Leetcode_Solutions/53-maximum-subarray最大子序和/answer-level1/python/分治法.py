@@ -1,9 +1,9 @@
-### 解题思路
-写一种分治法玩玩，比直接遍历有趣
+# ### 解题思路
+# 写一种分治法玩玩，比直接遍历有趣
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxSubArray(self, nums):
         """
@@ -29,9 +29,9 @@ class Solution(object):
             maxR = max(maxR, rightSumTemp)
             
         return max(leftSum, maxL + nums[cut] + maxR, rightSum)
-```
+# ```
 
-```java
+# ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         return maxSubArrayIndex(nums, 0, nums.length - 1);
@@ -64,4 +64,4 @@ class Solution {
         return Math.max(maxL + nums[cut] + maxR, Math.max(leftSum, rightSum));
     }
 }
-```
+# ```

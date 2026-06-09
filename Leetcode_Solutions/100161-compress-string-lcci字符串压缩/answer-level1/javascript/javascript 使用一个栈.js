@@ -1,9 +1,9 @@
-### 解题思路
-使用一个栈来压缩字符串
+// ### 解题思路
+// 使用一个栈来压缩字符串
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -27,4 +27,4 @@ var compressString = function(S) {
     }
     return res.length < len ? res : S
 };
-```
+// ```

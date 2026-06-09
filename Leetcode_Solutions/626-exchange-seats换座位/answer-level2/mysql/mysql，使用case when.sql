@@ -1,4 +1,4 @@
-```
+-- ```
 select s1.id,
     (case 
         when s1.id % 2 = 0 
@@ -12,6 +12,6 @@ select s1.id,
     as student
 from seat s1,(select max(id) as maxid from seat) as tempMax
 
-```
+-- ```
 
-建立了一个tempMax的临时表存放最大id，匹配时如果发现偶数id最大时则返回当前 id相关的student值
+-- 建立了一个tempMax的临时表存放最大id，匹配时如果发现偶数id最大时则返回当前 id相关的student值

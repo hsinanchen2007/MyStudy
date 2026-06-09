@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/a034de632d258d44ff541a33ce1560bdfa1cd7432489f0d08726b8f04f6ca1f5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a034de632d258d44ff541a33ce1560bdfa1cd7432489f0d08726b8f04f6ca1f5-image.png)
 
-```
+// ```
 class Solution {
 public:
     int binaryGap(int N) {
@@ -22,4 +22,4 @@ public:
         return max_distance;
     }
 };
-```
+// ```

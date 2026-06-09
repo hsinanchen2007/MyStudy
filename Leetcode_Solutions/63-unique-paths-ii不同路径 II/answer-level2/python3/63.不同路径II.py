@@ -1,13 +1,13 @@
-### 解题思路
-摔死在深复制浅复制上
-请这么赋值：
-dp = [[0 for i in range(n)] for i in range(m)]
-错误初始化：
-dp = m*[n*[0]]
+# ### 解题思路
+# 摔死在深复制浅复制上
+# 请这么赋值：
+# dp = [[0 for i in range(n)] for i in range(m)]
+# 错误初始化：
+# dp = m*[n*[0]]
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         m,n = len(obstacleGrid),len(obstacleGrid[0])
@@ -56,4 +56,4 @@ class Solution:
                     dp[i][j] = dp[i-1][j] + dp[i][j-1]
                     
         return dp[m-1][n-1]
-```
+# ```

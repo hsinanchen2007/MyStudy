@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn first_uniq_char(s: String) -> i32 {
         let mut cnt = [0; 26];
@@ -16,5 +16,5 @@ impl Solution {
         -1
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

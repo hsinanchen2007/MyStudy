@@ -1,9 +1,9 @@
-### 解题思路
-用计数器判断是否是最外层括号，当计数器为0的时候则是最外层括号
+# ### 解题思路
+# 用计数器判断是否是最外层括号，当计数器为0的时候则是最外层括号
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeOuterParentheses(self, S: str) -> str:
         result = ''

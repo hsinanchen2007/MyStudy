@@ -1,7 +1,7 @@
-## 思路一：循环打印
-### 代码
-时间复杂度：O(n)
-```c++
+// ## 思路一：循环打印
+// ### 代码
+// 时间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -33,10 +33,10 @@ public:
         return res;
     }
 };
-```
-### 优化
-时间复杂度：O(n)
-```c++
+// ```
+// ### 优化
+// 时间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -56,5 +56,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

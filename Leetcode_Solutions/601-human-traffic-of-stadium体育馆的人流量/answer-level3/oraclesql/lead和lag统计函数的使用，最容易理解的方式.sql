@@ -1,4 +1,4 @@
---先按照date进行排序，生成rownum的伪列rn，这个rn我们要用来取rn-1,rn+1的数据
+-- --先按照date进行排序，生成rownum的伪列rn，这个rn我们要用来取rn-1,rn+1的数据
 with a as (select id,rownum as rn, visit_date ,people from stadium order by visit_date asc)
 
 --首先，题目要求至少连续三天，那么就是这三天中的中间一行，它的前一天，后一天以及它本身的人员数量一定是大于等于100的。我们可以从这里入手

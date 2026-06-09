@@ -1,10 +1,10 @@
-### 解题思路
-其实就是遇到不同的先跳过，但是这里要注意的是最后的成功判断条件，以及中间那个值的处理方式。
-![000.png](https://pic.leetcode-cn.com/e04e8310eaa3bb878bc9f47b55daf52d4b1018576e4e03242d4d112552e34f30-000.png)
+// ### 解题思路
+// 其实就是遇到不同的先跳过，但是这里要注意的是最后的成功判断条件，以及中间那个值的处理方式。
+// ![000.png](https://pic.leetcode-cn.com/e04e8310eaa3bb878bc9f47b55daf52d4b1018576e4e03242d4d112552e34f30-000.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool validPalindrome(char* s)
 {
     int m = strlen(s);
@@ -51,4 +51,4 @@ bool validPalindrome(char* s)
     else
         return false;
 }
-```
+// ```

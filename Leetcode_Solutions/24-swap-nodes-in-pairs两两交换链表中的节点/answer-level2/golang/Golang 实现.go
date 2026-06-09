@@ -1,7 +1,7 @@
 
-借助头指针简化实现
+// 借助头指针简化实现
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -41,4 +41,4 @@ func swapPairs(head *ListNode) *ListNode {
     
     return d.Next
 }
-```
+// ```

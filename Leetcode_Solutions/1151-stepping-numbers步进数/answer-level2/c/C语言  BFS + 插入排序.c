@@ -1,6 +1,6 @@
-看代码注释吧
+// 看代码注释吧
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -64,4 +64,4 @@ int* countSteppingNumbers(int low, int high, int* returnSize){
     return result;
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-又是一道模拟题，先找到白车的位置，然后按四个方向移动，碰到黑卒、白象、边界就停止，记录移动过程中碰到的黑卒数量。
+// ### 解题思路
+// 又是一道模拟题，先找到白车的位置，然后按四个方向移动，碰到黑卒、白象、边界就停止，记录移动过程中碰到的黑卒数量。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int checkerboardSize = board.length;
@@ -42,4 +42,4 @@ class Solution {
 
     }
 }
-```
+// ```

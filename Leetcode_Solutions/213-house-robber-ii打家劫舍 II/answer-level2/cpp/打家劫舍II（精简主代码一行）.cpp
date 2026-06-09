@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/a6a278c7f931be8dc350ec765cbe2b389a11ab5b63651c7e79d00c583c8713d6-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/a6a278c7f931be8dc350ec765cbe2b389a11ab5b63651c7e79d00c583c8713d6-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int max_rob(vector<int>& nums,int s,int e)
@@ -24,4 +24,4 @@ public:
         return max(max_rob(nums,0,nums.size()-2),max_rob(nums,1,nums.size()-1));
     }
 };
-```
+// ```

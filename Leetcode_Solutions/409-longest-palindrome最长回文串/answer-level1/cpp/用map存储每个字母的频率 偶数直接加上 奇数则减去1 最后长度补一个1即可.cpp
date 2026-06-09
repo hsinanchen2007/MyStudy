@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -21,4 +21,4 @@ public:
         return flag ? longest + 1 : longest;
     }
 };
-```
+// ```

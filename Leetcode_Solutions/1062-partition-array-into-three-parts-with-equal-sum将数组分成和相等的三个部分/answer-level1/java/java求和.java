@@ -1,9 +1,9 @@
-执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :44.4 MB, 在所有 Java 提交中击败了100.00%的用户
+// 执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :44.4 MB, 在所有 Java 提交中击败了100.00%的用户
 
-好像有点点暴力。。。
+// 好像有点点暴力。。。
 
-```
+// ```
 代码块
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
@@ -30,4 +30,4 @@ class Solution {
         return result == 4;
     }
 }
-```
+// ```

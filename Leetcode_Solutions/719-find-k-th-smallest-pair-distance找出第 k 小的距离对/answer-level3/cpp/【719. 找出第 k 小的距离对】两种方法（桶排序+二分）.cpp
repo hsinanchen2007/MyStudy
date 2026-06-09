@@ -1,8 +1,8 @@
-## 思路一：桶排序
-桶号表示距离，每个桶中保存相同距离出现的次数，然后遍历每个桶。
-### 代码
-时间复杂度：O(n^2)
-```c++
+// ## 思路一：桶排序
+// 桶号表示距离，每个桶中保存相同距离出现的次数，然后遍历每个桶。
+// ### 代码
+// 时间复杂度：O(n^2)
+// ```c++
 class Solution {
 public:
     int smallestDistancePair(vector<int>& nums, int k) {
@@ -20,13 +20,13 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-## 思路二：二分（最优）
-对距离进行二分，然后统计小于等于该距离的对数。
-### 代码
-时间复杂度：O(nlogn)
-```c++
+// ## 思路二：二分（最优）
+// 对距离进行二分，然后统计小于等于该距离的对数。
+// ### 代码
+// 时间复杂度：O(nlogn)
+// ```c++
 class Solution {
 public:
     int smallestDistancePair(vector<int>& nums, int k) {
@@ -47,6 +47,6 @@ public:
         return left;
     }
 };
-```
+// ```
 
 

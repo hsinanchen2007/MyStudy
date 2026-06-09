@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/5a175e691e6a53e45f007ff864aa021c9ac6d5e1132196227308014912ab7aec-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5a175e691e6a53e45f007ff864aa021c9ac6d5e1132196227308014912ab7aec-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func fullJustify(words []string, maxWidth int) []string {
     l := len(words)
 
@@ -64,4 +64,4 @@ func spaces(n int) string {
 
     return r
 }
-```
+// ```

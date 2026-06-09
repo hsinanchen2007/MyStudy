@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int maximumGap(vector<int>& nums) {
@@ -14,5 +14,5 @@ public:
         return res;
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/0c56e52e944c947daf06894b162624e6c1645c598936e3efcab7e93a42e878c7-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/0c56e52e944c947daf06894b162624e6c1645c598936e3efcab7e93a42e878c7-1.png)

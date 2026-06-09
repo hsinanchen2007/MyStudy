@@ -1,10 +1,10 @@
-c#  用Dictionary遍历， 
-一，设计transcation类对象，把数据split放入transcation类，建立Dictionary<transcation>对比集
-二，遍历判断每个数据，
-①对比集中存在该名称的交易，遍历对比集，检查交易间隔时间问题，数据非法且未被标记，则标记未被标记的非法遍历数据，非法遍历对比集数据，扔入结果集，结束
-②不存在，略过间隔问题，处理金额超出问题，数据非法且未被标记，标记非法扔入结果集，
-③数据按名称放入对比集
-三，输出结果
+// c#  用Dictionary遍历， 
+// 一，设计transcation类对象，把数据split放入transcation类，建立Dictionary<transcation>对比集
+// 二，遍历判断每个数据，
+// ①对比集中存在该名称的交易，遍历对比集，检查交易间隔时间问题，数据非法且未被标记，则标记未被标记的非法遍历数据，非法遍历对比集数据，扔入结果集，结束
+// ②不存在，略过间隔问题，处理金额超出问题，数据非法且未被标记，标记非法扔入结果集，
+// ③数据按名称放入对比集
+// 三，输出结果
 
     public IList<string> InvalidTransactions(string[] transactions)
     {         

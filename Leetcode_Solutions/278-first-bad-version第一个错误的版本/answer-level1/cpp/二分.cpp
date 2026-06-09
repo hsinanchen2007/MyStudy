@@ -1,9 +1,9 @@
-### 解题思路
-二分加移位
+// ### 解题思路
+// 二分加移位
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 // Forward declaration of isBadVersion API.
 bool isBadVersion(int version);
 
@@ -26,4 +26,4 @@ public:
         return lo;
     }
 };
-```
+// ```

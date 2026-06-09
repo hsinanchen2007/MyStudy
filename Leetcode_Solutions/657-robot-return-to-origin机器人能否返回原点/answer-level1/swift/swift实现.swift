@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func judgeCircle(_ moves: String) -> Bool {
         var v = 0
@@ -19,4 +19,4 @@ class Solution {
         return v==0 && h==0
     }
 }
-```
+// ```

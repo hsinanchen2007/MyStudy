@@ -1,9 +1,9 @@
-### 解题思路
-注释如下
+# ### 解题思路
+# 注释如下
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     # 计算以当前节点为根的树深度
     def Depth(self, root: TreeNode) -> int:
@@ -21,4 +21,4 @@ class Solution:
             return False
         # 递归执行，当出现不满足AVL性质的子树时，执行短路运算立即返回结果
         return self.isBalanced(root.left) and self.isBalanced(root.right)
-```
+# ```

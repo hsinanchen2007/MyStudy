@@ -1,10 +1,10 @@
-### 解题思路 
-此处撰写解题思路
-`node = queue.popleft()`与`queue.append(node.left)`更配吆
+# ### 解题思路 
+# 此处撰写解题思路
+# `node = queue.popleft()`与`queue.append(node.left)`更配吆
 
-### 代码 常规解法
+# ### 代码 常规解法
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -34,10 +34,10 @@ class Solution:
                 if node.right:
                     queue.append(node.right)
         return levels
-```
+# ```
 
-### 递归解法
-```python
+# ### 递归解法
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -65,4 +65,4 @@ class Solution:
                 recur(root.right,level+1)
         recur(root,0)
         return levels
-```
+# ```

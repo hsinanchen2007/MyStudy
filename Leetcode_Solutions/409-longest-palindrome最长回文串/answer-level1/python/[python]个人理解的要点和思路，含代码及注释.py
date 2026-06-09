@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         """
@@ -22,4 +22,4 @@ class Solution:
         
         return res
 
-```
+# ```

@@ -1,7 +1,7 @@
-解题思路：
-left表示左边元素，right表示右边元素，如果左边元素的奇数，则跟最右边的偶数调换顺序。
+// 解题思路：
+// left表示左边元素，right表示右边元素，如果左边元素的奇数，则跟最右边的偶数调换顺序。
 
-```
+// ```
 class Solution {
     public int[] exchange(int[] nums) {
         if (nums.length == 0) return new int[0];
@@ -24,4 +24,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

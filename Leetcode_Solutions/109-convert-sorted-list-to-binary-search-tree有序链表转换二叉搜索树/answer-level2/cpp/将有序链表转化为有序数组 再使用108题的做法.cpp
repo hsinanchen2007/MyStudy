@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     TreeNode* fun(vector<int>&temp,int l,int r){
@@ -20,4 +20,4 @@ public:
         return fun(temp,0,temp.size()-1);
     }
 };
-```
+// ```

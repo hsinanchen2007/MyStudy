@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func generate(_ numRows: Int) -> [[Int]] {
         var ans = [[Int]]()
@@ -17,4 +17,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

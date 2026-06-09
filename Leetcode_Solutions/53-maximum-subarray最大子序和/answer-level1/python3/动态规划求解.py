@@ -1,10 +1,10 @@
-动态规划求解
+# 动态规划求解
 
-已知前面i项的最大值：
-i+1可能的情况：
-i+1的最大等于 i的最大
-i+1的最大 等于i的最大加上nums[i]
-这个通过 max(ans, value)实现
+# 已知前面i项的最大值：
+# i+1可能的情况：
+# i+1的最大等于 i的最大
+# i+1的最大 等于i的最大加上nums[i]
+# 这个通过 max(ans, value)实现
 
 class Solution():
     def maxSubArray(self, nums):

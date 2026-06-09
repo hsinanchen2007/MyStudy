@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def constructArr(self, a: List[int]) -> List[int]:
         
@@ -25,4 +25,4 @@ class Solution:
 
         return ans 
         
-```
+# ```

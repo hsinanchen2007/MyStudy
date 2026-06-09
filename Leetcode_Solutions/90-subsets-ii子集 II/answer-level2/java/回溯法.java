@@ -1,9 +1,9 @@
-### 解题思路
-先排序，遇见重复的过滤，按照顺序回溯即可
+// ### 解题思路
+// 先排序，遇见重复的过滤，按照顺序回溯即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         //list
@@ -44,4 +44,4 @@ class Solution {
         }
     }
 }
-```
+// ```

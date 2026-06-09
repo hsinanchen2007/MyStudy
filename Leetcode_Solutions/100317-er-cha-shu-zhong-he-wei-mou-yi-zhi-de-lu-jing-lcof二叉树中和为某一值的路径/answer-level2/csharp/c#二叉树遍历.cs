@@ -1,11 +1,11 @@
-### 解题思路
-二叉树遍历
-遍历过程中用sum - 节点的val，并用list记录val
-当sum == 0而且是叶子时记录整个list到results里
-注意遍厉完子点结后sum += 节点的val
-### 代码
+// ### 解题思路
+// 二叉树遍历
+// 遍历过程中用sum - 节点的val，并用list记录val
+// 当sum == 0而且是叶子时记录整个list到results里
+// 注意遍厉完子点结后sum += 节点的val
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -46,4 +46,4 @@ public class Solution {
         numList.RemoveAt(numList.Count - 1);
     }
 }
-```
+// ```

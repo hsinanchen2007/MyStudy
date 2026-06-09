@@ -1,9 +1,9 @@
-### 解题思路
-核心思想就是写一个boolean控制插入顺序
+// ### 解题思路
+// 核心思想就是写一个boolean控制插入顺序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -37,4 +37,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

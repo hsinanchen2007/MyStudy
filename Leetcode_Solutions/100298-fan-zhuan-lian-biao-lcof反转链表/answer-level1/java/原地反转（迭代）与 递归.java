@@ -1,29 +1,29 @@
-## 24.反转链表
+// ## 24.反转链表
 
-### Information
+// ### Information
 
-* TIME: 2020/02/14
-* LINK: [Click Here](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/)
-* TAG: `List`
+// * TIME: 2020/02/14
+// * LINK: [Click Here](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/)
+// * TAG: `List`
 
-### Description
+// ### Description
 
-> 定义一个函数，输入一个链表的头节点，反转该链表并输出反转后链表的头节点。
+// > 定义一个函数，输入一个链表的头节点，反转该链表并输出反转后链表的头节点。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入: 1->2->3->4->5->NULL
 输出: 5->4->3->2->1->NULL
-```
+// ```
 
-### My Answer -1
+// ### My Answer -1
 
-> 迭代
->
-> 将遍历节点作为新链表的头节点，`next`指向原新链表的头部`pre`
+// > 迭代
+// >
+// > 将遍历节点作为新链表的头节点，`next`指向原新链表的头部`pre`
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -47,15 +47,15 @@ class Solution {
         return pre;
     }
 }
-```
+// ```
 
-### My Answer -2
+// ### My Answer -2
 
-> 递归
->
-> 回溯位置的节点`head`的下一个节点的`next`指向`head`，同时将`head.next = null`，全程返回链表的尾部节点
+// > 递归
+// >
+// > 回溯位置的节点`head`的下一个节点的`next`指向`head`，同时将`head.next = null`，全程返回链表的尾部节点
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -75,23 +75,23 @@ class Solution {
         return node;
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/26ce8819222189774fb980211645fa5b274747e5da58fc74a249fb8ce71699d0-file_1581648515173)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/26ce8819222189774fb980211645fa5b274747e5da58fc74a249fb8ce71699d0-file_1581648515173)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

@@ -1,9 +1,9 @@
-### 解题思路
-奥利给 老铁！
+// ### 解题思路
+// 奥利给 老铁！
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findNumberIn2DArray(matrix [][]int, target int) bool {
 	// 1.列数据为0
 	if len(matrix) == 0 {
@@ -33,4 +33,4 @@ func findNumberIn2DArray(matrix [][]int, target int) bool {
 	return false
 
 }
-```
+// ```

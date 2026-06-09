@@ -1,9 +1,9 @@
-### 解题思路
-哭了 自己写的快排超时 冒泡缺没超时o(╥﹏╥)o
+// ### 解题思路
+// 哭了 自己写的快排超时 冒泡缺没超时o(╥﹏╥)o
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define bool int
 #define false 0
 #define true 1
@@ -61,4 +61,4 @@ bool containsDuplicate(int* nums, int numsSize){
     return false;    
 }
 
-```
+// ```

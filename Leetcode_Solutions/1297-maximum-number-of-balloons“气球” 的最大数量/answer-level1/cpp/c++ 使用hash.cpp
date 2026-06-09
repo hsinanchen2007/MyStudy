@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/6105c83aef2a17d6b122eb034434918e50bab343a25a5b8269dbb8d2c3792652-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/6105c83aef2a17d6b122eb034434918e50bab343a25a5b8269dbb8d2c3792652-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxNumberOfBalloons(string text) {
@@ -15,4 +15,4 @@ public:
         return min(min(min(min(hash['b'],hash['a']),hash['l']/2),hash['o']/2),hash['n']);
     }
 };
-```
+// ```

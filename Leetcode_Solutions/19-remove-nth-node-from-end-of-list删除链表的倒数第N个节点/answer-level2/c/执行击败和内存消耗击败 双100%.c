@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -30,4 +30,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     q->next=q->next->next;//删除倒数第n个节点
     return dev->next;//只能这样写，否则写“return head”的话有几组测试样例不能通过
 }
-```
+// ```

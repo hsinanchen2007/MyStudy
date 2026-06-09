@@ -1,4 +1,4 @@
-```
+// ```
 //水平扫描，末尾哨兵
 
 func countAndSay(n int)  string{
@@ -23,4 +23,4 @@ func countAndSay(n int)  string{
 	return result.String()
 }
 
-```
+// ```

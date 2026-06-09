@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
 
     @staticmethod
@@ -15,4 +15,4 @@ class Solution:
                 sum += int(num) * int(num)
 
         return True
-```
+# ```

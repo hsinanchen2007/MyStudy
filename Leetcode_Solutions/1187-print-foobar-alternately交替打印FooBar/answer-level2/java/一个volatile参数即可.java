@@ -1,5 +1,5 @@
-核心是线程数据共享也就是volatile，增加一个参数即可完成
-```
+// 核心是线程数据共享也就是volatile，增加一个参数即可完成
+// ```
 class FooBar {
     private int n;
     volatile boolean isfoo = true;
@@ -26,6 +26,6 @@ class FooBar {
         }
     }
 }
-```
+// ```
 
 

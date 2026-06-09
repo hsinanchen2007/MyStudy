@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int StrStr(string haystack, string needle) {
         int l1 = haystack.Length, l2 = needle.Length;
@@ -21,4 +21,4 @@ public class Solution {
         
     }
 }
-```
+// ```

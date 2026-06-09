@@ -1,9 +1,9 @@
-维护一个哈希表`char maps[]`，检测每个字符串中所有字符是否有相同的值
-大小写字母之间的间隙填充六个0，这样不用转换大小写
+// 维护一个哈希表`char maps[]`，检测每个字符串中所有字符是否有相同的值
+// 大小写字母之间的间隙填充六个0，这样不用转换大小写
 
-当然，`maps` 也可以是字符串。
+// 当然，`maps` 也可以是字符串。
 
-```C
+// ```C
 
 char maps[] = 
 {
@@ -49,4 +49,4 @@ char ** findWords(char ** words, int wordsSize, int* returnSize){
     return words;
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 
 const gMax = 6
@@ -38,4 +38,4 @@ func twoSum(n int) (rst []float64) {
 
 	return rst
 }
-```
+// ```

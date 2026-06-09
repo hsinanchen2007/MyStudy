@@ -1,4 +1,4 @@
-```
+# ```
 class CQueue:
 
     def __init__(self):
@@ -16,4 +16,4 @@ class CQueue:
                 self.out.append(self.in_.pop())
         if not self.out: return -1 
         return self.out.pop()
-```
+# ```

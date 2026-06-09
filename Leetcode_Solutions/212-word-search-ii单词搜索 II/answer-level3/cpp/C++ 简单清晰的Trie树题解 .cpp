@@ -1,5 +1,5 @@
-我是易安，努力去写最清晰易懂的code.
-```
+// 我是易安，努力去写最清晰易懂的code.
+// ```
 class TrieNode{
 public:
     string word = "";
@@ -55,4 +55,4 @@ public:
         board[x][y] = c;
     }  
 };
-```
+// ```

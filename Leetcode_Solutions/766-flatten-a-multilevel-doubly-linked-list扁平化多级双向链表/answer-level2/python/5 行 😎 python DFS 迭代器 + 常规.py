@@ -1,5 +1,5 @@
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node:
@@ -17,10 +17,10 @@ class Solution:
         iters = gen(head); p = head and next(iters)
         for n in iters: p.next, n.prev, p.child, n.child, p = n, p, None, None, n
         return head
-```
-- 使用迭代器按顺序输出所有节点，然后连接
+# ```
+# - 使用迭代器按顺序输出所有节点，然后连接
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node:
@@ -48,5 +48,5 @@ class Solution:
             p = node
         
         return head
-```
-- 常规 DFS 遍历
+# ```
+# - 常规 DFS 遍历

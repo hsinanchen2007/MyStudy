@@ -1,9 +1,9 @@
-### 解题思路
-CountdownLatch设置为1 当第一条线程完成后，countdown 去唤醒第二个， 第二个处理完成时，countdown去唤醒第三个
+// ### 解题思路
+// CountdownLatch设置为1 当第一条线程完成后，countdown 去唤醒第二个， 第二个处理完成时，countdown去唤醒第三个
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Foo {
  private CountDownLatch second = new CountDownLatch(1);
     private CountDownLatch third = new CountDownLatch(1);
@@ -31,4 +31,4 @@ class Foo {
         printThird.run();
     }
 }
-``` 
+// ``` 

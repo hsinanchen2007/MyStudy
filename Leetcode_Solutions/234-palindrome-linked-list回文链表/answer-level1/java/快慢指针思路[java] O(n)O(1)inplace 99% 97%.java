@@ -1,18 +1,18 @@
-### 解题思路
-快慢指针同时遍历链表 快指针stride=2 慢指针stride=1  慢指针遍历过程中反转前半段链表。
+// ### 解题思路
+// 快慢指针同时遍历链表 快指针stride=2 慢指针stride=1  慢指针遍历过程中反转前半段链表。
 
-结束时
-偶数情况  null <- 1 <- 2[prev]    [slow]2 -> 1 -> null[fast]
+// 结束时
+// 偶数情况  null <- 1 <- 2[prev]    [slow]2 -> 1 -> null[fast]
 
-奇数情况   慢指针=终点元素 快指针最后一个元素
-             null <- 1 <- 2[prev]   3[slow]    2 -> 1[fast] ->null
-多一步 slow to slow.next即可
-对比两个链表内容即可判断是否为回文字串
-边界情况：head->null    null
+// 奇数情况   慢指针=终点元素 快指针最后一个元素
+//              null <- 1 <- 2[prev]   3[slow]    2 -> 1[fast] ->null
+// 多一步 slow to slow.next即可
+// 对比两个链表内容即可判断是否为回文字串
+// 边界情况：head->null    null
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -46,4 +46,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

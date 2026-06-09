@@ -1,9 +1,9 @@
-1. 将p构建成有限状态机，主要是a* .*处理方式较复杂，见图
-![WechatIMG36.jpeg](https://pic.leetcode-cn.com/36d7df5dcf1227ddfc2b55578c05eeb91bdeac07cf15099009d4902df84d4ed1-WechatIMG36.jpeg)
-2. 遍历s，通过第一步构建的有限状态机来转移状态
-3. 如果遍历完成，最后状态列表中有end标识的状态，那么就匹配到了，否则，没有匹配到
+// 1. 将p构建成有限状态机，主要是a* .*处理方式较复杂，见图
+// ![WechatIMG36.jpeg](https://pic.leetcode-cn.com/36d7df5dcf1227ddfc2b55578c05eeb91bdeac07cf15099009d4902df84d4ed1-WechatIMG36.jpeg)
+// 2. 遍历s，通过第一步构建的有限状态机来转移状态
+// 3. 如果遍历完成，最后状态列表中有end标识的状态，那么就匹配到了，否则，没有匹配到
 
-```
+// ```
 class Solution {
     public boolean isMatch(String s, String p) {
         State dfa = buildStateChain(p);
@@ -129,5 +129,5 @@ class Solution {
 
     }
 }
-```
+// ```
 

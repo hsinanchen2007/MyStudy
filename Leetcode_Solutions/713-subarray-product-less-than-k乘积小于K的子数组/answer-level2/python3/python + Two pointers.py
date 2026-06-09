@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
         # two pointer
@@ -15,4 +15,4 @@ class Solution:
             if r >= l: res += (r - l + 1)
             r += 1
         return res
-```
+# ```

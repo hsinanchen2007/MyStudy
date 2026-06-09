@@ -1,12 +1,12 @@
-### 解题思路
-这题其实和101基本没有区别，除了最后反转列表，还有就是insert的时候指定insert(0)也可以实现
-1. BFS
-2. 递归
-具体的可以参考101
+# ### 解题思路
+# 这题其实和101基本没有区别，除了最后反转列表，还有就是insert的时候指定insert(0)也可以实现
+# 1. BFS
+# 2. 递归
+# 具体的可以参考101
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -48,4 +48,4 @@ class Solution:
         
         helper(root, 0)
         return ans[::-1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-边界问题，这里转换成long了
+// ### 解题思路
+// 边界问题，这里转换成long了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String fractionToDecimal(int numerator1, int denominator1) {
 		StringBuilder sb = new StringBuilder();
@@ -52,4 +52,4 @@ class Solution {
 		return sb.toString();
 	}
 }
-```
+// ```

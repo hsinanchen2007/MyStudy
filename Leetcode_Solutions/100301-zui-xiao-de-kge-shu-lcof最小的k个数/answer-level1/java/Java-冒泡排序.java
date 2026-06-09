@@ -1,9 +1,9 @@
-### 解题思路
-用冒泡排序将arr变为有序数组，取最前面k位。
+// ### 解题思路
+// 用冒泡排序将arr变为有序数组，取最前面k位。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         for(int i = 0; i < arr.length; i++) {
@@ -22,4 +22,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

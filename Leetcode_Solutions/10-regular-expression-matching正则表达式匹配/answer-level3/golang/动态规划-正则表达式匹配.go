@@ -1,13 +1,13 @@
-golang 动态规划：
+// golang 动态规划：
 
-执行用时 :0 ms, 在所有 golang 提交中击败了100.00%的用户
+// 执行用时 :0 ms, 在所有 golang 提交中击败了100.00%的用户
 
-内存消耗 :2.6 MB 
+// 内存消耗 :2.6 MB 
 
-![QQ20191015-133440@2x.png](https://pic.leetcode-cn.com/9c9c5e4f1fa57ec996e3bdf3fbecc00965e9c5f83925741be180e5c28afbfb1c-QQ20191015-133440@2x.png)
+// ![QQ20191015-133440@2x.png](https://pic.leetcode-cn.com/9c9c5e4f1fa57ec996e3bdf3fbecc00965e9c5f83925741be180e5c28afbfb1c-QQ20191015-133440@2x.png)
 
 
-```
+// ```
 func IsMatch(s string, p string) bool {
 	return newCoder().match(0 , 0 , s ,p)
 }
@@ -48,4 +48,4 @@ func compress(sIndex , pIndex int) uint64 {
 	value = value | uint64(pIndex)
 	return value
 }
-```
+// ```

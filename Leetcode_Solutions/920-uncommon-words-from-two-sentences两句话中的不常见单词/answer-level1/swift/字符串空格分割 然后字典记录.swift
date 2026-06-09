@@ -1,5 +1,5 @@
-Swift代码
-```
+// Swift代码
+// ```
 func uncommonFromSentences(_ A: String, _ B: String) -> [String] {
         let arrA = A.split(separator: " ")
         let arrB = B.split(separator: " ")
@@ -26,4 +26,4 @@ func uncommonFromSentences(_ A: String, _ B: String) -> [String] {
         }
         return res
     }
-```
+// ```

@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution{
 public:
     int removeElement(vector<int>& nums, int val){
@@ -14,4 +14,4 @@ public:
         return i;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func triangleNumber(_ nums: [Int]) -> Int {
         //三角形边长不能为0
@@ -56,4 +56,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

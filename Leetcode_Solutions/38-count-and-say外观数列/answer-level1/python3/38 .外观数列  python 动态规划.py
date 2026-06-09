@@ -1,13 +1,13 @@
-### 解题思路
-动态规划，正向循环，更新保留每次first_str，作为下一次迭代的字符串,遍历字符串数组，如果前一个和后一个相同则继续，记录相同的个数count + 1，不相同，则更新前面相同的临时temp以及重置count = 1。
+# ### 解题思路
+# 动态规划，正向循环，更新保留每次first_str，作为下一次迭代的字符串,遍历字符串数组，如果前一个和后一个相同则继续，记录相同的个数count + 1，不相同，则更新前面相同的临时temp以及重置count = 1。
 
-最后一个数要分情况单独讨论更新temp，并初始化所有与之相关的参数。方便下一次迭代。
+# 最后一个数要分情况单独讨论更新temp，并初始化所有与之相关的参数。方便下一次迭代。
 
-❤注意：注意数组的越界问题。
+# ❤注意：注意数组的越界问题。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def countAndSay(self, n: int) -> str:
         first_str=''
@@ -55,4 +55,4 @@ class Solution:
                         temp+=str(count)+first_str[index]
                         count=1
         return first_str
-```
+# ```

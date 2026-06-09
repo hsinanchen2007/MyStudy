@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-取余数编码方式
+// 取余数编码方式
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String getPermutation(int n, int k) {
         // k-1 = an*(n-1)! + an_1*(n-2)! + ... + a2*1! + a1*0!
@@ -34,4 +34,4 @@ class Solution {
         
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-官方讲的已经很好了哈哈哈哈哈
+# ### 解题思路
+# 官方讲的已经很好了哈哈哈哈哈
 
-#### 方法一，时间复杂度, pushO(1), popO(n)
-```
+# #### 方法一，时间复杂度, pushO(1), popO(n)
+# ```
 class MyStack1(object):
     
     def __init__(self):
@@ -52,9 +52,9 @@ class MyStack1(object):
         """
         return self.q1 == [] and self.q2 == []
 
-```
-##### 方法二，时间复杂度, pushO(n), popO(1)
-```
+# ```
+# ##### 方法二，时间复杂度, pushO(n), popO(1)
+# ```
 class MyStack2(object):
     
     def __init__(self):
@@ -100,9 +100,9 @@ class MyStack2(object):
         :rtype: bool
         """
         return self.q1 == []
-```
-##### 方法三，单队列实现，时间复杂度, pushO(n), popO(1)
-```
+# ```
+# ##### 方法三，单队列实现，时间复杂度, pushO(n), popO(1)
+# ```
 class MyStack3(object):
     
     def __init__(self):
@@ -144,5 +144,5 @@ class MyStack3(object):
         :rtype: bool
         """
         return self.q == []
-```
+# ```
 

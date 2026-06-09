@@ -1,9 +1,9 @@
-### 解题思路
-同时维护两个队列
+// ### 解题思路
+// 同时维护两个队列
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
 
       Queue<Integer> queue;
@@ -48,4 +48,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

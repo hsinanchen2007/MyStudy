@@ -1,5 +1,5 @@
-简单题
-```js
+// 简单题
+// ```js
 var levelOrder = function(root) {
     const res = [];
     if(!root) return res;
@@ -19,4 +19,4 @@ var levelOrder = function(root) {
     }
     return res;
 };
-```
+// ```

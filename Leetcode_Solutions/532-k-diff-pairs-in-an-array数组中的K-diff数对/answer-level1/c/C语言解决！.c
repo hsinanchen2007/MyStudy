@@ -1,9 +1,9 @@
-### 解题思路
-先排序，再从左往右遍历，如果nums[j]-nums[i]>k，那么j之后的也不用再尝试了，直接break；如果nums[j]-nums[i]==k，那么个数加一，j之后的也不用尝试，break；如果num[i]在之前已经使用过，那么直接continue跳过，避免重复计算！
+// ### 解题思路
+// 先排序，再从左往右遍历，如果nums[j]-nums[i]>k，那么j之后的也不用再尝试了，直接break；如果nums[j]-nums[i]==k，那么个数加一，j之后的也不用尝试，break；如果num[i]在之前已经使用过，那么直接continue跳过，避免重复计算！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void* a, const void* b)
 {
     return *(int *)a - *(int *)b;
@@ -32,4 +32,4 @@ int findPairs(int* nums, int numsSize, int k){
     }
     return cnt;
 }
-```
+// ```

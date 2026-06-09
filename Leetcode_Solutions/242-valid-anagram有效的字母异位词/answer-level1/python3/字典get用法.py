@@ -1,9 +1,9 @@
-### 解题思路
-emmm好占内存，好慢啊
+# ### 解题思路
+# emmm好占内存，好慢啊
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isAnagram(self, s, t):
         """
@@ -25,4 +25,4 @@ class Solution(object):
                 return False
         return True
         
-```
+# ```

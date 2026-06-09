@@ -1,9 +1,9 @@
-### 解题思路
-递归
+# ### 解题思路
+# 递归
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sumNums(self, n):
         """
@@ -14,4 +14,4 @@ class Solution(object):
             return n and sumN(n-1)+n
         return sumN(n)
 
-```
+# ```

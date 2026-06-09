@@ -1,7 +1,7 @@
-设一stack用于插入顺序，一map用于排序
+// 设一stack用于插入顺序，一map用于排序
 
-代码：
-```
+// 代码：
+// ```
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -36,4 +36,4 @@ public:
     }
 };
 
-```
+// ```

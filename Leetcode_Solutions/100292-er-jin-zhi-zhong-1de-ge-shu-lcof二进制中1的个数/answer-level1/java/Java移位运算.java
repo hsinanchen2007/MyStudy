@@ -1,6 +1,6 @@
-不借助库方法。
-Java库方法有Integer.bitCount(n)，后附源码，可参考。
-```java
+// 不借助库方法。
+// Java库方法有Integer.bitCount(n)，后附源码，可参考。
+// ```java
 public class Solution {
     public int hammingWeight(int n) {
 		int count = 0;
@@ -12,10 +12,10 @@ public class Solution {
 		return count;
     }
 }
-```
+// ```
 
-Java库方法
-```java
+// Java库方法
+// ```java
 public static int bitCount(int i) {
     // HD, Figure 5-2
     i = i - ((i >>> 1) & 0x55555555);
@@ -25,4 +25,4 @@ public static int bitCount(int i) {
     i = i + (i >>> 16);
     return i & 0x3f;
 }
-```
+// ```

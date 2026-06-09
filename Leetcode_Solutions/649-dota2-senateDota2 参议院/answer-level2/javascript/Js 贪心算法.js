@@ -1,7 +1,7 @@
-### 解题思路
-## 贪心算法
-当轮到参议员使用权力（前提是他拥有投票权）的时候，先不使用权利，而是把权利 “存储” 起来，Power++，用于下一次出现对方参议员的时候，禁止对方参议院的权利。
-```
+// ### 解题思路
+// ## 贪心算法
+// 当轮到参议员使用权力（前提是他拥有投票权）的时候，先不使用权利，而是把权利 “存储” 起来，Power++，用于下一次出现对方参议员的时候，禁止对方参议院的权利。
+// ```
 if senate[i] =="R"{
 	if(DPower > 0){
         senate[i] == "X";
@@ -11,11 +11,11 @@ if senate[i] =="R"{
         RPower++;;
     }
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} senate
  * @return {string}
@@ -61,4 +61,4 @@ var predictPartyVictory = function(senate) {
     }
     return RUnit > 0 ? "Radiant" : "Dire";
 };
-```
+// ```

@@ -1,8 +1,8 @@
-愚蠢！！
+// 愚蠢！！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> sequentialDigits(int low, int high) {
         List<Integer> result = new ArrayList<>();
@@ -87,4 +87,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-#### 理解题目
+# #### 理解题目
 
-```
+# ```
 # 反转一个单链表。 
 # 
 #  示例: 
@@ -19,15 +19,15 @@
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
-```
-理解：将链表的值反转
-#### 解题思路
-* 法一：递归
-* 法二：循环
+# ```
+# 理解：将链表的值反转
+# #### 解题思路
+# * 法一：递归
+# * 法二：循环
 
-#### 法1
+# #### 法1
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -51,13 +51,13 @@ class Solution(object):
         return root 
         
 
-```
-##### 复杂度分析
-* 时间复杂度：O(n)
-* 空间复杂度:O(n)
-#### 法2
+# ```
+# ##### 复杂度分析
+# * 时间复杂度：O(n)
+# * 空间复杂度:O(n)
+# #### 法2
 
-```Python
+# ```Python
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         # 循环
@@ -68,7 +68,7 @@ class Solution:
             pre = cur
             cur = next_node
         return pre
-```
-##### 复杂度分析
-* 时间复杂度：O(N)
-* 空间复杂度：O(1)
+# ```
+# ##### 复杂度分析
+# * 时间复杂度：O(N)
+# * 空间复杂度：O(1)

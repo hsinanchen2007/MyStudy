@@ -1,5 +1,5 @@
     
-```
+// ```
 //利用栈的特性  
     public ListNode reverseList(ListNode head) {
         Stack<Integer> stack = new Stack<>();
@@ -21,4 +21,4 @@
         }
         return newList.next;
     }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-* 使用一下JDK8的新接口存储
-* 使用Collection.min快速反馈key数值
+// ### 解题思路
+// * 使用一下JDK8的新接口存储
+// * 使用Collection.min快速反馈key数值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] findRestaurant(String[] list1, String[] list2) {
         assert list1.length >=1 && list2.length>=1;
@@ -30,4 +30,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

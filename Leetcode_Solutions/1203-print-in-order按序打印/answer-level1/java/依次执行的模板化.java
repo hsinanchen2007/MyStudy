@@ -1,11 +1,11 @@
-### 解题思路
-一组有顺序依赖关系的runnable（函数），只要判断是否轮到自己就行了。
+// ### 解题思路
+// 一组有顺序依赖关系的runnable（函数），只要判断是否轮到自己就行了。
 
-这里写了一个template，可以应用到任意个不同task的runnable，只要他们是前后顺序紧挨的。
+// 这里写了一个template，可以应用到任意个不同task的runnable，只要他们是前后顺序紧挨的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Foo {
 
     private Object lock = new Object();
@@ -44,4 +44,4 @@ class Foo {
         this.procTemplate(printThird, 2);
     }
 }
-```
+// ```

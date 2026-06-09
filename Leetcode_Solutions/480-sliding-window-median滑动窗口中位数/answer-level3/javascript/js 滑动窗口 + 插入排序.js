@@ -1,18 +1,18 @@
-![image.png](https://pic.leetcode-cn.com/b6f83e33316c6df887a90bb34209b79f410aed592017e4f90d65d8a2dec8a4bb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b6f83e33316c6df887a90bb34209b79f410aed592017e4f90d65d8a2dec8a4bb-image.png)
 
-### 解题思路
-思路：
-1. 维护一个滑动窗口
-2. 移动窗口的时候，先删除应该删除的那个元素，再把新元素插入排序到 window 中
-3. 计算中位数，放到结果数组中，注意奇偶数的计算方法的区别
-  - [1] Math.floor(len / 2)
-  - [1,2] Math.floor(len / 2) - 1 + Math.floor(len / 2) => 平均数;
-  - [1,2,3] Math.floor(len / 2)
-  - [1,2,3,4] Math.floor(len / 2) - 1 + Math.floor(len / 2) => 平均数
+// ### 解题思路
+// 思路：
+// 1. 维护一个滑动窗口
+// 2. 移动窗口的时候，先删除应该删除的那个元素，再把新元素插入排序到 window 中
+// 3. 计算中位数，放到结果数组中，注意奇偶数的计算方法的区别
+//   - [1] Math.floor(len / 2)
+//   - [1,2] Math.floor(len / 2) - 1 + Math.floor(len / 2) => 平均数;
+//   - [1,2,3] Math.floor(len / 2)
+//   - [1,2,3,4] Math.floor(len / 2) - 1 + Math.floor(len / 2) => 平均数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -54,4 +54,4 @@ var medianSlidingWindow = function(nums, k) {
 
 
 
-```
+// ```

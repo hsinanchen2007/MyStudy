@@ -1,10 +1,10 @@
-尝试写的第一个桶排序代码：
-**STEP1**:生成一个长度为101的数组bucket，因为给的数的范围是0到100.
-**STEP2**:让bucket中所有元素归零
-**STEP3**：遍历给定的数组nums，nums[i]=j,就把bucket[j]++。相当于bucket是记录nums中每个数出现的次数。
-**STEP4**：数数，小于nums[i]的数的个数就是bucket[nums[i]]前面所有元素的和
-时间复杂度为O(N)
-```
+// 尝试写的第一个桶排序代码：
+// **STEP1**:生成一个长度为101的数组bucket，因为给的数的范围是0到100.
+// **STEP2**:让bucket中所有元素归零
+// **STEP3**：遍历给定的数组nums，nums[i]=j,就把bucket[j]++。相当于bucket是记录nums中每个数出现的次数。
+// **STEP4**：数数，小于nums[i]的数的个数就是bucket[nums[i]]前面所有元素的和
+// 时间复杂度为O(N)
+// ```
 //用桶排序写写
 int* smallerNumbersThanCurrent(int* nums, int numsSize, int* returnSize){
 int bucket[101];
@@ -34,6 +34,6 @@ for(i=0;i<numsSize;i++)
 }
 return ans;
 }
-```
+// ```
 
  

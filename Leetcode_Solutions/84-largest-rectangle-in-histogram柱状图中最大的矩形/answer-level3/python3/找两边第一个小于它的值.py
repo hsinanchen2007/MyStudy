@@ -1,16 +1,16 @@
-## 思路：
+# ## 思路：
 
-首先，要想找到第 `i` 位置最大面积是什么？
+# 首先，要想找到第 `i` 位置最大面积是什么？
 
-是以`i` 为中心，向左找第一个小于 `heights[i]` 的位置 `left_i`；向右找第一个小于于 `heights[i]` 的位置 `right_i`，即最大面积为 `heights[i] * (right_i - left_i -1)`，如下图所示：
+# 是以`i` 为中心，向左找第一个小于 `heights[i]` 的位置 `left_i`；向右找第一个小于于 `heights[i]` 的位置 `right_i`，即最大面积为 `heights[i] * (right_i - left_i -1)`，如下图所示：
 
 
-![1559826097853.png](https://pic.leetcode-cn.com/441ac778821dc26689b31466bced9f61ec241f092bf7e4f0f8699ef4fa3be1b2-1559826097853.png)
-所以，我们的问题就变成如何找 `right_i` 和 `left_i`？
+# ![1559826097853.png](https://pic.leetcode-cn.com/441ac778821dc26689b31466bced9f61ec241f092bf7e4f0f8699ef4fa3be1b2-1559826097853.png)
+# 所以，我们的问题就变成如何找 `right_i` 和 `left_i`？
 
-最简单的思路就是，就是暴力法，直接分别在 `i` 左右移动。
+# 最简单的思路就是，就是暴力法，直接分别在 `i` 左右移动。
 
-```Python []
+# ```Python []
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         res = 0
@@ -24,27 +24,27 @@ class Solution:
                 right_i += 1
             res = max(res, (right_i - left_i - 1) * heights[i])
         return res
-```
+# ```
 
-但是，这是一个时间复杂度为 $O(n^2)$，超时。
+# 但是，这是一个时间复杂度为 $O(n^2)$，超时。
 
-接下来想办法优化。
+# 接下来想办法优化。
 
-### 思路一：
+# ### 思路一：
 
-当我们找 `i` 左边第一个小于 `heights[i]` 如果 `heights[i-1] >= heights[i]` 其实就是和 `heights[i-1]` 左边第一个小于 `heights[i-1]` 一样。依次类推，右边同理。
+# 当我们找 `i` 左边第一个小于 `heights[i]` 如果 `heights[i-1] >= heights[i]` 其实就是和 `heights[i-1]` 左边第一个小于 `heights[i-1]` 一样。依次类推，右边同理。
 
-### 思路二：栈
+# ### 思路二：栈
 
-利用单调栈
+# 利用单调栈
 
-维护一个单调递增的栈，就可以找到 `left_i` 和 `right_i`。
+# 维护一个单调递增的栈，就可以找到 `left_i` 和 `right_i`。
 
-## 代码：
+# ## 代码：
 
-### 思路一：
+# ### 思路一：
 
-```Python [1]
+# ```Python [1]
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         if not heights:
@@ -70,11 +70,11 @@ class Solution:
         for i in range(n):
             res = max(res, (right_i[i] - left_i[i] - 1) * heights[i])
         return res
-```
+# ```
 
 
 
-```Java [1]
+# ```Java [1]
 class Solution {
     public int largestRectangleArea(int[] heights) {
         if (heights == null || heights.length == 0) return 0;
@@ -98,11 +98,11 @@ class Solution {
         return res;  
     }
 }
-```
+# ```
 
-### 思路二：
+# ### 思路二：
 
-```Python [2]
+# ```Python [2]
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         stack = []
@@ -115,11 +115,11 @@ class Solution:
                 res = max(res, (i - stack[-1] - 1) * heights[tmp])
             stack.append(i)
         return res
-```
+# ```
 
 
 
-```Java [2]
+# ```Java [2]
 class Solution {
     public int largestRectangleArea(int[] heights) {
         int res = 0;
@@ -138,6 +138,6 @@ class Solution {
         return res;  
     }
 }
-```
+# ```
 
 

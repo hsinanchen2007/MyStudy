@@ -1,7 +1,7 @@
 
-双指针遍历
+// 双指针遍历
 
-```swift []
+// ```swift []
 class Solution {
    func sortArrayByParityII(_ A: [Int]) -> [Int] {
         guard A.count >= 2 else {
@@ -32,5 +32,5 @@ class Solution {
         return newArray
     }
 }
-```
+// ```
 

@@ -1,19 +1,19 @@
-### 方法一: 利用 Python list remove() (24ms, 击败99%)
+# ### 方法一: 利用 Python list remove() (24ms, 击败99%)
 
-#### 代码
+# #### 代码
 
-```python
+# ```python
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         while val in nums:
             nums.remove(val)
         return len(nums)
-```
+# ```
 
-### 方法二: 把不等于 val 的值不断前移 (48ms, 击败22%)
-#### 代码
+# ### 方法二: 把不等于 val 的值不断前移 (48ms, 击败22%)
+# #### 代码
 
-```python
+# ```python
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         i = 0
@@ -22,4 +22,4 @@ class Solution:
                 nums[i] = nums[j]
                 i += 1
         return i
-```
+# ```

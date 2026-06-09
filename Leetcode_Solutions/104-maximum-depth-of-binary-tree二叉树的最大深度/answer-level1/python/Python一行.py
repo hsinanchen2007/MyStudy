@@ -1,6 +1,6 @@
-1. 空树返回0
-2. 非空树返回左右子树最大深度值+1
-```python []
+# 1. 空树返回0
+# 2. 非空树返回左右子树最大深度值+1
+# ```python []
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -16,4 +16,4 @@ class Solution(object):
         """
         return 0 if not root else max(self.maxDepth(root.left) ,self.maxDepth(root.right))+1
 
-```
+# ```

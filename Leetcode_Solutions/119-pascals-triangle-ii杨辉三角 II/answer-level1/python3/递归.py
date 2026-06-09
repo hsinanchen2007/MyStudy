@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         return self.yanghui(rowIndex)
@@ -13,4 +13,4 @@ class Solution:
         else:
             return self.yanghui(c-1,[1] + [pre[x-1] + pre[x] for x in range(1,len(pre))] +[1])
             
-```
+# ```

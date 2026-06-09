@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -22,4 +22,4 @@ var sumNumbers = function(root, number=0) {
         return sumNumbers(root.left, number) + sumNumbers(root.right, number);
     }
 };
-```
+// ```

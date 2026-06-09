@@ -1,14 +1,14 @@
-## 思路:
+# ## 思路:
 
-这道题是[320. 列举单词的全部缩写](https://leetcode-cn.com/problems/generalized-abbreviation/) |[题解链接](https://leetcode-cn.com/problems/generalized-abbreviation/solution/hui-su-wei-yun-suan-by-powcai/) 和 [408. 有效单词缩写 ](https://leetcode-cn.com/problems/valid-word-abbreviation/) | [题解链接](https://leetcode-cn.com/problems/valid-word-abbreviation/solution/shuang-zhi-zhen-by-powcai-5/) 的结合题
+# 这道题是[320. 列举单词的全部缩写](https://leetcode-cn.com/problems/generalized-abbreviation/) |[题解链接](https://leetcode-cn.com/problems/generalized-abbreviation/solution/hui-su-wei-yun-suan-by-powcai/) 和 [408. 有效单词缩写 ](https://leetcode-cn.com/problems/valid-word-abbreviation/) | [题解链接](https://leetcode-cn.com/problems/valid-word-abbreviation/solution/shuang-zhi-zhen-by-powcai-5/) 的结合题
 
-我们先把所有缩写单词找到，按长度排序（从小到大），判断和 `distionary` 是否有一样的
+# 我们先把所有缩写单词找到，按长度排序（从小到大），判断和 `distionary` 是否有一样的
 
-直接看代码，有点优化！
+# 直接看代码，有点优化！
 
-## 代码:
+# ## 代码:
 
-```python
+# ```python
 class Solution:
     def minAbbreviation(self, target: str, dictionary: List[str]) -> str:
         import re
@@ -64,5 +64,5 @@ class Solution:
         for abbr in res:
             if not any(vaild(abbr, word) for word in filter_dictionary):
                 return abbr
-```
+# ```
 

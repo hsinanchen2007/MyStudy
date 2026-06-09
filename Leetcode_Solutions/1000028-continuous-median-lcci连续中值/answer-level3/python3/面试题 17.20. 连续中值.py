@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-双堆法
+# 双堆法
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class MedianFinder:
     
     def __init__(self):
@@ -18,4 +18,4 @@ class MedianFinder:
         
     def findMedian(self) -> float:
         return len(self.s) == len(self.l) and (self.l[0] - self.s[0]) / 2 or -self.s[0]
-```
+# ```

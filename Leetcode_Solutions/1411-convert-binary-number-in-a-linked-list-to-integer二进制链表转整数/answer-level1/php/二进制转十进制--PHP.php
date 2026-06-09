@@ -1,9 +1,9 @@
-### 解题思路
-二进制转十进制
+// ### 解题思路
+// 二进制转十进制
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -29,4 +29,4 @@ class Solution {
         return $res;
     }
 }
-```
+// ```

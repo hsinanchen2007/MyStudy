@@ -1,9 +1,9 @@
-### 解题思路
-非常感谢@labuladong在[46题全排列中对于回溯方法的详解](https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-xiang-jie-by-labuladong-2/)，这道题就是就是在回溯方法的基础之上加入了重复条件的判断，所以加入了一个visted数组，同时为了方便找到重复的字符，在进行寻找之前将数组进行排序，这样利用s[i]与s[i-1]就可以很好的判断重复条件。其他过程与常规回溯算法模型一致。
+// ### 解题思路
+// 非常感谢@labuladong在[46题全排列中对于回溯方法的详解](https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-xiang-jie-by-labuladong-2/)，这道题就是就是在回溯方法的基础之上加入了重复条件的判断，所以加入了一个visted数组，同时为了方便找到重复的字符，在进行寻找之前将数组进行排序，这样利用s[i]与s[i-1]就可以很好的判断重复条件。其他过程与常规回溯算法模型一致。
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     // 1. 创建两个用来保存结果和中间选择过程的值。创建一个viseted数组来进行判断是否已经访问过
     var paths: [String] = []
@@ -52,4 +52,4 @@ class Solution {
         }
     }
 }
-```
+// ```

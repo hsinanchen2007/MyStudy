@@ -1,9 +1,9 @@
-### 解题思路
-双指针法
+// ### 解题思路
+// 双指针法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int judge(char t){
     if(t=='a'||t=='e'||t=='i'||t=='o'||t=='u')return 1;
      if(t=='A'||t=='E'||t=='I'||t=='O'||t=='U')return 1;
@@ -26,4 +26,4 @@ char * reverseVowels(char * s){
  }
 return s;
 }
-```
+// ```

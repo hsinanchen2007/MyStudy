@@ -1,12 +1,12 @@
-### 解题思路
-1.迭代
+// ### 解题思路
+// 1.迭代
 
-时间复杂度：O(n)
-空间复杂度：O(1)
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 
 var reverseList = function(head) {
     let [prev, curr] = [null, head];    //解构赋值，建立两个迭代指针
@@ -18,17 +18,17 @@ var reverseList = function(head) {
     }
     return prev;
 };
-```
+// ```
 
-### 解题思路
-2.递归
+// ### 解题思路
+// 2.递归
 
-时间复杂度：O(n)
-空间复杂度：O(n)
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 
 var reverseList = function(head) {
    if(head==null || head.next==null){
@@ -40,4 +40,4 @@ var reverseList = function(head) {
     NEXT.next = head;
     return reversed;
 };
-```
+// ```

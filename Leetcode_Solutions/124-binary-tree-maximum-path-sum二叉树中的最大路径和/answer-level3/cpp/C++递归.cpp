@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int maxPathSum(TreeNode* root) {
@@ -20,4 +20,4 @@ public:
         return max(0,max(left,right)) + root->val;
     }
 };
-```
+// ```

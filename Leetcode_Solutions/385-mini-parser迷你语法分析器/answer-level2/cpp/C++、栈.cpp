@@ -1,8 +1,8 @@
-执行用时 : 28 ms, 在Mini Parser的C++提交中击败了85.71% 的用户
-内存消耗 : 15.5 MB, 在Mini Parser的C++提交中击败了77.50% 的用户
-利用栈做的，思路写在注释里了
+// 执行用时 : 28 ms, 在Mini Parser的C++提交中击败了85.71% 的用户
+// 内存消耗 : 15.5 MB, 在Mini Parser的C++提交中击败了77.50% 的用户
+// 利用栈做的，思路写在注释里了
 
-```
+// ```
 class Solution {
 public:
     NestedInteger deserialize(string s) {
@@ -54,4 +54,4 @@ public:
         return F;
     } 
 };
-```
+// ```

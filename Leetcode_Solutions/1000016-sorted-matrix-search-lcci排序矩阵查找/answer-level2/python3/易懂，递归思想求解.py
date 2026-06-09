@@ -1,12 +1,12 @@
-### 解题思路
-用传统遍历方法难免会超时，所以就想到了递归；
-根据条件可知递归的模式在于找到target为止；
-触发递归的条件即为当target处于相邻的两个元素之间时，将matrix截断到一定范围内继续递归。
+# ### 解题思路
+# 用传统遍历方法难免会超时，所以就想到了递归；
+# 根据条件可知递归的模式在于找到target为止；
+# 触发递归的条件即为当target处于相邻的两个元素之间时，将matrix截断到一定范围内继续递归。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from typing import List
 
 
@@ -24,4 +24,4 @@ class Solution:
                         return True
                     return False
         return False
-```
+# ```

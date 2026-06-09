@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def masterMind(self, solution: str, guess: str) -> List[int]:
         perfect = 0
@@ -19,4 +19,4 @@ class Solution:
         for v in guess_dict:
             good+=min(solution_dict.get(v,0),guess_dict.get(v,0))
         return [perfect,good]
-```
+# ```

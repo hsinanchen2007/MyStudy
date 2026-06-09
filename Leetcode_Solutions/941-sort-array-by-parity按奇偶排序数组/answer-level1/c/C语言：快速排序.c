@@ -1,4 +1,4 @@
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -10,4 +10,4 @@ int* sortArrayByParity(int* A, int ASize, int* returnSize){
     qsort(A, ASize, sizeof(int), cmp);
     return A;
 }
-```
+// ```

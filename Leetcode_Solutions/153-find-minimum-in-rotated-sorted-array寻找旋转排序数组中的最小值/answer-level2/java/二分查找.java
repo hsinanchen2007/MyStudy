@@ -1,4 +1,4 @@
-特殊值点要注意
+// 特殊值点要注意
 -class Solution {
     public int findMin(int[] nums) {
         int N=nums.length;

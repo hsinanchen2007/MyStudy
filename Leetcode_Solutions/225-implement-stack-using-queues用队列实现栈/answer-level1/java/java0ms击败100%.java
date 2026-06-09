@@ -1,5 +1,5 @@
-思路，双队列构成一个“环”
-```
+// 思路，双队列构成一个“环”
+// ```
 class MyStack {
 	private Queue<Integer> queue = new LinkedList<Integer>();
     private Queue<Integer> tmp = new LinkedList<Integer>();
@@ -57,4 +57,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

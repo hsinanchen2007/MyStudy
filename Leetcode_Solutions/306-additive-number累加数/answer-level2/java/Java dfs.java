@@ -1,7 +1,7 @@
-此题和 [842. 将数组拆分成斐波那契序列](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/)，类似，但这里没有限制每个数字在 Integer.MAX_VALUE 以内，因此我们就不能用 List<Integer> 保存当前已有的数字了，而是用 List<String> 保存。
-关于两个 String 相加是否正确，我们要手动实现。
+// 此题和 [842. 将数组拆分成斐波那契序列](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/)，类似，但这里没有限制每个数字在 Integer.MAX_VALUE 以内，因此我们就不能用 List<Integer> 保存当前已有的数字了，而是用 List<String> 保存。
+// 关于两个 String 相加是否正确，我们要手动实现。
 
-```java
+// ```java
 class Solution {
     public boolean isAdditiveNumber(String num) {
         List<String> res = new ArrayList();
@@ -43,4 +43,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1.左连接算出垃圾邮件的移除率
-2.求移除率的平均值
-### 代码
+-- ### 解题思路
+-- 此处撰写解题思路
+-- 1.左连接算出垃圾邮件的移除率
+-- 2.求移除率的平均值
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select round(avg(t.avg_per),2) as average_daily_percent 
@@ -19,4 +19,4 @@ from
 
 
 
-```
+-- ```

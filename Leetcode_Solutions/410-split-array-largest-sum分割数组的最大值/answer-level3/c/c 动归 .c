@@ -1,9 +1,9 @@
-### 解题思路
-参考官方题解
+// ### 解题思路
+// 参考官方题解
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
 int dp[1001][51];
@@ -31,4 +31,4 @@ int splitArray(int* nums, int numsSize, int m){
     return dp[numsSize][m];
 }
 
-```
+// ```

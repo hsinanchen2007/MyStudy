@@ -1,9 +1,9 @@
-### 解题思路
-书上给的思路
+# ### 解题思路
+# 书上给的思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         if nums:
@@ -24,4 +24,4 @@ class Solution:
                 return False
         else:
             return False
-```
+# ```

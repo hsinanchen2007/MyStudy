@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/858ad08670768615b8d55756b7519398baf315660551751cabd2de3ab67012de-image.png)
-我的另一种方法：https://leetcode-cn.com/submissions/detail/54956504/
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/858ad08670768615b8d55756b7519398baf315660551751cabd2de3ab67012de-image.png)
+// 我的另一种方法：https://leetcode-cn.com/submissions/detail/54956504/
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -45,4 +45,4 @@ char** permutation(char* S, int* returnSize){
     *returnSize = g_res_index;
     return g_res;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```go []
+// ```go []
 func openLock(deadends []string, target string) int {
 	deadSet := make(map[string]bool) // 使用hashSet快速查找死亡数字
 	for _, s := range deadends {     // 可以快速查看每个数字是否是死亡数字
@@ -49,8 +49,8 @@ func openLock(deadends []string, target string) int {
 	}
 	return -1
 }
-```
-```java []
+// ```
+// ```java []
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.HashMap;
@@ -100,4 +100,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

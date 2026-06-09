@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def twoSum(self, n: int) -> List[float]:
         if n < 1: return []
@@ -27,4 +27,4 @@ class Solution:
         return res
 
 
-```
+# ```

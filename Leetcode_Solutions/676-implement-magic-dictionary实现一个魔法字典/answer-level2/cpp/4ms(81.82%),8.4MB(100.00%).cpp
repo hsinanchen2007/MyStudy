@@ -1,10 +1,10 @@
-### 解题思路
-1、build过程，用set容器insert函数
-2、search过程，遍历字典，字符长度不同时continue;字符完全相同时continue；再用一个bool函数判断两个字符串对应位不同的数量有多少，若只有一位不同则满足条件。
+// ### 解题思路
+// 1、build过程，用set容器insert函数
+// 2、search过程，遍历字典，字符长度不同时continue;字符完全相同时continue；再用一个bool函数判断两个字符串对应位不同的数量有多少，若只有一位不同则满足条件。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MagicDictionary {
 public:
     set<string> st;
@@ -47,4 +47,4 @@ public:
  * obj->buildDict(dict);
  * bool param_2 = obj->search(word);
  */
-```
+// ```

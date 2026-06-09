@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public int BitwiseComplement(int N) {
         int mask = N | 1;
@@ -10,4 +10,4 @@ public class Solution {
         return N ^ mask;
     }
 }
-```
+// ```

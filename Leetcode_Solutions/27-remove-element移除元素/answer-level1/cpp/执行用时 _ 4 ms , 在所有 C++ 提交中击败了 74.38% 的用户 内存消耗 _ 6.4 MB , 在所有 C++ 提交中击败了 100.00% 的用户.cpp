@@ -1,8 +1,8 @@
-将重复的数字往后排
+// 将重复的数字往后排
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -33,4 +33,4 @@ public:
         return  i;
     }
 };
-```
+// ```

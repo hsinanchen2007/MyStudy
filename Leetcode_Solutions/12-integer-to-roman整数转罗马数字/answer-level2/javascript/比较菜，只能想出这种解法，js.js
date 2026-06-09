@@ -1,6 +1,6 @@
-思路是，转成字符串然后从高到底转化成需要的字符拼起来
+// 思路是，转成字符串然后从高到底转化成需要的字符拼起来
 
-```
+// ```
 /**
  * @param {number} num
  * @return {string}
@@ -35,4 +35,4 @@ var intToRoman = function(num) {
     return  re
     
 };
-```
+// ```

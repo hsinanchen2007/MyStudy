@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 //状态机解法
 class Solution {
 public:
@@ -20,4 +20,4 @@ public:
         return max(0,s.back());
     }
 };
-```
+// ```

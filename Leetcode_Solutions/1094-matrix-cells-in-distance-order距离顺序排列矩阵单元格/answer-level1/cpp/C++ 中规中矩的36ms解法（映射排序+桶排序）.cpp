@@ -1,5 +1,5 @@
-### 方法一 映射排序
-```cpp
+// ### 方法一 映射排序
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> allCellsDistOrder(int R, int C, int r0, int c0) {
@@ -18,10 +18,10 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-### 方法二 桶排序
-```cpp
+// ### 方法二 桶排序
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> allCellsDistOrder(int R, int C, int r0, int c0) {
@@ -46,4 +46,4 @@ public:
         return ans;
     }
 };
-```
+// ```

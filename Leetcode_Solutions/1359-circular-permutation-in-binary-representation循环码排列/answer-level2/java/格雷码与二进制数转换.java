@@ -1,6 +1,6 @@
-1. 方法很土，但是很容易理解
-2. 第一次写题解，见笑了~~
-```
+// 1. 方法很土，但是很容易理解
+// 2. 第一次写题解，见笑了~~
+// ```
 class Solution{
     public static List<Integer> circularPermutation(int n, int start) {
         List<Integer> list = new ArrayList<>();
@@ -30,6 +30,6 @@ class Solution{
         return binaryCode ^ (binaryCode >> 1);
     }
 }
-```
+// ```
 
 

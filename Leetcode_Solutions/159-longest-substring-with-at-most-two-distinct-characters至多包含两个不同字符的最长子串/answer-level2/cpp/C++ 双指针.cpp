@@ -1,8 +1,8 @@
-注意特殊输入：单个字符和空串(对于max_len的初值设置)
-时间复杂度：O(n)
-空间复杂度: O(1)
+// 注意特殊输入：单个字符和空串(对于max_len的初值设置)
+// 时间复杂度：O(n)
+// 空间复杂度: O(1)
 
-```
+// ```
 class Solution {
 public:
     int lengthOfLongestSubstringTwoDistinct(string s) {
@@ -35,4 +35,4 @@ public:
         return max_len;
     }
 };
-```
+// ```

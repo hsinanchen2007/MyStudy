@@ -1,18 +1,18 @@
-### 解题思路
-由于题目不要求最短距离，并且需要返回成功路径，因此选择DFS解决。
+// ### 解题思路
+// 由于题目不要求最短距离，并且需要返回成功路径，因此选择DFS解决。
 
-建立路标数组，将走过的位置置1进行标记.
+// 建立路标数组，将走过的位置置1进行标记.
 
-对于C语言而言，返回路径信息是个难点，使用单链表解决。
+// 对于C语言而言，返回路径信息是个难点，使用单链表解决。
 
-一旦找到路径，在DFS返回时，在链表中加入当前位置节点即可。
+// 一旦找到路径，在DFS返回时，在链表中加入当前位置节点即可。
 
-![image.png](https://pic.leetcode-cn.com/9fbae6f7d2254b5dab4879a7d094e72df7e6f4e0f6cdaafe3b7260c64ddeb925-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9fbae6f7d2254b5dab4879a7d094e72df7e6f4e0f6cdaafe3b7260c64ddeb925-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct _info_st
 {
     int y;
@@ -143,4 +143,4 @@ int** pathWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obstacleG
     *returnColumnSizes = ret_col;
     return ret;
 }
-```
+// ```

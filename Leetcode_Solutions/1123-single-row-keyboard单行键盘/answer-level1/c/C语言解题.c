@@ -1,6 +1,6 @@
 
 
-```
+// ```
 int calculateTime(char * keyboard, char * word)
 {
     int i = 0, j = 0, pre = 0, cur = 0, sum = 0;
@@ -22,4 +22,4 @@ int calculateTime(char * keyboard, char * word)
     }
     return sum;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-发现小于X的节点将其放到链表头部即可。
+// ### 解题思路
+// 发现小于X的节点将其放到链表头部即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ public:
         return head;
     }
 };
-```
+// ```

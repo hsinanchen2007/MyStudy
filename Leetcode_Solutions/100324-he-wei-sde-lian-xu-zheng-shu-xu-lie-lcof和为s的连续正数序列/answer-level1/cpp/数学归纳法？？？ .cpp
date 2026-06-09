@@ -1,13 +1,13 @@
-### 解题思路
-序列必是 **[i, i+1, i+2, ..., i+k]** 公差为1的等差数列 
-所以 等差数列求和 ans = (i + (i+k))*(k+1)*0.5 
-观察各序列发现每个k所对应的i 一定小于 floor(target/2) =>  1 =< i <= target/2
-因此枚举 k>=1 所对应的首项 i∈[1, floor(target/2)]
-首项为i的序列和不等于target 说明不存在，跳过。
+// ### 解题思路
+// 序列必是 **[i, i+1, i+2, ..., i+k]** 公差为1的等差数列 
+// 所以 等差数列求和 ans = (i + (i+k))*(k+1)*0.5 
+// 观察各序列发现每个k所对应的i 一定小于 floor(target/2) =>  1 =< i <= target/2
+// 因此枚举 k>=1 所对应的首项 i∈[1, floor(target/2)]
+// 首项为i的序列和不等于target 说明不存在，跳过。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -37,4 +37,4 @@ public:
         return ser;
     }
 };
-```
+// ```

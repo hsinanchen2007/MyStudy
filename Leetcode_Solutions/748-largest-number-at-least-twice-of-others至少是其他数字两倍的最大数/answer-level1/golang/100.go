@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func dominantIndex(nums []int) int {
 	if len(nums)==0{
 		return -1
@@ -25,4 +25,4 @@ func dominantIndex(nums []int) int {
 	}
 	return index
 }
-```
+// ```

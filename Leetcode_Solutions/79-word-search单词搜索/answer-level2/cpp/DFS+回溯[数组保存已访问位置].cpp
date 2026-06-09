@@ -1,9 +1,9 @@
-解题思路：
-1、采用额外空间存储访问标志位；
-2、进行上下左右进行递归；
-3、将已修改参数进行回溯；
+// 解题思路：
+// 1、采用额外空间存储访问标志位；
+// 2、进行上下左右进行递归；
+// 3、将已修改参数进行回溯；
 
-```
+// ```
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -78,4 +78,4 @@ public:
         return false;
     }
 };
-```
+// ```

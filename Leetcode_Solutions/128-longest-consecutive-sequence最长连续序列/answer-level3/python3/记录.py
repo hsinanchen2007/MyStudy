@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         if not nums:return 0
@@ -12,4 +12,4 @@ class Solution:
                     num = num + 1
                     longest_array = max(longest_array, current_array)
         return longest_array
-```
+# ```

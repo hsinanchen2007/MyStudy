@@ -1,5 +1,5 @@
-## left用来跟踪当前递增序列的首端
-```cpp
+// ## left用来跟踪当前递增序列的首端
+// ```cpp
 class Solution {
 public:
     int findLengthOfLCIS(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         return ans;
     }
 };
-```
+// ```

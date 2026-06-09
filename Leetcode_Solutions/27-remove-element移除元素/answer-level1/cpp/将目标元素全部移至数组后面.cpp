@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-思路：
-将所有不等于val的元素放在数组前面，val放在数组后面。
-遍历整个数组，如果该元素不等于val，那么就和k指向的元素交换。最后k的值就是不等于val的元素个数。
-### 代码
+// 思路：
+// 将所有不等于val的元素放在数组前面，val放在数组后面。
+// 遍历整个数组，如果该元素不等于val，那么就和k指向的元素交换。最后k的值就是不等于val的元素个数。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -20,9 +20,9 @@ public:
         return k;
     }
 };
-```
+// ```
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -42,9 +42,9 @@ public:
         return k;
     }
 };
-```
-因为不关心新数组范围外的其他元素，故直接赋值即可。
-```cpp
+// ```
+// 因为不关心新数组范围外的其他元素，故直接赋值即可。
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -56,5 +56,5 @@ public:
         return k;
     }
 };
-```
+// ```
 

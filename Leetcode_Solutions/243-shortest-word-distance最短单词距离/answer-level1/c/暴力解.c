@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(x,y) (x < y ? x : y)
 
 int shortestDistance(char ** words, int wordsSize, char * word1, char * word2){
@@ -29,4 +29,4 @@ int shortestDistance(char ** words, int wordsSize, char * word1, char * word2){
     }
     return ans;    
 }
-```
+// ```

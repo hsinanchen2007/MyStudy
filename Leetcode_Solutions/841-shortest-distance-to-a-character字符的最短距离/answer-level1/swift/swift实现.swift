@@ -1,4 +1,4 @@
-```
+// ```
 func shortestToChar(_ S: String, _ C: Character) -> [Int] {
     var indexList:[Int] = []
     var result = [Int]()
@@ -12,4 +12,4 @@ func shortestToChar(_ S: String, _ C: Character) -> [Int] {
     }
     return result
 }
-```
+// ```

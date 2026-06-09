@@ -1,9 +1,9 @@
-### 解题思路
-按题目思路，翻译成C语言
+// ### 解题思路
+// 按题目思路，翻译成C语言
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numberOfSteps (int num){
     int steps=0;
     while(num!=0)
@@ -16,4 +16,4 @@ int numberOfSteps (int num){
     }
     return steps;
 }
-```
+// ```

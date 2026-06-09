@@ -1,11 +1,11 @@
-如果感觉有启发，欢迎点赞，让我知道题解帮助到了大家😊。
+// 如果感觉有启发，欢迎点赞，让我知道题解帮助到了大家😊。
 
-### Method1:暴力法
-对于链表A中的每个节点，都对链表B进行遍历，判断是否有相同的节点
+// ### Method1:暴力法
+// 对于链表A中的每个节点，都对链表B进行遍历，判断是否有相同的节点
 
-### code
+// ### code
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -24,12 +24,12 @@ public:
         return nullptr;
     }
 };
-```
-### Method2:使用set
-使用set存链表A中的节点，然后遍历链表B，检查set中是否有相同的节点
+// ```
+// ### Method2:使用set
+// 使用set存链表A中的节点，然后遍历链表B，检查set中是否有相同的节点
 
-### code
-```
+// ### code
+// ```
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -48,13 +48,13 @@ public:
         return nullptr;
     }
 };
-```
+// ```
 
-### Method3:双指针
-使用两个指针分别指向headA和headB，当一个指针先到达末尾时，就让它指向另一个指针的头部，如果相遇的话就是交点；否则的话两个指针都走了两个链表的长度，返回null。
+// ### Method3:双指针
+// 使用两个指针分别指向headA和headB，当一个指针先到达末尾时，就让它指向另一个指针的头部，如果相遇的话就是交点；否则的话两个指针都走了两个链表的长度，返回null。
 
-### code
-```
+// ### code
+// ```
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -73,5 +73,5 @@ public:
         return curA;
     }
 };
-```
+// ```
 

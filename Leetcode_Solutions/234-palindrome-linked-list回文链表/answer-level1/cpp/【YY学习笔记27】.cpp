@@ -1,9 +1,9 @@
-### 解题思路
-将链表的值放入数组中，然后在数组中采用双指针比较。
+// ### 解题思路
+// 将链表的值放入数组中，然后在数组中采用双指针比较。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ public:
         return true;
     }
 };
-```
+// ```

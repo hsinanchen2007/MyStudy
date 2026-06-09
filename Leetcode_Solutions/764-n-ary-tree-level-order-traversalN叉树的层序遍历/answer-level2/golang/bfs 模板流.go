@@ -1,9 +1,9 @@
-### 解题思路
-bfs模板手速题
+// ### 解题思路
+// bfs模板手速题
 
-### bfs
+// ### bfs
 
-```golang
+// ```golang
 /**
  * Definition for a Node.
  * type Node struct {
@@ -38,7 +38,7 @@ func levelOrder(root *Node) [][]int {
 	}
 	return res
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
-[对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)
+// [Go版本 Github](https://github.com/temporaries/leetcode)
+// [对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)

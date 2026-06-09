@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def largeGroupPositions(self, S: str) -> List[List[int]]:
         if len(S) < 2:
@@ -20,4 +20,4 @@ class Solution:
                 count = 0
         return res
 
-```
+# ```

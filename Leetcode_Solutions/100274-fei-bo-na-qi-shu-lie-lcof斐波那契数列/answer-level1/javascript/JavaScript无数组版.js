@@ -1,5 +1,5 @@
-### 代码
-```javascript
+// ### 代码
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -17,4 +17,4 @@ var fib = function(n) {
     }
     return tmp;
 };
-```
+// ```

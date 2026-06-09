@@ -1,5 +1,5 @@
 
-```
+-- ```
 SELECT
 	s.Score, t1.rank 
 FROM
@@ -10,4 +10,4 @@ FROM
 		( SELECT Score FROM Scores GROUP BY Score ORDER BY Score DESC ) r,( SELECT @rank := 0 ) t 
 	) t1 ON s.Score = t1.Score 
 ORDER BY	Score DESC;
-```
+-- ```

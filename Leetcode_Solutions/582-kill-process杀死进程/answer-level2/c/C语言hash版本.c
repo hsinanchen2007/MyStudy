@@ -1,4 +1,4 @@
-```
+// ```
 #include <uthash.h>
 #include <stdlib.h>
 #include <string.h>
@@ -128,4 +128,4 @@ int* killProcess(int* pid, int pidSize, int* ppid, int ppidSize, int kill, int* 
     return result;
 }
 
-```
+// ```

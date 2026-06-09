@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int compareVersion(char * version1, char * version2){
     int i=0,j=0,a,b;
     while(i<strlen(version1)||j<strlen(version2)){
@@ -22,4 +22,4 @@ int compareVersion(char * version1, char * version2){
     }
     return 0;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-先上代码
-```
+// 先上代码
+// ```
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         // 其中一个能深搜到另一个（直接祖先）
@@ -28,9 +28,9 @@ class Solution {
         return DFS(root.left, target) || DFS(root.right, target);
     }
 }
-```
-思路很简单：
-层序遍历这棵二叉树；
-在每一次循环取出队首结点时，从这个node出发，看看是否能同时搜到p和q；
-如果能，说明这个node是公共祖先；
-在遍历过程中记录深度，保留深度最深的公共祖先，即为最近公共祖先。
+// ```
+// 思路很简单：
+// 层序遍历这棵二叉树；
+// 在每一次循环取出队首结点时，从这个node出发，看看是否能同时搜到p和q；
+// 如果能，说明这个node是公共祖先；
+// 在遍历过程中记录深度，保留深度最深的公共祖先，即为最近公共祖先。

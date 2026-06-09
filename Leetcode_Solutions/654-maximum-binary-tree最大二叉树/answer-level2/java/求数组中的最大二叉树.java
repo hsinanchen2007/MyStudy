@@ -1,11 +1,11 @@
-### 解题思路
-首先找出数组中最大值所在的索引值max_i，然后构建根节点root。
-在[0, max_i]范围内递归构建左子树。
-在[max_i+1, length]范围内递归构建右子树。
-最后返回根节点root.
-### 代码
+// ### 解题思路
+// 首先找出数组中最大值所在的索引值max_i，然后构建根节点root。
+// 在[0, max_i]范围内递归构建左子树。
+// 在[max_i+1, length]范围内递归构建右子树。
+// 最后返回根节点root.
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         return max_i;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24654_MaximumBinaryTree.java)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24654_MaximumBinaryTree.java)，持续更新。***
 
-本题采用递归法，每一次递归的根节点为当前数组中的最大值，然后递归构建其左子树，数组范围为[start,maxIndex-1]，递归构建右子树，数组范围为[maxIndex+1,end]，这里的递归索引均取闭区间，方便计算。
+// 本题采用递归法，每一次递归的根节点为当前数组中的最大值，然后递归构建其左子树，数组范围为[start,maxIndex-1]，递归构建右子树，数组范围为[maxIndex+1,end]，这里的递归索引均取闭区间，方便计算。
 
-```
+// ```
  public TreeNode constructMaximumBinaryTree(int[] nums) {
     if (nums.length == 0) return null;
         return helper(nums, 0, nums.length - 1);
@@ -30,4 +30,4 @@ private int getMax(int[] nums, int lo, int hi) {
     }
     return maxIndex;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用递归，需要找到规律，每次其实对比了两根树的根节点之后，然后再将左树的右子树和右树的左子树进行递归对比，并且右树的右子树和左树的左子树进行递归对比。
+// ### 解题思路
+// 使用递归，需要找到规律，每次其实对比了两根树的根节点之后，然后再将左树的右子树和右树的左子树进行递归对比，并且右树的右子树和左树的左子树进行递归对比。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ public:
         return do_isSymmetric(leftRoot->left, rightRoot->right) && do_isSymmetric(rightRoot->left, leftRoot->right);
     }
 };
-```
+// ```

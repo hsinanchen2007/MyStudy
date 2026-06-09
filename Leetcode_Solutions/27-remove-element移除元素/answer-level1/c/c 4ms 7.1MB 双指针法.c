@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *双指针法:
@@ -26,4 +26,4 @@ int removeElement( int * nums , int numsSize , int val ){
     return index;
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-将数组分为前n-1个和后n-1个
+# ### 解题思路
+# 将数组分为前n-1个和后n-1个
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rob(self, nums):
         if not nums:return 0
@@ -22,4 +22,4 @@ class Solution(object):
         for i in range(3,len(nums)):
             dp[i-1] = max(dp[i-2],dp[i-3]+nums[i])
         return max(cur_max,max(dp))
-```
+# ```

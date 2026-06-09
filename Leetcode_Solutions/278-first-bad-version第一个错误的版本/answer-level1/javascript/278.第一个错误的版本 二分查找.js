@@ -1,5 +1,5 @@
 
-```javascript
+// ```javascript
 /**
  * Definition for isBadVersion()
  * 
@@ -34,4 +34,4 @@ var solution = function(isBadVersion) {
         return n+1
     };
 };
-```
+// ```

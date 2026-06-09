@@ -1,8 +1,8 @@
-注意三点
-- 标记该元素已使用
-- 上下左右不能超边界
-- 没找到最终值的时候恢复上一个节点的值
-```javascript
+// 注意三点
+// - 标记该元素已使用
+// - 上下左右不能超边界
+// - 没找到最终值的时候恢复上一个节点的值
+// ```javascript
 var exist = function (board, word) {
   //越界处理
   board[-1] = []; // 这里处理比较比较巧妙，利用了js的特性
@@ -28,4 +28,4 @@ const dfs = function(word,board,y, x, i){
     // 回溯
     board[y][x] = tmp
   }
-```
+// ```

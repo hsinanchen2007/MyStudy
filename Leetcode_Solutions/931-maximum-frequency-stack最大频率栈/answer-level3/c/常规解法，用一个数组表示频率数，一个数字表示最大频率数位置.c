@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int* top;
     int* button;
@@ -108,4 +108,4 @@ void freqStackFree(FreqStack* obj) {
  
  * freqStackFree(obj);
 */
-```
+// ```

@@ -1,6 +1,6 @@
-没使用任何高级Api,纯手动处理各种情况,请各位多提意见,因为leetcode用全局变量容易出Bug,特别多传了个参数.
+// 没使用任何高级Api,纯手动处理各种情况,请各位多提意见,因为leetcode用全局变量容易出Bug,特别多传了个参数.
 
-```javascript []
+// ```javascript []
 /**
  * @requires 实现 pow(x, n) ，即计算 x 的 n 次幂函数。
  * @param {number} x
@@ -82,4 +82,4 @@ function powLog2NComp(x, n, cache) {
   //二分法递归求值, 使用尾递归降低空间复杂度
   return subResult * subResult;
 }
-```
+// ```

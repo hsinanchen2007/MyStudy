@@ -1,9 +1,9 @@
-### 解题思路
-这道题理应考虑到k > 节点数量的情况。
+# ### 解题思路
+# 这道题理应考虑到k > 节点数量的情况。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution(object):
             p = p.next
             q = q.next
         return p
-```
+# ```

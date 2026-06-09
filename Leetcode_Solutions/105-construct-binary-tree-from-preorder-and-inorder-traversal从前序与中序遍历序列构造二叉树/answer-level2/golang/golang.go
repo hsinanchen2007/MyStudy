@@ -1,4 +1,4 @@
-```
+// ```
 /**
     根据前序得到根节点，然后把中序分成两份，根据中序的左右两份的距离，回过头来再确定前序的距离
     为了O(1)得到前序的treenode在中序的位置，把中序放到map中
@@ -27,4 +27,4 @@ func process(inorder map[int]int, ii, ij int, preorder []int, pi, pj int) *TreeN
     return root
 }
 
-```
+// ```

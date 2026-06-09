@@ -1,9 +1,9 @@
-### 解题思路
-比较基础的DFS。
+# ### 解题思路
+# 比较基础的DFS。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         seen = set()
@@ -22,4 +22,4 @@ class Solution:
         return self.res
                 
                 
-```
+# ```

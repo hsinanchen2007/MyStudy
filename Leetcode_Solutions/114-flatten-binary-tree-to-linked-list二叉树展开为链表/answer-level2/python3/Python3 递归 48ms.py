@@ -1,6 +1,6 @@
-思路：把左右子树变成单链表的形式，然后把左子树插入右子树。
+# 思路：把左右子树变成单链表的形式，然后把左子树插入右子树。
 
-```python3 []
+# ```python3 []
 class Solution:
     def flatten(self, root: TreeNode) -> None:
         """
@@ -22,4 +22,4 @@ class Solution:
                     p = p.right
                 p.right = temp
                 return
-```
+# ```

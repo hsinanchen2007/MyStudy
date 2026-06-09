@@ -1,5 +1,5 @@
-直接反向记录，遍历再替换：
-```
+// 直接反向记录，遍历再替换：
+// ```
 class Solution {
 public:
     bool isword(char a){
@@ -18,9 +18,9 @@ public:
         return S;
     }
 };
-```
-双指针：
-```
+// ```
+// 双指针：
+// ```
 class Solution {
 public:
     bool isword(char a){
@@ -42,7 +42,7 @@ public:
         return S;
     }
 };
-```
+// ```
 
 
 

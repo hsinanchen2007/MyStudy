@@ -1,9 +1,9 @@
-### 解题思路
-建map，遍历求差，依据差值是否大于零分类讨论。不建议用这个方法，还是二分法更普适一些。
+# ### 解题思路
+# 建map，遍历求差，依据差值是否大于零分类讨论。不建议用这个方法，还是二分法更普适一些。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
         strs = 'abcdefghijklmnopqrstuvwxyz'
@@ -22,4 +22,4 @@ class Solution:
         else:
             return strs[dic[target] + min_neg]
 
-```
+# ```

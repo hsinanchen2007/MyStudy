@@ -1,5 +1,5 @@
-快慢指针相遇则有环
-```
+// 快慢指针相遇则有环
+// ```
 func hasCycle(head *ListNode) bool {
     // 只有两个及以上节点才能出现环
     if head == nil || head.Next == nil {
@@ -31,4 +31,4 @@ func hasCycle(head *ListNode) bool {
 
     return false
 }
-```
+// ```

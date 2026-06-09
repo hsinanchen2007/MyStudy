@@ -1,5 +1,5 @@
-执行用时:76 ms，内存消耗:37.2 MB
-```
+// 执行用时:76 ms，内存消耗:37.2 MB
+// ```
 /**
  * @param {number[]} nums
  * @return {number}
@@ -15,4 +15,4 @@ var singleNumber = function(nums) {
   // 返回set唯一的值
   return [...set][0]
 };
-```
+// ```

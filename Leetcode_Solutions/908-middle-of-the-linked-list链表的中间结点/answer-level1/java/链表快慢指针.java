@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针，快的2步，慢的一步 当快的到终点时，慢的恰好在中间
+// ### 解题思路
+// 快慢指针，快的2步，慢的一步 当快的到终点时，慢的恰好在中间
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -28,4 +28,4 @@ class Solution {
 
     }
 }
-```
+// ```

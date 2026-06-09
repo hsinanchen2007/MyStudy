@@ -1,12 +1,12 @@
-![用队列实现栈.png](https://pic.leetcode-cn.com/835f89e549a10819f99a725c8f7db9d929c6bfbacfbd232496902618a3dda411-%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.png)
+// ![用队列实现栈.png](https://pic.leetcode-cn.com/835f89e549a10819f99a725c8f7db9d929c6bfbacfbd232496902618a3dda411-%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.png)
 
-### 解题思路
-要么就是`push()`时循环把队头抛出插入队尾，要么就是在`pop()`和`top()`的时候。
-不知道为什么内存消耗这么大。
+// ### 解题思路
+// 要么就是`push()`时循环把队头抛出插入队尾，要么就是在`pop()`和`top()`的时候。
+// 不知道为什么内存消耗这么大。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
 
     private Queue<Integer> queue;
@@ -47,4 +47,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

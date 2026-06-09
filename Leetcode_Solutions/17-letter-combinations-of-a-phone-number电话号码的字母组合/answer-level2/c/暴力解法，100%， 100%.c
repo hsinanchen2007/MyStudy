@@ -1,9 +1,9 @@
-### 解题思路
-还没学到大家说的dfs的部分，第一反应暴力分情况解，可能做的人少吧，执行时间0ms，100%, 100%。我还是好好去学数据结构吧。
+// ### 解题思路
+// 还没学到大家说的dfs的部分，第一反应暴力分情况解，可能做的人少吧，执行时间0ms，100%, 100%。我还是好好去学数据结构吧。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -62,4 +62,4 @@ char ** letterCombinations(char * digits, int* returnSize){
     *returnSize = size;
     return ans;
 }
-```
+// ```

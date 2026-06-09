@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int l, r, c = 0;
@@ -9,4 +9,4 @@ class Solution {
         return r - l;
     }
 }
-```
+// ```

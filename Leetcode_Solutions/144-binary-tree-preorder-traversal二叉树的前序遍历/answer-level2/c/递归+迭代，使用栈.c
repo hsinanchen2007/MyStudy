@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX 1000
 typedef struct Stack{
     struct TreeNode* stack[MAX];
@@ -51,4 +51,4 @@ void firstTr01(struct TreeNode* root, int *ar, int* returnSize)         // é€’å½
 }
 */
 
-```
+// ```

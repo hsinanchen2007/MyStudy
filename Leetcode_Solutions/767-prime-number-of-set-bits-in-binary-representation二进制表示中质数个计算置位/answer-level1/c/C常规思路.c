@@ -1,10 +1,10 @@
-### 解题思路
-![Snipaste_2020-03-10_15-36-49.png](https://pic.leetcode-cn.com/936a8f2cd90fb0eb57a0598f561c9c872c242a2e91c6ad36bcc11175edb6e0dc-Snipaste_2020-03-10_15-36-49.png)
-分别写出计算1个数和判断素数的子函数，然后一次遍历【L,R】内所有数。
+// ### 解题思路
+// ![Snipaste_2020-03-10_15-36-49.png](https://pic.leetcode-cn.com/936a8f2cd90fb0eb57a0598f561c9c872c242a2e91c6ad36bcc11175edb6e0dc-Snipaste_2020-03-10_15-36-49.png)
+// 分别写出计算1个数和判断素数的子函数，然后一次遍历【L,R】内所有数。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPrime(int n){
     if(n==2||n==3){
         return true;
@@ -80,4 +80,4 @@ int countPrimeSetBits( int L , int R ){
 
 }*/
 
-```
+// ```

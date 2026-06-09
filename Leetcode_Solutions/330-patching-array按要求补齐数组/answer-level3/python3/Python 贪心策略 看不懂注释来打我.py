@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/41fe786f3a56ae9e523ed4eabbffb1e282e3aa93dce5239d45e753e7fd16dda8-image.png)
+# ![image.png](https://pic.leetcode-cn.com/41fe786f3a56ae9e523ed4eabbffb1e282e3aa93dce5239d45e753e7fd16dda8-image.png)
 
 
-```
+# ```
 '''
 首先，可以先不看nums, 假设nums是空的，这种情况下要让覆盖的区间大于n要怎么搞？
 其实可以发现一个规律，如果[1, x)这个连续区间是已经被nums中可能的数值和覆盖的，
@@ -36,4 +36,4 @@ class Solution:
                 miss_val *= 2
                 ans += 1
         return ans
-```
+# ```

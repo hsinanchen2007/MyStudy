@@ -1,10 +1,10 @@
-### 解题思路
-双100
-先用二分法找到一个target数字出现的任意一个位置，然后两个指针一个左寻，一个右寻统计
+// ### 解题思路
+// 双100
+// 先用二分法找到一个target数字出现的任意一个位置，然后两个指针一个左寻，一个右寻统计
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int search(int[] nums, int target) {
         int len=nums.length;
@@ -45,4 +45,4 @@ class Solution {
         }
     }
 }
-```
+// ```

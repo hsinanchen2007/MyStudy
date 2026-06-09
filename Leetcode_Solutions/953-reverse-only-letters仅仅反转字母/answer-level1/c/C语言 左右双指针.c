@@ -1,12 +1,12 @@
-### 解题思路
-左右双指针
+// ### 解题思路
+// 左右双指针
 
-![image.png](https://pic.leetcode-cn.com/7004fff28e7765fd63eb67fd78620f6e8b6fdedb14573a9957dff9946278b547-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7004fff28e7765fd63eb67fd78620f6e8b6fdedb14573a9957dff9946278b547-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * reverseOnlyLetters(char * S){
 	int r, l;
 	char tmp;
@@ -29,4 +29,4 @@ char * reverseOnlyLetters(char * S){
 	}
 	return S;
 }
-```
+// ```

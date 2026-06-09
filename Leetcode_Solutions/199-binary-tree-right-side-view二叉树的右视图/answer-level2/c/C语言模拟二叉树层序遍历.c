@@ -1,10 +1,10 @@
-### 解题思路
-这题其实就是找出二叉树每一层的最右边的那个元素，那么我们就可以模拟二叉树的层序遍历。
-具体实现见代码注释
+// ### 解题思路
+// 这题其实就是找出二叉树每一层的最右边的那个元素，那么我们就可以模拟二叉树的层序遍历。
+// 具体实现见代码注释
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -49,4 +49,4 @@ int* rightSideView(struct TreeNode* root, int* returnSize){
     
     return res;
 }
-```
+// ```

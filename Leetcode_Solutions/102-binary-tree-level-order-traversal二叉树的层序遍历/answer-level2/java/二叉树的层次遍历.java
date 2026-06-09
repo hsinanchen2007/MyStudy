@@ -1,10 +1,10 @@
-### 解题思路
-1. 没啥好说的，层次遍历就是队列。
-2. 设置一个count计数，每次遍历完之后，count等于队列的长度。
+// ### 解题思路
+// 1. 没啥好说的，层次遍历就是队列。
+// 2. 设置一个count计数，每次遍历完之后，count等于队列的长度。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

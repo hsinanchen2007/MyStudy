@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def balancedStringSplit(self, s: str) -> int:
         count = 0
@@ -8,5 +8,5 @@ class Solution:
                 count += 1
                 i = j
         return count
-```
+# ```
 

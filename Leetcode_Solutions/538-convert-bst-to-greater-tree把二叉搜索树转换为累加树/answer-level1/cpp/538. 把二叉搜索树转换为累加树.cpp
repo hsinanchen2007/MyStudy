@@ -1,7 +1,7 @@
-具体分析[见此处](https://newdee.gitbook.io/leetcode/leetcode-index/538.convert_bst_to_greater_tree)
-中序遍历：
+// 具体分析[见此处](https://newdee.gitbook.io/leetcode/leetcode-index/538.convert_bst_to_greater_tree)
+// 中序遍历：
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,7 +39,7 @@ public:
         return root;
     }
 };
-```
+// ```
 
-> 执行用时 : 56 ms, 在Convert BST to Greater Tree的C++提交中击败了91.81% 的用户  
-内存消耗 : 24.2 MB, 在Convert BST to Greater Tree的C++提交中击败了79.10% 的用户
+// > 执行用时 : 56 ms, 在Convert BST to Greater Tree的C++提交中击败了91.81% 的用户  
+// 内存消耗 : 24.2 MB, 在Convert BST to Greater Tree的C++提交中击败了79.10% 的用户

@@ -1,10 +1,10 @@
-### 解题思路
-RT，O(n)。
-已知，如果要完成p.pre=p.next，因为不是双向链表，所以要加一个指针，指向前一个节点。而且pre初始为null。
+// ### 解题思路
+// RT，O(n)。
+// 已知，如果要完成p.pre=p.next，因为不是双向链表，所以要加一个指针，指向前一个节点。而且pre初始为null。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ class Solution {
         return pre;
     }
 }
-```
+// ```

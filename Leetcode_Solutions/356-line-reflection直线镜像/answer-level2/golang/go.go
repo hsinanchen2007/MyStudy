@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 
 func isReflected(points [][]int) bool {
@@ -28,4 +28,4 @@ func isReflected(points [][]int) bool {
 	}
 	return true
 }
-```
+// ```

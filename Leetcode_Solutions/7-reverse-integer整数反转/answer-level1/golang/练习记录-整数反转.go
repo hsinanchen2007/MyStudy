@@ -1,25 +1,25 @@
-### 解题思路
-这就是为什么学习算法
-func reverse(x int) int {
-    y := 0
-    for x!=0 {
-        y = y*10 + x%10
-        if !( -(1<<31) <= y && y <= (1<<31)-1) {
-            return 0
-        }
-        x /= 10
-    }
-    return y
-}
+// ### 解题思路
+// 这就是为什么学习算法
+// func reverse(x int) int {
+//     y := 0
+//     for x!=0 {
+//         y = y*10 + x%10
+//         if !( -(1<<31) <= y && y <= (1<<31)-1) {
+//             return 0
+//         }
+//         x /= 10
+//     }
+//     return y
+// }
 
-作者：elliotxx
-链接：https://leetcode-cn.com/problems/reverse-integer/solution/0ms-11-xing-dai-ma-go-shi-xian-by-elliotxx/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+// 作者：elliotxx
+// 链接：https://leetcode-cn.com/problems/reverse-integer/solution/0ms-11-xing-dai-ma-go-shi-xian-by-elliotxx/
+// 来源：力扣（LeetCode）
+// 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverse(x int) int {
     var res int
     midSlcie := make([]int,0)
@@ -60,4 +60,4 @@ func reverse(x int) int {
     }
     return res
 }
-```
+// ```

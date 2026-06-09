@@ -1,11 +1,11 @@
-### 解题思路
-1. 为了完成连通图的深拷贝，首先要想如何将这个连通图的所有节点保存起来；我这里采用了列表或字典（键是原来节点，值就是相应拷贝节点）；
-2. 将所有节点保存完成之后，关键点就是将原来的节点连接关系（即图上的边）拷贝到新的节点中；（具体见代码，即将node.neighbors补充完整）；
-本题中用字典更加方便
+# ### 解题思路
+# 1. 为了完成连通图的深拷贝，首先要想如何将这个连通图的所有节点保存起来；我这里采用了列表或字典（键是原来节点，值就是相应拷贝节点）；
+# 2. 将所有节点保存完成之后，关键点就是将原来的节点连接关系（即图上的边）拷贝到新的节点中；（具体见代码，即将node.neighbors补充完整）；
+# 本题中用字典更加方便
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -46,9 +46,9 @@ class Solution:
         
         # 返回node节点的深拷贝
         return nodelist[start]
-```
+# ```
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -83,6 +83,6 @@ class Solution:
                 newNodeList[i].neighbors.append(newNodeList[index])
         
         return newNodeList[0]
-```
+# ```
 
             

@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/3d8e591267ed8766f49ce95bfa0a162b49c261a609b03eb4ca71861e74a35972-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3d8e591267ed8766f49ce95bfa0a162b49c261a609b03eb4ca71861e74a35972-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -36,4 +36,4 @@ var searchMatrix = function(matrix, target) {
 
     return false;
 };
-```
+// ```

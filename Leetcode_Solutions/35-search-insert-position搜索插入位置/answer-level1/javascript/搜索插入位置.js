@@ -1,6 +1,6 @@
-*法一：挨个儿比对*
+// *法一：挨个儿比对*
 
-```js
+// ```js
 var searchInsert = function(nums, target) {
     var len = nums.length;
     if (len === 0) {
@@ -19,8 +19,8 @@ var searchInsert = function(nums, target) {
 var nums = [1,3,5,6];
 var target = 0;
 console.log(searchInsert(nums, target))
-```
+// ```
 
-*法二：二分查找*
+// *法二：二分查找*
 
-待添加。。。
+// 待添加。。。

@@ -1,6 +1,6 @@
-在原有的动态规划的思路上发现数组没有必要开二维，只需要逆序遍历工作即可。
+// 在原有的动态规划的思路上发现数组没有必要开二维，只需要逆序遍历工作即可。
 
-```java
+// ```java
 
 class Solution {
     public int minDifficulty(int[] jobDifficulty, int d) {
@@ -26,4 +26,4 @@ class Solution {
     }
 }
 
-```
+// ```

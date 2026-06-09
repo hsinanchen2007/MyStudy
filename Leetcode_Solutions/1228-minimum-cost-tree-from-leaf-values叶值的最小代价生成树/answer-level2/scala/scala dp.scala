@@ -1,4 +1,4 @@
-```scala []
+// ```scala []
 object Solution {
     def mctFromLeafValues(A: Array[Int]): Int = {
         
@@ -33,4 +33,4 @@ object Solution {
         dp(0)(n-1)
     }
 }
-```
+// ```

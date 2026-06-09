@@ -1,6 +1,6 @@
-用小的能量换分数，得到了分数获取大的能量。用大的能量可以换更多的分数
+// 用小的能量换分数，得到了分数获取大的能量。用大的能量可以换更多的分数
 
-```C++
+// ```C++
 class Solution {
 public:
     int bagOfTokensScore(vector<int>& tokens, int P) {
@@ -37,4 +37,4 @@ public:
         return max_score;
     }
 };
-```
+// ```

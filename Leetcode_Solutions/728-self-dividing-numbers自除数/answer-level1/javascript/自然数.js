@@ -1,4 +1,4 @@
-```
+// ```
 var selfDividingNumbers = function (left, right) {
   let result = []
   for (let i = left; i <= right; i++) {
@@ -9,4 +9,4 @@ var selfDividingNumbers = function (left, right) {
   }
   return result
 };
-```
+// ```

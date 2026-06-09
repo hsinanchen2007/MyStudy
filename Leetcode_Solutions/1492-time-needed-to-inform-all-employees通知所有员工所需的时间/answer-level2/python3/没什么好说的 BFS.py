@@ -1,9 +1,9 @@
-### 解题思路
-广度优先搜素
+# ### 解题思路
+# 广度优先搜素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import defaultdict
 class Solution:
     def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:
@@ -25,5 +25,5 @@ class Solution:
         return maxConsuming
             
 
-```
-![image.png](https://pic.leetcode-cn.com/5ad97be449671c013d8060a49e3d0dd77f4724b4d901f0d0bdbf15a3902a2813-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/5ad97be449671c013d8060a49e3d0dd77f4724b4d901f0d0bdbf15a3902a2813-image.png)

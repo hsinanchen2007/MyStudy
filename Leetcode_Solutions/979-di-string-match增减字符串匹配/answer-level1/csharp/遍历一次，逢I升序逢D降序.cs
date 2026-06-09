@@ -1,4 +1,4 @@
-```c# []
+// ```c# []
 public int[] DiStringMatch(string S) {
         var tail=S.Length;
         var head=0;
@@ -15,5 +15,5 @@ public int[] DiStringMatch(string S) {
         res[S.Length]=tail;
         return res;
     }
-```
+// ```
 

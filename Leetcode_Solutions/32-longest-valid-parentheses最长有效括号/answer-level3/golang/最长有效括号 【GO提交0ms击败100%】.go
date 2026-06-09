@@ -1,16 +1,16 @@
-## 结果
+// ## 结果
 
-![image.png](https://pic.leetcode-cn.com/18925abf48ecee68ffa5e99f91f1899b89911b90f10c32495c742e1f0090d30e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/18925abf48ecee68ffa5e99f91f1899b89911b90f10c32495c742e1f0090d30e-image.png)
 
-## 思路
+// ## 思路
 
-【Refer 官方题解】
+// 【Refer 官方题解】
 
-一次扫描，dp数组dp【i】表示以i结尾的字符串的有效子串长度，所有有效字符串必须以`)`结尾
+// 一次扫描，dp数组dp【i】表示以i结尾的字符串的有效子串长度，所有有效字符串必须以`)`结尾
 
-##
+// ##
 
-```
+// ```
 func longestValidParentheses(s string) int {
     n := len(s)
     max := 0
@@ -45,5 +45,5 @@ func longestValidParentheses(s string) int {
 }
 
 
-```
+// ```
 

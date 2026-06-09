@@ -1,8 +1,8 @@
-### 解题思路
-分析题意及示例，取每个数出现次数之间的最大公约数，且最大公约数范围大于等于2
-### 代码
+// ### 解题思路
+// 分析题意及示例，取每个数出现次数之间的最大公约数，且最大公约数范围大于等于2
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -40,4 +40,4 @@ var hasGroupsSizeX = function(deck) {
 function gcd (a, b){
     return a? gcd(b%a, a) : b;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-把最高赞的思路从头到尾看了一遍，果然菜鸟就应该紧随大佬的脚步，值得一提的是，这里在max函数上面加一行static inline,效率直接翻了一倍
+// ### 解题思路
+// 把最高赞的思路从头到尾看了一遍，果然菜鸟就应该紧随大佬的脚步，值得一提的是，这里在max函数上面加一行static inline,效率直接翻了一倍
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static inline
 int max(int a,int b){
     return a>b?a:b;
@@ -20,4 +20,4 @@ int maxProfit(int* prices, int pricesSize){
     return dp_i20;
 }
 
-```
+// ```

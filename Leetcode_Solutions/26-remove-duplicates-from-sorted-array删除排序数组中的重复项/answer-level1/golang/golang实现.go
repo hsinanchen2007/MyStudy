@@ -1,9 +1,9 @@
-### 解题思路
-刚开始想遇到重复的就把重复的删掉，即nums=append(nums[:i],nums[i+1:]...)，但是应该是这种方法有性能问题，遇到特别大的数组时会超时，（此外，由于删掉了一个数组元素，因此要记得i--）。
-第二种思路是参考top2的题解，使用双指针，也叫快慢指针，直接用后面的元素覆盖前面的，这样耗时较少
+// ### 解题思路
+// 刚开始想遇到重复的就把重复的删掉，即nums=append(nums[:i],nums[i+1:]...)，但是应该是这种方法有性能问题，遇到特别大的数组时会超时，（此外，由于删掉了一个数组元素，因此要记得i--）。
+// 第二种思路是参考top2的题解，使用双指针，也叫快慢指针，直接用后面的元素覆盖前面的，这样耗时较少
 
-### 代码
-```
+// ### 代码
+// ```
 接法一
 func removeDuplicates(nums []int) int {
 	if len(nums)<=1{
@@ -24,9 +24,9 @@ func removeDuplicates(nums []int) int {
 	return len(nums)
 }
 
-```
+// ```
 
-```golang  接法二
+// ```golang  接法二
 func removeDuplicates(nums []int) int {
 	if len(nums)<=1{
 		return len(nums)
@@ -43,5 +43,5 @@ func removeDuplicates(nums []int) int {
 	return low+1
 }
 
-```
+// ```
 

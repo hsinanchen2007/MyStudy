@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/86ebdbb31de268a1fda1653a049ccbf3f2b421d998bb1ae59a3cbee54161920b-image.png)
+# ![image.png](https://pic.leetcode-cn.com/86ebdbb31de268a1fda1653a049ccbf3f2b421d998bb1ae59a3cbee54161920b-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # 1. 排序后作为字典的key来存储
 #       可以直接将sorted()返回的字符列表转为字符串作为key
 #       也可以用join()函数连成字符串作为key
@@ -53,4 +53,4 @@ class Solution:
 
 
 
-```
+# ```

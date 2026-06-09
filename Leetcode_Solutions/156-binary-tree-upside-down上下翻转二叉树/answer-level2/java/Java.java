@@ -1,6 +1,6 @@
-可以写递归，这个最好写，而且代码还简单，不过需要注意一些细节。
+// 可以写递归，这个最好写，而且代码还简单，不过需要注意一些细节。
 
-```
+// ```
 class Solution {
     public TreeNode upsideDownBinaryTree(TreeNode root) {
         return (root ==null) ? null : DFS(null, root);
@@ -12,11 +12,11 @@ class Solution {
         return temp;
     }
 }
-```
+// ```
 
-当然如果你想， 也可以写成循环，就是比较蛋疼，当然，莽就完事儿了。
+// 当然如果你想， 也可以写成循环，就是比较蛋疼，当然，莽就完事儿了。
 
-```
+// ```
 class Solution {
     public TreeNode upsideDownBinaryTree(TreeNode root) {
         TreeNode temp_left = null;
@@ -35,4 +35,4 @@ class Solution {
         return exParent;
     }
 }
-```
+// ```

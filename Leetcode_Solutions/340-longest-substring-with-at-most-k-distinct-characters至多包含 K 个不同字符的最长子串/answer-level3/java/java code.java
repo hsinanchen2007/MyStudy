@@ -1,4 +1,4 @@
-```
+// ```
 public int lengthOfLongestSubstringKDistinct(String s, int k) {
         int res = 0;
         int[] map = new int[256];
@@ -18,4 +18,4 @@ public int lengthOfLongestSubstringKDistinct(String s, int k) {
         }
         return res;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-打卡打卡
+# ### 解题思路
+# 打卡打卡
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
             firstNode = temp
         return nextNode
             
-```
+# ```

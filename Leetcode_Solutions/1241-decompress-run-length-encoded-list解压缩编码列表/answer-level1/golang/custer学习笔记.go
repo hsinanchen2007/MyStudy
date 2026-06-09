@@ -1,4 +1,4 @@
-```go
+// ```go
 func decompressRLElist(nums []int) []int {
     var res []int
     for i := 0; i < len(nums); i += 2 {
@@ -8,4 +8,4 @@ func decompressRLElist(nums []int) []int {
     }
     return res
 }
-```
+// ```

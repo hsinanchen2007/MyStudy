@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/adf77c3a4d99e1924602958891be470553bc88e9d0057a805601c36b9c6cadf9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/adf77c3a4d99e1924602958891be470553bc88e9d0057a805601c36b9c6cadf9-image.png)
 
-直接上代码
-```
+// 直接上代码
+// ```
 public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         double result = 0;
         int cursor1 = 0;
@@ -41,4 +41,4 @@ public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         }
         return result;
     }
-```
+// ```

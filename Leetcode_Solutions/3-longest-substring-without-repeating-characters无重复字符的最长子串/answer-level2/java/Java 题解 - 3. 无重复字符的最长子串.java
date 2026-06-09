@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-思路：维持 [start, end] 直接是没有重复字符串就可以，出现重复pos+1;
+// 思路：维持 [start, end] 直接是没有重复字符串就可以，出现重复pos+1;
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int start = 0;
@@ -23,4 +23,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

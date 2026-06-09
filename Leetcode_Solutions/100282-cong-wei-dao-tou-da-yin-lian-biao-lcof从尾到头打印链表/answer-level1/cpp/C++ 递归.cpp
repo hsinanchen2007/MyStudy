@@ -1,9 +1,9 @@
-### 解题思路
-用递归写的，你也可以用栈，或者直接每次插入到头部。
+// ### 解题思路
+// 用递归写的，你也可以用栈，或者直接每次插入到头部。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

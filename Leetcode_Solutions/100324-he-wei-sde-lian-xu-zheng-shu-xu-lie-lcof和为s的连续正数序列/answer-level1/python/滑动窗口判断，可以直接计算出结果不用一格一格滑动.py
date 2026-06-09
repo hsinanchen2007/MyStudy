@@ -1,5 +1,5 @@
-滑动窗口+直接计算，注释标出了每一步的作用
-```
+# 滑动窗口+直接计算，注释标出了每一步的作用
+# ```
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         result = list()
@@ -20,5 +20,5 @@ class Solution:
         # 最后的list是由短到长的，所以要转一下
         result.reverse()
         return result
-```
+# ```
 

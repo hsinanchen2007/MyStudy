@@ -1,6 +1,6 @@
-利用公式：C(n,m)=n!/m!(n-m)!
+# 利用公式：C(n,m)=n!/m!(n-m)!
 
-```
+# ```
 class Solution:
     def fac(self, num):
         factorial = 1
@@ -18,4 +18,4 @@ class Solution:
             j = j + self.fac(m)//(self.fac(onestep) * self.fac(twostep))
             twostep += 1
         return j
-```
+# ```

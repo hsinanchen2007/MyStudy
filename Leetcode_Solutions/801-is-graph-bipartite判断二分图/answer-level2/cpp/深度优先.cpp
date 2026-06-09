@@ -1,9 +1,9 @@
-### 解题思路
-dfs
+// ### 解题思路
+// dfs
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isBipartite(vector<vector<int>>& graph) {
@@ -34,4 +34,4 @@ public:
         return true;
     }
 };
-```
+// ```

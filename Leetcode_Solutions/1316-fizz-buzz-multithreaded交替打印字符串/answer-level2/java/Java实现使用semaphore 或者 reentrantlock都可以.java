@@ -1,8 +1,8 @@
-慢慢总结出一些套路：
-1.凡是可以用semaphore解决的问题，大多都可以使用管程（也就是lock）来解决，但使用lock需要增加一个变量来标记起始条件
-2.凡是可以使用多个condition可以解决的问题，都可以使用一个condition和一个volatile变量来解决
+// 慢慢总结出一些套路：
+// 1.凡是可以用semaphore解决的问题，大多都可以使用管程（也就是lock）来解决，但使用lock需要增加一个变量来标记起始条件
+// 2.凡是可以使用多个condition可以解决的问题，都可以使用一个condition和一个volatile变量来解决
 
-下面分别给出使用semaphore和lock的实现，lock的方案使用了多个condition，这其实也是可以使用一个condition外加一个volatile变量来实现的
+// 下面分别给出使用semaphore和lock的实现，lock的方案使用了多个condition，这其实也是可以使用一个condition外加一个volatile变量来实现的
 
 class PrintFizzBuzz {
     private int n;

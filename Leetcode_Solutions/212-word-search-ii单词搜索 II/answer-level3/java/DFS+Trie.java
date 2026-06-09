@@ -1,7 +1,7 @@
-**思路: 单纯DFS超时了, 只能用字典树来剪枝, 一旦前缀不存在直接返回**
+// **思路: 单纯DFS超时了, 只能用字典树来剪枝, 一旦前缀不存在直接返回**
 
-# Trie
-```
+// # Trie
+// ```
 class Solution {
     public List<String> findWords(char[][] board, String[] words) {
         TrieNode trie = new TrieNode();
@@ -84,4 +84,4 @@ class TrieNode {
         return true;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-自带剪枝
-不用剩余括号数
-而是剩余可用括号数
+// ### 解题思路
+// 自带剪枝
+// 不用剩余括号数
+// 而是剩余可用括号数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	List<String> res = new ArrayList<String>();
     public List<String> generateParenthesis(int n) {
@@ -24,4 +24,4 @@ class Solution {
     	
     }
 }
-```
+// ```

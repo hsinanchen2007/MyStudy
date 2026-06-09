@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-举例如下：
-![image.png](https://pic.leetcode-cn.com/7c80de271eb8ca21329d2a162354e3f99c5012dec8cf81a0dff76c38a7de7f13-image.png)
+// 举例如下：
+// ![image.png](https://pic.leetcode-cn.com/7c80de271eb8ca21329d2a162354e3f99c5012dec8cf81a0dff76c38a7de7f13-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -52,4 +52,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-二分查找法
+// ### 解题思路
+// 二分查找法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func missingNumber(nums []int) int {
 	// 1.数组数量为0
 	if len(nums) == 0 {
@@ -23,4 +23,4 @@ func missingNumber(nums []int) int {
 	return left
 }
 
-```
+// ```

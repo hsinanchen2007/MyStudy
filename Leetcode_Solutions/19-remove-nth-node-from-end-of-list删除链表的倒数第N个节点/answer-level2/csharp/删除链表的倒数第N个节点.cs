@@ -1,9 +1,9 @@
-### 解题思路
-遍历一次链表并把节点存入数组中，然后计算出需要删掉节点的索引，并对头尾节点特殊处理。
+// ### 解题思路
+// 遍历一次链表并把节点存入数组中，然后计算出需要删掉节点的索引，并对头尾节点特殊处理。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -43,4 +43,4 @@ public class Solution {
             }
         }
 }
-```
+// ```

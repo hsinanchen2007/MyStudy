@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历
+// ### 解题思路
+// 中序遍历
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type BSTIterator struct {
 	values []int
 	index  int
@@ -39,4 +39,4 @@ func inorder(root *TreeNode, values *[]int) {
 	inorder(root.Right, values)
 }
 
-```
+// ```

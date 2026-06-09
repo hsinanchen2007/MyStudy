@@ -1,10 +1,10 @@
-### 解题思路
-![捕获.PNG](https://pic.leetcode-cn.com/0b8ccc57a1bdf73e1d04e42f595bd744cbb844a6d321f29d547d7d6a0c9548b8-%E6%8D%95%E8%8E%B7.PNG)
-回溯法
+// ### 解题思路
+// ![捕获.PNG](https://pic.leetcode-cn.com/0b8ccc57a1bdf73e1d04e42f595bd744cbb844a6d321f29d547d7d6a0c9548b8-%E6%8D%95%E8%8E%B7.PNG)
+// 回溯法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<String> list;
     public String[] permutation(String S) {
@@ -41,4 +41,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-暴力枚举 ，O(n^2*c), 勉强k过，精度卡的让我怀疑人生
-还可以利用以每一个数来枚举相同对， 这样最多n^2而且，题目有说大于0的不超过一千对，所以应该会更少
+// ### 解题思路
+// 暴力枚举 ，O(n^2*c), 勉强k过，精度卡的让我怀疑人生
+// 还可以利用以每一个数来枚举相同对， 这样最多n^2而且，题目有说大于0的不超过一千对，所以应该会更少
 
-### 代码
-### 方法1
-```cpp
+// ### 代码
+// ### 方法1
+// ```cpp
 class Solution {
 public:
     using ve2 = vector<vector<int>>;
@@ -69,9 +69,9 @@ public:
         return ans;
     }
 };
-```
-### 方法2
-```cpp
+// ```
+// ### 方法2
+// ```cpp
 class Solution {
 public:
     vector<string> computeSimilarities(vector<vector<int>>& docs) {
@@ -103,4 +103,4 @@ public:
         return ans;
     }
 };
-```
+// ```

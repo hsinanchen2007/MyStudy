@@ -1,16 +1,16 @@
-### 解题思路
-1. 把pushed数组按照顺序模拟入栈
-2. 当栈顶元素跟popped数组的开始元素相同时，做出栈操作。
-3. 其中定义数组模拟栈的出栈，入栈，获取栈顶元素
-4. 数组模拟栈的API操作：
-    * push: stack[stackIdx++] = arr[arrIdx++];
-    * pop: stackIdx--;
-    * peek: arr[arrIdx - 1]
-    * isEmpty: stackIdx != 0
+// ### 解题思路
+// 1. 把pushed数组按照顺序模拟入栈
+// 2. 当栈顶元素跟popped数组的开始元素相同时，做出栈操作。
+// 3. 其中定义数组模拟栈的出栈，入栈，获取栈顶元素
+// 4. 数组模拟栈的API操作：
+//     * push: stack[stackIdx++] = arr[arrIdx++];
+//     * pop: stackIdx--;
+//     * peek: arr[arrIdx - 1]
+//     * isEmpty: stackIdx != 0
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         int len = pushed.length;
@@ -29,4 +29,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

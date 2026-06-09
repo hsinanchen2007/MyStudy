@@ -1,6 +1,6 @@
-## 迭代法和递归实现
+// ## 迭代法和递归实现
 
-```
+// ```
 //迭代法（核心思想就是从第二个节点开始，将节点放到头节点）
 func reverseList(head *ListNode) *ListNode {
     var pre *ListNode //当前节点之前
@@ -37,4 +37,4 @@ func reverse(pre,curr *ListNode)*ListNode{
 func reverseList3(head *ListNode)*ListNode{
     return reverse(nil,head)
 }
-```
+// ```

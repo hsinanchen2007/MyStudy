@@ -1,24 +1,24 @@
-#### 方法一： 多项式类 【通过】
+# #### 方法一： 多项式类 【通过】
 
-**思路**
+# **思路**
 
-构建一个 `Poly` 多项式类，实现这个多项式类的一些数学操作。 
+# 构建一个 `Poly` 多项式类，实现这个多项式类的一些数学操作。 
 
-**算法**
+# **算法**
 
-单独实现每个方法都很直接，这里先列一下要实现的方法：
+# 单独实现每个方法都很直接，这里先列一下要实现的方法：
 
-* `Poly:add(this, that)` 返回 `this + that` 的结果。
-* `Poly:sub(this, that)` 返回 `this - that` 的结果。
-* `Poly:mul(this, that)` 返回 `this * that` 的结果。
-* `Poly:evaluate(this, evalmap)` 返回将所有的自由变量替换成 `evalmap` 指定常数之后的结果。
-* `Poly:toList(this)` 返回正确的多项式输出格式。
+# * `Poly:add(this, that)` 返回 `this + that` 的结果。
+# * `Poly:sub(this, that)` 返回 `this - that` 的结果。
+# * `Poly:mul(this, that)` 返回 `this * that` 的结果。
+# * `Poly:evaluate(this, evalmap)` 返回将所有的自由变量替换成 `evalmap` 指定常数之后的结果。
+# * `Poly:toList(this)` 返回正确的多项式输出格式。
 
-* `Solution::combine(left, right, symbol)` 返回对 `左边（left)` 和 `右边(left)` 进行 `symobl` 操作之后的结果。
-* `Solution::make(expr)` 创造一个新的 `Poly` 实例来表示常数或 `expr` 指定的变量。 
-* `Solution::parse(expr)` 将 `expr` 解析成一个 `Poly` 实例。
+# * `Solution::combine(left, right, symbol)` 返回对 `左边（left)` 和 `右边(left)` 进行 `symobl` 操作之后的结果。
+# * `Solution::make(expr)` 创造一个新的 `Poly` 实例来表示常数或 `expr` 指定的变量。 
+# * `Solution::parse(expr)` 将 `expr` 解析成一个 `Poly` 实例。
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 class Poly(collections.Counter):
     def __add__(self, other):
         self.update(other)
@@ -110,9 +110,9 @@ class Solution(object):
 
         P = parse(expression).evaluate(evalmap)
         return P.to_list()
-```
+# ```
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 class Solution {
     public List<String> basicCalculatorIV(String expression, String[] evalVars, int[] evalInts) {
         Map<String, Integer> evalMap = new HashMap();
@@ -268,11 +268,11 @@ class Poly {
         return ans;
     }
 }
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度: 时间复杂度即为 $O(2^N + M)$，其中 $N$ 为 `expression` 的长度， $M$ 为 `evalvars` 和 `evalints` 的长度。
+# * 时间复杂度: 时间复杂度即为 $O(2^N + M)$，其中 $N$ 为 `expression` 的长度， $M$ 为 `evalvars` 和 `evalints` 的长度。
 
-* 空间复杂度: $O(N + M)$。
+# * 空间复杂度: $O(N + M)$。

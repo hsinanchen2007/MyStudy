@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用小顶堆就可以了。
+// 使用小顶堆就可以了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
     Stack<Integer> stack;
@@ -42,4 +42,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.min();
  */
-```
+// ```

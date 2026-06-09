@@ -1,7 +1,7 @@
-递归法，扫描同层结果插入法需注意
-执行用时 : 0 ms, 在所有 golang 提交中击败了100.00%的用户
+// 递归法，扫描同层结果插入法需注意
+// 执行用时 : 0 ms, 在所有 golang 提交中击败了100.00%的用户
 
-```go
+// ```go
 func zigzagLevelOrder(root *TreeNode) [][]int {
 	var result [][]int
 	search := func(level int, root *TreeNode) {} // 递归预定义
@@ -23,4 +23,4 @@ func zigzagLevelOrder(root *TreeNode) [][]int {
 	search(0, root)
 	return result
 }
-```
+// ```

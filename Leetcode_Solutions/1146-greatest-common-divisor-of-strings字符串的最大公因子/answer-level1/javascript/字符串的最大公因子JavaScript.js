@@ -1,9 +1,9 @@
-### 解题思路
-辗转相除
+// ### 解题思路
+// 辗转相除
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str1
  * @param {string} str2
@@ -22,4 +22,4 @@ var gcdOfStrings = function (str1, str2) {
         return ""
     }
 };
-```
+// ```

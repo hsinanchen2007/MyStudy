@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     inline bool IsDigit(char c) const { return c >= '0' && c <= '9'; }
@@ -39,4 +39,4 @@ public:
         return positive == 1 ? ans : -ans;
     }
 };
-```
+// ```

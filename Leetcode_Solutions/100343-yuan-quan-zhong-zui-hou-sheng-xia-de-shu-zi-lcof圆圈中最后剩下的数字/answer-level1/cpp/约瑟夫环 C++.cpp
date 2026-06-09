@@ -1,5 +1,5 @@
-1. 直接模拟，显然超时
-```
+// 1. 直接模拟，显然超时
+// ```
 class Solution {
 public:
     int lastRemaining(int n, int m) {
@@ -23,11 +23,11 @@ public:
         return a[0];
     }
 };
-```
+// ```
 
-2. 约瑟夫环问题 `f(N,M)=(f(N−1,M)+M)%N`
-推荐讲解：[约瑟夫环——公式法（递推公式）](https://blog.csdn.net/u011500062/article/details/72855826)
-```
+// 2. 约瑟夫环问题 `f(N,M)=(f(N−1,M)+M)%N`
+// 推荐讲解：[约瑟夫环——公式法（递推公式）](https://blog.csdn.net/u011500062/article/details/72855826)
+// ```
 class Solution {
 public:
     int lastRemaining(int n, int m) {
@@ -39,5 +39,5 @@ public:
         return p;
     }
 };
-```
+// ```
 

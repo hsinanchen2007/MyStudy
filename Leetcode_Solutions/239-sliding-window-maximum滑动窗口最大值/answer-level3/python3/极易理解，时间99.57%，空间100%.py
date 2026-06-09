@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         if not nums or k == 0:
@@ -20,4 +20,4 @@ class Solution:
                 cur_max = max(cur_max, nums[i + k -1])
             res.append(cur_max)
         return res
-```
+# ```

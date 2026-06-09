@@ -1,11 +1,11 @@
-### 解题思路
-1. 写一个height() 递归找到树的深度depth，然后根据题意，至多有width = 2^depth - 1 个节点
-2. 初始化 res[depth][width],然后填充数字。
-3. 按照 根节点在中间，左子树在左边，右子树在右边填充
+// ### 解题思路
+// 1. 写一个height() 递归找到树的深度depth，然后根据题意，至多有width = 2^depth - 1 个节点
+// 2. 初始化 res[depth][width],然后填充数字。
+// 3. 按照 根节点在中间，左子树在左边，右子树在右边填充
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -56,4 +56,4 @@ private:
         }
     }
 };
-```
+// ```

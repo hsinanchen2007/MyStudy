@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * freqAlphabets(char * s)
 {
     int i, len = strlen(s);
@@ -24,4 +24,4 @@ char * freqAlphabets(char * s)
     res[p] = '\0';
     return res;
 }
-```
+// ```

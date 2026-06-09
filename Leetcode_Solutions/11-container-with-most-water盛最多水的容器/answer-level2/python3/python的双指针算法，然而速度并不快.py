@@ -1,5 +1,5 @@
-双指针算法
-```
+# 双指针算法
+# ```
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         a = 1
@@ -12,4 +12,4 @@ class Solution:
             else: 
                 a = a + 1        
         return max_s
-```
+# ```

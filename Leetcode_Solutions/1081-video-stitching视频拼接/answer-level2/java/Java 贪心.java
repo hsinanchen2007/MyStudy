@@ -1,4 +1,4 @@
-```
+// ```
 public int videoStitching(int[][] clips, int T) {
     int count = 0;
     for (int time = 0; time < T; ) {
@@ -18,4 +18,4 @@ public int videoStitching(int[][] clips, int T) {
     }
     return count;
 }
-```
+// ```

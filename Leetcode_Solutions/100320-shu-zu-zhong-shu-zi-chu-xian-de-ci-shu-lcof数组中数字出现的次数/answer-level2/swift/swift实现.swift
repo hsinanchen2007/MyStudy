@@ -1,9 +1,9 @@
-### 解题思路
-看了题解大佬的思路，服气
+// ### 解题思路
+// 看了题解大佬的思路，服气
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func singleNumbers(_ nums: [Int]) -> [Int] {
         var temp = 0
@@ -23,4 +23,4 @@ class Solution {
         return [result1, result2]
     }
 }
-```
+// ```

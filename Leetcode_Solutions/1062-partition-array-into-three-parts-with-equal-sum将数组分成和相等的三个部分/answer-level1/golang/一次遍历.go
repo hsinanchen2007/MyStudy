@@ -1,5 +1,5 @@
-采用俩辅助变量记录当前分段的总和，跟分段次数
-```python
+// 采用俩辅助变量记录当前分段的总和，跟分段次数
+// ```python
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         total = sum(A)
@@ -15,8 +15,8 @@ class Solution:
                 if count == 2 and i < len(A) - 1:
                     return True
         return False
-```
-```golang
+// ```
+// ```golang
 func canThreePartsEqualSum(A []int) bool {
     t := 0
     for i := 0; i < len(A); i++ {
@@ -39,4 +39,4 @@ func canThreePartsEqualSum(A []int) bool {
     }
     return false
 }
-```
+// ```

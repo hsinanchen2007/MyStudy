@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getDay(string str){
@@ -20,4 +20,4 @@ public:
         return 0;
     }
 };
-```
+// ```

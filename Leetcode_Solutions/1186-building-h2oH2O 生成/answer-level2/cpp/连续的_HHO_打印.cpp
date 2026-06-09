@@ -1,8 +1,8 @@
-1. 选择一个计算counter计算，counter每次初始化为2.
-2. 当counter > 0时，则选择控制执行hydrogen函数，当counter = 0时，则选择控制执行oxygen函数。
-3. 在hydrogen函数内部每次将counter进行减一操作；
-4. 在oxygen函数内部每次将counter初始化为2；
-```
+// 1. 选择一个计算counter计算，counter每次初始化为2.
+// 2. 当counter > 0时，则选择控制执行hydrogen函数，当counter = 0时，则选择控制执行oxygen函数。
+// 3. 在hydrogen函数内部每次将counter进行减一操作；
+// 4. 在oxygen函数内部每次将counter初始化为2；
+// ```
 class H2O {
 private:
     int countOxygen;
@@ -32,4 +32,4 @@ public:
         pthread_mutex_unlock(&lockHy);
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-将字符串转换为字符数组进行模拟。最高为有进位时，需要在返回初判断结果+1。
+// 将字符串转换为字符数组进行模拟。最高为有进位时，需要在返回初判断结果+1。
 
-```
+// ```
 class Solution {
     public int numSteps(String s) {
         if (s.length() == 1) return 0;
@@ -27,4 +27,4 @@ class Solution {
         return chars[last] == '0' ? ans + 1 : ans;
     }
 }
-```
+// ```

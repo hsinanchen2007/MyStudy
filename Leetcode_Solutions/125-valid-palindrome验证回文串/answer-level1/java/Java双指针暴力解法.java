@@ -1,4 +1,4 @@
-```
+// ```
 public boolean isPalindrome(String s) {
         if("".equals(s) || s.length() == 1) {
 			return true;
@@ -29,4 +29,4 @@ public boolean isPalindrome(String s) {
 		}
         return true;
     }
-```
+// ```

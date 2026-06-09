@@ -1,5 +1,5 @@
-方法一：逆向跳跃，申请一个数组，从尾部开始判断，超时。
-```
+# 方法一：逆向跳跃，申请一个数组，从尾部开始判断，超时。
+# ```
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         lenk=len(nums)
@@ -24,9 +24,9 @@ class Solution:
         # print(p)
         return p[0]
                 
-```
-方法2：也是我经常使用的一种方法，第一个节点能调到哪，设为max，然后循环max之内的数，循环过程中能跳的最远的，替换max，然后原来的max变为premax，然后遍历premax到max中跳的最远的，然后还是这么交替的变premax和max，最后当重合或者max超过最后一个元素的时候判断为True，当重合并且小于元祖最后元素的时候返回False
-```
+# ```
+# 方法2：也是我经常使用的一种方法，第一个节点能调到哪，设为max，然后循环max之内的数，循环过程中能跳的最远的，替换max，然后原来的max变为premax，然后遍历premax到max中跳的最远的，然后还是这么交替的变premax和max，最后当重合或者max超过最后一个元素的时候判断为True，当重合并且小于元祖最后元素的时候返回False
+# ```
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         lenk=len(nums)
@@ -42,5 +42,5 @@ class Solution:
         if max>=lenk-1:return True
         return False
                 
-```
-![image.png](https://pic.leetcode-cn.com/222636f1eedfc79509f0aaff7d7f8340d4310be3132e35d2df7079f7c1569a4f-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/222636f1eedfc79509f0aaff7d7f8340d4310be3132e35d2df7079f7c1569a4f-image.png)

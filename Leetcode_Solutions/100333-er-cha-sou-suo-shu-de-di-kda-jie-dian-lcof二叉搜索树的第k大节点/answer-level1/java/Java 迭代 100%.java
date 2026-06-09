@@ -1,6 +1,6 @@
-BST树中序**从右向左**遍历。
+// BST树中序**从右向左**遍历。
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -27,4 +27,4 @@ class Solution {
         return result.get(k - 1);
     }
 }
-```
+// ```

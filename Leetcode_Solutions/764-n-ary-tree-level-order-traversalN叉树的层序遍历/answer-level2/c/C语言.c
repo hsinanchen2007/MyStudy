@@ -1,11 +1,11 @@
-### 解题思路
-利用队列进行广度优先搜索。[@_lixuchen](/u/_lixuchen/)
-![捕获.PNG](https://pic.leetcode-cn.com/e21fb9b88cb21508ae4d13bb478c11b73d711c925179d72ed37631e46994364f-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 利用队列进行广度优先搜索。[@_lixuchen](/u/_lixuchen/)
+// ![捕获.PNG](https://pic.leetcode-cn.com/e21fb9b88cb21508ae4d13bb478c11b73d711c925179d72ed37631e46994364f-%E6%8D%95%E8%8E%B7.PNG)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a Node.
  * struct Node {
@@ -123,4 +123,4 @@ struct Node* DeQueue(SeqQueue* obj){
     return NULL;
 }
 
-```
+// ```

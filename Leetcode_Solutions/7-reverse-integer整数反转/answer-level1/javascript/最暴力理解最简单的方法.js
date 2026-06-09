@@ -1,7 +1,7 @@
-最暴力理解最简单的方法
+// 最暴力理解最简单的方法
 
 
-```
+// ```
 var reverse = function (x) {
     let arr = []
     if (x < 0) {
@@ -36,6 +36,6 @@ var reverse = function (x) {
 
 }
 
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/341dfd762b9e11529becb4d4015c6f846592c08c7d11680d0642f66c219bd334-image.png)
+// ![image.png](https://pic.leetcode-cn.com/341dfd762b9e11529becb4d4015c6f846592c08c7d11680d0642f66c219bd334-image.png)

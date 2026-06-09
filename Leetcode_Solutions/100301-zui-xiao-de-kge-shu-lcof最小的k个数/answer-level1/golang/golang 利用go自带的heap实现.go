@@ -1,9 +1,9 @@
-### 解题思路
-利用go自带的heap实现很简单。
+// ### 解题思路
+// 利用go自带的heap实现很简单。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type IntHeap []int
 
 func (h IntHeap) Len() int{
@@ -45,4 +45,4 @@ func getLeastNumbers(arr []int, k int) []int {
     }
     return intHeap
 }
-```
+// ```

@@ -1,5 +1,5 @@
-用memcmp就可以，用自己写的那段就超时，有大神了解原因的告诉一下我
-```
+// 用memcmp就可以，用自己写的那段就超时，有大神了解原因的告诉一下我
+// ```
 char * longestPrefix(char * s){
     int end=strlen(s)-1;
     int start=end-1;
@@ -27,4 +27,4 @@ char * longestPrefix(char * s){
     if(find)return ret;
     else return "";
 }
-```
+// ```

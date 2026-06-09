@@ -1,9 +1,9 @@
-dp[i][j]存着在第i个数字时能达到j的整数的方法数
-类似leetcode里的那道抛硬币问题.
-但是抛硬币那题的j都是大于0的.这里有小于0的可能性,所以要给每个j+tot
-(tot是数组所有元素和)
+// dp[i][j]存着在第i个数字时能达到j的整数的方法数
+// 类似leetcode里的那道抛硬币问题.
+// 但是抛硬币那题的j都是大于0的.这里有小于0的可能性,所以要给每个j+tot
+// (tot是数组所有元素和)
 
-```
+// ```
 class Solution {
     public int findTargetSumWays(int[] nums, int S) {
         //动态规划
@@ -45,4 +45,4 @@ class Solution {
         return dp[nums.length][S+tot];
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from math import ceil
 class Solution(object):
     def maximumGap(self, nums):
@@ -57,4 +57,4 @@ class Solution(object):
 
         
 
-```
+# ```

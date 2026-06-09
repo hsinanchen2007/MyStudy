@@ -1,9 +1,9 @@
-### 解题思路
-按十进制对每位进行分类转换
+# ### 解题思路
+# 按十进制对每位进行分类转换
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intToRoman(self, num: int) -> str:
         s = '%04d'%num
@@ -24,4 +24,4 @@ class Solution:
             result += t
             i += 1
         return result
-```
+# ```

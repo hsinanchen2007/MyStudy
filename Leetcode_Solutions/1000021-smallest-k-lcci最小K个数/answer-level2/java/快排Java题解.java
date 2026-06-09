@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] smallestK(int[] arr, int k) {
         int[] res = new int[k];
@@ -39,4 +39,4 @@ class Solution {
         }
     }
 }
-```
+// ```

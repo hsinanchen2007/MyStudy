@@ -1,6 +1,6 @@
 
 
-```cpp
+// ```cpp
 
 //方法二：双栈
 class Solution {
@@ -43,4 +43,4 @@ public:
         return trackQ[i-1];
     }
 };
-```
+// ```

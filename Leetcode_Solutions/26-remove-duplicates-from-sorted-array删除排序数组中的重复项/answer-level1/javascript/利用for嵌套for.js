@@ -1,9 +1,9 @@
-### 解题思路
-双层循环，外层循环元素，内层循环时比较值。值相同时，则删去这个值。
+// ### 解题思路
+// 双层循环，外层循环元素，内层循环时比较值。值相同时，则删去这个值。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -19,4 +19,4 @@ var removeDuplicates = function (nums) {
     }
     return nums.length
 };
-```
+// ```

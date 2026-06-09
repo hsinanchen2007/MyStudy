@@ -1,9 +1,9 @@
-### 解题思路
-采用两个指针，快指针指向长链表，慢指针指向短链表
+// ### 解题思路
+// 采用两个指针，快指针指向长链表，慢指针指向短链表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	ListNode* getIntersectionNode(ListNode* headA, ListNode* headB) {
@@ -47,4 +47,4 @@ public:
 		return l1;
 	}
 };
-```
+// ```

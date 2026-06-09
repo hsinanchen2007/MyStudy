@@ -1,14 +1,14 @@
-### 解题思路
-小白的我做递归算法时，老喜欢把自己带入递归中，越弄越糊涂。实际上，二叉树的遍历无非是自底向上和自顶向下这两种。
-自底向上：从左右节点看往根节点。base case则是把最下端的子节点看作是初始值。
-自顶向下：从根节点看往左右子节点。base case则是把最下端的子节点看作是终止值。
+// ### 解题思路
+// 小白的我做递归算法时，老喜欢把自己带入递归中，越弄越糊涂。实际上，二叉树的遍历无非是自底向上和自顶向下这两种。
+// 自底向上：从左右节点看往根节点。base case则是把最下端的子节点看作是初始值。
+// 自顶向下：从根节点看往左右子节点。base case则是把最下端的子节点看作是终止值。
 
-PS. base case往往对应if(root) == NULL这个退出条件。
+// PS. base case往往对应if(root) == NULL这个退出条件。
 
-自底向上方法。
-### 代码
+// 自底向上方法。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int helper(TreeNode* root){
@@ -22,10 +22,10 @@ public:
         return helper(root);
     }
 };
-```
-自顶向下方法
-### 代码
-```cpp
+// ```
+// 自顶向下方法
+// ### 代码
+// ```cpp
 class Solution {
 public:
     int helper(TreeNode* root, int level){
@@ -37,4 +37,4 @@ public:
         return helper(root, 0);
     }
 };
-```
+// ```

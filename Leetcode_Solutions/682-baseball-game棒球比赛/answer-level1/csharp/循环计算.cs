@@ -1,11 +1,11 @@
-### 解题思路
-循环计算每一次的值，同时持久化所有有效回合的分数，在计算完成后同时操作持久化集合。
+// ### 解题思路
+// 循环计算每一次的值，同时持久化所有有效回合的分数，在计算完成后同时操作持久化集合。
 
-代码其实有BUG，但是在本题限定下不影响
+// 代码其实有BUG，但是在本题限定下不影响
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int CalPoints(string[] ops) {
         List<int> invalidList=new List<int>();
@@ -41,4 +41,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

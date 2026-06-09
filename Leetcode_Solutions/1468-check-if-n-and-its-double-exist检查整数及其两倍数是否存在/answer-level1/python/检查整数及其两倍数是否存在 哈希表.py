@@ -1,9 +1,9 @@
-### 解题思路
-对于一个数n,若n\n*2\n/2均不在字典中，则将其加入字典，对于相同数字，当且仅当n = 0时满足2倍关系
+# ### 解题思路
+# 对于一个数n,若n\n*2\n/2均不在字典中，则将其加入字典，对于相同数字，当且仅当n = 0时满足2倍关系
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def checkIfExist(self, arr):
         dic = {}
@@ -20,4 +20,4 @@ class Solution(object):
                 if c == 0:
                     return True
         return False
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-（1）根节点的左右子树的最大值；
-（2）根节点左子树的最大值；
-（3）根节点右子树的最大值
+// ### 解题思路
+// 此处撰写解题思路
+// （1）根节点的左右子树的最大值；
+// （2）根节点左子树的最大值；
+// （3）根节点右子树的最大值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -53,4 +53,4 @@ int diameterOfBinaryTree(struct TreeNode* root)
 
     return mid > (left > right ? left : right) ? mid : (left > right ? left : right);
 }
-```
+// ```

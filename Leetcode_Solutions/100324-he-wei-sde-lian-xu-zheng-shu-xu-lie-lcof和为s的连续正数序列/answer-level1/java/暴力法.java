@@ -1,9 +1,9 @@
-### 解题思路
-用TreeMap存储连续序列开始的索引和长度。
+// ### 解题思路
+// 用TreeMap存储连续序列开始的索引和长度。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         //TreeMap记录开始索引和长度
@@ -43,4 +43,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

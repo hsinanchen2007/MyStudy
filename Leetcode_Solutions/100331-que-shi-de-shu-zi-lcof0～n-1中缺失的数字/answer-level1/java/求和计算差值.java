@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         int k = nums.length;
@@ -11,4 +11,4 @@ class Solution {
         return total - sum;
     }
 }
-```
+// ```

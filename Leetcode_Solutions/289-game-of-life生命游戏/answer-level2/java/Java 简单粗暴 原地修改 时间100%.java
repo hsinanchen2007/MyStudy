@@ -1,7 +1,7 @@
-### 解题思路
-### 代码                     
+// ### 解题思路
+// ### 代码                     
 
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
         int[][] countTotal = new int[board.length][board[0].length];
@@ -30,9 +30,9 @@ class Solution {
                 
     }
 }
-```
+// ```
 
-```
+// ```
 class Solution {
     public void gameOfLife(int[][] board) {
         int[][] towards = {{-1,-1},{-1,0},{-1,1},{0,-1},{0,1},{1,-1},{1,0},{1,1}};
@@ -61,4 +61,4 @@ class Solution {
         
     }
 }
-```
+// ```

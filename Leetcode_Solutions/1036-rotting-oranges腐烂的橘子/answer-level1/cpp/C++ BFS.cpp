@@ -1,9 +1,9 @@
-### 解题思路
-这题可不是简单难度啊……
+// ### 解题思路
+// 这题可不是简单难度啊……
 
-### 代码
+// ### 代码
 
-```
+// ```
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
@@ -55,4 +55,4 @@ public:
         return times > 0 ? times - 1 : times;
     }
 };
-```
+// ```

@@ -1,16 +1,16 @@
-### 解题思路
-永远不要将题想的多复杂，笨方法完全可以解决。
+# ### 解题思路
+# 永远不要将题想的多复杂，笨方法完全可以解决。
 
-回文串，一定是对称，那么我们可以，只要成对出现的字母，都可以加入。
-将能组成一对的字母全部找到。lens = lens + value//2,这个是成对的数量，回文长度lens = 2 * lens
+# 回文串，一定是对称，那么我们可以，只要成对出现的字母，都可以加入。
+# 将能组成一对的字母全部找到。lens = lens + value//2,这个是成对的数量，回文长度lens = 2 * lens
 
-最后一种场景
-abxab,如果我们的长度不到总长度，说明还有可用字符，随便一个就可以当作x。
-总长度：lens = lens+1
+# 最后一种场景
+# abxab,如果我们的长度不到总长度，说明还有可用字符，随便一个就可以当作x。
+# 总长度：lens = lens+1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         letter_dict = dict()
@@ -29,4 +29,4 @@ class Solution:
             if lens < len(s):
                 lens = lens + 1
         return lens
-```
+# ```

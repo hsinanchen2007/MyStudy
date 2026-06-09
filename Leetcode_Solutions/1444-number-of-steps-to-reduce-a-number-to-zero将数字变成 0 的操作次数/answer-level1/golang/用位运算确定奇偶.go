@@ -1,5 +1,5 @@
-# 用位运算确定奇偶,申请变量放后面
-```
+// # 用位运算确定奇偶,申请变量放后面
+// ```
 func numberOfSteps (num int) int {
     times := 0
     for {
@@ -16,4 +16,4 @@ func numberOfSteps (num int) int {
         times++
     }  
 }
-```
+// ```

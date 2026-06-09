@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/0801b48c006ec13b9a459eb09491a13a1603b6754ba92cb3a3d96a82d2e1191b-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/0801b48c006ec13b9a459eb09491a13a1603b6754ba92cb3a3d96a82d2e1191b-image.png)
 
-我的思路是首先获取链表中点，对链表进行断链，然后将第二条链表进行翻转，采用的是迭代的思想，当然，递归思想也可以对链表进行翻转
-### 代码
+// 我的思路是首先获取链表中点，对链表进行断链，然后将第二条链表进行翻转，采用的是迭代的思想，当然，递归思想也可以对链表进行翻转
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -59,4 +59,4 @@ void reorderList(struct ListNode* head){
         fastp = fastp->next;
     }
 }
-```
+// ```

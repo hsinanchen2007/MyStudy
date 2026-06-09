@@ -1,9 +1,9 @@
-dummy指针的设置比较重要。
+# dummy指针的设置比较重要。
 
-另外，在链表的题目里边，判断是否为空指针非常关键，而且需要格外小心。
+# 另外，在链表的题目里边，判断是否为空指针非常关键，而且需要格外小心。
 
-具体实现的细节代码注释的很清晰。
-```
+# 具体实现的细节代码注释的很清晰。
+# ```
 class Solution(object):
     def partition(self, head, x):
         """
@@ -45,4 +45,4 @@ class Solution(object):
         
         return dummy.next
         
-```
+# ```

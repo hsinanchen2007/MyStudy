@@ -1,12 +1,12 @@
-### 解题思路
-动态规划，从右下角往上规划
+// ### 解题思路
+// 动态规划，从右下角往上规划
 
-// dunxy表示当前最小需要的血量，dunxy_next表示下个节点至少需要的血量，cur表示当前节点的血量值，加或者减
-// dunxy+cur>=dunxy_nexy &&dunxy>=1  -----> dunxy>=dunxy_nexy-cur&&dunxy>=1 所以  dunxy=max(dunxy_nexy-dunxy,1)
+// // dunxy表示当前最小需要的血量，dunxy_next表示下个节点至少需要的血量，cur表示当前节点的血量值，加或者减
+// // dunxy+cur>=dunxy_nexy &&dunxy>=1  -----> dunxy>=dunxy_nexy-cur&&dunxy>=1 所以  dunxy=max(dunxy_nexy-dunxy,1)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func calculateMinimumHP(dungeon [][]int) int {
 	if len(dungeon) == 0 || len(dungeon[0]) == 0 {
 		return 0
@@ -51,4 +51,4 @@ func min(a, b int) int {
 	return b
 }
 
-```
+// ```

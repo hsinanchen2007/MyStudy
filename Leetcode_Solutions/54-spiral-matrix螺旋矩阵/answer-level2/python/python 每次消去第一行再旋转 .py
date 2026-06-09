@@ -1,5 +1,5 @@
-螺旋轨迹可以看作：每次取第一行（取完删掉），然后逆时针旋转90度，继续去第一行，直到全部消除
-```
+# 螺旋轨迹可以看作：每次取第一行（取完删掉），然后逆时针旋转90度，继续去第一行，直到全部消除
+# ```
 class Solution(object):
     def spiralOrder(self, matrix):
         """
@@ -28,4 +28,4 @@ class Solution(object):
                     tmp = []
                 matrix = tmp2
         return res
-```
+# ```

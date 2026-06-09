@@ -1,4 +1,4 @@
-```
+// ```
 public ListNode rotateRight(ListNode head, int k) {
         if (head == null) return null;
         if (k == 0) return head;
@@ -29,4 +29,4 @@ public ListNode rotateRight(ListNode head, int k) {
         end.next = head;
         return res;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-dfs搜索的组合问题
+# ### 解题思路
+# dfs搜索的组合问题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         def dfs(res, tmp, k, cur):
@@ -16,4 +16,4 @@ class Solution:
         res = []
         dfs(res, [], k, 1)
         return res
-```
+# ```

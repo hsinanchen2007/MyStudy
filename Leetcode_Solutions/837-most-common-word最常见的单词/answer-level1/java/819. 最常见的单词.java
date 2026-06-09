@@ -1,16 +1,16 @@
 
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/12
- *
- * 解题思路: 两种思路 一种是对单个字符进行扫描直接进行判断  另一种依据符号进行正则切分生成单词在进行判定
- *
- * 注意：正则速度较慢 String.split("[\\s|!|?|\\'|,|;|.]")   String.replace("[\\s|!|?|\\'|,|;|.]")
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/12
+//  *
+//  * 解题思路: 两种思路 一种是对单个字符进行扫描直接进行判断  另一种依据符号进行正则切分生成单词在进行判定
+//  *
+//  * 注意：正则速度较慢 String.split("[\\s|!|?|\\'|,|;|.]")   String.replace("[\\s|!|?|\\'|,|;|.]")
+//  *
+//  */
+// ```
 public String mostCommonWord(String paragraph, String[] banned) {
     HashSet<String> hashSet = new HashSet<>();
     HashMap<String,Integer> hashMap = new HashMap<>();
@@ -74,4 +74,4 @@ public String mostCommonWord2(String paragraph, String[] banned) {
 
     return res;
 }
-```
+// ```

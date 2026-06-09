@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn minimum_total(triangle: Vec<Vec<i32>>) -> i32 {
         let mut triangle = triangle;
@@ -14,5 +14,5 @@ impl Solution {
         *triangle.last().unwrap().iter().min().unwrap()
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

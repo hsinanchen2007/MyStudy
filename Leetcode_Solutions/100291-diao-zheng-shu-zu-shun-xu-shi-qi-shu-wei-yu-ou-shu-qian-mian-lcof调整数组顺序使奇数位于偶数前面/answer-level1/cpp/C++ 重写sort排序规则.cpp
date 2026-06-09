@@ -1,5 +1,5 @@
-该题目可转化为，在排序规则中，偶数比奇数大，因此可重写sort排序规则，直接用sort函数即可解答。
-```
+// 该题目可转化为，在排序规则中，偶数比奇数大，因此可重写sort排序规则，直接用sort函数即可解答。
+// ```
 class Solution {
 public:
  static bool cmp(int a,int b){
@@ -12,4 +12,4 @@ vector<int> exchange(vector<int>& nums) {
 	 return nums;
 }
 };
-```
+// ```

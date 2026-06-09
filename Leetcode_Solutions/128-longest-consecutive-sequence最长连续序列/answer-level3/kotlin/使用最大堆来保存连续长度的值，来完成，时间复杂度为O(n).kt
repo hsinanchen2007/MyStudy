@@ -1,4 +1,4 @@
-```java []
+// ```java []
 public int longestConsecutive(int[] nums) {
 
     if (nums.length < 1) {
@@ -28,9 +28,9 @@ public int longestConsecutive(int[] nums) {
     }
     return maxHeap.peek();
   }
-```
+// ```
 
-```kotlin []
+// ```kotlin []
 fun longestConsecutive(nums: Array<Int>): Int {
 
         if (nums.isEmpty()) {
@@ -59,4 +59,4 @@ fun longestConsecutive(nums: Array<Int>): Int {
         }
         return maxHeap.peek()
     }
-```
+// ```

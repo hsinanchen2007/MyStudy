@@ -1,9 +1,9 @@
 
-## 思路分析
- 链表对折，假设对折截取后的链表分为left 和right，right 进行翻转，最后按规则进行交叉合并： L0->Ln->L1->Ln-1......；当链表的长度为偶数的时候，left.length =  right.length ，当链表的长度为奇数的时候，left.length =  right.length + 1。
+// ## 思路分析
+//  链表对折，假设对折截取后的链表分为left 和right，right 进行翻转，最后按规则进行交叉合并： L0->Ln->L1->Ln-1......；当链表的长度为偶数的时候，left.length =  right.length ，当链表的长度为奇数的时候，left.length =  right.length + 1。
 
-## 代码实现
-```cpp
+// ## 代码实现
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -52,4 +52,4 @@ private:
         return p->next;
     }
 };
-```
+// ```

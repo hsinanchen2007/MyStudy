@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/6f149d5b00c751b33231b517040034a95ada04f8573c07d03864a53dfac016ad-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6f149d5b00c751b33231b517040034a95ada04f8573c07d03864a53dfac016ad-image.png)
 
 
-```
+// ```
 var searchInsert = function(nums, target) {
     let low=0;
     let high=nums.length-1;
@@ -20,4 +20,4 @@ var searchInsert = function(nums, target) {
         };
     }
 };
-```
+// ```

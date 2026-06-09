@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-1. 将 `queries` `words` 改为最小字母出现频次的数组；
-2. 找出 `words` 中比 `queries` 中每一项大的次数
+// 1. 将 `queries` `words` 改为最小字母出现频次的数组；
+// 2. 找出 `words` 中比 `queries` 中每一项大的次数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} queries
  * @param {string[]} words
@@ -34,4 +34,4 @@ var numSmallerByFrequency = function(queries, words) {
     }
     return result;
 };
-```
+// ```

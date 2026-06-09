@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-low 和high 记录每次买入卖出的最低值和最高值
-遍历，寻找每一次峰值之前的最小值买入，
-即low为一次峰值中的最小值，high为峰顶
-利润 res+=high-low
-返回res即可
+// ### 解题思路
+// 此处撰写解题思路
+// low 和high 记录每次买入卖出的最低值和最高值
+// 遍历，寻找每一次峰值之前的最小值买入，
+// 即low为一次峰值中的最小值，high为峰顶
+// 利润 res+=high-low
+// 返回res即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
 	l := len(prices)
 	if l <= 1 {
@@ -34,4 +34,4 @@ func maxProfit(prices []int) int {
 	}
 	return res
 }
-```
+// ```

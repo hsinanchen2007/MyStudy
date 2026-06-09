@@ -1,9 +1,9 @@
-### 解题思路
-需要注意一点的是，把15的倍数最前面判断即可
+// ### 解题思路
+// 需要注意一点的是，把15的倍数最前面判断即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> fizzBuzz(int n) {
         //3-3的n倍
@@ -27,4 +27,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution { // 排序即可；
     public int[][] merge(int[][] intervals) {
         int R = intervals.length;
@@ -30,4 +30,4 @@ class Solution { // 排序即可；
         return ans;
     }
 }
-```
+// ```

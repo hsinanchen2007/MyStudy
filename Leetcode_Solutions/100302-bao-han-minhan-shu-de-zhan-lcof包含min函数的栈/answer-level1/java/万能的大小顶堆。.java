@@ -1,9 +1,9 @@
-### 解题思路
-这里用到了小顶堆来获得最小值。
+// ### 解题思路
+// 这里用到了小顶堆来获得最小值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
     PriorityQueue<Integer> priorityQueue;
@@ -42,4 +42,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.min();
  */
-```
+// ```

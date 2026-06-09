@@ -1,4 +1,4 @@
-```
+// ```
 import "sort"
 
 func numFactoredBinaryTrees(A []int) int {
@@ -20,4 +20,4 @@ func numFactoredBinaryTrees(A []int) int {
 	}
 	return o
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-刚学字符串转char数组，就试一下，从haystack的第一个开始遍历和needle比较，遍历次数为两者长度之差+1，for体系里再进行循环比较
+// ### 解题思路
+// 刚学字符串转char数组，就试一下，从haystack的第一个开始遍历和needle比较，遍历次数为两者长度之差+1，for体系里再进行循环比较
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
         char[] hay=haystack.toCharArray();
@@ -28,4 +28,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路（详情见代码）
-1. 计算长度并将尾节点指向头节点
-2. 找到新的头节点和尾节点应该的位置
-3. 返回结果
+// ### 解题思路（详情见代码）
+// 1. 计算长度并将尾节点指向头节点
+// 2. 找到新的头节点和尾节点应该的位置
+// 3. 返回结果
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -52,4 +52,4 @@ public class Solution {
         return newHead;
     }
 }
-```
+// ```

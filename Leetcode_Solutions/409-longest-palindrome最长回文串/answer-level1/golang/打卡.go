@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) int {
     count := make([]int,58)
     for _,c := range s{
@@ -18,4 +18,4 @@ func longestPalindrome(s string) int {
     }
     return ans
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用哈希保存每一个状态中，各个字符是否还存在
+# ### 解题思路
+# 用哈希保存每一个状态中，各个字符是否还存在
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permutation(self, s: str) -> List[str]:
         res = []
@@ -33,4 +33,4 @@ class Solution:
 
         return res
             
-```
+# ```

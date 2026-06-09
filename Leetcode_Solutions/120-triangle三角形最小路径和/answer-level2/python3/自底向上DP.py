@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         dp = [[float('inf') for _ in range(len(triangle[-1]))] for i in range(len(triangle))]
@@ -14,4 +14,4 @@ class Solution:
                 dp[i][j]=triangle[i][j]+min(dp[i+1][j],dp[i+1][j+1])
         
         return min(dp[0])
-```
+# ```

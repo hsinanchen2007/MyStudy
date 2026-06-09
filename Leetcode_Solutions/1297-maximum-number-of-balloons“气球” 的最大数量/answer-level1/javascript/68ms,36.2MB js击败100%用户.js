@@ -1,7 +1,7 @@
-**思路：字符串中找特定字符，不用关注顺序**
-***注意点：js中没有min方法，sort排序默认是按照字母升序的，直接排序数字需要传入函数作为参数***
+// **思路：字符串中找特定字符，不用关注顺序**
+// ***注意点：js中没有min方法，sort排序默认是按照字母升序的，直接排序数字需要传入函数作为参数***
 
-```
+// ```
 /**
  * @param {string} text
  * @return {number}
@@ -17,5 +17,5 @@ var maxNumberOfBalloons = function(text) {
     let N = resArr.filter(item=>item==='n') && resArr.filter(item=>item==='n').length
     return Math.floor([B,A,L,O,N].sort((a,b)=>a-b)[0])
 };
-```
+// ```
 

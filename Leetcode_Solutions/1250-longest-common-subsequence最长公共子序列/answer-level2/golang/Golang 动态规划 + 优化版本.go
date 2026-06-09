@@ -1,4 +1,4 @@
-```
+// ```
 func longestCommonSubsequence(text1 string, text2 string) int {
     // dp
     // d[i][j] 长度分别为i和j的字符串的最长公共子序列长度
@@ -51,4 +51,4 @@ func maxInt(x, y int) int {
     }
     return y
 }
-```
+// ```

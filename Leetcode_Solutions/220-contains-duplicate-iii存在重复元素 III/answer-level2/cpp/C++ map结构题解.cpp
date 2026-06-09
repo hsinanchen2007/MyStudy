@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
@@ -15,6 +15,6 @@ public:
         return false;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/dbef2cbd7a3d9cb934c2181bfcfe5c17a13bb78ecd0f61c94279cdd23f0a3af2-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/dbef2cbd7a3d9cb934c2181bfcfe5c17a13bb78ecd0f61c94279cdd23f0a3af2-image.png)
 

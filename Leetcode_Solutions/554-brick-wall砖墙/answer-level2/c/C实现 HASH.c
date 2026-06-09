@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/de4ca613608b063a3ca7d495b3d389794e316eb6de552add922f6a28cf33806c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/de4ca613608b063a3ca7d495b3d389794e316eb6de552add922f6a28cf33806c-image.png)
 
-### 解题思路
-统计每个砖块边缘的hash值
+// ### 解题思路
+// 统计每个砖块边缘的hash值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct hashInfo {
     int key;
     int val;
@@ -103,4 +103,4 @@ int leastBricks(int** wall, int wallSize, int* wallColSize){
 
     return (wallSize - GetMaxValue());
 }
-```
+// ```

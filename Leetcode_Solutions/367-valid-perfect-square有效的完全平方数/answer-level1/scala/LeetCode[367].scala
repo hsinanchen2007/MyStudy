@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def isPerfectSquare(num: Int): Boolean = {
     if (num < 2) return true
@@ -20,4 +20,4 @@ object Solution {
   }
 }
 
-```
+// ```

@@ -1,14 +1,14 @@
-[416.分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/submissions/)
+// [416.分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
 
-题目本质上就是求数组中是否存在子集的和等于数组总和的一半。
+// 题目本质上就是求数组中是否存在子集的和等于数组总和的一半。
 
-题解参考[大神题解](https://leetcode-cn.com/problems/partition-equal-subset-sum/solution/0-1-bei-bao-wen-ti-xiang-jie-zhen-dui-ben-ti-de-yo/)。
+// 题解参考[大神题解](https://leetcode-cn.com/problems/partition-equal-subset-sum/solution/0-1-bei-bao-wen-ti-xiang-jie-zhen-dui-ben-ti-de-yo/)。
 
-## 方法一 动态规划
+// ## 方法一 动态规划
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -47,11 +47,11 @@ var canPartition = function(nums) {
     }
     return dp[length -1][target];
 };
-```
+// ```
 
-## DP优化
+// ## DP优化
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -82,4 +82,4 @@ var canPartition = function(nums) {
     }
     return dp[target];
 };
-```
+// ```

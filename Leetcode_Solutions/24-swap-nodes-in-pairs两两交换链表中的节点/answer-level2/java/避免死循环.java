@@ -1,12 +1,12 @@
-### 解题思路
-将一个新的ListNode不断的指向该指向的地方，两个指针p1,p3判断next是否存在，是否需要交换
+// ### 解题思路
+// 将一个新的ListNode不断的指向该指向的地方，两个指针p1,p3判断next是否存在，是否需要交换
 
-![](https://pic.leetcode-cn.com/3ad499dcfc3969bf8fa5135934df3bafba195685f7381020e3bb6731f08d87cb-image.png)
+// ![](https://pic.leetcode-cn.com/3ad499dcfc3969bf8fa5135934df3bafba195685f7381020e3bb6731f08d87cb-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -63,5 +63,5 @@ class Solution {
         
     }
 }
-```
+// ```
 

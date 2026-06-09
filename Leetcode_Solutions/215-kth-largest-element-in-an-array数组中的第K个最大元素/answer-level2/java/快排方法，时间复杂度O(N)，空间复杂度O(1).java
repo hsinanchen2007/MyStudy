@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 //快速排序进行解决吧
 class Solution {
     public int findKthLargest(int[] nums, int k) {
@@ -48,4 +48,4 @@ class Solution {
            return left;
     }
 }
-```
+// ```

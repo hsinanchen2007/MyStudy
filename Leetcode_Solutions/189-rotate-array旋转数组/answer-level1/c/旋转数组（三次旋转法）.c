@@ -1,9 +1,9 @@
-### 解题思路
-三次旋转
+// ### 解题思路
+// 三次旋转
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverse(int a[],int i,int j)
 {
     int t;
@@ -32,4 +32,4 @@ void rotate(int* nums, int numsSize, int k){
     }
 
 }
-```
+// ```

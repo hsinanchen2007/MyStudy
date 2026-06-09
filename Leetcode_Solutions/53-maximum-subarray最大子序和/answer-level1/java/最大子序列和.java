@@ -1,7 +1,7 @@
-### 解题思路
-方法一：贪心算法。假设每一步都能得到目前为止的最佳方案，当遍历完整个数组时，也一定能够得到最佳方案。时间复杂度：O(n),空间复杂度：O(1)。
-### 代码
-```java
+// ### 解题思路
+// 方法一：贪心算法。假设每一步都能得到目前为止的最佳方案，当遍历完整个数组时，也一定能够得到最佳方案。时间复杂度：O(n),空间复杂度：O(1)。
+// ### 代码
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         //贪心算法:每一步都选择最佳方案，最终得到全局最佳方案
@@ -15,11 +15,11 @@ class Solution {
         return maxSum;
     }
 }
-```
+// ```
 
-方法二：动态规划DP。
-### 代码
-```java
+// 方法二：动态规划DP。
+// ### 代码
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         //动态规划（资源推荐：bilibili的大雪菜的闫氏DP分析法）
@@ -36,4 +36,4 @@ class Solution {
         return maxSum;
     }
 }
-```
+// ```

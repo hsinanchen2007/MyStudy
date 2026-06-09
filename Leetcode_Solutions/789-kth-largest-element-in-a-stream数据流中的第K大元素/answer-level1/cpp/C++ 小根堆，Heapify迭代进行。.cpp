@@ -1,9 +1,9 @@
-### 解题思路
-#### 遍历数组，把元素存进大小为k的小根堆，可保证队头元素是第k大元素；如arr = [9,10,3,5,8], k = 3(4) MinHeap中包含前k大的元素：8,9,10(8,9,10,5),并且队头为第k大元素。一般Heapify使用递归或迭代，递归写法简单且容易理解，但效率比迭代低。
+// ### 解题思路
+// #### 遍历数组，把元素存进大小为k的小根堆，可保证队头元素是第k大元素；如arr = [9,10,3,5,8], k = 3(4) MinHeap中包含前k大的元素：8,9,10(8,9,10,5),并且队头为第k大元素。一般Heapify使用递归或迭代，递归写法简单且容易理解，但效率比迭代低。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class KthLargest {
 public:
     KthLargest(int k, vector<int>& nums) {
@@ -80,4 +80,4 @@ private:
  * KthLargest* obj = new KthLargest(k, nums);
  * int param_1 = obj->add(val);
  */
-```
+// ```

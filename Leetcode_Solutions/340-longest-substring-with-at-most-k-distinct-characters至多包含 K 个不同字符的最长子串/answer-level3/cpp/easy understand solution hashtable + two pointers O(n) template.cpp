@@ -1,5 +1,5 @@
-leetcode这种题比较常见，所有的子串问题都可以这么解决，比如每个字符至少k次的最长子串。
-```cpp
+// leetcode这种题比较常见，所有的子串问题都可以这么解决，比如每个字符至少k次的最长子串。
+// ```cpp
 class Solution {
 public:
     int lengthOfLongestSubstringKDistinct(string s, int k) {
@@ -16,4 +16,4 @@ public:
         return ans;
     }
 };
-```
+// ```

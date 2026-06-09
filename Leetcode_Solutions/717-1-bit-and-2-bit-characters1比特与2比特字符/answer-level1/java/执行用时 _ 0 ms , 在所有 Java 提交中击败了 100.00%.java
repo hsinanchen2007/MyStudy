@@ -1,10 +1,10 @@
-### 解题思路
-判断最后一个元素是否是10
-从头遍历数组，遇到1就跳过下一个
+// ### 解题思路
+// 判断最后一个元素是否是10
+// 从头遍历数组，遇到1就跳过下一个
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isOneBitCharacter(int[] bits) {
 
@@ -21,4 +21,4 @@ class Solution {
 		return false;
     }
 }
-```
+// ```

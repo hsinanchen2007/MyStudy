@@ -1,6 +1,6 @@
-![企业微信20200324093819.png](https://pic.leetcode-cn.com/543781bba27ddbf874267c15e9e122c588ccd74a1dcb4ead9771e227f3d4a986-%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A120200324093819.png)
+// ![企业微信20200324093819.png](https://pic.leetcode-cn.com/543781bba27ddbf874267c15e9e122c588ccd74a1dcb4ead9771e227f3d4a986-%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A120200324093819.png)
 
-```
+// ```
 class Solution {
     public boolean isAdditiveNumber(String num) {
         if (num.length() < 3)
@@ -84,4 +84,4 @@ class Solution {
         return array.length == size || add(array, j, k, size);
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-DFS标准形式
-```
+# DFS标准形式
+# ```
 class Solution(object):
     def findCircleNum(self, M):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                 cnt += 1
                 dfs(i)
         return cnt
-```
+# ```

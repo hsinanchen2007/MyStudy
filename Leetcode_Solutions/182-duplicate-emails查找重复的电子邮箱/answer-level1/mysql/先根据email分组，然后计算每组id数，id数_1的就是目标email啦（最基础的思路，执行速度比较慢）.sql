@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select email
 from person
@@ -12,4 +12,4 @@ where id in
   from person
   group by email
   having count(id)>1)
-```
+-- ```

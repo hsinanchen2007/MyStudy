@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
@@ -22,5 +22,5 @@ public:
         return l;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/52700a804004e41639397d1ba3e788d9c679e84204555b3b8287d7c5c3cfaf58-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/52700a804004e41639397d1ba3e788d9c679e84204555b3b8287d7c5c3cfaf58-image.png)

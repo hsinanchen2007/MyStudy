@@ -1,9 +1,9 @@
-### 解题思路
-二分加递归，主要是边界条件不好控制，摸索了很多遍
+// ### 解题思路
+// 二分加递归，主要是边界条件不好控制，摸索了很多遍
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ public:
         return node;
     }
 };
-```
+// ```

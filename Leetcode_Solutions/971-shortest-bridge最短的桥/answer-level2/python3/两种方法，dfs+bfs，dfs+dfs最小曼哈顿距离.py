@@ -1,8 +1,8 @@
-我这里两个方法速度差不多,宽搜略快一点。
+# 我这里两个方法速度差不多,宽搜略快一点。
 
-先深搜岛1边缘，然后宽搜扩张，遇到岛2就返回：
+# 先深搜岛1边缘，然后宽搜扩张，遇到岛2就返回：
 
-```
+# ```
 class Solution:
     def shortestBridge(self, A: List[List[int]]) -> int:
         m,n=len(A),len(A[0])
@@ -40,11 +40,11 @@ class Solution:
                                         tmp.add((x,y))
                         ans+=1
                         a=tmp
-```
+# ```
 
-先深搜岛1边缘，再深搜岛2边缘，再统计两个岛边缘各个点的最小曼哈顿距离，也能ac。
+# 先深搜岛1边缘，再深搜岛2边缘，再统计两个岛边缘各个点的最小曼哈顿距离，也能ac。
 
-```
+# ```
 class Solution:
     def shortestBridge(self, A: List[List[int]]) -> int:
         m,n=len(A),len(A[0])
@@ -93,4 +93,4 @@ class Solution:
                     else:
                         g(i,j)      #第二次深搜
                         return ans-1
-```
+# ```

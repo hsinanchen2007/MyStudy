@@ -1,5 +1,5 @@
-应该是比较典型的动规，就不写解释了。
-```go
+// 应该是比较典型的动规，就不写解释了。
+// ```go
 func numDistinct(s string, t string) int {
     dp := make([]int, len(t) + 1)
     dp[0] = 1
@@ -14,4 +14,4 @@ func numDistinct(s string, t string) int {
 
     return dp[len(t)]
 }
-```
+// ```

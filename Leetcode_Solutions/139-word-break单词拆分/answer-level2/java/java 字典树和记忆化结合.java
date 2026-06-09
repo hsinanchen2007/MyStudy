@@ -1,14 +1,14 @@
-## intro
+// ## intro
 
-看到这个题目，我首先的想法就是字典树。
+// 看到这个题目，我首先的想法就是字典树。
 
-因为给定的数据库有个字典数组，如果数组中的字符串有相同前缀，每次重复搜浪费了时间。
+// 因为给定的数据库有个字典数组，如果数组中的字符串有相同前缀，每次重复搜浪费了时间。
 
-然后看题解大家都是用的动态规划/记忆化，就写了个字典树的版本
+// 然后看题解大家都是用的动态规划/记忆化，就写了个字典树的版本
 
-## 代码
+// ## 代码
 
-```java
+// ```java
 
 class Solution {
 
@@ -62,12 +62,12 @@ class Solution {
         return helper(s, 0, s.length());
     }
 }
-```
+// ```
 
-## 结果
+// ## 结果
 
-- 36/36 cases passed (4 ms)
-- Your runtime beats 88.4 % of java submissions
-- Your memory usage beats 5.02 % of java submissions (42.1 MB)
+// - 36/36 cases passed (4 ms)
+// - Your runtime beats 88.4 % of java submissions
+// - Your memory usage beats 5.02 % of java submissions (42.1 MB)
 
-使用字典树和记忆化进行优化
+// 使用字典树和记忆化进行优化

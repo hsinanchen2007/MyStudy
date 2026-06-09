@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-# ***哈希表简单粗暴***
-![image.png](https://pic.leetcode-cn.com/6afb94cf06d6ad15d7fe924c570c899831f264ec2e15272d393f1b61b8fbed0a-image.png)
+// # ***哈希表简单粗暴***
+// ![image.png](https://pic.leetcode-cn.com/6afb94cf06d6ad15d7fe924c570c899831f264ec2e15272d393f1b61b8fbed0a-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minDominoRotations(int* A, int ASize, int* B, int BSize){
     int hash[7] = {0};
     for(int i=0; i<ASize; i++){
@@ -40,4 +40,4 @@ int minDominoRotations(int* A, int ASize, int* B, int BSize){
     return cnt1<cnt2?cnt1:cnt2;//返回较小者
 
 }
-```
+// ```

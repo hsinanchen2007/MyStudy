@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var uniqueOccurrences = function(arr) {
     let map = new Map()
     arr.forEach((item) => {
@@ -10,4 +10,4 @@ var uniqueOccurrences = function(arr) {
     })
     return map.size == new Set([...map.values()]).size
 };
-```
+// ```

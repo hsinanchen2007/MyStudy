@@ -1,6 +1,6 @@
-递归解法
+# 递归解法
 
-```python []
+# ```python []
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if len(strs) ==0:
@@ -14,6 +14,6 @@ class Solution:
             if i[0] not in a:
                 return ""
         return a[0] + self.longestCommonPrefix([i[1:] for i in strs])    
-```
+# ```
 
         

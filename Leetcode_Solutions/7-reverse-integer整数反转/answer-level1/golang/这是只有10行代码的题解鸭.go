@@ -1,5 +1,5 @@
 
-```golang []
+// ```golang []
 const maxInt = (1<<31 - 1) / 10
 const minInt = (-1 << 31) / 10
 
@@ -10,4 +10,4 @@ func reverse(x int) (ans int) {
 	}
 	return
 }
-```
+// ```

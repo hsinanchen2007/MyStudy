@@ -1,9 +1,9 @@
-### 解题思路
-利用栈和Map
+// ### 解题思路
+// 利用栈和Map
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -34,4 +34,4 @@ var isValid = function(s) {
 
   return !stack.length
 };
-```
+// ```

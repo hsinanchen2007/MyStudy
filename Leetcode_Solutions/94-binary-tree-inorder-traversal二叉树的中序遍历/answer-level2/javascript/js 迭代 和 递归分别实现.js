@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/80c5ff7b44ca3119b2df713e822ba6ce115caaf574a22b5a6fee523a77909236-image.png)
+// ![image.png](https://pic.leetcode-cn.com/80c5ff7b44ca3119b2df713e822ba6ce115caaf574a22b5a6fee523a77909236-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   迭代：利用队列
   
   1. 首先把根节点入队列
@@ -14,11 +14,11 @@
      
      置空是为了防止，下一次拿这个节点的时候它还有左、右子节点，按照
      上面的逻辑就死循环了
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -68,4 +68,4 @@ var inorderTraversal = function(root) {
   bst(root);
   return ans;
 };
-```
+// ```

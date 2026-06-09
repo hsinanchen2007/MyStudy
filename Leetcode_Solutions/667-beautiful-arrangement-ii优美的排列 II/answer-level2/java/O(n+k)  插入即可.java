@@ -1,4 +1,4 @@
-```
+// ```
     public int[] constructArray(int n, int k) {
         int[] nums = new int[n];
         for(int i=0;i<n;++i){
@@ -12,4 +12,4 @@
         }
        return nums;
     }
-```
+// ```

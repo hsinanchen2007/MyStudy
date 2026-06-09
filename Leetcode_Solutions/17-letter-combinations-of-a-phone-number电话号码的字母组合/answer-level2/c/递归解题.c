@@ -1,14 +1,14 @@
-### 解题思路
-递归解题，思路清晰，方便高效
-基于每个数字进行递归，深度优先遍历
+// ### 解题思路
+// 递归解题，思路清晰，方便高效
+// 基于每个数字进行递归，深度优先遍历
 
-![image.png](https://pic.leetcode-cn.com/3d36fd0224b703d143840d0466c6772fb3068ce32a16e8b365f733564985989c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3d36fd0224b703d143840d0466c6772fb3068ce32a16e8b365f733564985989c-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -83,4 +83,4 @@ char ** letterCombinations(char * digits, int* returnSize){
     //printf("END");
     return outString;
 }
-```
+// ```

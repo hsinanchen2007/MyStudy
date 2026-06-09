@@ -1,6 +1,6 @@
-### 计数实现
+// ### 计数实现
 
-```c
+// ```c
 class Solution {
 public:
     string compressString(string S) {
@@ -17,13 +17,13 @@ public:
         return res.size() >= S.size() ? S : res;
     }
 };
-```
+// ```
 
----
+// ---
 
-### 2. 双指针实现
+// ### 2. 双指针实现
 
-```c
+// ```c
 class Solution {
 public:
     string compressString(string S) {
@@ -42,4 +42,4 @@ public:
         return res.size() < S.size() ? res : S;
     }
 };
-```
+// ```

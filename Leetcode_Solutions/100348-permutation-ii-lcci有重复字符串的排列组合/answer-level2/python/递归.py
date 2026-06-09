@@ -1,5 +1,5 @@
-直接上代码看注释吧，思路就是算出每个字母的个数，然后用一个减一个
-```
+# 直接上代码看注释吧，思路就是算出每个字母的个数，然后用一个减一个
+# ```
 class Solution:
     def permutation(self, S: str) -> List[str]:
         if not S:
@@ -21,4 +21,4 @@ class Solution:
         
         helper('')
         return res
-```
+# ```

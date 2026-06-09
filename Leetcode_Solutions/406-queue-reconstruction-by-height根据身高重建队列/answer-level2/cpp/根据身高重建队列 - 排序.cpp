@@ -1,10 +1,10 @@
-### 解题思路
-1. 对于给定的整数对`(h,k)`按照身高`h`降序排列，若出现身高相同的，按照人数`k`升序排列
-2. 对`1.`排序后数组进行插入排序（按照`k`插入，非严格插入排序）
+// ### 解题思路
+// 1. 对于给定的整数对`(h,k)`按照身高`h`降序排列，若出现身高相同的，按照人数`k`升序排列
+// 2. 对`1.`排序后数组进行插入排序（按照`k`插入，非严格插入排序）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
@@ -20,4 +20,4 @@ public:
         return vector<vector<int>>(tmp.begin(), tmp.end());
     }
 };
-```
+// ```

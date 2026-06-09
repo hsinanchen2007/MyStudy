@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口的解题思路，由于和小于sum时，r多往后移了一位，所以再计算长度时，直接计算R-L就可
+// ### 解题思路
+// 滑动窗口的解题思路，由于和小于sum时，r多往后移了一位，所以再计算长度时，直接计算R-L就可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums) {
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

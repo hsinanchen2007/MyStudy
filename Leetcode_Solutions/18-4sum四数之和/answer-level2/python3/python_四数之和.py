@@ -1,10 +1,10 @@
-### 解题思路
-三指针法：
-和三数之和思路一模一样，未来的五六七数之和也是一样
+# ### 解题思路
+# 三指针法：
+# 和三数之和思路一模一样，未来的五六七数之和也是一样
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         result = []
@@ -47,4 +47,4 @@ class Solution:
                     elif curr < target:
                         j += 1
         return result
-```
+# ```

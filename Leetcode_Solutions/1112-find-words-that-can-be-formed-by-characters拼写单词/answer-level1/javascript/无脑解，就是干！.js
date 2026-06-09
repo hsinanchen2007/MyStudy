@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var countCharacters = function(words, chars) {
     let n = 0;
     for(let word of words) {
@@ -19,4 +19,4 @@ var countCharacters = function(words, chars) {
     }
     return n;
 };
-```
+// ```

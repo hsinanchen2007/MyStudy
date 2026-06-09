@@ -1,5 +1,5 @@
-自己根据官方解法写了一个Ruby版，😂不得不说困难的题还是的确有些难度的
-```ruby
+# 自己根据官方解法写了一个Ruby版，😂不得不说困难的题还是的确有些难度的
+# ```ruby
 # @param {Integer[]} nums1
 # @param {Integer[]} nums2
 # @return {Float}                
@@ -55,4 +55,4 @@ def find_median_sorted_arrays(nums1, nums2)
     end
     return 0.0   
 end
-```
+# ```

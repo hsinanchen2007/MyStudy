@@ -1,9 +1,9 @@
-### 解题思路
-注意这里python得负数表示
+# ### 解题思路
+# 注意这里python得负数表示
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def convertInteger(self, A: int, B: int) -> int:
         ans=0
@@ -13,4 +13,4 @@ class Solution:
             ans+=(A&1)^(B&1)
             A,B=A>>1,B>>1
         return ans            
-```
+# ```

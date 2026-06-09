@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1. 因子都是从 2 开始， 最大应该是 n/2.
-2. i = {2,3,...,n/2}, 依次尝试，如果， n%i == 0, 
+// ### 解题思路
+// 此处撰写解题思路
+// 1. 因子都是从 2 开始， 最大应该是 n/2.
+// 2. i = {2,3,...,n/2}, 依次尝试，如果， n%i == 0, 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int ret[2024][2024], totalSize = 0;
 int totalColSize[2024];
 int cur_ret_col;
@@ -68,4 +68,4 @@ int** getFactors(int n, int* returnSize, int** returnColumnSizes){
 }
 
 
-```
+// ```

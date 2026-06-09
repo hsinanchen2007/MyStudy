@@ -1,8 +1,8 @@
-### 解题思路
-![新建位图图像.bmp](https://pic.leetcode-cn.com/ec92c4d33e0c190c682123a771cf103223448ee621750efcf5690a3d6d843f9c-%E6%96%B0%E5%BB%BA%E4%BD%8D%E5%9B%BE%E5%9B%BE%E5%83%8F.bmp)
-### 代码
+// ### 解题思路
+// ![新建位图图像.bmp](https://pic.leetcode-cn.com/ec92c4d33e0c190c682123a771cf103223448ee621750efcf5690a3d6d843f9c-%E6%96%B0%E5%BB%BA%E4%BD%8D%E5%9B%BE%E5%9B%BE%E5%83%8F.bmp)
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -36,4 +36,4 @@ public class Solution {
     }
     
 }
-```
+// ```

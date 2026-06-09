@@ -1,7 +1,7 @@
 
-基于数组构建栈，min变量记录最小值。pop操作有可能需要遍历更新min，其他情况都O(1), 击败90+%
+// 基于数组构建栈，min变量记录最小值。pop操作有可能需要遍历更新min，其他情况都O(1), 击败90+%
 
-```go
+// ```go
 package lt155
 
 import "math"
@@ -108,4 +108,4 @@ func (this *MinStack) GetMin() int {
  * param_3 := obj.Top();
  * param_4 := obj.GetMin();
  */
-```
+// ```

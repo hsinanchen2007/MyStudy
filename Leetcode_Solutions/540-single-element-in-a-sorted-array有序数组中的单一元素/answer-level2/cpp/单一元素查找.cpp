@@ -1,4 +1,4 @@
-题目条件有限制，导致这道题目变成了水题，只需要判断偶数位置上的数字是否与其位置上+1的元素相同就可以了，element_type是int。
+// 题目条件有限制，导致这道题目变成了水题，只需要判断偶数位置上的数字是否与其位置上+1的元素相同就可以了，element_type是int。
 class Solution {
 public:
 	int singleNonDuplicate(vector<int>& nums) {

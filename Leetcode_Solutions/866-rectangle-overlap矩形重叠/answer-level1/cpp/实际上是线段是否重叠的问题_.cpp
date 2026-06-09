@@ -1,6 +1,6 @@
-## 解题思路:
+// ## 解题思路:
 
-1. 将矩形A, B的宽分别投影到x轴, 得到下面的情况
+// 1. 将矩形A, B的宽分别投影到x轴, 得到下面的情况
     
     
 ![a.png](https://pic.leetcode-cn.com/5c6e3b7d9dd22da402b59c0de108166907a0db2a3baae8ebb176f344673cf7f9-a.png)

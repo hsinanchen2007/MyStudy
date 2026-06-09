@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int lengthOfLastWord(std::string s) 
@@ -18,4 +18,4 @@ public:
         return res;
     }
 };
-```
+// ```

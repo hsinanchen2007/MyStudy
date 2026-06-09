@@ -1,4 +1,4 @@
-```
+# ```
 '''
 LeetCode 655. 输出二叉树
 Print a binary tree in an m*n 2D string array following these rules:
@@ -144,4 +144,4 @@ class Solution:
         if not root:
             return 0
         return max([self.getDepth(root.left), self.getDepth(root.right)]) + 1 # 求深度就是递归左右，递归一次深度+1
-```
+# ```

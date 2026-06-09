@@ -1,8 +1,8 @@
-### 解题思路
-利用二分查找中的左边界查找和右边界查找
-### 代码
+// ### 解题思路
+// 利用二分查找中的左边界查找和右边界查找
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -32,4 +32,4 @@ public:
         return ans;
     }
 };
-```
+// ```

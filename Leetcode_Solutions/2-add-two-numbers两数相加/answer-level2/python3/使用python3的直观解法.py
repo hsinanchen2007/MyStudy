@@ -1,10 +1,10 @@
-### 解题思路
-依次读取链表值，乘以相应的10的i次方，加到数中；
-计算两数之和，转换为字符串列表，再生成数字链表。
+# ### 解题思路
+# 依次读取链表值，乘以相应的10的i次方，加到数中；
+# 计算两数之和，转换为字符串列表，再生成数字链表。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
             position = position.next
         return resList
 
-```
+# ```

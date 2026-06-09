@@ -1,4 +1,4 @@
-# 萌新一枚，望各路大神多多指正
+// # 萌新一枚，望各路大神多多指正
 /**
  * @param {number[]} prices
  * @return {number}

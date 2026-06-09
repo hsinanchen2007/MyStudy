@@ -1,6 +1,6 @@
-看到很多都是java和python的题解代码，就上传一个C++的代码。
-递归实现，效率中上，抛砖引玉。
-```
+// 看到很多都是java和python的题解代码，就上传一个C++的代码。
+// 递归实现，效率中上，抛砖引玉。
+// ```
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
@@ -43,5 +43,5 @@ public:
         }
     }
 };
-```
+// ```
 

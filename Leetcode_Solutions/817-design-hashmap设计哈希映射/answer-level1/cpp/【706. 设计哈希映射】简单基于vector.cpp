@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class MyHashMap {
     vector<int> hash;
 public:
@@ -24,4 +24,4 @@ public:
         hash[key] = -1;
     }
 };
-```
+// ```

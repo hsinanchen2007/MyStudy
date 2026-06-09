@@ -1,9 +1,9 @@
-### 解题思路
-借鉴的别人的！
+// ### 解题思路
+// 借鉴的别人的！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numDecodings(string s) {
@@ -34,4 +34,4 @@ return dp[n-1];
         
     }
 };
-```
+// ```

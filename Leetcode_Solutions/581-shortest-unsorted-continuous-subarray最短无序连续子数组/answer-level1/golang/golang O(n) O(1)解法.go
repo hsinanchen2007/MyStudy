@@ -1,9 +1,9 @@
-### 解题思路
-排序一下然后对比根本就不是这个题的考点
+// ### 解题思路
+// 排序一下然后对比根本就不是这个题的考点
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findUnsortedSubarray(nums []int) int {
 	var m,n int
 	var min, max int
@@ -50,4 +50,4 @@ func findUnsortedSubarray(nums []int) int {
 
 	return n - m + 1
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-itertools包中的groupby中的分组性质是将连续的相同元素划分为一组，这一性质恰巧可以用在此处
-### 代码
+# ### 解题思路
+# itertools包中的groupby中的分组性质是将连续的相同元素划分为一组，这一性质恰巧可以用在此处
+# ### 代码
 
-```python3
+# ```python3
 from itertools import groupby
 class Solution:
     def compressString(self, S: str) -> str:
@@ -14,4 +14,4 @@ class Solution:
                 return S
             else:
                 return short_s
-```
+# ```

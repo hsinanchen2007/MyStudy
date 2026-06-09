@@ -1,6 +1,6 @@
-执行用时 :0 ms, 在所有 C 提交中击败了100.00% 的用户
-内存消耗 :7.2 MB, 在所有 C 提交中击败了100.00%的用户
-```
+// 执行用时 :0 ms, 在所有 C 提交中击败了100.00% 的用户
+// 内存消耗 :7.2 MB, 在所有 C 提交中击败了100.00%的用户
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -54,4 +54,4 @@ struct TreeNode* invertTree(struct TreeNode* root)
   
   return root;
 }
-```
+// ```

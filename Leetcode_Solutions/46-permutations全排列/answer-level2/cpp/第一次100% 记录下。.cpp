@@ -1,14 +1,14 @@
 
-执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
-内存消耗 :9.3 MB, 在所有 C++ 提交中击败了57.55%的用户
+// 执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
+// 内存消耗 :9.3 MB, 在所有 C++ 提交中击败了57.55%的用户
 
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void backTrack(vector<int>& nums, int index, vector<vector<int>>& table)
@@ -31,4 +31,4 @@ public:
         return table;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-核心思路，建立2个栈，s1,s2，定义移动栈的函数movestack(s1,s2)
-push时，movestack(s2,s1) s1.push(x);
-pop时，move(s1,s2) s2.pop();
-top时 move(s1,s2) return s2.top()
-empty则判断s1.empty() && s2.empty()
-```
+// 核心思路，建立2个栈，s1,s2，定义移动栈的函数movestack(s1,s2)
+// push时，movestack(s2,s1) s1.push(x);
+// pop时，move(s1,s2) s2.pop();
+// top时 move(s1,s2) return s2.top()
+// empty则判断s1.empty() && s2.empty()
+// ```
 #include<stack>
 using namespace std;
 class MyQueue {
@@ -51,4 +51,4 @@ private:
     stack<int> s2;
 };
 
-```
+// ```

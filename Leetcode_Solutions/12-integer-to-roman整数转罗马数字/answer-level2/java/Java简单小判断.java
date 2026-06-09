@@ -1,4 +1,4 @@
-按照每位整数位置进行判断。
+// 按照每位整数位置进行判断。
 
     public static void main(String[] args) {
         int num=1994;

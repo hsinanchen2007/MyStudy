@@ -1,9 +1,9 @@
-### 解题思路
-思路就是遍历链表的同时计数，这样可以提高效率
+// ### 解题思路
+// 思路就是遍历链表的同时计数，这样可以提高效率
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,7 +29,7 @@ struct ListNode* middleNode(struct ListNode* head)
     }
     return p;
 }
-```
+// ```
 
 
 

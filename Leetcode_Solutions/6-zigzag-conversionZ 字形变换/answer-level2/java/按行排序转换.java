@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-见代码注释
+// 见代码注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String convert(String s, int numRows) {
         //按行排序
@@ -32,4 +32,4 @@ class Solution {
         return res.toString();
     }
 }
-```
+// ```

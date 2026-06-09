@@ -1,9 +1,9 @@
-### 解题思路
-参考岛屿数量问题
+# ### 解题思路
+# 参考岛屿数量问题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     direction = [[0,1],[1,0],[0,-1],[-1,0]]  #右->下->左->上
     def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:
@@ -25,4 +25,4 @@ class Solution:
         
 
         
-```
+# ```

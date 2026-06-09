@@ -1,9 +1,9 @@
-### 解题思路
-本题，此处用到了C语言字符串的strstr函数，qsort函数和strcmp函数，如有不熟悉，可上网查询，本处不做赘述。
+// ### 解题思路
+// 本题，此处用到了C语言字符串的strstr函数，qsort函数和strcmp函数，如有不熟悉，可上网查询，本处不做赘述。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(char **a,char **b){
     return (strlen(*a)-strlen(*b));
 }
@@ -37,4 +37,4 @@ int minimumLengthEncoding(char ** words, int wordsSize){
     return cnt;
     
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-把整形换成字符串，用字符串分割的方法判断，不确定是否增加内存空间的使用
+// ### 解题思路
+// 把整形换成字符串，用字符串分割的方法判断，不确定是否增加内存空间的使用
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         String n = String.valueOf(x);
@@ -18,4 +18,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

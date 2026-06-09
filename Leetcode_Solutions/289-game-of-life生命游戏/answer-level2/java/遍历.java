@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
 int [] neb = {0,1,-1};
@@ -69,4 +69,4 @@ if(temp == 1)
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func nthUglyNumber(n int) int {
 	sl := []int{1}
 	var c2, c3, c5 int
@@ -25,4 +25,4 @@ func nthUglyNumber(n int) int {
 	return sl[len(sl)-1]
 }
 
-```
+// ```

@@ -1,8 +1,8 @@
-Improvement of [(Python) DFS with stand-alone traversal on right boundary nodes](https://leetcode-cn.com/problems/boundary-of-binary-tree/solution/python-dfs-with-stand-alone-traversal-on-right-bou/). Clean one time DFS traversal, preorder for left nodes and postorder for right nodes.
+# Improvement of [(Python) DFS with stand-alone traversal on right boundary nodes](https://leetcode-cn.com/problems/boundary-of-binary-tree/solution/python-dfs-with-stand-alone-traversal-on-right-bou/). Clean one time DFS traversal, preorder for left nodes and postorder for right nodes.
 
 
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -65,6 +65,6 @@ class Solution:
         right_result.reverse()
 
         return [root.val] + left_result + right_result
-```
+# ```
 
-![Screen Shot 2020-01-12 at 17.44.55.png](https://pic.leetcode-cn.com/5d728f7793ed261026d8c92ce85842b2c05582ac789eedce22dcc1ecbbd44d9d-Screen%20Shot%202020-01-12%20at%2017.44.55.png)
+# ![Screen Shot 2020-01-12 at 17.44.55.png](https://pic.leetcode-cn.com/5d728f7793ed261026d8c92ce85842b2c05582ac789eedce22dcc1ecbbd44d9d-Screen%20Shot%202020-01-12%20at%2017.44.55.png)

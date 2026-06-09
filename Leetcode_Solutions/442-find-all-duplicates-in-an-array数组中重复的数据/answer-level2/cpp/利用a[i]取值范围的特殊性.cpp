@@ -1,8 +1,8 @@
-### 解题思路
-由题知，a[i] 位于 [1,n]之间，考虑将a[i]放置于数组中的第i个位置即可，
-### 代码
+// ### 解题思路
+// 由题知，a[i] 位于 [1,n]之间，考虑将a[i]放置于数组中的第i个位置即可，
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findDuplicates(vector<int>& nums) {
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

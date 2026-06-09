@@ -1,7 +1,7 @@
-类似进制转换，只是多了个位取反
+// 类似进制转换，只是多了个位取反
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int findComplement(int num) {
@@ -15,4 +15,4 @@ public:
         return ans;
     }
 };
-```
+// ```

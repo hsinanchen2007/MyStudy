@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     double champagneTower(int poured, int query_row, int query_glass) {
@@ -39,4 +39,4 @@ public:
         return 0.0;    
     }
 };
-```
+// ```

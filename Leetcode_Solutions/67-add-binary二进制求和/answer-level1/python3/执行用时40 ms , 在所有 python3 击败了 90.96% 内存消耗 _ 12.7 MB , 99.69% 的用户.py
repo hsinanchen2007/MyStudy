@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         a1=0
@@ -13,4 +13,4 @@ class Solution:
         for i in b:
             b1 =b1*2+int(i)
         return bin(a1+b1)[2:]
-```
+# ```

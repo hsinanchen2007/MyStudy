@@ -1,4 +1,4 @@
-简单粗暴，利用stack先进后出的特点，实现自底向上：用stack<vector<int>>先缓存结果，然后再一个个输出到vector<vector<int>>。
+// 简单粗暴，利用stack先进后出的特点，实现自底向上：用stack<vector<int>>先缓存结果，然后再一个个输出到vector<vector<int>>。
 
 class Solution {
 public:

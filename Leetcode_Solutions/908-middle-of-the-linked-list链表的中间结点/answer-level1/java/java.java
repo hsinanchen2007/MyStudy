@@ -1,8 +1,8 @@
-### 解题思路
-递归查找Listnode长度。四舍五入找出中间的值。
-### 代码
+// ### 解题思路
+// 递归查找Listnode长度。四舍五入找出中间的值。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

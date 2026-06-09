@@ -1,9 +1,9 @@
-### 解题思路
-二分查找
+// ### 解题思路
+// 二分查找
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class TopVotedCandidate {
     vector<int> time;
     vector<int> who;
@@ -60,4 +60,4 @@ public:
  * TopVotedCandidate* obj = new TopVotedCandidate(persons, times);
  * int param_1 = obj->q(t);
  */
-```
+// ```

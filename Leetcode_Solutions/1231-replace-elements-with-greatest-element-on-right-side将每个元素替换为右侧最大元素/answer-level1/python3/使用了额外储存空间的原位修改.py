@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
         temp = arr.copy()
@@ -6,4 +6,4 @@ class Solution:
             arr[i-1] = max(arr[i], temp[i])
         arr[-1] = -1
         return arr
-```
+# ```

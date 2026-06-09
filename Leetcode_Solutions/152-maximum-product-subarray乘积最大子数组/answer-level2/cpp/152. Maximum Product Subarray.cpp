@@ -1,11 +1,11 @@
-### 解题思路
-DP
-注意状态转移方程是否经得起推敲
-![a5306c52dbd3e1c17abb18d5cece0a7.jpg](https://pic.leetcode-cn.com/e88e13f8b8396b0df08d24cbba4a2cfb59b78b76100e7a8222c35984657d6713-a5306c52dbd3e1c17abb18d5cece0a7.jpg)
+// ### 解题思路
+// DP
+// 注意状态转移方程是否经得起推敲
+// ![a5306c52dbd3e1c17abb18d5cece0a7.jpg](https://pic.leetcode-cn.com/e88e13f8b8396b0df08d24cbba4a2cfb59b78b76100e7a8222c35984657d6713-a5306c52dbd3e1c17abb18d5cece0a7.jpg)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     //考虑穷举情况下，时间复杂度O(N2),那么动态规划应该会优化到O(N)
     //dp[i] 前i项最大的乘积???
@@ -33,4 +33,4 @@ public:
         return ret;
     }
 };
-```
+// ```

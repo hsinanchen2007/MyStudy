@@ -1,4 +1,4 @@
-```Python
+# ```Python
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if not intervals:
@@ -14,4 +14,4 @@ class Solution:
                 period_end = max(period_end, end)
         res.append([period_start, period_end])
         return res
-```
+# ```

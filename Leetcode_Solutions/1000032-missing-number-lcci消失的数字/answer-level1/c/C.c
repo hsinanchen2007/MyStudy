@@ -1,4 +1,4 @@
-```
+// ```
 int missingNumber(int* nums, int numsSize){
     int sum = 0;
 
@@ -8,4 +8,4 @@ int missingNumber(int* nums, int numsSize){
 
     return (1 + numsSize) * numsSize / 2 - sum;
 }
-```
+// ```

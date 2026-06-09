@@ -1,4 +1,4 @@
-```
+// ```
 var containsDuplicate = function(nums) {
     var obj = {}; // 存储元素出现次数
     for(var i=0; i<nums.length; i++) {
@@ -10,4 +10,4 @@ var containsDuplicate = function(nums) {
     }
     return false;
 };
-```
+// ```

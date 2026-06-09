@@ -1,16 +1,16 @@
-### 解题思路
-分析：链表操作、相加进位
+# ### 解题思路
+# 分析：链表操作、相加进位
 
-按节点相加
-注意保留起始节点指针
-循环递归都能完成
+# 按节点相加
+# 注意保留起始节点指针
+# 循环递归都能完成
 
-骚操作：全部转换为字符串，进位默认隐藏在转换过程中，但我觉得意义不大，复杂度没有降低，常规算法封装一下就是操作符重载
+# 骚操作：全部转换为字符串，进位默认隐藏在转换过程中，但我觉得意义不大，复杂度没有降低，常规算法封装一下就是操作符重载
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -43,8 +43,8 @@ class Solution:
             newNode.val=(sum+1)%10 if flag==1 else sum%10
             flag=1 if sum+flag>9 else 0 
         return ansNode
-```
-```python3
+# ```
+# ```python3
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         newNode=ListNode(0)
@@ -64,4 +64,4 @@ class Solution:
         if flag==1:
             newNode.val=1
         return ansNode
-```
+# ```

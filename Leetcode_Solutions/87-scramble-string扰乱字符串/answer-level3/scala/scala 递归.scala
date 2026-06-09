@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def isScramble(s1: String, s2: String): Boolean = {
     if (s1 == s2) return true
@@ -13,4 +13,4 @@ object Solution {
     false
   }
 }
-```
+// ```

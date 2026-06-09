@@ -1,6 +1,6 @@
-C++题解，通过方向变量dir以及防止重复的路径矩阵h来进行螺旋路径的遍历。
-h[][]是一个二维矩阵代表已经走过的点。
-```
+// C++题解，通过方向变量dir以及防止重复的路径矩阵h来进行螺旋路径的遍历。
+// h[][]是一个二维矩阵代表已经走过的点。
+// ```
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
@@ -47,4 +47,4 @@ public:
         
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func decompressRLElist(nums []int) []int {
     var i int
     var List []int
@@ -20,4 +20,4 @@ func Unzip(freq, val int) []int{
     }
     return subList
 }
-```
+// ```

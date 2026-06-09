@@ -1,5 +1,5 @@
-相比较上一题只需要记住上一个数据就行，然后进行for循环，但是效率不高啊
-```
+// 相比较上一题只需要记住上一个数据就行，然后进行for循环，但是效率不高啊
+// ```
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> list = new ArrayList<>(1);
@@ -16,4 +16,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

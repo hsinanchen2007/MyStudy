@@ -1,4 +1,4 @@
-```
+// ```
 class MyStack {
 	Queue<Integer> queue;
 	Queue<Integer> helpQueue;
@@ -44,4 +44,4 @@ class MyStack {
 		return queue.isEmpty();
 	}
 }
-```
+// ```

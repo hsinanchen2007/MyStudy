@@ -1,11 +1,11 @@
-### 解题思路
-对于二叉数的递归，我们只要想清楚当前的root需要干什么就行！如下图
-![image.png](https://pic.leetcode-cn.com/085c8bc12439e3af744d9b6029daac7b87388af449b9f0f3c73149b350edd5d2-image.png)
+# ### 解题思路
+# 对于二叉数的递归，我们只要想清楚当前的root需要干什么就行！如下图
+# ![image.png](https://pic.leetcode-cn.com/085c8bc12439e3af744d9b6029daac7b87388af449b9f0f3c73149b350edd5d2-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
         
         return dfs(root, L, R)
 
-```
+# ```

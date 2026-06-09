@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-No string 解答回环数判断，核心为10进制的数问题。任何数都可以表示为 十进制数的特点=10^2*k+10^1*j+10^0*l
-that is the essence. 10进制数的表示方法，科学计数法。
-                                       Remember that air is no man. 
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# No string 解答回环数判断，核心为10进制的数问题。任何数都可以表示为 十进制数的特点=10^2*k+10^1*j+10^0*l
+# that is the essence. 10进制数的表示方法，科学计数法。
+#                                        Remember that air is no man. 
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         # num-1 == num-size
@@ -55,4 +55,4 @@ class Solution:
         return True
 
 
-```
+# ```

@@ -1,8 +1,8 @@
-IPv4先用正则匹配出格式，再split一下每一段确保在0-255之间
-IPv6直接用正则就好
-小技巧：可以先给IP补上"."号或":"号，以方便匹配
+# IPv4先用正则匹配出格式，再split一下每一段确保在0-255之间
+# IPv6直接用正则就好
+# 小技巧：可以先给IP补上"."号或":"号，以方便匹配
 
-```
+# ```
 class Solution:
     def validIPAddress(self, IP: str) -> str:
         if self.isIPv4(IP):
@@ -40,6 +40,6 @@ class Solution:
             return False
         return True
                 
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/20ba4f6e01ab18faa6263a9a2e8c9eb6a4049b2bdcb8ea91a9c08dd26fbe4c9f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/20ba4f6e01ab18faa6263a9a2e8c9eb6a4049b2bdcb8ea91a9c08dd26fbe4c9f-image.png)

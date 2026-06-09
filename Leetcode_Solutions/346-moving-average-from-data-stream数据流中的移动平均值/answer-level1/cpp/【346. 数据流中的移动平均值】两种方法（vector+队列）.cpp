@@ -1,7 +1,7 @@
-## 思路一：使用vector
-### 代码
-缺点：浪费空间，vector之前的空间被浪费。
-```c++
+// ## 思路一：使用vector
+// ### 代码
+// 缺点：浪费空间，vector之前的空间被浪费。
+// ```c++
 class MovingAverage {
     vector<int> data;
     int windowSize;
@@ -24,11 +24,11 @@ public:
         return sum * 1.0 / k;
     }
 };
-```
+// ```
 
-## 思路二：使用队列
-### 代码
-```c++
+// ## 思路二：使用队列
+// ### 代码
+// ```c++
 class MovingAverage {
     queue<int> que;
     int windowSize;
@@ -53,5 +53,5 @@ public:
         return sum / que.size();
     }
 };
-```
+// ```
 

@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/7ece708f3d9bb5079870cf323ad83081ced785261218c5ae362e7a0ee8548c63-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/7ece708f3d9bb5079870cf323ad83081ced785261218c5ae362e7a0ee8548c63-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestValidParentheses(string s) {
@@ -43,4 +43,4 @@ public:
     }
 
 };
-```
+// ```

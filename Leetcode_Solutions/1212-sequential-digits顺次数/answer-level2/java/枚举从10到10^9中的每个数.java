@@ -1,6 +1,6 @@
-枚举从10到10^9中的每个数, 因为10到10^9的顺次数才36个.
+// 枚举从10到10^9中的每个数, 因为10到10^9的顺次数才36个.
 
-```java
+// ```java
 List<Integer> result = new ArrayList<>();
 // 从2位数循环到9位数
 for (int bit = 2; bit <= 9; bit++) {
@@ -17,4 +17,4 @@ for (int bit = 2; bit <= 9; bit++) {
     }
 }
 return result;
-```
+// ```

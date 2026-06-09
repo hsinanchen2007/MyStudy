@@ -1,4 +1,4 @@
-```
+// ```
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     int i = m - 1, j = n - 1, k = m + n - 1;
     while(i >= 0 && j >= 0)
@@ -8,4 +8,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     }
     while(j >= 0) A[k--] = B[j--];
 }
-```
+// ```

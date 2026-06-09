@@ -1,5 +1,5 @@
-dfs，在搜索过程中利用上次的结果求树的和，只需要重新加一次，时间复杂度是O(n)。bfs妥妥超时，不能利用储存结果，每次都要重新计算树和，时间复杂度约为O(n^2)。
-```
+# dfs，在搜索过程中利用上次的结果求树的和，只需要重新加一次，时间复杂度是O(n)。bfs妥妥超时，不能利用储存结果，每次都要重新计算树和，时间复杂度约为O(n^2)。
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
         self.dfs_find(root)
         return self.re * (self.tot - self.re) % (10**9 + 7)
             
-```
+# ```

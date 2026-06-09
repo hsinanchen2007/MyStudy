@@ -1,11 +1,11 @@
-### 解题思路
-感觉这个题类似于js的大数加法   同样的思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/ed2bb1ee320becde1fd72b5ec9e3d6b839b62b9baa62319e1c8519daf5245d3f-image.png)
+// ### 解题思路
+// 感觉这个题类似于js的大数加法   同样的思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/ed2bb1ee320becde1fd72b5ec9e3d6b839b62b9baa62319e1c8519daf5245d3f-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} K
@@ -23,4 +23,4 @@ var addToArrayForm = function(A, K) {
    
     return res.split("")
 };
-```
+// ```

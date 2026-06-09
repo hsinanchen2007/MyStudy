@@ -1,6 +1,6 @@
-官方题解"分治法" 的C语言实现
+// 官方题解"分治法" 的C语言实现
 
-```C
+// ```C
 struct ListNode *merge2Lists(struct ListNode *list1, struct ListNode *list2, struct ListNode *head)
 {
     head->next = list1;
@@ -39,4 +39,4 @@ struct ListNode *mergeKLists(struct ListNode **lists, int listsSize)
     free(head);
     return lists[0];
 }
-```
+// ```

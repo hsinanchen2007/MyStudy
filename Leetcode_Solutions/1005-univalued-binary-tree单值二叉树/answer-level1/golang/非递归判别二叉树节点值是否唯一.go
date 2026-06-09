@@ -1,5 +1,5 @@
-借用“栈”实现非递归前序遍历二叉树，每次出栈元素值和二叉树根节点值进行比较即可。
-```
+// 借用“栈”实现非递归前序遍历二叉树，每次出栈元素值和二叉树根节点值进行比较即可。
+// ```
 func isUnivalTree(root *TreeNode) bool {
     if root == nil {
         return true
@@ -24,4 +24,4 @@ func isUnivalTree(root *TreeNode) bool {
     
     return true
 }
-```
+// ```

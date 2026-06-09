@@ -1,12 +1,12 @@
-### 解题思路
-满足条件的场景比较好理解，最难理解的是如何使用代码描绘这个场景
+// ### 解题思路
+// 满足条件的场景比较好理解，最难理解的是如何使用代码描绘这个场景
 
 
-### 代码
-方案一：
-答案就是题目的答案，主要是理解各个条件，实际就是数组代表的是个数，一定要找到最大个数的位置，然后使用这个计算，代码参考如下：
+// ### 代码
+// 方案一：
+// 答案就是题目的答案，主要是理解各个条件，实际就是数组代表的是个数，一定要找到最大个数的位置，然后使用这个计算，代码参考如下：
 
-```c
+// ```c
 #define MIN_SORT_SIZE 3
 #define MAX_ELEMENT_VAL 100001
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
@@ -83,11 +83,11 @@ int maxEqualFreq(const int *nums, int numsSize)
     free(countNum);
     return maxLen;
 }
-```
+// ```
 
-方案二：
-我自己写的，比较好理解，但是，超时
-```
+// 方案二：
+// 我自己写的，比较好理解，但是，超时
+// ```
 #define MIN_SORT_SIZE 3
 #ifndef MAX
 #define MAX(a, b) (((a) > (b)) ? (a) : (b))
@@ -222,4 +222,4 @@ int maxEqualFreq(const int *nums, int numsSize)
     free(equalList);
     return maxLen;
 }
-```
+// ```

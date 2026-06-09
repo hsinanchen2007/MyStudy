@@ -1,12 +1,12 @@
 
- ![image.png](https://pic.leetcode-cn.com/d2ccfb3f6494a703de0afb422bfa8049bfdb9a9fabc338e5a51bae81710cacd7-image.png)
-递归：
-![image.png](https://pic.leetcode-cn.com/55480b9d479cd89f6db7b0795c29adc9be11fe1e2e366055bcd9b4238010bde8-image.png)
+//  ![image.png](https://pic.leetcode-cn.com/d2ccfb3f6494a703de0afb422bfa8049bfdb9a9fabc338e5a51bae81710cacd7-image.png)
+// 递归：
+// ![image.png](https://pic.leetcode-cn.com/55480b9d479cd89f6db7b0795c29adc9be11fe1e2e366055bcd9b4238010bde8-image.png)
 
 
-# 代码：
-第一种方法：
-```
+// # 代码：
+// 第一种方法：
+// ```
 
 char ** letterCasePermutation(char * S, int* returnSize){
     int count = 0, stringlen = strlen(S) + 1,currenlen = 1,j = 0;
@@ -40,9 +40,9 @@ char ** letterCasePermutation(char * S, int* returnSize){
     return ans;
 }
 
-```
-第二种方法（递归）
-```
+// ```
+// 第二种方法（递归）
+// ```
 void recursionPermutaion(char ***ans, int* currlen, char *S, int index,char **prototype);
 
 char ** letterCasePermutation(char * S, int* returnSize){
@@ -81,5 +81,5 @@ void recursionPermutaion(char ***ans, int* currlen, char *S, int index,char **pr
     }
     return;
 }
-```
+// ```
 

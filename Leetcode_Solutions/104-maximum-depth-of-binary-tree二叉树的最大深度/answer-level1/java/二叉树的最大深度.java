@@ -1,6 +1,6 @@
-迭代
-树的深度遍历类似
-```
+// 迭代
+// 树的深度遍历类似
+// ```
 if (root == null){
             return 0;
         }
@@ -21,13 +21,13 @@ if (root == null){
             level ++;
         }
         return level;
-```
+// ```
 
 
-递归
-```
+// 递归
+// ```
 if (root == null){
             return 0;
         }
         return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
-```
+// ```

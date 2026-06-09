@@ -1,9 +1,9 @@
-### 解题思路
-dijkstr经典算法，求最短路径，可以参考链接：https://www.cnblogs.com/skywang12345/p/3711512.html#anchor2，大佬讲的很详细。
+// ### 解题思路
+// dijkstr经典算法，求最短路径，可以参考链接：https://www.cnblogs.com/skywang12345/p/3711512.html#anchor2，大佬讲的很详细。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_NODE_LEN 101
 #define MAXVALUE 65535
 
@@ -78,4 +78,4 @@ int networkDelayTime(int **times, int timesSize, int* timesColSize, int N, int K
 	return Dijkstra(times, timesSize, K, N);
 }
 
-```
+// ```

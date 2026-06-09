@@ -1,11 +1,11 @@
-### 解题思路
-中序遍历： 算出数组中间的索引。
-创建TreeNode，递归求出左右节点。
+// ### 解题思路
+// 中序遍历： 算出数组中间的索引。
+// 创建TreeNode，递归求出左右节点。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
     }
 
 }
-```
+// ```

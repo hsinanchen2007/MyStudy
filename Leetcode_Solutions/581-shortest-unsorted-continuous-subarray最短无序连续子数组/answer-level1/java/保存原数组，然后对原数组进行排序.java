@@ -1,9 +1,9 @@
-### 解题思路
-对原数组排序后，与未排序的数组进行比较，计算最短子串长度
+// ### 解题思路
+// 对原数组排序后，与未排序的数组进行比较，计算最短子串长度
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findUnsortedSubarray(int[] nums) {
         if(nums == null || nums.length == 0)
@@ -78,4 +78,4 @@ class Solution {
         return coun;
     }
 }
-```
+// ```

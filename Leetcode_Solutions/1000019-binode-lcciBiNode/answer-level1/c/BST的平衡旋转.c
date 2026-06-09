@@ -1,4 +1,4 @@
-```
+// ```
 struct TreeNode* RR(struct TreeNode* cur)
 {
     struct TreeNode* tmp = cur->left;
@@ -20,4 +20,4 @@ struct TreeNode* convertBiNode(struct TreeNode* root){
     }
     return head.right;
 }
-```
+// ```

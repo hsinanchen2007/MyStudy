@@ -1,6 +1,6 @@
-java 递归迭代
+// java 递归迭代
 
-```
+// ```
 class Solution {
     public int addDigits(int num) {
         int xx = single(num);
@@ -19,4 +19,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

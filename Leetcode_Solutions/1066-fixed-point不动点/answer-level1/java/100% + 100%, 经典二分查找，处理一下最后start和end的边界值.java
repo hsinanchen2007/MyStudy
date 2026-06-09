@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int fixedPoint(int[] A) {
         // logn
@@ -22,4 +22,4 @@ class Solution {
         return A[start] == start? start : -1;
     }
 }
-```
+// ```

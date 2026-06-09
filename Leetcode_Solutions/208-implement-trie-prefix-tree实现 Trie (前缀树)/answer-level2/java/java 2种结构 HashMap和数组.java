@@ -1,5 +1,5 @@
-数组版本
-```java
+// 数组版本
+// ```java
 class Trie {
 
     private final int SIZE = 26;
@@ -67,10 +67,10 @@ class Trie {
         return true;
     }
 }
-```
+// ```
 
-HashMap版本
-```java
+// HashMap版本
+// ```java
 class Trie {
 
     public class TrieNode {       
@@ -125,4 +125,4 @@ class Trie {
         return true;
     }
 }
-```
+// ```

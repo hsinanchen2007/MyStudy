@@ -1,5 +1,5 @@
-> 内存占用超100%
-```python
+# > 内存占用超100%
+# ```python
 import bisect
 
 class Solution:
@@ -28,4 +28,4 @@ class Solution:
                     stack_val.append(cumsum[i])
             #print([(i,cumsum[i]) for i in stack],(i,cumsum[i]),res)
         return res
-```
+# ```

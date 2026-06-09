@@ -1,9 +1,9 @@
-### 解题思路
-双指针 一个先走k步， 再同时走，直到先走的为null
+// ### 解题思路
+// 双指针 一个先走k步， 再同时走，直到先走的为null
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ public:
         return p2;
     }
 };
-```
+// ```

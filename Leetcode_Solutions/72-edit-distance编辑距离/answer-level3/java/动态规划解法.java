@@ -1,5 +1,5 @@
-### 解题思路
-```text
+// ### 解题思路
+// ```text
 动态规划
 1. dp[i][j]表示word1的前i位转换为word2前j位需要的最短距离, 对应的最后一位的下标为word1[i-1]，word2[j - 1]
 2. 初始化dp[i][j], dp[i][0] = i(删), dp[0][j] = j(增);
@@ -11,11 +11,11 @@
 增：设horse -> ro距离为x，则horse -> ros的距离小于等于x + 1 （horse先转换为ro，ro再增一个s，即x+1）
 删：设hors -> ros的距离为x，则horse -> ros的距离小于等于x + 1 （horse先去掉e，再转换为ros，即1+x）
 替：设hors -> ro的距离为x，则horse -> ros的距离小于等于x + 1 （hors先转换为ro，e替换为s，即x+1）
-```
+// ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minDistance(String word1, String word2) {
         // dp[i][j]表示word1前i个字母转换成word2前j个字母需要的最短距离
@@ -44,10 +44,10 @@ class Solution {
         return dp[word1.length()][word2.length()];
     }
 }
-```
+// ```
 
-### 测试用例
-```java
+// ### 测试用例
+// ```java
 public class SolutionTest {
     Solution solution = new Solution();
 
@@ -66,4 +66,4 @@ public class SolutionTest {
         assertEquals(expect2, result2);
     }
 }
-```
+// ```

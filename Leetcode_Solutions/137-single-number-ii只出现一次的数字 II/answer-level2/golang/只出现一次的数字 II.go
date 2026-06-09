@@ -1,9 +1,9 @@
-### 解题思路
-计数
+// ### 解题思路
+// 计数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func singleNumber(nums []int) int {
 	cntMap := make(map[int]int)
 	for _, n := range nums {
@@ -17,4 +17,4 @@ func singleNumber(nums []int) int {
 	return 0
 }
 
-```
+// ```

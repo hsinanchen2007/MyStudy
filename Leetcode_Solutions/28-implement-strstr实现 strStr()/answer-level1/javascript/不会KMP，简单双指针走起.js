@@ -1,4 +1,4 @@
-```
+// ```
 var strStr = function (haystack, needle) {
     if (needle.length == 0) return 0;
     let j = 0;
@@ -14,4 +14,4 @@ var strStr = function (haystack, needle) {
     }
     return -1;
 };
-```
+// ```

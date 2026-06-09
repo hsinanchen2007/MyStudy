@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/069ff20e5ed47239c85381a8d3de55ec275c9d4c431d2d361ce0319d868c635f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/069ff20e5ed47239c85381a8d3de55ec275c9d4c431d2d361ce0319d868c635f-image.png)
 
-```python
+# ```python
 from typing import List
 
 
@@ -86,4 +86,4 @@ if __name__ == "__main__":
     target = 5
     assert s.search(nums, target) == 2
 
-```
+# ```

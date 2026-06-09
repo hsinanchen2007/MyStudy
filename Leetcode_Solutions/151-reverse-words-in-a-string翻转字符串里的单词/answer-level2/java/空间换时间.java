@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
         /**
          * "the sky is blue"
@@ -31,4 +31,4 @@ class Solution {
             return new String(ans,0,index);
         }
     }
-```
+// ```

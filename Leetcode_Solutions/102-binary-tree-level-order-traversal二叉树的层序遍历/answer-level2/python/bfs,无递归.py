@@ -1,11 +1,11 @@
-### 解题思路
-bfs
-利用队列，先入先出
-level与节点组合成一个元组， 同时写入,否则level的跟踪不好理解
+# ### 解题思路
+# bfs
+# 利用队列，先入先出
+# level与节点组合成一个元组， 同时写入,否则level的跟踪不好理解
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution(object):
 
         return result
 
-```
+# ```

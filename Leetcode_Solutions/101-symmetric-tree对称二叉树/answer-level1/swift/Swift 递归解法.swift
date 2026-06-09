@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 class Solution {
     func isSymmetric(_ root: TreeNode?) -> Bool {
         return isMirror(root, root)
@@ -14,5 +14,5 @@ class Solution {
         return (left!.val == right!.val) && isMirror(left!.left, right!.right) && isMirror(left!.right, right!.left)
     }
 }
-```
+// ```
 

@@ -1,4 +1,4 @@
-``` C++ []
+// ``` C++ []
 class Solution {
 public:
     char findTheDifference(string s, string t) {
@@ -15,4 +15,4 @@ public:
         return res;
     }
 };
-```
+// ```

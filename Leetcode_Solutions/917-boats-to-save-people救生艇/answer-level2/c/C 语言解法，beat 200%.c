@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/11c7ecf4ce634a101690983b385db6123ac9943cdb0aa3e4af64258ba2e587a7-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/11c7ecf4ce634a101690983b385db6123ac9943cdb0aa3e4af64258ba2e587a7-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a,const void *b){
  	return *(int *)a > *(int *)b ? 1:-1;//递增
 }
@@ -27,4 +27,4 @@ int numRescueBoats(int* a, int n, int limit){
     if(high==low) ans++;
 	return ans;
 }
-```
+// ```

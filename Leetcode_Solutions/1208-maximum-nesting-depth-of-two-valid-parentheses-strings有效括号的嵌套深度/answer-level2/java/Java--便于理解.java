@@ -1,10 +1,10 @@
-### 解题思路
-* 将奇数的所有左括号，分给A，右括号分给B；偶数的所有右括号分给A，左括号分给B
-* 可以保证A和B都不会出现连续的左括号或者右括号
+// ### 解题思路
+// * 将奇数的所有左括号，分给A，右括号分给B；偶数的所有右括号分给A，左括号分给B
+// * 可以保证A和B都不会出现连续的左括号或者右括号
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         int [] res = new int[seq.length()];
@@ -26,4 +26,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

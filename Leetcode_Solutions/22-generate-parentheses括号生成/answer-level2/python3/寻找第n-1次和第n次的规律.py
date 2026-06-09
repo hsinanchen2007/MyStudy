@@ -1,6 +1,6 @@
-第n次在第n-1的基础上增加一对括号
-把所有的情况加入一个新的集合（去重）
-```
+# 第n次在第n-1的基础上增加一对括号
+# 把所有的情况加入一个新的集合（去重）
+# ```
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         a=['()']
@@ -12,4 +12,4 @@ class Solution:
                     b.add(item[0:j]+'()'+item[j:len(item)])
             a=list(b)
         return a
-```
+# ```

@@ -1,6 +1,6 @@
-### 递归
+// ### 递归
 
-```c
+// ```c
 bool hasPathSum(struct TreeNode* root, int sum){
     if(!root)
         return 0;
@@ -9,11 +9,11 @@ bool hasPathSum(struct TreeNode* root, int sum){
         return 0 == sum;
     return hasPathSum(root->left, sum) || hasPathSum(root->right, sum);
 }
-```
+// ```
 
-### 后序遍历
+// ### 后序遍历
 
-```
+// ```
 #define STACKSIZE 100
 bool hasPathSum(struct TreeNode* root, int sum){
     if(!root)
@@ -53,4 +53,4 @@ bool hasPathSum(struct TreeNode* root, int sum){
     }
     return 0;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-每次先将 root的左节点next=root右节点， root右节点->next=root->next的左节点
-若root没有next则将其右节点置为null
-### 代码
+// ### 解题思路
+// 每次先将 root的左节点next=root右节点， root右节点->next=root->next的左节点
+// 若root没有next则将其右节点置为null
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int flag = 1; 
@@ -22,4 +22,4 @@ public:
         return root;
     }
 };
-```
+// ```

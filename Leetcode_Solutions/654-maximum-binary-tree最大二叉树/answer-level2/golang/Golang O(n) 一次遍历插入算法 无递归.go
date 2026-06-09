@@ -1,7 +1,7 @@
-1. 依次插入，先选取首项为root
-2. 接下来每一项：如果小于root，则插入root的右树（insertRight），如果大于root，则选取该点为新root，将原树变为新root的左树（reRoot）
-3. 实现insertRight与reRoot函数
-```
+// 1. 依次插入，先选取首项为root
+// 2. 接下来每一项：如果小于root，则插入root的右树（insertRight），如果大于root，则选取该点为新root，将原树变为新root的左树（reRoot）
+// 3. 实现insertRight与reRoot函数
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -70,4 +70,4 @@ func reRoot(val int, root *TreeNode) (newRoot *TreeNode) {
     newRoot.Left = root
     return
 }
-```
+// ```

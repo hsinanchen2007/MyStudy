@@ -1,9 +1,9 @@
-### 解题思路
-使用DFS回溯算法，只需要保证下一个值不小于当前值则可以排除重复解。
+// ### 解题思路
+// 使用DFS回溯算法，只需要保证下一个值不小于当前值则可以排除重复解。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
         vector<vector<int>> combinations;
@@ -34,4 +34,4 @@ public:
         return;
     }
 };
-```
+// ```

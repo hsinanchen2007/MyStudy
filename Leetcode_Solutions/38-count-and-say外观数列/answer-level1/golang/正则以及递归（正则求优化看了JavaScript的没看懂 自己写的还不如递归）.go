@@ -1,4 +1,4 @@
-//递归
+// //递归
 func countAndSay(n int) string {
 	nextStr := ""
 	if n == 1 {

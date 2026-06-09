@@ -1,7 +1,7 @@
-动态规划思想：n个骰子的和m由 n-1个骰子的m-1,m-2,m-3,m-4,m-5,m-6相加组成
-             dp[n][m] = dp[n-1][m-1] + dp[n-1][m-2] + dp[n-1][m-3] + dp[n-1][m-4] + dp[n-1][m-5] + dp[n-1][m-6]
+# 动态规划思想：n个骰子的和m由 n-1个骰子的m-1,m-2,m-3,m-4,m-5,m-6相加组成
+#              dp[n][m] = dp[n-1][m-1] + dp[n-1][m-2] + dp[n-1][m-3] + dp[n-1][m-4] + dp[n-1][m-5] + dp[n-1][m-6]
 
-```
+# ```
 def twoSum(self, n: int) -> List[float]:
     if not n:  
         return []
@@ -17,4 +17,4 @@ def twoSum(self, n: int) -> List[float]:
     for i in range(len(res)):
         res[i] /= (6**n)
     return res
-```
+# ```

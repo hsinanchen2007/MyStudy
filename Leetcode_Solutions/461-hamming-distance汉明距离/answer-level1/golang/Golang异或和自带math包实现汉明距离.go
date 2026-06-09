@@ -1,5 +1,5 @@
-解答一：异或实现
-```
+// 解答一：异或实现
+// ```
 func hammingDistance(x int, y int) int {
     res := 0
 	n := x ^ y
@@ -9,12 +9,12 @@ func hammingDistance(x int, y int) int {
 	}
 	return res
 }
-```
+// ```
 
-解答二：自带math包
-```
+// 解答二：自带math包
+// ```
 func hammingDistance(x int, y int) int {
     return bits.OnesCount(uint(x) ^ uint(y))
 }
-```
+// ```
 

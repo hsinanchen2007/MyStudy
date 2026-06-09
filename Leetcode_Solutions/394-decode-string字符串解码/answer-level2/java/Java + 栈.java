@@ -1,7 +1,7 @@
-执行用时 :2 ms, 在所有 java 提交中击败了55.92%的用户
-内存消耗 :34.3 MB, 在所有 java 提交中击败了91.13%的用户
+// 执行用时 :2 ms, 在所有 java 提交中击败了55.92%的用户
+// 内存消耗 :34.3 MB, 在所有 java 提交中击败了91.13%的用户
 
-```
+// ```
 class Solution {
     public String decodeString(String s){
         StringBuffer sb = new StringBuffer();
@@ -73,4 +73,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

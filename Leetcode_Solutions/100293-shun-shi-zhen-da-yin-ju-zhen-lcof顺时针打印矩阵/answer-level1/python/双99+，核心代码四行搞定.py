@@ -1,9 +1,9 @@
-### 解题思路
-不用多少，看代码就明白；主要是剩下最后一行或者一些时比较难处理
+# ### 解题思路
+# 不用多少，看代码就明白；主要是剩下最后一行或者一些时比较难处理
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     # def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
     def spiralOrder(self, matrix):
@@ -22,4 +22,4 @@ class Solution:
         elif len(matrix[0]) > 1:
             return re + matrix[0]
         else: return re + [i.pop() for i in matrix]
-```
+# ```

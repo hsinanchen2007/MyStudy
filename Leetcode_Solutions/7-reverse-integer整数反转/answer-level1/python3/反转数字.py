@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         b=[]
@@ -24,4 +24,4 @@ class Solution:
                 return b
         
 
-```
+# ```

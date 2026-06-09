@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int search(int[] nums, int target) {
         if (nums == null)
@@ -38,10 +38,10 @@ class Solution {
         return resultIndex;
     }
 }
-```
-# 基本思路：
-看到题目说O(logn)很自然想到二分法，注意到有如下规律：
-1. nums[start] < nums[middle]时 start~middle的数组是已经排好序了的，直接调用Arrays的binarySearch方法去找，如果没有找到，那么以相同算法去寻找middle ~ end
-2. nums[start] > nums[middle]时 middle~end的数组已经排好序，直接二分查找target，如果没有找到，那么以相同算法去寻找start ~ middle
+// ```
+// # 基本思路：
+// 看到题目说O(logn)很自然想到二分法，注意到有如下规律：
+// 1. nums[start] < nums[middle]时 start~middle的数组是已经排好序了的，直接调用Arrays的binarySearch方法去找，如果没有找到，那么以相同算法去寻找middle ~ end
+// 2. nums[start] > nums[middle]时 middle~end的数组已经排好序，直接二分查找target，如果没有找到，那么以相同算法去寻找start ~ middle
 
-另外需要注意递归的终止条件，如果最后都没有找到target则返回-1
+// 另外需要注意递归的终止条件，如果最后都没有找到target则返回-1

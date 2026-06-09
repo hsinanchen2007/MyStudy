@@ -1,11 +1,11 @@
-### 解题思路
-Two pointers
-reverse second half of linked list;
-compare the first half and second half;
+// ### 解题思路
+// Two pointers
+// reverse second half of linked list;
+// compare the first half and second half;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -48,4 +48,4 @@ class Solution {
         return true;        
     }
 }
-```
+// ```

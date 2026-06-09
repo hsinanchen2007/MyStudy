@@ -1,15 +1,15 @@
-**思路**
-```
+// **思路**
+// ```
 将树的左子树、右子树分别拆分对比
 1. left,right都是nil             ---->true
 2. left,right一个nil,一个不是nil  ----->false
 3. left,right都存在：
             1. 比较值
             2. 递归获取left,right
-```
-**代码**
+// ```
+// **代码**
 
-```
+// ```
 func helper(left,right *TreeNode) bool{
 	if left == nil && right == nil{
 		return true
@@ -30,4 +30,4 @@ func isSymmetric(root *TreeNode) bool {
 		return helper(root.Left,root.Right)
 	}
 }
-```
+// ```

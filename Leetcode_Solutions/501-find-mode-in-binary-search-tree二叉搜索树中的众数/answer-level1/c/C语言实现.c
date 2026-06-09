@@ -1,5 +1,5 @@
-C语言实现
-```C []
+// C语言实现
+// ```C []
 void findMaxSum(struct TreeNode* root, int *prev, 
                 int *curr_size, int* max_size, int* res, int* returnSize){
     if (NULL == root) return;
@@ -31,4 +31,4 @@ int* findMode(struct TreeNode* root, int* returnSize){
     findMaxSum(root, &prev, &curr_size, &max_size, res, returnSize);
     return res;
 }
-```
+// ```

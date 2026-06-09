@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：递归实现
+// # 解法一：递归实现
 
-时间复杂度和空间复杂度均是O(n)，其中n为链表中的节点个数。
+// 时间复杂度和空间复杂度均是O(n)，其中n为链表中的节点个数。
 
-执行用时：0ms，击败100.00%。消耗内存：38MB，击败39.90%。
+// 执行用时：0ms，击败100.00%。消耗内存：38MB，击败39.90%。
 
-```java
+// ```java
 public class Solution {
     public Node flatten(Node head) {
         if (null == head) {
@@ -36,15 +36,15 @@ public class Solution {
         return head;
     }
 }
-```
+// ```
 
-# 解法二：栈的应用
+// # 解法二：栈的应用
 
-时间复杂度和空间复杂度均是O(n)，其中n为链表中的节点个数。
+// 时间复杂度和空间复杂度均是O(n)，其中n为链表中的节点个数。
 
-执行用时：1ms，击败31.20%。消耗内存：37.7MB，击败42.32%。
+// 执行用时：1ms，击败31.20%。消耗内存：37.7MB，击败42.32%。
 
-```java
+// ```java
 public class Solution {
     public Node flatten(Node head) {
         if (null == head) {
@@ -71,4 +71,4 @@ public class Solution {
         return head;
     }
 }
-```
+// ```

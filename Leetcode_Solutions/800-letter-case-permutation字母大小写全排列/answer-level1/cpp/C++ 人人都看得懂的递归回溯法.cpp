@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<string> letterCasePermutation(string S) {
@@ -39,10 +39,10 @@ private:
         generate(res, S, index, i + 1);
     }
 };
-```
-解法二：
-位运算
-```
+// ```
+// 解法二：
+// 位运算
+// ```
 class Solution {
 public:
     vector<string> letterCasePermutation(string S) {
@@ -76,4 +76,4 @@ public:
         return res;
     }
 };
-```
+// ```

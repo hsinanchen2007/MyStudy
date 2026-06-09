@@ -1,9 +1,9 @@
-### 解题思路
-暴力法
-偶数、奇数分开，最后各自排序，偶数加在奇数前面就行。
-### 代码
+# ### 解题思路
+# 暴力法
+# 偶数、奇数分开，最后各自排序，偶数加在奇数前面就行。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArrayByParity(self, A: List[int]) -> List[int]:
         b=[]
@@ -16,4 +16,4 @@ class Solution:
         b.sort()
         c.sort()
         return b+c
-```
+# ```

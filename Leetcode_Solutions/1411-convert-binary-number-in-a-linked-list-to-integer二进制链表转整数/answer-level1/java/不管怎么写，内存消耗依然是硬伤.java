@@ -1,9 +1,9 @@
-### 解题思路
-用了栈的知识，时间消耗为O(2n) = O(n) 和二进制左移消耗时间差不多
+// ### 解题思路
+// 用了栈的知识，时间消耗为O(2n) = O(n) 和二进制左移消耗时间差不多
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
 
     }
 }
-```
+// ```

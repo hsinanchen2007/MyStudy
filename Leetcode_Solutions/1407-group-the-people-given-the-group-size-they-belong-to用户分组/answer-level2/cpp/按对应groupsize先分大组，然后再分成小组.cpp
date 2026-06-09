@@ -1,12 +1,12 @@
-### 解题思路
-因为最多500组，因此建立一个大小为505的vector<int>A[505]，略大一点以防止溢出。
-然后根据对应groupsize相同的人先分到同一组来进行分组，按照比如groupsize是3
-那么就把ta先分到A[3]中，然后遍历这个A按照A[i].size()/i 分成对应的小vector当中。
-从而完成分组。
+// ### 解题思路
+// 因为最多500组，因此建立一个大小为505的vector<int>A[505]，略大一点以防止溢出。
+// 然后根据对应groupsize相同的人先分到同一组来进行分组，按照比如groupsize是3
+// 那么就把ta先分到A[3]中，然后遍历这个A按照A[i].size()/i 分成对应的小vector当中。
+// 从而完成分组。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
@@ -31,4 +31,4 @@ public:
 };
 
 
-```
+// ```

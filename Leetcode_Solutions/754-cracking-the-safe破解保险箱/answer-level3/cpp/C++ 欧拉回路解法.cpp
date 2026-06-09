@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int visited[10001] = {0};
@@ -26,6 +26,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/6992dcc4df5e448c97b64673186210b2652730a719649a635f92995c295b069b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6992dcc4df5e448c97b64673186210b2652730a719649a635f92995c295b069b-image.png)

@@ -1,12 +1,12 @@
-### 解题思路
-https://leetcode-cn.com/problems/binary-tree-postorder-traversal/solution/yong-stackflaglai-fang-zhi-jie-dian-by-hongan/
-这是采用回溯思路的stack存储。
-看了官方的做法，很有启发。
-如果遍历的结果，以逆序的方式存储，那么访问的就不用回溯了。
+// ### 解题思路
+// https://leetcode-cn.com/problems/binary-tree-postorder-traversal/solution/yong-stackflaglai-fang-zhi-jie-dian-by-hongan/
+// 这是采用回溯思路的stack存储。
+// 看了官方的做法，很有启发。
+// 如果遍历的结果，以逆序的方式存储，那么访问的就不用回溯了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,4 +44,4 @@ class Solution {
     }
 }
 
-```
+// ```

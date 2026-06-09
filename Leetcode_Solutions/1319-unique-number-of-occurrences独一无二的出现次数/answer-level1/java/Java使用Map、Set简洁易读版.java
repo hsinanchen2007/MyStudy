@@ -1,8 +1,8 @@
-1. HashMap统计每个数字出现了几次
-2. HashSet统计value是否重复出现,第一次出现重复直接false
+// 1. HashMap统计每个数字出现了几次
+// 2. HashSet统计value是否重复出现,第一次出现重复直接false
 
-<br>
-```java
+// <br>
+// ```java
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
         
@@ -23,4 +23,4 @@ class Solution {
 		return true;
     }
 }
-```
+// ```

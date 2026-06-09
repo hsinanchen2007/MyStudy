@@ -1,4 +1,4 @@
-```
+// ```
 #include<iostream>
 #include <list>
 
@@ -33,4 +33,4 @@ int main()
 	system("pause");
 	return 0;
 }
-```
+// ```

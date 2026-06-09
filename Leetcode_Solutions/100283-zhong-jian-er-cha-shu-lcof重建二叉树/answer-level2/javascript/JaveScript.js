@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1.过滤树的叶子节点。
-2.结合先序遍历和中序遍历划分左右子树，找出根节点在中序遍历中的索引。
-3.通过slice切片划分出左右子树，进行递归求解。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1.过滤树的叶子节点。
+// 2.结合先序遍历和中序遍历划分左右子树，找出根节点在中序遍历中的索引。
+// 3.通过slice切片划分出左右子树，进行递归求解。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -31,4 +31,4 @@ var buildTree = function (preorder, inorder) {
         return node;
     };
 
-```
+// ```

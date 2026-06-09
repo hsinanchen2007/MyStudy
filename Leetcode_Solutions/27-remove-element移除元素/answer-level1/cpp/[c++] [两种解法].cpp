@@ -1,9 +1,9 @@
-### 解题思路
-面试经典考点:erase
+// ### 解题思路
+// 面试经典考点:erase
 
-### 代码
-解法一
-```cpp
+// ### 代码
+// 解法一
+// ```cpp
 class Solution {
 public:
 	int removeElement(vector<int>& nums, int val) {
@@ -18,9 +18,9 @@ public:
 		return nums.size();
 	}
 };
-```
-解法二
-```cpp
+// ```
+// 解法二
+// ```cpp
 class Solution {
 public:
 	int removeElement(vector<int>& nums, int val) {
@@ -33,4 +33,4 @@ public:
 		return nums.size();
 	}
 };
-```
+// ```

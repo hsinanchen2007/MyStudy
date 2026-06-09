@@ -1,12 +1,12 @@
-### 解题思路
-本题使用队列来实现栈；
-我们之前做过栈实现队列，利用两个队列来实现FIFO。
-而队列实现栈，就是要实现FILO。
+// ### 解题思路
+// 本题使用队列来实现栈；
+// 我们之前做过栈实现队列，利用两个队列来实现FIFO。
+// 而队列实现栈，就是要实现FILO。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -51,4 +51,4 @@ private:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

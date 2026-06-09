@@ -1,6 +1,6 @@
-四指针, 外双指针+内双指针, 两层夹逼原理, 根据最大和和最小和跳过不必要的运算判断, 减枝
+// 四指针, 外双指针+内双指针, 两层夹逼原理, 根据最大和和最小和跳过不必要的运算判断, 减枝
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -74,4 +74,4 @@ public:
         return rst;
     }
 };
-```
+// ```

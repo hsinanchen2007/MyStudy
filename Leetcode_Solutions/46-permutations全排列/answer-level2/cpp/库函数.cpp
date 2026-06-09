@@ -1,9 +1,9 @@
-### 解题思路
-注意先排序
+// ### 解题思路
+// 注意先排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return v;
     }
 };
-```
+// ```

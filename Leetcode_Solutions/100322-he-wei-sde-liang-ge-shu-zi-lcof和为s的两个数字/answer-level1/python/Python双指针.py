@@ -1,9 +1,9 @@
-### 解题思路
-从两端开始查找
+# ### 解题思路
+# 从两端开始查找
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         n = len(nums)
@@ -17,4 +17,4 @@ class Solution:
             else:
                 l += 1
         return
-```
+# ```

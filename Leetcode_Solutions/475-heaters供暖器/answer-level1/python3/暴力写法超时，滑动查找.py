@@ -1,8 +1,8 @@
 
-对于每一个房屋,寻找最近的供暖器的距离
-这些距离中的最大值就是所求半径
+# 对于每一个房屋,寻找最近的供暖器的距离
+# 这些距离中的最大值就是所求半径
 
-```
+# ```
 s_max = 0
 for i in houses:
     s_i = 10e9
@@ -13,13 +13,13 @@ for i in houses:
     if s_i > s_max:
         s_max = s_i
 return s_max
-```
-结果暴力算法直接超时。。。
+# ```
+# 结果暴力算法直接超时。。。
 
 
 
-用滑动思路寻找最小距离
-```
+# 用滑动思路寻找最小距离
+# ```
 s_max = 0 
 houses_tmp = sorted(houses) # 先排序
 heaters_tmp = sorted(heaters)
@@ -43,4 +43,4 @@ for i in houses_tmp: # 对房间作循环：
     if s_len > s_max:
         s_max = s_len
 return s_max
-```
+# ```

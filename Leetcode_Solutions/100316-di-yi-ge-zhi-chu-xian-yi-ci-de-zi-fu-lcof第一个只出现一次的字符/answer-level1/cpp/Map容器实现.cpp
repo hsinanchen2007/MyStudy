@@ -1,4 +1,4 @@
-利用Map不允许有重复key的特性。
+// 利用Map不允许有重复key的特性。
 
 
 ` char firstUniqChar(string s) {

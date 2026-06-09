@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-1. 将 x 分区处理；[-9, 9] 这中间的数据翻转为自身
-2. 提供 firstZero 函数，处理翻转之后首位为0 的数组
-3. firstZero 第二个参数  fuhao ; true = 正数；false = 负数
-4. Math.pow(2,31) 2的31次方
+// ### 解题思路
+// 此处撰写解题思路
+// 1. 将 x 分区处理；[-9, 9] 这中间的数据翻转为自身
+// 2. 提供 firstZero 函数，处理翻转之后首位为0 的数组
+// 3. firstZero 第二个参数  fuhao ; true = 正数；false = 负数
+// 4. Math.pow(2,31) 2的31次方
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -45,4 +45,4 @@ var reverse = function(x) {
         }
     }
 };
-```
+// ```

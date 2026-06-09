@@ -1,11 +1,11 @@
-#### 解法一：LRU = 哈希表 + 双向链表
-+ 思路
-  + 哈希表
-    + 查找：O(1)，数据没有顺序，但插入删除慢
-  + 双链表
-    + 插入、删除：O(1)，数据🈶️顺序，但查找慢
-  + 模版
-    ```javascript
+// #### 解法一：LRU = 哈希表 + 双向链表
+// + 思路
+//   + 哈希表
+//     + 查找：O(1)，数据没有顺序，但插入删除慢
+//   + 双链表
+//     + 插入、删除：O(1)，数据🈶️顺序，但查找慢
+//   + 模版
+//     ```javascript
     实现哈希表
     实现双链表
     let LRUCache = function(capacity) {
@@ -34,8 +34,8 @@
             新建新节点的哈希映射
         }
     }
-    ``` 
-```javascript
+//     ``` 
+// ```javascript
 // 链表节点
 class Node{
     constructor(key,val){
@@ -133,30 +133,30 @@ LRUCache.prototype.put = function(key, value) {
  * var param_1 = obj.get(key)
  * obj.put(key,value)
  */
-```
-#### 解法二：Map
-+ Map 中的键值是有序的，而添加到对象中的键则不是。因此，当对它进行遍历时，Map 对象是按插入的顺序返回键值
-+ Map.prototype.keys()
-  + 返回一个新的 Iterator对象， 它**按插入顺序**包含了Map对象中每个元素的键 。
-    + 1、尾部元素一直是最新set的，对应于LRU的最近使用原则
-      + Map.set()
-    + 2、头部元素是最远使用的，用于LRU容量满载时删除最远使用的元素，可获取其key
-      + Map.keys().next().value
-+ 解题步骤
-  + get
-    + 元素存在
-      + delete、set
-    + 元素不存在
-      + return -1
-  + put
-    + 元素存在
-      + delete、set
-    + 元素不存在
-      + 容量超载
-        + delete map头部元素(**最远不常用**)、set
-      + 不超载
-        + set
-```javascript
+// ```
+// #### 解法二：Map
+// + Map 中的键值是有序的，而添加到对象中的键则不是。因此，当对它进行遍历时，Map 对象是按插入的顺序返回键值
+// + Map.prototype.keys()
+//   + 返回一个新的 Iterator对象， 它**按插入顺序**包含了Map对象中每个元素的键 。
+//     + 1、尾部元素一直是最新set的，对应于LRU的最近使用原则
+//       + Map.set()
+//     + 2、头部元素是最远使用的，用于LRU容量满载时删除最远使用的元素，可获取其key
+//       + Map.keys().next().value
+// + 解题步骤
+//   + get
+//     + 元素存在
+//       + delete、set
+//     + 元素不存在
+//       + return -1
+//   + put
+//     + 元素存在
+//       + delete、set
+//     + 元素不存在
+//       + 容量超载
+//         + delete map头部元素(**最远不常用**)、set
+//       + 不超载
+//         + set
+// ```javascript
 /**
  * @param {number} capacity
  */
@@ -204,4 +204,4 @@ LRUCache.prototype.put = function(key, value) {
  * var param_1 = obj.get(key)
  * obj.put(key,value)
  */
-```
+// ```

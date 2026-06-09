@@ -1,4 +1,4 @@
-```java
+// ```java
 class ZeroEvenOdd {
     private int n;
     private Object lock;
@@ -63,4 +63,4 @@ class ZeroEvenOdd {
         }
     }
 }
-```
+// ```

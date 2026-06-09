@@ -1,10 +1,10 @@
-### 解题思路
-思路一：用数组保存前K个最大，然后排序。时间负责度为 N*K*logK。
-思路二：采用最小堆，minHeap
+// ### 解题思路
+// 思路一：用数组保存前K个最大，然后排序。时间负责度为 N*K*logK。
+// 思路二：采用最小堆，minHeap
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class KthLargest {
 
     public $k;
@@ -41,4 +41,4 @@ class KthLargest {
  * $obj = KthLargest($k, $nums);
  * $ret_1 = $obj->add($val);
  */
-```
+// ```

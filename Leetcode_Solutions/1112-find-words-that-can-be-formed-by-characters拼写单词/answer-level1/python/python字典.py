@@ -1,9 +1,9 @@
-### 解题思路
-对字母表和每个单词分别创建字典，比较每个字母出现的次数。
+# ### 解题思路
+# 对字母表和每个单词分别创建字典，比较每个字母出现的次数。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         dic = {}
@@ -24,4 +24,4 @@ class Solution:
                     res += len(word)
         return res
                 
-```
+# ```

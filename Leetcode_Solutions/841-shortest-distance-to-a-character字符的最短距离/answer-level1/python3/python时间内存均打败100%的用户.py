@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![2808bad3d3675dfa374e1019d1e7861.png](https://pic.leetcode-cn.com/240a3d569ecf41f39534af21862fd3faf8ef233c2662bd40b2a1b44194dbd902-2808bad3d3675dfa374e1019d1e7861.png)
-主要考虑头部、中间、尾部的情况
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# ![2808bad3d3675dfa374e1019d1e7861.png](https://pic.leetcode-cn.com/240a3d569ecf41f39534af21862fd3faf8ef233c2662bd40b2a1b44194dbd902-2808bad3d3675dfa374e1019d1e7861.png)
+# 主要考虑头部、中间、尾部的情况
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def shortestToChar(self, S: str, C: str) -> List[int]:
         num=[]
@@ -30,4 +30,4 @@ class Solution:
                 lists.append(i-num[j])
                 i+=1       
         return lists
-```
+# ```

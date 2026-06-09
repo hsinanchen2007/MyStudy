@@ -1,9 +1,9 @@
-### 解题思路
-思路很简单，末尾必须是0，0前的连续1必须是偶数
+// ### 解题思路
+// 思路很简单，末尾必须是0，0前的连续1必须是偶数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isOneBitCharacter(int* bits, int bitsSize){
     int cnt=0;
     if(bits[bitsSize-1]==0&&bitsSize==1)
@@ -16,4 +16,4 @@ bool isOneBitCharacter(int* bits, int bitsSize){
     }
     return cnt%2?0:1;
 }
-```
+// ```

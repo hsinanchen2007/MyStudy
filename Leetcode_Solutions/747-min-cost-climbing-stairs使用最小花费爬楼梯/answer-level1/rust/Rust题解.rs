@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn min_cost_climbing_stairs(cost: Vec<i32>) -> i32 {
         let mut dp = (cost[0], cost[1]);
@@ -10,5 +10,5 @@ impl Solution {
         dp.0.min(dp.1)
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-一次遍历获取数量
-再次遍历直接返回
+// 一次遍历获取数量
+// 再次遍历直接返回
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func firstUniqChar(_ s: String) -> Character {
         var dict = [Character:Int]()
@@ -26,4 +26,4 @@ class Solution {
         return " "
     }
 }
-```
+// ```

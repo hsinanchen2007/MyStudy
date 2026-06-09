@@ -1,7 +1,7 @@
-### 解题思路 从左到右遍历数组，如果是1，则下标加2，如果是0，则下标加1，最终下标=bits.length-1 ,则说明是符合预期的，末尾是0
-### 代码
+// ### 解题思路 从左到右遍历数组，如果是1，则下标加2，如果是0，则下标加1，最终下标=bits.length-1 ,则说明是符合预期的，末尾是0
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isOneBitCharacter(int[] bits) {
           int i = 0;
@@ -20,4 +20,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

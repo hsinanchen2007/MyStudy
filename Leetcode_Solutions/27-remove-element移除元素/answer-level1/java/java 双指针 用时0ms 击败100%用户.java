@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int index = 0;
@@ -15,4 +15,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

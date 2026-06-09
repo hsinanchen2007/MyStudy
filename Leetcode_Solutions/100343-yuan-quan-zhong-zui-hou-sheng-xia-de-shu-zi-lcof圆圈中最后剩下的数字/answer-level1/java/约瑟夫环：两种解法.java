@@ -1,29 +1,29 @@
-## 62. 圆圈中最后剩下的数字)
+// ## 62. 圆圈中最后剩下的数字)
 
-### Information
+// ### Information
 
-* TIME: 2020/02/25
-* LINK: [Click Here](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)
-* TAG: `dp`
+// * TIME: 2020/02/25
+// * LINK: [Click Here](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)
+// * TAG: `dp`
 
-### Description
+// ### Description
 
-> 0,1,,n-1这n个数字排成一个圆圈，从数字0开始，每次从这个圆圈里删除第m个数字。求出这个圆圈里剩下的最后一个数字。
->
-> 例如，0、1、2、3、4这5个数字组成一个圆圈，从数字0开始每次删除第3个数字，则删除的前4个数字依次是2、0、4、1，因此最后剩下的数字是3。
+// > 0,1,,n-1这n个数字排成一个圆圈，从数字0开始，每次从这个圆圈里删除第m个数字。求出这个圆圈里剩下的最后一个数字。
+// >
+// > 例如，0、1、2、3、4这5个数字组成一个圆圈，从数字0开始每次删除第3个数字，则删除的前4个数字依次是2、0、4、1，因此最后剩下的数字是3。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入: n = 5, m = 3
 输出: 3
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 模拟，一开始用了`LinkedList`，超时了
+// > 模拟，一开始用了`LinkedList`，超时了
 
-```java
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         List<Integer> list = new ArrayList<>();
@@ -40,13 +40,13 @@ class Solution {
         return list.get(0);
     }
 }
-```
+// ```
 
-### Best Answer
+// ### Best Answer
 
-> [前排有一个推导得不错的集美](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/solution/si-chong-fang-fa-xiang-xi-jie-da-by-yuanninesuns/)
+// > [前排有一个推导得不错的集美](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/solution/si-chong-fang-fa-xiang-xi-jie-da-by-yuanninesuns/)
 
-```java
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         int res = 0;    //当n = 1时的结果
@@ -56,23 +56,23 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/16f55ea93bd2e7bc46bac728966013e58b38c1eefae65479443b9b4852682a3f-file_1582621331056)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/16f55ea93bd2e7bc46bac728966013e58b38c1eefae65479443b9b4852682a3f-file_1582621331056)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

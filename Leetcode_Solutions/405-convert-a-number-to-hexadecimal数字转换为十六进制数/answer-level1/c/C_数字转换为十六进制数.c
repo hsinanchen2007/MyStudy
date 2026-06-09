@@ -1,11 +1,11 @@
-### 解题思路
-正常的进制转换+如果是负数就先强制转换成unsigned类型。
-借用了一下栈，虽然自己写栈，但是还是可以双百的
-![image.png](https://pic.leetcode-cn.com/98ecb7fcff1de60b8661818800de8cf0d1831a22c2aa1d483c3952c47292d738-image.png)
+// ### 解题思路
+// 正常的进制转换+如果是负数就先强制转换成unsigned类型。
+// 借用了一下栈，虽然自己写栈，但是还是可以双百的
+// ![image.png](https://pic.leetcode-cn.com/98ecb7fcff1de60b8661818800de8cf0d1831a22c2aa1d483c3952c47292d738-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //-------------------------------------------------------------栈
 typedef struct Node
 {
@@ -88,4 +88,4 @@ char * toHex(int num){
     del(stack);
     return result;
 }
-```
+// ```

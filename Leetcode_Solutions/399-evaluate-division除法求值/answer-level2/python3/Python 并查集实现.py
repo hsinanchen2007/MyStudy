@@ -1,22 +1,22 @@
-速度击败90%
-内存击败4%
+# 速度击败90%
+# 内存击败4%
 
-在我的本地IDE进行测试，样例
-equations = [["a","b"],["b","c"],["bc","cd"]]
-values = [1.5,2.5,5.0]
-queries = [["a","c"],["c","b"],["bc","cd"],["cd","bc"]]
-能够的到正确得结果 [3.75, 0.4, 5.0, 0.2]
+# 在我的本地IDE进行测试，样例
+# equations = [["a","b"],["b","c"],["bc","cd"]]
+# values = [1.5,2.5,5.0]
+# queries = [["a","c"],["c","b"],["bc","cd"],["cd","bc"]]
+# 能够的到正确得结果 [3.75, 0.4, 5.0, 0.2]
 
-但是提交后  显示错误，应该是哪里精度有问题  1.5存为2.0了
-导致提交结果为 [6.0,0.33333,5.0,0.2]
-差了半天，不知道在哪里精度损失，求指导
+# 但是提交后  显示错误，应该是哪里精度有问题  1.5存为2.0了
+# 导致提交结果为 [6.0,0.33333,5.0,0.2]
+# 差了半天，不知道在哪里精度损失，求指导
 
-感谢 @Leon_liang的帮忙
-https://support.leetcode-cn.com/hc/kb/article/1194344/，大体意思就是leecode对所有测试case只初始化一次类
-# 添加初始化
-        self.dictfathernode = {}
-        self.dictnodeval = {}
-```
+# 感谢 @Leon_liang的帮忙
+# https://support.leetcode-cn.com/hc/kb/article/1194344/，大体意思就是leecode对所有测试case只初始化一次类
+# # 添加初始化
+#         self.dictfathernode = {}
+#         self.dictnodeval = {}
+# ```
 class Solution(object):
     dictfathernode = {}
     dictnodeval = {}
@@ -104,4 +104,4 @@ queries = [["a","c"],["c","b"],["bc","cd"],["cd","bc"]]
 solution = Solution()
 result = solution.calcEquation(equations, values, queries)
 print(result)
-```
+# ```

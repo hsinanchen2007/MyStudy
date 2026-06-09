@@ -1,9 +1,9 @@
-### 解题思路
-j为慢指针，i为快指针。
+// ### 解题思路
+// j为慢指针，i为快指针。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * defangIPaddr(char * address){
 
     int len = strlen(address);
@@ -24,4 +24,4 @@ char * defangIPaddr(char * address){
 
     return result;
 }
-```
+// ```

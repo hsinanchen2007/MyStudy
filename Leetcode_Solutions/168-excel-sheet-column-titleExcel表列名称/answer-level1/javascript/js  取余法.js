@@ -1,4 +1,4 @@
-```
+// ```
 var convertToTitle = function(n) {
     //10进制转26进制,取余法
     let res="";
@@ -13,4 +13,4 @@ var convertToTitle = function(n) {
     }
     return  res; 
 };
-```
+// ```

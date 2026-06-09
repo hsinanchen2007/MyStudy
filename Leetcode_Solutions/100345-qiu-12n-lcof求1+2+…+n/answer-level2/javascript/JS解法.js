@@ -1,8 +1,8 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var sumNums = function(n) {
     n && (n += sumNums(n-1));
     return n
 };
-```
+// ```

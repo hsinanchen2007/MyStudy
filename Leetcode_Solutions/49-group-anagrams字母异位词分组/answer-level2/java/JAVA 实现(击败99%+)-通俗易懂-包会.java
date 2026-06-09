@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/769aeeff05dd83b4fd2b6afe7dcc2c17032ed3be6e63a79d4935317ee918f59c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/769aeeff05dd83b4fd2b6afe7dcc2c17032ed3be6e63a79d4935317ee918f59c-image.png)
 
-```
+// ```
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
     	List<List<String>>  arrResList = new ArrayList<>();
@@ -42,4 +42,4 @@ class Solution {
     	return new String(arrChar);
     }
 }
-```
+// ```

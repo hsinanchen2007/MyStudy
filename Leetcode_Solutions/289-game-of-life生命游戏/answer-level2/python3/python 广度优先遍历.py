@@ -1,4 +1,4 @@
-```
+# ```
 from collections import deque
 import copy
 class Solution:
@@ -28,4 +28,4 @@ class Solution:
                 else:
                     if cnt == 3:
                         board[row][col] = 1
-```
+# ```

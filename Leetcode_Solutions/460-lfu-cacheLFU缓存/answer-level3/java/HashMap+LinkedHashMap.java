@@ -1,10 +1,10 @@
-map存放key-value，f存放key-times（使用次数）。
-之所以使用LinkedHashMap，是为了在使用次数相同时，淘汰掉最久未使用的，即在LinkedHashMap的双向链表里靠前的。
-有遍历LinkedHashMap的操作，时间复杂度O(n)，空间复杂度也是O(n)。
-使用次数=get+put，没有认真审题提交了n多次。还有就是map满的时候如果put已有的key，是可以直接put，我刚开始还处理特意处理成先remove。
+// map存放key-value，f存放key-times（使用次数）。
+// 之所以使用LinkedHashMap，是为了在使用次数相同时，淘汰掉最久未使用的，即在LinkedHashMap的双向链表里靠前的。
+// 有遍历LinkedHashMap的操作，时间复杂度O(n)，空间复杂度也是O(n)。
+// 使用次数=get+put，没有认真审题提交了n多次。还有就是map满的时候如果put已有的key，是可以直接put，我刚开始还处理特意处理成先remove。
 
-btw，官方的答案为什么总是看起来那么难以理解？
-```
+// btw，官方的答案为什么总是看起来那么难以理解？
+// ```
 class LFUCache {
 
     private Map<Integer, Integer> map;
@@ -70,4 +70,4 @@ class LFUCache {
         f.put(key, f.get(key)  == null ? 0 : f.get(key) + 1);
     }
 }
-```
+// ```

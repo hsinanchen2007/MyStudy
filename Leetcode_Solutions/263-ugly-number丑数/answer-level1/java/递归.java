@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUgly(int num) {
         if (num <= 0) return false;
@@ -21,4 +21,4 @@ class Solution {
         return func(num / 2) || func(num / 3) || func(num / 5);
     }
 }
-```
+// ```

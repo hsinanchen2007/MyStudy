@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //动态规划
 int uniquePaths(int m, int n){
     int dp[m][n];
@@ -17,4 +17,4 @@ int uniquePaths(int m, int n){
             dp[i][j] = dp[i-1][j] + dp[i][j-1];
     return dp[m-1][n-1];
 }
-```
+// ```

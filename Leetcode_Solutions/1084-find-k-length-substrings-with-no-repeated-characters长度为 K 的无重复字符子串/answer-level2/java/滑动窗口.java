@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int numKLenSubstrNoRepeats(String S, int K) {
        int len = S.length();
@@ -33,4 +33,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

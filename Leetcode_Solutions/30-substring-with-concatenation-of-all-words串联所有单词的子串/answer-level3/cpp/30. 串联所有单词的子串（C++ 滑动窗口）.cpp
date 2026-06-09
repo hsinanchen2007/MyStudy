@@ -1,6 +1,6 @@
-# 30. 串联所有单词的子串
-**代码实现：**
-```
+// # 30. 串联所有单词的子串
+// **代码实现：**
+// ```
 class Solution {
 public:
     vector<int> findSubstring(string s, vector<string>& words) {
@@ -47,4 +47,4 @@ public:
         return rst;
     }
 };
-```
+// ```

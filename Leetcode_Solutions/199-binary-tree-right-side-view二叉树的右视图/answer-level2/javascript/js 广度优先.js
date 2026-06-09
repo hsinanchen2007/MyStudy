@@ -1,4 +1,4 @@
-```
+// ```
 var rightSideView = function(root) {
   if(!root) return []
   const queue = [root]
@@ -24,4 +24,4 @@ var rightSideView = function(root) {
   }
   return res
 };
-```
+// ```

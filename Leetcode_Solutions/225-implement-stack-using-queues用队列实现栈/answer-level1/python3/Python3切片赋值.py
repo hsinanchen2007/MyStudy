@@ -1,14 +1,14 @@
-### 解题思路
-用内置的list实现一个stack，最关键的地方在于pop功能的实现。
-pop首先是要找到stack最近入栈的元素，即stack[-1]
-其次还需要将这个元素剔除，其实python3中的list可以调用list.pop(-1)的功能
-但这样一来写这个题就没有意义了，所以还是需要自己想办法去实现这个功能
-我的解法是切片赋值，即stack[:] = stack[:-1]
-就是说stack序列除去最后一个元素后，赋值给新的stack序列
+# ### 解题思路
+# 用内置的list实现一个stack，最关键的地方在于pop功能的实现。
+# pop首先是要找到stack最近入栈的元素，即stack[-1]
+# 其次还需要将这个元素剔除，其实python3中的list可以调用list.pop(-1)的功能
+# 但这样一来写这个题就没有意义了，所以还是需要自己想办法去实现这个功能
+# 我的解法是切片赋值，即stack[:] = stack[:-1]
+# 就是说stack序列除去最后一个元素后，赋值给新的stack序列
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -53,4 +53,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

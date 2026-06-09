@@ -1,7 +1,7 @@
-### 解题思路
-好慢的说，硬解
-### 代码
-```java
+// ### 解题思路
+// 好慢的说，硬解
+// ### 代码
+// ```java
 class Solution {
     public int thirdMax(int[] nums) {
         List<Integer> sortsA= new ArrayList<>();
@@ -21,4 +21,4 @@ class Solution {
 			return Aa[num-3];
     }
 }
-```
+// ```

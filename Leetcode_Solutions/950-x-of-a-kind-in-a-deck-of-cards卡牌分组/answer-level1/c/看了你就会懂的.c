@@ -1,9 +1,9 @@
-### 解题思路
-先手写快排一下(用sort会快点)，把所有不同的数的个数求出来求出这些数的最大公约数大于1返回true，否则返回false
+// ### 解题思路
+// 先手写快排一下(用sort会快点)，把所有不同的数的个数求出来求出这些数的最大公约数大于1返回true，否则返回false
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gcd(int a,int b){             //最大公约数
 	return b==0?a:gcd(b,a%b);
 }
@@ -53,5 +53,5 @@ bool hasGroupsSizeX(int* deck, int deckSize){
     if(flag>1) return true;
 	return false;
 }
-```
-![sample.png](https://pic.leetcode-cn.com/437ec50dea8337ed6d56a532a05f61ac0a3bc03b34692637c23c8eae1f72f92b-sample.png)
+// ```
+// ![sample.png](https://pic.leetcode-cn.com/437ec50dea8337ed6d56a532a05f61ac0a3bc03b34692637c23c8eae1f72f92b-sample.png)

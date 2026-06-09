@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int reversePairs(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,17 +1,17 @@
-解法参照官方题解的双指针
+// 解法参照官方题解的双指针
 
-其中代码
-``` C++
+// 其中代码
+// ``` C++
 ans += right - left + 1
-```
+// ```
 
-可以根据如下的累加公式来理解（right - left + 1 看作是 n）
+// 可以根据如下的累加公式来理解（right - left + 1 看作是 n）
 
-$\sum_1^n x = n + \sum_1^{n-1} x$
+// $\sum_1^n x = n + \sum_1^{n-1} x$
 
-附上C++代码：
+// 附上C++代码：
 
-``` C++
+// ``` C++
 class Solution {
 public:
   int numSubarrayProductLessThanK(vector<int>& nums, int k) {
@@ -29,4 +29,4 @@ public:
     return ans;
   }
 };
-```
+// ```

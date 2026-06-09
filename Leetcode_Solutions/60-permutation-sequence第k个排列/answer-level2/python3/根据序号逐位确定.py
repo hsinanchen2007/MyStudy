@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
         b=[]
@@ -32,4 +32,4 @@ class Solution:
             b.remove(b[c])
         return d
             
-```
+# ```

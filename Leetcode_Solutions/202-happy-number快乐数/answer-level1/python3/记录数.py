@@ -1,9 +1,9 @@
-### 解题思路
-如果当前的数之前出现过则判断为循环，输出False
+# ### 解题思路
+# 如果当前的数之前出现过则判断为循环，输出False
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isHappy(self, n: int) -> bool:
         record = []
@@ -19,4 +19,4 @@ class Solution:
             n = cur
             #print(n)
         return True
-```
+# ```

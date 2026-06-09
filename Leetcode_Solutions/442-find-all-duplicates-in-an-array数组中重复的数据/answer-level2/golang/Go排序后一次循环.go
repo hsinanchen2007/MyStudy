@@ -1,4 +1,4 @@
-```
+// ```
 func findDuplicates(nums []int) []int {
 	if len(nums) == 0 {return nums}
 	sort.Ints(nums)
@@ -20,4 +20,4 @@ func findDuplicates(nums []int) []int {
 
 	return arr
 }
-```
+// ```

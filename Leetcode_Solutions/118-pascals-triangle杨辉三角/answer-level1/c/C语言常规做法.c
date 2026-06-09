@@ -1,9 +1,9 @@
-### 解题思路
-题目较简单，注意函数通过传入地址来提供多个返回值。
+// ### 解题思路
+// 题目较简单，注意函数通过传入地址来提供多个返回值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -32,4 +32,4 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes){
     }
     return generate;
 }
-```
+// ```

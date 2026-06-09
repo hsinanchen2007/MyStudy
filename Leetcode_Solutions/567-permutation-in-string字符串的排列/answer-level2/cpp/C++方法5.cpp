@@ -1,11 +1,11 @@
-### 解题思路
-采用力扣上给出的方法五 滑动窗口
+// ### 解题思路
+// 采用力扣上给出的方法五 滑动窗口
 
-### 注意点
-如果采用数组的方式存储每个字母出现的频率会出现错误，这道题目这里有坑，我刚开始采用的是数组存，本地可以过，但是交上去不能过
-代码如下，本机没问题，交上去就是错，经过PlayGround我发现，本应输入的字符串为s1="ab",s2="eidbaooo"，变成了图中所示样子
-![1.jpg](https://pic.leetcode-cn.com/96c98c8deb2c7b62bc84840afac625a16cc456fea5ece5e0528c40cf8c38cdd4-1.jpg)
-```cpp
+// ### 注意点
+// 如果采用数组的方式存储每个字母出现的频率会出现错误，这道题目这里有坑，我刚开始采用的是数组存，本地可以过，但是交上去不能过
+// 代码如下，本机没问题，交上去就是错，经过PlayGround我发现，本应输入的字符串为s1="ab",s2="eidbaooo"，变成了图中所示样子
+// ![1.jpg](https://pic.leetcode-cn.com/96c98c8deb2c7b62bc84840afac625a16cc456fea5ece5e0528c40cf8c38cdd4-1.jpg)
+// ```cpp
 class solution {
 public:
 	bool checkinclusion(string s1, string s2) {
@@ -40,11 +40,11 @@ public:
 		return true;
 	}
 };
-```
+// ```
 
-### 代码
-该代码为通过代码
-```cpp
+// ### 代码
+// 该代码为通过代码
+// ```cpp
 class Solution {
 public:
 	bool checkInclusion(string s1, string s2) {
@@ -68,4 +68,4 @@ public:
 		return s1map == s2map;
 	}
 };
-```
+// ```

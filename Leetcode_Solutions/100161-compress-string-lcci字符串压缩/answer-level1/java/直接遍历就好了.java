@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String compressString(String S) {
         int oldLength = S.length();
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

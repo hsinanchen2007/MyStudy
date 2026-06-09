@@ -1,12 +1,12 @@
-### 解题思路
-这道题目用dfs递归会超时的
-动态规划：
-![image.png](https://pic.leetcode-cn.com/ffb1b9d1c72d475cc93b01b0eabf3b7bc69ce953ec1cdb29b424992c5c3cc260-image.png)
+// ### 解题思路
+// 这道题目用dfs递归会超时的
+// 动态规划：
+// ![image.png](https://pic.leetcode-cn.com/ffb1b9d1c72d475cc93b01b0eabf3b7bc69ce953ec1cdb29b424992c5c3cc260-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int cuttingRope(int n) {
@@ -22,4 +22,4 @@ public:
         return dp[n];
     }
 };
-```
+// ```

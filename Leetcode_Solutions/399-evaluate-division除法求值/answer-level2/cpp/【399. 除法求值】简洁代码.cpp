@@ -1,9 +1,9 @@
-### 思路
-参考[Grandyang](https://www.cnblogs.com/grandyang/p/5880133.html)
+// ### 思路
+// 参考[Grandyang](https://www.cnblogs.com/grandyang/p/5880133.html)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
@@ -33,4 +33,4 @@ public:
 private:
     unordered_map<string, unordered_map<string, double>> ump;
 };
-```
+// ```

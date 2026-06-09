@@ -1,6 +1,6 @@
-看到一个while else的用法，放在这道题还是挺合适的
+# 看到一个while else的用法，放在这道题还是挺合适的
 
-```python
+# ```python
 class Solution:
     def detectCycle(self, head: ListNode) -> ListNode:
         if not head or not head.next:
@@ -17,4 +17,4 @@ class Solution:
                 head, slow = head.next, slow.next
             
             return head
-```
+# ```

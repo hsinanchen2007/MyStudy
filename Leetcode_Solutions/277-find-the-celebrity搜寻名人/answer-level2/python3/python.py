@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # The knows API is already defined for you.
 # return a bool, whether a knows b
 # def knows(a: int, b: int) -> bool:
@@ -24,4 +24,4 @@ class Solution:
             if not knows(i, celebrity): # 为了确保 每个人都认识 celebrity
                 return -1
         return celebrity
-```
+# ```

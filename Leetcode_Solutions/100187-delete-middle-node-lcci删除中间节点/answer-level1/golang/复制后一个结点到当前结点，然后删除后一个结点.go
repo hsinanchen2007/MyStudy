@@ -1,9 +1,9 @@
-### 解题思路
-先把下一个结点的值复制到当前结点，然后将下一个结点删除即可。
+// ### 解题思路
+// 先把下一个结点的值复制到当前结点，然后将下一个结点删除即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -22,4 +22,4 @@ func deleteNode(node *ListNode) {
     node.Next.Next = nil
     node.Next = tmp
 }
-```
+// ```

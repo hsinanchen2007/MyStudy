@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int arrayPairSum(int[] nums) {
         //规化出数学问题。分成两组，两组min和的最大值就是
@@ -14,5 +14,5 @@ class Solution {
         return maxSum ;
     }
 }
-```
-数组的规律需要求得是什么。
+// ```
+// 数组的规律需要求得是什么。

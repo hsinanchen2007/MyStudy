@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     private int compare(int[] a1, int[] a2) {
         if (a1[0] == a2[0]) {
@@ -31,4 +31,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

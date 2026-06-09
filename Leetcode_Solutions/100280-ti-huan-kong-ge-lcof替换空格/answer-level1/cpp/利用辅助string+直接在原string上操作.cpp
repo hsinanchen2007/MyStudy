@@ -1,13 +1,13 @@
-### 解题思路
-利用辅助string来依次复制目标，遇到空格就添加“%20”
-(ps:剑指offer上直接在原string上进行操作，这样string得扩容。。。手动狗头)
+// ### 解题思路
+// 利用辅助string来依次复制目标，遇到空格就添加“%20”
+// (ps:剑指offer上直接在原string上进行操作，这样string得扩容。。。手动狗头)
 
 
-### 代码
+// ### 代码
 
-**利用辅助string**
+// **利用辅助string**
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -25,10 +25,10 @@ public:
         return s1;
     }
 };
-```
+// ```
 
-**直接在原string上操作**
-```
+// **直接在原string上操作**
+// ```
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -58,4 +58,4 @@ public:
         return s;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-分别使用广度优先搜索和深度优先搜索（递归方法）
+# ### 解题思路
+# 分别使用广度优先搜索和深度优先搜索（递归方法）
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -53,4 +53,4 @@ class Solution(object):
         #     return self.rangeSumBST(node.left,L,R)
         # if L<=node.val<=R:
         #     return node.val+self.rangeSumBST(node.right,L,R)+self.rangeSumBST(node.left,L,R)
-```
+# ```

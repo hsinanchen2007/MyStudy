@@ -1,6 +1,6 @@
-思路很简单：遍历数组，偶数从前往后放，奇数从后往前放
+// 思路很简单：遍历数组，偶数从前往后放，奇数从后往前放
 
-```java
+// ```java
 class Solution {
     public int[] sortArrayByParity(int[] A) {
         if (A == null || A.length <= 1) {
@@ -18,4 +18,4 @@ class Solution {
         return B;
     }
 }
-```
+// ```

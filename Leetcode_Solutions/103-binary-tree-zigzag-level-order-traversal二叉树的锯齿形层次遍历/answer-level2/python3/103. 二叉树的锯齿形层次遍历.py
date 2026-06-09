@@ -1,9 +1,9 @@
-### 解题思路
-要确保每层的结点顺序正确，就必须使用bfs，但要求锯齿形，所以弄个flag，判断要不要改变方向。下面的代码可以考虑用list模拟queue，会更快点也更省内存，其中使用list.pop(0)来弹出头部元素。
+# ### 解题思路
+# 要确保每层的结点顺序正确，就必须使用bfs，但要求锯齿形，所以弄个flag，判断要不要改变方向。下面的代码可以考虑用list模拟queue，会更快点也更省内存，其中使用list.pop(0)来弹出头部元素。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def zigzagLevelOrder(self, root: TreeNode) :
         if not root:
@@ -30,4 +30,4 @@ class Solution:
             res.append(tmp.copy())
             flag += 1
         return res
-```
+# ```

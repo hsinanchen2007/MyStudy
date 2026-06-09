@@ -1,24 +1,24 @@
-# 题目描述（中等难度）
+// # 题目描述（中等难度）
 
-![image.png](https://pic.leetcode-cn.com/b7f811339bc4b2a6403bd7b68c565288d515f473b5349ee48862ee2ec057688a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b7f811339bc4b2a6403bd7b68c565288d515f473b5349ee48862ee2ec057688a-image.png)
 
-描述的很简单，就是给定几个数，然后输出他们所有排列的可能。
+// 描述的很简单，就是给定几个数，然后输出他们所有排列的可能。
 
-# 解法一 插入
+// # 解法一 插入
 
-这是自己开始想到的一个方法，考虑的思路是，先考虑小问题怎么解决，然后再利用小问题去解决大问题。没错，就是递归的思路。比如说，
+// 这是自己开始想到的一个方法，考虑的思路是，先考虑小问题怎么解决，然后再利用小问题去解决大问题。没错，就是递归的思路。比如说，
 
-如果只有 1 个数字 [ 1 ]，那么很简单，直接返回 [ [ 1 ] ] 就 OK 了。
+// 如果只有 1 个数字 [ 1 ]，那么很简单，直接返回 [ [ 1 ] ] 就 OK 了。
 
-如果加了 1 个数字 2， [ 1 2 ] 该怎么办呢？我们只需要在上边的情况里，在 1 的空隙，也就是左边右边插入 2 就够了。变成 [ [ **2** 1 ], [ 1 **2** ] ]。
+// 如果加了 1 个数字 2， [ 1 2 ] 该怎么办呢？我们只需要在上边的情况里，在 1 的空隙，也就是左边右边插入 2 就够了。变成 [ [ **2** 1 ], [ 1 **2** ] ]。
 
-如果再加 1 个数字 3，[ 1 2 3 ] 该怎么办呢？同样的，我们只需要在上边的所有情况里的空隙里插入数字 3 就行啦。例如 [ 2 1 ] 在左边，中间，右边插入 3 ，变成 **3** 2 1，2 **3** 1，2 1 **3**。同理，1 2 在左边，中间，右边插入 3，变成 **3** 1 2，1 **3** 2，1 2 **3**，所以最后的结果就是 [ [ 3 2 1]，[ 2 3 1]，[ 2 1 3 ],  [ 3 1 2 ]，[ 1 3 2 ]，[ 1 2 3 ] ]。
+// 如果再加 1 个数字 3，[ 1 2 3 ] 该怎么办呢？同样的，我们只需要在上边的所有情况里的空隙里插入数字 3 就行啦。例如 [ 2 1 ] 在左边，中间，右边插入 3 ，变成 **3** 2 1，2 **3** 1，2 1 **3**。同理，1 2 在左边，中间，右边插入 3，变成 **3** 1 2，1 **3** 2，1 2 **3**，所以最后的结果就是 [ [ 3 2 1]，[ 2 3 1]，[ 2 1 3 ],  [ 3 1 2 ]，[ 1 3 2 ]，[ 1 2 3 ] ]。
 
-如果再加数字也是同样的道理，只需要在之前的情况里，数字的空隙插入新的数字就够了。
+// 如果再加数字也是同样的道理，只需要在之前的情况里，数字的空隙插入新的数字就够了。
 
-思路有了，直接看代码吧。
+// 思路有了，直接看代码吧。
 
-```java
+// ```java
 public List<List<Integer>> permute(int[] nums) {
     return permute_end(nums,nums.length-1);
 }
@@ -52,11 +52,11 @@ private List<List<Integer>> permute_end(int[] nums, int end) {
     }
     return all_end;
 }
-```
+// ```
 
-既然有递归的过程，我们也可以直接改成迭代的，可以把递归开始不停压栈的过程省略了。
+// 既然有递归的过程，我们也可以直接改成迭代的，可以把递归开始不停压栈的过程省略了。
 
-```java
+// ```java
 public List<List<Integer>> permute(int[] nums) {
     List<List<Integer>> all = new ArrayList<>();
     all.add(new ArrayList<>());
@@ -76,25 +76,25 @@ public List<List<Integer>> permute(int[] nums) {
     }
     return all;
 }
-```
+// ```
 
-时间复杂度，如果只分析代码的话挺复杂的。如果从最后的结果来说，应该是 n! 个结果，所以时间复杂度应该是 O（n！)。
+// 时间复杂度，如果只分析代码的话挺复杂的。如果从最后的结果来说，应该是 n! 个结果，所以时间复杂度应该是 O（n！)。
 
-空间复杂度：O（1）。
+// 空间复杂度：O（1）。
 
-# 解法二 回溯
+// # 解法二 回溯
 
-这个开始没想到，参考[这里](https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning))。
+// 这个开始没想到，参考[这里](https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning))。
 
-其实也算是蛮典型的回溯，利用递归每次向 temp 里添加一个数字，数字添加够以后再回来进行回溯，再向后添加新的解。
+// 其实也算是蛮典型的回溯，利用递归每次向 temp 里添加一个数字，数字添加够以后再回来进行回溯，再向后添加新的解。
 
-可以理解成一层一层的添加，每一层都是一个 for 循环。
+// 可以理解成一层一层的添加，每一层都是一个 for 循环。
 
-![image.png](https://pic.leetcode-cn.com/29ffd552d5ad6d2ea6df10f323941639ae4e500cc779dd851dff43b10c52cbc4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/29ffd552d5ad6d2ea6df10f323941639ae4e500cc779dd851dff43b10c52cbc4-image.png)
 
-每调用一层就进入一个 for 循环，相当于列出了所有解，然后挑选了我们需要的。其实本质上就是深度优先遍历 DFS。
+// 每调用一层就进入一个 for 循环，相当于列出了所有解，然后挑选了我们需要的。其实本质上就是深度优先遍历 DFS。
 
-```java
+// ```java
 public List<List<Integer>> permute(int[] nums) {
    List<List<Integer>> list = new ArrayList<>(); 
    backtrack(list, new ArrayList<>(), nums);
@@ -113,29 +113,29 @@ private void backtrack(List<List<Integer>> list, List<Integer> tempList, int [] 
       }
    }
 } 
-```
+// ```
 
-时间复杂度：
+// 时间复杂度：
 
-空间复杂度：
+// 空间复杂度：
 
-# 解法三 交换
+// # 解法三 交换
 
-参考[这里](https://leetcode.com/problems/permutations/discuss/18247/My-elegant-recursive-C++-solution-with-inline-explanation?orderBy=most_votes)。
+// 参考[这里](https://leetcode.com/problems/permutations/discuss/18247/My-elegant-recursive-C++-solution-with-inline-explanation?orderBy=most_votes)。
 
-这个想法就很 cool 了，之前第一个解法的递归，有点儿动态规划的意思，把 1 个数字的解，2  个数字的解，3 个数字的解，一环套一环的求了出来。
+// 这个想法就很 cool 了，之前第一个解法的递归，有点儿动态规划的意思，把 1 个数字的解，2  个数字的解，3 个数字的解，一环套一环的求了出来。
 
-假设有一个函数，可以实现题目的要求，即产生 nums 的所有的组合，并且加入到 all 数组中。不过它多了一个参数，begin，即只指定从 nums [ begin ] 开始的数字，前边的数字固定不变。
+// 假设有一个函数，可以实现题目的要求，即产生 nums 的所有的组合，并且加入到 all 数组中。不过它多了一个参数，begin，即只指定从 nums [ begin ] 开始的数字，前边的数字固定不变。
 
-```java
+// ```java
 upset(int[] nums, int begin, List<List<Integer>> all)
-```
+// ```
 
-如果有这样的函数，那么一切就都简单了。
+// 如果有这样的函数，那么一切就都简单了。
 
-如果 begin 等于 nums 的长度，那么就表示 begin 前的数字都不变，也就是全部数字不变，我们只需要把它加到 all 中就行了。
+// 如果 begin 等于 nums 的长度，那么就表示 begin 前的数字都不变，也就是全部数字不变，我们只需要把它加到 all 中就行了。
 
-```java
+// ```java
 if (begin == nums.length) {
     ArrayList<Integer> temp = new ArrayList<Integer>(); 
     for (int i = 0; i < nums.length; i++) {
@@ -144,21 +144,21 @@ if (begin == nums.length) {
     all.add(new ArrayList<Integer>(temp));
     return;
 }
-```
+// ```
 
-如果是其它的情况，我们其实只需要用一个 for 循环，把每一个数字都放到 begin 一次，然后再变化后边的数字就够了，也就是调用 upset 函数，从 begin + 1 开始的所有组合。
+// 如果是其它的情况，我们其实只需要用一个 for 循环，把每一个数字都放到 begin 一次，然后再变化后边的数字就够了，也就是调用 upset 函数，从 begin + 1 开始的所有组合。
 
-```java
+// ```java
 for (int i = begin; i < nums.length; i++) {
     swap(nums, i, begin);
     upset(nums, begin + 1, all);
     swap(nums, i, begin);
 }
-```
+// ```
 
-总体就是这样了。
+// 总体就是这样了。
 
-```java
+// ```java
 public List<List<Integer>> permute(int[] nums) {
     List<List<Integer>> all = new ArrayList<>();
     //从下标 0 开始的所有组合
@@ -188,12 +188,12 @@ private void swap(int[] nums, int i, int begin) {
     nums[i] = nums[begin];
     nums[begin] = temp;
 }
-```
+// ```
 
-时间复杂度：
+// 时间复杂度：
 
-空间复杂度：
+// 空间复杂度：
 
-# 总
+// # 总
 
-这道题很经典了，用动态规划，回溯，递归各实现了一遍，当然解法一强行递归了一下，和解法三相比真是相形见绌，解法三才是原汁原味的递归，简洁优雅。
+// 这道题很经典了，用动态规划，回溯，递归各实现了一遍，当然解法一强行递归了一下，和解法三相比真是相形见绌，解法三才是原汁原味的递归，简洁优雅。

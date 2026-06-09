@@ -1,11 +1,11 @@
-### 解题思路
-思路一:
-通过数组记录大小在 1 到 len 的数字（目标值可能出现的范围）是否出现过，未出现的最小值即为目标值。
-遍历两次即可。
+// ### 解题思路
+// 思路一:
+// 通过数组记录大小在 1 到 len 的数字（目标值可能出现的范围）是否出现过，未出现的最小值即为目标值。
+// 遍历两次即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int firstMissingPositive(int[] nums) {
         int len = nums.length;
@@ -23,14 +23,14 @@ class Solution {
         return len + 1;
     }
 }
-```
+// ```
 
-### 解题思路
-思路二：
-记录每个数字的前后数字，这些数字里没有出现在输入数组中的最小值即为目标值。
+// ### 解题思路
+// 思路二：
+// 记录每个数字的前后数字，这些数字里没有出现在输入数组中的最小值即为目标值。
 
-### 代码
-```java
+// ### 代码
+// ```java
 public static int firstMissingPositive(int[] nums) {
         // 第一次遍历，将无用数据处理为0，同时记录出现的最小正数
         int min = Integer.MAX_VALUE;
@@ -61,4 +61,4 @@ public static int firstMissingPositive(int[] nums) {
         }
         return result;
     }
-```
+// ```

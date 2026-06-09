@@ -1,4 +1,4 @@
-```
+// ```
 int str_to_int(char *s, int n) {
     int ret = 0;
     int i = 0;
@@ -57,8 +57,8 @@ bool validWordAbbreviation(char * word, char * abbr){
         return false;
     }
 }
-```
+// ```
 
-几个异常分支处理：
-1. 注意数字首数字是'0'的场景；
-2. 注意多位数字的处理。
+// 几个异常分支处理：
+// 1. 注意数字首数字是'0'的场景；
+// 2. 注意多位数字的处理。

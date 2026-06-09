@@ -1,9 +1,9 @@
-### 解题思路
-思路一 ： 从点集中选取两点ij，组成一个线段，再从点集中找出落在线段的垂直平分线上的点k，统计k的个数（O(n^3)会超时）
-思路二 ： 从点集中选取一点i，计算所有其他点j到这个点的距离，统计j->i距离相等的点数n。则对于点i有“回旋镖”n\*(n-1)个。（有n个点，每次取两个放在i的左右，根据排列组合公式，有n!/(n-2)!种排列方法）（统计距离相同的点数的时候，需要Hash等数据结构，对C来说不友好）
-### 代码
+// ### 解题思路
+// 思路一 ： 从点集中选取两点ij，组成一个线段，再从点集中找出落在线段的垂直平分线上的点k，统计k的个数（O(n^3)会超时）
+// 思路二 ： 从点集中选取一点i，计算所有其他点j到这个点的距离，统计j->i距离相等的点数n。则对于点i有“回旋镖”n\*(n-1)个。（有n个点，每次取两个放在i的左右，根据排列组合公式，有n!/(n-2)!种排列方法）（统计距离相同的点数的时候，需要Hash等数据结构，对C来说不友好）
+// ### 代码
 
-```c
+// ```c
 思路一：（超时）
 int distance_2(int X1, int Y1, int X2, int Y2)
 {
@@ -26,4 +26,4 @@ int numberOfBoomerangs(int** points, int pointsSize, int* pointsColSize) {
 作者：shugangwang
 链接：https://leetcode-cn.com/problems/number-of-boomerangs/solution/cyu-yan-shi-xian-by-shugangwang-8/
 
-```
+// ```

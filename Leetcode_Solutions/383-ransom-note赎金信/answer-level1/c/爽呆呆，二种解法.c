@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canConstruct(char * ransomNote, char * magazine){
     int mark1[26]={0};//模拟HASH
     char mark[26];
@@ -28,4 +28,4 @@ bool canConstruct(char * ransomNote, char * magazine){
     }
     return true;
 }
-```
+// ```

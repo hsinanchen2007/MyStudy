@@ -1,5 +1,5 @@
-构造节点：用于排序后面的写入值
-```
+// 构造节点：用于排序后面的写入值
+// ```
 typedef struct node
 {
     int index;
@@ -8,9 +8,9 @@ typedef struct node
         return t1.val > t2.val;    //<会产生升序排序,若改为>,则变为降序
     }
 }NODE;
-```
-代码：
-```
+// ```
+// 代码：
+// ```
 typedef struct node
 {
     int index;
@@ -53,7 +53,7 @@ public:
         return ret_string;
     }
 };
-```
+// ```
 
 
 

@@ -1,15 +1,15 @@
-执行用时 :9 ms, 在所有 Java 提交中击败了52.47% 的用户
-内存消耗 :37.3 MB, 在所有 Java 提交中击败了95.81%的用户
+// 执行用时 :9 ms, 在所有 Java 提交中击败了52.47% 的用户
+// 内存消耗 :37.3 MB, 在所有 Java 提交中击败了95.81%的用户
 
-思路：翻转每一个单词，最后翻转整体
-如：
-    the sky is blue
-    翻转每一个单词
-    eht yks si eulb
-    翻转整个字符串
-    blue is sky the
+// 思路：翻转每一个单词，最后翻转整体
+// 如：
+//     the sky is blue
+//     翻转每一个单词
+//     eht yks si eulb
+//     翻转整个字符串
+//     blue is sky the
     
-```
+// ```
 class Solution {
 
     private static final char NULL_CHAR = ' ';
@@ -42,4 +42,4 @@ class Solution {
         return new StringBuilder(sb.toString().trim()).reverse().toString();
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mySqrt(self, x: int) -> int:
         # 数学问题if x/2>2: x*x > x+x因此我们可以取x/2作为一个限制
@@ -29,4 +29,4 @@ class Solution:
                 mid = (left + right)//2
         return left
 
-```
+# ```

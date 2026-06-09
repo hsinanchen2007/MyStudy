@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} rec1
  * @param {number[]} rec2
@@ -12,4 +12,4 @@ var isRectangleOverlap = function(rec1, rec2) {
     else
         return false;
 };
-```
+// ```

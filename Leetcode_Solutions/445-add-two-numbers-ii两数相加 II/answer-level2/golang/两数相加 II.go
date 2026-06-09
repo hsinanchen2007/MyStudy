@@ -1,9 +1,9 @@
-### 解题思路
-使用两个栈,存储链表的值.再构造新链表.
+// ### 解题思路
+// 使用两个栈,存储链表的值.再构造新链表.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -78,4 +78,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return p
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 int removeDuplicates(vector<int>& nums) {
     int last_index = -1;
     for (int i = 0; i < nums.size(); ++i) {
@@ -8,4 +8,4 @@ int removeDuplicates(vector<int>& nums) {
     }
     return last_index + 1;
 }
-```
+// ```

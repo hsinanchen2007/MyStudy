@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/eac91f53d7eddfb054a1b3e99144a0cfa0f7cba39b336942fd6dbf40ae9495d2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/eac91f53d7eddfb054a1b3e99144a0cfa0f7cba39b336942fd6dbf40ae9495d2-image.png)
 
-```
+// ```
 impl Solution {
     pub fn count_and_say(n: i32) -> String {
         if n == 1 { return String::from("1"); }
@@ -28,4 +28,4 @@ impl Solution {
         curr_str
     }
 }
-```
+// ```

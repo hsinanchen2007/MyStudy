@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minNumber(self, nums: List[int]) -> str:
         b = sorted([str(i) for i in nums])
@@ -20,4 +20,4 @@ class Solution:
         for i in b:
             re = re+i
         return (re)
-```
+# ```

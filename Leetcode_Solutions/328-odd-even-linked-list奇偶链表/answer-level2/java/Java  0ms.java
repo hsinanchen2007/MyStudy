@@ -1,5 +1,5 @@
 
-```
+// ```
 public ListNode oddEvenList(ListNode head) {
     if (head == null || head.next == null || head.next.next == null)
         return head;
@@ -25,4 +25,4 @@ public ListNode oddEvenList(ListNode head) {
     lastNodeOfList1.next = firstNodeOfList2;
     return head;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-整体思路为先找到插入位置的左下标和右下标：
-分为两种情况，如果rightIndex < leftIndex,说明只需插入该项，不用改变原有数组
-否则，将插入项与插入位置对应的项进行合并。
-```
+// 整体思路为先找到插入位置的左下标和右下标：
+// 分为两种情况，如果rightIndex < leftIndex,说明只需插入该项，不用改变原有数组
+// 否则，将插入项与插入位置对应的项进行合并。
+// ```
 public static int[][] insert(int[][] intervals, int[] newInterval) {
         int length = intervals.length;
         if(length == 0)
@@ -68,6 +68,6 @@ public static int[][] insert(int[][] intervals, int[] newInterval) {
         }
         return ans;
     }
-```
-可以看到，时间复杂度因对数组进行插入或者合并，为O（N），空间复杂度也为O（N）。
-寻找左右边界的二分查找感兴趣的可以简单合并一下。
+// ```
+// 可以看到，时间复杂度因对数组进行插入或者合并，为O（N），空间复杂度也为O（N）。
+// 寻找左右边界的二分查找感兴趣的可以简单合并一下。

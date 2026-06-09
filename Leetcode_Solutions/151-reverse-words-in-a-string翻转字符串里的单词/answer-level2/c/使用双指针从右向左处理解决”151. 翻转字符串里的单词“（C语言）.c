@@ -1,14 +1,14 @@
-### 解题思路
-典型是双指针处理字符串题型，这里特殊的地方在于，从右向左处理，更加方便。
+// ### 解题思路
+// 典型是双指针处理字符串题型，这里特殊的地方在于，从右向左处理，更加方便。
 
-另外双指针处理的模板，需要注意在退出后，要检查最后一次剩余的处理。
+// 另外双指针处理的模板，需要注意在退出后，要检查最后一次剩余的处理。
 
-![image.png](https://pic.leetcode-cn.com/2707393f06c7c2b3138f2a94098fba898ffde601be2aef205177e030eb843d92-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2707393f06c7c2b3138f2a94098fba898ffde601be2aef205177e030eb843d92-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -79,4 +79,4 @@ char * reverseWords(char * s){
 
     return ret;
 }
-```
+// ```

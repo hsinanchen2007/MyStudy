@@ -1,9 +1,9 @@
-### 解题思路
-将int转为String，调用.length，然后%2==0即为偶数
+// ### 解题思路
+// 将int转为String，调用.length，然后%2==0即为偶数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findNumbers(int[] nums) {
         int res=0;
@@ -16,4 +16,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

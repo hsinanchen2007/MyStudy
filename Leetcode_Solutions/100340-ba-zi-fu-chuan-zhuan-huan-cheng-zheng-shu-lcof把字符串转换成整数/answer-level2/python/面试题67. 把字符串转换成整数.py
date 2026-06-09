@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def strToInt(self, str: str) -> int:
         for i, c in enumerate(str):
@@ -16,4 +16,4 @@ class Solution:
             else:
                 break
         return 0
-```
+# ```

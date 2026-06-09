@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:     # 图的bfs遍历 | 迭代 | 队列
         m, n = len(grid), len(grid[0])
@@ -25,4 +25,4 @@ class Solution:
                 minute +=1
         # 经过传染，审查，隔离的循环后，如果还有好橘子幸存，返回-1宣布胜利，否则返回橘子们的存活时间
         return -1 if ['survive' for y in range(m) for x in range(n) if grid[y][x]==1] else minute   # 最后这个survive是自定义的，是哪个都行
-```
+# ```

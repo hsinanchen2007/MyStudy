@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-用栈来做
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 用栈来做
+// ### 代码
 
-```cpp
+// ```cpp
 #include <stack>
 #include <string>
 using namespace std;
@@ -41,4 +41,4 @@ public:
         return p_stack->empty();
     }
 };
-```
+// ```

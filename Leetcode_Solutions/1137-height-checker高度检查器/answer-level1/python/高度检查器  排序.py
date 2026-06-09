@@ -1,8 +1,8 @@
-### 解题思路
-排序 比较相同索引差异
-### 代码
+# ### 解题思路
+# 排序 比较相同索引差异
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def heightChecker(self, heights):
         heights_new = sorted(heights)
@@ -12,4 +12,4 @@ class Solution(object):
                 count += 1
         return count
 
-```
+# ```

@@ -1,5 +1,5 @@
-依次考虑相邻的3个元素pre--now--next，当(now.val != pre.val) && (now.val != next.val)的时候，就说明now这个元素是有效的。注意处理pre和next为空的临界条件。
-```
+// 依次考虑相邻的3个元素pre--now--next，当(now.val != pre.val) && (now.val != next.val)的时候，就说明now这个元素是有效的。注意处理pre和next为空的临界条件。
+// ```
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null)
@@ -29,4 +29,4 @@ class Solution {
     }
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/ba3f115d8f349faf48fb31dcbf99bd63f866fecbd5194f4209c0b97ffb467818-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/ba3f115d8f349faf48fb31dcbf99bd63f866fecbd5194f4209c0b97ffb467818-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /** 
  * Forward declaration of guess API.
  * @param  num   your guess
@@ -33,4 +33,4 @@ int guessNumber(int n){
         }  
     }
 }
-```
+// ```

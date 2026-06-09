@@ -1,19 +1,19 @@
-欢迎关注[muyids的leetcode题解](https://github.com/muyids/leetcode)
+// 欢迎关注[muyids的leetcode题解](https://github.com/muyids/leetcode)
 
-基于[**ES6 Map中keys的有序性** ](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Map/keys)来实现
+// 基于[**ES6 Map中keys的有序性** ](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Map/keys)来实现
 
-一个Map对象在迭代时会根据对象中元素的插入顺序来进行 
+// 一个Map对象在迭代时会根据对象中元素的插入顺序来进行 
 
-- get操作
+// - get操作
 
-    如果元素存在，先delete再set, 元素便会置为最新使用；如果不存在，返回-1
+//     如果元素存在，先delete再set, 元素便会置为最新使用；如果不存在，返回-1
 
-- put操作
+// - put操作
     
-    如果元素存在，先delete再set, 元素便会置为最新使用；
-    如果容器超限，进行删除末尾元素操作，使用 Map{}.keys().next()得到迭代器的第一个元素，为使用时间最远的元素，进行删除
+//     如果元素存在，先delete再set, 元素便会置为最新使用；
+//     如果容器超限，进行删除末尾元素操作，使用 Map{}.keys().next()得到迭代器的第一个元素，为使用时间最远的元素，进行删除
 
-```javascript
+// ```javascript
 var LRUCache = class {
 
     constructor(capacity) {
@@ -52,4 +52,4 @@ var LRUCache = class {
         cache.set(key, value);
     };
 };
-```
+// ```

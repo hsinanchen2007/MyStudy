@@ -1,6 +1,6 @@
-效率不高，所以还是推荐直接用API。。。
+// 效率不高，所以还是推荐直接用API。。。
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         
@@ -38,4 +38,4 @@ class Solution {
         else return 1;
     }
 }
-```
+// ```

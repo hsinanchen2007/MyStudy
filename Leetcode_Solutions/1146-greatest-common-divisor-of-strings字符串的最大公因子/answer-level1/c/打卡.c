@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     bool check(string t,string s){
         int lenx = (int)s.length() / (int)t.length();
@@ -26,4 +26,4 @@ public:
     }
 };
 
-```
+// ```

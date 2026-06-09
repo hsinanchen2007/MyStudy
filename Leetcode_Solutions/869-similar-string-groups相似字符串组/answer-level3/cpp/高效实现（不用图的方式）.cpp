@@ -1,9 +1,9 @@
-1、相似的string在一个set内， 这样L会慢慢减少，减少的L进行下一轮。
-2、用list因为其删除/增加的效率高。
-3、 L.erase(j++)必须这样写，不然会出错。因为修改list会影响iterator。
-![image.png](https://pic.leetcode-cn.com/c8a20af9a69a43aa8a011e036bcea177996cdbac21c7585c05cf451b9e87a67b-image.png)
+// 1、相似的string在一个set内， 这样L会慢慢减少，减少的L进行下一轮。
+// 2、用list因为其删除/增加的效率高。
+// 3、 L.erase(j++)必须这样写，不然会出错。因为修改list会影响iterator。
+// ![image.png](https://pic.leetcode-cn.com/c8a20af9a69a43aa8a011e036bcea177996cdbac21c7585c05cf451b9e87a67b-image.png)
 
-```
+// ```
 class Solution {
 private:
     bool _isValid(const string &x, const string &y) {
@@ -48,4 +48,4 @@ public:
         return _oneSet(L, 1);
     }
 };
-```
+// ```

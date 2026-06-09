@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     Node* intersect(Node* quadTree1, Node* quadTree2) {
@@ -35,4 +35,4 @@ public:
         return quadTree1;
     }
 };
-```
+// ```

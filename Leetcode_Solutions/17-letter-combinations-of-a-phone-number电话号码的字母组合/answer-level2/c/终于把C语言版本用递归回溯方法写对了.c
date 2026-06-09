@@ -1,4 +1,4 @@
-```
+// ```
 void DGletterCombinations(char * digits, int* returnSize,char **letters,char *result,char **res,int idig)
 {
     if(idig == strlen(digits))
@@ -38,4 +38,4 @@ char **letterCombinations(char * digits, int* returnSize)
     DGletterCombinations(digits, returnSize, LetterBox, result, res, 0);
     return res;
 }
-```
+// ```

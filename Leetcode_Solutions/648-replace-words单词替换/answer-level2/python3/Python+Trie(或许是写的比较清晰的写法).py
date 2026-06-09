@@ -1,4 +1,4 @@
-```python
+# ```python
 class TrieNode:
     def __init__(self, val=None, isEnd=False):
         self.val = val
@@ -47,4 +47,4 @@ class Solution:
             res.append(find(word))
         return ' '.join(res)
 
-```
+# ```

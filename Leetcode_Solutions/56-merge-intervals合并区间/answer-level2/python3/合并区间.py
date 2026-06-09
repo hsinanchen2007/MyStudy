@@ -1,13 +1,13 @@
-### 递推式
-f(n+1) = f(n) 的栈顶与 n+1 的合并结果
-### 边界条件
-1. 为空时候的返回
-2. 两个区间紧邻时候是否合并
-3. 栈要先退再进
-4. 应该先自己检查正确性再提交。这倒不是说工作会这样，而是应当有这种能力。
-### 代码
+# ### 递推式
+# f(n+1) = f(n) 的栈顶与 n+1 的合并结果
+# ### 边界条件
+# 1. 为空时候的返回
+# 2. 两个区间紧邻时候是否合并
+# 3. 栈要先退再进
+# 4. 应该先自己检查正确性再提交。这倒不是说工作会这样，而是应当有这种能力。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if not intervals:
@@ -23,4 +23,4 @@ class Solution:
             else:
                 ans.append(intervals[i])
         return ans
-```
+# ```

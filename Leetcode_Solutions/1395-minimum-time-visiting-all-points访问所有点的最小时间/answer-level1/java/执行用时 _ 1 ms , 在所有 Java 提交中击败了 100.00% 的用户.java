@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
         int summ=0;
@@ -18,4 +18,4 @@ class Solution {
 		return summ;
     }
 }
-```
+// ```

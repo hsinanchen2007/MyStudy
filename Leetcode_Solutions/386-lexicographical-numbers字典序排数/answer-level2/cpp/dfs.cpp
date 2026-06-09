@@ -1,5 +1,5 @@
-字典序，1，10，100...，首先想到的就是dfs
-```
+// 字典序，1，10，100...，首先想到的就是dfs
+// ```
 class Solution {
 public:
     void dfs(vector<int>& res,int num,int n){
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

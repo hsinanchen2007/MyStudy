@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
@@ -33,4 +33,4 @@ public:
         return res.size()==accounts.size()?res:accountsMerge(res);
     }
 };
-```
+// ```

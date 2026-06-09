@@ -1,9 +1,9 @@
-### 解题思路
-最大堆最小堆
+// ### 解题思路
+// 最大堆最小堆
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 //	295
 type IntMinHeap []int
@@ -99,4 +99,4 @@ func (mf *MedianFinder) FindMedian() float64 {
 		return float64(mf.maxHeap.Peek()+mf.minHeap.Peek()) / 2
 	}
 }
-```
+// ```

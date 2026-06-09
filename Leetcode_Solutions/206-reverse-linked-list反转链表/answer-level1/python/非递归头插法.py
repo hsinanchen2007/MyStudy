@@ -1,6 +1,6 @@
-基本思路每次取出头节点指向新的链表的头部，形成逆置
+# 基本思路每次取出头节点指向新的链表的头部，形成逆置
 
-```
+# ```
 class Solution(object):
     def reverseList(self, head):
         """
@@ -14,4 +14,4 @@ class Solution(object):
             h = head
             head = h1
         return h
-```
+# ```

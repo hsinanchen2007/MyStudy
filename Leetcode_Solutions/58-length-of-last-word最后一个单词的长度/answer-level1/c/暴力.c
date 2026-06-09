@@ -1,10 +1,10 @@
-### 解题思路
-没啥思路，有个坑需要注意一下：
-"ab "
+// ### 解题思路
+// 没啥思路，有个坑需要注意一下：
+// "ab "
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLastWord(char * s){
     int sLen = strlen(s);
     int index = 0;
@@ -20,4 +20,4 @@ int lengthOfLastWord(char * s){
 
     return index;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-中序遍历，每次判断当前节点和上一节点是否满足顺序关系，若有不满足则直接返回false
+// 中序遍历，每次判断当前节点和上一节点是否满足顺序关系，若有不满足则直接返回false
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ public:
         return true;
     }
 };
-```
+// ```

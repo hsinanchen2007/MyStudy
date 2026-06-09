@@ -1,9 +1,9 @@
-### 解题思路
-公约数
+// ### 解题思路
+// 公约数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         if (deck == null || deck.length < 2) {
@@ -23,4 +23,4 @@ class Solution {
         return (x == 0) ? y : gcd(y % x, x);
     }
 }
-```
+// ```

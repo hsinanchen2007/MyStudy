@@ -1,5 +1,5 @@
-Java  DFS解法， 参考大家的
-```java
+// Java  DFS解法， 参考大家的
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ class Solution {
         return left;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-和题 12 数字转罗马一样的思路。写出表来，从大到小依次减去。要注意 CM, CD, XC, XL, IX, IV 是两位，还有数组边界的问题。
+# 和题 12 数字转罗马一样的思路。写出表来，从大到小依次减去。要注意 CM, CD, XC, XL, IX, IV 是两位，还有数组边界的问题。
 
-![image.png](https://pic.leetcode-cn.com/2d2744f65c6fb11002b44f189a4c33a6815070885cdb0d9b932f96f70ce81a18-image.png)
+# ![image.png](https://pic.leetcode-cn.com/2d2744f65c6fb11002b44f189a4c33a6815070885cdb0d9b932f96f70ce81a18-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s: str) -> int:
         digits = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
@@ -22,4 +22,4 @@ class Solution:
                     result = result + digits[i]
                     s = s[2:]
         return result
-```
+# ```

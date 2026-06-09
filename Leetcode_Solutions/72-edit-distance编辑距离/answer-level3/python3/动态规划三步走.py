@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         """
@@ -49,4 +49,4 @@ class Solution:
                         dp[i].append(min(dp[i-1][j-1], dp[i][j-1], dp[i-1][j]) + 1)
         _dpfunc()
         return dp[len(word1)-1][len(word2)-1]
-```
+# ```

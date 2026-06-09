@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool ifChar(char c) {
     char *s = "aeiouAEIOU";
     for (int i = 0; i < 10; i++) {
@@ -36,4 +36,4 @@ char * reverseVowels(char * s){
     }
     return s;
 }
-```
+// ```

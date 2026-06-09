@@ -1,17 +1,17 @@
 
 
-解题时，注意index = 0 是从头结点的下一个节点开始算起。
+// 解题时，注意index = 0 是从头结点的下一个节点开始算起。
 
-![微信截图_20200409215324.png](https://pic.leetcode-cn.com/14eaab9aa9e71113f2df2b336b423215f15dc352853cabde537fb491ce468f18-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200409215324.png)
+// ![微信截图_20200409215324.png](https://pic.leetcode-cn.com/14eaab9aa9e71113f2df2b336b423215f15dc352853cabde537fb491ce468f18-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200409215324.png)
 
 
    
 
 
-- 删除，插入节点，就是基本的改变指针。
-- 当前指针，是new出的对象，包括val，和next指针。
+// - 删除，插入节点，就是基本的改变指针。
+// - 当前指针，是new出的对象，包括val，和next指针。
 
-```
+// ```
 size = 3
 
 {
@@ -27,11 +27,11 @@ size = 3
         }
     }
 }
-```
+// ```
 
 
 
-```
+// ```
 /**
  * Initialize your data structure here.
  */
@@ -145,4 +145,4 @@ MyLinkedList.prototype.deleteAtIndex = function(index) {
  * obj.addAtIndex(index,val)
  * obj.deleteAtIndex(index)
  */
-```
+// ```

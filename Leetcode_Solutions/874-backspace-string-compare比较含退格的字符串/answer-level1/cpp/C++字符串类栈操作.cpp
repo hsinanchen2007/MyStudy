@@ -1,6 +1,6 @@
-执行用时 0 ms, 
-在所有 C++ 提交中击败了100.00%的用户
-```cpp []
+// 执行用时 0 ms, 
+// 在所有 C++ 提交中击败了100.00%的用户
+// ```cpp []
 class Solution {
 public:
     bool backspaceCompare(string S, string T) {
@@ -19,4 +19,4 @@ public:
         return s1==s2;
     }
 };
-```
+// ```

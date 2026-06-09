@@ -1,9 +1,9 @@
-### 解题思路
-在碰到矩阵边界时，分情况判断。其他情况根据direction方向，进行操作。
+// ### 解题思路
+// 在碰到矩阵边界时，分情况判断。其他情况根据direction方向，进行操作。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -82,4 +82,4 @@ int* findDiagonalOrder(int** matrix, int matrixSize, int* matrixColSize, int* re
     *returnSize=matrixSize * (*matrixColSize);
     return ret;
 }
-```
+// ```

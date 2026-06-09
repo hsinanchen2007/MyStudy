@@ -1,6 +1,6 @@
-这道题和875 1011 是一个类型 二分查找最优解
+// 这道题和875 1011 是一个类型 二分查找最优解
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double minmaxGasDist(vector<int>& stations, int K) {
@@ -22,4 +22,4 @@ public:
 	return start;
     }
 };
-```
+// ```

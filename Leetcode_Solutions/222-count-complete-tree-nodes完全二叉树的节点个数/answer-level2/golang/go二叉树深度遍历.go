@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-我想不到更好的办法，只能简单粗暴的遍历了
+// 我想不到更好的办法，只能简单粗暴的遍历了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -33,4 +33,4 @@ func dfs(root *TreeNode, res *int) {
     dfs(root.Left, res)
     dfs(root.Right, res)
 }
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/23d90218f301cd1e320fd563dc01672ab38cf7810bf5b794e0ee853eb58e48e8-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/23d90218f301cd1e320fd563dc01672ab38cf7810bf5b794e0ee853eb58e48e8-image.png)
 
-这题很明显，绝对是回溯思路。
-1、观察规律：
-2-7对应的字母是num*3 +'a'、 num*3+'b'、 num*3+'c'。
-8-9对应的字母是num*3 +'b'、num*3+'c'、num*3+'d'.
-最后7和9各自多出来字符，再额外添加既可。
+// 这题很明显，绝对是回溯思路。
+// 1、观察规律：
+// 2-7对应的字母是num*3 +'a'、 num*3+'b'、 num*3+'c'。
+// 8-9对应的字母是num*3 +'b'、num*3+'c'、num*3+'d'.
+// 最后7和9各自多出来字符，再额外添加既可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> vecResult;
@@ -51,4 +51,4 @@ public:
         return;
     }
 };
-```
+// ```

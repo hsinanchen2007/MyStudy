@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/56e7504bc5dad90cc002c6e71c4e8fc4fc686f56f8e02812a5d67eb930f706ab-image.png)
-```go
+// ![image.png](https://pic.leetcode-cn.com/56e7504bc5dad90cc002c6e71c4e8fc4fc686f56f8e02812a5d67eb930f706ab-image.png)
+// ```go
 func intersection(nums1 []int, nums2 []int) []int {
     set := make(map[int]bool)
     res := make([]int, 0)
@@ -14,6 +14,6 @@ func intersection(nums1 []int, nums2 []int) []int {
     }
     return res
 }
-```
+// ```
 
 

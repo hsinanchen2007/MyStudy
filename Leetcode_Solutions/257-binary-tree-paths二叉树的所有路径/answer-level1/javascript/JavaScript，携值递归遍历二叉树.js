@@ -1,9 +1,9 @@
-### 解题思路
-递归过程中，每个节点携带着自己遍历过的值，一旦达到叶子节点。就把携带的值放到result中即可
+// ### 解题思路
+// 递归过程中，每个节点携带着自己遍历过的值，一旦达到叶子节点。就把携带的值放到result中即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -34,4 +34,4 @@ var binaryTreePaths = function(root) {
     traverse(root,[])
     return result
 };
-```
+// ```

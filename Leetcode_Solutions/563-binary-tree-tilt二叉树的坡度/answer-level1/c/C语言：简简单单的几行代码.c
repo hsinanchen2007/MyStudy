@@ -1,8 +1,8 @@
-- 执行用时 :6 ms, 在所有 C 提交中击败了100.00%的用户
-- 内存消耗 :5 MB, 在所有 C 提交中击败了100.00%的用户
-递归遍历，不断相加
+// - 执行用时 :6 ms, 在所有 C 提交中击败了100.00%的用户
+// - 内存消耗 :5 MB, 在所有 C 提交中击败了100.00%的用户
+// 递归遍历，不断相加
 
-```
+// ```
 int NODE_SUMS[10240] = {0};
 int NODE_NUMBER = 0;
 int findTilt(struct TreeNode* root){
@@ -30,4 +30,4 @@ int node_dfs(struct TreeNode* root)
 
     return root->val + left_val + right_val;
 }
-```
+// ```

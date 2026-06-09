@@ -1,4 +1,4 @@
-```
+// ```
 package ZJM_67_二进制求和;
 
 public class Main {
@@ -67,4 +67,4 @@ class Solution {
  * 通过对两串字符串
  */
 
-```
+// ```

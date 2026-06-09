@@ -1,31 +1,31 @@
-#### 解题思路:
+// #### 解题思路:
 
-这道题真正**难点**在于: 在一个位置能容下的雨水量等于它左右两边柱子最大高度的最小值减去它的高度.比如下图所示,
-
-
-![Snipaste_2019-05-11_18-02-16.png](https://pic.leetcode-cn.com/6db1fe9019dfbf4d5c2e472112c5cd227925d4b5a99ac48cd2a2779d2535b6ce-Snipaste_2019-05-11_18-02-16.png){:width=500}
-{:align=center}
+// 这道题真正**难点**在于: 在一个位置能容下的雨水量等于它左右两边柱子最大高度的最小值减去它的高度.比如下图所示,
 
 
-位置 `i` 能容下雨水量:`min(3,1) - 0 = 1` 
+// ![Snipaste_2019-05-11_18-02-16.png](https://pic.leetcode-cn.com/6db1fe9019dfbf4d5c2e472112c5cd227925d4b5a99ac48cd2a2779d2535b6ce-Snipaste_2019-05-11_18-02-16.png){:width=500}
+// {:align=center}
 
-所以，问题就变成了：如何找所有位置的左右两边的柱子的最大值？
 
-这里有 3 种方法:
+// 位置 `i` 能容下雨水量:`min(3,1) - 0 = 1` 
 
-思路一：动态规划
+// 所以，问题就变成了：如何找所有位置的左右两边的柱子的最大值？
 
-思路二：双指针
+// 这里有 3 种方法:
 
-思路三：栈
+// 思路一：动态规划
 
-时间复杂度都是:$O(n)$
+// 思路二：双指针
 
-#### 代码:
+// 思路三：栈
 
-思路一:
+// 时间复杂度都是:$O(n)$
 
-```Python [1]
+// #### 代码:
+
+// 思路一:
+
+// ```Python [1]
 class Solution:
     def trap(self, height: List[int]) -> int:
         if not height: return 0
@@ -47,11 +47,11 @@ class Solution:
         for i in range(n):
             res += min(max_left[i], max_right[i]) - height[i]
         return res
-```
+// ```
 
 
 
-```Java [1]
+// ```Java [1]
 class Solution {
     public int trap(int[] height) {
         if (height == null || height.length == 0) return 0;
@@ -69,9 +69,9 @@ class Solution {
         return res; 
     }
 }
-```
-少写一个循环
-```python
+// ```
+// 少写一个循环
+// ```python
 class Solution:
     def trap(self, height: List[int]) -> int:
         n = len(height)
@@ -86,13 +86,13 @@ class Solution:
             cur = max(height[i], cur)
             res += min(cur, right[i]) - height[i]
         return res
-```
+// ```
 
 
 
-思路二:
+// 思路二:
 
-```Python [2]
+// ```Python [2]
 class Solution:
     def trap(self, height: List[int]) -> int:
         if not height: return 0
@@ -117,9 +117,9 @@ class Solution:
                 right -= 1 
         return res
                 
-```
+// ```
 
-```Java [2]
+// ```Java [2]
 class Solution {
     public int trap(int[] height) {
         if (height == null || height.length == 0) return 0;
@@ -142,11 +142,11 @@ class Solution {
         return res; 
     }
 }
-```
+// ```
 
-思路三:
+// 思路三:
 
-```Python [3]
+// ```Python [3]
 class Solution:
     def trap(self, height: List[int]) -> int:
         if not height: return 0
@@ -161,11 +161,11 @@ class Solution:
                 res += (min(height[i], height[stack[-1]]) - height[tmp]) * (i-stack[-1] - 1)
             stack.append(i)
         return res
-```
+// ```
 
 
 
-```Java [3]
+// ```Java [3]
 class Solution {
     public int trap(int[] height) {
         if (height == null || height.length == 0) return 0;
@@ -182,5 +182,5 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 

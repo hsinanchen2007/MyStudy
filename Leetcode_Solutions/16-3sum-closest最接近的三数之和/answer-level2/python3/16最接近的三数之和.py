@@ -1,9 +1,9 @@
-### 解题思路
-和三数之和，四数之和类似。双指针+当前元素 
+# ### 解题思路
+# 和三数之和，四数之和类似。双指针+当前元素 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         #双指针L/R/i
@@ -27,4 +27,4 @@ class Solution:
                     if abs(res-target)>abs(sumcum-target):res=sumcum
                     L+=1
         return res
-```
+# ```

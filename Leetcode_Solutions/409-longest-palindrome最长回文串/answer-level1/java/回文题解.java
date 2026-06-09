@@ -1,10 +1,10 @@
-### 解题思路
-最笨的方法：
-  先将字符串遍历加如HashMap，key存在则value+1，key不存在则value=0,然后取出value值，看是否是奇偶数，若是偶数则为全部，若是奇数则长度减一，最后再把长度相加
+// ### 解题思路
+// 最笨的方法：
+//   先将字符串遍历加如HashMap，key存在则value+1，key不存在则value=0,然后取出value值，看是否是奇偶数，若是偶数则为全部，若是奇数则长度减一，最后再把长度相加
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
          // 是否有单个元素，可以作为中间一个元素
@@ -41,4 +41,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-参照106题的解法，解法类似
+// 参照106题的解法，解法类似
 
-```
+// ```
 int GetInorderIndex(int *inorder, int inorderSize, int val)
 {
     for (int i = 0; i < inorderSize; i++) {
@@ -41,4 +41,4 @@ struct TreeNode *buildTree(int *preorder, int preorderSize, int *inorder, int in
     struct TreeNode *result = Build(0, inorderSize - 1, inorder, inorderSize, preorder, &preoderIndex);
     return result;
 }
-```
+// ```

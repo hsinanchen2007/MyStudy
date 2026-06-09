@@ -1,8 +1,8 @@
-1. 所有单词按长度从大到小排序。
-2. 定义一棵前缀树，这里用字典pre_dict实现。
-3. 从长度最短的单词开始，检查此单词是否能用前缀树中的单词组成，如不能，则把此单词插入前缀树。
+# 1. 所有单词按长度从大到小排序。
+# 2. 定义一棵前缀树，这里用字典pre_dict实现。
+# 3. 从长度最短的单词开始，检查此单词是否能用前缀树中的单词组成，如不能，则把此单词插入前缀树。
 
-```python []
+# ```python []
 
 class Solution:
     def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:
@@ -37,4 +37,4 @@ class Solution:
                     cur_dict = cur_dict.get(c)
                 cur_dict['end'] = 1
         return ans
-```
+# ```

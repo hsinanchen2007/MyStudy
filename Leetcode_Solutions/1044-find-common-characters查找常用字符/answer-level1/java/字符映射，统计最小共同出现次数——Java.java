@@ -1,7 +1,7 @@
-思路：建立二维映射表，统计每个字符的最小共同出现次数即可。
-<br/><br/>
-代码：
-```
+// 思路：建立二维映射表，统计每个字符的最小共同出现次数即可。
+// <br/><br/>
+// 代码：
+// ```
 class Solution {
     public List<String> commonChars(String[] A) {
         if (A == null || A.length < 1) {
@@ -38,6 +38,6 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/cf188c2917494ff8031ab39fc05c20c6232f0ca2bfa3dd23b3ba0e8a544a547e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cf188c2917494ff8031ab39fc05c20c6232f0ca2bfa3dd23b3ba0e8a544a547e-image.png)

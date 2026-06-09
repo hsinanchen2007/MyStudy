@@ -1,4 +1,4 @@
-```js
+// ```js
 var numMagicSquaresInside = function(grid) {
     let huanfang = [
 	    '[8,1,6,3,5,7,4,9,2]',
@@ -31,5 +31,5 @@ var numMagicSquaresInside = function(grid) {
     }
     return count
 };
-```
+// ```
 

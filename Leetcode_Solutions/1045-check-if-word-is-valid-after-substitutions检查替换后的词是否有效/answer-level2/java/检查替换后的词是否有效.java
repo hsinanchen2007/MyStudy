@@ -1,8 +1,8 @@
-### 解题思路
-用栈模拟
+// ### 解题思路
+// 用栈模拟
 
-### 代码
-```golang []
+// ### 代码
+// ```golang []
 func isValid(S string) bool {
 	stack := make([]rune, 0)
 
@@ -19,9 +19,9 @@ func isValid(S string) bool {
 	}
 	return len(stack) == 0
 }
-```
+// ```
 
-```c []
+// ```c []
 bool isValid(char *S) {
     char *p = S;
     int len = 0;
@@ -46,9 +46,9 @@ bool isValid(char *S) {
     }
     return i == -1;
 }
-```
+// ```
 
-```java []
+// ```java []
 class Solution {
     public boolean isValid(String s) {
         char[] stack = new char[s.length()];
@@ -67,4 +67,4 @@ class Solution {
         return i == -1;
     }
 }
-```
+// ```

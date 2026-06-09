@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         mp = []
@@ -15,4 +15,4 @@ class Solution:
                 if mp[i][0]==mp[i-1][0] and abs(mp[i][1]-mp[i-1][1])<=k:
                     return True
         return False
-```
+# ```

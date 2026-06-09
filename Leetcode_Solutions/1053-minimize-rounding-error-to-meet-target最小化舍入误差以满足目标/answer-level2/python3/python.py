@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimizeError(self, prices: List[str], target: int) -> str:
         import math
@@ -23,4 +23,4 @@ class Solution:
         for i in range(target, n):
             res += 1 - dif[i]
         return "{:.3f}".format(res)
-```
+# ```

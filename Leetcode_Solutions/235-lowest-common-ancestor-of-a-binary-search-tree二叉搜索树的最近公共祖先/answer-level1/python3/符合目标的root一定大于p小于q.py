@@ -1,11 +1,11 @@
-### 解题思路
-1、符合目标的root，一定在p和q之间；
-2、如果p和q在都小于root，那么在左边找；
-3、如果p和q都大于root，那么在右边找；
+# ### 解题思路
+# 1、符合目标的root，一定在p和q之间；
+# 2、如果p和q在都小于root，那么在左边找；
+# 3、如果p和q都大于root，那么在右边找；
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution(object):
                 root = root.right
             else:
                 return root
-```
+# ```

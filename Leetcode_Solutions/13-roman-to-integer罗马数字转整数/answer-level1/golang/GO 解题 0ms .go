@@ -1,12 +1,12 @@
-执行用时 :0 ms, 在所有Go提交中击败了100.00%的用户
-内存消耗 :3.8 MB, 在所有Go提交中击败了10.92%的用户
+// 执行用时 :0 ms, 在所有Go提交中击败了100.00%的用户
+// 内存消耗 :3.8 MB, 在所有Go提交中击败了10.92%的用户
 
-之前也提交过一次GO解题[力扣](https://leetcode-cn.com/problems/roman-to-integer/solution/go-jie-ti-12ms-ji-bai-100-by-54853315-cavvdnteyq/)，不知道编辑和删除，只好重新发布一份。
-起因是有位热心的网友提醒我有个bug，因为__测试样例不严谨__，导致提交成功了。
-所以新增了`showCount`变量来记录重复出现的字符，以免判断`IVIVIVIVIV`的时候错误计算。
+// 之前也提交过一次GO解题[力扣](https://leetcode-cn.com/problems/roman-to-integer/solution/go-jie-ti-12ms-ji-bai-100-by-54853315-cavvdnteyq/)，不知道编辑和删除，只好重新发布一份。
+// 起因是有位热心的网友提醒我有个bug，因为__测试样例不严谨__，导致提交成功了。
+// 所以新增了`showCount`变量来记录重复出现的字符，以免判断`IVIVIVIVIV`的时候错误计算。
 
 
-```go
+// ```go
 package main
 
 import (
@@ -61,4 +61,4 @@ func romanToInt(s string) int {
 	}
 	return number
 }
-```
+// ```

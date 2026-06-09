@@ -1,7 +1,7 @@
-#英文版比较好懂。
-#find a water cell such that its distance to the nearest land cell is maximized and return the distance.
-#找到一个海洋区域，这个海洋区域到与它最近的陆地区域的距离是最大的。
-```
+# #英文版比较好懂。
+# #find a water cell such that its distance to the nearest land cell is maximized and return the distance.
+# #找到一个海洋区域，这个海洋区域到与它最近的陆地区域的距离是最大的。
+# ```
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
 
@@ -25,4 +25,4 @@ class Solution:
 
 
         return node[2]
-```
+# ```

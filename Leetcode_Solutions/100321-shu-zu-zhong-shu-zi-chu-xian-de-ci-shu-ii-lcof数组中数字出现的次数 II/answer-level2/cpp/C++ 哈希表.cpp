@@ -1,9 +1,9 @@
-### 解题思路
-简单
+// ### 解题思路
+// 简单
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums)
@@ -17,4 +17,4 @@ public:
         return 0;
     }
 };
-```
+// ```

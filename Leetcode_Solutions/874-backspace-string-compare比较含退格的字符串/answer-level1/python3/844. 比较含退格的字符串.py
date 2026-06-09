@@ -1,5 +1,5 @@
-- break是跳出整体循环; pass是跳出本次循环
-```
+# - break是跳出整体循环; pass是跳出本次循环
+# ```
 class Solution(object):
     def onNew(self, L):
         new_L = []
@@ -23,4 +23,4 @@ class Solution(object):
         print new_S, new_T
 
         return new_S == new_T
-```
+# ```

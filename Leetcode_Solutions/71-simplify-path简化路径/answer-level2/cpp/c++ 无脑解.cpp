@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/2dd4b8f5111597631d9bf5acac1162cc574cb3256b9348102b75fc843942545d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2dd4b8f5111597631d9bf5acac1162cc574cb3256b9348102b75fc843942545d-image.png)
 
-注意各种边界情况，就酱紫
+// 注意各种边界情况，就酱紫
 
-```
+// ```
 class Solution {
 public:
     string simplifyPath(string path) {
@@ -55,4 +55,4 @@ public:
         
     }
 };
-```
+// ```

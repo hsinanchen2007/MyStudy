@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) 
@@ -34,4 +34,4 @@ public:
 private:
     vector<vector<int>> res_vecs;
 };
-```
+// ```

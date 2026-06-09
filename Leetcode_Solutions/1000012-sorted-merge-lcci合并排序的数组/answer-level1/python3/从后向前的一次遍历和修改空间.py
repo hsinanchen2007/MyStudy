@@ -1,9 +1,9 @@
-### 解题思路
-很容易想到的**从后往前**填充A数组的空间，一次遍历和修改空间即可。
+# ### 解题思路
+# 很容易想到的**从后往前**填充A数组的空间，一次遍历和修改空间即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -26,4 +26,4 @@ class Solution:
             A[:idxB+1] = B[:idxB+1]
         
         return A 
-```
+# ```

@@ -1,8 +1,8 @@
-## 分析
-按照二分的思想。中点作为根节点。
-中点左边的数作为左子树，中点右边的数作为右子树。
-## 代码
-```java
+// ## 分析
+// 按照二分的思想。中点作为根节点。
+// 中点左边的数作为左子树，中点右边的数作为右子树。
+// ## 代码
+// ```java
 public TreeNode sortedArrayToBST(int[] nums) {
         if (nums == null || nums.length == 0) {
             return null;
@@ -22,4 +22,4 @@ public TreeNode sortedArrayToBST(int[] nums) {
         node.right = help(nums, mid + 1, end);
         return node;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXN 128
 int longestPalindrome(char * s){
     int res[MAXN] = { 0 };
@@ -25,4 +25,4 @@ int longestPalindrome(char * s){
     }
     return result+hassingle;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void QuickSort(int* nums, int left, int right)  
 {
         if (left < right)
@@ -42,4 +42,4 @@ int minIncrementForUnique(int* A, int ASize)
     }
     return num;
 }
-```
+// ```

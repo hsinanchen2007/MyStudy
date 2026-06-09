@@ -1,9 +1,9 @@
-### 解题思路
-增加一个元素，作为存储海水的元素
+# ### 解题思路
+# 增加一个元素，作为存储海水的元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class UnionFind:
     def __init__(self, count):
         self.count = count
@@ -61,4 +61,4 @@ class Solution:
         return uf.count - 1
 
 
-```
+# ```

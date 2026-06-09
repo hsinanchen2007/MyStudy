@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/10510826729bca3b0f294be194f1ec2f9a7f54c5832ebba946a7d2e49c96e3f4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/10510826729bca3b0f294be194f1ec2f9a7f54c5832ebba946a7d2e49c96e3f4-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   思路：
   
   让每一个数都不同，那么先求出数组中最小的数是多少，再根据数组的长度来判断出
@@ -28,11 +28,11 @@
   第 6 位：特殊情况，不需要操作 操作数 0，注意：如果后面还有数的话，要从
   8(7 + 1) 开始继续进行比较，看上面的 "+" 后面，下一次比较 8 和 10，同样
   不需要操作，并且原数组的数 10 大于 8，那么下一比较从 11(10 + 1) 开始
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number}
@@ -59,4 +59,4 @@ var minIncrementForUnique = function(A) {
   
   return handles;
 };
-```
+// ```

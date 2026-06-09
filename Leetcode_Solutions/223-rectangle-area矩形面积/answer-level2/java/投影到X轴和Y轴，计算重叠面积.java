@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
         int area_1 = calArea(A, B, C, D);
@@ -28,4 +28,4 @@ class Solution {
         return x_over && y_over;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-&emsp;&emsp;这题目类似主站的[221.最大正方形](https://leetcode-cn.com/problems/maximal-square/)，[85.最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/)，[1139.最大的以 1 为边界的正方形](https://leetcode-cn.com/problems/largest-1-bordered-square/)。与最大正方形不一样的是本题只需要4条边能构成正方形就行，无需关注正方形内部状态，所以稍微复杂一些。因为是边与边的联系所以本题的解法类似于最大矩形，最大矩形求的是最大面积本题求的是最大边长，与1139的本质的都是一样的，只是返回值不一样。
-&emsp;&emsp;使用dp数组存储每个点的所构成的长和宽，因为是正方形所以取其最小值进行遍历。只要遍历的最小值`range`大于之前保存的最大边且满足另外两边（横向和纵向）都等于`range`即`dp[i - range + 1][j][0] >= range && dp[i][j - range + 1][1] >= range`，便更新所求的最大边。
+// ### 解题思路
+// &emsp;&emsp;这题目类似主站的[221.最大正方形](https://leetcode-cn.com/problems/maximal-square/)，[85.最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/)，[1139.最大的以 1 为边界的正方形](https://leetcode-cn.com/problems/largest-1-bordered-square/)。与最大正方形不一样的是本题只需要4条边能构成正方形就行，无需关注正方形内部状态，所以稍微复杂一些。因为是边与边的联系所以本题的解法类似于最大矩形，最大矩形求的是最大面积本题求的是最大边长，与1139的本质的都是一样的，只是返回值不一样。
+// &emsp;&emsp;使用dp数组存储每个点的所构成的长和宽，因为是正方形所以取其最小值进行遍历。只要遍历的最小值`range`大于之前保存的最大边且满足另外两边（横向和纵向）都等于`range`即`dp[i - range + 1][j][0] >= range && dp[i][j - range + 1][1] >= range`，便更新所求的最大边。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {number[]}
@@ -59,4 +59,4 @@ var findSquare = function(matrix) {
     }
     return size == 0 ? [] : [x, y, size];
 }
-```
+// ```

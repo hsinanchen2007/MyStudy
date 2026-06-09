@@ -1,9 +1,9 @@
-### 解题思路
-打家劫舍基础版本。
+# ### 解题思路
+# 打家劫舍基础版本。
 
-### 代码
-#### space O(n)
-```python
+# ### 代码
+# #### space O(n)
+# ```python
 class Solution:
     def massage(self, nums: List[int]) -> int:
         if not nums: return 0
@@ -15,9 +15,9 @@ class Solution:
         for i in range(2, n):
             dp[i] = max(dp[i-1], dp[i-2] + nums[i])
         return max(dp)
-```
-#### space O(1)
-```python
+# ```
+# #### space O(1)
+# ```python
 class Solution:
     def massage(self, nums: List[int]) -> int:
         if not nums: return 0
@@ -28,4 +28,4 @@ class Solution:
         for i in range(2, n):
             dp[i%2] = max(dp[~i%2], dp[i%2] + nums[i])
         return max(dp)
-```
+# ```

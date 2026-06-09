@@ -1,15 +1,15 @@
-### 动态规划
-状态转移方程为如下 其中 N表示需要N amout的钱的时候需要的最少coin数量
-循环为遍历每一种coin 然后判断加入了这种coin之后兑换[coin,amount] 中需要的最少coin数量。
-dp[N] = {
-    -1, dn[N] == -1 && dn[N-coin] == -1
-    min(dp[N],dn[N-coin] + 1), dn[N] != -1 && dn[N-coin] !=-1
-    dp[N-coin],dn[N] == -1 && dn[N - coin] !=-1
-}
+// ### 动态规划
+// 状态转移方程为如下 其中 N表示需要N amout的钱的时候需要的最少coin数量
+// 循环为遍历每一种coin 然后判断加入了这种coin之后兑换[coin,amount] 中需要的最少coin数量。
+// dp[N] = {
+//     -1, dn[N] == -1 && dn[N-coin] == -1
+//     min(dp[N],dn[N-coin] + 1), dn[N] != -1 && dn[N-coin] !=-1
+//     dp[N-coin],dn[N] == -1 && dn[N - coin] !=-1
+// }
 
-### 代码
-第一次写rust 见谅见谅。。
-```rust
+// ### 代码
+// 第一次写rust 见谅见谅。。
+// ```rust
 impl Solution {
     pub fn coin_change(coins: Vec<i32>, amount: i32) -> i32 {
         let amount= amount as usize;
@@ -29,4 +29,4 @@ impl Solution {
         dp[amount]
     }
 }
-```
+// ```

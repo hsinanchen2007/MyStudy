@@ -1,5 +1,5 @@
-先把不能变成X的O找出来（这样的O必定是从边界开始的，做个深度优先遍历就可以了），然后遍历矩阵做修改
-```
+// 先把不能变成X的O找出来（这样的O必定是从边界开始的，做个深度优先遍历就可以了），然后遍历矩阵做修改
+// ```
 class Solution {
 public:
     void helper(vector<vector<char>>& board,int i, int j){
@@ -41,4 +41,4 @@ public:
         }
     }
 };
-```
+// ```

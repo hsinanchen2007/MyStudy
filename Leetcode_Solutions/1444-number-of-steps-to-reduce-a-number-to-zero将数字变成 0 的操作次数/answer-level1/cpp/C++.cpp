@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numberOfSteps(int num) {
@@ -7,4 +7,4 @@ public:
         return numberOfSteps(num >> 1) + 1;
     }
 };
-```
+// ```

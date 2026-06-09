@@ -1,9 +1,9 @@
-### 解题思路
-我写递归就是玄学
+# ### 解题思路
+# 我写递归就是玄学
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -25,4 +25,4 @@ class Solution:
         self.post.append(root.val)
 
         return self.post
-```
+# ```

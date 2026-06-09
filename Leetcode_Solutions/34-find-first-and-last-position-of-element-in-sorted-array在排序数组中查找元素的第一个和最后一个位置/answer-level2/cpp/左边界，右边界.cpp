@@ -1,11 +1,11 @@
-### 解题思路
-先检索左边界，再检索右边界
-注意high的范围
-注意空集的情况
+// ### 解题思路
+// 先检索左边界，再检索右边界
+// 注意high的范围
+// 注意空集的情况
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -27,4 +27,4 @@ public:
         return res;  
     }
 };
-```
+// ```

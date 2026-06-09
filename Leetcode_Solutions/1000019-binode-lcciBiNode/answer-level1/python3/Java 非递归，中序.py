@@ -1,4 +1,4 @@
-```
+# ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -32,10 +32,10 @@ class Solution {
         return head.right;
     }
 }
-```
+# ```
 
-python3 双100实现
-```
+# python3 双100实现
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -59,5 +59,5 @@ class Solution:
             pre = p
             p = p.right
         return head.right
-```
+# ```
 

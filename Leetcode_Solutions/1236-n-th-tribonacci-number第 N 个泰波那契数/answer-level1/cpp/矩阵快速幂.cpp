@@ -1,9 +1,9 @@
-### 解题思路
-矩阵快速幂
+// ### 解题思路
+// 矩阵快速幂
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     struct matrix{
@@ -52,4 +52,4 @@ public:
         return Mat.mat[0][0] + Mat.mat[0][1];
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-每次判断一个区间，直接看代码吧，比较好理解
+// ### 解题思路
+// 每次判断一个区间，直接看代码吧，比较好理解
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int compareVersion(string version1, string version2) {
@@ -21,4 +21,4 @@ public:
         return 0;
     }
 };
-```
+// ```

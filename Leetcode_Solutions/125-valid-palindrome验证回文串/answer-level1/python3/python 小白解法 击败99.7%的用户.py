@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         for i in [" ",",",":",".","@","#","-","?","\'","/","\\","|","\"",";","!","(",")","`"]:
@@ -9,4 +9,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

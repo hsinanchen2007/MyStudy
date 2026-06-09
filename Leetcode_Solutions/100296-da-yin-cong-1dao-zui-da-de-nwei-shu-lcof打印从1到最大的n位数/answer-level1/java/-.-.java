@@ -1,9 +1,9 @@
-### 解题思路
-感觉和offer上的不一样。。 头铁直接干了
+// ### 解题思路
+// 感觉和offer上的不一样。。 头铁直接干了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] printNumbers(int n) {
         int len = 1;
@@ -19,4 +19,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

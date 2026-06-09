@@ -1,8 +1,8 @@
-dp(i,j) 表示从i开始的子数组 A[i~n]，先取者第一次取j（j=1,2,3）堆能得到的最大分数, 
-sum表石子数组A[i~n]的总分数;
-dp(i,j)= sum-Math.max(dp(i+1,1), dp(i+1,2),dp(i+1,3));
+// dp(i,j) 表示从i开始的子数组 A[i~n]，先取者第一次取j（j=1,2,3）堆能得到的最大分数, 
+// sum表石子数组A[i~n]的总分数;
+// dp(i,j)= sum-Math.max(dp(i+1,1), dp(i+1,2),dp(i+1,3));
 
-```java
+// ```java
     public String stoneGameIII(int[] stoneValue) {
         int n=stoneValue.length;
         int[][] dp=new int[n][3];
@@ -17,4 +17,4 @@ dp(i,j)= sum-Math.max(dp(i+1,1), dp(i+1,2),dp(i+1,3));
         int max= Math.max(dp[0][0],Math.max(dp[0][1],dp[0][2]));
         return max>sum-max?"Alice": (max<sum-max?"Bob":"TIE");
     }
-```
+// ```

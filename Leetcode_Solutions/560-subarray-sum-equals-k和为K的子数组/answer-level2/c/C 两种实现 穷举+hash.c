@@ -1,7 +1,7 @@
-# **1、穷举**
-![image.png](https://pic.leetcode-cn.com/d17e69a0d29d03967394826cf27911912b2f31df1d9ad3ce5c8338d682422855-image.png)
+// # **1、穷举**
+// ![image.png](https://pic.leetcode-cn.com/d17e69a0d29d03967394826cf27911912b2f31df1d9ad3ce5c8338d682422855-image.png)
 
-```
+// ```
 int subarraySum(int* nums, int numsSize, int k){
     int count = 0;
     int times = 0;
@@ -21,13 +21,13 @@ int subarraySum(int* nums, int numsSize, int k){
 
     return times;
 }
-```
-# **2、hash实现**
-pi = a[0] + a[1] + ... + a[i]，pj =  a[0] + a[1] + ... + a[j]。
-pj - pi = a[i + 1] + a[i + 2] + ... + a[ j ] = K 即满足条件
-![image.png](https://pic.leetcode-cn.com/5b58614a49a3d3e2d5443beda021e7c2c3a593faa93f530dabb7374dc89786ea-image.png)
+// ```
+// # **2、hash实现**
+// pi = a[0] + a[1] + ... + a[i]，pj =  a[0] + a[1] + ... + a[j]。
+// pj - pi = a[i + 1] + a[i + 2] + ... + a[ j ] = K 即满足条件
+// ![image.png](https://pic.leetcode-cn.com/5b58614a49a3d3e2d5443beda021e7c2c3a593faa93f530dabb7374dc89786ea-image.png)
 
-```
+// ```
 struct hashNode {
     int key;
     int value;
@@ -123,4 +123,4 @@ int subarraySum(int* nums, int numsSize, int k){
 
     return times;
 }
-```
+// ```

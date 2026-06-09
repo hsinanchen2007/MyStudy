@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maximumProduct(self, nums: List[int]) -> int:
         if len(nums) <= 3:
@@ -18,4 +18,4 @@ class Solution:
             return num1[0]*num1[1]*num2[-1]
         else:
             return num1[0]*num1[1]*num2[-1] if num1[0]*num1[1]*num2[-1] > num2[-1]*num2[-2]*num2[-3] else num2[-1]*num2[-2]*num2[-3]
-```
+# ```

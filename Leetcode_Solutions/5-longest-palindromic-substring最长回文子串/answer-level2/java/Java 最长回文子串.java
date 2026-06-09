@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String longestPalindrome(String s) {
         if (s == null || s.length() == 0)
@@ -34,4 +34,4 @@ class Solution {
         return s.substring(realstart, realstart + len);
     }
 }
-```
+// ```

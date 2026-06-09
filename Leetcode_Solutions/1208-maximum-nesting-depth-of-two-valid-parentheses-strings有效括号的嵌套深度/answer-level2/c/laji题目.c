@@ -1,11 +1,11 @@
-### 解题思路
-把题目描述成这样也是没谁了，没有意义的题目！
+// ### 解题思路
+// 把题目描述成这样也是没谁了，没有意义的题目！
 
-记录每个括号元素的深度，深度为奇数的赋值为1， 深度为偶数的赋值为0。
+// 记录每个括号元素的深度，深度为奇数的赋值为1， 深度为偶数的赋值为0。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -30,4 +30,4 @@ int* maxDepthAfterSplit(char * seq, int* returnSize){
     *returnSize = len;
     return nums;
 }
-```
+// ```

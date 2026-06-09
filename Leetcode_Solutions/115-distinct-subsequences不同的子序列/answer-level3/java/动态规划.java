@@ -1,26 +1,26 @@
-S = "rabbbit", T = "rabbit":
-  r a b b i t
-r 1 0 0 0 0 0 
-a 1 1 0 0 0 0 
-b 1 1 1 0 0 0 
-b 1 1 2 1 0 0 
-b 1 1 3 3 0 0 
-i 1 1 3 3 3 0 
-t 1 1 3 3 3 3 
+// S = "rabbbit", T = "rabbit":
+//   r a b b i t
+// r 1 0 0 0 0 0 
+// a 1 1 0 0 0 0 
+// b 1 1 1 0 0 0 
+// b 1 1 2 1 0 0 
+// b 1 1 3 3 0 0 
+// i 1 1 3 3 3 0 
+// t 1 1 3 3 3 3 
 
 
-S = "babgbag", T = "bag":
-  b a g 
-b 1 0 0 
-a 1 1 0 
-b 2 1 0 
-g 2 1 1 
-b 3 1 1 
-a 3 4 1 
-g 3 4 5
+// S = "babgbag", T = "bag":
+//   b a g 
+// b 1 0 0 
+// a 1 1 0 
+// b 2 1 0 
+// g 2 1 1 
+// b 3 1 1 
+// a 3 4 1 
+// g 3 4 5
 
-代码如下：
-```
+// 代码如下：
+// ```
 class Solution {
     public int numDistinct(String s, String t) {
         if(s.length() < t.length()) return 0;
@@ -60,4 +60,4 @@ class Solution {
         return dp[slen - 1][tlen - 1];
     }
 }
-```
+// ```

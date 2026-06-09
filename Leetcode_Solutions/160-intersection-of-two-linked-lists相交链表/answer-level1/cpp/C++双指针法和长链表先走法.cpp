@@ -1,7 +1,7 @@
-![图片.png](https://pic.leetcode-cn.com/98fa3d64f5e99a8ccb383f6065cf12b05de1c646872b03eb2916908ab50dfe7d-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/98fa3d64f5e99a8ccb383f6065cf12b05de1c646872b03eb2916908ab50dfe7d-%E5%9B%BE%E7%89%87.png)
 
-一种拙劣的方法：先让长链表先走
-```
+// 一种拙劣的方法：先让长链表先走
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -58,9 +58,9 @@ public:
         return NULL;
     }
 };
-```
-另一种方法：双指针，总会相遇
-```
+// ```
+// 另一种方法：双指针，总会相遇
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -89,5 +89,5 @@ public:
         return h1;
     }
 };
-```
+// ```
 

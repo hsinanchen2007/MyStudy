@@ -1,11 +1,11 @@
-### 解题思路
-通过递归的方式，最后的叶子节点是否和匹配串一样
- 同时通过dp 记录 dp[str1] = start_end 减少树的递归，
-但是要记得在中间要剪枝来优化，否则时间超时
+// ### 解题思路
+// 通过递归的方式，最后的叶子节点是否和匹配串一样
+//  同时通过dp 记录 dp[str1] = start_end 减少树的递归，
+// 但是要记得在中间要剪枝来优化，否则时间超时
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   
  public   boolean isScramble(String s1, String s2) {
@@ -79,4 +79,4 @@ class Solution {
 	 }
 
 }
-```
+// ```

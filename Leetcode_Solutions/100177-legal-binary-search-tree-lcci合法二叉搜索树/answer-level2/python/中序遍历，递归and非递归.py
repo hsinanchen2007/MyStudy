@@ -1,7 +1,7 @@
-思想：二叉搜索树的中序遍历结果必然是一个递增数列，且不会有重复的节点值
+# 思想：二叉搜索树的中序遍历结果必然是一个递增数列，且不会有重复的节点值
 
-1.递归方法
-```
+# 1.递归方法
+# ```
 class Solution:
     def isValidBST(self, root: TreeNode) -> bool:
         nodes =[]
@@ -12,10 +12,10 @@ class Solution:
                 search(root.right)
         search(root)
         return nodes == sorted(set(nodes))
-```
+# ```
 
-2.非递归方法
-```
+# 2.非递归方法
+# ```
 class Solution:
     def isValidBST(self, root: TreeNode) -> bool:
         stack = []
@@ -33,10 +33,10 @@ class Solution:
                 p = node.right
         
         return res == sorted(set(res))
-```
+# ```
 
-其实最早想的是参考数据结构C写的一个方法，根据二叉树的性质判断的递归方法，但是可能由于复杂度比较高，提交不通过
-```
+# 其实最早想的是参考数据结构C写的一个方法，根据二叉树的性质判断的递归方法，但是可能由于复杂度比较高，提交不通过
+# ```
 class Solution:
     def isValidBST(self, root: TreeNode) -> bool:
         if (root.left == None and root.right == None):
@@ -61,4 +61,4 @@ class Solution:
                 return False
             else:
                 self.isValidBST(root.right)
-```
+# ```

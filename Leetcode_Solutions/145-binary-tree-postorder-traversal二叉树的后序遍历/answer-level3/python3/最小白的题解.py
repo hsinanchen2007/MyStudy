@@ -1,4 +1,4 @@
-```
+# ```
 '''
 LeetCode 145. 二叉树的后序遍历
 Given a binary tree, return the postorder traversal of its nodes' values.
@@ -92,4 +92,4 @@ class Solution:
                 stack.append(node.right) # 再压入右
             res.append(node.val) # 此时node其实是
         return res[::-1] # res是中右左，因为入栈是左右中，所以返回倒序
-```
+# ```

@@ -1,6 +1,6 @@
 
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -34,4 +34,4 @@ public:
         return tmp<0? 0:tmp;/*当前节点的左子树加节点值是负数,则返回0*/
     }
 };
-```
+// ```

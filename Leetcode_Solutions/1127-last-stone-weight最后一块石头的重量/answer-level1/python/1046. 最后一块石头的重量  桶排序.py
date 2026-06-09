@@ -1,9 +1,9 @@
-### 解题思路
-避免了多次排序的时间复杂程度
+# ### 解题思路
+# 避免了多次排序的时间复杂程度
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lastStoneWeight(self, stones):
         #桶排序
@@ -28,4 +28,4 @@ class Solution(object):
         if i < 0:return 0
         else:return i
             
-```
+# ```

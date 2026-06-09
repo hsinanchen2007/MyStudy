@@ -1,12 +1,12 @@
-### 解题思路
-执行用时 :28 ms, 在所有 C 提交中击败了33.70%的用户  
-内存消耗 :6.9 MB, 在所有 C 提交中击败了100.00%的用户  
+// ### 解题思路
+// 执行用时 :28 ms, 在所有 C 提交中击败了33.70%的用户  
+// 内存消耗 :6.9 MB, 在所有 C 提交中击败了100.00%的用户  
 
-使用与grid二维数组相同大小的flag数组，flag数组用来记录grid中的元素是否被遍历过，防止无穷递归。
+// 使用与grid二维数组相同大小的flag数组，flag数组用来记录grid中的元素是否被遍历过，防止无穷递归。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxArea(int** grid, int gridSize, int* gridColSize, int** flag, int i, int j){
     int len = 0;
     if(grid[i][j] == 1 && flag[i][j] == 0){
@@ -51,4 +51,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
     return max;
 }
 
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/b684be1ad1366b14cfc20e0367f3ab2f3c5541153e7dce6b764689d38315f48a-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/b684be1ad1366b14cfc20e0367f3ab2f3c5541153e7dce6b764689d38315f48a-image.png)
 
-DFS+BFS
-先进行一次DFS找出一座岛（值设为2），然后进行BFS找到离DFS找的那座岛的最小距离即可。
-### 代码
+// DFS+BFS
+// 先进行一次DFS找出一座岛（值设为2），然后进行BFS找到离DFS找的那座岛的最小距离即可。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int dir[4][2]={{-1,0},{1,0},{0,1},{0,-1}};
@@ -56,4 +56,4 @@ public:
         return 1;
     }
 };
-```
+// ```

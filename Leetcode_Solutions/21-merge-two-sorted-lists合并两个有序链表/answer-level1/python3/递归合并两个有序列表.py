@@ -1,9 +1,9 @@
-### 解题思路
-递归，速度98.78%，我写的循环最快56%吧
+# ### 解题思路
+# 递归，速度98.78%，我写的循环最快56%吧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
         return p
                 
         
-```
+# ```

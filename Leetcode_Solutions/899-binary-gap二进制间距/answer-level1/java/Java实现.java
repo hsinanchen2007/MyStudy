@@ -1,6 +1,6 @@
-__右移遍历每一位的数字然后记录下和前一个的距离，动态取出最大值
-__
-```
+// __右移遍历每一位的数字然后记录下和前一个的距离，动态取出最大值
+// __
+// ```
 class Solution {
     public int binaryGap(int N) {
        int max = 0;
@@ -22,4 +22,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

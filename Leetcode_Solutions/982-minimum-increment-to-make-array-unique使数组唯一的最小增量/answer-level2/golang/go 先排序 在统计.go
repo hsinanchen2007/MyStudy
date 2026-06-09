@@ -1,13 +1,13 @@
-### 解题思路
-go 先排序 在统计 
-由于0 <= A.length <= 40000
-0 <= A[i] < 40000
-只可能出现[0,40000]个数
-计数排序为线性时间
+// ### 解题思路
+// go 先排序 在统计 
+// 由于0 <= A.length <= 40000
+// 0 <= A[i] < 40000
+// 只可能出现[0,40000]个数
+// 计数排序为线性时间
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minIncrementForUnique(A []int) int {
     B := make([]int, len(A))
     CountingSort(A, B, 40000)
@@ -40,4 +40,4 @@ func CountingSort(A, B []int, k int) {
         B[C[A[j]]] = A[j]
     }
 }
-```
+// ```

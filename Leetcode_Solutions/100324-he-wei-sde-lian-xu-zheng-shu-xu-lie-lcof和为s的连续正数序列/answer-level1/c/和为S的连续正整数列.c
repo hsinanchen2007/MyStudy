@@ -1,10 +1,10 @@
-### 解题思路
-窗口法
-用链表+数组的方式可以节省内存
+// ### 解题思路
+// 窗口法
+// 用链表+数组的方式可以节省内存
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 /**
@@ -81,4 +81,4 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
 }
 
 
-```
+// ```

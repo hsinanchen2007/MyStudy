@@ -1,13 +1,13 @@
-只要会字典树，题目还是很简单的，时间要求也不是很高2000ms都可以过
-字典树的构造就不详述了，主要就是添加 isEnd标记是否是一个单词的结尾
+// 只要会字典树，题目还是很简单的，时间要求也不是很高2000ms都可以过
+// 字典树的构造就不详述了，主要就是添加 isEnd标记是否是一个单词的结尾
 
-- 前缀树（2000ms）
-每次查询的时候记录所有成功匹配到的节点
-下次查询时直接查询上次存储的节点
+// - 前缀树（2000ms）
+// 每次查询的时候记录所有成功匹配到的节点
+// 下次查询时直接查询上次存储的节点
 
-- 后缀树 (500ms)
- 每次从树根开始查，如果不是结尾，直接返回即可
-```
+// - 后缀树 (500ms)
+//  每次从树根开始查，如果不是结尾，直接返回即可
+// ```
 type StreamChecker struct {
 	Trie *Trie
 	LastTries []*Trie
@@ -76,9 +76,9 @@ func (this *Trie) Insert(word string) {
     t.isEnd = true
 }
 
-```
+// ```
 
-```
+// ```
 type StreamChecker struct {
 	Trie *Trie
     stream []byte
@@ -139,4 +139,4 @@ func (this *Trie) Insert(word string) {
 	}
     t.isEnd = true
 }
-```
+// ```

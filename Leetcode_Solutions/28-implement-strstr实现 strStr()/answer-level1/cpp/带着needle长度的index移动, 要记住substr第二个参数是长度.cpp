@@ -1,9 +1,9 @@
-### 解题思路
-从左往右, 一个for loop可以搞定
+// ### 解题思路
+// 从左往右, 一个for loop可以搞定
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -21,4 +21,4 @@ public:
         return -1;
     }
 };
-```
+// ```

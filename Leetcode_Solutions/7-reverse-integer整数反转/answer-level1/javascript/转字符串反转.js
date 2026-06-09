@@ -1,4 +1,4 @@
-因为数组提供了倒序排列的方法,所以首先想到了把整数拆分成集合后反转拼成字符串再转整数
+// 因为数组提供了倒序排列的方法,所以首先想到了把整数拆分成集合后反转拼成字符串再转整数
 var reverse = function(x) {
     var isPositive = x > 0?true:false;
     x = Number(String(Math.abs(x)).split('').reverse().join(''))

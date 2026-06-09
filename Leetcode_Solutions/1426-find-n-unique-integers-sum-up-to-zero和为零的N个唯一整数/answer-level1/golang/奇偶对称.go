@@ -1,9 +1,9 @@
-### Mojotech
-此处撰写解题思路
-[Go技术博客mojotech](https://mojotv.cn)
-### 代码
+// ### Mojotech
+// 此处撰写解题思路
+// [Go技术博客mojotech](https://mojotv.cn)
+// ### 代码
 
-```golang
+// ```golang
 func sumZero(n int) []int {
 	if n == 0 {
 		return []int{0}
@@ -23,4 +23,4 @@ func makeEvenArray(n int)(res []int){
 	}
 	return
 }
-```
+// ```

@@ -1,5 +1,5 @@
-### 暴力法思路：每次遇到相邻的，先删除后，下标指针向前移动一步
-```
+// ### 暴力法思路：每次遇到相邻的，先删除后，下标指针向前移动一步
+// ```
 var removeDuplicates = function(S) {
     let arr = S.split('');
 
@@ -14,9 +14,9 @@ var removeDuplicates = function(S) {
     return arr.join('');
 };
 
-```
-### 辅助栈思路：每次与栈顶元素比较，如果相同表示相邻且相等，然后pop出，最终栈内只存在相邻不想等字符
-```
+// ```
+// ### 辅助栈思路：每次与栈顶元素比较，如果相同表示相邻且相等，然后pop出，最终栈内只存在相邻不想等字符
+// ```
 var removeDuplicates = function(S) {
     let stack = [];
 
@@ -29,5 +29,5 @@ var removeDuplicates = function(S) {
     }
     return stack.join('');
 }
-```
+// ```
 

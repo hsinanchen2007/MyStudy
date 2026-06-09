@@ -1,8 +1,8 @@
- //解题思路：
- //第一步、参照环行链表一的解法先:https://leetcode-cn.com/problems/linked-list-cycle/ 先把这个做出来
- //第二步、A指针从头开始走，B指针从相遇处开始走，再次相遇则为环形入口处
+//  //解题思路：
+//  //第一步、参照环行链表一的解法先:https://leetcode-cn.com/problems/linked-list-cycle/ 先把这个做出来
+//  //第二步、A指针从头开始走，B指针从相遇处开始走，再次相遇则为环形入口处
 
-```
+// ```
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -46,4 +46,4 @@ class Solution {
         return $fast;
     }
 }
-```
+// ```

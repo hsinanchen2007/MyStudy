@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canPartition(int[] nums) {
         int sum = 0;
@@ -20,5 +20,5 @@ class Solution {
         return dp[target];
     }
 }
-```
-背包问题优化，从后到前遍历只用一维数组即可。
+// ```
+// 背包问题优化，从后到前遍历只用一维数组即可。

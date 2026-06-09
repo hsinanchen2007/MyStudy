@@ -1,9 +1,9 @@
-### 解题思路
-根据官方的解题思路进行分情况讨论。
+# ### 解题思路
+# 根据官方的解题思路进行分情况讨论。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def buddyStrings(self, A: str, B: str):
         if len(A) != len(B): #长度不相等则False
@@ -37,4 +37,4 @@ class Solution:
         return False
 
 
-```
+# ```

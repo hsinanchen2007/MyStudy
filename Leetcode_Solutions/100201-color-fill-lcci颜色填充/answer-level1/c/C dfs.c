@@ -1,4 +1,4 @@
-```
+// ```
 
 void dfs(int** image, int rowSize, int colSize, int row, int col, int oldColor, int newColor)
 {
@@ -27,4 +27,4 @@ int** floodFill(int** image, int imageSize, int* imageColSize, int sr, int sc, i
 
   return image;
 }
-```
+// ```

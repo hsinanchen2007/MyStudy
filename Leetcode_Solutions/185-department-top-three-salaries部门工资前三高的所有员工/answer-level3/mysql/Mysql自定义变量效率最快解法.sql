@@ -1,4 +1,4 @@
-根据部门DepartmentId、工资Salary的先后顺序排序，然后通过变量遍历的方式得到每个人的薪水在各自部门的排名：
+-- 根据部门DepartmentId、工资Salary的先后顺序排序，然后通过变量遍历的方式得到每个人的薪水在各自部门的排名：
 SELECT e.Name,e.Salary,e.DepartmentId,
 @rank := IF(e.DepartmentId != @departmentId,1,IF(e.Salary < @salary AND e.DepartmentId = @departmentId, @rank + 1,@rank)) rank,
 @departmentId := e.DepartmentId,@salary := e.Salary FROM employee e,

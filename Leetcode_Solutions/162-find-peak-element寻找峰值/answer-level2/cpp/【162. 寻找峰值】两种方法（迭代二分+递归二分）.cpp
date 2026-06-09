@@ -1,8 +1,8 @@
-## 思路一：迭代二分
-### 代码
-时间复杂度：O(logn)
-空间复杂度：O(1)
-```c++
+// ## 思路一：迭代二分
+// ### 代码
+// 时间复杂度：O(logn)
+// 空间复杂度：O(1)
+// ```c++
 class Solution {
 public:
     int findPeakElement(vector<int>& nums) {        
@@ -19,13 +19,13 @@ public:
         return left;
     }
 };
-```
+// ```
 
-## 思路二：递归二分
-### 代码
-时间复杂度：O(logn)
-空间复杂度：O(logn)
-```c++
+// ## 思路二：递归二分
+// ### 代码
+// 时间复杂度：O(logn)
+// 空间复杂度：O(logn)
+// ```c++
 class Solution {
 public:
     int findPeakElement(vector<int>& nums) {        
@@ -44,5 +44,5 @@ public:
         return search(nums, mid + 1, right);        
     }
 };
-```
+// ```
 

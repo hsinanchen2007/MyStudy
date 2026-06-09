@@ -1,5 +1,5 @@
-初始取两端的值，然后移动短的那根
-```
+# 初始取两端的值，然后移动短的那根
+# ```
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         max=0
@@ -15,4 +15,4 @@ class Solution:
             if t>max:
                 max=t
         return max
-```
+# ```

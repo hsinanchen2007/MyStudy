@@ -1,10 +1,10 @@
-### 解题思路
-1、和官方解题思想保持一致，使用公式leftSum + item + rightSum = sum
-2、leftSum和rightSum相等时，2*leftSum + item = sum
+// ### 解题思路
+// 1、和官方解题思想保持一致，使用公式leftSum + item + rightSum = sum
+// 2、leftSum和rightSum相等时，2*leftSum + item = sum
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -22,4 +22,4 @@ var pivotIndex = function(nums) {
        leftSum = leftSum + item;
    });
 };
-```
+// ```

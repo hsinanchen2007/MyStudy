@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def projectionArea(self, grid):
         """
@@ -22,4 +22,4 @@ class Solution(object):
         result = pow(m,2)-sum(zero) + sum(colum) + sum(raw)
 
         return result
-```
+# ```

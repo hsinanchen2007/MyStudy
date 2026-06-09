@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-dfs
+// dfs
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int n,k;
@@ -35,4 +35,4 @@ public:
         return dp[ind][rem]=(ret+da[ind][k-rem]);
     }
 };
-```
+// ```

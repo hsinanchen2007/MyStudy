@@ -1,17 +1,17 @@
-### 解题思路
-我的思路：
-中序遍历得到递增队列,对队列进行遍历,前后比较得到最小绝对值.
+# ### 解题思路
+# 我的思路：
+# 中序遍历得到递增队列,对队列进行遍历,前后比较得到最小绝对值.
 	
 
-复杂度分析：                                                             
-	• 时间复杂度：o(n)
-	• 空间复杂度：o(n)
+# 复杂度分析：                                                             
+# 	• 时间复杂度：o(n)
+# 	• 空间复杂度：o(n)
 
 
 
-### 代码
+# ### 代码
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -46,4 +46,4 @@ class Solution:
             abs_min = min(abs_min,abs(lists[i+1]-lists[i]))
         return abs_min
 
-```
+# ```

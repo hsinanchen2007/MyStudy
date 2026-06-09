@@ -1,6 +1,6 @@
-先设置三维数组 **DP[边长][边长][2]** ,**DP[y][x][0]** 代表当前位置最大得分, **DP[y][x][1]** 代表可到达此点且得分相同的路径总数,
+// 先设置三维数组 **DP[边长][边长][2]** ,**DP[y][x][0]** 代表当前位置最大得分, **DP[y][x][1]** 代表可到达此点且得分相同的路径总数,
 
-```
+// ```
 int step = 0;
 // 左边,上边,左上 三条路径取最大值
 int maxSum = max(DP[y - 1][x][0], max(DP[y][x - 1][0], DP[y - 1][x - 1][0]));
@@ -8,15 +8,15 @@ int maxSum = max(DP[y - 1][x][0], max(DP[y][x - 1][0], DP[y - 1][x - 1][0]));
 if (DP[y - 1][x][0] == maxSum) step += DP[y - 1][x][1];
 if (DP[y - 1][x - 1][0] == maxSum) step += DP[y - 1][x - 1][1];
 if (DP[y][x - 1][0] == maxSum) step += DP[y][x - 1][1];
-```
-状态转移方程: 
-**DP[y][x][0] = maxSum + board[y][x] - '0' ;
-DP[y][x][1] = step;**
-**若board[y][x] == 'X',则DP[y][x][0] = 0,DP[y][x][1] = 0.**
+// ```
+// 状态转移方程: 
+// **DP[y][x][0] = maxSum + board[y][x] - '0' ;
+// DP[y][x][1] = step;**
+// **若board[y][x] == 'X',则DP[y][x][0] = 0,DP[y][x][1] = 0.**
 
-需单独判断`"EX","XS"`
+// 需单独判断`"EX","XS"`
 
-```
+// ```
 class Solution {
 public:
     vector<int> pathsWithMaxScore(vector<string> &board) {
@@ -90,4 +90,4 @@ public:
             return vector<int>{0, 0};
         }
 };
-```
+// ```

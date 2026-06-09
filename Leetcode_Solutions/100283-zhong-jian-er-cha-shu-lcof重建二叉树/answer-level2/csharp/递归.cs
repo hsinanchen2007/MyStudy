@@ -1,9 +1,9 @@
-### 解题思路
-找到规律递归即可
+// ### 解题思路
+// 找到规律递归即可
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -45,4 +45,4 @@ public class Solution {
         return root;
     }
 }
-```
+// ```

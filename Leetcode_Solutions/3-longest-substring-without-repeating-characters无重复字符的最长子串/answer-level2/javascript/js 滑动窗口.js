@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/7c8e5dc80dade4352b35877743ec479f93f946efcd2d7aad7d73318511e35db5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7c8e5dc80dade4352b35877743ec479f93f946efcd2d7aad7d73318511e35db5-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 优化的滑动窗口
 
 每次遇到重复字母的时候将这个字母出现位置和他之前的字符全部截掉
@@ -16,11 +16,11 @@
 
 此时直接将 window 中字母 'c' 与他之前的所有字符截掉
 ['a', 'b', 'c', 'd', 'e'] => ['d', 'e'] 再去 push ( 'c' )
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -64,4 +64,4 @@ var lengthOfLongestSubstring = function(s) {
   
 //   return ans;
 // };
-```
+// ```

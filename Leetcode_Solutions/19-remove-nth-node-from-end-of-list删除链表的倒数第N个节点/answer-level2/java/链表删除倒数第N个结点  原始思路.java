@@ -1,9 +1,9 @@
-### 解题思路
-很原始的思路，获取长度，在进行删除，注意边界。
+// ### 解题思路
+// 很原始的思路，获取长度，在进行删除，注意边界。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -35,4 +35,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-这里必须要吐槽一下，题意非常扯，这题提示比题意有用！！！。
+// 这里必须要吐槽一下，题意非常扯，这题提示比题意有用！！！。
 
-总结：这题的意思就是找有没有回路，不要听题意在那里扯皮，最好的证明就是我最终实现的代码通过了，但都没有使用numsCourse这个变量了，这题的输出并不关心numsCourse！这题的输出并不关心numsCourse！这题的输出并不关心numsCourse！说三遍！！！
+// 总结：这题的意思就是找有没有回路，不要听题意在那里扯皮，最好的证明就是我最终实现的代码通过了，但都没有使用numsCourse这个变量了，这题的输出并不关心numsCourse！这题的输出并不关心numsCourse！这题的输出并不关心numsCourse！说三遍！！！
 
-吐槽完了，放代码：
-```
+// 吐槽完了，放代码：
+// ```
 func canFinish(numCourses int, prerequisites [][]int) bool {
 	if numCourses==0||len(prerequisites)==0 {
 		return true
@@ -46,5 +46,5 @@ func canFinish(numCourses int, prerequisites [][]int) bool {
 	//}
 	return false
 }
-```
-你们可以看到，这题里我最后都没有用numCourses，直接判断有没有回路就完了，如果我真的去判断了numCourses，那么按照我的思路，这里反而会写错
+// ```
+// 你们可以看到，这题里我最后都没有用numCourses，直接判断有没有回路就完了，如果我真的去判断了numCourses，那么按照我的思路，这里反而会写错

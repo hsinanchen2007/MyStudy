@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-观察题目可以发现只有每个位置都往下或往右走才是最短路径
-可以把[0,0]看作是开始节点
-![捕获.PNG](https://pic.leetcode-cn.com/eccc55a4f8532ee69a3a278a96ac639d0448c1cdfa1b6ce7519f2fc62bb403da-%E6%8D%95%E8%8E%B7.PNG)
-按照拓扑排序更新每个节点到开始节点的最短路径
+# ### 解题思路
+# 此处撰写解题思路
+# 观察题目可以发现只有每个位置都往下或往右走才是最短路径
+# 可以把[0,0]看作是开始节点
+# ![捕获.PNG](https://pic.leetcode-cn.com/eccc55a4f8532ee69a3a278a96ac639d0448c1cdfa1b6ce7519f2fc62bb403da-%E6%8D%95%E8%8E%B7.PNG)
+# 按照拓扑排序更新每个节点到开始节点的最短路径
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import deque
 class Solution(object):
     def minPathSum(self, l):
@@ -23,4 +23,4 @@ class Solution(object):
                 else:
                     l[i][j]=min(l[i-1][j],l[i][j-1])+l[i][j]
         return l[-1][-1]
-```
+# ```

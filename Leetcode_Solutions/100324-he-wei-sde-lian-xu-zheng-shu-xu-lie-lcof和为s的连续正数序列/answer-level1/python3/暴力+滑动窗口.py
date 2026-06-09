@@ -1,10 +1,10 @@
-### 解题思路
-暴力方法：超时，有很多不必要的重复的遍历
-滑动窗口：减少遍历的次数，左右双指针，排除掉不可能的结果。
+# ### 解题思路
+# 暴力方法：超时，有很多不必要的重复的遍历
+# 滑动窗口：减少遍历的次数，左右双指针，排除掉不可能的结果。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         l = []
@@ -23,4 +23,4 @@ class Solution:
                 i +=1
         return l
                     
-```
+# ```

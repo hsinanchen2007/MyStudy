@@ -1,11 +1,11 @@
-### 解题思路
-a[n]存储结果,a.size==n时出现一组解，更改v的值，加入ans中
+// ### 解题思路
+// a[n]存储结果,a.size==n时出现一组解，更改v的值，加入ans中
 
- if(a[j]==i||i+a.size()==j+a[j]||a[j]+a.size()==j+i) return false;这个判断语句需要点初中数学
+//  if(a[j]==i||i+a.size()==j+a[j]||a[j]+a.size()==j+i) return false;这个判断语句需要点初中数学
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> ans;
@@ -60,4 +60,4 @@ public:
       return ans;
     }
 };
-```
+// ```

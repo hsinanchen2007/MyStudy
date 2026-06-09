@@ -1,10 +1,10 @@
-### 解题思路
-1. 集合&优先队列形成记录表
-2. 动态规划, 令$f[i]$表示第i+1个丑数
+# ### 解题思路
+# 1. 集合&优先队列形成记录表
+# 2. 动态规划, 令$f[i]$表示第i+1个丑数
 
-### 代码
-**集合&队列**
-```java []
+# ### 代码
+# **集合&队列**
+# ```java []
 class Solution {
     public int nthUglyNumber(int n) {
         // 集合&队列
@@ -30,8 +30,8 @@ class Solution {
         }
     }
 }
-```
-```python []
+# ```
+# ```python []
 from queue import PriorityQueue
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
@@ -54,8 +54,8 @@ class Solution:
                     pq.put(k)
 
         return -1
-```
-``` c++ []
+# ```
+# ``` c++ []
 typedef long long LL;
 class Solution {
 public:
@@ -85,10 +85,10 @@ public:
         return -1;
     }
 };
-```
+# ```
 
-**动态规划**
-```java []
+# **动态规划**
+# ```java []
 class Solution {
     public int nthUglyNumber(int n) {
         // 动态规划求解
@@ -110,8 +110,8 @@ class Solution {
         return (int)f[n-1];
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
         # 三指针dp
@@ -129,8 +129,8 @@ class Solution:
 
         return f[-1]
 
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int nthUglyNumber(int n) {
@@ -150,4 +150,4 @@ public:
         return f[n-1];
     }
 };
-```
+# ```

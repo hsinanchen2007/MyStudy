@@ -1,4 +1,4 @@
-```
+// ```
 // 这一版实现其实是更复杂了点，题目没看全，将题意中：“注意：每次拼写时，chars 中的每个字母都只能用一次。”的“每次拼写时”去掉，下面的题解就满足了
     public static int countCharacters(String[] words, String chars) {
         int[] recordCharCount = new int[26]; // 记录chars数组中出现的字符的次数
@@ -40,4 +40,4 @@
 
         return result;
     }
-```
+// ```

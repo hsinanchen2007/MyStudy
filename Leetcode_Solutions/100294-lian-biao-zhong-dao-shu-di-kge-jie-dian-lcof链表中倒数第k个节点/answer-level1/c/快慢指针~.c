@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针，让两指针一开始指向head，q先走k步，后p,q同时走，当q==NULL时，p即为所求。
+// ### 解题思路
+// 快慢指针，让两指针一开始指向head，q先走k步，后p,q同时走，当q==NULL时，p即为所求。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ struct ListNode* getKthFromEnd(struct ListNode* head, int k){
     return p;
 }
     
-```
+// ```

@@ -1,6 +1,6 @@
-### 解题思路
-可以把两个栈看作整体模拟add(),remove()操作，也可以一个用来存储元素，一个用来辅助操作。
-```java
+// ### 解题思路
+// 可以把两个栈看作整体模拟add(),remove()操作，也可以一个用来存储元素，一个用来辅助操作。
+// ```java
 import java.util.Stack;
 
 /**
@@ -37,9 +37,9 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```
 
-```java
+// ```java
 import java.util.Stack;
 
 /**
@@ -75,4 +75,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

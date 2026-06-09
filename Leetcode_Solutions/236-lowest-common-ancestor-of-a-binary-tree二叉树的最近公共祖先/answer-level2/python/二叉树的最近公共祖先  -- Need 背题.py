@@ -1,18 +1,18 @@
-### 解题思路
-1. 比之简单的题目
-    - [BST 二叉树搜索数 的 最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/solution/bst-er-cha-shu-sou-suo-shu-de-zui-jin-gong-gong-zu/)
+# ### 解题思路
+# 1. 比之简单的题目
+#     - [BST 二叉树搜索数 的 最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/solution/bst-er-cha-shu-sou-suo-shu-de-zui-jin-gong-gong-zu/)
 
-2. 题解（前提条件很重要）：
-    - 公共祖先：1）有一个是父节点本身，返回父节点； 
-    - 2）lf 左侧搜索P / Q，rf 右侧搜索P/Q，若lf 和 rf 均找到，return 父节点 **（后序遍历 pastOrder）**；
-    - 3）**若 lf 没找到，返回 rf； 若rf 没找到，返回lf ,这是关键**
-
-
+# 2. 题解（前提条件很重要）：
+#     - 公共祖先：1）有一个是父节点本身，返回父节点； 
+#     - 2）lf 左侧搜索P / Q，rf 右侧搜索P/Q，若lf 和 rf 均找到，return 父节点 **（后序遍历 pastOrder）**；
+#     - 3）**若 lf 没找到，返回 rf； 若rf 没找到，返回lf ,这是关键**
 
 
-### 代码
 
-```python3
+
+# ### 代码
+
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -63,4 +63,4 @@ class Solution:
         
 
 
-```
+# ```

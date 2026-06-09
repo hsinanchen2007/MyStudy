@@ -1,9 +1,9 @@
-### 解题思路
-原地炸裂，哈哈，总算有道题会做了，新Node的random肯定需要一个旧Node的random来指明，所以也就想到了原地复制一个插入next，之后再分割就好了。
+// ### 解题思路
+// 原地炸裂，哈哈，总算有道题会做了，新Node的random肯定需要一个旧Node的random来指明，所以也就想到了原地复制一个插入next，之后再分割就好了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -50,4 +50,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

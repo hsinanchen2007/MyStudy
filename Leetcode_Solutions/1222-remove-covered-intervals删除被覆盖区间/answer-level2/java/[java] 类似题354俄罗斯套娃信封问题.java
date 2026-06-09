@@ -1,5 +1,5 @@
-对于二维数组arr[][]的子数组a[]来说 , 升序排列a[0] 降序排列a[1] , 则只用考虑a[1]即可 , 若a[n - 1] >= a[n] 继续遍历 , a[n - 1] < a[n] 结果加一 .
-```
+// 对于二维数组arr[][]的子数组a[]来说 , 升序排列a[0] 降序排列a[1] , 则只用考虑a[1]即可 , 若a[n - 1] >= a[n] 继续遍历 , a[n - 1] < a[n] 结果加一 .
+// ```
     public int removeCoveredIntervals(int[][] intervals) {
         if (intervals.length <= 1) {
             return intervals.length;
@@ -21,4 +21,4 @@
         }
         return res;
     }
-```
+// ```

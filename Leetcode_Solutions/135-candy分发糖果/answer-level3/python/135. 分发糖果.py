@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def candy(self, ratings: List[int]) -> int:
         n = len(ratings)
@@ -21,4 +21,4 @@ class Solution:
         return sum(num) # 返回糖果数量
 
 
-```
+# ```

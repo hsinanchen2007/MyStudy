@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/bc919c500b959c897ca403682d1503f78713b7b25d1107e6a65eedf6a84f05fd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bc919c500b959c897ca403682d1503f78713b7b25d1107e6a65eedf6a84f05fd-image.png)
 
-```
+// ```
 int StrLenCmp(const void *a, const void *b)
 {
     return strlen(*(char **)b) - strlen(*(char **)a);
@@ -53,4 +53,4 @@ int maxLength(char **arr, int arrSize)
     }
     return monoMaxLen;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-实在TM不想说话，看下面带fxxk的注释就懂了，能把returnColumnSizes解释的清楚点吗？
-猜测这题打印的时候不是 col < (returncolumnSize)[i]， 而是col <= (returncolumnSize)[i] !
+// ### 解题思路
+// 实在TM不想说话，看下面带fxxk的注释就懂了，能把returnColumnSizes解释的清楚点吗？
+// 猜测这题打印的时候不是 col < (returncolumnSize)[i]， 而是col <= (returncolumnSize)[i] !
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX 5000
 
 const int dir[8][2] = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}, {1, 1}, {1, -1}, {-1, 1}, {-1, -1}};
@@ -106,4 +106,4 @@ char *** solveNQueens(int n, int* returnSize, int** returnColumnSizes){
     freeBoard(n);
     return g_ans;
 }
-```
+// ```

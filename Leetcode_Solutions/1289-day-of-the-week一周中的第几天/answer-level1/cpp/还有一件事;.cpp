@@ -1,11 +1,11 @@
-难点就是计算天数；从1971年1月1日到当前日期的天数计算。
-在计算天数的过程中，可能碰到平年或闰年，分开对待就可以了。
-特别要注意两点：
-1.当前年的天数，需要根据  month 和 day 的值来计算；
-2.若输入是1971年1月1日，本算法中sumday求出应该等于1，  x = sumday%7， x = 1，
-已知string days[7] = { "Friday", "Saturday","Sunday", "Monday", "Tuesday", "Wednesday", "Thursday" };
-若函数返回值 取days[x] 就不对了；
-故计算当前一天的日子，用
+// 难点就是计算天数；从1971年1月1日到当前日期的天数计算。
+// 在计算天数的过程中，可能碰到平年或闰年，分开对待就可以了。
+// 特别要注意两点：
+// 1.当前年的天数，需要根据  month 和 day 的值来计算；
+// 2.若输入是1971年1月1日，本算法中sumday求出应该等于1，  x = sumday%7， x = 1，
+// 已知string days[7] = { "Friday", "Saturday","Sunday", "Monday", "Tuesday", "Wednesday", "Thursday" };
+// 若函数返回值 取days[x] 就不对了；
+// 故计算当前一天的日子，用
 x = (sumday - 1)%7;
 返回 days[x];
 

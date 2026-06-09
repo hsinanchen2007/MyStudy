@@ -1,10 +1,10 @@
-### 解题思路
-![捕获.JPG](https://pic.leetcode-cn.com/05332040a96017ce2b2f56cd55286624b78925be4c84c92dd0e5d70b72c12822-%E6%8D%95%E8%8E%B7.JPG)
+// ### 解题思路
+// ![捕获.JPG](https://pic.leetcode-cn.com/05332040a96017ce2b2f56cd55286624b78925be4c84c92dd0e5d70b72c12822-%E6%8D%95%E8%8E%B7.JPG)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string simplifyPath(string path) {
@@ -45,4 +45,4 @@ public:
         return res;
     }
 };
-```
+// ```

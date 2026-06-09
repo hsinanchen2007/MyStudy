@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/cf8104d0350b65b0323cdad320c68e1c838aaa397bbc596c22a278555ff3ab1b-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/cf8104d0350b65b0323cdad320c68e1c838aaa397bbc596c22a278555ff3ab1b-image.png)
 
-这道题的特性是思路不难，实现复杂。思路即创建一个 8 * 8 的 unordered_set，然后每次都看是否有 1 个元素的 unordered_set，如果有，先填充，若没有就填充一个最小元素个数的 unordered_set 所处的位置，然后将 board 以及相关变量入栈，以便回退时取出，如果下一次填充返回 -1(即有点有无法填充的数)，则弹栈回退，看上一分支结点是否还有其它数可以填，若有，填入，再判断当前是否有一个元素的 unordered_set；若上一分支结点没有其它数可以填，则再次回退到上上个结点，以此类推。
-### 代码
+// 这道题的特性是思路不难，实现复杂。思路即创建一个 8 * 8 的 unordered_set，然后每次都看是否有 1 个元素的 unordered_set，如果有，先填充，若没有就填充一个最小元素个数的 unordered_set 所处的位置，然后将 board 以及相关变量入栈，以便回退时取出，如果下一次填充返回 -1(即有点有无法填充的数)，则弹栈回退，看上一分支结点是否还有其它数可以填，若有，填入，再判断当前是否有一个元素的 unordered_set；若上一分支结点没有其它数可以填，则再次回退到上上个结点，以此类推。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void solveSudoku(vector<vector<char>>& board)
@@ -240,4 +240,4 @@ public:
     //     cout << endl;
     // }
 };
-```
+// ```

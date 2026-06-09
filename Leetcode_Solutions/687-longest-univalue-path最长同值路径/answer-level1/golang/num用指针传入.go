@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -34,4 +34,4 @@ func findLongestUnivaluePath(root *TreeNode,num *int) int{
 	*num = int(math.Max(float64(*num), float64(ar+al)))
 	return int(math.Max(float64(al), float64(ar)))
 }
-```
+// ```

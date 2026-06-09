@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     int x;
     int y;
@@ -99,4 +99,4 @@ bool hasPath(int** maze, int mazeSize, int* mazeColSize, int* start, int startSi
     }
     return false;
 }
-```
+// ```

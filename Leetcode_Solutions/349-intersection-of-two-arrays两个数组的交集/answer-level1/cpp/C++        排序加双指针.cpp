@@ -1,9 +1,9 @@
-### 解题思路
-**详见代码注释**
+// ### 解题思路
+// **详见代码注释**
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -35,4 +35,4 @@ public:
         return arr;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def majorityElement(self, nums):
         """
@@ -41,4 +41,4 @@ class Solution(object):
         if count_m > len(nums) // 3:
             result.append(m)
         return result
-```
+# ```

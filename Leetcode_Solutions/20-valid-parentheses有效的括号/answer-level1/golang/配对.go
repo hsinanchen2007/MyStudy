@@ -1,4 +1,4 @@
-```
+// ```
 func isValid(s string) bool {
     if len(s) == 0 {
         return true
@@ -25,4 +25,4 @@ func isValid(s string) bool {
     }
     return len(temp) == 0
 }
-```
+// ```

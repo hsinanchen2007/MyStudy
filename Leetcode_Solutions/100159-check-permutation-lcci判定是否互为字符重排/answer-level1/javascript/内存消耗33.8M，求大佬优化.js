@@ -1,9 +1,9 @@
-### 解题思路
-代码又臭又长，先把两个字符串中每个字母出现的次数统计一下，再对比每个字符的次数
+// ### 解题思路
+// 代码又臭又长，先把两个字符串中每个字母出现的次数统计一下，再对比每个字符的次数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s1
  * @param {string} s2
@@ -42,4 +42,4 @@ var CheckPermutation = function (s1, s2) {
     }
     return true;
 };
-```
+// ```

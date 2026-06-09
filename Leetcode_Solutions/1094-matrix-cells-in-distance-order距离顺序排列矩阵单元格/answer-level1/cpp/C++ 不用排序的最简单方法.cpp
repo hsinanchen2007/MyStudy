@@ -1,6 +1,6 @@
-以坐标距离为vector索引， 距离指定点可能是0, 1, 2, 3 ...
+// 以坐标距离为vector索引， 距离指定点可能是0, 1, 2, 3 ...
 
-附代码：
+// 附代码：
 class Solution {
 public:
     struct pos {

@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-1. 操作字符串模拟过程
+// 1. 操作字符串模拟过程
 
-1 <= s.length <= 500
-转int, 是不行的 
+// 1 <= s.length <= 500
+// 转int, 是不行的 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numSteps(s string) int {
     
     str := []byte(s)
@@ -57,4 +57,4 @@ func helper(str []byte) []byte {
 
 
 
-```
+// ```

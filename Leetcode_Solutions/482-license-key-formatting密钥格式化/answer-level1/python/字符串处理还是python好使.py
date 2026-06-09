@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-字符串处理还是python好使
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 字符串处理还是python好使
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def licenseKeyFormatting(self, S, K):
         """
@@ -18,4 +18,4 @@ class Solution(object):
             res.append(S[start:i])
         res.reverse()
         return "-".join(res).upper()
-```
+# ```

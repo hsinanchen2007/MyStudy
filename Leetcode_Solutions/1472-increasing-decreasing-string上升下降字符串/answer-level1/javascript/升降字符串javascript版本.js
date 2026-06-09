@@ -1,12 +1,12 @@
-### 解题思路
-建一个存所有字符个数的Map;
-每从小到大输出一次 Map中字母个数减1，从大到小只需要把Map获得的key倒序排列即可；
-当Map中所有字母的个数都为0；跳出while循环；
-输出结果
+// ### 解题思路
+// 建一个存所有字符个数的Map;
+// 每从小到大输出一次 Map中字母个数减1，从大到小只需要把Map获得的key倒序排列即可；
+// 当Map中所有字母的个数都为0；跳出while循环；
+// 输出结果
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -41,4 +41,4 @@ var sortString = function(str) {
   }
   return result;
 };
-```
+// ```

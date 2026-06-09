@@ -1,9 +1,9 @@
-### 解题思路
-双指针的思想
+# ### 解题思路
+# 双指针的思想
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         # 可以分成相等的三个部分，那么sum(A)一定能被3整除
@@ -35,4 +35,4 @@ class Solution:
         mid=sum(A[i+1:j])
         return True if left==mid and mid==right else False
 
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-借助两个int数实现存储和交换，第一重循环是控制迁移次数的，然后用交换数buy存放数组最后一个元素的值，后面两个for是为了遍历整个数组，循环中间实现元素的交换；
-最后一部分将数组转化成List
+// ### 解题思路
+// 借助两个int数实现存储和交换，第一重循环是控制迁移次数的，然后用交换数buy存放数组最后一个元素的值，后面两个for是为了遍历整个数组，循环中间实现元素的交换；
+// 最后一部分将数组转化成List
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> shiftGrid(int[][] grid, int k) {
         int buy,cunchu;
@@ -29,4 +29,4 @@ class Solution {
         return r;
     }
 }
-```
+// ```

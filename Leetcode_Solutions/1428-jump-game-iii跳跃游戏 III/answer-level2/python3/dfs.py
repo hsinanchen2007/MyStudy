@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def canReach(self, arr: List[int], start: int) -> bool:
         s=set()
@@ -12,4 +12,4 @@ class Solution:
             s.add(i)
             return dfs(i+arr[i]) or dfs(i-arr[i])
         return dfs(start)
-```
+# ```

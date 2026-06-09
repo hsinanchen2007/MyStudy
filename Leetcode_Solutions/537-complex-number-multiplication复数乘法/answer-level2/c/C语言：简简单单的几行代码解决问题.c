@@ -1,6 +1,6 @@
-![QQ截图20190719073000.png](https://pic.leetcode-cn.com/d0f86c219dc897804f3b1da7a77e2211c9cb266508802845a0b8ae8f2162f287-QQ%E6%88%AA%E5%9B%BE20190719073000.png)
+// ![QQ截图20190719073000.png](https://pic.leetcode-cn.com/d0f86c219dc897804f3b1da7a77e2211c9cb266508802845a0b8ae8f2162f287-QQ%E6%88%AA%E5%9B%BE20190719073000.png)
 
-```
+// ```
 char * complexNumberMultiply(char * stra, char * strb){
     if (stra == NULL) return strb;
     if (strb == NULL) return stra;
@@ -50,4 +50,4 @@ void extraction_numbers(char *str, int *real, int *complex)
     }
     *complex *= sy_com;
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/391addabe0732736dff69794bfbef3cfba717e46d6878634032d4a0e2ef5ca9d-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/391addabe0732736dff69794bfbef3cfba717e46d6878634032d4a0e2ef5ca9d-image.png)
 
-利用两数组间最大公约数， 递增判断
+// 利用两数组间最大公约数， 递增判断
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str1
  * @param {string} str2
@@ -37,4 +37,4 @@ var gcdOfStrings = function(str1, str2) {
       }
       return res;
     };
-```
+// ```

@@ -1,13 +1,13 @@
-![零钱.PNG](https://pic.leetcode-cn.com/388a6e151d1fe48655dea1bc96d090f438799301acf0d30d02d55b634fd284e7-%E9%9B%B6%E9%92%B1.PNG)
+// ![零钱.PNG](https://pic.leetcode-cn.com/388a6e151d1fe48655dea1bc96d090f438799301acf0d30d02d55b634fd284e7-%E9%9B%B6%E9%92%B1.PNG)
 
-方法一：递归
-1、递归关系
-dp(v) = min(dp(v-c) + 1)
-2、边界条件
-v == c ,return 1
-方法二：备忘录
-与递归类似，记录递归过程数据
-```
+// 方法一：递归
+// 1、递归关系
+// dp(v) = min(dp(v-c) + 1)
+// 2、边界条件
+// v == c ,return 1
+// 方法二：备忘录
+// 与递归类似，记录递归过程数据
+// ```
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
 
 int dp(int* coins, int coinsSize, int amount, int *f)
@@ -58,16 +58,16 @@ int coinChange(int* coins, int coinsSize, int amount){
     return dp(coins, coinsSize, amount, f);
 }
 
-```
+// ```
 
-方法二:动态规划
-核心思想最有子结构，即子问题已经是最优解
-1、状态转移关系
-f[j] = 1 + min(f[j-c1], f[j-c2],...,f[j-cn])
-2、边界条件，即初始值
-当v == c时 ,f[v] = 1
+// 方法二:动态规划
+// 核心思想最有子结构，即子问题已经是最优解
+// 1、状态转移关系
+// f[j] = 1 + min(f[j-c1], f[j-c2],...,f[j-cn])
+// 2、边界条件，即初始值
+// 当v == c时 ,f[v] = 1
 
-```
+// ```
 int coinChange(int* coins, int coinsSize, int amount){
     int *f = NULL;
     int min = 0;
@@ -110,4 +110,4 @@ int coinChange(int* coins, int coinsSize, int amount){
     }
     return -1;
 }
-```
+// ```

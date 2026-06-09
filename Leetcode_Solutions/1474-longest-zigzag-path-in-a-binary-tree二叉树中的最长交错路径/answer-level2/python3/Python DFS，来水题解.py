@@ -1,7 +1,7 @@
-记录当前深度，以及当前节点从哪来。
+# 记录当前深度，以及当前节点从哪来。
 
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
             
         dfs(root, 0, 0)
         return self.maxx    
-```
+# ```

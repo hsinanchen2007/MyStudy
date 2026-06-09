@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-s1怎么排列不管，弄两个hash表，保存s1和s2的hash值，如果s2中包含s1的排列，则两个hash表示一样的。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// s1怎么排列不管，弄两个hash表，保存s1和s2的hash值，如果s2中包含s1的排列，则两个hash表示一样的。
+// ### 代码
 
-```c
+// ```c
 #define MAXLEN 26
 int hashs1[MAXLEN] = {0};
 int hashs2[MAXLEN] = {0};
@@ -57,4 +57,4 @@ bool checkInclusion(char *s1, char *s2){
 
     return false;
 }
-```
+// ```

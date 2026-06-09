@@ -1,5 +1,5 @@
-利用一维数组，每次该数组 保存上一行
-```
+# 利用一维数组，每次该数组 保存上一行
+# ```
 def maxValue(self, grid: List[List[int]]) -> int:
     m, n = len(grid), len(grid[0])
     dp = [0 for i in range(n + 1)]
@@ -10,10 +10,10 @@ def maxValue(self, grid: List[List[int]]) -> int:
             dp[j] = max(dp[j - 1], tmp) + grid[i][j - 1]
 
     return dp[-1]
-```
+# ```
 
-二维数组，常规的
-```
+# 二维数组，常规的
+# ```
 def maxValue(self, grid: List[List[int]]) -> int:
     """二维数组"""
     m, n = len(grid), len(grid[0])
@@ -31,4 +31,4 @@ def maxValue(self, grid: List[List[int]]) -> int:
             dp[i][j] = max(dp[i][j - 1], dp[i - 1][j]) + grid[i][j]
 
     return dp[m - 1][n - 1]
-```
+# ```

@@ -1,13 +1,13 @@
 
-$\Delta =|a_r-a_{l-1}|+|a_l-a_{r+1}|-(|a_l-a_{l-1}|+|a_r-a_{r+1}|)$
-去掉绝对值符号
-$S_1=a_l-a_{l-1}-|a_l-a_{l-1}|-a_{r+1}+a_r-|a_r-a_{r+1}|$
-$S_2=-a_l-a_{l-1}-|a_l-a_{l-1}|+a_{r+1}+a_r-|a_r-a_{r+1}|$
-$S_3=a_l+a_{l-1}-|a_l-a_{l-1}|-a_{r+1}-a_r-|a_r-a_{r+1}|$
-$S_4=-a_l+a_{l-1}-|a_l-a_{l-1}|+a_{r+1}-a_r-|a_r-a_{r+1}|$
-$S_i$不就是$(\pm a_l+\pm a_{l-1}-|a_l-a_{l-1}|)$ 4种情况的最大值，每2个加在一起吗？
+// $\Delta =|a_r-a_{l-1}|+|a_l-a_{r+1}|-(|a_l-a_{l-1}|+|a_r-a_{r+1}|)$
+// 去掉绝对值符号
+// $S_1=a_l-a_{l-1}-|a_l-a_{l-1}|-a_{r+1}+a_r-|a_r-a_{r+1}|$
+// $S_2=-a_l-a_{l-1}-|a_l-a_{l-1}|+a_{r+1}+a_r-|a_r-a_{r+1}|$
+// $S_3=a_l+a_{l-1}-|a_l-a_{l-1}|-a_{r+1}-a_r-|a_r-a_{r+1}|$
+// $S_4=-a_l+a_{l-1}-|a_l-a_{l-1}|+a_{r+1}-a_r-|a_r-a_{r+1}|$
+// $S_i$不就是$(\pm a_l+\pm a_{l-1}-|a_l-a_{l-1}|)$ 4种情况的最大值，每2个加在一起吗？
 
-```
+// ```
 class Solution {
 public:
     int maxValueAfterReverse(vector<int>& num) {
@@ -32,4 +32,4 @@ public:
         return sum+mx;
     }
 };
-```
+// ```

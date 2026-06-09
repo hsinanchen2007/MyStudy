@@ -1,9 +1,9 @@
-### 解题思路
-如下代码
+// ### 解题思路
+// 如下代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // V1 笨办法，使用一个辅助数组
 void rotate(int* nums, int numsSize, int k){
     k = k % numsSize;   // 注意mod
@@ -25,4 +25,4 @@ void rotate(int* nums, int numsSize, int k){
         nums[i] = tmp[i];
     }
 }
-```
+// ```

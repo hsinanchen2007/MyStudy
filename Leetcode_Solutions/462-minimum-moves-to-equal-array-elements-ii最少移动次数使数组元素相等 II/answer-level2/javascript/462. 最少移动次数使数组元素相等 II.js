@@ -1,9 +1,9 @@
-### 解题思路
-此题最要的思考点就是如何找到中位数
+// ### 解题思路
+// 此题最要的思考点就是如何找到中位数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -15,4 +15,4 @@ var minMoves2 = function(nums) {
         return total+Math.abs(num - avg)
     },0)
 };
-```
+// ```

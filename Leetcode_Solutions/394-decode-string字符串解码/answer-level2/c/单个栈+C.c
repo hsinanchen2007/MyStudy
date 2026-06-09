@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #if 1
 #define LEN_STR 5000
 #define LEN_TMP 2000
@@ -63,4 +63,4 @@ char * decodeString(char * s)
 }
 
 #endif
-```
+// ```

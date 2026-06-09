@@ -1,6 +1,6 @@
-### 中序遍历
-二叉查找树中序遍历输出就是从小到大的有序序列
-```cpp []
+// ### 中序遍历
+// 二叉查找树中序遍历输出就是从小到大的有序序列
+// ```cpp []
 class Solution {
 public:
     int kthLargest(TreeNode* root, int k) {
@@ -17,11 +17,11 @@ private:
         dfs(result, node->left);
     }
 };
-```
+// ```
 
-### 遍历+堆
-这道题不适合用这个方法，因为做题的时候没有注意到输入是二叉查找树，还以为是普通的二叉树。假如是普通的二叉树的话上面的中序遍历做法就不能用了。可以维护一个大小为 k 的小顶堆，以任意方式遍历二叉树，将结点值插入该小顶堆，最后输出堆顶元素即可。以下分别用 algorithm 的 heap function template 和 container 的 priority_queue 去实现这种思路。
-```cpp []
+// ### 遍历+堆
+// 这道题不适合用这个方法，因为做题的时候没有注意到输入是二叉查找树，还以为是普通的二叉树。假如是普通的二叉树的话上面的中序遍历做法就不能用了。可以维护一个大小为 k 的小顶堆，以任意方式遍历二叉树，将结点值插入该小顶堆，最后输出堆顶元素即可。以下分别用 algorithm 的 heap function template 和 container 的 priority_queue 去实现这种思路。
+// ```cpp []
 class Solution {
 public:
     int kthLargest(TreeNode* root, int k) {
@@ -42,8 +42,8 @@ public:
         dfs(heap, node->right);
     }
 };
-```
-```cpp []
+// ```
+// ```cpp []
 class Solution {
 public:
     int kthLargest(TreeNode* root, int k) {
@@ -65,4 +65,4 @@ public:
         dfs(pquk, node->right);
     }
 };
-```
+// ```

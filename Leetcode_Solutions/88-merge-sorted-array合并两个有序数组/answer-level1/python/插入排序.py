@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, l, m, r, n):
         m-=1 ;n-=1
@@ -15,4 +15,4 @@ class Solution(object):
             l[m+i+1]=tmp
         return l
             
-```
+# ```

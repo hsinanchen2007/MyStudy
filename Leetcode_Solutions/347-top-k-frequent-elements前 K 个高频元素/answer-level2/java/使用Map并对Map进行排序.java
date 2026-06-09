@@ -1,7 +1,7 @@
-我想到的解法比较直接，就是将 nums 数组中出现的数字及其频率存入 hashMap 中，之后对 hashMap 进行排序，再依照题目要求将符合要求的答案存入 list 并返回即可。
+// 我想到的解法比较直接，就是将 nums 数组中出现的数字及其频率存入 hashMap 中，之后对 hashMap 进行排序，再依照题目要求将符合要求的答案存入 list 并返回即可。
 
-菜鸡代码如下：（其中 "import java.util.Map.Entry;" 必须添加，否则会报错）
-```
+// 菜鸡代码如下：（其中 "import java.util.Map.Entry;" 必须添加，否则会报错）
+// ```
 import java.util.Map.Entry;
 class Solution {
     public List<Integer> topKFrequent(int[] nums, int k) {
@@ -26,4 +26,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

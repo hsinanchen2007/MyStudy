@@ -1,5 +1,5 @@
-每行首尾都是1，可以先初始化每行全为1，再通过计算修改
-```
+// 每行首尾都是1，可以先初始化每行全为1，再通过计算修改
+// ```
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -25,4 +25,4 @@ public:
 	return res;
     }
 };
-```
+// ```

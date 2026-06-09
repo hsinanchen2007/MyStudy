@@ -1,12 +1,12 @@
 
-![image.png](https://pic.leetcode-cn.com/ddf08969bec118b805f95e90d6b28a3dd5aa5873110f773978bce06e266f5d6a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ddf08969bec118b805f95e90d6b28a3dd5aa5873110f773978bce06e266f5d6a-image.png)
 
-输入“234”
-每个数字对应的字母数量为{3,3,3}
-将counter从{0，0，0} {1，0，0} 一直加到 {2,2,2}
-每次根据counter取字母
+// 输入“234”
+// 每个数字对应的字母数量为{3,3,3}
+// 将counter从{0，0，0} {1，0，0} 一直加到 {2,2,2}
+// 每次根据counter取字母
 
-```
+// ```
 char *num_2_char[8] = {
     { "abc" },
     { "def" },
@@ -58,4 +58,4 @@ char ** letterCombinations(char * digits, int* returnSize) {
 	*returnSize = pos;
 	return ans;
 }
-```
+// ```

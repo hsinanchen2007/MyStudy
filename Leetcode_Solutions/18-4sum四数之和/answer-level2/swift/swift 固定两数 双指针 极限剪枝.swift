@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/0f2069d77fec032e6f4a564c5b0e666185615a8da0469e49cbbba748cf77bc48-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0f2069d77fec032e6f4a564c5b0e666185615a8da0469e49cbbba748cf77bc48-image.png)
 
-```
+// ```
 class Solution {
     func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
         guard nums.count >= 4 else {
@@ -52,4 +52,4 @@ class Solution {
         return arr
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-暴力求解！！！
-### 代码
+// ### 解题思路
+// 暴力求解！！！
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) 
@@ -29,4 +29,4 @@ public:
         return 0;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-# 递归
-``` python []
+# # 递归
+# ``` python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -20,10 +20,10 @@ class Solution:
 
         backtrace()
         return out_list
-```
+# ```
 
-# 迭代
-``` python []
+# # 迭代
+# ``` python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -52,4 +52,4 @@ class Solution:
             out_list.append(root.val) #添加
             root = root.right #添加右子树
         return out_list
-```
+# ```
