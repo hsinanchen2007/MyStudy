@@ -3,7 +3,83 @@
         "xstring": "cpp",
         "iostream": "cpp",
         "string": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "stdio.h": "c",
+        "barrier": "cpp",
+        "bitset": "cpp",
+        "memory_resource": "cpp",
+        "array": "cpp",
+        "atomic": "cpp",
+        "chrono": "cpp",
+        "condition_variable": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "functional": "cpp",
+        "future": "cpp",
+        "initializer_list": "cpp",
+        "iomanip": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "mutex": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "thread": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "algorithm": "cpp",
+        "memory": "cpp",
+        "random": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "fstream": "cpp",
+        "numeric": "cpp",
+        "optional": "cpp",
+        "shared_mutex": "cpp",
+        "variant": "cpp"
     },
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c17",
+    "clangd.arguments": [
+        "--background-index"
+    ],
+    "clangd.fallbackFlags": [
+        "-std=c++20",
+        "-pthread"
+    ],
+
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": ["-NoExit", "-Command", "chcp 65001; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8"]
+        }
+    },
+    "files.encoding": "utf8bom",
+    "[cpp]": {
+        "files.encoding": "utf8bom"
+    },
+    "[c]": {
+        "files.encoding": "utf8bom"
+    },
+    "files.exclude": {
+        "**/.DS_Store": true
+    },
+    "search.exclude": {
+        "**/.DS_Store": true
+    }
 }
