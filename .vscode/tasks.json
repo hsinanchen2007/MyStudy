@@ -25,7 +25,7 @@
                 "-Wall",
                 "-Wextra",
                 "-o",
-                "/tmp/claudeclass-vscode-debug",
+                "/tmp/${workspaceFolderBasename}-${fileBasenameNoExtension}-vscode-debug",
                 "${file}",
                 "-pthread"
             ],
@@ -39,7 +39,7 @@
                     "-Wall",
                     "-Wextra",
                     "-o",
-                    "/tmp/claudeclass-vscode-debug",
+                    "/tmp/${workspaceFolderBasename}-${fileBasenameNoExtension}-vscode-debug",
                     "${file}",
                     "-pthread"
                 ]
@@ -57,7 +57,7 @@
                     "-arch",
                     "arm64",
                     "-o",
-                    "/tmp/claudeclass-vscode-debug",
+                    "/tmp/${workspaceFolderBasename}-${fileBasenameNoExtension}-vscode-debug",
                     "${file}",
                     "-pthread"
                 ]

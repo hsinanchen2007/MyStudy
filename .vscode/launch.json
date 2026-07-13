@@ -5,7 +5,7 @@
             "name": "Linux/macOS: build and debug active file (CodeLLDB)",
             "type": "lldb",
             "request": "launch",
-            "program": "/tmp/claudeclass-vscode-debug",
+            "program": "/tmp/${workspaceFolderBasename}-${fileBasenameNoExtension}-vscode-debug",
             "args": [],
             "cwd": "${fileDirname}",
             "terminal": "integrated",
