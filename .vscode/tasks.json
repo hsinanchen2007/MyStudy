@@ -14,8 +14,34 @@
     },
     "tasks": [
         {
+            "label": "C++: prepare active-file debug directory",
+            "type": "process",
+            "command": "/bin/mkdir",
+            "args": [
+                "-p",
+                "/tmp/vscode-cpp/${workspaceFolderBasename}/${relativeFileDirname}"
+            ],
+            "windows": {
+                "command": "powershell.exe",
+                "args": [
+                    "-NoProfile",
+                    "-Command",
+                    "New-Item -ItemType Directory -Force -LiteralPath '${env:TEMP}\\vscode-cpp\\${workspaceFolderBasename}\\${relativeFileDirname}' | Out-Null"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "never",
+                "panel": "shared",
+                "showReuseMessage": false
+            },
+            "hide": true
+        },
+        {
             "label": "C++: build active file (cross-platform)",
             "type": "shell",
+            "dependsOn": "C++: prepare active-file debug directory",
+            "dependsOrder": "sequence",
             "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
@@ -25,7 +51,7 @@
                 "-Wall",
                 "-Wextra",
                 "-o",
-                "/tmp/${workspaceFolderBasename}-${fileBasenameNoExtension}-vscode-debug",
+                "/tmp/vscode-cpp/${workspaceFolderBasename}/${relativeFileDirname}/${fileBasenameNoExtension}",
                 "${file}",
                 "-pthread"
             ],
@@ -39,7 +65,7 @@
                     "-Wall",
                     "-Wextra",
                     "-o",
-                    "/tmp/${workspaceFolderBasename}-${fileBasenameNoExtension}-vscode-debug",
+                    "/tmp/vscode-cpp/${workspaceFolderBasename}/${relativeFileDirname}/${fileBasenameNoExtension}",
                     "${file}",
                     "-pthread"
                 ]
@@ -57,7 +83,7 @@
                     "-arch",
                     "arm64",
                     "-o",
-                    "/tmp/${workspaceFolderBasename}-${fileBasenameNoExtension}-vscode-debug",
+                    "/tmp/vscode-cpp/${workspaceFolderBasename}/${relativeFileDirname}/${fileBasenameNoExtension}",
                     "${file}",
                     "-pthread"
                 ]
@@ -69,7 +95,7 @@
                     "/EHsc",
                     "/std:c++20",
                     "/nologo",
-                    "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
+                    "/Fe${env:TEMP}\\vscode-cpp\\${workspaceFolderBasename}\\${relativeFileDirname}\\${fileBasenameNoExtension}.exe",
                     "${file}"
                 ]
             },
