@@ -1,0 +1,54 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Linux/macOS: build and debug active file (CodeLLDB)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "/tmp/vscode-cpp/${workspaceFolderBasename}/${relativeFileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${fileDirname}",
+            "terminal": "integrated",
+            "stopOnEntry": false,
+            "preLaunchTask": "C++: build active file (cross-platform)",
+            "presentation": {
+                "hidden": false,
+                "order": 1
+            },
+            "osx": {
+                "env": {
+                    "LANG": "zh_TW.UTF-8",
+                    "LC_ALL": "zh_TW.UTF-8"
+                }
+            },
+            "windows": {
+                "presentation": {
+                    "hidden": true,
+                    "order": 2
+                }
+            }
+        },
+        {
+            "name": "Windows: cl.exe build and debug",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${env:TEMP}\\vscode-cpp\\${workspaceFolderBasename}\\${relativeFileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "C++: build active file (cross-platform)",
+            "presentation": {
+                "hidden": true,
+                "order": 2
+            },
+            "windows": {
+                "presentation": {
+                    "hidden": false,
+                    "order": 1
+                }
+            }
+        }
+    ]
+}
