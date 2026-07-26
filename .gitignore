@@ -1,11 +1,78 @@
-# ── OS metadata ──
+# ── macOS / 系統 ──
 **/.DS_Store
+.DS_Store
 Thumbs.db
 Desktop.ini
 
-# ── Visual Studio / IDE state ──
-**/.vs/
-**/ipch/
+# ── C/C++ 編譯產物（MSVC）──
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.idb
+*.pch
+*.gch
+*.res
+*.tlog
+*.lastbuildstate
+*.lib
+*.exp
+*.dll
+vc*.pdb
+
+# ── C/C++ 編譯產物（GCC/Clang/Linux）──
+*.o
+*.lo
+*.out
+*.a
+*.so
+*.dylib
+*.dSYM/
+a.out
+
+# ── CUDA ──
+*.ptx
+*.cubin
+*.fatbin
+
+# ── profiling 產出（可能很大）──
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+*.sqlite
+
+# ── 建置目錄 ──
+build/
+bin/
+Debug/
+Release/
+x64/
+obj/
+.vs/
+ipch/
+Objects/
+Listings/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build.ninja
+.ninja_*
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# ── 編輯器 ──
+*.swp
+*.swo
+*~
 *.suo
 *.user
 *.userosscache
@@ -15,54 +82,26 @@ Desktop.ini
 *.sdf
 *.opensdf
 *.ncb
-*.swp
-*.swo
-*~
+.idea/
 
-# ── Compiler and linker outputs ──
-*.exe
-*.obj
-*.o
-*.lo
-*.pdb
-*.ilk
-*.idb
-*.pch
-*.gch
-*.tlog
-*.lastbuildstate
-*.res
-*.exp
-*.lib
-*.dll
-*.out
-*.a
-*.so
-*.dylib
-*.dSYM/
-a.out
+# ── 大型權重／資料集（絕不進 git）──
+*.safetensors
+*.gguf
+*.pt
+*.pth
 
-# ── Build directories ──
-**/[Dd]ebug/
-**/[Rr]elease/
-**/[Rr]elWithDebInfo/
-**/[Mm]inSizeRel/
-**/[Oo]bj/
-**/[Bb]in/[Dd]ebug/
-**/[Bb]in/[Rr]elease/
-**/Objects/
-**/Listings/
-**/cmake-build-*/
-**/CMakeFiles/
-**/CMakeCache.txt
-**/cmake_install.cmake
-**/build.ninja
-**/.ninja_*
-
-# ── Python caches ──
-**/__pycache__/
-*.pyc
-*.pyo
-**/.pytest_cache/
-**/.mypy_cache/
-**/.ruff_cache/
+# ── 範例樹的編譯產物：沒有副檔名的執行檔（2026-07-19） ──
+# 這些 Makefile 把輸出命名成原始檔的 basename（例如 string_view.cpp → string_view），
+# 產物【沒有副檔名】，所以 *.o／*.exe 這類靠副檔名的規則完全擋不住——
+# 本 repo 曾因此追蹤了 195 個 ELF 執行檔（10.3 MB）。
+#
+# 規則：在範例樹底下只追蹤「有副檔名的檔案」與 Makefile，其餘一律忽略。
+# （刻意不用寬鬆的萬用規則，避免誤擋合法的無副檔名檔案。）
+Claude Code C++by Examples/**
+!Claude Code C++by Examples/**/
+!Claude Code C++by Examples/**/*.*
+!Claude Code C++by Examples/**/Makefile
+Codex C++by Examples/**
+!Codex C++by Examples/**/
+!Codex C++by Examples/**/*.*
+!Codex C++by Examples/**/Makefile
